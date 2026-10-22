@@ -64,6 +64,6 @@ table('3. Provas de bolsa (pós-graduação)',[x for x in rows if x['tipo']=='pr
 for t,title in [('curso presencial','4. Cursos livres presenciais'),('curso online','5. Cursos livres online e gravados'),('curso em espanhol','6. Cursos em espanhol'),('grupo de estudos','7. Grupos de estudos'),('aprimoramento (Ufape Clínica)','8. Aprimoramento (Ufape Clínica)')]:
     table(title,[x for x in rows if x['tipo']==t],['cod','curso','local','mod','ini','ch','preco','status','fonte','ficha'])
 table('9. Simpósios e congressos',[x for x in rows if x['tipo']=='simpósio ou congresso'],['cod','curso','local','ini','preco','status','fonte','ficha'])
-out='\n'.join(L).replace('–','-').replace('—','-')
+out='\n'.join(L).replace('\u2013','-').replace('\u2014','-')
 open(REPO+'/contexto/catalogo-de-cursos.md','w').write(out)
 print(len(out.splitlines()))

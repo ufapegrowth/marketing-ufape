@@ -3,7 +3,7 @@ SITE=os.environ.get('DADOS_DIR','dados')
 REPO=os.environ.get('REPO_DIR','../..')
 HOJE=datetime.date(2026,10,22)
 d=json.load(open(SITE+'/cursos.json'))
-def clean(s): return re.sub(r'\s+',' ',(s or '').replace('–','-').replace('—','-')).strip()
+def clean(s): return re.sub(r'\s+',' ',(s or '').replace('\u2013','-').replace('\u2014','-')).strip()
 def cell(s): return clean(s).replace('|','/')
 def pid(u): m=re.search(r'/produto/(\d+)',u or ''); return m.group(1) if m else ''
 def slug(s): 
@@ -90,7 +90,7 @@ for x in rows:
     body=mainbody(x)
     txt=f"# {nome}\n\nFicha gerada automaticamente a partir da página oficial e da planilha \"DATAS CURSOS E PÓS\" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.\n\n## Dados principais\n\n"
     txt+='\n'.join(f"- **{k}:** {clean(v)}" for k,v in meta if clean(v))+"\n\n## Texto da página (copiado do site)\n\n"+body+"\n"
-    txt=txt.replace('–','-').replace('—','-')
+    txt=txt.replace('\u2013','-').replace('\u2014','-')
     open(REPO+'/'+path,'w').write(txt); fichas+=1
 json.dump(rows,open(SITE+'/rows.json','w'),ensure_ascii=False,indent=1)
 json.dump(skipped,open(SITE+'/skipped.json','w'),ensure_ascii=False,indent=1)
