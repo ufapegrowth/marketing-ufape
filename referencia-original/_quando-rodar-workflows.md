@@ -1,0 +1,22 @@
+# When to run each workflow (from the original guide)
+
+- .claude/commands/market-to-icp-in-one-afternoon.md: Run it when: new offer or new market. Chain: market-research -> competitor-intel -> customer-insights -> icp-research.
+- .claude/commands/monthly-market-pulse.md: Run it when: first Monday of the month. Chain: trend-analysis -> competitor-intel -> customer-insights -> marketing-strategy.
+- .claude/commands/positioning-reset.md: Run it when: messaging feels generic or win rate falls. Chain: competitor-intel -> positioning -> messaging -> brand-strategy.
+- .claude/commands/quarterly-plan.md: Run it when: two weeks before a new quarter. Chain: analysis-optimisation -> marketing-strategy -> offer-strategy -> content-strategy.
+- .claude/commands/new-search-page.md: Run it when: a priority keyword with no page. Chain: keyword-research -> content-gap -> content-brief -> longform-content -> onpage-seo -> marketing-qa.
+- .claude/commands/search-health-check.md: Run it when: monthly. Chain: technical-seo -> onpage-seo -> link-building -> content-performance.
+- .claude/commands/idea-to-published-article.md: Run it when: an approved calendar topic. Chain: content-brief -> longform-content -> content-editor -> marketing-qa -> repurposing.
+- .claude/commands/content-refresh.md: Run it when: monthly. Chain: content-performance -> onpage-seo -> content-editor -> repurposing.
+- .claude/commands/weekly-social-batch.md: Run it when: every Friday. Chain: content-strategy -> social-posts -> hook-creator -> marketing-qa.
+- .claude/commands/long-piece-to-social.md: Run it when: a new article, video or webinar. Chain: social-repurposing -> hook-creator -> distribution -> audience-growth.
+- .claude/commands/lead-magnet-launch.md: Run it when: new lead magnet approved. Chain: lead-magnets -> longform-content -> landing-page -> nurture-campaigns -> distribution.
+- .claude/commands/campaign-sprint.md: Run it when: a launch or promotion date. Chain: campaign-strategy -> content-strategy -> social-posts -> email-copy -> campaign-analysis.
+- .claude/commands/weekly-newsletter.md: Run it when: every Tuesday. Chain: content-performance -> newsletter -> marketing-qa -> email-optimisation.
+- .claude/commands/new-lifecycle-sequence.md: Run it when: a stage with no sequence. Chain: lifecycle -> email-copy -> systems-integration -> marketing-qa.
+- .claude/commands/page-conversion-sprint.md: Run it when: a key page under target. Chain: funnel-analysis -> cro-analysis -> cta-optimiser -> experiment-design -> landing-page.
+- .claude/commands/offer-to-page.md: Run it when: new or reworked offer. Chain: offer-strategy -> landing-page -> cta-optimiser -> marketing-qa.
+- .claude/commands/monthly-reporting-cycle.md: Run it when: last business day of the month. Chain: data-analyst -> campaign-analysis -> content-performance -> reporting -> analysis-optimisation.
+- .claude/commands/post-campaign-review.md: Run it when: campaign end or checkpoint. Chain: campaign-analysis -> data-analyst -> analysis-optimisation -> documentation.
+- .claude/commands/department-setup-week.md: Run it when: first week using this system. Chain: marketing-systems -> documentation -> workflow-architect -> systems-integration -> marketing-qa.
+- .claude/commands/monthly-ops-tidy.md: Run it when: last Friday of the month. Chain: marketing-systems -> documentation -> marketing-qa -> workflow-architect.

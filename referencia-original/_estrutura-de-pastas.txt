@@ -1,0 +1,22 @@
+your-marketing-project/
+  CLAUDE.md                 orchestrator (setup file)
+  marketing-context.md      Marketing Context File (setup file)
+  .claude/
+    agents/                 50 agent files
+    skills/                 20 skill folders, each with SKILL.md
+    commands/               20 workflow files
+  templates/                10 templates
+  audits/                   10 audit checklists
+  recipes.md                10 task recipes
+  knowledge/INDEX.md
+  outputs/
+    01-market-intelligence/
+    02-strategy-positioning/
+    03-seo-search/
+    04-content/
+    05-social-community/
+    06-demand-generation/
+    07-email-lifecycle/
+    08-conversion/
+    09-analytics-insights/
+    10-marketing-operations/
