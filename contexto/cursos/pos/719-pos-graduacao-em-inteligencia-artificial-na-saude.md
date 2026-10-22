@@ -1,4 +1,4 @@
-# Pós-Graduação Inteligência Artificial na Saúde
+# Pós-graduação em Inteligência Artificial na Saúde
 
 Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
