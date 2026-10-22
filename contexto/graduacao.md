@@ -1,51 +1,63 @@
 # CONTEXTO DA LINHA: GRADUAÇÃO
 
-Leia junto com contexto/ufape-geral.md. Campos entre colchetes são para preencher.
+Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, montada a partir das páginas de graduação do site. Itens com [SUPOSIÇÃO] precisam de validação; campos entre colchetes, de preenchimento.
 
-Última atualização: [AAAA-MM-DD] por [nome]
+Última atualização: 2026-10-22 por squad (pendente de revisão da Ufape)
 
 ## Oferta
 
-- Cursos desta linha: ver contexto/catalogo-de-cursos.md (filtrar por linha = graduacao)
-- Modalidades: [presencial, semipresencial, EAD]
-- Faixa de preço e condições: [ex.: mensalidade de R$ X a R$ Y; bolsas e descontos vigentes com regras e validade]
-- O que o aluno recebe ao concluir: diploma de graduação (bacharelado, licenciatura ou tecnólogo), conforme o catálogo
+| Curso | Local | Modalidade | Turno e duração | Carga horária | Investimento (site) |
+|---|---|---|---|---|---|
+| Medicina Veterinária | São Paulo, SP | Presencial | Integral (4 anos) ou Noturno (5 anos) | 4.195 h + 75 h de atividades complementares | Integral: R$ 5.000,00/mês (de R$ 10.000,00, desconto de 50%). Noturno: R$ 4.000,00/mês (de R$ 10.000,00, desconto de 60%) |
+| Pedagogia | Goiânia, GO | Presencial | Noturno (4 anos) | 3.440 h | R$ 525,00/mês (de R$ 1.050,00, desconto de 50%) |
+
+- Regras dos descontos: editais publicados no site (Descontos 2027 e Desconto de Mensalidade 2027.1 Goiânia). Toda peça com desconto cita condições e validade conforme o edital.
+- Processo seletivo: Vestibular 2027 (SP) e Processo Seletivo 2027.1 (Goiânia), com editais no site.
+- O que o aluno recebe ao concluir: diploma de bacharel em Medicina Veterinária ou de licenciatura em Pedagogia. [Confirmar o grau da Pedagogia com a regulação]
+- Atos regulatórios (autorização ou reconhecimento): [PREENCHER COM A REGULAÇÃO]
+- Diferenciais citados no site (Medicina Veterinária): matriz com prática desde o 1º semestre, projetos extensionistas, práticas hospitalares, estágio supervisionado no 7º e 8º semestres (integral), hospital veterinário próprio (Ufape Clínica) e professores que também dão aula nas pós da Ufape.
 
 ## Persona principal
 
-- Quem é: [ex.: jovem de 17 a 24 anos concluindo o ensino médio; adulto de 25 a 40 anos sem diploma]
-- Gatilho que faz procurar um curso agora: [ex.: resultado do Enem, fim do ensino médio, exigência do emprego]
-- Dores antes (nas palavras dele): [citações reais, anonimizadas]
+- Medicina Veterinária: jovem de 17 a 22 anos, apaixonado por animais, terminando o ensino médio na Grande São Paulo, com a família participando da decisão e do pagamento. [SUPOSIÇÃO]
+- Noturno: adulto que trabalha durante o dia e quer mudar de carreira para a veterinária. [SUPOSIÇÃO]
+- Pedagogia: adulto de Goiânia que já trabalha (muitas vezes em escola ou com crianças) e precisa do diploma para crescer na carreira, estudando à noite. [SUPOSIÇÃO]
+- Gatilho que faz procurar um curso agora: resultado do Enem e fim do ensino médio; exigência de diploma no trabalho (Pedagogia). [SUPOSIÇÃO]
+- Dores antes (nas palavras dele): [citações reais, anonimizadas, do atendimento]
 - Resultado esperado depois (nas palavras dele): [citações reais, anonimizadas]
 
 ## Persona secundária
 
-- Quem é: [preencher]
+- Pais e responsáveis, que pesam preço, segurança, estrutura e reputação. [SUPOSIÇÃO]
 
 ## Top 3 objeções
 
-1. [ex.: medo de não conseguir pagar até o fim]
-2. [preencher]
-3. [preencher]
+1. Mensalidade alta (Medicina Veterinária) e medo de não conseguir pagar até o fim. [SUPOSIÇÃO]
+2. Faculdade nova ou pouco conhecida para graduação, comparada a universidades tradicionais. [SUPOSIÇÃO]
+3. [preencher com o time de captação]
 
 ## Alternativas que o candidato compara
 
-- [concorrentes desta linha]
-- [não fazer nada, adiar]
+- [outras faculdades de Medicina Veterinária em São Paulo, públicas e privadas]
+- [outras faculdades de Pedagogia em Goiânia, presenciais e EAD]
+- Pedagogia EAD mais barata. [SUPOSIÇÃO]
 
 ## Ciclo de captação
 
-- Captação semestral (vestibular de verão e de inverno), com picos nas semanas antes das provas e do início das aulas.
-- Datas-chave deste ano: [inscrições, provas, início das aulas, fim do desconto]
+- Captação semestral com o Vestibular 2027 (SP) e o Processo Seletivo 2027.1 (Goiânia). Picos nas semanas antes das provas e do início das aulas.
+- Datas-chave deste ciclo: [inscrições, provas, resultado, matrícula, início das aulas, fim do desconto, conforme os editais]
 
 ## Canais que mais trazem matrícula nesta linha
 
-- [ex.: Meta Ads com cadastro, Google Search, indicação, WhatsApp]
+- [preencher com dados do CRM]
 
 ## Metas desta linha no trimestre
 
-- [leads, matrículas, custo por lead, custo por matrícula]
+- [inscritos, matrículas, custo por inscrito, custo por matrícula]
 
 ## Regras específicas de comunicação
 
-- Graduação exige autorização ou reconhecimento do curso pelo MEC: citar sempre o ato conforme o catálogo. Comunicação com menores de idade exige cuidado redobrado (ECA e LGPD).
+- Citar sempre o ato regulatório do curso conforme o catálogo, sem antecipar reconhecimento.
+- Desconto sempre com valor cheio, valor com desconto, regra e validade, conforme o edital.
+- Comunicação com menores de idade exige cuidado redobrado (ECA e LGPD).
+- A página de Pedagogia tem textos de modelo e trechos copiados da Medicina Veterinária (ver docs/auditoria-do-catalogo-2026-10-22.md). Não usar esses trechos em peças.
