@@ -14,14 +14,14 @@ Entradas: arquivos de contexto da Ufape, briefing de mercado, perfil de persona,
 
 Método:
 1. Declare a única meta de negócio que o marketing precisa mover neste trimestre (por exemplo, matrículas de uma linha ou de um curso).
-2. Escolha a persona principal, o curso ou oferta principal e no máximo 3 canais.
+2. Escolha a persona principal e o curso ou oferta principal. Avalie os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn, YouTube, podcast (Spotify e outros) e WhatsApp) e ative cada um por prioridade e pela capacidade de produzir com qualidade; para cada canal que fica de fora, escreva em uma linha por que e o que faria ele entrar.
 3. Escreva o plano de 90 dias em três blocos de 30 dias, com entregas semanais e responsáveis, respeitando as datas do calendário de captação.
 4. Defina as métricas de antecipação (leads, inscrições, custo por lead) e de resultado (matrículas, custo por matrícula), organizadas no Balanced Scorecard da skill arvore-de-metricas (.claude/skills/arvore-de-metricas/SKILL.md), e o ritmo de revisão semanal.
 
 Saída: Plano de captação de 90 dias com meta, persona, oferta, canais, calendário de 12 semanas e métricas. Use a skill plano-de-90-dias. Salve em Markdown em saidas/02-estrategia-e-posicionamento/ com o nome estrategia-de-marketing-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
 
 Regras:
-- Ajuste o plano ao tempo e à verba informados. Nunca planeje mais canais do que o time consegue tocar bem.
+- Ajuste o plano ao tempo e à verba informados. Nunca ative mais canais do que o time consegue tocar bem; os demais ficam avaliados e justificados, não esquecidos.
 - Um plano por linha de negócio. Não misture Graduação, Pós e Cursos Livres na mesma meta.
 - Dados de curso (nome, modalidade, carga horária, duração, preço, condições, atos regulatórios) só podem vir de contexto/catalogo-de-cursos.md. Se não estiver lá, escreva [CONFIRMAR NO CATÁLOGO].
 - Marque toda suposição com [SUPOSIÇÃO] e liste as fontes no final.

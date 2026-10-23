@@ -28,4 +28,4 @@ Regras:
 - Marque toda suposição com [SUPOSIÇÃO] e liste as fontes no final.
 - Apenas rascunho. Nada é publicado, enviado ou pago sem aprovação humana.
 
-Ao terminar, informe o caminho do arquivo e sugira o próximo agente: documentacao.
+Ao terminar, informe o caminho do arquivo e diga se a peça segue para a aprovação humana ou volta para o agente que a produziu.

@@ -8,7 +8,7 @@ Propósito: Transformar uma meta de captação em 12 semanas de entregas claras.
 
 Passos:
 1. Declare a meta e a métrica (por exemplo, matrículas de uma linha ou de um curso, custo por matrícula).
-2. Escolha persona, curso ou oferta e até 3 canais.
+2. Escolha persona e curso ou oferta. Avalie os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn, YouTube, podcast (Spotify e outros) e WhatsApp), ative os que a capacidade de produção sustenta com qualidade, em ordem de prioridade, e justifique os que ficam de fora.
 3. Divida em três blocos de 30 dias com um tema cada, alinhados ao calendário de captação (vestibular, abertura de turmas, rematrícula).
 4. Liste as entregas semanais e os responsáveis.
 5. Defina as perguntas da revisão semanal.

@@ -1,7 +1,7 @@
 AUDITORIA DE OPERAÇÕES DE MARKETING
-[ ] Árvore de pastas e conhecimento/INDICE.md existem
-[ ] Regras de nomeação seguidas
-[ ] Todo fluxo tem um documento
+[ ] conhecimento/INDICE.md está atualizado
+[ ] Todo workflow cita só agentes, skills e auditorias que existem
+[ ] Todo workflow termina com auditoria e critério de pronto conferível
 [ ] Aprovação humana antes de publicar
 [ ] Acesso às ferramentas é o mínimo necessário
 [ ] Nenhuma chave guardada em arquivo de texto
