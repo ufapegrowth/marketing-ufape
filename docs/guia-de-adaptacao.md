@@ -171,10 +171,10 @@ argument-hint: [linha] [curso ou tema]
 | 09 | reporting | relatorios |
 | 09 | analysis-optimisation | backlog-de-otimizacao |
 | 10 | workflow-architect | arquiteto-de-fluxos |
-| 10 | systems-integration | integracao-de-sistemas |
+| 10 | systems-integration | integracao-de-sistemas (removido em outubro de 2026) |
 | 10 | marketing-qa | qa-de-marketing |
-| 10 | documentation | documentacao |
-| 10 | marketing-systems | organizacao-de-sistemas |
+| 10 | documentation | documentacao (removido em outubro de 2026) |
+| 10 | marketing-systems | organizacao-de-sistemas (removido em outubro de 2026) |
 | 11 | (novo) | estrategia-de-midia |
 | 11 | (novo) | anuncios-meta |
 | 11 | (novo) | anuncios-google |
@@ -231,7 +231,7 @@ argument-hint: [linha] [curso ou tema]
 | offer-to-page | oferta-para-pagina |
 | monthly-reporting-cycle | ciclo-mensal-de-relatorios |
 | post-campaign-review | revisao-pos-campanha |
-| department-setup-week | semana-de-implantacao |
+| department-setup-week | semana-de-implantacao (removido em outubro de 2026) |
 | monthly-ops-tidy | arrumacao-mensal |
 | (novo) | campanha-de-midia-paga |
 | (novo) | revisao-semanal-de-midia |
@@ -272,14 +272,14 @@ argument-hint: [linha] [curso ou tema]
 
 - **01 Inteligência de Mercado:** concorrentes são outras instituições de ensino (presenciais e EAD). `insights-de-alunos` usa conversas de atendimento (WhatsApp, Chatwoot), avaliações do Google e Reclame Aqui, pesquisas com alunos e anotações do time de captação. Remover nomes, telefones, CPF e e-mails antes de analisar.
 - **02 Estratégia e Posicionamento:** a "alternativa real" inclui não estudar agora, estudar em outra instituição, EAD barato e cursos gratuitos. `estrategia-de-oferta` trabalha com bolsas, descontos, condições de pagamento e bônus, sempre dentro das regras de conformidade (sem garantia de emprego ou salário).
-- **03 SEO e Busca:** páginas de curso são as páginas de dinheiro. Palavras-chave típicas: "<curso> EAD", "pós em <área>", "faculdade de <curso> em <cidade>", "curso de <tema> com certificado".
+- **03 SEO e Busca por IA:** páginas de curso são as páginas de dinheiro. Palavras-chave típicas: "<curso> EAD", "pós em <área>", "faculdade de <curso> em <cidade>", "curso de <tema> com certificado".
 - **04 Conteúdo:** blog, guias de carreira e conteúdo de apoio à decisão (como escolher uma pós, diferença entre MBA e especialização, quanto tempo dura o curso). Professores e coordenadores são fonte de autoridade.
 - **05 Social e Comunidade:** canais prioritários Instagram, TikTok, YouTube Shorts e LinkedIn (este principalmente para Pós). `autoridade-docente` entrevista coordenadores e professores, não um fundador.
 - **06 Geração de Demanda:** iscas digitais típicas: teste vocacional, simulado do vestibular, aula experimental, e-book de carreira, webinar com coordenador. Nutrição pode ser por e-mail e por WhatsApp.
 - **07 E-mail, WhatsApp e Relacionamento:** o original só fala de e-mail. Na Ufape, WhatsApp é o canal principal de captação e relacionamento. Todo agente deste departamento cobre os dois canais e respeita opt-in, horário comercial e frequência humana no WhatsApp. `jornada-do-aluno` cobre: lead, inscrito, matriculado, calouro, aluno ativo, rematrícula, evasão e ex-aluno (para nova venda, como pós após a graduação).
 - **08 Conversão:** foco em landing pages de curso e formulários de inscrição. O funil típico é: visita, lead, contato do time de captação, inscrição, matrícula, pagamento da primeira mensalidade.
 - **09 Analytics e Insights:** métricas de negócio são custo por lead, custo por matrícula, taxa de conversão lead para matrícula e receita por linha. Dados vêm de GA4, Meta Ads, Google Ads, CRM e Chatwoot.
-- **10 Operações de Marketing:** `qa-de-marketing` sempre roda também `auditorias/conformidade-educacional.md`. `integracao-de-sistemas` conhece as ferramentas da Ufape listadas em `contexto/ufape-geral.md` (CRM, Chatwoot, n8n, ClickUp, Supabase).
+- **10 Operações de Marketing:** `qa-de-marketing` sempre roda também `auditorias/conformidade-educacional.md`. `arquiteto-de-fluxos` desenha os workflows que a plataforma roda (formato de `.claude/commands`).
 - **11 Mídia Paga (novo):** cobre Meta Ads e Google Ads (Search, Performance Max e YouTube), estrutura de campanha por linha e por curso, públicos, criativos e leitura de resultados. Nunca sobe, altera ou pausa campanha: entrega plano e arquivos para um humano executar.
 
 ## Reforço de mídia paga e planejamento (outubro de 2026)
@@ -310,3 +310,39 @@ As faixas numéricas do kit (por exemplo, gastar de 1,5 a 2 vezes o CPL máximo 
 | Balanced Scorecard | skill arvore-de-metricas (reforçada) | estrategia-de-marketing, workflow plano-trimestral |
 
 As notas da matriz GUT e os itens da SWOT são avaliação do agente, não medida, e precisam citar a fonte de cada dado.
+
+## Onda 2, primeiro bloco: SEO e Busca por IA, canais e Vídeo e Áudio (outubro de 2026)
+
+Decisões do CEO de 23/10/2026 (P9 a P12). Os textos originais não foram copiados; ficou só a versão adaptada.
+
+### SEO e Busca por IA
+
+Fontes: pacote de 16 skills de SEO enviado pelo CEO e a skill `ai-seo` de coreyhaines31/marketingskills (licença MIT).
+
+| Skill de origem | Onde entrou na squad |
+|---|---|
+| ai-visibility-audit e ai-seo | skill nova visibilidade-em-ia. A squad só tem o Claude e a busca na web: resultado de assistente de IA fica "conferir manualmente" e nota só com checagem real |
+| opportunity-scoring | seção "Pontuação de oportunidades" da visibilidade-em-ia; valor da matrícula vem da metas-de-custo; corte abaixo de 40 é regra prática |
+| keyword-prompt-research | agente pesquisa-de-palavras-chave passa a listar perguntas feitas a assistentes de IA |
+| brief-writer | skill briefing-seo e templates/briefing-seo.md: bloco de resposta citável, entidades, FAQ e prova |
+| entity-schema | skill nova schema-de-curso (Course, EducationalOrganization, Person, FAQPage, Article); o código é aplicado no ufape-site |
+| gsc-analyst | skill nova leitura-do-search-console, só com exportação colada |
+| cannibalization-check | skill nova canibalizacao |
+| citation-gap-hunter e mention-outreach | skill nova mencoes-e-citacoes, usada por links-e-autoridade; todo contato espera aprovação |
+| topical-map | skill agrupar-palavras-chave (mapa por área) e agente lacunas-de-conteudo |
+| internal-linking | agente links-e-autoridade |
+| technical-audit | agente seo-tecnico (conteúdo sem JavaScript, robôs de IA, ordem por dano) |
+| content-refresh | workflow atualizacao-de-conteudo |
+| weekly-report, rank-citation-tracker | não trazidas (relatorios já cobre; rastreio sem fonte de dados inventaria resultado) |
+
+### Canais
+
+As regras "no máximo 3 canais" e "1 ou 2 plataformas" saíram de estrategia-de-marketing, plano-de-90-dias, estrategia-social e da auditoria 02. Agora todo plano avalia os 8 canais e ativa por prioridade e capacidade, justificando os de fora.
+
+### Departamento 10 enxuto
+
+Saíram organizacao-de-sistemas, documentacao e integracao-de-sistemas: dentro da plataforma, pastas e documentos ficam no pedido e integrações são projeto do admin. arquiteto-de-fluxos passou a desenhar os workflows da plataforma. Workflows ajustados: arrumacao-mensal (qa-de-marketing e arquiteto-de-fluxos), revisao-pos-campanha (aprendizados com relatorios), nova-regua-de-relacionamento (gatilhos listados pela jornada-do-aluno). semana-de-implantacao foi removido.
+
+### Departamento 12, Vídeo e Áudio
+
+Agentes novos tiktok, youtube, podcast e x, mais auditorias/12-video-e-audio.md e saidas/12-video-e-audio/. Fontes de método: reels-scripting, hook-generator e youtube-thumbnail de charlie947/social-media-skills (MIT) e social e video de coreyhaines31/marketingskills (MIT). Nada de ferramenta externa (Apify, Gemini) foi trazido: os agentes só planejam e roteirizam.

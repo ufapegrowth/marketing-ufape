@@ -8,3 +8,7 @@ AUDITORIA DE BUSCA
 [ ] As correções estão escritas como chamados
 [ ] Páginas de cursos ou turmas encerrados foram redirecionadas, não deixadas no ar
 [ ] Dados de curso nas páginas batem com contexto/catalogo-de-cursos.md
+[ ] Páginas prioritárias têm bloco de resposta citável, FAQ real e marcação estruturada
+[ ] O conteúdo principal aparece sem JavaScript
+[ ] Nenhum resultado de assistente de IA foi registrado sem checagem real
+[ ] Nenhuma consulta tem duas páginas da Ufape disputando sem correção proposta

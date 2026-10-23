@@ -12,8 +12,10 @@ Passos:
 3. Dê nome a cada cluster e escolha a palavra-chave pilar (em geral, a da página do curso ou da área).
 4. Distribua as palavras-chave de apoio entre as páginas (artigos, guias de carreira, perguntas frequentes).
 5. Marque as páginas que já existem no site em cada cluster.
+6. Monte o mapa por área (por exemplo, Medicina Veterinária, Educação, Gestão): os pilares da área, as páginas que uma instituição de referência teria em cada pilar e a situação de cada uma (existe, fraca ou falta).
+7. Mostre quais páginas devem linkar para quais e ponha o mapa em ordem de construção, com as páginas de curso primeiro.
 
-Saída: Tabela de clusters: cluster, pilar, palavras-chave de apoio, situação da página.
+Saída: Tabela de clusters (cluster, pilar, palavras-chave de apoio, situação da página) e mapa por área com situação, links e ordem de construção.
 
 Verificações antes de terminar:
 - Uma palavra-chave principal por página
