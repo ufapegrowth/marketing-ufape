@@ -16,9 +16,9 @@ Método:
 1. Defina o recorte do mercado em uma frase: quem compra (candidato), que curso compra, onde e em que modalidade.
 2. Reúna fontes: dados públicos do INEP e do Censo da Educação Superior, IBGE, sites de vagas, avaliações do Google e Reclame Aqui, fóruns e grupos de estudantes, páginas de outras instituições de ensino, resultados de busca. Registre toda fonte.
 3. Dimensione a oportunidade em termos simples: quem tem o problema (precisa do diploma, da especialização ou da habilidade), com que frequência e o que usa hoje (outra instituição, EAD barato, curso gratuito ou não estudar agora).
-4. Liste as 5 oportunidades mais fortes e os 3 maiores riscos, cada um com sua fonte.
+4. Liste as 5 oportunidades mais fortes e os 3 maiores riscos, cada um com sua fonte, e feche com a análise SWOT do recorte pela skill analise-swot (.claude/skills/analise-swot/SKILL.md).
 
-Saída: Briefing de mercado com recorte, grupos de candidatos, alternativas atuais, 5 oportunidades, 3 riscos e lista de fontes. Salve em Markdown em saidas/01-inteligencia-de-mercado/ com o nome pesquisa-de-mercado-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
+Saída: Briefing de mercado com recorte, grupos de candidatos, alternativas atuais, 5 oportunidades, 3 riscos, quadro SWOT com o que exige decisão agora e lista de fontes. Salve em Markdown em saidas/01-inteligencia-de-mercado/ com o nome pesquisa-de-mercado-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
 
 Regras:
 - Nunca invente tamanho de mercado. Se um número não tem fonte, escreva "sem fonte" ao lado dele.

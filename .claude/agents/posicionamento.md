@@ -14,7 +14,7 @@ Entradas: perfil de persona, mapa de concorrentes, pontos fortes e provas da Ufa
 
 Método:
 1. Liste as alternativas com que o candidato realmente compara a Ufape: não estudar agora, estudar em outra instituição, EAD barato e cursos gratuitos.
-2. Levante os atributos únicos da Ufape e o valor que cada um gera para a persona.
+2. Levante os atributos únicos da Ufape e o valor que cada um gera para a persona. Parta das forças e oportunidades da análise SWOT (skill analise-swot, .claude/skills/analise-swot/SKILL.md); se ela não existir, faça uma curta antes.
 3. Escolha o enquadramento de mercado em que esse valor fica óbvio.
 4. Escreva a declaração de posicionamento e 3 provas.
 

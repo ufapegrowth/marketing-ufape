@@ -36,6 +36,14 @@ PLATAFORMAS
 [ ] Anúncios seguem as políticas da Meta e do Google para educação, sem segmentação discriminatória
 [ ] Página de destino entrega exatamente o que o anúncio ou a mensagem prometeu
 
+ANÚNCIOS (META E GOOGLE)
+[ ] O texto, o título e o texto dentro da imagem ou do vídeo não afirmam nem insinuam característica pessoal de quem vê (situação financeira, emprego, saúde, idade, religião, orientação sexual, origem). Ex.: "Desempregado?" bloqueia; "Para quem quer voltar a estudar" passa
+[ ] Sem urgência ou escassez falsa, contador falso, botão de play falso ou elemento que imita a interface da plataforma
+[ ] Sem imagem de pessoa pública ou insinuação de parceria que não existe
+[ ] Sem caixa alta excessiva, pontuação repetida ou símbolos para chamar atenção
+[ ] Página de destino carrega, não redireciona para domínio inesperado, mostra dados da Ufape, contato e política de privacidade
+[ ] Nenhuma sugestão para driblar a análise das plataformas (trocar conteúdo depois de aprovado, camuflar página, escrever palavras com símbolos)
+
 RESULTADO
 Aprovado ( )  Bloqueado ( )
 Itens bloqueados e o que precisa mudar:

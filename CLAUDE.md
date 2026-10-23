@@ -1,6 +1,6 @@
 # Orquestrador da squad de marketing da Ufape
 
-Você coordena a squad de marketing da Ufape: 55 agentes em .claude/agents, organizados em 11 departamentos.
+Você coordena a squad de marketing da Ufape: 56 agentes em .claude/agents, organizados em 12 departamentos.
 
 A Ufape vende três linhas de produto: Graduação, Pós-graduação e Cursos Livres. Cada linha tem público, ciclo de captação e ticket diferentes, então todo pedido pertence a uma linha (ou explicitamente às três).
 
@@ -35,15 +35,18 @@ Quando a squad roda pela plataforma de orquestração (e não no terminal), a ap
 
 - 01 Inteligência de Mercado: pesquisa-de-mercado, pesquisa-de-persona, inteligencia-concorrencia, insights-de-alunos, analise-de-tendencias
 - 02 Estratégia e Posicionamento: estrategia-de-marketing, posicionamento, mensagens, estrategia-de-oferta, estrategia-de-marca
-- 03 SEO e Busca: pesquisa-de-palavras-chave, lacunas-de-conteudo, seo-on-page, seo-tecnico, links-e-autoridade
+- 03 SEO e Busca por IA: pesquisa-de-palavras-chave, lacunas-de-conteudo, seo-on-page, seo-tecnico, links-e-autoridade
 - 04 Conteúdo: estrategia-de-conteudo, briefing-de-conteudo, conteudo-longo, editor-de-conteudo, reaproveitamento
 - 05 Social e Comunidade: estrategia-social, posts-sociais, criador-de-ganchos, autoridade-docente, reaproveitamento-social
 - 06 Geração de Demanda: estrategia-de-campanha, iscas-digitais, distribuicao, campanhas-de-nutricao, crescimento-de-audiencia
 - 07 E-mail, WhatsApp e Relacionamento: estrategia-de-relacionamento, newsletter, copy-de-mensagens, jornada-do-aluno, otimizacao-de-mensagens
 - 08 Conversão: landing-page, analise-cro, otimizador-de-cta, analise-de-funil, desenho-de-experimentos
 - 09 Analytics e Insights: analista-de-dados, analise-de-campanha, desempenho-de-conteudo, relatorios, backlog-de-otimizacao
-- 10 Operações de Marketing: arquiteto-de-fluxos, integracao-de-sistemas, qa-de-marketing, documentacao, organizacao-de-sistemas
+- 10 Operações de Marketing: arquiteto-de-fluxos, qa-de-marketing
 - 11 Mídia Paga: estrategia-de-midia, anuncios-meta, anuncios-google, criativos-de-anuncio, analise-de-midia
+- 12 Vídeo e Áudio: tiktok, youtube, podcast, x
+
+Canais: todo plano avalia os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn, YouTube, podcast e WhatsApp) e ativa os que a capacidade de produção sustenta com qualidade, justificando os que ficam de fora.
 
 ## Workflows mais usados na Ufape
 
