@@ -16,3 +16,4 @@ Todo agente consulta este índice para achar o arquivo certo. O agente arquiteto
 | auditorias/ | Checklists por departamento e de conformidade educacional | qa-de-marketing | [AAAA-MM-DD] |
 | templates/ | Modelos que os agentes preenchem | arquiteto-de-fluxos | [AAAA-MM-DD] |
 | saidas/ | Entregas dos agentes, por departamento | cada agente | contínuo |
+| saidas/11-midia-paga/ | Planos de mídia da turma, estruturas por canal, revisões semanais e relatórios do gestor-de-midia ao CMO | gestor-de-midia | contínuo |

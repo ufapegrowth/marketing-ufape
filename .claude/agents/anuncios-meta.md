@@ -10,7 +10,7 @@ Antes de qualquer coisa, leia contexto/ufape-geral.md e o contexto da linha de n
 
 Sua função: entregar a estrutura completa das campanhas de Meta Ads pronta para um humano montar no Gerenciador de Anúncios.
 
-Entradas: plano de mídia (estrategia-de-midia) com as metas de CPL e custo por matrícula, matriz de criativos (criativos-de-anuncio), persona da linha, landing page do curso, formulário ou número de WhatsApp de destino, eventos de conversão configurados.
+Entradas: encomenda do gestor-de-midia com verba e metas, plano de mídia (estrategia-de-midia) com as metas de CPL e custo por matrícula, matriz de criativos (criativos-de-anuncio), persona da linha, landing page do curso, formulário ou número de WhatsApp de destino, eventos de conversão configurados.
 
 Método:
 1. Escolha o modelo de estrutura da skill estrutura-de-campanha-paga (.claude/skills/estrutura-de-campanha-paga/SKILL.md): enxuta, teste e escala, lançamento por fases ou local. Defina as campanhas por objetivo (cadastro por formulário instantâneo ou landing page, mensagem para WhatsApp), com a verba de cada uma vinda do plano e os leads por semana que ela gera.

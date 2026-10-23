@@ -1,12 +1,14 @@
 # Squad de Marketing da Ufape
 
-Uma squad de marketing multiagente que roda no Claude Code. São 56 agentes em 12 departamentos, mais skills, workflows, templates, auditorias e receitas. Tudo foi adaptado para a realidade da Ufape: três linhas de produto (Graduação, Pós-graduação e Cursos Livres), WhatsApp como canal principal, mídia paga e conformidade educacional (MEC, CDC, Conar e LGPD).
+Uma squad de marketing multiagente que roda no Claude Code. São 59 agentes em 12 departamentos, mais skills, workflows, templates, auditorias e receitas. Tudo foi adaptado para a realidade da Ufape: três linhas de produto (Graduação, Pós-graduação e Cursos Livres), WhatsApp como canal principal, mídia paga e conformidade educacional (MEC, CDC, Conar e LGPD).
 
 A base é o material "The Claude Code Marketing Team (2026)". Os arquivos originais, em inglês, estão em `referencia-original/` só para consulta. A forma como cada peça foi adaptada está em `docs/guia-de-adaptacao.md`.
 
 A mídia paga e o planejamento foram reforçados com o kit "7 Skills Meta Ads" e com quatro frameworks de gestão (SWOT, matriz GUT, SIPOC e Balanced Scorecard), adaptados para a Ufape. Skills novas: `metas-de-custo`, `diagnostico-de-midia`, `matriz-gut` e `analise-swot`. A origem de cada uma está no guia de adaptação.
 
 O departamento 03 virou "SEO e Busca por IA", com cinco skills novas (`visibilidade-em-ia`, `leitura-do-search-console`, `canibalizacao`, `schema-de-curso` e `mencoes-e-citacoes`), adaptadas de um pacote de 16 skills de SEO e da skill `ai-seo` de Corey Haines (MIT). O departamento 12, Vídeo e Áudio, traz os agentes `tiktok`, `youtube`, `podcast` e `x`. O departamento 10 ficou enxuto: saíram `organizacao-de-sistemas`, `documentacao` e `integracao-de-sistemas`, e o workflow `/semana-de-implantacao`.
+
+A mídia paga virou uma squad de ads completa: o `gestor-de-midia` chefia o departamento 11, decide a divisão de verba entre Meta, Google e YouTube, TikTok e LinkedIn, roda a revisão semanal e reporta ao CMO. Entraram também `anuncios-tiktok` e `anuncios-linkedin` (foco em Pós) e o workflow `/plano-de-midia-da-turma`.
 
 Canais: toda estratégia avalia os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn, YouTube, podcast e WhatsApp) e ativa os que a capacidade de produção sustenta com qualidade, justificando os que ficam de fora.
 
@@ -22,9 +24,9 @@ Canais: toda estratégia avalia os 8 canais (Instagram, Facebook, TikTok, X, Lin
 ```
 CLAUDE.md                      orquestrador
 contexto/                      contexto geral, contexto por linha e catálogo de cursos
-.claude/agents/                56 agentes
+.claude/agents/                59 agentes
 .claude/skills/                32 skills
-.claude/commands/              25 workflows
+.claude/commands/              26 workflows
 templates/                     11 templates
 auditorias/                    12 auditorias de departamento + conformidade educacional
 receitas.md                    10 receitas rápidas
@@ -48,7 +50,7 @@ referencia-original/           material original, em inglês
 | 08 | Conversão | landing-page, analise-cro, otimizador-de-cta, analise-de-funil, desenho-de-experimentos |
 | 09 | Analytics e Insights | analista-de-dados, analise-de-campanha, desempenho-de-conteudo, relatorios, backlog-de-otimizacao |
 | 10 | Operações de Marketing | arquiteto-de-fluxos, qa-de-marketing |
-| 11 | Mídia Paga (novo) | estrategia-de-midia, anuncios-meta, anuncios-google, criativos-de-anuncio, analise-de-midia |
+| 11 | Mídia Paga | gestor-de-midia, estrategia-de-midia, criativos-de-anuncio, anuncios-meta, anuncios-google, anuncios-tiktok, anuncios-linkedin, analise-de-midia |
 | 12 | Vídeo e Áudio (novo) | tiktok, youtube, podcast, x |
 
 ## Workflows
@@ -59,6 +61,7 @@ referencia-original/           material original, em inglês
 | /lancamento-de-pos | Curso de Pós novo ou relançado |
 | /pagina-de-curso | Página de curso nova ou reescrita |
 | /lote-semanal-por-linha | Toda quinta-feira, uma vez por linha |
+| /plano-de-midia-da-turma | Turma liberada para o marketing com verba de mídia |
 | /campanha-de-midia-paga | Nova campanha com verba aprovada |
 | /revisao-semanal-de-midia | Toda segunda-feira |
 | /mercado-a-persona | Curso novo ou mercado novo |

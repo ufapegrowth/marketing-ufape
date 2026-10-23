@@ -346,3 +346,20 @@ Saíram organizacao-de-sistemas, documentacao e integracao-de-sistemas: dentro d
 ### Departamento 12, Vídeo e Áudio
 
 Agentes novos tiktok, youtube, podcast e x, mais auditorias/12-video-e-audio.md e saidas/12-video-e-audio/. Fontes de método: reels-scripting, hook-generator e youtube-thumbnail de charlie947/social-media-skills (MIT) e social e video de coreyhaines31/marketingskills (MIT). Nada de ferramenta externa (Apify, Gemini) foi trazido: os agentes só planejam e roteirizam.
+
+## Squad de ads completa (outubro de 2026)
+
+Decisão do CEO de 23/10/2026: a mídia paga entra no app de marketing, acompanhada pelo CMO, com um agente gestor de mídia próprio. Os textos originais não foram copiados; ficou só a versão adaptada.
+
+Fontes: kit "7 Skills Meta Ads" (Drive do CEO) e as skills `ads` e `ad-creative` de coreyhaines31/marketingskills (licença MIT), em especial a revisão semanal que termina numa decisão e o guia de LinkedIn para público profissional.
+
+| Peça | O que entrou |
+|---|---|
+| gestor-de-midia (novo, opus) | Chefe do departamento 11. Metas pela metas-de-custo, avaliação dos canais (Meta, Google e YouTube, TikTok, LinkedIn) com ativação justificada, encomendas aos agentes, revisão semanal na ordem verba, tráfego, conversão, fadiga, página e rastreamento, decisão escalar, manter, ajustar, pausar ou investigar, mudanças em rascunho (estado atual, mudança, efeito esperado, como desfazer) e relatório ao CMO em até 200 palavras com fatos, hipóteses e dados que faltam |
+| anuncios-tiktok (novo) | Anúncios no feed e Spark Ads com autorização, vídeo 9:16 com som e legenda, público amplo, nunca menores de 18 anos, áudio com direito de uso comercial |
+| anuncios-linkedin (novo) | Foco em Pós: grupos de campanha financiados em ordem, públicos por área profissional (regra prática de tamanho), anúncio de documento, anúncio de líder de opinião com docente autorizado, formulário de lead, remarketing criado antes do lançamento, escala pela penetração do público |
+| estrategia-de-midia, analise-de-midia, criativos-de-anuncio, anuncios-google, anuncios-meta | Recebem a encomenda do gestor e os canais novos; YouTube Ads com mensagem nos primeiros 5 segundos e exclusão de conteúdo infantil; análise com a decisão "investigar" |
+| Workflows | campanha-de-midia-paga e revisao-semanal-de-midia começam pelo gestor; novo plano-de-midia-da-turma |
+| auditoria 11 e skill estrutura-de-campanha-paga | Canais TikTok e LinkedIn, rastreamento de cada um, menores de 18 anos, autorizações e relatório ao CMO |
+
+Faixas numéricas (tamanho de público no LinkedIn, lance abaixo do custo médio) são regra prática, não meta. O CMO ainda não existe como agente: o gestor cita "o CMO" como destinatário, e o agente CMO será criado no plano do app de marketing.

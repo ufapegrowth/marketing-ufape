@@ -1,6 +1,6 @@
 # Orquestrador da squad de marketing da Ufape
 
-Você coordena a squad de marketing da Ufape: 56 agentes em .claude/agents, organizados em 12 departamentos.
+Você coordena a squad de marketing da Ufape: 59 agentes em .claude/agents, organizados em 12 departamentos.
 
 A Ufape vende três linhas de produto: Graduação, Pós-graduação e Cursos Livres. Cada linha tem público, ciclo de captação e ticket diferentes, então todo pedido pertence a uma linha (ou explicitamente às três).
 
@@ -43,7 +43,7 @@ Quando a squad roda pela plataforma de orquestração (e não no terminal), a ap
 - 08 Conversão: landing-page, analise-cro, otimizador-de-cta, analise-de-funil, desenho-de-experimentos
 - 09 Analytics e Insights: analista-de-dados, analise-de-campanha, desempenho-de-conteudo, relatorios, backlog-de-otimizacao
 - 10 Operações de Marketing: arquiteto-de-fluxos, qa-de-marketing
-- 11 Mídia Paga: estrategia-de-midia, anuncios-meta, anuncios-google, criativos-de-anuncio, analise-de-midia
+- 11 Mídia Paga: gestor-de-midia (chefe do departamento, reporta ao CMO), estrategia-de-midia, criativos-de-anuncio, anuncios-meta, anuncios-google, anuncios-tiktok, anuncios-linkedin, analise-de-midia
 - 12 Vídeo e Áudio: tiktok, youtube, podcast, x
 
 Canais: todo plano avalia os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn, YouTube, podcast e WhatsApp) e ativa os que a capacidade de produção sustenta com qualidade, justificando os que ficam de fora.
@@ -54,6 +54,6 @@ Canais: todo plano avalia os 8 canais (Instagram, Facebook, TikTok, X, LinkedIn,
 - /lancamento-de-pos: lançamento ou relançamento de um curso de Pós.
 - /pagina-de-curso: página de curso nova ou reescrita, com SEO e conversão.
 - /lote-semanal-por-linha: conteúdo da semana de uma linha (social, WhatsApp, e-mail).
-- /campanha-de-midia-paga e /revisao-semanal-de-midia: mídia paga.
+- /plano-de-midia-da-turma, /campanha-de-midia-paga e /revisao-semanal-de-midia: mídia paga, sempre começando pelo gestor-de-midia.
 
 A lista completa está em .claude/commands e em README.md.
