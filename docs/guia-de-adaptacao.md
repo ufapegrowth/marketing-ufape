@@ -12,13 +12,14 @@ Este guia define como os arquivos de `referencia-original/` (material "The Claud
 
 ## A Ufape em uma frase
 
-A Ufape vende três linhas de produto, cada uma com público, ciclo de venda e ticket diferentes:
+A Ufape vende quatro linhas de produto, cada uma com público, ciclo de venda e ticket diferentes (a quarta, Eventos, entrou em 23/10/2026 pela decisão P57 do plano 03):
 
 | Linha | Público típico | Ciclo | Arquivo de contexto |
 |---|---|---|---|
 | Graduação | Jovens saindo do ensino médio e adultos voltando a estudar | Captação semestral (vestibular) | `contexto/graduacao.md` |
 | Pós-graduação | Profissionais formados buscando especialização ou MBA | Captação contínua, turmas abertas | `contexto/pos-graduacao.md` |
 | Cursos Livres | Quem quer uma habilidade rápida, sem diploma | Compra rápida, alto volume | `contexto/cursos-livres.md` |
+| Eventos (workshop e simpósio) | Quem quer atualização em encontro com data marcada | Por edição, com convite, lembrete, véspera e dia | `contexto/eventos.md` |
 
 Todo agente trabalha para **uma linha por vez**. Se o pedido não disser a linha, o agente pergunta.
 
@@ -33,7 +34,7 @@ model: <sonnet | opus>
 ---
 Você é o agente <slug-pt> da squad de marketing da Ufape (departamento <Nome do Departamento>).
 
-Antes de qualquer coisa, leia contexto/ufape-geral.md e o contexto da linha de negócio do pedido (contexto/graduacao.md, contexto/pos-graduacao.md ou contexto/cursos-livres.md). Se o pedido não disser a linha, ou se faltar algo que você precisa, pergunte antes de começar.
+Antes de qualquer coisa, leia contexto/ufape-geral.md e o contexto da linha de negócio do pedido (contexto/graduacao.md, contexto/pos-graduacao.md, contexto/cursos-livres.md ou contexto/eventos.md). Se o pedido não disser a linha, ou se faltar algo que você precisa, pergunte antes de começar.
 
 Sua função: <função>.
 
@@ -45,7 +46,7 @@ Método:
 3. ...
 4. ...
 
-Saída: <descrição da saída>. Salve em Markdown em saidas/<pasta-do-departamento>/ com o nome <slug-pt>-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
+Saída: <descrição da saída>. Salve em Markdown em saidas/<pasta-do-departamento>/ com o nome <slug-pt>-<linha>-AAAA-MM-DD.md (linha: graduacao, pos, livres ou eventos).
 
 Regras:
 - <regra específica do original, traduzida e adaptada>
@@ -363,3 +364,19 @@ Fontes: kit "7 Skills Meta Ads" (Drive do CEO) e as skills `ads` e `ad-creative`
 | auditoria 11 e skill estrutura-de-campanha-paga | Canais TikTok e LinkedIn, rastreamento de cada um, menores de 18 anos, autorizações e relatório ao CMO |
 
 Faixas numéricas (tamanho de público no LinkedIn, lance abaixo do custo médio) são regra prática, não meta. O CMO ainda não existe como agente: o gestor cita "o CMO" como destinatário, e o agente CMO será criado no plano do app de marketing.
+
+## CMO, quatro linhas e página da turma (histórias B4 e F2 do plano 03, outubro de 2026)
+
+Decisões do CEO de 23/10/2026 registradas no plano 03 do admin (docs/plans/03-app-marketing-e-cmo.md em ufapegrowth/ufapecursos): P55 (workshop e simpósio como evento com subtipo), P56 (fatos vêm do banco, a IA só escreve texto), P57 (quatro linhas, kit por tipo, ficha congelada como catálogo), P71 a P74 (catálogo de seções, seção nova só por versão do template, ordem padrão, textos sem número) e P75 (kit mínimo).
+
+| Peça | O que entrou |
+|---|---|
+| cmo (novo, opus) | Topo do organograma. Recebe a liberação com a ficha congelada, diagnostica, pede metas ao gestor-de-midia, avalia os 8 canais, abre o kit mínimo do tipo, distribui, revisa toda segunda e após cada liberação ou mudança da turma, encerra com relatório. Decide estratégia e prioridade; verba, publicação e envio esperam aprovação humana; lê só números agregados |
+| contexto/eventos.md (novo) | Quarta linha, só com estrutura e regras; campos a preencher marcados [CONFIRMAR]. Os simpósios saíram da tabela de contexto/cursos-livres.md |
+| templates/kit-de-lancamento-pos.md, -livres.md, -evento.md, -graduacao.md (novos) | Kit mínimo da P75 com responsável e prazo por entrega |
+| templates/pagina-da-turma.md (novo, versão 1) | Formato que a plataforma valida: catálogo de seções por tipo (dado, IA ou humano), obrigatórias, ordem padrão, SEO, resposta citável e parte textual do JSON-LD |
+| /pagina-de-curso | Usa visibilidade-em-ia e schema-de-curso e entrega no formato do template; a Graduação não usa este workflow |
+| /lancamento-de-pos e /campanha-de-vestibular | Começam pelo cmo; a página e o plano de mídia saem pelos workflows próprios; a Graduação aponta para a LP dela com UTM |
+| /lancamento-de-turma-livre e /lancamento-de-evento (novos) | Turma de Curso Livre e edição de workshop ou simpósio, começando pelo cmo |
+| Nomes de saída | Linha "eventos" em todos os agentes |
+
