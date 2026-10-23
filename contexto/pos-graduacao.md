@@ -2,7 +2,7 @@
 
 Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir de 55 páginas de pós e 23 de provas de bolsa do site e da planilha "DATAS CURSOS E PÓS". Itens com [SUPOSIÇÃO] precisam de validação.
 
-Última atualização: 2026-10-22 por squad (pendente de revisão da Ufape)
+Última atualização: 2026-10-23 por squad (pendente de revisão da Ufape)
 
 ## Oferta
 
@@ -18,6 +18,12 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir
 - **Avaliação:** prova mensal online com 5 questões e prova de recuperação no fim (pode ser substituída por estudo dirigido).
 - **O que o aluno recebe ao concluir:** certificado de especialização lato sensu.
 - **Texto de certificação aprovado para peças:** [PREENCHER COM A REGULAÇÃO]. O site usa hoje "CERTIFICADO PELO MEC", que a squad não deve repetir (ver auditorias/conformidade-educacional.md e docs/auditoria-do-catalogo-2026-10-22.md).
+
+## Padrão de nome (SEO e GEO)
+
+- Todo curso da linha se chama "Pós-graduação em <área>" em títulos, peças, anúncios e páginas. Nunca "Pós em", "Pós Graduação", "Pós-Graduação" ou "Pós-graduação Lato".
+- No site, o endereço segue o mesmo padrão: /pos-graduacao/pos-graduacao-em-<area>. O CMS do admin aplica a regra sozinho ao salvar.
+- Os textos copiados do site oficial (seção "Texto da página" das fichas) ficam como estão, porque registram o que está publicado.
 
 ## Persona principal
 
