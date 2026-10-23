@@ -1,6 +1,6 @@
 # Squad de Marketing da Ufape
 
-Uma squad de marketing multiagente que roda no Claude Code. São 59 agentes em 12 departamentos, mais skills, workflows, templates, auditorias e receitas. Tudo foi adaptado para a realidade da Ufape: três linhas de produto (Graduação, Pós-graduação e Cursos Livres), WhatsApp como canal principal, mídia paga e conformidade educacional (MEC, CDC, Conar e LGPD).
+Uma squad de marketing multiagente que roda no Claude Code. São 60 agentes em 12 departamentos, comandados pelo agente cmo, mais skills, workflows, templates, auditorias e receitas. Tudo foi adaptado para a realidade da Ufape: quatro linhas de produto (Graduação, Pós-graduação, Cursos Livres e Eventos), WhatsApp como canal principal, mídia paga e conformidade educacional (MEC, CDC, Conar e LGPD).
 
 A base é o material "The Claude Code Marketing Team (2026)". Os arquivos originais, em inglês, estão em `referencia-original/` só para consulta. A forma como cada peça foi adaptada está em `docs/guia-de-adaptacao.md`.
 
@@ -24,10 +24,10 @@ Canais: toda estratégia avalia os 8 canais (Instagram, Facebook, TikTok, X, Lin
 ```
 CLAUDE.md                      orquestrador
 contexto/                      contexto geral, contexto por linha e catálogo de cursos
-.claude/agents/                59 agentes
+.claude/agents/                60 agentes
 .claude/skills/                32 skills
-.claude/commands/              26 workflows
-templates/                     11 templates
+.claude/commands/              28 workflows
+templates/                     16 templates (inclui 4 kits de lançamento e a página da turma)
 auditorias/                    12 auditorias de departamento + conformidade educacional
 receitas.md                    10 receitas rápidas
 conhecimento/                  índice e voz do aluno
@@ -36,10 +36,11 @@ docs/                          guia de adaptação
 referencia-original/           material original, em inglês
 ```
 
-## Os 12 departamentos
+## Comando e os 12 departamentos
 
 | Nº | Departamento | Agentes |
 |---|---|---|
+| - | Comando | cmo (recebe a liberação, planeja os 8 canais, prioriza, distribui e revisa; o gestor-de-midia reporta a ele) |
 | 01 | Inteligência de Mercado | pesquisa-de-mercado, pesquisa-de-persona, inteligencia-concorrencia, insights-de-alunos, analise-de-tendencias |
 | 02 | Estratégia e Posicionamento | estrategia-de-marketing, posicionamento, mensagens, estrategia-de-oferta, estrategia-de-marca |
 | 03 | SEO e Busca por IA | pesquisa-de-palavras-chave, lacunas-de-conteudo, seo-on-page, seo-tecnico, links-e-autoridade |
@@ -57,9 +58,11 @@ referencia-original/           material original, em inglês
 
 | Workflow | Quando rodar |
 |---|---|
-| /campanha-de-vestibular | Captação semestral da Graduação |
-| /lancamento-de-pos | Curso de Pós novo ou relançado |
-| /pagina-de-curso | Página de curso nova ou reescrita |
+| /campanha-de-vestibular | Edital e curso da Graduação liberados para o marketing (começa pelo cmo) |
+| /lancamento-de-pos | Turma de Pós liberada (começa pelo cmo) |
+| /lancamento-de-turma-livre | Turma de Curso Livre liberada (começa pelo cmo) |
+| /lancamento-de-evento | Edição de workshop ou simpósio liberada (começa pelo cmo) |
+| /pagina-de-curso | Página da turma ou edição no formato de templates/pagina-da-turma.md |
 | /lote-semanal-por-linha | Toda quinta-feira, uma vez por linha |
 | /plano-de-midia-da-turma | Turma liberada para o marketing com verba de mídia |
 | /campanha-de-midia-paga | Nova campanha com verba aprovada |

@@ -15,7 +15,7 @@ Na Ufape, a linha de Cursos Livres reúne seis formatos diferentes, todos para m
 | Minicursos online (8 h) | Nefrologia, Oncologia, Neurologia, Dermatologia, Endocrinologia, Felinos e outros, "na Clínica Médica de Pequenos Animais" | R$ 185 a R$ 300 à vista | Contínuo, porta de entrada |
 | Grupos de estudos online | Anestesiologia, Nefrologia, Terapia Intensiva, Gastroenterologia, Oftalmologia, Clínica Médica e Emergência, Ortopedia | R$ 100 a R$ 734 (anual) | Anual ou por encontro |
 | Aprimoramento na Ufape Clínica | Aprimoramento extracurricular e curricular, profissionalizante, profissionalizante para aluno de pós | R$ 250 a R$ 1.000 à vista (um deles aparece como 1x de R$ 2.000,00 no cartão; confirmar) | Contínuo [confirmar] |
-| Simpósios e congressos | Simpósio Plantonista Veterinário, Simpósio Brasileiro de Neuromonitorização, Paciente Grave Multidisciplinar, Simpósio Internacional de Coagulação (online) | [preencher] | Por evento |
+| Simpósios e congressos | Desde 23/10/2026 ficam na linha Eventos (contexto/eventos.md), com os workshops | - | Por evento |
 
 Também há cursos em espanhol: presenciais em Lima, Peru (R$ 6.840,00 e R$ 8.208,00 à vista, turmas de 2025), e gravados (R$ 260,00 e R$ 580,00).
 
