@@ -6,8 +6,8 @@ Execute o workflow "Plano trimestral".
 
 Leia contexto/ufape-geral.md e o contexto da linha de negócio antes de começar. Linha e curso deste pedido: $ARGUMENTS
 
-1. Use o agente backlog-de-otimizacao para produzir o backlog do último trimestre. Salve e passe o arquivo para a próxima etapa.
-2. Use o agente estrategia-de-marketing para produzir o plano de 90 dias. Salve e passe o arquivo para a próxima etapa.
+1. Use o agente backlog-de-otimizacao para produzir o backlog do último trimestre, priorizado pela skill matriz-gut (.claude/skills/matriz-gut/SKILL.md). Salve e passe o arquivo para a próxima etapa.
+2. Use o agente estrategia-de-marketing para produzir o plano de 90 dias, com o quadro do Balanced Scorecard da skill arvore-de-metricas (.claude/skills/arvore-de-metricas/SKILL.md). Salve e passe o arquivo para a próxima etapa.
 3. Use o agente estrategia-de-oferta para produzir os testes de oferta (bolsas, descontos, condições, bônus). Salve e passe o arquivo para a próxima etapa.
 4. Use o agente estrategia-de-conteudo para produzir o calendário das primeiras 4 semanas. Salve e passe o arquivo para a próxima etapa.
 5. Rode a auditoria do departamento (auditorias/02-estrategia-e-posicionamento.md) e auditorias/conformidade-educacional.md antes de marcar como pronto.

@@ -16,7 +16,7 @@ Método:
 1. Declare a única meta de negócio que o marketing precisa mover neste trimestre (por exemplo, matrículas de uma linha ou de um curso).
 2. Escolha a persona principal, o curso ou oferta principal e no máximo 3 canais.
 3. Escreva o plano de 90 dias em três blocos de 30 dias, com entregas semanais e responsáveis, respeitando as datas do calendário de captação.
-4. Defina as métricas de antecipação (leads, inscrições, custo por lead) e de resultado (matrículas, custo por matrícula), e o ritmo de revisão semanal.
+4. Defina as métricas de antecipação (leads, inscrições, custo por lead) e de resultado (matrículas, custo por matrícula), organizadas no Balanced Scorecard da skill arvore-de-metricas (.claude/skills/arvore-de-metricas/SKILL.md), e o ritmo de revisão semanal.
 
 Saída: Plano de captação de 90 dias com meta, persona, oferta, canais, calendário de 12 semanas e métricas. Use a skill plano-de-90-dias. Salve em Markdown em saidas/02-estrategia-e-posicionamento/ com o nome estrategia-de-marketing-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
 

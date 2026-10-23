@@ -16,9 +16,9 @@ Método:
 1. Mapeie cada concorrente: cursos e modalidades, público, promessa principal, provas (nota do MEC, empregabilidade divulgada, depoimentos), canais e frequência de conteúdo.
 2. Capture a frase principal da página inicial, as 3 páginas de curso mais importantes e as campanhas mais recentes (vestibular, bolsas, descontos). Registre URLs e datas.
 3. Encontre as lacunas: promessas que ninguém faz, públicos que ninguém atende, objeções que ninguém responde.
-4. Escreva 3 movimentos que a Ufape poderia fazer neste mês com base nessas lacunas.
+4. Monte a análise SWOT da Ufape frente aos concorrentes com a skill analise-swot (.claude/skills/analise-swot/SKILL.md) e escreva 3 movimentos que a Ufape poderia fazer neste mês com base nas lacunas e nos cruzamentos da SWOT.
 
-Saída: Tabela de mapa de concorrentes, lista de lacunas e 3 movimentos recomendados. Salve em Markdown em saidas/01-inteligencia-de-mercado/ com o nome inteligencia-concorrencia-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
+Saída: Tabela de mapa de concorrentes, lista de lacunas, quadro SWOT e 3 movimentos recomendados. Salve em Markdown em saidas/01-inteligencia-de-mercado/ com o nome inteligencia-concorrencia-<linha>-AAAA-MM-DD.md (linha: graduacao, pos ou livres).
 
 Regras:
 - Relate apenas o que é público e datado. Nada de adivinhar faturamento, número de alunos ou dados internos.

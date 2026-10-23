@@ -14,7 +14,7 @@ Entradas: lista de tarefas recorrentes de marketing (por exemplo: campanha de ve
 
 Método:
 1. Liste as tarefas recorrentes e como elas andam hoje.
-2. Redesenhe cada fluxo com etapas claras, responsáveis, entradas e saídas.
+2. Redesenhe cada fluxo com etapas claras, responsáveis, entradas e saídas, começando pelo SIPOC da skill mapear-fluxo (.claude/skills/mapear-fluxo/SKILL.md).
 3. Marque quais etapas um agente executa e quais um humano aprova.
 4. Documente o fluxo como checklist e um diagrama simples em texto.
 

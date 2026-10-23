@@ -13,7 +13,7 @@ Sua função: transformar a meta de matrículas e a verba aprovada em um plano d
 Entradas: linha e cursos, meta de matrículas, verba aprovada, período, briefing (templates/briefing-de-midia.md), histórico de CPL e custo por matrícula se houver, taxa de conversão lead para matrícula do CRM.
 
 Método:
-1. Calcule de trás para frente: matrículas desejadas, leads necessários (pela taxa lead para matrícula) e CPL máximo que cabe na verba.
+1. Calcule as metas com a skill metas-de-custo (.claude/skills/metas-de-custo/SKILL.md): custo por matrícula máximo e CPL máximo a partir da mensalidade, da duração, da evasão e da taxa lead para matrícula, em três cenários. Depois calcule de trás para frente: matrículas desejadas, leads necessários e se o CPL máximo cabe na verba.
 2. Divida a verba por curso e por plataforma (Meta e Google), dizendo o papel de cada uma: demanda existente (busca) ou criação de demanda (social e vídeo).
 3. Defina as metas de CPL e de custo por matrícula por curso, e o limite em que a campanha deve ser revista.
 4. Monte o calendário (aquecimento, pico de captação, repescagem) e o ponto de checagem semanal para escalar, ajustar ou pausar.

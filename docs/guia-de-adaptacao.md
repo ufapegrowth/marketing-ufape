@@ -201,7 +201,7 @@ argument-hint: [linha] [curso ou tema]
 | sequence-mapping | mapear-regua |
 | page-teardown | raio-x-de-pagina |
 | test-hypothesis | hipotese-de-teste |
-| metric-tree | arvore-de-metricas |
+| metric-tree | arvore-de-metricas (com o Balanced Scorecard, ver abaixo) |
 | insight-memo | memorando-de-insight |
 | workflow-mapping | mapear-fluxo |
 | knowledge-index | indice-de-conhecimento |
@@ -281,3 +281,32 @@ argument-hint: [linha] [curso ou tema]
 - **09 Analytics e Insights:** métricas de negócio são custo por lead, custo por matrícula, taxa de conversão lead para matrícula e receita por linha. Dados vêm de GA4, Meta Ads, Google Ads, CRM e Chatwoot.
 - **10 Operações de Marketing:** `qa-de-marketing` sempre roda também `auditorias/conformidade-educacional.md`. `integracao-de-sistemas` conhece as ferramentas da Ufape listadas em `contexto/ufape-geral.md` (CRM, Chatwoot, n8n, ClickUp, Supabase).
 - **11 Mídia Paga (novo):** cobre Meta Ads e Google Ads (Search, Performance Max e YouTube), estrutura de campanha por linha e por curso, públicos, criativos e leitura de resultados. Nunca sobe, altera ou pausa campanha: entrega plano e arquivos para um humano executar.
+
+## Reforço de mídia paga e planejamento (outubro de 2026)
+
+Duas fontes externas foram adaptadas para a Ufape, seguindo as mesmas regras de escrita deste guia. Os textos originais não foram copiados para o repositório; ficou só a versão adaptada.
+
+### Kit "7 Skills Meta Ads" (material para gestores de tráfego)
+
+| Skill do kit | Onde entrou na squad | Adaptação |
+|---|---|---|
+| Calculadora de Metas | skill nova metas-de-custo; usada por estrategia-de-midia e analise-de-midia | "Venda" virou matrícula; a receita vem de mensalidade, parcelas pagas, evasão, taxa de matrícula, bolsas e descontos |
+| Diagnóstico de Campanha | skill nova diagnostico-de-midia; usada por analise-de-midia | Funil estendido até a matrícula no CRM; sintoma novo "lead barato e matrícula cara" |
+| Estrategista de Criativos | skill matriz-de-criativos (reescrita) | As 5 dimensões de diversidade com personas da Ufape; "uma variável por vez" ficou só para iterações de um vencedor |
+| Arquiteto de Estrutura | skill estrutura-de-campanha-paga (reforçada) | Modelos enxuta, teste e escala, lançamento por fases (vestibular e turma de Pós) e local; nomenclatura da Ufape mantida |
+| Copy de Anúncio | agente anuncios-meta (reforçado) | Anatomia do anúncio, estruturas de texto e entregável padrão |
+| Auditor de Políticas | skill conformidade-educacional e auditorias/conformidade-educacional.md (bloco de anúncios) | Junto da auditoria de MEC, CDC, Conar e LGPD, sem criar outra auditoria |
+| Relatório para Cliente | agente relatorios (reforçado) | O leitor é a diretoria da Ufape; versão curta para WhatsApp e roteiro de reunião |
+
+As faixas numéricas do kit (por exemplo, gastar de 1,5 a 2 vezes o CPL máximo antes de pausar) entraram como "regra prática, não meta". Os emojis de risco do kit foram retirados.
+
+### Frameworks de gestão (SWOT, GUT, SIPOC e Balanced Scorecard)
+
+| Framework | Onde entrou | Quem usa |
+|---|---|---|
+| SWOT | skill nova analise-swot | pesquisa-de-mercado, inteligencia-concorrencia, posicionamento |
+| Matriz GUT | skill nova matriz-gut | backlog-de-otimizacao, workflows plano-trimestral e revisao-pos-campanha |
+| SIPOC | skill mapear-fluxo (reforçada) | arquiteto-de-fluxos |
+| Balanced Scorecard | skill arvore-de-metricas (reforçada) | estrategia-de-marketing, workflow plano-trimestral |
+
+As notas da matriz GUT e os itens da SWOT são avaliação do agente, não medida, e precisam citar a fonte de cada dado.

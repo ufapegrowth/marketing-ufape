@@ -4,6 +4,8 @@ Uma squad de marketing multiagente que roda no Claude Code. São 55 agentes em 1
 
 A base é o material "The Claude Code Marketing Team (2026)". Os arquivos originais, em inglês, estão em `referencia-original/` só para consulta. A forma como cada peça foi adaptada está em `docs/guia-de-adaptacao.md`.
 
+A mídia paga e o planejamento foram reforçados com o kit "7 Skills Meta Ads" e com quatro frameworks de gestão (SWOT, matriz GUT, SIPOC e Balanced Scorecard), adaptados para a Ufape. Skills novas: `metas-de-custo`, `diagnostico-de-midia`, `matriz-gut` e `analise-swot`. A origem de cada uma está no guia de adaptação.
+
 ## Como começar
 
 1. Abra esta pasta no Claude Code.
@@ -17,7 +19,7 @@ A base é o material "The Claude Code Marketing Team (2026)". Os arquivos origin
 CLAUDE.md                      orquestrador
 contexto/                      contexto geral, contexto por linha e catálogo de cursos
 .claude/agents/                55 agentes
-.claude/skills/                23 skills
+.claude/skills/                27 skills
 .claude/commands/              26 workflows
 templates/                     11 templates
 auditorias/                    11 auditorias de departamento + conformidade educacional

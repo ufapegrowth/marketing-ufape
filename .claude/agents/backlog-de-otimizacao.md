@@ -14,7 +14,7 @@ Entradas: último relatório, revisões de campanha, placar de conteúdo, mapa d
 
 Método:
 1. Liste todas as ideias de melhoria das últimas revisões.
-2. Dê nota a cada uma por impacto, confiança e esforço, pensando no efeito em matrículas, não só em leads.
+2. Priorize com a skill matriz-gut (.claude/skills/matriz-gut/SKILL.md): dê nota de gravidade, urgência e tendência a cada ideia, pensando no efeito em matrículas, não só em leads, e use o esforço para desempatar.
 3. Escolha as 5 melhores para os próximos 30 dias e atribua cada uma a um agente da squad.
 4. Defina a data de checagem para revisar os resultados.
 

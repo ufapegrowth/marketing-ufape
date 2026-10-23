@@ -8,7 +8,7 @@ Leia contexto/ufape-geral.md e o contexto da linha de negócio antes de começar
 
 1. Use o agente analise-de-campanha para produzir as metas versus realizado (leads, inscrições, matrículas, custo por lead e custo por matrícula). Salve e passe o arquivo para a próxima etapa.
 2. Use o agente analista-de-dados para produzir os recortes mais profundos (por canal, curso, público e tempo entre lead e matrícula). Salve e passe o arquivo para a próxima etapa.
-3. Use o agente backlog-de-otimizacao para produzir a lista manter, mudar, parar. Salve e passe o arquivo para a próxima etapa.
+3. Use o agente backlog-de-otimizacao para produzir a lista manter, mudar, parar, priorizada pela skill matriz-gut (.claude/skills/matriz-gut/SKILL.md). Salve e passe o arquivo para a próxima etapa.
 4. Use o agente documentacao para produzir o registro dos aprendizados. Salve e passe o arquivo para a próxima etapa.
 5. Rode a auditoria do departamento (auditorias/09-analytics.md) e auditorias/conformidade-educacional.md antes de marcar como pronto.
 
