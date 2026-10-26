@@ -92,7 +92,13 @@ Todas as datas valem só depois da aprovação humana; se a aprovação atrasar,
 2. **Fora de régua ativa:** o toque não sai para quem tem toque da nutrição pendente nos próximos 5 dias úteis ou recebeu toque da nutrição nos últimos 5 dias úteis. A régua tem prioridade sobre o calendário para o mesmo contato (ela fala da etapa exata da pessoa).
 3. **Exclusões fixas:** pediu SAIR ou descadastro; etiqueta "falar com a captação" aberta; resultado "não aprovado" (contato humano da captação, regra da nutrição); pediu transferência, diplomado ou vaga remanescente; matrícula cancelada; etiqueta "sem engajamento" da nutrição (ver item 7); candidato menor de idade sem consentimento do representante legal validado (pedido G10).
 4. **Quem já agiu sai na hora:** inscreveu-se (sai de KE1 e KW1), fez a avaliação (sai de KW2, KE2, KW3, KE3, KW5), matriculou-se (sai de KW4).
-5. **Teto e fila (D1 e D2 do cmo geral):** os toques deste kit entram como "toque principal do kit de turma" (prioridade 2 de D2). Se o contato já tem mensagem de campanha de outra linha no mesmo dia, o CRM aplica a fila: vence o item com data mais próxima; o follow-up (KW1, KW3, KW5) é suprimido e não muda de dia.
+5. **Teto e fila (D16 da seção 13 e D2 da seção 12 do cmo geral):** os 8 toques do kit e as "-R" são mensagens de campanha e contam no teto da Graduação (até 3 por semana somando os canais, no máximo 2 por canal, 1 por dia; WhatsApp no máximo 1 a cada 3 dias úteis). Entram como "toque principal do kit de turma" (prioridade 2 de D2). Se o contato já tem mensagem de campanha no mesmo dia, ou se o toque faria a semana passar de 3 ou o canal passar de 2, o CRM aplica a fila: vence o item com data mais próxima; o follow-up (KW1, KW3, KW5) é suprimido e não muda de dia. Contato que está também na base de Pós, Livres ou Eventos soma as mensagens de todas as linhas e fica com o teto da Graduação.
+5a. **Serviço fora do teto (seção 13.3):** confirmação de inscrição (R1), resultado (A1), confirmação de matrícula (M1), semana de início (M5) e as "-R" desses toques da régua são serviço e não contam no teto; M2 e M4 só são serviço se a Ufape aprovar o pedido indicado na seção 13.3. Nenhum toque do kit é serviço, nenhum leva oferta para dentro de mensagem de serviço, e o serviço não abre espaço para toque extra do kit.
+5b. **E1, engajamento no WhatsApp:** contato que não respondeu, não clicou e não abriu conversa nas últimas 4 mensagens de campanha por WhatsApp (de qualquer linha) recebe no máximo 1 WhatsApp de campanha por semana; volta ao teto normal quando interagir. Sem nenhuma interação em 90 dias, sai do WhatsApp de campanha e fica só no e-mail, se tiver opt-in de e-mail. Para esse contato, os follow-ups KW1, KW3 e KW5 só saem se ele não recebeu outro WhatsApp de campanha na semana.
+5c. **E2, erro 131049 (limite da Meta por usuário):** a mensagem barrada não é reenviada por WhatsApp antes de 24 h e, pela fila D2, não muda de dia: conta como suprimida. O CRM registra a contagem do erro por envio.
+5d. **E3, descadastro:** SAIR no WhatsApp e descadastro no e-mail valem para todas as linhas e são atendidos no mesmo dia, com prazo máximo de 48 h. Todo e-mail de campanha do kit (KE1, KE2, KE3 e as "-R") leva descadastro em um clique, no rodapé e no cabeçalho de descadastro do e-mail.
+5e. **E4, opt-in por categoria:** o kit só vai a quem tem opt-in de campanha (marketing) no canal; opt-in só de serviço não basta.
+5f. **Limites de alerta (seção 13.4):** taxa de spam no Gmail, descadastro por envio, qualidade do número do WhatsApp e templates pausados podem reduzir ou pausar os toques do kit; o kit segue a ação que a seção 13.4 manda, sem exceção.
 6. **Respondeu:** qualquer resposta para os envios automáticos na hora e abre a etiqueta "falar com a captação". "SAIR" encerra o WhatsApp de marketing com uma só confirmação ("Pronto, você não vai mais receber mensagens da Ufape por aqui."). No KE3 e no KW5, a resposta "depois" encerra os toques da turma 2027/1 para o contato, sem tirar o consentimento.
 7. **"Sem engajamento":** a nutrição tira do envio quem não abriu, não clicou e não respondeu até o último toque da régua. Este kit respeita a regra. Pergunta ao cmo (pedido K4): um toque de calendário por momento do edital pode alcançar esse grupo uma única vez? Até a resposta, não alcança.
 8. **Encerramento:** todos os toques do kit param em 22/02/2027 (pedido G16 do cmo).
@@ -134,8 +140,8 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 ### 0.7 Campos fixos
 
 **E-mail (vale para KE1, KE2, KE3 e as "-R"):**
-- Opt-in: consentimento de e-mail registrado no CRM, com data e origem.
-- Forma de sair: link de descadastro no rodapé, que vale na hora.
+- Opt-in: consentimento de e-mail de campanha (marketing) registrado no CRM, com data e origem, separado do consentimento de serviço (E4).
+- Forma de sair: descadastro em um clique (E3), no link do rodapé e no cabeçalho de descadastro do e-mail; vale para todas as linhas e é atendido no mesmo dia, com prazo máximo de 48 h. Nenhuma página de confirmação, login ou pergunta antes de efetivar o descadastro.
 - Assinatura G1: "Equipe de captação da Faculdade UFAPE. Vendas São Paulo: WhatsApp (11) 91366-9290, de segunda a sexta, das 9h às 18h."
 - Assinatura G2: "Equipe de captação da Faculdade UFAPE. Vendas Goiânia: WhatsApp (62) 9420-1847, de segunda a sexta, das 9h às 18h."
 - Rodapé G1 (RE-G1): "Você recebe este e-mail porque se cadastrou no Vestibular 2027 da Faculdade UFAPE em São Paulo e aceitou receber contatos. Para parar de receber, use o link de descadastro. Política de privacidade: {link_politica}. UFAPE - CURSOS ESPECIALIZADOS LTDA, CNPJ 27.409.162/0001-34, Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP."
@@ -143,7 +149,8 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 - Nas "-R", a primeira frase do rodapé vira: "Você recebe este e-mail como representante legal cadastrado de um candidato menor de idade e aceitou receber contatos."
 
 **WhatsApp (vale para KW1 a KW5 e as "-R"):**
-- Opt-in de WhatsApp confirmado: exigido antes de cada envio. Sem registro, não sai.
+- Opt-in de WhatsApp confirmado: opt-in de campanha (marketing) por WhatsApp, separado do de serviço (E4), exigido antes de cada envio. Sem registro, não sai.
+- Engajamento e limite da Meta: regras E1 e E2 da seção 0.3 (itens 5b e 5c).
 - Mensagem iniciada pela Ufape: sempre por template aprovado pela Meta. As variáveis entre chaves viram {{1}}, {{2}}... na ordem em que aparecem; quem submete informa um exemplo fictício por variável. Categoria: marketing [CONFIRMAR com o responsável pelo CRM e a Meta]. Nenhum template foi submetido.
 - Limite de 1.024 caracteres no corpo do template: conferido em todos os textos desta seção (o maior é o KW4 noturno, com cerca de 1.000 caracteres antes de preencher as variáveis) [SUPOSIÇÃO: limite atual da Meta, conferir na submissão].
 - Forma de sair: última linha de toda mensagem, "Para não receber mais mensagens, responda SAIR."
@@ -166,7 +173,7 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 
 - Destino: faculdade.ufape.com.br/graduacao (G1) e faculdade.ufape.com.br/graduacao/pedagogia (G2) [CONFIRMAR com a plataforma qual URL recebe a UTM e se a origem chega ao CRM, pedido G13]. A squad nunca altera a LP. A plataforma gera a UTM final; esta tabela é a proposta para conferência.
 - utm_source: email (KE) ou whatsapp (KW). utm_medium: crm (D11).
-- utm_campaign = chave da Graduação + mês do primeiro envio do kit (D12): grad_medvet-geral_202611 (lead do G1 sem turno no CRM), grad_medvet-integral_202611, grad_medvet-noturno_202611, grad_pedagogia_202611. O mês é o do primeiro envio do kit (KE1, 11/2026) e não muda nos toques seguintes.
+- utm_campaign = chave da Graduação + mês do primeiro envio do kit (D12): grad_medvet-geral_202611 (lead do G1 sem turno no CRM), grad_medvet-integral_202611, grad_medvet-noturno_202611 e grad_pedagogia_<AAAAMM do primeiro envio com link para a LP de Pedagogia, depois de G6>. No G1, o mês é o do primeiro envio do kit (KE1, 11/2026) e não muda nos toques seguintes. Na Pedagogia, que só envia com link depois de G6, vale o mês do primeiro envio com link, a mesma regra da régua de nutrição (QA d, A-M4); se o G2 sair antes sem link (alternativa de 0.10), não há UTM. A regra única para os dois arquivos segue como decisão do cmo (QA d, A-N3).
 - utm_content = ID da mensagem: kit-e1, kit-w1, kit-w2, kit-e2, kit-w3, kit-w4, kit-e3, kit-w5; nas versões para o representante legal, com o sufixo -r (ex.: kit-w4-r).
 - Tudo em minúsculas, sem acento, sem dado pessoal.
 

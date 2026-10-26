@@ -8,6 +8,7 @@
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
 - Entrega: 4 roteiros orgânicos (2 por liberação, o mínimo do kit em cada uma), com 3 ganchos cada, legenda, chamada com UTM, música, acessibilidade e cuidados com menores.
+- Versão: 2, corrigida após qa-de-marketing-graduacao-2026-10-26-d (T-1, T-2, A-T1 a A-T3). Mudanças no fim do arquivo.
 - Status: rascunho para aprovação humana. Nada é gravado, publicado ou impulsionado a partir deste arquivo.
 - Entradas lidas:
   - .claude/agents/tiktok.md
@@ -30,7 +31,8 @@
   - saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md
   - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md, -b.md e -c.md
   - auditorias/12-video-e-audio.md
-- Regra de fonte: duração, turno, modalidade, local e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso, regra do menor e até 30% a distância vêm da ficha dos editais 2027/1; nomes de disciplinas, horas do 1º semestre e semestres de estágio vêm da matriz das fichas dos cursos e estão marcados [CONFIRMAR NO CATÁLOGO]. Nenhum número de desempenho, seguidor, meta ou verba existe hoje. Nenhum aluno, nenhum dado pessoal. Nenhum preço e nenhum desconto nos roteiros (ver 0.3).
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (versão 2: T-1, T-2, A-T1 a A-T3)
+- Regra de fonte: duração, turno, modalidade, local e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso, regra do menor e até 30% a distância vêm da ficha dos editais 2027/1; nomes de disciplinas e semestres de estágio vêm da matriz das fichas dos cursos e estão marcados [CONFIRMAR NO CATÁLOGO]. Nenhum número de desempenho, seguidor, meta ou verba existe hoje. Nenhum aluno, nenhum dado pessoal. Nenhum preço e nenhum desconto nos roteiros (ver 0.3).
 
 ---
 
@@ -55,7 +57,7 @@ O criativos-de-anuncio já entregou 6 roteiros pagos (R-I1, R-I2, R-N1, R-N2, R-
 
 | Roteiro orgânico | Peça paga ou post mais próximo | O que muda aqui |
 |---|---|---|
-| TK-G1-01 | R-I1 (pago) e Reels do post G1-01 | Docente na câmera respondendo uma pergunta (formato "professor explica"), com a soma de horas práticas e teóricas do 1º semestre do integral. O pago só lista disciplinas em locução |
+| TK-G1-01 | R-I1 (pago) e Reels do post G1-01 | Docente na câmera respondendo uma pergunta (formato "professor explica"), com as disciplinas do 1º semestre do integral. O pago lista disciplinas em locução, sem rosto |
 | TK-G1-02 | R-N1 (pago, bloqueado) e Reels do post G1-03 | Comparação lado a lado entre integral e noturno (duração, 1º semestre, estágio, vagas), sem preço. O pago fala só do noturno |
 | TK-G2-01 | R-P1 (pago, bloqueado) e Reels do post G2-01 | Formato "5 coisas antes de escolher", incluindo o que o edital diz sobre até 30% a distância. O pago fala de foco do curso e de entrada |
 | TK-G2-02 | R-P2 (pago, bloqueado) e posts G2-03 e G2-06 | O 1º semestre inteiro, disciplina por disciplina. O pago fala da Prática Docente ao longo do curso; G2-06 lista conteúdos de vários semestres |
@@ -95,7 +97,7 @@ Destino único: a LP da Graduação, que a squad nunca altera. URL que recebe a 
 Padrão (D11 e D12 do plano do cmo, seção 12.7):
 - utm_medium=organic_social (D11, orgânico social).
 - utm_source=instagram, facebook ou youtube (D11). Para o TikTok orgânico, D11 não lista a fonte: proposta utm_source=tiktok [SUPOSIÇÃO, confirmar com o cmo].
-- utm_campaign: a mesma chave orgânica já usada pelos posts-sociais da Graduação, para o orgânico da linha ser lido junto: grad_medvet-integral_organico_202611, grad_medvet-geral_organico_202611 e grad_pedagogia_organico_goiania_202611. Observação para o cmo: D12 pede "chave + _AAAAMM" e mantém o prefixo grad_; o bloco "organico" no meio veio dos posts-sociais e foi marcado [SUPOSIÇÃO] lá. Se o cmo preferir a forma literal de D12, troca nos dois arquivos ao mesmo tempo.
+- utm_campaign no padrão D12 (chave + _AAAAMM, prefixo grad_), igual ao dos posts-sociais da Graduação, para o orgânico da linha ser lido junto: grad_medvet-integral_202611, grad_medvet-geral_202611 e grad_pedagogia_202611.
 - utm_content = ID do vídeo + formato (tk-g1-01_reels, tk-g1-01_tiktok, tk-g1-01_short, tk-g1-01_fbreels).
 - utm_term = fase (captacao, aquecimento, inscricoes-abertas).
 - Tudo em minúsculas, sem acento, sem dado pessoal. A plataforma gera a UTM final; estes são os valores propostos.
@@ -129,7 +131,7 @@ Mais vídeos por semana, e as 12 semanas completas, só depois de G11 (perfil, q
 - **Objetivo:** levar o vestibulando e a família a conhecer a prática prevista no 1º semestre do integral e clicar para a LP (inscrição gratuita). Métrica principal: cliques na LP pela UTM e conversas geradas; de apoio, retenção nos 3 primeiros segundos e salvamentos.
 - **Público:** vestibulando que considera Medicina Veterinária integral em São Paulo (pode ter menos de 18 anos) e pais ou responsáveis que acompanham a escolha.
 - **Duração:** 35 s (faixa aceitável de 30 a 40 s).
-- **Quem aparece:** docente do curso na câmera. Proposta: Prof. Dr. Alessandro Rodrigues de Carvalho Martins, que aparece no bloco de coordenação da página do curso, com a titulação "Doutor em Anestesiologia (FM-USP)", como está na ficha. Autorização de imagem e de citação registrada para docentes (decisões 8 e 10). Agenda, aceite do texto e local de gravação [CONFIRMAR]. Se outro docente da lista da página gravar, troca só nome e titulação, como estão na ficha. Nenhum aluno em cena, nem ao fundo (sem autorização registrada [CONFIRMAR]). Pergunta feita por voz fora de quadro de um integrante do marketing (só voz, sem rosto) ou por texto na tela.
+- **Quem aparece:** docente do curso na câmera. Proposta: Dr. Alessandro Rodrigues de Carvalho Martins, que aparece no bloco de coordenação da página do curso, com a titulação exatamente como está na ficha: "Doutor em Anestesiologia FM-USP". Autorização de imagem e de citação registrada para docentes (decisões 8 e 10). Agenda e local de gravação [CONFIRMAR]. O aceite do texto pelo próprio docente é registrado antes da gravação (12.9 do cmo); sem o aceite registrado, não grava. Se outro docente da lista da página gravar, troca só nome e titulação, como estão na ficha. Nenhum aluno em cena, nem ao fundo (sem autorização registrada [CONFIRMAR]). Pergunta feita por voz fora de quadro de um integrante do marketing (só voz, sem rosto) ou por texto na tela.
 - **Local:** sala de aula ou laboratório da Faculdade UFAPE em São Paulo, sem animal, sem paciente e sem aluno identificável [CONFIRMAR local e autorização do espaço]. Hospital veterinário fora até G11.
 - **Texto do docente:** é um texto factual da matriz para o docente dizer com as próprias palavras. Ele pode encurtar, mas não acrescenta fato, número ou opinião que não esteja aqui; qualquer frase nova volta ao qa-de-marketing antes da publicação. Nenhuma opinião foi atribuída ao docente neste roteiro.
 
@@ -138,32 +140,35 @@ Mais vídeos por semana, e as 12 semanas completas, só depois de G11 (perfil, q
 | Opção | Fala | Texto na tela | O que aparece | Clareza | Curiosidade | Verdade |
 |---|---|---|---|---|---|---|
 | A (escolhida) | Voz fora de quadro: "Professor, o que tem de prática no 1º semestre de Veterinária?" | "O que tem de prática no 1º semestre?" | Docente em plano médio, olhando para quem pergunta, antes de responder | 5 | 4 | 5 |
-| B | Docente: "No integral, o 1º semestre tem mais horas de prática que de teoria." | "1º semestre do integral: mais prática que teoria" | Docente olhando para a câmera, texto entra de uma vez | 5 | 5 | 5 [CONFIRMAR NO CATÁLOGO] |
-| C | Docente: "300 horas de prática no 1º semestre do integral de Veterinária." | "300 horas de prática no 1º semestre" | Número grande na tela; docente entra no segundo 2 | 4 | 5 | 5 [CONFIRMAR NO CATÁLOGO] |
+| B | Docente: "Práticas Hospitalares já está no 1º semestre do integral." | "Práticas Hospitalares no 1º semestre" | Docente olhando para a câmera, texto entra de uma vez | 5 | 4 | 5 [CONFIRMAR NO CATÁLOGO] |
+| C | Docente: "O 1º semestre de Veterinária começa com Anatomia e Práticas Hospitalares." | "1º semestre: Anatomia e Práticas Hospitalares" | Nomes das disciplinas na tela; docente entra no segundo 2 | 4 | 4 | 5 [CONFIRMAR NO CATÁLOGO] |
 
-Os três funcionam sem som (texto na tela) e sem conhecer a Ufape. Todos têm menos de 15 palavras. O corpo cumpre cada um: a cena 2 traz as horas e a cena 3 traz as disciplinas.
+Os três funcionam sem som (texto na tela) e sem conhecer a Ufape. Todos têm menos de 15 palavras. O corpo cumpre cada um: as cenas 2 e 3 trazem as disciplinas do 1º semestre. Os ganchos B e C da versão 1 (horas práticas e teóricas) saíram, porque horas por semestre não estão no catálogo.
 
 **Roteiro cena a cena (vertical 9:16, legenda queimada em todas as falas)**
 
 | Cena | Tempo | Imagem | Fala | Texto na tela |
 |---|---|---|---|---|
 | 1. Gancho | 0 a 3 s | Gancho escolhido | (ver opção A) | "O que tem de prática no 1º semestre?" |
-| [CORTE] 2. Resposta direta | 3 a 10 s | Docente em plano fechado | "No curso integral, a matriz do 1º semestre soma 300 horas práticas e 280 teóricas." | "1º semestre do integral" / "300 h práticas" / "280 h teóricas" |
-| [CORTE] 3. Prova | 10 a 20 s | Docente; as disciplinas entram na tela uma a uma | "Entre as disciplinas estão Anatomia, Práticas Hospitalares e Projeto Extensionista I." | "Anatomia" / "Práticas Hospitalares" / "Projeto Extensionista I" |
+| [CORTE] 2. Resposta direta | 3 a 10 s | Docente em plano fechado; as disciplinas entram na tela | "No curso integral, o 1º semestre já tem Práticas Hospitalares e Campos de Atuação do Médico Veterinário e Práticas Hospitalares." | "1º semestre do integral" / "Práticas Hospitalares" / "Campos de Atuação do Médico Veterinário e Práticas Hospitalares" |
+| [CORTE] 3. Prova | 10 a 20 s | Docente; mais duas disciplinas entram na tela | "E também Anatomia e Projeto Extensionista I." | "Anatomia" / "Projeto Extensionista I" |
 | [CORTE] 4. Contexto | 20 a 27 s | Docente | "É Medicina Veterinária presencial, aqui em São Paulo, em 4 anos no integral." | "Presencial, São Paulo" / "Integral, 4 anos" |
 | [CORTE] 5. Chamada | 27 a 35 s | Cartão final com a marca (docente sai de cena) | Locução: "A inscrição é gratuita. Você faz a redação online ou usa a nota do Enem, com média mínima de 300 pontos, de 2010 em diante. Link na bio." | "Inscrição gratuita. Link na bio" / "Redação online ou Enem (média mínima de 300 pontos, edições de 2010 em diante)" / "Faculdade UFAPE" / "Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula" |
 
-Gancho verdadeiro: a cena 2 responde à pergunta com a soma da matriz da ficha (280 h teóricas + 300 h práticas = 580 h no 1º semestre do integral) e a cena 3 nomeia as disciplinas. O vídeo não diz onde a prática acontece nem afirma uso do hospital.
+Gancho verdadeiro: as cenas 2 e 3 respondem à pergunta com as disciplinas do 1º semestre da matriz da ficha, sem horas. O vídeo não diz onde a prática acontece nem afirma uso do hospital.
 
-**Versão sem docente (se a gravação não for possível até 13/11):** mesma estrutura em locução sem rosto e grafismo, com o gancho B. Nesse caso o vídeo fica muito próximo do R-I1 pago; publicar só se o gestor-de-midia não estiver rodando o R-I1 na mesma semana.
+**Versão sem docente (se a gravação não for possível até 13/11):** mesma estrutura em locução sem rosto e grafismo, com o gancho B (sem horas). Nesse caso o vídeo fica muito próximo do R-I1 pago; publicar só se o gestor-de-midia não estiver rodando o R-I1 na mesma semana.
 
 **Legenda (Reels, TikTok e Facebook)**
 
 ```
-1º semestre de Medicina Veterinária integral: mais horas de prática que de teoria.
+O que tem de prática no 1º semestre de Medicina Veterinária integral?
 
-Na matriz do 1º semestre do integral: 300 horas práticas e 280 teóricas.
-Entre as disciplinas: Anatomia, Práticas Hospitalares e Projeto Extensionista I.
+Na matriz do 1º semestre, entre outras disciplinas:
+Práticas Hospitalares
+Campos de Atuação do Médico Veterinário e Práticas Hospitalares
+Anatomia
+Projeto Extensionista I
 
 Presencial, em São Paulo. Integral, 4 anos.
 
@@ -178,14 +183,14 @@ Qual dessas disciplinas você quer ver de perto?
 ```
 
 - **Chamada e UTM** (fase captação):
-  - Reels: https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-integral_organico_202611&utm_content=tk-g1-01_reels&utm_term=captacao
+  - Reels: https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-integral_202611&utm_content=tk-g1-01_reels&utm_term=captacao
   - Facebook Reels: igual, com utm_source=facebook e utm_content=tk-g1-01_fbreels
   - Shorts (agente youtube): igual, com utm_source=youtube e utm_content=tk-g1-01_short
   - TikTok (só com G11): igual, com utm_source=tiktok e utm_content=tk-g1-01_tiktok [SUPOSIÇÃO de fonte]
 - **Música:** trilha instrumental, sem letra, licenciada para uso comercial (biblioteca comercial da plataforma ou banco licenciado da Ufape) [CONFIRMAR licença e tipo de conta], em volume baixo sob a voz. Nenhum áudio em alta que disputa com a fala ou faz piada com candidato.
-- **Acessibilidade:** legenda queimada em todas as falas, fonte grande e contraste alto, dentro da área segura (fora da faixa de botões do Reels e do TikTok); nome e titulação do docente na tela no primeiro aparecimento; sem piscar e sem transições rápidas em sequência; texto alternativo no Instagram descrevendo a cena ("Docente da Faculdade UFAPE explica as horas práticas do 1º semestre de Medicina Veterinária integral"); legenda automática da plataforma ligada e revisada.
+- **Acessibilidade:** legenda queimada em todas as falas, fonte grande e contraste alto, dentro da área segura (fora da faixa de botões do Reels e do TikTok); nome e titulação do docente na tela no primeiro aparecimento; sem piscar e sem transições rápidas em sequência; texto alternativo no Instagram descrevendo a cena ("Docente da Faculdade UFAPE apresenta disciplinas do 1º semestre de Medicina Veterinária integral"); legenda automática da plataforma ligada e revisada.
 - **Capa:** "Prática no 1º semestre de Veterinária", com o docente, sem aluno.
-- **Bloqueios:** aprovação humana (G14 e G15); agenda, local e aceite do texto pelo docente; nomes e horas da matriz [CONFIRMAR NO CATÁLOGO]; TikTok só com G11.
+- **Bloqueios:** aprovação humana (G14 e G15); agenda, local e aceite do texto registrado pelo docente; nomes das disciplinas [CONFIRMAR NO CATÁLOGO]; horas por semestre só voltam se o acadêmico incluir a matriz no catálogo; TikTok só com G11.
 
 ### TK-G1-02 | "Integral ou noturno: o que muda?" (os dois turnos, foco no noturno)
 
@@ -237,7 +242,7 @@ Qual turno faz mais sentido para você?
 ```
 
 - **Chamada e UTM** (fase captação; vídeo fala dos dois turnos):
-  - Reels: https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-geral_organico_202611&utm_content=tk-g1-02_reels&utm_term=captacao
+  - Reels: https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-geral_202611&utm_content=tk-g1-02_reels&utm_term=captacao
   - Facebook Reels: utm_source=facebook, utm_content=tk-g1-02_fbreels
   - Shorts: utm_source=youtube, utm_content=tk-g1-02_short
   - TikTok (só com G11): utm_source=tiktok, utm_content=tk-g1-02_tiktok [SUPOSIÇÃO de fonte]
@@ -304,7 +309,7 @@ O que mais você quer saber antes de escolher?
 ```
 
 - **Chamada e UTM** (fase captação):
-  - Reels: https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_organico_goiania_202611&utm_content=tk-g2-01_reels&utm_term=captacao
+  - Reels: https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_202611&utm_content=tk-g2-01_reels&utm_term=captacao
   - Facebook Reels: utm_source=facebook, utm_content=tk-g2-01_fbreels
   - Perfil da unidade de Goiânia [CONFIRMAR]; sem ele, sai no @ufapevet e no Facebook da Ufape.
 - **Música:** trilha instrumental leve, sem letra, licenciada [CONFIRMAR], baixa sob a locução.
@@ -366,7 +371,7 @@ Qual dessas disciplinas mais chama a sua atenção?
 ```
 
 - **Chamada e UTM** (fase inscrições abertas):
-  - Reels: https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_organico_goiania_202611&utm_content=tk-g2-02_reels&utm_term=inscricoes-abertas
+  - Reels: https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_202611&utm_content=tk-g2-02_reels&utm_term=inscricoes-abertas
   - Facebook Reels: utm_source=facebook, utm_content=tk-g2-02_fbreels
 - **Música:** mesma trilha do TK-G2-01 [CONFIRMAR licença].
 - **Acessibilidade:** legenda queimada; cada disciplina fica pelo menos 2 s na tela; nomes por extenso, sem sigla; contraste alto; texto alternativo ("Lista das 7 disciplinas do 1º semestre de Pedagogia da Faculdade UFAPE em Goiânia"); janela de Libras opcional, como no TK-G2-01.
@@ -396,7 +401,7 @@ Qual dessas disciplinas mais chama a sua atenção?
 - [ ] Imagem, voz e depoimento com autorização registrada: docente coberto pelas decisões 8 e 10; voz da locução e colaborador de Goiânia [CONFIRMAR]; nenhum aluno; local de gravação [CONFIRMAR].
 - [x] Título, capa e descrição não prometem o que o conteúdo não entrega.
 - [x] Nenhuma promessa de emprego, salário ou aprovação; nenhuma urgência falsa.
-- [ ] Dados de curso batem com o catálogo: duração, turno, modalidade, local, carga horária da Medicina Veterinária e ato batem com a seção 1; vagas, entrada, início e até 30% a distância batem com os editais. Disciplinas, horas do 1º semestre e semestres de estágio vêm das fichas [CONFIRMAR NO CATÁLOGO].
+- [ ] Dados de curso batem com o catálogo: duração, turno, modalidade, local, carga horária da Medicina Veterinária e ato batem com a seção 1; vagas, entrada, início e até 30% a distância batem com os editais. Disciplinas e semestres de estágio vêm das fichas [CONFIRMAR NO CATÁLOGO]; nenhuma hora por semestre é citada.
 - [ ] Cadência cabe na capacidade: 4 vídeos no ciclo, 1 por semana no máximo; capacidade real [CONFIRMAR, G11].
 - [x] Métricas são retenção, conversas, cliques e leads, não só visualização.
 
@@ -415,9 +420,19 @@ Qual dessas disciplinas mais chama a sua atenção?
 **Resultado:** rascunho pronto para o qa-de-marketing. Publicação bloqueada nos pontos acima e na aprovação humana.
 
 **Notas para arquivos de outros donos (não alterados):**
-- Os posts-sociais da Graduação ainda usam "aceite do responsável" e Enem sem a condição em chamadas (QA c, P1 e P2); este arquivo já usa a forma corrigida, então os dois precisam bater depois da correção dos posts.
 - A estrategia-de-midia (seção 3.5) chama os vídeos pagos do TikTok de "roteiros do tiktok", mas eles são o R-I1 e o R-I2 do criativos-de-anuncio; os roteiros deste arquivo são orgânicos e não estão na campanha paga.
-- O utm_campaign orgânico da Graduação (bloco "organico") não está na forma literal de D12; decisão do cmo vale para os dois arquivos (0.5).
+
+---
+
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), corrigida após qa-de-marketing-graduacao-2026-10-26-d:
+  - T-1: utm_campaign no padrão D12 em 0.5 e nos destinos dos 4 roteiros: grad_medvet-integral_202611, grad_medvet-geral_202611 e grad_pedagogia_202611, como nos posts-sociais v3. utm_medium=organic_social mantido; utm_source=tiktok segue [SUPOSIÇÃO].
+  - T-2: TK-G1-01 sem horas por semestre. Saíram "300 horas práticas e 280 teóricas" e "mais horas de prática que de teoria" (cena 2, nota, legenda, texto alternativo, Lista 1). A cena 2 responde com as disciplinas do 1º semestre; gancho A mantido; ganchos B e C trocados por versões só com disciplinas.
+  - A-T1: retirada a nota sobre "aceite do responsável" e Enem nos posts, desatualizada depois da v3 deles.
+  - A-T2: retiradas as menções ao bloco "organico" atribuído aos posts (0.5, notas e suposições).
+  - A-T3: titulação do docente exatamente como na ficha ("Doutor em Anestesiologia FM-USP", sem os parênteses, que a ficha não tem) e aceite do texto registrado pelo docente antes da gravação.
+  - Nenhum outro texto de roteiro mudou.
 
 ---
 
@@ -430,18 +445,17 @@ Qual dessas disciplinas mais chama a sua atenção?
 - Inscrição gratuita; redação online a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante; aulas em 22/02/2027 (Editais 002 e 004/2026, ficha editais-2027-1.md).
 - Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula (Edital 002/2026; mesmas regras no 004/2026).
 - Os dois cursos podem usar até 30% da carga horária a distância (Editais 002 e 004/2026).
-- Matriz do integral, 1º semestre: 280 h teóricas, 300 h práticas, 580 h no total; disciplinas incluem Anatomia, Práticas Hospitalares e Projeto Extensionista I. Noturno, 1º semestre: Anatomia I, Práticas Hospitalares e Projeto Extensionista I, entre outras. Estágio supervisionado no 7º e 8º semestres (integral) e no 9º e 10º (noturno) (ficha graduacao-em-medicina-veterinaria.md, matriz).
+- Matriz do integral, 1º semestre: disciplinas incluem Anatomia, Campos de Atuação do Médico Veterinário e Práticas Hospitalares, Práticas Hospitalares e Projeto Extensionista I (sem horas por semestre nas peças: o catálogo traz só o total). Noturno, 1º semestre: Anatomia I, Práticas Hospitalares e Projeto Extensionista I, entre outras. Estágio supervisionado no 7º e 8º semestres (integral) e no 9º e 10º (noturno) (ficha graduacao-em-medicina-veterinaria.md, matriz).
 - Matriz da Pedagogia, 1º semestre: História da Educação; Formação Docente para a Diversidade; Didática: Organização do Trabalho Pedagógico; Língua Portuguesa: da oralidade à escrita; Ética, Filosofia e Direitos Humanos; Prática Docente I; Projeto Integrador I. Prática Docente do 1º ao 8º semestre (ficha graduacao-em-pedagogia.md, matriz).
-- Coordenação da página de Medicina Veterinária: Dr. Alessandro Rodrigues de Carvalho Martins, "Doutor em Anestesiologia FM-USP" (ficha do curso).
+- Coordenação da página de Medicina Veterinária: Dr. Alessandro Rodrigues de Carvalho Martins, "Doutor em Anestesiologia FM-USP" (ficha do curso, texto literal).
 - Todos os docentes, palestrantes e convidados têm autorização de uso de imagem e de citação (docs/execucao-2026-10-26.md, decisões 8 e 10).
 - TikTok em teste condicionado no G1 e fora no G2; roteiros do kit servem a Reels e Shorts; Shorts só no G1 (plano do cmo, seção 4 e 5).
-- Padrão de UTM: organic_social para orgânico social; prefixo grad_ na Graduação (cmo-geral, seção 12.7, D11 e D12).
+- Padrão de UTM: organic_social para orgânico social; utm_campaign = chave + _AAAAMM com prefixo grad_ (cmo-geral, seção 12.7, D11 e D12; posts-sociais da Graduação, v3).
 - Bloqueios herdados: G6 (página de Pedagogia), G8 (campo turno do noturno), G11 (perfis, produção e hospital), G12 e G7 (preço) (plano do cmo, seção 8; QA c, P6).
 
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] utm_source=tiktok para o TikTok orgânico (D11 não lista a fonte).
-- [SUPOSIÇÃO] Uso das chaves orgânicas dos posts-sociais (com o bloco "organico") para ler o orgânico da Graduação junto.
 - [SUPOSIÇÃO] Datas-alvo dos 4 vídeos e a cadência de 1 por semana no máximo.
 - [SUPOSIÇÃO] Personas: jovem e família no integral, adulto no noturno e na Pedagogia (contexto/graduacao.md).
 - [SUPOSIÇÃO] Dueto, costura e remix podem ser desligados na conta; link na bio do TikTok depende do tipo de conta.
@@ -451,13 +465,13 @@ Qual dessas disciplinas mais chama a sua atenção?
 
 - [CONFIRMAR] Perfil de TikTok da Ufape, perfil da unidade de Goiânia, quem grava e edita, horas do time por semana (G11).
 - [CONFIRMAR] Autorização de imagem de alunos (não existe hoje): nenhum aluno aparece até existir.
-- [CONFIRMAR] Agenda do docente do TK-G1-01, aceite do texto e local de gravação com autorização do espaço; uso da Ufape Clínica pela graduação (G11).
+- [CONFIRMAR] Agenda do docente do TK-G1-01, registro do aceite do texto e local de gravação com autorização do espaço; uso da Ufape Clínica pela graduação (G11).
 - [CONFIRMAR] Voz da locução (pessoa autorizada ou voz sintética aprovada); colaborador de Goiânia com autorização, se aparecer.
 - [CONFIRMAR] Licença da trilha e tipo de conta para a biblioteca comercial; manual de marca (cores, fontes, logotipo).
-- [CONFIRMAR NO CATÁLOGO] Nomes das disciplinas do 1º semestre, horas do 1º semestre do integral e semestres de estágio (Medicina Veterinária); disciplinas do 1º semestre e Prática Docente do 1º ao 8º (Pedagogia).
+- [CONFIRMAR NO CATÁLOGO] Nomes das disciplinas do 1º semestre e semestres de estágio (Medicina Veterinária); horas por semestre, só se o acadêmico incluir a matriz no catálogo; disciplinas do 1º semestre e Prática Docente do 1º ao 8º (Pedagogia).
 - [CONFIRMAR] Correção da página de Pedagogia (G6) e do campo turno do noturno (G8); WhatsApp de Vendas Goiânia como canal oficial, se usado na alternativa.
 - [CONFIRMAR] URL da LP que recebe a UTM e origem chegando ao CRM (G13); finalidade e política de privacidade do formulário.
-- [CONFIRMAR] Fonte da UTM do TikTok orgânico e forma do utm_campaign orgânico com o cmo (D11 e D12).
+- [CONFIRMAR] Fonte da UTM do TikTok orgânico (utm_source=tiktok) com o cmo (D11).
 - [CONFIRMAR] Quais disciplinas usam a parte a distância (até 30%).
 - [CONFIRMAR] Data-limite de inscrição e matrícula (G4); metas e números atuais dos perfis; aprovador de vídeo orgânico (G14).
 

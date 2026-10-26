@@ -3,7 +3,7 @@
 - **Agente:** iscas-digitais (departamento 06, Geração de Demanda), etapa 2.6 da camada 2
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
-- **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Página, formulário, hospedagem do arquivo e envio são ações humanas depois da aprovação (seção 7).
+- **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Página, formulário, hospedagem do arquivo e envio são ações humanas depois da aprovação (seção 18).
 - **Escopo:** só Pós (decisão 14 de docs/execucao-2026-10-26.md). Ficam fora: iscas de Livres, minicursos pagos como isca gratuita (só com decisão formal da Ufape, pedido AU7 da crescimento-de-audiencia) e qualquer isca ou peça das provas de bolsa. Graduação e Eventos têm plano próprio.
 - **Entradas lidas:**
   - .claude/agents/iscas-digitais.md e .claude/skills/estruturar-isca-digital/SKILL.md
@@ -14,7 +14,7 @@
   - saidas/06-geracao-de-demanda/campanhas-de-nutricao-pos-2026-10-26.md (NP1, NP2, NP3 e calendário do lote de 30/11)
   - saidas/06-geracao-de-demanda/crescimento-de-audiencia-geral-2026-10-26.md (seção 4: consentimento, textos das caixas, campos opcionais)
   - saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md (pilares, guias C03, C08, C09, C11, C16, capacidade e esforço de referência)
-  - contexto/ufape-geral.md (via contexto/pos-graduacao.md e catálogo), contexto/pos-graduacao.md, contexto/catalogo-de-cursos.md (seção 2)
+  - contexto/pos-graduacao.md e contexto/catalogo-de-cursos.md (seção 2); contexto/ufape-geral.md por meio das saídas acima
   - fichas em contexto/cursos/pos/ (por meio do catálogo e da casa de mensagens; leitura direta da ficha 68635 para conferir o cronograma)
 - **Não abri** faculdade.ufape.com.br. Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Docentes aparecem só com nome e titulação como estão na ficha, como sugestão de revisor, nunca como nomeação (seção 1.5).
@@ -24,11 +24,11 @@
 
 ## 0. Resumo em 5 linhas
 
-1. Treze iscas ativas e uma em espera: um guia de decisão em PDF por área (A1 a A12) e quatro guias por curso em A14, sempre feito só com fatos do catálogo e da ficha da turma (formato, módulos, módulos presenciais, campus, datas). A13 (Medicina felina) fica em espera porque não há turma de Pós aberta.
+1. Treze iscas ativas (nove áreas e quatro cursos de A14), três reservadas (A6, A8, A9) e uma em espera (A13): um guia de decisão em PDF por área, feito só com fatos do catálogo e da ficha da turma (formato, módulos, módulos presenciais, campus, datas). A13 (Medicina felina) não tem turma de Pós aberta.
 2. Nenhuma isca é aula paga entregue de graça: o conteúdo é orientação para decidir (comparar turmas, ver o que se pratica em cada módulo presencial, planejar agenda). Aula curta com docente entra só em A12 e como complemento opcional em A10, com revisão docente e sem repetir minicurso pago.
 3. O formulário pede só e-mail. Duas caixas desmarcadas e separadas (e-mail e WhatsApp) com a finalidade escrita, e o telefone só aparece se a caixa de WhatsApp for marcada. A entrega do arquivo não depende de marcar nenhuma caixa.
 4. Cada isca termina numa ponte para a turma da área, com código e campus do catálogo, e o lead entra no funil já com a área conhecida: NP2 (nutrição por área) até o P5 da área assumir. As iscas de A6, A8 e A9 ficam reservadas porque as turmas começam entre 30/10 e 28/11 e não há turma futura aberta.
-5. Esforço estimado de 112 h de squad nas 13 iscas ativas, mais 8 h do modelo comum [SUPOSIÇÃO]; revisão docente, design e página são da Ufape. Ordem de produção: A2, A11, A1, A14 (341) primeiro, porque as turmas de março de 2027 têm P5 em 02/12 e 04/01.
+5. Esforço estimado de 100 h de squad nas 13 iscas ativas (112 h se as três reservadas forem produzidas), mais 8 h do modelo comum [SUPOSIÇÃO]; revisão docente, design e página são da Ufape. Ordem de produção: A2, A11, A1 e A14 (341) primeiro, porque as turmas de março de 2027 têm P5 em 02/12 e 04/01.
 
 ---
 
@@ -52,17 +52,17 @@ Notas de 1 a 5 em valor para o candidato, rapidez de consumo (30 minutos ou meno
 | # | Ideia | Valor | Rapidez | Ligação | Total | Decisão |
 |---|---|---|---|---|---|---|
 | I1 | Roteiro dos módulos presenciais (o que se pratica em cada um, da ficha) | 4 | 5 | 5 | 14 | Entra, dentro do guia |
-| I2 | Guia lado a lado das turmas da área ("qual Pós é para o meu momento", só fatos) | 4 | 4 | 5 | 13 | **Vencedora da linha** |
+| I2 | Guia lado a lado das turmas da área (só fatos, para decidir o próximo passo) | 4 | 4 | 5 | 13 | **Vencedora da linha** |
 | I3 | Planner de agenda (cronograma da ficha em calendário, com dias de viagem e plantão) | 4 | 5 | 5 | 14 | Entra, dentro do guia |
 | I4 | Aula curta gravada com docente (10 a 15 minutos) | 5 | 4 | 4 | 13 | Só A12 e opcional em A10 (docente aceita, revisão, sem repetir minicurso) |
 | I5 | Webinar com coordenador (25 minutos, gravado) | 5 | 2 | 5 | 12 | Reserva para depois da linha de base (depende de agenda do docente) |
 | I6 | Caso em decisão revisado por docente (1 página) | 4 | 5 | 3 | 12 | Só opcional em A10 e A12, com revisor nomeado |
 | I7 | Lista de perguntas antes de escolher (1 página, sem pontuação) | 3 | 5 | 4 | 12 | Entra, dentro do guia (seção 4) |
 | I8 | Autoavaliação "onde estou na área" com nota | 3 | 4 | 3 | 10 | Não: parece resultado e exige conteúdo clínico |
-| I9 | E-book de carreira e título de especialista | 3 | 2 | 2 | 7 | Bloqueado: pilar P4 da 1.19 depende do texto da regulação |
+| I9 | E-book de carreira e título de especialista | 3 | 2 | 2 | 7 | Bloqueado: o pilar P4 da 1.19 depende do texto da regulação |
 | I10 | Simulado ou guia de preparação da prova de bolsa | 4 | 4 | 5 | 13 | **Vetada** (decisão 14); promete desempenho |
 
-**Vencedora estrutural da linha:** I2 com I1, I3 e I7 dentro de um PDF só (família "guia de decisão da área"). Cada área escolhe a ênfase conforme a dúvida principal da casa de mensagens (comparar turmas, ver o presencial, planejar agenda). Motivos: usa só dado que já existe na ficha (rápido de produzir e de revisar), responde às três objeções da linha (preço, tempo, turma que não fecha), e a última seção é a ponte natural para a página da turma.
+**Vencedora estrutural da linha:** I2 com I1, I3 e I7 dentro de um PDF só (família "guia de decisão da área"). Cada área escolhe a ênfase conforme a dúvida principal da casa de mensagens (comparar turmas, ver o presencial, planejar agenda). Motivos: usa só dado que já existe na ficha (rápido de produzir e de revisar), responde às três objeções da linha (preço, tempo, turma que não fecha) e a última seção é a ponte natural para a página da turma.
 
 ### 1.3 Estrutura-modelo do guia (skill estruturar-isca-digital)
 
@@ -94,7 +94,7 @@ Base: seção 4 da crescimento-de-audiencia (proposta ao jurídico; a base legal
 | Caixa 1 (e-mail) | desmarcada | Texto abaixo |
 | Caixa 2 (WhatsApp) | desmarcada | Texto abaixo |
 
-**Texto das caixas** (adaptado da seção 4.2 da crescimento-de-audiencia; "[área]" é trocada pelo nome da área da página, e as áreas citadas em cada seção abaixo fecham a lista):
+**Texto das caixas** (adaptado da seção 4.2 da crescimento-de-audiencia; "[área]" é trocada pelo nome da área da página, e a linha "Formulário" de cada seção abaixo fecha o nome):
 
 - Caixa 1: "Quero receber por e-mail avisos de turmas e conteúdos de [área] da Faculdade UFAPE, além da newsletter quinzenal. Posso cancelar quando quiser pelo link no fim de cada e-mail. Política de privacidade: [URL, CONFIRMAR]."
 - Caixa 2: "Quero receber avisos de turmas de [área] da Faculdade UFAPE pelo WhatsApp, em dias úteis e no horário comercial. Para sair, é só responder SAIR. Política de privacidade: [URL, CONFIRMAR]."
@@ -114,12 +114,12 @@ Regras:
 | Estrutura e promessa | iscas-digitais (este arquivo) | Rascunho |
 | Texto do guia | conteudo-longo e editor-de-conteudo, a partir da casa de mensagens e da ficha | Só depois da aprovação deste plano |
 | Página de captura | landing-page (próximo agente) | Promessa de cada área nas seções abaixo |
-| E-mails e WhatsApp | copy-de-mensagens | Textos-base na seção 3 |
+| E-mails e WhatsApp | copy-de-mensagens | Textos-base em 1.8 |
 | Revisão técnica | docente revisor da área [CONFIRMAR nome e aceite] | A autorização de imagem e citação está registrada para todos os docentes (decisões 8 e 10). Ela não obriga o docente a revisar, gravar nem publicar; texto em primeira pessoa precisa do ok do próprio docente |
 | Design e hospedagem do PDF | Ufape [CONFIRMAR quem e onde] | Fora da squad |
 | Aprovação e publicação | pessoa do marketing [CONFIRMAR nome] | Nada sai sem ela |
 
-Em cada área, a linha "revisor sugerido" lista docentes da ficha da turma, só como sugestão para a Ufape convidar. Nome e titulação como na ficha.
+Em cada área, a linha "Quem produz e revisa" lista docentes da ficha da turma como revisor sugerido, só para a Ufape convidar. Nome e titulação como na ficha.
 
 ### 1.6 Esforço (unidades de referência da 1.19)
 
@@ -129,12 +129,12 @@ L (peça longa) = 8 h, M (média) = 4 h, C (curta) = 2 h [SUPOSIÇÃO, para o ti
 
 1. **Entrega imediata** em duas formas: tela de agradecimento com botão de download e e-mail de entrega com o mesmo link. Para aula gravada (A12), o link da página da aula. A mensagem de entrega é atendimento a um pedido do titular e não conta no teto D1 [SUPOSIÇÃO; é a pergunta NPR5 da nutrição, a confirmar com o encarregado de dados].
 2. **Entrada na nutrição:** o lead da isca nasce com [área_de_interesse] preenchida e origem "isca-<área>". Proposta ao cmo e ao dono da nutrição (arquivo alheio, não alterado aqui): a entrega da isca cumpre o NP1-T1; o NP1-T2 (pergunta "qual especialidade você está considerando?") é dispensado porque a área já é conhecida; o lead segue para o NP1-T3 e depois para o NP2 da área, até o P5 da área assumir (dono único). Áreas sem turma aberta vão para o NP3.
-3. **Calendário:** vale o da nutrição (1.1 e seção 4 do campanhas-de-nutricao-pos): lead criado de 27/10 a 29/11 recebe só a entrega; os toques seguintes entram no lote de 30/11 (T1 do NP2 em 01/12), sempre dentro do teto D1, da fila D2 e dos dias sem campanha (20 e 21/11; 25/12 a 03/01 só serviço).
-4. **Pergunta ao cmo (U-I1):** a régua das provas (P1) foi desenhada antes da decisão 14. Se ela não rodar, o lead de isca de qualquer área sem régua com data entra no NP1 completo (D0, D2, D6) e depois no NP2. A dúvida decide se o toque D2 existe em novembro.
+3. **Calendário:** vale o da nutrição (1.1 e seção 4 do campanhas-de-nutricao-pos): lead criado de 27/10 a 29/11 recebe só a entrega; os toques seguintes entram no lote de 30/11 (T1 do NP2 em 01/12), sempre dentro do teto D1, da fila D2 e dos dias sem campanha (20 e 21/11; de 25/12 a 03/01 só serviço).
+4. **Pergunta ao cmo (U-I1):** a régua das provas (P1) foi desenhada antes da decisão 14. Se ela não rodar, o lead de isca de qualquer área sem régua com data entra no NP1 completo (D0, D2, D6) e depois no NP2. A resposta decide se o toque do segundo dia existe em novembro.
 
 ### 1.8 Textos-base do acompanhamento (para copy-de-mensagens finalizar; rascunho)
 
-**E-mail de entrega (serviço), assunto de trabalho:** "Seu guia: [título curto da isca]"
+**E-mail de entrega (atendimento), assunto de trabalho:** "Seu guia: [título curto da isca]"
 
 > Olá[, primeiro nome]. Aqui está o guia que você pediu: [link do arquivo]. Ele é uma ferramenta de orientação feita com as informações publicadas da turma. Não substitui a conversa com o time da Faculdade UFAPE e não garante vaga, aprovação, título ou resultado profissional.
 > Para ver o cronograma, os docentes e as condições da turma de [área], [campus]: [link da turma, com UTM].
@@ -167,7 +167,7 @@ Depois disso, a pessoa segue o NP2 (4 toques) ou o P5 da área, sem toque extra 
 | Consentimento por canal | caixas marcadas (e-mail; WhatsApp) ÷ formulários enviados | A finalidade escrita é aceita? |
 | Uso | aberturas do e-mail de entrega e cliques no arquivo ÷ entregas (só diagnóstico de entrega) | O arquivo chega? |
 | Ponte | cliques para a página da turma ÷ entregas | A última seção funciona? |
-| Conversa | respostas ao WhatsApp do D2 ÷ enviados | A dúvida chega ao time? |
+| Conversa | respostas ao WhatsApp do segundo dia ÷ enviados | A dúvida chega ao time? |
 | Qualificação | perfil "médico veterinário" ou "estudante" ÷ respostas ao campo opcional | A isca atrai a persona? |
 | Demanda | inscrições e primeiras mensalidades com origem "isca" por turma (utm_content) | Resultado, só somado |
 | Saúde | (SAIR + descadastro + bloqueio + denúncia) ÷ entregues | Frequência humana |
@@ -193,9 +193,9 @@ Nenhuma meta de taxa antes de 4 semanas de linha de base. Pausa da isca se a sa�
 | A11 Laboratório | Guia PDF + perguntas | Lado a lado (3 pós) | 68615 SP, 333 SP (68608 só se ainda aberta) | 1 | Ativa |
 | A12 Neurologia | Aula curta com docente (ou roteiro PDF) | Raciocínio do exame | 68616 SP | 3 | Ativa; depende de docente |
 | A13 Medicina felina | Em espera | Sem turma de Pós | nenhuma | 4 | Em espera |
-| A14 Outras especialidades | 4 guias PDF curtos, um por curso | O que se pratica | 679, 382, 341, 60 (todas SP); 699 retida; 719 fora | 1 (341) e 3 | Ativa em 4 cursos |
+| A14 Outras especialidades | 4 guias PDF curtos, um por curso | O que se pratica | 679, 382, 341, 60 (todas SP); 699 retida; 719 fora | 1 (341), 2 (679) e 3 (382 e 60) | Ativa em 4 cursos |
 
-Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01 (657, 341). Prioridade 2: turmas de abril de 2027. Prioridade 3: turmas de maio de 2027. Prioridade 4: reservadas.
+Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01 (657, 341). Prioridade 2: turmas de abril de 2027. Prioridade 3: turmas de maio de 2027. Prioridade 4: reservadas ou em espera.
 
 ---
 
@@ -208,7 +208,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Sumário:** (1) três pontos de partida: 68609 para quem quer atuar na anestesiologia clínica; 657 para anestesistas já atuantes; 359 com o público como está na ficha [CONFIRMAR NO CATÁLOGO]; (2) lado a lado: campus, modalidade, carga horária (68609: 500 h; 657: 360 h; 359: 360 h), número de módulos (26, 18 e 20); (3) o que se pratica no presencial, como na ficha: 68609 módulos 5 e 8; 657 bloqueios locorregionais e hemodinâmica com ventilação; 359 técnicas locorregionais com modelos, sonoanatomia e aulas demonstrativas [CONFIRMAR NO CATÁLOGO]; (4) sete perguntas antes de escolher [REVISÃO DOCENTE]; (5) agenda: Goiânia ou São Paulo, passagem só com a turma confirmada; (6) próximo passo.
 - **Quem produz e revisa:** conteudo-longo e editor-de-conteudo; revisor sugerido da ficha: Dr. Alessandro Martins ou Dra. Mayara Travalini de Lima (coordenação das três turmas) [CONFIRMAR aceite].
 - **Esforço:** 1 L + 1 C = 10 h de squad.
-- **Formulário:** padrão da 1.4; texto das caixas com "[área]" = "anestesiologia e dor". Origem oculta: isca-a1.
+- **Formulário:** padrão da 1.4; "[área]" = "anestesiologia e dor". Origem oculta: isca-a1.
 - **Entrega:** tela e e-mail com o PDF (1.7).
 - **Ponte:**
 
@@ -219,7 +219,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 | 359 | Pós-graduação em Anestesiologia Locorregional Veterinária | São Paulo | Semipresencial | 360 h | 22/05/2027 | aberto | Data só no site [CONFIRMAR com a planilha]; sem o desconto da ficha; pré-requisito [CONFIRMAR] |
 
 - **Depois da entrega:** NP2 da área de 30/11 a 03/01; P5 assume em 04/01 (657).
-- **Bloqueios:** a seção 1 do guia só diz quem pode entrar em 657 e 359 depois de a Ufape informar o pré-requisito (U10); até lá, o guia escreve "veja o pré-requisito na página da turma". Docente de 359 com título escrito de forma ambígua na ficha: usar a grafia da ficha só depois de conferida.
+- **Bloqueios:** a seção 1 do guia só diz quem pode entrar em 657 e 359 depois de a Ufape informar o pré-requisito (U10); até lá, o guia escreve "veja o pré-requisito na página da turma". O título de um docente de 359 aparece de forma ambígua na ficha: usar a grafia da ficha só depois de conferida.
 
 ## 4. A2. Cardiorrespiratório (289, 698, 68636, 352)
 
@@ -240,9 +240,9 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 | 68636 | Pós-graduação em Pneumologia Veterinária | São Paulo | Semipresencial | 500 h | 17/04/2027 | aberto | Data só no site [CONFIRMAR com a planilha] |
 | 352 | Pós-graduação em Ventilação Mecânica | São Paulo | Semipresencial | 360 h | 24/05/2027 | aberto | Sem o desconto da ficha |
 
-- **698 (Pós-graduação em Ecocardiografia, São Paulo, 370 h):** aparece no guia só como formato (seção 2 e 3), sem data e sem chamada, até a Ufape corrigir a data no site (pedido A6 do cmo). Depois da correção, o guia ganha a data e a ponte, e a regra da 1ª mensalidade vencida se aplica (a turma começa em 28/11/2026).
-- **Depois da entrega:** NP2 só para quem chega depois do kit de 289; P5 assume em 02/12 (lote 1, 289).
-- **Bloqueios:** pré-requisito de 698 [CONFIRMAR NO CATÁLOGO]; indicação clínica de ventilação para quem não trabalha em UTI fica para a revisão docente, não para o guia.
+- **698 (Pós-graduação em Ecocardiografia, São Paulo, 370 h):** aparece no guia só como formato (seções 2 e 3), sem data e sem chamada, até a Ufape corrigir a data no site (pedido A6 do cmo). Depois da correção, o guia ganha a data e a ponte, e a regra da 1ª mensalidade vencida se aplica (a turma começa em 28/11/2026).
+- **Depois da entrega:** NP2 só para leads que chegam depois do kit de 289; P5 assume em 02/12 (lote 1, 289).
+- **Bloqueios:** pré-requisito de 698 [CONFIRMAR NO CATÁLOGO]; a indicação clínica de ventilação para quem não trabalha em UTI fica para a revisão docente, não para o guia.
 
 ## 5. A3. Emergência, terapia intensiva e clínica médica (68635, 68623)
 
@@ -250,7 +250,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Título:** "Plantão e Pós: o calendário de módulos das duas Pós de 750 horas para montar sua escala".
 - **Problema urgente:** "Trabalho em plantão de fim de semana: dá para encaixar os módulos?" (Q3.3 [SUPOSIÇÃO]).
 - **Promessa da página:** "Veja mês a mês quais módulos são online e quais são presenciais nas Pós de clínica médica e emergência e de terapia intensiva e emergência, para conversar com a sua escala com antecedência."
-- **Sumário:** (1) o que é online e o que é presencial (68635: 28 módulos, 750 h, módulos presenciais de semiologia, eletrocardiograma e hemogasometria, sondagem uretral, ambulatório clínico, A-fast e T-fast, triagem, RCP e trauma, como na ficha); (2) calendário dos módulos em formato de agenda: a ficha de 68635 traz os dois dias dos módulos online (por exemplo, módulo 1 em 10 e 11 de abril de 2027) e só o mês nos presenciais (por exemplo, junho de 2027); o planner mostra isso como está e marca "dia exato [CONFIRMAR NO CATÁLOGO]"; (3) as duas Pós lado a lado, sem dizer qual vale mais; (4) perguntas para negociar a escala e para o time (reposição de módulo, entrada, viagem) [REVISÃO DOCENTE] só na parte de conteúdo; (5) agenda e passagem; (6) próximo passo.
+- **Sumário:** (1) o que é online e o que é presencial (68635: 28 módulos, 750 h, módulos presenciais de semiologia, eletrocardiograma e hemogasometria, sondagem uretral, ambulatório clínico, A-fast e T-fast, triagem, RCP e trauma, como na ficha); (2) calendário dos módulos em formato de agenda: a ficha de 68635 traz os dois dias dos módulos online (por exemplo, módulo 1 em 10 e 11 de abril de 2027) e só o mês nos presenciais (por exemplo, junho de 2027); o planner mostra isso como está e marca "dia exato [CONFIRMAR NO CATÁLOGO]"; (3) as duas Pós lado a lado, sem dizer qual vale mais; (4) perguntas para negociar a escala e para o time (reposição de módulo, entrada, viagem), com [REVISÃO DOCENTE] só na parte de conteúdo; (5) agenda e passagem; (6) próximo passo.
 - **Quem produz e revisa:** conteudo-longo, editor-de-conteudo; revisor sugerido: Prof. Caio Cavalcanti Balençuela (68635) ou Dr. Alessandro Martins e Dra. Denise Fantoni (68623) [CONFIRMAR aceite].
 - **Esforço:** 1 L + 1 C = 10 h.
 - **Formulário:** padrão da 1.4; "[área]" = "emergência, terapia intensiva e clínica médica". Origem oculta: isca-a3.
@@ -262,7 +262,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 | 68635 | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais | São Paulo | Semipresencial | 750 h | 10/04/2027 | aberto | Primeiro lote de abril do P5 [CONFIRMAR ordem] |
 | 68623 | Pós-graduação em Terapia Intensiva e Emergência Veterinária | Goiânia (catálogo) | Semipresencial | 750 h | 22/05/2027 | aberto | Só entra na ponte depois de confirmar onde são os módulos presenciais [CONFIRMAR] |
 
-- **Depois da entrega:** NP2 de 30/11 até o lote de abril; P5 em janeiro, conforme a ordem das áreas [CONFIRMAR, NPR6].
+- **Depois da entrega:** NP2 de 30/11 até o lote de abril; P5 conforme a ordem das áreas [CONFIRMAR, NPR6].
 - **Bloqueios:** local da prática de 68623; regra de reposição de módulo; cronograma com dia exato dos presenciais. O planner não usa os textos "dupla certificação" nem "certificado de emergência" que a ficha traz.
 
 ## 6. A4. Cirurgia, ortopedia e reabilitação (68632, 578, 662, 366)
@@ -271,7 +271,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Título:** "Cirurgia, videocirurgia, ortopedia e reabilitação: o que se pratica em cada módulo presencial das Pós da Ufape".
 - **Problema urgente:** "É toda presencial? Vou operar de fato ou só assistir?" (H-A4.1 e H-A4.2 [SUPOSIÇÃO]).
 - **Promessa da página:** "Veja, turma por turma, o que a página oficial lista como prática nos módulos presenciais de cirurgia, videocirurgia, ortopedia e reabilitação da Ufape."
-- **Sumário:** (1) quatro caminhos; 68632 é presencial em Goiânia, as outras são semipresenciais em São Paulo; (2) mês a mês: 68632 (24 módulos, um tema por mês), 578 (24 módulos, simuladores e procedimentos), 366 (24 módulos, 9 presenciais); (3) tipo de prática que a ficha descreve (simulador, modelo, cadáver) com [CONFIRMAR] onde a ficha não descreve; (4) perguntas antes de escolher [REVISÃO DOCENTE]; (5) agenda: um fim de semana por mês em Goiânia [CONFIRMAR jornada e horários]; (6) próximo passo.
+- **Sumário:** (1) quatro caminhos; 68632 é presencial em Goiânia, as outras são semipresenciais em São Paulo; (2) mês a mês: 68632 (24 módulos, um tema por mês), 578 (24 módulos, simuladores e procedimentos), 366 (24 módulos, 9 presenciais); (3) tipo de prática que a ficha descreve (simulador, modelo, cadáver), com [CONFIRMAR] onde a ficha não descreve; (4) perguntas antes de escolher [REVISÃO DOCENTE]; (5) agenda: um fim de semana por mês em Goiânia [CONFIRMAR jornada e horários]; (6) próximo passo.
 - **Quem produz e revisa:** conteudo-longo, editor-de-conteudo; revisor sugerido: Dr. Marco Augusto Machado Silva (listado em 68632 e 578) ou Dra. Carolina Gonçalves Dias Lima (662 e 366) [CONFIRMAR aceite].
 - **Esforço:** 1 L + 1 C = 10 h.
 - **Formulário:** padrão da 1.4; "[área]" = "cirurgia, ortopedia e reabilitação". Origem oculta: isca-a4.
@@ -320,7 +320,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Quem produz e revisa:** conteudo-longo; revisor sugerido: Esp. Maria Carolina Pappalardo (coordenação) [CONFIRMAR aceite].
 - **Esforço:** 1 M = 4 h.
 - **Formulário:** padrão da 1.4; "[área]" = "gastroenterologia". Origem oculta: isca-a6.
-- **Ponte:** 68606, Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, 500 h, início 07/11/2026, status aberto. Texto: "Fale com o time para saber como entrar na turma." Sem preço, sem "últimas vagas". Depois do início, a ponte vira o aviso de próxima turma (NP3-T2).
+- **Ponte:** 68606, Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, 500 h, início 07/11/2026, status aberto. Texto: "Fale com o time para saber como entrar na turma." Sem preço e sem "últimas vagas". Depois do início, a ponte vira o aviso de próxima turma (NP3-T2).
 - **Depois da entrega:** NP3 (área sem turma aberta depois de 07/11).
 
 ## 9. A7. Endocrinologia e nefrologia (68617)
@@ -329,7 +329,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Título:** "Endocrinologia de pequenos animais: o que cada módulo trabalha, do primeiro mês ao presencial".
 - **Problema urgente:** "O começo é muito teórico: quando aplico na rotina?" (H-A7.2 [SUPOSIÇÃO]).
 - **Promessa da página:** "Veja o mapa dos 24 módulos da Pós-graduação em Endocrinologia de Pequenos Animais, onde entram a discussão de casos e o módulo presencial."
-- **Sumário:** (1) público como na ficha; (2) mapa dos 24 módulos, 500 h (fisiologia endócrina, Cushing, hipoadrenocorticismo, diabetes mellitus, cetoacidose, insulinoma, distúrbios da calcemia, doença renal crônica e infecção urinária no endocrinopata); (3) onde entra a discussão de casos e o módulo 12 presencial; (4) perguntas [REVISÃO DOCENTE]; (5) agenda; (6) próximo passo.
+- **Sumário:** (1) público como na ficha; (2) mapa dos 24 módulos, 500 h (fisiologia endócrina, Cushing, hipoadrenocorticismo, diabetes mellitus, cetoacidose, insulinoma, distúrbios da calcemia, doença renal crônica e infecção urinária no endocrinopata); (3) onde entram a discussão de casos e o módulo 12 presencial; (4) perguntas [REVISÃO DOCENTE]; (5) agenda; (6) próximo passo.
 - **Quem produz e revisa:** conteudo-longo, editor-de-conteudo; revisor sugerido: DR. Eric Vieira Januário (coordenação) [CONFIRMAR aceite].
 - **Esforço:** 1 M + 1 C = 6 h.
 - **Formulário:** padrão da 1.4; "[área]" = "endocrinologia". Origem oculta: isca-a7.
@@ -354,7 +354,7 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Quem produz e revisa:** conteudo-longo; coordenação "UFAPE" sem nome na ficha [CONFIRMAR]; revisor sugerido: docente listado na ficha, como o Dr. Alan Poppl [CONFIRMAR aceite].
 - **Esforço:** 1 M = 4 h (reaproveita C09 e C11).
 - **Formulário:** padrão da 1.4; "[área]" = "dermatologia". Origem oculta: isca-a8.
-- **Ponte:** 68610, Pós-graduação em Dermatologia Veterinária, São Paulo, semipresencial, 500 h, início 28/11/2026, aberto. Texto: "Fale com o time para saber como entrar na turma." Sem a prova de bolsa. Depois do início, aviso de próxima turma (NP3).
+- **Ponte:** 68610, Pós-graduação em Dermatologia Veterinária, São Paulo, semipresencial, 500 h, início 28/11/2026, aberto. Texto: "Fale com o time para saber como entrar na turma." Sem prova de bolsa. Depois do início, aviso de próxima turma (NP3).
 - **Depois da entrega:** NP3.
 
 ## 11. A9. Oftalmologia (707), reservada
@@ -439,11 +439,11 @@ Prioridade 1: turmas de março de 2027 com P5 em 02/12 (289, 68615, 333) e 04/01
 - **Formato quando destravar:** mapa PDF de 4 a 6 páginas, ênfase em onde o tema felino aparece nas Pós abertas.
 - **Título:** "Medicina felina nas Pós da Ufape: onde o tema aparece no cronograma".
 - **Problema urgente:** "Quero me aprofundar em gatos: existe uma Pós para isso?"
-- **Sumário:** (1) a resposta honesta: hoje não há turma de Pós em Medicina de Felinos aberta; (2) onde o tema aparece, pela ficha: dor e analgesia em felinos (657, módulo 5), reabilitação em felinos (366); dermatopatias em felinos (68610, módulo 12) e geriatria felina (699) só depois de a primeira começar a turma e de a ficha de 699 ser corrigida; (3) como receber o aviso da próxima turma de Felinos; (4) próximo passo.
+- **Sumário:** (1) a resposta honesta: hoje não há turma de Pós em Medicina de Felinos aberta; (2) onde o tema aparece, pela ficha: dor e analgesia em felinos (657, módulo 5) e reabilitação em felinos (366); dermatopatias em felinos (68610, módulo 12) e geriatria felina (699) só quando a turma de 68610 estiver aberta de novo e a ficha de 699 for corrigida; (3) como receber o aviso da próxima turma de Felinos; (4) próximo passo.
 - **Ponte:** nenhuma turma de Felinos. O objetivo é o aviso de turma (NP3-T2). 657 e 366 só aparecem como onde o tema está, sem chamada de compra.
 - **Quem revisa:** a definir quando houver turma [CONFIRMAR].
-- **Esforço:** 1 M = 4 h, fora das 112 h até a decisão.
-- **Formulário e entrega:** padrão da 1.4 (origem isca-a13).
+- **Esforço:** 1 M = 4 h, fora das 100 h até a decisão.
+- **Formulário e entrega:** padrão da 1.4 (origem isca-a13), "[área]" = "medicina felina".
 - **Bloqueio:** nenhum selo tipo "cat friendly" e nenhuma promessa de turma sem data.
 
 ## 16. A14. Outras especialidades: quatro guias curtos por curso (679, 382, 341, 60)
@@ -474,7 +474,7 @@ Total de A14: 4 M = 16 h de squad. Revisão docente de cada guia [CONFIRMAR acei
 - **Fora de A14:**
   - **699 (Pós-graduação em Geriatria Veterinária):** retida. A ficha tem público e ordem de cronograma em contradição (estudante do último ano; módulos fora de ordem). Isca só depois de a Ufape corrigir a ficha [CONFIRMAR].
   - **719 (Pós-graduação em Inteligência Artificial na Saúde):** fora. Público próprio (saúde humana, TI, gestão), sem persona e sem decisão sobre anunciar a veterinários [CONFIRMAR]; fora também da nutrição.
-- **Bloqueios por curso:** 341 não cita a promoção nem "bolsa"; a página de 341 diz onde a prática acontece de forma ambígua (São Paulo, Indaiatuba, hospital) e o guia só responde depois de confirmado; 60 não usa o número de mercado nem o número de espécies da página.
+- **Bloqueios por curso:** 341 não cita a promoção nem "bolsa"; a ficha de 341 diz onde a prática acontece de forma ambígua (São Paulo, Indaiatuba, hospital) e o guia só responde depois de confirmado; 60 não usa o número de mercado nem o número de espécies da página.
 
 ---
 
@@ -490,9 +490,10 @@ Total de A14: 4 M = 16 h de squad. Revisão docente de cada guia [CONFIRMAR acei
 | 2 | A3, A4, A7, A10 | Turmas de abril de 2027 | 10 + 10 + 6 + 10 = 36 h |
 | 2 | A14 (679) | Turma de 03/04/2027 | 4 h |
 | 3 | A5, A12, A14 (382 e 60) | Turmas de maio de 2027 | 8 + 10 + 4 + 4 = 26 h |
-| 4 | A6, A8, A9, A13 | Reservadas ou em espera | 4 + 4 + 4 horas de A6, A8 e A9 só se destravarem; A13 4 h em espera |
+| 4 | A6, A8, A9 (reservadas) | Só se destravarem | 4 + 4 + 4 = 12 h |
+| 4 | A13 (em espera) | Só com turma de Felinos | 4 h |
 
-Soma das iscas ativas (ordens 1 a 3): A2 10, A11 10, A1 10, A14 16, A3 10, A4 10, A7 6, A10 10, A5 8, A12 10 = **100 h**, mais A6, A8 e A9 se destravarem (12 h) = **112 h**, mais 8 h do modelo comum [SUPOSIÇÃO]. A13 soma 4 h se destravar.
+Soma das iscas ativas (ordens 1 a 3): 34 + 40 + 26 = **100 h** (ordem 1: 10 + 10 + 10 + 4 = 34; ordem 2: 36 + 4 = 40; ordem 3: 26). Com as três reservadas, **112 h**. Mais 8 h do modelo comum [SUPOSIÇÃO]. A13 soma 4 h se destravar.
 
 Datas-alvo (proposta [SUPOSIÇÃO], dependem da aprovação, do revisor docente e da página): primeira leva (A2, A11, A1, A14 de 341) com a página no ar até 30/11, para os leads entrarem no lote de 30/11; segunda leva até meados de dezembro; terceira leva em janeiro de 2027. A divulgação das páginas (posts, mídia, bio, newsletter) é dos agentes de social, distribuição e mídia, com aprovação humana; esta etapa não pede verba.
 
@@ -502,14 +503,14 @@ Datas-alvo (proposta [SUPOSIÇÃO], dependem da aprovação, do revisor docente 
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
-| IR1 | Aprovar o escopo (13 iscas, 4 reservadas ou em espera) e a ordem da seção 17 | Decide o que a squad escreve primeiro | Sem verba; horas de squad (seção 17) | Isca pronta antes do P5 de cada área | Reordenar na revisão semanal |
+| IR1 | Aprovar o escopo (13 iscas ativas, 3 reservadas, 1 em espera) e a ordem da seção 17 | Decide o que a squad escreve primeiro | Sem verba; horas de squad (seção 17) | Isca pronta antes do P5 de cada área | Reordenar na revisão semanal |
 | IR2 | Nomear um docente revisor por área e confirmar o aceite (a autorização de imagem e citação das decisões 8 e 10 não cobre revisão nem gravação) | Nenhum conteúdo técnico sai sem revisão | Tempo do docente [CONFIRMAR] | Perguntas de decisão revisadas | Publicar só as seções sem conteúdo técnico |
 | IR3 | Jurídico ou encarregado aprovar os textos das duas caixas, a leitura de que o arquivo é entregue sem marcar caixa e a URL da política | LGPD | Sem custo de mídia | Formulário no ar com registro de prova | Retirar a caixa ou a página |
 | IR4 | Confirmar que o e-mail de entrega é atendimento e fora do teto D1 (pergunta NPR5 da nutrição) | Muda o que cabe na semana | Sem custo | Regra única para os formulários | Tratar como campanha |
 | IR5 | Decidir quem hospeda o PDF e cria a página (landing-page cria o texto; a publicação é da Ufape) | Sem hospedagem não há entrega | Horas do site [CONFIRMAR] | Entrega funcionando | Tirar a página do ar |
 | IR6 | Cmo responder à pergunta U-I1 (régua das provas depois da decisão 14) e à proposta de entrada do lead de isca no NP2 sem o NP1-T2 | Arquivos de outros agentes | Sem custo | Funil sem duplicar toque | Manter o NP1 completo |
 | IR7 | Aprovar manter A6, A8, A9 reservadas e A13 em espera, ou pedir a produção | Turmas com início entre 30/10 e 28/11 e área sem turma | Sem custo; 12 h se produzir | Esforço concentrado onde há turma futura | Produzir quando houver turma futura |
-| IR8 | Ufape decidir se o aviso de próxima turma pode ser prometido sem data, na isca de A6, A8, A9 e A13 | Hoje não há data prevista | Sem custo | NP3-T2 com finalidade escrita | Retirar a chamada de aviso |
+| IR8 | Ufape decidir se o aviso de próxima turma pode ser prometido sem data, nas iscas de A6, A8, A9 e A13 | Hoje não há data prevista | Sem custo | NP3-T2 com finalidade escrita | Retirar a chamada de aviso |
 
 Nada é publicado, enviado ou pago pela squad.
 
@@ -530,7 +531,7 @@ Nada é publicado, enviado ou pago pela squad.
 
 ### 19.2 auditorias/conformidade-educacional.md
 
-Nome "Pós-graduação em <área>"; sem frase sobre título ou documento final; sem urgência sem número; turma mínima pela regra 1.1 (item 7); nenhuma chamada para turma "verificar", "sem venda" ou "encerrado"; 698 sem data nem chamada até a correção; 662 sem preço; 699 e 719 fora; sem prova de bolsa; sem número clínico; docentes só com nome e titulação da ficha, como sugestão de revisor; nenhum dado pessoal; ferramenta de orientação sem promessa de resultado.
+Nome "Pós-graduação em <área>"; sem frase sobre título ou documento final; sem urgência sem número; turma mínima pela regra 1.1 (item 7); nenhuma chamada para turma "verificar", "sem venda" ou "encerrado"; 698 sem data nem chamada até a correção; 662 sem preço; 699 e 719 fora; sem prova de bolsa; sem número clínico; docentes só com nome e titulação da ficha, como sugestão de revisor; nenhum dado pessoal; ferramenta de orientação sem promessa de resultado. Travessão e meia-risca conferidos por busca de U+2014 e U+2013 (resultado informado na resposta ao pedido).
 
 ---
 
@@ -550,7 +551,7 @@ Nome "Pós-graduação em <área>"; sem frase sobre título ou documento final; 
 - Módulos, módulos presenciais, coordenação, docentes listados e público de cada turma. Fonte: fichas em contexto/cursos/pos/, via mensagens-pos-2026-10-26 (seções 3 a 16). Cronograma de 68635 conferido na ficha: módulos online com dois dias e presenciais só com o mês.
 - Autorização de imagem e citação para todos os docentes e convidados. Fonte: decisões 8 e 10. A autorização não obriga o docente a publicar: estrategia-social-pos, 4.1 (citada na crescimento-de-audiencia).
 - Turma mínima de 15 e orientação de passagem e hotel só com a turma confirmada. Fonte: decisão 11; contexto/pos-graduacao.md. Algumas páginas ainda dizem 20: campanhas-de-nutricao-pos, 1.4.
-- Teto D1, fila D2, janela de silêncio D8, pares D6, UTM D11 e D12, frase de nome. Fonte: cmo-geral, seção 12.
+- Teto D1, fila D2, janela de silêncio D8, pares D6, UTM D11 e D12. Fonte: cmo-geral, seção 12.
 - Textos das caixas, campos opcionais, regras de LGPD de captação. Fonte: crescimento-de-audiencia, seção 4.
 - NP1, NP2, NP3, lote de 30/11, P5 em 02/12 (289, 68615, 333) e 04/01 (657, 341), dias sem campanha. Fonte: campanhas-de-nutricao-pos, seções 1 a 4.
 - 698 sem anúncio novo até a correção do site; 662 sem preço; 699 com ficha contraditória; 719 com persona própria; 68623 com local da prática a confirmar; 68632 como única turma presencial. Fonte: mensagens-pos, seções 0 e 3 a 16.

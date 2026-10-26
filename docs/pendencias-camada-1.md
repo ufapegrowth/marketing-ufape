@@ -32,6 +32,7 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 | U10 | Pré-requisito da 657 |
 | U11 | Valor da inscrição da Pós: R$ 260,00 (informado pelo CEO) ou R$ 250,00 (site; R$ 350,00 em 3 cursos)? |
 | U11a | A Ufape usa a API oficial do WhatsApp Business ou o aplicativo no celular? |
+| U13 | Graduação (MP15): a meta de 15 matrículas por curso convive com a turma mínima de 30 do edital? Medicina Veterinária conta como 1 curso ou 2 turnos (integral e noturno)? As 15 são a meta total ou só a parte da mídia? |
 | U12 | Na Graduação, o que é "valor do curso" para a meta de 15 matrículas (mensalidade vezes duração, primeira anualidade ou outra conta)? |
 | Metas | Metas em reais por turma e por linha (formulário do gestor de mídia): sem elas, os tetos de custo ficam só como fórmula |
 
