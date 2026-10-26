@@ -4,6 +4,7 @@
 - Linha: graduacao
 - Data: 26/10/2026 (segunda-feira)
 - Workflow: /campanha-de-vestibular, etapa 5 de 8
+- Versão: corrigida depois da rodada b do qa-de-marketing (veredito C1, itens C-1 a C-9), em 26/10/2026
 - Liberações cobertas:
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo. G1a integral (jovem e família); G1b noturno (adulto que estuda à noite)
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno (adulto que trabalha)
@@ -24,6 +25,7 @@
   - saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md
   - saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md (encomenda)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (voz da marca)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-b.md (veredito C1)
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 - Regra de fonte: preço, modalidade, turno, duração, carga horária e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso e regras do desconto vêm da ficha dos editais 2027/1; os nomes das disciplinas do 1º semestre vêm da matriz das fichas e estão marcados para confirmação no catálogo. Nenhum número de desempenho, verba, meta de custo ou exportação existe hoje: tudo isso é [CONFIRMAR] ou [DADO NÃO FORNECIDO]. Nenhum nome de docente ou aluno. Nenhum dado pessoal.
 - Observação: o arquivo cmo-graduacao-2026-10-26.md não foi aberto diretamente; as decisões do cmo foram lidas pelos briefings do estrategia-de-campanha, da oferta e do gestor-de-midia.
@@ -32,11 +34,11 @@
 
 ## 0. Situação em uma frase
 
-O pacote entrega 13 conceitos (4 no integral, 4 no noturno, 5 na Pedagogia), 6 roteiros de vídeo curto, textos de 1:1, 9:16 e carrossel, 9 anúncios responsivos de busca e a tabela de teste. O integral está pronto para montagem depois do qa e da aprovação humana. O noturno e a Pedagogia estão prontos e **BLOQUEADOS para anúncio pago** até os desbloqueios do gestor-de-midia.
+O pacote entrega 13 conceitos (4 no integral, 4 no noturno, 5 na Pedagogia), 6 roteiros de vídeo curto, textos de 1:1, 9:16 e carrossel, 8 anúncios responsivos de busca e a tabela de teste. O integral está pronto para montagem depois do qa e da aprovação humana. O noturno e a Pedagogia estão prontos e **BLOQUEADOS para anúncio pago** até os desbloqueios do gestor-de-midia. Nenhuma campanha sobe, nem em teste, sem CPL máximo, custo por matrícula máximo e verba aprovados.
 
 | Recorte | Conceitos | Roteiros | Busca (RSA) | Status do anúncio pago | Desbloqueio |
 |---|---|---|---|---|---|
-| G1a Medicina Veterinária integral | 4: v1-preco, v2-pratica, v3-entrada, v4-ato | R-I1, R-I2 | 3 (v1, v2, v3) | Pronto para montagem, depois do qa (10/11) e da aprovação humana. Sobe em 16/11/2026 só com MP1, MP2, MP4 e EM1 respondidos | TikTok exige MP5; YouTube exige MP6 e G11 |
+| G1a Medicina Veterinária integral | 4: v1-preco, v2-pratica, v3-entrada, v4-ato | R-I1, R-I2 | 3 (v1, v2, v3) | Pronto para montagem, depois do qa (10/11) e da aprovação humana. Só sobe em 16/11/2026, mesmo em teste, com MP1, MP2, MP4 e EM1 respondidos | TikTok exige MP5; YouTube exige MP6 e G11 |
 | G1b Medicina Veterinária noturno | 4: v1-preco, v2-noite, v3-entrada, v4-ato | R-N1, R-N2 | 3 (v1, v2, v3) | **BLOQUEADO** | G8 (campo turno da página mostra "INTEGRAL") e MP4, depois MP8 |
 | G2 Pedagogia | 5: p1-noite, p2-pratica, p3-preco, p4-ato, p5-entrada | R-P1, R-P2 | 2 (p1, p3), condicionados a volume | **BLOQUEADO** | G6 (página com texto de modelo, egresso copiado e docentes de outro curso), MP4 e MP1, depois MP9 |
 
@@ -46,16 +48,17 @@ O pacote entrega 13 conceitos (4 no integral, 4 no noturno, 5 na Pedagogia), 6 r
 
 ### 1.1 Regras que valem para todos os conceitos
 
-1. **Destino único:** LP da Graduação, com UTM do plano (seção 10). A squad nunca altera a LP. URL base [CONFIRMAR, G13]: faculdade.ufape.com.br/graduacao (Medicina Veterinária) e faculdade.ufape.com.br/graduacao/pedagogia.
+1. **Destino único:** LP da Graduação, com UTM do plano (seção 9). A squad nunca altera a LP. URL base [CONFIRMAR, G13]: faculdade.ufape.com.br/graduacao (Medicina Veterinária) e faculdade.ufape.com.br/graduacao/pedagogia.
 2. **Público:** anúncio só para 18 anos ou mais. Nenhum texto afirma ou insinua situação de quem vê (emprego, idade, renda, ser pai ou mãe). Exemplo: "Para quem quer estudar veterinária à noite" passa; "Você trabalha de dia?" bloqueia.
 3. **Desconto:** sempre com valor cheio, valor com desconto, percentual e validade (só o 1º semestre de 2027). Arte e título curtos levam "1º semestre de 2027" e "Condições e validade no edital"; a regra completa vai no texto principal (blocos da seção 2.1). Nunca se diz que o desconto vale para o curso todo nem que a renovação é automática.
-4. **Entrada:** inscrição gratuita; redação online feita a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante. Nunca "fácil", "sem vestibular" ou aprovação certa.
+4. **Entrada:** inscrição gratuita; redação online feita a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante. **Toda vez que o Enem aparece como forma de entrada, em cartão, cena, título ou descrição, vem com "média mínima de 300 pontos".** Nunca "fácil", "sem vestibular", "vale para entrar", "entre com a nota" ou aprovação certa: a redação ou a nota dá o direito de concorrer, não garante a entrada.
 5. **Ato:** só como no catálogo, sem antecipar reconhecimento. Nenhuma nota do MEC e nenhuma frase de certificação.
 6. **Sem urgência sem número:** nada de contagem regressiva, "termina hoje" ou escassez. Não existe número de vagas restantes nem data-limite de inscrição publicada.
 7. **Sem promessa** de emprego, salário, concurso ou progressão. Prouni, Fies e financiamento não aparecem. Sisu não aparece associado à Ufape.
 8. **Pessoas e imagem:** nenhum docente, aluno, depoimento ou paciente. Nenhum menor identificável. Hospital veterinário (Ufape Clínica) fora dos textos até G11. Imagens: grafismo de texto; imagem real só com autorização registrada [CONFIRMAR autorização].
 9. **Pedagogia:** sem carga horária, sem coordenação, sem docentes, sem endereço, sem trechos de modelo da página.
 10. **Marca:** "Faculdade UFAPE" na primeira menção; "Ufape" depois. Sem caixa alta para gritar, sem emoji, sem pontuação repetida.
+11. **Subida:** nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos aprovados (MP1) e verba aprovada (MP2).
 
 ### 1.2 Dimensões de cada conceito (skill matriz-de-criativos)
 
@@ -103,8 +106,8 @@ A comparação vale dentro de cada recorte. Entre recortes a persona e a oferta 
 |---|---|---|---|---|
 | 1. Captação | 16/11 a 06/12/2026 | v1-preco, v2-pratica, v3-entrada, todos com gancho A (a fase inteira é teste) | v1-preco, v2-noite, v3-entrada. As 2 primeiras semanas depois do desbloqueio são teste | p1-noite, p2-pratica, p3-preco, p4-ato. Se o volume não fechar a condição 2.7 do plano, sobe só p1-noite e p3-preco |
 | 2. Aquecimento | 07/12/2026 a 03/01/2027 | 80% validados e 20% conceito novo (v4-ato). Remarketing com v1 (regra completa) e v3 (Stories). Vídeo R-I1 para engajamento; Shorts R-I1 só com MP6 | v4-ato como conceito novo | p5-entrada como conceito novo |
-| 3. Inscrições abertas | 04/01 a 31/01/2027 | Vencedores, com a troca de texto da seção 2.5. Semana E (notas do Enem) só com a data confirmada | idem | idem |
-| 4. Reta final | 01/02 a 21/02/2027 | Troca de texto da seção 2.5: passos da matrícula | idem | idem |
+| 3. Inscrições abertas | 04/01 a 31/01/2027 | Vencedores, com a troca de texto da seção 2.6. Semana E (notas do Enem) só com a data confirmada | idem | idem |
+| 4. Reta final | 01/02 a 21/02/2027 | Troca de texto da seção 2.6: passos da matrícula | idem | idem |
 
 Reajuste de dezembro [CONFIRMAR, G12]: se mudar os valores de 2027/1, todo criativo com preço passa por ciclo extra antes de seguir no ar.
 
@@ -149,7 +152,7 @@ Os blocos reproduzem o texto oficial da ficha de oferta (seção 0.2) e os edita
 
 - Texto principal (visível): as primeiras linhas, que aparecem antes do "ver mais" no feed. Complemento: o que vem depois, com a regra completa.
 - Título e descrição: limites aproximados de 40 e 30 caracteres no Meta [CONFIRMAR os limites no gerenciador na hora da montagem].
-- Notas dos ganchos: clareza, curiosidade e verdade, de 1 a 5, avaliação do agente. Todo gancho foi conferido contra o corpo; os que o corpo não cumpre foram cortados (lista na seção 2.6).
+- Notas dos ganchos: clareza, curiosidade e verdade, de 1 a 5, avaliação do agente. Todo gancho foi conferido contra o corpo; os que o corpo não cumpre foram cortados (lista na seção 2.7).
 - CTA: botão "Cadastre-se" nas campanhas de cadastro e "Saiba mais" no remarketing; chamada no texto: "Veja o edital e faça a inscrição gratuita pelo site." [CONFIRMAR G13: se o formulário da LP é a inscrição ou só captura de contato].
 - Versão 4:5 do feed (feed-4x5) é o mesmo texto do 1:1 reorganizado; o plano de mídia usa 4x5 nos exemplos, por isso a adaptação é opcional e fica com o anuncios-meta.
 
@@ -168,7 +171,7 @@ Os blocos reproduzem o texto oficial da ficha de oferta (seção 0.2) e os edita
 |---|---|---|---|
 | A: "De R$ 10.000,00 por R$ 5.000,00 por mês no 1º semestre de 2027." | Resultado primeiro, número | 5/3/5 | Valor cheio, valor com desconto, validade e regra no complemento |
 | B: "A conta inteira do 1º semestre de Medicina Veterinária." | Curiosidade | 4/4/5 | Mensalidade cheia, parcelas, validade e renovação |
-| C: "Metade do preço no 1º semestre, com as regras na mesa." | Contrário ao senso comum | 4/3/4 | 50% de desconto só no 1º semestre, com a regra completa |
+| C: "De R$ 10.000,00 por R$ 5.000,00: metade no 1º semestre de 2027." | Contrário ao senso comum | 4/3/5 | 50% de desconto só no 1º semestre de 2027, com a regra completa |
 
 | Campo | Conteúdo |
 |---|---|
@@ -222,7 +225,7 @@ Os blocos reproduzem o texto oficial da ficha de oferta (seção 0.2) e os edita
 
 | Gancho | Tipo | Nota (C/Cu/V) | Cumprido por |
 |---|---|---|---|
-| A: "Sua nota do Enem pode ser a sua entrada." | Objeção direta | 5/4/5 | Regra do Enem (300 pontos, 2010 em diante) |
+| A: "Sua nota do Enem pode ser a sua entrada." | Objeção direta | 5/4/5 | Regra do Enem (média mínima de 300 pontos, 2010 em diante), dita já no texto principal |
 | B: "Redação online, feita quando você puder." | Resultado primeiro | 5/3/5 | Redação online a qualquer momento depois da inscrição, com a regra de ser eliminatória |
 | C: "Sem dia marcado de prova: faça a redação online quando puder." | Contrário ao senso comum | 4/4/5 | O edital não marca data de prova; a redação é eliminatória e tem nota mínima, dita no corpo |
 
@@ -230,8 +233,8 @@ Os blocos reproduzem o texto oficial da ficha de oferta (seção 0.2) e os edita
 |---|---|
 | Texto principal (visível) | "Inscrição gratuita na Faculdade UFAPE. Use a nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação online." |
 | Complemento | B-ENTRADA, B-MENOR e "Medicina Veterinária presencial em São Paulo. As aulas começam em 22/02/2027." |
-| Título | "Entre com a nota do Enem" |
-| Descrição | "Ou faça a redação online" |
+| Título | "Use sua nota do Enem" |
+| Descrição | "Média mínima de 300 pontos" |
 | CTA | Botão "Cadastre-se" |
 | Estático 1:1 (texto na arte) | "Sua nota do Enem pode ser a sua entrada". Linha 2: "Média mínima de 300 pontos, edições de 2010 em diante". Linha 3: "Ou redação online, quando você puder". Rodapé: "Inscrição gratuita. Medicina Veterinária, São Paulo" |
 | Estático 9:16 (texto na arte) | "Sua nota do Enem pode ser a sua entrada" no topo; no centro "Enem de 2010 em diante, média mínima de 300 pontos"; base: "Ou redação online. Inscrição gratuita" |
@@ -263,7 +266,7 @@ Os blocos reproduzem o texto oficial da ficha de oferta (seção 0.2) e os edita
 | CTA | Botão "Saiba mais" (fase 2, remarketing) ou "Cadastre-se" |
 | Estático 1:1 (texto na arte) | "O que conferir antes de matricular". Linha 1: "Ato do curso: Portaria SERES/MEC nº 162, de 13/03/2025". Linha 2: "Inscrição gratuita". Linha 3: "Condições de matrícula e cancelamento no edital". Sem menção a desconto na arte (o desconto fica no carrossel e no complemento, com a regra inteira) |
 | Estático 9:16 (texto na arte) | Mesmo conteúdo em lista vertical de 3 itens, com "Faculdade UFAPE, São Paulo" na base |
-| Carrossel 1:1 (7 cartões) | 1: "O que a família deve conferir antes de matricular". 2: "1. Ato do curso: Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025). Bacharelado presencial, 4.195 h mais 75 h de atividades complementares". 3: "2. Inscrição gratuita. Redação online ou nota do Enem". 4: "3. Desconto: de R$ 10.000,00 por R$ 5.000,00 por mês (50%), só no 1º semestre de 2027. A renovação é pedida a cada semestre, com comprovação". 5: "4. Cancelamento até 2 dias antes do início das aulas: 80% do valor pago de volta". 6: "5. Turma mínima de 30 matriculados. Se não chegar, a Ufape pode cancelar a oferta e devolve a 1ª parcela". 7: "As aulas começam em 22/02/2027. Condições e validade no edital" |
+| Carrossel 1:1 (7 cartões) | 1: "O que a família deve conferir antes de matricular". 2: "1. Ato do curso: Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025). Bacharelado presencial, 4.195 h mais 75 h de atividades complementares". 3: "2. Inscrição gratuita. Redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)". 4: "3. Desconto: de R$ 10.000,00 por R$ 5.000,00 por mês (50%), só no 1º semestre de 2027. A renovação é pedida a cada semestre, com comprovação". 5: "4. Cancelamento até 2 dias antes do início das aulas: 80% do valor pago de volta". 6: "5. Turma mínima de 30 matriculados. Se não chegar, a Ufape pode cancelar a oferta e devolve a 1ª parcela". 7: "As aulas começam em 22/02/2027. Condições e validade no edital" |
 | Vídeo 9:16 | Não previsto |
 | Destino com UTM | faculdade.ufape.com.br/graduacao?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_medvet-integral_meta_cadastro_amplo18_202611&utm_content=v4-ato_carrossel-1x1_v1&utm_term=amplo18 |
 
@@ -289,7 +292,7 @@ Cuidados do segmento: não prometer "sem largar o trabalho", não falar de horá
 |---|---|
 | Texto principal (visível) | "De R$ 10.000,00 por R$ 4.000,00 por mês (60%) no 1º semestre de 2027: Medicina Veterinária noturno, 5 anos, na Faculdade UFAPE, em São Paulo." |
 | Complemento | B-DESC-NOT, B-ENTRADA, B-MENOR. Fecha com "Veja o edital e faça a inscrição gratuita pelo site." |
-| Título | "Noturno: 60% no 1º semestre" |
+| Título | "60% no 1º semestre de 2027" |
 | Descrição | "Condições e validade no edital" |
 | CTA | Botão "Cadastre-se" |
 | Estático 1:1 (texto na arte) | Linha 1: "De R$ 10.000,00" (riscado). Linha 2: "por R$ 4.000,00 por mês". Linha 3: "Medicina Veterinária noturno, 5 anos, São Paulo (60% de desconto)". Rodapé: "1º semestre de 2027. Condições e validade no edital." |
@@ -322,12 +325,12 @@ Cuidados do segmento: não prometer "sem largar o trabalho", não falar de horá
 | CTA | Botão "Cadastre-se" |
 | Estático 1:1 (texto na arte) | "Medicina Veterinária à noite". Linha 2: "Presencial, 5 anos, São Paulo". Rodapé: "Inscrição gratuita" |
 | Estático 9:16 (texto na arte) | "Para quem quer estudar veterinária à noite" no topo; centro: "Noturno, presencial, 5 anos"; base: "Faculdade UFAPE, São Paulo. Inscrição gratuita" |
-| Carrossel 1:1 (6 cartões) | 1: "Para quem quer estudar veterinária à noite". 2: "Noturno, presencial, em São Paulo". 3: "O curso dura 5 anos". 4: "No 1º semestre: Práticas Hospitalares e Projeto Extensionista I". 5: "Inscrição gratuita: redação online ou nota do Enem". 6: "Faculdade UFAPE. Veja o edital na página" |
+| Carrossel 1:1 (6 cartões) | 1: "Para quem quer estudar veterinária à noite". 2: "Noturno, presencial, em São Paulo". 3: "O curso dura 5 anos". 4: "No 1º semestre: Práticas Hospitalares e Projeto Extensionista I". 5: "Inscrição gratuita: redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)". 6: "Faculdade UFAPE. Veja o edital na página" |
 | Vídeo 9:16 | **R-N1** (seção 3) |
 | Destino com UTM | faculdade.ufape.com.br/graduacao?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_medvet-noturno_meta_cadastro_amplo18_AAAAMM&utm_content=v2-noite_reels-9x16_v1&utm_term=amplo18 |
 | Status | **BLOQUEADO** |
 
-#### NOT-V3 v3-entrada: "Enem antigo vale"
+#### NOT-V3 v3-entrada: "Enem antigo, com média mínima de 300 pontos"
 
 | Campo | Conteúdo |
 |---|---|
@@ -337,7 +340,7 @@ Cuidados do segmento: não prometer "sem largar o trabalho", não falar de horá
 
 | Gancho | Tipo | Nota (C/Cu/V) | Cumprido por |
 |---|---|---|---|
-| A: "Nota do Enem de 2010 em diante vale para entrar." | Objeção direta | 5/4/5 | Regra do Enem no edital |
+| A: "Use a nota do Enem de 2010 em diante, com média mínima de 300 pontos." | Objeção direta | 5/4/5 | Regra do Enem no edital, com a condição já no gancho |
 | B: "Redação online: faça quando puder, depois da inscrição." | Resultado primeiro | 5/3/5 | Regra da redação |
 | C: "Inscrição gratuita no noturno de Medicina Veterinária." | Fato | 5/2/5 | Edital |
 
@@ -345,12 +348,12 @@ Cuidados do segmento: não prometer "sem largar o trabalho", não falar de horá
 |---|---|
 | Texto principal (visível) | "Faculdade UFAPE, Medicina Veterinária noturno em São Paulo: use a nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação online." |
 | Complemento | B-ENTRADA, B-MENOR, "Curso noturno de 5 anos. As aulas começam em 22/02/2027." |
-| Título | "Veterinária noturno com Enem" |
-| Descrição | "Ou redação online" |
+| Título | "Use sua nota do Enem" |
+| Descrição | "Média mínima de 300 pontos" |
 | CTA | Botão "Cadastre-se" |
-| Estático 1:1 (texto na arte) | "Nota do Enem de 2010 em diante vale para entrar". Linha 2: "Média mínima de 300 pontos". Rodapé: "Medicina Veterinária noturno, São Paulo. Inscrição gratuita" |
-| Estático 9:16 (texto na arte) | Mesmo conteúdo; no topo o gancho, no centro a regra, na base "Ou redação online, quando puder" |
-| Carrossel 1:1 (5 cartões) | 1: "Nota do Enem de 2010 em diante vale para entrar". 2: "Média mínima de 300 pontos". 3: "Ou faça a redação online, quando puder. É eliminatória, com nota mínima 5,0". 4: "Inscrição gratuita pelo site". 5: "Noturno, 5 anos, São Paulo. Aulas a partir de 22/02/2027" |
+| Estático 1:1 (texto na arte) | "Use a nota do Enem de 2010 em diante". Linha 2: "Média mínima de 300 pontos". Rodapé: "Medicina Veterinária noturno, São Paulo. Inscrição gratuita" |
+| Estático 9:16 (texto na arte) | Mesmo conteúdo; no topo o gancho, no centro a regra ("Média mínima de 300 pontos"), na base "Ou redação online, quando puder" |
+| Carrossel 1:1 (4 cartões) | 1: "Use a nota do Enem de 2010 em diante, com média mínima de 300 pontos". 2: "Ou faça a redação online, quando puder. É eliminatória, com nota mínima 5,0". 3: "Inscrição gratuita pelo site". 4: "Noturno, 5 anos, São Paulo. Aulas a partir de 22/02/2027" |
 | Vídeo 9:16 | Não previsto (reaproveitar R-I2 trocando o curso é iteração futura) |
 | Destino com UTM | faculdade.ufape.com.br/graduacao?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_medvet-noturno_meta_cadastro_amplo18_AAAAMM&utm_content=v3-entrada_stories-9x16_v1&utm_term=amplo18 |
 | Status | **BLOQUEADO** |
@@ -410,7 +413,7 @@ Cuidados do segmento: sem carga horária, sem coordenação, sem docentes, sem e
 | CTA | Botão "Cadastre-se" |
 | Estático 1:1 (texto na arte) | "Pedagogia à noite". Linha 2: "Presencial, 4 anos, Goiânia". Rodapé: "Inscrição gratuita" |
 | Estático 9:16 (texto na arte) | "Pedagogia presencial, à noite, em Goiânia" no topo; centro: "Licenciatura, 4 anos"; base: "Faculdade UFAPE. Inscrição gratuita" |
-| Carrossel 1:1 (5 cartões) | 1: "Para quem quer dar aula na Educação Infantil e nos anos iniciais". 2: "Pedagogia presencial, à noite, em Goiânia". 3: "Licenciatura de 4 anos". 4: "Educação Infantil, anos iniciais e gestão educacional". 5: "Inscrição gratuita: redação online ou nota do Enem" |
+| Carrossel 1:1 (5 cartões) | 1: "Para quem quer dar aula na Educação Infantil e nos anos iniciais". 2: "Pedagogia presencial, à noite, em Goiânia". 3: "Licenciatura de 4 anos". 4: "Educação Infantil, anos iniciais e gestão educacional". 5: "Inscrição gratuita: redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)" |
 | Vídeo 9:16 | **R-P1** (seção 3) |
 | Destino com UTM | faculdade.ufape.com.br/graduacao/pedagogia?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_pedagogia_meta_cadastro_goiania18_AAAAMM&utm_content=p1-noite_reels-9x16_v1&utm_term=goiania18 |
 | Status | **BLOQUEADO** |
@@ -495,12 +498,12 @@ Cuidados do segmento: sem carga horária, sem coordenação, sem docentes, sem e
 | CTA | Botão "Saiba mais" |
 | Estático 1:1 (texto na arte) | "O que conferir antes de matricular". Linha 1: "Ato do curso: Portaria nº 992, de 08/12/2022". Linha 2: "Inscrição gratuita". Linha 3: "Condições de matrícula e cancelamento no edital" |
 | Estático 9:16 (texto na arte) | Mesmo conteúdo em lista vertical, com "Pedagogia, Goiânia" na base |
-| Carrossel 1:1 (7 cartões) | 1: "O que conferir antes de se matricular em Pedagogia". 2: "1. Ato do curso: Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022). Licenciatura presencial". 3: "2. Inscrição gratuita. Redação online ou nota do Enem". 4: "3. Desconto: de R$ 1.050,00 por R$ 525,00 por mês (50%), só no 1º semestre de 2027. A renovação é pedida a cada semestre, com comprovação". 5: "4. Cancelamento até 2 dias antes do início das aulas: 80% do valor pago de volta". 6: "5. Turma mínima de 30 matriculados. Se não chegar, a Ufape pode cancelar a oferta e devolve a 1ª parcela". 7: "As aulas começam em 22/02/2027. Condições e validade no edital" |
+| Carrossel 1:1 (7 cartões) | 1: "O que conferir antes de se matricular em Pedagogia". 2: "1. Ato do curso: Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022). Licenciatura presencial". 3: "2. Inscrição gratuita. Redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)". 4: "3. Desconto: de R$ 1.050,00 por R$ 525,00 por mês (50%), só no 1º semestre de 2027. A renovação é pedida a cada semestre, com comprovação". 5: "4. Cancelamento até 2 dias antes do início das aulas: 80% do valor pago de volta". 6: "5. Turma mínima de 30 matriculados. Se não chegar, a Ufape pode cancelar a oferta e devolve a 1ª parcela". 7: "As aulas começam em 22/02/2027. Condições e validade no edital" |
 | Vídeo 9:16 | Não previsto |
 | Destino com UTM | faculdade.ufape.com.br/graduacao/pedagogia?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_pedagogia_meta_cadastro_goiania18_AAAAMM&utm_content=p4-ato_stories-9x16_v1&utm_term=goiania18 |
 | Status | **BLOQUEADO** |
 
-#### P5 p5-entrada: "Enem antigo e redação online" (conceito extra, entra como novo na fase 2)
+#### P5 p5-entrada: "Enem antigo, com média mínima de 300 pontos, e redação online" (conceito extra, entra como novo na fase 2)
 
 | Campo | Conteúdo |
 |---|---|
@@ -510,7 +513,7 @@ Cuidados do segmento: sem carga horária, sem coordenação, sem docentes, sem e
 
 | Gancho | Tipo | Nota (C/Cu/V) | Cumprido por |
 |---|---|---|---|
-| A: "Nota do Enem de 2010 em diante vale para entrar." | Objeção direta | 5/4/5 | Regra do edital |
+| A: "Use a nota do Enem de 2010 em diante, com média mínima de 300 pontos." | Objeção direta | 5/4/5 | Regra do edital, com a condição já no gancho |
 | B: "Redação online: faça quando puder, depois da inscrição." | Resultado primeiro | 5/3/5 | Regra da redação |
 | C: "Inscrição gratuita em Pedagogia, em Goiânia." | Fato | 5/2/5 | Edital 004/2026 |
 
@@ -518,12 +521,12 @@ Cuidados do segmento: sem carga horária, sem coordenação, sem docentes, sem e
 |---|---|
 | Texto principal (visível) | "Faculdade UFAPE, Pedagogia em Goiânia: use a nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação online." |
 | Complemento | B-ENTRADA, B-MENOR, "Pedagogia presencial, à noite. As aulas começam em 22/02/2027." |
-| Título | "Entre com a nota do Enem" |
-| Descrição | "Ou faça a redação online" |
+| Título | "Use sua nota do Enem" |
+| Descrição | "Média mínima de 300 pontos" |
 | CTA | Botão "Cadastre-se" |
-| Estático 1:1 (texto na arte) | "Nota do Enem de 2010 em diante vale para entrar". Linha 2: "Média mínima de 300 pontos". Rodapé: "Pedagogia, Goiânia. Inscrição gratuita" |
-| Estático 9:16 (texto na arte) | Topo: o gancho; centro: "Ou redação online, quando puder"; base: "Pedagogia presencial, à noite, Goiânia" |
-| Carrossel 1:1 (5 cartões) | 1: "Nota do Enem de 2010 em diante vale para entrar". 2: "Média mínima de 300 pontos". 3: "Ou faça a redação online, quando puder. É eliminatória, com nota mínima 5,0". 4: "Inscrição gratuita pelo site". 5: "Pedagogia presencial, à noite. Aulas a partir de 22/02/2027" |
+| Estático 1:1 (texto na arte) | "Use a nota do Enem de 2010 em diante". Linha 2: "Média mínima de 300 pontos". Rodapé: "Pedagogia, Goiânia. Inscrição gratuita" |
+| Estático 9:16 (texto na arte) | Topo: o gancho; centro: "Média mínima de 300 pontos. Ou redação online, quando puder"; base: "Pedagogia presencial, à noite, Goiânia" |
+| Carrossel 1:1 (4 cartões) | 1: "Use a nota do Enem de 2010 em diante, com média mínima de 300 pontos". 2: "Ou faça a redação online, quando puder. É eliminatória, com nota mínima 5,0". 3: "Inscrição gratuita pelo site". 4: "Pedagogia presencial, à noite. Aulas a partir de 22/02/2027" |
 | Vídeo 9:16 | Não previsto |
 | Destino com UTM | faculdade.ufape.com.br/graduacao/pedagogia?utm_source=meta&utm_medium=paid_social&utm_campaign=grad_pedagogia_meta_cadastro_goiania18_AAAAMM&utm_content=p5-entrada_carrossel-1x1_v1&utm_term=goiania18 |
 | Status | **BLOQUEADO** |
@@ -535,9 +538,9 @@ Nas fases 2 a 4 o conceito não muda: muda a linha de abertura, o título e a de
 | Fase | Para quê | Gancho da fase | Título | Descrição | Texto na arte |
 |---|---|---|---|---|---|
 | 2. Aquecimento, remarketing (integral, noturno, Pedagogia) | v1 com a regra completa visível no complemento | "A regra completa do desconto do 1º semestre de 2027." | "Regras do desconto 2027/1" | "Condições e validade no edital" | Preço de/por do conceito v1 (ou p3) e, abaixo, "Renovação pedida a cada semestre, com comprovação" |
-| 3. Inscrições abertas (todos) | Foco em entrar pela nota ou pela redação | "Nota do Enem ou redação online: escolha como entrar." | "Entre por nota ou redação" | "Inscrição gratuita" | "Nota do Enem ou redação online" / "Inscrição gratuita" / "Medicina Veterinária integral, São Paulo" (noturno: "noturno"; Pedagogia: "Pedagogia, Goiânia") |
-| 3. Semana E (divulgação das notas do Enem) | Só depois de a data oficial ser confirmada [CONFIRMAR] | "Notas do Enem divulgadas: veja como usar a sua para entrar." | "Use sua nota do Enem" | "Média mínima de 300 pontos" | "Use sua nota do Enem" / "Média mínima de 300 pontos, de 2010 em diante" |
-| 4. Reta final (todos) | Passos e prazos reais do edital | "As aulas começam em 22/02/2027: veja os passos da matrícula." | "Passos da matrícula" | "Aulas em 22/02/2027" | "Passos da matrícula" / "1. Resultado no site" / "2. Matrícula eletrônica, 2 dias depois do resultado" / "3. Documentos em até 30 dias" / rodapé "Aulas em 22/02/2027". Complemento: B-PASSOS, B-COND, B-MENOR. Sem contagem regressiva e sem "vagas" |
+| 3. Inscrições abertas (todos) | Foco em usar a nota ou fazer a redação | "Nota do Enem (média mínima de 300 pontos) ou redação online: veja como se inscrever." | "Nota do Enem ou redação" | "Inscrição gratuita" | "Use sua nota do Enem ou faça a redação online" / "Média mínima de 300 pontos, edições de 2010 em diante" / "Inscrição gratuita" / "Medicina Veterinária integral, São Paulo" (noturno: "noturno"; Pedagogia: "Pedagogia, Goiânia") |
+| 3. Semana E (divulgação das notas do Enem) | Só depois de a data oficial ser confirmada [CONFIRMAR] | "Notas do Enem divulgadas: use a sua (média mínima de 300 pontos) ou faça a redação online." | "Use sua nota do Enem" | "Média mínima de 300 pontos" | "Use sua nota do Enem" / "Média mínima de 300 pontos, de 2010 em diante" |
+| 4. Reta final (todos) | Passos e prazos reais do edital | "As aulas começam em 22/02/2027: veja os passos da matrícula." | "Passos da matrícula" | "Aulas em 22/02/2027" | "Passos da matrícula" / "1. Resultado no site" / "2. Matrícula eletrônica a partir de 2 dias depois do resultado" / "3. Documentos em até 30 dias" / rodapé "Aulas em 22/02/2027". Complemento: B-PASSOS, B-COND, B-MENOR. Sem contagem regressiva e sem "vagas" |
 
 Os textos da semana E e da fase 4 foram escritos sem número de vagas e sem prazo que o edital não traz. A revisão da reta final com números reais é do cmo e do copy-de-mensagens em 25/01/2027.
 
@@ -554,7 +557,8 @@ Os textos da semana E e da fase 4 foram escritos sem número de vagas e sem praz
 | "Estude sem largar o trabalho" | Promessa que o catálogo não sustenta (horário de prática e estágio do noturno) |
 | "Faculdade reconhecida pelo MEC" e qualquer nota | Sem texto oficial de certificação; os editais não trazem nota |
 | "Veterinária com o hospital mais completo" | Superlativo; hospital só depois de G11 e nunca como exclusivo |
-| "Já fez o Enem?" como pergunta direta | Pode soar como afirmação sobre quem vê; usei a versão declarativa "Sua nota do Enem pode ser a sua entrada" |
+| "Já fez o Enem?" como pergunta direta | Pode soar como afirmação sobre quem vê; usei a versão declarativa |
+| "Nota do Enem vale para entrar", "Entre com a nota do Enem", "Escolha como entrar" | Insinuam entrada garantida pela nota e omitem a média mínima de 300 pontos (veredito C-2 do QA) |
 
 ---
 
@@ -564,7 +568,7 @@ Padrão de produção de todos os roteiros:
 - Formato 9:16, texto na tela em fonte grande dentro da área segura (sem cobrir a zona de interface do Reels e do Stories). A legenda fica embutida e sempre ligada: o vídeo precisa funcionar sem som. Nada importante depende só da locução.
 - Mensageiro: locução sem rosto. Voz de pessoa autorizada ou voz sintética aprovada pela Ufape [CONFIRMAR]. Trilha licenciada [CONFIRMAR]. Sem docente, sem aluno, sem paciente.
 - Imagem: grafismo animado de texto sobre fundo da marca [CONFIRMAR paleta e logotipo]. Imagem real (aula prática, campus) só com autorização registrada e sem menor identificável [CONFIRMAR autorização, G11]. Pedagogia: nenhuma imagem de criança.
-- Cartão final: nome "Faculdade UFAPE", botão e a linha "Menor de idade: aceite do responsável na inscrição e na matrícula".
+- Cartão final: nome "Faculdade UFAPE", botão e a linha "Menor de idade: aceite do representante legal na inscrição e na matrícula".
 - Toda locução e todo texto abaixo já respeitam as regras da seção 1.1.
 
 ### R-I1 (G1a): "Prática já no 1º semestre", conceito INT-V2 (22 s)
@@ -621,7 +625,7 @@ Canais: Reels e Stories (Meta). Nome: v1-preco_reels-9x16_v1.
 
 Duração total: 20 s. O preço aparece sempre completo (valor cheio, valor com desconto, percentual e validade).
 
-### R-P1 (G2): "Pedagogia à noite em Goiânia", conceito P1 (18 s). BLOQUEADO para anúncio pago
+### R-P1 (G2): "Pedagogia à noite em Goiânia", conceito P1 (20 s). BLOQUEADO para anúncio pago
 
 Canais: Reels e Stories (Meta). Nome: p1-noite_reels-9x16_v1.
 
@@ -629,10 +633,10 @@ Canais: Reels e Stories (Meta). Nome: p1-noite_reels-9x16_v1.
 |---|---|---|---|---|
 | 1. Gancho | 0 a 3 s | Título sobre fundo da marca | "Pedagogia presencial, à noite, em Goiânia." | "Pedagogia presencial, à noite, em Goiânia" |
 | 2. Desenvolvimento | 3 a 9 s | Duas linhas | "É uma licenciatura de 4 anos, com foco na docência na Educação Infantil e nos anos iniciais." | "Licenciatura, 4 anos" / "Educação Infantil e anos iniciais" |
-| 3. Entrada | 9 a 14 s | Cartão da entrada | "A inscrição é gratuita: redação online, quando puder, ou nota do Enem." | "Inscrição gratuita" / "Redação online ou nota do Enem" |
-| 4. CTA | 14 a 18 s | Cartão final com a marca | "Veja o edital e as condições na página." | "Edital e condições na página" / "Faculdade UFAPE, Goiânia" / linha do menor de idade |
+| 3. Entrada | 9 a 16 s | Cartão da entrada | "A inscrição é gratuita: redação online, quando puder, ou nota do Enem, com média mínima de 300 pontos." | "Inscrição gratuita" / "Redação online ou nota do Enem" / "Enem: média mínima de 300 pontos" |
+| 4. CTA | 16 a 20 s | Cartão final com a marca | "Veja o edital e as condições na página." | "Edital e condições na página" / "Faculdade UFAPE, Goiânia" / linha do menor de idade |
 
-Duração total: 18 s. Sem carga horária, sem docente, sem endereço, sem imagem de criança.
+Duração total: 20 s. Sem carga horária, sem docente, sem endereço, sem imagem de criança.
 
 ### R-P2 (G2): "Prática Docente desde o 1º semestre", conceito P2 (20 s). BLOQUEADO para anúncio pago
 
@@ -653,7 +657,9 @@ Duração total: 20 s. Gancho verdadeiro: as cenas 2 e 3 vêm da matriz da ficha
 
 Regras: Google Search sem Performance Max. Anúncios para 18 anos ou mais onde a plataforma permitir. O texto não pressiona menor, porque o anúncio de busca pode ser visto por menor [CONFIRMAR com o jurídico, ligado a G10]. Títulos com até 30 caracteres e descrições com até 90, contados com espaços na redação deste arquivo; **conferir de novo no editor do Google Ads antes de montar** (human).
 
-**Fixações (feitas por humano no editor):** em todo anúncio que cita desconto, fixar o título 1 na posição 1 e a descrição 1 na posição 1, para o desconto nunca aparecer sem valor cheio, valor com desconto, validade e "Condições e validade no edital". Nos anúncios sem preço (v2 e v3) não há preço em nenhum ativo.
+**Fixações (feitas por humano no editor):**
+- Em todo anúncio que cita desconto, fixar o título 1 na posição 1 e a descrição 1 na posição 1, para o desconto nunca aparecer sem valor cheio, valor com desconto, validade e "Condições e validade no edital". Nos anúncios sem preço (v2 e v3) não há preço em nenhum ativo.
+- Nos anúncios v3 (integral e noturno), fixar a descrição 1 na posição 1 e o título "Enem com Média Mínima de 300" na posição 2, para o Enem nunca aparecer sem a média mínima.
 
 ### 4.1 Palavras do briefing por grupo
 
@@ -681,7 +687,7 @@ Lista final de palavras e volumes: pesquisa-de-palavras-chave e anuncios-google.
 | Título 7 | "Veterinária Integral, 4 Anos" |
 | Título 8 | "Aulas a partir de 22/02/2027" |
 | Descrição 1 (fixar na posição 1) | "De R$ 10.000,00 por R$ 5.000,00/mês no 1º semestre 2027. Condições e validade no edital." |
-| Descrição 2 | "Inscrição gratuita. Faça a redação online quando puder ou use sua nota do Enem." |
+| Descrição 2 | "Inscrição gratuita. Use a nota do Enem (média mínima de 300 pontos) ou faça a redação." |
 | Descrição 3 | "Curso autorizado pela Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025)." |
 
 **RSA-INT-v2 (utm_content v2-pratica_rsa_v1)**
@@ -697,8 +703,8 @@ Lista final de palavras e volumes: pesquisa-de-palavras-chave e anuncios-google.
 
 | Tipo | Texto |
 |---|---|
-| Títulos | "Veterinária com Nota do Enem" / "Enem com Média Mínima de 300" / "Nota do Enem de 2010 em Diante" / "Redação Online" / "Inscrição Gratuita" / "Medicina Veterinária em SP" / "Vestibular 2027 Veterinária" / "Faculdade UFAPE" |
-| Descrição 1 | "Use sua nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação." |
+| Títulos | "Veterinária com Nota do Enem" / "Enem com Média Mínima de 300" (fixar na posição 2) / "Nota do Enem de 2010 em Diante" / "Redação Online" / "Inscrição Gratuita" / "Medicina Veterinária em SP" / "Vestibular 2027 Veterinária" / "Faculdade UFAPE" |
+| Descrição 1 (fixar na posição 1) | "Use sua nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação." |
 | Descrição 2 | "A redação online é eliminatória, com nota mínima 5,0, e é feita depois da inscrição." |
 | Descrição 3 | "Inscrição gratuita em São Paulo. Aulas a partir de 22/02/2027." |
 
@@ -729,8 +735,8 @@ Títulos extras para o grupo de marca: "Faculdade UFAPE Veterinária" e "Vestibu
 
 | Tipo | Texto |
 |---|---|
-| Títulos | "Veterinária Noturno com Enem" / "Nota do Enem de 2010 em Diante" / "Enem com Média Mínima de 300" / "Redação Online" / "Inscrição Gratuita" / "Veterinária à Noite em SP" / "Medicina Veterinária Noturno" / "Faculdade UFAPE" |
-| Descrição 1 | "Use sua nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação." |
+| Títulos | "Veterinária Noturno com Enem" / "Nota do Enem de 2010 em Diante" / "Enem com Média Mínima de 300" (fixar na posição 2) / "Redação Online" / "Inscrição Gratuita" / "Veterinária à Noite em SP" / "Medicina Veterinária Noturno" / "Faculdade UFAPE" |
+| Descrição 1 (fixar na posição 1) | "Use sua nota do Enem (média mínima de 300 pontos, de 2010 em diante) ou faça a redação." |
 | Descrição 2 | "A redação online é eliminatória, com nota mínima 5,0, e é feita depois da inscrição." |
 | Descrição 3 | "Inscrição gratuita. Curso noturno de 5 anos em São Paulo. Aulas em 22/02/2027." |
 
@@ -742,7 +748,7 @@ Títulos extras para o grupo de marca: "Faculdade UFAPE Veterinária" e "Vestibu
 |---|---|
 | Títulos | "Pedagogia Presencial Goiânia" / "Pedagogia Noturno em Goiânia" / "Vestibular Pedagogia Goiânia" / "Processo Seletivo 2027.1" / "Licenciatura em Pedagogia" / "Curso de 4 Anos, à Noite" / "Inscrição Gratuita" / "Faculdade UFAPE" |
 | Descrição 1 | "Pedagogia presencial, à noite, em Goiânia. Prática docente desde o 1º semestre." |
-| Descrição 2 | "Inscrição gratuita. Faça a redação online quando puder ou use sua nota do Enem." |
+| Descrição 2 | "Inscrição gratuita. Use a nota do Enem (média mínima de 300 pontos) ou faça a redação." |
 | Descrição 3 | "Curso autorizado pela Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022)." |
 
 **RSA-PED-p3 (p3-preco_rsa_v1)**
@@ -759,13 +765,13 @@ Títulos extras para o grupo de marca: "Faculdade UFAPE Veterinária" e "Vestibu
 
 - Fase 4 (reta final), ativos extras para todos os anúncios: título "Passos da Matrícula" e "Aulas em 22/02/2027"; descrição "Resultado no site, matrícula eletrônica e documentos em até 30 dias."
 - Destaques (callouts): "Inscrição gratuita", "Redação online", "Presencial em São Paulo" (integral e noturno), "Presencial em Goiânia" (Pedagogia).
-- Destino: LP da Graduação, com utm_source=google, utm_medium=cpc e utm_term={keyword} (seção 10).
+- Destino: LP da Graduação, com utm_source=google, utm_medium=cpc e utm_term={keyword} (seção 9).
 
 ---
 
 ## 5. Tabela de teste
 
-Regras: leitura por recorte, nunca somada. Valores de CPL máximo, custo por matrícula máximo e taxas do funil são [CONFIRMAR] até MP1 e MP2. As regras de volume, pausa e escala são as do plano de mídia (regras práticas, não metas). Conceito novo muda 2 ou mais dimensões; iteração muda uma variável por vez e só sobre um vencedor.
+Regras: leitura por recorte, nunca somada. Valores de CPL máximo, custo por matrícula máximo e taxas do funil são [CONFIRMAR] até MP1 e MP2. As regras de volume, pausa e escala são as do plano de mídia (regras práticas, não metas). Conceito novo muda 2 ou mais dimensões; iteração muda uma variável por vez e só sobre um vencedor. Nenhum teste começa sem CPL máximo, custo por matrícula máximo e verba aprovados.
 
 ### 5.1 Testes de conceito (conceitos novos)
 
@@ -798,7 +804,7 @@ Regras: leitura por recorte, nunca somada. Valores de CPL máximo, custo por mat
 | I4 | Título | Só o título muda | CTR | Idem |
 | I5 | Imagem (grafismo contra imagem real autorizada) | Só depois de G11 | CPL e t1 | Idem |
 
-Conferências obrigatórias: a regra do desconto (preço, percentual, validade e "Condições e validade no edital") nunca é removida de nenhuma variação, nem como teste.
+Conferências obrigatórias: a regra do desconto (preço, percentual, validade e "Condições e validade no edital") e a média mínima de 300 pontos do Enem nunca são removidas de nenhuma variação, nem como teste.
 
 ---
 
@@ -820,7 +826,7 @@ Conferências obrigatórias: a regra do desconto (preço, percentual, validade e
 | 12 | Desbloqueio do noturno: G8 (campo turno da página) e MP4, depois MP8 | NOT-V1 a V4, R-N1, R-N2, RSA-NOT | Equipe do site, marketing, cmo | Pendente |
 | 13 | Desbloqueio da Pedagogia: G6 (página), MP4 e MP1, depois MP9 | P1 a P5, R-P1, R-P2, RSA-PED | Equipe do site, marketing, cmo | Pendente |
 | 14 | TikTok (perfil, produção, MP5) e YouTube (MP6, G11) | R-I1 e R-I2 no TikTok; Shorts R-I1 | Marketing | Pendente |
-| 15 | Metas de custo (MP1), verba e aprovador (MP2), públicos 18+ (MP4), divisão por curso (EM1) | Todas as subidas com escala | Marketing e cmo | Pendente |
+| 15 | Metas de custo (MP1), verba e aprovador (MP2), públicos 18+ (MP4), divisão por curso (EM1) | Todas as subidas, inclusive em teste | Marketing e cmo | Pendente |
 | 16 | LP: URL que recebe a UTM, formulário (inscrição ou captura), origem no CRM e política de privacidade (G13) | Todos os destinos e a chamada "faça a inscrição gratuita pelo site" | Plataforma, marketing | Pendente |
 | 17 | Carga horária da Pedagogia (G5), endereço (G9), coordenação e docentes | Nenhuma peça usa; entram só em ciclo extra depois da confirmação | Acadêmico e regulação | Pendente |
 | 18 | Efeito do reajuste de dezembro sobre os valores de 2027/1 (G12) | Toda peça com preço | Financeiro e marketing | Pendente |
@@ -837,9 +843,9 @@ Conferências obrigatórias: a regra do desconto (preço, percentual, validade e
 | Item | Resultado | Observação |
 |---|---|---|
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente | Plano em rascunho; aprovação humana pendente |
-| Metas de CPL e custo por matrícula escritas antes de subir | Pendente | Valores [CONFIRMAR] (MP1). A tabela de teste usa só as fórmulas. Bloqueia escala |
+| Metas de CPL e custo por matrícula escritas antes de subir | Pendente | Valores [CONFIRMAR] (MP1). A tabela de teste usa só as fórmulas. Bloqueia qualquer subida, inclusive em teste |
 | Verba dentro do valor aprovado, com aprovador | Pendente | [CONFIRMAR] (MP2). Este arquivo não aloca verba |
-| Nomenclatura padrão em campanhas, conjuntos e anúncios | Atendido | Seção 10. Pedido 21 para os formatos novos |
+| Nomenclatura padrão em campanhas, conjuntos e anúncios | Atendido | Seção 9. Pedido 21 para os formatos novos |
 | UTMs completas e origem no CRM | Parcial | UTM definida em todos os destinos; URL base e chegada ao CRM [CONFIRMAR] (G13, MP10) |
 | Pixel, API de Conversões, conversões do Google e pixel do TikTok configurados e testados | Não verificável aqui | [DADO NÃO FORNECIDO]. LinkedIn não se aplica (canal fora) |
 | Criativos aprovados em conformidade-educacional | Atendido como rascunho | Seção 7.2; o qa-de-marketing repete em 10/11/2026 |
@@ -849,7 +855,7 @@ Conferências obrigatórias: a regra do desconto (preço, percentual, validade e
 | Relatório semanal ao CMO | Não se aplica nesta etapa | Começa em 23/11/2026 |
 | Sem segmentação discriminatória nem exclusão por atributo sensível | Atendido | Nenhum público é definido neste arquivo; textos sem atributo pessoal |
 | Públicos sem dados pessoais sem base legal | Atendido | Nenhuma lista de contatos; remarketing só por pixel e engajamento (plano) |
-| Dados de curso conferidos no catálogo | Atendido, com ressalva | Nome, modalidade, turno, duração, carga horária (só Medicina Veterinária), preço e ato: catálogo e editais. Nomes de disciplinas: matriz da ficha, [CONFIRMAR NO CATÁLOGO]. Carga horária da Pedagogia fora |
+| Dados de curso conferidos no catálogo | Atendido, com ressalva | Nome, modalidade, turno, duração, carga horária (só Medicina Veterinária), preço e ato: catálogo e editais. Nomes de disciplinas: matriz da ficha, [CONFIRMAR NO CATÁLOGO]. Carga horária da Pedagogia fora. Matrícula "a partir de 2 dias depois do resultado" e "representante legal" conferidos com o Edital 002/2026 |
 | Destino de WhatsApp | Não se aplica | Nenhum anúncio com WhatsApp; destino é a LP |
 | Números só das exportações fornecidas | Atendido | Nenhum número de desempenho usado; valores em reais e datas só dos editais e do catálogo |
 | Nenhuma alteração feita na plataforma sem humano | Atendido | Nada foi subido, pausado ou alterado |
@@ -865,13 +871,13 @@ Legenda: ok = atendido; P = pendente de aprovação ou dado; NA = não se aplica
 | Modalidade presencial clara | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Ato como no catálogo, sem antecipar reconhecimento | NA | NA | NA | P (regulação) | NA | NA | NA | P (regulação) | NA | NA | NA | P (regulação) | NA |
 | Nenhuma nota do MEC e nenhuma frase de certificação | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
-| Nenhuma promessa de emprego, salário, promoção, concurso ou aprovação (redação dita como eliminatória) | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
+| Nenhuma promessa de emprego, salário, promoção, concurso, aprovação ou entrada garantida (redação dita como eliminatória; Enem sempre com média mínima de 300 pontos) | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Sem dado de empregabilidade, sem superlativo, sem comparação com concorrente | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Preço com valor cheio, valor com desconto, percentual, parcelas, regra e validade; sem taxa escondida | ok (P, aprovação) | NA | NA | ok (P, aprovação) | ok (P, aprovação) | NA | NA | ok (P, aprovação) | NA | NA | ok (P, aprovação) | ok (P, aprovação) | NA |
 | Urgência real: nenhuma urgência usada; sem "últimas vagas" | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Prouni, Fies e financiamento ausentes | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Autorização de imagem: nenhuma pessoa, aluno, docente, paciente ou hospital | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
-| Menores: nenhum menor em imagem; aceite do responsável nas peças de inscrição | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
+| Menores: nenhum menor em imagem; aceite do representante legal nas peças de inscrição | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Formulário com finalidade e política de privacidade (G13) | P | P | P | P | P | P | P | P | P | P | P | P | P |
 | Nenhum dado pessoal | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Políticas da Meta e do Google (sem atributo pessoal, sem segmentação discriminatória) | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
@@ -880,13 +886,13 @@ Legenda: ok = atendido; P = pendente de aprovação ou dado; NA = não se aplica
 | Sem caixa alta excessiva, pontuação repetida ou símbolos | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 | Nenhuma sugestão para driblar a análise das plataformas | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok |
 
-Os mesmos itens foram conferidos nos 6 roteiros (R-I1 a R-P2) e nos 9 anúncios de busca: todos atendidos, com os pendentes iguais aos do conceito de origem. Conferência mecânica: nenhum travessão ou meia-risca em todo o arquivo.
+Os mesmos itens foram conferidos nos 6 roteiros (R-I1 a R-P2) e nos 8 anúncios de busca: todos atendidos, com os pendentes iguais aos do conceito de origem. Conferência mecânica: nenhum travessão ou meia-risca em todo o arquivo.
 
 ### 7.3 Resultado por conceito
 
 | Conceito | Resultado | Bloqueios antes de qualquer uso pago |
 |---|---|---|
-| INT-V1 v1-preco | Aprovado como rascunho | Aprovação humana de preço e desconto (G7); G13; MP1, MP2, MP4, EM1 para subir |
+| INT-V1 v1-preco | Aprovado como rascunho | Aprovação humana de preço e desconto (G7); G13; MP1, MP2, MP4, EM1 para subir, inclusive em teste |
 | INT-V2 v2-pratica | Aprovado como rascunho | Confirmar nomes das disciplinas no catálogo (aprovação 9); G13; MP1, MP2, MP4, EM1 |
 | INT-V3 v3-entrada | Aprovado como rascunho | G13; MP1, MP2, MP4, EM1 |
 | INT-V4 v4-ato | Aprovado como rascunho | Regulação (ato) e preço; G13; entra só na fase 2 |
@@ -895,7 +901,7 @@ Os mesmos itens foram conferidos nos 6 roteiros (R-I1 a R-P2) e nos 9 anúncios 
 | R-I1, R-I2 (TikTok) | Aprovado como rascunho | MP5 e perfil e produção (G11) |
 | R-I1 (Shorts) | Aprovado como rascunho | MP6 e G11 |
 
-Revisado por: criativos-de-anuncio (agente). Revisão do qa-de-marketing e aprovação humana: pendentes. Data: 26/10/2026.
+Revisado por: criativos-de-anuncio (agente). Correções do veredito C1 do qa-de-marketing (C-1 a C-9) aplicadas em 26/10/2026. Nova conferência do qa-de-marketing e aprovação humana: pendentes. Data: 26/10/2026.
 
 ---
 
@@ -961,13 +967,13 @@ Os destinos completos de cada conceito (formato principal, gancho A, fase 1) est
 - Medicina Veterinária: bacharelado, presencial, São Paulo; integral de 4 anos e noturno de 5 anos; 4.195 h mais 75 h de atividades complementares; Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026 (catálogo, seção 1).
 - Pedagogia: licenciatura, presencial, Goiânia, noturno, 4 anos; Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022), conforme o Edital 004/2026 (catálogo, seção 1; ficha dos editais).
 - Preços: integral de R$ 10.000,00 por R$ 5.000,00 por mês (50%); noturno de R$ 10.000,00 por R$ 4.000,00 por mês (60%); Pedagogia de R$ 1.050,00 por R$ 525,00 por mês (50%) (catálogo; Editais 003/2026).
-- Desconto: 6 mensalidades, só no 1º semestre de 2027, todas as formas de ingresso, aplicado a partir da confirmação da matrícula, renovação pedida a cada semestre com comprovação, perda por atraso (dia 10), sem acúmulo com programa governamental (Editais 003/2026).
+- Desconto: 6 mensalidades, só no 1º semestre de 2027, todas as formas de ingresso, aplicado a partir da confirmação da matrícula, renovação pedida a cada semestre com comprovação, perda no mês pago com atraso (vencimento no dia 10 na Medicina Veterinária, Edital 002/2026; Pedagogia [CONFIRMAR]), sem acúmulo com programa governamental (Editais 003/2026). Nenhuma peça cita o dia 10.
 - Inscrição gratuita desde 17/08/2026; redação online a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante; matrícula eletrônica a partir de 2 dias após o resultado, com a 1ª mensalidade e a assinatura digital; documentos em até 30 dias; aulas em 22/02/2027 (Editais 002 e 004/2026).
 - Cancelamento com devolução de 80% se pedido até 2 dias antes do início das aulas; turma mínima de 30, com reembolso da 1ª parcela se a oferta for cancelada; candidato menor precisa do aceite do representante legal na inscrição e na matrícula (editais).
 - Matriz do integral, 1º semestre: Anatomia, Práticas Hospitalares, Projeto Extensionista I (entre outras); matriz do noturno, 1º semestre: Práticas Hospitalares e Projeto Extensionista I (fichas; nomes de disciplinas, [CONFIRMAR NO CATÁLOGO]).
 - Matriz da Pedagogia: Prática Docente do 1º ao 8º semestre; Projeto Integrador do 1º ao 7º; Estágio Curricular Supervisionado Obrigatório do 6º ao 8º; primeiro parágrafo da página trata de docência na Educação Infantil e nos anos iniciais e de gestão educacional (ficha da Pedagogia).
 - Nenhum edital traz nota do MEC, data-limite de inscrição, ingresso pelo Sisu ou número de vagas restantes (ficha dos editais).
-- Decisões do plano usadas aqui: públicos 18+, canais ativos e bloqueios, nomenclatura, UTM, fases, regras de teste, pausa e escala (gestor-de-midia e estrategia-de-midia de 26/10/2026).
+- Decisões do plano usadas aqui: públicos 18+, canais ativos e bloqueios, nomenclatura, UTM, fases, regras de teste, pausa e escala, e nenhuma subida sem metas numéricas e verba aprovadas (gestor-de-midia e estrategia-de-midia de 26/10/2026).
 
 ## Lista 2. Suposições
 
@@ -979,15 +985,16 @@ Os destinos completos de cada conceito (formato principal, gancho A, fase 1) est
 - [SUPOSIÇÃO] Limites de caracteres do Meta (40 para título, 30 para descrição) e contagem dos anúncios de busca; conferir na plataforma.
 - [SUPOSIÇÃO] A pergunta "Quanto custa estudar Medicina Veterinária à noite em São Paulo?" não afirma característica pessoal de quem vê.
 - [SUPOSIÇÃO] O recorte de busca "veterinária para quem trabalha" é só intenção do termo; nenhum texto de anúncio o repete.
+- [SUPOSIÇÃO] "Sua nota do Enem pode ser a sua entrada", dito junto da média mínima de 300 pontos na mesma peça, não sugere entrada garantida; o qa confere de novo.
 
 ## Lista 3. Dados que faltam
 
-- [CONFIRMAR] Metas de CPL e de custo por matrícula por recorte (MP1), verba e aprovador (MP2), taxas do funil (t1 a t5), divisão por curso (EM1).
+- [CONFIRMAR] Metas de CPL e de custo por matrícula por recorte (MP1), verba e aprovador (MP2), taxas do funil (t1 a t5), divisão por curso (EM1). Sem esses números, nada sobe, nem em teste.
 - [DADO NÃO FORNECIDO] Estado do pixel, da API de Conversões, da tag do Google e do pixel do TikTok; histórico de CPL; volume de busca dos termos, inclusive Pedagogia em Goiânia.
 - [CONFIRMAR] URL que recebe a UTM, se o formulário da LP é a inscrição ou só captura, origem no CRM e política de privacidade no formulário (G13).
 - [CONFIRMAR] Correção da página do noturno (campo turno, G8) e da página de Pedagogia (G6); correção dos textos dos Editais 003/2026 (G7).
 - [CONFIRMAR NO CATÁLOGO] Carga horária da Pedagogia (diverge entre o site, 3.440 h, e o edital, 3.640 h; não aparece em nenhuma peça); coordenação e corpo docente da Pedagogia; horário das atividades práticas e do estágio do noturno; nomes das disciplinas do 1º semestre como dado de catálogo.
-- [CONFIRMAR] Endereço da unidade de Goiânia e data de publicação da Portaria MEC nº 871/2022 (não usados).
+- [CONFIRMAR] Endereço da unidade de Goiânia e data de publicação da Portaria MEC nº 871/2022 (não usados); vencimento e reajuste da Pedagogia no Edital 004/2026.
 - [CONFIRMAR autorização] Imagem e voz de docentes e alunos, imagem do hospital e uso da Ufape Clínica pela graduação (G11); autorização para cena com menor de idade.
 - [CONFIRMAR] Perfis e produção de TikTok e YouTube; voz da locução e trilha; paleta, logotipo e fontes.
 - [CONFIRMAR] Efeito do reajuste de dezembro sobre os valores de 2027/1 e regra comercial depois do 1º semestre (G12).
@@ -999,4 +1006,4 @@ Os destinos completos de cada conceito (formato principal, gancho A, fase 1) est
 
 ## Próximo passo
 
-Próximo agente: **anuncios-meta** (primeiro canal ativado), que monta a estrutura de campanha, conjunto e anúncio do integral nas 4 fases, do noturno e da Pedagogia (os dois bloqueados), usando os nomes da seção 9, as UTMs, os textos e as artes deste pacote. Em paralelo, **anuncios-google** usa a seção 4 (anúncios responsivos e fixações) e **anuncios-tiktok** usa R-I1 e R-I2 (só com MP5). Antes de qualquer subida: MP1, MP2, MP4 e EM1 respondidos, aprovação dos itens 1, 2 e 9 da lista de aprovações e qa-de-marketing em 10/11/2026. Nada é publicado, enviado ou pago sem aprovação humana.
+Próximo agente: **anuncios-meta** (primeiro canal ativado), que monta a estrutura de campanha, conjunto e anúncio do integral nas 4 fases, do noturno e da Pedagogia (os dois bloqueados), usando os nomes da seção 9, as UTMs, os textos e as artes deste pacote. Em paralelo, **anuncios-google** usa a seção 4 (anúncios responsivos e fixações) e **anuncios-tiktok** usa R-I1 e R-I2 (só com MP5). Antes de qualquer subida, inclusive em teste: MP1, MP2, MP4 e EM1 respondidos, aprovação dos itens 1, 2 e 9 da lista de aprovações e qa-de-marketing em 10/11/2026. Nada é publicado, enviado ou pago sem aprovação humana.
