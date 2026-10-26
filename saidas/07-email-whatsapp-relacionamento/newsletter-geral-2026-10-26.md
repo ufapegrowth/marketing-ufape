@@ -40,7 +40,7 @@
 - **Leitor:** médico veterinário de pequenos animais que pensa no próximo passo da formação: uma pós, um curso prático, um gravado, um grupo de estudos ou um evento (personas P1 a P4 da Pós e P-L1 a P-L3 dos Livres, todas [SUPOSIÇÃO] nas entradas).
 - **Promessa de cada edição:** uma pergunta de decisão respondida com dado verificável, e a agenda das próximas datas com as condições inteiras. Liga à promessa da marca ("sabe antes de se inscrever o que vai praticar, quando, onde e quanto vai pagar", estrategia-de-marca, seção 1, [SUPOSIÇÃO] até a validação).
 - **Tom:** de colega para colega, precisa, próxima e transparente (estrategia-de-marca, seção 5). Sem emoji no e-mail. Primeira menção "Faculdade UFAPE", depois "Ufape" (grafia oficial [CONFIRMAR]).
-- **Tamanho:** corpo entre 250 e 450 palavras, lido em menos de 2 minutos [SUPOSIÇÃO]; blocos curtos com título, para escanear.
+- **Tamanho:** corpo entre 300 e 550 palavras, com a agenda, lido em cerca de 2 minutos [SUPOSIÇÃO]; blocos curtos com título, para escanear.
 
 ### 1.2 Estrutura fixa de cada edição
 
@@ -181,7 +181,7 @@ Regra para a ferramenta: se um contato já tiver 2 e-mails de campanha agendados
 
 ### 4.2 Assuntos e pré-visualização
 
-Dez opções escritas pela skill assuntos-de-email; ficam as três que a mensagem cumpre por inteiro.
+Opções escritas com a skill assuntos-de-email (direto, benefício, pergunta e curiosidade); ficam as três que a mensagem cumpre por inteiro.
 
 | | Assunto | Tipo | Por que fica |
 |---|---|---|---|
@@ -231,7 +231,7 @@ Cortados: assuntos com "não perca", "antes que acabe", "vagas", "bolsa de 50%" 
 >
 > [Rodapé da seção 2.3]
 
-Contagem: cerca de 430 palavras no corpo, dentro do tamanho da seção 1.1.
+Contagem: cerca de 540 palavras no corpo, com a agenda, dentro do tamanho da seção 1.1. Se itens da agenda saírem pelos portões da seção 4.4, o texto encurta.
 
 ### 4.4 Portões de cada trecho (o texto só vai à aprovação final com estes itens fechados)
 
@@ -326,7 +326,7 @@ Sem emoji. Um link. Se o guia C08 não estiver publicado, a versão de WhatsApp 
 >
 > [Rodapé da seção 2.3]
 
-Contagem: cerca de 400 palavras no corpo, com a tabela.
+Contagem: cerca de 450 palavras no corpo, com a tabela.
 
 ### 5.4 Portões de cada trecho
 
@@ -427,7 +427,7 @@ Próximo agente sugerido: **otimizacao-de-mensagens**, para escolher os testes d
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Cadência quinzenal, às quartas ou quintas, 10h, e tamanho de 250 a 450 palavras por edição.
+- [SUPOSIÇÃO] Cadência quinzenal, às quartas ou quintas, 10h, e tamanho de 300 a 550 palavras por edição.
 - [SUPOSIÇÃO] Teto de 2 e-mails e 2 WhatsApp de marketing por semana por contato, herdado da estratégia de campanha e da régua das provas.
 - [SUPOSIÇÃO] Janela de WhatsApp em dia útil, das 9h às 18h.
 - [SUPOSIÇÃO] Bases da Graduação e dos veterinários são separadas na ferramenta.

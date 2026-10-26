@@ -34,7 +34,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.6 | estrategia-de-marca | geral | entregue |
 | 1.7 | posicionamento | pos, livres (e eventos) | entregue |
 | 1.8 | estrategia-de-oferta | pos, livres (e eventos, graduacao) | entregue |
-| 1.9 | estrategia-de-marketing | pos, livres, eventos | pos entregue; falta livres e eventos |
+| 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue (livres e eventos sem qa) |
 | 1.10 | analista-de-dados | geral | entregue |
 | 1.11 | gestor-de-midia | pos, livres, eventos | falta (o arquivo geral é só o memorando de decisões da onda 1) |
 | 1.12 | analise-de-midia | pos, livres, eventos | falta |
@@ -45,7 +45,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
-| 1.20 | estrategia-social | pos, livres, eventos | falta |
+| 1.20 | estrategia-social | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos |
 | 1.21 | youtube | pos, livres | falta |
 | 1.22 | podcast, x | geral | falta |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
@@ -72,6 +72,13 @@ Segue as dependências da seção 4 do plano do cmo.
 - Lote D: 1.14; 1.15; 1.28 pos, livres e eventos.
 - Lote E: 1.33; qa-de-marketing de tudo que ficou sem revisão.
 
+## Conflitos entre saídas para o cmo resolver
+
+- Datas da mídia do workshop: o memorando gestor-de-midia-geral diz 30/10, 06/11 e pausa em 18/11; a estrategia-de-campanha-eventos diz 03/11, 10/11 e 19/11. Fechar na 1.11 de eventos.
+- Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
+- C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
+- A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
+
 ## Próximos passos
 
 1. Lote A em execução (6 agentes): ao terminar, conferir cada arquivo, registrar aqui e fazer commit. Se a sessão cair antes, confira quais dos 6 arquivos do lote A existem em saidas e rode de novo só os que faltam.
@@ -85,3 +92,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Esta sessão retomou. Decisões do nome do workshop e da autorização dos docentes aplicadas no plano do cmo, no briefing, na ficha do evento e em contexto/ufape-geral.md. Criado este arquivo |
 | 26/10/2026 | Lote A iniciado: estrategia-de-marketing livres e eventos, gestor-de-midia pos, estrategia-social pos, estrategia-de-relacionamento pos, newsletter geral |
 | 26/10/2026 | 1.26 pos entregue: 12 segmentos, 9 programas, cadência [SUPOSIÇÃO]. Notas N1 a N4 de choque de calendário com a régua do workshop e com copy-de-mensagens-pos, para o cmo decidir |
+| 26/10/2026 | 1.9 livres e eventos e 1.20 pos entregues. Conflitos registrados na seção própria |
