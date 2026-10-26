@@ -148,3 +148,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.33 entregue. Os 10 primeiros (27 a 30/10) são bloqueios: páginas das 22 provas com "online" e campus, verba, montagem das provas, metas em reais, teste de rastreio, data da 698, pausa das 6 campanhas em turma iniciada, aprovação EVM1, política de entrada das 12 turmas, exportação do gerenciador. Alerta LGPD (B01): 14 páginas antigas de provas publicam nomes de aprovados |
 | 26/10/2026 | anuncios-linkedin-pos e anuncios-tiktok-pos v2 (LI-Q1, LI-Q2, TK-Q1, TK-Q2) |
 | 26/10/2026 | campanhas-de-nutricao pos, livres e eventos v2 (ajustes do qa do lote D) |
+| 26/10/2026 | anuncios-meta pos, livres, eventos e anuncios-google pos, livres v2 (AGP-Q1 resolvido; título das provas "Inscrição na prova: R$ 100,00") |

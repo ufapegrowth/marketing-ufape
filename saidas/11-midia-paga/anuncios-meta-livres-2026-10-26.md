@@ -3,6 +3,7 @@
 - **Agente:** anuncios-meta (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md). Muda o "quanto" de AML5 e a forma de citar a data da 616.
 - **Etapa:** 1.14 da camada 1 do plano do cmo, encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-livres-2026-10-26.md e das seções 4 e 6 de saidas/11-midia-paga/estrategia-de-midia-livres-2026-10-26.md (versão 2)
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha de montagem é pedido para um humano executar no Gerenciador de Anúncios.
 - **Entradas lidas:**
@@ -26,6 +27,14 @@
 
 ---
 
+## Mudanças desta versão
+
+- **AML-Q1:** AML5 corrigido para "10% de VNL (6,5% na Meta)", que é a soma da seção 4 (2,10 + 1,80 + 1,40 + 1,20) e da 1.13 (3,5% + 3,0%).
+- **AML-Q2 (aplicável, aplicado já):** a ficha da 616 diz que 05/12/2026 é o encontro presencial previsto, condicionado à formação da turma, com o online liberado na compra. Todo texto, título e descrição da 616 deixa de tratar 05/12 como data do curso e passa a dizer "encontro (presencial) previsto em 05/12/2026, condicionado à formação da turma" (seções 1 e 5.4). A redação final continua presa a AML7: se o catálogo disser outra coisa, vale o catálogo.
+- Contagens refeitas por script depois das trocas.
+
+---
+
 ## 0. Resumo em cinco linhas
 
 1. Montagem de 13 campanhas Meta novas no trimestre: remarketing de 573, 68614 e 68637 (03/11), remarketing de contínuos com 4 conjuntos (10/11 e 30/11), frio e remarketing de 616 (19/11, se R4 for aprovado), 68618 (19/11), frio da faixa 1 (07/12) e frio e remarketing de 68638 (11/01).
@@ -41,7 +50,7 @@
 | Regra | Valor nesta montagem | Fonte |
 |---|---|---|
 | Frase do curso livre | "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." no fim de todo texto principal | D13 |
-| Datas | As da planilha, nas peças: 573 (14 e 15/11/2026), 68614 e 68637 (28 e 29/11/2026), 68618 (18, 19 e 20/12/2026), 616 (05/12/2026), 68638 (06/03/2027) | decisão 12; seção 12.1 |
+| Datas | As da planilha, nas peças: 573 (14 e 15/11/2026), 68614 e 68637 (28 e 29/11/2026), 68618 (18, 19 e 20/12/2026), 616 (encontro presencial previsto em 05/12/2026, condicionado à formação da turma, pela ficha; texto final com AML7), 68638 (06/03/2027) | decisão 12; seção 12.1 |
 | Página 623 | Nenhuma campanha nova aponta para ela. Endoscopia: 68637 | decisão 13; seção 12.1; U5 aberta |
 | Pós, prova, workshop | Nenhum anúncio de Livres cita Pós, prova de bolsa ou o workshop, nem promete caminho para a Pós | D6; 1.13, 4.1 |
 | Crédito e ponte | Nenhuma menção a crédito, combo ou desconto | D7 |
@@ -236,21 +245,21 @@ Dados: 28 e 29/11/2026 (sábado e domingo); 12 h; presencial; São Paulo; R$ 890
 
 ### 5.4 616 Imersão Avançada em Anestesia Felina (frio e remarketing)
 
-Dados: 05/12/2026; 12 h; R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). Modalidade: [CONFIRMAR NO CATÁLOGO] (catálogo "On-line", página "Presencial e Online" e "semipresencial"). Sem "prática" e sem "12 vagas" (1.13, 4.1). Temas da ficha: fisiologia, comportamento, farmacologia, analgesia, monitoração, anestesia locorregional e tomada de decisão clínica no paciente felino.
+Dados: encontro presencial previsto em 05/12/2026, condicionado à formação da turma, e parte online liberada na compra (ficha, AML-Q2); texto final da data só depois de AML7 [CONFIRMAR NO CATÁLOGO]; 12 h; R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). Modalidade: [CONFIRMAR NO CATÁLOGO] (catálogo "On-line", página "Presencial e Online" e "semipresencial"). Sem "prática" e sem "12 vagas" (1.13, 4.1). Temas da ficha: fisiologia, comportamento, farmacologia, analgesia, monitoração, anestesia locorregional e tomada de decisão clínica no paciente felino.
 
 | # | Estrutura | Texto principal | Primeira frase |
 |---|---|---|---|
-| 1 | Pergunta (frio) | Quando o protocolo padrão deixa de ser suficiente, o que orienta a decisão anestésica no gato? A Imersão Avançada em Anestesia Felina trabalha fisiologia, comportamento, farmacologia, analgesia, monitoração e anestesia locorregional para individualizar a anestesia. 05/12/2026, 12 h. R$ 990,00 à vista ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "Quando o protocolo padrão deixa de ser suficiente, o que orienta a decisão anestésica no gato?" (94) |
-| 2 | Curto direto | Imersão Avançada em Anestesia Felina: 05/12/2026, 12 h. Dor, analgesia multimodal, monitoração e recuperação anestésica no paciente felino. R$ 990,00 à vista ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "Imersão Avançada em Anestesia Felina: 05/12/2026, 12 h." (55) |
-| 3 | Lista (longo) | O que a Imersão Avançada em Anestesia Felina trabalha: sinais sutis de dor em gatos; ferramentas de avaliação de dor; analgesia multimodal; individualização de protocolos; escolha de fármacos pelo risco; indicações e limites da anestesia locorregional; alterações durante a anestesia; recuperação anestésica. 05/12/2026, 12 h. R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "O que a Imersão Avançada em Anestesia Felina trabalha: sinais sutis de dor em gatos; ferramentas de avaliação de dor; analgesia multimodal; individualização de protocolos; escolha de fármacos pelo risco; indicações e limites da anestesia locorregional; alterações durante a anestesia; recuperação anestésica." (308) |
-| 4 | Objeção primeiro | Não é uma receita anestésica: a imersão trabalha o raciocínio por trás do protocolo no paciente felino. Imersão Avançada em Anestesia Felina, 05/12/2026, 12 h. R$ 990,00 à vista ou 5x de R$ 240,00 (total de R$ 1.200,00). + frase D13 | "Não é uma receita anestésica: a imersão trabalha o raciocínio por trás do protocolo no paciente felino." (103) |
-| 5 | Curto, remarketing | A Imersão Avançada em Anestesia Felina é em 05/12/2026. 12 h. R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "A Imersão Avançada em Anestesia Felina é em 05/12/2026." (55) |
+| 1 | Pergunta (frio) | Quando o protocolo padrão deixa de ser suficiente, o que orienta a decisão anestésica no gato? A Imersão Avançada em Anestesia Felina trabalha fisiologia, comportamento, farmacologia, analgesia, monitoração e anestesia locorregional para individualizar a anestesia. 12 h, com encontro presencial previsto em 05/12/2026, condicionado à formação da turma. R$ 990,00 à vista ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "Quando o protocolo padrão deixa de ser suficiente, o que orienta a decisão anestésica no gato?" (94) |
+| 2 | Curto direto | Imersão Avançada em Anestesia Felina: 12 h, com encontro previsto em 05/12/2026. Condicionado à formação da turma. Dor, analgesia multimodal, monitoração e recuperação anestésica no paciente felino. R$ 990,00 à vista ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "Imersão Avançada em Anestesia Felina: 12 h, com encontro previsto em 05/12/2026." (80) |
+| 3 | Lista (longo) | O que a Imersão Avançada em Anestesia Felina trabalha: sinais sutis de dor em gatos; ferramentas de avaliação de dor; analgesia multimodal; individualização de protocolos; escolha de fármacos pelo risco; indicações e limites da anestesia locorregional; alterações durante a anestesia; recuperação anestésica. 12 h, com encontro presencial previsto em 05/12/2026, condicionado à formação da turma. R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "O que a Imersão Avançada em Anestesia Felina trabalha: sinais sutis de dor em gatos; ferramentas de avaliação de dor; analgesia multimodal; individualização de protocolos; escolha de fármacos pelo risco; indicações e limites da anestesia locorregional; alterações durante a anestesia; recuperação anestésica." (308) |
+| 4 | Objeção primeiro | Não é uma receita anestésica: a imersão trabalha o raciocínio por trás do protocolo no paciente felino. Imersão Avançada em Anestesia Felina: 12 h, com encontro presencial previsto em 05/12/2026, condicionado à formação da turma. R$ 990,00 à vista ou 5x de R$ 240,00 (total de R$ 1.200,00). + frase D13 | "Não é uma receita anestésica: a imersão trabalha o raciocínio por trás do protocolo no paciente felino." (103) |
+| 5 | Curto, remarketing | A Imersão Avançada em Anestesia Felina tem encontro presencial previsto em 05/12/2026, condicionado à formação da turma. 12 h. R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total de R$ 1.200,00). + frase D13 | "A Imersão Avançada em Anestesia Felina tem encontro presencial previsto em 05/12/2026, condicionado à formação da turma." (120) |
 
 O texto 4 usa a ideia da própria página ("O objetivo não é entregar uma receita anestésica"). Nenhum texto promete que quem faz "vai saber" ou "vai dominar".
 
 | Títulos | Descrições |
 |---|---|
-| "Anestesia felina: 05/12/2026" (28) | "05/12/2026, 12 h" (16) |
+| "Anestesia felina: encontro 05/12" (32) | "Imersão de 12 h" (15) |
 | "Imersão Avançada em Anestesia Felina" (36) | "R$ 990,00 à vista" (17) |
 | "Dor e analgesia no paciente felino" (34) | "5x de R$ 240,00 no cartão" (25) |
 | "Decisão anestésica no gato" (26) | |
@@ -399,7 +408,7 @@ Exportar antes; pausar, nunca excluir; conferir gasto zero no dia seguinte; regi
 | AML2 | Datas da planilha nos anúncios de 573, 68614, 68637, 68618 (decisão 12), substituindo a regra "sem data" | as datas foram confirmadas | sem verba | anúncio com o fato que mais decide a compra | voltar ao texto sem data | 30/10 |
 | AML3 | 623 ativa: conferir a URL em 28/10; trocar para a 68637 (e o utm_campaign para livres_68637_...) ou pausar, com exportação (R8) | decisão 13 | diária atual [CONFIRMAR], sem aumento | nenhum clique para página com data passada | voltar a URL ou reativar | 28/10 a 30/10 |
 | AML4 | Campanhas de L1 só de remarketing (573, 68614, 68637), com EML7 | o frio já é coberto pela ativa ou não cabe na janela | 4,875% a 5% de VNL por produto | venda de quem já visitou | pausar a campanha nova | 30/10 |
-| AML5 | 616 em 19/11 com as diárias da seção 4 (R4); sem R4, 10/11 com as diárias da 1.13 | sobreposição com o workshop e as provas de anestesia (seção 12.6) | 10% de VNL (7% na Meta) | menos disputa de leilão | voltar a 10/11 | 07/11 |
+| AML5 | 616 em 19/11 com as diárias da seção 4 (R4); sem R4, 10/11 com as diárias da 1.13 | sobreposição com o workshop e as provas de anestesia (seção 12.6) | 10% de VNL (6,5% na Meta) | menos disputa de leilão | voltar a 10/11 | 07/11 |
 | AML6 | Exclusões de 20/11 a 27/11 (LP10 e EML9) suspensas: a seção 12.6 manda não excluir público entre campanhas; o gestor confirma ou reabre | duas regras opostas nas entradas | sem verba | uma regra só | aplicar as exclusões | 19/11 |
 | AML7 | Modalidade de 616 e de 68618 confirmada no catálogo e coerente na página antes da subida | conformidade: modalidade clara e correta | sem verba | anúncio sem risco de modalidade errada | não se aplica | 06/11 (616); 17/11 (68618) |
 | AML8 | Posicionamentos manuais sem Audience Network e Messenger | controle e leitura | sem verba | entrega no Instagram e no Facebook | voltar ao automático | 30/10 |

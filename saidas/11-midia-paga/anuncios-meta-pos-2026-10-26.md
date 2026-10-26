@@ -3,6 +3,7 @@
 - **Agente:** anuncios-meta (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md). Muda um título de C2, a regra do nome de Patologia Clínica e a frase do corpo de Goiânia.
 - **Etapa:** 1.14 da camada 1 do plano do cmo (seção 4), encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md e da seção 4 de saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha de montagem é um pedido para um humano executar no Gerenciador de Anúncios, depois da aprovação.
 - **Entradas lidas:**
@@ -23,6 +24,15 @@
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web nesta etapa.
 - **Dados pessoais:** nenhum. Nenhum aluno, candidato ou lead aparece. Nenhum docente é nomeado aqui: onde o texto prevê docente, fica o campo {docente da ficha}, preenchido com nome e titulação exatamente como na ficha (autorização registrada, decisões 8 e 10).
 - **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape ou o gerenciador precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso fora do catálogo. [SUPOSIÇÃO] é escolha de desenho ou regra de plataforma sem fonte nos arquivos. [DADO NÃO FORNECIDO] é número de mídia que não existe. Nenhum valor de verba, CPL, CPC, tamanho de público, alcance, leads ou inscritos existe hoje: verba aparece como percentual da verba nova da Pós (VN) e o valor em reais é sempre VN x percentual [CONFIRMAR].
+
+---
+
+## Mudanças desta versão
+
+- **AMP-Q1 (antes de 03/11):** o título de C2 "Bolsa de pós-graduação: R$ 100,00", que podia ser lido como bolsa ou pós por R$ 100,00, foi trocado por "Inscrição na prova: R$ 100,00" (29) (seção 5.3).
+- **AMP-Q2 (antes de 03/11):** em todo texto preenchido com 68658 (C1 texto 3; C6 textos 1, 4 e 5), o nome da pós é o do catálogo, "Pós-graduação em Patologia Clínica", ou o da prova, "prova de bolsa de Patologia Clínica Veterinária", até A-C2 (seção 5.6).
+- **AMP-Q3 (não bloqueante):** a regra do corpo das provas passa a ser "sem prazo de matrícula e sem canal do resultado em nenhuma prova até U1", com as 12 fichas contraditórias listadas (seção 5.1). Nenhum corpo citava prazo ou canal, então os textos não mudam.
+- Contagens de caracteres refeitas por script depois das trocas.
 
 ---
 
@@ -214,7 +224,7 @@ Exemplos preenchidos com as duas provas que sobem em 03/11 sem pendência (E1): 
 ### 5.1 Corpo fixo das provas (substitui BODY_SP e BODY_GO do criativos-de-anuncio-pos)
 
 - **Corpo São Paulo:** "Prova de bolsa do campus São Paulo da Faculdade UFAPE, online, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova."
-- **Corpo Goiânia:** igual, com "campus Goiânia". Sem endereço. Sem prazo de matrícula e sem canal do resultado nas provas 68642 e 68644 (as páginas se contradizem, U1).
+- **Corpo Goiânia:** igual, com "campus Goiânia". Sem endereço. Sem prazo de matrícula e sem canal do resultado em nenhuma prova até U1 (12 fichas têm versões contraditórias: 68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661).
 - **Fica de fora de todo texto das provas:** "presencial", endereço, "documento com foto", "sem celular", "sem relógio", data do resultado, prazo de inscrição, turma de destino (até A-C2).
 
 ### 5.2 C1. 11 bolsas por prova (frio, São Paulo e Goiânia)
@@ -261,7 +271,7 @@ Cuidado de verdade nos textos 3 e 4: nenhum diz que a bolsa é certa nem que R$ 
 | "R$ 100,00 para concorrer" (24) | "11 bolsas por prova" (19) |
 | "Inscrição de R$ 100,00 na prova" (31) | "Prova online em 27/11" (21) |
 | "Prova de bolsa: Neurologia" (26) | "Bolsas de 10% a 50%" (19) |
-| "Bolsa de pós-graduação: R$ 100,00" (33) | |
+| "Inscrição na prova: R$ 100,00" (29) | |
 | "Prova em 27/11: Patologia Clínica" (33) | |
 
 - **Chamada:** "Saiba mais" (mesmo motivo de C1).
@@ -332,7 +342,7 @@ Nomes: `c6-rotina_<área>_e11_cena_v1`, `_e916_cena_v1`, `_e11_numero_v2` (itera
 | 4 | Curto direto | A Pós-graduação em Neurologia e Neurocirurgia Veterinária tem prova de bolsa online em 27/11. Campus São Paulo. Inscrição de R$ 100,00. 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Bolsa não acumulativa e intransferível. | "A Pós-graduação em Neurologia e Neurocirurgia Veterinária tem prova de bolsa online em 27/11." (93) |
 | 5 | Pergunta sobre o tema (longo) | Neurologia e neurocirurgia na rotina: dá para aprofundar com bolsa? A prova de 27/11 distribui 11 bolsas para a Pós-graduação em Neurologia e Neurocirurgia Veterinária: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é garantida: a distribuição segue as regras da página. + corpo São Paulo | "Neurologia e neurocirurgia na rotina: dá para aprofundar com bolsa?" (67) |
 
-Patologia Clínica (68658): mesmos cinco, com o gancho B "Os exames laboratoriais na rotina da clínica: a especialidade tem prova de bolsa em 27/11." (90) e o nome completo "Pós-graduação em Patologia Clínica Veterinária".
+Patologia Clínica (68658): mesmos cinco, com o gancho B "Os exames laboratoriais na rotina da clínica: a especialidade tem prova de bolsa em 27/11." (90) e o nome completo como na seção 2 do catálogo, "Pós-graduação em Patologia Clínica" (turma 68615), ou o nome da prova como na seção 3 ("prova de bolsa de Patologia Clínica Veterinária") até A-C2 dizer a turma de destino. Nunca "Pós-graduação em Patologia Clínica Veterinária", que não existe no catálogo (AMP-Q2).
 
 | Títulos (até 40) | Descrições (até 30) |
 |---|---|

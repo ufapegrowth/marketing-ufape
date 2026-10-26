@@ -3,6 +3,7 @@
 - **Agente:** anuncios-meta (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** eventos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md). Muda o texto 4 e o texto 2 do B7 e registra a frase do 700.
 - **Etapa:** 1.14 da camada 1 do plano do cmo, encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md. Eventos só na Meta (Google, TikTok, LinkedIn e YouTube pago fora, seção 3 do gestor). Não há estrategia-de-midia de eventos na 1.13: a verba e a sequência vêm do gestor.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha é pedido para um humano executar no Gerenciador de Anúncios.
 - **Entradas lidas:**
@@ -22,6 +23,15 @@
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Nenhum docente é nomeado aqui; onde o texto prevê docente, fica {docente da ficha}, preenchido com nome e titulação como na ficha (decisões 8 e 10). Os convidados "a definir" não aparecem (decisão 6).
 - **Marcadores:** [CONFIRMAR], [CONFIRMAR NO CATÁLOGO], [SUPOSIÇÃO], [DADO NÃO FORNECIDO]. Verba só em percentual da verba de Eventos no trimestre (VE); reais = VE x percentual [CONFIRMAR].
+
+---
+
+## Mudanças desta versão
+
+- **AME-Q1 (antes de 13/11):** saiu "Faltam poucos dias" do texto 4 do B7; a abertura passa a ser "Sexta, 20/11, e sábado, 21/11: Workshop Brasileiro de Neuromonitorização, em São Paulo." (seção 5.5).
+- **AME-Q2 (não bloqueante):** o texto 2 do B7 deixa de dizer "às 08h" (a ficha diz 08h no topo e 08h30 na grade e no FAQ): "Sexta, 20/11: começa o Workshop Brasileiro de Neuromonitorização." Horário de abertura [CONFIRMAR] com a Ufape.
+- **X1 (não bloqueante):** registrado na seção 1 que a nutrição de Eventos usa outra frase para o 700; até a decisão do cmo (AME11, NER6), vale a D13.
+- Contagens refeitas por script.
 
 ---
 
@@ -52,7 +62,7 @@
 | Nomes | Campanha nova = chave `eventos_neuro26` + `_meta_<objetivo>_<público>_<AAAAMM>`; conjunto = campanha + `__` + público; anúncio = nomes do criativos (`neuro26_<conceito>_<formato>_<gancho>_vN`). Campanha atual não é renomeada | D12 |
 | UTM | `utm_source=meta`, `utm_medium=paid_social`, `utm_campaign` = nome da campanha, `utm_content` = nome do anúncio, `utm_term` = público. Substitui `utm_source=instagram/facebook`, `utm_medium=pago` e `utm_campaign=neuro-summit-2026` do criativos e da encomenda do gestor | D11, D12 |
 | Sobreposição | Sem exclusão de público entre campanhas e sem anúncio que misture ofertas (provas, 616); registro lado a lado de CPM, alcance e frequência com as provas de Anestesiologia e Neurologia e a 616, ferramenta de sobreposição em 06/11, anexada ao relatório de 09/11 (EA3) | seção 12.6 |
-| Frase do curso livre | Não aplicada ao workshop (evento da seção 9 do catálogo, não curso livre) [SUPOSIÇÃO de leitura de "onde couber"; AME11]. Aplicada ao 700, que a ficha classifica na linha livres | D13; ficha do 700 |
+| Frase do curso livre | Não aplicada ao workshop (evento da seção 9 do catálogo, não curso livre) [SUPOSIÇÃO de leitura de "onde couber"; AME11]. Aplicada ao 700, que a ficha classifica na linha livres. A nutrição de Eventos usa para o 700 outra frase ("Evento: ..."); até o cmo decidir (AME11, NER6), vale a D13, única aprovada (X1 do qa) | D13; ficha do 700 |
 
 ---
 
@@ -240,12 +250,12 @@ Arte `neuro26_alem_est11_comeca-sexta_v2-data`. Fato de calendário, sem escasse
 | # | Texto principal | Primeira frase |
 |---|---|---|
 | 1 | Começa na sexta, 20/11. Workshop Brasileiro de Neuromonitorização, em São Paulo: sexta de teoria, sábado de prática, 16 h presenciais, 30 vagas, por ordem de inscrição. | "Começa na sexta, 20/11." (23) |
-| 2 | Sexta, 20/11, às 08h: começa o Workshop Brasileiro de Neuromonitorização. Programação e inscrição na página. | "Sexta, 20/11, às 08h: começa o Workshop Brasileiro de Neuromonitorização." (73) |
+| 2 | Sexta, 20/11: começa o Workshop Brasileiro de Neuromonitorização. Programação e inscrição na página. | "Sexta, 20/11: começa o Workshop Brasileiro de Neuromonitorização." (65) |
 | 3 | O monitor mostra um número; a decisão é sua. Começa na sexta, 20/11, em São Paulo. 16 h presenciais. Workshop Brasileiro de Neuromonitorização. | "O monitor mostra um número; a decisão é sua." (44) |
-| 4 | Faltam poucos dias para o Workshop Brasileiro de Neuromonitorização: sexta, 20/11, e sábado, 21/11, em São Paulo. 16 h presenciais. | "Faltam poucos dias para o Workshop Brasileiro de Neuromonitorização: sexta, 20/11, e sábado, 21/11, em São Paulo." (113) |
+| 4 | Sexta, 20/11, e sábado, 21/11: Workshop Brasileiro de Neuromonitorização, em São Paulo. 16 h presenciais. | "Sexta, 20/11, e sábado, 21/11: Workshop Brasileiro de Neuromonitorização, em São Paulo." (87) |
 | 5 | 20 e 21/11: o Workshop Brasileiro de Neuromonitorização começa na sexta. Teoria na sexta, prática em modelos no sábado. Faculdade Ufape, Unidade 2, Av. Tiradentes, 960. | "20 e 21/11: o Workshop Brasileiro de Neuromonitorização começa na sexta." (72) |
 
-"Faltam poucos dias" (texto 4) é fato de calendário a partir de 14/11, sem número de vagas nem contador; se o qa ler como urgência, sai. Títulos: "Começa na sexta, 20/11" (22); "Sexta e sábado, em São Paulo" (28); "Teoria na sexta, prática no sábado" (34); "Workshop em 20 e 21/11" (22); "Neuromonitorização: sexta, 20/11" (32). Descrições: "16 h presenciais" (16); "Unidade 2, Av. Tiradentes" (25); "20 e 21/11" (10). Chamada: "Saiba mais".
+Nenhum texto de B7 usa "faltam poucos dias" nem horário de abertura: a urgência é só a data (AME-Q1); o horário de início de sexta diverge na ficha (08h no topo, 08h30 na grade e no FAQ) e fica fora até a Ufape confirmar (AME-Q2). Títulos: "Começa na sexta, 20/11" (22); "Sexta e sábado, em São Paulo" (28); "Teoria na sexta, prática no sábado" (34); "Workshop em 20 e 21/11" (22); "Neuromonitorização: sexta, 20/11" (32). Descrições: "16 h presenciais" (16); "Unidade 2, Av. Tiradentes" (25); "20 e 21/11" (10). Chamada: "Saiba mais".
 
 ### 5.6 C5 TRANSM. Teoria de sexta, ao vivo e gravada (travado até o 68634 corrigido, EVM9)
 

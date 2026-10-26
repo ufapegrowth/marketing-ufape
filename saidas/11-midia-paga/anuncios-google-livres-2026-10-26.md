@@ -3,6 +3,7 @@
 - **Agente:** anuncios-google (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md). Muda a forma de citar a data da 616.
 - **Etapa:** 1.14 da camada 1 do plano do cmo, encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-livres-2026-10-26.md e das seções 3, 4 e 6 de saidas/11-midia-paga/estrategia-de-midia-livres-2026-10-26.md (versão 2)
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha é pedido para um humano executar no Google Ads.
 - **Entradas lidas:**
@@ -23,6 +24,14 @@
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Nenhum docente nomeado.
 - **Marcadores:** [CONFIRMAR], [CONFIRMAR NO CATÁLOGO], [SUPOSIÇÃO], [DADO NÃO FORNECIDO]. Limites do Google (título 30, descrição 90, caminho 15, frase de destaque 25) são referência sem fonte nos arquivos [SUPOSIÇÃO; conferir no editor]. Verba em percentual de VNL; reais = VNL x percentual [CONFIRMAR].
+
+---
+
+## Mudanças desta versão
+
+- **AGL-Q1:** a descrição 3 e um título da 616 deixam de tratar 05/12/2026 como data do curso: "Imersão Avançada em Anestesia Felina, 12 h. Encontro presencial previsto em 05/12/2026." (87) e "Encontro previsto em 05/12" (26), com a regra registrada na seção 4.4. Redação final junto com AGL6, quando a modalidade da 616 for confirmada.
+- Títulos e descrições recontados por script: nenhum título acima de 30 caracteres, nenhuma descrição acima de 90.
+- O relatório do qa não trouxe outro ajuste para este arquivo.
 
 ---
 
@@ -168,10 +177,10 @@ Caminho: "curso-livre" / "endoscopia" (10). Nunca a URL da 623. Sem "Turma IV" e
 |---|---|
 | "Anestesia felina" (16) | D13 (77) |
 | "Imersão em anestesia felina" (27) | "R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (total R$ 1.200,00)." (83) |
-| "Curso de anestesia felina" (25) | "Imersão Avançada em Anestesia Felina: 05/12/2026, 12 h. Programação na página." (78) |
+| "Curso de anestesia felina" (25) | "Imersão Avançada em Anestesia Felina, 12 h. Encontro presencial previsto em 05/12/2026." (87) |
 | "Anestesia em gatos" (18) | "Fisiologia, comportamento, farmacologia, analgesia e monitoração no paciente felino." (84) |
 | "Dor e analgesia em gatos" (24) | |
-| "05/12/2026, 12 h" (16) | |
+| "Encontro previsto em 05/12" (26) | |
 | "Faculdade UFAPE" (15) | |
 | "Analgesia multimodal felina" (27) | |
 | "Monitoração e recuperação" (25) | |
@@ -180,7 +189,7 @@ Caminho: "curso-livre" / "endoscopia" (10). Nunca a URL da 623. Sem "Turma IV" e
 | "Veja a programação completa" (27) | |
 | "Inscreva-se na página" (21) | |
 
-Caminho: "curso-livre" / "anestesia" (9). Sem modalidade, "prática" e "12 vagas" até o catálogo (AGL6).
+Caminho: "curso-livre" / "anestesia" (9). Sem modalidade, "prática" e "12 vagas" até o catálogo (AGL6). Data: a ficha diz que 05/12/2026 é o encontro presencial previsto, condicionado à formação da turma, com o online liberado na compra; nenhum título ou descrição trata 05/12 como data do curso inteiro (AGL-Q1). Como a condição não cabe num título, a descrição 3 só entra junto com a página explicando a condição; redação final com AGL6 [CONFIRMAR NO CATÁLOGO].
 
 ### 4.5 rsa-68618_ventmec_v1 (URL: https://faculdade.ufape.com.br/produto/68618/ventilacao-mecanica-aplicada-a-anestesia-veterinaria/i/sao-paulo)
 

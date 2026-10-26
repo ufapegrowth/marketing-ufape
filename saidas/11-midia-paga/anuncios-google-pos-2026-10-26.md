@@ -3,6 +3,7 @@
 - **Agente:** anuncios-google (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md). Muda só a condição de uso da descrição D4.
 - **Etapa:** 1.14 da camada 1 do plano do cmo, encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md e das seções 4.4 a 4.6 de saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha é pedido para um humano executar no Google Ads.
 - **Entradas lidas:**
@@ -24,6 +25,14 @@
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Nenhum docente nomeado.
 - **Marcadores:** [CONFIRMAR], [CONFIRMAR NO CATÁLOGO], [SUPOSIÇÃO], [DADO NÃO FORNECIDO]. Limites de caracteres do Google (título 30, descrição 90, caminho 15, frase de destaque 25, sitelink 25) são referência de plataforma sem fonte nos arquivos [SUPOSIÇÃO; conferir no editor]. Verba em percentual da verba nova da Pós (VN); reais = VN x percentual [CONFIRMAR].
+
+---
+
+## Mudanças desta versão
+
+- **AGP-Q1 (obrigatório):** a descrição D4 ("Resultado por WhatsApp e/ou e-mail") passa a valer só nos grupos das 10 provas cuja ficha não se contradiz (68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660). Nos grupos das outras 12 provas, entra a D5 até U1 ser respondida (seção 3.4).
+- Títulos e descrições recontados por script depois da troca: nenhum título acima de 30 caracteres, nenhuma descrição acima de 90.
+- O relatório do qa não trouxe outro ajuste para este arquivo; o resto segue como na versão 1.
 
 ---
 
@@ -137,8 +146,8 @@ Correspondência ampla fora no começo [SUPOSIÇÃO de desenho: verba pequena, t
 | D1 | "Prova de bolsa da Faculdade UFAPE: inscrição de R$ 100,00 e 11 bolsas por prova." (80) | todos |
 | D2 | "2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0." (68) | todos; fixada na posição 1 da descrição |
 | D3 | "Prova online em 27/11/2026, das 9h às 13h, campus São Paulo. Regras na página da prova." (87) | grupos de SP; em Goiânia: "Prova online em 27/11/2026, das 9h às 13h, campus Goiânia. Regras na página da prova." (85) |
-| D4 | "Bolsa não acumulativa e intransferível. Resultado por WhatsApp e/ou e-mail." (75) | não nos grupos de 68642, 68644 e 68652 (canal do resultado contraditório, U1) |
-| D5 | "Bolsa não acumulativa e intransferível. Inscrição: Pix, boleto ou 1x no cartão." (79) | no lugar de D4 onde D4 não vale |
+| D4 | "Bolsa não acumulativa e intransferível. Resultado por WhatsApp e/ou e-mail." (75) | só nos grupos das 10 provas cuja ficha não se contradiz no canal do resultado: 68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658 e 68660 (AGP-Q1). Dos grupos de 03/11, valem __a12-neuro (68654) e __a11-patclin (68658) |
+| D5 | "Bolsa não acumulativa e intransferível. Inscrição: Pix, boleto ou 1x no cartão." (79) | no lugar de D4 em todos os demais grupos (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661), até U1 ser respondida |
 
 **Caminho de exibição:** "prova-de-bolsa" (14) / nome da área sem acento, até 15 (ex.: "neurologia" (10); "patologia" (9)).
 
