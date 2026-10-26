@@ -44,7 +44,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.12 | analise-de-midia | pos, livres, eventos | entregue (sem qa) |
 | 1.13 | estrategia-de-midia | pos, livres | entregue (sem qa) |
 | 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
-| 1.15 | anuncios-linkedin, anuncios-tiktok | pos | falta |
+| 1.15 | anuncios-linkedin, anuncios-tiktok | pos | entregue (sem qa): LinkedIn teste condicionado só da 657 (11/01 a 31/01/2027); TikTok fora |
 | 1.16 | lacunas-de-conteudo | pos, livres | entregue |
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
@@ -128,3 +128,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | qa do lote C: 11 arquivos aprovados (2 sem ajuste, 9 com ajustes não bloqueantes). EML-Q1 da estrategia-de-midia-livres (conceito R3 "primeiro passo em 8 horas" errado) enviado para correção já. Os outros ajustes vão junto com as encomendas da conciliação do cmo |
 | 26/10/2026 | Conciliação do cmo gravada (seção 12 do plano do cmo). qa do lote B: 9 aprovados (2 sem ajuste, 7 com ajustes não bloqueantes). Iniciadas as encomendas e o lote D |
 | 26/10/2026 | estrategia-de-midia-livres versão 2 (EML-Q1 a Q4 e decisões 10 a 13) |
+| 26/10/2026 | 1.15 entregue. Nota: na seção 12 do cmo, o padrão de nomes e UTM é D11 e D12 e a frase do curso livre é D13 (as instruções enviadas aos agentes citaram D14 e D15 por engano; os agentes seguem pelo conteúdo). Página da 657 ainda diz turma mínima 20 e traz frase de certificação |
