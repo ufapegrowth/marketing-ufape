@@ -3,6 +3,7 @@
 - Agente: pesquisa-de-mercado (etapa 1.1 da camada 1)
 - Linha: pos
 - Data: 26/10/2026
+- Versão: 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho corrigido após a devolução do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01a.md), para nova auditoria (01-qualidade-de-pesquisa e conformidade-educacional). Nada é publicado, enviado ou pago.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -36,7 +37,7 @@
 **Três maiores riscos:**
 
 1. Preço e renda: parcela típica de R$ 1.000,00 a R$ 1.180,00 (catálogo) contra salário médio de carteira assinada de cerca de R$ 5.054,00 e piso de recém-formado de cerca de R$ 2.900,00 (fontes comerciais sem data; tratar como [SUPOSIÇÃO] de ordem de grandeza, conclusão a validar); ofertas públicas e comunitárias aparecem bem abaixo no total.
-2. Concentração e turma mínima: 24 das 30 turmas abertas começam entre 13/03 e 28/05/2027, disputando o mesmo público; formar todas exige cerca de 590 a 600 matrículas (conta do catálogo, não é meta). Há canibalização interna em anestesiologia, terapia intensiva e neurologia.
+2. Concentração e turma mínima: 24 das 30 turmas abertas começam entre 13/03 e 28/05/2027, disputando o mesmo público; formar todas exige cerca de 450 matrículas com a turma mínima de 15 alunos (decisão 11 da Ufape, 26/10/2026; com o 20 das páginas de curso, a conta dava 590 a 600) (conta do catálogo, não é meta). Há canibalização interna em anestesiologia, terapia intensiva e neurologia.
 3. Conformidade e informação inconsistente: a frase de certificação ligada ao MEC que a squad não repete aparece nas páginas; datas, locais e públicos divergentes nas fichas; e homonímia do nome Ufape com uma universidade federal de Pernambuco nos resultados de busca.
 
 **O que exige decisão agora:** ver seção 9 (SWOT do recorte).
@@ -118,8 +119,8 @@ Os números abaixo são de grupos de candidatos da linha pos. Nenhum número mis
 
 **Fatia que a Ufape poderia alcançar em 12 meses:** não é possível estimar com rigor. Existe uma conta que ajuda a ver a ordem de grandeza, sem ser meta:
 
-- Para formar as 30 turmas abertas no recorte, são necessários 20 alunos em 28 turmas e 15 em duas (699 e 60, pelas fichas [CONFIRMAR NO CATÁLOGO]), ou seja, 590 matrículas (contexto/pos-graduacao.md fala em mínimo de 20 nas páginas de curso). Com mínimo de 20 em todas, seriam 600. Se valesse o mínimo de 15 citado na página das provas de bolsa em todas as turmas, a conta cairia para 450 [CONFIRMAR].
-- 590 a 600 matrículas equivalem a cerca de 0,33% a 0,39% do teto do universo (590 sobre 180 mil, 600 sobre 154,9 mil). Isso é aritmética, não projeção: assume 1 matrícula por pessoa e todos os registrados como público possível.
+- Para formar as 30 turmas abertas no recorte, são necessárias 450 matrículas: a turma mínima é de 15 alunos, também nas turmas de Pós (decisão 11 da Ufape, 26/10/2026). As páginas de curso dizem 20 (contexto/pos-graduacao.md na leitura desta pesquisa), texto a corrigir no site; com esse número a conta dava 590 (20 em 28 turmas e 15 em 699 e 60) ou 600 (20 em todas).
+- 450 matrículas equivalem a cerca de 0,25% a 0,29% do teto do universo (450 sobre 180 mil e sobre 154,9 mil). Isso é aritmética, não projeção: assume 1 matrícula por pessoa e todos os registrados como público possível.
 - Meta de matrículas, conversão e verba: [CONFIRMAR]. Nenhum número da Ufape existe.
 
 **O que mudaria a confiança:** estatística atual do CFMV e dos CRMV-SP e CRMV-GO (pedido de dados à Ufape ou consulta direta), pesquisa de intenção de especialização entre veterinários, funil da Ufape (leads, provas, matrículas) por área, contagem de público das plataformas de anúncio por interesse e cidade.
@@ -177,7 +178,7 @@ Conta de esforço (renda do candidato, só ordem de grandeza e [SUPOSIÇÃO], po
 
 - O mecanismo é praticado pelo concorrente: Anclivepa-SP (bolsa de 50%, taxa de R$ 350,00, ciclos de fevereiro e agosto) (S17) e tem edital próprio de Cardiologia Veterinária em 2026 (S22). A Ufape cobra R$ 100,00 de inscrição (catálogo, seção 3).
 - Regras da bolsa da Ufape (contexto/pos-graduacao.md, lidas nas páginas das 22 provas em 26/10/2026, iguais em todas, ainda fora do catálogo [CONFIRMAR NO CATÁLOGO]): 11 bolsas por prova, sendo 2 de 50% (monitoria), 4 de 25% e 5 de 10%; nota de corte 7,0; bolsa não acumulativa e intransferível; resultado em 2 dias úteis de recurso e matrícula em 10 dias úteis. Conferir no site antes de publicar. Aplicado às 22 provas, são 44 bolsas de 50%, 88 de 25% e 110 de 10% (conta: 22 x 2, 22 x 4, 22 x 5).
-- Turma mínima: a página das provas diz 15 e as páginas de curso dizem 20 [CONFIRMAR]. A turma de destino de cada prova não aparece na página [CONFIRMAR].
+- Turma mínima: a página das provas diz 15 e as páginas de curso dizem 20. Decisão da Ufape em 26/10/2026 (decisão 11): vale 15, também nas turmas de Pós; o 20 das páginas é texto a corrigir no site. Pela mesma decisão, as provas são online, vale a regra escrita na ficha de cada prova (onde a ficha se contradiz por dentro: [CONFIRMAR U1]) e toda peça diferencia o campus (São Paulo ou Goiânia). A turma de destino de cada prova não aparece na página [CONFIRMAR].
 - Cobertura das 22 provas abertas de 27/11/2026: A1 (2), A2 (3), A3 (2), A4 (2), A5 (3), A6 (1), A7 (2), A8 (1), A10 (1), A11 (2), A12 (1), A13 (1), A14 (1). Oftalmologia (A9) não tem prova aberta (68656 fora do ar).
 - Quatro provas não têm turma futura aberta da mesma área no catálogo: Felinos (68652), Endoscopia (68649), Nefrologia (68653) e Odontologia (68655). A turma de destino de cada uma: [CONFIRMAR]. Uma prova sem turma para matricular vira só inscrição de R$ 100,00.
 - Nenhuma das 9 turmas I tem prova própria. Três têm prova de área vizinha: 333 (Patologia Clínica, 68658), 359 (Anestesiologia, 68639 e 68640) e 352 (Terapia Intensiva, 68660) [SUPOSIÇÃO de adjacência]. As turmas 341, 366, 719, 699, 382 e 60 não são alimentadas por prova.
@@ -305,7 +306,7 @@ Nenhuma área pode ser chamada de "saturada" no mercado com base nas fontes enco
 | Quadrante | Itens (com fonte) |
 |---|---|
 | Forças (internas) | 1. Portfólio amplo: 30 turmas abertas em 14 áreas (catálogo). 2. Tradição por turma (Cardiologia XI, Terapia Intensiva XI, Anestesiologia X) (catálogo). 3. Hospital veterinário próprio e docentes que atuam na clínica (contexto/ufape-geral.md, a provar). 4. Prova de bolsa com inscrição de R$ 100,00 (catálogo, seção 3) contra R$ 350,00 do concorrente (S17), com 11 bolsas por prova (contexto/pos-graduacao.md). 5. Parcelas de R$ 666,67 a R$ 1.673,08 nas turmas abertas e cartão ou boleto (catálogo) |
-| Fraquezas (internas) | 1. Ticket alto: R$ 12.000,00 a R$ 48.400,00 no total das turmas abertas (catálogo). 2. Turma mínima de 20 (ou 15, divergência) e risco de não formar (contexto/pos-graduacao.md). 3. A frase de certificação ligada ao MEC, que a squad não repete, está em 26 das 30 turmas, e o texto de certificação aprovado ainda está vazio (plano, P1 e P2). 4. Datas, turmas, locais e públicos divergentes (plano, P3 a P6; fichas 366, 352, 341 e 699, ver seção 10). 5. Quatro provas sem turma de destino e regras de bolsa fora do catálogo (contexto/pos-graduacao.md; plano, P10) |
+| Fraquezas (internas) | 1. Ticket alto: R$ 12.000,00 a R$ 48.400,00 no total das turmas abertas (catálogo). 2. Turma mínima de 15 alunos (decisão 11 da Ufape, 26/10/2026) e risco de não formar (contexto/pos-graduacao.md). 3. A frase de certificação ligada ao MEC, que a squad não repete, está em 26 das 30 turmas, e o texto de certificação aprovado ainda está vazio (plano, P1 e P2). 4. Datas, turmas, locais e públicos divergentes (plano, P3 a P6; fichas 366, 352, 341 e 699, ver seção 10). 5. Quatro provas sem turma de destino e regras de bolsa fora do catálogo (contexto/pos-graduacao.md; plano, P10) |
 | Oportunidades (externas) | 1. Felinos em crescimento sem turma aberta (S9, a validar). 2. Prova de 27/11 depois do fechamento das inscrições do concorrente em 07/11 (S17). 3. EAD como modalidade majoritária na especialização (S13, S14). 4. Longevidade dos pets e geriatria e paliativos (S24). 5. Mais graduados por ano, com procura por diferenciação [SUPOSIÇÃO] (S4, S5) |
 | Ameaças (externas) | 1. Concorrentes com bolsa e marca: Anclivepa-SP e Qualittas (S17, S18). 2. Pós públicas e comunitárias mais baratas no total (S19, S20). 3. EAD barato (S13, S21). 4. Mercado pet com crescimento mais fraco: 2,4% contra 3,5% previsto (S7). 5. Homonímia com a Ufape federal de Pernambuco em buscas (S28) |
 
@@ -320,7 +321,7 @@ Nenhuma área pode ser chamada de "saturada" no mercado com base nas fontes enco
 
 | Item | Quem age | Prazo sugerido |
 |---|---|---|
-| Turma de destino das 4 provas sem turma e turma mínima (15 ou 20); levar as regras das bolsas ao catálogo | Ufape, depois estrategia-de-oferta | antes de 03/11 (peças das provas) |
+| Turma de destino das 4 provas sem turma; levar as regras das bolsas ao catálogo | Ufape, depois estrategia-de-oferta | antes de 03/11 (peças das provas) |
 | Texto de certificação aprovado e troca da frase ligada ao MEC nas páginas | Ufape (regulação) | antes de qualquer peça |
 | Confirmar datas e locais divergentes das turmas I (366, 352, 341 e 699) | Ufape | antes da camada 3 |
 | Decidir turma de Felinos e destino da prova 68652 | Ufape com cmo | antes de 03/11 |
@@ -331,7 +332,7 @@ Nenhuma área pode ser chamada de "saturada" no mercado com base nas fontes enco
 
 ## 10. SWOT curta das 9 turmas I (analise-swot, uma por curso novo)
 
-Fontes das forças e fraquezas: catálogo (preço, local, início, carga, status) e a ficha do curso. Oportunidades e ameaças: seções 1 a 8 deste arquivo. Docentes não são nomeados aqui; aparecem só como contagem, e qualquer peça com docente depende de autorização registrada [CONFIRMAR autorização]. Desconto ou lotação vindos da ficha: conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO].
+Fontes das forças e fraquezas: catálogo (preço, local, início, carga, status) e a ficha do curso. Oportunidades e ameaças: seções 1 a 8 deste arquivo. Docentes não são nomeados aqui; aparecem só como contagem. A autorização de imagem e citação de docentes, palestrantes e convidados foi registrada pela Ufape em 26/10/2026 (decisões 8 e 10); nome e titulação só como estão na ficha. Desconto ou lotação vindos da ficha: conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO].
 
 ### 341. Pós-graduação em Medicina Interna Equina (I, SP, 20/03/2027, 500 h, 30x de R$ 1.450,00, R$ 43.500,00)
 
@@ -351,7 +352,7 @@ Recorte: especialização em citopatologia para veterinários de clínica e labo
 - Forças: um dos menores totais entre as pós de 500 h (R$ 28.050,00); conteúdo extenso de 24 módulos em citologia e hematologia (ficha); complementa as turmas VII e VIII de Patologia Clínica e Hematologia (catálogo).
 - Fraquezas: coordenação indicada só como "UFAPE" e um professor listado (ficha), o que enfraquece a prova de autoridade; campanha pausada em março (plano).
 - Oportunidades: prova de Patologia Clínica (68658) como área vizinha (catálogo); sem evidência pública de demanda por citopatologia.
-- Ameaças: especialização de nicho de laboratório, sem concorrente nomeado nem dado; risco de não atingir 20 alunos [SUPOSIÇÃO].
+- Ameaças: especialização de nicho de laboratório, sem concorrente nomeado nem dado; risco de não atingir a turma mínima de 15 alunos (decisão 11) [SUPOSIÇÃO].
 - Cruzamento: corrigir a lista de docentes antes de anunciar; usar a prova 68658 como porta de entrada, se a Ufape confirmar o destino.
 - Decisão agora: confirmar coordenador e corpo docente (Ufape).
 
@@ -381,10 +382,10 @@ Recorte: pós para profissionais de saúde, gestores e TI, São Paulo, semiprese
 
 Recorte: sub-especialização para anestesiologistas, São Paulo, semipresencial, maio de 2027.
 
-- Forças: 11 professores, com diplomas internacionais de anestesia listados na ficha [CONFIRMAR autorização]; hands-on com ultrassom, neuroestimulação e fluoroscopia (ficha); a página liga ao caminho da prova de especialista.
+- Forças: 11 professores, com diplomas internacionais de anestesia listados na ficha; hands-on com ultrassom, neuroestimulação e fluoroscopia (ficha); a página liga ao caminho da prova de especialista.
 - Fraquezas: público-alvo restrito a quem tem residência ou pós em anestesiologia (ficha), o que reduz o mercado; data só no site, sem planilha (catálogo); desconto de 12% para os 10 primeiros, vindo da ficha, sem regra (conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO]); canibalização com 657 e 68609.
 - Oportunidades: formação de nível avançado para quem já fez a pós de anestesiologia da própria Ufape (turmas X e VIII), o que cria trilha interna [SUPOSIÇÃO]; sem dado externo.
-- Ameaças: mercado muito pequeno e de ticket alto; mínimo de 20 alunos difícil de atingir [SUPOSIÇÃO]; sem concorrente nomeado.
+- Ameaças: mercado muito pequeno e de ticket alto; mínimo de 15 alunos (decisão 11) difícil de atingir [SUPOSIÇÃO]; sem concorrente nomeado.
 - Cruzamento: defender com a trilha de ex-alunos e a prova de anestesia como porta de entrada; reduzir risco com meta de turma confirmada antes de verba [CONFIRMAR].
 - Decisão agora: confirmar data e regra do desconto (Ufape) e se a trilha de ex-alunos tem desconto (regra [PREENCHER]).
 
@@ -393,11 +394,11 @@ Recorte: sub-especialização para anestesiologistas, São Paulo, semipresencial
 Recorte: geriatria de cães e gatos, São Paulo, semipresencial, maio de 2027.
 
 - Forças: 32 professores e um programa que cobre geriatria, paliativos, dor, nutrição, nefrologia, endocrinologia e felinos (ficha); preço mediano (R$ 33.000,00).
-- Fraquezas: lotação mínima de 15 e máxima de 40 (ficha; conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO]), diferente do padrão de 20 do contexto; a página aceita estudantes do último ano, mas o ingresso exige diploma (ficha, contradição) e o público-alvo do contexto é só formado; cronograma com ordem de módulos e datas inconsistentes (módulo 11 em junho de 2027, fora da sequência) e 20 módulos para 24 parcelas (ficha); sem prova própria; campanha pausada (plano).
+- Fraquezas: lotação mínima de 15 e máxima de 40 (ficha; conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO]); o mínimo de 15 coincide com a decisão 11 da Ufape (26/10/2026); a página aceita estudantes do último ano, mas o ingresso exige diploma (ficha, contradição) e o público-alvo do contexto é só formado; cronograma com ordem de módulos e datas inconsistentes (módulo 11 em junho de 2027, fora da sequência) e 20 módulos para 24 parcelas (ficha); sem prova própria; campanha pausada (plano).
 - Oportunidades: pets com mais idade e doenças crônicas (S24); a página diz que há escassez de formação no país (ficha, sem fonte externa); atrai quem faz Felinos, Dor e Reabilitação.
 - Ameaças: o tema pode ser absorvido por cursos curtos e congressos [SUPOSIÇÃO]; sem dado de demanda por geriatria no Brasil.
-- Cruzamento: atacar como porta nova ligada a felinos e paliativos; corrigir cronograma, público e lotação antes de anunciar.
-- Decisão agora: confirmar lotação mínima, aceitação de estudantes e cronograma (Ufape e regulação).
+- Cruzamento: atacar como porta nova ligada a felinos e paliativos; corrigir cronograma e público antes de anunciar.
+- Decisão agora: confirmar aceitação de estudantes e cronograma (Ufape e regulação).
 
 ### 382. Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos (I, SP, 22/05/2027, 500 h, 30x de R$ 1.125,00, R$ 33.750,00)
 
@@ -414,10 +415,10 @@ Recorte: reprodução de cães e gatos, São Paulo, semipresencial, maio de 2027
 
 Recorte: ventilação mecânica para intensivistas e anestesistas, São Paulo, semipresencial, maio de 2027.
 
-- Forças: curso inédito, com 10 professores, entre eles 5 do exterior (ficha) [CONFIRMAR autorização]; prática sobre o hospital e grupo de estudos exclusivo (ficha); liga-se à terapia intensiva e à anestesia da Ufape.
+- Forças: curso inédito, com 10 professores, entre eles 5 do exterior (ficha); prática sobre o hospital e grupo de estudos exclusivo (ficha); liga-se à terapia intensiva e à anestesia da Ufape.
 - Fraquezas: ticket de R$ 47.880,00, o segundo maior das turmas abertas, atrás só da 657 (R$ 48.400,00) (catálogo); data diverge (planilha 24/05, site 24/04); a página afirma "referência mundial" sem prova, o que não pode virar peça; desconto de 10% para os 10 primeiros, vindo da ficha (conferir no site antes de publicar [CONFIRMAR NO CATÁLOGO]); campanha pausada (plano).
 - Oportunidades: nicho técnico de alta especialização; público de UTI e anestesia da própria Ufape (turmas XI, X e IV) [SUPOSIÇÃO]; prova de Terapia Intensiva (68660) como vizinha.
-- Ameaças: mercado pequeno para 20 alunos a esse preço [SUPOSIÇÃO]; sem concorrente nomeado; equipamento e docentes internacionais dependem de agenda.
+- Ameaças: mercado pequeno para a turma mínima de 15 alunos a esse preço [SUPOSIÇÃO]; sem concorrente nomeado; equipamento e docentes internacionais dependem de agenda.
 - Cruzamento: atacar via trilha UTI e anestesia; reduzir risco com meta de turma confirmada antes de gastar mídia [CONFIRMAR].
 - Decisão agora: confirmar a data de início e a regra do desconto de 10% para os 10 primeiros (Ufape).
 
@@ -443,12 +444,18 @@ Recorte: clínica de animais silvestres e exóticos, São Paulo, semipresencial,
 
 ---
 
+## Mudanças desta versão
+
+- Turma mínima de 15 alunos, também na Pós (decisão 11): conta do dimensionamento refeita para 450 matrículas (0,25% a 0,29% do teto), com a conta antiga de 590 a 600 citada como leitura das páginas; SWOT do recorte e SWOT de 341, 359, 699 e 352 ajustadas; saem as dúvidas "15 ou 20".
+- Seção 7 e Lista 1: provas online, regra da ficha de cada prova, campus dito na peça e dúvida U1 (decisão 11).
+- Seção 10: saem as marcas [CONFIRMAR autorização] de docentes (decisões 8 e 10).
+
 ## Lista 1. Fatos com fonte
 
 Dados internos (catálogo de 26/10/2026, contexto/pos-graduacao.md e fichas):
 - 30 turmas de pós abertas: 26 em São Paulo e 4 em Goiânia (289, 68632, 68609, 68623); nenhuma EAD aberta; a única EAD (586) está em "verificar" (contagem do catálogo).
 - 22 provas de bolsa abertas em 27/11/2026, com inscrição de R$ 100,00 (catálogo, seção 3); a de Oftalmologia (68656) está fora do ar.
-- Regras das provas: 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), nota de corte 7,0, bolsa não acumulativa, matrícula em 10 dias úteis, mínimo de 15 na página da prova contra 20 nas páginas de curso (contexto/pos-graduacao.md, 26/10/2026).
+- Regras das provas: 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), nota de corte 7,0, bolsa não acumulativa, matrícula em 10 dias úteis, mínimo de 15 na página da prova contra 20 nas páginas de curso (contexto/pos-graduacao.md, 26/10/2026). Decisões da Ufape de 26/10/2026 (decisão 11): turma mínima de 15, também na Pós; provas online; vale a regra da ficha de cada prova (docs/execucao-2026-10-26.md).
 - Total das turmas abertas de R$ 12.000,00 (719) a R$ 48.400,00 (657); o catálogo inteiro vai a R$ 48.780,00 (677, "verificar"); parcelas das turmas abertas de R$ 666,67 a R$ 1.673,08.
 - 24 das 30 turmas abertas começam entre 13/03 e 28/05/2027; 6 começam entre 30/10 e 28/11/2026 (contagem do catálogo).
 - Menor total entre as pós veterinárias abertas: R$ 16.456,00 (68629); só a 719 (R$ 12.000,00) é menor (catálogo, seção 2).
@@ -489,9 +496,9 @@ Dados externos (S1 a S29, acesso em 26/10/2026, via resultado de busca):
 - [CONFIRMAR] Meta de matrículas e de turmas confirmadas, verba e custo por matrícula (nenhum número existe).
 - [CONFIRMAR] Funil agregado por turma: leads, inscritos nas provas, matrículas, conversão de prova em matrícula, vagas restantes.
 - [CONFIRMAR] Série de vendas e leads por mês para medir sazonalidade.
-- [CONFIRMAR NO CATÁLOGO] Regras e percentuais das provas de bolsa (hoje só em contexto/pos-graduacao.md); [CONFIRMAR] turma de destino das 4 provas sem turma (68652, 68649, 68653, 68655) e turma mínima (15 ou 20).
+- [CONFIRMAR NO CATÁLOGO] Regras e percentuais das provas de bolsa (hoje só em contexto/pos-graduacao.md); [CONFIRMAR] turma de destino das 4 provas sem turma (68652, 68649, 68653, 68655) e, onde a ficha da prova se contradiz por dentro, qual regra vale [CONFIRMAR U1].
 - [CONFIRMAR NO CATÁLOGO] Regra e validade dos descontos de 341 (20%), 359 (12%) e 352 (10%), e se acumulam com a bolsa (que é não acumulativa).
-- [CONFIRMAR NO CATÁLOGO] Datas de 366, 352 e 698; local das aulas de 341 (SP ou Indaiatuba); lotação mínima de 699 e 60 (15) contra 20 do contexto; aceitação de estudantes em 699; cronograma de 699; ato regulatório e público de 719.
+- [CONFIRMAR NO CATÁLOGO] Datas de 366, 352 e 698; local das aulas de 341 (SP ou Indaiatuba); aceitação de estudantes em 699; cronograma de 699; ato regulatório e público de 719.
 - [PREENCHER COM A REGULAÇÃO] Texto de certificação aprovado; se o EAD lato sensu em Medicina Veterinária tem regra própria.
 - Sem fonte: total de médicos veterinários em 2025 (CFMV), em São Paulo (CRMV-SP) e em Goiás (CRMV-GO); matrículas de lato sensu em Medicina Veterinária; número de egressos por ano; renda do público real.
 - Sem fonte: preço de Anclivepa-SP, Qualittas, Equalis e demais pós veterinárias; preço de EAD veterinário por especialidade.

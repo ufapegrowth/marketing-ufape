@@ -4,6 +4,7 @@
 - Linha: geral (Graduação, Pós-graduação, Cursos Livres e Eventos)
 - Data: 26/10/2026
 - Versão: 2, corrigida conforme o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a.md), itens C1 a C5 e A1 a A11. O que mudou está na seção 13.
+- Versão: 3 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho para nova rodada do qa-de-marketing (auditoria 02-estrategia-e-posicionamento, resultado na seção 11, e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago. Tudo que não tem fonte está marcado [SUPOSIÇÃO] até a Ufape validar.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -83,7 +84,7 @@ Regra de marca: a Ufape não ganha a disputa dizendo que tem. Ganha mostrando, c
 | # | Como diferenciar | Exemplo com prova | Nunca dizer |
 |---|---|---|---|
 | D1 | Mostrar o roteiro da prática, não o prédio | "Sábado à tarde: exame otológico demonstrativo em pacientes com indicação clínica. Domingo: hands-on em modelo, 1 equipamento para cada 3 participantes." (68614, ficha; [CONFIRMAR NO CATÁLOGO] o roteiro, as datas de dois dias e a proporção, que estão só na ficha) | "O único hospital veterinário-escola", "temos o hospital mais completo" |
-| D2 | Mostrar o docente decidindo, com a titulação da ficha | "O professor conduz o exame e a tomada de decisão; você acompanha por câmera e depois pratica." (68614, ficha, [CONFIRMAR NO CATÁLOGO]). Nome e titulação só com autorização registrada [CONFIRMAR autorização] | "Os maiores especialistas do Brasil", "professores renomados" sem lista |
+| D2 | Mostrar o docente decidindo, com a titulação da ficha | "O professor conduz o exame e a tomada de decisão; você acompanha por câmera e depois pratica." (68614, ficha, [CONFIRMAR NO CATÁLOGO]). Nome e titulação como na ficha (autorização de imagem e citação registrada em 26/10/2026, decisões 8 e 10) | "Os maiores especialistas do Brasil", "professores renomados" sem lista |
 | D3 | Mostrar a continuidade de uma casa só | Professores da graduação também dão aula nas pós (contexto/graduacao.md); o hospital próprio entra no estágio da graduação, nos cursos práticos e no aprimoramento (contexto/ufape-geral.md); aluno e ex-aluno têm condição própria (cupom SIMPNEUROMONIT no workshop, validade [CONFIRMAR]; aprimoramento 641 para aluno de pós, com status "verificar" no catálogo: não usar em peça enquanto o status for "verificar") | "Trilha garantida até o título de especialista" |
 | D4 | Mostrar as condições inteiras antes da venda | Parcelas, total, matrícula, turma mínima, o que acontece se a turma não fechar (fichas de Pós: reembolso [CONFIRMAR NO CATÁLOGO] da inscrição só se a turma não for confirmada; passagem e hotel só depois da confirmação) | "Últimas vagas", "vagas limitadas" sem número real |
 
@@ -157,7 +158,7 @@ Regra geral: **uma marca só, Faculdade UFAPE.** As demais são endossos ou luga
 | Ufape Intercursos | O nome "Ufape Intercursos" fica fora das peças de marketing como marca. Fica nos textos legais e contratuais. Os endereços de contato oficiais com domínio intercursos.com.br (contexto/ufape-geral.md) podem e devem aparecer nas peças como estão | Dois nomes de venda confundem o candidato; "Intercursos" soa como plataforma de cursos, não como faculdade [SUPOSIÇÃO]. Qual entidade emite o certificado de Pós e de Livres: [CONFIRMAR com a regulação] |
 | Ufape Clínica | Como lugar e prova da prática: "na Ufape Clínica, hospital veterinário da Faculdade UFAPE". Nunca como quem vende o curso | Mostra o hospital sem criar uma segunda marca de ensino |
 | UFAPE Excelência Veterinária | Não usar em peças até a Ufape dizer o que é e se substitui ou convive com "Ufape Clínica" | Nome visto só em currículo de docente |
-| Nome de evento | Nome do evento como está na página, com "Realização: Faculdade UFAPE". Não criar sub-marca nova ("Neuro Summit" é o endereço da página; usar como nome só se a Ufape decidir) | Evitar nome diferente entre planilha (simpósio), página (workshop) e anúncio |
+| Nome de evento | Nome oficial do evento definido pela Ufape, com "Realização: Faculdade UFAPE". No evento de 20 e 21/11/2026: "Workshop Brasileiro de Neuromonitorização" (decisão 7 da Ufape, 26/10/2026). Não criar sub-marca nova ("Neuro Summit" é o endereço da página; usar como nome só se a Ufape decidir) | Evitar nome diferente entre planilha, página e anúncio; nunca "simpósio" para o Workshop (decisão 7) |
 
 Uso por linha:
 
@@ -165,7 +166,7 @@ Uso por linha:
 |---|---|---|---|
 | Graduação | Faculdade UFAPE, com o ato do curso conforme o catálogo | Ufape Clínica (hospital veterinário próprio, só Medicina Veterinária) | Pedagogia (Goiânia) assina Faculdade UFAPE Goiânia [CONFIRMAR]; não usa Ufape Clínica. A LP da Graduação é página separada que a squad nunca altera: peças apontam para ela com UTM |
 | Pós-graduação | Faculdade UFAPE | Ufape Clínica nos módulos práticos, se a ficha disser que a prática é lá [CONFIRMAR por curso] | Nome do curso sempre "Pós-graduação em <área>" |
-| Cursos Livres | Faculdade UFAPE | Ufape Clínica nos práticos e no aprimoramento [CONFIRMAR por curso se a prática é na Ufape Clínica]. A ficha 68614 fala em "hospital UFAPE", no endereço da sede, e não usa "Ufape Clínica"; os aprimoramentos 639, 640 e 641 estão em "verificar" | Sempre com a frase de que curso livre não confere diploma nem equivale a graduação ou pós-graduação |
+| Cursos Livres | Faculdade UFAPE | Ufape Clínica nos práticos e no aprimoramento [CONFIRMAR por curso se a prática é na Ufape Clínica]. A ficha 68614 fala em "hospital UFAPE", no endereço da sede, e não usa "Ufape Clínica"; os aprimoramentos 639, 640 e 641 estão em "verificar" | Sempre com a frase única do curso livre (D13 do cmo): "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." |
 | Eventos | Nome do evento + "Realização: Faculdade UFAPE" | Ufape Clínica só se o evento acontecer lá | O workshop de 20 e 21/11/2026 é na Unidade 2 (Av. Tiradentes, 960), não na sede: não associar à Ufape Clínica sem confirmação |
 
 ---
@@ -208,9 +209,9 @@ Regra: quando a peça tem oferta, a condição aparece inteira na mesma peça (p
 
 | Linha | Assim sim | Assim não |
 |---|---|---|
-| Pós | "30x de R$ 1.000,00, total de R$ 30.000,00, e matrícula de R$ 250,00. A turma abre com no mínimo 20 alunos: compre passagem e hotel só depois da confirmação." (catálogo 68610; regra da linha) | "Últimas vagas para a turma de Dermatologia!" (contraexemplo construído: não há número de vagas restantes no catálogo) |
-| Pós (prova de bolsa) | "Prova de bolsa em 27/11/2026, presencial. Inscrição de R$ 100,00. Para médicos veterinários formados. Cada prova tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Quem for contemplado tem 10 dias úteis para a matrícula. Regras em contexto/pos-graduacao.md [CONFIRMAR NO CATÁLOGO]. Nota de corte 7,0. A bolsa não é acumulativa nem transferível." (data e inscrição do catálogo, seção 3; público, bolsas, nota de corte e regras de contexto/pos-graduacao.md, lidas das páginas das provas: [CONFIRMAR NO CATÁLOGO] as regras das bolsas, o público elegível e a turma de destino de cada prova) | "Bolsas de até 50% para você!" (contraexemplo construído: esconde que são só 2 de 50% por prova; a concorrência pede falar em quantidade, não em percentual) |
-| Livres | "R$ 1.250,00 à vista ou 10x de R$ 175,00 no cartão (R$ 1.750,00 no total). Curso livre: não confere diploma nem equivale a graduação ou pós-graduação." (catálogo 68614; total calculado por este agente) | "Certificado emitido pela UFAPE com selo do MEC" (texto atual da ficha 68614; bloqueado) |
+| Pós | "30x de R$ 1.000,00, total de R$ 30.000,00, e matrícula de R$ 250,00. A turma abre com no mínimo 15 alunos: compre passagem e hotel só depois da confirmação." (catálogo 68610; turma mínima pela decisão 11 da Ufape, 26/10/2026) | "Últimas vagas para a turma de Dermatologia!" (contraexemplo construído: não há número de vagas restantes no catálogo) |
+| Pós (prova de bolsa) | "Prova de bolsa em 27/11/2026, online, para o campus São Paulo ou Goiânia, conforme a prova. Inscrição de R$ 100,00. Para médicos veterinários formados. Cada prova tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Quem for contemplado tem 10 dias úteis para a matrícula. Regras em contexto/pos-graduacao.md [CONFIRMAR NO CATÁLOGO]. Nota de corte 7,0. A bolsa não é acumulativa nem transferível." (prova online e campus pela decisão 11 da Ufape; prazo de matrícula da ficha de cada prova, com contradição interna [CONFIRMAR U1]; data e inscrição do catálogo, seção 3; público, bolsas, nota de corte e regras de contexto/pos-graduacao.md, lidas das páginas das provas: [CONFIRMAR NO CATÁLOGO] as regras das bolsas, o público elegível e a turma de destino de cada prova) | "Bolsas de até 50% para você!" (contraexemplo construído: esconde que são só 2 de 50% por prova; a concorrência pede falar em quantidade, não em percentual) |
+| Livres | "R$ 1.250,00 à vista ou 10x de R$ 175,00 no cartão (R$ 1.750,00 no total). Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (catálogo 68614; total calculado por este agente; frase única D13 do cmo) | "Certificado emitido pela UFAPE com selo do MEC" (texto atual da ficha 68614; bloqueado) |
 | Graduação | "Inscrição gratuita. Você entra pela redação online ou pela nota do Enem (mínimo de 300 pontos). Aulas a partir de 22/02/2027. Medicina Veterinária autorizada pela Portaria SERES/MEC nº 162, de 13/03/2025." (editais 2027/1; catálogo, seção 1) | "Faculdade nota máxima no MEC, com emprego garantido." (contraexemplo construído: os editais não trazem nota do MEC e emprego não se promete) |
 | Eventos | "Presencial, sexta e sábado, 16 h: R$ 1.250,00. Só a teoria de sexta, ao vivo e gravada: R$ 450,00. Aluno e ex-aluno Ufape: 20% com o cupom SIMPNEUROMONIT, com comprovação do vínculo na secretaria." (preços, 16 h e cupom do catálogo, seção 9; comprovação do vínculo só na ficha do workshop: [CONFIRMAR NO CATÁLOGO]; [CONFIRMAR validade do cupom SIMPNEUROMONIT]; [CONFIRMAR status do produto 68634, hoje "verificar" na seção 4 do catálogo, antes de chamar para a compra da modalidade transmitida]. O exemplo só vira peça depois dessas confirmações) | "Apostila e material digital inclusos." (a página diz "se previsto": não prometer) |
 
@@ -235,12 +236,12 @@ Regra: quando a peça tem oferta, a condição aparece inteira na mesma peça (p
 | Faculdade UFAPE (primeira menção), Ufape (depois) | Em toda peça | editais; seção 4 |
 | "Pós-graduação em <área>" | Sempre, em título, peça, anúncio e página | contexto/pos-graduacao.md |
 | semipresencial; presencial; módulo presencial; aula online ao vivo; gravação | Dizer o que é online e o que é presencial em cada curso, conforme a modalidade do catálogo | catálogo; tendências B.1 |
-| turma mínima de 20 alunos (Pós) [CONFIRMAR NO CATÁLOGO]; turma confirmada | Com a orientação sobre passagem e hotel | contexto/pos-graduacao.md |
+| turma mínima de 15 alunos (Pós; decisão 11 da Ufape, 26/10/2026); turma confirmada | Com a orientação sobre passagem e hotel | contexto/pos-graduacao.md |
 | caso clínico; rotina; decisão clínica; raciocínio diagnóstico | Para falar de prática | fichas 68610, 68614 e do workshop |
 | hands-on | Só seguido do que se faz e com quantos por equipamento, quando houver número | fichas 573 e 68614 |
 | médico veterinário, médica veterinária, médicos veterinários | Sem assumir leitor homem | pesquisa-de-persona pos |
 | prova de bolsa; inscrição de R$ 100,00; 11 bolsas por prova [CONFIRMAR NO CATÁLOGO] | Com data, público e regras completas | catálogo; contexto/pos-graduacao.md |
-| curso livre: "não confere diploma nem equivale a graduação ou pós-graduação" | Em toda peça de Livres | contexto/cursos-livres.md; conformidade |
+| "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." | Em toda peça de Livres, com estas palavras | D13 do plano do cmo (seção 12.7); conformidade |
 | ato autorizativo (Graduação) | Como está no catálogo, sem antecipar reconhecimento | contexto/graduacao.md |
 | à vista; no cartão; total; matrícula | Em toda peça com preço | regras das linhas |
 | aluno e ex-aluno Ufape | Só com a regra da condição e a validade (por exemplo, cupom do workshop, validade [CONFIRMAR]) | catálogo, seção 9 |
@@ -288,7 +289,7 @@ Regra: quando a peça tem oferta, a condição aparece inteira na mesma peça (p
 
 ### 8.1 Docentes e palestrantes
 
-1. Só aparece em peça (nome, foto, voz, vídeo, citação) quem tiver autorização registrada. Sem registro: [CONFIRMAR autorização], e a ausência não conta como entrega faltante (P13 do plano do cmo).
+1. Só aparece em peça (nome, foto, voz, vídeo, citação) quem tiver autorização registrada. Docentes, palestrantes e convidados têm autorização de imagem e citação registrada desde 26/10/2026 (decisões 8 e 10): para eles a marca não se aplica, e nome e titulação seguem a ficha. Demais pessoas sem registro: [CONFIRMAR autorização], e a ausência não conta como entrega faltante (P13 do plano do cmo).
 2. Nome e titulação exatamente como estão na ficha do curso (por exemplo, "Prof. MSc.", "Profa. Dra."), sem promover titulação.
 3. Eventos: só docentes confirmados na página; convidados "a definir" ficam fora até a Ufape confirmar (decisão de 26/10/2026).
 4. Currículo resumido só com o que a ficha diz. Vínculo com outra instituição (universidade, hospital, empresa) não vira parceria da Ufape.
@@ -359,7 +360,7 @@ Roda junto com a auditoria do departamento e com auditorias/conformidade-educaci
 - [ ] 12. [n/a se não houver conta] Contas feitas pelo agente (total no cartão, valor com cupom) foram conferidas.
 - [ ] 13. [n/a se a peça não chama para inscrição] Curso com status "aberto" ou "aberto (contínuo)" no catálogo.
 - [ ] 14. Nenhuma afirmação de certificação em Pós, Livres e Eventos até a regulação aprovar o texto; depois, só o texto aprovado. Nenhuma nota do MEC. Graduação só com o ato do catálogo.
-- [ ] 15. [n/a se não for de Livres] Curso livre diz que não confere diploma nem equivale a graduação ou pós-graduação.
+- [ ] 15. [n/a se não for de Livres] Peça de curso livre traz a frase única: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."
 - [ ] 16. Nenhuma promessa de emprego, renda, salário, título ou aprovação.
 - [ ] 17. Nenhum superlativo sem fonte; "hospital próprio" nunca aparece como exclusivo e vem com o que se faz nele.
 - [ ] 18. Nenhuma urgência sem número real e data ("últimas vagas", "corra", contador).
@@ -421,7 +422,7 @@ Pedidos à Ufape (sem custo, sem publicação):
 1. Validar ou ajustar propósito, promessa e a proposta de traços.
 2. Responder a arquitetura de nomes: grafia oficial, papel de Ufape Intercursos, relação entre Ufape Clínica e UFAPE Excelência Veterinária, quem emite o certificado de cada linha, onde acontece a prática de cada curso livre.
 3. Enviar manual de marca (logotipo em vetor, cores em HEX, fontes) e 3 peças aprovadas e 3 reprovadas por linha.
-4. Informar onde estão as autorizações de imagem e voz de docentes, alunos e pacientes, e o termo usado na Ufape Clínica.
+4. Informar onde estão as autorizações de imagem e voz de alunos e pacientes, e o termo usado na Ufape Clínica (a de docentes, palestrantes e convidados foi registrada em 26/10/2026, decisões 8 e 10).
 5. Confirmar perfis existentes (YouTube, TikTok, LinkedIn, perfil próprio da Graduação) e o nome de exibição dos WhatsApps.
 6. Informar a validade do cupom SIMPNEUROMONIT e o status do produto 68634.
 
@@ -447,6 +448,13 @@ Pedidos à Ufape (sem custo, sem publicação):
 | A11 | Contatos @intercursos.com.br permitidos; a regra vale para o nome como marca |
 
 ---
+
+## Mudanças desta versão
+
+- Seção 4: nome de evento pelo nome oficial; no Workshop, "Workshop Brasileiro de Neuromonitorização", nunca "simpósio" (decisão 7).
+- Seções 2, 8 e 12 e Lista 3: autorização de imagem e citação de docentes, palestrantes e convidados registrada (decisões 8 e 10).
+- Seções 5 e 6: turma mínima de 15 alunos e prova de bolsa online com campus e U1 (decisão 11).
+- Seções 4, 5, 6 e 10: frase única do curso livre (D13). A seção 13 fica como registro da versão 2.
 
 ## Lista 1. Fatos com fonte
 
@@ -489,7 +497,7 @@ Pedidos à Ufape (sem custo, sem publicação):
 - [CONFIRMAR] Validação dos traços de voz e atualização de contexto/ufape-geral.md.
 - [CONFIRMAR] Papel de Ufape Intercursos; relação entre Ufape Clínica e UFAPE Excelência Veterinária; entidade que emite o certificado de Pós, Livres e Eventos; se a prática de cada curso livre acontece na Ufape Clínica.
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação de Pós, Livres e Eventos.
-- [CONFIRMAR autorização] Imagem e voz de cada docente, palestrante, aluno e paciente; termo de autorização do tutor na Ufape Clínica.
+- [CONFIRMAR autorização] Imagem e voz de cada aluno e paciente (docentes, palestrantes e convidados: registrada em 26/10/2026, decisões 8 e 10); termo de autorização do tutor na Ufape Clínica.
 - [CONFIRMAR NO CATÁLOGO] Horas práticas por curso, roteiro do dia, datas de dois dias e proporção de equipamentos (68614, 573); cronograma da 68610; matriz do 1º semestre da Medicina Veterinária; programação do workshop; comprovação do vínculo para o cupom.
 - [CONFIRMAR NO CATÁLOGO] Regras das provas de bolsa, público elegível, turma de destino (68652, 68649, 68653 e 68655 sem turma futura) e turma mínima (15 na prova, 20 no curso).
 - [CONFIRMAR] Validade do cupom SIMPNEUROMONIT; status do produto 68634 e carga horária na loja (24 h x 16 h); vagas restantes do workshop.

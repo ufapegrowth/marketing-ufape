@@ -3,6 +3,7 @@
 - **Agente:** analise-cro (departamento 08 Conversão), etapa 1.30 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026
+- **Versão:** 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - **Skill usada:** .claude/skills/raio-x-de-pagina/SKILL.md
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
 - **Entradas lidas:**
@@ -145,7 +146,7 @@
 - Regra da 1ª mensalidade versus início próximo: condição de pagamento sem explicação para quem entra tarde (CDC, clareza de condições).
 - Política de reembolso e de força maior: está na página; manter, e revisar com a regulação se o texto atende às regras da instituição.
 - Qualquer "últimas vagas" ou contagem regressiva: só com número real de vagas, que não existe hoje. Não usar.
-- Depoimentos, fotos e vídeos de docentes: só com autorização registrada [CONFIRMAR autorização].
+- Depoimentos, fotos e vídeos de docentes: autorização de imagem e citação registrada em 26/10/2026 (decisões 8 e 10); texto na voz do docente com o ok dele.
 - Formulário e checkout: o texto copiado não mostra finalidade de uso dos dados nem link para política de privacidade. [CONFIRMAR no site]
 - Página de destino de anúncio: a ficha mostra início e preço coerentes com o catálogo. A frase ligada ao MEC fica sinalizada no item "página de destino" (pedido A7 do plano do cmo).
 
@@ -202,14 +203,14 @@
 1. Bloco de bolsa ligado à prova certa (68646) e à turma de destino, mostrando data, valor da inscrição e bolsas previstas vindos do banco.
 2. Faixa de números: módulos presenciais e online e mês do primeiro presencial (do banco).
 3. WhatsApp e formulário de lead; remover o bloco CONSIDERAÇÕES duplicado; corrigir o caractere quebrado e a grafia.
-4. Coordenação e docentes com bio curta da ficha, onde existir. [CONFIRMAR autorização]
+4. Coordenação e docentes com bio curta da ficha, onde existir (autorização registrada, decisões 8 e 10).
 5. Eventos de clique no link da prova, no COMPRAR e no WhatsApp. [CONFIRMAR ferramenta]
 
 **Ufape**
 
 - Qual turma recebe os aprovados da prova de 27/11 (a de 28/11 ou a seguinte) e como funciona a matrícula de quem passa depois do início.
 - Regra da 1ª mensalidade perto do início.
-- Coordenador nomeado, docentes e material de prova social autorizados.
+- Coordenador nomeado e material de prova social de alunos com autorização (a de docentes foi registrada em 26/10/2026, decisões 8 e 10).
 
 ### As 3 principais correções com teste
 
@@ -262,7 +263,7 @@
 
 ## Página 3: Prova de bolsa, 68639 Prova de Bolsa de Estudos para Anestesiologia Veterinária (São Paulo)
 
-**Dados conferidos no catálogo (seção 3) e na ficha:** São Paulo, 27/11/2026, status aberto; inscrição (ficha) de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Faltam 32 dias. A ficha traz horário (9 às 13h), prova presencial, nota de corte, prazos, composição, local e bolsas previstas. A campanha das 22 provas é única (decisão 3 do briefing), com variação por especialidade. Não existe tipo "prova de bolsa" no template da página da turma.
+**Dados conferidos no catálogo (seção 3) e na ficha:** São Paulo, 27/11/2026, status aberto; inscrição (ficha) de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Faltam 32 dias. A ficha traz horário (9 às 13h), prova presencial, nota de corte, prazos, composição, local e bolsas previstas. Decisão da Ufape em 26/10/2026 (decisão 11): a prova é online, o local não importa e a peça diferencia o campus (esta é do campus São Paulo); o que a página diz sobre "presencial", local, documento e celular é texto a corrigir no site. A campanha das 22 provas é única (decisão 3 do briefing), com variação por especialidade. Não existe tipo "prova de bolsa" no template da página da turma.
 
 ### Teste dos 5 segundos (no celular, inferido pela ordem do texto)
 
@@ -270,12 +271,12 @@
 |---|---|---|
 | Que curso é este? | "Prova de Bolsa de Estudos para Anestesiologia Veterinária" (E) | Passa |
 | Para quem? | Não há público nem requisito (por exemplo, médico veterinário formado). A página não diz para qual pós a bolsa vale (E) | Falha |
-| Qual modalidade? | "PROVA PRESENCIAL", São Paulo, 9 às 13h, 27 de novembro de 2026 (E) | Passa |
+| Qual modalidade? | "PROVA PRESENCIAL", São Paulo, 9 às 13h, 27 de novembro de 2026 (E) | Falha: a prova é online (decisão 11 da Ufape, 26/10/2026); a página precisa ser corrigida e dizer o campus (São Paulo) |
 | O que fazer agora? | Botão COMPRAR, o mesmo rótulo de um produto, para uma inscrição (E) | Passa em parte [SUPOSIÇÃO: rótulo "Inscrever-me na prova" é mais claro] |
 
 ### O que já funciona (E)
 
-- Regras do dia muito claras: data, horário, local, documento, proibição de celular e relógio, nota de corte (7,0, equivalente a 70% de acerto), prazo de recurso e prazo de matrícula depois do resultado.
+- Regras do dia muito claras: data, horário, nota de corte (7,0, equivalente a 70% de acerto), prazo de recurso e prazo de matrícula depois do resultado. Local, documento com foto e proibição de celular e relógio, que a página também traz, são regras de prova presencial: com a prova online (decisão 11), o que vale delas é a pergunta U2 do cmo.
 - Tabela de bolsas previstas: 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10% (11 no total, conta). Isso é concreto e raro. Correção do QA de 26/10: contexto/pos-graduacao.md e a pendência P10 do plano já registram esses percentuais (iguais nas 22 provas), e a peça pode citá-los como estão lá.
 - Critério de desempate declarado (análise de currículo) e canal do resultado (WhatsApp e/ou e-mail).
 - Ticket baixo (R$ 100,00), que reduz o atrito de decisão.
@@ -288,8 +289,8 @@
 | 2 | Regra de distribuição incompleta: quem passa na nota de corte mas fica sem bolsa, pode se matricular sem bolsa? Como são ordenadas as 11 bolsas? Em que consiste a "monitoria" da bolsa de 50%? | Objeções sem resposta | E (ausência); H | Alto | UFAPE e SQUAD |
 | 3 | A página não diz o que a prova cobra: sem temas, sem material de estudo, sem exemplo. Só "múltipla escolha e dissertativas". | Informação que falta | E (ausência); H (insegurança de quem teme reprovar) | Médio a alto | UFAPE e SQUAD |
 | 4 | Sem prazo para se inscrever na prova (até que dia o botão funciona?) e sem política para ausência ou desistência dos R$ 100,00. | Preço e condições, urgência | E (ausência) [CONFIRMAR] | Médio | UFAPE |
-| 5 | Divergência de número mínimo: esta página diz "Número mínimo de alunos para a confirmação da turma: 15". As páginas das turmas dizem 20 (contexto da linha e fichas 707 e 68610). | Confiança | E | Médio | UFAPE (qual número vale e para qual turma) |
-| 6 | Para quem vem de fora: prova presencial só em São Paulo, resultado "via telefone" sem data prevista, prazo de 10 dias úteis para matricular. A página não traz data do resultado. | Objeções (deslocamento) | E (ausência); [CONFIRMAR] | Médio | UFAPE |
+| 5 | Divergência de número mínimo: esta página diz "Número mínimo de alunos para a confirmação da turma: 15". As páginas das turmas dizem 20 (contexto da linha e fichas 707 e 68610). Decisão da Ufape em 26/10/2026 (decisão 11): vale 15, também nas turmas de Pós; o 20 das páginas das turmas é texto a corrigir. | Confiança | E | Médio | SITE (corrigir as páginas das turmas) |
+| 6 | A página diz prova presencial só em São Paulo, mas a prova é online (decisão 11 da Ufape, 26/10/2026): texto a corrigir no site, e a objeção de deslocamento cai. Resultado "via telefone" sem data prevista, prazo de 10 dias úteis para matricular (vale a regra da ficha; se ela se contradiz por dentro, [CONFIRMAR U1]). A página não traz data do resultado nem o acesso à prova online [CONFIRMAR U2]. | Informação que falta | E (ausência); [CONFIRMAR] | Médio | UFAPE e SITE |
 | 7 | Erros e repetição: "intrasferível", regras de celular e documento repetidas duas vezes (no corpo e em CONSIDERAÇÕES), "Valor" como rótulo de uma inscrição. | Confiança | E | Baixo a médio | UFAPE |
 | 8 | Urgência real não explorada: a data (27/11) e as bolsas previstas (11) são fatos da página, mas não aparecem como motivo para agir. Não existe contagem de inscritos nem vagas restantes. | Urgência | E; H | Médio | SQUAD e UFAPE |
 
@@ -297,11 +298,11 @@
 
 **O que a squad escreve**
 
-1. Bloco "Como funciona a prova de bolsa" no topo, em passos curtos: "1. Inscreva-se. 2. Faça a prova presencial no dia indicado nesta página. 3. Receba o resultado pelos canais informados. 4. Se for aprovado, matricule-se dentro do prazo desta página." Os números ficam nos campos de dado da página (data, prazo), não no texto, para seguir a regra da plataforma.
-2. FAQ de bolsa (perguntas escritas pela squad, respostas só depois da confirmação da Ufape): "Para qual turma a bolsa vale?", "O que acontece se eu passar e não receber bolsa?", "O que é a bolsa de monitoria?", "Como as bolsas são distribuídas?", "O que cai na prova?", "Posso fazer a prova e me matricular numa turma de outra cidade?", "E se eu não puder comparecer?". Cada resposta fica [CONFIRMAR] até a Ufape responder.
+1. Bloco "Como funciona a prova de bolsa" no topo, em passos curtos: "1. Inscreva-se. 2. Faça a prova online no dia indicado nesta página, pelo acesso informado [CONFIRMAR U2]. 3. Receba o resultado pelos canais informados. 4. Se for aprovado, matricule-se dentro do prazo desta página." Os números ficam nos campos de dado da página (data, prazo), não no texto, para seguir a regra da plataforma.
+2. FAQ de bolsa (perguntas escritas pela squad, respostas só depois da confirmação da Ufape): "Para qual turma a bolsa vale?", "O que acontece se eu passar e não receber bolsa?", "O que é a bolsa de monitoria?", "Como as bolsas são distribuídas?", "O que cai na prova?", "Posso fazer a prova e me matricular numa turma de outra cidade?", "E se eu não puder fazer a prova no horário?". Cada resposta fica [CONFIRMAR] até a Ufape responder.
 3. Texto do botão e frase de apoio: botão "Inscrever-me na prova de bolsa", frase "Inscrição na prova. O valor e as formas de pagamento estão ao lado. [CONFIRMAR prazo de inscrição]".
 4. Frase de apoio de urgência com fato: "A prova acontece na data indicada nesta página. As bolsas previstas estão na tabela abaixo." Só fatos, sem "últimas vagas".
-5. Orientação para quem vem de outra cidade: "A prova é presencial. Se você mora fora, planeje a viagem com antecedência e só reserve passagem depois de se inscrever. [CONFIRMAR se há opção em outra data ou local]".
+5. Bloco de acesso (decisão 11 da Ufape; a antiga orientação de viagem sai): "A prova é online. Esta é a prova do campus São Paulo. Como acessar: [CONFIRMAR U2]."
 
 **Site ou plataforma nova**
 
@@ -313,7 +314,7 @@
 
 **Ufape**
 
-- Pós de destino de cada prova, regra de distribuição das bolsas, o que a monitoria exige, conteúdo da prova, prazo de inscrição, política de ausência, número mínimo correto (15 ou 20), data do resultado.
+- Pós de destino de cada prova, regra de distribuição das bolsas, o que a monitoria exige, conteúdo da prova, prazo de inscrição, política de ausência, data do resultado, acesso à prova online (U2) e regra que vale onde a ficha se contradiz por dentro (U1). O número mínimo foi fechado em 15 (decisão 11).
 
 ### As 3 principais correções com teste
 
@@ -323,7 +324,7 @@
 - Teste: antes e depois, como as 22 provas são uma campanha única; ou A/B por especialidade (algumas provas com o bloco, outras sem) se houver tráfego suficiente. Métrica primária: inscrições na prova por visitante da página. Proteção: matrículas por inscrito na prova. [CONFIRMAR dados]
 
 **Correção 2: FAQ e regras completas de bolsa (problemas 2, 3 e 5)**
-- O que muda: respostas da Ufape às perguntas do item 2 e correção do número mínimo.
+- O que muda: respostas da Ufape às perguntas do item 2 e correção do número mínimo para 15 nas páginas das turmas (decisão 11).
 - Hipótese [SUPOSIÇÃO]: se as dúvidas sobre o que acontece depois da prova forem respondidas, menos inscritos faltam à prova e mais aprovados se matriculam, porque hoje o aprovado sem bolsa não sabe o que fazer.
 - Teste: antes e depois. Métricas: comparecimento à prova (inscritos contra presentes) e matrículas por aprovado, e perguntas repetidas ao WhatsApp. [CONFIRMAR dados; a Ufape precisa registrar presença e matrícula por prova]
 
@@ -341,10 +342,10 @@
 
 - Bolsa: regra, público elegível e prazo de validade precisam estar claros. Falta o prazo de validade da bolsa e a turma elegível.
 - Percentuais de bolsa: estão na ficha e, desde 26/10, em contexto/pos-graduacao.md (P10 resolvida); a peça pode usá-los como estão no contexto. [CONFIRMAR NO CATÁLOGO]
-- Número mínimo de alunos: 15 nesta página contra 20 nas turmas.
+- Número mínimo de alunos: vale 15, também nas turmas de Pós (decisão 11); as páginas das turmas que dizem 20 precisam de correção.
 - Texto "a bolsa de estudo não é acumulativa e é intrasferível": manter, corrigir a grafia no site.
 - Urgência: "últimas bolsas" ou contagem só com número real de bolsas restantes, que não existe.
-- Prova em dia útil e presencial: a peça de anúncio não pode prometer aprovação ou bolsa garantida.
+- Prova em dia útil e online (decisão 11), com o campus dito na peça: a peça de anúncio não pode prometer aprovação ou bolsa garantida.
 - Dados pessoais de inscritos (resultado por telefone): tratamento no CRM, nunca em análise da squad.
 
 ---
@@ -364,7 +365,7 @@
 
 ### Ordem sugerida de trabalho (para o cmo e o backlog-de-otimizacao)
 
-1. Decisões da Ufape que destravam a conversão: turma de destino de cada prova, regra da 1ª mensalidade, regras de distribuição das bolsas, número mínimo (15 ou 20).
+1. Decisões da Ufape que destravam a conversão: turma de destino de cada prova, regra da 1ª mensalidade, regras de distribuição das bolsas, acesso à prova online (U2). O número mínimo foi fechado em 15 (decisão 11).
 2. Mudanças de site de baixo custo: caminho secundário de WhatsApp e formulário, rótulo do botão da prova, correção de erros, bloco de bolsa ligado à turma.
 3. Texto da squad: hero, FAQ, blocos de confirmação da turma e de passos da prova (itens deste documento), na ordem das ondas.
 4. Mapear eventos no GA4 (clique em COMPRAR, WhatsApp, prova, formulário) antes de qualquer teste. [CONFIRMAR ferramenta]
@@ -375,6 +376,12 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 
 ---
 
+## Mudanças desta versão
+
+- Página 3 (68639): a prova é online e a peça diz o campus (decisão 11); o que a página diz de "presencial", local, documento e celular passa a ser texto a corrigir no site; o bloco de viagem vira bloco de acesso (U2); prazo pela ficha da prova (U1).
+- Página 3 e conformidade: turma mínima de 15, também na Pós (decisão 11); o 20 das páginas das turmas é texto a corrigir.
+- Páginas 1 e 2 e listas: autorização de imagem e citação de docentes registrada (decisões 8 e 10).
+
 ## Fatos (com fonte)
 
 - 707: início 30/10/2026, turma VII, 600 h, 24 módulos, 30x de R$ 1.590,00, total de R$ 47.700,00, matrícula de R$ 250,00, status aberto. Fonte: catálogo, seção 2, e ficha 707.
@@ -383,7 +390,7 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 - 68610: início 28/11/2026, turma V, 500 h, 24 módulos, 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00, coordenação registrada como "UFAPE", 7 módulos presenciais e 17 online (contagem), primeiro presencial no módulo 5 (20 e 21 de março de 2027). Fonte: catálogo e ficha 68610.
 - 68610: contém a frase "reconhecida pelo Ministério da Educação (MEC)" e o cabeçalho "CERTIFICADO PELO MEC". Fonte: ficha 68610.
 - 68610: contém o link "Tem interesse em prestar a prova de bolsa? Clique aqui". Fonte: ficha 68610.
-- 68639: prova em 27/11/2026, 9 às 13h, presencial, São Paulo, R$ 100,00, nota de corte 7,0 (70%), prazo de matrícula de 10 dias úteis, recurso em 2 dias úteis, número mínimo 15, 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Fonte: ficha 68639 e catálogo, seção 3 (data, preço e status).
+- 68639: prova em 27/11/2026, 9 às 13h, presencial na página (decisão 11 da Ufape, 26/10/2026: a prova é online; campus São Paulo), São Paulo, R$ 100,00, nota de corte 7,0 (70%), prazo de matrícula de 10 dias úteis, recurso em 2 dias úteis, número mínimo 15, 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Fonte: ficha 68639 e catálogo, seção 3 (data, preço e status).
 - Faltam 4 dias para 30/10, 33 para 28/11 e 32 para 27/11 (conta a partir de 26/10/2026). 30 dias antes de 28/11 é 29/10.
 - 47.700 mais 250 é igual a 47.950 (conta). 2 mais 4 mais 5 é igual a 11 bolsas (conta).
 - O template pagina-da-turma.md só tem os tipos pos, livre, workshop e simposio, e obriga a seção "formulario". Fonte: templates/pagina-da-turma.md.
@@ -412,6 +419,7 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 - [CONFIRMAR] Número mínimo da turma (15 na página da prova, 20 nas páginas de curso).
 - [CONFIRMAR] Duração do curso em anos, para o campo do banco.
 - [CONFIRMAR] Texto de certificação aprovado pela regulação.
-- [CONFIRMAR autorização] Depoimentos, vídeo e imagem de docentes.
+- [CONFIRMAR autorização] Depoimentos e vídeo de alunos. Imagem e citação de docentes: registrada em 26/10/2026 (decisões 8 e 10).
+- [CONFIRMAR U2] Acesso à prova online e o que vale das regras de documento e de celular.
 - [CONFIRMAR] Se os mutirões de Oftalmologia acontecem na Ufape Clínica.
 - [CONFIRMAR] Quem aprova páginas e preços, metas de conversão e verba.

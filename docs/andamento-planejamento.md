@@ -149,3 +149,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | anuncios-linkedin-pos e anuncios-tiktok-pos v2 (LI-Q1, LI-Q2, TK-Q1, TK-Q2) |
 | 26/10/2026 | campanhas-de-nutricao pos, livres e eventos v2 (ajustes do qa do lote D) |
 | 26/10/2026 | anuncios-meta pos, livres, eventos e anuncios-google pos, livres v2 (AGP-Q1 resolvido; título das provas "Inscrição na prova: R$ 100,00") |
+| 26/10/2026 | Varredura de coerência: 18 saídas antigas atualizadas com as decisões 7 a 13 e a seção 12 do cmo (prova online com campus, turma mínima 15, nome oficial do workshop, autorização para todos, datas da planilha, 623, UTM D11 e D12, frase D13). Turma mínima do exemplo JSON 707 do arquiteto corrigida para 15 pelo orquestrador |

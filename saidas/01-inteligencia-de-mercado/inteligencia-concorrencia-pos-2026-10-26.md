@@ -3,6 +3,7 @@
 - Agente: inteligencia-concorrencia (etapa 1.2 da camada 1)
 - Linha: pos
 - Data: 26/10/2026 (coleta feita na mesma data)
+- Versão: 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho para auditoria do qa-de-marketing (01-qualidade-de-pesquisa e conformidade-educacional). Nada é publicado, enviado ou pago.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -168,7 +169,7 @@ Escala de intensidade: Alta (2 ou mais concorrentes nomeados com oferta ou edita
 ### A12. Neurologia
 
 - Disputa: a pesquisa 1.1 (S17) registra neurologia na lista da Anclivepa; não reconfirmei hoje.
-- Ufape: Neurologia e Neurocirurgia IX (68616), 677 (Neurocirurgia e Neuro-oncologia, I, R$ 48.780,00, maior valor do catálogo) e 701 em andamento; simpósio de 20/11 (linha Eventos).
+- Ufape: Neurologia e Neurocirurgia IX (68616), 677 (Neurocirurgia e Neuro-oncologia, I, R$ 48.780,00, maior valor do catálogo) e 701 em andamento; Workshop Brasileiro de Neuromonitorização de 20 e 21/11 (linha Eventos).
 - Leitura: disputa em neurologia geral; em Neurocirurgia e Neuro-oncologia nenhum concorrente nomeado.
 
 ### A13. Medicina felina
@@ -198,9 +199,9 @@ Cada ângulo traz a prova que existe hoje, a prova que falta e o risco de o conc
 | # | Ângulo | Prova que sustenta (fonte) | Prova que falta | Risco |
 |---|---|---|---|---|
 | 1 | Hospital veterinário próprio como sala de aula | Ufape Clínica, usada em aulas práticas, estágios e aprimoramento (contexto/ufape-geral.md). Cursos com módulos práticos obrigatórios (contexto/pos-graduacao.md) | Horas práticas por curso, tipo de caso, estrutura (como no catálogo e fichas) e fotos autorizadas [CONFIRMAR] | Alto: a Anclivepa-SP mantém clínica própria com página de pós-graduação e a Qualittas relançou clínica. Não pode ser dito como exclusivo |
-| 2 | Docentes que atuam na rotina clínica, com mestres e doutores | Currículos nas páginas de curso (contexto/ufape-geral.md; fichas) | Autorização de imagem e nome por docente [CONFIRMAR autorização]; contagem de docentes por curso já existe em fichas (pesquisa 1.1) | Médio: concorrentes também têm docentes de rotina |
+| 2 | Docentes que atuam na rotina clínica, com mestres e doutores | Currículos nas páginas de curso (contexto/ufape-geral.md; fichas) | Autorização de imagem e citação de todos os docentes registrada pela Ufape em 26/10/2026 (decisões 8 e 10); falta só a lista de nomes e titulações como estão nas fichas; contagem de docentes por curso já existe em fichas (pesquisa 1.1) | Médio: concorrentes também têm docentes de rotina |
 | 3 | Tradição de turmas | Turmas numeradas no catálogo: Cardiologia XI (68605), Terapia Intensiva e Emergência XI (666), Anestesiologia X (68607), Gastroenterologia IX (68606), Hematologia VIII (68608) | Se pode ser usado como prova [CONFIRMAR] (contexto/ufape-geral.md); número de egressos: sem fonte | Médio: concorrentes com anos de oferta (Qualittas com cardiologia desde 2014 em página antiga) |
-| 4 | Prova de bolsa de R$ 100,00, com 11 bolsas por prova | Regras publicadas nas páginas das 22 provas de 27/11/2026: 11 bolsas (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para matrícula (contexto/pos-graduacao.md) | Turma de destino de cada prova (4 sem turma futura: 68652, 68649, 68653, 68655); mínimo de turma 15 ou 20 [CONFIRMAR] | Médio: a Anclivepa dá bolsa de 50% para quem passar de 75% (sem número de bolsas); a Ufape tem só 2 de 50% por prova. Falar em quantidade de bolsas e custo de entrada, não em percentual |
+| 4 | Prova de bolsa de R$ 100,00, com 11 bolsas por prova | Regras publicadas nas páginas das 22 provas de 27/11/2026: 11 bolsas (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para matrícula (contexto/pos-graduacao.md). Provas online, com a regra escrita na ficha de cada prova e o campus dito na peça; turma mínima de 15 alunos (decisão 11 da Ufape, 26/10/2026) | Turma de destino de cada prova (4 sem turma futura: 68652, 68649, 68653, 68655); regra das fichas que se contradizem por dentro [CONFIRMAR U1] | Médio: a Anclivepa dá bolsa de 50% para quem passar de 75% (sem número de bolsas); a Ufape tem só 2 de 50% por prova. Falar em quantidade de bolsas e custo de entrada, não em percentual |
 | 5 | Goiânia presencial | 4 turmas abertas em Goiânia (289, 68632, 68609, 68623) e 3 provas em Goiânia (catálogo, seção 3) | Prova de que não há concorrente presencial na praça: busca não achou, mas é limitada | Baixo, a confirmar |
 | 6 | Trilha da própria Ufape (livres, aprimoramento, pós) | Livres e aprimoramentos no catálogo; edital de aprimoramento de Terapia Intensiva (julho de 2026) | Regra de desconto para aluno e ex-aluno [PREENCHER] | Baixo |
 | 7 | Transparência sobre turma mínima e confirmação da turma | Regra da linha (contexto/pos-graduacao.md) | Número real de vagas e de matrículas: [CONFIRMAR] | Baixo; evita "últimas vagas" sem número |
@@ -225,6 +226,12 @@ Cada ângulo traz a prova que existe hoje, a prova que falta e o risco de o conc
 11. Nenhuma peça deve citar preço de concorrente sem o print ou a URL e a data de coleta registrados nesta tabela.
 
 ---
+
+## Mudanças desta versão
+
+- A12: o evento de 20 e 21/11 passa a ser chamado pelo nome oficial, Workshop Brasileiro de Neuromonitorização (decisão 7).
+- Ângulo 2 e Lista 3: autorização de imagem e citação de docentes registrada (decisões 8 e 10); sai a marca [CONFIRMAR autorização].
+- Ângulo 4 e Lista 3: provas online com a regra da ficha de cada prova e campus na peça; turma mínima de 15 (decisão 11); sai a dúvida "15 ou 20" e entra U1.
 
 ## Lista 1. Fatos com fonte
 
@@ -275,9 +282,8 @@ Ufape (catálogo de 26/10/2026 e contextos):
 - [CONFIRMAR] Valor da Unicruz (R$ 8.899,00 a R$ 10.056,00) no edital 05/2026.
 - [CONFIRMAR] Nova turma da UFPA com FADESP depois de 04/05/2026 e o nome Impulsione VET.
 - [CONFIRMAR] Congresso da Anclivepa de 2026: data e local.
-- [CONFIRMAR] Mínimo de turma na Ufape (15 ou 20) e turma de destino das provas 68652, 68649, 68653 e 68655.
+- [CONFIRMAR] Turma de destino das provas 68652, 68649, 68653 e 68655.
 - [PREENCHER] Regra de desconto para aluno e ex-aluno; texto de certificação aprovado pela regulação.
-- [CONFIRMAR autorização] Docentes citados em peças.
 - Sem fonte: posicionamento por escrito (mensagem central) de cada concorrente em página inicial; usei só títulos de páginas e imprensa. Frases de homepage, três páginas de curso por concorrente e campanhas (vestibular, bolsas, descontos) com URL e data: pendentes de acesso direto às páginas.
 
 ---

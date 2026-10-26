@@ -3,6 +3,7 @@
 - Agente: briefing-de-conteudo (departamento 04, Conteúdo), etapa 2.7 da camada 2
 - Linha: pos
 - Data: 26/10/2026 (segunda-feira)
+- Versão: 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho para o qa-de-marketing (auditoria 04-qualidade-de-conteudo e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago. Toda publicação e toda mudança em página do site é pedido de aprovação humana.
 - Templates usados: templates/briefing-de-conteudo.md (campos na ordem dele) com os campos de templates/briefing-seo.md embutidos, pela skill .claude/skills/briefing-seo/SKILL.md. Os campos pedidos pela rodada (objetivo e métrica, persona e intenção, perguntas de IA, o que nunca dizer, campos [CONFIRMAR]) entram no mesmo bloco de cada peça.
 - Entradas lidas:
@@ -20,7 +21,7 @@
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - Fichas: contexto/cursos/pos/68610, 707, 68604, 68606, 68608, 698, 289, 68615, 333, 68629 e 68646; contexto/cursos/livres/573 (só o cabeçalho e a programação)
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web. Por isso o item "o que os primeiros resultados deixam de fora" de cada briefing herda a leitura das lacunas e da pesquisa de palavras-chave (resumos de busca de 26/10/2026) e pede a leitura dos primeiros resultados pelo conteudo-longo antes de escrever.
-- Dados pessoais: nenhum. Nenhum docente é nomeado: cada briefing indica o papel (coordenação, professores listados, titulação como na ficha) e marca [CONFIRMAR autorização].
+- Dados pessoais: nenhum. Nenhum docente é nomeado: cada briefing indica o papel (coordenação, professores listados, titulação como na ficha). A autorização de imagem e citação de docentes está registrada (decisões 8 e 10 da Ufape, 26/10/2026).
 
 ---
 
@@ -35,7 +36,7 @@ Cada briefing abaixo remete a esta seção. O que é específico da peça está 
 - Contexto da linha (contexto/pos-graduacao.md): formato típico, turma mínima de 20, orientação de passagem e hotel, regras da prova de bolsa (lidas das páginas das provas em 26/10/2026).
 - Posicionamento e guia de marca: voz, atributos com prova e o que nunca afirmar.
 - Exige revisão: [REVISÃO DOCENTE] para qualquer afirmação clínica (diagnóstico, conduta, indicação, exame); [REVISÃO REGULAÇÃO] para título de especialista, residência, certificado, exigência legal. A squad não escreve dose, protocolo nem conduta.
-- Docentes e coordenação: só nome e titulação exatamente como na ficha, só com autorização registrada [CONFIRMAR autorização]. Sem "renomados", "referências nacionais" nem "maiores especialistas". Revisor docente: [CONFIRMAR nome].
+- Docentes e coordenação: só nome e titulação exatamente como na ficha (autorização de imagem e citação registrada em 26/10/2026, decisões 8 e 10). Sem "renomados", "referências nacionais" nem "maiores especialistas". Revisor docente: [CONFIRMAR nome].
 
 ### 0.2 O que nunca dizer (todas as peças)
 
@@ -88,7 +89,7 @@ Sem GA4 confirmado e sem meta numérica (nenhuma existe hoje: [CONFIRMAR meta]).
 **Persona e intenção:** P4 (candidato à prova de bolsa, porta de entrada), P3 (recém-formado, que só faria com bolsa) e P1 [SUPOSIÇÃO: personas herdadas da pesquisa-de-persona]. Intenção: resolver e matricular. Momento da decisão: já sabe que quer especializar e testa a decisão gastando pouco.
 
 **Leitor (candidato e momento da decisão):** médica ou médico veterinário que considera uma pós e quer saber, antes de pagar a inscrição, quantas bolsas existem, quanto cada uma desconta, como é a prova e o que acontece depois.
-**Problema:** as regras estão espalhadas em 22 páginas de prova, e em alguns pontos se contradizem (canal do resultado, prazo de matrícula, turma mínima). Quem decide não consegue ver tudo de uma vez.
+**Problema:** as regras estão espalhadas em 22 páginas de prova, e em alguns pontos se contradizem (canal do resultado, prazo de matrícula). A turma mínima foi fechada em 15 alunos pela decisão 11 da Ufape (26/10/2026). Quem decide não consegue ver tudo de uma vez.
 **Mensagem principal:** "Com R$ 100,00 você disputa uma das 11 bolsas da sua especialidade, e as regras completas estão aqui antes de você se inscrever."
 **Ângulo:** transparência de regra (atributo A3 do posicionamento): a distribuição completa das bolsas, a nota de corte e os prazos, sem "até 50%". Ordem do hub: regra primeiro, especialidade depois.
 
@@ -103,29 +104,29 @@ Sem GA4 confirmado e sem meta numérica (nenhuma existe hoje: [CONFIRMAR meta]).
 **Pergunta do candidato:** "Como funciona a prova de bolsa da Ufape e quantas bolsas tem?" (QT4, 58 pontos).
 
 **Perguntas que a peça responde**
-- Do candidato: quando e onde é; quanto custa; quantas bolsas e de quantos por cento; qual a nota de corte; como é a prova; o que levar; quando sai o resultado; como recorrer; quanto tempo para matricular; para qual turma vale a bolsa; a bolsa pode ser transferida; e se a turma não fechar.
+- Do candidato: quando é, de qual campus é a prova e como é o acesso online; quanto custa; quantas bolsas e de quantos por cento; qual a nota de corte; como é a prova; o que vale das regras de documento e de celular na prova online; quando sai o resultado; como recorrer; quanto tempo para matricular; para qual turma vale a bolsa; a bolsa pode ser transferida; e se a turma não fechar.
 - Feitas a assistentes de IA (da pesquisa de palavras-chave): QT4 "Como funciona a prova de bolsa da Ufape e quantas bolsas tem?"; QT9 "A pós da Ufape tem prova de bolsa? Qual é a inscrição?"; Q1.6, Q2.6, Q5.6, Q6.6, Q8.5 e Q11.6 (a mesma pergunta por área); Q7.4 e Q13.2 "Se eu passar na prova, para qual turma vale a bolsa?" (sem resposta até a Ufape decidir, risco de reclamação).
 
 **O que os primeiros resultados deixam de fora:** a busca de 26/10/2026 mostrou, para prova de bolsa, o edital de concorrente com inscrição até 07/11/2026 e matérias de agregadores. [SUPOSIÇÃO] Não mostram numa página só: distribuição completa de bolsas por percentual, nota de corte, prazo de recurso e de matrícula, desempate e preço por prova da Ufape. O conteudo-longo confirma lendo os primeiros resultados antes de escrever [CONFIRMAR].
 
 **Bloco de resposta citável (54 palavras):**
-"A prova de bolsa de estudos da Pós-graduação da Faculdade UFAPE acontece em 27/11/2026, em São Paulo e em Goiânia, com inscrição de R$ 100,00. Cada prova oferece 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é acumulativa nem transferível."
+"A prova de bolsa de estudos da Pós-graduação da Faculdade UFAPE acontece em 27/11/2026, online, com provas para o campus São Paulo e para o campus Goiânia, e inscrição de R$ 100,00. Cada prova oferece 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é acumulativa nem transferível."
 Data e preço: catálogo, seção 3. Bolsas, nota de corte e regras: contexto da linha e fichas das provas [CONFIRMAR NO CATÁLOGO].
 
-**Entidades a citar:** Faculdade UFAPE; "Pós-graduação em <área>"; prova de bolsa de estudos; monitoria; nota de corte; São Paulo e Goiânia; endereço da sede (Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista); os nomes das 19 especialidades com prova aberta.
+**Entidades a citar:** Faculdade UFAPE; "Pós-graduação em <área>"; prova de bolsa de estudos; monitoria; nota de corte; campus São Paulo e campus Goiânia (sem endereço: a prova é online, decisão 11); os nomes das 19 especialidades com prova aberta.
 
 **Estrutura (H1, H2, H3) e o que cada seção prova**
 
 | Nível | Título de trabalho | O que a seção prova |
 |---|---|---|
 | H1 | Prova de bolsa de estudos da Pós-graduação da Faculdade UFAPE: 27/11/2026 | Data, preço e distribuição de bolsas no topo, com o bloco citável |
-| H2 | A prova em uma tabela | Data, horário (9h às 13h, ficha 68646), formato presencial, cidades, inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x no cartão. Prova: catálogo e ficha |
+| H2 | A prova em uma tabela | Data, horário (9h às 13h, ficha 68646), formato online (decisão 11 da Ufape), campus de cada prova (São Paulo ou Goiânia), inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x no cartão. Prova: catálogo e ficha |
 | H2 | As 11 bolsas de cada prova | Tabela 2 de 50% (monitoria), 4 de 25%, 5 de 10%. Prova de transparência contra "até 50%" |
 | H2 | Nota de corte e desempate | Nota de corte 7,0 (70% de acerto); desempate por análise de currículo (ficha) |
 | H2 | Como se inscrever | Passo a passo e link de cada prova com UTM |
-| H2 | O que levar e o que não levar | Documento com foto; sem celular e relógio (ficha) [CONFIRMAR NO CATÁLOGO] |
-| H2 | Depois da prova: resultado, recurso e matrícula | Recurso em 2 dias úteis; matrícula em até 10 dias úteis; canal do resultado e data [CONFIRMAR]; bolsa não acumulativa e intransferível |
-| H2 | Provas por especialidade | Um H3 por área (lista abaixo): nome da prova, cidade, código, link. Sem turma de destino até a Ufape confirmar |
+| H2 | Como acessar a prova online | Plataforma, acesso e o que vale das regras de documento com foto e de celular das fichas: [CONFIRMAR U2]. Nenhuma regra de prova presencial (decisão 11) |
+| H2 | Depois da prova: resultado, recurso e matrícula | Recurso em 2 dias úteis; matrícula pelo prazo da ficha de cada prova (10 dias úteis; onde a ficha também cita 7, [CONFIRMAR U1]); canal do resultado e data [CONFIRMAR]; bolsa não acumulativa e intransferível |
+| H2 | Provas por especialidade | Um H3 por área (lista abaixo): nome da prova, campus, código, link. Sem turma de destino até a Ufape confirmar |
 | H3 | Anestesiologia, Cardiologia, Clínica Cirúrgica, Clínica Médica e Emergência, Dermatologia, Diagnóstico por Imagem, Endocrinologia, Endoscopia, Gastroenterologia, Hematologia, Medicina de Felinos, Nefrologia e Urologia, Neurologia e Neurocirurgia, Odontologia, Oncologia, Patologia Clínica, Pneumologia, Terapia Intensiva, Ultrassonografia | Cada H3 prova que a prova existe, com código do catálogo (68639 a 68661, menos 68656). Goiânia: 68640, 68642 e 68644. Cardiologia (68641 e 68642) e 68656 ficam fora até a correção |
 | H2 | Perguntas frequentes | As 8 perguntas do FAQ abaixo, em texto simples |
 | H2 | Veja as turmas abertas | Liga para a listagem de turmas e para as páginas de curso com status "aberto" |
@@ -135,13 +136,13 @@ Regras de montagem: o hub não indica turma de destino de nenhuma prova antes da
 **Provas e exemplos a incluir:** tabela de bolsas; tabela de provas por especialidade com código; exemplo do passo a passo; contato da secretaria para dúvidas ((11) 97492-8443 por WhatsApp, de segunda a sexta, das 9h às 18h, contexto geral). Nenhum depoimento, nenhum docente.
 
 **Perguntas frequentes (com resposta curta)**
-1. Quando e onde é a prova? Em 27/11/2026, presencial, em São Paulo e em Goiânia. Horário das fichas: 9h às 13h [CONFIRMAR NO CATÁLOGO]. Local de Goiânia: [CONFIRMAR].
+1. Quando é e como é feita a prova? Em 27/11/2026, online (decisão 11 da Ufape). Cada prova é de um campus, São Paulo ou Goiânia, e a resposta diz qual. Horário das fichas: 9h às 13h; plataforma e acesso: [CONFIRMAR U2].
 2. Quanto custa a inscrição? R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão (catálogo).
 3. Quantas bolsas há e de quanto? 11 por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10% [CONFIRMAR NO CATÁLOGO].
 4. Como é a prova e qual a nota de corte? Questões de múltipla escolha e dissertativas; nota de corte 7,0 (mínimo de 70% de acerto) [CONFIRMAR NO CATÁLOGO].
-5. O que acontece depois do resultado? Recurso em 2 dias úteis; matrícula em até 10 dias úteis (uma ficha cita 7: [CONFIRMAR]); bolsa não acumulativa e intransferível.
+5. O que acontece depois do resultado? Recurso em 2 dias úteis; matrícula pelo prazo da ficha de cada prova (onde a ficha cita 10 e 7: [CONFIRMAR U1]); bolsa não acumulativa e intransferível.
 6. Para qual turma vale a bolsa? [CONFIRMAR]. Sem resposta publicada até a Ufape definir o destino de cada prova.
-7. E se a turma não fechar? Turma mínima de 20 nas páginas de curso e de 15 na página da prova: [CONFIRMAR]. Orientação: comprar passagem e hotel só depois da confirmação da turma (contexto da linha). Reembolso da inscrição da prova nesse caso: [CONFIRMAR].
+7. E se a turma não fechar? Turma mínima de 15 alunos (decisão 11 da Ufape; as páginas de curso ainda dizem 20, texto a corrigir no site). Orientação: comprar passagem e hotel só depois da confirmação da turma (contexto da linha). Reembolso da inscrição da prova nesse caso: [CONFIRMAR].
 8. Quando sai o resultado e por qual canal? [CONFIRMAR] (as fichas dizem WhatsApp e/ou e-mail; uma diz também "no site").
 
 **Prova necessária:** dado do catálogo (data, preço, códigos) e regras confirmadas pela Ufape. Marcação de dados estruturados de FAQ e links de curso pelo seo-on-page (skill schema-de-curso para os cursos ligados) [SUPOSIÇÃO: marcação de FAQ].
@@ -162,7 +163,7 @@ Título de página sugerido: Prova de bolsa da Pós-graduação | Faculdade UFAP
 
 **Fontes:** catálogo, seção 3; contexto/pos-graduacao.md (oferta, prova de bolsa); fichas das provas (68646 lida como modelo; as demais seguem o mesmo padrão [SUPOSIÇÃO]); pesquisa-de-palavras-chave seção 3 (KT14, KT18, KT19, QT4, QT9); lacunas T1; estrategia-de-conteudo C01.
 
-**Campos que precisam de [CONFIRMAR]:** canal e data do resultado; prazo de matrícula (10 ou 7 dias úteis); turma mínima (15 ou 20); turma de destino de cada prova (e se 68646 vale para 68610 e 68651 para 68608); horário, local e o que levar em cada cidade, em especial Goiânia; público elegível; reembolso da inscrição da prova; regras das bolsas no catálogo; status e correção de 68656, 68641 e 68642; pergunta de origem no formulário (M2).
+**Campos que precisam de [CONFIRMAR]:** canal e data do resultado; prazo de matrícula onde a ficha diz 10 e 7 dias úteis (U1); turma de destino de cada prova (e se 68646 vale para 68610 e 68651 para 68608); acesso à prova online, horário e regras de documento e de celular (U2); público elegível; reembolso da inscrição da prova; regras das bolsas no catálogo; status e correção de 68656, 68641 e 68642; pergunta de origem no formulário (M2).
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] As contradições entre fichas estão resolvidas pela Ufape, ou o plano B foi aplicado.
@@ -205,7 +206,7 @@ Título de página sugerido: Prova de bolsa da Pós-graduação | Faculdade UFAP
 **O que os primeiros resultados deixam de fora:** [SUPOSIÇÃO, a confirmar na leitura] páginas de agregadores e de faculdades descrevem "híbrido" em geral; não mostram um cronograma real mês a mês, o que é presencial por módulo, a regra de passagem e a turma mínima. A lacuna T7 registra que a Ufape tem o cronograma na página de produto, sem explicação.
 
 **Bloco de resposta citável (57 palavras):**
-"Na Pós-graduação semipresencial da Faculdade UFAPE, a teoria é online, ao vivo e gravada, e a prática acontece em módulos presenciais, em fins de semana marcados no cronograma. A avaliação é uma prova mensal online com 5 questões. A turma abre com no mínimo 20 alunos, e passagem e hotel só se compram com a turma confirmada."
+"Na Pós-graduação semipresencial da Faculdade UFAPE, a teoria é online, ao vivo e gravada, e a prática acontece em módulos presenciais, em fins de semana marcados no cronograma. A avaliação é uma prova mensal online com 5 questões. A turma abre com no mínimo 15 alunos, e passagem e hotel só se compram com a turma confirmada." (turma mínima de 15 pela decisão 11 da Ufape; as fichas dizem 20, texto a corrigir no site)
 Fontes: contexto da linha e fichas [CONFIRMAR NO CATÁLOGO]. Observação: a ficha diz "uma semana antes do início ou com a turma fechada"; o texto final segue a redação que a Ufape confirmar.
 
 **Entidades a citar:** Faculdade UFAPE; semipresencial; módulo presencial; aula online ao vivo e gravada; cronograma; turma mínima; sede na Av. 9 de Julho, 3939; Goiânia (4 turmas); nomes de curso como exemplo.
@@ -238,7 +239,7 @@ Reposição de módulo e falta ficam fora da peça até a Ufape responder (estra
 3. Como é a avaliação? Prova mensal online com 5 questões e prova de recuperação no fim, que pode ser substituída por estudo dirigido.
 4. Quando pago a primeira mensalidade? Com 30 dias de antecedência do início, segundo as fichas [CONFIRMAR NO CATÁLOGO]; matrícula à vista (Pix ou boleto) ou 1x no cartão.
 5. Quando compro passagem e hotel? Só depois da confirmação da turma (contexto); a ficha cita também "uma semana antes do início" [CONFIRMAR].
-6. A turma pode não abrir? Sim: o mínimo é de 20 alunos; sem confirmação, os valores de inscrição são devolvidos (fichas) [CONFIRMAR o que entra na devolução].
+6. A turma pode não abrir? Sim: o mínimo é de 15 alunos (decisão 11 da Ufape); sem confirmação, os valores de inscrição são devolvidos (fichas) [CONFIRMAR o que entra na devolução].
 
 **Prova necessária:** cronograma da ficha da turma citado e conferido; condições da ficha confirmadas; nenhuma afirmação clínica.
 
@@ -328,7 +329,7 @@ Título de página sugerido: Pós-graduação semipresencial: como funciona | Fa
 **Perguntas frequentes (com resposta curta)**
 1. Pós EAD ou semipresencial: qual vale mais? Depende do que você precisa praticar; a peça lista perguntas para qualquer curso. Fato Ufape: nenhuma turma EAD aberta.
 2. Quanto custa uma pós em Medicina Veterinária? Cada curso tem parcelas, valor da parcela, total e matrícula próprios (catálogo); o total das turmas abertas da Ufape vai de R$ 12.000,00 a R$ 48.400,00 (catálogo).
-3. O que é turma mínima? Número de alunos para a turma abrir; na Ufape, 20 nas páginas de curso [CONFIRMAR 15 ou 20 na prova].
+3. O que é turma mínima? Número de alunos para a turma abrir; na Ufape, 15 alunos, também na Pós (decisão 11 da Ufape; as páginas de curso ainda dizem 20, texto a corrigir no site).
 4. Vale a pena fazer prova de bolsa? Ela reduz o valor se você for aprovado; as 11 bolsas e as regras estão no hub (C01).
 5. Como saber se o curso é bem regularizado? Peça por escrito à secretaria; texto aprovado: [CONFIRMAR texto da regulação].
 6. Preciso viajar todo mês? Depende dos módulos presenciais do curso; ver C03.
@@ -351,7 +352,7 @@ Título de página sugerido: Como escolher uma pós-graduação em Veterinária 
 
 **Fontes:** lacunas T4 e T5; pesquisa de palavras-chave KT2, KT3, KT5, KT7, KT12; posicionamento (atributos A2, A3, A4, A8); fichas 68610; catálogo seções 2 e 3; estrategia-de-conteudo C08.
 
-**Campos que precisam de [CONFIRMAR]:** módulos presenciais e horas práticas por curso; regra de devolução e confirmação da turma; mínimo 15 ou 20; existência da página de listagem; texto de regulação para o critério legal; confirmação de que a faixa de totais (R$ 12.000,00 a R$ 48.400,00) é a das turmas abertas no dia da publicação.
+**Campos que precisam de [CONFIRMAR]:** módulos presenciais e horas práticas por curso; regra de devolução e confirmação da turma; existência da página de listagem; texto de regulação para o critério legal; confirmação de que a faixa de totais (R$ 12.000,00 a R$ 48.400,00) é a das turmas abertas no dia da publicação.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] [REVISÃO REGULAÇÃO] feita ou a seção legal removida.
@@ -409,12 +410,12 @@ Dados: catálogo (68610). "Módulos práticos presenciais": ficha [CONFIRMAR NO 
 | H2 | Se você procura EAD | Fato: a Ufape não tem turma EAD aberta (catálogo). Lista de 5 perguntas para fazer a qualquer curso EAD (há módulo presencial? quem supervisiona a prática? quantas horas práticas? quem coleta o material? quando se paga?). Sem afirmação sobre cursos de outras instituições |
 | H2 | Se você procura presencial integral | Fato: a turma de Dermatologia da Ufape é semipresencial; presencial integral só existe em Clínica Cirúrgica em Goiânia (catálogo). Sem promessa |
 | H2 | Investimento e condições | Tabela: 30x de R$ 1.000,00, total de R$ 30.000,00 (cartão ou boleto), matrícula de R$ 250,00 à vista (Pix ou boleto) ou 1x no cartão; 1ª mensalidade 30 dias antes do início; turma mínima de 20; passagem só com a turma confirmada. Sem comparar preço |
-| H2 | Prova de bolsa de Dermatologia | Prova 68646 em 27/11/2026, presencial em São Paulo, R$ 100,00; 11 bolsas (2 de 50%, 4 de 25%, 5 de 10%). Link para o hub C01. A peça não liga a prova à turma 68610 até a Ufape confirmar |
-| H2 | Quem ensina | Ficha 68610: 18 professores listados, com titulações Dr., Dra., MSc. e Esp.; coordenação listada como "UFAPE" (sem nome). Sem nome e sem prova de autoridade individual. Se a Ufape indicar coordenação nomeada: nome e titulação da ficha [CONFIRMAR autorização] |
+| H2 | Prova de bolsa de Dermatologia | Prova 68646 em 27/11/2026, online, do campus São Paulo (decisão 11), R$ 100,00; 11 bolsas (2 de 50%, 4 de 25%, 5 de 10%). Link para o hub C01. A peça não liga a prova à turma 68610 até a Ufape confirmar |
+| H2 | Quem ensina | Ficha 68610: 18 professores listados, com titulações Dr., Dra., MSc. e Esp.; coordenação listada como "UFAPE" (sem nome). Sem nome e sem prova de autoridade individual. Se a Ufape indicar coordenação nomeada: nome e titulação da ficha (autorização registrada, decisões 8 e 10) |
 | H2 | Perguntas frequentes | 6 perguntas abaixo |
 | H2 | Veja a turma de Dermatologia | Chamada |
 
-**Provas e exemplos a incluir:** tabela dos 7 módulos presenciais; tabela de investimento; contagem de professores e titulações da ficha. Fala de docente só se houver autorização e revisor: não é necessária para publicar.
+**Provas e exemplos a incluir:** tabela dos 7 módulos presenciais; tabela de investimento; contagem de professores e titulações da ficha. Fala de docente só com revisor (a autorização está registrada, decisões 8 e 10): não é necessária para publicar.
 
 **Perguntas frequentes (com resposta curta)**
 1. A pós em Dermatologia da Ufape é EAD? Não: é semipresencial, e a Ufape não tem turma EAD aberta (catálogo).
@@ -427,7 +428,7 @@ Dados: catálogo (68610). "Módulos práticos presenciais": ficha [CONFIRMAR NO 
 **Prova necessária:** cronograma da ficha conferido; dados do catálogo; marcação de dados estruturados do curso (skill schema-de-curso) na página de destino.
 
 **Links internos de entrada:** C11 (Reel do cronograma), C10 e C12 (se citarem Dermatologia), hub C01, FAQ padrão, C03, C08.
-**Links internos de saída:** página do curso 68610 (obrigatório), prova 68646 e hub C01, C16 (guia de Laboratório, ponte com citologia: o módulo 4 da ficha trata de dermatocitologia), livre contínuo 463 só por link e com a frase de que curso livre não confere diploma nem equivale a pós-graduação (status do 463 [CONFIRMAR NO CATÁLOGO] antes de linkar).
+**Links internos de saída:** página do curso 68610 (obrigatório), prova 68646 e hub C01, C16 (guia de Laboratório, ponte com citologia: o módulo 4 da ficha trata de dermatocitologia), livre contínuo 463 só por link e com a frase única do curso livre (D13 do cmo): "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (status do 463 [CONFIRMAR NO CATÁLOGO] antes de linkar).
 
 **Chamada para ação e destino:** "Veja a turma de Dermatologia" para a página de 68610 (UTM C09). Sinalizar: a ficha de 68610 traz "reconhecida pelo Ministério da Educação" e "CERTIFICADO PELO MEC" na página de destino; a peça não repete.
 
@@ -444,7 +445,7 @@ Título de página sugerido: Pós-graduação em Dermatologia Veterinária | Fac
 
 **Fontes:** catálogo 68610 e 68646; ficha 68610 (cronograma, condições, professores) e ficha 68646 (regras da prova); lacunas A8; pesquisa de palavras-chave A8 (K8.1 a K8.9, Q8.1 a Q8.6); posicionamento A2 e A8; estrategia-de-conteudo C09 e C11.
 
-**Campos que precisam de [CONFIRMAR]:** cronograma e módulos presenciais (catálogo); local da prática; "Atendimento de Casos Clínicos" e horas práticas; política de entrada e encerramento de inscrições; se a prova 68646 vale para 68610; regra da 1ª mensalidade; coordenação nomeada e autorização; mínimo 15 ou 20; status do livre 463.
+**Campos que precisam de [CONFIRMAR]:** cronograma e módulos presenciais (catálogo); local da prática; "Atendimento de Casos Clínicos" e horas práticas; política de entrada e encerramento de inscrições; se a prova 68646 vale para 68610; regra da 1ª mensalidade; coordenação nomeada; status do livre 463.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] A turma e a prova não estão ligadas sem confirmação.
@@ -504,13 +505,13 @@ Dados de preço e carga: catálogo. Microscópio individual e supervisão: ficha
 | H3 | Atendimentos clínicos supervisionados | Ficha: mutirões com equipamentos oftalmológicos. Quem atende nos mutirões e com que frequência: [CONFIRMAR] |
 | H2 | Os módulos presenciais, um a um | Tabela com os 10 módulos presenciais ou práticos da ficha (4, 6, 8, 11, 14, 17, 19, 21, 22 e 24), data e tema. Todos de 3 dias [CONFIRMAR NO CATÁLOGO] |
 | H2 | Como são as aulas e os horários | Teoria online ao vivo e gravada; horários da ficha (sexta 14h às 20h, sábado 8h às 17h30, domingo 8h às 12h); práticas não transmitidas |
-| H2 | Turma mínima, passagem e hospedagem | 20 alunos; comprar passagem e hotel só com a turma confirmada; devolução da inscrição se a turma não for confirmada (fichas) [CONFIRMAR] |
-| H2 | Quem coordena e quem ensina | Ficha 707: 3 pessoas na coordenação (titulações Dra. e MSc.) e 19 professores e palestrantes convidados listados. Fonte de autoridade docente em potencial: a coordenação, em aula aberta ou fala curta, só com autorização registrada e revisão [CONFIRMAR autorização]. Sem nomes neste briefing e sem "referências" |
+| H2 | Turma mínima, passagem e hospedagem | 15 alunos (decisão 11 da Ufape; a ficha diz 20, texto a corrigir no site); comprar passagem e hotel só com a turma confirmada; devolução da inscrição se a turma não for confirmada (fichas) [CONFIRMAR] |
+| H2 | Quem coordena e quem ensina | Ficha 707: 3 pessoas na coordenação (titulações Dra. e MSc.) e 19 professores e palestrantes convidados listados. Fonte de autoridade docente em potencial: a coordenação, em aula aberta ou fala curta, com revisão (autorização registrada, decisões 8 e 10). Sem nomes neste briefing e sem "referências" |
 | H2 | Tem prova de bolsa? | Resposta honesta: não há prova de bolsa de Oftalmologia aberta em 27/11/2026 [CONFIRMAR NO CATÁLOGO: a prova 68656 está fora do ar] |
 | H2 | Perguntas frequentes | 6 perguntas abaixo |
 | H2 | Conheça a página do curso | Chamada |
 
-**Provas e exemplos a incluir:** tabela de investimento; tabela dos módulos presenciais; descrição da estrutura com a fonte da ficha. Nenhum depoimento. Nenhuma fala de docente sem autorização e revisor.
+**Provas e exemplos a incluir:** tabela de investimento; tabela dos módulos presenciais; descrição da estrutura com a fonte da ficha. Nenhum depoimento. Nenhuma fala de docente sem revisor.
 
 **Perguntas frequentes (com resposta curta)**
 1. Quanto custa a pós em Oftalmologia da Ufape? 30x de R$ 1.590,00, total de R$ 47.700,00, mais matrícula de R$ 250,00 (catálogo).
@@ -538,7 +539,7 @@ Título de página sugerido: Pós-graduação em Oftalmologia Veterinária: inve
 
 **Fontes:** catálogo 707; ficha 707 (metodologia, cronograma, horários, coordenação, professores); lacunas A9; pesquisa de palavras-chave A9 (K9.1 a K9.5, Q9.1, Q9.3, Q9.5); posicionamento 3.5 (A9) e objeção 1.
 
-**Campos que precisam de [CONFIRMAR]:** microscópio individual, supervisão e mutirões (catálogo); quem atende nos mutirões; módulos presenciais e carga prática; horários; política de entrada em turma iniciada e data da próxima turma; prova de Oftalmologia (68656 e o bloco na página 707); coordenação e autorização; nível de entrada.
+**Campos que precisam de [CONFIRMAR]:** microscópio individual, supervisão e mutirões (catálogo); quem atende nos mutirões; módulos presenciais e carga prática; horários; política de entrada em turma iniciada e data da próxima turma; prova de Oftalmologia (68656 e o bloco na página 707); coordenação; nível de entrada.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] Nenhuma frase justifica o preço por adjetivo.
@@ -596,7 +597,7 @@ Fontes: nomes, horas, modalidade e local: catálogo. Ementa (modalidades): ficha
 | H2 | Perguntas para decidir | Cinco perguntas ao leitor (que modalidades você já faz na rotina; quanto tempo por mês; quanto quer investir; quer abrir ou ampliar quais exames; prefere um curso amplo ou focado). Sem resposta clínica. Qualquer "quando basta ultrassom" vai para [REVISÃO DOCENTE] |
 | H2 | Início das turmas | 68604 já tem início em 31/10/2026; a peça diz a data de cada turma no dia da publicação e não chama para a turma já iniciada sem a política da Ufape [CONFIRMAR] |
 | H2 | Provas de bolsa de imagem e de ultrassonografia | Provas 68647 e 68661 em 27/11/2026 (R$ 100,00), link para o hub C01; sem ligar a prova a turma até a confirmação |
-| H2 | Quem coordena e ensina | 68604: coordenação com titulação M.V. e 11 professores listados; 68629: coordenação com titulação MSc. e 10 professores (fichas). Fonte de autoridade em potencial: as duas coordenações, só com autorização e revisão [CONFIRMAR autorização] |
+| H2 | Quem coordena e ensina | 68604: coordenação com titulação M.V. e 11 professores listados; 68629: coordenação com titulação MSc. e 10 professores (fichas). Fonte de autoridade em potencial: as duas coordenações, com revisão (autorização registrada, decisões 8 e 10) |
 | H2 | Perguntas frequentes | 5 perguntas abaixo |
 | H2 | Veja as datas e condições | Chamada |
 
@@ -612,7 +613,7 @@ Fontes: nomes, horas, modalidade e local: catálogo. Ementa (modalidades): ficha
 **Prova necessária:** dados do catálogo conferidos no dia; ementas lidas na ficha; marcação de dados estruturados dos dois cursos.
 
 **Links internos de entrada:** FAQ padrão, C08, hub C01, blocos de prova dentro dos pilares.
-**Links internos de saída:** páginas 68604 e 68629 (obrigatórias, status aberto), provas 68647 e 68661, livres 68614, 623 e 68637 só por link com a frase de que curso livre não confere diploma nem equivale a pós-graduação (status [CONFIRMAR NO CATÁLOGO]), T8.
+**Links internos de saída:** páginas 68604 e 68629 (obrigatórias, status aberto), provas 68647 e 68661, livres 68614 e 68637 só por link (a 623 só depois de corrigida a página, decisão 13), com a frase única do curso livre: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (status [CONFIRMAR NO CATÁLOGO]), T8.
 
 **Chamada para ação e destino:** "Veja as datas e condições dos dois cursos" para a listagem da área ou para as duas páginas (UTM P-A5) [CONFIRMAR página única, T3]. Sinalizar a frase de MEC nas duas páginas de destino. 68611 (duplicada de 68604, sem data) e 706 (turma iniciada) não recebem chamada.
 
@@ -627,7 +628,7 @@ Título de página sugerido: Pós em Imagem ou Ultrassonografia Veterinária | F
 
 **Fontes:** catálogo 68604, 68629, 68647, 68661; fichas 68604 e 68629; lacunas A5; pesquisa de palavras-chave A5 (K5.1 a K5.10, Q5.1, Q5.2, Q5.4); posicionamento 3.5 (A5).
 
-**Campos que precisam de [CONFIRMAR]:** nome curto do curso de imagem; ementa e horas práticas de cada curso (catálogo); equipamento e se o aluno opera; número de módulos presenciais; nível de entrada; política de entrada em 68604; destino das provas 68647 e 68661; 68611 e 706; coordenação e autorização; página única do curso.
+**Campos que precisam de [CONFIRMAR]:** nome curto do curso de imagem; ementa e horas práticas de cada curso (catálogo); equipamento e se o aluno opera; número de módulos presenciais; nível de entrada; política de entrada em 68604; destino das provas 68647 e 68661; 68611 e 706; coordenação; página única do curso.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] Nenhuma indicação clínica ou "quando basta ultrassom" sem docente.
@@ -669,7 +670,7 @@ Título de página sugerido: Pós em Imagem ou Ultrassonografia Veterinária | F
 **O que os primeiros resultados deixam de fora:** [SUPOSIÇÃO, a confirmar na leitura] resultados dominados por gastroenterologia humana (Afya, UFRGS, Granato) e por um blog de faculdade que explica a especialidade; poucas pós veterinárias específicas. Não trazem o roteiro presencial nem a regra de turma mínima.
 
 **Bloco de resposta citável (56 palavras):**
-"A Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE é semipresencial, em São Paulo, com 500 horas e 24 módulos. A turma abre com no mínimo 20 alunos. O pagamento é em 30 parcelas de R$ 1.180,00 (total de R$ 35.400,00), mais matrícula de R$ 250,00. Os módulos presenciais incluem aulas práticas de anatomia, cirurgia e endoscopia."
+"A Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE é semipresencial, em São Paulo, com 500 horas e 24 módulos. A turma abre com no mínimo 15 alunos (decisão 11 da Ufape; a ficha diz 20, texto a corrigir no site). O pagamento é em 30 parcelas de R$ 1.180,00 (total de R$ 35.400,00), mais matrícula de R$ 250,00. Os módulos presenciais incluem aulas práticas de anatomia, cirurgia e endoscopia."
 Valores da turma IX (catálogo); revisar na próxima edição. Aulas práticas: ficha [CONFIRMAR NO CATÁLOGO].
 
 **Entidades a citar:** Faculdade UFAPE; Pós-graduação em Gastroenterologia Veterinária; turma IX; semipresencial; 500 h; 24 módulos; endoscopia; videocirurgia; transplante fecal; hepatobiliar; pâncreas; São Paulo; sede na Av. 9 de Julho, 3939; prova 68650; grupos de estudos 669, 455 e 721 (só por link).
@@ -686,7 +687,7 @@ Valores da turma IX (catálogo); revisar na próxima edição. Aulas práticas: 
 | H2 | Para quem é | Médicos veterinários (ficha); nível de entrada [CONFIRMAR] |
 | H2 | Investimento e condições | Parcelas, total, matrícula, turma mínima de 20, passagem só com a turma confirmada, 1ª mensalidade 30 dias antes do início |
 | H2 | Prova de bolsa de Gastroenterologia | Prova 68650 em 27/11/2026, São Paulo, R$ 100,00, 11 bolsas; link para C01; sem ligar a turma |
-| H2 | Quem coordena e ensina | Ficha 68606: coordenação com titulação Esp. e 38 professores listados. Fonte de autoridade em potencial: a coordenação (grupo de casos, módulos práticos), só com autorização e revisão [CONFIRMAR autorização]. A frase "coordenadores são referências nacionais" da página não é usada |
+| H2 | Quem coordena e ensina | Ficha 68606: coordenação com titulação Esp. e 38 professores listados. Fonte de autoridade em potencial: a coordenação (grupo de casos, módulos práticos), com revisão (autorização registrada, decisões 8 e 10). A frase "coordenadores são referências nacionais" da página não é usada |
 | H2 | Perguntas frequentes | 6 perguntas abaixo |
 | H2 | Conheça a página do curso | Chamada |
 
@@ -703,7 +704,7 @@ Valores da turma IX (catálogo); revisar na próxima edição. Aulas práticas: 
 **Prova necessária:** cronograma e condições da ficha conferidos; coordenação autorizada; marcação de dados estruturados do curso.
 
 **Links internos de entrada:** FAQ padrão, hub C01, C08, C03.
-**Links internos de saída:** página 68606 (obrigatória), prova 68650, A5 (ultrassom e endoscopia, ponte futura), grupos de estudos 669, 455 e 721 só por link e com a frase de que curso livre e grupo de estudos não conferem diploma nem equivalem a pós-graduação (status [CONFIRMAR NO CATÁLOGO]).
+**Links internos de saída:** página 68606 (obrigatória), prova 68650, A5 (ultrassom e endoscopia, ponte futura), grupos de estudos 669, 455 e 721 só por link e com a frase única do curso livre: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (status [CONFIRMAR NO CATÁLOGO]).
 
 **Chamada para ação e destino:** "Conheça a Pós-graduação em Gastroenterologia Veterinária" para a página 68606 (UTM P-A6). Sinalizar a frase de MEC. Se a turma IX já tiver começado na data de publicação, a chamada pede a próxima turma ao time de captação [CONFIRMAR política e data].
 
@@ -718,7 +719,7 @@ Título de página sugerido: Pós-graduação em Gastroenterologia Veterinária 
 
 **Fontes:** catálogo 68606 e 68650; ficha 68606; lacunas A6; pesquisa de palavras-chave A6 (K6.1 a K6.8, Q6.1 a Q6.6); posicionamento atributos A2 e A5; pendência 1 das lacunas (seção 9).
 
-**Campos que precisam de [CONFIRMAR]:** cronograma e módulos presenciais (catálogo); estágios (clínicas, carga, frequência); grupo de casos; nível de entrada; coordenação e autorização; política de entrada e próxima turma; destino da prova 68650; parceria com a UniAvan citada em currículos públicos (não usar).
+**Campos que precisam de [CONFIRMAR]:** cronograma e módulos presenciais (catálogo); estágios (clínicas, carga, frequência); grupo de casos; nível de entrada; coordenação; política de entrada e próxima turma; destino da prova 68650; parceria com a UniAvan citada em currículos públicos (não usar).
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] A peça diz quando a prática presencial começa, sem esconder.
@@ -783,7 +784,7 @@ Peça única: o briefing 4 (C09) é o artigo pilar de A8. O tema P1 número 1 da
 | H2 | Prática presencial em cada curso | 68608: 3 módulos presenciais (coagulograma e coleta de mielograma; medicina transfusional; farmacologia e prova escrita). 68615 e 333: contagem e conteúdo conferidos na ficha por quem escreve. Horas práticas e equipamento: [CONFIRMAR NO CATÁLOGO] |
 | H2 | Pós de laboratório serve para clínico? | Resposta só com o que a ficha declara; para 68608 sem foco declarado, a peça diz "consulte a coordenação" e [CONFIRMAR]. Nenhuma afirmação de utilidade clínica sem [REVISÃO DOCENTE] |
 | H2 | Provas de bolsa de Hematologia e de Patologia Clínica | 68651 e 68658 em 27/11/2026 (R$ 100,00), link para C01. Sem prova de Citopatologia no catálogo. A 68651 e a turma 68608 estão a 1 dia de distância: destino [CONFIRMAR]; a peça não liga |
-| H2 | Quem coordena e ensina | 68608: coordenação com titulação Esp. e 14 professores; 68615: coordenação com titulação Dra. e 17 professores; 333: coordenação listada como "UFAPE" e 1 professor (fichas). Citopatologia fica sem peça de autoridade docente. Fonte de autoridade em potencial: as coordenações de 68608 e 68615 [CONFIRMAR autorização] |
+| H2 | Quem coordena e ensina | 68608: coordenação com titulação Esp. e 14 professores; 68615: coordenação com titulação Dra. e 17 professores; 333: coordenação listada como "UFAPE" e 1 professor (fichas). Citopatologia fica sem peça de autoridade docente. Fonte de autoridade em potencial: as coordenações de 68608 e 68615 (autorização registrada, decisões 8 e 10) |
 | H2 | Perguntas frequentes | 5 perguntas abaixo |
 | H2 | Veja a turma de Hematologia | Chamada |
 
@@ -799,7 +800,7 @@ Peça única: o briefing 4 (C09) é o artigo pilar de A8. O tema P1 número 1 da
 **Prova necessária:** dados do catálogo; ementas da ficha lidas integralmente por quem escreve; marcação de dados estruturados dos três cursos.
 
 **Links internos de entrada:** C09 (a ponte de citologia de pele), FAQ padrão, hub C01, C08, C18 (e-mail do módulo presencial de Hematologia).
-**Links internos de saída:** páginas 68608, 68615 e 333 (obrigatórias, status aberto), provas 68651 e 68658, C09, livres 462 e 106 e evento 202 só por link e com a frase de que curso livre e evento não conferem diploma nem equivalem a pós-graduação (status [CONFIRMAR NO CATÁLOGO]).
+**Links internos de saída:** páginas 68608, 68615 e 333 (obrigatórias, status aberto), provas 68651 e 68658, C09, livres 462 e 106 só por link e com a frase única do curso livre ("Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."); evento 202 só por link e com a frase da linha Eventos ("Evento não confere diploma nem equivale a pós-graduação.") (status [CONFIRMAR NO CATÁLOGO]).
 
 **Chamada para ação e destino:** "Veja a turma de Hematologia" para a página 68608 (UTM C16). Sinalizar a frase de MEC. Com a regra de 1ª mensalidade 30 dias antes do início, o prazo de 68608 (28/11/2026) já cai antes da publicação (18/11): política de entrada [CONFIRMAR] antes de qualquer frase de prazo.
 
@@ -814,7 +815,7 @@ Título de página sugerido: Hematologia, Patologia Clínica ou Citopatologia | 
 
 **Fontes:** catálogo 68608, 68615, 333, 68651, 68658; fichas 68608, 68615 e 333 (partes lidas); lacunas A11; pesquisa de palavras-chave A11 (K11.1 a K11.10, Q11.1 a Q11.6); estrategia-de-conteudo C16; posicionamento 3.2 (333).
 
-**Campos que precisam de [CONFIRMAR]:** público e foco de 68608; ementa completa e módulos presenciais de 68615 e 333; horas práticas e equipamento; coordenação de 333 (consta "UFAPE"); destino das provas; política de entrada; autorização das coordenações; nome padrão de 333 no catálogo.
+**Campos que precisam de [CONFIRMAR]:** público e foco de 68608; ementa completa e módulos presenciais de 68615 e 333; horas práticas e equipamento; coordenação de 333 (consta "UFAPE"); destino das provas; política de entrada; nome padrão de 333 no catálogo.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] As ementas de 68615 e 333 foram lidas por inteiro na ficha.
@@ -837,7 +838,7 @@ Título de página sugerido: Hematologia, Patologia Clínica ou Citopatologia | 
 **Leitor:** médica ou médico veterinário que quer aprofundar a área cardíaca e não sabe se começa pela pós de ecocardiografia, pela de cardiologia ou por um curso curto de hands-on.
 **Problema:** três caminhos da própria Ufape sem página que explique a diferença; a data de 698 no site (28/11/2027) contradiz a planilha (28/11/2026), e os links das provas de Cardiologia estão trocados.
 **Mensagem principal:** "A pós de Ecocardiografia foca o exame; a de Cardiologia abrange a especialidade com módulos práticos de ecocardiograma; o curso hands-on é um degrau curto e não é pós-graduação."
-**Ângulo:** por onde começar, em três degraus, com dados do catálogo e das fichas e a frase obrigatória de que curso livre não confere diploma nem equivale a pós-graduação.
+**Ângulo:** por onde começar, em três degraus, com dados do catálogo e das fichas e a frase obrigatória do curso livre: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."
 
 **Opções de título (3):**
 1. Cardiologia, ecocardiografia ou curso hands-on: por onde começar
@@ -856,7 +857,7 @@ Título de página sugerido: Hematologia, Patologia Clínica ou Citopatologia | 
 **O que os primeiros resultados deixam de fora:** [SUPOSIÇÃO, a confirmar na leitura] a busca por ecocardiografia devolveu sobretudo pós para médicos (Afya) e cursos no exterior, sem pós veterinária só de eco; Pravaler e Petlove descrevem a cardiologia; o edital de concorrente aparece para Cardiologia. Nenhum compara os degraus.
 
 **Bloco de resposta citável (51 palavras):**
-"Na Faculdade UFAPE, a Pós-graduação em Ecocardiografia (370 horas, São Paulo) foca o exame ecodopplercardiográfico, e a Pós-graduação em Cardiologia Veterinária (500 horas, turma em Goiânia) abrange a especialidade, com módulos práticos de ecocardiograma. Ambas são semipresenciais. O curso livre de ecocardiografia hands-on não confere diploma nem equivale a pós-graduação."
+"Na Faculdade UFAPE, a Pós-graduação em Ecocardiografia (370 horas, São Paulo) foca o exame ecodopplercardiográfico, e a Pós-graduação em Cardiologia Veterinária (500 horas, turma em Goiânia) abrange a especialidade, com módulos práticos de ecocardiograma. Ambas são semipresenciais. O hands-on de ecocardiografia é um curso livre. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."
 
 **Entidades a citar:** Faculdade UFAPE; Pós-graduação em Ecocardiografia; Pós-graduação em Cardiologia Veterinária; ecodopplercardiografia; hemodinâmica; cardiomiopatias; eletrocardiograma; hands-on; São Paulo e Goiânia; sede na Av. 9 de Julho, 3939 (698); "Ufape Goiânia" (289, endereço como na ficha) [CONFIRMAR endereço completo].
 
@@ -868,10 +869,10 @@ Título de página sugerido: Hematologia, Patologia Clínica ou Citopatologia | 
 | H2 | Os três degraus | Tabela: 698 (370 h, 12 módulos, 18x de R$ 1.498,33, total de R$ 26.970,00, matrícula de R$ 250,00); 289 (500 h, 24 módulos, 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00); 573 (livre, 28 h: R$ 2.350,00 à vista ou 10x de R$ 303,00, catálogo e ficha) |
 | H2 | Pós-graduação em Ecocardiografia (698) | Objetivo da ficha: capacitar à realização de exames ecodopplercardiográficos como auxílio ao diagnóstico; 5 módulos presenciais hands-on em 12 (módulos 2, 4, 6, 8 e 10). Data: ver nota de bloqueio |
 | H2 | Pós-graduação em Cardiologia Veterinária (289, Goiânia) | Ficha: aulas teóricas a distância e módulos práticos presenciais, com práticas hands-on de ecocardiograma nos módulos 9, 13, 16 e 19 (e seguintes, ficha parcial) [CONFIRMAR NO CATÁLOGO] |
-| H2 | Curso hands-on de ecocardiografia (573): o degrau curto | Só por link, com a frase de que curso livre não confere diploma nem equivale a pós-graduação. A edição de 14 e 15/11/2026 já terá ocorrido em dezembro: a peça só cita nova data confirmada [CONFIRMAR NO CATÁLOGO] |
+| H2 | Curso hands-on de ecocardiografia (573): o degrau curto | Só por link, com a frase única: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." A edição de 14 e 15/11/2026 já terá ocorrido em dezembro: a peça só cita nova data confirmada [CONFIRMAR NO CATÁLOGO] |
 | H2 | Por onde começar: perguntas para decidir | Perguntas ao leitor (já faz eco? quer o exame ou a especialidade? mora em Goiás? quanto tempo?). Sem resposta clínica. Pré-requisito de 698: [CONFIRMAR NO CATÁLOGO] |
 | H2 | Provas de bolsa de Cardiologia | Provas 68641 (SP) e 68642 (Goiânia) em 27/11/2026: links invertidos no site, sem link para as provas até a correção; a peça aponta só para o hub C01 |
-| H2 | Quem coordena e ensina | 698: coordenação com titulação MSc. e 5 professores; 289: coordenação com titulação Msc. e 14 professores (fichas). Fonte de autoridade em potencial: as duas coordenações, só com autorização e revisão [CONFIRMAR autorização] |
+| H2 | Quem coordena e ensina | 698: coordenação com titulação MSc. e 5 professores; 289: coordenação com titulação Msc. e 14 professores (fichas). Fonte de autoridade em potencial: as duas coordenações, com revisão (autorização registrada, decisões 8 e 10) |
 | H2 | Perguntas frequentes | 5 perguntas abaixo |
 | H2 | Veja a turma de Cardiologia em Goiânia | Chamada |
 
@@ -884,7 +885,7 @@ Título de página sugerido: Hematologia, Patologia Clínica ou Citopatologia | 
 2. Preciso fazer cardiologia antes de ecocardiografia? [CONFIRMAR NO CATÁLOGO] (pré-requisito de 698).
 3. Há pós em Cardiologia em Goiânia? Sim: turma II, semipresencial, início em 20/03/2027 (catálogo).
 4. Quanto custa cada uma? Valores na tabela (catálogo).
-5. O curso hands-on substitui a pós? Não: curso livre não confere diploma nem equivale a pós-graduação.
+5. O curso hands-on substitui a pós? Não. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 **Prova necessária:** catálogo; ficha de cada curso; correção da data de 698 e dos links das provas.
 
@@ -904,7 +905,7 @@ Título de página sugerido: Cardiologia ou Ecocardiografia Veterinária | Facul
 
 **Fontes:** catálogo 698, 289, 68641 e 68642; fichas 698, 289 e 573 (programação); lacunas A2; pesquisa de palavras-chave A2 (K2.1 a K2.11, Q2.1 a Q2.5); posicionamento 3.2 (698) e 3.3 (Goiânia); estrategia-de-conteudo bloco D3.
 
-**Campos que precisam de [CONFIRMAR]:** data de 698 no site; pré-requisito de 698; módulos presenciais e conteúdo prático de 289 e 698; endereço da turma de Goiânia; nova edição do livre 573; links das provas; status de 68605; coordenações e autorização; destino das provas.
+**Campos que precisam de [CONFIRMAR]:** data de 698 no site; pré-requisito de 698; módulos presenciais e conteúdo prático de 289 e 698; endereço da turma de Goiânia; nova edição do livre 573; links das provas; status de 68605; coordenações; destino das provas.
 
 **Checklist de pronto (além da seção 0.5):**
 - [ ] A data de 698 foi corrigida no site, ou a peça não cita data de 698.
@@ -968,9 +969,9 @@ Título de página sugerido: Cardiologia ou Ecocardiografia Veterinária | Facul
 2. **Como funcionam as aulas e os módulos?** A teoria é online, ao vivo e gravada; a prática acontece em módulos presenciais, em fins de semana do cronograma da turma, e não é transmitida. A avaliação é uma prova mensal online com 5 questões e uma prova de recuperação no fim, que pode ser substituída por estudo dirigido. Duração: cerca de 2 anos na maioria; carga horária e número de módulos de cada curso: {CH} horas e {módulos} módulos [CONFIRMAR NO CATÁLOGO]. Link para C03.
 3. **Quanto custa?** {n} parcelas de {valor}, total de {total} no cartão ou boleto, matrícula de R$ 250,00 à vista (Pix ou boleto) ou 1x no cartão (R$ 350,00 em 68629 e 706). A 1ª mensalidade é paga com 30 dias de antecedência do início, segundo as fichas [CONFIRMAR NO CATÁLOGO]. Exemplo de preenchimento: 68610, 30x de R$ 1.000,00, total de R$ 30.000,00. Promoção de 341: fora até a Ufape confirmar a regra e a validade. Desconto de aluno e ex-aluno: [PREENCHER].
 4. **Onde são as aulas e onde ficar?** Endereço da sede: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista, São Paulo, SP, 01407-100 (várias fichas; 68604 e 68615 trazem CEP 01428-001: [CONFIRMAR]). Goiânia: endereço da turma [CONFIRMAR] ("Ufape Goiânia" na ficha 289). Hospedagem sugerida e parcerias: não constam [CONFIRMAR]; a peça não cita hotel.
-5. **E se a turma não fechar?** A turma abre com o mínimo de 20 alunos (páginas de curso; 15 na página da prova: [CONFIRMAR]). A Ufape orienta comprar passagem e hotel só depois da confirmação da turma (a ficha cita também "uma semana antes do início"). Os valores de inscrição só são devolvidos se a turma não for confirmada. A Ufape não ressarce passagem ou hospedagem em adiamento por força maior (fichas). Data em que a turma é confirmada e o que entra na devolução: [CONFIRMAR].
+5. **E se a turma não fechar?** A turma abre com o mínimo de 15 alunos (decisão 11 da Ufape; as páginas de curso ainda dizem 20, texto a corrigir no site). A Ufape orienta comprar passagem e hotel só depois da confirmação da turma (a ficha cita também "uma semana antes do início"). Os valores de inscrição só são devolvidos se a turma não for confirmada. A Ufape não ressarce passagem ou hospedagem em adiamento por força maior (fichas). Data em que a turma é confirmada e o que entra na devolução: [CONFIRMAR].
 6. **Posso faltar a um módulo?** [CONFIRMAR]. Sem resposta, a pergunta fica fora do bloco publicado ou com a frase "fale com a secretaria".
-7. **Como funciona a prova de bolsa?** Prova presencial em 27/11/2026, em São Paulo e em Goiânia, inscrição de R$ 100,00. Cada prova tem 11 bolsas (2 de 50% em monitoria, 4 de 25% e 5 de 10%), nota de corte 7,0, recurso em 2 dias úteis e matrícula em até 10 dias úteis [CONFIRMAR NO CATÁLOGO]. Link para o hub (briefing 1).
+7. **Como funciona a prova de bolsa?** Prova online em 27/11/2026, com provas do campus São Paulo e do campus Goiânia (decisão 11), inscrição de R$ 100,00. Cada prova tem 11 bolsas (2 de 50% em monitoria, 4 de 25% e 5 de 10%), nota de corte 7,0, recurso em 2 dias úteis e matrícula pelo prazo da ficha de cada prova (10 dias úteis; contradição interna [CONFIRMAR U1]) [CONFIRMAR NO CATÁLOGO]. Link para o hub (briefing 1).
 8. **O que o certificado ou o título permite?** [CONFIRMAR texto da regulação]. Texto oficial de certificação: [PREENCHER COM A REGULAÇÃO]. Até lá, a resposta publicada se limita a encaminhar a dúvida à secretaria (WhatsApp (11) 97492-8443 ou (11) 5054-1204, duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h, contexto geral) e não afirma nada sobre certificado, título de especialista, residência ou valor legal. Plano B: não publicar a pergunta 8 até a regulação aprovar o texto (decisão do cmo).
 
 **Provas e exemplos a incluir:** exemplo preenchido com uma turma (68610); sem depoimento; sem docente.
@@ -1007,10 +1008,10 @@ Título de página sugerido: Perguntas frequentes da Pós-graduação | Faculdad
 
 | Dependência | Briefings afetados | Quem resolve | Prazo desejado |
 |---|---|---|---|
-| Regras da prova (canal e data do resultado, prazo de matrícula, mínimo 15 ou 20), destino das provas, links de 68641, 68642 e 68656 | 1, 4, 6, 7, 9, 10, 11 | Ufape e time do site | 03/11 |
+| Regras da prova (canal e data do resultado e prazo de matrícula onde a ficha se contradiz, U1; acesso à prova online, U2), destino das provas, links de 68641, 68642 e 68656 | 1, 4, 6, 7, 9, 10, 11 | Ufape e time do site | 03/11 |
 | Política de entrada em turma iniciada e encerramento das inscrições (68610 e 68608: 1ª mensalidade 30 dias antes do início já passou ou passa antes da publicação) | 4, 5, 6, 7, 9 | Ufape | 29/10 |
 | Data de 698 no site | 10 | Time do site (pedido A6 do cmo) | antes da publicação |
-| Revisor docente nomeado e autorização de coordenação e docentes | 4, 5, 6, 7, 9, 10 (autoridade docente) | Ufape | 10/11 |
+| Revisor docente nomeado (a autorização de coordenação e docentes foi registrada em 26/10/2026, decisões 8 e 10) | 4, 5, 6, 7, 9, 10 (autoridade docente) | Ufape | 10/11 |
 | Texto de regulação | 3 (critério legal), 11 (pergunta 8) | Regulação da Ufape | 17/11 |
 | Página de listagem de turmas e página institucional T9 | 2, 3, 6, 11 | Time do site | a definir |
 | Padrão de UTM e pergunta de origem no formulário da prova | 1 (M2) e demais | analista-de-dados, Ufape | 30/10 |
@@ -1036,7 +1037,7 @@ Ordem sugerida para o conteudo-longo: 1 (C01, primeiro, é a âncora da S1 e tem
 
 Conformidade educacional (o qa repete): sem frase de certificação nem nota do MEC (a pergunta 8 do FAQ é pendência declarada); sem promessa de resultado; sem "últimas vagas"; sem superlativo; nenhum concorrente nomeado; só turma com status "aberto" recebe chamada; livre citado com a frase de que não confere diploma; nenhum dado pessoal; nenhum docente nomeado; nenhum travessão nem meia-risca.
 
-Resultado: pronto para o qa-de-marketing como rascunho. Não está pronto para virar texto final: faltam as respostas da Ufape sobre regras da prova, política de entrada, regulação e autorização de docentes.
+Resultado: pronto para o qa-de-marketing como rascunho. Não está pronto para virar texto final: faltam as respostas da Ufape sobre regras da prova (U1 e U2), política de entrada e regulação. A autorização de docentes foi registrada em 26/10/2026 (decisões 8 e 10).
 
 ## 14. Pedidos de aprovação humana e próximo passo
 
@@ -1050,12 +1051,19 @@ Próximo agente sugerido: **conteudo-longo**, começando por C01 (hub), C03, C09
 
 ---
 
+## Mudanças desta versão
+
+- Regras comuns e briefings 4 a 10: saem as marcas [CONFIRMAR autorização] de coordenação e docentes (decisões 8 e 10); fica a revisão por docente revisor nomeado.
+- Briefings 1, 4 e 11: provas online, campus São Paulo ou Goiânia, sem endereço como local de prova, sem documento com foto e celular como regra (U2), prazo pela ficha de cada prova (U1) (decisão 11).
+- Briefings 1, 2, 5, 7 e 11: turma mínima de 15 alunos, também na Pós (decisão 11); o 20 das fichas fica como texto a corrigir no site.
+- Briefings 4, 6, 7, 9 e 10: frase única do curso livre (D13); briefing 6 sem link para a 623 até a correção (decisão 13).
+
 ## Lista 1. Fatos com fonte
 
 - Dados de curso: 68610 (28/11/2026, V, São Paulo, semipresencial, 500 h, 24 módulos, 30x de R$ 1.000,00, R$ 30.000,00, matrícula de R$ 250,00), 707 (30/10/2026, VII, 600 h, 24 módulos, 30x de R$ 1.590,00, R$ 47.700,00, matrícula de R$ 250,00), 68604 (31/10/2026, VI, 500 h, 30x de R$ 1.000,00, R$ 30.000,00), 68629 (22/05/2027, III, 360 h, 24x de R$ 685,67, R$ 16.456,00, matrícula de R$ 350,00), 68606 (07/11/2026, IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00), 68608 (28/11/2026, VIII, 500 h, 30x de R$ 1.180,00, R$ 35.400,00), 68615 (20/03/2027, VII, 500 h, 30x de R$ 1.180,00, R$ 35.400,00), 333 (27/03/2027, I, 500 h, 30x de R$ 935,00, R$ 28.050,00), 698 (28/11/2026 na planilha, III, 370 h, 18x de R$ 1.498,33, R$ 26.970,00), 289 (Goiânia, 20/03/2027, II, 500 h, 30x de R$ 1.180,00, R$ 35.400,00): contexto/catalogo-de-cursos.md, seção 2 (26/10/2026).
 - 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x no cartão, em São Paulo e em Goiânia (68640, 68642 e 68644); 68656 encerrada (link fora do ar): catálogo, seção 3.
 - Nenhuma turma EAD aberta; 586 em "verificar": catálogo, seção 2.
-- Regras da prova (11 bolsas: 2 de 50% em monitoria, 4 de 25%, 5 de 10%; nota de corte 7,0; recurso em 2 dias úteis; matrícula em 10 dias úteis; bolsa não acumulativa e intransferível; desempate por currículo; horário 9h às 13h; documento com foto; sem celular e relógio; mínimo de 15; resultado por WhatsApp e/ou e-mail): contexto/pos-graduacao.md e ficha 68646.
+- Regras da prova (11 bolsas: 2 de 50% em monitoria, 4 de 25%, 5 de 10%; nota de corte 7,0; recurso em 2 dias úteis; matrícula em 10 dias úteis; bolsa não acumulativa e intransferível; desempate por currículo; horário 9h às 13h; documento com foto; sem celular e relógio; mínimo de 15; resultado por WhatsApp e/ou e-mail): contexto/pos-graduacao.md e ficha 68646. Decisão da Ufape em 26/10/2026 (decisão 11): as provas são online e vale a regra da ficha de cada prova; o que vale de documento com foto e de celular na prova online é U2; turma mínima de 15, também na Pós.
 - Formato da linha (1 módulo por mês em fim de semana, aulas online e módulos práticos presenciais obrigatórios, cerca de 2 anos, turma mínima de 20, passagem e hotel só com a turma confirmada, avaliação mensal online com 5 questões): contexto/pos-graduacao.md e fichas.
 - Cronograma, módulos presenciais, coordenação (com titulação), contagem de professores, condições (1ª mensalidade 30 dias antes, devolução só se a turma não for confirmada, práticas não transmitidas) e horários de 707: fichas de contexto/cursos/pos/ (68610: 7 presenciais em 24; 707: 10 em 24; 68604: 7 em 24; 68606: 3 em 24; 68608: 3 em 24; 698: 5 em 12; 68629: 4 práticas em 18). Contagens do agente a partir das fichas, a conferir.
 - Frases das fichas que a squad não repete: "CERTIFICADO PELO MEC" e "reconhecida pelo Ministério da Educação" (68610 e outras), "referências nacionais" e "especialidade emergente e carente de profissionais" (68606), "reconhecimento pelo Ministério da Educação... referência nacional" (68615), "cardiologia de excelência" e "atendimento de excelência" (289), "equipamentos de última geração" e "100% prático" (573).
@@ -1082,12 +1090,12 @@ Próximo agente sugerido: **conteudo-longo**, começando por C01 (hub), C03, C09
 
 ## Lista 3. Dados que faltam
 
-- [CONFIRMAR NO CATÁLOGO] Regras da prova (canal e data do resultado, prazo de matrícula de 10 ou 7 dias, mínimo de turma de 15 ou 20, horário, local de Goiânia, o que levar, público elegível), reembolso da inscrição da prova e destino de cada prova (especialmente 68652, 68649, 68653, 68655, e se 68646 vale para 68610 e 68651 para 68608).
+- [CONFIRMAR NO CATÁLOGO] Regras da prova (canal e data do resultado, prazo de matrícula de 10 ou 7 dias onde a ficha se contradiz, U1; horário, acesso à prova online e o que vale de documento e celular, U2; público elegível), reembolso da inscrição da prova e destino de cada prova (especialmente 68652, 68649, 68653, 68655, e se 68646 vale para 68610 e 68651 para 68608).
 - [CONFIRMAR NO CATÁLOGO] Cronograma, módulos presenciais, horas práticas, equipamento e duração por curso; nível de entrada e pré-requisito por turma (698, 289, 68604, 68608); microscópio individual, supervisão e mutirões (707); estágios, clínicas e grupo de casos (68606); ementa completa de 68615 e 333.
 - [CONFIRMAR] Política de entrada em turma já iniciada (707, 68604, 68610, 68608) e data de encerramento das inscrições; regra da 1ª mensalidade 30 dias antes; próxima turma de Oftalmologia, Imagem e Gastroenterologia.
 - [CONFIRMAR] Data em que a turma é confirmada; o que entra na devolução; regra de reposição de módulo; hospedagem sugerida; redação exata da regra de passagem.
 - [CONFIRMAR] Data de 698 no site; links das provas 68641 e 68642; situação de 68656 e do bloco "prova de bolsa" na página 707; status de 68605, 68611 e 706; status dos livres 463, 573 (nova edição), 462, 106, 589, 576, 590, 603, 604, 606, 623, 68637 e 68614 e do evento 202.
-- [CONFIRMAR autorização] Nome, titulação e imagem da coordenação e dos docentes de cada ficha; nome do revisor docente; prazo de revisão. Em 68610 e 333 a coordenação consta como "UFAPE" (sem nome).
+- [CONFIRMAR] Nome do revisor docente; nome e titulação da coordenação e dos docentes como na ficha (autorização de imagem e citação registrada em 26/10/2026, decisões 8 e 10); prazo de revisão. Em 68610 e 333 a coordenação consta como "UFAPE" (sem nome).
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação; leitura do texto vigente da Resolução CFMV nº 1572/2023; critério legal do briefing 3; resposta da pergunta 8 do FAQ.
 - [CONFIRMAR] Endereço completo da turma de Goiânia e CEP da sede (01407-100 ou 01428-001); existência da página de listagem de turmas e da página institucional T9; nome curto do curso de imagem; nome padrão de 333 e 68629 no catálogo.
 - [PREENCHER] Regra do desconto de aluno e ex-aluno; regra e validade da promoção de 341.

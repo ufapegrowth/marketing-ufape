@@ -3,6 +3,7 @@
 - Agente: posicionamento (departamento 02, Estratégia e Posicionamento), etapa 1.7 da camada 1, cobrindo a linha Eventos
 - Linha: eventos (os Cursos Livres estão em saidas/02-estrategia-e-posicionamento/posicionamento-livres-2026-10-26.md)
 - Data: 26/10/2026
+- Versão: 3 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02b.md, bloqueantes E1 a E5), para nova rodada do qa-de-marketing (auditoria 02-estrategia-e-posicionamento, resultado na seção 7, e auditorias/conformidade-educacional.md). Nada publicado, enviado ou pago.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -30,7 +31,7 @@
 ## 0. Regras que governam este arquivo
 
 1. Dados do evento vêm do catálogo (seção 9) e da ficha do evento. O que está só na ficha leva [CONFIRMAR NO CATÁLOGO] e não vai para peça final.
-2. Peças só com os docentes confirmados na página e com autorização registrada [CONFIRMAR autorização]. Convidados "a definir" ficam fora (decisão de 26/10/2026).
+2. Peças só com os docentes confirmados na página; a autorização de imagem e citação de docentes, palestrantes e convidados está registrada (decisões 8 e 10 da Ufape, 26/10/2026). Convidados "a definir" ficam fora (decisão de 26/10/2026).
 3. Campanhas pagas do workshop vão direto para https://faculdade.ufape.com.br/neuro-summit/ (decisão de 26/10/2026).
 4. "30 vagas" é capacidade do catálogo e pode aparecer como dado. Vagas restantes: [CONFIRMAR]. Sem "últimas vagas", "corra", "garanta a sua vaga" nem "somente".
 5. Nenhuma frase de certificação, nem "Certificado UFAPE" da página: texto oficial [PREENCHER COM A REGULAÇÃO] (contexto/eventos.md, P1).
@@ -77,7 +78,7 @@ Os congressos vendem **escala e variedade** (muitos temas, muitos palestrantes, 
 - Catálogo, seção 9: 20/11/2026; presencial teórico e prático, 16 h, 30 vagas; São Paulo, Av. Tiradentes, 960 (Unidade 2); R$ 1.250,00; aluno e ex-aluno Ufape com 20% de desconto pelo cupom SIMPNEUROMONIT (R$ 1.000,00 por cálculo). Validade do cupom e quem conta como ex-aluno: [CONFIRMAR].
 - Só na ficha do evento [CONFIRMAR NO CATÁLOGO]: segundo dia em 21/11/2026 (o briefing, decisão 6, também cita 20 e 21/11); sexta teórica e sábado prático; das 08h às 18h; divisão de 8 h teóricas e 8 h práticas; comprovação do vínculo de aluno e ex-aluno na secretaria.
 - Parcelamento do presencial: não consta no catálogo [CONFIRMAR NO CATÁLOGO].
-- Nome: a planilha diz "I Simpósio Brasileiro de Neuromonitorização Veterinária"; peças usam o nome da página.
+- Nome oficial: "Workshop Brasileiro de Neuromonitorização" (decisão 7 da Ufape, 26/10/2026), evento liberado; nunca "simpósio" nas peças (a planilha usava outro nome, que não circula).
 
 **Persona:** E1a anestesiologista (principal) e E1b intensivista (secundária); E1c residente e E1d pós-graduando como terciárias (pesquisa-de-persona eventos). Todas [SUPOSIÇÃO]. Público da página: médicos veterinários, anestesiologistas, intensivistas, residentes, pós-graduandos e interessados em monitorização avançada. Estudante de graduação não está na lista.
 
@@ -101,7 +102,7 @@ Os congressos vendem **escala e variedade** (muitos temas, muitos palestrantes, 
 | W3 | Centro cirúrgico e UTI no mesmo programa | "tanto no centro cirúrgico quanto na UTI"; blocos de UTI na sexta e no sábado | Ficha | Só na ficha |
 | W4 | Decisão clínica, não equipamento | "Abordagem centrada em decisões clínicas, não apenas em equipamentos"; vários índices (BIS, PSI, Conox, DSA, CSA, TOF) | Ficha (página e FAQ) | Voz da página, só na ficha |
 | W5 | Não precisa saber EEG antes | FAQ: "Não. A sexta-feira constrói a base" | Ficha | Só na ficha |
-| W6 | Coordenação científica que também coordena a Pós-graduação da área | A coordenadora científica do workshop é coordenadora listada na Pós-graduação em Anestesiologia Avançada 657 e no grupo 644 | Fichas do evento, 657 e 644 | Prova nas fichas; nome só com autorização [CONFIRMAR autorização] |
+| W6 | Coordenação científica que também coordena a Pós-graduação da área | A coordenadora científica do workshop é coordenadora listada na Pós-graduação em Anestesiologia Avançada 657 e no grupo 644 | Fichas do evento, 657 e 644 | Prova nas fichas; nome e titulação como na ficha (autorização registrada, decisões 8 e 10) |
 | W7 | Capacidade de 30 participantes no presencial | 30 vagas | Catálogo, seção 9 | Prova no catálogo. Sem dizer quantas restam |
 | W8 | Condição de aluno e ex-aluno | 20% com SIMPNEUROMONIT para aluno e ex-aluno (catálogo). Comprovação do vínculo na secretaria (ficha) | Catálogo, seção 9; ficha | Desconto e cupom: prova no catálogo. Comprovação na secretaria: só na ficha [CONFIRMAR NO CATÁLOGO]. Validade do cupom e regra para ex-aluno de curso livre: [CONFIRMAR] |
 | W9 | Duas modalidades no mesmo evento | Presencial R$ 1.250,00 e transmitido e gravado R$ 450,00 | Catálogo, seção 9 | Prova no catálogo para o preço; o produto de compra 68634 está em "verificar" (seção 4) [CONFIRMAR NO CATÁLOGO] (ver E-W2) |
@@ -123,9 +124,9 @@ Removidos: "inédito" ou "primeiro evento do Brasil" (sem prova), "apostila" (a 
 
 **Declaração:**
 - **Uma linha:** Dois dias para decidir pelo sinal, não só pelo número: sexta de base, sábado de prática.
-- **Parágrafo:** Para o anestesiologista e o intensivista que já veem um índice na tela e não sabem quanto confiar nele, o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia é um treino de 16 h num tema só. A sexta constrói a base (neuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS); o sábado é prático: instalar o sensor em modelos, checar o sinal, ler o EEG e decidir em casos de anestesia e de UTI com e sem bloqueio neuromuscular [CONFIRMAR NO CATÁLOGO: divisão dos dias e grade]. Diferente do congresso de um tema por dia, o programa vem hora a hora antes da inscrição, e a coordenação científica é a mesma da Pós-graduação em Anestesiologia Avançada da Ufape [CONFIRMAR autorização]. 30 vagas no presencial, R$ 1.250,00; aluno e ex-aluno Ufape com 20% pelo cupom SIMPNEUROMONIT [CONFIRMAR validade do cupom e quem conta como ex-aluno]. Evento não confere diploma nem equivale a pós-graduação.
+- **Parágrafo:** Para o anestesiologista e o intensivista que já veem um índice na tela e não sabem quanto confiar nele, o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia é um treino de 16 h num tema só. A sexta constrói a base (neuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS); o sábado é prático: instalar o sensor em modelos, checar o sinal, ler o EEG e decidir em casos de anestesia e de UTI com e sem bloqueio neuromuscular [CONFIRMAR NO CATÁLOGO: divisão dos dias e grade]. Diferente do congresso de um tema por dia, o programa vem hora a hora antes da inscrição, e a coordenação científica é a mesma da Pós-graduação em Anestesiologia Avançada da Ufape (autorização registrada, decisões 8 e 10). 30 vagas no presencial, R$ 1.250,00; aluno e ex-aluno Ufape com 20% pelo cupom SIMPNEUROMONIT [CONFIRMAR validade do cupom e quem conta como ex-aluno]. Evento não confere diploma nem equivale a pós-graduação.
 
-Ressalvas para a peça final: a frase sobre a coordenação só vai com autorização registrada; o cupom só vai para peça com validade e público elegível confirmados; o parcelamento do presencial só com dado no catálogo.
+Ressalvas para a peça final: a frase sobre a coordenação vai com nome e titulação da ficha (autorização registrada, decisões 8 e 10); o cupom só vai para peça com validade e público elegível confirmados; o parcelamento do presencial só com dado no catálogo.
 
 **Ponte para a Pós [SUPOSIÇÃO a testar]:** E1a com Pós 657 (13/03/2027), 68609 (Goiânia, 24/04/2027), 359 (22/05/2027) e provas de bolsa 68639 e 68640 (27/11/2026, seis dias depois do sábado prático); E1b com Pós 68623 (Goiânia, 22/05/2027), 352 (24/05/2027), 68635 (10/04/2027) e provas 68660 e 68645; E1d com Pós 68616 (08/05/2027) e prova 68654. Teste: pergunta opcional de perfil (anestesia, UTI, residente, pós-graduando) no formulário de inscrição, com finalidade informada e link para a política de privacidade, só depois de aprovação humana. A squad recebe e analisa só números somados, cruzados com matrícula de Pós em 12 e 24 meses.
 
@@ -167,7 +168,7 @@ Ressalvas para a peça final: a frase sobre a coordenação só vai com autoriza
 | C3 | Assistir no próprio ritmo | "Gravação disponível com acesso por 6 meses" | Ficha | Só na ficha |
 | C4 | Preço à vista e no cartão | R$ 780,00 ou 10x de R$ 98,00 | Catálogo | Prova no catálogo |
 
-Removidos: "35 professores internacionais" até confirmar idioma e autorização; "ao vivo" (é gravação de evento passado).
+Removidos: "35 professores internacionais" até confirmar o idioma (a autorização dos palestrantes do 700 foi registrada, decisão 10); "ao vivo" (é gravação de evento passado).
 
 **Categoria:** "acervo gravado de casos de paciente grave", para consultar quando o caso chega.
 
@@ -246,7 +247,7 @@ Só quatro áreas têm item de Eventos no recorte (plano do cmo, seção 2.3). P
 
 | Área | Item de Eventos | Alternativa que muda | Ajuste de posicionamento |
 |---|---|---|---|
-| A1 Anestesiologia e dor | Workshop (E-W1, E-W2) | Congresso de Clínica da Dor (Animal Health, data sem fonte); grupo 644 da própria Ufape | Peça de abertura para E1a: "dos planos de Guedel ao awareness intraoperatório" (grade). Coordenação comum com 657 e 644 como prova, com autorização |
+| A1 Anestesiologia e dor | Workshop (E-W1, E-W2) | Congresso de Clínica da Dor (Animal Health, data sem fonte); grupo 644 da própria Ufape | Peça de abertura para E1a: "dos planos de Guedel ao awareness intraoperatório" (grade). Coordenação comum com 657 e 644 como prova (autorização registrada, decisões 8 e 10) |
 | A3 Emergência e terapia intensiva | Workshop (blocos de UTI) e 700 | Congressos de emergência (Animal Health e Anclivepa, datas sem fonte); CBCV online | Variante de criativo para E1b: sedação sob bloqueio neuromuscular e TOF. 700 como acervo de casos para quem não pode viajar |
 | A11 Laboratório | 202 | Sem concorrente achado; internos 106 e 462 | Diferenciar de 106 por amplitude (coagulação inteira, ROTEM) depois de a Ufape confirmar a diferença |
 | A12 Neurologia | Workshop (EEG clínico na neurologia) | 4º Congresso de Neurologia Veterinária, Neurodiagnóstico e Indicação Cirúrgica (Animal Health, data sem fonte, possível colisão com 20 e 21/11/2026) | Se a data colidir, reforçar profundidade e prática; se não, citar só o programa. Abrir o site oficial antes (pedido 1 da concorrência) |
@@ -289,7 +290,7 @@ Nenhuma resposta usa emprego, renda, aprovação ou urgência.
 1. Informar monitores do sábado, quantidade e participantes por equipamento; parcelamento do presencial; vagas restantes (só como número interno, nunca como pressão).
 2. Confirmar status, modalidade e carga horária do produto 68634 (hoje "verificar", "Presencial" e 24 h na loja, contra 16 h do evento).
 3. Dizer a validade do cupom SIMPNEUROMONIT e se vale para ex-aluno de curso livre.
-4. Registrar a autorização de imagem e voz dos docentes confirmados.
+4. Feito em 26/10/2026: autorização de imagem e citação registrada para docentes, palestrantes e convidados (decisões 8 e 10).
 5. Uma pessoa abrir o site do Animal Health Science Ecosystem e o da Anclivepa para confirmar se há congresso em 20 e 21/11/2026.
 6. Levar ao catálogo carga horária, idioma, prazo de acesso e data da edição do 700 e do 202; resolver a duplicidade do 700 com a linha "Paciente Grave" (P7).
 7. Levar ao catálogo a divisão 8 h e 8 h, os dias e os horários do workshop e a regra de comprovação do vínculo do cupom.
@@ -326,6 +327,11 @@ Próximo agente sugerido: mensagens (etapa 2.2), começando pelo workshop (onda 
 
 ---
 
+## Mudanças desta versão
+
+- Seção 2 (workshop): nome oficial "Workshop Brasileiro de Neuromonitorização", evento liberado; sai o nome que a planilha usava (decisão 7).
+- Seções 0, 2, 4, 6 e Lista 3: autorização de imagem e citação registrada para docentes, palestrantes e convidados, inclusive do gravado 700 (decisões 8 e 10).
+
 ## Lista 1. Fatos com fonte
 
 1. Workshop no catálogo, seção 9: 20/11/2026; presencial teórico e prático, 16 h, 30 vagas; Av. Tiradentes, 960 (Unidade 2), São Paulo; R$ 1.250,00 presencial; R$ 450,00 transmitido e gravado (68634); 20% para aluno e ex-aluno com SIMPNEUROMONIT; status aberto.
@@ -357,7 +363,7 @@ Próximo agente sugerido: mensagens (etapa 2.2), começando pelo workshop (onda 
 3. [CONFIRMAR NO CATÁLOGO] Status, modalidade e carga horária do 68634 (verificar, Presencial e 24 h na loja; 16 h no evento); regra de upgrade.
 4. [CONFIRMAR] Validade do cupom SIMPNEUROMONIT e se vale para ex-aluno de curso livre.
 5. [CONFIRMAR NO CATÁLOGO] Divisão 8 h e 8 h, dias e horários do workshop; comprovação do vínculo na secretaria.
-6. [CONFIRMAR autorização] Imagem e voz dos docentes confirmados.
+6. Fechado em 26/10/2026: autorização de imagem e citação dos docentes, palestrantes e convidados (decisões 8 e 10).
 7. [CONFIRMAR NO CATÁLOGO] Carga horária, idioma, tradução, prazo de acesso e data da edição de 700 e 202; diferença entre 202 e 106; duplicidade do 700 (P7).
 8. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificado de evento.
 9. [CONFIRMAR] Datas oficiais do 4º Congresso de Neurologia e do Congresso de Dor (Animal Health) e do Congresso Brasileiro da Anclivepa em 2026.

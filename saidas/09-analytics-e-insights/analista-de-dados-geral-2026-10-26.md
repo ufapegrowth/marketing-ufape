@@ -4,6 +4,7 @@
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos; Graduação não aparece na visão de campanhas)
 - **Data:** 26/10/2026
 - **Etapa:** 1.10 da camada 1 do plano do cmo
+- **Versão:** 3 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - **Status:** rascunho, versão 2, corrigida após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md, itens A1 a A4, R1 e R2). Nada é publicado, enviado ou pago.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
@@ -62,7 +63,7 @@ Diferença para a leitura pela coluna da visão: 573 passa de 34 para 19 dias (e
 
 **Ação:** gestor-de-midia leva à aprovação humana a decisão sobre as 6 ativas em turma iniciada (pedido A4 do plano), com gasto da semana de cada uma [CONFIRMAR], e pede à Ufape a data única da 68618 antes de qualquer decisão sobre ela.
 
-**Ressalvas:** sem gasto por campanha, 6 ativas podem pesar muito ou quase nada. Não se sabe se essas turmas ainda aceitam entrada (política [CONFIRMAR]). A data de 573, 68614 e 68618 está em [CONFIRMAR] (P6).
+**Ressalvas:** sem gasto por campanha, 6 ativas podem pesar muito ou quase nada. Não se sabe se essas turmas ainda aceitam entrada (política [CONFIRMAR]). As datas de 573, 68614 e 68618 são as da planilha (as do catálogo), que valem pela decisão 12 da Ufape (26/10/2026).
 
 ### Pergunta 2. A mídia ligada acompanha o ticket?
 
@@ -96,7 +97,7 @@ As 5 Pós de maior ticket ainda não iniciadas que aparecem na visão:
 
 **Em até 30 dias (até 25/11/2026), sem campanha:**
 
-- Na visão: **nenhuma**. As 5 linhas da faixa pela data do catálogo (707, 68604, 68606, o simpósio de 20/11 e 573, com 19 dias pelo catálogo) estão ativas.
+- Na visão: **nenhuma**. As 5 linhas da faixa pela data do catálogo (707, 68604, 68606, o Workshop Brasileiro de Neuromonitorização de 20/11 e 573, com 19 dias pelo catálogo) estão ativas.
 - No catálogo, itens abertos com início em até 30 dias que **não constam** na visão (status de mídia desconhecido): Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária (68665, 01/11/2026, 6 dias) e Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos (68666, 25/11/2026, 30 dias). Ticket de R$ 100,00 cada.
 - Logo depois da janela, também sem status na visão: as 22 provas de bolsa de 27/11/2026 (32 dias) e o curso 68637 (28/11/2026, 33 dias, possível duplicado de 623).
 
@@ -129,7 +130,7 @@ Mais 9 iniciadas com campanha pausada (V11, V15, V23, V24, V25, V26, V29, V30, V
 | Estático e vídeo | 6 | 4 | 10 |
 | Só vídeo | 0 | 1 | 1 |
 | Com 5 ângulos | 9 | 6 | 15 |
-| Sem 5 ângulos | 10 (1 é o simpósio, onde a visão diz que a regra não se aplica) | 16 | 26 (63,4%) |
+| Sem 5 ângulos | 10 (1 é o Workshop de Neuromonitorização, onde a visão diz que a regra não se aplica) | 16 | 26 (63,4%) |
 | Sem 5 ângulos **ou** só estático | 15 | 19 | 34 (82,9%) |
 | Com 5 ângulos **e** vídeo | 4 (68612, 68606, 698, 68608) | 3 (68605, 659, 366) | 7 |
 
@@ -137,12 +138,12 @@ Cruzamento das 19 ativas:
 
 | | Com 5 ângulos | Sem 5 ângulos |
 |---|---|---|
-| Só estático | 5 (68604, 68610, 573, 68614, 289) | 8 (650, 68662, 706, 586, 707, simpósio, 623, Paciente Grave) |
+| Só estático | 5 (68604, 68610, 573, 68614, 289) | 8 (650, 68662, 706, 586, 707, Workshop de Neuromonitorização, 623, Paciente Grave) |
 | Estático e vídeo | 4 (68612, 68606, 698, 68608) | 2 (554, 662) |
 
 **Insight:** das 13 ativas em turma ainda não iniciada, só 3 (68606, 698, 68608) têm vídeo e os 5 ângulos. A Pós com reta final mais curta e maior ticket entre as ativas (707, 4 dias, R$ 47.700,00) roda o pacote mais pobre: só estático e sem 5 ângulos.
 
-**Ação:** criativos-de-anuncio prioriza o pacote completo onde ainda dá tempo (33 dias ou mais pela data do catálogo: 68610, 68614 e 623), e não onde faltam 4 ou 5 dias. A 573 fica fora da lista: começa em 19 dias pelo catálogo (34 pela visão) [CONFIRMAR data, P6].
+**Ação:** criativos-de-anuncio prioriza o pacote completo onde ainda dá tempo (33 dias ou mais pela data do catálogo: 68610, 68614 e, no lugar da 623, a 68637, porque nenhuma campanha nova aponta para a 623 até a correção da página, decisão 13), e não onde faltam 4 ou 5 dias. A 573 fica fora da lista: começa em 19 dias pela data da planilha, que vale (decisão 12; 34 pela visão).
 
 **Ressalvas:** a visão não diz quais ângulos existem nem o desempenho de cada formato. "Com 5 ângulos" não prova resultado melhor; é hipótese a testar quando houver números.
 
@@ -166,7 +167,7 @@ A Pós tem 14 das 19 ativas (73,7%).
 |---|---|---|---|---|---|---|
 | Pós (30 turmas e 22 provas) | 52 | 27 | 8 | 12 | 7 | 25 (22 provas, 68636, 68629, 359) |
 | Livres | 55 | 4 | 3 (623, 573, 68614) | 1 (68618) | 0 | 51 |
-| Eventos | 3 | 3 | 2 (simpósio, 700 [CONFIRMAR]) | 0 | 1 (202 [CONFIRMAR]) | 0 |
+| Eventos | 3 | 3 | 2 (Workshop de Neuromonitorização, 700 [CONFIRMAR]) | 0 | 1 (202 [CONFIRMAR]) | 0 |
 | **Total** | **110** | **34 (30,9%)** | **13** | **13** | **8** | **76 (69,1%)** |
 
 Conta: a tabela de status da seção 3 do plano lista 34 itens com status e 76 "não consta" (25 na onda 1, 46 na onda 2, 5 na onda 3). Bate com a visão: das 35 linhas não iniciadas, 34 caem no recorte e 1 (Pneumologia, ligada ao código 670 fora do ar) fica fora.
@@ -186,7 +187,7 @@ Conta: a tabela de status da seção 3 do plano lista 34 itens com status e 76 "
 | A9 Oftalmologia | 4 | 1 (707) | 0 | 0 | 3 |
 | A10 Oncologia | 4 | 0 | 0 | 1 (68628) | 3 |
 | A11 Laboratório | 8 | 1 (68608) | 2 (68615, 333) | 1 (202 [CONFIRMAR]) | 4 |
-| A12 Neurologia | 4 | 1 (simpósio) | 0 | 1 (68616) | 2 |
+| A12 Neurologia | 4 | 1 (Workshop de Neuromonitorização) | 0 | 1 (68616) | 2 |
 | A13 Medicina felina | 6 | 0 | 0 | 0 | 6 |
 | A14 Outras especialidades | 9 | 0 | 4 (679 [CONFIRMAR], 382, 341, 60) | 2 (699, 719) | 3 |
 | **Total** | **110** | **13** | **13** | **8** | **76** |
@@ -213,7 +214,7 @@ Conta: a tabela de status da seção 3 do plano lista 34 itens com status e 76 "
 |---|---|---|---|---|---|
 | 1 | Gestor-de-midia leva à pessoa do marketing a decisão de pausar ou manter as 6 campanhas ativas em Pós já iniciadas (650, 68662, 706, 586, 554, 68612), com o gasto da última semana de cada uma | 31,6% das ativas estão em turma iniciada (pergunta 1) | gasto e diária [CONFIRMAR]; esta análise não propõe valor | liberar orçamento para onda 1 sem gastar em turma que talvez não aceite entrada | reativar no gerenciador de anúncios (ação humana) |
 | 2 | Ufape inclui na visão de campanhas uma linha com código do catálogo e status de mídia para as 22 provas de bolsa, 68665, 68666, 68637, 616 e os contínuos, informa para onde leva a campanha ativa da V67 e envia o pacote de dados da seção 4 | 69,1% do recorte não tem status de mídia (insight 1); V67 pode levar a item sem página (pergunta 5) | sem custo de mídia | a squad passa a ver a mídia de todo o recorte, a começar pela onda 1 | não se aplica |
-| 3 | Gestor-de-midia e criativos-de-anuncio avaliam reativar 68615, 366 e 68617 (criativos com 5 ângulos já prontos) na janela que as metas de custo indicarem, e direcionam a produção de vídeo e ângulos para itens com 33 dias ou mais pela data do catálogo (68610, 68614, 623); 573 (19 dias pelo catálogo) só depois de confirmada a data [CONFIRMAR, P6] | criativo pronto parado e pacote pobre na reta curta (insight 2, pergunta 4) | verba [CONFIRMAR] | mais cobertura de ângulos com menos produção nova | pausar de novo no gerenciador (ação humana) |
+| 3 | Gestor-de-midia e criativos-de-anuncio avaliam reativar 68615, 366 e 68617 (criativos com 5 ângulos já prontos) na janela que as metas de custo indicarem, e direcionam a produção de vídeo e ângulos para itens com 33 dias ou mais pela data do catálogo (68610, 68614 e 68637, que substitui a 623 até a correção da página, decisão 13); 573 (19 dias pela data da planilha, que vale pela decisão 12) entra na reta curta | criativo pronto parado e pacote pobre na reta curta (insight 2, pergunta 4) | verba [CONFIRMAR] | mais cobertura de ângulos com menos produção nova | pausar de novo no gerenciador (ação humana) |
 
 ---
 
@@ -413,7 +414,7 @@ Dias pela data do catálogo; entre parênteses, a da visão quando diverge.
 | V33 | 707 | Pós | 4 | Estático | Sem 5 | R$ 47.700,00 |
 | V34 | 68604 | Pós | 5 | Estático | Com 5 | R$ 30.000,00 |
 | V35 | 68606 | Pós | 12 | Estático e vídeo | Com 5 | R$ 35.400,00 |
-| V36 | simpósio de 20/11 | Eventos | 25 | Estático | não se aplica | R$ 1.250,00 presencial; R$ 450,00 transmitido |
+| V36 | Workshop Brasileiro de Neuromonitorização de 20/11 (a visão usa outro nome) | Eventos | 25 | Estático | não se aplica | R$ 1.250,00 presencial; R$ 450,00 transmitido |
 | V37 | 698 | Pós | 33 | Estático e vídeo | Com 5 | R$ 26.970,00 |
 | V38 | 68608 | Pós | 33 | Estático e vídeo | Com 5 | R$ 35.400,00 |
 | V39 | 68610 | Pós | 33 | Estático | Com 5 | R$ 30.000,00 |
@@ -502,13 +503,19 @@ O qa-de-marketing confere de novo com esta auditoria e com auditorias/conformida
 
 ---
 
+## Mudanças desta versão
+
+- Seções 1 e 6: o evento de 20/11 passa a ser chamado de Workshop Brasileiro de Neuromonitorização (decisão 7); sai "simpósio".
+- Seções 1 e 3 e listas: datas pela planilha, inclusive 573, 68614, 68618, 68662 e 662 (decisão 12); saem os [CONFIRMAR] de data (P6).
+- Seções 1 e 3: a produção de criativos que ia para a 623 vai para a 68637 até a correção da 623 (decisão 13).
+
 ## Fatos (com fonte)
 
 - A visão de campanhas tem 67 linhas: 19 ativas, 22 pausadas e 26 sem campanha (docs/visao-de-campanhas-2026-10-26.md, contagem V1 a V67).
 - Por linha: Pós 42 (14 ativas), Livres 21 (3 ativas), Eventos 4 (2 ativas), Graduação 0 (visão cruzada com contexto/catalogo-de-cursos.md).
 - 6 ativas estão em Pós já iniciadas: 650, 68662, 706, 586, 554 e 68612 (visão; plano do cmo, seção 2.1).
 - Pela data do catálogo, 10 das 11 linhas com início em até 60 dias estão ativas; a exceção é 68618, pausada a 53 dias (catálogo, seção 4; visão, V63).
-- 573 começa em 14/11/2026 pelo catálogo (19 dias) e em 29/11/2026 pela visão (catálogo, seção 4; visão, V41).
+- 573 começa em 14/11/2026 pelo catálogo (19 dias) e em 29/11/2026 pela visão (catálogo, seção 4; visão, V41). Vale a data da planilha, a do catálogo (decisão 12 da Ufape, 26/10/2026).
 - 30 das 41 campanhas com status são só estáticas; 26 não têm os 5 ângulos (visão).
 - 34 dos 110 itens do recorte constam na visão; 76 não constam, inclusive as 22 provas de bolsa (plano do cmo, seção 3).
 - A1 Anestesiologia e dor, com 14 itens, não tem campanha ativa; A1, A7, A10, A13 e A14 somam 43 itens sem campanha ativa (plano do cmo, seção 2.3, cruzado com a visão).
@@ -532,7 +539,7 @@ O qa-de-marketing confere de novo com esta auditoria e com auditorias/conformida
 - [CONFIRMAR] Metas de matrícula, verba por linha e vagas restantes por turma.
 - [CONFIRMAR] Status de mídia das 22 provas de bolsa, 68665, 68666, 68637, 616, 68636, 68629, 359, 68638, 560 e dos contínuos.
 - [CONFIRMAR] Para onde leva a campanha ativa da linha V67 da visão: produto 700 ou a linha "Paciente Grave" sem página.
-- [CONFIRMAR] Código do catálogo nas linhas V13, V14, V22, V48, V50, V66 e V67, e uma data única para os 10 itens da seção 6.4 (em especial 573, 68614 e 68618, P6).
+- [CONFIRMAR] Código do catálogo nas linhas V13, V14, V22, V48, V50, V66 e V67, As datas dos 10 itens da seção 6.4 seguem a planilha (decisão 12), inclusive 573, 68614, 68618, 68662 e 662.
 - [CONFIRMAR] Política de entrada em turma já iniciada e motivo da pausa de 657, 341 e 352.
 - [CONFIRMAR] Regra e validade da promoção de 20% da 341 (P16 do plano).
 - [CONFIRMAR] Ferramentas de CRM, GA4 e atendimento (ufape-geral.md, seção Ferramentas).

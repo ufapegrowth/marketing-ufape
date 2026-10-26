@@ -4,7 +4,7 @@
 - Etapa do plano: M.1 (seção 4 do plano do cmo, "Mapa mental e JSON")
 - Linha: geral (vale para graduacao, pos, livres e eventos)
 - Data: 26/10/2026 (segunda-feira)
-- Versão: 3 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: campos de janela de silêncio, de participação em evento e de vínculo no CRM, fila D2, limite de 1 mensagem de campanha por dia e padrão de UTM D11 e D12 (seção 6 nova). Mudanças no fim do arquivo.
+- Versão: 4 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo nos exemplos JSON antigos (707-p05, 68651-p03 e "PROVA PRESENCIAL"); mudanças no fim do arquivo. A versão 3 aplicou a seção 12 do plano do cmo e os ajustes do qa: campos de janela de silêncio, de participação em evento e de vínculo no CRM, fila D2, limite de 1 mensagem de campanha por dia e padrão de UTM D11 e D12 (seção 6 nova). Mudanças no fim do arquivo.
 - Status: versão corrigida depois do veredito do qa-de-marketing (itens B1 a B6). Rascunho para nova conferência do qa-de-marketing e depois para a aprovação da pessoa do marketing. Nada foi gerado, publicado, enviado ou pago. Nenhum arquivo de .claude/commands foi criado: o texto dos workflows está na seção 3.9, pronto para virar arquivo depois da aprovação.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -143,7 +143,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | Campo | Cl. | Tipo | Obrig. | Valores permitidos | Origem | Se vazio |
 |---|---|---|---|---|---|---|
 | local | C | texto | sim | cópia literal ("São Paulo", "SP", "Online", "Goiânia", "Lima - Peru" etc.) | catálogo | "[CONFIRMAR]" |
-| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo e, na prova de bolsa, o texto da ficha, como "PROVA PRESENCIAL") | catálogo ou ficha | "[CONFIRMAR]" |
+| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo e, na prova de bolsa, o texto da ficha, como "PROVA PRESENCIAL", que é texto a corrigir no site: as provas são online, decisão 11 da Ufape) | catálogo ou ficha | "[CONFIRMAR]" |
 | modalidade_normalizada | C | texto | sim | presencial, semipresencial, ead, online, gravacao, "[CONFIRMAR]". Tabela de equivalência em 1.4 | cmo, a partir de modalidade | "[CONFIRMAR]" |
 | turma | C | texto ou null | sim | numeral romano do catálogo | catálogo | "[CONFIRMAR]" em pos com coluna vazia; null (não se aplica) em tipos sem turma (provas, livres, graduação, eventos) |
 | carga_horaria | C | texto ou null | sim | cópia literal ("600 h", "4.195 h + 75 h de atividades complementares") | catálogo | "[CONFIRMAR]"; null (não se aplica) em prova_de_bolsa (a ficha da prova repete a carga horária da Pós, não a da prova) [SUPOSIÇÃO] |
@@ -246,7 +246,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
   - kit-de-lancamento-evento, variação simpósio: pagina (1), plano_8_canais (1), plano_de_midia (1), post_por_palestrante (1 por palestrante autorizado), posts_organicos (4), criativos (3), email_convite (1), email_lembrete (1), email_programacao (1), mensagem_vespera (1), mensagem_do_dia (1).
   - kit-de-lancamento-graduacao (sem página; a LP nunca é alterada): plano_8_canais (1), plano_de_midia (1), posts_organicos (6), criativos_com_utm (4), whatsapp_prazos_do_edital (5), email_prazos_do_edital (3), roteiro_video (2).
   - Provas de bolsa e contínuos (sem template): entregas definidas pelo cmo na campanha única ou no kit sempre ligado, com chaves livres em letras minúsculas e sublinhado.
-- modalidade_normalizada, equivalências: "Presencial" e "PROVA PRESENCIAL" são presencial; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
+- modalidade_normalizada, equivalências: "Presencial" é presencial; "PROVA PRESENCIAL" é online, porque as provas de bolsa são online (decisão 11 da Ufape, 26/10/2026) e a página é que está desatualizada; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
 - area.codigo e nomes: A1 Anestesiologia e dor; A2 Cardiorrespiratório; A3 Emergência, terapia intensiva e clínica médica; A4 Cirurgia, ortopedia e reabilitação; A5 Diagnóstico por imagem e endoscopia; A6 Gastroenterologia; A7 Endocrinologia e nefrologia; A8 Dermatologia; A9 Oftalmologia; A10 Oncologia; A11 Laboratório; A12 Neurologia; A13 Medicina felina; A14 Outras especialidades (plano, seção 2.3).
 - Evolução do esquema: campo novo opcional não muda a versão; remover, renomear, mudar tipo ou valor permitido exige versao_schema 2 e um novo documento de fluxo. Os arquivos da versão 1 continuam válidos.
 
@@ -415,7 +415,7 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
-  "vagas": { "turma_minima": 20, "vagas_ofertadas": null, "vagas_restantes": null },
+  "vagas": { "turma_minima": 15, "vagas_ofertadas": null, "vagas_restantes": null },
   "equipe": { "coordenadores_na_ficha": 3, "docentes_na_ficha": 19, "autorizacoes_de_imagem_registradas": null },
   "status_midia": {
     "campanha": "ativa",
@@ -472,7 +472,7 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
     { "id": "707-p02", "ref_plano": "P2", "tipo": "certificacao", "descricao": "A página oficial tem bloco de certificação. Conferir se traz a frase de certificação que a squad não repete (auditoria de 26/10, seção 9) antes de anúncio que leve a ela.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "docs/auditoria-do-catalogo-2026-10-26.md, seção 9", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p03", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas ofertadas, vagas restantes e números agregados por turma. Nenhuma peça diz últimas vagas.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p04", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e voz dos docentes não registrada; post por docente só depois do registro.", "marcador": "[CONFIRMAR autorização]", "campos": ["equipe.autorizacoes_de_imagem_registradas", "kit.entregas[5].autorizados"], "bloqueia": ["autorizacao_docente"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e citação de todos os docentes registrada pela Ufape em 26/10/2026 (decisões 8 e 10); post por docente liberado. Falta o cmo lançar as contagens.", "marcador": "[CONFIRMAR]", "campos": ["equipe.autorizacoes_de_imagem_registradas", "kit.entregas[5].autorizados"], "bloqueia": [], "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p06", "ref_plano": "seção 4, situação especial da onda 1", "tipo": "kit", "descricao": "Inventário do que já existe do kit pendente com a Ufape; sem ele os prazos das entregas e a quantidade das mensagens de reta final ficam em aberto.", "marcador": "[CONFIRMAR]", "campos": ["kit.inventario", "kit.entregas[*].prazo", "kit.acrescimos[*].prazo", "kit.acrescimos[1].quantidade"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p07", "ref_plano": "seção 10", "tipo": "data", "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data.", "marcador": "[CONFIRMAR]", "campos": ["fim_das_inscricoes"], "bloqueia": [], "fonte": "contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p08", "ref_plano": "seção 5", "tipo": "outro", "descricao": "Estado dos 8 canais é proposta do cmo, a confirmar nas etapas 1.20 e 1.11.", "marcador": "[SUPOSIÇÃO]", "campos": ["canais[*]"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5", "aberta_em": "2026-10-26", "resolvida_em": null }
@@ -497,7 +497,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
 - O mínimo de 15 alunos é copiado da página da prova (a ficha o repete sem contradição). Ele diverge dos 20 das páginas de curso: a divergência vira pendência. O resultado sai por WhatsApp ou e-mail (contexto da linha); o trecho REGRAS da ficha cita o site e 7 dias de prazo, e isso também vira pendência.
 - A carga horária da ficha (500 h) é da Pós, não da prova: carga_horaria é null (não se aplica).
 - O texto da página traz uma afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte: nada disso é copiado.
-- As cópias da ficha são literais ("PROVA PRESENCIAL", "7.0 (mínimo 70 % de acerto)"). O preço vem do catálogo, que agora tem a coluna de preço.
+- As cópias da ficha são literais ("PROVA PRESENCIAL", "7.0 (mínimo 70 % de acerto)"). Pela decisão 11 da Ufape, a prova é online: modalidade_normalizada e prova_de_bolsa.formato ficam "online", e o texto da página vira a pendência 68651-p10. O preço vem do catálogo, que agora tem a coluna de preço.
 - Este exemplo passa na conferência C11: todo "[CONFIRMAR]" e todo null por origem vazia (slug_sugerido, fim_das_inscricoes, vagas, kit, metas, números, ref_aprovacao, turma de destino e a sugestão) é citado em "campos" de uma pendência.
 
 ```json
@@ -541,7 +541,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "relacionados": [ { "id": "pos-68608", "relacao": "turma_de_destino", "natureza": "[SUPOSIÇÃO]" } ],
   "local": "São Paulo",
   "modalidade": "PROVA PRESENCIAL",
-  "modalidade_normalizada": "presencial",
+  "modalidade_normalizada": "online",
   "turma": null,
   "carga_horaria": null,
   "modulos": null,
@@ -559,7 +559,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "prova_de_bolsa": {
     "data_da_prova": "2026-11-27",
     "horario_texto": "9 às 13h",
-    "formato": "presencial",
+    "formato": "online",
     "local_texto": "São Paulo",
     "nota_de_corte_texto": "7.0 (mínimo 70 % de acerto)",
     "turma_de_destino": { "codigo": "[CONFIRMAR]", "sugestao_do_plano": "68608", "natureza_da_sugestao": "[SUPOSIÇÃO]" },
@@ -618,13 +618,14 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "pendencias": [
     { "id": "68651-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; as peças saem sem afirmação de certificação.", "marcador": "[CONFIRMAR]", "campos": [], "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p02", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A página da prova não traz a turma de destino da bolsa. O contexto da linha marca como a confirmar.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.turma_de_destino.codigo"], "bloqueia": ["peca_final"], "fonte": "contexto/pos-graduacao.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p03", "ref_plano": "contexto/pos-graduacao.md", "tipo": "divergencia", "descricao": "Turma mínima de 15 na página da prova contra 20 nas páginas de curso. O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.minimo_para_confirmar_turma", "prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado"], "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p03", "ref_plano": "U1 do plano do cmo", "tipo": "divergencia", "descricao": "Turma mínima fechada em 15, também na Pós (decisão 11). Segue aberto: o trecho REGRAS da ficha cita o site como local do resultado e 7 dias para a matrícula, contra 10 dias no topo.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado"], "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md; docs/execucao-2026-10-26.md, decisão 11", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p04", "ref_plano": "P2", "tipo": "conformidade", "descricao": "O texto da página oficial traz afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte. Nada disso é repetido; anúncio que leve à página é sinalizado.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p05", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas e número de inscritos na prova.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p06", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p07", "ref_plano": "seção 3", "tipo": "outro", "descricao": "Status de mídia: a visão de campanhas não traz as provas; só a Ufape confirma se há campanha.", "marcador": "[CONFIRMAR]", "campos": ["status_midia.campanha"], "bloqueia": [], "fonte": "docs/visao-de-campanhas-2026-10-26.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p08", "ref_plano": "seção 4", "tipo": "kit", "descricao": "Kit de campanha única definido pelo cmo: prazos, quantidades, fim das inscrições e slug da prova ainda sem definição.", "marcador": "[CONFIRMAR]", "campos": ["slug_sugerido", "fim_das_inscricoes", "kit.entregas[*].prazo", "kit.entregas[*].quantidade_minima"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p09", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A sugestão 68608 como turma de destino é do plano e começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "campos": ["prova_de_bolsa.turma_de_destino.sugestao_do_plano", "relacionados[0]", "canais[*]"], "bloqueia": [], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null }
+    { "id": "68651-p09", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A sugestão 68608 como turma de destino é do plano e começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "campos": ["prova_de_bolsa.turma_de_destino.sugestao_do_plano", "relacionados[0]", "canais[*]"], "bloqueia": [], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p10", "ref_plano": "U2 do plano do cmo", "tipo": "divergencia", "descricao": "A página diz PROVA PRESENCIAL; a prova é online (decisão 11), texto a corrigir no site. Acesso à prova online e regras de documento e celular a confirmar.", "marcador": "[CONFIRMAR]", "campos": ["modalidade", "prova_de_bolsa.formato"], "bloqueia": [], "fonte": "docs/execucao-2026-10-26.md, decisão 11; ficha da 68651", "aberta_em": "2026-10-26", "resolvida_em": null }
   ],
   "aprovacoes": [
     { "ref": "A3", "o_que": "Tratar as 22 provas de bolsa como uma campanha única com variação por especialidade, e os 47 contínuos com kit sempre ligado por área", "por_que": "Não há kit de prova nem de contínuo nos templates; uma peça por prova multiplicaria o trabalho sem ganho claro.", "quanto": "Reduz cerca de 150 rodadas.", "efeito_esperado": "Campanha das provas pronta até 03/11.", "como_desfazer": "Voltar a um kit por item.", "status": "aprovado", "pedido_em": "2026-10-26", "decidido_em": "2026-10-26", "decidido_por_papel": "pessoa_do_marketing" },
@@ -634,7 +635,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "historico": [
     { "revisao": 1, "em": "2026-10-26", "campo": "(arquivo)", "de": null, "para": "criado", "motivo": "Criação a partir do catálogo de 26/10/2026, da ficha, do contexto da linha e do plano do cmo.", "origem": "contexto/catalogo-de-cursos.md", "aplicado_por": "cmo" }
   ],
-  "resumo": { "pendencias_abertas": 9, "bloqueado": true }
+  "resumo": { "pendencias_abertas": 10, "bloqueado": true }
 }
 ```
 
@@ -1159,6 +1160,10 @@ O que é suprimido não acumula para a semana seguinte, salvo onde a seção 12.
 ---
 
 ## Mudanças desta versão
+
+- Versão 4 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo só nos exemplos JSON antigos: 707-p05 deixa de bloquear o post por docente (autorização registrada, decisões 8 e 10) e fica só a contagem; 68651-p03 perde a turma mínima (fechada em 15, decisão 11) e fica com a contradição interna da ficha (U1); "PROVA PRESENCIAL" passa a online na normalização e no formato da prova, com a pendência 68651-p10 (U2) e o resumo do exemplo com 10 pendências abertas.
+
+### Mudanças da versão 3
 
 - Versão 3 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa. A versão 2 tinha as correções B1 a B6.
 - Seção 6 nova: campos fim_janela_silencio (D8), participou_evento_<código> e vinculo_ufape (D10) no contato do CRM; fila D2, limite de 1 mensagem de campanha por contato por dia e teto semanal D1; padrão de UTM D11 e D12.
