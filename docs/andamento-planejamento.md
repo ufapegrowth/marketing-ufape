@@ -37,7 +37,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue (livres e eventos sem qa) |
 | 1.10 | analista-de-dados | geral | entregue |
 | 1.11 | gestor-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos (o arquivo geral é só o memorando da onda 1) |
-| 1.12 | analise-de-midia | pos, livres, eventos | falta |
+| 1.12 | analise-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos |
 | 1.13 | estrategia-de-midia | pos, livres | falta (só graduacao existe) |
 | 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
 | 1.15 | anuncios-linkedin, anuncios-tiktok | pos | falta |
@@ -79,6 +79,7 @@ Segue as dependências da seção 4 do plano do cmo.
 - Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
 - Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
+- Análise de mídia da Pós: datas de 68662 e 662 parecem trocadas entre planilha e site; linha "Pneumologia" da visão parece ser da 670 (encerrada), não da 68636. Conferir com a Ufape.
 - A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
 
 ## Próximos passos
@@ -97,3 +98,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.9 livres e eventos e 1.20 pos entregues. Conflitos registrados na seção própria |
 | 26/10/2026 | 1.29 newsletter geral entregue (quinzenal para Pós, Livres e Eventos; Graduação fora) |
 | 26/10/2026 | 1.11 pos entregue (metas como fórmula, tetos só com preços do catálogo, divisão de verba em percentuais [SUPOSIÇÃO], PP1 a PP14). Lote A concluído. Lote B iniciado |
+| 26/10/2026 | 1.12 pos entregue: 14 campanhas ativas, 8 com bloqueio estrutural (turma iniciada ou página errada); roteiro de leitura para quando os números chegarem; pedidos A1 a A5 |
