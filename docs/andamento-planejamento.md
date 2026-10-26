@@ -159,3 +159,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Camada 1 fechada. Criado docs/pendencias-camada-1.md com aprovações R1 a R8 e verba, perguntas U1 a U10 e metas, correções do site e os primeiros passos da semana |
 | 26/10/2026 | CEO: provas de bolsa e Livres por último; Graduação e Pós primeiro. Decisão 14 no briefing. Iniciados: fechamento do kit da Graduação e 2.2 mensagens da Pós |
 | 26/10/2026 | Decisões 15 a 17 gravadas no briefing (verba, meta, teto pelo cmo). Iniciados: cmo define o teto com referências de mercado; gestor-de-midia refaz metas e verba da Pós e da Graduação |
+| 26/10/2026 | Graduação: posts-sociais v3 e campanhas-de-nutricao v2 corrigidos após o qa-c; novos copy-de-mensagens-graduacao (kit: WhatsApp e e-mails) e tiktok-graduacao (roteiros). Pós: 2.2 mensagens-pos por área entregue. Limite de uso interrompeu os agentes do teto de mensagens (cmo) e das metas e verba (gestor Pós e Graduação); retomados |
