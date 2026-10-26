@@ -34,27 +34,27 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.6 | estrategia-de-marca | geral | entregue |
 | 1.7 | posicionamento | pos, livres (e eventos) | entregue |
 | 1.8 | estrategia-de-oferta | pos, livres (e eventos, graduacao) | entregue |
-| 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue (livres e eventos sem qa) |
+| 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue; livres e eventos aprovados com ajustes no qa do lote A |
 | 1.10 | analista-de-dados | geral | entregue |
-| 1.11 | gestor-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos (o arquivo geral é só o memorando da onda 1) |
+| 1.11 | gestor-de-midia | pos, livres, eventos | entregue; pos aprovado com ajustes; livres e eventos sem qa |
 | 1.12 | analise-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos |
-| 1.13 | estrategia-de-midia | pos, livres | falta (só graduacao existe) |
+| 1.13 | estrategia-de-midia | pos, livres | pos entregue (sem qa); falta livres |
 | 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
 | 1.15 | anuncios-linkedin, anuncios-tiktok | pos | falta |
 | 1.16 | lacunas-de-conteudo | pos, livres | entregue |
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
-| 1.20 | estrategia-social | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos |
+| 1.20 | estrategia-social | pos, livres, eventos | pos CORRIGIR (qa lote A, SP1); eventos entregue (sem qa); livres em execução |
 | 1.21 | youtube | pos, livres | falta |
 | 1.22 | podcast, x | geral | falta |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
 | 1.24 | distribuicao | pos, livres | falta |
 | 1.25 | crescimento-de-audiencia | geral | falta |
-| 1.26 | estrategia-de-relacionamento | pos, livres | pos entregue (sem qa); falta livres |
+| 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | falta |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
-| 1.29 | newsletter | geral | entregue (sem qa) |
+| 1.29 | newsletter | geral | CORRIGIR (qa lote A, NG1 e NG2) |
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
 | 1.32 | analise-de-campanha | pos, livres, eventos | entregue |
@@ -75,7 +75,11 @@ Segue as dependências da seção 4 do plano do cmo.
 ## Conflitos entre saídas para o cmo resolver
 
 - Calendário de mídia das provas revisto na 1.11 pos (PP3: 40%, 35% e 25%, pico de 03/11 a 09/11).
-- Datas da mídia do workshop: o memorando gestor-de-midia-geral diz 30/10, 06/11 e pausa em 18/11; a estrategia-de-campanha-eventos diz 03/11, 10/11 e 19/11. Fechar na 1.11 de eventos.
+- Datas da mídia do workshop: RESOLVIDO na 1.11 de eventos (pedido EVM1, aguarda aprovação humana): criativos 1 e 2 em 03/11, mudança do frio em 10/11, presencial pausa em 18/11 às 23h59, transmitido até 19/11. Memorando, estrategia-de-campanha-eventos e criativos-de-anuncio-eventos ficam com notas para atualizar.
+- Grade do @ufapevet: a 1.20 de eventos propõe teto de 2 posts por dia e 10 por semana somando as quatro linhas [SUPOSIÇÃO]; em 06/11 Pós e Graduação já somam 3. O cmo aprova a grade.
+- Mídia da Pós (1.13): YouTube contado duas vezes no plano do gestor (EM8), diárias de 289 e 662 sem frente (EM9), teste de LinkedIn curto (EM10).
+- Relacionamento de Livres: choques NL1 a NL7; de 02/11 a 29/11 quem está nas provas só recebe Livres por WhatsApp em 09, 11 e 13/11; a 1.9 de Livres propõe teto menor que o da Pós.
+- analise-de-campanha-livres marca relatório em 02/11 (feriado); gestor de Livres usa 03/11.
 - Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
 - Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
@@ -99,3 +103,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.29 newsletter geral entregue (quinzenal para Pós, Livres e Eventos; Graduação fora) |
 | 26/10/2026 | 1.11 pos entregue (metas como fórmula, tetos só com preços do catálogo, divisão de verba em percentuais [SUPOSIÇÃO], PP1 a PP14). Lote A concluído. Lote B iniciado |
 | 26/10/2026 | 1.12 pos entregue: 14 campanhas ativas, 8 com bloqueio estrutural (turma iniciada ou página errada); roteiro de leitura para quando os números chegarem; pedidos A1 a A5 |
+| 26/10/2026 | Lote B (menos 1.20 livres) entregue: 1.11 livres e eventos, 1.13 pos, 1.20 eventos, 1.26 livres, 1.12 pos. qa do lote A: 4 aprovados com ajustes, estrategia-social-pos e newsletter-geral voltam para correção |
