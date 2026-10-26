@@ -3,6 +3,7 @@
 - **Agente:** estrategia-de-relacionamento (departamento 07, E-mail, WhatsApp e Relacionamento), etapa 1.26 da camada 1
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa (RLv1 a RLv3 da revisão saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md). Entradas novas desta versão: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1 a D17, encomendas em 12.10); docs/execucao-2026-10-26.md, decisões 10 a 13; saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md, versão 2. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing (auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. A squad não dispara nada: e-mail e WhatsApp são textos e regras para o CRM enviar, só para quem deu consentimento. Nada é publicado, enviado ou pago.
 - **Entradas lidas:**
   - .claude/agents/estrategia-de-relacionamento.md (instrução do agente; não cita skill. Usei como apoio .claude/skills/mapear-regua/SKILL.md, como na estratégia da Pós)
@@ -31,11 +32,11 @@
 
 ## 0. Resumo em 6 linhas
 
-1. A base de contatos é uma só para Pós, Livres e Eventos. Esta estratégia **herda sem mudar** as regras da estratégia da Pós: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana somando todas as linhas, um canal por dia, WhatsApp só em dia útil das 9h às 18h, os mesmos dias sem envio e o SAIR que vale para todas as linhas [SUPOSIÇÃO até a Ufape confirmar, pedido R6 da Pós].
+1. A base de contatos é uma só para Pós, Livres e Eventos. Vale o teto único D1 do cmo, sem sub-teto de Livres: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana somando todas as linhas e a newsletter, no máximo 1 mensagem de campanha por dia em qualquer canal, WhatsApp só em dia útil das 9h às 18h, e-mail em qualquer dia das 7h às 19h, os mesmos dias sem envio e o SAIR que vale para todas as linhas [SUPOSIÇÃO até a Ufape confirmar, pedido R1 do cmo]. Quando réguas disputam a semana, vale a fila D2.
 2. Em Livres, o WhatsApp é o canal da data (presencial, grupo novo, véspera, dia) e da conversa sobre viagem, turma e pagamento; o e-mail é o canal do roteiro, do preço por extenso, do acesso ao curso online e do degrau seguinte na mesma área.
-3. São 12 segmentos (SL1 a SL12), do lead de Livres ao ex-aluno, e 10 programas (RL1 a RL10). Os mais urgentes são os kits de mensagem de 573 (14/11), 68614 e 68637 ou 623 (28/11) e os grupos 68665 e 68666; os contínuos entram na base só a partir de 30/11, porque de 02/11 a 27/11 a base da Pós e do Workshop já ocupa o teto.
+3. São 12 segmentos (SL1 a SL12), do lead de Livres ao ex-aluno, e 10 programas (RL1 a RL10). Os mais urgentes são os kits de mensagem de 573 (14/11), 68614 e 68637 (28/11; nenhuma campanha nova aponta para a 623 até a correção, decisão 13) e os grupos 68665 e 68666; os contínuos entram na base só a partir de 30/11, porque de 02/11 a 27/11 a base da Pós e do Workshop já ocupa o teto.
 4. A passagem de Livres para Pós não gera mensagem nova: o comprador de Livres é marcado no CRM e entra no programa de pré-lançamento da Pós (P5, segmento S9 da Pós), que é o dono do convite. A régua de Livres nunca oferece Pós, e a da Pós nunca oferece Livres.
-5. Há 7 choques de calendário e de regra (NL1 a NL7) para o cmo decidir, o maior deles na semana de 02 a 08/11, em que a base das provas não comporta nenhuma mensagem de Livres.
+5. Os 7 choques de calendário e de regra (NL1 a NL7) foram decididos pelo cmo na seção 12 do plano (D1 a D4, D9 e 12.9); o maior deles, na semana de 02 a 08/11, se mantém: a base das provas não comporta nenhuma mensagem de Livres.
 6. Nada roda antes das quatro respostas que a estratégia da Pós já pediu (CRM e ferramenta de WhatsApp, registro de consentimento com base legal, quem aprova envio em massa, templates da Meta), mais a base legal para usar a lista de compradores de Livres (pedido U13 do plano 1.9).
 
 ---
@@ -53,11 +54,11 @@
 | E-mail no plano de Livres | Suporte, "para a base com consentimento" | estrategia-de-marketing-livres, seção 5 |
 | Kit mínimo por turma de Livres | 3 mensagens de WhatsApp e 1 e-mail por turma liberada (mais página, 4 posts, 2 criativos e plano dos 8 canais) | templates/kit-de-lancamento-livres.md |
 | Itens com data no trimestre | 68665 (01/11/2026), 573 (14/11), 68666 (25/11), 68614 e 623 ou 68637 (28/11), 616 (05/12, online), 68618 (18/12); 68638 (06/03/2027) com janela que pode abrir em janeiro | catálogo; estrategia-de-marketing-livres, seção 1 |
-| Datas em dúvida | 573, 68614 e 68618 (P6); 623 e 68637 são o mesmo curso em duas páginas (P7); início de 68665 (01/11 no catálogo, primeiro encontro em 05/11 na ficha) | plano do cmo; estrategia-de-oferta-livres, seção 1.5 |
+| Datas (P6 e P7 fechados) | 573, 68614 e 68618: valem as datas da planilha nas peças (decisão 12; P6 fechado). 623 e 68637 são o mesmo curso em duas páginas: a 623 será corrigida e, até a correção, nenhuma campanha nova aponta para ela; o kit de Endoscopia aponta para a 68637 (decisão 13; qual página fica à venda depois é a U5 do cmo). Início de 68665 (01/11 no catálogo, primeiro encontro em 05/11 na ficha) segue em dúvida | docs/execucao-2026-10-26.md, decisões 12 e 13; cmo, seção 12.1; estrategia-de-oferta-livres, seção 1.5 |
 | Contínuos | 45 itens de Livres (22 gravados, 13 minicursos, 2 em espanhol, 8 grupos), rotação semanal por área | plano do cmo, seção 2.2; estrategia-de-conteudo-livres, seção 5.3 |
 | Régua da Pós já escrita | Provas de bolsa: 20 mensagens de 03/11 ao prazo de matrícula | copy-de-mensagens-pos, seção 2 |
-| Régua do Workshop já escrita | Envios de 30/10 a 25/11 | copy-de-mensagens-eventos, seção 1 |
-| Newsletter geral | Quinzenal, Pós, Livres e Eventos juntos; edição 1 em 18/11 e edição 2 em 03/12, com versão de WhatsApp em 19/11 e 04/12 | newsletter-geral, seções 3 e 4.5 |
+| Régua do Workshop já escrita | Envios de 30/10 a 25/11, com os follow-ups de 03/11 (e-mail), 04/11 (WhatsApp), 09/11 (e-mail) e 16/11 (e-mail); lista oficial com as mudanças de D3 (12.9 do cmo) | copy-de-mensagens-eventos, mapa e follow-ups; cmo, seções 12.2 e 12.9 |
+| Newsletter geral | Quinzenal, Pós, Livres e Eventos juntos; edição 1 em 18/11 e edição 2 em 03/12, com versão de WhatsApp em 19/11 e 04/12; edição 4 passa para 07/01/2027 (D4) | newsletter-geral, seções 3 e 4.5; cmo, seção 12.2 |
 | Unidade que julga resultado | Pedido pago e não reembolsado, não o lead | estrategia-de-marketing-livres, seção 2.1 |
 
 ### 1.2 O que não existe e trava a estratégia
@@ -118,7 +119,7 @@ Isto é proposta de operação, não parecer jurídico. A base legal é decisão
 
 ### 3.1 O que é herdado da Pós
 
-As seções 3.1 (base legal por tipo de mensagem) e 3.2 (dez regras que valem para todo programa) da estratégia da Pós valem para Livres sem alteração: opt-in por canal e por finalidade, nada de lista comprada, saída simples em todo lugar, e-mail cobrindo quem não tem opt-in de WhatsApp, janela de horário, frequência humana, dado pessoal só no CRM, nada sai sem aprovação humana, conferência do catálogo no dia do envio e preço só pelo texto-padrão.
+As seções 3.1 (base legal por tipo de mensagem) e 3.2 (dez regras que valem para todo programa) da estratégia da Pós, versão 2, valem para Livres sem alteração: opt-in por canal e por finalidade, nada de lista comprada, saída simples em todo lugar, e-mail cobrindo quem não tem opt-in de WhatsApp, janela de horário, frequência humana, dado pessoal só no CRM, nada sai sem aprovação humana, conferência do catálogo no dia do envio e preço só pelo texto-padrão.
 
 ### 3.2 O que é específico de Livres
 
@@ -135,67 +136,70 @@ As seções 3.1 (base legal por tipo de mensagem) e 3.2 (dez regras que valem pa
 ### 3.3 Conteúdo que toda mensagem de Livres respeita
 
 1. Preço pelo texto-padrão da oferta (seção 2.1): à vista primeiro, depois parcelas no cartão, depois o total no cartão quando for diferente, depois a condição que muda a decisão.
-2. Frase de curso livre em toda mensagem longa (e-mail e WhatsApp com preço): "Curso livre: não confere diploma nem equivale a pós-graduação." Nenhuma frase de certificação.
+2. Frase de curso livre em toda mensagem longa (e-mail e WhatsApp com preço), a frase única D13 do cmo: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." Nenhuma frase de certificação.
 3. Regra de turma só onde a Ufape escreveu: 68614 (mínimo de 15, ficha), 623 e 68637 (mínimo de 15 e reembolso se não abrir, fichas) [CONFIRMAR NO CATÁLOGO]. Em 573, 616, 68618, 68638 e 560 a mensagem não fala de turma mínima.
 4. A regra de cancelamento com devolução total da 68614 (até 30 dias antes) vale para a turma de 28/11 só até 29/10/2026 (cálculo da oferta). Como as mensagens de 68614 só saem depois disso, nenhuma mensagem a cita.
 5. Grupos novos: "R$ 100,00 à vista ou 1x de R$ 100,00", sem dizer o período até o catálogo dizer.
-6. Nenhuma chamada para item em "verificar" (aprimoramentos 639, 640, 641; Lima 575 e 605; 718), para grupos duplicados (643 e 713, 642 e 712) nem para a página que a Ufape tirar entre 623 e 68637.
+6. Nenhuma chamada para item em "verificar" (aprimoramentos 639, 640, 641; Lima 575 e 605; 718) nem para grupos duplicados (643 e 713, 642 e 712). Nenhuma campanha nova aponta para a 623 até a correção da página (decisão 13); o kit de Endoscopia usa a 68637.
 7. O Workshop Brasileiro de Neuromonitorização aparece só pelo nome oficial e só como data de calendário; ele é da linha Eventos.
 
 ---
 
 ## 4. Base compartilhada: regras comuns entre as linhas
 
-### 4.1 Regras iguais às da Pós (seção 6.1 e 6.2 daquele arquivo)
+### 4.1 Teto único D1 do cmo (o mesmo das seções 6.1 e 6.2 da estratégia da Pós)
 
 | Regra | WhatsApp | E-mail |
 |---|---|---|
-| Campanha por semana por contato, somando Pós, Livres, Eventos e newsletter | até 2 [SUPOSIÇÃO] | até 2 [SUPOSIÇÃO] |
-| Campanha por dia | 1 canal por dia; nunca e-mail e WhatsApp de campanha no mesmo dia; no máximo 1 mensagem de campanha por dia [SUPOSIÇÃO, decorrência da regra da Pós] | idem |
-| Janela | dia útil, 9h às 18h [SUPOSIÇÃO] | dia útil, 7h às 19h [SUPOSIÇÃO] |
-| Serviço (inscrito, comprador, participante) | não conta no teto; respeita a janela, salvo exceção aprovada | não conta no teto |
+| Campanha por semana (segunda a domingo) por contato, somando Pós, Livres, Eventos, Graduação e newsletter | até 2 [SUPOSIÇÃO] | até 2 [SUPOSIÇÃO] |
+| Campanha por dia | no máximo 1 mensagem de campanha por contato por dia, em qualquer canal; nunca e-mail e WhatsApp de campanha no mesmo dia | idem |
+| O que conta como campanha | convite, lembrete, follow-up, reenvio, kit de turma, newsletter, rotação dos contínuos, pré-lançamento, reativação | idem |
+| Janela | dia útil, 9h às 18h [SUPOSIÇÃO] | qualquer dia, 7h às 19h [SUPOSIÇÃO] |
+| Serviço (inscrito, comprador, participante; acesso ao online; material do pós-curso) | não conta no teto; respeita a janela, salvo exceção aprovada (R2 do cmo) | não conta no teto |
 | Depois de SAIR ou descadastro em qualquer linha | nenhuma campanha de nenhuma linha | idem |
 | Contato respondeu | automação pausa; o time conduz | idem |
 
-**Divergência registrada:** o plano 1.9 de Livres (seção 5 e risco R6) fala em "2 mensagens de marketing por semana por pessoa, somando todas as linhas", que é mais apertado que "2 WhatsApp e 2 e-mails". Esta estratégia segue a regra da Pós, como pede o briefing desta etapa, e leva a diferença ao cmo (NL7).
+**Sem sub-teto de Livres (D1):** o cmo fixou um teto único para toda a squad. O "2 mensagens no total" do plano 1.9 de Livres e o "1 de Livres por semana" da estrategia-social-livres caem; com sub-teto, o kit mínimo de 3 WhatsApp das turmas datadas não caberia, e a fila D2 já dá prioridade a quem tem data mais próxima (NL7 fechado).
 
-### 4.2 Dias sem envio de campanha (mesma lista da Pós, mais um ajuste de Livres)
+### 4.2 Dias sem envio de campanha (D1 do cmo, os mesmos da Pós)
 
 - 02/11/2026 (feriado).
-- 20 e 21/11/2026 (Workshop Brasileiro de Neuromonitorização; 20/11 é feriado): nenhuma mensagem de Livres para a base.
+- 20 e 21/11/2026 (Workshop Brasileiro de Neuromonitorização; 20/11 é feriado): nenhuma campanha de nenhuma linha.
 - 26 e 27/11/2026: nenhuma mensagem de campanha de Livres para quem está na campanha das provas da Pós (plano 1.9, S5 e risco R6). Serviço aos inscritos de 68614 e 68637 ou 623 sai em 25/11.
-- 25/12/2026, 31/12/2026 e 01/01/2027: nenhum envio. De 21/12 a 03/01: só serviço e manutenção.
-- Sábado, domingo e feriado nacional: nenhum WhatsApp de campanha.
+- 25/12/2026, 31/12/2026 e 01/01/2027: nenhuma campanha. De 21/12 a 03/01: só serviço e manutenção.
+- Sábado, domingo e feriado nacional: nenhum WhatsApp de campanha (e-mail pode sair em qualquer dia, das 7h às 19h).
 
-### 4.3 Prioridade quando um contato está em mais de uma linha [SUPOSIÇÃO de regra; o cmo decide]
+### 4.3 Fila de prioridade quando várias réguas disputam a mesma semana (D2 do cmo; substitui a prioridade da versão 1)
 
-1. **Serviço de qualquer linha** (não conta no teto).
-2. **Captação com prazo**, nesta ordem: provas de bolsa e Workshop (os dois com nota 100 na matriz do cmo) antes de Livres (nota 45), **salvo** nos 7 dias anteriores à data de um presencial de Livres, para o segmento da área daquele presencial, quando o presencial passa à frente. Entre dois itens de Livres, vence a data mais próxima.
-3. **Nutrição** (newsletter, rotação dos contínuos, grupos sem data próxima).
-4. **Reativação** (lead frio, ex-aluno).
+1. **Serviço de qualquer linha** (fora do teto).
+2. **Toque principal de cada campanha com data** (convite, programação, lembrete principal, toque do kit de turma).
+3. Entre toques principais que disputam o mesmo canal na mesma semana, **vence o item com data mais próxima**; empate, vence a maior nota GUT da seção 3 do plano do cmo. Assim, nos dias anteriores a um presencial de Livres, o kit dele passa à frente para o segmento da área, sem regra à parte.
+4. **Follow-ups e reenvios**, na mesma ordem. Reenvio não muda de dia: se o dia já tem mensagem de campanha para o contato, ele é suprimido.
+5. **Nutrição** (newsletter, rotação dos contínuos).
+6. **Reativação** (lead frio, ex-aluno sem campanha ativa).
 
-O contato recebe a mensagem mais alta da semana; as outras esperam a semana seguinte ou saem, se a data já tiver passado. A ferramenta suprime, não acumula.
+O que é suprimido não acumula para a semana seguinte, salvo onde a seção 12 do plano do cmo diz "muda de data". O CRM aplica a fila por contato (encomenda ao arquiteto-de-fluxos).
 
-### 4.4 Quanto da semana sobra para Livres
+### 4.4 Quanto da semana sobra para Livres (refeita com D3 do cmo)
 
-Contagem só de mensagens de campanha já previstas nas réguas da Pós, do Workshop e da newsletter. "Contato em todas as bases" é o pior caso (está na campanha das provas, na base do Workshop e recebe a newsletter); "contato só de Livres" recebe só a newsletter.
+Contagem só de mensagens de campanha que saem depois das supressões de D3, com a régua escrita do Workshop (copy-de-mensagens-eventos, com os follow-ups) e a newsletter versão 2. "Contato em todas as bases" é o pior caso (está na campanha das provas, na base do Workshop, tem opt-in nos dois canais e recebe a newsletter); "contato só de Livres" recebe só a newsletter.
 
 | Semana | E-mails de campanha já previstos | WhatsApp de campanha já previstos | Sobra para Livres: contato em todas as bases | Sobra para Livres: contato só de Livres |
 |---|---|---|---|---|
-| S1, 27/10 a 01/11 | Workshop M1 ou M2 (30/10); reta final da Pós 707 e 68604 (28/10), só nas áreas dessas turmas | Workshop (30/10); reta final da Pós (28/10), só nas áreas | 0 a 1 e-mail e 0 a 1 WhatsApp, em dia sem outro envio (27/10 ou 29/10) | 2 e 2 |
-| S2, 02 a 08/11 | Provas M2 ou M4 (03/11), M6 (05/11, para quem não abriu), Workshop M10 (05/11): já acima do teto (nota N1 da Pós) | Provas M1 ou M3 (04/11), M5 (06/11) | **0 e 0** | 2 e 2 |
-| S3, 09 a 15/11 | Provas M7 (10/11) e reenvio (12/11); Workshop M3 (14/11, sábado) | nenhum | 0 e-mail; **2 WhatsApp**, só em 09, 11 ou 13/11 (10 e 12/11 são dias de e-mail da Pós) | 2 e 2 |
-| S4, 16 a 22/11 | Workshop (17/11, segundo a newsletter; ver NL5); newsletter edição 1 (18/11) | Workshop M3 (16/11) e Workshop (18/11, segundo a newsletter); newsletter (19/11) | **0 e 0**; 20 e 21/11 sem envio | 1 e 1 (fora 18 e 19/11) |
-| S5, 23 a 29/11 | Provas M8 (23/11) e reenvio (25/11); Workshop M9 (25/11, só participantes) | Provas M9 (24/11); Workshop M9 (25/11, só participantes) | **0 e 0** (nenhum dia livre: 23, 24 e 25/11 ocupados; 26 e 27/11 bloqueados) | 2 e 2 |
-| S6, 30/11 a 06/12 | Newsletter edição 2 (03/12); pré-lançamento da Pós P5, lote 1, a partir de 02/12 (só áreas de 289, 68615 e 333) | Newsletter (04/12); P5 (só áreas) | 0 a 1 e 0 a 1 | 1 e 1 |
+| S1, 27/10 a 01/11 | reta final da Pós 707 e 68604 (28/10), só nas áreas dessas turmas; Workshop M1 ou M2 (30/10, 9h) | reta final da Pós 707 e 68604 (29/10, só áreas) e 68665 (29/10, só A2); Workshop M1 e M2 por WhatsApp em 30/10 só para quem não tem opt-in de e-mail (D3) | 0 a 1 e-mail, em dia sem outra campanha (27/10, 31/10 ou 01/11); WhatsApp: 68665 em 29/10 para A2 (se o contato também estiver nas áreas de 707 ou 68604, vence a data mais próxima, D2) | 2 e 2 |
+| S2, 02 a 08/11 | Provas M2 ou M4 (03/11); Workshop M10 (05/11). Suprimidos: provas M6 (05/11) e follow-up do Workshop (03/11) | Provas M1 ou M3 (04/11), M5 (06/11). Suprimido: follow-up do Workshop (04/11) | **0 e 0** | 2 e 2 (573 T1 em 04/11 e T2 em 06/11) |
+| S3, 09 a 15/11 | Provas M7 (10/11); Workshop M3 (sábado 14/11, 9h). Suprimidos: follow-up de M10 do Workshop (09/11) e reenvio das provas (12/11) | até 2 de Livres em 09, 11 ou 13/11, pela área (573 T3 e T4; 68614 e 68637 T1 e T2; 68666; 616 T1 fora da base do Workshop) | 0 e-mail; **2 WhatsApp**, só em 09, 11 ou 13/11 | 2 e 2 |
+| S4, 16 a 22/11 | Workshop follow-up de M3 (16/11, só quem não abriu); newsletter edição 1 (18/11) | Workshop M3 (17/11, 10h); newsletter (19/11, 14h) | **0 e 0**; e-mails de 68614, 68637 e 616 de 17/11 só saem para contato de Livres fora da base do Workshop; 20 e 21/11 sem campanha | 1 e 1 (fora 18 e 19/11 e fora 20 e 21/11) |
+| S5, 23 a 29/11 | Provas M8 (23/11; às 16h para participante do Workshop); Workshop M9 (25/11, 9h, só participantes). Suprimido: reenvio das provas de 25/11 para participante do Workshop | Provas M9 (24/11). Suprimido: WhatsApp do M9 do Workshop para quem tem opt-in de e-mail | **0 e 0** (23, 24 e 25/11 ocupados; 26 e 27/11 sem campanha para a base das provas) | 2 e 2 (68614 e 68637 T4 em 23/11) |
+| S6, 30/11 a 06/12 | Newsletter edição 2 (03/12); pré-lançamento da Pós P5, lote 1, a partir de 02/12 (só áreas de 289, 68615 e 333) | 616 T3 e T4 (30/11 e 02/12, A1 e A13); newsletter (04/12, se couber); P5 (só áreas) | 0 a 1 e-mail; WhatsApp: os 2 de 616 em A1 e A13; rotação e newsletter suprimidas quando o contato já tem 2 toques com data | 1 e 1 |
 | S7, 07 a 13/12 | P5 (só áreas) | P5 (só áreas) | 1 a 2 e 1 a 2 | 2 e 2 |
-| S8, 14 a 20/12 | Newsletter edição 3 (17/12); P5 lote 2 (657 e 341, só áreas) | P5 (só áreas) | 0 a 1 e 1 a 2 | 1 e 2 |
-| S9, 21 a 27/12 | só serviço e manutenção (a newsletter edição 4, de 22/12, é sem venda; ver NL6) | só serviço | 0 e 0 | 0 e 0 |
+| S8, 14 a 20/12 | Newsletter edição 3 (17/12); P5 lote 2 (657 e 341, só áreas; 657 não vai ao segmento de anestesia e ventilação de Livres antes de 04/01, porque 68618 tem prioridade até 18/12, D4) | P5 (só áreas) | 0 a 1 e 1 a 2 | 1 e 2 |
+| S9, 21 a 27/12 | só serviço e manutenção (a newsletter edição 4 passou para 07/01/2027, D4 e NL6) | só serviço | 0 e 0 | 0 e 0 |
 | S10, 28/12 a 03/01 | nenhum envio de campanha | nenhum | 0 e 0 | 0 e 0 |
-| S11, 04 a 10/01 | retomada da Pós P5 (turmas de março) | P5 | 1 a 2 e 1 a 2 | 2 e 2 |
+| S11, 04 a 10/01 | newsletter edição 4 (qui 07/01, 10h); retomada da Pós P5 (turmas de março; 657 para o segmento de anestesia e ventilação e para compradores de 616 a partir de 04/01) | P5 | 0 a 1 e 1 a 2 | 1 e 2 |
 | S12, 11 a 24/01 (duas semanas) | newsletter edição 5 (14/01); P5 | P5 | por semana: 0 a 1 e 1 a 2 | por semana: 1 e 2 |
 
-Leitura: de 02/11 a 29/11, quem está na campanha das provas só pode receber Livres pelo WhatsApp da S3. É por isso que os kits de 573 e de 68614 e 68637 ou 623 concentram os toques de WhatsApp em 09, 11 e 13/11 (seção 7), e que a agenda da newsletter edição 1 (que já cita 68666 e 68614) faz o papel do e-mail para quem está em todas as bases.
+Leitura: de 02/11 a 29/11, quem está na campanha das provas só pode receber Livres pelo WhatsApp da S3 (no máximo 2 toques na semana e 1 por dia). É por isso que os kits de 573 e de 68614 e 68637 concentram os toques de WhatsApp em 09, 11 e 13/11 (seção 7), e que a agenda da newsletter edição 1 (que já cita 68666 e 68614) faz o papel do e-mail para quem está em todas as bases. Com a régua escrita do Workshop e a newsletter versão 2 o resultado da versão 1 não muda (sobra 0 e 0 em S2, S4 e S5); muda a fonte (RLv3).
 
 **Kit mínimo e teto:** o kit (3 WhatsApp e 1 e-mail por turma) é escrito e agendado inteiro; o mínimo nunca diminui. O teto decide quantos toques cada contato recebe. Quem está em todas as bases pode receber só parte do kit; quem é só de Livres recebe o kit inteiro.
 
@@ -232,11 +236,11 @@ O plano 1.9 trata a ponte para a Pós como hipótese a medir (M17), nunca como p
 |---|---|---|
 | 1 | **Um dono por oferta.** A régua de Livres nunca convida para Pós; a régua da Pós nunca vende curso livre. Quem convida comprador de Livres para a Pós é o programa P5 da Pós (segmento S9 da Pós) | evita duas mensagens de linhas diferentes para a mesma decisão |
 | 2 | **Marcação, não mensagem.** Todo pedido pago de Livres grava no CRM [comprou_livre_código], [comprou_livre_área] e [data_compra_livre] [CONFIRMAR campos] | é a entrada do S9 da Pós e a base da métrica M17, somada |
-| 3 | **Janela de silêncio.** Do pedido pago até 7 dias depois do curso (ou do primeiro acesso, no online), o comprador não recebe convite de Pós [SUPOSIÇÃO] | o serviço do curso vem antes; misturar venda nova com o pedido em curso confunde |
-| 4 | **Sem desconto até haver regra.** O convite da Pós ao comprador de Livres não cita crédito nem desconto até a Ufape decidir PL2 (crédito do livre na matrícula da Pós) e PR5 da Pós (combo Livres mais Pós) | proposta não é oferta (estrategia-de-oferta-livres, regra 6) |
-| 5 | **Contato que já está na Pós.** Se o contato está em S4 ou S5 da Pós (inscrito ou aprovado na prova), a campanha de Livres para ele pausa até o fim do prazo de matrícula da prova; o serviço de um pedido de Livres continua | a decisão de maior ticket e com prazo legal da prova tem prioridade |
-| 6 | **Participante do Workshop.** O convite à Pós em Anestesiologia é da régua do Workshop (M9, 25/11). Livres não manda 616 nem 68618 a participantes do Workshop entre 16/11 e 29/11 (NL4) | evita duas ofertas da mesma área na mesma semana |
-| 7 | **Pares de área com data.** 573 e Pós em Ecocardiografia 698: 698 fica fora de qualquer mensagem enquanto a data do site não for corrigida (newsletter, seção 1.4). 68614 e 68637 ou 623 com Pós 68604, 68606 e 68610: essas turmas já terão começado em 28/11 (qa dep01b, observação da persona), então não há par. 68618 e Pós 657 (13/03/2027): par possível, conduzido pela Pós P5 a partir de 04/01 (NL3) | nenhuma mensagem aponta para turma iniciada ou com data errada |
+| 3 | **Janela de silêncio única (D8 do cmo).** Do pedido pago até 2 dias úteis depois do último dia do curso ou evento; no online e no minicurso, até 7 dias corridos depois do primeiro acesso (enquanto a plataforma não informar o acesso, UR5, 7 dias corridos depois da compra). Durante a janela, o comprador não entra em campanha nova de outra linha (P5 da Pós, convite do Workshop). Quem já estava numa régua de campanha com data antes da compra continua nela: a janela impede entrada nova, não interrompe régua em curso. Campo [fim_janela_silencio] no CRM [SUPOSIÇÃO de prazo] | o serviço do curso vem antes; misturar venda nova com o pedido em curso confunde |
+| 4 | **Sem crédito nem desconto da ponte (D7).** Nenhuma mensagem, página, post ou anúncio cita crédito, combo ou desconto da ponte. O cmo levou à Ufape uma proposta única (U7: PL2 opção A, abatimento até o valor da matrícula da Pós) | proposta não é oferta (estrategia-de-oferta-livres, regra 6) |
+| 5 | **Contato que já está na Pós (D10).** Se o contato está em S4 ou S5 da Pós (inscrito ou aprovado na prova), a campanha de Livres para ele pausa até o fim do prazo de matrícula da prova; o serviço de um pedido de Livres continua. Comprador só de Livres não entra na régua das provas, salvo se também for lead de Pós com opt-in | a decisão de maior ticket e com prazo da prova tem prioridade |
+| 6 | **Participante do Workshop (D9).** O convite à Pós em Anestesiologia é da régua do Workshop (M9, 25/11, um canal só), sem chamada para curso livre com data. Livres não manda 616 nem 68618 a participantes do Workshop entre 16/11 e 29/11; 616 chega a eles só pela régua de Livres, a partir de 30/11 (T3) | evita duas ofertas da mesma área na mesma semana |
+| 7 | **Pares pela tabela única de 12.4 do cmo (D6).** O par é a Pós do mesmo tema (sem Pós do tema aberta, a da mesma área); só existe se o fim da janela de silêncio vier antes do vencimento da 1ª mensalidade (30 dias antes do início) e se a Pós começar depois do curso livre; praça diferente é permitida, com o campus dito. Pares: 573 com 289 Pós-graduação em Cardiologia Veterinária, Goiânia (20/03/2027; P5 lote 1, a partir de 02/12; 698 não é par); 68614 sem par neste trimestre; 68637 (e 623 depois da correção) sem par; 616 com 657 Pós-graduação em Anestesiologia Avançada, SP (13/03/2027; P5 lote 2, a partir de 04/01; pré-requisito de 657 [CONFIRMAR, U10]); 68618 com 352 Pós-graduação em Ventilação Mecânica, SP (24/05/2027; pré-lançamento de maio, no próximo trimestre; 657 não é par de 68618); 68638 com 68635 Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, SP (10/04/2027; fim da janela em 09/03, 1ª mensalidade em 11/03); 560 sem par neste sentido (68628 começa antes); contínuos com a Pós aberta da mesma área, depois da janela do online | nenhuma mensagem aponta para turma iniciada, com data errada ou fora da regra do par |
 | 8 | **Ex-aluno de Pós comprando Livres (sentido inverso).** SL9 recebe Livres só dentro do teto e depois dos programas da Pós da semana; o cupom SIMPNEUROMONIT é da linha Eventos e não aparece em Livres | prioridade da seção 4.3 |
 
 ---
@@ -245,14 +249,14 @@ O plano 1.9 trata a ponte para a Pós como hipótese a medir (M17), nunca como p
 
 | # | Programa | Tipo | Segmentos | Objetivo | Toques e canais | Quem escreve | Situação |
 |---|---|---|---|---|---|---|---|
-| RL1 | **Kit de mensagens dos itens com data** | campanha | SL2 da área, SL9 da área, SL8 da área | pedido pago até a data, sem urgência sem número | por item, kit mínimo de 3 WhatsApp e 1 e-mail, nas datas da tabela 7.1 | copy-de-mensagens | a fazer. 573: peças em 30/10 (plano do cmo). 68614 e 68637 ou 623: 03/11. 616: 10/11. 68618: 18/11, só com P6 fechada. 68638: 08/01, só com carga horária no catálogo |
+| RL1 | **Kit de mensagens dos itens com data** | campanha | SL2 da área, SL9 da área, SL8 da área | pedido pago até a data, sem urgência sem número | por item, kit mínimo de 3 WhatsApp e 1 e-mail, nas datas da tabela 7.1 | copy-de-mensagens | a fazer. 573: peças em 30/10 (plano do cmo). 68614 e 68637: 03/11. 616: 10/11. 68618: 18/11 (data da planilha, decisão 12). 68638: 08/01, só com carga horária no catálogo |
 | RL2 | **Serviço do presencial** | serviço | SL5, SL10 | chegar ao curso sem dúvida e sem gastar viagem à toa | confirmação no gatilho (e-mail na hora; WhatsApp na próxima janela); aviso de turma confirmada, só quando a Ufape informar; véspera (e-mail e WhatsApp em dia útil); dia (e-mail às 7h; WhatsApp no sábado só com exceção aprovada); mensagem de exceção com texto da Ufape | copy-de-mensagens com a secretaria | a fazer; plano 1.9 pede as de 573 em 12/11 e as de 68614 e 68637 ou 623 em 25/11. Depende do endereço e do horário único da 573 (U7) |
 | RL3 | **Grupos novos pela base** | campanha leve e serviço | SL2 de A2 (68665) e de A3 (68666), SL9 da área; SL7 no serviço | entrada no grupo, sem mídia paga (D21) | 68665: 1 WhatsApp; 68666: 1 WhatsApp, mais a agenda da newsletter edição 1; serviço: boas-vindas com agenda e regra de reembolso, link de cada encontro | copy-de-mensagens; secretaria no serviço | a fazer; kit leve de 68665 em 28/10 e de 68666 em 06/11 (plano do cmo). Preço sem período (U9) |
 | RL4 | **Boas-vindas do comprador de online e minicurso** | serviço | SL6 | primeiro acesso (L7 do funil) | dia 0: e-mail de acesso; dia 3: e-mail só para quem não acessou [SUPOSIÇÃO de prazo; depende de a plataforma informar o acesso]; contrato quando a ficha exige (103, 501) | copy-de-mensagens com a secretaria | a fazer; depende do prazo de acesso por formato (PL7) e de quem envia o acesso (UR5) |
 | RL5 | **Rotação dos contínuos pela base** | nutrição | SL1, SL2 da área em foco, SL8 da área | conversão do contínuo da área (M9 do plano 1.9) | na base, a partir de 30/11: no máximo 1 mensagem de contínuo por contato a cada 2 semanas, só para quem tem a área em foco, alternando e-mail e WhatsApp [SUPOSIÇÃO]; de 02/11 a 29/11 a rotação roda só no orgânico e na agenda da newsletter | copy-de-mensagens (camada 2, kit sempre ligado por área) | a fazer; ordem das áreas da estrategia-de-conteudo-livres, seção 5.3. Sem grupos iniciados, duplicados nem espanhol |
 | RL6 | **Retomada pós-contato do presencial** | automação com o time | SL3 | responder ao motivo de perda com fato | até 2 toques antes da data do curso: WhatsApp do time com a resposta ao motivo (O2 e O3 da oferta: roteiro, endereço, regra da turma; gravado do mesmo tema como alternativa honesta para quem não pode viajar, 411, 291 ou 591); e-mail com as condições completas | copy-de-mensagens (textos por motivo); time de vendas envia | a fazer; depende do campo motivo de perda em lista fechada (funil, 3.4) |
 | RL7 | **Pagamento não concluído** (condicional) | campanha de serviço | SL4 | concluir o pedido | 1 e-mail em até 24 h, com o texto único de pagamento e o contato da secretaria; sem WhatsApp | copy-de-mensagens | condicional: só se a loja registrar o evento e houver consentimento (UR7) |
-| RL8 | **Pós-curso e recompra na linha** | serviço e campanha leve | SL8 | experiência registrada e degrau seguinte na mesma área (M16, recompra) | dia útil seguinte ao curso: e-mail de serviço com material prometido na ficha e pesquisa anônima [CONFIRMAR ferramenta]; a partir de 14 dias: 1 e-mail com o degrau seguinte da área, dentro do teto [SUPOSIÇÃO de prazo] | copy-de-mensagens | a fazer; a pesquisa alimenta o pedido de voz real (U14) sem dado pessoal. Documento de conclusão só com o texto da Ufape [PREENCHER COM A REGULAÇÃO] |
+| RL8 | **Pós-curso e recompra na linha** | serviço (primeira parte) e campanha leve (degrau seguinte) | SL8 | experiência registrada e degrau seguinte na mesma área (M16, recompra) | **Serviço, fora do teto (D4):** dia útil seguinte ao curso, e-mail com o material prometido na ficha e pesquisa anônima [CONFIRMAR ferramenta]. **Campanha, dentro do teto e da fila D2:** a partir de 14 dias, 1 e-mail com o degrau seguinte da área [SUPOSIÇÃO de prazo] | copy-de-mensagens | a fazer; a pesquisa alimenta o pedido de voz real (U14) sem dado pessoal. Documento de conclusão só com o texto da Ufape [PREENCHER COM A REGULAÇÃO] |
 | RL9 | **Newsletter geral** | newsletter | toda a base com consentimento de e-mail | Livres aparece na agenda e nos guias de formato | é a da newsletter-geral; Livres não tem carta própria neste trimestre (capacidade, seção 6.3 do plano 1.9) | newsletter | em andamento (edições 1 e 2 escritas) |
 | RL10 | **Higiene da base** | manutenção | SL11 e toda a base | base limpa e consentimento atualizado | programa único com a Pós P9: mesma passada, mesma mensagem de reconfirmação, em janeiro | estrategia-de-relacionamento define; CRM executa | a fazer; primeira passada na S11 (04 a 10/01), junto com a Pós |
 
@@ -263,25 +267,25 @@ O plano 1.9 trata a ponte para a Pós como hipótese a medir (M17), nunca como p
 
 ### 7.1 Calendário dos kits de mensagem (RL1 e RL3)
 
-Datas de envio propostas [SUPOSIÇÃO], todas depois da aprovação humana da peça. O CRM aplica o teto e a prioridade da seção 4: o toque marcado "só contato de Livres" é suprimido para quem está na campanha das provas naquela semana.
+Datas de envio propostas [SUPOSIÇÃO], todas depois da aprovação humana da peça. O CRM aplica o teto D1 e a fila D2 da seção 4: o toque marcado "só contato de Livres" sai só para contato de Livres fora da campanha das provas e da base do Workshop (D3, NL1 aceito). Contato com duas áreas que recebem toque no mesmo dia recebe só o do item com data mais próxima; o outro é suprimido (D2). Exemplo de 09/11: quem está em A2 e em A5 recebe 573 T3 (14/11) e não recebe 68614 e 68637 T1 (28/11); como o teto da semana é de 2 WhatsApp, esse contato recebe em S3 só 573 T3 e T4 (RLv2). O follow-up do Workshop de 09/11 é suprimido para a base das provas (D3), então 09/11 fica livre para o WhatsApp de Livres.
 
 | Item | Toque | Data e hora | Canal | Quem recebe | Função |
 |---|---|---|---|---|---|
 | 68665 Grupo de Cardiologia e Ecocardiografia (01/11, domingo) | único | qui 29/10, 10h | WhatsApp | SL2 de A2, SL9 de A2 | agenda publicada e preço de entrada; data de início só depois de U4 (01/11 no catálogo, primeiro encontro em 05/11 na ficha) |
-| 573 Hands-On de Ecocardiografia (14/11, sábado; data só depois de P6) | T1 | qua 04/11, 10h | e-mail | SL2 de A2, só contato de Livres | roteiro, 16 h práticas e 12 h de teoria gravada [CONFIRMAR NO CATÁLOGO], preço inteiro |
+| 573 Hands-On de Ecocardiografia (14/11, sábado; data da planilha, decisão 12) | T1 | qua 04/11, 10h | e-mail | SL2 de A2, só contato de Livres | roteiro, 16 h práticas e 12 h de teoria gravada [CONFIRMAR NO CATÁLOGO], preço inteiro |
 | 573 | T2 | sex 06/11, 10h | WhatsApp | SL2 de A2, só contato de Livres | data e link |
 | 573 | T3 | seg 09/11, 10h | WhatsApp | SL2 e SL9 de A2, todas as bases | data e link; a partir daqui o presencial passa à frente na área (seção 4.3) |
 | 573 | T4 | qua 11/11, 10h | WhatsApp | SL2 e SL9 de A2 que não compraram | último toque de campanha, sem urgência; conversa com vendas sobre viagem e pagamento |
 | 68666 Grupo de Clínica Médica e Emergência (25/11, quarta) | único | qua 11/11, 10h | WhatsApp | SL2 de A3, SL9 de A3 | agenda de 12 módulos e preço de entrada; mais a agenda da newsletter edição 1 (18/11) |
-| 68614 Videotoscopia e 68637 ou 623 Endoscopia (28/11, sábado; data de 68614 só depois de P6; página única depois de P7) | T1 | seg 09/11, 10h | WhatsApp | SL2 de A5, todas as bases | data, regra da turma (mínimo de 15, fichas) e link |
-| 68614 e 68637 ou 623 | T2 | sex 13/11, 10h | WhatsApp | SL2 de A5 que não compraram | roteiro e proporção de equipamento (68614: 1 para 3, ficha) [CONFIRMAR NO CATÁLOGO]; em 68637 ou 623, comprar passagem só com a turma confirmada (fichas) |
+| 68614 Videotoscopia e 68637 Endoscopia (28/11, sábado; data da planilha, decisão 12; a 623 fica fora de toda campanha nova até a correção, decisão 13) | T1 | seg 09/11, 10h | WhatsApp | SL2 de A5, todas as bases (para quem também está em A2, suprimido por 573 T3, D2) | data, regra da turma (mínimo de 15, fichas) e link |
+| 68614 e 68637 ou 623 | T2 | sex 13/11, 10h | WhatsApp | SL2 de A5 que não compraram | roteiro e proporção de equipamento (68614: 1 para 3, ficha) [CONFIRMAR NO CATÁLOGO]; em 68637, comprar passagem só com a turma confirmada (fichas) |
 | 68614 e 68637 ou 623 | T3 | ter 17/11, 10h | e-mail | SL2 de A5, só contato de Livres | preço inteiro e condições por escrito; quem está em todas as bases recebe a informação pela agenda da newsletter edição 1 |
 | 68614 e 68637 ou 623 | T4 | seg 23/11, 10h | WhatsApp | SL2 de A5, só contato de Livres | último toque de campanha |
 | 616 Imersão Avançada em Anestesia Felina (05/12, sábado; online no catálogo, local "Presencial e Online") | T1 | sex 13/11, 10h | WhatsApp | SL2 de A1 e A13, fora da base do Workshop | data, formato como está no catálogo, link; sem "prática" até U8 |
 | 616 | T2 | ter 17/11, 10h | e-mail | SL2 de A1 e A13, só contato de Livres e fora da base do Workshop | programa e preço inteiro (R$ 990,00 à vista ou 5x de R$ 240,00, total de R$ 1.200,00) |
 | 616 | T3 | seg 30/11, 10h | WhatsApp | SL2 de A1 e A13, todas as bases, incluindo participantes do Workshop | data e link |
 | 616 | T4 | qua 02/12, 10h | WhatsApp | SL2 de A1 e A13 que não compraram | último toque de campanha |
-| 68618 Ventilação Mecânica Aplicada à Anestesia (18/12, sexta; só com P6 fechada) | T1 | seg 07/12, 10h | WhatsApp | SL2 de A1 e A2 (ventilação) | data e link; modalidade só como estiver no catálogo (hoje em branco) |
+| 68618 Ventilação Mecânica Aplicada à Anestesia (18/12, sexta; data da planilha, decisão 12) | T1 | seg 07/12, 10h | WhatsApp | SL2 de A1 e A2 (ventilação) | data e link; modalidade só como estiver no catálogo (hoje em branco) |
 | 68618 | T2 | ter 08/12, 10h | e-mail | idem | programa e preço inteiro (R$ 1.710,00 à vista ou 1x de R$ 1.800,00 no cartão) |
 | 68618 | T3 | qui 10/12, 10h | WhatsApp | idem, que não compraram | roteiro |
 | 68618 | T4 | ter 15/12, 10h | WhatsApp | idem, que não compraram | último toque de campanha |
@@ -306,11 +310,11 @@ Serviço de RL2 (não conta no teto): 573 com véspera na sex 13/11 (e-mail 10h,
 |---|---|---|---|
 | Bloco 1, S1 | 27/10 a 01/11 | 68665 (29/10); pedido à Ufape dos itens da seção 10; as quatro travas da Pós valem para Livres | RL3 |
 | Bloco 1, S2 | 02/11 a 08/11 | 573 T1 e T2 só para contatos fora da campanha das provas; serviço dos inscritos de 68665 | RL1, RL3 serviço |
-| Bloco 1, S3 | 09/11 a 15/11 | janela de WhatsApp para todas as bases: 573 T3 e T4, 68614 e 68637 ou 623 T1 e T2, 68666, 616 T1; véspera e dia da 573 (serviço) | RL1, RL2, RL3 |
-| Bloco 1, S4 | 16/11 a 22/11 | e-mails de 68614 e 68637 ou 623 e de 616 só para contatos de Livres fora da base do Workshop; pós-curso de 573 (serviço, a partir de 16/11); nada em 20 e 21/11 | RL1, RL8 |
+| Bloco 1, S3 | 09/11 a 15/11 | janela de WhatsApp para todas as bases (até 2 por contato na semana e 1 por dia, D3): 573 T3 e T4, 68614 e 68637 T1 e T2, 68666, 616 T1 (fora da base do Workshop); véspera e dia da 573 (serviço) | RL1, RL2, RL3 |
+| Bloco 1, S4 | 16/11 a 22/11 | e-mails de 68614 e 68637 e de 616 (17/11) só para contatos de Livres fora da base do Workshop (para quem está em A5 e em A1 ou A13, vence 68614 e 68637, data mais próxima, D2); pós-curso de 573 (serviço, a partir de 16/11); nenhuma campanha em 20 e 21/11 | RL1, RL8 |
 | Bloco 1, S5 | 23/11 a 29/11 | 68614 e 68637 ou 623 T4 só para contatos de Livres; orientações aos inscritos de 68614 e 68637 ou 623 (25/11); nada de campanha de Livres em 26 e 27/11 para a base das provas; dia do curso (28/11) | RL1, RL2 |
 | Bloco 2, S6 | 30/11 a 06/12 | 616 T3 e T4; pós-curso de 68614 e 68637 ou 623; rotação dos contínuos entra na base (A1 e A13 em foco); véspera e dia de 616; **revisão mensal 1 em 30/11, junto com a Pós** | RL1, RL2, RL5, RL8 |
-| Bloco 2, S7 | 07/12 a 13/12 | 68618 T1 a T3 (se P6 fechar); rotação (A7); degrau seguinte para ex-alunos de 573 | RL1, RL5, RL8 |
+| Bloco 2, S7 | 07/12 a 13/12 | 68618 T1 a T3 (data da planilha, decisão 12); rotação (A7); degrau seguinte para ex-alunos de 573 | RL1, RL5, RL8 |
 | Bloco 2, S8 | 14/12 a 20/12 | 68618 T4, véspera e dia; rotação (ventilação, A2 e A3) | RL1, RL2, RL5 |
 | Bloco 2, S9 | 21/12 a 27/12 | só serviço e manutenção; pós-curso de 616 e 68618 (serviço) | RL8 serviço |
 | Bloco 3, S10 | 28/12 a 03/01 | nenhum envio de campanha; nada em 31/12 e 01/01; sequência de janeiro dos contínuos escrita até 30/12 (plano 1.9); **revisão mensal 2 em 28/12** | preparação |
@@ -318,17 +322,17 @@ Serviço de RL2 (não conta no teto): 573 com véspera na sex 13/11 (e-mail 10h,
 | Bloco 3, S12 | 11/01 a 24/01 | rotação (A6 e A11, depois A10 e A4); 68638 T1 e T2, se o kit for aprovado | RL1, RL5 |
 | Depois | 25/01/2027 | **revisão mensal 3** e relatório de 90 dias do relacionamento, junto com a Pós | todos |
 
-### 8.3 Choques de calendário e de regra encontrados (nota para o cmo e para os agentes donos; nenhum arquivo foi alterado)
+### 8.3 Choques de calendário e de regra (todos fechados pela seção 12 do plano do cmo; nenhum arquivo de outro agente foi alterado)
 
-| # | Onde | Choque | Proposta |
+| # | Onde | Choque | Situação |
 |---|---|---|---|
-| NL1 | S2 (02 a 08/11): régua das provas e Workshop M10 | a base das provas já passa do teto de e-mails e usa os 2 WhatsApp; o kit da 573 não cabe para quem está nas duas campanhas | 573 T1 e T2 só para contatos de Livres fora da campanha das provas; para os demais, a 573 começa em 09/11 pelo WhatsApp [SUPOSIÇÃO; o cmo decide] |
-| NL2 | Plano 1.9, S1 (peças de 573 em 30/10) e calendário de envio | as peças ficam prontas para aprovação em 30/10, mas o primeiro envio cabe só em 04/11 (contatos de Livres) ou 09/11 (todas as bases); são 10 e 5 dias antes do curso | aceitar a janela curta ou pedir à Ufape que a data da 573 seja confirmada (P6) até 28/10, para não perder também o T1 |
-| NL3 | Pós P5 lote 2 (657, área de anestesia, S8) e 68618 (18/12, ventilação na anestesia) | duas ofertas da mesma área na mesma semana para o mesmo contato | 68618 tem prioridade até 18/12 para a área; o pré-lançamento de 657 vai para esse segmento a partir de 04/01 [SUPOSIÇÃO; o cmo decide] |
-| NL4 | copy-de-mensagens-eventos M9 (25/11: "Apresentar a Pós em Anestesiologia e cursos da área") e RL1 de 616 e 68618 | se "cursos da área" citar 616 ou 68618, o participante recebe a mesma oferta de Livres por duas réguas | M9 do Workshop não leva chamada para curso livre com data; 616 chega a participantes do Workshop só a partir de 30/11 (T3), pela régua de Livres [o cmo decide] |
-| NL5 | newsletter-geral (seção 3.2: "Workshop e-mail 2 (17/11)" e WhatsApp do Workshop em 18/11) e copy-de-mensagens-eventos (M3 por e-mail em 14/11, sábado, e por WhatsApp em 16/11) | as duas contagens da semana divergem; muda o que sobra para Livres em S3 e S4 | fechar uma única lista de envios do Workshop (o andamento já registra conflito de datas da mídia do Workshop); até lá, esta estratégia usa a contagem mais cheia |
-| NL6 | newsletter-geral, edição 4 (22/12) e regra de 21/12 a 03/01 "só serviço e manutenção" da Pós | a edição 4 é sem venda, mas é e-mail de campanha dentro da janela de manutenção | decidir se a edição 4 conta como manutenção; Livres não envia nada nessa semana em qualquer caso |
-| NL7 | Plano 1.9 de Livres (seção 5 e risco R6: "2 mensagens de marketing por semana por pessoa") e estratégia da Pós (2 WhatsApp e 2 e-mails) | dois tetos diferentes para a mesma base | esta estratégia segue a da Pós, como pede o briefing desta etapa; o cmo fixa o teto único e a pessoa do marketing confirma com a Ufape (pedido R6 da Pós) |
+| NL1 | S2 (02 a 08/11): régua das provas e Workshop M10 | a base das provas já passa do teto de e-mails e usa os 2 WhatsApp; o kit da 573 não cabe para quem está nas duas campanhas | **Fechado (D3, NL1 aceito):** 573 T1 (04/11, e-mail) e T2 (06/11, WhatsApp) só para contato de Livres fora da campanha das provas e da base do Workshop; para os demais, a 573 começa em 09/11 pelo WhatsApp |
+| NL2 | Plano 1.9, S1 (peças de 573 em 30/10) e calendário de envio | o primeiro envio cabe só em 04/11 (contatos de Livres) ou 09/11 (todas as bases) | **Fechado (D4):** a data de 573 é a da planilha (14/11, decisão 12); a janela curta fica aceita |
+| NL3 | Pós P5 lote 2 (657) e 68618 (18/12) | duas ofertas da mesma área na mesma semana para o mesmo contato | **Fechado (D4):** 68618 tem prioridade na área de anestesia e ventilação até 18/12; o pré-lançamento de 657 vai a esse segmento a partir de 04/01. Pela tabela de 12.4, 657 não é par de 68618 (o par de 68618 é 352) |
+| NL4 | copy-de-mensagens-eventos M9 (25/11) e RL1 de 616 e 68618 | o participante receberia a mesma oferta de Livres por duas réguas | **Fechado (D9):** o M9 do Workshop não leva chamada para curso livre com data; 616 chega aos participantes só pela régua de Livres, a partir de 30/11 (T3) |
+| NL5 | newsletter-geral versão 1 e copy-de-mensagens-eventos | duas listas de envio do Workshop | **Fechado (12.9):** a lista oficial é o mapa e os follow-ups da copy-de-mensagens-eventos, com as mudanças de D3; a seção 4.4 foi refeita com ela (RLv3) |
+| NL6 | newsletter-geral, edição 4 (22/12), e a regra de 21/12 a 03/01 | e-mail de campanha dentro da janela de manutenção | **Fechado (D4):** a edição 4 passa para qui 07/01/2027, 10h |
+| NL7 | Plano 1.9 de Livres ("2 mensagens no total") e estratégia da Pós (2 WhatsApp e 2 e-mails) | dois tetos diferentes para a mesma base | **Fechado (D1):** teto único de 2 WhatsApp e 2 e-mails por semana e 1 por dia; Livres sem sub-teto |
 
 ---
 
@@ -340,7 +344,7 @@ As métricas de entrega, clique, resposta, SAIR, bloqueio, denúncia e tempo de 
 
 | Canal | Métrica | Fórmula | Fonte | Para que serve |
 |---|---|---|---|---|
-| E-mail e WhatsApp | Pedidos pagos por mensagem | pedidos pagos com utm_source=email ou whatsapp, utm_medium=disparo e utm_content do toque (ex.: rl1-573-t3), divididos pelas mensagens entregues | loja, CRM [CONFIRMAR] | resultado do toque |
+| E-mail e WhatsApp | Pedidos pagos por mensagem | pedidos pagos com utm_source=email ou whatsapp, utm_medium=crm e utm_content do toque (ex.: rl1-573-t3), divididos pelas mensagens entregues | loja, CRM [CONFIRMAR] | resultado do toque |
 | E-mail e WhatsApp | Inscrições líquidas atribuídas | pedidos pagos atribuídos menos reembolsados ou cancelados, por item | loja, secretaria | liga a mensagem à meta única do plano 1.9 (M1) |
 | WhatsApp | Conversas que viraram pedido pago | pedidos pagos com origem WhatsApp do item ÷ conversas abertas sobre o item | CRM, Chatwoot [CONFIRMAR] | resultado do canal de venda |
 | Serviço | Comparecimento | presentes ÷ inscritos, por presencial (M15) | secretaria | se o serviço reduz falta |
@@ -350,11 +354,11 @@ As métricas de entrega, clique, resposta, SAIR, bloqueio, denúncia e tempo de 
 | Os dois | Toques suprimidos pelo teto | toques de Livres não enviados por teto ou prioridade ÷ toques agendados, por semana | CRM | mostra quanto a base compartilhada limita Livres |
 | Os dois | Base com consentimento de Livres | contatos com opt-in ativo por canal, por segmento SL | CRM | tamanho real da base de campanha |
 
-UTM proposta: o padrão da analise-de-funil-livres (seção 3.3), com utm_medium=disparo e utm_campaign com o código e o formato (ex.: 573_livre_presencial). A newsletter mantém o padrão dela (utm_medium=newsletter). Nenhum dado pessoal na UTM [SUPOSIÇÃO; o arquiteto-de-fluxos confere].
+UTM (padrão único D11 e D12 do cmo): mensagem enviada pelo CRM (RL1 a RL10) com utm_source=whatsapp ou email e utm_medium=crm; utm_campaign = livres_<código do catálogo>_<AAAAMM do primeiro envio> (ex.: livres_573_202611, livres_68614_202611); utm_content = ID do toque (ex.: rl1-573-t3). A newsletter usa utm_medium=newsletter e utm_campaign=geral_newsletter_<AAAAMM>. Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal na UTM. O arquiteto-de-fluxos confere quando a ferramenta for confirmada.
 
 ### 9.2 Regras de parada
 
-As da estratégia da Pós (seção 7.2), mais uma: se um item com data perder o status "aberto" no catálogo, mudar de data ou ter a página trocada (P6, P7), todos os toques de campanha daquele item param até a peça ser revista.
+As da estratégia da Pós (seção 7.2), mais uma: se um item com data perder o status "aberto" no catálogo, mudar de data ou ter a página trocada (por exemplo, a correção da 623, U5), todos os toques de campanha daquele item param até a peça ser revista.
 
 ### 9.3 Ritual de revisão
 
@@ -366,7 +370,7 @@ As da estratégia da Pós (seção 7.2), mais uma: se um item com data perder o 
 
 ## 10. Pedidos de aprovação humana e à Ufape
 
-Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e base legal, tamanho dos segmentos, quem aprova envio em massa, templates da Meta, janela e teto, SAIR e serviço, confirmação de turma, descontos) valem para Livres e não se repetem: a pessoa do marketing envia junto, com a parte de Livres separada. Específicos de Livres:
+Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e base legal, tamanho dos segmentos, quem aprova envio em massa, templates da Meta, janela e teto D1, SAIR e serviço, confirmação de turma, descontos e a proposta de crédito U7) valem para Livres e não se repetem: a pessoa do marketing envia junto, com a parte de Livres separada. Específicos de Livres:
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo proposto |
 |---|---|---|---|---|---|---|
@@ -375,10 +379,10 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 | UR3 | Confirmar se o pedido pago da loja chega ao CRM com o código do produto e a área | sem isso não há SL5 a SL8, supressão de quem comprou nem marcação para a Pós | sem custo direto | quem comprou para de receber convite do mesmo item | não se aplica | 30/10 |
 | UR4 | Data em que cada turma presencial é confirmada, quem avisa o inscrito e o fim das inscrições de cada item | RL2 e a parada de RL1 | sem custo | menos medo de pagar antes de saber (hipótese 2 do funil) | não se aplica | 28/10 (573, 68614, 68637 ou 623); 13/11 (616, 68618) |
 | UR5 | Quem envia o acesso dos online, em quanto tempo, e o prazo de acesso por formato (PL7) | RL4 | sem custo | primeiro acesso maior | não se aplica | 13/11 |
-| UR6 | Aprovar ou recusar WhatsApp de serviço no sábado do curso (14/11, 28/11, 05/12), às 8h; se recusado, o e-mail das 7h é a mensagem do dia | janela de dia útil | sem custo | inscrito sem dúvida no dia | voltar ao só e-mail | 06/11 |
+| UR6 | Aprovar ou recusar WhatsApp de serviço no sábado do curso (14/11, 28/11, 05/12), às 8h; se recusado, o e-mail das 7h é a mensagem do dia. Entrou no pedido R2 do cmo | janela de dia útil | sem custo | inscrito sem dúvida no dia | voltar ao só e-mail | 06/11 |
 | UR7 | Se a loja registra carrinho abandonado e pedido de boleto parcelado (L5b), e se o lembrete pode ser enviado | RL7 | sem custo | menos abandono no pagamento (hipótese 1 do funil) | desligar o lembrete | 13/11 |
 | UR8 | Quem administra os grupos de WhatsApp dos grupos de estudos e se usam modo de avisos; confirmar que os números não viram lista | LGPD e regra da seção 2.4 | sem custo | grupo como serviço, sem exposição de número | não se aplica | 06/11 |
-| UR9 | Decidir NL1 a NL7 e a regra de prioridade entre linhas (seção 4.3) | três réguas e uma newsletter na mesma base | sem custo | teto respeitado sem tirar de Livres o que a data pede | voltar à prioridade da Pós | 30/10 (cmo) |
+| UR9 | Fechado: NL1 a NL7 e a fila de prioridade (seção 4.3) foram decididos pelo cmo na seção 12 do plano (D1 a D4, D9 e 12.9) | - | - | - | - | - |
 | UR10 | Ferramenta e consentimento da pesquisa pós-curso anônima | RL8 e voz real (U14) | sem custo | primeiras citações reais de Livres | não enviar a pesquisa | 13/11 (antes do pós-curso de 573) |
 
 ---
@@ -401,10 +405,10 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 ### 11.2 auditorias/conformidade-educacional.md (conferência rápida; o qa-de-marketing repete)
 
 - Dados de curso: códigos, datas, preços e status conferidos no catálogo em 26/10/2026; o que só está na ficha leva [CONFIRMAR NO CATÁLOGO]; totais no cartão vêm da oferta, como cálculo.
-- Nenhuma frase de certificação; nenhuma nota ou selo de regulador; curso livre sempre com "não confere diploma nem equivale a pós-graduação".
+- Nenhuma frase de certificação; nenhuma nota ou selo de regulador; curso livre sempre com a frase única D13: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."
 - Nenhuma urgência ou escassez sem número; nenhum desconto, cupom ou proposta (PL1 a PL8) como oferta.
 - Nenhuma chamada para item em "verificar", duplicado, em espanhol ou para a Pós 698.
-- Datas de 573, 68614 e 68618 só depois de P6; página única entre 623 e 68637 só depois de P7.
+- Datas de 573, 68614 e 68618 pela planilha (decisão 12); nenhuma campanha nova aponta para a 623 até a correção (decisão 13).
 - Consentimento e saída em todo programa; nenhum dado pessoal; nenhum docente nomeado.
 - Workshop Brasileiro de Neuromonitorização só com o nome oficial.
 - Nenhum travessão nem meia-risca.
@@ -413,9 +417,9 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 
 ## 12. Próximo passo
 
-1. Pessoa do marketing: aprovar papéis de canal, segmentos, programas, a regra de prioridade entre linhas e o calendário dos kits; enviar UR1 a UR8 e UR10 à Ufape junto com os pedidos da Pós; levar NL1 a NL7 e UR9 ao cmo.
+1. Pessoa do marketing: aprovar papéis de canal, segmentos, programas e o calendário dos kits; enviar UR1 a UR8 e UR10 à Ufape junto com os pedidos da Pós (NL1 a NL7 e UR9 já foram decididos pelo cmo).
 2. Próximo agente sugerido pela instrução deste agente: **newsletter**, com este arquivo (como Livres entra na agenda e nos guias de formato; nenhuma carta própria de Livres neste trimestre). Na cadeia do cmo, esta saída também alimenta 1.27 (jornada-do-aluno, geral, que deve usar a seção 6 para a passagem de Livres para Pós) e 1.28 (campanhas-de-nutricao, livres).
-3. copy-de-mensagens: escrever 68665 (até 28/10), o kit da 573 (até 30/10) e o de 68614 e 68637 ou 623 (até 03/11), cada um com mapa no formato mapear-regua e as datas da tabela 7.1.
+3. copy-de-mensagens: escrever 68665 (até 28/10), o kit da 573 (até 30/10) e o de 68614 e 68637 (até 03/11), cada um com mapa no formato mapear-regua, as datas e supressões da tabela 7.1 (RLv2 antes do agendamento) e a UTM de D11 e D12.
 
 ---
 
@@ -426,15 +430,16 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 - Kit mínimo de turma de Livres: 3 WhatsApp e 1 e-mail (mais página, 4 posts, 2 criativos e plano dos 8 canais). Fonte: templates/kit-de-lancamento-livres.md.
 - Itens com data: 68665 (01/11/2026, R$ 100,00), 573 (14/11/2026, 28 h, R$ 2.350,00 ou 10x de R$ 303,00), 68666 (25/11/2026, R$ 100,00), 68614 (28/11/2026, 12 h, R$ 1.250,00 ou 10x de R$ 175,00), 623 e 68637 (28/11/2026, 12 h, R$ 890,00 ou 6x de R$ 205,00), 616 (05/12/2026, local "Presencial e Online", modalidade "On-line", 12 h, R$ 990,00 ou 5x de R$ 240,00, ou R$ 1.200,00 em até 5x), 68618 (18/12/2026, 17 h, modalidade em branco, R$ 1.710,00 ou 1x de R$ 1.800,00), 68638 (06/03/2027, carga horária em branco, R$ 980,00 ou 10x de R$ 125,00). Fonte: contexto/catalogo-de-cursos.md (26/10/2026).
 - Gravados do mesmo tema dos presenciais: 411 (12 h, R$ 420,00), 291 (9 h, R$ 280,00), 591 (8 h, R$ 384,00). Fonte: catálogo.
-- Datas em dúvida (P6: 573, 68614, 68618) e duplicidades (P7: 623 e 68637, 643 e 713, 642 e 712). Fonte: plano do cmo; estrategia-de-marketing-livres, seção 1.
+- Datas de 573, 68614 e 68618 pela planilha (decisão 12); 623 corrigida pela Ufape e fora de campanha nova até a correção, kit de Endoscopia na 68637 (decisão 13); duplicidades de grupos 643 e 713, 642 e 712. Fonte: docs/execucao-2026-10-26.md, decisões 12 e 13; cmo, seção 12.1; estrategia-de-marketing-livres, seção 1.
+- Teto único D1, fila D2, semana a semana D3, serviço e calendário D4 (edição 4 da newsletter em 07/01/2027), regra do par e tabela única D6, crédito D7, janela de silêncio D8, M9 do Workshop D9, ex-aluno na régua das provas D10, UTM D11 e D12, frase do curso livre D13. Fonte: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12.
 - Regras de turma das fichas: 68614 com mínimo de 15 e cancelamento até 30 dias antes com devolução total; 623 e 68637 com mínimo de 15 e reembolso se a turma não for confirmada; 68665 sem reembolso por desistência e aulas liberadas 7 dias depois da transmissão. Fonte: estrategia-de-oferta-livres, seções 1.2 e 1.5 (dados de ficha, [CONFIRMAR NO CATÁLOGO]).
 - Grupos sem mídia paga (D21); anúncios de 573 e 68614 sem data até a confirmação (D12). Fonte: estrategia-de-marketing-livres, seção 1.
 - Meta única de Livres: inscrições pagas e não reembolsadas; métricas M1 a M18. Fonte: estrategia-de-marketing-livres, seções 2.1 e 3.1.
 - Nenhuma mensagem de Livres em 20, 21, 26 e 27/11 para a mesma base das provas; serviço de 68614 e 623 ou 68637 em 25/11; sequência de janeiro dos contínuos até 30/12. Fonte: estrategia-de-marketing-livres, seções 6.4 e 7.1.
-- Teto de 2 WhatsApp e 2 e-mails de campanha por semana, um canal por dia, janela das 9h às 18h, dias sem envio, prioridade entre segmentos e choques N1 a N4. Fonte: estrategia-de-relacionamento-pos, seções 3, 4 e 6 (todos [SUPOSIÇÃO] lá).
+- Segmentos, base legal e regras de envio herdadas. Fonte: estrategia-de-relacionamento-pos, versão 2, seções 3, 4 e 6.
 - Envios da régua das provas: 03/11, 04/11, 05/11, 06/11, 10/11, 12/11 (reenvio), 23/11, 24/11, 25/11 (reenvio), véspera 26/11 e dia 27/11. Fonte: copy-de-mensagens-pos, seção 2.
-- Envios da régua do Workshop: 30/10, 05/11, 14/11, 16/11, 19/11 a 21/11 (serviço), 23/11 e 25/11. Fonte: copy-de-mensagens-eventos, seção 1.
-- Newsletter: edição 1 em 18/11 (WhatsApp em 19/11), edição 2 em 03/12 (WhatsApp em 04/12), edição 3 em 17/12, edição 4 em 22/12, edição 5 em 14/01; supressão quando o contato já tem 2 e-mails de campanha na semana. Fonte: newsletter-geral, seções 3.1, 3.2, 4.5 e 5.5.
+- Envios da régua do Workshop: 30/10, 05/11, 14/11, 16/11, 19/11 a 21/11 (serviço), 23/11 e 25/11, mais os follow-ups de 03/11 (e-mail), 04/11 (WhatsApp), 09/11 (e-mail) e 16/11 (e-mail); com D3, o M3 por WhatsApp passa para 17/11 e os follow-ups de 03/11, 04/11 e 09/11 são suprimidos para a base das provas. Fonte: copy-de-mensagens-eventos, mapa e follow-ups; qa loteB (RLv3); cmo, seção 12.2.
+- Newsletter: edição 1 em 18/11 (WhatsApp em 19/11), edição 2 em 03/12 (WhatsApp em 04/12), edição 3 em 17/12, edição 4 em 07/01/2027 (antes 22/12, D4), edição 5 em 14/01; a newsletter é o 5º lugar da fila D2. Fonte: newsletter-geral, seções 3.1, 3.2, 4.5 e 5.5; cmo, seção 12.2.
 - Funil L1 a L8, eventos, UTM e lista fechada de motivo de perda. Fonte: analise-de-funil-livres, seções 1 e 3 (veredito do qa: corrigir FL1, sobre o 616, já respeitado aqui).
 - Dúvidas do candidato sobre acesso, contrato, prática, turma e certificado (L-T2, L-T3, L-T4, L-T6, L-T7, L-T16). Fonte: insights-de-alunos-livres, seção 2 (aprovado pelo qa em dep01a).
 - Rotação dos contínuos por área de 02/11/2026 a 27/02/2027. Fonte: estrategia-de-conteudo-livres, seção 5.3.
@@ -442,18 +447,17 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Teto, janela de horário, um canal por dia e lista de dias sem envio, herdados da estratégia da Pós; e "no máximo 1 mensagem de campanha por dia".
-- [SUPOSIÇÃO] Regra de prioridade entre linhas, inclusive a exceção dos 7 dias antes de um presencial para a área dele.
+- [SUPOSIÇÃO] Números do teto D1 (2 WhatsApp e 2 e-mails por semana, 1 por dia) e janelas de horário, até a Ufape confirmar (R1 do cmo). A fila D2 e as supressões de D3 são decisão do cmo.
 - [SUPOSIÇÃO] Datas e horas de todos os toques da tabela 7.1 e o recorte "só contato de Livres" ou "todas as bases".
 - [SUPOSIÇÃO] Critérios de segmento: 3 dias sem pagamento depois do contato (SL3), 72 h para pagamento não concluído (SL4), 30 dias para ex-aluno de online (SL8), 180 dias para lead frio (SL11).
-- [SUPOSIÇÃO] Janela de silêncio de 7 dias depois do curso antes de convite de Pós.
+- [SUPOSIÇÃO] Prazo da janela de silêncio D8: 2 dias úteis depois do curso ou evento; 7 dias corridos no online e no minicurso.
 - [SUPOSIÇÃO] Rotação dos contínuos na base só a partir de 30/11 e no máximo 1 toque a cada 2 semanas por contato.
 - [SUPOSIÇÃO] Lembrete de primeiro acesso no dia 3 (RL4) e degrau seguinte a partir de 14 dias (RL8).
 - [SUPOSIÇÃO] Grupos de WhatsApp dos grupos de estudos são canal de serviço e não viram lista.
 - [SUPOSIÇÃO] Personas P-L1 a P-L5 por segmento (hipóteses da pesquisa-de-persona-livres, que o qa mandou corrigir em pontos de contagem).
 - [SUPOSIÇÃO] Janela de campanha de 4 a 8 semanas antes da data dos presenciais (contexto da linha).
 - [SUPOSIÇÃO] Datas das revisões mensais (30/11, 28/12, 25/01), as mesmas da Pós.
-- [SUPOSIÇÃO] Padrão de UTM do funil de Livres.
+- [SUPOSIÇÃO] Leitura de que "pago" não seria classificado como mídia paga no GA4 (motivo citado em D11; o arquiteto-de-fluxos confere).
 
 ## Lista 3. Dados que faltam
 
@@ -461,18 +465,19 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 - [CONFIRMAR] Taxas históricas de entrega, clique, resposta, bloqueio e descadastro.
 - [CONFIRMAR] Base legal para usar compradores de Livres em campanha e consentimento no checkout.
 - [CONFIRMAR] Ligação entre loja e CRM por código de produto e área.
-- [CONFIRMAR] Datas de 573, 68614 e 68618 (P6), página única entre 623 e 68637 (P7) e início de 68665.
+- [CONFIRMAR] Início de 68665 (01/11 no catálogo, 05/11 na ficha) e qual página fica à venda depois da correção da 623 (U5 do cmo).
 - [CONFIRMAR] Data de confirmação de cada turma presencial, quem avisa e fim das inscrições de cada item.
 - [CONFIRMAR NO CATÁLOGO] Prazo de acesso por formato, modalidade de 616 e 68618, carga horária de 68638, horas práticas e vagas dos presenciais, texto único de pagamento e horário do sábado da 573.
 - [CONFIRMAR NO CATÁLOGO] Período coberto pelos R$ 100,00 dos grupos e regra de reembolso de 68666.
 - [CONFIRMAR] Nome do CRM, das ferramentas de e-mail e de WhatsApp, uso da API da Meta e templates aprovados (pedidos R1 e R5 da Pós).
 - [CONFIRMAR] Quem aprova e-mail e WhatsApp em massa (pedido R4 da Pós).
-- [CONFIRMAR] Janela de envio e teto único entre linhas (pedido R6 da Pós; NL7).
+- [CONFIRMAR] Números do teto D1 e janelas de envio (pedido R1 do cmo).
 - [CONFIRMAR] WhatsApp de serviço no sábado do curso (UR6).
 - [CONFIRMAR] Registro de carrinho abandonado e de boleto parcelado pedido por e-mail (UR7).
 - [CONFIRMAR] Administração dos grupos de WhatsApp dos grupos de estudos (UR8).
 - [CONFIRMAR] Ferramenta e consentimento da pesquisa pós-curso (UR10).
-- [CONFIRMAR] Decisões de oferta PL1 a PL8, em especial PL2 (crédito do livre na Pós), PL5 (política de turma) e PL7 (prazo de acesso).
+- [CONFIRMAR] Decisões de oferta PL1 a PL8, em especial a proposta única de crédito da ponte (U7 do cmo), PL5 (política de turma) e PL7 (prazo de acesso).
+- [CONFIRMAR] Pré-requisito de 657, antes de citar o par de 616 (U10 do cmo).
 - [CONFIRMAR] Metas de Livres (inscrições líquidas por formato) e mínimo de participantes de cada presencial: nenhuma meta existe hoje.
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação do curso livre: nenhuma mensagem usa.
 
@@ -481,3 +486,15 @@ Os pedidos R1 a R9 da estratégia da Pós (ferramentas, registro de opt-in e bas
 Internas: .claude/agents/estrategia-de-relacionamento.md; .claude/skills/mapear-regua/SKILL.md; CLAUDE.md; docs/execucao-2026-10-26.md; docs/andamento-planejamento.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/catalogo-de-cursos.md; templates/kit-de-lancamento-livres.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-livres-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/insights-de-alunos-livres-2026-10-26.md; saidas/08-conversao/analise-de-funil-livres-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/newsletter-geral-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01a.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep08-09.md; saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md (via estratégia da Pós); auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md (citada pela regra; conferência rápida na seção 11.2).
 
 Externas: nenhuma consultada nesta etapa. A Lei 13.709/2018 (LGPD) e as regras da WhatsApp Business API são citadas como referência geral e precisam de conferência do encarregado de dados e da política vigente da Meta.
+
+Versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12; docs/execucao-2026-10-26.md, decisões 10 a 13; saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md (versão 2); saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (RLv1 a RLv3).
+
+## Mudanças desta versão
+
+Versão 2, 26/10/2026. Aplica a seção 12 do plano do cmo e os ajustes do qa.
+
+- Encomendas do cmo (12.10): 4.1 com o teto único D1, sem a divergência NL7 e sem sub-teto de Livres; 4.2 com os dias de D1; 4.3 trocada pela fila D2; 4.4 refeita com a semana a semana de D3; seção 6, regra 3, com a janela de silêncio D8, regra 4 com D7 e U7, regras 5 e 6 com D10 e D9, regra 7 com a tabela única de pares de 12.4; NL1 a NL7 fechados (8.3) e UR9 fechado; RL8 com a primeira parte como serviço (D4); UTM de D11 e D12 (utm_medium=crm, utm_campaign=livres_<código>_<AAAAMM>); frase D13 na seção 3.3.
+- Decisões 12 e 13: datas de 573, 68614 e 68618 pela planilha (P6 fechado); campanha nova de Endoscopia só na 68637 até a correção da 623 (o serviço a quem já comprou pela 623 continua).
+- RLv1: frase do curso livre trocada pela frase única D13 nas seções 3.3 e 11.2.
+- RLv2: supressão de 09/11 escrita na tabela 7.1 (contato em A2 e A5 recebe só 573 T3 e T4 em S3; follow-up do Workshop de 09/11 suprimido para a base das provas por D3).
+- RLv3: S1 a S6 da tabela 4.4 e a lista de envios do Workshop refeitas com a régua escrita (com os follow-ups) e a newsletter versão 2; NL5 fechado.

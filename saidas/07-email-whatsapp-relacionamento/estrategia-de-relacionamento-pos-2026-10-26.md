@@ -3,6 +3,7 @@
 - **Agente:** estrategia-de-relacionamento (departamento 07, E-mail, WhatsApp e Relacionamento), etapa 1.26 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa (RP1 a RP4 da revisão saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md). Entradas novas desta versão: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1 a D17, encomendas em 12.10); docs/execucao-2026-10-26.md, decisões 10 a 13; contexto/pos-graduacao.md atualizado (provas online, regra da ficha de cada prova, campus diferenciado, turma mínima de 15). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing (auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. A squad não dispara nada: e-mail e WhatsApp são textos e regras para o CRM enviar, só para quem deu consentimento. Nada é publicado, enviado ou pago.
 - **Entradas lidas:**
   - .claude/agents/estrategia-de-relacionamento.md (instrução do agente; não cita skill. Usei como apoio .claude/skills/mapear-regua/SKILL.md)
@@ -31,10 +32,10 @@
 
 ## 0. Resumo em 6 linhas
 
-1. O WhatsApp é o canal de conversa e de prazo (vendas, lembretes, resultado da prova, matrícula em 10 dias úteis); o e-mail é o canal de documento, de "como funciona" e de conteúdo por área. Os dois só para quem deu consentimento, com saída simples.
+1. O WhatsApp é o canal de conversa e de prazo (vendas, lembretes, resultado da prova, matrícula no prazo escrito na ficha de cada prova); o e-mail é o canal de documento, de "como funciona" e de conteúdo por área. Os dois só para quem deu consentimento, com saída simples.
 2. São 12 segmentos, do lead sem área ao ex-aluno, com regra de entrada, de saída e a mensagem que cada um precisa (seção 4).
 3. São 9 programas: régua das provas (já escrita), reta final das turmas de outubro e novembro, boas-vindas do lead, retomada pós-contato, pré-lançamento por área (março e abril de 2027), integração do matriculado, aluno e ex-aluno, carta mensal por área e higiene da base (seção 5).
-4. Cadência: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, um canal por dia, WhatsApp só em dia útil das 9h às 18h [SUPOSIÇÃO, a Ufape confirma]. Há três choques de calendário com a régua do Workshop que o CRM precisa resolver por prioridade (seção 6.4).
+4. Cadência (D1 do cmo): no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas e a newsletter, e no máximo 1 mensagem de campanha por contato por dia em qualquer canal (follow-up e reenvio contam); WhatsApp só em dia útil das 9h às 18h; e-mail em qualquer dia, das 7h às 19h [SUPOSIÇÃO, a Ufape confirma]. Quando réguas disputam a semana, vale a fila D2 (seção 4). Os quatro choques de calendário com a régua do Workshop (N1 a N4) e os dois apontados pelo qa (N5 e N6) estão resolvidos pela seção 12 do plano do cmo (seção 6.4).
 5. Métricas por canal sem depender de abertura: cliques, respostas, inscrições e matrículas por mensagem; no WhatsApp, também SAIR, bloqueios e denúncias. Revisão mensal em 30/11, 28/12 e 25/01 (seção 7).
 6. Nada roda antes de quatro respostas da Ufape: CRM e ferramenta de WhatsApp, registro de consentimento com base legal, quem aprova envio em massa e templates aprovados pela Meta (seção 8).
 
@@ -49,10 +50,11 @@
 | Canais em uso | WhatsApp de vendas (São Paulo e Goiânia), WhatsApp da secretaria, e-mail, site com loja | contexto/ufape-geral.md |
 | Contatos oficiais | Vendas SP (11) 91366-9290; vendas Goiânia (62) 9420-1847; secretaria (11) 97492-8443 (WhatsApp) e duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h | contexto/ufape-geral.md |
 | Instabilidade | O site informou instabilidade no WhatsApp interno em 22/10/2026 | contexto/ufape-geral.md |
-| Papel do WhatsApp no plano | Canal 1 da Pós: onde o lead vira matrícula e onde o aprovado da prova decide em 10 dias úteis | estrategia-de-marketing-pos, seção 4 |
-| Régua das provas de bolsa | 20 mensagens (M1 a M20) e 17 respostas prontas, com regras de opt-in, saída e UTM | copy-de-mensagens-pos |
+| Papel do WhatsApp no plano | Canal 1 da Pós: onde o lead vira matrícula e onde o aprovado da prova decide no prazo de matrícula (o da ficha de cada prova, decisão 11) | estrategia-de-marketing-pos, seção 4; docs/execucao-2026-10-26.md, decisão 11 |
+| Régua das provas de bolsa | 20 mensagens (M1 a M20) e 17 respostas prontas, com regras de opt-in, saída e UTM; M16 a M20 são serviço (D4 do cmo) | copy-de-mensagens-pos; cmo, seção 12.2 |
 | Kit mínimo por turma de Pós | 4 WhatsApp de nutrição e 2 e-mails de nutrição por turma liberada | templates/kit-de-lancamento-pos.md |
-| Prazos que as mensagens carregam | Prova em 27/11/2026, das 9h às 13h; 2 dias úteis para recurso; 10 dias úteis para matrícula do aprovado; resultado por WhatsApp ou e-mail | contexto/pos-graduacao.md |
+| Prazos que as mensagens carregam | Prova online em 27/11/2026, das 9h às 13h (o local não importa; toda peça diz o campus, São Paulo ou Goiânia); vale a regra escrita na ficha de cada prova. Leitura geral das fichas: 2 dias úteis para recurso; 10 dias úteis para matrícula do aprovado; resultado por WhatsApp ou e-mail. Ressalva: a ficha 68641 traz um segundo bloco com resultado "no site" e prazo de "7 dias", e 12 fichas repetem a divergência de prazo [CONFIRMAR qual bloco vale, U1 do cmo] | contexto/pos-graduacao.md; docs/execucao-2026-10-26.md, decisão 11; ficha 68641; cmo, seção 12.12 |
+| Turma mínima | 15 alunos, também nas turmas de Pós; algumas páginas de curso ainda dizem 20 e serão corrigidas | contexto/pos-graduacao.md; decisão 11 |
 | Turmas que começam no trimestre | 707 (30/10), 68604 (31/10), 68606 (07/11), 68610, 698 e 68608 (28/11) | catálogo, seção 2 |
 | Turmas que decidem no trimestre | março de 2027: 657 (13/03), 341, 289 e 68615 (20/03), 333 (27/03) | catálogo, seção 2 |
 | Revisão semanal | toda segunda-feira (03/11 por causa do feriado de 02/11) | estrategia-de-marketing-pos, seção 5 |
@@ -78,7 +80,7 @@
 
 | Papel | O que é na Pós | WhatsApp | E-mail |
 |---|---|---|---|
-| **Nutrir** | levar o lead de "pensa em se especializar" a "sabe como funciona a turma da área dele" | só o curto: aviso de conteúdo novo ou de turma aberta, com 1 link; pergunta de qualificação ("qual especialidade?") | principal: "como funciona" (módulos presenciais, avaliação, turma mínima, texto-padrão de preço), carta mensal por área, conteúdo pilar |
+| **Nutrir** | levar o lead de "pensa em se especializar" a "sabe como funciona a turma da área dele" | só o curto: aviso de conteúdo novo ou de turma aberta, com 1 link; pergunta de qualificação ("qual especialidade?") | principal: "como funciona" (módulos presenciais, avaliação, turma mínima de 15 alunos, texto-padrão de preço), carta mensal por área, conteúdo pilar |
 | **Captar** (inscrição na prova e matrícula) | converter quem já tem intenção | principal: conversa com o time de vendas, lembrete de prazo, convite à prova, resultado, prazo de matrícula | apoio: confirmação com regras, documentos, condições completas por escrito, link da página |
 | **Reter** | levar o matriculado até o módulo 1 e o aluno até o fim, sem evasão | serviço: lembrete de módulo presencial e de avaliação, avisos de turma, sempre pela secretaria [CONFIRMAR dono] | serviço: boas-vindas, calendário, Área do Aluno, documentos de matrícula |
 | **Reativar** | lead frio, lead de turma que não abriu e ex-aluno | só se o contato tiver opt-in ativo e interação recente [SUPOSIÇÃO de critério na seção 4]; uma mensagem, com saída | principal: carta mensal, convite para trilha avançada e eventos da área, reconfirmação de interesse |
@@ -111,7 +113,7 @@ Isto é proposta de operação, não parecer jurídico. A base legal de cada tip
 | Tipo de mensagem | Exemplos | Base legal provável (Lei 13.709/2018) | Exige opt-in de canal? | Saída |
 |---|---|---|---|---|
 | Campanha (marketing) | convite à prova, pré-lançamento de turma, carta mensal, reativação, convite a evento | consentimento [CONFIRMAR com o encarregado] | Sim: opt-in de WhatsApp e opt-in de e-mail separados, com data e origem | "Responda SAIR" no WhatsApp; link de descadastro no e-mail. Sai de toda campanha de todas as linhas |
-| Serviço do que a pessoa comprou | confirmação de inscrição, véspera, dia da prova, resultado, prazo de matrícula, integração do matriculado | execução de contrato ou procedimento preliminar a pedido do titular [CONFIRMAR com o encarregado] | E-mail: não, se dado na compra. WhatsApp: [CONFIRMAR] se o checkout pede o consentimento do canal | Pode continuar recebendo serviço mesmo depois de SAIR da campanha [SUPOSIÇÃO já registrada no copy-de-mensagens-pos; a Ufape confirma] |
+| Serviço do que a pessoa comprou | confirmação de inscrição, véspera, dia da prova, resultado (M16 a M20 da régua das provas, D4 do cmo), prazo de matrícula (lembrete J3 e aviso de vencimento da 1ª mensalidade J4, se aprovados), integração do matriculado | execução de contrato ou procedimento preliminar a pedido do titular [CONFIRMAR com o encarregado] | E-mail: não, se dado na compra. WhatsApp: [CONFIRMAR] se o checkout pede o consentimento do canal | Pode continuar recebendo serviço mesmo depois de SAIR da campanha [SUPOSIÇÃO já registrada no copy-de-mensagens-pos; a Ufape confirma] |
 | Atendimento | resposta a conversa iniciada pelo candidato | a pedido do titular | Não para responder; para virar campanha depois, precisa do opt-in | O time oferece o opt-in na conversa, nunca marca sem perguntar |
 | Acadêmico e financeiro do aluno | módulos, avaliações, cobrança | contrato e obrigação da instituição | Fora desta estratégia: é da secretaria e do financeiro [CONFIRMAR dono] | Regras próprias da Ufape |
 
@@ -121,12 +123,12 @@ Isto é proposta de operação, não parecer jurídico. A base legal de cada tip
 2. **Nada de lista comprada, lista de grupo de WhatsApp sem opt-in, nem contato de evento de terceiros.** (estrategia-de-campanha-pos, seção 4.3)
 3. **Saída simples e respeitada em todo lugar.** SAIR no WhatsApp ou descadastro no e-mail tira o contato de toda campanha de todas as linhas (Pós, Livres, Eventos, Graduação) no mesmo dia [SUPOSIÇÃO de prazo; a ferramenta define]. Quem bloqueia ou denuncia é suspenso de WhatsApp de campanha.
 4. **Sem opt-in de WhatsApp, o e-mail cobre.** Toda mensagem de serviço com data (véspera, dia da prova, resultado, prazo de matrícula) tem versão por e-mail, para que ninguém fique sem a informação (lição da revisão do qa, eventos-b, C2).
-5. **Horário.** WhatsApp de campanha só em dia útil, das 9h às 18h [SUPOSIÇÃO; mesma janela da secretaria em ufape-geral.md]. Sábado, domingo e feriado nacional: nenhum WhatsApp de campanha. Resposta a contato iniciado pelo candidato pode sair a qualquer hora. E-mail pode ser agendado fora da janela, mas a squad propõe dia útil, das 7h às 19h [SUPOSIÇÃO].
-6. **Frequência humana.** No máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas [SUPOSIÇÃO, proposta da estrategia-de-campanha-pos, 4.3, que esta estratégia mantém até a Ufape confirmar]. Mensagens de serviço não contam no limite. Um canal por dia por contato, nunca e-mail e WhatsApp de campanha no mesmo dia (revisão do qa eventos-b, C-R4).
+5. **Horário (D1 do cmo).** WhatsApp de campanha só em dia útil, das 9h às 18h [SUPOSIÇÃO; mesma janela da secretaria em ufape-geral.md]. Sábado, domingo e feriado nacional: nenhum WhatsApp de campanha. Resposta a contato iniciado pelo candidato pode sair a qualquer hora. E-mail em qualquer dia, das 7h às 19h [SUPOSIÇÃO] (por isso o e-mail M3 do Workshop no sábado 14/11 fica).
+6. **Frequência humana (D1 do cmo).** No máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana (segunda a domingo), somando todas as linhas (Pós, Livres, Eventos, Graduação) e a newsletter [SUPOSIÇÃO até a Ufape confirmar, pedido R1 do cmo]. No máximo 1 mensagem de campanha por contato por dia, em qualquer canal: nunca e-mail e WhatsApp de campanha no mesmo dia. Conta como campanha: convite, programação, lembrete, follow-up, reenvio para quem não abriu ou não respondeu, kit de turma, newsletter, rotação dos contínuos, pré-lançamento e reativação. Não conta (serviço): confirmação de inscrição ou compra, véspera, dia, resultado da prova (M16 a M20), gravação e certificado do Workshop (M8), acesso ao online e material do pós-curso. Quando réguas disputam a mesma semana, vale a fila D2 (seção 4).
 7. **Dado pessoal fica no CRM.** A squad escreve com campos entre colchetes ([nome], [área], [nota]); relatórios voltam só somados por segmento, turma ou prova.
 8. **Nada sai sem aprovação humana** e sem o qa-de-marketing. Cada envio em massa é pedido de aprovação com: o que, por que, quantos contatos [CONFIRMAR], efeito esperado e como desfazer (pausar a régua no CRM).
 9. **Conferência antes do envio.** O CRM confere o status do item no catálogo no dia do envio: turma ou prova que deixou de estar "aberto" sai da mensagem (regra do copy-de-mensagens-pos, seção 1).
-10. **Conteúdo.** Preço só pelo texto-padrão (parcelas, valor da parcela, total e matrícula); bolsa só com as regras de contexto/pos-graduacao.md; sem frase de certificação; nome do curso sempre "Pós-graduação em <área>".
+10. **Conteúdo.** Preço só pelo texto-padrão (parcelas, valor da parcela, total e matrícula); bolsa só com a regra escrita na ficha da prova citada (decisão 11); prova online, sem endereço nem "presencial", sempre com o campus (São Paulo ou Goiânia); turma mínima de 15 alunos; sem frase de certificação; nenhuma mensagem cita crédito, combo ou desconto da ponte Livres para Pós (D7 do cmo); nome do curso sempre "Pós-graduação em <área>".
 
 ---
 
@@ -139,21 +141,43 @@ A segmentação depende de campos que o CRM talvez não tenha [CONFIRMAR]. Sem �
 | S1 | Lead de Pós sem área | deixou contato, sem [área_de_interesse] | P1 ou P3 [SUPOSIÇÃO] | quais áreas existem, como funciona o formato (um módulo por mês, presencial obrigatório) e a pergunta "qual especialidade?" | WhatsApp (qualificação) e e-mail | P3 boas-vindas | informa a área (vai para S2) ou pede para sair |
 | S2 | Lead de Pós com área | [área_de_interesse] preenchida; visitou página de turma ou prova da área, se medido | P1 | turma da área com data e texto-padrão de preço, prova de bolsa da área, resposta às objeções H-T1 a H-T5 | e-mail (como funciona) e WhatsApp (lembrete) | P1, P2 ou P5, conforme a área e a data | inscreve na prova (S4), matricula (S7) ou esfria (S11) |
 | S3 | Lead que falou com o time e não pagou | [etapa_do_funil] = contato, sem pagamento em [N] dias [SUPOSIÇÃO de N = 7] | P1, P2 | resposta factual ao motivo de perda registrado (turma pode não abrir, pagamento antecipado, viagem, preço) | WhatsApp do time | P4 retomada pós-contato | paga, recusa ou fica 30 dias sem resposta (S11) |
-| S4 | Inscrito na prova de bolsa | [inscrito_prova_código] | P4 | confirmação com regras, véspera, dia, local, documento | e-mail e WhatsApp (serviço) | P1 régua das provas (M10 a M15) | presente ou ausente em 27/11 |
-| S5a | Aprovado com bolsa | [resultado] = aprovado_com_bolsa | P4 | percentual da bolsa, prazo de recurso e de matrícula, turma de destino (só depois da resposta A-C2), investimento com bolsa calculado pela Ufape | WhatsApp e e-mail no mesmo dia (serviço com prazo) | P1 (M16 e M17) | matricula ou o prazo de 10 dias úteis vence |
-| S5b | Aprovado sem bolsa | [resultado] = aprovado_sem_bolsa | P4 | regra que a Ufape ainda não publicou | bloqueado | P1 (M18) | regra confirmada [CONFIRMAR] |
-| S5c | Não atingiu a nota de corte ou ausente | [resultado] = nao_atingiu ou ausente | P4 | conversa sem pressão sobre as condições normais da turma; sem cobrança, sem promessa de reembolso | WhatsApp e e-mail | P1 (M19 e M20), depois S2 | matricula ou volta a S2 |
+| S4 | Inscrito na prova de bolsa | [inscrito_prova_código] | P4 | confirmação com as regras da ficha da prova, véspera, dia, campus (São Paulo ou Goiânia) e acesso à prova online [CONFIRMAR como é o acesso, U2 do cmo] | e-mail e WhatsApp (serviço) | P1 régua das provas (M10 a M15) | presente ou ausente em 27/11 |
+| S5a | Aprovado com bolsa | [resultado] = aprovado_com_bolsa | P4 | percentual da bolsa, prazo de recurso e de matrícula da ficha da prova, turma de destino (só depois da resposta A-C2, U4), investimento com bolsa calculado pela Ufape | WhatsApp e e-mail no mesmo dia (serviço com prazo) | P1 (M16 e M17, serviço) | matricula ou o prazo de matrícula da ficha vence |
+| S5b | Aprovado sem bolsa | [resultado] = aprovado_sem_bolsa | P4 | regra que a Ufape ainda não publicou | bloqueado | P1 (M18, serviço) | regra confirmada [CONFIRMAR] |
+| S5c | Não atingiu a nota de corte ou ausente | [resultado] = nao_atingiu ou ausente | P4 | conversa sem pressão sobre as condições normais da turma; sem cobrança, sem promessa de reembolso | WhatsApp e e-mail (serviço) | P1 (M19 e M20, serviço); depois fica fora de campanha até o fim do prazo de matrícula dos aprovados da mesma prova e só então entra no P5, se a área tiver turma (D4 e J6 do cmo) | matricula ou entra no P5 depois do prazo |
 | S6 | Matriculado antes do início | 1ª mensalidade ou matrícula paga; turma ainda não começou | P1, P2 | situação da turma (aguardando confirmação ou confirmada), quando comprar passagem, documentos, primeiro módulo | e-mail (documentos) e WhatsApp (avisos) | P6 integração | começa a turma (S7) ou a turma é cancelada (S12) |
 | S7 | Aluno ativo de Pós | turma em andamento | aluno | serviço acadêmico (é da secretaria); da squad, só convite a evento e conteúdo da área, com opt-in e dentro do limite | e-mail | P7 aluno e ex-aluno | conclui (S8) ou cancela |
 | S8 | Ex-aluno de Pós | concluiu Pós na Ufape [CONFIRMAR se o CRM marca] | P1 com especialidade | trilha da área (ex.: Anestesiologia Avançada 657, Anestesiologia Locorregional 359 e Ventilação Mecânica 352 para quem fez anestesiologia), eventos da área, condição de ex-aluno só quando houver regra | e-mail | P7 | pede para sair |
-| S9 | Aluno ou ex-aluno de Curso Livre da mesma área | comprou curso livre [CONFIRMAR campo] | P1 ou P3 | a Pós da mesma área, como próximo passo, sem desconto até a PR5 ser aprovada | e-mail | P5 pré-lançamento por área | entra em S2 ou pede para sair |
+| S9 | Aluno ou ex-aluno de Curso Livre com par na Pós | comprou curso livre que tem par na tabela única de 12.4 do cmo (abaixo) [CONFIRMAR campo]; entra só depois do fim da janela de silêncio [fim_janela_silencio] (D8: 2 dias úteis depois do último dia do curso; online e minicurso, 7 dias corridos) | P1 ou P3 | a Pós do par, como próximo passo, com o campus dito; sem crédito, combo ou desconto da ponte (D7; proposta única U7 com a Ufape) | e-mail | P5 pré-lançamento por área (dono único do convite) | entra em S2 ou pede para sair |
 | S10 | Interessado em área sem turma aberta | área sem turma "aberto" no catálogo (ex.: Medicina de Felinos, Endoscopia, Nefrologia, Odontologia, conforme estrategia-de-marketing-pos, pedido U12) | P1 | aviso quando abrir turma; nenhuma chamada de compra para turma em "verificar", "sem venda" ou "encerrado" | e-mail | P8 carta mensal (conteúdo da área) | abre turma (vai para S2) |
 | S11 | Lead frio | sem clique, resposta ou visita em [N] dias [SUPOSIÇÃO de N = 180] | qualquer | uma mensagem de reconfirmação de interesse | e-mail | P9 higiene da base | reconfirma (volta a S1 ou S2) ou sai das campanhas |
 | S12 | Matriculado de turma cancelada ou adiada | [situacao_turma] = cancelada ou adiada | P1, P2 | aviso oficial, reembolso conforme a regra da página, opções (turma seguinte, se existir) | e-mail e WhatsApp (serviço) | P6 (mensagem de exceção, texto da Ufape) | caso resolvido pela secretaria |
 
 Fora desta estratégia: público da Pós-graduação Inteligência Artificial na Saúde (719), que é de saúde humana e TI e precisa de persona própria (pesquisa-de-persona-pos, seção 5); Graduação, que tem estratégia própria; turmas já iniciadas com status "verificar" (nenhuma mensagem chama para elas).
 
-**Prioridade de envio quando um contato está em mais de um segmento** [SUPOSIÇÃO de regra]: serviço (S4, S5, S6, S12) > captação com prazo (S5a, S3, S2 da onda em curso) > nutrição (S1, S9) > reativação (S8, S10, S11). O contato recebe a mensagem do segmento mais alto e as outras esperam a semana seguinte.
+**Fila de prioridade quando várias réguas disputam a mesma semana (D2 do cmo; substitui a prioridade da versão 1):**
+
+1. Serviço de qualquer linha (fora do teto): S4, S5a a S5c (M10 a M20), S6 e S12.
+2. Toque principal de cada campanha com data (convite, programação, lembrete principal, toque do kit de turma).
+3. Entre toques principais que disputam o mesmo canal na mesma semana, vence o item com data mais próxima; empate, vence a maior nota GUT da seção 3 do plano do cmo.
+4. Follow-ups e reenvios, na mesma ordem. Reenvio não muda de dia: se o dia já tem mensagem de campanha para o contato, ele é suprimido.
+5. Nutrição (P8 carta mensal, newsletter, rotação dos contínuos).
+6. Reativação (S8 sem campanha ativa, S11).
+
+O que é suprimido não acumula para a semana seguinte, salvo onde a seção 12 do plano do cmo diz "muda de data" (D3). O CRM aplica a fila por contato (encomenda ao arquiteto-de-fluxos).
+
+**Tabela única de pares Livres para Pós (12.4 do cmo; vale para S9 e P5).** Regra do par (D6): a Pós do mesmo tema; sem Pós do tema aberta, a da mesma área. O par só existe se o fim da janela de silêncio vier antes do vencimento da 1ª mensalidade (30 dias antes do início) e se a Pós começar depois do curso livre. Praça diferente é permitida, com o campus dito na peça. A régua de Livres nunca oferece Pós.
+
+| Curso livre (data da planilha) | Par na Pós | Início da Pós | Quando o convite do P5 pode sair |
+|---|---|---|---|
+| 573 Ecocardiografia Hands-On, SP (14/11/2026) | 289 Pós-graduação em Cardiologia Veterinária, Goiânia | 20/03/2027 | P5 lote 1, a partir de 02/12 (698 não é par) |
+| 68614 Videotoscopia, SP (28/11/2026) | sem par neste trimestre | - | - |
+| 68637 Endoscopia Digestiva, SP (28/11/2026); 623 depois da correção | sem par | - | - (se pedir Pós, vai para S10) |
+| 616 Imersão Avançada em Anestesia Felina, online (05/12/2026) | 657 Pós-graduação em Anestesiologia Avançada, SP | 13/03/2027 | P5 lote 2, a partir de 04/01; pré-requisito de 657 [CONFIRMAR, U10] antes de citar o par |
+| 68618 Ventilação Mecânica Aplicada à Anestesia, SP (18/12/2026) | 352 Pós-graduação em Ventilação Mecânica, SP | 24/05/2027 | pré-lançamento de maio, no próximo trimestre |
+| 68638 POCUS em Emergência, SP (06/03/2027) | 68635 Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, SP | 10/04/2027 | depois de 09/03 (fim da janela); 1ª mensalidade vence em 11/03 |
+| 560 Eletroquimioterapia, SP (22/05/2027) | sem par no sentido Livres para Pós | - | - |
+| Contínuos (gravados, minicursos, grupos) | Pós aberta da mesma área | por área | depois da janela do online; sem Pós aberta na área, não há par |
 
 ---
 
@@ -161,11 +185,11 @@ Fora desta estratégia: público da Pós-graduação Inteligência Artificial na
 
 | # | Programa | Tipo | Segmentos | Objetivo | Toques e canais | Quem escreve | Situação |
 |---|---|---|---|---|---|---|---|
-| P1 | **Régua das provas de bolsa de 27/11/2026** | campanha e serviço | S1, S2, S4, S5, S8 | inscrição na prova e matrícula com bolsa em 10 dias úteis | 20 mensagens (M1 a M20) de 03/11 ao fim do prazo de matrícula | copy-de-mensagens | **escrita** (copy-de-mensagens-pos), aguardando qa e aprovação; bloqueios de destino, local de Goiânia, data do resultado e regra do aprovado sem bolsa |
-| P2 | **Reta final das turmas de outubro e novembro** | campanha | S2 e S3 das áreas de 707, 68604, 68606, 698, 68610 e 68608 | matrícula até o início, sem urgência sem número | por turma: 1 e-mail com o texto-padrão de preço e 1 WhatsApp com a data de início; 707 e 68604 em 28/10; demais conforme o plano 1.9 (S1) | copy-de-mensagens | a fazer. Nas turmas com a 1ª mensalidade vencida, o texto termina em "fale com o time para saber como entrar na turma" (estrategia-de-oferta, 2.1, regra 3); nenhuma peça de 68610 ou 68608 cita bolsa (risco R5 do plano 1.9) |
+| P1 | **Régua das provas de bolsa de 27/11/2026** | campanha (M1 a M9 e reenvios) e serviço (M10 a M20; M16 a M20 por D4 do cmo) | S1, S2, S4, S5, S8 (S8 = ex-aluno de Pós; comprador só de Livres não entra, salvo se também for lead de Pós com opt-in, D10) | inscrição na prova e matrícula com bolsa no prazo da ficha de cada prova | 20 mensagens (M1 a M20) de 03/11 ao fim do prazo de matrícula; prova online, com o campus (São Paulo ou Goiânia) em toda mensagem | copy-de-mensagens | **escrita** (copy-de-mensagens-pos), aguardando qa e aprovação; bloqueios de destino (U4), acesso à prova online (U2), data do resultado e regra do aprovado sem bolsa (U3) |
+| P2 | **Reta final das turmas de outubro e novembro** | campanha | S2 e S3 das áreas de 707, 68604, 68606, 698, 68610 e 68608 | matrícula até o início, sem urgência sem número | por turma: 1 e-mail com o texto-padrão de preço e 1 WhatsApp com a data de início, em dias diferentes; 707 e 68604: e-mail em 28/10 e WhatsApp em 29/10 (D3); 68606: e-mail em 05/11 e WhatsApp em 06/11 para S2 de Gastroenterologia (D3); demais conforme o plano 1.9 (S1) | copy-de-mensagens | a fazer. Nas turmas com a 1ª mensalidade vencida, o texto termina em "fale com o time para saber como entrar na turma" (estrategia-de-oferta, 2.1, regra 3); nenhuma peça de 68610 ou 68608 cita bolsa (risco R5 do plano 1.9) |
 | P3 | **Boas-vindas do lead novo** | automação | S1, S2 | qualificar a área e explicar como funciona | 3 toques em 7 dias [SUPOSIÇÃO]: dia 0 e-mail "como funciona a Pós da Ufape" e pedido de área; dia 2 WhatsApp curto "qual especialidade?" (só com opt-in); dia 6 e-mail com a turma e a prova da área (se informou área) | copy-de-mensagens | a fazer; depende do formulário com opt-in |
 | P4 | **Retomada pós-contato** | automação com o time | S3 | responder ao motivo de perda com fato, não com pressão | até 3 toques em 21 dias [SUPOSIÇÃO]: WhatsApp do time com a resposta ao motivo; e-mail com as condições completas por escrito; WhatsApp final perguntando se pode encerrar o contato | copy-de-mensagens (textos por motivo); time de vendas envia | a fazer; depende do campo motivo_de_perda em lista fechada (analise-de-funil-pos, 3.4) |
-| P5 | **Pré-lançamento por área (turmas de março e abril de 2027)** | campanha | S2, S8, S9 e aprovados da prova com destino na turma (com consentimento) | lista de interessados e matrícula antes do vencimento da 1ª mensalidade | kit mínimo por turma: 4 WhatsApp e 2 e-mails (templates/kit-de-lancamento-pos.md), espalhados em pelo menos 3 semanas para caber no limite; ordem de áreas do plano 1.9: A11, A2, A1, A3, A14 | copy-de-mensagens, campanhas-de-nutricao | a fazer; março a partir de 02/12 (lote 1: 289, 68615, 333); retomada de janeiro escrita até 30/12 para envio a partir de 04/01 |
+| P5 | **Pré-lançamento por área (turmas de março e abril de 2027)** | campanha | S2, S8, S9 (só pelos pares da tabela única da seção 4), S5c e ausentes depois do prazo de matrícula dos aprovados (J6) e aprovados da prova com destino na turma (com consentimento) | lista de interessados e matrícula antes do vencimento da 1ª mensalidade | kit mínimo por turma: 4 WhatsApp e 2 e-mails (templates/kit-de-lancamento-pos.md), espalhados em pelo menos 3 semanas para caber no limite; ordem de áreas do plano 1.9: A11, A2, A1, A3, A14 | copy-de-mensagens, campanhas-de-nutricao | a fazer; março a partir de 02/12 (lote 1: 289, 68615, 333; inclui o convite de 289 a compradores de 573); retomada de janeiro escrita até 30/12 para envio a partir de 04/01; 657 vai ao segmento de anestesia e ventilação de Livres e aos compradores de 616 só a partir de 04/01 (D4, NL3 e tabela de pares). P5 é o dono único do convite de Livres para Pós; nenhum texto cita crédito ou desconto da ponte (D7) |
 | P6 | **Integração do matriculado** | serviço | S6, S12 | chegar ao módulo 1 sem dúvida e sem perder dinheiro com viagem | e-mail de boas-vindas com documentos e calendário; WhatsApp quando a turma for confirmada ("pode comprar passagem"); e-mail e WhatsApp na semana do módulo 1 | copy-de-mensagens com a secretaria | a fazer; depende da data em que a turma é confirmada (PR2) e da lista de documentos (H-T11) [CONFIRMAR] |
 | P7 | **Aluno e ex-aluno** | campanha leve | S7, S8 | trilha da área e eventos com condição de aluno, quando houver regra | 1 e-mail por mês no máximo; WhatsApp só para convite com prazo e opt-in | newsletter, copy-de-mensagens | a fazer; desconto de ex-aluno de Pós sem regra (PR6) não entra. O cupom SIMPNEUROMONIT é da linha Eventos e é tratado pela régua do Workshop, não aqui |
 | P8 | **Carta mensal da Pós por área** | newsletter | S1, S2, S8, S9, S10 | manter a Ufape lembrada entre campanhas com conteúdo útil da área | 1 e-mail por mês, por área com volume [CONFIRMAR], ligado ao conteúdo pilar (aposta 5 do plano 1.9) | newsletter (próximo agente) | a fazer; primeira edição depois de aprovado o primeiro conteúdo pilar (A11) |
@@ -173,8 +197,8 @@ Fora desta estratégia: público da Pós-graduação Inteligência Artificial na
 
 **Notas de programa**
 
-- P1 e P2 dividem a mesma semana (03 a 07/11). Para quem está em S2 de Gastroenterologia, Dermatologia, Hematologia ou Ecocardiografia, a mensagem de reta final da turma (P2) e o convite da prova (P1) não podem ir juntos: vale a prioridade da seção 4 e, nas áreas com turma em 28/11, a regra de destino da prova que a Ufape ainda não deu (A-C2).
-- P5 usa a lista de inscritos e aprovados da prova só para quem deu consentimento de campanha, e só depois de a Ufape confirmar o destino da prova.
+- P1 e P2 dividem a mesma semana (03 a 07/11). Para quem está em S2 de Gastroenterologia, Dermatologia, Hematologia ou Ecocardiografia, a mensagem de reta final da turma (P2) e o convite da prova (P1) não podem ir juntos: vale a fila D2 (seção 4), já aplicada pelo cmo em D3 (P2 de 68606 em 05/11 por e-mail e 06/11 por WhatsApp, no lugar do M10 do Workshop e do M5 das provas para esse segmento) e, nas áreas com turma em 28/11, a regra de destino da prova que a Ufape ainda não deu (A-C2, U4).
+- P5 usa a lista de inscritos e aprovados da prova só para quem deu consentimento de campanha, e só depois de a Ufape confirmar o destino da prova. Inscrito ou aprovado na prova não recebe campanha de Livres até o fim do prazo de matrícula (D10).
 - Todo programa novo vira um mapa no formato da skill mapear-regua (gatilho, objetivo, 5 a 7 toques, tempo entre eles, regras de saída, campos do CRM, templates da Meta) antes da copy.
 
 ---
@@ -185,42 +209,50 @@ Fora desta estratégia: público da Pós-graduação Inteligência Artificial na
 
 | Regra | WhatsApp | E-mail |
 |---|---|---|
-| Campanha por semana, somando todas as linhas | até 2 [SUPOSIÇÃO] | até 2 [SUPOSIÇÃO] |
-| Campanha por dia | 1 canal por dia; nunca e-mail e WhatsApp de campanha no mesmo dia | idem |
-| Janela | dia útil, 9h às 18h [SUPOSIÇÃO] | dia útil, 7h às 19h [SUPOSIÇÃO] |
-| Serviço (inscrito, aprovado, matriculado) | não conta no limite; respeita a janela, salvo exceção aprovada | não conta no limite; pode sair na hora do gatilho |
+| Campanha por semana (segunda a domingo), somando todas as linhas e a newsletter (D1) | até 2 [SUPOSIÇÃO] | até 2 [SUPOSIÇÃO] |
+| Campanha por dia (D1) | no máximo 1 mensagem de campanha por contato por dia, em qualquer canal; nunca e-mail e WhatsApp de campanha no mesmo dia | idem |
+| O que conta como campanha (D1) | convite, programação, lembrete, follow-up, reenvio para quem não abriu ou não respondeu, kit de turma, newsletter, rotação dos contínuos, pré-lançamento, reativação | idem |
+| Janela (D1) | dia útil, 9h às 18h [SUPOSIÇÃO] | qualquer dia, 7h às 19h [SUPOSIÇÃO] |
+| Serviço (inscrito, aprovado, matriculado; M10 a M20 das provas; M8 do Workshop) | não conta no limite; respeita a janela, salvo exceção aprovada (R2 do cmo) | não conta no limite; pode sair na hora do gatilho |
 | Depois de SAIR ou descadastro | nenhuma campanha | nenhuma campanha |
 | Lead que respondeu | automação pausa; o time conduz | automação pausa |
 
 ### 6.2 Dias sem envio de campanha
 
-- 02/11/2026 (feriado): nenhum envio de campanha (plano 1.9, copy-de-mensagens-pos).
-- 20 e 21/11/2026 (Workshop Brasileiro de Neuromonitorização; 20/11 é feriado): nenhuma mensagem da Pós para a base (risco R8 do plano 1.9).
-- 25/12/2026 e 01/01/2027 (feriados) e 31/12/2026: nenhum envio; semanas de 21/12 a 03/01 só com serviço e manutenção (risco R9 do plano 1.9).
+Dias da D1 do cmo, que valem para todas as linhas:
+
+- 02/11/2026 (feriado): nenhum envio de campanha de nenhuma linha.
+- 20 e 21/11/2026 (Workshop Brasileiro de Neuromonitorização; 20/11 é feriado): nenhuma campanha de nenhuma linha (Pós, Livres, Eventos, Graduação e newsletter); só serviço.
+- 26 e 27/11/2026: nenhuma campanha para quem está na campanha das provas; só o serviço das provas (véspera e dia).
+- 25/12/2026, 31/12/2026 e 01/01/2027: nenhuma campanha; de 21/12 a 03/01, só serviço e manutenção (risco R9 do plano 1.9).
 
 ### 6.3 Calendário de 12 semanas (relacionamento)
 
 | Bloco e semana | Datas | O que roda | Programas |
 |---|---|---|---|
-| Bloco 1, S1 | 27/10 a 01/11 | reta final de 707 e 68604 (28/10); pedido de confirmação das quatro travas da seção 8 | P2 |
-| Bloco 1, S2 | 03/11 a 08/11 | pico da régua das provas (M2 e M4 em 03/11, M1 e M3 em 04/11, M6 em 05/11, M5 em 06/11); reta final de 68606 só para S2 de Gastroenterologia, respeitando o limite | P1, P2 |
-| Bloco 1, S3 e S4 | 09/11 a 22/11 | sustentação das provas (M7 em 10/11 e reenvio); confirmação de inscritos no gatilho; nada em 20 e 21/11 | P1, P3 (se o formulário com opt-in estiver pronto) |
-| Bloco 1, S5 | 23/11 a 29/11 | reta final das provas (M8 em 23/11, M9 em 24/11); véspera e dia da prova (serviço); reta final de 698, 68610 e 68608 | P1, P2 |
-| Bloco 2, S6 e S7 | 30/11 a 13/12 | resultado da prova (data [CONFIRMAR]) e prazo de matrícula de 10 dias úteis; pré-lançamento de março, lote 1 (289, 68615, 333) a partir de 02/12; **revisão mensal 1 em 30/11** | P1 (M16 a M20), P5, P6 para os novos matriculados |
-| Bloco 2, S8 e S9 | 14/12 a 27/12 | pré-lançamento de março, lote 2 (657, 341 só depois da regra da promoção); a partir de 21/12, só serviço e manutenção | P5, P6 |
+| Bloco 1, S1 | 27/10 a 01/11 | reta final de 707 e 68604 (e-mail em 28/10, WhatsApp em 29/10, D3); pedido de confirmação das quatro travas da seção 8 | P2 |
+| Bloco 1, S2 | 02/11 a 08/11 (02/11 é feriado, sem envio) | pico da régua das provas (M2 ou M4 em 03/11, M1 ou M3 em 04/11, M6 em 05/11, M5 em 06/11); para quem também está na base do Workshop, o M6 é suprimido (D3); reta final de 68606 só para S2 de Gastroenterologia, por e-mail em 05/11 e WhatsApp em 06/11 (D3) | P1, P2 |
+| Bloco 1, S3 e S4 | 09/11 a 22/11 | sustentação das provas (M7 em 10/11; reenvio de 12/11 suprimido para quem está na base do Workshop, D3); confirmação de inscritos no gatilho; nenhuma campanha em 20 e 21/11 | P1, P3 (se o formulário com opt-in estiver pronto) |
+| Bloco 1, S5 | 23/11 a 29/11 | reta final das provas (M8 em 23/11, às 16h para participante do Workshop; M9 em 24/11); reenvio de 25/11 suprimido para participante do Workshop; véspera e dia da prova (serviço); nenhuma campanha em 26 e 27/11 para a base das provas; reta final de 698, 68610 e 68608 | P1, P2 |
+| Bloco 2, S6 e S7 | 30/11 a 13/12 | resultado da prova (data [CONFIRMAR], U3) e prazo de matrícula da ficha de cada prova; M16 a M20 como serviço; pré-lançamento de março, lote 1 (289, 68615, 333) a partir de 02/12; **revisão mensal 1 em 30/11** | P1 (M16 a M20), P5, P6 para os novos matriculados |
+| Bloco 2, S8 e S9 | 14/12 a 27/12 | pré-lançamento de março, lote 2 (657, 341 só depois da regra da promoção); 657 não vai ao segmento de anestesia e ventilação de Livres antes de 04/01 (68618 tem prioridade até 18/12, D4); a partir de 21/12, só serviço e manutenção | P5, P6 |
 | Bloco 3, S10 | 28/12 a 03/01 | retomada de janeiro escrita até 30/12; nenhum envio em 31/12 e 01/01; **revisão mensal 2 em 28/12** | preparação de P5 |
-| Bloco 3, S11 | 04/01 a 10/01 | retomada das turmas de março para a base com consentimento (datas dos módulos presenciais, texto-padrão de preço, turma mínima); primeira passada de higiene da base | P5, P9 |
+| Bloco 3, S11 | 04/01 a 10/01 | retomada das turmas de março para a base com consentimento (datas dos módulos presenciais, texto-padrão de preço, turma mínima de 15 alunos); primeira passada de higiene da base | P5, P9 |
 | Bloco 3, S12 | 11/01 a 24/01 | março: lembrete do vencimento da 1ª mensalidade por turma (data a confirmar por ficha); abril: primeiro lote de pré-lançamento; primeira carta mensal, se aprovada | P5, P6, P8 |
 | Depois | 25/01/2027 | **revisão mensal 3** e relatório de 90 dias do relacionamento | todos |
 
-### 6.4 Choques de calendário encontrados (nota para os agentes donos; nenhum arquivo foi alterado)
+### 6.4 Choques de calendário (nota para os agentes donos; nenhum arquivo foi alterado)
 
-| # | Onde | Choque | Proposta |
+Todos resolvidos pela seção 12 do plano do cmo (D3, D9 e 12.9). N5 e N6 foram apontados pelo qa (RP2) e entram aqui para registro; a decisão do cmo em D3 já os cobre. Quem aplica nas réguas é o copy-de-mensagens (encomendas de 12.10).
+
+| # | Onde | Choque | Situação |
 |---|---|---|---|
-| N1 | copy-de-mensagens-pos M6 (e-mail, 05/11) e copy-de-mensagens-eventos M10 (e-mail de programação, 05/11) | contato que está nas duas bases recebe 3 e-mails de campanha na semana de 02 a 08/11 (M2 ou M4, M6 e M10 do evento) | o CRM aplica o limite com prioridade: o evento tem data mais próxima (20/11) e a prova tem pico até 07/11; proposta: manter M2 ou M4 e M10 do evento; M6 da prova vai só para quem não está na base do evento [SUPOSIÇÃO de regra; o cmo decide] |
-| N2 | copy-de-mensagens-pos M8 (e-mail, 23/11, 10h) e copy-de-mensagens-eventos M8 (pós-evento, 23/11, e-mail 9h) | dois e-mails no mesmo dia para quem foi ao Workshop e está na base da Pós | o M8 do evento é serviço (gravação), não conta no limite; mesmo assim, deslocar o M8 da prova para 16h ou para 24/11, e o M9 da prova (WhatsApp) para 25/11 só para esse grupo [SUPOSIÇÃO] |
-| N3 | copy-de-mensagens-pos reenvio de 25/11 e copy-de-mensagens-eventos M9 (25/11, e-mail 9h e WhatsApp 10h, convite à Pós em Anestesiologia) | e-mail e WhatsApp de campanha no mesmo dia e duas ofertas de Pós diferentes para o mesmo participante | participante do Workshop recebe só uma delas no dia; proposta: M9 do evento leva à prova de Anestesiologia (68639 ou 68640) enquanto as inscrições estiverem abertas, como a revisão do qa sugeriu (eventos-b, C-R1) [decisão do cmo] |
-| N4 | copy-de-mensagens-pos M15 (WhatsApp, 27/11, 8h) | antes da janela das 9h | o e-mail M14 das 7h vale como mensagem do dia; o WhatsApp das 8h é exceção a aprovar ou passa para a véspera (M13) |
+| N1 | copy-de-mensagens-pos M6 (e-mail, 05/11) e copy-de-mensagens-eventos M10 (e-mail de programação, 05/11) | contato que está nas duas bases recebe 3 e-mails de campanha na semana de 02 a 08/11 (M2 ou M4, M6 e M10 do evento) | **Resolvido por D3:** para quem está nas duas bases saem M2 ou M4 (03/11) e M10 do Workshop (05/11); o M6 das provas é suprimido. Em S2 de Gastroenterologia, o P2 de 68606 ocupa 05/11 (e-mail) e 06/11 (WhatsApp) |
+| N2 | copy-de-mensagens-pos M8 (e-mail, 23/11, 10h) e copy-de-mensagens-eventos M8 (pós-evento, 23/11, e-mail 9h) | dois e-mails no mesmo dia para quem foi ao Workshop e está na base da Pós | **Resolvido por D3 e 12.9:** o M8 do Workshop é serviço (9h); o M8 das provas sai às 16h para participante do Workshop; o M9 das provas segue em 24/11 |
+| N3 | copy-de-mensagens-pos reenvio de 25/11 e copy-de-mensagens-eventos M9 (25/11) | e-mail e WhatsApp de campanha no mesmo dia e duas ofertas de Pós diferentes para o mesmo participante | **Resolvido por D3 e D9:** o M9 do Workshop sai em um canal só (e-mail às 9h; WhatsApp às 10h só para participante sem opt-in de e-mail), leva à Pós em Anestesiologia (657, 68609 e 359) com o campus, sem curso livre com data; a prova de Anestesiologia (68639 ou 68640) ou de Neurologia (68654) só entra se a venda cruzada AP10 for aprovada (R7 do cmo) e o prazo de inscrição estiver confirmado e aberto (U3). O reenvio das provas de 25/11 é suprimido para participante do Workshop |
+| N4 | copy-de-mensagens-pos M15 (WhatsApp, 27/11, 8h) | antes da janela das 9h | **Encaminhado por 12.9:** pedido de exceção de serviço fora da janela (R2 do cmo). Se recusado, o e-mail M14 das 7h é a mensagem do dia e o M13 da véspera leva o essencial |
+| N5 (RP2) | copy-de-mensagens-eventos: follow-up por e-mail de M1 e M2 em 03/11, 9h, e por WhatsApp em 04/11; copy-de-mensagens-pos: M2 ou M4 (e-mail, 03/11) e M1 ou M3 (WhatsApp, 04/11) | dois toques de campanha no mesmo dia para quem está nas duas bases | **Resolvido por D3:** os follow-ups do Workshop de 03/11 e 04/11 são suprimidos para quem está na campanha das provas |
+| N6 (RP2) | semana de 09 a 15/11: provas M7 (e-mail, 10/11) e reenvio (12/11); Workshop follow-up de M10 (09/11) e e-mail M3 no sábado 14/11 | 3 e-mails de campanha na semana para quem está nas duas bases, um deles no sábado | **Resolvido por D3 e D1:** saem M7 (10/11) e o M3 do Workshop (14/11, 9h; e-mail vale em qualquer dia das 7h às 19h); são suprimidos o follow-up de M10 (09/11) e o reenvio das provas (12/11) |
 
 ---
 
@@ -274,11 +306,11 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 | R3 | Informar o tamanho de cada segmento da seção 4 e quantos têm opt-in, só em números somados | dimensionar envio e saber se a régua das provas tem base | sem custo | plano de envio com número | não se aplica | 30/10 |
 | R4 | Nomear quem aprova e-mail e WhatsApp em massa | tabela vazia em ufape-geral.md (pedido A9 do cmo) | sem custo | aprovação sem gargalo | trocar o nome | 30/10 |
 | R5 | Submeter à Meta os templates da régua das provas e de P2 (se usar API) | sem template aprovado não há envio fora da janela de conversa | custo por conversa da Meta [CONFIRMAR] | régua pronta para 03/11 | desativar o template | 29/10 |
-| R6 | Confirmar a janela de envio de WhatsApp (proposta: dia útil, 9h às 18h) e o limite de 2 WhatsApp e 2 e-mails de campanha por semana | frequência humana e regra do agente | sem custo | ritmo previsível | mudar o limite no CRM | 30/10 |
+| R6 | Confirmar o teto D1 do cmo: janela de WhatsApp (dia útil, 9h às 18h) e de e-mail (qualquer dia, 7h às 19h), 2 WhatsApp e 2 e-mails de campanha por semana somando todas as linhas e 1 mensagem de campanha por dia (é o pedido R1 do cmo) | frequência humana e regra do agente | sem custo | ritmo previsível | mudar o limite no CRM | 30/10 |
 | R7 | Confirmar que mensagem de serviço pode ir a quem saiu das campanhas, e se o "SAIR" alcança o serviço | o copy-de-mensagens-pos supõe que sim | sem custo | inscrito não perde informação de prova | aplicar SAIR a tudo | 31/10 |
 | R8 | Data em que cada turma é confirmada e quem avisa o matriculado | P6 depende disso (PR2 da estrategia-de-oferta) | sem custo direto | menos medo de pagar antes de saber (hipótese 1 do funil) | não se aplica | 13/11 |
-| R9 | Regra de desconto de aluno e ex-aluno de Pós (PR6) e regra do combo Livres mais Pós (PR5) | P7 e o uso de S9 ficam sem oferta | custo pela fórmula da estrategia-de-oferta [CONFIRMAR] | base da casa ativada | encerrar na data de fim | 04/12 |
-| R10 | Decidir os choques N1 a N4 (seção 6.4) | dois agentes escreveram réguas que se sobrepõem | sem custo | limite respeitado | voltar ao calendário original | 30/10 (cmo) |
+| R9 | Regra de desconto de aluno e ex-aluno de Pós (PR6); o crédito da ponte Livres para Pós é a proposta única U7 do cmo (PL2 opção A), e até a resposta nenhuma mensagem cita crédito, combo ou desconto (D7) | P7 e o uso de S9 ficam sem oferta | custo pela fórmula da estrategia-de-oferta [CONFIRMAR] | base da casa ativada | encerrar na data de fim | 04/12 |
+| R10 | Fechado: os choques N1 a N6 (seção 6.4) foram decididos pelo cmo na seção 12 do plano (D3, D9 e 12.9) | - | - | - | - | - |
 
 ---
 
@@ -295,7 +327,7 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 | Réguas têm regras de saída | Atendido: coluna "sai quando" por segmento e regras gerais | seções 3.2 e 4 |
 | Resultados registrados para cada envio | Desenhado (métricas por mensagem e revisão mensal); registro real depende do CRM [CONFIRMAR] | seção 7 |
 | Cliques, respostas e conversões medidos, não só aberturas | Atendido: abertura e leitura só como diagnóstico | seção 7.1 |
-| WhatsApp em horário comercial, frequência humana, template Meta | Atendido no desenho; janela e limite [SUPOSIÇÃO] a confirmar (R6); templates a submeter (R5); exceção apontada em N4 | seções 3.2, 6 e 8 |
+| WhatsApp em horário comercial, frequência humana, template Meta | Atendido no desenho; janela e limite [SUPOSIÇÃO] a confirmar (R6); templates a submeter (R5); exceção de N4 pedida pelo cmo (R2) | seções 3.2, 6 e 8 |
 
 ### 9.2 auditorias/conformidade-educacional.md (conferência rápida; o qa-de-marketing repete)
 
@@ -310,7 +342,7 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 
 ## 10. Próximo passo
 
-1. Pessoa do marketing: aprovar papéis de canal, segmentos, programas, limites e calendário; encaminhar R1 a R9 à Ufape e R10 ao cmo.
+1. Pessoa do marketing: aprovar papéis de canal, segmentos, programas, limites e calendário; encaminhar R1 a R9 à Ufape (R10 já foi decidido pelo cmo na seção 12).
 2. Próximo agente sugerido pela instrução deste agente: **newsletter**, com este arquivo (programa P8, carta mensal da Pós por área). Na cadeia do cmo, esta saída também alimenta 1.27 (jornada-do-aluno, geral) e 1.28 (campanhas-de-nutricao, pos).
 3. copy-de-mensagens: escrever P2 (reta final de 707 e 68604 até 28/10), depois P3, P4 e P6, cada um com mapa no formato mapear-regua.
 
@@ -323,12 +355,15 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 - Tabela de aprovação de e-mail e WhatsApp em massa vazia. Fonte: contexto/ufape-geral.md.
 - Turmas que começam até 28/11/2026: 707 (30/10), 68604 (31/10), 68606 (07/11), 68610, 698 e 68608 (28/11); turmas de março de 2027: 657 (13/03), 341, 289 e 68615 (20/03), 333 (27/03). Fonte: catálogo, seção 2.
 - 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00. Fonte: catálogo, seção 3.
-- Regras da prova (presencial, 9h às 13h, 11 bolsas, nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para matrícula). Fonte: contexto/pos-graduacao.md.
-- Turma mínima de 20 nas páginas de curso e 15 na página da prova; 1ª mensalidade até 30 dias antes do início na maioria das páginas. Fonte: contexto/pos-graduacao.md.
+- Regras da prova (online, 9h às 13h, 11 bolsas, nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para matrícula), com a ressalva de que vale a ficha de cada prova e a ficha 68641 tem um segundo bloco com resultado "no site" e "7 dias". Fonte: contexto/pos-graduacao.md; docs/execucao-2026-10-26.md, decisão 11; ficha 68641; cmo, seção 12.12 (U1).
+- Provas online: o local não importa e toda peça diferencia o campus (São Paulo ou Goiânia). Fonte: docs/execucao-2026-10-26.md, decisão 11.
+- Turma mínima de 15 alunos, também nas turmas de Pós (algumas páginas ainda dizem 20 e serão corrigidas); 1ª mensalidade até 30 dias antes do início na maioria das páginas. Fonte: contexto/pos-graduacao.md; decisão 11.
+- Teto D1, fila D2, semana a semana D3, serviço e supressões D4, pares e regra do par D6, crédito D7, janela de silêncio D8, M9 do Workshop D9, ex-aluno na régua das provas D10. Fonte: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12.
+- Datas e nomes dos pares (289, 352, 657, 68635 e os cursos livres 573, 68614, 68637, 616, 68618, 68638, 560). Fonte: catálogo, seções 2 e 4; cmo, seção 12.4.
 - Kit mínimo de turma de Pós: 4 WhatsApp e 2 e-mails de nutrição. Fonte: templates/kit-de-lancamento-pos.md.
 - WhatsApp é o canal 1 da Pós no plano de 90 dias; revisão semanal às segundas; riscos R5, R7, R8 e R9. Fonte: estrategia-de-marketing-pos, seções 4, 5 e 6.
 - Régua das provas com 20 mensagens, campos de CRM e regras de saída. Fonte: copy-de-mensagens-pos.
-- Mapa da régua do Workshop com envios em 30/10, 05/11, 14/11, 16/11, 19/11 a 25/11. Fonte: copy-de-mensagens-eventos, seção do mapa.
+- Mapa da régua do Workshop com envios em 30/10, 05/11, 14/11, 16/11, 19/11 a 25/11, e follow-ups em 03/11 (e-mail), 04/11 (WhatsApp) e 09/11 (e-mail). Fonte: copy-de-mensagens-eventos, mapa e follow-ups (conferido pelo qa, loteA, RP2).
 - Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026, cupom SIMPNEUROMONIT para aluno e ex-aluno. Fonte: docs/execucao-2026-10-26.md, decisões 6 e 7.
 - Desconto de aluno e ex-aluno de Pós sem regra; propostas PR1 a PR10. Fonte: estrategia-de-oferta-pos, seções 1.3 e 5.
 - Campos de CRM e motivo de perda propostos. Fonte: analise-de-funil-pos, seção 3.4 (aprovada pelo qa em dep08-09).
@@ -336,13 +371,14 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Janela de WhatsApp de campanha: dia útil, das 9h às 18h; e-mail, dia útil, das 7h às 19h.
-- [SUPOSIÇÃO] Limite de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, e um canal por dia.
+- [SUPOSIÇÃO] Janela de WhatsApp de campanha: dia útil, das 9h às 18h; e-mail, qualquer dia, das 7h às 19h (D1 do cmo).
+- [SUPOSIÇÃO] Limite de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas e a newsletter, e no máximo 1 mensagem de campanha por dia em qualquer canal (D1 do cmo).
+- [SUPOSIÇÃO] Janela de silêncio de 2 dias úteis depois do curso ou evento e de 7 dias corridos no online (D8 do cmo).
 - [SUPOSIÇÃO] Base legal provável por tipo de mensagem (consentimento para campanha; contrato ou procedimento a pedido do titular para serviço); a decisão é do encarregado de dados.
 - [SUPOSIÇÃO] Mensagem de serviço pode ir a quem saiu das campanhas.
 - [SUPOSIÇÃO] Critérios de segmento: 7 dias sem pagamento depois do contato (S3); 180 dias sem interação para lead frio (S11).
 - [SUPOSIÇÃO] Número e intervalo de toques de P3 (3 em 7 dias) e P4 (3 em 21 dias).
-- [SUPOSIÇÃO] Ordem de prioridade entre segmentos e as soluções propostas para os choques N1 a N4.
+- [SUPOSIÇÃO] Os números do teto em que a fila D2 e as supressões de D3 (choques N1 a N6) se apoiam; a fila e as supressões são decisão do cmo.
 - [SUPOSIÇÃO] Gatilho de parada pelo dobro da média de SAIR, bloqueios e denúncias.
 - [SUPOSIÇÃO] Datas das revisões mensais (30/11, 28/12, 25/01).
 - [SUPOSIÇÃO] Personas por segmento (P1 a P4 são hipóteses da pesquisa-de-persona-pos).
@@ -360,9 +396,12 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 - [CONFIRMAR] Se o "SAIR" alcança mensagens de serviço.
 - [CONFIRMAR] Templates aprovados pela Meta e custo por conversa.
 - [CONFIRMAR] Data em que cada turma é confirmada, quem avisa e lista de documentos de matrícula.
-- [CONFIRMAR] Turma de destino de cada prova, data do resultado, regra do aprovado sem bolsa, local da prova em Goiânia (pendências da copy-de-mensagens-pos).
-- [CONFIRMAR] Turma mínima (15 ou 20).
-- [CONFIRMAR] Regra de desconto de aluno e ex-aluno de Pós (PR6) e do combo Livres mais Pós (PR5).
+- [CONFIRMAR] Turma de destino de cada prova (U4), data do resultado, prazo de inscrição, regra do aprovado sem bolsa e política de ausência (U3).
+- [CONFIRMAR] Qual bloco vale nas fichas de prova com regra interna contraditória, em especial prazo de matrícula (10 dias úteis ou 7 dias) e canal do resultado (U1 do cmo).
+- [CONFIRMAR] Como é a prova online: plataforma, acesso, horário e o que vale das regras de documento com foto e de celular (U2 do cmo).
+- [CONFIRMAR] Pré-requisito de 657, antes de citar o par de 616 (U10 do cmo).
+- [CONFIRMAR] Regra de desconto de aluno e ex-aluno de Pós (PR6) e resposta da Ufape à proposta única de crédito da ponte Livres para Pós (U7 do cmo).
+- [CONFIRMAR] Exceção de serviço fora da janela para o M15 (R2 do cmo).
 - [CONFIRMAR] Se o CRM marca ex-aluno de Pós e comprador de Curso Livre por área.
 - [CONFIRMAR] Dono das mensagens acadêmicas e financeiras do aluno ativo (secretaria, financeiro).
 - [CONFIRMAR] Metas de inscritos, matrículas e turmas confirmadas (nenhuma meta existe hoje).
@@ -373,3 +412,16 @@ Toda métrica é somada por mensagem, programa, segmento, turma ou prova, nunca 
 Internas: .claude/agents/estrategia-de-relacionamento.md; .claude/skills/mapear-regua/SKILL.md; CLAUDE.md; docs/execucao-2026-10-26.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; templates/kit-de-lancamento-pos.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-pos-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md; saidas/01-inteligencia-de-mercado/insights-de-alunos-pos-2026-10-26.md; saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md; saidas/08-conversao/analise-de-funil-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01a.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep08-09.md; saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md; auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md (citada pela regra; conferência rápida na seção 9.2).
 
 Externas: nenhuma consultada nesta etapa. A Lei 13.709/2018 (LGPD) e as regras da WhatsApp Business API são citadas como referência geral e precisam de conferência do encarregado de dados e da política vigente da Meta.
+
+Versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12; docs/execucao-2026-10-26.md, decisões 10 a 13; contexto/pos-graduacao.md (atualizado); saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (RP1 a RP4).
+
+## Mudanças desta versão
+
+Versão 2, 26/10/2026. Aplica a seção 12 do plano do cmo e os ajustes do qa.
+
+- Encomendas do cmo (12.10): 3.2 e 6.1 com o teto D1 (1 mensagem de campanha por dia em qualquer canal; follow-up e reenvio contam; e-mail em qualquer dia, das 7h às 19h; lista do que é serviço); 6.2 com 20 e 21/11 sem campanha de nenhuma linha e 26 e 27/11 sem campanha para a base das provas; prioridade da seção 4 trocada pela fila D2; N1 a N4 marcados como resolvidos por D3, D9 e 12.9; S9 e P5 com a tabela única de pares de 12.4 e a janela D8; S5c e ausentes fora de campanha até o fim do prazo de matrícula dos aprovados (J6); M16 a M20 como serviço; turma mínima de 15; datas de D3 em P2 e no calendário (707 e 68604 com WhatsApp em 29/10; 68606 em 05 e 06/11); R10 fechado; R9 com U7 e D7.
+- Decisão 11: provas online, sem "local" nem "presencial"; campus em toda mensagem; prazo de matrícula da ficha de cada prova (S5a, P1, calendário); "local de Goiânia" e "turma mínima (15 ou 20)" saem dos dados que faltam.
+- RP1: o resumo deixa de dizer "três choques"; agora cita os quatro (N1 a N4) e os dois novos.
+- RP2: N5 e N6 acrescentados na 6.4, já com a decisão de D3.
+- RP3: ressalva da ficha 68641 (segundo bloco com resultado "no site" e "7 dias") na tabela 1.1, na Lista 1 e na Lista 3 (U1).
+- RP4: S2 passa a ser 02/11 a 08/11.
