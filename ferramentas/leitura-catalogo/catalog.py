@@ -25,7 +25,7 @@ Fonte única de dados de curso para toda a squad. Nenhum agente pode divulgar cu
 - **Status "sem venda (avise-me)"** ou **"encerrado"**: não divulgar com chamada de compra.
 - **Preços** são os do site em {DL}. Conferir a página oficial antes de publicar peça com preço.
 - **Certificação de pós-graduação:** as páginas do site usam "CERTIFICADO PELO MEC". Até a regulação da Ufape aprovar o texto oficial, nenhuma peça deve usar essa frase. Texto aprovado: [PREENCHER COM A REGULAÇÃO].
-- **Graduação:** ato de autorização ou reconhecimento de cada curso: [PREENCHER COM A REGULAÇÃO].
+- **Graduação:** atos autorizativos, vagas, datas e regras de desconto vêm dos editais do 1º semestre de 2027 (ficha cursos/graduacao/editais-2027-1.md). Inscrições abertas desde 17/08/2026, aulas em 22/02/2027, turma mínima de 30.
 
 ## Resumo
 
@@ -44,8 +44,8 @@ L.append("""
 
 | Curso | Local | Modalidade | Turno e duração | Carga horária | Investimento (site) | Ato regulatório | Ficha |
 |---|---|---|---|---|---|---|---|
-| Medicina Veterinária | São Paulo, SP | Presencial | Integral, 4 anos; Noturno, 5 anos | 4.195 h + 75 h de atividades complementares | Integral: de R$ 10.000,00 por R$ 5.000,00/mês (desconto de 50%). Noturno: de R$ 10.000,00 por R$ 4.000,00/mês (desconto de 60%). Regras no Edital de Descontos 2027 | [PREENCHER COM A REGULAÇÃO] | [ficha](cursos/graduacao/graduacao-em-medicina-veterinaria.md) |
-| Pedagogia | Goiânia, GO | Presencial | Noturno, 4 anos | 3.440 h | De R$ 1.050,00 por R$ 525,00/mês (desconto de 50%). Regras no Edital de Desconto 2027.1 Goiânia | [PREENCHER COM A REGULAÇÃO] | [ficha](cursos/graduacao/graduacao-em-pedagogia.md) |
+| Medicina Veterinária | São Paulo, SP | Presencial | Integral, 4 anos; Noturno, 5 anos | 4.195 h + 75 h de atividades complementares | Integral: de R$ 10.000,00 por R$ 5.000,00/mês (desconto de 50%). Noturno: de R$ 10.000,00 por R$ 4.000,00/mês (desconto de 60%). Regras no Edital de Descontos 2027 | Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026 | [ficha](cursos/graduacao/graduacao-em-medicina-veterinaria.md) |
+| Pedagogia | Goiânia, GO | Presencial | Noturno, 4 anos | 3.440 h no site; 3.640 h no edital [CONFIRMAR] | De R$ 1.050,00 por R$ 525,00/mês (desconto de 50%). Regras no Edital de Desconto 2027.1 Goiânia | Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022), conforme o Edital 004/2026 | [ficha](cursos/graduacao/graduacao-em-pedagogia.md) |
 
 Editais publicados no site: Vestibular 2027 (https://faculdade.ufape.com.br/uploads/arquivo/edital-vestibular-2027.pdf), Descontos 2027 (https://faculdade.ufape.com.br/uploads/arquivo/edital-descontos-2027.pdf), Processo Seletivo 2027.1 Goiânia (https://faculdade.ufape.com.br/uploads/arquivo/edital-processo-seletivo-2027-1-goiania.pdf), Desconto de Mensalidade 2027.1 Goiânia (https://faculdade.ufape.com.br/uploads/arquivo/edital-de-desconto-mensalidade-2027-1-goiania.pdf).
 """)

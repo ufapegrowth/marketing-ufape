@@ -2,7 +2,7 @@
 
 Todo agente lê este arquivo primeiro. Primeira versão montada em 22/10/2026 a partir do site faculdade.ufape.com.br e da planilha "DATAS CURSOS E PÓS". Itens marcados com [SUPOSIÇÃO] foram inferidos e precisam de validação; campos entre colchetes ainda precisam ser preenchidos pela Ufape.
 
-Última atualização: 2026-10-22 por squad (primeira versão, pendente de revisão da Ufape)
+Última atualização: 2026-10-26 por squad (credenciamento pelos editais e linha Eventos; pendente de revisão da Ufape)
 
 ## Instituição
 
@@ -12,7 +12,7 @@ Todo agente lê este arquivo primeiro. Primeira versão montada em 22/10/2026 a 
 - **Outras praças:** Goiânia, GO (pós, cursos e graduação em Pedagogia), turmas online e cursos em espanhol em Lima, Peru.
 - **Ufape Clínica:** hospital veterinário próprio (ufape.com.br), usado em aulas práticas, estágios e aprimoramento.
 - **Liderança:** Prof. Dr. Alessandro Rodrigues de Carvalho Martins, CEO da Faculdade UFAPE e presidente da APAV (conforme o site).
-- **Credenciamento da instituição no MEC (presencial e EAD):** [PREENCHER COM A REGULAÇÃO: ato, número e data]
+- **Credenciamento da instituição no MEC:** São Paulo, Portaria MEC nº 176, de 27/02/2025 (D.O.U. 28/02/2025); Goiânia, Portaria MEC nº 871, de 10/11/2022 (D.O.U. nº 214; data de publicação [CONFIRMAR]). Fonte: editais 2027/1, em contexto/cursos/graduacao/editais-2027-1.md. EAD: [PREENCHER COM A REGULAÇÃO].
 - **Diferenciais que podemos provar** (a confirmar e documentar):
   - Corpo docente formado por especialistas que atuam na rotina clínica, com mestres e doutores (listados nas páginas de curso).
   - Hospital veterinário próprio para prática (Ufape Clínica).
@@ -27,7 +27,8 @@ Todo agente lê este arquivo primeiro. Primeira versão montada em 22/10/2026 a 
 |---|---|---|---|
 | Graduação | Medicina Veterinária (SP) e Pedagogia (Goiânia) | contexto/graduacao.md | [nome] |
 | Pós-graduação | Especializações lato sensu em Medicina Veterinária (SP, Goiânia e EAD) e provas de bolsa | contexto/pos-graduacao.md | [nome] |
-| Cursos Livres | Cursos práticos presenciais (1 a 3 dias), cursos online e gravados, minicursos, grupos de estudos, aprimoramento na Ufape Clínica, simpósios e congressos, cursos em espanhol | contexto/cursos-livres.md | [nome] |
+| Cursos Livres | Cursos práticos presenciais (1 a 3 dias), cursos online e gravados, minicursos, grupos de estudos, aprimoramento na Ufape Clínica, cursos em espanhol | contexto/cursos-livres.md | [nome] |
+| Eventos | Workshops, simpósios e congressos (desde 23/10/2026) | contexto/eventos.md | [nome] |
 
 Catálogo oficial (fonte única de dados de curso): contexto/catalogo-de-cursos.md. Fichas por curso: contexto/cursos/.
 

@@ -2,7 +2,7 @@
 
 Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, montada a partir das páginas de graduação do site. Itens com [SUPOSIÇÃO] precisam de validação; campos entre colchetes, de preenchimento.
 
-Última atualização: 2026-10-22 por squad (pendente de revisão da Ufape)
+Última atualização: 2026-10-26 por squad (atos e datas pelos editais; pendente de revisão da Ufape)
 
 ## Oferta
 
@@ -14,7 +14,7 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, montada 
 - Regras dos descontos: editais publicados no site (Descontos 2027 e Desconto de Mensalidade 2027.1 Goiânia). Toda peça com desconto cita condições e validade conforme o edital.
 - Processo seletivo: Vestibular 2027 (SP) e Processo Seletivo 2027.1 (Goiânia), com editais no site.
 - O que o aluno recebe ao concluir: diploma de bacharel em Medicina Veterinária ou de licenciatura em Pedagogia. [Confirmar o grau da Pedagogia com a regulação]
-- Atos regulatórios (autorização ou reconhecimento): [PREENCHER COM A REGULAÇÃO]
+- Atos autorizativos (editais 2027/1): Medicina Veterinária, Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026; Pedagogia, Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022), conforme o Edital 004/2026. Reconhecimento: [PREENCHER COM A REGULAÇÃO]. Credenciamento da instituição em contexto/ufape-geral.md.
 - Diferenciais citados no site (Medicina Veterinária): matriz com prática desde o 1º semestre, projetos extensionistas, práticas hospitalares, estágio supervisionado no 7º e 8º semestres (integral), hospital veterinário próprio (Ufape Clínica) e professores que também dão aula nas pós da Ufape.
 
 ## Persona principal
@@ -45,7 +45,7 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, montada 
 ## Ciclo de captação
 
 - Captação semestral com o Vestibular 2027 (SP) e o Processo Seletivo 2027.1 (Goiânia). Picos nas semanas antes das provas e do início das aulas.
-- Datas-chave deste ciclo: [inscrições, provas, resultado, matrícula, início das aulas, fim do desconto, conforme os editais]
+- Datas-chave deste ciclo (editais 2027/1, ficha contexto/cursos/graduacao/editais-2027-1.md): inscrições gratuitas abertas desde 17/08/2026; prova de redação online, feita a qualquer momento depois da inscrição, ou ingresso pelo Enem (mínimo 300 pontos); matrícula a partir de 2 dias depois do resultado; início das aulas em 22/02/2027; desconto válido para o 1º semestre de 2027. Vagas: 45 integral e 45 noturno (Medicina Veterinária), 80 (Pedagogia). Turma mínima: 30. Data-limite de inscrição: [CONFIRMAR]
 
 ## Canais que mais trazem matrícula nesta linha
 
