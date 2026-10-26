@@ -1,10 +1,11 @@
-# Autoridade docente: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11/2026)
+# Autoridade docente: Workshop Brasileiro de Neuromonitorização (20 e 21/11/2026)
 
 - **Agente:** autoridade-docente (departamento 05, Social e Comunidade), camada 3, onda 1, kit do evento, etapa "autoridade-docente" do /lancamento-de-evento
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio" na planilha)
-- **Data:** 26/10/2026 (versão corrigida após a rodada A do qa-de-marketing, mesmo dia)
+- **Data:** 26/10/2026
+- **Versão:** versão 3, aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda da seção 12.10: autorização registrada para todos, decisões 8 e 10; grade de feed da seção 4.2 da 1.20 de Eventos; UTM organic_social e eventos_neuro26). A versão 2 foi corrigida após a rodada A do qa-de-marketing (D1 a D7, seção 5.3).
 - **Status:** rascunho para o qa-de-marketing (rodada B), para a revisão de cada docente e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
-- **BLOQUEIO GERAL:** as 18 peças deste arquivo (6 posts, 6 roteiros de vídeo e 6 perguntas para a sequência de perguntas e respostas) estão **BLOQUEADAS**. **Nenhuma conta como pronta, nenhuma entra no calendário nem vai para a distribuição** até que a Ufape registre, por escrito, a autorização de uso de nome, imagem e voz do docente correspondente e o docente aprove o texto com o próprio nome. Toda peça leva [CONFIRMAR autorização do docente].
+- **Situação das peças:** a autorização de uso de nome, imagem, voz e citação está registrada para todos os docentes, palestrantes e convidados (decisões 8 e 10 do briefing, 26/10/2026). O bloqueio geral da versão 2 caiu. Cada uma das 18 peças (6 posts, 6 roteiros de vídeo e 6 perguntas para a sequência de perguntas e respostas) ainda só conta como pronta depois que o docente aprovar o texto com o próprio nome (regra deste agente) e, no caso do Prof. MSc. Yuri Ferreira Vicentini, depois da grade final da coordenação.
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
@@ -21,18 +22,20 @@
 - Não abri faculdade.ufape.com.br.
 - Dados pessoais: nenhum. Docentes aparecem só com nome e titulação como estão na ficha, "Corpo docente, Palestrantes confirmados".
 
-## Painel de bloqueio das 18 peças
+## Painel das 18 peças
 
-| Docente | Post | Vídeo (até 60 s) | Pergunta (stories) | Situação |
+Onde cada peça entra, pela grade de feed da seção 4.2 da estrategia-social-eventos (1.20 de Eventos), que o cmo adotou como teto provisório do @ufapevet (D5). No feed entram só 2 peças de docente; as outras viram Stories e texto para o LinkedIn pessoal do docente.
+
+| Docente | Post | Vídeo (até 60 s) | Pergunta (Stories) | Situação |
 |---|---|---|---|---|
-| Profa. Dra. Mayara Travalini de Lima | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente]; nenhuma peça pronta |
-| Prof. MSc. Daniel Zannin | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente]; nenhuma peça pronta |
-| Profa. MSc. Elidia Zotelli | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente]; nenhuma peça pronta |
-| Prof. Renan Holczer | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente]; nenhuma peça pronta |
-| Prof. MSc. Yuri Ferreira Vicentini | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente] e grade final da coordenação [CONFIRMAR]; nenhuma peça pronta |
-| Prof. Dr. Rodrigo Neca Ribeiro | bloqueado | bloqueado | bloqueada | Autorização [CONFIRMAR autorização do docente]; nenhuma peça pronta |
+| Profa. Dra. Mayara Travalini de Lima | Feed em 14/11 (sáb), collab se ela aceitar; Facebook; LinkedIn dela, se quiser | Stories (rodada 1 e S6 de 18/11); LinkedIn dela, se quiser | Rodada 1, 11 e 12/11 | Autorização registrada; falta a aprovação do texto |
+| Prof. MSc. Daniel Zannin | LinkedIn dele, se quiser; apoio aos Stories | Reel no feed em 16/11 (seg), collab se ele aceitar; Facebook | Rodada 1, 11 e 12/11 | Autorização registrada; falta a aprovação do texto |
+| Profa. MSc. Elidia Zotelli | LinkedIn dela, se quiser; apoio aos Stories | Stories (rodada 1 e S6 de 18/11) | Rodada 1, 11 e 12/11 | Autorização registrada; falta a aprovação do texto |
+| Prof. Renan Holczer | LinkedIn dele, se quiser; apoio aos Stories | Stories (rodada 2 e S6 de 18/11) | Rodada 2, 16 e 17/11 | Autorização registrada; falta a aprovação do texto |
+| Prof. MSc. Yuri Ferreira Vicentini | LinkedIn dele, se quiser; apoio aos Stories | Stories (rodada 2 e S6 de 18/11) | Rodada 2, 16 e 17/11, só depois da grade final (D6) | Autorização registrada; falta a aprovação do texto e a grade final da coordenação [CONFIRMAR] |
+| Prof. Dr. Rodrigo Neca Ribeiro | LinkedIn dele, se quiser; apoio aos Stories | Stories (rodada 2 e S6 de 18/11) | Rodada 2, 16 e 17/11 | Autorização registrada; falta a aprovação do texto |
 
-Regra de desbloqueio, peça a peça: (1) autorização registrada com data, itens e período; (2) ponto de vista validado e texto aprovado pelo docente com o nome dele; (3) conferência da grade vigente com a coordenação; (4) revisão do qa-de-marketing. Peça sem autorização não entra e não conta como entrega faltante (P13).
+Regra para a peça contar como pronta: (1) ponto de vista validado e texto aprovado pelo docente com o nome dele; (2) conferência da grade vigente com a coordenação; (3) revisão do qa-de-marketing. A autorização não é mais condição (decisões 8 e 10).
 
 ---
 
@@ -41,15 +44,15 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
 1. **Quem são.** Só a coordenação científica e os 5 docentes confirmados na ficha. Os 4 convidados "a definir" (neurofisiologia e EEG clínico; neuroanestesia e NIRS; nocicepção e variabilidade da frequência cardíaca; inteligência artificial e processamento de sinais) não aparecem em nenhuma peça.
 2. **Ponto de vista é do docente, não da squad.** O método pede entrevista antes do texto. Nesta etapa a entrada foi só a programação da ficha, então cada "ponto de vista" abaixo é uma **tese de partida derivada do que a programação já diz** (tema, descrição do bloco e objetivo da página). Ela vira opinião do docente só quando ele confirmar, ajustar ou trocar. Cada seção traz 2 perguntas de validação para a conversa de 15 minutos. Nenhuma peça atribui ao docente uma opinião ou um fato que a programação não sustente. Se a Ufape quiser o roteiro completo de 10 perguntas de entrevista por docente, a squad entrega em seguida.
 3. **Voz.** Os posts e roteiros estão em primeira pessoa porque serão do docente, mas só afirmam o que a programação afirma (o que a aula trata, quando acontece, o que se faz no sábado). Onde cabe uma opinião, há uma pergunta ao público e o campo [PONTO DE VISTA A CONFIRMAR COM O DOCENTE]. Linguagem de colega para colega, termo técnico correto.
-4. **Cada peça cita só o seu autor.** Nenhum post ou roteiro nomeia outro docente, para não depender de duas autorizações.
+4. **Cada peça cita só o seu autor.** Nenhum post ou roteiro nomeia outro docente, para cada um aprovar só o próprio texto.
 5. **Horários.** A página diz que "a distribuição entre docentes segue em alinhamento com a coordenação". As peças citam dia e tema; horário só no calendário interno. Antes de publicar, conferir a grade vigente da página [CONFIRMAR com a coordenação].
 6. **Sem certificado** em post, vídeo ou pergunta (decisão da casa de mensagens e do briefing de execução). Sem preço, sem cupom e sem valor calculado: a chamada leva à página, onde estão preço e condições. Sem "últimas vagas", "vagas limitadas", contador ou vagas restantes. "30 vagas, por ordem de inscrição" é só o total (capacidade da ficha).
 7. **Sem promessa clínica.** Nada de "vai salvar", "garante", "domine", "seja especialista". As peças dizem o que a aula trata e o que o participante faz.
 8. **Modalidades.** Sempre que citar o ingresso online: "só a teoria de sexta-feira, ao vivo e gravada" (apenas teórico). Não citar carga horária do transmitido nem prazo de acesso à gravação [CONFIRMAR NO CATÁLOGO]. Não citar apostila nem material.
 9. **Prática.** A ficha diz "em modelos" e "simulações ou registros clínicos". O sábado é organizado em "grupos práticos". **"Pequenos grupos" só aparece no desafio prático da programação (sábado, 17h15 às 17h45, "Desafio prático em pequenos grupos")**; nenhuma peça usa "pequenos grupos" para o sábado inteiro nem atribui o desafio a docente que não o conduz na grade. Nenhuma peça fala em paciente vivo, número de monitores ou participantes por equipamento [CONFIRMAR NO CATÁLOGO].
-10. **Destino.** Toda chamada aponta para https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_source=instagram ou linkedin; utm_medium=organico; utm_campaign=neuro-summit-2026; utm_content=docente-<sobrenome>) [SUPOSIÇÃO do padrão, P15].
-11. **Nome do evento.** Nome da página na primeira menção: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, com "Realização: Faculdade UFAPE". Nunca "simpósio" nem "Neuro Summit" como nome.
-12. **Canais.** Só Instagram (@ufapevet, com collab no perfil do docente) e LinkedIn do docente, que são os canais em que há peça. Não há peça de Facebook neste arquivo; o pedido de autorização não cobre Facebook.
+10. **Destino.** Toda chamada aponta para https://faculdade.ufape.com.br/neuro-summit/ com UTM no padrão único do cmo (D11 e D12): utm_source=instagram, facebook ou linkedin (perfil do docente); utm_medium=organic_social; utm_campaign=eventos_neuro26_202611 (todas as peças de docente saem em novembro); utm_content=docente-<sobrenome>. Tudo em minúsculas, sem acento e sem dado pessoal. utm_source=linkedin no orgânico do docente é [SUPOSIÇÃO]: D11 lista instagram, facebook e youtube.
+11. **Nome do evento.** Nome oficial na primeira menção: Workshop Brasileiro de Neuromonitorização (decisão 7), com "Realização: Faculdade UFAPE". A forma longa da página só se a Ufape autorizar [CONFIRMAR]. Nunca "simpósio" nem "Neuro Summit" como nome.
+12. **Canais.** Instagram (@ufapevet, feed para 2 peças e Stories para as demais, com collab no perfil do docente se ele aceitar), Facebook (/Ufape, só as 2 peças de feed, reaproveitadas) e LinkedIn do docente, se ele quiser. A autorização das decisões 8 e 10 não limita o canal.
 
 ---
 
@@ -68,7 +71,7 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
 
 ## 2. Seção por docente
 
-### 2.1 Profa. Dra. Mayara Travalini de Lima, coordenação científica [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.1 Profa. Dra. Mayara Travalini de Lima, coordenação científica (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz (fonte, ficha).** Coordenação científica; neuromonitorização, nocicepção, integração multimodal e casos. Abre a sexta-feira (20/11, "Objetivos, sequência do curso e preparação para o sábado prático") e participa da demonstração inicial e da devolutiva no sábado (21/11, "revisão dos pontos principais e entrega do roteiro de aplicação na rotina"). Objetivo da página: "interpretar EEG e índices derivados de forma clínica, reconhecer limitações e artefatos, integrar diferentes tecnologias de monitorização e usar os dados para responder perguntas práticas sobre hipnose, nocicepção, analgesia, despertar, sedação e risco de deterioração".
 
@@ -83,7 +86,7 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
 **Post de autoridade (formato templates/post-social.md)**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab com o perfil do docente) e LinkedIn do docente
 - Pilar: Decidir olhando além do número (casa de mensagens, pilar 1)
 - Gancho (linha 1): Um número na tela responde a uma pergunta clínica?
@@ -92,7 +95,7 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
   2. Antes de comprar mais um monitor, qual é a pergunta clínica que você quer responder?
 - Corpo (linhas curtas):
 
-> Sou Mayara Travalini de Lima, coordeno cientificamente o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Sou Mayara Travalini de Lima, coordeno cientificamente o Workshop Brasileiro de Neuromonitorização.
 >
 > A pergunta que organiza o programa é essa: o que o dado da tela diz sobre hipnose, nocicepção, analgesia, despertar, sedação e risco de deterioração do paciente?
 >
@@ -108,8 +111,8 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
 - Linha final ou pergunta: Qual pergunta clínica você gostaria de levar para a sexta?
 - Chamada para ação: Programação completa na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM). No LinkedIn, o link vai no primeiro comentário.
 - Visual necessário: foto ou vídeo da docente, enviado por ela ou feito pela Ufape com autorização; texto na arte curto: "Coordenação científica. Profa. Dra. Mayara Travalini de Lima. 20 e 21/11, São Paulo". Sem foto de banco.
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 03/11/2026 (terça), só depois da autorização e da aprovação do texto. Sem autorização: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: 14/11/2026 (sábado), no feed do @ufapevet (collab, se a docente aceitar) e no Facebook, pela grade da seção 4.2 da 1.20 de Eventos; no LinkedIn da docente, se ela quiser. Só depois da aprovação do texto pela docente, com o nome dela.
 
 **Roteiro de vídeo curto (até 60 s, vertical 9:16, fala da docente)**
 
@@ -119,19 +122,19 @@ Regra de desbloqueio, peça a peça: (1) autorização registrada com data, iten
 | 5 a 18 s | "Sou Mayara Travalini de Lima, coordeno cientificamente o workshop de neuromonitorização da Faculdade Ufape." | Profa. Dra. Mayara Travalini de Lima, coordenação científica | Mesmo plano; nome na tela |
 | 18 a 40 s | "O programa gira em torno de usar os dados para responder perguntas práticas sobre hipnose, nocicepção, analgesia, despertar, sedação e risco de deterioração, no centro cirúrgico e na UTI." | Hipnose. Nocicepção. Analgesia. Despertar. Sedação. Risco de deterioração. (um item por vez) | Texto animado simples; docente em off ou em tela |
 | 40 a 52 s | "Sexta, a base: neuroanatomia, EEG e índices processados. Sábado, a prática: instalar, ler o sinal e discutir casos, em grupos práticos." | Sexta, 20/11: teoria. Sábado, 21/11: prática | Docente em tela |
-| 52 a 60 s | "A programação completa está na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Programação na página do evento. Realização: Faculdade UFAPE | Cartão final com o endereço da página |
+| 52 a 60 s | "A programação completa está na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Programação na página do evento. Realização: Faculdade UFAPE | Cartão final com o endereço da página |
 
-Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem vagas restantes. Legenda do vídeo: gancho do post + endereço da página. **Bloqueado até a autorização.**
+Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem vagas restantes. Legenda do vídeo: gancho do post + endereço da página. Fora do feed: vai para os Stories (rodada do docente e S6 de 18/11) e para o LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente.**
 
 **Pergunta para a sequência de perguntas e respostas (Instagram Stories)**
-- Figurinha de pergunta: "Qual decisão do seu plantão você gostaria que o monitor ajudasse a tomar com mais segurança? Responda aqui, e a Profa. Dra. Mayara Travalini de Lima responde em vídeo." [CONFIRMAR autorização do docente]
-- As respostas são gravadas pela própria docente. A squad não escreve resposta, para não inventar opinião. Se a pergunta cair fora da programação, a docente decide se responde. **Bloqueada até a autorização.**
+- Figurinha de pergunta: "Qual decisão do seu plantão você gostaria que o monitor ajudasse a tomar com mais segurança? Responda aqui, e a Profa. Dra. Mayara Travalini de Lima responde em vídeo."
+- As respostas são gravadas pela própria docente. A squad não escreve resposta, para não inventar opinião. Se a pergunta cair fora da programação, a docente decide se responde. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente] e aprovação do texto com o nome dela. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Falta a aprovação do texto com o nome dela; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-### 2.2 Prof. MSc. Daniel Zannin [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.2 Prof. MSc. Daniel Zannin (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz.** Condução principal das aulas teóricas, demonstrações e treinamento prático. Sexta (20/11): "Dos planos de Guedel ao awareness intraoperatório"; "Como funciona o EEG: do sinal às análises espectrais"; "Índice bispectral (BIS), PSI e Conox: índices processados e revisão da literatura" ("evidências veterinárias e limitações dos índices"); "Qual monitor temos disponível na prática?". Sábado (21/11): instalação do BIS e de outros neuromonitores em modelos; leitura prática de EEG; casos de anestesia com e sem BNM; desafio prático em pequenos grupos (17h15 às 17h45). É o docente com mais blocos: as peças dele ficam em dois temas (post em Guedel e awareness; vídeo no BIS).
 
@@ -146,7 +149,7 @@ Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem 
 **Post de autoridade**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab) e LinkedIn do docente
 - Pilar: Decidir olhando além do número
 - Gancho (linha 1): Paciente sob bloqueio neuromuscular: o que o sinal clínico ainda diz sobre consciência?
@@ -155,7 +158,7 @@ Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem 
   2. Awareness intraoperatório: o que dá para enxergar além do sinal clínico?
 - Corpo:
 
-> Esse é o tema da minha primeira aula da sexta, no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: dos planos de Guedel ao awareness intraoperatório.
+> Esse é o tema da minha primeira aula da sexta, no Workshop Brasileiro de Neuromonitorização: dos planos de Guedel ao awareness intraoperatório.
 >
 > Vamos olhar as limitações dos planos de Guedel e dos sinais clínicos, a consciência intraoperatória e como avaliar o paciente na presença de bloqueadores neuromusculares.
 >
@@ -167,8 +170,8 @@ Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem 
 - Linha final ou pergunta: Na sua rotina, o que você usa hoje para saber se o paciente anestesiado está inconsciente?
 - Chamada para ação: Programação na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM). LinkedIn: link no primeiro comentário.
 - Visual necessário: foto do docente (enviada por ele ou feita pela Ufape, com autorização). Texto na arte: "Dos planos de Guedel ao awareness intraoperatório. Prof. MSc. Daniel Zannin. 20/11, São Paulo".
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 04/11/2026 (quarta), só depois da autorização e da aprovação do texto. Sem autorização: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: Fora do feed do @ufapevet (grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo em D5): o texto vai para o LinkedIn do docente, se ele quiser publicar, e serve de apoio aos Stories da rodada 1 (11 e 12/11). Só depois da aprovação do texto pelo docente, com o nome dele. A peça de feed do docente é o vídeo, em 16/11.
 
 **Roteiro de vídeo curto (até 60 s): "O que está por trás do número do BIS"**
 
@@ -178,19 +181,19 @@ Cerca de 115 palavras faladas, dentro de 60 s. Sem preço, sem certificado, sem 
 | 5 a 20 s | "Na sexta, 20 de novembro, tenho uma aula sobre BIS, PSI e Conox: como ler o índice, a qualidade do sinal, o EMG, e o que as evidências veterinárias dizem sobre as limitações de cada um." | BIS, PSI e Conox. Qualidade do sinal. EMG. Evidências veterinárias e limitações. | Docente em tela; itens em texto |
 | 20 a 40 s | "No sábado, a parte prática: instalar o sensor, checar se o sinal presta, ler EEG e discutir casos com e sem bloqueio neuromuscular." | Sábado, 21/11: instalar, checar o sinal, ler EEG, discutir casos | Docente em tela; se houver autorização, imagem de equipamento sem identificar paciente |
 | 40 a 52 s | "A ideia não é decorar um monitor. É decidir olhando além do número." | Decidir olhando além do número | Docente em tela |
-| 52 a 60 s | "A programação completa está na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final com a página |
+| 52 a 60 s | "A programação completa está na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final com a página |
 
-Cerca de 120 palavras. A frase "decidir olhando além do número" é da página; o docente pode trocá-la pela dele. **Bloqueado até a autorização.**
+Cerca de 120 palavras. A frase "decidir olhando além do número" é da página; o docente pode trocá-la pela dele. Vai ao feed como Reel em 16/11/2026 (segunda), com collab se o docente aceitar, e ao Facebook, pela grade da seção 4.2 da 1.20 de Eventos; no LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente.**
 
 **Pergunta para a sequência de perguntas e respostas**
-- Figurinha: "Qual dúvida você tem sobre ler o BIS e o EEG no centro cirúrgico? O Prof. MSc. Daniel Zannin responde em vídeo." [CONFIRMAR autorização do docente]
-- Respostas gravadas pelo docente. **Bloqueada até a autorização.**
+- Figurinha: "Qual dúvida você tem sobre ler o BIS e o EEG no centro cirúrgico? O Prof. MSc. Daniel Zannin responde em vídeo."
+- Respostas gravadas pelo docente. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente]. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Falta a aprovação do texto com o nome do docente; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-### 2.3 Profa. MSc. Elidia Zotelli [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.3 Profa. MSc. Elidia Zotelli (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz.** EEG clínico, aplicação em UTI e apoio aos exercícios de interpretação. Sexta (20/11): "EEG clínico na neurologia veterinária" ("leitura orientada de registros, padrões de interesse e discussão da relação entre o traçado e o contexto clínico"); "Adaptação de eletrodos de agulha: o que está validado?" (bloco dividido com outro docente). Sábado (21/11): "Leitura prática de EEG e reconhecimento de artefatos" (bloco dividido).
 
@@ -205,7 +208,7 @@ Cerca de 120 palavras. A frase "decidir olhando além do número" é da página;
 **Post de autoridade**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab) e LinkedIn do docente
 - Pilar: Sexta teórica, sábado prático
 - Gancho (linha 1): Traçado na tela, paciente na mesa: o que um diz sobre o outro?
@@ -214,7 +217,7 @@ Cerca de 120 palavras. A frase "decidir olhando além do número" é da página;
   2. Você lê o traçado antes ou depois de olhar o paciente?
 - Corpo:
 
-> Na sexta, 20/11, conduzo a aula de EEG clínico na neurologia veterinária, no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Na sexta, 20/11, conduzo a aula de EEG clínico na neurologia veterinária, no Workshop Brasileiro de Neuromonitorização.
 >
 > É uma leitura orientada de registros: padrões de interesse e a relação entre o traçado e o contexto clínico.
 >
@@ -228,8 +231,8 @@ Cerca de 120 palavras. A frase "decidir olhando além do número" é da página;
 - Linha final ou pergunta: Qual é a sua maior dúvida na hora de ler um EEG?
 - Chamada para ação: Programação na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM).
 - Visual necessário: foto da docente enviada por ela ou feita pela Ufape; se usar traçado de EEG, só registro sem identificação de tutor ou paciente e com autorização [CONFIRMAR]. Texto na arte: "EEG clínico na neurologia veterinária. Profa. MSc. Elidia Zotelli. 20/11".
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 06/11/2026 (sexta), só depois da autorização e da aprovação do texto. Sem autorização: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: Fora do feed do @ufapevet (grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo em D5): o texto vai para o LinkedIn do docente, se ele quiser publicar, e serve de apoio aos Stories da rodada 1 (11 e 12/11). Só depois da aprovação do texto pelo docente, com o nome dele.
 
 **Roteiro de vídeo curto (até 60 s): "Traçado e contexto clínico"**
 
@@ -239,19 +242,19 @@ Cerca de 120 palavras. A frase "decidir olhando além do número" é da página;
 | 5 a 22 s | "Na sexta, 20 de novembro, conduzo uma aula de EEG clínico na neurologia veterinária: leitura orientada de registros, padrões de interesse e a relação entre o traçado e o contexto clínico." | EEG clínico na neurologia veterinária. Sexta, 20/11 | Docente em tela |
 | 22 a 42 s | "No sábado, a gente treina com registros: leitura prática de EEG e reconhecimento de artefatos, em exercícios com apoio dos docentes." | Sábado, 21/11: leitura prática e artefatos | Docente em tela |
 | 42 a 52 s | "E você não precisa saber ler EEG antes. A sexta constrói a base." | Não precisa saber EEG antes | Docente em tela |
-| 52 a 60 s | "Programação completa na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
+| 52 a 60 s | "Programação completa na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
 
-Cerca de 105 palavras. **Bloqueado até a autorização.**
+Cerca de 105 palavras. Fora do feed: vai para os Stories (rodada do docente e S6 de 18/11) e para o LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente.**
 
 **Pergunta para a sequência de perguntas e respostas**
-- Figurinha: "Qual é a sua maior dificuldade ao ler um EEG no dia a dia? A Profa. MSc. Elidia Zotelli responde em vídeo." [CONFIRMAR autorização do docente]
-- Respostas gravadas pela docente. **Bloqueada até a autorização.**
+- Figurinha: "Qual é a sua maior dificuldade ao ler um EEG no dia a dia? A Profa. MSc. Elidia Zotelli responde em vídeo."
+- Respostas gravadas pela docente. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente]. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Falta a aprovação do texto com o nome do docente; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-### 2.4 Prof. Renan Holczer [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.4 Prof. Renan Holczer (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz.** Ventilação mecânica e UTI neuromonitorizada (sem titulação na ficha: usar "Prof. Renan Holczer", sem acrescentar nenhuma). Sexta (20/11): "Neuromonitorização na UTI e bloqueadores neuromusculares (BNM)" ("avaliação de hipnose e sedação sob BNM; interpretação de EEG e BIS, relação com o EMG e monitorização neuromuscular por TOF"). Sábado (21/11): "Casos de UTI com BNM, EEG e BIS" ("avaliação da hipnose em pacientes sob BNM; integração de EEG e BIS e treinamento da leitura do TOF em simulações ou registros clínicos"). A programação não traz bloco de ventilação mecânica: a peça não promete esse tema.
 
@@ -266,7 +269,7 @@ Cerca de 105 palavras. **Bloqueado até a autorização.**
 **Post de autoridade**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab) e LinkedIn do docente
 - Pilar: Decidir olhando além do número (UTI)
 - Gancho (linha 1): Paciente de UTI sob bloqueio neuromuscular: como saber se está sedado?
@@ -275,7 +278,7 @@ Cerca de 105 palavras. **Bloqueado até a autorização.**
   2. EEG, BIS e TOF na mesma beira de leito: como se leem juntos?
 - Corpo:
 
-> Essa é a pergunta das minhas aulas de UTI no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Essa é a pergunta das minhas aulas de UTI no Workshop Brasileiro de Neuromonitorização.
 >
 > Na sexta, 20/11: neuromonitorização na UTI e bloqueadores neuromusculares. Avaliação de hipnose e sedação sob bloqueio, interpretação de EEG e BIS, relação com o EMG e monitorização neuromuscular por TOF.
 >
@@ -289,8 +292,8 @@ Cerca de 105 palavras. **Bloqueado até a autorização.**
 - Linha final ou pergunta: Na sua UTI, quem avalia a hipnose do paciente bloqueado, e como?
 - Chamada para ação: Programação na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM).
 - Visual necessário: foto do docente enviada por ele ou feita pela Ufape; sem imagem de paciente em UTI identificável e sem imagem gráfica. Texto na arte: "UTI e bloqueio neuromuscular. Prof. Renan Holczer. 20 e 21/11".
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 09/11/2026 (segunda), só depois da autorização e da aprovação do texto. Sem autorização: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: Fora do feed do @ufapevet (grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo em D5): o texto vai para o LinkedIn do docente, se ele quiser publicar, e serve de apoio aos Stories da rodada 2 (16 e 17/11). Só depois da aprovação do texto pelo docente, com o nome dele.
 
 **Roteiro de vídeo curto (até 60 s): "Hipnose sob bloqueio neuromuscular"**
 
@@ -300,19 +303,19 @@ Cerca de 105 palavras. **Bloqueado até a autorização.**
 | 5 a 25 s | "Na sexta, 20 de novembro, trato de neuromonitorização na UTI: avaliação de hipnose e sedação sob bloqueio, EEG e BIS, relação com o EMG e o TOF." | EEG. BIS. EMG. TOF. Sexta, 20/11 | Docente em tela; siglas em texto |
 | 25 a 45 s | "No sábado, são casos de UTI com bloqueio, EEG e BIS, e treino da leitura do TOF em simulações ou registros clínicos." | Sábado, 21/11: casos de UTI e leitura do TOF | Docente em tela |
 | 45 a 52 s | "Serve para quem está na UTI e para quem está no centro cirúrgico." | UTI e centro cirúrgico | Docente em tela |
-| 52 a 60 s | "A programação completa está na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
+| 52 a 60 s | "A programação completa está na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
 
-Cerca de 110 palavras. **Bloqueado até a autorização.**
+Cerca de 110 palavras. Fora do feed: vai para os Stories (rodada do docente e S6 de 18/11) e para o LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente.**
 
 **Pergunta para a sequência de perguntas e respostas**
-- Figurinha: "Como você avalia hipnose e sedação no paciente sob bloqueio neuromuscular na sua UTI? O Prof. Renan Holczer comenta em vídeo." [CONFIRMAR autorização do docente]
-- Respostas gravadas pelo docente. **Bloqueada até a autorização.**
+- Figurinha: "Como você avalia hipnose e sedação no paciente sob bloqueio neuromuscular na sua UTI? O Prof. Renan Holczer comenta em vídeo."
+- Respostas gravadas pelo docente. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente]. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Falta a aprovação do texto com o nome do docente; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-### 2.5 Prof. MSc. Yuri Ferreira Vicentini [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.5 Prof. MSc. Yuri Ferreira Vicentini (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz.** Corpo docente: "Artefatos de EEG, qCON e qNOX na decisão anestésica". Na grade, aparece como "Prof. MSc. Yuri Vicentini" na demonstração inicial do sábado (21/11), nos "Casos de anestesia com e sem BNM" (bloco dividido) e na devolutiva. A grade não traz um bloco com o título do tema dele atribuído só a ele: o tema da peça vem da descrição do corpo docente e dos blocos do sábado. **O post e as demais peças dele não saem antes da confirmação da grade final com a coordenação [CONFIRMAR com a coordenação].** Ele não consta como condutor do "Desafio prático em pequenos grupos" (17h15 às 17h45, atribuído na grade a outro docente): as peças dele não citam esse desafio.
 
@@ -327,7 +330,7 @@ Cerca de 110 palavras. **Bloqueado até a autorização.**
 **Post de autoridade**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab) e LinkedIn do docente
 - Pilar: Decidir olhando além do número
 - Gancho (linha 1): Antes de decidir pelo índice, você checou se o sinal presta?
@@ -336,7 +339,7 @@ Cerca de 110 palavras. **Bloqueado até a autorização.**
   2. Um EEG com artefato muda o índice. Você sabe reconhecer?
 - Corpo:
 
-> Meu tema no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: artefatos de EEG, qCON e qNOX na decisão anestésica.
+> Meu tema no Workshop Brasileiro de Neuromonitorização: artefatos de EEG, qCON e qNOX na decisão anestésica.
 >
 > A pergunta que me interessa é a que vem antes do número: o sinal que chegou ao monitor é confiável?
 >
@@ -350,8 +353,8 @@ Cerca de 110 palavras. **Bloqueado até a autorização.**
 - Linha final ou pergunta: Qual artefato mais atrapalha a leitura do índice no seu centro cirúrgico?
 - Chamada para ação: Programação na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM).
 - Visual necessário: foto do docente enviada por ele ou feita pela Ufape. Texto na arte: "Artefatos de EEG, qCON e qNOX. Prof. MSc. Yuri Ferreira Vicentini. 21/11".
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 09/11/2026 (segunda, à tarde), só depois da autorização, da aprovação do texto e da grade final. Sem isso: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: Fora do feed do @ufapevet (grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo em D5): o texto vai para o LinkedIn do docente, se ele quiser publicar, e serve de apoio aos Stories da rodada 2 (16 e 17/11). Só depois da aprovação do texto pelo docente, com o nome dele. Também depende da grade final com a coordenação (D6).
 
 **Roteiro de vídeo curto (até 60 s): "Antes do índice, o sinal"**
 
@@ -361,19 +364,19 @@ Cerca de 110 palavras. **Bloqueado até a autorização.**
 | 5 a 22 s | "Meu tema no workshop é artefatos de EEG, qCON e qNOX na decisão anestésica." | Artefatos de EEG. qCON e qNOX. Decisão anestésica | Docente em tela |
 | 22 a 42 s | "No sábado, 21 de novembro, a gente trabalha casos de anestesia com e sem bloqueio neuromuscular, analisando dados discordantes e discutindo as decisões propostas." | Sábado, 21/11: casos com e sem bloqueio neuromuscular | Docente em tela |
 | 42 a 52 s | "A prática é em grupos práticos, e no fim a gente fecha com a devolutiva e um roteiro para aplicar na rotina." | Grupos práticos. Roteiro de aplicação na rotina | Docente em tela |
-| 52 a 60 s | "Programação completa na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
+| 52 a 60 s | "Programação completa na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
 
-Cerca de 100 palavras. **Bloqueado até a autorização e a grade final.**
+Cerca de 100 palavras. Fora do feed: vai para os Stories (rodada 2 e S6 de 18/11) e para o LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente e a grade final.**
 
 **Pergunta para a sequência de perguntas e respostas**
-- Figurinha: "Qual artefato do EEG mais te confunde na hora de ler o índice? O Prof. MSc. Yuri Ferreira Vicentini responde em vídeo." [CONFIRMAR autorização do docente]
-- Respostas gravadas pelo docente. **Bloqueada até a autorização.**
+- Figurinha: "Qual artefato do EEG mais te confunde na hora de ler o índice? O Prof. MSc. Yuri Ferreira Vicentini responde em vídeo."
+- Respostas gravadas pelo docente. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente] e [CONFIRMAR com a coordenação] o alinhamento do tema dele com a grade. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Faltam a aprovação do texto com o nome dele e [CONFIRMAR com a coordenação] o alinhamento do tema dele com a grade; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-### 2.6 Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo) [CONFIRMAR autorização do docente] (BLOQUEADA)
+### 2.6 Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo) (autorização registrada; texto a aprovar pelo docente)
 
 **O que a programação diz.** "Aula online ao vivo sobre redes neurais e neuroanatomia aplicada à anestesia." Sexta (20/11): "Redes neurais e neuroanatomia aplicada à anestesia" ("estruturas e circuitos envolvidos em consciência, sono e anestesia; ênfase em neuroanatomia, conectando a base anatômica às aulas de EEG"; na grade aparece como "Prof. Dr. Rodrigo Neca, online ao vivo"; usar o nome da seção Corpo docente).
 
@@ -388,7 +391,7 @@ Cerca de 100 palavras. **Bloqueado até a autorização e a grade final.**
 **Post de autoridade**
 
 - Linha de negócio: Eventos (workshop)
-- Curso: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026
+- Curso: Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026
 - Plataforma: Instagram (@ufapevet, collab) e LinkedIn do docente
 - Pilar: Sexta teórica, sábado prático (a base)
 - Gancho (linha 1): Antes de ler o EEG, vale entender o circuito que o gera.
@@ -397,7 +400,7 @@ Cerca de 100 palavras. **Bloqueado até a autorização e a grade final.**
   2. Neuroanatomia ajuda a ler um traçado? A minha aula parte dessa pergunta.
 - Corpo:
 
-> Vou dar uma aula online, ao vivo, no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: redes neurais e neuroanatomia aplicada à anestesia.
+> Vou dar uma aula online, ao vivo, no Workshop Brasileiro de Neuromonitorização: redes neurais e neuroanatomia aplicada à anestesia.
 >
 > Na sexta, 20/11, o foco são as estruturas e os circuitos envolvidos em consciência, sono e anestesia.
 >
@@ -411,8 +414,8 @@ Cerca de 100 palavras. **Bloqueado até a autorização e a grade final.**
 - Linha final ou pergunta: Que dúvida de neuroanatomia você gostaria de ver ligada ao EEG?
 - Chamada para ação: Programação na página do evento (faculdade.ufape.com.br/neuro-summit, com UTM).
 - Visual necessário: foto ou vídeo do docente enviado por ele (aula online, sem estar em São Paulo); texto na arte: "Aula online ao vivo. Prof. Dr. Rodrigo Neca Ribeiro. 20/11". Ilustração anatômica só se tiver origem e direito de uso registrados [CONFIRMAR].
-- Autorização de uso de imagem: [CONFIRMAR autorização do docente]
-- Data de publicação: 05/11/2026 (quinta), só depois da autorização e da aprovação do texto. Sem autorização: não publicar.
+- Autorização de uso de imagem: registrada para todos (decisões 8 e 10 do briefing)
+- Data de publicação: Fora do feed do @ufapevet (grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo em D5): o texto vai para o LinkedIn do docente, se ele quiser publicar, e serve de apoio aos Stories da rodada 2 (16 e 17/11). Só depois da aprovação do texto pelo docente, com o nome dele.
 
 **Roteiro de vídeo curto (até 60 s): "Do circuito ao traçado"** (o docente grava de onde estiver, em vídeo próprio)
 
@@ -422,88 +425,52 @@ Cerca de 100 palavras. **Bloqueado até a autorização e a grade final.**
 | 5 a 22 s | "Vou dar uma aula online, ao vivo, na sexta, 20 de novembro, sobre redes neurais e neuroanatomia aplicada à anestesia." | Aula online ao vivo. Sexta, 20/11 | Docente em tela |
 | 22 a 42 s | "Vamos ver as estruturas e os circuitos envolvidos em consciência, sono e anestesia, conectando a base anatômica às aulas de EEG." | Consciência. Sono. Anestesia. Da anatomia ao EEG | Docente em tela; itens em texto |
 | 42 a 52 s | "Quem não puder ir a São Paulo pode acompanhar a teoria de sexta online, ao vivo e gravada." | Só a teoria de sexta: ao vivo e gravada (apenas teórico) | Docente em tela |
-| 52 a 60 s | "A programação completa está na página do evento." | Workshop de Neuromonitorização Veterinária. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
+| 52 a 60 s | "A programação completa está na página do evento." | Workshop Brasileiro de Neuromonitorização. 20 e 21/11, São Paulo. Realização: Faculdade UFAPE | Cartão final |
 
-Cerca de 105 palavras. **Bloqueado até a autorização.**
+Cerca de 105 palavras. Fora do feed: vai para os Stories (rodada do docente e S6 de 18/11) e para o LinkedIn do docente, se ele quiser. **Sai só com o texto aprovado pelo docente.**
 
 **Pergunta para a sequência de perguntas e respostas**
-- Figurinha: "Que conceito de neuroanatomia você gostaria de ver ligado ao EEG? O Prof. Dr. Rodrigo Neca Ribeiro responde em vídeo." [CONFIRMAR autorização do docente]
-- Respostas gravadas pelo docente. **Bloqueada até a autorização.**
+- Figurinha: "Que conceito de neuroanatomia você gostaria de ver ligado ao EEG? O Prof. Dr. Rodrigo Neca Ribeiro responde em vídeo."
+- Respostas gravadas pelo docente. **Sai só com a aprovação do docente.**
 
-**Status:** BLOQUEADA. [CONFIRMAR autorização do docente]. Nenhuma das 3 peças conta como pronta.
+**Status:** autorização registrada (decisões 8 e 10). Falta a aprovação do texto com o nome do docente; até lá, nenhuma das 3 peças conta como pronta.
 
 ---
 
-## 3. Pedido de autorização de uso de nome, imagem e voz
+## 3. Autorização de uso de nome, imagem e voz
 
-Texto curto, para a Ufape enviar a cada docente pelo canal oficial dela. Sem dado pessoal: o nome do docente entra só no destinatário, como está na ficha. Modelo único, a ser revisado pelo jurídico da Ufape antes do envio [CONFIRMAR jurídico]. A squad não envia. **O pedido cobre apenas os canais em que há peça neste arquivo: Instagram e LinkedIn.**
+O pedido de autorização da versão 2 ficou sem objeto: a Ufape registrou, em 26/10/2026, a autorização de uso de imagem e de citação em materiais para todos os docentes, palestrantes e convidados (decisões 8 e 10 do briefing). A decisão não limita o canal; por isso as peças de feed também vão para o Facebook (seção 5.2 da 1.20 de Eventos). Nome e titulação continuam só como estão na ficha. Os 4 convidados "a definir" seguem fora das peças até serem confirmados (decisão 6).
 
-> **Assunto:** Autorização de uso de nome, imagem e voz: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11/2026)
->
-> Olá, [titulação e nome, como na ficha do evento].
->
-> A Faculdade UFAPE quer divulgar sua participação no workshop e pede sua autorização para usar:
->
-> - seu nome e sua titulação, como constam na programação da página do evento;
-> - sua imagem (fotos e vídeo) e sua voz;
->
-> nas peças abaixo, sobre o tema que você apresenta na programação:
->
-> 1. um post no Instagram da Ufape (@ufapevet), com collab no seu perfil, se você aceitar;
-> 2. o mesmo texto para você publicar no seu LinkedIn, se quiser;
-> 3. um vídeo curto, de até 60 segundos, com a sua fala, no Instagram da Ufape e, se você quiser, no seu LinkedIn;
-> 4. uma sequência de perguntas e respostas nos stories do Instagram da Ufape, com respostas gravadas por você.
->
-> A autorização vale só para Instagram e LinkedIn. Qualquer outro canal (por exemplo, Facebook, YouTube, anúncio pago ou impulsionamento) exige um novo pedido.
->
-> Como funciona:
-> - Você recebe cada texto antes de qualquer publicação. Nada vai ao ar sem a sua aprovação por escrito.
-> - Você pode ajustar ou trocar qualquer frase. As opiniões nas peças são suas.
-> - Os textos citam só dados da programação. Não citamos preço, certificado nem resultados clínicos.
-> - Período de uso: de [data] até [data] [CONFIRMAR com a Ufape].
-> - Condições de uso comercial e remuneração, se houver: [CONFIRMAR com o jurídico da Ufape].
-> - Você pode pedir a retirada de uma peça a qualquer momento, pelo contato [CONFIRMAR contato oficial da Ufape].
->
-> Se estiver de acordo, responda com um "autorizo", indicando quais itens de 1 a 4 você autoriza. A Ufape registra a resposta em [local do registro, CONFIRMAR] e só então a peça passa para a revisão final.
->
-> Obrigado.
-> Faculdade UFAPE
+O que continua valendo, porque é regra deste agente e não depende da autorização: o texto em primeira pessoa é a voz do docente e só sai com a aprovação dele.
 
-**Checklist de registro (pessoa do marketing, por docente):**
-- [ ] Resposta de autorização guardada, com data, itens 1 a 4, canais (Instagram e LinkedIn) e período
+**Checklist de aprovação (pessoa do marketing, por docente):**
 - [ ] Texto da peça aprovado por escrito pelo docente, com a versão aprovada
-- [ ] Foto ou vídeo enviado pelo docente, ou feito pela Ufape com a mesma autorização
+- [ ] Foto ou vídeo enviado pelo docente, ou feito pela Ufape
 - [ ] Nome e titulação conferidos com a ficha
-- [ ] Sem outro docente ou pessoa identificável na imagem sem autorização própria
+- [ ] Sem participante identificável na imagem sem termo de imagem
 
 ---
 
-## 4. Calendário sugerido de publicação (27/10 a 19/11/2026)
+## 4. Calendário de publicação (27/10 a 19/11/2026)
 
-Segue o calendário da campanha (semana 2, 03/11 a 09/11 [SUPOSIÇÃO], com "posts de docentes autorizados, até 6"). **Nada neste calendário é uma publicação confirmada: todas as datas valem só para a peça cuja autorização e aprovação do texto estiverem registradas até 2 dias antes.** Peça sem autorização não entra e não conta como entrega faltante (P13). Se a autorização atrasar, a peça vai para a próxima data livre, sem comprimir o calendário. Publicação feita por pessoa autorizada da Ufape ou pelo próprio docente.
+Segue a grade de feed da seção 4.2 da 1.20 de Eventos (D5 do cmo: no máximo 2 publicações de feed por dia no @ufapevet, 1 por linha por dia, 10 por semana) [SUPOSIÇÃO de capacidade até a Ufape informar as horas do time]. Nada neste calendário é publicação confirmada: cada peça sai só com o texto aprovado pelo docente até 2 dias antes; se a aprovação atrasar, a peça de Stories vai para o próximo dia livre e a de feed volta para o cmo, sem comprimir o calendário. Publicação feita por pessoa autorizada da Ufape ou pelo próprio docente.
 
 | Data | Dia | Ação | Quem |
 |---|---|---|---|
-| 27/10 a 29/10 | ter a qui | Pessoa do marketing envia o pedido de autorização (seção 3) aos 6 docentes; marca 15 min de conversa com cada um para validar o ponto de vista (2 perguntas por docente) | Pessoa do marketing |
-| 30/10 | sex | Prazo para respostas de autorização; docentes recebem o rascunho dos textos | Pessoa do marketing |
+| 27/10 a 30/10 | ter a sex | Pessoa do marketing envia os rascunhos aos 6 docentes e marca 15 min de conversa com cada um para validar o ponto de vista (2 perguntas por docente) | Pessoa do marketing |
 | 02/11 | seg | Feriado (Finados). Nenhuma publicação | |
-| 03/11 | ter | **Post Mayara** (Instagram com collab e LinkedIn da docente), se autorizado | Ufape e docente |
-| 04/11 | qua | **Post Daniel**, se autorizado | Ufape e docente |
-| 05/11 | qui | **Post Rodrigo** (colar no stories o lembrete de que é aula online ao vivo), se autorizado | Ufape e docente |
-| 06/11 | sex | **Post Elidia**, se autorizado | Ufape e docente |
-| 09/11 | seg | **Post Renan** (manhã) e **Post Yuri** (tarde), se autorizados; o de Yuri também depende da grade final com a coordenação. Os 6 posts ficam dentro da semana 2 (03 a 09/11) [SUPOSIÇÃO] | Ufape e docentes |
-| 11/11 | qua | **Vídeos curtos:** Mayara e Daniel (Reels no Instagram e vídeo nativo no LinkedIn), se autorizados | Ufape e docente |
-| 12/11 | qui | **Vídeos curtos:** Elidia e Renan, se autorizados | Ufape e docente |
-| 13/11 | sex | **Vídeos curtos:** Yuri e Rodrigo, se autorizados | Ufape e docente |
-| 11/11 a 12/11 | qua a qui | **Sequência de perguntas e respostas, rodada 1:** figurinhas de Mayara, Daniel e Elidia, com respostas gravadas em até 2 dias, se autorizadas | Ufape e docentes |
-| 16/11 a 17/11 | seg a ter | **Sequência de perguntas e respostas, rodada 2:** figurinhas de Renan, Yuri e Rodrigo, com respostas gravadas, se autorizadas | Ufape e docentes |
-| 18/11 | qua | Reaproveitar a melhor resposta em vídeo de cada docente em stories (sem peça nova; só o que já foi aprovado) | Ufape |
-| 19/11 | qui | Véspera: nenhuma peça nova de docente; a Ufape pode compartilhar nos stories o post de "amanhã começa" (peça de posts-sociais). Docente aparece só se já autorizado | posts-sociais |
+| 03/11 a 10/11 | | Textos dos 6 posts disponíveis para o LinkedIn pessoal de cada docente, se ele quiser publicar (não ocupam a grade do @ufapevet) | Docente |
+| 11/11 a 12/11 | qua a qui | **Perguntas e respostas, rodada 1 (Stories):** figurinhas de Mayara, Daniel e Elidia, com respostas gravadas em até 2 dias | Ufape e docentes |
+| 14/11 | sáb | **Feed:** post da Profa. Dra. Mayara Travalini de Lima, coordenação científica (collab, se ela aceitar), também no Facebook | Ufape e docente |
+| 16/11 | seg | **Feed:** Reel do Prof. MSc. Daniel Zannin, "uma pergunta, uma resposta" (collab, se ele aceitar), também no Facebook | Ufape e docente |
+| 16/11 a 17/11 | seg a ter | **Perguntas e respostas, rodada 2 (Stories):** figurinhas de Renan, Rodrigo e Yuri (este só depois da grade final, D6), com respostas gravadas | Ufape e docentes |
+| 18/11 | qua | Stories S6: as melhores respostas em vídeo de cada docente e trechos dos vídeos curtos (sem peça nova; só o que já foi aprovado) | Ufape |
+| 19/11 | qui | Véspera: nenhuma peça nova de docente; a Ufape pode compartilhar nos Stories o post de véspera (peça de posts-sociais) | posts-sociais |
 
 Observações:
-- Os 6 posts ficam em dias úteis seguidos, antes do ponto de checagem de 09/11 do plano, para a decisão de "dobrar a aposta" usar o resultado dos posts que saíram. Vídeos e perguntas ficam depois e não contam como "posts da semana 2".
-- Meta de medição desta frente (sem vaidade): cliques na página do evento por UTM (utm_content=docente-<sobrenome>), respostas e perguntas recebidas nos stories, mensagens à secretaria ou vendas que citam o docente, inscrições com origem no post. Metas numéricas [CONFIRMAR] (E4 do briefing).
-- Todas as respostas dos stories que citem condição comercial (preço, cupom, vagas, cancelamento) vão para a secretaria ou para o time de vendas, não para o docente.
+- Os outros 4 vídeos curtos (Elidia, Renan, Yuri e Rodrigo) e o vídeo da Profa. Dra. Mayara Travalini de Lima entram nos Stories das rodadas e de 18/11, e no LinkedIn do docente, se ele quiser. Nenhum deles ocupa slot de feed.
+- Medição desta frente (sem vaidade): cliques na página do evento por UTM (utm_content=docente-<sobrenome>), respostas e perguntas recebidas nos Stories, mensagens à secretaria ou vendas que citam o docente, inscrições com origem no post. Metas numéricas [CONFIRMAR] (E4 do briefing).
+- Todas as respostas dos Stories que citem condição comercial (preço, cupom, vagas, cancelamento) vão para a secretaria ou para o time de vendas, não para o docente.
 
 ---
 
@@ -513,14 +480,14 @@ Observações:
 
 | Item | Resultado | Observação |
 |---|---|---|
-| A frequência de publicação segue o plano | [ ] Pendente de conferência | 6 posts de 03/11 a 09/11, 6 vídeos de 11 a 13/11 e perguntas de 11 a 17/11. Semana 2 do briefing tratada como 03 a 09/11 [SUPOSIÇÃO]; conferir com o briefing de campanha. Nada vai ao ar sem autorização |
+| A frequência de publicação segue o plano | [x] Atendido | Grade da seção 4.2 da 1.20 de Eventos, adotada pelo cmo (D5): 2 peças de docente no feed (14/11 e 16/11), perguntas e respostas em 11 e 12/11 e 16 e 17/11 e reaproveitamento em 18/11; o restante em Stories e no LinkedIn do docente. Nada vai ao ar sem o texto aprovado pelo docente |
 | Todo post tem uma ideia clara | [x] Atendido | Uma ideia por post: o tema da aula de cada docente e a pergunta que ele responde |
 | Os ganchos são cumpridos pelo conteúdo | [x] Atendido | Cada gancho é uma pergunta; o corpo diz que ela é o tema do bloco e descreve o que a aula trata, sem prometer resposta nem resultado. No post do Prof. MSc. Daniel Zannin, a frase que afirmava que a aula "abre" com a pergunta foi trocada por "esse é o tema da minha primeira aula da sexta" |
 | Histórias e números são reais | [x] Atendido | Só dados da ficha: datas, 30 vagas (total), temas, blocos. "Pequenos grupos" só no desafio prático; sábado como "grupos práticos". Nenhum depoimento, resultado ou dado de aluno |
 | Os posts estão formatados para celular | [x] Atendido | Linhas curtas, uma ideia por parágrafo; vídeos em 9:16 com texto na tela |
 | As ações de comunidade aconteceram nesta semana | [ ] Não se aplica agora | As perguntas e respostas estão programadas para 11/11 a 17/11; conferir na semana em que ocorrerem |
 | As métricas acompanhadas são conversas qualificadas e leads, não vaidade | [x] Atendido | Cliques por UTM, perguntas, mensagens e inscrições com origem; sem curtidas como meta |
-| Toda imagem ou depoimento de aluno e professor tem autorização registrada | [ ] **Falha (bloqueia)** | Nenhuma autorização registrada. **As 18 peças estão bloqueadas e nenhuma conta como pronta.** Bloqueio externo, não erro de texto |
+| Toda imagem ou depoimento de aluno e professor tem autorização registrada | [x] Atendido | Autorização registrada para todos os docentes, palestrantes e convidados (decisões 8 e 10 do briefing, 26/10/2026). Nenhum aluno aparece. A aprovação do texto pelo docente continua exigida |
 | Dados de curso nos posts batem com contexto/catalogo-de-cursos.md | [x] Atendido, conforme conferência do QA | O qa-de-marketing (rodada A) conferiu com a seção 9: 20/11, Unidade 2 em São Paulo, 30 vagas, modalidades e "apenas teórico" batem; 21/11 e a grade vêm da ficha ligada ao catálogo. Esta etapa não releu o arquivo |
 
 ### 5.2 auditorias/conformidade-educacional.md
@@ -539,7 +506,7 @@ Observações:
 | Preço e condições | Desconto com regra, público e prazo | [x] Não se aplica: cupom não aparece nas peças dos docentes |
 | Preço e condições | Urgência real | [x] Só "30 vagas, por ordem de inscrição" (total) e datas; sem "últimas vagas", contador nem vagas restantes |
 | Preço e condições | Prouni, Fies, financiamento | [x] Não se aplica |
-| Pessoas e dados | Autorização de docentes | [ ] **Falha (bloqueia a publicação)**: nenhuma autorização registrada para as 18 peças (6 posts, 6 roteiros de vídeo, 6 perguntas). Nenhuma conta como pronta |
+| Pessoas e dados | Autorização de docentes | [x] Registrada para todos (decisões 8 e 10). Cada peça só conta como pronta com o texto aprovado pelo docente |
 | Pessoas e dados | Menores de idade | [x] Não se aplica |
 | Pessoas e dados | Formulários e política de privacidade | [x] Não se aplica a estas peças |
 | Pessoas e dados | WhatsApp e e-mail com consentimento | [x] Não se aplica: peças orgânicas |
@@ -549,9 +516,9 @@ Observações:
 | Anúncios | Sem característica pessoal, escassez falsa, caixa alta, pessoa pública, driblar a análise | [x] Peças orgânicas; as perguntas descrevem a prática, não uma característica de quem vê |
 | Marca | Sem certificado nas peças; sem "simpósio" nem "Neuro Summit" como nome; sem "Ufape Intercursos" | [x] Atendido |
 | Marca | Travessão e meia-risca | [x] Nenhum no arquivo |
-| Consistência | Pedido de autorização igual aos canais das peças | [x] Só Instagram e LinkedIn, como nas peças; Facebook retirado |
+| Consistência | Canais das peças | [x] Instagram (feed e Stories), Facebook (só as 2 peças de feed) e LinkedIn do docente; a autorização das decisões 8 e 10 não limita o canal |
 
-**Resultado:** aprovado apenas como **rascunho** de plano de autoridade docente para o qa-de-marketing (rodada B). **Bloqueado para publicação em todas as 18 peças** até: (1) autorização registrada de cada docente; (2) validação do ponto de vista e aprovação do texto com o nome de cada docente; (3) conferência da grade vigente (horários e tema do Prof. MSc. Yuri Ferreira Vicentini) com a coordenação; (4) conferência da página (E1, E12). Revisado por: autoridade-docente (agente). Revisão humana: [pendente]. Data: 26/10/2026.
+**Resultado:** aprovado como **rascunho** de plano de autoridade docente para o qa-de-marketing. A autorização está registrada (decisões 8 e 10). **Publicação de cada peça só depois de:** (1) validação do ponto de vista e aprovação do texto com o nome de cada docente; (2) conferência da grade vigente (horários e tema do Prof. MSc. Yuri Ferreira Vicentini) com a coordenação; (3) conferência da página (E1, E12). Revisado por: autoridade-docente (agente). Revisão humana: [pendente]. Data: 26/10/2026.
 
 Notas para outros arquivos (este agente não edita arquivo alheio):
 - Ficha do evento: a grade chama a coordenadora de "Profa. Dra. Mayara Travalini" e a seção Corpo docente de "Profa. Dra. Mayara Travalini de Lima"; este plano usa a forma completa do Corpo docente. Idem "Prof. Dr. Rodrigo Neca" (grade) e "Prof. Dr. Rodrigo Neca Ribeiro" (Corpo docente), e "Prof. MSc. Yuri Vicentini" (grade) e "Prof. MSc. Yuri Ferreira Vicentini" (Corpo docente). Pedir que a página use uma forma única.
@@ -574,7 +541,17 @@ Notas para outros arquivos (este agente não edita arquivo alheio):
 
 ## 6. Próximo passo
 
-Próximo agente sugerido: **distribuicao** (departamento 06, Geração de Demanda), para ligar cada peça ao calendário, ao canal, aos UTMs e ao responsável pela publicação. Antes dele, o qa-de-marketing confere este arquivo (rodada B) e a pessoa do marketing envia o pedido de autorização (seção 3) aos 6 docentes até 29/10. Sem autorização registrada, a distribuicao deve tratar **todas as 18 peças como bloqueadas e não prontas**.
+Próximo agente sugerido: **distribuicao** (departamento 06, Geração de Demanda), para ligar cada peça ao calendário, ao canal, aos UTMs e ao responsável pela publicação. Antes dele, o qa-de-marketing confere este arquivo e a pessoa do marketing envia os rascunhos aos 6 docentes até 30/10. A autorização está registrada (decisões 8 e 10); a distribuicao trata como pronta só a peça com o texto aprovado pelo docente e usa a grade da seção 4.
+
+---
+
+## Mudanças desta versão
+
+- Versão 3 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa.
+  - Autorização registrada para todos (decisões 8 e 10): bloqueio geral, painel, marcas [CONFIRMAR autorização do docente], status das seções 2.1 a 2.6, pedido da seção 3 e auditorias atualizados. Continua exigida a aprovação do texto pelo docente.
+  - Calendário da seção 4 e datas de publicação pela grade da seção 4.2 da 1.20 de Eventos (D5): post da coordenação no feed em 14/11, Reel do Prof. MSc. Daniel Zannin em 16/11, rodadas de perguntas em 11 e 12/11 e 16 e 17/11, reaproveitamento em 18/11; demais posts e vídeos em Stories e no LinkedIn do docente. Facebook recebe as 2 peças de feed.
+  - UTM no padrão D11 e D12: utm_medium=organic_social, utm_campaign=eventos_neuro26_202611.
+  - Nome oficial "Workshop Brasileiro de Neuromonitorização" no título, nas peças e nas artes (decisão 7). Nenhuma frase de ponto de vista foi alterada.
 
 ---
 
@@ -589,19 +566,22 @@ Próximo agente sugerido: **distribuicao** (departamento 06, Geração de Demand
 7. Não é preciso saber interpretar EEG previamente. Fonte: ficha, FAQ.
 8. Prática "em modelos", "simulações ou registros clínicos", "conforme equipamentos e registros disponíveis". Fonte: ficha.
 9. Os 4 convidados "a definir" ficam fora das peças. Fonte: ficha e docs/execucao-2026-10-26.md, decisão 6.
-10. Peça só com autorização registrada; titulação exatamente como na ficha; evento só com docentes confirmados. Fonte: estrategia-de-marca-geral, seção 8.1.
+10. Peça só com autorização registrada; titulação exatamente como na ficha; evento só com docentes confirmados. Fonte: estrategia-de-marca-geral, seção 8.1. A autorização de imagem e de citação está registrada para todos: docentes, palestrantes e convidados. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
+16. Grade de feed do @ufapevet em vigor: post da coordenação científica em 14/11 e Reel de docente em 16/11; perguntas e respostas em 11 e 12/11 e 16 e 17/11; demais peças de docente em Stories e no LinkedIn pessoal. Fonte: estrategia-social-eventos-2026-10-26.md, seção 4.2; cmo-geral-2026-10-26.md, seção 12.3 (D5).
+17. Padrão de UTM: utm_medium=organic_social e utm_campaign com a chave eventos_neuro26. Fonte: cmo-geral-2026-10-26.md, seção 12.7 (D11 e D12).
+18. Nome oficial "Workshop Brasileiro de Neuromonitorização"; nunca "simpósio". Fonte: docs/execucao-2026-10-26.md, decisão 7.
 11. Sem certificado em post ou anúncio; sem preço com cupom calculado; sem "últimas vagas". Fonte: mensagens-eventos-2026-10-26.md, seção 0 e 5.3; docs/execucao-2026-10-26.md.
 12. Calendário da campanha com "posts de docentes autorizados (até 6)" na semana 2 e pontos de checagem em 03/11, 09/11 e 16/11. Fonte: estrategia-de-campanha-eventos-2026-10-26.md, seções 2 e 4.
 13. 02/11 e 20/11 são feriados nacionais. Fonte: briefing de campanha (legislação federal, fora dos arquivos da squad).
-14. Perfis dos docentes (Instagram e LinkedIn) são canal condicional: só com autorização, e a Ufape não publica no perfil do docente. Fonte: briefing de campanha, seção 1.
+14. Perfis dos docentes (Instagram e LinkedIn) são canal condicional: só com a decisão do docente, e a Ufape não publica no perfil do docente. Fonte: briefing de campanha, seção 1.
 15. Veredito da rodada A: corrigir, itens D1 a D7. Fonte: qa-de-marketing-eventos-2026-10-26-a.md, seção 2.
 
 ## Suposições
 
 1. [SUPOSIÇÃO] Os 6 pontos de vista de partida: são leituras da programação, não opiniões declaradas pelos docentes. Cada um depende de validação.
 2. [SUPOSIÇÃO] Os textos em primeira pessoa traduzem a descrição do bloco, e cada docente vai ajustá-los ao seu jeito de falar.
-3. [SUPOSIÇÃO] O padrão de UTM (utm_source, utm_medium, utm_campaign=neuro-summit-2026, utm_content=docente-<sobrenome>) até a decisão de P15.
-4. [SUPOSIÇÃO] A ordem e as datas de publicação (03/11 a 18/11) e o ritmo de um post por dia útil; semana 2 da campanha como 03 a 09/11.
+3. [SUPOSIÇÃO] utm_source=linkedin para o orgânico do perfil do docente (D11 do cmo lista instagram, facebook e youtube) e utm_content=docente-<sobrenome>.
+4. [SUPOSIÇÃO] Teto provisório D5 do @ufapevet, que fixa só 2 peças de docente no feed; dias dos Stories e do LinkedIn do docente.
 5. [SUPOSIÇÃO] O LinkedIn pessoal do docente é um canal de uso possível (o briefing o trata como condicional) e o link vai no primeiro comentário.
 6. [SUPOSIÇÃO] O tom de colega e a pergunta ao público funcionam bem para o público de anestesia, UTI e neurologia, a validar com o resultado.
 7. [SUPOSIÇÃO] Cada vídeo de 100 a 120 palavras cabe em 60 s no ritmo de fala normal; conferir na gravação.
@@ -609,14 +589,14 @@ Próximo agente sugerido: **distribuicao** (departamento 06, Geração de Demand
 
 ## Dados que faltam
 
-1. [CONFIRMAR autorização do docente] Nome, titulação, imagem e voz de cada um dos 6 docentes, com registro, itens 1 a 4, canais (Instagram e LinkedIn), período e local do registro. Sem isso, as 18 peças seguem bloqueadas.
+1. [CONFIRMAR] Horas do time para trocar o teto provisório D5 do @ufapevet pelo real (U8 do cmo); se subir, mais peças de docente podem voltar ao feed. A autorização de nome, imagem, voz e citação já está registrada (decisões 8 e 10).
 2. [CONFIRMAR] Validação do ponto de vista e aprovação do texto de cada peça com o nome do docente.
 3. [CONFIRMAR com a coordenação] Grade final e distribuição entre docentes, e o tema do Prof. MSc. Yuri Ferreira Vicentini e do Prof. Renan Holczer (ventilação mecânica) na grade.
-4. [CONFIRMAR jurídico da Ufape] Texto final do pedido de autorização, período de uso, remuneração ou cessão, e canal de retirada.
+4. [CONFIRMAR] Collab: se cada docente tem perfil e aceita a coautoria.
 5. [CONFIRMAR NO CATÁLOGO] Carga horária e prazo de acesso à gravação do ingresso transmitido; inclusão de 21/11 e do horário na linha do catálogo.
 6. [CONFIRMAR NO CATÁLOGO] Monitores do sábado, quantidade e participantes por equipamento (por isso não citados).
-7. [CONFIRMAR] Quem na Ufape publica, quem aprova cada tipo de peça (P12) e a ferramenta de medição e padrão de UTM (P15).
+7. [CONFIRMAR] Quem na Ufape publica, quem aprova cada tipo de peça (P12) e a ferramenta de medição (P15; o padrão de UTM foi fixado pelo cmo em D11 e D12).
 8. [CONFIRMAR] Metas numéricas e inscritos atuais (nenhuma peça cita vagas restantes).
 9. [CONFIRMAR] Direito de uso de qualquer ilustração anatômica ou registro de EEG que apareça nas artes.
-10. [CONFIRMAR] Se os 4 convidados "a definir" forem confirmados, abrir ciclo extra de peças e autorizações.
-11. [CONFIRMAR] Se a Ufape quiser Facebook, YouTube ou impulsionamento: peça própria e novo pedido de autorização.
+10. [CONFIRMAR] Se os 4 convidados "a definir" forem confirmados, abrir ciclo extra de peças (a autorização já vale para convidados, decisão 10).
+11. [CONFIRMAR] Se a Ufape quiser YouTube ou impulsionamento: peça própria e aprovação do docente (impulsionamento passa pela auditoria de anúncios).

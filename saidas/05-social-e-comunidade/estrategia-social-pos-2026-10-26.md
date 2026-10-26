@@ -3,13 +3,14 @@
 - **Agente:** estrategia-social (departamento 05, Social e Comunidade), etapa 1.20 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
-- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteA (SP1 obrigatória; SP2 e SP3 aplicadas).
+- **Versão:** versão 3, aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda da seção 12.10: Reel da S3 em 10/11 e slot C da S4 em 18/11; UTM organic_social; teto D1, fila D2, grade D5 e D14). A versão 2 foi corrigida após qa-de-marketing-geral-2026-10-26-loteA (SP1 a SP3) e reconferida sem ajuste no loteB.
 - **Status:** rascunho para o qa-de-marketing (auditoria 05-social, aplicada na seção 11, e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Toda publicação, agendamento, resposta pública em nome da Ufape, envio de WhatsApp e ação em gerenciador de anúncios é ação humana, depois de aprovação.
 - **Entradas lidas:**
   - .claude/agents/estrategia-social.md (instrução deste agente; não cita skill própria)
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (briefing obrigatório)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro; seção 5 é a proposta de canais que este arquivo confirma ou ajusta)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro; seção 5 é a proposta de canais que este arquivo confirma ou ajusta; seção 12, conciliação da camada 1, decisões D1 a D17, lida na versão 3)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (reconferência da versão 2, seção 8; versão 3)
   - contexto/ufape-geral.md
   - contexto/pos-graduacao.md
   - contexto/catalogo-de-cursos.md (cabeçalho, resumo e seção 2; fonte única de dado de curso deste arquivo)
@@ -33,11 +34,11 @@
 ## 0. Resumo para quem decide
 
 1. **Canais da Pós neste trimestre:** 3 ativos (WhatsApp, Instagram e Facebook, este último só reaproveitando o Instagram e como inventário da mídia Meta), 1 em teste condicionado (YouTube Shorts, a partir de 07/12, só se o canal existir e houver quem publique) e 4 fora (LinkedIn orgânico, TikTok, X e podcast). O LinkedIn pago segue como possível teste no bloco 3, decisão do gestor-de-midia em 08/01/2027. Confirma a seção 4 da estrategia-de-marketing (1.9) e ajusta a seção 5 do plano do cmo em dois pontos (YouTube e LinkedIn), explicados na seção 1.4.
-2. **Frequência que dá para manter por 12 semanas:** no perfil @ufapevet, 3 publicações de feed da Pós por semana (1 de oferta e condições, 1 carrossel educativo, 1 Reel), 3 dias de Stories por semana e resposta a comentários e directs em todos os dias úteis. Facebook repete as 3 publicações. WhatsApp e e-mail: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos e Graduação), um canal por dia, mensagens de serviço fora do limite (regra da estrategia-de-relacionamento-pos, 1.26, seção 3.2, item 6, e seção 6.1; aprovação no R6 dela), só para quem deu consentimento. Se a capacidade confirmada for menor, o mínimo é 2 publicações por semana (seção 3.3). A Pós mantém ritmo contínuo, sem picos que o time não sustente.
+2. **Frequência que dá para manter por 12 semanas:** no perfil @ufapevet, 3 publicações de feed da Pós por semana (1 de oferta e condições, 1 carrossel educativo, 1 Reel), 3 dias de Stories por semana e resposta a comentários e directs em todos os dias úteis. Facebook repete as 3 publicações. WhatsApp e e-mail: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos, Graduação e newsletter), no máximo 1 mensagem de campanha por contato por dia em qualquer canal, mensagens de serviço fora do limite (D1 da seção 12 do plano do cmo, que vale para toda a squad; R1 dele), só para quem deu consentimento. Se a capacidade confirmada for menor, o mínimo é 2 publicações por semana (seção 3.3). A Pós mantém ritmo contínuo, sem picos que o time não sustente.
 3. **Pilares sociais:** cinco, ligados aos pilares de conteúdo (1.19) e à campanha das provas: Condições à vista e prova de bolsa; Prática presencial com roteiro; Caso em decisão; Quem ensina; Comunidade da categoria. "Carreira e título" fica bloqueado até o texto oficial de certificação.
 4. **Comunidade:** o foco é conversa, não alcance: responder dúvida real com fato do catálogo e levar a conversa qualificada para o WhatsApp de vendas. Docentes, agora todos autorizados, entram como colegas que respondem e decidem; alunos e ex-alunos só com autorização registrada, que hoje não existe para nenhum aluno [CONFIRMAR]. Nenhuma postagem em grupo de terceiros e nenhum envio sem opt-in.
 5. **Métricas que importam:** conversas qualificadas no direct e no WhatsApp, cliques com UTM para a página da turma ou da prova, salvamentos e compartilhamentos, visitas ao perfil e leads e inscritos por origem informada. Curtidas e seguidores ficam como leitura de apoio. Nenhuma meta numérica antes de 4 semanas de linha de base.
-6. **O que trava:** horas do time [CONFIRMAR]; quem aprova posts orgânicos (tabela vazia em ufape-geral.md) [CONFIRMAR]; existência de canal de YouTube e de página no LinkedIn [CONFIRMAR]; revisor docente nomeado para conteúdo clínico [CONFIRMAR]; grade semanal do @ufapevet entre as quatro linhas (decisão do cmo).
+6. **O que trava:** horas do time [CONFIRMAR]; quem aprova posts orgânicos (tabela vazia em ufape-geral.md) [CONFIRMAR]; existência de canal de YouTube e de página no LinkedIn [CONFIRMAR]; revisor docente nomeado para conteúdo clínico [CONFIRMAR]; horas do time para trocar o teto provisório do @ufapevet decidido pelo cmo (D5: no máximo 10 publicações de feed por semana somando as quatro linhas, 2 por dia em turnos diferentes e 1 por linha por dia) [SUPOSIÇÃO até a resposta U8].
 
 ---
 
@@ -81,7 +82,7 @@ Cada canal foi avaliado em quatro critérios, com nota qualitativa (alta, média
 | YouTube | Ativo leve | Teste leve a partir do bloco 2, condicionado | Ativo leve (Short só no Nível 2; aula aberta em janeiro) | Teste condicionado a partir de 07/12 (S7): 1 Short por semana derivado do Reel; aula aberta só a partir de 04/01/2027 com docente e gravação | Canal não confirmado e nenhuma capacidade de vídeo informada; um Short derivado custa pouco e testa o canal sem prometer constância que o time não tem |
 | LinkedIn | Teste na onda 3 | Fora do orgânico; teste pago só no bloco 3, com recorte (657, 359, 352 e 719) | Teste na onda 3, sem peça em novembro | Fora do orgânico; teste pago a decidir em 08/01/2027 pelo gestor-de-midia, com o recorte da 1.9 | Mesmo motivo da 1.9; o orgânico não entra porque não há página confirmada nem horas para um canal novo |
 | Facebook | Ativo como inventário Meta | Igual | Ativo, só reaproveita | Igual | Sem mudança |
-| WhatsApp | Ativo | Ativo | Ativo, 1 pacote de 2 textos por semana | Ativo, dentro do teto comum da 1.26: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos e Graduação), um canal por dia, mensagens de serviço fora do limite (regra da estrategia-de-relacionamento-pos, 1.26, seção 3.2, item 6, e seção 6.1; aprovação no R6 dela) | A regra é da 1.26 e vale para todas as linhas; a Pós não cria teto próprio. Conteúdo, campanha das provas e kits de turma disputam o mesmo teto |
+| WhatsApp | Ativo | Ativo | Ativo, 1 pacote de 2 textos por semana | Ativo, dentro do teto único D1 do plano do cmo: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas e a newsletter, no máximo 1 mensagem de campanha por contato por dia em qualquer canal, mensagens de serviço fora do limite (aprovação no R1 do cmo) | A regra é a D1 do cmo, aplicada pela 1.26, e vale para todas as linhas; a Pós não cria teto próprio. Conteúdo, campanha das provas e kits de turma disputam o mesmo teto |
 | Instagram | Ativo | Ativo | Ativo, 1 carrossel e 1 Reel por semana | Ativo, 3 publicações de feed da Pós por semana (os 2 da 1.19 mais 1 de oferta) e Stories em 3 dias | Junta a cadência da 1.19 com a da campanha das provas (posts-sociais) num número fixo, para o perfil compartilhado não receber mais posts da Pós do que o time sustenta |
 
 Resultado: 3 ativos, 1 em teste condicionado, 4 fora. A versão final dos canais é do cmo, junto com o gestor-de-midia (1.11), quando a Ufape informar as horas do time.
@@ -131,7 +132,7 @@ Regras que valem para todos os pilares: um conceito por post; uma única chamada
 | Instagram, Stories | 3 dias por semana, sequência de 1 a 3 telas; caixa de perguntas a cada 2 semanas | terça, quinta e sexta, junto com o feed | posts-sociais | Stories do posts-sociais (provas) e da 1.19 |
 | Instagram, comentários e direct | Leitura e resposta em todos os dias úteis, em duas janelas (manhã e fim da tarde) [SUPOSIÇÃO de janela; prazo de resposta [CONFIRMAR]] | segunda a sexta | Ufape (humano), com o roteiro de respostas da seção 6.3 | Este plano |
 | Facebook (/Ufape) | As mesmas 3 publicações, com o link escrito na legenda | mesmos dias | posts-sociais (adaptação) | Reaproveitamento |
-| WhatsApp | Dentro do teto comum da 1.26: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos e Graduação), um canal por dia, mensagens de serviço fora do limite (regra da estrategia-de-relacionamento-pos, 1.26, seção 3.2, item 6, e seção 6.1; aprovação no R6 dela); só com opt-in e saída fácil, em dia útil, das 9h às 18h (proposta da 1.26, R6); atendimento de conversas iniciadas pelo candidato sem limite | dia útil | copy-de-mensagens (texto); CRM e vendas (envio) | 1 pacote semanal da 1.19 e mensagens da campanha e dos kits, dentro do teto comum; a prioridade entre linhas na mesma semana segue a seção 6.4 da 1.26 |
+| WhatsApp | Dentro do teto comum: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos, Graduação e newsletter), no máximo 1 mensagem de campanha por contato por dia em qualquer canal, mensagens de serviço fora do limite (D1 da seção 12 do plano do cmo, que vale para toda a squad; R1 dele); só com opt-in e saída fácil, em dia útil, das 9h às 18h (proposta da 1.26, R6); atendimento de conversas iniciadas pelo candidato sem limite | dia útil | copy-de-mensagens (texto); CRM e vendas (envio) | 1 pacote semanal da 1.19 e mensagens da campanha e dos kits, dentro do teto comum; a prioridade entre linhas na mesma semana segue a fila D2 da seção 12 do plano do cmo |
 | YouTube | De 30/11 a 06/12: nada. A partir de 07/12, se o canal existir: 1 Short por semana, derivado do Reel da semana. A partir de 04/01/2027: 1 aula aberta de até 10 minutos a cada 2 semanas, se houver gravação | sábado (Short) [SUPOSIÇÃO] | youtube | Teste (seção 4.4) |
 | LinkedIn, TikTok, X, podcast | Nada | - | - | Fora (seção 1.3) |
 
@@ -156,7 +157,7 @@ O que nunca sai: a resposta a comentários e directs em dia útil (é onde a con
 | Item | Regra |
 |---|---|
 | Formatos | Carrossel de 3 a 7 cartões (um conceito); Reel de 20 a 60 segundos com texto na tela; imagem única para serviço (véspera, pós-prova, lembrete com data); Stories de 1 a 3 telas com caixa de perguntas ou enquete sem dado pessoal |
-| Link | "Link na bio" com UTM por peça (padrão da squad [CONFIRMAR o arquivo do padrão]); sugestão herdada da 1.19 e da campanha: utm_source=instagram, utm_medium=organico, utm_campaign=provas-de-bolsa-2026-11-27 ou pos-conteudo-<mês>, utm_content=<ID da peça ou área-código> [SUPOSIÇÃO] |
+| Link | "Link na bio" com UTM por peça, no padrão único da squad (D11 e D12 da seção 12 do plano do cmo): utm_source=instagram (facebook no Facebook), utm_medium=organic_social, utm_campaign=<chave do item>_<AAAAMM da publicação> (ex.: pos_provas20261127_202611 na campanha das provas; pos_68608_202611 no kit de uma turma), utm_content=<ID da peça> (ex.: c10, post-7). Peça de conteúdo sem código de turma: pos_conteudo_<AAAAMM> [SUPOSIÇÃO: D12 não lista chave para conteúdo sem código]. Tudo em minúsculas, sem acento e sem dado pessoal |
 | Destino | Só página de turma ou prova com status "aberto" e sem pendência aberta (P2 a P7 do plano do cmo). Página com pendência: o post sai sem link de compra ou fica marcado BLOQUEADO até a correção |
 | Preço | Quando aparecer, sempre com número de parcelas, valor da parcela, total e matrícula. Exemplo do catálogo: Pós-graduação em Dermatologia Veterinária (68610, São Paulo, semipresencial, início em 28/11/2026, 500 h): 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
 | Prova de bolsa | Sempre a distribuição completa das 11 bolsas (2 de 50% com monitoria, 4 de 25%, 5 de 10%) e a nota de corte 7,0; inscrição de R$ 100,00; 27/11/2026 (contexto da linha e catálogo, seção 3). Nunca o percentual maior sozinho |
@@ -173,7 +174,7 @@ Mesmas peças do Instagram, publicadas no mesmo dia ou no seguinte, com o link e
 | Item | Regra |
 |---|---|
 | Quem recebe | Só quem deu consentimento para receber mensagens de marketing, com forma fácil de sair em toda mensagem. Ninguém de lista comprada ou de grupo sem opt-in (estrategia-de-campanha-pos) |
-| Teto | O da estrategia-de-relacionamento-pos (1.26), dona da cadência: no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos e Graduação), um canal por dia, mensagens de serviço fora do limite (regra da estrategia-de-relacionamento-pos, 1.26, seção 3.2, item 6, e seção 6.1; aprovação no R6 dela). Conteúdo (1.19), campanha das provas e kits de turma da Pós entram nesse mesmo teto, junto com as réguas de Livres, Eventos e Graduação. Choques de calendário seguem a prioridade da seção 6.4 da 1.26 |
+| Teto | O teto único D1 do plano do cmo, aplicado pela estrategia-de-relacionamento-pos (1.26): no máximo 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas (Pós, Livres, Eventos, Graduação e newsletter), no máximo 1 mensagem de campanha por contato por dia em qualquer canal, mensagens de serviço fora do limite (D1 da seção 12 do plano do cmo, que vale para toda a squad; R1 dele). Conteúdo (1.19), campanha das provas e kits de turma da Pós entram nesse mesmo teto, junto com as réguas de Livres, Eventos e Graduação. Choques de calendário seguem a fila D2 da seção 12 do plano do cmo |
 | Horário | Dia útil e horário comercial; sábado, domingo e feriado nacional sem mensagem de marketing (lição da revisão eventos-b, C2 e C8) |
 | Atendimento | Conversa iniciada pelo candidato é atendimento, sem teto. Resposta com fato do catálogo e, para regras da prova, só o que está confirmado. Dúvida de certificação vai para a secretaria |
 | Registro | Origem da conversa registrada no CRM por turma ou prova (código do catálogo), sem copiar dado pessoal para a squad [CONFIRMAR o campo no CRM] |
@@ -202,10 +203,10 @@ Numeração de semanas igual à da estrategia-de-marketing (1.9). Atenção: a 1
 | Semana | Datas | Slot A (oferta e condições) | Slot B (carrossel educativo) | Slot C (Reel) | Stories | YouTube | Observação |
 |---|---|---|---|---|---|---|---|
 | S1 | 27/10 a 01/11 | Post 1 (27/10, anúncio das provas) e Post 3 (30/10, por área) do posts-sociais | Post 2 (29/10, como funciona a prova) | - | Stories dos Posts 1 e 2 | - | Semana de subida da campanha: o slot C vira o segundo post de oferta. Depende da aprovação do briefing da campanha |
-| S2 | 02/11 a 08/11 | Post 4 (03/11, o que a bolsa cobre) e Post 6 (06/11, lembrete com data) | C02 da 1.19 não sai: repete o Post 1 e o Post 4 (nota N1 da seção 12) | Post 5 (04/11, passo a passo, Reel) | Stories dos Posts 5 e 6 | - | 02/11 é feriado; 08/11 é Enem (sem feed da Pós). C04 (Reel "fim de semana de módulo") passa para a S3 |
-| S3 | 09/11 a 15/11 | Post 7 (12/11, Goiânia também tem prova) | C10 (12/11 ou 13/11, 7 critérios para comparar uma pós) | C04 ou C11 (Reel do cronograma de Dermatologia, P2) | S1 do posts-sociais: caixa de perguntas (10 e 11/11) | - | 15/11 é Enem e domingo: sem feed da Pós |
-| S4 | 16/11 a 22/11 | Post de turma 68608 ou 68610 (kit; preço completo do catálogo), sem chamada de compra direta: a 1ª mensalidade venceu em 29/10 (30 dias antes de 28/11, contexto da linha), então o texto termina em "fale com o time para saber como entrar na turma" (regra 3 da estrategia-de-oferta, como na 1.26, P2); conferir no dia que a turma segue "aberto" no catálogo | C17 (caso em decisão) se houver revisor; plano B: C11 reeditado | Reel de docente da área de 68608 ou 68610 (pilar S4) | 1 dia de Stories (18/11) | - | 20 e 21/11: sem feed da Pós (Workshop e feriado); nada de neuro, anestesia ou UTI nesta semana (1.19) |
-| S5 | 23/11 a 29/11 | Post 8 (23/11, semana da prova) e Post 9 (26/11, véspera) | C23 da 1.19 não sai: repete o Post 9 (nota N1) | C27 (28 e 29/11, primeiro módulo das turmas que começaram), só com o que a ficha diz | Stories de 24, 25 e 27/11 (S2 do posts-sociais, dia da prova) | - | Nada de "Black Friday" em peça da Pós. 698 sem data até o site ser corrigido |
+| S2 | 02/11 a 08/11 | Post 4 (03/11, o que a bolsa cobre) e Post 6 (06/11, lembrete com data) | C02 da 1.19 sai do calendário (D14 do plano do cmo): repete o Post 1 e o Post 4 | Post 5 (04/11, passo a passo, Reel) | Stories dos Posts 5 e 6 | - | 02/11 é feriado; 08/11 é Enem (sem feed da Pós). C04 (Reel "fim de semana de módulo") passa para a S3 |
+| S3 | 09/11 a 15/11 | Post 7 (12/11, Goiânia também tem prova) | C10 (12/11 ou 13/11, 7 critérios para comparar uma pós) | C04 ou C11 (Reel do cronograma de Dermatologia, P2), em ter 10/11 (N3 da 1.20 de Eventos, aceito pelo cmo em 12.3) | S1 do posts-sociais: caixa de perguntas (10 e 11/11) | - | 15/11 é Enem e domingo: sem feed da Pós |
+| S4 | 16/11 a 22/11 | Post de turma 68608 ou 68610 (kit; preço completo do catálogo), sem chamada de compra direta: a 1ª mensalidade venceu em 29/10 (30 dias antes de 28/11, contexto da linha), então o texto termina em "fale com o time para saber como entrar na turma" (regra 3 da estrategia-de-oferta, como na 1.26, P2); conferir no dia que a turma segue "aberto" no catálogo | C17 (caso em decisão) se houver revisor; plano B: C11 reeditado | Reel de docente da área de 68608 ou 68610 (pilar S4), em qua 18/11 (N3 da 1.20 de Eventos, aceito pelo cmo em 12.3) | 1 dia de Stories (18/11) | - | 20 e 21/11: sem feed da Pós (Workshop e feriado); nada de neuro, anestesia ou UTI nesta semana (1.19) |
+| S5 | 23/11 a 29/11 | Post 8 (23/11, semana da prova) e Post 9 (26/11, véspera) | C23 da 1.19 sai do calendário (D14 do plano do cmo): repete o Post 9 | C27 (28 e 29/11, primeiro módulo das turmas que começaram), só com o que a ficha diz | Stories de 24, 25 e 27/11 (S2 do posts-sociais, dia da prova) | - | Nada de "Black Friday" em peça da Pós. 698 sem data até o site ser corrigido |
 | S6 | 30/11 a 06/12 | Post 10 (30/11, pós-prova), só com regras confirmadas | Carrossel "como funciona uma pós semipresencial, mês a mês" (derivado de C03) | Reel "o que fazer depois do resultado" (só com datas confirmadas); se não houver, Reel P2 evergreen | 3 dias; caixa de perguntas sobre turmas de março | - | Início do pré-lançamento de março (kit lote 1: 289, 68615, 333) |
 | S7 | 07/12 a 13/12 | Post do kit de março, lote 1 (289, Goiânia) | Guia A1 em carrossel ("Anestesiologia, Anestesiologia Avançada e Anestesiologia Locorregional: qual escolher") | Reel de docente da Pós-graduação em Anestesiologia Avançada (pilar S4) | 3 dias | Início do teste: Short do Reel | 657 só com o pré-requisito escrito [CONFIRMAR] |
 | S8 | 14/12 a 20/12 | Post do kit de março, lote 1 (68615 ou 333) | Carrossel "Cardiologia, ecocardiografia ou curso hands-on: por onde começar" (A2) | Reel de cronograma de uma turma de março (P2) | 3 dias | Short | Produzir aqui as 6 peças evergreen das semanas S9 e S10 |
@@ -299,11 +300,11 @@ A grafia da titulação (por exemplo "ESP.", "DRA.", "Msc.") é a da ficha. Padr
 | posts-sociais (próximo agente) | Cadência fixa de 3 slots de feed e 3 dias de Stories; mapeamento dos posts da campanha das provas nos slots (seção 5); pilares S1 a S5 no lugar dos pilares provisórios; remoção da marca [SUPOSIÇÃO] da cadência no arquivo dele quando aprovado | Próxima rodada |
 | criador-de-ganchos (2.3) | Pilares S1 a S5 por área, para ganchos que o conteúdo cumpre | Camada 2 |
 | autoridade-docente (2.5 e 3) | Tabela 6.4; formato "uma pergunta, uma resposta"; regra de nome e titulação da ficha | Camada 2, a partir das áreas de março |
-| copy-de-mensagens e estrategia-de-relacionamento (1.26) | Nenhum teto novo: este arquivo adota o teto da 1.26 (2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, um canal por dia, serviço fora) e a janela de dia útil das 9h às 18h, ambos a aprovar no R6 da 1.26 | 1.26 |
+| copy-de-mensagens e estrategia-de-relacionamento (1.26) | Nenhum teto novo: este arquivo adota o teto da 1.26 (D1 do cmo: 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, 1 mensagem de campanha por dia em qualquer canal, serviço fora) e a janela de dia útil das 9h às 18h, a aprovar no R1 do cmo; prioridade pela fila D2 | 1.26 |
 | youtube, podcast, x, tiktok | Encomendas da seção 1.5 | 1.21, 1.22 e camada 3 |
 | gestor-de-midia | Decisão do LinkedIn pago em 08/01/2027; remarketing de quem engajou com o Instagram (já previsto na campanha das provas) | Bloco 3 |
 | distribuicao (1.24) e crescimento-de-audiencia (1.25) | Canais ativos e fora, frequência e regras de comunidade | 1.24 e 1.25 |
-| cmo | Grade semanal do @ufapevet entre as quatro linhas; versão final dos canais com a 1.11 | Revisão de 03/11 |
+| cmo | Grade semanal do @ufapevet decidida em D5 (teto provisório); troca pelo teto real quando as horas chegarem (U8); versão final dos canais com a 1.11 | Revisão de 03/11 (D15: 02/11 é feriado) |
 
 ---
 
@@ -318,7 +319,7 @@ Nenhuma meta numérica: não há número de seguidores, alcance, leads ou matrí
 | SM3 | Cliques para a página do curso ou da prova | Toques no link com UTM da peça, por peça e por pilar | Insights do Instagram, encurtador ou ferramenta de análise [CONFIRMAR ferramenta] | semanal | Mede se a peça leva à página |
 | SM4 | Salvamentos e compartilhamentos por publicação | Soma de salvamentos e compartilhamentos dividida pelo número de publicações, por pilar | Insights nativos | semanal | Indica conteúdo útil, que o colega guarda ou encaminha |
 | SM5 | Visitas ao perfil | Visitas ao perfil na semana, lidas junto com as publicações da Pós da semana | Insights nativos | semanal | Indica interesse, mas mistura as quatro linhas no perfil compartilhado: leitura de apoio |
-| SM6 | Leads gerados pela rede social | Leads novos com utm_source instagram ou facebook e utm_medium organico, por turma | CRM, formulário do site [CONFIRMAR] | semanal | Resultado de antecipação ligado à meta da linha |
+| SM6 | Leads gerados pela rede social | Leads novos com utm_source instagram ou facebook e utm_medium organic_social, por turma | CRM, formulário do site [CONFIRMAR] | semanal | Resultado de antecipação ligado à meta da linha |
 | SM7 | Inscritos na prova por origem informada | Inscritos que responderam "Instagram" ou "Facebook" na pergunta de origem, por prova | Formulário da prova [CONFIRMAR se a pergunta existe] | semanal até o fim do prazo de matrícula com bolsa | Liga o orgânico à campanha das provas |
 | SM8 | Perguntas novas por semana | Dúvidas diferentes registradas em comentários, directs e caixas de perguntas | Leitura humana | semanal | Alimenta o FAQ, os posts "vocês perguntaram" e a voz real da persona |
 | SM9 | Constância | Publicações feitas dividido pelas publicações planejadas (3 por semana no feed, 3 dias de Stories) | Planilha de medição | semanal | Mede se a frequência cabe na capacidade; abaixo do planejado por 2 semanas, aplica-se a ordem de corte da seção 3.3 |
@@ -340,7 +341,7 @@ Revisão: toda segunda-feira, junto com a revisão do cmo (03/11, por causa do f
 | ES4 | Nomear quem aprova posts orgânicos (tabela vazia em ufape-geral.md) | Até lá toda aprovação vai à pessoa do marketing (P12 do cmo) | - | Aprovação sem gargalo | Trocar o nome na tabela |
 | ES5 | Confirmar se existem canal de YouTube e página no LinkedIn da Ufape, e quem publica | Condição do teste do YouTube e da reavaliação do LinkedIn | - | Teste do YouTube começa em 07/12 | Cancelar o teste |
 | ES6 | Nomear o revisor docente e o prazo de revisão para o pilar S3 | Conteúdo clínico só publica com revisão | - | Libera caso em decisão a partir da S4 ou da S11 | Pilar S3 suspenso, com o plano B da 1.19 |
-| ES7 | Sem pedido próprio: o teto de mensagens é o do pedido R6 da estrategia-de-relacionamento-pos (2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, um canal por dia, serviço fora; WhatsApp em dia útil, das 9h às 18h). Esta estratégia segue o que for aprovado no R6 | Uma regra só para todas as linhas | Sem custo | Ritmo previsível para quem recebe | Mudar o limite no CRM, pelo R6 da 1.26 |
+| ES7 | Sem pedido próprio: o teto de mensagens é o D1 do cmo, levado à Ufape no R1 dele (2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, 1 mensagem de campanha por dia em qualquer canal, serviço fora; WhatsApp em dia útil, das 9h às 18h). Esta estratégia segue o que for aprovado no R1 | Uma regra só para todas as linhas | Sem custo | Ritmo previsível para quem recebe | Mudar o limite no CRM, pelo R1 do cmo |
 | ES8 | Definir a grade semanal do @ufapevet entre Graduação, Pós, Livres e Eventos | Perfil compartilhado [SUPOSIÇÃO] | - | Linhas sem se atropelar no feed | Ajustar a grade |
 | ES9 | Registrar autorizações de imagem de alunos que queiram aparecer em bastidores | Hoje não há autorização de aluno registrada | - | Libera bastidor com pessoas (C27 e similares) | Retirar a peça e a autorização a pedido do aluno |
 
@@ -381,8 +382,8 @@ Aplicada por este agente. A conferência final é do qa-de-marketing. Este arqui
 
 ## 12. Notas para outros arquivos (não editados aqui)
 
-- **N1. Duplicidade entre a 1.19 e o posts-sociais-pos.** C02 da 1.19 (carrossel "as 11 bolsas", 04/11) repete o Post 1 (27/10) e o Post 4 (03/11) do posts-sociais; C23 (carrossel de véspera, 25/11) repete o Post 9 (26/11). Proposta: C02 e C23 saem do calendário social; os slots ficam com os posts da campanha (seção 5). Pedido à estrategia-de-conteudo e ao posts-sociais.
-- **N2. Autorização de docentes.** A 1.19 (pilares P1 e P5, peças C17 e C27, seção 7.3) ainda marca docentes com [CONFIRMAR autorização]. Pela decisão 8 do briefing, a autorização de imagem e de citação está registrada para todos os docentes. Continua pendente o nome do revisor docente para conteúdo clínico e a autorização de alunos. Pedido à estrategia-de-conteudo para atualizar na próxima versão.
+- **N1. Duplicidade entre a 1.19 e o posts-sociais-pos.** Fechada pelo cmo (D14): C02 e C23 saem do calendário da 1.19; os slots ficam com os posts da campanha (seção 5).
+- **N2. Autorização de docentes.** A 1.19 (pilares P1 e P5, peças C17 e C27, seção 7.3) ainda marca docentes com [CONFIRMAR autorização]. Pela decisão 8 do briefing, a autorização de imagem e de citação está registrada para todos os docentes. Fechada pelo cmo (D14, decisões 8 e 10): as marcas saem da 1.19. Continua pendente o nome do revisor docente para conteúdo clínico e a autorização de alunos.
 - **N3. Cadência do posts-sociais-pos.** A cadência que o posts-sociais marcou como [SUPOSIÇÃO] cabe nos slots desta estratégia (seção 5); ao ser aprovada, a marca pode sair no arquivo dele.
 - **N4. Numeração de semanas.** A 1.9 conta a S1 a partir de 27/10 e a 1.19 a partir de 02/11. Este arquivo segue a 1.9. Sugestão ao cmo: padronizar no mapa mental.
 
@@ -391,6 +392,12 @@ Aplicada por este agente. A conferência final é do qa-de-marketing. Este arqui
 ## 13. Próximo passo
 
 Depois da aprovação de ES1 e ES2: rodar o **posts-sociais** para ajustar o lote das provas aos slots da seção 5 e produzir os posts das turmas de 28/11 (68608 e 68610) da S4; em paralelo, o youtube (1.21) confirma o canal e o teste.
+
+---
+
+## Mudanças desta versão
+
+- Versão 3 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa. Reel da Pós de S3 em ter 10/11 e slot C de S4 em qua 18/11 (N3 aceito em 12.3); UTM no padrão D11 e D12 (utm_medium=organic_social; utm_campaign com a chave do item); teto de mensagens citado como D1 do cmo (1 por dia em qualquer canal) e prioridade pela fila D2; grade do @ufapevet citada como D5 (provisória); C02 e C23 fora e marcas de autorização fechadas (D14); revisão do cmo em 03/11 (D15); turma mínima de 15 nas listas. O qa não tinha ajuste pendente para este arquivo (loteB, seção 8).
 
 ---
 
@@ -410,6 +417,8 @@ Depois da aprovação de ES1 e ES2: rodar o **posts-sociais** para ajustar o lot
 - Enem em 08 e 15/11; Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026, com 20/11 feriado (estrategia-de-conteudo-pos; estrategia-de-marketing-pos, seção 5.1).
 - O CRMV-SP mantém perfis em Facebook, Instagram, X, YouTube e LinkedIn; não há dado de uso por veterinário (pesquisa-de-persona-pos, S-P4).
 - Nenhum vídeo de prova pronto até 03/11; YouTube, TikTok e LinkedIn fora da campanha das provas (gestor-de-midia-geral, seção 3.2).
+- Decisões do cmo de 26/10/2026 aplicadas na versão 3: teto D1 e fila D2; grade provisória D5 do @ufapevet; Reel da Pós de S3 em 10/11 e slot C de S4 em 18/11 (N3 aceito, 12.3); UTM D11 e D12; C02 e C23 fora (D14); revisão semanal em 03/11 (D15) (cmo-geral-2026-10-26.md, seção 12).
+- Turma mínima de 15 alunos também nas turmas de Pós (docs/execucao-2026-10-26.md, decisão 11).
 
 ## Lista 2. Suposições ([SUPOSIÇÃO])
 
@@ -418,7 +427,9 @@ Depois da aprovação de ES1 e ES2: rodar o **posts-sociais** para ajustar o lot
 - [SUPOSIÇÃO] O @ufapevet é um perfil único para as quatro linhas.
 - [SUPOSIÇÃO] Mistura de pilares (cerca de 40%, 25%, 13%, 15% e 5%) nas 39 publicações de feed.
 - [SUPOSIÇÃO] Dias sugeridos de publicação (terça, quinta, sexta; Short no sábado).
-- [SUPOSIÇÃO, da 1.26] Teto de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, um canal por dia (estrategia-de-relacionamento-pos, a confirmar no R6).
+- [SUPOSIÇÃO, D1 do cmo] Teto de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, e 1 mensagem de campanha por contato por dia (a confirmar no R1 do cmo).
+- [SUPOSIÇÃO, D5 do cmo] Teto do @ufapevet de 10 publicações de feed por semana, 2 por dia e 1 por linha por dia, até a Ufape informar as horas do time.
+- [SUPOSIÇÃO] Chave pos_conteudo para peça de conteúdo sem código de turma (D12 não a lista).
 - [SUPOSIÇÃO] Esforço adicional de 5 a 8 h por semana para social e 3 h por semana de gestão de comentários e directs.
 - [SUPOSIÇÃO] Janelas de resposta (manhã e fim da tarde) em dia útil.
 - [SUPOSIÇÃO] Docentes aceitam responder comentários técnicos e fazer coautoria.
@@ -434,9 +445,9 @@ Depois da aprovação de ES1 e ES2: rodar o **posts-sociais** para ajustar o lot
 - [CONFIRMAR] Qual docente representa a turma 68610 e o corpo docente completo de 333 (coordenação "UFAPE" nas duas fichas).
 - [CONFIRMAR] Padronização da grafia da titulação dos docentes nas peças.
 - [CONFIRMAR] Autorização de imagem de alunos (nenhuma registrada hoje); termo do tutor na Ufape Clínica.
-- [CONFIRMAR] Campo de origem no CRM, pergunta de origem no formulário da prova, padrão de UTM da squad e ferramenta de análise.
+- [CONFIRMAR] Campo de origem no CRM, pergunta de origem no formulário da prova e ferramenta de análise (o padrão de UTM foi fixado pelo cmo em D11 e D12).
 - [CONFIRMAR] Base com consentimento para WhatsApp e e-mail; se o WhatsApp voltou a funcionar normalmente.
-- [CONFIRMAR] Regras da prova em contradição nas fichas (canal do resultado, prazo de matrícula, turma mínima de 15 ou 20) e turma de destino de cada prova.
+- [CONFIRMAR] Regras da prova em contradição dentro das fichas (canal do resultado e prazo de matrícula, U1 do cmo) e turma de destino de cada prova (U4). A turma mínima é de 15 alunos (decisão 11).
 - [CONFIRMAR] Correção da data de 698 no site; correção dos links das provas de Cardiologia (68641 e 68642).
 - [CONFIRMAR] Pré-requisito de 657; regra e validade da promoção de 341.
 - [CONFIRMAR] Uso de hashtags pela conta; perfil próprio da Graduação ou da unidade de Goiânia.

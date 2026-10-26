@@ -4,6 +4,7 @@
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.12 da camada 1 do plano do cmo (diagnostico-de-midia nas campanhas ativas e pausadas)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para as análises de mídia: tabela de correspondência entre nomes antigos e o padrão D12, datas de 68662 e 662 pela planilha e leitura de leilão de NE1 e NE4; ajustes AM1 e AM2 do qa-de-marketing-geral-2026-10-26-loteB). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o gestor-de-midia, para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Natureza:** não existe nenhum número de desempenho nas fontes (gasto, impressões, cliques, CPM, CTR, CPL, leads, matrículas, custo por matrícula). A exportação pedida no memorando do gestor (seção 7.1) ainda não chegou. Por isso este diagnóstico é estrutural: cruza o que a visão de campanhas mostra (campanha, status, início, formatos, ângulos) com o catálogo (status da turma, página de destino, data e link) e escreve, antes dos números, o roteiro exato de leitura (métricas, cortes, limiares e a decisão que cada resultado dispara). Todo número de desempenho aparece como [DADO NÃO FORNECIDO] ou [CONFIRMAR]. Nenhuma métrica foi inventada.
 - **Entradas lidas:**
@@ -23,10 +24,11 @@
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analise-de-campanha-pos-2026-10-26.md (1.32)
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md (1.10)
   - /home/user/marketing-ufape/auditorias/11-midia-paga.md
+  - Versão 2: /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12); /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (AM1 e AM2); /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-eventos-2026-10-26.md (NE1, NE4 e EA3)
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web. Nenhuma exportação de plataforma ou de CRM recebida.
 - **Dados pessoais:** nenhum lido nem citado. Nenhum docente, aluno, candidato ou lead aparece aqui.
 - **Marcadores:** [DADO NÃO FORNECIDO] é número de desempenho que só a exportação traz. [CONFIRMAR] é fato que a Ufape precisa informar. [SUPOSIÇÃO] é hipótese deste agente, com a origem. "Regra prática" é regra de método da skill, não meta.
-- **Nomes:** os cursos aparecem no padrão "Pós-graduação em <área>" (contexto da linha). Em 706, 341, 333 e 68629 o catálogo grafa "Pós Graduação"; o código identifica a turma.
+- **Nomes:** os cursos aparecem no padrão "Pós-graduação em <área>" (contexto da linha). Grafias do catálogo diferentes do padrão: "Pós Graduação" em 706, 341, 333 e 68629; "Pós-graduação Cirurgia Cardiorrespiratória", sem "em", em 659; "Pós-Graduação Inteligência Artificial na Saúde" em 719. O código identifica a turma.
 
 ---
 
@@ -55,7 +57,7 @@ As metas da Pós existem como fórmula no plano 1.11 (seção 2), sem valor em r
 | Frente | Meta (fonte) | Valor da meta | Realizado |
 |---|---|---|---|
 | 6 turmas iniciadas com campanha ativa | sem meta: decisão por elegibilidade (memorando, D1) | não se aplica | gasto acumulado e da última semana [DADO NÃO FORNECIDO] |
-| Reta final (707, 68604, 68606, 698, 68608, 68610) | matrículas até a turma mínima de 20 (contexto da linha) e custo por matrícula máximo (memorando, 7.3) | [CONFIRMAR] | matrículas, leads, gasto [DADO NÃO FORNECIDO] |
+| Reta final (707, 68604, 68606, 698, 68608, 68610) | matrículas até a turma mínima de 15 (decisão 11 da Ufape) e custo por matrícula máximo (memorando, 7.3) | [CONFIRMAR] | matrículas, leads, gasto [DADO NÃO FORNECIDO] |
 | Ativas fora da onda 1 (289, 662) | CPLmax e CMmax do cenário conservador (1.11, seção 2.3) | [CONFIRMAR]; conta pronta por ponto de conversão em 1.11, seção 2.4 | [DADO NÃO FORNECIDO] |
 | Pausadas em turma futura (12) | mesma regra, só para leitura do histórico antes da pausa | [CONFIRMAR] | histórico [DADO NÃO FORNECIDO] |
 | Provas de bolsa de 27/11/2026 | custo por inscrito máximo (1.11, fórmula 8) | [CONFIRMAR] | campanha ainda não existe |
@@ -165,7 +167,7 @@ A skill lê o funil de cima para baixo com números. Sem números, o que dá par
 
 | # | Achado | Evidência | Fato ou hipótese | O que muda |
 |---|---|---|---|---|
-| N1 | As datas de 68662 e 662 aparecem cruzadas entre planilha e site: Odontologia está em 15/08/2026 na planilha e em 24/04/2027 no site; Ortopedia está em 24/04/2027 na planilha e em 15/08/2026 no site. O catálogo ainda tem a 678 (Odontologia, turma IV, 15/08/2026, só no site) | auditoria do catálogo de 26/10, seção 3; catálogo, linhas 678, 68662 e 662 | o cruzamento das datas é fato; a causa é [SUPOSIÇÃO: as datas das duas linhas da planilha podem estar trocadas entre si, e a auditoria trata os dois casos separados] | Se a suposição valer: (a) a campanha ativa de Odontologia pode estar vendendo uma turma futura (V, 24/04/2027), e a prova 68655 de Odontologia ganharia um destino; (b) a campanha ativa de Ortopedia pode estar vendendo uma turma que começou em 15/08/2026. A pausa D1 de 68662 continua certa (falha fechada), mas a URL dos anúncios das duas deve ser conferida no mesmo dia e a Ufape deve confirmar as duas datas juntas (ação A2, seção 9) |
+| N1 | As datas de 68662 e 662 aparecem cruzadas entre planilha e site: Odontologia está em 15/08/2026 na planilha e em 24/04/2027 no site; Ortopedia está em 24/04/2027 na planilha e em 15/08/2026 no site. O catálogo ainda tem a 678 (Odontologia, turma IV, 15/08/2026, só no site) | auditoria do catálogo de 26/10, seção 3; catálogo, linhas 678, 68662 e 662 | **fechado na versão 2 pela decisão 12 da Ufape:** valem as datas da planilha, 68662 em 15/08/2026 e 662 em 24/04/2027; a suposição de datas trocadas na planilha sai | 68662 é turma iniciada, segue "verificar" e em pausa (D1, pedido A4 do cmo). 662 começa em 24/04/2027; a página dela mostra a turma de 15/08/2026 (link trocado): a URL dos anúncios é conferida em 28/10 e, se levar à página errada, vai o pedido de pausa (PP5; R5 do cmo). A prova 68655 de Odontologia continua sem turma de destino (U4 do cmo) |
 | N2 | Na reta final de 707, 68604 e 68606, a data de 30 dias antes do início já passou (30/09, 01/10 e 08/10/2026) | contexto da linha; conta da seção 3.2 | a conta é fato; se essa data é prazo de matrícula é [CONFIRMAR] | Se for prazo e a Ufape não aceitar matrícula depois dele, as pausas de D9 (30/10, 31/10 e 07/11) estão atrasadas e devem ser antecipadas (ação A3) |
 | N3 | Em 698, 68608 e 68610, a mesma data cai em 29/10/2026 | mesma conta | idem | Se for prazo, a reta final dessas três termina em 29/10 e D18 (pausa em 28/11) precisa ser revista |
 | N4 | 12 de 14 ativas levam a página com a frase de certificação ligada ao MEC; nas pausadas, 17 de 18 (a exceção é 352) | auditoria do catálogo, seção 9 | fato | Reforça o pedido A7 do cmo. Na leitura, toda campanha com destino nessas páginas é marcada "página com pendência de conformidade" |
@@ -216,7 +218,7 @@ Prazo: 2 dias úteis depois de receber a exportação (encomenda do gestor, 1.11
 | G1 | Exportação sem dado pessoal | só contagens e somas | devolver; não abrir |
 | G2 | Campos mínimos do memorando (seção 7.1) | campanha, status, data da última mudança, objetivo, evento de otimização, gasto e orçamento por semana, impressões, alcance, frequência, cliques no link, CTR, CPC, CPM, leads, inícios de checkout, compras, URL de destino, formato e ângulo por anúncio, parcela de impressões perdida (Google) | ler só o que existe e marcar o resto [DADO NÃO FORNECIDO] |
 | G3 | Janela e granularidade | uma linha por campanha (e por anúncio) e por semana, de 01/08/2026 até a data da exportação | se vier só acumulado, não há leitura de tendência nem de fadiga; pedir de novo |
-| G4 | Ligação com a turma | código do catálogo no nome ou no utm_campaign | campanha sem código vai para "não atribuída"; pedido PP4 do 1.11 |
+| G4 | Ligação com a turma | chave <linha>_<código> no nome ou no utm_campaign (D12 do cmo); nas campanhas já no ar, que não são renomeadas, pela tabela de correspondência da seção 8.7 | campanha sem chave e fora da tabela vai para "não atribuída"; pedido PP4 do 1.11 |
 | G5 | Contexto do período | o que mudou no período (verba, criativo, página, oferta, pausa, data da entrada da data errada em 698) | sem isso, mudança de resultado não tem causa atribuível; registrar como hipótese |
 | G6 | Conciliação | leads do gerenciador contra leads do CRM pelo código | diferença acima da tolerância [CONFIRMAR]: decisão INVESTIGAR |
 
@@ -245,9 +247,9 @@ Decisões possíveis por item (skill, passo 5): ESCALAR (abaixo da meta com volu
 | Grupo | Itens | O que ler | Para que serve a leitura | Decisão possível |
 |---|---|---|---|---|
 | Turmas iniciadas com campanha ativa | 650, 68662, 706, 586, 554, 68612 | gasto dos últimos 7 dias e acumulado desde o início da turma; leads e compras depois do início; URL de destino de cada anúncio | registro da pausa D1 e valor da verba liberada (D11); nenhuma leitura de desempenho | só a pausa (D1) ou, com E1 e E2 confirmados por escrito, reativação |
-| Reta final curta | 707 (30/10), 68604 (31/10), 68606 (07/11) | matrículas pagas contra a turma mínima de 20; leads da última semana; frequência e CTR (68606, por D20) | revisão pós-campanha (1.32, seção 3.3) e linha de base da área | MANTER sem mudanças até a pausa (D9); em 68606, uma troca de anúncio por fadiga até 03/11 |
-| Reta final de 28/11 | 698, 68608, 68610 | as mesmas, mais: anúncios que citam data ou "2027" (698) e anúncios que citam bolsa (as três começam um dia depois das provas 68646 e 68651 e não podem prometer bolsa, memorando 5.1, regra 4) | ajuste ainda cabe (33 dias), se a data de 29/10 não for prazo | 698 por D2; 68608 e 68610: MANTER, e AJUSTAR por um elo só se o número mostrar; vídeo para 68610 (D18) |
-| Ativas de longo prazo | 289, 662 | ritmo de gasto acumulado contra os dias até o início; frequência; leads qualificados no CRM; praça GO no público de 289; URL de 662 | evitar gasto cedo demais e saturação; 662 depende do destino | 289: MANTER sem aumento (PP9); se o gasto crescer sem lead qualificado, INVESTIGAR antes de mexer. 662: conferir URL; se abrir turma ou data diferente da planilha, PAUSAR os anúncios afetados (PP5) |
+| Reta final curta | 707 (30/10), 68604 (31/10), 68606 (07/11) | matrículas pagas contra a turma mínima de 15; leads da última semana; frequência e CTR (68606, por D20) | revisão pós-campanha (1.32, seção 3.3) e linha de base da área | MANTER sem mudanças até a pausa (D9); em 68606, uma troca de anúncio por fadiga até 03/11 |
+| Reta final de 28/11 | 698, 68608, 68610 | as mesmas, mais: anúncios que citam data ou "2027" (698) e anúncios que citam bolsa (as três começam um dia depois das provas; 68610 e 68608 têm as provas da área, 68646 e 68651, e a 698 tem as de Cardiologia, 68641 e 68642; nenhuma pode prometer bolsa, memorando 5.1, regra 4) | ajuste ainda cabe (33 dias), se a data de 29/10 não for prazo | 698 por D2; 68608 e 68610: MANTER, e AJUSTAR por um elo só se o número mostrar; vídeo para 68610 (D18) |
+| Ativas de longo prazo | 289, 662 | ritmo de gasto acumulado contra os dias até o início; frequência; leads qualificados no CRM; praça GO no público de 289; URL de 662 | evitar gasto cedo demais e saturação; 662 depende do destino | 289: MANTER sem aumento, com o gasto até 06/12 contado na parte dela em P3 (PP9; EM9 do cmo); se o gasto crescer sem lead qualificado, INVESTIGAR antes de mexer. 662: diária fora de VN até o lote 2 (EM9); conferir URL em 28/10; se abrir turma ou data diferente da planilha (24/04/2027), PAUSAR os anúncios afetados (PP5; R5 do cmo) |
 | Histórico das pausadas prioritárias | 657, 68615, 366, 68617 (e 341, 333 para março) | data e motivo da pausa; gasto, leads e CPL do período ativo; frequência no momento da pausa; melhor anúncio por CTR e CPL | linha de base para a reativação (PP6, PP7, PP11) e escolha de qual criativo volta primeiro | nenhuma decisão de desempenho; só a ordem de reativação sugerida ao gestor |
 | Histórico das pausadas em turma iniciada | 653, 665, 666, 68605, 659, 68607 | os mesmos campos | linha de base por área (68605 para 289; 666 para 68623; 68607 e 586 para 657 e 68609) | manter pausadas |
 
@@ -262,7 +264,7 @@ Decisões possíveis por item (skill, passo 5): ESCALAR (abaixo da meta com volu
 - Custo por matrícula = gasto / matrículas da turma com a origem da campanha
 - c mínima = CPL / CMmax da turma (1.11, fórmula 7)
 - Gasto mínimo para julgar um anúncio = 1,5 x CPLmax (regra prática)
-- Ritmo necessário = (20 menos matrículas acumuladas) / semanas até a data de corte (1.32, seção 2.2)
+- Ritmo necessário = (15 menos matrículas acumuladas) / semanas até a data de corte (1.32, seção 2.2, com a turma mínima de 15 da decisão 11)
 
 Toda conta aparece com os números usados, para o gestor conferir.
 
@@ -273,6 +275,7 @@ Toda conta aparece com os números usados, para o gestor conferir.
 - Julgamento final: custo por matrícula via prova, por turma de destino, só depois do resultado, dos 2 dias úteis de recurso e dos 10 dias úteis de matrícula (data do resultado [CONFIRMAR]).
 - Fases do 1.11 (PP3): nenhuma realocação antes de 06/11 (3 dias de dados); primeira decisão na revisão de 09/11.
 - Sobreposição a ler: frequência das provas de Cardiologia com a 289 e a 698; das provas de Dermatologia e Hematologia com 68610 e 68608.
+- Leitura de leilão (NE1 e NE4 da analise-de-midia-eventos; plano do cmo, 12.6): de 03/11 a 18/11, as provas de Anestesiologia (68639, 68640) e de Neurologia (68654) disputam o mesmo público com o frio e o remarketing do Workshop Brasileiro de Neuromonitorização e, desde a subida (10/11, ou 19/11 se o pedido R4 do cmo for aprovado), com a 616 de Livres. Nessas áreas, CPM subindo com CTR estável é lido primeiro como disputa de leilão, não como criativo fraco: não mexer em criativo nem em verba por isso; registrar lado a lado CPM, alcance e frequência (EA3 da analise-de-midia-eventos). Sem exclusão de público entre campanhas (regra do cmo) [SUPOSIÇÃO de efeito no leilão, origem: conjuntos da mesma conta com públicos parecidos disputam a mesma entrega].
 
 ### 8.6 Calendário de leitura
 
@@ -282,10 +285,34 @@ Toda conta aparece com os números usados, para o gestor conferir.
 | 28/10 | URL de 698, 662 e 68662; prazo do gerenciador para a exportação (D6) |
 | 2 dias úteis depois da exportação | primeira versão numérica deste diagnóstico, no mesmo formato |
 | 03/11 | revisão semanal 1; subida das provas |
-| 06/11 e 09/11 | primeira leitura das provas (3 dias de dados) e revisão 2 |
+| 06/11 e 09/11 | primeira leitura das provas (3 dias de dados) e revisão 2, com a leitura de leilão das áreas de Anestesiologia e Neurologia (8.5) |
 | 16/11, 23/11, 30/11 | revisões 3 a 5 |
 | 30/11 e 07/12 | leitura final tardia de 707, 68604 e 68606 (30 dias depois do início) |
 | 07/12 | leitura antes da reativação de 68615 e 333 (PP6) |
+
+### 8.7 Tabela de correspondência entre nomes antigos e o padrão D12 (versão 2)
+
+O plano do cmo (12.7, D12) fixa a chave de cada item como `pos_<código do catálogo>` e manda não renomear as campanhas já no ar; a leitura liga o nome antigo à chave por esta tabela. A linha da visão e o código vêm da seção 3.2; o nome da campanha e o utm_campaign atuais só chegam com a exportação (ação A1) e são preenchidos por quem recebe a exportação, sem renomear nada no gerenciador.
+
+| Linha da visão (curso, início pela planilha) | Código | Chave D12 | Nome da campanha no gerenciador | utm_campaign atual | Tratamento |
+|---|---|---|---|---|---|
+| Pós-graduação em Medicina de Felinos, 15/08/2026 | 650 | pos_650 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1); só leitura histórica |
+| Pós-graduação em Odontologia Veterinária, 15/08/2026 | 68662 | pos_68662 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1); conferir que não é a 678 (mesmo nome) |
+| Pós Graduação em Ultrassonografia de Pequenos Animais, 15/08/2026 | 706 | pos_706 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1); conferir que não é a 68629 (mesmo nome) |
+| Pós-graduação em Anestesiologia Veterinária: Direto ao ponto, 22/08/2026 | 586 | pos_586 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1) |
+| Pós-graduação em Dor e Cuidados Paliativos na Veterinária, 22/08/2026 | 554 | pos_554 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1) |
+| Pós-graduação em Nefrologia Veterinária, 24/10/2026 | 68612 | pos_68612 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | em pausa (D1) |
+| Pós-graduação em Oftalmologia Veterinária, 30/10/2026 | 707 | pos_707 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (D9); não renomear |
+| Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, 31/10/2026 | 68604 | pos_68604 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (D9); não renomear; conferir que não é a 68611 (mesmo nome) |
+| Pós-graduação em Gastroenterologia Veterinária, 07/11/2026 | 68606 | pos_68606 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (D9); não renomear |
+| Pós-graduação em Ecocardiografia, 28/11/2026 | 698 | pos_698 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | D2; não renomear |
+| Pós-graduação em Hematologia Veterinária, 28/11/2026 | 68608 | pos_68608 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (D18); não renomear |
+| Pós-graduação em Dermatologia Veterinária, 28/11/2026 | 68610 | pos_68610 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (D18); não renomear |
+| Pós-graduação em Cardiologia Veterinária, 20/03/2027, GO | 289 | pos_289 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar, sem aumento (PP9); não renomear; conferir que não é a 68605 (mesmo nome, SP) |
+| Pós-graduação em Ortopedia Veterinária, 24/04/2027 | 662 | pos_662 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar, fora de VN (EM9); não renomear; URL em 28/10 (PP5) |
+| Provas de bolsa de 27/11/2026 (campanha nova, fora da visão) | 22 provas abertas | pos_provas20261127 | nasce no padrão (estrategia-de-midia-pos, 4.2) | nasce no padrão (paid_social e cpc) | não precisa de correspondência |
+
+Pausadas que forem reativadas (68615, 333, 657, 341, 68635, 68617): a linha entra na tabela no dia da reativação, do mesmo jeito; se o gestor decidir por campanha nova, o nome já segue D12 (estrategia-de-midia-pos, 4.2). Regra de leitura: lead ou compra com utm_campaign que não começa pela chave e não está nesta tabela vai para "não atribuída" (G4).
 
 ---
 
@@ -297,14 +324,14 @@ Toda conta aparece com os números usados, para o gestor conferir.
 |---|---|---|---|---|---|
 | 650, 706, 586, 554 | gasto desde o início da turma | turma iniciada, "verificar" | PAUSAR (pedido já feito) | memorando D1 | E1 e E2 confirmados por escrito |
 | 68612 | gasto desde 24/10 | turma iniciada há 2 dias | PAUSAR e reativar no dia da confirmação | memorando D1 | E1 e E2 confirmados |
-| 68662 | URL final dos anúncios | iniciada e com destino que mostra 24/04/2027 | PAUSAR e INVESTIGAR o destino junto com 662 (N1) | D1; ação A2 abaixo | Ufape confirma a data real de Odontologia V |
+| 68662 | URL final dos anúncios | iniciada (15/08/2026, data da planilha, decisão 12) e com destino que mostra 24/04/2027 | PAUSAR; conferir o destino junto com 662 em 28/10 | D1; ação A2 abaixo | E1 e E2 confirmados por escrito |
 | 707, 68604 | matrículas contra a turma mínima | reta final de 4 e 5 dias; data de 30 dias antes já passou | MANTER sem mudanças até a pausa | D9; ação A3 | se a data de 30 dias antes for prazo: PAUSAR antes |
 | 68606 | frequência e CTR por anúncio | reta final de 12 dias | MANTER; uma troca por fadiga até 03/11 | D9, D20; ação A3 | idem |
 | 698 | anúncios com data ou "2027"; URL | página com data errada | AJUSTAR (pausar anúncios com data); PAUSAR a campanha se o site não for corrigido até 28/10 às 18h | D2 | site corrigido |
 | 68608 | CTR, CPL, frequência; matrículas | sem bloqueio; 33 dias | MANTER; leitura completa assim que a exportação chegar | D18 | número fora da meta por um elo: AJUSTAR esse elo |
 | 68610 | CTR do estático com frequência | sem bloqueio; só estático | MANTER; vídeo pedido | D18 | CTR caindo com frequência subindo: o vídeo é a alavanca |
 | 289 | ritmo de gasto; leads qualificados | sem bloqueio; 145 dias | MANTER sem aumento | 1.11 PP9 | gasto sem lead qualificado: INVESTIGAR |
-| 662 | URL final; frequência | destino mostra 15/08/2026, turma IV | INVESTIGAR o destino; PAUSAR os anúncios se a página não bater | 1.11 PP5; N1 | página corrigida |
+| 662 | URL final; frequência | início em 24/04/2027 (planilha, decisão 12); destino mostra 15/08/2026, turma IV | INVESTIGAR o destino em 28/10; PAUSAR os anúncios se a página não bater | 1.11 PP5; R5 do cmo; N1 | página corrigida |
 | 653, 665, 666, 68605, 659, 68607 | histórico | turma iniciada | manter pausadas | 1.32, 2.5.1 | E1 e E2 (só 68607 é candidata realista) |
 | 68615, 333 | histórico antes da pausa | prontas para março | manter pausadas até 07/12 | 1.11 PP6 | condições de PP6 |
 | 657, 341 | histórico; pré-requisito e promoção | bloqueio de página e de regra | manter pausadas | 1.11 PP7 | regra escrita na página |
@@ -324,9 +351,9 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
 | A1 | Enviar a exportação do memorando (seção 7.1) com quatro campos a mais por anúncio: URL final, data de criação, formato e ângulo (rótulo de 1 a 5, se existir) | sem ela nenhum elo de entrega, atenção, interesse ou conversão pode ser lido; os campos a mais fecham N1, a fadiga e o teste de ângulo | sem custo de mídia | primeira versão numérica deste diagnóstico em 2 dias úteis | não se aplica | 28/10 (D6) |
-| A2 | Ufape confirma, juntas, as datas e turmas reais de Odontologia (68662 e 678) e de Ortopedia (662), e um humano confere no mesmo dia a URL final dos anúncios das duas campanhas ativas | as datas aparecem cruzadas entre planilha e site (N1); uma das duas campanhas pode estar vendendo turma que já começou e a outra uma turma futura sem linha na planilha | sem custo de mídia; a diária das duas é [CONFIRMAR] | pausa ou manutenção certa nas duas; a prova 68655 de Odontologia pode ganhar destino | não se aplica (é conferência); a pausa de 662, se houver, se desfaz reativando a campanha depois da correção (PP5) | 28/10 |
+| A2 | Um humano confere em 28/10, no mesmo dia, a URL final dos anúncios de 68662 e de 662 contra as datas da planilha (15/08/2026 e 24/04/2027, decisão 12); a Ufape confirma a turma de 662 (turma diverge, P5) e a situação da 678 | as páginas mostram as datas trocadas (N1, fechado quanto à data); 662 pode estar levando à página da turma que começou em 15/08/2026 | sem custo de mídia; a diária das duas é [CONFIRMAR] | pausa certa em 68662 (D1) e pausa ou manutenção certa em 662 (PP5; R5 do cmo) | não se aplica (é conferência); a pausa de 662, se houver, se desfaz reativando a campanha depois da correção (PP5) | 28/10 |
 | A3 | Ufape confirma por turma se a "1ª mensalidade 30 dias antes do início" é prazo de matrícula para 707, 68604, 68606, 698, 68608 e 68610 | se for prazo, 707, 68604 e 68606 já estão depois dele, e 698, 68608 e 68610 chegam a ele em 29/10 (N2, N3) | sem custo de mídia; a economia possível é a diária dessas campanhas entre o prazo e a pausa prevista [CONFIRMAR] | pausas no dia certo, sem gasto em matrícula que não pode mais acontecer | se a pausa for antecipada e a Ufape aceitar matrícula tardia, reativar no gerenciador | 28/10 (junto com D3) |
-| A4 | Rotular formato e ângulo no nome de todo anúncio novo ou reativado da Pós (provas, março e abril), e registrar na planilha o rótulo dos anúncios ativos, sem renomear no gerenciador o que já roda | sem rótulo, não dá para saber qual ângulo funciona (H3 da 1.32); renomear anúncio ativo não é necessário para a leitura e evita qualquer efeito na entrega [SUPOSIÇÃO de precaução] | sem custo de mídia | leitura de ângulo e formato a partir de 03/11 | voltar ao padrão de nome anterior nas campanhas novas | 31/10 (com a estrutura das provas, anuncios-meta e anuncios-google) |
+| A4 | Rotular formato e ângulo no nome de todo anúncio novo ou reativado da Pós (provas, março e abril), no padrão D12 do cmo; registrar na planilha o rótulo dos anúncios ativos e preencher a tabela de correspondência da seção 8.7 (nome e utm_campaign atuais de cada campanha no ar, ligados à chave pos_<código>), sem renomear no gerenciador o que já roda | sem rótulo, não dá para saber qual ângulo funciona (H3 da 1.32); renomear anúncio ativo não é necessário para a leitura e evita qualquer efeito na entrega [SUPOSIÇÃO de precaução] | sem custo de mídia | leitura de ângulo e formato a partir de 03/11 | voltar ao padrão de nome anterior nas campanhas novas | 31/10 (com a estrutura das provas, anuncios-meta e anuncios-google) |
 | A5 | Congelar mudanças por desempenho nas 6 ativas sem bloqueio de elegibilidade (707, 68604, 68606, 68608, 68610, 289) até a primeira leitura com 3 a 7 dias de dados e metas de PP1; só valem as ações de calendário e conformidade já aprovadas (D2, D9, D18, D20, PP5, PP9) | mudança antes da linha de base apaga a comparação e pode reabrir o aprendizado (skill, passo 2) | sem custo de mídia | linha de base limpa para a 1.13 e para a revisão de 09/11 | liberar ajustes na revisão seguinte, com pedido | a partir de hoje até a primeira leitura numérica |
 
 ---
@@ -335,7 +362,7 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 | Métrica | Onde | Confirma o diagnóstico | Derruba o diagnóstico |
 |---|---|---|---|
-| URL final dos anúncios de 662, 68662 e 698 | gerenciador | 662 abre a página com 15/08/2026, 68662 abre a de 24/04/2027 e 698 mostra 2027: o elo "chegada" é o gargalo dessas três | as URLs abrem páginas com data igual à planilha: o problema era só da planilha, e essas campanhas entram na leitura normal |
+| URL final dos anúncios de 662, 68662 e 698 | gerenciador | 662 abre a página com 15/08/2026, 68662 abre a de 24/04/2027 e 698 mostra 2027: o elo "chegada" é o gargalo dessas três | as URLs abrem páginas com a data da planilha (decisão 12): essas campanhas entram na leitura normal |
 | Gasto acumulado das 6 turmas iniciadas desde a data de início | gerenciador | gasto acima de zero depois do início: houve verba em turma "verificar" | gasto zero desde o início (campanha ativa sem entrega): a visão estava desatualizada (C1 da 1.32) |
 | Percentual de leads com código do catálogo e UTM | CRM e gerenciador | abaixo de 100% [valor exato DADO NÃO FORNECIDO]: o elo "matrícula" não fecha por turma e PP4 é urgente | 100% com código: a leitura por turma já é possível |
 
@@ -359,7 +386,7 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 | Plano do gestor-de-midia aprovado, com canais justificados | Pendente externo | 1.11 aguarda PP2, PP13 e PP14 |
 | Metas de CPL e custo por matrícula escritas antes de subir | Pendente externo | fórmulas no 1.11; valores em PP1 |
 | Verba dentro do valor aprovado, com aprovador | Pendente externo | verba e aprovador [CONFIRMAR] |
-| Nomenclatura padrão | Pendente externo | ação A4 e PP4 do 1.11 |
+| Nomenclatura padrão | Pendente externo | ação A4, tabela de correspondência (8.7) e PP4 do 1.11, no padrão D12 do cmo |
 | UTMs completas e origem no CRM | Pendente externo | seção 6; portão G4 |
 | Pixel, API de Conversões, conversões do Google | Pendente externo | D8 do memorando; elo 5 da seção 4 |
 | Criativos em conformidade educacional | Pendente externo | este arquivo não cria criativo |
@@ -391,14 +418,26 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 ---
 
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-marketing-geral-2026-10-26-loteB:
+- **Tabela de correspondência (D12):** nova seção 8.7, que liga as 14 ativas da visão à chave pos_<código>, com nome e utm_campaign atuais a preencher pela exportação (A1), sem renomear nada; A4 e G4 passam a usá-la.
+- **Datas da planilha (decisão 12):** 68662 em 15/08/2026 e 662 em 24/04/2027; N1 fechado quanto à data, a suposição de datas trocadas sai; A2, tabela de decisão e "o que observar" refeitos para a conferência de URL de 28/10 (PP5; R5 do cmo).
+- **Leitura de leilão (NE1 e NE4):** seção 8.5 e calendário de 06/11 e 09/11, para as provas de Anestesiologia e Neurologia na janela de 03/11 a 18/11.
+- **AM1:** as provas ligadas às turmas de 28/11 completas (68646 e 68651 para 68610 e 68608; 68641 e 68642 para a 698). **AM2:** grafias de 659 e 719 acrescentadas.
+- **Turma mínima de 15 (decisão 11):** metas, leitura por grupo e conta do ritmo necessário (15 menos matrículas acumuladas).
+- **EM9 do cmo** refletido na leitura de 289 e 662.
+
 ## Fatos (com fonte)
 
 - 42 linhas de Pós na visão: 14 ativas, 18 pausadas, 10 sem campanha; 6 ativas em turma já iniciada (visão de campanhas; 1.32, seção 1.1).
 - Status "verificar" de 650, 68662, 706, 586, 554, 68612, 653, 665, 666, 68605, 659 e 68607; datas, turmas e preços de todas as turmas citadas (catálogo, seção 2, 26/10/2026).
-- 68662: planilha 15/08/2026, site 24 e 25/04/2027, turma V; 662: planilha 24/04/2027, site 15 e 16/08/2026, turma IV; 678 é Odontologia, turma IV, 15/08/2026, só no site (auditoria do catálogo de 26/10, seção 3; catálogo).
+- 68662: planilha 15/08/2026, site 24 e 25/04/2027, turma V; 662: planilha 24/04/2027, site 15 e 16/08/2026, turma IV; 678 é Odontologia, turma IV, 15/08/2026, só no site (auditoria do catálogo de 26/10, seção 3; catálogo). Valem as datas da planilha (decisão 12 da Ufape, docs/execucao-2026-10-26.md).
 - 698 com 28/11/2027 no site e 28/11/2026 na planilha; 366 e 352 com data divergente; 68617, 68628 e 662 com turma divergente (auditoria de 26/10, seção 4; plano do cmo, P3 a P5).
 - 46 páginas com a frase de certificação ligada ao MEC; entre as ativas da Pós, só 707 e 586 não estão na lista (auditoria de 26/10, seção 9).
-- 1ª mensalidade paga 30 dias antes do início na maioria das páginas; turma mínima de 20 nas páginas de turma (contexto da linha).
+- 1ª mensalidade paga 30 dias antes do início na maioria das páginas (contexto da linha); turma mínima de 15, também nas turmas de Pós (decisão 11 da Ufape); algumas páginas de turma ainda mostram 20.
+- Padrão de nomes D12 (chave pos_<código>; campanhas no ar não renomeadas, lidas por tabela de correspondência), EM9 e sobreposição de público de 03/11 a 18/11 (plano do cmo, 12.6 e 12.7).
+- Grafias "Pós-graduação Cirurgia Cardiorrespiratória" (659) e "Pós-Graduação Inteligência Artificial na Saúde" (719) (catálogo, seção 2).
 - 670 (Pneumologia, turma VII) com início em 10/04/2027, encerrado; 68636 (turma VIII) com 17/04/2027, só no site (catálogo).
 - Formatos e ângulos de cada campanha (visão de campanhas).
 - Regras de decisão, metas como fórmula e pedidos D1 a D21 e PP1 a PP14 (memorando e 1.11).
@@ -406,7 +445,7 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 ## Suposições
 
-- [SUPOSIÇÃO] As datas de 68662 e 662 podem estar trocadas entre si na planilha (N1). Origem: o cruzamento exato das datas e a existência da 678 com 15/08/2026.
+- [SUPOSIÇÃO] Efeito de disputa de leilão entre as provas de Anestesiologia e Neurologia, o Workshop e a 616 de 03/11 a 18/11 (NE1 e NE4). Origem: conjuntos da mesma conta com públicos parecidos disputam a mesma entrega.
 - [SUPOSIÇÃO] A linha "Pneumologia, 10/04/2027" da visão é a da 670, e não a da 68636 (N6). Origem: a data igual à da 670.
 - [SUPOSIÇÃO de precaução] Não renomear anúncios que já rodam (A4), para não arriscar efeito na entrega; o rótulo dos ativos fica na planilha.
 - [SUPOSIÇÃO] As campanhas de janela longa (289, 662) e a de pacote único na reta final (707) são as primeiras candidatas a fadiga. Origem: janela de veiculação e pacote na visão.
@@ -417,11 +456,11 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 - [CONFIRMAR] Exportação agregada de Meta e Google por campanha, anúncio e semana desde 01/08/2026 (memorando 7.1), com URL final, data de criação, formato e ângulo por anúncio (A1).
 - [CONFIRMAR] Plataforma, objetivo e evento de otimização de cada uma das 32 campanhas com status.
 - [CONFIRMAR] Metas em reais (PP1 do 1.11): evasão, desconto, custo variável, margem, conversão lead para matrícula e inscrito para matrícula.
-- [CONFIRMAR] Datas e turmas reais de 68662, 678 e 662 (A2).
+- [CONFIRMAR] Turma real de 662 (turma diverge, P5), situação da 678 e URL final dos anúncios de 68662 e 662 (A2).
 - [CONFIRMAR] Se a 1ª mensalidade 30 dias antes do início é prazo de matrícula, por turma (A3).
 - [CONFIRMAR] Política de entrada em turma iniciada (E1 e E2 do memorando).
 - [CONFIRMAR] Motivo da pausa de cada uma das 18 pausadas.
-- [CONFIRMAR] Código do catálogo no nome ou no utm_campaign das campanhas ativas; CRM usado e definição de lead, inscrito e matriculado.
+- [CONFIRMAR] Nome e utm_campaign atuais de cada campanha ativa, para a tabela de correspondência (8.7); CRM usado e definição de lead, inscrito e matriculado.
 - [CONFIRMAR] Tolerância aceitável de diferença entre gerenciador e CRM (com o analista-de-dados).
 - [CONFIRMAR] Curso realmente anunciado pela campanha pausada da linha "Citopatologia 03/04" (679).
 - [CONFIRMAR] Linha da visão que corresponde à 68636 e status de mídia de 68636, 68629 e 359.

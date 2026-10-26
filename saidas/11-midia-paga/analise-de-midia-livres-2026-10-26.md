@@ -4,6 +4,7 @@
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.12 da camada 1 do plano do cmo (diagnostico-de-midia nas campanhas ativas e pausadas)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para as análises de mídia: tabela de correspondência entre nomes antigos e o padrão D12, datas da planilha e leitura de leilão de NE1 e NE4; ajustes AML1 e AML2 do qa-de-marketing-geral-2026-10-26-loteC). Aplica também as decisões 12 (datas da planilha) e 13 (página 623) da Ufape. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o gestor-de-midia, para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Natureza:** não existe nenhum número de desempenho nas fontes (gasto, impressões, cliques, CPM, CTR, visitas, inícios de checkout, pedidos pagos, custo por venda). A exportação pedida no memorando do gestor (seção 7.1) ainda não chegou. Este diagnóstico é estrutural: cruza a visão de campanhas (status, data, formatos, ângulos) com o catálogo e as fichas (status do produto, data na página, data na planilha, página duplicada, texto da página) e escreve, antes dos números, o roteiro de leitura (métricas, cortes, limiares e a decisão que cada resultado dispara). Todo número de desempenho aparece como [DADO NÃO FORNECIDO] ou [CONFIRMAR]. Nenhuma métrica foi inventada.
 - **Entradas lidas:**
@@ -27,6 +28,7 @@
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analise-de-campanha-livres-2026-10-26.md (1.32)
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md (1.10)
   - Referência só de formato e método (conteúdo não copiado): /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-pos-2026-10-26.md
+  - Versão 2: /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12); /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (AML1 e AML2); /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-livres-2026-10-26.md (versão 2: 616 com R4, datas e página 623); /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-eventos-2026-10-26.md (NE1, NE4 e EA3)
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web. Nenhuma exportação de plataforma, de loja ou de CRM recebida.
 - **Dados pessoais:** nenhum lido nem citado. Nenhum docente, aluno, candidato ou comprador aparece aqui.
 - **Marcadores:** [DADO NÃO FORNECIDO] é número de desempenho que só a exportação traz. [CONFIRMAR] é fato que a Ufape precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso que está só na ficha. [SUPOSIÇÃO] é hipótese deste agente, com a origem. "Regra prática" é regra de método da skill, não meta.
@@ -96,7 +98,7 @@ Dias contados a partir de 26/10/2026.
 
 | Código | Curso | Status no catálogo | Data (planilha) | Data na visão | Leitura estrutural | Decisão |
 |---|---|---|---|---|---|---|
-| 68618 | Curso de Ventilação Mecânica Aplicada à Anestesia Veterinária, teórico-prático, 17 h, R$ 1.710,00 à vista ou 1x de R$ 1.800,00 | aberto | 18/12/2026 | 22/05/2027 | a página mostra "18, 19 e 20 de dezembro", "Turma I" e formato presencial; o catálogo deixa a modalidade em branco e o site está sem data de início no campo próprio (auditoria, seção 7). Se 18/12 valer, a campanha está pausada dentro da janela de 8 semanas, aberta em 23/10 | manter pausada até a LP6 do 1.11 (Ufape confirma 18/12/2026 até 13/11) |
+| 68618 | Curso de Ventilação Mecânica Aplicada à Anestesia Veterinária, teórico-prático, 17 h, R$ 1.710,00 à vista ou 1x de R$ 1.800,00 | aberto | 18/12/2026 | 22/05/2027 | a página mostra "18, 19 e 20 de dezembro", "Turma I" e formato presencial; o catálogo deixa a modalidade em branco e o site está sem data de início no campo próprio (auditoria, seção 7). Se 18/12 valer, a campanha está pausada dentro da janela de 8 semanas, aberta em 23/10 | manter pausada até a LP6 do 1.11 (data de 18/12/2026 válida pela decisão 12; reativação com meta, página e kit até 17/11) |
 | 592 | Curso Teórico/Prático de bloqueio locorregional guiado por ultrassonografia, São Paulo | sem venda (avise-me) | 01/08/2026 | 01/08/2026 | destino sem compra | manter pausada; se houver anúncio ativo apontando para a página, pausa imediata |
 | 99 | Curso Prático de Imersão em Cirurgia Veterinária, Goiânia | verificar (turma já iniciada e com venda) | 26/09/2026 | 26/09/2026 | turma passada ainda à venda | manter pausada; reativar só com data nova confirmada |
 | 68668 | Aprimoramento Terapia Intensiva Veterinária, 48 h, R$ 100,00 | verificar (turma já iniciada e com venda) | 19/10/2026 | 01/10/2026 | turma iniciada; teto absoluto de R$ 100,00 por venda | manter pausada |
@@ -133,8 +135,8 @@ Sem números, o que dá para ler é se cada elo tem condição de funcionar. O e
 | # | Achado | Evidência | Fato ou hipótese | O que muda |
 |---|---|---|---|---|
 | NL1 | A página do produto 623 mostra início em "01 e 02 de agosto de 2026". A página 68637, com o mesmo curso e o mesmo preço, mostra "28 e 29 de novembro de 2026" e "Turma IV". O nome da 623 começa com "III curso" | fichas 623 e 68637; auditoria do catálogo de 26/10, seção 4 | a data na página é fato. A leitura de que 623 é a página da turma III (agosto, já realizada) e 68637 a da turma IV (novembro) é [SUPOSIÇÃO, origem: número romano no nome e data de cada página] | O memorando (D19) e o 1.11 tratam 623 e 68637 como duplicidade a decidir até 31/10. Se a suposição valer, a campanha ativa de 623, com 3 criativos novos desde 21/10, manda clique para uma página de turma passada. É o mesmo tipo de risco da 698 na Pós (D2). A conferência da URL vira prioridade de 28/10 (ação LA2) |
-| NL2 | Em 573 e 68614 a página e a planilha concordam (14 e 15/11; 28 e 29/11). Só a visão de campanhas diverge (29/11; 18/12) | fichas 573 e 68614; catálogo; visão | fato | A pendência P6 do plano do cmo, nesses dois itens, é da planilha de mídia, não do produto. Riscos: (a) data de término programada no gerenciador pela visão, com gasto depois do curso; (b) ritmo de gasto de quem acha que tem 34 e 53 dias, quando tem 19 e 33. A regra D12 (anúncio sem data) continua certa até a Ufape confirmar (ação LA3) |
-| NL3 | A página de 68618 diz "Primeira turma: 18, 19 e 20 de dezembro de 2026", formato presencial, e "turmas subsequentes com periodicidade bimestral". A visão marca 22/05/2027, dois dias antes da Pós 352 em Ventilação Mecânica (24/05/2027) | ficha 68618; visão; catálogo | os textos são fato; a leitura de que a linha da visão pode ter herdado a data de outra turma ou da Pós 352 é [SUPOSIÇÃO] | Reforça o pedido LP6 do 1.11 (confirmar 18/12 até 13/11). Se 18/12 valer, a pausa atual tira a campanha da janela de 8 semanas aberta em 23/10 |
+| NL2 | Em 573 e 68614 a página e a planilha concordam (14 e 15/11; 28 e 29/11). Só a visão de campanhas diverge (29/11; 18/12) | fichas 573 e 68614; catálogo; visão | fato; **fechado na versão 2 pela decisão 12 da Ufape** (valem as datas da planilha) | A pendência P6 do plano do cmo, nesses dois itens, é da planilha de mídia, não do produto: falta corrigir a visão. Riscos que seguem até a conferência: (a) data de término programada no gerenciador pela visão, com gasto depois do curso; (b) ritmo de gasto de quem acha que tem 34 e 53 dias, quando tem 19 e 33. Com a decisão 12, a regra D12 (anúncio sem data) deixa de valer nesses dois itens (gestor-de-midia-livres, versão 2) |
+| NL3 | A página de 68618 diz "Primeira turma: 18, 19 e 20 de dezembro de 2026", formato presencial, e "turmas subsequentes com periodicidade bimestral". A visão marca 22/05/2027, dois dias antes da Pós 352 em Ventilação Mecânica (24/05/2027) | ficha 68618; visão; catálogo | os textos são fato; a leitura de que a linha da visão pode ter herdado a data de outra turma ou da Pós 352 é [SUPOSIÇÃO] | Fechado quanto à data pela decisão 12 (vale 18/12/2026, da planilha). A pausa atual tira a campanha da janela de 8 semanas aberta em 23/10; a reativação de 19/11 depende só das demais condições de LP6 |
 | NL4 | Parte da venda de 573 pode acontecer fora da loja: "PARA PAGAMENTO EM BOLETO, SOLICITAR VIA E-MAIL" e "6 x de 550 reais no boleto" | ficha 573 | o texto é fato; o efeito na medição é [SUPOSIÇÃO] | Pedido pago por boleto via secretaria não carrega UTM. Na leitura, a venda de 573 soma loja e secretaria por código, e o custo por venda só é calculado com as duas fontes (portão G6) |
 | NL5 | Sobreposição de público a partir de 03/11: 573 (cardio) roda junto com a Pós 698 (cardio, campanha ativa) e com as provas de Cardiologia 68641 e 68642 (03/11 a 26/11, pico de 03/11 a 09/11); 616 e 68618 (anestesia), quando subirem, rodam junto com as provas de Anestesiologia e com a mídia do Workshop Brasileiro de Neuromonitorização (frio e remarketing de 03/11 a 18/11) | gestor-de-midia-pos, 4.2 e PP3; gestor-de-midia-eventos, 1.6; 1.11 de Livres, seção 3 | as datas são fato; o efeito no leilão é [SUPOSIÇÃO, origem: conjuntos da mesma conta com públicos parecidos disputam a mesma entrega] | Na leitura, CPM subindo com CTR estável em 573 a partir de 03/11 é lido primeiro como disputa interna, não como fadiga nem como falha do criativo. As exclusões da LP10 do 1.11 cobrem só 20/11 a 27/11; de 03/11 a 19/11 vale observar a frequência somada (ação LA5 e seção 11) |
 
@@ -165,9 +167,9 @@ Sem frequência, CTR e custo por início de checkout por anúncio ao longo das s
 |---|---|---|---|
 | 573 | pacote único estático; data de criação [CONFIRMAR]; se a campanha seguiu a janela da visão, roda desde o início de outubro [SUPOSIÇÃO] | frequência subindo e CTR do link caindo por 3 dias ou mais no mesmo anúncio, com custo por início de checkout subindo (skill, tabela de sintomas) | CTR estável; ou CPM subindo com CTR estável (aí é leilão, NL5) |
 | 68614 | pacote único estático; mesma regra | mesma regra | idem |
-| 623 | não é candidata hoje: 3 criativos entraram em 21/10 e ainda aprendem | leitura antes e depois de 21/10, peça por peça, com a ressalva de que criativo novo reinicia o aprendizado (analise-de-campanha, 2.3) | não se aplica |
+| 623 | não é candidata hoje: 3 criativos entraram em 21/10 e ainda aprendem | leitura antes e depois de 21/10, peça por peça, com a ressalva de que criativo novo reinicia o aprendizado (analise-de-campanha, 2.3) [SUPOSIÇÃO de regra da plataforma, conferir com anuncios-meta] | não se aplica |
 
-Fadiga confirmada pede conceito novo, não só título novo. Exceção de calendário: em 573, se a data for 14/11, nenhum criativo novo entra depois de 07/11 (menos de 7 dias; memorando, 5.1, regra 1).
+Fadiga confirmada pede conceito novo, não só título novo. Exceção de calendário: em 573 (14/11, data da planilha), nenhum criativo novo entra depois de 07/11 (menos de 7 dias; memorando, 5.1, regra 1).
 
 ---
 
@@ -182,7 +184,7 @@ Prazo: 2 dias úteis depois de receber a exportação (encomenda do 1.11, seçã
 | G1 | Exportação sem dado pessoal | só contagens e somas | devolver; não abrir |
 | G2 | Campos mínimos do memorando (7.1) mais URL final, data de criação, formato e ângulo por anúncio e data de término programada | todos presentes para 573, 68614, 623 e 68618 | ler o que existe e marcar o resto [DADO NÃO FORNECIDO] |
 | G3 | Janela e granularidade | uma linha por campanha, anúncio e semana, desde a criação até a exportação | só acumulado: sem tendência nem fadiga; pedir de novo |
-| G4 | Ligação com o produto | código do catálogo no nome ou no utm_campaign | campanha sem código vai para "não atribuída" (LP3) |
+| G4 | Ligação com o produto | chave livres_<código> no nome ou no utm_campaign (D12 do cmo), ou a campanha na tabela de correspondência (8.6) | campanha sem chave e fora da tabela vai para "não atribuída" (LP3) |
 | G5 | Contexto do período | o que mudou (criativos de 21/10 em 623, verba, URL, pausa de 68618 e motivo) | mudança sem causa registrada vira hipótese |
 | G6 | Conciliação | pedidos pagos da loja por código e UTM, mais vendas por boleto da secretaria (573), contra os resultados do gerenciador | diferença acima da tolerância [CONFIRMAR]: INVESTIGAR |
 
@@ -209,9 +211,9 @@ Decisões possíveis (skill, passo 5): ESCALAR, MANTER, AJUSTAR, PAUSAR (gastou 
 
 | Grupo | Itens | O que ler | Para que serve | Decisão possível |
 |---|---|---|---|---|
-| Presencial de 14/11 (se a data valer) | 573 | gasto desde a criação; data de término programada; pedidos pagos (loja e secretaria); vagas [CONFIRMAR] | ritmo até 13/11 e revisão pós-curso em 21/11 | MANTER sem data no anúncio (D12); sem criativo novo depois de 07/11; pausa no fim do dia útil anterior à data (LP5) |
-| Presenciais de 28/11 | 68614, 623 (e 68637) | URL final de cada anúncio; pedidos por código (623 e 68637 somados); mínimo de 15 [CONFIRMAR NO CATÁLOGO]; peças antes e depois de 21/10 em 623 | ritmo até a data de confirmação da turma [CONFIRMAR]; leitura dos criativos de 21/10 | 623: ver LA2; 68614: MANTER sem verba nova até a página sair da pendência |
-| Pausada com data a confirmar | 68618 | motivo e data da pausa; gasto, cliques e pedidos do período ativo; URL | linha de base para a reativação de 19/11 (LP6) | manter pausada até a LP6 |
+| Presencial de 14/11 (data da planilha, decisão 12) | 573 | gasto desde a criação; data de término programada; pedidos pagos (loja e secretaria); vagas [CONFIRMAR] | ritmo até 13/11 e revisão pós-curso em 23/11 (segunda) | MANTER; a peça pode levar a data da planilha (decisão 12); sem criativo novo depois de 07/11; pausa no fim do dia útil anterior à data (LP5) |
+| Presenciais de 28/11 | 68614, 623 (e 68637, destino das campanhas novas da endoscopia até a correção da 623, decisão 13) | URL final de cada anúncio; pedidos por código (623 e 68637 somados); mínimo de 15 [CONFIRMAR NO CATÁLOGO]; peças antes e depois de 21/10 em 623 | ritmo até a data de confirmação da turma [CONFIRMAR]; leitura dos criativos de 21/10 | 623: ver LA2; 68614: MANTER sem verba nova até a página sair da pendência |
+| Pausada com data de 18/12/2026 (planilha) | 68618 | motivo e data da pausa; gasto, cliques e pedidos do período ativo; URL | linha de base para a reativação de 19/11 (LP6) | manter pausada até a LP6 |
 | Pausadas antigas | 592, 99, 68668 | confirmar status pausado e ausência de anúncio ativo; histórico | linha de base por área (cirurgia, anestesia, terapia intensiva) | manter pausadas |
 | Itens sem status na visão | 68637, 616, contínuos | existe campanha fora da planilha? | descoberta (analise-de-campanha, 2.5) | se existir, entrar no grupo certo acima |
 
@@ -239,12 +241,26 @@ Toda conta aparece com os números usados, para o gestor conferir.
 | 30/10 (sexta) | primeira versão numérica deste diagnóstico, se a exportação chegar em 28/10 |
 | 03/11 (terça) | revisão semanal 1 (02/11 é feriado) |
 | 09/11 | revisão 2: ritmo de 573 |
-| 13/11 (sexta) | pausa de 573, se a data for 14/11 (sábado) |
+| 13/11 (sexta) | pausa de 573 no fim do dia útil anterior à data de 14/11 (sábado) |
 | 16/11 | revisão 3: ritmo de 68614 e da página de endoscopia escolhida |
-| 21/11 | revisão pós-curso de 573, se a data for 14/11 (7 dias depois) |
+| 23/11 (segunda) | revisão pós-curso de 573, com 7 dias de dados depois da data (21/11 é sábado e o segundo dia do Workshop); junto da revisão 4 |
 | 23/11 | revisão 4: pausa dos presenciais de 28/11 na data ou ao lotar |
 | 27/11 (sexta) | pausa de 68614 e da endoscopia, se quem executa não trabalhar no sábado 28/11 [CONFIRMAR] |
-| 05/12 | revisão pós-curso de 68614 e da endoscopia |
+| 07/12 (segunda) | revisão pós-curso de 68614 e da endoscopia, com 7 dias de dados depois da data (05/12 é sábado); junto da revisão 6 |
+
+### 8.6 Tabela de correspondência entre nomes antigos e o padrão D12 (versão 2)
+
+O plano do cmo (12.7, D12) fixa a chave de cada item como `livres_<código do catálogo>`. As campanhas no ar não são renomeadas; a chave entra no utm_campaign pela LP3 do gestor, e esta tabela liga o nome antigo à chave. A linha da visão e o código vêm da seção 3.2; nome e utm_campaign atuais chegam com a exportação (LA1).
+
+| Linha da visão (curso, data na visão) | Código | Chave D12 | Nome da campanha no gerenciador | utm_campaign atual | Tratamento |
+|---|---|---|---|---|---|
+| Curso Hands-On de Ecocardiografia Veterinária Básica - SÃO PAULO, 29/11/2026 (planilha: 14/11/2026) | 573 | livres_573 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (LP5); não renomear |
+| curso livre em videotoscopia, 18/12/2026 (planilha: 28/11/2026) | 68614 | livres_68614 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | no ar até a pausa (LP5); não renomear |
+| III curso de imersão teórico e prático em endoscopia digestiva - SÃO PAULO, 28/11/2026 | 623 | livres_623 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | URL conferida em 28/10 (LA2); se o destino virar a 68637, a leitura soma 623 e 68637 pelo código do pedido |
+| Curso de Ventilação Mecânica, pausada, 22/05/2027 na visão (planilha: 18/12/2026) | 68618 | livres_68618 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | entra na leitura no dia da reativação (LP6) |
+| Campanhas novas (68637, 616, contínuos, 68638) | código de cada produto | livres_<código> | nascem no padrão (estrategia-de-midia-livres) | nascem no padrão (paid_social e cpc) | não precisam de correspondência |
+
+Regra de leitura: pedido pago com utm_campaign que não começa pela chave e não está nesta tabela vai para "não atribuída" no portão G4 (8.1).
 
 ---
 
@@ -254,16 +270,16 @@ Toda conta aparece com os números usados, para o gestor conferir.
 
 | Item | Métrica-chave quando houver número | Diagnóstico hoje | Decisão hoje | Referência | Muda quando |
 |---|---|---|---|---|---|
-| 573 | ritmo de pedidos pagos até 13/11; custo por venda (loja e secretaria) | página e planilha em 14/11, visão em 29/11; pagamento contraditório na página | MANTER sem data no anúncio e sem aumento; INVESTIGAR a data de término programada | memorando D12; 1.11 LP5; ação LA3 | Ufape confirma a data e o texto único de pagamento |
-| 68614 | ritmo contra o mínimo de 15; custo por venda | página e planilha em 28/11, visão em 18/12; frase de certificação ligada ao regulador na página | MANTER sem data no anúncio, sem verba nova até a página sair da pendência | D12; 1.11, seção 8, item 10; ação LA4 | página corrigida |
-| 623 | URL final; CTR das peças de 21/10; pedidos (623 mais 68637) | página do produto com início em 01/08/2026 | INVESTIGAR a URL em 28/10; AJUSTAR o destino se for a página com data passada; PAUSAR se não houver página coerente até 30/10 | NL1; D19; ação LA2 | Ufape corrige a data da 623 ou escolhe a 68637 |
-| 68637 | existência de campanha | duplicado de 623, página com 28 e 29/11 | não criar campanha; conferir se existe alguma | D19 | escolha da Ufape |
-| 68618 | histórico antes da pausa | data divergente; pausada dentro da janela se 18/12 valer | manter pausada | 1.11 LP6; NL3 | Ufape confirma 18/12/2026 até 13/11 |
+| 573 | ritmo de pedidos pagos até 13/11; custo por venda (loja e secretaria) | página e planilha em 14/11, visão em 29/11; pagamento contraditório na página | MANTER sem aumento, com a data da planilha na peça (decisão 12); INVESTIGAR a data de término programada | 1.11 LP5; ação LA3 | Ufape corrige o texto único de pagamento |
+| 68614 | ritmo contra o mínimo de 15; custo por venda | página e planilha em 28/11, visão em 18/12; frase de certificação ligada ao regulador na página | MANTER, com a data da planilha na peça (decisão 12), sem verba nova até a página sair da pendência | 1.11, seção 8, item 10; ação LA4 | página corrigida |
+| 623 | URL final; CTR das peças de 21/10; pedidos (623 mais 68637) | página do produto com início em 01/08/2026; a Ufape vai corrigir a página (decisão 13) | INVESTIGAR a URL em 28/10; se levar à 623, trocar a URL para a 68637 ou PAUSAR, por humano, até a correção estar no site | NL1; D19; decisão 13; R8 do cmo; ação LA2 | página 623 corrigida no site |
+| 68637 | existência de campanha | página com 28 e 29/11 | destino das campanhas novas da endoscopia até a correção da 623 (decisão 13; gestor-de-midia-livres, versão 2); conferir se já existe campanha | D19; decisão 13 | correção da 623 e resposta da Ufape sobre qual página segue à venda (U5 do cmo) |
+| 68618 | histórico antes da pausa | data de 18/12/2026 pela planilha (decisão 12); pausada dentro da janela | manter pausada até 19/11 | 1.11 LP6; NL3 | meta, página e kit de LP6 aprovados até 17/11 |
 | 592 | anúncio ativo apontando para a página | sem venda | manter pausada | analise-de-campanha, 2.4 | não muda |
 | 99 | idem | turma passada | manter pausada | idem | data nova confirmada |
 | 68668 | idem | turma iniciada; R$ 100,00 | manter pausada | idem | regra de entrada e meta escrita |
 | 68665, 68666 | não se aplica | ticket de R$ 100,00 | sem mídia paga | memorando D21 | decisão do cmo sobre 68666 |
-| 616 | não se aplica (sem campanha) | data em 05/12; modalidade a confirmar | sem campanha até a LP7 (10/11) | 1.11 LP7 | aprovação da LP7 |
+| 616 | não se aplica (sem campanha) | data em 05/12; modalidade a confirmar | sem campanha até a LP7 (10/11, ou 19/11 se o pedido R4 do cmo for aprovado) | 1.11 LP7; R4 do cmo | aprovação da LP7 e de R4 |
 
 Nenhuma decisão de ESCALAR é possível nesta rodada: não há meta em reais nem volume lido.
 
@@ -276,10 +292,10 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
 | LA1 | Enviar a exportação do memorando (7.1) para 573, 68614, 623 e 68618, com cinco campos a mais por anúncio: URL final, data de criação, data de término programada, formato e ângulo; e, da loja e da secretaria, pedidos pagos e reembolsos por código e semana, somados, com e sem UTM | sem ela nenhum elo de entrega, interesse, conversão ou venda pode ser lido; os campos a mais fecham NL1, NL2 e NL4 | sem custo de mídia | primeira versão numérica deste diagnóstico em 2 dias úteis | não se aplica | 28/10 (D6) |
-| LA2 | 623: um humano confere em 28/10 a URL final dos anúncios. Se for a página do produto 623 (início em 01/08/2026), a Ufape corrige a data dessa página ou escolhe a 68637 até 30/10 (sexta), e o humano ajusta a URL no mesmo dia (correção de conformidade, fora da regra de uma mudança por semana). Sem nenhuma das duas até o fim de 30/10, pausar a campanha 623, com exportação prévia, nunca excluir | a página mostra uma data já passada para um curso de 28/11 (NL1); o prazo de D19 (31/10) cai num sábado | diária atual [CONFIRMAR], sem aumento | nenhum clique pago leva a página com data errada; a leitura dos criativos de 21/10 passa a valer | voltar a URL anterior ou reativar a campanha com as configurações exportadas | conferência 28/10; correção ou pausa até o fim de 30/10 |
-| LA3 | 573 e 68614: a Ufape confirma as datas que a planilha e a página já mostram (14/11 e 28/11) e corrige a visão de campanhas; um humano confere a data de término programada das duas campanhas e, se ela seguir a visão, ajusta para o dia útil anterior à data do curso | a divergência é só da planilha de mídia (NL2); gasto depois do curso seria gasto sem venda possível | sem custo de mídia | pausa no dia certo; ritmo lido contra o prazo real | voltar a data de término anterior | 28/10 |
+| LA2 | 623: um humano confere em 28/10 a URL final dos anúncios. Se for a página do produto 623 (início em 01/08/2026), troca a URL para a 68637 no mesmo dia ou pausa a campanha, com exportação prévia, nunca excluir (correção de conformidade, fora da regra de uma mudança por semana; decisão 13 da Ufape e pedido R8 do cmo). Nenhuma campanha nova aponta para a 623 até a correção dela estar no site | a página mostra uma data já passada para um curso de 28/11 (NL1); a Ufape aprovou corrigir a 623 (decisão 13) | diária atual [CONFIRMAR], sem aumento | nenhum clique pago leva a página com data errada; a leitura dos criativos de 21/10 passa a valer | voltar a URL anterior ou reativar a campanha com as configurações exportadas | 28/10 |
+| LA3 | 573 e 68614: a Ufape corrige a visão de campanhas com as datas da planilha (14/11 e 28/11, decisão 12); um humano confere a data de término programada das duas campanhas e, se ela seguir a visão, ajusta para o dia útil anterior à data do curso | a divergência é só da planilha de mídia (NL2); gasto depois do curso seria gasto sem venda possível | sem custo de mídia | pausa no dia certo; ritmo lido contra o prazo real | voltar a data de término anterior | 28/10 |
 | LA4 | Ufape corrige as páginas de destino das ativas: 68614 sem a frase de certificação ligada ao regulador; 573 com um texto único de pagamento (U7 da 1.9). Até a correção, nenhuma verba nova nas duas e a leitura de conversão delas fica marcada "página com pendência" | a página é o elo "chegada" das duas campanhas; conformidade educacional (destino entrega o que o anúncio promete) | sem custo de mídia | destino coerente com o catálogo e com a regra de certificação | não se aplica | 30/10 |
-| LA5 | Congelar mudanças por desempenho em 573, 68614 e 623 até a primeira leitura com 3 a 7 dias de dados e metas da LP1; só valem as ações de conformidade e calendário (D12, D19, LA2 a LA4, LP5). De 03/11 a 19/11, registrar CPM e frequência de 573 lado a lado com a 698 e as provas de Cardiologia, e de 616 com o workshop e as provas de Anestesiologia, quando subirem | mudança antes da linha de base apaga a comparação e pode reabrir o aprendizado (623 aprende desde 21/10); CPM subindo nessa janela pode ser disputa interna (NL5) | sem custo de mídia | linha de base limpa para a 1.13 e para a revisão de 09/11 | liberar ajustes na revisão seguinte, com pedido | a partir de hoje até a primeira leitura numérica |
+| LA5 | Congelar mudanças por desempenho em 573, 68614 e 623 até a primeira leitura com 3 a 7 dias de dados e metas da LP1; só valem as ações de conformidade e calendário (D19, LA2 a LA4, LP5). De 03/11 a 18/11 (janela de sobreposição fixada pelo cmo, 12.6), registrar CPM, alcance e frequência de 573 lado a lado com a 698 e as provas de Cardiologia, e de 616 com o workshop e as provas de Anestesiologia, desde a subida dela (10/11, ou 19/11 se R4 for aprovado), como na EA3 da analise-de-midia-eventos | mudança antes da linha de base apaga a comparação e pode reabrir o aprendizado [SUPOSIÇÃO de regra da plataforma, conferir com anuncios-meta] (623 aprende desde 21/10); CPM subindo com CTR estável nessa janela é lido como disputa de leilão (NL5; NE1 e NE4 da analise-de-midia-eventos) | sem custo de mídia | linha de base limpa para a 1.13 e para a revisão de 09/11 | liberar ajustes na revisão seguinte, com pedido | a partir de hoje até a primeira leitura numérica |
 
 ---
 
@@ -297,8 +313,8 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 ## 12. Notas sobre arquivos de outros agentes (não alterados)
 
 - gestor-de-midia-livres-2026-10-26.md (1.11), seção 7: a encomenda pedia o diagnóstico "com a exportação do memorando". A exportação não chegou; este arquivo entrega a parte estrutural e o roteiro, e a versão numérica sai 2 dias úteis depois da exportação. A "leitura de 623 antes e depois de 21/10" só vale depois de LA2.
-- gestor-de-midia-livres-2026-10-26.md, seções 4.2 e 9 (LP4): trata 573 e 68614 como "datas a confirmar" (P6). Pelas fichas, página e planilha já concordam; a divergência é da visão (NL2). Sugestão para a próxima versão: P6 nesses dois itens vira "corrigir a visão" e não "confirmar a data do curso".
-- gestor-de-midia-geral-2026-10-26.md (memorando), D19, e gestor de Livres, seção 6: o prazo de 31/10 para a página única de endoscopia e para o teste de rastreio cai num sábado (26/10/2026 é segunda). Este arquivo usa 30/10 (sexta) em LA2.
+- gestor-de-midia-livres-2026-10-26.md, seções 4.2 e 9 (LP4): tratava 573 e 68614 como "datas a confirmar" (P6). Com a decisão 12, a versão 2 do gestor usa as datas da planilha; P6 nesses dois itens vira "corrigir a visão".
+- gestor-de-midia-geral-2026-10-26.md (memorando), D19, e gestor de Livres, seção 6: o prazo de 31/10 para a página única de endoscopia e para o teste de rastreio cai num sábado (26/10/2026 é segunda). Na versão 2, com a decisão 13 e o pedido R8 do cmo, LA2 troca a URL ou pausa já em 28/10.
 - gestor-de-midia-geral-2026-10-26.md, seção 5.2, linha 623: "não mexer até 28/10" continua certo para criativos; a URL é exceção de conformidade (LA2).
 - analise-de-campanha-livres-2026-10-26.md, seção 2.3 (623): o critério pede para "resolver a duplicidade"; NL1 sugere que pode não ser duplicidade, e sim duas turmas (III em agosto, IV em novembro). Fica para a Ufape confirmar.
 - gestor-de-midia-livres-2026-10-26.md, seção 3 e LP10: as exclusões de público começam em 20/11, mas a sobreposição com as provas e com o workshop começa em 03/11 (NL5). Não peço exclusão nova (o memorando, 4.4, prefere controlar frequência a excluir públicos entre campanhas); peço só a leitura lado a lado (LA5).
@@ -347,6 +363,16 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 ---
 
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo, pela revisão qa-de-marketing-geral-2026-10-26-loteC e pelas decisões 12 e 13 da Ufape:
+- **Tabela de correspondência (D12):** nova seção 8.6, que liga as campanhas de 573, 68614, 623 e 68618 à chave livres_<código>, com nome e utm_campaign a preencher pela exportação (LA1), sem renomear.
+- **Datas da planilha (decisão 12):** NL2 e NL3 fechados quanto à data; 573 em 14/11, 68614 em 28/11 e 68618 em 18/12 nas leituras, na tabela de decisão e em LA3 (que passa a pedir só a correção da visão e a conferência do término); a regra de anúncio sem data sai.
+- **Página 623 (decisão 13; R8 do cmo):** LA2 troca a URL para a 68637 ou pausa em 28/10; nenhuma campanha nova aponta para a 623; a 68637 é o destino das campanhas novas da endoscopia.
+- **Leitura de leilão (NE1 e NE4):** janela de 03/11 a 18/11 fixada pelo cmo; 616 a partir de 10/11 ou de 19/11 com R4; registro lado a lado como a EA3 (LA5).
+- **AML1:** "criativo novo reinicia o aprendizado" e "pode reabrir o aprendizado" marcados como [SUPOSIÇÃO de regra da plataforma, conferir com anuncios-meta].
+- **AML2:** revisões pós-curso passam de sábado para segunda: 573 de 21/11 para 23/11 e 68614 e endoscopia de 05/12 para 07/12, junto das revisões semanais 4 e 6.
+
 ## Fatos (com fonte)
 
 - 21 linhas de Livres na visão: 3 ativas (623, 573, 68614), 4 pausadas (592, 99, 68668, 68618), 14 sem campanha; todas as 7 com status são só estáticas; 573 e 68614 com 5 ângulos; 623 com 3 criativos novos em 21/10/2026 (visão de campanhas; analise-de-campanha-livres, 1.1 e 1.4).
@@ -355,23 +381,27 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 - 573: página com "6 x de 550 reais no boleto", boleto pedido por e-mail à secretaria e "carta de crédito"; 68614: página com frase de certificação ligada ao regulador (selo); 68614: mínimo de 15 e máximo de 30, devolução total até 30 dias antes; 623 e 68637: mínimo de 15 (fichas).
 - Preços à vista e parcelas de 573, 68614, 623, 68637, 68618, 68668 e 99; status "aberto", "verificar" e "sem venda" (catálogo, seção 4).
 - Decisões e pedidos D12, D19, D21 (memorando); LP1 a LP14 (1.11 de Livres); provas de 03/11 a 26/11 com pico de 03/11 a 09/11 (gestor-de-midia-pos, 4.2 e PP3); mídia do workshop de 03/11 a 18/11 (gestor-de-midia-eventos, 1.6).
-- 26/10/2026 é segunda-feira; 31/10, 14/11 e 28/11 são sábados; 02/11 e 20/11 são feriados (calendário).
+- 26/10/2026 é segunda-feira; 31/10, 14/11, 21/11, 28/11 e 05/12 são sábados; 02/11 e 20/11 são feriados (calendário).
+- Valem as datas da planilha (decisão 12); a página 623 será corrigida e, até lá, nenhuma campanha nova aponta para ela (decisão 13) (docs/execucao-2026-10-26.md).
+- Padrão de nomes D12, pedidos R4 (616 em 19/11) e R8 (anúncios ativos da 623) e janela de sobreposição de 03/11 a 18/11 (plano do cmo, 12.6, 12.7 e 12.11).
 - Regras práticas de dados suficientes e tabela de sintomas (skill diagnostico-de-midia).
 
 ## Suposições
 
 - [SUPOSIÇÃO] 623 é a página da turma III (agosto de 2026) e 68637 a da turma IV (novembro de 2026), e não uma duplicidade (NL1). Origem: número romano no nome e data de cada página.
 - [SUPOSIÇÃO] A data da visão para 68618 pode ter vindo de outra turma ou da Pós 352 (NL3). Origem: 22/05/2027 fica a 2 dias de 24/05/2027.
+- [SUPOSIÇÃO de regra da plataforma] Criativo novo e mudança antes da linha de base reiniciam ou reabrem o aprendizado (AML1; conferir com anuncios-meta).
 - [SUPOSIÇÃO] Venda por boleto via secretaria não carrega UTM, e o custo por venda de 573 sai maior do que é (NL4). Origem: texto da página.
-- [SUPOSIÇÃO] Conjuntos da mesma conta com públicos parecidos (cardio; anestesia) disputam a entrega de 03/11 a 19/11 (NL5). Origem: calendários dos planos de Pós e Eventos.
+- [SUPOSIÇÃO] Conjuntos da mesma conta com públicos parecidos (cardio; anestesia) disputam a entrega de 03/11 a 18/11 (NL5; janela do plano do cmo, 12.6). Origem: calendários dos planos de Pós e Eventos.
 - [SUPOSIÇÃO] 573 e 68614 rodam desde o início de outubro, se seguiram a janela da visão (candidatos a fadiga). Origem: janela de 4 a 8 semanas do contexto da linha aplicada às datas da visão.
 - Usadas como estão, das entradas: N = 2 semanas em R6, escala em passos de até 20% da diária, janela de atribuição de 7 dias, otimização para compra ou início de checkout conforme o rastreio (todas [SUPOSIÇÃO] do 1.11 e da 1.32).
 
 ## Dados que faltam
 
 - [CONFIRMAR] Exportação agregada de Meta e Google de 573, 68614, 623 e 68618 por campanha, anúncio e semana, com URL final, data de criação, data de término programada, formato e ângulo (LA1).
-- [CONFIRMAR] URL final dos anúncios de 623 e a escolha da Ufape entre a correção da página 623 e a 68637 (LA2).
-- [CONFIRMAR] Datas de 573 e 68614 confirmadas pela Ufape e visão corrigida (LA3); data de 68618 (LP6).
+- [CONFIRMAR] URL final dos anúncios de 623 (LA2); data da correção da página 623 e qual página segue à venda depois dela (U5 do cmo).
+- [CONFIRMAR] Visão de campanhas corrigida com as datas da planilha e data de término programada de 573 e 68614 (LA3).
+- [CONFIRMAR] Nome e utm_campaign atuais de cada campanha, para a tabela de correspondência (8.6); aprovação humana dos pedidos R4 e R8 do cmo.
 - [CONFIRMAR] Correção das páginas de 68614 (frase de certificação) e de 573 (texto de pagamento) (LA4).
 - [CONFIRMAR] Pedidos pagos e reembolsos por código e semana, na loja e na secretaria (boleto de 573), com e sem UTM.
 - [CONFIRMAR] Metas em reais (LP1): fração à vista, taxas, devolução, custo variável, margem, q e k por produto.

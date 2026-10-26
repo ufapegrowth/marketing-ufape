@@ -4,6 +4,7 @@
 - **Linha:** eventos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.12 da camada 1 do plano do cmo (diagnostico-de-midia nas campanhas ativas e pausadas)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para as análises de mídia: tabela de correspondência entre nomes antigos e o padrão D12, datas da planilha e leitura de leilão de NE1 e NE4; ajustes AME1 a AME3 do qa-de-marketing-geral-2026-10-26-loteC). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Escopo:** Workshop Brasileiro de Neuromonitorização (20 e 21/11/2026, presencial, e o ingresso transmitido e gravado, produto 68634); linha "Paciente Grave" da visão, com campanha ativa (700 ou linha sem página [CONFIRMAR]); linha "Internacional de Coagulação" (202 [CONFIRMAR]), sem campanha; Simpósio Plantonista Veterinário (10/10/2026), só histórico. Eventos não tem campanha pausada na visão.
 - **Status:** rascunho para o gestor-de-midia, para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Natureza:** não existe nenhum número de desempenho nas fontes (gasto, impressões, cliques, CPM, CTR, visitas, inícios de checkout, inscrições pagas, custo por inscrição). A exportação pedida no memorando do gestor (seção 7.1) ainda não chegou. Este diagnóstico é estrutural: cruza a visão de campanhas com o catálogo, a ficha do evento e a data única da mídia do workshop decidida pelo gestor (1.11 de eventos, seção 1) e escreve, antes dos números, o roteiro de leitura. Todo número de desempenho aparece como [DADO NÃO FORNECIDO] ou [CONFIRMAR]. Nenhuma métrica foi inventada.
@@ -28,9 +29,10 @@
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analise-de-campanha-eventos-2026-10-26.md (1.32)
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md (1.10; seções 5.3, 6.1 e 6.3)
   - Referência só de formato e método (conteúdo não copiado): /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-pos-2026-10-26.md
+  - Versão 2: /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12); /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (AME1 a AME3); /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md (versão 2: GE1, EA3 e EA4 incorporadas)
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web. Nenhuma exportação de plataforma, de loja ou de CRM recebida.
 - **Dados pessoais:** nenhum lido nem citado. Nenhum docente é nomeado; nenhum aluno, candidato ou participante aparece.
-- **Nome do evento:** "Workshop Brasileiro de Neuromonitorização" (decisão da Ufape de 26/10/2026). O nome antigo da planilha aparece neste arquivo só entre aspas, como divergência a corrigir no anúncio, nunca como nome do evento.
+- **Nome do evento:** "Workshop Brasileiro de Neuromonitorização" (decisão da Ufape de 26/10/2026). Desde a versão 2 (AME1), o nome antigo da planilha não é escrito neste arquivo: a linha V36 aparece como "nome antigo da planilha (ver ficha do evento, linha 3)", para que o nome não chegue ao criativos-de-anuncio nem às peças.
 - **Marcadores:** [DADO NÃO FORNECIDO] é número de desempenho que só a exportação traz. [CONFIRMAR] é fato que a Ufape precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso que não está no catálogo. [SUPOSIÇÃO] é hipótese deste agente, com a origem. "Regra prática" é regra de método da skill, não meta.
 - **Unidade de julgamento em Eventos:** a inscrição paga sem cupom, por ingresso (presencial e transmitido). Inscrição com o cupom SIMPNEUROMONIT é resultado da base e é lida à parte (1.11 de eventos, seção 2.1 e critério 4). Onde a skill diz CPL e custo por matrícula, aqui se lê custo por visita qualificada e por início de checkout (antecedentes) e custo por inscrição (CImax).
 
@@ -76,7 +78,7 @@ Contas de conferência: 30 x R$ 1.250,00 = R$ 37.500,00 de receita de tabela do 
 
 | Linha da visão | Nome na visão | Data na visão | UF | Campanha | Formatos | Ângulos | Item no catálogo |
 |---|---|---|---|---|---|---|---|
-| V36 | "I SIMPÓSIO BRASILEIRO DE NEUROMONITORIZAÇÃO VETERINÁRIA" | 20/11/2026 | SP | ativa | estático | "não se aplica o racional de 5 ângulos para eventos" (comentário da visão) | Workshop Brasileiro de Neuromonitorização, aberto (catálogo, seção 9) |
+| V36 | nome antigo da planilha (ver ficha do evento, linha 3) | 20/11/2026 | SP | ativa | estático | "não se aplica o racional de 5 ângulos para eventos" (comentário da visão) | Workshop Brasileiro de Neuromonitorização, aberto (catálogo, seção 9) |
 | V67 | "Paciente Grave Multidiciplinar Foco em casos Clinicos" | 15/11/2027 | ONLINE | ativa | estático | sem 5 ângulos | 700 (gravação, aberto contínuo) ou a linha de mesmo nome "sem página, só na planilha" [CONFIRMAR] |
 | V66 | "Internacional de Coagulação" | 15/11/2027 | ONLINE | sem campanha | não se aplica | não se aplica | 202 (online, aberto contínuo) [CONFIRMAR] |
 | V28 | "Simpósio Plantonista Veterinário" | 10/10/2026 | SP | sem campanha | não se aplica | não se aplica | sem página, só na planilha; data passada |
@@ -120,7 +122,7 @@ Total de Eventos na visão: 4 linhas, 2 ativas, 0 pausadas, 2 sem campanha (anal
 
 | # | Achado | Evidência | Fato ou hipótese | O que muda |
 |---|---|---|---|---|
-| NE1 | A 1.11 de eventos diz que "não há sobreposição de veiculação" com as provas porque a mídia do workshop termina em 19/11. Mas a campanha das provas roda de 03/11 a 26/11, com pico de 03/11 a 09/11, e o próprio plano da Pós prevê controle de frequência nas áreas de anestesia (A1) e neurologia (A12). A 616 (anestesia felina, Livres) sobe em 10/11 com público de interesse em anestesia | gestor-de-midia-pos, 4.2 e PP3; gestor-de-midia-eventos, 4.2; gestor-de-midia-livres, 4.4 | as datas são fato; o efeito no leilão é [SUPOSIÇÃO, origem: conjuntos da mesma conta com públicos parecidos disputam a mesma entrega] | A sobreposição existe de 03/11 a 18/11, justamente na entrada de C1 e C2 e na decisão de 09/11. CPM subindo com CTR estável nessa janela é lido primeiro como disputa interna (tabela de sintomas da skill), não como falha do criativo. Não peço exclusão de público (memorando, 4.4, prefere controlar frequência); peço leitura lado a lado (EA3) |
+| NE1 | A versão 1 da 1.11 de eventos dizia que "não há sobreposição de veiculação" com as provas porque a mídia do workshop termina em 19/11. Mas a campanha das provas roda de 03/11 a 26/11, com pico de 03/11 a 09/11, e o próprio plano da Pós prevê controle de frequência nas áreas de anestesia (A1) e neurologia (A12). A 616 (anestesia felina, Livres) sobe em 10/11, ou em 19/11 se o pedido R4 do cmo for aprovado, com público de interesse em anestesia | gestor-de-midia-pos, 4.2 e PP3; gestor-de-midia-eventos, 4.2; gestor-de-midia-livres, 4.4; plano do cmo, 12.6 | as datas são fato; o efeito no leilão é [SUPOSIÇÃO, origem: conjuntos da mesma conta com públicos parecidos disputam a mesma entrega] | A sobreposição existe de 03/11 a 18/11, justamente na entrada de C1 e C2 e na decisão de 09/11 (confirmado pelo cmo em 12.6; o gestor corrigiu o trecho na versão 2, GE1). CPM subindo com CTR estável nessa janela é lido primeiro como disputa interna (tabela de sintomas da skill), não como falha do criativo. Sem exclusão de público entre campanhas e sem anúncio que misture ofertas (regra do cmo); vale a leitura lado a lado (EA3). Com R4 aprovado, a 616 sai da janela e a sobreposição fica entre o workshop e as provas |
 | NE2 | V66 ("Internacional de Coagulação") e V67 ("Paciente Grave") têm a mesma data, 15/11/2027, e a mesma UF, "ONLINE". O 700 é "Gravação", de São Paulo, sem data; o 202 é online, turma III, sem data | visão; fichas 700 e 202; catálogo, seção 9 | a coincidência é fato; a leitura de que as duas linhas descrevem edições futuras de 2027 (ou uma data provisória) e não os gravados é [SUPOSIÇÃO] | Se valer, a campanha ativa de V67 anuncia uma edição sem página nem preço: o caso de pausa em 28/10 (EVM10) fica mais forte, e o 700 continua sem campanha própria até 02/12 (EVM14). A conferência de 28/10 deve perguntar à Ufape o que é a data de 15/11/2027 nas duas linhas (EA2) |
 | NE3 | A campanha do workshop já estava ativa quando a Ufape decidiu, em 26/10, o nome oficial e o destino (página neuro-summit). A planilha ainda chama o evento pelo nome antigo e o único produto do evento na loja é o 68634 | visão (V36); briefing, decisões 6 e 7; catálogo, seção 4; ficha | os fatos são esses; que os anúncios atuais usem o nome antigo ou levem ao 68634 é [SUPOSIÇÃO, origem: a campanha é anterior à decisão] | W1, W2 e W3 do memorando deixam de ser checagem de rotina e passam a ser a primeira leitura do diagnóstico: se a URL for o 68634, o anúncio vende o ingresso de R$ 450,00 com 24 h, e o CTR e a conversão de antes de 28/10 não servem como linha de base do presencial (EA2) |
 | NE4 | Com a sequência única, a leitura de 09/11 (decisão de 10/11) usa 5 dias de dados (03/11 a 07/11) de um conjunto frio que acabou de receber C1 e C2, e de um público que, na mesma semana, recebe o pico das provas | 1.11, seção 1.6; NE1 | fato de calendário | Na decisão de 09/11, a opção (a) (aumento de verba) só vale se o custo por início de checkout estiver dentro do CCmax com o CPM estável ou explicado pela sobreposição; se o CPM subiu e o CTR ficou estável, a leitura é "leilão", e a escolha entre (a) e (b) não deve ser feita pelo CPL aparente (seção 8.2) |
@@ -170,13 +172,13 @@ Prazo: 2 dias úteis depois de receber a exportação (encomenda da 1.11 de even
 | G1 | Exportação sem dado pessoal | só contagens e somas | devolver; não abrir |
 | G2 | Campos do memorando (7.1) mais URL final, data de criação, texto do título (para conferir o nome) e evento de otimização por anúncio | todos presentes para V36 e V67 | ler o que existe e marcar o resto [DADO NÃO FORNECIDO] |
 | G3 | Granularidade | uma linha por conjunto, anúncio e dia (o evento tem só 23 dias de mídia; semana é grossa demais) | só semanal: sem leitura de fadiga nem da decisão de 09/11 |
-| G4 | Ligação com o ingresso | chave do presencial e código 68634 no nome ou no utm_campaign (padrão provisório utm_campaign=neuro-summit-2026, [SUPOSIÇÃO] do 1.11) | inscrição sem chave vai para "não atribuída" |
+| G4 | Ligação com o ingresso | chave eventos_neuro26 no utm_campaign (D12 do cmo), com a chave do presencial e o código 68634 para separar os ingressos; a campanha atual, que não é renomeada, entra pela tabela de correspondência (8.6) | inscrição sem chave e fora da tabela vai para "não atribuída" |
 | G5 | Contexto do período | data das correções W1 a W9; data do convite à base (30/10); entrada de C1, C2 e remarketing (03/11) | mudança sem data registrada vira hipótese |
 | G6 | Conciliação | inscrições pagas da loja por ingresso e por cupom, por dia, contra o gerenciador | diferença acima da tolerância: INVESTIGAR |
 
 ### 8.2 Funil de cima para baixo: métrica, corte, limiar e decisão disparada
 
-Limiares de custo são [CONFIRMAR] até a EVM2. Limiares de tendência são regras práticas da skill. A referência é a própria campanha (linha de base de 28/10 a 02/11), nunca benchmark externo.
+Limiares de custo são [CONFIRMAR] até a EVM2. Limiares de tendência são regras práticas da skill. A referência é a própria campanha (linha de base única de 28/10 a 29/10, antes do convite à base de 30/10), nunca benchmark externo. A semana de 30/10 a 02/11 é lida à parte, como efeito do convite à base sem mudança de mídia, e não entra na linha de base.
 
 | Etapa | Métrica e conta | Cortes | Limiar | Decisão que dispara |
 |---|---|---|---|---|
@@ -196,7 +198,7 @@ Limiares de custo são [CONFIRMAR] até a EVM2. Limiares de tendência são regr
 
 | Grupo | Itens | O que ler | Para que serve | Decisão possível |
 |---|---|---|---|---|
-| Workshop, campanha atual (até 02/11) | V36 | URL e título de cada anúncio; gasto desde a criação; visitas, inícios de checkout e inscrições por ingresso, com e sem cupom | linha de base (1.32, EV-1 da 1.9) e confirmação de NE3 | só correções de conformidade (D5); nenhuma mudança por desempenho |
+| Workshop, campanha atual (até 02/11) | V36 | URL e título de cada anúncio; gasto desde a criação; visitas, inícios de checkout e inscrições por ingresso, com e sem cupom | linha de base de 28/10 a 29/10 (1.32, EV-1 da 1.9); 30/10 a 02/11 lido à parte (efeito da base); confirmação de NE3 | só correções de conformidade (D5); nenhuma mudança por desempenho |
 | Workshop, frio de 03/11 | C1 e C2 | custo por início de checkout por conceito; CPM lado a lado com as provas de anestesia e neurologia (NE1) | decisão de 09/11 (opções a, b ou c) | uma mudança em 10/11 |
 | Workshop, remarketing | C3 e C2; B7 em 14/11 | frequência, CTR, custo por início de checkout | leitura de T3 em 13/11 | B7 em 14/11; pausa em 18/11 |
 | Workshop, transmitido | C5, só com 68634 corrigido | inscrições do transmitido; canibalização do presencial (mistura por ingresso, H3 da 1.32) | decisão de manter até 19/11 | pausa em 19/11 |
@@ -232,6 +234,18 @@ Toda conta aparece com os números usados.
 | 23/11 (segunda) | -3 | revisão 4, com a semana do evento |
 | 30/11 (segunda) | -10 | relatório final (modelo 3.3 da 1.32) |
 
+### 8.6 Tabela de correspondência entre nomes antigos e o padrão D12 (versão 2)
+
+O plano do cmo (12.7, D12) fixa a chave do workshop como `eventos_neuro26` e a de cada gravado como `eventos_<código>`; a campanha atual do workshop não é renomeada (D12) e esta tabela liga o nome antigo à chave. Nome e utm_campaign atuais chegam com a exportação (EA1) e com a conferência de 28/10 (EA2).
+
+| Linha da visão | Produto | Chave D12 | Nome da campanha no gerenciador | utm_campaign atual | Tratamento |
+|---|---|---|---|---|---|
+| V36, nome antigo da planilha (ver ficha do evento, linha 3), 20/11/2026 | Workshop Brasileiro de Neuromonitorização (presencial; transmitido 68634) | eventos_neuro26 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | não renomear; conjuntos novos de 03/11 e 14/11 já no padrão (eventos_neuro26_meta_<objetivo>_<público>_202611); a UTM corrigida em W1 leva a chave |
+| V67, "Paciente Grave Multidiciplinar Foco em casos Clinicos", 15/11/2027 | 700 ou a linha "sem página" [CONFIRMAR] (EVM10) | eventos_700, se o destino for o 700 | [DADO NÃO FORNECIDO] | [DADO NÃO FORNECIDO] | não renomear; se o destino não for o 700, a campanha fica fora da chave e da leitura até a decisão de EVM10 |
+| V66, "Internacional de Coagulação" | 202 [CONFIRMAR] | eventos_202 | sem campanha | sem campanha | fora da mídia paga (EVM16) |
+
+Regra de leitura: inscrição com utm_campaign que não começa pela chave e não está nesta tabela vai para "não atribuída" (G4). Mensagens do CRM do workshop usam utm_medium=crm e utm_campaign=eventos_neuro26_202610 (D11 e D12) e são lidas à parte da mídia paga.
+
 ---
 
 ## 9. Tabela de decisão (estrutural, hoje)
@@ -258,9 +272,9 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 |---|---|---|---|---|---|---|
 | EA1 | Enviar a exportação do memorando (7.1) para V36 e V67, por anúncio e por dia, com URL final, data de criação, título e evento de otimização; e, da loja, inscrições pagas por ingresso e por uso do cupom, por dia, somadas, com e sem UTM | sem ela nenhum elo pode ser lido, e a linha de base do workshop tem de existir antes de 03/11 | sem custo de mídia | primeira versão numérica em 30/10, antes da subida | não se aplica | 28/10 (D6) |
 | EA2 | Na conferência de 28/10 (D5 e EVM10), registrar por anúncio: URL final, nome usado no título e no texto (oficial ou o antigo da planilha) e se algum leva à página do 68634; e perguntar à Ufape o que significa a data de 15/11/2027 nas linhas V66 e V67 | a campanha do workshop é anterior à decisão de 26/10 (NE3); V67 pode estar anunciando uma edição sem página (NE2) | sem custo de mídia; diárias atuais [CONFIRMAR], sem aumento | linha de base do presencial separada do que foi venda do transmitido; decisão de V67 com base certa | não se aplica (conferência); correções se desfazem reativando o anúncio anterior, pausado e não excluído | 28/10 |
-| EA3 | De 03/11 a 18/11, registrar CPM, alcance e frequência do frio e do remarketing do workshop lado a lado com os conjuntos das provas de Anestesiologia e de Neurologia e, de 10/11, com a 616; rodar a ferramenta de sobreposição de públicos do gerenciador em 06/11 e anexar ao relatório de 09/11 | a sobreposição de público existe na mesma janela (NE1) e pode distorcer a decisão de 10/11 (NE4) | sem custo de mídia | decisão de 10/11 sem confundir disputa de leilão com criativo fraco | não se aplica | 06/11 e 09/11 |
+| EA3 | De 03/11 a 18/11, registrar CPM, alcance e frequência do frio e do remarketing do workshop lado a lado com os conjuntos das provas de Anestesiologia e de Neurologia e, desde a subida dela (10/11, ou 19/11 com R4), com a 616; rodar a ferramenta de sobreposição de públicos do gerenciador em 06/11 [SUPOSIÇÃO de recurso da plataforma, conferir com anuncios-meta; se não houver, a leitura lado a lado de CPM e frequência basta] e anexar ao relatório de 09/11 | a sobreposição de público existe na mesma janela (NE1) e pode distorcer a decisão de 10/11 (NE4) | sem custo de mídia | decisão de 10/11 sem confundir disputa de leilão com criativo fraco | não se aplica | 06/11 e 09/11 |
 | EA4 | Antecipar o teste de rastreio da compra presencial e do transmitido (EVM4) para 30/10 (sexta), com a chave do presencial criada na loja e a UTM chegando ao pedido | 31/10 é sábado, véspera de feriado prolongado (NE5); sem rastreio a subida de 03/11 não pode ser lida | sem custo de mídia | um dia útil para corrigir antes de 03/11 | não se aplica | 30/10 |
-| EA5 | Congelar mudanças por desempenho na campanha atual do workshop até 03/11 e na campanha de V67 até a conferência; só valem correções de conformidade (D5) e a sequência única da 1.11 (EVM1 a EVM12) | a semana de 30/10 a 02/11 separa o efeito do convite à base do efeito da mídia (1.11, seção 1.3, item 4); mudança antes disso apaga a linha de base | sem custo de mídia | linha de base limpa para 03/11 e 09/11 | liberar na revisão de 03/11 | de hoje até 03/11 |
+| EA5 | Congelar mudanças por desempenho na campanha atual do workshop até 03/11 e na campanha de V67 até a conferência; só valem correções de conformidade (D5) e a sequência única da 1.11 (EVM1 a EVM12) | a semana de 30/10 a 02/11 separa o efeito do convite à base do efeito da mídia (1.11, seção 1.3, item 4) e é lida à parte; mudança antes disso apaga a linha de base de 28/10 a 29/10 | sem custo de mídia | linha de base limpa para 03/11 e 09/11 | liberar na revisão de 03/11 | de hoje até 03/11 |
 
 ---
 
@@ -277,10 +291,10 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 ## 12. Notas sobre arquivos de outros agentes (não alterados)
 
-- gestor-de-midia-eventos-2026-10-26.md (1.11), seção 4.2, último parágrafo: "não há sobreposição de veiculação" com as provas vale só para a fase 3 delas (20/11 a 26/11). As fases 1 e 2 (03/11 a 19/11) rodam junto com o frio e o remarketing do workshop (NE1). A regra de não excluir públicos entre campanhas continua certa; falta só a leitura lado a lado (EA3).
-- gestor-de-midia-eventos-2026-10-26.md, seção 6, e gestor-de-midia-geral (memorando), D8: o teste de rastreio de 31/10 cai num sábado (NE5); EA4 propõe 30/10.
+- gestor-de-midia-eventos-2026-10-26.md (1.11), seção 4.2: o trecho "não há sobreposição de veiculação" foi corrigido na versão 2 dele (GE1), com a janela de 03/11 a 18/11 e a EA3; o teste de rastreio do workshop passou para 30/10 (EA4), na sequência EVM1 confirmada pelo cmo (12.6).
+- gestor-de-midia-geral (memorando), D8: o teste de rastreio das provas segue em 31/10 (sábado) no memorando; a encomenda do cmo mudou só o teste do workshop. Fica a sugestão de NE5 para o D8 (30/10), a decidir pelo gestor.
 - gestor-de-midia-eventos-2026-10-26.md, seção 7: a encomenda pedia o diagnóstico com a exportação. A exportação não chegou; este arquivo entrega a parte estrutural e o roteiro; a versão numérica sai 2 dias úteis depois.
-- analise-de-campanha-eventos-2026-10-26.md, seção 3.1: o primeiro relatório semanal está em 02/11 (feriado) e a regra R4 usa "semanas até 20/11". Pela data única da 1.11, a revisão é em 03/11 e o ritmo do presencial conta até 18/11. Conflito para o cmo registrar em docs/andamento-planejamento.md (o mesmo de Livres, agora também em Eventos).
+- analise-de-campanha-eventos-2026-10-26.md, seção 3.1: o primeiro relatório semanal está em 02/11 (feriado) e a regra R4 usa "semanas até 20/11". Pela data única da 1.11, a revisão é em 03/11 e o ritmo do presencial conta até 18/11. Fechado pelo cmo (12.8, D15): quando a segunda-feira for feriado, relatório e revisão passam para o dia útil seguinte.
 - analise-de-campanha-eventos-2026-10-26.md, E6 e 2.3: ainda pedem "[CONFIRMAR autorização]" de docentes. Pela decisão 8 do briefing (26/10/2026), todos os docentes têm autorização de imagem e citação; a marca não se aplica mais.
 - analista-de-dados-geral-2026-10-26.md, seção 6.3: as hipóteses 1 e 2 para V67 ficam com uma terceira (NE2): edição futura de 2027 com data provisória, compartilhada com V66.
 
@@ -295,7 +309,7 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 | Plano do gestor-de-midia aprovado, com canais justificados | Pendente externo | 1.11 de eventos aguarda EVM1, EVM3 e EVM16 |
 | Metas de custo escritas antes de subir | Pendente externo | fórmulas na 1.11; valores em EVM2 |
 | Verba dentro do valor aprovado, com aprovador | Pendente externo | verba e aprovador [CONFIRMAR] |
-| Nomenclatura padrão | Pendente externo | padrão neuro26 e utm_campaign=neuro-summit-2026 [SUPOSIÇÃO do 1.11] até P15 |
+| Nomenclatura padrão | Pendente externo | padrão D12 do cmo (chave eventos_neuro26); campanha atual lida pela tabela de correspondência (8.6) |
 | UTMs completas e origem chegando à loja e ao CRM | Pendente externo | seção 6; portões G4 e G6; EA4 |
 | Pixel e API de Conversões no canal ativado | Pendente externo | EVM4 e EA4 |
 | Criativos em conformidade educacional | Pendente externo | este arquivo não cria criativo |
@@ -328,6 +342,17 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 
 ---
 
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-marketing-geral-2026-10-26-loteC:
+- **Tabela de correspondência (D12):** nova seção 8.6, que liga V36 à chave eventos_neuro26 e V67 a eventos_700 (se o destino for o 700), sem renomear; G4 e a auditoria passam a usá-la; sai o utm_campaign provisório da versão 1.
+- **Leitura de leilão (NE1 e NE4):** NE1 atualizado com a confirmação do cmo (sobreposição de 03/11 a 18/11, sem exclusão de público entre campanhas) e com a 616 em 10/11 ou em 19/11 se R4 for aprovado; EA3 com a mesma data.
+- **AME1:** o nome antigo da planilha deixa de ser escrito por extenso (linha V36 e nota do cabeçalho).
+- **AME2:** a ferramenta de sobreposição de públicos (EA3) marcada como [SUPOSIÇÃO de recurso da plataforma, conferir com anuncios-meta]; sem ela, basta a leitura lado a lado.
+- **AME3:** uma linha de base só, de 28/10 a 29/10 (antes do convite de 30/10); a semana de 30/10 a 02/11 é lida à parte (8.2, 8.3 e EA5).
+- **Datas da planilha (decisão 12):** nada muda neste arquivo; o workshop segue em 20 e 21/11/2026 e as datas de 68662 e 662 não entram na linha eventos.
+- Notas da seção 12 atualizadas: GE1 e EA4 aplicados pelo gestor; relatório em feriado fechado pelo cmo (D15).
+
 ## Fatos (com fonte)
 
 - Workshop Brasileiro de Neuromonitorização: 20 e 21/11/2026, sexta teórica e sábado prático, Av. Tiradentes, 960, Unidade 2, São Paulo; 16 h no presencial; 30 vagas; presencial R$ 1.250,00; transmitido e gravado, só teoria, R$ 450,00 (68634); cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno com comprovação na secretaria; destino das campanhas: página neuro-summit; nome oficial e evento liberado em 26/10/2026; todos os docentes com autorização de imagem e citação (catálogo, seção 9; ficha do evento; briefing, decisões 6 a 8).
@@ -335,7 +360,8 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 - 700: aberto (contínuo), gravação, São Paulo, turma I, R$ 780,00 à vista ou 10x de R$ 98,00; 202: aberto (contínuo), online, turma III, 8 h, R$ 285,00 à vista ou 6x de R$ 78,00 (catálogo, seção 9; fichas).
 - Visão: V36 ativa, estático, 20/11/2026; V67 ativa, estático, sem 5 ângulos, 15/11/2027, ONLINE; V66 sem campanha, 15/11/2027, ONLINE; V28 sem campanha, 10/10/2026 (visão de campanhas; analista 1.10, 6.1 e 6.3).
 - Data única da mídia do workshop: criativos 1 e 2 em 03/11, mudança única do frio em 10/11, B7 e transmitido em 14/11, pausa do presencial em 18/11 às 23h59 e do transmitido e da base em 19/11 às 23h59 (gestor-de-midia-eventos, seção 1.6, EVM1).
-- Campanha das provas de bolsa de 03/11 a 26/11, pico de 03/11 a 09/11, controle de frequência em anestesia e neurologia (gestor-de-midia-pos, 4.2 e PP3); 616 de 10/11 a 04/12 com público de interesse em anestesia (gestor-de-midia-livres, 3 e 4.4).
+- Campanha das provas de bolsa de 03/11 a 26/11, pico de 03/11 a 09/11, controle de frequência em anestesia e neurologia (gestor-de-midia-pos, 4.2 e PP3); 616 de 10/11 a 04/12, ou de 19/11 a 04/12 se o pedido R4 do cmo for aprovado, com público de interesse em anestesia (gestor-de-midia-livres, versão 2, 3 e 4.4).
+- Sobreposição de público de 03/11 a 18/11, sem exclusão de público entre campanhas; sequência EVM1 com o teste de rastreio em 30/10; padrão de nomes D12 com a chave eventos_neuro26 (plano do cmo, 12.6 e 12.7).
 - 26/10/2026 é segunda-feira; 31/10 e 14/11 são sábados; 02/11 e 20/11 são feriados (calendário).
 - Regras práticas de dados suficientes e tabela de sintomas (skill diagnostico-de-midia).
 
@@ -344,14 +370,16 @@ Executa: humano no gerenciador ou na Ufape. Aprovador: a pessoa do marketing que
 - [SUPOSIÇÃO] V66 e V67 descrevem edições futuras de 2027 ou têm data provisória, e não os gravados 700 e 202 (NE2). Origem: mesma data e mesma UF nas duas linhas; 700 e 202 sem data no catálogo.
 - [SUPOSIÇÃO] Os anúncios atuais do workshop podem usar o nome antigo ou levar ao 68634 (NE3). Origem: a campanha é anterior à decisão de 26/10.
 - [SUPOSIÇÃO] Conjuntos da mesma conta com públicos de anestesia e neurologia disputam a entrega de 03/11 a 18/11 (NE1). Origem: calendários dos planos de Pós, Livres e Eventos.
+- [SUPOSIÇÃO de recurso da plataforma] Ferramenta de sobreposição de públicos disponível na conta (EA3, AME2; conferir com anuncios-meta).
 - [SUPOSIÇÃO] Remarketing de público pequeno e especializado sobe a frequência rápido em 16 dias. Origem: público-alvo da ficha e janela da 1.11.
-- Usadas como estão, das entradas: N = 1 semana em R6 no workshop, aumento de até 20% da diária, janela de 30 dias no remarketing, otimização para visualização da página ou início de checkout, utm_campaign=neuro-summit-2026 (todas [SUPOSIÇÃO] da 1.11 e da 1.32).
+- Usadas como estão, das entradas: N = 1 semana em R6 no workshop, aumento de até 20% da diária, janela de 30 dias no remarketing, otimização para visualização da página ou início de checkout (todas [SUPOSIÇÃO] da 1.11 e da 1.32).
 
 ## Dados que faltam
 
 - [CONFIRMAR] Exportação de V36 e V67 por anúncio e dia, com URL final, data de criação, título e evento de otimização (EA1).
 - [CONFIRMAR] Inscrições pagas por ingresso e por uso do cupom, por dia, com e sem UTM; chave de rastreio do presencial na loja (EA1, EA4).
 - [CONFIRMAR] Destino de V67, ligação com o 700 e significado da data de 15/11/2027 em V66 e V67 (EA2).
+- [CONFIRMAR] Nome e utm_campaign atuais de V36 e V67, para a tabela de correspondência (8.6); aprovação humana do pedido R3 do cmo (sequência EVM1 e teste de 30/10).
 - [CONFIRMAR] Metas em reais (EVM2): meta de inscritos, inscritos pagos, vagas restantes, Nb, taxa, custo variável, margem, v e k; fim das inscrições de cada ingresso.
 - [CONFIRMAR NO CATÁLOGO] Condição de pagamento do presencial.
 - [CONFIRMAR] Correção do 68634 (data, carga horária, o que o ingresso entrega).

@@ -4,6 +4,7 @@
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.11 da camada 1 do plano do cmo (metas-de-custo em três cenários e divisão de verba por canal)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para este arquivo: L3 de 616 a partir de 19/11 se R4 for aprovado, relatório em 03/11 e frase D13; ajustes GL1 e GL2 do qa-de-marketing-geral-2026-10-26-loteB). Aplica também as decisões 12 (datas da planilha) e 13 (página 623) da Ufape, que a estrategia-de-midia-livres versão 2 deixou para o gestor. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Relação com o memorando da onda 1:** este plano não repete o memorando saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (versão 2, já revisada). As decisões D8, D12, D19 e D21, as fórmulas de Livres da seção 7.3, a receita de lista da seção 7.5 e o pedido de dados das seções 7.1 e 7.2 valem como estão e são citados pelo número. Aqui entra o que faltava para Livres: metas por cenário adaptadas à compra direta (custo por venda, não custo por lead), a conta pronta de cada item datado do trimestre e dos contínuos por faixa de preço, a divisão da verba por frente, fase e canal, as encomendas e os pedidos novos.
 - **Entradas lidas:**
@@ -12,7 +13,9 @@
   - /home/user/marketing-ufape/CLAUDE.md
   - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
   - /home/user/marketing-ufape/docs/andamento-planejamento.md (seção "Conflitos entre saídas para o cmo resolver")
-  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 2, 3, 4, 5, 7 e 8)
+  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 2, 3, 4, 5, 7 e 8; na versão 2, também a seção 12, conciliação da camada 1)
+  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (ajustes GL1 e GL2, versão 2)
+  - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-livres-2026-10-26.md (versão 2, só o cabeçalho e os trechos sobre a decisão 12, para alinhar as datas)
   - /home/user/marketing-ufape/contexto/ufape-geral.md
   - /home/user/marketing-ufape/contexto/cursos-livres.md
   - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (cabeçalho, "Como usar" e seções 4 a 8)
@@ -34,7 +37,7 @@
 
 ## 0. Situação em uma frase e aviso ao cmo
 
-**Situação:** a mídia de Livres no trimestre tem cinco frentes datadas (reta final dos presenciais de novembro, 616 em 05/12, 68618 em 18/12 se a data valer, aquecimento de 68638 em janeiro) e uma frente contínua (45 produtos sem status de mídia), a venda é compra direta na loja com tickets de R$ 96,00 a R$ 4.060,80, nenhuma meta de custo fecha em reais porque faltam verba, mistura de pagamento, taxas, reembolso, custo variável e margem, e este plano entrega as fórmulas, a conta pronta por item e a divisão da verba em percentuais para que o número entre sem mudar a lógica.
+**Situação:** a mídia de Livres no trimestre tem quatro frentes datadas (reta final dos presenciais de novembro, 616 em 05/12, 68618 em 18/12, data da planilha, aquecimento de 68638 em janeiro) e uma frente contínua (35 contínuos elegíveis, 22 gravados e 13 minicursos, dos 45 sem status de mídia), a venda é compra direta na loja com tickets de R$ 96,00 a R$ 4.060,80, nenhuma meta de custo fecha em reais porque faltam verba, mistura de pagamento, taxas, reembolso, custo variável e margem, e este plano entrega as fórmulas, a conta pronta por item e a divisão da verba em percentuais para que o número entre sem mudar a lógica.
 
 **Aviso ao cmo (passo 1 do método):** não dá para afirmar se a conta fecha. Quatro fatos pesam:
 
@@ -51,10 +54,10 @@
 
 | Frente | Itens (catálogo) | Janela | Onde está a decisão |
 |---|---|---|---|
-| Ativas da onda 1 | 573, 68614, 623 (e 68637, duplicado) | até a data de cada uma | Memorando, seção 5.2, D12 (573 e 68614 sem data no anúncio) e D19 (página única entre 623 e 68637). Sem verba nova nas diárias atuais |
-| L1. Reforço da reta final dos presenciais de novembro | 573 (14/11 no catálogo, 29/11 na visão), 68614 (28/11 no catálogo, 18/12 na visão), página escolhida entre 623 e 68637 (28/11) | 03/11 até a data de cada um | **Novo aqui:** remarketing de visitantes e busca por técnica (seções 3 e 4.2, LP4) |
+| Ativas da onda 1 | 573, 68614, 623 (e 68637, duplicado) | até a data de cada uma | Memorando, seção 5.2, D12 e D19. Sem verba nova nas diárias atuais. Versão 2: as datas da planilha valem (decisão 12: 573 em 14/11, 68614 em 28/11), então o anúncio pode levar a data e D12 deixa de pedir anúncio sem data; os anúncios ativos que levam à 623 têm a URL conferida em 28/10 e trocada para a 68637 ou pausados, por humano (decisão 13; pedido R8 do cmo) |
+| L1. Reforço da reta final dos presenciais de novembro | 573 (14/11, data da planilha; a visão diz 29/11), 68614 (28/11, data da planilha; a visão diz 18/12), endoscopia (28/11) com campanha nova só na 68637 até a correção da 623 (decisão 13) | 03/11 até a data de cada um | **Novo aqui:** remarketing de visitantes e busca por técnica (seções 3 e 4.2, LP4) |
 | L2. Contínuos: remarketing | gravados e minicursos sempre ligados (seção 2.4) | 10/11/2026 a 24/01/2027 | **Novo aqui** (seções 3 e 4.3, LP9) |
-| L3. Datados de dezembro | 616 (05/12, online com encontro presencial), 68618 (18/12, só se P6 fechar) | 616: 10/11 a 04/12; 68618: 19/11 a 17/12 | **Novo aqui** (seções 2.4, 4.4, LP6 e LP7). 68618 está pausada na visão |
+| L3. Datados de dezembro | 616 (05/12, online com encontro presencial), 68618 (18/12, data da planilha, decisão 12) | 616: 19/11 a 04/12 se R4 do cmo for aprovado, senão 10/11 a 04/12; 68618: 19/11 a 17/12 | **Novo aqui** (seções 2.4, 4.4, LP6 e LP7). 68618 está pausada na visão |
 | L4. Aquecimento de 2027 | 68638 POCUS (06/03/2027) | 11/01 a 24/01/2027 neste trimestre | **Novo aqui** (LP13), só com carga horária no catálogo |
 | L5. Contínuos: público frio e busca | faixa 1 (frio e busca) e faixa 2 (só busca) da seção 2.4 | 07/12/2026 a 24/01/2027 | **Novo aqui** (LP12), só com o custo por venda máximo conservador escrito |
 | L6. Testes condicionados | YouTube (amostra de aula ou Shorts) | bloco 2 em diante | **Novo aqui** (LP14); vai ao cmo |
@@ -213,8 +216,8 @@ Nenhuma verba existe hoje [CONFIRMAR]. Tudo abaixo é percentual da **verba nova
 | Frente | Janela | Parte da verba nova [SUPOSIÇÃO de desenho] | Origem do raciocínio |
 |---|---|---|---|
 | L1. Reforço dos presenciais de novembro | 03/11 até a data de cada presencial | 25% | Primeira na ordem de uso da verba parcial da 1.9 (seção 7.2): "remarketing dos presenciais de novembro com mínimo em risco"; únicas vendas datadas de ticket médio e alto já no ar |
-| L2. Contínuos: remarketing | 10/11/2026 a 24/01/2027 | 20% | Segunda na ordem da 1.9; 45 produtos sem status de mídia; custo baixo por público pequeno |
-| L3. 616 e 68618 | 616: 10/11 a 04/12 (10%); 68618: 19/11 a 17/12 (10%) | 20% | Terceira na ordem da 1.9; duas datas com ticket de R$ 990,00 e R$ 1.710,00 à vista e vagas presenciais pequenas (ficha) |
+| L2. Contínuos: remarketing | 10/11/2026 a 24/01/2027 | 20% | Segunda na ordem da 1.9; 35 contínuos elegíveis (22 gravados e 13 minicursos, dos 45 sem status de mídia; grupos e espanhol fora); custo baixo por público pequeno |
+| L3. 616 e 68618 | 616: 19/11 a 04/12 se R4 for aprovado, senão 10/11 a 04/12 (10%); 68618: 19/11 a 17/12 (10%) | 20% | Terceira na ordem da 1.9; duas datas com ticket de R$ 990,00 e R$ 1.710,00 à vista e vagas presenciais pequenas (ficha) |
 | L4. 68638 aquecimento | 11/01 a 24/01/2027 | 10% | Quarta na ordem da 1.9 (público frio de presencial); janela de 8 semanas começa em 09/01/2027 [SUPOSIÇÃO do contexto, cálculo da 1.9] |
 | L5. Contínuos: frio de faixa 1 e busca de faixas 1 e 2 | 07/12/2026 a 24/01/2027 | 10% | Última na ordem da 1.9 ("público frio de contínuo por último, só se a meta de custo fechar") |
 | L6. Teste condicionado de YouTube | bloco 2 em diante | 5% | 1.9, seção 5; se a condição não fechar, a parte volta para L2 na Meta |
@@ -227,15 +230,15 @@ Fora do trimestre: a reta final de 68638 (de 25/01 a 06/03/2027) e qualquer data
 
 ### 4.2 L1 Presenciais de novembro: por produto, fase e canal
 
-Dentro de L1, a verba vai em partes iguais por presencial liberado (573, 68614 e a página escolhida entre 623 e 68637) [SUPOSIÇÃO de desenho, origem: sem venda por produto, a divisão igual é a mais neutra; o preço já entra no CPVmax de cada um]. Presencial sem página coerente (P6, P7, frase de certificação ligada ao regulador na 68614, pagamento contraditório na 573) não recebe a parte nova; ela fica em L7 até a correção.
+Dentro de L1, a verba vai em partes iguais por presencial liberado (573, 68614 e a endoscopia, com campanha nova apontando para a 68637 até a correção da 623, decisão 13) [SUPOSIÇÃO de desenho, origem: sem venda por produto, a divisão igual é a mais neutra; o preço já entra no CPVmax de cada um]. Presencial sem página coerente (P6, P7, frase de certificação ligada ao regulador na 68614, pagamento contraditório na 573) não recebe a parte nova; ela fica em L7 até a correção.
 
 | Fase | Datas | Parte da verba de cada presencial [SUPOSIÇÃO] | Meta | Google Busca | O que acontece |
 |---|---|---|---|---|---|
-| 1. Entrada | 03/11 a 09/11 | 45% | 60% | 40% | Conjunto de remarketing de visitantes da página (últimos 30 dias [SUPOSIÇÃO]) com os criativos que já existem e passam na conformidade; grupos de busca por técnica. Anúncios sem data em 573 e 68614 até a Ufape confirmar (D12) |
+| 1. Entrada | 03/11 a 09/11 | 45% | 60% | 40% | Conjunto de remarketing de visitantes da página (últimos 30 dias [SUPOSIÇÃO]) com os criativos que já existem e passam na conformidade; grupos de busca por técnica. Anúncios de 573 e 68614 podem levar a data da planilha (14/11 e 28/11, decisão 12) |
 | 2. Reta final | 10/11 até 7 dias antes da data | 40% | 60% | 40% | Nenhum criativo novo a menos de 7 dias da data (memorando, 5.1); reforço por L7 se o ritmo estiver abaixo (revisões de 09/11 e 16/11) |
 | 3. Últimos 7 dias | até a véspera | 15% | 50% | 50% | Mais peso em busca, quando a intenção é maior [SUPOSIÇÃO]; pausa na data ou ao lotar (LP5) |
 
-Se a data de 573 valer 14/11, a fase 1 e a fase 2 se sobrepõem (11 dias entre 03/11 e 14/11): a parte de 573 se gasta de 03/11 a 13/11 em uma fase só, com 60% Meta e 40% busca. Se valer 29/11, segue a tabela. Verba semanal da fase = verba de L1 x parte do presencial x parte da fase, dividida pelas semanas da fase.
+Como a data de 573 é 14/11 (planilha, decisão 12), a fase 1 e a fase 2 se sobrepõem (11 dias entre 03/11 e 14/11): a parte de 573 se gasta de 03/11 a 13/11 em uma fase só, com 60% Meta e 40% busca. A leitura de 29/11 (visão) fica descartada. Verba semanal da fase = verba de L1 x parte do presencial x parte da fase, dividida pelas semanas da fase.
 
 ### 4.3 L2 Contínuos: remarketing
 
@@ -251,16 +254,16 @@ Conciliação com a rotação por área da estrategia-de-conteudo-livres (uma á
 
 | Frente | Fase | Datas | Parte da verba da frente [SUPOSIÇÃO] | Meta | Google Busca | O que acontece |
 |---|---|---|---|---|---|---|
-| L3 616 | Lançamento | 10/11 a 22/11 | 50% | 70% | 30% | Campanha nova com o kit de 616 da 1.9 (10/11); modalidade como está no catálogo (on-line, local "Presencial e Online"), sem "prática" até a confirmação (1.9, aposta 5); "12 vagas" só depois de ir ao catálogo |
-| L3 616 | Reta final | 23/11 a 04/12 | 50% | 60% | 40% | Sem criativo novo depois de 28/11; pausa em 05/12 (LP5). Controle de frequência com o workshop em 20 e 21/11 (LP10) |
-| L3 68618 | Reativação | 19/11 a 10/12 | 70% | 70% | 30% | Só se a Ufape confirmar 18/12/2026 até 13/11 (LP6). Reativar a campanha pausada com o kit de 68618 da 1.9 (18/11); peças sem data até a confirmação |
+| L3 616 | Lançamento | 19/11 a 29/11 se R4 for aprovado (11 dias, cerca de 4,55% da parte de 616 por dia); senão 10/11 a 22/11 (13 dias, cerca de 3,85% por dia) | 50% | 70% | 30% | Campanha nova com o kit de 616 da 1.9; modalidade como está no catálogo (on-line, local "Presencial e Online"), sem "prática" até a confirmação (1.9, aposta 5); "12 vagas" só depois de ir ao catálogo |
+| L3 616 | Reta final | 30/11 a 04/12 se R4 for aprovado (5 dias, 10% da parte de 616 por dia); senão 23/11 a 04/12 (12 dias, cerca de 4,17% por dia) | 50% | 60% | 40% | Sem criativo novo depois de 28/11; pausa em 05/12 (LP5). Controle de frequência com o workshop em 20 e 21/11 (LP10). Com R4, a 616 sai da janela de 10/11 a 18/11, em que o público de anestesia já recebe o Workshop e as provas; sem R4, vale o registro lado a lado de CPM, alcance e frequência (EA3 da analise-de-midia-eventos) |
+| L3 68618 | Reativação | 19/11 a 10/12 | 70% | 70% | 30% | Data de 18/12/2026 válida pela planilha (decisão 12); reativação só com as demais condições de LP6. Reativar a campanha pausada com o kit de 68618 da 1.9 (18/11); a peça pode levar a data da planilha |
 | L3 68618 | Últimos 7 dias | 11/12 a 17/12 | 30% | 50% | 50% | Pausa em 18/12 ou ao lotar (LP5) |
 | L4 68638 | Aquecimento | 11/01 a 24/01 | 100% neste trimestre | 60% | 40% | Só com carga horária no catálogo e página sem pendência (LP13); o resto da captação vai para o trimestre seguinte |
 | L5 contínuos | Teste | 07/12 a 20/12 | 40% | 40% (frio só da faixa 1) | 60% (faixas 1 e 2) | Só com CPVmax conservador escrito por produto e a condição de volume fechada (LP12) |
 | L5 contínuos | Manutenção de fim de ano | 21/12 a 03/01 | 10% | 0% | 100% | Sem público frio nem criativo novo (LP11) |
 | L5 contínuos | Leitura e decisão | 04/01 a 24/01 | 50% | 40% | 60% | Decisão de 04/01: o que vendeu dentro do CPVmax continua; o resto volta para L2 |
 
-Se L3 68618 não for confirmada até 13/11, a parte dela vai para L7 e a campanha segue pausada até 27/03/2027 se a data de 22/05/2027 valer (analise-de-campanha-livres, 2.4).
+Se as condições de LP6 (meta, página e kit) não fecharem até 17/11, a parte de 68618 vai para L7 e a campanha segue pausada. A data de 22/05/2027 da visão fica descartada pela decisão 12.
 
 ---
 
@@ -287,20 +290,19 @@ Referência de plataforma, estimativa: o conjunto da Meta sai do aprendizado com
 | Data | Marco | Frente | Responsável |
 |---|---|---|---|
 | 27/10 | Pedido de dados e do formulário 2.5 à Ufape (LP1), junto com a lista U1 a U16 da 1.9 | todas | cmo |
-| 28/10 | Datas de 573 e 68614 (U4 da 1.9); descoberta de status de mídia de 68637, 616 e dos contínuos (analise-de-campanha-livres, 2.5); exportação do gerenciador (memorando, D6) | ativas | Ufape; gestor-de-midia confere |
+| 28/10 | Conferência da URL dos anúncios ativos que levam à 623: trocar para a 68637 ou pausar, por humano (decisão 13; pedido R8 do cmo); correção da visão de campanhas com as datas da planilha de 573 e 68614 (decisão 12); descoberta de status de mídia de 68637, 616 e dos contínuos (analise-de-campanha-livres, 2.5); exportação do gerenciador (memorando, D6) | ativas | Ufape; gestor-de-midia confere |
 | 29/10 | Último dia da devolução total por cancelamento da 68614 para a turma de 28/11 (cálculo, 1.9); depois disso, nenhum anúncio cita essa regra | ativas | criativos-de-anuncio; humano no gerenciador |
 | 30/10 | Prazo de LP1 e LP2 (metas e verba) | todas | pessoa do marketing, cmo |
 | 31/10 | Página única entre 623 e 68637 (D19); teste de rastreio do pedido pago de Livres junto com o D8 (LP3) | L1 | Ufape; humano |
-| 03/11 (terça) | Revisão semanal 1 (02/11 é feriado); subida de L1, só com LP1, LP2, LP3 e LP4 | L1 | humano; gestor-de-midia |
+| 03/11 (terça) | Revisão semanal 1 e primeiro relatório ao cmo, cobrindo 26/10 a 01/11 (02/11 é feriado; D15 do cmo); subida de L1, só com LP1, LP2, LP3 e LP4 | L1 | humano; gestor-de-midia |
 | 09/11 | Revisão 2: ritmo de 573 (M3, M4); primeiro uso possível de L7 | L1, L7 | gestor-de-midia, cmo |
-| 10/11 (terça) | Subida de 616 (LP7) e de L2 (LP9), com o kit da 1.9 | L3, L2 | humano |
-| 13/11 | Prazo para a Ufape confirmar a data de 68618 (U4 da 1.9) | L3 | Ufape |
-| 14/11 (sábado) | 573, se a data for 14/11: pausa na data (LP5) | L1 | humano |
-| 16/11 | Revisão 3: ritmo de 68614 e da página escolhida de endoscopia; segundo uso possível de L7 | L1, L7 | gestor-de-midia, cmo |
-| 19/11 (quinta) | Reativação de 68618, só com a data confirmada (LP6); 20/11 é feriado | L3 | humano |
+| 10/11 (terça) | Subida de L2 (LP9); subida de 616 só se R4 do cmo não for aprovado (LP7), com o kit da 1.9 | L2, L3 | humano |
+| 14/11 (sábado) | 573: pausa na data (LP5) | L1 | humano |
+| 16/11 | Revisão 3: ritmo de 68614 e da campanha de endoscopia (68637); segundo uso possível de L7 | L1, L7 | gestor-de-midia, cmo |
+| 19/11 (quinta) | Reativação de 68618 (LP6); subida de 616 se R4 do cmo for aprovado (LP7); 20/11 é feriado | L3 | humano |
 | 20/11 a 27/11 | Exclusões de público de cardio e anestesia e controle de frequência (LP10) | L1, L2, L3 | humano |
 | 23/11 | Revisão 4: decisão de pausa dos presenciais de 28/11 na data ou ao lotar | L1 | gestor-de-midia, cmo |
-| 28/11 (sábado) | Pausa de 68614 e da página de endoscopia (e de 573, se a data for 29/11, no dia 29/11) (LP5) | L1 | humano |
+| 28/11 (sábado) | Pausa de 68614 e da campanha de endoscopia (LP5) | L1 | humano |
 | 30/11 | Revisão 5: leitura de novembro por formato; terceiro uso possível de L7 (616) | todas | gestor-de-midia, analise-de-campanha |
 | 05/12 (sábado) | Pausa de 616 (LP5) | L3 | humano |
 | 07/12 | Revisão 6; subida de L5 (LP12); quarto uso possível de L7 (68618) | L5, L7 | humano; cmo |
@@ -313,7 +315,7 @@ Referência de plataforma, estimativa: o conjunto da Meta sai do aprendizado com
 | 18/01 | Revisão 12 | todas | gestor-de-midia |
 | 22/01 | Verba do trimestre seguinte (68638 até 06/03, 560, contínuos) no rascunho do próximo plano | todas | estrategia-de-marketing, gestor-de-midia |
 
-Pausa em sábado (14/11, 28/11, 05/12): se quem executa no gerenciador não trabalhar no sábado, a pausa vai no fim do dia útil anterior [CONFIRMAR quem executa]. Feriados conferidos: 02/11 (revisão em 03/11), 15/11 (domingo), 20/11, 25/12 e 01/01 (sextas). Nenhuma revisão nem subida cai em feriado. Revisões nas mesmas datas da Pós e da 1.9 de Livres, lidas lado a lado sem somar.
+Regra de feriado (D15 do cmo): quando a segunda-feira for feriado, relatório e revisão semanal passam para o dia útil seguinte. Pausa em sábado (14/11, 28/11, 05/12): se quem executa no gerenciador não trabalhar no sábado, a pausa vai no fim do dia útil anterior [CONFIRMAR quem executa]. Feriados conferidos: 02/11 (revisão em 03/11), 15/11 (domingo), 20/11, 25/12 e 01/01 (sextas). Nenhuma revisão nem subida cai em feriado. Revisões nas mesmas datas da Pós e da 1.9 de Livres, lidas lado a lado sem somar.
 
 ---
 
@@ -325,8 +327,8 @@ Cada encomenda leva a verba da frente (percentual da seção 4, valor [CONFIRMAR
 |---|---|---|---|
 | estrategia-de-midia (1.13 livres) | Plano detalhado de Livres por semana e por produto: preencher a tabela da seção 5, aplicar a condição de volume, desenhar os conjuntos de L1, L2 (R1 a R3), L3 e L5, e o calendário de exclusões da LP10 | L1 25%, L2 20%, L3 20%, L5 10%; CPVmax conservador por produto | L1: 31/10, só se LP1 e LP2 chegarem até 30/10; L2 e 616: 07/11; 68618: 17/11; L5: 02/12; 68638: 06/01 |
 | analise-de-midia (1.12 livres) | Diagnóstico de 573, 68614 e 623 com a exportação do memorando (seção 7.1), pela skill diagnostico-de-midia; leitura de 623 antes e depois de 21/10 peça por peça (analise-de-campanha-livres, H10); motivo da pausa de 68618 | sem verba; só leitura | 2 dias úteis depois de receber a exportação |
-| criativos-de-anuncio | Presenciais de novembro: só conferir e adaptar os criativos existentes à conformidade (sem data em 573 e 68614; sem regra de cancelamento da 68614 depois de 29/10; sem "100% prático", "turma reduzida" ou "últimas vagas"); 2 criativos de 616 (10/11) e de 68618 (18/11) dentro do kit da 1.9; criativos de remarketing por formato (R1 a R3) com o texto-padrão de preço; 2 criativos de 68638 (08/01); 2 vídeos curtos para o teste de YouTube, só se houver quem grave | L1, L2, L3, L4 | 616 e R1 a R3: 06/11; 68618: 17/11; 68638: 08/01 |
-| anuncios-meta e anuncios-google (1.14 livres) | Checklist de rastreio do pedido pago de Livres (LP3) junto com o D8; estrutura de L1 (remarketing e grupos de busca por técnica), L2, L3, L4 e L5. Código do catálogo no nome e no utm_campaign | L1 a L5 | rastreio: 31/10; L1: 31/10; L2 e 616: 07/11; 68618: 17/11; L5: 02/12; 68638: 06/01 |
+| criativos-de-anuncio | Presenciais de novembro: só conferir e adaptar os criativos existentes à conformidade (data só a da planilha, 14/11 na 573 e 28/11 na 68614; nenhuma peça nova aponta para a 623; toda peça com a frase única "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (D13 do cmo); sem regra de cancelamento da 68614 depois de 29/10; sem "100% prático", "turma reduzida" ou "últimas vagas"); 2 criativos de 616 (10/11, também usados se a subida for em 19/11) e de 68618 (18/11) dentro do kit da 1.9; criativos de remarketing por formato (R1 a R3) com o texto-padrão de preço; 2 criativos de 68638 (08/01); 2 vídeos curtos para o teste de YouTube, só se houver quem grave | L1, L2, L3, L4 | 616 e R1 a R3: 06/11; 68618: 17/11; 68638: 08/01 |
+| anuncios-meta e anuncios-google (1.14 livres) | Checklist de rastreio do pedido pago de Livres (LP3) junto com o D8; estrutura de L1 (remarketing e grupos de busca por técnica), L2, L3, L4 e L5. Nomes e UTM no padrão D11 e D12 do plano do cmo (livres_<código>; utm_medium paid_social na Meta e cpc no Google) | L1 a L5 | rastreio: 31/10; L1: 31/10; L2 e 616: 07/11; 68618: 17/11; L5: 02/12; 68638: 06/01 |
 | anuncios-linkedin | Sem encomenda nesta rodada (canal fora, seção 3) | - | - |
 | anuncios-tiktok | Sem encomenda nesta rodada (canal fora, seção 3) | - | - |
 
@@ -357,13 +359,13 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 |---|---|---|---|---|---|---|---|
 | LP1 | Ufape preenche o formulário 2.5 (conservador e base) para 573, 68614, a página de endoscopia escolhida, 616, 68618, 68638 e para as faixas 1, 2 e 3 dos contínuos, e aprova a regra: conservador (f = 1) é a meta de corte, base é referência. Junto: vagas totais e restantes, mínimo e data de confirmação de cada presencial, e status de mídia de 68637, 616 e dos contínuos | sem meta escrita, nenhuma campanha é boa ou ruim e nenhuma nova sobe (auditoria 11) | sem custo | metas em reais antes de 03/11 (L1) e de 10/11 (616 e L2) | revisar a regra numa nova versão deste plano, nunca depois de a campanha subir | 30/10 | 4 x 5 x 4 = 80 |
 | LP2 | Aprovar a verba nova de Livres no trimestre e a divisão por frente da seção 4.1 (25% presenciais de novembro, 20% remarketing de contínuos, 20% 616 e 68618, 10% 68638, 10% frio e busca de contínuos, 5% YouTube, 10% reserva) | sem verba aprovada não há plano por semana; a ordem segue a 1.9 | verba total [CONFIRMAR]; percentuais da seção 4.1 | cada frente sabe quanto pode gastar e quando | redistribuir na revisão seguinte, com novo pedido | 30/10 | 4 x 4 x 4 = 64 |
-| LP3 | Rastreio do pedido pago de Livres: código do catálogo no utm_campaign de 573, 68614 e 623 e no nome de toda campanha nova; conferir no teste do D8 (mesma loja) se o evento de compra dispara nas páginas de produto de Livres no pixel e no Google e se a UTM chega ao pedido | sem rastreio, nenhuma métrica de custo por venda existe (1.9, aposta 1 e R5) | sem custo de mídia; sem compra extra além do D8 | relatório semanal fecha por produto | voltar à URL anterior | 31/10 | 4 x 5 x 3 = 60 |
-| LP4 | L1: criar conjunto de remarketing de visitantes das páginas de 573, 68614 e da página escolhida de endoscopia, e grupos de busca por técnica, com os criativos existentes que passarem na conformidade; anúncios sem data em 573 e 68614 até a Ufape confirmar; nenhum criativo novo a menos de 7 dias da data | únicas vendas datadas de ticket médio e alto; mínimo de participantes em risco (1.9, aposta 2) | 25% da verba nova [CONFIRMAR valor], dividido por presencial (4.2) | mais visitantes que já conhecem o curso voltam à página antes da data | pausar os conjuntos novos; as campanhas atuais seguem | subida 03/11, só com LP1, LP2 e LP3 | 4 x 5 x 3 = 60 |
-| LP5 | Pausar na data de início, ou ao lotar, com exportação prévia: 573 (14/11 ou 29/11, conforme U4), 68614 e a página de endoscopia (28/11), 616 (05/12), 68618 (18/12); em sábado, no fim do dia útil anterior se o executor não trabalhar | data de início; amplia o D12 a todos os datados do trimestre | sem verba nova | nenhum gasto em turma que começou ou lotou | reativar se a Ufape abrir nova turma ou confirmar entrada | nas datas | 3 x 4 x 3 = 36 |
-| LP6 | 68618: reativar a campanha pausada em 19/11 só se a Ufape confirmar 18/12/2026 até 13/11, com meta escrita, página sem pendência (modalidade e data) e kit da 1.9 aprovado; sem confirmação, manter pausada e mover a parte para L7 | a ficha diz 18, 19 e 20/12/2026 e a visão diz 22/05/2027 (P6); pausada dentro da janela de 8 semanas se a data de 2026 valer | 10% da verba nova [CONFIRMAR valor] | vendas de 68618 nas 4 semanas finais | pausar de novo, com exportação | 19/11 | 3 x 4 x 3 = 36 |
-| LP7 | 616: criar campanha (Meta e busca) de 10/11 a 04/12, com a modalidade como está no catálogo, sem "prática" nem "12 vagas" até a Ufape levar ao catálogo (U8 da 1.9), meta escrita e página sem pendência | data dentro do trimestre sem status de mídia; janela de 4 semanas começa em 07/11 [SUPOSIÇÃO do contexto] | 10% da verba nova [CONFIRMAR valor] | vendas de 616 até 04/12 | pausar a campanha | 10/11 | 3 x 4 x 3 = 36 |
+| LP3 | Rastreio do pedido pago de Livres: chave livres_<código> no utm_campaign de 573, 68614 e 623 e nome no padrão D12 do cmo em toda campanha nova (utm_source=meta e utm_medium=paid_social; utm_source=google e utm_medium=cpc, D11); conferir no teste do D8 (mesma loja) se o evento de compra dispara nas páginas de produto de Livres no pixel e no Google e se a UTM chega ao pedido | sem rastreio, nenhuma métrica de custo por venda existe (1.9, aposta 1 e R5) | sem custo de mídia; sem compra extra além do D8 | relatório semanal fecha por produto | voltar à URL anterior | 31/10 | 4 x 5 x 3 = 60 |
+| LP4 | L1: criar conjunto de remarketing de visitantes das páginas de 573, 68614 e da 68637 (endoscopia; nenhuma campanha nova aponta para a 623 até a correção, decisão 13), e grupos de busca por técnica, com os criativos existentes que passarem na conformidade; data da planilha na peça (14/11 e 28/11, decisão 12); nenhum criativo novo a menos de 7 dias da data | únicas vendas datadas de ticket médio e alto; mínimo de participantes em risco (1.9, aposta 2) | 25% da verba nova [CONFIRMAR valor], dividido por presencial (4.2) | mais visitantes que já conhecem o curso voltam à página antes da data | pausar os conjuntos novos; as campanhas atuais seguem | subida 03/11, só com LP1, LP2 e LP3 | 4 x 5 x 3 = 60 |
+| LP5 | Pausar na data de início, ou ao lotar, com exportação prévia: 573 (14/11), 68614 e a campanha de endoscopia (28/11), 616 (05/12), 68618 (18/12); em sábado, no fim do dia útil anterior se o executor não trabalhar | data de início; amplia o D12 a todos os datados do trimestre | sem verba nova | nenhum gasto em turma que começou ou lotou | reativar se a Ufape abrir nova turma ou confirmar entrada | nas datas | 3 x 4 x 3 = 36 |
+| LP6 | 68618: reativar a campanha pausada em 19/11 com a data de 18/12/2026 da planilha (decisão 12), só com meta escrita, página sem pendência (modalidade) e kit da 1.9 aprovado até 17/11; sem isso, manter pausada e mover a parte para L7 | a planilha e a ficha dizem 18/12/2026 e a visão diz 22/05/2027 (P6, fechado pela decisão 12); pausada dentro da janela de 8 semanas | 10% da verba nova [CONFIRMAR valor] | vendas de 68618 nas 4 semanas finais | pausar de novo, com exportação | 19/11 | 3 x 4 x 3 = 36 |
+| LP7 | 616: criar campanha (Meta e busca) de 19/11 a 04/12 se o pedido R4 do cmo for aprovado (lançamento de 19/11 a 29/11 e reta final de 30/11 a 04/12, mesmos percentuais); se não for aprovado, de 10/11 a 04/12, com o registro de EA3; com a modalidade como está no catálogo, sem "prática" nem "12 vagas" até a Ufape levar ao catálogo (U8 da 1.9), meta escrita e página sem pendência | data dentro do trimestre sem status de mídia; janela de 4 semanas começa em 07/11 [SUPOSIÇÃO do contexto] | 10% da verba nova [CONFIRMAR valor] | vendas de 616 até 04/12, com menos disputa de leilão no público de anestesia se R4 for aprovado [SUPOSIÇÃO do cmo] | pausar a campanha; voltar à data de 10/11 se R4 for desfeito | 19/11 (com R4) ou 10/11 | 3 x 4 x 3 = 36 |
 | LP8 | Reserva de ritmo L7 (10%): usar em 09/11 (573), 16/11 (68614 e endoscopia), 30/11 (616) e 07/12 (68618) no presencial ou datado abaixo do ritmo necessário, uma mudança por conjunto, sem passar das vagas restantes | reforço sem pedir verba extra; vai ao cmo porque muda a distribuição entre frentes | L7 [CONFIRMAR valor] | presencial mais perto do mínimo na data de confirmação | devolver a verba à reserva | 09/11, 16/11, 30/11, 07/12 | 3 x 3 x 3 = 27 |
-| LP9 | L2: campanha de remarketing de contínuos com os conjuntos R1 (ponte presencial para gravado, só depois da data ou da lotação), R2 (gravados) e R3 (minicursos), preço com o texto-padrão do formato, sem promoção; 95, 488 com regra própria; grupos e espanhol fora | 45 contínuos sem status de mídia; segunda na ordem da 1.9 | 20% da verba nova [CONFIRMAR valor] | vendas de contínuos de quem já visitou | pausar o conjunto | 10/11 | 3 x 3 x 3 = 27 |
+| LP9 | L2: campanha de remarketing de contínuos com os conjuntos R1 (ponte presencial para gravado, só depois da data ou da lotação), R2 (gravados) e R3 (minicursos), preço com o texto-padrão do formato, sem promoção; 95, 488 com regra própria; grupos e espanhol fora | 35 contínuos elegíveis (dos 45 sem status de mídia); segunda na ordem da 1.9 | 20% da verba nova [CONFIRMAR valor] | vendas de contínuos de quem já visitou | pausar o conjunto | 10/11 | 3 x 3 x 3 = 27 |
 | LP10 | De 20/11 a 27/11, excluir dos conjuntos de remarketing de Livres de cardio e anestesia os visitantes das páginas das provas e da página do Workshop Brasileiro de Neuromonitorização; controle de frequência nos conjuntos de 616 e 68618 | mesmo público em três linhas na mesma semana (1.9, R6) | sem verba nova | menos saturação e menos disputa de atenção na semana das provas e do workshop | retirar as exclusões | 20/11 | 3 x 4 x 2 = 24 |
 | LP11 | Manutenção de fim de ano de 21/12 a 03/01: L2 e busca seguem, sem público frio de contínuos nem criativo novo | baixa atenção do público [SUPOSIÇÃO da 1.9, R9] | redução da parte de L5 para 10% da frente nesse período | verba guardada para a leitura de janeiro | voltar às diárias de 20/12 em 04/01 | 21/12 | 2 x 3 x 3 = 18 |
 | LP12 | L5: público frio só da faixa 1 e busca das faixas 1 e 2, de 07/12 a 24/01, só com CPVmax conservador escrito por produto e a condição de volume fechada; decisão de continuidade em 04/01 | último na ordem da 1.9; contínuos de ticket alto podem pagar público frio, os de ticket baixo não [SUPOSIÇÃO] | 10% da verba nova [CONFIRMAR valor] | primeira leitura de público frio em contínuos | pausar a campanha; a parte volta para L2 | 07/12 | 2 x 3 x 3 = 18 |
@@ -378,11 +380,11 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 
 ## 10. Notas sobre arquivos de outros agentes (não alterados)
 
-- analise-de-campanha-livres-2026-10-26.md, seções 3.1 e 3.2: o primeiro relatório semanal está em 02/11, que é feriado (Finados). Neste plano, a revisão 1 é em 03/11 (terça), como no memorando (regra 7) e na 1.9. Conflito novo para a lista de docs/andamento-planejamento.md (o cmo registra; este agente não edita o arquivo).
+- analise-de-campanha-livres-2026-10-26.md, seções 3.1 e 3.2: o primeiro relatório semanal estava em 02/11, que é feriado (Finados). Fechado pelo cmo (12.8, D15): o primeiro relatório sai em ter 03/11, cobrindo 26/10 a 01/11, como neste plano.
 - analise-de-campanha-livres-2026-10-26.md, seção 2.2: R3 e N de R6 ficam definidos na seção 8 deste plano.
 - estrategia-de-marketing-livres-2026-10-26.md, seção 7.2 (verba parcial): a ordem de uso foi aplicada na seção 4.1, com a ordem de corte de trás para frente. Na seção 5, a "decisão do gestor-de-midia" sobre Google Busca está na seção 3 deste plano (ativo).
 - estrategia-de-oferta-livres-2026-10-26.md, seção 6.1, item 3: o remarketing do gravado do mesmo tema fica validado como conjunto R1 (seção 4.3), com a condição de começar depois da data ou da lotação do presencial.
-- estrategia-de-oferta-livres-2026-10-26.md, seção 6.2: recomendação de usar 68637 como página de venda. A decisão é da Ufape (D19, até 31/10); L1 usa a página escolhida.
+- estrategia-de-oferta-livres-2026-10-26.md, seção 6.2: recomendação de usar 68637 como página de venda. Pela decisão 13, a 623 será corrigida e, até lá, nenhuma campanha nova aponta para ela; L1 usa a 68637. Qual página segue à venda depois da correção é a pergunta U5 do cmo.
 - Conflitos já listados em docs/andamento-planejamento.md: nenhum toca a mídia de Livres.
 
 ---
@@ -396,8 +398,8 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente externo | Canais pagos por frente com motivo (seção 3); aprovação em LP2 e LP14 |
 | Metas de CPL e custo por matrícula escritas antes de subir | Pendente externo | Em Livres a meta é o custo por venda máximo (seção 2); fórmulas e conta pronta escritas (2.2 a 2.5); valores em LP1. Nenhuma campanha nova sobe sem elas |
 | Verba dentro do valor aprovado, com aprovador registrado | Pendente externo | Verba e aprovador [CONFIRMAR] (P12 do cmo); divisão em percentuais (seção 4) |
-| Nomenclatura padrão em campanhas, conjuntos e anúncios | Pendente externo | Código do catálogo no nome e no utm_campaign (LP3) |
-| UTMs completas e origem chegando ao CRM | Pendente externo | LP3 e D8; padrão de UTM da squad (P15) [CONFIRMAR] |
+| Nomenclatura padrão em campanhas, conjuntos e anúncios | Pendente externo | Padrão D11 e D12 do plano do cmo (LP3) |
+| UTMs completas e origem chegando ao CRM | Pendente externo | LP3 e D8; padrão fixado pelo cmo (D11 e D12) |
 | Pixel, API de Conversões, conversões do Google, pixel do TikTok e Insight Tag do LinkedIn nos canais ativados | Pendente externo | LP3 para Meta e Google; TikTok e LinkedIn fora |
 | Criativos aprovados em conformidade-educacional | Pendente externo | Criativos existentes de 573, 68614 e 623 a conferir; os novos ainda não existem e passam pelo qa |
 | Anúncios dentro das políticas de cada plataforma | Atendido no desenho | Sem atributo pessoal, sem escassez falsa, sem concorrente |
@@ -420,7 +422,7 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | Dados do curso | Modalidade clara e correta | Atendido no desenho | 616 sem "prática" e 68618 sem modalidade até o catálogo (LP6, LP7) |
 | Regulação | Graduação: ato regulatório do catálogo | Não se aplica | Linha livres |
 | Regulação | Pós lato sensu sem a frase de certificação ligada ao regulador | Não se aplica | Linha livres; a regra de não afirmar certificação vale para todas as peças deste plano |
-| Regulação | Curso livre deixa claro que não confere diploma | Atendido como regra | Toda peça derivada leva "não confere diploma nem equivale a graduação ou pós-graduação" (1.9, seção 2.2); a página da 68614 com frase de certificação ligada ao regulador não recebe verba nova (seção 8, item 10) |
+| Regulação | Curso livre deixa claro que não confere diploma | Atendido como regra | Toda peça derivada leva a frase única "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (D13 do plano do cmo; a versão anterior da frase sai); a página da 68614 com frase de certificação ligada ao regulador não recebe verba nova (seção 8, item 10) |
 | Regulação | Nota MEC só com fonte oficial | Atendido | Nenhuma nota citada |
 | Promessas e provas | Sem promessa de emprego, salário ou sucesso | Atendido | 488 sem promessa de aprovação; nenhuma promessa de renda ou resultado clínico |
 | Promessas e provas | Empregabilidade e satisfação com fonte, período e amostra | Não se aplica | Nenhum dado desse tipo |
@@ -436,7 +438,7 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | Pessoas e dados | WhatsApp e e-mail só com consentimento e saída fácil | Atendido | A mídia não leva ao WhatsApp; envios ficam com copy-de-mensagens, só para base com consentimento |
 | Pessoas e dados | Nenhum dado pessoal | Atendido | Só contas sobre preços; números da loja só somados |
 | Plataformas | Políticas da Meta e do Google, sem segmentação discriminatória | Atendido no desenho | |
-| Plataformas | Destino entrega o que o anúncio promete | Pendente externo | Datas de 573, 68614 e 68618 (P6), página de endoscopia (P7), pagamento da 573 e frase da 68614 bloqueiam verba nova até a correção |
+| Plataformas | Destino entrega o que o anúncio promete | Pendente externo | Datas de 573, 68614 e 68618 fechadas pela planilha (decisão 12), falta corrigir a visão; página 623 sem campanha nova até a correção e ativas trocadas para a 68637 ou pausadas (decisão 13, R8); pagamento da 573 e frase da 68614 bloqueiam verba nova até a correção |
 | Anúncios | Sem característica pessoal de quem vê | Atendido no desenho | |
 | Anúncios | Sem urgência falsa, contador falso, play falso ou imitação da interface | Atendido | |
 | Anúncios | Sem pessoa pública ou parceria inexistente | Atendido | |
@@ -449,12 +451,25 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 
 ---
 
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo, pela revisão qa-de-marketing-geral-2026-10-26-loteB e pelas decisões 12 e 13 da Ufape:
+- **616 (pedido R4 do cmo):** se aprovado, sobe em 19/11, com lançamento de 19/11 a 29/11 e reta final de 30/11 a 04/12, nos mesmos 50% e 50%; se não, fica em 10/11 com o registro lado a lado de EA3 (seções 1, 4.1, 4.4, calendário e LP7). Contas por dia refeitas na seção 4.4. R4 depende de aprovação humana.
+- **Relatório semanal (D15):** o primeiro sai em ter 03/11, cobrindo 26/10 a 01/11; a nota sobre o conflito com a analise-de-campanha-livres passa a fechada.
+- **Frase única do curso livre (D13):** "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." na auditoria e na encomenda ao criativos-de-anuncio.
+- **Datas da planilha (decisão 12):** 573 em 14/11, 68614 em 28/11 e 68618 em 18/12/2026; caem a leitura de 29/11 da 573, o prazo de 13/11 para a data de 68618 e a regra de anúncio sem data de D12 nesses itens. LP6 segue com meta, página e kit até 17/11.
+- **Página 623 (decisão 13):** nenhuma campanha nova aponta para ela; L1 usa a 68637; anúncios ativos que levam à 623 com URL conferida em 28/10 (pedido R8 do cmo).
+- **UTM e nomes (D11 e D12):** LP3, encomenda ao anuncios-meta e anuncios-google e auditoria no padrão livres_<código>, paid_social e cpc.
+- **GL1:** "quatro frentes datadas". **GL2:** L2 cobre 35 contínuos elegíveis (22 gravados e 13 minicursos) dos 45 sem status de mídia.
+- Percentuais por frente, fase e canal não mudaram.
+
 ## Fatos (com fonte)
 
 - Preços, parcelas, datas e cargas horárias de 573, 68614, 623, 68637, 616, 68618, 68638 e 560, dos 22 gravados e dos 13 minicursos contínuos, dos grupos e do espanhol (catálogo, seções 4 a 7, 26/10/2026).
 - Recorte de Livres: 55 itens, 10 com data e 45 contínuos (22 gravados, 13 minicursos, 2 em espanhol, 8 grupos) (plano do cmo, seção 2.2).
 - Na visão: 573, 68614 e 623 ativas, só com estático; 68618 pausada com data de 22/05/2027; 623 com 3 criativos novos em 21/10/2026; 51 dos 55 itens sem status de mídia (visão de campanhas; analise-de-campanha-livres, seção 1).
-- Datas divergentes: 573 (14/11 no catálogo, 29/11 na visão), 68614 (28/11 e 18/12), 68618 (18/12/2026 e 22/05/2027); 623 e 68637 duplicados (plano do cmo, P6 e P7).
+- Datas divergentes entre catálogo e visão: 573 (14/11 e 29/11), 68614 (28/11 e 18/12), 68618 (18/12/2026 e 22/05/2027); 623 e 68637 duplicados (plano do cmo, P6 e P7). Pela decisão 12 da Ufape, valem as datas da planilha (14/11, 28/11 e 18/12/2026); pela decisão 13, a página 623 será corrigida e, até lá, nenhuma campanha nova aponta para ela (docs/execucao-2026-10-26.md).
+- Pedido R4 (616 em 19/11), relatório de 03/11 (D15), frase única do curso livre (D13), padrão de UTM e nomes (D11 e D12) e pedido R8 (anúncios ativos da 623) (plano do cmo, seções 12.6 a 12.11).
 - A ficha de 68618 diz primeira turma em 18, 19 e 20/12/2026, de 8 a 12 alunos, com devolução parcial por prazo de cancelamento (ficha 68618).
 - A ficha de 616 diz 12 vagas presenciais, encontro presencial condicionado à formação da turma e opção só online por R$ 600,00, que não está no catálogo (ficha 616).
 - 68614: mínimo de 15 e máximo de 30, cancelamento até 30 dias antes com devolução total; 623 e 68637: mínimo de 15 e reembolso se a turma não for confirmada (fichas, via estrategia-de-oferta-livres).
@@ -476,6 +491,7 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 - [SUPOSIÇÃO] Janela de 30 dias para o remarketing de visitantes dos presenciais; conjunto R1 só depois da data ou da lotação.
 - [SUPOSIÇÃO] Termos de busca por técnica (a confirmar com anuncios-google).
 - [SUPOSIÇÃO] Exclusões de público de cardio e anestesia de 20/11 a 27/11.
+- [SUPOSIÇÃO do cmo] Menos disputa de leilão no público de anestesia com a 616 subindo em 19/11 (R4).
 - [SUPOSIÇÃO] Campanhas otimizam para compra se o evento funcionar; senão, para início de checkout.
 - [SUPOSIÇÃO] Escala em passos de até 20% da diária; N = 2 semanas em R6; janela de atribuição de 7 dias; leitura mensal dos contínuos.
 - [SUPOSIÇÃO] Janela de 4 a 8 semanas dos presenciais (contexto da linha), início da janela de 68638 em 09/01/2027 e de 616 em 07/11/2026 (cálculo).
@@ -487,9 +503,10 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 - [CONFIRMAR] Verba nova de Livres no trimestre, aprovador e quem executa no gerenciador (inclusive se trabalha no sábado).
 - [CONFIRMAR] Por produto: fração à vista, taxas da loja, devolução, custo variável por aluno, margem desejada, pedidos pagos por visita e por início de checkout; antecipação do cartão.
 - [CONFIRMAR] Meta de vendas por produto e formato (inscrições líquidas, 1.9), vendas esperadas fora da mídia.
-- [CONFIRMAR] Vagas totais e restantes, mínimo e data de confirmação de cada presencial; datas de 573, 68614 e 68618 (P6); página única entre 623 e 68637 (P7).
-- [CONFIRMAR] Exportação agregada de Meta e Google de 573, 68614, 623 e 68618 (memorando, seção 7.1); motivo da pausa de 68618; status de mídia de 68637, 616 e dos 45 contínuos.
-- [CONFIRMAR] Evento de compra nas páginas de produto de Livres no pixel e no Google; UTM no pedido da loja; padrão de UTM da squad (P15).
+- [CONFIRMAR] Vagas totais e restantes, mínimo e data de confirmação de cada presencial; correção da visão de campanhas com as datas da planilha; data da correção da página 623 e qual página segue à venda depois dela (U5 do cmo).
+- [CONFIRMAR] Aprovação humana dos pedidos R4 (616 em 19/11) e R8 (anúncios ativos que levam à 623) do plano do cmo.
+- [CONFIRMAR] Exportação agregada de Meta e Google de 573, 68614, 623 e 68618 (memorando, seção 7.1); motivo da pausa de 68618; status de mídia de 68637, 616 e dos 45 contínuos (35 elegíveis a L2).
+- [CONFIRMAR] Evento de compra nas páginas de produto de Livres no pixel e no Google; UTM no pedido da loja; ferramentas que vão ler a UTM (P15), com o padrão já fixado pelo cmo (D11 e D12).
 - [CONFIRMAR NO CATÁLOGO] Modalidade de 616 e de 68618; carga horária de 68638; vagas e regras de turma dos presenciais; opção só online de 616; prazo de acesso de gravados e minicursos.
 - [CONFIRMAR] Texto único de pagamento da 573 e retirada da frase de certificação da página da 68614 (U6 e U7 da 1.9).
 - [CONFIRMAR] Política de privacidade e consentimento no checkout da loja.

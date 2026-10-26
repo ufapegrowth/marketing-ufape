@@ -3,12 +3,14 @@
 - **Agente:** distribuicao (departamento 06, Geração de Demanda), etapa 1.24 da camada 1
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda da seção 12.10: DL1, DL2 e DL6 fechados pelas decisões D1, D2, D13 e G5; UTM de D11 e D12; e DLI1 e DLI2 do qa-de-marketing-geral-2026-10-26-loteC).
 - **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md, aplicada na seção 10, e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado, compartilhado ou pago. Toda publicação, envio de WhatsApp ou e-mail, pedido a docente e ação em gerenciador de anúncios é ação humana, depois de aprovação.
 - **Entradas lidas:**
   - .claude/agents/distribuicao.md (instrução deste agente; não cita skill própria)
   - CLAUDE.md e docs/execucao-2026-10-26.md (briefing obrigatório)
   - docs/andamento-planejamento.md (seção "Conflitos entre saídas para o cmo resolver": grade do @ufapevet, teto de mensagens, choques NL1 a NL7)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 3, 4 e 5)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 3, 4 e 5; na versão 2, seção 12, conciliação da camada 1: D1 a D5, D11 a D13 e G5)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (seção 9, DLI1 e DLI2; versão 2)
   - contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/pos-graduacao.md
   - contexto/catalogo-de-cursos.md (linhas de 573, 68614, 616, 68618, 68638, 68665 e 68666; fonte única de dado de curso)
   - saidas/05-social-e-comunidade/estrategia-social-livres-2026-10-26.md (seções 0 a 8; etapa 1.20, entrada principal)
@@ -33,7 +35,7 @@
 2. **Espaços ativos de Livres:** Instagram (feed, Reels, Stories, direct), Facebook (só reaproveitamento), WhatsApp de vendas (atendimento) e base com consentimento (WhatsApp e e-mail, com teto), página do produto e FAQ, newsletter geral (agenda), mensagens de serviço aos inscritos, docentes autorizados e mídia paga como amplificação (frentes L1 a L5 do gestor-de-midia, sem verba nova aqui). YouTube Shorts de Livres só a partir de 04/01/2027, se o teste da Pós seguir. LinkedIn, TikTok, X e podcast fora.
 3. **Grupos de estudos são produto, não canal:** nenhum número de grupo vira lista e nenhuma oferta é postada dentro deles (1.26 de Livres, seção 2.4). Nenhuma comunidade, escola, empresa ou parceiro externo de Livres consta nas fontes: o mapeamento é proposta [CONFIRMAR] e nenhum nome é inventado.
 4. **Mapa:** 26 peças de Livres mapeadas de 29/10 a 20/01 (seção 4), com 3 a 5 espaços cada, ordem, reaproveitamento e trava. Em novembro, quem está na campanha das provas da Pós só recebe Livres pelo WhatsApp de 09, 11 e 13/11; por isso o feed, os Stories, o atendimento e a agenda da newsletter edição 1 fazem a maior parte da distribuição de novembro.
-5. **O que trava:** datas de 573, 68614 e 68618 (P6); página entre 623 e 68637 (P7); modalidade da 616 (G4); carga horária da 68638; teto de WhatsApp de Livres (a 1.20 diz 1 por semana, a régua da 1.26 põe 2 toques da 573 na mesma semana, DL1); aceite dos docentes; base com consentimento e ligação da loja com o CRM. Tudo [CONFIRMAR].
+5. **O que trava:** datas de 573, 68614 e 68618 (P6); página entre 623 e 68637 (P7); modalidade da 616 (G4); carga horária da 68638; aceite dos docentes para compartilhar; base com consentimento e ligação da loja com o CRM. Tudo [CONFIRMAR].
 
 ---
 
@@ -43,15 +45,15 @@
 |---|---|---|---|
 | Feed de Livres no @ufapevet | base de 2 por semana (de 1 a 3), 25 publicações em 13 semanas; no máximo 1 de Livres por dia | estrategia-social-livres, seções 3.1, 3.2 e 5.1 | Nenhuma peça desta distribuição ganha slot de feed extra |
 | Stories de Livres | 2 dias por semana, mais o dia de cada presencial (14/11, 28/11) e o início de 68666 (25/11) | estrategia-social-livres, seção 3.2 | |
-| Grade somada do perfil | teto de referência de 7 por semana [SUPOSIÇÃO]; S2, S3 e S4 já passam do teto sem Livres; movimentos G1 a G5 aguardam o cmo | estrategia-social-livres, seção 3.3; andamento, conflitos | O teto de Eventos (2 por dia e 10 por semana) contradiz este; o cmo decide |
+| Grade somada do perfil | teto provisório D5 do cmo: no máximo 10 publicações de feed por semana, 2 por dia e 1 por linha por dia [SUPOSIÇÃO até as horas do time]; G1 e G5 aceitos; Livres não publica em 10/11 | estrategia-social-livres, seção 3.3; andamento, conflitos | Decidido pelo cmo (seção 12.3 do plano) |
 | Dias sem feed nem WhatsApp de marketing de Livres | 02/11; 08 e 15/11 (Enem); 20 e 21/11 (Workshop Brasileiro de Neuromonitorização, linha Eventos; 20/11 é feriado); 27/11 (provas da Pós); 25/12 e 01/01; em 26 e 27/11 nenhuma mensagem de Livres para a base das provas | estrategia-social-livres, seção 3.1; estrategia-de-relacionamento-livres, seção 4.2 | |
-| WhatsApp de marketing de Livres | no máximo 1 por pessoa por semana, dentro de 2 somando todas as linhas [SUPOSIÇÃO] | estrategia-social-livres, seções 0 e 4.3 | A régua da 1.26 de Livres agenda 573 T3 e T4 (09 e 11/11) para o mesmo segmento: contradição levada ao cmo (DL1) |
-| E-mail e WhatsApp de campanha por contato, somando as linhas | até 2 e até 2 por semana; 1 canal de campanha por dia; WhatsApp em dia útil, 9h às 18h; sábado sem WhatsApp de campanha | estrategia-de-relacionamento-livres, seção 4.1 (herdado da Pós) [SUPOSIÇÃO] | A 1.9 de Livres diz "2 mensagens no total" (NL7) |
-| Prioridade entre linhas | serviço > provas e Workshop > Livres, salvo nos 7 dias antes de um presencial, para a área dele | estrategia-de-relacionamento-livres, seção 4.3 [SUPOSIÇÃO] | A ferramenta suprime, não acumula |
+| WhatsApp de marketing de Livres | sem sub-teto de Livres; vale o teto único D1 (linha abaixo) | cmo-geral, seção 12.2 (D1) | DL1 fechado: os toques da 1.26 de Livres cabem no teto comum |
+| E-mail e WhatsApp de campanha por contato, somando as linhas | até 2 WhatsApp e até 2 e-mails de campanha por semana, somando Pós, Livres, Eventos, Graduação e newsletter; no máximo 1 mensagem de campanha por contato por dia, em qualquer canal; WhatsApp em dia útil, 9h às 18h; e-mail das 7h às 19h; sábado sem WhatsApp de campanha | cmo-geral, seção 12.2 (D1) [SUPOSIÇÃO de número até a Ufape confirmar, R1] | Substitui a versão da 1.26 e a da 1.9 de Livres (NL7) |
+| Prioridade entre linhas | fila D2: serviço; toque principal de cada campanha com data (vence a data mais próxima, depois a maior nota GUT); follow-ups e reenvios; nutrição; reativação | cmo-geral, seção 12.2 (D2) | A ferramenta suprime, não acumula |
 | Um dono por oferta | a régua de Livres nunca convida para Pós; a da Pós nunca vende curso livre | estrategia-de-relacionamento-livres, seção 6 | Peça de Livres não é distribuída pela régua da Pós, nem o contrário |
 | Grupos de estudos | serviço da turma; números do grupo nunca viram lista; nenhuma campanha dentro do grupo | estrategia-de-relacionamento-livres, seção 2.4 [SUPOSIÇÃO; UR8] | |
 | Grupos de terceiros | a Ufape não posta oferta em grupo de que não é dona | estrategia-social-livres, seção 6.5 | |
-| Frase obrigatória | "Curso livre: não confere diploma nem equivale a graduação ou pós-graduação." em todo post e mensagem longa com chamada | estrategia-social-livres, seção 4.1; auditorias/conformidade-educacional.md | A 1.26 de Livres usa uma versão mais curta (DL2) |
+| Frase obrigatória | "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." em todo post e mensagem longa com chamada | cmo-geral, seção 12.7 (D13); auditorias/conformidade-educacional.md | DL2 fechado |
 
 ---
 
@@ -149,7 +151,7 @@ Semanas como na 1.9 e na 1.20 (S1 começa em 27/10). Datas são alvo, depois da 
 | L04 | 573, post 2: roteiro do fim de semana, teoria gravada e prática presencial (qui 05/11) | 1) L-E1; 2) L-E4; 3) L-E7; 4) L-E14 | Mesmo roteiro no e-mail T1 (04/11), já agendado | Vira o roteiro de Stories do dia (14/11) | 16 h práticas e 12 h de teoria gravada [CONFIRMAR NO CATÁLOGO]; sem "100% prático" |
 | L05 | Stories, agenda dos primeiros encontros de 68665 (sex 06/11) | 1) L-E2; 2) L-E11: mesma agenda no serviço aos inscritos de 68665 | Serviço (não conta no teto) | - | U4 |
 | L06 | 68614 e 623 ou 68637, post 1: roteiro do sábado e do domingo (sáb 07/11) | 1) L-E1; 2) L-E2; 3) L-E4; 4) L-E14: Daniel Gerardi, M.V e ESP. Franco Poggiani, se aceitarem; 5) L-E19 | WhatsApp T1 (seg 09/11), todas as bases, SL2 de A5 | Vira resposta pronta sobre o que se faz em cada dia | Data de 68614 (P6); página única entre 623 e 68637 (P7, D19 até 31/10); os dois cursos não aparecem como alternativa um do outro; sem a frase de selo da página da 68614; sem devolução total depois de 29/10 |
-| L07 | 573, post 3: preço sem susto (ter 10/11) | 1) L-E1; 2) L-E4; 3) L-E7; 4) L-E16: é a peça que o colega encaminha | WhatsApp T3 (seg 09/11) e T4 (qua 11/11), SL2 e SL9 de A2 (ver DL1) | Vira carrossel de "preço sem susto" reaproveitável para 68614 e 616 | Mesmas de L02 |
+| L07 | 573, post 3: preço sem susto (seg 09/11, data da 1.20 de Livres, versão 2; 10/11 fica sem Livres, conta do cmo em 12.3) | 1) L-E1; 2) L-E4; 3) L-E7; 4) L-E16: é a peça que o colega encaminha | WhatsApp T3 (seg 09/11) e T4 (qua 11/11), SL2 e SL9 de A2 (cabem no teto D1, DL1 fechado) | Vira carrossel de "preço sem susto" reaproveitável para 68614 e 616 | Mesmas de L02 |
 | L08 | 68614 e 623 ou 68637, post 2: como é um curso prático de fim de semana, o que levar, como pagar (qua 11/11) | 1) L-E1; 2) L-E4; 3) L-E7: resposta para viagem e turma mínima; 4) L-E5: FAQ da página | WhatsApp T2 (sex 13/11), SL2 de A5 que não compraram | Vira o guia de "curso prático de fim de semana" (L10 da 1.19) | Turma mínima de 15 só onde a ficha diz [CONFIRMAR NO CATÁLOGO]; "comprar passagem só com a turma confirmada" (fichas de 623 e 68637) |
 | L09 | 68666, convite (qua 11/11, WhatsApp) e Stories "como funciona" (qua 18/11) | 1) L-E8; 2) L-E2 (18/11); 3) L-E10: agenda da newsletter edição 1 (qua 18/11); 4) L-E7 | WhatsApp único do RL3 (11/11), SL2 e SL9 de A3; newsletter ed. 1 | Agenda de 12 módulos vira Stories de 25/11 e serviço aos inscritos | Período dos R$ 100,00 (U9); regra de reembolso de 68666 [CONFIRMAR NO CATÁLOGO]; sem mídia (D21) |
 | L10 | Stories FAQ de viagem e turma mínima (qui 12/11) e bastidor do 573 no dia (sáb 14/11) | 1) L-E2; 2) L-E15: docente no bastidor; 3) L-E11: véspera (sex 13/11) e dia (sáb 14/11, e-mail às 7h) | Serviço RL2 | O bastidor alimenta o recap de 16/11 | Sem aluno identificável; "em modelo" quando for modelo; WhatsApp no sábado só com exceção aprovada (UR6) |
@@ -169,7 +171,7 @@ Semanas como na 1.9 e na 1.20 (S1 começa em 27/10). Datas são alvo, depois da 
 | L19 | Newsletter edição 2: "quanto tempo e quanto custa cada formato" (qui 03/12), com o guia L27 como botão se estiver publicado | 1) L-E10 (e-mail) e versão de WhatsApp (sex 04/12); 2) L-E5: guia L27; 3) L-E7 | Newsletter ed. 2 | Base do guia "qual formato é para mim" de 09/12 | Guia publicado e URL [CONFIRMAR]; agenda com 68618 só com P6 |
 | L20 | 68618, posts 1 a 4 do kit (seg 07/12, seg 14/12, qua 16/12, qui 17/12) e Stories do dia (sex 18/12) | 1) L-E1; 2) L-E2; 3) L-E4; 4) L-E14: Dr. Alessandro Martins e Msc. Daniel Zannin, se aceitarem; 5) L-E21 (19/11 a 17/12) | WhatsApp T1 (seg 07/12), e-mail T2 (ter 08/12), WhatsApp T3 (qui 10/12) e T4 (ter 15/12); véspera (qui 17/12) e dia (sex 18/12, WhatsApp às 9h) no serviço | Base da rotação de ventilação (507) | Só com P6 fechada (18/12/2026 ou 22/05/2027); modalidade em branco no catálogo; sem P6, os slots viram contínuos (A7 em 07/12; 507 e A2 em S8) |
 | L21 | Guia em carrossel "qual formato é para mim" (qua 09/12; SL5) | 1) L-E1; 2) L-E4; 3) L-E7: resposta padrão para "por onde começo?"; 4) L-E11: link no e-mail de degrau seguinte do pós-curso (RL8) dos ex-alunos de 573 (S7) | RL8 de 573 (serviço e campanha leve, dentro do teto) | Volta no recesso como evergreen se não tiver saído antes | Frase obrigatória; não desvalorizar o gravado; nenhuma afirmação de certificação |
-| L22 | Evergreens de recesso: "as perguntas que mais chegaram" (seg 21/12) e "quanto tempo dura cada formato" (seg 28/12, se não tiver saído em S5) | 1) L-E1; 2) L-E4; 3) L-E2 (1 dia); 4) L-E10: o tema de 21/12 é o mesmo da newsletter edição 4 (ter 22/12, sem venda) | Nenhuma: de 21/12 a 03/01 só serviço e manutenção; a edição 4 depende de o cmo decidir se conta como manutenção (NL6) | Perguntas vêm da secretaria e das vendas, sem dado pessoal | 25/12, 31/12 e 01/01 sem nada |
+| L22 | Evergreens de recesso: "as perguntas que mais chegaram" (seg 21/12) e "quanto tempo dura cada formato" (seg 28/12, se não tiver saído em S5) | 1) L-E1; 2) L-E4; 3) L-E2 (1 dia); 4) L-E10: o tema de 21/12 volta na newsletter edição 4, que passou para qui 07/01/2027 (D4 do cmo, NL6) | Nenhuma: de 21/12 a 03/01 só serviço e manutenção | Perguntas vêm da secretaria e das vendas, sem dado pessoal | 25/12, 31/12 e 01/01 sem nada |
 
 ### 4.3 Janeiro: contínuos por área e abertura de 68638 (S11 e S12)
 
@@ -178,7 +180,7 @@ Semanas como na 1.9 e na 1.20 (S1 começa em 27/10). Datas são alvo, depois da 
 | L23 | "Uma hora de dermatologia" (seg 04/01, 463) e A9 oftalmologia (qua 06/01, 627 ou 482) | 1) L-E1; 2) L-E4; 3) L-E15: docente revisor em comentário; 4) L-E8 ou L-E9: rotação RL5 (A8 e A9); 5) L-E20 | RL5 (S11) | Vira linha do hub de minicursos (L15) e Short a partir de sáb 09/01, se o teste seguir | Revisão de docente [CONFIRMAR nome e prazo]; sem dose, protocolo ou conduta escritos pela squad |
 | L24 | 68638, posts 1 e 2 do kit (seg 11/01 e seg 18/01) | 1) L-E1; 2) L-E4; 3) L-E14: docentes da ficha, se aceitarem; 4) L-E10: agenda da newsletter edição 6 (28/01); 5) L-E21 (L4, 11/01 a 24/01) | e-mail T1 (ter 12/01) e WhatsApp T2 (ter 19/01), SL2 de A3 e SL8 de 591 | Posts 3 e 4 ficam para o plano de 25/01 a 25/04/2027 | Carga horária no catálogo e kit aprovado (entrega em 08/01); titulação de Jennif Esposito [CONFIRMAR] |
 | L25 | A6 ou A11 (qua 13/01) e A10 ou A4 (qua 20/01), "Uma hora de [área]" | 1) L-E1; 2) L-E4; 3) L-E8 ou L-E9: RL5; 4) L-E10: agenda da newsletter edição 5 (14/01, contínuos da área da semana); 5) L-E20 | RL5 (S12); newsletter ed. 5 | Short a cada 2 semanas | 202 e 106 só depois de confirmar a diferença; grupos iniciados fora |
-| L26 | Rotação dos contínuos em Stories durante novembro (A2 em 02/11, A12 e A1 em 09/11, A5 em 16/11, A3 em 23/11) | 1) L-E2; 2) L-E7; 3) L-E20 (L2 a partir de 10/11) | Nenhuma: a rotação só entra na base em 30/11 | Gravados e minicursos com preço do catálogo; o item datado da área ancora | Nenhuma peça de contínuo no feed de novembro (1.20 de Livres, seção 5.2) |
+| L26 | Rotação dos contínuos em Stories durante novembro (A2 em ter 03/11, porque 02/11 é feriado e fica sem Stories de venda, como na distribuicao-pos (DLI2); A12 e A1 em 09/11, A5 em 16/11, A3 em 23/11) | 1) L-E2; 2) L-E7; 3) L-E20 (L2 a partir de 10/11) | Nenhuma: a rotação só entra na base em 30/11 | Gravados e minicursos com preço do catálogo; o item datado da área ancora | Nenhuma peça de contínuo no feed de novembro (1.20 de Livres, seção 5.2) |
 
 Conferência: 26 peças mapeadas, cada uma com pelo menos 3 espaços. Nenhuma linha acrescenta publicação de feed ao calendário 5.1 da 1.20 de Livres nem envio de base à tabela 7.1 da 1.26 de Livres.
 
@@ -186,7 +188,7 @@ Conferência: 26 peças mapeadas, cada uma com pelo menos 3 espaços. Nenhuma li
 
 ## 5. Versão nativa por espaço (rascunhos de forma; o texto final é do agente dono da peça)
 
-Campos entre colchetes vêm do catálogo do dia. Nenhum nome de aluno ou inscrito. Toda versão com chamada leva a frase "Curso livre: não confere diploma nem equivale a graduação ou pós-graduação."
+Campos entre colchetes vêm do catálogo do dia. Nenhum nome de aluno ou inscrito. Toda versão com chamada leva a frase "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (D13 do cmo)
 
 **L-E1 Instagram, legenda.** Primeira linha com o que se faz e em quantas horas; corpo em até 4 frases; preço sempre "R$ [à vista] à vista ou [N]x de R$ [parcela] (R$ [total] no cartão)"; uma chamada: "Link na bio: [nome do curso]"; frase obrigatória no fim.
 
@@ -194,7 +196,7 @@ Campos entre colchetes vêm do catálogo do dia. Nenhum nome de aluno ou inscrit
 
 **L-E4 Facebook.** Mesmo texto, com o link escrito.
 
-**L-E7 Atendimento (resposta pronta).** "Obrigado pela pergunta. [Resposta em uma frase com fato do catálogo ou da ficha confirmada.] O roteiro completo está aqui: [link com UTM de atendimento]. Se quiser, vemos juntos a viagem e a forma de pagamento." Pergunta sobre certificado ou se vale como especialização: dizer que curso livre não confere diploma nem equivale a graduação ou pós-graduação e encaminhar à secretaria. Pergunta sobre a Pós: responder sobre o curso livre e oferecer o contato de vendas, sem prometer caminho ou desconto (1.20 de Livres, 6.3, regra 10).
+**L-E7 Atendimento (resposta pronta).** "Obrigado pela pergunta. [Resposta em uma frase com fato do catálogo ou da ficha confirmada.] O roteiro completo está aqui: [link com UTM de atendimento, seção 8]. Se quiser, vemos juntos a viagem e a forma de pagamento." Pergunta sobre certificado ou se vale como especialização: dizer que curso livre não confere diploma e não equivale a graduação ou pós-graduação (D13) e encaminhar à secretaria. Pergunta sobre a Pós: responder sobre o curso livre e oferecer o contato de vendas, sem prometer caminho ou desconto (1.20 de Livres, 6.3, regra 10).
 
 **L-E8 e L-E9 Base.** A peça entra como uma linha no toque já agendado ("O roteiro do sábado e do domingo está aqui: [link]"); um link por WhatsApp; uma chamada por e-mail; "responda SAIR" no WhatsApp e descadastro no e-mail.
 
@@ -244,29 +246,29 @@ Itens abertos hoje, por peça:
 
 | # | Proposta | Motivo | O que não muda |
 |---|---|---|---|
-| DL1 | Decidir o teto de WhatsApp de Livres: a 1.20 de Livres diz no máximo 1 de Livres por pessoa por semana, mas a tabela 7.1 da 1.26 de Livres agenda 573 T3 (09/11) e T4 (11/11) para o mesmo segmento (SL2 de A2), e na S6 616 T3 (30/11) e T4 (02/12). Proposta: valer a exceção dos 7 dias antes de um presencial (1.26, seção 4.3) só para a área dele, ou T4 virar mensagem de atendimento para quem respondeu | Duas regras para o mesmo contato | Nenhum envio acrescentado; o CRM aplica a regra escolhida |
-| DL2 | Fixar uma única frase de curso livre: "não confere diploma nem equivale a graduação ou pós-graduação" (1.20 de Livres e auditoria de conformidade) contra "nem equivale a pós-graduação" (1.26 de Livres, seção 3.3) | A auditoria de conformidade pede a versão longa | - |
+| DL1 | **Fechado pelo cmo (D1 e D2).** Livres não tem sub-teto: vale o teto único de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando as linhas, e 1 por dia em qualquer canal. Os pares de WhatsApp de Livres na mesma semana cabem nele: 573 T3 (seg 09/11) e T4 (qua 11/11); 616 T3 (seg 30/11) e T4 (qua 02/12); 68618 T1 (seg 07/12) e T3 (qui 10/12), com o e-mail T2 de 68618 (ter 08/12) no outro canal (DLI1). Quando outra régua disputa a semana, a fila D2 decide | Uma regra só para o contato | Nenhum envio acrescentado; o CRM aplica a fila (pedido do cmo ao arquiteto-de-fluxos) |
+| DL2 | **Fechado pelo cmo (D13):** frase única "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." | Versão da auditoria de conformidade, por extenso | - |
 | DL3 | Confirmar que grupos de estudos ficam só como serviço (UR8) e quem administra os grupos de WhatsApp deles | Evita que o grupo vire lista de campanha | Grupo não é canal |
 | DL4 | Autorizar o pedido de compartilhamento e coautoria aos docentes de 573, 68614, 623 ou 68637, 616, 68618 e 68638, com a mensagem da seção 5 | Autorização de imagem existe; publicar é escolha do docente | Usa slots já previstos |
 | DL5 | Mapear com a pessoa do marketing as comunidades de colegas (L-E16) e registrar a lista de parceiros, empresas e clínicas (L-E17) | Nenhum espaço externo de Livres está nas fontes; ação com parceiro só com acordo registrado | Até lá, nenhum contato externo |
-| DL6 | Na S3, o post 4 do kit de 573 vir do inventário já publicado (G5 da 1.20 de Livres) | Evita a 3ª publicação de Livres na semana | Kit mínimo de 4 posts mantido |
+| DL6 | **Fechado pelo cmo (G5 aceito, 12.3):** o post 4 do kit de 573 vem do inventário já publicado, se existir e passar na conformidade; senão, é post novo em S3 (sex 13/11, pela 1.20 de Livres, versão 2) | Kit mínimo de 4 posts mantido dentro do teto D5 | Kit mínimo de 4 posts mantido |
 | DL7 | Critério para sugerir peça orgânica ao gestor-de-midia (SM3 e SM4 acima da mediana das peças de Livres, depois de 4 semanas) [SUPOSIÇÃO] | Amplifica o que funcionou, sem criativo novo | Verba e decisão ficam com o gestor-de-midia; grupos seguem sem mídia (D21) |
 
 ---
 
 ## 8. Medição por espaço
 
-UTM proposta [SUPOSIÇÃO; padrão da squad [CONFIRMAR]], sempre com o código do produto, para o pedido pago ser rastreado (M12 da 1.9 de Livres). Nenhum dado pessoal; o docente aparece por código interno.
+UTM no padrão único do cmo (D11 e D12), sempre com o código do produto, para o pedido pago ser rastreado (M12 da 1.9 de Livres). utm_medium só crm, newsletter, organic_social, paid_social ou cpc; utm_campaign = livres_<código>_<AAAAMM da publicação ou do primeiro envio>; tudo em minúsculas, sem acento e sem dado pessoal; o docente aparece por código interno no utm_content.
 
 | Espaço | utm_source | utm_medium | utm_campaign | utm_content |
 |---|---|---|---|---|
-| L-E1, L-E2 | instagram | organico | livres-<código do produto> | <ID da peça, por exemplo l06> e "-stories" quando for Stories |
-| L-E4 | facebook | organico | livres-<código> | <ID da peça> |
-| L-E3, L-E7 | whatsapp ou instagram | atendimento | livres-<código> | <ID da peça> |
-| L-E8, L-E9 | whatsapp ou email | crm | livres-<código> | <toque, por exemplo t3>-<ID da peça> |
-| L-E10 | email ou whatsapp | newsletter | newsletter-geral-AAAA-MM-DD | edNN-agenda |
-| L-E13, L-E14 | instagram | docente | livres-<código> | <ID da peça>-<código interno do docente> |
-| L-E6 | youtube | organico | livres-<código> | <ID da peça>-short |
+| L-E1, L-E2 | instagram | organic_social | livres_<código do produto>_<AAAAMM> | <ID da peça, por exemplo l06> e "-stories" quando for Stories |
+| L-E4 | facebook | organic_social | livres_<código>_<AAAAMM> | <ID da peça> |
+| L-E3, L-E7 | instagram (direct) ou whatsapp (atendimento de vendas) | organic_social no direct; crm no WhatsApp de vendas [SUPOSIÇÃO: D11 não tem valor para atendimento] | livres_<código>_<AAAAMM> | <ID da peça>-atendimento |
+| L-E8, L-E9 | whatsapp ou email | crm | livres_<código>_<AAAAMM> | <toque, por exemplo t3>-<ID da peça> |
+| L-E10 | email ou whatsapp | newsletter | geral_newsletter_<AAAAMM> | edNN-agenda |
+| L-E13, L-E14 | instagram | organic_social | livres_<código>_<AAAAMM> | <ID da peça>-docente-<código interno do docente> |
+| L-E6 | youtube | organic_social | livres_<código>_<AAAAMM> | <ID da peça>-short |
 
 Leitura semanal na revisão de segunda-feira, junto com a Pós: pedidos pagos com origem por espaço (a unidade que julga Livres é o pedido pago, 1.9 de Livres), conversas no direct e no WhatsApp por código do produto, cliques e salvamentos por peça. Pergunta da distribuição: qual espaço trouxe mais pedido pago por peça sem aumentar mensagem por pessoa.
 
@@ -277,7 +279,7 @@ Leitura semanal na revisão de segunda-feira, junto com a Pós: pedidos pagos co
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | AL1 | Aprovar a ordem padrão (seção 3) e o mapa da seção 4 | Mais alcance por peça sem mais publicações nem mensagens | Sem custo de mídia; horas do time [CONFIRMAR] | Kits de novembro chegam a quem está fora da janela de base | Voltar à publicação só no feed |
-| AL2 | Decidir DL1 e DL2 | O CRM e o redator precisam de uma regra | - | Menos descadastro [SUPOSIÇÃO]; texto de conformidade único | Mudar na revisão de segunda-feira |
+| AL2 | Sem pedido próprio: DL1 e DL2 foram decididos pelo cmo (D1, D2 e D13); a confirmação do teto pela Ufape é o R1 do cmo | O CRM e o redator já têm uma regra | - | Menos descadastro [SUPOSIÇÃO]; texto de conformidade único | Mudar na revisão de segunda-feira, pelo cmo |
 | AL3 | Aprovar DL4 e registrar o aceite de cada docente | Compartilhamento depende do docente | - | Peças chegam à rede do docente | Parar de pedir |
 | AL4 | Aprovar DL5 (mapeamento de comunidades e lista de parceiros) | Nenhum espaço externo nas fontes | - | Base para a 1.25 e para o próximo trimestre | Não seguir com o mapeamento |
 | AL5 | Nomear quem atualiza as respostas prontas do atendimento a cada peça nova | O atendimento é o espaço sem teto que mais reaproveita | - | Resposta com link certo no dia | Não se aplica |
@@ -315,7 +317,7 @@ Nada é publicado, enviado, compartilhado ou pago pela squad.
 
 ## 11. Notas para outros arquivos (não editados aqui)
 
-- **estrategia-de-relacionamento-livres (1.26):** os toques 573 T3 e T4 e 616 T3 e T4 contradizem o teto de 1 de Livres por semana da 1.20 de Livres (DL1); a frase do curso livre da seção 3.3 é mais curta que a da auditoria (DL2).
+- **estrategia-de-relacionamento-livres (1.26):** DL1 e DL2 fechados pelo cmo (D1, D2 e D13); a troca da frase da seção 3.3 é encomenda do cmo ao dono do arquivo.
 - **copy-de-mensagens (Livres):** cada resposta pronta do atendimento precisa de um campo "link da peça" com UTM de atendimento.
 - **posts-sociais (Livres):** destaques fixos por item datado nos Stories e troca do link na bio por produto conforme a semana.
 - **gestor-de-midia-livres:** critério DL7 para receber peças orgânicas como candidatas às frentes L1 a L5.
@@ -325,14 +327,25 @@ Nada é publicado, enviado, compartilhado ou pago pela squad.
 
 ## 12. Próximo passo
 
-Próximo agente sugerido: **crescimento-de-audiencia** (1.25, geral), com este arquivo e o da Pós como entrada. Antes da execução, o cmo decide DL1, DL2 e a grade das semanas S2 a S4, e a Ufape responde aos [CONFIRMAR] da lista 3, a começar por P6 e P7 até 28/10 e 31/10.
+Próximo agente sugerido: **crescimento-de-audiencia** (1.25, geral), com este arquivo e o da Pós como entrada. DL1, DL2, DL6 e a grade das semanas S2 a S4 já foram decididos pelo cmo (seção 12 do plano). Antes da execução, a Ufape responde aos [CONFIRMAR] da lista 3, a começar por P6 e P7 até 28/10 e 31/10.
+
+---
+
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa.
+  - DL1 fechado (D1 e D2: sem sub-teto de Livres, teto único e fila), com 68618 T1 e T3 incluídos na lista de pares de WhatsApp na mesma semana (DLI1); DL2 fechado com a frase única de D13; DL6 fechado com o G5 aceito.
+  - Tabela de limites da seção 1 atualizada com D1, D2, D5 e D13; L07 passa para 09/11 (10/11 fica sem Livres, conta do cmo); L22 com a newsletter edição 4 em 07/01/2027.
+  - Stories de rotação de A2 passam de 02/11 (feriado) para 03/11 (DLI2).
+  - UTM da seção 8 no padrão D11 e D12 (organic_social, crm e newsletter; utm_campaign livres_<código>_<AAAAMM>); "organico", "atendimento" e "docente" saem do utm_medium.
 
 ---
 
 ## Lista 1. Fatos (com fonte)
 
 - Canais em uso: site com loja, blog, Instagram (@ufapevet), Facebook (/Ufape), WhatsApp de vendas e secretaria, e-mail e mídia paga (contexto/ufape-geral.md).
-- Curso livre não confere diploma nem equivale a pós-graduação; preço mediano de cerca de R$ 720; "vagas limitadas" só com número real (contexto/cursos-livres.md).
+- Curso livre não confere diploma nem equivale a pós-graduação; preço mediano de cerca de R$ 720; "vagas limitadas" só com número real (contexto/cursos-livres.md). Nas peças vale a frase única "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (cmo-geral, D13).
+- Teto único D1, fila D2, teto provisório D5 do @ufapevet, G5 aceito, padrão de UTM D11 e D12 e newsletter edição 4 em 07/01/2027 (cmo-geral, seção 12).
 - 573: São Paulo, semipresencial, 14/11/2026, 28 h, R$ 2.350,00 à vista ou 10x de R$ 303,00. 68614: presencial, 28/11/2026, 12 h, R$ 1.250,00 ou 10x de R$ 175,00. 616: 05/12/2026, 12 h, R$ 990,00 à vista ou 5x de R$ 240,00. 68618: 18/12/2026, 17 h, R$ 1.710,00 ou 1x de R$ 1.800,00. 68638: 06/03/2027, carga horária em branco, R$ 980,00 ou 10x de R$ 125,00. 68665 (01/11/2026) e 68666 (25/11/2026): R$ 100,00 à vista ou 1x de R$ 100,00 (catálogo).
 - Todos os docentes têm autorização de uso de imagem e de citação (docs/execucao-2026-10-26.md, decisão 8); nomes e titulações da tabela 6.4 da estrategia-social-livres.
 - Canais de Livres: 3 ativos, YouTube em teste a partir de 04/01/2027, 4 fora; base de 2 publicações de feed por semana e 25 no período (estrategia-social-livres, seções 0, 1 e 5).
@@ -345,23 +358,23 @@ Próximo agente sugerido: **crescimento-de-audiencia** (1.25, geral), com este a
 
 - [SUPOSIÇÃO] Stories, Facebook, atendimento, compartilhamento por docente e encaminhamento por colega não pesam no teto de mensagens por pessoa.
 - [SUPOSIÇÃO] Critério de sugestão ao gestor-de-midia (DL7).
-- [SUPOSIÇÃO] Padrão de UTM da seção 8, incluindo utm_medium "atendimento" e "docente".
+- [SUPOSIÇÃO] utm_medium para links de atendimento: organic_social no direct e crm no WhatsApp de vendas (D11 não tem valor próprio para atendimento).
 - [SUPOSIÇÃO] Nome dos destaques fixos nos Stories.
-- [SUPOSIÇÃO, herdada] Teto de 7 publicações por semana no perfil, teto de 1 WhatsApp de Livres por semana, teto de 2 e 2 somando as linhas e regra de prioridade entre linhas.
+- [SUPOSIÇÃO, D1 e D5 do cmo] Teto de 10 publicações de feed por semana no perfil (2 por dia, 1 por linha por dia) e teto de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando as linhas, com 1 por dia.
 - [SUPOSIÇÃO, herdada] Onde as personas de Livres passam o tempo.
 
 ## Lista 3. Dados que faltam ([CONFIRMAR])
 
 - [CONFIRMAR] Datas de 573, 68614 e 68618 (P6); página entre 623 e 68637 (P7); modalidade da 616 (G4); carga horária da 68638; texto de pagamento da 573 (U7).
 - [CONFIRMAR] Início de 68665 (U4); período coberto pelos R$ 100,00 (U9); regra de reembolso de 68666; docentes de 68665 e do encontro sem nome de 68666.
-- [CONFIRMAR] Teto de WhatsApp de Livres (DL1) e frase única do curso livre (DL2); grade das semanas S2 a S4.
+- [CONFIRMAR] Confirmação pela Ufape do teto D1 (R1 do cmo) e das horas do time que substituem o teto provisório D5 (U8).
 - [CONFIRMAR] Base com consentimento por canal, ligação entre loja e CRM, base legal para usar a lista de compradores (U13), caixa de consentimento no checkout.
 - [CONFIRMAR] Aceite de cada docente para coautoria e compartilhamento; perfis dos docentes; agenda de gravação; revisor docente para "Uma hora de [área]"; grafia da titulação.
 - [CONFIRMAR] Quem administra os grupos de WhatsApp dos grupos de estudos (UR8).
 - [CONFIRMAR] Canal de YouTube e quem publica; decisão sobre amostra de conteúdo pago.
 - [CONFIRMAR] Quem aprova posts orgânicos e quem atualiza as respostas prontas.
 - [CONFIRMAR] Comunidades de colegas, parceiros, empresas e clínicas: nenhum consta nas fontes.
-- [CONFIRMAR] Padrão de UTM da squad e ferramenta de medição.
+- [CONFIRMAR] Ferramenta de medição (o padrão de UTM foi fixado pelo cmo em D11 e D12).
 - [CONFIRMAR] Metas, verba, vagas restantes e números de pedidos, leads e conversas: nenhum existe nas fontes.
 
 ## Fontes

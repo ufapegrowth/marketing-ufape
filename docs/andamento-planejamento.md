@@ -57,7 +57,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.25 | crescimento-de-audiencia | geral | entregue (sem qa) |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | entregue (sem qa) |
-| 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
+| 1.28 | campanhas-de-nutricao | pos, livres, eventos | entregue (sem qa): NP1 a NP3, NL1 a NL3, NE1 a NE3; nutrição é a 5ª na fila D2 |
 | 1.29 | newsletter | geral | versão 2 corrigida (NG1 a NG7), aguarda reconferência do qa |
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
@@ -98,6 +98,14 @@ Segue as dependências da seção 4 do plano do cmo.
 - Teto de WhatsApp aparece em três versões nas saídas (2 da Pós; 2 WhatsApp e 2 e-mails somando linhas; 2 no total) e Livres tem 1 por semana na 1.20. Frase do curso livre com duas versões (DL2).
 - RESOLVIDO: a autorização cobre palestrantes e convidados dos gravados 700 e 202.
 
+## Pendências para o cmo depois das encomendas
+
+- Chave de utm_campaign e utm_medium para links sem código do catálogo (cabeçalho e Shorts de linha no YouTube, listagem, rodapé do blog, conteúdo da Pós sem turma: usado pos_conteudo_<AAAAMM> [SUPOSIÇÃO]) e para atendimento e docente (usado organic_social no direct e docente, crm no WhatsApp de vendas, utm_source=linkedin no docente, tudo [SUPOSIÇÃO]).
+- LP10 (exclusão de público em Livres de 20/11 a 27/11) contra a regra "sem exclusão de público entre campanhas" da sobreposição de 03/11 a 18/11.
+- Teste de rastreio das provas continua em 31/10 (sábado); o do workshop foi para 30/10.
+- posts-sociais-pos ainda usa utm_medium=organico (fora das encomendas).
+- posts-sociais-eventos v3 trocou o nome longo da página pelo nome oficial nas legendas e artes (mudança fora da encomenda, coerente com a decisão 7).
+
 ## Próximos passos
 
 1. Em execução: aplicação das encomendas da seção 12 do plano do cmo e dos ajustes dos qa dos lotes B e C, em 5 grupos (relacionamento; copy e campanhas; social e conteúdo; mídia; análise e demais), mais o lote D (1.14 anuncios-meta e anuncios-google; 1.15 anuncios-linkedin e anuncios-tiktok; 1.28 campanhas-de-nutricao). Cada arquivo corrigido leva no cabeçalho a nova versão e o motivo. Se a sessão cair, confira pelo cabeçalho quais arquivos já têm a versão nova.
@@ -131,3 +139,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.15 entregue. Nota: na seção 12 do cmo, o padrão de nomes e UTM é D11 e D12 e a frase do curso livre é D13 (as instruções enviadas aos agentes citaram D14 e D15 por engano; os agentes seguem pelo conteúdo). Página da 657 ainda diz turma mínima 20 e traz frase de certificação |
 | 26/10/2026 | Encomendas aplicadas (grupo estratégia, análise, vídeo e operações): estrategia-de-marketing pos, livres e eventos v2; estrategia-de-oferta pos e livres v2; analise-de-campanha-livres v2; youtube pos e livres v2; podcast v2; crescimento-de-audiencia v2; arquiteto-de-fluxos v3 (campos fim_janela_silencio, participou_evento, vinculo_ufape). Pendente com o cmo: chave de utm_campaign para links sem código do catálogo (cabeçalho do YouTube, Shorts de linha, listagem, rodapé do blog) |
 | 26/10/2026 | Encomendas aplicadas (grupo relacionamento): estrategia-de-relacionamento pos v2 e livres v2, newsletter v3 (edição 4 em 07/01/2027), jornada-do-aluno v2 (tabela única de pares, J5 a J14 fechados). Ambiguidade registrada: janela de silêncio da 616 (online com data) |
+| 26/10/2026 | Encomendas aplicadas (grupo social e conteúdo, 9 arquivos; grupo mídia, 8 arquivos). 1.28 entregue. Aviso: agentes em paralelo dividiram a pasta de rascunho e um script foi sobrescrito no meio da rodada; os agentes conferiram as edições nos arquivos. A partir daqui, cada agente usa subpasta própria |

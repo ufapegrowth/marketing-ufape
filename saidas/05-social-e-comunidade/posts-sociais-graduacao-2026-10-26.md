@@ -8,6 +8,7 @@
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
 - Canais: Instagram e Facebook (ativos nas duas liberações). YouTube leve só no G1 (adaptação de 2 posts em Shorts, pelo agente youtube). TikTok, LinkedIn, X e podcast ficam fora, como decidiu o cmo.
+- Versão: versão 2, aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda da seção 12.10: G1-02 e G2-02 saem do feed de 06/11 e viram Stories de 08 e 15/11, movimento G1 aceito pelo cmo; utm_medium já era organic_social e fica como está).
 - Status: rascunho para aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -23,6 +24,7 @@
   - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-graduacao-2026-10-26.md
   - saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md (linhas 1 a 458: regras, integral, noturno e início da Pedagogia; os conceitos aprovados foram reaproveitados no orgânico)
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12, conciliação da camada 1: D5, teto provisório do @ufapevet, G1 aceito, e D12, prefixo grad_ mantido; lida na versão 2)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - auditorias/05-social.md e auditorias/conformidade-educacional.md
 - Regra de fonte: preço, modalidade, turno, duração, carga horária e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso e regras do desconto vêm da ficha dos editais 2027/1. Nomes de disciplinas e semestres de estágio vêm das fichas dos cursos (via saídas anteriores), não do catálogo: ficam marcados [CONFIRMAR NO CATÁLOGO]. Não abri as fichas dos cursos nem o site. Nenhum número de desempenho, vaga restante ou aluno existe nos textos. Nenhum nome de docente ou aluno. Nenhum dado pessoal.
@@ -91,7 +93,7 @@ Fases: captação (27/10 a 06/12/2026; o plano do cmo liga mídia e orgânico em
 | Post | Fase | Data-alvo | Tema | Turno | Canal | Kit |
 |---|---|---|---|---|---|---|
 | G1-01 | Captação | ter 03/11/2026 | Prática na matriz desde o 1º semestre | Integral | IG carrossel + Reels, FB | Kit 1 |
-| G1-02 | Captação | sex 06/11/2026 | Lembrete do Enem de 08 e 15/11 | Integral e noturno | IG, FB, Stories nos dois domingos | Extra |
+| G1-02 | Captação | dom 08/11 e dom 15/11/2026 | Lembrete do Enem de 08 e 15/11 | Integral e noturno | Só Stories do IG nos dois domingos (saiu do feed de 06/11, G1 do cmo) | Extra |
 | G1-03 | Captação | ter 10/11/2026 | Veterinária à noite, 5 anos | Noturno | IG Reels, FB | Extra |
 | G1-04 | Captação | ter 17/11/2026 | Hospital veterinário próprio | Integral e noturno | IG, FB | Kit 2 (depende de G11) |
 | G1-05 | Captação | ter 24/11/2026 | Perguntas de pais e responsáveis | Integral e noturno | FB (e IG) | Família 1 |
@@ -102,7 +104,7 @@ Fases: captação (27/10 a 06/12/2026; o plano do cmo liga mídia e orgânico em
 | G1-10 | Reta final | ter 09/02/2027 | Passos da matrícula | Integral e noturno | IG, FB, Stories | Kit 6 |
 | G1-11 | Reta final | sex 19/02/2027 | Aulas começam em 22/02 | Integral e noturno | IG, FB, Stories | Extra (só com turma confirmada) |
 
-Kit mínimo do G1 (6 posts): G1-01, G1-04, G1-06, G1-07, G1-08 e G1-10. Posts para famílias (2): G1-05 e G1-09. Extras: G1-02, G1-03 e G1-11. Total: 11 posts.
+Kit mínimo do G1 (6 posts): G1-01, G1-04, G1-06, G1-07, G1-08 e G1-10. Posts para famílias (2): G1-05 e G1-09. Extras: G1-02, G1-03 e G1-11. Total: 11 posts, 10 no feed e o G1-02 só em Stories.
 
 Slot reservado, sem texto: post sobre a divulgação das notas do Enem, na fase de inscrições abertas. Só é escrito quando a data estiver confirmada [CONFIRMAR]; o texto não pode sugerir que a nota de 2026 já vale antes de sair.
 
@@ -111,14 +113,14 @@ Slot reservado, sem texto: post sobre a divulgação das notas do Enem, na fase 
 | Post | Fase | Data-alvo | Tema | Canal | Kit |
 |---|---|---|---|---|---|
 | G2-01 | Captação | qua 04/11/2026 | Pedagogia presencial, à noite, em Goiânia | IG Reels, FB | Kit 1 |
-| G2-02 | Captação | sex 06/11/2026 | Lembrete do Enem de 08 e 15/11 | IG, FB, Stories nos dois domingos | Extra |
+| G2-02 | Captação | dom 08/11 e dom 15/11/2026 | Lembrete do Enem de 08 e 15/11 | Só Stories do IG nos dois domingos (saiu do feed de 06/11, G1 do cmo) | Extra |
 | G2-03 | Captação | qua 18/11/2026 | Prática Docente desde o 1º semestre | IG carrossel, FB | Kit 2 |
 | G2-04 | Aquecimento | sex 11/12/2026 | Como funciona o ingresso: redação online ou Enem | IG, FB, Stories | Kit 3 |
 | G2-05 | Inscrições abertas | qua 06/01/2027 | Desconto com a regra | IG, FB | Kit 4 (depende de G12) |
 | G2-06 | Inscrições abertas | qua 20/01/2027 | O que se estuda na Pedagogia | IG carrossel, FB | Kit 5 |
 | G2-07 | Reta final | qua 10/02/2027 | Passos da matrícula e data de início | IG, FB, Stories | Kit 6 |
 
-Kit mínimo do G2 (6 posts): G2-01, G2-03, G2-04, G2-05, G2-06 e G2-07. Extra: G2-02. Total: 7 posts. Perfil da unidade de Goiânia no Instagram: [CONFIRMAR]; sem ele, os posts saem no @ufapevet e no Facebook da Ufape.
+Kit mínimo do G2 (6 posts): G2-01, G2-03, G2-04, G2-05, G2-06 e G2-07. Extra: G2-02. Total: 7 posts, 6 no feed e o G2-02 só em Stories. Perfil da unidade de Goiânia no Instagram: [CONFIRMAR]; sem ele, os posts saem no @ufapevet e no Facebook da Ufape.
 
 ---
 
@@ -164,12 +166,12 @@ Candidato menor de idade precisa do aceite do responsável na inscrição e na m
 - Autorização de uso de imagem: não se aplica (sem pessoas, sem docente, sem aluno).
 - Data de publicação: 03/11/2026 (captação)
 
-### G1-02 | Captação | sex 06/11/2026 (Stories em 08/11 e 15/11)
+### G1-02 | Captação | Stories em dom 08/11 e dom 15/11/2026 (sem feed)
 
 POST SOCIAL
 - Linha de negócio: Graduação
 - Curso: Medicina Veterinária, integral e noturno, São Paulo (G1)
-- Plataforma: Instagram (feed e Stories) e Facebook
+- Plataforma: Instagram, só Stories. O post de feed de 06/11 (e a cópia no Facebook) saiu pela decisão do cmo (G1, seção 12.3 do plano), para 06/11 não ter 3 publicações de feed. Ganchos, corpo e linha final ficam como texto de apoio para responder comentários e directs; a peça publicada são as 3 telas dos Stories
 - Pilar: entrada (Enem como porta)
 - Gancho (linha 1): Boa prova no Enem, nos dias 08 e 15/11.
 - Ganchos alternativos (2):
@@ -196,12 +198,12 @@ Inscrição gratuita no site. Link na bio.
 Candidato menor de idade precisa do aceite do responsável na inscrição e na matrícula.
 ```
 
-- URL (Instagram): https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-geral_organico_202611&utm_content=g1-02_feed&utm_term=captacao
-- Texto para a arte (1:1): "Boa prova no Enem, 08 e 15/11". Linha 2: "Nota de 2010 em diante, média mínima de 300 pontos, pode ser a sua entrada". Rodapé: "Ou redação online. Inscrição gratuita. Medicina Veterinária, São Paulo."
+- URL (adesivo de link nos Stories): https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-geral_organico_202611&utm_content=g1-02_stories&utm_term=captacao
+- Texto para a arte: sem arte de feed nesta versão; o texto das telas está na versão Stories abaixo.
 - Versão Stories (3 telas, 08/11 de manhã e 15/11 de manhã): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota de 2010 em diante, média mínima de 300 pontos, vale para entrar." 3 "Ou redação online, quando você puder. Link na bio." Sem enquete que peça dado pessoal.
 - Visual necessário: arte tipográfica. Nenhuma foto de estudante.
 - Autorização de uso de imagem: não se aplica.
-- Data de publicação: 06/11/2026; Stories em 08/11 e 15/11. Datas do Enem [CONFIRMAR: informadas no pedido, não constam no catálogo nem no edital]. Se a aprovação humana vier depois de 08/11, usar só o Stories de 15/11 com o gancho "Domingo, 15/11, é o segundo dia do Enem. Boa prova."
+- Data de publicação: só Stories, em 08/11 e 15/11; nenhum post de feed em 06/11. Datas do Enem [CONFIRMAR: informadas no pedido, não constam no catálogo nem no edital]. Se a aprovação humana vier depois de 08/11, usar só o Stories de 15/11 com o gancho "Domingo, 15/11, é o segundo dia do Enem. Boa prova."
 
 ### G1-03 | Captação | ter 10/11/2026
 
@@ -625,12 +627,12 @@ Redação online quando você puder ou nota do Enem.
 - Autorização de uso de imagem: não se aplica.
 - Data de publicação: 04/11/2026. Perfil de Goiânia: [CONFIRMAR].
 
-### G2-02 | Captação | sex 06/11/2026 (Stories em 08/11 e 15/11)
+### G2-02 | Captação | Stories em dom 08/11 e dom 15/11/2026 (sem feed)
 
 POST SOCIAL
 - Linha de negócio: Graduação
 - Curso: Pedagogia, noturno, Goiânia (G2)
-- Plataforma: Instagram (feed e Stories) e Facebook
+- Plataforma: Instagram, só Stories. O post de feed de 06/11 (e a cópia no Facebook) saiu pela decisão do cmo (G1, seção 12.3 do plano). Ganchos, corpo e linha final ficam como texto de apoio para responder comentários e directs; a peça publicada são as 3 telas dos Stories
 - Pilar: entrada (Enem como porta)
 - Gancho (linha 1): Boa prova no Enem, nos dias 08 e 15/11.
 - Ganchos alternativos (2):
@@ -656,12 +658,12 @@ A redação online pode ser feita quando você puder, depois da inscrição. Ela
 Inscrição gratuita no site. Link na bio.
 ```
 
-- URL (Instagram): https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_organico_goiania_202611&utm_content=g2-02_feed&utm_term=captacao
-- Texto para a arte (1:1): "Boa prova no Enem, 08 e 15/11". Linha 2: "Nota de 2010 em diante, média mínima de 300 pontos, pode ser a sua entrada". Rodapé: "Ou redação online. Inscrição gratuita. Pedagogia, Goiânia".
+- URL (adesivo de link nos Stories): https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_organico_goiania_202611&utm_content=g2-02_stories&utm_term=captacao
+- Texto para a arte: sem arte de feed nesta versão; o texto das telas está na versão Stories abaixo.
 - Versão Stories (3 telas, 08/11 e 15/11): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota de 2010 em diante vale para entrar em Pedagogia." 3 "Ou redação online, quando você puder. Link na bio."
 - Visual necessário: arte tipográfica.
 - Autorização de uso de imagem: não se aplica.
-- Data de publicação: 06/11/2026; Stories em 08/11 e 15/11. Datas do Enem [CONFIRMAR: informadas no pedido, não constam no catálogo nem no edital]. Se a aprovação vier depois de 08/11, usar só o Stories de 15/11.
+- Data de publicação: só Stories, em 08/11 e 15/11; nenhum post de feed em 06/11. Datas do Enem [CONFIRMAR: informadas no pedido, não constam no catálogo nem no edital]. Se a aprovação vier depois de 08/11, usar só o Stories de 15/11.
 
 ### G2-03 | Captação | qua 18/11/2026
 
@@ -885,7 +887,7 @@ Se pedir o cancelamento até 2 dias antes do início das aulas, você recebe de 
 | Post | Feed IG | Carrossel | Reels | Stories | Facebook | Short (YouTube) |
 |---|---|---|---|---|---|---|
 | G1-01 | sim | 5 cartões | 15 s | opcional | sim | sim (roteiro do Reels) |
-| G1-02 | sim | não | não | 3 telas em 08 e 15/11 | sim | não |
+| G1-02 | não (saiu, G1 do cmo) | não | não | 3 telas em 08 e 15/11 | não | não |
 | G1-03 | capa | não | 12 a 15 s | caixa de perguntas | sim | sim (roteiro do Reels) |
 | G1-04 | sim | não | não | não | sim | não |
 | G1-05 | resumo | 6 cartões | não | não | principal | não |
@@ -896,7 +898,7 @@ Se pedir o cancelamento até 2 dias antes do início das aulas, você recebe de 
 | G1-10 | sim | não | não | 3 telas | sim | não |
 | G1-11 | sim | não | não | sim | sim | não |
 | G2-01 | capa | não | 12 a 15 s | não | sim | não (YouTube fora no G2) |
-| G2-02 | sim | não | não | 3 telas em 08 e 15/11 | sim | não |
+| G2-02 | não (saiu, G1 do cmo) | não | não | 3 telas em 08 e 15/11 | não | não |
 | G2-03 | sim | 6 cartões | 12 s | não | sim | não |
 | G2-04 | sim | 6 cartões | não | 3 telas | sim | não |
 | G2-05 | sim | opcional | não | não | sim | não |
@@ -911,7 +913,7 @@ Os roteiros dos Reels de G1-01 e G1-03 seguem a mesma lógica dos roteiros do ki
 
 ### 5.1 auditorias/05-social.md
 
-- [x] A frequência de publicação segue o plano: G1 com 11 posts (kit de 6, 2 para famílias e 3 extras) e G2 com 7 (kit de 6 e 1 extra), nas quatro fases e dentro do mínimo que não diminui. Cadência de 1 a 2 posts por semana na captação e 1 por quinzena depois; a capacidade de produção do time [CONFIRMAR].
+- [x] A frequência de publicação segue o plano: G1 com 11 posts (kit de 6, 2 para famílias e 3 extras) e G2 com 7 (kit de 6 e 1 extra), nas quatro fases e dentro do mínimo que não diminui. Os extras G1-02 e G2-02 ficam só em Stories (G1 do cmo), dentro do teto provisório do @ufapevet (D5: 2 publicações de feed por dia, 1 por linha por dia, 10 por semana). Cadência de 1 a 2 posts por semana na captação e 1 por quinzena depois; a capacidade de produção do time [CONFIRMAR].
 - [x] Todo post tem uma ideia clara: cada post responde uma pergunta (prática no 1º semestre, noturno, hospital, perguntas da família, como entrar, preço do integral, preço do noturno, regras da renovação, passos da matrícula, início das aulas; no G2, presencial à noite, prática docente, como entrar, preço, o que se estuda, matrícula).
 - [x] Os ganchos são cumpridos pelo conteúdo: cada gancho foi conferido contra o corpo (disciplina da matriz, valores do edital, regras da redação e do Enem, passos de matrícula). Nenhum tem 15 palavras ou mais, e nenhum promete emprego, salário ou aprovação.
 - [x] Histórias e números são reais: nenhuma história, depoimento ou número de desempenho foi escrito. Os números são de editais e catálogo. Disciplinas e semestres de estágio vêm da ficha e estão marcados [CONFIRMAR NO CATÁLOGO].
@@ -972,6 +974,12 @@ Data: 26/10/2026.
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa. G1-02 e G2-02 saem do feed e do Facebook de 06/11 e ficam só nos Stories de 08 e 15/11 (movimento G1 aceito pelo cmo, D5), com utm_content=g1-02_stories e g2-02_stories; tabelas 1.1, 1.2 e 4 e auditoria 5.1 atualizadas. O utm_medium já era organic_social e o prefixo grad_ fica (D11 e D12). Autorização de docentes registrada nas listas (decisões 8 e 10). Nenhum texto de post mudou.
+
+---
+
 ## Lista 1. Fatos (com fonte)
 
 - Medicina Veterinária: presencial, São Paulo, integral 4 anos e noturno 5 anos, 4.195 h + 75 h de atividades complementares; de R$ 10.000,00 por R$ 5.000,00/mês (50%) no integral e por R$ 4.000,00/mês (60%) no noturno (catálogo, seção 1; Edital 003/2026).
@@ -988,6 +996,8 @@ Data: 26/10/2026.
 - Matriz da Pedagogia: Prática Docente do 1º ao 8º semestre, Projeto Integrador do 1º ao 7º, estágio supervisionado a partir do 6º, Educação Inclusiva, Letramento em Libras, Fundamentos da Educação Infantil, Alfabetização e Letramento, Literatura Infantil, EJA e gestão escolar (ficha do curso, via estrategia-de-oferta e criativos-de-anuncio; não conferido no catálogo).
 - Datas da campanha, canais ativos e fora, mínimo do kit (6 posts por liberação mais 2 para famílias no G1), distribuição por fase e regra de nunca usar o G2 em anúncio pago antes de G6 (plano do cmo, 26/10/2026).
 - Voz e regras de escrita: precisa, próxima, transparente; sem superlativo, sem certificação, sem urgência falsa (estrategia-de-marca-geral-2026-10-26.md).
+- Teto provisório do @ufapevet (no máximo 2 publicações de feed por dia, 1 por linha por dia e 10 por semana) e movimento G1 aceito: lembretes do Enem G1-02 e G2-02 fora do feed de 06/11, nos Stories de 08 e 15/11; Graduação mantém o prefixo grad_ no utm_campaign (cmo-geral-2026-10-26.md, seção 12, D5, G1 e D12).
+- A autorização de uso de imagem e de citação vale para todos os docentes, palestrantes e convidados (docs/execucao-2026-10-26.md, decisões 8 e 10). Este arquivo segue sem nomear docente (regra 6).
 
 ## Lista 2. Suposições
 
@@ -1006,11 +1016,11 @@ Data: 26/10/2026.
 - [CONFIRMAR] Efeito do reajuste de dezembro sobre os valores de 2027/1 (G12); correção dos Editais 003/2026 (G7).
 - [CONFIRMAR NO CATÁLOGO] Nomes das disciplinas do 1º semestre, semestres de estágio e componentes da matriz da Pedagogia; horário das atividades práticas e do estágio do noturno.
 - [CONFIRMAR NO CATÁLOGO] Carga horária da Pedagogia (G5, divergência entre site e edital): nenhum post a cita.
-- [CONFIRMAR] Como a graduação usa a Ufape Clínica; autorização de imagem do hospital, do campus, de docentes e de alunos (G11).
+- [CONFIRMAR] Como a graduação usa a Ufape Clínica; autorização de imagem do hospital, do campus e de alunos (G11). Docentes já têm autorização registrada (decisões 8 e 10).
 - [CONFIRMAR autorização] Qualquer foto ou vídeo com pessoa; nenhuma imagem de menor sem autorização dos responsáveis.
 - [CONFIRMAR] URL da LP que recebe a UTM por curso e se a origem chega ao CRM (G13); finalidade e política de privacidade do formulário.
 - [CONFIRMAR] Correção da página de Pedagogia (G6) e do campo turno do noturno (G8); endereço de Goiânia (G9).
-- [CONFIRMAR] Perfil da unidade de Goiânia no Instagram; capacidade de produção do time por semana; canal de vendas de Goiânia como destino oficial.
+- [CONFIRMAR] Perfil da unidade de Goiânia no Instagram; capacidade de produção do time por semana (troca o teto provisório D5 do cmo, U8); canal de vendas de Goiânia como destino oficial.
 - [CONFIRMAR] Aprovador de posts orgânicos (G14); manual de marca, cores e fontes.
 - [CONFIRMAR] Quais disciplinas usam até 30% da carga a distância (resposta-padrão do atendimento).
 
