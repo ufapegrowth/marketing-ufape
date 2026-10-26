@@ -108,9 +108,10 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Em execução: aplicação das encomendas da seção 12 do plano do cmo e dos ajustes dos qa dos lotes B e C, em 5 grupos (relacionamento; copy e campanhas; social e conteúdo; mídia; análise e demais), mais o lote D (1.14 anuncios-meta e anuncios-google; 1.15 anuncios-linkedin e anuncios-tiktok; 1.28 campanhas-de-nutricao). Cada arquivo corrigido leva no cabeçalho a nova versão e o motivo. Se a sessão cair, confira pelo cabeçalho quais arquivos já têm a versão nova.
-2. Lote E: 1.33 backlog-de-otimizacao e qa final (lote D e reconferência das versões novas).
-3. Fechar a camada 1 e levar ao CEO os pedidos de aprovação (R1 a R8 do cmo e os dos agentes) e as perguntas U1 a U10.
+1. Lote E em execução: 1.33 backlog-de-otimizacao-geral; qa do lote D (qa-de-marketing-geral-2026-10-26-loteD.md); varredura de coerência nas saídas antigas (propaga as decisões 7 a 13 e a seção 12 do cmo em cerca de 20 arquivos feitos antes delas). Se a sessão cair, confira pelos arquivos e cabeçalhos o que já saiu.
+2. Aplicar as correções do qa do lote D.
+3. Fechar a camada 1: atualizar este arquivo e levar ao CEO, numa lista só, os pedidos de aprovação (R1 a R8 do cmo e os dos agentes) e as perguntas U1 a U10.
+4. Depois: camada 2 (por área) e camada 3 (por curso), na ordem das ondas, e o mapa mental e os JSON (M.1 a M.4).
 
 ## Diário
 
@@ -142,3 +143,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Encomendas aplicadas (grupo social e conteúdo, 9 arquivos; grupo mídia, 8 arquivos). 1.28 entregue. Aviso: agentes em paralelo dividiram a pasta de rascunho e um script foi sobrescrito no meio da rodada; os agentes conferiram as edições nos arquivos. A partir daqui, cada agente usa subpasta própria |
 | 26/10/2026 | Encomendas aplicadas (grupo copy e campanhas): copy-de-mensagens pos v2 e eventos v3, estrategia-de-campanha pos v2 e eventos v3, criativos-de-anuncio pos v2 e eventos v3. Provas como online com campus; 12 fichas que se contradizem por dentro ficam [CONFIRMAR U1]; acesso à prova online [CONFIRMAR U2]. Todas as encomendas da seção 12 aplicadas |
 | 26/10/2026 | 1.14 entregue (5 arquivos). Lote D concluído. Iniciado o lote E: 1.33 backlog-de-otimizacao e qa do lote D |
+| 26/10/2026 | Lote E iniciado (1.33, qa do lote D, varredura de coerência das saídas antigas) |
