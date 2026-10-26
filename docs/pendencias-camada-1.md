@@ -36,6 +36,12 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 | U12 | Na Graduação, o que é "valor do curso" para a meta de 15 matrículas (mensalidade vezes duração, primeira anualidade ou outra conta)? |
 | Metas | Metas em reais por turma e por linha (formulário do gestor de mídia): sem elas, os tetos de custo ficam só como fórmula |
 
+## 2b. Urgente (até 27/10 às 18h): onda 1 da Pós
+
+- A Ufape aceita matrícula depois da data de corte da 1ª mensalidade (30 dias antes do início)? Já passou em 707, 68604 e 68606; cai em 29/10 em 698, 68610 e 68608. Sem resposta, vale o cenário A do plano do cmo da onda 1 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md): pausar 707 e 68604 até 27/10 às 12h e 68606 até 28/10 às 12h.
+- Inventário do que já existe do kit de cada uma das 6 turmas (OU5).
+- Aprovações OA1 a OA10 do plano da onda 1.
+
 ## 3. Correções no site (quem administra a loja)
 
 - As 22 páginas das provas de 27/11: trocar "prova presencial" e endereço por "online" e o campus. Bloqueia toda a mídia das provas.
