@@ -2,7 +2,7 @@
 
 - Agente: analise-de-tendencias (etapa 1.5 da camada 1)
 - Linha: geral (Pós-graduação, Cursos Livres, Eventos e Graduação, cada tendência indica a linha que aproveita)
-- Data: 26/10/2026
+- Data: 26/10/2026 (versão corrigida após o veredito do qa-de-marketing, itens T1 a T9)
 - Janela de análise: últimos 90 dias (a partir de 28/07/2026), olhando para os próximos 6 meses (11/2026 a 04/2027)
 - Status: rascunho para o qa-de-marketing (auditoria 01-qualidade-de-pesquisa e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago.
 - Entradas lidas:
@@ -12,19 +12,21 @@
   - contexto/pos-graduacao.md
   - contexto/cursos-livres.md
   - contexto/graduacao.md
-  - saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-26.md (lido até a linha 431 de 531; a parte final não foi aberta)
+  - saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-26.md (leitura completa, linhas 1 a 538)
   - saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-livres-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (todas as seções, com foco em 2 e 3)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md (seção 4, veredito sobre este arquivo)
 - Como a evidência foi coletada: WebSearch em 26/10/2026, cerca de 22 consultas. Nenhuma página de origem foi aberta para leitura direta (uma tentativa de abrir o calendário visitesaopaulo.com falhou por erro de rede). Todo dado externo abaixo vem do resumo da busca e precisa de conferência na fonte primária antes de ir para peça. O Google Trends não pôde ser consultado neste ambiente: nenhum dado de volume de busca é usado, e isso está na lista de dados que faltam.
-- Dados de curso (nome, data, preço, modalidade) aparecem só como código e data conforme o plano do cmo de 26/10/2026, que usa o catálogo. Conferir em contexto/catalogo-de-cursos.md antes de qualquer peça. Nenhum dado pessoal foi usado.
+- Dados de curso (nome, data, preço, modalidade) aparecem só como código e data conforme o plano do cmo de 26/10/2026, que usa o catálogo (o QA conferiu as datas por código contra o catálogo e elas batem). Conferir em contexto/catalogo-de-cursos.md antes de qualquer peça. Nenhum dado pessoal foi usado.
 
 ## Como ler este radar
 
-- **Sinal forte:** pelo menos 3 fontes independentes entre si, de natureza diferente (imprensa, academia, entidade, mercado), com data. Mesmo no sinal forte, a fonte é secundária e a magnitude é incerta.
+- **Sinal forte:** pelo menos 3 fontes independentes entre si, de natureza diferente (imprensa, academia, entidade, mercado), com data. A pesquisa anterior da própria squad é apoio e não conta como origem independente. Mesmo no sinal forte, a fonte é secundária e a magnitude é incerta.
 - **Sinal fraco:** menos de 3 fontes independentes, fontes do próprio vendedor da tecnologia, dado só de outro país, ou fontes que divergem entre si. Sinal fraco não vira promessa nem argumento de venda.
 - **Decisão:** aproveitar agora (sinal forte, que cabe no calendário e no catálogo), observar (sinal fraco ou sem produto ou data na Ufape) ou ignorar (sem aderência).
 - Tendência de mercado de trabalho nunca vira promessa de emprego, de renda ou de salário. Toda ideia de peça abaixo fala de rotina clínica, de conhecimento e de formação, não de resultado financeiro.
-- Nenhuma tendência abaixo é afirmação de certificação. As peças ficam sem a frase ligada ao MEC.
+- Nenhuma tendência abaixo é afirmação de certificação. As peças ficam sem a frase ligada ao MEC. Peças de Cursos Livres e de Eventos devem dizer que o curso livre, o workshop e os gravados não conferem diploma nem equivalem a pós-graduação (contexto/cursos-livres.md), com o texto de certificado [PREENCHER COM A REGULAÇÃO].
+- **Envio para base:** toda sugestão de e-mail, WhatsApp ou mensagem para base vale só para quem deu opt-in de marketing, com saída fácil. Isso inclui alunos, ex-alunos, participantes de eventos e grupos de estudos: base própria não substitui o consentimento de cada pessoa.
 
 ---
 
@@ -42,20 +44,21 @@
 
 ### A.1 Medicina de felinos (área A13): sinal forte, decisão aproveitar agora
 
-- **Evidência (5 origens independentes):**
+- **Evidência (4 origens independentes, mais a pesquisa da squad como apoio):**
   1. Agrolink, reportagem "Brasil já tem 33,3 milhões de gatos e amplia demanda por cuidados especializados" (data não vista no resumo da busca) [F1]. Cita clínicas investindo em ambientes para atender gatos e crescimento da especialização em medicina e comportamento felino.
-  2. Abinpet: 30,8 milhões de gatos em 2023 (resumo da busca de 26/10/2026) [F2]. Os dois números divergem entre si (30,8 e 33,3 milhões).
+  2. Abinpet: 30,8 milhões de gatos em 2023 (resumo da busca de 26/10/2026) [F2].
   3. 4º Congresso de Medicina de Felinos, Doenças Crônicas, Infectologia e Medicina Preventiva, em São Paulo, 2026 (calendário visitesaopaulo.com, data exata não obtida) [F3].
   4. Edição especial da revista do CRMV-SP (MVez) dedicada à Medicina Felina, 2026 [F4].
-  5. Pesquisa de mercado da Pós de 26/10/2026: crescimento projetado de gatos acima do de cães (reportagem de 2023, fonte primária não localizada) e notícias de 2026 sobre negócios felinos em Goiânia [F22].
+  - Apoio (não conta como origem): a pesquisa de mercado da Pós registra gatos entre 30 e 33,6 milhões (Itatiaia, sem data, S9), crescimento projetado de gatos acima do de cães (reportagem de 2023 sem fonte primária localizada) e notícias de 2026 sobre negócios felinos em Goiânia [F22].
+- **Divergência a registrar:** número de gatos de 30 a 33,6 milhões (faixa que reúne Abinpet 30,8, Agrolink 33,3 e a pesquisa da Pós, 30 a 33,6). As fontes divergem e nenhum desses números vai para peça.
 - **Frequência:** apareceu em 5 de 5 buscas sobre o tema, de tipos diferentes (imprensa, entidade de classe, evento, mercado).
 - **Ressalva:** não há dado de crescimento do número de clínicas felinas em 2026. A magnitude é incerta.
-- **O que muda para a Ufape:** é a única área do recorte com prova de bolsa aberta (68652, 27/11/2026) e nenhuma turma de Pós aberta (a turma VI, 650, já começou em 15/08/2026). É um buraco de oferta, não de demanda: a decisão de turma e de destino da prova é da Ufape [CONFIRMAR]. Nos Livres há 4 cursos gravados de felinos em português e 1 em espanhol (105, 340, 157, 459 e 347), com cargas diferentes (possível sobreposição, [CONFIRMAR NO CATÁLOGO]).
+- **O que muda para a Ufape:** Felinos é uma das áreas com prova de bolsa aberta e sem turma de Pós aberta (68652, 27/11/2026), junto com Endoscopia (68649), Nefrologia (68653) e Odontologia (68655). Segundo o QA (conta que supõe como destino a turma aberta do mesmo curso e da mesma cidade depois da prova), outras provas também têm destino incerto pela data ou pela cidade (por exemplo Cardiologia, Clínica Cirúrgica, Anestesiologia e Terapia Intensiva em SP). A turma VI de Felinos (650) já começou em 15/08/2026. É um buraco de oferta, não de demanda: a decisão de turma e de destino de cada prova é da Ufape [CONFIRMAR]. Nos Livres há 4 cursos gravados de felinos em português e 1 em espanhol (105, 340, 157, 459 e 347), com cargas diferentes (possível sobreposição, [CONFIRMAR NO CATÁLOGO]).
 - **Linha e área:** Cursos Livres e Pós, A13; também Geriatria (699) e Reabilitação (366), que têm módulos felinos (fichas).
 - **Ideias de peça e tema:**
   - Série de carrossel e Reels "O gato na consulta": manejo cat friendly, sinais que o tutor não conta, o que perguntar na anamnese (sem preço e sem promessa).
-  - E-mail e WhatsApp para a base de felinos dos Livres: convite à prova de bolsa de Felinos, só depois de a Ufape confirmar a turma de destino.
-  - Artigo "Medicina felina: por onde começar a se especializar", com ligação para os cursos gravados.
+  - E-mail e WhatsApp para a base de felinos dos Livres: convite à prova de bolsa de Felinos, só para quem deu opt-in de marketing, com saída fácil, e só depois de a Ufape confirmar a turma de destino.
+  - Artigo "Medicina felina: por onde começar a se especializar", com ligação para os cursos gravados (peça de Livres: curso livre não confere diploma).
 
 ### A.2 Longevidade dos pets, geriatria e cuidados paliativos (A14 e A1): sinal forte (tema), decisão aproveitar agora
 
@@ -64,14 +67,14 @@
   2. Tribuna de Minas, 08/06/2025, e Correio Braziliense, 10/2024: expectativa de vida dos pets em alta [F6].
   3. Bem Paraná, pesquisa da Royal Canin com a Censuswide em 1.000 tutores no Brasil: o tema do fim de vida é sensível, 67% dos que evitam o assunto dizem que causa muita tristeza (data não vista) [F6].
   4. Oferta de formação por terceiros: Medvet Experience tem "Trilha de atualização em geriatria veterinária" (dor crônica, disfunção cognitiva, nutrição, paliativos), para clínico de pequenos animais (Sympla) [F6].
-  5. Literatura acadêmica: estudo de 2025 em Barreiras (BA) sobre barreiras para implantar cuidados paliativos em pequenos animais e artigo de 2024 sobre o conhecimento de graduandos e graduados no tema [F7]; revisão de 2025 citada na pesquisa de mercado da Pós [F22].
+  5. Literatura acadêmica: estudo de 2025 em Barreiras (BA) sobre barreiras para implantar cuidados paliativos em pequenos animais e artigo de 2024 sobre o conhecimento de graduandos e graduados no tema [F7]; literatura de 2025 também na pesquisa de mercado da Pós (S24, unifateb, 02/2025) [F22].
 - **Ressalva:** nenhum número de demanda por curso. A busca não achou especialização de cuidados paliativos veterinários com turma em 2026 (só cursos de 7 h e 12 h, de registros antigos): isso indica pouca oferta nomeada, mas não prova demanda.
 - **O que muda para a Ufape:** há a Pós em Geriatria Veterinária (699, I, início em 22/05/2027, campanha pausada, com divergências de cronograma e lotação na ficha) e a Pós em Dor e Cuidados Paliativos (554, III, já iniciada, status "verificar", campanha ativa segundo o plano). A 699 só pode ser anunciada depois de a Ufape corrigir cronograma, público e lotação [CONFIRMAR]. A 554 já começou, então a peça de paliativos hoje serve a conteúdo e a Livres, não à venda de turma.
 - **Linha e área:** Pós (699, A14; A1 para dor e paliativos) e Livres (minicursos e grupos de endocrinologia e nefrologia, que ligam à geriatria, A7).
 - **Ideias de peça e tema:**
   - Conteúdo educativo "Como conversar com o tutor sobre fim de vida": tema sensível, tom de colega para colega, sem apelo emocional forçado.
   - Série "O paciente geriátrico na rotina": dor crônica, disfunção cognitiva, doenças renais e endócrinas do envelhecimento.
-  - Isca digital (checklist de avaliação do paciente idoso) levando à lista de espera da turma, quando a Ufape liberar a 699.
+  - Isca digital (checklist de avaliação do paciente idoso) levando à lista de espera da turma, quando a Ufape liberar a 699. O formulário informa a finalidade e traz o link da política de privacidade, e a lista só recebe mensagem de quem marcar o opt-in de marketing.
 
 ### A.3 IA na saúde animal e no diagnóstico por imagem (A5 e A14): sinal forte como tema, fraco como demanda, decisão aproveitar como conteúdo e observar como oferta
 
@@ -80,7 +83,6 @@
   2. TCC da UFPB, 2026, sobre fundamentos, aplicações e desafios da IA na medicina veterinária [F8].
   3. Caso de mercado: a Mars desenvolveu o RapidRead Dental (laudo de radiografias odontológicas de pets, com acurácia de 99,4% informada pela própria empresa) e planeja expandir para Brasil e Europa (Baguete) [F8]. Número da empresa, não independente.
   4. Entrevista na Jovem Pan com médica veterinária sobre radiômica e ultrassonografia [F8].
-  5. A pesquisa de mercado da Pós já registrava revisão acadêmica dizendo que falta capacitação [F22].
 - **Sinal fraco dentro do tema:** nenhum dado de adoção de laudo por IA em clínicas brasileiras em 2026. Não foi localizada norma do CFMV sobre IA, só a Resolução CFMV nº 1.465/2022 (telemedicina). A Resolução CFM nº 2.454/2026 (fevereiro de 2026) trata de IA na prática médica humana, não veterinária [F8].
 - **O que muda para a Ufape:** a Pós em Inteligência Artificial na Saúde (719, I, SP, 08/05/2027, sem campanha ativa hoje) tem público de saúde humana, gestores e TI segundo a ficha, não o médico veterinário; não há evidência de que o veterinário procure esse curso. Para o público veterinário, o tema serve a conteúdo de autoridade em imagem (A5), não à venda direta da 719.
 - **Linha e área:** Pós e Livres, A5; 719 em A14 (decisão de público é da Ufape).
@@ -93,9 +95,9 @@
 
 - **Evidência (fraca):** vaga de plantonista com medicina intensiva em Pato Branco (PR), publicada em maio de 2026, e vagas de UTI em Araraquara e Ribeirão Preto (SP) de 2024 e 2025 (Agrobase) [F9]; matéria antiga da Folha Vitória sobre interesse crescente; edital de aprimoramento em terapia intensiva veterinária da própria Ufape, início em maio de 2026, 2 anos (apareceu no resultado de busca; o aprimoramento consta sem data no catálogo, [CONFIRMAR NO CATÁLOGO]).
 - **Por que fraco:** as vagas são anúncios individuais e da mesma plataforma, a matéria é antiga e genérica, e não há análise de mercado. Não vira promessa de emprego.
-- **O que muda para a Ufape:** área com 4 turmas entre abertas e em andamento (68635, 68623, 663, 666), risco de saturação interna segundo a pesquisa da Pós. O Workshop de Neuromonitorização (20 e 21/11/2026) é de anestesia e neurologia (A12), não de UTI.
-- **Linha e área:** Pós e Livres, A3.
-- **Decisão e ideia:** observar. Manter conteúdo de rotina de plantão (protocolos, casos) como tema de uma série, sem atribuir a ele uma tendência.
+- **O que muda para a Ufape:** área com 4 turmas entre abertas e em andamento (68635, 68623, 663, 666), risco de saturação interna segundo a pesquisa da Pós. O Workshop de Neuromonitorização (20 e 21/11/2026) é de anestesia e neurologia (A12 e A1), com dois blocos de UTI e sedação sob bloqueio neuromuscular (ficha do evento e persona de Eventos). Ele é, portanto, uma porta para o intensivista também, e a pós de terapia intensiva (A3) pode usá-lo como ponte [SUPOSIÇÃO].
+- **Linha e área:** Pós e Livres, A3; Eventos (workshop).
+- **Decisão e ideia:** observar a tendência de mercado. Manter conteúdo de rotina de plantão (protocolos, casos) como tema de uma série, sem atribuir a ele uma tendência, e incluir os blocos de UTI do workshop nas peças dele.
 
 ### A.5 Mercado pet em crescimento moderado e expansão da graduação (contexto): sinal forte de contexto, decisão usar só como pano de fundo
 
@@ -113,7 +115,7 @@
 - **Evidência:**
   1. Semesp, via Quero Bolsa e Instituto Semesp (11/2023): EAD passou de 23,4% (2016) a 65,4% (2022) das matrículas de especialização; cursos de especialização EAD cresceram 479% de 2019 a 2023 [F22]. As duas fontes são da mesma entidade e contam como 1 origem.
   2. Censo da Educação Superior 2024, via imprensa: 10.227.226 matrículas de graduação, 50,7% em EAD [F22].
-  3. Decreto 12.456/2025 veda EAD em graduações de saúde listadas, e Medicina Veterinária não aparece entre as presenciais obrigatórias; PL 2.559/25 propõe graduação de Medicina Veterinária só presencial; nada sobre lato sensu foi encontrado [F22].
+  3. Regulação (ver E.2): o Decreto 12.456/2025 não inclui Medicina Veterinária entre as graduações de saúde com EAD vedado; o PL 2.559/25, ainda projeto, propõe graduação só presencial. Nada sobre lato sensu foi encontrado [F22].
 - **Por que fraco para veterinária:** os números são de todas as áreas, e não há dado de matrícula de lato sensu veterinário.
 - **O que muda para a Ufape:** a oferta aberta de Pós EAD é zero (a única turma EAD, 586, está com status "verificar"). A Ufape vende semipresencial com módulos presenciais obrigatórios. O ponto é de oferta e de posicionamento, não de peça.
 - **Linha e área:** Pós, A1 (a EAD "Direto ao Ponto").
@@ -125,7 +127,7 @@
 - **Por que fraco:** nenhuma fonte é de veterinária, duas são de fornecedores de tecnologia e a busca não achou dado de demanda por curso curto entre profissionais de saúde.
 - **O que muda para a Ufape:** nada em oferta. Os minicursos de 8 h (13 itens, R$ 185,00 a R$ 300,00 à vista no catálogo) já são o formato de microaprendizado. A [SUPOSIÇÃO] de que servem de porta de entrada para a Pós segue sem teste (pesquisa dos Livres, seção 12).
 - **Linha e área:** Livres (minicursos), todas as áreas.
-- **Ideia:** Reels de 30 a 60 segundos, um conceito por vídeo, tirados de aulas com autorização, apontando para o minicurso da área.
+- **Ideia:** Reels de 30 a 60 segundos, um conceito por vídeo, tirados de aulas com autorização, apontando para o minicurso da área (curso livre não confere diploma).
 
 ### B.3 Hands-on e turma pequena: sinal fraco, decisão observar
 
@@ -139,7 +141,7 @@
 - **Evidência:** grupos de estudos de felinos em universidades públicas (UFPel desde 2016, UEL com encontros quinzenais online) [F22] e a trilha da Medvet Experience [F6]. A gratuidade dos grupos universitários é [SUPOSIÇÃO], não confirmada.
 - **O que muda para a Ufape:** os grupos de R$ 100,00 a R$ 734,00 concorrem com grupos gratuitos de universidade. Ticket baixo, valor em recorrência.
 - **Linha e área:** Livres, A1, A3, A5, A7.
-- **Ideia:** convite a grupo de estudos com a programação dos encontros e o caso clínico da próxima reunião (sem urgência inventada).
+- **Ideia:** convite a grupo de estudos com a programação dos encontros e o caso clínico da próxima reunião (sem urgência inventada). O grupo de estudos não é canal de venda: divulgação só para quem deu opt-in de marketing.
 
 ---
 
@@ -147,12 +149,12 @@
 
 ### C.1 Desgaste e saúde mental da categoria: sinal forte, decisão aproveitar agora, com cuidado
 
-- **Evidência (4 origens independentes):**
-  1. Revista CFMV, edição 97, 2025: pesquisa com 360 veterinários clínicos de Minas Gerais, 87,78% já cogitaram deixar a profissão, 74,17% não recomendariam a Medicina Veterinária, a maioria sem apoio psicoterapêutico no trabalho [F10].
+- **Evidência (4 origens independentes, mais o contexto da Vetlove):**
+  1. Revista CFMV, edição 97, 2025: pesquisa com 360 veterinários clínicos de Minas Gerais, 87,78% já cogitaram deixar a profissão, 74,17% não recomendariam a Medicina Veterinária, a maioria sem apoio psicoterapêutico no trabalho [F10]. A persona da Pós cita outro indicador do mesmo estudo (68,33% de insatisfação): são indicadores diferentes, não contradição.
   2. Meta-análise de 2026 (34 estudos, 35.202 veterinários, 13 países): burnout estimado em 38,68%. A fonte original não foi localizada, então só vale como indício [F10].
   3. CFMV criou a Comissão de Atenção à Saúde Mental do Médico-Veterinário e do Zootecnista (CASM) [F10].
   4. Pesquisa da UFSC (2026) com 1.029 graduandos de Medicina Veterinária de todo o país sobre vivência acadêmica e saúde mental [F10].
-  5. Petlove lançou a Vetlove em 10/03/2026 com eixo de saúde, carreira e negócios para veterinários [F22].
+  - Contexto (não conta como origem): Petlove lançou a Vetlove em 10/03/2026 com eixo de saúde, carreira e negócios para veterinários [F22].
 - **O que muda para a Ufape:** o argumento "especialize-se para ganhar mais" é frágil e não pode virar promessa de renda. O que aparece é uma oportunidade de tom: reconhecer a pressão da rotina, falar de segurança no caso difícil, de apoio de colegas, de grupo de estudos. Não usar o sofrimento como gatilho de venda: a conformidade deve revisar toda peça deste tema.
 - **Linha e área:** Pós, Livres (grupos de estudos) e Eventos; todas as áreas.
 - **Ideias de peça e tema:**
@@ -162,8 +164,8 @@
 
 ### C.2 Renda e carreira do jovem veterinário: sinal fraco (fontes divergentes), decisão ignorar como argumento de venda e observar
 
-- **Evidência:** as fontes divergem demais. Um site de 2025 estima média nacional de R$ 4.607,16 (39 h semanais) com iniciantes em cerca de R$ 2.900,00; um portal de carreiras cita cerca de R$ 8.213,81 para clínica de pequenos animais com base no CAGED; a pesquisa da Pós já traz R$ 5.054,00 de média com carteira (fontes comerciais). Não há pesquisa de 2026 do CFMV sobre renda do jovem [F11].
-- **O que muda para a Ufape:** nada em peça. A conta de esforço (parcela de R$ 1.000,00 a R$ 1.180,00 em relação à renda) fica como análise interna do posicionamento e da oferta. A objeção "investimento alto" ([SUPOSIÇÃO] dos contextos) pede resposta com clareza de parcelas, valor total e matrícula, e com a prova de bolsa de R$ 100,00 (regras no catálogo).
+- **Evidência:** as fontes divergem demais. Para a média com carteira de 39 h semanais há dois valores: R$ 4.670,73 (pesquisa de mercado da Pós, S12, fonte comercial sem data) e R$ 4.607,16 (site de 2025 achado na busca de hoje, [F11]); a diferença pode vir de data ou de metodologia, e as duas fontes ficam registradas como divergentes. Outros valores: R$ 5.054,00 (40 h, CAGED via sites comerciais, pesquisa da Pós), iniciantes em cerca de R$ 2.900,00 e cerca de R$ 8.213,81 para clínica de pequenos animais (portal de carreiras, CAGED). Não há pesquisa de 2026 do CFMV sobre renda do jovem.
+- **O que muda para a Ufape:** nada em peça. A conta de esforço (parcela de R$ 1.000,00 a R$ 1.180,00 em relação à renda) fica como análise interna do posicionamento e da oferta. A objeção "investimento alto" ([SUPOSIÇÃO] dos contextos) pede resposta com clareza de parcelas, valor total e matrícula, e com a prova de bolsa de R$ 100,00 (preço no catálogo, seção 3; regras em contexto/pos-graduacao.md, ainda não lançadas no catálogo [CONFIRMAR NO CATÁLOGO]).
 - **Linha e área:** Pós.
 - **Regra:** nenhuma peça cita salário, faixa de renda ou retorno financeiro.
 
@@ -171,7 +173,7 @@
 
 - **Evidência:** não há pesquisa de hábito de rede por veterinário. Dado indireto: o CRMV-BA tinha 9.706 seguidores no Instagram contra 1.690 no LinkedIn (Bahia Notícias, resumo da busca) [F13]. Uma única entidade, que não representa a categoria.
 - **O que muda para a Ufape:** nada além de confirmar com o CRM e com a mídia quais canais trazem matrícula (o contexto das linhas está vazio nesse ponto).
-- **Ideia:** pergunta de origem no formulário da prova de bolsa e nos cursos ("onde você viu a Ufape?"), com aprovação humana.
+- **Ideia:** pergunta de origem no formulário da prova de bolsa e nos cursos ("onde você viu a Ufape?"), com aprovação humana, informando a finalidade e com link para a política de privacidade.
 
 ---
 
@@ -210,7 +212,7 @@
 - **O que muda para a Ufape:** o WhatsApp é o canal principal de vendas (contexto geral). Se a cobrança por mensagem de marketing for confirmada, mensagem em massa fica mais cara e o conteúdo precisa merecer abertura [SUPOSIÇÃO sobre o efeito]. O contexto geral registra instabilidade do WhatsApp interno em 22/10/2026.
 - **Linha e área:** todas.
 - **Ação sugerida (para humano, não para a squad):** confirmar preços e regras na documentação oficial da Meta e com o fornecedor do CRM antes de planejar disparos de novembro a janeiro. Enquanto isso, priorizar listas com opt-in registrado e conversas iniciadas pelo candidato (botão de WhatsApp no site, resposta a anúncio).
-- **Ideia de peça:** poucas mensagens, com valor (lembrete de data, material técnico), em vez de lotes de venda.
+- **Ideia de peça:** poucas mensagens, com valor (lembrete de data, material técnico), em vez de lotes de venda, sempre para quem deu opt-in de marketing, com saída fácil.
 
 ### D.5 LinkedIn: sinal fraco, decisão observar
 
@@ -244,19 +246,19 @@
   1. Edital nº 64/2026 do Inep (22/05/2026): provas em 08 e 15/11/2026 [F16].
   2. MEC, balanço de 03/07/2026: 5.055.818 inscritos confirmados, alta de 5,08% sobre 2025 (4.811.338), inscrição automática de concluintes da rede pública pela primeira vez e incentivo de R$ 200 para concluintes do Pé-de-Meia que fizerem os dois dias [F16].
   3. Fuvest 2027: 1ª fase em 01/11/2026, 2ª fase em 06 e 07/12/2026, 1ª chamada em 26/01/2027 (vestibulandoweb) [F17].
-  4. Sisu: o ciclo 2026 teve inscrições de 19 a 23/01/2026 e resultado regular em 29/01/2026; o de 2027 não tem datas oficiais, e o padrão esperado é janeiro [SUPOSIÇÃO] [F16].
+  - Sisu: o ciclo 2026 teve inscrições de 19 a 23/01/2026 e resultado regular em 29/01/2026; o de 2027 não tem datas oficiais, e o padrão esperado é janeiro [SUPOSIÇÃO] [F16].
 - **O que muda para a Ufape:** o ingresso pelo Enem (mínimo de 300 pontos) e a prova de redação online sem data fixa são pontos de venda reais da Graduação (contexto/graduacao.md). Divulgação das notas do Enem estimada para meados de janeiro de 2027 (15 a 19/01, previsão de site, não data oficial) [F16]. Início das aulas em 22/02/2027. Data-limite de inscrição da Ufape: [CONFIRMAR].
 - **Linha e área:** Graduação (Medicina Veterinária em SP, noturno e integral; Pedagogia em Goiânia, com o mesmo calendário do Enem).
 - **Ideias de peça e tema:**
-  - "Fez o Enem? Veja como usar a nota para entrar na Medicina Veterinária da Ufape": explicação do caminho (nota mínima 300, matrícula 2 dias depois do resultado, conforme edital), com desconto sempre com valor cheio, valor com desconto, regra e validade.
+  - "Fez o Enem? Veja como usar a nota para entrar na Medicina Veterinária da Ufape": explicação do caminho (nota mínima 300, matrícula a partir de 2 dias depois do resultado, conforme edital), com desconto sempre com valor cheio, valor com desconto, regra e validade.
   - "Prova de redação online em casa: como funciona" (sem inventar prazos).
-  - Peça para pais e responsáveis sobre mensalidade e condições, com cuidado de ECA e LGPD (sem coleta de dado de menor em peça aberta).
+  - Peça para pais e responsáveis sobre mensalidade e condições, com cuidado de ECA e LGPD (sem coleta de dado de menor em peça aberta). Qualquer envio a lista de candidatos vale só para quem deu opt-in de marketing, com saída fácil.
 - **Aviso:** nenhum dado de Medicina Veterinária da Fuvest (exigência de provas específicas) foi localizado; não usar a Fuvest como argumento de venda.
 
 ### E.2 Regulação do EAD e da graduação em veterinária: sinal fraco para peça, decisão observar
 
-- **Evidência:** Decreto 12.456/2025 e PL 2.559/25 (presencial obrigatório para Medicina Veterinária), citados na pesquisa anterior [F22]; o briefing de 26/10/2026 mantém o texto de certificação aprovado como pendente.
-- **O que muda para a Ufape:** a Graduação em Medicina Veterinária é presencial. Isso é diferencial verificável em peça, mas só como descrição de modalidade, sem comentar a lei. O ato autorizativo vem do edital (Portaria SERES/MEC nº 162, de 13/03/2025, conforme contexto da linha).
+- **Evidência:** o Decreto 12.456/2025 não lista Medicina Veterinária entre as graduações de saúde com EAD vedado; o PL 2.559/25, ainda projeto, propõe graduação de Medicina Veterinária só presencial. Ambos citados na pesquisa anterior [F22]. O briefing de 26/10/2026 mantém o texto de certificação aprovado como pendente.
+- **O que muda para a Ufape:** a Graduação em Medicina Veterinária da Ufape é presencial. Isso é diferencial verificável em peça, mas só como descrição de modalidade, sem comentar decreto nem projeto de lei. O ato autorizativo vem do edital (Portaria SERES/MEC nº 162, de 13/03/2025, conforme contexto da linha).
 
 ---
 
@@ -266,13 +268,13 @@ Fontes: pesquisa dos Livres e da Pós, plano do cmo (26/10/2026) e buscas de hoj
 
 | Mês | Data | Evento ou tema | Linha | Oportunidade | Confiança |
 |---|---|---|---|---|---|
-| Nov 2026 | até 07/11 | Inscrições da prova de bolsa do concorrente Anclivepa-SP (bolsa de 50%, taxa de R$ 350,00) | Pós | prova de bolsa da Ufape (R$ 100,00, 27/11) como alternativa para quem perdeu o prazo; comparação só com dado público conferido | média |
+| Nov 2026 | até 07/11 | Inscrições da prova de bolsa do concorrente Anclivepa-SP (bolsa de 50%, taxa de R$ 350,00) | Pós | prova de bolsa da Ufape (R$ 100,00, 27/11) como alternativa para quem perdeu o prazo; comparação só em peça aprovada pelo responsável, depois da conferência no edital oficial | média, [CONFIRMAR no edital oficial] |
 | Nov 2026 | 01/11 | Fuvest, 1ª fase | Graduação | conteúdo de vestibulando ("o que fazer depois da prova") | média |
 | Nov 2026 | 08 e 15/11 | Enem 2026 (5,06 milhões de inscritos confirmados) | Graduação | pico de conteúdo e de anúncio de Graduação, com o caminho do ingresso pelo Enem e pela redação online | alta (datas), média (público) |
 | Nov 2026 | 14/11 | Ecocardiografia Hands-On básica (573, conforme plano, com divergência na visão de campanhas) | Livres | campanha de reta final, sem "últimas vagas" | média, [CONFIRMAR NO CATÁLOGO] |
 | Nov 2026 | novembro (sem dia) | Congresso Brasileiro da Anclivepa: a edição de 2025 foi de 06 a 08/11, a próxima é "prevista para novembro de 2026", sem data oficial; mais de 6.000 participantes em edição anterior (WSAVA) | todas | risco de calendário e de atenção, e oportunidade de conteúdo "o que vi no congresso" | baixa, [CONFIRMAR] |
-| Nov 2026 | 20 e 21/11 | Workshop Brasileiro de Neuromonitorização (16 h, cupom SIMPNEUROMONIT para aluno e ex-aluno, página neuro-summit) | Eventos | campanha direto para a página; conteúdo de anestesia e neurologia (A12 e A1) | alta (catálogo) |
-| Nov 2026 | 27/11 | 22 provas de bolsa da Pós; coincide com a Black Friday (4ª quinta de novembro mais um dia, conferir no calendário comercial) | Pós | campanha única das provas; usar só as regras da bolsa do catálogo e não misturar com promoção de Black Friday | alta (prova), [SUPOSIÇÃO] (coincidência comercial) |
+| Nov 2026 | 20 e 21/11 | Workshop Brasileiro de Neuromonitorização (16 h, cupom SIMPNEUROMONIT para aluno e ex-aluno, página neuro-summit; anestesia, neurologia e dois blocos de UTI) | Eventos | campanha direto para a página; conteúdo de anestesia, neurologia e UTI (A12, A1 e A3) | alta (catálogo) |
+| Nov 2026 | 27/11 | 22 provas de bolsa da Pós; coincide com a Black Friday (4ª quinta de novembro mais um dia, conferir no calendário comercial) | Pós | campanha única das provas; usar só as regras da bolsa de contexto/pos-graduacao.md e não misturar com promoção de Black Friday | alta (prova), [SUPOSIÇÃO] (coincidência comercial) |
 | Nov 2026 | 28/11 | Início de 68610, 68608 e 698 (Pós, conforme plano) e dos cursos livres 68614, 623 e 68637 | Pós, Livres | reta final | média, [CONFIRMAR NO CATÁLOGO] |
 | Dez 2026 | 05/12 | Curso livre online 616 (conforme plano) | Livres | convite curto | média, [CONFIRMAR NO CATÁLOGO] |
 | Dez 2026 | 06 e 07/12 | Fuvest, 2ª fase | Graduação | conteúdo de apoio, sem ataque a concorrente | média |
@@ -283,7 +285,7 @@ Fontes: pesquisa dos Livres e da Pós, plano do cmo (26/10/2026) e buscas de hoj
 | Jan 2027 | janeiro | Preparação das turmas de março da Pós; 1ª mensalidade a 30 dias do início | Pós | campanha de decisão para 657 (13/03), 341, 289 e 68615 (20/03) e 333 (27/03) | média |
 | Fev 2027 | 09/02 (cálculo a partir da Páscoa em 28/03/2027) | Carnaval | todas | baixa atenção; evitar lançamento | baixa, conferir |
 | Fev 2027 | 11 a 25/02 | Janela de decisão (30 dias antes de 13 a 27/03) da Pós de março | Pós | peça de fechamento de turma, com transparência sobre a turma mínima | média (conta do catálogo) |
-| Fev 2027 | 22/02 | Início das aulas da Graduação (edital) | Graduação | boas-vindas, conteúdo de calouro; remarketing para matrícula | alta (edital) |
+| Fev 2027 | 22/02 | Início das aulas da Graduação (edital) | Graduação | boas-vindas, conteúdo de calouro; remarketing para matrícula, só para quem deu opt-in | alta (edital) |
 | Fev 2027 | fevereiro | Ingresso do ciclo de fevereiro de pós de concorrente (Anclivepa-SP) | Pós | monitorar | baixa |
 | Mar 2027 | 06/03 | POCUS em Emergência (68638) | Livres | convite curto, carga horária [CONFIRMAR NO CATÁLOGO] | média |
 | Mar 2027 | 13, 20 e 27/03 | Início das turmas de março da Pós | Pós | encerramento das inscrições e boas-vindas | média, [CONFIRMAR NO CATÁLOGO] |
@@ -302,7 +304,7 @@ Já passaram e não geram oportunidade nesta janela: Dia do Médico Veterinário
 ### Pós-graduação
 
 - **Aproveitar agora:** felinos (A13) e longevidade com geriatria e paliativos (A14 e A1) como temas de conteúdo e de campanha das provas de bolsa; saúde mental como tom, não como gatilho; busca por IA como ajuste de páginas.
-- **Ação de oferta (decisão da Ufape):** destino da prova de Felinos (68652) e das outras 3 provas sem turma (68649, 68653, 68655); correções da 699 antes de anunciar.
+- **Ação de oferta (decisão da Ufape):** destino das 4 provas sem turma aberta (68652 Felinos, 68649, 68653 e 68655) e das provas com destino incerto por data ou cidade (conta do QA, [SUPOSIÇÃO]); correções da 699 antes de anunciar.
 - **Evitar:** argumento de renda, "últimas vagas", frase ligada ao MEC, afirmação de que a IA substitui o laudo, promessa de emprego.
 - **Cuidado de calendário:** 24 das 30 turmas começam entre 13/03 e 28/05/2027; a decisão cai de fevereiro a abril.
 - **Temas de conteúdo para o /lote-semanal-por-linha:** caso clínico felino, paciente geriátrico, IA no laudo (educativo), "como funciona uma pós semipresencial".
@@ -311,18 +313,18 @@ Já passaram e não geram oportunidade nesta janela: Dia do Médico Veterinário
 
 - **Aproveitar agora:** conteúdo de felinos (4 cursos gravados em português e 1 em espanhol), geriatria (via minicursos de endocrinologia e nefrologia), microaprendizado em formato curto de rede social, grupos de estudos como comunidade.
 - **Observar:** hands-on como diferencial só com número real de prática, e WhatsApp em massa.
-- **Cuidado:** duplicidades e datas divergentes do catálogo (623 e 68637; 573; 68614; 68618) bloqueiam peça final.
+- **Cuidado:** duplicidades e datas divergentes do catálogo (623 e 68637; 573; 68614; 68618) bloqueiam peça final. Toda peça de Livres diz que curso livre não confere diploma nem equivale a pós.
 
 ### Eventos
 
-- **Aproveitar agora:** Workshop de Neuromonitorização (20 e 21/11/2026) como peça de profundidade (16 h, capacidade de 30 vagas no catálogo; só citar número de vagas se for real e sem "últimas vagas"); mensagem de comunidade e de aprendizado, não de escala.
+- **Aproveitar agora:** Workshop de Neuromonitorização (20 e 21/11/2026) como peça de profundidade (16 h, anestesia, neurologia e UTI; capacidade de 30 vagas no catálogo; só citar número de vagas se for real e sem "últimas vagas"); mensagem de comunidade e de aprendizado, não de escala. A peça diz que o workshop não confere diploma nem equivale a pós.
 - **Observar:** Congresso Brasileiro da Anclivepa (novembro, sem data oficial), pelo risco de calendário e de atenção.
 - **Lacuna:** contexto/eventos.md segue com preço, formato e público padrão em [CONFIRMAR].
 
 ### Graduação
 
 - **Aproveitar agora:** Enem (08 e 15/11/2026), notas do Enem (estimativa de 15 a 19/01/2027), Sisu e 1ª chamada da Fuvest (26/01/2027) como janelas de captação, com ingresso pelo Enem (300 pontos) e redação online, aulas em 22/02/2027.
-- **Testar:** TikTok, se a estratégia social confirmar capacidade; Facebook e WhatsApp para pais e responsáveis.
+- **Testar:** TikTok, se a estratégia social confirmar capacidade; Facebook e WhatsApp para pais e responsáveis (só com opt-in).
 - **Cuidado:** menor de idade (ECA e LGPD), desconto sempre com valor cheio, valor com desconto, regra e validade conforme edital, e ato autorizativo conforme o edital.
 - **A LP da Graduação é uma página separada que a squad nunca altera:** as peças apontam para ela com UTM.
 
@@ -342,13 +344,13 @@ Todos vêm de resumos de busca de 26/10/2026, salvo quando a data da fonte está
 - F2. Abinpet: 30,8 milhões de gatos em 2023; mercado veterinário de R$ 75,4 bilhões em 2024, alta de 9,6% (Abempet), segundo o resumo da busca sobre medicina felina de 26/10/2026.
 - F3. 4º Congresso de Medicina de Felinos, Doenças Crônicas, Infectologia e Medicina Preventiva, São Paulo, 2026. https://visitesaopaulo.com/evento/congresso-de-medicina-de-felinos-doencas-cronicas-infectologia-medicina-preventiva-2026/
 - F4. Edição especial de 2026 da revista MVez (CRMV-SP) sobre Medicina Felina. https://revistamvez-crmvsp.com.br/index.php/recmvz/article/download/38947/42968/93821
-- F5. TCC de 2026 do IFPB sobre manejo cat friendly em hospital veterinário. https://repositorio.ifpb.edu.br/jspui/bitstream/177683/5188/1/Thayline%20Holanda%20da%20Silva.pdf
+- F5. TCC de 2026 do repositório do IFPB sobre manejo cat friendly em hospital veterinário (citado pelo título; endereço omitido por conter nome de pessoa).
 - F6. Longevidade: Metrópoles (abril de 2026) https://www.metropoles.com/colunas/e-o-bicho/caes-gatos-longevidade ; Tribuna de Minas (08/06/2025) https://tribunademinas.com.br/especiais/especial-pet/08-06-2025/conheca-habitos-que-promovem-uma-vida-longa-e-saudavel-ao-pet.html ; Correio Braziliense (10/2024) https://www.correiobraziliense.com.br/revista-do-correio/2024/10/amp/6971226-longevidade-animal-expectativa-de-vida-dos-pets-tem-aumentado.html ; Bem Paraná, pesquisa Royal Canin e Censuswide https://www.bemparana.com.br/bem-estar/pesquisa-mostra-o-tema-mais-sensivel-para-tutores-de-animais-de-estimacao/ ; Medvet Experience, trilha de geriatria https://www.sympla.com.br/evento-online/trilha-de-atualizacao-em-geriatria-veterinaria-medvet-experience/3411430
 - F7. Cuidados paliativos veterinários: estudo de 2025 sobre barreiras em Barreiras (BA), artigo de 2024 sobre conhecimento de graduandos e graduados, Instituto Bálsamo, cursos de extensão antigos de 7 h e 12 h (resumo da busca de 26/10/2026; nenhuma especialização veterinária de paliativos com turma em 2026 localizada).
 - F8. IA veterinária: revisão sobre IA na radiologia veterinária (Unifacema, 2024) https://unifacema.edu.br/storage/11342/INTELIGÊNCIA-ARTIFICIAL-NA-RADIOLOGIA-VETERINÁRIA.pdf ; TCC UFPB (2026) https://repositorio.ufpb.br/jspui/bitstream/123456789/37588/1/AYMS10022026%20-%20MV588.pdf ; RapidRead Dental da Mars https://www.baguete.com.br/noticias/ia-analisa-dentes-de-pets ; entrevista Jovem Pan https://jovempan.com.br/colunistas/davis-alves/entrevista-inteligencia-artificial-nos-diagnosticos-medicos-por-imagem/ ; Resolução CFM nº 2.454/2026 (fevereiro de 2026, medicina humana); Resolução CFMV nº 1.465/2022 (telemedicina, vigência de 01/07/2022) https://www.legisweb.com.br/legislacao/?id=433219
 - F9. UTI e plantão: vaga de maio de 2026 em Pato Branco (PR) https://www.agrobase.com.br/oportunidades/2026/05/medico-veterinario-pato-branco-pr/ ; vagas de 2024 e 2025 em Araraquara e Ribeirão Preto; edital de aprimoramento em terapia intensiva da Ufape (início em maio de 2026, 2 anos) https://faculdade.ufape.com.br/uploads/edital/edital-programa-de-aprimoramento-em-terapia-intensiva-veterinaria.pdf (visto só em resumo de busca).
 - F10. Saúde mental: Revista CFMV, edição 97 (2025), pesquisa com 360 veterinários clínicos de Minas Gerais https://revista.cfmv.gov.br/wp-content/uploads/2025/05/Ed-97-Burnout-e-saude-menta-do-medico-veterinario-clinico-de-Minas-Gerais.pdf ; meta-análise de 2026 com burnout de 38,68% (fonte original não localizada); Comissão CASM do CFMV; pesquisa da UFSC (2026) com 1.029 graduandos https://periodicos.ufsc.br/index.php/gual/article/view/110244
-- F11. Renda divergente: R$ 4.607,16 (39 h, 2025), iniciantes em torno de R$ 2.900,00, e cerca de R$ 8.213,81 em clínica de pequenos animais (portal de carreiras, CAGED). https://querobolsa.com.br/revista/qual-area-da-medicina-veterinaria-ganha-mais-descubra e https://contabilidade.com/blog/veterinario-recem-formado-onde-trabalhar-e-o-que-fazer-para-ganhar-dinheiro/
+- F11. Renda: R$ 4.607,16 (39 h, site de 2025), iniciantes em torno de R$ 2.900,00, e cerca de R$ 8.213,81 em clínica de pequenos animais (portal de carreiras, CAGED), da busca de hoje https://querobolsa.com.br/revista/qual-area-da-medicina-veterinaria-ganha-mais-descubra e https://contabilidade.com/blog/veterinario-recem-formado-onde-trabalhar-e-o-que-fazer-para-ganhar-dinheiro/ ; R$ 4.670,73 (39 h) e R$ 5.054,00 (40 h) na pesquisa de mercado da Pós, seção 1.3 (S12, fontes comerciais sem data).
 - F12. Redes: Instagram com 147 milhões no alcance publicitário (DataReportal Digital 2026, via MLabs) https://mlabs.com.br/blog/estatisticas-das-redes-sociais/ ; 87,3% dos adultos (site de estatísticas) e 3 h 37 min por dia (DataReportal 2025); WhatsApp com 169 milhões (07/2025); YouTube com 150 milhões, mais 4,2% (Digital 2026, via Interlegis) https://2026.engitec.interlegis.leg.br/material-do-evento/18-de-maio/oficinas/oficina-de-youtube/02-oficina-youtube-sara.pdf/@@download/file ; TikTok com 131 milhões de adultos no alcance (DataReportal, 11/2025) e pesquisa da plataforma com 91.101 usuários (11/2025) https://portaldeprefeitura.com.br/curiosidades/pesquisa-aponta-que-brasileiros-usam-tiktok-para-estudar/617130/
 - F13. CRMV-BA: 9.706 seguidores no Instagram e 1.690 no LinkedIn. https://www.bahianoticias.com.br/artigo/1594-crmvba-maturidade-de-senior-e-entusiasmo-de-recem-formado ; manual de publicidade do CRMV-SP (11/2024) https://crmvsp.gov.br/wp-content/uploads/2024/11/22.11.2024_MANUAL_DE_PUBLICIDADE_FINAL.pdf
 - F14. Busca por IA: SparkToro com Similarweb via Locaweb https://www.locaweb.com.br/blog/temas/marketing-e-seo/busca-sem-clique-geo-2026/ ; Tecnoblog https://tecnoblog.net/noticias/respostas-com-ia-derrubam-cliques-no-google-pela-metade ; Ahrefs (04/2025), Pew Research e Digital Education Council via https://voxbooster.com/pt-BR/blog/ai-search-statistics-2026/
@@ -356,11 +358,12 @@ Todos vêm de resumos de busca de 26/10/2026, salvo quando a data da fonte está
 - F16. Enem 2026: Edital Inep nº 64/2026 (22/05/2026), provas em 08 e 15/11/2026; 5.055.818 inscritos confirmados (MEC, 03/07/2026), mais 5,08% sobre 2025 https://www.band.com.br/educacao/enem-2026-mec-confirma-mais-de-5-milhoes-de-inscritos ; divulgação de notas estimada para meados de janeiro de 2027 (sem data oficial); Sisu 2026 com inscrições de 19 a 23/01/2026 e resultado em 29/01/2026 https://www.opovo.com.br/noticias/enem/2026/01/19/sisu-2026-quando-sai-a-primeira-parcial-confira-calendario.html
 - F17. Fuvest 2027: inscrições de 17/08 a 09/10/2026, 1ª fase em 01/11/2026, 2ª fase em 06 e 07/12/2026, 1ª chamada em 26/01/2027. https://www.vestibulandoweb.com.br/vestibular/fuvest-2027-calendario-com-inscricoes-provas-e-primeira-chamada/amp/
 - F18. Dia Mundial do Veterinário em 2027: 24/04 pela regra do último sábado; 29/04 (Próximo Feriado e Twinkl); 30/04 (Dayspedia). https://www.twinkl.com/event/world-veterinary-day-2027
-- F19. Congresso Anclivepa: edição de 2025 de 06 a 08/11/2025, próxima prevista para novembro de 2026 sem data confirmada (diretório de eventos neventum) https://www.neventum.com/tradeshows/congresso-anclivepa ; mais de 6.000 participantes (WSAVA) https://wsava.org/?p=4502 ; inscrições de bolsa da Anclivepa-SP até 07/11/2026, taxa de R$ 350,00 (pesquisa de mercado da Pós).
+- F19. Congresso Anclivepa: edição de 2025 de 06 a 08/11/2025, próxima prevista para novembro de 2026 sem data confirmada (diretório de eventos neventum) https://www.neventum.com/tradeshows/congresso-anclivepa ; mais de 6.000 participantes (WSAVA) https://wsava.org/?p=4502 ; inscrições de bolsa da Anclivepa-SP até 07/11/2026, taxa de R$ 350,00 (pesquisa de mercado da Pós, S17, a conferir no edital oficial).
 - F20. WSAVA 2026: 13 a 15/10/2026 (já passou). https://wsava.org/?p=4502
 - F21. Formato: Publimetro (06/01/2026) https://www.publimetro.com.mx/noticias/2026/01/06/tendencias-educativas-2026-como-cambiara-la-forma-de-estudiar-y-prepararse-para-el-trabajo/ ; Coassemble https://coassemble.com/blog/microlearning-trends ; D2L https://www.d2l.com/pt-br/eventos/transformando-a-aprendizagem-medica-com-solucoes-digitais/
-- F22. Dados das pesquisas anteriores da squad de 26/10/2026 (cada um com a fonte e a confiança no arquivo de origem): saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-26.md e saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-livres-2026-10-26.md (Semesp, Censo 2024, cursos de graduação, mercado pet, Vetlove de 10/03/2026, Langford, congressos de São Paulo, Decreto 12.456/2025, PL 2.559/25).
-- F23. Dados da Ufape: contexto/ufape-geral.md, contexto/pos-graduacao.md, contexto/cursos-livres.md, contexto/graduacao.md e plano do cmo de 26/10/2026 (provas de 27/11, workshop de 20 e 21/11, cupom SIMPNEUROMONIT, início das aulas da Graduação em 22/02/2027, mínimo de 300 pontos no Enem, turmas e datas por código).
+- F22. Dados das pesquisas anteriores da squad de 26/10/2026 (cada um com a fonte e a confiança no arquivo de origem): saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-26.md (lida por inteiro; S7, S9, S12, S13 a S17, S24; inclui também a Resolução CFMV 1572/2023 sobre título de especialista, S29, e notícia do O Hoje de 14/08/2026 sobre saúde animal em Goiás, S11) e saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-livres-2026-10-26.md (Semesp, Censo 2024, cursos de graduação, mercado pet, Vetlove de 10/03/2026, Langford, congressos de São Paulo, PL 2.559/25).
+- F23. Dados da Ufape: contexto/ufape-geral.md, contexto/pos-graduacao.md (regras da prova de bolsa), contexto/cursos-livres.md, contexto/graduacao.md e plano do cmo de 26/10/2026 (provas de 27/11, workshop de 20 e 21/11, cupom SIMPNEUROMONIT, início das aulas da Graduação em 22/02/2027, mínimo de 300 pontos no Enem, turmas e datas por código).
+- F24. Conferência do QA de 26/10/2026 (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md): provas sem turma aberta do mesmo curso e cidade, workshop com blocos de UTI, datas por código conferidas no catálogo.
 
 ## Lista B: suposições
 
@@ -372,10 +375,12 @@ Todos vêm de resumos de busca de 26/10/2026, salvo quando a data da fonte está
 6. [SUPOSIÇÃO] Os grupos de estudos de universidades públicas são gratuitos e competem com os grupos pagos da Ufape.
 7. [SUPOSIÇÃO] O público da Graduação em Medicina Veterinária tem de 17 a 22 anos e é alcançável por TikTok.
 8. [SUPOSIÇÃO] A coincidência da Black Friday (27/11/2026, calculada) com a prova de bolsa pode confundir o público.
-9. [SUPOSIÇÃO] Carnaval em 09/02/2027, Sexta-feira Santa em 26/03/2027 e Páscoa em 28/03/2027 (calculados a partir da Páscoa, conferir no calendário oficial).
+9. [SUPOSIÇÃO] Carnaval em 09/02/2027, Sexta-feira Santa em 26/03/2027 e Páscoa em 28/03/2027 (calculados a partir da Páscoa, conferir no calendário oficial; o QA refez as contas e bateu).
 10. [SUPOSIÇÃO] O minicurso de 8 h funciona como porta de entrada para a Pós (herdada da pesquisa dos Livres, sem teste).
 11. [SUPOSIÇÃO] O aluno da Pós 719 (IA na Saúde) não é o médico veterinário típico da marca.
 12. [SUPOSIÇÃO] Mensagens de saúde mental só funcionam sem apelo de venda na mesma peça.
+13. [SUPOSIÇÃO] O destino natural de cada prova de bolsa é a turma aberta do mesmo curso e da mesma cidade que começa depois de 27/11/2026 (premissa da conta do QA); a página da prova não diz o destino.
+14. [SUPOSIÇÃO] O workshop de 20 e 21/11 pode servir de ponte para a pós de terapia intensiva (A3), por causa dos blocos de UTI.
 
 ## Lista C: dados que faltam
 
@@ -387,12 +392,15 @@ Todos vêm de resumos de busca de 26/10/2026, salvo quando a data da fonte está
 6. Preços e regras oficiais do WhatsApp Business para mensagem de marketing, e se o CRM da Ufape já está sujeito a elas. [CONFIRMAR NA META E NO FORNECEDOR]
 7. Dados de funil e de matrícula por área, por canal e por mês (CRM e mídia paga), para validar qual tendência converte. [CONFIRMAR, só agregado]
 8. Pesquisa de comportamento do veterinário jovem (rede social que usa, formato preferido, uso de IA, renda) com metodologia clara. Sem fonte.
-9. Número de clínicas felinas e demanda por especialização felina em fonte primária (Abinpet, CFMV, CRMV-SP). Sem fonte.
+9. Número de clínicas felinas e demanda por especialização felina em fonte primária (Abinpet, CFMV, CRMV-SP); número oficial de gatos (30 a 33,6 milhões, fontes divergentes). Sem fonte.
 10. Existência de cursos de especialização veterinária em cuidados paliativos com turma em 2026 e preço (inteligencia-concorrencia, etapa 1.2). Sem fonte.
 11. Norma ou orientação do CFMV sobre IA na prática veterinária em 2025 e 2026. Não localizada.
 12. Decisão da Ufape sobre o público e o posicionamento da Pós 719 (IA na Saúde): veterinários em clínica ou saúde humana e TI. [CONFIRMAR]
-13. Turma de destino das provas 68652 (Felinos), 68649, 68653 e 68655; cronograma, público e lotação da turma 699 (Geriatria). [CONFIRMAR]
+13. Turma de destino de cada uma das 22 provas, em especial 68652 (Felinos), 68649, 68653 e 68655 (sem turma aberta) e as de destino incerto por data ou cidade; cronograma, público e lotação da turma 699 (Geriatria). [CONFIRMAR]
 14. Aprimoramento em terapia intensiva da Ufape: o edital visto na busca (início em maio de 2026) não está no catálogo com data. [CONFIRMAR NO CATÁLOGO]
 15. Autorização de imagem e voz dos docentes para qualquer peça com docente. [CONFIRMAR autorização]
 16. Texto oficial de certificação e frase da página que remete ao MEC. [PREENCHER COM A REGULAÇÃO]
-17. A parte final da pesquisa de mercado da Pós (linhas 432 a 531) não foi lida nesta rodada: conferir se algo ali contradiz este radar.
+17. Regras da prova de bolsa lançadas no catálogo (hoje só em contexto/pos-graduacao.md) e turma mínima (15 na página da prova contra 20 nas páginas de curso). [CONFIRMAR NO CATÁLOGO]
+18. Valor correto da média CLT de 39 h (R$ 4.670,73 ou R$ 4.607,16). [CONFIRMAR na fonte primária]
+19. Validade do cupom SIMPNEUROMONIT e se vale para outros públicos. [CONFIRMAR]
+20. Leitura completa da pesquisa de mercado da Pós feita nesta versão: as linhas 432 a 538 (notas, listas e fontes) não contradizem este radar. Decreto 12.456/2025 (Medicina Veterinária fora da lista), contagem de gatos de 30 a 33,6 milhões e renda de R$ 4.670,73 foram alinhados ou registrados como divergência.
