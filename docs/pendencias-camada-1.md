@@ -6,7 +6,7 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 
 | Código | Pedido | Efeito se aprovar |
 |---|---|---|
-| R1 | Teto de mensagens: até 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, e 1 por dia | Uma regra só para toda a squad |
+| R1 | Teto de mensagens (resolvido: o CEO delegou ao cmo, ver seção 13 do plano do cmo): até 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, e 1 por dia | Uma regra só para toda a squad |
 | R2 | Mensagens de serviço fora da janela: 27/11 às 8h (prova), 20 e 21/11 às 8h (workshop), sábado de curso de Livres | Inscrito recebe o aviso do dia |
 | R3 | Mídia do Workshop Brasileiro de Neuromonitorização: criativos em 03/11, ajuste do público frio em 10/11, pausa do presencial em 18/11 às 23h59, transmitido até 19/11; teste de rastreio em 30/10 | Uma sequência só no lugar de três calendários |
 | R4 | Mídia da 616 em 19/11 (em vez de 10/11) | Menos disputa com o workshop e as provas de Anestesiologia |
@@ -30,6 +30,9 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 | U8 | Horas por semana do time para o @ufapevet e para responder comentários |
 | U9 | Fim das inscrições do workshop (presencial e transmitido) e validade e limite do cupom SIMPNEUROMONIT |
 | U10 | Pré-requisito da 657 |
+| U11 | Valor da inscrição da Pós: R$ 260,00 (informado pelo CEO) ou R$ 250,00 (site; R$ 350,00 em 3 cursos)? |
+| U11a | A Ufape usa a API oficial do WhatsApp Business ou o aplicativo no celular? |
+| U12 | Na Graduação, o que é "valor do curso" para a meta de 15 matrículas (mensalidade vezes duração, primeira anualidade ou outra conta)? |
 | Metas | Metas em reais por turma e por linha (formulário do gestor de mídia): sem elas, os tetos de custo ficam só como fórmula |
 
 ## 3. Correções no site (quem administra a loja)
