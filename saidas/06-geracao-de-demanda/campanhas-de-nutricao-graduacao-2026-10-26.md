@@ -3,7 +3,7 @@
 - Agente: campanhas-de-nutricao
 - Linha: graduacao
 - Data: 26/10/2026 (segunda-feira)
-- Versão: 2, corrigida após qa-de-marketing-graduacao-2026-10-26-c (correções N1 a N16) e ajustada às decisões D1, D2, D11 e D12 da seção 12 do plano do cmo
+- Versão: 3, corrigida após qa-de-marketing-graduacao-2026-10-26-d (N-1 e A-N4) e ajustada ao teto D16 e às regras E1 a E4 da seção 13 do plano do cmo. Versão 2: corrigida após qa-de-marketing-graduacao-2026-10-26-c (correções N1 a N16) e ajustada às decisões D1, D2, D11 e D12 da seção 12
 - Workflow: /campanha-de-vestibular, etapa 7 de 8 (régua do lead até a redação e da aprovação até a matrícula; o copy-de-mensagens lapida os textos em 09/11)
 - Liberações cobertas:
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
@@ -24,7 +24,9 @@
   - saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md (entrada principal)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-graduacao-2026-10-26.md (oferta corrigida, seções 0.1 a 0.3)
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md (bloqueios G1 a G16 e kit mínimo)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12: D1, D2, D4, D11 e D12)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12: D1, D2, D4, D11 e D12; seção 13: D16, E1 a E4 e regra de serviço)
+  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md (seção 0.1 a 0.3: kit mínimo como toques de calendário KW1 a KW5 e KE1 a KE3)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (N-1 e A-N4)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-c.md (veredito CORRIGIR, correções N1 a N16)
   - auditorias/07-email-e-whatsapp.md, auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md
@@ -33,7 +35,17 @@
 
 ---
 
-## Mudanças desta versão
+## Mudanças desta versão (v3)
+
+| Origem | O que mudou | Onde |
+|---|---|---|
+| N-1 do qa-d | Primeira linha B sem "pode entrar com" e com o Enem completo: "A inscrição é gratuita: redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)." | G1-L2 e G2-L2 |
+| A-N4 do qa-d | A tabela do kit mínimo saiu da seção 1. O kit é do copy-de-mensagens (toques de calendário KW1 a KW5 e KE1 a KE3, seção 0.1 do arquivo dele); esta régua é por evento do contato e só aponta a correspondência. Uma só contagem para o kit | Seção 1; 0.5, item 3; Próximo passo |
+| D16 do cmo (seção 13.3) | Teto da Graduação: até 3 mensagens de campanha por semana somando WhatsApp e e-mail, no máximo 2 por canal, no máximo 1 WhatsApp a cada 3 dias úteis, 1 por dia; contato que está também na base da Pós fica com o teto menor (o da Graduação). Conferido que nenhuma semana de régua passa de 3 | 0.4 (FW), 0.7 |
+| E1 a E4 do cmo | Engajamento no WhatsApp (E1), erro 131049 (E2), descadastro em até 48 h e em um clique (E3), opt-in de campanha separado do de serviço (E4) | 0.4 (FE e FW), 0.7, seção 5 |
+| Regra de serviço da seção 13.3 | Classificação confirmada pelo cmo: R1, A1, M1, M5 e as versões -R são serviço; M2 e M4 só com o pedido R1 e JR3 aprovado; AT, L, R2 a R5, A2 a A6 e M3 são campanha. Limites do serviço escritos | 0.7; marcação de canal de M5 e M5-R |
+
+## Mudanças da versão 2
 
 | # do qa-c | O que mudou | Onde |
 |---|---|---|
@@ -53,8 +65,8 @@
 | N14 | Resposta corrigida: "Você pode fazer a inscrição presencialmente..." | 4.2 |
 | N15 e D11/D12 | UTM por mensagem no padrão do cmo: utm_source email ou whatsapp, utm_medium crm, utm_campaign grad_<curso>_<AAAAMM>, utm_content com o código da mensagem | 0.2; 6 |
 | N16 | Gancho do A6: "Para começar em 22/02/2027, faltam estes passos." | G1-A6, G2-A6 |
-| D1 e D2 | Teto único do cmo avaliado e aplicado à Graduação (seção 0.7), com a lista do que é serviço e do que é campanha | 0.4 (FW), 0.7 |
-| Outros ajustes | Gancho do A2 sem "dá para fazer pelo celular" (promessa não verificada); kit mínimo definido por mensagem; referência a "seção G1-F e G2-F" (inexistente) trocada por "seção 4"; nota sobre a matriz do 1º semestre atualizada | G1-A2; seção 1; G1-A.1; seção 7 |
+| D1 e D2 | Teto único do cmo avaliado e aplicado à Graduação (seção 0.7), com a lista do que é serviço e do que é campanha (substituído na v3 pelo D16) | 0.4 (FW), 0.7 |
+| Outros ajustes | Gancho do A2 sem "dá para fazer pelo celular" (promessa não verificada); kit mínimo definido por mensagem (substituído na v3 pelo apontamento ao copy-de-mensagens); referência a "seção G1-F e G2-F" (inexistente) trocada por "seção 4"; nota sobre a matriz do 1º semestre atualizada | G1-A2; seção 1; G1-A.1; seção 7 |
 
 ---
 
@@ -167,7 +179,8 @@ Nota do BC: [CONFIRMAR tempo de prova, tema, se é possível salvar, se há nova
 **FE (campos fixos de e-mail):**
 - Opt-in: consentimento de e-mail registrado no CRM, com data e origem. Sem registro, o CRM não envia.
 - Template Meta: não se aplica.
-- Forma de sair: link de descadastro no rodapé, que vale na hora.
+- Forma de sair: link de descadastro em um clique no rodapé de todo e-mail de campanha, que vale para todas as linhas no mesmo dia e, no máximo, em 48 h (regra E3 do cmo).
+- Opt-in por categoria (E4): o consentimento de e-mail de campanha é separado do de serviço. R1, A1, M1, M5 e as versões -R saem com o opt-in de serviço ou com o dado da inscrição; o resto exige o opt-in de campanha.
 - Rodapé do G1: "Você recebe este e-mail porque se cadastrou no Vestibular 2027 da Faculdade UFAPE e aceitou receber contatos. Para parar de receber, use o link de descadastro. Política de privacidade: {link_politica}. UFAPE - CURSOS ESPECIALIZADOS LTDA, CNPJ 27.409.162/0001-34, Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP."
 - Rodapé do G2: "Você recebe este e-mail porque se cadastrou no Processo Seletivo 2027.1 da Faculdade UFAPE em Goiânia e aceitou receber contatos. Para parar de receber, use o link de descadastro. Política de privacidade: {link_politica}. UFAPE - CURSOS ESPECIALIZADOS LTDA, CNPJ 27.409.162/0001-34, Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP."
 - Razão social, CNPJ e sede de contexto/ufape-geral.md (a sede é a mesma para as duas liberações).
@@ -178,14 +191,17 @@ Nota do BC: [CONFIRMAR tempo de prova, tema, se é possível salvar, se há nova
 - Mensagem iniciada pela Ufape: sempre por template aprovado pela Meta (nome na mensagem). Resposta do time dentro da janela de 24 horas do contato pode ser texto livre. As variáveis entre chaves viram {{1}}, {{2}} e assim por diante, na ordem em que aparecem; a pessoa que submeter o template informa um exemplo fictício por variável. Categoria (utilidade ou marketing): [CONFIRMAR com a Meta e o responsável pelo CRM]. Nenhum template foi submetido: pendente de aprovação humana e da Meta.
 - Forma de sair: última linha de toda mensagem, "Para não receber mais mensagens, responda SAIR."
 - Horário: segunda a sexta, das 9h às 18h, nunca em fim de semana nem feriado.
-- Frequência: dentro do teto único D1 do cmo (seção 0.7). Além dele, esta régua mantém no máximo 1 WhatsApp a cada 3 dias úteis por contato [SUPOSIÇÃO de desenho].
+- Frequência: teto D16 do cmo para a Graduação (seção 0.7): no máximo 2 WhatsApp de campanha por semana, no máximo 1 a cada 3 dias úteis, dentro de até 3 mensagens de campanha por semana somando os canais e 1 por dia.
+- Engajamento (E1): contato que não respondeu, não clicou e não abriu conversa nas últimas 4 mensagens de campanha por WhatsApp recebe no máximo 1 WhatsApp de campanha por semana, até interagir; sem nenhuma interação em 90 dias, sai do WhatsApp de campanha e fica só no e-mail (se tiver opt-in) [SUPOSIÇÃO de critério do cmo].
+- Erro 131049 (E2): mensagem barrada pelo limite da Meta não é reenviada por WhatsApp antes de 24 h e conta como suprimida (não muda de dia).
+- SAIR (E3): vale para todas as linhas no mesmo dia, no máximo em 48 h. Opt-in de WhatsApp de campanha separado do de serviço (E4).
 - Assinatura: "Faculdade UFAPE".
 
 ### 0.5 Consentimento e menores de idade (quem recebe cada mensagem)
 
 1. Adulto (18 anos ou mais): recebe a versão normal, no canal em que deu consentimento.
 2. Candidato menor de idade: a mensagem vai ao representante legal cadastrado, com a versão "para o responsável" (marcada "-R"), e só se o consentimento do representante legal estiver registrado. Mensagem direta ao menor fica suspensa até o jurídico e o responsável pelo CRM validarem o tratamento de consentimento de menor (pedido G10, [CONFIRMAR]). Até lá, o CRM não envia WhatsApp nem e-mail de marketing a contato identificado como menor.
-3. **Mensagem sem versão -R não vai a contato menor de idade nem ao representante legal dele.** As versões -R existentes (13 por liberação): AT1-R, AT2-R, L2-R, L4-R, R1-R, R2-R, A1-R, A3-R, A4-R, A6-R, M1-R, M2-R e M5-R. Elas cobrem o kit mínimo (seção 1). Se o copy-de-mensagens trocar uma mensagem do kit, escreve a -R correspondente antes do QA.
+3. **Mensagem sem versão -R não vai a contato menor de idade nem ao representante legal dele.** As versões -R existentes (13 por liberação): AT1-R, AT2-R, L2-R, L4-R, R1-R, R2-R, A1-R, A3-R, A4-R, A6-R, M1-R, M2-R e M5-R. Elas cobrem as mensagens da régua que tratam dos mesmos assuntos do kit mínimo; as -R dos toques do kit (KW1 a KW5, KE1 a KE3) são do copy-de-mensagens.
 4. O CRM precisa ter o campo "menor de idade: sim ou não" e "representante legal: contato e consentimento" [CONFIRMAR se existe]. Se não existir, a régua do G1 só dispara para quem o time marcar como adulto ou representante legal, e o resto espera.
 5. Versões -R falam com o adulto, sem pressão de compra dirigida ao menor, sem urgência e sem imagem ou nome além da variável {nome_candidato}. Nenhuma frase se dirige ao menor.
 6. Anúncio pago continua só para 18 anos ou mais (plano do cmo). Esta régua não muda isso.
@@ -202,21 +218,50 @@ Nota do BC: [CONFIRMAR tempo de prova, tema, se é possível salvar, se há nova
 - Cada envio registra: mensagem (código), canal, data e hora, entregue, aberto ou lido, clique, resposta, saída.
 - Atendimento e CRM: ferramentas [CONFIRMAR] (contexto/ufape-geral.md deixa o campo em branco).
 
-### 0.7 Teto D1 e fila D2 do cmo: avaliação para a Graduação
+### 0.7 Teto D16, regras E1 a E4 e fila D2 do cmo: aplicação na Graduação
 
-**O D1 se aplica?** Sim. O texto do D1 (cmo-geral, seção 12.2) inclui a Graduação de forma expressa ("vale para Pós, Livres, Eventos, Graduação e newsletter juntos"). A base da Graduação é de vestibulandos, responsáveis e adultos que querem mudar de carreira, quase toda separada da base de Pós, Livres e Eventos (médicos-veterinários). A sobreposição deve ser pequena, mas existe: um profissional da base de Pós pode ser pai de candidato, e o noturno atrai adultos que já trabalham na área [SUPOSIÇÃO: o CRM não tem o número]. Como o teto é por contato e o CRM o aplica sozinho, ele não custa nada a quem está só na base da Graduação e protege quem está nas duas. Registro: o D1 vale para esta régua sem exceção.
+**Histórico.** Na versão 2, esta seção avaliou o D1 (seção 12.2 do cmo) e registrou que ele valia para a Graduação. A seção 13.3 do cmo substituiu o número do D1 pelo D16 e criou um teto próprio da Graduação, porque a base tem vestibulandos, responsáveis e possíveis menores (LGPD art. 14 e ECA). O resto do D1 (janelas e dias sem campanha) e a fila D2 seguem valendo.
 
-**O que muda na régua com o D1:**
+**Teto D16 da Graduação (decisão do cmo; número [SUPOSIÇÃO] a calibrar com os alertas da seção 13.4):**
 
-| Regra do D1 | Como fica na Graduação |
+| Regra | Valor na Graduação |
 |---|---|
-| Até 2 WhatsApp e 2 e-mails de campanha por contato por semana (segunda a domingo), somando todas as linhas | As réguas L, R, A e M cabem no teto sem mudar os tempos (pior caso: L1, L2 e L3 na mesma semana dão 2 e-mails e 1 WhatsApp). A regra antiga desta régua ("2 contatos por semana somando os canais") sai, porque contrariava os tempos D0, D2 e D5 e não é a regra única da squad |
-| No máximo 1 mensagem de campanha por contato por dia, em qualquer canal | Já atendido pelos tempos. Se outra linha ocupar o dia, o toque da Graduação segue a fila D2 |
-| Janela: WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h | FW mantido; e-mail das 7h às 19h |
-| Dias sem campanha: 02/11; 20 e 21/11; 25/12; 31/12; 01/01; de 21/12 a 03/01 só serviço | Toque de campanha que cair nesses dias passa para o próximo dia permitido, na mesma ordem (a régua pausa; não há envio extra para compensar) [SUPOSIÇÃO de desenho; o cmo confirma, porque o D2 diz que o suprimido não acumula] |
-| O que é serviço (fora do teto) | Proposta para a Graduação, pelo mesmo critério do D1 e do D4: R1 (confirmação de inscrição), A1 (resultado), M1 (confirmação de matrícula) e as versões -R delas; M2 (documentos) e M4 (vencimento), no mesmo caso do J3 e do J4 da Pós, só se o cmo aprovar como serviço; M5 (semana de início), como a "véspera" do D1. Todo o resto (AT, L, R2 a R5, A2 a A6, M3) é campanha [SUPOSIÇÃO de classificação; o cmo confirma] |
+| WhatsApp de campanha | até 2 por semana (segunda a domingo) e no máximo 1 a cada 3 dias úteis; até 1 por semana para contato sem engajamento (E1) |
+| E-mail de campanha | até 2 por semana |
+| Soma dos canais | **até 3 mensagens de campanha por semana** |
+| Por dia | no máximo 1 mensagem de campanha por contato, em qualquer canal |
+| Contato que está nas duas bases (por exemplo, profissional da base de Pós que é representante legal de candidato) | soma tudo o que recebe de todas as linhas; vale o teto menor, o da Graduação (até 3 por semana, 1 por dia) |
+| Candidato menor de idade | nenhuma mensagem de campanha direta ao menor (0.5, mantido até G10) |
+| Janela | WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h |
+| Dias sem campanha | 02/11; 20 e 21/11; 25/12; 31/12; 01/01; de 21/12 a 03/01 só serviço. Toque de campanha que cair nesses dias passa para o próximo dia permitido, na mesma ordem, sem envio extra [SUPOSIÇÃO de desenho; o cmo confirma, porque o D2 diz que o suprimido não acumula] |
 
-**Fila D2:** contato que está na Graduação e em outra linha segue a fila do cmo: serviço primeiro; depois o toque principal com data mais próxima; follow-ups depois. Na Graduação, os toques principais são AT1, L1, R2, A2 e A6; os demais contam como follow-up. O CRM aplica a fila por contato (pedido do cmo ao arquiteto-de-fluxos).
+**Conferência: nenhuma semana da régua passa de 3 mensagens de campanha** (serviço fora da conta; semana de segunda a domingo):
+
+| Régua | Toques de campanha e dias | Pior semana | Por canal |
+|---|---|---|---|
+| AT | AT1 (ter 03/11), AT2 (qua 04/11), AT3 (ter 10/11) | 2 (03 e 04/11) | 1 e-mail e 1 WhatsApp |
+| L | L1 D0, L2 D2, L3 D5, L4 D8, L5 D12, L6 D15, L7 D20 | 3 (L1, L2 e L3, ou L2, L3 e L4 quando D2 cai na segunda): quatro toques nunca cabem em 7 dias | no máximo 2 e-mails (L1 e L3) e 1 WhatsApp; L2, L4 e L6 ficam a 3 dias úteis ou mais um do outro |
+| R | R1 D0 (serviço), R2 D2, R3 D5, R4 D9, R5 D14 | 2 (R2 e R3, ou R3 e R4) | R2 e R4 a 7 dias um do outro |
+| A | A1 D0 (serviço), A2 D+2, A3 D+3, A5 D+7, A6 D+14 | 3 (A2, A3 e A5 quando D+2 cai na segunda) | 2 WhatsApp (A2 e A5, a 5 dias) e 1 e-mail |
+| M | M1 D0 (serviço), M2 D+5 (campanha até o pedido R1 e JR3), M3 D+14, M4 (campanha até o mesmo pedido), M5 15/02/2027 (serviço) | 2 (M3 e M4, se o vencimento cair na mesma semana do M3) | M2 e M4 a 3 dias úteis ou mais |
+| Versões -R | seguem os dias da versão adulta (A4-R no lugar do A2) | iguais às da régua | iguais |
+
+Passagem de uma régua para outra (lead que se inscreve, inscrito aprovado) e toques do kit do copy-de-mensagens podem somar mais de 3 na mesma semana. Nesse caso, o CRM aplica o teto por contato: o toque que passaria de 3 (ou de 2 no canal, ou de 1 no dia) segue a fila D2 e muda para o próximo dia permitido; o kit já não sai para quem tem toque da régua 5 dias úteis antes ou depois (copy-de-mensagens, 0.3, item 2).
+
+**Regras que entram junto (E1 a E4, seção 13.3 do cmo):**
+- E1. Engajamento no WhatsApp: sem resposta, clique ou conversa nas últimas 4 mensagens de campanha por WhatsApp, o contato recebe no máximo 1 WhatsApp de campanha por semana, até interagir; sem interação em 90 dias, sai do WhatsApp de campanha e fica no e-mail, se tiver opt-in [SUPOSIÇÃO de critério do cmo]. Na régua L, isso faz o L4 ou o L6 mudar de semana para quem não respondeu ao L2.
+- E2. Erro 131049: não há reenvio por WhatsApp antes de 24 h; a mensagem conta como suprimida. O CRM registra o erro por envio.
+- E3. Descadastro: SAIR e descadastro valem para todas as linhas no mesmo dia, no máximo em 48 h; todo e-mail de campanha leva descadastro em um clique.
+- E4. Opt-in por categoria: o opt-in de campanha é separado do de serviço, por canal.
+- Sem API oficial do WhatsApp Business, E1 e E2 não se aplicam como regra automática (pedido U11a do cmo) [CONFIRMAR].
+
+**Serviço (fora do teto), como a seção 13.3 do cmo classifica:**
+- Serviço: R1 (confirmação de inscrição), A1 (resultado), M1 (confirmação de matrícula), M5 (semana de início, como a véspera) e as versões -R delas (R1-R, A1-R, M1-R, M5-R).
+- Serviço só se a Ufape aprovar o J3 e o J4 da Pós no mesmo pedido (R1 e JR3 da seção 12): M2 (documentos), M4 (vencimento) e M2-R. Até lá, contam como campanha.
+- Campanha: AT, L, R2 a R5, A2 a A6, M3 e as versões -R delas.
+- Limites do serviço: só com opt-in de serviço ou dado da inscrição (E4); sem oferta de outro curso no texto (se tiver, conta como campanha); WhatsApp na janela de dia útil, das 9h às 18h; no máximo 1 serviço por dia por canal para o mesmo pedido [SUPOSIÇÃO do cmo]. Serviço não conta no teto, mas entra nos indicadores de qualidade do número (seção 13.4 do cmo).
+
+**Fila D2:** contato que está na Graduação e em outra linha segue a fila do cmo: serviço primeiro; depois o toque principal com data mais próxima; follow-ups depois. Na Graduação, os toques principais são AT1, L1, R2, A2 e A6; os demais contam como follow-up. O CRM aplica a fila e o teto por contato (pedido do cmo ao arquiteto-de-fluxos).
 
 ---
 
@@ -243,20 +288,7 @@ Visão geral das réguas (cada uma com 5 a 7 contatos; 51 mensagens para adulto,
 | Aprovado até a matrícula | G1-A1 e-mail, A2 WhatsApp, A3 e-mail, A5 WhatsApp, A6 e-mail (A4-R é a versão do A2 para o representante legal) | G2-A1 a A6 | 5 |
 | Matriculado até 22/02/2027 | G1-M1 e-mail, M2 WhatsApp, M3 e-mail, M4 WhatsApp, M5 e-mail | G2-M1 a M5 | 5 |
 
-**Kit mínimo (5 WhatsApp e 3 e-mails por liberação, cmo-graduacao) e as mensagens que o cobrem:**
-
-| Item do kit | Mensagem | Versão -R |
-|---|---|---|
-| WhatsApp 1: depois da inscrição, como fazer a redação ou usar o Enem | R2 | R2-R |
-| WhatsApp 2: lembrete para quem não fez a redação | AT2 (base) | AT2-R |
-| WhatsApp 3: alternativa do Enem (300 pontos, edições de 2010 em diante) | L2 | L2-R |
-| WhatsApp 4: aprovado, matrícula a partir de 2 dias após o resultado e desconto com regra | A2 | A4-R |
-| WhatsApp 5: reta final, aulas em 22/02/2027 e documentos em até 30 dias | M2 | M2-R |
-| E-mail 1: confirmação da inscrição e próximos passos | R1 (ou AT1 para a base) | R1-R e AT1-R |
-| E-mail 2: aprovação e matrícula com as condições do Edital 003/2026 e a regra de cancelamento | A3 (com A1) | A3-R e A1-R |
-| E-mail 3: reta final antes de 22/02/2027 | A6 (aprovado sem matrícula) e M5 (matriculado) | A6-R e M5-R |
-
-O copy-de-mensagens pode lapidar, juntar ou cortar contatos; se trocar uma mensagem do kit, escreve a -R correspondente (0.5, item 3).
+**Kit mínimo (5 WhatsApp e 3 e-mails por liberação, cmo-graduacao): uma só contagem.** O kit é do copy-de-mensagens e está em saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md, seção 0.1: oito toques de calendário (KE1, KW1, KW2, KE2, KW3, KW4, KE3, KW5), com data fixa, que só saem para quem não está com régua ativa. Esta régua é disparada por evento do contato e não conta como kit. A correspondência de assuntos (qual mensagem da régua cobre o mesmo tema de cada item do kit) está na tabela da seção 0.1 do copy-de-mensagens; este arquivo não repete a tabela, para não haver duas contagens. Leitura a confirmar pelo cmo (A-N4 do qa-d).
 
 ---
 
@@ -413,7 +445,7 @@ Bloqueio do noturno (regra 13, pedido G8): L1, L3, L4 e L7 citam o noturno e L5-
 - Objetivo: mostrar as duas portas de entrada e levar à inscrição
 - Segmento: lead sem inscrição, adulto
 - Primeira linha A: Oi, {primeiro_nome}. Já fez o Enem? Com média mínima de 300 pontos (edições de 2010 em diante), sua nota pode ser a sua entrada na Medicina Veterinária da Ufape.
-- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. Você pode entrar com a redação online ou com o Enem.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. A inscrição é gratuita: redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante).
 - Gancho: Quem fez o Enem anos atrás também pode usar a nota, de qualquer edição a partir de 2010, com média mínima de 300 pontos.
 - Corpo:
   "Para Medicina Veterinária, a inscrição é gratuita e há duas formas de entrar:
@@ -590,7 +622,7 @@ Objetivo único: redação feita ou nota do Enem enviada. Gatilho: inscrição c
 
 ### G1-R1 (e-mail, D0): inscrição recebida e próximos passos
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Objetivo: confirmar a inscrição e explicar a avaliação
 - Segmento: inscrito novo, adulto
 - Assunto A: Inscrição recebida: veja o que fazer agora no Vestibular 2027
@@ -604,7 +636,7 @@ Objetivo único: redação feita ou nota do Enem enviada. Gatilho: inscrição c
 
 ### G1-R1-R (e-mail, D0, versão para o representante legal)
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Assunto A: Inscrição de {nome_candidato} recebida: o próximo passo é a redação ou o Enem
 - Assunto B: Para o representante legal: como {nome_candidato} segue no Vestibular 2027
 - Texto de pré-visualização: Redação online sem dia marcado ou Enem com média mínima de 300 pontos (edições de 2010 em diante).
@@ -695,7 +727,7 @@ Objetivo único: 1ª mensalidade paga e contrato assinado. Gatilho: resultado pu
 
 ### G1-A1 (e-mail, D0): seu resultado está no site
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Objetivo: avisar o resultado e a data da matrícula
 - Segmento: aprovado, adulto
 - Assunto A: Seu resultado do Vestibular 2027 está no site
@@ -716,7 +748,7 @@ Objetivo único: 1ª mensalidade paga e contrato assinado. Gatilho: resultado pu
 
 ### G1-A1-R (e-mail, D0, versão para o representante legal)
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Assunto A: O resultado de {nome_candidato} no Vestibular 2027 está no site
 - Assunto B: Para o representante legal: como fazer a matrícula de {nome_candidato}
 - Texto de pré-visualização: A matrícula é eletrônica, abre a partir de 2 dias depois do resultado e precisa do seu aceite.
@@ -843,7 +875,7 @@ Objetivo único: matrícula completa (documentos enviados) e permanência até o
 
 ### G1-M1 (e-mail, D0): matrícula confirmada
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Objetivo: confirmar e listar o que falta fazer
 - Segmento: matriculado, adulto
 - Assunto A: Matrícula confirmada: o que acontece até as aulas, em 22/02/2027
@@ -857,7 +889,7 @@ Objetivo único: matrícula completa (documentos enviados) e permanência até o
 
 ### G1-M1-R (e-mail, D0, versão para o representante legal)
 
-- Canal: e-mail (serviço, fora do teto D1)
+- Canal: e-mail (serviço, fora do teto D16)
 - Assunto A: Matrícula de {nome_candidato} confirmada: o que acontece até 22/02/2027
 - Assunto B: Para o representante legal: próximos passos da matrícula de {nome_candidato}
 - Texto de pré-visualização: Documentos em até 30 dias, vencimento no dia 10 e contatos da secretaria.
@@ -923,7 +955,7 @@ Objetivo único: matrícula completa (documentos enviados) e permanência até o
 
 ### G1-M5 (e-mail, 15/02/2027): semana de início
 
-- Canal: e-mail
+- Canal: e-mail (serviço, fora do teto D16)
 - Objetivo: confirmar a segunda-feira de início e dar o contato certo
 - Segmento: matriculado, adulto
 - Assunto A: Segunda-feira, 22/02/2027: começam as suas aulas de Medicina Veterinária
@@ -1033,7 +1065,7 @@ Mesmos tempos do G1-B (D0, D2, D5, D8, D12, D15, D20). Bloqueio G6 em toda mensa
 - Objetivo: mostrar as duas portas de entrada
 - Segmento: lead sem inscrição, adulto
 - Primeira linha A: Oi, {primeiro_nome}. Já fez o Enem? Com média mínima de 300 pontos (edições de 2010 em diante), sua nota pode ser a sua entrada na Pedagogia da Ufape.
-- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. Você pode entrar com a redação online ou com o Enem.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. A inscrição é gratuita: redação online ou nota do Enem (média mínima de 300 pontos, edições de 2010 em diante).
 - Gancho: Quem fez o Enem anos atrás também pode usar a nota, de qualquer edição a partir de 2010, com média mínima de 300 pontos.
 - Corpo: "Para a Pedagogia noturno, a inscrição é gratuita e há duas formas de entrar. Enem: média de 300 pontos ou mais, de qualquer edição a partir de 2010. Redação online: sem dia marcado, você faz quando puder; é eliminatória, com nota mínima 5,0. As aulas começam em 22/02/2027. Para não receber mais mensagens, responda SAIR."
 - Chamada para ação: "Fazer minha inscrição: {link_lp_utm}"
@@ -1128,7 +1160,7 @@ Mesmos tempos do G1-B (D0, D2, D5, D8, D12, D15, D20). Bloqueio G6 em toda mensa
 Toques: R1 (D0), R2 (D2), R3 (D5), R4 (D9), R5 (D14); base existente entra pelo G2-AT e, sem avanço, em R3. Objetivo, segmento (adulto) e follow-up como no G1-C, com o contato (62) 9420-1847 e o Edital nº 004/2026. Texto de cada um:
 
 ### G2-R1 (e-mail, D0)
-- Canal: e-mail (serviço, fora do teto D1); FE (rodapé do G2)
+- Canal: e-mail (serviço, fora do teto D16); FE (rodapé do G2)
 - Assunto A: Inscrição recebida: veja o que fazer agora no Processo Seletivo 2027.1
 - Assunto B: {primeiro_nome}, sua inscrição na Pedagogia foi recebida. Próximo passo: redação ou Enem
 - Texto de pré-visualização: Redação online sem dia marcado, ou nota do Enem com média mínima de 300 pontos (edições de 2010 em diante).
@@ -1182,7 +1214,7 @@ Toques: R1 (D0), R2 (D2), R3 (D5), R4 (D9), R5 (D14); base existente entra pelo 
 Mesmas regras, tempos e condições do G1-D (A1 em D0, A2 em D+2, A3 em D+3, A5 em D+7, A6 em D+14 ou a partir de 01/02/2027; representante legal de menor: A1-R, A4-R, A3-R e A6-R). Só entra quem tem status "aprovado" no sistema.
 
 ### G2-A1 (e-mail, D0)
-- Canal: e-mail (serviço, fora do teto D1); FE (rodapé do G2)
+- Canal: e-mail (serviço, fora do teto D16); FE (rodapé do G2)
 - Assunto A: Seu resultado do Processo Seletivo 2027.1 está no site
 - Assunto B: {primeiro_nome}, parabéns pela aprovação: veja como fazer a matrícula
 - Texto de pré-visualização: A matrícula abre a partir de 2 dias depois da publicação do resultado.
@@ -1240,7 +1272,7 @@ Mesmas regras, tempos e condições do G1-D (A1 em D0, A2 em D+2, A3 em D+3, A5 
 Mesmos toques e regras do G1-E: M1 (D0), M2 (D+5), M3 (D+14), M4 (antes do vencimento, só depois da confirmação), M5 (15/02/2027). Cobrança e contrato são do financeiro e da secretaria.
 
 ### G2-M1 (e-mail, D0)
-- Canal: e-mail (serviço, fora do teto D1); FE (rodapé do G2)
+- Canal: e-mail (serviço, fora do teto D16); FE (rodapé do G2)
 - Assunto A: Matrícula confirmada: o que acontece até as aulas, em 22/02/2027
 - Assunto B: {primeiro_nome}, sua matrícula na Ufape está confirmada. Veja os próximos passos
 - Texto de pré-visualização: Documentos em até 30 dias, início das aulas e contatos.
@@ -1283,7 +1315,7 @@ Mesmos toques e regras do G1-E: M1 (D0), M2 (D+5), M3 (D+14), M4 (antes do venci
 - Follow-up: nenhum.
 
 ### G2-M5 (e-mail, 15/02/2027)
-- Canal: e-mail; FE (rodapé do G2)
+- Canal: e-mail (serviço, fora do teto D16); FE (rodapé do G2)
 - Assunto A: Segunda-feira, 22/02/2027: começam as suas aulas de Pedagogia
 - Assunto B: {primeiro_nome}, sua semana de início na Faculdade UFAPE
 - Texto de pré-visualização: Local, horário e documentos pendentes, num e-mail só.
@@ -1411,6 +1443,7 @@ Todas com consentimento do representante legal registrado (seção 0.5), rodapé
 - Follow-up: G2-M5-R.
 
 ### G2-M5-R (e-mail, 15/02/2027)
+- Canal: e-mail (serviço, fora do teto D16)
 - Assunto A: Segunda-feira, 22/02/2027: começam as aulas de {nome_candidato}
 - Assunto B: Para o representante legal: a semana de início de {nome_candidato}
 - Texto de pré-visualização: Local, horário e documentos pendentes, num e-mail só.
@@ -1526,7 +1559,9 @@ Respostas de preço (marcadas "BLOQUEADO até G12 e G7" abaixo): só podem ser u
 | Representante legal pede para apagar os dados do menor | Para todo envio, encaminha ao responsável pela LGPD [CONFIRMAR canal] | Jurídico |
 | Pediu transferência, ingresso de diplomado ou vaga remanescente | Sai das réguas e vai ao time de captação (formas de ingresso depois dos ingressantes por redação e Enem) | Captação |
 | Cancela a matrícula (até 20/02/2027) ou a Ufape cancela a turma | Sai de M. Nenhuma mensagem de marketing. A mensagem de serviço é da secretaria | Secretaria |
-| Toque de campanha cai em dia sem campanha do D1 ou passa do teto D1 | Passa para o próximo dia permitido, na ordem da fila D2 (seção 0.7) | CRM |
+| Toque de campanha cai em dia sem campanha do D1 ou passa do teto D16 (3 por semana, 2 por canal, 1 por dia; teto menor para quem está também na base da Pós) | Passa para o próximo dia permitido, na ordem da fila D2 (seção 0.7) | CRM |
+| Erro 131049 no WhatsApp (E2) | Sem reenvio por WhatsApp antes de 24 h; conta como suprimida | CRM |
+| Contato sem engajamento no WhatsApp (E1) | No máximo 1 WhatsApp de campanha por semana; sem interação em 90 dias, só e-mail | CRM |
 | 22/02/2027 | Todas as réguas da Graduação 2027/1 encerram. Pedido de pausa das campanhas (aprovação humana, pedido G16 do cmo) | cmo, humano |
 | Ufape informar data-limite interna de inscrição ou matrícula | Puxar A6 e M5 para essa data, em ciclo extra do cmo | cmo |
 
@@ -1563,7 +1598,7 @@ Aplicadas por este agente ao rascunho corrigido. A conferência final é do qa-d
 - [x] Réguas têm regras de saída (seção 5).
 - [ ] Resultados registrados para cada envio: o plano de registro está na seção 6; nada foi enviado. Pendente até o primeiro envio.
 - [ ] Cliques, respostas e conversões medidos, não só aberturas: UTM por mensagem no padrão D11 e D12 (seção 0.2); depende da URL e da origem chegando ao CRM [CONFIRMAR, pedido G13].
-- [ ] WhatsApp só em horário comercial, com frequência humana e template aprovado pela Meta: horário, teto D1 e frequência escritos (FW e 0.7); nenhum template foi submetido nem aprovado. Pendente.
+- [ ] WhatsApp só em horário comercial, com frequência humana e template aprovado pela Meta: horário, teto D16, regras E1 a E4 e frequência escritos (FW e 0.7); nenhum template foi submetido nem aprovado. Pendente.
 
 ### auditorias/06-geracao-de-demanda.md
 
@@ -1641,17 +1676,17 @@ Notas para arquivos de outros donos (não alterados por este agente):
 - Atos: Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025); Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022) (catálogo). Credenciamento: Portaria MEC nº 176, de 27/02/2025 (D.O.U. 28/02/2025, São Paulo); Portaria MEC nº 871, de 10/11/2022 (Goiânia) (editais; contexto/ufape-geral.md).
 - Contatos oficiais: secretaria (11) 97492-8443 e (11) 5054-1204, duvidas@intercursos.com.br; Vendas São Paulo (11) 91366-9290; Vendas Goiânia (62) 9420-1847; financeiro (11) 94525-3730 e financeiro@intercursos.com.br; SAC e ouvidoria @intercursos.com.br (contexto/ufape-geral.md). Razão social, CNPJ 27.409.162/0001-34 e sede na Av. 9 de Julho, 3939 (idem).
 - Matriz da Medicina Veterinária: no 1º semestre, Campos de Atuação do Médico Veterinário e Práticas Hospitalares, Projeto Extensionista I e Práticas Hospitalares; estágio nos 7º e 8º (integral) e 9º e 10º (noturno) (contexto/cursos/graduacao/graduacao-em-medicina-veterinaria.md, conferido pelo qa-c e por este agente). Pedagogia: Prática Docente e Projeto Integrador desde o 1º semestre, Educação Inclusiva, Letramento em Libras e estágio a partir do 6º semestre (ficha do curso, conferida pelo qa-c).
-- Teto único D1 (2 WhatsApp e 2 e-mails de campanha por contato por semana, 1 por dia, janelas e dias sem campanha), fila D2 e padrão de UTM D11 e D12 (utm_medium=crm, prefixo grad_, utm_content com o código da mensagem) (cmo-geral-2026-10-26.md, seção 12).
+- Janelas e dias sem campanha do D1, fila D2 e padrão de UTM D11 e D12 (utm_medium=crm, prefixo grad_, utm_content com o código da mensagem) (cmo-geral-2026-10-26.md, seção 12). Teto D16 da Graduação: até 3 mensagens de campanha por semana somando canais, até 2 por canal, 1 por dia, teto menor para quem está nas duas bases; regras E1 a E4; classificação de serviço (cmo-geral-2026-10-26.md, seção 13.3).
+- O kit mínimo da Graduação foi entregue como toques de calendário KW1 a KW5 e KE1 a KE3 (copy-de-mensagens-graduacao-2026-10-26.md, seção 0.1).
 - Bloqueios G6, G7, G8, G10, G11, G12 e G13 e kit mínimo de 5 WhatsApp e 3 e-mails por liberação (cmo-graduacao-2026-10-26.md, seções 5, 6 e 8).
 - A Graduação não tem número de vagas restantes, nota do MEC, data de prova nem data final de inscrição publicados (ficha dos editais).
 - 30/10/2026 é sexta-feira; 03/11/2026 é terça-feira; 22/02/2027 é segunda-feira (calendário).
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Frequência de no máximo 1 WhatsApp a cada 3 dias úteis por contato, dentro do teto D1; horários de envio (10h30 e 14h30) a testar.
+- [SUPOSIÇÃO] Números do D16 (3 por semana, 2 por canal, 1 por dia) e critério do E1 (4 mensagens, 90 dias): decisão do cmo sem fonte de número, a calibrar com a seção 13.4; horários de envio (10h30 e 14h30) a testar.
 - [SUPOSIÇÃO] Os tempos entre toques (D0, D2, D5, D8, D12, D15, D20 e os das réguas R, A e M) são desenho meu e precisam de teste com números reais.
 - [SUPOSIÇÃO] A sobreposição entre a base da Graduação e as bases de Pós, Livres e Eventos é pequena; o CRM não tem o número.
-- [SUPOSIÇÃO de classificação] R1, A1, M1 e as versões -R delas são serviço; M2 e M4 só se o cmo aprovar, como J3 e J4; M5 como véspera. O resto é campanha (seção 0.7).
 - [SUPOSIÇÃO de desenho] Toque de campanha em dia sem campanha do D1 muda para o próximo dia permitido, sem envio extra.
 - [SUPOSIÇÃO de chave] utm_campaign grad_medvet_<AAAAMM> para lead do G1 sem turno escolhido.
 - [SUPOSIÇÃO de desenho] Meta interna de redações e Enem cumpridas até 31/01/2027 (briefing).
@@ -1680,11 +1715,12 @@ Notas para arquivos de outros donos (não alterados por este agente):
 - [CONFIRMAR] Correção das páginas de Pedagogia (G6) e do turno do noturno (G8).
 - [CONFIRMAR] Local, horário e calendário do primeiro dia de aula; dados para M3 e M5.
 - [CONFIRMAR] Regra para o candidato não aprovado (nova tentativa, Enem); procedimento de transferência, diplomado e vagas remanescentes.
-- [CONFIRMAR] Com o cmo: classificação de serviço, mudança de data em dia sem campanha e chave de UTM sem turno (seção 0.7 e 0.2).
+- [CONFIRMAR] Com o cmo: mudança de data em dia sem campanha, chave de UTM sem turno (seção 0.7 e 0.2) e a leitura do kit como só os toques de calendário do copy-de-mensagens (A-N4).
+- [CONFIRMAR] Se a Ufape usa a API oficial do WhatsApp Business (pedido U11a); sem ela, E1 e E2 não se aplicam como regra automática. Aprovação do pedido R1 e JR3 (M2 e M4 como serviço).
 - [CONFIRMAR] Números agregados e metas por turma (pedidos G2 e G3); aprovadores do envio em massa (pedido G14); responsável pela LGPD e canal de pedidos de titular.
 
 ---
 
 ## Próximo passo
 
-Próximo agente sugerido: copy-de-mensagens (09/11/2026), que lapida estes textos, confirma os 5 WhatsApp e os 3 e-mails do kit mínimo de cada liberação (com as -R correspondentes), escreve as respostas-padrão finais e roda os testes A e B das primeiras linhas e dos assuntos. Depois, nova rodada do qa-de-marketing (rodada d). A ativação da base (G1-AT e G2-AT) não depende de G6, G8, G12 nem G7 e pode ser antecipada para 03/11/2026, na ordem do plano do cmo, depois do QA e da aprovação humana. Nada é enviado, publicado ou pago sem a aprovação humana.
+Próximo agente sugerido: copy-de-mensagens (09/11/2026), que lapida estes textos, mantém o kit mínimo nos toques de calendário do arquivo dele (KW1 a KW5 e KE1 a KE3), confere a contagem do D16, escreve as respostas-padrão finais e roda os testes A e B das primeiras linhas e dos assuntos. Depois, nova conferência do qa-de-marketing sobre a v3. A ativação da base (G1-AT e G2-AT) não depende de G6, G8, G12 nem G7 e pode ser antecipada para 03/11/2026, na ordem do plano do cmo, depois do QA e da aprovação humana. Nada é enviado, publicado ou pago sem a aprovação humana.

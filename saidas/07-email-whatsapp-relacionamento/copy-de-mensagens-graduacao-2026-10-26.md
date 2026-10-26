@@ -179,10 +179,10 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 
 | ID | utm_source | utm_content (adulto / representante) | utm_campaign possíveis |
 |---|---|---|---|
-| KE1 | email | kit-e1 / kit-e1-r | grad_medvet-geral_202611, grad_medvet-integral_202611, grad_medvet-noturno_202611, grad_pedagogia_202611 |
+| KE1 | email | kit-e1 / kit-e1-r | grad_medvet-geral_202611, grad_medvet-integral_202611, grad_medvet-noturno_202611, grad_pedagogia_<AAAAMM do 1º envio com link> |
 | KW1 | whatsapp | kit-w1 / kit-w1-r | idem |
 | KW2 | whatsapp | kit-w2 / kit-w2-r | idem |
-| KE2 | email | kit-e2 / kit-e2-r | grad_medvet-integral_202611, grad_medvet-noturno_202611, grad_pedagogia_202611 (geral, se o CRM não tiver o turno) |
+| KE2 | email | kit-e2 / kit-e2-r | grad_medvet-integral_202611, grad_medvet-noturno_202611, grad_pedagogia_<AAAAMM do 1º envio com link> (grad_medvet-geral_202611, se o CRM não tiver o turno) |
 | KW3 | whatsapp | kit-w3 / kit-w3-r | idem |
 | KW4 | whatsapp | kit-w4 / kit-w4-r | idem |
 | KE3 | email | kit-e3 / kit-e3-r | idem |
@@ -191,7 +191,7 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 Exemplos completos:
 - https://faculdade.ufape.com.br/graduacao?utm_source=email&utm_medium=crm&utm_campaign=grad_medvet-geral_202611&utm_content=kit-e1
 - https://faculdade.ufape.com.br/graduacao?utm_source=whatsapp&utm_medium=crm&utm_campaign=grad_medvet-noturno_202611&utm_content=kit-w4
-- https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=whatsapp&utm_medium=crm&utm_campaign=grad_pedagogia_202611&utm_content=kit-w5-r
+- https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=whatsapp&utm_medium=crm&utm_campaign=grad_pedagogia_<AAAAMM>&utm_content=kit-w5-r (AAAAMM do primeiro envio com link, depois de G6)
 
 Os links que seguem para a área do candidato ou para a plataforma de matrícula só substituem a LP se a plataforma confirmar que a LP não leva até lá e o humano aprovar a troca, com a mesma UTM (G13). O kit pede LP com UTM em toda peça.
 
@@ -811,14 +811,14 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 ## 4. Auditorias aplicadas (autoavaliação; o qa-de-marketing confere)
 
 **auditorias/07-email-e-whatsapp.md**
-- [ ] Consentimento e descadastro funcionando: regras escritas (0.3, 0.6, 0.7; SAIR em todo WhatsApp, descadastro em todo e-mail). Registro de opt-in, consentimento de menor (G10) e teste do SAIR dependem do CRM. Bloqueia o envio.
+- [ ] Consentimento e descadastro funcionando: regras escritas (0.3, itens 5d e 5e; 0.6; 0.7): SAIR em todo WhatsApp, descadastro em um clique em todo e-mail de campanha, atendido no mesmo dia e em até 48 h (E3), opt-in de campanha separado do de serviço (E4). Registro de opt-in, consentimento de menor (G10) e teste do SAIR e do descadastro em um clique dependem do CRM. Bloqueia o envio.
 - [x] Cada mensagem tem um objetivo (declarado em cada toque).
 - [x] Assuntos e primeiras linhas honestos: sem vagas acabando, sem prazo inventado, Enem sempre com a condição, sem aprovação certa.
 - [x] Segmentos recebem mensagens relevantes para a etapa: cada toque tem etapa, gatilho e exclusões; ninguém com régua ativa recebe o kit.
 - [x] Réguas têm regras de saída (0.3, itens 3, 4, 6 e 8; resposta "depois" no KE3 e no KW5).
 - [ ] Resultados registrados para cada envio: plano na seção 2; registro depende do CRM.
 - [ ] Cliques, respostas e conversões medidos: definidos (seção 2); dependem de G13.
-- [ ] WhatsApp em horário comercial, frequência humana e template aprovado: horário e teto escritos (0.2, 0.7); nenhum template aprovado ainda (K2). Bloqueia o envio.
+- [ ] WhatsApp em horário comercial, frequência humana e template aprovado: horário, teto D16 (até 3 por semana somando canais, 2 por canal, 1 por dia), E1 e E2 escritos (0.2, 0.3, 0.7); nenhum template aprovado ainda (K2). Bloqueia o envio.
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, duração e turno batem com o catálogo; carga horária da Pedagogia ausente; Medicina Veterinária sem carga horária nas mensagens.
@@ -836,7 +836,7 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 - [x] Nenhuma frase afirma situação pessoal de quem recebe.
 - [x] Sem caixa alta, pontuação repetida, emoji, travessão ou meia-risca (conferência automática por U+2014 e U+2013 no fim da redação).
 
-**Resultado:** rascunho pronto para o qa-de-marketing. Envio bloqueado pelos itens abertos acima. Revisado por: copy-de-mensagens (agente). Revisão humana: pendente. Data: 26/10/2026.
+**Resultado:** versão 2, com os ajustes A-M1 a A-M4 do QA d e o teto D16 com E1 a E4; segue para a aprovação humana. Envio bloqueado pelos itens abertos acima. Revisado por: copy-de-mensagens (agente). Revisão do qa-de-marketing: aprovado com ajustes (rodada d). Revisão humana: pendente. Data: 26/10/2026.
 
 ---
 
@@ -864,13 +864,14 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 - Medicina Veterinária: bacharelado presencial, integral 4 anos e noturno 5 anos; Pedagogia: licenciatura presencial, noturno, 4 anos (catálogo; Editais 002 e 004/2026).
 - 1º semestre: "Práticas Hospitalares" e "Projeto Extensionista I" (Medicina Veterinária); "Prática Docente I" e "Projeto Integrador I" (Pedagogia) (fichas dos cursos, conferidas em 26/10/2026).
 - Contatos de Vendas São Paulo e Goiânia, razão social, CNPJ e sede (contexto/ufape-geral.md).
-- Teto e fila de mensagens (D1, D2), utm_medium=crm e padrão de utm_campaign (D11, D12) (cmo-geral-2026-10-26.md, seção 12).
+- Teto e fila de mensagens (D1, D2), utm_medium=crm e padrão de utm_campaign (D11, D12) (cmo-geral-2026-10-26.md, seção 12); teto final da Graduação (D16: até 3 por semana somando os canais, até 2 por canal, 1 por dia), regras E1 a E4, regra de serviço e limites de alerta (cmo-geral-2026-10-26.md, seção 13).
 - Calendário, fases, revisão de 25/01/2027 e bloqueios G4 a G16 (cmo-graduacao-2026-10-26.md, seções 5, 6 e 8).
 - 17/11/2026 é terça; 19/11/2026, quinta; 05/01/2027, terça; 07/01/2027, quinta; 03/02/2027, quarta; 11/02/2027, quinta; 12/02/2027, sexta; 20/02/2027, sábado; 22/02/2027, segunda (calendário).
 
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] Datas e horários dos toques (17/11, 19/11, 05/01, 07/01, 03/02, 11/02, 12/02; 9h no e-mail e 10h30 no WhatsApp) são desenho deste agente sobre as fases do cmo; precisam de teste com números reais.
+- [SUPOSIÇÃO] Os números do teto D16 (3 por semana na Graduação) e os critérios de E1 (4 mensagens, 90 dias) são decisão do cmo marcada como suposição na seção 13; o kit os segue sem alterar.
 - [SUPOSIÇÃO] A janela de 5 dias úteis para considerar uma régua "ativa" e a janela de 48 h para o follow-up por WhatsApp.
 - [SUPOSIÇÃO] Carnaval de 2027 de 08 a 10/02, calculado pela Páscoa de 28/03/2027.
 - [SUPOSIÇÃO] Limite de 1.024 caracteres no corpo de template da Meta e categoria "marketing" para os templates.
