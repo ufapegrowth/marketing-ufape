@@ -85,7 +85,7 @@ Achados estruturais (fatos; a conclusão é hipótese):
 
 Achados:
 
-- A linha da visão do 700 traz a data de 15/11/2027 (385 dias) e a modalidade "ONLINE", e a planilha marca essa linha "sem página". O 700 no catálogo é uma gravação contínua, sem data. Se o anúncio ativo leva a uma página sem venda, ele paga clique para um destino sem compra. Se leva ao 700, a data da visão não vale. A data de 2027 pode ser de uma edição futura ou erro de digitação [CONFIRMAR]; nenhuma das duas leituras foi assumida.
+- A linha da visão do 700 traz a data de 15/11/2027 (385 dias) e a modalidade "ONLINE", e o catálogo (seção 9) marca essa linha "sem página". O 700 no catálogo é uma gravação contínua, sem data. Se o anúncio ativo leva a uma página sem venda, ele paga clique para um destino sem compra. Se leva ao 700, a data da visão não vale. A data de 2027 pode ser de uma edição futura ou erro de digitação [CONFIRMAR]; nenhuma das duas leituras foi assumida.
 - 202 não tem campanha. Não há o que checar no gerenciador; o que se acompanha é a venda semanal na loja.
 - Os dois são contínuos: não há data de encerramento nem turma que "fecha". O ciclo de leitura é mensal [SUPOSIÇÃO].
 
@@ -271,7 +271,7 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 - O produto 68634 mostra 24 h na loja (catálogo; plano, P9).
 - A campanha do workshop é só estática; a visão diz que o racional de 5 ângulos não se aplica a eventos.
 - 700 custa R$ 780,00 à vista ou 10x de R$ 98,00; 202 custa R$ 285,00 à vista ou 6x de R$ 78,00; os dois são contínuos (catálogo).
-- A linha "Paciente Grave Multidiciplinar" está "sem página" na planilha, com data de 15/11/2027 (visão e catálogo).
+- A linha "Paciente Grave Multidiciplinar" está "sem página" no catálogo (seção 9), com data de 15/11/2027 (visão e catálogo).
 - A prova de bolsa de Neurologia e Neurocirurgia (68654) é em 27/11/2026 e a Pós 68616 em 08/05/2027, sem campanha na visão (catálogo e visão).
 - Mensagens de véspera e do dia são textos para o CRM enviar (contexto da linha).
 - O plano do cmo prevê revisão toda segunda-feira (02/11, 09/11, 16/11, 23/11, 30/11).

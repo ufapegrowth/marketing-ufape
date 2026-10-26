@@ -25,7 +25,7 @@
 2. **Lead não é matrícula.** Uma campanha com muito lead e pouca matrícula não é sucesso. Toda regra abaixo olha matrícula e custo por matrícula antes de olhar lead e custo por lead.
 3. **Janela de tempo.** Na Pós, a matrícula acontece depois do lead (prova de bolsa, conversa no WhatsApp, pagamento). Janela usada neste arquivo [SUPOSIÇÃO]: o lead é atribuído à semana em que entrou (coorte) e a matrícula à semana em que foi paga; a leitura final de uma turma espera até 30 dias depois do início. Em várias páginas de pós, a 1ª mensalidade é paga 30 dias antes do início (contexto da linha, "na maioria das páginas"): por isso a data de corte da matrícula de cada turma pode vir antes da data de início. Data de corte por turma: [CONFIRMAR].
 4. **Dados de curso** (nome, turma, preço, carga horária, datas) vêm só do catálogo de 26/10/2026. Datas de início: planilha, via catálogo e visão.
-5. **Dias até o início** são os da visão de campanhas (26/10/2026). Os números de campanha são por curso, sem dado pessoal.
+5. **Dias até o início** são contados pela data do catálogo (que vem da planilha), em 26/10/2026; a visão de campanhas serve só para o status da mídia. Os números de campanha são por curso, sem dado pessoal.
 
 ---
 
@@ -255,7 +255,7 @@ Critério para todas: R7. Antes de qualquer reativação, o gestor-de-midia prec
 
 | Campanha | Checar (além de C1) | Critério |
 |---|---|---|
-| 657 Anestesiologia Avançada, II (138 dias, R$ 48.400,00) | motivo da pausa (a Ufape informa); histórico de gasto e leads antes da pausa; A1 (Anestesiologia e dor, 14 itens) está com zero campanhas ativas | Maior ticket futuro e a mais próxima entre as pausadas (138 dias). Primeira da fila de reativação pela R7. Sem 5 ângulos e só estático: o pacote precisa de produção. |
+| 657 Anestesiologia Avançada, II (138 dias, R$ 48.400,00) | motivo da pausa (a Ufape informa); histórico de gasto e leads antes da pausa; A1 (Anestesiologia e dor, 14 itens) está sem campanha ativa entre os itens do recorte; 586 e 554, já iniciadas e fora do recorte, seguem ativas | Maior ticket futuro e a mais próxima entre as pausadas (138 dias). Primeira da fila de reativação pela R7. Sem 5 ângulos e só estático: o pacote precisa de produção. |
 | 68615 Patologia Clínica, VII (145) | idem; 5 ângulos prontos, só estático; prova 68658 | Criativo pronto: reativar custa menos que produzir (hipótese do analista). R7. |
 | 341 Medicina Interna Equina, I (145, R$ 43.500,00) | promoção de 20% com texto cortado no catálogo (P16): regra e validade [CONFIRMAR] antes de qualquer anúncio; turma I | Não reativar com promoção sem regra. R7, depois da regra. Sem prova social de turmas anteriores (turma I): a mensagem não pode inventar. |
 | 333 Citopatologia, I (152) | idem; turma I; checar se algum anúncio antigo ainda aponta para 679 | R7. |
@@ -270,7 +270,7 @@ Critério para todas: R7. Antes de qualquer reativação, o gestor-de-midia prec
 
 ### 2.6 Sem campanha (informativo)
 
-As 10 turmas sem campanha na visão não geram checklist de gerenciador. Ter campanha ou não é decisão do gestor-de-midia na divisão de verba (1.11). Entre elas, 68628, 68632 e 677/564 (iniciadas, com status "verificar") merecem leitura de venda: se uma turma sem campanha tiver lead e matrícula por orgânico ou WhatsApp, o relatório semanal a inclui com os campos de mídia marcados "sem campanha".
+As 10 turmas sem campanha na visão não geram checklist de gerenciador. Ter campanha ou não é decisão do gestor-de-midia na divisão de verba (1.11). Entre elas, 677 e 564 (iniciadas, com status "verificar") e 68628 e 68632 (abertas, início em 10/04/2027) merecem leitura de venda: se uma turma sem campanha tiver lead e matrícula por orgânico ou WhatsApp, o relatório semanal a inclui com os campos de mídia marcados "sem campanha".
 
 ---
 

@@ -82,7 +82,7 @@ Conversão entre etapas (a calcular quando houver números):
 | Formato | Produtos de referência (CRO) | O que muda no funil | Leitura própria |
 |---|---|---|---|
 | Presencial, 1 a 3 dias | 573 (início 14/11/2026 no catálogo; 29/11 na visão de campanhas), 623, 68614, 68637 | L7 depende de vaga e de turma confirmada; L5 inclui boleto parcelado por e-mail; o candidato viaja | vagas preenchidas por semana nas 4 a 8 semanas antes da data [SUPOSIÇÃO do contexto]; curva por dias até a data |
-| Online gravado | 411 (e 616, com data 05/12/2026, no recorte) | sem data nem vaga; L7 é o primeiro acesso; prazo de acesso (120 dias) | conversão da página e do checkout; venda contínua por semana |
+| Online gravado | 411 (o 616 é presencial e online, com início em 05/12/2026 no catálogo, e conta como item com data) | 411: sem data nem vaga; L7 é o primeiro acesso; prazo de acesso (120 dias) | conversão da página e do checkout; venda contínua por semana |
 | Minicurso online de 8 h | 13 minicursos contínuos (recorte) | porta de entrada, ticket baixo; L8 mais importante | conversão e venda cruzada |
 | Grupo de estudos | 68665 (01/11/2026), 68666 (25/11/2026), 713 (anual) | L7 é a entrada no grupo e a presença; entrada tardia pesa em 713 (17 de 23 aulas já dadas em 26/10/2026, conta do CRO) | conversão por data de entrada no ciclo |
 | Espanhol | 347, 501 | revisão por falante nativo antes de medir [CONFIRMAR] | fora da primeira leitura |

@@ -77,7 +77,7 @@ Achados (fatos de data; a conclusão é hipótese):
 - 68614 e 623 são de endoscopia e videotoscopia (área A5, junto com a Pós 68604): se a data de 68614 for 28/11, as duas têm a mesma data de curso e janelas iguais.
 - 623 recebeu 3 novos criativos em 21/10/2026 (comentário da visão na linha dela). É o único marco datado de mudança de criativo em Livres.
 
-Correção de referência: o analista-de-dados cita "V48, 21/10/26" na seção 4.4 do arquivo dele; a linha da visão com esse comentário é a de 623 (V40 na contagem dele). Nota feita aqui, sem alterar o arquivo dele.
+Referência: o analista-de-dados, na versão corrigida, cita V40 para o comentário de 21/10/26, que é a linha de 623, em acordo com esta análise.
 
 ### 1.4 Formatos e ângulos em uso
 
@@ -168,7 +168,7 @@ Ritmo necessário em presenciais: (vagas totais menos vagas preenchidas) dividid
 
 | Campanha | Checar (além de L1) | Critério |
 |---|---|---|
-| 68618 Ventilação Mecânica Aplicada à Anestesia (18/12/2026 no catálogo, 22/05/2027 na visão; 17 h; R$ 1.710,00 à vista ou 1x de R$ 1.800,00 no cartão) | qual data é a certa (P6); o motivo da pausa; vínculo com a Pós 352 (Ventilação Mecânica, 24/05/2027) e o curso gravado 507 | Sem data certa, R1: não reativar. Se for 18/12/2026, a campanha está fora da janela atual, e o pedido de reativação (R7) precisa de decisão rápida, porque a janela de 8 semanas abriu em 23/10. Se for 22/05/2027, manter pausada até 27/03/2027. |
+| 68618 Ventilação Mecânica Aplicada à Anestesia (18/12/2026 no catálogo, 22/05/2027 na visão; 17 h; R$ 1.710,00 à vista ou 1x de R$ 1.800,00 no cartão) | qual data é a certa (P6); o motivo da pausa; vínculo com a Pós 352 (Ventilação Mecânica, 24/05/2027) e o curso gravado 507 | Sem data certa, R1: não reativar. Se for 18/12/2026, a campanha está pausada dentro da janela de 8 semanas (aberta em 23/10), como diz a seção anterior, e o pedido de reativação (R7) precisa de decisão rápida, porque a janela de 8 semanas abriu em 23/10. Se for 22/05/2027, manter pausada até 27/03/2027. |
 | 592 Curso Teórico/Prático de bloqueio locorregional guiado por ultrassonografia, SP (01/08/2026, sem venda) | confirmar que não há anúncio ativo; destino sem compra | R2: manter pausada. Se houver anúncio ativo apontando para a página, pedido de PAUSA imediato. |
 | 99 Curso Prático de Imersão em Cirurgia, GO (26/09/2026, verificar) | idem; a mesma imersão tem turma em SP (433, 03/10) sem campanha; destino | R2: manter pausada. Reativação só com nova data confirmada pela Ufape. |
 | 68668 Aprimoramento Terapia Intensiva (19/10/2026 no catálogo, 01/10 na visão; 48 h; R$ 100,00) | data divergente (P6); ticket de R$ 100,00; se o aprimoramento é contínuo [CONFIRMAR] | R2 e R1: sem data e sem regra de entrada, manter pausada. Com o ticket de R$ 100,00, aplicar o teto lógico antes de qualquer reativação. |
