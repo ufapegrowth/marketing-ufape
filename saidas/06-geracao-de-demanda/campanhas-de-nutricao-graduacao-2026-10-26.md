@@ -970,6 +970,7 @@ Objetivo único: matrícula completa (documentos enviados) e permanência até o
 
 ### G1-M5-R (e-mail, 15/02/2027, versão para o representante legal)
 
+- Canal: e-mail (serviço, fora do teto D16)
 - Assunto A: Segunda-feira, 22/02/2027: começam as aulas de {nome_candidato}
 - Assunto B: Para o representante legal: a semana de início de {nome_candidato}
 - Texto de pré-visualização: Local, horário e documentos pendentes, num e-mail só.
