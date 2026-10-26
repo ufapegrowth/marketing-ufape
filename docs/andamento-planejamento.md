@@ -45,7 +45,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
-| 1.20 | estrategia-social | pos, livres, eventos | pos CORRIGIR (qa lote A, SP1); eventos entregue (sem qa); livres em execução |
+| 1.20 | estrategia-social | pos, livres, eventos | pos CORRIGIR (qa lote A, SP1); eventos e livres entregues (sem qa) |
 | 1.21 | youtube | pos, livres | falta |
 | 1.22 | podcast, x | geral | falta |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
@@ -76,7 +76,7 @@ Segue as dependências da seção 4 do plano do cmo.
 
 - Calendário de mídia das provas revisto na 1.11 pos (PP3: 40%, 35% e 25%, pico de 03/11 a 09/11).
 - Datas da mídia do workshop: RESOLVIDO na 1.11 de eventos (pedido EVM1, aguarda aprovação humana): criativos 1 e 2 em 03/11, mudança do frio em 10/11, presencial pausa em 18/11 às 23h59, transmitido até 19/11. Memorando, estrategia-de-campanha-eventos e criativos-de-anuncio-eventos ficam com notas para atualizar.
-- Grade do @ufapevet: a 1.20 de eventos propõe teto de 2 posts por dia e 10 por semana somando as quatro linhas [SUPOSIÇÃO]; em 06/11 Pós e Graduação já somam 3. O cmo aprova a grade.
+- Grade do @ufapevet: a 1.20 de eventos propõe teto de 2 posts por dia e 10 por semana somando as quatro linhas [SUPOSIÇÃO]; em 06/11 Pós e Graduação já somam 3. A 1.20 de livres usa outro teto de referência, 7 por semana [SUPOSIÇÃO], e mostra S2 a S4 acima dele mesmo com cortes (propostas G1 a G5). Os dois tetos se contradizem: o cmo decide a grade e o teto.
 - Mídia da Pós (1.13): YouTube contado duas vezes no plano do gestor (EM8), diárias de 289 e 662 sem frente (EM9), teste de LinkedIn curto (EM10).
 - Relacionamento de Livres: choques NL1 a NL7; de 02/11 a 29/11 quem está nas provas só recebe Livres por WhatsApp em 09, 11 e 13/11; a 1.9 de Livres propõe teto menor que o da Pós.
 - analise-de-campanha-livres marca relatório em 02/11 (feriado); gestor de Livres usa 03/11.
@@ -88,8 +88,9 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Lote B em execução: 1.11 livres e eventos, 1.20 livres e eventos, 1.26 livres, 1.12 pos, 1.13 pos, mais o qa-de-marketing das 6 saídas do lote A (arquivo qa-de-marketing-geral-2026-10-26-loteA.md). Se a sessão cair, confira quais arquivos existem e rode de novo só os que faltam (um arquivo pela metade deve ser refeito).
-2. Lote C.
+1. Lote C em execução: 1.12 livres e eventos, 1.13 livres, 1.21 youtube pos e livres, 1.22 podcast e x, 1.24 distribuicao pos e livres, 1.25 crescimento-de-audiencia, 1.27 jornada-do-aluno. Em paralelo, correções pedidas pelo qa do lote A em estrategia-social-pos (SP1) e newsletter-geral (NG1, NG2). Se a sessão cair, confira quais arquivos existem e rode de novo só os que faltam (arquivo pela metade é refeito).
+2. Depois do lote C: rodada do cmo para decidir os conflitos da seção acima; qa do lote B e do lote C.
+3. Lote D e lote E.
 
 ## Diário
 
@@ -104,3 +105,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.11 pos entregue (metas como fórmula, tetos só com preços do catálogo, divisão de verba em percentuais [SUPOSIÇÃO], PP1 a PP14). Lote A concluído. Lote B iniciado |
 | 26/10/2026 | 1.12 pos entregue: 14 campanhas ativas, 8 com bloqueio estrutural (turma iniciada ou página errada); roteiro de leitura para quando os números chegarem; pedidos A1 a A5 |
 | 26/10/2026 | Lote B (menos 1.20 livres) entregue: 1.11 livres e eventos, 1.13 pos, 1.20 eventos, 1.26 livres, 1.12 pos. qa do lote A: 4 aprovados com ajustes, estrategia-social-pos e newsletter-geral voltam para correção |
+| 26/10/2026 | 1.20 livres entregue. Lote B concluído. Lote C e correções do lote A iniciados |
