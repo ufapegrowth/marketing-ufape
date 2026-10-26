@@ -3,8 +3,8 @@
 - Agente: pesquisa-de-persona (departamento 01, Inteligência de Mercado), etapa 1.4 da camada 1
 - Linha: livres
 - Data: 26/10/2026
-- Status: rascunho para o qa-de-marketing (auditoria 01-qualidade-de-pesquisa, resultado na seção 7, e auditorias/conformidade-educacional.md, ainda por rodar nas peças). Nada publicado, enviado ou pago.
-- Entradas lidas: docs/execucao-2026-10-26.md, CLAUDE.md, contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/eventos.md (só para a fronteira entre linhas), templates/persona.md, auditorias/01-qualidade-de-pesquisa.md, auditorias/conformidade-educacional.md, contexto/catalogo-de-cursos.md (seções 1 a 9), saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-livres-2026-10-26.md, saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-livres-2026-10-26.md, saidas/01-inteligencia-de-mercado/insights-de-alunos-livres-2026-10-26.md, saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2 e 3 e as seções 4, 5 e 7 de apoio). Fichas de curso lidas por este agente: contexto/cursos/livres/573, 68614, 454, 644 e 347.
+- Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md, itens L1, L2 e L5). Nada publicado, enviado ou pago. Resultado da auditoria 01 na seção 7; auditorias/conformidade-educacional.md ainda por rodar nas peças.
+- Entradas lidas: docs/execucao-2026-10-26.md, CLAUDE.md, contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/eventos.md (só para a fronteira entre linhas), templates/persona.md, auditorias/01-qualidade-de-pesquisa.md, auditorias/conformidade-educacional.md, contexto/catalogo-de-cursos.md (seções 1 a 9), saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-livres-2026-10-26.md, saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-livres-2026-10-26.md, saidas/01-inteligencia-de-mercado/insights-de-alunos-livres-2026-10-26.md, saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2 e 3 e as seções 4, 5 e 7 de apoio), veredito do qa-de-marketing citado acima. Fichas de curso lidas por este agente: contexto/cursos/livres/573, 68614, 454, 644 e 347.
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web nesta rodada: todo dado externo vem dos arquivos 1.1 e 1.2 do mesmo dia, que se apoiam em resumos de busca (limite herdado, dito onde pesa).
 
 ---
@@ -28,13 +28,13 @@ Critérios: aderência (quanto a oferta aberta e datada sustenta a persona) e fa
 
 | Ordem | Persona | Formato | Itens abertos no catálogo | Aderência | Alcance | Papel |
 |---|---|---|---|---|---|---|
-| 1 | P-L1 Clínico que quer incorporar uma técnica na rotina | Presencial hands-on (1 a 3 dias) | 573, 68614, 623 e 68637, 616, 68618, 68638, 560 | Alta: é a persona principal do contexto da linha e tem 3 datas dentro da onda 1 | Média a baixa: viagem, fim de semana inteiro, ticket de R$ 890,00 a R$ 2.950,00 | Principal |
-| 2 | P-L2 Clínico que estuda no próprio horário | Online gravado | 22 contínuos | Média: 22 itens, mas sem página que diga o que entrega a mais que o conteúdo gratuito | Alta: venda contínua, de R$ 96,00 a R$ 4.060,80 | Secundária |
+| 1 | P-L1 Clínico que quer incorporar uma técnica na rotina | Presencial hands-on (1 a 3 dias) | 573, 68614, 623 e 68637, 616, 68618, 68638, 560 | Alta: é a persona principal do contexto da linha e tem 3 cursos (4 códigos) com data em 14/11 e 28/11/2026, dentro da onda 1 | Média a baixa: viagem, fim de semana inteiro, ticket de R$ 890,00 a R$ 2.950,00 | Principal |
+| 2 | P-L2 Clínico que estuda no próprio horário | Online gravado | 21 itens contínuos (o 95, de auxiliar, fica fora desta persona) | Média: 21 itens, mas sem página que diga o que entrega a mais que o conteúdo gratuito | Alta: venda contínua, de R$ 96,00 a R$ 4.060,80 | Secundária |
 | 3 | P-L3 Quem testa uma área em 8 horas | Minicurso de 8 h | 13 contínuos | Média | Alta: de R$ 185,00 a R$ 300,00 | Porta de entrada (secundária de apoio) |
 | 4 | P-L4 Quem quer atualização contínua e discussão de casos | Grupo de estudos | 10 | Média | Alta: R$ 100,00 (entrada) ou R$ 734,00 (anual) | Terciária |
 | 5 | P-L5 Veterinário hispanofalante | Curso em espanhol | 347 e 501 (Lima presencial 575 e 605 em pendência) | Baixa: evidência mais fraca | Baixa: pagamento só Pix, boleto e cartão em reais, revisão nativa pendente | Teste, não campanha |
 
-Escolha: persona principal P-L1, secundária P-L2. Motivo (todo [SUPOSIÇÃO], sem dado de funil): P-L1 é a persona que o contexto da linha define como principal e é a única com datas na onda 1 (573 em 14/11, faltam 19 dias; 68614 e 623 em 28/11, faltam 33 dias). P-L2 e P-L3 são mais fáceis de alcançar e de maior volume possível.
+Escolha: persona principal P-L1, secundária P-L2. Motivo (todo [SUPOSIÇÃO], sem dado de funil): P-L1 é a persona que o contexto da linha define como principal e é a única com datas na onda 1 (573 em 14/11, faltam 19 dias; 68614 e 623 em 28/11, faltam 33 dias: são 2 datas para 3 cursos e 4 códigos). P-L2 e P-L3 são mais fáceis de alcançar e de maior volume possível.
 
 Ação de teste: se o CRM mostrar que a maior parte da receita da linha vem de minicurso e gravado, trocar a principal por P-L2. Pedir ao analista-de-dados vendas agregadas por formato nos últimos 6 meses (insights 1.3, pedido 9) [CONFIRMAR].
 
@@ -62,7 +62,7 @@ PERFIL DE PERSONA
 - Momento de vida, escolaridade e profissão: médico veterinário formado, que atende pequenos animais em clínica ou hospital, e quer dominar um procedimento, exame ou equipamento [SUPOSIÇÃO, contexto cursos-livres.md]. A página de 573 diz o público: "Médicos Veterinários que buscam aprimorar suas habilidades e oferecer o que há de melhor em diagnóstico por imagem para seus pacientes". Faixa de tempo de formado: sem dado. Estudante do último ano aparece como público possível na ficha de 68614 (FAQ), com fundamento em clínica médica de pequenos animais.
 - Gatilho que faz procurar um curso agora [SUPOSIÇÃO]: (a) comprou ou vai comprar um equipamento (otoscópio de vídeo, ultrassom, endoscópio); (b) quer oferecer um serviço novo (ecocardiograma, eletroquimioterapia); (c) caso difícil que ele não resolveu. Sustenta: 68614 ("desejam incorporar otoscopia, video-otoendoscopia e lavagem otológica na rotina clinica"), 573 (objetivo de realizar cortes ecocardiográficos "com segurança e precisão"), 560 (insights L-A10.1, serviço novo).
 - Dor antes de estudar [SUPOSIÇÃO, formulação provável, não é citação]: *tenho o equipamento ou o caso, mas não me sinto seguro para fazer sozinho, e só ver vídeo não me dá a mão.* Sustenta: 68614 ("ganhar segurança no diagnostico"), 573 (insights L-A2.1), 68614 (otite como síndrome multifatorial, insights L-A5.1).
-- Resultado esperado depois do curso [SUPOSIÇÃO, formulação provável, não é citação]: *fazer o exame ou procedimento na minha clínica já na semana seguinte, com segurança, e cobrar por isso.* Sustenta: contexto da linha ("aplicar na rotina na semana seguinte") e 573 ("realizar cortes ecocardiográficos básicos com segurança e precisão"). "Cobrar por isso" é inferência [SUPOSIÇÃO].
+- Resultado esperado depois do curso [SUPOSIÇÃO, formulação provável, não é citação]: *fazer o exame ou procedimento na minha clínica já na semana seguinte, com segurança, e cobrar por isso.* Sustenta: contexto da linha ("aplicar na rotina na semana seguinte") e 573 ("realizar cortes ecocardiográficos básicos com segurança e precisão"). "Cobrar por isso" é inferência [SUPOSIÇÃO] e não vira promessa de renda em peça.
 - Alternativa atual (nomeada pela concorrência, 1.2 de 26/10/2026):
   - Congresso de especialidade de um dia em São Paulo: Animal Health Science Ecosystem (C4, Expo Center Norte, ingresso e datas sem fonte); Medvep (C5, Curitiba, 23 a 25/07/2026, já ocorreu); congresso da Anclivepa (C3, novembro de 2026, sem fonte oficial).
   - Treinamento do fabricante do equipamento [SUPOSIÇÃO, sem fonte].
@@ -102,7 +102,7 @@ PERFIL DE PERSONA
 PERFIL DE PERSONA
 - Linha de negócio: Cursos Livres, formato online gravado.
 - Nome do segmento: Clínico com pouco tempo que estuda no próprio horário e quer uma resposta pontual.
-- Cursos do catálogo (aberto, contínuo): 22 itens de R$ 96,00 (602, 4 h) a R$ 4.060,80 (131, 72 h). Três degraus de preço:
+- Cursos do catálogo (aberto, contínuo): 21 itens de R$ 96,00 (602, 4 h) a R$ 4.060,80 (131, 72 h), contados pela lista abaixo. O 22º contínuo do bloco de online do catálogo é o 95 (Auxiliar Veterinário), que fica fora desta persona. Três degraus de preço:
   - Ferramenta curta: 602 (R$ 96,00), 104 (R$ 140,00), 541 (R$ 148,00), 106 (R$ 159,00), 542 (R$ 165,00), 102 (R$ 170,50).
   - Curso médio de 5 a 54 h: 107 (R$ 252,00), 395 (R$ 235,00), 291 (R$ 280,00), 591 (R$ 384,00), 411 (R$ 420,00), 507 (R$ 489,00), 157 (R$ 570,00), 340 (R$ 580,00), 655 (R$ 720,00), 627 (R$ 980,00), 105 (R$ 1.440,00), 103 (48 h, R$ 1.488,00).
   - Aprimoramento longo de 72 a 147 h: 137 (R$ 3.519,00), 488 (preparatório para prova de título, R$ 3.150,00), 131 (R$ 4.060,80).
@@ -184,7 +184,7 @@ PERFIL DE PERSONA
 ### P-L5. Curso em espanhol (Lima e América Latina)
 
 PERFIL DE PERSONA
-- Linha de negócio: Cursos Livres, cursos em espanhol (editores nativos pendentes).
+- Linha de negócio: Cursos Livres, cursos em espanhol (revisão por falante nativo pendente).
 - Nome do segmento: Veterinário hispanofalante que quer atualização com docente brasileiro.
 - Cursos do catálogo: 347 Curso de Felinos (Espanhol), gravado, 25 h, R$ 580,00 ou 10x de R$ 75,00 (R$ 750,00), aberto contínuo, acesso de 120 dias (ficha); 501 Cálculo de medicamentos em bolus e infusão contínua, gravado com legenda em espanhol, 6 h, R$ 260,00 (1x no cartão), aberto contínuo. Presenciais em Lima: 575 (72 h, R$ 6.840,00, turma de 24/05/2025) e 605 (72 h, R$ 8.208,00, turma de 01/11/2025), ambos "verificar" (iniciados e à venda), em pendência. Divergências com os equivalentes em português: 347 tem 25 h e 340 tem 23 h; 501 tem R$ 260,00 e 6 h e 602 tem R$ 96,00 e 4 h [CONFIRMAR NO CATÁLOGO].
 - Momento de vida, escolaridade e profissão: médico veterinário clínico em Lima, no Peru, ou em outro país latino-americano; graduandos também (347: "Graduandos e Médicos veterinários") [SUPOSIÇÃO]. Tamanho do público: sem fonte. O Colegio Médico Veterinario del Perú opera com normas de 1966 (LP Derecho, via 1.1); número de colegiados em Lima: sem fonte.
@@ -302,12 +302,12 @@ Próximo agente sugerido: posicionamento (etapa 1.7).
 | As suposições estão marcadas com [SUPOSIÇÃO] | Atendido | Gatilho, dor, resultado, decisor, canais, desqualificação e ponte para a Pós estão marcados |
 | As citações de candidatos e alunos são literais e anonimizadas | Atendido por ausência | 0 citações. As formulações em itálico estão rotuladas como hipótese, não citação. Voz da página é da Ufape, não de candidato |
 | Os dados de concorrentes são públicos e datados | Atendido, com ressalva | Tabela da seção 4 com data. Preço de concorrente brasileiro: sem fonte. Páginas de origem não foram reabertas |
-| Os números de mercado mostram faixa mínima e máxima | Atendido, onde há dado | O universo de veterinários (154,9 mil a 182,3 mil em atividade) está na pesquisa 1.1; aqui só há faixas de preço do catálogo. Tamanho de cada persona: sem fonte |
-| A persona é baseada em alunos e candidatos reais | NÃO ATENDIDO | Não há voz real. As cinco personas são hipóteses sustentadas por catálogo, fichas e concorrência. Marcado no cabeçalho e na seção 0 |
+| Os números de mercado mostram faixa mínima e máxima | Atendido, onde há dado | O universo de veterinários está na pesquisa 1.1 e é separado por critério e data, porque as fontes divergem. Registrados: 154,9 mil (Forbes Brasil, 2021), mais de 180 mil (blog contábil, 2026, sem fonte própria) e quase 240 mil (AviNews, 09/09/2025). Em atividade: 182,3 mil (AviNews, 09/09/2025). Nenhum desses números entra em peça. Aqui só há faixas de preço do catálogo. Tamanho de cada persona: sem fonte |
+| A persona é baseada em alunos e candidatos reais | NÃO ATENDIDO | Não há voz real. As cinco personas são hipóteses sustentadas por catálogo, fichas e concorrência. Marcado no cabeçalho e na seção 0. Depende de a Ufape enviar dados |
 | As conclusões terminam em ações, não apenas em observações | Atendido | Seção 6 |
 | A pesquisa cobre uma única linha e não mistura públicos | Atendido, com ressalva | Só Livres. A ponte para a Pós é pedida na tarefa e aparece só como hipótese, por persona. 700 e 202 ficam no arquivo de Eventos (o catálogo os lista na seção de simpósios dos Livres, o plano do cmo os põe em Eventos) |
 
-Conformidade educacional (checagem própria, a oficial é do qa-de-marketing sobre as peças): nenhum dado de curso fora do catálogo ou da ficha; dado só da ficha marcado [CONFIRMAR NO CATÁLOGO]; sem "certificado pelo MEC", sem nota MEC, sem promessa de emprego, aprovação ou renda; sem "últimas vagas" nem urgência; sem dado pessoal nem nome de docente; curso livre sem diploma dito nas personas. Resultado desta pesquisa: pronta para o qa-de-marketing, com o item "persona baseada em alunos e candidatos reais" em aberto até chegarem os dados.
+Conformidade educacional (checagem própria, a oficial é do qa-de-marketing sobre as peças): nenhum dado de curso fora do catálogo ou da ficha; dado só da ficha marcado [CONFIRMAR NO CATÁLOGO]; contagens corrigidas conforme o veredito do QA (2 datas para 3 cursos e 4 códigos; 21 gravados); sem "certificado pelo MEC", sem nota MEC, sem promessa de emprego, aprovação ou renda; sem "últimas vagas" nem urgência; sem dado pessoal nem nome de docente; curso livre sem diploma dito nas personas. Resultado desta pesquisa: pronta para nova conferência do qa-de-marketing, com o item "persona baseada em alunos e candidatos reais" em aberto até chegarem os dados.
 
 ---
 
@@ -317,7 +317,7 @@ Conformidade educacional (checagem própria, a oficial é do qa-de-marketing sob
 2. 573: 14 e 15/11/2026, 16 h de prática e 12 h de teoria gravada por 6 meses, texto de pagamento com "carta de crédito" e boleto por e-mail, "turma reduzida" sem número. Fonte: contexto/cursos/livres/573-curso-hands-on-de-ecocardiografia-veterinaria-basica-sao-paulo.md (26/10/2026).
 3. 68614: turma de 15 a 30 alunos, 1 equipamento para cada 3 participantes, prática em pacientes reais e hands-on em modelo, cancelamento até 30 dias antes com devolução total, FAQ sobre experiência e estudante do último ano. Fonte: contexto/cursos/livres/68614-curso-livre-em-videotoscopia.md (26/10/2026).
 4. 454: público "Médicos Veterinários e Graduandos em Medicina Veterinária", curso gravado, dúvidas por e-mail mediado pela secretaria. Fonte: ficha 454 (26/10/2026).
-5. 644: encontros a cada 15 dias, liberação após sete dias úteis, aulas demonstrativas por 30 dias, desistência sem reembolso, WhatsApp, certificado mediante presença. Fonte: ficha 644 (26/10/2026).
+5. 644: encontros a cada 15 dias, liberação após sete dias úteis, aulas demonstrativas por 30 dias, desistência sem reembolso, WhatsApp, certificado mediante presença. Fonte: ficha 644 e catálogo, seção 7.
 6. 347: gravação em espanhol, 120 dias, dúvidas por e-mail. Fonte: ficha 347 (26/10/2026).
 7. Vetlove: lançada em março de 2026, inscrição gratuita, cursos de FGV e Anclivepa. Fonte: Mercado&Consumo, 10/03/2026 (via 1.1 e 1.2).
 8. Quadam: 280 a 420 EUR por curso, reembolso em 7 dias. Fonte: quadam.com, 26/10/2026 (via 1.2).
@@ -325,6 +325,8 @@ Conformidade educacional (checagem própria, a oficial é do qa-de-marketing sob
 10. Contexto da linha: ticket mediano cerca de R$ 720, curso livre não confere diploma. Fonte: contexto/cursos-livres.md (22/10/2026).
 11. Canais ativos por linha: plano do cmo, seção 5 (26/10/2026).
 12. Hipóteses das dúvidas por área: insights-de-alunos-livres-2026-10-26.md, seções 2 e 3 (todas [SUPOSIÇÃO] naquele arquivo; aqui só usadas como sustentação de hipótese).
+13. Universo de veterinários, por critério: registrados 154,9 mil (Forbes Brasil, 2021), mais de 180 mil (blog, 2026), quase 240 mil (AviNews, 09/09/2025); em atividade 182,3 mil (AviNews, 09/09/2025). Fonte: pesquisa-de-mercado-livres-2026-10-26.md, seção 3.1.
+14. Recorte de datas da onda 1: 573 em 14/11/2026; 68614, 623 e 68637 em 28/11/2026 (catálogo, seção 4).
 
 ## Lista B: suposições
 
@@ -351,5 +353,5 @@ Conformidade educacional (checagem própria, a oficial é do qa-de-marketing sob
 8. Autorização de imagem e voz de docentes [CONFIRMAR autorização].
 9. Meio de pagamento fora do Brasil, revisão nativa do espanhol e tamanho do público em Lima e América Latina: sem fonte.
 10. Preço público de concorrentes brasileiros de curso curto, ingressos e datas dos congressos de 2026 e 2027, mídia paga e redes dos concorrentes: sem fonte.
-11. Número de veterinários por área de atuação em São Paulo e Goiânia (CRMV-SP, CFMV) e concluintes de Medicina Veterinária (INEP): sem fonte.
+11. Número oficial de veterinários por critério (registrados e em atividade) e por área de atuação em São Paulo e Goiânia (CRMV-SP, CFMV), e concluintes de Medicina Veterinária (INEP): sem fonte.
 12. Onde o candidato está de fato (canais que mais trazem matrícula na linha): dado do CRM e da mídia paga [CONFIRMAR].
