@@ -47,6 +47,7 @@ Catálogo oficial (fonte única de dados de curso): contexto/catalogo-de-cursos.
 - Currículo dos professores e coordenadores, publicado nas páginas de curso.
 - Número de turmas já realizadas por pós (ex.: Terapia Intensiva na turma XI, Cardiologia na turma XI), que indica tradição. [Confirmar se pode ser usado como prova]
 - Depoimentos com autorização de uso de imagem e voz: [onde estão guardados]
+- Docentes: todos têm autorização de uso de imagem e de citação em materiais (decisão da Ufape em 26/10/2026). Nome e titulação só como estão na ficha do curso.
 - Parcerias e patrocinadores: [lista; as páginas têm um bloco "Patrocinadores e parceiros"]
 
 ## Canais
