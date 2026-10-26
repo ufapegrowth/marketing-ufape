@@ -3,8 +3,9 @@
 - Agente: lacunas-de-conteudo (departamento 03, SEO e Busca por IA), etapa 1.16 da camada 1
 - Linha: livres, cobrindo eventos (workshop de 20/11/2026 e gravados 700 e 202)
 - Data: 26/10/2026 (conferência das páginas e das buscas feita nesta data)
-- Status: rascunho para o qa-de-marketing (auditoria do departamento 03 e auditorias/conformidade-educacional.md, ainda por rodar). Nada foi publicado, enviado ou pago. Toda página, artigo ou ajuste abaixo é proposta para aprovação humana.
-- Entradas lidas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md (seções 4 a 9); saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-eventos-2026-10-26.md; saidas/01-inteligencia-de-mercado/analise-de-tendencias-geral-2026-10-26.md; saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md; .claude/skills/visibilidade-em-ia/SKILL.md; .claude/skills/agrupar-palavras-chave/SKILL.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2 e 3). Fichas lidas por este agente: contexto/cursos/livres/573, 68614, 623, 68665, 68666 e contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md. Buscas na web: 17 consultas em 26/10/2026 (fontes na Lista A).
+- Versão: 2, corrigida após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md, seção 2.4). Mudanças desta versão: (1) modalidade do catálogo mostrada item a item e formato renomeado para "cursos práticos com data", com 616 e 68618 fora do hub até a modalidade ser confirmada; (2) ventilação mecânica com duas palavras-chave distintas e decisão registrada; (3) carga horária e turma de 202 viram [CONFIRMAR NO CATÁLOGO]; (4) mapa de links e hubs mostram número e valor da parcela, além do total no cartão.
+- Status: rascunho para o qa-de-marketing (nova passagem). Nada foi publicado, enviado ou pago. Toda página, artigo ou ajuste abaixo é proposta para aprovação humana.
+- Entradas lidas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md (seções 4 a 9); saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-eventos-2026-10-26.md; saidas/01-inteligencia-de-mercado/analise-de-tendencias-geral-2026-10-26.md; saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md; .claude/skills/visibilidade-em-ia/SKILL.md; .claude/skills/agrupar-palavras-chave/SKILL.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2 e 3); veredito do qa-de-marketing (acima). Fichas lidas por este agente: contexto/cursos/livres/573, 68614, 623, 68665, 68666 e contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md. Buscas na web: 17 consultas em 26/10/2026 (fontes na Lista A).
 - Não abri faculdade.ufape.com.br. O blog existe, mas não tenho a lista de artigos [CONFIRMAR]. Por isso "falta" abaixo vale para páginas de produto e páginas do site conforme as fichas; artigo de blog que já exista pode cobrir parte das lacunas de conteúdo informativo.
 
 ---
@@ -14,10 +15,10 @@
 1. **Sinal mais forte desta rodada:** em 5 dos 5 temas em que a Ufape tem página (ecocardiografia hands-on 573, videotoscopia 68614, POCUS 591 e 68638, eletroquimioterapia 560, neuromonitorização no neuro-summit), a busca de 26/10/2026 disse que não achou curso brasileiro no tema e devolveu cursos do exterior ou artigos acadêmicos. Em 17 consultas, nenhuma página de faculdade.ufape.com.br apareceu entre os resultados devolvidos. Isso não prova ausência no Google (a ferramenta devolve poucos resultados e não é o Google), mas é indício de que as páginas não são encontradas hoje. Causas possíveis, todas [SUPOSIÇÃO]: página nova, texto que só aparece com JavaScript (ver seo-técnico, V4), páginas duplicadas por turma (C1) ou falta de conteúdo de apoio.
 2. **A lacuna que mais pesa na venda das próximas 5 semanas não é artigo, é a página de produto.** 573 (14/11, faltam 19 dias), neuro-summit (20/11, faltam 25), 623 e 68614 (28/11, faltam 33) e os grupos 68665 (01/11, faltam 6) e 68666 (25/11, faltam 30) têm objeções centrais sem resposta na página (vagas, prática por aluno, cancelamento, parcelamento, período dos R$ 100,00). Artigo novo publicado hoje leva semanas para ser indexado [SUPOSIÇÃO] e não vai mover a venda de 14/11 nem de 20/11.
 3. **Perguntas de assistente de IA que nenhuma página da Ufape responde (segundo as fichas):** "hands-on ou gravado, qual compensar" (ecocardiografia), "por onde começar em nefrologia ou dermatologia" (minicursos), "qual a diferença entre minicurso, curso livre e pós", "o que vale o certificado de curso livre", "o grupo de R$ 100,00 é por mês ou por ano", "BIS funciona em cães e gatos", "como é o processo de título de especialista em anestesiologia veterinária" e "auxiliar veterinário precisa de registro". Lista completa na seção 6.
-4. **Arquitetura proposta:** 6 páginas pilar por formato (presenciais, online gravado, minicursos, grupos de estudos, espanhol, eventos), 6 pilares por área onde há volume de itens (A1, A2, A3, A5, A7, A13), a própria página de produto como pilar nas demais áreas, 3 tipos de cluster que não se misturam (decisão, comparativa, informativo) e FAQ por tipo de página de produto (seção 10).
-5. **Onda 1:** 31 lacunas catalogadas, 6 delas de prioridade 1 (5 ajustes em páginas de produto existentes e 1 hub de presenciais), 15 de prioridade 2 e 10 de prioridade 3. Os 12 temas de artigo das 4 áreas da onda 1 (A2, A3, A5, A12) estão na seção 7.3.
+4. **Arquitetura proposta:** 6 páginas pilar por formato (cursos práticos com data, online gravado, minicursos, grupos de estudos, espanhol, eventos), 6 pilares por área onde há volume de itens (A1, A2, A3, A5, A7, A13), a própria página de produto como pilar nas demais áreas, 3 tipos de cluster que não se misturam (decisão, comparativa, informativo) e FAQ por tipo de página de produto (seção 10).
+5. **Onda 1:** 31 lacunas catalogadas, 6 delas de prioridade 1 (5 ajustes em páginas de produto existentes e 1 hub de cursos práticos), 15 de prioridade 2 e 10 de prioridade 3. Os 12 temas de artigo das 4 áreas da onda 1 (A2, A3, A5, A12) estão na seção 7.3.
 6. **Revisão de docente** é obrigatória em 22 das 31 lacunas (conteúdo clínico). Revisão de regulação ou jurídico em 5 (certificado, título de especialista, auxiliar veterinário, curso livre versus pós).
-7. **Bloqueios que dependem da Ufape, não da squad:** duplicidade 623 e 68637, data de 623 no site (01/08/2026 contra 28/11/2026 na planilha), carga horária do 68634 (24 h contra 16 h), data de início de 68665 (catálogo 01/11, agenda da ficha começa em 05/11), frase "selo do MEC" na página de 68614, texto oficial de certificação.
+7. **Bloqueios que dependem da Ufape, não da squad:** duplicidade 623 e 68637, data de 623 no site (01/08/2026 contra 28/11/2026 na planilha), carga horária do 68634 (24 h contra 16 h), data de início de 68665 (catálogo 01/11, agenda da ficha começa em 05/11), modalidade de 616 e de 68618, carga horária e turma de 202, frase "selo do MEC" na página de 68614, texto oficial de certificação.
 
 ---
 
@@ -31,6 +32,7 @@
 6. **Docentes sem nome.** Nenhum docente é nomeado neste arquivo (autorização de imagem e voz não registrada, P13).
 7. **Só cursos do catálogo.** Nenhuma página de curso nova é sugerida. As páginas novas propostas são páginas pilar (listagens e comparativas de itens do catálogo) e artigos.
 8. **Linha Eventos:** o contexto eventos.md está todo [CONFIRMAR] (preço típico, público, gatilho). As lacunas de eventos usam só a ficha do neuro-summit e os gravados 700 e 202, seguindo o recorte do plano do cmo.
+9. **Modalidade vem do catálogo, item a item.** Nenhum item é chamado de "presencial" por associação: 573 e 560 são semipresenciais, 616 está na seção de cursos online (modalidade "On-line", local "Presencial e Online") e 68618 não tem modalidade no catálogo.
 
 ---
 
@@ -59,9 +61,9 @@
 
 ### 3.1 Inventário por formato (catálogo, seções 4 a 9)
 
-| Formato | Itens no recorte | Página de produto | Hub ou pilar do formato | Conteúdo de apoio (guia, comparativa, artigo) |
+| Formato | Itens no recorte, com a modalidade do catálogo | Página de produto | Hub ou pilar do formato | Conteúdo de apoio (guia, comparativa, artigo) |
 |---|---|---|---|---|
-| Presencial hands-on (1 a 3 dias) | 573, 68614, 623, 68637, 616, 68618, 68638, 560 (8) | Existe para todos | Falta (a loja pode ter listagem por categoria [CONFIRMAR]) | Falta (blog [CONFIRMAR]) |
+| Cursos práticos com data | 573 (semipresencial), 68614 (presencial), 623 e 68637 (presencial), 68638 (presencial), 560 (semipresencial): 6 itens. Fora do hub até [CONFIRMAR NO CATÁLOGO]: 616 (catálogo, seção 5: modalidade "On-line", local "Presencial e Online") e 68618 (sem modalidade no catálogo) | Existe para todos | Falta (a loja pode ter listagem por categoria [CONFIRMAR]) | Falta (blog [CONFIRMAR]) |
 | Online gravado | 22 contínuos (488, 591, 102, 103, 507, 105, 627, 541, 106, 131, 137, 542, 95, 602, 411, 395, 104, 340, 655, 157, 291, 107) | Existe | Falta | Falta |
 | Minicurso de 8 h | 13 contínuos (454, 455, 458, 459, 461, 462, 463, 465, 466, 469, 482, 483, 669) | Existe (fichas só listam tópicos, segundo a pesquisa de persona) | Falta | Falta |
 | Grupo de estudos | 68665, 68666 (com data) e 8 contínuos (642, 643, 644, 712, 713, 720, 721, 68663) | Existe | Falta | Falta |
@@ -72,9 +74,9 @@
 
 | Página | O que já responde | O que falta ou está fraco |
 |---|---|---|
-| 573 Ecocardiografia hands-on (14/11) | Programação, 16 h de prática e 12 h de teoria gravada por 6 meses, animais reais, equipamentos, público | Sem FAQ. "Turma reduzida" sem número de vagas. Sem política de cancelamento. Texto de pagamento fala em "carta de crédito" e boleto por e-mail à secretaria. Horário aparece duas vezes e diverge (sábado 08h às 18h e, mais abaixo, 08h às 13h e 14h às 19h). Nada diz quantos alunos por equipamento nem se estudante pode participar. Datas diferem da visão de campanhas (14/11 contra 29/11, pendência P6) |
-| 68614 Videotoscopia (28 e 29/11) | FAQ completa, 15 a 30 alunos, 1 equipamento para cada 3, prática em pacientes reais e modelo, cancelamento até 30 dias antes com devolução total, bônus, estudante do último ano | Traz a frase "selo do Ministério da Educação (MEC)" no certificado, que a squad não repete (regulação precisa decidir). Janela de cancelamento de 30 dias fecha em 29/10 (cálculo do agente). Sem comparação com otoscopia convencional em linguagem de busca |
-| 623 e 68637 Endoscopia digestiva (28/11) | Cronograma, mínimo de 15, itens a levar (pijama cirúrgico, sapato fechado), aviso sobre passagem e turma que pode não abrir | Duas páginas para o mesmo curso (mesmo preço, 12 h, 28/11/2026). Página de 623 mostra 01 e 02/08/2026 no site. Sem FAQ, sem número de equipamentos nem de prática por aluno, só "Artigos científicos" como material. Reembolso só se a turma não for confirmada |
+| 573 Ecocardiografia hands-on (14/11, semipresencial) | Programação, 16 h de prática e 12 h de teoria gravada por 6 meses, animais reais, equipamentos, público | Sem FAQ. "Turma reduzida" sem número de vagas. Sem política de cancelamento. Texto de pagamento fala em "carta de crédito" e boleto por e-mail à secretaria. Horário aparece duas vezes e diverge (sábado 08h às 18h e, mais abaixo, 08h às 13h e 14h às 19h). Nada diz quantos alunos por equipamento nem se estudante pode participar. Datas diferem da visão de campanhas (14/11 contra 29/11, pendência P6) |
+| 68614 Videotoscopia (28 e 29/11, presencial) | FAQ completa, 15 a 30 alunos, 1 equipamento para cada 3, prática em pacientes reais e modelo, cancelamento até 30 dias antes com devolução total, bônus, estudante do último ano | Traz a frase "selo do Ministério da Educação (MEC)" no certificado, que a squad não repete (regulação precisa decidir). Janela de cancelamento de 30 dias fecha em 29/10 (cálculo do agente). Sem comparação com otoscopia convencional em linguagem de busca |
+| 623 e 68637 Endoscopia digestiva (28/11, presencial) | Cronograma, mínimo de 15, itens a levar (pijama cirúrgico, sapato fechado), aviso sobre passagem e turma que pode não abrir | Duas páginas para o mesmo curso (mesmo preço, 12 h, 28/11/2026). Página de 623 mostra 01 e 02/08/2026 no site. Sem FAQ, sem número de equipamentos nem de prática por aluno, só "Artigos científicos" como material. Reembolso só se a turma não for confirmada |
 | Neuro-summit (20 e 21/11) | Grade por hora, FAQ de 6 perguntas, 30 vagas, público, certificado conforme presença, cupom para aluno e ex-aluno | Parcelamento do presencial, quais monitores e quantos por grupo, vagas restantes, regra do cupom para aluno de pós, inscrição em grupo e nota fiscal. Convidados "a definir". Produto 68634 com 24 h e local "Saiba Mais" concorre com a página do evento |
 | 68665 Grupo de Cardiologia e Ecocardiografia (início 01/11 no catálogo) | Agenda de encontros de nov/2026 a dez/2027, formato (a cada 15 dias, gravado), WhatsApp, prazos de gravação | Sem FAQ. Agenda começa em 05/11, catálogo diz 01/11 [CONFIRMAR]. Não diz o que os R$ 100,00 cobrem (período). Desistência sem reembolso aparece no fim do texto |
 | 68666 Grupo de Clínica Médica e Emergência (25/11) | Agenda de 12 módulos até nov/2027 | Sem FAQ. Período coberto pelos R$ 100,00 não explícito. Docente "a definir" em um encontro |
@@ -97,7 +99,7 @@
 | Videotoscopia | Só artigos acadêmicos (estudo SciELO: vídeo-otoscopia achou ácaros em 59,42% dos condutos contra 39,13% da otoscopia convencional; dissertação da UFRRJ sobre gatos). Nenhum curso achado | Sim, 68614 | S13, S14 |
 | POCUS em emergência | Cursos no exterior (VetPD no Reino Unido, £ 1.125, setembro de 2026; Veterinær Akademiet, Dinamarca, 10/09/2027). Brasil: só trabalho acadêmico | Sim, 591 (gravado) e 68638 (06/03/2027) | S10, S11 |
 | Eletroquimioterapia | Um curso na Universidad Austral de Chile (expositor brasileiro, USD 180, edição anterior). Brasil: só TCCs e relatos | Sim, 560 (22/05/2027) | S12 |
-| Ventilação mecânica na anestesia | Aula gravada em inglês por US$ 19 (Vetshow Academy), curso de R$ 97 de ventilação que não deixa claro se é veterinário, monografia da UFMG. Nenhum curso brasileiro veterinário claro | Sim, 507 (gravado) e 68618 (18/12/2026) | S15, S16 |
+| Ventilação mecânica na anestesia | Aula gravada em inglês por US$ 19 (Vetshow Academy), curso de R$ 97 de ventilação que não deixa claro se é veterinário, monografia da UFMG. Nenhum curso brasileiro veterinário claro | Sim, 507 (gravado) e 68618 (18/12/2026, modalidade [CONFIRMAR NO CATÁLOGO]) | S15, S16 |
 | Neuromonitorização | Artigos (PMC, VIN, revisão da Revista Brasileira de Anestesiologia de 2009 que alerta para limitações do BIS). Nenhum workshop veterinário brasileiro achado | Sim, neuro-summit | S17, S18, S19 |
 | Hemogasometria | Curso ao vivo no Zoom (Sympla, 16 h, 2ª turma em 19 e 26/09/2026, certificado de participação, e-book e 1 ano de gravações); material gratuito da UNESP; e-book em espanhol (Hotmart) | Sim, 655 e 107 (gravados) | S8, S9, S36 |
 | Cálculo de CRI e bolus | Material da IDEXX, calculadoras online (Vet Radar), artigos do VIN. Nenhum curso brasileiro achado | Sim, 602 (R$ 96,00) e 501 (espanhol) | S29, S30 |
@@ -118,7 +120,7 @@ Leitura: o espaço "curso prático brasileiro com data" parece pouco ocupado nos
 
 Convenção: "Existe", "Fraca" ou "Falta" refere-se a páginas de produto e do site segundo as fichas. IDs L01 a L31 são as lacunas da tabela consolidada (seção 12). Redação das consultas é [SUPOSIÇÃO] (sem Search Console).
 
-### 5.1 Presencial hands-on (P-L1, itens 573, 68614, 623, 68637, 616, 68618, 68638, 560)
+### 5.1 Cursos práticos com data (P-L1: 573 e 560 semipresenciais; 68614, 623, 68637 e 68638 presenciais; 616 e 68618 pendentes de modalidade)
 
 **Intenções do veterinário [SUPOSIÇÃO de redação, sem volume]:**
 
@@ -128,13 +130,13 @@ Convenção: "Existe", "Fraca" ou "Falta" refere-se a páginas de produto e do s
 | Comparativa | "curso de ecocardiografia presencial ou online", "quanto de prática tem um curso hands-on", "curso prático de endoscopia vale a pena", "curso hands-on ou congresso" |
 | Transacional | "curso de ecocardiografia veterinária São Paulo 2026", "curso de videotoscopia veterinária", "curso de endoscopia digestiva cães e gatos", "curso de eletroquimioterapia veterinária" |
 
-**O que a Ufape tem:** 8 páginas de produto (seção 3.2). 68614 é a mais completa; 573 e 623 e 68637 têm lacunas de objeção. Sem pilar de formato, sem guia de logística (viagem, hospedagem, o que levar, cancelamento).
+**O que a Ufape tem:** 6 páginas de produto com modalidade confirmada no catálogo (seção 3.2), mais 616 e 68618, que ficam fora do hub até a modalidade ser confirmada. 68614 é a mais completa; 573, 623 e 68637 têm lacunas de objeção. Sem pilar de formato, sem guia de logística (viagem, hospedagem, o que levar, cancelamento).
 
 **O que concorrentes cobrem:** cursos práticos no exterior e conteúdo acadêmico (seção 4). Brasil: nenhum curso prático de data e preço achado nos temas buscados.
 
 **Lacunas:** L01, L03, L04, L06, L08, L09, L10, L11, L20, L21, L23, L30, L31.
 
-**Arquitetura:** pilar de formato (L06) com tabela dos itens do catálogo (data, local, carga horária, preço à vista e total no cartão, política de cancelamento), seção "como funciona um curso hands-on" e FAQ geral. Cada curso é pilar do próprio cluster de decisão. Artigos informativos por tema linkam para o curso.
+**Arquitetura:** pilar de formato (L06) com tabela dos itens do catálogo (data, local, modalidade conforme o catálogo, carga horária, preço à vista, número e valor da parcela, total no cartão, política de cancelamento), seção "como funciona um curso prático" e FAQ geral. Cada curso é pilar do próprio cluster de decisão. Artigos informativos por tema linkam para o curso. 616 e 68618 entram na tabela só depois de [CONFIRMAR NO CATÁLOGO] a modalidade.
 
 ### 5.2 Online gravado (P-L2, 22 contínuos)
 
@@ -208,7 +210,7 @@ Convenção: "Existe", "Fraca" ou "Falta" refere-se a páginas de produto e do s
 | Comparativa | "congresso ou workshop de anestesia veterinária 2026", "curso de monitorização anestésica veterinária" |
 | Transacional | "workshop de neuromonitorização veterinária São Paulo", "congresso paciente grave gravação", "simpósio de coagulação veterinária" |
 
-**O que a Ufape tem:** página do neuro-summit (a mais completa em programação), produto 68634 (transmitido e gravado) e os gravados 700 (R$ 780,00; carga horária, idioma e certificado não constam) e 202 (R$ 285,00, 8 h, "com tradução"; a página traz "PROMOÇÃO VÁLIDA POR TEMPO LIMITADO" sem data, que a squad não repete).
+**O que a Ufape tem:** página do neuro-summit (a mais completa em programação), produto 68634 (transmitido e gravado) e os gravados 700 (R$ 780,00; carga horária, idioma e certificado não constam) e 202 (R$ 285,00; carga horária de 8 h e turma III vêm só da ficha [CONFIRMAR NO CATÁLOGO]; "com tradução" na página; a página traz "PROMOÇÃO VÁLIDA POR TEMPO LIMITADO" sem data, que a squad não repete).
 
 **O que concorrentes cobrem:** nenhum evento dedicado a neuromonitorização veterinária no Brasil achado; artigos científicos cobrem o tema. Congressos de um dia e conteúdo gratuito concorrem com 700 e 202 (pesquisa de mercado).
 
@@ -220,21 +222,21 @@ Convenção: "Existe", "Fraca" ou "Falta" refere-se a páginas de produto e do s
 
 ## 6. Perguntas a assistentes de IA
 
-Perguntas do jeito que o veterinário digita, escritas por este agente [SUPOSIÇÃO de redação]. "Busca 26/10" = o que a ferramenta de busca devolveu na data, resumo, páginas não abertas; "não pesquisada" = não consultei nesta rodada. "Ufape responde?" usa só as fichas (blog [CONFIRMAR]). CM = conferir manualmente (assistentes não foram consultados).
+Perguntas do jeito que o veterinário digita, escritas por este agente [SUPOSIÇÃO de redação]. "Busca 26/10" = o que a ferramenta de busca devolveu na data, resumo, páginas não abertas; "não pesquisada" = não consultei nesta rodada. "Ufape responde?" usa só as fichas (blog [CONFIRMAR]). CM = conferir manualmente (assistentes não foram consultados). A coluna "Formato e área" traz a modalidade do catálogo.
 
 ### 6.1 Tabela de perguntas
 
 | ID | Pergunta | Formato e área | Estágio | Busca 26/10 | Ufape responde? (fichas) | Assistentes | Correção mais rápida | Rev. |
 |---|---|---|---|---|---|---|---|---|
-| Q01 | Qual curso de ecocardiografia veterinária hands-on em São Paulo? | Presencial, A2 | Solução | Sem curso brasileiro; só exterior (S1, S2, S3). Ufape não apareceu | Parcial: 573 existe, sem cidade no H1 de busca, sem FAQ | CM | L01: primeira frase com curso, cidade, data e carga horária; FAQ | C |
-| Q02 | Vale a pena fazer ecocardiografia presencial ou só o curso gravado? | Presencial e gravado, A2 | Comparação | Nenhuma comparativa achada | Não: 573 e 411 não se comparam | CM | L08 | D |
-| Q03 | Quanto custa um curso de ecocardiografia veterinária? | Presencial, A2 | Decisão | Exterior em libras (S1); Brasil sem dado | Parcial: 573 traz R$ 2.350,00 à vista e 10x de R$ 303,00 (catálogo); não mostra o total no cartão nem compara com o gravado | CM | L01: tabela de preço com total no cartão (cálculo: R$ 3.030,00) | C |
-| Q04 | Curso de videotoscopia para otite em cães e gatos | Presencial, A5 | Solução | Só artigos acadêmicos (S13, S14); nenhum curso. Ufape não apareceu | Sim: 68614 tem FAQ completa. Falta resposta ao "vale a pena sobre otoscopia convencional" | CM | L10 | D |
-| Q05 | Preciso de experiência para fazer curso de endoscopia digestiva? | Presencial, A5 | Decisão | Nenhum curso brasileiro curto (S4, S5) | Não: 623 sem FAQ (68614 responde para vídeo-otoendoscopia) | CM | L03 | D |
-| Q06 | Curso de endoscopia digestiva para cães e gatos em São Paulo | Presencial, A5 | Solução | Improve Ibérica, Zaragoza, curso online (S4, S5) | Parcial: duas páginas duplicadas, data errada no site | CM | L03: uma página, data da planilha | C |
-| Q07 | Curso prático de POCUS em emergência veterinária | Presencial e gravado, A3 | Solução | Exterior (S10, S11); Brasil só trabalho acadêmico | Parcial: 68638 (sem carga horária) e 591 gravado, sem guia | CM | L21, L30 | D, C |
-| Q08 | Curso de eletroquimioterapia veterinária no Brasil | Presencial, A10 | Solução | Chile (S12); Brasil só TCCs | Parcial: 560 existe; ficha tem prática "em modelos" e "nos pacientes" na mesma página [CONFIRMAR] | CM | L30, L31 | D, C |
-| Q09 | Curso de ventilação mecânica na anestesia veterinária | Presencial e gravado, A2 | Solução | Aula em inglês (S15), curso humano (S16) | Parcial: 507 e 68618 existem; sem guia que diga qual escolher | CM | L14, L30 | C |
+| Q01 | Qual curso de ecocardiografia veterinária hands-on em São Paulo? | Semipresencial (573), A2 | Solução | Sem curso brasileiro; só exterior (S1, S2, S3). Ufape não apareceu | Parcial: 573 existe, sem cidade no H1 de busca, sem FAQ | CM | L01: primeira frase com curso, cidade, data e carga horária; FAQ | C |
+| Q02 | Vale a pena fazer ecocardiografia com prática ou só o curso gravado? | Semipresencial (573) e gravado (411), A2 | Comparação | Nenhuma comparativa achada | Não: 573 e 411 não se comparam | CM | L08 | D |
+| Q03 | Quanto custa um curso de ecocardiografia veterinária? | Semipresencial (573), A2 | Decisão | Exterior em libras (S1); Brasil sem dado | Parcial: 573 traz R$ 2.350,00 à vista e 10x de R$ 303,00 (catálogo); não mostra o total no cartão nem compara com o gravado | CM | L01: tabela de preço com parcelas e total no cartão (cálculo: R$ 3.030,00) | C |
+| Q04 | Curso de videotoscopia para otite em cães e gatos | Presencial (68614), A5 | Solução | Só artigos acadêmicos (S13, S14); nenhum curso. Ufape não apareceu | Sim: 68614 tem FAQ completa. Falta resposta ao "vale a pena sobre otoscopia convencional" | CM | L10 | D |
+| Q05 | Preciso de experiência para fazer curso de endoscopia digestiva? | Presencial (623), A5 | Decisão | Nenhum curso brasileiro curto (S4, S5) | Não: 623 sem FAQ (68614 responde para vídeo-otoendoscopia) | CM | L03 | D |
+| Q06 | Curso de endoscopia digestiva para cães e gatos em São Paulo | Presencial (623 e 68637), A5 | Solução | Improve Ibérica, Zaragoza, curso online (S4, S5) | Parcial: duas páginas duplicadas, data errada no site | CM | L03: uma página, data da planilha | C |
+| Q07 | Curso prático de POCUS em emergência veterinária | Presencial (68638) e gravado (591), A3 | Solução | Exterior (S10, S11); Brasil só trabalho acadêmico | Parcial: 68638 (sem carga horária) e 591 gravado, sem guia | CM | L21, L30 | D, C |
+| Q08 | Curso de eletroquimioterapia veterinária no Brasil | Semipresencial (560), A10 | Solução | Chile (S12); Brasil só TCCs | Parcial: 560 existe; ficha tem prática "em modelos" e "nos pacientes" na mesma página [CONFIRMAR] | CM | L30, L31 | D, C |
+| Q09 | Curso de ventilação mecânica na anestesia veterinária | Gravado (507) e 68618 (modalidade [CONFIRMAR NO CATÁLOGO]), A2 | Solução | Aula em inglês (S15), curso humano (S16) | Parcial: 507 e 68618 existem; sem guia que diga qual escolher | CM | L14, L30 | C |
 | Q10 | Curso online de veterinária vale a pena ou basta conteúdo gratuito? | Gravado, geral | Comparação | Vetlove gratuita (S33) e cursos ao vivo no Sympla | Não | CM | L14, L27 | R, D |
 | Q11 | Curso de hemogasometria para veterinários | Gravado, A3 | Solução | Sympla ao vivo 16 h (S8), material UNESP (S9), e-book (S36) | Parcial: 655 e 107 existem, sem comparativa entre os dois | CM | L12 | D |
 | Q12 | Como calcular CRI e bolus em cães e gatos? | Gravado, A1 | Problema | IDEXX e calculadoras (S29, S30) | Parcial: 602 (4 h, R$ 96,00) existe; sem guia | CM | L24 | D |
@@ -286,8 +288,8 @@ Itens conforme a seção 2.3 do plano do cmo. "Pilar" = o que proponho como pág
 
 | Área | Itens Livres e Eventos (onda) | Situação hoje | Pilar proposto | Lacunas |
 |---|---|---|---|---|
-| A1 Anestesiologia e dor | 616 (onda 2), 488, 131, 102, 602, 483, 461, 501 (ES), 644 contínuos | Produtos existem, sem hub nem guia | Hub de área (itens de A1) | L24, L25 |
-| A2 Cardiorrespiratório | 573 e 68665 (onda 1), 68618 (onda 2), 411, 395, 507 | 573 fraca, 68665 sem FAQ | Hub de área (A2) | L01, L05, L08, L09, L20 |
+| A1 Anestesiologia e dor | 616 (onda 2; catálogo: online, local "Presencial e Online", modalidade [CONFIRMAR NO CATÁLOGO]), 488, 131, 102, 602, 483, 461, 501 (ES), 644 contínuos | Produtos existem, sem hub nem guia | Hub de área (itens de A1) | L24, L25 |
+| A2 Cardiorrespiratório | 573 (semipresencial) e 68665 (onda 1), 68618 (onda 2; modalidade [CONFIRMAR NO CATÁLOGO]), 411, 395, 507 | 573 fraca, 68665 sem FAQ | Hub de área (A2) | L01, L05, L08, L09, L20 |
 | A3 Emergência, UTI e clínica médica | 68666 (onda 1), 68638 (onda 3), 591, 137, 655, 107, 643, 713, 700 | 68666 sem FAQ, sem hub | Hub de área (A3) | L05, L12, L21, L22, L28, L30 |
 | A4 Cirurgia, ortopedia e reabilitação | 469, 68663 contínuos | Existem; presenciais cirúrgicos (99, 433, 625) estão fora do recorte | Página de produto | Sem lacuna na onda 1 |
 | A5 Imagem e endoscopia | 68614, 623 e 68637 (onda 1), 291 | 68614 forte, 623 fraca | Hub de área (A5) | L03, L04, L10, L11, L23 |
@@ -295,7 +297,7 @@ Itens conforme a seção 2.3 do plano do cmo. "Pilar" = o que proponho como pág
 | A7 Endocrinologia e nefrologia | 103, 104, 542, 458, 454, 642, 712 contínuos | Existem; mini repete curso maior | Hub de área (A7) | L15, L28 |
 | A8 Dermatologia | 463 contínuo | Existe | Página de produto | Dentro de L15 |
 | A9 Oftalmologia | 627, 482, 720 contínuos | Existem | Página de produto | Dentro de L15 |
-| A10 Oncologia | 560 (onda 3), 465 | 560 existe, com ambiguidade de prática | Página de produto | L30, L31 |
+| A10 Oncologia | 560 (onda 3, semipresencial), 465 | 560 existe, com ambiguidade de prática | Página de produto | L30, L31 |
 | A11 Laboratório | 462, 106, 202 contínuos | Existem; 202 e 106 competem em tema | Página de produto | L17, L12 |
 | A12 Neurologia e neuromonitorização | Neuro-summit (onda 1), 466 | Evento forte em programação | Neuro-summit | L02, L07, L18, L19 |
 | A13 Medicina felina | 105, 340, 157, 459, 347 (ES) | Existem, sobrepostos | Hub de área (A13) | L16, L29 |
@@ -307,10 +309,10 @@ Itens conforme a seção 2.3 do plano do cmo. "Pilar" = o que proponho como pág
 
 | Página de referência | Situação | Linka para |
 |---|---|---|
-| Curso hands-on de ecocardiografia (pilar de decisão) | Fraca (573) | 411 gravado, 68665 grupo, hub de presenciais |
+| Curso hands-on de ecocardiografia (pilar de decisão) | Fraca (573) | 411 gravado, 68665 grupo, hub de cursos práticos |
 | Curso gravado de ecocardiograma (411) e eletrocardiograma (395) | Existem (fichas não lidas) | 573 |
 | Grupo de estudos de cardiologia e ecocardiografia (68665) | Existe, sem FAQ | hub de grupos |
-| Comparativa "hands-on ou gravado" | Falta | 573 e 411 |
+| Comparativa "com prática ou gravado" | Falta | 573 e 411 |
 | Guia "ecocardiograma ou eletrocardiograma" | Falta | 411, 395 |
 | Hub de área A2 | Falta | todas as acima e 507 e 68618 (ventilação) |
 
@@ -361,7 +363,7 @@ Cada tema: título de trabalho, intenção, palavra-chave principal (uma por pá
 | Ordem | ID | Título de trabalho | Intenção | Palavra-chave principal [SUPOSIÇÃO] | Pergunta | Linka para | Rev. |
 |---|---|---|---|---|---|---|---|
 | 1 | L09 | Ecocardiograma ou eletrocardiograma: quando indicar cada exame na clínica de pequenos animais | Informativa | ecocardiograma ou eletrocardiograma em cães | Q02 em parte | 411, 395, 68665 | D |
-| 2 | L08 | Ecocardiografia: curso presencial hands-on ou gravado? Como escolher | Comparativa | curso de ecocardiografia veterinária | Q01, Q02, Q03 | 573, 411 | D |
+| 2 | L08 | Ecocardiografia: curso com prática presencial ou gravado? Como escolher | Comparativa | curso de ecocardiografia veterinária | Q01, Q02, Q03 | 573, 411 | D |
 | 3 | L20 | Valvopatia mixomatosa e cardiomiopatias na ecocardiografia: o que o clínico precisa reconhecer | Informativa | ecocardiografia valvopatia mixomatosa cães | Q01 em parte | 573, 68665 | D |
 
 **A3**
@@ -402,13 +404,13 @@ Três tipos, nunca misturados: **D** (decisão, intenção de matrícula), **C**
 
 | Cluster | Tipo | Pilar (página) | Palavra-chave pilar [SUPOSIÇÃO] | Apoio | Situação do pilar |
 |---|---|---|---|---|---|
-| CD-F1 Cursos práticos presenciais | D | Hub de formato (L06) | curso prático veterinária presencial | Páginas de produto 573, 68614, 623, 616, 68618, 68638, 560; guia de logística | Falta |
+| CD-F1 Cursos práticos com data | D | Hub de formato (L06) | curso prático de veterinária com data | Páginas de produto 573, 68614, 623, 68638, 560 (modalidade conforme o catálogo); 616 e 68618 só depois de [CONFIRMAR NO CATÁLOGO] a modalidade; guia de logística | Falta |
 | CD-ECO Ecocardiografia hands-on | D | 573 | curso hands-on de ecocardiografia veterinária | FAQ (L01), 411, 395, 68665 | Fraca |
 | CD-VID Videotoscopia | D | 68614 | curso de videotoscopia veterinária | FAQ existente, ajuste L04 | Existe |
 | CD-END Endoscopia digestiva | D | 623 (unificada com 68637) | curso de endoscopia digestiva veterinária | FAQ (L03), 291 | Fraca |
 | CD-POC POCUS | D | 68638 | curso de POCUS em emergência veterinária | 591, L21, L30 | Existe, sem carga horária |
-| CD-ELE Eletroquimioterapia | D | 560 | curso de eletroquimioterapia veterinária | L30, L31 | Existe, ambígua |
-| CD-VM Ventilação mecânica | D | 507 (gravado) e 68618 (presencial), duas páginas | curso de ventilação mecânica veterinária | guia em L14 | Existem |
+| CD-ELE Eletroquimioterapia | D | 560 (semipresencial) | curso de eletroquimioterapia veterinária | L30, L31 | Existe, ambígua |
+| CD-VM Ventilação mecânica | D | Duas páginas, duas palavras: 507 (gravado) com "curso online de ventilação mecânica veterinária" e 68618 com "curso de ventilação mecânica na anestesia veterinária" | ver coluna Pilar | guia em L14; link cruzado entre as duas com texto que explica a diferença | Existem |
 | CD-F2 Cursos online gravados | D | Hub de formato (L14) | cursos online de veterinária | 22 produtos | Falta |
 | CD-F3 Minicursos | D | Hub de formato (L15) | minicurso veterinária online | 13 produtos | Falta |
 | CD-F4 Grupos de estudos | D | Hub de formato (L13) | grupo de estudos veterinária | 68665, 68666, 8 contínuos | Falta |
@@ -422,13 +424,15 @@ Três tipos, nunca misturados: **D** (decisão, intenção de matrícula), **C**
 | CI-A12 Neuromonitorização | I | L07 | neuromonitorização anestesia veterinária | L18, L19 | Falta |
 | CI-A1 Anestesia e dor (ondas 2 e 3) | I | L25 | título de especialista em anestesiologia veterinária | L24 | Falta |
 
+**Decisão registrada sobre ventilação mecânica (CD-VM):** manter duas páginas de produto (507 é gravado e contínuo; 68618 é turma com data de 18/12/2026, modalidade a confirmar), cada uma com a sua palavra-chave principal, como na divisão da pesquisa-de-palavras-chave. Se a Ufape decidir juntar as duas numa só página (uma URL por curso, turma dentro, como recomenda o seo-técnico), a palavra principal passa a ser "curso de ventilação mecânica veterinária" e a outra URL recebe 301. A decisão final é da Ufape [CONFIRMAR].
+
 Verificações das regras da skill: (1) uma palavra-chave principal por página, atendida pela coluna; (2) nenhum cluster mistura decisão com informativo (os apoios informativos ficam em clusters CI e só linkam para o pilar D); (3) nenhum cluster mistura linhas.
 
 ### 8.2 Mapa de links (quem linka para quem)
 
 1. **Artigo informativo (CI) para a página de produto (CD) da mesma área**, uma vez no texto e uma no final, com texto de âncora natural, sem pressão de venda. Nenhuma urgência sem número real.
 2. **Página de produto para o hub do formato e para o guia comparativo** (bloco "Compare com outros formatos").
-3. **Hubs de formato para as páginas de produto**, em tabela com data, carga horária, preço à vista e total no cartão (cálculo marcado).
+3. **Hubs de formato para as páginas de produto**, em tabela com data, modalidade do catálogo, carga horária, preço à vista, número de parcelas e valor da parcela, e total no cartão (cálculo marcado).
 4. **Hub de área para os cursos da área e para os guias**; só ao fim, um bloco "para quem quer se especializar" com link para a página do curso de Pós correspondente, sem prometer caminho nem equivalência (a ponte Livres para Pós é hipótese sem dado).
 5. **Neuro-summit para 68634** (modalidade gravada) e o inverso, com títulos e primeiras frases diferentes.
 6. **Duplicatas resolvidas por 301 por código** (seo-técnico SEO-01): 68637 para 623 (ou o inverso, decisão da Ufape), 643 para 713, 642 para 712.
@@ -438,11 +442,11 @@ Verificações das regras da skill: (1) uma palavra-chave principal por página,
 | Fase | Quando | O que | IDs |
 |---|---|---|---|
 | 0 | 27 a 30/10 | Ajustes em páginas de produto da onda 1 (FAQ, política, pagamento, horário), pela ordem das datas: 68665, 573, neuro-summit, 68614, 623 e 68637, 68666 | L05, L01, L02, L04, L03 |
-| 1 | até 06/11 | Hub de presenciais; primeiro artigo de cada área da onda 1, começando por A12 e A2 | L06, L07, L09, L12, L10 |
+| 1 | até 06/11 | Hub de cursos práticos; primeiro artigo de cada área da onda 1, começando por A12 e A2 | L06, L07, L09, L12, L10 |
 | 2 | 07 a 27/11 | Comparativas, hubs de contínuos e guias de decisão; demais artigos da onda 1 | L08, L11, L13 a L17, L25, L27, L28 e L18 a L23 conforme capacidade |
 | 3 | a partir de 30/11 | POCUS, eletroquimioterapia, espanhol, guias de A1 e A14 | L24, L26, L29, L30, L31 |
 
-Regra: nenhuma peça final de página de produto antes de a Ufape resolver as pendências de dado (P3 a P7 do plano): data de 623, duplicidade 623 e 68637, data de início de 68665, 24 h do 68634.
+Regra: nenhuma peça final de página de produto antes de a Ufape resolver as pendências de dado (P3 a P7 do plano): data de 623, duplicidade 623 e 68637, data de início de 68665, 24 h do 68634, modalidade de 616 e de 68618, carga horária e turma de 202.
 
 ---
 
@@ -492,7 +496,7 @@ Para cada área com contínuos: 1 artigo informativo ou guia (um por área prior
 
 Cada pergunta traz o que a resposta precisa conter e de onde sai. A resposta final é escrita em bloco de 40 a 60 palavras, com a primeira frase direta, só depois de a Ufape confirmar o dado. Status: Resp. (a ficha já responde), Parcial, Falta. Revisão: D (docente), R (regulação), C (comercial).
 
-### 10.1 Presencial hands-on
+### 10.1 Curso prático com data (presencial ou semipresencial, conforme o catálogo)
 
 | # | Pergunta | Fonte da resposta | Status | Rev. |
 |---|---|---|---|---|
@@ -503,11 +507,11 @@ Cada pergunta traz o que a resposta precisa conter e de onde sai. A resposta fin
 | 5 | Preciso de experiência prévia? Estudante pode participar? | 68614 responde; demais [CONFIRMAR] | Parcial | D |
 | 6 | O que preciso levar? | 623: pijama cirúrgico e sapato fechado; demais [CONFIRMAR] | Parcial | C |
 | 7 | E se a turma não abrir ou eu desistir? | 68614: cancelamento até 30 dias com devolução total; 623: reembolso só se a turma não for confirmada. Política única [CONFIRMAR NO CATÁLOGO] | Parcial | C, R |
-| 8 | Posso parcelar? Quanto pago no total no cartão? | Catálogo: à vista e parcela; total é cálculo (ex.: 573 R$ 3.030,00 em 10x de R$ 303,00). Padronizar texto de boleto e "carta de crédito" | Parcial | C |
+| 8 | Posso parcelar? Quanto pago no total no cartão? | Catálogo: à vista, número e valor da parcela; total é cálculo (ex.: 573 R$ 3.030,00 em 10x de R$ 303,00). Padronizar texto de boleto e "carta de crédito" | Parcial | C |
 | 9 | Onde fica, qual o horário e há onde ficar? | Endereço nas fichas; horário de 573 diverge dentro da própria página; hospedagem [CONFIRMAR] | Parcial | C |
 | 10 | Que equipamentos vou usar? | Ficha de 573 ("equipamentos de última geração") sem modelo; [CONFIRMAR]. Não citar marca sem confirmação | Falta | C, D |
 | 11 | Há certificado? Vale como pós-graduação? | Texto oficial [PREENCHER COM A REGULAÇÃO]. Dizer só que curso livre não confere diploma | Falta | R |
-| 12 | Terei conteúdo gravado e por quanto tempo? | 573: 12 h por 6 meses | Resp. (573) | C |
+| 12 | Terei conteúdo gratuito gravado e por quanto tempo? | 573: 12 h por 6 meses | Resp. (573) | C |
 | 13 | Quem são os docentes? | Só com autorização registrada [CONFIRMAR autorização] | Falta | C |
 
 ### 10.2 Online gravado e minicurso
@@ -561,7 +565,7 @@ Toda resposta em espanhol é revisada por falante nativo antes de ir ao ar.
 | 5 | Preciso saber EEG? Serve só para BIS? Serve para meu paciente? | FAQ da página responde as duas primeiras; espécies: cães, gatos, equinos e bovinos (página) | Resp. | D |
 | 6 | Quantas vagas restam? | [CONFIRMAR]; sem "últimas vagas" sem número real | Falta | C |
 | 7 | O hospital pode pagar e receber nota fiscal? | [CONFIRMAR] | Falta | C |
-| 8 | (700 e 202) Quantas horas, em que idioma, de qual edição? | 202: 8 h, turma III, "com tradução" (tipo de tradução [CONFIRMAR]); 700: carga horária e idioma [CONFIRMAR NO CATÁLOGO] | Parcial | C |
+| 8 | (700 e 202) Quantas horas, em que idioma, de qual edição? | 202: carga horária e turma [CONFIRMAR NO CATÁLOGO] (a ficha traz 8 h e turma III; o catálogo não traz), "com tradução" na página (tipo de tradução [CONFIRMAR]); 700: carga horária e idioma [CONFIRMAR NO CATÁLOGO] | Parcial | C |
 
 ---
 
@@ -586,14 +590,14 @@ Legenda: Rel. = relevância para a venda (5 a 1); Sinal = sinal qualitativo de v
 | ID | Lacuna | Formato e área | Tipo | Situação hoje | Intenção | Rel. | Sinal | Esf. | Rev. | Prior. | Item (onda) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | L05 | FAQ e período de R$ 100,00 nos grupos; conferir data de início de 68665 | Grupo, A2 e A3 | Ajuste de página | Fraca | D | 5 | Médio | Baixo | C | P1 | 68665 (01/11), 68666 (25/11) (1) |
-| L01 | FAQ, vagas, política de cancelamento, pagamento padronizado e horário em 573 | Presencial, A2 | Ajuste de página | Fraca | D | 5 | Médio | Baixo | C, D | P1 | 573 (14/11) (1) |
+| L01 | FAQ, vagas, política de cancelamento, pagamento padronizado e horário em 573 | Semipresencial, A2 | Ajuste de página | Fraca | D | 5 | Médio | Baixo | C, D | P1 | 573 (14/11) (1) |
 | L02 | FAQ ampliada do neuro-summit (parcelamento, monitores, cupom de aluno de pós, vagas) e separação do 68634 | Evento, A12 | Ajuste de página | Existe | D | 5 | Baixo | Baixo | C, D | P1 | Neuro-summit (20/11) (1) |
 | L04 | 68614: retirar ou ajustar a frase de selo do MEC (regulação decide) e resolver a janela de cancelamento de 29/10 | Presencial, A5 | Ajuste de página | Existe | D | 5 | Médio | Baixo | R, C | P1 | 68614 (28/11) (1) |
 | L03 | 623 e 68637: decidir qual página fica, corrigir data, FAQ e prática por aluno | Presencial, A5 | Ajuste de página | Fraca | D | 5 | Médio | Médio | C, D | P1 | 623, 68637 (28/11) (1) |
-| L06 | Hub "cursos práticos presenciais (hands-on)" com tabela, logística e FAQ geral | Presencial, geral | Página pilar | Falta | D e C | 5 | Alto | Médio | C, D | P1 | 573, 68614, 623, 68637 (1) e 616, 68618, 68638, 560 |
+| L06 | Hub "cursos práticos com data" com tabela (modalidade do catálogo), logística e FAQ geral; 616 e 68618 só depois de confirmada a modalidade | Cursos práticos, geral | Página pilar | Falta | D e C | 5 | Alto | Médio | C, D | P1 | 573, 68614, 623, 68637 (1); 68638, 560 |
 | L07 | Artigo: neuromonitorização em anestesia (o que EEG e BIS mostram) | Evento, A12 e A1 | Artigo | Falta | I | 3 | Médio | Médio | D | P2 | Neuro-summit (1) |
-| L09 | Artigo: ecocardiograma ou eletrocardiograma, quando indicar | Presencial e gravado, A2 | Artigo | Falta | I | 3 | Alto | Médio | D | P2 | 573 (1), 411, 395 |
-| L08 | Comparativa: ecocardiografia hands-on ou gravado | Presencial e gravado, A2 | Comparativa | Falta | C | 4 | Médio | Médio | D | P2 | 573 (1), 411 |
+| L09 | Artigo: ecocardiograma ou eletrocardiograma, quando indicar | Semipresencial e gravado, A2 | Artigo | Falta | I | 3 | Alto | Médio | D | P2 | 573 (1), 411, 395 |
+| L08 | Comparativa: ecocardiografia com prática ou gravada | Semipresencial e gravado, A2 | Comparativa | Falta | C | 4 | Médio | Médio | D | P2 | 573 (1), 411 |
 | L12 | Artigo e guia: hemogasometria na emergência e escolha entre 655 e 107 | Gravado, A3 | Artigo | Falta | I e C | 4 | Alto | Médio | D | P2 | 655, 107 (contínuos) |
 | L10 | Artigo: videotoscopia em otites | Presencial, A5 | Artigo | Falta | I | 3 | Alto | Médio | D | P2 | 68614 (1) |
 | L11 | Artigo: endoscopia digestiva, quando indicar | Presencial, A5 | Artigo | Falta | I | 3 | Médio | Médio | D | P2 | 623 (1), 291 |
@@ -608,14 +612,14 @@ Legenda: Rel. = relevância para a venda (5 a 1); Sinal = sinal qualitativo de v
 | L28 | Resolver duplicatas de grupos (643 e 713, 642 e 712) e fixar a edição vigente | Grupo, A3 e A7 | Ajuste de página | Fraca | D | 4 | Baixo | Baixo | C | P2 | 4 contínuos |
 | L18 | Artigo: bloqueio neuromuscular e TOF na UTI | Evento, A12 e A3 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | Neuro-summit (1) |
 | L19 | Artigo: consciência intraoperatória | Evento, A12 e A1 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | Neuro-summit (1), 644, 483 |
-| L20 | Artigo: valvopatia mixomatosa e cardiomiopatias na ecocardiografia | Presencial, A2 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | 573 (1), 68665 |
+| L20 | Artigo: valvopatia mixomatosa e cardiomiopatias na ecocardiografia | Semipresencial, A2 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | 573 (1), 68665 |
 | L22 | Artigo: rotina do paciente internado | Grupo, A3 | Artigo | Falta | I | 2 | Baixo | Médio | D | P3 | 643, 713, 68666 |
 | L23 | Artigo: equipamento de endoscopia ou videotoscopia, o que avaliar | Presencial, A5 | Comparativa | Falta | C | 3 | Baixo | Médio | D | P3 | 68614, 623 (1) |
 | L24 | Guia: cálculo de CRI e bolus, passo a passo | Gravado, A1 | Artigo | Falta | I | 2 | Alto | Médio | D | P3 | 602, 501 |
 | L26 | Guia: auxiliar veterinário, registro e validade do curso | Gravado, A14 | Artigo | Falta | I e C | 3 | Médio | Alto | R | P3 | 95 |
 | L29 | Hub em espanhol com FAQ, depois da revisão nativa e do meio de pagamento | Espanhol, A1 e A13 | Página pilar | Falta | D | 2 | Baixo | Alto | C, R | P3 | 347, 501 |
-| L30 | Reforço das páginas 68638 (sem carga horária) e 560 (prática em modelos ou pacientes) | Presencial, A3 e A10 | Ajuste de página | Fraca | D | 3 | Médio | Baixo | C, D | P3 | 68638, 560 (3) |
-| L31 | Artigo: eletroquimioterapia, o que é e para quem serve | Presencial, A10 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | 560 (3) |
+| L30 | Reforço das páginas 68638 (presencial, sem carga horária) e 560 (semipresencial, prática em modelos ou pacientes); ventilação 507 e 68618 com palavras distintas | Cursos práticos, A2, A3 e A10 | Ajuste de página | Fraca | D | 3 | Médio | Baixo | C, D | P3 | 68638, 560 (3); 507, 68618 |
+| L31 | Artigo: eletroquimioterapia, o que é e para quem serve | Semipresencial, A10 | Artigo | Falta | I | 2 | Médio | Médio | D | P3 | 560 (3) |
 
 Observações sobre a ordem: (a) L07 é o primeiro artigo por ser o único tema com ausência total de concorrente brasileiro na busca e por servir ao evento e à persona principal de anestesia; (b) L25 e L27 estão em P2 apesar do esforço alto porque tocam o texto de certificação (P1 do plano) e dependem da regulação, o que deve ser pedido já; (c) L21 sobe para P2 porque o sinal de lacuna é o mais claro entre os temas de onda 3 e porque 591 está à venda hoje.
 
@@ -628,16 +632,17 @@ Observações sobre a ordem: (a) L07 é o primeiro artigo por ser o único tema 
 | H1 | Aprovar os ajustes de texto L01 a L05 nas páginas de produto da onda 1 (feitos por quem edita o site, não pela squad) | Objeções centrais sem resposta e datas em 6 a 33 dias | Sem custo de mídia | Menos dúvida antes da compra; melhor extração por assistentes de IA | Voltar o texto anterior no site |
 | H2 | Decidir qual página fica entre 623 e 68637 e confirmar a data de 623 | Duplicidade e data de 01/08/2026 no site | Sem custo | Uma página para a busca | Reverter o 301 |
 | H3 | Pedir à regulação o texto oficial de certificação do curso livre e a decisão sobre a frase "selo do MEC" em 68614 | P1 do plano; sem isso L04, L25 e L27 ficam bloqueadas | Sem custo | Libera a seção de certificação nas peças | Não se aplica |
-| H4 | Confirmar com a Ufape: vagas e equipamentos por prático, política de cancelamento, prazo de acesso, período dos R$ 100,00, regra do cupom de aluno de pós, parcelamento do presencial do neuro-summit, 24 h do 68634 | Dados que fecham as respostas de FAQ (seção 10) | Sem custo | FAQ preenchida só com fato | Não se aplica |
+| H4 | Confirmar com a Ufape: vagas e equipamentos por prático, política de cancelamento, prazo de acesso, período dos R$ 100,00, regra do cupom de aluno de pós, parcelamento do presencial do neuro-summit, 24 h do 68634, modalidade de 616 e 68618, carga horária e turma de 202 | Dados que fecham as respostas de FAQ (seção 10) e a entrada de 616 e 68618 no hub | Sem custo | FAQ preenchida só com fato | Não se aplica |
 | H5 | Aprovar a lista dos 12 temas de artigo da onda 1 (seção 7.3) e nomear o docente revisor de cada área | Revisão de docente é obrigatória | Horas do docente [CONFIRMAR] | Artigo seguro para publicar | Retirar o tema |
 | H6 | Rodar a checagem manual das perguntas Q01 a Q25 (seção 6.2) antes e depois dos ajustes | A squad não consulta assistentes de IA | Horas do time | Taxa real de citação | Não se aplica |
 | H7 | Dar acesso (exportação) ao Search Console e à lista de artigos do blog | Sem eles não há volume nem lista do que já existe | Sem custo | Troca de sinal qualitativo por dado e remoção de lacunas que o blog já cobre | Não se aplica |
+| H8 | Decidir se 507 e 68618 ficam em duas páginas com palavras distintas (padrão) ou viram uma página só com turma dentro | Registro da decisão de ventilação mecânica (seção 8.1) | Sem custo | Sem duas páginas disputando a mesma consulta | Reverter o 301 |
 
 ---
 
 ## 14. Próximo agente
 
-Próximo agente sugerido: **briefing-de-conteudo**, começando pelos 12 temas da seção 7.3 (primeiro L07, L09, L12 e L10). Pela ordem do plano, antes dele rodam a estrategia-de-conteudo (1.19) e a pesquisa-de-palavras-chave (2.1), que confirmam as palavras-chave principais (hoje [SUPOSIÇÃO]) com dado de volume. O seo-on-page recebe L01 a L06 (ajustes de página de produto) e o seo-técnico segue com SEO-01, SEO-02 e SEO-05. Antes de qualquer item ir ao site, passa pelo qa-de-marketing e pela aprovação da pessoa do marketing.
+Próximo agente sugerido: **briefing-de-conteudo**, começando pelos 12 temas da seção 7.3 (primeiro L07, L09, L12 e L10). Pela ordem do plano, antes dele rodam a estrategia-de-conteudo (1.19) e a pesquisa-de-palavras-chave (2.1), que confirmam as palavras-chave principais (hoje [SUPOSIÇÃO]) com dado de volume; as palavras dos hubs e de L08 devem ser reconciliadas com a seção 8.4 do arquivo de palavras-chave dos Livres. O seo-on-page recebe L01 a L06 (ajustes de página de produto) e o seo-técnico segue com SEO-01, SEO-02 e SEO-05. Antes de qualquer item ir ao site, passa pelo qa-de-marketing e pela aprovação da pessoa do marketing.
 
 ---
 
@@ -645,16 +650,18 @@ Próximo agente sugerido: **briefing-de-conteudo**, começando pelos 12 temas da
 
 **Internos (arquivos lidos em 26/10/2026):**
 
-1. Itens, preços, datas, carga horária e status dos cursos: contexto/catalogo-de-cursos.md, seções 4 a 9 (gerado em 26/10/2026; datas da planilha, preço do site).
-2. 573: 14 e 15/11/2026, 16 h de prática e 12 h de teoria gravada por 6 meses, sem FAQ, pagamento com "carta de crédito", horário que diverge dentro da página. Fonte: ficha 573.
-3. 68614: 15 a 30 alunos, 1 equipamento para 3, cancelamento até 30 dias antes com devolução total, FAQ de 9 perguntas, frase de selo do MEC. Fonte: ficha 68614.
-4. 623: data do site 01 e 02/08/2026 contra planilha 28/11/2026, mínimo de 15, itens a levar, reembolso só se a turma não for confirmada, sem FAQ. Fonte: ficha 623 e catálogo.
-5. Neuro-summit: 20 e 21/11/2026, 16 h, 30 vagas, R$ 1.250,00 presencial e R$ 450,00 transmitido e gravado, cupom SIMPNEUROMONIT de 20%, FAQ de 6 perguntas, convidados "a definir". Fonte: ficha do evento e catálogo, seção 9.
-6. 68665: R$ 100,00, encontros a cada 15 dias, agenda a partir de 05/11/2026, desistência sem reembolso; 68666: início 25/11/2026, agenda até 24/11/2027. Fontes: fichas 68665 e 68666.
-7. Duplicidades 623 e 68637, 643 e 713, 642 e 712; problemas de estrutura de URL e de redirecionamento: saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md.
-8. Personas, objeções e alternativas por formato: pesquisa-de-persona livres e eventos de 26/10/2026.
-9. Recorte, 47 contínuos, 14 áreas, onda 1 e canais: plano do cmo de 26/10/2026, seções 2, 3 e 5.
-10. Tendências de busca por IA e busca sem clique, calendário: analise-de-tendencias-geral-2026-10-26.md (dados dos EUA e globais, sem recorte brasileiro).
+1. Itens, preços, datas, carga horária, modalidade e status dos cursos: contexto/catalogo-de-cursos.md, seções 4 a 9 (gerado em 26/10/2026; datas da planilha, preço do site).
+2. Modalidade no catálogo: 573 "Semiprensecial" e 560 "Semipresencial"; 68614, 623, 68637 e 68638 "Presencial"; 616 na seção 5 (online e gravados), modalidade "On-line", local "Presencial e Online"; 68618 sem modalidade; 202 sem carga horária no catálogo. Fonte: catálogo, seções 4, 5 e 9.
+3. 573: 14 e 15/11/2026, 16 h de prática e 12 h de teoria gravada por 6 meses, sem FAQ, pagamento com "carta de crédito", horário que diverge dentro da página. Fonte: ficha 573.
+4. 68614: 15 a 30 alunos, 1 equipamento para 3, cancelamento até 30 dias antes com devolução total, FAQ de 9 perguntas, frase de selo do MEC. Fonte: ficha 68614.
+5. 623: data do site 01 e 02/08/2026 contra planilha 28/11/2026, mínimo de 15, itens a levar, reembolso só se a turma não for confirmada, sem FAQ. Fonte: ficha 623 e catálogo.
+6. Neuro-summit: 20 e 21/11/2026, 16 h, 30 vagas, R$ 1.250,00 presencial e R$ 450,00 transmitido e gravado, cupom SIMPNEUROMONIT de 20%, FAQ de 6 perguntas, convidados "a definir". Fonte: ficha do evento e catálogo, seção 9.
+7. 68665: R$ 100,00, encontros a cada 15 dias, agenda a partir de 05/11/2026, desistência sem reembolso; 68666: início 25/11/2026, agenda até 24/11/2027. Fontes: fichas 68665 e 68666.
+8. Duplicidades 623 e 68637, 643 e 713, 642 e 712; problemas de estrutura de URL e de redirecionamento: saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md.
+9. Personas, objeções e alternativas por formato: pesquisa-de-persona livres e eventos de 26/10/2026.
+10. Recorte, 47 contínuos, 14 áreas, onda 1 e canais: plano do cmo de 26/10/2026, seções 2, 3 e 5.
+11. Tendências de busca por IA e busca sem clique, calendário: analise-de-tendencias-geral-2026-10-26.md (dados dos EUA e globais, sem recorte brasileiro).
+12. Veredito do qa-de-marketing sobre a versão 1 deste arquivo: saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md, seção 2.4.
 
 **Externos (buscas de 26/10/2026, resumo da ferramenta, páginas não abertas):**
 
@@ -692,7 +699,7 @@ Próximo agente sugerido: **briefing-de-conteudo**, começando pelos 12 temas da
 - S32 Quero Bolsa, lato sensu e stricto sensu: https://querobolsa.com.br/revista/diferenca-entre-lato-sensu-e-stricto-sensu
 - S33 Vetlove, Mercado&Consumo (10/03/2026): https://mercadoeconsumo.com.br/10/03/2026/noticias-varejo/petlove-lanca-vetlove-plataforma-voltada-ao-desenvolvimento-e-bem-estar-dos-medicos-veterinarios/
 - S34 Quero Bolsa, Clínica Médica de Gatos: https://querobolsa.com.br/cursos-e-faculdades/clinica-medica-de-gatos
-- S36 Hotmart, e-book "Gasometría sin miedo en pequeños animales": https://hotmart.com/es/marketplace/productos/gasometria-sin-miedo-en-pequenos-animales/E104068843C
+- S36 Hotmart, e-book "Gasometría sin miedo en pequeños animales": https://hotmart.com/es/marketplace/productos/gasometria-sin-miedo-en-pequenos-animales/E104068843C (a numeração não tem S35; sem efeito)
 
 ## Lista B: suposições
 
@@ -714,14 +721,16 @@ Próximo agente sugerido: **briefing-de-conteudo**, começando pelos 12 temas da
 1. [CONFIRMAR] Lista de artigos do blog e acesso ao Search Console (consultas, páginas, posição) e ao GA4. Sem eles não há volume nem prova de que o que "falta" não exista no blog.
 2. [CONFIRMAR] Resultado de cada pergunta Q01 a Q25 nos assistentes de IA (3 a 5 repetições por assistente).
 3. [CONFIRMAR NO CATÁLOGO] Vagas, equipamentos por aluno e horas práticas de 573, 623, 68637, 68618, 68638, 560 e 616; carga horária de 68638; versão só online de 616 e seu preço.
-4. [CONFIRMAR NO CATÁLOGO] Política única de cancelamento e reembolso; prazo de acesso por formato; período coberto pelos R$ 100,00 dos grupos; entrada em grupo em andamento; regra do cupom de aluno e ex-aluno (inclusive aluno de pós).
-5. [CONFIRMAR NO CATÁLOGO] Data de 623 no site; qual página fica entre 623 e 68637; data de início de 68665 (01/11 ou 05/11); carga horária do 68634 (24 h ou 16 h); parcelamento do presencial do neuro-summit; vagas restantes.
-6. [CONFIRMAR NO CATÁLOGO] Carga horária, idioma e certificado de 700; edição e tipo de tradução de 202; diferença entre 202 e 106; divergências 347 e 340, 501 e 602; duplicidades 643 e 713, 642 e 712.
-7. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação do curso livre e do evento; decisão sobre a frase "selo do MEC" na página de 68614.
-8. [CONFIRMAR autorização] Imagem e voz de docentes para qualquer página ou artigo que os cite.
-9. [CONFIRMAR] Nome do docente revisor de cada área e horas disponíveis para revisão.
-10. [CONFIRMAR] Teste de conteúdo sem JavaScript (SEO-05), canonical e marcação estruturada das páginas dos itens da onda 1.
-11. [CONFIRMAR] Datas e ingressos de congressos concorrentes em novembro de 2026 que possam colidir com 14/11, 20/11 e 28/11 (pesquisa de persona e tendências).
-12. [CONFIRMAR] Texto oficial do processo de título de especialista (CFMV e sociedade credenciada) e do credenciamento de curso de auxiliar veterinário, conferidos na fonte primária.
-13. [CONFIRMAR] Meio de pagamento para fora do Brasil, política de reembolso e revisão nativa do espanhol (P17).
-14. Sem fonte: preço público de concorrente brasileiro de curso curto, tamanho do público de cada formato, volume de busca de qualquer consulta.
+4. [CONFIRMAR NO CATÁLOGO] Modalidade de 616 (seção 5 do catálogo diz "On-line", com local "Presencial e Online") e de 68618 (sem modalidade).
+5. [CONFIRMAR NO CATÁLOGO] Carga horária e turma de 202 (a ficha traz 8 h e turma III, o catálogo não); carga horária, idioma e certificado de 700; diferença entre 202 e 106.
+6. [CONFIRMAR NO CATÁLOGO] Política única de cancelamento e reembolso; prazo de acesso por formato; período coberto pelos R$ 100,00 dos grupos; entrada em grupo em andamento; regra do cupom de aluno e ex-aluno (inclusive aluno de pós).
+7. [CONFIRMAR NO CATÁLOGO] Data de 623 no site; qual página fica entre 623 e 68637; data de início de 68665 (01/11 ou 05/11); carga horária do 68634 (24 h ou 16 h); parcelamento do presencial do neuro-summit; vagas restantes.
+8. [CONFIRMAR NO CATÁLOGO] Divergências 347 e 340, 501 e 602; duplicidades 643 e 713, 642 e 712; decisão entre duas páginas ou uma só para ventilação mecânica (507 e 68618).
+9. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação do curso livre e do evento; decisão sobre a frase "selo do MEC" na página de 68614.
+10. [CONFIRMAR autorização] Imagem e voz de docentes para qualquer página ou artigo que os cite.
+11. [CONFIRMAR] Nome do docente revisor de cada área e horas disponíveis para revisão.
+12. [CONFIRMAR] Teste de conteúdo sem JavaScript (SEO-05), canonical e marcação estruturada das páginas dos itens da onda 1.
+13. [CONFIRMAR] Datas e ingressos de congressos concorrentes em novembro de 2026 que possam colidir com 14/11, 20/11 e 28/11 (pesquisa de persona e tendências).
+14. [CONFIRMAR] Texto oficial do processo de título de especialista (CFMV e sociedade credenciada) e do credenciamento de curso de auxiliar veterinário, conferidos na fonte primária.
+15. [CONFIRMAR] Meio de pagamento para fora do Brasil, política de reembolso e revisão nativa do espanhol (P17).
+16. Sem fonte: preço público de concorrente brasileiro de curso curto, tamanho do público de cada formato, volume de busca de qualquer consulta.

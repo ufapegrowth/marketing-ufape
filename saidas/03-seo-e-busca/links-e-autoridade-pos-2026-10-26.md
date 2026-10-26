@@ -3,7 +3,7 @@
 - Agente: links-e-autoridade (etapa 1.18 da camada 1)
 - Linha: pos
 - Data: 26/10/2026
-- Status: rascunho para o qa-de-marketing (auditoria 03-busca e auditorias/conformidade-educacional.md). Nada foi publicado, enviado ou pago. Todo texto de contato abaixo é rascunho e só sai com aprovação humana.
+- Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md, seção 3.4). Nada foi publicado, enviado ou pago. Todo texto de contato abaixo é rascunho e só sai com aprovação humana.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
@@ -16,9 +16,10 @@
   - saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md
   - saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2 e 3, e o restante para contexto)
-- Como a evidência externa foi coletada: 16 consultas de WebSearch em 26/10/2026. Nenhuma página de origem foi aberta, e faculdade.ufape.com.br não foi acessado. Todo dado externo vem do resumo da busca, com a URL indicada, e precisa de conferência na fonte antes de ir para qualquer contato ou peça.
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md (seção 3, veredito)
+- Como a evidência externa foi coletada: 16 consultas de WebSearch em 26/10/2026. Nenhuma página de origem foi aberta, e faculdade.ufape.com.br não foi acessado. Todo dado externo vem do resumo da busca, com a URL indicada, e precisa de conferência na fonte antes de ir para qualquer contato ou peça. Afirmação externa sem URL leva "sem fonte".
 - Dados pessoais: nenhum. Docentes não são nomeados (nome e titulação só entram em peça com autorização registrada, [CONFIRMAR autorização]). Os rascunhos de contato não trazem dado de aluno, candidato ou lead.
-- Regras seguidas: nenhuma compra de link, avaliação paga, perfil falso ou avaliação feita pela própria Ufape; nenhuma frase de certificação nem nota do MEC; parceria, convênio e docente só quando confirmados (hoje nenhum está confirmado, ver seção 9).
+- Regras seguidas: nenhuma compra de link, avaliação paga, perfil falso ou avaliação feita pela própria Ufape; nenhuma frase de certificação nem nota do MEC; parceria, convênio e docente só quando confirmados (hoje nenhum está confirmado, ver seção 8); nome do curso sempre "Pós-graduação em <área>".
 
 ---
 
@@ -42,16 +43,16 @@ Legenda da chance de entrar: Alta (processo de cadastro existe e a Ufape cumpre 
 | # | Alvo | Evidência (URL, coleta 26/10/2026, resumo da busca) | O que cita hoje | O que pede para incluir uma instituição | Chance | Abordagem |
 |---|---|---|---|---|---|---|
 | P-1 | Quero Bolsa, página de instituição e páginas "bolsas" por curso | https://querobolsa.com.br/anclivepa (página da Anclivepa); https://querobolsa.com.br/cursos-e-faculdades/anestesiologia-veterinaria/bolsas | Anclivepa e outras instituições. Ufape não apareceu na busca | A busca não achou o passo a passo de cadastro de instituição: [CONFIRMAR no site do portal ou com o comercial]. O que se espera pedir: dados da instituição, lista de cursos, preços e condições, regras de bolsa | Média | Texto D-1 (seção 6). Cadastro com cobrança ou comissão vira decisão de verba, fora deste plano |
-| P-2 | Guia da Carreira, listagem de pós em Medicina Veterinária e página de instituição | https://www.guiadacarreira.com.br/cursos-e-faculdades/medicina-veterinaria/pos-graduacao (952 ofertas, valores de R$ 60,00 a R$ 2.235,84, instituição de cada oferta oculta no resumo); https://www.guiadacarreira.com.br/faculdades/anclivepa | Anclivepa, Unyleya, Universidade Módulo e outros. Ufape não apareceu | A busca não achou passo a passo de cadastro: [CONFIRMAR com a equipe comercial do portal]. Os resumos descrevem o portal como site de bolsas com adesão pelo estudante | Média | Texto D-1 |
+| P-2 | Guia da Carreira, listagem de Pós-graduação em Medicina Veterinária e página de instituição | https://www.guiadacarreira.com.br/cursos-e-faculdades/medicina-veterinaria/pos-graduacao (952 ofertas, valores de R$ 60,00 a R$ 2.235,84, instituição de cada oferta oculta no resumo); https://www.guiadacarreira.com.br/faculdades/anclivepa | Anclivepa, Unyleya, Universidade Módulo e outros. Ufape não apareceu | A busca não achou passo a passo de cadastro: [CONFIRMAR com a equipe comercial do portal]. Os resumos descrevem o portal como site de bolsas com adesão pelo estudante | Média | Texto D-1 |
 | P-3 | EAD.com.br, páginas de instituição e de curso | https://www.ead.com.br/faculdades/anclivepa ; https://www.ead.com.br/cursos-e-faculdades/medicina-veterinaria/pos-graduacao | Anclivepa, polos de EAD. Ufape não apareceu | [CONFIRMAR]. O layout e a estrutura de endereço são iguais aos do Guia da Carreira; se pertencem ao mesmo grupo, um cadastro vale para os dois [CONFIRMAR propriedade] | Média | Junto com P-2 |
 | P-4 | Educa Mais Brasil | https://www.educamaisbrasil.com.br/unyleya/cursos/pos-graduacao-clinica-medica-e-cirurgica (Unyleya, 22x de R$ 123,86 com 75% de bolsa) | Unyleya e outras. Os resumos descrevem o modelo como vagas remanescentes negociadas com desconto | [CONFIRMAR]. O modelo de desconto de vaga remanescente se afasta da prova de bolsa da Ufape e da turma mínima de 20 | Baixa | Não priorizar. Reavaliar depois que P-1 a P-3 responderem |
 | P-5 | Pravaler (blog e ofertas) | https://www.pravaler.com.br/blog/ensino-superior/pos-graduacao-em-medicina-veterinaria/ e https://www.pravaler.com.br/blog/profissoes/cardiologia-veterinaria/ | Descrevem especialidades e formato híbrido, sem citar a Ufape | Blog de produto de crédito educacional: processo editorial de terceiros não documentado [CONFIRMAR] | Baixa | Só se P-1 a P-3 e a imprensa derem retorno |
 
-### 1.2 Guias, listas e artigos de orientação ("como escolher pós em veterinária")
+### 1.2 Guias, listas e artigos de orientação ("como escolher Pós-graduação em Medicina Veterinária")
 
 | # | Alvo | Evidência | O que cita hoje | O que pede para incluir | Chance | Abordagem |
 |---|---|---|---|---|---|---|
-| G-1 | Quero Bolsa Revista: "10 pós-graduações mais procuradas em Medicina Veterinária" | https://querobolsa.com.br/revista/10-pos-graduacoes-mais-procuradas-em-medicina-veterinaria | Áreas (oncologia, dermatologia, odontologia equina, radiologia, entre outras). A matéria lista áreas, não instituições, no resumo | Contato com a redação [CONFIRMAR]. O que a redação pode usar: dado novo, verificável, sobre as áreas | Média | Texto D-2 |
+| G-1 | Quero Bolsa Revista: "10 pós-graduações mais procuradas em Medicina Veterinária" (título do portal) | https://querobolsa.com.br/revista/10-pos-graduacoes-mais-procuradas-em-medicina-veterinaria | Áreas (oncologia, dermatologia, odontologia equina, radiologia, entre outras). A matéria lista áreas, não instituições, no resumo | Contato com a redação [CONFIRMAR]. O que a redação pode usar: dado novo, verificável, sobre as áreas | Média | Texto D-2 |
 | G-2 | Quero Bolsa Revista: "Como funciona a especialização em Medicina Veterinária" | https://querobolsa.com.br/revista/como-funciona-a-especializacao-em-medicina-veterinaria (8 meses a 2 anos, exige diploma) | Informações genéricas, sem a Ufape | Idem G-1 | Média | Texto D-2 |
 | G-3 | Quero Bolsa Revista: "9 especializações em Medicina Veterinária para fazer em 2025", animais silvestres e residência | https://querobolsa.com.br/revista/9-especializacoes-em-medicina-veterinaria-para-fazer-em-2025 ; https://querobolsa.com.br/revista/medicina-veterinaria-especializacao-animais-silvestres ; https://querobolsa.com.br/revista/voce-ja-ouviu-falar-em-residencia-em-medicina-veterinaria | Conteúdo evergreen, sem a Ufape. O de 2025 está desatualizado, o que abre pauta para uma edição 2027 | Idem G-1 | Média | Texto D-2, mencionando as áreas em que a Ufape tem turma aberta (catálogo) |
 | G-4 | Guia da Carreira, blog "Tudo sobre especialização em Medicina Veterinária" | https://www.guiadacarreira.com.br/blog/tudo-sobre-especializacao-em-medicina-veterinaria | Como virar especialista (pós e prova do CFMV, a conferir). Sem a Ufape | [CONFIRMAR] contato editorial | Média | Texto D-2 |
@@ -71,8 +72,8 @@ Legenda da chance de entrar: Alta (processo de cadastro existe e a Ufape cumpre 
 
 | # | Alvo | Evidência | O que cita hoje | O que pede | Chance | Abordagem |
 |---|---|---|---|---|---|---|
-| C-1 | CRMV-SP e CFMV | A busca não trouxe nenhuma página dos conselhos que trate da divulgação de cursos de especialização. O CRMV-SP aparece com certificação de graduações (níveis bronze, prata e ouro, Resolução 2.994/2022, segundo o resumo) e com posição sobre ensino a distância. A Resolução CFMV nº 1572/2023 sobre título de especialista foi vista só em trechos | Orientação sobre título de especialista | Conselho não é canal de divulgação de curso. Pedir "reconhecimento" ou aval é proibido nesta rodada | Baixa, com risco regulatório | Não abordar. Só usar a norma no explicador T6, depois da regulação |
-| C-2 | Colégios e sociedades de especialidade: CBOV (oftalmologia), ABRAGA (gastroenterologia), CBCV (cirurgia), ANFIVET (fisioterapia) | Nomes sugeridos pelas buscas de lacunas e de hoje; a busca de hoje não achou lista de pós "reconhecidas" por nenhuma delas. Endereços e regras: [CONFIRMAR nas fontes oficiais] | A ANFIVET aparece ligada à mentora do curso da Qualittas (Jornal do Brás) | Convite a docente da Ufape para escrever, palestrar ou revisar conteúdo, só com autorização do docente. Critérios de cada entidade: [CONFIRMAR] | Média, só com docente | Texto D-4. Nunca pedir ou citar "reconhecimento" |
+| C-1 | CRMV-SP e CFMV | A busca não trouxe nenhuma página dos conselhos que trate da divulgação de cursos de especialização. O CRMV-SP aparece com certificação de graduações (níveis bronze, prata e ouro, Resolução 2.994/2022, segundo o resumo) e com posição sobre ensino a distância (https://crmvsp.gov.br/wp-content/uploads/2024/04/Informativo_94_CRMV-SP_FINAL.pdf). A Resolução CFMV nº 1572/2023 sobre título de especialista foi vista só em trechos (sem URL própria nesta busca; citada no lacunas-de-conteudo) | Orientação sobre título de especialista | Conselho não é canal de divulgação de curso. Pedir "reconhecimento" ou aval é proibido nesta rodada | Baixa, com risco regulatório | Não abordar. Só usar a norma no explicador T6, depois da regulação |
+| C-2 | Colégios e sociedades de especialidade: CBOV (oftalmologia), ABRAGA (gastroenterologia), CBCV (cirurgia), ANFIVET (fisioterapia) | Nomes sugeridos pelas buscas de lacunas e de hoje, sem URL oficial e sem fonte para canal, regras ou critérios. A busca de hoje não achou lista de pós "reconhecidas" por nenhuma delas. Endereços e regras: [CONFIRMAR nas fontes oficiais] | A ANFIVET aparece ligada à mentora do curso da Qualittas (Jornal do Brás, URL na linha I-2) | Convite a docente da Ufape para escrever, palestrar ou revisar conteúdo, só com autorização do docente. Critérios de cada entidade: [CONFIRMAR] | Média, só com docente | Texto D-4. Nunca pedir ou citar "reconhecimento" |
 | C-3 | Congresso Anclivepa e eventos do setor | https://www.neventum.com/tradeshows/congresso-anclivepa (próxima edição estimada em novembro de 2026, sem confirmação oficial); https://visitesaopaulo.com/evento/congresso-anclivepa-de-medicina-de-animais-selvagens-e-pets-nao-convencionais-2025/ | Evento do concorrente | O evento é do concorrente. Não é alvo de patrocínio nem de menção | Não se aplica | Só monitorar a data (alerta da inteligência de concorrência) |
 | C-4 | PET VET Expo e Congresso PET VET | https://distritoanhembi.com.br/?p=15805 (edição de 12 a 14/08/2026, já realizada) | Feira e congresso do setor | A edição de 2026 passou. A próxima: [CONFIRMAR]. Cotas e custo: não constam nos resumos | Baixa agora | Reavaliar quando houver data. Qualquer cota paga é decisão de verba, fora deste plano |
 | C-5 | Congressos temáticos listados em diretório (exemplo: nefrologia e urologia veterinárias 2026) | https://visitesaopaulo.com/evento/congresso-internacional-de-nefrologia-e-urologia-veterinarias-2026/ | Eventos de especialidade | Relação com a área A7 (prova 68653 sem turma de destino). Data, organizador e abertura para parceiros: [CONFIRMAR] | Baixa | Só depois de resolvido o destino da prova 68653 |
@@ -88,7 +89,7 @@ Legenda da chance de entrar: Alta (processo de cadastro existe e a Ufape cumpre 
 
 | # | Alvo | Estado conhecido | O que fazer | Esforço |
 |---|---|---|---|---|
-| O-1 | Consulta pública do e-MEC | Credenciamento de São Paulo pela Portaria MEC nº 176/2025 e de Goiânia pela Portaria MEC nº 871/2022 (contexto/ufape-geral.md, vindo dos editais de 2027/1). Não há texto aprovado de certificação de pós | Conferir só se o nome e o endereço exibidos batem com o resto (seção 8). Nenhuma peça cita o e-MEC como prova de pós | Baixo |
+| O-1 | Consulta pública do e-MEC | Credenciamento de São Paulo pela Portaria MEC nº 176/2025 e de Goiânia pela Portaria MEC nº 871/2022 (contexto/ufape-geral.md, vindo dos editais de 2027/1). Não há texto aprovado de certificação de pós | Conferir só se o nome e o endereço exibidos batem com o resto (seção 4). Nenhuma peça cita o e-MEC como prova de pós | Baixo |
 | O-2 | Perfil de empresa no Google (e Maps) da sede e de Goiânia | [CONFIRMAR] se existe, quem administra, se nome, endereço e telefone batem com os contatos oficiais | Padronizar nome, endereço, telefone e site. Não pedir avaliação em troca de brinde nem fazer avaliação própria | Baixo |
 | O-3 | Instagram @ufapevet, Facebook /Ufape, WhatsApp de vendas | Em uso (contexto/ufape-geral.md) | Mesmo nome, mesma descrição curta e link para a página de Pós. LinkedIn e YouTube: [CONFIRMAR se existem] | Baixo |
 | O-4 | Ufape Clínica (ufape.com.br) | Domínio separado do hospital veterinário | Ligar o site da clínica à página institucional da Faculdade, com texto igual sobre a relação entre as duas [CONFIRMAR o texto aprovado] | Baixo |
@@ -98,16 +99,18 @@ Legenda da chance de entrar: Alta (processo de cadastro existe e a Ufape cumpre 
 
 ## 2. Oportunidades ligadas à prova de bolsa de 27/11/2026
 
-Contexto fixo (catálogo, seção 3, e contexto/pos-graduacao.md): 22 provas abertas em 27/11/2026, inscrição de R$ 100,00 no site, 11 bolsas por prova (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0. A 68656 (Oftalmologia) está fora do ar e não entra. Concorrente: a Anclivepa-SP tem inscrições até 07/11/2026 e taxa de R$ 350,00 (edital, resumo da busca; sem comparar preço em peça).
+Contexto fixo (catálogo, seção 3, e contexto/pos-graduacao.md): 22 provas abertas em 27/11/2026, em 19 especialidades (Anestesiologia, Cardiologia e Clínica Cirúrgica têm prova em São Paulo e em Goiânia), inscrição de R$ 100,00 no site.
+
+**Regra completa da bolsa (vale para todo texto sobre a bolsa neste arquivo):** 11 bolsas por prova (2 de 50% em monitoria, 4 de 25% e 5 de 10%); nota de corte 7,0 (70% de acerto); bolsa não acumulativa e intransferível; 2 dias úteis para recurso; 10 dias úteis para a matrícula; turma de destino de cada prova [CONFIRMAR]. As fichas se contradizem em canal do resultado, prazo de matrícula (10 ou 7 dias) e turma mínima (15 ou 20): [CONFIRMAR NO CATÁLOGO] antes de qualquer peça. A 68656 (Oftalmologia) está fora do ar e não entra. Concorrente: a Anclivepa-SP tem inscrições até 07/11/2026 e taxa de R$ 350,00 (edital, resumo da busca; sem comparar preço em peça).
 
 | # | Oportunidade | Onde | Como a prova entra | Prazo realista | Trava |
 |---|---|---|---|---|---|
-| B-1 | Cadastro da prova e dos cursos nos portais de bolsa | Quero Bolsa, Guia da Carreira, EAD.com.br (P-1 a P-3) | Cada portal tem páginas "bolsas" por curso (exemplo no Quero Bolsa: anestesiologia veterinária). Pedir inclusão do curso com a prova de bolsa como forma de ingresso | Resposta e publicação provavelmente depois de 27/11 [SUPOSIÇÃO]. Vale mesmo assim para as próximas provas | Hub T1 pronto e sem contradição (canal do resultado, prazo de matrícula, turma mínima) |
-| B-2 | Calendário público de provas de bolsa da Ufape (hub T1), com data, local (São Paulo e Goiânia), valor, regras e bloco por especialidade | Site da Ufape | Vira a página que portais, imprensa e assistentes de IA citam. É o ativo linkável principal desta frente | Pode entrar já, se T1 for priorizado | Destino das provas 68652, 68649, 68653 e 68655; contradições entre fichas; página 68652 repete frase ligada ao MEC |
+| B-1 | Cadastro da prova e dos cursos nos portais de bolsa | Quero Bolsa, Guia da Carreira, EAD.com.br (P-1 a P-3) | Cada portal tem páginas "bolsas" por curso (exemplo no Quero Bolsa: anestesiologia veterinária). Pedir inclusão do curso com a prova de bolsa como forma de ingresso, informando a regra completa acima | Resposta e publicação provavelmente depois de 27/11 [SUPOSIÇÃO]. Vale mesmo assim para as próximas provas | Hub T1 pronto e sem contradição (canal do resultado, prazo de matrícula, turma mínima) |
+| B-2 | Calendário público de provas de bolsa da Ufape (hub T1), com data, local (São Paulo e Goiânia), valor, regra completa da bolsa e bloco por especialidade | Site da Ufape | Vira a página que portais, imprensa e assistentes de IA citam. É o ativo linkável principal desta frente | Pode entrar já, se T1 for priorizado | Destino das provas 68652, 68649, 68653 e 68655; contradições entre fichas; página 68652 repete frase ligada ao MEC |
 | B-3 | Guia de estudo da prova de Medicina de Felinos (conteúdo programático e bibliografia que já estão na ficha 68652) | Site da Ufape, link a partir do hub | É a página de prova mais completa do conjunto (lacunas A13). Pode virar a primeira citada em respostas sobre "o que cai na prova" | Curto | Mesmas travas do hub; qualquer orientação de estudo nova passa por docente |
-| B-4 | Pauta de imprensa especializada: como funciona a prova de bolsa e o calendário de turmas de 2027 | Panorama Pet Vet e imprensa do bairro da sede e de Goiânia (I-1, I-2) | Fato novo e verificável, com dados do catálogo | 2 a 3 semanas para a primeira resposta [SUPOSIÇÃO] | Aprovação humana e texto sem certificação |
-| B-5 | Agenda de eventos e de oportunidades acadêmicas de entidades de especialidade | Sociedades (C-2) | Aviso de prova aberta a associados, se a entidade tiver canal | Médio prazo | Entidade a confirmar; sem pedido de aval |
-| B-6 | Resposta objetiva às perguntas "como funciona a prova de bolsa da Ufape" para assistentes de IA | Hub T1 com tabela e FAQ visível | Parágrafo de 40 a 60 palavras que responde sozinho (visibilidade-em-ia) | Curto, depende do site novo | Idem B-2 |
+| B-4 | Pauta de imprensa especializada: como funciona a prova de bolsa e o calendário de turmas de 2027 | Panorama Pet Vet e imprensa do bairro da sede e de Goiânia (I-1, I-2) | Fato novo e verificável, com dados do catálogo e a regra completa | 2 a 3 semanas para a primeira resposta [SUPOSIÇÃO] | Aprovação humana e texto sem certificação |
+| B-5 | Agenda de eventos e de oportunidades acadêmicas de entidades de especialidade | Sociedades (C-2) | Aviso de prova aberta a associados, se a entidade tiver canal, com a regra completa | Médio prazo | Entidade a confirmar; sem pedido de aval |
+| B-6 | Resposta objetiva às perguntas "como funciona a prova de bolsa da Ufape" para assistentes de IA | Hub T1 com tabela e FAQ visível | Parágrafo de 40 a 60 palavras que responde sozinho (visibilidade-em-ia) e traz a regra completa | Curto, depende do site novo | Idem B-2 |
 
 Regras da frente:
 - Nenhuma peça diz "últimas vagas", nem compara preço de taxa com a Anclivepa, nem promete aprovação.
@@ -141,7 +144,7 @@ Hub da prova de bolsa (T1) <-> Pilar de cada curso <-> Guia de escolha da área 
 | R4 | O pilar tem um bloco "Prova de bolsa" com link para o hub T1, e o hub liga para o pilar de cada especialidade. Nada de link para páginas antigas de prova (680 a 695) | Evita 2 destinos para a mesma intenção (seo-tecnico V2) |
 | R5 | Nenhum link de compra ou chamada de inscrição para turma em "verificar", "sem venda" ou "encerrado" (catálogo, "Como usar"). Para 68612, 677, 650, 653 e 706, só link informativo, sem botão de compra | Conformidade e confiança |
 | R6 | Cursos Livres e Eventos: só link de saída do pilar (exemplos: 573 e o pilar de Ecocardiografia; neuro-summit e a área de Neurologia). Eles não entram no cluster da Pós | Decisão do lacunas-de-conteudo (cada cluster fica na própria linha) |
-| R7 | Âncora descritiva e variada: nome padrão ("Pós-graduação em Dermatologia Veterinária") em parte dos links; variações com intenção ("pós em dermatologia veterinária semipresencial em São Paulo") nos demais; nunca "clique aqui" nem "saiba mais" como única âncora | Âncora é sinal para buscadores e para assistentes de IA |
+| R7 | Âncora descritiva e variada: nome padrão ("Pós-graduação em Dermatologia Veterinária") em parte dos links; variações com intenção ("Pós-graduação em Dermatologia Veterinária semipresencial em São Paulo") nos demais; nunca "Pós em", nunca "clique aqui" nem "saiba mais" como única âncora | Âncora é sinal para buscadores e para assistentes de IA, e o padrão de nome da linha vale em texto visível |
 | R8 | Em artigo, de 3 a 5 links contextuais para páginas da própria Ufape, sem contar menu e rodapé [SUPOSIÇÃO: regra prática, não medida] | Evita diluição e artigo que parece lista de venda |
 | R9 | Depois dos 301 por código (SEO-01), atualizar os links internos para a URL final. Link interno não passa por redirecionamento | Evita cadeia de redirecionamento |
 | R10 | Menu e rodapé não listam turmas nem as 22 provas. O menu leva às áreas, ao hub T1 e ao guia geral (T4) | Páginas com links demais: hoje há 55 páginas de turma e 36 de prova, e o novo menu não pode repetir isso |
@@ -153,20 +156,20 @@ Hub da prova de bolsa (T1) <-> Pilar de cada curso <-> Guia de escolha da área 
 
 | Área | Origem | Destino | Âncora sugerida | Onde entra o link (parágrafo) | Condição |
 |---|---|---|---|---|---|
-| A9 Oftalmologia | Artigo "Oftalmologia veterinária: como se especializar (pós, residência e título do CBOV)" | Pilar Pós-graduação em Oftalmologia Veterinária (707) | "Pós-graduação em Oftalmologia Veterinária" | No parágrafo que compara pós e residência, depois da frase que descreve a pós como alternativa para quem mantém a clínica. Exemplo de frase: "Quem já atende e quer aprofundar a oftalmologia pode conciliar a rotina com uma pós semipresencial." | [REVISÃO REGULAÇÃO] no trecho do título. 707 começa em 30/10: a turma não se beneficia do artigo, a próxima edição sim |
-| A9 Oftalmologia | Pilar 707 | Guia "pós ou curso de microcirurgia" | "diferença entre a pós e os cursos de microcirurgia" | No bloco FAQ "Qual a diferença entre a pós e os cursos de microcirurgia?" | Os cursos livres de microcirurgia (589, 590, 603, 604) estão sem data ou iniciados: link informativo, sem compra |
+| A9 Oftalmologia | Artigo "Oftalmologia veterinária: como se especializar (Pós-graduação, residência e título do CBOV)" | Pilar Pós-graduação em Oftalmologia Veterinária (707) | "Pós-graduação em Oftalmologia Veterinária" | No parágrafo que compara pós e residência, depois da frase que descreve a pós como alternativa para quem mantém a clínica. Exemplo de frase: "Quem já atende e quer aprofundar a oftalmologia pode conciliar a rotina com uma pós semipresencial." | [REVISÃO REGULAÇÃO] no trecho do título. 707 começa em 30/10: a turma não se beneficia do artigo, a próxima edição sim |
+| A9 Oftalmologia | Pilar 707 | Guia "Pós-graduação em Oftalmologia Veterinária ou curso de microcirurgia" | "diferença entre a Pós-graduação em Oftalmologia Veterinária e os cursos de microcirurgia" | No bloco FAQ "Qual a diferença entre a pós e os cursos de microcirurgia?" | Os cursos livres de microcirurgia (589, 590, 603, 604) estão sem data ou iniciados: link informativo, sem compra |
 | A9 Oftalmologia | Pilar 707 | Hub T1 | Nenhuma | Remover o bloco "Prova de bolsa" enquanto a 68656 estiver fora do ar. Se a Ufape reabrir a prova, o bloco liga ao hub | Decisão da Ufape (lacunas A9) |
-| A5 Imagem | Guia "Diagnóstico por imagem ou ultrassonografia: qual especialização escolher" | Pilar Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária (68604 e 68611 num só) e pilar Ultrassonografia de Pequenos Animais (706 e 68629 num só) | Nome padrão de cada curso | Um parágrafo para cada curso, logo depois da tabela de comparação | Pilares únicos (T3). O nome longo do curso de imagem dilui a busca: a primeira frase do pilar repete "pós em diagnóstico por imagem veterinário" [SUPOSIÇÃO do lacunas] |
-| A5 Imagem | Pilar 68604 | Hub T1 (bloco da prova 68647) e links de saída para endoscopia | "Prova de bolsa de Diagnóstico por Imagem" | No bloco "Prova de bolsa", depois do preço e das datas | Links para livres de endoscopia (623 e 68637) só depois de decidir qual dos dois fica |
+| A5 Imagem | Guia "Diagnóstico por imagem ou ultrassonografia: qual especialização escolher" | Pilar Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária (68604 e 68611 num só) e pilar Ultrassonografia de Pequenos Animais (706 e 68629 num só) | Nome padrão de cada curso, com "Pós-graduação em" | Um parágrafo para cada curso, logo depois da tabela de comparação | Pilares únicos (T3). O nome longo do curso de imagem dilui a busca: a primeira frase do pilar usa o nome padrão e o termo de busca, por exemplo "A Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária é uma especialização em diagnóstico por imagem veterinária..." [SUPOSIÇÃO do lacunas] |
+| A5 Imagem | Pilar 68604 | Hub T1 (bloco da prova 68647) e links de saída para endoscopia | "Prova de bolsa de Diagnóstico por Imagem" | No bloco "Prova de bolsa", depois do preço e das datas, com a regra completa da bolsa (seção 2) | Links para livres de endoscopia (623 e 68637) só depois de decidir qual dos dois fica |
 | A6 Gastroenterologia | Artigo "Gastroenterologia veterinária: o que faz o especialista e como se formar" | Pilar Pós-graduação em Gastroenterologia Veterinária (68606) | "Pós-graduação em Gastroenterologia Veterinária" | No parágrafo final "como se formar", depois da explicação de pós e residência (T5) | 68606 começa em 07/11. Para a turma o ganho é nulo; vale para a próxima edição e para IA |
 | A6 Gastroenterologia | Pilar 68606 | Pilar de Diagnóstico por Imagem (A5) | "endoscopia e ultrassom na gastroenterologia" | No bloco "O curso inclui endoscopia?" do FAQ da área | Texto sobre endoscopia: [CONFIRMAR NO CATÁLOGO, ficha] |
 | A2 Cardiorrespiratório | Guia "Cardiologia, ecocardiografia ou curso hands-on: por onde começar" | Pilar Pós-graduação em Cardiologia Veterinária (68605 e 289 num só), pilar Pós-graduação em Ecocardiografia (698) e curso livre Curso Hands-On de Ecocardiografia Veterinária Básica (573) | Nome padrão das pós; nome do curso livre como está no catálogo | Tabela de comparação, com um parágrafo para cada opção | Corrigir antes a data de 698 (site mostra 2027, planilha 2026). 573 liga só como saída, sem entrar no cluster |
-| A2 Cardiorrespiratório | Pilar 698 | Pilar 573 | "curso hands-on de ecocardiografia veterinária básica" | Parágrafo "para quem ainda não faz ecocardiografia" | Pré-requisito de 698: [CONFIRMAR] |
-| A8 Dermatologia | Guia "Pós em dermatologia veterinária: EAD, semipresencial ou presencial" | Pilar Pós-graduação em Dermatologia Veterinária (68610) | "pós em dermatologia veterinária semipresencial em São Paulo" | No parágrafo que fecha cada critério (carga prática, formato, parcelas), sem citar preço de concorrente | Preço do 68610 só do catálogo (30x de R$ 1.000,00; R$ 30.000,00; matrícula R$ 250,00). Sem comparar com EAD |
-| A8 Dermatologia | Pilar 68610 | Hub T1 (bloco da prova 68646) e curso livre contínuo 463 | "prova de bolsa de dermatologia veterinária" | No bloco "Prova de bolsa" | 463: nome e status no catálogo (não lido na seção 5) [CONFIRMAR NO CATÁLOGO] |
+| A2 Cardiorrespiratório | Pilar 698 | Pilar 573 | "curso hands-on de ecocardiografia veterinária básica" | Parágrafo "para quem ainda não faz ecocardiografia" | Pré-requisito de 698: [CONFIRMAR]. Sem bloco de prova de bolsa em 698: não há prova de Ecocardiografia no catálogo; se a prova de Cardiologia (68641 e 68642) valer para 698, [CONFIRMAR NO CATÁLOGO] |
+| A8 Dermatologia | Guia "Pós-graduação em Dermatologia Veterinária: EAD, semipresencial ou presencial" | Pilar Pós-graduação em Dermatologia Veterinária (68610) | "Pós-graduação em Dermatologia Veterinária semipresencial em São Paulo" | No parágrafo que fecha cada critério (carga prática, formato, parcelas), sem citar preço de concorrente | Preço do 68610 só do catálogo (30x de R$ 1.000,00; R$ 30.000,00; matrícula R$ 250,00). Sem comparar com EAD |
+| A8 Dermatologia | Pilar 68610 | Hub T1 (bloco da prova 68646) e minicurso contínuo 463 (Mini Curso em Dermatologia na Clínica Médica de Pequenos Animais, aberto contínuo, R$ 248,00 à vista ou 5x de R$ 59,52, catálogo) | "prova de bolsa de Dermatologia Veterinária" | No bloco "Prova de bolsa", com a regra completa da bolsa | 463 liga só como saída, sem entrar no cluster |
 | A11 Laboratório | Guia "Hematologia, patologia clínica ou citopatologia: qual escolher" | Pilares 68608 (Hematologia), 68615 (Patologia Clínica) e 333 (Citopatologia) | Nome padrão de cada um, incluindo "Pós-graduação em Citopatologia Veterinária" (o nome atual no catálogo é "Pós Graduação em Citopatologia Veterinária", fora do padrão) | Um parágrafo por curso, com o público de cada um | Público (clínico ou laboratório): [CONFIRMAR] |
 | A11 Laboratório | Artigo "Citologia no consultório" | Pilar 333 e guia de A8 | "Pós-graduação em Citopatologia Veterinária" | No parágrafo "o que esperar do laudo" | [REVISÃO DOCENTE]; turma I do 333 |
-| Todas | Hub T1 | Pilar de cada especialidade com prova aberta | Nome padrão da pós + "prova de bolsa" | Um bloco por especialidade, em ordem alfabética | Destino das 4 provas sem turma futura |
+| Todas | Hub T1 | Pilar de cada especialidade com prova aberta | Nome padrão da pós + "prova de bolsa" | Um bloco por especialidade, em ordem alfabética, cada um com a regra completa da bolsa | Destino das 4 provas sem turma futura |
 
 ### 3.4 Correções de páginas órfãs ou sem ligação (do que já se sabe pelos documentos)
 
@@ -174,11 +177,11 @@ Sem rastreamento, estas são as páginas que, pelas auditorias, ficam sem uma li
 
 | Situação | Páginas | Correção de ligação |
 |---|---|---|
-| Páginas fora do ar ainda ligadas | 670 (Pneumologia), 68656 (prova de Oftalmologia), 638 | 301 para o pilar (670 para Pneumologia; 68656 para o pilar de Oftalmologia); remover o bloco de prova de 707 |
+| Páginas fora do ar ainda ligadas | 670 (Pneumologia), 68656 (prova de Oftalmologia); 638 (regras de estágio, fora do catálogo; origem: seo-tecnico C2; [CONFIRMAR NO CATÁLOGO]) | 301 para o pilar (670 para Pneumologia; 68656 para o pilar de Oftalmologia); remover o bloco de prova de 707 |
 | Provas antigas (13 páginas, 680 a 695) | 680, 681, 682, 684, 685, 687, 688, 689, 690, 691, 693, 694, 695 | 301 para o bloco da especialidade no hub T1 (mapa do seo-tecnico, chamado SEO-01) |
 | Turmas duplicadas | 27 páginas em 12 cursos | Uma URL canônica por curso; os links internos novos usam só ela |
 | Turmas sem venda | 664, 654, 610, 614, 615 | 301 para o pilar. Nenhum link interno novo aponta para elas |
-| Produto de teste | 183 | 410 (decisão da Ufape). Nunca ligar |
+| Produto de teste | 183 (fora do catálogo; origem: seo-tecnico C2; [CONFIRMAR NO CATÁLOGO]) | 410 (decisão da Ufape). Nunca ligar |
 | Cursos novos sem apoio | 341, 333, 366, 719, 359, 699, 382, 352, 60 (turmas I) | Cada um recebe um guia ou artigo ligando para o pilar (lacunas A1, A2, A7, A14) |
 | Pilares de áreas sem prova ou sem turma aberta | 653 (Endoscopia), 650 (Felinos), 68612 (Nefrologia) | Só link informativo; chamada de compra volta com turma aberta |
 
@@ -224,15 +227,17 @@ Regras: só nome e titulação como estão nas fichas; nenhum docente aparece se
 
 ### 5.2 Por área (onda 1 primeiro)
 
+Entidades abaixo: nomes sugeridos pela busca, sem URL oficial e sem fonte para canal ou regras ([CONFIRMAR nas fontes oficiais]).
+
 | Área | Peça de autoridade (do mapa de lacunas) | Entidade ou veículo candidato | Revisão | Docente |
 |---|---|---|---|---|
-| A9 Oftalmologia (707) | Artigo de título e formação; artigo sobre microcirurgia ocular. A ficha de 707 lista 19 professores | CBOV (nome sugerido pela busca; regras e canal: [CONFIRMAR]) | Regulação (título) e docente | [CONFIRMAR autorização] |
+| A9 Oftalmologia (707) | Artigo de título e formação; artigo sobre microcirurgia ocular. A ficha de 707 lista 19 professores | CBOV (sem fonte; regras e canal: [CONFIRMAR]) | Regulação (título) e docente | [CONFIRMAR autorização] |
 | A5 Imagem (68604, 68629) | Artigo "ultrassom na própria clínica"; artigo de endoscopia | Sociedade de imagem: [CONFIRMAR, não nomeada nas fontes] | Docente (e regulação para a pergunta sobre exigir pós) | [CONFIRMAR autorização] |
-| A6 Gastroenterologia (68606) | Artigos clínicos (DII, pancreatite, hepatopatias) e artigo de endoscopia e ultrassom | ABRAGA (nome sugerido pela busca; conferir) | Docente; a frase "especialidade emergente e carente de profissionais" precisa de fonte ou sai | [CONFIRMAR autorização] |
+| A6 Gastroenterologia (68606) | Artigos clínicos (DII, pancreatite, hepatopatias) e artigo de endoscopia e ultrassom | ABRAGA (sem fonte; conferir) | Docente; a frase "especialidade emergente e carente de profissionais" precisa de fonte ou sai | [CONFIRMAR autorização] |
 | A2 Cardiorrespiratório (698, 289) | Artigos de ecocardiografia e de ventilação mecânica | Sociedade de cardiologia: [CONFIRMAR, não nomeada nas fontes] | Docente | [CONFIRMAR autorização] |
 | A8 Dermatologia (68610) | Artigos sobre dermatopatias e citologia | Sociedade de dermatologia: [CONFIRMAR, não nomeada nas fontes] | Docente | [CONFIRMAR autorização] |
 | A11 Laboratório (68608, 68615, 333) | Artigos de hemograma e citologia | Sociedade de patologia clínica: [CONFIRMAR, não nomeada nas fontes]. A ficha de 333 cita um professor e coordenação "UFAPE" [CONFIRMAR] | Docente | [CONFIRMAR autorização] |
-| A4 Cirurgia e reabilitação (ondas 2 e 3) | Artigos de reabilitação e clínica cirúrgica | CBCV e ANFIVET (nomes sugeridos pela busca; a ANFIVET está ligada a docente da Qualittas, o que exige cuidado) | Docente e regulação | [CONFIRMAR autorização] |
+| A4 Cirurgia e reabilitação (ondas 2 e 3) | Artigos de reabilitação e clínica cirúrgica | CBCV e ANFIVET (sem fonte própria; a ANFIVET está ligada a docente da Qualittas, Jornal do Brás, URL na linha I-2, o que exige cuidado) | Docente e regulação | [CONFIRMAR autorização] |
 | Demais áreas (A1, A3, A7, A10, A12 a A14) | Conforme os 3 artigos de cada área no lacunas-de-conteudo | A definir depois da onda 1 | Docente ou regulação, conforme marcação | [CONFIRMAR autorização] |
 
 ### 5.3 Formatos de publicação externa (só com autorização e revisão)
@@ -251,13 +256,13 @@ Todos são rascunho. Ninguém envia sem aprovação humana. Quem assina e o cont
 
 ### D-1. Portais de cursos e bolsas (Quero Bolsa, Guia da Carreira e EAD.com.br)
 
-Assunto: Inclusão da Faculdade UFAPE e das pós-graduações em Medicina Veterinária
+Assunto: Inclusão da Faculdade UFAPE e das Pós-graduações em Medicina Veterinária
 
 Olá, equipe de parcerias.
 
-A Faculdade UFAPE (São Paulo e Goiânia) oferece mais de 40 especializações para médicos veterinários, em formato semipresencial, com turmas abertas para 2026 e 2027. Também realiza provas de bolsa por especialidade, com a próxima em 27/11/2026, com inscrição de R$ 100,00 e 11 bolsas por prova.
+A Faculdade UFAPE (São Paulo e Goiânia) oferece mais de 40 especializações para médicos veterinários, em formato semipresencial, com turmas abertas para 2026 e 2027. Também realiza provas de bolsa por especialidade: em 27/11/2026 são 22 provas em 19 especialidades, em São Paulo e Goiânia, com inscrição de R$ 100,00. Cada prova tem 11 bolsas (2 de 50% em monitoria, 4 de 25% e 5 de 10%). A bolsa é não acumulativa e intransferível, com 10 dias úteis para a matrícula. Turma de destino de cada prova: [CONFIRMAR antes do envio]. Regras completas em [URL do hub T1, depois de publicado].
 
-Não encontramos a Faculdade UFAPE nas páginas de pós-graduação em Medicina Veterinária do portal. Gostaríamos de entender como cadastrar a instituição e os cursos, quais dados vocês pedem e quais são as condições da parceria. Podemos enviar a lista de cursos, as datas e as regras das bolsas, todos conferidos com o nosso catálogo.
+Não encontramos a Faculdade UFAPE nas páginas de Pós-graduação em Medicina Veterinária do portal. Gostaríamos de entender como cadastrar a instituição e os cursos, quais dados vocês pedem e quais são as condições da parceria. Podemos enviar a lista de cursos, as datas e as regras das bolsas, todos conferidos com o nosso catálogo.
 
 Obrigado,
 [NOME E CARGO DE QUEM ASSINA]
@@ -266,26 +271,26 @@ Lembrete (2 semanas): "Retomamos o contato sobre o cadastro da Faculdade UFAPE. 
 
 ### D-2. Redação dos portais: pauta para guias e matérias de especialização
 
-Assunto: Pauta: calendário de pós-graduações e de provas de bolsa em Medicina Veterinária (2026 e 2027)
+Assunto: Pauta: calendário de Pós-graduação e de provas de bolsa em Medicina Veterinária (2026 e 2027)
 
 Olá, [nome da editoria, quando conhecido].
 
-Acompanhamos a matéria "Como funciona a especialização em Medicina Veterinária" e a lista de pós mais procuradas. Para uma atualização, a Faculdade UFAPE pode fornecer dados públicos e conferíveis: calendário das turmas de pós de 2027 por especialidade, formato semipresencial (online e módulos presenciais), carga horária e valores como estão no nosso catálogo, e como funciona a nossa prova de bolsa de 27/11/2026.
+Acompanhamos a matéria "Como funciona a especialização em Medicina Veterinária" e a lista de pós mais procuradas. Para uma atualização, a Faculdade UFAPE pode fornecer dados públicos e conferíveis: calendário das turmas de Pós-graduação de 2027 por especialidade, formato semipresencial (online e módulos presenciais), carga horária e valores como estão no nosso catálogo, e como funciona a nossa prova de bolsa de 27/11/2026 (11 bolsas por prova, não acumulativa e intransferível, 10 dias úteis para a matrícula, turma de destino [CONFIRMAR antes do envio]).
 
 Se fizer sentido, podemos indicar um coordenador de curso para conversar sobre como escolher entre pós, residência e curso prático [CONFIRMAR docente e autorização antes de enviar].
 
 Obrigado,
 [NOME E CARGO DE QUEM ASSINA]
 
-Lembrete (2 semanas): "Se a pauta sobre calendário de pós e provas de bolsa ainda for útil, enviamos a planilha de dados e a página com as regras."
+Lembrete (2 semanas): "Se a pauta sobre calendário de Pós-graduação e provas de bolsa ainda for útil, enviamos a planilha de dados e a página com as regras."
 
 ### D-3. Imprensa especializada e de bairro: pauta da prova de bolsa
 
-Assunto: Prova de bolsa em Medicina Veterinária: 22 especialidades em 27/11/2026
+Assunto: Prova de bolsa em Medicina Veterinária: 22 provas em 19 especialidades em 27/11/2026
 
 Olá, [nome da redação].
 
-A Faculdade UFAPE (Av. 9 de Julho, 3939, São Paulo) abre inscrições para provas de bolsa em 22 especialidades da pós-graduação, em São Paulo e Goiânia, com prova em 27/11/2026. A inscrição custa R$ 100,00, e cada prova tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A página com data, regras e conteúdo por especialidade está em [URL do hub T1, depois de publicado].
+A Faculdade UFAPE (Av. 9 de Julho, 3939, São Paulo) abre inscrições para 22 provas de bolsa em 19 especialidades da Pós-graduação, em São Paulo e Goiânia, com prova em 27/11/2026. A inscrição custa R$ 100,00, e cada prova tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A bolsa é não acumulativa e intransferível, com 10 dias úteis para a matrícula. A turma de destino de cada prova é [CONFIRMAR antes do envio]. A página com data, regras e conteúdo por especialidade está em [URL do hub T1, depois de publicado].
 
 Podemos enviar o material em texto e as informações de cada especialidade. Se houver interesse, indicamos um docente para falar sobre preparo e formação [CONFIRMAR docente e autorização].
 
@@ -328,7 +333,7 @@ Obrigado,
 
 Lembrete (2 semanas): "Retomamos para combinar o texto da página de parceiros."
 
-Travas: a lista de parceiros e o bloco "Patrocinadores e parceiros" das páginas ainda estão vazios no contexto ([lista]). A parceria com a UniAvan citada em currículos públicos não está confirmada. A frase "estágios em clínicas parceiras" (ficha de 68606) também espera nomes e confirmação. Não enviar este texto para ninguém que a Ufape não tenha confirmado.
+Travas: a lista de parceiros e o bloco "Patrocinadores e parceiros" das páginas ainda estão vazios no contexto ([lista]). A parceria com a UniAvan citada em currículos públicos não está confirmada (sem fonte oficial). A frase "estágios em clínicas parceiras" (ficha de 68606) também espera nomes e confirmação. Não enviar este texto para ninguém que a Ufape não tenha confirmado.
 
 ### Tabela de acompanhamento
 
@@ -351,9 +356,9 @@ Critério: chance de entrar, esforço baixo, proximidade da matrícula e ausênc
 
 | Ordem | Ideia | Por que está no topo | Ângulo de abordagem | Quem mais pesa na decisão | Prazo e trava |
 |---|---|---|---|---|---|
-| 1 | Cadastro da Faculdade UFAPE e dos cursos nos portais de cursos e bolsas (Quero Bolsa, Guia da Carreira, EAD.com.br) | Os 3 portais mostram a concorrente direta e são a fonte que a busca devolve para "pós em <área>". Conferir a citação por assistentes de IA: lacunas, seção 8 | Dado limpo e verificável: lista de cursos do catálogo, nome padrão "Pós-graduação em <área>", prova de bolsa como porta de entrada. Sem comparar preço de concorrente | Comercial do portal [CONFIRMAR] | Depois da correção de datas e da frase ligada ao MEC. Qualquer cobrança é decisão de verba |
+| 1 | Cadastro da Faculdade UFAPE e dos cursos nos portais de cursos e bolsas (Quero Bolsa, Guia da Carreira, EAD.com.br) | Os 3 portais mostram a concorrente direta e são a fonte que a busca devolve para "Pós-graduação em <área>". Conferir a citação por assistentes de IA: lacunas, seção 8 | Dado limpo e verificável: lista de cursos do catálogo, nome padrão "Pós-graduação em <área>", prova de bolsa como porta de entrada, com a regra completa (11 bolsas por prova, não acumulativa e intransferível, 10 dias úteis para a matrícula, turma de destino [CONFIRMAR]). Sem comparar preço de concorrente | Comercial do portal [CONFIRMAR] | Depois da correção de datas e da frase ligada ao MEC. Qualquer cobrança é decisão de verba |
 | 2 | Atualização editorial de matérias de especialização veterinária (Quero Bolsa Revista, blog do Guia da Carreira) | Matérias de orientação ranqueiam e são fonte de assistentes de IA. A de "9 especializações em 2025" está desatualizada | Fornecer calendário de turmas 2027 e explicação do formato semipresencial e da prova de bolsa, como serviço ao leitor. A Ufape como fonte de dados, não como anúncio | Redação [CONFIRMAR contato] | Pauta com dado novo em 27/10 a 06/11. Sem frase de certificação |
-| 3 | Pauta da prova de bolsa de 27/11 em imprensa especializada e de bairro (Panorama Pet Vet e veículos de bairro da sede e de Goiânia) | Fato novo, com data, e sem custo | "22 especialidades, 2 cidades, R$ 100,00, 11 bolsas por prova". Foco no que muda para o candidato, não na marca | Redação | Depende do hub T1 sem contradição. Veículos de bairro: [CONFIRMAR] |
+| 3 | Pauta da prova de bolsa de 27/11 em imprensa especializada e de bairro (Panorama Pet Vet e veículos de bairro da sede e de Goiânia) | Fato novo, com data, e sem custo | "22 provas de bolsa em 19 especialidades, 2 cidades, R$ 100,00, 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), bolsa não acumulativa e intransferível, 10 dias úteis para a matrícula, turma de destino [CONFIRMAR]". Foco no que muda para o candidato, não na marca | Redação | Depende do hub T1 sem contradição. Veículos de bairro: [CONFIRMAR] |
 | 4 | Sociedades e colégios de especialidade com docente autorizado (CBOV, ABRAGA, CBCV, ANFIVET) | Entidade de especialidade é terceira parte de peso para a área. Ligada às áreas A9 e A6 da onda 1 | Contribuição técnica revisada do docente (artigo ou evento). Não pedir reconhecimento nem lista de "cursos reconhecidos" | Diretoria ou comissão de eventos da entidade [CONFIRMAR] | Autorização do docente e regulação. Médio prazo |
 | 5 | Parceiros e clínicas de estágio confirmados (link recíproco) | Link conquistado entre parceiros reais, com texto combinado | Página de parceiros com texto aprovado pelos dois lados | Responsável pelo parceiro | Hoje não há parceiro confirmado no contexto. Entra assim que a lista existir |
 
@@ -361,7 +366,7 @@ Ideias que ficam de fora por risco, por custo ou por depender de dado inexistent
 
 Ativos linkáveis que a Ufape pode criar com dado que já tem (todos com texto do catálogo e sem dado pessoal):
 1. Calendário de provas de bolsa e de turmas de pós por especialidade (T1 e T3).
-2. Guia "Como escolher uma pós-graduação em Medicina Veterinária" (T4), sem ranking e sem citar concorrente.
+2. Guia "Como escolher uma Pós-graduação em Medicina Veterinária" (T4), sem ranking e sem citar concorrente.
 3. Explicador "Pós, residência, aprimoramento e curso livre" (T5), com revisão da regulação.
 4. Guia de estudo da prova de Medicina de Felinos (a partir da ficha 68652).
 5. Tabela "Investimento e formas de pagamento" (T8), só com dado do catálogo.
@@ -395,11 +400,11 @@ A squad não consegue rodar perguntas em ChatGPT, Gemini, Perplexity, Claude nem
 | IA-1 | **Entidade institucional única.** Página "Faculdade UFAPE" (T9) com nome público, razão social e CNPJ, endereço da sede, praças (São Paulo, Goiânia e EAD), relação com a Ufape Clínica e links para os perfis oficiais. Marcação EducationalOrganization (name, legalName, address, url, sameAs com Instagram e Facebook, e o domínio da clínica) | Assistentes ligam o curso a uma instituição. Sem entidade clara, o nome se mistura com a UFAPE de Pernambuco | Baixo | seo-on-page e time do site |
 | IA-2 | **Nome consistente "Pós-graduação em <área>"** em título, H1, URL, marcação, anúncios, portais e imprensa. Enviar aos portais e à imprensa uma ficha de dados padrão com o nome, a modalidade (semipresencial, presencial ou EAD) e as praças, conforme o catálogo | O que a IA cita repete o nome que encontra. Seis cursos hoje fogem do padrão (706, 68629, 341, 333, 659 e 719) | Baixo | seo-on-page |
 | IA-3 | **Página única por curso** (T3) com tabela de turmas, FAQ visível, primeira frase respondendo direto e bloco de resposta de 40 a 60 palavras que faz sentido sozinho | Formato que a IA extrai. A página de turma duplicada impede a escolha de "a" página | Médio | seo-on-page e time do site |
-| IA-4 | **Dados estruturados:** Course com provider (EducationalOrganization) e CourseInstance por turma (startDate igual ao da página, courseMode, courseWorkload); FAQPage só com pergunta visível; Person só para docente autorizado. Sem preço, sem certificação e sem ato regulatório até a Ufape liberar (seo-tecnico V3; modelo em JSON-LD no SEO-06). "Course Info" não gera mais destaque visual no Google desde 2025: a marcação serve para descrever, não para prometer posição | Ajuda máquinas a entender a página | Baixo a médio | time do site |
+| IA-4 | **Dados estruturados:** Course com provider (EducationalOrganization) e CourseInstance por turma (startDate igual ao da página, courseMode, courseWorkload); FAQPage só com pergunta visível; Person só para docente autorizado. Sem preço, sem certificação e sem ato regulatório até a Ufape liberar (seo-tecnico V3; modelo em JSON-LD no SEO-06). O recurso visual "Course Info" deixou de aparecer nos resultados do Google em 2025 e saiu do relatório do Search Console em 09/09/2025. Fonte: Google Search Central, "Simplifying the search results page", 12/06/2025 (https://developers.google.com/search/blog/2025/06/simplifying-search-results), citada no seo-tecnico e não aberta nesta rodada. A data de 09/09/2025 vem de cobertura secundária (https://searchengineland.com/google-drops-reporting-on-several-structured-data-types-461744). Logo, a marcação serve para descrever a página, não para prometer posição | Ajuda máquinas a entender a página | Baixo a médio | time do site |
 | IA-5 | **Página de docente com nome e titulação como na ficha, só com autorização,** ligada ao pilar do curso e ao artigo que o docente revisou. Autor ou revisor identificado no artigo | Autoria e especialidade são sinal de confiança em conteúdo de saúde | Médio | Ufape, seo-on-page |
-| IA-6 | **Conteúdo visível sem JavaScript** (teste com curl, SEO-05) e **robots.txt** coerente: robôs de busca de IA liberados; decisão sobre robôs de treino tomada pela Ufape | Muitos robôs de IA não executam JavaScript. Se a página parecer vazia, não é citada | Baixo a médio | time do site |
+| IA-6 | **Conteúdo visível sem JavaScript** (teste com curl, SEO-05) e **robots.txt** coerente: robôs de busca de IA liberados; decisão sobre robôs de treino tomada pela Ufape | [SUPOSIÇÃO, sem fonte nesta rodada] Muitos robôs de IA não executam JavaScript; se a página parecer vazia, não é citada. O teste com curl do SEO-05 mostra se o caso se aplica | Baixo a médio | time do site |
 | IA-7 | **Citações de terceiros** (seções 1 e 2): portais, imprensa e entidades que descrevem a Ufape com o mesmo nome, as mesmas praças e a mesma modalidade | Assistentes citam o que terceiros dizem. É o ganho mais lento e mais duradouro | Médio a alto | links-e-autoridade e Ufape |
-| IA-8 | **Hub T1 da prova de bolsa e FAQ** com data, regras e o que cai na prova | As perguntas "como funciona a prova de bolsa da Ufape" e "o que cai na prova de felinos" têm hoje resposta parcial (lacunas, X3 e A13.2) | Médio | seo-on-page |
+| IA-8 | **Hub T1 da prova de bolsa e FAQ** com data, regra completa da bolsa e o que cai na prova | As perguntas "como funciona a prova de bolsa da Ufape" e "o que cai na prova de felinos" têm hoje resposta parcial (lacunas, X3 e A13.2) | Médio | seo-on-page |
 | IA-9 | **Atualização visível e mensal.** Data de revisão em cada pilar, hub e guia; revisão mensal do calendário (planilha vence o site) | Dado atual é preferido, e dado errado atrapalha mais do que ajuda | Baixo | Ufape e time do site |
 | IA-10 | **Não fazer:** versão de página só para IA, texto picotado, avaliação própria, perfil falso, ranking ou prêmio inventado, nota do MEC | Regra da skill visibilidade-em-ia | - | - |
 
@@ -407,10 +412,10 @@ A squad não consegue rodar perguntas em ChatGPT, Gemini, Perplexity, Claude nem
 
 | Pergunta (resumo) | Fonte de terceiros que a busca mostrou | Ação nesta peça |
 |---|---|---|
-| "Qual a melhor pós em <área> em São Paulo?" | Páginas "bolsas" por curso (Quero Bolsa) e listagens (Guia da Carreira, EAD.com.br) | P-1 a P-3 |
-| "Pós ou residência?" | https://querobolsa.com.br/revista/voce-ja-ouviu-falar-em-residencia-em-medicina-veterinaria | G-3 |
-| "Como funciona uma pós semipresencial?" | https://querobolsa.com.br/revista/como-funciona-a-especializacao-em-medicina-veterinaria | G-2 |
-| "Quanto custa a pós da Ufape?" | Páginas dos portais, sem a Ufape | P-1 a P-3, T8 |
+| "Qual a melhor Pós-graduação em <área> em São Paulo?" | Páginas "bolsas" por curso (Quero Bolsa) e listagens (Guia da Carreira, EAD.com.br) | P-1 a P-3 |
+| "Pós-graduação ou residência?" | https://querobolsa.com.br/revista/voce-ja-ouviu-falar-em-residencia-em-medicina-veterinaria | G-3 |
+| "Como funciona uma Pós-graduação semipresencial?" | https://querobolsa.com.br/revista/como-funciona-a-especializacao-em-medicina-veterinaria | G-2 |
+| "Quanto custa a Pós-graduação da Ufape?" | Páginas dos portais, sem a Ufape | P-1 a P-3, T8 |
 | "Faculdade UFAPE e UFAPE de Pernambuco" | ufape.edu.br domina a busca pela sigla | IA-1, IA-2 |
 | "Como funciona a prova de bolsa da Ufape?" | Página da própria Ufape (parcial) e edital da concorrente | IA-8, B-2 |
 
@@ -461,11 +466,13 @@ Nada é publicado, enviado ou pago pela squad.
 ## Lista 1. Fatos com fonte
 
 Dados da Ufape (todos de arquivos do repositório):
-- 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00, 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), nota de corte 7,0: contexto/pos-graduacao.md e catálogo, seção 3.
+- 22 provas de bolsa abertas em 27/11/2026, em 19 especialidades (Anestesiologia, Cardiologia e Clínica Cirúrgica com prova em São Paulo e Goiânia), inscrição de R$ 100,00: catálogo, seção 3.
+- Regra da bolsa: 11 bolsas por prova (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, não acumulativa e intransferível, 2 dias úteis para recurso, 10 dias úteis para a matrícula: contexto/pos-graduacao.md.
 - 68656 (Oftalmologia) fora do ar; 68652, 68649, 68653 e 68655 sem turma de destino: catálogo, seção 3, cmo-geral e lacunas.
 - Mais de 40 especializações, praças São Paulo, Goiânia e EAD, formato semipresencial: contexto/ufape-geral.md e contexto/pos-graduacao.md.
 - Razão social, CNPJ e sede (Av. 9 de Julho, 3939, Jardim Paulista, São Paulo): contexto/ufape-geral.md.
-- 12 cursos com 27 páginas de mesmo nome; 46 páginas com a frase ligada ao MEC; 13 provas antigas; seis cursos fora do padrão de nome; chamados SEO-01 a SEO-07: saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md.
+- 463 Mini Curso em Dermatologia na Clínica Médica de Pequenos Animais, aberto (contínuo), R$ 248,00 à vista ou 5x de R$ 59,52; 669 e 455 são minicursos e 721 é grupo de estudos: catálogo, seções 5 e 7, conforme o veredito do qa-de-marketing (seção 3.4, item 6; seções não lidas por este agente).
+- 12 cursos com 27 páginas de mesmo nome; 46 páginas com a frase ligada ao MEC; 13 provas antigas; seis cursos fora do padrão de nome; chamados SEO-01 a SEO-07; códigos 638 e 183 (origem da menção): saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md.
 - Perguntas de IA sem resposta na Ufape, pilares, guias e artigos por área: saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md.
 - Concorrência (Anclivepa-SP, Qualittas e outros): saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md.
 - Ficha de 707 lista 19 professores e traz microscópio individual; ficha de 68652 traz conteúdo e bibliografia da prova: lacunas, seção 4 (fichas lidas por aquele agente, não por este).
@@ -481,7 +488,8 @@ Dados da busca na web (26/10/2026, resumo da busca, páginas não abertas):
 - A busca por "Ufape Intercursos" devolveu dois PDFs do edital de aprimoramento da Ufape (https://faculdade.ufape.com.br/uploads/edital/edital-programa-de-aprimoramento-em-terapia-intensiva-veterinaria.pdf e a versão de julho de 2026 em /uploads/arquivo/), com sede na Av. 9 de Julho, 3939; e editais de vestibular e de desconto da Faculdade UFAPE (https://faculdade.ufape.com.br/arquivo/edital-vestibular-2025-2.pdf), com vestibular pelo site intercursos.com.br.
 - A busca por "Faculdade Ufape" junto de Quero Bolsa, Guia da Carreira e EAD.com.br não devolveu nenhuma página da Ufape nesses portais.
 - Nenhuma página do CRMV-SP sobre divulgação de cursos de especialização foi encontrada; o CRMV-SP aparece com certificação de graduações (Resolução 2.994/2022) e posição sobre ensino a distância (https://crmvsp.gov.br/wp-content/uploads/2024/04/Informativo_94_CRMV-SP_FINAL.pdf).
-- Resolução CFMV nº 752/2003 trata da residência médico-veterinária como pós-graduação lato sensu (https://abmes.org.br/public/arquivos/legislacoes/Res_CFMV_752_171003.pdf). A Resolução CFMV nº 1572/2023 foi vista só em trechos (citada no lacunas).
+- Resolução CFMV nº 752/2003 trata da residência médico-veterinária como pós-graduação lato sensu (https://abmes.org.br/public/arquivos/legislacoes/Res_CFMV_752_171003.pdf). A Resolução CFMV nº 1572/2023 foi vista só em trechos (citada no lacunas, sem URL própria aqui).
+- "Course Info" saiu dos resultados do Google em 2025: Google Search Central, 12/06/2025 (https://developers.google.com/search/blog/2025/06/simplifying-search-results), citada no seo-tecnico; saída do relatório do Search Console em 09/09/2025 por cobertura secundária (https://searchengineland.com/google-drops-reporting-on-several-structured-data-types-461744). Páginas não abertas nesta rodada.
 - Nenhuma lista de pós "reconhecidas" por CBOV, ABRAGA ou CBCV foi encontrada.
 - Em Goiânia, a busca por pós presencial em Medicina Veterinária não trouxe oferta presencial atual de concorrente (só EAD, edital antigo da UFG e editais de aluno especial). É indício, não prova.
 
@@ -494,8 +502,9 @@ Dados da busca na web (26/10/2026, resumo da busca, páginas não abertas):
 - [SUPOSIÇÃO] Os endereços novos seguem /pos-graduacao/pos-graduacao-em-<área> e a página única por curso será implementada (SEO-04).
 - [SUPOSIÇÃO] Existem grupos e fóruns de médicos veterinários por especialidade; nenhum foi verificado.
 - [SUPOSIÇÃO] De 3 a 5 links contextuais por artigo e mais de 100 links por página como alerta são regras práticas, não medidas.
+- [SUPOSIÇÃO] Muitos robôs de IA não executam JavaScript (sem fonte nesta rodada).
 - [SUPOSIÇÃO] Esforço e efeito das ações da seção 10.
-- [SUPOSIÇÃO] Entidades (CBOV, ABRAGA, CBCV, ANFIVET) têm canal de contribuição de terceiros; nome sugerido pela busca, sem confirmação.
+- [SUPOSIÇÃO] Entidades (CBOV, ABRAGA, CBCV, ANFIVET) têm canal de contribuição de terceiros; nome sugerido pela busca, sem URL nem fonte.
 - [SUPOSIÇÃO] Marcação estruturada e entidade institucional aumentam a chance de citação por IA. Sem rodada manual, não há medida.
 
 ## Lista 3. Dados que faltam
@@ -503,14 +512,14 @@ Dados da busca na web (26/10/2026, resumo da busca, páginas não abertas):
 - [CONFIRMAR] Se a Ufape já tem cadastro em Quero Bolsa, Guia da Carreira, EAD.com.br ou Educa Mais Brasil, e quem administra.
 - [CONFIRMAR] Processo, custo e condições de cadastro em cada portal (a busca não trouxe).
 - [CONFIRMAR] Contato editorial de Quero Bolsa Revista, blog do Guia da Carreira, Panorama Pet Vet e veículos de bairro da sede e de Goiânia.
-- [CONFIRMAR] Lista de parceiros, convênios e clínicas de estágio confirmados (bloco "Patrocinadores e parceiros" vazio); parceria com a UniAvan citada em currículos públicos; uso desses currículos como prova social.
+- [CONFIRMAR] Lista de parceiros, convênios e clínicas de estágio confirmados (bloco "Patrocinadores e parceiros" vazio); parceria com a UniAvan citada em currículos públicos (sem fonte oficial); uso desses currículos como prova social.
 - [CONFIRMAR autorização] Docentes, entrevistas, artigos e perfis externos.
-- [CONFIRMAR NO CATÁLOGO] Edital de aprimoramento em terapia intensiva; nome e status dos livres citados (463, 669, 455, 721; seção 5 do catálogo não lida nesta rodada).
+- [CONFIRMAR NO CATÁLOGO] Edital de aprimoramento em terapia intensiva; códigos 638 e 183 (origem no seo-tecnico); turma de destino de todas as provas; se a prova de Cardiologia (68641 e 68642) vale para 698.
 - [CONFIRMAR] Endereços, regras e nomes oficiais de CBOV, ABRAGA, CBCV e ANFIVET, e as sociedades de cardiologia, dermatologia, imagem e patologia clínica.
 - [CONFIRMAR] Data e abertura a terceiros da próxima edição da PET VET Expo e do congresso da Anclivepa.
 - [CONFIRMAR] Nome público e nome alternativo da instituição; se existe perfil de empresa no Google, LinkedIn e YouTube.
 - [CONFIRMAR] Quem aprova contato externo; texto aprovado de relação entre a Faculdade e a Ufape Clínica.
-- [CONFIRMAR NO CATÁLOGO] Datas de 698, 352, 366, 662, 68662 e 68636; destino das provas 68652, 68649, 68653 e 68655; regras únicas da prova.
+- [CONFIRMAR NO CATÁLOGO] Datas de 698, 352, 366, 662, 68662 e 68636; regras únicas da prova (canal do resultado, prazo de matrícula, turma mínima).
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação; leitura do texto vigente da Resolução CFMV nº 1572/2023.
 - Sem dado: rastreamento do site (páginas fortes, órfãs, links demais), Search Console, backlinks existentes, taxa de citação em assistentes de IA, lista de artigos do blog.
 - Sem dado: valor de cadastro e de comissão em portais; número de bolsas por prova da Anclivepa.
@@ -519,7 +528,7 @@ Dados da busca na web (26/10/2026, resumo da busca, páginas não abertas):
 
 ## Fontes
 
-Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md; saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md; saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; .claude/skills/mencoes-e-citacoes/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md.
+Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md; saidas/03-seo-e-busca/seo-tecnico-geral-2026-10-26.md; saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md; .claude/skills/mencoes-e-citacoes/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md.
 
 Externas (resumo de busca em 26/10/2026; páginas não abertas):
 - Quero Bolsa: https://querobolsa.com.br/anclivepa ; https://querobolsa.com.br/revista/como-funciona-a-especializacao-em-medicina-veterinaria ; https://querobolsa.com.br/revista/9-especializacoes-em-medicina-veterinaria-para-fazer-em-2025 ; https://querobolsa.com.br/revista/10-pos-graduacoes-mais-procuradas-em-medicina-veterinaria ; https://querobolsa.com.br/revista/medicina-veterinaria-especializacao-animais-silvestres ; https://querobolsa.com.br/revista/voce-ja-ouviu-falar-em-residencia-em-medicina-veterinaria ; https://querobolsa.com.br/cursos-e-faculdades/anestesiologia-veterinaria/bolsas
@@ -530,6 +539,7 @@ Externas (resumo de busca em 26/10/2026; páginas não abertas):
 - Blogs de concorrentes: https://www.pravaler.com.br/blog/ensino-superior/pos-graduacao-em-medicina-veterinaria/ ; https://www.pravaler.com.br/blog/profissoes/cardiologia-veterinaria/ ; https://blog.anhanguera.com/cirurgia-veterinaria/ ; https://blog.anhanguera.com/gastroenterologia-veterinaria ; https://blog.anhanguera.com/oftalmologia-veterinaria/
 - Eventos: https://distritoanhembi.com.br/?p=15805 ; https://www.neventum.com/tradeshows/congresso-anclivepa ; https://visitesaopaulo.com/evento/congresso-anclivepa-de-medicina-de-animais-selvagens-e-pets-nao-convencionais-2025/ ; https://visitesaopaulo.com/evento/congresso-internacional-de-nefrologia-e-urologia-veterinarias-2026/
 - Conselhos e normas: https://crmvsp.gov.br/wp-content/uploads/2024/04/Informativo_94_CRMV-SP_FINAL.pdf ; https://abmes.org.br/public/arquivos/legislacoes/Res_CFMV_752_171003.pdf ; https://revistamvez-crmvsp.com.br/index.php/recmvz/article/download/3241/2442
+- Google (Course Info): https://developers.google.com/search/blog/2025/06/simplifying-search-results ; https://searchengineland.com/google-drops-reporting-on-several-structured-data-types-461744
 - Vagas (sinal fraco): https://www.agrobase.com.br/oportunidades/2025/09/medicoa-veterinarioa-especialista-ultrassonografia-sao-jose-dos-campos-sp/
 - Ufape: https://faculdade.ufape.com.br/uploads/edital/edital-programa-de-aprimoramento-em-terapia-intensiva-veterinaria.pdf ; https://faculdade.ufape.com.br/uploads/arquivo/edital-programa-de-aprimoramento-em-terapia-intensiva-veterinaria_julho2026.docx.pdf ; https://faculdade.ufape.com.br/arquivo/edital-vestibular-2025-2.pdf
 
@@ -537,4 +547,4 @@ Externas (resumo de busca em 26/10/2026; páginas não abertas):
 
 ## Próximo passo
 
-Próximo agente sugerido: estrategia-de-conteudo (etapa 1.19), que usa os 5 ativos linkáveis da seção 7 e as regras de links internos da seção 3, e depois estrategia-social (1.20) e distribuicao (1.24) para a divulgação dos ativos. Antes de qualquer contato externo, esta saída passa pelo qa-de-marketing e por auditorias/conformidade-educacional.md, e a aprovação é da pessoa do marketing.
+Depois desta correção, o arquivo volta ao qa-de-marketing. Em seguida, o próximo agente sugerido é a estrategia-de-conteudo (etapa 1.19), que usa os ativos linkáveis da seção 7 e as regras de links internos da seção 3, e depois estrategia-social (1.20) e distribuicao (1.24). Antes de qualquer contato externo, a aprovação é da pessoa do marketing.
