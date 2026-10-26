@@ -1,0 +1,1272 @@
+# Régua de nutrição da Graduação 2027/1: WhatsApp e e-mail (G1 e G2)
+
+- Agente: campanhas-de-nutricao
+- Linha: graduacao
+- Data: 26/10/2026 (segunda-feira)
+- Workflow: /campanha-de-vestibular, etapa 7 de 8 (régua do lead até a redação e da aprovação até a matrícula; o copy-de-mensagens lapida os textos em 09/11)
+- Liberações cobertas:
+  - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
+  - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
+- Status: rascunho para aprovação humana. São textos para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é publicado, enviado ou pago a partir deste arquivo.
+- Entradas lidas:
+  - docs/execucao-2026-10-26.md
+  - CLAUDE.md
+  - contexto/ufape-geral.md
+  - contexto/graduacao.md
+  - contexto/catalogo-de-cursos.md (seção 1, Graduação, e regras de uso)
+  - contexto/cursos/graduacao/editais-2027-1.md
+  - templates/mensagem.md
+  - .claude/skills/mapear-regua/SKILL.md
+  - .claude/skills/assuntos-de-email/SKILL.md
+  - saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md (entrada principal)
+  - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-graduacao-2026-10-26.md
+  - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md
+  - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
+  - auditorias/07-email-e-whatsapp.md, auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md
+- Regra de fonte: preço, modalidade, turno, duração, carga horária e ato vêm do catálogo (seção 1). Datas, vagas, formas de ingresso, matrícula, cancelamento e regras do desconto vêm da ficha dos editais 2027/1. Matriz curricular vem das fichas do curso, citada pelo briefing e pela oferta, e fica marcada "(ficha do curso)". Não abri faculdade.ufape.com.br. Nenhum número de inscritos, redações, matrículas, vagas restantes, verba ou meta existe hoje.
+- Nota de nome: o plano do cmo previa este arquivo com data de 06/11/2026; foi entregue em 26/10/2026, com o nome pedido pelo orquestrador.
+
+---
+
+## 0. Regras, variáveis e blocos que valem para toda a régua
+
+### 0.1 Regras duras (a cada mensagem, o qa confere)
+
+1. Toda mensagem tem valor por si só (explica uma etapa, responde uma dúvida ou mostra uma regra) e uma única chamada para ação.
+2. Desconto sempre com valor cheio, valor com desconto, percentual, regra e validade (só o 1º semestre de 2027). Mensagem curta que não comporta a regra leva o bloco de preço completo na mesma mensagem ou remete ao edital pelo nome.
+3. Edital do desconto citado pelo nome do programa: "Programa de Desconto de Mensalidade 2027/1 (Edital 003/2026)" para São Paulo e "Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026)" para Goiânia. Nenhuma mensagem reproduz o preâmbulo, a data de assinatura ou o item 3.5 desses editais (erros de texto, pedido G7 do cmo).
+4. Ato como no catálogo, sem antecipar reconhecimento. Nenhuma nota do MEC. Nenhuma frase de certificação. Nenhuma promessa de emprego, salário, aprovação ou concurso. A redação é eliminatória: nunca "fácil" nem "aprovação certa".
+5. Sem urgência sem número real: não há data-limite de inscrição, nem número de vagas restantes. Fatos permitidos: aulas em 22/02/2027, matrícula 2 dias depois do resultado, cancelamento com 80% até 2 dias antes das aulas.
+6. Prouni, Fies e financiamento não aparecem.
+7. Candidato menor de idade exige aceite do responsável legal na inscrição e na matrícula (Edital 002/2026 e Edital 004/2026). Seção 0.3 trata de quem recebe cada mensagem.
+8. Pedagogia: nenhuma carga horária, nenhum docente, nenhum trecho de modelo da página, nenhum bloco do egresso, nenhuma lista de professores, nenhum endereço de Goiânia até a Ufape confirmar (pedidos G5, G6 e G9).
+9. Medicina Veterinária: hospital veterinário (Ufape Clínica) e docentes só com autorização e confirmação de uso pela graduação (pedido G11). Nenhuma mensagem obrigatória depende disso.
+10. Nenhum dado pessoal neste arquivo. Todo dado do candidato entra por variável do CRM, entre chaves.
+11. Nada de caixa alta para gritar, pontuação repetida ou emoji. Nunca travessão nem meia-risca.
+
+### 0.2 Variáveis do CRM (preenchidas pelo CRM, nunca neste arquivo)
+
+| Variável | O que é |
+|---|---|
+| {primeiro_nome} | Primeiro nome de quem recebe |
+| {nome_candidato} | Nome do candidato, usado nas versões para o responsável |
+| {curso} | Medicina Veterinária (G1) ou Pedagogia (G2) |
+| {link_lp_utm} | LP da Graduação do curso, com UTM gerada pela plataforma [CONFIRMAR qual URL recebe a UTM, pedido G13] |
+| {link_area_candidato} | Área do candidato, onde faz a redação, envia a nota do Enem e vê o resultado [CONFIRMAR nome e URL] |
+| {link_passo_a_passo} | Página ou PDF de passo a passo da redação e do Enem [CONFIRMAR se existe; se não, remover a linha] |
+| {link_resultado} | Página de resultado no site [CONFIRMAR URL] |
+| {link_matricula} | Plataforma de matrícula digital [CONFIRMAR URL] |
+| {link_edital_vestibular} | PDF do edital de ingresso (uploads/arquivo/edital-vestibular-2027.pdf ou edital-processo-seletivo-2027-1-goiania.pdf) |
+| {link_edital_desconto} | PDF do edital de desconto (uploads/arquivo/edital-descontos-2027.pdf ou edital-de-desconto-mensalidade-2027-1-goiania.pdf) |
+| {link_politica} | Política de privacidade [CONFIRMAR URL, pedido G13] |
+| {data_resultado} e {data_matricula} | Data de publicação do resultado e primeiro dia de matrícula (2 dias depois), do sistema de inscrição |
+| {contato_captacao} | G1: Vendas São Paulo, WhatsApp (11) 91366-9290. G2: Vendas Goiânia, WhatsApp (62) 9420-1847 (contatos de contexto/ufape-geral.md; o site informou instabilidade no WhatsApp interno em 22/10/2026: [CONFIRMAR o canal de resposta ativo]) |
+
+Valores por turma do G1 (catálogo e Edital 003/2026; total do semestre com desconto é conta sobre esses números):
+
+| Variável | Integral | Noturno |
+|---|---|---|
+| {turno} | integral | noturno |
+| {duracao} | 4 anos | 5 anos |
+| {mensalidade_cheia} | R$ 10.000,00 (semestre: R$ 60.000,00 em 6 parcelas) | R$ 10.000,00 (semestre: R$ 60.000,00 em 6 parcelas) |
+| {mensalidade_desc} | R$ 5.000,00 | R$ 4.000,00 |
+| {percentual} | 50% | 60% |
+| {total_semestre_desc} | R$ 30.000,00 | R$ 24.000,00 |
+| {estagio} | 7º e 8º semestres (ficha do curso) | 9º e 10º semestres (ficha do curso) |
+| {bloco_preco} | BP-INT | BP-NOT |
+
+### 0.3 Blocos oficiais reutilizados (texto único; a mensagem os cola)
+
+**BP-INT (preço, integral):**
+"Medicina Veterinária integral em São Paulo: de R$ 10.000,00 por R$ 5.000,00 por mês (50% de desconto) nas 6 mensalidades do 1º semestre de 2027. O valor cheio é de R$ 10.000,00 por mês (R$ 60.000,00 no semestre). O desconto vale para todas as formas de ingresso, é aplicado a partir da confirmação da matrícula e vale só para o 1º semestre de 2027. Para continuar nos semestres seguintes, o aluno pede a renovação a cada semestre, com comprovação, nas regras do Programa de Desconto de Mensalidade 2027/1 (Edital 003/2026). O desconto é perdido no mês em que a mensalidade for paga depois do vencimento (dia 10) e não vale junto com programas governamentais com regras próprias."
+
+**BP-NOT (preço, noturno):** igual ao BP-INT, trocando por "Medicina Veterinária noturno em São Paulo: de R$ 10.000,00 por R$ 4.000,00 por mês (60% de desconto)".
+
+**BP-PED (preço, Pedagogia):**
+"Pedagogia noturno em Goiânia: de R$ 1.050,00 por R$ 525,00 por mês (50% de desconto) nas 6 mensalidades do 1º semestre de 2027. O valor cheio é de R$ 1.050,00 por mês (R$ 6.300,00 no semestre). O desconto vale para todas as formas de ingresso, é aplicado a partir da confirmação da matrícula e vale só para o 1º semestre de 2027. Para continuar nos semestres seguintes, o aluno pede a renovação a cada semestre, com comprovação, nas regras do Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026). O desconto é perdido no mês em que a mensalidade for paga depois do vencimento (dia 10) e não vale junto com programas governamentais com regras próprias."
+
+**BD (e depois do 1º semestre):**
+"O desconto do edital vale para as 6 mensalidades do 1º semestre de 2027. Para continuar com desconto, você pede a renovação a cada semestre, com comprovação, nas regras do edital. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. O valor cheio hoje é de {mensalidade_cheia} por mês, com reajuste previsto em dezembro de cada ano. Antes de se matricular, peça ao time as regras de renovação por escrito." [CONFIRMAR o que é a "comprovação" e o efeito do reajuste de dezembro sobre 2027/1, pedidos P1 e G12. Até lá, a resposta não promete valor.]
+
+**BM (menor de idade):** "Se o candidato for menor de idade, a inscrição e a matrícula precisam do aceite do responsável legal."
+
+**BC (como fazer a avaliação):**
+"Você tem dois caminhos, e a inscrição é gratuita.
+1. Redação online. Não há dia marcado: você faz quando puder, depois da inscrição. A redação é eliminatória, com nota mínima 5,0.
+2. Nota do Enem. Vale a média aritmética de 300 pontos ou mais, de qualquer edição a partir de 2010.
+Passo a passo da redação: (1) entre na área do candidato, {link_area_candidato}; (2) abra a prova de redação; (3) faça a redação online [CONFIRMAR tempo de prova, tema, se é possível salvar e se há nova tentativa]; (4) aguarde o resultado, publicado no site [CONFIRMAR prazo de divulgação].
+Passo a passo do Enem: (1) tenha a nota de uma edição de 2010 em diante; (2) envie a nota pela área do candidato [CONFIRMAR onde e como envia e como a média é calculada]; (3) aguarde o resultado, publicado no site."
+
+**BX (o que vem depois):**
+"O resultado é publicado no site. A matrícula é eletrônica e abre 2 dias depois da publicação. Ela se confirma com o pagamento da 1ª mensalidade e a assinatura digital do contrato. Os documentos são enviados pela plataforma de matrícula digital em até 30 dias. As aulas começam em 22/02/2027."
+
+**BA (ato, G1):** "Medicina Veterinária, bacharelado presencial em São Paulo, com ato autorizativo na Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025). A Faculdade UFAPE de São Paulo é credenciada pela Portaria MEC nº 176, de 27/02/2025 (D.O.U. 28/02/2025)."
+**BA (ato, G2):** "Pedagogia, licenciatura presencial em Goiânia, com ato autorizativo na Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022). A Faculdade UFAPE de Goiânia é credenciada pela Portaria MEC nº 871, de 10/11/2022."
+
+### 0.4 Campos fixos (valem para toda mensagem do tipo, para não repetir)
+
+**FE (campos fixos de e-mail):**
+- Opt-in: consentimento de e-mail registrado no CRM, com data e origem. Sem registro, o CRM não envia.
+- Template Meta: não se aplica.
+- Forma de sair: link de descadastro no rodapé, que vale na hora.
+- Rodapé: "Você recebe este e-mail porque se cadastrou no Vestibular 2027 da Faculdade UFAPE e aceitou receber contatos. Para parar de receber, use o link de descadastro. Política de privacidade: {link_politica}. UFAPE - CURSOS ESPECIALIZADOS LTDA, CNPJ 27.409.162/0001-34, Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP." (razão social, CNPJ e sede de contexto/ufape-geral.md).
+- Assinatura: "Equipe de captação da Faculdade UFAPE" e {contato_captacao}.
+
+**FW (campos fixos de WhatsApp):**
+- Opt-in de WhatsApp confirmado: sim, exigido antes de cada envio. O CRM só envia se o campo de opt-in de WhatsApp estiver "sim", com data e origem. Sem registro, a mensagem não sai.
+- Mensagem iniciada pela Ufape: sempre por template aprovado pela Meta (nome na mensagem). Resposta do time dentro da janela de 24 horas do contato pode ser texto livre. As variáveis entre chaves viram {{1}}, {{2}} e assim por diante, na ordem em que aparecem; a pessoa que submeter o template informa um exemplo fictício por variável. Categoria (utilidade ou marketing): [CONFIRMAR com a Meta e o responsável pelo CRM]. Nenhum template foi submetido: pendente de aprovação humana e da Meta.
+- Forma de sair: última linha de toda mensagem, "Para não receber mais mensagens, responda SAIR."
+- Horário: segunda a sexta, das 9h às 18h, nunca em fim de semana nem feriado. Frequência: no máximo 1 WhatsApp a cada 3 dias úteis e no máximo 2 contatos por semana somando os dois canais [SUPOSIÇÃO de desenho].
+- Assinatura: "Faculdade UFAPE".
+
+### 0.5 Consentimento e menores de idade (quem recebe cada mensagem)
+
+1. Adulto (18 anos ou mais): recebe a versão normal, no canal em que deu consentimento.
+2. Candidato menor de idade: a mensagem vai ao responsável legal cadastrado, com a versão "para o responsável" (marcada "-R"), e só se o consentimento do responsável estiver registrado. Mensagem direta ao menor fica suspensa até o jurídico e o responsável pelo CRM validarem o tratamento de consentimento de menor (pedido G10, [CONFIRMAR]). Até lá, o CRM não envia WhatsApp nem e-mail de marketing a contato identificado como menor.
+3. O CRM precisa ter o campo "menor de idade: sim ou não" e "responsável: contato e consentimento" [CONFIRMAR se existe]. Se não existir, a régua do G1 só dispara para quem o time marcar como adulto ou responsável, e o resto espera.
+4. Versões para o responsável falam com o adulto, sem pressão de compra dirigida ao menor, sem urgência e sem imagem ou nome além da variável {nome_candidato}.
+5. Anúncio pago continua só para 18 anos ou mais (plano do cmo). Esta régua não muda isso.
+
+### 0.6 Etiquetas e dados necessários no CRM e no atendimento
+
+- Etapa do funil: lead, inscrito, avaliado (redação feita ou Enem enviado), aprovado, matriculado, ativo em 22/02/2027, encerrado.
+- Liberação e turno: G1-integral, G1-noturno, G2.
+- Consentimento: e-mail (sim ou não, data, origem), WhatsApp (sim ou não, data, origem), saída solicitada (canal e data).
+- Menor de idade (sim ou não) e contato do responsável com consentimento.
+- Origem (UTM) e data da inscrição, data do resultado, data da matrícula.
+- Etiqueta "falar com a captação" e "sem engajamento".
+- Cada envio registra: mensagem (código), canal, data e hora, entregue, aberto ou lido, clique, resposta, saída.
+- Atendimento e CRM: ferramentas [CONFIRMAR] (contexto/ufape-geral.md deixa o campo em branco).
+
+---
+
+## 1. Mapa da jornada do lead ao candidato pronto para se matricular
+
+| Etapa | O que conta | Gatilho de entrada | Régua | Objetivo final da etapa | Próximo passo do candidato |
+|---|---|---|---|---|---|
+| 0. Lead | Cadastro na LP com UTM, sem inscrição concluída [CONFIRMAR se o formulário da LP já é a inscrição] | Cadastro | L1 a L7 (lead novo) | Concluir a inscrição gratuita | Inscrever-se |
+| 1. Inscrito | Inscrição concluída, sem redação nem Enem | Inscrição | AT (base existente, 30/10) e R1 a R5 (inscritos novos) | Redação feita ou nota do Enem enviada | Avaliação |
+| 2. Avaliado | Redação feita ou Enem enviado, resultado pendente | Redação ou Enem registrados | Sem mensagem de venda. Só o aviso de serviço do sistema [CONFIRMAR] | Aguardar resultado | Resultado no site |
+| 3. Aprovado | Resultado publicado como aprovado | Resultado no site | A1 a A6 | 1ª mensalidade paga e contrato assinado | Matrícula |
+| 4. Matriculado | Matrícula confirmada | Pagamento mais assinatura | M1 a M5 | Documentos enviados e matrícula mantida até as aulas | 22/02/2027 |
+| 5. Ativo | Aulas iniciadas | 22/02/2027 | Fim da régua; jornada do aluno (jornada-do-aluno) | Permanecer | Rematrícula |
+
+Se o formulário da LP já é a inscrição, o lead novo entra direto em R1 e a régua L fica só para quem deixou contato sem se inscrever (por exemplo, quem veio de anúncio e pediu informação) [CONFIRMAR, pedido G13].
+
+Visão geral das réguas (cada uma com 5 a 7 contatos; 56 mensagens no total, mais versões para o responsável):
+
+| Régua | G1 (Medicina Veterinária) | G2 (Pedagogia) | Contatos |
+|---|---|---|---|
+| Ativação da base (30/10) | G1-AT1 e-mail, AT2 WhatsApp, AT3 WhatsApp | G2-AT1, AT2, AT3 | 3 |
+| Lead novo | G1-L1 e-mail, L2 WhatsApp, L3 e-mail, L4 WhatsApp, L5 e-mail, L6 WhatsApp, L7 e-mail | G2-L1 a L7 (mesmos canais) | 7 |
+| Inscrito até a redação | G1-R1 e-mail, R2 WhatsApp, R3 e-mail, R4 WhatsApp, R5 e-mail | G2-R1 a R5 | 5 |
+| Aprovado até a matrícula | G1-A1 e-mail, A2 WhatsApp, A3 e-mail, A5 WhatsApp, A6 e-mail (A4-R WhatsApp só para responsável de menor) | G2-A1 a A6 | 5 a 6 |
+| Matriculado até 22/02/2027 | G1-M1 e-mail, M2 WhatsApp, M3 e-mail, M4 WhatsApp, M5 e-mail | G2-M1 a M5 | 5 |
+
+Os 5 WhatsApp e 3 e-mails do kit mínimo do plano do cmo (por liberação) estão cobertos: os mais ligados aos prazos do edital são AT2 e R2 (como fazer a redação), L2 (alternativa do Enem), A2 (matrícula 2 dias depois do resultado) e A6 ou M5 (reta final); e-mails AT1 ou R1 (confirmação e próximos passos), A1 e A3 (aprovação e matrícula com as condições do Edital 003/2026 e a regra de cancelamento) e M5 (reta final). O copy-de-mensagens escolhe, a partir destes textos, os 5 e os 3 do kit e pode juntar ou cortar contatos.
+
+---
+
+# PARTE G1: Medicina Veterinária (São Paulo, integral e noturno)
+
+## G1-A. Ativação da base: inscritos que ainda não fizeram a redação (30/10/2026)
+
+Objetivo único: levar quem já se inscreveu a fazer a redação online ou a enviar a nota do Enem.
+
+### G1-A.1 Segmento e passo a passo para o time
+
+1. Segmento no CRM: inscrito no G1 desde 17/08/2026, sem redação realizada e sem nota do Enem registrada, não matriculado, sem pedido de saída, com consentimento de e-mail e, para WhatsApp, com opt-in registrado. Dois recortes: integral e noturno [CONFIRMAR se o CRM guarda o turno escolhido e o status "redação feita"].
+2. Excluir: menores sem consentimento do responsável validado (pedido G10) e qualquer contato com a etiqueta "falar com a captação" aberta.
+3. Escolher a versão: adulto (texto normal) ou responsável (versão "-R").
+4. Ordem: AT1 (e-mail), AT2 (WhatsApp, 1 dia útil depois), AT3 (WhatsApp, 4 dias úteis depois do AT2, só para quem não respondeu e segue sem redação). Quem faz a redação ou responde sai da sequência na hora.
+5. Datas sugeridas, se o texto for aprovado até 02/11: AT1 em 03/11/2026 (terça; 02/11 é feriado, [SUPOSIÇÃO: conferir calendário]), AT2 em 04/11, AT3 em 10/11. Horário sugerido: 10h30 ou 14h30, para testar [SUPOSIÇÃO]. A data real depende da aprovação humana e do segmento no CRM [CONFIRMAR].
+6. Quem responder vai ao time de captação com a etiqueta "falar com a captação". O time usa as respostas da seção G1-F e G2-F.
+7. Depois do AT3, quem segue sem redação e sem resposta entra na régua R no contato R3 (não repete o que já recebeu).
+8. Medir por mensagem: entregue, aberto ou lido, clique, resposta, redação feita em até 7 dias, saída. Resultado por turno, nunca somado.
+
+### G1-A.2 O prazo que vale (texto de apoio para o time e para as mensagens)
+
+- Não há data de prova: a redação é online e pode ser feita a qualquer momento depois da inscrição (Edital 002/2026).
+- Não há data final de inscrição no edital. [CONFIRMAR com a Ufape se existe data-limite interna de inscrição e de matrícula, pedido G4.] Até a resposta, nenhuma mensagem fala em prazo de inscrição.
+- O que limita de verdade: as aulas começam em 22/02/2027 e a matrícula só abre 2 dias depois do resultado. O cancelamento com devolução de 80% só vale se pedido até 2 dias antes do início das aulas (20/02/2027).
+- Conselho dado ao candidato, sem pressão: fazer a redação com folga, porque o resultado e a matrícula também levam alguns dias [CONFIRMAR o prazo de divulgação do resultado].
+- Meta interna (não vai para o candidato): redações e Enem cumpridos até 31/01/2027 [SUPOSIÇÃO de desenho do briefing].
+- As vagas existem (45 no integral e 45 no noturno, Edital 002/2026), mas não há número de vagas restantes: nenhuma mensagem fala em vagas acabando.
+
+### G1-AT1 (e-mail): sua inscrição está feita, falta a avaliação
+
+- Canal: e-mail
+- Linha e curso: Graduação, Medicina Veterinária, São Paulo, {turno}
+- Objetivo: fazer o inscrito abrir a área do candidato e fazer a redação ou enviar o Enem
+- Segmento: inscrito sem redação (etapa 1), adulto
+- Assunto A: {primeiro_nome}, sua inscrição está feita: o próximo passo é a redação ou o Enem
+- Assunto B: Redação online, sem dia marcado: veja como fazer
+- Texto de pré-visualização: Faça quando puder, ou use sua nota do Enem de 2010 em diante.
+- Gancho: Você já fez o mais difícil de começar: a inscrição.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  Você se inscreveu no Vestibular 2027 de Medicina Veterinária {turno} da Faculdade UFAPE. Para seguir no processo, falta a avaliação.
+  {BC}
+  O que vem depois: {BX}
+  Se tiver qualquer dúvida, responda este e-mail ou fale com o time de captação em {contato_captacao}. {BM}"
+- Chamada para ação: "Acessar minha inscrição" ({link_area_candidato})
+- Follow-up para quem não abriu ou não respondeu: AT2 (WhatsApp, 1 dia útil depois); reenvio do AT1 com o assunto B só se não houver opt-in de WhatsApp.
+- Data e horário: ver G1-A.1, item 5.
+- Opt-in e saída: FE.
+
+### G1-AT1-R (e-mail, versão para o responsável)
+
+- Assunto A: Vestibular 2027 de {nome_candidato}: o próximo passo é a redação ou o Enem
+- Assunto B: Para o responsável: como {nome_candidato} faz a redação online
+- Texto de pré-visualização: Sem dia marcado. O aceite do responsável também é necessário na matrícula.
+- Gancho: Você consta como responsável por {nome_candidato}, que já se inscreveu.
+- Corpo:
+  "Olá.
+  {nome_candidato} se inscreveu no Vestibular 2027 de Medicina Veterinária {turno} da Faculdade UFAPE. A inscrição é gratuita e, como o candidato é menor de idade, ela exigiu o aceite do responsável legal. O aceite do responsável também é necessário na matrícula.
+  Para seguir, {nome_candidato} precisa fazer a avaliação:
+  {BC}
+  O que vem depois: {BX}
+  Quando houver valores, o desconto do 1º semestre de 2027 será explicado com todas as regras antes de qualquer pagamento. Dúvidas: responda este e-mail ou fale com o time de captação em {contato_captacao}."
+- Chamada para ação: "Ver o passo a passo" ({link_area_candidato})
+- Follow-up: AT2-R.
+- Opt-in e saída: FE, com consentimento do responsável registrado (seção 0.5).
+
+### G1-AT2 (WhatsApp): redação online, sem dia marcado
+
+- Canal: WhatsApp automático (template grad_mv_ativacao_redacao_v1; variáveis: {primeiro_nome}, {turno}, {link_area_candidato})
+- Objetivo: levar o inscrito à área do candidato
+- Segmento: inscrito sem redação, adulto, sem resposta ao AT1 ou sem abertura
+- Primeira linha A: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. Sua redação do Vestibular pode ser feita online, sem dia marcado.
+- Primeira linha B: Oi, {primeiro_nome}. Já fez o Enem? Sua nota pode ser a sua entrada na Medicina Veterinária da Ufape.
+- Gancho: Duas formas de entrar, as duas sem custo de inscrição.
+- Corpo:
+  "Resumo para a sua inscrição de Medicina Veterinária {turno}:
+  1) Redação online: sem dia marcado, você faz quando puder. É eliminatória, com nota mínima 5,0.
+  2) Nota do Enem: média de 300 pontos ou mais, de qualquer edição a partir de 2010.
+  Depois, o resultado sai no site e a matrícula abre 2 dias depois. As aulas começam em 22/02/2027.
+  Se quiser falar com uma pessoa do time, é só responder esta mensagem.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Follow-up: AT3 (4 dias úteis depois).
+- Data e horário: ver G1-A.1, item 5 (horário comercial).
+- Opt-in e saída: FW.
+
+### G1-AT2-R (WhatsApp, versão para o responsável)
+
+- Template: grad_mv_ativacao_redacao_resp_v1 (variáveis: {nome_candidato}, {turno}, {link_area_candidato})
+- Primeira linha A: Olá, aqui é da Faculdade UFAPE. Sobre o Vestibular 2027 de {nome_candidato}: falta a redação ou o Enem.
+- Primeira linha B: Olá. Você é o responsável por {nome_candidato}? Temos um aviso sobre a inscrição.
+- Corpo:
+  "{nome_candidato} se inscreveu em Medicina Veterinária {turno}. Para seguir, falta a redação online (sem dia marcado, eliminatória, nota mínima 5,0) ou a nota do Enem (média de 300 pontos ou mais, edições de 2010 em diante). Como o candidato é menor de idade, o aceite do responsável também é necessário na matrícula. Dúvidas? Responda esta mensagem e o time de captação fala com você.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Ver o passo a passo: {link_area_candidato}"
+- Follow-up: AT3-R só se houver resposta pedindo mais informação; senão, e-mail AT1-R não repete.
+- Opt-in e saída: FW, com consentimento do responsável.
+
+### G1-AT3 (WhatsApp): três perguntas sobre a redação
+
+- Canal: WhatsApp automático (template grad_mv_ativacao_perguntas_v1; variáveis: {primeiro_nome}, {link_area_candidato})
+- Objetivo: tirar a dúvida que impede a redação e levar à área do candidato
+- Segmento: inscrito sem redação e sem resposta ao AT2
+- Primeira linha A: Oi, {primeiro_nome}. Três respostas rápidas sobre a redação do Vestibular da Ufape.
+- Primeira linha B: Oi, {primeiro_nome}. Ficou alguma dúvida sobre a redação ou sobre o Enem?
+- Gancho: Quem trava na redação geralmente tem uma dessas dúvidas. [SUPOSIÇÃO: tirar "geralmente" se o time não confirmar]
+- Corpo:
+  "Dá para fazer de casa? A redação é online. Precisa esperar uma data? Não: é feita a qualquer momento depois da inscrição. Já fiz o Enem, vale? Vale a média de 300 pontos ou mais, de qualquer edição a partir de 2010.
+  Se a sua dúvida for outra, responda aqui que o time de captação te ajuda.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Follow-up: nenhum WhatsApp novo. Sem resposta, o inscrito entra na régua R no R3.
+- Opt-in e saída: FW.
+
+---
+
+## G1-B. Régua do lead novo (até a inscrição)
+
+Objetivo único da régua: concluir a inscrição gratuita. Gatilho: cadastro na LP. Tempo entre toques em dias corridos, ajustados ao horário comercial: D0, D2, D5, D8, D12, D15, D20. Saída: seção 5.
+
+### G1-L1 (e-mail, D0): boas-vindas e como funciona o ingresso
+
+- Canal: e-mail
+- Linha e curso: Graduação, Medicina Veterinária, São Paulo
+- Objetivo: mostrar o caminho inteiro e levar à inscrição gratuita
+- Segmento: lead novo, adulto
+- Assunto A: Boas-vindas ao Vestibular 2027 de Medicina Veterinária da Faculdade UFAPE
+- Assunto B: Como entrar em Medicina Veterinária na Ufape: 4 passos e inscrição gratuita
+- Texto de pré-visualização: Redação online sem dia marcado ou nota do Enem. Aulas a partir de 22/02/2027.
+- Gancho: O caminho do cadastro até a matrícula, em 4 passos.
+- Corpo:
+  "Olá, {primeiro_nome}. Boas-vindas.
+  Você pediu informações sobre Medicina Veterinária na Faculdade UFAPE. Veja como funciona:
+  1) Inscrição gratuita, pelo site ou presencial, de segunda a sexta, das 9h às 18h, na Av. Nove de Julho, 3913 e 3939, Jardim Paulista, São Paulo.
+  2) Avaliação: redação online sem dia marcado (eliminatória, nota mínima 5,0) ou nota do Enem (média de 300 pontos ou mais, edições de 2010 em diante).
+  3) Resultado no site.
+  4) Matrícula eletrônica, 2 dias depois do resultado, com a 1ª mensalidade e a assinatura digital do contrato. Documentos em até 30 dias.
+  O curso: {BA} Integral, em 4 anos, ou noturno, em 5 anos. Carga horária de 4.195 h, mais 75 h de atividades complementares. As aulas começam em 22/02/2027.
+  {BM}
+  Dúvidas? Responda este e-mail ou fale com o time em {contato_captacao}."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: L2 (WhatsApp, D2). Se não houver opt-in de WhatsApp, L3 sobe para D3.
+- Data e horário: imediato após o cadastro (e-mail de sistema); depois, horário livre.
+- Opt-in e saída: FE.
+
+### G1-L2 (WhatsApp, D2): Enem desde 2010 ou redação
+
+- Canal: WhatsApp automático (template grad_mv_lead_enem_v1; variáveis: {primeiro_nome}, {link_lp_utm})
+- Objetivo: mostrar as duas portas de entrada e levar à inscrição
+- Segmento: lead sem inscrição, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Já fez o Enem? Sua nota pode ser a sua entrada na Medicina Veterinária da Ufape.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. Você pode entrar com a redação online ou com o Enem.
+- Gancho: Quem fez o Enem anos atrás também pode usar a nota.
+- Corpo:
+  "Para Medicina Veterinária, a inscrição é gratuita e há duas formas de entrar:
+  Enem: média de 300 pontos ou mais, de qualquer edição a partir de 2010.
+  Redação online: sem dia marcado, você faz quando puder. É eliminatória, com nota mínima 5,0.
+  Em qualquer das duas, as aulas começam em 22/02/2027.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Fazer minha inscrição: {link_lp_utm}"
+- Follow-up: L3 (e-mail, D5).
+- Opt-in e saída: FW.
+
+### G1-L3 (e-mail, D5): o desconto, com valor cheio e validade
+
+- Canal: e-mail
+- Objetivo: mostrar o preço inteiro, sem letra miúda, e levar à inscrição
+- Segmento: lead sem inscrição, adulto (a família que decide junto pode receber o encaminhamento)
+- Assunto A: Medicina Veterinária na Ufape: de R$ 10.000,00 por R$ 5.000,00 (integral) ou R$ 4.000,00 (noturno) por mês no 1º semestre de 2027
+- Assunto B: O desconto do 1º semestre de 2027, com todas as regras
+- Texto de pré-visualização: Valor cheio, valor com desconto, validade e renovação, num lugar só.
+- Gancho: Antes de decidir, a conta inteira.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  Estas são as condições do Programa de Desconto de Mensalidade 2027/1 (Edital 003/2026) para Medicina Veterinária em São Paulo.
+  Integral (4 anos): de R$ 10.000,00 por R$ 5.000,00 por mês, 50% de desconto. Em 6 mensalidades, R$ 30.000,00 no semestre, contra R$ 60.000,00 no valor cheio.
+  Noturno (5 anos): de R$ 10.000,00 por R$ 4.000,00 por mês, 60% de desconto. Em 6 mensalidades, R$ 24.000,00 no semestre, contra R$ 60.000,00 no valor cheio.
+  Regras: o desconto vale para todas as formas de ingresso, é aplicado a partir da confirmação da matrícula e vale só para o 1º semestre de 2027. Para continuar nos semestres seguintes, o aluno pede a renovação a cada semestre, com comprovação. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. O desconto é perdido no mês em que a mensalidade for paga depois do vencimento (dia 10) e não vale junto com programas governamentais com regras próprias. O valor cheio tem reajuste previsto em dezembro de cada ano [CONFIRMAR efeito sobre 2027/1].
+  A inscrição é gratuita e o edital não prevê taxa de matrícula: a matrícula se confirma com o pagamento da 1ª mensalidade e a assinatura do contrato.
+  Edital do desconto: {link_edital_desconto}."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: L4 (WhatsApp, D8).
+- Opt-in e saída: FE.
+
+### G1-L4 (WhatsApp, D8): dúvidas de pais e responsáveis (adulto que decide com a família)
+
+- Canal: WhatsApp automático (template grad_mv_lead_familia_v1; variáveis: {primeiro_nome}, {link_lp_utm})
+- Objetivo: dar à família as respostas de que precisa para apoiar a decisão
+- Segmento: lead sem inscrição, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Se a sua família participa da decisão, pode encaminhar esta mensagem.
+- Primeira linha B: Oi, {primeiro_nome}. O que pais e responsáveis precisam saber sobre a Medicina Veterinária da Ufape.
+- Gancho: A família decide melhor com a conta inteira.
+- Corpo:
+  "Pontos para quem decide junto:
+  Menor de idade: a inscrição e a matrícula precisam do aceite do responsável legal.
+  Inscrição gratuita. Matrícula: 1ª mensalidade e assinatura digital do contrato.
+  Mensalidade: de R$ 10.000,00 por R$ 5.000,00 (integral) ou R$ 4.000,00 (noturno), só no 1º semestre de 2027. Depois, a renovação é pedida a cada semestre, com comprovação.
+  Desistir antes de começar: devolução de 80% do valor pago, se pedida até 2 dias antes das aulas (20/02/2027).
+  Se a turma tiver menos de 30 matriculados, a Ufape pode cancelar a oferta e devolve a 1ª parcela.
+  Ato autorizativo: Portaria SERES/MEC nº 162, de 13/03/2025.
+  Quer conversar com o time? É só responder.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda esta mensagem e o time liga ou escreve para a família" (resposta como ação única; o link da LP fica no rodapé do template como botão informativo, não como segunda ação) [SUPOSIÇÃO de desenho: se o template não aceitar, trocar a chamada por "Ver as regras: {link_lp_utm}"]
+- Follow-up: L5 (e-mail, D12).
+- Opt-in e saída: FW.
+
+### G1-L4-R (WhatsApp, versão para o responsável do candidato menor)
+
+- Template: grad_mv_lead_familia_resp_v1 (variável: {nome_candidato})
+- Primeira linha A: Olá. Esta mensagem é para o responsável por {nome_candidato}: o que você precisa saber sobre a Medicina Veterinária da Ufape.
+- Primeira linha B: Olá, aqui é da Faculdade UFAPE. Respostas para o responsável por {nome_candidato}.
+- Corpo: igual ao L4, com a primeira regra trocada por "Como {nome_candidato} é menor de idade, a inscrição e a matrícula precisam do seu aceite como responsável legal" e o fechamento "Se preferir, o time conversa por telefone ou por escrito, no horário que for melhor para você, de segunda a sexta, das 9h às 18h". Nenhuma frase se dirige ao menor.
+- Chamada para ação: "Responda esta mensagem para falar com o time"
+- Follow-up: nenhum automático. Quem responde vai ao time.
+- Opt-in e saída: FW, com consentimento do responsável.
+
+### G1-L5 (e-mail, D12): visita (só se existir) ou o curso por dentro
+
+Atenção: a visita guiada hoje é proposta (P4 da oferta), não existe. [CONFIRMAR se existe visita, quem conduz, agenda, regras para menores e autorização de imagem.] Sem essa confirmação, enviar a versão L5-alt, que não promete nada que não exista.
+
+**G1-L5 (condicionado à confirmação da visita):**
+- Canal: e-mail
+- Objetivo: agendar uma visita
+- Segmento: lead sem inscrição, adulto
+- Assunto A: Quer conhecer a Faculdade UFAPE antes de decidir?
+- Assunto B: Visita à Faculdade UFAPE: como agendar
+- Texto de pré-visualização: {data_visita} em {local_visita}. Menores vão com o responsável.
+- Gancho: Ver o lugar ajuda a decidir.
+- Corpo: "Olá, {primeiro_nome}. A Faculdade UFAPE recebe candidatos e famílias em visitas em {data_visita}, {local_visita} [CONFIRMAR tudo]. Como funciona: {como_agendar} [CONFIRMAR]. Candidato menor de idade vai acompanhado do responsável. A visita não substitui a inscrição, que é gratuita. Dúvidas: {contato_captacao}."
+- Chamada para ação: "Agendar minha visita" ({link_agendamento} [CONFIRMAR])
+- Follow-up: L6 (WhatsApp, D15).
+- Opt-in e saída: FE.
+
+**G1-L5-alt (enviável hoje):**
+- Canal: e-mail
+- Objetivo: mostrar o curso e a autorização para quem ainda pergunta "é sério?", e levar à inscrição
+- Segmento: lead sem inscrição, adulto
+- Assunto A: Medicina Veterinária na Ufape: o que se estuda e como o curso é autorizado
+- Assunto B: Antes de se inscrever: matriz, estágio e ato autorizativo
+- Texto de pré-visualização: Prática desde o 1º semestre, estágio supervisionado e portaria, com a fonte.
+- Gancho: Três coisas que dá para conferir antes de decidir.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  1) O que se estuda. A matriz do 1º semestre inclui Práticas Hospitalares, Campos de Atuação do Médico Veterinário e Projeto Extensionista I (ficha do curso) [CONFIRMAR NO CATÁLOGO a lista completa]. O estágio supervisionado fica nos {estagio}.
+  2) Como o curso é autorizado. {BA}
+  3) Onde tirar dúvidas pessoalmente. A inscrição também pode ser feita presencialmente, de segunda a sexta, das 9h às 18h, na Av. Nove de Julho, 3913 e 3939, Jardim Paulista, São Paulo.
+  [Linha opcional, só depois do pedido G11: A Ufape tem hospital veterinário próprio, a Ufape Clínica.]
+  A inscrição é gratuita. Dúvidas: {contato_captacao}."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: L6 (WhatsApp, D15).
+- Opt-in e saída: FE.
+
+### G1-L6 (WhatsApp, D15): objeção "e depois do 1º semestre?"
+
+- Canal: WhatsApp automático (template grad_mv_lead_depois_v1; variável: {primeiro_nome})
+- Objetivo: responder a objeção de preço com a regra real e abrir conversa com o time
+- Segmento: lead sem inscrição, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Uma pergunta justa antes de decidir: e depois do 1º semestre?
+- Primeira linha B: Oi, {primeiro_nome}. A mensalidade com desconto vale por quanto tempo?
+- Gancho: O desconto é do 1º semestre, e é melhor saber isso antes.
+- Corpo:
+  "O desconto do edital vale para as 6 mensalidades do 1º semestre de 2027. Para continuar com desconto, você pede a renovação a cada semestre, com comprovação. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. O valor cheio hoje é de R$ 10.000,00 por mês, com reajuste previsto em dezembro de cada ano.
+  Antes de se matricular, o time te passa as regras de renovação por escrito.
+  Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Quer que o time explique? Responda QUERO."
+- Follow-up: L7 (e-mail, D20).
+- Opt-in e saída: FW.
+
+### G1-L7 (e-mail, D20): lembrete com o resumo
+
+- Canal: e-mail
+- Objetivo: lembrar o caminho e perguntar o que falta para decidir
+- Segmento: lead sem inscrição, adulto, sem resposta à régua
+- Assunto A: Sua inscrição gratuita no Vestibular 2027 de Medicina Veterinária
+- Assunto B: Resumo em 6 linhas: como entrar na Medicina Veterinária da Ufape
+- Texto de pré-visualização: Redação online, Enem, desconto do 1º semestre e matrícula.
+- Gancho: Se faltou alguma resposta, é só dizer qual.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  Resumo: inscrição gratuita; redação online sem dia marcado (eliminatória, nota mínima 5,0) ou Enem com média de 300 pontos ou mais, de 2010 em diante; resultado no site; matrícula 2 dias depois, com a 1ª mensalidade e a assinatura digital; aulas a partir de 22/02/2027.
+  Mensalidade no 1º semestre de 2027: de R$ 10.000,00 por R$ 5.000,00 (integral, 50%) ou R$ 4.000,00 (noturno, 60%), com renovação a cada semestre, com comprovação, nas regras do Edital 003/2026.
+  O que falta para você decidir? Responda este e-mail com a sua dúvida e o time de captação responde. Edital de ingresso: {link_edital_vestibular}. {BM}"
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: nenhum. Sem engajamento, o lead recebe a etiqueta "sem engajamento" e a régua encerra (seção 5).
+- Opt-in e saída: FE.
+
+---
+
+## G1-C. Régua do inscrito até a redação feita
+
+Objetivo único: redação feita ou nota do Enem enviada. Gatilho: inscrição concluída. Toques: R1 (D0), R2 (D2), R3 (D5), R4 (D9), R5 (D14). Para a base existente, a entrada é pelo AT; quem não avançar entra em R3.
+
+### G1-R1 (e-mail, D0): inscrição recebida e próximos passos
+
+- Canal: e-mail
+- Objetivo: confirmar a inscrição e explicar a avaliação
+- Segmento: inscrito novo, adulto
+- Assunto A: Inscrição recebida: veja o que fazer agora no Vestibular 2027
+- Assunto B: {primeiro_nome}, sua inscrição foi recebida. Próximo passo: redação ou Enem
+- Texto de pré-visualização: Redação online sem dia marcado, ou nota do Enem de 2010 em diante.
+- Gancho: Sua inscrição entrou. Agora é escolher a avaliação.
+- Corpo: "Olá, {primeiro_nome}. Recebemos a sua inscrição em Medicina Veterinária {turno}, Vestibular 2027, da Faculdade UFAPE. {BC} O que vem depois: {BX} {BM} Dúvidas: responda este e-mail ou fale em {contato_captacao}."
+- Chamada para ação: "Acessar minha inscrição" ({link_area_candidato})
+- Follow-up: R2 (WhatsApp, D2).
+- Opt-in e saída: FE. Versão para o responsável: R1-R, igual ao AT1-R, com abertura "{nome_candidato} se inscreveu".
+
+### G1-R2 (WhatsApp, D2): passo a passo e oferta de ajuda
+
+- Canal: WhatsApp automático (template grad_mv_inscrito_passo_v1; variáveis: {primeiro_nome}, {link_area_candidato})
+- Objetivo: fazer o inscrito começar a avaliação
+- Segmento: inscrito sem redação, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Sua inscrição foi recebida. Quer ajuda para fazer a redação?
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. O próximo passo da sua inscrição é a redação ou o Enem.
+- Gancho: Sem dia marcado: dá para fazer no seu ritmo.
+- Corpo: "Para Medicina Veterinária {turno}: faça a redação online quando puder (eliminatória, nota mínima 5,0) ou envie sua nota do Enem (média de 300 pontos ou mais, de 2010 em diante). O passo a passo está na área do candidato. Se algo não funcionar, responda aqui e o time ajuda. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Follow-up: R3 (e-mail, D5).
+- Opt-in e saída: FW.
+
+### G1-R3 (e-mail, D5): perguntas sobre a redação e o Enem, respondidas
+
+- Canal: e-mail
+- Objetivo: tirar as dúvidas que seguram a avaliação
+- Segmento: inscrito sem redação, adulto (inclui a base existente depois do AT3)
+- Assunto A: Redação e Enem no Vestibular da Ufape: as dúvidas respondidas
+- Assunto B: Posso fazer a redação de casa? Vale o Enem antigo? Respostas do edital
+- Texto de pré-visualização: Cada resposta vem do edital do Vestibular 2027.
+- Gancho: Respostas curtas, com a fonte.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  Posso fazer a redação de casa? A prova é online.
+  Tem data marcada? Não. Você faz a qualquer momento depois da inscrição.
+  Reprovo se tirar menos de 5,0? A redação é eliminatória, com nota mínima 5,0. [CONFIRMAR se há nova tentativa]
+  Vale o Enem de anos atrás? Vale a média aritmética de 300 pontos ou mais, de qualquer edição a partir de 2010 [CONFIRMAR como a média é calculada e como a nota é enviada].
+  E se eu já tiver outro diploma, ou quiser transferência? Há ingresso de diplomado e transferência externa, mas só depois dos ingressantes por redação e Enem. Fale com o time.
+  Edital completo: {link_edital_vestibular}."
+- Chamada para ação: "Fazer minha redação ou enviar o Enem" ({link_area_candidato})
+- Follow-up: R4 (WhatsApp, D9).
+- Opt-in e saída: FE.
+
+### G1-R4 (WhatsApp, D9): ajuda do time
+
+- Canal: WhatsApp automático (template grad_mv_inscrito_ajuda_v1; variável: {primeiro_nome})
+- Objetivo: descobrir o que trava e passar ao time
+- Segmento: inscrito sem redação, sem resposta
+- Primeira linha A: Oi, {primeiro_nome}. O que está faltando para você fazer a redação?
+- Primeira linha B: Oi, {primeiro_nome}. Podemos ajudar com a sua redação ou com o Enem?
+- Gancho: Uma resposta de uma palavra já ajuda.
+- Corpo: "Responda com o número: 1) não sei por onde começar; 2) prefiro usar a nota do Enem; 3) tenho dúvida sobre o valor; 4) outro motivo. O time de captação te responde no horário comercial. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda com o número da sua situação."
+- Follow-up: R5 (e-mail, D14).
+- Opt-in e saída: FW.
+
+### G1-R5 (e-mail, D14): o que acontece depois da redação
+
+- Canal: e-mail
+- Objetivo: mostrar o que vem depois (resultado, matrícula, valor) para reduzir o medo do passo seguinte
+- Segmento: inscrito sem redação
+- Assunto A: Depois da redação: resultado, matrícula e valor, passo a passo
+- Assunto B: O que acontece depois que você faz a redação do Vestibular
+- Texto de pré-visualização: Do resultado no site à primeira mensalidade, sem surpresas.
+- Gancho: Saber o que vem depois ajuda a dar o primeiro passo.
+- Corpo: "Olá, {primeiro_nome}. {BX} Valor: {bloco_preco} {BD} A inscrição é gratuita e o edital não prevê taxa de matrícula. {BM}"
+- Chamada para ação: "Fazer minha redação ou enviar o Enem" ({link_area_candidato})
+- Follow-up: nenhuma mensagem automática. No D21, o time de captação recebe a tarefa de contato humano (seção 5). 
+- Opt-in e saída: FE.
+
+---
+
+## G1-D. Régua do aprovado até a matrícula
+
+Objetivo único: 1ª mensalidade paga e contrato assinado. Gatilho: resultado publicado com status "aprovado" no sistema de inscrição. Só entra quem tem esse status; nenhum "parabéns" sai por suposição. Aprovado via redação ou via Enem recebe a mesma régua. Toques: A1 (D0), A2 (D+2, matrícula aberta), A3 (D+3), A5 (D+7), A6 (D+14 ou, no máximo, a partir de 01/02/2027 para quem segue sem matrícula). A4-R só para responsável de menor.
+
+### G1-A1 (e-mail, D0): seu resultado está no site
+
+- Canal: e-mail
+- Objetivo: avisar o resultado e a data da matrícula
+- Segmento: aprovado, adulto
+- Assunto A: Seu resultado do Vestibular 2027 está no site
+- Assunto B: {primeiro_nome}, parabéns pela aprovação: veja como fazer a matrícula
+- Texto de pré-visualização: A matrícula abre 2 dias depois da publicação do resultado.
+- Gancho: Você passou. Agora vêm 3 passos curtos.
+- Corpo:
+  "Olá, {primeiro_nome}. Parabéns pela aprovação em Medicina Veterinária {turno}, Vestibular 2027, da Faculdade UFAPE.
+  Resultado: {link_resultado}.
+  Matrícula: eletrônica, a partir de {data_matricula} (2 dias depois da publicação). Para confirmar, são 3 passos: (1) pagar a 1ª mensalidade; (2) assinar o contrato digitalmente; (3) enviar os documentos pela plataforma de matrícula digital em até 30 dias [CONFIRMAR de quando contam os 30 dias].
+  O desconto do 1º semestre de 2027 será aplicado a partir da confirmação da matrícula. As regras completas vêm no próximo e-mail.
+  {BM} As aulas começam em 22/02/2027.
+  Dúvidas: {contato_captacao}."
+- Chamada para ação: "Ver meu resultado" ({link_resultado})
+- Follow-up: A2 (WhatsApp, D+2).
+- Opt-in e saída: FE. Versão para o responsável: A1-R, com "{nome_candidato} foi aprovado(a)" substituído por "{nome_candidato} tem o resultado publicado no site" e o aceite do responsável na matrícula em destaque.
+
+### G1-A2 (WhatsApp, D+2): matrícula aberta
+
+- Canal: WhatsApp automático (template grad_mv_aprovado_matricula_v1; variáveis: {primeiro_nome}, {link_matricula})
+- Objetivo: levar à matrícula
+- Segmento: aprovado sem matrícula, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Sua matrícula na Medicina Veterinária da Ufape já está aberta.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE. Hoje abre a matrícula do seu curso.
+- Gancho: São 3 passos e dá para fazer pelo celular. [CONFIRMAR se a plataforma funciona no celular]
+- Corpo: "Para confirmar a matrícula: 1) pague a 1ª mensalidade; 2) assine o contrato digitalmente; 3) envie os documentos na plataforma em até 30 dias. O desconto do 1º semestre de 2027 é aplicado a partir da confirmação da matrícula, com as regras do edital. As aulas começam em 22/02/2027. Se tiver dúvida antes de pagar, responda aqui. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Fazer minha matrícula: {link_matricula}"
+- Follow-up: A3 (e-mail, D+3).
+- Opt-in e saída: FW.
+
+### G1-A3 (e-mail, D+3): antes de pagar, as regras
+
+- Canal: e-mail
+- Objetivo: dar a conta inteira (desconto, renovação, cancelamento, turma mínima) para decidir sem susto
+- Segmento: aprovado sem matrícula, adulto
+- Assunto A: Antes de se matricular: desconto, renovação e cancelamento em linguagem simples
+- Assunto B: Sua matrícula na Ufape: o que você paga, quando e o que acontece se desistir
+- Texto de pré-visualização: Valor cheio, valor com desconto, validade e devolução de 80%.
+- Gancho: A decisão de pagar fica mais segura com todas as regras na mesa.
+- Corpo:
+  "Olá, {primeiro_nome}.
+  O que você paga: {bloco_preco}
+  E depois do 1º semestre? {BD}
+  Primeira mensalidade: {valor_primeira_mensalidade} [CONFIRMAR se a 1ª mensalidade já sai com o desconto]. O edital não prevê taxa de matrícula.
+  Se você desistir antes de começar: a devolução é de 80% do valor pago, se o pedido de cancelamento for feito até 2 dias antes do início das aulas, ou seja, até 20/02/2027.
+  Se a turma não formar: a turma precisa de pelo menos 30 matriculados. Abaixo disso, a Ufape pode cancelar a oferta e devolve a 1ª parcela. [CONFIRMAR a data em que a Ufape decide sobre a turma mínima, pedido G4]
+  {BM}
+  Edital do desconto: {link_edital_desconto}."
+- Chamada para ação: "Fazer minha matrícula" ({link_matricula})
+- Follow-up: A5 (WhatsApp, D+7). Para menor, A4-R no mesmo dia do A3.
+- Opt-in e saída: FE.
+
+### G1-A4-R (WhatsApp, D+3, só para responsável de candidato menor)
+
+- Canal: WhatsApp automático (template grad_mv_aprovado_resp_v1; variáveis: {nome_candidato}, {link_matricula})
+- Objetivo: orientar o responsável sobre o aceite e a matrícula
+- Segmento: aprovado menor de idade, contato do responsável
+- Primeira linha A: Olá. Esta mensagem é para o responsável por {nome_candidato}: a matrícula já pode ser feita.
+- Primeira linha B: Olá, aqui é da Faculdade UFAPE. Sobre a matrícula de {nome_candidato}, o aceite do responsável é necessário.
+- Gancho: A matrícula de menor de idade precisa de você.
+- Corpo: "O aceite do responsável legal é necessário na matrícula de candidato menor de idade [CONFIRMAR como o aceite é dado: assinatura do contrato pelo responsável ou outro meio]. A matrícula se confirma com a 1ª mensalidade e a assinatura digital do contrato; os documentos entram em até 30 dias. Se desistir até 20/02/2027, a devolução é de 80% do valor pago. As regras do desconto do 1º semestre de 2027 estão no e-mail enviado a você; o time explica por telefone, se preferir. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Falar com o time: responda esta mensagem"
+- Follow-up: nenhum automático.
+- Opt-in e saída: FW, com consentimento do responsável.
+
+### G1-A5 (WhatsApp, D+7): o que travou?
+
+- Canal: WhatsApp automático (template grad_mv_aprovado_trava_v1; variável: {primeiro_nome})
+- Objetivo: descobrir e resolver o que impede a matrícula
+- Segmento: aprovado sem matrícula
+- Primeira linha A: Oi, {primeiro_nome}. A sua matrícula ainda não foi concluída. Podemos ajudar?
+- Primeira linha B: Oi, {primeiro_nome}. Algo travou na sua matrícula?
+- Gancho: Se travou em um ponto, a gente resolve com você.
+- Corpo: "Responda com o número: 1) pagamento da 1ª mensalidade; 2) contrato ou assinatura digital; 3) documentos; 4) dúvida sobre o valor ou o desconto; 5) outro motivo. O time te responde no horário comercial. As aulas começam em 22/02/2027. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda com o número da sua situação."
+- Follow-up: A6 (e-mail, D+14).
+- Opt-in e saída: FW.
+
+### G1-A6 (e-mail, D+14 ou a partir de 01/02/2027): como concluir a matrícula antes das aulas
+
+- Canal: e-mail
+- Objetivo: lembrar o que falta para começar com a turma
+- Segmento: aprovado sem matrícula
+- Assunto A: Aulas começam em 22/02/2027: como concluir a sua matrícula
+- Assunto B: {primeiro_nome}, o que falta para a sua matrícula na Ufape
+- Texto de pré-visualização: Passos, regras e quem chamar. Sem pressa falsa, só os fatos.
+- Gancho: Se você ainda quer a vaga, falta pouco.
+- Corpo: "Olá, {primeiro_nome}. As aulas de Medicina Veterinária {turno} começam em 22/02/2027. Para participar, a matrícula precisa estar confirmada: 1ª mensalidade paga e contrato assinado. Se você mudar de ideia depois de se matricular, o cancelamento com devolução de 80% vale se pedido até 2 dias antes do início das aulas (20/02/2027). Se algo o impede, responda este e-mail e o time ajuda. {BM} Resumo do desconto: {total_semestre_desc} no semestre, de R$ 60.000,00, só no 1º semestre de 2027, com renovação a cada semestre. [Esta mensagem é revisada em 25/01/2027 com números reais de matrícula; nenhuma frase sobre vagas entra sem número real.]"
+- Chamada para ação: "Concluir minha matrícula" ({link_matricula})
+- Follow-up: nenhum. Sem resposta, o aprovado recebe a etiqueta "sem engajamento" e a régua encerra (seção 5).
+- Opt-in e saída: FE.
+
+---
+
+## G1-E. Régua do matriculado até 22/02/2027
+
+Objetivo único: matrícula completa (documentos enviados) e permanência até o início das aulas. Gatilho: matrícula confirmada (1ª mensalidade e contrato). Toques: M1 (D0), M2 (D+5), M3 (D+14), M4 (véspera do vencimento do dia 10), M5 (15/02/2027). Mensagens de cobrança e de contrato são do financeiro e da secretaria (financeiro@intercursos.com.br, (11) 94525-3730 no WhatsApp); a régua de marketing não cobra [CONFIRMAR com o financeiro].
+
+### G1-M1 (e-mail, D0): matrícula confirmada
+
+- Canal: e-mail
+- Objetivo: confirmar e listar o que falta fazer
+- Segmento: matriculado
+- Assunto A: Matrícula confirmada: o que acontece até as aulas, em 22/02/2027
+- Assunto B: {primeiro_nome}, sua matrícula na Ufape está confirmada. Veja os próximos passos
+- Texto de pré-visualização: Documentos em até 30 dias, mensalidade no dia 10 e como falar com a secretaria.
+- Gancho: Matrícula feita. Agora, o que falta.
+- Corpo: "Olá, {primeiro_nome}. Sua matrícula em Medicina Veterinária {turno} da Faculdade UFAPE está confirmada. O que fazer: enviar os documentos pela plataforma de matrícula digital em até 30 dias. O que vale para você: a mensalidade vence no dia 10; o desconto do 1º semestre de 2027 é perdido no mês em que a mensalidade for paga depois do vencimento; para continuar no semestre seguinte, a renovação é pedida, com comprovação, nas regras do Edital 003/2026. Se precisar cancelar, a devolução de 80% vale se o pedido for feito até 20/02/2027. As aulas começam em 22/02/2027. Secretaria: (11) 97492-8443 (WhatsApp) ou (11) 5054-1204, duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h."
+- Chamada para ação: "Enviar meus documentos" ({link_matricula})
+- Follow-up: M2 (WhatsApp, D+5).
+- Opt-in e saída: FE. Versão para o responsável: M1-R, com "{nome_candidato}" e o aceite do responsável.
+
+### G1-M2 (WhatsApp, D+5): documentos
+
+- Canal: WhatsApp automático (template grad_mv_matriculado_docs_v1; variáveis: {primeiro_nome}, {link_matricula})
+- Objetivo: documentos enviados
+- Segmento: matriculado sem todos os documentos
+- Primeira linha A: Oi, {primeiro_nome}. Lembrete: os documentos da matrícula entram pela plataforma, em até 30 dias.
+- Primeira linha B: Oi, {primeiro_nome}. Faltam documentos na sua matrícula na Ufape?
+- Gancho: Enviar agora evita correria depois.
+- Corpo: "Os documentos da matrícula são enviados pela plataforma de matrícula digital, em até 30 dias. A lista de documentos está na plataforma [CONFIRMAR NO CATÁLOGO a lista]. Se tiver dificuldade para enviar, responda aqui e o time ajuda. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Enviar documentos: {link_matricula}"
+- Follow-up: M3 (e-mail, D+14).
+- Opt-in e saída: FW.
+
+### G1-M3 (e-mail, D+14): o que esperar do 1º semestre
+
+- Canal: e-mail
+- Objetivo: diminuir a ansiedade e confirmar o essencial do começo
+- Segmento: matriculado
+- Assunto A: Seu 1º semestre de Medicina Veterinária na Ufape: o que esperar
+- Assunto B: Antes das aulas de 22/02/2027: o que você já pode saber
+- Texto de pré-visualização: Início, turno, matriz do 1º semestre e contatos.
+- Gancho: Como vai ser o começo.
+- Corpo: "Olá, {primeiro_nome}. Início das aulas: 22/02/2027, em São Paulo, no turno {turno}, com duração de {duracao}. No 1º semestre da matriz: Práticas Hospitalares, Campos de Atuação do Médico Veterinário e Projeto Extensionista I (ficha do curso) [CONFIRMAR NO CATÁLOGO a lista completa]. Local do primeiro dia, horários e calendário: {local_primeiro_dia}, {horarios}, {calendario} [CONFIRMAR; se a Ufape não confirmar, remover esta linha e dizer que as informações chegam por e-mail]. Dúvidas: {contato_captacao}."
+- Chamada para ação: "Falar com a secretaria" (WhatsApp da secretaria)
+- Follow-up: M4 (WhatsApp).
+- Opt-in e saída: FE.
+
+### G1-M4 (WhatsApp): mensalidade no dia 10 e o desconto
+
+- Canal: WhatsApp automático (template grad_mv_matriculado_mensalidade_v1; variável: {primeiro_nome})
+- Objetivo: proteger o desconto do aluno
+- Segmento: matriculado, 3 a 5 dias úteis antes de cada vencimento do dia 10 do 1º semestre [CONFIRMAR o calendário das 6 mensalidades e quem envia: financeiro ou marketing]
+- Primeira linha A: Oi, {primeiro_nome}. A sua mensalidade vence no dia 10.
+- Primeira linha B: Oi, {primeiro_nome}. Um lembrete para você não perder o desconto do mês.
+- Gancho: O desconto é perdido no mês em que a mensalidade é paga depois do vencimento.
+- Corpo: "A mensalidade vence no dia 10. Se for paga depois do vencimento, o desconto do edital é perdido naquele mês. Dúvidas sobre boleto ou pagamento: financeiro@intercursos.com.br ou (11) 94525-3730 (WhatsApp). Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Falar com o financeiro: (11) 94525-3730"
+- Follow-up: nenhum.
+- Opt-in e saída: FW.
+
+### G1-M5 (e-mail, 15/02/2027): semana de início
+
+- Canal: e-mail
+- Objetivo: confirmar a segunda-feira de início e dar o contato certo
+- Segmento: matriculado
+- Assunto A: Segunda-feira, 22/02/2027: começam as suas aulas de Medicina Veterinária
+- Assunto B: {primeiro_nome}, sua semana de início na Faculdade UFAPE
+- Texto de pré-visualização: Local, horário e documentos pendentes, num e-mail só.
+- Gancho: Falta uma semana.
+- Corpo: "Olá, {primeiro_nome}. As aulas de Medicina Veterinária {turno} começam em 22/02/2027. Documentos pendentes: {docs_pendentes} (enviar em {link_matricula}). Local e horário do primeiro dia: {local_primeiro_dia}, {horarios} [CONFIRMAR]. Lembrete de regra: o cancelamento com devolução de 80% vale se pedido até 20/02/2027. Contato da secretaria: (11) 97492-8443 (WhatsApp), de segunda a sexta, das 9h às 18h. Revisado em 25/01/2027 com os dados reais antes do envio."
+- Chamada para ação: "Enviar os documentos que faltam" ({link_matricula}); se não houver pendência, o CTA vira "Falar com a secretaria"
+- Follow-up: nenhum. A régua termina em 22/02/2027.
+- Opt-in e saída: FE.
+
+---
+
+# PARTE G2: Pedagogia (Goiânia, noturno)
+
+Restrições próprias (0.1, item 8): nenhuma carga horária, docente, trecho de modelo da página, bloco do egresso, lista de professores ou endereço de Goiânia. Contato: {contato_captacao} = Vendas Goiânia, (62) 9420-1847. E-mail de dúvidas: duvidas@intercursos.com.br [CONFIRMAR se atende Goiânia]. Variáveis: {curso} = Pedagogia; {bloco_preco} = BP-PED; edital de ingresso = Edital nº 004/2026.
+
+Inscrição presencial: o edital cita a Av. T-9, 102, Jardim América, Goiânia, e a página cita outro endereço (pedido G9). Até a confirmação, as mensagens dizem "inscrição pelo site ou presencial em Goiânia; o time informa o endereço" e não trazem o endereço.
+
+Matriz própria da Pedagogia que pode ser citada (ficha do curso, via oferta): Prática Docente e Projeto Integrador desde o 1º semestre; Educação Inclusiva; Letramento em Libras; docência na Educação Infantil e nos anos iniciais do Ensino Fundamental e gestão educacional; estágio supervisionado a partir do 6º semestre [CONFIRMAR NO CATÁLOGO].
+
+Público adulto de Goiânia: a regra do aceite do responsável para menor entra no BM, sem ser o argumento central. As versões para o responsável do G2 seguem os textos do G1 (AT1-R, AT2-R, L4-R, A4-R, M1-R) com as trocas: curso Pedagogia, "noturno em Goiânia", BP-PED, Edital nº 004/2026, sem hospital e sem estágio por semestre, contato de Vendas Goiânia, mensalidade "R$ 525,00 (de R$ 1.050,00)". O qa confere cada versão trocada.
+
+## G2-A. Ativação da base: inscritos de Goiânia sem redação (30/10/2026)
+
+Mesmo segmento, ordem, datas e medição do G1-A.1, com o contato de Goiânia. Prazo que vale: igual ao G1-A.2 (sem data de prova, sem data final publicada, aulas em 22/02/2027, matrícula 2 dias depois do resultado, cancelamento com 80% até 20/02/2027). Vagas existem (80, Edital 004/2026), sem número de restantes: nenhuma mensagem fala em vagas acabando. Os passos de BC valem para Goiânia (o Edital 004/2026 repete as regras de São Paulo).
+
+### G2-AT1 (e-mail)
+
+- Canal: e-mail
+- Linha e curso: Graduação, Pedagogia, Goiânia, noturno
+- Objetivo: levar o inscrito a fazer a redação online ou enviar o Enem
+- Segmento: inscrito sem redação, adulto
+- Assunto A: {primeiro_nome}, sua inscrição na Pedagogia está feita: o próximo passo é a redação ou o Enem
+- Assunto B: Redação online, sem dia marcado: veja como fazer
+- Texto de pré-visualização: Faça quando puder, ou use sua nota do Enem de 2010 em diante.
+- Gancho: Sua inscrição entrou. Falta mostrar a sua nota.
+- Corpo: "Olá, {primeiro_nome}. Você se inscreveu no Processo Seletivo 2027.1 de Pedagogia noturno, em Goiânia, da Faculdade UFAPE. Para seguir, falta a avaliação. {BC} O que vem depois: {BX} {BM} Dúvidas: responda este e-mail ou fale com o time de Goiânia em (62) 9420-1847."
+- Chamada para ação: "Acessar minha inscrição" ({link_area_candidato})
+- Follow-up: G2-AT2 (WhatsApp, 1 dia útil depois).
+- Opt-in e saída: FE.
+
+### G2-AT2 (WhatsApp)
+
+- Canal: WhatsApp automático (template grad_ped_ativacao_redacao_v1; variáveis: {primeiro_nome}, {link_area_candidato})
+- Objetivo: levar à área do candidato
+- Segmento: inscrito sem redação, sem resposta ao AT1
+- Primeira linha A: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. Sua redação pode ser feita online, sem dia marcado.
+- Primeira linha B: Oi, {primeiro_nome}. Já fez o Enem? Sua nota pode ser a sua entrada na Pedagogia.
+- Gancho: Duas formas de entrar, as duas sem custo de inscrição.
+- Corpo: "Para a sua inscrição na Pedagogia noturno: 1) redação online, sem dia marcado, eliminatória, nota mínima 5,0; 2) ou nota do Enem, média de 300 pontos ou mais, de qualquer edição a partir de 2010. Depois, o resultado sai no site e a matrícula abre 2 dias depois. As aulas começam em 22/02/2027. Quer falar com uma pessoa do time? Responda esta mensagem. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Follow-up: G2-AT3 (4 dias úteis depois).
+- Opt-in e saída: FW.
+
+### G2-AT3 (WhatsApp)
+
+- Canal: WhatsApp automático (template grad_ped_ativacao_perguntas_v1; variáveis: {primeiro_nome}, {link_area_candidato})
+- Objetivo: tirar a dúvida que trava a redação
+- Segmento: sem resposta ao AT2
+- Primeira linha A: Oi, {primeiro_nome}. Três respostas rápidas sobre a redação do Processo Seletivo da Ufape.
+- Primeira linha B: Oi, {primeiro_nome}. Ficou alguma dúvida sobre a redação ou sobre o Enem?
+- Gancho: Respostas curtas, direto do edital.
+- Corpo: "Dá para fazer de casa? A redação é online. Tem data marcada? Não: é feita a qualquer momento depois da inscrição. Já fiz o Enem, vale? Vale a média de 300 pontos ou mais, de qualquer edição a partir de 2010. Se a sua dúvida for outra, responda aqui e o time de Goiânia te ajuda. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Follow-up: nenhum WhatsApp novo; entra na régua R no G2-R3.
+- Opt-in e saída: FW.
+
+## G2-B. Régua do lead novo (até a inscrição)
+
+Mesmos tempos do G1-B (D0, D2, D5, D8, D12, D15, D20).
+
+### G2-L1 (e-mail, D0): boas-vindas e como funciona o ingresso
+
+- Canal: e-mail
+- Objetivo: mostrar o caminho e levar à inscrição gratuita
+- Segmento: lead novo
+- Assunto A: Boas-vindas ao Processo Seletivo 2027.1 de Pedagogia da Faculdade UFAPE, em Goiânia
+- Assunto B: Como entrar na Pedagogia noturno em Goiânia: 4 passos e inscrição gratuita
+- Texto de pré-visualização: Redação online sem dia marcado ou nota do Enem. Aulas a partir de 22/02/2027.
+- Gancho: Do cadastro à matrícula, em 4 passos.
+- Corpo: "Olá, {primeiro_nome}. Boas-vindas. Você pediu informações sobre Pedagogia na Faculdade UFAPE de Goiânia. 1) Inscrição gratuita, pelo site ou presencial em Goiânia (o time informa o endereço). 2) Avaliação: redação online sem dia marcado (eliminatória, nota mínima 5,0) ou nota do Enem (média de 300 pontos ou mais, edições de 2010 em diante). 3) Resultado no site. 4) Matrícula eletrônica, 2 dias depois do resultado, com a 1ª mensalidade e a assinatura digital do contrato. Documentos em até 30 dias. O curso: {BA} Presencial, noturno, em 4 anos. As aulas começam em 22/02/2027. {BM} Dúvidas: responda este e-mail ou fale em (62) 9420-1847."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm}) [bloqueado para tráfego pago até a correção da página, pedido G6; para e-mail a quem já se cadastrou, o time decide se envia antes da correção]
+- Follow-up: G2-L2 (WhatsApp, D2).
+- Opt-in e saída: FE.
+
+### G2-L2 (WhatsApp, D2): Enem desde 2010 ou redação
+
+- Canal: WhatsApp automático (template grad_ped_lead_enem_v1; variáveis: {primeiro_nome}, {link_lp_utm})
+- Objetivo: mostrar as duas portas de entrada
+- Segmento: lead sem inscrição
+- Primeira linha A: Oi, {primeiro_nome}. Já fez o Enem? Sua nota pode ser a sua entrada na Pedagogia da Ufape.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. Você pode entrar com a redação online ou com o Enem.
+- Gancho: Quem fez o Enem anos atrás também pode usar a nota.
+- Corpo: "Para a Pedagogia noturno, a inscrição é gratuita e há duas formas de entrar. Enem: média de 300 pontos ou mais, de qualquer edição a partir de 2010. Redação online: sem dia marcado, você faz quando puder; é eliminatória, com nota mínima 5,0. As aulas começam em 22/02/2027. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Fazer minha inscrição: {link_lp_utm}"
+- Follow-up: G2-L3 (e-mail, D5).
+- Opt-in e saída: FW.
+
+### G2-L3 (e-mail, D5): o desconto, com valor cheio e validade
+
+- Canal: e-mail
+- Objetivo: mostrar o preço inteiro e levar à inscrição
+- Segmento: lead sem inscrição
+- Assunto A: Pedagogia noturno na Ufape: de R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027
+- Assunto B: O desconto do 1º semestre de 2027 na Pedagogia, com todas as regras
+- Texto de pré-visualização: Valor cheio, valor com desconto, validade e renovação, num lugar só.
+- Gancho: Antes de decidir, a conta inteira.
+- Corpo: "Olá, {primeiro_nome}. Condições do Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026): de R$ 1.050,00 por R$ 525,00 por mês, 50% de desconto. Em 6 mensalidades, R$ 3.150,00 no semestre, contra R$ 6.300,00 no valor cheio. Regras: o desconto vale para todas as formas de ingresso, é aplicado a partir da confirmação da matrícula e vale só para o 1º semestre de 2027. Para continuar nos semestres seguintes, o aluno pede a renovação a cada semestre, com comprovação. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. O desconto é perdido no mês em que a mensalidade for paga depois do vencimento (dia 10) e não vale junto com programas governamentais com regras próprias. O valor cheio tem reajuste previsto em dezembro de cada ano [CONFIRMAR efeito sobre 2027/1]. A inscrição é gratuita e o edital não prevê taxa de matrícula: a matrícula se confirma com a 1ª mensalidade e a assinatura do contrato. Edital do desconto: {link_edital_desconto}."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: G2-L4 (WhatsApp, D8).
+- Opt-in e saída: FE.
+
+### G2-L4 (WhatsApp, D8): dúvidas de quem decide junto, incluindo responsáveis
+
+- Canal: WhatsApp automático (template grad_ped_lead_familia_v1; variáveis: {primeiro_nome}, {link_lp_utm})
+- Objetivo: dar à família ou a quem apoia a decisão as respostas de que precisa
+- Segmento: lead sem inscrição, adulto
+- Primeira linha A: Oi, {primeiro_nome}. Se alguém da sua família participa da decisão, pode encaminhar esta mensagem.
+- Primeira linha B: Oi, {primeiro_nome}. O que quem decide junto precisa saber sobre a Pedagogia da Ufape.
+- Gancho: A decisão fica mais segura com a conta inteira.
+- Corpo: "Pontos para quem decide junto: inscrição gratuita; se o candidato for menor de idade, a inscrição e a matrícula precisam do aceite do responsável legal; mensalidade de R$ 525,00 (de R$ 1.050,00) só no 1º semestre de 2027, com renovação a cada semestre, com comprovação; desistir antes de começar tem devolução de 80% do valor pago, se pedida até 2 dias antes das aulas (20/02/2027); se a turma tiver menos de 30 matriculados, a Ufape pode cancelar a oferta e devolve a 1ª parcela; ato autorizativo: Portaria nº 992, de 08/12/2022. Quer conversar com o time de Goiânia? É só responder. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda esta mensagem para falar com o time."
+- Follow-up: G2-L5 (e-mail, D12).
+- Opt-in e saída: FW.
+
+### G2-L5 (e-mail, D12): o que se estuda e como o curso é autorizado
+
+(A aula aberta de Pedagogia, proposta P9, não existe: não há versão condicional a oferecer.)
+
+- Canal: e-mail
+- Objetivo: mostrar o curso de forma verificável e levar à inscrição
+- Segmento: lead sem inscrição
+- Assunto A: Pedagogia na Ufape: o que se estuda e como o curso é autorizado
+- Assunto B: Antes de se inscrever: prática docente, estágio e ato autorizativo
+- Texto de pré-visualização: Matriz e portaria, com a fonte.
+- Gancho: Três coisas que dá para conferir antes de decidir.
+- Corpo: "Olá, {primeiro_nome}. 1) O foco: docência na Educação Infantil e nos anos iniciais do Ensino Fundamental e gestão educacional (ficha do curso). 2) A matriz: Prática Docente e Projeto Integrador desde o 1º semestre, Educação Inclusiva, Letramento em Libras e estágio supervisionado a partir do 6º semestre (ficha do curso) [CONFIRMAR NO CATÁLOGO]. 3) A autorização: {BA} Presencial, noturno, em Goiânia. A inscrição é gratuita. Dúvidas: (62) 9420-1847."
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: G2-L6 (WhatsApp, D15).
+- Opt-in e saída: FE.
+
+### G2-L6 (WhatsApp, D15): objeção "EAD é mais barato" e "e depois do 1º semestre?"
+
+- Canal: WhatsApp automático (template grad_ped_lead_ead_v1; variável: {primeiro_nome})
+- Objetivo: comparar só por atributos verificáveis e responder à regra de renovação, sem depreciar ninguém
+- Segmento: lead sem inscrição
+- Primeira linha A: Oi, {primeiro_nome}. Comparando com a Pedagogia a distância? Aqui vai o que dá para conferir.
+- Primeira linha B: Oi, {primeiro_nome}. Uma pergunta justa antes de decidir: e depois do 1º semestre?
+- Gancho: Cada formato serve a uma rotina. Estas são as informações da Ufape.
+- Corpo: "Na Faculdade UFAPE, a Pedagogia é presencial, à noite, em Goiânia, com Prática Docente desde o 1º semestre (ficha do curso). Pelo edital, até 30% da carga horária pode ser oferecida a distância. No 1º semestre de 2027 a mensalidade é de R$ 525,00 (de R$ 1.050,00). Esse desconto vale para as 6 mensalidades do 1º semestre; para continuar, você pede a renovação a cada semestre, com comprovação, e a renovação não é automática. O valor cheio de R$ 1.050,00 tem reajuste previsto em dezembro de cada ano. O time passa as regras de renovação por escrito antes da matrícula. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Quer que o time explique? Responda QUERO."
+- Follow-up: G2-L7 (e-mail, D20).
+- Opt-in e saída: FW.
+
+### G2-L7 (e-mail, D20): lembrete com o resumo
+
+- Canal: e-mail
+- Objetivo: lembrar o caminho e perguntar o que falta para decidir
+- Segmento: lead sem inscrição, sem resposta
+- Assunto A: Sua inscrição gratuita no Processo Seletivo 2027.1 de Pedagogia
+- Assunto B: Resumo em 6 linhas: como entrar na Pedagogia da Ufape
+- Texto de pré-visualização: Redação online, Enem, desconto do 1º semestre e matrícula.
+- Gancho: Se faltou alguma resposta, é só dizer qual.
+- Corpo: "Olá, {primeiro_nome}. Resumo: inscrição gratuita; redação online sem dia marcado (eliminatória, nota mínima 5,0) ou Enem com média de 300 pontos ou mais, de 2010 em diante; resultado no site; matrícula 2 dias depois, com a 1ª mensalidade e a assinatura digital; aulas a partir de 22/02/2027. Mensalidade no 1º semestre de 2027: de R$ 1.050,00 por R$ 525,00 (50%), com renovação a cada semestre, com comprovação, nas regras do Edital 003/2026 Goiânia. O que falta para você decidir? Responda este e-mail com a sua dúvida. Edital de ingresso: {link_edital_vestibular}. {BM}"
+- Chamada para ação: "Fazer minha inscrição gratuita" ({link_lp_utm})
+- Follow-up: nenhum; "sem engajamento" e encerra.
+- Opt-in e saída: FE.
+
+## G2-C. Régua do inscrito até a redação feita
+
+Toques: R1 (D0), R2 (D2), R3 (D5), R4 (D9), R5 (D14); base existente entra pelo G2-AT e, sem avanço, em R3. Os textos seguem o G1-C com estas trocas: curso "Pedagogia noturno, Goiânia"; contato (62) 9420-1847; Edital nº 004/2026; sem estágio por semestre; BP-PED. Texto de cada um:
+
+### G2-R1 (e-mail, D0)
+- Assunto A: Inscrição recebida: veja o que fazer agora no Processo Seletivo 2027.1
+- Assunto B: {primeiro_nome}, sua inscrição na Pedagogia foi recebida. Próximo passo: redação ou Enem
+- Texto de pré-visualização: Redação online sem dia marcado, ou nota do Enem de 2010 em diante.
+- Gancho: Sua inscrição entrou. Agora é escolher a avaliação.
+- Corpo: "Olá, {primeiro_nome}. Recebemos a sua inscrição em Pedagogia noturno, Goiânia, Processo Seletivo 2027.1. {BC} O que vem depois: {BX} {BM} Dúvidas: (62) 9420-1847."
+- Chamada para ação: "Acessar minha inscrição" ({link_area_candidato})
+- Objetivo, segmento, follow-up e campos fixos: como G1-R1; canal e-mail; FE.
+
+### G2-R2 (WhatsApp, D2)
+- Template: grad_ped_inscrito_passo_v1 ({primeiro_nome}, {link_area_candidato})
+- Primeira linha A: Oi, {primeiro_nome}. Sua inscrição foi recebida. Quer ajuda para fazer a redação?
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. O próximo passo é a redação ou o Enem.
+- Gancho: Sem dia marcado: no seu ritmo.
+- Corpo: "Para Pedagogia noturno: faça a redação online quando puder (eliminatória, nota mínima 5,0) ou envie sua nota do Enem (média de 300 pontos ou mais, de 2010 em diante). O passo a passo está na área do candidato. Se algo não funcionar, responda aqui e o time ajuda. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Acessar minha inscrição: {link_area_candidato}"
+- Objetivo, segmento e follow-up: como G1-R2; FW.
+
+### G2-R3 (e-mail, D5)
+- Assunto A: Redação e Enem no Processo Seletivo da Ufape: as dúvidas respondidas
+- Assunto B: Posso fazer a redação de casa? Vale o Enem antigo? Respostas do edital
+- Texto de pré-visualização: Cada resposta vem do edital do Processo Seletivo 2027.1.
+- Gancho: Respostas curtas, com a fonte.
+- Corpo: "Olá, {primeiro_nome}. Posso fazer a redação de casa? A prova é online. Tem data marcada? Não: você faz a qualquer momento depois da inscrição. Reprovo se tirar menos de 5,0? A redação é eliminatória, com nota mínima 5,0 [CONFIRMAR se há nova tentativa]. Vale o Enem de anos atrás? Vale a média aritmética de 300 pontos ou mais, de qualquer edição a partir de 2010 [CONFIRMAR como a média é calculada e como a nota é enviada]. Quero transferência ou já tenho outro diploma? Há transferência externa e ingresso de diplomado, só depois dos ingressantes por redação e Enem: fale com o time. Edital: {link_edital_vestibular}."
+- Chamada para ação: "Fazer minha redação ou enviar o Enem" ({link_area_candidato})
+- Canal: e-mail; FE.
+
+### G2-R4 (WhatsApp, D9)
+- Template: grad_ped_inscrito_ajuda_v1 ({primeiro_nome})
+- Primeira linha A: Oi, {primeiro_nome}. O que está faltando para você fazer a redação?
+- Primeira linha B: Oi, {primeiro_nome}. Podemos ajudar com a sua redação ou com o Enem?
+- Gancho: Uma resposta de uma palavra já ajuda.
+- Corpo: "Responda com o número: 1) não sei por onde começar; 2) prefiro usar a nota do Enem; 3) tenho dúvida sobre o valor; 4) outro motivo. O time de Goiânia te responde no horário comercial. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda com o número da sua situação."
+- FW.
+
+### G2-R5 (e-mail, D14)
+- Assunto A: Depois da redação: resultado, matrícula e valor, passo a passo
+- Assunto B: O que acontece depois que você faz a redação do Processo Seletivo
+- Texto de pré-visualização: Do resultado no site à primeira mensalidade, sem surpresas.
+- Gancho: Saber o que vem depois ajuda a dar o primeiro passo.
+- Corpo: "Olá, {primeiro_nome}. {BX} Valor: {BP-PED} {BD} A inscrição é gratuita e o edital não prevê taxa de matrícula. {BM}"
+- Chamada para ação: "Fazer minha redação ou enviar o Enem" ({link_area_candidato})
+- Follow-up: tarefa humana em D21. FE.
+
+## G2-D. Régua do aprovado até a matrícula
+
+Mesmas regras, tempos e condições do G1-D (A1 em D0, A2 em D+2, A3 em D+3, A4-R só para menor, A5 em D+7, A6 em D+14 ou a partir de 01/02/2027). Só entra quem tem status "aprovado" no sistema.
+
+### G2-A1 (e-mail, D0)
+- Assunto A: Seu resultado do Processo Seletivo 2027.1 está no site
+- Assunto B: {primeiro_nome}, parabéns pela aprovação: veja como fazer a matrícula
+- Texto de pré-visualização: A matrícula abre 2 dias depois da publicação do resultado.
+- Gancho: Você passou. Agora vêm 3 passos curtos.
+- Corpo: "Olá, {primeiro_nome}. Parabéns pela aprovação em Pedagogia noturno, Goiânia, da Faculdade UFAPE. Resultado: {link_resultado}. Matrícula: eletrônica, a partir de {data_matricula} (2 dias depois da publicação). Para confirmar: (1) pagar a 1ª mensalidade; (2) assinar o contrato digitalmente; (3) enviar os documentos pela plataforma de matrícula digital em até 30 dias [CONFIRMAR de quando contam os 30 dias]. O desconto do 1º semestre de 2027 é aplicado a partir da confirmação da matrícula; as regras completas vêm no próximo e-mail. {BM} As aulas começam em 22/02/2027. Dúvidas: (62) 9420-1847."
+- Chamada para ação: "Ver meu resultado" ({link_resultado})
+- Canal: e-mail; FE. Follow-up: A2.
+
+### G2-A2 (WhatsApp, D+2)
+- Template: grad_ped_aprovado_matricula_v1 ({primeiro_nome}, {link_matricula})
+- Primeira linha A: Oi, {primeiro_nome}. Sua matrícula na Pedagogia da Ufape já está aberta.
+- Primeira linha B: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. Hoje abre a matrícula do seu curso.
+- Gancho: São 3 passos.
+- Corpo: "Para confirmar a matrícula: 1) pague a 1ª mensalidade; 2) assine o contrato digitalmente; 3) envie os documentos na plataforma em até 30 dias. O desconto do 1º semestre de 2027 é aplicado a partir da confirmação da matrícula, com as regras do edital. As aulas começam em 22/02/2027. Dúvida antes de pagar? Responda aqui. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Fazer minha matrícula: {link_matricula}"
+- FW.
+
+### G2-A3 (e-mail, D+3)
+- Assunto A: Antes de se matricular: desconto, renovação e cancelamento em linguagem simples
+- Assunto B: Sua matrícula na Ufape: o que você paga, quando e o que acontece se desistir
+- Texto de pré-visualização: Valor cheio, valor com desconto, validade e devolução de 80%.
+- Gancho: A decisão fica mais segura com todas as regras na mesa.
+- Corpo: "Olá, {primeiro_nome}. O que você paga: {BP-PED} E depois do 1º semestre? {BD, com R$ 1.050,00 como valor cheio} Primeira mensalidade: {valor_primeira_mensalidade} [CONFIRMAR se a 1ª mensalidade já sai com o desconto]. O edital não prevê taxa de matrícula. Se você desistir antes de começar: devolução de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas (20/02/2027). Se a turma não formar: precisa de pelo menos 30 matriculados; abaixo disso, a Ufape pode cancelar a oferta e devolve a 1ª parcela [CONFIRMAR a data de decisão, pedido G4]. {BM} Edital do desconto: {link_edital_desconto}."
+- Chamada para ação: "Fazer minha matrícula" ({link_matricula})
+- Canal: e-mail; FE.
+
+### G2-A4-R (WhatsApp, só para responsável de candidato menor)
+- Template: grad_ped_aprovado_resp_v1 ({nome_candidato}, {link_matricula})
+- Primeira linha A: Olá. Esta mensagem é para o responsável por {nome_candidato}: a matrícula já pode ser feita.
+- Primeira linha B: Olá, aqui é da Faculdade UFAPE de Goiânia. Sobre a matrícula de {nome_candidato}, o aceite do responsável é necessário.
+- Corpo: igual ao G1-A4-R, com Pedagogia noturno em Goiânia e contato (62) 9420-1847. [CONFIRMAR como o aceite é dado]
+- Chamada para ação: "Falar com o time: responda esta mensagem"
+- FW, com consentimento do responsável.
+
+### G2-A5 (WhatsApp, D+7)
+- Template: grad_ped_aprovado_trava_v1 ({primeiro_nome})
+- Primeira linha A: Oi, {primeiro_nome}. A sua matrícula ainda não foi concluída. Podemos ajudar?
+- Primeira linha B: Oi, {primeiro_nome}. Algo travou na sua matrícula?
+- Gancho: Se travou em um ponto, a gente resolve com você.
+- Corpo: "Responda com o número: 1) pagamento da 1ª mensalidade; 2) contrato ou assinatura digital; 3) documentos; 4) dúvida sobre o valor ou o desconto; 5) outro motivo. O time de Goiânia te responde no horário comercial. As aulas começam em 22/02/2027. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Responda com o número da sua situação."
+- FW.
+
+### G2-A6 (e-mail, D+14 ou a partir de 01/02/2027)
+- Assunto A: Aulas começam em 22/02/2027: como concluir a sua matrícula
+- Assunto B: {primeiro_nome}, o que falta para a sua matrícula na Ufape
+- Texto de pré-visualização: Passos, regras e quem chamar. Só os fatos.
+- Gancho: Se você ainda quer a vaga, falta pouco.
+- Corpo: "Olá, {primeiro_nome}. As aulas de Pedagogia noturno começam em 22/02/2027. Para participar, a matrícula precisa estar confirmada: 1ª mensalidade paga e contrato assinado. O cancelamento com devolução de 80% vale se pedido até 2 dias antes do início das aulas (20/02/2027). Se algo o impede, responda este e-mail e o time de Goiânia ajuda. {BM} Resumo do desconto: R$ 525,00 por mês (de R$ 1.050,00), só no 1º semestre de 2027, com renovação a cada semestre. [Revisada em 25/01/2027 com números reais; nenhuma frase sobre vagas entra sem número real.]"
+- Chamada para ação: "Concluir minha matrícula" ({link_matricula})
+- Canal: e-mail; FE.
+
+## G2-E. Régua do matriculado até 22/02/2027
+
+Mesmos toques e regras do G1-E: M1 (D0), M2 (D+5), M3 (D+14), M4 (véspera do dia 10), M5 (15/02/2027). Cobrança e contrato são do financeiro e da secretaria.
+
+### G2-M1 (e-mail, D0)
+- Assunto A: Matrícula confirmada: o que acontece até as aulas, em 22/02/2027
+- Assunto B: {primeiro_nome}, sua matrícula na Ufape está confirmada. Veja os próximos passos
+- Texto de pré-visualização: Documentos em até 30 dias, mensalidade no dia 10 e contatos.
+- Gancho: Matrícula feita. Agora, o que falta.
+- Corpo: "Olá, {primeiro_nome}. Sua matrícula em Pedagogia noturno, Goiânia, está confirmada. O que fazer: enviar os documentos pela plataforma de matrícula digital em até 30 dias. O que vale para você: a mensalidade vence no dia 10; o desconto do 1º semestre de 2027 é perdido no mês em que a mensalidade for paga depois do vencimento; para continuar no semestre seguinte, a renovação é pedida, com comprovação, nas regras do Edital 003/2026 Goiânia. Se precisar cancelar, a devolução de 80% vale se o pedido for feito até 20/02/2027. As aulas começam em 22/02/2027. Dúvidas: Vendas Goiânia, (62) 9420-1847; financeiro@intercursos.com.br ou (11) 94525-3730 (WhatsApp)."
+- Chamada para ação: "Enviar meus documentos" ({link_matricula})
+- Canal: e-mail; FE.
+
+### G2-M2 (WhatsApp, D+5)
+- Template: grad_ped_matriculado_docs_v1 ({primeiro_nome}, {link_matricula})
+- Primeira linha A: Oi, {primeiro_nome}. Lembrete: os documentos da matrícula entram pela plataforma, em até 30 dias.
+- Primeira linha B: Oi, {primeiro_nome}. Faltam documentos na sua matrícula na Ufape?
+- Gancho: Enviar agora evita correria depois.
+- Corpo: "Os documentos da matrícula são enviados pela plataforma de matrícula digital, em até 30 dias. A lista está na plataforma [CONFIRMAR NO CATÁLOGO a lista]. Se tiver dificuldade, responda aqui e o time ajuda. Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Enviar documentos: {link_matricula}"
+- FW.
+
+### G2-M3 (e-mail, D+14)
+- Assunto A: Seu 1º semestre de Pedagogia na Ufape: o que esperar
+- Assunto B: Antes das aulas de 22/02/2027: o que você já pode saber
+- Texto de pré-visualização: Início, turno e o que se estuda.
+- Gancho: Como vai ser o começo.
+- Corpo: "Olá, {primeiro_nome}. Início das aulas: 22/02/2027, em Goiânia, no turno noturno, com duração de 4 anos. Desde o 1º semestre há Prática Docente e Projeto Integrador (ficha do curso) [CONFIRMAR NO CATÁLOGO a matriz do 1º semestre]. Local do primeiro dia, horários e calendário: {local_primeiro_dia}, {horarios}, {calendario} [CONFIRMAR; se a Ufape não confirmar, remover esta linha e dizer que as informações chegam por e-mail]. Dúvidas: (62) 9420-1847."
+- Chamada para ação: "Falar com o time de Goiânia" (WhatsApp (62) 9420-1847)
+- Canal: e-mail; FE.
+
+### G2-M4 (WhatsApp, véspera do dia 10)
+- Template: grad_ped_matriculado_mensalidade_v1 ({primeiro_nome})
+- Primeira linha A: Oi, {primeiro_nome}. A sua mensalidade vence no dia 10.
+- Primeira linha B: Oi, {primeiro_nome}. Um lembrete para você não perder o desconto do mês.
+- Gancho: O desconto é perdido no mês em que a mensalidade é paga depois do vencimento.
+- Corpo: "A mensalidade vence no dia 10. Se for paga depois do vencimento, o desconto do edital é perdido naquele mês. Dúvidas sobre boleto ou pagamento: financeiro@intercursos.com.br ou (11) 94525-3730 (WhatsApp). Para não receber mais mensagens, responda SAIR."
+- Chamada para ação: "Falar com o financeiro: (11) 94525-3730"
+- FW. [CONFIRMAR o calendário das 6 mensalidades e quem envia.]
+
+### G2-M5 (e-mail, 15/02/2027)
+- Assunto A: Segunda-feira, 22/02/2027: começam as suas aulas de Pedagogia
+- Assunto B: {primeiro_nome}, sua semana de início na Faculdade UFAPE
+- Texto de pré-visualização: Local, horário e documentos pendentes, num e-mail só.
+- Gancho: Falta uma semana.
+- Corpo: "Olá, {primeiro_nome}. As aulas de Pedagogia noturno começam em 22/02/2027. Documentos pendentes: {docs_pendentes} (enviar em {link_matricula}). Local e horário do primeiro dia: {local_primeiro_dia}, {horarios} [CONFIRMAR]. Lembrete de regra: o cancelamento com devolução de 80% vale se pedido até 20/02/2027. Contato: (62) 9420-1847. Revisado em 25/01/2027 antes do envio."
+- Chamada para ação: "Enviar os documentos que faltam" ({link_matricula}); sem pendência, "Falar com o time de Goiânia"
+- Canal: e-mail; FE.
+
+---
+
+## 4. Respostas prontas para o time de captação
+
+Como usar: o time responde só com o que está abaixo. Pergunta fora da lista: "Vou confirmar com a equipe e te retorno" e registra no CRM; nunca improvisar dado de curso, preço, prazo, ato ou regra. Nunca prometer aprovação, vaga, emprego ou valor dos semestres seguintes. Nunca citar nota do MEC. Nunca dizer "últimas vagas". Falar com o responsável quando o candidato for menor de idade. Tom: simples e direto, "você". Fontes entre parênteses.
+
+### 4.1 Regras iguais para G1 e G2 (os editais 002 e 004/2026 têm as mesmas regras)
+
+| Pergunta | Resposta | Fonte |
+|---|---|---|
+| Quando é a prova? | Não há data de prova. A redação é online e pode ser feita a qualquer momento depois da inscrição. | Editais 002 e 004/2026 |
+| Tem data final de inscrição? | O edital não traz data final. A matrícula só pode acontecer antes das aulas, que começam em 22/02/2027, e a matrícula abre 2 dias depois do resultado. Vou confirmar se há alguma data interna e te aviso. | Editais; [CONFIRMAR G4] |
+| A inscrição é gratuita? | Sim, gratuita, pelo site ou presencialmente, de segunda a sexta, das 9h às 18h. | Editais |
+| Como funciona a redação? | É online, eliminatória, com nota mínima 5,0. O passo a passo está na área do candidato. Sobre tema, tempo de prova e nova tentativa, vou confirmar. | Editais; [CONFIRMAR] |
+| Como funciona o Enem? | Vale a média aritmética de 300 pontos ou mais, de qualquer edição a partir de 2010. Como enviar a nota e como a média é calculada: vou confirmar. | Editais; [CONFIRMAR] |
+| Se eu não passar na redação? | A redação é eliminatória. Quanto a uma nova tentativa ou ao uso do Enem, vou confirmar com a equipe. Não prometo aprovação. | Editais; [CONFIRMAR] |
+| Quando sai o resultado? | O resultado é publicado no site. O prazo de divulgação eu confirmo com a equipe. | Editais; [CONFIRMAR] |
+| Quando faço a matrícula? | A partir de 2 dias depois da publicação do resultado, de forma eletrônica. | Editais |
+| O que confirma a matrícula? | O pagamento da 1ª mensalidade e a assinatura digital do contrato. Os documentos entram pela plataforma de matrícula digital em até 30 dias. | Editais |
+| Tem taxa de matrícula? | O edital não prevê taxa de matrícula. A matrícula se confirma com a 1ª mensalidade. | Editais |
+| A 1ª mensalidade já vem com desconto? | O desconto é aplicado a partir da confirmação da matrícula. Como a 1ª mensalidade é cobrada, vou confirmar o valor exato com o financeiro antes de você pagar. | Editais; [CONFIRMAR] |
+| Quando começam as aulas? | Em 22/02/2027, para todas as formas de ingresso. | Editais |
+| Quando vence a mensalidade? | No dia 10 de cada mês. Se a mensalidade for paga depois do vencimento, o desconto é perdido naquele mês. | Editais |
+| O desconto vale para o curso todo? | Não. Vale só para as 6 mensalidades do 1º semestre de 2027. Para continuar, a renovação é pedida a cada semestre, com comprovação, e não é automática. | Editais 003/2026 |
+| E depois do 1º semestre? | Use o bloco BD: o valor dos semestres seguintes depende da análise da renovação. O que é a comprovação e o efeito do reajuste de dezembro eu confirmo por escrito antes da matrícula. | Editais; [CONFIRMAR G12] |
+| O desconto vale para quem entra pelo Enem? | Sim. Vale para todas as formas de ingresso. | Edital 003/2026 |
+| Posso juntar o desconto com Prouni, Fies ou outro programa? | O desconto não vale junto com programas governamentais com regras próprias. Sobre programas específicos, não tenho informação confirmada; vou verificar com a equipe. | Edital 003/2026; [CONFIRMAR NO CATÁLOGO] |
+| Quais as formas de pagamento? | Vou confirmar com o financeiro. [CONFIRMAR NO CATÁLOGO: boleto, cartão, outros] | [CONFIRMAR] |
+| Quando perco o desconto? | Se a mensalidade for paga depois do vencimento no mês; se o curso deixar de ser ofertado; em transferência; no fim do semestre; com atraso de uma ou mais mensalidades; com interrupção dos estudos; ou se a turma tiver menos de 30 matrículas confirmadas até o início das aulas. | Edital 003/2026 |
+| Posso desistir? Recebo de volta? | Se o cancelamento for pedido até 2 dias antes do início das aulas (até 20/02/2027), a devolução é de 80% do valor pago. | Editais |
+| E se a turma não formar? | A turma precisa de pelo menos 30 matriculados. Abaixo disso, a Ufape pode cancelar a oferta e devolve a 1ª parcela. A data em que isso é decidido eu confirmo. Não usar como pressão de compra. | Editais; [CONFIRMAR G4] |
+| Quantas vagas tem? | São 45 vagas no integral e 45 no noturno de Medicina Veterinária, e 80 na Pedagogia, conforme o edital. Não tenho o número de vagas restantes. | Editais; [CONFIRMAR] |
+| O candidato é menor de idade. O que muda? | A inscrição e a matrícula precisam do aceite do responsável legal. Falo com o responsável. Como o aceite é dado na matrícula, vou confirmar o procedimento. | Editais; [CONFIRMAR] |
+| Tem aula a distância? | O curso é presencial. Pelo edital, até 30% da carga horária pode ser oferecida a distância, como a lei permite. Quais disciplinas e em que semestres, vou confirmar com a coordenação. | Editais; [CONFIRMAR] |
+| Posso transferir de outra faculdade ou entrar com outro diploma? | Há transferência externa e ingresso de diplomado, mas só depois dos ingressantes por redação e Enem. Posso abrir um pedido para a equipe analisar. | Edital 002/2026 |
+| O curso é autorizado pelo MEC? Tem reconhecimento? Qual a nota do MEC? | Informo o ato autorizativo do curso (G1 ou G2, abaixo) e o credenciamento da faculdade. Sobre reconhecimento do curso, vou confirmar com a regulação antes de responder. Não informamos nota do MEC. | Catálogo; editais; [CONFIRMAR] |
+| Que diploma eu recebo? | Medicina Veterinária: bacharelado. Pedagogia: licenciatura (Edital 004/2026). | Editais; catálogo |
+| Posso falar com o responsável ou com o coordenador? | Passo o pedido para a equipe. Nome da coordenação: [CONFIRMAR NO CATÁLOGO]. Nenhum docente é citado sem autorização. | [CONFIRMAR] |
+| Quero cancelar a inscrição ou parar de receber mensagens. | Registrar o pedido na hora, encerrar o canal e confirmar uma vez. Pedido de exclusão de dados vai ao responsável pela LGPD [CONFIRMAR canal]. | LGPD |
+
+### 4.2 Respostas próprias do G1 (Medicina Veterinária, São Paulo)
+
+| Pergunta | Resposta | Fonte |
+|---|---|---|
+| Quanto custa o integral? | De R$ 10.000,00 por R$ 5.000,00 por mês, 50% de desconto, nas 6 mensalidades do 1º semestre de 2027 (R$ 30.000,00 no semestre, contra R$ 60.000,00 no valor cheio). Regras: use o BP-INT. | Catálogo; Edital 003/2026 |
+| Quanto custa o noturno? | De R$ 10.000,00 por R$ 4.000,00 por mês, 60% de desconto, nas 6 mensalidades do 1º semestre de 2027 (R$ 24.000,00 no semestre, contra R$ 60.000,00 no valor cheio). Regras: use o BP-NOT. | Catálogo; Edital 003/2026 |
+| Quanto tempo dura? Qual a carga horária? | Integral: 4 anos. Noturno: 5 anos. Carga horária de 4.195 h, mais 75 h de atividades complementares. Presencial, em São Paulo. | Catálogo |
+| Qual o ato do curso? | Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025). A Faculdade UFAPE de São Paulo é credenciada pela Portaria MEC nº 176, de 27/02/2025 (D.O.U. 28/02/2025). | Catálogo; editais |
+| Como é o noturno? Posso trabalhar de dia? | As aulas são no período noturno e o curso dura 5 anos. O horário das atividades práticas e do estágio (9º e 10º semestres) eu confirmo; não prometo que seja compatível com trabalho. | Catálogo; [CONFIRMAR NO CATÁLOGO] |
+| Quando é o estágio? | Estágio supervisionado nos 7º e 8º semestres (integral) e 9º e 10º semestres (noturno), conforme a matriz. | Ficha do curso; [CONFIRMAR NO CATÁLOGO] |
+| Quando começa a prática? | Já no 1º semestre, com Práticas Hospitalares e Projeto Extensionista I, conforme a matriz. | Ficha do curso; [CONFIRMAR NO CATÁLOGO] |
+| A Ufape tem hospital veterinário? | Sim, a Ufape Clínica, hospital veterinário próprio. Como os alunos da graduação o usam em cada semestre, vou confirmar com a coordenação. | contexto/ufape-geral.md; [CONFIRMAR G11] |
+| Quem são os professores? | Não cito nomes sem autorização. Vou passar o pedido para a coordenação. | [CONFIRMAR autorização G11] |
+| Posso visitar a faculdade? | Posso fazer a inscrição presencialmente, de segunda a sexta, das 9h às 18h, na Av. Nove de Julho, 3913 e 3939, Jardim Paulista, São Paulo. Sobre visita guiada, vou confirmar se existe. | Edital 002/2026; [CONFIRMAR P4] |
+| Qual o contato? | Vendas São Paulo (11) 91366-9290 e secretaria (11) 97492-8443 (WhatsApp), de segunda a sexta, das 9h às 18h. | contexto/ufape-geral.md |
+
+### 4.3 Respostas próprias do G2 (Pedagogia, Goiânia)
+
+| Pergunta | Resposta | Fonte |
+|---|---|---|
+| Quanto custa? | De R$ 1.050,00 por R$ 525,00 por mês, 50% de desconto, nas 6 mensalidades do 1º semestre de 2027 (R$ 3.150,00 no semestre, contra R$ 6.300,00 no valor cheio). Regras: use o BP-PED. | Catálogo; Edital 003/2026 Goiânia |
+| Quanto tempo dura? É presencial? | 4 anos, presencial, noturno, em Goiânia. | Catálogo |
+| Qual a carga horária? | Vou confirmar com a secretaria e te passo. Não informo número até a Ufape confirmar. | [CONFIRMAR NO CATÁLOGO, G5] |
+| Qual o ato do curso? | Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022). A Faculdade UFAPE de Goiânia é credenciada pela Portaria MEC nº 871, de 10/11/2022. | Catálogo; editais |
+| EAD é mais barato. Por que escolher a Ufape? | Não comparo preço de outras instituições. Posso dizer o que a Ufape oferece: Pedagogia presencial, à noite, em Goiânia, com Prática Docente desde o 1º semestre, e R$ 525,00 por mês no 1º semestre de 2027 (de R$ 1.050,00), com renovação a cada semestre. Pelo edital, até 30% da carga horária pode ser a distância. | Catálogo; ficha; editais |
+| Quais disciplinas e o que posso fazer com o curso? | A página destaca a docência na Educação Infantil e nos anos iniciais do Ensino Fundamental e a gestão educacional; a matriz tem Educação Inclusiva e Letramento em Libras. Não prometo emprego nem salário. | Ficha do curso; [CONFIRMAR NO CATÁLOGO] |
+| Quem é o coordenador? Quem são os professores? | Vou confirmar com a Ufape. Não informo docente até a Ufape informar o corpo docente do curso. | [CONFIRMAR NO CATÁLOGO] |
+| Quando é o estágio? | O estágio supervisionado começa a partir do 6º semestre, conforme a matriz. Horários eu confirmo. | Ficha do curso; [CONFIRMAR NO CATÁLOGO] |
+| Onde fica a unidade? Posso me inscrever presencialmente? | A inscrição pode ser feita pelo site ou presencialmente em Goiânia. Vou te passar o endereço confirmado pela equipe. | Edital 004/2026; [CONFIRMAR G9] |
+| Qual o contato? | Vendas Goiânia (62) 9420-1847. | contexto/ufape-geral.md |
+
+### 4.4 Quando passar para outra pessoa
+
+| Situação | Para quem |
+|---|---|
+| Dúvida de pagamento, boleto, cobrança ou 1ª mensalidade | Financeiro: financeiro@intercursos.com.br, (11) 94525-3730 (WhatsApp) |
+| Documentos, contrato, calendário | Secretaria: (11) 97492-8443, (11) 5054-1204, duvidas@intercursos.com.br [CONFIRMAR para Goiânia] |
+| Reconhecimento, regras de renovação, comprovação, aulas a distância | Regulação e coordenação [CONFIRMAR responsáveis] |
+| Reclamação, ouvidoria | sac@intercursos.com.br, ouvidoria@intercursos.com.br |
+| Menor de idade sem consentimento registrado, pedido de exclusão de dados | Responsável pela LGPD e jurídico [CONFIRMAR] |
+
+---
+
+## 5. Regras de saída (valem para todas as réguas)
+
+| Evento | O que acontece | Quem faz |
+|---|---|---|
+| Lead conclui a inscrição | Sai da régua L na hora. Entra em R1, sem repetir contato feito nos últimos 2 dias. Cancelar toques L pendentes | CRM |
+| Inscrito faz a redação ou envia o Enem | Sai de R e de AT. Nenhuma mensagem de venda. Só o aviso de serviço do sistema [CONFIRMAR]. Aguarda o resultado | CRM |
+| Resultado: aprovado | Entra em A1 na data de publicação, só com status do sistema | CRM |
+| Resultado: não aprovado na redação | Sai de todas as réguas. Nenhuma mensagem automática de marketing. Alerta ao time de captação para contato humano e cuidadoso (nova tentativa, Enem). Regra de nova tentativa [CONFIRMAR] | Captação |
+| Aprovado se matricula (1ª mensalidade e contrato) | Sai de A. Entra em M1 | CRM |
+| Matriculado conclui documentos | Cancela M2 e a pendência em M5 (o CTA muda) | CRM |
+| Candidato ou responsável responde com dúvida ou pede para falar com a captação | Para todo envio automático na hora. Etiqueta "falar com a captação". O time responde no horário comercial (prazo interno [CONFIRMAR]; proposta: até 1 dia útil [SUPOSIÇÃO]). A régua só volta se o time liberar | Captação |
+| Para de responder | Sem abertura, clique ou resposta até o último toque da régua (L7, R5, A6): recebe "sem engajamento", encerra WhatsApp e e-mail da régua e fica fora de novos envios até agir (voltar ao site, abrir e-mail, responder). Não há "último aviso" com urgência | CRM |
+| Responde SAIR (WhatsApp) | Encerra o WhatsApp de marketing na hora e registra data e canal. Uma única mensagem de confirmação ("Pronto, você não vai mais receber mensagens da Ufape por aqui"). O e-mail só para se também pedir | CRM |
+| Clica em descadastrar (e-mail) | Encerra o e-mail de marketing na hora, registra data e canal | CRM |
+| Bloqueia o número, número inválido, e-mail devolvido | Encerra o canal e marca o contato | CRM |
+| Mensagem de serviço depois da saída | Contrato, cobrança, documentos e aviso de turma não são marketing; seguem pelo financeiro e pela secretaria [CONFIRMAR com o jurídico e o financeiro]. A régua de marketing nunca as usa para vender | Jurídico, financeiro |
+| Candidato menor sem consentimento do responsável registrado | Nenhum envio. Etiqueta "aguardando G10". Entra na régua só depois da validação | CRM |
+| Responsável pede para apagar os dados do menor | Para todo envio, encaminha ao responsável pela LGPD [CONFIRMAR canal] | Jurídico |
+| Pediu transferência, ingresso de diplomado ou vaga remanescente | Sai das réguas e vai ao time de captação (formas de ingresso depois dos ingressantes por redação e Enem) | Captação |
+| Cancela a matrícula (até 20/02/2027) ou a Ufape cancela a turma | Sai de M. Nenhuma mensagem de marketing. A mensagem de serviço é da secretaria | Secretaria |
+| 22/02/2027 | Todas as réguas da Graduação 2027/1 encerram. Pedido de pausa das campanhas (aprovação humana, pedido G16 do cmo) | cmo, humano |
+| Ufape informar data-limite interna de inscrição ou matrícula | Puxar A6 e M5 para essa data, em ciclo extra do cmo | cmo |
+
+---
+
+## 6. Registro e medição por mensagem
+
+| Régua | Mensagem | Sucesso é | Onde mede |
+|---|---|---|---|
+| AT | AT1, AT2, AT3 | Redação feita ou Enem enviado em até 7 dias; resposta | Sistema de inscrição e CRM |
+| L | L1 a L7 | Inscrição concluída; resposta; clique na LP | LP, CRM (UTM) [CONFIRMAR G13] |
+| R | R1 a R5 | Redação feita ou Enem enviado | Sistema de inscrição e CRM |
+| A | A1 a A6 | 1ª mensalidade paga e contrato assinado | Financeiro e CRM |
+| M | M1 a M5 | Documentos enviados; matrícula mantida até 22/02/2027 | Secretaria e CRM |
+
+Cliques, respostas e conversões (inscrição, redação, matrícula) contam mais do que abertura e leitura. Leitura por liberação e por turno, nunca somada. Testes sugeridos: primeira linha A contra B (AT2, L2, R2, A2) e assunto A contra B (AT1, L3, A1, A3); cada teste vai ao registro de testes com resultado. Volume por teste e limite estatístico: [CONFIRMAR após os números do funil, pedido G2 do cmo]. Nenhuma abertura ou leitura é usada como prova de interesse para decidir pressão.
+
+Fica de fora de toda a medição: nome, telefone, e-mail ou CPF de candidato em relatório. O cmo lê só números somados por turma.
+
+---
+
+## 7. Auditorias
+
+Aplicadas por este agente ao rascunho. A conferência final é do qa-de-marketing (10/11/2026) e a aprovação é humana.
+
+### auditorias/07-email-e-whatsapp.md
+
+- [ ] Consentimento e descadastro funcionando (opt-in registrado para WhatsApp e forma simples de sair nos dois canais). As regras e os campos fixos FE e FW estão escritos, e todo envio exige opt-in registrado. O teste do SAIR e do link de descadastro e o registro de opt-in e de consentimento de menor dependem do CRM [CONFIRMAR, pedido G10 e G13]. Bloqueia o envio.
+- [x] Cada mensagem tem um objetivo (campo "Objetivo" ou título de cada contato).
+- [x] Assuntos e primeiras linhas de WhatsApp são honestos: nenhum fala em vagas acabando, prazo inexistente, aprovação certa ou desconto sem validade; cada WhatsApp tem duas primeiras linhas, em tom de pessoa.
+- [x] Segmentos recebem mensagens relevantes para a etapa: AT (inscrito sem redação), L (lead), R (inscrito), A (aprovado), M (matriculado), com versões para o responsável e para o adulto.
+- [x] Réguas têm regras de saída (seção 5).
+- [ ] Resultados registrados para cada envio: o plano de registro está na seção 6; nada foi enviado, então não há resultado a registrar. Pendente até o primeiro envio.
+- [ ] Cliques, respostas e conversões medidos, não só aberturas: definidos na seção 6; a medição depende de UTM e de origem chegando ao CRM [CONFIRMAR, pedido G13].
+- [ ] WhatsApp só em horário comercial, com frequência humana e template aprovado pela Meta: horário e frequência escritos (FW); nenhum template foi submetido nem aprovado. Pendente.
+
+### auditorias/06-geracao-de-demanda.md
+
+- [x] Toda campanha tem um briefing escrito: estrategia-de-campanha-graduacao-2026-10-26.md (G1 e G2).
+- [ ] Metas definidas antes do lançamento: piso de 30 matrículas por turma, conta do funil e meta de redações até 31/01/2027 [SUPOSIÇÃO de desenho]; alvos, custos e taxas [CONFIRMAR]. Não é meta desta régua, mas bloqueia a leitura dela.
+- [x] A isca digital entrega a promessa do título: não há isca nesta régua. O guia "como fazer a redação online ou usar a nota do Enem", sugerido pelo estrategia-de-campanha, ainda não existe; {link_passo_a_passo} só entra se ele existir.
+- [x] Toda captura de lead tem nutrição em seguida: L (lead), R (inscrito) e AT (base existente), em e-mail e WhatsApp.
+- [x] Plano de distribuição por peça: cada contato tem canal, momento e segmento (seção 1 e cada mensagem).
+- [x] Regras das comunidades respeitadas: não se aplica.
+- [ ] Revisão no ponto de checagem realizada: C0 (30/10), C1 (30/11), C2 (04/01/2027) e C3 (25/01/2027) definidos pelo cmo; ainda não realizados.
+- [ ] Consentimento para contato por e-mail e WhatsApp coletado em todo formulário: a squad não altera a LP; [CONFIRMAR] com a plataforma e o jurídico (G10 e G13). Bloqueia o envio.
+- [x] Bolsas, descontos e prazos batem com o catálogo e a ficha da oferta: percentuais, valores cheios, valores com desconto, validade (1º semestre de 2027), datas (22/02/2027 e 20/02/2027), 2 dias, 30 dias e 80% conferidos com o catálogo e com a ficha dos editais. O total do semestre com desconto é aritmética sobre esses valores.
+
+### auditorias/conformidade-educacional.md
+
+DADOS DO CURSO
+- [x] Nome, modalidade, duração e turno batem com o catálogo; carga horária da Medicina Veterinária (4.195 h + 75 h) bate; a da Pedagogia não aparece em nenhuma mensagem nem resposta.
+- [x] Os dois cursos estão "aberto" no catálogo.
+- [x] Modalidade presencial clara; até 30% a distância informado nas respostas e na comparação com EAD, sem esconder.
+
+REGULAÇÃO (MEC)
+- [x] Atos autorizativos como no catálogo (Portaria SERES/MEC nº 162, de 13/03/2025; Portaria nº 992, de 08/12/2022); credenciamentos só com número e data; reconhecimento não citado e resposta pronta que não o antecipa.
+- [x] Pós lato sensu e curso livre: não se aplica.
+- [x] Nenhuma nota do MEC; nenhuma frase de certificação.
+
+PROMESSAS E PROVAS
+- [x] Nenhuma promessa de emprego, salário, promoção, aprovação ou concurso; a redação é descrita como eliminatória.
+- [x] Nenhum dado de empregabilidade ou satisfação.
+- [x] Nenhum superlativo sem fonte.
+- [x] Comparação com EAD só por atributos verificáveis, sem preço de terceiros e sem depreciar.
+
+PREÇO E CONDIÇÕES (CDC)
+- [x] Preço com valor cheio, valor com desconto, parcelas, regra e validade; sem taxa escondida (o edital não prevê taxa de matrícula); reajuste de dezembro sinalizado [CONFIRMAR efeito sobre 2027/1].
+- [x] Desconto com regra, público elegível (todas as formas de ingresso) e validade (1º semestre de 2027).
+- [x] Sem urgência falsa: sem "últimas vagas", sem contagem regressiva; a turma mínima aparece como regra do edital, nunca como pressão.
+- [x] Prouni, Fies e financiamento não aparecem em mensagem; na resposta pronta, só dizem que não há informação confirmada.
+
+PESSOAS E DADOS (LGPD E DIREITO DE IMAGEM)
+- [x] Nenhuma foto, vídeo, depoimento ou docente nas mensagens; hospital só como linha opcional condicionada à autorização (G11).
+- [x] Menores: aceite do responsável na inscrição e na matrícula, versões para o responsável e nenhum envio direto ao menor sem validação jurídica.
+- [ ] Formulários informam a finalidade do uso dos dados e têm link para a política de privacidade: o rodapé dos e-mails traz {link_politica}; o formulário da LP não é da squad [CONFIRMAR, pedido G13].
+- [ ] WhatsApp e e-mail só vão para quem deu consentimento, com forma fácil de sair: regra e campos escritos; consentimento registrado e consentimento de menor dependem do CRM e do jurídico [CONFIRMAR, G10].
+- [x] Nenhum dado pessoal de aluno ou candidato neste arquivo (só variáveis do CRM).
+
+PLATAFORMAS
+- [x] Anúncios: não se aplica (a régua não é anúncio). Nenhuma frase afirma ou insinua característica pessoal de quem recebe.
+- [ ] Página de destino entrega o que a mensagem prometeu: LP de Pedagogia com textos de modelo (pedido G6) e página do noturno com campo turno errado (pedido G8); as mensagens usam {link_lp_utm} e dependem dessas correções, que são da equipe do site.
+
+RESULTADO: Aprovado como rascunho para o qa-de-marketing. Bloqueado para envio até: consentimento e menores (G10, G13), templates da Meta, correção da página de Pedagogia (G6) e do noturno (G8) quando o link for a LP, e aprovação humana do envio em massa (aprovadores a nomear, G14). Itens bloqueados e o que precisa mudar: ver listas abaixo. Revisado por: campanhas-de-nutricao (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
+
+Notas para arquivos de outros donos (não alterados por este agente):
+- O plano do cmo prevê este arquivo com data de 06/11/2026; foi entregue em 26/10/2026.
+- A resposta pronta sobre Prouni e Fies não vem do catálogo: precisa de decisão da Ufape (participa ou não).
+- O briefing e a oferta citam "Práticas Hospitalares e Projeto Extensionista I" ora como uma disciplina, ora como duas; este arquivo lista "Práticas Hospitalares" e "Projeto Extensionista I" e marca [CONFIRMAR NO CATÁLOGO].
+
+---
+
+## Lista 1. Fatos (com fonte)
+
+- Medicina Veterinária: bacharelado presencial em São Paulo, integral em 4 anos e noturno em 5 anos, 4.195 h + 75 h de atividades complementares (catálogo, seção 1; Edital 002/2026).
+- Pedagogia: licenciatura presencial em Goiânia, noturno, 4 anos (catálogo, seção 1; Edital 004/2026). Nenhuma carga horária é usada.
+- Medicina Veterinária: de R$ 10.000,00 por R$ 5.000,00 por mês (integral, 50%) ou R$ 4.000,00 (noturno, 60%); semestre cheio de R$ 60.000,00 em 6 parcelas de R$ 10.000,00 (catálogo; Edital 003/2026).
+- Pedagogia: de R$ 1.050,00 por R$ 525,00 por mês (50%); semestre cheio de R$ 6.300,00 em 6 parcelas (catálogo; Edital 003/2026 Goiânia).
+- Totais do semestre com desconto (R$ 30.000,00, R$ 24.000,00 e R$ 3.150,00): aritmética sobre os valores acima.
+- Desconto só no 1º semestre de 2027, todas as formas de ingresso, aplicado a partir da confirmação da matrícula, renovação a cada semestre com comprovação, perda no mês pago com atraso (vencimento dia 10), sem acúmulo com programa governamental, queda se a turma tiver menos de 30 matrículas confirmadas (Editais 003/2026).
+- Inscrição gratuita desde 17/08/2026, pelo site ou presencial, de segunda a sexta, das 9h às 18h; São Paulo: Av. Nove de Julho, 3913 e 3939, Jardim Paulista (Edital 002/2026).
+- Redação online a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; Enem com média aritmética mínima de 300 pontos, edições de 2010 em diante (Editais 002 e 004/2026).
+- Resultado no site; matrícula eletrônica a partir de 2 dias depois; confirmada com a 1ª mensalidade e a assinatura digital do contrato; documentos pela plataforma de matrícula digital em até 30 dias (editais).
+- Aulas em 22/02/2027; turma mínima de 30, com reembolso da 1ª parcela se a oferta for cancelada; devolução de 80% se o cancelamento for pedido até 2 dias antes das aulas (editais); 20/02/2027 é a conta sobre 22/02/2027.
+- Vagas: 45 integral, 45 noturno, 80 Pedagogia (editais). Até 30% da carga horária pode ser a distância (editais).
+- Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula (Edital 002/2026; Edital 004/2026 com as mesmas regras).
+- Atos: Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025); Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022) (catálogo). Credenciamento: Portaria MEC nº 176, de 27/02/2025 (São Paulo); Portaria MEC nº 871, de 10/11/2022 (Goiânia) (editais; contexto/ufape-geral.md).
+- Contatos oficiais: secretaria (11) 97492-8443 e (11) 5054-1204, duvidas@intercursos.com.br; Vendas São Paulo (11) 91366-9290; Vendas Goiânia (62) 9420-1847; financeiro (11) 94525-3730 e financeiro@intercursos.com.br; SAC e ouvidoria @intercursos.com.br (contexto/ufape-geral.md). Razão social e CNPJ 27.409.162/0001-34 (idem).
+- Matriz (ficha do curso, via oferta e briefing): Medicina Veterinária com Práticas Hospitalares, Campos de Atuação do Médico Veterinário e Projeto Extensionista I no 1º semestre e estágio nos 7º e 8º (integral) e 9º e 10º (noturno); Pedagogia com Prática Docente e Projeto Integrador desde o 1º semestre, Educação Inclusiva, Letramento em Libras e estágio a partir do 6º semestre.
+- Ativação da base marcada para 30/10/2026; fases, canais e checagens (plano do cmo, 26/10/2026). 30/10/2026 é sexta-feira e 22/02/2027 é segunda-feira.
+- A Graduação não tem número de vagas restantes, nota do MEC, data de prova nem data final de inscrição publicados (ficha dos editais).
+
+## Lista 2. Suposições
+
+- [SUPOSIÇÃO] Frequência máxima de 1 WhatsApp a cada 3 dias úteis e 2 contatos por semana somando os canais; horários de envio (10h30 e 14h30) a testar.
+- [SUPOSIÇÃO] Os tempos entre toques (D0, D2, D5, D8, D12, D15, D20 e os da régua R e A) são desenho meu e precisam de teste com números reais.
+- [SUPOSIÇÃO de desenho] Meta interna de redações e Enem cumpridas até 31/01/2027 (briefing).
+- [SUPOSIÇÃO] O gargalo do funil é o inscrito que não faz a redação (plano do cmo); a ativação da base nasce dessa hipótese.
+- [SUPOSIÇÃO] 02/11/2026 e 20/11/2026 são feriados; Carnaval de 2027 em 8 a 10/02. Conferir o calendário antes de agendar.
+- [SUPOSIÇÃO] Prazo interno de resposta do time de captação de até 1 dia útil.
+- [SUPOSIÇÃO] Personas e objeções de contexto/graduacao.md (mensalidade alta, faculdade pouco conhecida, Pedagogia EAD mais barata) sustentam os temas de L3, L4, L5-alt e L6; "Quem trava na redação geralmente tem uma dessas dúvidas" (AT3) fica sem a palavra "geralmente" se o time não confirmar.
+- [SUPOSIÇÃO] A plataforma de matrícula funciona no celular (A2).
+- [SUPOSIÇÃO] Os templates da Meta caberão nos limites de tamanho; a categoria (utilidade ou marketing) será definida na submissão.
+
+## Lista 3. Dados que faltam
+
+- [CONFIRMAR] Passo a passo exato da redação e do envio do Enem na área do candidato (tema, tempo, nova tentativa, como a média é calculada, prazo do resultado) e se existe {link_passo_a_passo}.
+- [CONFIRMAR] Data-limite interna de inscrição e matrícula e data de decisão sobre a turma mínima (pedido G4).
+- [CONFIRMAR] Se a 1ª mensalidade já sai com o desconto; calendário das 6 mensalidades; formas de pagamento; de quando contam os 30 dias dos documentos; lista de documentos.
+- [CONFIRMAR] O que é a "comprovação" da renovação e o efeito do reajuste de dezembro sobre 2027/1 (pedidos P1 e G12).
+- [CONFIRMAR] Como o aceite do responsável é dado na matrícula e como o CRM trata o consentimento de menor (pedido G10); se o CRM guarda menor de idade, responsável, turno e status de redação.
+- [CONFIRMAR] Se o formulário da LP é a inscrição; URL que recebe a UTM; origem no CRM; política de privacidade no formulário (pedido G13).
+- [CONFIRMAR] Opt-in de WhatsApp registrado, templates submetidos e aprovados na Meta, categoria de cada um; ferramenta de CRM e de atendimento; o canal de WhatsApp de vendas ativo.
+- [CONFIRMAR] Se existe visita guiada (P4) ou aula aberta (P9); sem isso, L5-alt.
+- [CONFIRMAR autorização] Imagem e nome de docentes e uso do hospital em peças (pedido G11); como a graduação usa a Ufape Clínica.
+- [CONFIRMAR NO CATÁLOGO] Horário das práticas e do estágio do noturno; matriz completa do 1º semestre das duas graduações; coordenação, corpo docente e carga horária da Pedagogia (pedido G5); quais disciplinas usam os 30% a distância.
+- [CONFIRMAR] Endereço da unidade de Goiânia e data de publicação da Portaria MEC nº 871/2022 (pedido G9); se duvidas@intercursos.com.br atende Goiânia.
+- [CONFIRMAR] Correção dos textos dos Editais 003/2026 (pedido G7) e das páginas (G6 e G8).
+- [CONFIRMAR] Local, horário e calendário do primeiro dia de aula; dados para M3 e M5.
+- [CONFIRMAR] Regra para o candidato não aprovado (nova tentativa, Enem); procedimento de transferência, diplomado e vagas remanescentes.
+- [CONFIRMAR] Números agregados e metas por turma (pedidos G2 e G3); aprovadores do envio em massa (pedido G14); responsável pela LGPD e canal de pedidos de titular.
+
+---
+
+## Próximo passo
+
+Próximo agente sugerido: copy-de-mensagens (09/11/2026), que lapida estes textos, escolhe os 5 WhatsApp e os 3 e-mails do kit mínimo de cada liberação, escreve as respostas-padrão finais e roda os testes A e B das primeiras linhas e dos assuntos. A ativação da base (G1-AT e G2-AT) pode ser antecipada para 30/10/2026 pelo copy-de-mensagens, na ordem do plano do cmo, e depois segue para o qa-de-marketing e para a aprovação humana. Nada é enviado, publicado ou pago sem a aprovação humana.
