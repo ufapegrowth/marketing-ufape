@@ -43,7 +43,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.11 | gestor-de-midia | pos, livres, eventos | entregue; pos aprovado com ajustes; livres e eventos sem qa |
 | 1.12 | analise-de-midia | pos, livres, eventos | entregue (sem qa) |
 | 1.13 | estrategia-de-midia | pos, livres | entregue (sem qa) |
-| 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
+| 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | entregue (sem qa); páginas das 22 provas ainda dizem "presencial" e bloqueiam a subida (AMP2) |
 | 1.15 | anuncios-linkedin, anuncios-tiktok | pos | entregue (sem qa): LinkedIn teste condicionado só da 657 (11/01 a 31/01/2027); TikTok fora |
 | 1.16 | lacunas-de-conteudo | pos, livres | entregue |
 | 1.17 | seo-tecnico | geral | entregue |
@@ -141,3 +141,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Encomendas aplicadas (grupo relacionamento): estrategia-de-relacionamento pos v2 e livres v2, newsletter v3 (edição 4 em 07/01/2027), jornada-do-aluno v2 (tabela única de pares, J5 a J14 fechados). Ambiguidade registrada: janela de silêncio da 616 (online com data) |
 | 26/10/2026 | Encomendas aplicadas (grupo social e conteúdo, 9 arquivos; grupo mídia, 8 arquivos). 1.28 entregue. Aviso: agentes em paralelo dividiram a pasta de rascunho e um script foi sobrescrito no meio da rodada; os agentes conferiram as edições nos arquivos. A partir daqui, cada agente usa subpasta própria |
 | 26/10/2026 | Encomendas aplicadas (grupo copy e campanhas): copy-de-mensagens pos v2 e eventos v3, estrategia-de-campanha pos v2 e eventos v3, criativos-de-anuncio pos v2 e eventos v3. Provas como online com campus; 12 fichas que se contradizem por dentro ficam [CONFIRMAR U1]; acesso à prova online [CONFIRMAR U2]. Todas as encomendas da seção 12 aplicadas |
+| 26/10/2026 | 1.14 entregue (5 arquivos). Lote D concluído. Iniciado o lote E: 1.33 backlog-de-otimizacao e qa do lote D |
