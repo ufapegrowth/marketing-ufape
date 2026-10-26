@@ -18,6 +18,10 @@ Diário da rodada de planejamento. Toda sessão que retomar este trabalho lê es
 | 26/10/2026 | Workshop de Neuromonitorização: só docentes confirmados, cupom SIMPNEUROMONIT para aluno e ex-aluno, 16 h, campanhas para a página neuro-summit |
 | 26/10/2026 | Nome oficial do evento: "Workshop Brasileiro de Neuromonitorização". Evento liberado. Nunca "simpósio" nas peças |
 | 26/10/2026 | Todos os docentes têm autorização de uso de imagem e de citação em materiais |
+| 26/10/2026 | Autorização de imagem e citação para todos: docentes, palestrantes e convidados, inclusive dos gravados 700 e 202 |
+| 26/10/2026 | Provas de bolsa: vale a regra da ficha de cada prova; provas online, o local não importa, mas a peça diferencia o campus (São Paulo ou Goiânia); turma mínima 15, também na Pós |
+| 26/10/2026 | Datas: valem as da planilha, inclusive 68662 e 662 |
+| 26/10/2026 | Página 623 será corrigida (aprovado). Até a correção estar no site, nenhuma campanha nova aponta para ela |
 | 26/10/2026 | Seguir pela camada 1 até o fim. A sessão que vinha fazendo a rodada foi substituída por esta (mesmo branch) |
 
 ## Camada 1: estado por etapa
@@ -83,14 +87,14 @@ Segue as dependências da seção 4 do plano do cmo.
 - Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
 - Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
-- Análise de mídia da Pós: datas de 68662 e 662 parecem trocadas entre planilha e site; linha "Pneumologia" da visão parece ser da 670 (encerrada), não da 68636. Conferir com a Ufape.
+- Análise de mídia da Pós: datas de 68662 e 662 parecem trocadas entre planilha e site; linha "Pneumologia" da visão parece ser da 670 (encerrada), não da 68636. RESOLVIDO: valem as datas da planilha.
 - Newsletter v2: com a regra da 1.26, as semanas de 02 a 08/11 e 09 a 15/11 já passam do teto de e-mails só com a régua das provas e a do Workshop, antes da newsletter. O cmo precisa decidir a supressão.
 - Jornada do aluno (J1 a J16): 3 listas diferentes de pares Livres e Pós (o cmo fecha uma só), duas propostas de crédito para a mesma ponte (PR5 e PL2), régua das provas convida ex-aluno sem a janela de silêncio, 3 valores de utm_medium, M9 do workshop 4 dias depois do evento contra 7 de silêncio de Livres.
-- Regras das provas contraditórias nas fichas (prazo de matrícula 10 dias úteis, 10 dias ou 7 dias em 12 provas; canal do resultado; turma mínima 15 ou 20; provas de Goiânia com endereço de São Paulo). Pergunta para a Ufape.
+- Regras das provas contraditórias nas fichas (prazo de matrícula 10 dias úteis, 10 dias ou 7 dias em 12 provas; canal do resultado; turma mínima 15 ou 20; provas de Goiânia com endereço de São Paulo). RESOLVIDO: vale a regra da ficha de cada prova; provas online, campus diferenciado na peça; turma mínima 15.
 - Livres: a página 623 mostra início em 01 e 02/08/2026 (provável turma III já passada), a 68637 mostra 28 e 29/11. Nenhuma campanha nova aponta para a 623 enquanto isso não for corrigido; conferir URL dos anúncios em 28/10.
 - Eventos: provas de Anestesiologia e Neurologia rodam de 03/11 a 26/11 e a 616 a partir de 10/11, contra o "não há sobreposição" do gestor de eventos. Teste de rastreio de 31/10 (sábado) antecipado para 30/10.
 - Teto de WhatsApp aparece em três versões nas saídas (2 da Pós; 2 WhatsApp e 2 e-mails somando linhas; 2 no total) e Livres tem 1 por semana na 1.20. Frase do curso livre com duas versões (DL2).
-- A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
+- RESOLVIDO: a autorização cobre palestrantes e convidados dos gravados 700 e 202.
 
 ## Próximos passos
 
@@ -118,3 +122,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.27 entregue: jornada em 8 etapas, passos da prova à matrícula (B1 a B8) com 4 lacunas, pedidos JR1 a JR7 |
 | 26/10/2026 | 1.21 entregue. Proposta PY1 ao cmo: link de Short não é clicável [SUPOSIÇÃO], então o critério de clique com UTM da 1.20 tende a zero em dezembro |
 | 26/10/2026 | Lote C concluído: 1.12 livres e eventos, 1.13 livres, 1.24 pos e livres. Iniciados conciliação do cmo e qa dos lotes B e C |
+| 26/10/2026 | Decisões da Ufape (10 a 13 do briefing) gravadas no briefing, em contexto/pos-graduacao.md (turma mínima 15, prova online, regra por ficha) e em contexto/ufape-geral.md (autorização para todos) |
