@@ -46,7 +46,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.18 | links-e-autoridade | pos | entregue |
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
 | 1.20 | estrategia-social | pos, livres, eventos | pos versão 2 corrigida (SP1 a SP3), aguarda reconferência do qa; eventos e livres entregues (sem qa) |
-| 1.21 | youtube | pos, livres | falta |
+| 1.21 | youtube | pos, livres | entregue (sem qa): teste condicionado, 7 Shorts e 2 aulas abertas na Pós, 2 Shorts em Livres |
 | 1.22 | podcast, x | geral | entregue (sem qa): os dois ficam fora até 24/01/2027, com condições de entrada |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
 | 1.24 | distribuicao | pos, livres | falta |
@@ -113,3 +113,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | newsletter-geral versão 2 (NG1 a NG7). 1.22 podcast e x entregues: fora nesta rodada; pedido opcional XG2 de reservar o nome no X |
 | 26/10/2026 | 1.25 entregue: consentimento em todo ponto de contato, newsletter como destino do orgânico, coautoria com docentes; propostas CA1 a CA6 ao cmo |
 | 26/10/2026 | 1.27 entregue: jornada em 8 etapas, passos da prova à matrícula (B1 a B8) com 4 lacunas, pedidos JR1 a JR7 |
+| 26/10/2026 | 1.21 entregue. Proposta PY1 ao cmo: link de Short não é clicável [SUPOSIÇÃO], então o critério de clique com UTM da 1.20 tende a zero em dezembro |
