@@ -4,14 +4,16 @@
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.11 da camada 1 do plano do cmo (metas-de-custo em três cenários e divisão de verba por canal)
-- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para este arquivo: EM8, EM9, 662 com a data da planilha e PP3; ajuste GM1 do qa-de-marketing-geral-2026-10-26-loteA). O que mudou está na seção "Mudanças desta versão", no fim.
+- **Versão:** 3 (26/10/2026), aplica as decisões 15 e 16 do CEO (verba de R$ 2.000,00 por turma de Pós no ciclo; meta de 15 matrículas, meta em reais de 15 vezes o valor do curso, inscrição de R$ 260,00 medida separada da matrícula) na seção 12 nova, e registra a decisão 14 (provas de bolsa e Livres fora desta rodada). O que mudou está na seção "Mudanças desta versão", no fim.
+- **Versão anterior:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para este arquivo: EM8, EM9, 662 com a data da planilha e PP3; ajuste GM1 do qa-de-marketing-geral-2026-10-26-loteA). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Relação com o memorando da onda 1:** este plano não repete o memorando saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (versão 2, já revisada). As decisões D1 a D21, as fórmulas da seção 7.3, a receita de lista das turmas da onda 1 (seção 7.5), a estrutura da campanha das provas (seção 3.2) e o pedido de dados (seções 7.1 e 7.2) valem como estão e são citadas pelo número. Aqui entra o que faltava: metas por cenário para o trimestre da Pós, a conta pronta das turmas de março, abril e dos destinos das provas, a divisão da verba por frente, fase e canal, as encomendas e os pedidos novos.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/.claude/agents/gestor-de-midia.md
   - /home/user/marketing-ufape/.claude/skills/metas-de-custo/SKILL.md e /home/user/marketing-ufape/.claude/skills/diagnostico-de-midia/SKILL.md
   - /home/user/marketing-ufape/CLAUDE.md
-  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
+  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (na versão 3, decisões 14, 15 e 16)
+  - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (versão 2; na versão 3, seções 2.2, 3.3 e 3.4, para a regra de volume)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 3, 4, 5 e 8; na versão 2, também a seção 12, conciliação da camada 1)
   - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (ajuste GM1, versão 2)
   - /home/user/marketing-ufape/contexto/ufape-geral.md
@@ -28,11 +30,13 @@
   - /home/user/marketing-ufape/auditorias/11-midia-paga.md e /home/user/marketing-ufape/auditorias/conformidade-educacional.md
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web nesta etapa.
 - **Dados pessoais:** nenhum. Nenhum docente, aluno, candidato ou lead é citado. Só contas sobre preços do catálogo.
-- **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [SUPOSIÇÃO] é hipótese ou escolha de desenho deste agente, sempre com a origem do raciocínio. Regra prática é regra de método, não meta. Nenhum número de verba, gasto, CPL, custo por matrícula, vagas, leads, inscritos ou matrículas existe hoje.
+- **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [SUPOSIÇÃO] é hipótese ou escolha de desenho deste agente, sempre com a origem do raciocínio. Regra prática é regra de método, não meta. Desde a versão 3, verba (R$ 2.000,00 por turma) e meta (15 matrículas, 15 vezes o valor do curso) vêm do CEO (decisões 15 e 16); gasto, CPL, vagas, leads, inscritos e matrículas observados continuam sem número.
 
 ---
 
 ## 0. Situação em uma frase e aviso ao cmo
+
+**Versão 3, leia primeiro a seção 12.** O CEO fechou verba e meta: R$ 2.000,00 por turma no ciclo, 15 matrículas, meta em reais de 15 vezes o valor do curso. Custo máximo por matrícula: R$ 133,33 em toda turma; CPL máximo de R$ 4,00 a R$ 18,00 nos três cenários ilustrativos (base R$ 10,00). A conta da matrícula fecha com folga (retorno de 202 a 363 vezes a verba nas turmas do recorte); o risco passa a ser volume, e a resposta é concentrar em Meta e Google Busca (seção 12.6). O texto abaixo, da versão 2, segue valendo onde a seção 12 não muda.
 
 **Situação:** a mídia da Pós tem três frentes no trimestre (provas de bolsa até 27/11, reta final das 6 turmas que começam até 28/11 e lançamento das turmas de março e abril de 2027), nenhuma meta de custo pode ser fechada em reais porque faltam verba, conversão, evasão, custo variável e margem, e este plano entrega as fórmulas, a conta pronta por turma e a divisão da verba em percentuais para que o número entre sem mudar a lógica.
 
@@ -204,6 +208,8 @@ Resultado: Meta e Google Busca nas quatro frentes de verba; YouTube e LinkedIn s
 
 ## 4. Divisão da verba
 
+**Versão 3:** a verba passou a ser de R$ 2.000,00 por turma (decisão 15). A divisão por turma, fase e canal em reais está na seção 12.5 e substitui a divisão por frente da seção 4.1; P1 e P2 ficam sem verba (decisão 14), P5 e P6 saem. As fases e os percentuais de canal da seção 4.3 continuam, com o YouTube devolvido à Meta.
+
 Nenhuma verba existe hoje [CONFIRMAR]. Tudo abaixo é percentual da **verba nova da Pós no trimestre (27/10/2026 a 24/01/2027)**, a ser aprovada em PP2. As diárias que já rodam nas 6 Pós da reta final (707, 68604, 68606, 698, 68610, 68608) ficam fora do percentual: seguem como estão, sem aumento, até a pausa (memorando, D9 e D18). A verba liberada pela pausa das 6 turmas "verificar" (D1) entra em P1 (D11). As duas ativas fora da onda 1 seguem EM9 do plano do cmo (12.6): o gasto de 289 entre a aprovação de VN e 06/12 é descontado da parte de 289 em P3, sem aumento; a diária atual de 662 fica fora de VN até o lote 2, sem aumento, e a URL é conferida em 28/10 (PP5).
 
 ### 4.1 Por frente
@@ -302,6 +308,8 @@ Feriados conferidos: 02/11 (revisão em 03/11), 15/11 (domingo), 20/11, 25/12 e 
 
 ## 7. Encomendas aos agentes do departamento
 
+**Versão 3:** as mudanças nas encomendas pelas decisões 14, 15 e 16 estão na seção 12.8 e valem sobre esta tabela.
+
 Cada encomenda leva a verba da frente (percentual da seção 4, valor [CONFIRMAR]), a meta (fórmula da seção 2, valor [CONFIRMAR]) e o prazo. Todos seguem a skill estrutura-de-campanha-paga.
 
 | Agente | O que | Verba e meta | Prazo |
@@ -337,8 +345,8 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo | G x U x T |
 |---|---|---|---|---|---|---|---|
-| PP1 | Ufape preenche o formulário 2.5 (conservador e base) para as turmas de março, abril lote 1 e os destinos D1 das provas, e aprova a regra: conservador (h = 12) é a meta de corte, base é referência | sem meta escrita, nenhuma campanha é boa ou ruim e nenhuma nova sobe (auditoria 11) | sem custo | metas em reais antes de 03/11 (provas) e de 07/12 (março) | revisar a regra numa nova versão deste plano, nunca depois de a campanha subir | 30/10 | 5 x 5 x 4 = 100 |
-| PP2 | Aprovar a verba nova da Pós no trimestre e a divisão por frente da seção 4.1 (30% provas, 5% pós-prova, 35% março, 15% abril, 5% testes, 10% reserva) | sem verba aprovada não há plano por semana; a ordem segue a 1.9 | verba total [CONFIRMAR]; percentuais da seção 4.1 | cada frente sabe quanto pode gastar e quando | redistribuir na revisão seguinte, com novo pedido | 30/10 | 5 x 4 x 4 = 80 |
+| PP1 | **Respondido em parte pelo CEO em 26/10/2026 (decisões 15 e 16):** meta de 15 matrículas, meta em reais de 15 vezes o valor do curso, inscrição de R$ 260,00 [CONFIRMAR U11]; custo máximo por matrícula R$ 133,33 (formulário da seção 12.4). Faltam i, k, Mmid e o ciclo exato. Texto original: Ufape preenche o formulário 2.5 (conservador e base) para as turmas de março, abril lote 1 e os destinos D1 das provas, e aprova a regra: conservador (h = 12) é a meta de corte, base é referência | sem meta escrita, nenhuma campanha é boa ou ruim e nenhuma nova sobe (auditoria 11) | sem custo | metas em reais antes de 03/11 (provas) e de 07/12 (março) | revisar a regra numa nova versão deste plano, nunca depois de a campanha subir | 30/10 | 5 x 5 x 4 = 100 |
+| PP2 | **Respondido pelo CEO em 26/10/2026 (decisão 15):** R$ 2.000,00 por turma de Pós no ciclo; a divisão por frente abaixo deixa de valer e é trocada pela divisão por turma da seção 12.5 (pedido PP16). Texto original: Aprovar a verba nova da Pós no trimestre e a divisão por frente da seção 4.1 (30% provas, 5% pós-prova, 35% março, 15% abril, 5% testes, 10% reserva) | sem verba aprovada não há plano por semana; a ordem segue a 1.9 | verba total [CONFIRMAR]; percentuais da seção 4.1 | cada frente sabe quanto pode gastar e quando | redistribuir na revisão seguinte, com novo pedido | 30/10 | 5 x 4 x 4 = 80 |
 | PP3 | Aprovar as fases das provas confirmadas pelo cmo (12.6): 40% / 35% / 25% (abertura e pico de 03/11 a 09/11, sustentação, reta final) no lugar de D4 (25% / 40% / 35%), com Meta 70%, 70% e 60% e Google Busca 30%, 30% e 40% | pico antes de 07/11 no briefing, na 1.9 e no pacote de criativos; o memorando punha o pico depois; o cmo fixou esta versão como a única | dentro da verba de P1 | mais verba na janela em que o candidato compara; uma regra só para os quatro arquivos | voltar à divisão de D4 | 30/10 | 5 x 5 x 3 = 75 |
 | PP4 | Padrão D11 e D12 do plano do cmo (12.7) em toda campanha nova da Pós: utm_source=meta com utm_medium=paid_social e utm_source=google com utm_medium=cpc; nome da campanha e utm_campaign = pos_<código>_<plataforma>_<objetivo>_<público>_<AAAAMM>; provas com a chave pos_provas20261127, no padrão desde a subida de 03/11, sem exceção. Anúncios já no ar (289, 662 e reta final de 707, 68604, 68606, 698, 68610 e 68608) não são renomeados; a análise lê por tabela de correspondência (A4 da analise-de-midia-pos) | sem código, lead e matrícula não se ligam à turma (H4 da analise-de-campanha) | sem custo de mídia | relatório semanal fecha por turma | voltar à URL anterior | 31/10 (com D8) | 4 x 4 x 4 = 64 |
 | PP5 | 662 (abril, início em 24/04/2027 pela planilha, decisão 12; ativa, link trocado): diária atual fora de VN até o lote 2, sem aumento (EM9); conferir a URL de destino em 28/10; se abrir outra turma ou data diferente do catálogo, pausar os anúncios afetados (ou a campanha) até o site corrigir o link, com exportação prévia (pedido R5 do cmo) | página de destino não entrega o que o anúncio promete (conformidade; R1) | diária atual [CONFIRMAR], sem aumento | nenhum gasto levando a página errada | reativar no gerenciador depois da correção | 28/10 | 4 x 4 x 3 = 48 |
@@ -352,7 +360,7 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | PP13 | YouTube (pago só dentro de P3, EM8): remarketing em vídeo das turmas de março, só com 2 vídeos aprovados, quem grave confirmado e a condição de volume fechada; senão a parte volta para a Meta | muda canais ativos (vai ao cmo); 1.9 prevê teste leve condicionado | até 10% de P3 nas fases de aquecimento e conversão | alcance de quem já visitou, com formato que a Meta não cobre | pausar a campanha de vídeo | decisão 08/01 (ou antes, se os vídeos existirem) | 2 x 2 x 2 = 8 |
 | PP14 | LinkedIn: teste de anúncio para 657 no bloco 3, só com as 3 semanas de 11/01 a 31/01/2027 aprovadas juntas (EM10, pedido R6 do cmo; sem a 3ª semana, não sobe neste trimestre e os 5% de P5 voltam para P3 na Meta), verba, rastreio testado (D8), Insight Tag instalada e a condição de volume fechada; post de docente promovido só com nome e titulação como na ficha (autorização registrada em 26/10/2026) | muda canais ativos (vai ao cmo); 1.9 recorta a trilha avançada | P5 (5% de VN) mais a 3ª semana com verba do trimestre seguinte [CONFIRMAR] | primeira leitura do canal na Pós | pausar a campanha | decisão 08/01 | 2 x 2 x 2 = 8 |
 
-**Os 3 primeiros:** PP1 (cmo pede à Ufape; checagem em 30/10 pelo gestor-de-midia), PP2 (pessoa do marketing e cmo; checagem em 30/10), PP3 (cmo; checagem em 30/10, antes da subida de 03/11).
+**Versão 3:** PP1 respondido em parte e PP2 respondido pelo CEO; PP3 e PP8 suspensos (decisão 14); PP13 e PP14 com recomendação "fora nesta verba"; pedidos novos PP15 e PP16 na seção 12.7. **Os 3 primeiros (versão 2):** PP1 (cmo pede à Ufape; checagem em 30/10 pelo gestor-de-midia), PP2 (pessoa do marketing e cmo; checagem em 30/10), PP3 (cmo; checagem em 30/10, antes da subida de 03/11).
 
 **Vai ao cmo decidir (muda verba total, canais ou distribuição):** PP2, PP12, PP13 e PP14. PP3 já foi confirmado pelo cmo (12.6) e espera só a aprovação humana da verba. Recomendação do gestor: aprovar PP2 e PP3; PP13 e PP14 só se as condições fecharem até 08/01 (PP14 com as 3 semanas de EM10).
 
@@ -373,8 +381,8 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | Item | Resultado | Observação |
 |---|---|---|
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente externo | Canais pagos por frente com motivo (seção 3); aprovação em PP2, PP13 e PP14 |
-| Metas de CPL e custo por matrícula escritas antes de subir | Pendente externo | Fórmulas e conta pronta escritas (seções 2.2 a 2.5); valores em PP1. Nenhuma campanha nova sobe sem elas |
-| Verba dentro do valor aprovado, com aprovador registrado | Pendente externo | Verba e aprovador [CONFIRMAR] (P12 do cmo); divisão em percentuais (seção 4) |
+| Metas de CPL e custo por matrícula escritas antes de subir | Atendido em parte | Versão 3: custo máximo por matrícula de R$ 133,33 e CPL máximo em três cenários escritos por turma (seções 12.2 e 12.3); as taxas i e k seguem [CONFIRMAR] e o conservador é a meta de corte |
+| Verba dentro do valor aprovado, com aprovador registrado | Atendido em parte | Versão 3: R$ 2.000,00 por turma, decidido pelo CEO (decisão 15), divisão em reais na seção 12.5; o pagamento segue com aprovação humana e o gasto já feito na onda 1 é conferido em PP15 |
 | Nomenclatura padrão em campanhas, conjuntos e anúncios | Pendente externo | Padrão D11 e D12 do plano do cmo em toda campanha nova; anúncios já no ar lidos por tabela de correspondência (PP4) |
 | UTMs completas e origem chegando ao CRM | Pendente externo | PP4 e D8 |
 | Pixel, API de Conversões, conversões do Google, pixel do TikTok e Insight Tag do LinkedIn nos canais ativados | Pendente externo | D8 para Meta e Google; Insight Tag é condição de PP14; TikTok fora |
@@ -428,7 +436,192 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 
 ---
 
+## 12. Metas e verba com os números do CEO (decisões 15 e 16, versão 3)
+
+Esta seção aplica as decisões 15 e 16 de docs/execucao-2026-10-26.md. Onde ela muda o que está nas seções 2, 4, 5, 7 e 9, vale esta seção. As fórmulas de viabilidade da seção 2 (margem, evasão, custo variável) continuam como checagem de que a matrícula paga a mídia; a meta de trabalho da mídia passa a ser a do CEO.
+
+### 12.1 O que o CEO decidiu e como entra na conta
+
+| Item | Decisão do CEO (26/10/2026) | Como entra neste plano |
+|---|---|---|
+| Verba | R$ 2.000,00 de mídia por turma de Pós no ciclo de captação (decisão 15) | Verba fechada por turma, não mais percentual de uma verba nova da linha (VN). O ciclo exato de cada turma fica [CONFIRMAR]; até lá vale o ciclo da seção 12.5 (da subida até a data de corte da 1ª mensalidade). Nada é pago sem aprovação humana |
+| Meta de matrículas | Pelo menos 15 por turma (decisão 16) | Mmid = 15 enquanto a Ufape não informar quantas matrículas vêm da base e do orgânico [SUPOSIÇÃO conservadora: toda a meta pesa na mídia; se parte vier de fora, o limite de custo sobe, seção 12.3] |
+| Meta em reais | 15 vezes o valor do curso no catálogo (decisão 16) | Valor do curso = total "no cartão ou boleto" do catálogo, que é a soma das parcelas (o catálogo não traz preço à vista diferente desse total). Sem matrícula e sem inscrição |
+| Inscrição | R$ 260,00, conta na meta, medida separada da matrícula de fato (decisão 16) | Funil em duas conversões: inscrição paga, depois 1ª mensalidade paga (matrícula de fato). A receita de inscrição aparece separada: 15 x R$ 260,00 = R$ 3.900,00 por turma |
+| Divergência | O site mostra "matrícula R$ 250,00" (R$ 350,00 em 706, 586 e 68629) | [CONFIRMAR U11]. Nenhuma peça e nenhum anúncio cita o valor da inscrição até a resposta. Os tetos da seção 2.4, que usaram R$ 250,00 do site, não foram refeitos: a diferença é de R$ 10,00 por matrícula e não muda nenhuma decisão |
+| Provas de bolsa e Livres | Fora desta rodada (decisão 14) | P1 (provas) e P2 (pós-prova) ficam sem verba e sem peça nova até nova ordem. PP3 e PP8 ficam suspensos |
+
+### 12.2 Metas por turma, na ordem das ondas
+
+Valores fixos em todas as turmas: meta de 15 matrículas; meta de 15 inscrições pagas se cada inscrição virar matrícula (com perda entre inscrição e matrícula, mais inscrições, seção 12.3); receita de inscrição separada de R$ 3.900,00 (15 x R$ 260,00, [CONFIRMAR U11]); verba de R$ 2.000,00; custo máximo por matrícula = R$ 2.000,00 / 15 = **R$ 133,33**; custo máximo por inscrição, se cada inscrição virar matrícula, também R$ 133,33. Retorno sobre a verba = meta em reais / R$ 2.000,00 (sem a inscrição; com ela, soma 1,95 vez em toda turma, R$ 3.900,00 / R$ 2.000,00).
+
+| Onda | Código | Turma (catálogo, nome "Pós-graduação em" nas peças) | Parcelas (catálogo) | Valor do curso (total no cartão ou boleto) | Meta em reais (15 x valor) | Custo máximo por matrícula | CPL máximo, cenário base (12.3) | Retorno sobre a verba |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 707 | Oftalmologia Veterinária, VII | 30x de R$ 1.590,00 | R$ 47.700,00 | R$ 715.500,00 | R$ 133,33 | R$ 10,00 | 357,75 vezes |
+| 1 | 68604 | Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, VI | 30x de R$ 1.000,00 | R$ 30.000,00 | R$ 450.000,00 | R$ 133,33 | R$ 10,00 | 225,00 vezes |
+| 1 | 68606 | Gastroenterologia Veterinária, IX | 30x de R$ 1.180,00 | R$ 35.400,00 | R$ 531.000,00 | R$ 133,33 | R$ 10,00 | 265,50 vezes |
+| 1 | 698 | Ecocardiografia, III | 18x de R$ 1.498,33 | R$ 26.970,00 | R$ 404.550,00 | R$ 133,33 | R$ 10,00 | 202,28 vezes |
+| 1 | 68610 | Dermatologia Veterinária, V | 30x de R$ 1.000,00 | R$ 30.000,00 | R$ 450.000,00 | R$ 133,33 | R$ 10,00 | 225,00 vezes |
+| 1 | 68608 | Hematologia Veterinária, VIII | 30x de R$ 1.180,00 | R$ 35.400,00 | R$ 531.000,00 | R$ 133,33 | R$ 10,00 | 265,50 vezes |
+| 2 | 657 | Anestesiologia Avançada, II | 30x de R$ 1.613,33 | R$ 48.400,00 | R$ 726.000,00 | R$ 133,33 | R$ 10,00 | 363,00 vezes |
+| 2 | 341 | Medicina Interna Equina, I | 30x de R$ 1.450,00 | R$ 43.500,00 (sem a promoção de 20%, regra [CONFIRMAR], PR7) | R$ 652.500,00 | R$ 133,33 | R$ 10,00 | 326,25 vezes |
+| 2 | 289 | Cardiologia Veterinária, II, Goiânia | 30x de R$ 1.180,00 | R$ 35.400,00 | R$ 531.000,00 | R$ 133,33 | R$ 10,00 | 265,50 vezes |
+| 2 | 68615 | Patologia Clínica, VII | 30x de R$ 1.180,00 | R$ 35.400,00 | R$ 531.000,00 | R$ 133,33 | R$ 10,00 | 265,50 vezes |
+| 2 | 333 | Citopatologia Veterinária, I | 30x de R$ 935,00 | R$ 28.050,00 | R$ 420.750,00 | R$ 133,33 | R$ 10,00 | 210,38 vezes |
+| 3 | 679 | Infectologia Veterinária, IV (link trocado, P3) | 30x de R$ 1.100,00 | R$ 33.000,00 | R$ 495.000,00 | R$ 133,33 | R$ 10,00 | 247,50 vezes |
+| 3 | 68632 | Clínica Cirúrgica de Cães e Gatos, V, Goiânia, presencial | 30x de R$ 1.100,00 | R$ 33.000,00 | R$ 495.000,00 | R$ 133,33 | R$ 10,00 | 247,50 vezes |
+| 3 | 68635 | Clínica Médica e Emergência de Pequenos Animais, V | 30x de R$ 1.100,00 | R$ 33.000,00 | R$ 495.000,00 | R$ 133,33 | R$ 10,00 | 247,50 vezes |
+| 3 | 366 | Fisioterapia, Fisiatria e Reabilitação Veterinária, I (data diverge, P4) | 30x de R$ 1.100,00 | R$ 33.000,00 | R$ 495.000,00 | R$ 133,33 | R$ 10,00 | 247,50 vezes |
+| 3 | 68628 | Oncologia Veterinária (turma diverge, P5) | 30x de R$ 1.298,00 | R$ 38.940,00 | R$ 584.100,00 | R$ 133,33 | R$ 10,00 | 292,05 vezes |
+| 3 | 68617 | Endocrinologia de Pequenos Animais (turma diverge, P5) | 30x de R$ 1.200,00 | R$ 36.000,00 | R$ 540.000,00 | R$ 133,33 | R$ 10,00 | 270,00 vezes |
+| 3 | 68636 | Pneumologia Veterinária, VIII (data só no site) | 30x de R$ 1.265,00 | R$ 37.950,00 | R$ 569.250,00 | R$ 133,33 | R$ 10,00 | 284,63 vezes |
+| 3 | 68609 | Anestesiologia Veterinária, VIII, Goiânia | 30x de R$ 1.081,67 | R$ 32.450,00 | R$ 486.750,00 | R$ 133,33 | R$ 10,00 | 243,38 vezes |
+| 3 | 662 | Ortopedia Veterinária, IV (link trocado, P3) | 30x de R$ 1.250,00 | R$ 37.500,00 | R$ 562.500,00 | R$ 133,33 | R$ 10,00 | 281,25 vezes |
+
+Notas:
+- Conta de exemplo (68615): 15 x R$ 35.400,00 = R$ 531.000,00; R$ 531.000,00 / R$ 2.000,00 = 265,50 vezes; R$ 2.000,00 / 15 = R$ 133,33.
+- Em 657, 698 e 68609 a parcela vezes o número de parcelas difere do total do site em centavos; vale o total do site.
+- 341 com a promoção de 20% sobre as mensalidades, se a regra valer (PR7): valor de R$ 34.800,00 e meta de R$ 522.000,00 (261,00 vezes). Conta de uso interno: nenhum valor com desconto calculado vai para peça.
+- Recorte: onda 1 (reta final, início até 28/11/2026), onda 2 (março de 2027) e onda 3 até abril de 2027. As turmas de maio (onda 3, fora do trimestre) têm a meta calculada do mesmo jeito: 719 R$ 180.000,00 (90,00 vezes); 68616 R$ 536.580,00 (268,29); 68629 R$ 246.840,00 (123,42); 359 R$ 652.500,00 (326,25); 699 R$ 495.000,00 (247,50); 382 R$ 506.250,00 (253,13); 68623 R$ 522.000,00 (261,00); 578 R$ 562.500,00 (281,25); 352 R$ 718.200,00 (359,10); 60 R$ 445.500,00 (222,75). A divisão da verba delas entra no plano do trimestre seguinte.
+- Leitura: o retorno de 90 a 363 vezes mostra que a meta do CEO cabe com folga na matrícula de lista (o teto absoluto da seção 2.4 vai de R$ 11.470,00 a R$ 19.609,96 por matrícula em 12 parcelas, contra R$ 133,33 de custo máximo). O risco não é a matrícula pagar a mídia; é a verba comprar volume suficiente (seções 12.3 e 12.6).
+
+### 12.3 Custo por lead máximo em três cenários
+
+Conta (igual para toda turma, porque verba e meta de matrículas são iguais):
+- Inscrições necessárias = 15 / k, em que k = taxa de inscrição para matrícula (1ª mensalidade paga).
+- Leads necessários = 15 / (k x i), em que i = taxa de lead para inscrição paga.
+- Custo máximo por inscrição = R$ 2.000,00 / inscrições necessárias = R$ 133,33 x k.
+- CPL máximo = R$ 2.000,00 / leads necessários = R$ 133,33 x i x k.
+- Se a Ufape informar que parte das 15 matrículas vem da base e do orgânico (Mmid menor que 15): CPL máximo = R$ 2.000,00 x i x k / Mmid.
+
+| Cenário | i (lead para inscrição) | k (inscrição para matrícula) | Inscrições necessárias | Leads necessários | Custo máximo por inscrição | CPL máximo |
+|---|---|---|---|---|---|---|
+| Conservador | 5% [SUPOSIÇÃO] | 60% [SUPOSIÇÃO] | 25 | 500 | R$ 80,00 | R$ 4,00 |
+| Base | 10% [SUPOSIÇÃO] | 75% [SUPOSIÇÃO] | 20 | 200 | R$ 100,00 | R$ 10,00 |
+| Otimista | 15% [SUPOSIÇÃO] | 90% [SUPOSIÇÃO] | 16,67 (17 na prática) | 111,11 (112 na prática) | R$ 120,00 | R$ 18,00 |
+
+Origem das taxas: são [SUPOSIÇÃO ilustrativa], escolhidas só para mostrar a sensibilidade da conta. Não há histórico de CRM, exportação de mídia nem fonte de mercado fornecida (seção 2.7), então nenhuma delas é benchmark. O k alto vem do desenho do funil da decisão 16: quem já pagou R$ 260,00 de inscrição tomou parte da decisão [SUPOSIÇÃO]. As taxas reais são [CONFIRMAR] no CRM (leads, inscrições pagas e 1ª mensalidade por turma, só números somados) e substituem estas sem mudar a fórmula. Regra para ler: a cada 1 ponto percentual de i, com k de 75%, o CPL máximo sobe R$ 1,00.
+
+Meta de corte: o cenário conservador, como na seção 2.3, até a Ufape mandar as taxas. Com CPL observado acima de R$ 18,00 (otimista) por 2 semanas fechadas, a meta de 15 matrículas não fecha só com R$ 2.000,00 de mídia em nenhum dos três cenários: aviso ao cmo antes de qualquer pedido de verba (seção 12.6).
+
+### 12.4 Formulário 2.5 com o que o CEO respondeu
+
+```
+Turma: ____________ (uma por turma da seção 12.2)
+Valor do curso (catálogo)            = R$ ____________ (seção 12.2)
+Meta de matrículas                   = 15 (CEO, decisão 16)
+Meta em reais                        = 15 x valor = R$ ____________ (CEO, decisão 16)
+Inscrição                            = R$ 260,00 (CEO, decisão 16) [CONFIRMAR U11 contra os R$ 250,00 do site]
+Verba da turma no ciclo              = R$ 2.000,00 (CEO, decisão 15; aprovação de pagamento continua humana)
+Ciclo                                = da subida até a data de corte (seção 12.5) [CONFIRMAR]
+Custo máximo por matrícula           = 2.000,00 / 15 = R$ 133,33
+Mmid (matrículas que dependem da mídia) = ____ (padrão 15) [CONFIRMAR]
+i (lead para inscrição)              = ____ [CONFIRMAR]
+k (inscrição para matrícula)         = ____ [CONFIRMAR]
+CPL máximo = 2.000,00 x i x k / Mmid = R$ ____________
+Custo máximo por inscrição = 2.000,00 x k / Mmid = R$ ____________
+Checagem de viabilidade (seção 2.5): e_h, d, cv e M = [CONFIRMAR]; CMmax_h maior que R$ 133,33?  sim / não
+```
+
+### 12.5 Divisão da verba por canal e fase (percentuais já decididos, agora em reais)
+
+Regras gerais desta versão:
+- A verba é por turma. Não há mais divisão por frente da linha (seção 4.1): P1 e P2 ficam sem verba (decisão 14); a reserva P6 deixa de existir, porque a verba de uma turma não passa para outra sem nova decisão do CEO; P5 (LinkedIn de 657) fica fora (12.6).
+- YouTube fora nesta verba (12.6). Pela regra que já estava na seção 4.3 ("sem PP13, a parte volta para a Meta"), os 10% do YouTube voltam para a Meta na mesma fase.
+- Ciclo: da subida até a data de corte da 1ª mensalidade, 30 dias antes do início, como na maioria das páginas de Pós [SUPOSIÇÃO por turma, a mesma da estrategia-de-midia-pos, seção 2.2; CONFIRMAR na ficha]. Muda em relação à versão 2: a verba passa a cobrir também as semanas depois de 24/01, que eram do trimestre seguinte. Semanas contadas com os dois extremos, dias divididos por 7.
+- Gasto que já roda conta dentro dos R$ 2.000,00 da turma: 289 (o gasto antes de 07/12 sai primeiro da parte de aquecimento dela, como em EM9) e 662 (a diária atual passa a contar nos R$ 2.000,00 dela, no lugar de "fora de VN").
+
+**Onda 1 (707, 68604, 68606, 698, 68610, 68608, reta final):** sem divisão nova. A verba que sobra = R$ 2.000,00 menos o gasto acumulado do ciclo [CONFIRMAR na exportação D6]. As campanhas seguem como estão, sem aumento, até as pausas de D9 e D18 (30/10, 31/10, 07/11 e 28/11). Se o gasto acumulado já tiver chegado a R$ 2.000,00, pedido de pausa imediata (PP15).
+
+**Onda 2, março (fases e canais da seção 4.3, YouTube devolvido à Meta):**
+
+| Fase | Datas | Parte da verba | Em reais | Meta | Google Busca |
+|---|---|---|---|---|---|
+| Aquecimento | 07/12 a 20/12 (657 e 341: 14/12 a 20/12) | 25% | R$ 500,00 | 70%: R$ 350,00 | 30%: R$ 150,00 |
+| Manutenção de fim de ano | 21/12 a 03/01 | 10% | R$ 200,00 | 50%, só remarketing: R$ 100,00 | 50%: R$ 100,00 |
+| Conversão | 04/01 até a data de corte | 65% | R$ 1.300,00 | 65%: R$ 845,00 | 35%: R$ 455,00 |
+| **Total por turma** | | 100% | **R$ 2.000,00** | **R$ 1.295,00** | **R$ 705,00** |
+
+**Onda 3, abril (679, 68632, 68635, 366, 68628, 68617, 68636, 68609, 662):** a seção 4.3 só tinha o aquecimento (06/01 a 24/01, Meta 70% e Google 30%). Com a verba cobrindo o ciclo inteiro, entra a conversão com os percentuais de canal de março sem YouTube [SUPOSIÇÃO de desenho; origem: mesma parte de aquecimento de março (25%), e os 10% da manutenção, que abril não tem, vão para a conversão]. Lote 2 (679, 366, 662) só sobe com link e data corrigidos; se subir depois de 06/01, as partes são as mesmas, contadas da data de subida.
+
+| Fase | Datas | Parte da verba | Em reais | Meta | Google Busca |
+|---|---|---|---|---|---|
+| Aquecimento | 06/01 a 24/01 | 25% | R$ 500,00 | 70%: R$ 350,00 | 30%: R$ 150,00 |
+| Conversão | 25/01 até a data de corte | 75% | R$ 1.500,00 | 65%: R$ 975,00 | 35%: R$ 525,00 |
+| **Total por turma** | | 100% | **R$ 2.000,00** | **R$ 1.325,00** | **R$ 675,00** |
+
+A divisão entre frio e remarketing dentro da Meta segue a da estrategia-de-midia-pos (seção 3.3), agora em reais; ela recalcula (12.8).
+
+### 12.6 Onde R$ 2.000,00 é pouco e o que fazer
+
+**A regra de volume, reescrita por turma.** A estrategia-de-midia-pos (seção 3.4) pede VN de 180 a 290 vezes o CPL máximo na Meta de março, com a turma recebendo 7% de VN. Com R$ 2.000,00 por turma, a VN equivalente é R$ 2.000,00 / 7% = R$ 28.571,43, e a regra só fecha se o CPL máximo for de até R$ 100,00 (aquecimento com YouTube, fator 285,71) a R$ 158,89 (conversão com YouTube, fator 179,82). No Google de março, até R$ 75,00 (aquecimento, fator 380,95). Em termos diretos (verba semanal do canal x 3 maior ou igual a conceitos x 1,5 x CPL), o maior CPL que cada canal aguenta com 3 conceitos na Meta e 2 anúncios no Google é:
+
+| Turmas | Fase | Semanas | Meta por semana | CPL limite na Meta (3 conceitos) | Google por semana | CPL limite no Google (2 anúncios) |
+|---|---|---|---|---|---|---|
+| 68615, 289 | aquecimento | 2,00 | R$ 175,00 | R$ 116,67 | R$ 75,00 | R$ 75,00 |
+| 657, 341 | aquecimento | 1,00 | R$ 350,00 | R$ 233,33 | R$ 150,00 | R$ 150,00 |
+| 333 | aquecimento | 2,00 | R$ 175,00 | R$ 116,67 | R$ 75,00 | R$ 75,00 |
+| todas de março | manutenção | 2,00 | R$ 50,00 | R$ 33,33 | R$ 50,00 | R$ 50,00 |
+| 68615, 289, 341 (corte 18/02) | conversão | 6,57 | R$ 128,59 | R$ 85,72 | R$ 69,24 | R$ 69,24 |
+| 333 (corte 25/02) | conversão | 7,57 | R$ 111,60 | R$ 74,40 | R$ 60,09 | R$ 60,09 |
+| 657 (corte 11/02) | conversão | 5,57 | R$ 151,67 | R$ 101,11 | R$ 81,67 | R$ 81,67 |
+| todas de abril | aquecimento | 2,71 | R$ 128,95 | R$ 85,96 | R$ 55,26 | R$ 55,26 |
+| 679 (corte 04/03) | conversão | 5,57 | R$ 175,00 | R$ 116,67 | R$ 94,23 | R$ 94,23 |
+| 68632, 68635, 366, 68628 (corte 11/03) | conversão | 6,57 | R$ 148,37 | R$ 98,91 | R$ 79,89 | R$ 79,89 |
+| 68617, 68636 (corte 18/03) | conversão | 7,57 | R$ 128,77 | R$ 85,85 | R$ 69,34 | R$ 69,34 |
+| 68609, 662 (corte 25/03) | conversão | 8,57 | R$ 113,75 | R$ 75,83 | R$ 61,25 | R$ 61,25 |
+
+Conta de exemplo (68615, conversão, Meta): R$ 845,00 / 6,57 semanas = R$ 128,59 por semana; 3 x R$ 128,59 / (3 x 1,5) = R$ 85,72.
+
+**Leitura.** No papel, os CPL máximos do CEO (R$ 4,00 a R$ 18,00) ficam abaixo de todos os limites, então a regra de volume passa. O aperto está em outro lugar:
+1. **A meta exige CPL muito baixo.** Se o CPL real da Pós ficar acima de R$ 18,00, a meta de 15 matrículas não fecha com R$ 2.000,00 em nenhum cenário, e acima dos limites da tabela nem o teste dos 3 conceitos fecha. Não há CPL histórico para saber [DADO NÃO FORNECIDO]: a primeira semana fechada de cada turma decide.
+2. **Aprendizado da plataforma.** Com cerca de R$ 110,00 a R$ 175,00 por semana na Meta e CPL de R$ 10,00, a turma gera de 11 a 18 leads por semana, longe das cerca de 50 conversões por semana que a Meta usa para sair do aprendizado (estimativa, seção 5). Otimizar para inscrição paga ou matrícula está fora de alcance: 17 a 25 inscrições no ciclo inteiro.
+3. **Comparar conceitos.** A regra da diagnostico-de-midia pede de 10 a 20 conversões de cada lado: 3 conceitos x 10 leads = 30 leads. Com CPL de R$ 10,00, R$ 300,00 (15% da verba); com CPL de R$ 50,00, R$ 1.500,00 (75%), o que não deixa verba para escalar o vencedor.
+4. **Manutenção de fim de ano:** R$ 50,00 por semana por canal só sustenta 3 conceitos com CPL até R$ 33,33.
+5. **Google no aquecimento de abril:** R$ 55,26 por semana.
+6. **YouTube e LinkedIn não cabem.** O YouTube levaria 10% de uma verba que já é pequena, e o LinkedIn de 657 (P5 era 5% da VN contra os 7% de 657 inteira) consumiria R$ 1.428,57 (5/7) dos R$ 2.000,00 de 657.
+7. **Onda 1:** as 6 turmas da reta final rodam desde antes da decisão; o gasto do ciclo pode já estar perto ou acima de R$ 2.000,00 [CONFIRMAR].
+
+**O que fazer (decisão do gestor dentro do plano; o que muda canal vai ao cmo):**
+- **Concentrar canal:** só Meta e Google Busca. YouTube fora (PP13) e LinkedIn fora (PP14) nesta verba: as partes voltam para a Meta da mesma turma. No Google, só os termos de maior intenção ("pós-graduação em <área> veterinária" e marca); com CPL acima do limite da tabela, 1 anúncio responsivo por grupo (o limite dobra) antes de tirar a busca.
+- **Concentrar conceitos:** os 3 criativos do kit mínimo são produzidos (o mínimo nunca diminui), mas, se o CPL da 1ª semana fechada passar de R$ 20,00, a Meta deixa de testar os 3 ao mesmo tempo e roda em rodízio: 2 no ar, o terceiro entra no lugar do pior depois de 1,5 vez o CPL máximo gasto [SUPOSIÇÃO de desenho; origem: R$ 20,00 x 30 leads = R$ 600,00, teto de 30% da verba para teste].
+- **Alongar o ciclo:** a verba cobre da subida à data de corte (seção 12.5), não só o trimestre. Nada de subir mais cedo para "aproveitar" verba: as diárias por semana já são pequenas.
+- **Só remarketing:** na manutenção de fim de ano (já era assim, PP10); em turma cuja Meta fria passar 2 semanas fechadas acima do CPL limite da tabela, o frio sai e fica remarketing e busca (regra da seção 2.6, agora com número); na onda 1, o que sobrar dos R$ 2.000,00.
+- **Meta acima de R$ 18,00 por 2 semanas:** aviso ao cmo com as alavancas da skill (conversão lead para inscrição, página, base e orgânico para baixar Mmid). Verba extra só como pedido separado ao cmo, nunca dentro deste plano.
+
+### 12.7 Pedidos novos de aprovação humana
+
+| # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
+|---|---|---|---|---|---|---|
+| PP15 | Onda 1: conferir na exportação (D6) o gasto do ciclo de 707, 68604, 68606, 698, 68610 e 68608; a que tiver chegado a R$ 2.000,00 é pausada já, com exportação prévia | a verba do CEO é o teto do ciclo inteiro | sem gasto novo | nenhuma turma acima da verba aprovada | reativar só com verba nova aprovada | 28/10 |
+| PP16 | Aprovar a divisão por turma da seção 12.5 (R$ 2.000,00: março R$ 1.295,00 Meta e R$ 705,00 Google; abril R$ 1.325,00 e R$ 675,00), o ciclo da subida à data de corte, YouTube e LinkedIn fora e o fim de P6 | a verba virou por turma; percentuais da linha não servem mais | R$ 2.000,00 por turma, 14 turmas novas (março e abril) | cada campanha sabe o valor por semana | voltar à divisão anterior com nova decisão | 30/11 (março); 30/12 (abril) |
+
+PP13 e PP14 passam a ter recomendação "fora nesta verba" e vão ao cmo (mudam canais). PP3 e PP8 ficam suspensos pela decisão 14.
+
+### 12.8 O que muda para a estrategia-de-midia-pos e para os anúncios (encomendas; arquivos não editados)
+
+| Agente | O que muda | Prazo |
+|---|---|---|
+| estrategia-de-midia (estrategia-de-midia-pos-2026-10-26.md) | Trocar a VN pela verba de R$ 2.000,00 por turma e passar as tabelas das seções 3.3 e 3.4 para reais (seção 12.5 e 12.6 deste arquivo); estender as campanhas de março e abril até a data de corte; abril com fase de conversão (75%); tirar YouTube (3.3, 4.2) e LinkedIn (3.5); tirar P1, P2 e P6 da conta desta rodada (decisão 14); funil reverso da seção 2.2 com Mmid = 15, o funil de duas conversões (inscrição paga e 1ª mensalidade) e as fórmulas da seção 12.3; regra de rodízio de conceitos (12.6) | 20/11 (março); 18/12 (abril) |
+| anuncios-meta | Orçamento por campanha em reais (12.5); evento de otimização continua lead (cadastro ou início de checkout), porque inscrição paga não chega a volume; registrar a inscrição paga e a 1ª mensalidade como conversões separadas para leitura no CRM; nenhum texto com o valor da inscrição até U11 | 30/11 (março); 30/12 (abril) |
+| anuncios-google | Orçamento por campanha em reais; só grupos de maior intenção e marca; 1 anúncio responsivo por grupo quando o CPL passar do limite da seção 12.6; conversões separadas de inscrição paga e 1ª mensalidade | 30/11; 30/12 |
+| criativos-de-anuncio | Mantém 3 conceitos por turma (kit mínimo); sem os 2 vídeos do YouTube nesta verba; nenhuma peça cita o valor da inscrição (R$ 260,00 ou R$ 250,00) até U11 | 02/12 (março) |
+| anuncios-linkedin | Encomenda da seção 7 suspensa (LinkedIn fora nesta verba) | - |
+| analise-de-midia | Ler o gasto acumulado por turma contra R$ 2.000,00 (onda 1, 289 e 662) e incluir no relatório semanal: gasto do ciclo, inscrições pagas e 1ª mensalidade por turma, só números somados | 2 dias úteis depois da exportação |
+
+---
+
 ## Mudanças desta versão
+
+Versão 3 (26/10/2026), pelas decisões 14, 15 e 16 do CEO (docs/execucao-2026-10-26.md):
+- **Seção 12 nova, "Metas e verba com os números do CEO":** meta em reais, meta de matrículas e de inscrições, receita de inscrição separada, custo máximo por matrícula (R$ 133,33), CPL máximo em três cenários (R$ 4,00, R$ 10,00 e R$ 18,00, taxas ilustrativas marcadas) e retorno sobre a verba, por turma, na ordem das ondas; divisão da verba em reais por fase e canal; onde R$ 2.000,00 é pouco e o que fazer; pedidos PP15 e PP16; encomendas para a estrategia-de-midia-pos e os agentes de anúncio.
+- **Verba por turma:** a divisão por frente da seção 4.1 deixa de valer; P1 e P2 sem verba (decisão 14); P5 (LinkedIn) e P6 (reserva) saem; YouTube volta para a Meta pela regra da seção 4.3.
+- **Ciclo:** a verba de cada turma cobre da subida até a data de corte da 1ª mensalidade, inclusive as semanas depois de 24/01 que a versão 2 deixava para o trimestre seguinte.
+- **289 e 662:** o gasto atual passa a contar nos R$ 2.000,00 de cada uma.
+- **PP1** respondido em parte e **PP2** respondido (seção 9); PP3 e PP8 suspensos; PP13 e PP14 com recomendação de ficar fora.
+- **Avisos nas seções 0, 4 e 7** apontando para a seção 12. As contas das seções 2.4 e 4.2 a 4.3 não foram refeitas; os tetos da 2.4 usam a matrícula de R$ 250,00 do site (diferença com os R$ 260,00 em U11).
+- Auditoria 11.1: metas e verba passam de "Pendente externo" para "Atendido em parte".
+
 
 Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-marketing-geral-2026-10-26-loteA:
 - **EM8:** YouTube pago só dentro de P3 (4.3 e PP13); P5 passa a ser só o teste de LinkedIn de 657 (seções 1, 3 e 4.1, calendário de 08/01). Os percentuais não mudam (P5 continua 5%; total 100%).
@@ -442,6 +635,10 @@ Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-ma
 - Nenhuma conta mudou: os tetos da seção 2.4 e os percentuais das seções 4.1 a 4.3 são os mesmos.
 
 ## Fatos (com fonte)
+
+- Verba de R$ 2.000,00 de mídia por turma de Pós no ciclo; meta de pelo menos 15 matrículas por curso; meta em reais de 15 vezes o valor do curso no catálogo; inscrição da Pós de R$ 260,00, que conta na meta e é medida separada da 1ª mensalidade; provas de bolsa e Livres fora desta rodada (decisões 14, 15 e 16 do CEO, docs/execucao-2026-10-26.md).
+- O site mostra matrícula de R$ 250,00 e de R$ 350,00 em 706, 586 e 68629 (catálogo, seção 2).
+- Valores das 20 turmas do recorte e das 10 de maio: total no cartão ou boleto e parcelas (catálogo, seção 2, 26/10/2026).
 
 - Preços, parcelas, matrículas, datas e turmas de 657, 341, 289, 68615, 333, 68635, 68636, 68617, 68628, 68609, 68632, 679, 366, 662, 68616 e 68629 (catálogo, seção 2, 26/10/2026).
 - 22 provas abertas em 27/11/2026, inscrição de R$ 100,00, 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), 10 dias úteis para a matrícula; 68656 fora do ar (catálogo, seção 3; contexto/pos-graduacao.md).
@@ -459,6 +656,11 @@ Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-ma
 
 ## Suposições
 
+- [SUPOSIÇÃO ilustrativa] Taxas lead para inscrição de 5%, 10% e 15% e inscrição para matrícula de 60%, 75% e 90% nos três cenários da seção 12.3, sem fonte, só para sensibilidade.
+- [SUPOSIÇÃO] Mmid = 15: toda a meta pesa na mídia até a Ufape informar a parte da base e do orgânico.
+- [SUPOSIÇÃO] Ciclo de cada turma da subida até a data de corte, 30 dias antes do início; abril com 25% de aquecimento e 75% de conversão.
+- [SUPOSIÇÃO] Rodízio de conceitos quando o CPL da 1ª semana passar de R$ 20,00 (teto de 30% da verba para teste).
+
 - [SUPOSIÇÃO] Horizonte de 12 parcelas no cenário conservador, pelo risco de caixa.
 - [SUPOSIÇÃO] Conservador usa a maior evasão, o maior desconto e a menor conversão informados; com um só número, base e otimista ficam iguais.
 - [SUPOSIÇÃO] Receita média do bolsista com d = 5/22: bolsa só sobre as mensalidades, 11 bolsas concedidas e só bolsistas matriculados via prova (uso interno).
@@ -474,7 +676,13 @@ Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-ma
 
 ## Dados que faltam
 
-- [CONFIRMAR] Verba nova da Pós no trimestre, aprovador e quem executa no gerenciador.
+- [CONFIRMAR U11] Valor da inscrição da Pós: R$ 260,00 (CEO) ou R$ 250,00 e R$ 350,00 (site). Nenhuma peça cita o valor até a resposta.
+- [CONFIRMAR] Período exato do ciclo de captação de cada turma (decisão 15) e data de corte da 1ª mensalidade por ficha.
+- [CONFIRMAR] Taxas lead para inscrição e inscrição para matrícula por turma, e matrículas esperadas da base e do orgânico (Mmid).
+- [CONFIRMAR] Gasto acumulado do ciclo nas 6 turmas da onda 1, em 289 e em 662 (PP15).
+- [CONFIRMAR] Se a meta em reais do CEO soma a receita de inscrição (R$ 3.900,00 por turma) ou a mede só à parte, como esta versão mostra.
+
+- [CONFIRMAR] Quem executa no gerenciador (a verba por turma veio do CEO na decisão 15).
 - [CONFIRMAR] Para cada turma e prova: evasão, desconto médio, custo variável por aluno, margem desejada, conversão lead para matrícula e inscrito para matrícula, taxa da loja.
 - [CONFIRMAR] Meta de matrículas por turma e matrículas esperadas fora da mídia.
 - [CONFIRMAR] Aprovação humana dos pedidos R5 (289 contada em P3; URL de 662 em 28/10) e R6 (LinkedIn de 657 com 3 semanas e verba da 3ª semana no trimestre seguinte) do plano do cmo.
@@ -494,4 +702,4 @@ Internas: as entradas listadas no cabeçalho. Externas: nenhuma nesta etapa.
 
 ---
 
-**Próximo agente sugerido:** qa-de-marketing (conferência deste plano). Depois, **estrategia-de-midia** (plano novo da Pós por semana, seção 7) e **analise-de-midia** (etapa 1.12, diagnóstico das campanhas da Pós assim que a exportação chegar).
+**Próximo agente sugerido:** qa-de-marketing (conferência da versão 3, sobretudo a seção 12); depois, cmo (PP13, PP14 e PP16, que mudam canais e divisão). Depois, **estrategia-de-midia** (plano novo da Pós por semana, seção 7) e **analise-de-midia** (etapa 1.12, diagnóstico das campanhas da Pós assim que a exportação chegar).
