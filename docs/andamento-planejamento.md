@@ -74,7 +74,8 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Rodar o lote A.
+1. Lote A em execução (6 agentes): ao terminar, conferir cada arquivo, registrar aqui e fazer commit. Se a sessão cair antes, confira quais dos 6 arquivos do lote A existem em saidas e rode de novo só os que faltam.
+2. Rodar o lote B.
 
 ## Diário
 
@@ -82,3 +83,4 @@ Segue as dependências da seção 4 do plano do cmo.
 |---|---|
 | 26/10/2026 | Sessão anterior: catálogo atualizado, plano do cmo aprovado, briefing de execução, 56 saídas e 15 revisões do qa (último commit 1099c51) |
 | 26/10/2026 | Esta sessão retomou. Decisões do nome do workshop e da autorização dos docentes aplicadas no plano do cmo, no briefing, na ficha do evento e em contexto/ufape-geral.md. Criado este arquivo |
+| 26/10/2026 | Lote A iniciado: estrategia-de-marketing livres e eventos, gestor-de-midia pos, estrategia-social pos, estrategia-de-relacionamento pos, newsletter geral |
