@@ -1,255 +1,269 @@
-# Plano de mídia detalhado da Pós-graduação: estrutura de campanhas, públicos, funil por fase e calendário (etapa 1.13)
+# Plano de mídia detalhado da Pós-graduação: verba de R$ 2.000,00 por turma, funil de duas conversões, estrutura de campanhas e calendário (etapa 1.13)
 
 - **Agente:** estrategia-de-midia (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
-- **Etapa:** 1.13 da camada 1 do plano do cmo (seção 4), encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md
-- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda de 12.10 para este arquivo: EM8 a EM10 fechados e UTM das provas no padrão D11 e D12, sem exceção; ajustes EP1 a EP4 do qa-de-marketing-geral-2026-10-26-loteB). Aplica também as decisões 11 (provas online, turma mínima de 15) e 12 (datas da planilha) da Ufape onde este plano as tocava. O que mudou está na seção "Mudanças desta versão", no fim.
+- **Etapa:** 1.13 da camada 1 do plano do cmo (seção 4); encomenda da seção 12.8 de saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (versão 3)
+- **Versão:** 3 (26/10/2026), aplica a v3 do gestor-de-midia-pos e as decisões 14 a 16 do CEO. Troca a verba nova da linha (VN) pelos R$ 2.000,00 por turma, passa todas as tabelas de verba para reais, estende março e abril até a data de corte (abril ganha fase de conversão), tira YouTube, LinkedIn e as frentes das provas de bolsa (P1, P2) e a reserva P6, refaz o funil reverso com 15 matrículas em duas etapas (inscrição paga e 1ª mensalidade) e cria a regra de rodízio de conceitos. O que mudou está na seção "Mudanças desta versão", no fim.
+- **Versão anterior:** 2 (26/10/2026), seção 12 do plano do cmo e ajustes EP1 a EP4 do qa-de-marketing-geral-2026-10-26-loteB.
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Entradas lidas:**
-  - /home/user/marketing-ufape/.claude/agents/estrategia-de-midia.md
-  - /home/user/marketing-ufape/.claude/skills/metas-de-custo/SKILL.md e /home/user/marketing-ufape/.claude/skills/estrutura-de-campanha-paga/SKILL.md
   - /home/user/marketing-ufape/CLAUDE.md
-  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
-  - /home/user/marketing-ufape/docs/andamento-planejamento.md (seção "Conflitos entre saídas")
-  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 3, 4, 5 e 7; na versão 2, também a seção 12, conciliação da camada 1)
-  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (ajustes EP1 a EP4, versão 2)
-  - /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-pos-2026-10-26.md (1.12; seções 3.3 e 5, versão 2)
+  - /home/user/marketing-ufape/.claude/skills/metas-de-custo/SKILL.md
+  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 17; nesta versão, 14, 15, 16 e 17)
+  - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (versão 3; seções 2.4, 3, 6, 8, 9 e toda a seção 12, com a encomenda 12.8)
+  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 7, 12 e 13; D11, D12, D15 e D16)
   - /home/user/marketing-ufape/contexto/ufape-geral.md
   - /home/user/marketing-ufape/contexto/pos-graduacao.md
-  - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seções "Como usar", 2 e 3)
-  - /home/user/marketing-ufape/docs/visao-de-campanhas-2026-10-26.md
-  - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (1.11, encomenda principal)
-  - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (memorando da onda 1, seções 0, 1, 3 e 5)
-  - /home/user/marketing-ufape/saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md (campanha das provas)
-  - /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-26.md (seções 0 a 2, 4.1, 4.3, 5.1, 5.2, 6 e 7)
-  - /home/user/marketing-ufape/saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md (seções 0 a 5)
-  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-pos-2026-10-26.md (1.9, seções 2, 3, 4, 5 e 6)
-  - /home/user/marketing-ufape/saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md (seções 2.2, 3 e 5.3, só para sementes de busca)
-  - /home/user/marketing-ufape/templates/kit-de-lancamento-pos.md (3 criativos por turma)
-  - /home/user/marketing-ufape/auditorias/11-midia-paga.md
-  - Referência de formato, sem cópia de conteúdo: /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md
-- **Análise de mídia da Pós (1.12):** não existia quando a versão 1 foi escrita; na versão 2 ela existe (saidas/11-midia-paga/analise-de-midia-pos-2026-10-26.md, diagnóstico estrutural, sem exportação). Pendências atualizadas (EP4): a 68636 segue sem linha própria na visão (N6 da 1.12); as datas de 68662 (15/08/2026) e 662 (24/04/2027) ficam as da planilha (decisão 12 da Ufape; N1 da 1.12 fechado); na ordem de reativação, 68615, 366 e 68617 têm os 5 ângulos prontos (1.12, seção 3.3; 366 só com a data corrigida). O motivo de cada pausa e a conformidade dos criativos pausados seguem [CONFIRMAR] até a exportação.
+  - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seções "Como usar" e 2)
+  - Versão 2 deste arquivo (estrutura, públicos, nomes, UTM e pedidos EM1 a EM12)
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web nesta etapa.
-- **Dados pessoais:** nenhum. Nenhum aluno, candidato ou lead é citado. Docentes não são nomeados neste arquivo; a autorização de imagem e de citação de todos está registrada desde 26/10/2026 (briefing, decisão 8) e vale para os criativos, com nome e titulação só como na ficha.
-- **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [SUPOSIÇÃO] é escolha de desenho deste agente, sempre com a origem. [DADO NÃO FORNECIDO] é número de mídia que não existe nos arquivos. Regra prática é regra de método, não meta. Nenhum número de verba, CPL, custo por matrícula, alcance, tamanho de público, leads, inscritos ou matrículas existe hoje: tudo aparece como fórmula ou como percentual da verba nova (VN).
-- **Decisões do gestor-de-midia respeitadas sem alteração:** canais ativos (Meta e Google Busca nas frentes de verba), testes condicionados (YouTube em março, PP13; LinkedIn só para 657, PP14), canais fora (Performance Max, Display, TikTok e WhatsApp como destino de anúncio), divisão por frente (30%, 5%, 35%, 15%, 5%, 10%), fases e canais das provas (PP3), fases e canais de março e abril (seção 4.3 dele), cenário conservador como meta de corte (PP1), divisão igual por turma liberada até 04/01 e critérios da revisão semanal (seção 8 dele). Na versão 2, UTM e nomes seguem o padrão D11 e D12 do plano do cmo, também nas provas (PP4 do gestor, versão 2).
+- **Dados pessoais:** nenhum. Nenhum aluno, candidato ou lead é citado. Docentes não são nomeados neste arquivo; a autorização de imagem e de citação de todos está registrada desde 26/10/2026 (decisões 8 e 10).
+- **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [SUPOSIÇÃO] é escolha de desenho deste agente ou hipótese, sempre com a origem. [DADO NÃO FORNECIDO] é número de mídia que não existe nos arquivos. Regra prática é regra de método, não meta. Verba (R$ 2.000,00 por turma) e meta (15 matrículas; 15 vezes o valor do curso) vêm do CEO (decisões 15 e 16). Gasto, CPL, leads, inscrições e matrículas observados não existem nos arquivos.
+- **Decisões do gestor-de-midia respeitadas sem alteração:** Meta e Google Busca como únicos canais com verba; YouTube e LinkedIn fora nesta verba (PP13 e PP14, recomendação "fora", vão ao cmo); Performance Max, Display, TikTok e WhatsApp como destino fora; fases e canais de março (25%, 10%, 65%; Meta 70/50/65 e Google 30/50/35) e de abril (25% e 75%; Meta 70/65 e Google 30/35) da seção 12.5 dele; ciclo da subida até a data de corte; gasto de 289 e 662 dentro dos R$ 2.000,00 delas; rodízio quando o CPL da 1ª semana passar de R$ 20,00 (12.6); cenário conservador como meta de corte; P1, P2, P5 e P6 fora. Nomes e UTM no padrão D11 e D12 do plano do cmo.
 
 ---
 
 ## 0. Resumo em cinco linhas
 
-1. A verba nova da Pós no trimestre é **VN = [CONFIRMAR]** (PP2). Este plano entrega a estrutura completa e a verba de cada campanha como percentual de VN, por semana e por canal, pronta para virar reais quando VN e os CPLmax de PP1 chegarem.
-2. Estrutura: as provas seguem a campanha única do memorando (1 Meta com 3 conjuntos, 1 Google com um grupo por área liberada); cada turma de março e de abril recebe até 3 campanhas (Meta frio, Meta remarketing e Google Busca), com código do catálogo no nome e na UTM (padrão D11 e D12 do cmo, provas incluídas); pós-prova é uma campanha de remarketing; YouTube só dentro de P3 e LinkedIn só em P5, se as condições fecharem (EM8 a EM10, fechados pelo cmo).
-3. Metas: CPLmax e custo por matrícula máximo de cada turma ficam como fórmula do cenário conservador (h = 12 parcelas), com o funil reverso aberto (matrículas da mídia, leads necessários, verba teto) e o limite de revisão escrito antes de subir.
-4. Condição de volume: com 3 conceitos por turma, a estrutura de março só se sustenta se VN for de pelo menos 180 a 290 vezes o CPLmax conservador da turma na Meta (conta na seção 3.4); se não fechar, a turma entra só com remarketing e busca, como o gestor decidiu.
-5. Calendário: provas de 03/11 a 26/11 (pico de 03/11 a 09/11, PP3), pós-prova do resultado [CONFIRMAR] ao fim dos 10 dias úteis, março de 07/12 a 24/01 (com manutenção de 21/12 a 03/01), abril lote 1 de 06/01 a 24/01, revisão toda segunda (03/11 na terça), 12 pedidos novos de aprovação (EM1 a EM12).
+1. Verba: R$ 2.000,00 por turma no ciclo (decisão 15), da subida até a data de corte da 1ª mensalidade; 14 turmas novas (5 de março, 9 de abril) somam R$ 28.000,00; as 6 da onda 1 seguem sem divisão nova, com o saldo de R$ 2.000,00 menos o gasto do ciclo [CONFIRMAR, PP15].
+2. Meta: 15 matrículas por turma (1ª mensalidade paga), medidas separadas das inscrições pagas (decisão 16); custo máximo por matrícula R$ 133,33; custo máximo por inscrição R$ 80,00, R$ 100,00 e R$ 120,00 e CPL máximo R$ 4,00, R$ 10,00 e R$ 18,00 nos três cenários (taxas [SUPOSIÇÃO ilustrativa] do gestor); meta de corte: conservador.
+3. Divisão por turma: março R$ 787,00 Meta frio, R$ 508,00 Meta remarketing e R$ 705,00 Google Busca; abril R$ 865,00, R$ 460,00 e R$ 675,00; cada valor por fase, por semana e por dia está na seção 3, sem YouTube, LinkedIn nem provas.
+4. Rodízio: os 3 conceitos do kit são produzidos, mas se o CPL da Meta fria passar de R$ 20,00 na 1ª semana fechada, só 2 ficam no ar e o pior é trocado pelo 3º a cada revisão (seção 3.7).
+5. Calendário: março sobe em 07/12 (657 e 341 em 14/12), manutenção de 21/12 a 03/01, conversão de 04/01 ao corte (11/02 a 25/02); abril sobe em 06/01, aquecimento até 24/01 e conversão de 25/01 ao corte (04/03 a 25/03); revisão toda segunda, com pedido de pausa no dia seguinte ao corte de cada turma.
 
 ---
 
 ## 1. O que este plano cobre
 
-| Frente do gestor | Itens (catálogo) | Janela | Parte de VN | Neste plano |
+| Onda | Turmas (catálogo) | Janela de mídia | Verba | Neste plano |
 |---|---|---|---|---|
-| P1 Provas de bolsa | 22 provas abertas de 27/11/2026 (a 68656 já está fora) | 03/11 a 26/11; pausa em 27/11 | 30% | Seções 3.1, 4.2, 5.1, 6 |
-| P2 Pós-prova | turmas de destino confirmadas | resultado [CONFIRMAR] até o fim dos 10 dias úteis | 5% | Seções 3.2, 4.3, 5.2 |
-| P3 Março de 2027 | 68615, 289, 333; depois 657 e 341 (PP7) | 07/12 a 24/01 | 35% | Seções 2, 3.3, 4.4, 5.3 |
-| P4 Abril lote 1 | 68635, 68636, 68617, 68628, 68609, 68632 | 06/01 a 24/01 | 15% | Seções 2, 3.3, 4.5, 5.3 |
-| P5 Teste condicionado | LinkedIn (657, PP14); o YouTube fica dentro de P3 (EM8) | decisão em 08/01; 11/01 a 31/01 só com as 3 semanas aprovadas (EM10) | 5% | Seções 3.5, 4.6 |
-| P6 Reserva de ritmo | turma de março abaixo do ritmo | uso em 04/01 e 18/01 (PP12) | 10% | Seção 3.6 |
+| 1, reta final | 707, 68604, 68606, 698, 68610, 68608 | já no ar até as pausas de D9 e D18 (30/10, 31/10, 07/11 e 28/11) | R$ 2.000,00 menos o gasto do ciclo [CONFIRMAR] | Seção 3.2 (sem divisão nova, só teto) |
+| 2, março de 2027 | 68615, 289, 333; depois 657 e 341 (PP7) | 07/12/2026 (657 e 341: 14/12) até o corte (11/02 a 25/02/2027) | R$ 2.000,00 por turma | Seções 2, 3.3, 3.5, 4.4 |
+| 3, abril de 2027 | lote 1: 68635, 68636, 68617, 68628, 68609, 68632; lote 2: 679, 366, 662 (só com link e data corrigidos) | 06/01/2027 até o corte (04/03 a 25/03/2027) | R$ 2.000,00 por turma | Seções 2, 3.4, 3.5, 4.5 |
 
-**Fora deste plano (já decidido pelo gestor ou pelo memorando):** a reta final de 707, 68604, 68606, 698, 68610 e 68608 segue com as diárias atuais, sem verba nova e sem criativo novo, até as pausas de D9 e D18; as 6 turmas "verificar" (650, 68662, 706, 586, 554, 68612) seguem em pausa (D1); o lote 2 de abril (679, 366, 662) só entra com links e datas corrigidos; as turmas de maio ficam para o próximo trimestre (as campanhas pausadas de maio seguem pausadas); 662 (24/04/2027, data da planilha), ativa com link trocado, segue o PP5 do gestor e EM9 (seção 3.7).
+**Fora desta rodada:**
+- Campanha das provas de bolsa (P1) e pós-prova (P2): sem verba e sem peça nova até nova ordem (decisão 14). Os pedidos EM5 e EM12 e os estados E1 a E6 da versão 2 ficam suspensos; o desenho segue registrado na versão 2 e volta só com nova ordem do CEO.
+- YouTube pago (antes dentro de P3) e LinkedIn de 657 (P5): fora nesta verba (gestor 12.6; PP13 e PP14 vão ao cmo). As partes voltam para a Meta da mesma turma.
+- Reserva P6: deixa de existir; a verba de uma turma não passa para outra sem nova decisão do CEO (gestor 12.5).
+- 6 turmas "verificar" (650, 68662, 706, 586, 554, 68612): seguem em pausa (D1 do memorando).
+- Turmas de maio de 2027: próximo trimestre; as campanhas pausadas de maio seguem pausadas.
+- Canal fora da encomenda (TikTok, Performance Max, Display, WhatsApp como destino): nenhuma sugestão nova nesta versão; com R$ 2.000,00 por turma, qualquer canal a mais dividiria uma verba que já é pequena (gestor 12.6).
 
 ---
 
-## 2. Funil reverso e metas por turma (skill metas-de-custo, cenário conservador)
+## 2. Metas e funil reverso (skill metas-de-custo, números do CEO)
 
-### 2.1 Fórmulas usadas (do gestor, seção 2.2; nada novo)
+### 2.1 Números fixos e fórmulas (gestor 12.2 e 12.3)
 
-- CMmax_h = p x mín(n, 12) x (1 menos e_h) x (1 menos d) + m, menos cv, menos M (conservador, h = 12)
-- CPLmax_h = CMmax_h x c
-- Leads necessários na turma: L = Mmid dividido por c
-- Verba teto da turma: VerbaTeto = Mmid x CMmax_h (igual a L x CPLmax_h)
-- Conversão mínima para um CPL observado caber: c mínima = CPL observado dividido por CMmax_h
-- Ritmo necessário de leads por semana (adaptação de M3 da 1.9 para leads): RL = (L menos leads acumulados) dividido pelas semanas que faltam até a data de corte
-- Leads por semana que a verba compra no teto: verba semanal da turma dividida por CPLmax_h
+| Item | Valor | Fonte |
+|---|---|---|
+| Verba da turma no ciclo | R$ 2.000,00 | CEO, decisão 15 (pagamento só com aprovação humana) |
+| Meta de matrículas (1ª mensalidade paga) | 15 por turma | CEO, decisão 16 |
+| Mmid (matrículas que dependem da mídia) | 15 [SUPOSIÇÃO conservadora, origem gestor 12.1: toda a meta pesa na mídia até a Ufape informar a parte da base e do orgânico] | [CONFIRMAR] |
+| Meta em reais | 15 x valor do curso (total no cartão ou boleto do catálogo) | CEO, decisão 16; catálogo seção 2 |
+| Inscrição | R$ 260,00, conta na meta, medida separada da matrícula; receita de inscrição de 15 x R$ 260,00 = R$ 3.900,00 por turma | CEO, decisão 16 [CONFIRMAR U11: o site mostra matrícula de R$ 250,00]; nenhum anúncio cita o valor |
+| Custo máximo por matrícula | R$ 2.000,00 / 15 = **R$ 133,33** | conta |
 
-Todas as variáveis de negócio (e_h, d, cv, M, c, Mmid) são [CONFIRMAR] em PP1. Se só um número vier por variável, o conservador usa esse número com h = 12 (regra do gestor, seção 2.3).
+Fórmulas (gestor 12.3), com i = taxa de lead para inscrição paga e k = taxa de inscrição paga para 1ª mensalidade:
+- Inscrições necessárias = Mmid / k
+- Leads necessários = Mmid / (i x k)
+- Custo máximo por inscrição = R$ 2.000,00 x k / Mmid
+- CPL máximo = R$ 2.000,00 x i x k / Mmid
+- Leads por semana que a verba compra no teto = verba semanal da turma / CPL máximo
+- i mínima para um CPL observado caber = CPL observado x Mmid / (R$ 2.000,00 x k)
 
-### 2.2 Funil reverso por turma (março e abril lote 1)
+Checagem de viabilidade: o teto de 12 parcelas por matrícula (gestor 2.4) vai de R$ 11.470,00 (333) a R$ 19.609,96 (657) nas turmas deste plano, contra R$ 133,33 de custo máximo. A matrícula paga a mídia com folga; o risco é a verba comprar volume suficiente (gestor 12.6).
 
-Data de corte: 1ª mensalidade 30 dias antes do início, como na maioria das páginas de Pós (contexto da linha) [SUPOSIÇÃO por turma; CONFIRMAR na ficha]. Semanas de mídia contadas da subida prevista (07/12, 14/12 para 657 e 341, 06/01 para abril) até a data de corte. Teto de 12 parcelas e "CPL teto por 1 ponto de c" copiados do gestor (seção 2.4): são tetos absolutos sem evasão, desconto, custo e margem, não metas.
+### 2.2 Três cenários
 
-| Código | Turma (catálogo) | Praça | Início | Data de corte [SUPOSIÇÃO] | Semanas de mídia até o corte | Semanas no trimestre | Teto de 12 parcelas (gestor) | CPL teto conservador por 1 ponto de c (gestor) | Mmid | c | L = Mmid / c | CPLmax_h | VerbaTeto |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 68615 | Pós-graduação em Patologia Clínica, VII | São Paulo | 20/03/2027 | 18/02/2027 | 10,4 | 7 (2 de manutenção) | R$ 14.410,00 | R$ 144,10 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 289 | Pós-graduação em Cardiologia Veterinária, II | Goiânia | 20/03/2027 | 18/02/2027 | 10,4 | 7 (2 de manutenção) | R$ 14.410,00 | R$ 144,10 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 333 | Pós-graduação em Citopatologia Veterinária, I | São Paulo | 27/03/2027 | 25/02/2027 | 11,4 | 7 (2 de manutenção) | R$ 11.470,00 | R$ 114,70 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 657 | Pós-graduação em Anestesiologia Avançada, II | São Paulo | 13/03/2027 | 11/02/2027 | 8,4 (de 14/12) | 6 (2 de manutenção) | R$ 19.609,96 | R$ 196,10 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 341 | Pós-graduação em Medicina Interna Equina, I | São Paulo | 20/03/2027 | 18/02/2027 | 9,4 (de 14/12) | 6 (2 de manutenção) | R$ 17.650,00 (sem a promoção) | R$ 176,50 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68635 | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, V | São Paulo | 10/04/2027 | 11/03/2027 | 9,1 | 2,7 | R$ 13.450,00 | R$ 134,50 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68632 | Pós-graduação em Clínica Cirúrgica de Cães e Gatos, V (presencial) | Goiânia | 10/04/2027 | 11/03/2027 | 9,1 | 2,7 | R$ 13.450,00 | R$ 134,50 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68628 | Pós-graduação em Oncologia Veterinária (turma diverge, P5) | São Paulo | 10/04/2027 | 11/03/2027 | 9,1 | 2,7 | R$ 15.826,00 | R$ 158,26 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68636 | Pós-graduação em Pneumologia Veterinária, VIII (data só no site) | São Paulo | 17/04/2027 [CONFIRMAR] | 18/03/2027 | 10,1 | 2,7 | R$ 15.430,00 | R$ 154,30 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68617 | Pós-graduação em Endocrinologia de Pequenos Animais (turma diverge, P5) | São Paulo | 17/04/2027 | 18/03/2027 | 10,1 | 2,7 | R$ 14.650,00 | R$ 146,50 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-| 68609 | Pós-graduação em Anestesiologia Veterinária, VIII | Goiânia | 24/04/2027 | 25/03/2027 | 11,1 | 2,7 | R$ 13.230,04 | R$ 132,30 | [CONFIRMAR] | [CONFIRMAR] | fórmula | fórmula | fórmula |
-
-Contas de semanas (regra única desde a versão 2, EP1): "semanas até o corte" = diferença entre a subida e a data de corte, sem contar o dia da subida, dividida por 7: 07/12/2026 a 18/02/2027 = 73 dias (10,4 semanas); 07/12 a 25/02 = 80 dias (11,4); 14/12 a 11/02 = 59 dias (8,4); 14/12 a 18/02 = 66 dias (9,4); 06/01 a 11/03 = 64 dias (9,1); 06/01 a 18/03 = 71 dias (10,1); 06/01 a 25/03 = 78 dias (11,1). "Semanas no trimestre" conta os dias de veiculação, com os dois extremos: 06/01 a 24/01 = 19 dias (2,7), base das contas por semana de P4 (seção 3.3).
-
-**Aviso ao gestor (ponto que a conta já mostra sem número):** cerca de 3 a 5 semanas de mídia de março (de 2,6 a 4,6: 18, 25 e 32 dias entre 24/01 e os cortes de 11/02, 18/02 e 25/02) e cerca de 7 a 9 semanas de abril (de 6,6 a 8,6: 46, 53 e 60 dias entre 24/01 e os cortes de 11/03, 18/03 e 25/03) caem depois de 24/01, fora da verba deste trimestre. Para 68615, 289 e 341, as semanas de 25/01 a 18/02 (3,6 semanas) são as de decisão de matrícula. O plano do trimestre seguinte (rascunho em 22/01, gestor seção 4.1) precisa reservar essa verba antes de 25/01, senão a curva de leads de março para no meio da conversão.
-
-**Como ler o funil na semana:** leads acumulados contra a curva L ao longo das semanas até o corte. Se o ritmo necessário RL passar da verba semanal dividida por CPLmax_h, a verba aprovada não compra os leads que a turma precisa: aviso ao cmo antes de pedir reforço de P6 (alavancas da skill: conversão lead para matrícula, oferta, evasão, página).
-
-### 2.3 Funil reverso das provas (P1) e do pós-prova (P2)
-
-| Etapa | Fórmula | Fonte | Valor |
-|---|---|---|---|
-| Matrículas via prova desejadas na turma de destino (Mprova) | meta da Ufape | comercial | [CONFIRMAR] |
-| t (inscrito para matrícula) | histórico | CRM | [CONFIRMAR] |
-| Inscritos necessários na área | Mprova dividido por t | conta | fórmula |
-| Custo por inscrito máximo (CPImax) | t x CMmax_via_prova + R$ 100,00 x (1 menos tx) (gestor, fórmula 8) | conta | [CONFIRMAR] por área em D1 |
-| Verba teto das provas na área | inscritos necessários x CPImax | conta | fórmula |
-| Leitura final | custo por matrícula via prova = verba das provas da área dividida pelas matrículas vindas da prova, por turma de destino (gestor, fórmula 9) | CRM | depois do prazo de matrícula |
-
-Provas em D2, D3 e D4 não têm destino com receita calculável: sem CPImax, sem anúncio por área (memorando, 3.2). Para P2, a meta é a mesma CMmax_h da turma de destino; o custo de P2 entra no custo por matrícula via prova da área, somado ao de P1 [SUPOSIÇÃO de desenho: as duas frentes trabalham a mesma matrícula].
-
-### 2.4 Limite em que a campanha deve ser revista (escrito antes de subir)
-
-Mesmas regras do gestor (seção 8), aplicadas por campanha deste plano. Valores em reais entram quando PP1 for respondido; a regra não muda depois.
-
-| Nível | Turmas (P3, P4, P2) | Provas (P1) | O que acontece |
-|---|---|---|---|
-| Leitura permitida | gasto de pelo menos 1,5 x CPLmax_h e 3 dias de dados | gasto de pelo menos 1,5 x CPImax da área e 3 dias de dados; nenhuma realocação antes de 06/11 | antes disso, só direção |
-| Pausa de anúncio | gasto de 1,5 a 2 x CPLmax_h sem lead (regra prática da skill) | gasto de 1,5 a 2 x CPImax sem inscrição | pedido de pausa do anúncio; nunca todos os antigos ao mesmo tempo |
-| Alerta | CPL de uma semana fechada acima de CPLmax_h, ou c observada abaixo da c mínima | custo por inscrito da semana acima de CPImax | ordem de checagem do gestor: verba gasta, tráfego, conversão, fadiga, página, rastreio; uma mudança por conjunto |
-| Revisão da campanha | 2 semanas seguidas fora da meta depois de um ajuste (R6, N = 2) | idem, ou área sem inscrição com tráfego na página (problema de página ou de destino) | pedido de pausa ou de mudança de estrutura ao gestor e ao cmo, com exportação prévia |
-| Custo por matrícula | só com 2 semanas fechadas e janela de maturação de 30 dias depois do início [SUPOSIÇÃO do gestor] | só depois do prazo de matrícula pós-prova | veredito final da turma ou da área |
-| Escalar | abaixo da meta com volume confiável por vários dias; passos de até 20% da diária, dentro da verba aprovada | idem | acima da verba aprovada vira pedido separado ao cmo |
-
----
-
-## 3. Divisão da verba nova (VN) por frente, campanha, fase, canal e semana
-
-Todos os percentuais são de VN, conta aberta a partir dos percentuais do gestor (seções 4.1 a 4.3 dele). Os percentuais novos deste agente (dentro de um canal: frio contra remarketing; dentro das provas: conjuntos) estão marcados [SUPOSIÇÃO] e vão a aprovação (EM4 e EM5). Valores em reais = VN x percentual, com duas casas, quando VN for aprovada.
-
-### 3.1 P1 Provas (30% de VN), por fase, canal e conjunto
-
-| Fase | Datas (dias) | Parte de P1 | Parte de VN | Meta | Google Busca | Meta por dia | Google por dia |
-|---|---|---|---|---|---|---|---|
-| 1. Abertura e pico | 03/11 a 09/11 (7) | 40% | 12,00% | 8,40% | 3,60% | 1,2000% | 0,5143% |
-| 2. Sustentação | 10/11 a 19/11 (10) | 35% | 10,50% | 7,35% | 3,15% | 0,7350% | 0,3150% |
-| 3. Reta final | 20/11 a 26/11 (7) | 25% | 7,50% | 4,50% | 3,00% | 0,6429% | 0,4286% |
-| Pausa | 27/11 | 0% | 0% | | | | |
-| **Total** | | 100% | **30,00%** | 20,25% | 9,75% | | |
-
-Dentro da Meta, por conjunto [SUPOSIÇÃO de desenho, EM5; origem: Goiânia tem 3 das 22 provas (cerca de 14%, arredondado para 15%) e o gestor pede mais remarketing na reta final]:
-
-| Fase | São Paulo frio | Goiânia frio | Remarketing | Em VN: SP / GO / remarketing |
-|---|---|---|---|---|
-| 1 | 70% | 15% | 15% | 5,88% / 1,26% / 1,26% |
-| 2 | 65% | 15% | 20% | 4,7775% / 1,1025% / 1,47% |
-| 3 | 50% | 10% | 40% | 2,25% / 0,45% / 1,80% |
-
-As provas são online (decisão 11 da Ufape): o endereço de São Paulo nas páginas 68640, 68642 e 68644 deixa de bloquear o conjunto de Goiânia, que sobe com o campus Goiânia dito no anúncio e sem citar local; a correção do texto da página segue pedida à Ufape. Se uma prova de Goiânia ficar bloqueada por outro motivo (links invertidos de 68642, E4; destino, E5), a parte dela passa para São Paulo frio na mesma fase. Isso não muda o total da Meta nem o da fase.
-
-**Ordem de liberação das áreas** (estados do criativos-de-anuncio, seção 4.1; prioridade da estrategia-de-campanha, seção 3.4):
-
-| Estado | Provas | Meta (anúncio de área) | Google (grupo) | Quando |
-|---|---|---|---|---|
-| E1 | 68654 (A12 Neurologia), 68658 (A11 Patologia Clínica) | sobe | sobe | 03/11 |
-| E2 | 68659 (A2 Pneumologia), 68645 (A3 Clínica Médica), 68661 (A5 Ultrassonografia), 68648 (A7 Endocrinologia), 68657 (A10 Oncologia) | sobe só com decisão registrada sobre a frase de certificação na página ou com a página corrigida | idem | 03/11, se a decisão vier até 31/10 |
-| E3 | 68640, 68642, 68644 (Goiânia) | conjunto de Goiânia com o campus no anúncio; o local deixa de ser condição (prova online, decisão 11); 68642 segue também em E4 | idem | 03/11, se o destino estiver confirmado |
-| E4 | 68641, 68642 (Cardiologia, links invertidos) | depois da correção | depois da correção | data da correção |
-| E5 | 68639, 68660, 68643, 68647, 68650, 68646, 68651 (D2 e D3) | só com o destino respondido (A-C2) | idem | fase 2, a partir de 10/11 |
-| E6 | 68652, 68649, 68653, 68655 (D4) | sem anúncio por área; só na peça-mãe, se a Ufape confirmar que seguem à venda | sem grupo | não se aplica |
-
-Realocação entre áreas: só a partir da revisão de 09/11, por custo por inscrito contra o CPImax de cada área, como pedido (gestor 4.2, fase 2). Área bloqueada não "guarda" verba: a parte dela é usada pelas áreas liberadas da mesma fase, sem passar do total da fase.
-
-### 3.2 P2 Pós-prova (5% de VN)
-
-| Campanha | Canal | Parte de VN | Janela | Divisão |
-|---|---|---|---|---|
-| Remarketing de matrícula com bolsa | Meta | 5,00% | do resultado [CONFIRMAR] ao fim dos 10 dias úteis de matrícula | partes iguais por turma de destino confirmada [SUPOSIÇÃO de desenho, mesma lógica do gestor em P3]. Sem destino confirmado, a área não recebe; o que sobrar fica em P6 |
-
-Verba diária de P2 = 5% de VN dividido pelos dias corridos da janela [CONFIRMAR a data do resultado para fechar o número de dias].
-
-### 3.3 P3 Março (35% de VN) e P4 Abril lote 1 (15% de VN)
-
-**P3 por fase e canal (gestor 4.3, conta aberta):**
-
-| Fase | Datas (semanas) | Parte de P3 | Parte de VN | Meta | Google Busca | YouTube (se PP13; senão Meta) |
+| Cenário | i (lead para inscrição) | k (inscrição para matrícula) | Inscrições necessárias | Leads necessários | Custo máximo por inscrição | CPL máximo |
 |---|---|---|---|---|---|---|
-| Aquecimento | 07/12 a 20/12 (2) | 25% | 8,75% | 5,25% | 2,625% | 0,875% |
-| Manutenção de fim de ano | 21/12 a 03/01 (2) | 10% | 3,50% | 1,75% (só remarketing) | 1,75% | 0% |
-| Conversão | 04/01 a 24/01 (3) | 65% | 22,75% | 12,5125% | 7,9625% | 2,275% |
-| **Total** | 7 semanas | 100% | **35,00%** | 19,5125% | 12,3375% | 3,15% |
+| Conservador (meta de corte) | 5% [SUPOSIÇÃO] | 60% [SUPOSIÇÃO] | 25 | 500 | R$ 80,00 | R$ 4,00 |
+| Base | 10% [SUPOSIÇÃO] | 75% [SUPOSIÇÃO] | 20 | 200 | R$ 100,00 | R$ 10,00 |
+| Otimista | 15% [SUPOSIÇÃO] | 90% [SUPOSIÇÃO] | 16,67 (17 na prática) | 111,11 (112 na prática) | R$ 120,00 | R$ 18,00 |
 
-**P3 por turma** (5 turmas, partes iguais: 7,00% de VN por turma; turma bloqueada deixa a parte dela em P6 até o desbloqueio), por semana:
+Origem das taxas: [SUPOSIÇÃO ilustrativa] copiada do gestor-de-midia-pos (seção 12.3), escolhida só para mostrar a sensibilidade da conta; não há histórico de CRM, exportação de mídia nem fonte de mercado fornecida, então nenhuma delas é benchmark. As taxas reais são [CONFIRMAR] no CRM (leads, inscrições pagas e 1ª mensalidade por turma, só números somados) e substituem estas sem mudar a fórmula, numa nova versão escrita antes da subida. Conta de exemplo (base): 15 / 0,75 = 20 inscrições; 20 / 0,10 = 200 leads; R$ 2.000,00 / 200 = R$ 10,00.
 
-| Fase | Meta frio por semana | Meta remarketing por semana | Google por semana | YouTube por semana (campanha única de março) |
+### 2.3 Funil reverso por turma
+
+Data de corte = vencimento da 1ª mensalidade, 30 dias antes do início, como na maioria das páginas de Pós (contexto/pos-graduacao.md) [SUPOSIÇÃO por turma; CONFIRMAR na ficha]. Dias do ciclo contados com os dois extremos, da subida até o corte; semanas = dias / 7 (regra do gestor, 12.5). Leads por semana médios = leads necessários do cenário x 7 / dias do ciclo (a distribuição real segue a curva por fase da seção 2.4).
+
+| Onda | Código | Turma (nome nas peças) | Praça | Início (catálogo) | Corte [SUPOSIÇÃO] | Subida | Dias (semanas) do ciclo | Valor do curso (catálogo) | Meta em reais | Leads por semana médios: conservador / base / otimista |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2 | 68615 | Pós-graduação em Patologia Clínica, VII | São Paulo | 20/03/2027 | 18/02/2027 | 07/12/2026 | 74 (10,57) | R$ 35.400,00 | R$ 531.000,00 | 47,30 / 18,92 / 10,51 |
+| 2 | 289 | Pós-graduação em Cardiologia Veterinária, II | Goiânia | 20/03/2027 | 18/02/2027 | 07/12/2026 (já ativa) | 74 (10,57) | R$ 35.400,00 | R$ 531.000,00 | 47,30 / 18,92 / 10,51 |
+| 2 | 333 | Pós-graduação em Citopatologia Veterinária, I | São Paulo | 27/03/2027 | 25/02/2027 | 07/12/2026 | 81 (11,57) | R$ 28.050,00 | R$ 420.750,00 | 43,21 / 17,28 / 9,60 |
+| 2 | 657 | Pós-graduação em Anestesiologia Avançada, II | São Paulo | 13/03/2027 | 11/02/2027 | 14/12/2026 (PP7) | 60 (8,57) | R$ 48.400,00 | R$ 726.000,00 | 58,33 / 23,33 / 12,96 |
+| 2 | 341 | Pós-graduação em Medicina Interna Equina, I | São Paulo | 20/03/2027 | 18/02/2027 | 14/12/2026 (PP7) | 67 (9,57) | R$ 43.500,00 (sem a promoção, PR7) | R$ 652.500,00 | 52,24 / 20,90 / 11,61 |
+| 3 | 679 | Pós-graduação em Infectologia Veterinária, IV (lote 2, link trocado) | São Paulo | 03/04/2027 | 04/03/2027 | 06/01/2027, só com o link corrigido | 58 (8,29) | R$ 33.000,00 | R$ 495.000,00 | 60,34 / 24,14 / 13,41 |
+| 3 | 68632 | Pós-graduação em Clínica Cirúrgica de Cães e Gatos, V (presencial) | Goiânia | 10/04/2027 | 11/03/2027 | 06/01/2027 | 65 (9,29) | R$ 33.000,00 | R$ 495.000,00 | 53,85 / 21,54 / 11,97 |
+| 3 | 68635 | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, V | São Paulo | 10/04/2027 | 11/03/2027 | 06/01/2027 | 65 (9,29) | R$ 33.000,00 | R$ 495.000,00 | 53,85 / 21,54 / 11,97 |
+| 3 | 366 | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, I (lote 2, data diverge) | São Paulo | 10/04/2027 | 11/03/2027 | 06/01/2027, só com a data conferida | 65 (9,29) | R$ 33.000,00 | R$ 495.000,00 | 53,85 / 21,54 / 11,97 |
+| 3 | 68628 | Pós-graduação em Oncologia Veterinária (turma diverge, sem número de turma na peça) | São Paulo | 10/04/2027 | 11/03/2027 | 06/01/2027 | 65 (9,29) | R$ 38.940,00 | R$ 584.100,00 | 53,85 / 21,54 / 11,97 |
+| 3 | 68617 | Pós-graduação em Endocrinologia de Pequenos Animais (turma diverge, sem número de turma na peça) | São Paulo | 17/04/2027 | 18/03/2027 | 06/01/2027 | 72 (10,29) | R$ 36.000,00 | R$ 540.000,00 | 48,61 / 19,44 / 10,80 |
+| 3 | 68636 | Pós-graduação em Pneumologia Veterinária, VIII (data só no site) | São Paulo | 17/04/2027 [CONFIRMAR com a planilha] | 18/03/2027 | 06/01/2027, só com a data conferida | 72 (10,29) | R$ 37.950,00 | R$ 569.250,00 | 48,61 / 19,44 / 10,80 |
+| 3 | 68609 | Pós-graduação em Anestesiologia Veterinária, VIII | Goiânia | 24/04/2027 | 25/03/2027 | 06/01/2027 | 79 (11,29) | R$ 32.450,00 | R$ 486.750,00 | 44,30 / 17,72 / 9,85 |
+| 3 | 662 | Pós-graduação em Ortopedia Veterinária, IV (lote 2, link trocado, ativa) | São Paulo | 24/04/2027 | 25/03/2027 | já ativa; estrutura nova em 06/01/2027, só com o link corrigido | 79 (11,29) | R$ 37.500,00 | R$ 562.500,00 | 44,30 / 17,72 / 9,85 |
+
+Notas: (a) o catálogo escreve "Pós Graduação" em 333 e 341; nas peças vale "Pós-graduação em <área>" (contexto da linha). (b) Em 341, com a promoção de 20% (se a regra valer, PR7), valor de R$ 34.800,00 e meta de R$ 522.000,00; conta de uso interno, nenhum valor com desconto vai para peça. (c) Conta de exemplo (68615): 07/12/2026 a 18/02/2027 = 25 + 31 + 18 = 74 dias; 74 / 7 = 10,57 semanas; base: 200 x 7 / 74 = 18,92 leads por semana.
+
+**Funil em duas etapas, por turma (igual em todas, porque verba e meta são iguais):**
+
+| Etapa | Conservador | Base | Otimista | Onde é medido |
 |---|---|---|---|---|
-| Aquecimento | 0,4200% (80% da Meta) | 0,1050% (20%) | 0,2625% | 0,4375% (para as 5 turmas juntas) |
-| Manutenção | 0% | 0,1750% (100%) | 0,1750% | 0% |
-| Conversão | 0,5005% (60% da Meta) | 0,3337% (40%) | 0,5308% | 0,7583% (para as 5 turmas juntas) |
+| Verba | R$ 2.000,00 | R$ 2.000,00 | R$ 2.000,00 | gerenciador (gasto) |
+| Leads (cadastro ou início de checkout, EM11) | 500 | 200 | 112 | gerenciador e CRM, somados por turma |
+| Inscrições pagas (R$ 260,00, [CONFIRMAR U11]) | 25 | 20 | 17 | CRM e loja, conversão separada (EM11) |
+| Matrículas de fato (1ª mensalidade paga até o corte) | 15 | 15 | 15 | CRM e financeiro, conversão separada (EM11) |
+| Custo máximo por lead, por inscrição e por matrícula | R$ 4,00; R$ 80,00; R$ 133,33 | R$ 10,00; R$ 100,00; R$ 133,33 | R$ 18,00; R$ 120,00; R$ 133,33 | conta |
 
-Divisão frio e remarketing dentro da Meta [SUPOSIÇÃO de desenho, EM4; origem: no aquecimento o público de remarketing ainda é pequeno e a verba precisa formar visitantes; na conversão quem já visitou a página pesa mais; na manutenção o gestor já pede só remarketing (PP10)]. Sem PP13, a parte do YouTube volta para a Meta da mesma fase e da mesma turma (aquecimento: Meta por turma passa de 1,05% para 1,225% de VN; conversão: de 2,5025% para 2,9575%), na mesma proporção frio e remarketing.
+### 2.4 Curva de leads por fase (no CPL máximo de cada cenário)
 
-**P4 por turma** (6 turmas, partes iguais: 2,50% de VN por turma; 19 dias, de 06/01 a 24/01):
+Leads esperados na fase = verba da fase / CPL máximo. É a curva contra a qual os leads acumulados são lidos na revisão semanal.
 
-| Canal | Parte de P4 | Por turma no período | Por turma por semana |
-|---|---|---|---|
-| Meta frio | 56% (80% de 70%) | 1,40% | 0,5158% |
-| Meta remarketing | 14% (20% de 70%) | 0,35% | 0,1289% |
-| Google Busca | 30% | 0,75% | 0,2763% |
-| **Total** | 100% | 2,50% | 0,9211% |
+| Ondas | Fase | Verba da fase | Conservador (R$ 4,00) | Base (R$ 10,00) | Otimista (R$ 18,00) |
+|---|---|---|---|---|---|
+| Março | Aquecimento | R$ 500,00 | 125 | 50 | 27,78 |
+| Março | Manutenção | R$ 200,00 | 50 | 20 | 11,11 |
+| Março | Conversão | R$ 1.300,00 | 325 | 130 | 72,22 |
+| Abril | Aquecimento | R$ 500,00 | 125 | 50 | 27,78 |
+| Abril | Conversão | R$ 1.500,00 | 375 | 150 | 83,33 |
 
-Turma de abril bloqueada (68636 sem data conferida na planilha; 68628 e 68617 sem peça sem número de turma) deixa a parte dela em P6 até o desbloqueio, como em março.
+Leitura: se, no fim de uma fase, os leads acumulados da turma ficarem abaixo da coluna do otimista com a verba da fase gasta, o CPL observado passou de R$ 18,00 e a meta não fecha em nenhum cenário com R$ 2.000,00 (gestor 12.3): aviso ao cmo antes de qualquer pedido de verba.
 
-### 3.4 Condição de volume (regra do gestor, seção 2.6, aplicada)
+### 2.5 Limites escritos antes de subir (não mudam depois para caber no resultado)
 
-Regra: verba semanal do canal x 3 maior ou igual a conceitos ativos x 1,5 x CPLmax_h. Com 3 conceitos por turma (kit mínimo) na Meta e 2 anúncios responsivos por grupo no Google [SUPOSIÇÃO de desenho], a regra vira uma verba nova mínima: **VN mínima = fator x CPLmax_h da turma**.
+| Nível | Regra | O que acontece |
+|---|---|---|
+| Leitura permitida | campanha com pelo menos 3 dias de dados e gasto de pelo menos 1,5 x R$ 18,00 = R$ 27,00 (maior CPL máximo dos cenários) [SUPOSIÇÃO de desenho; origem: regra prática de 1,5 a 3 vezes o CPL máximo da skill, aplicada ao maior CPL máximo para não ler ruído com diárias de R$ 3,68 a R$ 40,00]; nenhuma tendência com os 2 últimos dias | antes disso, só direção |
+| Meta de corte | CPL da semana fechada até R$ 4,00 (conservador); custo por inscrição até R$ 80,00 | dentro da meta |
+| Alerta | CPL da semana fechada acima de R$ 4,00, ou i observada abaixo da i mínima (2.1) | ordem de checagem do gestor (verba gasta, tráfego, conversão, fadiga, página, rastreio); uma mudança por conjunto por semana |
+| Rodízio | CPL da Meta fria acima de R$ 20,00 na 1ª semana fechada da turma | regra da seção 3.7 |
+| Pausa de anúncio | anúncio com 2 x R$ 18,00 = R$ 36,00 gastos sem nenhum lead [SUPOSIÇÃO de desenho; mesma origem da leitura permitida] | pedido de pausa do anúncio; nunca todos os anúncios da campanha ao mesmo tempo |
+| Frio sai | Meta fria com CPL acima do limite de volume da seção 3.6 por 2 semanas fechadas | pedido: o frio pausa e a parte dele vai metade para o remarketing e metade para a busca da mesma turma [SUPOSIÇÃO de desenho; origem: gestor 12.6, "fica remarketing e busca"] |
+| Revisão da campanha | CPL acima de R$ 18,00 por 2 semanas fechadas, ou 2 semanas seguidas fora da meta depois de um ajuste (R6, N = 2) | aviso ao cmo com as alavancas da skill (conversão lead para inscrição, página, base e orgânico para baixar Mmid); verba extra só como pedido separado ao cmo |
+| Custo por inscrição | lido toda semana no CRM, contra R$ 80,00 (corte) e R$ 120,00 (otimista) | igual ao CPL |
+| Custo por matrícula | lido na primeira revisão depois do corte, com a 1ª mensalidade somada no CRM; veredito final 30 dias depois do início [SUPOSIÇÃO do gestor, seção 8] | veredito da turma |
+| Teto da turma | gasto acumulado do ciclo chega a R$ 2.000,00, ou dia seguinte ao corte | pedido de pausa de todas as campanhas da turma (EM16) |
 
-| Campanha (por turma) | Verba semanal em VN | Conceitos | Fator (VN mínima = fator x CPLmax_h) |
-|---|---|---|---|
-| Março, Meta (frio e remarketing), aquecimento, com YouTube | 0,5250% | 3 | 285,71 |
-| Março, Meta, aquecimento, sem YouTube | 0,6125% | 3 | 244,90 |
-| Março, Meta, conversão, com YouTube | 0,8342% | 3 | 179,82 |
-| Março, Meta, conversão, sem YouTube | 0,9858% | 3 | 152,15 |
-| Março, Google, aquecimento | 0,2625% | 2 | 380,95 |
-| Março, Google, conversão | 0,5308% | 2 | 188,38 |
-| Abril lote 1, Meta | 0,6447% | 3 | 232,65 |
-| Abril lote 1, Google | 0,2763% | 2 | 361,90 |
+---
 
-Conta de exemplo (março, Meta, conversão, com YouTube): 3 x 0,8342% x VN maior ou igual a 3 x 1,5 x CPLmax_h, logo VN maior ou igual a 4,5 dividido por 0,025025, vezes CPLmax_h = 179,82 x CPLmax_h.
+## 3. Verba em reais por turma, fase, canal e semana
 
-**Provas (gestor 2.6, conta de controle):** 40% de P1 (12% de VN) maior ou igual a conceitos x 1,5 x CPImax. Com 4 conceitos em 03/11 (C1, C2, C6 e C4 no remarketing): VN mínima = 50 x CPImax. Na versão enxuta (só C1 e C6): VN mínima = 25 x CPImax. Usar o menor CPImax entre as áreas liberadas [SUPOSIÇÃO conservadora].
+### 3.1 Regras
 
-**Se não fechar:**
-- Turma de março ou abril: a turma entra só com remarketing e busca, sem público frio (gestor 2.6). A parte do frio vai para P6, sem ser gasta automaticamente [SUPOSIÇÃO de desenho, EM4]; o cmo decide o uso.
-- Google com fator acima do da Meta: a turma sobe com 1 anúncio responsivo por grupo (fator cai pela metade) antes de sair da busca.
-- Provas: versão enxuta do pacote (só C1 e C6 em 03/11; criativos-de-anuncio, seção 7).
-- Leitura: o fator alto do aquecimento mostra que, com verba pequena, os 14 dias de dezembro servem para formar público e não para julgar conceito; o julgamento de conceito fica para a conversão (04/01 em diante).
+- A verba é por turma. Nada passa de uma turma para outra sem nova decisão do CEO (gestor 12.5). Nenhuma tabela soma mais de R$ 2.000,00 por turma.
+- Divisão da Meta entre frio e remarketing [SUPOSIÇÃO de desenho, EM4; origem: no aquecimento o público de remarketing ainda é pequeno; na conversão quem já visitou a página pesa mais; na manutenção o gestor pede só remarketing, PP10]: aquecimento 80/20; manutenção 0/100; conversão 60/40, em março e em abril.
+- Valores por semana = total da fase x 7 / dias da fase, arredondados em duas casas. Diárias = total da fase / dias da fase, **arredondadas para baixo** em duas casas, para que diária x dias nunca passe do total.
+- Verba não gasta numa fase passa para a fase seguinte da mesma turma e do mesmo canal; na última fase, a sobra não é gasta [SUPOSIÇÃO de desenho, EM4].
+- Turma que sobe atrasada (bloqueio): as partes são as mesmas, contadas da data de subida; se subir já na manutenção ou depois, a parte do aquecimento vai para a conversão da mesma turma [SUPOSIÇÃO de desenho; origem: gestor 12.5, regra do lote 2].
+- Diária abaixo do mínimo aceito pela plataforma [CONFIRMAR no gerenciador]: a parte de remarketing da fase passa para o frio da mesma turma até a diária de remarketing caber, sem mudar o total (EM14).
 
-### 3.5 P5 Testes condicionados (5% de VN)
+### 3.2 Onda 1 (reta final, sem divisão nova)
 
-**EM8, fechado pelo cmo (12.6):** **YouTube pago só dentro de P3 (seção 4.3 do gestor) e P5 só para o LinkedIn de 657.** O YouTube orgânico (Shorts da youtube-pos) é outro canal, sem verba. O gestor-de-midia-pos versão 2 já aplica a mesma leitura.
+| Código | Turma | Início | Pausa (D9 e D18) | Dias de 27/10 até a pausa, com os dois extremos | Saldo da turma | Diária máxima | Meta em reais |
+|---|---|---|---|---|---|---|---|
+| 707 | Pós-graduação em Oftalmologia Veterinária, VII | 30/10/2026 | 30/10 | 4 | R$ 2.000,00 menos o gasto do ciclo [CONFIRMAR, PP15] | saldo / 4 | R$ 715.500,00 |
+| 68604 | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, VI | 31/10/2026 | 31/10 | 5 | idem | saldo / 5 | R$ 450.000,00 |
+| 68606 | Pós-graduação em Gastroenterologia Veterinária, IX | 07/11/2026 | 07/11 | 12 | idem | saldo / 12 | R$ 531.000,00 |
+| 698 | Pós-graduação em Ecocardiografia, III | 28/11/2026 | 28/11 | 33 | idem | saldo / 33 | R$ 404.550,00 |
+| 68610 | Pós-graduação em Dermatologia Veterinária, V | 28/11/2026 | 28/11 | 33 | idem | saldo / 33 | R$ 450.000,00 |
+| 68608 | Pós-graduação em Hematologia Veterinária, VIII | 28/11/2026 | 28/11 | 33 | idem | saldo / 33 | R$ 531.000,00 |
 
-| Teste | Parte de VN | Janela proposta | Condição (gestor) |
-|---|---|---|---|
-| LinkedIn, 657 | 5,00% | 11/01 a 31/01/2027 (EM10, decisão do cmo em 12.6): decisão em 08/01; 2 semanas neste trimestre e a 3ª semana com verba do trimestre seguinte; o teste só sobe com as 3 semanas aprovadas juntas (pedido R6 do cmo) | verba, rastreio testado (D8), Insight Tag instalada e públicos criados antes, condição de volume fechada, 3 semanas aprovadas |
+Regra: a diária atual segue sem aumento (D9, D18). Se a diária atual x dias até a pausa passar do saldo, vai o pedido de reduzir a diária para a diária máxima; se o saldo for zero ou negativo, pedido de pausa imediata (PP15). Os canais e conjuntos atuais não mudam.
 
-Condição de volume do LinkedIn (2 conceitos): com 5% de VN em 2 semanas (2,5% por semana), VN mínima = 40 x CPLmax_h de 657 no canal. Sem a 3ª semana aprovada, o teste não sobe neste trimestre e os 5% voltam para P3 na Meta (EM10); sem a condição de volume, o mesmo.
+### 3.3 Onda 2, março (por turma)
 
-### 3.6 P6 Reserva de ritmo (10% de VN)
+Total por turma: Meta frio R$ 787,00; Meta remarketing R$ 508,00 (Meta R$ 1.295,00); Google Busca R$ 705,00; total R$ 2.000,00. Cada célula: total da fase; por semana; diária.
 
-- Uso só por decisão do cmo, em 04/01 e 18/01, na turma de março abaixo do ritmo necessário (PP12), uma mudança por conjunto.
-- Recebe, sem gastar, as partes das turmas bloqueadas (657 e 341 até 14/12 ou até o desbloqueio; abril bloqueadas), a parte de uma prova de Goiânia bloqueada por outro motivo (E4 ou E5) se a fase acabar sem correção, o que sobrar de P2 e a parte do frio de turma que não passar na condição de volume.
-- O reforço segue o limite de 20% da diária por passo. O que não couber nesse passo não é gasto.
+| Turma | Fase | Datas (dias; semanas) | Meta frio | Meta remarketing | Google Busca | Total da fase |
+|---|---|---|---|---|---|---|
+| 68615, 289, 333 | Aquecimento | 07/12 a 20/12 (14; 2,00) | R$ 280,00; R$ 140,00; R$ 20,00 | R$ 70,00; R$ 35,00; R$ 5,00 | R$ 150,00; R$ 75,00; R$ 10,71 | R$ 500,00 |
+| 657, 341 | Aquecimento | 14/12 a 20/12 (7; 1,00) | R$ 280,00; R$ 280,00; R$ 40,00 | R$ 70,00; R$ 70,00; R$ 10,00 | R$ 150,00; R$ 150,00; R$ 21,42 | R$ 500,00 |
+| as 5 | Manutenção (só remarketing e busca) | 21/12 a 03/01 (14; 2,00) | R$ 0,00 (pausado) | R$ 100,00; R$ 50,00; R$ 7,14 | R$ 100,00; R$ 50,00; R$ 7,14 | R$ 200,00 |
+| 68615, 289, 341 | Conversão | 04/01 a 18/02 (46; 6,57) | R$ 507,00; R$ 77,15; R$ 11,02 | R$ 338,00; R$ 51,43; R$ 7,34 | R$ 455,00; R$ 69,24; R$ 9,89 | R$ 1.300,00 |
+| 333 | Conversão | 04/01 a 25/02 (53; 7,57) | R$ 507,00; R$ 66,96; R$ 9,56 | R$ 338,00; R$ 44,64; R$ 6,37 | R$ 455,00; R$ 60,09; R$ 8,58 | R$ 1.300,00 |
+| 657 | Conversão | 04/01 a 11/02 (39; 5,57) | R$ 507,00; R$ 91,00; R$ 13,00 | R$ 338,00; R$ 60,67; R$ 8,66 | R$ 455,00; R$ 81,67; R$ 11,66 | R$ 1.300,00 |
 
-### 3.7 Diárias que já rodam e precisam de dono (EM9)
+Contas: Meta da conversão R$ 845,00 x 60% = R$ 507,00 (frio) e x 40% = R$ 338,00 (remarketing); 68615, frio: R$ 507,00 x 7 / 46 = R$ 77,15 por semana; R$ 507,00 / 46 = R$ 11,0217, diária R$ 11,02. 289: o gasto entre hoje e 06/12 sai primeiro do aquecimento dela (seção 3.8).
 
-- **289 (março, ativa):** a diária atual [CONFIRMAR] roda antes de 07/12, fora das janelas de P3. Decisão do cmo (EM9, 12.6): o gasto de 289 entre a aprovação de VN e 06/12 é descontado da parte de 289 em P3 (7,00% de VN), sem aumento (PP9). Assim o total de P3 não cresce.
-- **662 (abril lote 2, início em 24/04/2027 pela planilha, ativa, link trocado):** decisão do cmo (EM9): a diária atual fica fora de VN até o lote 2, sem aumento; a URL é conferida em 28/10 (PP5) e, se levar a página errada, vai o pedido de pausa (R5 do cmo).
+### 3.4 Onda 3, abril (por turma)
+
+Total por turma: Meta frio R$ 865,00; Meta remarketing R$ 460,00 (Meta R$ 1.325,00); Google Busca R$ 675,00; total R$ 2.000,00. A fase de conversão de abril é nova nesta versão (gestor 12.5: 25% de aquecimento e 75% de conversão, com os percentuais de canal da conversão de março).
+
+| Turma | Fase | Datas (dias; semanas) | Meta frio | Meta remarketing | Google Busca | Total da fase |
+|---|---|---|---|---|---|---|
+| as 9 | Aquecimento | 06/01 a 24/01 (19; 2,71) | R$ 280,00; R$ 103,16; R$ 14,73 | R$ 70,00; R$ 25,79; R$ 3,68 | R$ 150,00; R$ 55,26; R$ 7,89 | R$ 500,00 |
+| 679 | Conversão | 25/01 a 04/03 (39; 5,57) | R$ 585,00; R$ 105,00; R$ 15,00 | R$ 390,00; R$ 70,00; R$ 10,00 | R$ 525,00; R$ 94,23; R$ 13,46 | R$ 1.500,00 |
+| 68632, 68635, 366, 68628 | Conversão | 25/01 a 11/03 (46; 6,57) | R$ 585,00; R$ 89,02; R$ 12,71 | R$ 390,00; R$ 59,35; R$ 8,47 | R$ 525,00; R$ 79,89; R$ 11,41 | R$ 1.500,00 |
+| 68617, 68636 | Conversão | 25/01 a 18/03 (53; 7,57) | R$ 585,00; R$ 77,26; R$ 11,03 | R$ 390,00; R$ 51,51; R$ 7,35 | R$ 525,00; R$ 69,34; R$ 9,90 | R$ 1.500,00 |
+| 68609, 662 | Conversão | 25/01 a 25/03 (60; 8,57) | R$ 585,00; R$ 68,25; R$ 9,75 | R$ 390,00; R$ 45,50; R$ 6,50 | R$ 525,00; R$ 61,25; R$ 8,75 | R$ 1.500,00 |
+
+Contas: Meta da conversão R$ 975,00 x 60% = R$ 585,00 e x 40% = R$ 390,00; 679, Google: R$ 525,00 x 7 / 39 = R$ 94,23 por semana. A diária de remarketing do aquecimento (R$ 3,68) é a mais exposta ao mínimo da plataforma (EM14). Lote 2 (679, 366, 662) só sobe com link e data corrigidos; 662 conta o gasto atual dentro dos R$ 2.000,00 (seção 3.8).
+
+### 3.5 Semana a semana (total da turma, Meta e Google somados)
+
+Semanas de segunda a domingo. Valor da semana = gasto por dia da fase x dias da fase dentro da semana (taxa sem arredondamento). A divisão por canal de cada semana é a da fase (seções 3.3 e 3.4).
+
+| Semana | 68615 e 289 | 333 | 657 | 341 | 679 | 68632, 68635, 366, 68628 | 68617, 68636 | 68609, 662 |
+|---|---|---|---|---|---|---|---|---|
+| S1, 07 a 13/12 | R$ 250,00 | R$ 250,00 | - | - | - | - | - | - |
+| S2, 14 a 20/12 | R$ 250,00 | R$ 250,00 | R$ 500,00 | R$ 500,00 | - | - | - | - |
+| S3, 21 a 27/12 | R$ 100,00 | R$ 100,00 | R$ 100,00 | R$ 100,00 | - | - | - | - |
+| S4, 28/12 a 03/01 | R$ 100,00 | R$ 100,00 | R$ 100,00 | R$ 100,00 | - | - | - | - |
+| S5, 04 a 10/01 | R$ 197,83 | R$ 171,70 | R$ 233,33 | R$ 197,83 | R$ 131,58 (de 06/01) | R$ 131,58 | R$ 131,58 | R$ 131,58 |
+| S6, 11 a 17/01 | R$ 197,83 | R$ 171,70 | R$ 233,33 | R$ 197,83 | R$ 184,21 | R$ 184,21 | R$ 184,21 | R$ 184,21 |
+| S7, 18 a 24/01 | R$ 197,83 | R$ 171,70 | R$ 233,33 | R$ 197,83 | R$ 184,21 | R$ 184,21 | R$ 184,21 | R$ 184,21 |
+| S8, 25 a 31/01 | R$ 197,83 | R$ 171,70 | R$ 233,33 | R$ 197,83 | R$ 269,23 | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S9, 01 a 07/02 | R$ 197,83 | R$ 171,70 | R$ 233,33 | R$ 197,83 | R$ 269,23 | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S10, 08 a 14/02 | R$ 197,83 | R$ 171,70 | R$ 133,33 (até 11/02) | R$ 197,83 | R$ 269,23 | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S11, 15 a 21/02 | R$ 113,04 (até 18/02) | R$ 171,70 | - | R$ 113,04 (até 18/02) | R$ 269,23 | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S12, 22 a 28/02 | - | R$ 98,11 (até 25/02) | - | - | R$ 269,23 | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S13, 01 a 07/03 | - | - | - | - | R$ 153,85 (até 04/03) | R$ 228,26 | R$ 198,11 | R$ 175,00 |
+| S14, 08 a 14/03 | - | - | - | - | - | R$ 130,43 (até 11/03) | R$ 198,11 | R$ 175,00 |
+| S15, 15 a 21/03 | - | - | - | - | - | - | R$ 113,21 (até 18/03) | R$ 175,00 |
+| S16, 22 a 28/03 | - | - | - | - | - | - | - | R$ 100,00 (até 25/03) |
+| **Total** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** | **R$ 2.000,00** |
+
+Contas de conferência: 68615 = 250 + 250 + 100 + 100 + 6 x 197,83 (R$ 1.186,96 sem arredondar) + 113,04 = R$ 2.000,00; 68609 = 131,58 + 184,21 + 184,21 + 8 x 175,00 + 100,00 = R$ 2.000,00. Teto da linha nesta rodada: 14 turmas x R$ 2.000,00 = R$ 28.000,00 de verba de março e abril, mais o saldo das 6 turmas da onda 1 (até R$ 12.000,00 no ciclo inteiro, em boa parte já gasto [CONFIRMAR]).
+
+### 3.6 Condição de volume em reais (regra do gestor, 2.6)
+
+Regra: verba semanal da campanha x 3 maior ou igual a conceitos ativos x 1,5 x CPL. Logo, o maior CPL que a campanha aguenta = 2 x verba semanal / conceitos. Conceitos: Meta frio 3 (kit mínimo); Meta remarketing 2; Google 2 anúncios responsivos por grupo [SUPOSIÇÃO de desenho].
+
+| Turmas | Fase | Limite Meta frio (3) | Limite Meta remarketing (2) | Limite Google (2) |
+|---|---|---|---|---|
+| 68615, 289, 333 | Aquecimento | R$ 93,33 | R$ 35,00 | R$ 75,00 |
+| 657, 341 | Aquecimento | R$ 186,67 | R$ 70,00 | R$ 150,00 |
+| as 5 de março | Manutenção | pausado | R$ 50,00 | R$ 50,00 |
+| 68615, 289, 341 | Conversão | R$ 51,43 | R$ 51,43 | R$ 69,24 |
+| 333 | Conversão | R$ 44,64 | R$ 44,64 | R$ 60,09 |
+| 657 | Conversão | R$ 60,67 | R$ 60,67 | R$ 81,67 |
+| as 9 de abril | Aquecimento | R$ 68,77 | R$ 25,79 | R$ 55,26 |
+| 679 | Conversão | R$ 70,00 | R$ 70,00 | R$ 94,23 |
+| 68632, 68635, 366, 68628 | Conversão | R$ 59,35 | R$ 59,35 | R$ 79,89 |
+| 68617, 68636 | Conversão | R$ 51,51 | R$ 51,51 | R$ 69,34 |
+| 68609, 662 | Conversão | R$ 45,50 | R$ 45,50 | R$ 61,25 |
+
+Leitura: no papel, os CPL máximos do CEO (R$ 4,00 a R$ 18,00) ficam abaixo de todos os limites, então a estrutura passa. O limite mais baixo é o remarketing do aquecimento de abril (R$ 25,79). Diferença com o gestor (12.6): ele calculou a Meta inteira com 3 conceitos; aqui frio e remarketing são campanhas separadas, cada uma com os próprios conceitos. No Google, com CPL acima do limite, o grupo fica com 1 anúncio responsivo (o limite dobra) antes de a busca sair.
+
+### 3.7 Regra de rodízio de conceitos (gestor 12.6; EM13)
+
+1. **Produção:** cada turma tem os 3 conceitos do kit mínimo para o frio (c1, c2, c3), sempre produzidos; o mínimo nunca diminui.
+2. **Começo:** os 3 sobem juntos na Meta fria.
+3. **Gatilho:** CPL da Meta fria da turma acima de R$ 20,00 na 1ª semana fechada [SUPOSIÇÃO do gestor; origem: R$ 20,00 x 30 leads = R$ 600,00, teto de 30% da verba para teste].
+4. **Rodízio:** ficam no ar os 2 conceitos de menor CPL na semana (empate: maior CTR); o 3º é pausado, não apagado.
+5. **Troca:** na revisão de segunda, o pior dos 2 no ar sai e o conceito pausado volta, desde que cada um dos 2 tenha pelo menos 3 dias de dados e R$ 27,00 gastos (1,5 x R$ 18,00) [SUPOSIÇÃO de desenho, mesma regra da leitura permitida]. Uma troca por semana por campanha.
+6. **Saída:** conceito que perder duas trocas sai do rodízio e vira pedido de iteração ao criativos-de-anuncio (uma variável por vez).
+7. **Fases:** no aquecimento de março, 68615, 289 e 333 têm 1 semana fechada antes da manutenção: o gatilho é lido em 21/12 e o rodízio, se disparado, vale a partir de 04/01. 657 e 341 não têm semana fechada antes da manutenção: o gatilho é lido em 11/01. Em abril, o gatilho é lido em 18/01 (primeira semana fechada, 11 a 17/01).
+8. **Volta:** se o CPL da Meta fria ficar abaixo de R$ 10,00 por 2 semanas fechadas com rodízio, os 3 voltam juntos [SUPOSIÇÃO de desenho].
+9. **Remarketing e Google:** sem rodízio. O remarketing roda 2 peças; o Google reduz para 1 anúncio responsivo por grupo quando passar do limite da seção 3.6.
+
+### 3.8 289 e 662 (gasto que já roda conta nos R$ 2.000,00)
+
+- **289 (março, ativa):** o gasto entre hoje e 06/12 [CONFIRMAR na exportação] sai primeiro do aquecimento dela (R$ 500,00). Se passar de R$ 500,00, o que passar sai da Meta fria da conversão. Se o gasto previsto até 06/12 passar de R$ 700,00 (aquecimento mais manutenção), pedido de redução da diária atual (EM15) [SUPOSIÇÃO de limite; origem: preservar os R$ 1.300,00 da conversão].
+- **662 (abril, lote 2, ativa, link trocado):** a diária atual passa a contar nos R$ 2.000,00 dela (gestor 12.5). A URL é conferida em 28/10 (PP5); se levar à página errada, pedido de pausa. O gasto até 05/01 sai primeiro do aquecimento de 662, com a mesma regra de 289.
 
 ---
 
@@ -258,326 +272,314 @@ Condição de volume do LinkedIn (2 conceitos): com 5% de VN em 2 semanas (2,5% 
 ### 4.1 Regras que valem para toda campanha da Pós
 
 **Público e exclusões**
-- 18 anos ou mais em todo conjunto, grupo e público, em todas as plataformas. No YouTube, conteúdo feito para crianças e canais infantis excluídos.
-- Sem segmentação nem exclusão por saúde, religião, orientação sexual, renda, emprego ou origem. Na Meta, público amplo da praça, com sugestão de interesses profissionais ligados à medicina veterinária, como no memorando (3.2); o criativo seleciona o resto.
-- Sem lista de contatos (alunos, ex-alunos, leads, inscritos ou aprovados) até a Ufape confirmar a base legal [CONFIRMAR]. Exclusão de quem já comprou só por evento do pixel ou da tag (compra do produto da turma ou da prova), sem carregar dado pessoal na plataforma.
-- Remarketing só de visitantes de páginas (pixel e tag) e de engajamento com o Instagram e com vídeos da Ufape.
-- Região [SUPOSIÇÃO de desenho, EM6; origem: persona P2 viaja para o módulo, mas a procedência dos alunos não existe nos dados]: turmas e provas de São Paulo, estado de São Paulo; turmas e provas de Goiânia, Goiás e Distrito Federal. No Google, "pessoas na localização ou interessadas nela" (sugestão do criativos-de-anuncio, 5.1). Ampliação para outros estados só quando o CRM mostrar a procedência [CONFIRMAR]. Cuidado com raio pequeno demais (skill).
+- 18 anos ou mais em todo conjunto, grupo e público.
+- Sem segmentação nem exclusão por saúde, religião, orientação sexual, renda, emprego ou origem. Na Meta, público amplo da praça, com sugestão de interesses profissionais ligados à medicina veterinária; o criativo seleciona o resto.
+- Sem lista de contatos (alunos, ex-alunos, leads, inscritos) até a Ufape confirmar a base legal [CONFIRMAR]. Exclusão de quem já comprou só por evento do pixel ou da tag (compra do produto da turma), sem dado pessoal na plataforma.
+- Remarketing só de visitantes da página da turma (30 dias) e de engajamento com o Instagram (90 dias) [SUPOSIÇÃO de janela, EM7].
+- Região [SUPOSIÇÃO de desenho, EM6; origem: a persona secundária viaja para o módulo, mas a procedência dos alunos não existe nos dados]: turmas de São Paulo, estado de São Paulo; turmas de Goiânia, Goiás e Distrito Federal. No Google, "pessoas na localização ou interessadas nela". Ampliação só quando o CRM mostrar a procedência [CONFIRMAR].
 
 **Texto e destino**
-- Anúncio de turma não promete bolsa (memorando, 5.1, regra 4). Bolsa só nas provas e no pós-prova, com destino confirmado.
-- Preço só com parcelas, valor da parcela, total e matrícula. Nenhum valor com bolsa ou desconto calculado.
-- Sem frase de certificação, sem nota do regulador, sem "últimas vagas", "vagas limitadas", contagem regressiva ou "termina hoje". Turma mínima, quando citada, é de 15 alunos (decisão 11 da Ufape), só como informação, nunca como escassez.
-- Nome sempre "Pós-graduação em <área>" no texto visível; "pós em" e abreviações só como palavra-chave.
-- Marca "Faculdade UFAPE" nos anúncios de busca (homonímia com a universidade federal).
-- Docentes podem aparecer nos criativos com nome e titulação como na ficha (autorização de 26/10/2026). Nenhum aluno ou candidato.
-- Destino sempre a página da turma ou da prova, nunca WhatsApp (gestor, seção 3). Página com frase de certificação fica sinalizada (P2, A7 do cmo); página com link trocado não recebe anúncio.
+- Nenhum anúncio de turma fala de bolsa nem de prova de bolsa (decisão 14 e memorando 5.1).
+- **Nenhuma peça cita o valor da inscrição (R$ 260,00, R$ 250,00 ou R$ 350,00) até U11** (decisão 16). Como toda peça com preço precisa mostrar parcelas, valor da parcela, total e matrícula (contexto da linha), **nenhuma peça mostra preço até U11**; o investimento completo fica na página da turma.
+- Sem frase de certificação, sem nota do regulador, sem "últimas vagas", "vagas limitadas", contagem regressiva ou "termina hoje". Turma mínima de 15 alunos (decisão 11), só como informação.
+- Nome sempre "Pós-graduação em <área>" no texto visível; campus (São Paulo ou Goiânia) sempre dito; marca "Faculdade UFAPE" nos anúncios de busca (homonímia).
+- 68632 é presencial: o anúncio não diz "semipresencial". 68628 e 68617: sem número de turma. 341: sem a promoção até PR7. 657: pré-requisito escrito na página e no anúncio (PP7, U10).
+- Docentes podem aparecer com nome e titulação como na ficha (decisões 8 e 10). Nenhum aluno ou candidato.
+- Destino sempre a página da turma, nunca WhatsApp. Página com link trocado não recebe anúncio.
 
 **Orçamento**
-- Turmas: orçamento na campanha, com um conjunto por campanha. Motivo: a meta (CPLmax_h) e a verba são por turma, e o código da turma vai no nome da campanha (PP4; D12 do cmo); com um conjunto, campanha e conjunto têm o mesmo orçamento, sem duplicar controle.
-- Provas, Meta: orçamento no conjunto [SUPOSIÇÃO de desenho, EM5]. Motivo: São Paulo, Goiânia e remarketing têm tamanhos muito diferentes e pesos que mudam por fase; com orçamento na campanha, o algoritmo tende a levar quase tudo para o maior conjunto e Goiânia e remarketing ficam sem entrega. O anuncios-meta confere.
-- Provas, Google: orçamento na campanha, compartilhado entre os grupos de área.
+- Orçamento na campanha, um conjunto por campanha, porque a meta e a verba são por turma e o código vai no nome (D12). As diárias mudam por fase nas datas do calendário (seção 6.1), sempre por humano.
 
-### 4.2 Nomenclatura proposta (para aprovação, EM1)
+**Conversões (EM11)**
+- Evento de otimização: lead (cadastro, se a página tiver; senão início de checkout). Inscrição paga e 1ª mensalidade paga ficam como conversões separadas, só para leitura (não otimizam: 17 a 25 inscrições no ciclo inteiro não dão volume ao algoritmo, gestor 12.6).
 
-Padrão da skill (linha_curso_plataforma_objetivo_publico_AAAAMM), com o código do catálogo no campo do curso (PP4). O cmo adotou este padrão para toda a squad (D12, 12.7): nome da campanha = chave <linha>_<código> + _<plataforma>_<objetivo>_<público>_<AAAAMM>, utm_campaign = nome da campanha, tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos:
+### 4.2 Nomenclatura (D12; EM1)
+
+Nome da campanha = chave `pos_<código>-<área curta>` + `_<plataforma>_<objetivo>_<público>_<AAAAMM da subida>`; utm_campaign = nome da campanha; minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos.
 
 | Nível | Padrão | Exemplo |
 |---|---|---|
-| Campanha de turma | pos_<código>-<área curta>_<plataforma>_<objetivo>_<público>_<AAAAMM da subida> | pos_68615-patclin_meta_lead_amplo18-sp_202612 |
-| Campanha das provas | pos_provas20261127_<plataforma>_<objetivo>_<público>_202611 | pos_provas20261127_meta_compra_misto18_202611 |
-| Conjunto ou grupo | nome da campanha + "__" + público ou grupo | pos_provas20261127_meta_compra_misto18_202611__amplo18-go |
-| Anúncio de turma | <código>-<conceito>_<formato>_<gancho>_vN | 68615-c1-rotina_e11_cena_v1 |
-| Anúncio das provas | nomes do criativos-de-anuncio (seção 2.3), sem mudança | c6-rotina_a11-patclin_e11_cena_v1 |
+| Campanha Meta frio | pos_<código>-<área>_meta_lead_amplo18-<praça>_<AAAAMM> | pos_68615-patclin_meta_lead_amplo18-sp_202612 |
+| Campanha Meta remarketing | pos_<código>-<área>_meta_lead_rmk30d_<AAAAMM> | pos_68615-patclin_meta_lead_rmk30d_202612 |
+| Campanha Google Busca | pos_<código>-<área>_google_lead_busca_<AAAAMM> | pos_68615-patclin_google_lead_busca_202612 |
+| Conjunto ou grupo | nome da campanha + "__" + público ou grupo | pos_68615-patclin_google_lead_busca_202612__area |
+| Anúncio | <código>-<conceito>_<formato>_<gancho>_vN | 68615-c1-rotina_e11_cena_v1 |
 
-Áreas curtas das turmas: 68615-patclin, 289-cardio-go, 333-citopato, 657-anest-avancada, 341-equina, 68635-clinmed-emerg, 68636-pneumo, 68617-endocrino, 68628-onco, 68609-anest-go, 68632-cirurgia-go. Objetivos: lead (cadastro ou início de checkout, conforme D8), compra (inscrição de R$ 100,00 nas provas), visualizacao (YouTube). Públicos: amplo18-sp, amplo18-go, rmk30d, busca, misto18 (campanha das provas com conjuntos diferentes).
+Áreas curtas: 68615-patclin, 289-cardio-go, 333-citopato, 657-anest-avancada, 341-equina, 679-infecto, 68632-cirurgia-go, 68635-clinmed-emerg, 366-fisio, 68628-onco, 68617-endocrino, 68636-pneumo, 68609-anest-go, 662-orto. AAAAMM: 202612 em março, 202701 em abril. A Meta fria de março, pausada na manutenção, volta em 04/01 como a mesma campanha (mesmo nome e mesma UTM), sem campanha nova. Campanhas já no ar (289, 662 e a onda 1) não são renomeadas; a análise lê por tabela de correspondência (D12). Sai a exceção da campanha única de YouTube.
 
-Exceção proposta: a campanha de YouTube de março é uma só para as 5 turmas (verba pequena demais para dividir), com o nome pos_marco27_youtube_visualizacao_rmk30d_202612; o código da turma vai no grupo de anúncios e no utm_content. Fica como exceção a PP4 para o gestor aprovar (EM1).
-
-### 4.3 UTM (para aprovação, EM2)
-
-**Turmas, pós-prova e testes (padrão da skill):**
+### 4.3 UTM (D11; EM2)
 
 | Canal | utm_source | utm_medium | utm_campaign | utm_content | utm_term |
 |---|---|---|---|---|---|
 | Meta | meta | paid_social | nome da campanha | nome do anúncio | público |
 | Google Busca | google | cpc | nome da campanha | nome do anúncio | {keyword} |
-| YouTube | google | cpc | nome da campanha | nome do anúncio (com o código da turma) | público |
-| LinkedIn | linkedin | paid_social | nome da campanha | nome do anúncio | público |
 
 Modelo: `<URL da página da turma>?utm_source=meta&utm_medium=paid_social&utm_campaign=pos_68615-patclin_meta_lead_amplo18-sp_202612&utm_content=68615-c1-rotina_e11_cena_v1&utm_term=amplo18-sp`
 
-**Provas, no mesmo padrão, sem exceção (D11 e D12 do cmo, 12.7; os anúncios das provas sobem só em 03/11):**
+Nenhum dado pessoal em UTM. YouTube, LinkedIn e provas saem da tabela nesta versão.
 
-| Canal | utm_source | utm_medium | utm_campaign | utm_content | utm_term |
-|---|---|---|---|---|---|
-| Meta | meta | paid_social | nome da campanha (pos_provas20261127_meta_compra_misto18_202611) | nome do anúncio, com a área e o código da prova (ex.: c6-rotina_a11-patclin_e11_cena_v1) | público do conjunto |
-| Google Busca | google | cpc | nome da campanha (pos_provas20261127_google_compra_busca_202611) | nome do anúncio (rsa-<área>_prova_v1) | {keyword} |
+### 4.4 Março: mapa das campanhas por turma
 
-Modelo: `<URL da página da prova>?utm_source=meta&utm_medium=paid_social&utm_campaign=pos_provas20261127_meta_compra_misto18_202611&utm_content=c6-rotina_a11-patclin_e11_cena_v1&utm_term=amplo18-sp`
+Ordem de liberação: 68615 (5 ângulos prontos), 289 (já ativa), 333, depois 657 e 341 (PP7).
 
-Saem os valores da versão 1 para as provas (utm_medium fora da lista de D11, utm_source por rede social no pago e o utm_campaign fixo antigo). O criativos-de-anuncio-pos ajusta os sufixos de UTM antes da subida de 03/11 (encomenda do cmo, 12.10). Anúncios de turma já no ar (289, 662 e a reta final de 707, 68604, 68606, 698, 68610 e 68608) não são renomeados: a analise-de-midia-pos lê por tabela de correspondência (D12).
+| Turma | Campanhas | Público frio | Remarketing | Google: grupos e negativas cruzadas [SUPOSIÇÃO, a validar pelo relatório de termos] | Sobe | Bloqueio |
+|---|---|---|---|---|---|---|
+| 68615 | meta frio, meta rmk30d, google busca | amplo18-sp | página de 68615 em 30 dias; Instagram em 90 | área ("pós-graduação em patologia clínica veterinária") e marca; negativas: citopatologia, hematologia, residência, mestrado, grátis, concurso, universidade federal, pernambuco, agreste | 07/12 (PP6) | motivo da pausa e conformidade dos 5 ângulos [CONFIRMAR] |
+| 289 | idem, 289-cardio-go | amplo18-go (Goiás e DF) | página de 289 | cardiologia Goiânia; negativas: ecocardiografia, São Paulo, pneumologia | campanha atual segue; estrutura nova em 07/12 | gasto até 06/12 (3.8) |
+| 333 | idem, 333-citopato | amplo18-sp | página de 333 | citopatologia; negativas: patologia clínica, hematologia | 07/12 (PP6) | conceitos aprovados |
+| 657 | idem, 657-anest-avancada | amplo18-sp com interesses de anestesiologia veterinária [SUPOSIÇÃO, persona] | página de 657 | anestesiologia avançada; negativas: "pós em anestesiologia" sem "avançada", Goiânia | 14/12, só com PP7 | pré-requisito na página (U10) |
+| 341 | idem, 341-equina | amplo18-sp com interesses ligados a equinos [SUPOSIÇÃO, persona] | página de 341 | medicina equina; negativas: pequenos animais, cães, gatos | 14/12, só com PP7 | regra da promoção (PR7); local da prática como na ficha |
 
-### 4.4 P3 Março: mapa das campanhas por turma
+### 4.5 Abril: mapa das campanhas
 
-Ordem de liberação do gestor: 68615 (5 ângulos prontos), 289 (já ativa), 333, depois 657 e 341.
+Mesmo modelo (Meta frio, Meta remarketing, Google Busca por turma), subida em 06/01 (PP11), nome _202701, sem manutenção; as diárias mudam em 25/01 (conversão).
 
-| Turma | Campanha | Objetivo e evento | Conjunto e público | Exclusões | Anúncios | Sobe | Pausa ou muda |
-|---|---|---|---|---|---|---|---|
-| 68615 | pos_68615-patclin_meta_lead_amplo18-sp_202612 | lead (evento de D8) | __amplo18-sp: 18+, estado de SP, interesses profissionais de veterinária | compradores de 68615 (pixel, 180 dias); quem está em __rmk30d | 3 conceitos (reaproveitando os 5 ângulos pausados, se a 1.12 confirmar que estão em conformidade) | 07/12 (PP6) | pausa em 21/12 (manutenção); volta em 04/01 como _202701 se passar na condição de volume |
-| 68615 | pos_68615-patclin_meta_lead_rmk30d_202612 | lead | __rmk30d: visitantes da página de 68615 e da página da prova 68658 nos últimos 30 dias; engajamento com o Instagram em 90 dias [SUPOSIÇÃO de janela] | compradores de 68615; durante a janela de P2, visitantes da prova 68658 (ficam com P2) | 2 conceitos de remarketing: investimento completo e como funciona o semipresencial | 07/12 | segue na manutenção e na conversão |
-| 68615 | pos_68615-patclin_google_lead_busca_202612 | lead | grupos: área ("pós-graduação em patologia clínica veterinária", "pós em patologia clínica veterinária São Paulo"); marca ("Faculdade UFAPE patologia clínica") | negativas: citopatologia (vai para 333), hematologia, residência, mestrado, grátis, concurso, universidade federal, pernambuco, agreste [SUPOSIÇÃO, a validar pelo relatório de termos] | 2 anúncios responsivos | 07/12 | segue nas três fases |
-| 289 | as mesmas três campanhas, com 289-cardio-go e amplo18-go (Goiás e DF) | lead | __amplo18-go; __rmk30d (página de 289 e da prova 68642 depois da correção dos links) | compradores de 289; negativas: ecocardiografia (698), São Paulo, pneumologia | 3 conceitos (conferir os ângulos ativos de 289 com a 1.12) | 07/12 (dentro de P3; antes, a diária atual sem aumento, EM9) | idem |
-| 333 | as mesmas três, com 333-citopato e amplo18-sp | lead | __amplo18-sp; __rmk30d (página de 333 e da prova 68658) | compradores de 333; negativas: patologia clínica (vai para 68615), hematologia | 3 conceitos | 07/12 (PP6) | idem |
-| 657 | as mesmas três, com 657-anest-avancada | lead | __amplo18-sp com interesses de anestesiologia veterinária [SUPOSIÇÃO: público já é anestesista, persona seção 5.1]; __rmk30d (página de 657) | compradores de 657; negativas: "pós em anestesiologia" sem "avançada", Goiânia (68609) | 3 conceitos, com o pré-requisito escrito na página e no anúncio | 14/12, só com PP7 | idem |
-| 341 | as mesmas três, com 341-equina | lead | __amplo18-sp com interesses ligados a equinos [SUPOSIÇÃO: persona seção 5.1, público é o veterinário de equinos]; __rmk30d | compradores de 341; negativas: pequenos animais, cães, gatos | 3 conceitos, sem a promoção de 20% até a regra (PR7) e com o local da prática conforme a ficha | 14/12, só com PP7 | idem |
-| março (5) | pos_marco27_youtube_visualizacao_rmk30d_202612 | visualização de vídeo, só remarketing | grupos por turma: visitantes das páginas das turmas de março em 30 dias | conteúdo infantil; compradores | 2 vídeos aprovados (condição de PP13) | 07/12, só com PP13 | pausa em 21/12; volta em 04/01 |
-
-### 4.5 P4 Abril lote 1: mapa das campanhas
-
-Mesmo modelo de março (Meta frio, Meta remarketing, Google Busca por turma), todas com subida em 06/01 (PP11), nome _202701, e sem manutenção (a janela começa depois do fim de ano).
-
-| Turma | Situação hoje (visão de campanhas) | Público frio | Remarketing | Google, grupo e negativas cruzadas [SUPOSIÇÃO] | Bloqueio antes de subir |
-|---|---|---|---|---|---|
-| 68635 | pausada (reativar) | amplo18-sp | página de 68635 e da prova 68645 | clínica médica e emergência; negativas: terapia intensiva (sem turma em SP), Goiânia | página sem pendência; meta de PP1 |
-| 68636 | não consta | amplo18-sp | página de 68636 e da prova 68659 | pneumologia; negativas: cardiologia, ventilação mecânica | data conferida na planilha (só no site) |
-| 68617 | pausada (reativar; 5 ângulos) | amplo18-sp | página de 68617 e da prova 68648 | endocrinologia; negativas: nefrologia | peças sem número de turma (P5) |
-| 68628 | sem campanha | amplo18-sp | página de 68628 e da prova 68657 | oncologia | peças sem número de turma (P5) |
-| 68609 | sem campanha | amplo18-go | página de 68609 e da prova 68640 | anestesiologia Goiânia; negativas: avançada, locorregional, São Paulo | o remarketing da página da prova 68640 entra junto: o local deixou de ser condição (prova online, decisão 11) |
-| 68632 | sem campanha | amplo18-go | página de 68632 e da prova 68644 | clínica cirúrgica Goiânia, "pós presencial Goiânia veterinária" (KT17 da pesquisa de palavras-chave); negativas: ortopedia, videocirurgia | anúncio não diz "semipresencial" (turma presencial) |
-
-### 4.6 P1, P2 e P5: mapa das campanhas
-
-| Frente | Campanha | Objetivo e evento | Conjuntos ou grupos | Exclusões | Anúncios | Sobe | Pausa |
-|---|---|---|---|---|---|---|---|
-| P1 | pos_provas20261127_meta_compra_misto18_202611 | vendas, compra da inscrição de R$ 100,00; se o pixel não registrar compra com volume na 1ª semana, troca para início de checkout (uma mudança, com aprovação; memorando 3.2) | __amplo18-sp; __amplo18-go (só provas de Goiânia); __rmk30d (visitantes das páginas de Pós e das provas em 30 dias e engajamento com o Instagram) | compradores da inscrição (pixel); frio exclui __rmk30d | por área liberada: C1, C2, C6 em 03/11; C4 carrossel no remarketing; C3 em 10/11; C5 só com destino (criativos-de-anuncio, seção 7) | 03/11 | 27/11 (A-C6) |
-| P1 | pos_provas20261127_google_compra_busca_202611 | conversão de compra | um grupo por área liberada (a12-neuro, a11-patclin e as demais conforme a seção 3.1); grupo geral só com a página única das provas (A-C9) | negativas do criativos-de-anuncio (5.2) e da pesquisa de palavras-chave (5.3); sem lance em concorrente | anúncios responsivos rsa-<área>_prova_v1 | 03/11 | 27/11 |
-| P2 | pos_provas20261127-matricula_meta_lead_rmk-prova_<AAAAMM do resultado> | lead ou compra do produto da turma de destino | um conjunto por turma de destino confirmada: visitantes da página da prova da área e da página da turma de destino, em 30 dias | compradores da turma de destino | C5 (a bolsa vale para a turma de {mês}) e investimento completo da turma; texto válido para quem fez e para quem não fez a prova (o público é de visitantes, não de aprovados) | data do resultado [CONFIRMAR] | fim dos 10 dias úteis |
-| P5 | pos_657-anest-avancada_linkedin_lead_anest_202701 | lead com destino na página de 657 (não formulário nativo, para não coletar dado fora da política de privacidade da página [SUPOSIÇÃO]) | público por área profissional e competência em anestesiologia veterinária; regra prática da skill: público frio entre 50 mil e 300 mil membros; tamanho real [CONFIRMAR no gerenciador] e, se ficar muito abaixo, o teste não sobe | compradores de 657 (Insight Tag) | 2 conceitos; post de docente promovido com nome e titulação como na ficha | 11/01, só com PP14 | 31/01 (EM10) |
+| Turma | Situação hoje (visão de campanhas) | Público frio | Google, grupo e negativas cruzadas [SUPOSIÇÃO] | Bloqueio antes de subir |
+|---|---|---|---|---|
+| 68635 | pausada (reativar) | amplo18-sp | clínica médica e emergência; negativas: terapia intensiva, Goiânia | página sem pendência |
+| 68636 | não consta | amplo18-sp | pneumologia; negativas: cardiologia, ventilação mecânica | data conferida na planilha (U6) |
+| 68617 | pausada (5 ângulos) | amplo18-sp | endocrinologia; negativas: nefrologia | peças sem número de turma (P5) |
+| 68628 | sem campanha | amplo18-sp | oncologia | peças sem número de turma (P5) |
+| 68609 | sem campanha | amplo18-go | anestesiologia Goiânia; negativas: avançada, locorregional, São Paulo | nenhum além das regras gerais |
+| 68632 | sem campanha | amplo18-go | clínica cirúrgica Goiânia, "pós presencial Goiânia veterinária"; negativas: ortopedia, videocirurgia | anúncio não diz "semipresencial" |
+| 679 | lote 2 | amplo18-sp | infectologia; negativas: citopatologia | link trocado corrigido (P3) |
+| 366 | lote 2, pausada (5 ângulos) | amplo18-sp | fisioterapia e reabilitação veterinária | data conferida (P4) |
+| 662 | lote 2, ativa com link trocado | amplo18-sp | ortopedia; negativas: videocirurgia, Goiânia | link corrigido (P3, PP5); gasto atual conta (3.8) |
 
 ---
 
-## 5. Funil por fase
-
-### 5.1 Provas (P1)
-
-| Etapa | Público | Canal e campanha | Mensagem (criativos-de-anuncio) | Evento | Métrica lida | Fase em que pesa |
-|---|---|---|---|---|---|---|
-| Descoberta | amplo18 por praça | Meta frio | C1 (11 bolsas por prova), C2 (R$ 100,00 para concorrer), C6 (rotina da área) | compra (inscrição) | CPM, CTR, custo por inscrito | 1 e 2 |
-| Consideração | visitantes das páginas e engajamento | Meta remarketing | C4 carrossel "Como funciona"; estático de área com a data | compra | custo por inscrito no remarketing | 2 e 3 |
-| Decisão | quem busca prova de bolsa ou a pós da área | Google Busca | anúncios responsivos com R$ 100,00, 11 bolsas, 27/11 | compra | custo por inscrito por grupo | 1 a 3 (mais peso na 3) |
-| Logística | quem hesita no formato ou no horário | Meta frio e remarketing | C3 com a prova online em 27/11, das 9h às 13h, e o campus (São Paulo ou Goiânia); o texto "presencial" do C3 sai (decisão 11; nota na seção 8) | compra | custo por inscrito | 2 e 3 |
-| Prova e resultado | inscritos | fora da mídia (mensagens de serviço pelo CRM) | - | - | presentes e aprovados somados por prova | 27/11 em diante |
-
-### 5.2 Pós-prova (P2)
-
-| Etapa | Público | Canal | Mensagem | Evento | Métrica |
-|---|---|---|---|---|---|
-| Matrícula com bolsa | visitantes da prova e da turma de destino | Meta remarketing | turma de destino, data de início, investimento completo, prazo de matrícula de 10 dias úteis para aprovados [CONFIRMAR] | compra do produto da turma | matrículas com bolsa por turma de destino (CRM) |
-| Conversa | aprovados | WhatsApp de vendas, fora da mídia | roteiro do copy-de-mensagens | - | - |
-
-### 5.3 Turmas (P3 e P4)
+## 5. Funil por fase (turmas)
 
 | Etapa | Público | Campanha | Mensagem | Evento | Métrica lida | Fase |
 |---|---|---|---|---|---|---|
-| Descoberta | amplo18 da praça | Meta frio | rotina da área, docente da turma (autorizado), formato semipresencial (presencial em 68632), data de início | lead (D8) | CPM, CTR, CPL contra CPLmax_h | aquecimento e conversão |
-| Consideração | visitantes da página da turma e da prova da área; engajamento; vídeo (se PP13) | Meta remarketing; YouTube | investimento completo (parcelas, valor, total, matrícula), como funciona mês a mês, turma mínima de 15 explicada como informação, nunca como escassez | lead ou início de checkout | CPL do remarketing; taxa de início de checkout | todas, sozinho na manutenção |
-| Decisão | quem busca "pós-graduação em <área> veterinária" | Google Busca | Faculdade UFAPE, área, praça, data de início | lead ou compra | CPL por grupo; termos de busca | todas |
-| Matrícula | leads | fora da mídia (WhatsApp de vendas, e-mail com consentimento) | - | matrícula paga | c observada contra c mínima; custo por matrícula depois de 2 semanas fechadas | conversão e trimestre seguinte |
+| Descoberta | amplo18 da praça | Meta frio (3 conceitos ou rodízio) | rotina da área, docente da turma (autorizado), formato (presencial em 68632), campus e data de início | lead (EM11) | CPM, CTR, CPL contra R$ 4,00, R$ 10,00 e R$ 18,00 | aquecimento e conversão |
+| Consideração | visitantes da página e engajamento | Meta remarketing (2 peças) | como funciona mês a mês, módulos e campus, turma mínima de 15 como informação; sem preço até U11 | lead ou início de checkout | CPL do remarketing; início de checkout | todas, sozinho com a busca na manutenção |
+| Decisão | quem busca "pós-graduação em <área> veterinária" ou a marca | Google Busca | Faculdade UFAPE, área, campus, data de início | lead | CPL por grupo; termos de busca | todas |
+| Inscrição paga | leads | fora da mídia (página, WhatsApp de vendas, e-mail com consentimento, dentro do teto D16 do cmo) | - | inscrição paga (conversão separada) | inscrições pagas somadas por turma; custo por inscrição | conversão |
+| Matrícula de fato | inscritos | fora da mídia | - | 1ª mensalidade paga até o corte (conversão separada) | matrículas somadas por turma; custo por matrícula | depois do corte |
 
-O que cada fase decide: o aquecimento forma público e lê CPL e CTR (sem julgar conceito se a condição de volume não fechar); a manutenção não muda nada (sem criativo novo, sem público frio, PP10); a conversão julga conceito, lê c observada e ritmo (RL) e é onde P6 entra.
-
----
-
-## 6. Calendário de mídia da Pós e checagens semanais
-
-### 6.1 Subidas, mudanças e pausas (todas executadas por humano, depois da aprovação)
-
-| Data | O que | Frente | Condição | Quem |
-|---|---|---|---|---|
-| 27/10 | Pausa das 6 turmas "verificar" (D1); pedido de PP1 e PP2 | todas | memorando | humano; cmo |
-| 28/10 | Conferência da URL de 662 (PP5; pedido R5 do cmo) | fora de VN | link | humano |
-| 30/10 | Prazo de PP1, PP2, PP3 e destes pedidos EM1 a EM7 | P1 | aprovação | pessoa do marketing, cmo |
-| 31/10 | Teste de rastreio (D8): compra de R$ 100,00 no pixel e no Google, UTM até o CRM; evento das páginas de turma registrado (EM11); lista final de provas liberadas | P1, P3 | Ufape e humano | humano |
-| 03/11 (terça) | Sobem as duas campanhas das provas, com as áreas liberadas (3.1) | P1 | D6, D7, D8, PP1, PP2, CPImax escrito, qa aprovado | humano |
-| 06/11 | Primeiro dia em que uma realocação pode ser proposta (3 dias de dados) | P1 | gestor 4.2 | gestor-de-midia |
-| 10/11 | Fase 2: entra C3; iterações do vencedor; áreas de D2 e D3 com destino | P1 | revisão de 09/11 | humano |
-| 20/11 | Fase 3: mais peso em remarketing e busca; acompanhar frequência e CTR dos anúncios de A1 e A12 por causa do Workshop Brasileiro de Neuromonitorização (20 e 21/11) | P1 | EM12 | humano; gestor-de-midia |
-| 27/11 | Pausa das campanhas das provas | P1 | A-C6 aprovado em 23/11 | humano |
-| 30/11 | Estruturas de março prontas para aprovação (anuncios-meta e anuncios-google) | P3 | gestor, seção 7 | anuncios-meta, anuncios-google |
-| resultado [CONFIRMAR] | Sobe P2 por turma de destino confirmada | P2 | PP8 | humano |
-| 07/12 | Sobem 68615, 289 e 333 (Meta frio, Meta remarketing, Google); YouTube só com PP13 | P3 | PP6, condição de volume, criativos do lote 1 aprovados | humano |
-| 14/12 | Sobem 657 e 341, se desbloqueadas | P3 | PP7 | humano |
-| fim dos 10 dias úteis [CONFIRMAR] | Pausa de P2; relatório final das provas | P2 | - | humano; analise-de-campanha |
-| 21/12 | Manutenção: pausa das campanhas Meta frio e YouTube de março; remarketing e busca seguem com a diária da manutenção | P3 | PP10 | humano |
-| 04/01 | Fim da manutenção: Meta frio volta (_202701), YouTube volta; diárias da conversão; uso possível de P6 | P3, P6 | revisão de 04/01; PP12 | humano |
-| 06/01 (quarta) | Sobe abril lote 1 (18 campanhas no máximo: 6 turmas x 3) | P4 | PP11, condição de volume | humano |
-| 08/01 | Decisão do LinkedIn (PP14, com as 3 semanas de EM10) e confirmação do YouTube (PP13, dentro de P3) | P5, P3 | cmo | cmo |
-| 11/01 | LinkedIn de 657, só se as 3 semanas (11/01 a 31/01) estiverem aprovadas (R6 do cmo); senão os 5% voltam para P3 na Meta | P5 | PP14, Insight Tag | humano |
-| 18/01 | Segundo uso possível de P6; alerta à Ufape para turma de março abaixo do ritmo | P3, P6 | PP12 | cmo |
-| 22/01 | Verba de 25/01 em diante (reta final de março, abril e a 3ª semana do LinkedIn) no rascunho do próximo plano | todas | aviso da seção 2.2 | gestor-de-midia, estrategia-de-marketing |
-| 24/01 | Fim do trimestre: nenhuma campanha é pausada só pela data; segue com a verba do próximo plano, se aprovada, ou pausa por pedido | P3, P4 | - | gestor-de-midia |
-
-### 6.2 Checagem semanal (revisão de segunda; 03/11 é terça por causa do feriado de 02/11)
-
-| Revisão | Data | Frentes | Dados lidos | Decisão possível |
-|---|---|---|---|---|
-| 1 | 03/11 | P1 | estado de cada área; rastreio; nenhuma leitura de desempenho | liberar áreas que destravaram |
-| 2 | 09/11 | P1 | 03/11 a 08/11, sem tendência com os 2 últimos dias; T1, T2, T3 e T8 | fim da fase 1; o que muda em 10/11; realocação entre áreas (pedido) |
-| 3 | 16/11 | P1 | projeção de inscritos até 27/11 | reforço pela base antes de pedir verba; área acima da meta cede verba |
-| 4 | 23/11 | P1 | inscritos; frequência de A1 e A12 | confirmar a pausa de 27/11 |
-| 5 | 30/11 | P1, P3 | inscritos, presentes e aprovados somados; custo por inscrito final | aprovar estrutura de março |
-| 6 | 07/12 | P2, P3 | P2 no ar; subida de março | nenhuma decisão de desempenho em março |
-| 7 | 14/12 | P2, P3 | primeiros dados de 68615, 289 e 333 | 657 e 341, se desbloqueadas |
-| 8 | 21/12 | P3 | aquecimento fechado (2 semanas) | entrar na manutenção |
-| 9 | 28/12 | P3 | só gasto contra o planejado | nenhuma mudança (manutenção) |
-| 10 | 04/01 | P3, P6 | ritmo RL por turma; c mínima | volta da conversão; divisão por ritmo (M3) em vez de partes iguais; uso de P6 |
-| 11 | 11/01 | P3, P4, P5 | conversão semana 1; abril semana 1 | uma mudança por conjunto |
-| 12 | 18/01 | P3, P4, P6 | ritmo por turma | segundo uso de P6; alerta à Ufape |
-
-Em cada revisão, a tabela da seção 5 do gestor é preenchida por turma, canal e semana (verba semanal, CPLmax ou CPImax, leads ou inscritos esperados = verba semanal dividida pelo máximo, passa ou não na condição de volume), com números do gerenciador e do CRM somados por turma. Se gerenciador, analytics e CRM não baterem, a decisão é investigar.
+O que cada fase decide: o aquecimento forma público e lê CPL e CTR (gatilho do rodízio na 1ª semana fechada); a manutenção não muda nada (sem criativo novo, sem frio, PP10); a conversão julga conceito, lê i e k observadas e o ritmo contra a curva da seção 2.4.
 
 ---
 
-## 7. Pedidos de aprovação humana (novos desta etapa)
+## 6. Calendário e checagens semanais
 
-Os pedidos PP1 a PP14 do gestor seguem como estão. Estes completam o plano. Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos vão à pessoa do marketing que aprovou o plano do cmo; os que mudam canal, frente ou distribuição vão também ao gestor e ao cmo.
+### 6.1 Subidas, mudanças e pausas (todas por humano, depois da aprovação)
 
-| # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo | Quem decide |
+| Data | O que | Turmas | Condição | Quem |
+|---|---|---|---|---|
+| 28/10 | Gasto do ciclo da onda 1, de 289 e de 662 na exportação (PP15); URL de 662 (PP5) | onda 1, 289, 662 | exportação D6 | humano; gestor-de-midia confere |
+| 30/10 | Teste de rastreio (D8, data de EA4 do cmo): lead, inscrição paga e 1ª mensalidade como conversões separadas no pixel e no Google, UTM até o CRM | todas | Ufape e humano | humano |
+| 30/10, 31/10, 07/11 | Pausas de 707, 68604 e 68606 (D9) | onda 1 | - | humano |
+| 28/11 | Pausas de 698, 68610 e 68608 (D18) | onda 1 | - | humano |
+| 30/11 | Estruturas de março prontas para aprovação | março | encomendas da seção 7 | anuncios-meta, anuncios-google |
+| 02/12 | Criativos de março (3 conceitos e 2 peças de remarketing por turma) | março | qa-de-marketing | criativos-de-anuncio |
+| 07/12 | Sobem 68615, 289 (estrutura nova) e 333, com as diárias do aquecimento | março | PP6, PP16, rastreio testado | humano |
+| 14/12 | Sobem 657 e 341, se desbloqueadas | março | PP7 | humano |
+| 21/12 | Manutenção: pausa da Meta fria de março; diárias de manutenção no remarketing e na busca | março | PP10 | humano |
+| 23/12 | Criativos de abril [SUPOSIÇÃO de prazo; o gestor só fixou março] | abril | qa-de-marketing | criativos-de-anuncio |
+| 30/12 | Estruturas de abril prontas para aprovação | abril | encomendas da seção 7 | anuncios-meta, anuncios-google |
+| 04/01 | Conversão de março: a mesma Meta fria volta; diárias da conversão; rodízio onde disparou | março | revisão de 04/01 | humano |
+| 06/01 (quarta) | Sobe abril (lote 1; lote 2 só com link e data corrigidos), diárias do aquecimento | abril | PP11, PP16 | humano |
+| 25/01 | Conversão de abril: diárias da conversão | abril | - | humano |
+| 12/02 | Pedido de pausa de 657 (corte em 11/02) | 657 | EM16 | humano |
+| 19/02 | Pedido de pausa de 68615, 289 e 341 (corte em 18/02) | março | EM16 | humano |
+| 26/02 | Pedido de pausa de 333 (corte em 25/02) | 333 | EM16 | humano |
+| 05/03 | Pedido de pausa de 679 (corte em 04/03) | 679 | EM16 | humano |
+| 12/03 | Pedido de pausa de 68632, 68635, 366 e 68628 (corte em 11/03) | abril | EM16 | humano |
+| 19/03 | Pedido de pausa de 68617 e 68636 (corte em 18/03) | abril | EM16 | humano |
+| 26/03 | Pedido de pausa de 68609 e 662 (corte em 25/03) | abril | EM16 | humano |
+
+Datas de corte são [SUPOSIÇÃO] até a ficha confirmar; se o corte mudar, as datas de pausa e as semanas da conversão são recalculadas numa nova versão escrita antes da subida.
+
+### 6.2 Revisões semanais (segunda; feriado passa para o dia útil seguinte, D15 do cmo)
+
+| Revisão | Data | Turmas | Dados lidos | Decisão possível |
+|---|---|---|---|---|
+| 1 | 03/11 (terça; 02/11 é feriado) | onda 1, 289, 662 | gasto do ciclo contra R$ 2.000,00; diária atual | pedido de redução ou pausa (3.2, PP15) |
+| 2 a 5 | 09/11, 16/11, 23/11, 30/11 | onda 1 (até 28/11), 289, 662 | idem; em 30/11, estruturas de março | aprovar a estrutura de março |
+| 6 | 07/12 | março A | só rastreio e entrega | nenhuma decisão de desempenho |
+| 7 | 14/12 | março A (semana 1 aberta); 657 e 341 sobem | gasto contra o planejado | nada de rodízio sem semana fechada |
+| 8 | 21/12 | março | 1ª semana fechada de 68615, 289 e 333 (07 a 13/12): CPL da Meta fria contra R$ 20,00 | entra a manutenção; rodízio decidido para 04/01 |
+| 9 | 28/12 | março | só gasto contra o planejado | nenhuma mudança |
+| 10 | 04/01 | março | leads acumulados contra a curva (2.4); CPL acumulado | volta da conversão; rodízio; transferência entre canais da mesma turma |
+| 11 | 11/01 | março; abril (dias 06 a 10/01) | 1ª semana fechada de 657 e 341 na conversão (gatilho do rodízio) | uma mudança por campanha |
+| 12 | 18/01 | março; abril | inscrições pagas acumuladas contra 25, 20 e 17; 1ª semana fechada de abril (11 a 17/01, gatilho do rodízio) | rodízio em abril; alerta à Ufape para turma abaixo da curva |
+| 13 | 26/01 (terça; 25/01 é feriado municipal em São Paulo) | março; abril (fim do aquecimento) | aquecimento de abril fechado | mudança das diárias de 25/01 conferida |
+| 14 | 01/02 | todas | ritmo e custo por inscrição | idem |
+| 15 | 10/02 (quarta; 08 e 09/02 são Carnaval) [SUPOSIÇÃO de que o time não trabalha no Carnaval] | todas; 657 perto do corte | inscrições de 657 | pedido de pausa de 657 em 12/02 |
+| 16 a 21 | 15/02, 22/02, 01/03, 08/03, 15/03, 22/03 | turmas com corte na semana | inscrições pagas e 1ª mensalidade somadas no CRM | pedidos de pausa da seção 6.1; custo por matrícula das turmas que fecharam |
+| 22 | 29/03 | todas | matrículas de fato por turma; custo por matrícula; custo por inscrição | relatório final do ciclo ao cmo |
+
+### 6.3 Critérios de decisão (escalar, ajustar, pausar)
+
+| Decisão | Quando | Como (sempre pedido a humano) |
+|---|---|---|
+| Escalar dentro da turma | campanha com CPL da semana fechada abaixo de R$ 10,00, com pelo menos 10 leads e 3 dias de dados, e outra campanha da mesma turma e fase acima de R$ 18,00 | mover até 20% da diária da pior para a melhor; nunca aumentar o total da turma; nunca antecipar verba de fase futura; nunca passar verba para outra turma |
+| Turma à frente da meta | 15 inscrições pagas com k observada que já garante 15 matrículas antes do corte | aviso ao gestor; a sobra não é gasta e só vai a outra turma com nova decisão do CEO (pedido separado) |
+| Ajustar | CPL da semana fechada acima de R$ 4,00 | ordem de checagem; uma mudança por campanha por semana |
+| Rodízio | CPL da Meta fria acima de R$ 20,00 na 1ª semana fechada | seção 3.7 |
+| Tirar o frio | Meta fria acima do limite da seção 3.6 por 2 semanas fechadas | pedido; a parte vai metade para remarketing e metade para busca da mesma turma |
+| Aviso ao cmo | CPL acima de R$ 18,00 por 2 semanas fechadas, ou leads acumulados abaixo da curva do otimista no fim de uma fase | alavancas da skill; verba extra só como pedido separado ao gestor e ao cmo, marcado como pedido de aprovação |
+| Pausar anúncio | R$ 36,00 gastos sem lead | pedido de pausa do anúncio |
+| Pausar campanha | dia seguinte ao corte; gasto acumulado da turma em R$ 2.000,00; destino errado | pedido de pausa com exportação prévia |
+| Investigar | gerenciador, analytics e CRM não batem | nenhuma decisão de desempenho até resolver |
+
+---
+
+## 7. Encomendas aos agentes do departamento
+
+| Agente | O que | Prazo |
+|---|---|---|
+| anuncios-meta | Por turma de março e abril, 2 campanhas (frio amplo18 da praça e remarketing rmk30d), orçamento na campanha, um conjunto por campanha, com as diárias por fase das seções 3.3 e 3.4 (arredondadas para baixo) e as datas de troca de diária (21/12, 04/01, 25/01); nomes e UTM das seções 4.2 e 4.3 (D11 e D12); evento de otimização lead (cadastro ou início de checkout) e inscrição paga e 1ª mensalidade como conversões separadas, só para leitura; 18+, região EM6, exclusões EM7; 3 anúncios no frio, prontos para o rodízio da seção 3.7 (pausar, nunca apagar); 2 anúncios no remarketing; conferir o mínimo diário aceito e aplicar EM14; 289 e 662 sem renomear, com o gasto do ciclo informado; nenhum texto com preço ou valor de inscrição até U11; nada de YouTube nem provas | 30/11 (março); 30/12 (abril) |
+| anuncios-google | Por turma, 1 campanha de Busca com orçamento na campanha e as diárias das seções 3.3 e 3.4; só grupos de maior intenção ("pós-graduação em <área> veterinária", com campus) e marca ("Faculdade UFAPE <área>"); 2 anúncios responsivos por grupo, 1 quando o CPL passar do limite da seção 3.6; negativas cruzadas das seções 4.4 e 4.5 e as gerais (residência, mestrado, grátis, concurso, universidade federal, pernambuco, agreste); localização "presença ou interesse" (EM6); conversão primária lead e conversões separadas de inscrição paga e 1ª mensalidade; UTM google e cpc; sem lance em concorrente; sem Performance Max, Display ou YouTube | 30/11 (março); 30/12 (abril) |
+| criativos-de-anuncio | Por turma, 3 conceitos para o frio (c1, c2, c3, kit mínimo, ordenados por prioridade para o rodízio) e 2 peças de remarketing que sejam versões dos conceitos ("como funciona mês a mês" e "turma, campus e data de início"), sem conceito novo; reaproveitar os 5 ângulos de 68615, 68617 e 366 se a conformidade for confirmada; nomes <código>-<conceito>_<formato>_<gancho>_vN; nenhuma peça com preço nem valor de inscrição até U11; sem bolsa, sem prova, sem vídeo de YouTube; campus sempre; turma mínima de 15 só como informação; 68632 presencial; 68628 e 68617 sem número de turma; 341 sem promoção; 657 com o pré-requisito | 02/12 (março); 23/12 (abril) [SUPOSIÇÃO de prazo] |
+| analise-de-midia | Gasto do ciclo por turma contra R$ 2.000,00 (onda 1, 289, 662) e, toda semana, gasto, leads, inscrições pagas e 1ª mensalidade por turma, só números somados | 2 dias úteis depois da exportação |
+| anuncios-linkedin, anuncios-tiktok | Sem encomenda (canais fora nesta verba) | - |
+
+---
+
+## 8. Pedidos de aprovação humana
+
+Os pedidos PP1 a PP16 do gestor seguem como estão (PP3 e PP8 suspensos; PP13 e PP14 com recomendação "fora"; PP15 e PP16 novos). Os pedidos abaixo completam o plano. Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos vão à pessoa do marketing que aprovou o plano do cmo; os que mudam canal ou distribuição vão também ao gestor e ao cmo.
+
+| # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo | Situação |
 |---|---|---|---|---|---|---|---|
-| EM1 | Nomenclatura da seção 4.2 para toda campanha nova da Pós, com a exceção da campanha única de YouTube de março | PP4 pede o código no nome; sem padrão, o relatório não fecha por turma | sem custo | relatório por turma e por campanha | renomear no gerenciador (não reinicia aprendizado) [CONFIRMAR com anuncios-meta] | 30/10 | pessoa do marketing; gestor-de-midia |
-| EM2 | UTM de turmas e provas no padrão da seção 4.3, que é o D11 e D12 do cmo, sem exceção para as provas | um padrão só para a squad (plano do cmo, 12.7) | sem custo | origem por turma e por prova no CRM | voltar ao padrão anterior nas URLs | 30/10 (antes da subida de 03/11) | gestor-de-midia; arquiteto-de-fluxos confere a leitura |
-| EM3 | Estrutura por turma: Meta frio, Meta remarketing e Google Busca, orçamento na campanha, um conjunto por campanha | meta e verba por turma; manutenção desliga só o frio sem mexer no remarketing | dentro de P3 e P4 | controle de verba e de leitura por turma | fundir as campanhas de uma turma | 30/11 (março); 30/12 (abril) | gestor-de-midia |
-| EM4 | Divisão da Meta de cada turma entre frio e remarketing: 80/20 no aquecimento, 0/100 na manutenção, 60/40 na conversão, 80/20 em abril; parte do frio de turma sem condição de volume vai para P6, sem gasto automático | o gestor deu o percentual do canal, não a divisão interna | dentro de P3 e P4 | remarketing com verba desde o início, sem gastar frio sem leitura | voltar à divisão anterior na revisão seguinte | 30/11 | gestor-de-midia |
-| EM5 | Provas: orçamento no conjunto; São Paulo, Goiânia e remarketing em 70/15/15, 65/15/20 e 50/10/40 por fase; Goiânia bloqueada cede para São Paulo | conjuntos de tamanhos muito diferentes; Goiânia é cerca de 14% das provas | dentro de P1 | entrega em Goiânia e no remarketing | orçamento na campanha | 30/10 | gestor-de-midia |
-| EM6 | Região: estado de São Paulo para SP; Goiás e Distrito Federal para Goiânia; Google com "presença ou interesse"; ampliação só com procedência do CRM | P2 viaja, mas não há dado de origem | sem custo | menos gasto fora do público provável | ampliar a região | 30/10 | gestor-de-midia; comercial [CONFIRMAR procedência] |
-| EM7 | Remarketing e exclusões da seção 4: janelas de 30 dias (páginas) e 90 dias (Instagram); exclusão de compradores por pixel em 180 dias; frio exclui remarketing; remarketing de março exclui visitantes da prova da área durante P2 | evitar duas campanhas pagando pela mesma pessoa e anúncio para quem já comprou | sem custo | menos sobreposição | retirar a exclusão | 30/10 (provas); 30/11 (março) | gestor-de-midia; anuncios-meta |
-| EM8 | Fechado pelo cmo (12.6): YouTube pago só dentro de P3 e P5 só para o LinkedIn | gestor 4.1 e 4.3 punham o YouTube nas duas frentes | até 3,15% de VN no YouTube; 5% de VN no LinkedIn | nenhuma verba duplicada | nova decisão do cmo | decidido em 26/10 | cmo (decidido) |
-| EM9 | Fechado pelo cmo (12.6): diária atual de 289 até 06/12 descontada da parte de 289 em P3; 662 fora de VN até o lote 2, URL conferida em 28/10 e pedido de pausa se o destino estiver errado | essas diárias não tinham frente no plano do gestor | diárias atuais [CONFIRMAR], sem aumento | P3 não cresce sem aprovação; nenhum clique pago para destino errado | reativar no gerenciador | 28/10 (URL de 662); 03/11 | cmo (decidido); execução depende do pedido R5 do cmo |
-| EM10 | Fechado pelo cmo (12.6): LinkedIn de 11/01 a 31/01 só com as 3 semanas aprovadas juntas, a 3ª com verba do trimestre seguinte; sem a 3ª semana, não sobe neste trimestre e os 5% voltam para P3 na Meta | o gestor pede leitura em 3 semanas; 2 semanas não decidem canal | 5% de VN mais a 3ª semana [CONFIRMAR] | primeira leitura do canal na Pós | pausar a campanha | 08/01 | cmo (decidido); verba depende do pedido R6 do cmo |
-| EM11 | Evento de otimização das turmas: cadastro, se a página tiver; senão início de checkout; matrícula lida no CRM | a matrícula da Pós não tem volume para a Meta aprender; depende de D8 | sem custo | campanhas de turma saem do aprendizado com evento mais acima no funil | trocar o evento (reinicia aprendizado) | 31/10 (teste); 30/11 (março) | gestor-de-midia; anuncios-meta |
-| EM12 | De 20/11 a 26/11, nos anúncios de A1 e A12: se a frequência subir e o CTR cair por 3 dias seguidos, trocar o anúncio mais cansado por um ângulo já pronto (regra de fadiga do memorando, D20), sem reduzir a verba da área antes de 23/11 | sobreposição com o Workshop Brasileiro de Neuromonitorização (mesmo público de anestesiologia e neurologia) | dentro de P1 | menos cansaço do público nos dias do evento | reativar o anúncio anterior | 20/11 | gestor-de-midia |
+| EM1 | Nomenclatura da seção 4.2 para toda campanha nova da Pós, sem exceção | D12; relatório por turma | sem custo | leitura por turma | renomear no gerenciador | 30/11 | mantido; sai a exceção do YouTube |
+| EM2 | UTM da seção 4.3 (D11) | um padrão só | sem custo | origem por turma no CRM | voltar às URLs anteriores | 30/11 | mantido; provas fora |
+| EM3 | 3 campanhas por turma (Meta frio, Meta remarketing, Google Busca), orçamento na campanha | meta e verba por turma; a manutenção desliga só o frio | dentro dos R$ 2.000,00 | controle por turma | fundir as campanhas da turma | 30/11; 30/12 | mantido |
+| EM4 | Divisão da Meta frio e remarketing (80/20, 0/100, 60/40, em março e abril); sobra de fase vai para a fase seguinte da mesma turma; turma atrasada leva o aquecimento para a conversão | o gestor deu o canal, não a divisão interna | março: frio R$ 787,00 e remarketing R$ 508,00; abril: R$ 865,00 e R$ 460,00 | remarketing com verba desde o início | voltar à divisão anterior na revisão seguinte | 30/11 | atualizado em reais |
+| EM5 | Provas: orçamento no conjunto e pesos por fase | - | - | - | - | - | suspenso (decisão 14) |
+| EM6 | Região: estado de SP; Goiás e DF; Google com "presença ou interesse" | sem dado de procedência | sem custo | menos gasto fora do público provável | ampliar a região | 30/11 | mantido |
+| EM7 | Remarketing de 30 dias (página da turma) e 90 dias (Instagram); exclusão de compradores por 180 dias; frio exclui remarketing | não pagar duas vezes pela mesma pessoa | sem custo | menos sobreposição | retirar a exclusão | 30/11 | mantido; saem as páginas das provas |
+| EM8 | YouTube pago | - | - | - | - | - | substituído: fora nesta verba (gestor 12.6, PP13 ao cmo) |
+| EM9 | 289 e 662 | - | - | - | - | - | substituído por EM15 |
+| EM10 | LinkedIn de 657 | - | - | - | - | - | substituído: fora nesta verba (PP14 ao cmo) |
+| EM11 | Otimização para lead; inscrição paga e 1ª mensalidade como conversões separadas, só para leitura | sem volume de inscrição para o algoritmo aprender | sem custo | funil de duas etapas medido por turma | trocar o evento (reinicia aprendizado) | 30/10 (teste); 30/11 | atualizado |
+| EM12 | Fadiga em A1 e A12 durante o Workshop | - | - | - | - | - | suspenso (provas fora) |
+| EM13 | Regra de rodízio de conceitos da seção 3.7 | CPL acima de R$ 20,00 não sustenta 3 conceitos ao mesmo tempo | até 30% da verba da turma em teste | verba concentrada no que converte | voltar aos 3 no ar | 30/11 | novo |
+| EM14 | Diária abaixo do mínimo da plataforma: a parte do remarketing vai para o frio da mesma turma até caber | diárias de R$ 3,68 a R$ 10,00 no remarketing | sem mudar o total | campanhas aceitas pela plataforma | voltar o remarketing quando caber | 30/11; 30/12 | novo |
+| EM15 | 289 e 662: gasto atual sai primeiro do aquecimento da turma, depois da Meta fria da conversão; pedido de redução da diária se o previsto antes da subida nova passar de R$ 700,00 | verba do ciclo inteiro é R$ 2.000,00 | diárias atuais [CONFIRMAR], sem aumento | conversão preservada | reativar a diária anterior | 03/11 | novo |
+| EM16 | Pausa de todas as campanhas da turma no dia seguinte ao corte, ou antes se o gasto do ciclo chegar a R$ 2.000,00 | fim do ciclo e teto do CEO | sem gasto novo | nenhum gasto depois do corte nem acima da verba | reativar só com verba nova aprovada | datas da seção 6.1 | novo |
 
-**Os 3 primeiros:** EM5 e EM7 (provas, antes de 03/11) e EM2 (UTM das provas, antes de 03/11). **EM8 a EM10:** decididos pelo cmo em 12.6; ficam para aprovação humana só os pedidos R5 (289 e 662) e R6 (LinkedIn com 3 semanas) do plano do cmo.
-
----
-
-## 8. Notas sobre arquivos de outros agentes (não alterados)
-
-- **gestor-de-midia-pos, seções 4.1, 4.3 e 4:** YouTube em duas frentes (EM8) e diárias de 289 e 662 sem frente (EM9): fechados pelo cmo (12.6) e aplicados pelo gestor na versão 2 dele.
-- **criativos-de-anuncio-pos, seções 2.3, 2.4 e 7:** a conta de controle usa 25% da verba (fase de teste do memorando); com PP3, a conta passa a usar 40% de P1 (gestor 2.6). As seções 2.4 e 3.1 dizem que não há autorização de docentes: desde 26/10/2026 há (decisão 8). O conceito "docente explica a prova da especialidade" pode entrar como conceito novo na fase 2, com nome e titulação como na ficha.
-- **estrategia-de-campanha-pos, seção 3.1:** "nenhum nome de docente até autorização" também ficou superado pela decisão 8.
-- **estrategia-de-campanha-pos e criativos-de-anuncio-pos:** UTM das provas diferente do padrão D11 e D12; o cmo encomendou o ajuste dos sufixos antes de 03/11 (12.10). O conceito C3 do criativos-de-anuncio-pos fala em prova "presencial": pela decisão 11, a prova é online, com o campus dito na peça.
-- **Calendário das provas:** o cmo confirmou o PP3 (40%, 35% e 25%, pico de 03/11 a 09/11) como a divisão única da squad (12.6); a alternativa do memorando sai deste plano. As datas da mídia do workshop são da linha eventos (EVM1); aqui só entra a sobreposição de público em A1 e A12 (EM12), que o cmo confirmou existir de 03/11 a 18/11.
-- **analise-de-midia-pos (1.12):** já existe (EP4, cabeçalho). Continua a conferir com a exportação: motivo das pausas de 657, 341, 68615, 333, 68635 e 68617; se os 5 ângulos de 68615 e 68617 estão em conformidade para reativar; gasto e leads de 289 e 662.
+**Os 3 primeiros:** EM15 (gasto de 289 e 662, antes de 03/11), EM11 (teste de rastreio de 30/10) e EM4 com EM13 (antes da estrutura de março, 30/11).
 
 ---
 
-## 9. Auditorias
+## 9. Notas sobre arquivos de outros agentes (não alterados)
 
-### 9.1 auditorias/11-midia-paga.md
+- **gestor-de-midia-pos, seção 12.6:** a tabela de limites de volume usa a Meta inteira com 3 conceitos e a manutenção com 3 conceitos (R$ 33,33); aqui frio e remarketing são campanhas separadas e a manutenção tem só remarketing com 2 peças (R$ 50,00). Os valores em reais por fase e canal batem com os da seção 12.5 dele.
+- **gestor-de-midia-pos, seção 12.5 (ciclo):** a regra de semanas com os dois extremos substitui a regra da versão 2 deste plano (diferença sem o dia inicial); por isso o ciclo de 68615 passa de 10,4 para 10,57 semanas.
+- **gestor-de-midia-pos, seções 4.3, 6 e 7 (versão 2):** ainda falam de VN, P6, YouTube e provas; a seção 12 dele já diz que vale sobre elas.
+- **criativos-de-anuncio-pos:** pacote das provas e os 2 vídeos de YouTube ficam fora nesta rodada (decisão 14; gestor 12.8). O conceito de remarketing "investimento completo" não pode sair até U11 (preço exige matrícula, e o valor da inscrição não pode ser citado).
+- **cmo, seção 1:** a meta principal ainda fala em turma mínima de 20; vale 15 (decisão 11 e 12.1 do cmo).
+- **cmo, seção 12.9:** o teste de rastreio passou para 30/10 (EA4); aplicado no calendário da seção 6.1.
+
+---
+
+## 10. Auditorias
+
+### 10.1 auditorias/11-midia-paga.md
 
 | Item | Resultado | Observação |
 |---|---|---|
-| Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente externo | Canais do gestor seguidos sem mudança; aprovação em PP2, PP13 e PP14 |
-| Metas de CPL e custo por matrícula escritas antes de subir | Pendente externo | Fórmulas, funil reverso e limites de revisão escritos (seção 2); valores em PP1. Nenhuma campanha nova sobe sem eles |
-| Verba dentro do valor aprovado, com aprovador registrado | Pendente externo | Tudo em percentual de VN; nenhum percentual soma mais de 100%; aprovador [CONFIRMAR] |
-| Nomenclatura padrão em campanhas, conjuntos e anúncios | Atendido no desenho | Seção 4.2; aprovação em EM1 |
-| UTMs completas e origem chegando ao CRM | Pendente externo | Padrão D11 e D12 na seção 4.3, provas incluídas (EM2); chegada ao CRM depende de D8 |
-| Pixel, API de Conversões, conversões do Google, pixel do TikTok e Insight Tag do LinkedIn | Pendente externo | D8 para Meta e Google; Insight Tag é condição do LinkedIn; TikTok fora |
-| Criativos aprovados em conformidade-educacional | Pendente externo | Provas no pacote do criativos-de-anuncio; turmas ainda sem peça |
+| Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente externo | Meta e Google Busca, como na v3 do gestor; YouTube e LinkedIn fora (PP13 e PP14 ao cmo); aprovação em PP16 |
+| Metas de CPL e custo por matrícula escritas antes de subir | Atendido em parte | Custo máximo por matrícula R$ 133,33; CPL e custo por inscrição em três cenários; limites da seção 2.5; taxas i e k [CONFIRMAR] |
+| Verba dentro do valor aprovado, com aprovador registrado | Atendido em parte | R$ 2.000,00 por turma (decisão 15); nenhuma tabela passa disso; diárias arredondadas para baixo; pagamento com aprovação humana |
+| Nomenclatura padrão | Atendido no desenho | Seção 4.2 (D12) |
+| UTMs completas e origem chegando ao CRM | Pendente externo | Seção 4.3 (D11); chegada ao CRM depende do teste de 30/10 |
+| Pixel, API de Conversões e conversões do Google | Pendente externo | EM11 e teste de 30/10; TikTok e LinkedIn fora |
+| Criativos aprovados em conformidade-educacional | Pendente externo | Peças de março e abril ainda não existem |
 | Anúncios dentro das políticas de cada plataforma | Atendido no desenho | Sem atributo pessoal, sem escassez falsa, sem concorrente |
-| Nenhum público com menores de 18 anos; no YouTube, conteúdo infantil excluído | Atendido no desenho | Seção 4.1 |
-| Post de docente promovido com autorização registrada | Atendido no desenho | Decisão 8 de 26/10/2026; nome e titulação como na ficha |
-| Relatório semanal ao CMO | Pendente externo | Datas e conteúdo na seção 6.2; nenhuma revisão em feriado |
-| Sem segmentação discriminatória nem exclusão por atributo sensível | Atendido no desenho | Seção 4.1 |
-| Públicos sem dados pessoais usados sem base legal | Atendido | Sem lista de contatos até a base legal ser confirmada |
-| Dados de curso conferidos no catálogo | Atendido | Datas, praças, turmas e tetos vêm do catálogo e do gestor; divergências marcadas |
-| Destino de WhatsApp | Não se aplica | A mídia não leva ao WhatsApp |
-| Números da análise só das exportações | Atendido | Nenhum número de mídia usado; contas só com percentuais do gestor e preços do catálogo |
-| Nenhuma alteração sem humano | Atendido | Toda ação está nas seções 6.1 e 7 |
+| Nenhum público com menores de 18 anos | Atendido no desenho | Seção 4.1 |
+| Post de docente promovido com autorização registrada | Atendido no desenho | Decisões 8 e 10 |
+| Relatório semanal ao CMO | Pendente externo | Seção 6.2, sem revisão em feriado |
+| Sem segmentação discriminatória | Atendido no desenho | Seção 4.1 |
+| Públicos sem dados pessoais sem base legal | Atendido | Sem lista de contatos |
+| Dados de curso conferidos no catálogo | Atendido | Datas, praças, turmas, valores e modalidade do catálogo, seção 2; divergências marcadas |
+| Destino de WhatsApp | Não se aplica | A mídia leva à página da turma |
+| Números só das exportações | Atendido | Nenhum número de mídia observado; contas só com a verba e a meta do CEO, preços do catálogo e taxas [SUPOSIÇÃO] do gestor |
+| Nenhuma alteração sem humano | Atendido | Seções 6.1 e 8 |
 
-### 9.2 auditorias/conformidade-educacional.md (aplicada às regras do plano; cada peça passa de novo)
+### 10.2 auditorias/conformidade-educacional.md (aplicada às regras do plano; cada peça passa de novo)
 
 | Bloco | Resultado | Observação |
 |---|---|---|
-| Dados do curso batem com o catálogo | Atendido | Seção 2.2; 68632 presencial, demais semipresencial |
-| Status "aberto" | Atendido | Só turmas e provas abertas recebem verba; "verificar" em pausa |
-| Pós sem frase de certificação ligada ao regulador | Atendido | Regra na seção 4.1; páginas com a frase sinalizadas |
-| Sem promessa de emprego, salário, aprovação ou bolsa | Atendido | Anúncio de turma não fala de bolsa |
-| Preço com parcelas, valor, total e matrícula; sem valor com bolsa calculado | Atendido | Seção 4.1 |
-| Bolsa e desconto com regra, público e prazo | Pendente externo | Destinos, data do resultado e regra de 341 [CONFIRMAR] |
-| Urgência real | Atendido | Nenhuma escassez; turma mínima de 15 só como informação |
+| Dados do curso batem com o catálogo | Atendido | Seção 2.3; 68632 presencial, demais semipresencial |
+| Status "aberto" | Atendido | Só turmas abertas recebem verba; 670 e as "verificar" fora |
+| Pós sem frase de certificação | Atendido | Seção 4.1 |
+| Sem promessa de emprego, salário, aprovação ou bolsa | Atendido | Nenhum anúncio de turma fala de bolsa |
+| Preço com parcelas, valor, total e matrícula | Atendido | Nenhuma peça com preço até U11 (decisão 16) |
+| Bolsa e desconto com regra | Atendido | 341 sem promoção até PR7; provas fora |
+| Urgência real | Atendido | Turma mínima de 15 só como informação |
 | Autorização de imagem | Atendido | Docentes autorizados; nenhum aluno ou candidato |
 | Menores de idade | Atendido | 18+ |
-| Formulários com finalidade e política de privacidade | Pendente externo | Conferir nas páginas antes de cada subida; LinkedIn sem formulário nativo |
-| Destino entrega o que o anúncio promete | Pendente externo | 662, 679, 366, 68636, Goiânia e Cardiologia com pendência |
-| Sem travessão nem meia-risca | Atendido | Conferido por busca dos caracteres no arquivo |
+| Formulários com finalidade e política de privacidade | Pendente externo | Conferir nas páginas antes de cada subida |
+| Destino entrega o que o anúncio promete | Pendente externo | 662, 679, 366 e 68636 com pendência |
+| Sem travessão nem meia-risca | Atendido | Conferido no arquivo |
 
-**Resultado:** pronto para o qa-de-marketing e, depois, para a aprovação humana dos pedidos EM1 a EM12. Nenhuma campanha nova sobe antes de PP1 e PP2.
+**Resultado:** pronto para o qa-de-marketing e, depois, para a aprovação humana de PP16 e dos pedidos EM4, EM11 e EM13 a EM16. Nenhuma campanha nova sobe antes disso.
 
 ---
 
 ## Mudanças desta versão
 
-Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-marketing-geral-2026-10-26-loteB:
-- **EM8 a EM10 fechados pelo cmo (12.6):** YouTube pago só em P3 e P5 só para o LinkedIn de 657 (3.5); 289 com o gasto até 06/12 descontado da parte dela em P3 e 662 fora de VN até o lote 2, com URL conferida em 28/10 (3.7); LinkedIn só com as 3 semanas de 11/01 a 31/01 aprovadas juntas, senão os 5% voltam para P3 na Meta (3.5, 6.1). A conta alternativa do LinkedIn em 3 semanas com 5% (fator 60) sai. Seguem como pedidos humanos só R5 e R6 do cmo.
-- **UTM das provas sem exceção (D11 e D12):** seção 4.3 com utm_source=meta e utm_medium=paid_social, utm_source=google e utm_medium=cpc, utm_campaign = nome da campanha (chave pos_provas20261127); saem os valores antigos das provas; EM2 refeito.
-- **EP1:** semanas até o corte de abril refeitas pela mesma regra de março (diferença sem o dia inicial): 64, 71 e 78 dias, ou 9,1, 10,1 e 11,1 semanas; a regra dos 19 dias de 06/01 a 24/01 (dias de veiculação, com os dois extremos) ficou escrita. As contas por semana de P4 (seção 3.3) não mudam, porque usam os 19 dias de veiculação.
-- **EP2:** "22 provas abertas de 27/11/2026 (a 68656 já está fora)".
-- **EP3:** semanas depois de 24/01 com a conta mostrada: de 2,6 a 4,6 em março e de 6,6 a 8,6 em abril. O qa sugeriu "cerca de 6 a 8" para abril, contando a partir de 25/01; pela mesma regra usada em março (diferença a partir de 24/01), o resultado é 6,6 a 8,6, ou cerca de 7 a 9.
-- **EP4:** a 1.12 existe; pendências atualizadas no cabeçalho (68636 sem linha na visão, N6; datas de 68662 e 662 pela planilha, decisão 12; 5 ângulos prontos em 68615, 366 e 68617).
-- **Decisão 11 da Ufape:** provas online, então o endereço deixa de bloquear o conjunto de Goiânia (3.1, E3, 4.5) e o C3 deixa de dizer "presencial" (5.1, nota na seção 8); turma mínima de 15, só como informação (4.1, 5.3).
-- Nenhum percentual de VN mudou.
+Versão 3 (26/10/2026), aplica a v3 do gestor-de-midia-pos (seções 12.5, 12.6 e 12.8) e as decisões 14 a 16 do CEO:
+- **Verba em reais:** VN sai; cada turma tem R$ 2.000,00 no ciclo, com tabelas por fase, canal, semana e dia (seções 3.3 a 3.5). Março: Meta frio R$ 787,00, remarketing R$ 508,00, Google R$ 705,00; abril: R$ 865,00, R$ 460,00, R$ 675,00. A onda 1 ganhou a regra de saldo e diária máxima (3.2).
+- **Ciclo até o corte:** março vai até 11/02, 18/02 e 25/02; abril ganha a fase de conversão (75%) de 25/01 até 04/03, 11/03, 18/03 e 25/03. Sai o aviso de "semanas fora do trimestre". Semanas contadas com os dois extremos (regra do gestor).
+- **Abril com 9 turmas:** o lote 2 (679, 366, 662) entra na conta, com subida só depois de link e data corrigidos.
+- **Saem:** YouTube (3.3, 4.2, 4.3, 4.4), LinkedIn (3.5 da v2), provas e pós-prova (3.1, 3.2, 4.6, 5.1, 5.2 da v2, EM5 e EM12 suspensos), reserva P6 (3.6 da v2). EM8 a EM10 substituídos.
+- **Funil reverso com 15 matrículas em duas etapas:** inscrição paga e 1ª mensalidade, com as fórmulas e os três cenários do gestor (taxas [SUPOSIÇÃO ilustrativa] com origem), funil por turma, curva de leads por fase e limites em reais (seção 2).
+- **Rodízio de conceitos** (3.7, EM13), **condição de volume em reais** por campanha (3.6), **289 e 662** dentro dos R$ 2.000,00 (3.8, EM15), **pausa no corte** (EM16), **mínimo diário** (EM14).
+- **Peças sem preço até U11**, porque o valor da inscrição não pode ser citado e o preço exige a matrícula (4.1, 7). O remarketing "investimento completo" fica para depois de U11.
+- **Remarketing** só da página da turma e do Instagram (saem as páginas das provas). A Meta fria de março volta em 04/01 como a mesma campanha, sem _202701.
+- **Calendário:** teste de rastreio em 30/10 (EA4); revisões de 26/01 (feriado municipal de São Paulo em 25/01) e 10/02 (Carnaval); pedidos de pausa no dia seguinte a cada corte.
+- **Encomendas** novas para anuncios-meta, anuncios-google e criativos-de-anuncio (seção 7).
+
+Versão 2 (26/10/2026): EM8 a EM10 fechados pelo cmo; UTM das provas no padrão D11 e D12; EP1 a EP4 do qa; decisão 11 (provas online, turma mínima de 15).
 
 ## Lista 1. Fatos (com fonte)
 
-- Divisão da verba nova por frente (30%, 5%, 35%, 15%, 5%, 10%), fases e canais das provas (40/35/25; Meta 70, 70 e 60; Google 30, 30 e 40), fases e canais de março (25/10/65; 60/30/10, 50/50, 55/35/10) e de abril (70/30), divisão igual por turma liberada e ordem de liberação de março (gestor-de-midia-pos, seções 4.1 a 4.3).
-- Canais: Meta e Google Busca ativos; YouTube (PP13) e LinkedIn em 657 (PP14) condicionados; Performance Max, Display, TikTok e WhatsApp como destino fora (gestor-de-midia-pos, seção 3).
-- Fórmulas de metas, teto de 12 parcelas e CPL teto por ponto de c de cada turma (gestor-de-midia-pos, seções 2.2 a 2.4).
-- Estrutura das provas: 1 campanha Meta de vendas com até 3 conjuntos (São Paulo, Goiânia, remarketing) e 1 campanha de Busca com grupos por especialidade; Goiânia com 3 provas (68640, 68642, 68644) (memorando, seção 3.2).
-- Estados das provas E1 a E6 e utm_content por prova (criativos-de-anuncio-pos, seção 4.1); conceitos C1 a C6 e ordem de subida (seções 2 e 7).
-- Datas de início, praças, turmas e modalidade de 657, 341, 289, 68615, 333, 68635, 68632, 68628, 68636, 68617 e 68609 (catálogo, seção 2, 26/10/2026); 68636 e 68629 "só no site".
-- 1ª mensalidade 30 dias antes do início na maioria das páginas de Pós (contexto/pos-graduacao.md).
-- 289 e 662 com campanha ativa; 68615, 333, 657, 341, 68635 e 68617 pausadas; 68628, 68632 e 68609 sem campanha; 68636 fora da visão (docs/visao-de-campanhas-2026-10-26.md; plano do cmo, seção 3).
-- Kit mínimo de 3 criativos por turma (templates/kit-de-lancamento-pos.md).
-- Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026; todos os docentes com autorização de imagem e citação desde 26/10/2026 (briefing de execução, decisões 6 a 8).
-- 02/11/2026 é feriado; 03/11/2026 é terça; 06/01/2027 é quarta; 24/01/2027 é domingo (calendário).
-- EM8 (YouTube pago só em P3; P5 só LinkedIn), EM9 (289 e 662), EM10 (LinkedIn com 3 semanas), PP3 confirmado e padrão de UTM e nomes D11 e D12, sem exceção para as provas (plano do cmo, 12.6 e 12.7).
-- Provas online, com o campus na peça, e turma mínima de 15 também nas turmas de Pós (decisão 11); datas da planilha, inclusive 68662 em 15/08/2026 e 662 em 24/04/2027 (decisão 12) (docs/execucao-2026-10-26.md).
-- 68636 sem linha própria na visão; 5 ângulos prontos em 68615, 366 e 68617 (analise-de-midia-pos, N6 e seção 3.3).
+- Verba de R$ 2.000,00 de mídia por turma de Pós no ciclo; meta de pelo menos 15 matrículas; meta em reais de 15 vezes o valor do curso; inscrição de R$ 260,00 medida separada da 1ª mensalidade; nenhuma peça cita o valor da inscrição até U11; provas de bolsa e Livres fora desta rodada (docs/execucao-2026-10-26.md, decisões 14, 15 e 16).
+- Teto de mensagens de campanha da Pós de 2 WhatsApp e 2 e-mails por semana, 1 por dia (decisão 17; plano do cmo, seção 13, D16).
+- Custo máximo por matrícula de R$ 133,33; divisão por fase e canal de março (25/10/65; Meta 70/50/65) e de abril (25/75; Meta 70/65), em reais; YouTube e LinkedIn fora; P1, P2, P5 e P6 fora; rodízio com gatilho de R$ 20,00; 289 e 662 dentro dos R$ 2.000,00 (gestor-de-midia-pos v3, seções 12.2 a 12.6 e 12.8).
+- Padrão D11 (paid_social e cpc; utm_source meta e google) e D12 (chave pos_<código>, nome da campanha = utm_campaign); feriado na segunda passa para o dia útil seguinte (D15); teste de rastreio em 30/10 (EA4) (plano do cmo, 12.6, 12.7, 12.8 e 12.9).
+- Início, praça, turma, modalidade, parcelas e valor de 657, 341, 289, 68615, 333, 679, 68632, 68635, 366, 68628, 68617, 68636, 68609, 662 e das 6 turmas da onda 1; 68636 "só no site"; 670 encerrada (catálogo, seção 2, 26/10/2026).
+- 1ª mensalidade 30 dias antes do início na maioria das páginas; turma mínima de 15; toda peça com preço mostra parcelas, valor, total e matrícula (contexto/pos-graduacao.md).
+- Pendências de 662 e 679 (link trocado), 366 (data), 68617 e 68628 (turma), 341 (promoção), 657 (pré-requisito) (plano do cmo, seção 7 e 12.12).
+- Kit mínimo de 3 criativos por turma (templates/kit-de-lancamento-pos.md, citado pelo gestor).
+- Calendário: 02/11/2026 feriado; 07/12/2026, 04/01, 25/01 e 08/02/2027 são segundas; 06/01/2027 é quarta; 25/01 é aniversário da cidade de São Paulo; Carnaval de 2027 em 08 e 09/02 (Páscoa em 28/03/2027); cortes caem em quintas-feiras.
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Data de corte de cada turma = 30 dias antes do início (regra da maioria das páginas), por turma a confirmar.
-- [SUPOSIÇÃO] Divisão da Meta de cada turma entre frio e remarketing: 80/20, 0/100, 60/40; abril 80/20 (EM4).
-- [SUPOSIÇÃO] Conjuntos das provas em 70/15/15, 65/15/20 e 50/10/40, com orçamento no conjunto (EM5).
-- [SUPOSIÇÃO] 2 anúncios responsivos por grupo de busca, na conta da condição de volume.
-- [SUPOSIÇÃO] Região: estado de São Paulo; Goiás e Distrito Federal; Google com "presença ou interesse" (EM6).
-- [SUPOSIÇÃO] Janelas de remarketing de 30 dias (páginas) e 90 dias (Instagram); exclusão de compradores por 180 dias (EM7).
-- [SUPOSIÇÃO] Interesses de anestesiologia em 657 e de equinos em 341, pela persona (seção 5.1).
-- [SUPOSIÇÃO] Negativas cruzadas entre turmas e áreas, a validar pelo relatório de termos de busca.
-- [SUPOSIÇÃO] LinkedIn sem formulário nativo, com destino na página de 657.
-- [SUPOSIÇÃO] Custo de P2 somado ao de P1 no custo por matrícula via prova.
-- [SUPOSIÇÃO] Parte do frio de turma que não passa na condição de volume vai para P6, sem gasto automático.
+- [SUPOSIÇÃO ilustrativa] Taxas de lead para inscrição (5%, 10%, 15%) e de inscrição para matrícula (60%, 75%, 90%); origem: gestor-de-midia-pos, seção 12.3, sem fonte, só sensibilidade.
+- [SUPOSIÇÃO] Mmid = 15 (toda a meta pesa na mídia), do gestor.
+- [SUPOSIÇÃO] Data de corte = 30 dias antes do início, por turma.
+- [SUPOSIÇÃO] Divisão da Meta entre frio e remarketing: 80/20, 0/100 e 60/40, em março e abril (EM4).
+- [SUPOSIÇÃO] Sobra de fase vai para a fase seguinte da mesma turma; turma atrasada leva o aquecimento para a conversão.
+- [SUPOSIÇÃO] Leitura permitida com R$ 27,00 e pausa de anúncio com R$ 36,00 sem lead (1,5 e 2 vezes o maior CPL máximo).
+- [SUPOSIÇÃO] Rodízio: troca com 3 dias e R$ 27,00 por conceito; volta aos 3 com CPL abaixo de R$ 10,00 por 2 semanas; gatilho de R$ 20,00 do gestor.
+- [SUPOSIÇÃO] Frio que sai vai metade para remarketing e metade para busca.
+- [SUPOSIÇÃO] 2 anúncios responsivos por grupo de busca na conta de volume.
+- [SUPOSIÇÃO] 289 e 662: redução da diária se o gasto previsto antes da estrutura nova passar de R$ 700,00.
+- [SUPOSIÇÃO] Região, janelas de remarketing e exclusões (EM6, EM7); interesses de 657 e 341 pela persona; negativas cruzadas.
+- [SUPOSIÇÃO] Prazo dos criativos de abril em 23/12; time sem trabalho no Carnaval.
+- [SUPOSIÇÃO] Veredito do custo por matrícula 30 dias depois do início (gestor, seção 8).
 
 ## Lista 3. Dados que faltam
 
-- [CONFIRMAR] Verba nova da Pós no trimestre (VN), aprovador e quem executa no gerenciador (PP2).
-- [CONFIRMAR] Por turma e por prova: evasão, desconto médio, custo variável, margem, conversão lead para matrícula, inscrito para matrícula, taxa da loja e matrículas que a mídia precisa trazer (PP1).
-- [CONFIRMAR] Data de corte da 1ª mensalidade de cada turma de março e abril.
-- [CONFIRMAR] Destino de cada prova, data do resultado, fim das inscrições, correção dos links de Cardiologia e do texto de endereço das páginas de Goiânia; como é o acesso à prova online (U2 do cmo).
-- [CONFIRMAR] Evento de conversão que as páginas de turma registram e resultado do teste de rastreio de 31/10 (D8).
-- [CONFIRMAR] Aprovação humana dos pedidos R5 (289 e 662) e R6 (LinkedIn de 657 com 3 semanas) do plano do cmo.
-- [CONFIRMAR] Diárias atuais de 289 e 662.
-- [CONFIRMAR] Procedência dos alunos por estado, para a região de entrega.
-- [CONFIRMAR] Base legal para listas de contatos.
-- [CONFIRMAR] Tamanho dos públicos (Meta, LinkedIn) e volume de busca: [DADO NÃO FORNECIDO] até a consulta no gerenciador.
-- [CONFIRMAR] Motivo das pausas e conformidade dos criativos pausados de 68615, 68617, 657, 341, 333 e 68635 (a análise 1.12 saiu sem exportação; depende dela).
-- [CONFIRMAR] Pré-requisito de 657 escrito na página e regra da promoção de 341 (PP7, PR7).
-- [CONFIRMAR] Data de 68636 na planilha; turma de 68617 e 68628.
-- [CONFIRMAR] Quem grava os 2 vídeos do YouTube (PP13) e instalação da Insight Tag (PP14).
-- [CONFIRMAR] Verba de 25/01/2027 em diante para a reta final de março, abril e a 3ª semana do LinkedIn.
+- [CONFIRMAR U11] Valor da inscrição: R$ 260,00 (CEO) ou R$ 250,00 e R$ 350,00 (site). Até a resposta, nenhuma peça com preço.
+- [CONFIRMAR] Período exato do ciclo de cada turma (decisão 15) e data de corte da 1ª mensalidade por ficha.
+- [CONFIRMAR] Taxas reais de lead para inscrição e de inscrição para matrícula por turma (CRM, só números somados) e matrículas esperadas da base e do orgânico (Mmid).
+- [CONFIRMAR] Gasto do ciclo das 6 turmas da onda 1, de 289 e de 662, e as diárias atuais (PP15).
+- [CONFIRMAR] Mínimo diário aceito pela Meta e pelo Google para as diárias da seção 3.
+- [CONFIRMAR] Evento que as páginas de turma registram e resultado do teste de rastreio de 30/10.
+- [CONFIRMAR] Aprovação de PP16 (divisão por turma) e dos pedidos EM4, EM11 e EM13 a EM16.
+- [CONFIRMAR] Link de 662 e 679, data de 366 e 68636, turma de 68617 e 68628, pré-requisito de 657 (U10), regra da promoção de 341 (PR7).
+- [CONFIRMAR] Motivo das pausas e conformidade dos ângulos de 68615, 68617, 366, 657, 341, 333 e 68635.
+- [CONFIRMAR] Procedência dos alunos por estado; base legal para listas de contatos; política de privacidade nas páginas.
+- [CONFIRMAR] Se a meta em reais do CEO soma a receita de inscrição (R$ 3.900,00 por turma) ou a mede à parte.
+- [DADO NÃO FORNECIDO] CPL, custo por inscrição e custo por matrícula históricos da Pós; tamanho dos públicos e volume de busca.
 
 ## Fontes
 
@@ -585,4 +587,4 @@ Internas: as entradas listadas no cabeçalho. Externas: nenhuma nesta etapa.
 
 ---
 
-**Próximo agente sugerido:** qa-de-marketing (conferência deste plano). Depois, criativos-de-anuncio (3 criativos por turma de março até 02/12, com o padrão de nomes da seção 4.2 e o conceito de docente autorizado) e, na etapa 1.14, anuncios-meta e anuncios-google (estrutura das seções 4.4 a 4.6 no gerenciador, para execução humana).
+**Próximo agente sugerido:** qa-de-marketing (conferência desta versão); depois, criativos-de-anuncio (3 conceitos e 2 peças de remarketing por turma de março até 02/12, seção 7) e, em seguida, anuncios-meta e anuncios-google (estruturas de março até 30/11 e de abril até 30/12, para execução humana).
