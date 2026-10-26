@@ -177,3 +177,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | mensagens-pos v2 (M1 a M10 do qa da camada 2) |
 | 26/10/2026 | iscas-digitais-pos v2 (I1 a I10 do qa da camada 2); busca de travessão pelo orquestrador: zero |
 | 26/10/2026 | autoridade-docente-pos v2 (D1 a D8 do qa da camada 2) |
+| 26/10/2026 | criador-de-ganchos-pos v2 (21 ganchos de preço bloqueados até U11, recomendados trocados, P3 em 679 e 68636). Iniciada a reconferência do qa da camada 2 |
