@@ -22,6 +22,7 @@ Diário da rodada de planejamento. Toda sessão que retomar este trabalho lê es
 | 26/10/2026 | Provas de bolsa: vale a regra da ficha de cada prova; provas online, o local não importa, mas a peça diferencia o campus (São Paulo ou Goiânia); turma mínima 15, também na Pós |
 | 26/10/2026 | Datas: valem as da planilha, inclusive 68662 e 662 |
 | 26/10/2026 | Página 623 será corrigida (aprovado). Até a correção estar no site, nenhuma campanha nova aponta para ela |
+| 26/10/2026 | Prioridade depois da camada 1: Graduação e Pós-graduação primeiro; Eventos em seguida; Cursos Livres e provas de bolsa por último |
 | 26/10/2026 | Seguir pela camada 1 até o fim. A sessão que vinha fazendo a rodada foi substituída por esta (mesmo branch) |
 
 ## Camada 1: estado por etapa
@@ -108,12 +109,13 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-**Camada 1 fechada em 26/10/2026.** As 33 etapas têm entrega; todas passaram pelo qa em algum lote (A a D) ou foram feitas pela sessão anterior com qa próprio, exceto a 1.33 (backlog) e as versões da varredura de coerência, que não tiveram reconferência. As pendências para o CEO e a Ufape estão numa lista só em docs/pendencias-camada-1.md.
+**Camada 1 fechada em 26/10/2026.** Pendências para o CEO e a Ufape em docs/pendencias-camada-1.md. Nova prioridade (decisão 14 do briefing): Graduação e Pós primeiro, Eventos depois, Livres e provas de bolsa por último.
 
-1. Levar ao CEO docs/pendencias-camada-1.md e registrar aqui cada resposta (como decisão nova no briefing, decisões 14 em diante).
-2. Opcional antes da camada 2: qa do backlog 1.33 e reconferência por amostra das saídas da varredura.
-3. Camada 2 (por área de especialidade, A1 a A14, seção 4 do plano do cmo): parte já existe da sessão anterior (palavras-chave, mensagens e briefing da Pós). Rodar 2.1 a 2.7 que faltam, primeiro as áreas com itens na onda 1.
-4. Camada 3 (por curso, turma ou edição) na ordem das ondas, e o mapa mental e os JSON (M.1 a M.4) ao fim de cada onda.
+1. Graduação (em execução): fechar o kit de templates/kit-de-lancamento-graduacao.md. Corrigir posts-sociais-graduacao e campanhas-de-nutricao-graduacao (qa-de-marketing-graduacao-2026-10-26-c); escrever copy-de-mensagens-graduacao (5 WhatsApp e 3 e-mails ligados aos prazos do edital) e tiktok-graduacao (2 roteiros de vídeo curto). Depois, qa de fechamento (oferta corrigida, criativos, posts, nutrição, mensagens, roteiros).
+2. Pós, camada 2 (em execução): 2.2 mensagens-pos por área (sem peças de prova de bolsa). Depois 2.3 criador-de-ganchos, 2.4 criativos por área, 2.5 autoridade-docente e 2.6 iscas-digitais da Pós.
+3. Pós, camada 3: turmas na ordem das ondas (onda 1: 707, 68604, 68606, 698, 68610, 68608, com inventário do que já existe; onda 2: 657, 341, 289, 68615, 333; onda 3: abril e maio).
+4. Eventos (workshop e gravados), depois Livres e provas de bolsa.
+5. Mapa mental e JSON (M.1 a M.4) ao fim de cada onda.
 
 ## Diário
 
@@ -153,3 +155,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | anuncios-meta pos, livres, eventos e anuncios-google pos, livres v2 (AGP-Q1 resolvido; título das provas "Inscrição na prova: R$ 100,00") |
 | 26/10/2026 | Varredura de coerência: 18 saídas antigas atualizadas com as decisões 7 a 13 e a seção 12 do cmo (prova online com campus, turma mínima 15, nome oficial do workshop, autorização para todos, datas da planilha, 623, UTM D11 e D12, frase D13). Turma mínima do exemplo JSON 707 do arquiteto corrigida para 15 pelo orquestrador |
 | 26/10/2026 | Camada 1 fechada. Criado docs/pendencias-camada-1.md com aprovações R1 a R8 e verba, perguntas U1 a U10 e metas, correções do site e os primeiros passos da semana |
+| 26/10/2026 | CEO: provas de bolsa e Livres por último; Graduação e Pós primeiro. Decisão 14 no briefing. Iniciados: fechamento do kit da Graduação e 2.2 mensagens da Pós |
