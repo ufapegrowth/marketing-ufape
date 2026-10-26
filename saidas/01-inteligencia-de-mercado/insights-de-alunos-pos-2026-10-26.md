@@ -235,7 +235,7 @@ Observação para o cmo: o contexto e a pendência P10 do plano dizem que regras
 
 | Padrão | Onde aparece | Leitura |
 |---|---|---|
-| Pagar antes de saber se a turma abre | H-T1, H-T2, H-T3, H-PB5 | Candidata a objeção número 1 de conversão em turmas de março a maio de 2027. A resposta oficial está dispersa em "Considerações". |
+| Pagar antes de saber se a turma abre | H-T1, H-T2, H-T3, H-PB5 | Candidato a objeção número 1 de conversão em turmas de março a maio de 2027. A resposta oficial está dispersa em "Considerações". |
 | Escolher entre cursos parecidos da mesma área | H-A1.1, H-A2.3, H-A3.3, H-A4.3, H-A5.3, H-A5.4, H-A12.2 | Falta um guia "qual curso é para mim" por área. |
 | Prática real | H-A1.3, H-A4.2, H-A6.4, H-A9.1, H-A14.3 | O candidato quer saber onde, em quê e com quantos alunos. |
 | Informação divergente | H-A2.4, H-A7.3, H-A10.4, H-A13.3, H-A13.4, H-PB5 | Confusão que reduz a confiança; é problema de página, não de campanha. |
