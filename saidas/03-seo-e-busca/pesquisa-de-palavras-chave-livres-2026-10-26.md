@@ -3,8 +3,8 @@
 - Agente: pesquisa-de-palavras-chave (departamento 03, SEO e Busca por IA), etapa 2.1 da camada 2
 - Linha: livres, cobrindo eventos (workshop de 20 e 21/11/2026 e gravados 700 e 202)
 - Data: 26/10/2026 (consultas na web feitas nesta data)
-- Status: rascunho para o qa-de-marketing (auditoria do departamento 03 e auditorias/conformidade-educacional.md, ainda por rodar). Nada foi publicado, enviado ou pago. Todo título, descrição e página abaixo é proposta para aprovação humana.
-- Entradas lidas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md (seções 4 a 9); .claude/skills/agrupar-palavras-chave/SKILL.md; .claude/skills/briefing-seo/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md; saidas/03-seo-e-busca/lacunas-de-conteudo-livres-2026-10-26.md (entrada principal); saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-eventos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3 e 4, mais as seções 3 e 7 de apoio). Fichas lidas por este agente: contexto/cursos/livres/573, 68614, 623, 68637, 68665 e 68666, e contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md.
+- Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md, seção 5). Nada foi publicado, enviado ou pago. Todo título, descrição e página abaixo é proposta para aprovação humana.
+- Entradas lidas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md (seções 4 a 9); .claude/skills/agrupar-palavras-chave/SKILL.md; .claude/skills/briefing-seo/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md; saidas/03-seo-e-busca/lacunas-de-conteudo-livres-2026-10-26.md (entrada principal); saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-eventos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3 e 4, mais as seções 3 e 7 de apoio); veredito do qa-de-marketing citado acima. Fichas lidas por este agente: contexto/cursos/livres/573, 68614, 623, 68637, 68665 e 68666, e contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md.
 - Não abri faculdade.ufape.com.br. Nenhuma página de concorrente foi aberta: todo dado externo vem do resumo devolvido pela ferramenta de busca (fontes na Lista A, códigos W01 a W24).
 
 ---
@@ -14,11 +14,12 @@
 1. **Palavra principal da onda 1 (uma por página, ver seção 9 e a tabela da seção 10):** 573 "curso hands-on de ecocardiografia veterinária" (64 pontos); 68614 "curso de videotoscopia veterinária" (64); 623 e 68637, uma página só depois da decisão da Ufape, "curso de endoscopia digestiva veterinária" (62); neuro-summit "workshop de neuromonitorização veterinária" (60); 68665 "grupo de estudos de cardiologia veterinária" (60); 68666 "grupo de estudos de clínica médica e emergência veterinária" (60). A pontuação é parcial (máximo de 80) e qualitativa, sem volume de busca.
 2. **O que a busca de 26/10/2026 mostrou:** em 24 consultas, nos temas das páginas da onda 1 a ferramenta não devolveu nenhum curso brasileiro com data e preço (ecocardiografia hands-on, videotoscopia, endoscopia digestiva prática, neuromonitorização, grupo pago para veterinário formado). Devolveu artigos acadêmicos, cursos no exterior, cursos ao vivo no Sympla e grupos universitários. Isso sugere espaço aberto, mas é limite da ferramenta, não prova de ausência no Google. Nenhuma página da Ufape apareceu em nenhuma das 24 consultas.
 3. **A ferramenta não devolve sugestões de busca do Google nem "As pessoas também perguntam".** As consultas sugeridas e as perguntas relacionadas vêm de duas fontes: o jeito como organizadores e plataformas nomeiam cursos nos resultados, e a redação do agente [SUPOSIÇÃO]. Volume é sinal qualitativo (alto, médio, baixo), marcado como estimativa. Nenhum número de buscas por mês foi inventado.
-4. **Três regras que evitam canibalização:** (a) "ecocardiografia" fica com 573 e "ecocardiograma" com 411; (b) o termo genérico de cada formato (grupo de estudos, minicurso, curso prático presencial) fica com o hub do formato, nunca com uma página de produto; (c) 623 e 68637 não podem ter palavra-chave cada uma: uma das duas vira 301 (decisão da Ufape, H2 do arquivo de lacunas).
+4. **Três regras que evitam canibalização:** (a) "ecocardiografia" fica com 573 e "ecocardiograma" com 411; (b) o termo genérico de cada formato (grupo de estudos, minicurso, curso prático) fica com o hub do formato, nunca com uma página de produto; (c) 623 e 68637 não podem ter palavra-chave cada uma: uma das duas vira 301 (decisão da Ufape, H2 do arquivo de lacunas).
 5. **Termos bloqueados:** tudo com "certificado" ou "reconhecido pelo MEC" fica sem otimização até a regulação aprovar o texto oficial (P1 do plano do cmo). "EAD", "pós", "especialização" e "faculdade" pertencem a outras linhas e não entram nas páginas de Livres.
 6. **67 perguntas para assistentes de IA** escritas do jeito que o veterinário digita, em 9 tarefas (seção 7). A coluna "assistentes" fica "conferir manualmente": a squad não consulta ChatGPT, Gemini, Perplexity nem Claude.
 7. **As 10 mais perto da matrícula** estão na seção 11.
 8. **Briefings SEO resumidos das 7 páginas da onda 1** na seção 9. Nenhum está pronto para publicar: todos têm bloqueios de dado listados.
+9. **Os 47 contínuos do plano do cmo têm palavra principal na seção 6.** Em 643 e 713, e em 642 e 712, as duas páginas dividem uma palavra só até a decisão de 301 (L28).
 
 ---
 
@@ -28,9 +29,9 @@
 2. **Ferramenta de busca não é o Google.** Devolve poucos resultados por consulta, em ordem desconhecida. "Quem ranqueia" abaixo significa "quem apareceu nos resultados devolvidos em 26/10/2026". Páginas não foram abertas. Preço e data de concorrente precisam ser conferidos na fonte antes de ir para peça.
 3. **Sem checagem em assistentes de IA.** Nenhuma nota de visibilidade foi escrita. A parcela "lacuna em IA" da pontuação de oportunidades (0 a 20) não entra, porque exige checagem real (skill visibilidade-em-ia).
 4. **Dados de curso** (nome, modalidade, carga horária, data, preço) vêm de contexto/catalogo-de-cursos.md. O que está só na ficha do curso leva [CONFIRMAR NO CATÁLOGO]. Totais no cartão (parcela vezes número de parcelas) são cálculo deste agente.
-5. **Sem afirmação de certificação.** Curso livre e evento não conferem diploma nem equivalem a pós-graduação. Nenhum título, descrição, H1, H2 ou bloco citável abaixo afirma certificação. Texto oficial: [PREENCHER COM A REGULAÇÃO].
+5. **Sem afirmação de certificação.** Curso livre e evento não conferem diploma nem equivalem a pós-graduação. Nenhum título, descrição, H1 ou H2 abaixo afirma certificação. Texto oficial: [PREENCHER COM A REGULAÇÃO].
 6. **Sem nome de docente.** Autorização de imagem e voz não está registrada (P13). Onde a página original cita docente, o briefing diz [CONFIRMAR autorização].
-7. **Uma linha por página.** Termos de Graduação e de Pós ficam fora das páginas de Livres e Eventos. A Pós só entra como link de "próximo passo" ao fim da página, sem promessa de caminho.
+7. **Uma linha por página.** Termos de Graduação e de Pós ficam fora das páginas de Livres e Eventos. A Pós só entra como link de "próximo passo" ao fim da página, com o nome padrão "Pós-graduação em <área>", sem promessa de caminho. A forma curta "pós em <área>" aparece neste arquivo só como termo de busca monitorado, nunca como texto de página.
 8. **Só itens do catálogo.** Nenhuma página de curso nova é sugerida. Páginas novas são hubs e artigos já previstos no arquivo de lacunas (IDs L01 a L31).
 
 ---
@@ -78,18 +79,20 @@ Colunas das tabelas: **Int.** = intenção (A, C, M, R); **Vol.** = volume, esti
 
 **Quem apareceu em 26/10/2026 (W01, W21).** Cursos hands-on de ecocardiografia no exterior (Reino Unido e Lisboa), um curso prático de anestesia em São Paulo de 2018 (8 vagas, R$ 800 à vista na época) e um curso híbrido de dermatoscopia de 2023. Nenhuma oferta presencial de 2026 em São Paulo e nenhuma página da Ufape apareceram. Facilidade média a alta.
 
+**Modalidade no catálogo dos itens deste formato:** 573 "Semiprensecial" (grafia do catálogo); 68614, 623 e 68637 "Presencial"; 560 "Semipresencial"; 68618 sem modalidade; 616 "On-line" (local "Presencial e Online"); 68638 "Presencial". O hub usa o nome "cursos práticos" e mostra a modalidade do catálogo de cada item. 616 e 68618 só entram no hub depois de [CONFIRMAR NO CATÁLOGO] a modalidade.
+
 | Termo | Int. | Vol. | Pts | Página-alvo | Observações |
 |---|---|---|---|---|---|
 | cursos práticos para médicos veterinários | C | Médio | 48 | Hub presenciais (L06) | Principal do hub. Qualifica o público e evita puxar tutor de pet |
 | curso prático de veterinária em São Paulo | M | Médio | 58 | Hub presenciais | Local no termo. Nada de 2026 apareceu na busca. Goiânia não tem item na onda 1, não usar "Goiânia" |
 | curso hands-on veterinária | C | Médio | 46 | Hub presenciais | Termo em inglês usado por organizadores vistos (W01) |
-| curso presencial para veterinários | M | Médio | 52 | Hub presenciais | Pode puxar graduação e curso técnico. Não usar "faculdade" nem "pós" |
+| curso presencial para veterinários | M | Médio | 52 | Hub presenciais | Pode puxar graduação e técnico. Não usar "faculdade" nem "pós" |
 | curso teórico-prático veterinária São Paulo | M | Baixo | 46 | Hub presenciais | Grafia "teórico-prático" é a do site |
 | imersão em veterinária curso | M | Baixo | 46 | Hub presenciais | "Imersão" está nos nomes de 623 e 616 |
 | curso intensivo para médicos veterinários | M | Baixo | 44 | Hub presenciais | |
 | curso de veterinária de fim de semana | M | Baixo | 44 | Hub presenciais | Linguagem do candidato [SUPOSIÇÃO], responde à objeção de tempo e viagem |
 | curso prático com animais reais veterinária | C | Baixo | 46 | Hub (FAQ) e páginas 573 e 68614 | Responde à objeção "quanta prática real". Texto de bem-estar animal passa por docente |
-| quanto custa curso prático de veterinária | R | Baixo | 46 | Hub (tabela de preço) | Tabela com à vista e total no cartão (cálculo marcado) |
+| quanto custa curso prático de veterinária | R | Baixo | 46 | Hub (tabela de preço) | Tabela com à vista, número e valor da parcela e total no cartão (cálculo marcado) |
 
 ### 4.2 Online gravado (P-L2)
 
@@ -209,9 +212,9 @@ Colunas das tabelas: **Int.** = intenção (A, C, M, R); **Vol.** = volume, esti
 | # | Grupo | Intenção | Padrões de busca (exemplos) | Página-alvo | Regra |
 |---|---|---|---|---|---|
 | 1 | Aprender uma técnica | A | "como fazer ecocardiograma em cães", "como interpretar hemogasometria", "quando indicar endoscopia digestiva", "o que é POCUS veterinário", "BIS em cães e gatos funciona" | Artigos (clusters CI do arquivo de lacunas) que linkam para o curso. Nunca a página de produto | Não misturar com matrícula. O artigo tem uma palavra principal própria (seção 10, bloco "Apoio") |
-| 2 | Curso prático em São Paulo | M, C | "curso prático de veterinária em São Paulo", "curso hands-on de <técnica>", "curso de <técnica> presencial", "imersão em <técnica>" | Página de produto (573, 68614, 623 ou 68637, 616, 68618, 68638, 560) e hub L06 | Local no termo só para São Paulo. Sem item na onda 1 em Goiânia |
+| 2 | Curso prático em São Paulo | M, C | "curso prático de veterinária em São Paulo", "curso hands-on de <técnica>", "curso de <técnica> presencial", "imersão em <técnica>" | Página de produto (573, 68614, 623 ou 68637, 616, 68618, 68638, 560) e hub L06 | Local no termo só para São Paulo. Sem item na onda 1 em Goiânia. A modalidade vem do catálogo item a item (ver 4.1): 573 "Semiprensecial", 616 "On-line" [CONFIRMAR NO CATÁLOGO], 560 "Semipresencial", 68618 sem modalidade; o termo "presencial" só vai a página cuja modalidade o catálogo confirma |
 | 3 | Curso online veterinário | M, C | "curso online de <tema>", "curso de <tema> gravado", "curso de <tema> online em português", "minicurso de <área>" | Página de produto dos contínuos, hubs L14 e L15 | Evitar "EAD". Hub fica com o termo genérico, produto com o termo do tema |
-| 4 | Preço | R | "quanto custa curso de <tema>", "<curso> preço", "<curso> parcelado", "curso de <tema> vale a pena" | Seção "Investimento" da página de produto e tabelas dos hubs | Preço só do catálogo, com à vista e total no cartão (cálculo). Preço não vai em título nem descrição |
+| 4 | Preço | R | "quanto custa curso de <tema>", "<curso> preço", "<curso> parcelado", "curso de <tema> vale a pena" | Seção "Investimento" da página de produto e tabelas dos hubs | Preço só do catálogo, com à vista, número e valor da parcela e total no cartão (cálculo). Preço não vai em título nem descrição |
 | 5 | Certificado | R | "curso de <tema> com certificado", "curso livre tem validade", "curso livre dá diploma", "reconhecido pelo MEC" | FAQ da página de produto e guia L27 | **Bloqueado (P1).** Não otimizar página para o termo. A resposta da FAQ diz só que curso livre não confere diploma nem equivale a pós-graduação. Texto oficial: [PREENCHER COM A REGULAÇÃO] |
 | 6 | Grupo de estudos | M, R | "grupo de estudos de <área>", "grupo de estudos online para veterinários", "discussão de casos online" | Páginas 68665 e 68666, hub L13, 8 grupos contínuos | Duplicatas 643 e 713, 642 e 712 resolvidas por 301 antes de ter palavra |
 | 7 | Evento | M, C | "workshop de neuromonitorização", "workshop de anestesia veterinária", "congresso paciente grave gravação", "simpósio de coagulação" | Neuro-summit, 700, 202 e hub L17 | Evento com data some do interesse depois de 21/11/2026; a palavra volta com a próxima edição [CONFIRMAR que haverá] |
@@ -221,7 +224,7 @@ Colunas das tabelas: **Int.** = intenção (A, C, M, R); **Vol.** = volume, esti
 | Padrão | Exemplo | Tratamento |
 |---|---|---|
 | "<curso> EAD" | "curso de ecocardiograma EAD" | Termo de fronteira: puxa pós e curso técnico. As páginas de Livres usam "online" e "gravado". Monitorar, sem página-alvo |
-| "pós em <área>" | "pós em cardiologia veterinária" | Outra linha (Pós). Fora destas páginas. Só link de "próximo passo" ao fim |
+| "pós em <área>" | "pós em cardiologia veterinária" | Outra linha (Pós). Fora destas páginas. Só link de "próximo passo" ao fim, com o nome "Pós-graduação em <área>" |
 | "faculdade de <curso> em <cidade>" | "faculdade de veterinária em São Paulo" | Outra linha (Graduação). Descartado |
 | "<curso> em <cidade>" | "curso de endoscopia digestiva em São Paulo" | Usado só para São Paulo (itens com data). Goiânia: 99 e 593 estão em "verificar" ou "sem data", fora do recorte |
 | "curso de <tema> com certificado" | "curso de eletrocardiograma com certificado" | Grupo 5: bloqueado até o texto oficial |
@@ -232,7 +235,7 @@ Colunas das tabelas: **Int.** = intenção (A, C, M, R); **Vol.** = volume, esti
 |---|---|
 | curso gratuito de veterinária (31 pontos) | Público que procura gratuito, Vetlove cobre, baixa intenção e baixa facilidade |
 | curso de auxiliar veterinário gratuito | Curso público de 200 horas visto em W21; Ufape cobra R$ 510,00 no 95 |
-| pós-graduação em ecocardiografia, especialização em cardiologia veterinária, pós em anestesiologia | Outra linha (Pós) |
+| pós em ecocardiografia, especialização em cardiologia veterinária, pós em anestesiologia | Outra linha (Pós) |
 | faculdade de medicina veterinária, graduação em veterinária | Outra linha (Graduação) |
 | residência veterinária | Fora do recorte (aprimoramento 639 a 641 em "verificar") |
 | congresso veterinário 2026 São Paulo (34 pontos) | Sem página de destino: a Ufape não tem congresso presencial agendado. Congressos de terceiros competem por atenção |
@@ -243,7 +246,7 @@ Colunas das tabelas: **Int.** = intenção (A, C, M, R); **Vol.** = volume, esti
 
 ## 6. Seção por área (A1 a A14)
 
-Convenções: palavra principal é a única da página; secundárias são variações e perguntas que a página responde. **Onda** vem do plano do cmo. "Cont." = contínuo. Para cada área foram escolhidos os contínuos mais relevantes por ticket, por tema e por ponte com a onda 1; os demais seguem a regra da seção 6.16.
+Convenções: palavra principal é a única da página; secundárias são variações e perguntas que a página responde. **Onda** vem do plano do cmo. "Cont." = contínuo. Os 47 contínuos do plano do cmo (8, 3, 7, 2, 1, 3, 7, 1, 3, 1, 3, 1, 5 e 2 por área, A1 a A14) têm palavra principal nas tabelas abaixo. Nos pares de duplicatas (643 e 713; 642 e 712) a palavra fica com a página canônica e a outra vira 301 (L28).
 
 ### 6.1 Nomes populares por área
 
@@ -273,21 +276,21 @@ Siglas sem marca "visto" são uso corrente da área e entram como [SUPOSIÇÃO] 
 | 602 Cálculo de medicamentos em bolus e infusão contínua (Cont.) | curso de cálculo de CRI em veterinária | curso de cálculo de medicamentos em bolus e infusão contínua; cálculo de infusão contínua cães e gatos curso; curso de cálculo de doses veterinária; curso de diluição e infusão de medicamentos | M | 60 | R$ 96,00 (catálogo), compra por impulso. Concorrentes: curso de cálculos no Hotmart (12 h), calculadoras gratuitas (W16, lacunas S29 e S30). Dose e fórmula só com revisão de docente |
 | 488 Preparatório para prova de título (Cont.) | curso preparatório prova de título anestesiologia veterinária | preparatório título de especialista anestesia veterinária; curso para prova de título de veterinária; prova de título CFMV anestesiologia | M | 58 | Nenhum preparatório veterinário na busca (W24). Não prometer aprovação nem título. Guia L25 depende de regulação |
 | 102 Controle da dor em pequenos animais (Cont.) | curso de controle da dor em pequenos animais | curso de analgesia veterinária online; manejo da dor em cães e gatos curso; curso de dor em veterinária | M | 56 | |
-| 616 Imersão avançada em anestesia felina (onda 2) | curso de anestesia em felinos | imersão em anestesia felina; anestesia de gatos curso avançado; curso de anestesia e dor em gatos | M | 56 | Modalidade e local se contradizem na ficha [CONFIRMAR NO CATÁLOGO]. 617 (anestesia e dor em gatos) está em "verificar" e não recebe palavra |
+| 616 Imersão avançada em anestesia felina (onda 2) | curso de anestesia em felinos | imersão em anestesia felina; anestesia de gatos curso avançado; curso de anestesia e dor em gatos | M | 56 | Catálogo: seção de online e gravados, modalidade "On-line", local "Presencial e Online": [CONFIRMAR NO CATÁLOGO]. 617 (anestesia e dor em gatos) está em "verificar" e não recebe palavra |
 | 644 Grupo de Anestesiologia, anual 2026 (Cont.) | grupo de estudos de anestesiologia veterinária | grupo de estudo de anestesia veterinária anual; grupo de estudos anestesia pequenos animais; grupo de estudos para prova de título | M | 54 | Edição vigente [CONFIRMAR NO CATÁLOGO] |
 | 131 Aprimoramento em anestesiologia aplicada (Cont.) | curso de aprimoramento em anestesiologia veterinária | curso online de anestesia veterinária; curso de anestesia para clínicos de pequenos animais; aprimoramento em anestesia online | M | 52 | R$ 4.060,80 à vista (catálogo). O termo "anestesiologia veterinária" também é de Pós: não usar "pós" na página |
 | 483 Minicurso em anestesiologia (Cont.) | minicurso de anestesiologia veterinária | mini curso de anestesia em pequenos animais; minicurso anestesia na clínica médica | M | 52 | Link para hub L15 |
 | 461 Minicurso em dor e cuidados paliativos (Cont.) | minicurso de dor e cuidados paliativos veterinária | mini curso de dor em pequenos animais; cuidados paliativos veterinária curso | M | 52 | 461 aparece como R$ 185,00 à vista ou 1x de R$ 222,00 (catálogo) |
-| 501 Cálculo em bolus y infusión (Cont., espanhol) | cálculo de infusión continua en perros y gatos curso | ver 6.16 | M | 52 | Ver 6.16 |
+| 501 Cálculo em bolus y infusión (Cont., espanhol) | cálculo de infusión continua en perros y gatos curso | ver 6.15 | M | 52 | Ver 6.15 |
 
 ### 6.3 A2 Cardiorrespiratório
 
 | Item (onda) | Palavra principal | Secundárias | Int. | Pts | Observações |
 |---|---|---|---|---|---|
-| 573 Hands-On de Ecocardiografia (onda 1) | curso hands-on de ecocardiografia veterinária | curso de ecocardiografia veterinária; curso de ecocardiografia veterinária em São Paulo; curso prático de ecocardiografia em cães e gatos; ecocardiografia veterinária básica; curso de ecocardiografia veterinária presencial | M | 64 | Briefing na seção 9.1. Palavra "ecocardiograma" fica com 411 |
+| 573 Hands-On de Ecocardiografia (onda 1) | curso hands-on de ecocardiografia veterinária | curso de ecocardiografia veterinária; curso de ecocardiografia veterinária em São Paulo; curso prático de ecocardiografia em cães e gatos; ecocardiografia veterinária básica; curso de ecocardiografia veterinária presencial | M | 64 | Briefing na seção 9.1. Palavra "ecocardiograma" fica com 411. Modalidade do catálogo: "Semiprensecial" [CONFIRMAR NO CATÁLOGO] antes de usar "presencial" em título |
 | 68665 Grupo de Cardiologia e Ecocardiografia (onda 1) | grupo de estudos de cardiologia veterinária | grupo de estudos em ecocardiografia veterinária; grupo de estudos cardiologia e ecocardiografia online; discussão de casos de cardiologia veterinária; grupo de estudos de eletrocardiograma veterinário | M | 60 | Briefing na seção 9.5 |
 | 395 Eletrocardiograma em pequenos animais (Cont.) | curso de eletrocardiograma veterinário online | curso de ECG veterinário; curso de eletrocardiograma em cães e gatos; interpretação de ECG veterinário curso; eletrocardiograma em pequenos animais curso | M | 60 | Busca (W10): sem curso brasileiro online em português com oferta atual; só curso de 2021 sem gravação e curso em espanhol |
-| 68618 Ventilação mecânica aplicada à anestesia (onda 2) | curso de ventilação mecânica na anestesia veterinária | curso prático de ventilação mecânica veterinária; ventilação mecânica anestesia cães e gatos curso presencial; curso teórico-prático de ventilação mecânica veterinária | M | 58 | Data divergente com a visão de campanhas (P6). W15 mostra curso gravado de R$ 97,00 (Elovetnet) e livro; nenhum presencial |
+| 68618 Ventilação mecânica aplicada à anestesia (onda 2) | curso de ventilação mecânica na anestesia veterinária | curso prático de ventilação mecânica veterinária; ventilação mecânica anestesia cães e gatos curso presencial; curso teórico-prático de ventilação mecânica veterinária | M | 58 | Catálogo sem modalidade [CONFIRMAR NO CATÁLOGO]. Data diverge da visão de campanhas (P6). W15 mostra curso gravado de R$ 97,00 (Elovetnet) e livro; nenhum presencial |
 | 411 Ecocardiograma em pequenos animais (Cont.) | curso de ecocardiograma em pequenos animais | curso online de ecocardiograma veterinário; curso de eco para veterinários online; ecocardiograma em cães e gatos curso gravado | M | 56 | Não usar "ecocardiografia" nesta página |
 | 507 Ventilação mecânica básica, gravação (Cont.) | curso online de ventilação mecânica veterinária | curso de ventilação mecânica básica anestesia e UTI veterinária; ventilação mecânica em cães e gatos curso online; ventilador mecânico veterinário curso | M | 54 | Duas páginas de ventilação (507 e 68618), cada uma com palavra própria |
 
@@ -351,7 +354,7 @@ Siglas sem marca "visto" são uso corrente da área e entram como [SUPOSIÇÃO] 
 
 | Item (onda) | Palavra principal | Secundárias | Int. | Pts | Observações |
 |---|---|---|---|---|---|
-| 560 Eletroquimioterapia (onda 3) | curso de eletroquimioterapia veterinária | eletroquimioterapia em cães e gatos curso; curso de eletroquimioterapia São Paulo | M | 60 | Busca (W17): curso no Chile com expositor brasileiro e serviço clínico em Curitiba; nenhum curso brasileiro. Prática "em modelos" ou "nos pacientes" na mesma página [CONFIRMAR] |
+| 560 Eletroquimioterapia (onda 3) | curso de eletroquimioterapia veterinária | eletroquimioterapia em cães e gatos curso; curso de eletroquimioterapia São Paulo | M | 60 | Busca (W17): curso no Chile com expositor brasileiro e serviço clínico em Curitiba; nenhum curso brasileiro. Catálogo: "Semipresencial". Prática "em modelos" ou "nos pacientes" na mesma página [CONFIRMAR] |
 | 465 Minicurso em oncologia (Cont.) | minicurso de oncologia veterinária | mini curso oncologia em pequenos animais; curso de oncologia veterinária para clínico | M | 54 | |
 
 ### 6.11 A11 Laboratório
@@ -378,7 +381,7 @@ Siglas sem marca "visto" são uso corrente da área e entram como [SUPOSIÇÃO] 
 | 340 Curso de Felinos (Cont.) | curso de felinos online | curso online de medicina felina gravado; curso de clínica médica de gatos; curso de gatos para veterinários | M | 54 | Sobrepõe 157, 105 e 459 (guia L16). Concorrência: ao vivo (Feline Expert Series, W08) e pós lato sensu (outra linha) |
 | 157 Medicina felina para clínicos (Cont.) | curso de medicina felina para clínicos | medicina felina para clínicos veterinários; curso de medicina felina online | M | 54 | Diferença para 340 [CONFIRMAR NO CATÁLOGO] |
 | 459 Minicurso em medicina felina (Cont.) | minicurso de medicina felina | mini curso de medicina felina na clínica médica | M | 52 | |
-| 347 Curso de Felinos, espanhol (Cont.) | curso de medicina felina en español | ver 6.16 | M | 50 | Ver 6.16 |
+| 347 Curso de Felinos, espanhol (Cont.) | curso de medicina felina en español | ver 6.15 | M | 50 | Ver 6.15 |
 
 ### 6.14 A14 Outras
 
@@ -387,18 +390,9 @@ Siglas sem marca "visto" são uso corrente da área e entram como [SUPOSIÇÃO] 
 | 541 Antibioticoterapia, atualização internacional (Cont.) | curso de antibioticoterapia veterinária | curso de antibióticos em cães e gatos; uso racional de antimicrobianos veterinária curso; antibioticoterapia em pequenos animais curso online; curso internacional de atualização em antibioticoterapia | M | 64 | Busca (W13): nenhum curso em português; só cursos de uso prudente em inglês, francês e espanhol |
 | 95 Auxiliar Veterinário (Cont.) | curso de auxiliar veterinário online | curso de auxiliar de veterinária; curso de auxiliar veterinário preço; auxiliar veterinário precisa de registro | M | 58 | Público diferente do resto da linha. Credenciamento do curso é facultativo (CFMV, W20). Guia L26 (revisão R) |
 
-Áreas com pós e prova de bolsa de mesma especialidade (A1, A2, A3, A5 a A13) não recebem termo de Pós nestas páginas. A página do curso livre pode, ao fim, linkar para a página do curso de Pós correspondente (hipótese de ponte sem dado de conversão).
+Áreas com pós e prova de bolsa de mesma especialidade (A1, A2, A3, A5 a A13) não recebem termo de Pós nestas páginas. A página do curso livre pode, ao fim, linkar para a página do curso de Pós correspondente, com o nome "Pós-graduação em <área>" (hipótese de ponte sem dado de conversão).
 
-### 6.15 Onda e prioridade das áreas
-
-| Onda | Itens com palavra principal definida nesta seção |
-|---|---|
-| 1 | 573, 68665, 68614, 623 e 68637, 68666, neuro-summit, 68634 |
-| 2 | 616, 68618 |
-| 3 | 68638, 560 |
-| Contínuos | 47 do plano do cmo, dos quais 36 têm palavra nesta seção. Os 11 restantes seguem a regra da seção 6.17 |
-
-### 6.16 Espanhol: variação para 347 e 501
+### 6.15 Espanhol: variação para 347 e 501
 
 [SUPOSIÇÃO de redação, sem volume. Toda palavra é revisada por falante nativo antes de ir para página ou anúncio (P17).]
 
@@ -409,9 +403,18 @@ Siglas sem marca "visto" são uso corrente da área e entram como [SUPOSIÇÃO] 
 
 Pendências do espanhol (todas [CONFIRMAR]): idioma do áudio (347 diz "Gravação (Espanhol)", 501 diz "legenda espanhol"), meio de pagamento fora do Brasil e moeda, política de reembolso, validade do certificado no país do aluno, carga horária de 347 (25 h contra 23 h do 340) e de 501 (6 h e R$ 260,00 contra 4 h e R$ 96,00 do 602).
 
-### 6.17 Regra para os contínuos sem linha própria
+### 6.16 Onda e prioridade das áreas
 
-Os 11 contínuos que não aparecem acima (por exemplo 641 de aprimoramento, fora do recorte, e itens com tema repetido) seguem: palavra principal = "curso de <tema> <formato>" com o formato da Ufape ("online", "gravado", "minicurso", "grupo de estudos"); uma palavra por página; sem "pós", "EAD" ou "certificado". Quando o item for escolhido para campanha, o agente roda a pesquisa dele na camada 3.
+| Onda | Itens com palavra principal definida nesta seção |
+|---|---|
+| 1 | 573, 68665, 68614, 623 e 68637, 68666, neuro-summit, 68634 |
+| 2 | 616, 68618 |
+| 3 | 68638, 560 |
+| Contínuos | Os 47 do plano do cmo, todos com palavra nesta seção (contagem por área na abertura da seção 6) |
+
+### 6.17 Regra para itens novos
+
+Item que entre no catálogo depois desta rodada (inclusive os de aprimoramento 639 a 641, hoje em "verificar") segue: palavra principal = "curso de <tema> <formato>" com o formato da Ufape ("online", "gravado", "minicurso", "grupo de estudos"); uma palavra por página; sem "pós", "EAD" ou "certificado". Quando o item for escolhido para campanha, o agente roda a pesquisa dele na camada 3.
 
 ---
 
@@ -441,12 +444,12 @@ Perguntas do jeito que o veterinário digita, escritas por este agente [SUPOSIÇ
 | IA11 | Qual curso de ecocardiografia veterinária hands-on em São Paulo? | M | Solução | 60 | 573 | Q01. Busca: só exterior. Ufape não apareceu |
 | IA12 | Curso de videotoscopia veterinária para otite em cães e gatos, tem em São Paulo? | M | Solução | 58 | 68614 | Q04. Busca: só artigos |
 | IA13 | Curso de endoscopia digestiva para cães e gatos em São Paulo com prática | M | Solução | 58 | 623 ou 68637 | Q06. Busca: nenhum curso prático brasileiro (W03) |
-| IA14 | Quais cursos práticos presenciais para médico veterinário têm em São Paulo em 2026? | M | Solução | 54 | Hub L06 | Busca: nada de 2026 (W21) |
+| IA14 | Quais cursos práticos para médico veterinário têm em São Paulo em 2026? | M | Solução | 54 | Hub L06 | Busca: nada de 2026 (W21) |
 | IA15 | Curso hands-on ou congresso, qual vale mais a pena para aprender uma técnica? | C | Comparação | 42 | Hub L06 | |
 | IA16 | Vale a pena fazer curso presencial de ecocardiografia ou só o curso gravado? | C | Comparação | 48 | Comparativa L08, 573 e 411 | Q02 |
 | IA17 | Vale a pena fazer curso de videotoscopia se eu já uso otoscópio comum? | C | Comparação | 48 | 68614 e artigo L10 | |
 | IA18 | Quanto de prática um curso hands-on precisa ter para valer a pena, e quantos alunos por equipamento? | C | Comparação | 40 | Hub L06 (FAQ) | 68614 responde (1 equipamento para 3); 573 e 623 [CONFIRMAR NO CATÁLOGO] |
-| IA19 | Vale a pena viajar para fazer curso presencial de fim de semana em São Paulo? | C | Decisão | 38 | Hub L06 | Objeção de custo de viagem (persona P-L1) |
+| IA19 | Vale a pena viajar para fazer curso de fim de semana em São Paulo? | C | Decisão | 38 | Hub L06 | Objeção de custo de viagem (persona P-L1) |
 | IA20 | Preciso de experiência prévia para fazer curso de endoscopia digestiva veterinária? | R | Decisão | 48 | 623 ou 68637 (FAQ) | Q05 |
 | IA21 | Estudante do último ano de veterinária pode fazer curso de videotoscopia ou de ecocardiografia hands-on? | R | Decisão | 50 | 68614 (responde) e 573 | 573: [CONFIRMAR] |
 | IA22 | O que levar para o curso prático de endoscopia digestiva? | R | Decisão | 46 | 623 ou 68637 (FAQ) | 623 diz pijama cirúrgico e sapato fechado; 68637 diz pijama cirúrgico e touca |
@@ -541,7 +544,7 @@ Tipos: **D** decisão (intenção de matrícula), **C** comparativa, **I** infor
 
 | Cluster | Tipo | Pilar (página) | Palavra principal | Apoio (página: palavra) | Situação |
 |---|---|---|---|---|---|
-| CD-F1 Cursos práticos presenciais | D | Hub presenciais (L06) | cursos práticos para médicos veterinários | 573, 68614, 623 ou 68637, 616, 68618, 68638, 560, cada uma com a sua palavra | Falta |
+| CD-F1 Cursos práticos com data | D | Hub presenciais (L06) | cursos práticos para médicos veterinários | 573, 68614, 623 ou 68637, 616, 68618, 68638, 560, cada uma com a sua palavra e a modalidade do catálogo | Falta |
 | CD-ECO Ecocardiografia hands-on | D | 573 | curso hands-on de ecocardiografia veterinária | 411: curso de ecocardiograma em pequenos animais; 395: curso de eletrocardiograma veterinário online; 68665: grupo de estudos de cardiologia veterinária | Fraca |
 | CD-VID Videotoscopia | D | 68614 | curso de videotoscopia veterinária | FAQ da própria página | Existe |
 | CD-END Endoscopia digestiva | D | 623 ou 68637 (H2) | curso de endoscopia digestiva veterinária | 291: curso de gastroendoscopia veterinária | Fraca |
@@ -572,7 +575,7 @@ Verificações das regras da skill: (1) uma palavra principal por página, atend
 | ecocardiografia, ecocardiograma | 573 usa "ecocardiografia"; 411 usa "ecocardiograma"; comparativa L08 usa os dois só no título | Artigos CI-A2 usam "ecocardiograma ou eletrocardiograma" |
 | curso de ecocardiografia veterinária (termo cabeça) | 573 (secundária) | L08 |
 | ventilação mecânica | 507: "online"; 68618: "na anestesia" | Hub L14 |
-| POCUS | 591: "online"; 68638: "prático" e "presencial" | Artigo L21 |
+| POCUS | 591: "online"; 68638: "prático" | Artigo L21 |
 | endoscopia | 623 ou 68637: "endoscopia digestiva"; 291: "gastroendoscopia" | Artigo L11 |
 | hemogasometria | 655: "online"; 107: "avançada" | Artigo L12 |
 | felinos | 340: "curso de felinos online"; 157: "para clínicos"; 105: "urgência e emergência"; 459: "minicurso" | Guia L16 |
@@ -585,10 +588,10 @@ Verificações das regras da skill: (1) uma palavra principal por página, atend
 
 1. Artigo CI para a página de produto da mesma área, uma vez no texto e uma no fim, âncora natural, sem urgência.
 2. Página de produto para o hub do formato e para o guia comparativo ("Compare com outros formatos").
-3. Hub para as páginas de produto, em tabela com data, carga horária, preço à vista e total no cartão (cálculo).
+3. Hub para as páginas de produto, em tabela com data, carga horária, preço à vista, número e valor da parcela e total no cartão (cálculo marcado).
 4. 573 e 411 linkam entre si; 623 ou 68637 e 291; 655 e 107; 68614 e 623 não aparecem como alternativa de escolha (mesmo fim de semana, 28 e 29/11).
 5. Neuro-summit e 68634 linkam entre si, com primeiras frases diferentes.
-6. Link para Pós só ao fim, em bloco "para quem quer se especializar", sem promessa de caminho.
+6. Link para Pós só ao fim, em bloco "para quem quer se especializar", com o nome "Pós-graduação em <área>" e sem promessa de caminho.
 
 ### 8.4 Ajustes em relação ao arquivo de lacunas de 26/10/2026
 
@@ -598,13 +601,14 @@ Verificações das regras da skill: (1) uma palavra principal por página, atend
 | Palavra do hub L06 | curso prático veterinária presencial | cursos práticos para médicos veterinários | Qualifica o público e evita puxar tutor e graduação |
 | Palavra do hub L14 | cursos online de veterinária | cursos online para médicos veterinários | Idem |
 | Palavra de CD-E2 | congresso veterinário gravado | eventos para médicos veterinários (hub), e uma palavra por produto | O hub tem workshop e dois gravados |
+| CD-VM | uma palavra para 507 e 68618 | duas palavras, uma por página | Uma palavra por página |
 | Ventilação, elovetnet | S16: "público não claro" | O resumo de hoje (W15) descreve o curso como "Anestesiologia: Bases para a Ventilação Mecânica", por R$ 97,00 | Público a confirmar abrindo a página [CONFIRMAR] |
 
 ---
 
 ## 9. Briefings SEO resumidos da onda 1
 
-Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de caracteres e palavras feitas pelo agente; conferir no CMS. Título e descrição não levam preço (preço muda). Nenhuma frase de certificação. Nenhum docente nomeado.
+Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de caracteres e palavras feitas pelo agente; conferir no CMS. Título e descrição não levam preço (preço muda); o bloco citável leva o preço completo do catálogo (à vista, parcelas e total no cartão, este marcado como cálculo). Nenhuma frase de certificação. Nenhum docente nomeado. Todo link de próximo passo para a Pós usa o nome padrão "Pós-graduação em <área>".
 
 ### 9.1 573 Curso Hands-On de Ecocardiografia Veterinária Básica
 
@@ -615,10 +619,10 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (149):** Curso prático de ecocardiografia veterinária básica em São Paulo, em 14 e 15/11/2026: 16 h de prática e 12 h de teoria gravada. Conheça a programação.
 - **H1:** Curso Hands-On de Ecocardiografia Veterinária Básica, São Paulo
 - **H2:** Para quem é o curso; O que você vai praticar (Modo B, Modo M e Doppler; anatomia topográfica e cortes; função sistólica e diastólica do ventrículo esquerdo; cardiomiopatias; valvopatia mixomatosa; hipertensão arterial pulmonar; pericardiopatias e neoplasias cardíacas); Como funcionam os dois dias; Equipamentos e estrutura [CONFIRMAR]; Data, local e horário; Investimento e formas de pagamento; Hands-on ou curso gravado: qual escolher; Perguntas frequentes.
-- **Bloco citável (43 palavras):** O Curso Hands-On de Ecocardiografia Veterinária Básica tem 28 horas: 16 de prática presencial em São Paulo, em 14 e 15/11/2026, e 12 de teoria gravada, com acesso por 6 meses. Investimento: R$ 2.350,00 à vista ou 10x de R$ 303,00 no cartão.
-- **FAQ (perguntas reais, de lacunas 10.1 e da persona):** Quantas vagas tem a turma e qual o mínimo? Quantos participantes por equipamento? A prática é em animal vivo, em modelo ou em simulador? Preciso de experiência prévia? Estudante pode participar? E se eu desistir ou a turma não abrir? Posso parcelar e quanto pago no total no cartão (R$ 3.030,00, cálculo)? Por quanto tempo tenho acesso à teoria gravada?
+- **Bloco citável (56 palavras):** O Curso Hands-On de Ecocardiografia Veterinária Básica tem 28 horas: 16 de prática presencial em São Paulo, em 14 e 15/11/2026, e 12 de teoria gravada, com acesso por 6 meses. Investimento: R$ 2.350,00 à vista ou 10x de R$ 303,00 no cartão (total de R$ 3.030,00, cálculo). Curso livre: não confere diploma nem equivale a pós-graduação.
+- **FAQ (perguntas reais, de lacunas 10.1 e da persona):** Quantas vagas tem a turma e qual o mínimo? Quantos participantes por equipamento? A prática é em animal vivo, em modelo ou em simulador? Preciso de experiência prévia? Estudante pode participar? E se eu desistir ou a turma não abrir? Posso parcelar e quanto pago no total no cartão (R$ 3.030,00, cálculo)? Por quanto tempo tenho acesso à teoria gravada? O curso dá diploma ou equivale a pós-graduação? (Resposta fixa: curso livre não confere diploma nem equivale a pós-graduação; texto oficial de certificação [PREENCHER COM A REGULAÇÃO].)
 - **Entidades:** Faculdade Ufape; São Paulo; Av. 9 de Julho, 3939; ecocardiografia veterinária; hands-on; Modo B, Modo M, Doppler; cardiomiopatias caninas e felinas; valvopatia mixomatosa; hipertensão arterial pulmonar.
-- **Links de entrada:** hub L06, artigos L09, L08 e L20, 68665, 411. **Links de saída:** hub L06, comparativa L08, 411, 395, 68665; ao fim, Pós em Ecocardiografia (698) como próximo passo, sem promessa.
+- **Links de entrada:** hub L06, artigos L09, L08 e L20, 68665, 411. **Links de saída:** hub L06, comparativa L08, 411, 395, 68665; ao fim, Pós-graduação em Ecocardiografia (698) como próximo passo, sem promessa.
 - **Prova e marcação:** dado do catálogo, FAQ com número de vagas e equipamentos (depois de confirmado), marcação da skill schema-de-curso. Docente listado na ficha: só com autorização registrada.
 - **Dados do catálogo:** nome, 28 h, início 14/11/2026, preço, São Paulo. **Só na ficha [CONFIRMAR NO CATÁLOGO]:** 16 h de prática, 12 h de teoria, acesso por 6 meses, "animais reais", "turma reduzida" sem número, programação.
 - **Bloqueios:** data diverge da visão de campanhas (14/11 contra 29/11, P6); modalidade aparece como "Semiprensecial" no catálogo (grafia) e a página diz presencial com teoria gravada; horário aparece duas vezes e diverge (sábado 08h às 18h contra 08h às 13h e 14h às 19h); texto de pagamento com "carta de crédito"; sem política de cancelamento.
@@ -632,10 +636,10 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (135):** Curso de videotoscopia para otites em cães e gatos, em São Paulo, 28 e 29/11/2026. Teoria, demonstração clínica e hands-on em 12 horas.
 - **H1:** Curso Livre em Videotoscopia: otoscopia e vídeo-otoendoscopia em cães e gatos
 - **H2:** Para quem é o curso; O que você vai aprender (sábado de manhã, teoria; sábado à tarde, prática demonstrativa; domingo, hands-on); Prática com pacientes reais e hands-on em modelo; Turma e equipamentos; Material incluso (PDF, checklist e modelo de ficha); Data, local e investimento; Videotoscopia ou otoscopia convencional [revisão de docente]; Perguntas frequentes.
-- **Bloco citável (58 palavras):** O Curso Livre em Videotoscopia é um curso presencial de 12 horas, em São Paulo, nos dias 28 e 29/11/2026. Reúne teoria, demonstração clínica em pacientes reais e hands-on em modelo, com 1 equipamento para cada 3 participantes e turma de 15 a 30 alunos. Não confere diploma. Investimento: R$ 1.250,00 à vista ou 10x de R$ 175,00.
-- **FAQ (a ficha já tem 9 perguntas; manter e acrescentar):** Preciso ter experiência prévia com vídeo-otoendoscopia? Estudante do último ano pode fazer? A prática será em pacientes reais? Quantos alunos participam? Qual a proporção de equipamentos? Qual a política de cancelamento? Qual a diferença para a otoscopia convencional (nova, com docente)? Posso parcelar e quanto pago no total (R$ 1.750,00, cálculo)?
+- **Bloco citável (57 palavras):** O Curso Livre em Videotoscopia é um curso presencial de 12 horas, em São Paulo, nos dias 28 e 29/11/2026. Reúne teoria, demonstração clínica em pacientes reais e hands-on em modelo, com 1 equipamento para cada 3 participantes. Não confere diploma. Investimento: R$ 1.250,00 à vista ou 10x de R$ 175,00 (total de R$ 1.750,00, cálculo).
+- **FAQ (a ficha já tem 9 perguntas; manter e acrescentar):** Preciso ter experiência prévia com vídeo-otoendoscopia? Estudante do último ano pode fazer? A prática será em pacientes reais? Quantos alunos participam (15 a 30, ficha)? Qual a proporção de equipamentos? Qual a política de cancelamento? Qual a diferença para a otoscopia convencional (nova, com docente)? Posso parcelar e quanto pago no total (R$ 1.750,00, cálculo)?
 - **Entidades:** Faculdade Ufape; hospital Ufape; São Paulo; Av. Nove de Julho, 3939; otite em cães e gatos; membrana timpânica; lavado otológico; citologia; miringotomia; vídeo-otoendoscopia.
-- **Links de entrada:** hub L06, artigo L10. **Saída:** hub L06, artigo L10; ao fim, Pós em Dermatologia Veterinária (68610) como próximo passo, sem promessa. Sem link de alternativa para 623 ou 68637.
+- **Links de entrada:** hub L06, artigo L10. **Saída:** hub L06, artigo L10; ao fim, Pós-graduação em Dermatologia Veterinária (68610) como próximo passo, sem promessa. Sem link de alternativa para 623 ou 68637.
 - **Dados do catálogo:** nome, 12 h, presencial, 28/11/2026, preço, São Paulo. **Só na ficha [CONFIRMAR NO CATÁLOGO]:** 15 a 30 alunos, 1 equipamento para 3, prática em pacientes reais, bônus, cancelamento até 30 dias com devolução total, programação.
 - **Bloqueios:** a página traz a frase de selo do MEC no certificado (a squad não a repete e o briefing pede a retirada, H3 do arquivo de lacunas, revisão R); a janela de cancelamento de 30 dias fecha em 29/10 (cálculo do arquivo de lacunas), então a página não pode prometer devolução total sem confirmação; data da visão de campanhas diverge (18/12, P6).
 
@@ -649,11 +653,11 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (148):** Imersão teórica e prática em endoscopia digestiva veterinária, em São Paulo, 28 e 29/11/2026. 12 horas com módulos práticos e biópsias endoscópicas.
 - **H1:** Curso de Imersão Teórico e Prático em Endoscopia Digestiva, São Paulo
 - **H2:** Para quem é o curso (estudantes, clínico geral e gastroenterologista, como diz a página); Programação dos dois dias (sábado, fundamentos e técnica; domingo, alterações, biópsias e treinamento prático); Quanto é teoria e quanto é prática; O que levar para a aula prática; Turma mínima e o que acontece se a turma não abrir; Data, local, horário e investimento; Perguntas frequentes.
-- **Bloco citável (57):** O curso de imersão teórico e prático em endoscopia digestiva tem 12 horas e acontece em São Paulo, em 28 e 29/11/2026. São dois dias com módulos teóricos e práticos, incluindo biópsias endoscópicas. A turma tem no mínimo 15 alunos. Investimento: R$ 890,00 à vista ou 6x de R$ 205,00 no cartão. Curso livre não confere diploma.
-- **FAQ:** Preciso de experiência para fazer? Estudante pode participar? Quantos equipamentos e quantos alunos por equipamento? O que levar? E se a turma não abrir, devolvem o valor? Passagem e hospedagem são reembolsadas? Quando comprar passagem? Posso parcelar e quanto pago no total (R$ 1.230,00)?
+- **Bloco citável (57 palavras):** O curso de imersão teórico e prático em endoscopia digestiva tem 12 horas e acontece em São Paulo, em 28 e 29/11/2026. São dois dias com módulos teóricos e práticos, incluindo biópsias endoscópicas. Investimento: R$ 890,00 à vista ou 6x de R$ 205,00 (total de R$ 1.230,00 no cartão, cálculo). Curso livre não confere diploma.
+- **FAQ:** Preciso de experiência para fazer? Estudante pode participar? Qual o mínimo de alunos (15, ficha)? Quantos equipamentos e quantos alunos por equipamento? O que levar? E se a turma não abrir, devolvem o valor? Passagem e hospedagem são reembolsadas? Quando comprar passagem? Posso parcelar e quanto pago no total (R$ 1.230,00)?
 - **Entidades:** Faculdade Ufape; São Paulo; Av. 9 de Julho, 3939; endoscopia digestiva alta; biópsia endoscópica; laudo endoscópico; retirada de corpo estranho; esôfago, estômago e duodeno.
-- **Links de entrada:** hub L06, artigo L11. **Saída:** hub L06, 291, artigo L11; ao fim, Pós em Gastroenterologia Veterinária (68606) como próximo passo. Sem link de alternativa para 68614.
-- **Dados do catálogo:** 12 h, presencial, 28/11/2026, R$ 890,00 ou 6x de R$ 205,00, São Paulo, mínimo de 15 alunos não consta (só na ficha). **Só na ficha [CONFIRMAR NO CATÁLOGO]:** mínimo de 15 alunos, cronograma, itens a levar (pijama cirúrgico e sapato fechado em 623; pijama cirúrgico e touca em 68637), política de passagem e reembolso.
+- **Links de entrada:** hub L06, artigo L11. **Saída:** hub L06, 291, artigo L11; ao fim, Pós-graduação em Gastroenterologia Veterinária (68606) como próximo passo. Sem link de alternativa para 68614.
+- **Dados do catálogo:** 12 h, presencial, 28/11/2026, R$ 890,00 ou 6x de R$ 205,00, São Paulo. **Só na ficha [CONFIRMAR NO CATÁLOGO]:** mínimo de 15 alunos, cronograma, itens a levar (pijama cirúrgico e sapato fechado em 623; pijama cirúrgico e touca em 68637), política de passagem e reembolso.
 - **Bloqueios:** duplicidade e data (P7 e H2); sem número de equipamentos nem de prática por aluno; reembolso só se a turma não for confirmada (política única pendente); "Artigos científicos" como único material.
 
 ### 9.4 Neuro-summit: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia
@@ -665,11 +669,11 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (135):** Workshop presencial de neuromonitorização em anestesia e UTI veterinária: sexta teórica, sábado prático, 16 h e 30 vagas, em São Paulo.
 - **H1:** Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia
 - **H2:** Para quem é o workshop; O que você vai aprender (EEG, análises espectrais, BIS, PSI, Conox, TOF, paciente sob bloqueio neuromuscular); Programação da sexta-feira, teoria; Programação do sábado, prática; Corpo docente confirmado [CONFIRMAR autorização]; Presencial ou transmitido e gravado; Vagas, data e local; Investimento e cupom para aluno e ex-aluno; Perguntas frequentes.
-- **Bloco citável (51):** O Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia acontece em 20 e 21/11/2026, na Unidade 2 da Faculdade Ufape, em São Paulo. São 16 horas, com sexta-feira teórica e sábado prático, e 30 vagas. Investimento presencial: R$ 1.250,00. A opção transmitida e gravada, só com a teoria, custa R$ 450,00.
-- **FAQ (6 perguntas da página, mais as que faltam):** O workshop é presencial ou online? Como funcionam os dois dias? É necessário saber interpretar EEG? É só sobre BIS? Quantas vagas existem? Como funciona o cupom e quem tem direito? Posso parcelar a inscrição presencial? Quais monitores serão usados e quantos participantes por equipamento? O hospital pode pagar com nota fiscal? Qual a diferença entre o presencial e o transmitido?
+- **Bloco citável (56 palavras):** O Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia acontece em 20 e 21/11/2026, na Unidade 2 da Faculdade Ufape, em São Paulo. São 16 horas, com sexta-feira teórica e sábado prático, e 30 vagas. Investimento presencial: R$ 1.250,00 (parcelamento [CONFIRMAR NO CATÁLOGO]). A opção transmitida e gravada, só com a teoria, custa R$ 450,00.
+- **FAQ (6 perguntas da página, mais as que faltam):** O workshop é presencial ou online? Como funcionam os dois dias? É necessário saber interpretar EEG? É só sobre BIS? Quantas vagas existem? Como funciona o cupom e quem tem direito? Posso parcelar a inscrição presencial? Quais monitores serão usados e quantos participantes por equipamento? O hospital pode pagar com nota fiscal? Qual a diferença entre o presencial e o transmitido? O workshop dá diploma? (Resposta fixa: não confere diploma nem equivale a pós-graduação; texto oficial [PREENCHER COM A REGULAÇÃO].)
 - **Entidades:** Faculdade Ufape, Unidade 2; Av. Tiradentes, 960; neuromonitorização; EEG; DSA e CSA; BIS; PSI; Conox; qNOX; TOF; bloqueio neuromuscular; anestesia de precisão; UTI; cães, gatos, equinos e bovinos (como diz a página). Coordenação científica e docentes: nome só com autorização [CONFIRMAR autorização].
-- **Links de entrada:** artigos L07, L18 e L19, hub eventos L17, mapa A1 (644 e 483). **Saída:** 68634, hub L17; após 21/11, próxima edição [CONFIRMAR que haverá]; ao fim, Pós em Anestesiologia Avançada (657) e em Neurologia e Neurocirurgia (68616) como próximo passo, sem promessa.
-- **Dados do catálogo (seção 9):** nome, 20/11/2026, São Paulo e endereço, presencial 16 h, 30 vagas, R$ 1.250,00, transmitido e gravado R$ 450,00, cupom de 20% para aluno e ex-aluno. **Só na ficha:** grade por hora, FAQ, certificado conforme presença (a página usa o texto; a squad não o reescreve em título, descrição ou bloco), "apostila e material digital, se previsto" (não prometer).
+- **Links de entrada:** artigos L07, L18 e L19, hub eventos L17, mapa A1 (644 e 483). **Saída:** 68634, hub L17; após 21/11, próxima edição [CONFIRMAR que haverá]; ao fim, Pós-graduação em Anestesiologia Avançada (657) e Pós-graduação em Neurologia e Neurocirurgia Veterinária (68616) como próximo passo, sem promessa.
+- **Dados do catálogo (seção 9):** nome, 20/11/2026, São Paulo e endereço, presencial 16 h, 30 vagas, R$ 1.250,00, transmitido e gravado R$ 450,00 (produto 68634, 1x no cartão), cupom de 20% para aluno e ex-aluno. **Só na ficha:** grade por hora, FAQ, certificado conforme presença (a página usa o texto; a squad não o reescreve em título, descrição ou bloco), "apostila e material digital, se previsto" (não prometer).
 - **Bloqueios:** produto 68634 em "verificar" (sem data, 24 h contra 16 h, modalidade "Presencial" na loja): página do evento e 68634 não podem disputar a mesma palavra; parcelamento do presencial; quais monitores e quantos por grupo; vagas restantes (sem "últimas vagas"); regra do cupom para aluno de pós e validade; convidados "a definir" ficam fora; nome "simpósio" na planilha contra "workshop" na página.
 
 ### 9.5 68665 Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária
@@ -681,8 +685,8 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (146):** Grupo de estudos online de cardiologia e ecocardiografia veterinária, com encontros a cada 15 dias, transmitidos e gravados, e discussão de casos.
 - **H1:** Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária
 - **H2:** Como funciona o grupo; Agenda de encontros (ECG, ecocardiografia e cardiologia clínica); O que o valor de R$ 100,00 cobre [CONFIRMAR NO CATÁLOGO]; Gravações: quanto tempo ficam disponíveis; Para quem é o grupo [CONFIRMAR]; Desistência e reembolso; Perguntas frequentes.
-- **Bloco citável (55):** O Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária é online e tem encontros a cada 15 dias, transmitidos e gravados, com discussão de casos clínicos, de artigos e videoaulas. A agenda traz temas de ECG, ecocardiografia e cardiologia clínica. Inscrição: R$ 100,00 à vista. O período coberto por esse valor é [CONFIRMAR NO CATÁLOGO].
-- **FAQ:** O valor de R$ 100,00 cobre o quê (um encontro, um mês, o ano)? Os encontros são ao vivo e ficam gravados? Posso entrar com o grupo em andamento? Preciso ser formado? Estudante participa? Posso pedir reembolso? Haverá certificado? [PREENCHER COM A REGULAÇÃO]. Qual a data de início?
+- **Bloco citável (55 palavras):** O Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária é online e tem encontros a cada 15 dias, transmitidos e gravados, com discussão de casos clínicos, de artigos e videoaulas. A agenda traz temas de ECG, ecocardiografia e cardiologia clínica. Inscrição: R$ 100,00 à vista ou 1x de R$ 100,00 no cartão (total de R$ 100,00). O período coberto por esse valor é [CONFIRMAR NO CATÁLOGO].
+- **FAQ:** O valor de R$ 100,00 cobre o quê (um encontro, um mês, o ano)? Os encontros são ao vivo e ficam gravados? Posso entrar com o grupo em andamento? Preciso ser formado? Estudante participa? Posso pedir reembolso? O grupo dá diploma ou equivale a pós-graduação? (Resposta fixa: curso livre não confere diploma nem equivale a pós-graduação; certificado: [PREENCHER COM A REGULAÇÃO].) Qual a data de início?
 - **Entidades:** Faculdade Ufape; ECG; ecocardiografia; cardiologia clínica; função diastólica; arritmias; grupo de WhatsApp (a ficha o cita para envio dos links). Docentes citados na agenda: nome só com autorização.
 - **Links de entrada:** hub L13, artigos L09 e L20, 573. **Saída:** hub L13, 573, 411, 395.
 - **Dados do catálogo:** nome, 01/11/2026, 2 h, online, R$ 100,00 à vista ou 1x. **Só na ficha:** encontros a cada 15 dias, gravações por 120 dias, aulas demonstrativas por 30 dias, liberação 7 dias depois, desistência sem reembolso, agenda.
@@ -697,8 +701,8 @@ Cada briefing segue a skill briefing-seo, em versão resumida. Contagens de cara
 - **Descrição (124):** Grupo de estudos online de clínica médica e emergência de cães e gatos: 12 módulos com encontros de 25/11/2026 a 24/11/2027.
 - **H1:** Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos
 - **H2:** Como funciona o grupo; Agenda por módulo (prática clínica, endocrinologia, nefrologia, trato gastrointestinal, nutrição, antimicrobianos, cardiologia e cuidados paliativos, hematologia, dor e discussão de casos); O que o valor de R$ 100,00 cobre [CONFIRMAR NO CATÁLOGO]; Gravações e acesso [CONFIRMAR]; Para quem é o grupo [CONFIRMAR]; Desistência e reembolso; Perguntas frequentes.
-- **Bloco citável (55):** O Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos é online e começa em 25/11/2026. A agenda tem 12 módulos, de prática clínica, endocrinologia, nefrologia, nutrição, antimicrobianos, hematologia e dor, entre outros, com encontros até 24/11/2027. Inscrição: R$ 100,00 à vista. O período coberto por esse valor é [CONFIRMAR NO CATÁLOGO].
-- **FAQ:** O que o valor de R$ 100,00 cobre? Os encontros ficam gravados? Posso entrar depois do início? Preciso ser formado? Haverá certificado? [PREENCHER COM A REGULAÇÃO]. Posso desistir e receber o valor de volta? Quem conduz os encontros? (docentes só com autorização).
+- **Bloco citável (55 palavras):** O Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos é online e começa em 25/11/2026. A agenda tem 12 módulos, de prática clínica, endocrinologia, nefrologia, nutrição, antimicrobianos, hematologia e dor, entre outros, com encontros até 24/11/2027. Inscrição: R$ 100,00 à vista ou 1x de R$ 100,00 no cartão. O período coberto por esse valor é [CONFIRMAR NO CATÁLOGO].
+- **FAQ:** O que o valor de R$ 100,00 cobre? Os encontros ficam gravados? Posso entrar depois do início? Preciso ser formado? O grupo dá diploma ou equivale a pós-graduação? (Resposta fixa: curso livre não confere diploma nem equivale a pós-graduação; certificado: [PREENCHER COM A REGULAÇÃO].) Posso desistir e receber o valor de volta? Quem conduz os encontros? (docentes só com autorização).
 - **Entidades:** Faculdade Ufape; clínica médica de cães e gatos; emergência; pancreatite; ITU recorrente; terapias de substituição renal; antibioticoterapia empírica; cuidados paliativos; dor.
 - **Links de entrada:** hub L13, artigos L22 e L12. **Saída:** hub L13, 643 e 713 (canônica), 655, 591.
 - **Dados do catálogo:** nome, 25/11/2026, online, R$ 100,00 à vista ou 1x; carga horária não consta. **Só na ficha:** 12 módulos, agenda até 24/11/2027.
@@ -718,7 +722,7 @@ Legenda: **Tipo** busca ou IA; **Int.** A aprender, C comparar, M matricular, R 
 
 | Formato | Palavra principal | Tipo | Int. | Pts | Prior. | Página de destino |
 |---|---|---|---|---|---|---|
-| Presencial hands-on | cursos práticos para médicos veterinários | Busca | C | 48 | P1 | Hub presenciais (L06) |
+| Cursos práticos com data | cursos práticos para médicos veterinários | Busca | C | 48 | P1 | Hub presenciais (L06) |
 | Online gravado | cursos online para médicos veterinários | Busca | M | 50 | P2 | Hub online (L14) |
 | Minicurso | minicurso de veterinária online | Busca | M | 58 | P2 | Hub minicursos (L15) |
 | Grupo de estudos | grupo de estudos de veterinária | Busca | M | 52 | P2 | Hub grupos (L13) |
@@ -851,7 +855,7 @@ Critério: intenção de matrícula alta, data próxima ou compra imediata, pont
 | 9 | curso de POCUS veterinário online | Busca | M | 62 | 591 | Contínuo; compra imediata; sem concorrente brasileiro visto |
 | 10 | curso de cálculo de CRI em veterinária | Busca | M | 60 | 602 | Contínuo; R$ 96,00 à vista; compra por impulso |
 
-Próximas do corte do top 10: curso de hemogasometria veterinária online (655, 60), curso de eletrocardiograma veterinário online (395, 60), grupo de estudos de clínica médica e emergência veterinária (68666, 60) e IA12 e IA13 (58).
+Próximas do corte do top 10: curso de hemogasometria veterinária online (655, 60), curso de eletrocardiograma veterinário online (395, 60), grupo de estudos de clínica médica e emergência veterinária (68666, 60) e IA12 e IA13 (58). O item 8 tem 54 pontos e entra por tirar uma dúvida que bloqueia a compra de duas páginas da onda 1 (exceção ao critério de 58).
 
 ---
 
@@ -866,7 +870,7 @@ Nada é publicado, enviado ou pago pela squad. Os itens abaixo são pedidos de d
 | H3 | Aprovar as palavras principais da onda 1 (seção 9) e a regra de uma palavra por página | Libera seo-on-page e briefing-de-conteudo | Sem custo | Páginas sem canibalização | Voltar a lista anterior |
 | H4 | Decidir se o termo "EAD" entra em alguma página de Livres | Termo de fronteira que puxa Pós e curso técnico | Sem custo | Evita misturar linhas | Reverter o texto |
 | H5 | Pedir à regulação o texto oficial de certificação e a decisão sobre a frase de selo do MEC em 68614 | Libera o grupo 5 de intenção e as FAQs | Sem custo | Seção de certificação liberada | Não se aplica |
-| H6 | Confirmar com a Ufape os dados da seção 9 marcados [CONFIRMAR NO CATÁLOGO] (vagas, equipamentos, cancelamento, período dos R$ 100,00, data de 68665, modalidade de 573) | Fecham FAQ e bloco citável | Sem custo | FAQ só com fato | Não se aplica |
+| H6 | Confirmar com a Ufape os dados da seção 9 marcados [CONFIRMAR NO CATÁLOGO] (vagas, equipamentos, cancelamento, período dos R$ 100,00, data de 68665, modalidade de 573, 616 e 68618) | Fecham FAQ e bloco citável | Sem custo | FAQ só com fato | Não se aplica |
 | H7 | Autorizar o uso de "Neuro Summit" como apelido em peça e em palavra de busca | A URL usa o nome; a planilha usa "simpósio"; a página usa "workshop" | Sem custo | Termo de marca coerente | Voltar ao nome oficial |
 | H8 | Rodar a checagem manual das perguntas IA01 a IA67 antes e depois dos ajustes | A squad não consulta assistentes de IA | Horas do time | Taxa real de citação | Não se aplica |
 | H9 | Pedir revisão por falante nativo das palavras e perguntas em espanhol | P17 | Horas do revisor | Espanhol aprovado | Não se aplica |
@@ -890,9 +894,11 @@ Pela regra deste agente, o próximo é **lacunas-de-conteudo**. Como esse agente
 5. Neuro-summit: 20 e 21/11/2026, 16 h, 30 vagas, R$ 1.250,00 e R$ 450,00, cupom, FAQ de 6 perguntas, grade por hora. Fonte: ficha do evento e catálogo, seção 9.
 6. 68665: R$ 100,00, encontros a cada 15 dias, gravações por 120 dias, desistência sem reembolso, agenda a partir de 05/11/2026. 68666: início 25/11/2026, 12 módulos até 24/11/2027, "Prof. a definir" em 31/03/2027. Fontes: fichas 68665 e 68666.
 7. Personas, objeções e alternativas por formato: pesquisa-de-persona livres e eventos de 26/10/2026.
-8. Recorte, 14 áreas, ondas, canais e pendências P1 a P18: plano do cmo de 26/10/2026, seções 2.3, 3 e 7.
+8. Recorte, 14 áreas, ondas, canais e pendências P1 a P18: plano do cmo de 26/10/2026, seções 2.3, 3 e 7. Os 47 contínuos por área (8, 3, 7, 2, 1, 3, 7, 1, 3, 1, 3, 1, 5 e 2): seção 2.3 do plano e seção 9.1 do arquivo de lacunas.
 9. Duplicidades, 301 e arquitetura de clusters: arquivo de lacunas de 26/10/2026, seções 3.3 e 8.
 10. Dias até o início, calculados em 26/10/2026: 573 em 19, 68614 e 623 em 33, neuro-summit em 25, 68665 em 10 (agenda) ou 6 (catálogo), 68666 em 30.
+11. Modalidade no catálogo: 573 "Semiprensecial"; 560 "Semipresencial"; 616 "On-line" (local "Presencial e Online"); 68618 sem modalidade. Fonte: catálogo, seções 4 e 5 (apontado pelo qa-de-marketing).
+12. Padrão de nome "Pós-graduação em <área>", nunca "Pós em", em páginas e peças; curso livre mostra à vista, parcelado e total no cartão quando diferente, e deixa claro que não confere diploma. Fontes: contexto/pos-graduacao.md e contexto/cursos-livres.md.
 
 **Externos (consultas de 26/10/2026 pela ferramenta de busca; resumo, páginas não abertas):**
 
@@ -935,7 +941,7 @@ Pela regra deste agente, o próximo é **lacunas-de-conteudo**. Como esse agente
 9. [SUPOSIÇÃO] Que o apelido "Neuro Summit" é usado pelo candidato e pode entrar em peça.
 10. [SUPOSIÇÃO] Que artigo novo não renderá inscrição para as datas da onda 1 (indexação leva semanas), por isso a palavra principal das páginas de produto vem antes dos artigos.
 11. [SUPOSIÇÃO] Que o preço total no cartão (parcela vezes número de parcelas) é cálculo deste agente, não dado do catálogo.
-12. [SUPOSIÇÃO] Que existirá nova edição do workshop de neuromonitorização.
+12. [SUPOSIÇÃO] Que haverá nova edição do workshop de neuromonitorização.
 13. [SUPOSIÇÃO] Que a ponte de Livres para Pós existe; por isso a Pós só entra como link de próximo passo.
 14. [SUPOSIÇÃO] Que quem escolhe o hub de formato tem a mesma persona (P-L1 a P-L5) das fichas.
 
@@ -949,7 +955,7 @@ Pela regra deste agente, o próximo é **lacunas-de-conteudo**. Como esse agente
 6. [CONFIRMAR NO CATÁLOGO] Qual página fica entre 623 e 68637, data de 623 no site, mínimo de alunos, equipamentos, prática por aluno, política de reembolso e de passagem.
 7. [CONFIRMAR NO CATÁLOGO] Para o neuro-summit e o 68634: parcelamento do presencial, monitores e participantes por equipamento, vagas restantes, regra e validade do cupom (inclusive aluno de pós), inscrição em grupo e nota fiscal, correção de data, 16 h e modalidade do 68634.
 8. [CONFIRMAR NO CATÁLOGO] Para 68665 e 68666: data de início (01/11 ou 05/11), período coberto por R$ 100,00, entrada em grupo em andamento, reembolso, carga horária de 68666, público (precisa ser formado).
-9. [CONFIRMAR NO CATÁLOGO] Carga horária de 68638, idioma e certificado de 700, 8 h, turma e tradução de 202; conteúdo da ficha de 104 e dos 11 contínuos sem linha própria na seção 6.
+9. [CONFIRMAR NO CATÁLOGO] Carga horária de 68638, idioma e certificado de 700, 8 h, turma e tradução de 202; conteúdo da ficha de 104; modalidade de 616 e de 68618.
 10. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação do curso livre e do evento; decisão sobre a frase de selo do MEC na página de 68614.
 11. [CONFIRMAR autorização] Imagem e voz de docentes e coordenação para qualquer página que os cite.
 12. [CONFIRMAR] Concorrentes diretos (lista em contexto/ufape-geral.md está em [PREENCHER]), para as perguntas de comparação com nome de concorrente.
