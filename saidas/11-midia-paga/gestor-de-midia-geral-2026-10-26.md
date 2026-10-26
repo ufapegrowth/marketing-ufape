@@ -3,6 +3,7 @@
 - **Agente:** gestor-de-midia (11 Mídia Paga, reporta ao cmo)
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos; Graduação fora deste memorando)
 - **Data:** 26/10/2026 (segunda-feira). Prazo do plano do cmo para as decisões: 28/10/2026.
+- **Versão:** 2, corrigida após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md, seção 1, itens G1 a G8 e observações O1 e O2). O resto do memorando não mudou.
 - **Natureza:** memorando de decisões para aprovação humana. Não é o plano de mídia completo por linha (etapa 1.11), que vem depois da estratégia de marketing (1.9). Nenhum número de gasto, resultado, verba ou vaga existe hoje: todos ficam [CONFIRMAR]. As decisões abaixo se apoiam só em catálogo, datas, visão de campanhas e regras da linha, e dizem o que precisa ser conferido no gerenciador antes de executar.
 - **Nada é executado pela squad.** Toda mudança de status, verba, lance, público, destino ou rastreio é feita por um humano no gerenciador, depois da aprovação.
 - **Entradas lidas:**
@@ -18,7 +19,9 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3, 7 e 8; pedidos A4, A6 e A8)
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analise-de-campanha-pos-2026-10-26.md, analise-de-campanha-livres-2026-10-26.md e analise-de-campanha-eventos-2026-10-26.md
-  - /home/user/marketing-ufape/saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md (alerta 1 e 2: Anclivepa)
+  - /home/user/marketing-ufape/saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md (alertas 1 e 2: Anclivepa)
+  - /home/user/marketing-ufape/saidas/06-geracao-de-demanda/estrategia-de-campanha-eventos-2026-10-26.md (seções 2 e 4, para alinhar o calendário do workshop)
+  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md (seção 1)
   - /home/user/marketing-ufape/.claude/skills/metas-de-custo/SKILL.md, diagnostico-de-midia/SKILL.md e matriz-gut/SKILL.md
   - /home/user/marketing-ufape/auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 
@@ -26,16 +29,17 @@
 
 ## 0. Situação em uma frase e regras que valem para todo o memorando
 
-**Situação:** há 19 campanhas ativas na visão, 6 delas em Pós que já começou, uma Pós (698) com data errada na página e a campanha mais prioritária da onda (22 provas de bolsa de 27/11/2026) ainda não existe na visão; sem gasto nem meta, as decisões de hoje são de elegibilidade, conformidade e calendário, não de desempenho.
+**Situação:** há 19 campanhas ativas na visão, 6 delas em Pós que já começou e está com status "verificar" no catálogo, uma Pós (698) com data errada na página e a campanha mais prioritária da onda (22 provas de bolsa de 27/11/2026) ainda não existe na visão; sem gasto nem meta, as decisões de hoje são de elegibilidade, conformidade e calendário, não de desempenho.
 
 **Regras fixas deste memorando (escritas antes de qualquer número):**
 
-1. **Sem número, sem decisão de desempenho.** Nenhuma campanha é escalada, ajustada por resultado ou julgada boa ou ruim. Só valem três motivos: a turma não pode mais receber aluno (elegibilidade), a página ou o anúncio não batem com o catálogo (conformidade) e a data chegou (calendário).
+1. **Sem número, sem decisão de desempenho.** Nenhuma campanha é escalada, ajustada por resultado ou julgada boa ou ruim. Só valem três motivos: a turma não pode mais receber aluno ou não está liberada para divulgação (elegibilidade), a página ou o anúncio não batem com o catálogo (conformidade) e a data chegou (calendário).
 2. **Pausar, nunca excluir.** Toda pausa é no nível da campanha, com exportação prévia das configurações e dos números do período (print ou CSV), para reativar igual se for preciso. Excluir apaga o histórico de aprendizado e não tem volta.
-3. **Uma mudança por vez no mesmo conjunto.** Nas campanhas que seguem ativas, nada de mudar verba, público e criativo na mesma semana.
+3. **Uma mudança por vez no mesmo conjunto,** no máximo uma por semana. Correção de conformidade é a única exceção: entra quando for achada.
 4. **Os últimos dias sempre subcontam conversões.** Nenhuma leitura de tendência com os dados de 24/10 a 26/10.
 5. **Se gerenciador, analytics e CRM não batem, a decisão é investigar.** Nenhuma decisão de desempenho vale até resolver.
 6. **Aprovador:** a tabela de aprovação de contexto/ufape-geral.md está vazia (P12 do plano). Até ser preenchida, todo pedido vai à pessoa do marketing que aprovou o plano do cmo. Quem executa no gerenciador: [CONFIRMAR].
+7. **Calendário de revisão:** 02/11/2026 é feriado (Finados). O primeiro relatório semanal ao cmo passa para 03/11 (terça); depois 09/11, 16/11, 23/11 e 30/11.
 
 ---
 
@@ -43,46 +47,44 @@
 
 ### 1.1 Regra de decisão
 
-Uma campanha de turma já iniciada só continua ativa se as quatro condições forem verdadeiras ao mesmo tempo. Basta uma falhar para o pedido ser PAUSAR.
+As 6 turmas estão com status "verificar (turma já iniciada e com venda)" no catálogo. Pelo catálogo ("Como usar") e pelo contexto da linha, turma "verificar" não recebe peça nem chamada para inscrição antes da confirmação da Ufape. Por isso a regra é falha fechada: **a campanha fica pausada até a Ufape confirmar, por escrito, E1 e E2**. Só então se olham E3 e E4 para reativar.
 
-| # | Condição | Quem confirma | Hoje |
+| # | Condição para reativar | Quem confirma | Hoje |
 |---|---|---|---|
-| E1 | A política de entrada da Ufape aceita aluno nesta turma na data de hoje, considerando os dias desde o início e os módulos já dados | Ufape (secretaria ou coordenação) | [CONFIRMAR] |
-| E2 | Há vaga para entrada tardia | Ufape | [CONFIRMAR] |
+| E1 | A política de entrada da Ufape aceita aluno nesta turma na data da reativação, considerando os dias desde o início e os módulos já dados | Ufape (secretaria ou coordenação), por escrito | [CONFIRMAR] |
+| E2 | Há vaga para entrada tardia | Ufape, por escrito | [CONFIRMAR] |
 | E3 | A página de destino vende esta turma, com data, preço e turma iguais ao catálogo | gerenciador e site | [CONFIRMAR]; 68662 tem link trocado (P3) |
 | E4 | A verba diária desta campanha cabe na verba aprovada e não está faltando para a onda 1 (provas, 698, 68610, 68608, workshop) | gerenciador e pessoa do marketing | [CONFIRMAR] |
 
-Referência para E1, enquanto a política não chega: a Pós tem 1 módulo por mês em fim de semana (contexto da linha). [SUPOSIÇÃO] Entrada tardia razoável é até o 2º módulo, porque o aluno repõe no máximo 1 módulo; acima disso, a entrada depende de regra escrita da Ufape. Essa referência é só para ordenar a conversa com a Ufape, não substitui a política.
-
-Regra de prazo: se a Ufape não responder E1 e E2 até 28/10, o pedido passa a ser PAUSAR para as 6. Falha fechada: sem confirmação, não se gasta em turma que talvez não aceite aluno.
+Referência para a conversa com a Ufape sobre E1: a Pós tem 1 módulo por mês em fim de semana (contexto da linha). [SUPOSIÇÃO] Entrada tardia razoável é até o 2º módulo, porque o aluno repõe no máximo 1 módulo; acima disso, a entrada depende de regra escrita da Ufape. Essa referência não substitui a política.
 
 ### 1.2 Decisão por turma
 
 Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha). Módulos já dados: [SUPOSIÇÃO] pelo ritmo de 1 por mês.
 
-| Código | Turma (catálogo) | Início | Dias desde o início | Módulos já dados [SUPOSIÇÃO] | Recomendação | Motivo |
+| Código | Turma (catálogo) | Início | Dias desde o início | Módulos já dados [SUPOSIÇÃO] | Recomendação | Motivo e condição de reativação |
 |---|---|---|---|---|---|---|
-| 650 | Pós-graduação em Medicina de Felinos, VI | 15/08/2026 | 72 | 3 | PAUSAR | 72 dias e cerca de 3 módulos; a prova 68652 de Felinos não tem turma futura aberta, então a campanha não alimenta nenhuma turma vendável hoje |
-| 68662 | Pós-graduação em Odontologia Veterinária, V | 15/08/2026 | 72 | 3 | PAUSAR | link trocado: a página mostra 24/04/2027 (plano do cmo, 2.1 item 6). O anúncio pode estar vendendo outra turma com dado errado. Falha E3 antes de E1 |
-| 706 | Pós-graduação em Ultrassonografia de Pequenos Animais, II | 15/08/2026 | 72 | 3 | PAUSAR | 72 dias; a próxima turma (68629, III, 22/05/2027) está fora da janela da onda 1 e não consta na visão. Se a Ufape quiser campanha para 68629, ela nasce com código e plano próprios na onda 3 |
-| 586 | Pós-graduação em Anestesiologia Veterinária (Direto ao ponto), EAD, I | 22/08/2026 | 65 | 3 | PAUSAR, salvo regra de EAD | EAD pode ter regra de entrada diferente (aula gravada) [CONFIRMAR]. Se a Ufape confirmar entrada aberta no EAD com vaga, vira MANTER com anúncio sem data de início |
-| 554 | Pós-graduação em Dor e Cuidados Paliativos na Veterinária, III | 22/08/2026 | 65 | 3 | PAUSAR | 65 dias e cerca de 3 módulos, sem política de entrada |
-| 68612 | Pós-graduação em Nefrologia e Urologia Veterinária, VIII | 24/10/2026 | 2 | 1 | MANTER até 28/10, depois PAUSAR se a Ufape não confirmar entrada | turma começou há 2 dias; entrada no 1º mês é a mais provável [SUPOSIÇÃO]. Única das seis com vídeo e 5 ângulos. Se E1 e E2 forem confirmados, pausa na data limite de entrada informada pela Ufape |
+| 650 | Pós-graduação em Medicina de Felinos, VI | 15/08/2026 | 72 | 3 | PAUSAR já | status "verificar"; 72 dias e cerca de 3 módulos; a prova 68652 de Felinos não tem turma futura aberta. Reativar só com E1 a E4 |
+| 68662 | Pós-graduação em Odontologia Veterinária, V | 15/08/2026 | 72 | 3 | PAUSAR já | status "verificar"; link trocado: a página mostra 24/04/2027 (plano do cmo, 2.1 item 6). Reativar só com E3 resolvido, além de E1, E2 e E4 |
+| 706 | Pós-graduação em Ultrassonografia de Pequenos Animais, II | 15/08/2026 | 72 | 3 | PAUSAR já | status "verificar"; 72 dias. Se a Ufape quiser campanha para a 68629 (III, 22/05/2027), ela nasce com código e plano próprios na onda 3 |
+| 586 | Pós-graduação em Anestesiologia Veterinária (Direto ao ponto), EAD, I | 22/08/2026 | 65 | 3 | PAUSAR já | status "verificar". EAD pode ter regra de entrada própria (aula gravada) [CONFIRMAR]. Se a Ufape confirmar E1 e E2 para o EAD, pedido de reativação com anúncio sem data de início |
+| 554 | Pós-graduação em Dor e Cuidados Paliativos na Veterinária, III | 22/08/2026 | 65 | 3 | PAUSAR já | status "verificar"; 65 dias e cerca de 3 módulos. Reativar só com E1 a E4 |
+| 68612 | Pós-graduação em Nefrologia e Urologia Veterinária, VIII | 24/10/2026 | 2 | 1 | PAUSAR já; reativar no mesmo dia em que a Ufape confirmar E1 e E2 | status "verificar". Turma com 2 dias, entrada no 1º mês é a mais provável [SUPOSIÇÃO]. A pausa curta preserva os públicos e os anúncios (com 5 ângulos e vídeo); se reativada, nova pausa na data limite de entrada informada pela Ufape |
 
 ### 1.3 O que conferir no gerenciador antes de pausar (as 6)
 
 1. Status real de campanha, conjuntos e anúncios (a visão pode estar desatualizada); data da última mudança.
-2. Gasto dos últimos 7 dias, gasto acumulado desde o início da turma e orçamento diário ou vitalício: [CONFIRMAR]. Esse número vai no pedido final, não muda a regra.
+2. Gasto dos últimos 7 dias, gasto acumulado desde o início da turma e orçamento diário ou vitalício: [CONFIRMAR]. Esse número vai no registro da pausa, não muda a regra.
 3. URL de destino de cada anúncio (qual código de produto abre, qual data e preço aparecem).
-4. Leads e compras do período no gerenciador e no CRM, com o código da turma. Se não baterem, registrar como "investigar" e não usar como argumento para manter.
+4. Leads e compras do período no gerenciador e no CRM, com o código da turma. Se não baterem, registrar como "investigar".
 5. Se há públicos personalizados ou de remarketing criados a partir destas campanhas: a pausa não apaga o público, que pode ser reaproveitado na campanha das provas (Medicina de Felinos, Odontologia, Ultrassonografia, Anestesiologia e Nefrologia têm prova em 27/11).
 6. Exportar configuração e números antes de pausar.
 
 ### 1.4 Efeito esperado e como desfazer
 
-- **Efeito esperado:** parar o gasto em turma que talvez não aceite aluno e liberar verba para a onda 1. Quanto: [CONFIRMAR], é a soma das diárias das campanhas pausadas.
-- **Como desfazer:** reativar a campanha no gerenciador (mudar o status para ativo), com as mesmas configurações exportadas. Aviso: depois de uma pausa longa, a entrega pode passar de novo pela fase de aprendizado (comportamento das plataformas, estimativa); reativar só com E1 a E4 confirmados.
-- **Verba liberada:** remanejar para a campanha das provas muda a distribuição aprovada; vai como pedido separado ao cmo (pedido M14 da tabela consolidada).
+- **Efeito esperado:** nenhum anúncio chamando para inscrição em turma "verificar"; fim do gasto em turma que talvez não aceite aluno; verba liberada para a onda 1. Quanto: [CONFIRMAR], é a soma das diárias das 6 campanhas.
+- **Como desfazer:** reativar a campanha no gerenciador (status para ativo), com as configurações exportadas, só depois da confirmação escrita de E1 e E2 e da conferência de E3 e E4. Aviso: depois de uma pausa longa, a entrega pode passar de novo pela fase de aprendizado (comportamento das plataformas, estimativa); numa pausa de poucos dias, como a prevista para 68612, públicos e anúncios ficam preservados.
+- **Verba liberada:** remanejar para a campanha das provas muda a distribuição aprovada; vai como pedido separado ao cmo (D11 da tabela consolidada).
 
 ---
 
@@ -91,7 +93,7 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 ### 2.1 O que se sabe
 
 - Planilha (fonte da verdade da data): início em 28/11/2026. Site: "28 e 29 de Novembro de 2027" no campo Início, mas o cronograma da mesma página diz "Módulo 1, 28 e 29 de Novembro de 2026" (ficha 698). A página se contradiz.
-- Campanha ativa, estático e vídeo, com 5 ângulos (visão). 33 dias até o início.
+- Status no catálogo: aberto. Campanha ativa, estático e vídeo, com 5 ângulos (visão). 33 dias até o início.
 - Preço (site): 18x de R$ 1.498,33; R$ 26.970,00 no cartão ou boleto; matrícula R$ 250,00. 370 h, turma III. A página também usa "CERTIFICADO PELO MEC" (P2), que a squad não repete.
 - Na maioria das páginas de Pós a 1ª mensalidade é paga 30 dias antes do início (contexto da linha). Se valer para 698, a data de corte seria por volta de 29/10/2026 [CONFIRMAR]. Isso muda a urgência da correção.
 
@@ -113,7 +115,7 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 ### 2.4 Efeito esperado e como desfazer
 
 - **Efeito:** evitar que o candidato leia 2027 e adie a decisão, ou se matricule com informação errada; manter o ritmo da turma enquanto a correção é feita.
-- **Como desfazer:** reativar os anúncios pausados (se tiverem data correta) ou a campanha, depois da correção do site.
+- **Como desfazer:** reativar os anúncios pausados (se tiverem data correta) ou a campanha, depois da correção do site; retirar a orientação ao WhatsApp de vendas depois da correção.
 
 ---
 
@@ -161,6 +163,7 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 | Destino da bolsa confirmado pela Ufape até 31/10 | qualquer uma das 22 | entra |
 | Links invertidos entre SP e GO | 68641 e 68642 (Cardiologia) | só depois da correção (P3) |
 | Sem turma futura aberta na mesma especialidade | 68652 Felinos, 68649 Endoscopia, 68653 Nefrologia, 68655 Odontologia | só com o destino confirmado; sem destino, a bolsa não tem regra completa (conformidade, "bolsa e desconto têm regra") |
+| Prova em São Paulo cuja turma futura aberta da especialidade é só em Goiânia, ou sem turma de mesmo nome em SP (grupo de atenção, observação O1 do qa) | 68641 Cardiologia SP (turma futura aberta só a 289, GO); 68643 Clínica Cirúrgica SP (só a 68632, GO); 68660 Terapia Intensiva SP (só a 68623, GO); 68639 Anestesiologia SP (há 657 e 359 em SP, de outro nome, e a 68609 em GO) | só com o destino confirmado; o anúncio não pode sugerir turma em SP se o destino for GO |
 | Turma da especialidade começa antes do resultado | 68647 Imagem (68604 em 31/10), 68650 Gastroenterologia (68606 em 07/11), 68646 Dermatologia e 68651 Hematologia (68610 e 68608 em 28/11) | só com o destino confirmado; o anúncio não pode sugerir bolsa para turma que começa antes da matrícula pós-prova |
 | Fora do ar | 68656 Oftalmologia | fora |
 
@@ -187,10 +190,10 @@ Verba total da campanha: [CONFIRMAR, pedido de aprovação ao cmo e à pessoa do
 | 27/10 | pedido de dados e de destinos das provas à Ufape (seção 7) | gestor-de-midia, cmo |
 | 29/10 | plano da campanha | estrategia-de-campanha |
 | 30/10 e 31/10 | conceitos e peças por área (matriz-de-criativos); estrutura Meta e Google (estrutura-de-campanha-paga); Ufape confirma destinos e fim das inscrições | criativos-de-anuncio, anuncios-meta, anuncios-google, Ufape |
-| 01/11 e 02/11 | teste de rastreio: compra de R$ 100,00 registrada no pixel e na conversão do Google, UTM chegando ao CRM e à loja | humano, com checklist de anuncios-meta e anuncios-google |
-| 03/11 | qa-de-marketing aprova; humano sobe a campanha | qa-de-marketing, humano |
+| 31/10 | teste de rastreio: compra de R$ 100,00 registrada no pixel e na conversão do Google, UTM chegando ao CRM e à loja (02/11 é feriado; o teste não fica para a véspera da subida) | humano, com checklist de anuncios-meta e anuncios-google |
+| 03/11 | qa-de-marketing aprova; humano sobe a campanha; primeiro relatório semanal ao cmo | qa-de-marketing, humano, gestor-de-midia |
 | 07/11 | fim das inscrições da Anclivepa: quem não se inscreveu lá ainda tem a prova da Ufape. Ângulo do anúncio: inscrição de R$ 100,00 e prova em 27/11, sem citar concorrente | criativos-de-anuncio |
-| 09/11 | 1ª revisão (dados de 03/11 a 08/11, sem tendência com os últimos 2 dias) | gestor-de-midia |
+| 09/11 | 1ª revisão da campanha (dados de 03/11 a 08/11, sem tendência com os últimos 2 dias) | gestor-de-midia |
 | 14/11 | prova da Anclivepa (cópia não oficial): parte do público estará ocupada nesse dia; não mexer na verba só por isso. Depois de 14/11 há candidatos que fizeram a prova lá e podem fazer a da Ufape [SUPOSIÇÃO] | gestor-de-midia |
 | 16/11 | 2ª revisão | gestor-de-midia |
 | fim das inscrições [CONFIRMAR] | pausa da campanha (pedido de pausa) | humano |
@@ -211,39 +214,50 @@ O arquivo analise-de-campanha-pos-2026-10-26.md (seção 3.4) põe como teto ló
 
 ### 4.1 Dados (catálogo, seção 9, e ficha do evento)
 
-Nome oficial: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária). 20 e 21/11/2026 (sexta teórica, sábado prático), Av. Tiradentes, 960, Unidade 2, São Paulo. 16 h. Presencial com 30 vagas: R$ 1.250,00. Transmitido e gravado (só a teoria): R$ 450,00, produto 68634. Cupom SIMPNEUROMONIT: 20% para aluno e ex-aluno, com comprovação do vínculo na secretaria. Destino das campanhas: https://faculdade.ufape.com.br/neuro-summit/ (decisão da Ufape). Campanha ativa, só estático (visão).
+Nome oficial: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária). 20 e 21/11/2026 (sexta teórica, sábado prático), Av. Tiradentes, 960, Unidade 2, São Paulo. 16 h. Presencial com 30 vagas: R$ 1.250,00. Transmitido e gravado (só a teoria): R$ 450,00, produto 68634. Cupom SIMPNEUROMONIT: 20% para aluno e ex-aluno, com comprovação do vínculo na secretaria, nos dois ingressos, presencial e transmitido (ficha do evento, texto da página). Validade, limite de uso e prazo de comprovação do cupom: [CONFIRMAR]. Destino das campanhas: https://faculdade.ufape.com.br/neuro-summit/ (decisão da Ufape). Campanha ativa, só estático (visão).
 
 ### 4.2 Decisão
 
-MANTER a campanha ativa, depois de passar pelo checklist 4.3. Se algum item de conformidade falhar, AJUSTAR o anúncio; se não der para ajustar no dia, pausar só o anúncio afetado.
+MANTER a campanha ativa (status "aberto" no catálogo), depois de passar pelo checklist 4.3. Se algum item de conformidade falhar, AJUSTAR o anúncio; se não der para ajustar no dia, pausar só o anúncio afetado. A sequência de mudanças da seção 4.4 está alinhada com a estratégia do evento (estrategia-de-campanha-eventos-2026-10-26.md, seções 2 e 4).
 
 ### 4.3 O que checar no gerenciador e na página
 
 | # | Checagem | Se falhar |
 |---|---|---|
-| W1 | URL de destino de todos os anúncios é a página neuro-summit, com UTM própria do evento | corrigir a URL (pedido de ajuste) |
+| W1 | URL de destino de todos os anúncios é a página neuro-summit, com UTM do evento. Referência até o padrão da squad (P15): utm_campaign=neuro-summit-2026, a proposta da estratégia do evento [SUPOSIÇÃO] | corrigir a URL (pedido D5) |
 | W2 | Nome no anúncio é o oficial (Workshop), não "Simpósio" | ajustar o texto |
-| W3 | Carga horária no anúncio é 16 h; a página do produto 68634 mostra 24 h (P9) | Ufape corrige o 68634; anúncio do transmitido não cita carga horária até lá |
+| W3 | Carga horária no anúncio é 16 h, só para o presencial; a página do produto 68634 mostra 24 h (P9) | Ufape corrige o 68634; anúncio do transmitido não cita carga horária até lá |
 | W4 | Preços iguais ao catálogo (R$ 1.250,00 e R$ 450,00) | ajustar |
 | W5 | Docentes no anúncio só os confirmados na página e com autorização de imagem registrada [CONFIRMAR autorização]; convidados "a definir" não aparecem | pausar o anúncio com docente sem autorização |
-| W6 | Escassez: "30 vagas" é o total real e pode aparecer; "últimas vagas" ou "vagas acabando" só com vagas restantes informadas pela Ufape | ajustar o texto |
-| W7 | Cupom: anúncio para público frio não usa o cupom como chamada principal (vale só para aluno e ex-aluno); anúncio para a base pode citar, com a regra de comprovação | ajustar |
+| W6 | Escassez: "30 vagas" é o total real e pode aparecer; "últimas vagas" ou "vagas acabando" só com vagas restantes informadas pela Ufape, com data | ajustar o texto |
+| W7 | Cupom: anúncio para público frio não usa o cupom como chamada principal (vale só para aluno e ex-aluno); anúncio para a base pode citar, com a regra de comprovação. Nenhuma peça mostra valor com desconto calculado | ajustar |
 | W8 | Rastreio: o botão de compra da página leva à loja e a compra dispara o evento de conversão; o presencial tem código de produto ou chave própria [CONFIRMAR, o catálogo só tem 68634] | sem rastreio, nenhuma leitura de custo por inscrição; corrigir antes da reta final |
 | W9 | Sem afirmação de certificação no anúncio (a página diz "Certificado UFAPE conforme presença"; texto padrão de certificado de participação [CONFIRMAR]) | ajustar |
-| W10 | Gasto diário, acumulado e inscrições por modalidade, com e sem cupom [CONFIRMAR] | levar ao relatório de 02/11 |
+| W10 | Gasto diário, acumulado e inscrições por ingresso, com e sem cupom [CONFIRMAR] | levar ao relatório de 03/11 |
 
 ### 4.4 Reta final
 
-| Período | Dias até 20/11 | Ação proposta | Aprovação |
-|---|---|---|---|
-| 27/10 a 06/11 | 24 a 14 | manter estrutura atual; corrigir o que W1 a W9 apontarem; um conjunto de remarketing de visitantes da página neuro-summit, se não existir | ajuste dentro da verba aprovada |
-| 07/11 a 13/11 | 13 a 7 | revisão de 09/11: se o presencial estiver no ritmo de 30 vagas, manter; se não, reforçar o público de anestesiologistas e intensivistas (público-alvo da página), uma mudança só | pedido de ajuste |
-| 14/11 a 18/11 | 6 a 2 | remarketing com data e local; anúncio do transmitido para quem não pode viajar | pedido de ajuste |
-| ao lotar as 30 vagas presenciais | qualquer data | pausar os anúncios do presencial; manter só o transmitido | pedido de pausa |
-| 19/11, fim das inscrições do presencial [CONFIRMAR] | 1 | pausar a campanha do presencial | pedido de pausa |
-| depois de 21/11 | | venda do gravado depois do evento: decisão nova, com meta própria [CONFIRMAR se a Ufape vende o gravado depois] | cmo |
+Meta: o ritmo é medido contra a **meta de inscritos presenciais [CONFIRMAR], com teto de 30 vagas**, e contra a meta do transmitido [CONFIRMAR]. As 30 vagas são capacidade, não meta. Fórmula (a mesma da estratégia do evento, seção 4): ritmo necessário por semana = (meta presencial menos inscritos presenciais) dividido pelas semanas que faltam até 19/11; o mesmo para o transmitido.
+
+Sequência de mudanças, uma por semana no conjunto de público frio; o remarketing é um conjunto novo e não conta como mudança no frio. Cada mudança é um pedido da tabela da seção 8.
+
+| Data | Dias até 20/11 | Ação | Conjunto | Pedido |
+|---|---|---|---|---|
+| 28/10 | 23 | linha de base (inscritos por ingresso, uso do cupom, gasto); correções de conformidade W1 a W9, se houver | todos (exceção de conformidade) | D5 |
+| 30/10 | 21 | criativos 1 (anestesiologista) e 2 (os dois dias) entram em teste | frio | D10 |
+| 03/11 | 18 | checagem 1, sem mudança no conjunto frio (os criativos de 30/10 ainda aprendem); relatório semanal | nenhum | sem pedido |
+| 06/11 | 14 | criativo 3 (intensivista) entra; 7 dias depois da mudança anterior no mesmo conjunto | frio | D13 |
+| 09/11 | 11 | conjunto de remarketing de visitantes da página neuro-summit entra (se não existir); checagem de decisão: no ritmo da meta, pedido de aumento de verba no criativo e no público que mais vendem; abaixo do ritmo, deslocar peso para remarketing, base e ingresso transmitido | remarketing (novo); o ajuste do frio fica para 13/11 | D14 e D15 |
+| 13/11 | 7 | aplicar no conjunto frio a decisão de 09/11 (uma só: verba ou peso do ingresso), 7 dias depois do criativo 3 | frio | D15 |
+| 14/11 | 6 | anúncio de data e local e anúncio do ingresso transmitido para quem não pode viajar, no conjunto de remarketing (5 dias depois da criação; mudança única dessa semana nele) | remarketing | D16 |
+| 16/11 | 4 | checagem da última semana: se o presencial lotar, pausar os anúncios do presencial e manter o transmitido | todos | D17 |
+| fim das inscrições do presencial informado pela Ufape [CONFIRMAR]; data provisória única 18/11 [SUPOSIÇÃO, a mesma da estratégia do evento, a ser escolhida pela pessoa do marketing] | 2 | pausar os anúncios do presencial; manter só o transmitido até o fim das inscrições dele [CONFIRMAR] | todos | D17 |
+| 30/11 | | relatório final do evento | | sem pedido |
+| depois de 21/11 | | venda do gravado depois do evento: decisão nova, com meta própria [CONFIRMAR se a Ufape vende o gravado depois] | | cmo |
 
 Ligação com a prova 68654 (Neurologia e Neurocirurgia) em 27/11 e as provas de Anestesiologia (68639, 68640): mesmo público. Não excluir públicos entre as campanhas; controlar frequência e não rodar as duas mensagens no mesmo anúncio.
+
+Nota para o estrategia-de-campanha (arquivo dele não é alterado aqui): a estratégia do evento põe o criativo 3 "na semana 2" sem dia; este memorando propõe 06/11 para respeitar uma mudança por semana no conjunto frio. A data de fim da mídia do presencial fica igual nos dois arquivos (18/11 provisória, [SUPOSIÇÃO]).
 
 ---
 
@@ -260,16 +274,16 @@ Ligação com a prova 68654 (Neurologia e Neurocirurgia) em 27/11 e as provas de
 
 | Código | Item (catálogo) | Início | Dias | Decisão até o início | Checar no gerenciador | Pausa |
 |---|---|---|---|---|---|---|
-| 707 | Pós-graduação em Oftalmologia Veterinária, VII, R$ 47.700,00 | 30/10/2026 | 4 | MANTER sem mudanças | destino 707; data no anúncio; gasto diário; matrículas pagas contra a turma mínima de 20 [CONFIRMAR]; frase de certificação ausente no anúncio | 30/10 ao fim do dia, salvo política de entrada [CONFIRMAR] |
-| 68604 | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, VI | 31/10/2026 | 5 | MANTER sem mudanças | destino é 68604 e não 68611 (mesmo nome, sem data); anúncio não fala da prova 68647 | 31/10 ao fim do dia, salvo política de entrada |
-| 68606 | Pós-graduação em Gastroenterologia Veterinária, IX | 07/11/2026 | 12 | MANTER; um ajuste permitido se houver fadiga (frequência subindo e CTR caindo por 3 dias ou mais): trocar o anúncio mais cansado por um ângulo já pronto | frequência e CTR por anúncio; destino; anúncio não fala da prova 68650 | 07/11 ao fim do dia, salvo política de entrada |
-| 698 | Pós-graduação em Ecocardiografia, III | 28/11/2026 | 33 | ver seção 2 | ver seção 2 | 28/11 ou data de corte |
-| 68610 | Pós-graduação em Dermatologia Veterinária, V | 28/11/2026 | 33 | MANTER; pedir vídeo a criativos-de-anuncio (só estático hoje; ainda há tempo) | data de corte da 1ª mensalidade; destino; sobreposição com a prova 68646 do dia anterior | 28/11 ou data de corte |
-| 68608 | Pós-graduação em Hematologia Veterinária, VIII | 28/11/2026 | 33 | MANTER | data de corte; frequência; sobreposição com a prova 68651 | 28/11 ou data de corte |
-| 573 | Curso Hands-On de Ecocardiografia Veterinária Básica, São Paulo, R$ 2.350,00 à vista | 14/11/2026 no catálogo; 29/11 na visão | 19 ou 34 | MANTER com anúncios sem data até a Ufape confirmar (P6) | data escrita no anúncio e na página; vagas totais e restantes [CONFIRMAR]; sobreposição com 698 e 68665 | na data confirmada ou ao lotar |
-| 68614 | Curso Livre em Videotoscopia, R$ 1.250,00 à vista | 28/11/2026 no catálogo; 18/12 na visão | 33 ou 53 | MANTER com anúncios sem data até confirmar (P6) | data no anúncio; vagas | na data confirmada ou ao lotar |
-| 623 | III curso de imersão teórico e prático em endoscopia digestiva, R$ 890,00 à vista | 28/11/2026 | 33 | MANTER; não mexer até 28/10 (3 criativos entraram em 21/10, aprendizado em curso) | qual página fica à venda, 623 ou 68637 (P7); se ficar a 68637, trocar a URL do anúncio (pedido de ajuste) | 28/11 ou ao lotar |
-| 68637 | Curso de imersão teórico e prático em Endoscopia Digestiva, São Paulo (duplicado de 623) | 28/11/2026 | 33 | não criar campanha; conferir se existe alguma apontando para ela | se existir campanha, pedir pausa de uma das duas até a Ufape escolher a página | não se aplica |
+| 707 | Pós-graduação em Oftalmologia Veterinária, VII, R$ 47.700,00 | 30/10/2026 | 4 | MANTER sem mudanças | destino 707; data no anúncio; gasto diário; matrículas pagas contra a turma mínima de 20 [CONFIRMAR]; frase de certificação ausente no anúncio | 30/10 ao fim do dia, salvo política de entrada [CONFIRMAR] (D9) |
+| 68604 | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, VI | 31/10/2026 | 5 | MANTER sem mudanças | destino é 68604 e não 68611 (mesmo nome, sem data); anúncio não fala da prova 68647 | 31/10 ao fim do dia, salvo política de entrada (D9) |
+| 68606 | Pós-graduação em Gastroenterologia Veterinária, IX | 07/11/2026 | 12 | MANTER; um ajuste permitido se houver fadiga (frequência subindo e CTR caindo por 3 dias ou mais): trocar o anúncio mais cansado por um ângulo já pronto (D20) | frequência e CTR por anúncio; destino; anúncio não fala da prova 68650 | 07/11 ao fim do dia, salvo política de entrada (D9) |
+| 698 | Pós-graduação em Ecocardiografia, III | 28/11/2026 | 33 | ver seção 2 | ver seção 2 | 28/11 ou data de corte (D18) |
+| 68610 | Pós-graduação em Dermatologia Veterinária, V | 28/11/2026 | 33 | MANTER; pedir vídeo a criativos-de-anuncio (só estático hoje; ainda há tempo) | data de corte da 1ª mensalidade; destino; sobreposição com a prova 68646 do dia anterior | 28/11 ou data de corte (D18) |
+| 68608 | Pós-graduação em Hematologia Veterinária, VIII | 28/11/2026 | 33 | MANTER | data de corte; frequência; sobreposição com a prova 68651 | 28/11 ou data de corte (D18) |
+| 573 | Curso Hands-On de Ecocardiografia Veterinária Básica, São Paulo, R$ 2.350,00 à vista | 14/11/2026 no catálogo; 29/11 na visão | 19 ou 34 | MANTER com anúncios sem data até a Ufape confirmar (P6) | data escrita no anúncio e na página; vagas totais e restantes [CONFIRMAR]; sobreposição com 698 e 68665 | na data confirmada ou ao lotar (D12) |
+| 68614 | Curso Livre em Videotoscopia, R$ 1.250,00 à vista | 28/11/2026 no catálogo; 18/12 na visão | 33 ou 53 | MANTER com anúncios sem data até confirmar (P6) | data no anúncio; vagas | na data confirmada ou ao lotar (D12) |
+| 623 | III curso de imersão teórico e prático em endoscopia digestiva, R$ 890,00 à vista | 28/11/2026 | 33 | MANTER; não mexer até 28/10 (3 criativos entraram em 21/10, aprendizado em curso) | qual página fica à venda, 623 ou 68637 (P7); se ficar a 68637, trocar a URL do anúncio (D19) | 28/11 ou ao lotar |
+| 68637 | Curso de imersão teórico e prático em Endoscopia Digestiva, São Paulo (duplicado de 623) | 28/11/2026 | 33 | não criar campanha; conferir se existe alguma apontando para ela | se existir campanha, pedir pausa de uma das duas até a Ufape escolher a página (D19) | não se aplica |
 
 Notas:
 - 707: a prova de Oftalmologia 68656 está fora do ar; não há prova abastecendo esta turma.
@@ -318,7 +332,7 @@ O pacote completo está no arquivo do analista-de-dados (seção 4); o acima é 
 
 | Dado | Por turma ou geral | Para que |
 |---|---|---|
-| Política de entrada em turma iniciada (até que módulo ou dia), por modalidade (semipresencial e EAD) | geral | regra E1 da seção 1 |
+| Política de entrada em turma iniciada (até que módulo ou dia), por modalidade (semipresencial e EAD), por escrito | geral | condições E1 e E2 da seção 1 |
 | Vagas totais e restantes | por turma, presencial e evento | ritmo e escassez real |
 | Data de fim das inscrições e data de corte da 1ª mensalidade | por turma | pausa sem pedido extra |
 | Destino de cada uma das 22 provas, fim das inscrições, data do resultado, turma mínima (15 ou 20), sobre o que a bolsa incide (mensalidade, matrícula) | por prova | campanha das provas |
@@ -326,8 +340,9 @@ O pacote completo está no arquivo do analista-de-dados (seção 4); o acima é 
 | Margem desejada por matrícula ou venda | por linha | custo por matrícula máximo |
 | Taxa de evasão (parcelas não pagas) e inadimplência | por linha, histórico | receita esperada |
 | Taxa de conversão lead para matrícula (e inscrito na prova para matrícula) | por linha, histórico | CPL máximo |
-| Desconto médio praticado (bolsas, aluno e ex-aluno, promoções) | por linha | receita esperada |
+| Desconto médio praticado (bolsas, aluno e ex-aluno, promoções); base de incidência, validade e limite do cupom SIMPNEUROMONIT | por linha e evento | receita esperada |
 | Mistura de pagamento à vista e no cartão | Livres e Eventos | preço efetivo |
+| Meta de inscritos por ingresso do workshop e fim das inscrições de cada ingresso | evento | ritmo da seção 4.4 e data de pausa |
 | Verba aprovada por linha e por mês, e o nome de quem aprova | por linha | regra da verba aprovada |
 | Meta de matrículas por turma e de inscritos por prova e evento | por turma | ritmo e meta de volume |
 | Base legal para usar listas de alunos, ex-alunos e leads em públicos personalizados | geral | LGPD |
@@ -357,7 +372,7 @@ Variáveis: p = valor da parcela; n = número de parcelas; m = matrícula; e = e
 - Custo por venda máximo = P x (1 menos tx) menos cv menos M
 - Verba útil máxima de uma turma presencial = vagas restantes x custo por venda máximo
 
-**Eventos (por modalidade)**
+**Eventos (por ingresso)**
 - Custo por inscrição máximo (público frio, sem cupom) = preço x (1 menos tx) menos cv menos M
 - Inscrições com cupom ficam fora do custo por inscrição da mídia (o cupom é da base).
 
@@ -380,7 +395,7 @@ O plano 1.11 usa o cenário conservador como meta de corte e o base como meta de
 
 ### 7.5 Receita de lista dos itens deste memorando (catálogo, 26/10/2026)
 
-Contas sobre o preço do site. Não é receita esperada, é o teto antes de evasão, desconto e custos.
+Contas sobre o preço do site. Não é receita esperada, é o teto antes de evasão, desconto e custos. Uso interno: nenhum valor desta tabela calculado com desconto vai para peça.
 
 | Código | Conta | Receita de lista |
 |---|---|---|
@@ -401,8 +416,8 @@ Contas sobre o preço do site. Não é receita esperada, é o teto antes de evas
 | 68614 | à vista; no cartão 10 x R$ 175,00 | R$ 1.250,00; R$ 1.750,00 |
 | 623 e 68637 | à vista; no cartão 6 x R$ 205,00 | R$ 890,00; R$ 1.230,00 |
 | 68665 e 68666 | à vista | R$ 100,00 |
-| Workshop presencial | preço; com cupom (x 0,8) | R$ 1.250,00; R$ 1.000,00 |
-| Workshop transmitido (68634) | preço; com cupom, se valer [CONFIRMAR] | R$ 450,00; R$ 360,00 |
+| Workshop presencial | preço; com cupom, x 0,8 [SUPOSIÇÃO: 20% sobre o preço de tabela; uso interno, não vai para peça] | R$ 1.250,00; R$ 1.000,00 |
+| Workshop transmitido (68634) | preço; com cupom, que vale para este ingresso (ficha do evento), x 0,8 [SUPOSIÇÃO: 20% sobre o preço de tabela; uso interno, não vai para peça] | R$ 450,00; R$ 360,00 |
 
 Frase pronta para a diretoria, sem jargão: "Antes de gastar, a gente escreve quanto pode pagar por aluno. Esse limite sai do que o aluno paga de verdade ao longo do curso, menos o que custa atendê-lo e a margem que a Ufape quer. Só com esse número dá para dizer se uma campanha está boa ou ruim."
 
@@ -410,33 +425,40 @@ Frase pronta para a diretoria, sem jargão: "Antes de gastar, a gente escreve qu
 
 ## 8. Tabela consolidada de pedidos de aprovação
 
-Ordem pela matriz GUT (notas de 1 a 5 são avaliação do gestor, não medida; o motivo está na coluna "Por que"). Quanto: verba, gasto e diária são [CONFIRMAR] em todos. Quem executa: humano no gerenciador ou na Ufape. Nada é executado pela squad.
+Ordem pela matriz GUT, do maior para o menor; empate desfeito pela urgência e depois pelo menor esforço. As notas de 1 a 5 são avaliação do gestor, não medida; o motivo está na coluna "Por que". Quanto: verba, gasto e diária são [CONFIRMAR] em todos. Quem executa: humano no gerenciador ou na Ufape. Nada é executado pela squad.
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo | G x U x T |
 |---|---|---|---|---|---|---|---|
-| M1 | Ufape responde política de entrada, vagas e data de corte das 6 turmas iniciadas e das 6 Pós da onda 1 | sem isso, nenhuma decisão das seções 1 e 5 fecha | sem custo | decisões A4 e de reta final com base certa | não se aplica | 28/10 | 5 x 5 x 4 = 100 |
-| M2 | Pausar as campanhas de 650, 68662, 706, 554 e, sem regra de EAD, 586 (exportar antes) | turmas com 65 a 72 dias de início, sem política de entrada; 68662 com link trocado | diária somada [CONFIRMAR] | parar gasto sem turma vendável e liberar verba | reativar no gerenciador com as configurações exportadas | 28/10 | 4 x 5 x 4 = 80 |
-| M3 | 68612: manter até 28/10; pausar se a Ufape não confirmar entrada | turma com 2 dias, entrada provável no 1º mês [SUPOSIÇÃO] | diária [CONFIRMAR] | não perder entrada tardia possível | reativar | 28/10 | 4 x 5 x 3 = 60 |
-| M4 | 698: pausar já os anúncios com data ou "2027"; Ufape corrige o site até 28/10 às 18h; se não corrigir, pausar a campanha | página com data errada e contraditória; risco CDC; data de corte pode ser 29/10 [CONFIRMAR] | diária [CONFIRMAR] | candidato vê a data certa | reativar anúncios ou campanha depois da correção | 28/10 | 5 x 5 x 4 = 100 |
-| M5 | Aprovar a campanha única das provas (Meta e Google Busca, públicos e destinos da seção 3.2, divisão 25% / 40% / 35% por fase e 70% Meta / 30% Google) | porta de entrada da Pós, 32 dias até a prova, fora da visão; inscrições da Anclivepa encerram em 07/11 | verba total [CONFIRMAR]; percentuais da seção 3.3 | inscritos nas provas a partir de 03/11 | pausar a campanha ou o anúncio da área | aprovação até 30/10; subida em 03/11 | 5 x 5 x 4 = 100 |
-| M6 | Ufape informa destino, fim das inscrições, data do resultado e turma mínima de cada prova; corrige os links de 68641 e 68642 | sem destino, a bolsa não tem regra completa no anúncio | sem custo | mais provas aptas a subir em 03/11 | não se aplica | 31/10 | 5 x 5 x 3 = 75 |
-| M7 | Teste de rastreio antes de 03/11: compra de R$ 100,00 no pixel e no Google, UTM no CRM e na loja | sem rastreio, a otimização para compra não funciona e nada se lê | sem custo de mídia | campanha das provas mede desde o 1º dia | não se aplica | 02/11 | 4 x 5 x 3 = 60 |
-| M8 | Workshop: corrigir o que W1 a W9 apontarem; criar remarketing da página neuro-summit se não existir | conformidade e reta final de 25 dias | diária [CONFIRMAR], dentro da verba aprovada | anúncio coerente com a página; inscrições no ritmo de 30 vagas | reativar o anúncio anterior; pausar o remarketing | 28/10 | 4 x 5 x 4 = 80 |
-| M9 | Workshop: pausar o presencial ao lotar as 30 vagas ou no fim das inscrições; manter o transmitido | presencial tem teto de vagas | sem verba nova | não gastar em oferta lotada | reativar | quando ocorrer | 3 x 4 x 3 = 36 |
-| M10 | Pausar 707 em 30/10, 68604 em 31/10 e 68606 em 07/11, ao fim do dia, salvo política de entrada | data de início | sem verba nova | fim do gasto no início da turma | reativar se a Ufape confirmar entrada | 30/10, 31/10, 07/11 | 4 x 5 x 3 = 60 |
-| M11 | Pausar 698, 68610 e 68608 em 28/11 ou na data de corte confirmada; pedir vídeo para 68610 | data de início; 68610 só estático com 33 dias de prazo | produção de vídeo [CONFIRMAR] | reta final com pacote mais completo | reativar; manter o estático | 28/11 | 4 x 3 x 3 = 36 |
-| M12 | Livres 573 e 68614: anúncios sem data até a Ufape confirmar; pausa na data confirmada ou ao lotar | datas divergentes entre catálogo e visão (P6) | sem verba nova | nenhum anúncio com data errada | reativar anúncio com data | 28/10 | 3 x 5 x 3 = 45 |
-| M13 | 623 e 68637: Ufape escolhe a página que fica; ajustar a URL se for a 68637; pausar campanha duplicada se houver | página duplicada divide tráfego e leitura (P7) | sem verba nova | uma página e uma leitura | voltar a URL anterior | 31/10 | 3 x 4 x 3 = 36 |
-| M14 | Remanejar a verba liberada em M2 e M3 para a campanha das provas (pedido ao cmo, muda a distribuição aprovada) | provas são o item de maior GUT do plano e não têm verba registrada | soma das diárias pausadas [CONFIRMAR] | campanha das provas sem pedir verba extra | devolver a verba às campanhas de origem | 30/10 | 4 x 4 x 3 = 48 |
-| M15 | Grupos 68665 e 68666 sem mídia paga; exceção de remarketing para 68666 só por decisão do cmo, com meta escrita | ticket de R$ 100,00 e prazo curto | sem verba | nenhuma verba em conta que não fecha | criar campanha depois, com meta | 28/10 | 2 x 4 x 2 = 16 |
-| M16 | Enviar os dados da seção 7 (gerenciador e Ufape) para fechar as metas em três cenários | sem meta, nenhuma campanha é boa ou ruim | sem custo | metas escritas antes do plano 1.11 | revisar na segunda-feira seguinte | 28/10 (gerenciador); 30/10 (Ufape) | 5 x 4 x 4 = 80 |
+| D1 | Pausar já as campanhas de 650, 68662, 706, 586, 554 e 68612, com exportação prévia; reativar só com E1 e E2 confirmados por escrito (68612 no mesmo dia da confirmação) | as 6 turmas estão "verificar" no catálogo, que proíbe chamada para inscrição sem confirmação; 68662 com link trocado | diária somada [CONFIRMAR] | nenhum anúncio chamando para turma "verificar"; verba liberada | reativar no gerenciador com as configurações exportadas, depois de E1 a E4 | aprovação em 26/10, execução imediata | 5 x 5 x 4 = 100 |
+| D2 | 698: pausar já os anúncios com data ou "2027"; orientar o WhatsApp de vendas a confirmar a data de 28/11/2026; Ufape corrige o site até 28/10 às 18h; se não corrigir, pausar a campanha | página com data errada e contraditória; risco CDC; data de corte pode ser 29/10 [CONFIRMAR] | diária [CONFIRMAR] | candidato vê e ouve a data certa | reativar anúncios ou campanha depois da correção; retirar a orientação ao WhatsApp | 28/10 | 5 x 5 x 4 = 100 |
+| D3 | Ufape responde política de entrada, vagas e data de corte das 6 turmas iniciadas e das 6 Pós da onda 1 | sem isso, nenhuma reativação da seção 1 nem pausa da seção 5 fecha | sem custo | reativações e pausas com base certa | não se aplica | 28/10 | 5 x 5 x 4 = 100 |
+| D4 | Aprovar a campanha única das provas (Meta e Google Busca, públicos e destinos da seção 3.2, divisão 25% / 40% / 35% por fase e 70% Meta / 30% Google) | porta de entrada da Pós, 32 dias até a prova, fora da visão; inscrições da Anclivepa encerram em 07/11 | verba total [CONFIRMAR]; percentuais da seção 3.3 | inscritos nas provas a partir de 03/11 | pausar a campanha ou o anúncio da área | aprovação até 30/10; subida em 03/11, só depois de D6, D7 e D8 | 5 x 5 x 4 = 100 |
+| D5 | Workshop: corrigir o que W1 a W9 apontarem, com UTM do evento (utm_campaign=neuro-summit-2026 [SUPOSIÇÃO]); linha de base | conformidade e rastreio da reta final de 25 dias | sem verba nova | anúncio coerente com a página; leitura por origem | reativar o anúncio anterior, pausado e não excluído | 28/10 | 4 x 5 x 4 = 80 |
+| D6 | Enviar os dados da seção 7 (gerenciador e Ufape) para fechar as metas em três cenários | sem meta, nenhuma campanha é boa ou ruim | sem custo | metas escritas antes do plano 1.11 e da subida das provas | revisar na segunda-feira seguinte | 28/10 (gerenciador); 30/10 (Ufape) | 5 x 4 x 4 = 80 |
+| D7 | Ufape informa destino, fim das inscrições, data do resultado e turma mínima de cada prova; corrige os links de 68641 e 68642 | sem destino, a bolsa não tem regra completa no anúncio | sem custo | mais provas aptas a subir em 03/11 | não se aplica | 31/10 | 5 x 5 x 3 = 75 |
+| D8 | Teste de rastreio antes de 03/11: compra de R$ 100,00 no pixel e no Google, UTM no CRM e na loja | sem rastreio, a otimização para compra não funciona e nada se lê | sem custo de mídia | campanha das provas mede desde o 1º dia | não se aplica | 31/10 | 4 x 5 x 3 = 60 |
+| D9 | Pausar 707 em 30/10, 68604 em 31/10 e 68606 em 07/11, ao fim do dia, salvo política de entrada | data de início | sem verba nova | fim do gasto no início da turma | reativar se a Ufape confirmar entrada | 30/10, 31/10, 07/11 | 4 x 5 x 3 = 60 |
+| D10 | Workshop: criativos 1 (anestesiologista) e 2 (os dois dias) entram em teste no conjunto de público frio | estratégia do evento, semana 1; campanha só com estático antigo | dentro da diária atual [CONFIRMAR] | mais cliques qualificados no público frio | pausar os criativos novos e reativar os anteriores | 30/10 | 4 x 4 x 3 = 48 |
+| D11 | Remanejar a verba liberada em D1 para a campanha das provas (pedido ao cmo, muda a distribuição aprovada) | provas são o item de maior GUT do plano e não têm verba registrada | soma das diárias pausadas [CONFIRMAR] | campanha das provas sem pedir verba extra | devolver a verba às campanhas de origem quando reativadas | 30/10 | 4 x 4 x 3 = 48 |
+| D12 | Livres 573 e 68614: anúncios sem data até a Ufape confirmar; pausa na data confirmada ou ao lotar | datas divergentes entre catálogo e visão (P6) | sem verba nova | nenhum anúncio com data errada | reativar anúncio com data | 28/10 | 3 x 5 x 3 = 45 |
+| D13 | Workshop: criativo 3 (intensivista) entra no conjunto frio | estratégia do evento, semana 2; 7 dias depois de D10 | dentro da diária [CONFIRMAR] | cobertura do segundo público da página | pausar o criativo 3 | 06/11 | 3 x 4 x 3 = 36 |
+| D14 | Workshop: criar conjunto de remarketing de visitantes da página neuro-summit (se não existir) | estratégia do evento, semana 3; visitante que não comprou | parte da diária do evento [CONFIRMAR] | inscrições de quem já conhece o evento | pausar o conjunto | 09/11 | 3 x 4 x 3 = 36 |
+| D15 | Workshop: decisão da checagem de 09/11, aplicada em 13/11 no conjunto frio (uma só): no ritmo da meta, aumento de verba no criativo e público que mais vendem; abaixo, deslocar peso para remarketing, base e transmitido | ritmo contra a meta de inscritos [CONFIRMAR], com teto de 30 vagas | valor do aumento ou do deslocamento [CONFIRMAR], dentro da verba aprovada; acima dela vai ao cmo | ritmo da meta na última semana | voltar a verba e a configuração de 12/11 | decisão 09/11; execução 13/11 | 3 x 4 x 3 = 36 |
+| D16 | Workshop: anúncios de data e local e do ingresso transmitido entram no conjunto de remarketing | última semana; quem não pode viajar | dentro da diária [CONFIRMAR] | inscrições no transmitido e lembrete do presencial | pausar os anúncios | 14/11 | 3 x 4 x 3 = 36 |
+| D17 | Workshop: pausar os anúncios do presencial ao lotar as 30 vagas ou no fim das inscrições (data provisória única 18/11 [SUPOSIÇÃO], igual à estratégia do evento); manter o transmitido até o fim das inscrições dele [CONFIRMAR] | presencial tem teto de vagas e data | sem verba nova | não gastar em oferta lotada ou encerrada | reativar | quando lotar ou 18/11 provisória | 3 x 4 x 3 = 36 |
+| D18 | Pausar 698, 68610 e 68608 em 28/11 ou na data de corte confirmada; pedir vídeo para 68610 | data de início; 68610 só estático com 33 dias de prazo | produção de vídeo [CONFIRMAR] | reta final com pacote mais completo | reativar; manter o estático | 28/11 | 4 x 3 x 3 = 36 |
+| D19 | 623 e 68637: Ufape escolhe a página que fica; ajustar a URL se for a 68637; pausar campanha duplicada se houver | página duplicada divide tráfego e leitura (P7) | sem verba nova | uma página e uma leitura | voltar a URL anterior | 31/10 | 3 x 4 x 3 = 36 |
+| D20 | 68606: se houver fadiga (frequência subindo e CTR caindo por 3 dias ou mais), trocar o anúncio mais cansado por um ângulo já pronto | 12 dias de reta final, pacote com 5 ângulos e vídeo | sem verba nova | CTR recuperado sem mexer em verba ou público | reativar o anúncio retirado, pausado e não excluído | até 03/11 (depois disso, menos de 7 dias até o início) | 3 x 4 x 2 = 24 |
+| D21 | Grupos 68665 e 68666 sem mídia paga; exceção de remarketing para 68666 só por decisão do cmo, com meta escrita | ticket de R$ 100,00 e prazo curto | sem verba | nenhuma verba em conta que não fecha | criar campanha depois, com meta | 28/10 | 2 x 4 x 2 = 16 |
 
-**Os 3 primeiros (empate em 100, desempate por urgência e menor esforço):**
-1. M4 (698): responsável Ufape (site) e humano no gerenciador; checagem em 28/10 às 18h pelo gestor-de-midia.
-2. M1 (política de entrada e datas de corte): responsável cmo pede à Ufape; checagem em 28/10.
-3. M5 (campanha das provas): responsáveis estrategia-de-campanha (plano em 29/10), criativos-de-anuncio, anuncios-meta e anuncios-google; checagem em 03/11.
+**Os 3 primeiros:**
+1. D1 (pausa das 6 turmas "verificar"): humano no gerenciador; checagem em 27/10 pelo gestor-de-midia (pausa confirmada no gerenciador).
+2. D2 (698): Ufape (site e WhatsApp de vendas) e humano no gerenciador; checagem em 28/10 às 18h pelo gestor-de-midia.
+3. D3 (política de entrada e datas de corte): cmo pede à Ufape; checagem em 28/10.
 
-**O que vai ao cmo decidir (muda verba total, canais ou oferta):** M5 (verba da campanha nova e canais), M14 (remanejamento), M15 (exceção do grupo 68666). Recomendação do gestor: aprovar M5 e M14; manter M15 sem mídia paga.
+D4 (campanha das provas) empata em 100 e fica em quarto pelo esforço maior; responsáveis estrategia-de-campanha (plano em 29/10), criativos-de-anuncio, anuncios-meta e anuncios-google; checagem em 03/11.
+
+**O que vai ao cmo decidir (muda verba total, canais ou oferta):** D4 (verba da campanha nova e canais), D11 (remanejamento), D15 quando o aumento passar da verba aprovada, D21 (exceção do grupo 68666). Recomendação do gestor: aprovar D4 e D11; manter D21 sem mídia paga.
 
 ---
 
@@ -447,57 +469,75 @@ Ordem pela matriz GUT (notas de 1 a 5 são avaliação do gestor, não medida; o
 | Item | Situação |
 |---|---|
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente: este memorando pede aprovação; canais da campanha das provas avaliados com motivo (3.2). Plano completo por linha na etapa 1.11 |
-| Metas de CPL e custo por matrícula escritas antes de subir | Não atendido ainda: fórmulas prontas (7.3), valores [CONFIRMAR]. A campanha das provas não deve subir sem o custo por inscrito máximo escrito (M16 antes de M5) |
-| Verba dentro do valor aprovado, com aprovador registrado | Não atendido: verba e aprovador [CONFIRMAR] (P12). Remanejamento vai separado ao cmo (M14) |
+| Metas de CPL e custo por matrícula escritas antes de subir | Não atendido ainda: fórmulas prontas (7.3), valores [CONFIRMAR]. A campanha das provas não sobe sem o custo por inscrito máximo escrito (D4 só depois de D6) |
+| Verba dentro do valor aprovado, com aprovador registrado | Não atendido: verba e aprovador [CONFIRMAR] (P12). Remanejamento vai separado ao cmo (D11) |
 | Nomenclatura padrão em campanhas, conjuntos e anúncios | Pendente: código do catálogo no nome é pedido (7.1); estrutura com anuncios-meta e anuncios-google |
-| UTMs completas e origem chegando ao CRM | Pendente: teste de rastreio (M7) |
-| Pixel, API de Conversões e conversões do Google configurados e testados | Pendente: M7 e W8. TikTok e LinkedIn fora |
-| Criativos aprovados em conformidade-educacional | Pendente: peças das provas e ajustes do workshop passam pelo qa-de-marketing |
+| UTMs completas e origem chegando ao CRM | Pendente: teste de rastreio (D8); UTM do workshop com referência provisória (W1, D5) |
+| Pixel, API de Conversões e conversões do Google configurados e testados | Pendente: D8 e W8. TikTok e LinkedIn fora |
+| Criativos aprovados em conformidade-educacional | Pendente: peças das provas e criativos do workshop passam pelo qa-de-marketing |
 | Anúncios dentro das políticas das plataformas | Atendido no desenho: sem atributo pessoal, sem escassez falsa, sem concorrente citado. Conferir nas peças |
 | Nenhum público com menores de 18 anos | Atendido no desenho (3.2) |
 | Post de docente promovido ou Spark Ad com autorização | Não se aplica (LinkedIn e TikTok fora); docentes do workshop só com autorização (W5) |
-| Relatório semanal ao CMO com fatos, hipóteses e dados que faltam | Primeiro em 02/11 |
+| Relatório semanal ao CMO com fatos, hipóteses e dados que faltam | Pendente: primeiro em 03/11 (terça, porque 02/11 é feriado); depois 09/11, 16/11, 23/11 e 30/11; checagens do workshop em 28/10, 03/11, 09/11, 16/11 e 30/11 |
 | Sem segmentação discriminatória nem exclusão por atributo sensível | Atendido no desenho |
 | Públicos sem dados pessoais usados sem base legal | Atendido: listas de contatos só com base legal confirmada (3.2) |
-| Dados de curso conferidos no catálogo | Atendido: todos os preços, datas, cargas e regras vêm do catálogo e das fichas |
+| Dados de curso conferidos no catálogo | Atendido: preços, datas, cargas e regras vêm do catálogo e das fichas; valores com cupom marcados [SUPOSIÇÃO] e fora de peça; cupom vale para os dois ingressos (ficha) |
 | Destino de WhatsApp é número oficial | Não se aplica: a mídia desta onda não leva ao WhatsApp |
-| Números da análise vêm só das exportações | Atendido: nenhum número de mídia foi usado ou inventado |
-| Nenhuma alteração feita sem humano executar e aprovar | Atendido: tudo é pedido (seção 8) |
+| Números da análise vêm só das exportações | Atendido: nenhum número de mídia foi usado ou inventado; 30 vagas tratadas como capacidade, não como meta |
+| Nenhuma alteração feita sem humano executar e aprovar | Atendido: toda ação, inclusive as da reta final do workshop e o ajuste de 68606, está na seção 8 com quanto, efeito e como desfazer |
 
 ### 9.2 auditorias/conformidade-educacional.md (aplicada às recomendações; as peças passam de novo, uma a uma)
 
-| Item | Situação |
-|---|---|
-| Dados de curso batem com o catálogo | Atendido; divergências (698, 573, 68614, 623 e 68637, 68662, 68641 e 68642, 68634) bloqueiam o anúncio afetado |
-| Só chama para inscrição item aberto | Atendido: as 6 turmas "verificar" vão para pausa salvo confirmação; 68656 fora |
-| Modalidade clara | Atendido: 586 é EAD; workshop separa presencial e transmitido |
-| Pós sem "reconhecida pelo MEC" e sem frase de certificação | Atendido no memorando; checagem obrigatória nos anúncios ativos (2.3, 5.2). As páginas de destino ainda têm a frase (P2): risco aberto, pedido A7 do cmo |
-| Curso livre deixa claro que não confere diploma | Pendente nas peças de 573, 68614 e 623 (criativos-de-anuncio) |
-| Nenhuma promessa de emprego ou sucesso | Atendido |
-| Comparação com concorrente objetiva | Atendido: nenhuma peça cita a Anclivepa |
-| Preço com parcelas e condições completas | Atendido na tabela 7.5; regra para as peças |
-| Bolsa e desconto com regra, público e prazo | Bloqueia as provas sem destino confirmado e o cupom em público frio (3.2, W7) |
-| Urgência real | Atendido: "30 vagas" só como total; sem "últimas vagas" sem número |
-| Autorização de imagem | Pendente: docentes do workshop [CONFIRMAR autorização] |
-| Formulários com finalidade e política de privacidade | Pendente: conferir nas páginas de destino [CONFIRMAR] |
-| Nenhum dado pessoal nos arquivos | Atendido: nenhum nome de aluno, candidato ou docente aparece neste memorando |
-| Anúncios sem atributo pessoal, sem elemento falso | Atendido no desenho |
-| Página de destino entrega o que o anúncio promete | Bloqueado em 698 até a correção; pendente em 68662, 68641 e 68642 |
+| Bloco | Item | Situação |
+|---|---|---|
+| Dados do curso | Nome, modalidade, carga horária, duração e turno batem com o catálogo | Atendido; divergências (698, 573, 68614, 623 e 68637, 68662, 68641 e 68642, 68634) bloqueiam o anúncio afetado |
+| Dados do curso | Curso com status "aberto" (ou a peça não chama para inscrição) | Atendido: as 6 turmas "verificar" vão para pausa imediata (D1) e só voltam com confirmação escrita da Ufape; 68656 fora; 698, 707, 68604, 68606, 68610, 68608, 573, 68614, 623, provas e workshop estão "aberto" |
+| Dados do curso | Modalidade clara e correta | Atendido: 586 é EAD; workshop separa presencial e transmitido |
+| Regulação | Graduação: ato regulatório do catálogo | Não se aplica: Graduação fora do memorando |
+| Regulação | Pós lato sensu sem "reconhecida pelo MEC" | Atendido no memorando; checagem obrigatória nos anúncios ativos (2.3, 5.2). As páginas de destino ainda têm a frase (P2): risco aberto, pedido A7 do cmo |
+| Regulação | Curso livre deixa claro que não confere diploma | Pendente nas peças de 573, 68614 e 623 (criativos-de-anuncio) |
+| Regulação | Nota MEC só com fonte oficial | Atendido: nenhuma nota citada |
+| Promessas e provas | Sem promessa de emprego, salário ou sucesso | Atendido |
+| Promessas e provas | Empregabilidade e satisfação com fonte, período e amostra | Não se aplica: nenhum dado desse tipo no memorando |
+| Promessas e provas | Superlativos só com fonte | Atendido: nenhum superlativo |
+| Promessas e provas | Comparação com concorrente objetiva | Atendido: a Anclivepa aparece só na análise interna; nenhuma peça a cita |
+| Preço e condições | Valor, parcelas e condições completas | Atendido na tabela 7.5; regra para as peças |
+| Preço e condições | Bolsa e desconto com regra, público e prazo | Pendente externo: provas sem destino confirmado não sobem (3.2); cupom com público elegível da ficha, validade e limite [CONFIRMAR]; valores com cupom fora de peça (7.5, W7) |
+| Preço e condições | Urgência real | Atendido: "30 vagas" só como total; sem "últimas vagas" sem número com data |
+| Preço e condições | Prouni, Fies ou financiamento | Não se aplica |
+| Pessoas e dados | Autorização de uso de imagem | Pendente externo: docentes do workshop [CONFIRMAR autorização] |
+| Pessoas e dados | Menores de idade | Atendido: públicos só maiores de 18; nenhuma peça com menor |
+| Pessoas e dados | Formulários com finalidade e política de privacidade | Pendente externo: conferir nas páginas de destino [CONFIRMAR] |
+| Pessoas e dados | WhatsApp e e-mail só com consentimento e saída fácil | Atendido: grupos e provas no WhatsApp só para base com opt-in; a mídia não leva ao WhatsApp |
+| Pessoas e dados | Nenhum dado pessoal de aluno ou candidato | Atendido: só números somados; nenhum docente citado por nome neste memorando |
+| Plataformas | Políticas da Meta e do Google, sem segmentação discriminatória | Atendido no desenho |
+| Plataformas | Destino entrega o que o anúncio promete | Pendente externo: 698 bloqueado até a correção; 68662, 68641 e 68642 com link a corrigir |
+| Anúncios | Sem característica pessoal de quem vê | Atendido no desenho |
+| Anúncios | Sem urgência falsa, contador falso, play falso ou imitação da interface | Atendido |
+| Anúncios | Sem pessoa pública ou parceria inexistente | Atendido |
+| Anúncios | Sem caixa alta excessiva, pontuação repetida ou símbolos | Atendido no desenho; conferir nas peças |
+| Anúncios | Página de destino carrega, domínio esperado, dados da Ufape, contato e política de privacidade | Pendente externo: conferir nas páginas das provas, das turmas e neuro-summit antes da subida (D8) [CONFIRMAR] |
+| Anúncios | Sem sugestão para driblar a análise das plataformas | Atendido |
+| Texto | Sem travessão nem meia-risca | Atendido |
 
-**Resultado:** memorando pronto para aprovação humana das decisões; não libera subida de campanha nova (M5) antes de M6, M7 e M16. O qa-de-marketing confere de novo antes de marcar como pronto.
+**Resultado:** memorando pronto para a nova conferência do qa-de-marketing e, depois, para aprovação humana das decisões; não libera subida de campanha nova (D4) antes de D6, D7 e D8.
 
 ---
 
 ## Fatos (com fonte)
 
 - 19 campanhas ativas, 22 pausadas e 26 sem campanha na visão (docs/visao-de-campanhas-2026-10-26.md).
-- 650, 68662 e 706 começaram em 15/08/2026; 586 e 554 em 22/08/2026; 68612 em 24/10/2026; todas com campanha ativa (visão; catálogo, seção 2).
+- 650, 68662 e 706 começaram em 15/08/2026; 586 e 554 em 22/08/2026; 68612 em 24/10/2026; todas com campanha ativa e status "verificar (turma já iniciada e com venda)" no catálogo (visão; catálogo, seção 2).
+- Turma "verificar" exige confirmação da Ufape antes de qualquer peça (catálogo, "Como usar"; contexto/pos-graduacao.md, regras de comunicação).
 - 698: site com início em 28 e 29/11/2027 e cronograma com o módulo 1 em 28 e 29/11/2026; planilha 28/11/2026; campanha ativa (ficha 698; visão).
 - 707 começa em 30/10, 68604 em 31/10, 68606 em 07/11, 68610, 68608 e 698 em 28/11/2026 (catálogo, seção 2).
 - 22 provas abertas em 27/11/2026, inscrição de R$ 100,00, 11 bolsas por prova (2 de 50%, 4 de 25%, 5 de 10%), nota de corte 7,0, 10 dias úteis para a matrícula; 68656 fora do ar (catálogo, seção 3; contexto/pos-graduacao.md; ficha 68647).
+- Turmas futuras abertas: Cardiologia só 289 (GO), Clínica Cirúrgica só 68632 (GO), Terapia Intensiva só 68623 (GO); Anestesiologia com 657 e 359 em SP e 68609 em GO (catálogo, seção 2).
 - As provas não constam na visão de campanhas (plano do cmo, seção 3).
 - Anclivepa-SP: inscrições até 07/11/2026 e taxa de R$ 350,00 (edital, resumo de busca); prova em 14/11/2026 segundo cópia não oficial (inteligencia-concorrencia-pos, alertas 1 e 2).
-- Workshop: 20 e 21/11/2026, 16 h, 30 vagas presenciais a R$ 1.250,00, transmitido a R$ 450,00 (68634, que mostra 24 h), cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno, destino neuro-summit (catálogo, seção 9; ficha do evento; briefing, decisão 6).
+- Workshop: 20 e 21/11/2026, 16 h, 30 vagas presenciais a R$ 1.250,00, transmitido a R$ 450,00 (68634, que mostra 24 h), cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno nos dois ingressos, com comprovação na secretaria, destino neuro-summit (catálogo, seção 9; ficha do evento; briefing, decisão 6).
+- Estratégia do evento: criativos 1 e 2 na semana 1 (a partir de 30/10), criativo 3 na semana 2, remarketing de 09/11 a 13/11, checagens em 28/10, 03/11, 09/11, 16/11 e 30/11 (estrategia-de-campanha-eventos-2026-10-26.md, seções 2 e 4).
+- 02/11/2026 é feriado nacional (Finados) (qa-de-marketing, fatos).
 - 573 com 14/11/2026 no catálogo e 29/11 na visão; 68614 com 28/11/2026 e 18/12; 623 e 68637 duplicados; 623 com 3 criativos novos em 21/10/2026 (catálogo, seção 4; visão; plano do cmo, P6 e P7).
 - 68665 (01/11/2026) e 68666 (25/11/2026), R$ 100,00 cada, não constam na visão (catálogo, seção 7; analista-de-dados).
 - Turma mínima: 20 nas páginas de Pós e 15 na página da prova (contexto/pos-graduacao.md).
@@ -512,23 +552,30 @@ Ordem pela matriz GUT (notas de 1 a 5 são avaliação do gestor, não medida; o
 - [SUPOSIÇÃO] Mídia das provas não leva ao WhatsApp nesta onda.
 - [SUPOSIÇÃO] Candidatos que fizeram a prova da Anclivepa podem fazer a da Ufape depois de 14/11.
 - [SUPOSIÇÃO] Janela de 4 a 8 semanas para Livres presenciais (contexto da linha).
+- [SUPOSIÇÃO] Cupom SIMPNEUROMONIT de 20% sobre o preço de tabela nos dois ingressos (R$ 1.000,00 e R$ 360,00); conta de uso interno, não vai para peça.
+- [SUPOSIÇÃO] Data provisória única de fim da mídia do presencial do workshop em 18/11, igual à estratégia do evento, a ser escolhida pela pessoa do marketing.
+- [SUPOSIÇÃO] utm_campaign=neuro-summit-2026 como referência até o padrão de UTM da squad (P15).
+- [SUPOSIÇÃO] Criativo 3 do workshop em 06/11, para respeitar uma mudança por semana no conjunto frio.
 - Referência de plataforma marcada como estimativa: cerca de 50 conversões por semana para o conjunto sair do aprendizado na Meta; pausa longa pode reiniciar o aprendizado.
 
 ## Dados que faltam
 
 - [CONFIRMAR] Gasto, orçamento diário, leads e compras de cada campanha ativa e pausada, por semana (Meta e Google).
-- [CONFIRMAR] Política de entrada em turma iniciada (semipresencial e EAD), vagas restantes e data de corte da 1ª mensalidade por turma.
+- [CONFIRMAR] Política de entrada em turma iniciada (semipresencial e EAD), por escrito; vagas restantes e data de corte da 1ª mensalidade por turma.
 - [CONFIRMAR] Data de correção do site de 698 e data em que a data errada entrou no ar.
 - [CONFIRMAR] Destino, fim das inscrições, data do resultado, turma mínima e base de incidência da bolsa de cada prova; correção dos links de 68641 e 68642.
 - [CONFIRMAR] Verba total da campanha das provas e verba aprovada por linha; nome de quem aprova anúncios e verba; quem executa no gerenciador.
 - [CONFIRMAR] Custo variável por aluno, margem desejada, evasão, desconto médio e taxa lead para matrícula por linha; taxa inscrito na prova para matrícula.
 - [CONFIRMAR] Status do pixel, da API de Conversões e das conversões do Google para compra na loja e na página neuro-summit; código do produto presencial do workshop.
+- [CONFIRMAR] Meta de inscritos por ingresso do workshop e fim das inscrições de cada ingresso.
 - [CONFIRMAR] Datas de 573 e 68614; página que fica entre 623 e 68637; vagas totais dos presenciais e do workshop.
 - [CONFIRMAR] Base legal para públicos de lista de contatos.
 - [CONFIRMAR] Autorização de imagem dos docentes do workshop; texto de certificado de participação.
+- [CONFIRMAR] Política de privacidade e dados da Ufape nas páginas de destino.
 - [CONFIRMAR] Edital oficial da Anclivepa (data da prova).
-- [CONFIRMAR] Se o cupom SIMPNEUROMONIT vale para o transmitido; se o gravado do workshop segue à venda depois do evento.
+- [CONFIRMAR] Validade, limite de uso e prazo de comprovação do cupom SIMPNEUROMONIT; se o gravado do workshop segue à venda depois do evento.
+- [CONFIRMAR] Padrão de UTM da squad (P15).
 
 ---
 
-**Próximo agente sugerido:** estrategia-de-campanha (plano das provas até 29/10) em paralelo com estrategia-de-midia, que recebe este memorando e as metas da seção 7 para o plano 1.11 por linha. criativos-de-anuncio entra na sequência para os conceitos por área das provas e o vídeo de 68610.
+**Próximo agente sugerido:** qa-de-marketing (nova conferência desta versão). Depois: estrategia-de-campanha (plano das provas até 29/10 e alinhamento do calendário do workshop, E3 e E4 do qa) em paralelo com estrategia-de-midia, que recebe este memorando e as metas da seção 7 para o plano 1.11 por linha; criativos-de-anuncio na sequência, para os conceitos por área das provas e o vídeo de 68610.
