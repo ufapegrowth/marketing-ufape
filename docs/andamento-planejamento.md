@@ -45,7 +45,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
-| 1.20 | estrategia-social | pos, livres, eventos | pos CORRIGIR (qa lote A, SP1); eventos e livres entregues (sem qa) |
+| 1.20 | estrategia-social | pos, livres, eventos | pos versão 2 corrigida (SP1 a SP3), aguarda reconferência do qa; eventos e livres entregues (sem qa) |
 | 1.21 | youtube | pos, livres | falta |
 | 1.22 | podcast, x | geral | falta |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
@@ -106,3 +106,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.12 pos entregue: 14 campanhas ativas, 8 com bloqueio estrutural (turma iniciada ou página errada); roteiro de leitura para quando os números chegarem; pedidos A1 a A5 |
 | 26/10/2026 | Lote B (menos 1.20 livres) entregue: 1.11 livres e eventos, 1.13 pos, 1.20 eventos, 1.26 livres, 1.12 pos. qa do lote A: 4 aprovados com ajustes, estrategia-social-pos e newsletter-geral voltam para correção |
 | 26/10/2026 | 1.20 livres entregue. Lote B concluído. Lote C e correções do lote A iniciados |
+| 26/10/2026 | estrategia-social-pos versão 2: teto de mensagens igual ao da 1.26, post de 68608 ou 68610 sem chamada de compra direta |
