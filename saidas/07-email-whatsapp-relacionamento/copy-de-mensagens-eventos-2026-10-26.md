@@ -386,7 +386,7 @@ Em cada mensagem de marketing (M1 a M3, M9) há 5 assuntos ou primeiras linhas, 
 > As perguntas mais comuns:
 > - **Preciso saber interpretar EEG antes?** Não. A sexta constrói a base, de neuroanatomia, EEG e análises espectrais a índices processados, antes da prática do sábado.
 > - **É só sobre BIS?** Não. O BIS tem destaque, mas o programa passa por EEG, DSA, CSA, PSI, Conox e monitorização neuromuscular por TOF.
-> - **** Instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e artefatos, casos com e sem bloqueio neuromuscular e desafio em pequenos grupos.
+> - **E o sábado, como funciona?** Instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e artefatos, casos com e sem bloqueio neuromuscular e desafio em pequenos grupos.
 >
 > *(Só no segmento aluno e ex-aluno:)* Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT, com o vínculo comprovado na secretaria. Validade e prazo da comprovação: [CONFIRMAR].
 >
