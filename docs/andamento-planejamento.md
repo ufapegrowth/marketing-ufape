@@ -123,3 +123,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.21 entregue. Proposta PY1 ao cmo: link de Short não é clicável [SUPOSIÇÃO], então o critério de clique com UTM da 1.20 tende a zero em dezembro |
 | 26/10/2026 | Lote C concluído: 1.12 livres e eventos, 1.13 livres, 1.24 pos e livres. Iniciados conciliação do cmo e qa dos lotes B e C |
 | 26/10/2026 | Decisões da Ufape (10 a 13 do briefing) gravadas no briefing, em contexto/pos-graduacao.md (turma mínima 15, prova online, regra por ficha) e em contexto/ufape-geral.md (autorização para todos) |
+| 26/10/2026 | qa do lote C: 11 arquivos aprovados (2 sem ajuste, 9 com ajustes não bloqueantes). EML-Q1 da estrategia-de-midia-livres (conceito R3 "primeiro passo em 8 horas" errado) enviado para correção já. Os outros ajustes vão junto com as encomendas da conciliação do cmo |
