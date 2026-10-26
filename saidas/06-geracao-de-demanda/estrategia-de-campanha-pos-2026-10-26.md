@@ -190,7 +190,7 @@ Até o destino de cada prova ser confirmado, só as camadas mestre e área rodam
 | Já pensa na especialidade | Visitou a página da pós ou da prova; conversou com o time | Mensagem por área com "como funciona" e FAQ |
 | Avalia a prova da Anclivepa | P4 que compara | Argumentos factuais pelo time de vendas (seção 2.6) |
 | Inscrito | Pagou os R$ 100,00 | Mensagens de serviço: confirmação, orientações do dia, lembrete de véspera (pelo CRM, com consentimento) |
-| Pós-prova | Aprovado com bolsa, aprovado sem bolsa, não aprovado, ausente | Mensagens por grupo (seção 5, fase 5), só com as regras confirmadas |
+| Pós-prova | Aprovado com bolsa, aprovado sem bolsa, não aprovado, ausente | Mensagens por grupo (seção 5, fase 6), só com as regras confirmadas |
 
 ### 2.5 O que fica fora desta campanha
 
@@ -325,12 +325,12 @@ Total: 10 em D1, 4 em D2, 4 em D3, 4 em D4.
 - Área de alta disputa (cinco concorrentes nomeados).
 
 **A14. Outras especialidades: Odontologia (68655 SP)**
-- Situação: D4, [CONFIRMAR destino]. As turmas 68662 e 678 começaram em 15/08/2026 ("verificar") e a 68662 tem link trocado (P3, P6 do plano: data de 2027 no site).
+- Situação: D4, [CONFIRMAR destino]. As turmas 68662 e 678 começaram em 15/08/2026 ("verificar") e a 68662 tem link trocado (P3 e P6 do plano: data de 2027 no site).
 - Sem anúncio pago e sem WhatsApp segmentado até o destino ser confirmado.
 
 ### 3.4 Prioridade de investimento entre áreas (proposta, sem verba)
 
-1. Primeiro as 10 provas em D1 (destino provável e menos risco de reclamação), começando pelas 3 de Goiânia se o local for corrigido, porque lá não apareceu concorrente presencial (inteligencia-concorrencia, ângulo 5).
+1. Primeiro as 10 provas em D1 (destino provável e menos risco de reclamação), começando pelas de Goiânia se o local for corrigido, porque lá não apareceu concorrente presencial (inteligencia-concorrencia, ângulo 5). A Cardiologia de Goiânia (68642) só entra depois da correção dos links.
 2. Depois D2 e D3, só com a decisão da Ufape sobre o destino.
 3. D4 fica só na peça mestre até a confirmação.
 
@@ -379,10 +379,10 @@ Data do plano: 26/10/2026. Toda data de envio ou de subida de anúncio depende d
 
 | Fase | Datas | Objetivo | O que acontece | Quem |
 |---|---|---|---|---|
-| 0. Preparação | 26 a 29/10 | Briefing aprovado e destravar a oferta | Este briefing para aprovação. Pedido à Ufape (A-C1 e A-C2): destino de cada prova, prazo de inscrição, data do resultado, local de Goiânia, regra do aprovado sem bolsa, monitoria, ausência, turma mínima, correção de Felinos e dos links de Cardiologia. estrategia-de-oferta registra as regras. gestor-de-midia escreve metas de custo e plano de mídia | estrategia-de-campanha, cmo, estrategia-de-oferta, gestor-de-midia, Ufape |
+| 0. Preparação | 26 a 29/10 | Briefing aprovado e destravar a oferta | Este briefing para aprovação. Pedido à Ufape (A-C2 e A-C3): destino de cada prova, prazo de inscrição, data do resultado, local de Goiânia, regra do aprovado sem bolsa, monitoria, ausência, turma mínima, correção de Felinos e dos links de Cardiologia. estrategia-de-oferta registra as regras. gestor-de-midia escreve metas de custo e plano de mídia | estrategia-de-campanha, cmo, estrategia-de-oferta, gestor-de-midia, Ufape |
 | 1. Subida | 27/10 a 03/11 | Começar a gerar inscrições nas provas em D1 | Peças mestre e de área produzidas e aprovadas até 03/11 (prazo do cmo). Post mestre orgânico e primeiro e-mail para a base assim que aprovados. Anúncios Meta e Search das provas em D1 sobem com a verba aprovada. Ajustes da página da prova pedidos ao site | criativos-de-anuncio, posts-sociais, copy-de-mensagens, landing-page, gestor-de-midia |
 | Checagem 1 | 03/11 (terça) | Primeiro ponto de decisão | Seção 7 | cmo, gestor-de-midia |
-| 2. Pico | 03/11 a 07/11 | Maior investimento da campanha antes do fim das inscrições da Anclivepa | Maior parte da verba da fase 1 e 2 concentrada nesses dias [SUPOSIÇÃO de que o candidato que compara decide nessa janela]. WhatsApp para a base com opt-in (mensagem mestre). Time de vendas com o roteiro factual da seção 2.6. Peça pública sem citar o concorrente e sem urgência ligada a ele | gestor-de-midia, copy-de-mensagens, time de vendas |
+| 2. Pico | 03/11 a 07/11 | Maior investimento da campanha antes do fim das inscrições da Anclivepa | Maior parte da verba das fases 1 e 2 concentrada nesses dias [SUPOSIÇÃO de que o candidato que compara decide nessa janela]. WhatsApp para a base com opt-in (mensagem mestre). Time de vendas com o roteiro factual da seção 2.6. Peça pública sem citar o concorrente e sem urgência ligada a ele | gestor-de-midia, copy-de-mensagens, time de vendas |
 | 3. Sustentação | 08/11 a 19/11 | Manter alcance e responder dúvidas | Posts por área, stories com FAQ, e-mail "como funciona", remarketing para quem visitou a página. Entram as provas de D2 e D3 que tiverem destino confirmado. Workshop de Neuromonitorização em 20 e 21/11: sem mensagem das provas para a base nesses dois dias | posts-sociais, copy-de-mensagens, gestor-de-midia |
 | Checagens 2 e 3 | 09/11 e 16/11 (segundas) | Revisão semanal | Seção 7 | cmo, gestor-de-midia |
 | 4. Reta final | 20 a 26/11 | Última janela de inscrição | Mensagens só com fatos: "a prova é em 27/11, das 9h às 13h". Se a Ufape informar o prazo de inscrição, ele entra com a data exata; sem ele, nenhuma peça diz "inscrições até". Remarketing de quem iniciou e não concluiu a inscrição (se o checkout permitir) [CONFIRMAR]. Mensagem de serviço aos inscritos: documento com foto, sem celular nem relógio, endereço e horário | copy-de-mensagens, posts-sociais, gestor-de-midia, CRM |
@@ -400,9 +400,9 @@ Prazos de entrega para aprovação. Toda peça passa pelo qa-de-marketing (audit
 
 | Agente | Canal | Peças (mínimo) | Prazo | Bloqueio |
 |---|---|---|---|---|
-| estrategia-de-oferta | - | Registro das regras da prova como ficha da oferta (o que está confirmado, o que falta), texto padrão de regras para as peças, resposta-modelo para "para qual turma vale" por situação (D1 a D4) | 29/10 | Respostas da Ufape (A-C1, A-C2) |
+| estrategia-de-oferta | - | Registro das regras da prova como ficha da oferta (o que está confirmado, o que falta), texto padrão de regras para as peças, resposta-modelo para "para qual turma vale" por situação (D1 a D4) | 29/10 | Respostas da Ufape (A-C2, A-C3) |
 | gestor-de-midia (com estrategia-de-midia, anuncios-meta, anuncios-google) | Meta e Google Search | Metas de custo em três cenários; divisão de verba por fase, canal e área; estrutura das campanhas (mestre, por área em D1, Goiânia separado, remarketing); grupos de anúncio de Search por especialidade com palavras-chave de "prova de bolsa" e "bolsa pós-graduação veterinária"; UTMs; pedidos de aprovação de verba e de pausa | 30/10 (plano); subida após aprovação | Verba [CONFIRMAR]; links de Cardiologia; local de Goiânia |
-| criativos-de-anuncio | Meta (feed, stories, Reels) | 1 conceito mestre com 3 variações de formato (estático 1:1, stories 9:16, vídeo curto até 30 s com roteiro); 1 estático por área com prova em D1 (8 áreas: A1 Goiânia, A2, A3, A4 Goiânia, A5, A7, A10, A11, A12); textos de anúncio (até 3 títulos e 3 textos principais por área); remarketing com "como funciona" | 03/11 | Sem docente, sem candidato, sem foto de pessoa sem autorização |
+| criativos-de-anuncio | Meta (feed, stories, Reels) | 1 conceito mestre com 3 variações de formato (estático 1:1, stories 9:16, vídeo curto até 30 s com roteiro); 1 estático por área com prova em D1 (9 áreas: A1 Goiânia, A2, A3, A4 Goiânia, A5, A7, A10, A11, A12); textos de anúncio (até 3 títulos e 3 textos principais por área); remarketing com "como funciona" | 03/11 | Sem docente, sem candidato, sem foto de pessoa sem autorização |
 | anuncios-google | Google Search | Anúncios responsivos por grupo de especialidade (títulos e descrições com R$ 100,00, 11 bolsas, 27/11), extensões de chamada para os números de vendas SP e Goiânia | 03/11 | Página de destino de Felinos com frase do MEC (fora até corrigir) |
 | posts-sociais | Instagram e Facebook orgânicos | 1 carrossel mestre "Como funciona a prova de bolsa" (inscrição, data, bolsas, nota de corte, resultado, recurso, matrícula); 1 post por área com prova liberada (até 13, agrupando áreas pequenas); 4 sequências de stories (lançamento, FAQ, reta final, dia da prova); 1 post de pós-prova sem dado de candidato | 03/11 (mestre e áreas em D1); 12/11 (demais) | Destino para posts de D2 a D4 |
 | copy-de-mensagens | WhatsApp (base com opt-in e mensagens de serviço) | 1 mensagem mestre para a base; 1 mensagem por área para quem demonstrou interesse na especialidade (D1 primeiro); roteiro factual para o time de vendas (com a seção 2.6); 3 mensagens de serviço ao inscrito (confirmação, véspera, manhã da prova); 4 mensagens de pós-prova (aprovado com bolsa, aprovado sem bolsa, não aprovado, ausente) | 03/11 (base e vendas); 18/11 (serviço); 26/11 (pós-prova) | Regras do pós-prova [CONFIRMAR]; consentimento |
@@ -412,7 +412,7 @@ Prazos de entrega para aprovação. Toda peça passa pelo qa-de-marketing (audit
 | youtube | Shorts | Reaproveitamento do vídeo curto do conceito mestre, se houver capacidade [CONFIRMAR] | 06/11 | Capacidade de produção |
 | qa-de-marketing | - | Auditoria 06 e conformidade em cada lote | a cada entrega | - |
 
-Kit mínimo de campanha (o cmo define; proposta): 1 briefing (este), 1 plano de mídia, 1 conceito mestre e 8 variações de área em D1, 1 carrossel mestre e posts de área, 4 sequências de stories, 1 roteiro de vídeo curto, 1 mensagem mestre e as de área no WhatsApp, 3 de serviço, 4 de pós-prova, 4 e-mails, 1 proposta de ajuste das páginas das provas, 1 roteiro para o time de vendas.
+Kit mínimo de campanha (o cmo define; proposta): 1 briefing (este), 1 plano de mídia, 1 conceito mestre e 9 variações de área em D1, 1 carrossel mestre e posts de área, 4 sequências de stories, 1 roteiro de vídeo curto, 1 mensagem mestre e as de área no WhatsApp, 3 de serviço, 4 de pós-prova, 4 e-mails, 1 proposta de ajuste das páginas das provas, 1 roteiro para o time de vendas.
 
 ---
 
@@ -424,7 +424,7 @@ As metas numéricas ficam [CONFIRMAR] até a Ufape enviar meta, verba e históri
 |---|---|---|---|
 | 1 | 03/11 | Peças aprovadas; anúncios de D1 no ar; primeiros inscritos por prova; custo por inscrito e taxa de clique por área; respostas da Ufape sobre destino | Se a Ufape não respondeu o destino: manter só mestre e D1 e escalar o pedido ao cmo. Se uma área em D1 tem custo por inscrito acima da meta [CONFIRMAR] com amostra mínima [CONFIRMAR]: trocar o criativo antes de cortar a verba |
 | 2 | 09/11 | Inscritos acumulados por prova contra a meta [CONFIRMAR]; efeito do pico antes de 07/11; conversas no WhatsApp de vendas | Dobrar a aposta: área com custo por inscrito abaixo da meta recebe verba das áreas acima dela (pedido de realocação, aprovação humana). Mudar o rumo: prova sem nenhum inscrito e com tráfego na página indica problema de página ou de destino; levar à analise-cro e à Ufape, não aumentar verba |
-| 3 | 16/11 | Inscritos por prova; projeção até 27/11 pelo ritmo da semana [conta do analista, sem número inventado] | Se a projeção fica abaixo da meta: reforçar WhatsApp e e-mail para a base (custo zero de mídia) antes de pedir mais verba. Se a prova de uma área já passou da meta: reduzir a verba dela e passar para outra |
+| 3 | 16/11 | Inscritos por prova; projeção até 27/11 pelo ritmo da semana (conta do analista, sem número inventado) | Se a projeção fica abaixo da meta: reforçar WhatsApp e e-mail para a base (custo zero de mídia) antes de pedir mais verba. Se a prova de uma área já passou da meta: reduzir a verba dela e passar para outra |
 | 4 | 23/11 | Inscritos; mensagens de serviço prontas; pausa do dia 27 aprovada | Confirmar a pausa de anúncios em 27/11 e a reta final só com fatos |
 | 5 | 30/11 | Inscritos, presentes e aprovados por prova (números somados por prova, sem dado pessoal); custo por inscrito final | Decidir o tom do pós-prova por área; registrar aprendizados para a próxima edição |
 | Final | fim do prazo de matrícula [CONFIRMAR] | Matrículas com bolsa e sem bolsa vindas da prova, por turma de destino; custo por matrícula | Relatório final; insumo para a meta da próxima prova e para a confirmação das turmas (meta principal do plano do cmo) |

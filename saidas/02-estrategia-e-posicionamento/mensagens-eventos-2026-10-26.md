@@ -186,7 +186,7 @@ Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_camp
 | "paciente real", "paciente vivo" no sábado | A grade diz modelos, simulações ou registros | "em modelos", "casos", "registros" |
 | "imperdível", "tudo sobre", "completo" | Adjetivo sem dado | Grade e horas |
 | "seja um especialista em neuromonitorização", "domine o BIS" | Promessa de resultado | "o programa passa por..." |
-| "Faculdade Ufape Clínica", hospital | O evento é na Unidade 2, não na Ufape Clínica | "Faculdade Ufape, Unidade 2" |
+| "Ufape Clínica" como local do evento | O evento é na Unidade 2, não na Ufape Clínica | "Faculdade Ufape, Unidade 2" |
 | "Ufape Intercursos" | Segunda marca de venda | Faculdade UFAPE |
 | "Você é anestesiologista?", "Residente sem tempo?" em anúncio | Insinua característica pessoal de quem vê | "Para quem anestesia...", "Para quem cuida do paciente crítico..." |
 | "feriado prolongado", "aproveite o feriado" | Feriado como argumento sem ok da Ufape | Data e local, sem argumento de feriado |
