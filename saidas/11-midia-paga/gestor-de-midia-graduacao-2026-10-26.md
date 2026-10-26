@@ -8,6 +8,7 @@
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
 - Status: rascunho para aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
+- Revisão: versão corrigida depois do QA saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md (veredito A4). Correção 1: retirada a exceção de C0; nenhuma campanha sobe, nem em teste, sem CPLmax e CPMmax numéricos aprovados em MP1 e verba aprovada em MP2 (seções 0, 5, 7 e 8). Correção 2 (consistência): bloqueio total do noturno mantido e registrado nas notas da seção 8.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
@@ -21,6 +22,7 @@
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md
   - saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-graduacao-2026-10-26.md
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md (veredito A4 e conferência de dados)
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 - Regra de fonte: preço, turno, duração, modalidade e ato vêm do catálogo (seção 1); datas, vagas, turma mínima e regras de desconto vêm da ficha dos editais 2027/1. Não existe verba, meta acima do piso, histórico de CPL, exportação de plataforma nem número de CRM: tudo isso é [CONFIRMAR] ou [DADO NÃO FORNECIDO]. Nenhum dado pessoal neste arquivo.
 - Nota de nome: o plano do cmo previa este arquivo com data de 30/10/2026; foi entregue em 26/10/2026, com o nome pedido pelo orquestrador.
@@ -29,7 +31,7 @@
 
 ## 0. Situação em uma frase
 
-A conta de mídia da Graduação ainda não pode ser fechada, porque faltam a verba, as taxas do funil e os custos por aluno; este plano deixa as metas escritas como fórmula e conta pronta, ativa só o integral da Medicina Veterinária para subir em 16/11/2026 (com TikTok em teste condicionado) e deixa o noturno e a Pedagogia montados e bloqueados até as páginas serem corrigidas e o público adulto ser aprovado.
+A conta de mídia da Graduação ainda não pode ser fechada, porque faltam a verba, as taxas do funil e os custos por aluno; este plano deixa as metas escritas como fórmula e conta pronta, ativa só o integral da Medicina Veterinária para subir em 16/11/2026 (com TikTok em teste condicionado), desde que MP1 e MP2 estejam aprovados com números até lá, e deixa o noturno e a Pedagogia montados e bloqueados até as páginas serem corrigidas e o público adulto ser aprovado.
 
 **Aviso ao cmo (regra do método, passo 1):** não dá para afirmar se a conta fecha. A única receita garantida por matrícula é a do 1º semestre de 2027 (desconto só vale nele, renovação depende de análise). Se a Ufape quiser que a mídia se pague só com o 1º semestre, o cenário conservador da seção 2 é o limite. A Pedagogia tem teto de custo cerca de 9,5 vezes menor que o integral (R$ 3.150,00 contra R$ 30.000,00 no 1º semestre): o risco de a conta não fechar está nela.
 
@@ -372,7 +374,7 @@ Ordem da revisão, parando na primeira causa real: verba gasta como planejado; t
 | Escalar | CPL até 0,8 x CPLmax por 2 semanas seguidas, com passagem lead para inscrito igual ou acima da média do recorte; aumento de até 20% por semana dentro da verba aprovada | proposta ao humano; acima da verba aprovada vai ao cmo como pedido de aprovação |
 | Remanejar entre recortes ou canais | Sempre | cmo (muda verba por recorte ou canais ativos) |
 
-Checagens do plano (estrategia-de-campanha): C0 em 30/10/2026 (sem números, a mídia sobe só em teste com limite de gasto aprovado e sem escala); C1 em 30/11/2026; C2 em 04/01/2027 (reforço do noturno, reavaliação de LinkedIn); C3 em 25/01/2027. Relatório semanal ao cmo em até 200 palavras a partir de 23/11/2026.
+Checagens do plano (estrategia-de-campanha): C0 em 30/10/2026: nenhuma campanha sobe, nem em teste, sem CPLmax e CPMmax numéricos (mesmo provisórios, cenário conservador) aprovados em MP1 e verba aprovada em MP2. Sem isso, MP11 não é pedido e a subida de 16/11/2026 é adiada. C1 em 30/11/2026; C2 em 04/01/2027 (reforço do noturno, reavaliação de LinkedIn); C3 em 25/01/2027. Relatório semanal ao cmo em até 200 palavras a partir de 23/11/2026.
 
 ---
 
@@ -407,7 +409,7 @@ anuncios-linkedin: sem encomenda (canal fora). Reavaliação só na revisão de 
 | MP8 | Desbloquear o anúncio pago do noturno quando G8 (campo turno) estiver corrigido e MP4 aprovado | Página precisa entregar o que o anúncio promete | verba do noturno (MP2) | Noturno no ar no dia seguinte ao desbloqueio | Pausar as campanhas do noturno |
 | MP9 | Desbloquear o anúncio pago da Pedagogia quando G6 (página), MP4 e MP1 da Pedagogia estiverem resolvidos | Página com texto de modelo e conta de custo mais apertada | verba da Pedagogia (MP2) | Pedagogia no ar com meta escrita | Pausar as campanhas da Pedagogia |
 | MP10 | Configurar rastreamento: pixel e API de Conversões, tag e conversão do Google, pixel do TikTok (se MP5), públicos de remarketing, envio da origem ao CRM (G13 do cmo) | Sem rastreamento não há decisão | sem custo de mídia | Leitura por recorte, canal e criativo | Remover tag ou evento, por humano |
-| MP11 | Subir cada campanha da fase 1 (integral) entre 11 e 13/11/2026, depois do checklist 4.8 e do qa de 10/11 | Montagem e publicação são feitas por humano | verba da fase 1 conforme MP2 e MP3 | Captação a partir de 16/11/2026 | Pausar a campanha, por humano |
+| MP11 | Subir cada campanha da fase 1 (integral) entre 11 e 13/11/2026, depois do checklist 4.8 e do qa de 10/11. Só é pedido depois de MP1 (CPLmax e CPMmax numéricos) e MP2 (verba) aprovados; sem eles, a subida de 16/11/2026 é adiada | Montagem e publicação são feitas por humano | verba da fase 1 conforme MP2 e MP3 | Captação a partir de 16/11/2026 | Pausar a campanha, por humano |
 | MP12 | Subir as campanhas de cada fase seguinte (07/12, 04/01 e 01/02) com os criativos aprovados | Cada fase muda objetivo e mensagem | verba da fase | Transição de fase no prazo | Pausar a campanha nova e manter a anterior |
 | MP13 | Pausar todas as campanhas da Graduação 2027/1 em 22/02/2027 | Fim do ciclo | encerra o gasto | Relatório final até 05/03/2027 | Reativar no gerenciador, por humano |
 | MP14 | Informar se existe campanha de Graduação rodando fora da planilha, com gasto e resultado | Inventário antes de subir; evita disputa de leilão entre campanhas da própria Ufape | sem custo | Leitura limpa desde a 1ª semana | Não se aplica |
@@ -420,7 +422,7 @@ Pedido de verba extra, se surgir, vai separado ao cmo, marcado como pedido de ap
 
 **auditorias/11-midia-paga.md**
 - [ ] Plano aprovado com canais ativados e fora justificados: canais justificados na seção 3; aprovação humana pendente.
-- [ ] Metas de CPL e custo por matrícula escritas antes de subir: fórmulas e conta pronta escritas; valores [CONFIRMAR] (MP1). Bloqueia a subida com escala.
+- [ ] Metas de CPL e custo por matrícula escritas antes de subir: fórmulas e conta pronta escritas; valores [CONFIRMAR] (MP1). Bloqueia qualquer subida, inclusive em teste, até MP1 e MP2 aprovados com números (seção 5, C0).
 - [ ] Verba dentro do valor aprovado, com aprovador: verba e aprovador [CONFIRMAR] (MP2).
 - [x] Nomenclatura padrão em campanhas, conjuntos e anúncios (seção 4.2).
 - [ ] UTMs completas e origem no CRM: padrão definido (4.6); URL e chegada ao CRM [CONFIRMAR] (G13, MP10).
@@ -462,11 +464,13 @@ Pedido de verba extra, se surgir, vai separado ao cmo, marcado como pedido de ap
 - [x] Sem escassez falsa, contador, botão falso, pessoa pública ou tentativa de driblar a análise.
 - [ ] Página carrega, sem redirecionamento inesperado, com dados da Ufape e política de privacidade: [CONFIRMAR] no checklist 4.8.
 
-**Resultado:** plano aprovado como rascunho para seguir à etapa 5 (criativos-de-anuncio) e às encomendas da seção 6. Bloqueados até resposta: subida de qualquer campanha com escala (MP1, MP2), noturno (G8, MP4), Pedagogia (G6, MP4, MP1), TikTok (G11, MP5), YouTube (MP6), listas de contatos (MP7), criativos com pessoa ou hospital (G11). Revisado por: gestor-de-midia (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
+**Resultado:** plano aprovado como rascunho para seguir à etapa 5 (criativos-de-anuncio) e às encomendas da seção 6. Bloqueados até resposta: subida de qualquer campanha, inclusive em teste, até MP1 e MP2 aprovados com números (MP11 só é pedido depois deles); noturno (G8, MP4); Pedagogia (G6, MP4, MP1); TikTok (G11, MP5); YouTube (MP6); listas de contatos (MP7); criativos com pessoa ou hospital (G11). Revisado por: gestor-de-midia (agente), com as correções do QA qa-de-marketing-graduacao-2026-10-26-a.md (veredito A4). Nova rodada do qa-de-marketing e revisão humana: pendentes. Data: 26/10/2026.
 
 **Notas para arquivos de outros donos (não alterados por este agente):**
 - O plano do cmo indica este arquivo com data de 30/10/2026; a entrega saiu em 26/10/2026.
 - A nomenclatura sugerida pelo cmo usa "goiania" no campo público da Pedagogia; este plano usa "goiania18" para deixar a idade mínima explícita no nome.
+- Consistência (QA A4, item 2): este plano mantém o bloqueio total do anúncio pago do noturno até G8 e MP4 (seção 1.2 e MP8). O plano do cmo e o briefing do estrategia-de-campanha dizem que o noturno "não escala" antes de G8; a correção para "bloqueado até G8 e MP4" está nos vereditos A1 (item 3) e A2 (item 5).
+- Regra de C0 (QA, consistência): o briefing do estrategia-de-campanha e o plano do estrategia-de-midia ainda permitem subir em teste sem metas numéricas; a correção está nos vereditos A2 (item 1) e A5 (item 2). Vale o texto da seção 5 deste plano.
 
 ---
 
@@ -479,6 +483,7 @@ Pedido de verba extra, se surgir, vai separado ao cmo, marcado como pedido de ap
 - Página do noturno mostra "INTEGRAL" no turno; página de Pedagogia com texto de modelo, egresso copiado e docentes de outro curso (plano do cmo, auditoria de 22/10/2026).
 - A Graduação não aparece na visão de campanhas de 26/10/2026 (plano do cmo).
 - Canais definidos pelo cmo: TikTok em teste no integral, LinkedIn fora, anúncio pago de Pedagogia e noturno bloqueado até a correção das páginas (cmo-graduacao-2026-10-26.md).
+- Conferência de dados do QA: preços, totais do 1º semestre, vagas, turma mínima, datas, atos e a aritmética da seção 2.4 batem com o catálogo e a ficha dos editais (qa-de-marketing-graduacao-2026-10-26-a.md).
 
 ## 10. Suposições
 
@@ -492,7 +497,7 @@ Pedido de verba extra, se surgir, vai separado ao cmo, marcado como pedido de ap
 ## 11. Dados que faltam
 
 - [CONFIRMAR] Verba por recorte e aprovador (MP2); meta de matrículas acima do piso e parte da mídia paga.
-- [CONFIRMAR] k1, Tn, n, p, V, Md, tc (t1 a t5) e tw por recorte (MP1; G2 e G12 do cmo).
+- [CONFIRMAR] k1, Tn, n, p, V, Md, tc (t1 a t5) e tw por recorte (MP1; G2 e G12 do cmo). Sem eles, nenhuma campanha sobe.
 - [CONFIRMAR] Se o formulário da LP é a inscrição; URL que recebe a UTM; origem no CRM; política de privacidade no formulário (G13).
 - [DADO NÃO FORNECIDO] Estado do pixel, da API de Conversões, da tag do Google e do pixel do TikTok; histórico de CPL; volume de busca dos termos.
 - [CONFIRMAR] Campanhas de Graduação ativas fora da planilha (MP14).
@@ -505,4 +510,4 @@ Pedido de verba extra, se surgir, vai separado ao cmo, marcado como pedido de ap
 
 ## Próximo passo
 
-Próximo agente: **estrategia-de-midia** (plano novo detalhado por semana, prazo 30/10/2026), em paralelo com o criativos-de-anuncio (etapa 5, 04/11/2026). Antes de qualquer subida: respostas da Ufape a MP1, MP2 e MP4.
+Próximo agente: **estrategia-de-midia** (plano novo detalhado por semana, prazo 30/10/2026), em paralelo com o criativos-de-anuncio (etapa 5, 04/11/2026). Antes de qualquer subida, inclusive em teste: respostas da Ufape a MP1, MP2 e MP4. Depois, nova rodada do qa-de-marketing (arquivo ...-b).

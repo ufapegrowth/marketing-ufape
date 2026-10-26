@@ -7,7 +7,7 @@
 - Liberações cobertas:
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
-- Status: rascunho para aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
+- Status: rascunho para aprovação humana, versão corrigida depois do QA (saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md, Veredito A2). Nada é publicado, enviado ou pago a partir deste arquivo.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
@@ -19,22 +19,34 @@
   - .claude/skills/briefing-de-campanha/SKILL.md
   - .claude/commands/campanha-de-vestibular.md
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md (inteiro)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md (Veredito A2 e conferência de dados comum)
   - auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md
 - Regra de fonte: preço, modalidade, turno, duração, carga horária e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso e regras de desconto vêm da ficha dos editais 2027/1. Nenhum número de meta acima do piso, verba, inscritos, redações ou matrículas existe hoje: tudo isso é [CONFIRMAR].
 - Nota de nome: o plano do cmo previa este arquivo com data de 28/10/2026; foi entregue em 26/10/2026, com o nome pedido pelo orquestrador.
+
+### Correções desta versão (QA, Veredito A2)
+
+1. Nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos e limite de gasto aprovados (seções 0.1, metas do G1 e do G2, checagem C0).
+2. Mensagem central do noturno com valor cheio, valor com desconto, percentual e validade.
+3. Enem sempre com a condição de ingresso (média mínima de 300 pontos, edições de 2010 em diante); "entre com sua nota" trocado por "use sua nota".
+4. Hospital separado da prova "prática desde o 1º semestre" e condicionado a G11.
+5. Anúncio pago do noturno bloqueado até G8 e MP4 (alinhado ao gestor-de-midia).
+6. "Responsável legal" trocado por "representante legal", termo do edital.
+7. Consistência: nome de campanha da Pedagogia no padrão do gestor-de-midia (goiania18_AAAAMM).
 
 ---
 
 ## 0. Regras que valem para os dois briefings
 
 1. **Destino único:** toda peça (anúncio, post, WhatsApp, e-mail, vídeo) aponta para a LP da Graduação com a UTM gerada pela plataforma. A squad nunca altera a LP. URLs por curso, conforme as fichas: faculdade.ufape.com.br/graduacao (Medicina Veterinária) e faculdade.ufape.com.br/graduacao/pedagogia (Pedagogia) [CONFIRMAR com a plataforma qual URL recebe a UTM e se a origem chega ao CRM, pedido G13 do cmo].
-2. **Oferta só como está no edital:** valor cheio, valor com desconto, percentual e validade (só o 1º semestre de 2027), com a regra de renovação. Peça curta leva "condições e validade no edital" e a regra completa vai na legenda ou na mensagem.
+2. **Oferta só como está no edital:** valor cheio, valor com desconto, percentual e validade (só o 1º semestre de 2027), com a regra de renovação. Percentual nunca aparece sozinho. Peça curta leva "condições e validade no edital" e a regra completa vai na legenda ou na mensagem.
 3. **Ato:** só como está no catálogo, sem arredondar e sem antecipar reconhecimento. Nenhuma nota do MEC. Nenhuma frase de certificação ("certificado pelo MEC", "reconhecida pelo MEC").
 4. **Urgência:** sem "últimas vagas", "vagas limitadas", contagem regressiva ou "termina hoje". Não existe número de vagas restantes nem data-limite de inscrição publicada.
-5. **Promessas:** nenhuma promessa de emprego, salário, aprovação ou concurso. Nenhum superlativo sem fonte. Prouni, Fies e financiamento não aparecem (não estão no catálogo).
+5. **Promessas:** nenhuma promessa de emprego, salário, aprovação ou concurso. Nenhum superlativo sem fonte. Prouni, Fies e financiamento não aparecem (não estão no catálogo). Sempre que a nota do Enem aparecer como forma de entrada, vem com a condição: média mínima de 300 pontos, edições de 2010 em diante.
 6. **Anúncios:** só para 18 anos ou mais; sem segmentação por renda, saúde ou outra característica sensível; texto que não afirma nem insinua situação pessoal de quem vê (emprego, idade, renda). Exemplo: "Você trabalha de dia?" bloqueia; "Para quem quer estudar veterinária à noite" passa.
 7. **Dados pessoais:** este briefing e todas as peças derivadas não contêm nome, telefone, CPF ou e-mail de candidato. Mensagens são textos para o CRM enviar, só para quem deu consentimento, com saída fácil.
-8. **Verba:** nenhuma verba foi informada. Este briefing não aloca valor; a verba por curso e canal vem do gestor-de-midia (30/10) e depende de aprovação humana (pedido G3 do cmo).
+8. **Verba:** nenhuma verba foi informada. Este briefing não aloca valor; a verba por curso e canal vem do gestor-de-midia e depende de aprovação humana (pedido G3 do cmo; MP2 do gestor-de-midia).
+9. **Metas antes de subir:** nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos (mesmo provisórios) e limite de gasto aprovados por humano (MP1 e MP2). Sem números em C0, a data de 16/11/2026 é adiada e o cmo avisa a pessoa do marketing.
 
 ### 0.1 Lógica do funil (vale para cada turma, separada)
 
@@ -59,9 +71,9 @@ Etapas, na ordem do edital:
 6. Leads necessários = inscritos / t1.
 7. Descontar o que já existe na base desde 17/08/2026 em cada etapa (inscritos sem redação, aprovados sem matrícula, matrículas já feitas). O saldo é a meta da campanha.
 8. Ritmo semanal = saldo de cada etapa / semanas até a data-limite (hoje 22/02/2027, ou a data-limite interna se a Ufape informar [CONFIRMAR]). Como a matrícula pode acontecer até perto do início das aulas, o ritmo de inscritos e de redações precisa ficar adiantado: a meta de redações deve estar cumprida antes da reta final (até 31/01/2027) [SUPOSIÇÃO de desenho, a validar com o comercial].
-9. Custo: leads necessários x CPL máximo e matrículas x custo por matrícula máximo precisam caber na verba. Essa conta é do gestor-de-midia (skill metas-de-custo, 30/10).
+9. Custo: leads necessários x CPL máximo e matrículas x custo por matrícula máximo precisam caber na verba. Essa conta é do gestor-de-midia (skill metas-de-custo).
 
-Entradas a pedir à Ufape numa mensagem só (pedido G2 do cmo): números agregados por turma desde 17/08 (inscritos, redações, ingressos pelo Enem, aprovados, matrículas, cancelamentos), taxas históricas se houver, verba gasta e campanhas em curso. Sem esses números, as metas deste briefing ficam como estrutura e a mídia não escala.
+Entradas a pedir à Ufape numa mensagem só (pedido G2 do cmo): números agregados por turma desde 17/08 (inscritos, redações, ingressos pelo Enem, aprovados, matrículas, cancelamentos), taxas históricas se houver, verba gasta e campanhas em curso. Sem esses números e sem CPL máximo e custo por matrícula máximo aprovados, nenhuma campanha paga sobe (regra 9); orgânico, régua e ativação da base seguem com aprovação própria.
 
 ---
 
@@ -69,7 +81,7 @@ Entradas a pedir à Ufape numa mensagem só (pedido G2 do cmo): números agregad
 
 BRIEFING DE CAMPANHA
 
-**Nome da campanha:** Vestibular 2027 Medicina Veterinária São Paulo. Nomes de campanha paga sugeridos pelo cmo: grad_medvet-integral_meta_cadastro_amplo18_202611 e grad_medvet-noturno_meta_cadastro_amplo18_202611.
+**Nome da campanha:** Vestibular 2027 Medicina Veterinária São Paulo. Nomes de campanha paga sugeridos pelo cmo: grad_medvet-integral_meta_cadastro_amplo18_202611 e grad_medvet-noturno_meta_cadastro_amplo18_202611 (o noturno só sobe depois de G8 e MP4).
 
 **Linha de negócio e curso(s):** Graduação. Medicina Veterinária, bacharelado, presencial, São Paulo, SP. Integral, 4 anos; noturno, 5 anos. 4.195 h + 75 h de atividades complementares (catálogo). Status no catálogo: aberto. O edital informa que o curso pode usar até 30% da carga horária a distância (Decreto 14.256/2025): isso vai para as respostas de atendimento, sem esconder.
 
@@ -81,7 +93,7 @@ BRIEFING DE CAMPANHA
 
 | Segmento | Quem | Papel na decisão | Fonte |
 |---|---|---|---|
-| Integral: jovem | 17 a 22 anos, terminando o ensino médio na Grande São Paulo, apaixonado por animais | escolhe o curso; se menor de idade, precisa do aceite do representante legal na inscrição e na matrícula | contexto/graduacao.md [SUPOSIÇÃO]; aceite do responsável: Edital 002/2026 |
+| Integral: jovem | 17 a 22 anos, terminando o ensino médio na Grande São Paulo, apaixonado por animais | escolhe o curso; se menor de idade, precisa do aceite do representante legal na inscrição e na matrícula | contexto/graduacao.md [SUPOSIÇÃO]; aceite do representante legal: Edital 002/2026 |
 | Integral: família | pais e responsáveis | pesam preço, segurança, estrutura e reputação; participam do pagamento | contexto/graduacao.md [SUPOSIÇÃO] |
 | Noturno | adulto que trabalha de dia e quer mudar de carreira para a veterinária | decide e paga sozinho | contexto/graduacao.md [SUPOSIÇÃO] |
 
@@ -99,29 +111,30 @@ Gatilho provável: resultado do Enem e fim do ensino médio (integral); vontade 
 
 **Mensagem central:**
 
-Ideia comum: "Veterinária com prática desde o 1º semestre e hospital veterinário próprio, em São Paulo. Inscrição gratuita: faça a redação online quando quiser ou entre com sua nota do Enem."
+Ideia comum: "Veterinária com prática desde o 1º semestre, em São Paulo. Inscrição gratuita: faça a redação online quando quiser ou use sua nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)."
 
 | Segmento | Mensagem central | Provas permitidas | Fonte das provas |
 |---|---|---|---|
-| Integral, jovem | "Comece a prática da veterinária já no 1º semestre, com hospital veterinário próprio." | Práticas Hospitalares no 1º semestre da matriz; Ufape Clínica; projetos extensionistas; estágio supervisionado no 7º e 8º semestres | contexto/graduacao.md, ficha do curso via plano do cmo |
-| Integral, família | "Você e sua família decidem com tudo na mesa: o curso, o hospital, o valor cheio, o desconto do 1º semestre e como renovar." | Ato autorizativo do catálogo; desconto com regra completa; inscrição gratuita | catálogo, Editais 002 e 003/2026 |
-| Noturno | "Estude veterinária à noite, em São Paulo, com 60% de desconto no 1º semestre de 2027." | turno noturno, 5 anos; desconto com regra; prática desde o 1º semestre | catálogo, Edital 003/2026 |
+| Integral, jovem | "Comece a prática da veterinária já no 1º semestre." | Prática desde o 1º semestre: Práticas Hospitalares e Projeto Extensionista I no 1º semestre da matriz (verificada); estágio supervisionado no 7º e 8º semestres. Hospital veterinário próprio (Ufape Clínica): só como prova separada, com [CONFIRMAR uso pela graduação e autorização, G11]; peça com o hospital só depois de G11 | contexto/graduacao.md, ficha do curso via plano do cmo e QA |
+| Integral, família | "Você e sua família decidem com tudo na mesa: o curso, o valor cheio, o desconto do 1º semestre e como renovar." | Ato autorizativo do catálogo; desconto com regra completa; inscrição gratuita | catálogo, Editais 002 e 003/2026 |
+| Noturno | "Estude veterinária à noite, em São Paulo: de R$ 10.000,00 por R$ 4.000,00 por mês no 1º semestre de 2027 (60% de desconto). Condições e validade no edital." | turno noturno, 5 anos; desconto com regra; prática desde o 1º semestre | catálogo, Edital 003/2026 |
 
 Argumentos de conveniência (todos os segmentos):
-- **Enem como porta de entrada:** quem tem média mínima de 300 pontos em qualquer edição de 2010 em diante pode usar a nota (Edital 002/2026). Mensagem: "Já fez o Enem? Sua nota pode ser a sua entrada."
+- **Enem como porta de entrada:** quem tem média mínima de 300 pontos em qualquer edição de 2010 em diante pode usar a nota (Edital 002/2026). Mensagem: "Já fez o Enem? Com média mínima de 300 pontos (edições de 2010 em diante), você pode usar sua nota para concorrer."
 - **Redação sem data marcada:** a prova é online, feita a qualquer momento depois da inscrição. Mensagem: "Sem dia marcado de prova: você faz a redação online quando puder." Não dizer que a prova é fácil nem que a aprovação é certa (é eliminatória, nota mínima 5,0).
 - **Inscrição gratuita**, pelo site ou presencial (de segunda a sexta, das 9h às 18h, Av. Nove de Julho, 3913 e 3939, Jardim Paulista, São Paulo).
 
 Cuidados de mensagem:
 - Noturno: não prometer "sem largar o trabalho" nem horário de prática e estágio, porque o horário das atividades práticas e do estágio do noturno não está no catálogo [CONFIRMAR NO CATÁLOGO].
 - Não usar "Você trabalha de dia?" nem afirmar idade, renda ou emprego de quem vê.
-- A página do noturno mostra "INTEGRAL" no campo turno (auditoria de 22/10): anúncio pago do noturno só escala depois da correção (pedido G8 do cmo).
+- A página do noturno mostra "INTEGRAL" no campo turno (auditoria de 22/10): anúncio pago do noturno bloqueado até G8 e MP4.
+- Hospital: não apresentar a Ufape Clínica como local da prática do 1º semestre nem como pilar da graduação até G11.
 
 **Cuidados com menor de idade (ECA e LGPD):**
 - Anúncio pago só para 18 anos ou mais: na prática, falar com pais e responsáveis e com candidatos adultos.
 - Orgânico pode ser visto por menores: linguagem adequada, sem pressão de compra dirigida ao menor, sem urgência.
 - Nenhuma imagem ou voz de menor sem autorização dos responsáveis; preferência por peças sem menor identificável.
-- Toda peça e mensagem de inscrição e matrícula lembra: "Candidato menor de idade precisa do aceite do responsável legal na inscrição e na matrícula" (Edital 002/2026).
+- Toda peça e mensagem de inscrição e matrícula lembra: "Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula" (Edital 002/2026).
 - Consentimento de candidato menor para WhatsApp e e-mail no CRM: validação do jurídico e do responsável pelo CRM [CONFIRMAR] (pedido G10 do cmo). Até a validação, a régua de nutrição do G1 só dispara para contatos com consentimento registrado, e o tratamento de menor fica pendente.
 
 **Canais e papel de cada um (decisão do cmo):**
@@ -145,9 +158,9 @@ Cuidados de mensagem:
 | Fase | Datas | O que acontece no G1 | Responsáveis |
 |---|---|---|---|
 | Pré-lançamento | 27/10 a 15/11/2026 | 29/10 oferta; 30/10 metas de custo e plano de mídia; 30/10 texto da ativação da base (inscritos sem redação); 04/11 criativos e roteiros; 05/11 posts; 06/11 régua e Shorts; 09/11 WhatsApp, e-mails e respostas de atendimento; 10/11 qa; 11 a 13/11 aprovação humana e montagem (pixel, CRM, gerenciador) por humano | estrategia-de-oferta, gestor-de-midia, criativos-de-anuncio, tiktok, posts-sociais, campanhas-de-nutricao, youtube, copy-de-mensagens, qa-de-marketing |
-| Ativação da base | texto em 30/10/2026; envio depois da aprovação humana e do segmento no CRM [CONFIRMAR] | 2 WhatsApp e 1 e-mail para inscritos que ainda não fizeram a redação: como fazer a redação online ou usar o Enem | copy-de-mensagens; envio por humano |
-| Lançamento: captação | 16/11 a 06/12/2026 | Campanhas de cadastro para a LP; posts de captação (prática desde o 1º semestre, hospital próprio); régua ligada para cada novo inscrito | gestor-de-midia (com aprovação), posts-sociais, CRM por humano |
-| Acompanhamento: aquecimento | 07/12/2026 a 03/01/2027 | Remarketing e engajamento; post sobre redação online e Enem; atenção ao reajuste de dezembro | gestor-de-midia, posts-sociais |
+| Ativação da base | texto em 30/10/2026; envio depois da aprovação humana e do segmento no CRM [CONFIRMAR] | 2 WhatsApp e 1 e-mail para inscritos que ainda não fizeram a redação: como fazer a redação online ou usar a nota do Enem (média mínima de 300 pontos, edições de 2010 em diante) | copy-de-mensagens; envio por humano |
+| Lançamento: captação | 16/11 a 06/12/2026 (mídia paga só com metas numéricas e limite de gasto aprovados; sem isso, a subida é adiada) | Campanhas de cadastro para a LP; posts de captação (prática desde o 1º semestre; post sobre o hospital só depois de G11); régua ligada para cada novo inscrito | gestor-de-midia (com aprovação), posts-sociais, CRM por humano |
+| Acompanhamento: aquecimento | 07/12/2026 a 03/01/2027 | Remarketing e engajamento; post sobre redação online e Enem (com a condição de 300 pontos); atenção ao reajuste de dezembro | gestor-de-midia, posts-sociais |
 | Acompanhamento: inscrições abertas (conversão) | 04/01 a 31/01/2027 | Foco em redação e matrícula; janela provável do resultado do Enem [CONFIRMAR]; integral e noturno com desconto e regra. Observação: as inscrições estão abertas desde 17/08/2026; o nome da fase é o da skill estrutura-de-campanha-paga | gestor-de-midia, copy-de-mensagens, cmo |
 | Acompanhamento: reta final | 01/02 a 21/02/2027 | Passos da matrícula e documentos; mensagens revisadas com números reais (25/01); sem urgência sem número | copy-de-mensagens, gestor-de-midia, cmo |
 | Encerramento | 22/02/2027 | Início das aulas; pedido de pausa de todas as campanhas (aprovação humana) | cmo, gestor-de-midia |
@@ -169,11 +182,11 @@ Cuidados de mensagem:
 | Peça | Qtd. | Responsável | Prazo | Aprovação humana necessária |
 |---|---|---|---|---|
 | Oferta do semestre (Edital 003/2026) e resposta para "e depois do 1º semestre?" | 1 | estrategia-de-oferta | 29/10 | marketing e regulação (texto do desconto; edital com erros) |
-| Plano de mídia com metas de custo por turno | 1 | gestor-de-midia, estrategia-de-midia | 30/10 | marketing (verba) |
+| Plano de mídia com metas de custo por turno | 1 | gestor-de-midia, estrategia-de-midia | 30/10 | marketing (metas e verba, MP1 e MP2) |
 | Ativação da base | 2 WhatsApp + 1 e-mail | copy-de-mensagens | 30/10 | marketing; jurídico para consentimento de menor |
-| Criativos de anúncio (3 integral, 3 noturno; ao menos 1 com desconto completo e 1 com o ato) | 6 | criativos-de-anuncio | 04/11 | marketing; regulação na peça com ato; jurídico se houver pessoa identificável |
+| Criativos de anúncio (3 integral, 3 noturno; ao menos 1 com desconto completo e 1 com o ato) | 6 | criativos-de-anuncio | 04/11 | marketing; regulação na peça com ato; jurídico se houver pessoa identificável; uso pago do noturno só depois de G8 e MP4 |
 | Roteiros de vídeo curto (integral: um dia de prática no começo do curso, sem menor identificável; noturno: estudar veterinária à noite) | 2 | tiktok | 04/11 | marketing; autorização de imagem [CONFIRMAR] |
-| Posts orgânicos (2 captação, 1 aquecimento, 2 conversão, 1 reta final) | 6 | posts-sociais | 05/11 | marketing |
+| Posts orgânicos (2 captação, 1 aquecimento, 2 conversão, 1 reta final) | 6 | posts-sociais | 05/11 | marketing; post com o hospital só depois de G11 |
 | Posts para pais e responsáveis (Facebook) | 2 | posts-sociais | 05/11 | marketing |
 | Shorts no YouTube | 2 | youtube | 06/11 | marketing; autorização de imagem |
 | Régua de nutrição (lead até a redação; aprovação até a matrícula) | 1 | campanhas-de-nutricao | 06/11 | marketing; jurídico (menores) |
@@ -183,7 +196,7 @@ Cuidados de mensagem:
 | Conferência (auditorias 06, 11 e conformidade-educacional) | 1 | qa-de-marketing | 10/11 | não se aplica |
 | Revisão de reta final com números reais | 1 | cmo e copy-de-mensagens | 25/01/2027 | marketing |
 
-Toda peça com hospital ou docente precisa de autorização registrada [CONFIRMAR autorização]. Docentes só com nome e titulação da ficha.
+Toda peça com hospital ou docente precisa de autorização registrada [CONFIRMAR autorização]; peça com o hospital também depende da confirmação do uso pela graduação (G11). Docentes só com nome e titulação da ficha.
 
 **Metas:**
 
@@ -194,25 +207,25 @@ Toda peça com hospital ou docente precisa de autorização registrada [CONFIRMA
 | Redações feitas mais ingressos pelo Enem | [CONFIRMAR]: aprovados / t3 | [CONFIRMAR] | conta 0.1 |
 | Inscritos | [CONFIRMAR]: avaliados / t2, menos a base desde 17/08 | [CONFIRMAR] | conta 0.1 |
 | Leads | [CONFIRMAR]: inscritos / t1 | [CONFIRMAR] | conta 0.1 |
-| Custo por lead máximo | [CONFIRMAR] | [CONFIRMAR] | gestor-de-midia, 30/10 |
-| Custo por matrícula máximo | [CONFIRMAR] | [CONFIRMAR] | gestor-de-midia, 30/10 |
+| Custo por lead máximo | [CONFIRMAR] | [CONFIRMAR] | gestor-de-midia (MP1) |
+| Custo por matrícula máximo | [CONFIRMAR] | [CONFIRMAR] | gestor-de-midia (MP1) |
 | Marco intermediário: redações e Enem acumulados até 31/01/2027 | 100% da meta de avaliados [SUPOSIÇÃO de desenho] | idem | conta 0.1, item 8 |
 
-As metas numéricas precisam estar escritas e aprovadas antes do lançamento de 16/11/2026. Se não estiverem, a mídia sobe só em teste com limite de gasto aprovado, sem escala.
+As metas numéricas precisam estar escritas e aprovadas antes do lançamento de 16/11/2026. Nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos (mesmo provisórios) e limite de gasto aprovados por humano (MP1 e MP2). Sem números em C0, a data de 16/11 é adiada e o cmo avisa a pessoa do marketing.
 
 **Data do ponto de checagem e regra de decisão:**
 
 | Checagem | Data | Pergunta | Dobrar a aposta (pedido de aprovação humana) | Mudar o rumo |
 |---|---|---|---|---|
-| C0 | 30/10/2026 | Chegaram os números agregados e as metas de custo? | Metas viram números e são aprovadas antes de 16/11 | Sem números: lançamento só em teste com limite; cmo avisa a pessoa do marketing |
+| C0 | 30/10/2026 | Chegaram os números agregados e as metas de custo? | Metas viram números e são aprovadas (MP1 e MP2) antes de 16/11 | Sem CPL máximo, custo por matrícula máximo e limite de gasto aprovados: nenhuma campanha sobe, nem em teste; a data de 16/11 é adiada e o cmo avisa a pessoa do marketing |
 | C1 | 30/11/2026 (2 semanas de captação) | CPL e passagem lead para inscrito por turno dentro da meta? | CPL dentro da meta e ritmo semanal igual ou acima do necessário: propor mais verba no turno que performa | CPL acima: trocar criativos e públicos antes de pedir verba; inscrito parado: reforçar régua e ativação |
-| C2 | 04/01/2027 (revisão especial do cmo) | Avaliados e matrículas acumuladas por turno estão na curva para o piso de 30? | Turno na curva e custo por matrícula dentro da meta: propor reforço na fase de conversão | Noturno abaixo: avaliar LinkedIn e reforço do noturno; gargalo na redação: priorizar nutrição sobre mídia; gargalo na matrícula: revisar oferta e atendimento (objeção de preço e "depois do 1º semestre") |
+| C2 | 04/01/2027 (revisão especial do cmo) | Avaliados e matrículas acumuladas por turno estão na curva para o piso de 30? | Turno na curva e custo por matrícula dentro da meta: propor reforço na fase de conversão | Noturno abaixo: avaliar LinkedIn e reforço do noturno (se G8 e MP4 liberados); gargalo na redação: priorizar nutrição sobre mídia; gargalo na matrícula: revisar oferta e atendimento (objeção de preço e "depois do 1º semestre") |
 | C3 | 25/01/2027 | Projeção de matrículas por turno até 22/02 alcança 30? | Mensagens de reta final com números reais | Projeção abaixo de 30: o cmo leva o risco de turma mínima à Ufape; a decisão é da Ufape, nunca vira urgência falsa em peça |
 | Semanal | segundas, de 02/11/2026 a 22/02/2027 | Ritmo por etapa contra a conta 0.1 | conforme C1 a C3 | conforme C1 a C3 |
 
 **Aprovações necessárias:**
 - Marketing: este briefing, metas, verba, publicação, envio em massa e toda ação em gerenciador ou CRM (aprovadores a nomear, pedido G14 do cmo).
-- Acadêmico e regulação: peças com ato autorizativo; texto do desconto enquanto o Edital 003/2026 tiver erros; resposta sobre até 30% a distância; horário de prática e estágio do noturno.
+- Acadêmico e regulação: peças com ato autorizativo; texto do desconto enquanto o Edital 003/2026 tiver erros; resposta sobre até 30% a distância; horário de prática e estágio do noturno; uso da Ufape Clínica pela graduação (G11).
 - Jurídico: regras para menores de idade e consentimento no CRM (G10); uso de imagem de pessoas e do hospital.
 - Equipe do site: correção do campo turno do noturno (G8). A squad não altera a LP nem a página.
 
@@ -221,10 +234,10 @@ As metas numéricas precisam estar escritas e aprovadas antes do lançamento de 
 | Agente | Recebe deste briefing | Entrega |
 |---|---|---|
 | estrategia-de-oferta (etapa 3) | Seção "Oferta" completa, alertas do Edital 003/2026, reajuste [CONFIRMAR], perguntas "e depois do 1º semestre?" e "se a turma não formar?" | Texto oficial do desconto por turno, versão curta e longa, respostas de objeção |
-| gestor-de-midia e estrategia-de-midia (etapa 4) | Funil 0.1, metas [CONFIRMAR], segmentos (família e adulto, 18+), canais e fases, checagens C0 a C3, bloqueio do noturno até G8 | Metas de custo por turno em 3 cenários, verba por canal e fase, nomenclatura e UTM |
-| criativos-de-anuncio e tiktok (etapa 5) | Mensagens por segmento, provas permitidas, argumentos (Enem 300, redação sem data, inscrição gratuita), cuidados com menor e com atributo pessoal | 6 criativos e 2 roteiros, todos para a LP com UTM |
-| posts-sociais e youtube (etapa 6) | Distribuição dos 6 posts por fase, 2 posts para famílias, regra de marcar como vestibular | Calendário orgânico e Shorts |
-| campanhas-de-nutricao e copy-de-mensagens (etapa 7) | Etapas do funil, aceite do responsável, datas do edital, ativação da base, regra de consentimento | Régua do lead à redação e da aprovação à matrícula; 5 WhatsApp, 3 e-mails, respostas de atendimento |
+| gestor-de-midia e estrategia-de-midia (etapa 4) | Funil 0.1, metas [CONFIRMAR], regra 9 (nada sobe sem metas numéricas e limite aprovados), segmentos (família e adulto, 18+), canais e fases, checagens C0 a C3, noturno bloqueado até G8 e MP4 | Metas de custo por turno em 3 cenários, verba por canal e fase, nomenclatura e UTM |
+| criativos-de-anuncio e tiktok (etapa 5) | Mensagens por segmento, provas permitidas (hospital só depois de G11), argumentos (Enem com média mínima de 300 pontos e edições de 2010 em diante, redação sem data, inscrição gratuita), cuidados com menor e com atributo pessoal | 6 criativos e 2 roteiros, todos para a LP com UTM |
+| posts-sociais e youtube (etapa 6) | Distribuição dos 6 posts por fase, 2 posts para famílias, regra de marcar como vestibular, post do hospital condicionado a G11 | Calendário orgânico e Shorts |
+| campanhas-de-nutricao e copy-de-mensagens (etapa 7) | Etapas do funil, aceite do representante legal, datas do edital, ativação da base, regra de consentimento | Régua do lead à redação e da aprovação à matrícula; 5 WhatsApp, 3 e-mails, respostas de atendimento |
 
 ---
 
@@ -232,7 +245,7 @@ As metas numéricas precisam estar escritas e aprovadas antes do lançamento de 
 
 BRIEFING DE CAMPANHA
 
-**Nome da campanha:** Processo Seletivo 2027.1 Pedagogia Goiânia. Nome de campanha paga sugerido pelo cmo: grad_pedagogia_meta_cadastro_goiania_202611.
+**Nome da campanha:** Processo Seletivo 2027.1 Pedagogia Goiânia. Nome de campanha paga no padrão do gestor-de-midia: grad_pedagogia_meta_cadastro_goiania18_AAAAMM (AAAAMM do mês de subida, porque a Pedagogia está bloqueada até G6).
 
 **Linha de negócio e curso(s):** Graduação. Pedagogia, licenciatura (Edital 004/2026), presencial, Goiânia, GO, noturno, 4 anos. Status no catálogo: aberto. Carga horária: 3.440 h no site e 3.640 h no edital; **nenhuma peça cita carga horária** até a Ufape definir [CONFIRMAR NO CATÁLOGO] (pedido G5 do cmo). O edital informa que o curso pode usar até 30% da carga horária a distância: vai para as respostas de atendimento.
 
@@ -244,7 +257,7 @@ BRIEFING DE CAMPANHA
 **Público (persona):**
 - Adulto de Goiânia que já trabalha, muitas vezes em escola ou com crianças, e precisa do diploma para crescer na carreira, estudando à noite [SUPOSIÇÃO, contexto/graduacao.md].
 - Gatilho provável: exigência de diploma no trabalho [SUPOSIÇÃO]. Alternativa que compara: Pedagogia EAD mais barata [SUPOSIÇÃO].
-- Público adulto: a regra do aceite do responsável para menor de idade continua valendo pelo edital e entra nas mensagens de inscrição e matrícula, sem ser o argumento central.
+- Público adulto: a regra do aceite do representante legal para menor de idade continua valendo pelo edital e entra nas mensagens de inscrição e matrícula, sem ser o argumento central.
 
 **Oferta (conforme o Edital 003/2026 Goiânia e o catálogo):**
 - Valor integral do semestre: R$ 6.300,00, em 6 parcelas de R$ 1.050,00.
@@ -256,7 +269,7 @@ BRIEFING DE CAMPANHA
 
 **Mensagem central:**
 
-"Pedagogia presencial, à noite, em Goiânia, com prática docente desde o 1º semestre. Inscrição gratuita: redação online quando você puder ou sua nota do Enem."
+"Pedagogia presencial, à noite, em Goiânia, com prática docente desde o 1º semestre. Inscrição gratuita: redação online quando você puder ou use sua nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)."
 
 | Eixo | Mensagem | Provas permitidas | Fonte |
 |---|---|---|---|
@@ -294,22 +307,22 @@ Cuidados de mensagem:
 | Fase | Datas | O que acontece no G2 | Responsáveis |
 |---|---|---|---|
 | Pré-lançamento | 27/10 a 15/11/2026 (prazo do kit G2 pode ir a 17/11 se faltar capacidade, sem reduzir o mínimo) | 29/10 oferta; 30/10 metas de custo e plano local; 30/10 ativação da base (texto); 04/11 criativos e roteiros; 05/11 posts; 06/11 régua; 09/11 WhatsApp, e-mails e respostas de atendimento; 10/11 qa | estrategia-de-oferta, gestor-de-midia, criativos-de-anuncio, tiktok, posts-sociais, campanhas-de-nutricao, copy-de-mensagens, qa-de-marketing |
-| Ativação da base | texto em 30/10/2026; envio depois da aprovação e do segmento no CRM [CONFIRMAR] | 2 WhatsApp e 1 e-mail para inscritos de Goiânia sem redação | copy-de-mensagens; envio por humano |
-| Lançamento: captação | 16/11 a 06/12/2026 | Orgânico, WhatsApp e régua desde 16/11; mídia paga só depois de G6 | posts-sociais, gestor-de-midia (com aprovação) |
-| Acompanhamento: aquecimento | 07/12/2026 a 03/01/2027 | Post sobre redação online e Enem; remarketing se a mídia já estiver no ar; reajuste de dezembro | gestor-de-midia, posts-sociais |
+| Ativação da base | texto em 30/10/2026; envio depois da aprovação e do segmento no CRM [CONFIRMAR] | 2 WhatsApp e 1 e-mail para inscritos de Goiânia sem redação: como fazer a redação online ou usar a nota do Enem (média mínima de 300 pontos, edições de 2010 em diante) | copy-de-mensagens; envio por humano |
+| Lançamento: captação | 16/11 a 06/12/2026 | Orgânico, WhatsApp e régua desde 16/11; mídia paga só depois de G6 e com metas numéricas e limite de gasto aprovados | posts-sociais, gestor-de-midia (com aprovação) |
+| Acompanhamento: aquecimento | 07/12/2026 a 03/01/2027 | Post sobre redação online e Enem (com a condição de 300 pontos); remarketing se a mídia já estiver no ar; reajuste de dezembro | gestor-de-midia, posts-sociais |
 | Acompanhamento: inscrições abertas (conversão) | 04/01 a 31/01/2027 | Desconto com regra; o que se estuda; foco em redação e matrícula | gestor-de-midia, copy-de-mensagens, cmo |
 | Acompanhamento: reta final | 01/02 a 21/02/2027 | Passos da matrícula e documentos, com números reais (25/01) | copy-de-mensagens, cmo |
 | Encerramento | 22/02/2027 | Início das aulas; pedido de pausa das campanhas | cmo, gestor-de-midia |
 | Ciclo extra | 2 dias úteis depois de cada confirmação | Inserir carga horária, coordenação e endereço nas peças não publicadas | cmo, posts-sociais, criativos-de-anuncio, copy-de-mensagens |
 
-**Datas acadêmicas (Edital 004/2026):** as mesmas regras do G1: inscrições gratuitas desde 17/08/2026; redação online a qualquer momento depois da inscrição ou Enem (300 pontos, edições de 2010 em diante); matrícula a partir de 2 dias após o resultado; documentos em até 30 dias; cancelamento com 80% até 20/02/2027; aulas em 22/02/2027. Data-limite de inscrição e de matrícula e data de decisão da turma mínima: [CONFIRMAR]. Datas internas iguais às do G1.
+**Datas acadêmicas (Edital 004/2026):** as mesmas regras do G1: inscrições gratuitas desde 17/08/2026; redação online a qualquer momento depois da inscrição ou Enem (média mínima de 300 pontos, edições de 2010 em diante); matrícula a partir de 2 dias após o resultado; documentos em até 30 dias; cancelamento com 80% até 20/02/2027; aulas em 22/02/2027. Data-limite de inscrição e de matrícula e data de decisão da turma mínima: [CONFIRMAR]. Datas internas iguais às do G1.
 
 **Peças e responsáveis (kit G2 do plano do cmo):**
 
 | Peça | Qtd. | Responsável | Prazo | Aprovação humana necessária |
 |---|---|---|---|---|
 | Oferta do semestre (Edital 003/2026 Goiânia, sem o erro do item 3.5) | 1 | estrategia-de-oferta | 29/10 | marketing e regulação |
-| Plano de mídia local | 1 | gestor-de-midia, estrategia-de-midia | 30/10 | marketing (verba) |
+| Plano de mídia local | 1 | gestor-de-midia, estrategia-de-midia | 30/10 | marketing (metas e verba, MP1 e MP2) |
 | Ativação da base | 2 WhatsApp + 1 e-mail | copy-de-mensagens | 30/10 | marketing |
 | Criativos (2 "estude à noite, presencial, em Goiânia", 1 desconto completo, 1 ato) | 4 | criativos-de-anuncio | 04/11 | marketing; regulação na peça com ato; uso pago só depois de G6 |
 | Roteiros de vídeo curto (rotina de quem estuda à noite; prática docente desde o 1º semestre), para Reels | 2 | tiktok | 04/11 | marketing; autorização de imagem |
@@ -327,10 +340,12 @@ Cuidados de mensagem:
 |---|---|---|
 | Matrículas confirmadas até 22/02/2027 | piso 30; alvo [CONFIRMAR] (até 80) | Edital 004/2026; plano do cmo |
 | Aprovados, avaliados, inscritos, leads | [CONFIRMAR], pela conta 0.1 menos a base desde 17/08 | conta 0.1 |
-| Custo por lead e custo por matrícula máximos | [CONFIRMAR] | gestor-de-midia, 30/10 |
+| Custo por lead e custo por matrícula máximos | [CONFIRMAR] | gestor-de-midia (MP1) |
 | Marco intermediário: redações e Enem até 31/01/2027 | 100% da meta de avaliados [SUPOSIÇÃO de desenho] | conta 0.1 |
 
-**Data do ponto de checagem e regra de decisão:** mesmas checagens C0 (30/10), C1 (30/11), C2 (04/01/2027) e C3 (25/01/2027) do G1, mais as revisões semanais, com duas diferenças:
+Nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos (mesmo provisórios) e limite de gasto aprovados por humano (MP1 e MP2), além da correção da página (G6). Sem números em C0, a subida paga é adiada e o cmo avisa a pessoa do marketing.
+
+**Data do ponto de checagem e regra de decisão:** mesmas checagens C0 (30/10), C1 (30/11), C2 (04/01/2027) e C3 (25/01/2027) do G1, mais as revisões semanais, com a mesma regra de C0 (sem metas numéricas e limite aprovados, nada sobe, nem em teste) e duas diferenças:
 - C1: se a página ainda não estiver corrigida (G6), a leitura é só do orgânico, do WhatsApp e da ativação da base. Se o ritmo estiver abaixo do necessário, o cmo pede prioridade para G6 em vez de mais conteúdo.
 - C2: se o gargalo for preço contra EAD, mudar o rumo nas respostas de atendimento e na oferta (atributos verificáveis), não em desconto novo, que só existe se a Ufape publicar.
 
@@ -345,8 +360,8 @@ Cuidados de mensagem:
 | Agente | Recebe deste briefing | Entrega |
 |---|---|---|
 | estrategia-de-oferta | Oferta, alerta do item 3.5, objeção "EAD é mais barato" | Texto oficial do desconto, versões curta e longa, respostas |
-| gestor-de-midia e estrategia-de-midia | Funil 0.1, modelo local Goiânia, estrutura enxuta, bloqueio até G6, só 18+ | Metas de custo, verba local, data de liberação condicionada a G6 |
-| criativos-de-anuncio e tiktok | Eixos de mensagem, provas permitidas, lista do que não pode ser usado, sem carga horária e sem docentes | 4 criativos e 2 roteiros para Reels |
+| gestor-de-midia e estrategia-de-midia | Funil 0.1, regra 9, modelo local Goiânia, estrutura enxuta, bloqueio até G6, só 18+, nome goiania18_AAAAMM | Metas de custo, verba local, data de liberação condicionada a G6 |
+| criativos-de-anuncio e tiktok | Eixos de mensagem, provas permitidas, Enem sempre com a condição de 300 pontos, lista do que não pode ser usado, sem carga horária e sem docentes | 4 criativos e 2 roteiros para Reels |
 | posts-sociais | Distribuição dos 6 posts por fase | Calendário orgânico |
 | campanhas-de-nutricao e copy-de-mensagens | Etapas do funil, datas do edital, ativação da base, respostas com comparação honesta | Régua, 5 WhatsApp, 3 e-mails, respostas de atendimento Goiânia |
 
@@ -355,7 +370,7 @@ Cuidados de mensagem:
 ## 3. Perguntas abertas (para a Ufape, numa mensagem só)
 
 1. Números agregados por turma desde 17/08/2026: inscritos, redações, ingressos pelo Enem, aprovados, matrículas, cancelamentos, verba gasta, campanhas ativas (G2 do cmo).
-2. Alvo de matrículas acima do piso de 30, por turma, e verba da Graduação por curso (G3).
+2. Alvo de matrículas acima do piso de 30, por turma, e verba da Graduação por curso (G3); CPL máximo e custo por matrícula máximo, mesmo provisórios (MP1).
 3. Existe data-limite interna de inscrição e de matrícula? Em que data a Ufape decide sobre a turma mínima? (G4)
 4. O formulário da LP já é a inscrição ou só captura de contato? A UTM e a origem chegam ao CRM? Qual URL recebe a UTM? (G13)
 5. Como o CRM registra consentimento de candidato menor de idade para WhatsApp e e-mail? (G10)
@@ -363,24 +378,24 @@ Cuidados de mensagem:
 7. O reajuste de dezembro altera os valores do 1º semestre de 2027? Qual a regra comercial depois do 1º semestre? (G12)
 8. Horário das atividades práticas e do estágio no noturno da Medicina Veterinária.
 9. Datas do Enem 2026 e da divulgação das notas.
-10. Autorização de imagem de docentes e de uso do hospital em peças; perfis de TikTok, YouTube e da unidade de Goiânia; quem grava (G11).
+10. A graduação usa a Ufape Clínica, e desde quando no curso? Autorização de imagem de docentes e de uso do hospital em peças; perfis de TikTok, YouTube e da unidade de Goiânia; quem grava (G11).
 11. Quem aprova posts, anúncios, verba, envio em massa e peças com ato regulatório (G14).
 12. Correção dos textos dos Editais 003/2026 (G7) e das páginas (G6, G8).
 
 ---
 
-## 4. Resultado das auditorias (aplicadas a este briefing)
+## 4. Resultado das auditorias (aplicadas a este briefing, versão corrigida)
 
 **auditorias/06-geracao-de-demanda.md**
 - [x] Toda campanha tem um briefing escrito: G1 e G2, um por liberação.
-- [ ] Metas definidas antes do lançamento: estrutura, piso e conta definidos; números de alvo, inscritos, redações, leads e custos [CONFIRMAR]. Bloqueia escala de mídia até C0.
-- [x] A isca digital entrega a promessa do título: não há isca neste briefing. Candidata para o agente iscas-digitais: guia "como fazer a redação online ou usar a nota do Enem", com a promessa limitada ao que o edital diz.
+- [ ] Metas definidas antes do lançamento: estrutura, piso e conta definidos; números [CONFIRMAR]. Regra escrita: nenhuma campanha sobe, nem em teste, sem CPL máximo e custo por matrícula máximo numéricos e limite de gasto aprovados (MP1 e MP2); sem isso, 16/11 é adiada. Pendente externo.
+- [x] A isca digital entrega a promessa do título: não há isca neste briefing. Candidata para o agente iscas-digitais: guia "como fazer a redação online ou usar a nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)", com a promessa limitada ao que o edital diz.
 - [x] Toda captura de lead tem nutrição em seguida: régua planejada (campanhas-de-nutricao, 06/11) e ativação da base (30/10); disparo depende do segmento no CRM [CONFIRMAR].
 - [ ] Plano de distribuição por peça: distribuição por fase definida; plano por peça fica com posts-sociais e gestor-de-midia.
 - [x] Regras das comunidades respeitadas: não há ação em grupos ou comunidades neste briefing.
 - [ ] Revisão no ponto de checagem realizada: datas C0 a C3 definidas; ainda não realizadas.
 - [ ] Consentimento para contato por e-mail e WhatsApp coletado em todo formulário: a squad não altera a LP; [CONFIRMAR] com a plataforma (G13) e o jurídico (G10).
-- [x] Bolsas, descontos e prazos batem com o catálogo e a ficha da oferta: valores, percentuais e validade conferidos com o catálogo (seção 1) e a ficha dos editais.
+- [x] Bolsas, descontos e prazos batem com o catálogo e a ficha da oferta: valores, percentuais e validade conferidos com o catálogo (seção 1) e a ficha dos editais; percentual nunca aparece sem valor cheio e valor com desconto.
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, duração e turno batem com o catálogo; carga horária da Pedagogia fora das peças até G5.
@@ -389,21 +404,21 @@ Cuidados de mensagem:
 - [x] Atos autorizativos como no catálogo; reconhecimento não citado.
 - [x] Pós lato sensu e curso livre: não se aplica.
 - [x] Nenhuma nota do MEC; nenhuma frase de certificação.
-- [x] Nenhuma promessa de emprego, salário, aprovação ou concurso; redação descrita como eliminatória.
+- [x] Nenhuma promessa de emprego, salário, aprovação ou concurso; redação descrita como eliminatória; Enem sempre com a condição de média mínima de 300 pontos, edições de 2010 em diante.
 - [x] Nenhum dado de empregabilidade; nenhum superlativo sem fonte; comparação com EAD só objetiva.
-- [x] Preço com valor cheio, parcelas, desconto, regra e validade; sem taxa escondida; reajuste de dezembro sinalizado [CONFIRMAR].
+- [x] Preço com valor cheio, parcelas, desconto, regra e validade, inclusive na mensagem central do noturno; sem taxa escondida; reajuste de dezembro sinalizado [CONFIRMAR].
 - [x] Sem urgência falsa; sem "últimas vagas"; risco de turma mínima tratado como decisão da Ufape, não como peça.
 - [x] Prouni, Fies e financiamento não aparecem.
 - [ ] Autorização de uso de imagem de docentes e do hospital: [CONFIRMAR] (G11).
-- [x] Menores: só com autorização dos responsáveis; anúncio só 18+; aceite do responsável nas mensagens.
+- [x] Menores: só com autorização dos responsáveis; anúncio só 18+; aceite do representante legal nas mensagens, com o termo do edital.
 - [ ] Formulários com finalidade e política de privacidade: [CONFIRMAR] (G13).
 - [ ] WhatsApp e e-mail só com consentimento e saída fácil: regra escrita; tratamento de menor no CRM [CONFIRMAR] (G10).
 - [x] Nenhum dado pessoal de aluno ou candidato neste arquivo.
 - [x] Anúncios sem segmentação discriminatória e sem afirmar característica pessoal (regra 6 e exemplos).
-- [ ] Página de destino entrega o que o anúncio promete: G2 bloqueado até G6; noturno do G1 com ressalva até G8.
+- [ ] Página de destino entrega o que o anúncio promete: G2 bloqueado até G6; anúncio pago do noturno do G1 bloqueado até G8 e MP4; hospital fora das mensagens como prova da prática e condicionado a G11.
 - [x] Sem escassez falsa, contador, imitação de interface, pessoa pública ou tentativa de driblar a análise das plataformas.
 
-**Resultado:** briefing aprovado para seguir à etapa 3 (estrategia-de-oferta), como rascunho. Bloqueados até resposta: escala de mídia (metas e verba, C0), anúncio pago do G2 (G6), anúncio pago do noturno do G1 (G8), disparo de régua para candidato menor (G10), peças com imagem de pessoas ou do hospital (G11). Revisado por: estrategia-de-campanha (agente). Revisão humana e do qa-de-marketing: pendente. Data: 26/10/2026.
+**Resultado:** itens obrigatórios e de menor peso do Veredito A2 corrigidos; briefing pronto para nova rodada do QA (arquivo ...-b) e, depois, aprovação humana. Bloqueados até resposta: qualquer subida de mídia paga sem metas numéricas e limite aprovados (C0, MP1, MP2), anúncio pago do G2 (G6), anúncio pago do noturno do G1 (G8 e MP4), disparo de régua para candidato menor (G10), peças com imagem de pessoas ou com o hospital (G11). Revisado por: estrategia-de-campanha (agente). Revisão humana e do qa-de-marketing: pendente. Data: 26/10/2026.
 
 **Notas para arquivos de outros donos (não alterados por este agente):**
 - O plano do cmo indica este arquivo com data de 28/10/2026 na seção 7; a entrega saiu em 26/10/2026.
@@ -421,7 +436,9 @@ Cuidados de mensagem:
 - Inscrições gratuitas desde 17/08/2026; redação online a qualquer momento, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante; matrícula a partir de 2 dias após o resultado; documentos em até 30 dias; aulas em 22/02/2027 (Editais 002 e 004/2026).
 - Vagas: 45 integral, 45 noturno, 80 Pedagogia; turma mínima de 30; cancelamento com 80% até 2 dias antes do início das aulas (editais).
 - Candidato menor precisa do aceite do representante legal na inscrição e na matrícula (Edital 002/2026; Edital 004/2026 com as mesmas regras).
+- Medicina Veterinária: Práticas Hospitalares e Projeto Extensionista I no 1º semestre da matriz (ficha do curso, conferida pelo QA de 26/10/2026).
 - Meta principal, fases, canais ativos e fora, kits, ativação da base em 30/10 e checagens semanais (plano do cmo, 26/10/2026).
+- Correções desta versão: QA de 26/10/2026, Veredito A2 (saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md).
 
 ## 6. Suposições
 
@@ -434,12 +451,13 @@ Cuidados de mensagem:
 
 ## 7. Dados que faltam
 
-- [CONFIRMAR] Alvo de matrículas acima do piso, por turma; verba por curso; CPL e custo por matrícula máximos.
+- [CONFIRMAR] Alvo de matrículas acima do piso, por turma; verba por curso; CPL e custo por matrícula máximos (necessários antes de qualquer subida, MP1 e MP2).
 - [CONFIRMAR] Números agregados desde 17/08/2026 e taxas t1 a t5 do funil.
 - [CONFIRMAR] Data-limite de inscrição e de matrícula; data de decisão da turma mínima; datas do Enem 2026 e das notas.
 - [CONFIRMAR] Se o formulário da LP é a inscrição; URL que recebe a UTM; origem no CRM; finalidade e política de privacidade no formulário.
 - [CONFIRMAR] Consentimento de candidato menor no CRM.
 - [CONFIRMAR NO CATÁLOGO] Carga horária, coordenação e corpo docente da Pedagogia; horário de prática e estágio do noturno da Medicina Veterinária.
+- [CONFIRMAR] Uso da Ufape Clínica pela graduação (G11).
 - [CONFIRMAR] Endereço de Goiânia; data de publicação da Portaria MEC nº 871/2022.
 - [CONFIRMAR] Efeito do reajuste de dezembro; regra comercial depois do 1º semestre; correção dos Editais 003/2026.
 - [CONFIRMAR] Autorizações de imagem; perfis de TikTok, YouTube e Goiânia; capacidade de produção; aprovadores.
@@ -448,4 +466,4 @@ Cuidados de mensagem:
 
 ## Próximo passo
 
-Na cadeia /campanha-de-vestibular, a etapa 3 é o estrategia-de-oferta (29/10), com este arquivo e os Editais 003/2026. Sugestão deste agente para depois: iscas-digitais, para um guia "como fazer a redação online ou usar a nota do Enem", útil na ativação da base e na régua. Nada segue sem a aprovação humana deste briefing.
+Nova rodada do qa-de-marketing (arquivo ...-b). Na cadeia /campanha-de-vestibular, a etapa 3 é o estrategia-de-oferta, com este arquivo e os Editais 003/2026. Sugestão deste agente para depois: iscas-digitais, para um guia "como fazer a redação online ou usar a nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)", útil na ativação da base e na régua. Nada segue sem a aprovação humana deste briefing.
