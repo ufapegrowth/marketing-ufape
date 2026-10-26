@@ -4,16 +4,17 @@
 - Etapa do plano: M.1 (seção 4 do plano do cmo, "Mapa mental e JSON")
 - Linha: geral (vale para graduacao, pos, livres e eventos)
 - Data: 26/10/2026 (segunda-feira)
-- Status: rascunho para o qa-de-marketing e depois para a aprovação da pessoa do marketing. Nada foi gerado, publicado, enviado ou pago. Nenhum arquivo de .claude/commands foi criado: o texto dos workflows está na seção 3.9, pronto para virar arquivo depois da aprovação.
+- Status: versão corrigida depois do veredito do qa-de-marketing (itens B1 a B6). Rascunho para nova conferência do qa-de-marketing e depois para a aprovação da pessoa do marketing. Nada foi gerado, publicado, enviado ou pago. Nenhum arquivo de .claude/commands foi criado: o texto dos workflows está na seção 3.9, pronto para virar arquivo depois da aprovação.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
-  - contexto/ufape-geral.md, contexto/graduacao.md, contexto/pos-graduacao.md, contexto/cursos-livres.md, contexto/eventos.md
-  - contexto/catalogo-de-cursos.md (seção "Como usar", resumo e seções 1 a 9)
+  - contexto/ufape-geral.md, contexto/graduacao.md, contexto/pos-graduacao.md (relido com as regras das provas de bolsa), contexto/cursos-livres.md, contexto/eventos.md
+  - contexto/catalogo-de-cursos.md (seção "Como usar", resumo e seções 1 a 9; a seção 3 agora tem coluna de preço)
   - templates/kit-de-lancamento-pos.md, kit-de-lancamento-livres.md, kit-de-lancamento-evento.md, kit-de-lancamento-graduacao.md
   - templates/pagina-da-turma.md e templates/documento-de-fluxo.md
   - docs/visao-de-campanhas-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md (veredito, seção do arquiteto-de-fluxos)
   - .claude/skills/mapear-fluxo/SKILL.md e .claude/skills/matriz-gut/SKILL.md (cabeçalho)
   - .claude/agents/arquiteto-de-fluxos.md, cmo.md, qa-de-marketing.md, relatorios.md
   - .claude/commands/arrumacao-mensal.md e campanha-de-vestibular.md (formato dos workflows)
@@ -24,9 +25,20 @@
   - contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md (início)
   - README.md
 
+## Correções desta versão (veredito do qa-de-marketing)
+
+| Item | O que mudou |
+|---|---|
+| B1 | As bolsas deixam de ser "[CONFIRMAR]": bolsas_previstas vira lista de objetos (2 de 50% (monitoria), 4 de 25%, 5 de 10%), a pendência P10 está resolvida, e a pendência do 68651 trata só da turma de destino. Suposição 3 e item 5 de "dados que faltam" reescritos. O preço da prova agora vem da coluna de preço do catálogo (seção 3). |
+| B2 | O mínimo de 15 alunos é copiado (não há contradição na ficha; a divergência é com os 20 das páginas de curso). Resultado por WhatsApp ou e-mail; o trecho da ficha com site e prazo de 7 dias vira pendência de divergência. Fato 7 corrigido. |
+| B3 | Nenhum campo de texto do JSON repete a frase de certificação ligada ao MEC: 707-p02, 68651-p05, o texto de 1.7 e o pedido A7 usam "frase de certificação que a squad não repete". C10 e a regra 4.3 ampliadas para as variantes. |
+| B4 | A conferência C11 foi reescrita (todo marcador e todo null aplicável é citado no campo "campos" de uma pendência) e os dois exemplos receberam as pendências que faltavam. Os dois exemplos passam na C11 (verificado campo a campo, ver 3.9). |
+| B5 | R1 e R2 reescritas: campo de texto recebe "[CONFIRMAR]"; campo de número, data, lista ou objeto recebe null e uma pendência explica. A coluna "Tipo" e a coluna "Se vazio" de 1.3 foram ajustadas, "salvo quando a coluna Se vazio define outro valor" entrou na R1, e a C1 conta a Graduação uma vez só (184 no total). |
+| B6 | Cópias da ficha 68651 agora são literais: modalidade "PROVA PRESENCIAL", nota de corte "7.0 (mínimo 70 % de acerto)"; fonte_da_data entra em campos_so_na_ficha, porque a seção 3 do catálogo não tem coluna "Fonte". |
+
 ## Resumo da proposta
 
-1. Um arquivo JSON por item do catálogo (184 no total: 110 do recorte, 72 de histórico ou pendência e 2 da Graduação), com um esquema único, versão 1, em que tudo o que vem do catálogo é cópia literal e tudo o que falta vira o texto "[CONFIRMAR]".
+1. Um arquivo JSON por item do catálogo (184 no total, Graduação incluída: 110 do recorte, 72 de histórico ou pendência e 2 da Graduação), com um esquema único, versão 1, em que tudo o que vem do catálogo é cópia literal e tudo o que falta fica marcado e explicado em pendências.
 2. Um só escritor dos JSON: o agente cmo. Os outros agentes escrevem só as próprias saídas; o cmo, depois da aprovação, registra no JSON o que foi aprovado.
 3. O HTML nunca lê a pasta de JSON em tempo real: o cmo embute os JSON dentro do próprio HTML, que abre offline.
 4. Dois workflows novos e curtos: montar (3 etapas por onda) e atualizar (2 etapas por rodada).
@@ -40,19 +52,19 @@
 
 | # | Regra |
 |---|---|
-| R1 | Origem vazia, ausente ou duvidosa em campo que se aplica ao tipo: o valor é exatamente o texto "[CONFIRMAR]". Nunca "", nunca "N/A", nunca 0, nunca estimativa. Nos campos de autorização de imagem e voz, o texto é "[CONFIRMAR autorização]". |
-| R2 | null só significa "não se aplica a este tipo ou a este item" (por exemplo, turma de uma prova de bolsa, início de um curso contínuo sem data, ficha de um item sem página). Se o campo se aplica e a origem está vazia, vale R1, não null. |
+| R1 | Origem vazia, ausente ou duvidosa em campo que se aplica ao tipo, salvo quando a coluna "Se vazio" de 1.3 define outro valor: campo de texto recebe exatamente "[CONFIRMAR]" (nos campos de autorização de imagem e voz, onde o campo é número, vale null e o marcador "[CONFIRMAR autorização]" vai na pendência). Campo de número, data, lista ou objeto recebe null, e uma pendência aberta cita o caminho do campo em "campos" (o campo irmão que explica). Nunca "", "N/A", 0 nem estimativa. |
+| R2 | null sozinho (sem pendência que o cite) significa "não se aplica a este tipo ou a este item" (por exemplo, turma de uma prova de bolsa, início de um curso contínuo sem data, ficha de um item sem página). null com pendência que o cita significa "origem vazia, ainda não confirmada". A plataforma e o qa distinguem os dois pela pendência. |
 | R3 | Bloco por tipo (prova_de_bolsa, graduacao, evento): só existe a chave do bloco do tipo do item. Os outros dois blocos não aparecem (nem como null). |
-| R4 | Campos espelho (classe C) são cópia literal do catálogo (ou da ficha, nos casos de 1.3 marcados "catálogo ou ficha"). Nada é reescrito, corrigido, arredondado ou calculado. Se o catálogo já traz marcador ("[CONFIRMAR NO SITE]", "[CONFIRMAR]"), o marcador é copiado e o item entra em pendencias. |
-| R5 | Valores do catálogo que não são dado (data "XX DE XX DE 202X", "SEM DATA", "COLOCAR DATA?", "360 horas" no lugar da turma) viram "[CONFIRMAR]" e a fonte da data vira "ausente". |
-| R6 | Dado que só existe na ficha (não está no catálogo) pode ser copiado, mas o caminho do campo entra em fontes.campos_so_na_ficha. Assim o qa-de-marketing e a Ufape veem o que ainda não está no catálogo. |
-| R7 | Se duas fontes divergem (planilha e site, ou dois trechos da mesma ficha), vale a regra do briefing (data: planilha; resto: site). Quando a divergência está dentro da mesma fonte e não há regra, o campo vira "[CONFIRMAR]" e a divergência vira pendência. |
+| R4 | Campos espelho (classe C) são cópia literal do catálogo (ou da ficha ou do contexto da linha, nos casos marcados em 1.3 e em campos_so_na_ficha). Nada é reescrito, corrigido, arredondado ou calculado. A cópia é do texto como está, inclusive espaços e grafia da fonte (por exemplo, "70 %" com espaço). Se o catálogo já traz marcador ("[CONFIRMAR NO SITE]", "[CONFIRMAR]"), o marcador é copiado em campo de texto e o item entra em pendencias. |
+| R5 | Valores do catálogo que não são dado (data "XX DE XX DE 202X", "SEM DATA", "COLOCAR DATA?", "360 horas" no lugar da turma) seguem a R1: data vira null com pendência e a fonte da data vira "ausente"; texto vira "[CONFIRMAR]". |
+| R6 | Dado que só existe na ficha ou no contexto da linha (não está no catálogo) pode ser copiado, mas o caminho do campo entra em fontes.campos_so_na_ficha. Assim o qa-de-marketing e a Ufape veem o que ainda não está no catálogo. |
+| R7 | Se duas fontes divergem (planilha e site, ou dois trechos da mesma ficha), vale a regra do briefing (data: planilha; resto: site). Quando a divergência está dentro da mesma fonte, ou entre ficha e contexto, e não há regra, o valor do contexto da linha (já aprovado no plano) vale e a divergência vira pendência do tipo divergencia; se nem o contexto resolve, o campo segue a R1. |
 | R8 | Cálculo permitido: só dias_ate_inicio, preco_estruturado (e só quando bate com o texto do site), resumo e o total do GUT. Nenhum outro número é calculado. |
-| R9 | Texto livre (descricao, motivo, observacao): até 240 caracteres, sem nome de pessoa, sem e-mail, telefone ou CPF, sem a frase "certificado pelo MEC" ou "reconhecida pelo MEC", sem "últimas vagas". |
+| R9 | Texto livre (descricao, motivo, observacao): até 240 caracteres, sem nome de pessoa, sem e-mail, telefone ou CPF, sem frase de certificação ligada ao MEC (em nenhuma variante: "certificado pelo MEC", "reconhecida pelo MEC", "do MEC", "Ministério da Educação" como certificador), sem "últimas vagas". Para falar dessa frase, o texto escreve "frase de certificação que a squad não repete". |
 | R10 | Nenhum campo de nome de pessoa em lugar nenhum do esquema. Docentes, coordenadores, palestrantes, aprovadores e alunos aparecem só como contagem ou como papel. |
-| R11 | Suposição: toda proposta que não é dado (canais, destino de prova, vínculo com a visão de campanhas) leva a marca "[SUPOSIÇÃO]" no campo natureza ou marcador, e uma pendência. |
+| R11 | Suposição: toda proposta que não é dado (canais, destino de prova, vínculo com a visão de campanhas) leva a marca "[SUPOSIÇÃO]" no campo natureza ou marcador, e uma pendência com marcador "[SUPOSIÇÃO]". |
 | R12 | Um só escritor: o cmo. Nenhum agente edita JSON de outro item nem o JSON em lote fora do fluxo da seção 3. |
-| R13 | Formato do arquivo: UTF-8, sem BOM, fim de linha LF, recuo de 2 espaços, chaves na ordem do modelo de 1.6, datas AAAA-MM-DD (dia civil de São Paulo), valores em reais como número com ponto decimal (preço de 1.590,00 vira 1590.00). |
+| R13 | Formato do arquivo: UTF-8, sem BOM, fim de linha LF, recuo de 2 espaços, chaves na ordem do modelo de 1.5, datas AAAA-MM-DD (dia civil de São Paulo), valores em reais como número com ponto decimal (preço de 1.590,00 vira 1590.00). |
 | R14 | Consistência entre status e recorte: recorte "planejar" só com status_catalogo "aberto" ou "aberto (contínuo)". Status "verificar", "sem venda", "encerrado" ou "sem página" vira "historico" ou "pendencia" (conformidade-educacional: só item aberto recebe chamada para inscrição). |
 
 ### 1.2 Classes de campo (definem quem pode mudar o quê)
@@ -70,7 +82,7 @@
 
 ### 1.3 Campo a campo
 
-Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só nos tipos citados; não = pode faltar a chave. "Se vazio" diz o que escrever quando a origem está vazia (R1 e R2).
+Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só nos tipos citados; não = pode faltar a chave. "Se vazio" diz o que escrever quando a origem está vazia (R1 e R2). Onde o tipo diz "ou null", o null com pendência que o cita é o vazio por origem ausente (R2).
 
 #### Controle e fontes
 
@@ -81,16 +93,17 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | revisao | X | inteiro | sim | 1 ou mais; sobe 1 a cada gravação | cmo | não se aplica |
 | revisao_aprovada | X | inteiro | sim | 0 ou mais, nunca maior que revisao | aprovação humana registrada | 0 até a primeira aprovação |
 | estado_do_arquivo | X | texto | sim | ativo, substituido | cmo | não se aplica |
-| substituido_por | X | texto ou null | sim | id de outro arquivo | cmo | null |
+| substituido_por | X | texto ou null | sim | id de outro arquivo | cmo | null (não se aplica) |
 | gerado_em | X | data | sim | AAAA-MM-DD | dia da criação | não se aplica |
 | atualizado_em | X | data | sim | AAAA-MM-DD | dia da última gravação | não se aplica |
 | fontes.catalogo | X | texto | sim | "contexto/catalogo-de-cursos.md" | fixo | não se aplica |
-| fontes.data_catalogo | X | data | sim | AAAA-MM-DD | campo "Gerado em" do catálogo | "[CONFIRMAR]" |
-| fontes.catalogo_linha_literal | X | texto | sim | cópia literal das colunas da linha do catálogo até a coluna "Fonte" (sem a coluna "Ficha") | catálogo | "[CONFIRMAR]" (item que só existe na planilha) |
-| fontes.ficha | X | texto ou null | sim | caminho em contexto/cursos/ | catálogo | null (item sem ficha) |
+| fontes.data_catalogo | X | data ou null | sim | AAAA-MM-DD | campo "Gerado em" do catálogo | null com pendência |
+| fontes.catalogo_linha_literal | X | texto | sim | cópia literal das colunas da linha do catálogo até a coluna "Fonte" (na seção 3, das provas, que não tem "Fonte", até "Status"), sem a coluna "Ficha" | catálogo | "[CONFIRMAR]" (item que só existe na planilha) |
+| fontes.ficha | X | texto ou null | sim | caminho em contexto/cursos/ | catálogo | null (item sem ficha, não se aplica) |
 | fontes.ficha_editais | X | texto | tipo graduacao | "contexto/cursos/graduacao/editais-2027-1.md" | catálogo, "Como usar" | "[CONFIRMAR]" |
-| fontes.ficha_lida_em | X | data ou null | sim | AAAA-MM-DD | cmo | null |
-| fontes.campos_so_na_ficha | X | lista de texto | sim | caminhos de campo deste esquema, como "modulos" | cmo, conferido pelo qa | lista vazia |
+| fontes.ficha_lida_em | X | data ou null | sim | AAAA-MM-DD | cmo | null (não se aplica) |
+| fontes.contexto_da_linha | X | texto ou null | não | caminho do contexto da linha usado como fonte (por exemplo, contexto/pos-graduacao.md nas regras das provas de bolsa) | cmo | omitir a chave |
+| fontes.campos_so_na_ficha | X | lista de texto | sim | caminhos de campo deste esquema, como "modulos" (dado que está na ficha ou no contexto da linha e não no catálogo) | cmo, conferido pelo qa | lista vazia |
 | fontes.visao_de_campanhas | X | objeto (arquivo, data) ou texto | sim | arquivo em docs/visao-de-campanhas-AAAA-MM-DD.md | visão de campanhas | "[CONFIRMAR]" |
 | fontes.plano | X | texto | sim | caminho do plano do cmo em vigor | plano | "[CONFIRMAR]" |
 | fontes.auditorias | X | lista de texto | sim | caminhos em docs/ | auditorias do catálogo | lista vazia |
@@ -107,7 +120,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | nome_padrao | C | texto | sim | pos: "Pós-graduação em <área>"; prova_de_bolsa: igual ao nome_no_site; demais tipos: igual ao nome_no_site [SUPOSIÇÃO: os contextos de Livres, Eventos e Graduação não definem padrão de nome] | regra da linha (contexto/pos-graduacao.md, "Padrão de nome") | "[CONFIRMAR]" |
 | slug_sugerido | C | texto | sim | pos: "pos-graduacao-em-<area>" (sem acento, hífen); demais tipos: sem regra definida. É do curso, não da turma: duas turmas podem ter o mesmo slug | contexto/pos-graduacao.md | "[CONFIRMAR]" (todos os tipos fora de pos) |
 | aliases | C | lista de texto | sim | outros nomes do mesmo item (por exemplo, o nome da planilha) | planilha e catálogo | lista vazia |
-| pagina_oficial | C | texto ou null | sim | URL da página oficial | ficha (campo em campos_so_na_ficha) | "[CONFIRMAR]" se o status é aberto; null se "sem página" |
+| pagina_oficial | C | texto ou null | sim | URL da página oficial | ficha (campo em campos_so_na_ficha) | "[CONFIRMAR]" se o status é aberto; null (não se aplica) se "sem página" |
 
 #### Plano
 
@@ -118,10 +131,10 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | area.natureza | P | texto | sim | plano_do_cmo, proposta ("[SUPOSIÇÃO]") | plano | não se aplica |
 | recorte | P | texto | sim | planejar, historico, pendencia | plano, seções 2.1 a 2.4; regra R14 | não se aplica |
 | motivo_do_recorte | P | texto | sim | até 240 caracteres | plano | "[CONFIRMAR]" |
-| onda | P | inteiro ou null | sim | 1, 2, 3, null | plano, seção 3 | null (histórico e pendência) |
+| onda | P | inteiro ou null | sim | 1, 2, 3, null | plano, seção 3 | null (histórico e pendência, não se aplica) |
 | modo_de_venda | P | texto | sim | com_data, continuo | status_catalogo ("aberto (contínuo)" vira continuo) | não se aplica |
-| grupo_de_campanha | P | texto ou null | sim | id do grupo, por exemplo "provas-de-bolsa-2026-11-27" ou "sempre-ligado-A1" | plano, decisão A3 | null |
-| gut | P | objeto ou null | sim | g, u, t (inteiros de 1 a 5), total (g x u x t), motivo, natureza ("avaliacao_do_agente"), fonte | plano, seção 3 (skill .claude/skills/matriz-gut/SKILL.md) | null se recorte não é planejar; "[CONFIRMAR]" se é planejar e o grupo não tem nota |
+| grupo_de_campanha | P | texto ou null | sim | id do grupo, por exemplo "provas-de-bolsa-2026-11-27" ou "sempre-ligado-A1" | plano, decisão A3 | null (não se aplica) |
+| gut | P | objeto ou null | sim | g, u, t (inteiros de 1 a 5), total (g x u x t), motivo, natureza ("avaliacao_do_agente"), fonte | plano, seção 3 (skill .claude/skills/matriz-gut/SKILL.md) | null (não se aplica) se recorte não é planejar; null com pendência se é planejar e o grupo não tem nota |
 | relacionados | P | lista de objetos | sim | id, relacao (duplicidade_provavel, modalidade_do_mesmo_evento, turma_de_destino, substitui), natureza (dado ou "[SUPOSIÇÃO]") | plano, P7 e seção 2.3; catálogo | lista vazia |
 
 #### Espelho do curso, da turma ou da edição
@@ -129,64 +142,64 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | Campo | Cl. | Tipo | Obrig. | Valores permitidos | Origem | Se vazio |
 |---|---|---|---|---|---|---|
 | local | C | texto | sim | cópia literal ("São Paulo", "SP", "Online", "Goiânia", "Lima - Peru" etc.) | catálogo | "[CONFIRMAR]" |
-| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo) | catálogo ou ficha | "[CONFIRMAR]" |
+| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo e, na prova de bolsa, o texto da ficha, como "PROVA PRESENCIAL") | catálogo ou ficha | "[CONFIRMAR]" |
 | modalidade_normalizada | C | texto | sim | presencial, semipresencial, ead, online, gravacao, "[CONFIRMAR]". Tabela de equivalência em 1.4 | cmo, a partir de modalidade | "[CONFIRMAR]" |
-| turma | C | texto ou null | sim | numeral romano do catálogo | catálogo | "[CONFIRMAR]" em pos com coluna vazia; null em tipos sem turma (provas, livres, graduação, eventos) |
-| carga_horaria | C | texto ou null | sim | cópia literal ("600 h", "4.195 h + 75 h de atividades complementares") | catálogo | "[CONFIRMAR]"; null em prova_de_bolsa (a ficha da prova repete a carga horária da Pós, não a da prova) [SUPOSIÇÃO] |
-| modulos | C | inteiro ou null | sim | número de módulos da ficha | ficha (campos_so_na_ficha) | "[CONFIRMAR]" em pos; null nos demais |
-| inicio | C | data ou texto ou null | sim | AAAA-MM-DD; Graduação: início das aulas | catálogo (planilha) | "[CONFIRMAR]" (R5); null em contínuo sem data |
-| fonte_da_data | C | texto | sim | planilha, site, edital, pagina_do_evento, ausente | coluna "Fonte" do catálogo | ausente |
+| turma | C | texto ou null | sim | numeral romano do catálogo | catálogo | "[CONFIRMAR]" em pos com coluna vazia; null (não se aplica) em tipos sem turma (provas, livres, graduação, eventos) |
+| carga_horaria | C | texto ou null | sim | cópia literal ("600 h", "4.195 h + 75 h de atividades complementares") | catálogo | "[CONFIRMAR]"; null (não se aplica) em prova_de_bolsa (a ficha da prova repete a carga horária da Pós, não a da prova) [SUPOSIÇÃO] |
+| modulos | C | inteiro ou null | sim | número de módulos da ficha | ficha (campos_so_na_ficha) | null com pendência em pos; null (não se aplica) nos demais |
+| inicio | C | data ou null | sim | AAAA-MM-DD; Graduação: início das aulas | catálogo (planilha) | null com pendência e fonte_da_data "ausente" (R5); null sem pendência em contínuo sem data |
+| fonte_da_data | C | texto | sim | planilha, site, edital, pagina_do_evento, ausente | coluna "Fonte" do catálogo; na seção 3 (provas), que não tem a coluna, vem da ficha e entra em campos_so_na_ficha | ausente |
 | dias_ate_inicio | D | inteiro ou null | sim | inicio menos atualizado_em, só quando modo_de_venda é com_data e inicio é data | calculado | null |
-| fim_das_inscricoes | C | data ou texto ou null | sim | AAAA-MM-DD | catálogo ou ficha (nenhum traz hoje) | "[CONFIRMAR]"; null em contínuo |
-| preco_texto_site | C | texto | sim | cópia literal da coluna de preço e condições | catálogo ("site em 26/10/2026; conferir antes de publicar") | "[CONFIRMAR]" |
+| fim_das_inscricoes | C | data ou null | sim | AAAA-MM-DD | catálogo ou ficha (nenhum traz hoje) | null com pendência; null sem pendência em contínuo |
+| preco_texto_site | C | texto | sim | cópia literal da coluna de preço e condições (nas provas, coluna "Preço (site)" da seção 3) | catálogo ("site em 26/10/2026; conferir antes de publicar") | "[CONFIRMAR]" |
 | preco_estruturado | D | objeto ou null | sim | moeda ("BRL"), parcelas, valor_parcela, total, matricula (matricula pode ser null). Só se bater com o texto; nunca é a fonte do preço | cmo, a partir de preco_texto_site | null |
-| condicoes_especiais | C | lista de objetos | sim | tipo (cupom, promocao, desconto, outro), texto, codigo (só cupom), publico, validade | catálogo | lista vazia; promoção citada sem regra: validade "[CONFIRMAR]" |
+| condicoes_especiais | C | lista de objetos | sim | tipo (cupom, promocao, desconto, outro), texto, codigo (só cupom), publico, validade (data ou null) | catálogo | lista vazia; promoção citada sem regra: validade null com pendência |
 | status_catalogo | C | texto | sim | aberto, aberto (contínuo), verificar, sem venda, encerrado, sem página | catálogo | "[CONFIRMAR]" |
 | status_catalogo_texto | C | texto | sim | cópia literal da célula de status | catálogo | "[CONFIRMAR]" |
-| vagas.turma_minima | C | inteiro ou texto ou null | sim | número | catálogo ("Como usar", Graduação), contexto da linha ou ficha | "[CONFIRMAR]" |
-| vagas.vagas_ofertadas | C | inteiro ou texto ou null | sim | número | ficha ou edital | "[CONFIRMAR]"; null na Graduação (vagas por turno ficam em graduacao.turnos) |
-| vagas.vagas_restantes | N | texto | sim | sempre "[CONFIRMAR]" até a Ufape mandar número agregado | números agregados | "[CONFIRMAR]" (sem número real, nenhuma peça fala em últimas vagas) |
-| equipe | C | objeto ou null | sim | coordenadores_na_ficha (inteiro), docentes_na_ficha (inteiro), autorizacoes_de_imagem_registradas (inteiro). Só contagens, nunca nomes | ficha | "[CONFIRMAR]" em cada contagem; autorizações: "[CONFIRMAR autorização]"; null em prova_de_bolsa, graduação e itens sem ficha |
+| vagas.turma_minima | C | inteiro ou null | sim | número | catálogo ("Como usar", Graduação), contexto da linha ou ficha | null com pendência; null sem pendência quando o mínimo fica em outro bloco (prova de bolsa) |
+| vagas.vagas_ofertadas | C | inteiro ou null | sim | número | ficha ou edital | null com pendência; null (não se aplica) na Graduação (vagas por turno ficam em graduacao.turnos) |
+| vagas.vagas_restantes | N | inteiro ou null | sim | número somado entregue pela Ufape | números agregados | null com pendência P11 até a Ufape mandar número agregado (sem número real, nenhuma peça fala em últimas vagas) |
+| equipe | C | objeto ou null | sim | coordenadores_na_ficha (inteiro ou null), docentes_na_ficha (inteiro ou null), autorizacoes_de_imagem_registradas (inteiro ou null). Só contagens, nunca nomes | ficha | null em cada contagem com pendência; autorizações: null com pendência de marcador "[CONFIRMAR autorização]"; equipe inteira null (não se aplica) em prova_de_bolsa, graduação e itens sem ficha |
 
 #### Blocos por tipo (R3)
 
 | Campo | Cl. | Tipo | Obrig. | Valores permitidos | Origem | Se vazio |
 |---|---|---|---|---|---|---|
-| prova_de_bolsa.data_da_prova | C | data | tipo prova_de_bolsa | AAAA-MM-DD | catálogo e ficha | "[CONFIRMAR]" |
+| prova_de_bolsa.data_da_prova | C | data ou null | tipo prova_de_bolsa | AAAA-MM-DD | catálogo e ficha | null com pendência |
 | prova_de_bolsa.horario_texto | C | texto | tipo prova_de_bolsa | cópia literal ("9 às 13h") | ficha (campos_so_na_ficha) | "[CONFIRMAR]" |
 | prova_de_bolsa.formato | C | texto | tipo prova_de_bolsa | presencial, online | ficha | "[CONFIRMAR]" |
 | prova_de_bolsa.local_texto | C | texto | tipo prova_de_bolsa | cidade do catálogo | catálogo | "[CONFIRMAR]" |
-| prova_de_bolsa.nota_de_corte_texto | C | texto | tipo prova_de_bolsa | cópia literal, só se as duas menções da ficha coincidem | ficha | "[CONFIRMAR]" |
-| prova_de_bolsa.turma_de_destino | P | objeto | tipo prova_de_bolsa | codigo ("[CONFIRMAR]" até a Ufape confirmar), sugestao_do_plano (código do catálogo), natureza_da_sugestao ("[SUPOSIÇÃO]") | plano, seção 2.3 | codigo "[CONFIRMAR]", sugestao_do_plano null |
-| prova_de_bolsa.bolsas_previstas | C | texto | tipo prova_de_bolsa | sempre "[CONFIRMAR]" até a Ufape definir regras e percentuais (plano, P10) | Ufape | "[CONFIRMAR]" |
-| prova_de_bolsa.prazo_de_matricula_apos_resultado | C | texto | tipo prova_de_bolsa | cópia literal quando a ficha não se contradiz | ficha | "[CONFIRMAR]" |
-| prova_de_bolsa.divulgacao_do_resultado | C | texto | tipo prova_de_bolsa | cópia literal quando a ficha não se contradiz | ficha | "[CONFIRMAR]" |
-| prova_de_bolsa.minimo_para_confirmar_turma | C | inteiro ou texto | tipo prova_de_bolsa | número | ficha | "[CONFIRMAR]" |
+| prova_de_bolsa.nota_de_corte_texto | C | texto | tipo prova_de_bolsa | cópia literal da ficha, como "7.0 (mínimo 70 % de acerto)" | ficha | "[CONFIRMAR]" |
+| prova_de_bolsa.turma_de_destino | P | objeto | tipo prova_de_bolsa | codigo ("[CONFIRMAR]" até a Ufape confirmar), sugestao_do_plano (código do catálogo ou null), natureza_da_sugestao ("[SUPOSIÇÃO]") | plano, seção 2.3; contexto/pos-graduacao.md ("A turma de destino de cada prova não aparece na página: [CONFIRMAR]") | codigo "[CONFIRMAR]", sugestao_do_plano null |
+| prova_de_bolsa.bolsas_previstas | C | lista de objetos ou null | tipo prova_de_bolsa | quantidade (inteiro), percentual_texto (cópia literal, como "50% (monitoria)", "25%", "10%") | contexto/pos-graduacao.md (regras das 22 provas, P10 resolvido em 26/10/2026) e ficha | null com pendência |
+| prova_de_bolsa.prazo_de_matricula_apos_resultado | C | texto | tipo prova_de_bolsa | cópia literal do contexto da linha ("10 dias úteis") | contexto/pos-graduacao.md | "[CONFIRMAR]" |
+| prova_de_bolsa.divulgacao_do_resultado | C | texto | tipo prova_de_bolsa | cópia literal do contexto da linha ("WhatsApp ou e-mail") | contexto/pos-graduacao.md | "[CONFIRMAR]" |
+| prova_de_bolsa.minimo_para_confirmar_turma | C | inteiro ou null | tipo prova_de_bolsa | número da página da prova (15); a divergência com os 20 das páginas de curso vira pendência | ficha e contexto/pos-graduacao.md | null com pendência |
 | graduacao.edital | C | objeto | tipo graduacao | numero, titulo, url | ficha de editais; catálogo, seção 1 | "[CONFIRMAR]" em cada subcampo |
 | graduacao.edital_de_desconto | C | objeto | tipo graduacao | numero, titulo, url | ficha de editais; catálogo, seção 1 | "[CONFIRMAR]" em cada subcampo |
 | graduacao.ato_autorizativo | C | texto | tipo graduacao | cópia literal do catálogo | catálogo, seção 1 | "[CONFIRMAR]" |
 | graduacao.reconhecimento | C | texto | tipo graduacao | cópia literal | contexto/graduacao.md ([PREENCHER COM A REGULAÇÃO]) | "[CONFIRMAR]" |
 | graduacao.grau | C | texto | tipo graduacao | bacharelado, licenciatura | ficha de editais | "[CONFIRMAR]" |
-| graduacao.turnos | C | lista de objetos | tipo graduacao | turno (integral, noturno), duracao_anos, vagas, mensalidade_texto (cópia literal) | catálogo e ficha de editais | "[CONFIRMAR]" em cada subcampo |
-| graduacao.formas_de_ingresso | C | lista de texto | tipo graduacao | redacao, enem, transferencia_externa, diplomado, vagas_remanescentes | ficha de editais | "[CONFIRMAR]" |
-| graduacao.inscricoes_abertas_desde | C | data | tipo graduacao | AAAA-MM-DD | ficha de editais | "[CONFIRMAR]" |
-| graduacao.inscricao_ate | C | data ou texto | tipo graduacao | AAAA-MM-DD | edital (não traz hoje) | "[CONFIRMAR]" |
-| graduacao.inicio_das_aulas | C | data | tipo graduacao | AAAA-MM-DD (igual a inicio) | ficha de editais | "[CONFIRMAR]" |
+| graduacao.turnos | C | lista de objetos | tipo graduacao | turno (integral, noturno), duracao_anos (inteiro ou null), vagas (inteiro ou null), mensalidade_texto (cópia literal) | catálogo e ficha de editais | null nos números com pendência; "[CONFIRMAR]" no texto |
+| graduacao.formas_de_ingresso | C | lista de texto ou null | tipo graduacao | redacao, enem, transferencia_externa, diplomado, vagas_remanescentes | ficha de editais | null com pendência |
+| graduacao.inscricoes_abertas_desde | C | data ou null | tipo graduacao | AAAA-MM-DD | ficha de editais | null com pendência |
+| graduacao.inscricao_ate | C | data ou null | tipo graduacao | AAAA-MM-DD | edital (não traz hoje) | null com pendência |
+| graduacao.inicio_das_aulas | C | data ou null | tipo graduacao | AAAA-MM-DD (igual a inicio) | ficha de editais | null com pendência |
 | graduacao.validade_do_desconto | C | texto | tipo graduacao | cópia literal | ficha de editais | "[CONFIRMAR]" |
 | graduacao.lp.url | C | texto | tipo graduacao | URL da LP da Graduação | catálogo ou ufape-site | "[CONFIRMAR]" |
 | graduacao.lp.alterada_pela_squad | C | booleano | tipo graduacao | sempre false | regra do CLAUDE.md | não se aplica |
 | graduacao.lp.utm | C | objeto | tipo graduacao | gerada_por ("plataforma"), parametros (utm_source, utm_medium, utm_campaign, utm_content, utm_term), utm_campaign. Nenhum valor que identifique pessoa | plataforma; padrão da squad (plano, P15) | utm_campaign "[CONFIRMAR]" |
 | evento.subtipo | C | texto | tipo workshop ou simposio | workshop, simposio | contexto/eventos.md (subtipo obrigatório) | "[CONFIRMAR]" |
-| evento.data_inicio | C | data | tipos de evento | AAAA-MM-DD | catálogo | "[CONFIRMAR]" |
-| evento.data_fim | C | data ou texto | tipos de evento | AAAA-MM-DD | página do evento | "[CONFIRMAR]"; null em evento gravado contínuo |
+| evento.data_inicio | C | data ou null | tipos de evento | AAAA-MM-DD | catálogo | null com pendência |
+| evento.data_fim | C | data ou null | tipos de evento | AAAA-MM-DD | página do evento | null com pendência; null (não se aplica) em evento gravado contínuo |
 | evento.horario_texto | C | texto | tipos de evento | cópia literal | página do evento | "[CONFIRMAR]" |
 | evento.formato | C | texto | tipos de evento | presencial, online_ao_vivo, gravado, hibrido | catálogo e página | "[CONFIRMAR]" |
-| evento.modalidades | C | lista de objetos | tipos de evento | nome, preco_texto_site (literal), vagas, produto (código do catálogo, quando houver) | catálogo e página | "[CONFIRMAR]" em cada subcampo |
+| evento.modalidades | C | lista de objetos | tipos de evento | nome, preco_texto_site (literal), vagas (inteiro ou null), produto (código do catálogo, quando houver) | catálogo e página | "[CONFIRMAR]" no texto; null no número, com pendência |
 | evento.carga_horaria_oficial | C | texto | tipos de evento | cópia literal | decisão da Ufape de 26/10/2026, ficha do evento | "[CONFIRMAR]" |
-| evento.cupom | C | objeto ou null | tipos de evento | codigo, publico, desconto_texto, comprovacao_texto | catálogo | null se não há cupom |
+| evento.cupom | C | objeto ou null | tipos de evento | codigo, publico, desconto_texto, comprovacao_texto | catálogo | null (não se aplica) se não há cupom |
 | evento.pagina_oficial | C | texto | tipos de evento | URL | ficha do evento | "[CONFIRMAR]" |
 | evento.destino_das_campanhas_pagas | P | texto | tipos de evento | URL | decisão da Ufape de 26/10/2026 | "[CONFIRMAR]" |
-| evento.palestrantes | C | objeto | tipos de evento | confirmados_na_ficha (inteiro), convidados_a_definir ("[CONFIRMAR]" enquanto houver), autorizacoes_de_imagem_registradas. Só contagens | ficha do evento | "[CONFIRMAR]"; autorizações "[CONFIRMAR autorização]" |
+| evento.palestrantes | C | objeto | tipos de evento | confirmados_na_ficha (inteiro ou null), convidados_a_definir (inteiro ou null), autorizacoes_de_imagem_registradas (inteiro ou null). Só contagens | ficha do evento | null em cada contagem com pendência; autorizações: pendência de marcador "[CONFIRMAR autorização]" |
 
 #### Mídia, kit, canais, arquivos, números, pendências e derivados
 
@@ -196,21 +209,21 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | status_midia.formatos | M | lista | sim | estatico, video | visão de campanhas | lista vazia |
 | status_midia.cinco_angulos | M | texto | sim | com, sem, nao_se_aplica, nao_consta | visão de campanhas | nao_consta |
 | status_midia.vinculo_com_a_visao | M | texto | sim | exato (mesmo nome, data e UF), provavel ("[SUPOSIÇÃO]", a visão não tem código), nenhum | cmo | nenhum |
-| status_midia.inicio_na_visao | M | data ou null | sim | AAAA-MM-DD | visão de campanhas | null |
+| status_midia.inicio_na_visao | M | data ou null | sim | AAAA-MM-DD | visão de campanhas | null (não se aplica) |
 | status_midia.divergencia_de_data | M | booleano | sim | true se inicio_na_visao difere de inicio | cmo | false |
 | status_midia.observacao | M | texto | não | até 240 caracteres | visão de campanhas | omitir a chave |
-| status_midia.fonte e lido_em | M | texto e data | sim | caminho e AAAA-MM-DD | visão de campanhas | "[CONFIRMAR]" |
-| kit.template | K | texto ou null | sim | caminho de um dos 4 templates de kit; null em prova_de_bolsa e contínuo (plano, decisão A3) | plano, seção 4 | null |
+| status_midia.fonte e lido_em | M | texto e data | sim | caminho e AAAA-MM-DD | visão de campanhas | "[CONFIRMAR]" no texto; null com pendência na data |
+| kit.template | K | texto ou null | sim | caminho de um dos 4 templates de kit; null em prova_de_bolsa e contínuo (plano, decisão A3) | plano, seção 4 | null (não se aplica) |
 | kit.variacao | K | texto ou null | sim | workshop, simposio (só eventos); null nos demais | plano e template de evento | "[CONFIRMAR]" em evento |
 | kit.escopo | K | texto | sim | item, grupo (campanha única ou kit sempre ligado) | plano, A3 | item |
-| kit.entregas | K | lista de objetos | sim | uma por linha do template do tipo, com as quantidades mínimas intactas (1.4). Campos: chave, entrega, quantidade_minima, regra_quantidade, autorizados, responsavel (lista de agentes), prazo, status, qa, arquivo, secao, ref_aprovacao | template do tipo | em escopo grupo: entregas definidas pelo cmo, com quantidade_minima "[CONFIRMAR]" |
-| kit.acrescimos | K | lista de objetos | sim | mesmos campos de entregas, com quantidade no lugar de quantidade_minima | plano do cmo | lista vazia |
-| kit.inventario | K | objeto ou null | não | situacao (pendente, conferido), prazo, responsavel. Só para itens da onda 1 com campanha ativa (plano, seção 4) | plano | omitir a chave |
+| kit.entregas | K | lista de objetos | sim | uma por linha do template do tipo, com as quantidades mínimas intactas (1.4). Campos: chave, entrega, quantidade_minima (inteiro ou null), regra_quantidade, autorizados (inteiro ou null), responsavel (lista de agentes), prazo (data ou null), status, qa, arquivo, secao, ref_aprovacao (texto ou null) | template do tipo | prazo e quantidade: null com pendência; em escopo grupo as entregas são definidas pelo cmo e a quantidade_minima fica null com pendência |
+| kit.acrescimos | K | lista de objetos | sim | mesmos campos de entregas, com quantidade (inteiro ou null) no lugar de quantidade_minima | plano do cmo | lista vazia |
+| kit.inventario | K | objeto ou null | não | situacao (pendente, conferido), prazo (data ou null), responsavel. Só para itens da onda 1 com campanha ativa (plano, seção 4) | plano | omitir a chave |
 | canais | K | lista de 8 objetos | sim | canal (instagram, facebook, tiktok, x, linkedin, youtube, podcast, whatsapp), estado (ativo, teste, fora), motivo, natureza (proposta_do_cmo, confirmado_em_1.20) | plano, seção 5 | não se aplica: sempre 8 |
-| arquivos_por_camada | A | objeto | sim | geral, linha, area, curso: listas de objetos com agente, caminho, secao, estado (pendente_de_aprovacao, aprovado, devolvido), aprovado_em, ref_aprovacao | saídas dos agentes | listas vazias |
-| metas | N | objeto | sim | matriculas_alvo, cpl_maximo, custo_por_matricula_maximo, verba (número ou "[CONFIRMAR]"), fonte | gestor-de-midia e Ufape | "[CONFIRMAR]" em cada um |
-| numeros_agregados | N | objeto | sim | leads, inscricoes, matriculas, verba_gasta (número ou "[CONFIRMAR]"), lido_em. Só números somados por turma | analista-de-dados e Ufape | "[CONFIRMAR]" em cada um; lido_em null |
-| pendencias | X | lista de objetos | sim | id, ref_plano (P1 a P18 ou seção), tipo, descricao, marcador, bloqueia, fonte, aberta_em, resolvida_em | auditorias e plano | lista vazia |
+| arquivos_por_camada | A | objeto | sim | geral, linha, area, curso: listas de objetos com agente, caminho, secao, estado (pendente_de_aprovacao, aprovado, devolvido), aprovado_em, ref_aprovacao (texto) | saídas dos agentes | listas vazias; ref_aprovacao "[CONFIRMAR]" até a plataforma informar o id |
+| metas | N | objeto | sim | matriculas_alvo, cpl_maximo, custo_por_matricula_maximo, verba (número ou null), fonte (texto) | gestor-de-midia e Ufape | null em cada número, com pendência |
+| numeros_agregados | N | objeto | sim | leads, inscricoes, matriculas, verba_gasta (número ou null), lido_em (data ou null). Só números somados por turma | analista-de-dados e Ufape | null em cada número, com pendência; lido_em null |
+| pendencias | X | lista de objetos | sim | id, ref_plano (P1 a P18 ou seção), tipo, descricao, marcador, campos (lista de caminhos de campo que a pendência explica, aceita "[*]" para todos os itens de uma lista), bloqueia, fonte, aberta_em, resolvida_em | auditorias e plano | lista vazia |
 | aprovacoes | A | lista de objetos | sim | ref (A1 a A12 do plano, ou id da plataforma), o_que, por_que, quanto, efeito_esperado, como_desfazer, status, pedido_em, decidido_em, decidido_por_papel | plano, seção 8 | lista vazia |
 | historico | X | lista de objetos | sim | revisao, em, campo, de, para, motivo, origem, aplicado_por | cmo | pelo menos a linha de criação |
 | resumo.pendencias_abertas | D | inteiro | sim | contagem de pendencias com resolvida_em null | calculado | 0 |
@@ -224,7 +237,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 - aprovacoes.status: pendente, aprovado, recusado, executado_por_humano. decidido_por_papel: pessoa_do_marketing, ou o papel que a tabela de aprovação de contexto/ufape-geral.md vier a nomear. Nunca o nome da pessoa.
 - entregas.status: a_fazer, inventario_pendente, aguardando_autorizacao, aguardando_aprovacao, aprovado, devolvido, revisar_por_mudanca, nao_aplicavel. "aprovado" só com qa "aprovado" e aprovação humana registrada (ref_aprovacao).
 - entregas.qa: pendente, aprovado, corrigir (veredito do qa-de-marketing).
-- entregas.regra_quantidade: null, 1_por_docente_autorizado, 1_por_palestrante_autorizado. Nessas duas, quantidade_minima é null e autorizados guarda a contagem apurada ou "[CONFIRMAR autorização]".
+- entregas.regra_quantidade: null, 1_por_docente_autorizado, 1_por_palestrante_autorizado. Nessas duas, quantidade_minima é null e autorizados guarda a contagem apurada ou null com pendência de marcador "[CONFIRMAR autorização]". O template diz "1 por docente da ficha" e "1 por palestrante da ficha"; o plano (P13) restringe a quem tem autorização registrada, e quem não tem não conta como entrega faltante. Isso não diminui o mínimo: é a regra do plano.
 - Chaves de entrega por template (a quantidade mínima é a do template e nunca diminui):
   - kit-de-lancamento-pos: pagina (1), plano_8_canais (1), plano_de_midia (1), posts_organicos (6), criativos (3), post_por_docente (1 por docente autorizado), whatsapp (4), email (2), roteiro_video (1).
   - kit-de-lancamento-livres: pagina (1), plano_8_canais (1), posts_organicos (4), criativos (2), whatsapp (3), email (1).
@@ -232,7 +245,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
   - kit-de-lancamento-evento, variação simpósio: pagina (1), plano_8_canais (1), plano_de_midia (1), post_por_palestrante (1 por palestrante autorizado), posts_organicos (4), criativos (3), email_convite (1), email_lembrete (1), email_programacao (1), mensagem_vespera (1), mensagem_do_dia (1).
   - kit-de-lancamento-graduacao (sem página; a LP nunca é alterada): plano_8_canais (1), plano_de_midia (1), posts_organicos (6), criativos_com_utm (4), whatsapp_prazos_do_edital (5), email_prazos_do_edital (3), roteiro_video (2).
   - Provas de bolsa e contínuos (sem template): entregas definidas pelo cmo na campanha única ou no kit sempre ligado, com chaves livres em letras minúsculas e sublinhado.
-- modalidade_normalizada, equivalências: "Presencial" é presencial; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
+- modalidade_normalizada, equivalências: "Presencial" e "PROVA PRESENCIAL" são presencial; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
 - area.codigo e nomes: A1 Anestesiologia e dor; A2 Cardiorrespiratório; A3 Emergência, terapia intensiva e clínica médica; A4 Cirurgia, ortopedia e reabilitação; A5 Diagnóstico por imagem e endoscopia; A6 Gastroenterologia; A7 Endocrinologia e nefrologia; A8 Dermatologia; A9 Oftalmologia; A10 Oncologia; A11 Laboratório; A12 Neurologia; A13 Medicina felina; A14 Outras especialidades (plano, seção 2.3).
 - Evolução do esquema: campo novo opcional não muda a versão; remover, renomear, mudar tipo ou valor permitido exige versao_schema 2 e um novo documento de fluxo. Os arquivos da versão 1 continuam válidos.
 
@@ -252,11 +265,12 @@ Os textos entre "<" e ">" ou separados por " | " são instruções, não valores
   "atualizado_em": "AAAA-MM-DD",
   "fontes": {
     "catalogo": "contexto/catalogo-de-cursos.md",
-    "data_catalogo": "AAAA-MM-DD",
+    "data_catalogo": "AAAA-MM-DD | null",
     "catalogo_linha_literal": "<colunas da linha até Fonte> | [CONFIRMAR]",
     "ficha": "contexto/cursos/<pasta>/<arquivo>.md | null",
     "ficha_editais": "só na graduacao",
     "ficha_lida_em": "AAAA-MM-DD | null",
+    "contexto_da_linha": "contexto/<linha>.md (opcional)",
     "campos_so_na_ficha": [],
     "visao_de_campanhas": { "arquivo": "docs/visao-de-campanhas-AAAA-MM-DD.md", "data": "AAAA-MM-DD" },
     "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-AAAA-MM-DD.md",
@@ -284,18 +298,18 @@ Os textos entre "<" e ">" ou separados por " | " são instruções, não valores
   "modalidade_normalizada": "presencial | semipresencial | ead | online | gravacao | [CONFIRMAR]",
   "turma": "<romano | [CONFIRMAR] | null>",
   "carga_horaria": "<literal | [CONFIRMAR] | null>",
-  "modulos": "<inteiro | [CONFIRMAR] | null>",
-  "inicio": "AAAA-MM-DD | [CONFIRMAR] | null",
+  "modulos": "<inteiro | null>",
+  "inicio": "AAAA-MM-DD | null",
   "fonte_da_data": "planilha | site | edital | pagina_do_evento | ausente",
   "dias_ate_inicio": null,
-  "fim_das_inscricoes": "AAAA-MM-DD | [CONFIRMAR] | null",
+  "fim_das_inscricoes": "AAAA-MM-DD | null",
   "preco_texto_site": "<literal | [CONFIRMAR]>",
   "preco_estruturado": { "moeda": "BRL", "parcelas": 0, "valor_parcela": 0.0, "total": 0.0, "matricula": null },
-  "condicoes_especiais": [ { "tipo": "cupom | promocao | desconto | outro", "texto": "<literal>", "codigo": "<só cupom>", "publico": "<texto>", "validade": "AAAA-MM-DD | [CONFIRMAR]" } ],
+  "condicoes_especiais": [ { "tipo": "cupom | promocao | desconto | outro", "texto": "<literal>", "codigo": "<só cupom>", "publico": "<texto>", "validade": "AAAA-MM-DD | null" } ],
   "status_catalogo": "aberto | aberto (contínuo) | verificar | sem venda | encerrado | sem página",
   "status_catalogo_texto": "<literal>",
-  "vagas": { "turma_minima": "<inteiro | [CONFIRMAR] | null>", "vagas_ofertadas": "<inteiro | [CONFIRMAR] | null>", "vagas_restantes": "[CONFIRMAR]" },
-  "equipe": { "coordenadores_na_ficha": 0, "docentes_na_ficha": 0, "autorizacoes_de_imagem_registradas": "<inteiro | [CONFIRMAR autorização]>" },
+  "vagas": { "turma_minima": "<inteiro | null>", "vagas_ofertadas": "<inteiro | null>", "vagas_restantes": null },
+  "equipe": { "coordenadores_na_ficha": "<inteiro | null>", "docentes_na_ficha": "<inteiro | null>", "autorizacoes_de_imagem_registradas": "<inteiro | null>" },
   "prova_de_bolsa": { "...": "só tipo prova_de_bolsa; campos em 1.3" },
   "graduacao": { "...": "só tipo graduacao; campos em 1.3" },
   "evento": { "...": "só tipos workshop e simposio; campos em 1.3" },
@@ -317,11 +331,11 @@ Os textos entre "<" e ">" ou separados por " | " são instruções, não valores
       {
         "chave": "<chave de 1.4>",
         "entrega": "<texto do template>",
-        "quantidade_minima": 0,
+        "quantidade_minima": "<inteiro | null>",
         "regra_quantidade": null,
         "autorizados": null,
         "responsavel": [],
-        "prazo": "AAAA-MM-DD | [CONFIRMAR]",
+        "prazo": "AAAA-MM-DD | null",
         "status": "a_fazer",
         "qa": "pendente",
         "arquivo": null,
@@ -330,13 +344,13 @@ Os textos entre "<" e ">" ou separados por " | " são instruções, não valores
       }
     ],
     "acrescimos": [],
-    "inventario": { "situacao": "pendente | conferido", "prazo": "AAAA-MM-DD", "responsavel": "cmo" }
+    "inventario": { "situacao": "pendente | conferido", "prazo": "AAAA-MM-DD | null", "responsavel": "cmo" }
   },
   "canais": [ { "canal": "instagram", "estado": "ativo | teste | fora", "motivo": "<texto>", "natureza": "proposta_do_cmo | confirmado_em_1.20" } ],
   "arquivos_por_camada": { "geral": [], "linha": [], "area": [], "curso": [] },
-  "metas": { "matriculas_alvo": "[CONFIRMAR]", "cpl_maximo": "[CONFIRMAR]", "custo_por_matricula_maximo": "[CONFIRMAR]", "verba": "[CONFIRMAR]", "fonte": "gestor-de-midia e Ufape" },
-  "numeros_agregados": { "leads": "[CONFIRMAR]", "inscricoes": "[CONFIRMAR]", "matriculas": "[CONFIRMAR]", "verba_gasta": "[CONFIRMAR]", "lido_em": null },
-  "pendencias": [ { "id": "<codigo>-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "<ate 240 caracteres>", "marcador": "[CONFIRMAR]", "bloqueia": ["peca_final"], "fonte": "<caminho>", "aberta_em": "AAAA-MM-DD", "resolvida_em": null } ],
+  "metas": { "matriculas_alvo": null, "cpl_maximo": null, "custo_por_matricula_maximo": null, "verba": null, "fonte": "gestor-de-midia e Ufape" },
+  "numeros_agregados": { "leads": null, "inscricoes": null, "matriculas": null, "verba_gasta": null, "lido_em": null },
+  "pendencias": [ { "id": "<codigo>-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "<ate 240 caracteres>", "marcador": "[CONFIRMAR]", "campos": ["<caminho do campo>"], "bloqueia": ["peca_final"], "fonte": "<caminho>", "aberta_em": "AAAA-MM-DD", "resolvida_em": null } ],
   "aprovacoes": [ { "ref": "A7", "o_que": "<texto>", "por_que": "<texto>", "quanto": "<texto>", "efeito_esperado": "<texto>", "como_desfazer": "<texto>", "status": "pendente", "pedido_em": "AAAA-MM-DD", "decidido_em": null, "decidido_por_papel": null } ],
   "historico": [ { "revisao": 1, "em": "AAAA-MM-DD", "campo": "(arquivo)", "de": null, "para": "criado", "motivo": "<texto>", "origem": "<caminho>", "aplicado_por": "cmo" } ],
   "resumo": { "pendencias_abertas": 0, "bloqueado": false }
@@ -345,7 +359,7 @@ Os textos entre "<" e ">" ou separados por " | " são instruções, não valores
 
 ### 1.6 Exemplo completo 1: Pós 707 (arquivo pos-707.json)
 
-Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md, da visão de campanhas e do plano do cmo. Este exemplo ilustra a especificação; o arquivo real nasce na etapa M.3 e passa pelo qa-de-marketing. Nenhum nome de docente ou coordenador aparece: a ficha lista 3 coordenadores e 19 professores, e o JSON guarda só as contagens.
+Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md, da visão de campanhas e do plano do cmo. Este exemplo ilustra a especificação; o arquivo real nasce na etapa M.3 e passa pelo qa-de-marketing. Nenhum nome de docente ou coordenador aparece: a ficha lista 3 coordenadores e 19 professores, e o JSON guarda só as contagens. Este exemplo passa na conferência C11: todo campo com "[CONFIRMAR]" ou null por origem vazia é citado em "campos" de uma pendência (fim_das_inscricoes, vagas.vagas_ofertadas, vagas.vagas_restantes, equipe.autorizacoes_de_imagem_registradas, kit.entregas[*].autorizados, kit.entregas[*].prazo, kit.acrescimos[*].quantidade e prazo, kit.inventario, metas.*, numeros_agregados.*, arquivos_por_camada.geral[0].ref_aprovacao e os canais com suposição).
 
 ```json
 {
@@ -394,14 +408,14 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
   "inicio": "2026-10-30",
   "fonte_da_data": "planilha",
   "dias_ate_inicio": 4,
-  "fim_das_inscricoes": "[CONFIRMAR]",
+  "fim_das_inscricoes": null,
   "preco_texto_site": "30x de R$ 1.590,00; R$ 47.700,00 no cartão ou boleto; matrícula R$ 250,00",
   "preco_estruturado": { "moeda": "BRL", "parcelas": 30, "valor_parcela": 1590.00, "total": 47700.00, "matricula": 250.00 },
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
-  "vagas": { "turma_minima": 20, "vagas_ofertadas": "[CONFIRMAR]", "vagas_restantes": "[CONFIRMAR]" },
-  "equipe": { "coordenadores_na_ficha": 3, "docentes_na_ficha": 19, "autorizacoes_de_imagem_registradas": "[CONFIRMAR autorização]" },
+  "vagas": { "turma_minima": 20, "vagas_ofertadas": null, "vagas_restantes": null },
+  "equipe": { "coordenadores_na_ficha": 3, "docentes_na_ficha": 19, "autorizacoes_de_imagem_registradas": null },
   "status_midia": {
     "campanha": "ativa",
     "formatos": ["estatico"],
@@ -417,20 +431,20 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
     "variacao": null,
     "escopo": "item",
     "entregas": [
-      { "chave": "pagina", "entrega": "Página da turma (workflow /pagina-de-curso, template pagina-da-turma.md)", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["landing-page", "seo-on-page"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "plano_8_canais", "entrega": "Plano dos 8 canais", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["cmo"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "plano_de_midia", "entrega": "Plano de mídia (workflow /plano-de-midia-da-turma)", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["gestor-de-midia"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "posts_organicos", "entrega": "Posts orgânicos", "quantidade_minima": 6, "regra_quantidade": null, "autorizados": null, "responsavel": ["posts-sociais"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "criativos", "entrega": "Criativos de anúncio", "quantidade_minima": 3, "regra_quantidade": null, "autorizados": null, "responsavel": ["criativos-de-anuncio"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "post_por_docente", "entrega": "Post por docente (só com autorização registrada)", "quantidade_minima": null, "regra_quantidade": "1_por_docente_autorizado", "autorizados": "[CONFIRMAR autorização]", "responsavel": ["autoridade-docente"], "prazo": "[CONFIRMAR]", "status": "aguardando_autorizacao", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "pagina", "entrega": "Página da turma (workflow /pagina-de-curso, template pagina-da-turma.md)", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["landing-page", "seo-on-page"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "plano_8_canais", "entrega": "Plano dos 8 canais", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["cmo"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "plano_de_midia", "entrega": "Plano de mídia (workflow /plano-de-midia-da-turma)", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["gestor-de-midia"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "posts_organicos", "entrega": "Posts orgânicos", "quantidade_minima": 6, "regra_quantidade": null, "autorizados": null, "responsavel": ["posts-sociais"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "criativos", "entrega": "Criativos de anúncio", "quantidade_minima": 3, "regra_quantidade": null, "autorizados": null, "responsavel": ["criativos-de-anuncio"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "post_por_docente", "entrega": "Post por docente (só com autorização registrada)", "quantidade_minima": null, "regra_quantidade": "1_por_docente_autorizado", "autorizados": null, "responsavel": ["autoridade-docente"], "prazo": null, "status": "aguardando_autorizacao", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
       { "chave": "whatsapp", "entrega": "Mensagens de WhatsApp de nutrição", "quantidade_minima": 4, "regra_quantidade": null, "autorizados": null, "responsavel": ["copy-de-mensagens"], "prazo": "2026-10-28", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "email", "entrega": "E-mails de nutrição", "quantidade_minima": 2, "regra_quantidade": null, "autorizados": null, "responsavel": ["copy-de-mensagens"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "roteiro_video", "entrega": "Roteiro de vídeo curto", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["tiktok"], "prazo": "[CONFIRMAR]", "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
+      { "chave": "email", "entrega": "E-mails de nutrição", "quantidade_minima": 2, "regra_quantidade": null, "autorizados": null, "responsavel": ["copy-de-mensagens"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "roteiro_video", "entrega": "Roteiro de vídeo curto", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["tiktok"], "prazo": null, "status": "inventario_pendente", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
     ],
     "acrescimos": [
       { "chave": "inventario_do_kit", "entrega": "Inventário do que já existe do kit, conferido item por item", "quantidade": 1, "responsavel": ["cmo"], "prazo": "2026-10-28", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "whatsapp_reta_final", "entrega": "Mensagens de reta final, sem urgência por vagas, porque não há número de vagas", "quantidade": "[CONFIRMAR]", "responsavel": ["copy-de-mensagens"], "prazo": "2026-10-28", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "pausa_e_relatorio_final", "entrega": "Pedido de pausa das campanhas e relatório final", "quantidade": 2, "responsavel": ["cmo", "gestor-de-midia"], "prazo": "[CONFIRMAR]", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
+      { "chave": "whatsapp_reta_final", "entrega": "Mensagens de reta final, sem urgência por vagas, porque não há número de vagas", "quantidade": null, "responsavel": ["copy-de-mensagens"], "prazo": "2026-10-28", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "pausa_e_relatorio_final", "entrega": "Pedido de pausa das campanhas e relatório final", "quantidade": 2, "responsavel": ["cmo", "gestor-de-midia"], "prazo": null, "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
     ],
     "inventario": { "situacao": "pendente", "prazo": "2026-10-28", "responsavel": "cmo" }
   },
@@ -450,22 +464,22 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
     "area": [],
     "curso": []
   },
-  "metas": { "matriculas_alvo": "[CONFIRMAR]", "cpl_maximo": "[CONFIRMAR]", "custo_por_matricula_maximo": "[CONFIRMAR]", "verba": "[CONFIRMAR]", "fonte": "gestor-de-midia e Ufape" },
-  "numeros_agregados": { "leads": "[CONFIRMAR]", "inscricoes": "[CONFIRMAR]", "matriculas": "[CONFIRMAR]", "verba_gasta": "[CONFIRMAR]", "lido_em": null },
+  "metas": { "matriculas_alvo": null, "cpl_maximo": null, "custo_por_matricula_maximo": null, "verba": null, "fonte": "gestor-de-midia e Ufape" },
+  "numeros_agregados": { "leads": null, "inscricoes": null, "matriculas": null, "verba_gasta": null, "lido_em": null },
   "pendencias": [
-    { "id": "707-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; as peças saem sem afirmação de certificação.", "marcador": "[CONFIRMAR]", "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p02", "ref_plano": "P2", "tipo": "certificacao", "descricao": "A ficha mostra o bloco CERTIFICAÇÃO DO MEC na página oficial. Conferir se há a frase apontada na auditoria de 26/10 antes de anúncio que leve a ela.", "marcador": "[CONFIRMAR]", "bloqueia": ["anuncio"], "fonte": "docs/auditoria-do-catalogo-2026-10-26.md, seção 9", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p03", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas restantes e números agregados por turma. Nenhuma peça diz últimas vagas.", "marcador": "[CONFIRMAR]", "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p04", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e voz dos docentes não registrada; post por docente só depois do registro.", "marcador": "[CONFIRMAR autorização]", "bloqueia": ["autorizacao_docente"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p06", "ref_plano": "seção 4, situação especial da onda 1", "tipo": "kit", "descricao": "Inventário do que já existe do kit pendente com a Ufape; o kit é conferido item por item e só o que falta é produzido.", "marcador": "[CONFIRMAR]", "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p07", "ref_plano": "seção 10", "tipo": "data", "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data.", "marcador": "[CONFIRMAR]", "bloqueia": [], "fonte": "contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p08", "ref_plano": "seção 5", "tipo": "outro", "descricao": "Estado dos 8 canais é proposta do cmo, a confirmar nas etapas 1.20 e 1.11.", "marcador": "[SUPOSIÇÃO]", "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5", "aberta_em": "2026-10-26", "resolvida_em": null }
+    { "id": "707-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; as peças saem sem afirmação de certificação.", "marcador": "[CONFIRMAR]", "campos": [], "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p02", "ref_plano": "P2", "tipo": "certificacao", "descricao": "A página oficial tem bloco de certificação. Conferir se traz a frase de certificação que a squad não repete (auditoria de 26/10, seção 9) antes de anúncio que leve a ela.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "docs/auditoria-do-catalogo-2026-10-26.md, seção 9", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p03", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas ofertadas, vagas restantes e números agregados por turma. Nenhuma peça diz últimas vagas.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p04", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e voz dos docentes não registrada; post por docente só depois do registro.", "marcador": "[CONFIRMAR autorização]", "campos": ["equipe.autorizacoes_de_imagem_registradas", "kit.entregas[5].autorizados"], "bloqueia": ["autorizacao_docente"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p06", "ref_plano": "seção 4, situação especial da onda 1", "tipo": "kit", "descricao": "Inventário do que já existe do kit pendente com a Ufape; sem ele os prazos das entregas e a quantidade das mensagens de reta final ficam em aberto.", "marcador": "[CONFIRMAR]", "campos": ["kit.inventario", "kit.entregas[*].prazo", "kit.acrescimos[*].prazo", "kit.acrescimos[1].quantidade"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p07", "ref_plano": "seção 10", "tipo": "data", "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data.", "marcador": "[CONFIRMAR]", "campos": ["fim_das_inscricoes"], "bloqueia": [], "fonte": "contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p08", "ref_plano": "seção 5", "tipo": "outro", "descricao": "Estado dos 8 canais é proposta do cmo, a confirmar nas etapas 1.20 e 1.11.", "marcador": "[SUPOSIÇÃO]", "campos": ["canais[*]"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5", "aberta_em": "2026-10-26", "resolvida_em": null }
   ],
   "aprovacoes": [
     { "ref": "A1", "o_que": "Aprovar o recorte de 110 itens, as 14 áreas e as 3 ondas", "por_que": "Define o que a squad planeja e em que ordem.", "quanto": "Sem custo de mídia.", "efeito_esperado": "A squad foca nos 35 itens da onda 1.", "como_desfazer": "Refazer o recorte em nova versão do plano.", "status": "aprovado", "pedido_em": "2026-10-26", "decidido_em": "2026-10-26", "decidido_por_papel": "pessoa_do_marketing" },
-    { "ref": "A7", "o_que": "Pedir à regulação o texto oficial de certificação e a troca da frase ligada ao MEC nas 46 páginas", "por_que": "Risco de propaganda enganosa (auditoria de 22/10, item 2.1).", "quanto": "Sem custo de mídia.", "efeito_esperado": "Libera a seção de certificação nas peças.", "como_desfazer": "Não se aplica.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
-    { "ref": "A8", "o_que": "Enviar metas e verba por linha e os números agregados por turma; o gestor-de-midia devolve as metas de custo em três cenários", "por_que": "Sem isso não há meta nem como checar se a conta fecha.", "quanto": "Verba: [CONFIRMAR]", "efeito_esperado": "Metas escritas antes de subir qualquer campanha.", "como_desfazer": "Metas revisadas na segunda-feira seguinte.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
+    { "ref": "A7", "o_que": "Pedir à regulação o texto oficial de certificação e a troca da frase de certificação que a squad não repete nas 46 páginas", "por_que": "Risco de propaganda enganosa (auditoria de 22/10, item 2.1).", "quanto": "Sem custo de mídia.", "efeito_esperado": "Libera a seção de certificação nas peças.", "como_desfazer": "Não se aplica.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
+    { "ref": "A8", "o_que": "Enviar metas e verba por linha e os números agregados por turma; o gestor-de-midia devolve as metas de custo em três cenários", "por_que": "Sem isso não há meta nem como checar se a conta fecha.", "quanto": "Verba: a confirmar com a Ufape.", "efeito_esperado": "Metas escritas antes de subir qualquer campanha.", "como_desfazer": "Metas revisadas na segunda-feira seguinte.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
     { "ref": "A9", "o_que": "Nomear quem aprova posts, anúncios e verba, mensagens em massa, páginas e preços, e peças com certificação", "por_que": "Tabela de aprovação vazia.", "quanto": "Sem custo.", "efeito_esperado": "Aprovação sem gargalo.", "como_desfazer": "Trocar o responsável na tabela.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null }
   ],
   "historico": [
@@ -477,10 +491,13 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
 
 ### 1.7 Exemplo completo 2: prova de bolsa 68651 (arquivo pos-68651.json)
 
-Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md. Decisões de preenchimento, todas explicadas nas pendências:
-- Percentuais e quantidade de bolsas ficam "[CONFIRMAR]" (plano, P10), embora a ficha traga uma tabela de bolsas. A ficha também se contradiz em prazo de matrícula, local de divulgação do resultado e número mínimo de alunos, então esses três campos também ficam "[CONFIRMAR]".
-- A carga horária da ficha (500 h) é da Pós, não da prova: carga_horaria é null.
-- O texto da página traz superlativo e a expressão "reconhecido pelo Ministério da Educação": nada disso é copiado.
+Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com coluna de preço), da ficha contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md e de contexto/pos-graduacao.md (regras das 22 provas, publicadas em 26/10/2026). Decisões de preenchimento:
+- A pendência P10 do plano está resolvida: as bolsas (2 de 50% (monitoria), 4 de 25% e 5 de 10%), a nota de corte e o prazo de matrícula são copiados. O que segue aberto é a turma de destino de cada prova, que a página da prova não traz.
+- O mínimo de 15 alunos é copiado da página da prova (a ficha o repete sem contradição). Ele diverge dos 20 das páginas de curso: a divergência vira pendência. O resultado sai por WhatsApp ou e-mail (contexto da linha); o trecho REGRAS da ficha cita o site e 7 dias de prazo, e isso também vira pendência.
+- A carga horária da ficha (500 h) é da Pós, não da prova: carga_horaria é null (não se aplica).
+- O texto da página traz uma afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte: nada disso é copiado.
+- As cópias da ficha são literais ("PROVA PRESENCIAL", "7.0 (mínimo 70 % de acerto)"). O preço vem do catálogo, que agora tem a coluna de preço.
+- Este exemplo passa na conferência C11: todo "[CONFIRMAR]" e todo null por origem vazia (slug_sugerido, fim_das_inscricoes, vagas, kit, metas, números, ref_aprovacao, turma de destino e a sugestão) é citado em "campos" de uma pendência.
 
 ```json
 {
@@ -495,10 +512,11 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha cont
   "fontes": {
     "catalogo": "contexto/catalogo-de-cursos.md",
     "data_catalogo": "2026-10-26",
-    "catalogo_linha_literal": "| 68651 | Prova de Bolsa de Estudos para Hematologia Veterinária | São Paulo | 27/11/2026 | aberto |",
+    "catalogo_linha_literal": "| 68651 | Prova de Bolsa de Estudos para Hematologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto |",
     "ficha": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md",
     "ficha_lida_em": "2026-10-26",
-    "campos_so_na_ficha": ["modalidade", "preco_texto_site", "preco_estruturado", "pagina_oficial", "prova_de_bolsa.horario_texto", "prova_de_bolsa.formato", "prova_de_bolsa.nota_de_corte_texto"],
+    "contexto_da_linha": "contexto/pos-graduacao.md",
+    "campos_so_na_ficha": ["modalidade", "fonte_da_data", "pagina_oficial", "prova_de_bolsa.horario_texto", "prova_de_bolsa.formato", "prova_de_bolsa.nota_de_corte_texto", "prova_de_bolsa.bolsas_previstas", "prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado", "prova_de_bolsa.minimo_para_confirmar_turma"],
     "visao_de_campanhas": { "arquivo": "docs/visao-de-campanhas-2026-10-26.md", "data": "2026-10-26" },
     "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
     "auditorias": ["docs/auditoria-do-catalogo-2026-10-22.md", "docs/auditoria-do-catalogo-2026-10-26.md"]
@@ -521,7 +539,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha cont
   "gut": { "g": 5, "u": 5, "t": 4, "total": 100, "motivo": "Porta de entrada da Pós; faltam 32 dias; não consta na visão de campanhas.", "natureza": "avaliacao_do_agente", "fonte": "plano, seção 3" },
   "relacionados": [ { "id": "pos-68608", "relacao": "turma_de_destino", "natureza": "[SUPOSIÇÃO]" } ],
   "local": "São Paulo",
-  "modalidade": "Presencial",
+  "modalidade": "PROVA PRESENCIAL",
   "modalidade_normalizada": "presencial",
   "turma": null,
   "carga_horaria": null,
@@ -529,25 +547,29 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha cont
   "inicio": "2026-11-27",
   "fonte_da_data": "planilha",
   "dias_ate_inicio": 32,
-  "fim_das_inscricoes": "[CONFIRMAR]",
-  "preco_texto_site": "R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão.",
+  "fim_das_inscricoes": null,
+  "preco_texto_site": "R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão",
   "preco_estruturado": { "moeda": "BRL", "parcelas": 1, "valor_parcela": 100.00, "total": 100.00, "matricula": null },
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
-  "vagas": { "turma_minima": "[CONFIRMAR]", "vagas_ofertadas": "[CONFIRMAR]", "vagas_restantes": "[CONFIRMAR]" },
+  "vagas": { "turma_minima": null, "vagas_ofertadas": null, "vagas_restantes": null },
   "equipe": null,
   "prova_de_bolsa": {
     "data_da_prova": "2026-11-27",
     "horario_texto": "9 às 13h",
     "formato": "presencial",
     "local_texto": "São Paulo",
-    "nota_de_corte_texto": "7.0 (mínimo 70% de acerto)",
+    "nota_de_corte_texto": "7.0 (mínimo 70 % de acerto)",
     "turma_de_destino": { "codigo": "[CONFIRMAR]", "sugestao_do_plano": "68608", "natureza_da_sugestao": "[SUPOSIÇÃO]" },
-    "bolsas_previstas": "[CONFIRMAR]",
-    "prazo_de_matricula_apos_resultado": "[CONFIRMAR]",
-    "divulgacao_do_resultado": "[CONFIRMAR]",
-    "minimo_para_confirmar_turma": "[CONFIRMAR]"
+    "bolsas_previstas": [
+      { "quantidade": 2, "percentual_texto": "50% (monitoria)" },
+      { "quantidade": 4, "percentual_texto": "25%" },
+      { "quantidade": 5, "percentual_texto": "10%" }
+    ],
+    "prazo_de_matricula_apos_resultado": "10 dias úteis",
+    "divulgacao_do_resultado": "WhatsApp ou e-mail",
+    "minimo_para_confirmar_turma": 15
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -566,11 +588,11 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha cont
     "escopo": "grupo",
     "entregas": [
       { "chave": "campanha_unica", "entrega": "Plano da campanha única das provas de bolsa, com variação por especialidade", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["estrategia-de-campanha"], "prazo": "2026-10-29", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "oferta_e_regras_da_bolsa", "entrega": "Oferta com as regras da bolsa", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["estrategia-de-oferta"], "prazo": "[CONFIRMAR]", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "plano_de_midia", "entrega": "Plano de mídia da campanha", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["gestor-de-midia"], "prazo": "[CONFIRMAR]", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "criativos", "entrega": "Criativos de anúncio", "quantidade_minima": "[CONFIRMAR]", "regra_quantidade": null, "autorizados": null, "responsavel": ["criativos-de-anuncio"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "posts_organicos", "entrega": "Posts orgânicos", "quantidade_minima": "[CONFIRMAR]", "regra_quantidade": null, "autorizados": null, "responsavel": ["posts-sociais"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
-      { "chave": "mensagens", "entrega": "Mensagens de WhatsApp e e-mail", "quantidade_minima": "[CONFIRMAR]", "regra_quantidade": null, "autorizados": null, "responsavel": ["copy-de-mensagens"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
+      { "chave": "oferta_e_regras_da_bolsa", "entrega": "Oferta com as regras da bolsa", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["estrategia-de-oferta"], "prazo": null, "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "plano_de_midia", "entrega": "Plano de mídia da campanha", "quantidade_minima": 1, "regra_quantidade": null, "autorizados": null, "responsavel": ["gestor-de-midia"], "prazo": null, "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "criativos", "entrega": "Criativos de anúncio", "quantidade_minima": null, "regra_quantidade": null, "autorizados": null, "responsavel": ["criativos-de-anuncio"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "posts_organicos", "entrega": "Posts orgânicos", "quantidade_minima": null, "regra_quantidade": null, "autorizados": null, "responsavel": ["posts-sociais"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null },
+      { "chave": "mensagens", "entrega": "Mensagens de WhatsApp e e-mail", "quantidade_minima": null, "regra_quantidade": null, "autorizados": null, "responsavel": ["copy-de-mensagens"], "prazo": "2026-11-03", "status": "a_fazer", "qa": "pendente", "arquivo": null, "secao": null, "ref_aprovacao": null }
     ],
     "acrescimos": []
   },
@@ -590,27 +612,28 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651) e da ficha cont
     "area": [],
     "curso": []
   },
-  "metas": { "matriculas_alvo": "[CONFIRMAR]", "cpl_maximo": "[CONFIRMAR]", "custo_por_matricula_maximo": "[CONFIRMAR]", "verba": "[CONFIRMAR]", "fonte": "gestor-de-midia e Ufape" },
-  "numeros_agregados": { "leads": "[CONFIRMAR]", "inscricoes": "[CONFIRMAR]", "matriculas": "[CONFIRMAR]", "verba_gasta": "[CONFIRMAR]", "lido_em": null },
+  "metas": { "matriculas_alvo": null, "cpl_maximo": null, "custo_por_matricula_maximo": null, "verba": null, "fonte": "gestor-de-midia e Ufape" },
+  "numeros_agregados": { "leads": null, "inscricoes": null, "matriculas": null, "verba_gasta": null, "lido_em": null },
   "pendencias": [
-    { "id": "68651-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação.", "marcador": "[CONFIRMAR]", "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p02", "ref_plano": "P10", "tipo": "regra_de_bolsa", "descricao": "Regras e percentuais da bolsa ainda não definidos pela Ufape; peça sem percentual de bolsa. A ficha traz uma tabela de bolsas que não foi copiada.", "marcador": "[CONFIRMAR]", "bloqueia": ["peca_final", "preco"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p03", "ref_plano": "P10", "tipo": "divergencia", "descricao": "Dentro da ficha, os trechos de regras divergem: prazo de matrícula (10 e 7 dias), local do resultado (e-mail, WhatsApp ou site) e mínimo para confirmar a turma (15, contra 20 da Pós).", "marcador": "[CONFIRMAR]", "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p04", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "Turma de destino da bolsa não confirmada. A sugestão 68608 começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "bloqueia": ["peca_final"], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p05", "ref_plano": "P2", "tipo": "conformidade", "descricao": "O texto da página oficial traz a expressão reconhecido pelo Ministério da Educação, um superlativo e dados clínicos com fonte. Nada disso é repetido nas peças; anúncio que leve à página é sinalizado.", "marcador": "[CONFIRMAR]", "bloqueia": ["anuncio"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p06", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas e número de inscritos na prova.", "marcador": "[CONFIRMAR]", "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p07", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p08", "ref_plano": "seção 3", "tipo": "outro", "descricao": "Status de mídia: a visão de campanhas não traz as provas; só a Ufape confirma se há campanha.", "marcador": "[CONFIRMAR]", "bloqueia": [], "fonte": "docs/visao-de-campanhas-2026-10-26.md", "aberta_em": "2026-10-26", "resolvida_em": null }
+    { "id": "68651-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; as peças saem sem afirmação de certificação.", "marcador": "[CONFIRMAR]", "campos": [], "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p02", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A página da prova não traz a turma de destino da bolsa. O contexto da linha marca como a confirmar.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.turma_de_destino.codigo"], "bloqueia": ["peca_final"], "fonte": "contexto/pos-graduacao.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p03", "ref_plano": "contexto/pos-graduacao.md", "tipo": "divergencia", "descricao": "Turma mínima de 15 na página da prova contra 20 nas páginas de curso. O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.minimo_para_confirmar_turma", "prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado"], "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p04", "ref_plano": "P2", "tipo": "conformidade", "descricao": "O texto da página oficial traz afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte. Nada disso é repetido; anúncio que leve à página é sinalizado.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p05", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas e número de inscritos na prova.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p06", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p07", "ref_plano": "seção 3", "tipo": "outro", "descricao": "Status de mídia: a visão de campanhas não traz as provas; só a Ufape confirma se há campanha.", "marcador": "[CONFIRMAR]", "campos": ["status_midia.campanha"], "bloqueia": [], "fonte": "docs/visao-de-campanhas-2026-10-26.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p08", "ref_plano": "seção 4", "tipo": "kit", "descricao": "Kit de campanha única definido pelo cmo: prazos, quantidades, fim das inscrições e slug da prova ainda sem definição.", "marcador": "[CONFIRMAR]", "campos": ["slug_sugerido", "fim_das_inscricoes", "kit.entregas[*].prazo", "kit.entregas[*].quantidade_minima"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p09", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A sugestão 68608 como turma de destino é do plano e começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "campos": ["prova_de_bolsa.turma_de_destino.sugestao_do_plano", "relacionados[0]", "canais[*]"], "bloqueia": [], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null }
   ],
   "aprovacoes": [
     { "ref": "A3", "o_que": "Tratar as 22 provas de bolsa como uma campanha única com variação por especialidade, e os 47 contínuos com kit sempre ligado por área", "por_que": "Não há kit de prova nem de contínuo nos templates; uma peça por prova multiplicaria o trabalho sem ganho claro.", "quanto": "Reduz cerca de 150 rodadas.", "efeito_esperado": "Campanha das provas pronta até 03/11.", "como_desfazer": "Voltar a um kit por item.", "status": "aprovado", "pedido_em": "2026-10-26", "decidido_em": "2026-10-26", "decidido_por_papel": "pessoa_do_marketing" },
-    { "ref": "A8", "o_que": "Enviar metas e verba por linha e os números agregados por turma", "por_que": "Sem isso não há meta nem como checar se a conta fecha.", "quanto": "Verba: [CONFIRMAR]", "efeito_esperado": "Metas escritas antes de subir qualquer campanha.", "como_desfazer": "Metas revisadas na segunda-feira seguinte.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
+    { "ref": "A8", "o_que": "Enviar metas e verba por linha e os números agregados por turma", "por_que": "Sem isso não há meta nem como checar se a conta fecha.", "quanto": "Verba: a confirmar com a Ufape.", "efeito_esperado": "Metas escritas antes de subir qualquer campanha.", "como_desfazer": "Metas revisadas na segunda-feira seguinte.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null },
     { "ref": "A9", "o_que": "Nomear quem aprova posts, anúncios e verba, mensagens em massa, páginas e preços, e peças com certificação", "por_que": "Tabela de aprovação vazia.", "quanto": "Sem custo.", "efeito_esperado": "Aprovação sem gargalo.", "como_desfazer": "Trocar o responsável na tabela.", "status": "pendente", "pedido_em": "2026-10-26", "decidido_em": null, "decidido_por_papel": null }
   ],
   "historico": [
-    { "revisao": 1, "em": "2026-10-26", "campo": "(arquivo)", "de": null, "para": "criado", "motivo": "Criação a partir do catálogo de 26/10/2026, da ficha e do plano do cmo.", "origem": "contexto/catalogo-de-cursos.md", "aplicado_por": "cmo" }
+    { "revisao": 1, "em": "2026-10-26", "campo": "(arquivo)", "de": null, "para": "criado", "motivo": "Criação a partir do catálogo de 26/10/2026, da ficha, do contexto da linha e do plano do cmo.", "origem": "contexto/catalogo-de-cursos.md", "aplicado_por": "cmo" }
   ],
-  "resumo": { "pendencias_abertas": 8, "bloqueado": true }
+  "resumo": { "pendencias_abertas": 9, "bloqueado": true }
 }
 ```
 
@@ -641,10 +664,10 @@ Graduação, Medicina Veterinária (arquivo graduacao-medicina-veterinaria-sp-20
   "inicio": "2027-02-22",
   "fonte_da_data": "edital",
   "dias_ate_inicio": 119,
-  "fim_das_inscricoes": "[CONFIRMAR]",
+  "fim_das_inscricoes": null,
   "preco_texto_site": "Integral: de R$ 10.000,00 por R$ 5.000,00/mês (desconto de 50%). Noturno: de R$ 10.000,00 por R$ 4.000,00/mês (desconto de 60%). Regras no Edital de Descontos 2027",
   "preco_estruturado": null,
-  "vagas": { "turma_minima": 30, "vagas_ofertadas": null, "vagas_restantes": "[CONFIRMAR]" },
+  "vagas": { "turma_minima": 30, "vagas_ofertadas": null, "vagas_restantes": null },
   "equipe": null,
   "graduacao": {
     "edital": { "numero": "002/2026", "titulo": "Vestibular 2027 (Medicina Veterinária, São Paulo)", "url": "https://faculdade.ufape.com.br/uploads/arquivo/edital-vestibular-2027.pdf" },
@@ -658,7 +681,7 @@ Graduação, Medicina Veterinária (arquivo graduacao-medicina-veterinaria-sp-20
     ],
     "formas_de_ingresso": ["redacao", "enem", "transferencia_externa", "diplomado", "vagas_remanescentes"],
     "inscricoes_abertas_desde": "2026-08-17",
-    "inscricao_ate": "[CONFIRMAR]",
+    "inscricao_ate": null,
     "inicio_das_aulas": "2027-02-22",
     "validade_do_desconto": "1º semestre letivo de 2027",
     "lp": {
@@ -684,7 +707,7 @@ Graduação, Medicina Veterinária (arquivo graduacao-medicina-veterinaria-sp-20
 }
 ```
 
-Observações do trecho: dias_ate_inicio é de 26/10/2026 até 22/02/2027 (119 dias, calculado). As entregas aparecem reduzidas a chave, quantidade e responsável só para caber aqui; no arquivo real levam todos os campos do modelo. Os alertas dos editais (data de assinatura "17 de agosto de 2027", preâmbulo com "2º semestre de 2026", seção 6 com numeração repetida, desconto da Pedagogia citando Medicina Veterinária) viram pendências do tipo divergencia, com o texto da ficha como fonte.
+Observações do trecho: dias_ate_inicio é de 26/10/2026 até 22/02/2027 (119 dias, calculado). As entregas aparecem reduzidas a chave, quantidade e responsável só para caber aqui; no arquivo real levam todos os campos do modelo. No arquivo real, cada "[CONFIRMAR]" e cada null por origem vazia deste trecho (slug_sugerido, reconhecimento, lp.url, utm_campaign, inscricao_ate, fim_das_inscricoes, vagas_restantes) é citado em "campos" de uma pendência; vagas_ofertadas e turma null sem pendência significam "não se aplica" (vagas por turno ficam em turnos). Os alertas dos editais (data de assinatura "17 de agosto de 2027", preâmbulo com "2º semestre de 2026", seção 6 com numeração repetida, desconto da Pedagogia citando Medicina Veterinária) viram pendências do tipo divergencia, com o texto da ficha como fonte.
 
 Workshop de Neuromonitorização (arquivo eventos-workshop-neuromonitorizacao-2026-11-20.json). Dados do catálogo (seção 9) e da ficha do evento.
 
@@ -709,8 +732,8 @@ Workshop de Neuromonitorização (arquivo eventos-workshop-neuromonitorizacao-20
   "dias_ate_inicio": 25,
   "preco_texto_site": "Presencial (teórico e prático, 16 h, 30 vagas): R$ 1.250,00. Transmitido + gravado (só teoria): R$ 450,00 (produto 68634). Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT",
   "preco_estruturado": null,
-  "condicoes_especiais": [ { "tipo": "cupom", "texto": "20% de desconto para aluno e ex-aluno Ufape", "codigo": "SIMPNEUROMONIT", "publico": "aluno e ex-aluno Ufape", "validade": "[CONFIRMAR]" } ],
-  "vagas": { "turma_minima": "[CONFIRMAR]", "vagas_ofertadas": 30, "vagas_restantes": "[CONFIRMAR]" },
+  "condicoes_especiais": [ { "tipo": "cupom", "texto": "20% de desconto para aluno e ex-aluno Ufape", "codigo": "SIMPNEUROMONIT", "publico": "aluno e ex-aluno Ufape", "validade": null } ],
+  "vagas": { "turma_minima": null, "vagas_ofertadas": 30, "vagas_restantes": null },
   "equipe": null,
   "evento": {
     "subtipo": "workshop",
@@ -720,20 +743,20 @@ Workshop de Neuromonitorização (arquivo eventos-workshop-neuromonitorizacao-20
     "formato": "presencial",
     "modalidades": [
       { "nome": "Presencial (teórico e prático)", "preco_texto_site": "R$ 1.250,00", "vagas": 30, "produto": null },
-      { "nome": "Transmitido + gravado (só teoria)", "preco_texto_site": "R$ 450,00", "vagas": "[CONFIRMAR]", "produto": "68634" }
+      { "nome": "Transmitido + gravado (só teoria)", "preco_texto_site": "R$ 450,00", "vagas": null, "produto": "68634" }
     ],
     "carga_horaria_oficial": "16 h",
     "cupom": { "codigo": "SIMPNEUROMONIT", "publico": "aluno e ex-aluno Ufape", "desconto_texto": "20% de desconto", "comprovacao_texto": "comprovação do vínculo na secretaria" },
     "pagina_oficial": "https://faculdade.ufape.com.br/neuro-summit/",
     "destino_das_campanhas_pagas": "https://faculdade.ufape.com.br/neuro-summit/",
-    "palestrantes": { "confirmados_na_ficha": 5, "convidados_a_definir": "[CONFIRMAR]", "autorizacoes_de_imagem_registradas": "[CONFIRMAR autorização]" }
+    "palestrantes": { "confirmados_na_ficha": 5, "convidados_a_definir": null, "autorizacoes_de_imagem_registradas": null }
   },
   "status_midia": { "campanha": "ativa", "formatos": ["estatico"], "cinco_angulos": "nao_se_aplica", "vinculo_com_a_visao": "provavel", "inicio_na_visao": "2026-11-20", "divergencia_de_data": false, "observacao": "A visão chama o item de I Simpósio e informa que o racional de 5 ângulos não se aplica a eventos." },
   "kit": { "template": "templates/kit-de-lancamento-evento.md", "variacao": "simposio", "escopo": "item" }
 }
 ```
 
-Observações do trecho: kit.variacao é "simposio" porque o plano do cmo (seção 4, camada 3) aplicou a variação simpósio, mas a ficha e a decisão da Ufape de 26/10/2026 chamam o evento de workshop; vira pendência do tipo divergencia, "[CONFIRMAR]" qual variação do template vale. Também são pendências: a carga horária do produto 68634 na loja (24 h contra 16 h oficiais), a falta de data no 68634, e a regra de validade do cupom. Nenhum nome de docente, de coordenador científico ou de convidado aparece.
+Observações do trecho: kit.variacao é "simposio" porque o plano do cmo (seção 4, camada 3) aplicou a variação simpósio, mas a ficha e a decisão da Ufape de 26/10/2026 chamam o evento de workshop; vira pendência do tipo divergencia, "[CONFIRMAR]" qual variação do template vale. Também são pendências, no arquivo real: a carga horária do produto 68634 na loja (24 h contra 16 h oficiais), a falta de data no 68634, a validade do cupom (validade null), a quantidade de convidados a definir (null), as vagas da modalidade transmitida (null), a turma mínima e as vagas restantes (null) e a autorização de imagem dos palestrantes (null, marcador "[CONFIRMAR autorização]"). Nenhum nome de docente, de coordenador científico ou de convidado aparece.
 
 ---
 
@@ -747,7 +770,7 @@ Observações do trecho: kit.variacao é "simposio" porque o plano do cmo (seç�
 - A linha do nome é o campo linha do JSON, que segue o catálogo, ou o plano quando o plano move o item (700 e 202 estão na seção "Simpósios e congressos" do catálogo e são Eventos no plano; linha_origem registra "plano").
 - O id do JSON é igual ao nome do arquivo sem ".json". O id nunca muda e nunca é reaproveitado.
 - Caracteres: letras minúsculas sem acento, dígitos e hífen; nada de espaço, travessão, meia-risca ou sublinhado no nome.
-- Contagem esperada na primeira geração: 184 arquivos (110 do recorte, 72 de histórico ou pendência, 2 da Graduação), igual ao total do catálogo na seção 2.2 do plano.
+- Contagem esperada na primeira geração: 184 arquivos no total, Graduação incluída (110 do recorte, 72 de histórico ou pendência e 2 da Graduação), igual ao total do catálogo na seção 2.2 do plano.
 
 ### 2.2 Caso sem código
 
@@ -801,12 +824,12 @@ Se um item sem código ganhar código no catálogo, o cmo cria o arquivo novo `<
 | Bloco de campos | Quem produz | Etapa | Como muda depois |
 |---|---|---|---|
 | X controle, fontes, historico | cmo | etapa 1 de /mapa-de-cursos-montar (e de /mapa-de-cursos-atualizar) | a cada gravação: revisao sobe 1, atualizado_em, uma linha em historico |
-| C espelho (identidade, local, modalidade, turma, CH, início, preço, status, vagas, equipe, blocos por tipo) | cmo copia do catálogo e da ficha; o responsável pelo catálogo na Ufape é a fonte | montagem | só quando o catálogo ou a ficha mudam (3.5); nunca por saída de agente |
+| C espelho (identidade, local, modalidade, turma, CH, início, preço, status, vagas, equipe, blocos por tipo) | cmo copia do catálogo, da ficha e do contexto da linha; o responsável pelo catálogo na Ufape é a fonte | montagem | só quando o catálogo ou a ficha mudam (3.5); nunca por saída de agente |
 | P plano (area, recorte, onda, gut, grupo, relacionados, turma de destino) | cmo, a partir do plano aprovado (skill .claude/skills/matriz-gut/SKILL.md para itens sem nota) | montagem | só com nova versão aprovada do plano |
 | M status_midia | cmo, lendo a visão de campanhas | montagem | nova visão de campanhas (3.6); decisão de pausa só vale depois de executada por humano e refletida na visão |
 | K kit e canais | cmo abre o kit do tipo (templates/kit-de-lancamento-*.md) e propõe os canais | montagem | saída de agente aprovada (3.4) |
 | A arquivos_por_camada e aprovacoes | cmo, a partir dos cabeçalhos das saídas e dos pedidos do plano (seção 8) | montagem | saída aprovada, resposta a pedido de aprovação |
-| N metas e numeros_agregados | gestor-de-midia (metas) e Ufape (números); o cmo só registra | quando o número chegar | nunca inventado; sem número, "[CONFIRMAR]" |
+| N metas e numeros_agregados | gestor-de-midia (metas) e Ufape (números); o cmo só registra | quando o número chegar | nunca inventado; sem número, null com pendência |
 | pendencias | cmo, a partir de auditorias, plano (seção 7) e "dados que faltam" das saídas | montagem | aberta em divergência nova; resolvida_em quando a fonte muda |
 | D derivados (dias_ate_inicio, preco_estruturado, resumo) | cmo, calculados | a cada gravação | recalculados sempre |
 
@@ -831,7 +854,7 @@ Gatilho: saída aprovada pela pessoa do marketing, com veredito "aprovado" do qa
 2. Descobre o alcance: camada 1, linha ou geral: todos os itens da linha (ou de todas) recebem o arquivo em arquivos_por_camada.linha ou .geral; camada 2: itens com area.codigo igual à área da seção; camada 3: itens cujo código aparece no título da seção (regra do briefing: uma seção por curso, com o código do catálogo no título).
 3. Atualiza a entrega do kit pela tabela abaixo: arquivo e secao preenchidos, status "aguardando_aprovacao" quando a saída existe sem aprovação, "devolvido" se o qa mandou corrigir, "aprovado" só com qa "aprovado" e aprovação humana (ref_aprovacao).
 4. Saída de agente nunca muda campo C. Se a saída contradiz o catálogo, o cmo abre pendência do tipo divergencia; o catálogo continua mandando.
-5. Dados que faltam citados pela saída entram em pendencias só se o cmo os aceita; suposições da saída entram com marcador "[SUPOSIÇÃO]".
+5. Dados que faltam citados pela saída entram em pendencias só se o cmo os aceita, com "campos" preenchido; suposições da saída entram com marcador "[SUPOSIÇÃO]".
 6. revisao sobe 1, uma linha em historico por campo alterado, resumo recalculado.
 
 | Agente (saída aprovada) | Chave da entrega atualizada | Outros campos |
@@ -854,18 +877,18 @@ Gatilho: o responsável pelo catálogo na Ufape (a squad não altera o catálogo
 1. O cmo compara a linha atual do catálogo com fontes.catalogo_linha_literal de cada JSON. Linha igual: nada muda. Linha diferente: segue.
 2. Linha nova no catálogo (sem arquivo): cria JSON com recorte "pendencia" até o cmo decidir o recorte e abrir o kit, e informa no relatório. Linha que sumiu do catálogo: o JSON não é apagado; recorte vira "historico" com motivo e pendência.
 3. Campo C diferente: o cmo grava o valor novo (cópia literal), atualiza catalogo_linha_literal e data_catalogo, e escreve uma linha em historico com campo, de, para, origem (catálogo e data) e motivo.
-4. Se mudou preço, início, local, modalidade, carga horária, turma, status ou condições, toda entrega do kit em "aguardando_aprovacao" ou "aprovado" passa para "revisar_por_mudanca" e abre-se uma pendência do tipo preco_ou_condicao, data ou divergencia, com bloqueia ["peca_final"] (e ["anuncio"] se há campanha ativa). Peça já publicada é por conta da pessoa do marketing: o relatório só lista, e qualquer pausa é pedido de aprovação.
+4. Se mudou preço, início, local, modalidade, carga horária, turma, status ou condições, toda entrega do kit em "aguardando_aprovacao" ou "aprovado" passa para "revisar_por_mudanca" e abre-se uma pendência do tipo preco_ou_condicao, data ou divergencia, com "campos" citando o campo mudado e bloqueia ["peca_final"] (e ["anuncio"] se há campanha ativa). Peça já publicada é por conta da pessoa do marketing: o relatório só lista, e qualquer pausa é pedido de aprovação.
 5. Se status_catalogo muda para "verificar", "sem venda", "encerrado" ou "sem página", a regra R14 pede mudar o recorte. Mudança de recorte, onda ou GUT é decisão (classe P): o cmo a propõe no relatório e só grava depois da aprovação.
 6. Recalcula dias_ate_inicio, preco_estruturado e resumo; revisao sobe 1.
 7. O relatório de mudanças traz uma tabela com id, campo, de, para, entregas afetadas e pendências abertas ou fechadas.
 
-Exemplo: o preço da 707 muda de 30x de R$ 1.590,00 para outro valor. Só o pos-707.json é regravado: preco_texto_site novo, preco_estruturado recalculado, catalogo_linha_literal novo, as 9 entregas aprovadas voltam a "revisar_por_mudanca", nasce a pendência de preço, e o HTML mostra o selo vermelho no item.
+Exemplo: o preço da 707 muda de 30x de R$ 1.590,00 para outro valor. Só o pos-707.json é regravado: preco_texto_site novo, preco_estruturado recalculado, catalogo_linha_literal novo, as entregas aprovadas voltam a "revisar_por_mudanca", nasce a pendência de preço, e o HTML mostra o selo vermelho no item.
 
 ### 3.6 Outros gatilhos
 
 - Nova visão de campanhas: o cmo atualiza status_midia (campanha, formatos, cinco_angulos, inicio_na_visao, divergencia_de_data, lido_em). O vínculo com a visão é por nome, data e UF (a visão não tem código): "exato" quando os três batem, "provavel" ([SUPOSIÇÃO]) quando só dois, "nenhum" quando nenhum. Uma decisão de pausa do gestor-de-midia só altera status_midia depois que o humano executou a ação no gerenciador de anúncios e a visão de campanhas refletir isso; antes, a decisão é um pedido em aprovacoes.
 - Virada de onda: no fim de cada onda, o cmo roda a atualização geral (todos os itens da onda), recalcula dias_ate_inicio e abre a próxima onda.
-- Metas ou números chegam: o cmo preenche metas e numeros_agregados só com número entregue pela Ufape ou pelo gestor-de-midia, com a fonte.
+- Metas ou números chegam: o cmo preenche metas e numeros_agregados só com número entregue pela Ufape ou pelo gestor-de-midia, com a fonte, e fecha a pendência (resolvida_em).
 - Autorização de imagem registrada: o cmo atualiza apenas a contagem (autorizados e equipe.autorizacoes_de_imagem_registradas); nome nenhum entra no arquivo.
 
 ### 3.7 Como o HTML lê os JSON
@@ -874,11 +897,12 @@ Exemplo: o preço da 707 muda de 30x de R$ 1.590,00 para outro valor. Só o pos-
 - Toda contagem (itens por linha, onda, área, status, bloqueados) é calculada no navegador a partir desses dados, nunca escrita à mão. O cabeçalho do mapa mostra a data do catálogo, a data de geração e a quantidade de itens por estado (revisao maior que revisao_aprovada aparece como "rascunho").
 - Dias até o início: o navegador recalcula a partir de inicio e da data de hoje, e mostra também o valor do JSON com a data da gravação.
 - O HTML só desenha as chaves deste esquema (lista fechada) e escreve os textos como texto, nunca como HTML, para que um campo livre não vire código nem vaze dado fora do esquema.
+- Valor null com pendência que o cita aparece como "-" com o selo da pendência; null sem pendência não aparece.
 - Mapa de campos para os nós do plano (seção 6.1):
 
 | Nó do mapa | Chaves lidas |
 |---|---|
-| Nível 0: plano e contagem geral | fontes.data_catalogo, fontes.plano, contagens por recorte e linha, metas (principal, "[CONFIRMAR]") |
+| Nível 0: plano e contagem geral | fontes.data_catalogo, fontes.plano, contagens por recorte e linha, metas (principal, null com pendência) |
 | Nível 1: linhas, Ondas e calendário, Pendências e bloqueios, Aprovações, Histórico | linha, onda, resumo.bloqueado, pendencias, aprovacoes, historico |
 | Nível 2: estratégia da linha e áreas | arquivos_por_camada.linha, area.codigo, area.nome, canais |
 | Nível 3: área | arquivos_por_camada.area, area, contagem de itens |
@@ -935,10 +959,10 @@ Execute o workflow "Mapa de cursos: montar".
 
 Leia contexto/ufape-geral.md e o contexto da linha de negócio antes de começar (os quatro contextos, quando a linha for geral). Onda e linha deste pedido: $ARGUMENTS
 
-Regras do esquema: siga a seção 1 de saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-geral-2026-10-26.md (esquema versao 1) e os nomes da seção 2. Dados de curso só de contexto/catalogo-de-cursos.md; o que faltar vira "[CONFIRMAR]". Nenhum campo de nome de pessoa.
+Regras do esquema: siga a seção 1 de saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-geral-2026-10-26.md (esquema versao 1) e os nomes da seção 2. Dados de curso só de contexto/catalogo-de-cursos.md; o que faltar vira "[CONFIRMAR]" em campo de texto, ou null com pendência em campo de número ou data. Nenhum campo de nome de pessoa.
 
 1. Use o agente relatorios para produzir a narrativa e o roteiro de apresentação da onda ao cliente, a partir das saídas aprovadas. Salve e passe o arquivo para a próxima etapa.
-2. Use o agente cmo para produzir um JSON por item da onda em saidas/10-operacoes-de-marketing/cursos/ (nome <linha>-<codigo>.json), o mapa mental HTML em saidas/02-estrategia-e-posicionamento/ (cmo-geral-AAAA-MM-DD.html, com os JSON embutidos) e o relatório do lote em Markdown (cmo-<linha>-AAAA-MM-DD-mapa.md): itens criados, campos com [CONFIRMAR], pendências que bloqueiam e pedidos de aprovação. Use a skill matriz-gut (.claude/skills/matriz-gut/SKILL.md) só para item sem nota de GUT. Salve e passe os arquivos para a próxima etapa.
+2. Use o agente cmo para produzir um JSON por item da onda em saidas/10-operacoes-de-marketing/cursos/ (nome <linha>-<codigo>.json), o mapa mental HTML em saidas/02-estrategia-e-posicionamento/ (cmo-geral-AAAA-MM-DD.html, com os JSON embutidos) e o relatório do lote em Markdown (cmo-<linha>-AAAA-MM-DD-mapa.md): itens criados, campos pendentes, pendências que bloqueiam e pedidos de aprovação. Use a skill matriz-gut (.claude/skills/matriz-gut/SKILL.md) só para item sem nota de GUT. Salve e passe os arquivos para a próxima etapa.
 3. Use o agente qa-de-marketing para conferir o lote e o HTML contra o catálogo e o esquema (as 12 conferências do documento de fluxo) e devolver aprovado ou corrigir. Salve e passe o arquivo para a próxima etapa.
 4. Rode a auditoria do departamento (auditorias/10-operacoes.md) e auditorias/conformidade-educacional.md antes de marcar como pronto, e também auditorias/09-analytics.md para o mapa.
 
@@ -971,17 +995,17 @@ As 12 conferências do qa-de-marketing (citadas nos dois workflows):
 
 | # | Conferência |
 |---|---|
-| C1 | Nome do arquivo igual ao id e ao padrão da seção 2; id único; contagem de arquivos igual à do catálogo mais a Graduação. |
+| C1 | Nome do arquivo igual ao id e ao padrão da seção 2; id único; contagem de arquivos igual ao total do catálogo (184, Graduação incluída). |
 | C2 | versao_schema 1; todas as chaves obrigatórias do tipo; nenhuma chave fora do esquema; só o bloco por tipo certo. |
 | C3 | Todo valor de campo fechado está no vocabulário de 1.4. |
-| C4 | Campos de classe C idênticos à linha atual do catálogo (e à ficha, nos campos_so_na_ficha); catalogo_linha_literal igual à linha do catálogo. |
-| C5 | Origem vazia aparece como "[CONFIRMAR]" (sem "", sem "N/A", sem null indevido, sem número fora do catálogo ou da ficha). |
+| C4 | Campos de classe C idênticos à linha atual do catálogo (e à ficha ou ao contexto da linha, nos campos_so_na_ficha), em cópia literal; catalogo_linha_literal igual à linha do catálogo. |
+| C5 | Origem vazia aparece como "[CONFIRMAR]" em campo de texto e como null com pendência em campo de número, data, lista ou objeto (R1); sem "", sem "N/A", sem número fora do catálogo, da ficha ou do contexto da linha. |
 | C6 | Kit igual ao template do tipo, com as quantidades mínimas intactas e as chaves de 1.4. |
 | C7 | dias_ate_inicio recalculado; recorte "planejar" só com status aberto ou aberto (contínuo) (R14). |
 | C8 | preco_estruturado bate com preco_texto_site, ou é null. |
 | C9 | Nenhum dado pessoal: nenhuma chave de nome de pessoa, nenhum e-mail, telefone, CPF, tratamento seguido de nome (Dr., Dra., Prof., MSc, PhD) ou texto livre acima de 240 caracteres. |
-| C10 | Nenhuma frase "certificado pelo MEC", "reconhecida pelo MEC", nota do MEC, depoimento ou expressão "últimas vagas" em nenhum campo de texto. |
-| C11 | resumo.pendencias_abertas e resumo.bloqueado coerentes com pendencias; todo [CONFIRMAR] ou [SUPOSIÇÃO] tem pendência. |
+| C10 | Nenhuma frase de certificação ligada ao MEC em nenhum campo de texto, em qualquer variante ("certificado pelo MEC", "reconhecida pelo MEC", "do MEC", "pelo MEC", "Ministério da Educação" como certificador), nem nota do MEC, depoimento ou "últimas vagas". Única exceção: o ato regulatório da Graduação copiado do catálogo (por exemplo, "Portaria SERES/MEC nº 162, de 13/03/2025"). Nas pendências, a frase é descrita como "frase de certificação que a squad não repete". |
+| C11 | Todo valor "[CONFIRMAR]" ou "[CONFIRMAR autorização]" em campo inteiro, e todo null em campo que se aplica ao tipo e tem origem vazia, é citado em "campos" de uma pendência aberta (aceita "[*]"); todo "[SUPOSIÇÃO]" em campo (natureza, vínculo) é citado por pendência de marcador "[SUPOSIÇÃO]". Ficam fora da conferência o texto descritivo de aprovacoes que cita o plano e o null sem pendência que a regra R2 define como "não se aplica". Os exemplos 1.6 e 1.7 passam na C11. |
 | C12 | HTML: mesmos id e revisao dos JSON, sem CDN, abre sem rede, contagens calculadas e nenhuma chave fora do esquema desenhada. |
 
 ### 3.10 O que foi cortado e quantas etapas o fluxo tem
@@ -1004,7 +1028,7 @@ Cortes (nenhum muda a entrega):
 4. Uma chamada por saída aprovada: cortada. As saídas aprovadas entram em lote, na segunda-feira e no fim da onda.
 5. Regravar todos os JSON a cada rodada: cortado. Só os afetados são regravados, e o qa confere que nenhum outro mudou.
 6. Arquivo de índice e hash dos arquivos: cortados. O id e a revisao já identificam versão; um índice a mais criaria um segundo lugar para ficar desatualizado. O hash de verdade fica para a plataforma calcular na importação.
-7. Etapa de "validar com a Ufape" dentro do fluxo: cortada. O que depende da Ufape vira pendência ("[CONFIRMAR]") e pedido de aprovação no próprio JSON, sem parar o fluxo.
+7. Etapa de "validar com a Ufape" dentro do fluxo: cortada. O que depende da Ufape vira pendência e pedido de aprovação no próprio JSON, sem parar o fluxo.
 8. Documento separado de contrato para o admin: cortado. O contrato é a seção 4 deste arquivo.
 
 Risco de tamanho: a onda 2 tem 54 itens. Se o cmo não couber o lote numa só chamada, divide-se por linha dentro da onda [SUPOSIÇÃO: o limite de contexto ainda não foi testado com 54 JSON]. Isso acrescenta chamadas e deve ser dito antes, não depois.
@@ -1020,7 +1044,7 @@ Nada vai para o banco agora. Este documento não cria tabela, função, migratio
 - Chave natural: id (igual ao nome do arquivo). Ligação com o cadastro de cursos e turmas pela dupla linha e codigo; o admin diz qual é a chave dele ([CONFIRMAR]: como o código do catálogo se liga às tabelas cursos e turmas). Para Graduação e itens sem código, vale o id.
 - Formato: UTF-8, JSON, um objeto por arquivo, versao_schema 1, regras de 1.1 (R13).
 - Idempotência: reimportar o mesmo arquivo não duplica. Um arquivo com revisao menor que a já importada é rejeitado; revisao igual com conteúdo diferente é divergência e não é aplicada.
-- Marcadores: todo texto que começa com "[CONFIRMAR" ou é "[SUPOSIÇÃO]" é tratado como valor ausente, com sinalização na tela. Nunca vira zero, data vazia nem texto de peça.
+- Marcadores e vazios: todo texto que começa com "[CONFIRMAR" ou é "[SUPOSIÇÃO]" é tratado como valor ausente, com sinalização na tela. Campo de número ou data null cujo caminho aparece em "campos" de uma pendência aberta também é valor ausente (R1 e R2); null sem pendência é "não se aplica". Nenhum vira zero, data vazia nem texto de peça.
 - Vocabulários fechados de 1.4: valor fora da lista rejeita o arquivo.
 - Arquivos com estado_do_arquivo "substituido": importados só como histórico, sem entrar em contagem de itens ativos.
 - Arquivos que começam com "_" (se algum dia existirem) são ignorados.
@@ -1032,7 +1056,7 @@ Nada vai para o banco agora. Este documento não cria tabela, função, migratio
 | C espelho | Cópia do catálogo e da ficha | Não importar como verdade. Na plataforma, a ficha congelada da liberação faz o papel do catálogo (CLAUDE.md da squad) e as tabelas cursos e turmas mandam nos dados de curso (CLAUDE.md do admin). O espelho serve para conferir: se divergir, gerar relatório de divergência, sem sobrescrever. Preço nunca é lido do JSON. |
 | P plano, K kit e canais, M mídia, N metas e números | Camada de planejamento de marketing | Candidatos a importar, ligados ao curso ou turma pela chave natural. |
 | A arquivos_por_camada e aprovacoes | Referências a saídas e pedidos | A plataforma já registra entrega e aprovação; o registro dela prevalece [SUPOSIÇÃO]. O JSON guarda a ref para cruzar. |
-| pendencias | Lacunas e bloqueios | Importar, com resolvida_em. |
+| pendencias | Lacunas e bloqueios | Importar, com resolvida_em e campos. |
 | historico | Linha do tempo do arquivo | Opcional. |
 | D derivados (dias_ate_inicio, resumo, preco_estruturado) | Calculados | Não importar; a plataforma recalcula. |
 
@@ -1042,9 +1066,10 @@ Nada vai para o banco agora. Este documento não cria tabela, função, migratio
 2. Valor fora de vocabulário fechado.
 3. Chave de nome de pessoa, ou texto livre que case com e-mail, telefone, CPF ou tratamento seguido de nome (as mesmas regras do C9).
 4. kit.entregas com menos itens ou quantidades menores que o template do tipo (o mínimo nunca diminui).
-5. Qualquer campo de texto com "certificado pelo MEC", "reconhecida pelo MEC" ou "últimas vagas".
+5. Qualquer campo de texto com frase de certificação ligada ao MEC em qualquer variante (as mesmas da C10, com a exceção do ato regulatório da Graduação copiado do catálogo) ou com "últimas vagas".
 6. Item com codigo que não existe no cadastro de cursos ou turmas: vai para uma lista de órfãos, nunca cria curso.
 7. Divergência entre o espelho e a ficha congelada: relatório, não gravação.
+8. Marcador ou null por origem vazia sem pendência que o cite em "campos" (a mesma regra da C11).
 
 ### 4.4 Pedido ao admin (texto para a pessoa do marketing levar ao CEO)
 
@@ -1054,7 +1079,7 @@ O pedido não cria nada. Ele pergunta e propõe:
 2. Qual é a chave que liga o código do catálogo ao cadastro de cursos e turmas ([CONFIRMAR])?
 3. Como a plataforma lê os arquivos: pelo repositório da squad (marketing-ufape, privado), por envio pelo painel ou por outro caminho ([CONFIRMAR])?
 4. Quem aprova a importação e com que papel de acesso (a regra de acesso mora no Postgres, no admin).
-5. Como mostrar na tela os marcadores "[CONFIRMAR]" e "[SUPOSIÇÃO]" (o CLAUDE.md do admin pede "-" como marcador de vazio na tela e números reais ou marcados como ilustrativos).
+5. Como mostrar na tela os marcadores "[CONFIRMAR]" e "[SUPOSIÇÃO]" e os null com pendência (o CLAUDE.md do admin pede "-" como marcador de vazio na tela e números reais ou marcados como ilustrativos).
 6. Os JSON só levam dados de curso e planejamento, sem dado pessoal, e portanto podem passar pelo gateway de IA do admin, que só aceita dados de curso (seção 5).
 
 ---
@@ -1086,7 +1111,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 4. Nome dos arquivos aprovado em A11, pasta saidas/10-operacoes-de-marketing/cursos/<linha>-<codigo>.json (plano do cmo, seções 6.2 e 8; briefing, decisão do cliente).
 5. Decisões do cliente de 26/10/2026: Graduação com plano próprio (A2), provas de bolsa em campanha única (A3), pendências marcadas, workshop de 20 e 21/11 com cupom SIMPNEUROMONIT e 16 h (docs/execucao-2026-10-26.md).
 6. Pós 707: turma VII, São Paulo, semipresencial, 600 h, início 30/10/2026 (planilha), 30x de R$ 1.590,00, R$ 47.700,00, matrícula R$ 250,00, status aberto (catálogo, seção 2); 24 módulos, turma mínima de 20, 3 coordenadores, 19 professores listados (ficha da 707).
-7. Prova 68651: Hematologia, São Paulo, 27/11/2026, aberto (catálogo, seção 3); R$ 100,00, 9 às 13h, presencial, nota de corte 7.0 (ficha); a ficha traz prazos de matrícula de 10 e 7 dias, resultado por e-mail e por site, mínimo de 15 alunos, e tabela de bolsas (ficha da 68651).
+7. Prova 68651: Hematologia, São Paulo, 27/11/2026, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, aberto (catálogo, seção 3, com coluna de preço); 9 às 13h, prova presencial, nota de corte 7.0 (mínimo 70 % de acerto) e mínimo de 15 alunos nas duas menções da ficha (ficha da 68651). Regras das 22 provas, iguais em todas: 11 bolsas por prova (2 de 50% (monitoria), 4 de 25% e 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 10 dias úteis para a matrícula, turma mínima de 15 na página da prova contra 20 nas páginas de curso [CONFIRMAR], turma de destino não consta na página [CONFIRMAR] (contexto/pos-graduacao.md). O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula (ficha da 68651). O plano dá P10 como resolvido (plano do cmo, seção 7).
 8. Visão de campanhas de 26/10/2026: 707 com campanha ativa, estático, sem 5 ângulos; o Simpósio de Neuromonitorização com campanha ativa, estático, 5 ângulos "não se aplica"; as provas de bolsa não constam (visão de campanhas; plano, seção 3).
 9. GUT: provas de bolsa 5, 5, 4 = 100; Pós 707, 68604 e 68606: 4, 5, 3 = 60 (plano, seção 3).
 10. Onda 1 e situação especial das turmas com campanha ativa: inventário do kit pelo cmo em 28/10, mensagens de reta final em 28/10, plano da campanha das provas em 29/10, peças das provas em 03/11 (plano, seção 4).
@@ -1097,22 +1122,23 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 15. Auditorias existentes: auditorias/10-operacoes.md, auditorias/09-analytics.md, auditorias/conformidade-educacional.md. Agentes existentes: cmo, qa-de-marketing, relatorios, arquiteto-de-fluxos, entre os 60 (README.md; .claude/agents). Skills usadas: mapear-fluxo e matriz-gut (.claude/skills).
 16. cmo, qa-de-marketing e relatorios têm as ferramentas Read e Write (cmo também WebSearch e WebFetch); nenhum tem execução de script (.claude/agents).
 17. A plataforma pede aprovação depois de cada etapa e registra a entrega (CLAUDE.md do marketing, "Execução pela plataforma"). O admin é o único projeto que cria migrations e as tabelas cursos e turmas mandam nos dados de curso (CLAUDE.md do admin).
+18. O veredito do qa-de-marketing pediu as correções B1 a B6 (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md).
 
 ## Suposições
 
 1. [SUPOSIÇÃO] nome_padrao dos tipos fora da Pós é igual ao nome do site, porque os contextos de Livres, Eventos e Graduação não definem padrão de nome.
-2. [SUPOSIÇÃO] A carga horária da ficha da prova de bolsa (500 h) é a da Pós e não da prova; por isso carga_horaria da prova é null.
-3. [SUPOSIÇÃO] A tabela de bolsas da ficha não entra no JSON porque o plano (P10) trata regras e percentuais como vazios, e a ficha se contradiz em regras vizinhas.
-4. [SUPOSIÇÃO] A Pós 68608 como turma de destino da prova 68651 (mesma área; a sugestão fica marcada e vira pendência).
-5. [SUPOSIÇÃO] O vínculo entre linhas da visão de campanhas e itens do catálogo é por nome, data e UF, porque a visão não tem código; o Simpósio de Neuromonitorização fica "provavel".
-6. [SUPOSIÇÃO] Os navegadores em geral bloqueiam a leitura de arquivos locais a partir de uma página local, por isso os JSON são embutidos no HTML.
-7. [SUPOSIÇÃO] O pedido de importação ao admin segue o rito completo do admin e o registro de aprovação da plataforma prevalece sobre aprovacoes e arquivos_por_camada do JSON.
-8. [SUPOSIÇÃO] Um lote por onda cabe numa chamada do cmo; se não couber, divide-se por linha (a onda 2 tem 54 itens).
-9. [SUPOSIÇÃO] O responsável pela aprovação é, por enquanto, a pessoa do marketing que fez o pedido (P12 aberto), registrada só como papel.
-10. [SUPOSIÇÃO] Os canais dos exemplos são os da proposta do cmo (seção 5 do plano), não confirmados nas etapas 1.20 e 1.11.
-11. [SUPOSIÇÃO] A conferência C9 (dado pessoal) é feita por leitura do qa-de-marketing, porque nenhum agente executa script.
-12. [SUPOSIÇÃO] A data de revisão deste documento é 02/11/2026, a primeira revisão semanal depois da primeira rodada.
-13. [SUPOSIÇÃO] Itens da Graduação ficam na onda 1 (Graduação aparece na onda 1 do briefing, "inscrições abertas, aulas em 22/02/2027") e sem área das 14.
+2. [SUPOSIÇÃO] A carga horária da ficha da prova de bolsa (500 h) é a da Pós e não da prova; por isso carga_horaria da prova é null (não se aplica).
+3. [SUPOSIÇÃO] A Pós 68608 como turma de destino da prova 68651 (mesma área; a sugestão fica marcada e vira pendência).
+4. [SUPOSIÇÃO] O vínculo entre linhas da visão de campanhas e itens do catálogo é por nome, data e UF, porque a visão não tem código; o Simpósio de Neuromonitorização fica "provavel".
+5. [SUPOSIÇÃO] Os navegadores em geral bloqueiam a leitura de arquivos locais a partir de uma página local, por isso os JSON são embutidos no HTML.
+6. [SUPOSIÇÃO] O pedido de importação ao admin segue o rito completo do admin e o registro de aprovação da plataforma prevalece sobre aprovacoes e arquivos_por_camada do JSON.
+7. [SUPOSIÇÃO] Um lote por onda cabe numa chamada do cmo; se não couber, divide-se por linha (a onda 2 tem 54 itens).
+8. [SUPOSIÇÃO] O responsável pela aprovação é, por enquanto, a pessoa do marketing que fez o pedido (P12 aberto), registrada só como papel.
+9. [SUPOSIÇÃO] Os canais dos exemplos são os da proposta do cmo (seção 5 do plano), não confirmados nas etapas 1.20 e 1.11.
+10. [SUPOSIÇÃO] A conferência C9 (dado pessoal) é feita por leitura do qa-de-marketing, porque nenhum agente executa script.
+11. [SUPOSIÇÃO] A data de revisão deste documento é 02/11/2026, a primeira revisão semanal depois da primeira rodada.
+12. [SUPOSIÇÃO] Itens da Graduação ficam na onda 1 (Graduação aparece na onda 1 do briefing, "inscrições abertas, aulas em 22/02/2027") e sem área das 14.
+13. [SUPOSIÇÃO] Para a prova de bolsa, vale o texto do contexto da linha (resultado por WhatsApp ou e-mail, 10 dias úteis), já aprovado no plano, e os trechos divergentes da ficha viram pendência.
 
 ## Dados que faltam
 
@@ -1120,7 +1146,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 2. [CONFIRMAR] Chave que liga o código do catálogo às tabelas cursos e turmas do admin, e como a plataforma lê os arquivos (seção 4.4).
 3. [CONFIRMAR] URL da LP da Graduação e o padrão de UTM da squad (plano, P15); o catálogo só traz https://faculdade.ufape.com.br/graduacao.
 4. [CONFIRMAR] Fim das inscrições de cada turma, prova e edição (nenhum traz hoje).
-5. [CONFIRMAR] Regras e percentuais das bolsas e turma de destino de cada prova (plano, P10 e seção 2.3), e qual valor vale nos trechos da ficha da prova que se contradizem.
+5. [CONFIRMAR] Turma de destino de cada prova de bolsa (a página não traz; as 4 provas sem turma futura aberta são 68652, 68649, 68653 e 68655), e qual turma mínima vale: 15 na página da prova ou 20 nas páginas de curso.
 6. [CONFIRMAR] Quem aprova cada tipo de peça (P12) e o formato do id de aprovação da plataforma (campo ref_aprovacao, hoje "[CONFIRMAR]").
 7. [CONFIRMAR autorização] Autorização de imagem e voz de docentes e palestrantes, só em contagem (P13).
 8. [CONFIRMAR] Metas, verba, vagas restantes e números agregados por turma (P11).
@@ -1133,4 +1159,4 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 
 ## Próximo agente
 
-qa-de-marketing: conferir este documento (esquema, exemplos, nomes, fluxo, workflows e riscos) com auditorias/10-operacoes.md e auditorias/conformidade-educacional.md, e devolver aprovado ou corrigir antes da aprovação da pessoa do marketing. Depois da aprovação, o cmo roda a etapa M.3 com o esquema da seção 1.
+qa-de-marketing: conferir esta versão corrigida (itens B1 a B6) com auditorias/10-operacoes.md e auditorias/conformidade-educacional.md, e devolver aprovado ou corrigir antes da aprovação da pessoa do marketing. Depois da aprovação, o cmo roda a etapa M.3 com o esquema da seção 1.
