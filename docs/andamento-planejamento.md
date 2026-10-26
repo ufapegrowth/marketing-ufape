@@ -78,6 +78,8 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Conflitos entre saídas para o cmo resolver
 
+**Decididos pelo cmo em 26/10/2026 na seção 12 do plano do cmo ("Conciliação da camada 1").** Ela traz as decisões D1 a D17 (teto de mensagens, ordem de prioridade, supressões de 02 a 15/11, grade do @ufapevet com teto provisório de 10 por semana, tabela única de pares Livres para Pós, janela de silêncio, UTM e nomes, frase do curso livre), as encomendas por arquivo, os pedidos de aprovação humana R1 a R8 e as perguntas à Ufape U1 a U10. A lista abaixo fica como histórico.
+
 - Calendário de mídia das provas revisto na 1.11 pos (PP3: 40%, 35% e 25%, pico de 03/11 a 09/11).
 - Datas da mídia do workshop: RESOLVIDO na 1.11 de eventos (pedido EVM1, aguarda aprovação humana): criativos 1 e 2 em 03/11, mudança do frio em 10/11, presencial pausa em 18/11 às 23h59, transmitido até 19/11. Memorando, estrategia-de-campanha-eventos e criativos-de-anuncio-eventos ficam com notas para atualizar.
 - Grade do @ufapevet: a 1.20 de eventos propõe teto de 2 posts por dia e 10 por semana somando as quatro linhas [SUPOSIÇÃO]; em 06/11 Pós e Graduação já somam 3. A 1.20 de livres usa outro teto de referência, 7 por semana [SUPOSIÇÃO], e mostra S2 a S4 acima dele mesmo com cortes (propostas G1 a G5). Os dois tetos se contradizem: o cmo decide a grade e o teto.
@@ -98,9 +100,9 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Em execução: rodada de conciliação do cmo (decide os conflitos acima e grava como seção 12 do plano do cmo) e qa do lote B (qa-de-marketing-geral-2026-10-26-loteB.md) e do lote C (qa-de-marketing-geral-2026-10-26-loteC.md). Se a sessão cair, confira se a seção 12 existe no plano do cmo e se os dois arquivos de qa existem.
-2. Correções pedidas pelos dois qa e pela conciliação do cmo.
-3. Lote D (1.14, 1.15, 1.28) e lote E (1.33).
+1. Em execução: aplicação das encomendas da seção 12 do plano do cmo e dos ajustes dos qa dos lotes B e C, em 5 grupos (relacionamento; copy e campanhas; social e conteúdo; mídia; análise e demais), mais o lote D (1.14 anuncios-meta e anuncios-google; 1.15 anuncios-linkedin e anuncios-tiktok; 1.28 campanhas-de-nutricao). Cada arquivo corrigido leva no cabeçalho a nova versão e o motivo. Se a sessão cair, confira pelo cabeçalho quais arquivos já têm a versão nova.
+2. Lote E: 1.33 backlog-de-otimizacao e qa final (lote D e reconferência das versões novas).
+3. Fechar a camada 1 e levar ao CEO os pedidos de aprovação (R1 a R8 do cmo e os dos agentes) e as perguntas U1 a U10.
 
 ## Diário
 
@@ -124,3 +126,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Lote C concluído: 1.12 livres e eventos, 1.13 livres, 1.24 pos e livres. Iniciados conciliação do cmo e qa dos lotes B e C |
 | 26/10/2026 | Decisões da Ufape (10 a 13 do briefing) gravadas no briefing, em contexto/pos-graduacao.md (turma mínima 15, prova online, regra por ficha) e em contexto/ufape-geral.md (autorização para todos) |
 | 26/10/2026 | qa do lote C: 11 arquivos aprovados (2 sem ajuste, 9 com ajustes não bloqueantes). EML-Q1 da estrategia-de-midia-livres (conceito R3 "primeiro passo em 8 horas" errado) enviado para correção já. Os outros ajustes vão junto com as encomendas da conciliação do cmo |
+| 26/10/2026 | Conciliação do cmo gravada (seção 12 do plano do cmo). qa do lote B: 9 aprovados (2 sem ajuste, 7 com ajustes não bloqueantes). Iniciadas as encomendas e o lote D |
