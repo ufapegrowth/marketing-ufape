@@ -286,7 +286,7 @@ Regras para todos os envios:
 | Histórico de status de mídia (ativa, pausada, sem) com data | turma | medir quantos dias cada turma teve campanha antes do início |
 | Verba planejada | turma e mês | comparar planejado e gasto |
 | Quais ângulos foram usados (nome de cada um) | turma | ir além de "com" ou "sem 5 ângulos" |
-| Data de entrada de cada lote de criativo | turma | ler efeito de criativo novo (exemplo: V48, 21/10/26) |
+| Data de entrada de cada lote de criativo | turma | ler efeito de criativo novo (exemplo: V40, comentário de 21/10/26) |
 | Página de destino de cada campanha | turma | conferir link trocado, item sem página (V67) e páginas com a frase de certificação |
 | Linhas para provas de bolsa, grupos de estudos, contínuos e Graduação | item | cobrir os 76 itens do recorte que não constam |
 
