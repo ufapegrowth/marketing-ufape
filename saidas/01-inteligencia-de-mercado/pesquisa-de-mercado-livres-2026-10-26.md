@@ -2,20 +2,21 @@
 
 - Agente: pesquisa-de-mercado (departamento 01, Inteligência de Mercado), etapa 1.1 da camada 1
 - Linha: livres, cobrindo também eventos (os números de cada linha ficam separados, ver seção 2)
-- Data: 26/10/2026
-- Status: rascunho para o qa-de-marketing (auditoria 01-qualidade-de-pesquisa e auditorias/conformidade-educacional.md). Nada publicado, enviado ou pago.
-- Entradas lidas: docs/execucao-2026-10-26.md, CLAUDE.md, contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/eventos.md, contexto/catalogo-de-cursos.md (seções 1 a 9), saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 2 e 3), .claude/skills/dimensionar-mercado/SKILL.md. As fichas em contexto/cursos/ não foram abertas nesta rodada: todo dado de curso abaixo vem do catálogo.
+- Data: 26/10/2026 (versão corrigida após o veredito do qa-de-marketing, saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01a.md)
+- Status: rascunho para nova passagem do qa-de-marketing (auditoria 01-qualidade-de-pesquisa e auditorias/conformidade-educacional.md). Nada publicado, enviado ou pago.
+- Entradas lidas: docs/execucao-2026-10-26.md, CLAUDE.md, contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/eventos.md, contexto/catalogo-de-cursos.md (seções 1 a 9), saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 2 e 3), .claude/skills/dimensionar-mercado/SKILL.md, saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01a.md e, para harmonizar o universo de veterinários, saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-26.md (seção 1.1). As fichas em contexto/cursos/ não foram abertas: todo dado de curso abaixo vem do catálogo.
 - Limite desta pesquisa: foi feita só com busca pública na web em 26/10/2026. Várias páginas de origem (CFMV, sites de congressos, plataformas) não abriram para leitura direta; onde só vi o resumo da busca, está dito. Preço público de concorrente foi difícil de achar: a seção 6 diz o que foi e o que não foi encontrado.
 - Metas e verba: nenhum número de meta ou verba da Ufape existe. Tudo que depende deles está como [CONFIRMAR].
+- Regra de datas: toda fonte externa vem com data de publicação. Quando a página não mostra a data, está escrito "sem data de publicação, consulta em 26/10/2026" e a afirmação que depende dela fica marcada [SUPOSIÇÃO] ou "sem fonte".
 
 ---
 
 ## 1. Resumo executivo
 
-1. O universo de quem compra curso curto veterinário é grande e contável: o Sistema CFMV/CRMVs aparece com quase 240 mil médicos-veterinários registrados e cerca de 182,3 mil em atividade (AviNews, 09/09/2025, fonte secundária). Outras fontes dão 166 mil e 154,9 mil, de datas diferentes. A fatia que a Ufape alcança é [CONFIRMAR] (sem dado de funil).
+1. O universo de quem compra curso curto veterinário é grande e contável, mas os números diferem por critério. Em atividade: cerca de 182,3 mil (AviNews, 09/09/2025, atribuído ao Sistema CFMV/CRMVs, fonte secundária). Registrados: 154,9 mil (Forbes Brasil, 09/2021), "mais de 180 mil" (blog contábil, 2026, sem metodologia) e quase 240 mil (AviNews, 09/09/2025). A fatia que a Ufape alcança é [CONFIRMAR] (sem dado de funil).
 2. O preço do curso livre da Ufape cobre quatro faixas bem distintas (catálogo, 26/10/2026): grupo de estudos de R$ 100,00 a R$ 734,00; minicurso online de R$ 185,00 a R$ 300,00; online gravado de R$ 96,00 a R$ 4.060,80; presencial prático de R$ 450,00 a R$ 5.220,00 à vista (mais o Curso Premium 717, de R$ 27.750,00 no cartão, que é um caso à parte). Cada faixa disputa uma alternativa diferente.
 3. A alternativa mais forte nos formatos baratos é o conteúdo gratuito ou subsidiado. A Petlove lançou a Vetlove em 10/03/2026, com inscrição gratuita para profissionais com registro ativo, e oferece cursos de FGV e Anclivepa dentro dela (Mercado&Consumo, 10/03/2026).
-4. No presencial, o rival direto em São Paulo é o ecossistema de congressos e entidades (Animal Health Science Ecosystem, Anclivepa-SP), mais do que outros cursos de 1 a 3 dias. Preço desses concorrentes não foi achado (sem fonte).
+4. No presencial, o rival em São Paulo é o ecossistema de congressos e entidades (Animal Health Science Ecosystem, Anclivepa-SP), mais do que outros cursos de 1 a 3 dias [SUPOSIÇÃO, sem preço nem público desses concorrentes]. Preço desses concorrentes não foi achado (sem fonte).
 5. O mercado em espanhol (Lima e América Latina) só tem evidência de oferta (Quadam, Emagister, Maimónides). Tamanho e preço em Lima: sem fonte.
 6. A hipótese "curso livre é porta de entrada para a Pós" continua [SUPOSIÇÃO]. Não há dado da Ufape nem público que a prove. O teste proposto está na seção 12.
 
@@ -23,11 +24,13 @@
 
 ## 2. Recorte de mercado
 
-**Cursos Livres (linha livres).** Médico veterinário clínico (e, em segundo plano, estudante dos últimos anos e auxiliar) que compra, no Brasil, um curso curto em uma área clínica ou cirúrgica de cães e gatos, em um de cinco formatos: presencial prático (São Paulo e Goiânia), online e gravado, minicurso de 8 h, grupo de estudos e aprimoramento na Ufape Clínica. Mais um recorte de cursos gravados em espanhol (347 e 501) para a América Latina, e cursos presenciais em Lima (575 e 605, turmas de 2025, hoje pendência no plano do cmo).
+**Cursos Livres (linha livres).** Médico veterinário clínico (e, em segundo plano, estudante dos últimos anos e auxiliar) que compra, no Brasil, um curso curto em uma área clínica ou cirúrgica de cães e gatos, em um de cinco formatos: presencial ou semipresencial prático (São Paulo e Goiânia), online e gravado, minicurso de 8 h, grupo de estudos e aprimoramento na Ufape Clínica. Mais um recorte de cursos gravados em espanhol (347 e 501) para a América Latina, e cursos presenciais em Lima (575 e 605, turmas de 2025, hoje pendência no plano do cmo).
+
+Curso livre dá certificado de curso livre. Não confere diploma e não equivale a graduação nem a pós-graduação. O credenciamento da instituição pelo MEC não se aplica a ele e não entra como força desta linha.
 
 **Eventos (linha eventos).** Médico veterinário, estudante e equipe de clínica que compra uma vaga em workshop, simpósio ou congresso, em São Paulo (presencial) ou online (transmitido ou gravado). Itens no catálogo: Workshop de Neuromonitorização (20/11/2026, 16 h, 30 vagas, R$ 1.250,00 presencial; R$ 450,00 transmitido e gravado, produto 68634), Congresso do Paciente Grave gravado (700, R$ 780,00) e Simpósio de Coagulação (202, R$ 285,00). Preço, formato e público padrão da linha seguem [CONFIRMAR] em contexto/eventos.md.
 
-Regra de separação: os números de Livres e de Eventos não são somados entre si nem com Pós ou Graduação. O universo de profissionais (seção 3) é o mesmo pool de pessoas, mas cada linha o usa para uma compra diferente; por isso ele aparece como referência, nunca como "público da linha".
+Regra de separação: os números de Livres e de Eventos não são somados entre si nem com Pós ou Graduação. O universo de profissionais (seção 3) é o mesmo pool de pessoas, mas cada linha o usa para uma compra diferente; por isso ele aparece como referência, nunca como "público da linha". Dados da linha Pós usados como comparação (por exemplo, a prova de bolsa) vêm marcados "dado da linha pos".
 
 ---
 
@@ -35,15 +38,17 @@ Regra de separação: os números de Livres e de Eventos não são somados entre
 
 ### 3.1 Universo contável (referência, não é público-alvo)
 
+Tabela alinhada à seção 1.1 de pesquisa-de-mercado-pos-2026-10-26.md: mesmos números, com critério e data.
+
 | Grupo | Mínimo | Máximo | Fonte e data | Confiança |
 |---|---|---|---|---|
-| Médicos-veterinários em atividade no Brasil | 154,9 mil (reportagem de 2021, desatualizada) | 182,3 mil | Mínimo: Forbes Brasil, 2021, citando CFMV. Máximo: AviNews, 09/09/2025, atribuído ao Sistema CFMV/CRMVs | Média a baixa: fontes secundárias, datas e critérios diferentes (registrados, em atividade, atuantes) |
-| Médicos-veterinários registrados no sistema | 180 mil (blog, 2026, sem fonte própria) | quase 240 mil | Contabilidade Zen (2026); AviNews, 09/09/2025 | Baixa |
+| Médicos-veterinários em atividade no Brasil | 182,3 mil (único número com critério "em atividade" e data) | 182,3 mil | AviNews, 09/09/2025, atribuído ao Sistema CFMV/CRMVs. Outras estimativas de "em atividade" (166 mil, 200 mil, 215 mil) saíram em reportagens sem data de publicação nem fonte primária: [SUPOSIÇÃO], não usadas | Média a baixa: fonte secundária |
+| Médicos-veterinários registrados no sistema CFMV/CRMV | 154,9 mil (critério "registrados", dado de 2021) | quase 240 mil | Forbes Brasil, 09/2021 (mínimo); AviNews, 09/09/2025 (máximo); Contabilidade Zen, 2026, "mais de 180 mil" sem metodologia | Baixa: datas e critérios diferentes. Número oficial de 2025: sem fonte |
 | Densidade profissional | 77,4 por 100 mil habitantes em 2022 | - | Carta aberta do CRMV-RS, hospedada pelo CFMV (2023) | Média |
-| Médicos-veterinários ativos só no Rio de Janeiro | 14.534 em março de 2024 | - | Relatório trimestral do CRMV-RJ, mar/2024 | Alta para o RJ; não vale para SP |
+| Médicos-veterinários ativos só no Rio de Janeiro | 14.534 em março de 2024 | - | Relatório trimestral do CRMV-RJ, 05/2024 (dados de mar/2024) | Alta para o RJ; não vale para SP |
 | Médicos-veterinários ativos em São Paulo (estado ou capital) | sem fonte | sem fonte | Não encontrado nesta rodada. Pedir ao CRMV-SP | - |
 | Médicos-veterinários que atuam em clínica de pequenos animais | sem fonte | sem fonte | Não encontrado. Não estimar | - |
-| Estudantes de Medicina Veterinária | sem fonte | sem fonte | Há dado indireto de oferta: cerca de 200 cursos de graduação em 2015 para quase 600 em 2025, mais de 87 mil vagas presenciais autorizadas (reportagem citada pelo Quero Bolsa e pelo Congresso em Foco, 2025). Alunos matriculados: não achado. Fonte oficial a consultar: Censo da Educação Superior (INEP) | Baixa |
+| Estudantes de Medicina Veterinária | sem fonte | sem fonte | Há dado indireto de oferta, com indicadores diferentes: 536 cursos e mais de 107 mil vagas totais em 2023 (e-MEC, carta do CFMV, 2023, citado em pesquisa-pos); cerca de 200 cursos de graduação em 2015 e quase 600 em 2025, com mais de 87 mil vagas presenciais autorizadas (reportagens de 2025 do Quero Bolsa e do Congresso em Foco). Alunos matriculados: não achado. Fonte oficial a consultar: Censo da Educação Superior (INEP) | Baixa |
 
 Leitura: o número de profissionais é grande e cresce com a expansão de cursos de graduação (cerca de 600 cursos em 2025). Isso aumenta a oferta de recém-formados que precisam de prática, o que favorece o presencial hands-on. É uma leitura [SUPOSIÇÃO], pois não achei pesquisa de comportamento.
 
@@ -51,18 +56,18 @@ Leitura: o número de profissionais é grande e cresce com a expansão de cursos
 
 | Grupo | Quem é | Por que compra | O que usa hoje | Como contar | Número |
 |---|---|---|---|---|---|
-| G1 Clínico generalista de pequenos animais | Veterinário de clínica ou hospital, 1 a 10 anos de formado [SUPOSIÇÃO] | Dominar uma técnica ou exame e aplicar na semana seguinte; oferecer serviço novo | Experiência da rotina, congressos, conteúdo gratuito, colegas | CRMV por área de atuação (CFMV reconhece 80 áreas, Forbes 2021); filtro por pequenos animais: sem fonte | sem fonte |
-| G2 Recém-formado e estudante dos últimos anos | Formando com pouca prática cirúrgica ou de imagem | Prática e diferencial no currículo | Estágio, extensão da universidade, cursos baratos | Censo da Educação Superior (concluintes de Medicina Veterinária) | sem fonte (consultar INEP) |
-| G3 Especialista em formação | Aluno de pós (da Ufape ou de outra) | Complementar com prática ou grupo de estudos | Os módulos da própria pós | Alunos ativos de pós da Ufape | [CONFIRMAR] dado interno |
-| G4 Dono de equipamento ou clínica | Quem comprou ultrassom, endoscópio, laser, ventilador | Usar o equipamento com segurança e vender o serviço | Treinamento do fabricante | Vendas de equipamentos (não achei dado) | sem fonte |
-| G5 Auxiliar veterinário | Equipe de apoio de clínica | Formação básica rápida (curso 95, 140 h, R$ 510,00 à vista) | Treinamento interno, cursos de entrada | CBO e Rais (não consultados) | sem fonte |
-| G6 Veterinário na América Latina (espanhol) | Clínico em Lima, Peru, ou em outro país | Atualização com docente brasileiro, gravado em espanhol | Universidades locais, cursos regionais | Conselhos de cada país; Lima: sem fonte | sem fonte |
+| G1 Clínico generalista de pequenos animais | Veterinário de clínica ou hospital, 1 a 10 anos de formado [SUPOSIÇÃO] | Dominar uma técnica ou exame e aplicar na semana seguinte; oferecer serviço novo [SUPOSIÇÃO] | Experiência da rotina, congressos, conteúdo gratuito, colegas [SUPOSIÇÃO] | CRMV por área de atuação (CFMV reconhece 80 áreas, Forbes, 09/2021); filtro por pequenos animais: sem fonte | sem fonte |
+| G2 Recém-formado e estudante dos últimos anos | Formando com pouca prática cirúrgica ou de imagem [SUPOSIÇÃO] | Prática e diferencial no currículo [SUPOSIÇÃO] | Estágio, extensão da universidade, cursos baratos [SUPOSIÇÃO] | Censo da Educação Superior (concluintes de Medicina Veterinária) | sem fonte (consultar INEP) |
+| G3 Especialista em formação | Aluno de pós (da Ufape ou de outra) | Complementar com prática ou grupo de estudos [SUPOSIÇÃO] | Os módulos da própria pós [SUPOSIÇÃO] | Alunos ativos de pós da Ufape | [CONFIRMAR] dado interno |
+| G4 Dono de equipamento ou clínica | Quem comprou ultrassom, endoscópio, laser, ventilador | Usar o equipamento com segurança e vender o serviço [SUPOSIÇÃO] | Treinamento do fabricante [SUPOSIÇÃO] | Vendas de equipamentos (não achei dado) | sem fonte |
+| G5 Auxiliar veterinário | Equipe de apoio de clínica | Formação básica rápida (curso 95, 140 h, R$ 510,00 à vista, catálogo) | Treinamento interno, cursos de entrada [SUPOSIÇÃO] | CBO e Rais (não consultados) | sem fonte |
+| G6 Veterinário na América Latina (espanhol) | Clínico em Lima, Peru, ou em outro país | Atualização com docente brasileiro, gravado em espanhol [SUPOSIÇÃO] | Universidades locais, cursos regionais [SUPOSIÇÃO] | Conselhos de cada país; Lima: sem fonte | sem fonte |
 
 ### 3.3 Por que compram: o que a evidência sustenta e o que não
 
 Sustentado por fonte:
 - A categoria tem motivos de estresse e pressão profissional que levaram a Petlove a lançar plataforma própria de saúde, carreira e negócios (Mercado&Consumo, 10/03/2026). Isso mostra que há empresa grande disputando o relacionamento com o veterinário, e que "carreira e negócios" é uma frente de interesse.
-- O mercado pet é grande e cresce de forma moderada: projeção de R$ 77,2 bilhões em 2025, alta de 2,4% sobre 2024 (Abinpet e Instituto Pet Brasil, via Diário do Comércio, 2025); 62,2 milhões de cães e 30,8 milhões de gatos em levantamento da Abinpet com o IPB (ano de referência não confirmado). Mais animais e mais tutores gastando com saúde animal sustentam a demanda por especialização clínica. A relação direta com compra de curso livre é [SUPOSIÇÃO].
+- O mercado pet é grande e cresce de forma moderada: projeção de R$ 77,2 bilhões em 2025, alta de 2,4% sobre 2024 (Abinpet e Instituto Pet Brasil, via Diário do Comércio, 2025); 62,2 milhões de cães e 30,8 milhões de gatos em levantamento da Abinpet com o IPB (ano de referência não confirmado, portanto sem data confiável). Mais animais e mais tutores gastando com saúde animal sustentam a demanda por especialização clínica. A relação direta com compra de curso livre é [SUPOSIÇÃO].
 
 Não sustentado (fica como [SUPOSIÇÃO], vinda de contexto/cursos-livres.md):
 - Gatilho "caso difícil na clínica, equipamento novo, serviço novo". [SUPOSIÇÃO]
@@ -77,12 +82,14 @@ Nenhuma fonte pública que achei mede demanda por formato entre veterinários br
 
 | Formato (catálogo, 26/10/2026) | Itens | Faixa de preço à vista (catálogo) | Sinal de demanda externo | Alternativa principal |
 |---|---|---|---|---|
-| Presencial hands-on (1 a 3 dias) | 7 abertos com data de 32 presenciais | R$ 890,00 a R$ 2.950,00 nos abertos | Cursos práticos equivalentes existem fora do Brasil a preços altos (ver seção 5), mas nenhum concorrente presencial brasileiro com preço foi achado (sem fonte) | Congressos, cursos de universidades, treinamento de fabricante [SUPOSIÇÃO] |
-| Online gravado | 22 contínuos | R$ 96,00 a R$ 4.060,80 | Plataforma gratuita da Petlove (Vetlove) e conteúdo livre | Conteúdo gratuito |
-| Minicurso online de 8 h | 13 contínuos | R$ 185,00 a R$ 300,00 | Sem dado externo | Conteúdo gratuito, congressos |
-| Grupo de estudos | 10 (2 com data, 8 contínuos) | R$ 100,00 a R$ 734,00 | Grupos de estudos de felinos existem em universidades públicas (UFPel desde 2016, UEL) e são de extensão, em geral sem custo [SUPOSIÇÃO sobre gratuidade, a busca não confirmou] | Grupo universitário gratuito, comunidades em redes |
-| Aprimoramento na Ufape Clínica | 3, todos "verificar" | R$ 250,00 a R$ 1.000,00 | Sem dado externo | Estágio e residência (a residência paga costuma ser disputada: sem fonte) |
-| Espanhol gravado | 2 abertos | R$ 260,00 e R$ 580,00 | Ver seção 7 | Cursos de universidades locais |
+| Presencial e semipresencial hands-on (1 a 3 dias, mais módulos) | 7 abertos com data de 32 (presenciais: 68614, 623, 68637, 68638; semipresenciais: 573 e 560; 68618 com modalidade em branco no catálogo [CONFIRMAR NO CATÁLOGO]) | R$ 890,00 a R$ 2.950,00 nos abertos | Cursos práticos equivalentes existem fora do Brasil a preços altos (ver seção 5), mas nenhum concorrente presencial brasileiro com preço foi achado (sem fonte) | Congressos, cursos de universidades, treinamento de fabricante [SUPOSIÇÃO] |
+| Online gravado | 22 contínuos | R$ 96,00 a R$ 4.060,80 | Plataforma gratuita da Petlove (Vetlove, 10/03/2026) e conteúdo livre | Conteúdo gratuito |
+| Minicurso online de 8 h | 13 contínuos | R$ 185,00 a R$ 300,00 | Sem dado externo | Conteúdo gratuito, congressos [SUPOSIÇÃO] |
+| Grupo de estudos | 10 (2 com data, 8 contínuos) | R$ 100,00 a R$ 734,00 | Grupos de estudos de felinos existem em universidades públicas (UFPel, anais de 2016 e 2018; UEL, sem data de publicação) e são de extensão, em geral sem custo [SUPOSIÇÃO sobre gratuidade, a busca não confirmou] | Grupo universitário gratuito, comunidades em redes [SUPOSIÇÃO] |
+| Aprimoramento na Ufape Clínica | 3, todos "verificar" | R$ 250,00 a R$ 1.000,00 | Sem dado externo | Estágio e residência (concorrência da residência: sem fonte) |
+| Espanhol gravado | 2 abertos | R$ 260,00 e R$ 580,00 | Ver seção 7 | Cursos de universidades locais [SUPOSIÇÃO] |
+
+Nota: 616 (Imersão Avançada em Anestesia Felina, 05/12/2026, 12 h, R$ 990,00 à vista) está aberto com data, mas o catálogo traz modalidade "On-line" e local "Presencial e Online". Não entra nas contagens acima até a modalidade ser confirmada [CONFIRMAR NO CATÁLOGO].
 
 Nota sobre dado interno: vendas por formato, taxa de conclusão e recompra existem na Ufape, mas não foram entregues. Isso é o dado mais importante que falta (seção 14).
 
@@ -90,32 +97,32 @@ Nota sobre dado interno: vendas por formato, taxa de conclusão e recompra exist
 
 ## 5. Seção por formato
 
-### 5.1 Presencial hands-on
+### 5.1 Presencial e semipresencial hands-on
 
-- O que a Ufape tem de aberto e com data (catálogo): Ecocardiografia Hands-On básica (573, 14/11/2026, 28 h, R$ 2.350,00), Videotoscopia (68614, 28/11/2026, 12 h, R$ 1.250,00), Endoscopia Digestiva (623 e 68637, 28/11/2026, 12 h, R$ 890,00; o cmo já apontou possível duplicidade), Ventilação Mecânica aplicada à Anestesia (68618, 18/12/2026, 17 h, R$ 1.710,00), POCUS em Emergência (68638, 06/03/2027, R$ 980,00, carga horária [CONFIRMAR NO CATÁLOGO]) e Eletroquimioterapia (560, 22/05/2027, 60 h, R$ 2.950,00).
-- Referência internacional de preço de curso hands-on equivalente: o curso de ecocardiografia de pequenos animais da Langford Vets (Reino Unido) custa entre £ 1.450 e £ 1.600 em duas datas de 2026 (22/10 e 03/12/2026) (VetClick e página da Langford, consulta de 26/10/2026). É referência de posicionamento premium internacional, não concorrente direto.
-- Concorrente brasileiro presencial com preço: não encontrado (sem fonte). A busca por curso de castração em São Paulo só retornou mutirões gratuitos para tutores, que não são concorrentes.
-- Leitura: a demanda pelo presencial depende de turma pequena e de logística. O catálogo mostra 20 dos 32 presenciais em "verificar" (turma já iniciada ainda à venda, sem data ou sem venda). Antes de dimensionar demanda, é preciso limpar o catálogo, como o cmo já apontou.
-- Risco de cálculo: 623 e 68637 parecem o mesmo curso em dois produtos. Não somar vagas nem vendas até a Ufape confirmar [CONFIRMAR NO CATÁLOGO].
+- O que a Ufape tem de aberto e com data (catálogo, 26/10/2026): Ecocardiografia Hands-On básica (573, semipresencial, 14/11/2026, 28 h, R$ 2.350,00), Videotoscopia (68614, presencial, 28/11/2026, 12 h, R$ 1.250,00), Endoscopia Digestiva (623 e 68637, presenciais, 28/11/2026, 12 h, R$ 890,00; o cmo já apontou possível duplicidade), Ventilação Mecânica aplicada à Anestesia (68618, 18/12/2026, 17 h, R$ 1.710,00, modalidade em branco no catálogo [CONFIRMAR NO CATÁLOGO]), POCUS em Emergência (68638, presencial, 06/03/2027, R$ 980,00, carga horária [CONFIRMAR NO CATÁLOGO]) e Eletroquimioterapia (560, semipresencial, 22/05/2027, 60 h, R$ 2.950,00).
+- Referência internacional de preço de curso hands-on equivalente: o curso de ecocardiografia de pequenos animais da Langford Vets (Reino Unido) custa entre £ 1.450 e £ 1.600, com datas em 22/10/2026 (já passou) e 03/12/2026 (VetClick e página da Langford, consulta de 26/10/2026, sem data de publicação). É referência de posicionamento premium internacional, não concorrente direto.
+- Concorrente brasileiro presencial com preço: não encontrado (sem fonte). A busca por curso de castração em São Paulo só retornou mutirões gratuitos para tutores (prefeituras, 2026), que não são concorrentes.
+- Leitura: a demanda pelo presencial depende de turma pequena e de logística [SUPOSIÇÃO]. O catálogo mostra 20 dos 32 presenciais em "verificar" (turma já iniciada ainda à venda ou sem data no site). Antes de dimensionar demanda, é preciso limpar o catálogo, como o cmo já apontou.
+- Risco de cálculo: 623 e 68637 parecem o mesmo curso em dois produtos [SUPOSIÇÃO]. Não somar vagas nem vendas até a Ufape confirmar [CONFIRMAR NO CATÁLOGO].
 
 ### 5.2 Online gravado
 
-- Faixa muito larga (R$ 96,00 a R$ 4.060,80). Três grupos práticos dentro dela: ferramenta curta (cálculo de medicamentos 602, R$ 96,00; antibioticoterapia 541, R$ 148,00; transfusão 106, R$ 159,00), curso médio de 12 a 54 h (R$ 420,00 a R$ 1.440,00) e aprimoramento longo de 72 a 144 h (131, R$ 4.060,80; 137, R$ 3.519,00).
-- Preparatório para prova de título de especialista em Anestesiologia (488, 147 h, R$ 3.150,00): serve a quem já tem objetivo de título. Tamanho do grupo: sem fonte. A prova de título é regida pelo Colégio Brasileiro de Anestesiologia Veterinária e outras entidades, mas não conferi o regulamento nesta rodada [SUPOSIÇÃO].
-- Plataformas e preço: ver seção 6. Achei que a Vetlove (Petlove) é gratuita para profissionais com registro ativo (10/03/2026). O Vetsapiens (Pet Care/Petland) reúne fóruns, biblioteca e cursos, sem preço público achado na busca.
-- Certificação: algumas páginas do site usam "certificado pelo MEC". Não usar. O texto oficial ainda não existe (docs/execucao-2026-10-26.md).
+- Faixa muito larga (R$ 96,00 a R$ 4.060,80). Três grupos práticos dentro dela, todos conferidos no catálogo: ferramenta curta de 4 a 6 h (602, R$ 96,00; 104, R$ 140,00; 541, R$ 148,00; 106, R$ 159,00), curso médio de 12 a 54 h (de R$ 165,00, curso 542 com 12 h, a R$ 1.488,00, curso 103 com 48 h; 105 tem 54 h e custa R$ 1.440,00) e aprimoramento longo de 72 a 144 h (131, R$ 4.060,80; 137, R$ 3.519,00).
+- Preparatório para prova de título de especialista em Anestesiologia (488, 147 h, R$ 3.150,00): serve a quem já tem objetivo de título [SUPOSIÇÃO]. Tamanho do grupo: sem fonte. Quem rege a prova de título não foi conferido nesta rodada [SUPOSIÇÃO].
+- Plataformas e preço: ver seção 6. A Vetlove (Petlove) é gratuita para profissionais com registro ativo (10/03/2026). O Vetsapiens (Pet Care/Petland) reúne fóruns, biblioteca e cursos, sem preço público achado na busca.
+- Certificação: algumas páginas do site usam a frase de certificação que a squad não repete. O texto oficial ainda não existe (docs/execucao-2026-10-26.md).
 
 ### 5.3 Minicursos online de 8 h
 
-- Treze produtos "na Clínica Médica de Pequenos Animais" com preços de R$ 185,00 (461) a R$ 300,00 (669, 6 h). São a faixa mais barata acima do grupo de estudos e a entrada mais natural para quem nunca comprou da Ufape [SUPOSIÇÃO].
-- Alternativa direta: conteúdo gratuito (Vetlove e redes). O diferencial só se sustenta se o docente e o caso clínico forem claros na página.
+- Treze minicursos, a maioria "na Clínica Médica de Pequenos Animais", com preços de R$ 185,00 (461) a R$ 300,00 (669, 6 h, enteropatias crônicas). São a faixa mais barata acima do grupo de estudos e a entrada mais natural para quem nunca comprou da Ufape [SUPOSIÇÃO].
+- Alternativa direta: conteúdo gratuito (Vetlove e redes). O diferencial só se sustenta se o docente e o caso clínico forem claros na página [SUPOSIÇÃO].
 - O 461 aparece com "R$ 185,00 à vista ou 1x de R$ 222,00 no cartão": a diferença à vista e cartão é grande (20%) e deve ser mostrada nas peças.
 
 ### 5.4 Grupos de estudos
 
 - Dez itens. Ticket de R$ 100,00 (68663, 68665, 68666, encontros avulsos) ou R$ 734,00 (anual, 10x de R$ 88,00).
-- Em universidades públicas existem grupos de estudos de medicina felina e clínica (UFPel desde 2016, com 16 reuniões semanais em 2016; UEL com encontros quinzenais online), mas são de ensino e extensão e a gratuidade não foi confirmada (busca de 26/10/2026). Isso informa a concorrência de substituição: o veterinário compara o grupo pago com um grupo universitário aberto. [SUPOSIÇÃO]
-- Valor para a Ufape: relacionamento recorrente e comunidade, o que é menor em receita e maior em permanência. Receita e retenção reais: [CONFIRMAR].
+- Em universidades públicas existem grupos de estudos de medicina felina e clínica (UFPel desde 2016, com 16 reuniões semanais em 2016, anais de 2016 e 2018; UEL com encontros quinzenais online, anais sem data de publicação), mas são de ensino e extensão e a gratuidade não foi confirmada (busca de 26/10/2026). Isso informa a concorrência de substituição: o veterinário compara o grupo pago com um grupo universitário aberto. [SUPOSIÇÃO]
+- Valor para a Ufape: relacionamento recorrente e comunidade, o que é menor em receita e maior em permanência [SUPOSIÇÃO]. Receita e retenção reais: [CONFIRMAR].
 
 ### 5.5 Aprimoramento na Ufape Clínica
 
@@ -136,19 +143,19 @@ Resultado honesto: poucos preços públicos de curso curto veterinário no Brasi
 
 | Concorrente ou referência | O que oferece | Preço público | Fonte e data | Observação |
 |---|---|---|---|---|
-| Anclivepa-SP | Pós-graduação em Cardiologia Veterinária 2026 e provas de bolsa dos ciclos de fevereiro e agosto de 2027 | Taxa de inscrição R$ 350,00 (inscrições de 01/08/2026 a 07/11/2026 para a prova de bolsa) | Editais no portal da Anclivepa-SP (busca de 26/10/2026) | A taxa da prova de bolsa da Ufape é R$ 100,00 (catálogo, seção 3, 26/10/2026). A Anclivepa também é rival da Pós e dona do maior congresso do segmento. Mensalidade da pós dela: sem fonte |
-| Langford Vets (Reino Unido) | Curso de ecocardiografia de 2 datas em 2026 | £ 1.450 a £ 1.600 | VetClick, página da Langford, 26/10/2026 | Referência internacional, não concorrente |
-| Vetlove (Petlove) | Plataforma de saúde, carreira e negócios para médicos-veterinários, com pós e capacitação em gestão (FGV, Anclivepa) | Inscrição gratuita para profissionais com registro ativo; preço dos cursos de FGV e Anclivepa: sem fonte | Mercado&Consumo, 10/03/2026 | Principal ameaça de substituição em conteúdo barato |
-| Cursos EaD de pós em Vitória (ES) | Pós-graduação EaD de veterinária de várias instituições | De R$ 60,00 a R$ 1.006,67 (parece mensalidade, mas não confirmado) | Guia da Carreira, listagem de Vitória-ES, 26/10/2026 | Dado fraco: pode ser mensalidade ou promoção. Não usar como referência de preço da Ufape |
+| Anclivepa-SP | Pós-graduação em Cardiologia Veterinária 2026 (inscrições de 01/10/2025 a 16/01/2026) e provas de bolsa dos ciclos de fevereiro e agosto de 2027 | Taxa de inscrição R$ 350,00 (prova de bolsa: inscrições de 01/08/2026 a 07/11/2026; pós em Cardiologia: edital de 11/2025) | Editais no portal da Anclivepa-SP: https://portal.anclivepa-sp.org.br/wp-content/uploads/2026/08/Edital-Prova-de-bolsa-Fevereiro-de-2027-1.pdf (08/2026) e https://portal.anclivepa-sp.org.br/wp-content/uploads/2025/11/Edital-Cardiologia-veterinaria-2026-.pdf (11/2025) | Dado da linha pos, usado só como comparação: a taxa da prova de bolsa da Ufape é R$ 100,00 (catálogo, seção 3, 26/10/2026). A Anclivepa também oferece pós. Mensalidade da pós dela: sem fonte |
+| Langford Vets (Reino Unido) | Curso de ecocardiografia, datas em 22/10/2026 (já passou) e 03/12/2026 | £ 1.450 a £ 1.600 | VetClick e página da Langford, consulta em 26/10/2026, sem data de publicação | Referência internacional, não concorrente |
+| Vetlove (Petlove) | Plataforma de saúde, carreira e negócios para médicos-veterinários, com pós e capacitação em gestão (FGV, Anclivepa) | Inscrição gratuita para profissionais com registro ativo; preço dos cursos de FGV e Anclivepa: sem fonte | Mercado&Consumo, 10/03/2026 | Principal ameaça de substituição em conteúdo barato [SUPOSIÇÃO] |
+| Cursos EaD de pós em Vitória (ES) | Pós-graduação EaD de veterinária de várias instituições | De R$ 60,00 a R$ 1.006,67 (parece mensalidade, não confirmado) [SUPOSIÇÃO] | Guia da Carreira, listagem de Vitória-ES (https://guiadacarreira.com.br/cursos-e-faculdades/espirito-santo--vitoria/medicina-veterinaria), sem data de publicação, consulta em 26/10/2026 | Dado fraco. Não usar como referência de preço da Ufape |
 
 ### 6.2 Com existência confirmada, preço não encontrado (sem fonte)
 
-| Concorrente | O que é | Fonte |
+| Concorrente | O que é | Fonte e data |
 |---|---|---|
-| Vetsapiens (Grupo Pet Care, ligado à Petland) | Plataforma para veterinários com fóruns, biblioteca audiovisual, artigos, calculadoras e cursos; promete cursos teórico-práticos e estágio no exterior (hospitais VCA); investimento do Grupo Pet Care e aquisição pela Petland em 2021 | Panorama Pet&Vet; Startupi, 2021 (data da notícia do Pet Care não informada) |
-| Animal Health Science Ecosystem | Série de congressos presenciais em São Paulo (ver seção 9) | visitesaopaulo.com, 2026 |
-| Quadam Veterinary Courses | Cursos online de educação continuada em inglês, espanhol e outros | quadam.com, 26/10/2026 |
-| Universidad Maimónides (Argentina) | Cursos de ecografia em pequenos animais, presenciais, 2026 | PDF do curso, 2026 |
+| Vetsapiens (Grupo Pet Care, ligado à Petland) | Plataforma para veterinários com fóruns, biblioteca audiovisual, artigos, calculadoras e cursos; promete cursos teórico-práticos e estágio no exterior (hospitais VCA) | Startupi, 07/2021 (https://startupi.com.br/2021/07/grupo-petland-adquire-plataforma-educacional-para-profissionais-e-estudantes-de-medicina-veterinaria/); Panorama Pet&Vet, sem data de publicação (consulta em 26/10/2026) |
+| Animal Health Science Ecosystem | Série de congressos presenciais em São Paulo (ver seção 9) | visitesaopaulo.com, calendário 2026; congresso.animalhealthbr.com |
+| Quadam Veterinary Courses | Cursos online de educação continuada em inglês, espanhol e outros | https://quadam.com/, sem data de publicação, consulta em 26/10/2026 |
+| Universidad Maimónides (Argentina) | Cursos de ecografia em pequenos animais, presenciais | PDF do curso, 2026 (https://maimonides.edu/descargas/Ecografia-abdominal-en-pequenos-animales-2026.pdf) |
 
 ### 6.3 Concorrentes que não consegui verificar
 
@@ -163,15 +170,15 @@ O que a Ufape tem (catálogo, 26/10/2026):
 - 501 Cálculo de medicamentos em bolus e infusão contínua, gravado com legenda em espanhol, 6 h, R$ 260,00 (o equivalente em português, 602, está a R$ 96,00 e 4 h: a diferença de preço e de carga horária pede explicação [CONFIRMAR NO CATÁLOGO]).
 - Presenciais em Lima: 575 (Urgencias y Emergencias, 72 h, R$ 6.840,00, turma de 24/05/2025) e 605 (Anestesiología, 72 h, R$ 8.208,00, turma de 01/11/2025). Ambos em "verificar" (iniciados e à venda).
 
-Evidência pública (26/10/2026):
-- Existe oferta regional de educação continuada veterinária em espanhol: Quadam (online), Maimónides (Argentina, ecografia presencial em 8 encontros mensais de 1 dia e meio em 2026, sem preço no trecho lido), Facultad de Veterinaria da Universidad de la República (Uruguai, curso de Anestesiología, cupo de 20 pessoas, valor de "$ 5000 a egresados" sem moeda confirmada, PDF de setembro de 2025), Emagister Colômbia (cursos virtuais de veterinária em lista, com preços em pesos e USD pouco claros).
-- Colégio Médico Veterinário do Peru: opera com normas de 1966 e há projeto de lei de 2024 (PL 11194/2024-CR) para criar um novo colégio. Número de colegiados em Lima ou no Peru: sem fonte.
+Evidência pública (consulta em 26/10/2026):
+- Existe oferta regional de educação continuada veterinária em espanhol: Quadam (online, sem data de publicação), Maimónides (Argentina, ecografia presencial em 8 encontros mensais de 1 dia e meio em 2026, sem preço no trecho lido), Facultad de Veterinaria da Universidad de la República (Uruguai, curso de Anestesiología, cupo de 20 pessoas, valor de "$ 5000 a egresados" sem moeda confirmada, PDF de setembro de 2025), Emagister Colômbia (cursos virtuais de veterinária em lista, com preços em pesos e USD pouco claros, sem data de publicação: https://www.emagister.com.co/cursos-veterinario-kwes-3511_2.htm).
+- Colégio Médico Veterinário do Peru: opera com normas de 1966 e há projeto de lei de 2024 (PL 11194/2024-CR) para criar um novo colégio (LP Derecho, 2025). Número de colegiados em Lima ou no Peru: sem fonte.
 - Preço de cursos veterinários presenciais em Lima: sem fonte (busca não retornou).
-- Preço de consulta em Lima (S/ 30 a S/ 100, abril de 2026, Cuánto me Cuesta) serve só como contexto de poder aquisitivo da clínica local, e é [SUPOSIÇÃO] que influencie o preço do curso.
+- Preço de consulta em Lima (S/ 30 a S/ 100, "precios actualizados: abril 2026", https://cuantomecuesta.com/pe/veterinario/) serve só como contexto de poder aquisitivo da clínica local, e é [SUPOSIÇÃO] que influencie o preço do curso.
 
 Leitura: o preço dos cursos presenciais em Lima (acima de R$ 6.800,00 em reais, cobrado de um público peruano) parece alto frente à renda local, mas isso é [SUPOSIÇÃO], sem dado de câmbio, renda ou taxa de ocupação das turmas. Dados de venda das duas turmas de 2025: [CONFIRMAR].
 
-Oportunidade a testar: os dois gravados em espanhol custam bem menos que os presenciais e podem alcançar América Latina inteira sem deslocamento. Tamanho: sem fonte. Exige revisão por falante nativo (regra do contexto da linha) e checagem de meios de pagamento para quem paga fora do Brasil [CONFIRMAR].
+Oportunidade a testar: os dois gravados em espanhol custam bem menos que os presenciais e podem alcançar a América Latina sem deslocamento. Tamanho: sem fonte. Exige revisão por falante nativo (regra do contexto da linha) e checagem de meios de pagamento para quem paga fora do Brasil [CONFIRMAR].
 
 ---
 
@@ -180,24 +187,24 @@ Oportunidade a testar: os dois gravados em espanhol custam bem menos que os pres
 - Eventos entram na Ufape desde 23/10/2026 (contexto/eventos.md). Todo o contexto da linha segue [CONFIRMAR]: preço típico por subtipo, formato, certificado, política de grupo e público.
 - O único evento com data é o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20/11/2026, presencial 16 h, 30 vagas, R$ 1.250,00; transmitido e gravado R$ 450,00; aluno e ex-aluno com 20% e cupom SIMPNEUROMONIT; catálogo, 26/10/2026).
 - Tamanho do público para workshop de neuromonitorização: sem fonte. A área aparece no catálogo ligada à Pós em Neurologia e Neurocirurgia (68616, 08/05/2027) e à prova de bolsa 68654.
-- O catálogo mostra dois produtos gravados de evento (700 e 202), a R$ 780,00 e R$ 285,00. Eles competem com o próprio conteúdo gratuito de congressos.
+- O catálogo mostra dois produtos gravados de evento (700 e 202), a R$ 780,00 e R$ 285,00. Eles competem com o próprio conteúdo gratuito de congressos [SUPOSIÇÃO].
 - Evento como captação: um workshop pago, com 30 vagas, gera receita pequena e lista de contatos qualificada por especialidade [SUPOSIÇÃO]. A conversão de participante em aluno de Pós é [CONFIRMAR] (dado interno).
 
 ---
 
 ## 9. Eventos presenciais veterinários em São Paulo e como se posicionam
 
-Fontes: calendário visitesaopaulo.com e resultados de busca, 26/10/2026. Não consegui abrir as páginas de origem; as descrições abaixo vêm do resumo da busca. Preço de inscrição de todos: sem fonte.
+Fontes: calendário visitesaopaulo.com e resultados de busca, consulta em 26/10/2026. Não consegui abrir as páginas de origem; as descrições abaixo vêm do resumo da busca. Preço de inscrição de todos: sem fonte.
 
 | Evento | Organizador | Data e local | Posicionamento observado | Leitura para a Ufape |
 |---|---|---|---|---|
-| Série de congressos 2026 do Animal Health Science Ecosystem (temas: comportamento, ortopedia e traumatologia, hematologia, neurologia, dermatologia, gastroenterologia, medicina preventiva, medicina do coletivo, desastres, cirurgia de tecidos moles e outros) | Animal Health Science Ecosystem | Expo Center Norte, Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo. Datas de cada congresso não obtidas; edição "4º" em 2026 | Um congresso por especialidade, no mesmo espaço, com programação do dia inteiro (09h00 às 18h50 em um deles) | Mostra que o formato "um tema, um dia" já existe em SP com várias áreas que a Ufape também tem (nefrologia, neurologia, dermatologia, ortopedia, gastro, hemato). A Ufape disputa agenda e atenção |
-| Congresso Internacional de Nefrologia e Urologia Veterinárias (CINUV) 2026 | Organização ligada ao cbnuv.com.br | 01 a 03/07/2026, Espaço Fit Eventos, Chácara Santo Antônio, São Paulo (já ocorreu) | Congresso internacional por especialidade, 3 dias | Área A7 da Ufape (nefrologia). Sinal de que há plateia para o tema |
-| PET VET Expo 2026 | Distrito Anhembi, junto com PET South America | 12 a 14/08/2026, Distrito Anhembi, São Paulo (já ocorreu) | Feira de produtos e serviços, mais do que congresso técnico | Local de presença de marca, não concorrente direto de curso |
-| Congresso Brasileiro da Anclivepa | Anclivepa | Agenda de terceiros indica novembro de 2026 (2025 ocorreu de 06 a 08/11/2025). Não oficial | Congresso do maior evento da categoria; a Anclivepa-SP também vende pós e prova de bolsa | Maior risco de calendário: pode ocorrer perto do Workshop de 20/11/2026. Datas oficiais: [CONFIRMAR] |
+| Série de congressos 2026 do Animal Health Science Ecosystem (temas: comportamento, ortopedia e traumatologia, hematologia, neurologia, dermatologia, gastroenterologia, endocrinologia e metabolismo, medicina preventiva, medicina do coletivo, desastres, cirurgia de tecidos moles e outros) | Animal Health Science Ecosystem | Expo Center Norte, Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo. Datas de cada congresso não obtidas; edição "4º" em 2026 (calendário visitesaopaulo.com, 2026) | Um congresso por especialidade, no mesmo espaço, com programação do dia inteiro (09h00 às 18h50 em um deles) | Mostra que o formato "um tema, um dia" já existe em SP com várias áreas que a Ufape também tem (nefrologia, neurologia, dermatologia, ortopedia, gastro, hemato, endocrinologia). A Ufape disputa agenda e atenção [SUPOSIÇÃO] |
+| Congresso Internacional de Nefrologia e Urologia Veterinárias (CINUV) 2026 | Organização ligada ao cbnuv.com.br | 01 a 03/07/2026, Espaço Fit Eventos, Chácara Santo Antônio, São Paulo (já ocorreu; calendário visitesaopaulo.com, 2026) | Congresso internacional por especialidade, 3 dias | Área A7 da Ufape (nefrologia). Sinal de que há plateia para o tema [SUPOSIÇÃO] |
+| PET VET Expo 2026 | Distrito Anhembi, junto com PET South America | 12 a 14/08/2026, Distrito Anhembi, São Paulo (já ocorreu; https://distritoanhembi.com.br/?p=15805) | Feira de produtos e serviços, mais do que congresso técnico | Local de presença de marca, não concorrente direto de curso [SUPOSIÇÃO] |
+| Congresso Brasileiro da Anclivepa | Anclivepa | Agenda de terceiros indica novembro de 2026 (https://www.agrolink.com.br/eventos/41--congresso-brasileiro-da-anclivepa, sem data de publicação, não oficial); a edição de 2025 ocorreu de 06 a 08/11/2025 (mesma fonte) | A Anclivepa-SP também oferece pós e prova de bolsa (editais de 08/2026 e 11/2025) | Risco de calendário: pode ocorrer perto do Workshop de 20/11/2026 [SUPOSIÇÃO]. Datas oficiais: [CONFIRMAR] |
 | Simpósio Plantonista Veterinário (Ufape) | Ufape | 10/10/2026, SP (já passou; sem página no catálogo) | Evento próprio, só existe na planilha | Resultados do evento: [CONFIRMAR] |
 
-Leitura de posicionamento: os eventos grandes vendem escala e variedade de tema. Workshop de 16 h com 30 vagas, docentes confirmados e parte prática se posiciona por profundidade, o que pede peça diferente de congresso. O que sustenta a diferença é o conteúdo da página oficial e a lista de docentes autorizados [CONFIRMAR autorização].
+Leitura de posicionamento: os eventos grandes vendem escala e variedade de tema [SUPOSIÇÃO]. Workshop de 16 h com 30 vagas, docentes confirmados e parte prática se posiciona por profundidade, o que pede peça diferente de congresso. O que sustenta a diferença é o conteúdo da página oficial e a lista de docentes autorizados [CONFIRMAR autorização].
 
 ---
 
@@ -205,10 +212,10 @@ Leitura de posicionamento: os eventos grandes vendem escala e variedade de tema.
 
 | Alternativa | Quem usa | Onde a Ufape perde | Onde a Ufape pode ganhar | Fonte |
 |---|---|---|---|---|
-| Conteúdo gratuito (Vetlove, YouTube, redes, congressos) | G1, G2, G3 | Minicursos e online barato | Caso clínico, docente, certificado de curso livre, trilha | Vetlove (10/03/2026); resto [SUPOSIÇÃO] |
-| Congressos de especialidade em SP | G1, G2 | Variedade e preço por dia [SUPOSIÇÃO] | Prática em turma pequena e hospital próprio | visitesaopaulo.com, 2026 |
-| Pós de entidades (Anclivepa-SP) e de outras faculdades | G1, G3 | Autoridade institucional | Prova de bolsa de R$ 100,00 e curso livre como degrau | Editais Anclivepa-SP, 2026; catálogo |
-| Grupos de estudos universitários gratuitos | G1, G2 | Preço | Calendário fixo, docentes clínicos [SUPOSIÇÃO] | UFPel, UEL (artigos) |
+| Conteúdo gratuito (Vetlove, YouTube, redes, congressos) | G1, G2, G3 | Minicursos e online barato | Caso clínico, docente, certificado de curso livre, trilha | Vetlove (Mercado&Consumo, 10/03/2026); resto [SUPOSIÇÃO] |
+| Congressos de especialidade em SP | G1, G2 | Variedade e preço por dia [SUPOSIÇÃO] | Prática em turma pequena e hospital próprio [SUPOSIÇÃO] | visitesaopaulo.com, calendário 2026 |
+| Pós de entidades (Anclivepa-SP) e de outras faculdades | G1, G3 | Autoridade institucional [SUPOSIÇÃO] | Prova de bolsa de R$ 100,00 (dado da linha pos) e curso livre como degrau [SUPOSIÇÃO] | Editais Anclivepa-SP, 08/2026 e 11/2025; catálogo |
+| Grupos de estudos universitários gratuitos | G1, G2 | Preço [SUPOSIÇÃO] | Calendário fixo, docentes clínicos [SUPOSIÇÃO] | UFPel (anais de 2016 e 2018), UEL (sem data de publicação) |
 | Treinamento do fabricante de equipamento | G4 | Gratuidade [SUPOSIÇÃO] | Independência técnica [SUPOSIÇÃO] | Sem fonte |
 | Não estudar agora | Todos | Preço, tempo e viagem | Online gravado e grupo de R$ 100,00 | Contexto da linha [SUPOSIÇÃO] |
 
@@ -216,24 +223,24 @@ Leitura de posicionamento: os eventos grandes vendem escala e variedade de tema.
 
 ## 11. Seção curta por área (as 14 áreas do plano do cmo, seção 2.3)
 
-Para cada área: o que a Ufape tem no recorte, segundo o plano do cmo (que usa o catálogo de 26/10/2026), e o que a pesquisa pública achou. A pesquisa pública não mediu demanda por área. Onde diz "sem fonte" não há dado.
+Para cada área: o que a Ufape tem no recorte, segundo o plano do cmo (que usa o catálogo de 26/10/2026), e o que a pesquisa pública achou. A pesquisa pública não mediu demanda por área. Onde diz "sem fonte" não há dado. Congressos citados: calendário visitesaopaulo.com, 2026.
 
 | Área | Oferta de Livres e Eventos no recorte (códigos) | Evidência pública de demanda | Observação |
 |---|---|---|---|
-| A1 Anestesiologia e dor | 616 (imersão em anestesia felina), 488, 131, 102, 602, 483, 461, 501 (ES), 644 | Preparatório 488 mira prova de título; curso de anestesiologia de universidade uruguaia com cupo de 20 (Facultad de Veterinaria, PDF de set/2025); demanda em número: sem fonte | Maior número de contínuos do recorte. Pós de Anestesiologia é a maior família de Pós no catálogo |
-| A2 Cardiorrespiratório | 573, 68618, 68665, 411, 395, 507 | Cursos de ecocardiografia existem no exterior a £ 1.450 a £ 1.600 (Langford, 2026); Anclivepa-SP abre pós em Cardiologia 2026 (taxa R$ 350,00); demanda em número: sem fonte | Hands-on é a oferta de maior ticket entre os abertos com data |
+| A1 Anestesiologia e dor | 616 (imersão em anestesia felina), 488, 131, 102, 602, 483, 461, 501 (ES), 644 | Preparatório 488 mira prova de título [SUPOSIÇÃO]; curso de anestesiologia de universidade uruguaia com cupo de 20 (Facultad de Veterinaria, PDF de 09/2025); demanda em número: sem fonte | Maior número de contínuos do recorte (plano do cmo). O catálogo traz 6 turmas de Pós de Anestesiologia (664, 586, 68607, 657, 68609, 359) |
+| A2 Cardiorrespiratório | 573, 68618, 68665, 411, 395, 507 | Cursos de ecocardiografia existem no exterior a £ 1.450 a £ 1.600 (Langford, consulta em 26/10/2026); Anclivepa-SP abriu pós em Cardiologia 2026 (taxa R$ 350,00, edital de 11/2025); demanda em número: sem fonte | 573 (semipresencial, R$ 2.350,00) é o maior ticket entre os itens com data da área A2 |
 | A3 Emergência, terapia intensiva e clínica médica | 68638, 68666, 591, 137, 655, 107, 643, 713, evento 700 | Sem fonte | Maior grupo de contínuos de clínica; congresso gravado 700 |
 | A4 Cirurgia, ortopedia e reabilitação | 469, 68663 | Congressos de ortopedia e de cirurgia de tecidos moles em SP em 2026 (Animal Health Science Ecosystem) | Presenciais cirúrgicos (99, 433, 625, 717) estão em "verificar" e ficam fora do recorte do cmo |
-| A5 Diagnóstico por imagem e endoscopia | 68614, 623, 68637, 291 | Sem fonte de demanda; cursos de ultrassonografia clínica existem em Portugal (Lusófona, 61 h) e no Reino Unido | Possível duplicidade 623 e 68637 |
+| A5 Diagnóstico por imagem e endoscopia | 68614, 623, 68637, 291 | Sem fonte de demanda; cursos de ultrassonografia clínica existem em Portugal (Universidade Lusófona, 61 h, https://www.ulusofona.pt/lisboa/formacao/ultrassonografia-clinica-em-animais-de-companhia, sem data de publicação, consulta em 26/10/2026) e no Reino Unido (Langford) | Possível duplicidade 623 e 68637 [SUPOSIÇÃO] |
 | A6 Gastroenterologia | 669, 455, 721 | Congresso de gastroenterologia em SP em 2026 (Animal Health Science Ecosystem) | Grupo de estudos 721 já iniciado |
-| A7 Endocrinologia e nefrologia | 103, 104, 542, 458, 454, 642, 712 | CINUV (nefrologia) em julho de 2026 em SP; congresso de endocrinologia em SP em 2026 | Área com muitos contínuos |
+| A7 Endocrinologia e nefrologia | 103, 104, 542, 458, 454, 642, 712 | CINUV (nefrologia) em 01 a 03/07/2026 em SP; congresso de endocrinologia em SP em 2026 (https://visitesaopaulo.com/evento/congresso-de-endocrinologia-veterinaria-metabolismo-obesidade-diabetes-2026/) | Área com muitos contínuos |
 | A8 Dermatologia | 463 | Congresso de dermatologia em SP em 2026 | Um só item no recorte |
 | A9 Oftalmologia | 627, 482, 720 | Sem fonte | Presenciais de oftalmologia (microcirurgia, R$ 2.300,00 a R$ 5.220,00) estão sem data e fora do recorte |
-| A10 Oncologia | 560, 465 | Sem fonte | 560 (Eletroquimioterapia) é o presencial mais distante (22/05/2027) |
+| A10 Oncologia | 560, 465 | Sem fonte | 560 (Eletroquimioterapia, semipresencial) é o item com data mais distante (22/05/2027) |
 | A11 Laboratório | 462, 106, evento 202 | Congresso de hematologia em SP em 2026 | Simpósio 202 a R$ 285,00 |
 | A12 Neurologia | Workshop de 20/11/2026, 466 | Congresso de neurologia em SP em 2026 | Único evento com data na linha |
-| A13 Medicina felina | 105, 340, 157, 459, 347 (ES) | Grupos de estudos de felinos em universidades (UFPel, UEL); demanda em número: sem fonte | Tem espanhol e três cursos gravados de felinos com cargas diferentes (23 h, 26 h, 54 h): possível sobreposição interna [CONFIRMAR NO CATÁLOGO] |
-| A14 Outras (infectologia, reprodução, geriatria, equinos, silvestres, IA na Saúde, odontologia, auxiliar) | 541, 95 | Congresso de medicina de selvagens e pets não convencionais da Anclivepa em 2025; Vetlove oferece gestão e carreira | Mensagens e palavras-chave rodam por curso, como no plano do cmo |
+| A13 Medicina felina | 105, 340, 157, 459, 347 (ES) | Grupos de estudos de felinos em universidades (UFPel, anais de 2016 e 2018; UEL, sem data de publicação); demanda em número: sem fonte | Tem espanhol e três cursos gravados de felinos com cargas diferentes (23 h, 26 h, 54 h): possível sobreposição interna [CONFIRMAR NO CATÁLOGO] |
+| A14 Outras (infectologia, reprodução, geriatria, equinos, silvestres, IA na Saúde, odontologia, auxiliar) | 541, 95 | Congresso Anclivepa de medicina de animais selvagens e pets não convencionais, 2025 (https://visitesaopaulo.com/evento/congresso-anclivepa-de-medicina-de-animais-selvagens-e-pets-nao-convencionais-2025/); Vetlove oferece gestão e carreira (10/03/2026) | Mensagens e palavras-chave rodam por curso, como no plano do cmo |
 
 ---
 
@@ -242,15 +249,15 @@ Para cada área: o que a Ufape tem no recorte, segundo o plano do cmo (que usa o
 Hipótese: o veterinário que compra um curso livre da Ufape numa área volta para a Pós da mesma área.
 
 O que existe:
-- Estrutura que favorece: a maioria das áreas tem Pós e curso livre na mesma especialidade (plano do cmo, 2.3). O aluno de Pós tem desconto de aprimoramento (641, R$ 250,00 para aluno de pós Ufape, catálogo). A prova de bolsa custa R$ 100,00 (catálogo), contra taxa de R$ 350,00 na Anclivepa-SP (editais, 2026).
+- Estrutura que favorece: a maioria das áreas tem Pós e curso livre na mesma especialidade (plano do cmo, 2.3). O aluno de Pós tem desconto de aprimoramento (641, R$ 250,00 para aluno de pós Ufape, catálogo). A prova de bolsa (dado da linha pos) custa R$ 100,00 (catálogo, seção 3), contra taxa de R$ 350,00 na Anclivepa-SP (editais de 08/2026 e 11/2025).
 - Contexto da linha, marcado como [SUPOSIÇÃO] por quem o escreveu: "bons para remarketing e como porta de entrada para a pós".
 
-O que não existe: qualquer dado da Ufape ou público que mostre taxa de conversão de curso livre em Pós. Sem fonte. O ticket médio da Pós em turmas abertas do catálogo (de R$ 12.000,00 a R$ 48.780,00 no cartão) é de 2 a 100 vezes o do curso livre, então uma conversão baixa já seria relevante [SUPOSIÇÃO, aritmética sobre catálogo, sem conversão medida].
+O que não existe: qualquer dado da Ufape ou público que mostre taxa de conversão de curso livre em Pós. Sem fonte. Ordem de grandeza dos tickets, só aritmética sobre o catálogo (26/10/2026): as turmas de Pós abertas vão de R$ 12.000,00 (719) a R$ 48.400,00 (657) no cartão, e os cursos livres vão de R$ 96,00 a R$ 5.220,00 à vista. Isso dá uma razão de cerca de 2 vezes (R$ 12.000,00 sobre R$ 5.220,00) a cerca de 500 vezes (R$ 48.400,00 sobre R$ 96,00). Como a razão varia tanto, uma conversão baixa pode ser relevante nos formatos baratos, mas isso é [SUPOSIÇÃO], sem conversão medida.
 
 Como testar sem inventar números:
 1. Cruzar, no CRM e por pessoa, quem comprou curso livre de uma área e depois se matriculou em Pós da mesma área, em 12 e 24 meses [CONFIRMAR]. Só números somados chegam à squad (CLAUDE.md, regra de LGPD).
 2. Medir se quem entra por minicurso (R$ 185,00 a R$ 300,00) converte diferente de quem entra por grupo de estudos (R$ 100,00) ou por presencial [CONFIRMAR].
-3. Rodar, na prova de bolsa de 27/11/2026, uma pergunta de origem ("já fez curso livre da Ufape?") e comparar a taxa de aprovação e matrícula [CONFIRMAR, depende de aprovação humana].
+3. Rodar, na prova de bolsa de 27/11/2026 (dado da linha pos), uma pergunta de origem ("já fez curso livre da Ufape?") e comparar a taxa de aprovação e matrícula [CONFIRMAR, depende de aprovação humana]. O formulário precisa informar a finalidade da pergunta e ter link para a política de privacidade.
 4. Critério de decisão: só tratar o curso livre como funil de Pós nas peças depois do passo 1.
 
 ---
@@ -263,7 +270,8 @@ A skill pede mínimo, máximo, fonte e confiança por grupo, por linha. Só dá 
 
 | Grupo | Mínimo | Máximo | Conta | Fonte | Confiança |
 |---|---|---|---|---|---|
-| Universo de médicos-veterinários em atividade (referência, não é público da linha) | 154,9 mil | 182,3 mil | Leitura direta de duas fontes | Forbes Brasil (2021); AviNews (09/09/2025) | Média a baixa |
+| Universo de médicos-veterinários registrados (referência, não é público da linha) | 154,9 mil | quase 240 mil | Leitura direta de duas fontes de critério "registrados" | Forbes Brasil (09/2021); AviNews (09/09/2025) | Baixa: datas diferentes |
+| Universo de médicos-veterinários em atividade (referência) | 182,3 mil | 182,3 mil | Leitura direta; só um número com critério e data | AviNews (09/09/2025) | Média a baixa |
 | Clínicos de pequenos animais (G1) | sem fonte | sem fonte | Fração do universo por área de atuação; não achada | CRMV-SP ou CFMV (pedir) | - |
 | Estudantes e recém-formados (G2) | sem fonte | sem fonte | Concluintes do Censo da Educação Superior (INEP); não consultado | INEP | - |
 | Auxiliares veterinários (G5) | sem fonte | sem fonte | - | - | - |
@@ -280,7 +288,7 @@ A skill pede mínimo, máximo, fonte e confiança por grupo, por linha. Só dá 
 
 ### 13.3 O que muda a confiança
 
-- Pesquisa oficial do CFMV sobre a distribuição por área e por estado (o relatório de gestão de 2025 do CFMV existe em cfmv.gov.br, mas não abriu para leitura).
+- Pesquisa oficial do CFMV sobre a distribuição por área e por estado (o relatório de gestão de 2025 do CFMV, https://www.cfmv.gov.br/wp-content/uploads/2026/02/CFMVRELATORIOGESTAO2025.pdf, 02/2026, existe mas não abriu para leitura).
 - Dados de venda, funil e CRM da Ufape por formato e área.
 - Pesquisa direta com a base (insights-de-alunos, etapa 1.3).
 
@@ -290,17 +298,17 @@ A skill pede mínimo, máximo, fonte e confiança por grupo, por linha. Só dá 
 
 ### Oportunidades
 
-1. **Grupo de estudos de R$ 100,00 e prova de bolsa de R$ 100,00 como degrau barato.** Preço muito abaixo da taxa de R$ 350,00 da prova de bolsa da Anclivepa-SP (editais, 2026) e dentro da faixa do catálogo. Teste de conversão pelo CRM. Fonte: catálogo e editais da Anclivepa-SP. Confiança: média.
-2. **Minicurso de 8 h como entrada em temas onde há congresso e Pós.** Há congressos paralelos de nefrologia, neurologia, dermatologia, hematologia, gastro e ortopedia em SP em 2026, e a Ufape tem Pós e minicurso nessas áreas. Fonte: visitesaopaulo.com, 2026, e catálogo. Confiança: baixa a média (demanda em número: sem fonte).
-3. **Hands-on em imagem e endoscopia (A2 e A5) com turma pequena.** São os abertos com data e ticket de R$ 890,00 a R$ 2.350,00. Referência internacional de ticket de £ 1.450 a £ 1.600 sugere espaço premium, mas não é prova. Fonte: catálogo e Langford (2026). Confiança: baixa.
-4. **Gravados em espanhol para a América Latina (347 e 501).** Alcance sem deslocamento; oferta regional existe (Quadam, Maimónides). Demanda e preço regional: sem fonte. Confiança: baixa.
-5. **Workshop de Neuromonitorização como evento de profundidade com parceria de curso gravado.** Formato (16 h, 30 vagas, gravação a R$ 450,00) cria dois níveis de preço e uma lista por especialidade. Fonte: catálogo. Confiança: média para o desenho, baixa para a demanda.
+1. **Grupo de estudos de R$ 100,00 e prova de bolsa de R$ 100,00 como degrau barato.** A prova de bolsa é dado da linha pos. Preço bem abaixo da taxa de R$ 350,00 da prova de bolsa da Anclivepa-SP (edital de 08/2026) e dentro da faixa do catálogo. Teste de conversão pelo CRM. Fonte: catálogo (26/10/2026) e edital da Anclivepa-SP (08/2026). Confiança: média.
+2. **Minicurso de 8 h como entrada em temas onde há congresso e Pós.** Há congressos paralelos de nefrologia, neurologia, dermatologia, hematologia, gastro e ortopedia em SP em 2026, e a Ufape tem Pós e minicurso nessas áreas. Fonte: visitesaopaulo.com (calendário 2026) e catálogo (26/10/2026). Confiança: baixa a média (demanda em número: sem fonte).
+3. **Hands-on em imagem e endoscopia (A2 e A5) com turma pequena.** São os cursos abertos com data e ticket de R$ 890,00 a R$ 2.350,00 (presenciais e um semipresencial, o 573). Referência internacional de ticket de £ 1.450 a £ 1.600 sugere espaço premium, mas não é prova. Fonte: catálogo (26/10/2026) e Langford (consulta em 26/10/2026). Confiança: baixa.
+4. **Gravados em espanhol para a América Latina (347 e 501).** Alcance sem deslocamento; oferta regional existe (Quadam, Maimónides 2026). Demanda e preço regional: sem fonte. Confiança: baixa.
+5. **Workshop de Neuromonitorização como evento de profundidade com parceria de curso gravado.** Formato (16 h, 30 vagas, gravação a R$ 450,00) cria dois níveis de preço e uma lista por especialidade. Fonte: catálogo (26/10/2026). Confiança: média para o desenho, baixa para a demanda.
 
 ### Riscos
 
-1. **Substituição por conteúdo gratuito de grande empresa.** A Vetlove (Petlove, 10/03/2026) é gratuita e traz FGV e Anclivepa. Pode pressionar minicursos e gravados baratos. Fonte: Mercado&Consumo.
-2. **Catálogo com status incerto e duplicidades.** 20 de 32 presenciais em "verificar", possível duplicidade 623 e 68637, cargas horárias e preços divergentes entre PT e ES. Vender ou medir demanda sobre esse catálogo gera erro. Fonte: catálogo, 26/10/2026, e plano do cmo.
-3. **Concentração de calendário e de autoridade em entidades e congressos.** A Anclivepa tem congresso e pós e pode ocupar a data de novembro de 2026; os congressos do Animal Health Science Ecosystem concentram a oferta de especialidade em SP. Fonte: visitesaopaulo.com, agrolink e editais da Anclivepa-SP, 2026 (data do congresso da Anclivepa não oficial).
+1. **Substituição por conteúdo gratuito de grande empresa.** A Vetlove (Petlove, 10/03/2026) é gratuita e traz FGV e Anclivepa. Pode pressionar minicursos e gravados baratos [SUPOSIÇÃO]. Fonte: Mercado&Consumo, 10/03/2026.
+2. **Catálogo com status incerto e duplicidades.** 20 de 32 presenciais em "verificar", possível duplicidade 623 e 68637, cargas horárias e preços divergentes entre PT e ES. Vender ou medir demanda sobre esse catálogo gera erro. Fonte: catálogo (26/10/2026) e plano do cmo (26/10/2026).
+3. **Concorrência de calendário e de oferta em entidades e congressos.** A Anclivepa tem congresso e pós e pode ocupar a data de novembro de 2026 [SUPOSIÇÃO]; os congressos do Animal Health Science Ecosystem reúnem a oferta de especialidade em SP. Fonte: visitesaopaulo.com (2026), Agrolink (sem data de publicação, agenda não oficial) e editais da Anclivepa-SP (08/2026 e 11/2025).
 
 ### Quadro SWOT do recorte (skill analise-swot)
 
@@ -308,8 +316,10 @@ O plano do cmo reserva o SWOT para turmas I da Pós; para a linha livres e event
 
 | | Ajuda | Atrapalha |
 |---|---|---|
-| Interno | Forças: portfólio amplo (58 itens de livres e eventos no recorte do cmo, 26/10/2026); degraus de R$ 100,00 a R$ 300,00; hospital próprio para prática (a confirmar e documentar, ufape-geral.md); credenciamento da instituição pelas portarias citadas no contexto geral | Fraquezas: catálogo com muitos "verificar" e duplicidades; sem meta, verba nem dado de funil; texto de certificação ainda não aprovado; contexto da linha de eventos todo [CONFIRMAR] |
+| Interno | Forças: portfólio amplo (58 itens de livres e eventos no recorte do cmo, 26/10/2026); degraus de R$ 100,00 a R$ 300,00 (catálogo); hospital próprio para prática (a confirmar e documentar, ufape-geral.md) | Fraquezas: catálogo com muitos "verificar" e duplicidades; sem meta, verba nem dado de funil; texto de certificação ainda não aprovado; contexto da linha de eventos todo [CONFIRMAR] |
 | Externo | Oportunidades: ver as cinco acima; número grande de veterinários e crescimento de cursos de graduação | Ameaças: Vetlove gratuita; congressos e pós de entidades; mercado pet com crescimento moderado (2,4% em 2025 projetado) |
+
+Nota: o credenciamento da instituição pelas portarias do MEC (ufape-geral.md) foi retirado das forças. Ele vale para graduação e pós, não para curso livre, que não confere diploma nem equivale a elas.
 
 **O que exige decisão agora (humana, da pessoa do marketing):**
 1. Confirmar com a Ufape se 623 e 68637 são o mesmo curso, e se as turmas iniciadas ainda à venda continuam à venda [CONFIRMAR NO CATÁLOGO]. Impede dimensionar e planejar mídia.
@@ -325,27 +335,32 @@ O plano do cmo reserva o SWOT para turmas I da Pós; para a linha livres e event
 2. insights-de-alunos (1.3): só se a Ufape enviar conversas anonimizadas do WhatsApp de vendas.
 3. pesquisa-de-persona (1.4): usar G1 a G6 da seção 3.2 e as perguntas abertas da seção 12.
 4. Pedidos de dados externos: CRMV-SP (contagem por área e por município), INEP (concluintes de Medicina Veterinária), Colegio Médico Veterinario del Perú.
+5. Para a próxima versão: levar as seções 8, 9 e 13.2 para um arquivo da linha eventos (recomendação do qa-de-marketing).
 
 ---
 
-## Lista A: fatos com fonte
+## Lista A: fatos com fonte (todas com data ou marcadas)
 
 1. Quase 240 mil médicos-veterinários registrados e cerca de 182,3 mil em atividade, em mais de 80 áreas, segundo o Sistema CFMV/CRMVs. Fonte: AviNews, 09/09/2025. https://avinews.com/pt-br/profissao-que-conecta-como-o-medico-veterinario-une-bem-estar-ciencia-e-desempenho-animal/
-2. 154,9 mil profissionais registrados no CFMV. Fonte: Forbes Brasil, 2021. https://forbes.com.br/carreira/2021/09/dia-do-veterinario-5-areas-promissoras-para-os-proximos-anos-que-vao-muito-alem-dos-pets/
-3. Mais de 180 mil veterinários registrados no sistema CFMV/CRMV (blog contábil, 2026, sem fonte própria). https://www.contabilidadezen.com.br/blog/contabilidade-medico-veterinario-pj-2026/
-4. 77,4 médicos-veterinários por 100 mil habitantes em 2022. Fonte: carta aberta do CRMV-RS em cfmv.gov.br (2023). https://www.cfmv.gov.br/wp-content/uploads/2023/06/Carta-Aberta-em-Prol-da-Qualidade-do-Ensino-da-Medicina-Veterinaria-no-Brasil.pdf
-5. CRMV-RJ: 14.534 médicos-veterinários ativos em março de 2024. Fonte: relatório trimestral de atividades fim, jan a mar 2024. https://transparencia.crmvrj.org.br/wp-content/uploads/2024/05/relatorio_trimestral_de_atividades_fim_jan_a_mar_2024.pdf
-6. Cursos de graduação em Medicina Veterinária: cerca de 200 em 2015 e quase 600 em 2025, mais de 87 mil vagas presenciais autorizadas; PL 2.559/25 propõe graduação exclusivamente presencial. Fontes: Quero Bolsa e Congresso em Foco (2025). https://querobolsa.com.br/revista/projeto-de-lei-propoe-que-cursos-de-medicina-veterinaria-sejam-apenas-presenciais e https://www.congressoemfoco.com.br/noticia/109366/deputado-propoe-cursos-de-medicina-veterinaria-apenas-presenciais
-7. Vetlove (Petlove): lançada em março de 2026, três eixos (saúde, carreira, negócios), inscrição gratuita para profissionais com registro ativo, cursos de FGV e Anclivepa. Fonte: Mercado&Consumo, 10/03/2026. https://mercadoeconsumo.com.br/10/03/2026/noticias-varejo/petlove-lanca-vetlove-plataforma-voltada-ao-desenvolvimento-e-bem-estar-dos-medicos-veterinarios/ (abriu só pelo resumo da busca; também em https://propmark.com.br/anunciantes/vetlove-e-a-nova-plataforma-da-petlove-focada-e-gestao-para-veterinarios/)
-8. Vetsapiens: plataforma de fóruns, biblioteca, artigos, calculadoras e cursos, com investimento do Grupo Pet Care. Fonte: Panorama Pet&Vet (data não informada). https://panoramapetvet.com.br/grupo-pet-care-anuncia-investimento-no-vetsapiens-plataforma-para-desenvolvimento-de-veterinarios
-9. Anclivepa-SP: taxa de inscrição de R$ 350,00 na prova de bolsa de fevereiro e agosto de 2027 (inscrições de 01/08/2026 a 07/11/2026) e na pós em Cardiologia 2026. Fonte: editais no portal da Anclivepa-SP. https://portal.anclivepa-sp.org.br/wp-content/uploads/2026/08/Edital-Prova-de-bolsa-Fevereiro-de-2027-1.pdf
-10. Langford Vets: curso de ecocardiografia, £ 1.450 a £ 1.600, 22/10 e 03/12/2026. Fonte: VetClick e Langford. https://www.vetclick.com/calendar/courses/veterinary-echocardiography-course-p5910.php
-11. Congressos veterinários em São Paulo em 2026: CINUV de 01 a 03/07/2026 (Espaço Fit Eventos); série do Animal Health Science Ecosystem no Expo Center Norte; PET VET Expo de 12 a 14/08/2026 (Distrito Anhembi). Fonte: calendário visitesaopaulo.com e distritoanhembi.com.br. https://visitesaopaulo.com/evento/congresso-internacional-de-nefrologia-e-urologia-veterinarias-2026/
-12. Mercado pet: projeção de R$ 77,2 bilhões em 2025, alta de 2,4% (Abinpet e Instituto Pet Brasil); 62,2 milhões de cães e 30,8 milhões de gatos (Abinpet e IPB, ano de referência não confirmado). Fonte: Diário do Comércio (2025). https://diariodocomercio.com.br/negocios/mercado-pet-minas-gerais-2025/
-13. Oferta em espanhol: Quadam (cursos online em espanhol e inglês); Maimónides (Argentina, ecografia 2026); Facultad de Veterinaria, Uruguai (anestesiologia, cupo de 20, setembro de 2025). https://quadam.com/ ; https://maimonides.edu/descargas/Ecografia-abdominal-en-pequenos-animales-2026.pdf ; https://www.fvet.edu.uy/wp-content/uploads/2025/09/Curso-EP-382-Conceptos-de-Anestesiologia-Aplicados-a-la-Clinica.pdf
-14. Colégio Médico Veterinário do Peru opera com normas de 1966; projeto PL 11194/2024-CR propõe novo colégio. Fonte: LP Derecho. https://lpderecho.pe/derogar-ley-16200-colegio-medico-veterinario-peru/
-15. Grupos de estudos de felinos em universidades públicas (UFPel desde 2016; UEL com encontros quinzenais online). Fontes: anais do SIEPE (UFPel) e Proensino (UEL). https://anais-siiepe.ufpel.edu.br/2018/CA_02784.pdf
-16. Dados de curso da Ufape (preços, cargas horárias, status, datas, vagas do workshop, cupom): contexto/catalogo-de-cursos.md, gerado em 26/10/2026.
+2. 154,9 mil profissionais registrados no CFMV e 80 áreas de atuação. Fonte: Forbes Brasil, 09/2021. https://forbes.com.br/carreira/2021/09/dia-do-veterinario-5-areas-promissoras-para-os-proximos-anos-que-vao-muito-alem-dos-pets/
+3. Mais de 180 mil veterinários registrados no sistema CFMV/CRMV (blog contábil, 2026, sem fonte própria nem metodologia). https://www.contabilidadezen.com.br/blog/contabilidade-medico-veterinario-pj-2026/
+4. 77,4 médicos-veterinários por 100 mil habitantes em 2022. Fonte: carta aberta do CRMV-RS em cfmv.gov.br, 2023. https://www.cfmv.gov.br/wp-content/uploads/2023/06/Carta-Aberta-em-Prol-da-Qualidade-do-Ensino-da-Medicina-Veterinaria-no-Brasil.pdf
+5. CRMV-RJ: 14.534 médicos-veterinários ativos em março de 2024. Fonte: relatório trimestral de atividades fim, jan a mar 2024 (publicado em 05/2024). https://transparencia.crmvrj.org.br/wp-content/uploads/2024/05/relatorio_trimestral_de_atividades_fim_jan_a_mar_2024.pdf
+6. Cursos de graduação em Medicina Veterinária: cerca de 200 em 2015 e quase 600 em 2025, mais de 87 mil vagas presenciais autorizadas; PL 2.559/25 propõe graduação exclusivamente presencial. Fontes: Quero Bolsa e Congresso em Foco, 2025. https://querobolsa.com.br/revista/projeto-de-lei-propoe-que-cursos-de-medicina-veterinaria-sejam-apenas-presenciais e https://www.congressoemfoco.com.br/noticia/109366/deputado-propoe-cursos-de-medicina-veterinaria-apenas-presenciais. Outro indicador (536 cursos e mais de 107 mil vagas totais em 2023, e-MEC, carta do CFMV, 2023) está em pesquisa-de-mercado-pos-2026-10-26.md.
+7. Vetlove (Petlove): lançada em março de 2026, três eixos (saúde, carreira, negócios), inscrição gratuita para profissionais com registro ativo, cursos de FGV e Anclivepa. Fonte: Mercado&Consumo, 10/03/2026. https://mercadoeconsumo.com.br/10/03/2026/noticias-varejo/petlove-lanca-vetlove-plataforma-voltada-ao-desenvolvimento-e-bem-estar-dos-medicos-veterinarios/ (lido só pelo resumo da busca; também em https://propmark.com.br/anunciantes/vetlove-e-a-nova-plataforma-da-petlove-focada-e-gestao-para-veterinarios/, sem data de publicação)
+8. Vetsapiens: plataforma de fóruns, biblioteca, artigos, calculadoras e cursos, com investimento do Grupo Pet Care. Fontes: Startupi, 07/2021 (https://startupi.com.br/2021/07/grupo-petland-adquire-plataforma-educacional-para-profissionais-e-estudantes-de-medicina-veterinaria/) e Panorama Pet&Vet, sem data de publicação (https://panoramapetvet.com.br/grupo-pet-care-anuncia-investimento-no-vetsapiens-plataforma-para-desenvolvimento-de-veterinarios).
+9. Anclivepa-SP: taxa de inscrição de R$ 350,00 na prova de bolsa de fevereiro e agosto de 2027 (inscrições de 01/08/2026 a 07/11/2026; edital de 08/2026) e na pós em Cardiologia 2026 (inscrições de 01/10/2025 a 16/01/2026; edital de 11/2025). https://portal.anclivepa-sp.org.br/wp-content/uploads/2026/08/Edital-Prova-de-bolsa-Fevereiro-de-2027-1.pdf e https://portal.anclivepa-sp.org.br/wp-content/uploads/2025/11/Edital-Cardiologia-veterinaria-2026-.pdf
+10. Langford Vets: curso de ecocardiografia, £ 1.450 a £ 1.600, datas 22/10/2026 (já passou) e 03/12/2026. Fonte: VetClick e Langford, consulta em 26/10/2026, sem data de publicação. https://www.vetclick.com/calendar/courses/veterinary-echocardiography-course-p5910.php
+11. Congressos veterinários em São Paulo em 2026: CINUV de 01 a 03/07/2026 (Espaço Fit Eventos); série do Animal Health Science Ecosystem no Expo Center Norte (inclui comportamento, ortopedia, hematologia, neurologia, dermatologia, gastroenterologia, endocrinologia, cirurgia de tecidos moles); PET VET Expo de 12 a 14/08/2026 (Distrito Anhembi). Fontes: calendário visitesaopaulo.com, 2026 (https://visitesaopaulo.com/evento/congresso-internacional-de-nefrologia-e-urologia-veterinarias-2026/ e https://visitesaopaulo.com/evento/congresso-de-endocrinologia-veterinaria-metabolismo-obesidade-diabetes-2026/) e https://distritoanhembi.com.br/?p=15805. Datas e preços de cada congresso do Animal Health Science Ecosystem: sem fonte.
+12. Mercado pet: projeção de R$ 77,2 bilhões em 2025, alta de 2,4% (Abinpet e Instituto Pet Brasil); 62,2 milhões de cães e 30,8 milhões de gatos (Abinpet e IPB, ano de referência não confirmado). Fonte: Diário do Comércio, 2025. https://diariodocomercio.com.br/negocios/mercado-pet-minas-gerais-2025/
+13. Oferta em espanhol: Quadam (cursos online em espanhol e inglês, sem data de publicação, consulta em 26/10/2026); Maimónides (Argentina, ecografia, 2026); Facultad de Veterinaria, Uruguai (anestesiologia, cupo de 20, 09/2025); Emagister Colômbia (sem data de publicação). https://quadam.com/ ; https://maimonides.edu/descargas/Ecografia-abdominal-en-pequenos-animales-2026.pdf ; https://www.fvet.edu.uy/wp-content/uploads/2025/09/Curso-EP-382-Conceptos-de-Anestesiologia-Aplicados-a-la-Clinica.pdf ; https://www.emagister.com.co/cursos-veterinario-kwes-3511_2.htm
+14. Colégio Médico Veterinário do Peru opera com normas de 1966; projeto PL 11194/2024-CR propõe novo colégio. Fonte: LP Derecho, 2025. https://lpderecho.pe/derogar-ley-16200-colegio-medico-veterinario-peru/
+15. Grupos de estudos de felinos em universidades públicas: UFPel desde 2016 (anais de 2016 e 2018) e UEL com encontros quinzenais online (anais sem data de publicação). https://anais-siiepe.ufpel.edu.br/2018/CA_02784.pdf ; https://anais-siiepe.ufpel.edu.br/2016/CA_00874.pdf ; https://anais.uel.br/portal/index.php/proensino/article/download/5190/4543/15113
+16. Preço de consulta veterinária em Lima: S/ 30 a S/ 100, "precios actualizados: abril 2026". https://cuantomecuesta.com/pe/veterinario/
+17. Congresso Brasileiro da Anclivepa: edição de 2025 de 06 a 08/11/2025 e próxima em novembro de 2026, segundo agenda de terceiros, não oficial, sem data de publicação. https://www.agrolink.com.br/eventos/41--congresso-brasileiro-da-anclivepa
+18. Universidade Lusófona: curso de ultrassonografia clínica, 61 h, sem data de publicação, consulta em 26/10/2026. https://www.ulusofona.pt/lisboa/formacao/ultrassonografia-clinica-em-animais-de-companhia
+19. Congresso Anclivepa de medicina de animais selvagens e pets não convencionais, 2025. https://visitesaopaulo.com/evento/congresso-anclivepa-de-medicina-de-animais-selvagens-e-pets-nao-convencionais-2025/
+20. Dados de curso da Ufape (preços, cargas horárias, modalidades, status, datas, vagas do workshop, cupom, preço de R$ 100,00 da prova de bolsa): contexto/catalogo-de-cursos.md, gerado em 26/10/2026.
 
 ## Lista B: suposições
 
@@ -359,22 +374,24 @@ O plano do cmo reserva o SWOT para turmas I da Pós; para a linha livres e event
 8. [SUPOSIÇÃO] O preço dos presenciais em Lima é alto frente à renda local.
 9. [SUPOSIÇÃO] Workshop pago de 30 vagas gera lista qualificada por especialidade.
 10. [SUPOSIÇÃO] A data do Congresso da Anclivepa pode coincidir com o workshop de 20/11/2026.
-11. [SUPOSIÇÃO] Os dados do catálogo de 623 e 68637 representam o mesmo curso.
-12. [SUPOSIÇÃO] A prova de título de especialista é regida por entidades e exige preparatório (regulamento não conferido).
+11. [SUPOSIÇÃO] Os produtos 623 e 68637 do catálogo representam o mesmo curso.
+12. [SUPOSIÇÃO] A prova de título de especialista exige preparatório (quem a rege não foi conferido).
+13. [SUPOSIÇÃO] Os valores de R$ 60,00 a R$ 1.006,67 do Guia da Carreira (Vitória-ES) são mensalidades.
+14. [SUPOSIÇÃO] Estimativas de veterinários "em atividade" de 166 mil, 200 mil e 215 mil, vindas de reportagens sem data nem fonte primária, não foram usadas.
 
 ## Lista C: dados que faltam
 
 1. Metas, verba por linha, responsável interno e aprovação de peças: [CONFIRMAR] (ufape-geral.md, seção "Meta do trimestre", vazia).
 2. Vendas, funil e conversão por formato e por área; recompra; taxa de conclusão: [CONFIRMAR] (dado interno, só agregado).
 3. Conversão de curso livre para Pós e para prova de bolsa, em 12 e 24 meses: [CONFIRMAR].
-4. Contagem de médicos-veterinários por área de atuação e por estado, em especial SP (CRMV-SP ou CFMV): sem fonte.
+4. Contagem de médicos-veterinários por área de atuação e por estado, em especial SP (CRMV-SP ou CFMV); número oficial de 2025: sem fonte.
 5. Concluintes e matriculados em Medicina Veterinária (Censo da Educação Superior, INEP): sem fonte.
 6. Número de veterinários em Lima e no Peru; preço de curso veterinário presencial em Lima; renda e câmbio: sem fonte.
-7. Preços públicos de concorrentes brasileiros de curso curto (MEDVEP, Qualittas, plataformas, congressos), inclusive ingressos dos congressos de SP: sem fonte.
+7. Preços públicos de concorrentes brasileiros de curso curto (MEDVEP, Qualittas, plataformas, congressos), inclusive ingressos e datas dos congressos de SP: sem fonte.
 8. Pesquisa de comportamento do veterinário (preferência de formato, uso de conteúdo gratuito): sem fonte.
 9. Eventos: preço típico, formato, público, política de grupo e certificado padrão da linha: [CONFIRMAR] (contexto/eventos.md).
 10. Data oficial do Congresso da Anclivepa 2026; resultados do Simpósio Plantonista de 10/10/2026: [CONFIRMAR].
 11. Docentes autorizados do workshop de 20/11/2026: [CONFIRMAR autorização].
-12. Divergências do catálogo: 623 e 68637; cargas horárias 347 (25 h) e 340 (23 h); preço de 501 (R$ 260,00, 6 h) e 602 (R$ 96,00, 4 h); 640 (R$ 1.000,00 e 1x de R$ 2.000,00): [CONFIRMAR NO CATÁLOGO].
+12. Divergências do catálogo: 623 e 68637; cargas horárias 347 (25 h) e 340 (23 h); preço e carga de 501 (R$ 260,00, 6 h) e 602 (R$ 96,00, 4 h); 640 (R$ 1.000,00 e 1x de R$ 2.000,00); modalidade de 68618 e de 616; carga horária de 68638: [CONFIRMAR NO CATÁLOGO].
 13. Texto oficial de certificação do curso livre: [PREENCHER COM A REGULAÇÃO].
 14. Revisão por falante nativo do material em espanhol e meios de pagamento para fora do Brasil: [CONFIRMAR].
