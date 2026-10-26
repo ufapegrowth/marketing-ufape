@@ -3,6 +3,7 @@
 - **Agente:** newsletter (departamento 07, E-mail, WhatsApp e Relacionamento), etapa 1.29 da camada 1
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos). Graduação fora, com o motivo na seção 1.3.
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteA (NG1 e NG2 obrigatórias; NG3 a NG7 aplicadas). O que mudou está na seção 8.
 - **Status:** rascunho para o qa-de-marketing (auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação humana. A squad não envia nada: este arquivo é texto e regra para a ferramenta de e-mail e para o CRM enviarem, depois da aprovação da pessoa do marketing.
 - **Formato:** templates/mensagem.md, com a skill .claude/skills/assuntos-de-email/SKILL.md para assuntos e primeiras linhas.
 - **Entradas lidas:**
@@ -16,7 +17,9 @@
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (seções 1, 5.4, 6, 7, 8 e 9)
   - saidas/02-estrategia-e-posicionamento/posicionamento-pos-2026-10-26.md e posicionamento-livres-2026-10-26.md (estrutura e regras de "o que nunca afirmar", via as estratégias de conteúdo)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a-b.md e qa-de-marketing-geral-2026-10-26-dep02b.md (vereditos sobre o guia de marca e os posicionamentos)
-  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (régua das provas, para não somar envios) e copy-de-mensagens-eventos-2026-10-26.md (régua do workshop)
+  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (régua das provas, para não somar envios) e copy-de-mensagens-eventos-2026-10-26.md (régua escrita do workshop, mapa da seção 1 e datas de cada follow-up; fonte das datas do workshop na versão 2)
+  - saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md (1.26 da Pós, dona da regra de cadência: seção 3.2, item 6) e estrategia-de-relacionamento-livres-2026-10-26.md (1.26 de Livres, que usa a agenda da edição 1 como o e-mail de Livres para quem está em todas as bases)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (seção 6, revisão deste arquivo)
   - templates/mensagem.md, .claude/skills/assuntos-de-email/SKILL.md, auditorias/07-email-e-whatsapp.md, auditorias/conformidade-educacional.md
 - **Revisões do qa sobre as entradas:** não há revisão do qa sobre as duas estratégias de conteúdo (1.19) até esta data. O guia de marca (dep02a-b) e os três posicionamentos (dep02b) estão **bloqueados** e voltaram aos agentes. Este arquivo herda os pontos que o qa apontou: bolsa sempre com data, público, regra de não acumulação e marcação de que as regras vêm da página da prova; turma mínima de 15 ou 20 marcada [CONFIRMAR]; nenhuma peça das provas 68641 e 68642 (links trocados).
 - Não abri faculdade.ufape.com.br. Nenhuma busca na web. Nenhum dado pessoal: a newsletter não usa nem o primeiro nome do contato (seção 2.4).
@@ -27,7 +30,7 @@
 
 1. **O que é:** uma newsletter quinzenal por e-mail, para a base de médicos veterinários e estudantes com consentimento de e-mail, que junta Pós, Livres e Eventos em uma edição só, mais uma chamada curta no WhatsApp só para quem deu opt-in nesse canal. Uma ideia principal por edição, uma chamada, uma agenda com datas do catálogo.
 2. **Para que serve:** apoio à decisão (como escolher, quanto tempo, quanto custa), que é a camada comum às duas estratégias de conteúdo. A venda de cada turma continua nas réguas das campanhas; a newsletter não é régua de venda.
-3. **Cadência proposta:** quinzenal, às quartas ou quintas, 10h [SUPOSIÇÃO]. Primeira edição em **qua 18/11/2026** e não em 12/11, porque a semana de 09 a 13/11 já tem 2 e-mails da campanha das provas para a mesma base, e o teto combinado é de 2 e-mails de campanha por semana por contato (seção 3.2). A edição de 26/11 prevista na estratégia de conteúdo da Pós sai pelo mesmo motivo; o conteúdo dela já está na mensagem de véspera aos inscritos (M12 da régua das provas).
+3. **Cadência proposta:** quinzenal, às quartas ou quintas, 10h [SUPOSIÇÃO]. Primeira edição em **qua 18/11/2026** e não em 12/11, porque a semana de 09 a 15/11 já tem para a mesma base 2 e-mails da campanha das provas e 2 do workshop (follow-up de 09/11 e lembrete M3 de 14/11), e o teto da 1.26 é de 2 e-mails e 2 WhatsApp de campanha por semana por contato, somando todas as linhas, com um canal por dia (seção 3.2). A edição de 26/11 prevista na estratégia de conteúdo da Pós sai pelo mesmo motivo; o conteúdo dela já está na mensagem de véspera aos inscritos (M12 da régua das provas).
 4. **Entregue aqui:** regras de envio e LGPD (seção 2), calendário de 7 edições até 18/02/2027 (seção 3), a edição 1 completa (seção 4) e a edição 2 completa (seção 5), cada uma com 3 assuntos, pré-visualização, e-mail inteiro e versão de WhatsApp.
 5. **O que falta para enviar:** tamanho da base, ferramenta de e-mail, registro de consentimento, URL da política de privacidade, URL do guia de escolha e do guia de investimento, e as pendências de dado de cada item da agenda. Tudo marcado [CONFIRMAR].
 
@@ -142,7 +145,7 @@ Regras:
 | 1 | qua 18/11/2026, 10h | Antes de escolher uma pós, faça estas 7 perguntas | Guia C08 da estratégia de conteúdo da Pós ("Como escolher uma pós-graduação em Medicina Veterinária"), previsto para 12/11 | Workshop (20 e 21/11), grupo 68666 (25/11), provas de bolsa (27/11), Pós 68610 e 68608 e Livre 68614 (28/11) | C08 publicado; URL [CONFIRMAR]. Plano B na seção 4 |
 | 2 | qui 03/12/2026, 10h | Quanto tempo e quanto custa cada formato: pós, curso prático, gravado, minicurso, grupo e evento | Guia de investimento T8 da Pós (bloco D1, 30/11 a 06/12) ou guia L27 dos Livres, o que estiver publicado | Ventilação Mecânica 68618 (18/12, condicional) e turmas de Pós de março de 2027 (657, 289, 68615, 341, 333) | T8 ou L27 publicados; URL [CONFIRMAR]. Plano B na seção 5 |
 | 3 | qui 17/12/2026, 10h | Cardiologia: pós, ecocardiografia gravada ou curso prático, por onde começar (área A2) | Guia de A2 da Pós (bloco D3, 14 a 20/12); plano B: guia de Anestesiologia (bloco D2) | Pós-graduação em Cardiologia Veterinária em Goiânia (289, 20/03/2027); Curso de Ecocardiograma em Pequenos Animais (411, contínuo) | 698 fora até a data do site ser corrigida; provas de Cardiologia (68641, 68642) fora |
-| 4 | ter 22/12/2026, 10h | Edição de fim de ano, sem venda: as perguntas que mais recebemos em 2026 e onde está a resposta | Página de FAQ ou hub com as respostas [CONFIRMAR qual] | Sem agenda de venda; só o horário da secretaria no recesso [CONFIRMAR] | Lista de perguntas recorrentes da secretaria e das vendas, sem dado pessoal [CONFIRMAR]. Sem envio de 28/12 a 08/01 |
+| 4 | ter 22/12/2026, 10h | Edição de fim de ano, sem venda: as perguntas que mais recebemos em 2026 e onde está a resposta | Página de FAQ ou hub com as respostas [CONFIRMAR qual] | Sem agenda de venda; só o horário da secretaria no recesso [CONFIRMAR] | Lista de perguntas recorrentes da secretaria e das vendas, sem dado pessoal [CONFIRMAR]. **Exceção a aprovar:** a 1.26 da Pós reserva 21/12 a 03/01 a serviço e manutenção; a edição 4 só sai com aval do cmo e da dona da 1.26 (pedido N7). Sem o aval, ela passa para qui 07/01/2027. Sem envio de 24/12 a 03/01 nem em 25/12, 31/12 e 01/01 |
 | 5 | qui 14/01/2027, 10h | Turmas de março de 2027: o que comparar antes da janela de decisão (1ª mensalidade cerca de 30 dias antes do início, conforme a maioria das fichas [CONFIRMAR NO CATÁLOGO]) | Tabela de turmas de março com condições completas (bloco J1 da Pós) | 657, 289, 68615, 341 (sem o desconto) e 333; grupos e contínuos da área da semana (rotação dos Livres, seção 5.3) | Pré-requisito de 657 [CONFIRMAR]; 333 sem peça de autoridade docente |
 | 6 | qui 28/01/2027, 10h | Turma mínima, confirmação da turma e quando comprar passagem | Guia "compre só com a turma confirmada" (bloco J4 da Pós) | Turmas de março; Curso Prático de POCUS em Emergência Veterinária (68638, 06/03/2027) com carga horária [CONFIRMAR NO CATÁLOGO] | Mínimo de 15 ou 20 e data de confirmação da turma [CONFIRMAR] |
 | 7 | qui 18/02/2027, 10h | Clínica cirúrgica em São Paulo e Goiânia: presencial ou semipresencial | FAQ de A4 (bloco F3 da Pós) | Turmas de abril de A4 (68632 presencial em Goiânia, 366); POCUS 68638 | 662 sem preço até a correção do link; 366 sem data (P4). Semana de Carnaval (08 a 12/02) fica sem envio |
@@ -151,17 +154,25 @@ As edições 3 a 7 ficam como pauta: o texto de cada uma é escrito na quinzena 
 
 ### 3.2 Como a newsletter convive com as réguas de campanha
 
-Teto por contato, somando todas as campanhas: 2 e-mails e 2 WhatsApp de marketing por semana [SUPOSIÇÃO herdada da estratégia de campanha da Pós, seção 4.3, e da régua das provas]. Mensagem de serviço ao inscrito não conta.
+Regra de cadência (dona: estrategia-de-relacionamento-pos, 1.26, seção 3.2, item 6, herdada sem mudança pela 1.26 de Livres): no máximo 2 e-mails e 2 WhatsApp de campanha por contato por semana, somando Pós, Livres, Eventos e newsletter; um canal por dia por contato (nunca e-mail e WhatsApp de campanha no mesmo dia); WhatsApp só em dia útil, das 9h às 18h [SUPOSIÇÃO até a Ufape confirmar, pedido R6 da 1.26]. Mensagem de serviço ao inscrito não conta.
 
-| Semana | E-mails de campanha já previstos para a base | Newsletter | Decisão |
-|---|---|---|---|
-| 02 a 06/11 | Provas M2 ou M4 (03/11) e M6 (05/11); workshop e-mail 1 (05/11) | não | A semana já passa do teto se os dois públicos coincidirem: alerta para o copy-de-mensagens e o arquiteto-de-fluxos (nota fora deste arquivo) |
-| 09 a 13/11 | Provas M7 (10/11) e reenvio (12/11) | não | A edição de 12/11 da estratégia de conteúdo da Pós (C12) passa para 18/11 |
-| 16 a 20/11 | Workshop e-mail 2 (17/11) | **Ed. 1, qua 18/11** | 2 e-mails na semana, dentro do teto. WhatsApp: workshop (18/11) e newsletter (19/11) |
-| 23 a 27/11 | Provas M8 (23/11) e reenvio (25/11) | não | A edição de 26/11 (C24) sai: o conteúdo de véspera vai aos inscritos pela M12 (serviço) |
-| 30/11 a 04/12 | Mensagens de resultado das provas (serviço) [CONFIRMAR data do resultado] | **Ed. 2, qui 03/12** | Dentro do teto |
+Datas das réguas usadas aqui: provas, saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (mapa da seção 2); workshop, saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md (mapa da seção 1 e follow-ups de cada mensagem). Pior caso: contato que está na campanha das provas, na base do workshop e na newsletter.
 
-Regra para a ferramenta: se um contato já tiver 2 e-mails de campanha agendados na semana da edição, a newsletter não sai para ele naquela edição (supressão), e ele recebe a próxima. Quem decide a regra final é a pessoa do marketing, com o arquiteto-de-fluxos.
+| Semana | E-mails de campanha já previstos (pior caso) | WhatsApp de campanha já previstos (pior caso) | Newsletter | Leitura contra o teto |
+|---|---|---|---|---|
+| 26/10 a 01/11 | Workshop M1 ou M2 (30/10, 9h) | Workshop M1 ou M2 (30/10, 10h ou 10h30) | não | Sem newsletter. E-mail e WhatsApp do workshop no mesmo dia: ponto da régua do workshop, não deste arquivo |
+| 02 a 08/11 | Provas M2 ou M4 (03/11); workshop, follow-up de M1 ou M2 (03/11, 9h); provas M6 (05/11); workshop M10 (05/11, 9h) | Provas M1 ou M3 (04/11); workshop, follow-up de M1 ou M2 (04/11, 10h); provas M5 (06/11) | não | Já passa do teto (4 e-mails e 3 WhatsApp) sem a newsletter. Nota para o copy-de-mensagens e o arquiteto-de-fluxos (seção 7) |
+| 09 a 15/11 | Workshop, follow-up de M10 (09/11, 9h); provas M7 (10/11); provas, reenvio (12/11); workshop M3 por e-mail (sáb 14/11, 9h) | nenhum | não | Já passa do teto (4 e-mails) sem a newsletter. Por isso a edição 1 não sai em 12/11 |
+| 16 a 22/11 | Workshop, follow-up de M3 (16/11, 9h) | Workshop M3 por WhatsApp (16/11, 10h) | **Ed. 1: e-mail qua 18/11, 10h; WhatsApp qui 19/11, 14h** | 2 e-mails (16 e 18/11) e 2 WhatsApp (16 e 19/11), dentro do teto. Um canal por dia: 18/11 só e-mail, 19/11 só WhatsApp. Véspera (M5, 19/11), dia 1 (M6, 20/11) e dia 2 (M7, 21/11) do workshop são serviço a inscritos e não contam. 20 e 21/11 sem envio de marketing |
+| 23 a 29/11 | Provas M8 (23/11); provas, reenvio (25/11); workshop M9 a participantes (25/11, 9h) | Provas M9 (24/11); workshop M9 a participantes (25/11, 10h) | não | Já no teto ou acima para quem participou do workshop e não se inscreveu na prova. A edição de 26/11 da Pós (C24) sai: o conteúdo de véspera vai aos inscritos pela M12 (serviço) |
+| 30/11 a 06/12 | Mensagens de resultado das provas (M16 a M20, serviço; M18 a M20 [CONFIRMAR se contam como campanha]) | idem | **Ed. 2: e-mail qui 03/12, 10h; WhatsApp sex 04/12, 10h** | 1 e-mail e 1 WhatsApp de newsletter, em dias diferentes; dentro do teto mesmo que M18 a M20 contem como campanha, desde que não caiam em 03 ou 04/12 [CONFIRMAR data do resultado] |
+
+Regras para a ferramenta e o CRM:
+1. Supressão: se o contato já tiver 2 e-mails (ou 2 WhatsApp) de campanha na semana da edição, a newsletter não sai para ele naquele canal, e ele recebe a próxima edição.
+2. Um canal por dia: se o contato tiver qualquer mensagem de campanha em outro canal no dia da newsletter, a newsletter daquele canal não sai para ele naquele dia.
+3. Prioridade em caso de choque: a mensagem de campanha com data de turma ou evento vem antes da newsletter, que é nutrição (1.26 de Livres, seção de prioridades).
+
+Quem decide a regra final é a pessoa do marketing, com o arquiteto-de-fluxos, no pedido R6 da 1.26 da Pós.
 
 ---
 
@@ -173,7 +184,7 @@ Regra para a ferramenta: se um contato já tiver 2 e-mails de campanha agendados
 - **Linha de negócio e curso:** geral (Pós como ideia principal; Livres e Eventos na agenda)
 - **Objetivo:** levar ao guia "Como escolher uma pós-graduação em Medicina Veterinária" (C08). Métrica: cliques no botão e inscrições ou matrículas com origem informada.
 - **Segmento:** base com consentimento de e-mail (seção 2.1), em qualquer etapa antes da matrícula; alunos e ex-alunos com consentimento também recebem (a agenda traz o cupom do workshop).
-- **Data e horário de envio:** e-mail na qua 18/11/2026, 10h. WhatsApp na qui 19/11/2026, 10h (20/11 é feriado e véspera do workshop; a régua do workshop já usa o WhatsApp em 18/11).
+- **Data e horário de envio:** e-mail na qua 18/11/2026, 10h. WhatsApp na qui 19/11/2026, 14h. Motivo: um canal por dia (o e-mail sai em 18/11); 19/11 é o último dia útil da semana com WhatsApp de marketing, porque 20/11 é feriado e 20 e 21/11 ficam sem envio de marketing; o WhatsApp de campanha do workshop nessa semana é o M3 de 16/11 (copy-de-mensagens-eventos), e a véspera do workshop (M5, 19/11, 10h) é serviço a inscritos, por isso a newsletter vai às 14h, longe dela.
 - **Opt-in de WhatsApp confirmado:** só para [opt_in_whatsapp] igual a sim.
 - **Template aprovado pela Meta:** [CONFIRMAR nome] (categoria marketing; variável: link).
 - **Forma de sair:** descadastro com um clique no rodapé do e-mail; "responda SAIR" no WhatsApp.
@@ -214,11 +225,11 @@ Cortados: assuntos com "não perca", "antes que acabe", "vagas", "bolsa de 50%" 
 > [Botão: **Leia o guia completo para escolher sua pós**]
 >
 > **E se o que você precisa agora é uma técnica?**
-> Nem toda dúvida pede uma especialização. Para treinar um procedimento ou um exame, existem cursos livres práticos de 1 a 3 dias, cursos online gravados e minicursos online de 8 h. Curso livre não confere diploma nem equivale a pós-graduação.
+> Nem toda dúvida pede uma especialização. Para treinar um procedimento ou um exame, existem cursos livres práticos de 1 a 3 dias, cursos online gravados e minicursos online de 6 a 8 h. Curso livre não confere diploma nem equivale a pós-graduação.
 >
 > **Agenda de novembro**
 >
-> - **20 e 21/11/2026, Workshop Brasileiro de Neuromonitorização.** São Paulo, Av. Tiradentes, 960 (Unidade 2). Presencial, teórico e prático, 16 h, 30 vagas: R$ 1.250,00. Transmitido e gravado, só a parte teórica: R$ 450,00. Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT, com vínculo comprovado na secretaria. Evento não confere diploma nem equivale a pós-graduação.
+> - **20 e 21/11/2026, Workshop Brasileiro de Neuromonitorização.** São Paulo, Av. Tiradentes, 960 (Unidade 2). Presencial, teórico e prático, 16 h, 30 vagas: preço e formas de pagamento na página do evento [CONFIRMAR NO CATÁLOGO o parcelamento do presencial; até lá, sem valor no e-mail]. Transmitido e gravado, apenas teórico: R$ 450,00 [CONFIRMAR NO CATÁLOGO formas de pagamento]. Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT, com vínculo comprovado na secretaria. Evento não confere diploma nem equivale a pós-graduação.
 > - **25/11/2026, Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos.** Online. R$ 100,00 à vista ou 1x de R$ 100,00 no cartão. Curso livre: não confere diploma nem equivale a pós-graduação.
 > - **27/11/2026, provas de bolsa de estudos da Pós-graduação.** Presenciais, por especialidade, em São Paulo e Goiânia. Inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50% (com monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. A bolsa não é acumulativa e é intransferível. Depois do resultado, 2 dias úteis para recurso e 10 dias úteis para a matrícula.
 > - **28/11/2026, início de duas turmas em São Paulo, semipresenciais, 500 h.** Pós-graduação em Dermatologia Veterinária (turma V): 30x de R$ 1.000,00, total de R$ 30.000,00, mais matrícula de R$ 250,00. Pós-graduação em Hematologia Veterinária (turma VIII): 30x de R$ 1.180,00, total de R$ 35.400,00, mais matrícula de R$ 250,00. A turma só é confirmada com o número mínimo de alunos: compre passagem e hotel depois da confirmação.
@@ -241,17 +252,17 @@ Contagem: cerca de 540 palavras no corpo, com a agenda, dentro do tamanho da se�
 | As 7 perguntas | Pilar P3 e critérios do guia C08 (estratégia de conteúdo da Pós) | Nenhuma afirmação clínica; [REVISÃO REGULAÇÃO] nos critérios legais do guia, não neste resumo | - |
 | Botão | Guia C08, publicação prevista em 12/11 | URL [CONFIRMAR] e guia publicado antes de 18/11 | Plano B: botão "Veja as turmas de pós-graduação abertas" para a listagem de turmas [CONFIRMAR URL]; o assunto A continua válido, porque as 7 perguntas estão no corpo |
 | Bloco de curso livre | contexto/cursos-livres.md (formatos e regra de diploma) | "1 a 3 dias" e "8 h" são da tabela de formatos do contexto e do catálogo (minicursos de 8 h) | - |
-| Workshop | Catálogo, seção 9 | Parcelamento do presencial [CONFIRMAR NO CATÁLOGO]; status do produto 68634 (transmitido) está "verificar" na estratégia de Livres [CONFIRMAR]; validade do cupom e se vale para ex-aluno de curso livre (G7) [CONFIRMAR]; nenhuma vaga restante citada | Sem o 68634 confirmado, a linha do transmitido sai. Sem a regra do cupom, a frase do cupom sai |
-| Grupo 68666 | Catálogo, seção 7 | Período que os R$ 100,00 cobrem (G5) [CONFIRMAR NO CATÁLOGO]; carga horária vazia no catálogo, por isso não aparece | Item sai da agenda |
+| Workshop | Catálogo, seção 9 | Parcelamento do presencial [CONFIRMAR NO CATÁLOGO] (pendência EV-5 do plano de Eventos); formas de pagamento do transmitido [CONFIRMAR NO CATÁLOGO]; status "verificar" do produto 68634 (transmitido) no catálogo, seção 4 [CONFIRMAR]; validade do cupom e se vale para ex-aluno de curso livre (G7) [CONFIRMAR]; nenhuma vaga restante citada | Sem parcelamento confirmado, a linha do presencial sai sem preço (preço só na página de destino), como está no texto da versão 2. Com o parcelamento confirmado, entra o valor de R$ 1.250,00 com as condições completas. Sem o 68634 confirmado, a linha do transmitido sai. Sem a regra do cupom, a frase do cupom sai |
+| Grupo 68666 | Catálogo, seção 7 | Período que os R$ 100,00 cobrem (G5) [CONFIRMAR NO CATÁLOGO]; regra de desistência e reembolso dita antes da compra (Livres, aposta 3 e U9) [CONFIRMAR NO CATÁLOGO]; carga horária vazia no catálogo, por isso não aparece | Item sai da agenda |
 | Provas de bolsa | Catálogo, seção 3 (data, local, preço, status); regras das páginas das provas em contexto/pos-graduacao.md | Regras vêm da página da prova, não do catálogo [CONFIRMAR NO CATÁLOGO]; público elegível [CONFIRMAR]; turma de destino de cada prova [CONFIRMAR]; local de Goiânia [CONFIRMAR, a régua das provas segura Goiânia até a correção]; provas 68641, 68642 e 68656 não são citadas; data do resultado [CONFIRMAR] | Sem as regras confirmadas, o item fica só com data, local, preço e "regras completas na secretaria" (plano B de C01). Se Goiânia não for confirmada, o item diz só São Paulo |
 | Turmas 68610 e 68608 | Catálogo, seção 2 (status "aberto") | Se as turmas ainda aceitam matrícula em 18/11, 10 dias antes do início e depois da 1ª mensalidade prevista para 30 dias antes [CONFIRMAR]; turma mínima de 20 nas páginas de curso e 15 na página da prova [CONFIRMAR], por isso o texto não diz o número | Item sai da agenda |
-| Curso 68614 | Catálogo, seção 4 | Data diverge da visão de campanhas (G1, P6) [CONFIRMAR]; janela de cancelamento de 30 dias fechou em 29/10 (G6), por isso o texto não fala de devolução; total no cartão é cálculo do agente (10 x R$ 175,00) | Item sai da agenda |
+| Curso 68614 | Catálogo, seção 4 | Data diverge da visão de campanhas (G1, P6) [CONFIRMAR]; janela de cancelamento de 30 dias fechou em 29/10 (G6), por isso o texto não fala de devolução; total no cartão é cálculo do agente (10 x R$ 175,00); a página tem frase de certificação ligada ao regulador (Livres, U6 e R3): o e-mail não repete, e o envio espera a página ser corrigida ou o aval do aprovador para mandar a ela [CONFIRMAR] | Item sai da agenda |
 | Endoscopia digestiva (623 ou 68637) | Catálogo, seção 4 | Duplicidade (G10, P7) [CONFIRMAR qual página fica] | Fica fora até a decisão; entra com R$ 890,00 à vista ou 6x de R$ 205,00 (R$ 1.230,00 no total, cálculo), 12 h, 28/11 |
 | Contatos | contexto/ufape-geral.md | - | - |
 
 Antes do envio, o CRM ou a ferramenta confere o status "aberto" de cada item no catálogo do dia. Item que mudou de status sai do texto.
 
-### 4.5 Versão de WhatsApp (qui 19/11/2026, 10h)
+### 4.5 Versão de WhatsApp (qui 19/11/2026, 14h)
 
 **Primeira linha A (teste):** Oi, aqui é a Faculdade UFAPE, com 7 perguntas para fazer antes de escolher uma pós.
 **Primeira linha B (teste):** Está comparando pós-graduações? Separamos 7 perguntas que ajudam.
@@ -391,7 +402,8 @@ Resultado: pronto para o qa-de-marketing como rascunho. Não está pronto para e
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | N1 | Aprovar a newsletter geral quinzenal (Pós, Livres e Eventos), com a Graduação fora | Uma edição para a base de veterinários, sem somar envios das três linhas | Sem custo de mídia; horas do time [CONFIRMAR]; custo da ferramenta e do WhatsApp [CONFIRMAR] | Canal próprio de apoio à decisão, com medição por edição | Suspender as edições na ferramenta; as réguas de campanha seguem |
-| N2 | Aprovar a primeira edição em 18/11 e a segunda em 03/12, no lugar das newsletters de 12/11 e 26/11 da estratégia de conteúdo da Pós (C12 e C24) | Respeitar o teto de 2 e-mails de campanha por semana por contato | Sem custo | Menos cansaço da base e menos descadastro [SUPOSIÇÃO] | Voltar às datas de 12/11 e 26/11 com supressão por contato |
+| N2 | Aprovar a primeira edição em 18/11 e a segunda em 03/12, no lugar das newsletters de 12/11 e 26/11 da estratégia de conteúdo da Pós (C12 e C24) | Respeitar o teto da 1.26 (2 e-mails e 2 WhatsApp de campanha por semana, somando as linhas, um canal por dia) | Sem custo | Menos cansaço da base e menos descadastro [SUPOSIÇÃO] | Voltar às datas de 12/11 e 26/11 com supressão por contato |
+| N7 | Aprovar a edição 4 (ter 22/12, sem venda) como exceção à janela de serviço e manutenção da 1.26 (21/12 a 03/01), ou passá-la para qui 07/01/2027 | Coerência com a 1.26, Livres, Eventos e mídia | Sem custo | Uma edição sem venda no fim do ano | Mover para 07/01 |
 | N3 | Confirmar a base legal com o jurídico ou o encarregado de dados (consentimento para todos ou legítimo interesse para alunos e ex-alunos) | LGPD | Sem custo | Base de envio definida com segurança | Restringir a base a quem consentiu |
 | N4 | Informar a ferramenta de e-mail, o registro de consentimento, o campo de opt-in de WhatsApp, a URL da política de privacidade, o endereço de resposta e o encarregado de dados | Sem isso não há rodapé completo nem envio | Sem custo | Edição 1 enviável | - |
 | N5 | Resolver os portões das seções 4.4 e 5.4 (regras e público das provas, cupom, 68634, 68666, 68610 e 68608 ainda aceitam matrícula, 68614, 623 ou 68637, 68618, pré-requisito de 657) | Cada item da agenda depende de dado | Sem custo | Agenda completa | Tirar o item da agenda (regra de cada linha) |
@@ -400,12 +412,25 @@ Resultado: pronto para o qa-de-marketing como rascunho. Não está pronto para e
 Quem aprova e-mail e WhatsApp em massa: [CONFIRMAR] (tabela vazia em contexto/ufape-geral.md). Até lá, a pessoa do marketing que fez o pedido (P12 do cmo).
 
 Notas para outros arquivos (não editados aqui):
-- Para o copy-de-mensagens e o arquiteto-de-fluxos: na semana de 02 a 06/11, a régua das provas (M2 ou M4 e M6) e o e-mail 1 do workshop (05/11) somam 3 e-mails para quem está nas duas bases; vale a regra de supressão da seção 3.2.
+- Para o copy-de-mensagens e o arquiteto-de-fluxos: nas semanas de 02 a 08/11 e de 09 a 15/11, a régua das provas e a régua escrita do workshop passam do teto para quem está nas duas bases (tabela da seção 3.2); a newsletter não envia nessas semanas. Os choques são tratados pela 1.26 da Pós (seção 6.4).
 - Para a estrategia-de-conteudo (Pós): C12 e C24 passam a ser cobertos pela newsletter geral nas datas de 18/11 e 03/12, se N2 for aprovado.
 
 Próximo agente sugerido: **otimizacao-de-mensagens**, para escolher os testes de assunto e primeira linha das edições 1 e 2 e montar o registro de testes; depois, qa-de-marketing com auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md.
 
 ---
+
+## 8. O que mudou na versão 2 (qa-de-marketing-geral-2026-10-26-loteA, seção 6)
+
+| Item do qa | Correção |
+|---|---|
+| NG1 (obrigatória) | Tabela da seção 3.2 refeita com as datas da régua escrita do workshop (copy-de-mensagens-eventos) e da régua das provas, no pior caso, com e-mail e WhatsApp separados; semanas de 16 a 22/11 e de 30/11 a 06/12 reconferidas contra o teto; justificativa do WhatsApp da edição 1 (19/11, agora às 14h) refeita na seção 4.1; resumo (seção 0, item 3) e fonte da Lista 1 corrigidos |
+| NG2 (obrigatória) | Presencial do workshop sem valor no e-mail até o parcelamento ser confirmado [CONFIRMAR NO CATÁLOGO]; portão da seção 4.4 diz que a linha sai sem preço se o parcelamento não for confirmado |
+| NG3 | Regra de um canal por dia incluída nas regras para a ferramenta (seção 3.2, regra 2), com a 1.26 como dona da regra |
+| NG4 | Edição 4 marcada como exceção a aprovar (pedido N7), com alternativa em 07/01/2027 |
+| NG5 | "minicursos online de 6 a 8 h" |
+| NG6 | Status "verificar" do 68634 atribuído ao catálogo; "apenas teórico" na linha do transmitido |
+| NG7 | Portão da 68614 com a frase de certificação ligada ao regulador na página; portão da 68666 com a regra de reembolso antes da compra |
+| 1.26 de Livres | Registrada como entrada: a agenda da edição 1 serve de e-mail de Livres para quem está em todas as bases; por isso os itens 68666 e 68614 continuam na agenda, com os portões da seção 4.4 |
 
 ## Lista 1. Fatos com fonte
 
@@ -414,21 +439,22 @@ Próximo agente sugerido: **otimizacao-de-mensagens**, para escolher os testes d
 - 289 (Goiânia, 20/03/2027, II, 500 h, 30x de R$ 1.180,00, R$ 35.400,00, matrícula de R$ 250,00), 68615 (São Paulo, 20/03/2027, VII, mesmas condições), 657 (São Paulo, 13/03/2027), 341 (São Paulo, 20/03/2027, promoção com texto cortado), 333 (São Paulo, 27/03/2027), todos abertos: catálogo, seção 2.
 - 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00, São Paulo e Goiânia; 68656 encerrada: catálogo, seção 3.
 - Regras das provas (11 bolsas: 2 de 50% com monitoria, 4 de 25%, 5 de 10%; nota de corte 7,0; prova presencial; resultado por WhatsApp ou e-mail; 2 dias úteis para recurso; 10 dias úteis para a matrícula; bolsa não acumulativa e intransferível): contexto/pos-graduacao.md, a partir das páginas das provas lidas em 26/10/2026.
-- Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026, São Paulo, Av. Tiradentes, 960 (Unidade 2), presencial teórico e prático de 16 h com 30 vagas por R$ 1.250,00, transmitido e gravado só teoria por R$ 450,00 (68634), cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno: catálogo, seção 9; nome oficial e liberação: docs/execucao-2026-10-26.md, decisão 7.
+- Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026, São Paulo, Av. Tiradentes, 960 (Unidade 2), presencial teórico e prático de 16 h com 30 vagas por R$ 1.250,00 (sem parcelamento no catálogo, por isso sem valor no e-mail da versão 2), transmitido e gravado apenas teórico por R$ 450,00 (68634, status "verificar" no catálogo, seção 4), cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno: catálogo, seção 9; nome oficial e liberação: docs/execucao-2026-10-26.md, decisão 7.
 - 68666 Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, online, 25/11/2026, R$ 100,00 à vista ou 1x de R$ 100,00, aberto: catálogo, seção 7.
 - 68614 Curso Livre em Videotoscopia, São Paulo, presencial, 28/11/2026, 12 h, R$ 1.250,00 à vista ou 10x de R$ 175,00; 623 e 68637 Endoscopia Digestiva, 28/11/2026, 12 h, R$ 890,00 à vista ou 6x de R$ 205,00; 68618 Ventilação Mecânica, 18/12/2026, 17 h, R$ 1.710,00 à vista ou 1x de R$ 1.800,00; 68638 POCUS, 06/03/2027, sem carga horária: catálogo, seção 4.
 - 411 Curso de Ecocardiograma em Pequenos Animais, online, 12 h, R$ 420,00 ou 6x de R$ 98,00; 454 Mini Curso de Nefrologia na Clínica Médica de Pequenos Animais, online, 8 h, R$ 246,00 ou 5x de R$ 59,00: catálogo, seção 5.
 - Formatos de curso livre (presenciais de 1 a 3 dias, gravados, minicursos de 8 h, grupos) e regra de que curso livre não confere diploma nem equivale a pós-graduação: contexto/cursos-livres.md.
 - Contatos da secretaria, razão social, CNPJ e endereço da sede: contexto/ufape-geral.md.
 - Newsletter da Pós nas semanas 2 e 4 (C12 em 12/11 e C24 em 26/11) e blocos D1 a F4 de dezembro a fevereiro: saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md, seções 3.1, 4 e 5. E-mail dos Livres a cada 2 semanas, portões G1 a G12 e rotação dos contínuos: saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md, seções 3.2, 4.1 e 5.3.
-- Régua das provas (M2 a M20, datas, teto de 2 e-mails e 2 WhatsApp por semana, janela das 9h às 18h, SAIR): saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md, seção 1. E-mails 1 (05/11) e 2 (17/11) e WhatsApp de 18/11 do workshop: estratégia de conteúdo dos Livres, seção 4.
+- Régua das provas (M2 a M20, datas, teto de 2 e-mails e 2 WhatsApp por semana, janela das 9h às 18h, SAIR): saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md, seção 1. Régua do workshop (M1 e M2 em 30/10, follow-ups em 03/11 por e-mail e 04/11 por WhatsApp, M10 em 05/11 com follow-up em 09/11, M3 por e-mail em 14/11 e por WhatsApp em 16/11 com follow-up por e-mail em 16/11, véspera em 19/11, dias 20 e 21/11, pós-evento em 23 e 25/11): saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md, seção 1 e fichas de cada mensagem.
+- Regra de cadência (2 e-mails e 2 WhatsApp de campanha por semana somando as linhas, um canal por dia, serviço fora): saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md, seção 3.2, item 6; herdada pela estrategia-de-relacionamento-livres-2026-10-26.md, que usa a agenda da edição 1 como e-mail de Livres para quem está em todas as bases.
 - Pendências P1 a P18 e pedidos A1 a A12: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seções 7 e 8.
 - Pontos de bloqueio do qa sobre bolsa, turma mínima e provas 68641 e 68642: saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a-b.md e dep02b.md.
 
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] Cadência quinzenal, às quartas ou quintas, 10h, e tamanho de 300 a 550 palavras por edição.
-- [SUPOSIÇÃO] Teto de 2 e-mails e 2 WhatsApp de marketing por semana por contato, herdado da estratégia de campanha e da régua das provas.
+- [SUPOSIÇÃO] Teto de 2 e-mails e 2 WhatsApp de campanha por semana por contato, somando as linhas, com um canal por dia (regra da 1.26 da Pós, pedido R6, até a Ufape confirmar).
 - [SUPOSIÇÃO] Janela de WhatsApp em dia útil, das 9h às 18h.
 - [SUPOSIÇÃO] Bases da Graduação e dos veterinários são separadas na ferramenta.
 - [SUPOSIÇÃO] Confirmação dupla de inscrição como boa prática; descadastro processado em até 24 horas.
@@ -443,7 +469,7 @@ Próximo agente sugerido: **otimizacao-de-mensagens**, para escolher os testes d
 - [CONFIRMAR] Base legal para alunos e ex-alunos (jurídico ou encarregado de dados); registro do consentimento por contato; texto da caixa de consentimento; URL da política de privacidade; nome e canal do encarregado de dados; endereço de resposta; autenticação do domínio de envio.
 - [CONFIRMAR] URL e data de publicação do guia C08 (edição 1), do guia T8 ou L27 (edição 2) e da listagem de turmas (planos B).
 - [CONFIRMAR NO CATÁLOGO] Regras das provas no catálogo, público elegível, turma de destino de cada prova, local de Goiânia, data do resultado; turma mínima de 15 ou 20.
-- [CONFIRMAR] Se 68610 e 68608 aceitam matrícula em 18/11; parcelamento do presencial do workshop; status do 68634; validade do cupom SIMPNEUROMONIT e se vale para ex-aluno de curso livre; período coberto pelos R$ 100,00 do 68666; data de 68614 e de 68618; qual página fica entre 623 e 68637; modalidade de 68618; pré-requisito de 657; regra e validade da promoção de 341.
+- [CONFIRMAR] Se 68610 e 68608 aceitam matrícula em 18/11; parcelamento do presencial do workshop e formas de pagamento do transmitido (o presencial fica sem preço no e-mail até lá); se M18 a M20 da régua das provas contam como campanha; aval da exceção da edição 4; status do 68634; validade do cupom SIMPNEUROMONIT e se vale para ex-aluno de curso livre; período coberto pelos R$ 100,00 do 68666; data de 68614 e de 68618; qual página fica entre 623 e 68637; modalidade de 68618; pré-requisito de 657; regra e validade da promoção de 341.
 - [CONFIRMAR NO CATÁLOGO] Duração e módulos por turma de Pós; tempo de acesso aos gravados; gravação e período dos grupos; carga horária de 68638.
 - [CONFIRMAR] Se haverá nova edição de evento a anunciar em dezembro; lista de perguntas recorrentes da secretaria para a edição 4; horário da secretaria no recesso.
 - [CONFIRMAR] Quem aprova e-mail e WhatsApp em massa (tabela vazia em contexto/ufape-geral.md); horas do time por semana; grafia oficial (Ufape ou UFAPE).

@@ -47,14 +47,14 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.19 | estrategia-de-conteudo | pos, livres | entregue |
 | 1.20 | estrategia-social | pos, livres, eventos | pos versão 2 corrigida (SP1 a SP3), aguarda reconferência do qa; eventos e livres entregues (sem qa) |
 | 1.21 | youtube | pos, livres | falta |
-| 1.22 | podcast, x | geral | falta |
+| 1.22 | podcast, x | geral | entregue (sem qa): os dois ficam fora até 24/01/2027, com condições de entrada |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
 | 1.24 | distribuicao | pos, livres | falta |
 | 1.25 | crescimento-de-audiencia | geral | falta |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | falta |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
-| 1.29 | newsletter | geral | CORRIGIR (qa lote A, NG1 e NG2) |
+| 1.29 | newsletter | geral | versão 2 corrigida (NG1 a NG7), aguarda reconferência do qa |
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
 | 1.32 | analise-de-campanha | pos, livres, eventos | entregue |
@@ -84,6 +84,7 @@ Segue as dependências da seção 4 do plano do cmo.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
 - Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
 - Análise de mídia da Pós: datas de 68662 e 662 parecem trocadas entre planilha e site; linha "Pneumologia" da visão parece ser da 670 (encerrada), não da 68636. Conferir com a Ufape.
+- Newsletter v2: com a regra da 1.26, as semanas de 02 a 08/11 e 09 a 15/11 já passam do teto de e-mails só com a régua das provas e a do Workshop, antes da newsletter. O cmo precisa decidir a supressão.
 - A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
 
 ## Próximos passos
@@ -107,3 +108,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Lote B (menos 1.20 livres) entregue: 1.11 livres e eventos, 1.13 pos, 1.20 eventos, 1.26 livres, 1.12 pos. qa do lote A: 4 aprovados com ajustes, estrategia-social-pos e newsletter-geral voltam para correção |
 | 26/10/2026 | 1.20 livres entregue. Lote B concluído. Lote C e correções do lote A iniciados |
 | 26/10/2026 | estrategia-social-pos versão 2: teto de mensagens igual ao da 1.26, post de 68608 ou 68610 sem chamada de compra direta |
+| 26/10/2026 | newsletter-geral versão 2 (NG1 a NG7). 1.22 podcast e x entregues: fora nesta rodada; pedido opcional XG2 de reservar o nome no X |
