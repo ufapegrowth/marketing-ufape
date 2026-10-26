@@ -580,16 +580,14 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 
 **Texto final G1 integral (template grad_kit_w4_mv_int):**
 
-> Olá, {primeiro_nome}. Sua aprovação no Vestibular 2027 de Medicina Veterinária integral está no site, e as aulas começam em 22/02/2027. Falta a matrícula.
->
-> A matrícula é eletrônica e se confirma com o pagamento da 1ª mensalidade e a assinatura digital do contrato.
+> Olá, {primeiro_nome}. Sua aprovação no Vestibular 2027 de Medicina Veterinária integral está no site e as aulas começam em 22/02/2027. Falta a matrícula: pagamento da 1ª mensalidade e assinatura digital do contrato.
 >
 > Valor do 1º semestre: de R$ 10.000,00 por R$ 5.000,00 por mês (50% de desconto) nas 6 mensalidades do 1º semestre de 2027. Vale para todas as formas de ingresso, a partir da confirmação da matrícula. Para continuar nos semestres seguintes, a renovação é pedida a cada semestre, com comprovação. O desconto é perdido no mês em que a mensalidade for paga depois do vencimento e não vale junto com programas governamentais com regras próprias. Regras no Programa de Desconto de Mensalidade 2027/1 (Edital 003/2026).
 >
-> Se desistir depois de se matricular, a devolução é de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas. Candidato menor de idade precisa do aceite do representante legal na matrícula.
+> Desistência depois da matrícula: devolução de 80% do valor pago, se pedida até 2 dias antes do início das aulas. Menor de idade precisa do aceite do representante legal.
 >
-> Ver como concluir a matrícula: {link_lp_utm}
-> Dúvida sobre valor ou renovação? Responda aqui.
+> Como concluir a matrícula: {link_lp_utm}
+> Dúvidas? Responda aqui.
 >
 > Para não receber mais mensagens, responda SAIR.
 
@@ -597,34 +595,32 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 
 **Texto final G2 (template grad_kit_w4_ped):**
 
-> Olá, {primeiro_nome}. Sua aprovação no Processo Seletivo 2027.1 de Pedagogia está no site, e as aulas começam em 22/02/2027. Falta a matrícula.
->
-> A matrícula é eletrônica e se confirma com o pagamento da 1ª mensalidade e a assinatura digital do contrato.
+> Olá, {primeiro_nome}. Sua aprovação no Processo Seletivo 2027.1 de Pedagogia está no site e as aulas começam em 22/02/2027. Falta a matrícula: pagamento da 1ª mensalidade e assinatura digital do contrato.
 >
 > Valor do 1º semestre: de R$ 1.050,00 por R$ 525,00 por mês (50% de desconto) nas 6 mensalidades do 1º semestre de 2027. Vale para todas as formas de ingresso, a partir da confirmação da matrícula. Para continuar nos semestres seguintes, a renovação é pedida a cada semestre, com comprovação. O desconto é perdido no mês em que a mensalidade for paga depois do vencimento e não vale junto com programas governamentais com regras próprias. Regras no Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026).
 >
-> Se desistir depois de se matricular, a devolução é de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas. Candidato menor de idade precisa do aceite do representante legal na matrícula.
+> Desistência depois da matrícula: devolução de 80% do valor pago, se pedida até 2 dias antes do início das aulas. Menor de idade precisa do aceite do representante legal.
 >
-> Ver como concluir a matrícula: {link_lp_utm}
-> Dúvida sobre valor ou renovação? Responda aqui.
+> Como concluir a matrícula: {link_lp_utm}
+> Dúvidas? Responda aqui.
 >
 > Para não receber mais mensagens, responda SAIR.
 
 **KW4-R (templates grad_kit_w4_r_int, grad_kit_w4_r_not e grad_kit_w4_r_ped; o bloco LD do turno ou do curso entra fixo no corpo de cada um):**
 
-> Olá, {primeiro_nome}. Aqui é da Faculdade UFAPE. Você está cadastrado como representante legal de {nome_candidato}, aprovado no {processo} de {curso_cidade}. As aulas começam em 22/02/2027 e a matrícula ainda não foi concluída. Pelo edital, ela precisa do aceite do representante legal, do pagamento da 1ª mensalidade e da assinatura digital do contrato.
+> Olá, {primeiro_nome}. Você é o representante legal de {nome_candidato}, aprovado no {processo} de {curso_cidade}. As aulas começam em 22/02/2027. Falta a matrícula: seu aceite, pagamento da 1ª mensalidade e assinatura digital do contrato.
 >
 > [LD-INT, LD-NOT ou LD-PED, conforme o template]
 >
-> Se houver desistência depois da matrícula, a devolução é de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas.
+> Desistência depois da matrícula: devolução de 80% do valor pago, se pedida até 2 dias antes do início das aulas.
 >
-> Ver a matrícula: {link_lp_utm}
-> Dúvida sobre valor ou renovação? Responda aqui.
+> Como concluir a matrícula: {link_lp_utm}
+> Dúvidas? Responda aqui.
 >
 > Para não receber mais mensagens, responda SAIR.
 
 - **Template Meta:** grad_kit_w4_mv_int, grad_kit_w4_mv_not, grad_kit_w4_ped, grad_kit_w4_r_int, grad_kit_w4_r_not, grad_kit_w4_r_ped. Variáveis: {{1}} primeiro_nome, {{2}} link_lp_utm; nas "-R", {{1}} primeiro_nome, {{2}} nome_candidato, {{3}} processo, {{4}} curso_cidade, {{5}} link_lp_utm.
-- **Chamada para ação:** "Ver como concluir a matrícula" (utm_content=kit-w4 ou kit-w4-r).
+- **Chamada para ação:** "Como concluir a matrícula" (utm_content=kit-w4 ou kit-w4-r).
 - **Follow-up:** nenhum. O momento já teve o A6 por e-mail; um terceiro toque seria pressão sobre quem decide com a família.
 - **Dados usados e fonte:** matrícula, cancelamento com 80%, regra do menor (ficha dos editais); valores, percentuais, validade e regras do desconto (Editais 003/2026 pela ficha dos editais; catálogo seção 1); texto do desconto alinhado à oferta 0.2.
 - **Referência à nutrição:** G1-A2 e G2-A2 (matrícula aberta, D+2), G1-A3 (regras antes de pagar) e G1-A6 e G2-A6 (reta final por e-mail). Aponto ao campanhas-de-nutricao que o A6 ainda traz "{total_semestre_desc} no semestre, de R$ 60.000,00" sem as regras completas e "20/02/2027" (QA c, N1 e nota do sábado); o KW4 usa o bloco completo e não cita a data.
