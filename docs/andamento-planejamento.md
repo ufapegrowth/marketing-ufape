@@ -50,7 +50,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.22 | podcast, x | geral | entregue (sem qa): os dois ficam fora até 24/01/2027, com condições de entrada |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
 | 1.24 | distribuicao | pos, livres | falta |
-| 1.25 | crescimento-de-audiencia | geral | falta |
+| 1.25 | crescimento-de-audiencia | geral | entregue (sem qa) |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | falta |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
@@ -109,3 +109,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.20 livres entregue. Lote B concluído. Lote C e correções do lote A iniciados |
 | 26/10/2026 | estrategia-social-pos versão 2: teto de mensagens igual ao da 1.26, post de 68608 ou 68610 sem chamada de compra direta |
 | 26/10/2026 | newsletter-geral versão 2 (NG1 a NG7). 1.22 podcast e x entregues: fora nesta rodada; pedido opcional XG2 de reservar o nome no X |
+| 26/10/2026 | 1.25 entregue: consentimento em todo ponto de contato, newsletter como destino do orgânico, coautoria com docentes; propostas CA1 a CA6 ao cmo |
