@@ -10,14 +10,16 @@ Ficha montada em 26/10/2026 a partir da página oficial do evento (https://facul
 - **Produto ligado na loja:** 68634, Workshop de Neuromonitorização (Teórico) TRANSMITIDO + GRAVADO
 - **Data (planilha e página):** 20 e 21 de novembro de 2026, sexta-feira teórica e sábado prático, das 08h às 18h
 - **Local:** Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP
-- **Carga horária:** 16 horas (8 teóricas e 8 práticas) no presencial
+- **Carga horária:** 16 horas (8 teóricas e 8 práticas) no presencial. Confirmado pela Ufape em 26/10/2026; o produto 68634 da loja mostra 24 h e deve ser corrigido no site.
 - **Vagas:** 30, por ordem de inscrição (presencial)
-- **Modalidades e preço:** Workshop Presencial (teórico e prático): R$ 1.250,00. Workshop Transmitido + Gravado (só a teoria de sexta-feira, ao vivo e gravada): R$ 450,00. Aluno e ex-aluno Ufape: 20% de desconto com cupom, com comprovação do vínculo na secretaria.
+- **Modalidades e preço:** Workshop Presencial (teórico e prático): R$ 1.250,00. Workshop Transmitido + Gravado (só a teoria de sexta-feira, ao vivo e gravada): R$ 450,00. Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT (confirmado pela Ufape em 26/10/2026), com comprovação do vínculo na secretaria.
 - **Público-alvo:** médicos veterinários, anestesiologistas, intensivistas, residentes, pós-graduandos e profissionais interessados em monitorização avançada, anestesia de precisão e cuidado do paciente crítico.
 - **Certificado (texto da página):** Certificado UFAPE conforme presença, emitido pela UFAPE.
 - **Coordenação científica:** Profa. Dra. Mayara Travalini de Lima
 - **Docentes confirmados na página:** Prof. MSc. Daniel Zannin, Profa. MSc. Elidia Zotelli, Prof. Renan Holczer, Prof. MSc. Yuri Ferreira Vicentini, Prof. Dr. Rodrigo Neca Ribeiro (online ao vivo)
-- **Alertas:** o nome muda entre planilha (simpósio) e página (workshop); quatro convidados aparecem como "a definir" (neurofisiologia e EEG clínico, neuroanestesia e NIRS, nocicepção e variabilidade da frequência cardíaca, inteligência artificial e processamento de sinais); a página diz "apostila e material digital, se previsto"; o produto 68634 está sem data e com 24 h na loja, diferente das 16 h da página; o código do cupom não aparece na página.
+- **Destino das campanhas pagas:** esta página (confirmado pela Ufape em 26/10/2026).
+- **Convidados "a definir":** neurofisiologia e EEG clínico, neuroanestesia e NIRS, nocicepção e variabilidade da frequência cardíaca, inteligência artificial e processamento de sinais. Decisão da Ufape em 26/10/2026: as peças usam só os docentes já confirmados; os convidados entram quando a Ufape enviar a confirmação.
+- **Alertas:** o nome muda entre planilha (simpósio) e página (workshop); a página diz "apostila e material digital, se previsto" (não prometer apostila em peça); o produto 68634 está sem data na loja.
 
 ## Texto da página (copiado do site)
 
