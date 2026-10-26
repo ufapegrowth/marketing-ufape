@@ -5,10 +5,11 @@
 - **Data:** 26/10/2026
 - **Escopo:** as 30 turmas de Pós do recorte (seção 2.3 do plano do cmo), agrupadas nas áreas A1 a A14. A14 vai por curso. As provas de bolsa ficam fora desta rodada (decisão 14 da Ufape): aparecem só como fato do catálogo, sem peça, sem chamada e sem regra de bolsa. A13 (Medicina felina) não tem turma de Pós aberta no recorte e recebe só uma nota.
 - **Modelo:** templates/casa-de-mensagens.md, com o método do agente (mensagem central, 3 pilares, objeções, palavras) e os campos pedidos pelo plano do cmo para a camada 2 (público e momento de carreira, promessa, 3 pilares de prova, 3 objeções, palavras, títulos e chamadas, turmas da área).
+- **Versão:** 2, corrigida após qa-de-marketing-pos-2026-10-26-camada2 (saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-camada2.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - **Status:** rascunho para o qa-de-marketing (auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
 - **Entradas lidas:**
   - .claude/agents/mensagens.md; templates/casa-de-mensagens.md
-  - CLAUDE.md; docs/execucao-2026-10-26.md (decisões 1 a 14)
+  - CLAUDE.md; docs/execucao-2026-10-26.md (decisões 1 a 17, inclusive a 16: valor da inscrição e matrícula suspenso até a U11, e a 17: teto D16)
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3, 3, 4 e 12, inclusive D6, D7 e D13)
   - contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md (seção 2)
   - fichas das 30 turmas em contexto/cursos/pos/: 657, 68609, 359, 289, 698, 68636, 352, 68635, 68623, 68632, 578, 662, 366, 68604, 68629, 68606, 68617, 68610, 707, 68628, 68608, 68615, 333, 68616, 679, 382, 699, 341, 60, 719 (dados principais, texto de apresentação, cronograma, condições e lista de docentes)
@@ -28,8 +29,9 @@
 
 1. **Fonte.** Nome, campus, modalidade, carga horária, turma, preço e condições vêm do catálogo (seção 2). Datas de início: a do catálogo, que segue a planilha (decisão 12). Módulos, docentes e condições da página (turma mínima, passagem, reembolso) vêm da ficha e levam [CONFIRMAR NO CATÁLOGO] quando a peça final depender deles.
 2. **Voz do candidato.** Não há nenhuma citação real de candidato ou aluno (insights-de-alunos-pos e pesquisa-de-persona-pos). Toda frase "nas palavras do candidato" desta casa é hipótese das etapas 1.3 e 1.4, marcada [SUPOSIÇÃO]. Quando chegarem conversas anonimizadas do WhatsApp de vendas, estas frases devem ser trocadas.
-3. **Preço.** Peça com preço usa o texto-padrão da estrategia-de-oferta-pos (seção 2.1), com a turma mínima corrigida para 15 (decisão 11): "[N]x de R$ [parcela] no cartão ou boleto (total de R$ [total]), mais matrícula de R$ [matrícula]. A 1ª mensalidade é paga até 30 dias antes do início. Turma mínima de 15 alunos: compre passagem e hotel só depois de a turma ser confirmada." Versão curta: "[N]x de R$ [parcela] no cartão ou boleto. Total de R$ [total] + matrícula de R$ [matrícula]." Sem as condições completas, a peça sai sem preço.
-4. **1ª mensalidade vencida.** Em 707, 68604, 68606 e, a partir de 29/10/2026, 68610, 68608 e 698 (todas com início até 28/11/2026), a frase da 1ª mensalidade sai e o texto termina em "Fale com o time para saber como entrar na turma" [SUPOSIÇÃO de texto, regra 3 da estrategia-de-oferta-pos, a validar com o time de vendas].
+3. **Preço.** Sem preço em peça até a resposta da U11 (decisão 16: o site mostra matrícula de R$ 250,00, ou R$ 350,00 em 3 cursos, e a inscrição informada é R$ 260,00; a diferença está [CONFIRMAR U11] e nenhuma peça cita esse valor). Como a regra da linha exige parcelas, total e matrícula juntos, a peça sai sem preço e leva à página da turma: "Veja parcelas, total e matrícula na página da turma." Os valores das tabelas de turmas abaixo são referência interna do catálogo, não texto de peça. Depois da U11, volta o texto-padrão da estrategia-de-oferta-pos (seção 2.1), com o valor confirmado.
+3a. **Turma mínima.** O número 15 (decisão 11) só aparece em peça quando a página da turma já mostra 15 (hoje 60 e 699). Nas demais, a frase sai sem número até a Ufape corrigir as páginas que ainda dizem 20 (pedido A12): "A turma pode não ser formada; compre passagem e hotel só depois de a turma ser confirmada."
+4. **1ª mensalidade vencida.** Em 707, 68604, 68606 e, a partir de 29/10/2026, 68610, 68608 e 698 (todas com início até 28/11/2026), a frase da 1ª mensalidade sai e, quando o preço voltar a peça (depois da U11), o texto termina em "Fale com o time para saber como entrar na turma" [SUPOSIÇÃO de texto, regra 3 da estrategia-de-oferta-pos, a validar com o time de vendas].
 5. **Descontos.** Nenhum desconto entra em peça: 341 (20% com regra cortada), 359 (12% para os 10 primeiros), 352 (10% para os 10 primeiros), aluno e ex-aluno (regra a preencher), crédito ou combo de curso livre (D7 do cmo). "10 primeiros" também não vira escassez.
 6. **Certificação.** Nenhuma peça afirma certificação, reconhecimento ou selo do MEC, nem "dupla certificação" (68635 e 68623), nem "certificado de especialização", até a regulação aprovar o texto oficial. Pergunta sobre certificado ou título vai para a secretaria.
 7. **Urgência.** Sem "últimas vagas", "vagas limitadas", "corra", "garanta já", contador. A data de início e a turma mínima são os únicos fatos de tempo.
@@ -43,7 +45,7 @@
 
 **Mensagem guarda-chuva (posicionamento-pos, seção 2.1, ajustada pela regra 5 da estrategia-de-oferta-pos):** Especialize-se sem parar de atender: prática presencial no cronograma e condições claras antes da matrícula.
 
-**Versão de elevador da linha (três frases):** A Pós-graduação da Faculdade UFAPE junta teoria online e módulos práticos presenciais em fins de semana marcados no cronograma de cada turma. Antes da matrícula você vê quem ensina, o que se pratica em cada módulo presencial, quanto paga (parcelas, total e matrícula) e qual é a turma mínima (15 alunos). Há turmas em São Paulo e em Goiânia, com início entre outubro de 2026 e maio de 2027.
+**Versão de elevador da linha (três frases):** A Pós-graduação da Faculdade UFAPE junta teoria online e módulos práticos presenciais em fins de semana marcados no cronograma de cada turma. Antes da matrícula você vê quem ensina, o que se pratica em cada módulo presencial, quanto paga (parcelas, total e matrícula, na página da turma) e que a turma só abre com o número mínimo de alunos. Há turmas em São Paulo e em Goiânia, com início entre outubro de 2026 e maio de 2027.
 
 **Os três pilares da linha (cada área troca a prova pela da sua ficha):**
 
@@ -51,15 +53,15 @@
 |---|---|---|---|
 | 1. Prática no calendário | A prática é presencial, com data e tema no cronograma | Cronograma de cada ficha; "Aulas Presenciais e Práticas não serão transmitidas" (fichas) | "Quero praticar de verdade, não só assistir." |
 | 2. Quem ensina, com nome | O corpo docente está na página, com nome e titulação | Lista de docentes de cada ficha; autorização de imagem e citação (decisões 8 e 10) | "Quero saber com quem eu vou aprender." |
-| 3. Condições claras | Parcelas, total, matrícula e turma mínima antes de pagar | Catálogo (preço); turma mínima de 15 (decisão 11); orientação de passagem (fichas) | "Pago antes de saber se a turma fecha?" |
+| 3. Condições claras | Parcelas, total, matrícula e turma mínima antes de pagar | Página da turma (parcelas, total e matrícula, regra 3); turma mínima (regra 3a); orientação de passagem (fichas) | "Pago antes de saber se a turma fecha?" |
 
 **As 3 objeções do contexto da linha e a resposta-base (cada área adapta):**
 
 | Objeção [SUPOSIÇÃO do contexto] | Resposta-base, na linguagem do candidato | Limite |
 |---|---|---|
-| Investimento alto | "O valor está inteiro na página: parcelas, total e matrícula. Você decide com a conta fechada, sem letra miúda." Mostrar o texto-padrão da turma. | Nunca "cabe no bolso", "investimento que se paga", "ganhe mais", comparação de preço com concorrente, desconto sem regra |
+| Investimento alto | "O valor está inteiro na página da turma: parcelas, total e matrícula. Você decide com a conta fechada, sem letra miúda." Sem valor na peça até a U11 (regra 3). | Nunca "cabe no bolso", "investimento que se paga", "ganhe mais", comparação de preço com concorrente, desconto sem regra |
 | Tempo (um fim de semana por mês, cerca de 2 anos) | "É um fim de semana por mês, com as datas publicadas antes de começar. A teoria é online; o presencial é só nos módulos práticos." | Dizer quando há módulo de 3 dias (707, 68616, 60). Nunca "flexível", "no seu ritmo", "estude quando quiser". Reposição de módulo [CONFIRMAR] |
-| Medo de a turma não fechar | "A turma abre com no mínimo 15 alunos. A orientação é comprar passagem e hotel só depois de a turma ser confirmada." | Data em que a turma é confirmada [CONFIRMAR]; reembolso só com o texto da ficha e o que entra em "valores de inscrição" [CONFIRMAR]. Nunca "turma garantida" ou "turma confirmada" sem confirmação |
+| Medo de a turma não fechar | "A turma pode não ser formada; a orientação é comprar passagem e hotel só depois de a turma ser confirmada." O número 15 só onde a página já mostra 15 (regra 3a). | Data em que a turma é confirmada [CONFIRMAR]; reembolso só com o texto da ficha e o que entra em "valores de inscrição" [CONFIRMAR]. Nunca "turma garantida" ou "turma confirmada" sem confirmação |
 
 **Variação por estágio de consciência (vale para todas as áreas; a área troca o exemplo de caso e o módulo):**
 
@@ -68,9 +70,9 @@
 | Inconsciente | O caso da rotina | "Aquele caso de [área] que você encaminha toda semana." |
 | Consciente do problema | Por que estudar a área a fundo | "Resolver [tema] pede raciocínio clínico e prática supervisionada, não só um vídeo." |
 | Consciente da solução | Como é a Pós da Ufape | "Teoria online, módulos práticos presenciais com data no cronograma e [N] docentes com nome na página." |
-| Pronto para se matricular | Condições e data | "Início em [data da planilha], [campus]. [Texto-padrão de preço]." |
+| Pronto para se matricular | Condições e data | "Início em [data da planilha], [campus]. Veja parcelas, total e matrícula na página da turma." |
 
-**Palavras da linha (estrategia-de-marca-geral, seção 6):** usamos "Pós-graduação em <área>", semipresencial, módulo presencial, aula online, caso clínico, rotina, raciocínio clínico, turma mínima de 15 alunos, total, matrícula, médicas e médicos veterinários. Evitamos o que a regra 6 e a regra 7 da seção 0 proíbem, mais "o melhor", "a maior", "referência nacional", "única", "pioneira", "primeira do Brasil", "renomados", "maiores especialistas", "de ponta", "estrutura completa" sem lista, "Ufape Intercursos" como marca, "Pós em", "Pós Graduação", "Pós-Graduação".
+**Palavras da linha (estrategia-de-marca-geral, seção 6):** usamos "Pós-graduação em <área>", semipresencial, módulo presencial, aula online, caso clínico, rotina, raciocínio clínico, turma mínima (com número só pela regra 3a), total, matrícula, médicas e médicos veterinários. Evitamos o que a regra 6 e a regra 7 da seção 0 proíbem, mais "o melhor", "a maior", "referência nacional", "única", "pioneira", "primeira do Brasil", "renomados", "maiores especialistas", "de ponta", "estrutura completa" sem lista, "Ufape Intercursos" como marca, "Pós em", "Pós Graduação", "Pós-Graduação".
 
 ---
 
@@ -85,7 +87,7 @@
 | Pilar | Prova |
 |---|---|
 | Docentes | 657: coordenação Dra. Mayara Travalini de Lima e Dr. Alessandro Martins; 17 professores listados, entre eles Prof. Stelio Pacca Loureiro Luna, Profa. Denise Fantoni, Prof. André Escobar (EUA), Profa. Marina Cayetano Evangelista (CANADÁ), Prof. Pablo Ezequiel Otero MV, PhD, DACVAA (ARGENTINA) e Prof. Francesco Staffieri (Itália). 68609: coordenação Dr. Alessandro Martins, Dr Rogério Viera Da Silva e Dra. Mayara Travalini de Lima; 14 professores listados, entre eles Profa. Denise Fantoni, Prof. Juan Carlos Duque e Prof. Stelio Pacca Loureiro Luna. 359: coordenação Dr. Alessandro Martins e Dra. Mayara Travalini de Lima; 11 professores listados, entre eles LV CertVA, DipECVAA, MRCVS. Luis Campoy (EUA), DVM, Dipl.ECVAA MRCVS. JAIME VISCASILLAS (ESPANHA) e DVM, MSc, DVSc. Flavio A. Freitag (CANADÁ) |
-| Módulos | 68609 (26 módulos, 500 h): fisiologia, farmacologia, exames pré-operatórios, monitoração; módulo 5 presencial com prática hands-on de avaliação pré-anestésica, sedação e monitoração; módulo 8 presencial com intubação, indução e anestesia geral inalatória. 657 (18 módulos, 360 h): TIVA e TCI, locorregional avançada, hemodinâmica avançada, ventilação mecânica aplicada à anestesia, dor e analgesia em felinos; módulos presenciais de bloqueios locorregionais (prática guiada) e de hemodinâmica avançada e ventilação mecânica (prática aplicada). 359 (20 módulos, 360 h): técnicas locorregionais por região do corpo; prática com modelos anatômicos, sonoanatomia guiada por ultrassom, phantoms, eletroneuroestimuladores, fluoroscopia e pacientes vivos em aulas demonstrativas; aulas teóricas gravadas [CONFIRMAR NO CATÁLOGO] |
+| Módulos | 68609 (26 módulos, 500 h): fisiologia, farmacologia, exames pré-operatórios, monitoração; módulo 5 presencial com prática hands-on de avaliação pré-anestésica, sedação e monitoração; módulo 8 presencial com intubação, indução e anestesia geral inalatória. 657 (18 módulos, 360 h): TIVA e TCI, locorregional avançada, hemodinâmica avançada, ventilação mecânica aplicada à anestesia, dor e analgesia em felinos; entre os 6 módulos presenciais, os de bloqueios locorregionais (prática guiada) e de hemodinâmica avançada e ventilação mecânica (prática aplicada). 359 (20 módulos, 360 h): técnicas locorregionais por região do corpo; prática com modelos anatômicos, sonoanatomia guiada por ultrassom, phantoms, eletroneuroestimuladores, fluoroscopia e pacientes vivos em aulas demonstrativas; aulas teóricas gravadas [CONFIRMAR NO CATÁLOGO] |
 | Formato e campus | Semipresencial nas três. 68609 em Goiânia (endereço da ficha: "Ufape Goiânia"); 657 e 359 em São Paulo (sede da Av. 9 de Julho) |
 
 **Objeções e respostas:**
@@ -93,7 +95,7 @@
 | Objeção [SUPOSIÇÃO] | Resposta |
 |---|---|
 | "Qual das pós de anestesia é para mim?" (H-A1.1) | "Depende de onde você está hoje. Se quer entrar na anestesiologia clínica, a Pós-graduação em Anestesiologia Veterinária em Goiânia começa pela fisiologia e pela monitoração. Se você já é anestesista, a Pós-graduação em Anestesiologia Avançada e a Pós-graduação em Anestesiologia Locorregional Veterinária aprofundam a técnica." Pré-requisito exato de 657 e 359 [CONFIRMAR] antes de dizer quem pode entrar. |
-| "Por que a avançada e a locorregional custam mais?" (H-A1.4) | Não justificar preço com adjetivo. Mostrar o que a ficha traz: 360 h com módulos presenciais de prática guiada e o corpo docente listado, e o texto-padrão completo de cada turma. Nunca comparar com a pós geral como "vale mais". |
+| "Por que a avançada e a locorregional custam mais?" (H-A1.4) | Não justificar preço com adjetivo. Mostrar o que a ficha traz: 360 h com módulos presenciais de prática guiada e o corpo docente listado; o valor completo está na página da turma (regra 3). Nunca comparar com a pós geral como "vale mais". |
 | "Vou praticar em paciente ou só em modelo?" (H-A1.3) | Para 359, a ficha diz: modelos anatômicos, phantoms, sonoanatomia, fluoroscopia e técnicas em pacientes vivos em aulas demonstrativas, além de hands-on. Para 68609, o módulo 5 é hands-on de sedação e monitoração. Número de alunos por estação [CONFIRMAR]. |
 
 **Palavras e frases.** Usar: anestesia de precisão (texto da ficha 657), bloqueio locorregional guiado por ultrassom, monitoração, prática guiada, anestesista. Evitar: "título de especialista" (a ficha cita a prova de Especialista; sem texto oficial, não entra), "maiores nomes da anestesia regional do mundo" (texto da ficha 359, superlativo sem fonte), "10 primeiros", "12% de desconto".
@@ -107,7 +109,7 @@
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 657 | Pós-graduação em Anestesiologia Avançada | São Paulo | 13/03/2027 | II | 30x de R$ 1.613,33 no cartão ou boleto (total de R$ 48.400,00), mais matrícula de R$ 250,00 | liberada; pré-requisito [CONFIRMAR] |
 | 68609 | Pós-graduação em Anestesiologia Veterinária | Goiânia | 24/04/2027 | VIII | 30x de R$ 1.081,67 no cartão ou boleto (total de R$ 32.450,00), mais matrícula de R$ 250,00 | liberada |
@@ -128,7 +130,7 @@ Provas de bolsa da área no catálogo: 68639 (São Paulo) e 68640 (Goiânia). Se
 | Pilar | Prova |
 |---|---|
 | Docentes | 289: coordenação Msc. Flavia Mazzo; 14 professores listados, entre eles Dr. Marlos Gonçalves Sousa, Profa. Denise Fantoni, Dr. Guillermo Veiga, DR. BRUNO DURANTE e PHD. Fabio Gava. 698: coordenação MSc Fernanda Fontalva Cordeiro; 5 professores listados (MSC. REBECCA PESSOA, DR. BRUNO DURANTE, Msc. Flavia Mazzo, MV. Vinícius Dayoub). 68636: coordenação Agata R. M. Esposito; 16 professores listados, entre eles Dr. Fausto Brandão (PORTUGAL), Prof. André Shih (EUA), Dr. Mauricio Veloso Brun e Dra. Sabrina Caruso Chate. 352: coordenação Dr. Alessandro Martins; 10 professores listados, entre eles Prof. João Henrique Neves Soares (EUA), Prof. Daniel Sakai (EUA), Prof. Francesco Staffieri (Itália) e Profa. Denise Fantoni |
-| Módulos | 289 (24 módulos, 500 h): 6 módulos presenciais, com prática hands-on de ecocardiograma. 698 (12 módulos, 370 h): 5 módulos presenciais hands-on (ecocardiografia básica, hemodinâmica, DMVM, cardiomiopatias, congênitas) e TCC no módulo 12. 68636 (24 módulos, 500 h): práticas de anatomia e semiologia respiratória, ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia e intervenções emergenciais nos módulos presenciais. 352 (18 módulos, 360 h): 7 módulos presenciais (modalidades ventilatórias, ventilação protetora, assincronia e desmame, ventilação monopulmonar, ECMO) e grupo de estudo para discussão de casos e artigos [CONFIRMAR NO CATÁLOGO] |
+| Módulos | 289 (24 módulos, 500 h): 6 módulos presenciais, 4 deles com prática de ecocardiograma (hands-on). 698 (12 módulos, 370 h): 5 módulos presenciais hands-on (ecocardiografia básica, hemodinâmica, DMVM, cardiomiopatias, congênitas) e TCC no módulo 12. 68636 (24 módulos, 500 h): práticas de anatomia e semiologia respiratória, ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia e intervenções emergenciais nos módulos presenciais. 352 (18 módulos, 360 h): 7 módulos presenciais (modalidades ventilatórias, ventilação protetora, assincronia e desmame, ventilação monopulmonar, ECMO) e grupo de estudo para discussão de casos e artigos [CONFIRMAR NO CATÁLOGO] |
 | Formato e campus | Semipresencial nas quatro. 289 em Goiânia ("Ufape Goiânia", na ficha); 698, 68636 e 352 em São Paulo |
 
 **Objeções e respostas:**
@@ -150,11 +152,11 @@ Provas de bolsa da área no catálogo: 68639 (São Paulo) e 68640 (Goiânia). Se
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 289 | Pós-graduação em Cardiologia Veterinária | Goiânia | 20/03/2027 | II | 30x de R$ 1.180,00 no cartão ou boleto (total de R$ 35.400,00), mais matrícula de R$ 250,00 | liberada |
 | 698 | Pós-graduação em Ecocardiografia | São Paulo | 28/11/2026 | III | 18x de R$ 1.498,33 no cartão ou boleto (total de R$ 26.970,00), mais matrícula de R$ 250,00 | site mostra 2027 (pedido A6): sem anúncio novo até a correção; regra 4 da seção 0 |
-| 68636 | Pós-graduação em Pneumologia Veterinária | São Paulo | 17/04/2027 (só no site, [CONFIRMAR com a planilha]) | VIII | 30x de R$ 1.265,00 no cartão ou boleto (total de R$ 37.950,00), mais matrícula de R$ 250,00 | liberada |
+| 68636 | Pós-graduação em Pneumologia Veterinária | São Paulo | sem data em peça (P3 do cmo) | VIII | referência interna: 30x de R$ 1.265,00 no cartão ou boleto (total de R$ 37.950,00), mais matrícula de R$ 250,00 | sem preço e sem data de início em peça final até a correção (A12) ou liberação do cmo (P3) |
 | 352 | Pós-graduação em Ventilação Mecânica | São Paulo | 24/05/2027 (site diz 24/04/2027) | I | 30x de R$ 1.596,00 no cartão ou boleto (total de R$ 47.880,00), mais matrícula de R$ 250,00 | liberada sem o desconto da ficha |
 
 Provas de bolsa da área no catálogo: 68641, 68642 (Cardiologia, links invertidos, P3) e 68659 (Pneumologia). Sem peça nesta rodada.
@@ -181,7 +183,7 @@ Provas de bolsa da área no catálogo: 68641, 68642 (Cardiologia, links invertid
 |---|---|
 | "Trabalho em plantão de fim de semana. Dá para fazer?" (Q3.3) | "As datas de todos os módulos estão no cronograma antes de começar, então dá para negociar a escala com meses de antecedência. A teoria é online; o presencial é só nos módulos práticos." Reposição de módulo [CONFIRMAR]. Nunca "flexível". |
 | "Qual a diferença entre Clínica Médica e Emergência e Terapia Intensiva e Emergência, se as duas têm 750 h?" (H-A3.3) | "A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais passa por uma especialidade clínica por mês e termina no paciente grave. A Pós-graduação em Terapia Intensiva e Emergência Veterinária fica no paciente crítico: hemodinâmica, ventilação, sepse, neurointensivismo." Sem dizer qual "vale mais". |
-| "Tem pós EAD bem mais barata." | Não comparar preço. "Aqui a prática é presencial: A-fast, T-fast, punção guiada e RCP se aprendem com a mão no paciente e no equipamento." Mostrar o texto-padrão completo. |
+| "Tem pós EAD bem mais barata." | Não comparar preço. "Aqui a prática é presencial: na Pós-graduação em Clínica Médica e Emergência de Pequenos Animais há 9 módulos presenciais, entre eles semiologia, eletrocardiograma e hemogasometria, A-fast e T-fast, triagem do paciente grave, RCP e trauma." [SUPOSIÇÃO de texto; módulos da ficha de 68635]. Valor completo na página da turma (regra 3). |
 
 **Palavras e frases.** Usar: paciente grave, plantão, triagem, A-fast e T-fast, RCP, hemodinâmica, sepse. Evitar: "dupla certificação", "2 certificações", "certificado de emergência 375 horas" (textos das fichas, regra 6), "Domine o conhecimento para salvar vidas" (promessa de resultado), "referência nacional", "salvar vidas" como promessa da pós.
 
@@ -194,7 +196,7 @@ Provas de bolsa da área no catálogo: 68641, 68642 (Cardiologia, links invertid
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68635 | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais | São Paulo | 10/04/2027 | V | 30x de R$ 1.100,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00 | liberada |
 | 68623 | Pós-graduação em Terapia Intensiva e Emergência Veterinária | Goiânia (catálogo) | 22/05/2027 | IV | 30x de R$ 1.160,00 no cartão ou boleto (total de R$ 34.800,00), mais matrícula de R$ 250,00 | só depois de confirmar o local da prática |
@@ -236,7 +238,7 @@ Provas de bolsa da área no catálogo: 68645 e 68660. Sem peça nesta rodada.
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68632 | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Goiânia (presencial) | 10/04/2027 | V | 30x de R$ 1.100,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00 | liberada |
 | 578 | Pós-graduação em Videocirurgia Veterinária | São Paulo | 22/05/2027 | IV | 30x de R$ 1.250,00 no cartão ou boleto (total de R$ 37.500,00), mais matrícula de R$ 250,00 | liberada |
@@ -279,7 +281,7 @@ Provas de bolsa da área no catálogo: 68643 e 68644. Sem peça nesta rodada.
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68604 | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | São Paulo | 31/10/2026 | VI | 30x de R$ 1.000,00 no cartão ou boleto (total de R$ 30.000,00), mais matrícula de R$ 250,00 | inventário e reta final (seção 4 do cmo); regra 4 da seção 0 |
 | 68629 | Pós-graduação em Ultrassonografia de Pequenos Animais | São Paulo | 22/05/2027 (só no site, [CONFIRMAR com a planilha]) | III | 24x de R$ 685,67 no cartão ou boleto (total de R$ 16.456,00), mais matrícula de R$ 350,00 | liberada |
@@ -299,7 +301,7 @@ Provas de bolsa da área no catálogo: 68647, 68661 e 68649 (Endoscopia, sem tur
 | Pilar | Prova |
 |---|---|
 | Docentes | Coordenação Esp. Maria Carolina Pappalardo; 38 professores listados, entre eles Dr. Rodolfo Oliveira Leal, DRA. VIVIANE DE MARCO, DR. Fabrizio Grandi e DRA. Maria Anete Lallo |
-| Módulos | 24 módulos, 500 h; 3 módulos presenciais com anatomia prática, prática de cirurgia esofágica, gástrica, intestinal, pancreática e hepatobiliar, parasitologia ou transplante fecal e colocação de sondas. Diferenciais escritos na ficha: estágios com a cooperação nas clínicas e hospitais dos coordenadores e grupo para discussão de casos entre alunos e coordenadores (regras do estágio [CONFIRMAR]) |
+| Módulos | 24 módulos, 500 h; 3 módulos presenciais (6, 13 e 21) com anatomia prática, prática de cirurgia esofágica, gástrica, intestinal, pancreática e hepatobiliar, parasitologia ou transplante fecal e colocação de sondas. Diferenciais escritos na ficha: "Estágios com a cooperação em suas clínicas/hospitais" e grupo para discussão de casos entre alunos e coordenadores (regras do estágio [CONFIRMAR]) |
 | Formato e campus | Semipresencial, São Paulo |
 
 **Objeções e respostas:**
@@ -307,7 +309,7 @@ Provas de bolsa da área no catálogo: 68647, 68661 e 68649 (Endoscopia, sem tur
 | Objeção [SUPOSIÇÃO] | Resposta |
 |---|---|
 | "Ainda dá para entrar? A turma começa em 07/11." | "Fale com o time para saber como entrar na turma." Sem prazo inventado e sem "últimas vagas". Regra de entrada tardia [CONFIRMAR] (PR4). |
-| "Tem prática de endoscopia e cirurgia ou é tudo online?" (H-A6.4, Q6.3) | "A teoria é online e há 3 módulos presenciais com prática de anatomia, cirurgia e parasitologia, além do estágio previsto na página." Endoscopia prática e regras do estágio [CONFIRMAR NO CATÁLOGO]. |
+| "Tem prática de endoscopia e cirurgia ou é tudo online?" (H-A6.4, Q6.3) | "A teoria é online e há 3 módulos presenciais (6, 13 e 21) com prática de anatomia, cirurgia e parasitologia, além do estágio previsto na página." A ficha cita endoscopia entre os diferenciais de aula prática; regras do estágio [CONFIRMAR NO CATÁLOGO]. |
 | "São 38 professores. Vou ter acesso a alguém?" | "A página prevê um grupo para discussão de casos entre alunos e coordenadores." Formato e frequência [CONFIRMAR]. |
 
 **Palavras e frases.** Usar: caso gastrointestinal, enteropatia, hepatopatia, discussão de casos, estágio (com a regra quando existir). Evitar: "especialidade emergente e carente de profissionais" e "coordenadores referências nacionais" (textos da ficha, sem fonte), promessa de mercado, a prova de bolsa da área como caminho para esta turma.
@@ -319,7 +321,7 @@ Provas de bolsa da área no catálogo: 68647, 68661 e 68649 (Endoscopia, sem tur
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68606 | Pós-graduação em Gastroenterologia Veterinária | São Paulo | 07/11/2026 | IX | 30x de R$ 1.180,00 no cartão ou boleto (total de R$ 35.400,00), mais matrícula de R$ 250,00 | inventário e reta final; regra 4 da seção 0 |
 
@@ -338,15 +340,15 @@ Prova de bolsa da área no catálogo: 68650 (a turma começa antes da prova). Se
 | Pilar | Prova |
 |---|---|
 | Docentes | Coordenação DR. Eric Vieira Januário; 22 professores listados, entre eles Dr. Alan Poppl, Dra. Marilu Gioso, Dra. Priscila Viau e Dra. Ayne Hayashi |
-| Módulos | 24 módulos, 500 h: fisiologia endócrina, Cushing, hipoadrenocorticismo, diabetes mellitus em cães e gatos, cetoacidose, insulinoma, distúrbios da calcemia, doença renal crônica e infecção urinária no endocrinopata, discussão de casos em vários módulos; módulo 12 presencial com atendimento endocrinológico, anatomia do sistema endócrino e discussão de casos |
+| Módulos | 24 módulos, 500 h: fisiologia endócrina, Cushing, hipoadrenocorticismo, diabetes mellitus em cães e gatos, cetoacidose, insulinoma, distúrbios da calcemia, doença renal crônica e infecção urinária no endocrinopata, discussão de casos em vários módulos; 2 módulos presenciais (12 e 23), o 12 com atendimento endocrinológico, anatomia do sistema endócrino e discussão de casos |
 | Formato e campus | Semipresencial, São Paulo |
 
 **Objeções e respostas:**
 
 | Objeção [SUPOSIÇÃO] | Resposta |
 |---|---|
-| "O começo é muito teórico. Quando aplico na rotina?" (H-A7.2) | "Os primeiros módulos são fisiologia, porque o raciocínio endócrino depende dela; a partir do módulo 5 o curso entra em Cushing, e a discussão de casos aparece ao longo do cronograma." |
-| "Tem prática presencial?" | "Sim: o módulo 12 é presencial, com atendimento endocrinológico." Número exato de módulos presenciais [CONFIRMAR NO CATÁLOGO]. Não exagerar a prática. |
+| "O começo é muito teórico. Quando aplico na rotina?" (H-A7.2) | "Os primeiros módulos são fisiologia [SUPOSIÇÃO de motivo, REVISÃO DOCENTE]; a partir do módulo 5 o curso entra em Cushing, e a discussão de casos aparece ao longo do cronograma." |
+| "Tem prática presencial?" | "Sim: são 2 módulos presenciais (12 e 23); o módulo 12 tem atendimento endocrinológico." Não exagerar a prática. |
 | "Tem pós de nefrologia?" | "A turma aberta da área hoje é a Pós-graduação em Endocrinologia de Pequenos Animais, que trata doença renal crônica e proteinúria no paciente endócrino." Nunca oferecer 68612. |
 
 **Palavras e frases.** Usar: endocrinopata, Cushing, diabetes mellitus, discussão de casos, atendimento endocrinológico. Evitar: "instituição reconhecida e respeitada", "profissionais renomados", "agrega valor ao seu currículo" (textos da ficha), número da turma.
@@ -358,7 +360,7 @@ Prova de bolsa da área no catálogo: 68650 (a turma começa antes da prova). Se
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68617 | Pós-graduação em Endocrinologia de Pequenos Animais | São Paulo | 17/04/2027 | sem número (planilha VII, site V) | 30x de R$ 1.200,00 no cartão ou boleto (total de R$ 36.000,00), mais matrícula de R$ 250,00 | liberada, sem número de turma |
 
@@ -397,7 +399,7 @@ Provas de bolsa da área no catálogo: 68648 e 68653 (Nefrologia, sem turma de d
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68610 | Pós-graduação em Dermatologia Veterinária | São Paulo | 28/11/2026 | V | 30x de R$ 1.000,00 no cartão ou boleto (total de R$ 30.000,00), mais matrícula de R$ 250,00 | liberada; regra 4 da seção 0 a partir de 29/10/2026 |
 
@@ -423,7 +425,7 @@ Prova de bolsa da área no catálogo: 68646 (27/11/2026, véspera do início). S
 
 | Objeção [SUPOSIÇÃO] | Resposta |
 |---|---|
-| "É o valor mais alto que vi." (H-A9.2) | Sem justificar com adjetivo. "São 600 h, com microscópio individual nas aulas práticas. O valor está inteiro: [texto-padrão]." Não comparar com outra pós. |
+| "É o valor mais alto que vi." (H-A9.2) | Sem justificar com adjetivo. "São 600 h, com microscópio individual nas aulas práticas. O valor completo está na página da turma." Não comparar com outra pós. |
 | "Os módulos são de três dias. Como fico na clínica?" (H-A9.3) | "Sim, os módulos vão de sexta a domingo, e as datas estão no cronograma até 2028, então dá para planejar a agenda com antecedência." |
 | "Ainda dá para entrar? A turma começa em 30/10." | "Fale com o time para saber como entrar na turma." |
 
@@ -436,7 +438,7 @@ Prova de bolsa da área no catálogo: 68646 (27/11/2026, véspera do início). S
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 707 | Pós-graduação em Oftalmologia Veterinária | São Paulo | 30/10/2026 | VII | 30x de R$ 1.590,00 no cartão ou boleto (total de R$ 47.700,00), mais matrícula de R$ 250,00 | inventário e reta final; regra 4 da seção 0 |
 
@@ -464,7 +466,7 @@ Prova de bolsa: não há prova de Oftalmologia ativa (68656 fora do ar).
 |---|---|
 | "O que vou saber fazer no fim?" (H-A10.1) | Responder pelo cronograma, não pelo certificado: "Diagnóstico, quimioterapia, imunoterapia, eletroquimioterapia, cirurgia oncológica e cuidado paliativo, com 8 módulos práticos." Nunca prometer resultado clínico. |
 | "Vou aprender a manipular quimioterápico com segurança?" (H-A10.2) | "O módulo 5 é presencial: quimioterapia antineoplásica e biossegurança." Estrutura exigida na clínica do aluno [CONFIRMAR, revisão docente]. |
-| "Por que esta turma custa mais que a anterior?" (H-A10.3) | Não comparar com turma antiga. Mostrar só o texto-padrão desta turma. |
+| "Por que esta turma custa mais que a anterior?" (H-A10.3) | Não comparar com turma antiga. Levar à página desta turma, onde está o valor completo (regra 3). |
 
 **Palavras e frases.** Usar: paciente oncológico, biossegurança, eletroquimioterapia, cirurgia oncológica, cuidado paliativo. Evitar: "reconhecimento pelo MEC" e "referência nacional em educação" (texto da ficha), número da turma, "cura".
 
@@ -475,7 +477,7 @@ Prova de bolsa: não há prova de Oftalmologia ativa (68656 fora do ar).
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68628 | Pós-graduação em Oncologia Veterinária | São Paulo | 10/04/2027 | sem número (planilha VI, site VII) | 30x de R$ 1.298,00 no cartão ou boleto (total de R$ 38.940,00), mais matrícula de R$ 250,00 | liberada, sem número de turma |
 
@@ -515,7 +517,7 @@ Prova de bolsa da área no catálogo: 68657. Sem peça nesta rodada.
 
 **Turmas da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68608 | Pós-graduação em Hematologia Veterinária | São Paulo | 28/11/2026 | VIII | 30x de R$ 1.180,00 no cartão ou boleto (total de R$ 35.400,00), mais matrícula de R$ 250,00 | liberada; regra 4 da seção 0 a partir de 29/10/2026 |
 | 68615 | Pós-graduação em Patologia Clínica | São Paulo | 20/03/2027 | VII | 30x de R$ 1.180,00 no cartão ou boleto (total de R$ 35.400,00), mais matrícula de R$ 250,00 | liberada |
@@ -556,7 +558,7 @@ Provas de bolsa da área no catálogo: 68651 e 68658. Sem peça nesta rodada.
 
 **Turma da área:**
 
-| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo) | Para peça |
+| Código | Curso | Campus | Início (planilha) | Turma | Preço e condições (catálogo; referência interna, não usar em peça até a U11) | Para peça |
 |---|---|---|---|---|---|---|
 | 68616 | Pós-graduação em Neurologia e Neurocirurgia Veterinária | São Paulo | 08/05/2027 | IX | 30x de R$ 1.192,40 no cartão ou boleto (total de R$ 35.772,00), mais matrícula de R$ 250,00 | liberada |
 
@@ -577,60 +579,60 @@ A área não tem turma de Pós aberta (650 em "verificar"). Segue o posicionamen
 - **Público e momento.** Clínico de pequenos animais que lida com doenças infecciosas, zoonoses e antibioticoterapia na rotina [SUPOSIÇÃO].
 - **Promessa central.** Infectologia de cães e gatos da coleta da amostra à antibioticoterapia e ao controle de infecção hospitalar.
 - **Pilares de prova (ficha):** docentes: coordenação Ricardo L. S. Gonzalez (titulação não consta na ficha); 6 professores listados, entre eles Dra Nadia Rossi de Almeida, Msc Thais M. Chucri e Dr. Paulo Tabanez. Módulos: 24 módulos, 500 h; 3 módulos presenciais (prática laboratorial de coleta e envio de amostras; zoonoses com coleta de material para exame de raiva; controle de infecção hospitalar). Formato: semipresencial, São Paulo.
-- **Objeções:** (1) "É muito teórico?": "São 3 módulos presenciais de prática laboratorial e de controle de infecção, com as datas no cronograma; o resto é online." (2) "Preço": texto-padrão completo, sem comparação. (3) "Tempo": base comum da seção 1.
+- **Objeções:** (1) "É muito teórico?": "São 3 módulos presenciais de prática laboratorial e de controle de infecção, com as datas no cronograma; o resto é online." (2) "Preço": valor completo na página da turma (regra 3), sem comparação. (3) "Tempo": base comum da seção 1.
 - **Usar:** zoonoses, antibioticoterapia, sepse, controle de infecção. **Evitar:** "única pós semipresencial em infectologia veterinária do mundo" (texto da ficha, sem fonte), "melhoria de sua empregabilidade" (texto da ficha, promessa).
-- **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Infectologia Veterinária: de zoonoses à sepse"; "Veja o cronograma da turma de 03/04/2027."
-- **Turma:** 679, São Paulo, início 03/04/2027, turma IV, 30x de R$ 1.100,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00. Link da planilha trocado na campanha (P3): conferir antes de anúncio.
+- **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Infectologia Veterinária: de zoonoses à sepse"; "Veja o cronograma na página da turma."
+- **Turma:** 679, São Paulo, turma IV. Sem preço e sem data de início em peça final até a correção (A12) ou liberação do cmo (P3: link da planilha trocado). Referência interna do catálogo: início 03/04/2027; 30x de R$ 1.100,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00.
 
 ### 15.2 382. Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos
 
 - **Público e momento.** Clínico que atende reprodução, gestação e neonatos, e quem trabalha com canis e gatis [SUPOSIÇÃO, persona 5.2].
 - **Promessa central.** Reprodução de cães e gatos do exame ginecológico e andrológico à neonatologia, com prática presencial em cada etapa.
 - **Pilares de prova (ficha):** docentes: coordenação ESP. Patricia Salla e Dra. Marilu Martins Gioso.; 6 professores listados, entre eles DR. JULIO KEN NAGASHIMA, DRA. Rafaela Beatriz Pintor Torrecilha e DR. Tarso Felipe Teixeira. Módulos: 24 módulos, 500 h; 8 módulos presenciais (exame ginecológico e inseminação, exame andrológico e criopreservação de sêmen, ultrassonografia reprodutiva, cirurgias do aparelho reprodutivo, obstetrícia, neonatologia, manejo de canis e gatis, inseminação intrauterina cirúrgica). Formato: semipresencial, São Paulo.
-- **Objeções:** (1) "É para clínico ou para criador?": a ficha não traz público-alvo [CONFIRMAR NO CATÁLOGO]. (2) "Preço": texto-padrão. (3) "Viagem": 8 módulos presenciais com mês marcado; compre passagem só com a turma confirmada.
+- **Objeções:** (1) "É para clínico ou para criador?": a ficha não traz público-alvo [CONFIRMAR NO CATÁLOGO]. (2) "Preço": valor completo na página da turma (regra 3). (3) "Viagem": 8 módulos presenciais com mês marcado; compre passagem só com a turma confirmada.
 - **Usar:** obstetrícia, neonatologia, inseminação, exame andrológico. **Evitar:** "criador" como público sem confirmação, promessa de resultado reprodutivo.
 - **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos: 8 módulos práticos"; "Veja a primeira turma, com início em 22/05/2027."
-- **Turma:** 382, São Paulo, início 22/05/2027, turma I, 30x de R$ 1.125,00 no cartão ou boleto (total de R$ 33.750,00), mais matrícula de R$ 250,00.
+- **Turma:** 382, São Paulo, início 22/05/2027, turma I, 30x de R$ 1.125,00 no cartão ou boleto (total de R$ 33.750,00), mais matrícula de R$ 250,00. Valores: referência interna, sem preço em peça até a U11 (regra 3).
 
 ### 15.3 699. Pós-graduação em Geriatria Veterinária
 
 - **Público e momento.** Clínico que atende cada vez mais cães e gatos idosos [SUPOSIÇÃO]. A ficha amplia o público para estudantes a partir do último ano: contradição com o ingresso por diploma [CONFIRMAR antes de qualquer peça].
 - **Promessa central.** Cuidar do paciente idoso de forma integrada: farmacologia, dor, cognição, felinos e comunicação com o tutor, numa especialização dedicada à geriatria.
 - **Pilares de prova (ficha):** docentes: coordenação Prof. Caio Cavalcanti Balençuela; 32 professores listados, entre eles Dra. Ayne Hayashi, Profa. Denise Fantoni, Dra. Angélica Safatle e Msc. Christian Jordan (Palestrante internacional - Lima, Peru). Módulos: 20 módulos, 500 h; polifarmácia e desprescrição, comunicação de más notícias, síndrome da disfunção cognitiva, geriatria felina; 2 módulos presenciais (um deles com acupuntura, fisioterapia e avaliação funcional). Formato: semipresencial, São Paulo. Turma: mínimo 15 e máximo 40 (ficha).
-- **Objeções:** (1) "Geriatria não é só clínica médica?": "É o paciente idoso por inteiro: farmacologia, cognição, dor, felinos e comunicação com a família, num programa só." (2) "Quase tudo é online": "Sim, 2 módulos presenciais; o restante é online." (3) "Preço": texto-padrão.
+- **Objeções:** (1) "Geriatria não é só clínica médica?": "É o paciente idoso por inteiro: farmacologia, cognição, dor, felinos e comunicação com a família, num programa só." (2) "Quase tudo é online": "Sim, 2 módulos presenciais; o restante é online." (3) "Preço": valor completo na página da turma (regra 3).
 - **Usar:** paciente idoso, polifarmácia, disfunção cognitiva, comunicação com o tutor. **Evitar:** "única", "pioneira", "primeira pós de geriatria", estudante como público.
 - **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Geriatria Veterinária: o cão e o gato idosos por inteiro"; "Veja o cronograma da primeira turma."
-- **Turma:** 699, São Paulo, início 22/05/2027, turma I, 24x de R$ 1.375,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00. Peça só depois de corrigir a ficha (público e ordem do cronograma).
+- **Turma:** 699, São Paulo, início 22/05/2027, turma I, 24x de R$ 1.375,00 no cartão ou boleto (total de R$ 33.000,00), mais matrícula de R$ 250,00. Peça só depois de corrigir a ficha (público e ordem do cronograma). Valores: referência interna, sem preço em peça até a U11 (regra 3).
 
 ### 15.4 341. Pós-graduação em Medicina Interna Equina
 
 - **Público e momento.** Veterinário de equinos, que atende a campo, com pouca prática hospitalar na graduação (texto da ficha; H-A14.1) [SUPOSIÇÃO de perfil]. Não é o público de pequenos animais.
 - **Promessa central.** Medicina interna equina com prática: do paciente crítico ao potro neonato, com aulas práticas em hospital veterinário.
 - **Pilares de prova (ficha):** docentes: coordenação Esp. Maria Augusta Berlingieri; 9 professores listados, entre eles Dra. Patrícia Brossi, Dr. Marlos Gonçalves Sousa, Dra. Roberta Basile e Dr.Júlio Spagnolo. Módulos: 24 módulos, 500 h; paciente crítico, cardiologia, trato respiratório e digestivo, claudicação, neonatologia e UTI neonatal, podologia; vários módulos com parte presencial [CONFIRMAR quantos]. Local: a ficha lista a sede em São Paulo e um endereço em Indaiatuba (SP) e diz que as aulas práticas são em hospital veterinário [CONFIRMAR onde é a prática com cavalos].
-- **Objeções:** (1) "Onde é a prática com cavalos?" (H-A14.3): só responder depois da confirmação do local. (2) "A promoção de 20% vale para mim?" (H-A14.2): não citar até a regra completa; "Fale com o time sobre condições." (3) "Preço": texto-padrão sem desconto.
+- **Objeções:** (1) "Onde é a prática com cavalos?" (H-A14.3): só responder depois da confirmação do local. (2) "A promoção de 20% vale para mim?" (H-A14.2): não citar até a regra completa; "Fale com o time sobre condições." (3) "Preço": valor completo na página da turma (regra 3), sem desconto.
 - **Usar:** equino, paciente crítico, claudicação, neonato, prática hospitalar (com o local confirmado). **Evitar:** "20% de desconto", "aproveite", "bolsa" (não há prova de equinos), "inseguros e sem nenhum diferencial competitivo" (texto da ficha, ofende o público).
 - **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Medicina Interna Equina: do paciente crítico ao potro"; "Veja os módulos da primeira turma, com início em 20/03/2027."
-- **Turma:** 341, São Paulo, início 20/03/2027, turma I, 30x de R$ 1.450,00 no cartão ou boleto (total de R$ 43.500,00), mais matrícula de R$ 250,00 (sem a promoção em peça).
+- **Turma:** 341, São Paulo, início 20/03/2027, turma I, 30x de R$ 1.450,00 no cartão ou boleto (total de R$ 43.500,00), mais matrícula de R$ 250,00 (sem a promoção em peça). Valores: referência interna, sem preço em peça até a U11 (regra 3).
 
 ### 15.5 60. Pós-graduação em Medicina de Silvestres
 
 - **Público e momento.** Veterinário que atende pets não convencionais, silvestres e exóticos, público menor e disperso [SUPOSIÇÃO].
 - **Promessa central.** Peixes, anfíbios, répteis, aves e mamíferos silvestres numa especialização só, com módulos práticos presenciais.
-- **Pilares de prova (ficha):** docentes: coordenação Carolina Nery (titulação não consta na ficha); 10 professores listados, entre eles ESP. SORAYA MALAGA, Mestre Laura Crispim Reisfeld, MSC. ANDRÉ GRESPAN e Dra Fernanda Passos Nunes. Módulos: 18 módulos, 360 h, por grupo animal; 4 módulos presenciais de aula prática; horários de sexta das 14h às 20h, sábado das 8h às 18h e domingo das 8h às 13h. Formato: semipresencial, São Paulo. Turma mínima de 15 alunos (ficha).
-- **Objeções:** (1) "Módulos de sexta a domingo": "Sim, com os horários na página; planeje a agenda com as datas do cronograma." (2) "Preço": texto-padrão. (3) "Vale para quem atende só pets não convencionais?": revisão docente [CONFIRMAR].
+- **Pilares de prova (ficha):** docentes: coordenação Carolina Nery (titulação não consta na ficha); 10 professores listados, entre eles ESP. SORAYA MALAGA, Mestre Laura Crispim Reisfeld, MSC. ANDRÉ GRESPAN e Dra Fernanda Passos Nunes. Módulos: 18 módulos, 360 h, por grupo animal; 4 módulos presenciais de aula prática; horários de sexta das 14h às 20h, sábado das 8h às 18h e domingo das 8h às 13h. Formato: semipresencial, São Paulo. Turma mínima de 15 alunos (ficha; a página já mostra 15, então o número pode ir para peça, regra 3a).
+- **Objeções:** (1) "Módulos de sexta a domingo": "Sim, com os horários na página; planeje a agenda com as datas do cronograma." (2) "Preço": valor completo na página da turma (regra 3). (3) "Vale para quem atende só pets não convencionais?": revisão docente [CONFIRMAR].
 - **Usar:** pets não convencionais, silvestres, exóticos, manejo, anestesia de silvestres. **Evitar:** o número de mercado da página (R$ 77,3 bilhões) e os números de espécies, sem fonte conferida.
 - **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Medicina de Silvestres: de peixes a mamíferos, com 4 módulos práticos"; "Veja os horários e o cronograma da primeira turma."
-- **Turma:** 60, São Paulo, início 28/05/2027, turma I, 24x de R$ 1.237,50 no cartão ou boleto (total de R$ 29.700,00), mais matrícula de R$ 250,00.
+- **Turma:** 60, São Paulo, início 28/05/2027, turma I, 24x de R$ 1.237,50 no cartão ou boleto (total de R$ 29.700,00), mais matrícula de R$ 250,00. Valores: referência interna, sem preço em peça até a U11 (regra 3).
 
 ### 15.6 719. Pós-graduação em Inteligência Artificial na Saúde
 
 - **Público e momento.** Fora das personas veterinárias: público da ficha "Médicos, Enfermeiros, Gestores de Saúde, Profissionais de TI e Engenheiros Clínicos". Persona própria [CONFIRMAR] (persona 5.1).
 - **Promessa central.** IA aplicada à saúde com prática de prompts e agentes, respeitando LGPD e ética no tratamento de dados sensíveis.
 - **Pilares de prova (ficha):** docentes: coordenação Prof. Ricardo Bontempo; 3 professores listados (João Carlos Bombardelli, Claudiney Sanches Junior, Paulo Alberto Simões; titulação não consta). Módulos: 15 módulos, 360 h; Machine Learning e Deep Learning, engenharia de prompts para LLMs, agentes de atendimento e suporte à decisão, LGPD; 3 módulos presenciais; metodologia PBL e ensino híbrido. Formato: semipresencial, São Paulo; exige notebook com processador i3, Windows e 8 GB de RAM (ficha).
-- **Objeções:** (1) "Serve para veterinário?" (H-A14.4): a ficha não cita veterinária; não anunciar para o público veterinário sem decisão [CONFIRMAR]. (2) "Uso Mac" (H-A14.5): dizer o requisito como está na ficha. (3) "Preço": texto-padrão.
+- **Objeções:** (1) "Serve para veterinário?" (H-A14.4): a ficha não cita veterinária; não anunciar para o público veterinário sem decisão [CONFIRMAR]. (2) "Uso Mac" (H-A14.5): dizer o requisito como está na ficha. (3) "Preço": valor completo na página da turma (regra 3).
 - **Usar:** IA na saúde, LGPD, prompts, agentes. **Evitar:** "alinhando-se às normas do Ministério da Educação" (texto da ficha), promessa de liderança ou cargo, chamar de "Pós-Graduação".
 - **Títulos e chamadas [SUPOSIÇÃO de texto]:** "Pós-graduação em Inteligência Artificial na Saúde: prompts, agentes e LGPD"; "Veja o requisito de notebook e o cronograma antes de se inscrever."
-- **Turma:** 719, São Paulo, início 08/05/2027, turma I, 18x de R$ 666,67 no cartão ou boleto (total de R$ 12.000,00), mais matrícula de R$ 250,00. Ato regulatório para saúde humana [CONFIRMAR NO CATÁLOGO].
+- **Turma:** 719, São Paulo, início 08/05/2027, turma I, 18x de R$ 666,67 no cartão ou boleto (total de R$ 12.000,00), mais matrícula de R$ 250,00. Ato regulatório para saúde humana [CONFIRMAR NO CATÁLOGO]. Valores: referência interna, sem preço em peça até a U11 (regra 3).
 
 Prova de bolsa da área no catálogo: 68655 (Odontologia, sem turma de destino). Sem peça nesta rodada.
 
@@ -643,10 +645,11 @@ Prova de bolsa da área no catálogo: 68655 (Odontologia, sem turma de destino).
 | Dado de curso só do catálogo ou da ficha | Sim; preço copiado do catálogo sem arredondar; datas da planilha pelo catálogo |
 | Sem certificação, MEC, título | Sim; frases das fichas listadas em "evitar" |
 | Sem urgência falsa, sem "últimas vagas" | Sim; reta final só com data e "fale com o time" |
-| Preço só com condições completas | Sim; 662 sem preço; descontos fora |
+| Datas e preço de itens do P3 (662, 679, 68636) | Fora de peça até a correção (A12) ou liberação do cmo |
+| Preço só com condições completas | Sim: nenhuma peça com preço até a U11 (regra 3); 662, 679 e 68636 sem preço; descontos fora |
 | Sem promessa de emprego, renda, aprovação | Sim |
 | Docentes com nome e titulação da ficha | Sim, grafia da ficha; autorização pelas decisões 8 e 10 |
-| Turma mínima de 15 | Sim (decisão 11) |
+| Turma mínima | Número 15 só onde a página já mostra 15 (60 e 699); demais sem número (regra 3a) |
 | Voz do candidato marcada | Sim, tudo [SUPOSIÇÃO] |
 | Provas de bolsa sem peça | Sim (decisão 14) |
 | Nome "Pós-graduação em <área>" | Sim |
@@ -656,11 +659,29 @@ Prova de bolsa da área no catálogo: 68655 (Odontologia, sem turma de destino).
 
 ---
 
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), corrigida após saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-camada2.md:
+
+- M1 (decisão 16): regra 3 passa a "sem preço em peça até a U11", com a chamada para a página da turma; as tabelas de turmas viram referência interna; respostas de investimento (base, A1, A3, A9, A10, A14) sem texto-padrão.
+- M2 (decisão 11 e T2): nova regra 3a; o número 15 só onde a página já mostra 15 (60 e 699); elevador, pilar 3, objeção 3 da base, palavras e auditoria ajustados.
+- M3 (P3 do cmo): 68636 e 679 sem preço e sem data de início em peça final; chamada de 679 sem data.
+- M4: entradas citam as decisões 1 a 17.
+- M5: motivo pedagógico de A7 marcado [SUPOSIÇÃO] e revisão docente.
+- M6: resposta de EAD em A3 cita só os presenciais de 68635 da ficha, marcada [SUPOSIÇÃO de texto].
+- M7: 68617 com 2 módulos presenciais (12 e 23), pela ficha.
+- M8: 68606 com os módulos 6, 13 e 21 e o estágio citado literalmente.
+- M9: 289 com "6 módulos presenciais, 4 deles com prática de ecocardiograma".
+- M10: 657 com "entre os 6 módulos presenciais".
+- Regra 4 (1ª mensalidade vencida) passa a valer só quando o preço voltar a peça.
+
 ## Lista 1. Fatos (com fonte)
 
 - Preço, parcelas, matrícula, campus, modalidade, carga horária, turma e status das 30 turmas: contexto/catalogo-de-cursos.md, seção 2 (site, 26/10/2026).
 - Datas de início pela planilha, inclusive 698 em 28/11/2026, 352 em 24/05/2027, 366 em 10/04/2027 e 662 em 24/04/2027: catálogo e decisão 12 da Ufape.
-- Turma mínima de 15 alunos na Pós: decisão 11 da Ufape (26/10/2026); contexto/pos-graduacao.md.
+- Turma mínima de 15 alunos na Pós: decisão 11 da Ufape (26/10/2026); contexto/pos-graduacao.md. Páginas que já mostram 15: 60 e 699 (fichas); as demais conferidas ainda mostram 20 (qa-de-marketing-pos-2026-10-26-camada2, T2).
+- Valor da matrícula e da inscrição suspenso em peça até a U11: decisão 16 da Ufape.
+- 662, 679 e 68636 sem preço nem data em peça até a correção: P3 do plano do cmo.
 - Autorização de imagem e citação de docentes, coordenadores e convidados: decisões 8 e 10 da Ufape.
 - Coordenação, professores listados, módulos, módulos presenciais e textos citados de cada turma: fichas em contexto/cursos/pos/ (26/10/2026).
 - 68632 é a única turma presencial do recorte; as demais são semipresenciais: catálogo.
@@ -684,9 +705,12 @@ Prova de bolsa da área no catálogo: 68655 (Odontologia, sem turma de destino).
 - [CONFIRMAR] Local da prática com cavalos de 341 (São Paulo, Indaiatuba ou hospital veterinário citado) e quantidade de módulos presenciais.
 - [CONFIRMAR] Regra completa da promoção de 341 e dos descontos de 359 e 352 (fora de peça até lá).
 - [CONFIRMAR] Pré-requisito de 657, 359 e 698; público-alvo de 68616 e 382; público de 699 (estudante do último ano) e ordem do cronograma.
+- [CONFIRMAR U11] Valor da inscrição e da matrícula da Pós (R$ 260,00 informado pelo CEO contra R$ 250,00 ou R$ 350,00 no site); até lá, peça sem preço.
+- [CONFIRMAR] Correção das páginas que ainda dizem turma mínima de 20 (pedido A12).
+- [CONFIRMAR] Correção de 679 e 68636 (P3) para liberar data e preço.
 - [CONFIRMAR] Dados de 662 (link trocado, P3): preço, turma, cronograma e docentes desta turma.
 - [CONFIRMAR] Número da turma de 68617 e 68628 (planilha e site divergem).
-- [CONFIRMAR com a planilha] Datas de 68636, 68629 e 359 (só no site).
+- [CONFIRMAR com a planilha] Datas de 68629 e 359 (só no site); 68636 fica sem data em peça (P3).
 - [CONFIRMAR] Correção da data de 698 no site (pedido A6) antes de anúncio novo.
 - [CONFIRMAR] Coordenação de 68632; coordenação nomeada de 68610, 578, 366 e 333; corpo docente de 333.
 - [CONFIRMAR] Regra de entrada tardia para 707, 68604, 68606, 68610, 68608 e 698 (PR4).
@@ -696,5 +720,5 @@ Prova de bolsa da área no catálogo: 68655 (Odontologia, sem turma de destino).
 - [CONFIRMAR] Requisito de equipamento próprio em 68604 e 68629; número de alunos por estação nas práticas.
 - [CONFIRMAR] Persona e canal de 719 e ato regulatório para saúde humana; se 719 entra em peça para veterinários.
 - [CONFIRMAR] Resolução citada na ficha de 366, com a regulação, antes de peça.
-- [CONFIRMAR] Número de módulos presenciais de 68617, 68615, 68623 e 68616.
+- [CONFIRMAR] Número de módulos presenciais de 68615, 68623 e 68616.
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação da Pós.
