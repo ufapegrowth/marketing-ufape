@@ -54,7 +54,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.26 | estrategia-de-relacionamento | pos, livres | pos entregue (sem qa); falta livres |
 | 1.27 | jornada-do-aluno | geral | falta |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
-| 1.29 | newsletter | geral | falta |
+| 1.29 | newsletter | geral | entregue (sem qa) |
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
 | 1.32 | analise-de-campanha | pos, livres, eventos | entregue |
@@ -77,6 +77,7 @@ Segue as dependências da seção 4 do plano do cmo.
 - Datas da mídia do workshop: o memorando gestor-de-midia-geral diz 30/10, 06/11 e pausa em 18/11; a estrategia-de-campanha-eventos diz 03/11, 10/11 e 19/11. Fechar na 1.11 de eventos.
 - Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
+- Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
 - A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
 
 ## Próximos passos
@@ -93,3 +94,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Lote A iniciado: estrategia-de-marketing livres e eventos, gestor-de-midia pos, estrategia-social pos, estrategia-de-relacionamento pos, newsletter geral |
 | 26/10/2026 | 1.26 pos entregue: 12 segmentos, 9 programas, cadência [SUPOSIÇÃO]. Notas N1 a N4 de choque de calendário com a régua do workshop e com copy-de-mensagens-pos, para o cmo decidir |
 | 26/10/2026 | 1.9 livres e eventos e 1.20 pos entregues. Conflitos registrados na seção própria |
+| 26/10/2026 | 1.29 newsletter geral entregue (quinzenal para Pós, Livres e Eventos; Graduação fora) |
