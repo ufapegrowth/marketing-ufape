@@ -229,7 +229,7 @@ As três fichas seguem o mesmo molde: prova presencial de 9h às 13h em 27/11/20
 | H-PB7 | candidato | dúvida | "A bolsa vale para qual turma e para qual cidade?" Para Felinos, Endoscopia, Nefrologia e Odontologia não há turma futura aberta da mesma área no catálogo. [SUPOSIÇÃO] | Plano do cmo, seção 2.3 (nota sobre provas sem turma de destino) e P10. |
 | H-PB8 | candidato | desejo | Quer saber o percentual possível de bolsa antes de decidir fazer a prova, porque o preço total é a maior objeção. [SUPOSIÇÃO] | Todas as pós trazem o convite "Tem interesse em prestar a prova de bolsa? Clique aqui". O contexto da linha mantém "percentuais de bolsa e regras: [PREENCHER]". |
 
-Observação para o cmo: o contexto e a pendência P10 do plano dizem que regras e percentuais da bolsa estão vazios, mas as três fichas lidas já trazem números de bolsas, percentuais, nota de corte e prazos. Isso precisa ser validado pela Ufape e entrar no catálogo antes de qualquer peça usar. Este agente não alterou nenhum contexto.
+Observação (atualizada em 26/10/2026): contexto/pos-graduacao.md e o catálogo (seção 3) já registram o preço de R$ 100,00 e as regras e percentuais das 22 provas; a pendência P10 do plano foi resolvida.
 
 ## 5. Padrões que atravessam as áreas (sínteses das hipóteses, não contagem de voz)
 
@@ -503,6 +503,6 @@ Próximo agente: o plano do cmo coloca pesquisa-de-persona (etapa 1.4) logo depo
 - Parecer do encarregado de dados sobre base legal, consentimento e prazo de guarda [CONFIRMAR].
 - Regra de reposição de módulo presencial perdido; lista de documentos de matrícula; data de confirmação da turma; regras do estágio da Gastroenterologia; local das aulas práticas de equinos [CONFIRMAR].
 - Texto oficial de certificação e a regra de desconto de aluno e ex-aluno [PREENCHER COM A REGULAÇÃO] e [PREENCHER].
-- Números de bolsas e percentuais das provas, desconto de 12% da ficha 359 e duração da ficha 666: [CONFIRMAR NO CATÁLOGO].
+- Desconto de 12% da ficha 359 e duração da ficha 666: [CONFIRMAR NO CATÁLOGO]. Números de bolsas e percentuais das provas: no contexto da linha desde 26/10.
 - Fichas de Pós não lidas nesta rodada (turmas 289, 68636, 68635, 68623, 578, 662, 366, 68615, 333, 679, 699, 382, 352, 60, 68612 e as demais provas de bolsa) e o fim do cronograma das 9 fichas lidas em parte.
 - Autorização de uso de imagem e voz de docentes (pendência P13) e de qualquer citação de aluno em peça pública.

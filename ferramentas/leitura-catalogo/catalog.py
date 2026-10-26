@@ -62,7 +62,7 @@ def table(title,items,cols):
     L.append('')
 pos=[x for x in rows if x['linha']=='pos' and x['tipo']=='pós-graduação']
 table('2. Pós-graduação (turmas)',pos,['cod','curso','local','mod','ini','turma','ch','preco','status','fonte','ficha'])
-table('3. Provas de bolsa (pós-graduação)',[x for x in rows if x['tipo']=='prova de bolsa'],['cod','curso','local','ini','status','ficha'])
+table('3. Provas de bolsa (pós-graduação)',[x for x in rows if x['tipo']=='prova de bolsa'],['cod','curso','local','ini','preco','status','ficha'])
 for t,title in [('curso presencial','4. Cursos livres presenciais'),('curso online','5. Cursos livres online e gravados'),('curso em espanhol','6. Cursos em espanhol'),('grupo de estudos','7. Grupos de estudos'),('aprimoramento (Ufape Clínica)','8. Aprimoramento (Ufape Clínica)')]:
     table(title,[x for x in rows if x['tipo']==t],['cod','curso','local','mod','ini','ch','preco','status','fonte','ficha'])
 table('9. Simpósios e congressos',[x for x in rows if x['tipo']=='simpósio ou congresso'],['cod','curso','local','ini','preco','status','fonte','ficha'])

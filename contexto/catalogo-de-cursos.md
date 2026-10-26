@@ -14,7 +14,7 @@ Fonte única de dados de curso para toda a squad. Nenhum agente pode divulgar cu
 - **Status "aberto (contínuo)"**: curso online ou gravado, à venda o ano todo.
 - **Status "verificar"**: a Ufape precisa confirmar antes de qualquer peça (turma já iniciada ainda à venda, data ausente ou divergente).
 - **Status "sem venda (avise-me)"** ou **"encerrado"**: não divulgar com chamada de compra.
-- **Preços** são os do site em 26/10/2026. Conferir a página oficial antes de publicar peça com preço.
+- **Preços** são os do site em 26/10/2026 (inclusive a inscrição das provas de bolsa, seção 3). Conferir a página oficial antes de publicar peça com preço.
 - **Certificação de pós-graduação:** as páginas do site usam "CERTIFICADO PELO MEC". Até a regulação da Ufape aprovar o texto oficial, nenhuma peça deve usar essa frase. Texto aprovado: [PREENCHER COM A REGULAÇÃO].
 - **Graduação:** atos autorizativos, vagas, datas e regras de desconto vêm dos editais do 1º semestre de 2027 (ficha cursos/graduacao/editais-2027-1.md). Inscrições abertas desde 17/08/2026, aulas em 22/02/2027, turma mínima de 30.
 
@@ -103,44 +103,44 @@ Editais publicados no site: Vestibular 2027 (https://faculdade.ufape.com.br/uplo
 
 ## 3. Provas de bolsa (pós-graduação)
 
-| Código | Curso | Local | Início | Status | Ficha |
-|---|---|---|---|---|---|
-| 68640 | Prova de Bolsa de Estudos para Anestesiologia Veterinária | Goiânia | 27/11/2026 | aberto | [ficha](cursos/pos/68640-prova-de-bolsa-de-estudos-para-anestesiologia-veterinaria.md) |
-| 68639 | Prova de Bolsa de Estudos para Anestesiologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68639-prova-de-bolsa-de-estudos-para-anestesiologia-veterinaria.md) |
-| 68641 | Prova de Bolsa de Estudos para Cardiologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68641-prova-de-bolsa-de-estudos-para-cardiologia-veterinaria.md) |
-| 68642 | Prova de Bolsa de Estudos para Cardiologia Veterinária | Goiânia | 27/11/2026 | aberto | [ficha](cursos/pos/68642-prova-de-bolsa-de-estudos-para-cardiologia-veterinaria.md) |
-| 68644 | Prova de Bolsa de Estudos para Clínica Cirúrgica de Cães e Gatos | Goiânia | 27/11/2026 | aberto | [ficha](cursos/pos/68644-prova-de-bolsa-de-estudos-para-clinica-cirurgica-de-caes-e-gatos.md) |
-| 68643 | Prova de Bolsa de Estudos para Clínica Cirúrgica de Cães e Gatos | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68643-prova-de-bolsa-de-estudos-para-clinica-cirurgica-de-caes-e-gatos.md) |
-| 68645 | Prova de Bolsa de Estudos para Clínica Médica e emergência Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68645-prova-de-bolsa-de-estudos-para-clinica-medica-e-emergencia-veterinaria.md) |
-| 68646 | Prova de Bolsa de Estudos para Dermatologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68646-prova-de-bolsa-de-estudos-para-dermatologia-veterinaria.md) |
-| 68647 | Prova de Bolsa de Estudos para Diagnóstico por Imagem | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68647-prova-de-bolsa-de-estudos-para-diagnostico-por-imagem.md) |
-| 68648 | Prova de Bolsa de Estudos para Endocrinologia de Pequenos Animais | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68648-prova-de-bolsa-de-estudos-para-endocrinologia-de-pequenos-animais.md) |
-| 68649 | Prova de Bolsa de Estudos para Endoscopia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68649-prova-de-bolsa-de-estudos-para-endoscopia-veterinaria.md) |
-| 68650 | Prova de Bolsa de Estudos para Gastroenterologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68650-prova-de-bolsa-de-estudos-para-gastroenterologia-veterinaria.md) |
-| 68651 | Prova de Bolsa de Estudos para Hematologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md) |
-| 68652 | Prova de Bolsa de Estudos para Medicina de Felinos | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68652-prova-de-bolsa-de-estudos-para-medicina-de-felinos.md) |
-| 68653 | Prova de Bolsa de Estudos para Nefrologia e Urologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68653-prova-de-bolsa-de-estudos-para-nefrologia-e-urologia-veterinaria.md) |
-| 68654 | Prova de Bolsa de Estudos para Neurologia e Neurocirurgia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68654-prova-de-bolsa-de-estudos-para-neurologia-e-neurocirurgia-veterinaria.md) |
-| 68655 | Prova de Bolsa de Estudos para Odontologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68655-prova-de-bolsa-de-estudos-para-odontologia-veterinaria.md) |
-| 68656 | Prova de Bolsa de Estudos para Oftalmologia Veterinária | SP | 27/11/2026 | encerrado (link fora do ar) | [ficha](cursos/pos/68656-prova-de-bolsa-de-estudos-para-oftalmologia-veterinaria.md) |
-| 68657 | Prova de Bolsa de Estudos para Oncologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68657-prova-de-bolsa-de-estudos-para-oncologia-veterinaria.md) |
-| 68658 | Prova de Bolsa de Estudos para Patologia Clínica Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68658-prova-de-bolsa-de-estudos-para-patologia-clinica-veterinaria.md) |
-| 68659 | Prova de Bolsa de Estudos para Pneumologia Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68659-prova-de-bolsa-de-estudos-para-pneumologia-veterinaria.md) |
-| 68660 | Prova de Bolsa de Estudos para Terapia Intensiva Veterinária | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68660-prova-de-bolsa-de-estudos-para-terapia-intensiva-veterinaria.md) |
-| 68661 | Prova de Bolsa de Estudos para Ultrassonografia em Pequenos Animais | São Paulo | 27/11/2026 | aberto | [ficha](cursos/pos/68661-prova-de-bolsa-de-estudos-para-ultrassonografia-em-pequenos-animais.md) |
-| 691 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu Semipresencial em Anestesiologia Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/691-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-semipresencial.md) |
-| 687 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Clínica Cirúrgica de Cães e Gatos | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/687-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-clinica-cir.md) |
-| 689 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Clínica Médica e Emergência | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/689-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-clinica-med.md) |
-| 695 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Dermatologia Clínica Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/695-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-dermatologi.md) |
-| 682 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Endocrinologia de Pequenos Animais | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/682-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-endocrinolo.md) |
-| 681 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Gastroenterologia | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/681-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-gastroenter.md) |
-| 684 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Hematologia Clínica de Pequenos Animais | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/684-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-hematologia.md) |
-| 680 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Medicina de Felinos - Turma VI | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/680-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-medicina-de.md) |
-| 688 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Nefrologia e Urologia | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/688-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-nefrologia-.md) |
-| 694 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Odontologia Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/694-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-odontologia.md) |
-| 685 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Oncologia Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/685-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-oncologia-v.md) |
-| 690 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Terapia Intensiva e Emergência Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/690-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-terapia-int.md) |
-| 693 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Videocirurgia Veterinária | São Paulo |  | sem venda (avise-me) | [ficha](cursos/pos/693-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-videocirurg.md) |
+| Código | Curso | Local | Início | Preço (site) | Status | Ficha |
+|---|---|---|---|---|---|---|
+| 68640 | Prova de Bolsa de Estudos para Anestesiologia Veterinária | Goiânia | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68640-prova-de-bolsa-de-estudos-para-anestesiologia-veterinaria.md) |
+| 68639 | Prova de Bolsa de Estudos para Anestesiologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68639-prova-de-bolsa-de-estudos-para-anestesiologia-veterinaria.md) |
+| 68641 | Prova de Bolsa de Estudos para Cardiologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68641-prova-de-bolsa-de-estudos-para-cardiologia-veterinaria.md) |
+| 68642 | Prova de Bolsa de Estudos para Cardiologia Veterinária | Goiânia | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68642-prova-de-bolsa-de-estudos-para-cardiologia-veterinaria.md) |
+| 68644 | Prova de Bolsa de Estudos para Clínica Cirúrgica de Cães e Gatos | Goiânia | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68644-prova-de-bolsa-de-estudos-para-clinica-cirurgica-de-caes-e-gatos.md) |
+| 68643 | Prova de Bolsa de Estudos para Clínica Cirúrgica de Cães e Gatos | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68643-prova-de-bolsa-de-estudos-para-clinica-cirurgica-de-caes-e-gatos.md) |
+| 68645 | Prova de Bolsa de Estudos para Clínica Médica e emergência Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68645-prova-de-bolsa-de-estudos-para-clinica-medica-e-emergencia-veterinaria.md) |
+| 68646 | Prova de Bolsa de Estudos para Dermatologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68646-prova-de-bolsa-de-estudos-para-dermatologia-veterinaria.md) |
+| 68647 | Prova de Bolsa de Estudos para Diagnóstico por Imagem | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68647-prova-de-bolsa-de-estudos-para-diagnostico-por-imagem.md) |
+| 68648 | Prova de Bolsa de Estudos para Endocrinologia de Pequenos Animais | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68648-prova-de-bolsa-de-estudos-para-endocrinologia-de-pequenos-animais.md) |
+| 68649 | Prova de Bolsa de Estudos para Endoscopia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68649-prova-de-bolsa-de-estudos-para-endoscopia-veterinaria.md) |
+| 68650 | Prova de Bolsa de Estudos para Gastroenterologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68650-prova-de-bolsa-de-estudos-para-gastroenterologia-veterinaria.md) |
+| 68651 | Prova de Bolsa de Estudos para Hematologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md) |
+| 68652 | Prova de Bolsa de Estudos para Medicina de Felinos | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68652-prova-de-bolsa-de-estudos-para-medicina-de-felinos.md) |
+| 68653 | Prova de Bolsa de Estudos para Nefrologia e Urologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68653-prova-de-bolsa-de-estudos-para-nefrologia-e-urologia-veterinaria.md) |
+| 68654 | Prova de Bolsa de Estudos para Neurologia e Neurocirurgia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68654-prova-de-bolsa-de-estudos-para-neurologia-e-neurocirurgia-veterinaria.md) |
+| 68655 | Prova de Bolsa de Estudos para Odontologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68655-prova-de-bolsa-de-estudos-para-odontologia-veterinaria.md) |
+| 68656 | Prova de Bolsa de Estudos para Oftalmologia Veterinária | SP | 27/11/2026 |  | encerrado (link fora do ar) | [ficha](cursos/pos/68656-prova-de-bolsa-de-estudos-para-oftalmologia-veterinaria.md) |
+| 68657 | Prova de Bolsa de Estudos para Oncologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68657-prova-de-bolsa-de-estudos-para-oncologia-veterinaria.md) |
+| 68658 | Prova de Bolsa de Estudos para Patologia Clínica Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68658-prova-de-bolsa-de-estudos-para-patologia-clinica-veterinaria.md) |
+| 68659 | Prova de Bolsa de Estudos para Pneumologia Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68659-prova-de-bolsa-de-estudos-para-pneumologia-veterinaria.md) |
+| 68660 | Prova de Bolsa de Estudos para Terapia Intensiva Veterinária | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68660-prova-de-bolsa-de-estudos-para-terapia-intensiva-veterinaria.md) |
+| 68661 | Prova de Bolsa de Estudos para Ultrassonografia em Pequenos Animais | São Paulo | 27/11/2026 | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | aberto | [ficha](cursos/pos/68661-prova-de-bolsa-de-estudos-para-ultrassonografia-em-pequenos-animais.md) |
+| 691 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu Semipresencial em Anestesiologia Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/691-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-semipresencial.md) |
+| 687 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Clínica Cirúrgica de Cães e Gatos | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/687-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-clinica-cir.md) |
+| 689 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Clínica Médica e Emergência | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/689-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-clinica-med.md) |
+| 695 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Dermatologia Clínica Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/695-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-dermatologi.md) |
+| 682 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Endocrinologia de Pequenos Animais | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/682-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-endocrinolo.md) |
+| 681 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Gastroenterologia | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/681-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-gastroenter.md) |
+| 684 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Hematologia Clínica de Pequenos Animais | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/684-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-hematologia.md) |
+| 680 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Medicina de Felinos - Turma VI | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/680-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-medicina-de.md) |
+| 688 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Nefrologia e Urologia | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/688-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-nefrologia-.md) |
+| 694 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Odontologia Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/694-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-odontologia.md) |
+| 685 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Oncologia Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/685-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-oncologia-v.md) |
+| 690 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Terapia Intensiva e Emergência Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/690-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-terapia-int.md) |
+| 693 | Prova de Bolsa de Estudos para Pós-graduação Lato Sensu em Videocirurgia Veterinária | São Paulo |  |  | sem venda (avise-me) | [ficha](cursos/pos/693-prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-videocirurg.md) |
 
 ## 4. Cursos livres presenciais
 
