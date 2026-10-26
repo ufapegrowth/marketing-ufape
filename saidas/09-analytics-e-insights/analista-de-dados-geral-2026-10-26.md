@@ -4,7 +4,7 @@
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos; Graduação não aparece na visão de campanhas)
 - **Data:** 26/10/2026
 - **Etapa:** 1.10 da camada 1 do plano do cmo
-- **Status:** rascunho para o qa-de-marketing. Nada é publicado, enviado ou pago.
+- **Status:** rascunho, versão 2, corrigida após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md, itens A1 a A4, R1 e R2). Nada é publicado, enviado ou pago.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
   - /home/user/marketing-ufape/CLAUDE.md
@@ -16,6 +16,7 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7)
   - /home/user/marketing-ufape/.claude/skills/memorando-de-insight/SKILL.md e .claude/skills/arvore-de-metricas/SKILL.md
   - /home/user/marketing-ufape/auditorias/09-analytics.md
+  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md (veredito, seção 1)
 
 ---
 
@@ -30,7 +31,7 @@
 
 - Numerei as 67 linhas da tabela da visão de campanhas na ordem do arquivo, de V1 (linha 9 do arquivo) a V67 (linha 75). Cada linha foi lida e classificada à mão (não há script nesta rodada). As contagens por status batem com o total escrito no topo da visão: 26 sem campanha, 22 pausadas, 19 ativas (26 + 22 + 19 = 67).
 - Cada linha foi ligada a um código do catálogo pelo nome, local e data. A linha de negócio vem da seção do catálogo onde o código está (seção 2 = Pós; seções 4 a 8 = Livres; seção 9 = Eventos).
-- Faixas de urgência usam a coluna "Dias até o início" da visão, conferida por amostra (30/10/2026 = 4 dias; 28/11/2026 = 33 dias; 13/03/2027 = 138 dias: 5 + 30 + 31 + 31 + 28 + 13).
+- **Datas e dias até o início vêm do catálogo** (que traz a data da planilha), não da visão. Onde a data do catálogo difere da visão (seção 6.4), vale a do catálogo e a da visão aparece entre parênteses. A coluna "Dias até o início" da visão só é usada quando o catálogo não tem data ou o código é [CONFIRMAR]. Conferi a coluna da visão por amostra (30/10/2026 = 4 dias; 28/11/2026 = 33 dias; 13/03/2027 = 138 dias: 5 + 30 + 31 + 31 + 28 + 13).
 - Áreas A1 a A14 e a separação "recorte" e "fora do recorte" vêm das seções 2.2 a 2.4 e da tabela de status de mídia da seção 3 do plano do cmo, recontadas item a item.
 - Percentuais arredondados a uma casa: parte dividida pelo total, vezes 100.
 
@@ -40,26 +41,28 @@
 
 ### Pergunta 1. Onde estão as campanhas ligadas em relação à urgência?
 
-**Dados (visão de campanhas, contagem V1 a V67):**
+**Dados (visão de campanhas, contagem V1 a V67, dias pela data do catálogo):**
 
-| Faixa de dias até o início | Linhas | Ativa | Pausada | Sem campanha |
+| Faixa de dias até o início (catálogo) | Linhas | Ativa | Pausada | Sem campanha |
 |---|---|---|---|---|
 | Já iniciada (dias negativos) | 32 | 6 | 9 | 17 |
-| De 0 a 30 dias | 4 | 4 | 0 | 0 |
-| De 31 a 60 dias | 6 | 6 | 0 | 0 |
+| De 0 a 30 dias | 5 | 5 | 0 | 0 |
+| De 31 a 60 dias | 6 | 5 | 1 (68618) | 0 |
 | De 61 a 180 dias | 14 | 2 | 8 | 4 |
-| Mais de 180 dias | 11 | 1 | 5 | 5 |
+| Mais de 180 dias | 10 | 1 | 4 | 5 |
 | **Total** | **67** | **19** | **22** | **26** |
 
+Diferença para a leitura pela coluna da visão: 573 passa de 34 para 19 dias (entra na faixa de 0 a 30), 68614 passa de 53 para 33 dias (continua de 31 a 60) e 68618 passa de 208 para 53 dias (sai de "mais de 180" e entra de 31 a 60, pausada). Pela coluna da visão, a faixa de até 60 dias teria 10 linhas, todas ativas; pela data do catálogo, que é a que vale, são 11 linhas e 10 ativas (P6 do plano do cmo). As demais divergências da seção 6.4 não mudam de faixa (continuam como já iniciadas).
+
 - Das 19 campanhas ativas, 6 (31,6%) estão em turma já iniciada, 10 (52,6%) em turma que começa em até 60 dias e 3 (15,8%) em turma a mais de 60 dias.
-- Todas as 10 linhas com início em até 60 dias estão com campanha ativa (10 de 10).
+- Das 11 linhas com início em até 60 dias pelo catálogo, 10 estão com campanha ativa; a exceção é o Curso de Ventilação Mecânica Aplicada à Anestesia Veterinária (68618, 18/12/2026, 53 dias), pausado.
 - Das 35 linhas ainda não iniciadas (V33 a V67): 13 ativas, 13 pausadas e 9 sem campanha.
 
-**Insight:** a mídia ligada segue o calendário de perto (100% das turmas em até 60 dias estão ativas), mas um terço das campanhas ativas ainda roda em turma que já começou.
+**Insight:** a mídia ligada segue o calendário de perto (10 de 11 turmas em até 60 dias estão ativas pela data do catálogo), mas um terço das campanhas ativas ainda roda em turma que já começou, e a única turma próxima sem campanha ligada (68618) pode estar pausada porque a aba de campanhas acha que ela é de maio de 2027.
 
-**Ação:** gestor-de-midia leva à aprovação humana a decisão sobre as 6 ativas em turma iniciada (pedido A4 do plano), com gasto da semana de cada uma [CONFIRMAR].
+**Ação:** gestor-de-midia leva à aprovação humana a decisão sobre as 6 ativas em turma iniciada (pedido A4 do plano), com gasto da semana de cada uma [CONFIRMAR], e pede à Ufape a data única da 68618 antes de qualquer decisão sobre ela.
 
-**Ressalvas:** sem gasto por campanha, 6 ativas podem pesar muito ou quase nada. Não se sabe se essas turmas ainda aceitam entrada (política [CONFIRMAR]).
+**Ressalvas:** sem gasto por campanha, 6 ativas podem pesar muito ou quase nada. Não se sabe se essas turmas ainda aceitam entrada (política [CONFIRMAR]). A data de 573, 68614 e 68618 está em [CONFIRMAR] (P6).
 
 ### Pergunta 2. A mídia ligada acompanha o ticket?
 
@@ -80,7 +83,7 @@ As 5 Pós de maior ticket ainda não iniciadas que aparecem na visão:
 | 657 | Pós-graduação em Anestesiologia Avançada | R$ 48.400,00 | 138 | Pausada |
 | 352 | Pós-graduação em Ventilação Mecânica | R$ 47.880,00 | 210 | Pausada |
 | 707 | Pós-graduação em Oftalmologia Veterinária | R$ 47.700,00 | 4 | Ativa, só estático, sem 5 ângulos |
-| 341 | Pós-graduação em Medicina Interna Equina | R$ 43.500,00 | 145 | Pausada |
+| 341 | Pós-graduação em Medicina Interna Equina | R$ 43.500,00 (promoção de 20% no site [CONFIRMAR regra, P16]) | 145 | Pausada |
 | 68628 | Pós-graduação em Oncologia Veterinária | R$ 38.940,00 | 166 | Sem campanha |
 
 **Insight:** o ticket não explica o status: as medianas dos três grupos ficam entre R$ 33.000,00 e R$ 35.400,00, e 3 das 4 maiores turmas futuras estão pausadas. Quem decide é a data, não o valor da turma.
@@ -93,7 +96,7 @@ As 5 Pós de maior ticket ainda não iniciadas que aparecem na visão:
 
 **Em até 30 dias (até 25/11/2026), sem campanha:**
 
-- Na visão: **nenhuma**. As 4 linhas da faixa (707, 68604, 68606 e o simpósio de 20/11) estão ativas.
+- Na visão: **nenhuma**. As 5 linhas da faixa pela data do catálogo (707, 68604, 68606, o simpósio de 20/11 e 573, com 19 dias pelo catálogo) estão ativas.
 - No catálogo, itens abertos com início em até 30 dias que **não constam** na visão (status de mídia desconhecido): Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária (68665, 01/11/2026, 6 dias) e Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos (68666, 25/11/2026, 30 dias). Ticket de R$ 100,00 cada.
 - Logo depois da janela, também sem status na visão: as 22 provas de bolsa de 27/11/2026 (32 dias) e o curso 68637 (28/11/2026, 33 dias, possível duplicado de 623).
 
@@ -139,7 +142,7 @@ Cruzamento das 19 ativas:
 
 **Insight:** das 13 ativas em turma ainda não iniciada, só 3 (68606, 698, 68608) têm vídeo e os 5 ângulos. A Pós com reta final mais curta e maior ticket entre as ativas (707, 4 dias, R$ 47.700,00) roda o pacote mais pobre: só estático e sem 5 ângulos.
 
-**Ação:** criativos-de-anuncio prioriza o pacote completo onde ainda dá tempo (33 dias ou mais: 68610, 573, 68614 e 623), e não onde faltam 4 ou 5 dias.
+**Ação:** criativos-de-anuncio prioriza o pacote completo onde ainda dá tempo (33 dias ou mais pela data do catálogo: 68610, 68614 e 623), e não onde faltam 4 ou 5 dias. A 573 fica fora da lista: começa em 19 dias pelo catálogo (34 pela visão) [CONFIRMAR data, P6].
 
 **Ressalvas:** a visão não diz quais ângulos existem nem o desempenho de cada formato. "Com 5 ângulos" não prova resultado melhor; é hipótese a testar quando houver números.
 
@@ -188,11 +191,13 @@ Conta: a tabela de status da seção 3 do plano lista 34 itens com status e 76 "
 | A14 Outras especialidades | 9 | 0 | 4 (679 [CONFIRMAR], 382, 341, 60) | 2 (699, 719) | 3 |
 | **Total** | **110** | **13** | **13** | **8** | **76** |
 
-**Insight:** A2 e A5 somam 6 das 13 ativas do recorte (46,2%), enquanto a maior área, A1 Anestesiologia e dor (14 itens), não tem nenhuma campanha ativa e tem a turma de maior ticket do recorte pausada (657, R$ 48.400,00). A1, A7, A10, A13 e A14 (42 itens somados: 14 + 10 + 4 + 6 + 9) estão com zero ativas.
+**Insight:** A2 e A5 somam 6 das 13 ativas do recorte (46,2%), enquanto a maior área, A1 Anestesiologia e dor (14 itens), não tem nenhuma campanha ativa e tem a turma de maior ticket do recorte pausada (657, R$ 48.400,00). A1, A7, A10, A13 e A14 (43 itens somados: 14 + 10 + 4 + 6 + 9) estão com zero ativas.
 
 **Ação:** o gestor-de-midia confere, na divisão de verba por área (etapa 1.11), se o zero em A1 é decisão ou lacuna, e a Ufape informa o motivo da pausa de 657.
 
-**Ressalvas:** área é agrupamento de mensagem do plano, não unidade de verba; uma área pode estar coberta por campanha institucional fora da visão [CONFIRMAR].
+**Ressalvas:**
+- Área é agrupamento de mensagem do plano, não unidade de verba; uma área pode estar coberta por campanha institucional fora da visão [CONFIRMAR].
+- A linha V67 (Paciente Grave, ativa) tem dois candidatos no catálogo (seção 6.3). As tabelas acima usam a hipótese do plano (produto 700). Se V67 for a linha da planilha de mesmo nome, sem página e sem código (catálogo, seção 9), ela sai do recorte e as contagens mudam: Eventos no recorte com 1 ativa e 2 itens na visão, A3 com 0 ativa, recorte com 12 ativas e 33 itens na visão (77 não constam). Nesse caso há uma campanha **ativa levando a um item sem página**, que falha no item "página de destino" da conformidade educacional.
 
 ---
 
@@ -200,15 +205,15 @@ Conta: a tabela de status da seção 3 do plano lista 34 itens com status e 76 "
 
 1. **A planilha mede a mídia de um terço do que a squad vai vender.** 76 dos 110 itens do recorte (69,1%) não têm status na visão de campanhas, entre eles os 3 primeiros da matriz GUT: as 22 provas de bolsa (32 dias, porta de entrada da Pós) e os grupos 68665 e 68666 (6 e 30 dias). "Zero turmas em até 30 dias sem campanha" na visão é verdade só para o que a visão lista. Evidência: tabela de cobertura da pergunta 5 e tabela de status da seção 3 do plano.
 2. **Há criativo completo parado em turma futura, enquanto turma com prazo curto roda o pacote mais pobre.** Três Pós ainda não iniciadas estão pausadas com os 5 ângulos prontos: 68615 (145 dias), 366 (166 dias, com vídeo) e 68617 (173 dias). Ao mesmo tempo, 707 (4 dias, R$ 47.700,00) roda só estático e sem 5 ângulos. Reativar o que já está pronto custa menos que produzir do zero. Evidência: V45, V53, V54 e V33 da visão; tabela da pergunta 4.
-3. **O calendário da própria planilha não é único.** Em 10 das 67 linhas a data da visão difere da do catálogo, e o caso de Ventilação Mecânica (68618) muda a faixa de urgência: 53 dias pelo catálogo (18/12/2026) e 208 dias pela visão (22/05/2027), com a campanha pausada. Para 573 a diferença é de 19 para 34 dias, e para 68614 de 33 para 53 dias. Qualquer regra "ligar a campanha N dias antes" vai errar nesses itens até a Ufape fixar uma data. Evidência: tabela de divergências da seção 6.
+3. **O calendário da própria planilha não é único.** Em 10 das 67 linhas a data da visão difere da do catálogo, e o caso de Ventilação Mecânica (68618) muda a faixa de urgência: 53 dias pelo catálogo (18/12/2026, a data que vale) e 208 dias pela visão (22/05/2027), com a campanha pausada. Para 573 a diferença é de 19 dias (catálogo) para 34 (visão), e para 68614 de 33 (catálogo) para 53 (visão). Qualquer regra "ligar a campanha N dias antes" vai errar nesses itens até a Ufape fixar uma data. Evidência: tabela de divergências da seção 6.4.
 
 ## 3. Três ações (todas pedidos de aprovação humana)
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | 1 | Gestor-de-midia leva à pessoa do marketing a decisão de pausar ou manter as 6 campanhas ativas em Pós já iniciadas (650, 68662, 706, 586, 554, 68612), com o gasto da última semana de cada uma | 31,6% das ativas estão em turma iniciada (pergunta 1) | gasto e diária [CONFIRMAR]; esta análise não propõe valor | liberar orçamento para onda 1 sem gastar em turma que talvez não aceite entrada | reativar no gerenciador de anúncios (ação humana) |
-| 2 | Ufape inclui na visão de campanhas uma linha com código do catálogo e status de mídia para as 22 provas de bolsa, 68665, 68666, 68637, 616 e os contínuos, e envia o pacote de dados da seção 4 | 69,1% do recorte não tem status de mídia (insight 1) | sem custo de mídia | a squad passa a ver a mídia de todo o recorte, a começar pela onda 1 | não se aplica |
-| 3 | Gestor-de-midia e criativos-de-anuncio avaliam reativar 68615, 366 e 68617 (criativos com 5 ângulos já prontos) na janela que as metas de custo indicarem, e direcionam a produção de vídeo e ângulos para itens com 33 dias ou mais (68610, 573, 68614, 623) | criativo pronto parado e pacote pobre na reta curta (insight 2, pergunta 4) | verba [CONFIRMAR] | mais cobertura de ângulos com menos produção nova | pausar de novo no gerenciador (ação humana) |
+| 2 | Ufape inclui na visão de campanhas uma linha com código do catálogo e status de mídia para as 22 provas de bolsa, 68665, 68666, 68637, 616 e os contínuos, informa para onde leva a campanha ativa da V67 e envia o pacote de dados da seção 4 | 69,1% do recorte não tem status de mídia (insight 1); V67 pode levar a item sem página (pergunta 5) | sem custo de mídia | a squad passa a ver a mídia de todo o recorte, a começar pela onda 1 | não se aplica |
+| 3 | Gestor-de-midia e criativos-de-anuncio avaliam reativar 68615, 366 e 68617 (criativos com 5 ângulos já prontos) na janela que as metas de custo indicarem, e direcionam a produção de vídeo e ângulos para itens com 33 dias ou mais pela data do catálogo (68610, 68614, 623); 573 (19 dias pelo catálogo) só depois de confirmada a data [CONFIRMAR, P6] | criativo pronto parado e pacote pobre na reta curta (insight 2, pergunta 4) | verba [CONFIRMAR] | mais cobertura de ângulos com menos produção nova | pausar de novo no gerenciador (ação humana) |
 
 ---
 
@@ -282,7 +287,7 @@ Regras para todos os envios:
 | Verba planejada | turma e mês | comparar planejado e gasto |
 | Quais ângulos foram usados (nome de cada um) | turma | ir além de "com" ou "sem 5 ângulos" |
 | Data de entrada de cada lote de criativo | turma | ler efeito de criativo novo (exemplo: V48, 21/10/26) |
-| Página de destino de cada campanha | turma | conferir link trocado e páginas com a frase de certificação |
+| Página de destino de cada campanha | turma | conferir link trocado, item sem página (V67) e páginas com a frase de certificação |
 | Linhas para provas de bolsa, grupos de estudos, contínuos e Graduação | item | cobrir os 76 itens do recorte que não constam |
 
 ### 4.5 Loja (site faculdade.ufape.com.br)
@@ -395,6 +400,8 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 
 ### 6.1 As 19 campanhas ativas
 
+Dias pela data do catálogo; entre parênteses, a da visão quando diverge.
+
 | Linha da visão | Código | Linha | Dias | Formatos | Ângulos | Ticket (site) |
 |---|---|---|---|---|---|---|
 | V16 | 650 | Pós | -72 | Estático | Sem 5 | R$ 30.000,00 |
@@ -411,11 +418,11 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 | V38 | 68608 | Pós | 33 | Estático e vídeo | Com 5 | R$ 35.400,00 |
 | V39 | 68610 | Pós | 33 | Estático | Com 5 | R$ 30.000,00 |
 | V40 | 623 | Livres | 33 | Estático | Sem 5 | R$ 890,00 |
-| V41 | 573 | Livres | 34 (catálogo: 19) | Estático | Com 5 | R$ 2.350,00 |
-| V42 | 68614 | Livres | 53 (catálogo: 33) | Estático | Com 5 | R$ 1.250,00 |
+| V41 | 573 | Livres | 19 (visão: 34) | Estático | Com 5 | R$ 2.350,00 |
+| V42 | 68614 | Livres | 33 (visão: 53) | Estático | Com 5 | R$ 1.250,00 |
 | V44 | 289 | Pós | 145 | Estático | Com 5 | R$ 35.400,00 |
 | V55 | 662 | Pós | 180 | Estático e vídeo | Sem 5 | R$ 37.500,00 [CONFIRMAR, link trocado] |
-| V67 | 700 [CONFIRMAR] | Eventos | 385 | Estático | Sem 5 | R$ 780,00 [CONFIRMAR] |
+| V67 | 700 ou linha "Paciente Grave" sem página [CONFIRMAR] | Eventos | 385 (visão; o catálogo não tem data) | Estático | Sem 5 | R$ 780,00 se for 700; sem preço se for a linha sem página |
 
 ### 6.2 As 22 campanhas pausadas
 
@@ -426,7 +433,7 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 | V23 | 665 | Pós | -37 | Estático | Sem 5 |
 | V24 | 666 | Pós | -37 | Estático | Com 5 |
 | V25 | 99 | Livres | -30 | Estático | Sem 5 |
-| V26 | 68668 | Livres | -25 | Estático | Sem 5 |
+| V26 | 68668 | Livres | -7 (visão: -25) | Estático | Sem 5 |
 | V29 | 68605 | Pós | -9 | Estático e vídeo | Com 5 |
 | V30 | 659 | Pós | -9 | Estático e vídeo | Com 5 |
 | V31 | 68607 | Pós | -2 | Vídeo | Sem 5 |
@@ -440,9 +447,11 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 | V54 | 68617 | Pós | 173 | Estático | Com 5 |
 | V59 | 578 | Pós | 208 | Estático | Sem 5 |
 | V60 | 382 | Pós | 208 | Estático | Sem 5 |
-| V63 | 68618 | Livres | 208 (catálogo: 53) | Estático | Sem 5 |
+| V63 | 68618 | Livres | 53 (visão: 208) | Estático | Sem 5 |
 | V64 | 352 | Pós | 210 | Estático | Sem 5 |
 | V65 | 60 | Pós | 214 | Estático | Sem 5 |
+
+Conta de V26: de 19/10/2026 (catálogo) a 26/10/2026 = 7 dias já passados. Continua na faixa "já iniciada".
 
 ### 6.3 Linhas da visão que não casam com um único código
 
@@ -454,11 +463,13 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 | V48 | Pós Graduação em Citopatologia Veterinária (03/04/2027) | 679 Infectologia, segundo o plano | link trocado |
 | V50 | Pós-graduação em Pneumologia Veterinária (10/04/2027) | 670 (fora do ar) ou 68636 (17/04/2027) | código [CONFIRMAR] |
 | V66 | Internacional de Coagulação (15/11/2027) | 202 (contínuo, sem data) | ligação [CONFIRMAR] |
-| V67 | Paciente Grave Multidiciplinar (15/11/2027) | 700 (gravação, contínuo) | ligação [CONFIRMAR] |
+| V67 | Paciente Grave Multidiciplinar Foco em casos Clinicos (15/11/2027, ONLINE, **campanha ativa**) | Hipótese 1 (a do plano): 700, Congresso Internacional do Paciente Grave Multidisciplinar, gravação, aberto (contínuo), R$ 780,00. Hipótese 2: a linha de **mesmo nome** do catálogo, seção 9, ONLINE, sem código, status "sem página", "só na planilha" | ligação [CONFIRMAR]. Na hipótese 2, há campanha ativa levando a um item sem página: risco de anúncio sem destino válido ou com destino que não entrega o que promete (item "página de destino" da conformidade educacional) e mudança nas contagens do recorte (ressalvas da pergunta 5) |
 
 ### 6.4 Datas diferentes entre visão e catálogo (10)
 
-| Código | Catálogo | Visão |
+Vale a data do catálogo (planilha "DATAS CURSOS E PÓS", conforme a regra de fonte).
+
+| Código | Catálogo (vale) | Visão |
 |---|---|---|
 | 599 | 20/06/2026 | 21/06/2026 |
 | 717 | 01/08/2026 | 29/08/2026 |
@@ -471,7 +482,7 @@ Quadro e 5 da semana ficam com a cadeia da Graduação; a Graduação não apare
 | 68614 | 28/11/2026 | 18/12/2026 |
 | 68618 | 18/12/2026 | 22/05/2027 |
 
-As 3 últimas mudam a faixa de urgência de itens do recorte (já listadas como P6 no plano do cmo).
+As 3 últimas mudam os dias até o início de itens do recorte (já listadas como P6 no plano do cmo); 573 e 68618 mudam também de faixa (pergunta 1).
 
 ---
 
@@ -479,15 +490,15 @@ As 3 últimas mudam a faixa de urgência de itens do recorte (já listadas como 
 
 - [x] Árvore de métricas existe (esboço por linha, seção 5).
 - [x] Toda métrica tem uma fonte nomeada.
-- [ ] Relatórios comparam com as metas: não há metas [CONFIRMAR].
-- [ ] Metas não batidas mostradas: não se aplica sem metas.
+- [ ] Relatórios comparam com as metas: não se aplica nesta rodada, porque não há metas (P11 do plano) [CONFIRMAR].
+- [ ] Metas não batidas mostradas: não se aplica nesta rodada, porque não há metas.
 - [x] Insights terminam com uma ação.
-- [x] Lacunas de dados sinalizadas (seções 0 e 4).
-- [ ] Backlog revisado todo mês: fica com o backlog-de-otimizacao (1.33).
-- [ ] Custo por lead, custo por matrícula, conversão e receita por linha: impossível sem números; estrutura pronta na seção 5, separada por linha.
+- [x] Lacunas de dados sinalizadas (seções 0 e 4, V67 na seção 6.3).
+- [ ] Backlog revisado todo mês: não se aplica a este agente; fica com o backlog-de-otimizacao (etapa 1.33).
+- [ ] Custo por lead, custo por matrícula, conversão e receita por linha: não se aplica nesta rodada, porque não há números; estrutura pronta na seção 5, separada por linha, e nada foi estimado.
 - [x] Nenhum dado pessoal.
 
-O qa-de-marketing ainda confere com esta auditoria e com auditorias/conformidade-educacional.md antes de marcar como pronto.
+O qa-de-marketing confere de novo com esta auditoria e com auditorias/conformidade-educacional.md antes de marcar como pronto.
 
 ---
 
@@ -496,17 +507,19 @@ O qa-de-marketing ainda confere com esta auditoria e com auditorias/conformidade
 - A visão de campanhas tem 67 linhas: 19 ativas, 22 pausadas e 26 sem campanha (docs/visao-de-campanhas-2026-10-26.md, contagem V1 a V67).
 - Por linha: Pós 42 (14 ativas), Livres 21 (3 ativas), Eventos 4 (2 ativas), Graduação 0 (visão cruzada com contexto/catalogo-de-cursos.md).
 - 6 ativas estão em Pós já iniciadas: 650, 68662, 706, 586, 554 e 68612 (visão; plano do cmo, seção 2.1).
-- As 10 linhas com início em até 60 dias estão todas ativas (visão).
+- Pela data do catálogo, 10 das 11 linhas com início em até 60 dias estão ativas; a exceção é 68618, pausada a 53 dias (catálogo, seção 4; visão, V63).
+- 573 começa em 14/11/2026 pelo catálogo (19 dias) e em 29/11/2026 pela visão (catálogo, seção 4; visão, V41).
 - 30 das 41 campanhas com status são só estáticas; 26 não têm os 5 ângulos (visão).
 - 34 dos 110 itens do recorte constam na visão; 76 não constam, inclusive as 22 provas de bolsa (plano do cmo, seção 3).
-- A1 Anestesiologia e dor, com 14 itens, não tem campanha ativa (plano do cmo, seção 2.3, cruzado com a visão).
+- A1 Anestesiologia e dor, com 14 itens, não tem campanha ativa; A1, A7, A10, A13 e A14 somam 43 itens sem campanha ativa (plano do cmo, seção 2.3, cruzado com a visão).
+- O catálogo tem uma linha "Paciente Grave Multidiciplinar Foco em casos Clinicos", ONLINE, "sem página", "só na planilha", com o mesmo nome da V67, que está ativa (catálogo, seção 9; visão, V67).
 - Preços citados são os do site em 26/10/2026 (catálogo); a turma mínima da Pós é 20 (contexto/pos-graduacao.md).
 - 10 datas diferem entre a visão e o catálogo (seção 6.4).
 
 ## Suposições
 
 - [SUPOSIÇÃO] "Campanha ativa" é usada como indicador de onde a verba está; o gasto real pode ser muito diferente entre campanhas.
-- [SUPOSIÇÃO] As ligações V48 = 679, V66 = 202 e V67 = 700 seguem o plano do cmo e não foram confirmadas pela Ufape.
+- [SUPOSIÇÃO] As ligações V48 = 679, V66 = 202 e V67 = 700 seguem o plano do cmo e não foram confirmadas pela Ufape; para V67 há uma segunda hipótese (seção 6.3).
 - [SUPOSIÇÃO] Janela de dados a partir de 01/08/2026, proposta pelo agente.
 - [SUPOSIÇÃO] Venda cruzada de Livres para Pós como ramo da árvore (contexto de Cursos Livres, ainda não validado).
 - [SUPOSIÇÃO] Campanha de 4 a 8 semanas para Livres presenciais (contexto de Cursos Livres).
@@ -518,6 +531,8 @@ O qa-de-marketing ainda confere com esta auditoria e com auditorias/conformidade
 - [CONFIRMAR] Pedidos pagos, receita, cupons e reembolsos por produto e semana (loja).
 - [CONFIRMAR] Metas de matrícula, verba por linha e vagas restantes por turma.
 - [CONFIRMAR] Status de mídia das 22 provas de bolsa, 68665, 68666, 68637, 616, 68636, 68629, 359, 68638, 560 e dos contínuos.
-- [CONFIRMAR] Código do catálogo nas linhas V13, V14, V22, V48, V50, V66 e V67, e uma data única para os 10 itens da seção 6.4.
+- [CONFIRMAR] Para onde leva a campanha ativa da linha V67 da visão: produto 700 ou a linha "Paciente Grave" sem página.
+- [CONFIRMAR] Código do catálogo nas linhas V13, V14, V22, V48, V50, V66 e V67, e uma data única para os 10 itens da seção 6.4 (em especial 573, 68614 e 68618, P6).
 - [CONFIRMAR] Política de entrada em turma já iniciada e motivo da pausa de 657, 341 e 352.
+- [CONFIRMAR] Regra e validade da promoção de 20% da 341 (P16 do plano).
 - [CONFIRMAR] Ferramentas de CRM, GA4 e atendimento (ufape-geral.md, seção Ferramentas).
