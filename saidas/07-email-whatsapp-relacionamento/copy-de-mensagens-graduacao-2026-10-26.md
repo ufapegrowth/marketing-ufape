@@ -8,7 +8,8 @@
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
 - Entrega do kit (templates/kit-de-lancamento-graduacao.md): 5 mensagens de WhatsApp (KW1 a KW5) e 3 e-mails (KE1 a KE3) por liberação, cada um com texto final para G1 e para G2, variação por turno no G1 e versão para o representante legal de candidato menor de idade (marcada "-R").
-- Status: rascunho para aprovação humana. Textos para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é enviado, publicado ou pago a partir deste arquivo.
+- Versão: 2 (26/10/2026), com os ajustes do QA de fechamento (saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md, A-M1 a A-M4) e o teto da seção 13 do plano do cmo geral (D16, E1 a E4, regra de serviço). Ver "Mudanças desta versão" logo abaixo do cabeçalho.
+- Status: aprovado com ajustes pelo qa-de-marketing (rodada d); segue para aprovação humana. Textos para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é enviado, publicado ou pago a partir deste arquivo.
 - Entradas lidas:
   - .claude/agents/copy-de-mensagens.md
   - .claude/skills/assuntos-de-email/SKILL.md, .claude/skills/ganchos-verdadeiros/SKILL.md e .claude/skills/conformidade-educacional/SKILL.md
@@ -21,7 +22,8 @@
   - contexto/cursos/graduacao/editais-2027-1.md (fonte de todo dado de prazo, ingresso, matrícula, desconto e menor)
   - contexto/cursos/graduacao/graduacao-em-medicina-veterinaria.md e graduacao-em-pedagogia.md (só a matriz do 1º semestre, para conferir os componentes citados)
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md (seções 4, 5, 6 e 8)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12: D1, D2, D11 e D12)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12: D1, D2, D11 e D12; seção 13: D16, E1 a E4 e regra de serviço, lida na versão 2)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (veredito M1 e ajustes A-M1 a A-M4, lido na versão 2)
   - saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-graduacao-2026-10-26.md (seções 0.1 a 0.3)
   - saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md (régua de nutrição, em correção em paralelo)
@@ -29,6 +31,18 @@
   - auditorias/07-email-e-whatsapp.md
 - Regra de fonte: datas, formas de ingresso, matrícula, documentos, cancelamento, desconto e regra do menor vêm da ficha dos editais 2027/1. Nome, modalidade, turno, duração, preço e ato vêm do catálogo (seção 1). Componentes do 1º semestre vêm das fichas dos cursos (conferidos nesta rodada). Nenhum número de inscritos, redações, aprovados, matrículas, vagas restantes, verba ou meta existe hoje. Não abri faculdade.ufape.com.br.
 - Nota de nome: o plano do cmo previa este arquivo com data de 09/11/2026; foi entregue em 26/10/2026, com o nome pedido pelo orquestrador.
+
+## Mudanças desta versão (versão 2)
+
+| # | Origem | O que mudou | Onde |
+|---|---|---|---|
+| 1 | QA d, A-M1 | Primeira linha de reserva 4 do KW2 ganhou a condição do Enem: "(média mínima de 300 pontos, edições de 2010 em diante)" | KW2 |
+| 2 | QA d, A-M2 | Botões e links que prometiam ação que a LP pode não cumprir (G13): "Fazer minha avaliação" e "Fazer a avaliação" viraram "Ver como fazer a avaliação"; "Concluir a matrícula" virou "Ver como concluir a matrícula"; "Inscrição e envio da nota" virou "Como se inscrever e enviar a nota". "Fazer minha inscrição gratuita" fica, porque a inscrição é feita pelo botão "Inscreva-se" do site (edital). Troca do destino para a área do candidato ou a plataforma de matrícula só com aprovação humana (0.9) | KE2, KW3, KW4, KE3, KW5 e as "-R"; KW2 |
+| 3 | QA d, A-M3 | "Cada passo leva alguns dias. Fazer a avaliação com folga..." trocada por "Depois da avaliação ainda vêm o resultado, a matrícula (a partir de 2 dias depois do resultado) e os documentos."; a suposição correspondente saiu da Lista 2 | KE2 (G1 e G2) |
+| 4 | QA d, A-M4 | utm_campaign da Pedagogia passa a usar o mês do primeiro envio com link para a LP de Pedagogia (depois de G6), como a régua de nutrição; a regra única dos dois arquivos segue com o cmo (A-N3) | 0.9 |
+| 5 | cmo geral, seção 13, D16 | Teto da Graduação: até 3 mensagens de campanha por semana somando os canais, no máximo 2 por canal, 1 por dia, WhatsApp no máximo 1 a cada 3 dias úteis; contato que está também na base de Pós, Livres ou Eventos fica com o teto menor (o da Graduação); menor de idade, 0 de campanha direta. Conferido semana a semana: o kit soma no máximo 2 toques por semana por contato | 0.2 e 0.3 |
+| 6 | cmo geral, seção 13, E1 a E4 | E1 (engajamento no WhatsApp), E2 (erro 131049), E3 (descadastro em um clique em todo e-mail de campanha, atendido em até 48 h; SAIR vale no mesmo dia) e E4 (opt-in de campanha separado do de serviço, por canal) entram nas regras | 0.3 e 0.7 |
+| 7 | cmo geral, seção 13, regra de serviço | Os 8 toques do kit e as "-R" são campanha (nenhum é confirmação, véspera, resultado ou matrícula pedida pela pessoa) e contam no teto; o serviço da régua (R1, A1, M1, M5 e as "-R" dela) fica fora do teto e não abre espaço para toque extra do kit | 0.3 |
 
 ---
 
@@ -346,7 +360,7 @@ Variação por turno (G1): com turno no CRM, a frase do curso fica "O curso: bac
   1. As notas do Enem 2026 já saíram. Com média mínima de 300 pontos, você pode usar a nota no Vestibular 2027.
   2. {primeiro_nome}, você pode usar a sua nota do Enem (média mínima de 300 pontos, de 2010 em diante) para concorrer.
   3. Enem 2026: com média mínima de 300 pontos, a nota serve para concorrer a Medicina Veterinária na Ufape.
-  4. Nota do Enem ou redação online: agora dá para escolher com a nota na mão.
+  4. Nota do Enem (média mínima de 300 pontos, edições de 2010 em diante) ou redação online: agora dá para escolher com a nota na mão.
   5. Fez o Enem em algum ano desde 2010? Com média mínima de 300 pontos, a nota pode ser usada.
   - Escolhidas para teste: A = 1; B = 3.
 
@@ -360,7 +374,7 @@ Variação por turno (G1): com turno no CRM, a frase do curso fica "O curso: bac
 >
 > A inscrição é gratuita e as aulas começam em 22/02/2027. Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula.
 >
-> Inscrição e envio da nota: {link_lp_utm}
+> Como se inscrever e enviar a nota: {link_lp_utm}
 >
 > Para não receber mais mensagens, responda SAIR.
 
@@ -374,7 +388,7 @@ Variação por turno (G1): com turno no CRM, a frase do curso fica "O curso: bac
 >
 > A inscrição é gratuita e as aulas começam em 22/02/2027. Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula.
 >
-> Inscrição e envio da nota: {link_lp_utm}
+> Como se inscrever e enviar a nota: {link_lp_utm}
 >
 > Para não receber mais mensagens, responda SAIR.
 
@@ -421,11 +435,11 @@ Variação por turno (G1): com turno no CRM, a frase do curso fica "O curso: bac
 > 3. Matrícula: eletrônica, a partir de 2 dias depois do resultado, confirmada com o pagamento da 1ª mensalidade e a assinatura digital do contrato.
 > 4. Documentos: enviados pela plataforma de matrícula digital em até 30 dias, conforme o edital.
 >
-> Cada passo leva alguns dias. Fazer a avaliação com folga ajuda você a chegar à matrícula com calma.
+> Depois da avaliação ainda vêm o resultado, a matrícula (a partir de 2 dias depois do resultado) e os documentos.
 >
 > Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula.
 >
-> [Botão] Fazer minha avaliação ({link_lp_utm})
+> [Botão] Ver como fazer a avaliação ({link_lp_utm})
 >
 > Se algo travou (a plataforma, a redação, a nota do Enem), responda este e-mail e a nossa equipe ajuda.
 >
@@ -446,11 +460,11 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 > 3. Matrícula: eletrônica, a partir de 2 dias depois do resultado, confirmada com o pagamento da 1ª mensalidade e a assinatura digital do contrato.
 > 4. Documentos: enviados pela plataforma de matrícula digital em até 30 dias, conforme o edital.
 >
-> Cada passo leva alguns dias. Fazer a avaliação com folga ajuda você a chegar à matrícula com calma.
+> Depois da avaliação ainda vêm o resultado, a matrícula (a partir de 2 dias depois do resultado) e os documentos.
 >
 > Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula.
 >
-> [Botão] Fazer minha avaliação ({link_lp_utm})
+> [Botão] Ver como fazer a avaliação ({link_lp_utm})
 >
 > Se algo travou (a plataforma, a redação, a nota do Enem), responda este e-mail e a nossa equipe ajuda.
 >
@@ -477,7 +491,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > [Assinatura G1 ou G2] [RE-G1 ou RE-G2, com a primeira frase das "-R"]
 
-- **Chamada para ação:** "Fazer minha avaliação" (utm_content=kit-e2 ou kit-e2-r).
+- **Chamada para ação:** "Ver como fazer a avaliação" (utm_content=kit-e2 ou kit-e2-r).
 - **Follow-up:** KW3 (WhatsApp, 07/01), para quem não abriu em 48 h ou não tem consentimento de e-mail.
 - **Dados usados e fonte:** redação, Enem, resultado, matrícula, documentos, aulas, regra do menor (ficha dos editais).
 - **Referência à nutrição:** G1-R3 e R5 (dúvidas e o que vem depois da redação) e G1-AT1 (base) têm conteúdo parecido para o inscrito no começo da régua. O KE2 só vai a quem já terminou R ou AT e segue sem avaliação.
@@ -506,7 +520,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Depois vêm o resultado no site e a matrícula, a partir de 2 dias depois do resultado. As aulas começam em 22/02/2027. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Fazer a avaliação: {link_lp_utm}
+> Ver como fazer a avaliação: {link_lp_utm}
 > Travou em alguma parte? Responda aqui que a gente ajuda.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -521,7 +535,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Depois vêm o resultado no site e a matrícula, a partir de 2 dias depois do resultado. As aulas começam em 22/02/2027. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Fazer a avaliação: {link_lp_utm}
+> Ver como fazer a avaliação: {link_lp_utm}
 > Travou em alguma parte? Responda aqui que a gente ajuda.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -537,7 +551,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 > Para não receber mais mensagens, responda SAIR.
 
 - **Template Meta:** grad_kit_w3_mv, grad_kit_w3_ped, grad_kit_w3_r. Variáveis como no KW1.
-- **Chamada para ação:** link da avaliação (utm_content=kit-w3 ou kit-w3-r).
+- **Chamada para ação:** "Ver como fazer a avaliação" (utm_content=kit-w3 ou kit-w3-r).
 - **Follow-up:** nenhum (é o follow-up do KE2).
 - **Dados usados e fonte:** ficha dos editais.
 - **Referência à nutrição:** G1-R2 e R4, G1-AT2 e AT3 (e os do G2) cobrem o mesmo assunto no começo da régua; o KW3 só vai a quem já as terminou.
@@ -567,7 +581,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Se desistir depois de se matricular, a devolução é de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Concluir a matrícula: {link_lp_utm}
+> Ver como concluir a matrícula: {link_lp_utm}
 > Dúvida sobre valor ou renovação? Responda aqui.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -584,7 +598,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Se desistir depois de se matricular, a devolução é de 80% do valor pago, se o cancelamento for pedido até 2 dias antes do início das aulas. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Concluir a matrícula: {link_lp_utm}
+> Ver como concluir a matrícula: {link_lp_utm}
 > Dúvida sobre valor ou renovação? Responda aqui.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -603,7 +617,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 > Para não receber mais mensagens, responda SAIR.
 
 - **Template Meta:** grad_kit_w4_mv_int, grad_kit_w4_mv_not, grad_kit_w4_ped, grad_kit_w4_r_int, grad_kit_w4_r_not, grad_kit_w4_r_ped. Variáveis: {{1}} primeiro_nome, {{2}} link_lp_utm; nas "-R", {{1}} primeiro_nome, {{2}} nome_candidato, {{3}} processo, {{4}} curso_cidade, {{5}} link_lp_utm.
-- **Chamada para ação:** concluir a matrícula (utm_content=kit-w4 ou kit-w4-r).
+- **Chamada para ação:** "Ver como concluir a matrícula" (utm_content=kit-w4 ou kit-w4-r).
 - **Follow-up:** nenhum. O momento já teve o A6 por e-mail; um terceiro toque seria pressão sobre quem decide com a família.
 - **Dados usados e fonte:** matrícula, cancelamento com 80%, regra do menor (ficha dos editais); valores, percentuais, validade e regras do desconto (Editais 003/2026 pela ficha dos editais; catálogo seção 1); texto do desconto alinhado à oferta 0.2.
 - **Referência à nutrição:** G1-A2 e G2-A2 (matrícula aberta, D+2), G1-A3 (regras antes de pagar) e G1-A6 e G2-A6 (reta final por e-mail). Aponto ao campanhas-de-nutricao que o A6 ainda traz "{total_semestre_desc} no semestre, de R$ 60.000,00" sem as regras completas e "20/02/2027" (QA c, N1 e nota do sábado); o KW4 usa o bloco completo e não cita a data.
@@ -638,7 +652,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> [Botão] Fazer minha avaliação ({link_lp_utm})
+> [Botão] Ver como fazer a avaliação ({link_lp_utm})
 >
 > Vai deixar para outro semestre? Responda "depois" e paramos os lembretes desta turma. Se tiver dúvida, responda com a sua pergunta.
 >
@@ -660,7 +674,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> [Botão] Fazer minha avaliação ({link_lp_utm})
+> [Botão] Ver como fazer a avaliação ({link_lp_utm})
 >
 > Vai deixar para outro semestre? Responda "depois" e paramos os lembretes desta turma. Se tiver dúvida, responda com a sua pergunta.
 >
@@ -686,7 +700,7 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 >
 > [Assinatura G1 ou G2] [RE-G1 ou RE-G2, com a primeira frase das "-R"]
 
-- **Chamada para ação:** "Fazer minha avaliação" (utm_content=kit-e3 ou kit-e3-r).
+- **Chamada para ação:** "Ver como fazer a avaliação" (utm_content=kit-e3 ou kit-e3-r).
 - **Follow-up:** KW5 (WhatsApp, 12/02), para quem não abriu em 48 h ou não tem consentimento de e-mail.
 - **Dados usados e fonte:** ficha dos editais; segunda-feira, 22/02/2027 (calendário).
 - **Referência à nutrição:** G1-A6 e G2-A6 (aprovados) e G1-M5 e G2-M5 (matriculados) cobrem os outros grupos da reta final. O KE3 cobre só o inscrito sem avaliação.
@@ -715,7 +729,7 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 >
 > Depois vêm o resultado no site e a matrícula, a partir de 2 dias depois do resultado. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Fazer a avaliação: {link_lp_utm}
+> Ver como fazer a avaliação: {link_lp_utm}
 > Vai deixar para outro semestre? Responda "depois" e paramos os lembretes desta turma.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -730,7 +744,7 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 >
 > Depois vêm o resultado no site e a matrícula, a partir de 2 dias depois do resultado. Candidato menor de idade precisa do aceite do representante legal na matrícula.
 >
-> Fazer a avaliação: {link_lp_utm}
+> Ver como fazer a avaliação: {link_lp_utm}
 > Vai deixar para outro semestre? Responda "depois" e paramos os lembretes desta turma.
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -747,7 +761,7 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 > Para não receber mais mensagens, responda SAIR.
 
 - **Template Meta:** grad_kit_w5_mv, grad_kit_w5_ped, grad_kit_w5_r. Variáveis como no KW1.
-- **Chamada para ação:** link da avaliação (utm_content=kit-w5 ou kit-w5-r).
+- **Chamada para ação:** "Ver como fazer a avaliação" (utm_content=kit-w5 ou kit-w5-r).
 - **Follow-up:** nenhum. Último toque do kit para este grupo.
 - **Dados usados e fonte:** ficha dos editais; calendário.
 - **Referência à nutrição:** idem KE3.
@@ -855,7 +869,6 @@ Linha opcional (G1 e G2), só se a Ufape informar uma data-limite real (pedido G
 - [SUPOSIÇÃO] Limite de 1.024 caracteres no corpo de template da Meta e categoria "marketing" para os templates.
 - [SUPOSIÇÃO] Os assuntos e primeiras linhas escolhidos para teste (A e B) são escolha deste agente, sem dado de abertura.
 - [SUPOSIÇÃO] utm_campaign grad_medvet-geral_202611 para lead do G1 sem turno no CRM (mesmo prefixo dos posts orgânicos); a plataforma gera a UTM final.
-- [SUPOSIÇÃO] A frase "Cada passo leva alguns dias" (KE2) descreve o fluxo do edital (resultado, matrícula a partir de 2 dias, documentos); o prazo do resultado não é conhecido.
 
 ## Lista 3. Dados que faltam
 
