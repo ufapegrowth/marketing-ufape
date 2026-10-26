@@ -183,3 +183,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Plano do cmo da onda 1 da Pós (cmo-pos-2026-10-26.md): data de corte da 1ª mensalidade já passou em 707, 68604 e 68606 e cai em 29/10 em 698, 68610 e 68608. Dois cenários (A: sem matrícula após o corte, vale até a Ufape responder; B: aceita). Recomendação: 707 e 68604 encerrar; 68606 só remarketing se B; 698, 68610 e 68608 manter até 29/10 (698 pausa se o site não corrigir até 28/10). Pedidos OA1 a OA10 e perguntas OU1 a OU5 (resposta até 27/10 às 18h). Encomendas E1 a E8; iniciados lote 1 de mensagens de reta final e qa do plano |
 | 26/10/2026 | gestor-de-midia-pos v4 (QM1 a QM3 do qa da mídia) |
 | 26/10/2026 | estrategia-de-midia-pos v4 (QM3 a QM5). Reconferência do qa da mídia iniciada |
+| 26/10/2026 | qa da mídia rodada b: estrategia-de-midia-pos v4 APROVADA; gestor-de-midia-pos v4 volta só pelo QM6 (pedidos PP5, PP6, PP9, PP11 e encomendas das provas ainda na lógica antiga) |
