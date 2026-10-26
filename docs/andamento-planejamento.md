@@ -168,3 +168,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | tiktok-graduacao v2 (T-1 e T-2 do qa-d): 4 roteiros orgânicos |
 | 26/10/2026 | 2.6 iscas-digitais-pos: 13 iscas ativas (guia de decisão da área em PDF), A6, A8 e A9 reservadas, A13 em espera. Busca de travessão e de MEC feita pelo orquestrador |
 | 26/10/2026 | campanhas-de-nutricao-graduacao v3: N-1 do qa-d, contagem unificada com o kit (A-N4) e teto D16 da Graduação (até 3 por semana somando canais). Ajustes não bloqueantes A-N1, A-N2, A-N3 e A-N5 ainda não aplicados |
+| 26/10/2026 | copy-de-mensagens-graduacao v2: ajustes A-M1 a A-M4 do qa-d, teto D16 (kit no máximo 2 por semana por contato), KW4 encurtado para o limite de 1.024 caracteres do template da Meta |

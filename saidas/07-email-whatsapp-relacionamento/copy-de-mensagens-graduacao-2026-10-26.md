@@ -43,6 +43,7 @@
 | 5 | cmo geral, seção 13, D16 | Teto da Graduação: até 3 mensagens de campanha por semana somando os canais, no máximo 2 por canal, 1 por dia, WhatsApp no máximo 1 a cada 3 dias úteis; contato que está também na base de Pós, Livres ou Eventos fica com o teto menor (o da Graduação); menor de idade, 0 de campanha direta. Conferido semana a semana: o kit soma no máximo 2 toques por semana por contato | 0.2 e 0.3 |
 | 6 | cmo geral, seção 13, E1 a E4 | E1 (engajamento no WhatsApp), E2 (erro 131049), E3 (descadastro em um clique em todo e-mail de campanha, atendido em até 48 h; SAIR vale no mesmo dia) e E4 (opt-in de campanha separado do de serviço, por canal) entram nas regras | 0.3 e 0.7 |
 | 7 | cmo geral, seção 13, regra de serviço | Os 8 toques do kit e as "-R" são campanha (nenhum é confirmação, véspera, resultado ou matrícula pedida pela pessoa) e contam no teto; o serviço da régua (R1, A1, M1, M5 e as "-R" dela) fica fora do teto e não abre espaço para toque extra do kit | 0.3 |
+| 8 | conferência deste agente na versão 2 | A contagem automática mostrou o KW4 com cerca de 1.160 caracteres, acima do limite de 1.024 do corpo do template. Textos do KW4 e do KW4-R encurtados sem tirar nenhuma condição do desconto nem a regra de cancelamento; linha SAIR no rodapé do template e link num botão de URL; o CTA do KW4 virou "Como concluir a matrícula" (mesmo sentido do ajuste A-M2) | KW4, KW4-R, 0.7 |
 
 ---
 
@@ -152,7 +153,7 @@ Fonte: Editais 003/2026 (SP e Goiânia) pela ficha dos editais; texto alinhado �
 - Opt-in de WhatsApp confirmado: opt-in de campanha (marketing) por WhatsApp, separado do de serviço (E4), exigido antes de cada envio. Sem registro, não sai.
 - Engajamento e limite da Meta: regras E1 e E2 da seção 0.3 (itens 5b e 5c).
 - Mensagem iniciada pela Ufape: sempre por template aprovado pela Meta. As variáveis entre chaves viram {{1}}, {{2}}... na ordem em que aparecem; quem submete informa um exemplo fictício por variável. Categoria: marketing [CONFIRMAR com o responsável pelo CRM e a Meta]. Nenhum template foi submetido.
-- Limite de 1.024 caracteres no corpo do template: conferido em todos os textos desta seção (o maior é o KW4 noturno, com cerca de 1.000 caracteres antes de preencher as variáveis) [SUPOSIÇÃO: limite atual da Meta, conferir na submissão].
+- Limite de 1.024 caracteres no corpo do template [SUPOSIÇÃO: limite atual da Meta, conferir na submissão]: conferido por contagem automática na versão 2. Os textos do KW1, KW2, KW3 e KW5 cabem inteiros no corpo. Nos 6 templates do KW4, que levam o bloco LD completo, a linha "Para não receber mais mensagens, responda SAIR." vai no rodapé do template (campo de até 60 caracteres) e o link vai num botão de URL com a UTM; assim o corpo fica abaixo de 1.000 caracteres sem cortar nenhuma condição do desconto. A versão 1 dizia que o KW4 cabia inteiro no corpo; a contagem mostrou que não (cerca de 1.160 caracteres).
 - Forma de sair: última linha de toda mensagem, "Para não receber mais mensagens, responda SAIR."
 - Horário: segunda a sexta, das 9h às 18h, sem fim de semana nem feriado.
 - Remetente: número oficial de Vendas São Paulo (G1) ou Vendas Goiânia (G2) [CONFIRMAR o canal ativo: o site informou instabilidade no WhatsApp interno em 22/10/2026].
@@ -619,7 +620,7 @@ Variação por turno (G1): {turno_txt} = "integral" ou "noturno"; sem o turno no
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Template Meta:** grad_kit_w4_mv_int, grad_kit_w4_mv_not, grad_kit_w4_ped, grad_kit_w4_r_int, grad_kit_w4_r_not, grad_kit_w4_r_ped. Variáveis: {{1}} primeiro_nome, {{2}} link_lp_utm; nas "-R", {{1}} primeiro_nome, {{2}} nome_candidato, {{3}} processo, {{4}} curso_cidade, {{5}} link_lp_utm.
+- **Template Meta:** grad_kit_w4_mv_int, grad_kit_w4_mv_not, grad_kit_w4_ped, grad_kit_w4_r_int, grad_kit_w4_r_not, grad_kit_w4_r_ped. Corpo: do "Olá" até "Dúvidas? Responda aqui.", sem a linha do link; botão de URL "Como concluir a matrícula" com {link_lp_utm}; rodapé: "Para não receber mais mensagens, responda SAIR." Corpo medido na versão 2: cerca de 940 caracteres no integral e na Pedagogia e cerca de 930 na "-R" com o bloco LD, antes de preencher as variáveis. Variáveis: {{1}} primeiro_nome e a URL do botão; nas "-R", {{1}} primeiro_nome, {{2}} nome_candidato, {{3}} processo, {{4}} curso_cidade e a URL do botão.
 - **Chamada para ação:** "Como concluir a matrícula" (utm_content=kit-w4 ou kit-w4-r).
 - **Follow-up:** nenhum. O momento já teve o A6 por e-mail; um terceiro toque seria pressão sobre quem decide com a família.
 - **Dados usados e fonte:** matrícula, cancelamento com 80%, regra do menor (ficha dos editais); valores, percentuais, validade e regras do desconto (Editais 003/2026 pela ficha dos editais; catálogo seção 1); texto do desconto alinhado à oferta 0.2.
