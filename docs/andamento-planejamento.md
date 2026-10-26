@@ -36,7 +36,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.8 | estrategia-de-oferta | pos, livres (e eventos, graduacao) | entregue |
 | 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue (livres e eventos sem qa) |
 | 1.10 | analista-de-dados | geral | entregue |
-| 1.11 | gestor-de-midia | pos, livres, eventos | falta (o arquivo geral é só o memorando de decisões da onda 1) |
+| 1.11 | gestor-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos (o arquivo geral é só o memorando da onda 1) |
 | 1.12 | analise-de-midia | pos, livres, eventos | falta |
 | 1.13 | estrategia-de-midia | pos, livres | falta (só graduacao existe) |
 | 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
@@ -74,6 +74,7 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Conflitos entre saídas para o cmo resolver
 
+- Calendário de mídia das provas revisto na 1.11 pos (PP3: 40%, 35% e 25%, pico de 03/11 a 09/11).
 - Datas da mídia do workshop: o memorando gestor-de-midia-geral diz 30/10, 06/11 e pausa em 18/11; a estrategia-de-campanha-eventos diz 03/11, 10/11 e 19/11. Fechar na 1.11 de eventos.
 - Calendário de relacionamento da Pós (notas N1 a N4 da 1.26): choques com a régua do workshop em 05/11, 23/11 e 25/11 e WhatsApp das 8h de 27/11 em copy-de-mensagens-pos.
 - C02 e C23 da estrategia-de-conteudo-pos duplicam os posts 1, 4 e 9 de posts-sociais-pos; a 1.19 ainda pede autorização de docentes (já dada em 26/10).
@@ -82,8 +83,8 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Lote A em execução (6 agentes): ao terminar, conferir cada arquivo, registrar aqui e fazer commit. Se a sessão cair antes, confira quais dos 6 arquivos do lote A existem em saidas e rode de novo só os que faltam.
-2. Rodar o lote B.
+1. Lote B em execução: 1.11 livres e eventos, 1.20 livres e eventos, 1.26 livres, 1.12 pos, 1.13 pos, mais o qa-de-marketing das 6 saídas do lote A (arquivo qa-de-marketing-geral-2026-10-26-loteA.md). Se a sessão cair, confira quais arquivos existem e rode de novo só os que faltam (um arquivo pela metade deve ser refeito).
+2. Lote C.
 
 ## Diário
 
@@ -95,3 +96,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.26 pos entregue: 12 segmentos, 9 programas, cadência [SUPOSIÇÃO]. Notas N1 a N4 de choque de calendário com a régua do workshop e com copy-de-mensagens-pos, para o cmo decidir |
 | 26/10/2026 | 1.9 livres e eventos e 1.20 pos entregues. Conflitos registrados na seção própria |
 | 26/10/2026 | 1.29 newsletter geral entregue (quinzenal para Pós, Livres e Eventos; Graduação fora) |
+| 26/10/2026 | 1.11 pos entregue (metas como fórmula, tetos só com preços do catálogo, divisão de verba em percentuais [SUPOSIÇÃO], PP1 a PP14). Lote A concluído. Lote B iniciado |
