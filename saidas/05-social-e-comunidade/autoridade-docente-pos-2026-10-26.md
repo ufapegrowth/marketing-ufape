@@ -44,7 +44,7 @@
     - C6. Canal: Instagram da Ufape (collab no perfil dele, se ele tiver perfil e aceitar) e LinkedIn dele, se quiser. A autorização das decisões 8 e 10 cobre imagem e citação, não obriga a publicar.
     - C7. Chamada e link com UTM.
     - C8. Nenhum paciente, tutor, aluno ou clínica identificável.
-11. **Kit mínimo e escala.** O kit da Pós pede "1 post por docente autorizado". As 30 fichas somam 441 entradas no campo "Professores listados" (com a mesma pessoa repetida em várias turmas). Um post individual para cada uma é inviável e passaria o teto do perfil. Esta entrega faz **1 post por docente prioritário (28 posts)**: a coordenação nomeada na ficha de cada turma e, onde a ficha traz "UFAPE" ou nada, um candidato a confirmar. Para os demais docentes, vale um texto-modelo por pessoa, que a squad escreve depois da entrevista, se o docente aceitar. Isto é pedido ao cmo (seção "Pedidos de aprovação").
+11. **Kit mínimo e escala.** O kit da Pós pede "1 post por docente autorizado". As 30 fichas somam 441 entradas no campo "Professores listados" (com a mesma pessoa repetida em várias turmas). Um post individual para cada uma é inviável e passaria o teto do perfil. Esta entrega faz **1 post por docente prioritário (28 posts)**: a coordenação nomeada na ficha de cada turma e, onde a ficha traz "UFAPE" ou nada, um candidato a confirmar. Para os demais docentes, vale um texto-modelo por pessoa, que a squad escreve depois da entrevista, se o docente aceitar. Isto é pedido ao cmo (seção 15).
 
 ### 0.1 Entrevista: 10 perguntas para cada docente prioritário (etapa 1 do método)
 
@@ -235,7 +235,7 @@ Aula aberta, webinar e blog: aula aberta de até 10 minutos entra a partir de 04
 
 **Ponto de vista sugerido (tese de partida) [PONTO DE VISTA A CONFIRMAR COM O DOCENTE].** No plantão, a decisão rápida vem de treino repetido em simulação, e as duas pós de 750 h são formações diferentes: uma passa por uma especialidade clínica a cada mês e termina no paciente grave; a outra fica no paciente crítico.
 - Base na ficha: 68635 tem 28 módulos, uma especialidade por mês e 9 módulos presenciais (semiologia, eletrocardiograma e hemogasometria, sondagem uretral, A-fast e T-fast, triagem do paciente grave, RCP e trauma); 68623 trata de hemodinâmica, ventilação mecânica, sepse, RCP e simulação de casos reais.
-- Não dizer: "dupla certificação", "2 certificações", "certificado de 375 horas" e "reconhecimento" (textos das fichas); "salvar vidas" como promessa; comparação de preço com pós EAD; local da prática de 68623.
+- Não dizer: as frases das fichas sobre dupla titulação, certificados por bloco de horas e reconhecimento oficial; "salvar vidas" como promessa; comparação de preço com pós EAD; local da prática de 68623.
 
 **Perguntas de validação (2).**
 1. O que você ensina primeiro a quem entra no plantão?
@@ -247,7 +247,7 @@ Aula aberta, webinar e blog: aula aberta de até 10 minutos entra a partir de 04
 - Formato: post de feed (imagem única ou carrossel de 3 cartões) com a fala dele em texto; plano B Stories de 3 telas.
 - Gancho: "Plantão de fim de semana: dá para planejar uma pós com meses de antecedência?"
 - Roteiro curto: cartão 1, gancho. Cartão 2: "Sou Prof. Caio Cavalcanti Balençuela e coordeno a Pós-graduação em Clínica Médica e Emergência de Pequenos Animais da Faculdade UFAPE, em São Paulo. São 28 módulos e 750 horas: uma especialidade clínica por mês, com 9 módulos presenciais." Cartão 3: "As datas de todos os módulos estão no cronograma antes de começar." + [PONTO DE VISTA A CONFIRMAR COM O DOCENTE: uma frase dele sobre o plantão e a formação]. Cartão 4: "Turma V, início em 10/04/2027."
-- Aprovar além do checklist: que o texto não cita reposição de módulo (regra [CONFIRMAR]); que não cita a geriatria (699) nem certificação.
+- Aprovar além do checklist: que o texto não cita reposição de módulo (regra [CONFIRMAR]); que não cita a geriatria (699) nem titulação por bloco de horas.
 - Encaixe: S12, slot B, qui 14/01 (feed), no lugar do guia de área de abril, se o cmo aprovar a troca; senão Stories da S12.
 - UTM: utm_campaign=pos_68635_202701; utm_content=docente-balencuela.
 
@@ -412,7 +412,7 @@ Aula aberta, webinar e blog: aula aberta de até 10 minutos entra a partir de 04
 
 **Ponto de vista sugerido (tese de partida) [PONTO DE VISTA A CONFIRMAR COM O DOCENTE].** Dermatologia se aprende por casuística: ver casos reais, discutir e voltar ao caso, com apoio de plantões de dúvidas.
 - Base na ficha: 7 módulos presenciais, com atendimento de casos clínicos (módulos 5 e 9), testes alérgicos, otoscopia e videotoendoscopia, fotobiomodulação, crioterapia e dermatohistopatologia; plantões de dúvidas mensais e discussão de casos e artigos (texto da ficha, formato [CONFIRMAR]).
-- Não dizer: "reconhecida pelo Ministério da Educação" e "excelência" (textos da ficha); "dermatozoonoses" (jargão); frequência e horário dos plantões [CONFIRMAR]; a prova de bolsa da área (68646).
+- Não dizer: a frase da ficha sobre reconhecimento oficial e "excelência" (textos da ficha); "dermatozoonoses" (jargão); frequência e horário dos plantões [CONFIRMAR]; a prova de bolsa da área (68646).
 
 **Perguntas de validação (2).**
 1. Quantos casos de pele você vê voltarem à clínica, e o que o colega costuma deixar de investigar?
@@ -554,7 +554,7 @@ Aula aberta, webinar e blog: aula aberta de até 10 minutos entra a partir de 04
 
 **Ponto de vista sugerido (tese de partida) [PONTO DE VISTA A CONFIRMAR COM O DOCENTE].** O raciocínio neurológico se treina em ciclos de teoria, avaliação e prática presencial, e localizar a lesão é uma habilidade que se desenvolve com exame repetido.
 - Base na ficha: neuroanatomia, neurofisiologia, neuroimagem, coleta de LCE, semiologia e localização de lesões, epilepsia, neuro-otologia com video-otoscopia, neurocirurgia da coluna cervical, toracolombar e lombossacra; módulos presenciais, alguns de sexta à tarde a domingo, com avaliações presenciais às sextas.
-- Não dizer: público-alvo; "reconhecimento" (texto da ficha); experiência prévia exigida [CONFIRMAR]; conduta clínica.
+- Não dizer: público-alvo; a frase da ficha sobre reconhecimento oficial; experiência prévia exigida [CONFIRMAR]; conduta clínica.
 
 **Perguntas de validação (2).**
 1. Por onde você começa a localizar uma lesão neurológica, e o que o colega costuma pular?
@@ -644,7 +644,7 @@ Nesta área tese, perguntas e post vão por curso, como nas mensagens.
 
 ### 14.6 719. Pós-graduação em Inteligência Artificial na Saúde (São Paulo, semipresencial, 360 h, início 08/05/2027, turma I; onda 3)
 - Coordenação: Prof. Ricardo Bontempo; 3 professores listados (João Carlos Bombardelli, Claudiney Sanches Junior, Paulo Alberto Simões, sem titulação na ficha). O público da ficha é de saúde humana e TI, fora das personas veterinárias: persona própria e ato regulatório para saúde humana [CONFIRMAR NO CATÁLOGO]. **Post retido: não sai para o público veterinário nem no @ufapevet até a Ufape decidir.** O LinkedIn pessoal do docente é o canal provável [SUPOSIÇÃO].
-- Tese de partida [PONTO DE VISTA A CONFIRMAR COM O DOCENTE]: IA na saúde se aprende construindo (prompts, agentes, prototipação) e com atenção à LGPD. Base na ficha: 15 módulos; 3 presenciais; metodologia PBL e ensino híbrido; engenharia de prompts, agentes de atendimento, LGPD, protótipo funcional; requisito de notebook (i3, Windows, 8 GB de RAM). Não dizer: "alinhando-se às normas do Ministério da Educação" (texto da ficha); promessa de liderança ou cargo; "Pós-Graduação" com G maiúsculo.
+- Tese de partida [PONTO DE VISTA A CONFIRMAR COM O DOCENTE]: IA na saúde se aprende construindo (prompts, agentes, prototipação) e com atenção à LGPD. Base na ficha: 15 módulos; 3 presenciais; metodologia PBL e ensino híbrido; engenharia de prompts, agentes de atendimento, LGPD, protótipo funcional; requisito de notebook (i3, Windows, 8 GB de RAM). Não dizer: a frase da ficha sobre normas do órgão regulador; promessa de liderança ou cargo; "Pós-Graduação" com G maiúsculo.
 - Perguntas de validação: (1) Que decisão da rotina de saúde a IA melhora e qual ela atrapalha? (2) O que quem trabalha com dado sensível precisa aprender antes de usar um agente?
 
 **AD-A14-6. Prof. Ricardo Bontempo (coordenação de 719). RETIDO**
@@ -662,7 +662,7 @@ Nesta área tese, perguntas e post vão por curso, como nas mensagens.
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
-| AD1 | Aprovar os 6 slots de feed de docente da seção 0.3 (S4, S7, S8, S10, S11, S12), 3 deles já previstos na grade e 2 com troca de conteúdo (S10 e S12) | o pilar S4 pede cerca de 6 posts de docente no trimestre | sem custo de mídia; horas do time [CONFIRMAR] | docente aparece sem passar o teto D5 | voltar o slot ao conteúdo previsto |
+| AD1 | Aprovar os 6 slots de feed de docente da seção 0.3 (S4, S7, S8, S10, S11, S12), 4 deles já previstos na grade e 2 com troca de conteúdo (S10 e S12) | o pilar S4 pede cerca de 6 posts de docente no trimestre | sem custo de mídia; horas do time [CONFIRMAR] | docente aparece sem passar o teto D5 | voltar o slot ao conteúdo previsto |
 | AD2 | Decidir como cumprir o kit "1 post por docente autorizado" diante de 441 entradas de docente nas 30 fichas: 1 post por docente prioritário (28 posts) mais texto-modelo por pessoa para os demais, se ela aceitar | um post por entrada passaria o teto e não cabe no tempo | sem custo | kit mínimo coerente com a capacidade | manter o texto do template e aceitar o excesso de posts |
 | AD3 | Indicar quem representa as turmas sem coordenação nomeada (68610, 68632, 578, 366, 333) | a ficha traz "UFAPE" ou nada | sem custo | docente certo na peça | trocar o nome e refazer o texto |
 | AD4 | Nomear o revisor docente de conteúdo clínico da Pós e o prazo de revisão | texto em primeira pessoa precisa de revisão clínica | sem custo | posts com opinião liberados | posts ficam só com fatos da ficha |
@@ -704,7 +704,7 @@ Nada é publicado, enviado ou pago por este agente.
 
 - Nome, campus, modalidade, carga horária, turma e início das 30 turmas: contexto/catalogo-de-cursos.md, seção 2 (site de 26/10/2026; datas pela planilha). Datas que divergem: 698, 352, 366 e 662 (decisão 12: vale a planilha).
 - Coordenação, número de professores listados, lista de docentes, módulos e módulos presenciais de cada turma: fichas em contexto/cursos/pos/ (26/10/2026). A soma do campo "Professores listados" das 30 fichas é 441, com pessoas repetidas entre turmas.
-- Autorização de uso de imagem e de citação de todos os docentes, palestrantes e convidados: docs/execucao-2026-10-26.md, decisões 8 e 10. Texto assinado em primeira pessoa continua precisando do ok do docente e da revisão clínica: plano do cmo, seção 12.9 e linha 10 da tabela de 12.9; links-e-autoridade-pos, seção 5.
+- Autorização de uso de imagem e de citação de todos os docentes, palestrantes e convidados: docs/execucao-2026-10-26.md, decisões 8 e 10. Texto assinado em primeira pessoa continua precisando do ok do docente e da revisão clínica: plano do cmo, seção 12.9 (última linha da tabela); links-e-autoridade-pos, seção 5.
 - Teto do @ufapevet (D5), teto de mensagens (D1), fila (D2), UTM (D11 e D12), C02 e C23 fora (D14): plano do cmo, seção 12.
 - Grade de 12 semanas, slots A, B e C, Reel de docente em S4 (18/11), S7 e S11, cerca de 6 publicações do pilar S4: estrategia-social-pos, seções 2, 3 e 5, e plano do cmo, seção 12.3 (N3 aceito).
 - Turma mínima de 15 alunos na Pós: decisão 11 (docs/execucao-2026-10-26.md; contexto/pos-graduacao.md). Fichas que ainda dizem 20: 657, 68609 e outras.
@@ -750,4 +750,4 @@ docs/execucao-2026-10-26.md; CLAUDE.md; .claude/agents/autoridade-docente.md; co
 
 ## Próximo passo
 
-Depois do ok da pessoa do marketing nos pedidos AD1 a AD6 e da conferência do qa-de-marketing: rodar o **distribuicao** (etapa 1.24 já existe; aqui, o calendário de publicação dos 28 posts na grade do @ufapevet, o plano de Stories e a lista de docentes a contatar), com a entrevista de 10 perguntas marcada primeiro com os docentes das ondas 1 e 2 (Dra. Mayara Travalini de Lima, ESP. Mariana Aldemundo Pereira di Vincenzo, Msc. Flavia Mazzo, DRA. Sabrina Caruso Chate e Esp. Maria Augusta Berlingieri).
+Depois do ok da pessoa do marketing nos pedidos AD1 a AD6 e da conferência do qa-de-marketing: rodar o **distribuicao** para o calendário de publicação dos 28 posts na grade do @ufapevet, o plano de Stories e a lista de docentes a contatar, com a entrevista de 10 perguntas marcada primeiro com os docentes das ondas 1 e 2 (Dra. Mayara Travalini de Lima, ESP. Mariana Aldemundo Pereira di Vincenzo, Msc. Flavia Mazzo, DRA. Sabrina Caruso Chate e Esp. Maria Augusta Berlingieri).
