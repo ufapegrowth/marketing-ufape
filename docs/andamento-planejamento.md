@@ -62,7 +62,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
 | 1.32 | analise-de-campanha | pos, livres, eventos | entregue |
-| 1.33 | backlog-de-otimizacao | geral | falta |
+| 1.33 | backlog-de-otimizacao | geral | entregue (sem qa): 71 itens, 24 bloqueios de subida (bloco A) e 47 otimizações (bloco B) |
 
 Já adiantados fora da camada 1 (pela sessão anterior): Graduação (cmo, oferta, campanha, mídia, criativos, posts, nutrição), M.1 do mapa mental (arquiteto-de-fluxos), camada 2 começada (palavras-chave, mensagens e briefing de conteúdo da Pós, peças do workshop e das provas de bolsa).
 
@@ -145,3 +145,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.14 entregue (5 arquivos). Lote D concluído. Iniciado o lote E: 1.33 backlog-de-otimizacao e qa do lote D |
 | 26/10/2026 | Lote E iniciado (1.33, qa do lote D, varredura de coerência das saídas antigas) |
 | 26/10/2026 | qa do lote D: 9 aprovados com ajustes, anuncios-google-pos CORRIGIR (AGP-Q1: descrição do canal de resultado só nas 10 provas sem contradição). Correções enviadas aos agentes de 1.14, 1.15 e 1.28. Para o cmo: frase de natureza do 700 (D13 ou "Evento: ..."); até lá vale a D13 |
+| 26/10/2026 | 1.33 entregue. Os 10 primeiros (27 a 30/10) são bloqueios: páginas das 22 provas com "online" e campus, verba, montagem das provas, metas em reais, teste de rastreio, data da 698, pausa das 6 campanhas em turma iniciada, aprovação EVM1, política de entrada das 12 turmas, exportação do gerenciador. Alerta LGPD (B01): 14 páginas antigas de provas publicam nomes de aprovados |
