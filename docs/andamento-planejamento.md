@@ -37,8 +37,8 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.9 | estrategia-de-marketing | pos, livres, eventos | entregue; livres e eventos aprovados com ajustes no qa do lote A |
 | 1.10 | analista-de-dados | geral | entregue |
 | 1.11 | gestor-de-midia | pos, livres, eventos | entregue; pos aprovado com ajustes; livres e eventos sem qa |
-| 1.12 | analise-de-midia | pos, livres, eventos | pos entregue (sem qa); falta livres e eventos |
-| 1.13 | estrategia-de-midia | pos, livres | pos entregue (sem qa); falta livres |
+| 1.12 | analise-de-midia | pos, livres, eventos | entregue (sem qa) |
+| 1.13 | estrategia-de-midia | pos, livres | entregue (sem qa) |
 | 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | falta |
 | 1.15 | anuncios-linkedin, anuncios-tiktok | pos | falta |
 | 1.16 | lacunas-de-conteudo | pos, livres | entregue |
@@ -49,7 +49,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.21 | youtube | pos, livres | entregue (sem qa): teste condicionado, 7 Shorts e 2 aulas abertas na Pós, 2 Shorts em Livres |
 | 1.22 | podcast, x | geral | entregue (sem qa): os dois ficam fora até 24/01/2027, com condições de entrada |
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
-| 1.24 | distribuicao | pos, livres | falta |
+| 1.24 | distribuicao | pos, livres | entregue (sem qa) |
 | 1.25 | crescimento-de-audiencia | geral | entregue (sem qa) |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | entregue (sem qa) |
@@ -87,13 +87,16 @@ Segue as dependências da seção 4 do plano do cmo.
 - Newsletter v2: com a regra da 1.26, as semanas de 02 a 08/11 e 09 a 15/11 já passam do teto de e-mails só com a régua das provas e a do Workshop, antes da newsletter. O cmo precisa decidir a supressão.
 - Jornada do aluno (J1 a J16): 3 listas diferentes de pares Livres e Pós (o cmo fecha uma só), duas propostas de crédito para a mesma ponte (PR5 e PL2), régua das provas convida ex-aluno sem a janela de silêncio, 3 valores de utm_medium, M9 do workshop 4 dias depois do evento contra 7 de silêncio de Livres.
 - Regras das provas contraditórias nas fichas (prazo de matrícula 10 dias úteis, 10 dias ou 7 dias em 12 provas; canal do resultado; turma mínima 15 ou 20; provas de Goiânia com endereço de São Paulo). Pergunta para a Ufape.
+- Livres: a página 623 mostra início em 01 e 02/08/2026 (provável turma III já passada), a 68637 mostra 28 e 29/11. Nenhuma campanha nova aponta para a 623 enquanto isso não for corrigido; conferir URL dos anúncios em 28/10.
+- Eventos: provas de Anestesiologia e Neurologia rodam de 03/11 a 26/11 e a 616 a partir de 10/11, contra o "não há sobreposição" do gestor de eventos. Teste de rastreio de 31/10 (sábado) antecipado para 30/10.
+- Teto de WhatsApp aparece em três versões nas saídas (2 da Pós; 2 WhatsApp e 2 e-mails somando linhas; 2 no total) e Livres tem 1 por semana na 1.20. Frase do curso livre com duas versões (DL2).
 - A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
 
 ## Próximos passos
 
-1. Lote C em execução: 1.12 livres e eventos, 1.13 livres, 1.21 youtube pos e livres, 1.22 podcast e x, 1.24 distribuicao pos e livres, 1.25 crescimento-de-audiencia, 1.27 jornada-do-aluno. Em paralelo, correções pedidas pelo qa do lote A em estrategia-social-pos (SP1) e newsletter-geral (NG1, NG2). Se a sessão cair, confira quais arquivos existem e rode de novo só os que faltam (arquivo pela metade é refeito).
-2. Depois do lote C: rodada do cmo para decidir os conflitos da seção acima; qa do lote B e do lote C.
-3. Lote D e lote E.
+1. Em execução: rodada de conciliação do cmo (decide os conflitos acima e grava como seção 12 do plano do cmo) e qa do lote B (qa-de-marketing-geral-2026-10-26-loteB.md) e do lote C (qa-de-marketing-geral-2026-10-26-loteC.md). Se a sessão cair, confira se a seção 12 existe no plano do cmo e se os dois arquivos de qa existem.
+2. Correções pedidas pelos dois qa e pela conciliação do cmo.
+3. Lote D (1.14, 1.15, 1.28) e lote E (1.33).
 
 ## Diário
 
@@ -114,3 +117,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | 1.25 entregue: consentimento em todo ponto de contato, newsletter como destino do orgânico, coautoria com docentes; propostas CA1 a CA6 ao cmo |
 | 26/10/2026 | 1.27 entregue: jornada em 8 etapas, passos da prova à matrícula (B1 a B8) com 4 lacunas, pedidos JR1 a JR7 |
 | 26/10/2026 | 1.21 entregue. Proposta PY1 ao cmo: link de Short não é clicável [SUPOSIÇÃO], então o critério de clique com UTM da 1.20 tende a zero em dezembro |
+| 26/10/2026 | Lote C concluído: 1.12 livres e eventos, 1.13 livres, 1.24 pos e livres. Iniciados conciliação do cmo e qa dos lotes B e C |
