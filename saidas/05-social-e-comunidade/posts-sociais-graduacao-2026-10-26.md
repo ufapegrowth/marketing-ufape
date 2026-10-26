@@ -8,7 +8,7 @@
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
 - Canais: Instagram e Facebook (ativos nas duas liberações). YouTube leve só no G1 (adaptação de 2 posts em Shorts, pelo agente youtube). TikTok, LinkedIn, X e podcast ficam fora, como decidiu o cmo.
-- Versão: versão 3, corrigida após qa-de-marketing-graduacao-2026-10-26-c (correções P1 a P12) e alinhada à seção 12 do plano do cmo (D5, D11 e D12). Mantém o que a versão 2 fez: G1-02 e G2-02 fora do feed de 06/11, só nos Stories de 08 e 15/11 (movimento G1 aceito pelo cmo).
+- Versão: versão 4, corrigida após qa-de-marketing-graduacao-2026-10-26-d (P-1, P-2, A-P1 e A-P2), sobre a versão 3, corrigida após qa-de-marketing-graduacao-2026-10-26-c (correções P1 a P12) e alinhada à seção 12 do plano do cmo (D5, D11 e D12). Mantém o que a versão 2 fez: G1-02 e G2-02 fora do feed de 06/11, só nos Stories de 08 e 15/11 (movimento G1 aceito pelo cmo).
 - Status: rascunho para aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -26,6 +26,7 @@
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12, conciliação da camada 1: D5, teto provisório do @ufapevet e grade da semana, G1 aceito, D11 utm_medium e D12 utm_campaign; relida na versão 3)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-c.md (veredito CORRIGIR deste arquivo, correções P1 a P12; lida na versão 3)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (veredito CORRIGIR deste arquivo, P-1, P-2, A-P1 e A-P2; lida na versão 4)
   - contexto/cursos/graduacao/graduacao-em-medicina-veterinaria.md e contexto/cursos/graduacao/graduacao-em-pedagogia.md (só a matriz, para conferir nomes de componentes e semestres; lidas na versão 3)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - auditorias/05-social.md e auditorias/conformidade-educacional.md
@@ -181,14 +182,14 @@ POST SOCIAL
 - Gancho (linha 1): Boa prova no Enem, nos dias 08 e 15/11.
 - Ganchos alternativos (2):
   - Dia de Enem: boa prova, e um lembrete sobre os caminhos de entrada.
-  - Enem de 2010 em diante, média mínima de 300 pontos: vale para entrar.
+  - Nota do Enem de 2010 em diante, média mínima de 300 pontos: serve para concorrer.
 - Corpo (linhas curtas):
 
 ```
 Para quem faz o Enem nos domingos 08 e 15/11: respire, leia com calma e confie no que você estudou.
 
 A nota do Enem 2026 só existe depois da divulgação.
-Quem já tem nota de uma edição de 2010 em diante, com média de 300 pontos ou mais, pode usá-la para entrar.
+Quem já tem nota de uma edição de 2010 em diante, com média de 300 pontos ou mais, pode usá-la para concorrer a uma vaga em Medicina Veterinária.
 
 Sem nota por enquanto?
 A redação online pode ser feita quando você puder, depois da inscrição. Ela é eliminatória, com nota mínima 5,0.
@@ -205,7 +206,7 @@ Candidato menor de idade precisa do aceite do representante legal na inscrição
 
 - URL (adesivo de link nos Stories): https://faculdade.ufape.com.br/graduacao?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_medvet-geral_202611&utm_content=g1-02_stories&utm_term=captacao
 - Texto para a arte: sem arte de feed nesta versão; o texto das telas está na versão Stories abaixo.
-- Versão Stories (3 telas, 08/11 de manhã e 15/11 de manhã): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota do Enem de 2010 em diante, com média mínima de 300 pontos, vale para entrar." 3 "Ou redação online, quando você puder. Link na bio." Sem enquete que peça dado pessoal.
+- Versão Stories (3 telas, 08/11 de manhã e 15/11 de manhã): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota do Enem de 2010 em diante, com média mínima de 300 pontos, pode ser usada para concorrer." 3 "Ou redação online, quando você puder. Link na bio." Sem enquete que peça dado pessoal.
 - Visual necessário: arte tipográfica. Nenhuma foto de estudante.
 - Autorização de uso de imagem: não se aplica.
 - Data de publicação: BLOQUEADO até a confirmação das datas do Enem 2026 por fonte oficial (08 e 15/11 vieram do pedido e não constam no catálogo nem no edital) [CONFIRMAR]. Sem a confirmação antes de 08/11, o Stories de 08/11 não sai; sem ela antes de 15/11, nenhum sai. Só Stories, em 08/11 e 15/11; nenhum post de feed em 06/11. Publica só depois do QA (rodada d) e da aprovação humana (plano do cmo: aprovação de 11 a 13/11, captação a partir de 16/11/2026); se a aprovação vier depois da data-alvo, sai no primeiro dia possível, na mesma ordem e dentro do teto D5. Com a aprovação prevista para 11 a 13/11, na prática fica só o Stories de 15/11, com a tela 1 "Domingo, 15/11, é o segundo dia do Enem. Boa prova."
@@ -432,7 +433,7 @@ POST SOCIAL
 - Gancho (linha 1): De R$ 10.000,00 por R$ 5.000,00 por mês no 1º semestre de 2027.
 - Ganchos alternativos (2):
   - A conta do 1º semestre de Medicina Veterinária integral, com a regra inteira.
-  - 50% de desconto no 1º semestre: veja as condições antes de decidir.
+  - De R$ 10.000,00 por R$ 5.000,00 (50%) no 1º semestre de 2027: veja as condições.
 - Corpo (linhas curtas):
 
 ```
@@ -473,7 +474,7 @@ POST SOCIAL
 - Pilar: preço transparente (desconto do noturno)
 - Gancho (linha 1): Quanto custa estudar Medicina Veterinária à noite em São Paulo?
 - Ganchos alternativos (2):
-  - Veterinária à noite: de R$ 10.000,00 por R$ 4.000,00 por mês no 1º semestre.
+  - Veterinária à noite: de R$ 10.000,00 por R$ 4.000,00 por mês no 1º semestre de 2027.
   - Noturno com 60% de desconto no 1º semestre de 2027, com a regra na legenda.
 - Corpo (linhas curtas):
 
@@ -687,14 +688,14 @@ POST SOCIAL
 - Gancho (linha 1): Boa prova no Enem, nos dias 08 e 15/11.
 - Ganchos alternativos (2):
   - Dia de Enem: boa prova, e um lembrete para quem pensa em Pedagogia.
-  - Enem de 2010 em diante, média mínima de 300 pontos: vale para entrar.
+  - Nota do Enem de 2010 em diante, média mínima de 300 pontos: serve para concorrer.
 - Corpo (linhas curtas):
 
 ```
 Para quem faz o Enem nos domingos 08 e 15/11: respire e leia com calma.
 
 A nota do Enem 2026 só existe depois da divulgação.
-Quem já tem nota de uma edição de 2010 em diante, com média de 300 pontos ou mais, pode usá-la para entrar em Pedagogia.
+Quem já tem nota de uma edição de 2010 em diante, com média de 300 pontos ou mais, pode usá-la para concorrer a uma vaga em Pedagogia.
 
 Sem nota por enquanto?
 A redação online pode ser feita quando você puder, depois da inscrição. Ela é eliminatória, com nota mínima 5,0.
@@ -711,7 +712,7 @@ Candidato menor de idade precisa do aceite do representante legal na inscrição
 
 - URL (adesivo de link nos Stories): https://faculdade.ufape.com.br/graduacao/pedagogia?utm_source=instagram&utm_medium=organic_social&utm_campaign=grad_pedagogia_202611&utm_content=g2-02_stories&utm_term=captacao
 - Texto para a arte: sem arte de feed nesta versão; o texto das telas está na versão Stories abaixo.
-- Versão Stories (3 telas, 08/11 e 15/11): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota do Enem de 2010 em diante, com média mínima de 300 pontos, vale para entrar em Pedagogia." 3 "Ou redação online, quando você puder. Link na bio."
+- Versão Stories (3 telas, 08/11 e 15/11): 1 "Hoje é dia de Enem. Boa prova." 2 "Nota do Enem de 2010 em diante, com média mínima de 300 pontos, pode ser usada para concorrer em Pedagogia." 3 "Ou redação online, quando você puder. Link na bio."
 - Visual necessário: arte tipográfica.
 - Autorização de uso de imagem: não se aplica.
 - Data de publicação: BLOQUEADO até a confirmação das datas do Enem 2026 por fonte oficial (08 e 15/11 vieram do pedido e não constam no catálogo nem no edital) [CONFIRMAR], e BLOQUEADO até G6 (correção da página de Pedagogia: texto de modelo, egresso copiado e docentes de outro curso), porque a chamada leva à LP e a página precisa entregar o que o post promete. Sem a confirmação das datas antes de 08/11, o Stories de 08/11 não sai; sem ela antes de 15/11, nenhum sai. Só Stories, em 08/11 e 15/11; nenhum post de feed em 06/11. Publica só depois do QA (rodada d) e da aprovação humana (plano do cmo: aprovação de 11 a 13/11, captação a partir de 16/11/2026); se a aprovação vier depois da data-alvo, sai no primeiro dia possível, na mesma ordem e dentro do teto D5. Com a aprovação prevista para 11 a 13/11, na prática fica só o Stories de 15/11.
@@ -812,7 +813,7 @@ POST SOCIAL
 - Gancho (linha 1): De R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027.
 - Ganchos alternativos (2):
   - A conta do 1º semestre de Pedagogia, com as regras na mesa.
-  - 50% de desconto no 1º semestre de Pedagogia: veja as condições.
+  - De R$ 1.050,00 por R$ 525,00 (50%) no 1º semestre de 2027: veja as condições.
 - Corpo (linhas curtas):
 
 ```
@@ -824,7 +825,7 @@ Com 50% de desconto: R$ 525,00 por mês, em 6 parcelas.
 O desconto vale só para o 1º semestre de 2027.
 Para continuar, o aluno pede a renovação a cada semestre, com comprovação.
 
-Regra completa, nas condições do Edital 003/2026 Goiânia:
+Regra completa, nas regras do Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026):
 (colar o B-DESC-PED no fim da legenda)
 
 Ato do curso: (colar o B-ATO-PED)
@@ -970,7 +971,7 @@ Os roteiros dos Reels de G1-01 e G1-03 seguem a mesma lógica dos roteiros do ki
 
 - [x] A frequência de publicação segue o plano: G1 com 11 posts (kit de 6, 2 para famílias e 3 extras, com o G1-04-alt como substituto do kit 2 se G11 não vier) e G2 com 7 (kit de 6 e 1 extra), nas quatro fases e dentro do mínimo que não diminui. Os extras G1-02 e G2-02 ficam só em Stories (G1 do cmo), dentro do teto provisório do @ufapevet (D5: 2 publicações de feed por dia, 1 por linha por dia, 10 por semana). As datas-alvo seguem a grade da Graduação contada pelo cmo em D5; nenhum post sai antes do QA e da aprovação humana (11 a 13/11), e os que têm data-alvo antes disso andam junto, na mesma ordem (P8). G1-10 e G2-07 saíram do Carnaval (P11). Capacidade de produção do time [CONFIRMAR].
 - [x] Todo post tem uma ideia clara: cada post responde uma pergunta (prática no 1º semestre, noturno, hospital ou projetos extensionistas, perguntas da família, como entrar, preço do integral, preço do noturno, regras da renovação, passos da matrícula, início das aulas; no G2, presencial à noite, prática docente, como entrar, preço, o que se estuda, matrícula).
-- [x] Os ganchos são cumpridos pelo conteúdo: cada gancho foi conferido contra o corpo. Os ganchos que falavam do Enem sem a condição foram trocados por ganchos com a condição completa ou sem o Enem (G1-02, G2-02, G1-06, G2-04 e G1-10). Nenhum tem 15 palavras ou mais, e nenhum promete emprego, salário ou aprovação.
+- [x] Os ganchos são cumpridos pelo conteúdo: cada gancho foi conferido contra o corpo. Os ganchos que falavam do Enem sem a condição foram trocados por ganchos com a condição completa ou sem o Enem (G1-02, G2-02, G1-06, G2-04 e G1-10). Na versão 4, "vale para entrar" e "pode usá-la para entrar" viraram "concorrer" (a nota dá direito de concorrer às vagas, não garante a vaga), e os ganchos alternativos de desconto trazem valores e "1º semestre de 2027". Nenhum tem 15 palavras ou mais, e nenhum promete emprego, salário, aprovação ou vaga.
 - [x] Histórias e números são reais: nenhuma história, depoimento ou número de desempenho foi escrito. Os números são de editais e catálogo; componentes e semestres foram conferidos na ficha dos cursos. As datas do Enem 2026 (08 e 15/11) não têm fonte oficial: G1-02 e G2-02 estão BLOQUEADOS até a confirmação (P5).
 - [x] Os posts estão formatados para celular: gancho sozinho na linha 1, linhas curtas, nenhum parágrafo com mais de 3 linhas, as 3 primeiras linhas funcionam sozinhas, e cada post termina com pergunta ou chamada clara.
 - [ ] As ações de comunidade aconteceram nesta semana: não se aplica a este rascunho (nenhum post foi publicado). Ações previstas: responder comentários e caixas de perguntas de G1-03 e G1-06 sem citar nome, e respostas-padrão do atendimento (copy-de-mensagens). Verificar na primeira semana de publicação.
@@ -991,7 +992,7 @@ REGULAÇÃO (MEC)
 - [x] Nenhuma nota do MEC e nenhuma frase de certificação.
 
 PROMESSAS E PROVAS
-- [x] Nenhuma promessa de emprego, salário, promoção, aprovação em concurso ou garantia de sucesso. A redação aparece sempre como eliminatória.
+- [x] Nenhuma promessa de emprego, salário, promoção, aprovação em concurso, vaga ou garantia de sucesso. A redação aparece sempre como eliminatória, e a nota do Enem como forma de concorrer (versão 4).
 - [x] Nenhuma promessa de documento que não existe: a "regra de renovação por escrito" saiu de G1-07, G1-08 e G2-05 (P4); as dúvidas vão para a equipe e para o edital.
 - [x] Nenhum dado de empregabilidade ou satisfação.
 - [x] Nenhum superlativo. "Hospital veterinário próprio" aparece sem "único", "maior" ou "mais completo".
@@ -1017,7 +1018,7 @@ PLATAFORMAS
 
 ANÚNCIOS (META E GOOGLE): não se aplicam a posts orgânicos. Verificado mesmo assim: nenhum texto afirma situação de quem lê, sem caixa alta para gritar, sem pontuação repetida, sem emoji, sem pessoa pública, sem sugestão de driblar a análise das plataformas.
 
-RESULTADO: rascunho corrigido, pronto para a rodada d do qa-de-marketing, com publicação bloqueada pelos itens abaixo.
+RESULTADO: rascunho corrigido (versão 4), pronto para a nova rodada do qa-de-marketing, com publicação bloqueada pelos itens abaixo.
 Itens bloqueados e o que precisa mudar:
 - G1-02 e G2-02: datas oficiais do Enem 2026 (P5).
 - G1-04: G11 (uso do hospital e autorização de imagem) e confirmação de como a graduação usa a Ufape Clínica. Sem G11 em 17/11, sai o G1-04-alt.
@@ -1025,14 +1026,19 @@ Itens bloqueados e o que precisa mudar:
 - G1-03 e G1-08: G8 (campo turno do noturno na página).
 - G2-01 a G2-07: G6 (página de Pedagogia); G5 para qualquer futura carga horária (nenhuma foi usada).
 - G1-11: confirmação de turma com pelo menos 30 matriculados por turno.
-- Todos: QA rodada d, aprovação humana e aprovador nomeado (G14); URL com UTM e origem no CRM (G13).
-Revisado por: posts-sociais (agente). Revisão do qa-de-marketing (rodada d) e aprovação humana: pendentes.
+- Todos: nova rodada do QA (depois da d), aprovação humana e aprovador nomeado (G14); URL com UTM e origem no CRM (G13).
+Revisado por: posts-sociais (agente). Revisão do qa-de-marketing (rodada seguinte à d) e aprovação humana: pendentes.
 Data: 26/10/2026.
 
 ---
 
 ## Mudanças desta versão
 
+- Versão 4 (26/10/2026), corrigida após qa-de-marketing-graduacao-2026-10-26-d:
+  - P-1: em G1-02 e G2-02, "vale para entrar" e "pode usá-la para entrar" viraram "concorrer", com a condição completa do Enem: gancho alternativo "Nota do Enem de 2010 em diante, média mínima de 300 pontos: serve para concorrer." (texto do qa encurtado para ficar abaixo de 15 palavras, regra dos ganchos); corpo "pode usá-la para concorrer a uma vaga em Medicina Veterinária" (no G2, "em Pedagogia"); Stories tela 2 "... pode ser usada para concorrer" (no G2, "... para concorrer em Pedagogia").
+  - P-2: ganchos alternativos de desconto com valores e ano: G1-07 "De R$ 10.000,00 por R$ 5.000,00 (50%) no 1º semestre de 2027: veja as condições."; G1-08 "... por R$ 4.000,00 por mês no 1º semestre de 2027."; G2-05 "De R$ 1.050,00 por R$ 525,00 (50%) no 1º semestre de 2027: veja as condições."
+  - A-P1: auditoria 5.1, item dos ganchos, atualizada. A-P2: corpo do G2-05 cita "as regras do Programa de Desconto de Mensalidade 2027/1 Goiânia (Edital 003/2026)".
+  - Nada mais mudou. O A-N3 do qa-d (chave grad_medvet-geral_202611 e regra de mês da Pedagogia) é da nutrição; os posts já usam grad_medvet-geral_202611 e grad_pedagogia_202611.
 - Versão 3 (26/10/2026), corrigida após qa-de-marketing-graduacao-2026-10-26-c:
   - P1, Enem com a condição completa: chamadas de G1-01, G1-04, G1-07, G2-01, G2-03 e G2-05; Stories tela 2 de G1-02 e G2-02; cartão 4 do G1-05; Stories tela 2 de G1-06 e G2-04. Ganchos que falavam do Enem sem a condição foram trocados (alternativos de G1-02, G2-02, G1-06 e G2-04; gancho principal do G1-10, que virou "Matrícula em Medicina Veterinária: os 4 passos do edital."). Regra 10 nova na seção 0.2.
   - P2, "representante legal" no lugar de "responsável" em todas as chamadas, no cartão 5 do G1-05 e na regra 7.
@@ -1062,6 +1068,7 @@ Data: 26/10/2026.
 - Matrícula eletrônica a partir de 2 dias depois do resultado, com a 1ª mensalidade e o contrato digital; documentos em até 30 dias; aulas em 22/02/2027, segunda-feira (editais).
 - Devolução de 80% se o cancelamento for pedido até 2 dias antes do início das aulas; turma mínima de 30, com devolução da 1ª parcela se a oferta for cancelada (editais).
 - Candidato menor de idade precisa do aceite do representante legal na inscrição e na matrícula (Edital 002/2026; mesmas regras no 004/2026).
+- A nota do Enem e a redação dão direito de concorrer às vagas (45 no integral, 45 no noturno e 80 na Pedagogia), sem garantia de vaga; por isso as peças dizem "concorrer" e nunca "vale para entrar" (editais-2027-1.md; qa-de-marketing-graduacao-2026-10-26-d.md, P-1).
 - A "regra de renovação por escrito" é a proposta P1 da estrategia-de-oferta, não aprovada, e não pode aparecer em peça (qa-de-marketing-graduacao-2026-10-26-c.md, seção 4.2).
 - Hospital veterinário próprio, a Ufape Clínica (contexto/ufape-geral.md; contexto/graduacao.md).
 - Contato da secretaria: WhatsApp (11) 97492-8443, de segunda a sexta, das 9h às 18h (contexto/ufape-geral.md).
@@ -1107,4 +1114,4 @@ Data: 26/10/2026.
 
 ## Próximo passo
 
-Este arquivo volta ao qa-de-marketing para a rodada d (auditorias/05-social.md e auditorias/conformidade-educacional.md), junto com a régua de nutrição corrigida. Depois, o criador-de-ganchos (departamento 05) pode testar variações de primeira linha nos posts de maior alcance esperado (G1-01, G1-06, G1-07, G1-08 e G2-01), sem mudar os fatos e mantendo a regra 10 do Enem. Nada é publicado antes da aprovação humana.
+Este arquivo volta ao qa-de-marketing para a rodada seguinte à d (auditorias/05-social.md e auditorias/conformidade-educacional.md), junto com a régua de nutrição corrigida. Depois, o criador-de-ganchos (departamento 05) pode testar variações de primeira linha nos posts de maior alcance esperado (G1-01, G1-06, G1-07, G1-08 e G2-01), sem mudar os fatos e mantendo a regra 10 do Enem. Nada é publicado antes da aprovação humana.
