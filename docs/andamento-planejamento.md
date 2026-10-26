@@ -165,3 +165,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | qa de fechamento da Graduação (rodada d): oferta, criativos e copy-de-mensagens aprovados com ajustes; posts (P-1, P-2), nutrição (N-1) e tiktok (T-1, T-2) voltam para correção. Kit mínimo coberto em quantidade nos dois cursos. Busca automática de travessão feita pelo orquestrador: zero |
 | 26/10/2026 | posts-sociais-graduacao v4 (P-1 e P-2 do qa-d) |
 | 26/10/2026 | gestor-de-midia-graduacao e estrategia-de-midia-graduacao v3 (decisões 15 e 16): R$ 2.000,00 por curso (Med. Vet. Meta R$ 1.440,00 e Google R$ 560,00; Pedagogia 100% Meta), custo máximo de R$ 133,33 por matrícula, CPL base R$ 6,67 com taxas [SUPOSIÇÃO]. Conflito MP15 para o CEO: meta de 15 por curso contra turma mínima de 30 do edital; Med. Vet. é 1 curso ou 2 turnos; meta total ou só da mídia; leitura do "valor do curso" (6 leituras calculadas) |
+| 26/10/2026 | tiktok-graduacao v2 (T-1 e T-2 do qa-d): 4 roteiros orgânicos |
