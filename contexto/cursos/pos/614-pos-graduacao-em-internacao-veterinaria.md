@@ -1,12 +1,12 @@
 # Pós-graduação em Internação Veterinária
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** pos
 - **Tipo:** pós-graduação
-- **Status em 22/10/2026:** sem venda (avise-me)
+- **Status em 26/10/2026:** sem venda (avise-me)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/614/pos-graduacao-em-internacao-veterinaria
 - **Início no site:** 360 horas
 - **Localidade:** Goiânia

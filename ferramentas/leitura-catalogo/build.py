@@ -1,7 +1,9 @@
 import json,re,hashlib,os,datetime,collections
 SITE=os.environ.get('DADOS_DIR','dados')
 REPO=os.environ.get('REPO_DIR','../..')
-HOJE=datetime.date(2026,10,22)
+LEITURA=datetime.date.fromisoformat(os.environ.get('DATA_LEITURA','2026-10-22'))
+HOJE=LEITURA
+DL=LEITURA.strftime('%d/%m/%Y')
 d=json.load(open(SITE+'/cursos.json'))
 def clean(s): return re.sub(r'\s+',' ',(s or '').replace('\u2013','-').replace('\u2014','-')).strip()
 def cell(s): return clean(s).replace('|','/')
@@ -17,7 +19,8 @@ def classify(x):
     if a=='bolsa': return 'pos','prova de bolsa'
     if a=='pos': return 'pos','pós-graduação'
     if a=='simposio': return 'livres','simpósio ou congresso'
-    if 'teste' in t: return None,None
+    if 'teste' in t or not t.strip() or 'corpo clinico' in t or 'corpo clínico' in t: return None,None
+    if 'prova de bolsa' in t: return 'pos','prova de bolsa'
     if 'simp' in t or 'congresso' in t: return 'livres','simpósio ou congresso'
     if a=='site' and ('pós-gradua' in t or 'pós gradua' in t or 'pos-graduacao' in u): return 'pos','pós-graduação'
     if 'grupo de estudo' in t: return 'livres','grupo de estudos'
@@ -33,7 +36,7 @@ def status(x):
     if not x.get('url'): return 'sem página'
     if sv=='link indisponivel': return 'encerrado (link fora do ar)'
     if sv.startswith('avise'): return 'sem venda (avise-me)'
-    ref=x.get('data_site') or x.get('data_planilha')
+    ref=x.get('data_planilha') or x.get('data_site')  # datas: a planilha é a fonte da verdade
     mod=(x.get('modalidade') or '').lower()
     if x['aba']=='grad': return 'aberto (vestibular 2027)'
     if ref:
@@ -79,16 +82,19 @@ for x in rows:
     if x['aba']=='grad': nome=clean(x['nome'])
     x['nome_final']=nome
     path=f"contexto/cursos/{x['linha']}/{(pid(x['url'])+'-') if pid(x['url']) else ''}{slug(nome)}.md"
+    if pid(x['url']):  # mantém o arquivo da ficha quando o título do site muda
+        dirf=REPO+'/'+os.path.dirname(path); ant=[a for a in sorted(os.listdir(dirf)) if a.startswith(pid(x['url'])+'-')] if os.path.isdir(dirf) else []
+        if ant: path=os.path.dirname(path)+'/'+ant[0]
     x['ficha']=path
     os.makedirs(os.path.dirname(REPO+'/'+path),exist_ok=True)
-    meta=[('Linha',x['linha']),('Tipo',x['tipo']),('Status em 22/10/2026',x['status']),('Página oficial',x['url']),
+    meta=[('Linha',x['linha']),('Tipo',x['tipo']),('Status em '+DL,x['status']),('Página oficial',x['url']),
           ('Início no site',x.get('inicio_site')),('Início na planilha',x.get('inicio')),('Turma',x.get('turma_site') or x.get('turma')),
           ('Localidade',x.get('localidade_site') or x.get('local')),('Modalidade',x.get('modalidade')),('Carga horária',(x.get('carga_horaria')+' h') if x.get('carga_horaria') else ''),
           ('Módulos',x.get('modulos')),('Preço e condições',preco(x) if x['aba']!='grad' else ''),('Público-alvo',x.get('publico')),('Vagas',x.get('vagas')),
           ('Endereço',x.get('endereco')),('Coordenação',x.get('coordenadores')),('Professores listados',str(x.get('n_professores') or '')),
           ('Certificado (texto do site)',x.get('certificado')),('Alertas',('; '.join(x['flags'])) if x.get('flags') else 'nenhum')]
     body=mainbody(x)
-    txt=f"# {nome}\n\nFicha gerada automaticamente a partir da página oficial e da planilha \"DATAS CURSOS E PÓS\" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.\n\n## Dados principais\n\n"
+    txt=f"# {nome}\n\nFicha gerada automaticamente a partir da página oficial e da planilha \"DATAS CURSOS E PÓS\" em {DL}. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.\n\n## Dados principais\n\n"
     txt+='\n'.join(f"- **{k}:** {clean(v)}" for k,v in meta if clean(v))+"\n\n## Texto da página (copiado do site)\n\n"+body+"\n"
     txt=txt.replace('\u2013','-').replace('\u2014','-')
     open(REPO+'/'+path,'w').write(txt); fichas+=1

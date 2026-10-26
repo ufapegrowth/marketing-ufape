@@ -1,12 +1,12 @@
 # Curso de Diagnóstico por Imagem na Oftalmologia - Teórico - São Paulo
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** verificar (turma já iniciada e com venda)
+- **Status em 26/10/2026:** verificar (turma já iniciada e com venda)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/606/curso-diagnostico-por-imagem-na-oftalmologia-teorico/sao-paulo
 - **Início no site:** 17 DE SETEMBRO DE 2026
 - **Início na planilha:** 1 E 2 DE AGOSTO DE 2026
@@ -17,7 +17,7 @@ Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CU
 - **Vagas:** Máximo de 20 alunos
 - **Endereço:** - Av 9 de Julho 3939, esquina com Honduras, 765 - Jd. Paulista- São Paulo - SP- 01407-100
 - **Professores listados:** 4
-- **Alertas:** data diverge: planilha 01/08/2026, site 17/09/2026; turma já começou (17/09/2026) e segue à venda
+- **Alertas:** data diverge: planilha 01/08/2026, site 17/09/2026; turma já começou (01/08/2026) e segue à venda
 
 ## Texto da página (copiado do site)
 

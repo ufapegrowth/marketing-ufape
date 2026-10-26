@@ -1,12 +1,12 @@
 # Curso de preparo de cadáveres e materiais biológicos de animais para Ensino, Pesquisa e Extensão- SÃO PAULO- SP
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** verificar (turma já iniciada e com venda)
+- **Status em 26/10/2026:** verificar (turma já iniciada e com venda)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/621/curso-de-preparo-de-cadaveres-e-materiais-biologicos-de-animais-para-ensino-pesquisa-e-extensao-sao-paulo-sp
 - **Início no site:** 06 E 07 DE JUNHO DE 2026
 - **Início na planilha:** 06 E 07 DE JUNHO DE 2026

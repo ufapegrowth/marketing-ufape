@@ -10,9 +10,11 @@ Todo agente consulta este índice para achar o arquivo certo. O agente arquiteto
 | contexto/pos-graduacao.md | Contexto da linha de Pós-graduação | [nome] | 2026-10-22 (1ª versão) |
 | contexto/cursos-livres.md | Contexto da linha de Cursos Livres | [nome] | 2026-10-22 (1ª versão) |
 | contexto/eventos.md | Contexto da linha de Eventos (workshops e simpósios), a preencher | [nome] | 2026-10-23 (estrutura) |
-| contexto/catalogo-de-cursos.md | Fonte única de dados de curso: 163 itens (cursos, turmas, provas e eventos) por linha e formato, com status de venda | [nome] | 2026-10-22 |
-| contexto/cursos/ | Uma ficha por produto (160), com dados e texto copiado da página oficial | squad | 2026-10-22 |
+| contexto/catalogo-de-cursos.md | Fonte única de dados de curso: cursos, turmas, provas e eventos por linha e formato, com status de venda. Datas da planilha; preço e demais dados do site | [nome] | 2026-10-26 |
+| contexto/cursos/ | Uma ficha por produto, com dados e texto copiado da página oficial | squad | 2026-10-26 |
 | docs/auditoria-do-catalogo-2026-10-22.md | Divergências entre planilha e site e pontos críticos para a Ufape decidir | squad | 2026-10-22 |
+| docs/auditoria-do-catalogo-2026-10-26.md | Atualização da auditoria: regra de fonte das datas, o que mudou, links trocados e turmas iniciadas à venda | squad | 2026-10-26 |
+| docs/visao-de-campanhas-2026-10-26.md | Status da mídia paga por curso (ativa, pausada, sem campanha), formatos e ângulos, retrato da planilha | squad | 2026-10-26 |
 | conhecimento/voz-do-aluno.md | Banco de frases reais de alunos e candidatos, anonimizadas | insights-de-alunos | [AAAA-MM-DD] |
 | auditorias/ | Checklists por departamento e de conformidade educacional | qa-de-marketing | [AAAA-MM-DD] |
 | templates/ | Modelos que os agentes preenchem | arquiteto-de-fluxos | [AAAA-MM-DD] |

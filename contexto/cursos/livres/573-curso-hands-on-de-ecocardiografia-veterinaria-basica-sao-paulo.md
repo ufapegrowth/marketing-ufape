@@ -1,12 +1,12 @@
 # Curso Hands-On de Ecocardiografia Veterinária Básica- SÃO PAULO
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** aberto
+- **Status em 26/10/2026:** aberto
 - **Página oficial:** https://faculdade.ufape.com.br/produto/573/curso-hands-on-de-ecocardiografia-veterinaria-basica-sao-paulo
 - **Início no site:** 14 e 15 de Novembro de 2026
 - **Início na planilha:** 14 E 15 NOVEMBRO de 2026

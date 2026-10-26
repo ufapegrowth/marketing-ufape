@@ -2,19 +2,20 @@ import os
 import json,re,datetime
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'build.py')).read().split('rows=[];skipped=[]')[0])
 rows=json.load(open(SITE+'/rows.json'))
-def dkey(x): return x.get('data_site') or x.get('data_planilha') or '9999'
+def dkey(x): return x.get('data_planilha') or x.get('data_site') or '9999'
 def fmt(iso): return datetime.date.fromisoformat(iso).strftime('%d/%m/%Y') if iso else ''
 def link(x): return f"[ficha]({x['ficha'].replace('contexto/','')})" if x.get('ficha') else ''
 def nm(x): return cell(x.get('nome_final') or x.get('nome'))
 L=[]
-L.append("""# CATÁLOGO DE CURSOS DA UFAPE
+L.append(f"""# CATÁLOGO DE CURSOS DA UFAPE
 
 Fonte única de dados de curso para toda a squad. Nenhum agente pode divulgar curso, preço, carga horária, data, modalidade ou certificação que não esteja aqui. Se um dado faltar ou estiver marcado para verificar, o agente escreve [CONFIRMAR NO CATÁLOGO] e não segue com a peça final.
 
-- **Gerado em:** 22/10/2026, a partir da planilha "DATAS CURSOS E PÓS (por data de início)" e da leitura de todas as páginas de produto do site faculdade.ufape.com.br (161 páginas).
+- **Gerado em:** {DL}, a partir da planilha "DATAS CURSOS E PÓS (por data de início)" e da leitura de todas as páginas de produto do site faculdade.ufape.com.br.
+- **Fonte de cada dado:** datas de início vêm da planilha, que é a fonte da verdade (o site pode estar desatualizado). Preço, parcelas, matrícula, carga horária, modalidade, turma, coordenação e status de venda vêm do site. Quando as datas divergem, a ficha do curso mostra o alerta.
 - **Responsável pela atualização:** [nome, área]
 - **Detalhes de cada curso** (descrição, público, cronograma, coordenação, condições): pasta `contexto/cursos/`, uma ficha por produto, com o texto copiado da página oficial.
-- **Problemas encontrados no cruzamento** planilha x site: `docs/auditoria-do-catalogo-2026-10-22.md`.
+- **Problemas encontrados no cruzamento** planilha x site: `docs/auditoria-do-catalogo-2026-10-22.md` e `docs/auditoria-do-catalogo-{LEITURA.isoformat()}.md`.
 
 ## Como usar
 
@@ -22,7 +23,7 @@ Fonte única de dados de curso para toda a squad. Nenhum agente pode divulgar cu
 - **Status "aberto (contínuo)"**: curso online ou gravado, à venda o ano todo.
 - **Status "verificar"**: a Ufape precisa confirmar antes de qualquer peça (turma já iniciada ainda à venda, data ausente ou divergente).
 - **Status "sem venda (avise-me)"** ou **"encerrado"**: não divulgar com chamada de compra.
-- **Preços** são os do site em 22/10/2026. Conferir a página oficial antes de publicar peça com preço.
+- **Preços** são os do site em {DL}. Conferir a página oficial antes de publicar peça com preço.
 - **Certificação de pós-graduação:** as páginas do site usam "CERTIFICADO PELO MEC". Até a regulação da Ufape aprovar o texto oficial, nenhuma peça deve usar essa frase. Texto aprovado: [PREENCHER COM A REGULAÇÃO].
 - **Graduação:** ato de autorização ou reconhecimento de cada curso: [PREENCHER COM A REGULAÇÃO].
 
@@ -36,6 +37,7 @@ for x in rows:
     k=(x['linha'],x['tipo']); c[k][0]+=1
     if x['status'].startswith('aberto'): c[k][1]+=1
     if x['status'].startswith('verificar'): c[k][2]+=1
+if not any(l=='graduacao' for l,_ in c): L.append('| graduacao | graduação | 2 | 2 | 0 |')  # tabela fixa da seção 1
 for (l,t),v in sorted(c.items()): L.append(f"| {l} | {t} | {v[0]} | {v[1]} | {v[2]} |")
 L.append("""
 ## 1. Graduação
@@ -53,7 +55,7 @@ def table(title,items,cols):
     L.append('| '+' | '.join(hdr[c] for c in cols)+' |'); L.append('|'+'---|'*len(cols))
     for x in sorted(items,key=lambda x:(dkey(x),nm(x))):
         v={'cod':pid(x.get('url')),'curso':nm(x),'local':cell(x.get('localidade_site') or x.get('local') or ''),'mod':cell(x.get('modalidade') or '').capitalize(),
-           'ini':fmt(x.get('data_site') or x.get('data_planilha')) or cell(x.get('inicio_site') or x.get('inicio') or ''),'turma':cell(x.get('turma_site') or x.get('turma') or ''),
+           'ini':fmt(x.get('data_planilha') or x.get('data_site')) or cell(x.get('inicio') or x.get('inicio_site') or ''),'turma':cell(x.get('turma_site') or x.get('turma') or ''),
            'ch':(x.get('carga_horaria')+' h') if x.get('carga_horaria') else '','preco':cell(preco(x)) if x.get('url') else '','status':x['status'],'ficha':link(x),
            'fonte':('só no site' if x['aba']=='site' else ('planilha e site' if x.get('url') else 'só na planilha'))}
         L.append('| '+' | '.join(v[c] for c in cols)+' |')

@@ -1,12 +1,12 @@
 # Curso de capacitación en Anestesiología Veterinaria- LIMA
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso em espanhol
-- **Status em 22/10/2026:** verificar (turma já iniciada e com venda)
+- **Status em 26/10/2026:** verificar (turma já iniciada e com venda)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/605/curso-de-capacitacion-en-anestesiologia-veterinaria-lima
 - **Início no site:** NOVEMBRO DE 2025
 - **Início na planilha:** NOVEMBRO DE 2025

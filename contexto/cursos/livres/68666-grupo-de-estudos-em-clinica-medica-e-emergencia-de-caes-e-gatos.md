@@ -1,13 +1,13 @@
 # Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** grupo de estudos
-- **Status em 22/10/2026:** aberto
-- **Página oficial:** https://faculdade.ufape.com.br/produto/68666/grupo-de-estudos-em-clinica-medica-e-emergencia-de-caes-e-gatos
+- **Status em 26/10/2026:** aberto
+- **Página oficial:** https://faculdade.ufape.com.br/produto/68666/grupo-de-estudo-clinica-medica-e-emergencia-de-caes-e-gatos/
 - **Início no site:** 25 de NOVEMBRO de 2026
 - **Localidade:** Online
 - **Modalidade:** Online

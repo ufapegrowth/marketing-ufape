@@ -1,12 +1,12 @@
 # Curso de imersão teórico e prático em Endoscopia Digestiva - SÃO PAULO
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** aberto
+- **Status em 26/10/2026:** aberto
 - **Página oficial:** https://faculdade.ufape.com.br/produto/68637/curso-de-imersao-teorico-e-pratico-em-endoscopia-digestiva-sao-paulo
 - **Início no site:** 28 E 29 DE NOVEMBRO DE 2026
 - **Turma:** IV

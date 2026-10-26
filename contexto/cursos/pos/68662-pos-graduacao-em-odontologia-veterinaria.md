@@ -1,12 +1,12 @@
 # Pós-graduação em Odontologia Veterinária
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** pos
 - **Tipo:** pós-graduação
-- **Status em 22/10/2026:** aberto
+- **Status em 26/10/2026:** verificar (turma já iniciada e com venda)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/68662/pos-graduacao-odontologia-veterinaria/sao-paulo
 - **Início no site:** 24 e 25 de Abril de 2027
 - **Início na planilha:** 15.08.2026
@@ -19,7 +19,7 @@ Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CU
 - **Vagas:** Turma mínima de 20 alunos
 - **Endereço:** Av 9 de Julho 3939, esquina com Honduras, 765 - Jd. Paulista- São Paulo - SP- 01407-100
 - **Certificado (texto do site):** CERTIFICADO PELO MEC
-- **Alertas:** data diverge: planilha 15/08/2026, site 24/04/2027; usa "CERTIFICADO PELO MEC"
+- **Alertas:** data diverge: planilha 15/08/2026, site 24/04/2027; turma já começou (15/08/2026) e segue à venda; usa "CERTIFICADO PELO MEC"
 
 ## Texto da página (copiado do site)
 

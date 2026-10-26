@@ -1,13 +1,13 @@
 # Grupo de Estudo em Nefrologia - Anual 2026
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** grupo de estudos
-- **Status em 22/10/2026:** aberto (contínuo)
-- **Página oficial:** https://faculdade.ufape.com.br/produto/712/grupo-de-estudo-em-nefrologia-anual-2026
+- **Status em 26/10/2026:** aberto (contínuo)
+- **Página oficial:** https://faculdade.ufape.com.br/produto/712/grupo-de-estudo-nefrologia-anual-2026/
 - **Localidade:** Online
 - **Modalidade:** Online
 - **Carga horária:** 2 h

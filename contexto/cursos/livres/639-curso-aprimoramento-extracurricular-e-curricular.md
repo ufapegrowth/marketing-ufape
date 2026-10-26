@@ -1,12 +1,12 @@
 # Curso Aprimoramento Extracurricular e Curricular
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** aprimoramento (Ufape Clínica)
-- **Status em 22/10/2026:** verificar (sem data no site)
+- **Status em 26/10/2026:** verificar (sem data no site)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/639/curso-aprimoramento-extracurricular-e-curricular
 - **Localidade:** São Paulo
 - **Modalidade:** PRESENCIAL

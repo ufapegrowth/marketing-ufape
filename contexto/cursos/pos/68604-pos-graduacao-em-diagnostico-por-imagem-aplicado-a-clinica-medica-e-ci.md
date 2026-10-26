@@ -1,12 +1,12 @@
 # Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** pos
 - **Tipo:** pós-graduação
-- **Status em 22/10/2026:** aberto
+- **Status em 26/10/2026:** aberto
 - **Página oficial:** https://faculdade.ufape.com.br/produto/68604/pos-graduacao-em-diagnostico-por-imagem-aplicado-a-clinica-medica-e-cirurgica-veterinaria
 - **Início no site:** 31 DE OUTUBRO E 01 DE NOVEMBRO DE 2026
 - **Início na planilha:** 31.10.2026

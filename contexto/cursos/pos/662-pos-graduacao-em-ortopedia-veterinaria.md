@@ -1,12 +1,12 @@
 # Pós-graduação em Ortopedia Veterinária
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** pos
 - **Tipo:** pós-graduação
-- **Status em 22/10/2026:** verificar (turma já iniciada e com venda)
+- **Status em 26/10/2026:** aberto
 - **Página oficial:** https://faculdade.ufape.com.br/produto/662/pos-graduacao-em-ortopedia-veterinaria
 - **Início no site:** 15 e 16 de Agosto de 2026
 - **Início na planilha:** 24.04.2027
@@ -22,7 +22,7 @@ Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CU
 - **Coordenação:** Dra. Carolina Gonçalves Dias Lima
 - **Professores listados:** 12
 - **Certificado (texto do site):** CERTIFICADO PELO MEC
-- **Alertas:** data diverge: planilha 24/04/2027, site 15/08/2026; turma já começou (15/08/2026) e segue à venda; turma diverge: planilha V, site IV; usa "CERTIFICADO PELO MEC"
+- **Alertas:** data diverge: planilha 24/04/2027, site 15/08/2026; turma diverge: planilha V, site IV; usa "CERTIFICADO PELO MEC"
 
 ## Texto da página (copiado do site)
 

@@ -1,12 +1,12 @@
 # Curso Teórico/Prático de bloqueio locorregional em cães e gatos guiado por ultrassonografia- SÃO PAULO
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** sem venda (avise-me)
+- **Status em 26/10/2026:** sem venda (avise-me)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/592/curso-teorico-pratico-de-bloqueio-locorregional-em-caes-e-gatos-guiado-por-ultrassonografia-sao-paulo
 - **Início no site:** 1 e 2 de Agosto de 2026
 - **Início na planilha:** 1 e 2 de Agosto de 2026

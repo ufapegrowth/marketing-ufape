@@ -1,12 +1,12 @@
 # III curso de imersão teórico e prático em endoscopia digestiva- SÃO PAULO
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso presencial
-- **Status em 22/10/2026:** verificar (turma já iniciada e com venda)
+- **Status em 26/10/2026:** aberto
 - **Página oficial:** https://faculdade.ufape.com.br/produto/623/iii-curso-de-imersao-teorico-e-pratico-em-endoscopia-digestiva-sao-paulo
 - **Início no site:** 01 E 02 DE AGOSTO DE 2026
 - **Início na planilha:** 28 e 29 de Novembro de 2026
@@ -18,7 +18,7 @@ Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CU
 - **Vagas:** Mínimo 15 alunos
 - **Endereço:** - Av 9 de Julho 3939, esquina com Honduras, 765 - Jd. Paulista- São Paulo - SP- 01407-100
 - **Professores listados:** 1
-- **Alertas:** data diverge: planilha 28/11/2026, site 01/08/2026; turma já começou (01/08/2026) e segue à venda
+- **Alertas:** data diverge: planilha 28/11/2026, site 01/08/2026
 
 ## Texto da página (copiado do site)
 

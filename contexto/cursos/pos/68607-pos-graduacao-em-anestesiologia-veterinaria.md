@@ -1,12 +1,12 @@
 # Pós-graduação em Anestesiologia Veterinária
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** pos
 - **Tipo:** pós-graduação
-- **Status em 22/10/2026:** aberto
+- **Status em 26/10/2026:** verificar (turma já iniciada e com venda)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/68607/pos-graduacao-anestesiologia-veterinaria/x/sao-paulo
 - **Início no site:** 24 de OUTUBRO de 2026
 - **Início na planilha:** 24.10.2026
@@ -22,7 +22,7 @@ Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CU
 - **Coordenação:** Dr. Alessandro Martins, Dra. Mayara Travalini de Lima, Dra. Denise Fantoni
 - **Professores listados:** 19
 - **Certificado (texto do site):** CERTIFICADO PELO MEC
-- **Alertas:** usa "CERTIFICADO PELO MEC"
+- **Alertas:** turma já começou (24/10/2026) e segue à venda; usa "CERTIFICADO PELO MEC"
 
 ## Texto da página (copiado do site)
 

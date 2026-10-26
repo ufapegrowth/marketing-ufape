@@ -1,4 +1,4 @@
-import json,re,datetime
+import json,re,datetime,os
 M={'jan':1,'fev':2,'mar':3,'abr':4,'mai':5,'may':5,'jun':6,'jul':7,'ago':8,'set':9,'out':10,'nov':11,'dez':12}
 def pdate(s,default_year=None):
     s=(s or '').lower()
@@ -12,7 +12,7 @@ def pdate(s,default_year=None):
     if m and m[1][:3] in M: return datetime.date(int(m[2]),M[m[1][:3]],1)
     return None
 d=json.load(open('cursos.json'))
-hoje=datetime.date(2026,10,22)
+hoje=datetime.date.fromisoformat(os.environ.get('DATA_LEITURA','2026-10-22'))
 for x in d:
     ds=pdate(x.get('inicio'),2026); dw=pdate(x.get('inicio_site'),ds.year if ds else None)
     x['data_planilha']=ds.isoformat() if ds else ''
@@ -22,7 +22,7 @@ for x in d:
         if ds and dw and ds!=dw: flags.append(f"data diverge: planilha {ds:%d/%m/%Y}, site {dw:%d/%m/%Y}")
         if x['aba'] in('pos','livres') and not x.get('inicio_site') and x.get('status_venda')=='a venda': flags.append('site sem data de início')
         if 'XX' in (x.get('inicio_site') or ''): flags.append('site com data em branco (XX)')
-        ref=dw or ds
+        ref=ds or dw  # datas: a planilha é a fonte da verdade
         if ref and ref<hoje and x.get('status_venda')=='a venda' and 'grava' not in (x.get('modalidade') or '').lower(): flags.append(f'turma já começou ({ref:%d/%m/%Y}) e segue à venda')
         if x.get('status_venda')!='a venda': flags.append('página: '+x.get('status_venda',''))
         if x['aba']=='pos' and x.get('turma') and x.get('turma_site') and x['turma'].strip().upper()!=x['turma_site'].strip().upper(): flags.append(f"turma diverge: planilha {x['turma']}, site {x['turma_site']}")

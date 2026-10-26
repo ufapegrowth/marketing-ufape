@@ -1,12 +1,12 @@
 # CURSO DE CONTROLE DA DOR EM PEQUENOS ANIMAIS - ONLINE
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** curso online
-- **Status em 22/10/2026:** aberto (contínuo)
+- **Status em 26/10/2026:** aberto (contínuo)
 - **Página oficial:** https://faculdade.ufape.com.br/produto/102/curso-de-controle-da-dor-em-pequenos-animais-online
 - **Turma:** I
 - **Localidade:** Online

@@ -1,13 +1,13 @@
 # Grupo de Estudo em Anestesiologia Veterinária - Anual 2026
 
-Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 22/10/2026. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
+Ficha gerada automaticamente a partir da página oficial e da planilha "DATAS CURSOS E PÓS" em 26/10/2026. Datas vêm da planilha; preço e demais dados, do site. Dados de curso para peças continuam valendo só depois de conferidos em contexto/catalogo-de-cursos.md. Itens em Alertas precisam de confirmação da Ufape.
 
 ## Dados principais
 
 - **Linha:** livres
 - **Tipo:** grupo de estudos
-- **Status em 22/10/2026:** aberto (contínuo)
-- **Página oficial:** https://faculdade.ufape.com.br/produto/644/grupo-de-estudo-em-anestesiologia-veterinaria-anual-2026
+- **Status em 26/10/2026:** aberto (contínuo)
+- **Página oficial:** https://faculdade.ufape.com.br/produto/644/grupo-de-estudo-anestesiologia-veterinaria-anual-2026/
 - **Modalidade:** Online
 - **Carga horária:** 2 h
 - **Preço e condições:** R$ 734,00 à vista (Pix ou boleto) ou 10x de R$ 88,00 no cartão.
