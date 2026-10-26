@@ -178,3 +178,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | iscas-digitais-pos v2 (I1 a I10 do qa da camada 2); busca de travessão pelo orquestrador: zero |
 | 26/10/2026 | autoridade-docente-pos v2 (D1 a D8 do qa da camada 2) |
 | 26/10/2026 | criador-de-ganchos-pos v2 (21 ganchos de preço bloqueados até U11, recomendados trocados, P3 em 679 e 68636). Iniciada a reconferência do qa da camada 2 |
+| 26/10/2026 | Reconferência do qa (camada2b): mensagens, ganchos, autoridade docente e iscas da Pós APROVADOS (2 com ajustes de texto). CAMADA 2 DA PÓS PRONTA PARA APROVAÇÃO HUMANA, com as travas de preço (U11), P3 (679, 68636), 698, 68623, 699, 719, revisor clínico e política de privacidade. Iniciados: 2.4 criativos da Pós por turma (março primeiro), qa da mídia da Pós e plano do cmo para a onda 1 |
