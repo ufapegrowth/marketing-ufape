@@ -47,7 +47,7 @@ Lembrem-se de que, para as turmas já confirmadas, o pagamento da primeira mensa
 Importante: caso a matrícula não seja realizada dentro do prazo de 7 dias, a bolsa perderá a validade. Estamos ansiosos para vê-los em nossa instituição e dar início a essa nova jornada acadêmica juntos!
 APROVADOS
 1º LUGAR -
-GABRIELLYE TAVARES DE ABREU
+[nome removido: dado pessoal de candidato]
 - Bolsa de 50%
 2º LUGAR -
 NATHÁLIA DE BARROS S. ALVES

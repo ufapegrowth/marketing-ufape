@@ -17,6 +17,10 @@ Resultado: `contexto/catalogo-de-cursos.md` e fichas em `contexto/cursos/`. Os p
 - Entraram 13 provas de bolsa antigas, todas sem venda (avise-me). Não divulgar.
 - Ficaram fora do catálogo: "Teste2026" (produto de teste, ainda à venda por R$ 2,00 no site), a página de recrutamento "Faça parte do corpo clínico da UFAPE!" (686) e a página de regras de estágio (638, fora do ar).
 
+## 2a. Dado pessoal publicado no site (urgente, LGPD)
+
+13 páginas de provas de bolsa antigas (680, 681, 682, 684, 685, 687, 688, 689, 690, 691, 693, 694 e 695) e a página do Programa de Aprimoramento em Terapia Intensiva (715) publicam a lista de aprovados com nome completo de candidatos. As fichas da squad tiveram esses nomes removidos em 26/10/2026 e o gerador das fichas passou a removê-los. A Ufape precisa decidir, com o jurídico, se mantém essas listas públicas e com que base legal; a squad não usa nem repete esses nomes. Achado do agente seo-tecnico.
+
 ## 3. Links da planilha que parecem trocados
 
 Nestes casos a diferença de data parece vir do link, não do site desatualizado. O preço tirado do site pode ser de outra turma. Status: [CONFIRMAR].

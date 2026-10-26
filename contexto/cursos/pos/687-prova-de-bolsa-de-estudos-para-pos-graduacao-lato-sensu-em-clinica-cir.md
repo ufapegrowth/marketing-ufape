@@ -39,7 +39,7 @@ secretaria@intercursos.com.br
 Lembrem-se de que, para as turmas já confirmadas, o pagamento da primeira mensalidade deve ser efetuado até o final de fevereiro. Para os cursos que ainda estão em processo de confirmação, o pagamento da matrícula precisa ocorrer até no máximo 10 dias após a confirmação da turma.
 Importante: caso a matrícula não seja realizada dentro do prazo de 7 dias, a bolsa perderá a validade. Estamos ansiosos para vê-los em nossa instituição e dar início a essa nova jornada acadêmica juntos!
 APROVADOS
-NÃO HÁ CONTEMPLADOS
+[nome removido: dado pessoal de candidato]
 Período do Curso
 O curso terá início em 18 de abril de 2026 e término em março de 2028.
 CONTEÚDO

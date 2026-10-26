@@ -63,8 +63,14 @@ def mainbody(x):
         j=t.find(end)
         if j>0: t=t[:j]; break
     lines=[clean(l) for l in t.split('\n')]
-    out=[];prev=None
+    out=[];prev=None;aprov=False
     for l in lines:
+        # LGPD: listas de aprovados em prova de bolsa e aprimoramento trazem nome de candidato; a ficha não guarda
+        if l.upper()=='APROVADOS' or l.startswith('Aprovados no programa'): aprov=True
+        elif aprov and (l.startswith('Período') or l.upper()=='CONTEÚDO' or (not re.match(r'^\d+ - ',l) and not re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ' ]{5,}",l) and 'LUGAR' not in l.upper() and not l.startswith('-'))): aprov=False
+        if aprov and l.upper()!='APROVADOS' and not l.startswith('Aprovados no programa'):
+            if re.match(r'^\d+ - ',l): l=re.sub(r'^(\d+ - ).*',r'\1[nome removido: dado pessoal de candidato]',l)
+            elif re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ' ]{5,}",l) and 'LUGAR' not in l.upper(): l='[nome removido: dado pessoal de candidato]'
         if l and l!=prev: out.append(l)
         prev=l
     return '\n'.join(out)

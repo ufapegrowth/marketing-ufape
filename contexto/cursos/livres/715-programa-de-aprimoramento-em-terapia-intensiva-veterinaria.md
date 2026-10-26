@@ -46,16 +46,16 @@ aperfeiçoar a formação teórico-prática de médicos-veterinários
 , proporcionando experiência supervisionada em ambiente clínico, cirúrgico e laboratorial, sob orientação de preceptores e docentes qualificados.
 O aprimoramento é estruturado de modo a integrar a prática profissional, a pesquisa aplicada e o desenvolvimento da capacidade crítica, ética e científica.
 Aprovados no programa de aprimoramento
-1 - Mayara de Souza Canute
-2 - Mariana Luisa Vicelli Sarott
-3 - Breno França Beserra
-4 - Paloma da Silva Reimberg Damião
-5 - Tainá Langes Morales Fernandes
-6 - Yasmin Mascarenhas Pereira da Silva
-7 - Ariela Varago de Castro
-8 - Marianna Carmem Thomaz Márquez
-9 - Lucas Nunes Melo
-10 - Sophia Costa Kolikauska
+1 - [nome removido: dado pessoal de candidato]
+2 - [nome removido: dado pessoal de candidato]
+3 - [nome removido: dado pessoal de candidato]
+4 - [nome removido: dado pessoal de candidato]
+5 - [nome removido: dado pessoal de candidato]
+6 - [nome removido: dado pessoal de candidato]
+7 - [nome removido: dado pessoal de candidato]
+8 - [nome removido: dado pessoal de candidato]
+9 - [nome removido: dado pessoal de candidato]
+10 - [nome removido: dado pessoal de candidato]
 JUSTIFICATIVA DO PROGRAMA
 O avanço da Medicina Veterinária contemporânea requer profissionais altamente capacitados para atuar de forma interdisciplinar e atualizada frente às demandas clínicas, tecnológicas e científicas.
 Nesse contexto, o Programa de Aprimoramento Profissional da UFAPE Excelência Veterinária visa promover a consolidação de

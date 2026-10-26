@@ -44,10 +44,10 @@ Lembrem-se de que, para as turmas já confirmadas, o pagamento da primeira mensa
 Importante: caso a matrícula não seja realizada dentro do prazo de 7 dias, a bolsa perderá a validade. Estamos ansiosos para vê-los em nossa instituição e dar início a essa nova jornada acadêmica juntos!
 APROVADOS
 1º LUGAR -
-GEOVANNA AUGUSTA LOPES
+[nome removido: dado pessoal de candidato]
 - Bolsa de 50%
 2º LUGAR -
-VINICIUS SOUZA
+[nome removido: dado pessoal de candidato]
 - Bolsa de 25%
 Período do Curso
 O curso terá início em 21 e 22 de março de 2026 e término em 24 de outubro de 2027
