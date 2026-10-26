@@ -4,6 +4,7 @@
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** camada 3, onda 1, campanha única das 22 provas de bolsa de 27/11/2026
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo: sufixos de UTM no padrão de D11 e D12 antes da subida de 03/11) e a decisão 11 de docs/execucao-2026-10-26.md (provas online, campus em toda peça, regra da ficha de cada prova, turma mínima de 15). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Nenhuma campanha é criada, alterada, pausada ou ampliada por este arquivo: toda subida, pausa e mudança de verba é pedido para um humano executar nos gerenciadores (seção 7 e seção 10).
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
@@ -19,6 +20,7 @@
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md (persona P4)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (voz, palavras que evitamos, regras de imagem)
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
+  - Versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D11, D12, 12.6 PP3, 12.9 e 12.12); saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (seção 4.3, nomes e UTM das provas) e gestor-de-midia-pos-2026-10-26.md (seção 4.2, PP3); fichas das 22 provas abertas (campus, prazo de matrícula, canal do resultado, composição), inclusive 68649, 68653 e 68655 para essas regras
 - **Não lidos (não estavam na lista de entradas):** as saídas da camada 2 de criador-de-ganchos e de pesquisa-de-palavras-chave. Os ganchos de rotina por área vêm do briefing (seção 3.3) e as palavras-chave vêm do briefing e do memorando do gestor. Os dois grupos ficam como proposta até esses agentes confirmarem.
 - **Não aberto:** faculdade.ufape.com.br (o texto de cada página está na ficha do curso).
 - **Dados pessoais:** nenhum. Nenhum docente, aluno, candidato ou aprovado aparece em peça ou arquivo.
@@ -28,15 +30,15 @@
 
 ## 0. Resumo
 
-1. A oferta é a mesma nas 22 provas: inscrição de R$ 100,00, 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, prova presencial em 27/11/2026, das 9h às 13h. Toda peça diz isso com a distribuição completa das bolsas.
+1. A oferta é a mesma nas 22 provas: inscrição de R$ 100,00, 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, prova online em 27/11/2026, das 9h às 13h (decisão 11). Toda peça diz isso com a distribuição completa das bolsas e com o campus da prova (São Paulo ou Goiânia).
 2. A peça-mãe tem 5 conceitos (C1 a C5) e a camada de área tem 1 conceito (C6, rotina da especialidade). C5 (a bolsa vale para a turma de março ou abril) está escrito e travado: nenhuma prova tem destino confirmado hoje.
 3. Variações por área: 11 áreas com peça própria (A1 a A8, A10, A11 e A12), cobrindo 18 das 22 provas. A9 não existe (68656 fora do ar). Medicina de Felinos (68652, A13), Odontologia (68655, A14), Endoscopia (68649) e Nefrologia e Urologia (68653) só entram na peça-mãe.
 4. Google Busca: até 15 títulos e 4 descrições por anúncio, todos contados (títulos até 30 caracteres, descrições até 90).
 5. **Achados novos nas páginas de destino (não estavam no briefing):**
    - 13 das 22 páginas das provas trazem frase de certificação ligada ao MEC no texto da página: 68641, 68642, 68643, 68644, 68645, 68648, 68650, 68651, 68652, 68657, 68659, 68660 e 68661. Seis páginas estão limpas (68639, 68640, 68646, 68647, 68654, 68658). Três não foram lidas nesta etapa (68649, 68653, 68655). Nenhuma peça deste pacote repete a frase, mas o anúncio que leva a essas páginas fica sinalizado (seção 4.1).
-   - As páginas de Goiânia 68642 e 68644 repetem o problema da 68640: o local é o endereço de São Paulo. As duas também dizem "matrícula em 10 dias" em um bloco e "7 dias" em outro, e o resultado "via email" ou "no site". Nenhuma peça de Goiânia cita endereço, prazo de matrícula ou canal do resultado até a Ufape corrigir.
+   - As páginas de Goiânia (68640, 68642 e 68644) mostram o endereço de São Paulo. Pela decisão 11 as provas são online e o endereço deixou de bloquear peça: nenhuma peça cita endereço; toda peça diz o campus. Doze fichas (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659 e 68661) dizem "até 10 dias (úteis)" num bloco e "7 dias" em outro, e o canal do resultado em até três versões: nenhuma peça dessas provas cita prazo de matrícula nem canal do resultado até a resposta U1 (estado E3).
    - A página 68661 (Ultrassonografia) diz que a prova concede "bolsas parciais em pós-graduações participantes com início no primeiro semestre de 2027". É pista de destino, não confirmação. Não vira peça.
-6. **Divergência de calendário para o gestor conciliar:** o briefing da campanha põe o pico de investimento antes de 07/11 e a reta final em 20 a 26/11. O memorando do gestor divide a verba em teste (03 a 09/11), pico (10 a 16/11) e reta final (17/11 em diante). Este pacote segue o briefing para a ordem dos criativos (seção 7) e deixa a divisão da verba com o gestor-de-midia [CONFIRMAR com o gestor].
+6. **Calendário de verba conciliado (PP3):** o cmo confirmou a divisão PP3 como a única da squad (plano do cmo, 12.6; gestor-de-midia-pos, 4.2): 40% na abertura e pico (03/11 a 09/11), 35% na sustentação e 25% na reta final, pendente de aprovação humana. A ordem dos criativos (seção 7) segue essa divisão.
 7. Sem página única das provas (pedido A-C9), a peça-mãe não tem destino próprio. Enquanto ela não existir, a mãe sobe adaptada a cada área, com o nome da especialidade e o link da página da prova (seção 3.1).
 8. Nenhuma peça cita a Anclivepa, percentual de aprovação, nome de aprovado, "últimas vagas", frase de certificação ligada ao MEC ou valor de curso com bolsa calculado. Nenhum docente, aluno ou depoimento é usado.
 
@@ -50,20 +52,19 @@
 |---|---|---|
 | Inscrição | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Na peça: "Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão)" | catálogo, seção 3 |
 | Data e horário | 27/11/2026 (sexta-feira), das 9h às 13h | fichas; catálogo, seção 3 |
-| Formato | Prova presencial, com questões de múltipla escolha e dissertativas | contexto/pos-graduacao.md; fichas |
+| Formato | Prova online (decisão 11). Composição como está na ficha de cada prova: "questões de múltipla escolha e dissertativas" em 11 fichas; "10 a 20" ou "20 questões objetivas e/ou dissertativas" em 11 (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659). Na peça-mãe, sem composição; na peça de área, a da ficha | decisão 11; fichas |
 | Bolsas | 11 por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10%. Sempre com a distribuição completa, ou "de 10% a 50%" com a distribuição no mesmo criativo | contexto/pos-graduacao.md; fichas |
 | Nota de corte | 7,0 (mínimo de 70% de acerto) | fichas |
 | Desempate | Análise de currículo | fichas |
 | Regra da bolsa | Não acumulativa e intransferível (a página escreve "intrasferível"; a peça usa a grafia correta) | fichas |
 | Recurso | 2 dias úteis após a divulgação do resultado | fichas |
-| Matrícula | Até 10 dias úteis após o resultado. **Não citar em peça de 68642, 68644 e 68652** (a página se contradiz) | fichas |
-| Resultado | Por WhatsApp e/ou e-mail. Data de divulgação: [CONFIRMAR]. Não citar data | fichas |
-| No dia da prova | Levar documento com foto. Não é permitido celular nem relógio | fichas |
-| Local São Paulo | Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista, São Paulo, SP, 01407-100 | fichas |
-| Local Goiânia | [CONFIRMAR endereço de Goiânia]. As páginas 68640, 68642 e 68644 mostram o endereço de São Paulo | fichas |
-| Turma mínima | Não citar número (15 na página da prova, 20 nas páginas de curso: [CONFIRMAR]). Se precisar: "a turma é confirmada quando atinge o número mínimo de alunos" | contexto/pos-graduacao.md |
+| Matrícula | Regra da ficha de cada prova: até 10 dias úteis após o resultado nas 10 fichas de regra única (68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660). **Não citar nas 12 fichas que se contradizem** (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661): [CONFIRMAR U1], sem escolher versão | fichas |
+| Resultado | Por WhatsApp e/ou e-mail só nas 10 fichas de regra única; nas 12 outras, [CONFIRMAR U1]. Data de divulgação: [CONFIRMAR U3]. Não citar data | fichas |
+| Acesso à prova online | Como é o acesso, e o que vale das regras de documento com foto e de celular que as páginas ainda trazem: [CONFIRMAR U2]. Nenhuma peça cita documento, celular ou relógio | decisão 11; plano do cmo, U2 |
+| Campus | São Paulo ou Goiânia, pelo campo "Localidade" da ficha (68640, 68642 e 68644 em Goiânia; as outras 19 em São Paulo). Toda peça diz o campus. O endereço das páginas não é local de prova e não entra em peça | decisão 11; fichas |
+| Turma mínima | 15 alunos, também nas turmas de Pós (decisão 11). Pode entrar: "a turma é confirmada com o mínimo de 15 alunos" | decisão 11; contexto/pos-graduacao.md |
 
-"Prova presencial de 4 horas": o horário publicado é das 9h às 13h, o que dá quatro horas. A página não diz que a duração da prova é de 4 horas [SUPOSIÇÃO de equivalência]. As peças usam "das 9h às 13h" e só um gancho (C3, gancho 2) usa "4 horas", marcado.
+Horário: as peças usam "das 9h às 13h", como está nas fichas. A versão 1 tinha um gancho com "4 horas"; ele saiu na versão 2, junto com "presencial".
 
 ### 1.2 O que nenhuma peça diz
 
@@ -84,10 +85,11 @@ Em todo texto principal e em toda arte com bolsa: "Bolsa não acumulativa e intr
 
 ### 1.4 UTM e destino
 
-- Destino de cada anúncio de área: a página da prova da área e da praça (URL base na seção 4.1). A página oficial usa botão "COMPRAR"; o rótulo "Inscrever-me na prova" é pedido ao site (A-C8).
-- Sufixo de UTM no Meta: `?utm_source=instagram` ou `facebook` (conforme o posicionamento), `&utm_medium=pago&utm_campaign=provas-de-bolsa-2026-11-27&utm_content=<área>-<código da prova>&utm_term=<nome do criativo>`. Padrão do briefing (seção 4.3); o campo utm_term com o nome do criativo é proposta deste agente para a leitura por conceito [SUPOSIÇÃO; o arquiteto-de-fluxos confere].
-- Sufixo de UTM no Google: `?utm_source=google&utm_medium=pago&utm_campaign=provas-de-bolsa-2026-11-27&utm_content=<área>-<código da prova>&utm_term={keyword}`.
-- Valor de utm_content por prova: tabela da seção 4.1.
+- Destino de cada anúncio de área: a página da prova da área e do campus (URL base na seção 4.1). A página oficial usa botão "COMPRAR"; o rótulo "Inscrever-me na prova" é pedido ao site (A-C8).
+- Padrão D11 e D12 do plano do cmo, sem exceção para as provas (os anúncios sobem em 03/11 já nele), igual à seção 4.3 da estrategia-de-midia-pos: utm_campaign = nome da campanha (chave pos_provas20261127); utm_content = nome do anúncio, que leva o código de área da seção 4.1; tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos, nenhum dado pessoal.
+- Sufixo de UTM no Meta: `?utm_source=meta&utm_medium=paid_social&utm_campaign=pos_provas20261127_meta_compra_misto18_202611&utm_content=<nome do anúncio>&utm_term=<público do conjunto>`. Exemplo: `utm_content=c6-rotina_a12-neuro_e11_cena_v1&utm_term=amplo18-sp`.
+- Sufixo de UTM no Google: `?utm_source=google&utm_medium=cpc&utm_campaign=pos_provas20261127_google_compra_busca_202611&utm_content=<nome do anúncio>&utm_term={keyword}`. Exemplo: `utm_content=rsa-a12-neuro_prova_v1`.
+- O padrão da versão 1 (fonte por posicionamento e campanha com a data por extenso) sai. O código de área por prova está na tabela da seção 4.1.
 
 ---
 
@@ -101,7 +103,7 @@ Os seis conceitos usam só os fatos da seção 1.1. Sem docente, aluno ou depoim
 |---|---|---|---|---|---|---|---|
 | C1 | 11 bolsas por prova e o que cada uma vale | Candidato à prova (P4) que quer saber quantas bolsas existem | Prova: quantidade, transparência | Estático 1:1 com a tabela de bolsas | Número | Só texto | "Quantas bolsas tem? Qual a chance?" (H-PB3), sem prometer resultado |
 | C2 | R$ 100,00 para concorrer | P4 para quem o preço total da pós é a barreira (H-PB8) | Objeção de preço | Vídeo curto 9:16 (Reels e Stories) | Pergunta | Narrador sem rosto | "Vale pagar R$ 100,00?" |
-| C3 | Prova presencial, das 9h às 13h, em 27/11 | Quem planeja a logística, inclusive quem viaja (P2) | Economia de incerteza (local, hora, o que levar) | Estático 9:16 em sequência de Stories | Data e hora primeiro | Só texto | "Tenho que viajar para uma prova presencial" (H-PB2) |
+| C3 | Prova online, das 9h às 13h, em 27/11 | Quem planeja a logística, inclusive quem é de outra cidade (P2) | Economia de incerteza (data, hora, formato, campus) | Estático 9:16 em sequência de Stories | Data e hora primeiro | Só texto | "Preciso viajar para fazer a prova?" (H-PB2): não, a prova é online; o campus é o da turma da pós |
 | C4 | Nota de corte 7,0 e regras escritas | P4 que avalia o risco de não passar | Prova: critério | Carrossel "Como funciona" | Pergunta | Só texto | "Como a prova é julgada? E se empatar?" |
 | C5 | A bolsa vale para a turma de março ou abril (TRAVADO) | P4 que já olhou a pós e quer saber o destino (H-PB7) | Objeção: "vale para qual turma?" | Estático 1:1 por área | Resultado primeiro (turma e mês) | Só texto | "A bolsa vale para qual turma e cidade?" |
 | C6 | Rotina da especialidade (camada de área) | P1, clínico de pequenos animais diante de um caso da rotina | Curiosidade e desejo de aprofundar a especialidade | Estático 1:1 e 9:16 por área | Cena de rotina (hipótese) | Só texto | "Essa prova é da minha especialidade?" |
@@ -118,9 +120,9 @@ Cada gancho funciona sem som (vira texto na tela) e sem contexto (quem nunca ouv
 | C2 | 1 | Quanto custa concorrer a uma bolsa de pós-graduação? R$ 100,00. | Pergunta | 5 | 4 | 5 | Sim. Não dizer "só" nem "apenas": a matrícula na pós tem outro valor |
 | C2 | 2 | R$ 100,00 para concorrer a uma das 11 bolsas da prova. | Número | 5 | 3 | 5 | Sim |
 | C2 | 3 | Concorrer a uma bolsa de pós-graduação custa R$ 100,00. | Objeção direta (preço) | 5 | 3 | 5 | Sim |
-| C3 | 1 | Sexta, 27/11, das 9h às 13h: prova presencial de bolsa. | Data e hora primeiro | 5 | 3 | 5 | Sim |
-| C3 | 2 | Como é a prova de bolsa? Presencial, 4 horas, sem celular. | Pergunta | 4 | 4 | 4 | Sim, "4 horas" vem do horário 9h às 13h [SUPOSIÇÃO] |
-| C3 | 3 | Documento com foto, sem celular e sem relógio: assim é a prova. | Cena | 4 | 4 | 5 | Sim: regras da página |
+| C3 | 1 | Sexta, 27/11, das 9h às 13h: prova online de bolsa. | Data e hora primeiro | 5 | 3 | 5 | Sim |
+| C3 | 2 | Como é a prova de bolsa? Online, sexta, 27/11, das 9h às 13h. | Pergunta | 5 | 4 | 5 | Sim (decisão 11 e fichas) |
+| C3 | 3 | Prova de bolsa online, com provas do campus São Paulo e do campus Goiânia. | Cena | 4 | 3 | 5 | Sim: campo "Localidade" das fichas |
 | C4 | 1 | Nota de corte 7,0: o que a prova de bolsa exige. | Número | 5 | 3 | 5 | Sim: 7,0 e 70% de acerto |
 | C4 | 2 | E se empatar? Na prova de bolsa, o desempate é por currículo. | Pergunta | 5 | 4 | 5 | Sim |
 | C4 | 3 | Como funciona a prova de bolsa da pós-graduação, passo a passo. | Pergunta implícita | 5 | 3 | 5 | Sim: carrossel numerado |
@@ -167,7 +169,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 
 - **Criativos rodando das provas:** nenhum (as provas não constam na visão de campanhas, plano do cmo, seção 3). Não há grupo de criativos cansados ou vencedores para auditar. [DADO NÃO FORNECIDO] sobre desempenho de provas anteriores.
 - **Distância entre conceitos:** todo par entre C1 e C6 muda pelo menos 3 das 5 dimensões (persona e momento, ângulo, formato, gancho; o mensageiro não muda em nenhum par). Pares mais próximos: C2 e C4 (os dois usam pergunta, mas mudam momento, ângulo e formato) e C3 e C5 (os dois põem a informação principal primeiro, mas mudam momento, ângulo e formato).
-- **Dimensão vazia:** mensageiro. Nenhum conceito usa coordenador, professor, aluno ou egresso, porque não há autorização registrada (estratégia de marca, seção 8). Quando a Ufape enviar autorização, o primeiro conceito novo sugerido é "professor explica a prova da especialidade em 30 segundos", com autorização de imagem e voz.
+- **Dimensão vazia:** mensageiro. Nenhum conceito usa coordenador, professor, aluno ou egresso. A autorização de imagem e citação de docentes, palestrantes e convidados está registrada (decisões 8 e 10), mas não há material gravado nem texto aprovado por docente; aluno e egresso seguem sem autorização. O primeiro conceito novo sugerido é "professor explica a prova da especialidade em 30 segundos", com o ok do próprio docente para o texto em primeira pessoa.
 - **Dimensão pouco coberta:** prova social (nenhuma, por falta de dado e de autorização) e medo de ficar para trás (evitado de propósito: a marca não usa escassez nem comparação).
 - **Tamanho do portfólio:** a skill pede 8 a 12 conceitos para um curso. Aqui são 5 na mãe e 1 de área. O limite é duplo: todos os conceitos nascem dos mesmos seis fatos da seção 1.1, e o gestor limita o número de conceitos pela verba (conta de controle: se 25% da verba for menor que o número de conceitos vezes 1,5 vezes o custo por inscrito máximo, reduzir conceitos na fase de teste). Por isso a subida de 03/11 começa com C1, C2 e C6 (seção 7).
 
@@ -180,7 +182,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 - **Mãe geral:** arte e texto sem nome de especialidade. Destino: página única das provas (pedido A-C9, hoje [CONFIRMAR se existe]). Sem essa página, a mãe geral roda só em canais orgânicos e em remarketing, nunca em anúncio pago de público frio.
 - **Mãe adaptada por área:** mesma arte e mesmo texto, com o nome da especialidade no título e o link da página da prova da área. É assim que C1 a C4 vão para o pago em 03/11. Regra de adaptação: trocar "a Pós-graduação" por "a Pós-graduação em {nome completo da área}" no texto principal, e o título pelo gabarito da seção 4.1.
 - **Lista das especialidades:** 19 especialidades (22 provas, 3 delas em Goiânia). Só entra em arte ou cartão depois de A-C2 (destino) e A-C9 (página única), e as quatro que só existem na mãe (Endoscopia, Medicina de Felinos, Nefrologia e Urologia, Odontologia) só aparecem se a Ufape confirmar que a prova segue à venda. A versão que sobe em 03/11 não traz a lista.
-- **Goiânia:** a mãe não cita endereço. Qualquer cartão de local usa "[CONFIRMAR endereço de Goiânia]" e não sobe até ser preenchido.
+- **Campus:** nenhuma peça cita endereço (a prova é online, decisão 11). A peça de área diz o campus da prova; a mãe diz "campus São Paulo e campus Goiânia" quando fala das provas em geral.
 
 ### 3.2 Regras da arte (todos os estáticos)
 
@@ -200,14 +202,14 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 | Selo pequeno | Prova de bolsa da Pós-graduação |
 | Título | 11 bolsas por prova |
 | Apoio (três linhas) | 2 bolsas de 50% (monitoria) / 4 bolsas de 25% / 5 bolsas de 10% |
-| Rodapé 1 | Prova presencial em 27/11/2026. Inscrição de R$ 100,00 |
+| Rodapé 1 | Prova online em 27/11/2026. Inscrição de R$ 100,00 |
 | Rodapé 2 (menor) | Bolsa não acumulativa e intransferível. Faculdade UFAPE |
 
 **Texto principal (mãe geral)**
 
 > Prova de bolsa para a Pós-graduação: 11 bolsas por prova, de 10% a 50%.
 >
-> A Faculdade UFAPE aplica a prova presencial em 27/11/2026, das 9h às 13h. Em cada prova são 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> A Faculdade UFAPE aplica a prova online em 27/11/2026, das 9h às 13h, com provas do campus São Paulo e do campus Goiânia. Em cada prova são 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Primeira linha: 71 caracteres (aparece inteira antes do "ver mais").
 - Título (até 40 caracteres): "11 bolsas por prova" (19). Versão por área: "Prova de bolsa: {nome curto}" (seção 4.1).
@@ -224,40 +226,40 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 | Título | R$ 100,00 para concorrer |
 | Apoio | a uma das 11 bolsas da prova (de 10% a 50%) |
 | Quadro menor | 2 de 50% (monitoria), 4 de 25%, 5 de 10% |
-| Rodapé 1 | Prova presencial em 27/11/2026, das 9h às 13h |
+| Rodapé 1 | Prova online em 27/11/2026, das 9h às 13h |
 | Rodapé 2 (menor) | Bolsa não acumulativa e intransferível. Faculdade UFAPE |
 
 **Texto principal (mãe geral)**
 
 > Concorrer a uma bolsa de pós-graduação custa R$ 100,00.
 >
-> É a inscrição na prova de bolsa da Faculdade UFAPE: Pix, boleto ou 1x no cartão. A prova é presencial, em 27/11/2026, das 9h às 13h, e cada uma tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível.
+> É a inscrição na prova de bolsa da Faculdade UFAPE: Pix, boleto ou 1x no cartão. A prova é online, em 27/11/2026, das 9h às 13h, e cada uma tem 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível.
 
 - Primeira linha: 55 caracteres.
 - Título: "R$ 100,00 para concorrer" (24). Descrição: "11 bolsas por prova" (19).
 - Chamada: botão "Saiba mais"; frase final "Veja as regras e inscreva-se na página da prova."
 - Cuidado de verdade: a inscrição é só a entrada. Nenhuma peça diz que R$ 100,00 é "o único custo". Reembolso, ausência e aprovado sem bolsa: [CONFIRMAR]; nenhuma peça promete devolução.
 
-### 3.5 C3. Prova presencial, das 9h às 13h, em 27/11
+### 3.5 C3. Prova online, das 9h às 13h, em 27/11
 
 **Estático 9:16 (sequência de 3 Stories) e 1:1 (texto da imagem)**
 
 | Quadro | Texto |
 |---|---|
-| 1 | Prova de bolsa presencial / Sexta, 27/11/2026 / Das 9h às 13h |
-| 2 | Leve documento com foto / Não é permitido celular nem relógio |
-| 3 | Questões de múltipla escolha e dissertativas / Local: Av. 9 de Julho, 3939, Jardim Paulista, São Paulo (versão São Paulo). Versão Goiânia: [CONFIRMAR endereço de Goiânia] |
+| 1 | Prova de bolsa online / Sexta, 27/11/2026 / Das 9h às 13h |
+| 2 | Provas do campus São Paulo e do campus Goiânia / Na versão de área: campus {campus} |
+| 3 | Nota de corte 7,0 / A turma é confirmada com o mínimo de 15 alunos |
 | Rodapé de todos | Inscrição de R$ 100,00. 11 bolsas por prova. Faculdade UFAPE |
 
 **Texto principal (mãe geral)**
 
-> Sexta, 27/11, das 9h às 13h: prova presencial de bolsa da Pós-graduação.
+> Sexta, 27/11, das 9h às 13h: prova online de bolsa da Pós-graduação.
 >
-> Leve documento com foto. Não é permitido usar celular nem relógio durante a prova. As questões são de múltipla escolha e dissertativas. Inscrição de R$ 100,00, com 11 bolsas por prova (2 de 50% com monitoria, 4 de 25% e 5 de 10%). Local e regras na página da prova.
+> Cada especialidade tem a sua prova, do campus São Paulo ou do campus Goiânia. Nota de corte 7,0. Inscrição de R$ 100,00, com 11 bolsas por prova (2 de 50% com monitoria, 4 de 25% e 5 de 10%). A turma é confirmada com o mínimo de 15 alunos. Bolsa não acumulativa e intransferível. Regras na página da prova.
 
-- Primeira linha: 72 caracteres. Título: "Prova presencial em 27/11" (25). Descrição: "Prova das 9h às 13h" (19).
-- Chamada: botão "Saiba mais"; frase final "Veja o local e inscreva-se."
-- Não diz data de resultado, prazo de inscrição nem prazo de matrícula.
+- Primeira linha: 68 caracteres. Título: "Prova online em 27/11" (21). Descrição: "Prova das 9h às 13h" (19).
+- Chamada: botão "Saiba mais"; frase final "Veja as regras e inscreva-se."
+- Não diz data de resultado, prazo de inscrição, prazo de matrícula nem como é o acesso à prova online (U2).
 
 ### 3.6 C4. Nota de corte 7,0 e regras escritas
 
@@ -266,7 +268,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 | Bloco | Texto |
 |---|---|
 | Título | Nota de corte 7,0 |
-| Apoio | Mínimo de 70% de acerto / Questões de múltipla escolha e dissertativas |
+| Apoio | Mínimo de 70% de acerto / Composição na página da prova |
 | Quadro menor | Desempate: análise de currículo |
 | Rodapé | 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10%. Bolsa não acumulativa e intransferível. Faculdade UFAPE |
 
@@ -274,7 +276,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 
 > Nota de corte 7,0: é o que a prova de bolsa da Pós-graduação exige.
 >
-> Mínimo de 70% de acerto, em questões de múltipla escolha e dissertativas. Em caso de empate, o desempate é por análise de currículo. A prova é presencial, em 27/11/2026, das 9h às 13h. São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A distribuição das bolsas segue as regras da página da prova. Inscrição de R$ 100,00. Bolsa não acumulativa e intransferível.
+> Mínimo de 70% de acerto; a composição da prova está na página de cada especialidade. Em caso de empate, o desempate é por análise de currículo. A prova é online, em 27/11/2026, das 9h às 13h. São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. A distribuição das bolsas segue as regras da página da prova. Inscrição de R$ 100,00. Bolsa não acumulativa e intransferível.
 
 - Primeira linha: 67 caracteres. Título: "Nota de corte 7,0" (17). Descrição: "Desempate por currículo" (23).
 - Cuidado de verdade: a peça nunca diz "quem passa ganha bolsa". Atingir a nota de corte não garante bolsa (a ordem de distribuição das 11 bolsas é [CONFIRMAR]). A frase "a distribuição das bolsas segue as regras da página" cobre isso.
@@ -291,7 +293,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 5. Percentual de bolsa só no cartão 5, com a distribuição completa.
 6. Nenhuma seta, botão de play ou elemento que imite a interface da plataforma. Nenhuma pessoa, nenhum animal.
 7. Nenhum prazo de inscrição, nenhuma data de resultado, nenhuma turma de destino.
-8. Cartão 6 só sobe depois de a Ufape confirmar os prazos de resultado e de matrícula nas 22 páginas (nas páginas 68642, 68644 e 68652 há "7 dias" e "10 dias" no mesmo texto).
+8. Cartão 6 sobe só na mãe adaptada das 10 provas de regra única (seção 1.1). Nas 12 provas cujas fichas trazem "7 dias" e "10 dias" e mais de um canal de resultado, o cartão 6 sai sem a linha de matrícula e sem a de resultado até a resposta U1. Na mãe geral, não sobe.
 9. Cartão 7 (opcional, lista das especialidades) só depois de A-C2 e A-C9.
 10. Link: cada cartão leva à mesma página (mãe geral: página única; mãe adaptada: página da prova da área), com a mesma UTM.
 11. Rodapé fixo nos cartões 5 e 7: "Bolsa não acumulativa e intransferível."
@@ -300,17 +302,17 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 |---|---|---|
 | 1 | Como funciona a prova de bolsa / Pós-graduação / Faculdade UFAPE | Como funciona a prova |
 | 2 | 1. Inscrição / R$ 100,00 / Pix, boleto ou 1x no cartão | Inscrição de R$ 100,00 |
-| 3 | 2. A prova / 27/11/2026, das 9h às 13h / Presencial. Documento com foto. Sem celular e sem relógio | Prova presencial em 27/11 |
-| 4 | 3. A nota / Nota de corte 7,0 (mínimo de 70% de acerto) / Múltipla escolha e dissertativas | Nota de corte 7,0 |
+| 3 | 2. A prova / 27/11/2026, das 9h às 13h / Online. Campus São Paulo ou Goiânia, conforme a especialidade | Prova online em 27/11 |
+| 4 | 3. A nota / Nota de corte 7,0 (mínimo de 70% de acerto) / Composição na página da prova | Nota de corte 7,0 |
 | 5 | 4. As bolsas / 11 por prova / 2 de 50% (monitoria), 4 de 25%, 5 de 10% / Desempate: análise de currículo | 11 bolsas por prova |
-| 6 | 5. Depois da prova / Resultado por WhatsApp e/ou e-mail / Recurso: 2 dias úteis / Matrícula: até 10 dias úteis | Resultado, recurso, matrícula |
+| 6 | 5. Depois da prova / Resultado por WhatsApp e/ou e-mail / Recurso: 2 dias úteis / Matrícula: até 10 dias úteis / Turma confirmada com o mínimo de 15 alunos (só nas 10 provas de regra única; nas 12 de U1, só recurso e turma mínima) | Resultado, recurso, matrícula |
 | 7 (opcional) | Escolha a especialidade e inscreva-se / Bolsa não acumulativa e intransferível | Inscreva-se na prova |
 
 **Texto principal do carrossel**
 
 > Como funciona a prova de bolsa da Pós-graduação, passo a passo.
 >
-> Inscrição de R$ 100,00, prova presencial em 27/11/2026, das 9h às 13h, e 11 bolsas por prova. Passe os cartões e veja cada etapa. Bolsa não acumulativa e intransferível.
+> Inscrição de R$ 100,00, prova online em 27/11/2026, das 9h às 13h, e 11 bolsas por prova. Passe os cartões e veja cada etapa. Bolsa não acumulativa e intransferível.
 
 ### 3.8 Vídeo curto 9:16 (C2, formato líder): "R$ 100,00 para concorrer"
 
@@ -323,8 +325,8 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 |---|---|---|---|
 | 0 a 3 s | Fundo liso, número grande | Concorrer a uma bolsa de pós-graduação custa R$ 100,00. | Quanto custa concorrer a uma bolsa de pós-graduação? R$ 100,00. |
 | 3 a 8 s | Três linhas entram, uma a uma | 11 bolsas por prova / 2 de 50% (monitoria) / 4 de 25% / 5 de 10% | Cada prova tem 11 bolsas: 2 de 50%, com monitoria, 4 de 25% e 5 de 10%. |
-| 8 a 14 s | Calendário simples e relógio | Prova presencial / Sexta, 27/11/2026, das 9h às 13h / Documento com foto | A prova é presencial, em 27 de novembro, das 9 às 13 horas. Leve documento com foto. |
-| 14 a 19 s | Número em destaque | Nota de corte 7,0 / Múltipla escolha e dissertativas | A nota de corte é 7,0, com questões de múltipla escolha e dissertativas. |
+| 8 a 14 s | Calendário simples e relógio | Prova online / Sexta, 27/11/2026, das 9h às 13h / Campus São Paulo ou Goiânia | A prova é online, em 27 de novembro, das 9 às 13 horas, com provas do campus São Paulo e do campus Goiânia. |
+| 14 a 19 s | Número em destaque | Nota de corte 7,0 / Turma confirmada com o mínimo de 15 alunos | A nota de corte é 7,0. A turma é confirmada com o mínimo de 15 alunos. |
 | 19 a 23 s | Faixa de condições | Inscrição: Pix, boleto ou 1x no cartão / Bolsa não acumulativa e intransferível | A inscrição é no Pix, no boleto ou em uma vez no cartão. A bolsa não é acumulativa nem transferível. |
 | 23 a 27 s | Assinatura e chamada | Escolha a especialidade e inscreva-se / Faculdade UFAPE | Escolha a especialidade e inscreva-se na página da prova. |
 
@@ -335,7 +337,7 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 
 **Não sobe.** Nenhuma das 22 páginas informa a turma de destino. Todo destino abaixo é a leitura do briefing (seção 3.2) e da pesquisa de persona, ainda [CONFIRMAR destino]. A peça só sai depois de a Ufape responder A-C2, prova por prova, e de a página da prova trazer o bloco "Para qual pós esta bolsa vale".
 
-- **Quando liberar:** por prova, com a resposta escrita da Ufape. O texto usa o mês e o ano da turma e a praça, nunca o número de turma (o número diverge entre planilha e site em 68628 e 68617).
+- **Quando liberar:** por prova, com a resposta escrita da Ufape. O texto usa o mês e o ano da turma e o campus, nunca o número de turma (o número diverge entre planilha e site em 68628 e 68617).
 - **"A turma começa em março ou abril":** vale só para as provas cuja turma candidata abre nesses meses. Candidatas (catálogo, seção 2; destino [CONFIRMAR]):
 
 | Prova | Turma candidata | Início (catálogo) | Mês na peça se confirmado |
@@ -351,12 +353,12 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 | 68654 Neurologia, São Paulo | 68616 | 08/05/2027 | maio de 2027 (não é março nem abril) |
 | 68661 Ultrassonografia, São Paulo | 68629 | 22/05/2027 (só no site) | maio de 2027 (não é março nem abril) |
 
-- **Texto da imagem (modelo):** "Prova de bolsa: {nome curto} / A bolsa vale para a turma de {mês de 2027}, em {praça} / Prova em 27/11/2026 / 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10% / Bolsa não acumulativa e intransferível. Faculdade UFAPE".
+- **Texto da imagem (modelo):** "Prova de bolsa: {nome curto} / A bolsa vale para a turma de {mês de 2027}, campus {campus} / Prova online em 27/11/2026 / 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10% / Bolsa não acumulativa e intransferível. Faculdade UFAPE".
 - **Texto principal (modelo):**
 
-> Prova de bolsa de {nome curto}: a bolsa vale para a turma de {mês de 2027}, em {praça}.
+> Prova de bolsa de {nome curto}: a bolsa vale para a turma de {mês de 2027}, campus {campus}.
 >
-> A prova é presencial, em 27/11/2026, das 9h às 13h. São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Inscrição de R$ 100,00. A turma é confirmada quando atinge o número mínimo de alunos. Bolsa não acumulativa e intransferível. As condições completas da turma estão na página da turma.
+> A prova é online, em 27/11/2026, das 9h às 13h. São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Inscrição de R$ 100,00. A turma é confirmada com o mínimo de 15 alunos. Bolsa não acumulativa e intransferível. As condições completas da turma estão na página da turma.
 
 - C5 não mostra preço de curso. Se a Ufape pedir preço, entra com as quatro informações do catálogo (número de parcelas, valor da parcela, total e matrícula) e **sem valor com bolsa aplicada**: o cálculo com bolsa é da Ufape.
 - Não sobe em Dermatologia e Hematologia enquanto a decisão sobre as turmas de 28/11 não existir (seção 4.2, A8 e A11).
@@ -367,16 +369,18 @@ Códigos de área: a1-anest, a2-cardio, a2-pneumo, a3-clinmed, a3-ti, a4-cirurgi
 
 ### 4.1 Gabarito comum, estados e destinos
 
-Todo criativo de área usa o gabarito abaixo. Muda o nome da especialidade, a praça, a situação de rotina (gancho B, hipótese), o link e o estado da prova.
+Todo criativo de área usa o gabarito abaixo. Muda o nome da especialidade, o campus, a situação de rotina (gancho B, hipótese), o link e o estado da prova.
 
-**Corpo padrão São Paulo (BODY_SP):** "Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova."
+**Corpo padrão São Paulo (BODY_SP):** "Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova."
 
-**Corpo padrão Goiânia (BODY_GO):** igual, trocando "São Paulo" por "Goiânia" e acrescentando depois da data: "Local: [CONFIRMAR endereço de Goiânia]." O criativo de Goiânia não sobe com esse marcador no texto.
+**Corpo padrão Goiânia (BODY_GO):** igual, trocando "campus São Paulo" por "campus Goiânia". Sem endereço: a prova é online (decisão 11).
+
+Nos dois corpos, nenhuma linha de prazo de matrícula, canal do resultado, documento ou celular: prazo e canal seguem a ficha de cada prova (E3 para as 12 fichas de U1) e o acesso é [CONFIRMAR U2].
 
 **Estrutura do texto principal de área:**
 1. Linha 1 (até 125 caracteres): gancho B (situação de rotina) ou gancho A (número).
 2. Linha 2: "Prova de bolsa para a Pós-graduação em {nome completo}."
-3. Corpo padrão da praça.
+3. Corpo padrão do campus.
 
 **Gancho A (número), para todas as áreas:** "{Nome curto}: 11 bolsas por prova, inscrição de R$ 100,00." (até 68 caracteres.)
 
@@ -388,7 +392,7 @@ Todo criativo de área usa o gabarito abaixo. Muda o nome da especialidade, a pr
 |---|---|
 | Título | Prova de bolsa: {nome curto} |
 | Apoio | 11 bolsas por prova / Inscrição de R$ 100,00 |
-| Quadro | Presencial, 27/11, das 9h às 13h, em {praça} |
+| Quadro | Online, 27/11, das 9h às 13h, campus {campus} |
 | Rodapé | 2 bolsas de 50% (monitoria), 4 de 25%, 5 de 10%. Bolsa não acumulativa e intransferível. Faculdade UFAPE |
 
 **Título do anúncio (até 40 caracteres):** título 1 "Prova de bolsa: {nome curto}" (até 38); título 2 "Prova em 27/11: {nome curto}" (até 38).
@@ -403,47 +407,47 @@ Todo criativo de área usa o gabarito abaixo. Muda o nome da especialidade, a pr
 |---|---|---|
 | E1 | Destino provável (D1), página sem frase de certificação, sem outro bloqueio | Pode subir em 03/11 |
 | E2 | Destino provável (D1), página com frase ligada ao MEC | Pode subir só com decisão registrada da pessoa do marketing sobre o risco ou com a página corrigida (A-C8). Recomendação: corrigir primeiro |
-| E3 | Goiânia: o local da página é o de São Paulo (e, em 68642 e 68644, há outras contradições) | Bloqueada até a Ufape corrigir o local e preencher o endereço |
+| E3 | Ficha com regra interna contraditória (U1): prazo de matrícula em "até 10 dias (úteis)" e "7 dias", canal do resultado em mais de uma versão | Pode subir: a peça não cita prazo de matrícula nem canal do resultado (D4 do Google e linhas do cartão 6 não entram) até a resposta U1. Na versão 1, E3 era o local de Goiânia, que deixou de bloquear (decisão 11) |
 | E4 | Cardiologia: links de São Paulo e Goiânia invertidos | Bloqueada até a correção (plano do cmo, P3) |
 | E5 | Destino incerto (D2 e D3): a turma da área começa antes do resultado ou não é a mesma pós | Só entra com resposta da Ufape em A-C2 |
 | E6 | Sem turma de destino (D4) | Só peça-mãe, sem anúncio por área |
 
 **Tabela das 22 provas (estado, página e UTM):**
 
-| Prova | Praça | Área | Destino (briefing) | Frase do MEC na página | Estado | utm_content | URL base |
+| Prova | Campus | Área | Destino (briefing) | Frase do MEC na página | Estado | Código de área no nome do anúncio (vai no utm_content) | URL base |
 |---|---|---|---|---|---|---|---|
-| 68639 | São Paulo | A1 | D3 | não | E5 | anestesiologia-68639 | https://faculdade.ufape.com.br/produto/68639/prova-de-bolsa-pos-graduacao-anestesiologia-veterinaria/sao-paulo |
-| 68640 | Goiânia | A1 | D1 | não | E3 | anestesiologia-go-68640 | https://faculdade.ufape.com.br/produto/68640/prova-de-bolsa-pos-graduacao-anestesiologia-veterinaria/goiania |
-| 68641 | São Paulo | A2 | D3 | sim | E4, E5 | cardiologia-68641 | https://faculdade.ufape.com.br/produto/68641/prova-de-bolsa-de-estudos-para-cardiologia-veterinaria/sao-paulo |
-| 68642 | Goiânia | A2 | D1 | sim | E3, E4 | cardiologia-go-68642 | https://faculdade.ufape.com.br/produto/68642/prova-de-bolsa-de-estudos-para-cardiologia-veterinaria/goiania |
-| 68659 | São Paulo | A2 | D1 | sim | E2 | pneumologia-68659 | https://faculdade.ufape.com.br/produto/68659/prova-de-bolsa-de-estudos-para-pneumologia-veterinaria/sao-paulo |
-| 68645 | São Paulo | A3 | D1 | sim | E2 | clinica-medica-68645 | https://faculdade.ufape.com.br/produto/68645/prova-de-bolsa-de-estudos-para-clinica-medica-e-emergencia-veterinaria/sao-paulo |
-| 68660 | São Paulo | A3 | D3 | sim | E5 | terapia-intensiva-68660 | https://faculdade.ufape.com.br/produto/68660/prova-de-bolsa-de-estudos-para-terapia-intensiva-veterinaria/sao-paulo |
-| 68643 | São Paulo | A4 | D3 | sim | E5 | clinica-cirurgica-68643 | https://faculdade.ufape.com.br/produto/68643/prova-de-bolsa-pos-graduacao-clinica-cirurgica-de-caes-e-gatos/sao-paulo |
-| 68644 | Goiânia | A4 | D1 | sim | E3 | clinica-cirurgica-go-68644 | https://faculdade.ufape.com.br/produto/68644/prova-de-bolsa-pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania |
-| 68647 | São Paulo | A5 | D2 | não | E5 | diagnostico-por-imagem-68647 | https://faculdade.ufape.com.br/produto/68647/prova-de-bolsa-de-estudos-para-diagnostico-por-imagem/sao-paulo |
-| 68661 | São Paulo | A5 | D1 | sim | E2 | ultrassonografia-68661 | https://faculdade.ufape.com.br/produto/68661/prova-de-bolsa-de-estudos-para-ultrassonografia-em-pequenos-animais/sao-paulo |
-| 68650 | São Paulo | A6 | D2 | sim | E5 | gastroenterologia-68650 | https://faculdade.ufape.com.br/produto/68650/prova-de-bolsa-pos-graduacao-gastroenterologia/sao-paulo |
-| 68648 | São Paulo | A7 | D1 | sim | E2 | endocrinologia-68648 | https://faculdade.ufape.com.br/produto/68648/prova-de-bolsa-pos-graduacao-endocrinologia-de-pequenos-animais/sao-paulo |
-| 68646 | São Paulo | A8 | D2 | não | E5 | dermatologia-68646 | https://faculdade.ufape.com.br/produto/68646/prova-de-bolsa-de-estudos-para-dermatologia-veterinaria/sao-paulo |
-| 68657 | São Paulo | A10 | D1 | sim | E2 | oncologia-68657 | https://faculdade.ufape.com.br/produto/68657/prova-de-bolsa-pos-graduacao-oncologia-veterinaria/sao-paulo |
-| 68651 | São Paulo | A11 | D2 | sim | E5 | hematologia-68651 | https://faculdade.ufape.com.br/produto/68651/prova-de-bolsa-de-estudos-para-hematologia-veterinaria/sao-paulo |
-| 68658 | São Paulo | A11 | D1 | não | E1 | patologia-clinica-68658 | https://faculdade.ufape.com.br/produto/68658/prova-de-bolsa-de-estudos-para-patologia-clinica-veterinaria/sao-paulo |
-| 68654 | São Paulo | A12 | D1 | não | E1 | neurologia-68654 | https://faculdade.ufape.com.br/produto/68654/prova-de-bolsa-de-estudos-para-neurologia-e-neurocirurgia-veterinaria/sao-paulo |
+| 68639 | São Paulo | A1 | D3 | não | E5 | a1-anest | https://faculdade.ufape.com.br/produto/68639/prova-de-bolsa-pos-graduacao-anestesiologia-veterinaria/sao-paulo |
+| 68640 | Goiânia | A1 | D1 | não | E1 | a1-anest-go | https://faculdade.ufape.com.br/produto/68640/prova-de-bolsa-pos-graduacao-anestesiologia-veterinaria/goiania |
+| 68641 | São Paulo | A2 | D3 | sim | E3, E4, E5 | a2-cardio | https://faculdade.ufape.com.br/produto/68641/prova-de-bolsa-de-estudos-para-cardiologia-veterinaria/sao-paulo |
+| 68642 | Goiânia | A2 | D1 | sim | E2, E3, E4 | a2-cardio-go | https://faculdade.ufape.com.br/produto/68642/prova-de-bolsa-de-estudos-para-cardiologia-veterinaria/goiania |
+| 68659 | São Paulo | A2 | D1 | sim | E2, E3 | a2-pneumo | https://faculdade.ufape.com.br/produto/68659/prova-de-bolsa-de-estudos-para-pneumologia-veterinaria/sao-paulo |
+| 68645 | São Paulo | A3 | D1 | sim | E2, E3 | a3-clinmed | https://faculdade.ufape.com.br/produto/68645/prova-de-bolsa-de-estudos-para-clinica-medica-e-emergencia-veterinaria/sao-paulo |
+| 68660 | São Paulo | A3 | D3 | sim | E5 | a3-ti | https://faculdade.ufape.com.br/produto/68660/prova-de-bolsa-de-estudos-para-terapia-intensiva-veterinaria/sao-paulo |
+| 68643 | São Paulo | A4 | D3 | sim | E3, E5 | a4-cirurgia | https://faculdade.ufape.com.br/produto/68643/prova-de-bolsa-pos-graduacao-clinica-cirurgica-de-caes-e-gatos/sao-paulo |
+| 68644 | Goiânia | A4 | D1 | sim | E2, E3 | a4-cirurgia-go | https://faculdade.ufape.com.br/produto/68644/prova-de-bolsa-pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania |
+| 68647 | São Paulo | A5 | D2 | não | E5 | a5-imagem | https://faculdade.ufape.com.br/produto/68647/prova-de-bolsa-de-estudos-para-diagnostico-por-imagem/sao-paulo |
+| 68661 | São Paulo | A5 | D1 | sim | E2, E3 | a5-ultra | https://faculdade.ufape.com.br/produto/68661/prova-de-bolsa-de-estudos-para-ultrassonografia-em-pequenos-animais/sao-paulo |
+| 68650 | São Paulo | A6 | D2 | sim | E3, E5 | a6-gastro | https://faculdade.ufape.com.br/produto/68650/prova-de-bolsa-pos-graduacao-gastroenterologia/sao-paulo |
+| 68648 | São Paulo | A7 | D1 | sim | E2 | a7-endocrino | https://faculdade.ufape.com.br/produto/68648/prova-de-bolsa-pos-graduacao-endocrinologia-de-pequenos-animais/sao-paulo |
+| 68646 | São Paulo | A8 | D2 | não | E5 | a8-derma | https://faculdade.ufape.com.br/produto/68646/prova-de-bolsa-de-estudos-para-dermatologia-veterinaria/sao-paulo |
+| 68657 | São Paulo | A10 | D1 | sim | E2, E3 | a10-onco | https://faculdade.ufape.com.br/produto/68657/prova-de-bolsa-pos-graduacao-oncologia-veterinaria/sao-paulo |
+| 68651 | São Paulo | A11 | D2 | sim | E3, E5 | a11-hemato | https://faculdade.ufape.com.br/produto/68651/prova-de-bolsa-de-estudos-para-hematologia-veterinaria/sao-paulo |
+| 68658 | São Paulo | A11 | D1 | não | E1 | a11-patclin | https://faculdade.ufape.com.br/produto/68658/prova-de-bolsa-de-estudos-para-patologia-clinica-veterinaria/sao-paulo |
+| 68654 | São Paulo | A12 | D1 | não | E1 | a12-neuro | https://faculdade.ufape.com.br/produto/68654/prova-de-bolsa-de-estudos-para-neurologia-e-neurocirurgia-veterinaria/sao-paulo |
 | 68649 | São Paulo | A5 | D4 | não lida | E6 | só mãe | sem destino por área |
-| 68653 | São Paulo | A7 | D4 | não lida | E6 | só mãe | sem destino por área |
-| 68652 | São Paulo | A13 | D4 | sim | E6 | só mãe | sem destino por área |
+| 68653 | São Paulo | A7 | D4 | não lida | E3, E6 | só mãe | sem destino por área |
+| 68652 | São Paulo | A13 | D4 | sim | E3, E6 | só mãe | sem destino por área |
 | 68655 | São Paulo | A14 | D4 | não lida | E6 | só mãe | sem destino por área |
 
 Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "sem venda (avise-me)".
 
-**Leitura do estado:** as únicas provas que sobem em 03/11 sem nenhum pedido pendente são 68654 e 68658 (E1). As cinco em E2 (68659, 68645, 68661, 68648, 68657) sobem com a decisão registrada da pessoa do marketing ou com a página corrigida. As demais dependem de A-C2 (destino) ou da correção das páginas de Goiânia e de Cardiologia. Se a Ufape corrigir as páginas e confirmar os destinos até 31/10, todas as provas fora de E6 podem subir em 03/11.
+**Leitura do estado:** as provas que sobem em 03/11 sem nenhum pedido pendente são 68654, 68658 e 68640 (E1; 68640 deixou de estar bloqueada pelo local, decisão 11). As seis em E2 (68659, 68645, 68661, 68648, 68657 e 68644) sobem com a decisão registrada da pessoa do marketing ou com a página corrigida; E3 não impede a subida, só tira prazo e canal da peça. As demais dependem de A-C2 (destino) ou da correção dos links de Cardiologia (68641 e 68642). Se a Ufape corrigir as páginas e confirmar os destinos até 31/10, todas as provas fora de E6 podem subir em 03/11.
 
 ### 4.2 Variações
 
 **A1. Anestesiologia (68639 São Paulo, 68640 Goiânia)**
 
-- Estado: 68639 em E5 (destino incerto: só há 657 Avançada e 359 Locorregional, que não são a mesma pós); 68640 em E3 (local de Goiânia).
+- Estado: 68639 em E5 (destino incerto: só há 657 Avançada e 359 Locorregional, que não são a mesma pós); 68640 em E1 (o local de Goiânia deixou de bloquear: prova online, decisão 11).
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (segurança no protocolo anestésico de rotina, hipótese). Objeção que responde: "essa prova é da minha especialidade?".
 - Nome curto: Anestesiologia. Nome completo: Anestesiologia Veterinária.
 - Gancho A: "Anestesiologia: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -452,23 +456,23 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > Protocolo anestésico do paciente de rotina: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Anestesiologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Anestesiologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Texto principal, Goiânia (68640):
 
 > Protocolo anestésico do paciente de rotina: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Anestesiologia Veterinária. Prova presencial da Faculdade UFAPE em Goiânia, em 27/11/2026, das 9h às 13h. Local: [CONFIRMAR endereço de Goiânia]. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Anestesiologia Veterinária. Prova online da Faculdade UFAPE, campus Goiânia, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Título 1: "Prova de bolsa: Anestesiologia" (30). Título 2: "Prova em 27/11: Anestesiologia" (30). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Anestesiologia."
 - Destino: 68639 e 68640, URLs da seção 4.1 com UTM do Meta.
 - Nomes: c6-rotina_a1-anest_e11_cena_v1, _e916_cena_v1, _e11_numero_v2; c6-rotina_a1-anest-go_e11_cena_v1 (idem).
-- Alertas: a página de Goiânia mostra endereço de São Paulo (peça de Goiânia só depois da correção). Público em comum com o Workshop de Neuromonitorização (20 e 21/11): controlar frequência, sem excluir públicos e sem juntar as duas ofertas no mesmo anúncio. Nenhuma peça cita turma nem data de início (a turma candidata de Goiânia, 68609, só entra em C5 depois de A-C2).
+- Alertas: a página de Goiânia mostra endereço de São Paulo; a peça não cita endereço e diz "campus Goiânia". Público em comum com o Workshop Brasileiro de Neuromonitorização (20 e 21/11): controlar frequência, sem excluir públicos e sem juntar as duas ofertas no mesmo anúncio. Nenhuma peça cita turma nem data de início (a turma candidata de Goiânia, 68609, só entra em C5 depois de A-C2).
 
 **A2. Cardiorrespiratório (68641 Cardiologia São Paulo, 68642 Cardiologia Goiânia, 68659 Pneumologia São Paulo)**
 
-- Estado: 68641 em E4 e E5; 68642 em E3 e E4; 68659 em E2. **Nenhum anúncio de Cardiologia sobe antes de a Ufape corrigir os links invertidos entre as duas praças** (plano do cmo, P3).
+- Estado: 68641 em E3, E4 e E5; 68642 em E2, E3 e E4; 68659 em E2 e E3. **Nenhum anúncio de Cardiologia sobe antes de a Ufape corrigir os links invertidos entre os dois campi** (plano do cmo, P3).
 - Ângulo: curiosidade e desejo de aprofundar a especialidade. Objeção: "essa prova é da minha especialidade?". Ecocardiografia (turma 698) não tem prova: não misturar.
 - Cardiologia: nome curto Cardiologia; nome completo Cardiologia Veterinária. Pneumologia: nome curto Pneumologia; nome completo Pneumologia Veterinária.
 - Gancho A: "Cardiologia: 11 bolsas por prova, inscrição de R$ 100,00." / "Pneumologia: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -477,14 +481,14 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente cardiopata na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Cardiologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Cardiologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
-- Texto principal, Cardiologia Goiânia (68642): igual ao de São Paulo, com "em Goiânia" e "Local: [CONFIRMAR endereço de Goiânia]." depois da data. Sem prazo de matrícula e sem canal do resultado (a página 68642 se contradiz).
+- Texto principal, Cardiologia Goiânia (68642): igual ao de São Paulo, com "campus Goiânia". Sem prazo de matrícula e sem canal do resultado (E3, U1).
 - Texto principal, Pneumologia (68659):
 
 > O paciente respiratório na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Pneumologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Pneumologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Cardiologia" (27) e "Prova em 27/11: Cardiologia" (28); "Prova de bolsa: Pneumologia" (27) e "Prova em 27/11: Pneumologia" (28). Descrição: "11 bolsas por prova".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Cardiologia." / "Inscreva-se na prova de Pneumologia."
@@ -494,7 +498,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 **A3. Emergência, terapia intensiva e clínica médica (68645 Clínica Médica e Emergência São Paulo, 68660 Terapia Intensiva São Paulo)**
 
-- Estado: 68645 em E2; 68660 em E5 (nenhuma Terapia Intensiva futura em São Paulo; a 68623 é de Goiânia).
+- Estado: 68645 em E2 e E3; 68660 em E5 (nenhuma Terapia Intensiva futura em São Paulo; a 68623 é de Goiânia).
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (o paciente crítico no plantão, hipótese). A objeção mais forte da área é tempo, não preço (pesquisa de persona): a peça não promete flexibilidade nem fala de carga horária.
 - Clínica Médica e Emergência: nome curto "Clínica Médica" (nos títulos e na imagem); nome completo Clínica Médica e Emergência Veterinária. Terapia Intensiva: nome curto "Terapia Intensiva"; nome completo Terapia Intensiva Veterinária.
 - Gancho A: "Clínica Médica: 11 bolsas por prova, inscrição de R$ 100,00." / "Terapia Intensiva: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -503,13 +507,13 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente de emergência na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Clínica Médica e Emergência Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Clínica Médica e Emergência Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Texto principal, Terapia Intensiva (68660):
 
 > O paciente crítico no plantão: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Terapia Intensiva Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Terapia Intensiva Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Clínica Médica" (30) e "Prova em 27/11: Clínica Médica" (30); "Prova de bolsa: Terapia Intensiva" (33) e "Prova em 27/11: Terapia Intensiva" (33). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Clínica Médica." / "Inscreva-se na prova de Terapia Intensiva."
@@ -518,7 +522,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 **A4. Cirurgia (68643 São Paulo, 68644 Goiânia)**
 
-- Estado: 68643 em E5 (nenhuma Clínica Cirúrgica futura em São Paulo); 68644 em E3.
+- Estado: 68643 em E3 e E5 (nenhuma Clínica Cirúrgica futura em São Paulo); 68644 em E2 e E3.
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (cirurgia na própria clínica, hipótese).
 - Nome curto: Clínica Cirúrgica. Nome completo: Clínica Cirúrgica de Cães e Gatos.
 - Gancho A: "Clínica Cirúrgica: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -527,17 +531,17 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > Cirurgia na própria clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Clínica Cirúrgica de Cães e Gatos. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Clínica Cirúrgica de Cães e Gatos. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
-- Texto principal, Goiânia (68644): igual, com "em Goiânia" e "Local: [CONFIRMAR endereço de Goiânia]." depois da data. Sem prazo de matrícula e sem canal do resultado. A peça de Goiânia não usa "semipresencial" nem descreve o formato da pós (a turma candidata de Goiânia é presencial integral, as demais são semipresenciais; a peça fala só da prova).
+- Texto principal, Goiânia (68644): igual, com "campus Goiânia". Sem prazo de matrícula e sem canal do resultado (E3, U1). A peça de Goiânia não usa "semipresencial" nem descreve o formato da pós (a turma candidata de Goiânia é presencial integral, as demais são semipresenciais; a peça fala só da prova).
 - Títulos: "Prova de bolsa: Clínica Cirúrgica" (33) e "Prova em 27/11: Clínica Cirúrgica" (33). Descrição: "11 bolsas por prova".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Clínica Cirúrgica."
 - Destino: 68643 e 68644. Nomes: c6-rotina_a4-cirurgia_e11_cena_v1 e c6-rotina_a4-cirurgia-go_e11_cena_v1, mais formatos e iteração.
-- Alertas: as duas páginas trazem frase ligada ao MEC e a palavra "Intercursos" junto de "UFAPE" no texto (a marca de venda é só Faculdade UFAPE). A 68644 mostra endereço de São Paulo e diz "7 dias" e "10 dias" de matrícula. A turma 662 (Ortopedia) tem link trocado e não é destino em nenhuma peça.
+- Alertas: as duas páginas trazem frase ligada ao MEC e a palavra "Intercursos" junto de "UFAPE" no texto (a marca de venda é só Faculdade UFAPE). A 68644 mostra endereço de São Paulo (irrelevante: prova online) e diz "7 dias" e "10 dias" de matrícula (E3). A turma 662 (Ortopedia) tem link trocado e não é destino em nenhuma peça.
 
 **A5. Diagnóstico por imagem (68647 Diagnóstico por Imagem, 68661 Ultrassonografia; 68649 Endoscopia só na mãe)**
 
-- Estado: 68647 em E5 (a turma 68604 começa em 31/10, antes da prova, e a 68611 está sem data); 68661 em E2.
+- Estado: 68647 em E5 (a turma 68604 começa em 31/10, antes da prova, e a 68611 está sem data); 68661 em E2 e E3.
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (fazer o exame de imagem na própria clínica, hipótese).
 - Diagnóstico por Imagem: nome curto e completo "Diagnóstico por Imagem". Ultrassonografia: nome curto "Ultrassonografia"; nome completo "Ultrassonografia em Pequenos Animais".
 - Gancho A: "Diagnóstico por Imagem: 11 bolsas por prova, inscrição de R$ 100,00." / "Ultrassonografia: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -546,13 +550,13 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O exame de imagem na própria clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Diagnóstico por Imagem. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Diagnóstico por Imagem. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Texto principal, Ultrassonografia (68661):
 
 > A ultrassonografia na própria clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Ultrassonografia em Pequenos Animais. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Ultrassonografia em Pequenos Animais. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Diagnóstico por Imagem" (38) e "Prova em 27/11: Diagnóstico por Imagem" (38); "Prova de bolsa: Ultrassonografia" (32) e "Prova em 27/11: Ultrassonografia" (32). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Diagnóstico por Imagem." / "Inscreva-se na prova de Ultrassonografia."
@@ -561,7 +565,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 **A6. Gastroenterologia (68650 São Paulo)**
 
-- Estado: E5 (a turma 68606 começa em 07/11, 20 dias antes da prova).
+- Estado: E3 e E5 (a turma 68606 começa em 07/11, 20 dias antes da prova).
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (quadro digestivo recorrente, hipótese).
 - Nome curto: Gastroenterologia. Nome completo: Gastroenterologia Veterinária.
 - Gancho A: "Gastroenterologia: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -570,7 +574,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente com quadro digestivo recorrente: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Gastroenterologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Gastroenterologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Gastroenterologia" (33) e "Prova em 27/11: Gastroenterologia" (33). Descrição: "11 bolsas por prova".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Gastroenterologia."
@@ -588,7 +592,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente endócrino com acompanhamento de longo prazo: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Endocrinologia de Pequenos Animais. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Endocrinologia de Pequenos Animais. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Endocrinologia" (30) e "Prova em 27/11: Endocrinologia" (30). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Endocrinologia."
@@ -606,7 +610,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O caso de dermatologia recorrente: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Dermatologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Dermatologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Dermatologia" (28) e "Prova em 27/11: Dermatologia" (28). Descrição: "11 bolsas por prova".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Dermatologia."
@@ -615,7 +619,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 **A10. Oncologia (68657 São Paulo)**
 
-- Estado: E2.
+- Estado: E2 e E3.
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (conduzir o paciente oncológico com protocolo, hipótese).
 - Nome curto: Oncologia. Nome completo: Oncologia Veterinária.
 - Gancho A: "Oncologia: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -624,7 +628,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente oncológico na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Oncologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Oncologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Oncologia" (25) e "Prova em 27/11: Oncologia" (25). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Oncologia."
@@ -633,7 +637,7 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 **A11. Laboratório (68651 Hematologia, 68658 Patologia Clínica; ambas São Paulo)**
 
-- Estado: 68658 em E1; 68651 em E5. **Mesmo caso da Dermatologia:** a turma 68608 (Hematologia) começa em 28/11, um dia depois da prova 68651. Mesmas regras de espera de A8.
+- Estado: 68658 em E1; 68651 em E3 e E5. **Mesmo caso da Dermatologia:** a turma 68608 (Hematologia) começa em 28/11, um dia depois da prova 68651. Mesmas regras de espera de A8.
 - Ângulo: curiosidade e desejo de aprofundar a especialidade (fechar o caso sem depender do laboratório ou do colega, hipótese H-A11.2, reescrita como tema para não afirmar dependência de quem vê).
 - Hematologia: nome curto Hematologia, nome completo Hematologia Veterinária. Patologia Clínica: nome curto Patologia Clínica, nome completo Patologia Clínica Veterinária.
 - Gancho A: "Hematologia: 11 bolsas por prova, inscrição de R$ 100,00." / "Patologia Clínica: 11 bolsas por prova, inscrição de R$ 100,00."
@@ -642,13 +646,13 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > A hematologia na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Hematologia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Hematologia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Texto principal, Patologia Clínica (68658):
 
 > Os exames laboratoriais na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Patologia Clínica Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Patologia Clínica Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Hematologia" (27) e "Prova em 27/11: Hematologia" (28); "Prova de bolsa: Patologia Clínica" (33) e "Prova em 27/11: Patologia Clínica" (30). Descrição: "11 bolsas por prova".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Hematologia." / "Inscreva-se na prova de Patologia Clínica."
@@ -666,18 +670,18 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 
 > O paciente neurológico na rotina da clínica: a especialidade tem prova de bolsa em 27/11.
 >
-> Prova de bolsa para a Pós-graduação em Neurologia e Neurocirurgia Veterinária. Prova presencial da Faculdade UFAPE em São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
+> Prova de bolsa para a Pós-graduação em Neurologia e Neurocirurgia Veterinária. Prova online da Faculdade UFAPE, campus São Paulo, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova.
 
 - Títulos: "Prova de bolsa: Neurologia" (26) e "Prova em 27/11: Neurologia" (26). Descrição: "Inscrição de R$ 100,00".
 - Chamada: botão "Saiba mais"; "Inscreva-se na prova de Neurologia."
 - Destino: 68654 (página limpa). Nomes: c6-rotina_a12-neuro_e11_cena_v1, _e916_cena_v1, _e11_numero_v2.
-- Alertas: o Workshop de Neuromonitorização (20 e 21/11) fala com o mesmo público uma semana antes da prova: não juntar as duas ofertas no mesmo anúncio e controlar a frequência (sem excluir públicos). As turmas 677 e 701 estão em "verificar" e não entram. A turma candidata 68616 começa em maio de 2027, não em março nem abril.
+- Alertas: o Workshop Brasileiro de Neuromonitorização (20 e 21/11) fala com o mesmo público uma semana antes da prova: não juntar as duas ofertas no mesmo anúncio e controlar a frequência (sem excluir públicos). As turmas 677 e 701 estão em "verificar" e não entram. A turma candidata 68616 começa em maio de 2027, não em março nem abril.
 
 **A13. Medicina de Felinos (68652) e A14. Odontologia (68655): só peça-mãe**
 
 - Estado: E6. Sem anúncio por área, sem Google por área, sem WhatsApp segmentado até o destino ser confirmado (A-C2).
 - Entram só na lista de especialidades da peça-mãe, se a Ufape confirmar que a prova segue à venda.
-- 68652 tem, além disso, a frase ligada ao MEC no texto da página e regras contraditórias (resultado por e-mail, por telefone e no site; matrícula em 10 e em 7 dias; "10 a 20 questões"). Nenhum anúncio leva a essa página até a correção. O conteúdo programático da página só vira isca de estudo com A-C10 (iscas-digitais).
+- 68652 tem, além disso, a frase ligada ao MEC no texto da página e regras contraditórias (resultado por e-mail, por telefone e no site; matrícula em 10 e em 7 dias: U1). Nenhum anúncio leva a essa página até a correção. O conteúdo programático da página só vira isca de estudo com A-C10 (iscas-digitais).
 - Endoscopia (68649) e Nefrologia e Urologia (68653): mesmo tratamento (E6).
 
 **A9. Oftalmologia:** sem prova (68656 fora do ar). Fora da campanha.
@@ -697,10 +701,10 @@ Provas fora: 68656 Oftalmologia (A9, link fora do ar) e as 13 provas antigas "se
 ### 5.1 Estrutura (pedido ao anuncios-google e ao humano que executa)
 
 - Uma campanha de Busca (30% da verba das provas, proposta do gestor) com um grupo de anúncios por especialidade liberada. O grupo geral só existe quando a página única das provas existir (A-C9); sem ela, não há destino honesto para a busca genérica.
-- Destino: a página da prova da especialidade e da praça, com o sufixo de UTM do Google (seção 1.4). Sem lance no nome de concorrente.
+- Destino: a página da prova da especialidade e do campus, com o sufixo de UTM do Google (seção 1.4). Sem lance no nome de concorrente.
 - "Faculdade UFAPE" nos anúncios e em palavras-chave de marca (homonímia com a universidade federal, alerta 9 da concorrência).
-- Estados: o grupo só entra quando a prova está em E1 ou E2 (ou liberada em A-C2). Goiânia e Cardiologia, só depois da correção. Felinos, Endoscopia, Nefrologia e Odontologia: sem grupo.
-- Localização e raio: [CONFIRMAR raio] com o anuncios-google. Sugestão [SUPOSIÇÃO]: usar "pessoas na localização ou interessadas nela" para alcançar quem viaja de outra cidade (P2), já que a prova é presencial só em São Paulo e Goiânia.
+- Estados: o grupo só entra quando a prova está em E1 ou E2 (ou liberada em A-C2). Cardiologia, só depois da correção dos links; Goiânia entra pelas regras de estado (68640 em E1; 68644 em E2). Felinos, Endoscopia, Nefrologia e Odontologia: sem grupo.
+- Localização e raio: [CONFIRMAR raio] com o anuncios-google. Sugestão [SUPOSIÇÃO]: usar "pessoas na localização ou interessadas nela" para alcançar quem é de outra cidade (P2): a prova é online, mas a turma da pós é do campus São Paulo ou Goiânia.
 
 ### 5.2 Palavras-chave (proposta do briefing; volume e termos finais vêm da pesquisa-de-palavras-chave)
 
@@ -725,7 +729,7 @@ Palavras-chave negativas sugeridas [SUPOSIÇÃO, a validar pelo relatório de te
 | S2 | Inscrição de R$ 100,00 | 22 |
 | S3 | 11 bolsas por prova | 19 |
 | S4 | Bolsas de 10% a 50% | 19 |
-| S5 | Prova presencial em 27/11 | 25 |
+| S5 | Prova online em 27/11 | 21 |
 | S6 | Prova das 9h às 13h | 19 |
 | S7 | Nota de corte 7,0 | 17 |
 | S8 | Faculdade UFAPE | 15 |
@@ -733,7 +737,7 @@ Palavras-chave negativas sugeridas [SUPOSIÇÃO, a validar pelo relatório de te
 | S10 | Bolsas de 50%, 25% e 10% | 24 |
 | S11 | Inscreva-se na prova | 20 |
 | S12 | Desempate por currículo | 23 |
-| S13 | Prova em São Paulo ou Goiânia | 29 (só no grupo geral, quando Goiânia estiver liberada) |
+| S13 | Campus São Paulo ou Goiânia | 27 (só no grupo geral) |
 
 **Montagem do anúncio:** nos grupos de área, S1 a S12 mais os 2 títulos de área da tabela 5.5, somando 14 títulos (a plataforma aceita de 3 a 15). No grupo geral, S1 a S13, somando 13 títulos.
 
@@ -745,32 +749,32 @@ Sugestão de fixação [SUPOSIÇÃO]: título de área fixo na posição 1 (rele
 |---|---|---|
 | D1 | Prova de bolsa da Faculdade UFAPE: inscrição de R$ 100,00 e 11 bolsas por prova. | 80 |
 | D2 | Bolsas de 50% (monitoria), 25% e 10%. Nota de corte 7,0 (mínimo de 70% de acerto). | 82 |
-| D3 | Prova presencial em 27/11/2026, das 9h às 13h. Veja as regras na página da prova. | 81 |
+| D3 | Prova online em 27/11/2026, das 9h às 13h. Veja as regras na página da prova. | 77 |
 | D4 | Bolsa não acumulativa e intransferível. Resultado por WhatsApp e/ou e-mail. | 75 |
 | D5 | Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). Inscreva-se na página da prova. | 85 |
 
-Cada anúncio usa 4 descrições: D1, D2, D3 e uma entre D4 e D5. D4 não vai nos grupos das páginas 68642, 68644 e 68652 (o canal do resultado se contradiz); nesses casos usar D5. D2 repete a distribuição completa porque os títulos S4 e S10 mostram percentual.
+Cada anúncio usa 4 descrições: D1, D2, D3 e uma entre D4 e D5. D4 só vai nos grupos das 10 provas de regra única (seção 1.1); nos grupos das provas em E3 (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68657, 68659, 68661) usar D5, porque o canal do resultado se contradiz na ficha (U1). D2 repete a distribuição completa porque os títulos S4 e S10 mostram percentual.
 
 ### 5.5 Títulos de área (2 por grupo; até 30 caracteres)
 
 | Especialidade | Prova | Título de área 1 | Car. | Título de área 2 | Car. | Estado |
 |---|---|---|---|---|---|---|
 | Anestesiologia | 68639 | Prova de bolsa: Anestesiologia | 30 | Bolsa em Anestesiologia | 23 | E5 |
-| Anestesiologia (Goiânia) | 68640 | Prova de bolsa: Anestesiologia | 30 | Bolsa em Anestesiologia | 23 | E3 |
-| Cardiologia | 68641 | Prova de bolsa: Cardiologia | 27 | Bolsa em Cardiologia | 20 | E4, E5 |
-| Cardiologia (Goiânia) | 68642 | Prova de bolsa: Cardiologia | 27 | Bolsa em Cardiologia | 20 | E3, E4 |
-| Pneumologia | 68659 | Prova de bolsa: Pneumologia | 27 | Bolsa em Pneumologia | 20 | E2 |
-| Clínica Médica | 68645 | Prova de bolsa: Clínica Médica | 30 | Bolsa em Clínica Médica | 23 | E2 |
+| Anestesiologia (Goiânia) | 68640 | Prova de bolsa: Anestesiologia | 30 | Bolsa em Anestesiologia | 23 | E1 |
+| Cardiologia | 68641 | Prova de bolsa: Cardiologia | 27 | Bolsa em Cardiologia | 20 | E3, E4, E5 |
+| Cardiologia (Goiânia) | 68642 | Prova de bolsa: Cardiologia | 27 | Bolsa em Cardiologia | 20 | E2, E3, E4 |
+| Pneumologia | 68659 | Prova de bolsa: Pneumologia | 27 | Bolsa em Pneumologia | 20 | E2, E3 |
+| Clínica Médica | 68645 | Prova de bolsa: Clínica Médica | 30 | Bolsa em Clínica Médica | 23 | E2, E3 |
 | Terapia Intensiva | 68660 | Prova 27/11: Terapia Intensiva | 30 | Bolsa em Terapia Intensiva | 26 | E5 |
-| Clínica Cirúrgica | 68643 | Prova 27/11: Clínica Cirúrgica | 30 | Bolsa em Clínica Cirúrgica | 26 | E5 |
-| Clínica Cirúrgica (Goiânia) | 68644 | Prova 27/11: Clínica Cirúrgica | 30 | Bolsa em Clínica Cirúrgica | 26 | E3 |
+| Clínica Cirúrgica | 68643 | Prova 27/11: Clínica Cirúrgica | 30 | Bolsa em Clínica Cirúrgica | 26 | E3, E5 |
+| Clínica Cirúrgica (Goiânia) | 68644 | Prova 27/11: Clínica Cirúrgica | 30 | Bolsa em Clínica Cirúrgica | 26 | E2, E3 |
 | Diagnóstico por Imagem | 68647 | Bolsa: Diagnóstico por Imagem | 29 | Diagnóstico por Imagem | 22 | E5 |
-| Ultrassonografia | 68661 | Prova 27/11: Ultrassonografia | 29 | Bolsa em Ultrassonografia | 25 | E2 |
-| Gastroenterologia | 68650 | Prova 27/11: Gastroenterologia | 30 | Bolsa em Gastroenterologia | 26 | E5 |
+| Ultrassonografia | 68661 | Prova 27/11: Ultrassonografia | 29 | Bolsa em Ultrassonografia | 25 | E2, E3 |
+| Gastroenterologia | 68650 | Prova 27/11: Gastroenterologia | 30 | Bolsa em Gastroenterologia | 26 | E3, E5 |
 | Endocrinologia | 68648 | Prova de bolsa: Endocrinologia | 30 | Bolsa em Endocrinologia | 23 | E2 |
 | Dermatologia | 68646 | Prova de bolsa: Dermatologia | 28 | Bolsa em Dermatologia | 21 | E5 |
-| Oncologia | 68657 | Prova de bolsa: Oncologia | 25 | Bolsa em Oncologia | 18 | E2 |
-| Hematologia | 68651 | Prova de bolsa: Hematologia | 27 | Bolsa em Hematologia | 20 | E5 |
+| Oncologia | 68657 | Prova de bolsa: Oncologia | 25 | Bolsa em Oncologia | 18 | E2, E3 |
+| Hematologia | 68651 | Prova de bolsa: Hematologia | 27 | Bolsa em Hematologia | 20 | E3, E5 |
 | Patologia Clínica | 68658 | Prova 27/11: Patologia Clínica | 30 | Bolsa em Patologia Clínica | 26 | E1 |
 | Neurologia | 68654 | Prova de bolsa: Neurologia | 26 | Neurologia e Neurocirurgia | 26 | E1 |
 
@@ -779,7 +783,7 @@ Conta de cada padrão: "Prova de bolsa: " tem 16 caracteres, "Prova 27/11: " tem
 ### 5.6 Caminho de exibição e extensões
 
 - Caminho de exibição: "prova-de-bolsa" (14) e "pos-graduacao" (13). Dois campos de até 15 caracteres.
-- Textos de destaque (até 25 caracteres): "Prova presencial" (16), "11 bolsas por prova" (19), "Inscrição de R$ 100,00" (22), "Nota de corte 7,0" (17).
+- Textos de destaque (até 25 caracteres): "Prova online" (12), "11 bolsas por prova" (19), "Inscrição de R$ 100,00" (22), "Nota de corte 7,0" (17).
 - Links de sitelink (título até 25 caracteres): "Regras da prova" (15) e "Como se inscrever" (17). Os sitelinks precisam de URLs diferentes da página da prova. Só com FAQ ou página única criada (A-C8, A-C9): [CONFIRMAR URLs].
 - Extensão de chamada: números de vendas de São Paulo ((11) 91366-9290) e de Goiânia ((62) 9420-1847), do contexto geral. O contexto os descreve como WhatsApp de vendas: [CONFIRMAR se os números atendem ligação] antes de ativar a extensão. Nenhum link de WhatsApp na mídia desta onda (memorando do gestor).
 
@@ -819,21 +823,21 @@ Toda linha abaixo é pedido de ação para um humano executar nos gerenciadores,
 | Quando | O que sobe (ou muda) | Condição | Pedido |
 |---|---|---|---|
 | Até 30/10 | Aprovações da seção 10, conceitos C1, C2, C3, C4, C6 e Google, e resposta da Ufape em A-C2 e A-C3 | Pessoa do marketing e Ufape | Aprovar texto, arte e UTM |
-| 31/10 | Fechamento da lista de provas liberadas (seção 4.1), conforme as respostas da Ufape | Ufape respondeu destino, local de Goiânia e links de Cardiologia | Atualizar o estado de cada prova |
-| 01/11 a 02/11 | Produção final dos arquivos 1:1 e 9:16, teste de rastreio (compra de R$ 100,00 no pixel e no Google, UTM chegando à loja e ao CRM) | M7 do gestor | Teste de rastreio |
-| **03/11 (terça): onda 1** | Meta, conjunto São Paulo: C1 (e11 e e916), C2 (e11, e916 e o vídeo se pronto), C6 nas áreas liberadas (E1 e E2 e as que a Ufape liberar), em adaptação por área. Meta, remarketing: C4 em carrossel. Google Busca: grupos de área liberados (títulos S1 a S12 e títulos de área, descrições D1 a D5) | M5, M6 e M7 aprovados; verba e meta de custo escritas (auditoria 11); decisão sobre páginas com frase do MEC registrada | Subir campanhas e anúncios |
-| 03/11 a 07/11: pico | Sem criativo novo. Só pausar anúncio reprovado, com link quebrado ou com erro de texto. Concentrar a verba é decisão do gestor | Nenhuma decisão de desempenho antes de 3 dias de dados | Manter e vigiar |
+| 31/10 | Fechamento da lista de provas liberadas (seção 4.1), conforme as respostas da Ufape | Ufape respondeu destino e links de Cardiologia (o local de Goiânia deixou de ser pergunta: prova online) | Atualizar o estado de cada prova |
+| 01/11 a 02/11 | Produção final dos arquivos 1:1 e 9:16, teste de rastreio (compra de R$ 100,00 no pixel e no Google, UTM no padrão D11 e D12 chegando à loja e ao CRM) | M7 do gestor | Teste de rastreio |
+| **03/11 (terça): onda 1** | Meta, conjuntos de São Paulo e de Goiânia (provas liberadas): C1 (e11 e e916), C2 (e11, e916 e o vídeo se pronto), C6 nas áreas liberadas (E1 e E2 e as que a Ufape liberar), em adaptação por área. Meta, remarketing: C4 em carrossel. Google Busca: grupos de área liberados (títulos S1 a S12 e títulos de área, descrições D1 a D5) | M5, M6 e M7 aprovados; verba e meta de custo escritas (auditoria 11); decisão sobre páginas com frase do MEC registrada | Subir campanhas e anúncios |
+| 03/11 a 09/11: abertura e pico (PP3, 40% da verba) | Sem criativo novo. Só pausar anúncio reprovado, com link quebrado ou com erro de texto. A divisão de verba é a PP3, confirmada pelo cmo e pendente de aprovação humana | Nenhuma decisão de desempenho antes de 3 dias de dados | Manter e vigiar |
 | 07/11 (sábado) | Nenhuma peça cita o fim das inscrições do concorrente nem usa urgência ligada a ele | Briefing, seção 2.6 | Nenhuma ação |
 | 09/11 (segunda) | Primeira revisão (dados de 03/11 a 08/11) com T1, T2, T3 e T8 | Gestor-de-midia e cmo | Decidir o que muda em 10/11 |
 | **10/11: onda 2 (sustentação)** | Entra C3 (e916, depois e11). Iterações do vencedor, uma variável por vez (T4 e T5). C5, prova por prova, assim que a Ufape confirmar o destino. Entram as provas de D2 e D3 com destino confirmado | Resultados de T1 e T2; A-C2 respondido | Subir os novos anúncios |
 | 16/11 (segunda) | Segunda revisão | Gestor-de-midia | Decidir reforço |
-| 20/11 a 26/11: reta final | C3 (data, hora, o que levar) e o vencedor com data no título (T9). Carrossel C4 para remarketing. Controle de frequência nas áreas A1 e A12, que se sobrepõem ao Workshop de 20 e 21/11 | A página da prova entrega o que a peça diz; nenhum "inscrições até" | Subir e vigiar |
+| 20/11 a 26/11: reta final | C3 (data, hora, prova online, campus) e o vencedor com data no título (T9). Carrossel C4 para remarketing. Controle de frequência nas áreas A1 e A12, que se sobrepõem ao Workshop de 20 e 21/11 | A página da prova entrega o que a peça diz; nenhum "inscrições até" | Subir e vigiar |
 | 23/11 (segunda) | Quarta revisão; confirmar o pedido de pausa de 27/11 | Gestor-de-midia | Aprovar a pausa |
 | 27/11 (sexta) | Pausa dos anúncios de inscrição (pedido A-C6). Nenhum criativo novo | Aprovação prévia | Pausar no gerenciador |
 
 **Versão enxuta (se a verba da fase de teste for baixa):** subir só C1 e C6 em 03/11 e levar C2 para 10/11. Conta de controle do gestor: se 25% da verba for menor que o número de conceitos vezes 1,5 vezes o custo por inscrito máximo, reduzir conceitos em vez de espalhar verba.
 
-**Se a Ufape não corrigir as páginas de Goiânia e de Cardiologia até 31/10:** os anúncios dessas provas não sobem e a campanha de 03/11 fica só com São Paulo. **Se a Ufape não responder A-C2:** sobem só as áreas em E1 e E2, e C5 fica travado.
+**Se a Ufape não corrigir os links de Cardiologia até 31/10:** 68641 e 68642 não sobem; as demais provas de Goiânia sobem pelas regras de estado. **Se a Ufape não responder A-C2:** sobem só as áreas em E1 e E2, e C5 fica travado.
 
 ---
 
@@ -847,12 +851,12 @@ Toda linha abaixo é pedido de ação para um humano executar nos gerenciadores,
 | Metas de CPL e custo por matrícula escritas antes de subir | Não atendido | [DADO NÃO FORNECIDO]. Nenhum anúncio sobe sem o custo por inscrito máximo (M16 antes de M5) |
 | Verba dentro do valor aprovado, com aprovador | Não atendido | Verba e aprovador [CONFIRMAR]. Este pacote não define verba |
 | Nomenclatura padrão em campanhas, conjuntos e anúncios | Atendido nesta entrega | Seção 2.3. Anuncios-meta e anuncios-google conferem com o padrão de campanha e de conjunto |
-| UTMs completas e origem chegando ao CRM | Parcial | Padrão escrito (seção 1.4); teste de rastreio pendente (M7) |
+| UTMs completas e origem chegando ao CRM | Parcial | Padrão D11 e D12 escrito (seção 1.4); teste de rastreio pendente (M7) |
 | Pixel, API de Conversões e conversões do Google testados | Pendente | M7 |
 | Criativos aprovados em conformidade-educacional | Atendido para C1, C2, C3, C4, C6 e Google nas provas liberadas; bloqueado onde marcado | Seção 8.2 |
 | Anúncios dentro das políticas de cada plataforma | Atendido no desenho | Sem atributo pessoal, sem antes e depois, sem escassez falsa, sem interface imitada. O gerenciador faz a revisão final |
 | Nenhum público com menores de 18 anos | Não se aplica à peça | O público é definição do anuncios-meta e do anuncios-google |
-| Post de docente promovido ou Spark Ad com autorização | Não se aplica | Nenhum docente em peça; LinkedIn e TikTok fora |
+| Post de docente promovido ou Spark Ad com autorização | Não se aplica | Nenhum docente em peça (autorização registrada, decisões 8 e 10, mas sem material); LinkedIn e TikTok fora |
 | Relatório semanal ao CMO | Não se aplica à peça | Primeiro relatório do gestor em 02/11 |
 | Sem segmentação discriminatória | Atendido no desenho | O texto não afirma nem insinua característica de quem vê |
 | Públicos sem dados pessoais sem base legal | Atendido | Remarketing só por visita ao site; lista de contatos só com base legal [CONFIRMAR] |
@@ -869,7 +873,7 @@ Legenda: A = atendido, AR = atendido com ressalva, B = bloqueado, NA = não se a
 |---|---|---|---|---|---|---|---|
 | Dados do curso batem com o catálogo (nome, data, preço, bolsas) | A | A | A | A | B (destino não confirmado) | A | A |
 | Prova com status "aberto" | A | A | A | A | A | AR (só provas abertas; 68656 fora) | A |
-| Modalidade clara (prova presencial) | A | A | A | A | A | A | A |
+| Modalidade clara (prova online, com o campus; decisão 11) | A | A | A | A | A | A | A |
 | Pós lato sensu sem "reconhecida pelo MEC" e sem frase de certificação | A | A | A | A | A | A | A |
 | Nota do MEC | NA | NA | NA | NA | NA | NA | NA |
 | Sem promessa de emprego, salário, aprovação ou bolsa | A | A | A | A | A | A | A |
@@ -882,7 +886,7 @@ Legenda: A = atendido, AR = atendido com ressalva, B = bloqueado, NA = não se a
 | Formulários com finalidade e política de privacidade | AR (checkout: [CONFIRMAR no site]) | AR | AR | AR | AR | AR | AR |
 | WhatsApp e e-mail só com consentimento | NA | NA | NA | NA | NA | NA | NA |
 | Sem dado pessoal | A | A | A | A | A | A | A |
-| Políticas da Meta e do Google; página entrega o que o anúncio promete | AR (13 páginas com frase do MEC; Goiânia com local errado) | AR | AR | AR | B | AR | AR |
+| Políticas da Meta e do Google; página entrega o que o anúncio promete | AR (13 páginas com frase do MEC; páginas ainda dizem "PROVA PRESENCIAL") | AR | AR | AR | B | AR | AR |
 | Sem característica pessoal de quem vê | A | A | A | A | A | A (a situação de rotina nomeia o assunto, não quem vê) | A |
 | Sem escassez falsa, contador, botão ou interface falsos | A | A | A | A | A | A | A |
 | Sem pessoa pública ou parceria inexistente | A | A | A | A | A | A | A |
@@ -893,18 +897,18 @@ Legenda: A = atendido, AR = atendido com ressalva, B = bloqueado, NA = não se a
 **Itens bloqueados e o que precisa mudar:**
 
 1. C5 inteiro: bloqueado até A-C2 (destino por prova) e até a página trazer o bloco "Para qual pós esta bolsa vale". Nenhuma frase de turma sobe antes disso.
-2. Peças de Goiânia (68640, 68642, 68644): bloqueadas até a Ufape corrigir o local nas páginas e informar o endereço de Goiânia. As de 68642 e 68644 também esperam a correção de "7 dias" e "10 dias" e do canal do resultado.
+2. Prazo de matrícula e canal do resultado nas 12 provas em E3 (fichas contraditórias): fora da peça até a resposta U1. O bloqueio das peças de Goiânia pelo local caiu (decisão 11).
 3. Peças de Cardiologia (68641 e 68642): bloqueadas até a correção dos links invertidos.
 4. Medicina de Felinos (68652): nenhum anúncio leva à página até a correção da frase ligada ao MEC e das regras contraditórias.
 5. Páginas de destino com frase ligada ao MEC (13): a peça não repete a frase, mas o anúncio que leva a ela fica sinalizado. Pedido A-C8 de correção e decisão registrada da pessoa do marketing antes de subir em E2.
-6. Cartão 6 do carrossel (prazos de resultado, recurso e matrícula): só sobe depois da confirmação dos prazos nas 22 páginas.
+6. Cartão 6 do carrossel: completo só nas 10 provas de regra única; nas 12 em E3, sem as linhas de matrícula e de resultado até U1.
 
-**Resultado:** C1, C2, C3, C4, C6 e os anúncios do Google estão aprovados para a revisão do qa-de-marketing nas provas em E1 e E2, e nas demais quando as condições da seção 4.1 forem cumpridas. C5 e as provas bloqueadas ficam fora. Revisado por: criativos-de-anuncio (autoavaliação). qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
+**Resultado:** C1, C2, C3, C4, C6 e os anúncios do Google estão aprovados para a revisão do qa-de-marketing nas provas em E1 e E2, e nas demais quando as condições da seção 4.1 forem cumpridas. C5 e as provas bloqueadas ficam fora. Revisado por: criativos-de-anuncio (autoavaliação, versão 2). qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
 
 ### 8.3 Verificações da skill matriz-de-criativos
 
 - Os conceitos mudam pelo menos duas dimensões entre si (seção 2.4); as iterações mudam uma variável só (seção 2.3).
-- Uma ideia por criativo: C1 quantidade de bolsas, C2 preço de entrada, C3 logística, C4 critério, C5 destino, C6 especialidade. A promessa mais forte (bolsa) sempre vem com a prova perto (a distribuição completa e a regra de não acumulação).
+- Uma ideia por criativo: C1 quantidade de bolsas, C2 preço de entrada, C3 data, formato e campus, C4 critério, C5 destino, C6 especialidade. A promessa mais forte (bolsa) sempre vem com a prova perto (a distribuição completa e a regra de não acumulação).
 - Todo preço, bolsa, imagem e frase de regra está na lista de aprovações (seção 10).
 - Nenhum criativo promete emprego, salário ou aprovação, nem afirma característica pessoal de quem vê.
 
@@ -913,11 +917,11 @@ Legenda: A = atendido, AR = atendido com ressalva, B = bloqueado, NA = não se a
 ## 9. Pedidos à Ufape e a outros agentes (sem custo, sem publicação)
 
 1. **A-C2 (destino de cada prova)** e decisão sobre as provas de Dermatologia e Hematologia, na véspera das turmas de 28/11. Libera C5 e as áreas em E5.
-2. **A-C3 (regras que faltam):** prazo de inscrição, data do resultado, aprovado sem bolsa, o que a monitoria exige, ausência e reembolso, requisito de inscrição, turma mínima (15 ou 20), ordem de distribuição das 11 bolsas.
-3. **A-C8 (correções nas páginas):** endereço de Goiânia nas páginas 68640, 68642 e 68644; links de Cardiologia; frase ligada ao MEC em 13 páginas; contradições de 7 e 10 dias e do canal do resultado em 68642, 68644 e 68652; rótulo "Inscrever-me na prova" no lugar de "COMPRAR"; grafia "intransferível".
+2. **A-C3 (regras que faltam, U1 a U3):** qual bloco vale nas 12 fichas contraditórias, como é a prova online, prazo de inscrição, data do resultado, aprovado sem bolsa, o que a monitoria exige, ausência e reembolso, requisito de inscrição, ordem de distribuição das 11 bolsas.
+3. **A-C8 (correções nas páginas):** "PROVA PRESENCIAL" e endereço como local nas 22 páginas (decisão 11); links de Cardiologia; frase ligada ao MEC em 13 páginas; contradições de 7 e 10 dias e do canal do resultado nas 12 fichas de U1; mínimo de 15 nas páginas de curso que ainda dizem 20; rótulo "Inscrever-me na prova" no lugar de "COMPRAR"; grafia "intransferível".
 4. **A-C9 (página única das 22 provas):** destino da mãe geral, do grupo geral do Google e da lista das especialidades.
-5. Ao gestor-de-midia: conciliar o calendário de verba (25%, 40% e 35% por fase) com o pico antes de 07/11 e a reta final de 20 a 26/11; escrever o custo por inscrito máximo.
-6. Ao arquiteto-de-fluxos: conferir o uso de utm_term com o nome do criativo.
+5. Ao gestor-de-midia: o calendário de verba está conciliado pela PP3 (40%, 35% e 25%; plano do cmo, 12.6); falta escrever o custo por inscrito máximo.
+6. Ao arquiteto-de-fluxos: conferir na ferramenta (P15) o padrão D11 e D12 da seção 1.4, com o público em utm_term no Meta.
 7. Ao anuncios-meta e ao anuncios-google: montar as estruturas a partir deste pacote, sem subir nada.
 
 ---
@@ -931,12 +935,12 @@ Toda aprovação vai à pessoa do marketing que fez o pedido, até a tabela de c
 | K1 | Conceitos C1, C2, C3, C4 e C6, ganchos e textos (seções 3 e 4) | Pessoa do marketing | Base de toda a mídia das provas | Pendente |
 | K2 | Preço: inscrição de R$ 100,00 e formas de pagamento nas peças | Quem aprova páginas e preços [CONFIRMAR] | Preço em peça | Pendente |
 | K3 | Bolsa: distribuição (2 de 50% com monitoria, 4 de 25%, 5 de 10%), regra de não acumulação e transferência, nota de corte, desempate, prazos de recurso e de matrícula | Área acadêmica e jurídica | Bolsa com regra, público e prazo (CDC); regras ainda não estão como coluna do catálogo | Pendente |
-| K4 | Frases de regra nas peças: "Resultado por WhatsApp e/ou e-mail" (D4 e cartão 6) | Área acadêmica | A página se contradiz em três provas | Pendente |
+| K4 | Frases de regra nas peças: "Resultado por WhatsApp e/ou e-mail" (D4 e cartão 6), só nas 10 provas de regra única | Área acadêmica | 12 fichas se contradizem por dentro (U1) | Pendente |
 | K5 | Imagem: logotipo, cores, fontes, fundo da arte (fachada ou imagem real da Faculdade UFAPE, se houver) e música do vídeo | Quem aprova marca e anúncios [CONFIRMAR]; Ufape para o manual de marca | Nenhum arquivo de marca foi enviado | Pendente |
 | K6 | Voz de narrador do vídeo (opcional) | Quem aprova anúncios | Voz de pessoa real exige autorização registrada | Pendente |
 | K7 | Depoimento, aluno, professor, aprovado: nenhum usado | Não se aplica | Depoimento só real e autorizado; se vier, nova rodada | Sem pedido |
 | K8 | Nota do MEC e certificação: nenhuma usada. Correção das 13 páginas com a frase ligada ao MEC (A-C8) e decisão do risco para as provas em E2 | Regulação e quem aprova páginas | Texto oficial de certificação ainda não existe | Pendente |
-| K9 | Endereço da prova em Goiânia | Ufape | Página mostra endereço de São Paulo | Pendente |
+| K9 | Como é a prova online (U2) | Ufape | Decisão 11: provas online; o acesso não está escrito | Pendente |
 | K10 | Destino por prova (A-C2), que libera C5 e as áreas em E5 | Área acadêmica e comercial | Bolsa sem destino não tem regra completa | Pendente |
 | K11 | Página única das provas (A-C9) | Quem aprova páginas | Destino da mãe geral | Pendente |
 | K12 | Subida, pausa de 27/11 e pausa final (A-C6); verba (A-C5) | Quem aprova anúncios e verba | Toda ação em gerenciador é humana | Pendente |
@@ -949,20 +953,19 @@ Toda aprovação vai à pessoa do marketing que fez o pedido, até a tabela de c
 
 - 22 provas abertas em 27/11/2026, 19 em São Paulo e 3 em Goiânia (68640, 68642, 68644); 68656 Oftalmologia "encerrado, link fora do ar". Fonte: catálogo, seção 3.
 - Inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Fonte: catálogo, seção 3; fichas.
-- Prova presencial, das 9h às 13h, em 27/11/2026, com questões de múltipla escolha e dissertativas (ou "10 a 20 questões objetivas e/ou dissertativas" em algumas páginas). Fonte: fichas; contexto/pos-graduacao.md.
-- 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10%. Nota de corte 7,0 (mínimo de 70% de acerto). Desempate por análise de currículo. Recurso em 2 dias úteis. Matrícula em até 10 dias úteis. Bolsa não acumulativa e intransferível. Levar documento com foto; sem celular nem relógio. Fonte: contexto/pos-graduacao.md; fichas 68639, 68640, 68646, 68647, 68654, 68658 e demais.
-- Resultado por WhatsApp e/ou e-mail (consideração das páginas). Fonte: fichas.
-- Turma mínima de 15 na página da prova e 20 nas páginas de curso. Fonte: contexto/pos-graduacao.md.
-- Endereço de São Paulo: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista, São Paulo, SP, 01407-100. Fonte: fichas.
-- As páginas 68640, 68642 e 68644 (Goiânia) mostram o endereço de São Paulo como local. Fonte: fichas 68640, 68642, 68644.
-- 68642 e 68644 trazem matrícula em 10 dias nas considerações e em 7 dias no bloco de regras, e resultado "via email" ou "no site". Fonte: fichas 68642 e 68644.
+- Provas online, das 9h às 13h, em 27/11/2026; toda peça diferencia o campus; vale a regra da ficha de cada prova; turma mínima de 15, também nas turmas de Pós. Fonte: docs/execucao-2026-10-26.md, decisão 11; fichas.
+- Composição: "múltipla escolha e dissertativas" em 11 fichas; "10 a 20" ou "20 questões objetivas e/ou dissertativas" em 11. Fonte: fichas.
+- 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10%. Nota de corte 7,0 (mínimo de 70% de acerto). Desempate por análise de currículo. Recurso em 2 dias úteis. Bolsa não acumulativa e intransferível. Fonte: contexto/pos-graduacao.md; fichas 68639, 68640, 68646, 68647, 68654, 68658 e demais.
+- Matrícula em até 10 dias úteis e resultado por WhatsApp e/ou e-mail nas 10 fichas de regra única (68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660). As 12 fichas 68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659 e 68661 trazem "até 10 dias (úteis)" e "7 dias" e o canal do resultado em até três versões. Fonte: fichas; pergunta U1 do plano do cmo.
+- Campus pelo campo "Localidade": 68640, 68642 e 68644 em Goiânia; as demais em São Paulo. As páginas de Goiânia mostram o endereço de São Paulo, o que deixou de importar com a prova online. Fonte: fichas; decisão 11.
+- Padrão de UTM e nomes: D11 e D12 do plano do cmo; estrategia-de-midia-pos, seção 4.3. Divisão de verba PP3: plano do cmo, 12.6.
 - Frase "reconhecida pelo Ministério da Educação (MEC)" ou equivalente no texto das páginas 68641, 68642, 68643, 68644, 68645, 68648, 68650, 68651, 68652, 68657, 68659, 68660 e 68661. Sem a frase: 68639, 68640, 68646, 68647, 68654, 68658. Não lidas por este agente: 68649, 68653, 68655. Fonte: fichas.
 - A página 68661 diz "bolsas parciais em pós-graduações participantes com início no primeiro semestre de 2027". Fonte: ficha 68661.
 - Turmas candidatas e datas de início usadas só como mês em C5: 289 (20/03/2027), 68615 (20/03/2027), 68632 (10/04/2027), 68635 (10/04/2027), 68628 (10/04/2027), 68617 (17/04/2027), 68636 (17/04/2027, só no site), 68609 (24/04/2027), 68616 (08/05/2027), 68629 (22/05/2027, só no site). Fonte: catálogo, seção 2; briefing, seção 3.3. Destino de todas: [CONFIRMAR].
 - Turmas 68610 e 68608 começam em 28/11/2026; 68604 em 31/10/2026; 68606 em 07/11/2026. Fonte: catálogo, seção 2.
-- Workshop de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md.
+- Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md, decisões 6 e 7.
 - Mídia das provas: Meta 70% e Google Busca 30% (proposta do gestor), subida em 03/11, nenhum link de WhatsApp na mídia. Fonte: memorando do gestor, seção 3.
-- Calendário do briefing: pico de investimento até 07/11, sustentação de 08 a 19/11, reta final de 20 a 26/11, pausa em 27/11. Fonte: briefing, seção 5.
+- Calendário: abertura e pico de 03/11 a 09/11 (PP3), sustentação, reta final de 20 a 26/11, pausa em 27/11. Fonte: briefing, seção 5 (versão 2); plano do cmo, 12.6.
 - 27/11/2026 é sexta-feira (26/10/2026 é segunda-feira). Fonte: briefing, seção 1.
 - Contatos de vendas: São Paulo (11) 91366-9290; Goiânia (62) 9420-1847. Fonte: contexto/ufape-geral.md.
 - Nenhum número de desempenho, verba, meta ou histórico de provas existe nos arquivos. Fonte: briefing, seção 1; memorando do gestor.
@@ -971,24 +974,23 @@ Toda aprovação vai à pessoa do marketing que fez o pedido, até a tabela de c
 
 - [SUPOSIÇÃO] Persona P4 e as dúvidas que decidem a inscrição (herdadas da pesquisa de persona).
 - [SUPOSIÇÃO] Os ganchos B de rotina por área (seção 4), inclusive o de Pneumologia, que é deste agente.
-- [SUPOSIÇÃO] "4 horas" como equivalente do horário das 9h às 13h.
 - [SUPOSIÇÃO] Notas de 1 a 5 dos ganchos: julgamento do agente.
 - [SUPOSIÇÃO] Medidas de arte, margens de segurança, tamanhos de texto e limites de caractere (referências de plataforma e de boa prática; conferir nos gerenciadores).
 - [SUPOSIÇÃO] Que o conceito C2 (preço de entrada) e C1 (quantidade de bolsas) são os que mais respondem à dúvida do candidato; é o que o teste T1 mede.
 - [SUPOSIÇÃO] Ordem de entrada de C3 (10/11) e de C5 (assim que houver destino).
 - [SUPOSIÇÃO] Palavras-chave, palavras negativas e fixação de títulos do Google.
-- [SUPOSIÇÃO] Uso de utm_term com o nome do criativo no Meta.
-- [SUPOSIÇÃO] Que "pessoas na localização ou interessadas nela" alcança quem viaja de outra cidade.
+- [SUPOSIÇÃO] Leitura de que "pago" não seria classificado como mídia paga no GA4 (motivo do padrão D11).
+- [SUPOSIÇÃO] Que "pessoas na localização ou interessadas nela" alcança quem é de outra cidade.
 - [SUPOSIÇÃO] Que o checkout permite o evento de remarketing de quem iniciou e não concluiu a inscrição.
 - [SUPOSIÇÃO] Que remarketing por visita ao site dispensa lista de contatos e, portanto, base legal de lista.
 
 ## Lista 3. Dados que faltam
 
 - [CONFIRMAR] Turma de destino de cada uma das 22 provas (A-C2), em especial 68652, 68649, 68653 e 68655, e as provas de Dermatologia (68646) e Hematologia (68651) na véspera das turmas 68610 e 68608.
-- [CONFIRMAR] Endereço da prova em Goiânia e correção das páginas 68640, 68642 e 68644.
+- [CONFIRMAR U2] Como é a prova online (plataforma, acesso) e o que vale das regras de documento com foto e de celular; correção do texto "PROVA PRESENCIAL" e do endereço nas páginas.
 - [CONFIRMAR] Correção dos links invertidos de Cardiologia (68641 e 68642).
-- [CONFIRMAR] Prazo de matrícula (10 ou 7 dias) e canal do resultado nas páginas 68642, 68644 e 68652; data de divulgação do resultado; prazo de inscrição.
-- [CONFIRMAR] Regras sem texto: o que a monitoria exige, ordem de distribuição das 11 bolsas, aprovado sem bolsa, ausência e reembolso, requisito de inscrição (médico veterinário formado), turma mínima (15 ou 20).
+- [CONFIRMAR U1] Prazo de matrícula (10 dias úteis ou 7 dias) e canal do resultado nas 12 fichas que se contradizem; [CONFIRMAR U3] data de divulgação do resultado e prazo de inscrição.
+- [CONFIRMAR] Regras sem texto: o que a monitoria exige, ordem de distribuição das 11 bolsas, aprovado sem bolsa, ausência e reembolso, requisito de inscrição (médico veterinário formado).
 - [CONFIRMAR NO CATÁLOGO] As regras da prova de bolsa como coluna do catálogo (hoje no contexto da linha e nas fichas).
 - [CONFIRMAR] Se existe página única das provas (A-C9).
 - [CONFIRMAR] Texto oficial de certificação e retirada da frase ligada ao MEC das 13 páginas; páginas 68649, 68653 e 68655 não lidas.
@@ -996,6 +998,17 @@ Toda aprovação vai à pessoa do marketing que fez o pedido, até a tabela de c
 - [CONFIRMAR] Se os números de vendas aceitam ligação; URLs para sitelinks; raio de localização; consentimento e política de privacidade no checkout.
 - [DADO NÃO FORNECIDO] Custo por inscrito máximo, meta de inscritos, meta de custo por matrícula, verba por fase e por canal, histórico de provas anteriores, volume e custo por clique das palavras-chave.
 - [CONFIRMAR] Quem aprova anúncios, verba, páginas e preços (tabela de contexto/ufape-geral.md vazia).
+
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela decisão 11:
+- UTM no padrão D11 e D12 antes da subida de 03/11 (seção 1.4): utm_source=meta e utm_medium=paid_social; utm_source=google e utm_medium=cpc; utm_campaign = nome da campanha (pos_provas20261127_...); utm_content = nome do anúncio, com o código de área da seção 4.1. O padrão da versão 1 sai.
+- Provas online: "presencial", endereço, documento com foto, celular e relógio saíram de todas as peças (C1 a C5, carrossel, vídeo, corpos de área, Google); toda peça diz o campus; C3 virou "Prova online, das 9h às 13h"; o gancho "4 horas" saiu.
+- Regra da ficha de cada prova: estado E3 redefinido para as 12 fichas contraditórias (sem prazo de matrícula nem canal do resultado, [CONFIRMAR U1]); 68640 passou a E1; tabelas 4.1 e 5.5 atualizadas.
+- Turma mínima de 15 nas peças (C3, C5, carrossel, vídeo).
+- Calendário de verba pela PP3 (pico de 03/11 a 09/11).
+- Docentes: autorização registrada (decisões 8 e 10); nome oficial "Workshop Brasileiro de Neuromonitorização".
+- Auditorias, pedidos, aprovações e as três listas atualizados.
 
 ## Fontes
 

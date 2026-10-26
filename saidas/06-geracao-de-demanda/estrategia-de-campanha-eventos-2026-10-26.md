@@ -3,7 +3,7 @@
 - **Agente:** estrategia-de-campanha (departamento 06, Geração de Demanda), etapa 1.23 da camada 1, antecipada pela urgência
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio" na planilha)
 - **Data:** 26/10/2026 (segunda-feira)
-- **Versão:** 2, com as correções E1 a E6 do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md, seção 2)
+- **Versão:** 3 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo: datas de EVM1, AP10 ligado ao M9 por D9, fim da pendência de autorização) e as decisões 8 e 10 de docs/execucao-2026-10-26.md. A versão 2 trazia as correções E1 a E6 do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md, seção 2). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Skill e modelo:** .claude/skills/briefing-de-campanha/SKILL.md e templates/briefing-de-campanha.md, ligados a templates/kit-de-lancamento-evento.md
 - **Status:** rascunho para nova conferência do qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
 - **Entradas lidas:**
@@ -22,6 +22,7 @@
   - saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (seção 4, checagens W1 a W10, e pedidos M8 e M9 da seção 8)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md (seção 2, correções E1 a E6)
   - auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md
+  - Versão 3: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (12.1, D1, D3, D9, 12.6 EVM1, D11, D12, 12.11 R3 e R7); saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md (seção 1.6, sequência EVM1, e pedidos EVM1 a EVM13); saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md (datas da régua com D3 e D9)
 - Não abri faculdade.ufape.com.br. O texto da página está na ficha. O memorando de decisões do gestor-de-midia de 26/10/2026 já cobre o workshop (seção 4); o plano de mídia completo fica para a etapa 1.11. Ainda não existem saídas de estrategia-de-marketing ou mensagens para a linha eventos: este briefing serve de entrada para elas.
 
 ---
@@ -31,7 +32,7 @@
 1. Dados do evento só da ficha e do catálogo (seção 9), lidos em 26/10/2026. O que não está lá é [CONFIRMAR NO CATÁLOGO] ou [CONFIRMAR].
 2. Nenhum número de meta, verba, inscritos ou vagas restantes existe hoje (docs/execucao-2026-10-26.md). Toda meta abaixo é estrutura com valor [CONFIRMAR].
 3. "30 vagas, por ordem de inscrição" é número real da ficha e pode aparecer em peça. "Últimas vagas", "vagas limitadas", "esgotando" ou contador ficam proibidos até a Ufape enviar o número de vagas restantes, com data.
-4. Docentes: só a coordenação científica e os 5 docentes confirmados na ficha, sempre com [CONFIRMAR autorização] até a autorização ficar registrada. Os 4 convidados "a definir" não aparecem em nenhuma peça.
+4. Docentes: só a coordenação científica e os 5 docentes confirmados na ficha, com nome e titulação como estão nela. Não há mais pendência de autorização: a autorização de uso de imagem e de citação está registrada para todos, docentes, palestrantes e convidados (decisões 8 e 10 de 26/10/2026). Texto em primeira pessoa continua precisando do ok do próprio docente, porque é a voz dele (plano do cmo, 12.9). Os 4 convidados "a definir" não aparecem em nenhuma peça até serem confirmados (decisão 6).
 5. Certificado: nenhuma peça de divulgação afirma certificação até a regulação aprovar o texto (P1, AP8). A informação sobre certificado só vai na comunicação aos inscritos depois de aprovada. Nenhuma frase ligada ao MEC. Apostila não é prometida.
 6. Destino único de toda peça com link: https://faculdade.ufape.com.br/neuro-summit/ (decisão da Ufape de 26/10/2026). Nada aponta para o produto 68634 da loja (mostra 24 h e está sem data).
 7. Mensagens de WhatsApp e e-mail são textos para o CRM enviar, só para quem deu consentimento. A squad não dispara nada. Para inscritos, vale a mesma regra: WhatsApp só para inscrito com opt-in registrado [CONFIRMAR no checkout]; sem opt-in, só e-mail, com saída fácil.
@@ -40,7 +41,7 @@
 
 ## 1. Briefing de campanha (templates/briefing-de-campanha.md)
 
-**Nome da campanha:** Neuro Summit 2026, reta final (nome interno de trabalho [SUPOSIÇÃO]; nas peças, o nome oficial da página: "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia").
+**Nome da campanha:** Neuro Summit 2026, reta final (nome interno de trabalho [SUPOSIÇÃO]; nas peças, o nome oficial da página: "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia", que contém o nome oficial "Workshop Brasileiro de Neuromonitorização", decisão 7). Chave do item para nomes e UTM (D12 do plano do cmo): eventos_neuro26.
 
 **Linha de negócio e curso(s):** Eventos. Uma edição: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. Status no catálogo: aberto. Dois ingressos: Workshop Presencial (teórico e prático) e Workshop Transmitido + Gravado (só a teoria de sexta-feira, produto 68634 na loja). Área do plano do cmo: A12 Neurologia, com forte contato com A1 Anestesiologia e dor e A3 Emergência e terapia intensiva.
 
@@ -114,7 +115,7 @@ Limites da prática (não prometer): a grade diz "em modelos" e "simulações ou
 | Base de alunos e ex-alunos | Condição para quem já estuda ou estudou na Ufape | "Aluno e ex-aluno UFAPE comprovam o vínculo com a secretaria para garantir a condição especial." | Como usar o cupom | Passo a passo: cupom na compra e comprovação na secretaria (ordem e prazo [CONFIRMAR]) |
 | Quem não pode estar em São Paulo nos dois dias | Teoria ao vivo e gravada | FAQ: "As aulas teóricas da sexta-feira também podem ser acompanhadas online, ao vivo e com gravação" | "Recebo o mesmo que o presencial?" | Não: só a teoria de sexta. Dizer isso sempre |
 
-Ponte para a Pós e para as provas de bolsa de 27/11/2026: [SUPOSIÇÃO], sem dado de conversão. Nenhuma peça desta campanha promete caminho para a pós. Menção à prova de bolsa só no pós-evento e só com aprovação da Ufape para venda cruzada.
+Ponte para a Pós e para as provas de bolsa de 27/11/2026: [SUPOSIÇÃO], sem dado de conversão. Nenhuma peça desta campanha promete caminho para a pós. A ponte é uma mensagem só, o M9 de 25/11 (D9 do plano do cmo): leva à Pós-graduação em Anestesiologia (657, 68609 e 359), com o campus; a prova de bolsa só entra nela com a venda cruzada AP10 aprovada (pedido R7) e o prazo de inscrição confirmado (U3).
 
 **Canais e papel de cada um:** avaliação dos 8 canais, partindo do plano do cmo (seção 5) e do pedido.
 
@@ -127,14 +128,14 @@ Ponte para a Pós e para as provas de bolsa de 27/11/2026: [SUPOSIÇÃO], sem da
 | E-mail (base com opt-in) | Ativo | Nutrição: convite, programação, lembrete com cupom, pós-evento | Peça do kit; detalha a grade que não cabe no WhatsApp |
 | Página do evento | Ativa (conversão) | Destino único; compra direta | Decisão de 26/10/2026. Melhorias são pedidos ao site (seção 6) |
 | Time de vendas e secretaria | Ativo (conversão) | Responder dúvidas e validar o vínculo do cupom | Contatos oficiais em ufape-geral.md; roteiro de respostas [CONFIRMAR com a Ufape] |
-| Perfis dos docentes (Instagram e LinkedIn pessoais) | Condicional | Prova: convite em primeira pessoa, com collab no Instagram | Só com autorização registrada [CONFIRMAR autorização]. A Ufape não publica no perfil do docente |
+| Perfis dos docentes (Instagram e LinkedIn pessoais) | Condicional | Prova: convite em primeira pessoa, com collab no Instagram | Autorização de imagem e citação registrada (decisões 8 e 10); o texto em primeira pessoa precisa do ok do próprio docente. A Ufape não publica no perfil do docente |
 | YouTube | Fora nesta campanha | Sem vídeo autorizado de docente e sem tempo de produção em 25 dias. Volta no pós-evento só se a Ufape autorizar trecho da gravação | Plano do cmo: YouTube ativo para os gravados 700 e 202, não para esta edição |
 | TikTok | Fora | Sem perfil citado e sem produção comprovada (plano do cmo, seção 5) | |
 | X | Fora | Sem perfil e sem sinal de público veterinário ativo [SUPOSIÇÃO] | |
 | Podcast | Fora | Exige produção recorrente; nada a tempo de 20/11 | |
 | LinkedIn institucional | Fora | Fora para eventos nesta rodada (plano do cmo), salvo post do próprio docente autorizado | |
 
-UTM: toda peça com link usa https://faculdade.ufape.com.br/neuro-summit/ com utm_source (instagram, facebook, whatsapp, email, docente), utm_medium (organico, pago, crm), utm_campaign=neuro-summit-2026 e utm_content com o código da peça [SUPOSIÇÃO do padrão; o padrão da squad e a ferramenta de medição estão em P15, [CONFIRMAR]]. A página da Graduação não entra nesta campanha.
+UTM (D11 e D12 do plano do cmo): toda peça com link usa https://faculdade.ufape.com.br/neuro-summit/. CRM (WhatsApp e e-mail): utm_source=whatsapp ou email, utm_medium=crm, utm_campaign=eventos_neuro26_202610. Orgânico (inclusive o post do docente): utm_source=instagram, facebook ou youtube, utm_medium=organic_social, utm_campaign=eventos_neuro26_<AAAAMM da publicação>. Pago na Meta: utm_source=meta, utm_medium=paid_social, utm_campaign igual ao nome da campanha. utm_content = código da peça. Tudo em minúsculas, sem acento, sem dado pessoal. Anúncios já no ar não são renomeados; a análise lê por tabela de correspondência. A ferramenta de medição segue em P15 [CONFIRMAR]. A página da Graduação não entra nesta campanha.
 
 **Cronograma (pré-lançamento, lançamento, acompanhamento):** o evento já está à venda e com mídia ativa. Não há pré-lançamento: a campanha começa na reta final. Calendário completo na seção 2.
 
@@ -165,38 +166,41 @@ Observações de calendário: 02/11/2026 (Finados) é feriado nacional; 20/11/20
 
 Dias até o evento contados a partir de 26/10/2026 (faltam 25 dias). "Envio" e "publicação" significam texto pronto para aprovação humana; quem envia é o CRM, quem publica é a pessoa autorizada.
 
-### Sequência única de mudanças na mídia paga (alinhada ao memorando do gestor-de-midia)
+### Sequência única de mudanças na mídia paga (EVM1, confirmada pelo cmo como recomendação)
 
-Regra do gestor: uma mudança por semana no mesmo conjunto de anúncios. As datas abaixo valem para os dois arquivos; o gestor-de-midia registra cada linha na tabela de pedidos dele (M8, M9 e as linhas novas pedidas pelo qa em G7), com o que, por que, quanto [CONFIRMAR], efeito e como desfazer.
+Vale a sequência da seção 1.6 do plano do gestor-de-midia de eventos (saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md), confirmada pelo cmo em 12.6 do plano dele (EVM1) e levada à aprovação humana no pedido R3. Ela substitui o calendário que este briefing trazia na versão 2. Regra do gestor: no máximo uma mudança por semana em cada conjunto. Execução só por humano no gerenciador, depois da aprovação.
 
-| Data | Conjunto | Mudança | Pedido no memorando do gestor |
+| Data | Conjunto | Mudança | Pedido no plano do gestor |
 |---|---|---|---|
-| 28/10 (qua) | Conjunto atual (público frio) | Correções das checagens W1 a W9 (destino, nome, preço, docentes, escassez, cupom, certificação) | M8 |
-| 28/10 (qua) | Conjunto novo de remarketing | Remarketing de visitantes da página neuro-summit, se não existir | M8 |
-| 03/11 (ter), depois da checagem 1 | Conjunto de público frio | Entrada dos criativos 1 (anestesiologista) e 2 (os dois dias) | Linha nova (G7) |
-| 10/11 (ter), depois da decisão de 09/11 | Conjunto de público frio | Uma só das duas: criativo 3 (intensivista) ou reforço de público de anestesiologistas e intensivistas, conforme a checagem | Linha nova (G7) |
-| 14/11 (sáb) | Conjunto de remarketing | Remarketing com data e local; anúncio do transmitido para quem não pode viajar | Linha nova (G7) |
-| Ao lotar as 30 vagas presenciais | Presencial | Pausa dos anúncios do presencial; transmitido continua | M9 |
-| Fim das inscrições do presencial informado pela Ufape [CONFIRMAR]; data provisória única: 19/11, fim do dia [SUPOSIÇÃO], a mesma do memorando, a ser confirmada pela pessoa do marketing | Presencial | Pausa da campanha do presencial | M9 |
+| 28/10 (qua) | Todos | Correções de conformidade W1 a W9 (destino, nome, preço, docentes, escassez, cupom, certificação); linha de base; criação dos públicos personalizados de visitantes da página neuro-summit, sem gasto e sem conjunto novo | EVM4 |
+| 30/10 (sex) | Nenhum (não é mudança de conjunto) | Teste de rastreio da compra do presencial e do transmitido na página neuro-summit (EA4), em 30/10 e não em 31/10 (sábado) | EVM4 |
+| 03/11 (ter), depois da revisão semanal 1 | Público frio | Entrada dos criativos C1 (anestesiologista) e C2 (os dois dias) | EVM5 |
+| 03/11 (ter) | Remarketing (conjunto novo) | Visitantes da página neuro-summit, menos compradores | EVM6 |
+| 03/11 a 18/11 | Frio e remarketing (leitura, não mudança) | Registro lado a lado de CPM, alcance e frequência com as provas de Anestesiologia e de Neurologia e com a 616 (EA3); ferramenta de sobreposição em 06/11, anexada ao relatório de 09/11 | EA3 |
+| 10/11 (ter), depois da decisão de 09/11 | Público frio | Uma mudança única: aumento de verba no vencedor, ou troca com a entrada de C4 (intensivista), ou nenhuma mudança, conforme a revisão de 09/11 | EVM7 |
+| 14/11 (sáb), programado em 13/11 | Remarketing | Entra B7 ("Começa na sexta, 20/11") | EVM8 |
+| 14/11 (sáb), programado em 13/11 | Transmitido (conjunto novo) | Anúncio do transmitido, só se o 68634 for corrigido e a Ufape confirmar o que o ingresso entrega; senão não sobe | EVM9 |
+| 18/11 (qua), 23h59 | Frio e remarketing do presencial | Pausa (nunca excluir), com exportação prévia; antes, se as 30 vagas lotarem ou as inscrições do presencial acabarem | EVM11 |
+| 19/11 (qui), 23h59 | Transmitido e base | Pausa; antes, se as inscrições do transmitido acabarem [CONFIRMAR] | EVM12 |
 
-Nota ao gestor-de-midia (correção no arquivo dele, não neste): a linha "27/10 a 06/11, manter estrutura atual" do memorando (seção 4.4) precisa prever a entrada dos criativos 1 e 2 em 03/11, conforme a sequência acima (G7 do qa).
+O teste de rastreio de 30/10 (EA4) e a leitura de leilão de 09/11 (CPM subindo com CTR estável é disputa de leilão, NE4) ficam no plano do gestor. Os conceitos C1 a C4 são os do criativos-de-anuncio-eventos; o "criativo 3 (intensivista)" da versão 2 deste briefing é o C4 UTIBNM.
 
 ### Fase 1: reta final em 3 semanas (27/10 a 13/11)
 
 | Semana | Datas | Foco | O que vai ao ar (depois de aprovado) | Responsável pela peça |
 |---|---|---|---|---|
-| Preparação | 27/10 (ter) a 29/10 (qui) | Linha de base, peças, aprovações | Nada novo vai ao ar antes de aprovado. Na mídia: correções W1 a W9 e remarketing de visitantes (M8, 28/10) | gestor-de-midia; mensagens; criativos-de-anuncio; posts-sociais; copy-de-mensagens |
-| Semana 1 | 30/10 (sex) a 01/11 (dom) | Convite à base | E-mail de convite para a base com opt-in (com cupom); WhatsApp de convite para a base com opt-in; post 1 (anúncio do evento: os dois dias e a mensagem central). Na mídia, nenhuma mudança nova nesta semana | copy-de-mensagens; posts-sociais |
-| Semana 2 | 03/11 (ter) a 08/11 (dom), com 02/11 feriado | Programação e prova | Post 2 (sexta teórica: do cérebro à analgesia); post 3 (sábado prático: instalar, avaliar, interpretar, discutir); e-mail de programação; posts de docentes autorizados (até 6). Na mídia: criativos 1 e 2 entram em 03/11 no conjunto de público frio | posts-sociais; autoridade-docente; copy-de-mensagens; criativos-de-anuncio |
-| Semana 3 | 09/11 (seg) a 13/11 (sex) | Objeções e escolha do ingresso | Post 4 (presencial ou transmitido: o que cada um inclui); post de FAQ (EEG prévio não é exigido; não é só BIS). Na mídia: em 10/11, criativo 3 ou reforço de público, só um dos dois, conforme a checagem de 09/11 | posts-sociais; criativos-de-anuncio; gestor-de-midia |
+| Preparação | 27/10 (ter) a 29/10 (qui) | Linha de base, peças, aprovações | Nada novo vai ao ar antes de aprovado. Na mídia: correções W1 a W9, linha de base e criação dos públicos de visitantes, sem gasto (28/10, EVM1) | gestor-de-midia; mensagens; criativos-de-anuncio; posts-sociais; copy-de-mensagens |
+| Semana 1 | 30/10 (sex) a 01/11 (dom) | Convite à base | E-mail de convite para a base com opt-in (com cupom); WhatsApp de convite em 30/10 só para quem não tem opt-in de e-mail (D3); post 1 (anúncio do evento: os dois dias e a mensagem central). Na mídia: teste de rastreio da compra em 30/10 (EA4); nenhuma mudança de conjunto | copy-de-mensagens; posts-sociais |
+| Semana 2 | 03/11 (ter) a 08/11 (dom), com 02/11 feriado | Programação e prova | Post 2 (sexta teórica: do cérebro à analgesia); post 3 (sábado prático: instalar, avaliar, interpretar, discutir); e-mail de programação (05/11); posts de docentes (até 6; autorização registrada, decisões 8 e 10). Follow-ups do convite em 03/11 (e-mail) e 04/11 (WhatsApp), fora da base das provas (D3). Na mídia: C1 e C2 entram em 03/11 no público frio e sobe o remarketing novo (EVM1) | posts-sociais; autoridade-docente; copy-de-mensagens; criativos-de-anuncio |
+| Semana 3 | 09/11 (seg) a 13/11 (sex) | Objeções e escolha do ingresso | Post 4 (presencial ou transmitido: o que cada um inclui); post de FAQ (EEG prévio não é exigido; não é só BIS). Na mídia: em 10/11, uma mudança única no frio (verba no vencedor, C4 ou nada), conforme a revisão de 09/11 (EVM1) | posts-sociais; criativos-de-anuncio; gestor-de-midia |
 
 ### Fase 2: última semana (14/11 a 19/11)
 
 | Datas | Foco | O que vai ao ar (depois de aprovado) | Responsável |
 |---|---|---|---|
-| 14/11 (sáb) a 16/11 (seg) | Data próxima, sem escassez inventada | E-mail de lembrete com cupom; WhatsApp de lembrete para a base com opt-in que abriu ou clicou e não comprou (só contagem para a squad); post "falta 1 semana" (fato de calendário). Na mídia: remarketing com data e local e anúncio do transmitido (14/11) | copy-de-mensagens; posts-sociais; gestor-de-midia |
+| 14/11 (sáb) a 17/11 (ter) | Data próxima, sem escassez inventada | E-mail de lembrete com cupom (14/11, sábado, dentro da janela de e-mail de D1) e follow-up por e-mail em 16/11; WhatsApp de lembrete em 17/11 para a base com opt-in que abriu ou clicou e não comprou (D3; só contagem para a squad); post "falta 1 semana" (fato de calendário). Na mídia: B7 no remarketing e, só com o 68634 corrigido, o conjunto do transmitido (14/11, EVM1) | copy-de-mensagens; posts-sociais; gestor-de-midia |
 | 17/11 (ter) a 18/11 (qua) | Último empurrão real | Se houver número de vagas restantes enviado pela Ufape, com data: peça "restam X vagas presenciais em [data]". Sem número: peça sobre a data ("sexta-feira começa") e sobre o ingresso transmitido para quem não pode ir | posts-sociais; copy-de-mensagens; criativos-de-anuncio (variante com número só se houver) |
-| Fim das inscrições do presencial informado pela Ufape [CONFIRMAR]; data provisória única: 19/11, fim do dia [SUPOSIÇÃO], a mesma do memorando do gestor, a ser confirmada pela pessoa do marketing | Fim da mídia para o presencial | Pedido de pausa da campanha do presencial; anúncios do transmitido seguem até o fim das inscrições dele [CONFIRMAR] (M9) | gestor-de-midia (pedido de aprovação) |
+| 18/11 (qua), 23h59 (ou antes, por lotação das 30 vagas ou fim das inscrições do presencial [CONFIRMAR, U9]) | Fim da mídia para o presencial | Pausa do frio e do remarketing do presencial (EVM11); transmitido e base pausam em 19/11, 23h59 (EVM12) | gestor-de-midia (pedido de aprovação; execução por humano) |
 
 ### Fase 3: véspera (19/11, quinta-feira)
 
@@ -218,9 +222,9 @@ Nota ao gestor-de-midia (correção no arquivo dele, não neste): a linha "27/10
 
 | Datas | Peça | Conteúdo | Condição | Responsável |
 |---|---|---|---|---|
-| 22/11 a 24/11 | E-mail e WhatsApp aos participantes | Agradecimento, pesquisa de satisfação (sem dado pessoal para a squad; só resultado somado; resultado não vira peça sem fonte, período e amostra), informação sobre certificado | WhatsApp só para inscrito com opt-in registrado [CONFIRMAR no checkout]; sem opt-in, só e-mail, com saída fácil. Informação sobre certificado só depois de a regulação aprovar o texto (P1, AP8) | copy-de-mensagens |
+| 22/11 a 24/11 | E-mail e WhatsApp aos participantes (M8 em 23/11, serviço) | Agradecimento, pesquisa de satisfação (sem dado pessoal para a squad; só resultado somado; resultado não vira peça sem fonte, período e amostra), informação sobre certificado | WhatsApp só para inscrito com opt-in registrado [CONFIRMAR no checkout]; sem opt-in, só e-mail, com saída fácil. Informação sobre certificado só depois de a regulação aprovar o texto (P1, AP8) | copy-de-mensagens |
 | 22/11 a 30/11 | Oferta da gravação da teoria de sexta | Para quem não foi: "assista à teoria de sexta-feira gravada" | Só se a Ufape confirmar que o ingresso transmitido e gravado segue à venda depois de 20/11, com preço e prazo de acesso [CONFIRMAR NO CATÁLOGO]. Sem isso, a fase não roda. Mensagens só para base com opt-in | posts-sociais; copy-de-mensagens; gestor-de-midia (remarketing) |
-| 25/11 a 26/11 | Ponte para as provas de bolsa de 27/11 | Menção às provas das áreas de anestesiologia, terapia intensiva e neurologia | Só com aprovação da Ufape para venda cruzada [CONFIRMAR]; dados da prova vêm da campanha das provas. WhatsApp só com opt-in registrado; sem opt-in, só e-mail | copy-de-mensagens |
+| 25/11 (qua) | M9: próximo passo (D9 do plano do cmo) | Pós-graduação em Anestesiologia (657 e 359, campus São Paulo; 68609, campus Goiânia), sem curso livre com data. Prova de bolsa de Anestesiologia (68639, São Paulo; 68640, Goiânia) ou de Neurologia (68654) só num bloco condicional | Um canal só: e-mail às 9h; WhatsApp às 10h só para participante sem opt-in de e-mail. Sai depois da janela de silêncio (D8, até 24/11). O bloco da prova só entra com AP10 aprovado (R7) e prazo de inscrição confirmado e aberto (U3); dados da prova vêm das fichas (prova online, campus). Nada em 26 e 27/11 para a base das provas (D1) | copy-de-mensagens |
 | 30/11 | Relatório final | Inscritos por ingresso, uso do cupom, custo por inscrição, o que funcionou; aprendizados para a próxima edição | Números somados enviados pela Ufape | analise-de-campanha (com o cmo) |
 
 ---
@@ -237,7 +241,7 @@ Liberação: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia
 | Plano dos 8 canais | 1 | cmo | 28/10 | este briefing propõe (seção 1); cmo confirma | |
 | Plano de mídia (/plano-de-midia-da-turma) | 1 | gestor-de-midia | 28/10 | memorando de decisões entregue (saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md, seção 4); plano completo na etapa 1.11 | Checagens W1 a W10, pedidos M8 e M9; verba [CONFIRMAR], metas de custo, divisão entre público frio, remarketing e base, pausa no fim. Sequência de mudanças na seção 2 |
 | Casa de mensagens do evento | 1 | mensagens | 28/10 | a fazer (acréscimo) | Mensagem central, 3 pilares, ângulos por público, respostas às objeções, banco de frases da página. Sem número fora da ficha |
-| Post por palestrante | 1 por docente da ficha com autorização (até 6) | autoridade-docente | 30/10 | a fazer, condicional | Só coordenação científica e os 5 confirmados (lista abaixo). Sem autorização, não conta como entrega faltante (P13) |
+| Post por palestrante | 1 por docente confirmado na ficha (até 6) | autoridade-docente | 30/10 | a fazer | Só coordenação científica e os 5 confirmados (lista abaixo). A autorização deixou de condicionar a entrega (decisões 8 e 10) |
 | Posts orgânicos | 4 + 3 de acréscimo | posts-sociais | 4 até 30/10; acréscimos até 06/11 | a fazer | Mínimo: anúncio do evento, sexta teórica, sábado prático, escolha do ingresso. Acréscimos: FAQ, "falta 1 semana", véspera. Mais o roteiro de stories do dia |
 | Criativos de anúncio | 3 | criativos-de-anuncio | 29/10 | a fazer | 1: anestesiologista (Guedel e awareness), entra em 03/11; 2: os dois dias (teoria e prática), entra em 03/11; 3: intensivista (BNM e TOF), entra em 10/11 se a checagem de 09/11 o escolher. Variante opcional para o transmitido (14/11). Variante "restam X vagas" só com número real |
 | Mensagem de convite (WhatsApp) | 1 | copy-de-mensagens | 30/10 | a fazer | Para a base com opt-in, com o cupom e a regra do vínculo |
@@ -251,7 +255,7 @@ Liberação: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia
 | Textos de apoio para a página | 1 conjunto | landing-page | 30/10 | a fazer (acréscimo) | Itens 1 a 7 da análise CRO, página 4. Viram pedido ao site |
 | Revisão de conformidade de todas as peças | todas | qa-de-marketing | 24 h depois de cada entrega | a fazer | Auditoria 06 (ou a do departamento da peça) e conformidade educacional |
 
-Docentes que podem aparecer (ficha, só com [CONFIRMAR autorização] registrada):
+Docentes que podem aparecer (ficha; autorização de imagem e citação registrada para todos, decisões 8 e 10):
 - Profa. Dra. Mayara Travalini de Lima, coordenação científica
 - Prof. MSc. Daniel Zannin
 - Profa. MSc. Elidia Zotelli
@@ -297,12 +301,12 @@ Quem aprova cada tipo de peça ainda não está definido em ufape-geral.md (P12)
 | AP2 | Verba da reta final e metas de custo | Campanha ativa sem meta escrita | [CONFIRMAR] | Metas antes de qualquer ajuste de mídia | Ajuste no gerenciador, feito por humano | Pessoa do marketing (anúncios e verba) |
 | AP3 | Ajustes na campanha ativa (destino, textos, pausa no fim) | Coerência com a página e com as regras de urgência | [CONFIRMAR] | Anúncio igual à página | Reativar a versão anterior no gerenciador | Pessoa do marketing |
 | AP4 | Envio de WhatsApp e e-mail para a base | Mensagem em massa | Sem custo de mídia | Inscrições com cupom | Interromper a sequência no CRM | Pessoa do marketing; LGPD: só com opt-in e saída fácil |
-| AP5 | Posts e peças com docente | Direito de imagem e nome | Sem custo | Prova de autoridade | Remover o post | Autorização registrada de cada docente; pessoa do marketing |
+| AP5 | Posts e peças com docente | Nome e titulação conforme a ficha | Sem custo | Prova de autoridade | Remover o post | Pessoa do marketing (autorização de imagem e citação já registrada, decisões 8 e 10; texto em primeira pessoa com ok do próprio docente) |
 | AP6 | Afirmações técnicas nas peças (BIS, EEG, BNM, TOF, "o que está validado") | Precisão científica | Sem custo | Evitar erro técnico em público especialista | Corrigir a peça | Área acadêmica: coordenação científica do evento [CONFIRMAR] |
 | AP7 | Regra do cupom, parcelamento, cancelamento e reembolso nas peças | CDC (preço e condições completos) | Sem custo | Peça com preço liberada | Não se aplica | Ufape (comercial e jurídico) [CONFIRMAR] |
 | AP8 | Texto de certificado e de presença no ingresso online | Certificação | Sem custo | Peça sem ambiguidade | Não se aplica | Regulação da Ufape (P1) |
 | AP9 | Pedidos ao site (seção 6) | Conversão da página de destino | Sem custo de mídia | Mais visitantes chegam ao checkout [SUPOSIÇÃO] | Reverter no site | Ufape (páginas e preços) |
-| AP10 | Venda cruzada no pós-evento (gravação e provas de bolsa) | Decisão comercial | Sem custo | Aproveitar a base do evento | Não enviar | Pessoa do marketing e Ufape |
+| AP10 | Venda cruzada no pós-evento: gravação e prova de bolsa no M9 de 25/11 (pedido R7 do plano do cmo) | Decisão comercial; o M9 já leva à Pós em Anestesiologia por D9, a prova só entra com esta aprovação e com o prazo de inscrição confirmado (U3) | Sem custo | Inscrições na prova vindas do Workshop | Tirar o bloco da prova do M9 | Pessoa do marketing e Ufape |
 | AP11 | Captação de imagem de participantes no evento | Direito de imagem | Sem custo | Material para a próxima edição | Não usar a imagem | Ufape, com termo de autorização no credenciamento [CONFIRMAR] |
 
 Nada é publicado, enviado ou pago pela squad.
@@ -319,13 +323,13 @@ Nada é publicado, enviado ou pago pela squad.
 | E4 | Metas, verba, inscritos atuais | Pontos de checagem com valor | [CONFIRMAR] até 28/10 |
 | E5 | Parcelamento e formas de pagamento | Peças com preço | [CONFIRMAR NO CATÁLOGO] |
 | E6 | Validade e limite do cupom; canal e prazo da comprovação do vínculo; se vale para aluno de pós em curso | Peças para a base | [CONFIRMAR] |
-| E7 | Fim das inscrições por ingresso; venda da gravação depois de 20/11 e prazo de acesso | Última semana e pós-evento | [CONFIRMAR]. Data provisória única de pausa do presencial: 19/11, fim do dia [SUPOSIÇÃO], igual nos dois arquivos |
+| E7 | Fim das inscrições por ingresso; venda da gravação depois de 20/11 e prazo de acesso | Última semana e pós-evento | [CONFIRMAR, U9]. Pausa da mídia do presencial em 18/11, 23h59, e do transmitido e da base em 19/11, 23h59 (EVM1), ou antes se as inscrições acabarem |
 | E8 | Política de cancelamento, transferência e reembolso; almoço; o que levar | FAQ, véspera | [CONFIRMAR] |
 | E9 | Presença e certificado no ingresso online; texto oficial de certificado | Qualquer afirmação de certificação em peça | [CONFIRMAR] (P1). Até lá, peça de divulgação sem afirmação de certificação |
-| E10 | Autorização dos docentes | Posts de docente | [CONFIRMAR autorização] |
+| E10 | Autorização dos docentes | Nada | Fechada: autorização de imagem e citação registrada para todos (decisões 8 e 10). Nome e titulação só como estão na ficha |
 | E11 | Nome do evento (workshop na página, simpósio na planilha) | Consistência | Peças usam o nome da página |
 | E12 | Página: preço e botão só depois da programação, cupom sem código visível, sem parcelamento, lista "inclui" ambígua | Conversão da mídia paga | Pedidos ao site da análise CRO, página 4 (botão "Ver ingressos" no topo, bloco de cupom com passo a passo, "inclui e não inclui" por ingresso, FAQ prático, eventos no GA4) |
-| E13 | Ferramenta de medição (GA4, CRM) e padrão de UTM | Checagens por origem | [CONFIRMAR] (P15) |
+| E13 | Ferramenta de medição (GA4, CRM) | Checagens por origem | Padrão de UTM fechado por D11 e D12 do plano do cmo; ferramenta [CONFIRMAR] (P15) |
 | E14 | Possível colisão de data com congressos de neurologia ou dor em São Paulo (pesquisa de persona, ação 2) | Argumento de agenda | Sem fonte; não citar concorrente em peça |
 | E15 | Opt-in de WhatsApp e e-mail no checkout da página neuro-summit e da loja | Mensagens de véspera, do dia e do pós-evento por WhatsApp | [CONFIRMAR no checkout]. Sem opt-in registrado, só e-mail, com saída fácil |
 
@@ -366,7 +370,7 @@ Nada é publicado, enviado ou pago pela squad.
 | Preço e condições | Bolsa e desconto com regra, público elegível e prazo de validade | Pendente externo | Regra e público claros (aluno e ex-aluno com vínculo comprovado, nos dois ingressos); validade [CONFIRMAR] (E6) |
 | Preço e condições | Urgência real | Atendido | Só a data do evento e as 30 vagas; "restam X" só com número da Ufape e data |
 | Preço e condições | Prouni, Fies ou financiamento próprio | Não se aplica | |
-| Pessoas e dados | Depoimentos, fotos e vídeos com autorização registrada | Pendente externo | Docentes e participantes [CONFIRMAR autorização] (E10, AP5, AP11) |
+| Pessoas e dados | Depoimentos, fotos e vídeos com autorização registrada | Atendido para docentes; pendente para participantes | Docentes, palestrantes e convidados: autorização registrada (decisões 8 e 10). Imagem de participantes no evento: termo no credenciamento [CONFIRMAR] (AP11) |
 | Pessoas e dados | Menores de idade com autorização dos responsáveis | Não se aplica | Público de profissionais |
 | Pessoas e dados | Formulários com finalidade e link para a política de privacidade | Pendente externo | Checkout [CONFIRMAR no site] |
 | Pessoas e dados | WhatsApp e e-mail só com consentimento e saída fácil | Pendente externo | Regra 7 e condição de opt-in em cada mensagem a inscritos e à base; opt-in do checkout [CONFIRMAR] (E15) |
@@ -375,20 +379,20 @@ Nada é publicado, enviado ou pago pela squad.
 | Plataformas | Página de destino entrega o que o anúncio promete | Pendente externo | Preço e botão abaixo da programação, convidados "A definir" visíveis, cupom sem código (E12) |
 | Anúncios | Sem afirmar ou insinuar característica pessoal de quem vê | Atendido | Regra para as peças; conferir peça a peça |
 | Anúncios | Sem urgência ou escassez falsa, contador falso, play falso ou imitação de interface | Atendido | Regras 3 e seção 4 |
-| Anúncios | Sem pessoa pública ou parceria inexistente | Atendido | Só docentes confirmados, com autorização |
+| Anúncios | Sem pessoa pública ou parceria inexistente | Atendido | Só docentes confirmados, com autorização registrada (decisões 8 e 10) |
 | Anúncios | Sem caixa alta excessiva, pontuação repetida ou símbolos | Atendido | Regra para as peças; conferir peça a peça |
 | Anúncios | Página de destino carrega, domínio esperado, dados da Ufape, contato e política de privacidade | Pendente externo | Destino único no domínio faculdade.ufape.com.br; carregamento, contato e política de privacidade na página [CONFIRMAR no site] (a squad não abre o site) |
 | Anúncios | Nenhuma sugestão para driblar a análise das plataformas | Atendido | Nenhuma |
 | Texto | Travessão ou meia-risca | Atendido | Nenhum |
 
-**Resultado:** briefing pronto para nova conferência do qa-de-marketing e, depois, para seguir à cadeia de peças, com bloqueios declarados. Bloqueado para peça final com preço (E5), para peça de escassez (E3), para post de docente sem autorização (E10), para qualquer afirmação de certificação (E9), para WhatsApp a quem não tem opt-in registrado (E15) e para a fase de gravação no pós-evento (E7). Revisado por: estrategia-de-campanha (agente). Revisão humana: [pendente]. Data: 26/10/2026.
+**Resultado:** briefing pronto para nova conferência do qa-de-marketing e, depois, para seguir à cadeia de peças, com bloqueios declarados. Bloqueado para peça final com preço (E5), para peça de escassez (E3), para qualquer afirmação de certificação (E9), para WhatsApp a quem não tem opt-in registrado (E15) e para a fase de gravação no pós-evento (E7). Revisado por: estrategia-de-campanha (agente), versão 3. Revisão humana: [pendente]. Data: 26/10/2026.
 
 ---
 
 ## 8. Próximos passos
 
-1. Pessoa do marketing: aprovar AP1, escolher a data provisória única de pausa do presencial (proposta: 19/11, fim do dia) e pedir à Ufape, até 28/10, os dados de E3 a E8, E15 e a linha de base (inscritos, gasto, vagas restantes).
-2. gestor-de-midia: executar o pedido M8 (28/10) e incluir no memorando as linhas da sequência única da seção 2 (G7); plano de mídia completo na etapa 1.11.
+1. Pessoa do marketing: aprovar AP1, a sequência EVM1 com o teste de rastreio em 30/10 (pedido R3 do plano do cmo) e, em separado, AP10 (R7); pedir à Ufape, até 28/10, os dados de E3 a E8, E15, U9 e a linha de base (inscritos, gasto, vagas restantes).
+2. gestor-de-midia: a sequência única já está registrada no plano de eventos (seção 1.6); a execução no gerenciador é humana, depois da aprovação.
 3. Cadeia do kit: mensagens (28/10), criativos-de-anuncio (29/10), autoridade-docente, posts-sociais e copy-de-mensagens (30/10), qa-de-marketing a cada entrega.
 4. Próximo agente na cadeia do evento: mensagens. Pelo fluxo padrão do departamento, o seguinte seria iscas-digitais; para esta edição, com 25 dias e compra direta, uma isca não é necessária, e iscas-digitais fica para as áreas A1, A3 e A12 na camada 2.
 
@@ -410,7 +414,12 @@ Nada é publicado, enviado ou pago pela squad.
 12. Personas E1a a E1d e ordem de prioridade. Fonte: pesquisa-de-persona-eventos-2026-10-26.md.
 13. Provas de bolsa em 27/11/2026. Fonte: plano do cmo, seção 2.2.
 14. 02/11 e 20/11 são feriados nacionais (Finados; Dia Nacional de Zumbi e da Consciência Negra, Lei 14.759/2023). Fonte: legislação federal (fora dos arquivos da squad).
-15. Memorando do gestor-de-midia: checagens W1 a W10, decisão de manter a campanha do workshop, pedidos M8 (correções e remarketing até 28/10) e M9 (pausa do presencial ao lotar ou no fim das inscrições), uma mudança por semana no mesmo conjunto. Fonte: saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md, seções 4 e 8.
+15. Memorando do gestor-de-midia (substituído nas datas pela sequência EVM1): checagens W1 a W10, decisão de manter a campanha do workshop, pedidos M8 (correções e remarketing até 28/10) e M9 (pausa do presencial ao lotar ou no fim das inscrições), uma mudança por semana no mesmo conjunto. Fonte: saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md, seções 4 e 8.
+
+16. Sequência única da mídia do workshop (EVM1): 28/10 correções e públicos; 30/10 teste de rastreio (EA4); 03/11 C1 e C2 no frio e remarketing novo; 10/11 mudança única no frio; 14/11 B7 e, com o 68634 corrigido, o transmitido; pausa do presencial em 18/11, 23h59; do transmitido e da base em 19/11, 23h59. Fonte: plano do cmo, 12.6; gestor-de-midia-eventos, seção 1.6.
+17. M9 de 25/11 em um canal, para a Pós em Anestesiologia (657, 68609, 359), sem curso livre com data; prova só com AP10 e U3. Fonte: plano do cmo, D9.
+18. Autorização de imagem e citação registrada para todos: docentes, palestrantes e convidados. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
+19. Padrão de UTM (crm, organic_social, paid_social; chave eventos_neuro26). Fonte: plano do cmo, D11 e D12.
 
 ## Suposições
 
@@ -419,11 +428,11 @@ Nada é publicado, enviado ou pago pela squad.
 3. [SUPOSIÇÃO] O desconto de 20% incide sobre o preço de tabela; nesse caso, 20% sobre R$ 1.250,00 e R$ 450,00 resulta em R$ 1.000,00 e R$ 360,00 (conta deste agente, uso interno, fora das peças).
 4. [SUPOSIÇÃO] A base de alunos e ex-alunos das áreas de anestesia, UTI e neurologia tem o perfil do evento e responde melhor que o público frio.
 5. [SUPOSIÇÃO] O feriado de 20/11 pode facilitar a presença de quem trabalha em clínica.
-6. [SUPOSIÇÃO] Padrão de UTM proposto.
+6. [SUPOSIÇÃO] Leitura de que "pago" não seria classificado como mídia paga no GA4 (motivo do padrão D11).
 7. [SUPOSIÇÃO] Botão e preço acima da programação aumentam a chegada ao checkout (hipótese da análise CRO).
 8. [SUPOSIÇÃO] Quem participa do evento pode virar candidato à Pós ou às provas de bolsa (sem dado; nenhuma peça promete).
-9. [SUPOSIÇÃO] Data provisória única de pausa do presencial: 19/11, fim do dia, até a Ufape informar o fim das inscrições; escolha final da pessoa do marketing.
-10. [SUPOSIÇÃO] Sequência única de mudanças na mídia (seção 2), a ser registrada pelo gestor-de-midia no memorando dele.
+9. [SUPOSIÇÃO] Janela de 30 dias do público de remarketing e uso da ferramenta de sobreposição de públicos em 06/11 (plano do gestor, seção 1.6).
+10. [SUPOSIÇÃO] Teto D1 (2 WhatsApp e 2 e-mails de campanha por semana e 1 por dia, somando as linhas) e janela de silêncio de 2 dias úteis (D8), até a Ufape confirmar.
 
 ## Dados que faltam
 
@@ -434,10 +443,19 @@ Nada é publicado, enviado ou pago pela squad.
 5. [CONFIRMAR NO CATÁLOGO] Carga horária do ingresso transmitido e correção do produto 68634 (24 h contra 16 h, sem data).
 6. [CONFIRMAR] Política de cancelamento, transferência e reembolso; almoço; o que levar.
 7. [CONFIRMAR] Medição de presença e certificado no ingresso online; texto oficial de certificado (P1).
-8. [CONFIRMAR autorização] Imagem e nome de cada docente; termo de imagem de participantes no credenciamento.
+8. [CONFIRMAR] Termo de imagem de participantes no credenciamento (a autorização de docentes, palestrantes e convidados está registrada, decisões 8 e 10).
 9. [CONFIRMAR] Confirmação dos 4 convidados "a definir".
 10. [CONFIRMAR NO CATÁLOGO] Monitores do sábado, quantidade e participantes por equipamento.
 11. [CONFIRMAR] Segmentos da base disponíveis no CRM (só contagem), opt-in e uso de grupos de WhatsApp de turma.
 12. [CONFIRMAR] Opt-in de WhatsApp e e-mail no checkout da página neuro-summit e da loja; política de privacidade e contato na página de destino.
-13. [CONFIRMAR] Ferramenta de medição, padrão de UTM e quem aprova cada tipo de peça (P12, P15).
-14. [CONFIRMAR] Aprovação de venda cruzada para as provas de bolsa no pós-evento.
+13. [CONFIRMAR] Ferramenta de medição e quem aprova cada tipo de peça (P12, P15).
+14. [CONFIRMAR] Aprovação de AP10 (R7) para a prova de bolsa no M9 e prazo de inscrição das provas (U3); aprovação da sequência EVM1 (R3).
+15. [CONFIRMAR U9] Fim das inscrições do presencial e do transmitido, validade e limite do cupom SIMPNEUROMONIT.
+
+## Mudanças desta versão
+
+Versão 3 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 8 e 10:
+- Seção 2: a tabela de mídia foi trocada pela sequência única EVM1 (28/10, teste de rastreio em 30/10, 03/11, 10/11, 14/11, pausa do presencial em 18/11 às 23h59 e do transmitido e da base em 19/11 às 23h59); fases 1, 2 e 5 e a pendência E7 ajustadas a ela e às datas da régua (WhatsApp de 30/10 só sem opt-in de e-mail, lembrete por WhatsApp em 17/11).
+- AP10 ligado ao M9 de 25/11 (D9): M9 em um canal, para a Pós em Anestesiologia com o campus; a prova de bolsa só com AP10 (R7) e U3.
+- Não há mais pendência de autorização de docentes (decisões 8 e 10): regra 4, canais, lista de docentes, AP5, E10, auditorias e listas atualizadas.
+- UTM no padrão D11 e D12 (chave eventos_neuro26; crm, organic_social e paid_social).

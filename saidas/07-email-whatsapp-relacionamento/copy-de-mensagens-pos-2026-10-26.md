@@ -3,6 +3,7 @@
 - **Agente:** copy-de-mensagens (departamento 07, E-mail, WhatsApp e Relacionamento), camada 3, onda 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo) e as decisões 10 a 13 de docs/execucao-2026-10-26.md. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana (A-C7 da estratégia de campanha). A squad não dispara nada: são textos para o CRM enviar, só para contatos com opt-in. Nada é publicado, enviado ou pago.
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
@@ -18,6 +19,7 @@
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md (persona P4)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (voz: precisa, próxima, transparente)
   - auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md
+  - Versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1 a D4, D10, D11, D12, 12.9 e 12.12); fichas das 22 provas abertas em contexto/cursos/pos/ (68639 a 68661, menos 68656), lidas para campus, horário, prazo de matrícula, canal do resultado e composição; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md, -loteB.md e -loteC.md (trechos sobre esta régua)
 - **Dados pessoais:** nenhum. Os textos usam campos entre colchetes que o CRM preenche. Docentes não são nomeados. Nenhum aprovado de edição anterior é citado.
 - **Não abri** faculdade.ufape.com.br. O texto da página vem da ficha da prova 68639 e das fichas já lidas pelo agente de estratégia.
 
@@ -27,10 +29,11 @@
 
 1. A régua tem 20 mensagens em 5 etapas: convite, lembretes, confirmação de inscrição, véspera e dia da prova, pós-prova. Mais 17 respostas prontas para o time de vendas.
 2. Cada mensagem tem um único objetivo e uma única chamada para ação, declarados no bloco dela.
-3. Todo texto usa só: inscrição de R$ 100,00, prova presencial em 27/11/2026 das 9h às 13h, 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para matrícula, bolsa não acumulativa e intransferível, desempate por análise de currículo.
+3. Todo texto usa só: inscrição de R$ 100,00, prova online em 27/11/2026 das 9h às 13h (horário das fichas), campus da prova (São Paulo ou Goiânia), 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, 2 dias úteis para recurso, bolsa não acumulativa e intransferível, desempate por análise de currículo, turma mínima de 15 alunos. Prazo de matrícula, canal do resultado e composição da prova saem da ficha de cada prova (seção 4.1): em 10 fichas a regra é única (10 dias úteis; WhatsApp ou e-mail); em 12 fichas a própria ficha se contradiz e o campo fica [CONFIRMAR U1], sem escolha da squad.
 4. O destino de cada prova (para qual turma a bolsa vale) não está em nenhuma página. Nenhuma mensagem de convite cita turma. O bloco de turma existe, mas só é liberado depois da resposta da Ufape (A-C2). Das 22 provas, 10 estão em D1 (destino provável), 4 em D2, 4 em D3 e 4 em D4 sem turma aberta: [CONFIRMAR destino] (seção 5).
-5. Bloqueios que seguram envio: local da prova em Goiânia (a página 68640 mostra o endereço de São Paulo), links de Cardiologia invertidos, regras de Felinos contraditórias, data do resultado, prazo de inscrição, regra do aprovado sem bolsa.
+5. Bloqueios que seguram envio: links de Cardiologia invertidos, regra interna contraditória em 12 fichas (U1), como é o acesso à prova online (U2), data do resultado, prazo de inscrição, regra do aprovado sem bolsa (U3). O bloqueio do local de Goiânia caiu: as provas são online e a peça diz o campus (decisão 11).
 6. Não há comparação com outra instituição, escassez, frase de certificação, percentual de aprovação nem valor de curso com bolsa calculado.
+7. Versão 2: teto, fila e supressões da seção 12 do plano do cmo (D1 a D3); M16 a M20 como serviço (D4); [segmento] ex_aluno é ex-aluno de Pós (D10); UTM com utm_medium=crm e utm_campaign=pos_provas20261127_202611 (D11 e D12).
 
 ---
 
@@ -40,12 +43,17 @@
 - WhatsApp: só contato com opt-in registrado no CRM (campo [opt_in_whatsapp] igual a sim) [CONFIRMAR o nome do campo e onde o consentimento fica guardado].
 - E-mail: só contato com consentimento de e-mail registrado e sem descadastro [CONFIRMAR ferramenta].
 - Base de leads e ex-alunos: a segmentação é por [segmento] (lead ou ex_aluno) e por [área_de_interesse], se o CRM tiver. Sem área de interesse, o contato recebe a versão mestre.
+- [segmento] = ex_aluno quer dizer ex-aluno de Pós (D10 do plano do cmo). Comprador só de Cursos Livres não entra nesta régua; recebe a prova só se também for lead de Pós (S1 ou S2) com opt-in.
+- Janela de silêncio (D8): quem comprou curso livre ou o Workshop e está dentro da janela (do pedido pago até 2 dias úteis depois do último dia do curso ou evento; online e minicurso, 7 dias corridos) não entra nesta régua durante a janela. Quem já estava nela antes da compra continua: a janela impede entrada nova, não interrompe régua em curso [SUPOSIÇÃO de prazo, D8].
 - Quem já se inscreveu na prova sai da régua de convite e entra na régua de serviço (confirmação, véspera, dia, resultado).
 
-**Quando envia**
-- WhatsApp só em dia útil, das 9h às 18h [SUPOSIÇÃO de janela comercial, a Ufape confirma]. Fora dela, o envio espera abrir.
-- Cadência de campanha por contato: no máximo 2 WhatsApp e 2 e-mails por semana, somando todas as campanhas da Ufape [SUPOSIÇÃO de limite, vem da estratégia de campanha, seção 4.3]. Mensagens de serviço ao inscrito não contam.
-- Sem mensagem das provas em 20/11 e 21/11 (Workshop de Neuromonitorização, linha Eventos). Sem envio em 02/11 (feriado) [SUPOSIÇÃO de efeito].
+**Quando envia (D1 e D2 do plano do cmo, valem para todas as linhas juntas)**
+- WhatsApp só em dia útil, das 9h às 18h. E-mail em qualquer dia, das 7h às 19h [SUPOSIÇÃO de janela até a Ufape confirmar, R1]. Fora dela, o envio espera abrir.
+- Teto de campanha por contato, somando Pós, Livres, Eventos, Graduação e newsletter: até 2 WhatsApp e até 2 e-mails por semana (segunda a domingo) e no máximo 1 mensagem de campanha por dia, em qualquer canal [SUPOSIÇÃO de número até a Ufape confirmar, R1]. Follow-up e reenvio contam como campanha.
+- Serviço, fora do teto: M10 a M15 (confirmação, véspera e dia) e M16 a M20 (resultado da prova, inclusive a chamada de conversa, que é parte do resultado; D4).
+- Fila quando várias réguas disputam a mesma semana (D2): serviço; toque principal de cada campanha com data (vence a data mais próxima; empate, maior nota GUT); follow-ups e reenvios; nutrição; reativação. Reenvio não muda de dia: se o dia já tem mensagem de campanha para o contato, ele é suprimido e não acumula para a semana seguinte. O CRM aplica a fila por contato (pedido ao arquiteto-de-fluxos).
+- Dias sem campanha de nenhuma linha: 02/11, 20 e 21/11 (Workshop Brasileiro de Neuromonitorização, linha Eventos), 25/12, 31/12 e 01/01. Para quem está na campanha das provas, 26 e 27/11 têm só as mensagens de serviço das provas.
+- Supressões para quem também está em outra base (Workshop, kit de turma da Pós): coluna "Supressão (D3)" do mapa da seção 2.
 - Antes de cada envio, o CRM confere o status "aberto" da prova no catálogo. Prova que deixou de estar aberta sai da lista da mensagem.
 - Uma mensagem por área, não duas: a versão por área substitui a mestre para quem tem área de interesse.
 
@@ -55,7 +63,9 @@
 
 **Regras de saída da régua:** inscreveu na prova; respondeu (a automação para e o time de vendas assume); pediu para sair; bloqueou ou denunciou (suspender); prova deixou de estar aberta; matriculou (sai de tudo).
 
-**Link e UTM:** no máximo um link por mensagem. UTM: utm_source (whatsapp ou email), utm_medium=base, utm_campaign=provas-de-bolsa-2026-11-27, utm_content=<id da mensagem>-<área>-<código da prova> [SUPOSIÇÃO de padrão, o arquiteto-de-fluxos confere].
+**Link e UTM (D11 e D12 do plano do cmo):** no máximo um link por mensagem. utm_source=whatsapp ou email; utm_medium=crm; utm_campaign=pos_provas20261127_202611; utm_content=<id da mensagem>-<área>-<código da prova> (ex.: m4-a1-anest-68639; na versão mestre, m2-mestre). Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal em UTM. A ferramenta que aplica a UTM é confirmada pelo arquiteto-de-fluxos [CONFIRMAR, P15].
+
+**Itens da 1.19 (estrategia-de-conteudo-pos) que não são envio a mais (D4):** C05 é o M2 ou o M4; C06 é o M1, o M3 ou o M5; C13 vira resposta pronta (seção 6), só para conversa iniciada pelo candidato; C25 é o M13 e o M15. C19 (20/11) e C24 saem: 20/11 é dia sem campanha e a véspera vai pela M12, de serviço.
 
 **O que se mede (além de abertura e leitura):** cliques, respostas, inscrições concluídas por mensagem, comparecimento por prova e matrículas com bolsa. Números somados por prova, sem dado pessoal.
 
@@ -67,31 +77,35 @@
 
 Gatilho: contato com opt-in na base de leads e ex-alunos. Objetivo final: inscrição na prova e, depois, matrícula com bolsa dentro do prazo.
 
-| ID | Data e hora | Canal | Quem recebe | Função (objetivo único) |
-|---|---|---|---|---|
-| M2 | ter 03/11, 10h | E-mail | Base sem área de interesse | Levar à página das provas e à inscrição |
-| M4 | ter 03/11, 10h | E-mail | Base com área de interesse liberada | Levar à página da prova da área |
-| M1 | qua 04/11, 10h | WhatsApp | Base sem área de interesse | Fazer o contato dizer a especialidade para receber o link |
-| M3 | qua 04/11, 10h | WhatsApp | Base com área de interesse liberada | Levar à página da prova da área |
-| M6 | qui 05/11, 10h | E-mail | Quem não abriu M2 ou M4 e não se inscreveu | Lembrete: levar à inscrição |
-| M5 | sex 06/11, 10h | WhatsApp | Quem não respondeu a M1 ou M3 e não se inscreveu | Lembrete: levar à inscrição |
-| M7 | ter 10/11, 10h | E-mail | Base que não se inscreveu | Tirar as dúvidas e levar à inscrição |
-| M8 | seg 23/11, 10h | E-mail | Base que não se inscreveu | Reta final: levar à inscrição |
-| M9 | ter 24/11, 10h | WhatsApp | Base que não se inscreveu | Reta final: levar à inscrição |
-| M10 | na hora do pagamento | E-mail | Inscrito | Confirmar a inscrição com as regras |
-| M11 | na hora do pagamento (WhatsApp na próxima janela comercial) | WhatsApp | Inscrito com opt-in | Confirmar a inscrição com as regras |
-| M12 | qui 26/11, 10h | E-mail | Inscrito | Véspera: confirmar presença |
-| M13 | qui 26/11, 14h | WhatsApp | Inscrito com opt-in | Véspera: confirmar presença |
-| M14 | sex 27/11, 7h | E-mail | Inscrito | Dia da prova: horário, local e regras |
-| M15 | sex 27/11, 8h (só se a janela permitir) | WhatsApp | Inscrito com opt-in | Dia da prova: horário, local e regras |
-| M16 e M17 | dia da divulgação do resultado [CONFIRMAR data] | WhatsApp e e-mail | Aprovado com bolsa | Levar à conversa de matrícula dentro do prazo |
-| M18 | dia da divulgação [CONFIRMAR regra antes de usar] | WhatsApp e e-mail | Aprovado sem bolsa | Levar à conversa sobre as condições da turma |
-| M19 | dia da divulgação | WhatsApp e e-mail | Quem não atingiu a nota de corte | Oferecer a conversa sobre as condições normais da turma, sem pressão |
-| M20 | dia útil seguinte à prova [CONFIRMAR política de ausência] | WhatsApp e e-mail | Inscrito que não compareceu | Oferecer a conversa sobre as condições normais da turma, sem cobrança |
+| ID | Data e hora | Canal | Quem recebe | Função (objetivo único) | Supressão (D3 do plano do cmo) |
+|---|---|---|---|---|---|
+| M2 | ter 03/11, 10h | E-mail | Base sem área de interesse | Levar à página das provas e à inscrição | - |
+| M4 | ter 03/11, 10h | E-mail | Base com área de interesse liberada | Levar à página da prova da área | - |
+| M1 | qua 04/11, 10h | WhatsApp | Base sem área de interesse | Fazer o contato dizer a especialidade para receber o link | - |
+| M3 | qua 04/11, 10h | WhatsApp | Base com área de interesse liberada | Levar à página da prova da área | - |
+| M6 | qui 05/11, 10h | E-mail | Quem não abriu M2 ou M4 e não se inscreveu | Lembrete: levar à inscrição | Não sai para quem está na base do Workshop (05/11 já tem o M10 do Workshop) nem para quem recebe o P2 de 68606 (Gastroenterologia, e-mail de 05/11) |
+| M5 | sex 06/11, 10h | WhatsApp | Quem não respondeu a M1 ou M3 e não se inscreveu | Lembrete: levar à inscrição | Não sai para quem recebe o P2 de 68606 por WhatsApp em 06/11 (área de Gastroenterologia, data mais próxima, D2) |
+| M7 | ter 10/11, 10h | E-mail | Base que não se inscreveu | Tirar as dúvidas e levar à inscrição | - |
+| Reenvio de M7 | qui 12/11, 10h | E-mail | Quem não abriu M7 | Lembrete curto: levar à inscrição | Não sai para quem está na base do Workshop (14/11 já tem o M3 do Workshop por e-mail) |
+| M8 | seg 23/11, 10h (16h para participante do Workshop) | E-mail | Base que não se inscreveu | Reta final: levar à inscrição | Participante do Workshop recebe às 16h, porque às 9h recebe o M8 de serviço do Workshop |
+| M9 | ter 24/11, 10h | WhatsApp | Base que não se inscreveu | Reta final: levar à inscrição | - |
+| Reenvio de M8 | qua 25/11, 10h | E-mail | Quem não abriu M8 | Lembrete curto: levar à inscrição | Não sai para participante do Workshop (25/11 já tem o M9 do Workshop) |
+| M10 | na hora do pagamento | E-mail | Inscrito | Confirmar a inscrição com as regras | Serviço, fora do teto |
+| M11 | na hora do pagamento (WhatsApp na próxima janela comercial) | WhatsApp | Inscrito com opt-in | Confirmar a inscrição com as regras | Serviço, fora do teto |
+| M12 | qui 26/11, 10h | E-mail | Inscrito | Véspera: confirmar presença | Serviço |
+| M13 | qui 26/11, 14h | WhatsApp | Inscrito com opt-in | Véspera: confirmar presença | Serviço |
+| M14 | sex 27/11, 7h | E-mail | Inscrito | Dia da prova: horário, campus, acesso online e regras | Serviço |
+| M15 | sex 27/11, 8h (só com a exceção de serviço R2 aprovada) | WhatsApp | Inscrito com opt-in | Dia da prova: horário, campus, acesso online e regras | Serviço; sem R2, o M14 é a mensagem do dia e o M13 leva o essencial |
+| M16 e M17 | dia da divulgação do resultado [CONFIRMAR data, U3] | WhatsApp e e-mail | Aprovado com bolsa | Levar à conversa de matrícula dentro do prazo | Serviço (D4) |
+| M18 | dia da divulgação [CONFIRMAR regra antes de usar, U3] | WhatsApp e e-mail | Aprovado sem bolsa | Levar à conversa sobre as condições da turma | Serviço (D4) |
+| M19 | dia da divulgação | WhatsApp e e-mail | Quem não atingiu a nota de corte | Oferecer a conversa sobre as condições normais da turma, sem pressão | Serviço (D4) |
+| M20 | dia útil seguinte à prova [CONFIRMAR política de ausência, U3] | WhatsApp e e-mail | Inscrito que não compareceu | Oferecer a conversa sobre as condições normais da turma, sem cobrança | Serviço (D4) |
 
-Semana de 03 a 07/11: 2 e-mails e 2 WhatsApp por contato (dentro do limite). Semana de 09 a 13/11: 1 e-mail (M7) mais o reenvio de 12/11. Semana de 23 a 27/11: 2 e-mails (M8 e reenvio de 25/11) e 1 WhatsApp (M9), fora as mensagens de serviço.
+Contato só na base das provas, por semana: 03 a 08/11, 2 e-mails (M2 ou M4, M6) e 2 WhatsApp (M1 ou M3, M5); 09 a 15/11, 2 e-mails (M7 e reenvio de 12/11); 16 a 22/11, nenhuma mensagem das provas; 23 a 29/11, 2 e-mails (M8 e reenvio de 25/11) e 1 WhatsApp (M9), fora as mensagens de serviço. Nunca mais de 1 mensagem de campanha por dia. Quem também está em outra base segue a coluna de supressão; o que é suprimido não muda de data.
 
-**Etiquetas e campos no CRM e no Chatwoot:** [segmento] (lead ou ex_aluno); [opt_in_whatsapp] e [opt_in_email] com data do consentimento; [área_de_interesse]; [praça]; [inscrito_prova_código]; [presença_confirmada]; [resultado] (aprovado_com_bolsa, aprovado_sem_bolsa, nao_atingiu, ausente); [matriculou]; [pediu_sair]. Nenhum desses campos entra em arquivo da squad com dado de pessoa.
+S5c e ausentes da prova (J6 da jornada-do-aluno) ficam fora de campanha até o fim do prazo de matrícula dos aprovados da mesma prova; as mensagens de serviço M19 e M20 saem normalmente (D4). Inscrito ou aprovado na prova não recebe campanha de Livres até o fim do prazo de matrícula (D10).
+
+**Etiquetas e campos no CRM e no Chatwoot:** [segmento] (lead ou ex_aluno); [opt_in_whatsapp] e [opt_in_email] com data do consentimento; [área_de_interesse]; [campus]; [inscrito_prova_código]; [presença_confirmada]; [resultado] (aprovado_com_bolsa, aprovado_sem_bolsa, nao_atingiu, ausente); [matriculou]; [pediu_sair]. Nenhum desses campos entra em arquivo da squad com dado de pessoa.
 
 ### Campos que o CRM preenche
 
@@ -99,14 +113,17 @@ Semana de 03 a 07/11: 2 e-mails e 2 WhatsApp por contato (dentro do limite). Sem
 |---|---|---|
 | [nome] | Primeiro nome do contato | Se vazio, usar "olá" sem nome |
 | [área] | Nome da especialidade no padrão da linha (ver seção 5) | Só prova com status "aberto" e liberada na seção 5 |
-| [praça] | São Paulo ou Goiânia | Da prova |
-| [endereço_da_prova] | São Paulo: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista, São Paulo, SP, 01407-100. Goiânia: [CONFIRMAR] | Não preencher para Goiânia até a Ufape confirmar |
+| [campus] | Campus da prova: São Paulo ou Goiânia | Campo "Localidade" da ficha de cada prova. Toda mensagem diz o campus (decisão 11). O campo [endereço_da_prova] saiu: a prova é online e o local não importa |
+| [acesso_online] | Como o inscrito acessa a prova online | [CONFIRMAR U2]: plataforma, acesso e o que vale das regras de documento com foto e de celular. Sem a resposta, as mensagens saem sem esta linha |
+| [composição_da_ficha] | Composição da prova como está na ficha | 11 fichas: "questões de múltipla escolha e dissertativas"; 11 fichas: "10 a 20 questões objetivas e/ou dissertativas" ou "20 questões objetivas e/ou dissertativas" (seção 4.1) |
+| [prazo_matrícula_da_ficha] e [canal_resultado_da_ficha] | Prazo de matrícula e canal do resultado da ficha da prova | Seção 4.1. Nas 12 fichas que se contradizem por dentro: [CONFIRMAR U1], sem escolha da squad |
+| [linha_prazos_da_ficha] | Linha pronta com resultado, recurso e matrícula | 10 fichas: "O resultado sai por WhatsApp ou e-mail. Depois dele, 2 dias úteis para recurso e 10 dias úteis para a matrícula, se houver bolsa." 12 fichas, até U1: "Depois do resultado, 2 dias úteis para recurso." (sem canal e sem prazo de matrícula) |
 | [link_mestre] | Página que reúne as provas | [CONFIRMAR se existe]. Sem ela, M2 e M8 usam o link do WhatsApp de vendas |
 | [link_da_prova] | Página da prova da área, com UTM | Um link por mensagem |
 | [lista_das_especialidades_liberadas] | Lista das áreas liberadas na seção 5 | Montada pelo CRM no dia do envio |
 | [nota] | Nota do inscrito | Só nas mensagens de resultado |
 | [percentual_da_bolsa] | 50% (monitoria), 25% ou 10% | Só em M16 e M17 |
-| [data_limite_recurso] e [data_limite_matrícula] | 2 dias úteis e 10 dias úteis após a divulgação | Calculadas pela Ufape [CONFIRMAR calendário de dias úteis] |
+| [data_limite_recurso] e [data_limite_matrícula] | 2 dias úteis e [prazo_matrícula_da_ficha] após a divulgação | Calculadas pela Ufape [CONFIRMAR calendário de dias úteis] |
 | [turma_de_destino] e [condição_da_turma] | Turma, início e condição completa do catálogo | Só depois da resposta A-C2 |
 | [canal_de_recurso] | Como pedir recurso | [CONFIRMAR] |
 | [link_vendas] | WhatsApp de vendas: São Paulo (11) 91366-9290, Goiânia (62) 9420-1847 | Contatos oficiais de contexto/ufape-geral.md |
@@ -136,7 +153,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
 > Oi, [nome], aqui é da Faculdade UFAPE. [abertura_segmento]
 >
-> As provas de bolsa da Pós-graduação são em 27/11 (sexta), das 9h às 13h, presenciais em São Paulo ou em Goiânia, conforme a especialidade.
+> As provas de bolsa da Pós-graduação são em 27/11 (sexta), das 9h às 13h, online. Cada especialidade tem a sua prova, do campus São Paulo ou do campus Goiânia.
 >
 > Inscrição de R$ 100,00. 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0.
 >
@@ -146,7 +163,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
   [abertura_segmento]: lead, vazio. Ex-aluno: "Você já estudou com a gente."
 - **Chamada para ação:** responder com a especialidade.
-- **Resposta pronta do time quando o contato responde (janela de 24 h, sem template):** "Obrigado, [nome]. Esta é a página da prova de [área]: [link_da_prova]. Ela mostra data, local, regras e a inscrição. Se tiver dúvida, pergunte por aqui."
+- **Resposta pronta do time quando o contato responde (janela de 24 h, sem template):** "Obrigado, [nome]. Esta é a página da prova de [área]: [link_da_prova]. Ela mostra data, campus, regras e a inscrição. Se tiver dúvida, pergunte por aqui."
 - **Follow-up (quem não respondeu):** M5, sexta 06/11.
 - **Data e horário:** qua 04/11, 10h.
 - **Opt-in de WhatsApp confirmado:** envio só para [opt_in_whatsapp] igual a sim. Sem registro, não envia.
@@ -163,7 +180,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - Reserva: Prova de bolsa em 27/11: como funciona, em 6 pontos
 - Reserva: Quanto custa tentar uma bolsa na Pós-graduação da Ufape
 - Reserva: [nome], qual especialidade você quer fazer?
-- **Texto de pré-visualização:** Prova presencial em 27/11, das 9h às 13h, em São Paulo ou Goiânia, conforme a especialidade.
+- **Texto de pré-visualização:** Prova online em 27/11, das 9h às 13h, com provas do campus São Paulo e do campus Goiânia.
 - **Gancho:** a prova de bolsa como forma de conhecer o valor antes de decidir a matrícula.
 - **Corpo:**
 
@@ -173,17 +190,18 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 >
 > A Faculdade UFAPE aplica provas de bolsa para a Pós-graduação em 27 de novembro, sexta-feira, uma prova por especialidade.
 >
-> Escolher uma pós envolve decidir antes de saber quanto você pagaria. A prova de bolsa ajuda nessa decisão: você faz a prova e, se atingir a nota de corte e receber uma das bolsas, tem até 10 dias úteis para fazer a matrícula com ela.
+> Escolher uma pós envolve decidir antes de saber quanto você pagaria. A prova de bolsa ajuda nessa decisão: você faz a prova e, se atingir a nota de corte e receber uma das bolsas, faz a matrícula com ela dentro do prazo escrito na página da prova.
 >
 > Como funciona:
 > - Inscrição: R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão.
-> - Prova presencial em 27/11/2026, das 9h às 13h, com questões de múltipla escolha e dissertativas, em São Paulo ou em Goiânia, conforme a especialidade.
+> - Prova online em 27/11/2026, das 9h às 13h. Cada especialidade tem a sua prova, do campus São Paulo ou do campus Goiânia; a composição está na página de cada uma.
 > - 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%.
 > - Nota de corte 7,0 (mínimo de 70% de acerto). Em caso de empate, análise de currículo.
-> - Resultado por WhatsApp ou e-mail. Depois dele, 2 dias úteis para recurso e 10 dias úteis para a matrícula.
+> - Depois do resultado, 2 dias úteis para recurso. O canal do resultado e o prazo de matrícula são os da página de cada prova.
 > - A bolsa não é acumulativa e é intransferível.
+> - A turma é confirmada com o mínimo de 15 alunos.
 >
-> Especialidades com prova aberta: [lista_das_especialidades_liberadas].
+> Especialidades com prova aberta, com o campus de cada uma: [lista_das_especialidades_liberadas].
 >
 > Todas essas regras estão na página de cada prova.
 >
@@ -203,7 +221,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
 - **Canal:** WhatsApp
 - **Objetivo (único):** levar o contato à página da prova da especialidade de interesse dele.
-- **Segmento:** base com opt-in e [área_de_interesse] registrada em uma área liberada da seção 5, que ainda não se inscreveu. Goiânia só depois de o local ser corrigido.
+- **Segmento:** base com opt-in e [área_de_interesse] registrada em uma área liberada da seção 5, que ainda não se inscreveu. Goiânia liberada pela decisão 11 (prova online, mensagem com o campus); a Cardiologia de Goiânia (68642) segue bloqueada pelos links invertidos.
 - **Primeira linha A (teste):** Oi, [nome]. A prova de bolsa de [área] custa R$ 100,00 e tem 11 bolsas.
 - **Primeira linha B (teste):** [nome], você quer [área]? A prova de bolsa é em 27/11.
 - Reserva: [nome], tem prova de bolsa para a Pós-graduação em [área] em 27/11.
@@ -214,7 +232,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
 > Oi, [nome], aqui é da Faculdade UFAPE. [abertura_segmento] Você se interessou por [área] com a gente, por isso escrevo.
 >
-> A prova de bolsa para a Pós-graduação em [área] é em 27/11 (sexta), das 9h às 13h, presencial em [praça].
+> A prova de bolsa para a Pós-graduação em [área], campus [campus], é em 27/11 (sexta), das 9h às 13h, online.
 >
 > Inscrição de R$ 100,00. 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0.
 >
@@ -227,7 +245,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Follow-up (quem não respondeu nem clicou):** M5, sexta 06/11.
 - **Data e horário:** qua 04/11, 10h.
 - **Opt-in de WhatsApp confirmado:** só [opt_in_whatsapp] igual a sim.
-- **Template aprovado pela Meta:** pb_convite_area_lead_v1 e pb_convite_area_exaluno_v1 [SUPOSIÇÃO de nomes]; categoria marketing; variáveis {{1}} nome, {{2}} área, {{3}} praça, e botão de URL com sufixo dinâmico {{4}} (link da prova com UTM); botão "Sair". Submissão e aprovação pendentes.
+- **Template aprovado pela Meta:** pb_convite_area_lead_v1 e pb_convite_area_exaluno_v1 [SUPOSIÇÃO de nomes]; categoria marketing; variáveis {{1}} nome, {{2}} área, {{3}} campus, e botão de URL com sufixo dinâmico {{4}} (link da prova com UTM); botão "Sair". Submissão e aprovação pendentes.
 - **Forma de sair:** "responda SAIR" e botão "Sair".
 
 #### M4. E-mail, convite por área
@@ -240,7 +258,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - Reserva: [área]: como funciona a prova de bolsa da Ufape
 - Reserva: Quer se aprofundar em [área]? Tem prova de bolsa em 27/11
 - Reserva: Prova de bolsa de [área]: quantas bolsas e qual a nota de corte
-- **Texto de pré-visualização:** Prova presencial em [praça], em 27/11, das 9h às 13h. Regras completas na página.
+- **Texto de pré-visualização:** Prova online em 27/11, das 9h às 13h, campus [campus]. Regras completas na página.
 - **Gancho:** [frase_da_área] (hipótese por área, seção 5).
 - **Corpo:**
 
@@ -248,15 +266,15 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 >
 > [abertura_segmento_email] [frase_da_área]
 >
-> A Faculdade UFAPE aplica a prova de bolsa para a Pós-graduação em [área] em 27 de novembro, sexta-feira, das 9h às 13h, presencial em [praça].
+> A Faculdade UFAPE aplica a prova de bolsa para a Pós-graduação em [área], campus [campus], em 27 de novembro, sexta-feira, das 9h às 13h, online.
 >
 > - Inscrição: R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão.
 > - 11 bolsas: 2 de 50% (monitoria), 4 de 25% e 5 de 10%.
 > - Nota de corte 7,0 (mínimo de 70% de acerto). Em caso de empate, análise de currículo.
-> - Questões de múltipla escolha e dissertativas.
-> - Resultado por WhatsApp ou e-mail, 2 dias úteis para recurso e 10 dias úteis para a matrícula.
+> - [composição_da_ficha].
+> - [linha_prazos_da_ficha]
 > - A bolsa não é acumulativa e é intransferível.
-> - Local: [endereço_da_prova].
+> - A turma é confirmada com o mínimo de 15 alunos.
 >
 > [bloco_da_turma, só depois de A-C2: "A bolsa vale para a [turma_de_destino]. [condição_da_turma]"]
 >
@@ -292,7 +310,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 >
 > Enviei um e-mail na terça sobre as provas de bolsa da Pós-graduação e quero garantir que ele chegou até você. Os pontos principais:
 >
-> - Prova presencial em 27/11, sexta, das 9h às 13h.
+> - Prova online em 27/11, sexta, das 9h às 13h, do campus São Paulo ou do campus Goiânia, conforme a especialidade (na versão por área: campus [campus]).
 > - Inscrição de R$ 100,00.
 > - 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%.
 > - Nota de corte 7,0.
@@ -304,7 +322,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
   Nota para o QA: a palavra "garantir" refere-se ao recebimento do e-mail, não a bolsa ou resultado. Se o QA preferir, trocar por "confirmar que ele chegou".
 - **Chamada para ação:** "Ver a prova e me inscrever".
 - **Follow-up:** nenhum (último toque do e-mail antes de M7).
-- **Data e horário:** qui 05/11, 10h.
+- **Data e horário:** qui 05/11, 10h. Não sai para quem está na base do Workshop (05/11 tem o M10 do Workshop) nem para quem recebe o P2 de 68606 em 05/11 (D3).
 - **Opt-in:** consentimento de e-mail.
 - **Template Meta:** não se aplica.
 - **Forma de sair:** descadastro no rodapé.
@@ -329,7 +347,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 > Para não receber mais mensagens, responda SAIR.
 - **Chamada para ação:** abrir o link.
 - **Follow-up:** nenhum nesta etapa. Quem responde vai para o time de vendas; quem não responde recebe M9 em 24/11.
-- **Data e horário:** sex 06/11, 10h.
+- **Data e horário:** sex 06/11, 10h. Não sai para quem recebe o P2 de 68606 por WhatsApp em 06/11 (D3).
 - **Opt-in de WhatsApp confirmado:** só [opt_in_whatsapp] igual a sim.
 - **Template aprovado pela Meta:** pb_lembrete_v1 [SUPOSIÇÃO de nome]; categoria marketing; variáveis {{1}} nome e botão de URL dinâmico {{2}}; botão "Sair". Submissão pendente.
 - **Forma de sair:** "responda SAIR" e botão "Sair".
@@ -340,7 +358,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Objetivo (único):** responder às dúvidas mais comuns e levar à inscrição.
 - **Segmento:** base com consentimento que ainda não se inscreveu.
 - **Assunto A (teste):** [nome], 5 dúvidas sobre a prova de bolsa, respondidas
-- **Assunto B (teste):** Quantas bolsas, qual a nota de corte e o que levar na prova
+- **Assunto B (teste):** Quantas bolsas, qual a nota de corte e como é a prova
 - Reserva: Prova de bolsa da Pós-graduação: como funciona, passo a passo
 - Reserva: O que acontece depois da prova de bolsa
 - Reserva: A prova é online? Dá para acumular a bolsa? Respostas
@@ -354,20 +372,20 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 >
 > **Como funciona, em ordem**
 > 1. Você se inscreve na prova da sua especialidade (R$ 100,00 à vista, no Pix ou boleto, ou 1x no cartão).
-> 2. Faz a prova presencial em 27/11, das 9h às 13h.
-> 3. Recebe o resultado por WhatsApp ou e-mail.
+> 2. Faz a prova online em 27/11, das 9h às 13h.
+> 3. Recebe o resultado pelo canal escrito na página da prova.
 > 4. Tem 2 dias úteis para recurso.
-> 5. Se for contemplado com bolsa, tem até 10 dias úteis para a matrícula.
+> 5. Se for contemplado com bolsa, faz a matrícula dentro do prazo escrito na página da prova.
 >
 > **Quantas bolsas há?** 11 por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%.
 >
 > **Qual a nota de corte?** 7,0, o que equivale a 70% de acerto. Em caso de empate, análise de currículo.
 >
-> **A prova é online?** Não. É presencial, em São Paulo ou em Goiânia, conforme a especialidade.
+> **A prova é online?** Sim. Cada especialidade tem a sua prova, do campus São Paulo ou do campus Goiânia, e todas são online. [acesso_online]
 >
 > **Posso acumular a bolsa com outra condição?** Não. A bolsa não é acumulativa e é intransferível.
 >
-> **O que levo?** Documento com foto. Celular e relógio não são permitidos no dia da prova.
+> **A turma pode não abrir?** Pode. A turma é confirmada com o mínimo de 15 alunos.
 >
 > [Botão] Escolher a minha prova: [link_mestre]
 >
@@ -375,7 +393,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
   Perguntas sobre "para qual turma a bolsa vale" e "quanto custa a pós" não entram neste e-mail até a Ufape responder o destino (A-C2). Quando entrarem, usar a resposta 3 e a resposta 6 da seção 6, com condição completa.
 - **Chamada para ação:** "Escolher a minha prova".
-- **Follow-up (quem não abriu):** qui 12/11, 10h. Assunto: "[nome], 11 bolsas por prova, inscrição de R$ 100,00". Texto: "Olá, [nome]. Resumo da prova de bolsa da Pós-graduação: 27/11, das 9h às 13h, presencial, nota de corte 7,0. Regras e inscrição: [link_mestre]".
+- **Follow-up (quem não abriu):** qui 12/11, 10h. Assunto: "[nome], 11 bolsas por prova, inscrição de R$ 100,00". Texto: "Olá, [nome]. Resumo da prova de bolsa da Pós-graduação: 27/11, das 9h às 13h, online, do campus São Paulo ou Goiânia conforme a especialidade, nota de corte 7,0. Regras e inscrição: [link_mestre]". Não sai para quem está na base do Workshop (D3: o e-mail de 14/11 do Workshop já é o segundo da semana).
 - **Data e horário:** ter 10/11, 10h.
 - **Opt-in:** consentimento de e-mail.
 - **Template Meta:** não se aplica.
@@ -388,32 +406,32 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Segmento:** base com consentimento que não se inscreveu. Só envia se a inscrição estiver aberta no catálogo no dia do envio. Se a Ufape informar prazo de inscrição, a data real entra no texto; sem ele, o texto não diz "inscrições até" [CONFIRMAR prazo].
 - **Assunto A (teste):** A prova de bolsa da Pós-graduação é na sexta, 27/11
 - **Assunto B (teste):** [nome], a prova de bolsa de [área] é na sexta
-- Reserva: Prova de bolsa na sexta: horário, local e regras
+- Reserva: Prova de bolsa na sexta: horário, campus e regras
 - Reserva: Prova de bolsa em 27/11: R$ 100,00 e 11 bolsas por prova
 - Reserva: [nome], sexta é a prova de bolsa. Veja as regras antes
-- **Texto de pré-visualização:** Das 9h às 13h, presencial. Documento com foto, sem celular e relógio.
-- **Gancho:** a data real da prova e o que levar.
+- **Texto de pré-visualização:** Das 9h às 13h, online. O campus de cada prova está na página.
+- **Gancho:** a data real da prova e as regras.
 - **Corpo:**
 
 > Olá, [nome],
 >
-> A prova de bolsa para a Pós-graduação [em [área]] é na sexta-feira, 27 de novembro, das 9h às 13h, presencial em [praça].
+> A prova de bolsa para a Pós-graduação [em [área], campus [campus]] é na sexta-feira, 27 de novembro, das 9h às 13h, online.
 >
 > Se você ainda não se inscreveu, a inscrição é feita pela página da prova: R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão.
 >
 > O que vale saber:
 > - 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%.
 > - Nota de corte 7,0 (70% de acerto).
-> - Leve documento com foto. Celular e relógio não são permitidos.
-> - Resultado por WhatsApp ou e-mail, 2 dias úteis para recurso e 10 dias úteis para a matrícula.
+> - [linha_prazos_da_ficha] (na versão mestre: "Depois do resultado, 2 dias úteis para recurso. O canal do resultado e o prazo de matrícula são os da página de cada prova.")
+> - A turma é confirmada com o mínimo de 15 alunos.
 >
 > [Botão] Fazer a inscrição: [link_da_prova ou link_mestre]
 >
 > Equipe de relacionamento, Faculdade UFAPE
 
 - **Chamada para ação:** "Fazer a inscrição".
-- **Follow-up (quem não abriu):** qua 25/11, 10h. Assunto: "Prova de bolsa na sexta: horário, local e regras". Texto de duas linhas com data, horário, inscrição de R$ 100,00 e o link.
-- **Data e horário:** seg 23/11, 10h (nenhuma mensagem de prova em 20 e 21/11).
+- **Follow-up (quem não abriu):** qua 25/11, 10h. Assunto: "Prova de bolsa na sexta: horário, campus e regras". Texto de duas linhas com data, horário, prova online, inscrição de R$ 100,00 e o link. Não sai para participante do Workshop (25/11 tem o M9 do Workshop, D3).
+- **Data e horário:** seg 23/11, 10h; para participante do Workshop, 16h, porque às 9h ele recebe o M8 de serviço do Workshop (D3). Nenhuma mensagem de campanha em 20 e 21/11.
 - **Opt-in:** consentimento de e-mail.
 - **Template Meta:** não se aplica.
 - **Forma de sair:** descadastro no rodapé.
@@ -431,9 +449,9 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Gancho:** a data real e a oferta de ajuda.
 - **Corpo (texto do template):**
 
-> Oi, [nome], é da Faculdade UFAPE. A prova de bolsa para a Pós-graduação em [área] é na sexta, 27/11, das 9h às 13h, presencial em [praça].
+> Oi, [nome], é da Faculdade UFAPE. A prova de bolsa para a Pós-graduação em [área], campus [campus], é na sexta, 27/11, das 9h às 13h, online.
 >
-> Inscrição de R$ 100,00. 11 bolsas por prova, nota de corte 7,0. Leve documento com foto; celular e relógio não são permitidos.
+> Inscrição de R$ 100,00. 11 bolsas por prova, nota de corte 7,0. Turma confirmada com o mínimo de 15 alunos.
 >
 > Regras e inscrição: [link_da_prova]
 >
@@ -442,7 +460,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Follow-up:** nenhum. Quem responde vai para o time de vendas.
 - **Data e horário:** ter 24/11, 10h.
 - **Opt-in de WhatsApp confirmado:** só [opt_in_whatsapp] igual a sim.
-- **Template aprovado pela Meta:** pb_reta_final_v1 [SUPOSIÇÃO de nome]; categoria marketing; variáveis {{1}} nome, {{2}} área, {{3}} praça, botão de URL dinâmico {{4}}; botão "Sair". Submissão pendente.
+- **Template aprovado pela Meta:** pb_reta_final_v1 [SUPOSIÇÃO de nome]; categoria marketing; variáveis {{1}} nome, {{2}} área, {{3}} campus, botão de URL dinâmico {{4}}; botão "Sair". Submissão pendente.
 - **Forma de sair:** "responda SAIR" e botão "Sair".
 
 ### 3.3 Confirmação de inscrição, com as regras
@@ -454,10 +472,10 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Segmento:** inscrito com pagamento confirmado.
 - **Assunto A (teste):** Inscrição confirmada: prova de bolsa de [área], 27/11
 - **Assunto B (teste):** [nome], sua inscrição na prova de bolsa está confirmada
-- Reserva: Prova de bolsa de [área]: horário, local e o que levar
+- Reserva: Prova de bolsa de [área]: horário, campus e regras
 - Reserva: Tudo certo com a sua inscrição. Veja as regras da prova
 - Reserva: Sua inscrição na prova de [área] foi recebida
-- **Texto de pré-visualização:** 27/11, das 9h às 13h. Leve documento com foto.
+- **Texto de pré-visualização:** 27/11, das 9h às 13h, online. Campus [campus].
 - **Gancho:** a confirmação com tudo o que a pessoa precisa no dia.
 - **Corpo:**
 
@@ -467,12 +485,12 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 >
 > - Data: sexta-feira, 27 de novembro de 2026.
 > - Horário: das 9h às 13h.
-> - Local: [endereço_da_prova].
-> - Leve documento com foto.
-> - Celular e relógio não são permitidos no dia da prova.
-> - A prova tem questões de múltipla escolha e dissertativas. Nota de corte 7,0 (70% de acerto).
-> - O resultado sai por WhatsApp ou e-mail. Depois dele, 2 dias úteis para recurso e 10 dias úteis para a matrícula, se houver bolsa.
+> - Prova online. Campus da prova: [campus].
+> - [acesso_online]
+> - [composição_da_ficha]. Nota de corte 7,0 (70% de acerto).
+> - [linha_prazos_da_ficha]
 > - A bolsa não é acumulativa e é intransferível.
+> - A turma é confirmada com o mínimo de 15 alunos.
 >
 > Se algum dado estiver errado, responda este e-mail com a correção.
 >
@@ -486,7 +504,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Opt-in:** consentimento de e-mail ou relação de serviço registrada [CONFIRMAR base legal com a Ufape].
 - **Template Meta:** não se aplica.
 - **Forma de sair:** descadastro no rodapé (vale para mensagens de campanha; a de serviço segue a regra da Ufape [CONFIRMAR]).
-- **Bloqueio:** prova de Goiânia só com [endereço_da_prova] confirmado. Prova de Felinos fora da régua.
+- **Bloqueio:** [acesso_online] só entra com a resposta da Ufape (U2); até lá, M10 sai sem essa linha. Nas 12 fichas que se contradizem por dentro (seção 4.1), [linha_prazos_da_ficha] sai só com o prazo de recurso até a resposta U1. O bloqueio de Goiânia por endereço caiu (decisão 11). Prova de Felinos fora da régua.
 
 #### M11. WhatsApp, confirmação de inscrição
 
@@ -496,25 +514,24 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Primeira linha A (teste):** [nome], sua inscrição na prova de bolsa de [área] está confirmada.
 - **Primeira linha B (teste):** Oi, [nome]. Recebemos sua inscrição na prova de [área].
 - Reserva: [nome], prova de bolsa em 27/11, das 9h às 13h. Inscrição confirmada.
-- Reserva: [nome], tudo certo com sua inscrição. Veja o que levar.
+- Reserva: [nome], tudo certo com sua inscrição. Veja as regras.
 - Reserva: [nome], guarde estas informações da prova de [área].
 - **Gancho:** a pessoa acabou de pagar e quer saber se deu certo.
 - **Corpo (texto do template):**
 
 > Oi, [nome], aqui é da Faculdade UFAPE. Sua inscrição na prova de bolsa para a Pós-graduação em [área] está confirmada.
 >
-> Sexta, 27/11, das 9h às 13h.
-> Local: [endereço_da_prova].
-> Leve documento com foto. Celular e relógio não são permitidos.
+> Sexta, 27/11, das 9h às 13h, online. Campus da prova: [campus].
+> [acesso_online]
 >
-> O resultado sai por WhatsApp ou e-mail. Depois dele, 2 dias úteis para recurso e 10 dias úteis para a matrícula, se houver bolsa.
+> [linha_prazos_da_ficha]
 >
 > Se algum dado estiver errado, responda esta mensagem.
 - **Chamada para ação:** responder se algum dado estiver errado.
 - **Follow-up:** M13 (véspera).
 - **Data e horário:** logo após o pagamento, dentro da janela comercial. Pagamento fora da janela: o e-mail M10 vai na hora e este WhatsApp espera abrir.
 - **Opt-in de WhatsApp confirmado:** [opt_in_whatsapp] igual a sim. Inscrito sem opt-in recebe só o e-mail.
-- **Template aprovado pela Meta:** pb_confirmacao_inscricao_v1 [SUPOSIÇÃO de nome]; categoria de utilidade, a Meta decide a classificação; variáveis {{1}} nome, {{2}} área, {{3}} endereço da prova. Submissão pendente.
+- **Template aprovado pela Meta:** pb_confirmacao_inscricao_v1 [SUPOSIÇÃO de nome]; categoria de utilidade, a Meta decide a classificação; variáveis {{1}} nome, {{2}} área, {{3}} campus, {{4}} linha de prazos da ficha, {{5}} acesso online (só depois de U2). Submissão pendente.
 - **Forma de sair:** "responda SAIR para parar de receber mensagens que não sejam sobre a sua prova" [CONFIRMAR com a Ufape o alcance da saída em mensagem de serviço].
 - **Bloqueio:** mesmo de M10.
 
@@ -526,12 +543,12 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Objetivo (único):** fazer o inscrito confirmar presença.
 - **Segmento:** inscrito.
 - **Assunto A (teste):** [nome], amanhã é a prova de bolsa de [área]
-- **Assunto B (teste):** Prova de bolsa amanhã: horário, local e o que levar
+- **Assunto B (teste):** Prova de bolsa amanhã: horário, campus e acesso
 - Reserva: Amanhã, das 9h às 13h: prova de bolsa
 - Reserva: [nome], confirme sua presença na prova de amanhã
 - Reserva: Checklist da prova de bolsa de amanhã
-- **Texto de pré-visualização:** Das 9h às 13h. Documento com foto, sem celular e relógio.
-- **Gancho:** a lista do que levar, na véspera.
+- **Texto de pré-visualização:** Das 9h às 13h, online. Campus [campus].
+- **Gancho:** o essencial da prova, na véspera.
 - **Corpo:**
 
 > Olá, [nome],
@@ -539,10 +556,8 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 > Amanhã, sexta-feira, 27/11, é a sua prova de bolsa para a Pós-graduação em [área].
 >
 > - Horário: das 9h às 13h.
-> - Local: [endereço_da_prova].
-> - Leve documento com foto.
-> - Celular e relógio não são permitidos no dia da prova.
-> - Planeje a chegada com folga.
+> - Prova online. Campus da prova: [campus].
+> - [acesso_online]
 >
 > Para confirmarmos sua presença, responda este e-mail com a palavra SIM.
 >
@@ -556,7 +571,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Opt-in:** consentimento ou relação de serviço [CONFIRMAR].
 - **Template Meta:** não se aplica.
 - **Forma de sair:** descadastro no rodapé.
-- Nota: a hora limite de entrada no local não está publicada [CONFIRMAR tolerância de atraso]. O texto não inventa horário de chegada.
+- Nota: como é o acesso à prova online e se há tolerância de atraso não está publicado [CONFIRMAR U2]. O texto não inventa horário de entrada.
 
 #### M13. WhatsApp, véspera
 
@@ -565,7 +580,7 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 - **Segmento:** inscrito com opt-in de WhatsApp.
 - **Primeira linha A (teste):** [nome], amanhã é a sua prova de bolsa, das 9h às 13h.
 - **Primeira linha B (teste):** [nome], você vai à prova de bolsa de amanhã?
-- Reserva: [nome], prova de bolsa amanhã. Veja o que levar.
+- Reserva: [nome], prova de bolsa amanhã. Veja o horário.
 - Reserva: Oi, [nome]. Lembrete da prova de [área]: amanhã, 27/11.
 - Reserva: [nome], checklist da prova de amanhã.
 - **Gancho:** lembrete útil, com pergunta simples.
@@ -573,49 +588,48 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 
 > Oi, [nome], aqui é da Faculdade UFAPE. Amanhã, sexta, 27/11, é a sua prova de bolsa para a Pós-graduação em [área].
 >
-> Das 9h às 13h, em [endereço_da_prova].
-> Leve documento com foto. Celular e relógio não são permitidos.
+> Das 9h às 13h, online. Campus da prova: [campus].
+> [acesso_online]
 >
 > Você vai? Responda SIM para confirmar.
 - **Chamada para ação:** responder SIM.
 - **Follow-up:** M15 (dia da prova). Quem responde NÃO ou pergunta sobre ausência vai para o time de vendas, sem promessa de reembolso (resposta 11 da seção 6).
 - **Data e horário:** qui 26/11, 14h.
 - **Opt-in de WhatsApp confirmado:** [opt_in_whatsapp] igual a sim.
-- **Template aprovado pela Meta:** pb_vespera_v1 [SUPOSIÇÃO de nome]; categoria de utilidade (a Meta decide); variáveis {{1}} nome, {{2}} área, {{3}} endereço; botão de resposta rápida "Sim, vou". Submissão pendente.
+- **Template aprovado pela Meta:** pb_vespera_v1 [SUPOSIÇÃO de nome]; categoria de utilidade (a Meta decide); variáveis {{1}} nome, {{2}} área, {{3}} campus, {{4}} acesso online (só depois de U2); botão de resposta rápida "Sim, vou". Submissão pendente. É também o C25 da 1.19 (D4).
 - **Forma de sair:** "responda SAIR" para parar de receber mensagens de campanha [CONFIRMAR alcance].
 
 #### M14. E-mail, dia da prova
 
 - **Canal:** e-mail (serviço)
-- **Objetivo (único):** lembrar horário, local e regras no dia.
+- **Objetivo (único):** lembrar horário, campus, acesso e regras no dia.
 - **Segmento:** inscrito.
 - **Assunto A (teste):** Hoje é a prova de bolsa: das 9h às 13h
 - **Assunto B (teste):** [nome], boa prova hoje
 - Reserva: Prova de bolsa de [área] hoje, 27/11
-- Reserva: Hoje, das 9h às 13h: documento com foto e sem celular
-- Reserva: [nome], hoje é o dia. Local e regras
-- **Texto de pré-visualização:** Local, horário e o que levar.
-- **Gancho:** o essencial, em poucas linhas, antes de sair de casa.
+- Reserva: Hoje, das 9h às 13h: prova online
+- Reserva: [nome], hoje é o dia. Acesso e regras
+- **Texto de pré-visualização:** Horário, campus e acesso.
+- **Gancho:** o essencial, em poucas linhas, antes da prova.
 - **Corpo:**
 
 > Olá, [nome],
 >
 > Hoje é a prova de bolsa para a Pós-graduação em [área].
 >
-> - Das 9h às 13h.
-> - Local: [endereço_da_prova].
-> - Documento com foto.
-> - Celular e relógio não são permitidos.
+> - Das 9h às 13h, online.
+> - Campus da prova: [campus].
+> - [acesso_online]
 >
-> Se algo impedir a sua chegada, responda este e-mail agora.
+> Se algo impedir você de fazer a prova, responda este e-mail agora.
 >
 > Boa prova.
 >
 > Equipe de relacionamento, Faculdade UFAPE
 
-- **Chamada para ação:** responder se algo impedir a chegada.
+- **Chamada para ação:** responder se algo impedir a prova.
 - **Follow-up:** nenhum.
-- **Data e horário:** sex 27/11, 7h [CONFIRMAR horário de envio].
+- **Data e horário:** sex 27/11, 7h (dentro da janela de e-mail das 7h às 19h, D1). Se a exceção R2 for recusada, é a mensagem do dia.
 - **Opt-in:** consentimento ou relação de serviço [CONFIRMAR].
 - **Template Meta:** não se aplica.
 - **Forma de sair:** descadastro no rodapé.
@@ -623,31 +637,31 @@ Frase padrão de oferta usada nos textos, igual à da campanha: "Inscrição de 
 #### M15. WhatsApp, dia da prova
 
 - **Canal:** WhatsApp (serviço)
-- **Objetivo (único):** lembrar horário, local e regras no dia.
-- **Segmento:** inscrito com opt-in. Só envia se a Ufape aprovar janela de WhatsApp a partir das 8h; sem essa aprovação, o dia da prova fica só no e-mail M14 e a véspera M13 cobre o WhatsApp [SUPOSIÇÃO de conflito com o horário comercial das 9h].
+- **Objetivo (único):** lembrar horário, campus, acesso e regras no dia.
+- **Segmento:** inscrito com opt-in. Só envia se a pessoa do marketing aprovar a exceção de serviço fora da janela (pedido R2 da seção 12.11 do plano do cmo); se for recusada, o dia da prova fica só no e-mail M14 e a véspera M13 leva o essencial.
 - **Primeira linha A (teste):** [nome], hoje é a prova de bolsa. Das 9h às 13h.
 - **Primeira linha B (teste):** Boa prova hoje, [nome].
-- Reserva: [nome], prova de bolsa hoje. Documento com foto.
-- Reserva: [nome], hoje, em [endereço_da_prova], das 9h às 13h.
+- Reserva: [nome], prova de bolsa hoje, online.
+- Reserva: [nome], hoje, das 9h às 13h, prova online do campus [campus].
 - Reserva: [nome], lembrete rápido da prova de hoje.
 - **Gancho:** o essencial do dia.
 - **Corpo (texto do template):**
 
 > Oi, [nome], hoje é a sua prova de bolsa para a Pós-graduação em [área].
 >
-> Das 9h às 13h, em [endereço_da_prova]. Documento com foto. Celular e relógio não são permitidos.
+> Das 9h às 13h, online. Campus da prova: [campus]. [acesso_online]
 >
-> Se algo impedir a sua chegada, responda esta mensagem. Boa prova.
-- **Chamada para ação:** responder se algo impedir a chegada.
+> Se algo impedir você de fazer a prova, responda esta mensagem. Boa prova.
+- **Chamada para ação:** responder se algo impedir a prova.
 - **Follow-up:** nenhum.
-- **Data e horário:** sex 27/11, 8h, com a condição acima.
+- **Data e horário:** sex 27/11, 8h, só com R2 aprovado.
 - **Opt-in de WhatsApp confirmado:** [opt_in_whatsapp] igual a sim.
-- **Template aprovado pela Meta:** pb_dia_prova_v1 [SUPOSIÇÃO de nome]; categoria de utilidade (a Meta decide); variáveis {{1}} nome, {{2}} área, {{3}} endereço. Submissão pendente.
+- **Template aprovado pela Meta:** pb_dia_prova_v1 [SUPOSIÇÃO de nome]; categoria de utilidade (a Meta decide); variáveis {{1}} nome, {{2}} área, {{3}} campus, {{4}} acesso online (só depois de U2). Submissão pendente. É também o C25 da 1.19 (D4).
 - **Forma de sair:** "responda SAIR" [CONFIRMAR alcance].
 
 ### 3.5 Pós-prova
 
-Regras comuns de M16 a M20: a data da divulgação do resultado, o canal do recurso e o calendário de dias úteis são da Ufape [CONFIRMAR]. A Ufape informa o resultado, o texto só o comunica. As mensagens nunca citam valor com bolsa aplicada; o time de vendas informa, com todas as condições. Nenhuma promete vaga, matrícula, aprovação futura ou emprego. [turma_de_destino] só entra depois de A-C2; antes, a frase alternativa é "O time de matrícula confirma com você a turma de destino na conversa".
+Regras comuns de M16 a M20: são mensagens de serviço, fora do teto de campanha (D4 do plano do cmo): são o resultado do que a pessoa contratou, e a chamada de conversa faz parte do resultado. A data da divulgação do resultado, o canal do recurso e o calendário de dias úteis são da Ufape [CONFIRMAR U3]. O canal e o prazo de matrícula são os da ficha da prova (seção 4.1); nas 12 fichas que se contradizem por dentro, ficam [CONFIRMAR U1] e M16 e M17 dessas provas esperam a resposta. A Ufape informa o resultado, o texto só o comunica. As mensagens nunca citam valor com bolsa aplicada; o time de vendas informa, com todas as condições. Nenhuma promete vaga, matrícula, aprovação futura ou emprego. [turma_de_destino] só entra depois de A-C2; antes, a frase alternativa é "O time de matrícula confirma com você a turma de destino na conversa".
 
 Assuntos do e-mail de resultado (a família serve para M17, M18, M19 e M20; o assunto não revela o resultado para não expor a pessoa em notificação). Como a abertura é de alta intenção, não precisa de teste A e B; os dois primeiros ficam como padrão e reserva.
 
@@ -674,13 +688,13 @@ Assuntos do e-mail de resultado (a família serve para M17, M18, M19 e M20; o as
 >
 > Sua nota: [nota]. Bolsa: [percentual_da_bolsa].
 >
-> Prazos: 2 dias úteis para recurso (até [data_limite_recurso]) e 10 dias úteis para a matrícula com a bolsa (até [data_limite_matrícula]). A bolsa não é acumulativa e é intransferível.
+> Prazos: 2 dias úteis para recurso (até [data_limite_recurso]) e [prazo_matrícula_da_ficha] para a matrícula com a bolsa (até [data_limite_matrícula]). A bolsa não é acumulativa e é intransferível.
 >
 > [Turma: [turma_de_destino], ou, sem destino confirmado: O time de matrícula confirma com você a turma de destino na conversa.]
 >
 > O time de matrícula explica as condições completas e o valor com a bolsa aplicada. Fale com ele aqui: [link_vendas]
 - **Chamada para ação:** falar com o time de matrícula (um link).
-- **Follow-up:** no 7º dia útil do prazo, para quem não matriculou: "[nome], o prazo da matrícula com bolsa termina em [data_limite_matrícula]. O time de matrícula está por aqui para as suas dúvidas: [link_vendas]." A data é real e vem do calendário da Ufape.
+- **Follow-up (serviço, como o lembrete J3 da jornada, se aprovado em JR3):** 3 dias úteis antes de [data_limite_matrícula], para quem não matriculou: "[nome], o prazo da matrícula com bolsa termina em [data_limite_matrícula]. O time de matrícula está por aqui para as suas dúvidas: [link_vendas]." A data é real e vem do calendário da Ufape.
 - **Data e horário:** dia da divulgação [CONFIRMAR], em horário comercial.
 - **Opt-in de WhatsApp confirmado:** [opt_in_whatsapp] igual a sim. Sem opt-in, só e-mail (M17).
 - **Template aprovado pela Meta:** pb_resultado_com_bolsa_v1 [SUPOSIÇÃO de nome]; categoria de utilidade (a Meta decide); variáveis {{1}} nome, {{2}} área, {{3}} nota, {{4}} percentual, {{5}} data limite do recurso, {{6}} data limite da matrícula, botão de URL dinâmico {{7}} para o WhatsApp de vendas. Submissão pendente.
@@ -703,7 +717,7 @@ Assuntos do e-mail de resultado (a família serve para M17, M18, M19 e M20; o as
 > - Sua nota: [nota].
 > - Bolsa: [percentual_da_bolsa].
 > - Recurso: até [data_limite_recurso] (2 dias úteis após a divulgação). Como pedir: [canal_de_recurso].
-> - Matrícula com a bolsa: até [data_limite_matrícula] (10 dias úteis após a divulgação).
+> - Matrícula com a bolsa: até [data_limite_matrícula] ([prazo_matrícula_da_ficha] após a divulgação).
 > - A bolsa não é acumulativa e é intransferível.
 >
 > [Turma: [turma_de_destino], com [condição_da_turma], ou, sem destino confirmado: O time de matrícula confirma com você a turma de destino na conversa.]
@@ -715,7 +729,7 @@ Assuntos do e-mail de resultado (a família serve para M17, M18, M19 e M20; o as
 > Equipe de relacionamento, Faculdade UFAPE
 
 - **Chamada para ação:** "Falar com o time de matrícula".
-- **Follow-up:** no 7º dia útil do prazo, a mesma lógica de M16, por e-mail, com o assunto "Matrícula com bolsa: o prazo termina em [data_limite_matrícula]".
+- **Follow-up:** 3 dias úteis antes de [data_limite_matrícula], a mesma lógica de M16, por e-mail, com o assunto "Matrícula com bolsa: o prazo termina em [data_limite_matrícula]".
 - **Data e horário:** dia da divulgação [CONFIRMAR].
 - **Opt-in:** consentimento ou relação de serviço [CONFIRMAR].
 - **Template Meta:** não se aplica.
@@ -796,7 +810,7 @@ Assuntos do e-mail de resultado (a família serve para M17, M18, M19 e M20; o as
 > [regra_oficial_de_ausência, se a Ufape aprovar um texto]
 - **Chamada para ação:** responder TURMA.
 - **Follow-up:** nenhum.
-- **Data e horário:** primeiro dia útil depois da prova (seg 30/11), 10h [CONFIRMAR política].
+- **Data e horário:** primeiro dia útil depois da prova (seg 30/11), 10h [CONFIRMAR política, U3]. Serviço (D4). Depois dela, o ausente fica fora de campanha até o fim do prazo de matrícula dos aprovados da mesma prova (J6).
 - **Opt-in:** WhatsApp só com [opt_in_whatsapp] igual a sim; e-mail com consentimento ou relação de serviço [CONFIRMAR].
 - **Template Meta:** pb_ausente_v1 [SUPOSIÇÃO de nome]; marketing ou utilidade conforme a Meta decidir; variáveis {{1}} nome, {{2}} área; botão "Turma". Submissão pendente.
 - **Forma de sair:** "responda SAIR" no WhatsApp; descadastro no e-mail.
@@ -823,11 +837,11 @@ Sempre medir clique, resposta, inscrição e matrícula, não só abertura e lei
 
 ## 4. Variações por área (para M3 e M4)
 
-A versão por área troca [área], [praça], [link_da_prova] e a [frase_da_área]. A frase é hipótese de rotina [SUPOSIÇÃO], a validar com as conversas do WhatsApp de vendas que ainda não chegaram. Não é fala de aluno e não vira depoimento.
+A versão por área troca [área], [campus], [link_da_prova] e a [frase_da_área]. A frase é hipótese de rotina [SUPOSIÇÃO], a validar com as conversas do WhatsApp de vendas que ainda não chegaram. Não é fala de aluno e não vira depoimento.
 
-**Regra de liberação (estratégia de campanha, seções 3.2 e 3.4):** só as provas em D1 recebem a versão por área. D2, D3 e D4 entram apenas na lista da versão mestre (e só as que a Ufape confirmar). Provas de Goiânia só depois da correção do local; a Cardiologia de Goiânia também depois da correção dos links.
+**Regra de liberação (estratégia de campanha, seções 3.2 e 3.4):** só as provas em D1 recebem a versão por área. D2, D3 e D4 entram apenas na lista da versão mestre (e só as que a Ufape confirmar). Provas de Goiânia liberadas pela decisão 11 (prova online; a mensagem diz o campus); a Cardiologia de Goiânia (68642) segue bloqueada até a correção dos links.
 
-| Prova | [área] (nome no CRM) | Praça | Situação | Versão por área | [frase_da_área] (hipótese) |
+| Prova | [área] (nome no CRM) | Campus | Situação | Versão por área | [frase_da_área] (hipótese) |
 |---|---|---|---|---|---|
 | 68645 | Clínica Médica e Emergência Veterinária | São Paulo | D1 | Liberada | Se o paciente crítico do plantão é o que você quer dominar, esta prova é um caminho. |
 | 68648 | Endocrinologia de Pequenos Animais | São Paulo | D1 | Liberada | Se o paciente endócrino que exige acompanhamento de longo prazo faz parte da sua rotina, vale conhecer esta prova. |
@@ -836,9 +850,9 @@ A versão por área troca [área], [praça], [link_da_prova] e a [frase_da_área
 | 68658 | Patologia Clínica Veterinária | São Paulo | D1 | Liberada | Se você quer fechar o caso sem depender do laboratório ou do colega, esta prova pode ajudar na decisão. |
 | 68659 | Pneumologia Veterinária | São Paulo | D1 | Liberada | Se o paciente com doença respiratória é o que você quer aprofundar, esta prova é uma porta de entrada. |
 | 68661 | Ultrassonografia em Pequenos Animais | São Paulo | D1 | Liberada | Se você quer fazer o exame de imagem na sua própria clínica, esta prova é uma porta de entrada. |
-| 68640 | Anestesiologia Veterinária | Goiânia | D1 | Bloqueada: local de Goiânia | Se a segurança do protocolo anestésico na rotina é o que você quer aprofundar, esta prova pode ajudar. |
-| 68642 | Cardiologia Veterinária | Goiânia | D1 | Bloqueada: local de Goiânia e links invertidos | Se o paciente cardiopata faz parte da sua rotina e você quer dominá-lo, esta prova é um caminho. |
-| 68644 | Clínica Cirúrgica de Cães e Gatos | Goiânia | D1 | Bloqueada: local de Goiânia | Se você quer operar na própria clínica com mais segurança, esta prova é um caminho. |
+| 68640 | Anestesiologia Veterinária | Goiânia | D1 | Liberada (decisão 11) | Se a segurança do protocolo anestésico na rotina é o que você quer aprofundar, esta prova pode ajudar. |
+| 68642 | Cardiologia Veterinária | Goiânia | D1 | Bloqueada: links invertidos (o local deixou de bloquear, decisão 11) | Se o paciente cardiopata faz parte da sua rotina e você quer dominá-lo, esta prova é um caminho. |
+| 68644 | Clínica Cirúrgica de Cães e Gatos | Goiânia | D1 | Liberada (decisão 11) | Se você quer operar na própria clínica com mais segurança, esta prova é um caminho. |
 | 68646 | Dermatologia Veterinária | São Paulo | D2 | Só mestre (destino: turma começa em 28/11, A-C2) | - |
 | 68651 | Hematologia Veterinária | São Paulo | D2 | Só mestre (destino: turma começa em 28/11, A-C2) | - |
 | 68647 | Diagnóstico por Imagem | São Paulo | D2 | Só mestre (destino a decidir, A-C2) | - |
@@ -847,7 +861,7 @@ A versão por área troca [área], [praça], [link_da_prova] e a [frase_da_área
 | 68641 | Cardiologia Veterinária | São Paulo | D3 | Só mestre (sem turma de Cardiologia futura em SP; links invertidos) | - |
 | 68660 | Terapia Intensiva Veterinária | São Paulo | D3 | Só mestre (destino a decidir, A-C2) | - |
 | 68643 | Clínica Cirúrgica de Cães e Gatos | São Paulo | D3 | Só mestre (destino a decidir, A-C2) | - |
-| 68652 | Medicina de Felinos | São Paulo | D4 | Fora da mensagem até confirmar [CONFIRMAR destino]; página com regras contraditórias e frase de certificação | - |
+| 68652 | Medicina de Felinos | São Paulo | D4 | Fora da mensagem até confirmar [CONFIRMAR destino]; página com regras contraditórias (U1) e frase de certificação | - |
 | 68649 | Endoscopia Veterinária | São Paulo | D4 | Fora da mensagem até confirmar [CONFIRMAR destino] | - |
 | 68653 | Nefrologia e Urologia Veterinária | São Paulo | D4 | Fora da mensagem até confirmar [CONFIRMAR destino] | - |
 | 68655 | Odontologia Veterinária | São Paulo | D4 | Fora da mensagem até confirmar [CONFIRMAR destino] | - |
@@ -856,7 +870,20 @@ Oftalmologia (68656) não tem prova: fora da campanha. Nenhuma mensagem cita Oft
 
 Total conferido: 10 em D1, 4 em D2, 4 em D3 e 4 em D4, igual a 22.
 
-Cadência de Neurologia: o público fala também com o Workshop de Neuromonitorização (20 e 21/11, linha Eventos). Não juntar as duas ofertas na mesma mensagem e respeitar o limite semanal somado.
+### 4.1 Regra de cada ficha (decisão 11: vale a regra escrita na ficha de cada prova)
+
+Leitura das 22 fichas abertas em contexto/cursos/pos/ em 26/10/2026. Em todas: data 27/11/2026, horário "9 às 13h", nota de corte 7,0, 2 dias úteis para recurso, bolsa não acumulativa e intransferível, desempate por currículo, turma mínima de 15. As fichas ainda trazem "PROVA PRESENCIAL", endereço, documento com foto e "sem celular": pela decisão 11 a prova é online, o endereço sai, e documento e celular ficam em [CONFIRMAR U2].
+
+| Grupo | Provas | Campus | Prazo de matrícula | Canal do resultado | Composição |
+|---|---|---|---|---|---|
+| Regra única | 68639, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660 | São Paulo | 10 dias úteis | WhatsApp ou e-mail | múltipla escolha e dissertativas |
+| Regra única | 68640 | Goiânia | 10 dias úteis | WhatsApp ou e-mail | múltipla escolha e dissertativas |
+| Ficha que se contradiz | 68641, 68643, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661 | São Paulo | "até 10 dias (úteis)" no topo e "7 dias" no bloco REGRAS: [CONFIRMAR U1] | até três versões (WhatsApp e/ou e-mail; só e-mail; site da Faculdade): [CONFIRMAR U1] | 68641, 68645, 68650 a 68653, 68657 e 68659: 10 a 20 questões objetivas e/ou dissertativas; 68643: 20 questões objetivas e/ou dissertativas; 68661: múltipla escolha e dissertativas |
+| Ficha que se contradiz | 68642, 68644 | Goiânia | idem: [CONFIRMAR U1] | idem: [CONFIRMAR U1] | 68642: 10 a 20 questões objetivas e/ou dissertativas; 68644: 20 questões objetivas e/ou dissertativas |
+
+A squad não escolhe entre as versões de uma mesma ficha. Até a resposta U1, as mensagens dessas 12 provas citam só o prazo de recurso ([linha_prazos_da_ficha] da seção 2) e M16 e M17 delas esperam a resposta. Oftalmologia (68656) está encerrada e fora.
+
+Cadência de Neurologia: o público fala também com o Workshop Brasileiro de Neuromonitorização (20 e 21/11, linha Eventos). Não juntar as duas ofertas na mesma mensagem e respeitar o teto D1 e a fila D2. A prova de Neurologia (68654) ou de Anestesiologia (68639, São Paulo; 68640, Goiânia) só entra no M9 do Workshop se a venda cruzada AP10 for aprovada (R7) e o prazo de inscrição estiver confirmado (U3); isso é da copy-de-mensagens-eventos, não desta régua.
 
 ---
 
@@ -901,14 +928,14 @@ Para uso em conversa no WhatsApp de vendas (São Paulo: (11) 91366-9290; Goiâni
 Fonte: contexto/pos-graduacao.md e fichas das provas. Cuidado: nunca dizer "bolsa de 50%" sem a distribuição completa; não dizer "garantida". O que a monitoria exige e a ordem de distribuição das 11 bolsas: [CONFIRMAR]. Se perguntarem, diga que vai confirmar.
 
 **Resposta 2. Qual a nota?**
-> "A nota de corte é 7,0, que equivale a 70% de acerto. A prova tem questões de múltipla escolha e dissertativas. Em caso de empate, a Ufape faz análise de currículo."
+> "A nota de corte é 7,0, que equivale a 70% de acerto. A composição da prova de [área] está na página dela: [composição_da_ficha]. Em caso de empate, a Ufape faz análise de currículo."
 
-Fonte: contexto/pos-graduacao.md e ficha 68639. Cuidado: dizer "nota de corte" e não "nota para passar com bolsa". O que acontece com quem atinge 7,0 e fica sem bolsa: [CONFIRMAR] (ver M18). Não responder por conta própria.
+Fonte: contexto/pos-graduacao.md e ficha de cada prova (seção 4.1). Cuidado: dizer "nota de corte" e não "nota para passar com bolsa". O que acontece com quem atinge 7,0 e fica sem bolsa: [CONFIRMAR] (ver M18). Não responder por conta própria.
 
 **Resposta 3. A bolsa serve para qual turma?**
 > Enquanto a Ufape não confirmar o destino: "Boa pergunta. Vou confirmar com a coordenação para qual turma a bolsa da prova de [área] vale e já te respondo."
 >
-> Depois da confirmação (D1): "A bolsa da prova de [área] vale para a Pós-graduação em [área], [praça], turma com início em [data]. A condição da turma é: [parcelas]x de R$ [valor da parcela], total de R$ [total], matrícula de R$ [matrícula]."
+> Depois da confirmação (D1): "A bolsa da prova de [área] vale para a Pós-graduação em [área], [campus], turma com início em [data]. A condição da turma é: [parcelas]x de R$ [valor da parcela], total de R$ [total], matrícula de R$ [matrícula]."
 
 Fonte: nenhuma página traz o destino. A tabela da seção 5 é leitura da squad, não resposta oficial. Cuidado por situação: D1, só depois da confirmação; D2 (Dermatologia e Hematologia, turmas que começam em 28/11, e Imagem e Gastroenterologia, turmas que começam antes da prova), D3 e D4: não indicar turma e não sugerir esperar a prova para entrar com bolsa; encaminhar a pergunta à pessoa do marketing (A-C2).
 
@@ -918,9 +945,9 @@ Fonte: nenhuma página traz o destino. A tabela da seção 5 é leitura da squad
 Fonte: ficha 68639 e contexto. Cuidado: a regra do desconto de ex-aluno está em [PREENCHER] em contexto/ufape-geral.md; não explicar o desconto até a Ufape escrever. Promoções de turma (por exemplo, a de 20% da Pós-graduação em Medicina Interna Equina) não se combinam com a bolsa.
 
 **Resposta 5. A prova é online? E a pós?**
-> "A prova é presencial, em São Paulo ou em Goiânia, conforme a especialidade: sexta, 27/11, das 9h às 13h. A página não tem versão online. A maioria das turmas de pós é semipresencial: um módulo por mês, em fim de semana, com aulas online e módulos práticos presenciais obrigatórios. A Pós-graduação em Clínica Cirúrgica de Cães e Gatos de Goiânia é presencial."
+> "A prova é online: sexta, 27/11, das 9h às 13h. Cada especialidade tem a sua prova, do campus São Paulo ou do campus Goiânia. A maioria das turmas de pós é semipresencial: um módulo por mês, em fim de semana, com aulas online e módulos práticos presenciais obrigatórios. A Pós-graduação em Clínica Cirúrgica de Cães e Gatos de Goiânia é presencial."
 
-Fonte: catálogo (seções 2 e 3), contexto/pos-graduacao.md. Cuidado: não oferecer EAD (a turma EAD está em "verificar" no catálogo e não pode ser divulgada).
+Fonte: catálogo (seções 2 e 3), contexto/pos-graduacao.md, decisão 11 de 26/10/2026 (provas online). Cuidado: como é o acesso à prova online [CONFIRMAR U2]: se perguntarem, "vou confirmar como é o acesso e te passo". Não oferecer EAD (a turma EAD está em "verificar" no catálogo e não pode ser divulgada).
 
 **Resposta 6. Quanto custa a pós?**
 > "Depende da turma. Para a [turma], o investimento é [parcelas]x de R$ [valor], total de R$ [total], mais matrícula de R$ [matrícula]. O valor com a bolsa aplicada não calculo por mensagem: o time de matrícula informa com todas as condições quando o resultado sair."
@@ -934,20 +961,22 @@ Fonte: catálogo, seção 2 (valores por turma na seção 5 deste arquivo). Cuid
 
 Fonte: catálogo, seção 3. Cuidado: reembolso da inscrição não está publicado (resposta 11).
 
-**Resposta 8. Onde e a que horas? O que eu levo?**
-> "Sexta, 27/11, das 9h às 13h. Em São Paulo, é na Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista. Leve documento com foto. Celular e relógio não são permitidos no dia da prova."
+**Resposta 8. Onde e a que horas? O que eu preciso?**
+> "Sexta, 27/11, das 9h às 13h. A prova é online, então não há local para ir. A prova de [área] é do campus [campus]. Como é o acesso eu confirmo com a Ufape e te passo."
 
-Fonte: ficha 68639 e contexto/ufape-geral.md. Cuidado: para provas de Goiânia, não passar endereço até a Ufape confirmar (a página 68640 mostra o endereço de São Paulo): "Vou confirmar o local da prova de Goiânia e já te passo." Tolerância de atraso: [CONFIRMAR].
+Fonte: fichas das provas (horário) e decisão 11 de 26/10/2026 (provas online; a peça diferencia o campus). Cuidado: não passar endereço como local de prova. Documento com foto, celular e tolerância de atraso na prova online: [CONFIRMAR U2].
 
 **Resposta 9. O que cai na prova?**
-> "A prova tem questões de múltipla escolha e dissertativas. Vou confirmar com a coordenação se há conteúdo programático da sua especialidade e te passo."
+> "A composição está na página da prova: [composição_da_ficha]. Vou confirmar com a coordenação se há conteúdo programático da sua especialidade e te passo."
 
-Fonte: ficha 68639 e contexto. Cuidado: a página da prova de Felinos tem conteúdo e bibliografia, mas está fora desta régua. Nenhuma outra prova traz programa: não inventar tema nem material de estudo.
+Fonte: ficha de cada prova (seção 4.1). Cuidado: algumas fichas trazem conteúdo e bibliografia (por exemplo, Cardiologia e Felinos); citar só o que está na ficha da prova perguntada, sem resumir nem inventar tema ou material de estudo. Felinos segue fora desta régua.
 
 **Resposta 10. Quando sai o resultado e o que vem depois?**
-> "O resultado sai por WhatsApp ou e-mail na data que a Ufape divulgar. Depois disso, são 2 dias úteis para recurso e 10 dias úteis para a matrícula, se houver bolsa."
+> Provas de regra única (seção 4.1): "O resultado sai por WhatsApp ou e-mail na data que a Ufape divulgar. Depois disso, são 2 dias úteis para recurso e 10 dias úteis para a matrícula, se houver bolsa."
+>
+> Provas cuja ficha se contradiz: "Depois do resultado, são 2 dias úteis para recurso. O canal do resultado e o prazo de matrícula da prova de [área] eu confirmo com a Ufape e te passo."
 
-Fonte: contexto e ficha 68639. Cuidado: a data de divulgação não está publicada [CONFIRMAR]; não prometer data. Em Felinos, o prazo de matrícula aparece como 10 e como 7 dias úteis: não citar.
+Fonte: ficha de cada prova (seção 4.1). Cuidado: a data de divulgação não está publicada [CONFIRMAR U3]; não prometer data. Nas 12 fichas que se contradizem por dentro, não escolher entre "10 dias úteis" e "7 dias" nem entre os canais [CONFIRMAR U1].
 
 **Resposta 11. Se eu não for bem ou não puder ir, perco os R$ 100,00?**
 > "A inscrição é o valor para fazer a prova. A regra sobre ausência e devolução eu confirmo com a Ufape antes de te responder."
@@ -955,9 +984,9 @@ Fonte: contexto e ficha 68639. Cuidado: a data de divulgação não está public
 Fonte: nenhuma página traz a política. Cuidado: não prometer devolução, crédito nem nova prova [CONFIRMAR].
 
 **Resposta 12. A turma pode não abrir?**
-> "Pode. A turma é confirmada quando atinge o número mínimo de alunos. A Ufape orienta comprar passagem e hotel só depois da confirmação da turma."
+> "Pode. A turma é confirmada quando atinge o mínimo de 15 alunos. A Ufape orienta comprar passagem e hotel só depois da confirmação da turma."
 
-Fonte: contexto/pos-graduacao.md. Cuidado: não citar o número mínimo: a página da prova diz 15 e as páginas de curso dizem 20 [CONFIRMAR]. Sem "últimas vagas" e sem contagem de vagas.
+Fonte: contexto/pos-graduacao.md e decisão 11 de 26/10/2026 (turma mínima de 15, também nas turmas de Pós; páginas de curso que ainda dizem 20 serão corrigidas). Sem "últimas vagas" e sem contagem de vagas.
 
 **Resposta 13. Preciso ser formado em Medicina Veterinária para fazer a prova?**
 > "A pós é voltada a médicos veterinários formados. O requisito exato de inscrição na prova eu confirmo com a Ufape."
@@ -1001,7 +1030,7 @@ Fonte: catálogo, seção 3 (68656 encerrada). Cuidado: para Medicina de Felinos
 | Réguas têm regras de saída | Atendido | Seção 1: inscreveu, respondeu, SAIR, bloqueou, prova fora do ar, matriculou |
 | Resultados registrados para cada envio | Pendente | Tabela de registro de testes na seção 3.6, a preencher depois dos envios. Nenhum envio ocorreu |
 | Cliques, respostas e conversões medidos, não só aberturas | Parcial | UTM definida e métricas na seção 1. Depende do CRM, do GA4 e dos eventos de inscrição [CONFIRMAR] |
-| WhatsApp só em horário comercial, frequência humana e template da Meta | Parcial | Envios às 10h e 14h em dia útil; limite de 2 WhatsApp por semana. M15 (8h) só com janela aprovada. Nomes e variáveis dos templates definidos em cada mensagem; aprovação da Meta pendente |
+| WhatsApp só em horário comercial, frequência humana e template da Meta | Parcial | Envios às 10h e 14h em dia útil; teto D1 do plano do cmo (2 WhatsApp e 2 e-mails de campanha por semana somando todas as linhas, 1 mensagem de campanha por dia) e fila D2, com as supressões de D3 no mapa. M15 (8h) só com a exceção R2 aprovada. Nomes e variáveis dos templates definidos em cada mensagem; aprovação da Meta pendente |
 
 ### 7.2 auditorias/conformidade-educacional.md
 
@@ -1009,7 +1038,7 @@ Fonte: catálogo, seção 3 (68656 encerrada). Cuidado: para Medicina de Felinos
 |---|---|---|
 | Dados do curso | Nome, modalidade, carga horária e turno batem com o catálogo | Atendido: o nome segue "Pós-graduação em [área]"; modalidade e valores de turma estão na seção 5 e vêm das seções 2 e 3 do catálogo; as turmas "só no site" e com turma divergente estão marcadas |
 | Dados do curso | Status "aberto" | Atendido: só as provas com status "aberto" entram; o CRM confere antes de cada envio; Oftalmologia (68656) e as 13 provas antigas ficam fora |
-| Dados do curso | Modalidade clara | Atendido: prova presencial; pós semipresencial na maioria; 68632 presencial |
+| Dados do curso | Modalidade clara | Atendido: prova online com o campus dito em toda mensagem (decisão 11); pós semipresencial na maioria; 68632 presencial |
 | Regulação | Pós lato sensu sem frase de reconhecimento | Atendido: nenhuma frase de certificação, validade ou nota institucional em nenhuma mensagem; resposta 16 encaminha para a secretaria |
 | Regulação | Nota institucional | Atendido: nenhuma |
 | Promessas | Sem promessa de emprego, salário, promoção, aprovação ou bolsa garantida | Atendido: os textos dizem "se atingir a nota de corte e receber uma das bolsas"; resultado e destino dependem da Ufape |
@@ -1025,17 +1054,17 @@ Fonte: catálogo, seção 3 (68656 encerrada). Cuidado: para Medicina de Felinos
 | Pessoas e dados | Formulário com finalidade e política de privacidade | Pendente: o rodapé do e-mail leva o link da política; o checkout da prova precisa mostrar finalidade e política [CONFIRMAR no site] |
 | Pessoas e dados | WhatsApp e e-mail só com consentimento e forma fácil de sair | Atendido no texto; registro do consentimento [CONFIRMAR] |
 | Pessoas e dados | Nenhum dado pessoal na peça ou nos arquivos | Atendido: só campos entre colchetes |
-| Plataformas | Páginas de destino entregam o que a mensagem promete | Parcial: página de Goiânia com endereço de São Paulo, links de Cardiologia invertidos e regras de Felinos contraditórias bloqueiam os envios correspondentes |
+| Plataformas | Páginas de destino entregam o que a mensagem promete | Parcial: links de Cardiologia invertidos bloqueiam 68641 e 68642; as páginas ainda dizem "PROVA PRESENCIAL" e mostram endereço, contra a decisão 11 (correção do site é da Ufape); 12 fichas com regra interna contraditória (U1) seguram a linha de prazos dessas provas |
 | Anúncios | Itens de anúncio (Meta e Google) | Não se aplica: a régua é de e-mail e WhatsApp |
 
-Resultado: aprovado para revisão do qa-de-marketing e da pessoa do marketing com bloqueios. Pode ir para aprovação: M1, M2, M5 a M17 e M19 e M20 (com a ressalva de M20), M3 e M4 só para as provas liberadas em São Paulo na seção 4. Bloqueado: M3 e M4 de Goiânia (local e links), toda mensagem de provas D2, D3 e D4 por área, o bloco de turma (A-C2), M18 (regra do aprovado sem bolsa), M15 (janela de WhatsApp às 8h), toda menção a prazo de inscrição e a data de resultado (A-C3). Revisado por: copy-de-mensagens (autoavaliação). qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
+Resultado: aprovado para revisão do qa-de-marketing e da pessoa do marketing com bloqueios. Pode ir para aprovação: M1, M2, M5 a M14 e M19 e M20 (com a ressalva de M20), M16 e M17 das provas de regra única, M3 e M4 para as provas liberadas na seção 4 (inclusive 68640 e 68644, de Goiânia). Bloqueado: M3 e M4 de 68642 (links), toda mensagem de provas D2, D3 e D4 por área, o bloco de turma (A-C2), M18 (regra do aprovado sem bolsa), M15 (exceção R2), a linha [acesso_online] (U2), canal e prazo de matrícula das 12 fichas contraditórias e M16 e M17 delas (U1), toda menção a prazo de inscrição e a data de resultado (U3). Revisado por: copy-de-mensagens (autoavaliação, versão 2). qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
 
 ---
 
 ## 8. Próximo passo
 
-1. Pessoa do marketing: aprovar os textos (A-C7) e encaminhar à Ufape as perguntas de A-C2 e A-C3 (destino das provas, data do resultado, prazo de inscrição, local de Goiânia, regra do aprovado sem bolsa, política de ausência).
-2. CRM: confirmar o registro de opt-in, os campos da seção 2 e submeter os templates à Meta (marketing e utilidade).
+1. Pessoa do marketing: aprovar os textos (A-C7) e a exceção R2 (M15), e encaminhar à Ufape as perguntas U1 a U4 da seção 12.12 do plano do cmo (regra que vale nas 12 fichas contraditórias, como é a prova online, data do resultado, prazo de inscrição, regra do aprovado sem bolsa, política de ausência, destino das provas).
+2. CRM: confirmar o registro de opt-in, os campos da seção 2 (com [campus], [acesso_online] e os campos da ficha), aplicar o teto D1, a fila D2 e as supressões de D3 por contato (pedido ao arquiteto-de-fluxos) e submeter os templates à Meta (marketing e utilidade).
 3. **Próximo agente sugerido: otimizacao-de-mensagens**, com este arquivo, depois que houver o primeiro envio de M1 a M4 e os resultados de abertura, clique e resposta do registro de testes.
 
 ---
@@ -1044,27 +1073,31 @@ Resultado: aprovado para revisão do qa-de-marketing e da pessoa do marketing co
 
 - 22 provas de bolsa com status "aberto" e data de 27/11/2026, 19 em São Paulo e 3 em Goiânia (68640, 68642, 68644). Fonte: contexto/catalogo-de-cursos.md, seção 3.
 - Inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Fonte: catálogo, seção 3.
-- Prova presencial, das 9h às 13h, de múltipla escolha e dissertativas; nota de corte 7,0 (mínimo de 70% de acerto); 2 dias úteis para recurso; 10 dias úteis para a matrícula; bolsa não acumulativa e intransferível; desempate por análise de currículo; resultado por WhatsApp e/ou e-mail. Fonte: contexto/pos-graduacao.md e ficha 68639.
+- Provas online; vale a regra escrita na ficha de cada prova; toda peça diferencia o campus (São Paulo ou Goiânia); turma mínima de 15 alunos, também nas turmas de Pós. Fonte: docs/execucao-2026-10-26.md, decisão 11, e contexto/pos-graduacao.md.
+- Em todas as 22 fichas abertas: das 9h às 13h; nota de corte 7,0 (mínimo de 70% de acerto); 2 dias úteis para recurso; bolsa não acumulativa e intransferível; desempate por análise de currículo; turma mínima de 15. Fonte: fichas das provas em contexto/cursos/pos/.
+- Em 10 fichas (68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660): 10 dias úteis para a matrícula e resultado por WhatsApp e/ou e-mail. Em 12 fichas (68641 a 68645, 68650 a 68653, 68657, 68659, 68661): "até 10 dias (úteis)" no topo e "7 dias" no bloco REGRAS, e o canal do resultado em até três versões. Fonte: fichas (seção 4.1) e pergunta U1 do plano do cmo.
+- Composição: "múltipla escolha e dissertativas" em 11 fichas; "10 a 20" ou "20 questões objetivas e/ou dissertativas" em 11. Fonte: fichas (seção 4.1).
 - 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Fonte: contexto/pos-graduacao.md e ficha 68639.
-- Levar documento com foto; celular e relógios não são permitidos no dia da prova. Fonte: ficha 68639.
-- Endereço da prova de São Paulo: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista, São Paulo, SP, 01407-100. Fonte: ficha 68639 e contexto/ufape-geral.md.
-- A página 68640 (Goiânia) mostra o endereço de São Paulo; links de Cardiologia (68641 e 68642) invertidos; a página 68652 (Felinos) traz regras contraditórias e frase de certificação. Fonte: estratégia de campanha, seções 2.3 e 3.3.
-- Turma mínima: 15 na página da prova e 20 nas páginas de curso. Fonte: contexto/pos-graduacao.md.
+- Campus pelo campo "Localidade" das fichas: 68640, 68642 e 68644 em Goiânia; as outras 19 em São Paulo. Fonte: fichas das provas.
+- Links de Cardiologia (68641 e 68642) invertidos; a página 68652 (Felinos) traz frase de certificação. Fonte: estratégia de campanha, seções 2.3 e 3.3.
+- Teto D1, fila D2, supressões D3, mensagens de serviço D4, ex-aluno de Pós D10, UTM D11 e D12, exceção R2. Fonte: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12.
 - Turmas candidatas, datas e condições da seção 5. Fonte: catálogo, seção 2.
 - Contatos oficiais: secretaria (11) 97492-8443 (WhatsApp), (11) 5054-1204, duvidas@intercursos.com.br, segunda a sexta, das 9h às 18h; vendas São Paulo (11) 91366-9290; vendas Goiânia (62) 9420-1847. Fonte: contexto/ufape-geral.md.
-- Workshop de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md, decisão 6.
+- Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md, decisões 6 e 7.
 - 26/10/2026 é segunda-feira; 03/11 é terça, 27/11 é sexta. Fonte: estratégia de campanha, seção 5 (dias da semana calculados a partir dela).
 - Voz da marca: precisa, próxima, transparente; sem emoji em e-mail; sem assumir leitor homem. Fonte: estrategia-de-marca-geral, seções 3 e 5 (voz ainda [SUPOSIÇÃO] da Ufape).
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] Janela comercial de WhatsApp de segunda a sexta, das 9h às 18h.
-- [SUPOSIÇÃO] Limite de 2 WhatsApp e 2 e-mails de campanha por contato por semana.
-- [SUPOSIÇÃO] Padrão de UTM e nomes dos templates da Meta (pb_*), e a classificação (marketing ou utilidade), que a Meta decide.
+- [SUPOSIÇÃO] Janela de WhatsApp em dia útil, das 9h às 18h, e de e-mail em qualquer dia, das 7h às 19h (D1, até a Ufape confirmar, R1).
+- [SUPOSIÇÃO] Teto de 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando todas as linhas, e 1 mensagem de campanha por dia (D1, R1).
+- [SUPOSIÇÃO] Janela de silêncio de 2 dias úteis depois do curso ou evento, e de 7 dias corridos no online (D8).
+- [SUPOSIÇÃO] Nomes dos templates da Meta (pb_*) e a classificação (marketing ou utilidade), que a Meta decide.
+- [SUPOSIÇÃO] Follow-up de M16 e M17 3 dias úteis antes do fim do prazo de matrícula (antes era o 7º dia útil de um prazo de 10).
 - [SUPOSIÇÃO] A base permite segmentar por [área_de_interesse] e por [segmento] (lead e ex-aluno); sem isso, só a versão mestre.
 - [SUPOSIÇÃO] Ganchos por área da seção 4 (hipóteses da pesquisa de persona, sem fala real de aluno).
 - [SUPOSIÇÃO] Os horários de envio (10h, 14h, 7h e 8h) e os dias, dentro do calendário da estratégia de campanha.
-- [SUPOSIÇÃO] Feriados de 02/11 e 20/11 afetam o ritmo de resposta e a contagem de dias úteis; a contagem oficial é da Ufape.
+- [SUPOSIÇÃO] Feriado de 20/11 afeta a contagem de dias úteis; a contagem oficial é da Ufape.
 - [SUPOSIÇÃO] Mensagem de serviço ao inscrito pode ser enviada com base na relação de serviço, mesmo para quem saiu das mensagens de campanha (a Ufape confirma).
 - [SUPOSIÇÃO] "Sem pressa de decisão" em M19 só vale se a turma tiver prazo que permita; o time ajusta com data real.
 - [SUPOSIÇÃO] As provas "sem turma futura aberta" (D4) seguem à venda; a Ufape confirma.
@@ -1074,23 +1107,38 @@ Resultado: aprovado para revisão do qa-de-marketing e da pessoa do marketing co
 
 - [CONFIRMAR] Turma de destino de cada uma das 22 provas; especialmente Dermatologia (68646) e Hematologia (68651), que têm turma abrindo em 28/11, e 68652, 68649, 68653 e 68655, sem turma aberta (A-C2).
 - [CONFIRMAR] Prazo de inscrição nas provas (hoje nenhuma mensagem diz "inscrições até").
-- [CONFIRMAR] Data de divulgação do resultado, canal para pedir recurso e calendário de dias úteis.
+- [CONFIRMAR U1] Nas 12 fichas que se contradizem por dentro (seção 4.1), qual bloco vale para o prazo de matrícula e para o canal do resultado.
+- [CONFIRMAR U2] Como é a prova online (plataforma, acesso, horário) e o que vale das regras de documento com foto e de celular.
+- [CONFIRMAR U3] Data de divulgação do resultado, canal para pedir recurso e calendário de dias úteis.
+- [CONFIRMAR] Aprovação da exceção de serviço R2 (M15 às 8h).
 - [CONFIRMAR] Critério de distribuição das 11 bolsas, regra do aprovado sem bolsa, lista de espera e o que a monitoria exige.
 - [CONFIRMAR] Sobre o que incide a bolsa (mensalidades, matrícula) e quem informa o valor com a bolsa aplicada.
-- [CONFIRMAR] Local da prova em Goiânia (68640, 68642 e 68644); correção dos links de Cardiologia.
-- [CONFIRMAR] Regras de Felinos (canal do resultado, prazo de 10 ou 7 dias, composição) e retirada da frase de certificação da página.
-- [CONFIRMAR] Turma mínima (15 ou 20) e data em que a turma é confirmada.
+- [CONFIRMAR] Correção dos links de Cardiologia (68641 e 68642) e das páginas das provas que ainda dizem "PROVA PRESENCIAL" e mostram endereço.
+- [CONFIRMAR] Retirada da frase de certificação da página de Felinos (68652).
+- [CONFIRMAR] Data em que a turma é confirmada (o mínimo de 15 está decidido).
 - [CONFIRMAR] Política de ausência, de reembolso da inscrição e de nova prova.
 - [CONFIRMAR] Requisito de inscrição na prova (médico veterinário formado).
-- [CONFIRMAR] Tolerância de atraso e horário de abertura do local da prova.
+- [CONFIRMAR U2] Tolerância de atraso na prova online.
 - [CONFIRMAR] Conteúdo programático por especialidade (só a ficha de Felinos traz).
 - [CONFIRMAR] Se existe página que reúna as provas ([link_mestre]); se não, M2 e M8 usam o link do WhatsApp de vendas.
-- [CONFIRMAR] CRM, ferramenta de e-mail, registro de opt-in, alcance do "SAIR" nas mensagens de serviço, finalidade e política de privacidade no checkout.
+- [CONFIRMAR P15] CRM, ferramenta de e-mail e de UTM, registro de opt-in, alcance do "SAIR" nas mensagens de serviço, finalidade e política de privacidade no checkout.
 - [CONFIRMAR] Quem aprova e-mail e WhatsApp em massa (tabela em contexto/ufape-geral.md).
 - [CONFIRMAR] Regra do desconto de ex-aluno (contexto/ufape-geral.md está em [PREENCHER]).
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação: nenhuma mensagem usa; a resposta 16 encaminha para a secretaria.
 - [CONFIRMAR NO CATÁLOGO] Regras da prova de bolsa como coluna do catálogo (hoje em contexto/pos-graduacao.md e nas fichas).
 - [CONFIRMAR] Metas de inscritos, comparecimento e matrículas (nenhuma meta existe hoje).
+
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 10 a 13:
+- Regras da régua (seção 1): teto D1 somando todas as linhas, 1 mensagem de campanha por dia, e-mail das 7h às 19h em qualquer dia, fila D2, dias sem campanha (02/11, 20 e 21/11; 26 e 27/11 só serviço para a base das provas), janela de silêncio D8, ex_aluno = ex-aluno de Pós (D10), C19 e C24 fora e derivados da 1.19 (D4).
+- Mapa (seção 2): coluna de supressão D3 (M6 para a base do Workshop e para quem recebe o P2 de 68606; M5 para quem recebe o P2 de 68606; reenvios de 12/11 e 25/11; M8 às 16h para participante do Workshop); M10 a M20 como serviço.
+- Provas online (decisão 11): "presencial", endereço, documento com foto e celular saíram de todas as mensagens; [endereço_da_prova] saiu; [praça] virou [campus] e toda mensagem diz o campus; [acesso_online] entra só com a resposta U2.
+- Regra da ficha de cada prova: nova seção 4.1 e campos [prazo_matrícula_da_ficha], [canal_resultado_da_ficha], [composição_da_ficha] e [linha_prazos_da_ficha]; 12 fichas contraditórias marcadas [CONFIRMAR U1], sem escolha da squad.
+- Turma mínima de 15 nas mensagens de convite e confirmação e na resposta 12.
+- Goiânia liberada (68640 e 68644); 68642 segue bloqueada só pelos links.
+- UTM: utm_medium=crm, utm_campaign=pos_provas20261127_202611 (D11 e D12).
+- Respostas 2, 5, 8, 9, 10 e 12, auditorias e as três listas atualizadas.
 
 ## Fontes
 

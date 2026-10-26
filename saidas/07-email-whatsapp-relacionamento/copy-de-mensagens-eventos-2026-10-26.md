@@ -3,6 +3,7 @@
 - **Agente:** copy-de-mensagens (departamento 07, E-mail, WhatsApp e Relacionamento), camada 3, onda 1, kit do evento, etapa "copy-de-mensagens" do /lancamento-de-evento
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio Brasileiro de Neuromonitorização Veterinária" na planilha)
 - **Data:** 26/10/2026
+- **Versão:** 3 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo: D1 a D3, D9, D11, D12) e as decisões 8 e 10 de docs/execucao-2026-10-26.md. A versão 2 era a corrigida pelo qa-de-marketing (itens C1 a C8 e C11). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Formato:** templates/mensagem.md, repetido para cada mensagem da régua
 - **Status:** versão corrigida após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md, itens C1 a C8 e C11). Rascunho para nova passagem do qa-de-marketing e para a aprovação da pessoa do marketing (AP4 do briefing de campanha). Todos os textos são para o CRM enviar, só a quem deu opt-in. A squad não dispara nada.
 - **Entradas lidas:**
@@ -22,6 +23,7 @@
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md (veredito, seção de mensagens)
   - auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md
+  - Versão 3: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1 a D3, D8, D9, D11, D12, 12.9 e 12.11); saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md e -loteB.md (choques desta régua com as provas e com Livres)
 - Não abri faculdade.ufape.com.br. Nenhuma busca na web. Nenhum dado pessoal: só campos do CRM entre colchetes.
 
 ---
@@ -31,7 +33,7 @@
 ### 0.1 Regras duras aplicadas em todas as mensagens
 
 1. **Dados só da ficha e do catálogo.** Datas 20 e 21/11/2026 (sexta teórica, sábado prático), das 8h às 18h, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. Presencial: 16 h (8 teóricas e 8 práticas), 30 vagas por ordem de inscrição, R$ 1.250,00. Transmitido + Gravado: só a teoria de sexta, ao vivo e gravada, R$ 450,00. Cupom SIMPNEUROMONIT: 20% para aluno e ex-aluno, com vínculo comprovado na secretaria. Nenhum valor final com cupom é calculado.
-2. **Docentes.** Nenhuma mensagem desta régua traz nome de docente. Quando a Ufape registrar autorização, o nome entra só como está na ficha (nome e titulação) e só os confirmados: Profa. Dra. Mayara Travalini de Lima (coordenação científica), Prof. MSc. Daniel Zannin, Profa. MSc. Elidia Zotelli, Prof. Renan Holczer, Prof. MSc. Yuri Ferreira Vicentini e Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo). [CONFIRMAR autorização] Os 4 convidados "a definir" não aparecem em nenhuma peça.
+2. **Docentes.** A autorização de uso de imagem e de citação está registrada para todos: docentes, palestrantes e convidados (decisões 8 e 10 de 26/10/2026). As mensagens desta régua continuam sem nome de docente (escolha de texto, não bloqueio); quando um nome entrar, entra só como está na ficha (nome e titulação) e só os confirmados: Profa. Dra. Mayara Travalini de Lima (coordenação científica), Prof. MSc. Daniel Zannin, Profa. MSc. Elidia Zotelli, Prof. Renan Holczer, Prof. MSc. Yuri Ferreira Vicentini e Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo). Os 4 convidados "a definir" não aparecem em nenhuma peça até serem confirmados (decisão 6).
 3. **Sem apostila.** A página diz "se previsto". Nenhuma mensagem promete apostila ou material.
 4. **Sem frase de certificação ligada ao MEC.** Certificado só aparece em mensagem para quem já se inscreveu ou participou e para quem pergunta, com o texto da página ("conforme presença") e a marca [CONFIRMAR texto aprovado, AP8]. Nenhum convite, lembrete ou programação cita certificado. A divergência entre o briefing (só a inscritos) e a casa de mensagens (também a quem pergunta) fica para decisão da pessoa do marketing.
 5. **Sem promessa clínica.** Os textos dizem o que o programa trata e o que se faz em cada dia, nunca o que o participante passa a conseguir fazer na clínica.
@@ -55,7 +57,7 @@
 | [contato_plantao_evento] | Véspera e dia | [CONFIRMAR canal de suporte nos dias 20 e 21/11] |
 | [UTM:cNN] | Final do link | Padrão abaixo |
 
-Link único de toda mensagem: `https://faculdade.ufape.com.br/neuro-summit/` com UTM no final. Padrão da campanha [SUPOSIÇÃO, P15 a confirmar]: utm_source (whatsapp ou email), utm_medium=crm, utm_campaign=neuro-summit-2026, utm_content=código da peça.
+Link único de toda mensagem (menos M9): `https://faculdade.ufape.com.br/neuro-summit/` com UTM no final. Padrão D11 e D12 do plano do cmo: utm_source=whatsapp ou email; utm_medium=crm; utm_campaign=eventos_neuro26_202610 (chave do item e mês do primeiro envio, 30/10); utm_content=código da peça (c01 a c12). Tudo em minúsculas, sem acento, sem dado pessoal. A ferramenta que aplica a UTM é confirmada pelo arquiteto-de-fluxos [CONFIRMAR, P15].
 
 | Código | Peça |
 |---|---|
@@ -92,7 +94,16 @@ Cada template leva o texto das mensagens abaixo com as variáveis numeradas. Os 
 
 ### 0.4 Horário de envio
 
-WhatsApp em horário comercial: segunda a sexta, das 9h às 18h [SUPOSIÇÃO, a mesma janela da secretaria; confirmar com a Ufape]. Fora de dia útil (sábado, domingo e feriado nacional), o CRM não envia mensagem de marketing por WhatsApp. A regra vale para marketing. A exceção pedida está nas mensagens de dia 1 e dia 2 (M6 e M7 por WhatsApp), que são mensagens de serviço a inscritos: marcadas para aprovação, e cobertas em qualquer cenário pela versão por e-mail, que não depende da janela do WhatsApp [SUPOSIÇÃO: a janela de horário comercial da auditoria 07 fala de WhatsApp].
+Janela única da squad (D1 do plano do cmo) [SUPOSIÇÃO até a Ufape confirmar, R1]: WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h (por isso o e-mail M3 de sábado, 14/11, fica). Fora da janela, o CRM não envia mensagem de campanha. A exceção pedida está nas mensagens de dia 1 e dia 2 (M6 e M7 por WhatsApp, 8h), que são mensagens de serviço a inscritos: pedido R2 da seção 12.11 do plano do cmo, e cobertas em qualquer cenário pela versão por e-mail das 7h.
+
+### 0.5 Teto, fila e supressões (D1 a D3 do plano do cmo)
+
+- Teto de campanha por contato, somando Pós, Livres, Eventos, Graduação e newsletter: até 2 WhatsApp e até 2 e-mails por semana (segunda a domingo) e no máximo 1 mensagem de campanha por dia, em qualquer canal [SUPOSIÇÃO de número, R1]. Follow-up e reenvio contam como campanha.
+- Contam como campanha nesta régua: M1, M2, M10, M3, M9 e todos os follow-ups. Serviço, fora do teto: M4 (confirmação), M5 (véspera), M6 e M7 (dias do evento) e M8 (gravação e certificado).
+- Fila (D2): serviço; toque principal com data (vence a data mais próxima; empate, a maior nota GUT); follow-ups e reenvios; nutrição; reativação. O que é suprimido não muda de data e não acumula.
+- Dias sem campanha de nenhuma linha: 02/11, 20 e 21/11, 25/12, 31/12 e 01/01.
+- Supressões por base (D3), aplicadas pelo CRM por contato: a coluna "Supressão" do mapa da seção 1 diz o que não sai para quem está na campanha das provas de bolsa de 27/11 ("base das provas") e para quem recebe o kit de 68606 (Gastroenterologia).
+- Janela de silêncio (D8): quem comprou curso livre ou outro evento e está na janela (do pedido pago até 2 dias úteis depois do último dia do curso; online, 7 dias corridos) não entra nesta régua durante a janela; quem já estava nela continua [SUPOSIÇÃO de prazo]. O participante do Workshop fica na janela até 24/11 (21/11 mais 2 dias úteis), por isso o M9 sai em 25/11.
 
 ---
 
@@ -100,20 +111,20 @@ WhatsApp em horário comercial: segunda a sexta, das 9h às 18h [SUPOSIÇÃO, a 
 
 Objetivo final da régua: inscrição paga no ingresso certo (presencial ou transmitido [T]) e, depois do evento, certificado e gravação entregues e um próximo passo sem pressão. Gatilho de entrada: pertencer à base com opt-in. Contagem de vagas, inscritos e metas: [CONFIRMAR], a squad só vê números somados.
 
-| # | Toque | Público (segmento no CRM) | Canal | Quando | Objetivo único | Chamada para ação |
-|---|---|---|---|---|---|---|
-| M1 | Convite, base geral | Base com opt-in, sem vínculo comprovado, que não comprou | WhatsApp e e-mail, versões A (presencial) e B (transmitida, [T]) | 30/10 (sex), e-mail 9h, WhatsApp 10h | Levar à página para escolher o ingresso | Ver programação e ingressos |
-| M2 | Convite, alunos e ex-alunos | Base com opt-in e vínculo Ufape, que não comprou | WhatsApp e e-mail | 30/10 (sex), e-mail 9h, WhatsApp 10h30 | Levar à página com o cupom | Ver programação e usar o cupom |
-| M10 | E-mail de programação | Base com opt-in que não comprou (geral e alunos) | E-mail | 05/11 (qui), 9h | Mostrar a grade por dia e levar à página | Ver a programação completa |
-| M3 | Lembrete da última semana | Quem abriu ou clicou e não comprou, geral e alunos | E-mail e WhatsApp | E-mail 14/11 (sáb) 9h, WhatsApp 16/11 (seg) 10h | Retomar a decisão pela data | Ver ingressos |
+| # | Toque | Público (segmento no CRM) | Canal | Quando | Objetivo único | Chamada para ação | Supressão (D3) |
+|---|---|---|---|---|---|---|---|
+| M1 | Convite, base geral | Base com opt-in, sem vínculo comprovado, que não comprou | E-mail e WhatsApp, versões A (presencial) e B (transmitida, [T]) | 30/10 (sex), e-mail 9h; WhatsApp 10h só para quem não tem opt-in de e-mail. Follow-ups: e-mail 03/11, 9h; WhatsApp 04/11, 10h | Levar à página para escolher o ingresso | Ver programação e ingressos | Quem tem os dois opt-ins recebe o primeiro WhatsApp no follow-up de 04/11. Follow-ups de 03/11 e 04/11 não saem para a base das provas |
+| M2 | Convite, alunos e ex-alunos | Base com opt-in e vínculo Ufape, que não comprou | E-mail e WhatsApp | 30/10 (sex), e-mail 9h; WhatsApp 10h30 só para quem não tem opt-in de e-mail. Follow-ups: e-mail 03/11, 9h; WhatsApp 04/11, 10h | Levar à página com o cupom | Ver programação e usar o cupom | Igual a M1 |
+| M10 | E-mail de programação | Base com opt-in que não comprou (geral e alunos) | E-mail | 05/11 (qui), 9h. Follow-up 09/11 (seg), 9h | Mostrar a grade por dia e levar à página | Ver a programação completa | Não sai para quem recebe o P2 de 68606 (Gastroenterologia) por e-mail em 05/11. Follow-up de 09/11 não sai para a base das provas |
+| M3 | Lembrete da última semana | Quem abriu ou clicou e não comprou, geral e alunos | E-mail e WhatsApp | E-mail 14/11 (sáb) 9h; follow-up por e-mail 16/11 (seg) 9h, só quem não abriu; WhatsApp 17/11 (ter) 10h | Retomar a decisão pela data | Ver ingressos | WhatsApp passou de 16/11 para 17/11 porque 16/11 já tem o e-mail (1 por dia) |
 | M4 | Confirmação de inscrição | Inscritos, por modalidade | E-mail (imediato) e WhatsApp (até 1 hora, dentro do horário comercial, senão no próximo dia útil às 9h) | No gatilho da compra | Dar certeza de que a vaga está confirmada e o que vem a seguir | Responder se algum dado estiver errado |
 | M5 | Véspera | Inscritos, versões presencial e transmitida | WhatsApp e e-mail | 19/11 (qui), e-mail 9h, WhatsApp 10h | Chegar ou entrar sem dúvida de local, horário e acesso | Abrir a página do evento (programação do dia) |
 | M6 | Dia 1 | Inscritos, presencial e transmitido | E-mail às 7h (mensagem do dia em qualquer cenário) e WhatsApp às 8h (exceção a aprovar) | 20/11 (sex, feriado nacional) | Entrar no dia teórico | Abrir a programação do dia |
 | M7 | Dia 2 | Inscritos no presencial | E-mail às 7h (mensagem do dia em qualquer cenário) e WhatsApp às 8h (exceção a aprovar) | 21/11 (sáb) | Entrar no dia prático | Abrir a programação do dia |
 | M8 | Pós-evento: gravação e certificado | Participantes, por modalidade | WhatsApp e e-mail | 23/11 (seg), e-mail 9h, WhatsApp 10h | Entregar o que foi combinado | Acessar a gravação |
-| M9 | Pós-evento: próximo passo | Participantes que não pediram para sair | E-mail e WhatsApp | 25/11 (qua), e-mail 9h, WhatsApp 10h | Apresentar a Pós em Anestesiologia e cursos da área, sem pressão | Conhecer a pós e os cursos |
+| M9 | Pós-evento: próximo passo | Participantes que não pediram para sair | Um canal só: e-mail 9h; WhatsApp 10h só para participante sem opt-in de e-mail | 25/11 (qua) | Apresentar a Pós-graduação em Anestesiologia (657, 68609 e 359), com o campus, sem pressão | Conhecer as pós de anestesiologia | Campanha (D9). Sem curso livre com data; prova de bolsa só com R7 aprovado |
 
-Ordem das mensagens ao mesmo contato: ele nunca recebe M1 e M2 (o CRM tira os alunos do segmento geral). Quem comprou sai de M1, M2, M10 e M3 e entra em M4. M10 é o e-mail de programação do kit (variação simpósio adotada no briefing, semana 2); recebeu o código M10 para não renumerar o resto da régua.
+Ordem das mensagens ao mesmo contato: ele nunca recebe M1 e M2 (o CRM tira os alunos do segmento geral). Quem comprou sai de M1, M2, M10 e M3 e entra em M4. M4 a M8 são serviço e não têm coluna de supressão. M10 é o e-mail de programação do kit (variação simpósio adotada no briefing, semana 2); recebeu o código M10 para não renumerar o resto da régua.
 
 ### Regras de saída da régua
 
@@ -197,7 +208,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 > https://faculdade.ufape.com.br/neuro-summit/[UTM:c01]
 > Responda SAIR para não receber mais mensagens.
 
-**Data e horário de envio:** 30/10 (sexta), 10h. Follow-up em 04/11 (qua), 10h.
+**Data e horário de envio:** 30/10 (sexta), 10h, só para quem não tem opt-in de e-mail (quem tem os dois recebe o e-mail das 9h). Follow-up em 04/11 (qua), 10h: para quem recebeu o WhatsApp de 30/10 e não clicou, e como primeiro WhatsApp para quem tem os dois opt-ins e não clicou no e-mail; não sai para a base das provas (04/11 tem o M1 ou M3 das provas) (D3).
 **Opt-in de WhatsApp confirmado:** só para quem tem opt-in registrado. [CONFIRMAR como o CRM registra o consentimento]
 **Template Meta:** neuro_convite_presencial_v1 e neuro_convite_transmitido_v1 [T], variável {{1}} = [primeiro_nome]. O follow-up é mensagem de marketing: usa neuro_lembrete_v1 (ou texto livre se a pessoa respondeu nas últimas 24 horas).
 **Forma de sair:** "Responda SAIR" no corpo e botão de resposta rápida.
@@ -263,7 +274,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 - Assunto: "Programação hora a hora do workshop de neuromonitorização, 20 e 21/11"
 - Corpo: "Olá, [primeiro_nome]. Caso o e-mail anterior tenha passado despercebido: a programação de sexta (teórica) e de sábado (prática) está na página, com horário e tema de cada bloco. https://faculdade.ufape.com.br/neuro-summit/[UTM:c01]" + rodapé de descadastro.
 
-**Data e horário de envio:** 30/10 (sexta), 9h. Follow-up em 03/11 (ter), 9h.
+**Data e horário de envio:** 30/10 (sexta), 9h. Follow-up em 03/11 (ter), 9h; não sai para a base das provas (03/11 tem o M2 ou M4 das provas) (D3).
 **Opt-in:** consentimento de e-mail marketing registrado [CONFIRMAR no CRM].
 **Template Meta:** não se aplica (e-mail).
 **Forma de sair:** link "Descadastrar" no rodapé.
@@ -310,7 +321,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 > https://faculdade.ufape.com.br/neuro-summit/[UTM:c03]
 > Responda SAIR para não receber mais mensagens.
 
-**Data e horário de envio:** 30/10 (sexta), 10h30. Follow-up em 04/11 (qua), 10h.
+**Data e horário de envio:** 30/10 (sexta), 10h30, só para quem não tem opt-in de e-mail. Follow-up em 04/11 (qua), 10h, com a mesma regra do M1 por WhatsApp; não sai para a base das provas (D3).
 **Opt-in de WhatsApp confirmado:** só com opt-in registrado. [CONFIRMAR]
 **Template Meta:** neuro_convite_aluno_v1, {{1}} = [primeiro_nome]; follow-up em neuro_lembrete_v1.
 **Forma de sair:** "Responda SAIR" e botão.
@@ -356,7 +367,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 - Assunto: "Como usar o cupom SIMPNEUROMONIT no workshop de 20 e 21/11"
 - Corpo: "Olá, [primeiro_nome]. Para usar a condição de aluno e ex-aluno no workshop de 20 e 21/11, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. https://faculdade.ufape.com.br/neuro-summit/[UTM:c03]" + rodapé.
 
-**Data e horário de envio:** 30/10 (sexta), 9h. Follow-up em 03/11 (ter), 9h.
+**Data e horário de envio:** 30/10 (sexta), 9h. Follow-up em 03/11 (ter), 9h; não sai para a base das provas (D3).
 **Opt-in:** e-mail marketing registrado. [CONFIRMAR]
 **Template Meta:** não se aplica.
 **Forma de sair:** link "Descadastrar".
@@ -431,7 +442,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 - Assunto: "A grade do workshop de neuromonitorização em um só lugar"
 - Corpo: "Olá, [primeiro_nome]. A programação completa do workshop de 20 e 21/11, com horário e tema de cada bloco, está na página. https://faculdade.ufape.com.br/neuro-summit/[UTM:c12]" + rodapé de descadastro.
 
-**Data e horário de envio:** 05/11 (quinta), 9h (semana 2 do briefing, de 03 a 08/11). Follow-up em 09/11 (seg), 9h.
+**Data e horário de envio:** 05/11 (quinta), 9h (semana 2 do briefing, de 03 a 08/11); não sai para quem recebe o P2 de 68606 por e-mail em 05/11 (Gastroenterologia, data mais próxima, D3). Follow-up em 09/11 (seg), 9h; não sai para a base das provas (D3).
 **Opt-in:** e-mail marketing registrado. [CONFIRMAR]
 **Template Meta:** não se aplica.
 **Forma de sair:** link "Descadastrar".
@@ -445,7 +456,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 **Objetivo:** lembrar quem abriu ou clicou e não comprou de que o workshop é nesta semana e mostrar a forma de participar.
 **Segmento:** quem abriu ou clicou em M1 ou M2 e não comprou (o CRM filtra; a squad vê só a contagem). Duas versões de texto: geral e aluno/ex-aluno (com a linha do cupom).
 **Sem "últimas vagas":** a data é o fato do lembrete; as 30 vagas aparecem como total.
-**Datas coerentes com o envio:** o e-mail sai no sábado, 14/11 (faltam 6 dias), e o WhatsApp na segunda, 16/11 (faltam 4 dias, o evento é nesta semana). Os textos de cada canal dizem a data certa.
+**Datas coerentes com o envio:** o e-mail sai no sábado, 14/11 (faltam 6 dias; e-mail vale em qualquer dia das 7h às 19h, D1), e o WhatsApp na terça, 17/11 (faltam 3 dias, o evento é nesta semana). Os textos de cada canal dizem a data certa.
 
 #### M3 por e-mail
 
@@ -492,7 +503,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 #### M3 por WhatsApp
 
-**5 primeiras linhas (envio em 16/11, segunda):**
+**5 primeiras linhas (envio em 17/11, terça):**
 1. Oi, [primeiro_nome]. O workshop de neuromonitorização é na sexta-feira, 20/11.
 2. Oi, [primeiro_nome]. É nesta sexta, 20/11: o workshop de neuromonitorização.
 3. [T] Oi, [primeiro_nome]. Presencial ou só a teoria de sexta? Veja como participar do workshop de 20 e 21/11.
@@ -515,7 +526,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **Chamada para ação:** ver ingressos e programação (um link).
 **Follow-up:** não há segundo toque de marketing por WhatsApp na última semana (frequência humana). Quem responder é atendido por vendas (seção 3).
-**Data e horário de envio:** 16/11 (segunda), 10h.
+**Data e horário de envio:** 17/11 (terça), 10h (D3: passou de 16/11 para 17/11, porque 16/11 já tem o follow-up por e-mail de M3).
 **Opt-in de WhatsApp confirmado:** só com opt-in registrado. [CONFIRMAR]
 **Template Meta:** neuro_lembrete_v1 (duas versões de texto, geral e aluno), {{1}} = [primeiro_nome].
 **Forma de sair:** "Responda SAIR" e botão.
@@ -930,10 +941,12 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **Canal:** e-mail e WhatsApp
 **Linha de negócio e curso:** Eventos, com ponte para Pós-graduação (catálogo, seção 2). Mensagem de marketing.
-**Objetivo:** apresentar a Pós-graduação em Anestesiologia e os cursos da área como sugestão, sem pressão e sem promessa.
+**Objetivo:** apresentar a Pós-graduação em Anestesiologia (657, 68609 e 359), com o campus de cada turma, como sugestão, sem pressão e sem promessa.
 **Segmento:** participantes do workshop que não pediram para sair de marketing. O CRM tira quem pediu SAIR.
-**Condição de envio:** só depois de aprovada a venda cruzada para a Pós (AP10, [CONFIRMAR]; o pedido A4 diz explicitamente que a venda cruzada é para a Pós). Não há dado de que quem frequenta evento se matricula em pós (persona de eventos, seção 4): o texto não sugere essa relação e não afirma resultado.
-**O que não entra nesta mensagem:** prova de bolsa de 27/11 (venda cruzada não aprovada [CONFIRMAR]), preços, parcelas e bolsas (a mensagem aponta para a página, onde estão as condições), "garantia", "vagas".
+**Um canal só (D9):** e-mail às 9h para quem tem opt-in de e-mail; WhatsApp às 10h só para participante sem opt-in de e-mail. Ninguém recebe os dois.
+**Condição de envio:** M9 leva à Pós em Anestesiologia por decisão do cmo (D9 da seção 12.5); o envio continua esperando a aprovação humana do texto (pedido A4). Não há dado de que quem frequenta evento se matricula em pós (persona de eventos, seção 4): o texto não sugere essa relação e não afirma resultado.
+**O que não entra nesta mensagem:** curso livre com data (o 616 chega aos participantes só pela régua de Livres, a partir de 30/11; NL4 e J13); crédito ou desconto de ponte (D7); preços, parcelas e bolsas (a mensagem aponta para a página, onde estão as condições); "garantia"; "vagas".
+**Prova de bolsa, só com condição (D9):** a prova de Anestesiologia (68639, campus São Paulo, ou 68640, campus Goiânia) ou de Neurologia e Neurocirurgia (68654, campus São Paulo) entra no [bloco_prova] só se a venda cruzada AP10 for aprovada (pedido R7) e o prazo de inscrição das provas estiver confirmado e aberto em 25/11 (U3). Sem as duas condições, o bloco sai. Texto do bloco, com fatos das fichas: "Se preferir começar por uma prova de bolsa: a prova de [área], do campus [campus], é online, em 27/11, das 9h às 13h, com inscrição de R$ 100,00 e 11 bolsas por prova. Regras na página da prova." Prazo de matrícula e canal do resultado não entram no bloco (regra de cada ficha; U1).
 **Dados da pós (catálogo, seção 2, 26/10/2026):** Pós-graduação em Anestesiologia Avançada (código 657), São Paulo, semipresencial, 360 h, turma II, início em 13/03/2027, status aberto. Pós-graduação em Anestesiologia Locorregional Veterinária (359), São Paulo, 360 h, turma I, 22/05/2027, aberto. Pós-graduação em Anestesiologia Veterinária (68609), Goiânia, 500 h, turma VIII, 24/04/2027, aberto. Preço e parcelas ficam na página.
 
 #### M9 por e-mail
@@ -943,11 +956,11 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 2. Depois do workshop: um mapa dos estudos em anestesiologia na Faculdade UFAPE
 3. Pós-graduação em Anestesiologia Avançada: turma com início em 13/03/2027
 4. Se o workshop abriu perguntas, há onde seguir estudando
-5. Anestesiologia na Faculdade UFAPE: pós-graduação e cursos para consultar com calma
+5. Anestesiologia na Faculdade UFAPE: pós-graduações para consultar com calma
 
 **Escolhidos para teste:** assuntos 2 (convite sem pressão) e 3 (dado concreto do catálogo).
 
-**Texto de pré-visualização:** Pós-graduação em Anestesiologia e cursos da área, para consultar quando fizer sentido para você.
+**Texto de pré-visualização:** Pós-graduação em Anestesiologia em São Paulo e em Goiânia, para consultar quando fizer sentido para você.
 
 **Gancho:** o tema do workshop continua em outras formações, para quem quiser seguir estudando.
 
@@ -955,21 +968,22 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > Na semana passada você participou do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. Se o tema despertou vontade de seguir estudando, a Faculdade UFAPE tem formações em anestesiologia que você pode consultar com calma, sem prazo para decidir agora.
 >
-> - **Pós-graduação em Anestesiologia Avançada** (São Paulo, semipresencial, 360 h, turma II), com início em 13/03/2027.
-> - **Pós-graduação em Anestesiologia Veterinária** (Goiânia, semipresencial, 500 h, turma VIII), com início em 24/04/2027.
-> - **Pós-graduação em Anestesiologia Locorregional Veterinária** (São Paulo, semipresencial, 360 h, turma I), com início em 22/05/2027.
-> - Cursos livres e grupos de estudo de anestesiologia e UTI, presenciais e online.
+> - **Pós-graduação em Anestesiologia Avançada** (campus São Paulo, semipresencial, 360 h, turma II), com início em 13/03/2027.
+> - **Pós-graduação em Anestesiologia Veterinária** (campus Goiânia, semipresencial, 500 h, turma VIII), com início em 24/04/2027.
+> - **Pós-graduação em Anestesiologia Locorregional Veterinária** (campus São Paulo, semipresencial, 360 h, turma I), com início em 22/05/2027.
 >
-> As condições de cada turma (carga horária, investimento e regras) estão nas páginas dos cursos. Em caso de dúvida, o time de vendas responde.
+> As condições de cada turma (carga horária, investimento e regras) estão nas páginas dos cursos. Toda turma é confirmada com o mínimo de 15 alunos. Em caso de dúvida, o time de vendas responde.
 >
-> [Conhecer as pós e os cursos de anestesiologia]([LINK_DA_PÁGINA_DAS_PÓS_DE_ANESTESIOLOGIA] [UTM:c11]) [CONFIRMAR URL da página e se há uma única página que reúna pós e cursos]
+> [bloco_prova, só com R7 e U3]
+>
+> [Conhecer as pós de anestesiologia]([LINK_DA_PÁGINA_DAS_PÓS_DE_ANESTESIOLOGIA] [UTM:c11]) [CONFIRMAR URL da página e se há uma única página que reúna as pós]
 >
 > Faculdade UFAPE
 > Você recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. [Descadastrar]([link_descadastro])
 
-**Chamada para ação:** uma, "Conhecer as pós e os cursos de anestesiologia". (Esta é a única mensagem da régua cujo link não é a página do evento: o objetivo é outro, o evento já terminou. [CONFIRMAR URL])
+**Chamada para ação:** uma, "Conhecer as pós de anestesiologia". (Esta é a única mensagem da régua cujo link não é a página do evento: o objetivo é outro, o evento já terminou. [CONFIRMAR URL])
 **Follow-up:** não há segundo e-mail de marketing; quem não abriu não recebe reforço, para não pressionar.
-**Data e horário de envio:** 25/11 (quarta), 9h.
+**Data e horário de envio:** 25/11 (quarta), 9h (fim da janela de silêncio em 24/11, D8 e D9). Para participante que também está na base das provas, o reenvio das provas de 25/11 não sai (D3).
 **Opt-in:** e-mail marketing registrado. [CONFIRMAR]
 **Template Meta:** não se aplica.
 **Forma de sair:** link "Descadastrar".
@@ -978,7 +992,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **5 primeiras linhas:**
 1. Oi, [primeiro_nome]. Se o workshop abriu vontade de seguir estudando anestesiologia, deixo aqui o caminho.
-2. Oi, [primeiro_nome]. Depois do workshop, uma sugestão sem pressa: pós e cursos de anestesiologia da Faculdade UFAPE.
+2. Oi, [primeiro_nome]. Depois do workshop, uma sugestão sem pressa: pós-graduações em anestesiologia da Faculdade UFAPE.
 3. Oi, [primeiro_nome]. A Pós-graduação em Anestesiologia Avançada começa em 13/03/2027. Para consultar quando quiser.
 4. Oi, [primeiro_nome]. Quer saber que formações em anestesiologia a Ufape oferece depois do workshop?
 5. Oi, [primeiro_nome]. Obrigada pelo workshop. Se quiser continuar estudando, tem material para você aqui.
@@ -989,7 +1003,9 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 > Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Obrigada por ter participado do workshop de neuromonitorização.
 >
-> Se você quiser seguir estudando anestesiologia, temos pós-graduações (a próxima em São Paulo, Anestesiologia Avançada, começa em 13/03/2027) e cursos da área. Sem prazo para decidir agora: as condições de cada turma estão nas páginas.
+> Se você quiser seguir estudando anestesiologia, temos pós-graduações no campus São Paulo (Anestesiologia Avançada, a próxima, começa em 13/03/2027) e no campus Goiânia. Sem prazo para decidir agora: as condições de cada turma estão nas páginas.
+>
+> [bloco_prova, só com R7 e U3]
 >
 > Para ver as opções: [LINK_DA_PÁGINA_DAS_PÓS_DE_ANESTESIOLOGIA] [UTM:c11] [CONFIRMAR URL]
 >
@@ -997,7 +1013,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **Chamada para ação:** ver as opções (um link).
 **Follow-up:** não há (quem não respondeu não recebe novo toque, para não pressionar).
-**Data e horário de envio:** 25/11 (quarta), 10h.
+**Data e horário de envio:** 25/11 (quarta), 10h, só para participante sem opt-in de e-mail (D9).
 **Opt-in de WhatsApp confirmado:** só com opt-in de marketing registrado. [CONFIRMAR]
 **Template Meta:** neuro_pos_proximo_passo_v1 (marketing), {{1}} = [primeiro_nome].
 **Forma de sair:** "Responda SAIR" e botão.
@@ -1020,7 +1036,7 @@ Uso: atendimento humano, no WhatsApp de vendas (SP: (11) 91366-9290) ou por e-ma
 | R8 | Como uso o cupom SIMPNEUROMONIT? | "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT. Para usar a condição, é preciso comprovar o vínculo com a secretaria e usar o cupom: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Você é aluno ou ex-aluno de qual curso? Vou confirmar se a regra vale para o seu caso." O time não calcula o valor final com o cupom na mensagem e não inventa a ordem entre cupom e comprovação. | Ficha e catálogo, seção 9; casa de mensagens | Validade e limite do cupom; ordem e prazo da comprovação; se vale para aluno de pós em curso e ex-aluno de curso livre [CONFIRMAR] |
 | R9 | Quanto de prática eu faço? | "O sábado inteiro é prático, das 8h às 18h: instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e reconhecimento de artefatos, casos de anestesia e de UTI com e sem bloqueio neuromuscular e um desafio em pequenos grupos. O programa diz que as atividades dependem dos equipamentos e registros disponíveis. Quais monitores e quantos participantes por equipamento: vou confirmar com a coordenação." | Ficha (grade de sábado); casa de mensagens O10 | Monitores, quantidade e participantes por equipamento [CONFIRMAR NO CATÁLOGO] |
 | R10 | Serve para cães, gatos, equinos e bovinos? Serve para UTI? | "A página diz que o workshop leva a neuromonitorização para a rotina clínica de cães, gatos, equinos e bovinos, no centro cirúrgico e na UTI. Os casos do sábado são de anestesia e de UTI, com e sem bloqueio neuromuscular. Se os casos incluem equinos e bovinos: vou confirmar." | Ficha, "Para quem é"; casa de mensagens O5 | Se há caso ou prática com grandes animais [CONFIRMAR NO CATÁLOGO] |
-| R11 | Quem são os professores? | "A coordenação científica é da Profa. Dra. Mayara Travalini de Lima [CONFIRMAR autorização]. A grade completa, com horários e temas, está na página: https://faculdade.ufape.com.br/neuro-summit/" O time só cita nome de docente confirmado e com autorização registrada, e nunca cita os convidados "a definir". | Ficha | Autorização de cada docente [CONFIRMAR autorização] |
+| R11 | Quem são os professores? | "A coordenação científica é da Profa. Dra. Mayara Travalini de Lima. A grade completa, com horários e temas, está na página: https://faculdade.ufape.com.br/neuro-summit/" O time só cita docente confirmado, com nome e titulação como estão na ficha, e nunca cita os convidados "a definir". | Ficha; decisões 8 e 10 (autorização registrada para todos) | Nada |
 | R12 | Vem apostila ou material? | "A página fala em apostila e material digital 'se previsto'. Vou confirmar com a coordenação o que será entregue e te respondo." O time não promete apostila. | Ficha | O que será entregue, se previsto [CONFIRMAR] |
 | R13 | Posso cancelar ou transferir a inscrição? | "Vou confirmar a política de cancelamento e de transferência e te respondo em seguida." | Nenhuma | Política de cancelamento, transferência e reembolso [CONFIRMAR] |
 | R14 | Tem almoço, estacionamento ou hospedagem? | "O programa tem intervalo para almoço das 12h30 às 13h30 nos dois dias. Se o almoço está incluído, o estacionamento e indicação de hospedagem: vou confirmar e te respondo." O time não indica hotel ou local por conta própria. | Ficha (grade) | Almoço, estacionamento, hospedagem [CONFIRMAR] |
@@ -1039,12 +1055,12 @@ Regra de escalada: dúvida sobre cobrança, estorno, nota fiscal ou documento sa
 |---|---|---|
 | Consentimento e descadastro funcionando (opt-in registrado para WhatsApp e forma simples de sair nos dois canais) | [ ] Parcial | O texto de saída está em todas as mensagens de marketing (WhatsApp: "Responda SAIR" e botão; e-mail: link no rodapé) e nas de serviço (frase por extenso no fim de cada texto de WhatsApp). O registro do opt-in e a execução da saída são do CRM [CONFIRMAR no CRM e no checkout] |
 | Cada mensagem tem um objetivo | [x] Atendido | Objetivo único declarado no mapa (seção 1) e em cada mensagem |
-| Assuntos e primeiras linhas de WhatsApp são honestos | [x] Atendido | Cinco opções por mensagem de marketing; a linha 4 e o assunto 4 de M1 agora são cumpridos pelo corpo; as linhas de M3 por WhatsApp usam a data de 16/11 (nesta semana, sem "falta uma semana") |
+| Assuntos e primeiras linhas de WhatsApp são honestos | [x] Atendido | Cinco opções por mensagem de marketing; a linha 4 e o assunto 4 de M1 são cumpridos pelo corpo; as linhas de M3 por WhatsApp servem para o envio de 17/11 (nesta semana, sem "falta uma semana") |
 | Segmentos recebem mensagens relevantes para a etapa da jornada | [x] Atendido | Base geral, alunos e ex-alunos, quem abriu e não comprou, inscritos por modalidade, participantes |
 | Réguas têm regras de saída | [x] Atendido | Seção 1, regras de saída |
 | Resultados registrados para cada envio | [ ] Pendente | Registro de testes e registro por envio dependem do CRM e da ferramenta de medição [CONFIRMAR, P15] |
 | Cliques, respostas e conversões (inscrição e matrícula) medidos, não só aberturas e leituras | [ ] Parcial | UTM por peça definida (seção 0.2); a medição de inscrição por origem depende de eventos no site e no CRM [CONFIRMAR, E12 e E13] |
-| WhatsApp enviado só em horário comercial, com frequência humana e template aprovado pela Meta quando usar a API | [ ] Parcial | Marketing em horário comercial e em dia útil (regra da seção 0.4, agora escrita no sentido certo). M6 e M7 por WhatsApp (8h, feriado e sábado) são exceção a aprovar; a mensagem do dia está coberta por e-mail às 7h em qualquer cenário. Templates listados na seção 0.3, a aprovar pela Meta |
+| WhatsApp enviado só em horário comercial, com frequência humana e template aprovado pela Meta quando usar a API | [ ] Parcial | Campanha por WhatsApp em dia útil, das 9h às 18h; teto D1, fila D2 e supressões D3 (seção 0.5 e mapa); M3 por WhatsApp em 17/11; M9 em um canal só. M6 e M7 por WhatsApp (8h, feriado e sábado) são exceção a aprovar (R2); a mensagem do dia está coberta por e-mail às 7h em qualquer cenário. Templates listados na seção 0.3, a aprovar pela Meta |
 
 ### 4.2 auditorias/conformidade-educacional.md
 
@@ -1057,7 +1073,7 @@ Regra de escalada: dúvida sobre cobrança, estorno, nota fiscal ou documento sa
 | Regulação | Pós lato sensu: não diz "reconhecida pelo MEC" | [x] M9 não cita MEC e não diz como a pós é reconhecida |
 | Regulação | Curso livre: deixa claro que não confere diploma | [ ] Pendente: o evento não é curso livre. Texto padrão de certificado de eventos [PREENCHER COM A REGULAÇÃO]. M8 e R5 usam só a frase da página ("conforme presença, emitido pela UFAPE"), marcada [CONFIRMAR texto aprovado, AP8], sem "certificado de participação", sem carga horária e sem ligação ao MEC |
 | Regulação | Nota MEC | [x] Não se aplica, nenhuma citada |
-| Promessas e provas | Nenhuma promessa de emprego, salário, promoção, aprovação ou garantia de sucesso | [x] Nenhuma. M9 não relaciona o evento a matrícula, bolsa ou resultado |
+| Promessas e provas | Nenhuma promessa de emprego, salário, promoção, aprovação ou garantia de sucesso | [x] Nenhuma. M9 não relaciona o evento a matrícula, bolsa ou resultado; o [bloco_prova] só traz fatos das fichas e só entra com R7 e U3 |
 | Promessas e provas | Dados de empregabilidade ou satisfação com fonte | [x] Não se aplica, nenhum usado |
 | Promessas e provas | Superlativos só com fonte | [x] Nenhum ("primeiro", "único", "inédito", "imperdível" fora) |
 | Promessas e provas | Comparação com concorrente | [x] Nenhuma |
@@ -1066,7 +1082,7 @@ Regra de escalada: dúvida sobre cobrança, estorno, nota fiscal ou documento sa
 | Preço e condições | Bolsa e desconto com regra, público e prazo | [ ] Pendente: regra e público claros (aluno e ex-aluno, vínculo comprovado na secretaria, 20%); validade e prazo da comprovação [CONFIRMAR] (E6). Nenhum valor final com cupom é calculado e nenhuma ordem de passos foi criada |
 | Preço e condições | Urgência real | [x] Só a data do evento e o total de 30 vagas; nenhuma frase de escassez |
 | Preço e condições | Prouni, Fies, financiamento | [x] Não se aplica |
-| Pessoas e dados | Docentes e participantes com autorização | [x] Nenhum nome de docente nas mensagens (seção 0.1, item 2); autorização [CONFIRMAR autorização] para uso futuro |
+| Pessoas e dados | Docentes e participantes com autorização | [x] Autorização de imagem e citação registrada para todos (decisões 8 e 10). Nenhum nome de docente nas mensagens por escolha de texto; R11 cita a coordenação científica como está na ficha; convidados "a definir" fora |
 | Pessoas e dados | Menores de idade | [x] Não se aplica |
 | Pessoas e dados | Formulários com finalidade e política de privacidade | [ ] Pendente: checkout [CONFIRMAR no site] (fora desta saída) |
 | Pessoas e dados | WhatsApp e e-mail só com consentimento e saída fácil | [x] No texto de todas as mensagens; execução no CRM. M6 e M7 têm versão por e-mail, e quem não tem opt-in de WhatsApp recebe a mensagem do dia só por e-mail |
@@ -1074,7 +1090,7 @@ Regra de escalada: dúvida sobre cobrança, estorno, nota fiscal ou documento sa
 | Plataformas | Anúncios (Meta e Google) | [x] Não se aplica, são mensagens de CRM. Mensagens de marketing por WhatsApp seguem as políticas de comércio da Meta |
 | Plataformas | Página de destino entrega o que a mensagem promete | [ ] Pendente: a página ainda mostra convidados "A definir" e o cupom sem passo a passo (E1 e E12). As mensagens não prometem nada que a página não tenha e M2 não descreve passo a passo do cupom |
 
-**Resultado:** Aprovado como rascunho, com bloqueios declarados. Bloqueado para envio final de peças com preço (parcelamento do presencial, E5), de qualquer trecho [T] e da M1 versão B (verificação do 68634), de M2 e da versão aluno de M3 sem a regra completa do cupom (validade e prazo de comprovação, E6), de M8 (texto de certificado, link e prazo da gravação, AP8 e E7), de M9 (aprovação de venda cruzada para a Pós, AP10, e URL da página das pós) e de qualquer menção a docente (autorização). M6 e M7 por WhatsApp dependem da aprovação da exceção de horário; por e-mail, não. Revisado por: copy-de-mensagens (agente), após o veredito do qa-de-marketing. Revisão humana: [pendente]. Data: 26/10/2026.
+**Resultado:** Aprovado como rascunho, com bloqueios declarados. Bloqueado para envio final de peças com preço (parcelamento do presencial, E5), de qualquer trecho [T] e da M1 versão B (verificação do 68634), de M2 e da versão aluno de M3 sem a regra completa do cupom (validade e prazo de comprovação, E6), de M8 (texto de certificado, link e prazo da gravação, AP8 e E7), de M9 (aprovação humana do texto, A4, e URL da página das pós; o [bloco_prova] também depende de R7 e U3). A menção a docente deixou de ser bloqueio (decisões 8 e 10). M6 e M7 por WhatsApp dependem da exceção R2; por e-mail, não. Revisado por: copy-de-mensagens (agente), após o veredito do qa-de-marketing e, na versão 3, pela seção 12 do plano do cmo. Revisão humana: [pendente]. Data: 26/10/2026.
 
 ---
 
@@ -1085,9 +1101,9 @@ Pedidos à pessoa do marketing (nada é enviado sem o ok):
 | Item | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | A1 | Aprovar o envio de M1, M2, M3 e M10 por WhatsApp e e-mail à base com opt-in (sem os trechos [T] e sem a M1 versão B enquanto o 68634 estiver em "verificar") | Convite, programação e lembrete da reta final (AP4) | Sem custo de mídia; custo de templates da Meta conforme a conversa | Inscrições no presencial | Interromper a sequência no CRM |
-| A2 | Aprovar a exceção de horário do WhatsApp de M6 e M7 | Mensagem de serviço no início do evento, sexta (feriado nacional) e sábado às 8h00, fora do horário comercial. O e-mail das 7h cobre a mensagem do dia sem a exceção | Sem custo | Inscritos com opt-in informados também pelo WhatsApp antes das 8h30 | Não enviar o WhatsApp de M6 e M7 (o e-mail das 7h segue) |
+| A2 | Aprovar a exceção de horário do WhatsApp de M6 e M7 (é o pedido R2 da seção 12.11 do plano do cmo) | Mensagem de serviço no início do evento, sexta (feriado nacional) e sábado às 8h00, fora do horário comercial. O e-mail das 7h cobre a mensagem do dia sem a exceção | Sem custo | Inscritos com opt-in informados também pelo WhatsApp antes das 8h30 | Não enviar o WhatsApp de M6 e M7 (o e-mail das 7h segue) |
 | A3 | Aprovar M8 depois de confirmar o texto de certificado, o prazo e o link da gravação | Entrega do que foi prometido | Sem custo | Participantes informados | Retirar a mensagem da fila |
-| A4 | Aprovar M9 (venda cruzada do workshop para a Pós-graduação em Anestesiologia) | Decisão comercial (AP10); o pedido cobre a Pós, não as provas de bolsa | Sem custo | Apresentar a pós a quem participou | Não enviar |
+| A4 | Aprovar o texto de M9 (Pós-graduação em Anestesiologia, D9) e, em separado, a venda cruzada para a prova de bolsa (AP10, pedido R7 do plano do cmo) | M9 em um canal, para a Pós; a prova só entra com R7 aprovado e com o prazo de inscrição confirmado (U3) | Sem custo | Apresentar a pós a quem participou | Não enviar ou tirar o [bloco_prova] |
 | A5 | Enviar os templates da seção 0.3 para aprovação da Meta | WhatsApp Business API exige | Sem custo | Templates aprovados antes de 30/10 | Excluir o template |
 | A6 | Definir uma regra única para o transmitido (produto 68634 em "verificar") em posts e mensagens | Evitar divulgar um ingresso sem a verificação do catálogo | Sem custo | Posts e mensagens alinhados | Retirar o trecho [T] |
 
@@ -1115,16 +1131,19 @@ Próximo agente sugerido: nova passagem do qa-de-marketing e, depois dos envios,
 9. Destino de toda peça: https://faculdade.ufape.com.br/neuro-summit/. Fonte: docs/execucao-2026-10-26.md, decisão 6.
 10. Contatos oficiais: secretaria (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h; vendas São Paulo (11) 91366-9290; financeiro financeiro@intercursos.com.br, (11) 94525-3730 (WhatsApp). Fonte: contexto/ufape-geral.md.
 11. Pós de anestesiologia citadas em M9: 657 (São Paulo, semipresencial, 360 h, turma II, 13/03/2027), 68609 (Goiânia, semipresencial, 500 h, turma VIII, 24/04/2027), 359 (São Paulo, semipresencial, 360 h, turma I, 22/05/2027), todas com status aberto. Fonte: catálogo, seção 2.
-12. Calendário e canais da reta final: briefing de campanha (seção 2). 20/11/2026 é feriado nacional (Lei 14.759/2023) e sexta-feira; 21/11 é sábado; 16/11 é segunda-feira; 02/11 é feriado nacional. Fonte: briefing de campanha, legislação federal.
+12. Calendário e canais da reta final: briefing de campanha (seção 2), com as supressões e mudanças de data de D3 e D9 do plano do cmo (seção 12). 20/11/2026 é feriado nacional (Lei 14.759/2023) e sexta-feira; 21/11 é sábado; 16/11 é segunda-feira; 02/11 é feriado nacional. Fonte: briefing de campanha, legislação federal.
 13. Regras de WhatsApp e e-mail (opt-in, saída fácil, horário comercial, template da Meta): auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md.
 14. O kit de evento pede convite, véspera, dia e e-mail de convite (variação workshop) e e-mails de convite, lembrete e programação (variação simpósio); o briefing adota a soma. Fonte: templates/kit-de-lancamento-evento.md; briefing de campanha, seção 3.
-15. Veredito do qa-de-marketing de 26/10/2026, itens C1 a C8 e C11 aplicados nesta versão. Fonte: saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md.
+15. Veredito do qa-de-marketing de 26/10/2026, itens C1 a C8 e C11 aplicados na versão 2. Fonte: saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md.
+16. Autorização de imagem e de citação registrada para todos: docentes, palestrantes e convidados. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
+17. Padrão de UTM (utm_medium=crm; utm_campaign=eventos_neuro26_<AAAAMM>), teto D1, fila D2, supressões D3, janela D8 e M9 em um canal (D9). Fonte: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12.
+18. Provas de bolsa 68639 (São Paulo), 68640 (Goiânia) e 68654 (São Paulo): online (decisão 11), 27/11, das 9h às 13h, R$ 100,00, 11 bolsas por prova. Fonte: fichas das provas e docs/execucao-2026-10-26.md, decisão 11.
 
 ## Lista B: suposições
 
 1. [SUPOSIÇÃO] Nomes dos templates da Meta e a categoria (marketing ou utilidade) de cada um.
-2. [SUPOSIÇÃO] Padrão de UTM (utm_campaign=neuro-summit-2026 e códigos c01 a c12), até a definição de P15.
-3. [SUPOSIÇÃO] Horário comercial do WhatsApp de segunda a sexta, das 9h às 18h (a mesma janela da secretaria).
+2. [SUPOSIÇÃO] Códigos de utm_content c01 a c12 (o resto da UTM segue D11 e D12 do plano do cmo).
+3. [SUPOSIÇÃO] Janela de WhatsApp em dia útil, das 9h às 18h, e de e-mail em qualquer dia, das 7h às 19h; teto de 2 WhatsApp e 2 e-mails de campanha por semana e 1 por dia, somando todas as linhas (D1, até a Ufape confirmar, R1).
 4. [SUPOSIÇÃO] Datas e horários de envio, derivados do calendário do briefing de campanha.
 5. [SUPOSIÇÃO] Documento de identificação com foto como item de "o que levar" (a validar com a coordenação).
 6. [SUPOSIÇÃO] O CRM consegue segmentar base geral e alunos e ex-alunos, quem abriu ou clicou e quem comprou, e pausar toques por 48 horas após uma resposta.
@@ -1132,6 +1151,7 @@ Próximo agente sugerido: nova passagem do qa-de-marketing e, depois dos envios,
 8. [SUPOSIÇÃO] As mensagens de confirmação, véspera, dia e pós-evento podem ser enviadas por WhatsApp e e-mail às pessoas que forneceram esses contatos na inscrição.
 9. [SUPOSIÇÃO] O e-mail de serviço do dia (M6 e M7, às 7h) não está sujeito à janela de horário comercial da auditoria 07, que trata de WhatsApp.
 10. [SUPOSIÇÃO] A tendência das mensagens curtas e de tom de conversa melhora a leitura no WhatsApp; os testes das primeiras linhas confirmam ou não.
+11. [SUPOSIÇÃO] Janela de silêncio de 2 dias úteis depois do evento (D8).
 
 ## Lista C: dados que faltam
 
@@ -1144,10 +1164,21 @@ Próximo agente sugerido: nova passagem do qa-de-marketing e, depois dos envios,
 7. [CONFIRMAR] Como o acesso à transmissão é enviado e quando; senha ou cadastro prévio; canal de suporte nos dias 20 e 21/11 ([contato_plantao_evento]), já que a secretaria atende de segunda a sexta e 20/11 é feriado.
 8. [CONFIRMAR] O que levar, credenciamento e horário de chegada, almoço (incluído ou não), estacionamento, como chegar e hospedagem.
 9. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificado de eventos; [CONFIRMAR] como a presença é medida (presencial e online), se o certificado vale para o transmitido, quando é enviado e a decisão AP8 sobre responder certificado a quem ainda não se inscreveu.
-10. [CONFIRMAR autorização] Nome de cada docente antes de qualquer peça com nome; os 4 convidados "a definir" seguem fora.
+10. [CONFIRMAR] Os 4 convidados "a definir" seguem fora até serem confirmados (a autorização deixou de ser pendência, decisões 8 e 10).
 11. [CONFIRMAR] Política de cancelamento, transferência e reembolso.
 12. [CONFIRMAR NO CATÁLOGO] Monitores do sábado, quantidade e participantes por equipamento; se os casos incluem equinos e bovinos; o que será entregue como material, se previsto.
 13. [CONFIRMAR] Uso do feriado de 20/11 como argumento e orientação de transporte e funcionamento do local no feriado.
 14. [CONFIRMAR] Opt-in de WhatsApp e e-mail por segmento e como o CRM registra o consentimento; consentimento de contato na inscrição (checkout) para as mensagens de serviço.
-15. [CONFIRMAR] Aprovação da exceção de horário do WhatsApp de M6 e M7; aprovação da venda cruzada para a pós (AP10); URL da página das pós de anestesiologia e dos cursos da área; se haverá pesquisa de satisfação e o link.
+15. [CONFIRMAR] Aprovação da exceção de horário do WhatsApp de M6 e M7 (R2); aprovação do texto de M9 (A4) e da venda cruzada para a prova de bolsa (AP10, R7); prazo de inscrição das provas (U3); URL da página das pós de anestesiologia; se haverá pesquisa de satisfação e o link.
 16. [CONFIRMAR] Quem aprova e-mail e WhatsApp em massa (P12) e a ferramenta de medição (P15).
+
+## Mudanças desta versão
+
+Versão 3 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 8 e 10:
+- M1 e M2 por WhatsApp em 30/10 só para quem não tem opt-in de e-mail; quem tem os dois recebe o primeiro WhatsApp no follow-up de 04/11 (D3).
+- Follow-ups de 03/11 (e-mail), 04/11 (WhatsApp) e 09/11 (e-mail) não saem para a base das provas; M10 não sai para quem recebe o P2 de 68606 em 05/11 (D3).
+- M3 por WhatsApp passou de 16/11 para 17/11, 10h; o e-mail de sábado 14/11 fica (janela de e-mail de D1).
+- M9 em um canal só (e-mail 9h; WhatsApp 10h só sem opt-in de e-mail), leva à Pós em Anestesiologia com o campus, sem curso livre; prova de bolsa só no [bloco_prova], com R7 (AP10) e U3 (D9).
+- Nova seção 0.5 com teto D1, fila D2, supressões D3 e janela D8; seção 0.4 com a janela única; coluna de supressão no mapa.
+- UTM: utm_medium=crm, utm_campaign=eventos_neuro26_202610 (D11 e D12).
+- Docentes: autorização registrada para todos (decisões 8 e 10); marcas [CONFIRMAR autorização] retiradas da regra 2, de R11, das auditorias e da lista C.

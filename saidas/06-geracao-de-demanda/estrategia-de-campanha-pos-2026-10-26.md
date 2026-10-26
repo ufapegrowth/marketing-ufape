@@ -3,6 +3,7 @@
 - **Agente:** estrategia-de-campanha (departamento 06 Geração de Demanda), etapa 1.23 da camada 1, antecipada pela urgência
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo: 4.3 com D1 e D2; provas online, campus, regra por ficha e turma mínima de 15; nomes e UTM de D12) e as decisões 8, 10 e 11 de docs/execucao-2026-10-26.md. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Toda ação em gerenciador de anúncios, CRM ou site é pedido de aprovação humana.
 - **Decisão que este briefing executa:** pedido A3 do plano do cmo, aprovado em 26/10/2026: as 22 provas de bolsa de 27/11/2026 viram uma campanha única, com variação por especialidade.
 - **Entradas lidas:**
@@ -22,6 +23,7 @@
   - saidas/08-conversao/analise-cro-pos-2026-10-26.md (página 3, prova 68639)
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3, 4 e 7)
   - auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md
+  - Versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1, D2, D3, D10, D11, D12, 12.6 PP3, 12.9 e 12.12); fichas das 22 provas abertas em contexto/cursos/pos/ (campus, prazo de matrícula, canal do resultado e composição); saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (seção 4.2, PP3)
 - **Dados pessoais:** nenhum. Docentes não são nomeados. Nenhum aprovado de edições passadas é citado.
 
 ---
@@ -29,10 +31,10 @@
 ## 0. Resumo em 6 linhas
 
 1. Uma campanha, uma mensagem central e 13 variações por área (A1 a A14; A9 Oftalmologia fica fora porque a prova 68656 está fora do ar).
-2. A oferta é a mesma nas 22 provas: inscrição de R$ 100,00, 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, prova presencial de 9h às 13h em 27/11/2026.
+2. A oferta é a mesma nas 22 provas: inscrição de R$ 100,00, 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, prova online de 9h às 13h em 27/11/2026, turma mínima de 15. Cada prova é de um campus (São Paulo ou Goiânia) e toda peça diz o campus. Prazo de matrícula, canal do resultado e composição seguem a ficha de cada prova; 12 fichas se contradizem por dentro e ficam [CONFIRMAR U1] (decisão 11; seção 1, Oferta).
 3. O maior bloqueio não é de peça, é de oferta: nenhuma página diz para qual turma a bolsa vale. Sem destino confirmado, 12 das 22 provas só recebem peça genérica ou ficam seguradas (seção 3.2).
 4. Janela de pico até 07/11/2026, quando fecham as inscrições da prova da Anclivepa-SP. A comparação com ela fica para o time de vendas; peça pública não cita o concorrente sem aprovação jurídica (seção 2.6).
-5. Três achados novos nas fichas: a página de Goiânia (68640) mostra endereço de São Paulo; a página de Felinos (68652) contradiz as regras comuns e traz a frase ligada ao MEC; a prova de Hematologia (68651) cai um dia antes da turma 68608, como a de Dermatologia.
+5. Achados nas fichas: a página de Felinos (68652) traz a frase ligada ao MEC; 12 fichas (Felinos entre elas) têm prazo de matrícula e canal do resultado em mais de uma versão (U1); a prova de Hematologia (68651) cai um dia antes da turma 68608, como a de Dermatologia. O endereço de São Paulo na página de Goiânia (68640) deixou de importar: as provas são online (decisão 11).
 6. Metas, verba e prazo de inscrição: todos [CONFIRMAR]. As regras de decisão dos pontos de checagem estão escritas; os números entram quando a Ufape enviar (pedido A8).
 
 ---
@@ -41,11 +43,11 @@
 
 BRIEFING DE CAMPANHA
 
-**Nome da campanha:** Provas de bolsa da Pós-graduação, 27/11/2026 (nome interno: provas-de-bolsa-2026-11-27).
+**Nome da campanha:** Provas de bolsa da Pós-graduação, 27/11/2026. Chave do item (D12 do plano do cmo): pos_provas20261127. Nomes de campanha e UTM na seção 4.3.
 
 **Linha de negócio e curso(s):** Pós-graduação. 22 provas de bolsa com status "aberto" no catálogo (seção 3), 19 em São Paulo e 3 em Goiânia:
 
-| Código | Prova (nome no site) | Praça | Área do plano |
+| Código | Prova (nome no site) | Campus | Área do plano |
 |---|---|---|---|
 | 68639 | Anestesiologia Veterinária | São Paulo | A1 |
 | 68640 | Anestesiologia Veterinária | Goiânia | A1 |
@@ -91,7 +93,7 @@ Hoje não existe número de inscritos, leads, verba nem histórico de provas ant
 **Público (persona):** P4, o candidato que usa a prova de bolsa como porta de entrada (pesquisa-de-persona, seção 2), que atravessa P1 (clínico de pequenos animais com 1 a 8 anos de formado), P2 (quem viaja de outra cidade) e P3 (recém-formado). Tudo [SUPOSIÇÃO] até chegarem conversas anonimizadas do WhatsApp de vendas.
 - Gatilho principal [SUPOSIÇÃO]: reduzir o preço da pós sem se comprometer com a matrícula.
 - Dúvidas que decidem a inscrição [SUPOSIÇÃO, H-PB3 e H-PB7]: "quantas bolsas tem?", "vale pagar R$ 100,00?", "a bolsa vale para qual turma e cidade?", "o que cai na prova?".
-- Desqualifica: quem não pode estar presencialmente em São Paulo ou Goiânia em 27/11/2026 (sexta-feira, das 9h às 13h); candidato de Oftalmologia (sem prova); quem não é médico veterinário formado [CONFIRMAR o requisito de inscrição na prova, que a página não traz].
+- Desqualifica: quem não pode fazer a prova online em 27/11/2026 (sexta-feira, das 9h às 13h); quem não pode cursar a pós no campus da prova (São Paulo ou Goiânia), já que a bolsa é para a turma desse campus [CONFIRMAR turma de destino, U4]; candidato de Oftalmologia (sem prova); quem não é médico veterinário formado [CONFIRMAR o requisito de inscrição na prova, que a página não traz].
 - Peças sem assumir gênero masculino (pesquisa-de-persona, S-P1 a S-P3).
 
 **Oferta (como está no catálogo, no contexto e nas páginas das provas):**
@@ -100,16 +102,16 @@ Hoje não existe número de inscritos, leads, verba nem histórico de provas ant
 |---|---|---|---|
 | Inscrição | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão | catálogo, seção 3 | Pode |
 | Data e horário | 27/11/2026, das 9h às 13h | fichas 68639, 68640, 68646, 68652 | Pode |
-| Formato | Prova presencial, com questões de múltipla escolha e dissertativas | contexto/pos-graduacao.md; fichas | Pode |
-| Local | São Paulo: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista. Goiânia: [CONFIRMAR] (a página 68640 mostra o endereço de São Paulo) | fichas | SP pode; Goiânia só depois de corrigido |
+| Formato | Prova online (decisão 11 de 26/10/2026). Composição como está na ficha de cada prova: "múltipla escolha e dissertativas" em 11 fichas; "10 a 20" ou "20 questões objetivas e/ou dissertativas" em 11 | decisão 11; fichas | Pode, com a composição da ficha da prova citada. Como é o acesso online: [CONFIRMAR U2] |
+| Campus | São Paulo ou Goiânia, pelo campo "Localidade" da ficha (68640, 68642 e 68644 em Goiânia; as outras 19 em São Paulo). O endereço das páginas não é local de prova: a prova é online | decisão 11; fichas | Toda peça diz o campus. Nenhuma peça cita endereço como local da prova |
 | Bolsas | 11 por prova: 2 de 50% (monitoria), 4 de 25%, 5 de 10% | contexto/pos-graduacao.md; fichas | Pode, sempre com a distribuição completa ou "11 bolsas, de 10% a 50%". Nunca "50% de bolsa" sozinho |
 | Nota de corte | 7,0 (mínimo de 70% de acerto) | contexto; fichas | Pode |
-| Resultado | Por WhatsApp e/ou e-mail. Data de divulgação: [CONFIRMAR] | contexto; fichas | Pode citar o canal; não citar data |
+| Resultado | Canal da ficha de cada prova: WhatsApp e/ou e-mail em 10 fichas (68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660); em 12 fichas o texto traz até três versões (WhatsApp e/ou e-mail; só e-mail; site da Faculdade) [CONFIRMAR U1]. Data de divulgação: [CONFIRMAR U3] | fichas | Citar o canal só nas 10 fichas de regra única; não citar data |
 | Recurso | 2 dias úteis após a divulgação do resultado | contexto; fichas | Pode |
-| Matrícula | Até 10 dias úteis após o resultado | contexto; fichas | Pode, exceto em Felinos (página diz 7 e 10 dias: [CONFIRMAR]) |
+| Matrícula | Prazo da ficha de cada prova: 10 dias úteis nas 10 fichas de regra única; nas 12 fichas que se contradizem (68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661), "até 10 dias (úteis)" no topo e "7 dias" no bloco REGRAS [CONFIRMAR U1] | fichas | Pode nas 10 de regra única. Nas 12, nenhuma peça cita prazo de matrícula até a resposta U1; a squad não escolhe entre as versões |
 | Bolsa | Não acumulativa e intransferível | contexto; fichas | Pode |
 | Desempate | Análise de currículo | contexto; fichas | Pode |
-| Turma mínima | 15 na página da prova; 20 nas páginas de curso e no contexto da linha | contexto; fichas | Não citar número até a Ufape confirmar [CONFIRMAR]. Usar: "a turma é confirmada quando atinge o número mínimo de alunos" |
+| Turma mínima | 15 alunos, também nas turmas de Pós (decisão 11); as páginas de curso que ainda dizem 20 serão corrigidas | decisão 11; contexto/pos-graduacao.md; fichas | Pode: "a turma é confirmada com o mínimo de 15 alunos" |
 | Turma de destino | Não aparece em nenhuma página | contexto; plano do cmo, P10 | [CONFIRMAR] por prova (seção 3.2) |
 | Prazo de inscrição | Não aparece | analise-cro, página 3 | [CONFIRMAR]. Sem ele, nenhuma peça diz "inscrições até" |
 | Monitoria (bolsa de 50%) | O que exige: não aparece | analise-cro | Citar só "50% (monitoria)", sem descrever obrigações [CONFIRMAR] |
@@ -121,9 +123,9 @@ Regras da oferta lidas nas páginas das 22 provas em 26/10/2026 e registradas em
 
 **Mensagem central:**
 
-> "Faça a prova de bolsa da Pós-graduação na sua especialidade. Inscrição de R$ 100,00 e 11 bolsas por prova, de 10% a 50%. Prova presencial em 27 de novembro."
+> "Faça a prova de bolsa da Pós-graduação na sua especialidade. Inscrição de R$ 100,00 e 11 bolsas por prova, de 10% a 50%. Prova online em 27 de novembro, com provas do campus São Paulo e do campus Goiânia."
 
-- Versão curta (anúncio, stories): "Prova de bolsa da Pós-graduação em <área>. Inscrição de R$ 100,00. 11 bolsas, de 10% a 50%. 27/11."
+- Versão curta (anúncio, stories): "Prova de bolsa da Pós-graduação em <área>, campus <São Paulo ou Goiânia>. Inscrição de R$ 100,00. 11 bolsas, de 10% a 50%. Online, 27/11."
 - Prova de apoio (sempre que couber): "2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0."
 - Chamada para ação: "Inscrever-me na prova" (rótulo sugerido pela analise-cro), levando à página da prova da área com UTM.
 - Tom: técnico, próximo, confiante, de colega para colega (contexto/ufape-geral.md, [SUPOSIÇÃO]).
@@ -144,7 +146,7 @@ Regras da oferta lidas nas páginas das 22 provas em 26/10/2026 e registradas em
 | 28/11/2026 | sábado | Início das turmas 68610 (Dermatologia V), 68608 (Hematologia VIII) e 698 (Ecocardiografia III) | catálogo, seção 2 |
 | [CONFIRMAR] | | Divulgação do resultado das provas | não está nas páginas |
 | resultado + 2 dias úteis | | Fim do prazo de recurso | fichas |
-| resultado + 10 dias úteis | | Fim do prazo de matrícula com bolsa | fichas (Felinos: 7 ou 10 [CONFIRMAR]) |
+| resultado + prazo da ficha | | Fim do prazo de matrícula com bolsa | fichas (10 dias úteis em 10 fichas; 12 fichas com 10 dias úteis e 7 dias: [CONFIRMAR U1]) |
 | 05/12/2026 | sábado | Divulgação dos bolsistas da Anclivepa-SP | cópia não oficial do edital: [CONFIRMAR] |
 | 20/03/2027 a 22/05/2027 | | Início das turmas candidatas a destino (seção 3) | catálogo, seção 2 |
 
@@ -176,10 +178,10 @@ As regras são iguais nas 22 provas (contexto/pos-graduacao.md), a data é a mes
 
 Até o destino de cada prova ser confirmado, só as camadas mestre e área rodam.
 
-### 2.3 Variação por praça
+### 2.3 Variação por campus
 
-- Goiânia tem 3 provas (68640 Anestesiologia, 68642 Cardiologia, 68644 Clínica Cirúrgica). Os anúncios de Goiânia segmentam a praça e citam só essas três.
-- A página 68640 mostra o endereço de São Paulo como local da prova de Goiânia. Nenhuma peça de Goiânia cita endereço até a Ufape corrigir [CONFIRMAR o local da prova em Goiânia]. Conferir também 68642 e 68644 (não lidas por inteiro nesta etapa).
+- Goiânia tem 3 provas (68640 Anestesiologia, 68642 Cardiologia, 68644 Clínica Cirúrgica). Os anúncios de Goiânia segmentam a praça e citam só essas três, sempre com "campus Goiânia".
+- As provas são online (decisão 11): o endereço de São Paulo que aparece nas páginas de Goiânia (68640, 68642 e 68644) não bloqueia mais peça. Nenhuma peça cita endereço como local de prova; toda peça diz o campus da prova. Pedido de correção do texto "PROVA PRESENCIAL" e do endereço nas páginas: A-C8.
 - As páginas de Cardiologia de Goiânia e de São Paulo estão com links invertidos (plano do cmo, P3). Nenhum anúncio de Cardiologia sobe antes da correção.
 
 ### 2.4 Variação por momento do candidato
@@ -231,10 +233,10 @@ Uso recomendado:
 ### 3.1 Regras comuns a todas as variações
 
 - Nome: "Prova de bolsa para a Pós-graduação em <área>". A página leva o nome do site; a peça segue o padrão da linha.
-- Mesma oferta da seção 1, sem nenhum diferencial novo. O que diferencia a área é: o nome da especialidade, a praça, o gancho de rotina (hipótese da persona, a validar) e, depois de confirmado, a turma de destino com investimento completo (parcelas, valor da parcela, total e matrícula).
+- Mesma oferta da seção 1, sem nenhum diferencial novo. O que diferencia a área é: o nome da especialidade, o campus, o gancho de rotina (hipótese da persona, a validar) e, depois de confirmado, a turma de destino com investimento completo (parcelas, valor da parcela, total e matrícula).
 - Ganchos de rotina são [SUPOSIÇÃO] tirados das hipóteses da pesquisa-de-persona e de insights-de-alunos; servem ao criador-de-ganchos e aos criativos como ponto de partida, não como fala de aluno.
 - Número de turma (por exemplo, "turma XI") só como rótulo do catálogo; usar como prova de tradição depende de confirmação [CONFIRMAR] (contexto/ufape-geral.md).
-- Docentes: nenhum nome em peça desta campanha até haver autorização registrada [CONFIRMAR autorização].
+- Docentes: a autorização de uso de imagem e de citação está registrada para todos (decisões 8 e 10). Nome e titulação só como estão na ficha; o plano desta campanha não prevê peça com docente.
 - Preço das turmas candidatas abaixo é referência para os agentes seguintes (catálogo, site em 26/10/2026). Só entra em peça depois de o destino ser confirmado e com a condição completa.
 
 ### 3.2 Situação do destino por prova (resumo)
@@ -254,7 +256,7 @@ Total: 10 em D1, 4 em D2, 4 em D3, 4 em D4.
 - Situação: 68639 em D3; 68640 em D1.
 - Turmas candidatas (catálogo): Goiânia, 68609 Pós-graduação em Anestesiologia Veterinária, turma VIII, início 24/04/2027, 500 h, 30x de R$ 1.081,67, total de R$ 32.450,00, matrícula de R$ 250,00. São Paulo: 657 Anestesiologia Avançada (13/03/2027, 360 h) e 359 Anestesiologia Locorregional (22/05/2027, 360 h, pré-requisito na ficha) não são a mesma pós da prova [CONFIRMAR destino de 68639].
 - Gancho [SUPOSIÇÃO]: segurança no protocolo anestésico do paciente de rotina.
-- Alertas: página de Goiânia com endereço de São Paulo. Sobreposição de público com o Workshop de Neuromonitorização (20 e 21/11, linha Eventos): combinar a cadência de mensagens (seção 4.3).
+- Alertas: sobreposição de público com o Workshop Brasileiro de Neuromonitorização (20 e 21/11, linha Eventos): a cadência segue o teto D1, a fila D2 e as supressões D3 do plano do cmo (seção 4.3). A prova de Anestesiologia (68639 ou 68640) só entra no M9 do Workshop com a venda cruzada AP10 aprovada (R7) e o prazo de inscrição confirmado (U3).
 
 **A2. Cardiorrespiratório (68641 Cardiologia SP, 68642 Cardiologia Goiânia, 68659 Pneumologia SP)**
 - Situação: 68641 em D3; 68642 e 68659 em D1.
@@ -316,11 +318,11 @@ Total: 10 em D1, 4 em D2, 4 em D3, 4 em D4.
 - Situação: D1.
 - Turma candidata: 68616 Pós-graduação em Neurologia e Neurocirurgia Veterinária, São Paulo, turma IX, 08/05/2027, 500 h, 30x de R$ 1.192,40, total de R$ 35.772,00, matrícula de R$ 250,00.
 - Gancho [SUPOSIÇÃO]: o paciente neurológico que hoje é encaminhado.
-- Alerta: o Workshop de Neuromonitorização (20 e 21/11) fala com o mesmo público uma semana antes da prova. Não juntar as duas ofertas na mesma peça; combinar a cadência (seção 4.3). As turmas 677 e 701 estão em "verificar" e não entram.
+- Alerta: o Workshop Brasileiro de Neuromonitorização (20 e 21/11) fala com o mesmo público uma semana antes da prova. Não juntar as duas ofertas na mesma peça; cadência pela seção 4.3 (D1 a D3). A prova 68654 só entra no M9 do Workshop com R7 e U3. As turmas 677 e 701 estão em "verificar" e não entram.
 
 **A13. Medicina felina (68652 SP)**
 - Situação: D4, [CONFIRMAR destino]. A turma 650 começou em 15/08/2026 ("verificar").
-- **Alertas da página (ficha 68652):** (1) o texto diz que a pós "é reconhecida pelo Ministério da Educação (MEC)": página de destino com frase proibida (P2), anúncio que leve a ela fica sinalizado; (2) regras contraditórias na mesma página: resultado "via email", "via telefone (WhatsApp e/ou e-mail)" e "no site da Faculdade Ufape"; matrícula em "10 dias (úteis)" e em "7 dias"; composição "10 a 20 questões objetivas e/ou dissertativas, totalizando 10 pontos". Nenhuma peça de Felinos cita prazo de matrícula nem canal de resultado até a Ufape corrigir [CONFIRMAR].
+- **Alertas da página (ficha 68652):** (1) o texto diz que a pós "é reconhecida pelo Ministério da Educação (MEC)": página de destino com frase proibida (P2), anúncio que leve a ela fica sinalizado; (2) regras contraditórias na mesma página: resultado "via email", "via telefone (WhatsApp e/ou e-mail)" e "no site da Faculdade Ufape"; matrícula em "10 dias (úteis)" e em "7 dias"; composição "10 a 20 questões objetivas e/ou dissertativas, totalizando 10 pontos". Nenhuma peça de Felinos cita prazo de matrícula nem canal de resultado até a resposta U1, que vale para as 12 fichas com o mesmo problema.
 - A página traz conteúdo programático e bibliografia sugerida: é a única prova com esse material. Pode virar isca de estudo para a área, se a Ufape confirmar que vale (próximo agente: iscas-digitais).
 - Área de alta disputa (cinco concorrentes nomeados).
 
@@ -330,7 +332,7 @@ Total: 10 em D1, 4 em D2, 4 em D3, 4 em D4.
 
 ### 3.4 Prioridade de investimento entre áreas (proposta, sem verba)
 
-1. Primeiro as 10 provas em D1 (destino provável e menos risco de reclamação), começando pelas de Goiânia se o local for corrigido, porque lá não apareceu concorrente presencial (inteligencia-concorrencia, ângulo 5). A Cardiologia de Goiânia (68642) só entra depois da correção dos links.
+1. Primeiro as 10 provas em D1 (destino provável e menos risco de reclamação), começando pelas de Goiânia (o local deixou de bloquear: prova online, decisão 11), porque lá não apareceu concorrente presencial (inteligencia-concorrencia, ângulo 5). A Cardiologia de Goiânia (68642) só entra depois da correção dos links.
 2. Depois D2 e D3, só com a decisão da Ufape sobre o destino.
 3. D4 fica só na peça mestre até a confirmação.
 
@@ -358,7 +360,7 @@ A divisão de verba é do gestor-de-midia, com a verba aprovada pela pessoa do m
 | Etapa | Canais | O que precisa acontecer |
 |---|---|---|
 | Atenção | Instagram e Facebook (orgânico e pago), Shorts se houver | O veterinário descobre que existe prova de bolsa na especialidade dele, com custo e número de bolsas |
-| Nutrição | E-mail, WhatsApp para a base com opt-in, stories, remarketing | Entende como funciona, tira as dúvidas (destino, conteúdo, local) e decide |
+| Nutrição | E-mail, WhatsApp para a base com opt-in, stories, remarketing | Entende como funciona, tira as dúvidas (destino, conteúdo, acesso à prova online) e decide |
 | Conversão | Página da prova da área, WhatsApp de vendas (SP e Goiânia), Google Search | Inscrição de R$ 100,00 concluída |
 | Serviço ao inscrito | WhatsApp e e-mail pelo CRM | Confirmação, orientações do dia, lembrete de véspera |
 | Segunda conversão | WhatsApp de vendas, e-mail, página da turma de destino | Matrícula com bolsa dentro do prazo |
@@ -366,8 +368,10 @@ A divisão de verba é do gestor-de-midia, com a verba aprovada pela pessoa do m
 ### 4.3 Regras de canal
 
 - WhatsApp e e-mail só para quem deu consentimento, com forma fácil de sair. Ninguém recebe mensagem de uma lista comprada ou de grupo sem opt-in.
-- Cadência máxima por contato na base, somando todas as campanhas da Ufape (provas, Workshop de 20/11, reta final das turmas da onda 1): 2 mensagens de campanha por semana no WhatsApp e 2 e-mails por semana [SUPOSIÇÃO de limite; o estrategia-de-relacionamento e a Ufape confirmam]. Mensagens de serviço ao inscrito não contam.
-- UTM em todo link: utm_source (instagram, facebook, google, whatsapp, email), utm_medium (pago, organico, base), utm_campaign=provas-de-bolsa-2026-11-27, utm_content=<area>-<codigo da prova> [SUPOSIÇÃO de padrão; o arquiteto-de-fluxos confere com o padrão da squad].
+- Teto e janela: valem D1 do plano do cmo (seção 12.2), para Pós, Livres, Eventos, Graduação e newsletter juntos: até 2 WhatsApp e até 2 e-mails de campanha por contato por semana, no máximo 1 mensagem de campanha por dia em qualquer canal; WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h [SUPOSIÇÃO de número até a Ufape confirmar, R1]. Follow-up e reenvio contam. Serviço fica fora do teto: confirmação, véspera, dia da prova e resultado (M16 a M20, D4).
+- Prioridade: vale a fila D2 (serviço; toque principal com data, vence a data mais próxima e, no empate, a maior nota GUT; follow-ups e reenvios; nutrição; reativação). As supressões semana a semana de quem está também na base do Workshop ou do kit de 68606 estão em D3 e no mapa da copy-de-mensagens-pos. Dias sem campanha: 02/11, 20 e 21/11 (todas as linhas) e 26 e 27/11 para a base das provas (só serviço).
+- Público da régua: [segmento] ex_aluno é ex-aluno de Pós (D10); comprador só de Livres entra só se também for lead de Pós com opt-in.
+- Nomes e UTM (D11 e D12): chave pos_provas20261127. Pago: nome da campanha = pos_provas20261127_<plataforma>_<objetivo>_<público>_<AAAAMM> e utm_campaign igual ao nome; conjunto = nome da campanha + "__" + público; anúncio = <código ou conceito>_<formato>_<gancho>_vN; utm_source=meta (Instagram e Facebook) ou google; utm_medium=paid_social na Meta e cpc no Google. CRM: utm_source=whatsapp ou email, utm_medium=crm, utm_campaign=pos_provas20261127_202611. Orgânico: utm_source=instagram, facebook ou youtube, utm_medium=organic_social, utm_campaign=pos_provas20261127_<AAAAMM da publicação>. utm_content = ID da peça ou da mensagem (ex.: m4-a1-anest-68639). Tudo em minúsculas, sem acento, sem dado pessoal. Os anúncios das provas sobem em 03/11 já neste padrão, sem exceção.
 - Nas peças de busca, usar "Faculdade UFAPE" por causa da homonímia com a universidade federal (inteligencia-concorrencia, alerta 9).
 - A página da Graduação não entra nesta campanha.
 
@@ -379,16 +383,16 @@ Data do plano: 26/10/2026. Toda data de envio ou de subida de anúncio depende d
 
 | Fase | Datas | Objetivo | O que acontece | Quem |
 |---|---|---|---|---|
-| 0. Preparação | 26 a 29/10 | Briefing aprovado e destravar a oferta | Este briefing para aprovação. Pedido à Ufape (A-C2 e A-C3): destino de cada prova, prazo de inscrição, data do resultado, local de Goiânia, regra do aprovado sem bolsa, monitoria, ausência, turma mínima, correção de Felinos e dos links de Cardiologia. estrategia-de-oferta registra as regras. gestor-de-midia escreve metas de custo e plano de mídia | estrategia-de-campanha, cmo, estrategia-de-oferta, gestor-de-midia, Ufape |
+| 0. Preparação | 26 a 29/10 | Briefing aprovado e destravar a oferta | Este briefing para aprovação. Pedido à Ufape (A-C2 e A-C3): destino de cada prova, prazo de inscrição, data do resultado, regra das 12 fichas contraditórias (U1), como é a prova online (U2), regra do aprovado sem bolsa, monitoria, ausência, correção de Felinos e dos links de Cardiologia. estrategia-de-oferta registra as regras. gestor-de-midia escreve metas de custo e plano de mídia | estrategia-de-campanha, cmo, estrategia-de-oferta, gestor-de-midia, Ufape |
 | 1. Subida | 27/10 a 03/11 | Começar a gerar inscrições nas provas em D1 | Peças mestre e de área produzidas e aprovadas até 03/11 (prazo do cmo). Post mestre orgânico e primeiro e-mail para a base assim que aprovados. Anúncios Meta e Search das provas em D1 sobem com a verba aprovada. Ajustes da página da prova pedidos ao site | criativos-de-anuncio, posts-sociais, copy-de-mensagens, landing-page, gestor-de-midia |
 | Checagem 1 | 03/11 (terça) | Primeiro ponto de decisão | Seção 7 | cmo, gestor-de-midia |
-| 2. Pico | 03/11 a 07/11 | Maior investimento da campanha antes do fim das inscrições da Anclivepa | Maior parte da verba das fases 1 e 2 concentrada nesses dias [SUPOSIÇÃO de que o candidato que compara decide nessa janela]. WhatsApp para a base com opt-in (mensagem mestre). Time de vendas com o roteiro factual da seção 2.6. Peça pública sem citar o concorrente e sem urgência ligada a ele | gestor-de-midia, copy-de-mensagens, time de vendas |
-| 3. Sustentação | 08/11 a 19/11 | Manter alcance e responder dúvidas | Posts por área, stories com FAQ, e-mail "como funciona", remarketing para quem visitou a página. Entram as provas de D2 e D3 que tiverem destino confirmado. Workshop de Neuromonitorização em 20 e 21/11: sem mensagem das provas para a base nesses dois dias | posts-sociais, copy-de-mensagens, gestor-de-midia |
+| 2. Pico | 03/11 a 09/11 | Maior investimento da campanha, com o fim das inscrições da Anclivepa (07/11) dentro da janela | Divisão de verba da fase PP3 confirmada pelo cmo (plano do cmo, 12.6; gestor-de-midia-pos, 4.2): 40% na abertura e pico (03/11 a 09/11), 35% na sustentação e 25% na reta final, pendente de aprovação humana [SUPOSIÇÃO de que o candidato que compara decide nessa janela]. WhatsApp para a base com opt-in (mensagem mestre). Time de vendas com o roteiro factual da seção 2.6. Peça pública sem citar o concorrente e sem urgência ligada a ele | gestor-de-midia, copy-de-mensagens, time de vendas |
+| 3. Sustentação | 08/11 a 19/11 | Manter alcance e responder dúvidas | Posts por área, stories com FAQ, e-mail "como funciona", remarketing para quem visitou a página. Entram as provas de D2 e D3 que tiverem destino confirmado. Workshop Brasileiro de Neuromonitorização em 20 e 21/11: nenhuma mensagem de campanha de nenhuma linha nesses dois dias (D1) | posts-sociais, copy-de-mensagens, gestor-de-midia |
 | Checagens 2 e 3 | 09/11 e 16/11 (segundas) | Revisão semanal | Seção 7 | cmo, gestor-de-midia |
-| 4. Reta final | 20 a 26/11 | Última janela de inscrição | Mensagens só com fatos: "a prova é em 27/11, das 9h às 13h". Se a Ufape informar o prazo de inscrição, ele entra com a data exata; sem ele, nenhuma peça diz "inscrições até". Remarketing de quem iniciou e não concluiu a inscrição (se o checkout permitir) [CONFIRMAR]. Mensagem de serviço aos inscritos: documento com foto, sem celular nem relógio, endereço e horário | copy-de-mensagens, posts-sociais, gestor-de-midia, CRM |
+| 4. Reta final | 20 a 26/11 | Última janela de inscrição | Mensagens só com fatos: "a prova é em 27/11, das 9h às 13h". Se a Ufape informar o prazo de inscrição, ele entra com a data exata; sem ele, nenhuma peça diz "inscrições até". Remarketing de quem iniciou e não concluiu a inscrição (se o checkout permitir) [CONFIRMAR]. Mensagem de serviço aos inscritos: horário, campus e acesso à prova online [CONFIRMAR U2]. Em 26 e 27/11, só serviço para a base das provas (D1) | copy-de-mensagens, posts-sociais, gestor-de-midia, CRM |
 | Checagem 4 | 23/11 (segunda) | Decidir a reta final | Seção 7 | cmo, gestor-de-midia |
-| 5. Dia da prova | 27/11 (sexta) | Comparecimento | Mensagem de serviço de manhã cedo para os inscritos (horário, endereço, documento) [CONFIRMAR o horário de envio]. Anúncios de inscrição pausados (pedido de pausa aprovado antes, A-C6). Post orgânico sem foto de candidato e sem rosto sem autorização | copy-de-mensagens, gestor-de-midia |
-| 6. Pós-prova até a matrícula | 28/11 até o fim do prazo de matrícula [CONFIRMAR a data] | Converter aprovados em matrículas com bolsa | Resultado pelos canais da página (CRM, dado pessoal fora da squad). Mensagens por grupo, só com regras confirmadas: aprovado com bolsa (prazo de matrícula, link da turma de destino, investimento completo com a bolsa aplicada calculado pela Ufape); aprovado sem bolsa ([CONFIRMAR regra]); não aprovado (agradecimento e convite para conhecer a turma sem pressão, se a Ufape aprovar); ausente (sem cobrança, sem promessa de reembolso). Prazo de recurso de 2 dias úteis informado | copy-de-mensagens, time de vendas, CRM |
+| 5. Dia da prova | 27/11 (sexta) | Comparecimento | Mensagem de serviço de manhã cedo para os inscritos (horário, campus e acesso online): e-mail às 7h; WhatsApp às 8h só com a exceção R2 aprovada. Anúncios de inscrição pausados (pedido de pausa aprovado antes, A-C6). Post orgânico sem foto de candidato e sem rosto sem autorização | copy-de-mensagens, gestor-de-midia |
+| 6. Pós-prova até a matrícula | 28/11 até o fim do prazo de matrícula [CONFIRMAR a data] | Converter aprovados em matrículas com bolsa | Resultado pelos canais da página (CRM, dado pessoal fora da squad). Mensagens por grupo, de serviço (D4), só com regras confirmadas: aprovado com bolsa (prazo de matrícula da ficha da prova, link da turma de destino, investimento completo com a bolsa aplicada calculado pela Ufape); aprovado sem bolsa ([CONFIRMAR regra]); não aprovado (agradecimento e convite para conhecer a turma sem pressão, se a Ufape aprovar); ausente (sem cobrança, sem promessa de reembolso). Prazo de recurso de 2 dias úteis informado | copy-de-mensagens, time de vendas, CRM |
 | Checagem 5 | 30/11 (segunda) | Leitura de inscrições, presença e aprovados | Seção 7 | cmo, analise-de-campanha |
 | Encerramento | fim do prazo de matrícula [CONFIRMAR] | Relatório final | Pedido de pausa de todo anúncio restante, relatório com aprendizados por área, entrada no backlog-de-otimizacao | gestor-de-midia, analise-de-campanha, cmo |
 
@@ -401,13 +405,13 @@ Prazos de entrega para aprovação. Toda peça passa pelo qa-de-marketing (audit
 | Agente | Canal | Peças (mínimo) | Prazo | Bloqueio |
 |---|---|---|---|---|
 | estrategia-de-oferta | - | Registro das regras da prova como ficha da oferta (o que está confirmado, o que falta), texto padrão de regras para as peças, resposta-modelo para "para qual turma vale" por situação (D1 a D4) | 29/10 | Respostas da Ufape (A-C2, A-C3) |
-| gestor-de-midia (com estrategia-de-midia, anuncios-meta, anuncios-google) | Meta e Google Search | Metas de custo em três cenários; divisão de verba por fase, canal e área; estrutura das campanhas (mestre, por área em D1, Goiânia separado, remarketing); grupos de anúncio de Search por especialidade com palavras-chave de "prova de bolsa" e "bolsa pós-graduação veterinária"; UTMs; pedidos de aprovação de verba e de pausa | 30/10 (plano); subida após aprovação | Verba [CONFIRMAR]; links de Cardiologia; local de Goiânia |
+| gestor-de-midia (com estrategia-de-midia, anuncios-meta, anuncios-google) | Meta e Google Search | Metas de custo em três cenários; divisão de verba por fase, canal e área; estrutura das campanhas (mestre, por área em D1, Goiânia separado, remarketing); grupos de anúncio de Search por especialidade com palavras-chave de "prova de bolsa" e "bolsa pós-graduação veterinária"; UTMs; pedidos de aprovação de verba e de pausa | 30/10 (plano); subida após aprovação | Verba [CONFIRMAR]; links de Cardiologia |
 | criativos-de-anuncio | Meta (feed, stories, Reels) | 1 conceito mestre com 3 variações de formato (estático 1:1, stories 9:16, vídeo curto até 30 s com roteiro); 1 estático por área com prova em D1 (9 áreas: A1 Goiânia, A2, A3, A4 Goiânia, A5, A7, A10, A11, A12); textos de anúncio (até 3 títulos e 3 textos principais por área); remarketing com "como funciona" | 03/11 | Sem docente, sem candidato, sem foto de pessoa sem autorização |
 | anuncios-google | Google Search | Anúncios responsivos por grupo de especialidade (títulos e descrições com R$ 100,00, 11 bolsas, 27/11), extensões de chamada para os números de vendas SP e Goiânia | 03/11 | Página de destino de Felinos com frase do MEC (fora até corrigir) |
 | posts-sociais | Instagram e Facebook orgânicos | 1 carrossel mestre "Como funciona a prova de bolsa" (inscrição, data, bolsas, nota de corte, resultado, recurso, matrícula); 1 post por área com prova liberada (até 13, agrupando áreas pequenas); 4 sequências de stories (lançamento, FAQ, reta final, dia da prova); 1 post de pós-prova sem dado de candidato | 03/11 (mestre e áreas em D1); 12/11 (demais) | Destino para posts de D2 a D4 |
 | copy-de-mensagens | WhatsApp (base com opt-in e mensagens de serviço) | 1 mensagem mestre para a base; 1 mensagem por área para quem demonstrou interesse na especialidade (D1 primeiro); roteiro factual para o time de vendas (com a seção 2.6); 3 mensagens de serviço ao inscrito (confirmação, véspera, manhã da prova); 4 mensagens de pós-prova (aprovado com bolsa, aprovado sem bolsa, não aprovado, ausente) | 03/11 (base e vendas); 18/11 (serviço); 26/11 (pós-prova) | Regras do pós-prova [CONFIRMAR]; consentimento |
 | copy-de-mensagens | E-mail | 4 e-mails: lançamento (mestre), "como funciona e dúvidas", reta final (fatos da data), pós-prova para aprovados com bolsa | 03/11 (2 primeiros); 18/11 (reta final); 26/11 (pós-prova) | Base com consentimento [CONFIRMAR ferramenta] |
-| landing-page | Página da prova (pedido de ajuste ao site; a squad não altera o site) | Proposta de texto para as 22 páginas, a partir da analise-cro: bloco "Como funciona" em passos, botão "Inscrever-me na prova de bolsa", FAQ de bolsa (respostas só confirmadas), bloco "Para qual pós esta bolsa vale" com a turma de destino e investimento completo, frase para quem vem de outra cidade, finalidade dos dados e política de privacidade no checkout. Lista de correções: endereço de Goiânia (68640, conferir 68642 e 68644), regras contraditórias e frase do MEC em Felinos (68652), links de Cardiologia (68641 e 68642), grafia "intransferível", mínimo de 15 ou 20. Proposta de uma página que reúna as 22 provas [CONFIRMAR viabilidade] | 31/10 | Toda mudança no site é pedido de aprovação humana; a página da Graduação não é tocada |
+| landing-page | Página da prova (pedido de ajuste ao site; a squad não altera o site) | Proposta de texto para as 22 páginas, a partir da analise-cro: bloco "Como funciona" em passos, botão "Inscrever-me na prova de bolsa", FAQ de bolsa (respostas só confirmadas), bloco "Para qual pós esta bolsa vale" com a turma de destino e investimento completo, frase para quem vem de outra cidade, finalidade dos dados e política de privacidade no checkout. Lista de correções: texto "PROVA PRESENCIAL" e endereço como local nas 22 páginas (decisão 11: provas online), regras internas contraditórias nas 12 fichas de U1 e frase do MEC em Felinos (68652), links de Cardiologia (68641 e 68642), grafia "intransferível", mínimo de 15 nas páginas de curso que ainda dizem 20. Proposta de uma página que reúna as 22 provas [CONFIRMAR viabilidade] | 31/10 | Toda mudança no site é pedido de aprovação humana; a página da Graduação não é tocada |
 | criador-de-ganchos (camada 2) | Todos | Ganchos por área a partir das hipóteses da seção 3.3, marcados como hipótese | 31/10 | - |
 | youtube | Shorts | Reaproveitamento do vídeo curto do conceito mestre, se houver capacidade [CONFIRMAR] | 06/11 | Capacidade de produção |
 | qa-de-marketing | - | Auditoria 06 e conformidade em cada lote | a cada entrega | - |
@@ -441,16 +445,16 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida (P12 do p
 |---|---|---|---|---|---|---|
 | A-C1 | Este briefing e a mensagem central | Pessoa do marketing | Base de todas as peças | sem custo | Peças da campanha produzidas até 03/11 | Nova versão do briefing |
 | A-C2 | Destino de cada prova (D1 a D4), regra para as provas de Dermatologia e Hematologia na véspera do início das turmas 68610 e 68608, destino de 68647, 68650, 68639, 68641, 68660 e 68643, e se 68652, 68649, 68653 e 68655 seguem à venda | Área acadêmica e comercial da Ufape | Sem destino a bolsa não tem valor claro (CDC: regra, público elegível e prazo) | sem custo | Libera a camada turma e as áreas em D2 a D4 | Não se aplica |
-| A-C3 | Regras que faltam: prazo de inscrição, data do resultado, aprovado sem bolsa, monitoria, ausência e reembolso, requisito de inscrição, turma mínima (15 ou 20), local de Goiânia | Área acadêmica e jurídica | Peças e FAQ não podem citar o que não está escrito | sem custo | FAQ completo e reta final com data real | Não se aplica |
+| A-C3 | Regras que faltam (U1 a U3 do plano do cmo): qual bloco vale nas 12 fichas contraditórias, como é a prova online, prazo de inscrição, data do resultado, aprovado sem bolsa, monitoria, ausência e reembolso, requisito de inscrição | Área acadêmica e jurídica | Peças e FAQ não podem citar o que não está escrito | sem custo | FAQ completo e reta final com data real | Não se aplica |
 | A-C4 | Uso de comparação com a Anclivepa em peça pública (recomendação: não usar; só roteiro de vendas) | Jurídico | Comparação com concorrente exige revisão (auditoria de conformidade) | sem custo | Evita risco de propaganda comparativa sem fonte oficial | Retirar a peça |
 | A-C5 | Verba da campanha e divisão por fase, canal e área | Quem aprova anúncios e verba [CONFIRMAR] | Nada é pago sem aprovação | [CONFIRMAR] | Inscrições nas provas em D1 a partir de 03/11 | Pausar no gerenciador; ação feita por humano |
 | A-C6 | Subida dos anúncios, pausa em 27/11 e pausa final | Quem aprova anúncios | Toda ação em gerenciador é humana | dentro de A-C5 | Sem gasto depois da prova | Reativar no gerenciador |
 | A-C7 | Envios de WhatsApp e e-mail em massa para a base com opt-in, e as mensagens de serviço pelo CRM | Quem aprova mensagens em massa [CONFIRMAR] | Envio só com aprovação e consentimento | custo da ferramenta [CONFIRMAR] | Nutrição e comparecimento | Suspender a automação no CRM |
-| A-C8 | Pedidos de ajuste nas 22 páginas de prova (texto, botão, FAQ, destino) e correções (Goiânia, Felinos, Cardiologia) | Quem aprova páginas e preços [CONFIRMAR] | A squad não altera o site | sem custo de mídia | Página entrega o que o anúncio promete | Voltar ao texto anterior no site |
+| A-C8 | Pedidos de ajuste nas 22 páginas de prova (texto, botão, FAQ, destino) e correções ("PROVA PRESENCIAL" e endereço, Felinos, Cardiologia) | Quem aprova páginas e preços [CONFIRMAR] | A squad não altera o site | sem custo de mídia | Página entrega o que o anúncio promete | Voltar ao texto anterior no site |
 | A-C9 | Página que reúna as 22 provas (se viável) | Quem aprova páginas | Destino da peça mestre | [CONFIRMAR] | Uma URL para a mensagem mestre | Despublicar |
 | A-C10 | Uso do conteúdo programático de Felinos como isca de estudo | Área acadêmica | Material da página; uso fora dela precisa de ok | sem custo | Isca para A13, se o destino for confirmado | Retirar a isca |
 
-Peças que exigem aprovação acadêmica ou jurídica, além do marketing: toda peça com regra de bolsa (A-C2, A-C3), qualquer menção a concorrente (A-C4), a página de Felinos enquanto tiver a frase do MEC, e qualquer peça com docente (autorização registrada).
+Peças que exigem aprovação acadêmica ou jurídica, além do marketing: toda peça com regra de bolsa (A-C2, A-C3), qualquer menção a concorrente (A-C4), a página de Felinos enquanto tiver a frase do MEC, e qualquer peça com docente (revisão de nome e titulação pela ficha; a autorização está registrada, decisões 8 e 10).
 
 ---
 
@@ -468,7 +472,7 @@ Peças que exigem aprovação acadêmica ou jurídica, além do marketing: toda 
 | Regras das comunidades respeitadas | Atendido no plano | Nenhum envio a grupos sem opt-in; nenhuma postagem em grupo de terceiros prevista |
 | Revisão no ponto de checagem realizada | Pendente | Primeira checagem em 03/11 |
 | Consentimento para contato coletado em todo formulário | Pendente | O texto copiado das páginas não mostra finalidade de uso nem política de privacidade [CONFIRMAR no site]; pedido em A-C8 |
-| Bolsas, descontos e prazos batem com o catálogo e a ficha da oferta | Atendido, com ressalvas | Inscrição: catálogo. Regras: contexto/pos-graduacao.md e fichas [CONFIRMAR NO CATÁLOGO]. Divergências (Felinos, mínimo 15 ou 20, local de Goiânia) estão marcadas e bloqueiam o uso |
+| Bolsas, descontos e prazos batem com o catálogo e a ficha da oferta | Atendido, com ressalvas | Inscrição: catálogo. Regras: contexto/pos-graduacao.md e fichas [CONFIRMAR NO CATÁLOGO]. Divergências internas das 12 fichas (U1) estão marcadas e bloqueiam só o prazo de matrícula e o canal do resultado dessas provas; turma mínima de 15 e prova online decididas (decisão 11) |
 
 ### 9.2 auditorias/conformidade-educacional.md (aplicada ao briefing; cada peça passa de novo)
 
@@ -476,7 +480,7 @@ Peças que exigem aprovação acadêmica ou jurídica, além do marketing: toda 
 |---|---|---|
 | Dados do curso | Nome, modalidade e dados batem com o catálogo | Atendido: dados de prova e de turma vêm das seções 2 e 3; turmas "só no site" e com divergência estão marcadas |
 | Dados do curso | Só itens "aberto" chamam para inscrição | Atendido: as 22 provas estão "aberto"; 68656 e as turmas "verificar" ficam fora |
-| Dados do curso | Modalidade clara | Atendido: prova presencial; 68632 presencial; demais turmas semipresenciais conforme o catálogo |
+| Dados do curso | Modalidade clara | Atendido: prova online, com o campus em toda peça (decisão 11); 68632 presencial; demais turmas semipresenciais conforme o catálogo |
 | Regulação | Pós lato sensu sem "reconhecida pelo MEC" | Atendido no briefing. Alerta: páginas de destino com a frase (Felinos 68652 e as turmas da P2) ficam sinalizadas |
 | Regulação | Nota MEC | Atendido: nenhuma |
 | Promessas | Sem promessa de aprovação, bolsa garantida, emprego ou salário | Atendido: a mensagem fala em custo de entrada e número de bolsas |
@@ -489,10 +493,10 @@ Peças que exigem aprovação acadêmica ou jurídica, além do marketing: toda 
 | Pessoas e dados | Formulários com finalidade e política de privacidade | Pendente [CONFIRMAR no site] |
 | Pessoas e dados | WhatsApp e e-mail só com consentimento | Atendido no plano (seção 4.3) |
 | Pessoas e dados | Nenhum dado pessoal | Atendido |
-| Plataformas | Políticas da Meta e do Google; página entrega o que o anúncio promete | Parcial: regras escritas; Cardiologia (links invertidos), Goiânia (endereço) e Felinos (frase e regras) bloqueiam anúncio até a correção |
+| Plataformas | Políticas da Meta e do Google; página entrega o que o anúncio promete | Parcial: regras escritas; Cardiologia (links invertidos) e Felinos (frase do MEC) bloqueiam anúncio até a correção; as 22 páginas ainda dizem "PROVA PRESENCIAL" (pedido A-C8) |
 | Anúncios | Sem característica pessoal, sem escassez falsa, sem caixa alta excessiva, sem driblar análise | Atendido no briefing; o qa confere peça a peça. Ex.: "Para quem quer se especializar em <área>" passa; "Não tem dinheiro para a pós?" bloqueia |
 
-Resultado: briefing aprovado para seguir para as peças das camadas mestre e área nas provas em D1. Bloqueado para a camada turma, para as provas em D2 a D4, para anúncios de Cardiologia, de Goiânia com endereço e de Felinos, até as respostas de A-C2, A-C3 e A-C8. Revisado por: estrategia-de-campanha (autoavaliação); qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
+Resultado: briefing aprovado para seguir para as peças das camadas mestre e área nas provas em D1. Bloqueado para a camada turma, para as provas em D2 a D4, para anúncios de Cardiologia e de Felinos, e para prazo de matrícula e canal do resultado das 12 fichas de U1, até as respostas de A-C2, A-C3 e A-C8. Revisado por: estrategia-de-campanha (autoavaliação, versão 2); qa-de-marketing e pessoa do marketing: pendente. Data: 26/10/2026.
 
 ---
 
@@ -508,9 +512,10 @@ Resultado: briefing aprovado para seguir para as peças das camadas mestre e ár
 
 - 22 provas de bolsa com status "aberto" e data de 27/11/2026, 19 em São Paulo e 3 em Goiânia (68640, 68642, 68644); 68656 Oftalmologia "encerrado, link fora do ar". Fonte: catálogo, seção 3.
 - Inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Fonte: catálogo, seção 3.
-- Prova presencial, 9h às 13h, múltipla escolha e dissertativas; 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%); nota de corte 7,0 (70%); resultado por WhatsApp e/ou e-mail; 2 dias úteis para recurso; 10 dias úteis para matrícula; bolsa não acumulativa e intransferível; desempate por análise de currículo; mínimo de 15 alunos na página da prova. Fonte: contexto/pos-graduacao.md; fichas 68639, 68640, 68646.
-- Turma mínima de 20 nas páginas de curso e no contexto da linha. Fonte: contexto/pos-graduacao.md.
-- A página 68640 (Goiânia) mostra como local o endereço de São Paulo. Fonte: ficha 68640.
+- Provas online; vale a regra escrita na ficha de cada prova; toda peça diferencia o campus (São Paulo ou Goiânia); turma mínima de 15 alunos, também nas turmas de Pós. Fonte: docs/execucao-2026-10-26.md, decisão 11; contexto/pos-graduacao.md.
+- Em todas as 22 fichas abertas: 9h às 13h; 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%); nota de corte 7,0 (70%); 2 dias úteis para recurso; bolsa não acumulativa e intransferível; desempate por análise de currículo; mínimo de 15 alunos. Fonte: fichas das provas.
+- 10 fichas com regra única (10 dias úteis para matrícula; resultado por WhatsApp e/ou e-mail): 68639, 68640, 68646, 68647, 68648, 68649, 68654, 68655, 68658, 68660. 12 fichas com prazo e canal em mais de uma versão: 68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661. Fonte: fichas; pergunta U1 do plano do cmo.
+- Teto D1, fila D2, supressões D3, serviço D4, ex-aluno de Pós D10, UTM D11 e D12, divisão PP3. Fonte: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12.
 - A página 68652 (Felinos) traz "reconhecida pelo Ministério da Educação (MEC)", resultado por e-mail, por telefone e no site, matrícula em 10 dias úteis e em 7 dias, composição de 10 a 20 questões, conteúdo programático e bibliografia. Fonte: ficha 68652.
 - Links das provas de Cardiologia de SP e Goiânia invertidos; 662 com link trocado; turmas de 68628 e 68617 divergentes entre planilha e site. Fonte: plano do cmo, P3 e P5.
 - Turmas 68610 (Dermatologia V), 68608 (Hematologia VIII) e 698 (Ecocardiografia III) começam em 28/11/2026; 68604 em 31/10/2026; 68606 em 07/11/2026. Fonte: catálogo, seção 2.
@@ -518,7 +523,7 @@ Resultado: briefing aprovado para seguir para as peças das camadas mestre e ár
 - Provas sem turma futura aberta na área: 68652, 68649, 68653, 68655. Fonte: plano do cmo, seção 2.3 e P10.
 - Anclivepa-SP: taxa de R$ 350,00; bolsa de 50% para acima de 75% de acerto; inscrições de 01/08 a 07/11/2026. Fonte: inteligencia-concorrencia, F1 (resumo de busca de 26/10/2026).
 - Anclivepa-SP: prova em 14/11/2026 e bolsistas em 05/12/2026 segundo cópia não oficial do edital. Fonte: inteligencia-concorrencia, F2.
-- Workshop de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md, decisão 6; plano do cmo, 2.1.
+- Workshop Brasileiro de Neuromonitorização em 20 e 21/11/2026. Fonte: docs/execucao-2026-10-26.md, decisões 6 e 7; plano do cmo, 2.1.
 - Página da prova sem destino, sem prazo de inscrição, sem política de ausência, com botão "COMPRAR". Fonte: analise-cro, página 3.
 - Prazo do plano da campanha das provas em 29/10 e das peças em 03/11; primeira checagem em 03/11. Fonte: plano do cmo, seções 3 e 4.
 - 26/10/2026 é segunda-feira (plano do cmo); dias da semana da seção 1 calculados a partir dela.
@@ -529,8 +534,8 @@ Resultado: briefing aprovado para seguir para as peças das camadas mestre e ár
 - [SUPOSIÇÃO] Ganchos de rotina por área (seção 3.3).
 - [SUPOSIÇÃO] O candidato que compara com a Anclivepa decide antes de 07/11, o que justifica o pico de investimento nessa janela.
 - [SUPOSIÇÃO] A decisão da Anclivepa (05/12) se sobrepõe ao prazo de matrícula da Ufape.
-- [SUPOSIÇÃO] Limite de 2 mensagens de campanha por semana no WhatsApp e 2 e-mails por semana por contato.
-- [SUPOSIÇÃO] Padrão de UTM proposto na seção 4.3.
+- [SUPOSIÇÃO] Teto D1 (2 WhatsApp e 2 e-mails de campanha por semana e 1 por dia, somando todas as linhas) e janela de envio, até a Ufape confirmar (R1).
+- [SUPOSIÇÃO] Leitura de que "pago" não seria classificado como mídia paga no GA4 (motivo do padrão D11; o arquiteto-de-fluxos confere).
 - [SUPOSIÇÃO] Volume de busca para "prova de bolsa" e especialidade no Google Search.
 - [SUPOSIÇÃO] Efeito dos feriados de 02/11 e 20/11 no atendimento e na entrega.
 - [SUPOSIÇÃO] Classificação das provas em D1 a D4 a partir do catálogo (o destino real é da Ufape).
@@ -540,10 +545,10 @@ Resultado: briefing aprovado para seguir para as peças das camadas mestre e ár
 
 - [CONFIRMAR] Meta de inscritos por prova, meta de matrículas com bolsa, verba da campanha, metas de custo (pedido A8 do plano do cmo).
 - [CONFIRMAR] Turma de destino de cada uma das 22 provas; em especial 68652 Felinos, 68649 Endoscopia, 68653 Nefrologia e 68655 Odontologia (destino), e 68646 Dermatologia e 68651 Hematologia (provas na véspera das turmas 68610 e 68608).
-- [CONFIRMAR] Prazo de inscrição nas provas; data de divulgação do resultado; data final de matrícula.
-- [CONFIRMAR] Local da prova em Goiânia (página 68640 mostra o endereço de São Paulo); conferir 68642 e 68644.
-- [CONFIRMAR] Regras de Felinos (canal do resultado, 7 ou 10 dias, composição) e retirada da frase ligada ao MEC.
-- [CONFIRMAR] Turma mínima: 15 ou 20.
+- [CONFIRMAR U3] Prazo de inscrição nas provas; data de divulgação do resultado; data final de matrícula.
+- [CONFIRMAR U1] Qual bloco vale nas 12 fichas que se contradizem (prazo de matrícula e canal do resultado).
+- [CONFIRMAR U2] Como é a prova online (plataforma, acesso) e o que vale das regras de documento com foto e de celular.
+- [CONFIRMAR] Correção das páginas que ainda dizem "PROVA PRESENCIAL" e mostram endereço; retirada da frase ligada ao MEC em Felinos.
 - [CONFIRMAR] O que exige a bolsa de monitoria; ordem de distribuição das 11 bolsas; regra do aprovado sem bolsa; política de ausência e de reembolso da inscrição; requisito para se inscrever (médico veterinário formado).
 - [CONFIRMAR] Correção dos links de Cardiologia (68641 e 68642).
 - [CONFIRMAR] Se existe página que reúna as 22 provas.
@@ -551,8 +556,19 @@ Resultado: briefing aprovado para seguir para as peças das camadas mestre e ár
 - [CONFIRMAR] Quem aprova posts, anúncios e verba, mensagens em massa e páginas (tabela de contexto/ufape-geral.md).
 - [CONFIRMAR] Edital oficial da Anclivepa: data da prova, número de bolsas, data de resultado.
 - [CONFIRMAR] Capacidade de produção para vídeo curto e Shorts.
-- [CONFIRMAR autorização] Qualquer docente em peça.
+- [CONFIRMAR] Aprovação humana da divisão PP3 e da verba (A-C5).
 - [CONFIRMAR NO CATÁLOGO] Regras da prova de bolsa como coluna do catálogo (hoje no contexto da linha e nas fichas).
+
+## Mudanças desta versão
+
+Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 8, 10 e 11:
+- Provas online: "presencial" e endereço saíram da oferta, da mensagem central, do calendário e das correções; o campus (São Paulo ou Goiânia) entra em toda peça; "Variação por praça" virou "Variação por campus".
+- Regra da ficha de cada prova: prazo de matrícula, canal do resultado e composição por ficha; 12 fichas contraditórias marcadas [CONFIRMAR U1], sem escolha.
+- Turma mínima de 15 liberada para peça.
+- Seção 4.3: teto D1, fila D2, supressões D3, ex-aluno de Pós (D10) e nomes e UTM de D11 e D12 (chave pos_provas20261127; paid_social, cpc, crm e organic_social).
+- Fase 2 (pico) alinhada à divisão PP3 confirmada pelo cmo (03/11 a 09/11).
+- Docentes sem marca de autorização (decisões 8 e 10); nome oficial "Workshop Brasileiro de Neuromonitorização".
+- Auditorias e as três listas atualizadas.
 
 ## Fontes
 
