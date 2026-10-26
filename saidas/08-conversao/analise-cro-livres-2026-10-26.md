@@ -163,7 +163,7 @@
 ### O que já funciona (E)
 
 - Preço de entrada baixo, em Pix, boleto ou cartão.
-- Cronograma específico com 14 itens em ordem lógica (modos, função sistólica e diastólica, cardiomiopatias, valvopatia, hipertensão pulmonar, cardiopatias congênitas, prática).
+- Cronograma específico com 15 itens em ordem lógica (modos, função sistólica e diastólica, cardiomiopatias, valvopatia, hipertensão pulmonar, cardiopatias congênitas, prática).
 - Público amplo bem descrito (intensivistas, anestesistas, clínicos, estudantes).
 - Acesso por 120 dias e canal de dúvidas por e-mail informados.
 
@@ -284,7 +284,7 @@
 | 4 | Política "em caso de desistência, o valor investido não será reembolsável" sem explicação do direito de arrependimento de compra online e sem total do cartão (10 x R$ 88,00 = R$ 880,00, 20% acima do à vista de R$ 734,00; conta). | Preço e condições, conformidade | E (conta); [CONFIRMAR com regulação e jurídico] | Médio a alto | UFAPE |
 | 5 | Prova de autoridade só em lista de nomes (20), sem bios, sem depoimento de participantes do ciclo anterior, sem exemplo de encontro. | Prova | E (ausência); H | Médio | UFAPE e SITE |
 | 6 | Duplicidade 643 e 713: duas páginas de grupo parecido (Anual 2025/2026 e Anual 2026) com o mesmo preço. O visitante e o anúncio podem cair na versão errada. | Confiança, atrito | E (catálogo e plano do cmo, P7) | Médio | UFAPE |
-| 7 | Sem venda cruzada para a pós de Terapia Intensiva (turmas abertas no catálogo, 68635 e 68623) nem para outros cursos. É onde o grupo pode alimentar a pós [SUPOSIÇÃO]. | Chamada para ação | E (ausência); H | Médio | SQUAD e SITE |
+| 7 | Sem venda cruzada para a pós de Terapia Intensiva (turma aberta no catálogo, 68623) nem para a de Clínica Médica e Emergência (68635) nem para outros cursos. É onde o grupo pode alimentar a pós [SUPOSIÇÃO]. | Chamada para ação | E (ausência); H | Médio | SQUAD e SITE |
 | 8 | Erros de digitação ("experiencia", "qual sempre diferenciou", "Inicio mês JUNHO 2025"), duas aulas com tema parecido (aulas 09 e 14: "Gasometria e distúrbios ácido-base" e "Gasometria / função pulmonar"). | Confiança | E | Baixo a médio | UFAPE |
 | 9 | Só COMPRAR, sem "falar com o time". | Chamada para ação | E (ausência) | Médio | SITE |
 
@@ -349,7 +349,7 @@
 
 ---
 
-## Página 4: Evento, Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (linha eventos)
+## Página 4: Evento, Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (linha eventos; fica neste arquivo por decisão do orquestrador em 26/10/2026, registrada no QA dep03-08)
 
 **Dados conferidos no catálogo (seção 9) e na ficha:** 20 e 21 de novembro de 2026 (planilha e página), Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo; presencial, 16 h (8 teóricas e 8 práticas), 30 vagas por ordem de inscrição; Workshop Presencial R$ 1.250,00; Workshop Transmitido + Gravado (só teoria de sexta-feira) R$ 450,00; aluno e ex-aluno com 20% de desconto pelo cupom SIMPNEUROMONIT (cupom confirmado pela Ufape em 26/10/2026). Faltam 25 dias. Campanhas pagas vão direto a esta página (decisão do cliente). Tipo no template: workshop.
 

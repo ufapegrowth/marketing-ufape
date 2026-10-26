@@ -70,7 +70,7 @@ Escala: crítico (perde busca ou confunde o cliente agora, ou pode quebrar a mig
 | Páginas fora do catálogo | 686 (recrutamento do corpo clínico), 638 (regras de estágio, fora do ar) | Não são cursos; decidir se ficam. |
 
 - Exemplo: prova de bolsa 694 (https://faculdade.ufape.com.br/produto/694/prova-de-bolsa-de-estudos-para-pos-graduacao-lato-sensu-em-odontologia-veterinaria). Mostra "Avise-me", prova de 04 de fevereiro de 2026 (data passada), a lista de aprovados com o nome completo de uma candidata e o texto "reconhecida pelo Ministério da Educação (MEC)". Não reproduzo o nome aqui.
-- O que isso custa: (a) o cliente chega por busca a uma página que não vende nada, e perde confiança; (b) o buscador gasta rastreamento em páginas inúteis e pode mostrar a edição antiga no lugar da atual; (c) a página 694 expõe dado pessoal de candidata em página pública e repete a frase de MEC que a conformidade da squad proíbe. O item (c) é urgente por LGPD e conformidade, e deve ser tratado como prioridade de atendimento ao titular, independentemente de SEO. Quem decide é a Ufape (jurídico e regulação). [CONFIRMAR se as outras provas antigas também listam aprovados.]
+- O que isso custa: (a) o cliente chega por busca a uma página que não vende nada, e perde confiança; (b) o buscador gasta rastreamento em páginas inúteis e pode mostrar a edição antiga no lugar da atual; (c) a página 694 expõe dado pessoal de candidata em página pública e repete a frase de MEC que a conformidade da squad proíbe. O item (c) é urgente por LGPD e conformidade, e deve ser tratado como prioridade de atendimento ao titular, independentemente de SEO. Quem decide é a Ufape (jurídico e regulação). Correção do QA de 26/10: a auditoria de 26/10 (seção 2a) mostra que as 13 provas antigas (680 a 695) e a página 715 publicam nomes de aprovados; o chamado ao time do site cobre as 14 páginas.
 - Esforço: baixo (retirar e redirecionar), com a regra da seção 5.
 - Correção: nunca apagar sem redirecionar. Ver tabela de destinos na seção 6.
 
@@ -196,7 +196,7 @@ Sitemap: https://faculdade.ufape.com.br/sitemap.xml
 
 #### V6. Páginas com data em branco ou sem data
 
-- Fato (auditoria de 26/10, seção 7): 11 páginas sem data de início, incluindo o 68611 com "XX DE XX DE 202X". Também 593, 576, 589, 590, 603, 604 e 404, 718, 68668, 68618.
+- Fato (auditoria de 26/10, seção 7): 11 páginas sem data de início no site (para 718, 68668 e 68618 a planilha tem a data, que é a fonte válida), incluindo o 68611 com "XX DE XX DE 202X". Também 593, 576, 589, 590, 603, 604 e 404, 718, 68668, 68618.
 - Custo: dado incompleto no resultado de busca e marcação estruturada sem startDate.
 - Correção: página sem data não é indexável como "turma aberta". Use "em breve" noindex até ter data, ou não publique [CONFIRMAR com a Ufape].
 
@@ -397,7 +397,7 @@ Cada chamado traz problema, correção, esforço (estimativa [SUPOSIÇÃO]) e o 
 - 25 páginas sem venda ou fora do ar e o produto de teste 183 (auditorias de 22/10 e 26/10).
 - 13 provas de bolsa antigas sem venda (680 a 695) e a 68656 fora do ar (catálogo seção 3).
 - A ficha da prova antiga 694 contém lista de aprovados com nome, data de prova passada (04/02/2026) e o texto "reconhecida pelo Ministério da Educação (MEC)" (ficha contexto/cursos/pos/694).
-- 36 produtos com data passada e venda ativa (auditoria de 26/10, seção 6). 11 páginas sem data (seção 7).
+- 36 produtos com data passada e venda ativa (auditoria de 26/10, seção 6). 11 páginas sem data no site (seção 7; 3 delas têm data na planilha).
 - 46 páginas com "CERTIFICADO PELO MEC" (auditoria de 26/10, seção 9).
 - O workshop de Neuromonitorização tem página própria (/neuro-summit/) e produto 68634 com 24 h e local "Saiba Mais", enquanto a Ufape confirmou 16 h (ficha de eventos e catálogo seção 9).
 - Padrão decidido para o novo site: /pos-graduacao/pos-graduacao-em-<área>; nome "Pós-graduação em <área>" (contexto/pos-graduacao.md; briefing da tarefa).

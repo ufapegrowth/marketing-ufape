@@ -262,7 +262,7 @@
 
 ## Página 3: Prova de bolsa, 68639 Prova de Bolsa de Estudos para Anestesiologia Veterinária (São Paulo)
 
-**Dados conferidos no catálogo (seção 3):** São Paulo, 27/11/2026, status aberto, inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Faltam 32 dias. A ficha traz horário (9 às 13h), prova presencial, nota de corte, prazos, composição, local e bolsas previstas. A campanha das 22 provas é única (decisão 3 do briefing), com variação por especialidade. Não existe tipo "prova de bolsa" no template da página da turma.
+**Dados conferidos no catálogo (seção 3) e na ficha:** São Paulo, 27/11/2026, status aberto; inscrição (ficha) de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Faltam 32 dias. A ficha traz horário (9 às 13h), prova presencial, nota de corte, prazos, composição, local e bolsas previstas. A campanha das 22 provas é única (decisão 3 do briefing), com variação por especialidade. Não existe tipo "prova de bolsa" no template da página da turma.
 
 ### Teste dos 5 segundos (no celular, inferido pela ordem do texto)
 
@@ -276,7 +276,7 @@
 ### O que já funciona (E)
 
 - Regras do dia muito claras: data, horário, local, documento, proibição de celular e relógio, nota de corte (7,0, equivalente a 70% de acerto), prazo de recurso e prazo de matrícula depois do resultado.
-- Tabela de bolsas previstas: 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10% (11 no total, conta). Isso é concreto e raro. Atenção: o contexto da linha e o plano (pendência P10) dizem que os percentuais estão vazios; esta página mostra que não estão. Fica como nota para o cmo atualizar. O percentual não está no catálogo, só na ficha.
+- Tabela de bolsas previstas: 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10% (11 no total, conta). Isso é concreto e raro. Correção do QA de 26/10: contexto/pos-graduacao.md e a pendência P10 do plano já registram esses percentuais (iguais nas 22 provas), e a peça pode citá-los como estão lá.
 - Critério de desempate declarado (análise de currículo) e canal do resultado (WhatsApp e/ou e-mail).
 - Ticket baixo (R$ 100,00), que reduz o atrito de decisão.
 
@@ -340,7 +340,7 @@
 ### Conformidade (lista, não reescrita)
 
 - Bolsa: regra, público elegível e prazo de validade precisam estar claros. Falta o prazo de validade da bolsa e a turma elegível.
-- Percentuais de bolsa: aparecem na ficha, mas contexto/pos-graduacao.md e o plano do cmo (P10) ainda os tratam como [PREENCHER]. A peça só usa o percentual depois de a Ufape confirmar e de o catálogo registrar. [CONFIRMAR NO CATÁLOGO]
+- Percentuais de bolsa: estão na ficha e, desde 26/10, em contexto/pos-graduacao.md (P10 resolvida); a peça pode usá-los como estão no contexto. [CONFIRMAR NO CATÁLOGO]
 - Número mínimo de alunos: 15 nesta página contra 20 nas turmas.
 - Texto "a bolsa de estudo não é acumulativa e é intrasferível": manter, corrigir a grafia no site.
 - Urgência: "últimas bolsas" ou contagem só com número real de bolsas restantes, que não existe.
@@ -388,7 +388,7 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 - 47.700 mais 250 é igual a 47.950 (conta). 2 mais 4 mais 5 é igual a 11 bolsas (conta).
 - O template pagina-da-turma.md só tem os tipos pos, livre, workshop e simposio, e obriga a seção "formulario". Fonte: templates/pagina-da-turma.md.
 - A frase ligada ao MEC está em 46 páginas do site. Fonte: plano do cmo, pendência P2.
-- Percentuais de bolsa constam na ficha 68639, mas o contexto da linha e o plano do cmo (P10) os tratam como [PREENCHER]. Fonte: ficha 68639, contexto/pos-graduacao.md, plano do cmo.
+- Percentuais de bolsa constam na ficha 68639 e em contexto/pos-graduacao.md (2 de 50%, 4 de 25%, 5 de 10%, iguais nas 22 provas). Fonte: ficha 68639, contexto/pos-graduacao.md.
 
 ## Suposições
 
@@ -400,7 +400,7 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 - [SUPOSIÇÃO] Erros de digitação e blocos vazios reduzem confiança em quem avalia um investimento alto.
 - [SUPOSIÇÃO] O rótulo "Inscrever-me na prova de bolsa" converte melhor que COMPRAR.
 - [SUPOSIÇÃO] Vir de outra cidade para a prova pesa na decisão.
-- [SUPOSIÇÃO] A prova de bolsa de Dermatologia (68646) segue regras parecidas com as da 68639; ela não foi lida nesta etapa.
+- A prova de bolsa de Dermatologia (68646) segue as mesmas regras da 68639: contexto/pos-graduacao.md registra que as regras são iguais nas 22 provas.
 
 ## Dados que faltam
 
@@ -409,7 +409,7 @@ desenho-de-experimentos, para transformar as três correções de cada página e
 - [CONFIRMAR] Regra da 1ª mensalidade para quem entra perto do início e data-limite de matrícula de 707 e 68610.
 - [CONFIRMAR] Turma de destino de cada prova de bolsa e se a bolsa vale para a turma que começa um dia depois da prova.
 - [CONFIRMAR] Distribuição das bolsas, o que a monitoria exige, conteúdo da prova, prazo de inscrição, política de ausência e data do resultado.
-- [CONFIRMAR NO CATÁLOGO] Percentuais de bolsa (hoje só na ficha), e número mínimo da turma (15 ou 20).
+- [CONFIRMAR] Número mínimo da turma (15 na página da prova, 20 nas páginas de curso).
 - [CONFIRMAR] Duração do curso em anos, para o campo do banco.
 - [CONFIRMAR] Texto de certificação aprovado pela regulação.
 - [CONFIRMAR autorização] Depoimentos, vídeo e imagem de docentes.
