@@ -2,7 +2,7 @@
 
 Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir de 55 páginas de pós e 23 de provas de bolsa do site e da planilha "DATAS CURSOS E PÓS". Itens com [SUPOSIÇÃO] precisam de validação.
 
-Última atualização: 2026-10-23 por squad (pendente de revisão da Ufape)
+Última atualização: 2026-10-26 por squad (regras da prova de bolsa pelas páginas; pendente de revisão da Ufape)
 
 ## Oferta
 
@@ -14,7 +14,7 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir
 - **Turma mínima:** 20 alunos. A turma pode não ser formada; a Ufape orienta comprar passagens e hotel só quando a turma for confirmada.
 - **Preço:** total de R$ 12.000,00 (IA na Saúde) a R$ 48.780,00 (Neurocirurgia e Neuro-oncologia) por curso, na maioria em 30 parcelas (algumas em 18, 24, 26 ou 27) no cartão ou boleto, mais matrícula de R$ 250,00. Na maioria das páginas, a 1ª mensalidade é paga 30 dias antes do início.
 - **Promoções vistas no site:** 20% de desconto em todas as mensalidades da Pós em Medicina Interna Equina; desconto exclusivo para alunos e ex-alunos de pós (regra a confirmar).
-- **Prova de bolsa:** prova de bolsa de estudos por especialidade (próxima em 27 de novembro), em SP e Goiânia, com inscrição de R$ 100,00 (site). É uma porta de entrada forte para a captação. Percentuais de bolsa e regras: [PREENCHER]
+- **Prova de bolsa:** prova de bolsa de estudos por especialidade (próxima em 27 de novembro), em SP e Goiânia, com inscrição de R$ 100,00 (site). É uma porta de entrada forte para a captação. Regras publicadas nas páginas das 22 provas de 27/11/2026 (iguais em todas, lidas em 26/10/2026): 11 bolsas por prova, sendo 2 de 50% (monitoria), 4 de 25% e 5 de 10%; nota de corte 7,0 (70% de acerto); prova presencial com questões de múltipla escolha e dissertativas; resultado por WhatsApp ou e-mail; 2 dias úteis para recurso; 10 dias úteis para a matrícula; bolsa não acumulativa e intransferível; desempate por análise de currículo; turma confirmada com mínimo de 15 alunos (a página da prova diz 15; as páginas de curso dizem 20: [CONFIRMAR]). A turma de destino de cada prova não aparece na página: [CONFIRMAR]
 - **Avaliação:** prova mensal online com 5 questões e prova de recuperação no fim (pode ser substituída por estudo dirigido).
 - **O que o aluno recebe ao concluir:** certificado de especialização lato sensu.
 - **Texto de certificação aprovado para peças:** [PREENCHER COM A REGULAÇÃO]. O site usa hoje "CERTIFICADO PELO MEC", que a squad não deve repetir (ver auditorias/conformidade-educacional.md e docs/auditoria-do-catalogo-2026-10-22.md).
