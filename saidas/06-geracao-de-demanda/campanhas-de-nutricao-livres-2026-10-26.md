@@ -3,6 +3,7 @@
 - **Agente:** campanhas-de-nutricao (departamento 06, Geração de Demanda), etapa 1.28 da camada 1
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** corrigida após qa-de-marketing-geral-2026-10-26-loteD (seção "Mudanças desta versão", no fim do arquivo).
 - **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md, auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. São regras e esboços para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é publicado, enviado ou pago.
 - **Escopo:** sequências de nutrição (prioridade 5 da fila D2) para quem deixou contato em Livres e ainda não comprou, e o degrau seguinte de quem já comprou. Não reescreve as réguas com data que já existem: RL1 (kits dos itens com data), RL2 (serviço do presencial), RL3 (grupos novos), RL4 (acesso do online), RL6 (retomada pelo time), RL7 (pagamento não concluído) e a newsletter (RL9).
 - **Entradas lidas:**
@@ -116,10 +117,10 @@
 
 | Toque | Dia e canal | Função | Objetivo e CTA única | Esboço | Conteúdo de apoio (1.19) |
 |---|---|---|---|---|---|
-| NL1-T1 | D0, e-mail, até 1 h depois do cadastro, dentro da janela | valor | escolher o formato; CTA "Veja qual formato é para você" | Assunto de trabalho: "Curso prático, gravado, minicurso ou grupo: por onde começar". Entrega o que o formulário prometeu, se prometeu. Tabela curta: quanto tempo dura cada formato (minicurso de 8 h; presenciais e gravados com a carga horária do catálogo) e como se paga. Frase D13 | L27 (curso livre, minicurso, grupo e pós) e o tema "quanto tempo dura cada formato" (camada de apoio à decisão). Plano B: hub de presenciais L06 ou página de listagem [CONFIRMAR URL] |
+| NL1-T1 | D0, e-mail, até 1 h depois do cadastro, dentro da janela | valor | escolher o formato; CTA "Veja qual formato é para você" | Assunto de trabalho: "Curso prático, gravado, minicurso ou grupo: por onde começar". Entrega o que o formulário prometeu, se prometeu. Tabela curta: quanto tempo dura cada formato (minicursos de 6 a 8 h, conforme o catálogo, por exemplo 669 com 6 h; presenciais e gravados com a carga horária do catálogo) e como se paga. Frase D13 | L27 (curso livre, minicurso, grupo e pós) e o tema "quanto tempo dura cada formato" (camada de apoio à decisão). Plano B: hub de presenciais L06 ou página de listagem [CONFIRMAR URL] |
 | NL1-T2 | D3, WhatsApp, dia útil, 10h | qualificação | gravar a área; CTA responder | "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Para te mandar só o que serve para a sua rotina: em que área você quer se aprofundar?" Respostas por número com as áreas da seção 2.3 que têm item aberto, mais "outra". Sem link. SAIR no fim. Sem opt-in de WhatsApp, a pergunta vai no T3 por e-mail | nenhum |
-| NL1-T3 | D8, e-mail, dia útil, 9h | objeção | responder "vale pagar se há conteúdo gratuito?" e "quanto custa de verdade"; CTA "Leia como escolher" | Assunto de trabalho: "O que um curso livre te dá que o conteúdo gratuito não dá (e o que ele não dá)". Diferença entre aprender por vídeo solto e ter roteiro, carga horária e quem tira dúvida; preço sem susto: à vista, parcelado e total no cartão. Sem desvalorizar o gratuito. Frase D13 | "Hands-on ou gravado: como escolher" (versão curta de L08) e "Preço sem susto" (camada de apoio à decisão) |
-| NL1-T4 | D15, WhatsApp, dia útil, 10h | história e prova | mostrar como é por dentro; CTA link da página do item da área | Com área: o roteiro de um item contínuo da área como está na ficha (o que se vê, em quantas horas, quem ensina, com nome e titulação da ficha). Grupo de estudos: como funciona o encontro, a gravação e a regra de reembolso, como na ficha [CONFIRMAR NO CATÁLOGO]. Sem área: o roteiro de um minicurso de 8 h. Um link. SAIR no fim | pilares P1 (técnica para a rotina), P3 (uma hora de minicurso) e P4 (grupo como comunidade); plano de reaproveitamento 5.4 ("o carrossel vira texto de WhatsApp") |
+| NL1-T3 | D8, e-mail, dia útil, 9h | objeção | responder "vale pagar se há conteúdo gratuito?" e "quanto custa de verdade"; CTA "Leia como escolher" | Assunto de trabalho: "O que um curso livre te dá que o conteúdo gratuito não dá (e o que ele não dá)". Diferença entre aprender por vídeo solto e ter roteiro e carga horária definidos (canal de dúvida só para o item cuja ficha disser que existe, como 454 e 103, com e-mail mediado pela secretaria; NL-Q2); preço sem susto: à vista, parcelado e total no cartão. Sem desvalorizar o gratuito. Frase D13 | "Hands-on ou gravado: como escolher" (versão curta de L08) e "Preço sem susto" (camada de apoio à decisão) |
+| NL1-T4 | D15, WhatsApp, dia útil, 10h | história e prova | mostrar como é por dentro; CTA link da página do item da área | Com área: o roteiro de um item contínuo da área como está na ficha (o que se vê, em quantas horas, quem ensina, com nome e titulação da ficha). Grupo de estudos: como funciona o encontro, a gravação e a regra de reembolso, como na ficha [CONFIRMAR NO CATÁLOGO]. Sem área: o roteiro de um minicurso, com a carga horária do catálogo (6 a 8 h). Um link. SAIR no fim | pilares P1 (técnica para a rotina), P3 (uma hora de minicurso) e P4 (grupo como comunidade); plano de reaproveitamento 5.4 ("o carrossel vira texto de WhatsApp") |
 | NL1-T5 | D22, e-mail, dia útil, 9h | oferta | levar à compra do item da área; CTA "Veja o curso de <área>" | Assunto de trabalho: "<nome do curso como no catálogo>: carga horária, formato e preço". Um item contínuo da área, com texto-padrão de preço e frase D13. Se a área tiver item com data em kit, o T5 é suprimido (o kit é o dono). Sem área: hub de minicursos L15 | hub L15 (minicursos); ficha do item |
 
 ### NL2. Rotação dos contínuos pela base, por área (é o RL5 da 1.26, com datas)
@@ -170,7 +171,7 @@
 
 | Item (data da planilha) | Fim da janela D8 | NL3-T1 | NL3-T2 | Degrau na mesma área (catálogo) | Choque conhecido |
 |---|---|---|---|---|---|
-| 573 Hands-On de Ecocardiografia, SP (14/11/2026; a 1.19 cita 14 e 15/11 [CONFIRMAR NO CATÁLOGO]) | 17/11 se terminar em 15/11; 18/11 se terminar em 14/11 | ter 08/12 | ter 05/01 | gravados de A2: 395 ou 507 (411 é ecocardiograma e pode sobrepor [CONFIRMAR]) | P5 lote 1 (289) a partir de 02/12 tem prioridade para o mesmo contato; NL3 suprimido se a semana estiver cheia |
+| 573 Hands-On de Ecocardiografia, SP (14 e 15/11/2026, planilha na ficha de 573; decisão 12) | 17/11 | ter 08/12 | ter 05/01 | gravados de A2: 395 ou 507 (411 é ecocardiograma e pode sobrepor [CONFIRMAR]) | P5 lote 1 (289) a partir de 02/12 tem prioridade para o mesmo contato; NL3 suprimido se a semana estiver cheia |
 | 68637 Endoscopia Digestiva, SP (28/11/2026) e 68614 Videotoscopia, SP (28/11/2026) | 01/12 | ter 15/12 | ter 12/01 | A5: 291 | nenhum par de Pós (D6) |
 | 616 Imersão Avançada em Anestesia Felina, online (05/12/2026) | 08/12 | qua 06/01 | qua 20/01 | A1: 488, 131, 102, 602, 461; A13: 105, 340, 157, 459 | P5 lote 2 (657) a partir de 04/01 para o mesmo contato; pré-requisito de 657 [CONFIRMAR, U10] |
 | 68618 Ventilação Mecânica Aplicada à Anestesia, SP (18/12/2026; só com P6 fechada) | 22/12 | qua 06/01 | qua 20/01 | 507 | par 352 só no pré-lançamento de maio |
@@ -187,7 +188,7 @@ Pior caso: contato de A1 com opt-in nos dois canais, que está no NP2 da Pós, n
 | S1 a S5, 27/10 a 29/11 | provas, Workshop, kits de 573, 68614 e 68637, 68665, 68666, 616 T1 e T2, newsletter edição 1 | só NL1 do lead novo de Livres que está fora das bases das provas e do Workshop; para os demais, só NL1-T1 se o dia estiver livre | cheio (D3) | cheio (D3) |
 | S6, 30/11 a 06/12 | 616 T3 (WA 30/11) e T4 (WA 02/12); newsletter edição 2 (e-mail 03/12; WA 04/12) | NL2-T1 de A1 e A13 em 01/12 | NP2-T1 da Pós (01/12) e newsletter (03/12) = 2: NL2-T1 de A1 e A13 suprimido para este contato; sai para quem é só de Livres | 2 (616); newsletter WA suprimida |
 | S7, 07 a 13/12 | 68618 T1 (WA 07/12), T2 (e-mail 08/12), T3 (WA 10/12) | NL2-T1 de A7 em 08/12 (outra área); NL3-T1 de 573 em 08/12 (outra área) | 68618 T2 = 1 | 2 (68618); NP2-T2 da Pós suprimido |
-| S8, 14 a 20/12 | 68618 T4 (WA 15/12); newsletter edição 3 (e-mail 17/12); serviço de 68618 em 17 e 18/12 | NL2-T1 de ventilação em 14/12 (fora do kit de 68618); NL3-T1 de 68614 e 68637 em 15/12; NL2-T2 de A1 e A13 em 18/12 | NP2-T3 (16/12) e newsletter (17/12) = 2 | 68618 T4 (15/12) e NL2-T2 (18/12) = 2 |
+| S8, 14 a 20/12 | 68618 T4 (WA 15/12); newsletter edição 3 (e-mail 17/12); serviço de 68618 em 17 e 18/12 | NL2-T1 de ventilação em 14/12 (fora do kit de 68618); NL3-T1 de 68614 e 68637 em 15/12; NL2-T2 de A1 e A13 em 18/12 | NP2-T3 (16/12) e newsletter (17/12) = 2 | 68618 T4 (15/12) = 1; NL2-T2 de A1 e A13 (18/12) suprimido para este contato, que está no kit de 68618 (regra da tabela do NL2; NL-Q3) |
 | S9 e S10, 21/12 a 03/01 | só serviço e manutenção (pós-curso de 616 e 68618 é serviço) | nenhuma | - | - |
 | S11, 04 a 10/01 | P5 lote 2 da Pós (657) a partir de 04/01; newsletter edição 4 (qui 07/01) | NL2-T1 de A8 e A9 em 05/01; NL3-T1 de 616 e 68618 em 06/01; NL2-T2 de A7 em 06/01; NL3-T2 de 573 em 05/01 | o P5 de 657 vem antes; para este contato NL3-T1 de 616 só sai se sobrar o segundo e-mail | P5 vem antes |
 | S12, 11 a 24/01 | 68638 T1 (e-mail 12/01) e T2 (WA 19/01) para A3; newsletter edição 5 (qui 14/01) | NL2-T2 de ventilação em 11/01; NL3-T2 de 68614 e 68637 em 12/01; NL2-T1 de A6 e A11 em 13/01; NL2-T2 de A8 e A9 em 19/01; NL2-T1 de A10 e A4 em 20/01; NL3-T2 de 616 e 68618 em 20/01 | áreas diferentes, cada contato recebe só a da sua área | idem |
@@ -300,6 +301,7 @@ Frase D13 em toda mensagem com preço e em todo e-mail; nenhuma frase de certifi
 - SL1 a SL12, RL1 a RL10, rotação a partir de 30/11 com no máximo 1 mensagem de contínuo a cada 2 semanas, RL8 a partir de 14 dias, calendário dos kits (7.1) e das semanas (8.2). Fonte: estrategia-de-relacionamento-livres.
 - Rotação por área de 02/11/2026 a 27/02/2027, contínuos por área, regras do motor e peças L06, L08, L09, L10, L12, L15, L16 e L27. Fonte: estrategia-de-conteudo-livres, seções 2.4, 4, 5 e 6.
 - Datas e status dos itens citados (573, 68614, 68637, 616, 68618, 68638; contínuos por código). Fonte: contexto/catalogo-de-cursos.md, seções 4, 5 e 7, e plano do cmo, 2.3.
+- 573 em 14 e 15/11/2026 pela planilha (ficha de 573, linha 12; decisão 12). Minicurso 669 com 6 h. Fonte: ficha de 573; catálogo, seção 5.
 - Página 623 sem campanha nova até a correção. Fonte: docs/execucao-2026-10-26.md, decisão 13.
 - Autorização de imagem e citação para todos. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
 - Edições 2 a 5 da newsletter. Fonte: newsletter-geral, 3.1, e cmo-geral, D4.
@@ -326,7 +328,8 @@ Frase D13 em toda mensagem com preço e em todo e-mail; nenhuma frase de certifi
 - [CONFIRMAR] Período coberto pelos R$ 100,00 dos grupos (U9); data de 68618 (P6); modalidade de 616; pré-requisito de 657 (U10).
 - [CONFIRMAR] Sobreposição de conteúdo entre 411 e 573, 458 e 103, 106 e 202, e entre os gravados de felinos.
 - [CONFIRMAR] Nome do docente revisor; URLs e datas de publicação de L06, L08, L09, L10, L12, L15, L16 e L27.
-- [CONFIRMAR NO CATÁLOGO] Se 573 tem um ou dois dias (14/11 no catálogo; 14 e 15/11 na 1.19); carga horária de 68638.
+- [CONFIRMAR NO CATÁLOGO] Carga horária de 68638.
+- [CONFIRMAR] Quais itens contínuos têm canal de dúvida escrito na ficha, além de 454 e 103 (NL1-T3).
 - [PREENCHER COM A REGULAÇÃO] Texto do documento de conclusão do curso livre: nenhuma mensagem usa.
 
 ## Fontes
@@ -334,3 +337,15 @@ Frase D13 em toda mensagem com preço e em todo e-mail; nenhuma frase de certifi
 Internas: .claude/agents/campanhas-de-nutricao.md; .claude/skills/mapear-regua/SKILL.md; CLAUDE.md; docs/execucao-2026-10-26.md; contexto/ufape-geral.md; contexto/cursos-livres.md; contexto/catalogo-de-cursos.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3 e 12); saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-livres-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-livres-2026-10-26.md; estrategia-de-relacionamento-pos-2026-10-26.md; jornada-do-aluno-geral-2026-10-26.md; newsletter-geral-2026-10-26.md; copy-de-mensagens-pos-2026-10-26.md; copy-de-mensagens-eventos-2026-10-26.md; saidas/06-geracao-de-demanda/campanhas-de-nutricao-pos-2026-10-26.md; saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md (formato); auditorias/06-geracao-de-demanda.md; auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md.
 
 Externas: nenhuma. LGPD e regras da WhatsApp Business API citadas só como referência geral, a conferir pelo encarregado de dados e na política vigente da Meta.
+
+## Mudanças desta versão
+
+Versão corrigida após qa-de-marketing-geral-2026-10-26-loteD (veredito: aprovado com ajustes não bloqueantes).
+
+| Item do qa | O que mudou | Onde |
+|---|---|---|
+| NL-Q1 | "minicurso de 8 h" virou "minicursos de 6 a 8 h, conforme o catálogo" (669 tem 6 h) | NL1-T1, NL1-T4 |
+| NL-Q2 | "quem tira dúvida" saiu como regra geral; canal de dúvida só para o item cuja ficha diz isso (454 e 103, e-mail mediado pela secretaria, como na 1.26 de Livres) | NL1-T3; Lista 3 |
+| NL-Q3 | Uma regra só: quem está no kit de 68618 tem o NL2-T2 de A1 e A13 de 18/12 suprimido; a conta de S8 do pior caso passou a 1 WhatsApp | seção 4, S8 |
+| NL-Q4 | 573 em 14 e 15/11 pela planilha da ficha (decisão 12); saíram a marca [CONFIRMAR NO CATÁLOGO] e o caso "18/11 se terminar em 14/11" | tabela do NL3; Listas 1 e 3 |
+| X1 | Sem mudança aqui: a D13 já é a frase de Livres | - |

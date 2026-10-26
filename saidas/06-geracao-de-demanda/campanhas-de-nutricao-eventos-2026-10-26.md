@@ -3,6 +3,7 @@
 - **Agente:** campanhas-de-nutricao (departamento 06, Geração de Demanda), etapa 1.28 da camada 1
 - **Linha:** eventos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** corrigida após qa-de-marketing-geral-2026-10-26-loteD (seção "Mudanças desta versão", no fim do arquivo).
 - **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md, auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. São regras e esboços para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é publicado, enviado ou pago.
 - **Escopo:** três sequências de nutrição (prioridade 5 da fila D2): quem se interessou pelo Workshop Brasileiro de Neuromonitorização e não comprou; quem participou, depois do M8 e do M9; e quem comprou os gravados 700 ou 202. Não reescreve a régua de venda e serviço do Workshop (M1 a M10 da copy-de-mensagens-eventos), que é a dona do evento até 21/11.
 - **Entradas lidas:**
@@ -74,8 +75,8 @@
 ### 1.4 Conteúdo (conformidade)
 
 - Nome oficial "Workshop Brasileiro de Neuromonitorização" (decisão 7), nunca "simpósio" para ele. O 202 mantém o nome do catálogo ("Simpósio Internacional de Coagulação"), porque é outro produto.
-- Gravados 700 e 202: dados só do catálogo (700: R$ 780,00 à vista ou 10x de R$ 98,00 no cartão; 202: R$ 285,00 à vista ou 6x de R$ 78,00 no cartão; status aberto, contínuo). Nunca "ao vivo"; nunca "promoção por tempo limitado". Carga horária, idioma e tradução, data da edição e prazo de acesso só depois de confirmados no catálogo (EV-12) [CONFIRMAR NO CATÁLOGO]. A ficha do 700 diz "acesso por 6 meses" e a oferta registra a gravação de 15 e 16/11/2025; nenhuma mensagem usa esses dados antes da confirmação.
-- Frase de natureza em toda mensagem com preço: "Evento: não confere diploma e não equivale a graduação ou pós-graduação." [SUPOSIÇÃO: adaptação da frase D13 do curso livre, apoiada na regra da 1.19 de que curso livre e evento não conferem diploma; o cmo confirma o texto].
+- Gravados 700 e 202: dados só do catálogo (700: R$ 780,00 à vista (Pix ou boleto) ou 10x de R$ 98,00 no cartão, total de R$ 980,00 no cartão; 202: R$ 285,00 à vista (Pix ou boleto) ou 6x de R$ 78,00 no cartão, total de R$ 468,00 no cartão; status aberto, contínuo). O total no cartão é cálculo das parcelas do catálogo e aparece sempre que for diferente do à vista (NE-Q2). Nunca "ao vivo"; nunca "promoção por tempo limitado". Carga horária, idioma e tradução, data da edição e prazo de acesso só depois de confirmados no catálogo (EV-12) [CONFIRMAR NO CATÁLOGO]. A ficha do 700 diz "acesso por 6 meses" e a oferta registra a gravação de 15 e 16/11/2025; nenhuma mensagem usa esses dados antes da confirmação.
+- Frase de natureza em toda mensagem com preço: até o cmo decidir (NER6, AME11, X1 do qa), vale a D13, a única aprovada e a mesma dos anúncios Meta de Eventos: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." Vale para 700, 202 e a gravação do 68634. A versão "Evento: não confere diploma..." fica só como proposta ao cmo.
 - Certificado do Workshop só na mensagem de serviço M8, com o texto aprovado [PREENCHER COM A REGULAÇÃO]. Nenhum toque de nutrição cita certificado.
 - Docentes, palestrantes e convidados: nome e titulação só como na ficha; autorização registrada para todos, inclusive dos gravados 700 e 202 (decisões 8 e 10). Os convidados "a definir" do Workshop seguem fora (decisão 6).
 - Sem promessa clínica, sem "últimas vagas", "vagas limitadas" ou contador. Uma chamada por mensagem; um link por WhatsApp.
@@ -123,11 +124,11 @@
 | Objetivo | aprofundar o tema e oferecer o gravado da área; preparar a próxima edição com antecedência real (aposta 5 da 1.9 de Eventos) |
 | Saída | comprou 700 ou 202 (NE3); respondeu (time assume); SAIR, descadastro, bloqueio ou denúncia; fim do T3 (fica com a newsletter e, se tiver área, com NP2 da Pós ou NL2 de Livres) |
 | Toques | 3: e-mail, e-mail, WhatsApp, com 7 dias ou mais entre eles |
-| Não entra | oferta da gravação do Workshop (o participante já recebeu a gravação no M8, serviço); certificado (é do M8); Pós (é do M9) |
+| Não entra | oferta da gravação do Workshop a quem comprou o transmitido (a gravação é dessa modalidade e chega pelo M8, serviço); para o participante do presencial, a gravação só entra se a Ufape confirmar que o ingresso a inclui (então é lembrete, não oferta) ou, se não incluir, como oferta do 68634 nas mesmas condições do NE1-T2 (PE5) [CONFIRMAR]; certificado (é do M8); Pós (é do M9) |
 
 | Toque | Data-alvo e canal | Função | Objetivo e CTA única | Esboço | Conteúdo de apoio | Condição |
 |---|---|---|---|---|---|---|
-| NE2-T1 | sex 11/12, e-mail, 9h | valor | material de consulta; CTA "Leia o artigo" | Assunto de trabalho: "Depois do Workshop: um texto de consulta sobre neuromonitorização em anestesia". "Obrigada por ter participado do Workshop Brasileiro de Neuromonitorização." Artigo L07 como referência para a rotina; lembra que a gravação está no acesso enviado em 23/11 (sem prazo, se não confirmado). Sem oferta | L07; resultado somado da pesquisa pós-evento, só com fonte, período e amostra (aposta 4 da 1.9 de Eventos) | L07 publicado [CONFIRMAR]; sem L07, suprimido |
+| NE2-T1 | sex 11/12, e-mail, 9h | valor | material de consulta; CTA "Leia o artigo" | Assunto de trabalho: "Depois do Workshop: um texto de consulta sobre neuromonitorização em anestesia". "Obrigada por ter participado do Workshop Brasileiro de Neuromonitorização." Artigo L07 como referência para a rotina; só para quem tem [modalidade_inscrita] = transmitido, lembra que a gravação está no acesso enviado pelo M8 em 23/11 (sem prazo, se não confirmado); para o presencial, a frase só entra se a Ufape confirmar que o ingresso inclui a gravação (NE-Q1). Sem oferta | L07; resultado somado da pesquisa pós-evento, só com fonte, período e amostra (aposta 4 da 1.9 de Eventos) | L07 publicado [CONFIRMAR]; sem L07, suprimido |
 | NE2-T2 | qui 21/01, e-mail, 9h | oferta contínua | gravado da área; CTA "Veja a grade da gravação" | Igual ao NE1-T3, com abertura de participante: "Se o Workshop abriu perguntas sobre o paciente crítico, a gravação do Congresso Internacional do Paciente Grave Multidisciplinar UFAPE traz os casos por tema." Texto-padrão de preço, frase de natureza, "gravação" | idem NE1-T3 | EV-12; sem isso, suprimido |
 | NE2-T3 | a partir de ter 02/02, WhatsApp, 10h (plano seguinte) | próximo passo | aviso da próxima edição; CTA responder | Igual ao NE1-T4, com "Você participou da edição de 2026" | nenhum | EV-14 |
 
@@ -233,7 +234,7 @@ Regras: abertura e leitura só como diagnóstico; nenhuma meta de taxa antes de 
 | NER3 | Confirmar no catálogo carga horária, idioma e tradução, data da edição e prazo de acesso de 700 e 202 (EV-12) | NE1-T3, NE2-T2 e NE3 dependem disso | sem custo | peças completas dos gravados | toques suprimidos |
 | NER4 | Informar se haverá próxima edição do Workshop e o calendário de eventos de 2027 (EV-14) | NE1-T4, NE2-T3 e NE3-T2 | sem custo | aviso honesto, sem data inventada | toques suprimidos |
 | NER5 | Criar os campos da seção 6.1, em especial participação (J9) e interesse | sem eles, NE1 e NE2 não têm segmento | sem custo | segmentos medíveis | remover os campos |
-| NER6 | Confirmar a frase de natureza do evento ("Evento: não confere diploma e não equivale a graduação ou pós-graduação.") | a D13 foi escrita para curso livre | sem custo | uma frase única para Eventos | usar a frase D13 |
+| NER6 | Decidir a frase de natureza dos gravados de evento e do Workshop (junto com AME11 e X1 do qa): manter a D13 ou adotar "Evento: não confere diploma e não equivale a graduação ou pós-graduação." | a D13 foi escrita para curso livre e é a única aprovada; até a decisão, este arquivo usa a D13 | sem custo | uma frase única por produto em anúncio e mensagem | voltar à D13 |
 | NER7 | Confirmar a extensão da regra D10 a Eventos (inscrito na prova sem campanha de Eventos até o fim do prazo de matrícula) | evita oferta de evento no meio da decisão da prova | sem custo | prioridade da decisão de maior ticket | tirar a exclusão |
 
 ---
@@ -250,7 +251,7 @@ Consentimento e saída (1.3); um objetivo por mensagem (seção 3); primeiras li
 
 ### 9.3 auditorias/conformidade-educacional.md (o qa-de-marketing repete)
 
-Nome oficial do Workshop; gravados nunca "ao vivo" e sem promoção por tempo; nenhum certificado na nutrição; frase de natureza a confirmar; nenhuma urgência ou escassez; nenhuma oferta de Pós ou de curso livre com data; nenhum dado pessoal; nenhum travessão nem meia-risca.
+Nome oficial do Workshop; gravados nunca "ao vivo" e sem promoção por tempo; nenhum certificado na nutrição; frase D13 nos gravados até a decisão do cmo (NER6); preço com o total no cartão; nenhuma urgência ou escassez; nenhuma oferta de Pós ou de curso livre com data; nenhum dado pessoal; nenhum travessão nem meia-risca.
 
 ---
 
@@ -284,7 +285,7 @@ Nome oficial do Workshop; gravados nunca "ao vivo" e sem promoção por tempo; n
 - [SUPOSIÇÃO] Prazo da janela D8 para os gravados e prazo de 14 dias do NE3.
 - [SUPOSIÇÃO] Número de toques, intervalos e datas-alvo de NE1, NE2 e NE3.
 - [SUPOSIÇÃO] Regra de interesse por clique ou visita com UTM do CRM.
-- [SUPOSIÇÃO] Frase de natureza do evento, adaptada de D13.
+- [SUPOSIÇÃO] Uso da D13 nos gravados de evento até a decisão do cmo (NER6).
 - [SUPOSIÇÃO] Extensão da regra D10 a Eventos.
 - [SUPOSIÇÃO] Regra de finalidade aceita para usar o opt-in do Workshop em outros produtos.
 - [SUPOSIÇÃO] Nomes de campos, templates e a chave eventos_nutricao_<AAAAMM>.
@@ -296,6 +297,7 @@ Nome oficial do Workshop; gravados nunca "ao vivo" e sem promoção por tempo; n
 - [CONFIRMAR] CRM, ferramenta de e-mail e de WhatsApp, API e templates; custo por conversa.
 - [CONFIRMAR] Teto D1 e janela (R1).
 - [CONFIRMAR] Fim das inscrições do presencial e do transmitido; validade do cupom (U9).
+- [CONFIRMAR] Se o ingresso presencial do Workshop inclui a gravação da sexta (NE-Q1).
 - [CONFIRMAR] Decisão sobre PE5 e PE3; preço e prazo do 68634 como gravado.
 - [CONFIRMAR NO CATÁLOGO] Carga horária, idioma e tradução, data da edição e prazo de acesso de 700 e 202; diferença entre 202 e 106 (EV-12).
 - [CONFIRMAR] Próxima edição do Workshop e calendário de eventos de 2027 (EV-14).
@@ -307,3 +309,13 @@ Nome oficial do Workshop; gravados nunca "ao vivo" e sem promoção por tempo; n
 Internas: .claude/agents/campanhas-de-nutricao.md; .claude/skills/mapear-regua/SKILL.md; CLAUDE.md; docs/execucao-2026-10-26.md; contexto/ufape-geral.md; contexto/eventos.md; contexto/catalogo-de-cursos.md; contexto/cursos/livres/700-congresso-internacional-do-paciente-grave-multidisciplinar-ufape-foco-.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12); saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-eventos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-eventos-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md; jornada-do-aluno-geral-2026-10-26.md; estrategia-de-relacionamento-pos-2026-10-26.md; estrategia-de-relacionamento-livres-2026-10-26.md; newsletter-geral-2026-10-26.md; saidas/06-geracao-de-demanda/campanhas-de-nutricao-pos-2026-10-26.md; campanhas-de-nutricao-livres-2026-10-26.md; campanhas-de-nutricao-graduacao-2026-10-26.md (formato); auditorias/06-geracao-de-demanda.md; auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md.
 
 Externas: nenhuma. LGPD e regras da WhatsApp Business API citadas só como referência geral, a conferir pelo encarregado de dados e na política vigente da Meta.
+
+## Mudanças desta versão
+
+Versão corrigida após qa-de-marketing-geral-2026-10-26-loteD (veredito: aprovado com ajustes não bloqueantes).
+
+| Item do qa | O que mudou | Onde |
+|---|---|---|
+| NE-Q1 | A gravação é lembrada só a quem comprou o transmitido (ou ao presencial, se a Ufape confirmar que o ingresso a inclui); o "Não entra" do NE2 deixou de dizer que todo participante recebeu a gravação | NE2 (Não entra, NE2-T1); Lista 3 |
+| NE-Q2 | Texto-padrão de preço dos gravados com o total no cartão: 700 com R$ 980,00 e 202 com R$ 468,00 (cálculo das parcelas do catálogo) | 1.4 |
+| X1 | Frase de natureza do 700, do 202 e do 68634: D13 até o cmo decidir; a versão "Evento: ..." virou só proposta em NER6 | 1.4, NER6, 9.3, Lista 2 |

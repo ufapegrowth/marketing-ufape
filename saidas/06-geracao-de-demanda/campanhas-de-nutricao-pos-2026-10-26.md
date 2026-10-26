@@ -3,6 +3,7 @@
 - **Agente:** campanhas-de-nutricao (departamento 06, Geração de Demanda), etapa 1.28 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** corrigida após qa-de-marketing-geral-2026-10-26-loteD (seção "Mudanças desta versão", no fim do arquivo).
 - **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md, auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. São regras e esboços para o CRM enviar só a quem deu consentimento. A squad não dispara nada. Nada é publicado, enviado ou pago.
 - **Escopo:** sequências de nutrição (prioridade 5 da fila D2) para quem deixou contato e ainda não está pronto para a prova de bolsa ou para a matrícula. Não reescreve as réguas de venda com data que já existem: P1 (régua das provas, M1 a M20), P2 (reta final das turmas de outubro e novembro), P5 (pré-lançamento por área), P4 (retomada pelo time) e P6 (integração do matriculado).
 - **Entradas lidas:**
@@ -74,7 +75,7 @@
 
 - Nome sempre "Pós-graduação em <área>". Dados de turma (data, praça, modalidade, carga horária, preço) só do catálogo do dia do envio; o CRM confere o status "aberto" na data (regra 9 da 1.26).
 - Preço só pelo texto-padrão: número de parcelas, valor da parcela, total e matrícula. Nenhum valor com desconto calculado pela squad.
-- Turma mínima de 15 alunos (decisão 11) e a orientação das fichas de comprar passagem e hotel só com a turma confirmada.
+- Turma mínima: o número 15 (decisão 11) só é citado na mensagem da turma cuja página já diz 15; onde a página ainda diz 20 (por exemplo, fichas de 68615 e 657) ou não diz o número, a mensagem usa só "a turma pode não ser formada; compre passagem e hotel só com a turma confirmada" (mesma condição dos anúncios, AMP9 e AGP11; NP-Q2 do qa).
 - Prova de bolsa: online, com o campus da turma (São Paulo ou Goiânia) dito na peça; regras como na ficha de cada prova (decisão 11; dúvida residual U1).
 - Docentes, coordenação e convidados: nome e titulação só como estão na ficha; autorização de imagem e citação registrada para todos (decisões 8 e 10). Texto clínico continua exigindo revisão do docente revisor [CONFIRMAR nome]. Frase em primeira pessoa precisa do ok do próprio docente (12.9).
 - Sem frase de certificação, sem nota ou selo do MEC, sem promessa de emprego, renda ou título. Dúvida sobre certificado vai para a secretaria (texto oficial [PREENCHER COM A REGULAÇÃO]).
@@ -108,16 +109,16 @@
 | Item | Definição |
 |---|---|
 | Segmento | S1 e S2 novos, com opt-in de pelo menos um canal |
-| Gatilho de entrada | lead_criado de Pós (formulário de página de turma, de prova ou de conteúdo), com opt-in de campanha. Lead criado de 27/10 a 29/11 recebe só o T1; os outros toques são cobertos pela régua das provas (P1), que é dona da área nesse período. Lead criado de 21/12 a 03/01 entra em 04/01 |
+| Gatilho de entrada | lead_criado de Pós (formulário de página de turma, de prova ou de conteúdo), com opt-in de campanha. Lead criado de 27/10 a 29/11 recebe só o T1; os outros toques são cobertos pela régua das provas (P1), que é dona da área nesse período. Lead dessa janela cuja área não está na P1 (área sem prova da especialidade, como 341 Medicina Interna Equina e 333 Citopatologia, ou com prova sem destino, como felinos e a 68652) entra no lote de 30/11: recebe NP1-T2 e NP1-T3 a partir de 01/12 e depois NP2 ou NP3 (NP-Q3 do qa). Lead criado de 21/12 a 03/01 entra em 04/01 |
 | Objetivo | o lead informa a área e entende como a Pós funciona |
 | Saída | informou área: ao fim do T3 vai para NP2, NP3 ou para a régua com data da área; inscreveu na prova, pagou matrícula, respondeu pedindo o time, SAIR, descadastro, bloqueio ou denúncia: sai na hora |
 | Toques | 3 em 6 dias: D0 e-mail, D2 WhatsApp, D6 e-mail |
 
 | Toque | Dia e canal | Função | Objetivo e CTA única | Esboço | Conteúdo de apoio (1.19) |
 |---|---|---|---|---|---|
-| NP1-T1 | D0, e-mail, até 1 h depois do cadastro, dentro da janela | valor | entender o formato; CTA "Veja como funciona, mês a mês" | Assunto de trabalho: "Como funciona uma pós semipresencial na Faculdade UFAPE". Abre com o que a pessoa pediu (se o formulário prometeu material, ele vem aqui). Três blocos curtos: um módulo por mês em fim de semana; aulas online e módulos presenciais obrigatórios; duração e carga horária variam por curso (dado só da ficha). Fecha com a turma mínima de 15 e a orientação de comprar passagem só com a turma confirmada | C03 (guia "como funciona mês a mês", 06/11). Plano B, se C03 não estiver publicado: página de listagem de turmas [CONFIRMAR URL] |
+| NP1-T1 | D0, e-mail, até 1 h depois do cadastro, dentro da janela | valor | entender o formato; CTA "Veja como funciona, mês a mês" | Assunto de trabalho: "Como funciona uma pós semipresencial na Faculdade UFAPE". Abre com o que a pessoa pediu (se o formulário prometeu material, ele vem aqui). Três blocos curtos: um módulo por mês em fim de semana; aulas online e módulos presenciais obrigatórios; duração e carga horária variam por curso (dado só da ficha). Fecha com "a turma pode não ser formada" (sem número, porque o T1 não fala de uma turma só; NP-Q2) e a orientação de comprar passagem só com a turma confirmada | C03 (guia "como funciona mês a mês", 06/11). Plano B, se C03 não estiver publicado: página de listagem de turmas [CONFIRMAR URL] |
 | NP1-T2 | D2, WhatsApp, dia útil, 10h | qualificação | gravar a área; CTA responder | Primeira linha de trabalho: "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Para te mandar só o que interessa: qual especialidade você está considerando?" Lista curta de áreas por número de resposta (as áreas da seção 2.3 com turma aberta), mais "outra". Sem link. "Responda SAIR para não receber mais mensagens." Só com opt-in de WhatsApp; sem opt-in, o T3 pergunta a área por e-mail | nenhum |
-| NP1-T3 | D6, e-mail, dia útil, 9h | oferta suave | levar à página da turma da área; CTA "Veja a turma de <área>" | Com área e turma aberta: nome da turma, praça (São Paulo ou Goiânia), modalidade, data de início, carga horária e texto-padrão de preço do catálogo, a frase da turma mínima e "a 1ª mensalidade vence 30 dias antes do início, como na ficha" [CONFIRMAR NO CATÁLOGO por turma]. Se a prova da área estiver com inscrição aberta, a prova é citada só se a régua das provas não estiver ativa para o contato. Sem área: pergunta a área por link de formulário curto [CONFIRMAR se existe] e indica o guia C08. Área sem turma aberta: vai para NP3 | C08 ("como escolher uma pós", 12/11) quando não há área; C09 (Dermatologia) e C16 (Hematologia) como molde de guia de área |
+| NP1-T3 | D6, e-mail, dia útil, 9h | oferta suave | levar à página da turma da área; CTA "Veja a turma de <área>" | Com área e turma aberta: nome da turma, praça (São Paulo ou Goiânia), modalidade, data de início, carga horária e texto-padrão de preço do catálogo, a frase da turma mínima pela regra da seção 1.4 (15 só se a página da turma disser 15) e "a 1ª mensalidade vence 30 dias antes do início, como na ficha" [CONFIRMAR NO CATÁLOGO por turma]. Se a prova da área estiver com inscrição aberta, a prova é citada só se a régua das provas não estiver ativa para o contato. Sem área: pergunta a área por link de formulário curto [CONFIRMAR se existe] e indica o guia C08. Área sem turma aberta: vai para NP3 | C08 ("como escolher uma pós", 12/11) quando não há área; C09 (Dermatologia) e C16 (Hematologia) como molde de guia de área |
 
 ### NP2. Nutrição por área até o pré-lançamento da turma
 
@@ -133,7 +134,7 @@
 |---|---|---|---|---|---|
 | NP2-T1 | D0, e-mail | história | mostrar o módulo presencial; CTA "Veja o cronograma da turma" | Assunto de trabalho: "Um fim de semana de módulo na Pós-graduação em <área>". Sábado, o quê; domingo, o quê, como no cronograma da ficha da turma; "o cronograma pode mudar" quando a ficha disser. Sem horas práticas que não estejam no catálogo. "Ufape Clínica" só se a ficha disser que a prática é lá | molde de C11 (cronograma de Dermatologia) e C18 (módulo presencial de Hematologia); C04 (fim de semana de módulo) |
 | NP2-T2 | D+7 a D+10, WhatsApp, dia útil, 10h | prova | quem ensina; CTA link da página da turma | "Oi, [primeiro_nome]. Na Pós-graduação em <área> da Faculdade UFAPE, a coordenação é de [coordenação como na ficha] e as aulas são com [2 ou 3 docentes da ficha, nome e titulação como na ficha]." Um link. Sem "renomados" nem "maiores especialistas". SAIR no fim. Sem opt-in de WhatsApp, vira e-mail no mesmo dia | P5 da 1.19 (docente como colega); quando houver revisor, C17 (caso em decisão) como alternativa |
-| NP2-T3 | D+14 a D+20, e-mail | objeção | preço, turma mínima e passagem; CTA "Veja as condições da turma" | Assunto de trabalho: "Quanto custa, quando se paga e quando comprar a passagem". Texto-padrão de preço do catálogo; matrícula; 1ª mensalidade 30 dias antes do início (ficha); turma mínima de 15 alunos; "compre passagem e hotel só com a turma confirmada" (fichas). Data em que a turma é confirmada: só quando a Ufape informar [CONFIRMAR, R8 da 1.26]. Sem crédito de curso livre (D7), sem desconto de ex-aluno (PR6 sem regra), sem a promoção de 341 até a regra ser confirmada | D1 ("investimento e formas de pagamento", T8, 30/11 a 06/12); J4 ("compre só com a turma confirmada", 25 a 31/01) |
+| NP2-T3 | D+14 a D+20, e-mail | objeção | preço, turma mínima e passagem; CTA "Veja as condições da turma" | Assunto de trabalho: "Quanto custa, quando se paga e quando comprar a passagem". Texto-padrão de preço do catálogo; matrícula; 1ª mensalidade 30 dias antes do início (ficha); turma mínima pela regra da seção 1.4 (15 só se a página da turma já disser 15; senão, "a turma pode não ser formada"); "compre passagem e hotel só com a turma confirmada" (fichas). Data em que a turma é confirmada: só quando a Ufape informar [CONFIRMAR, R8 da 1.26]. Sem crédito de curso livre (D7), sem desconto de ex-aluno (PR6 sem regra), sem a promoção de 341 até a regra ser confirmada | D1 ("investimento e formas de pagamento", T8, 30/11 a 06/12); J4 ("compre só com a turma confirmada", 25 a 31/01) |
 | NP2-T4 | D+21 a D+28, WhatsApp, dia útil, 10h | próximo passo | passar ao time quem está pronto; CTA responder | "Oi, [primeiro_nome]. Ficou alguma dúvida sobre a turma de <área> (datas dos módulos, viagem, pagamento)? Se quiser, responda aqui e alguém do time de [São Paulo ou Goiânia] conversa com você." Sem link. Resposta passa ao time e sai da automação. Para áreas com turma só em maio de 2027 (A5, A12, parte de A14): "Quando o pré-lançamento da turma de <área> abrir, quer receber o aviso?" (resposta grava o pedido; sem data inventada) | respostas prontas do copy-de-mensagens-pos, seção 6 |
 
 **Áreas e quando o P5 assume** (turmas do catálogo; lotes da 1.26, seção 5, e da tabela D6)
@@ -189,7 +190,7 @@ O lote da base com opt-in e área entra em NP2 na segunda 30/11. Antes disso, a 
 | S7, 07 a 13/12 | 68618 T1 (WA 07/12), T2 (e-mail 08/12), T3 (WA 10/12), só para A1 e A2 de ventilação e só com P6 fechada | **NP2-T2, WhatsApp, qua 09/12, 10h** | para quem está no kit de 68618, WhatsApp já tem 2: NP2-T2 suprimido. Os demais recebem |
 | S8, 14 a 20/12 | 68618 T4 (WA 15/12); newsletter edição 3 (e-mail qui 17/12) | **NP2-T3, e-mail, qua 16/12, 9h** | e-mail: NP2-T3 e newsletter = 2; um por dia mantido |
 | S9 e S10, 21/12 a 03/01 | só serviço e manutenção | nenhum | - |
-| S11, 04 a 10/01 | P5 lote 2 (657 e 341) a partir de 04/01; newsletter edição 4 (qui 07/01) | **NP2-T4, WhatsApp, ter 05/01, 10h**, só para áreas sem P5 nessa semana (A3, A4, A5, A7, A10, A12 e A14 sem 341). A1 e 341 saem de NP2 em 04/01 | dentro do teto |
+| S11, 04 a 10/01 | P5 lote 2 (657 e 341) a partir de 04/01; newsletter edição 4 (qui 07/01) | **NP2-T4, WhatsApp, ter 05/01, 10h** (exceção do lote de 30/11: D+35 do T1 em vez de D+21 a D+28, por causa do recesso de 21/12 a 03/01; NP-Q1 do qa), só para áreas sem P5 nessa semana (A3, A4, A5, A7, A10, A12 e A14 sem 341). A1 e 341 saem de NP2 em 04/01 | dentro do teto |
 | S12, 11 a 24/01 | primeiro lote de abril (área [CONFIRMAR]); newsletter edição 5 (qui 14/01); 68638 T1 e T2 de Livres para A3 | nenhum toque novo do lote; leads novos seguem o relógio de NP1 e NP2 | a área que entrar no lote de abril sai de NP2 na data |
 
 Lead novo depois de 04/01: NP1 (D0, D2, D6) e, sem régua com data da área, NP2 a partir de D7, com os mesmos intervalos.
@@ -289,7 +290,7 @@ Consentimento e saída: seção 1.3. Um objetivo por mensagem: tabelas da seçã
 
 ### 9.3 auditorias/conformidade-educacional.md (o qa-de-marketing repete)
 
-Sem frase de certificação ou nota do MEC; nome "Pós-graduação em <área>"; preço completo pelo texto-padrão; turma mínima de 15; prova online com campus; nenhuma chamada para turma "verificar", "sem venda" ou "encerrado"; 698 fora até a correção; sem urgência sem número; nenhum dado pessoal; nenhum travessão nem meia-risca.
+Sem frase de certificação ou nota do MEC; nome "Pós-graduação em <área>"; preço completo pelo texto-padrão; turma mínima de 15 só onde a página da turma já diz 15; prova online com campus; nenhuma chamada para turma "verificar", "sem venda" ou "encerrado"; 698 fora até a correção; sem urgência sem número; nenhum dado pessoal; nenhum travessão nem meia-risca.
 
 ---
 
@@ -320,6 +321,7 @@ Sem frase de certificação ou nota do MEC; nome "Pós-graduação em <área>"; 
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] Número do teto D1 e janela de envio, até a Ufape confirmar (R1).
+- [SUPOSIÇÃO] Lead de 27/10 a 29/11 sem prova da área recebe NP1-T2 e T3 no lote de 30/11, mesmo com o T1 semanas antes.
 - [SUPOSIÇÃO] Intervalos de projeto (2 dias no NP1, 7 dias no NP2 e no NP3) e número de toques de cada sequência.
 - [SUPOSIÇÃO] Regra de data de entrada no primeiro dia permitido para quem deixa contato em período sem campanha.
 - [SUPOSIÇÃO] Critério de "candidato pronto" (dois cliques na página da turma da área).
@@ -340,6 +342,7 @@ Sem frase de certificação ou nota do MEC; nome "Pós-graduação em <área>"; 
 - [CONFIRMAR] Prazo de matrícula e canal do resultado por ficha de prova (U1), data do resultado e prazo de inscrição (U3), destino das provas (U4).
 - [CONFIRMAR] Nome do docente revisor do conteúdo clínico; URLs e datas de publicação de C03, C08, C09, C15 e dos guias D1, D2 e J4.
 - [CONFIRMAR] Lista de iscas e o que cada formulário promete entregar.
+- [CONFIRMAR] Correção das páginas de turma que ainda dizem turma mínima de 20 (decisão 11), para a mensagem poder citar 15.
 - [CONFIRMAR NO CATÁLOGO] Horas práticas e cronograma por turma usados no NP2-T1.
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação: nenhuma mensagem usa.
 
@@ -348,3 +351,14 @@ Sem frase de certificação ou nota do MEC; nome "Pós-graduação em <área>"; 
 Internas: .claude/agents/campanhas-de-nutricao.md; .claude/skills/mapear-regua/SKILL.md; CLAUDE.md; docs/execucao-2026-10-26.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12); saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-pos-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md; estrategia-de-relacionamento-livres-2026-10-26.md; jornada-do-aluno-geral-2026-10-26.md; newsletter-geral-2026-10-26.md; copy-de-mensagens-pos-2026-10-26.md; copy-de-mensagens-eventos-2026-10-26.md; saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md (formato); auditorias/06-geracao-de-demanda.md; auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md.
 
 Externas: nenhuma. LGPD (Lei 13.709/2018) e regras da WhatsApp Business API citadas só como referência geral, a conferir pelo encarregado de dados e na política vigente da Meta.
+
+## Mudanças desta versão
+
+Versão corrigida após qa-de-marketing-geral-2026-10-26-loteD (veredito: aprovado com ajustes não bloqueantes).
+
+| Item do qa | O que mudou | Onde |
+|---|---|---|
+| NP-Q2 | Turma mínima de 15 citada só onde a página da turma já diz 15; senão, "a turma pode não ser formada; compre passagem e hotel só com a turma confirmada", como nos anúncios (AMP9, AGP11). O NP1-T1 deixou de citar o número | 1.4, NP1-T1, NP1-T3, NP2-T3, 9.3, Lista 3 |
+| NP-Q1 | Registrada a exceção do NP2-T4 do lote de 30/11 (05/01, D+35, por causa do recesso) | seção 4, S11 |
+| NP-Q3 | Lead de 27/10 a 29/11 de área fora da P1 (sem prova da especialidade, como 341 e 333, ou com prova sem destino, como 68652) entra no lote de 30/11, com NP1-T2 e T3 a partir de 01/12 | NP1, gatilho de entrada; Lista 2 |
+| X1 | Sem efeito neste arquivo (frase de natureza é de Livres e Eventos) | - |
