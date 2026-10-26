@@ -15,8 +15,8 @@
 2. **A lacuna que mais pesa na venda das próximas 5 semanas não é artigo, é a página de produto.** 573 (14/11, faltam 19 dias), neuro-summit (20/11, faltam 25), 623 e 68614 (28/11, faltam 33) e os grupos 68665 (01/11, faltam 6) e 68666 (25/11, faltam 30) têm objeções centrais sem resposta na página (vagas, prática por aluno, cancelamento, parcelamento, período dos R$ 100,00). Artigo novo publicado hoje leva semanas para ser indexado [SUPOSIÇÃO] e não vai mover a venda de 14/11 nem de 20/11.
 3. **Perguntas de assistente de IA que nenhuma página da Ufape responde (segundo as fichas):** "hands-on ou gravado, qual compensar" (ecocardiografia), "por onde começar em nefrologia ou dermatologia" (minicursos), "qual a diferença entre minicurso, curso livre e pós", "o que vale o certificado de curso livre", "o grupo de R$ 100,00 é por mês ou por ano", "BIS funciona em cães e gatos", "como é o processo de título de especialista em anestesiologia veterinária" e "auxiliar veterinário precisa de registro". Lista completa na seção 6.
 4. **Arquitetura proposta:** 6 páginas pilar por formato (presenciais, online gravado, minicursos, grupos de estudos, espanhol, eventos), 6 pilares por área onde há volume de itens (A1, A2, A3, A5, A7, A13), a própria página de produto como pilar nas demais áreas, 3 tipos de cluster que não se misturam (decisão, comparativa, informativo) e FAQ por tipo de página de produto (seção 10).
-5. **Onda 1:** 31 lacunas catalogadas, 6 delas de prioridade 1 (todas em páginas de produto existentes), 14 de prioridade 2 e 11 de prioridade 3. Os 12 temas de artigo das 4 áreas da onda 1 (A2, A3, A5, A12) estão na seção 7.
-6. **Revisão de docente** é obrigatória em 21 das 31 lacunas (conteúdo clínico). Revisão de regulação ou jurídico em 5 (certificado, título de especialista, auxiliar veterinário, curso livre versus pós).
+5. **Onda 1:** 31 lacunas catalogadas, 6 delas de prioridade 1 (5 ajustes em páginas de produto existentes e 1 hub de presenciais), 15 de prioridade 2 e 10 de prioridade 3. Os 12 temas de artigo das 4 áreas da onda 1 (A2, A3, A5, A12) estão na seção 7.3.
+6. **Revisão de docente** é obrigatória em 22 das 31 lacunas (conteúdo clínico). Revisão de regulação ou jurídico em 5 (certificado, título de especialista, auxiliar veterinário, curso livre versus pós).
 7. **Bloqueios que dependem da Ufape, não da squad:** duplicidade 623 e 68637, data de 623 no site (01/08/2026 contra 28/11/2026 na planilha), carga horária do 68634 (24 h contra 16 h), data de início de 68665 (catálogo 01/11, agenda da ficha começa em 05/11), frase "selo do MEC" na página de 68614, texto oficial de certificação.
 
 ---
@@ -261,7 +261,7 @@ Perguntas do jeito que o veterinário digita, escritas por este agente [SUPOSIÇ
 
 ### 6.3 Perguntas sem nenhuma página da Ufape que responda (segundo as fichas)
 
-Q02, Q10, Q13, Q14, Q15, Q20 e, em parte, Q03, Q23. Mais: "grupo de estudos serve para quem já é formado?", "posso ir como estudante?" (só 68614 responde) e "e se a turma não abrir?" (só 68614 e 623 respondem, e de formas diferentes).
+Q02, Q10, Q13, Q14, Q15, Q20 e, em parte, Q03 e Q23. Mais: "grupo de estudos serve para quem já é formado?", "posso ir como estudante?" (só 68614 responde) e "e se a turma não abrir?" (só 68614 e 623 respondem, e de formas diferentes).
 
 ### 6.4 Checagem de extração das páginas prioritárias (skill, passo 4)
 
@@ -388,7 +388,7 @@ Cada tema: título de trabalho, intenção, palavra-chave principal (uma por pá
 | 2 | L18 | Paciente sob bloqueio neuromuscular na UTI: como avaliar a hipnose e ler o TOF | Informativa | bloqueio neuromuscular TOF veterinária | Q24 | neuro-summit | D |
 | 3 | L19 | Consciência intraoperatória (awareness) em cães e gatos: sinais, risco e como reduzir | Informativa | awareness anestesia cães e gatos | Q23 em parte | neuro-summit, 644, 483 | D |
 
-Observação de calendário: o evento é em 20/11. Artigo publicado depois de 27/10 provavelmente não será indexado a tempo de render inscrição para esta edição [SUPOSIÇÃO]. O valor está em (a) resposta citável para assistentes de IA, (b) próxima edição [CONFIRMAR que haverá], (c) material para e-mail e social do departamento 07 e 05 (reaproveitamento sem custo de produção extra).
+Observação de calendário: o evento é em 20/11. Artigo publicado depois de 27/10 provavelmente não será indexado a tempo de render inscrição para esta edição [SUPOSIÇÃO]. O valor está em (a) resposta citável para assistentes de IA, (b) próxima edição [CONFIRMAR que haverá], (c) material para e-mail e social dos departamentos 07 e 05 (reaproveitamento sem custo de produção extra).
 
 Áreas de ondas 2 e 3 (para quando chegarem): A1 (L24 guia CRI, L25 guia de título), A7 e A8 e A9 (dentro do hub de minicursos), A10 (L31), A13 (L16), A14 (L26).
 
@@ -482,7 +482,7 @@ Regra: nenhuma peça final de página de produto antes de a Ufape resolver as pe
 | Curso de auxiliar veterinário sem resposta sobre validade | 95 | L26 (R) |
 | Mini e curso livre sem texto oficial de certificação | todos | L27 (R) |
 
-### 9.3 Conteúdo evergreen mínimo por área (para o kit sempre ligado do departamento 05 e 07)
+### 9.3 Conteúdo evergreen mínimo por área (para o kit sempre ligado dos departamentos 05 e 07)
 
 Para cada área com contínuos: 1 artigo informativo ou guia (um por área prioritária, ver 7.3 e 9.2), 1 bloco de FAQ por produto, 1 linha no hub. Áreas com 1 só contínuo (A5, A8, A10, A12) usam o hub de formato e o guia do tema. Nenhuma peça "sempre ligada" usa "últimas vagas", "promoção por tempo limitado" ou frase de certificação.
 
@@ -505,7 +505,7 @@ Cada pergunta traz o que a resposta precisa conter e de onde sai. A resposta fin
 | 7 | E se a turma não abrir ou eu desistir? | 68614: cancelamento até 30 dias com devolução total; 623: reembolso só se a turma não for confirmada. Política única [CONFIRMAR NO CATÁLOGO] | Parcial | C, R |
 | 8 | Posso parcelar? Quanto pago no total no cartão? | Catálogo: à vista e parcela; total é cálculo (ex.: 573 R$ 3.030,00 em 10x de R$ 303,00). Padronizar texto de boleto e "carta de crédito" | Parcial | C |
 | 9 | Onde fica, qual o horário e há onde ficar? | Endereço nas fichas; horário de 573 diverge dentro da própria página; hospedagem [CONFIRMAR] | Parcial | C |
-| 10 | Que equipamentos vou usar? | Fichas de 573 ("equipamentos de última geração") sem modelo; [CONFIRMAR]. Não citar marca sem confirmação | Falta | C, D |
+| 10 | Que equipamentos vou usar? | Ficha de 573 ("equipamentos de última geração") sem modelo; [CONFIRMAR]. Não citar marca sem confirmação | Falta | C, D |
 | 11 | Há certificado? Vale como pós-graduação? | Texto oficial [PREENCHER COM A REGULAÇÃO]. Dizer só que curso livre não confere diploma | Falta | R |
 | 12 | Terei conteúdo gravado e por quanto tempo? | 573: 12 h por 6 meses | Resp. (573) | C |
 | 13 | Quem são os docentes? | Só com autorização registrada [CONFIRMAR autorização] | Falta | C |
@@ -567,7 +567,7 @@ Toda resposta em espanhol é revisada por falante nativo antes de ir ao ar.
 
 ## 11. Marcação de revisão de docente e de regulação
 
-Revisão de docente (D) é obrigatória antes de publicar qualquer artigo ou resposta de FAQ com conteúdo clínico: L07, L08, L09, L10, L11, L12, L18, L19, L20, L21, L22, L23, L24, L25, L30, L31, e as respostas de FAQ que tocam prática (10.1 itens 2, 4, 5 e 10; 10.3 item 5; 10.5 itens 2 e 5), o comparativo de felinos (L16) e o guia de hemogasometria (L12). Isso são 16 lacunas de artigo ou guia mais as respostas de FAQ citadas; somando L01, L02, L03, L05, L06 (revisão do docente só nos itens de prática) e L13 e L14 (nas comparações de conteúdo), chega a 21 das 31 lacunas.
+Revisão de docente (D) é obrigatória antes de publicar qualquer artigo ou resposta de FAQ com conteúdo clínico. São 22 lacunas: os artigos e guias L07, L08, L09, L10, L11, L12, L18, L19, L20, L21, L22, L23, L24, L25, L31, os comparativos e hubs com comparação de conteúdo L15 e L16, e os ajustes de página L01, L02, L03, L06 e L30, nos quais a revisão do docente vale só para os itens de prática. Nas FAQs, as respostas que tocam prática: 10.1 itens 2, 4, 5 e 10; 10.3 item 5; 10.5 itens 2 e 5.
 
 Pontos de atenção clínicos que o docente deve olhar:
 - Neuromonitorização: o que o BIS, o PSI e o qNOX validam em cães, gatos e outras espécies; nenhuma frase pode sugerir que o índice substitui o julgamento clínico. Evidência nas fontes S17 a S19 é de revisão e de limitações, não de promessa.
@@ -575,7 +575,7 @@ Pontos de atenção clínicos que o docente deve olhar:
 - POCUS, ecocardiografia e endoscopia: indicações e limites; sem comparação de resultado entre técnicas sem fonte.
 - Bem-estar animal em prática com animal real (68614 e 573 dizem "animais reais"): texto sobre consentimento do tutor e conduta fica com o docente e a Ufape Clínica [CONFIRMAR].
 
-Revisão de regulação ou jurídico (R): L04 (frase "selo do MEC" em 68614), L25 (processo de título de especialista, que depende de CFMV e de sociedade credenciada, S27 e S28), L26 (credenciamento facultativo do auxiliar, S25), L27 (curso livre versus pós e texto de certificação) e as respostas de reembolso e certificado nas FAQs. Nenhuma afirmação sobre título, MEC ou CFMV vai ao ar sem a fonte primária conferida [CONFIRMAR].
+Revisão de regulação ou jurídico (R): L04 (frase "selo do MEC" em 68614), L25 (processo de título de especialista, que depende de CFMV e de sociedade credenciada, S27 e S28), L26 (credenciamento facultativo do auxiliar, S25), L27 (curso livre versus pós e texto de certificação), L29 (reembolso e certificado em espanhol) e as respostas de reembolso e certificado nas FAQs. Nenhuma afirmação sobre título, MEC ou CFMV vai ao ar sem a fonte primária conferida [CONFIRMAR].
 
 ---
 
