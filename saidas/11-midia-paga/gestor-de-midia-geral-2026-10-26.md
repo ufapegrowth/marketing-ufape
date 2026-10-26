@@ -480,7 +480,7 @@ Ordem pela matriz GUT (notas de 1 a 5 são avaliação do gestor, não medida; o
 | Urgência real | Atendido: "30 vagas" só como total; sem "últimas vagas" sem número |
 | Autorização de imagem | Pendente: docentes do workshop [CONFIRMAR autorização] |
 | Formulários com finalidade e política de privacidade | Pendente: conferir nas páginas de destino [CONFIRMAR] |
-| Nenhum dado pessoal nos arquivos | Atendido: só docentes com nome e titulação como estão nas fichas não aparecem neste memorando; nenhum dado de aluno ou candidato |
+| Nenhum dado pessoal nos arquivos | Atendido: nenhum nome de aluno, candidato ou docente aparece neste memorando |
 | Anúncios sem atributo pessoal, sem elemento falso | Atendido no desenho |
 | Página de destino entrega o que o anúncio promete | Bloqueado em 698 até a correção; pendente em 68662, 68641 e 68642 |
 
