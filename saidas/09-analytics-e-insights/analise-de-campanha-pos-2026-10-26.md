@@ -25,7 +25,7 @@
 2. **Lead não é matrícula.** Uma campanha com muito lead e pouca matrícula não é sucesso. Toda regra abaixo olha matrícula e custo por matrícula antes de olhar lead e custo por lead.
 3. **Janela de tempo.** Na Pós, a matrícula acontece depois do lead (prova de bolsa, conversa no WhatsApp, pagamento). Janela usada neste arquivo [SUPOSIÇÃO]: o lead é atribuído à semana em que entrou (coorte) e a matrícula à semana em que foi paga; a leitura final de uma turma espera até 30 dias depois do início. Em várias páginas de pós, a 1ª mensalidade é paga 30 dias antes do início (contexto da linha, "na maioria das páginas"): por isso a data de corte da matrícula de cada turma pode vir antes da data de início. Data de corte por turma: [CONFIRMAR].
 4. **Dados de curso** (nome, turma, preço, carga horária, datas) vêm só do catálogo de 26/10/2026. Datas de início: planilha, via catálogo e visão.
-5. **Dias até o início** são os da visão de campanhas (26/10/2026). Número de campanha é por curso, sem dado pessoal.
+5. **Dias até o início** são os da visão de campanhas (26/10/2026). Os números de campanha são por curso, sem dado pessoal.
 
 ---
 
@@ -48,7 +48,7 @@ Fonte: visão de campanhas, contagem conferida com o analista-de-dados (1.10). A
 |---|---|---|---|---|---|
 | 650 | Pós-graduação em Medicina de Felinos, VI | 15/08/2026 | -72 | estático, sem 5 ângulos | R$ 30.000,00 |
 | 68662 | Pós-graduação em Odontologia Veterinária, V (link trocado, ver P3) | 15/08/2026 | -72 | estático, sem 5 ângulos | R$ 35.400,00 [CONFIRMAR] |
-| 706 | Pós Graduação em Ultrassonografia de Pequenos Animais, II | 15/08/2026 | -72 | estático, sem 5 ângulos | R$ 14.960,00 |
+| 706 | Pós-graduação em Ultrassonografia de Pequenos Animais, II | 15/08/2026 | -72 | estático, sem 5 ângulos | R$ 14.960,00 |
 | 586 | Pós-graduação em Anestesiologia Veterinária (Direto ao ponto), EAD, I | 22/08/2026 | -65 | estático, sem 5 ângulos | R$ 14.130,00 |
 | 554 | Pós-graduação em Dor e Cuidados Paliativos na Veterinária, III | 22/08/2026 | -65 | estático e vídeo, sem 5 ângulos | R$ 27.000,00 |
 | 68612 | Pós-graduação em Nefrologia e Urologia Veterinária, VIII | 24/10/2026 | -2 | estático e vídeo, com 5 ângulos | R$ 32.520,00 |
@@ -72,9 +72,7 @@ Leitura estrutural: 6 das 14 ativas da Pós (42,9%) estão em turma que já come
 | 352 | Ventilação Mecânica, I | 24/05/2027 | 210 | estático, sem 5 | R$ 47.880,00 |
 | 60 | Medicina de Silvestres, I | 28/05/2027 | 214 | estático, sem 5 | R$ 29.700,00 |
 
-Leitura estrutural: o motivo de cada pausa é [CONFIRMAR]. Pode ser decisão de calendário (campanha ainda longe), falta de verba ou problema de página. Três delas (68615, 366, 68617) têm os 5 ângulos prontos. Quatro são "turma I" (341, 333, 366, 382, 352, 60 somam seis; 366, 341, 333, 382, 352 e 60 estão na lista de turmas I do plano), sem histórico de turmas anteriores para usar como prova.
-
-Correção de contagem: das 12 pausadas futuras, 6 são turma I (341, 333, 366, 382, 352, 60).
+Leitura estrutural: o motivo de cada pausa é [CONFIRMAR]. Pode ser decisão de calendário (campanha ainda longe), falta de verba ou problema de página. Três delas (68615, 366, 68617) têm os 5 ângulos prontos. Seis são "turma I" (341, 333, 366, 382, 352, 60), sem histórico de turmas anteriores para usar como prova.
 
 ### 1.4 Formatos e ângulos em uso
 
@@ -104,12 +102,12 @@ Limite da leitura: a visão só diz "com" ou "sem" os 5 ângulos. Não diz quais
 - Regras publicadas (contexto da linha, lidas em 26/10/2026): 11 bolsas por prova (2 de 50% com monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para a matrícula, inscrição de R$ 100,00. Turma mínima: 15 na página da prova e 20 nas páginas de curso [CONFIRMAR].
 - Campanha única com variação por especialidade (decisão do cliente de 26/10/2026): plano até 29/10, peças até 03/11. Ela ainda não existe, então não há o que checar no gerenciador. O que existe é o desenho da leitura (seção 3.4).
 
-Cobertura por especialidade (22 provas, 19 especialidades). A coluna do meio lista turmas da mesma especialidade no catálogo; ela não presume a turma de destino, que é [CONFIRMAR] em todas as provas.
+Cobertura por especialidade (22 provas, 19 especialidades). A coluna da direita lista turmas da mesma especialidade no catálogo; ela não presume a turma de destino, que é [CONFIRMAR] em todas as provas.
 
 | Especialidade (provas) | Turmas da mesma especialidade, com início e status de mídia na visão |
 |---|---|
 | Anestesiologia (68639 SP, 68640 GO) | 68607 (24/10/2026, iniciada, pausada); 586 (EAD, iniciada, ativa); 657 (13/03/2027, pausada); 68609 GO (24/04/2027, sem campanha); 359 (22/05/2027, não consta) |
-| Cardiologia (68641 SP, 68642 GO; links invertidos, P3) | 68605 SP (17/10/2026, iniciada, pausada); 289 GO (20/03/2027, ativa). Sem turma futura em SP no catálogo |
+| Cardiologia (68641 SP, 68642 GO; links invertidos, P3) | 68605 SP (17/10/2026, iniciada, pausada); 289 GO (20/03/2027, ativa). Sem turma futura em SP |
 | Clínica Cirúrgica de Cães e Gatos (68643 SP, 68644 GO) | 665 SP (iniciada, pausada); 68632 GO (10/04/2027, sem campanha). Sem turma futura em SP |
 | Clínica Médica e Emergência (68645) | 68635 (10/04/2027, pausada) |
 | Dermatologia (68646) | 68610 (28/11/2026, ativa): começa um dia depois da prova |
@@ -130,9 +128,9 @@ Cobertura por especialidade (22 provas, 19 especialidades). A coluna do meio lis
 
 Achados desta tabela (fatos, a partir de datas e status; a conclusão é hipótese):
 
-- Em 6 especialidades (Felinos, Endoscopia, Nefrologia, Odontologia, mais Cardiologia SP e Clínica Cirúrgica SP por praça) o catálogo não mostra turma futura aberta na mesma praça. Para essas provas, o destino da bolsa é [CONFIRMAR].
+- Em 4 especialidades (Felinos, Endoscopia, Nefrologia, Odontologia) o catálogo não mostra turma futura aberta, e em Cardiologia SP e Clínica Cirúrgica SP não há turma futura na praça da prova. Para essas provas, o destino da bolsa é [CONFIRMAR].
 - Em 4 especialidades a turma mais próxima começa antes ou um dia depois da prova (Imagem, Gastroenterologia, Dermatologia, Hematologia). Com 10 dias úteis para matricular depois do resultado, a prova não pode alimentar a turma que começa em 31/10 ou 07/11 [CONFIRMAR o destino].
-- 10 provas apontam, pela especialidade, para turmas hoje pausadas ou sem campanha na visão (Anestesiologia, Clínica Médica, Endocrinologia, Neurologia, Oncologia, Patologia Clínica, Terapia Intensiva e as GO). Se a prova abastece essas turmas, a prova é hoje a principal porta de entrada delas, e a mídia dessas turmas não sustenta a prova. Hipótese a testar.
+- Pelo menos 8 provas (Anestesiologia SP e GO, Clínica Médica, Endocrinologia, Neurologia, Oncologia, Patologia Clínica, Terapia Intensiva) apontam, pela especialidade, para turmas hoje pausadas ou sem campanha na visão. Se a prova abastece essas turmas, a prova é a principal porta de entrada delas, e a mídia das turmas não sustenta a prova. Hipótese a testar.
 
 ### 1.6 Itens da onda 1 de Pós (28 itens)
 
@@ -148,7 +146,7 @@ Achados desta tabela (fatos, a partir de datas e status; a conclusão é hipóte
 
 Cobertura: as 6 turmas da onda 1 estão ativas (6 de 6). As 22 provas (78,6% dos 28 itens da onda 1 de Pós) não têm status. O inventário do kit de 707, 68604, 68606, 698, 68610 e 68608 (prazo do plano: 28/10) é [CONFIRMAR]; sem ele não se sabe se WhatsApp de reta final, e-mail e posts já existem.
 
-### 1.7 Inconsistências que mudam a leitura de uma campanha (todas do plano e do analista)
+### 1.7 Inconsistências que mudam a leitura de uma campanha
 
 | Item | Inconsistência | Efeito na análise |
 |---|---|---|
@@ -212,16 +210,16 @@ Ritmo necessário (fórmula, sem número): (turma mínima, 20 na Pós, menos mat
 
 ### 2.3 Ativas em turma já iniciada (6): pedido A4, decisão até 28/10
 
-Critério geral para as seis: R2 primeiro. Sem confirmação da política de entrada, a decisão não é de desempenho. Com a confirmação, vale R4 a R6. Gasto dos últimos 7 dias de cada uma é [CONFIRMAR] e vai no pedido.
+Critério geral para as seis: R2 primeiro. Sem confirmação da política de entrada, a decisão não é de desempenho. Com a confirmação, vale R4 a R6. O gasto dos últimos 7 dias de cada uma é [CONFIRMAR] e vai no pedido.
 
 | Campanha | Checar além de C1 a C9 | Critério |
 |---|---|---|
 | 650 Medicina de Felinos, VI (-72 dias) | gasto da semana; destino (turma VI iniciada ou próxima turma?); a prova 68652 de Felinos não tem turma futura aberta, então conferir se a campanha ainda serve a alguma turma | Manter só se R2 liberar e custo por matrícula dentro da meta. Sem confirmação de entrada: levar o pedido de PAUSA (R6). |
 | 68662 Odontologia, V (-72) | URL de destino (link trocado: o site mostra 24/04/2027 para esta página); existência da 678 (mesmo nome, iniciada); a prova 68655 sem turma futura | R1 primeiro: sem destino corrigido, nenhum resultado é lido. Depois R2. Se o destino mostra outra turma, AJUSTAR o destino ou pedir PAUSA. |
 | 706 Ultrassonografia, II (-72) | destino (turma II ou III de 22/05/2027, que não consta na visão); gasto da semana; ticket baixo (R$ 14.960,00) com matrícula de R$ 350,00 | R2. Se a campanha serve a 68629 (turma III, 22/05/2027), tratar como campanha de turma futura: ajustar destino e nome e ler pela R4. Se serve à II, pedir PAUSA sem confirmação de entrada. |
-| 586 Anestesiologia Direto ao ponto, EAD, I (-65) | praça (EAD não tem limite geográfico; conferir se o público segue só SP); destino; ticket de R$ 14.130,00 em 18 parcelas | R2. EAD com entrada tardia depende de regra de turma [CONFIRMAR]. Sem confirmação, PAUSA por pedido. |
-| 554 Dor e Cuidados Paliativos, III (-65) | gasto separado entre estático e vídeo; se o vídeo gera mais lead por real gasto; destino | R2. Com entrada liberada, MANTER pela R4; sem ela, PAUSA por pedido. O vídeo e o estático rodam juntos: uma boa base para comparar formato dentro da mesma turma (C6). |
-| 68612 Nefrologia e Urologia, VIII (-2) | gasto da semana; matrículas feitas antes e depois do início (24/10); única campanha ativa iniciada com vídeo e 5 ângulos; prova 68653 sem turma futura | É a turma que acabou de começar: a entrada tardia nos primeiros dias é a mais provável [SUPOSIÇÃO]; ainda assim, R2 vale. Sem número e sem resposta da Ufape, não decidir. Se liberada, MANTER pela R4. |
+| 586 Anestesiologia Direto ao ponto, EAD, I (-65) | praça (EAD não tem limite geográfico; conferir o público); destino; ticket de R$ 14.130,00 em 18 parcelas | R2. EAD com entrada tardia depende de regra de turma [CONFIRMAR]. Sem confirmação, PAUSA por pedido. |
+| 554 Dor e Cuidados Paliativos, III (-65) | gasto separado entre estático e vídeo; se o vídeo gera mais lead por real gasto; destino | R2. Com entrada liberada, MANTER pela R4; sem ela, PAUSA por pedido. Estático e vídeo rodam juntos: boa base para comparar formato dentro da mesma turma (C6). |
+| 68612 Nefrologia e Urologia, VIII (-2) | gasto da semana; matrículas feitas antes e depois do início (24/10); única ativa iniciada com vídeo e 5 ângulos; prova 68653 sem turma futura | Turma que acabou de começar: a entrada nos primeiros dias é a mais provável [SUPOSIÇÃO]; ainda assim, R2 vale. Sem número e sem resposta da Ufape, não decidir. Se liberada, MANTER pela R4. |
 
 ### 2.4 Ativas em turma ainda não iniciada (8)
 
@@ -229,12 +227,12 @@ Critério geral para as seis: R2 primeiro. Sem confirmação da política de ent
 |---|---|---|
 | 707 Oftalmologia, VII (4 dias, R$ 47.700,00) | matrículas pagas até aqui contra o ritmo; gasto da semana; data de corte da 1ª mensalidade (que pode já ter passado); a prova 68656 de Oftalmologia está fora do ar, então não há prova de bolsa abastecendo esta turma | Reta final com o pacote mais pobre (só estático, sem 5 ângulos). Em 4 dias não se produz ângulo novo. R4 para manter até a data de corte; AJUSTAR só orçamento e remarketing; PAUSA por pedido ao fim das inscrições [CONFIRMAR a data]. Relatório final no fim das inscrições (plano do cmo). |
 | 68604 Diagnóstico por Imagem, VI (5 dias) | destino é 68604 e não 68611 (mesmo nome, sem data); matrículas contra o ritmo; prova 68647 de Imagem em 27/11, depois do início | Mesma lógica de 707: R4 até a data de corte; PAUSA por pedido ao fim das inscrições [CONFIRMAR]. Vídeo ausente, mas sem tempo para produzir: não é razão para ajuste. |
-| 68606 Gastroenterologia, IX (12 dias) | matrículas contra o ritmo; frequência (campanha longa, 5 ângulos e vídeo rodando juntos); prova 68650 em 27/11, depois do início; grupo 721 de Gastroenterologia (contínuo) | R4. É a que tem o pacote mais completo entre as de reta final: bom ponto de comparação de ângulo e formato (C6). Frequência alta com CTR caindo: AJUSTAR criativo. PAUSA por pedido no fim das inscrições. |
-| 698 Ecocardiografia, III (33 dias, R$ 26.970,00 em 18x) | URL e data na página (site mostra 2027; pedido A6); gasto desde que a data errada pode estar no ar; leads com data errada no relato do WhatsApp; ritmo | R1 antes de tudo: com a data errada na página, o resultado não vale como evidência. Corrigida a página, R4. Por causa do risco de promessa errada (CDC), se a página não for corrigida a tempo, pedir PAUSA do anúncio. |
-| 68608 Hematologia, VIII (33 dias) | ritmo; ângulos que mais geram lead; prova 68651 no dia anterior ao início (28/11) | R4. A prova (27/11) fecha um dia antes do início, e a matrícula pós-prova tem 10 dias úteis: a prova não alcança o início desta turma [CONFIRMAR o destino]. Não contar bolsa nesta turma até confirmar. |
-| 68610 Dermatologia, V (33 dias) | ritmo; falta vídeo (analista recomenda produzir vídeo onde ainda há 33 dias ou mais); prova 68646 no dia anterior ao início | R4. Se o CTR do estático cair com frequência alta, a alavanca é o vídeo, que ainda tem tempo de ser produzido (AJUSTAR). Mesma ressalva da prova de 68608. |
-| 289 Cardiologia, II, Goiânia (145 dias) | praça GO no público; destino (links das provas 68641 e 68642 estão invertidos entre SP e GO); gasto contra a longa janela; sobreposição com 698, 573 e 68665 (todas de cardio, A2) | Única ativa da onda 2. Com 145 dias, o risco é gastar cedo demais: comparar ritmo de gasto com o ritmo de matrícula. R4 depois de volume mínimo (R3). Se o gasto acumulado crescer sem lead qualificado, AJUSTAR orçamento. |
-| 662 Ortopedia, IV (180 dias, R$ 37.500,00 [CONFIRMAR]) | URL de destino (link trocado, P3); turma divergente entre planilha e site (P5); frequência e saturação em 6 meses de janela | R1 primeiro. Enquanto o destino for incerto, nenhuma conclusão. Com 180 dias, a ativa mais distante: se o destino for correto, tem de justificar por que roda enquanto 657, 341 e 68615 estão pausadas (decisão de calendário da Ufape [CONFIRMAR]). |
+| 68606 Gastroenterologia, IX (12 dias) | matrículas contra o ritmo; frequência (campanha longa, 5 ângulos e vídeo rodando juntos); prova 68650 em 27/11, depois do início; grupo 721 de Gastroenterologia (contínuo) | R4. Pacote mais completo entre as de reta final: bom ponto de comparação de ângulo e formato (C6). Frequência alta com CTR caindo: AJUSTAR criativo. PAUSA por pedido no fim das inscrições. |
+| 698 Ecocardiografia, III (33 dias, R$ 26.970,00 em 18x) | URL e data na página (site mostra 2027; pedido A6); gasto enquanto a data errada pode estar no ar; mensagens do WhatsApp de vendas que citam a data; ritmo | R1 antes de tudo: com a data errada na página, o resultado não vale como evidência. Corrigida a página, R4. Por causa do risco de promessa errada (CDC), se a página não for corrigida a tempo, pedir PAUSA do anúncio. |
+| 68608 Hematologia, VIII (33 dias) | ritmo; ângulos que mais geram lead; prova 68651 no dia anterior ao início (28/11) | R4. A prova (27/11) é um dia antes do início, e a matrícula pós-prova tem 10 dias úteis: a prova não alcança o início desta turma [CONFIRMAR o destino]. Não contar bolsa nesta turma até confirmar. |
+| 68610 Dermatologia, V (33 dias) | ritmo; falta vídeo (o analista recomenda produzir vídeo onde ainda há 33 dias ou mais); prova 68646 no dia anterior ao início | R4. Se o CTR do estático cair com frequência alta, a alavanca é o vídeo, que ainda tem tempo de ser produzido (AJUSTAR). Mesma ressalva da prova de 68608. |
+| 289 Cardiologia, II, Goiânia (145 dias) | praça GO no público; destino (links das provas 68641 e 68642 estão invertidos entre SP e GO); gasto contra a longa janela; sobreposição com 698, 573 e 68665 (todas de cardio, A2) | Única ativa da onda 2. Com 145 dias, o risco é gastar cedo demais: comparar ritmo de gasto com ritmo de matrícula. R4 depois do volume mínimo (R3). Se o gasto acumulado crescer sem lead qualificado, AJUSTAR orçamento. |
+| 662 Ortopedia, IV (180 dias, R$ 37.500,00 [CONFIRMAR]) | URL de destino (link trocado, P3); turma divergente entre planilha e site (P5); frequência e saturação em 6 meses de janela | R1 primeiro. Enquanto o destino for incerto, nenhuma conclusão. É a ativa mais distante: se o destino estiver correto, a Ufape precisa dizer por que ela roda enquanto 657, 341 e 68615 estão pausadas (decisão de calendário [CONFIRMAR]). |
 
 ### 2.5 Pausadas
 
@@ -246,33 +244,33 @@ Critério para todas: manter pausada. Reativar só pela R7, e a turma iniciada s
 |---|---|---|
 | 653 Endoscopia, III (-72) | confirmar que não há anúncio ou conjunto ativo dentro da campanha; a prova 68649 de Endoscopia não tem turma futura | Manter pausada. Se a Ufape abrir nova turma, nova campanha com código novo. |
 | 665 Clínica Cirúrgica, VIII (-37) | idem; prova 68643 SP sem turma futura em SP | Manter pausada. |
-| 666 Terapia Intensiva, XI (-37, R$ 43.800,00) | idem; pacote com 5 ângulos, só estático; prova 68660 pode apontar para 68623 (GO, 22/05/2027, sem campanha) | Manter pausada; os criativos com 5 ângulos são candidatos para a campanha de 68623, se a Ufape confirmar a ligação. |
+| 666 Terapia Intensiva, XI (-37, R$ 43.800,00) | idem; pacote com 5 ângulos, só estático; a prova 68660 pode apontar para 68623 (GO, 22/05/2027, sem campanha) | Manter pausada; os criativos com 5 ângulos são candidatos para a campanha de 68623, se a Ufape confirmar a ligação. |
 | 68605 Cardiologia, XI (-9) | idem; estático e vídeo, com 5 ângulos | Manter pausada. Candidata a fornecer criativo e leitura de formato para 289. |
 | 659 Cirurgia Cardiorrespiratória, II (-9, R$ 44.680,00) | idem; estático e vídeo, com 5 ângulos | Manter pausada. |
 | 68607 Anestesiologia, X (-2) | idem; só vídeo, sem 5 ângulos; turma começou há 2 dias | Manter pausada pela R2. Se a Ufape liberar entrada nos primeiros dias, pedido de reativação pela R7. |
 
 #### 2.5.2 Pausadas em turma futura (12)
 
-Critério para todas: R7. Antes de qualquer reativação, o gestor-de-midia precisa de (a) o motivo da pausa, (b) a meta de custo da turma, (c) a janela de campanha da linha. As colunas abaixo mostram o que é específico.
+Critério para todas: R7. Antes de qualquer reativação, o gestor-de-midia precisa de (a) o motivo da pausa, (b) a meta de custo da turma, (c) a janela de campanha da linha.
 
 | Campanha | Checar (além de C1) | Critério |
 |---|---|---|
-| 657 Anestesiologia Avançada, II (138 dias, R$ 48.400,00) | motivo da pausa (a Ufape informa); histórico de gasto e leads antes da pausa; A1 (Anestesiologia e dor, 14 itens) está com zero campanhas ativas | Maior ticket futuro, pausada, e a menor distância entre as pausadas (138 dias). Primeira da fila de reativação pela R7. Sem 5 ângulos e só estático: o pacote precisa de produção. |
+| 657 Anestesiologia Avançada, II (138 dias, R$ 48.400,00) | motivo da pausa (a Ufape informa); histórico de gasto e leads antes da pausa; A1 (Anestesiologia e dor, 14 itens) está com zero campanhas ativas | Maior ticket futuro e a mais próxima entre as pausadas (138 dias). Primeira da fila de reativação pela R7. Sem 5 ângulos e só estático: o pacote precisa de produção. |
 | 68615 Patologia Clínica, VII (145) | idem; 5 ângulos prontos, só estático; prova 68658 | Criativo pronto: reativar custa menos que produzir (hipótese do analista). R7. |
 | 341 Medicina Interna Equina, I (145, R$ 43.500,00) | promoção de 20% com texto cortado no catálogo (P16): regra e validade [CONFIRMAR] antes de qualquer anúncio; turma I | Não reativar com promoção sem regra. R7, depois da regra. Sem prova social de turmas anteriores (turma I): a mensagem não pode inventar. |
 | 333 Citopatologia, I (152) | idem; turma I; checar se algum anúncio antigo ainda aponta para 679 | R7. |
-| 679 [CONFIRMAR] Infectologia, IV (159) | qual curso a campanha realmente promove (linha da visão chama "Citopatologia 03/04") | R1: não reativar até a Ufape confirmar o curso e o link. |
+| 679 [CONFIRMAR] Infectologia, IV (159) | qual curso a campanha realmente promove (a linha da visão chama "Citopatologia 03/04") | R1: não reativar até a Ufape confirmar o curso e o link. |
 | 68635 Clínica Médica e Emergência, V (166) | idem; prova 68645 | R7. |
 | 366 Fisioterapia, Fisiatria e Reabilitação, I (166) | data divergente entre planilha e site (P4); estático e vídeo, com 5 ângulos; turma I | Pacote completo pronto. R7 depois de resolver a data. |
 | 68617 Endocrinologia, V (173, R$ 36.000,00) | turma divergente entre planilha e site (P5); 5 ângulos prontos | R7, sem número de turma nas peças. |
-| 578 Videocirurgia, IV (208) | idem; mais de 200 dias: janela de campanha | Ainda longe. Manter pausada até a janela [CONFIRMAR]. |
+| 578 Videocirurgia, IV (208) | idem; mais de 200 dias | Ainda longe. Manter pausada até a janela [CONFIRMAR]. |
 | 382 Obstetrícia, I (208) | turma I | Manter pausada até a janela. |
-| 352 Ventilação Mecânica, I (210, R$ 47.880,00) | data divergente (P4); turma I; ticket quase igual ao da 657 | Pelo ticket, está entre as prioridades da meta de custo; pelo calendário, a mais distante. Manter pausada até a janela. |
+| 352 Ventilação Mecânica, I (210, R$ 47.880,00) | data divergente (P4); turma I; ticket quase igual ao da 657 | Pelo ticket, está entre as prioridades da meta de custo; pelo calendário, é a mais distante. Manter pausada até a janela. |
 | 60 Medicina de Silvestres, I (214) | turma I | Manter pausada até a janela. |
 
 ### 2.6 Sem campanha (informativo)
 
-As 10 turmas sem campanha na visão não geram checklist de gerenciador. Duas têm início em até 180 dias (68628, 68632) e três são as turmas das provas de Oncologia, Neurologia e Terapia Intensiva (68628, 68616, 68623). Ter campanha ou não é decisão do gestor-de-midia na divisão de verba (1.11). O que esta análise faz é conferir a venda: se uma turma sem campanha tiver matrícula e lead por orgânico ou WhatsApp, o relatório semanal a inclui com campos de mídia "sem campanha".
+As 10 turmas sem campanha na visão não geram checklist de gerenciador. Ter campanha ou não é decisão do gestor-de-midia na divisão de verba (1.11). Entre elas, 68628, 68632 e 677/564 (iniciadas, com status "verificar") merecem leitura de venda: se uma turma sem campanha tiver lead e matrícula por orgânico ou WhatsApp, o relatório semanal a inclui com os campos de mídia marcados "sem campanha".
 
 ---
 
@@ -286,14 +284,14 @@ As 10 turmas sem campanha na visão não geram checklist de gerenciador. Duas t�
 | 02/11 (segunda) | 1º relatório semanal (semana de 26/10 a 01/11) | 707 e 68604 já iniciaram (30 e 31/10): pedido de pausa e relatório final |
 | 03/11 | checagem das provas de bolsa | peças até 03/11 |
 | 09/11 | 2º relatório semanal | 68606 iniciou em 07/11: relatório final |
-| 16/11, 23/11 | relatórios semanais | 698, 68608, 68610 iniciam em 28/11 |
-| 30/11 | relatório semanal e relatórios finais de 698, 68608, 68610 | prova de 27/11 já ocorreu |
-| 29/11, 30/11, 07/12 | leitura final tardia de 707, 68604, 68606 (30 dias depois do início) | janela de maturação [SUPOSIÇÃO] |
+| 16/11, 23/11 | relatórios semanais | 698, 68608 e 68610 iniciam em 28/11 |
+| 30/11 | relatório semanal e relatórios finais de 698, 68608 e 68610 | a prova de 27/11 já ocorreu |
+| 29/11, 30/11, 07/12 | leitura final tardia de 707, 68604 e 68606 (30 dias depois do início) | janela de maturação [SUPOSIÇÃO] |
 
 ### 3.2 Modelo de relatório de campanha por turma (semanal)
 
 - **Periodicidade:** toda segunda-feira, cobrindo a semana anterior de segunda a domingo (primeira edição: 02/11/2026). Ciclo extra quando mudar preço, data, vagas, local ou formato (plano do cmo, seção 10).
-- **Responsável:** gestor-de-midia preenche mídia; analista-de-dados concilia com o CRM; analise-de-campanha lê e escreve o parecer. O cmo lê só números somados por turma.
+- **Responsável:** o gestor-de-midia preenche a mídia; o analista-de-dados concilia com o CRM; a analise-de-campanha lê e escreve o parecer. O cmo lê só números somados por turma.
 - **Regra de campo vazio:** campo sem dado fica "[CONFIRMAR]" ou "sem dado", nunca zero. Zero só quando a fonte confirma zero.
 - **Sem dado pessoal:** só contagens e somas.
 
@@ -318,7 +316,7 @@ Cabeçalho do relatório (formato fixo): "Turma [código], semana [data de iníc
 
 ### 3.3 Modelo de revisão pós-campanha (turma fechada)
 
-- **Gatilho:** fim das inscrições da turma [CONFIRMAR a data] gera a versão provisória. A versão final sai 30 dias depois do início da turma [SUPOSIÇÃO], para incluir matrícula tardia e cancelamento.
+- **Gatilho:** o fim das inscrições da turma [CONFIRMAR a data] gera a versão provisória. A versão final sai 30 dias depois do início da turma [SUPOSIÇÃO], para incluir matrícula tardia e cancelamento.
 - **Regra de julgamento:** a revisão compara com a meta que estava no plano antes da campanha (versão e data da meta no cabeçalho). Meta ajustada depois não vale. Se a turma não tinha meta registrada, a revisão é só descritiva e declara isso: não classifica como sucesso nem fracasso.
 - **Regra de leads e matrículas:** muitos leads com poucas matrículas não é sucesso, mesmo se o custo por lead estiver abaixo da meta.
 
@@ -328,7 +326,7 @@ Estrutura do arquivo (um por turma ou por grupo de turmas da mesma área e onda)
 2. Veredito em 3 linhas: a turma chegou ao mínimo? Quanto custou cada matrícula contra a meta? O que decidir para a próxima.
 3. Metas contra realizado (tabela): leads, qualificados, inscritos, matriculados, custo por lead, custo por matrícula, verba, turma confirmada (sim ou não), com a diferença e a leitura de cada linha.
 4. Funil e janela: lead para inscrito para matriculado, com a defasagem observada (dias do lead à matrícula) e o que ainda pode mudar.
-5. Quebra por canal (Meta, Google, orgânico, WhatsApp direto, prova de bolsa), por peça (criativo, ângulo, formato, página, mensagem), por público e por praça. Cada linha com a evidência e a confiança (alta, média, baixa por volume).
+5. Quebra por canal (Meta, Google, orgânico, WhatsApp direto, prova de bolsa), por peça (criativo, ângulo, formato, página, mensagem), por público e por praça. Cada linha com a evidência e a confiança (alta, média ou baixa, por volume).
 6. O que funcionou e o que não funcionou, cada item com uma evidência numérica e a fonte. Item sem evidência vai para "hipótese".
 7. Efeitos externos: prova de bolsa, mudança de preço ou data, correção de página, promoção, campanha de outra turma da mesma área no mesmo público.
 8. Manter, mudar, parar para a próxima turma da área (lista com dono e prazo).
@@ -337,34 +335,34 @@ Estrutura do arquivo (um por turma ou por grupo de turmas da mesma área e onda)
 11. Pedidos de aprovação humana.
 12. Fatos (com fonte), suposições ([SUPOSIÇÃO]) e dados que faltam ([CONFIRMAR]).
 
-Primeiras revisões previstas: 707 e 68604 (provisória no fim das inscrições; final em 29/11 e 30/11), 68606 (final em 07/12). As 6 turmas já iniciadas com campanha ativa só podem ter revisão descritiva, porque não há meta registrada.
+Primeiras revisões previstas: 707 e 68604 (provisória no fim das inscrições; final em 29/11 e 30/11) e 68606 (final em 07/12). As 6 turmas já iniciadas com campanha ativa só podem ter revisão descritiva, porque não há meta registrada.
 
 ### 3.4 Leitura da campanha das provas de bolsa (ramo à parte)
 
-Funil: inscritos na prova (loja, R$ 100,00) para presentes (CRM) para bolsas concedidas por faixa (CRM) para matrículas por prova (CRM). A conversão de prova para matrícula é a meta de apoio do plano [CONFIRMAR].
+Funil: inscritos na prova (loja, R$ 100,00), presentes (CRM), bolsas concedidas por faixa (CRM), matrículas por prova (CRM). A conversão de prova para matrícula é a meta de apoio do plano [CONFIRMAR].
 
 - Unidade de análise: a prova (especialidade e praça), não a campanha única. O custo por inscrito na prova é um indicador antecedente; o custo por matrícula via prova é o que julga.
 - Teto lógico (sem meta): o custo por inscrito na prova nunca pode ficar acima da receita da inscrição (R$ 100,00 brutos), e o custo por matrícula via prova tem de ficar abaixo da meta da turma de destino [CONFIRMAR].
 - Janela: a matrícula só se fecha depois do resultado, dos 2 dias úteis de recurso e dos 10 dias úteis de matrícula. A data do resultado é [CONFIRMAR]. A revisão pós-campanha da prova espera esse prazo; antes disso, só a leitura de inscritos e presentes.
-- Desempate por análise de currículo, e bolsa intransferível e não acumulativa: conferir em cada prova que as bolsas concedidas respeitam a regra publicada, sem ler isso como desempenho de mídia.
+- Bolsa intransferível e não acumulativa, com desempate por análise de currículo: conferir em cada prova que as bolsas concedidas respeitam a regra publicada, sem ler isso como desempenho de mídia.
 
 ---
 
 ## 4. Lições que a estrutura atual já ensina (hipóteses)
 
-Todas marcadas como hipótese: nenhuma tem evidência de resultado. Cada uma diz como seria testada quando houver número.
+Todas são hipóteses: nenhuma tem evidência de resultado. Cada uma diz como seria testada quando houver número.
 
 | # | Lição (hipótese) | Evidência de estrutura | Como testar |
 |---|---|---|---|
 | H1 | O calendário comanda a mídia, e o ticket ou a prova de bolsa não. As 6 turmas em até 60 dias estão ativas, e 3 das 4 maiores turmas futuras (657, 352, 341) estão pausadas. | visão e analista (medianas de ticket entre R$ 33.000,00 e R$ 35.400,00 nos três grupos) | comparar custo por matrícula das turmas de ticket alto com as de ticket baixo quando houver matrículas |
-| H2 | A reta final roda o pacote mais pobre. 707 (4 dias, R$ 47.700,00) tem só estático e sem 5 ângulos; 3 pausadas com 5 ângulos prontos (68615, 366, 68617) estão paradas a mais de 145 dias. | tabela 1.3 e 1.4 | a ordem de produção de criativo deveria seguir os dias restantes; conferir na próxima turma de ticket alto |
+| H2 | A reta final roda o pacote mais pobre. 707 (4 dias, R$ 47.700,00) tem só estático e sem 5 ângulos, enquanto 3 pausadas com 5 ângulos prontos (68615, 366, 68617) são de turmas a 145 dias ou mais do início. | tabelas 1.3 e 1.4 | a ordem de produção de criativo deveria seguir os dias restantes; conferir na próxima turma de ticket alto |
 | H3 | Não dá para aprender qual ângulo funciona com a rotulagem de hoje. A planilha diz "com" ou "sem" 5 ângulos, não diz quais, e 21 das 32 campanhas têm só estático. | visão | rotular cada anúncio com o ângulo (1 a 5) e o formato, e testar um fator por vez em 2 turmas (aprendizado, na árvore do analista) |
 | H4 | Sem o código do catálogo no nome da campanha, o lead não se liga à turma, e o relatório semanal não fecha. | pedido de dados do analista (4.1 a 4.4) | medir % de leads com código e UTM como primeiro indicador do relatório |
-| H5 | O funil mais prioritário (22 provas) é o menos visível, e o que mais abastece turmas hoje pausadas ou sem campanha pode ser a prova. | tabela 1.5 | cruzar matrículas por prova com o status de mídia da turma de destino |
-| H6 | A prova de 27/11 não alcança as turmas que começam antes ou um dia depois dela (Imagem, Gastroenterologia, Dermatologia, Hematologia). Pode haver bolsa prometida para turma fora de alcance. | datas do catálogo e regra dos 10 dias úteis | confirmar destino de cada prova; revisar o texto da peça |
+| H5 | O funil mais prioritário (22 provas) é o menos visível, e a prova pode ser o que mais abastece turmas hoje pausadas ou sem campanha. | tabela 1.5 | cruzar matrículas por prova com o status de mídia da turma de destino |
+| H6 | A prova de 27/11 não alcança as turmas que começam antes ou um dia depois dela (Imagem, Gastroenterologia, Dermatologia, Hematologia). Pode haver bolsa prometida para turma fora de alcance. | datas do catálogo e regra dos 10 dias úteis | confirmar o destino de cada prova; revisar o texto da peça |
 | H7 | Campanhas de áreas vizinhas competem pelo mesmo público (cardio: 289, 698, 573, 68665 e provas 68641 e 68642; A2 concentra 3 das 13 ativas do recorte). | analista, tabela por área | ler a sobreposição de públicos e a frequência no gerenciador |
 | H8 | Turma "I" (341, 333, 366, 382, 352, 60) não tem número de edições anteriores como prova social e pode ter custo por lead diferente. | plano, lista de turmas I | comparar leads e matrículas de turmas I e de turmas já tradicionais, na mesma área |
-| H9 | Data divergente entre site e planilha gera risco de decisão errada: 698 mostra 2027 no site, e a 68662 e a 662 têm link trocado. | auditoria e plano (P3, P4) | contar quantas campanhas ativas têm página com divergência, a cada relatório |
+| H9 | Data divergente entre site e planilha gera risco de decisão errada: 698 mostra 2027 no site, e 68662 e 662 têm link trocado. | auditoria e plano (P3, P4) | contar quantas campanhas ativas têm página com divergência, a cada relatório |
 | H10 | A leitura por custo por lead engana na Pós, porque a matrícula chega depois do lead e a data de corte pode estar 30 dias antes do início. | contexto da linha | julgar por custo por matrícula e por ritmo necessário; ler lead qualificado como antecedente |
 | H11 | Seis campanhas ativas em turma iniciada indicam que não há regra de desligamento por data: a pausa depende de decisão manual. | visão, A4 | definir no relatório a "data de fim das inscrições" (pedido de dados ao analista) |
 
@@ -385,7 +383,7 @@ Nenhuma campanha é ligada, pausada ou alterada por este arquivo.
 
 ## Próximo passo
 
-O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 3.2 e o calendário da seção 3.1 para montar a narrativa semanal e o roteiro da apresentação ao cliente. Os arquivos das linhas livres e eventos (mesmo nome, linhas "livres" e "eventos") seguem a mesma estrutura.
+O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 3.2 e o calendário da seção 3.1 para montar a narrativa semanal e o roteiro da apresentação ao cliente. Os arquivos das outras linhas seguem a mesma estrutura: analise-de-campanha-livres-2026-10-26.md e analise-de-campanha-eventos-2026-10-26.md.
 
 ---
 
@@ -394,7 +392,7 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 - A visão de campanhas tem 42 linhas de Pós: 14 ativas, 18 pausadas e 10 sem campanha (visão e analista, 1.10).
 - As 6 turmas de Pós em até 60 dias do início estão com campanha ativa (visão).
 - 6 campanhas ativas estão em turma já iniciada: 650, 68662, 706, 586, 554 e 68612 (visão; plano do cmo, seção 2.1).
-- 30 das 41 campanhas com status (Pós, Livres e Eventos) são só estáticas, e 34 não têm os 5 ângulos ou são só estáticas (visão e analista). Na Pós: 21 de 32 só estáticas, 19 de 32 sem 5 ângulos, 25 de 32 sem 5 ângulos ou só estáticas, 7 de 32 com pacote completo (contagem deste arquivo a partir da visão).
+- 30 das 41 campanhas com status (Pós, Livres e Eventos) são só estáticas, e 34 não têm os 5 ângulos ou são só estáticas (visão e analista). Na Pós: 21 de 32 só estáticas, 19 de 32 sem 5 ângulos, 25 de 32 sem 5 ângulos ou só estáticas e 7 de 32 com pacote completo (contagem deste arquivo a partir da visão).
 - As 22 provas de bolsa de 27/11/2026 não constam na visão (plano do cmo, seção 3). Regras e percentuais das bolsas vêm do contexto da linha, lidas em 26/10/2026.
 - Turma mínima de 20 alunos nas páginas de curso e de 15 na página da prova (contexto da linha).
 - Preços e turmas citados são os do catálogo de 26/10/2026.
@@ -406,7 +404,7 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 
 - [SUPOSIÇÃO] Janela de atribuição: lead por semana de entrada (coorte) e matrícula por semana de pagamento, com leitura final 30 dias depois do início da turma.
 - [SUPOSIÇÃO] N = 2 semanas seguidas fora da meta, depois de um ajuste, como gatilho de pedido de pausa (R6). A validar com o gestor-de-midia.
-- [SUPOSIÇÃO] A entrada tardia nos primeiros dias de uma turma (68612) é mais provável do que nas turmas iniciadas há mais de 60 dias.
+- [SUPOSIÇÃO] A entrada nos primeiros dias de uma turma (68612) é mais provável do que nas turmas iniciadas há mais de 60 dias.
 - [SUPOSIÇÃO] A prova de bolsa de uma especialidade abastece a turma da mesma especialidade (o destino real é [CONFIRMAR]).
 - [SUPOSIÇÃO] Campanhas de áreas vizinhas disputam o mesmo público (H7).
 - [SUPOSIÇÃO] Turmas I têm comportamento de mídia diferente das tradicionais (H8).
@@ -422,7 +420,7 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 - [CONFIRMAR] Turma de destino de cada uma das 22 provas e data do resultado das provas; turma mínima da prova (15 ou 20).
 - [CONFIRMAR] Status de mídia das 22 provas e da campanha única, quando existir.
 - [CONFIRMAR] Quais ângulos existem em cada anúncio (nome de cada um) e a data de entrada de cada lote de criativo.
-- [CONFIRMAR] Correção das páginas de 698, 68662, 662 e 679, e a ligação de V48 com 679.
+- [CONFIRMAR] Correção das páginas de 698, 68662, 662 e 679, e a ligação da linha "Citopatologia 03/04" com 679.
 - [CONFIRMAR] Inventário do kit de 707, 68604, 68606, 698, 68610 e 68608 (prazo do plano: 28/10).
 - [CONFIRMAR] Ferramentas de CRM, GA4 e atendimento (ufape-geral.md, seção Ferramentas).
 - [CONFIRMAR] Texto de certificação aprovado pela regulação (P1).
