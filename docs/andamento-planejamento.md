@@ -52,7 +52,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.24 | distribuicao | pos, livres | falta |
 | 1.25 | crescimento-de-audiencia | geral | entregue (sem qa) |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
-| 1.27 | jornada-do-aluno | geral | falta |
+| 1.27 | jornada-do-aluno | geral | entregue (sem qa) |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
 | 1.29 | newsletter | geral | versão 2 corrigida (NG1 a NG7), aguarda reconferência do qa |
 | 1.30 | analise-cro | pos, livres | entregue |
@@ -85,6 +85,8 @@ Segue as dependências da seção 4 do plano do cmo.
 - Newsletter: edições 1 e 2 movidas para 18/11 e 03/12 por causa do teto de e-mails (pedido N2). Na semana de 02 a 06/11 a régua das provas e o e-mail 1 do workshop somam 3 e-mails para quem está nas duas bases: falta regra de supressão (copy-de-mensagens e arquiteto-de-fluxos).
 - Análise de mídia da Pós: datas de 68662 e 662 parecem trocadas entre planilha e site; linha "Pneumologia" da visão parece ser da 670 (encerrada), não da 68636. Conferir com a Ufape.
 - Newsletter v2: com a regra da 1.26, as semanas de 02 a 08/11 e 09 a 15/11 já passam do teto de e-mails só com a régua das provas e a do Workshop, antes da newsletter. O cmo precisa decidir a supressão.
+- Jornada do aluno (J1 a J16): 3 listas diferentes de pares Livres e Pós (o cmo fecha uma só), duas propostas de crédito para a mesma ponte (PR5 e PL2), régua das provas convida ex-aluno sem a janela de silêncio, 3 valores de utm_medium, M9 do workshop 4 dias depois do evento contra 7 de silêncio de Livres.
+- Regras das provas contraditórias nas fichas (prazo de matrícula 10 dias úteis, 10 dias ou 7 dias em 12 provas; canal do resultado; turma mínima 15 ou 20; provas de Goiânia com endereço de São Paulo). Pergunta para a Ufape.
 - A decisão 8 cobre os palestrantes convidados dos gravados 700 e 202? Pergunta para a Ufape.
 
 ## Próximos passos
@@ -110,3 +112,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | estrategia-social-pos versão 2: teto de mensagens igual ao da 1.26, post de 68608 ou 68610 sem chamada de compra direta |
 | 26/10/2026 | newsletter-geral versão 2 (NG1 a NG7). 1.22 podcast e x entregues: fora nesta rodada; pedido opcional XG2 de reservar o nome no X |
 | 26/10/2026 | 1.25 entregue: consentimento em todo ponto de contato, newsletter como destino do orgânico, coautoria com docentes; propostas CA1 a CA6 ao cmo |
+| 26/10/2026 | 1.27 entregue: jornada em 8 etapas, passos da prova à matrícula (B1 a B8) com 4 lacunas, pedidos JR1 a JR7 |
