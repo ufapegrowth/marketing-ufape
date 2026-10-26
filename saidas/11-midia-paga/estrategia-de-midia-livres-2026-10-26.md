@@ -4,6 +4,7 @@
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.13 da camada 1 do plano do cmo (seção 4), encomenda da seção 7 de saidas/11-midia-paga/gestor-de-midia-livres-2026-10-26.md
+- **Versão:** versão 2, corrigida após qa-de-marketing-geral-2026-10-26-loteC (EML-Q1 a EML-Q4) e com as decisões 10 a 13 da Ufape de 26/10/2026 (docs/execucao-2026-10-26.md).
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda ação em gerenciador de anúncios é feita por humano, depois da aprovação.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/.claude/agents/estrategia-de-midia.md
@@ -27,6 +28,7 @@
   - Referência de formato e convenções, sem cópia de conteúdo: /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (padrão de nomes e UTM das seções 4.2 e 4.3 mantido)
   - /home/user/marketing-ufape/saidas/11-midia-paga/analise-de-midia-livres-2026-10-26.md (1.12, rodou em paralelo; lida completa no fim desta etapa, seções 0 a 12, e incorporada na seção 3.11 e nos pontos marcados "1.12")
 - **Limite da 1.12:** ela é estrutural, sem exportação do gerenciador (LA1). O que depende de número continua [CONFIRMAR]: estrutura e públicos atuais das 3 ativas, nome da campanha pausada de 68618, criativos existentes que passam na conformidade.
+- **Decisões da Ufape aplicadas nesta versão (26/10/2026):** (10) autorização de imagem e citação para todos, docentes, palestrantes e convidados; (12) em divergência entre planilha e site, valem as datas da planilha: 573 em 14/11, 68614 e endoscopia em 28/11, 68618 em 18/12/2026 (catálogo, fonte planilha e site); o cenário B da 573 (29/11) fica descartado e a data da 68618 deixa de ser condição de LP6; (13) a página 623 será corrigida e, até a correção no site, nenhuma campanha nova aponta para ela.
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web nesta etapa.
 - **Dados pessoais:** nenhum. Nenhum aluno, candidato, comprador ou lead é citado. Docentes não são nomeados neste arquivo; a autorização de imagem e de citação de todos está registrada desde 26/10/2026 (briefing, decisão 8) e vale para os criativos, com nome e titulação só como na ficha.
 - **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso que não está na tabela do catálogo. [SUPOSIÇÃO] é escolha de desenho deste agente ou herdada, sempre com a origem. [DADO NÃO FORNECIDO] é número de mídia que não existe nos arquivos. Regra prática é regra de método, não meta. Nenhum número de verba, custo por venda, CPC, tamanho de público, volume de busca, visitas, vendas ou vagas restantes existe hoje: tudo aparece como fórmula ou como percentual da verba nova de Livres (VNL).
@@ -50,7 +52,7 @@
 |---|---|---|---|---|
 | L1 Reforço dos presenciais de novembro | 573 (14/11 no catálogo, 29/11 na visão), 68614 (28/11 no catálogo, 18/12 na visão), página escolhida entre 623 e 68637 (28/11) | 03/11 até a véspera de cada um | 25% | Seções 2, 3.1, 4.4, 5.1 |
 | L2 Contínuos: remarketing | gravados e minicursos das faixas 1 a 3 (gestor, 2.4), menos 95 | 10/11/2026 a 24/01/2027 (R1 de 30/11) | 20% | Seções 3.2, 4.5, 5.2 |
-| L3 Datados de dezembro | 616 (05/12); 68618 (18/12, só com a data confirmada até 13/11) | 616: 10/11 a 04/12; 68618: 19/11 a 17/12 | 20% (10% e 10%) | Seções 2, 3.3, 4.6, 5.1 |
+| L3 Datados de dezembro | 616 (05/12); 68618 (18/12, data válida pela decisão 12) | 616: 10/11 a 04/12; 68618: 19/11 a 17/12 | 20% (10% e 10%) | Seções 2, 3.3, 4.6, 5.1 |
 | L4 Aquecimento de 68638 | 68638 POCUS (06/03/2027) | 11/01 a 24/01/2027 | 10% | Seções 3.4, 4.7, 5.1 |
 | L5 Contínuos: frio e busca | frio só da faixa 1; busca das faixas 1 e 2 | 07/12/2026 a 24/01/2027 | 10% | Seções 3.5, 4.7, 4.8, 5.2 |
 | L6 Teste condicionado de YouTube | contínuos | 11/01 a 24/01/2027, só com LP14 | 5% | Seções 3.6, 4.7 |
@@ -132,7 +134,7 @@ Cada um dos dois produtos recebe essa tabela inteira (8,3333% cada).
 |---|---|---|---|---|---|---|
 | Fase única (gestor 4.2: fases 1 e 2 se sobrepõem) | 03/11 a 13/11 (11) | 8,3333% | 5,0000% | 3,3333% | 0,4545% | 0,3030% |
 
-**573, cenário B (data 29/11, domingo)**
+**573, cenário B (data 29/11, domingo): descartado pela decisão 12 da Ufape (vale a data da planilha, 14/11). Mantido só como registro da conta.**
 
 | Fase | Datas (dias) | Parte de VNL | Meta | Google | Meta por dia | Google por dia |
 |---|---|---|---|---|---|---|
@@ -141,11 +143,11 @@ Cada um dos dois produtos recebe essa tabela inteira (8,3333% cada).
 | 3 Últimos 7 dias | 22/11 a 28/11 (7) | 1,2500% | 0,6250% | 0,6250% | 0,0893% | 0,0893% |
 
 Regras de execução:
-- **Mudança de fase em fim de semana ou feriado:** a fase 3 de 28/11 começa num sábado (21/11) logo depois do feriado de 20/11; a de 573 cenário B, num domingo (22/11). Se quem executa não trabalha nesses dias [CONFIRMAR], as diárias da fase 3 entram na quinta, 19/11, e o total da fase 3 se espalha por 9 dias em vez de 7 (Meta e Google por dia: 0,0694% cada no 68614 e na endoscopia) [SUPOSIÇÃO de execução, EML11]. O total de cada fase não muda.
+- **Mudança de fase em fim de semana ou feriado:** a fase 3 de 28/11 começa num sábado (21/11) logo depois do feriado de 20/11. Se quem executa não trabalha nesses dias [CONFIRMAR], as diárias da fase 3 entram na quinta, 19/11 [SUPOSIÇÃO de execução, EML11]. Conta escolhida (correção EML-Q3): **o total de cada fase é mantido**. A fase 2 encurta de 11 para 9 dias (10/11 a 18/11) e a fase 3 vai de 7 para 9 dias (19/11 a 27/11). Por produto (68614 e endoscopia): fase 2 com 2,0000% Meta e 1,3333% Google, ou 0,2222% e 0,1481% por dia, já a partir de 10/11; fase 3 com 0,6250% em cada canal, ou 0,0694% por dia. Se as diárias de 10/11 da tabela (0,1818% e 0,1212%) fossem mantidas, a fase 2 gastaria só 2,7273% de VNL e 0,6061% ficariam sem uso; por isso não é a conta escolhida. A tabela semanal (3.8) mostra o caso base, sem EML11.
 - **Pausas:** 573 em 13/11 (sexta) no cenário A; 68614 e endoscopia no fim de 27/11 (sexta); 573 cenário B na data ou no fim de 27/11 se o executor não trabalhar no sábado (a parte de 28/11 não é gasta e volta a L7). Gestor, LP5.
 - **Bloqueio:** presencial sem página coerente (data P6, página única P7, texto de pagamento da 573, frase de certificação ligada ao regulador na 68614) não recebe a parte nova: ela fica em L7 até a correção (gestor 4.2).
-- **573 depende de U4:** sem resposta até 03/11, a 573 sobe no cenário A com anúncios sem data (D12) e, se a Ufape confirmar 29/11 depois, as diárias passam para a tabela B na revisão seguinte (uma mudança).
-- **Endoscopia, página de destino (1.12, NL1):** a página do produto 623 mostra início em 01 e 02/08/2026 (turma passada); a 68637 mostra 28 e 29/11/2026 e "Turma IV". Nenhuma campanha nova de L1 aponta para a página da 623 enquanto ela mostrar a data de agosto. Se a Ufape não corrigir a 623 nem escolher a 68637 até o fim de 30/10 (LA2), a parte da endoscopia fica em L7.
+- **573:** data de 14/11 válida pela decisão 12; sobe no cenário A. A regra de anúncio sem data (D12) é do gestor; a mudança dela fica com o gestor-de-midia, não com este plano.
+- **Endoscopia, página de destino (1.12, NL1):** a página do produto 623 mostra início em 01 e 02/08/2026 (turma passada); a 68637 mostra 28 e 29/11/2026 e "Turma IV". Decisão 13 da Ufape: a página 623 será corrigida e, até a correção no site, nenhuma campanha nova aponta para ela. Até lá, as campanhas novas da endoscopia apontam para a 68637 (28/11) se D19 permitir, ou a parte da endoscopia fica em L7 [CONFIRMAR com o gestor].
 - **68614:** página e planilha concordam em 28/11 (NL2); a verba nova continua bloqueada pela frase de certificação ligada ao regulador na página até a correção (LA4).
 - **Venda fora da loja na 573 (NL4):** boleto parcelado pedido por e-mail à secretaria não carrega UTM. O custo por venda da 573 só é calculado somando loja e secretaria por código.
 
@@ -169,16 +171,16 @@ O par 68638 para 591 que o gestor previu em R1 não roda neste trimestre: R1 só
 | Lançamento | 10/11 a 22/11 (13) | 50% | 3,5000% | 1,5000% | 0,1615% | 0,1077% | 0,1154% |
 | Reta final | 23/11 a 04/12 (12) | 50% | 3,0000% | 2,0000% | 0,1500% | 0,1000% | 0,1667% |
 
-Divisão dentro da Meta: 60% frio e 40% remarketing [SUPOSIÇÃO deste agente, EML3; origem: 616 não tem campanha conhecida, então o público de visitantes ainda é pequeno e o frio precisa formar a base; o remarketing ganha peso na reta final pela própria regra do gestor, que sobe o Google de 30% para 40%]. Sem criativo novo depois de 28/11; pausa no fim de 04/12 (sexta), véspera de 05/12 (sábado).
+Divisão dentro da Meta: 60% frio e 40% remarketing [SUPOSIÇÃO deste agente, EML3; origem: 616 não tem campanha conhecida, então o público de visitantes ainda é pequeno e o frio precisa formar a base. A proporção 60/40 vale nas duas fases; o que muda na reta final é a divisão entre canais da regra do gestor, que sobe o Google de 30% para 40% (correção EML-Q2)]. Sem criativo novo depois de 28/11; pausa no fim de 04/12 (sexta), véspera de 05/12 (sábado).
 
-**68618 (10% de VNL), só se a Ufape confirmar 18/12/2026 até 13/11 (LP6)**
+**68618 (10% de VNL). Data de 18/12/2026 válida pela decisão 12; LP6 segue exigindo meta escrita, página sem pendência e kit aprovado**
 
 | Fase | Datas (dias) | Parte de 68618 | Meta | Google | Meta por dia | Google por dia |
 |---|---|---|---|---|---|---|
 | Reativação | 19/11 a 10/12 (22) | 70% | 4,9000% | 2,1000% | 0,2227% | 0,0955% |
 | Últimos 7 dias | 11/12 a 17/12 (7) | 30% | 1,5000% | 1,5000% | 0,2143% | 0,2143% |
 
-Pausa no fim de 17/12 (quinta), véspera de 18/12. Sem confirmação até 13/11, os 10% vão para L7 e a campanha segue pausada (gestor 4.4).
+Pausa no fim de 17/12 (quinta), véspera de 18/12. Sem as condições restantes de LP6 até 17/11, os 10% vão para L7 e a campanha segue pausada.
 
 ### 3.4 L4 68638 aquecimento (10% de VNL)
 
@@ -321,7 +323,7 @@ Conta de exemplo (68614, Meta): 3 semanas de vida = 03/11 a 23/11; gasto = 2,250
 - L5: frio da faixa 1 com orçamento na campanha (um conjunto); busca com orçamento na campanha, compartilhado entre os grupos.
 
 **Evento de otimização (EML12)**
-- Compra, se o teste de 31/10 (LP3, junto com o D8) mostrar o evento de compra disparando nas páginas de produto de Livres no pixel e no Google. Senão, início de checkout, com a venda lida na loja (gestor, seção 5). A troca de evento, se acontecer, é uma mudança única com aprovação, e o nome da campanha não muda (o registro fica no relatório).
+- Compra, se o teste do fim de 30/10 (LP3, junto com o D8) mostrar o evento de compra disparando nas páginas de produto de Livres no pixel e no Google. Senão, início de checkout, com a venda lida na loja (gestor, seção 5). A troca de evento, se acontecer, é uma mudança única com aprovação, e o nome da campanha não muda (o registro fica no relatório).
 - Catálogo de produtos dinâmico na Meta: fora neste trimestre [SUPOSIÇÃO deste agente, EML13; origem: exige feed de produtos com preço sincronizado, e um preço errado no anúncio falha na conformidade; a squad não tem feed nem quem o mantenha (U12 da 1.9)].
 
 ### 4.2 Nomenclatura (mesmo padrão da Pós, para aprovação, EML1)
@@ -336,7 +338,7 @@ Padrão da skill (linha_curso_plataforma_objetivo_publico_AAAAMM), com o código
 | Anúncio | <código>-<conceito>_<formato>_<gancho>_vN (regra do criativos-de-anuncio: e11, e916, car, vid916, rsa; ganchos numero, pergunta, cena, data, contrario, resultado) | 616-c1-roteiro_car_pergunta_v1 |
 | Anúncio responsivo de busca | rsa-<código>_<tema>_vN | rsa-68614_videotoscopia_v1 |
 
-Nomes curtos: 573-ecocardio, 68614-videotoscopia, 623-endoscopia ou 68637-endoscopia (conforme D19), 616-anestfelina, 68618-ventmec, 68638-pocus. Grupos de vários produtos: continuos-rmk (L2), continuos-f1 (frio da faixa 1), continuos-f12 (busca das faixas 1 e 2), continuos (YouTube). Objetivos: compra ou checkout (o evento escolhido em 31/10), visualizacao (YouTube). Públicos: rmk30d, rmk60d, amplo18-sp, amplo18-br, busca.
+Nomes curtos: 573-ecocardio, 68614-videotoscopia, 623-endoscopia ou 68637-endoscopia (conforme D19), 616-anestfelina, 68618-ventmec, 68638-pocus. Grupos de vários produtos: continuos-rmk (L2), continuos-f1 (frio da faixa 1), continuos-f12 (busca das faixas 1 e 2), continuos (YouTube). Objetivos: compra ou checkout (o evento escolhido no fim de 30/10), visualizacao (YouTube). Públicos: rmk30d, rmk60d, amplo18-sp, amplo18-br, busca.
 
 Exceção ao código no nome (EML1): nas campanhas de vários produtos (L2, L5 e L6), o código vai no nome do conjunto (R1) ou no nome do anúncio e no utm_content (R2, R3, L5, L6). É a mesma exceção que o plano da Pós pediu para o YouTube de março. Campanhas que já existem (573, 68614, 623 e a pausada de 68618) não são renomeadas; recebem o código no utm_campaign (LP3).
 
@@ -363,7 +365,7 @@ Campanhas que já existem: o utm_campaign recebe o código do catálogo no come�
 | endoscopia (623 ou 68637) | livres_<623 ou 68637>-endoscopia_meta_compra_rmk30d_202611 | compra | __rmk30d: visitantes das **duas** páginas (623 e 68637) em 30 dias, com o anúncio apontando só para a página escolhida (D19) | compradores das duas páginas | 2 conceitos entre os 3 criativos de 21/10 da 623, se passarem na conformidade [CONFIRMAR com a 1.12] | 03/11, só com D19 decidido | 27/11 |
 | endoscopia | livres_<623 ou 68637>-endoscopia_google_compra_busca_202611 | compra | grupo endoscopia: "curso de endoscopia digestiva veterinária", "curso de endoscopia veterinária São Paulo", "imersão endoscopia veterinária" [SUPOSIÇÃO de termos] | negativas na seção 4.8 | 2 responsivos | 03/11 | 27/11 |
 
-Quem cria: anuncios-meta e anuncios-google (1.14), com prazo de 31/10 para L1 (gestor, seção 7), só se LP1 e LP2 chegarem até 30/10. Sem LP1 e LP2, L1 não sobe e as ativas seguem como estão.
+Quem cria: anuncios-meta e anuncios-google (1.14), com prazo no fim de 30/10 para L1 (o gestor marcou 31/10, que é sábado), só se LP1 e LP2 chegarem até 30/10. Sem LP1 e LP2, L1 não sobe e as ativas seguem como estão.
 
 ### 4.5 L2 Contínuos: mapa da campanha de remarketing
 
@@ -374,7 +376,7 @@ Campanha única: **livres_continuos-rmk_meta_compra_rmk60d_202611**, orçamento 
 | __r1-573-411 | visitantes da página da 573 em 30 dias | compradores da 573 e do 411 | 1 conceito: 411 Curso de Ecocardiograma em Pequenos Animais (online, 12 h, R$ 420,00 à vista ou 6x de R$ 98,00; total no cartão R$ 588,00), texto "o gravado ensina a ler, o presencial treina a fazer" | nunca "versão barata" (1.9, R7); só depois da data da 573 |
 | __r1-endo-291 | visitantes das páginas 623 e 68637 em 30 dias | compradores da endoscopia e do 291 | 1 conceito: 291 Curso de imersão em Gastroendoscopia (online, 9 h, R$ 280,00 à vista ou 3x de R$ 103,33; total no cartão R$ 309,99) | idem; só depois de 28/11 |
 | __r2-gravados | visitantes, em 60 dias, das páginas dos 11 gravados das faixas 1 e 2 menos o 95: 131, 137, 488, 103, 105, 627, 655, 340, 157, 507, 411 | compradores de cada produto; visitantes da página do 95 não entram na fonte | 2 conceitos [SUPOSIÇÃO de desenho, a fechar com o criativos-de-anuncio]: (a) o produto da área com o texto-padrão de preço; (b) o que a página entrega além do conteúdo gratuito (cronograma, carga horária, docente da ficha, material de apoio só se estiver na ficha) | 488 sem promessa de aprovação; prazo de acesso só onde o catálogo disser [CONFIRMAR NO CATÁLOGO] |
-| __r3-minicursos | visitantes, em 60 dias, das páginas dos 13 minicursos e dos 10 gravados da faixa 3 (591, 291, 107, 395, 102, 542, 106, 541, 104, 602) | idem | 2 conceitos: (a) "primeiro passo em 8 horas" com o texto-padrão de preço [SUPOSIÇÃO da oferta, 1.8]; (b) o roteiro de tópicos da ficha | sem promoção inventada |
+| __r3-minicursos | visitantes, em 60 dias, das páginas dos 13 minicursos e dos 10 gravados da faixa 3 (591, 291, 107, 395, 102, 542, 106, 541, 104, 602) | idem | 2 conceitos: (a) "primeiro passo na área, online", sem carga horária no conceito genérico; quando o anúncio for de um produto, usa a carga do catálogo daquele produto (12 minicursos de 8 h e o 669 de 6 h; gravados da faixa 3 de 4 h a 12 h: 602 4 h, 107 e 541 5 h, 106 e 104 6 h, 591 8 h, 291, 395 e 102 9 h, 542 12 h), com o texto-padrão de preço (correção EML-Q1); (b) o roteiro de tópicos da ficha | sem promoção inventada |
 
 Notas: (a) 411 e 291 também estão nas fontes de R2 e R3; quem visitou a página da 573 ou da endoscopia e também a do gravado fica em R1 e é excluído de R2 e R3 enquanto R1 estiver no ar [SUPOSIÇÃO de desenho], para não receber o mesmo produto por dois conjuntos. (b) A área em foco do orgânico só entra como troca de anúncio dentro de R2 ou R3, no máximo a cada 2 semanas, na revisão de segunda (gestor 4.3). (c) De 21/12 a 03/01, L2 segue sem criativo novo (LP11).
 
@@ -458,7 +460,7 @@ O que cada fase decide: nos datados, o remarketing e a busca vendem e o frio for
 | 28/10 | Datas de 573 e 68614 (U4) e correção da visão de campanhas; exportação de 573, 68614, 623 e 68618 para a 1.12 com URL final, data de criação e data de término programada (LA1); conferência da URL final da 623 (LA2) e da data de término de 573 e 68614 (LA3); status de mídia de 68637, 616 e contínuos | ativas | memorando D6 e D12; 1.12 | Ufape; humano |
 | 29/10 | Último dia em que a regra de devolução total da 68614 pode aparecer em peça | ativas | ficha 68614 (cálculo da 1.9) | criativos-de-anuncio; humano |
 | 30/10 (sexta) | Prazo de LP1 e LP2 e destes pedidos EML1 a EML14; correção das páginas de 573 e 68614 (LA4); prazo prático de D19 e de LA2 (página da endoscopia com 28/11 ou pausa da 623) | todas | aprovação | pessoa do marketing, cmo; Ufape; humano |
-| 31/10 (sábado) | Prazo formal do gestor para D19, teste de rastreio do pedido pago de Livres junto com o D8 (LP3), escolha do evento de otimização (EML12) e estruturas de L1 prontas para aprovação; se ninguém trabalhar no sábado, tudo no fim de 30/10 | L1 | Ufape e humano | anuncios-meta, anuncios-google |
+| 30/10 (sexta, fim do dia) | Teste de rastreio do pedido pago de Livres junto com o D8 (LP3), escolha do evento de otimização (EML12) e estruturas de L1 prontas para aprovação (o gestor marcou 31/10, que é sábado; correção EML-Q4) | L1 | Ufape e humano | anuncios-meta, anuncios-google |
 | 03/11 (terça) | Sobem as 6 campanhas de L1 (Meta remarketing e Google por presencial liberado); fase 1 | L1 | LP1, LP2, LP3, LP4, página sem pendência, qa aprovado | humano |
 | 07/11 | Estruturas de L2 e de 616 prontas para aprovação | L2, L3 | gestor, seção 7 | anuncios-meta, anuncios-google |
 | 10/11 (terça) | Fase 2 de L1 (diárias menores); sobem 616 (3 campanhas) e L2 (R2 e R3) | L1, L2, L3 | LP7, LP9, criativos de 06/11 aprovados | humano |
@@ -540,15 +542,15 @@ Notas G x U x T de 1 a 5 são avaliação deste agente, não medida. Quem execut
 | EML5 | Contínuos: CPVmax de conjunto = menor CPVmax do conjunto até haver vendas por produto; janela de remarketing de 60 dias | sem histórico por produto; públicos pequenos | sem verba | meta conservadora; mais público | trocar pela média ponderada com 1 mês de vendas | 07/11 | 3 x 3 x 3 = 27 |
 | EML6 | R1 dividido em partes iguais entre os dois pares do trimestre (573 para 411, endoscopia para 291), subida em 30/11; par de 68638 para 591 fica para o próximo trimestre | R1 só roda depois da data do presencial | 6% de VNL [CONFIRMAR valor] | venda do gravado do mesmo tema para quem não comprou o presencial | pausar o conjunto | 30/11 | 2 x 3 x 3 = 18 |
 | EML7 | Conferir se 573, 68614 e 623 já fazem remarketing ou busca (com LA1); se a ativa já faz remarketing, a campanha Meta nova do produto não sobe e a parte fica em L7 até a revisão de 09/11 (LA5 da 1.12); se não faz, a campanha nova sobe em 03/11 e a ativa fica intocada | duas campanhas no mesmo público disputam leilão e quebram a leitura | dentro de L1 | uma campanha por público | pausar a campanha nova | 30/10 | 4 x 5 x 3 = 60 |
-| EML8 | Região: presenciais no estado de São Paulo (frio e busca, com "interessadas nela"); 616 e contínuos no Brasil; remarketing sem recorte | sem dado de procedência dos compradores | sem verba | verba onde está o público provável | ampliar ou restringir na revisão | 31/10 | 3 x 3 x 2 = 18 |
+| EML8 | Região: presenciais no estado de São Paulo (frio e busca, com "interessadas nela"); 616 e contínuos no Brasil; remarketing sem recorte | sem dado de procedência dos compradores | sem verba | verba onde está o público provável | ampliar ou restringir na revisão | 30/10 | 3 x 3 x 2 = 18 |
 | EML9 | Estender as exclusões de LP10 (20/11 a 27/11) a R2 e R3 | conjuntos por formato misturam anestesia e cardio com as outras áreas | sem verba | menos saturação na semana das provas e do workshop | retirar as exclusões | 19/11 | 2 x 3 x 2 = 12 |
 | EML10 | YouTube de 11/01 a 24/01, se LP14 for aprovado em 04/01; sem a condição, os 5% vão para R2 e R3 (40 para 30) | o gestor não fixou a janela | 5% de VNL [CONFIRMAR valor] | amostra de aula para a objeção do conteúdo gratuito | pausar a campanha | 04/01 | 2 x 2 x 2 = 8 |
 | EML11 | Mudanças de fase que caem em sábado, domingo ou feriado (fase 3 de L1 em 21/11 e 22/11; LP10 em 20/11) adiantadas para quinta, 19/11, se o executor não trabalhar nesses dias; pausas de sábado na sexta | evitar diária de fase errada no fim de semana | sem verba nova; o total da fase não muda | execução sem depender de plantão | executar na data original | 19/11 | 3 x 4 x 2 = 24 |
-| EML12 | Evento de otimização: compra se o teste de 31/10 funcionar; senão início de checkout; uma troca no máximo, com aprovação | campanha sem evento certo não aprende nem é lida | sem verba | otimização coerente com a loja | trocar o evento, com aprovação | 31/10 | 4 x 5 x 3 = 60 |
+| EML12 | Evento de otimização: compra se o teste do fim de 30/10 funcionar; senão início de checkout; uma troca no máximo, com aprovação | campanha sem evento certo não aprende nem é lida | sem verba | otimização coerente com a loja | trocar o evento, com aprovação | 30/10 | 4 x 5 x 3 = 60 |
 | EML13 | Catálogo de produtos dinâmico da Meta fora neste trimestre | exige feed com preço sincronizado; preço errado falha na conformidade | sem verba | nenhum anúncio com preço diferente do catálogo | criar o feed no próximo trimestre | 07/11 | 2 x 2 x 2 = 8 |
-| EML14 | Negativas comuns e cruzadas da seção 4.8, incluindo "pós" e "especialização" em toda campanha de Livres | Livres não disputa leilão com a Pós nem consigo mesma | sem verba | menos gasto em termo errado | retirar a negativa | 31/10 | 3 x 4 x 2 = 24 |
+| EML14 | Negativas comuns e cruzadas da seção 4.8, incluindo "pós" e "especialização" em toda campanha de Livres | Livres não disputa leilão com a Pós nem consigo mesma | sem verba | menos gasto em termo errado | retirar a negativa | 30/10 | 3 x 4 x 2 = 24 |
 
-**Os 3 primeiros:** EML1, EML7 e EML12 (60 cada; desempate pela urgência de 31/10 e pelo menor esforço): EML1 com o gestor-de-midia e o arquiteto-de-fluxos (padrão de UTM, P15); EML7 com a 1.12 e o humano no gerenciador; EML12 junto com o teste do D8 e de LP3.
+**Os 3 primeiros:** EML1, EML7 e EML12 (60 cada; desempate pela urgência de 30/10 e pelo menor esforço): EML1 com o gestor-de-midia e o arquiteto-de-fluxos (padrão de UTM, P15); EML7 com a 1.12 e o humano no gerenciador; EML12 junto com o teste do D8 e de LP3.
 
 **Vai ao cmo decidir (muda distribuição entre frentes):** EML4 (destino da parte acima do teto) e EML10 (destino dos 5% do YouTube). Recomendação deste agente: aprovar os dois.
 
