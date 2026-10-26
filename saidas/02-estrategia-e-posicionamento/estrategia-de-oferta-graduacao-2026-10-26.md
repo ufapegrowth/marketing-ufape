@@ -4,6 +4,7 @@
 - Linha: graduacao
 - Data: 26/10/2026 (segunda-feira)
 - Workflow: /campanha-de-vestibular, etapa 3 de 8
+- Versão: 2, corrigida conforme o Veredito A3 do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md)
 - Liberações cobertas:
   - G1: Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo, integral e noturno
   - G2: Edital nº 004/2026 (Processo Seletivo 2027.1 Goiânia) + Graduação em Pedagogia, Goiânia, noturno
@@ -19,6 +20,7 @@
   - contexto/cursos/graduacao/graduacao-em-pedagogia.md
   - saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md
   - saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md (entrada principal)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-a.md (Veredito A3 e conferência de dados)
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
 - Regra de fonte: preço, modalidade, turno, duração, carga horária e ato vêm do catálogo (seção 1); regras do desconto, datas, vagas, formas de ingresso e cancelamento vêm da ficha dos editais 2027/1. Valores somados por semestre são só aritmética desses números. Nenhum dado pessoal neste arquivo.
 - Nota de nome: o plano do cmo previa este arquivo com data de 29/10/2026; foi entregue em 26/10/2026, com o nome pedido pelo orquestrador.
@@ -48,7 +50,7 @@
 | Mensalidade com desconto | 6 parcelas de R$ 5.000,00 | 6 parcelas de R$ 4.000,00 | 6 parcelas de R$ 525,00 | catálogo; Editais 003/2026 |
 | Total do 1º semestre com desconto (aritmética) | R$ 30.000,00 | R$ 24.000,00 | R$ 3.150,00 | conta sobre os editais |
 | Validade | Só o 1º semestre de 2027 | idem | idem | Editais 003/2026 |
-| Regra | Todas as formas de ingresso; aplicado a partir da confirmação da matrícula; renovação pedida a cada semestre, com comprovação; perde-se no mês em que a mensalidade for paga depois do vencimento (dia 10); não acumula com programa governamental; cai se a turma tiver menos de 30 matrículas confirmadas até o início das aulas, se o curso deixar de ser ofertado, em transferência, fim do semestre, atraso ou interrupção dos estudos | idem | idem | Editais 003/2026 |
+| Regra | Todas as formas de ingresso; aplicado a partir da confirmação da matrícula; renovação pedida a cada semestre, com comprovação; perde-se no mês em que a mensalidade for paga depois do vencimento (dia 10); não acumula com programa governamental; cai se a turma tiver menos de 30 matrículas confirmadas até o início das aulas, se o curso deixar de ser ofertado, em transferência, fim do semestre, atraso ou interrupção dos estudos | idem | Mesma regra, sem o dia do vencimento: perde-se no mês em que a mensalidade for paga depois do vencimento. Dia do vencimento: [CONFIRMAR com a Ufape: vencimento e reajuste no Edital 004/2026] | Editais 002/2026 e 003/2026; ficha dos editais |
 | Inscrição | Gratuita, pelo site ou presencial (Av. Nove de Julho, 3913 e 3939, Jardim Paulista, São Paulo; segunda a sexta, 9h às 18h) | idem | Gratuita, pelo site ou presencial (endereço [CONFIRMAR], pedido G9) | Editais 002 e 004/2026 |
 | Seleção | Redação online, a qualquer momento depois da inscrição, eliminatória, nota mínima 5,0; ou Enem, média mínima de 300 pontos, edições de 2010 em diante | idem | idem | Editais 002 e 004/2026 |
 | Matrícula | Eletrônica, a partir de 2 dias após o resultado; confirmada com o pagamento da 1ª mensalidade e a assinatura digital do contrato; documentos em até 30 dias. Sem taxa de matrícula no edital | idem | idem | editais |
@@ -59,7 +61,7 @@
 | Candidato menor de idade | Aceite do representante legal na inscrição e na matrícula | idem | idem (mesmas regras) | editais |
 | Ato do curso | Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025) | idem | Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022) | catálogo |
 | Credenciamento da instituição | Portaria MEC nº 176, de 27/02/2025 (D.O.U. 28/02/2025), São Paulo | idem | Portaria MEC nº 871, de 10/11/2022, Goiânia (data de publicação [CONFIRMAR]: citar só número e data) | ufape-geral.md; ficha dos editais |
-| Reajuste | Previsto em dezembro de cada ano: efeito sobre os valores de 2027/1 [CONFIRMAR] (pedido G12) | idem | idem | Edital 002/2026 |
+| Reajuste | Previsto em dezembro de cada ano: efeito sobre os valores de 2027/1 [CONFIRMAR] (pedido G12) | idem | [CONFIRMAR com a Ufape: vencimento e reajuste no Edital 004/2026] | Edital 002/2026; ficha dos editais |
 
 ### 0.2 Texto oficial do desconto (para todas as peças)
 
@@ -81,7 +83,7 @@ Bloqueio: a versão curta nunca aparece sem "1º semestre de 2027" e sem "Condi�
 ### 0.3 Respostas que valem para os três segmentos
 
 **"E depois do 1º semestre?"**
-"O desconto do edital vale para as 6 mensalidades do 1º semestre de 2027. Para continuar com desconto, você pede a renovação a cada semestre, com comprovação, nas regras do edital. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. A mensalidade cheia hoje é de R$ 10.000,00 (Medicina Veterinária) ou R$ 1.050,00 (Pedagogia), com reajuste previsto em dezembro de cada ano. Antes de se matricular, peça à nossa equipe as regras de renovação por escrito." [CONFIRMAR com a Ufape o que é a "comprovação" e se há percentual de referência para a renovação; até lá, a resposta não promete valor.]
+"O desconto do edital vale para as 6 mensalidades do 1º semestre de 2027. Para continuar com desconto, você pede a renovação a cada semestre, com comprovação, nas regras do edital. A renovação não é automática e o valor dos semestres seguintes depende dessa análise. A mensalidade cheia hoje é de R$ 10.000,00 (Medicina Veterinária) ou R$ 1.050,00 (Pedagogia). Na Medicina Veterinária, o edital prevê reajuste em dezembro de cada ano. Antes de se matricular, fale com a nossa equipe sobre como funciona a renovação." [CONFIRMAR com a Ufape o que é a "comprovação" e se há percentual de referência para a renovação, até a P1 ser aprovada; até lá, a resposta não promete valor nem documento. Reajuste da Pedagogia: [CONFIRMAR com a Ufape: vencimento e reajuste no Edital 004/2026].]
 
 **"E se a turma não formar?"**
 "A turma precisa de pelo menos 30 matriculados. Se não chegar a esse número, a Ufape pode cancelar a oferta e devolve a 1ª parcela paga." [CONFIRMAR a data em que a Ufape decide sobre a turma mínima, pedido G4.] Nunca usar essa regra como pressão de compra.
@@ -90,7 +92,7 @@ Bloqueio: a versão curta nunca aparece sem "1º semestre de 2027" e sem "Condi�
 "Se você pedir o cancelamento até 2 dias antes do início das aulas (até 20/02/2027), recebe de volta 80% do valor pago."
 
 **"Tem aula a distância?"**
-"O curso é presencial. Pelo edital, até 30% da carga horária pode ser oferecida a distância, como a lei permite." [CONFIRMAR com a regulação quais disciplinas e em que semestres.]
+"O curso é presencial. Até 30% da carga horária pode ser oferecida a distância, conforme o edital, que cita o Decreto 14.256/2025." [CONFIRMAR com a regulação quais disciplinas e em que semestres.]
 
 ---
 
@@ -104,11 +106,11 @@ Bloqueio: a versão curta nunca aparece sem "1º semestre de 2027" e sem "Condi�
 
 ### 1.2 Como apresentar a oferta
 
-Ordem da conversa: primeiro o curso e a prova (prática desde o 1º semestre, hospital próprio, ato do MEC), depois a porta de entrada barata (inscrição gratuita, redação online sem data ou Enem com 300 pontos), por fim o preço com a regra inteira. Para a família, o preço vem como "tudo na mesa": valor cheio, valor do 1º semestre, como renovar e o que acontece se a turma não formar. Fala com "você e sua família" e sempre lembra o aceite do responsável para candidato menor de idade. Anúncio pago só para 18 anos ou mais (pais, responsáveis e candidatos adultos).
+Ordem da conversa: primeiro o curso e a prova (prática desde o 1º semestre, ato do MEC; hospital próprio só depois de [CONFIRMAR uso pela graduação, G11]), depois a porta de entrada barata (inscrição gratuita, redação online sem data ou Enem com 300 pontos), por fim o preço com a regra inteira. Para a família, o preço vem como "tudo na mesa": valor cheio, valor do 1º semestre, como renovar e o que acontece se a turma não formar. Fala com "você e sua família" e sempre lembra o aceite do representante legal para candidato menor de idade. Anúncio pago só para 18 anos ou mais (pais, responsáveis e candidatos adultos).
 
 ### 1.3 Proposta de valor
 
-"Medicina Veterinária presencial em São Paulo, com prática desde o 1º semestre e hospital veterinário próprio, e um 1º semestre de 2027 com 50% de desconto, com todas as regras explicadas antes da matrícula."
+"Medicina Veterinária presencial em São Paulo, com prática desde o 1º semestre. Integral: de R$ 10.000,00 por R$ 5.000,00/mês no 1º semestre de 2027 (50%), com todas as regras explicadas antes da matrícula. Condições e validade no edital."
 
 ### 1.4 Pilha da oferta (só o que existe)
 
@@ -127,16 +129,16 @@ Ordem da conversa: primeiro o curso e a prova (prática desde o 1º semestre, ho
 | Objeção | Resposta | Prova disponível |
 |---|---|---|
 | Mensalidade alta | "No 1º semestre de 2027 a mensalidade é de R$ 5.000,00 (de R$ 10.000,00, 50% de desconto). A gente mostra antes o valor cheio e como funciona a renovação, para a família decidir com a conta inteira." Seguir com a resposta "E depois do 1º semestre?" (0.3) | Edital 003/2026 |
-| Medo de não conseguir pagar até o fim | Não prometer manutenção do desconto. Explicar a renovação semestral com comprovação e a perda do desconto no mês pago com atraso (vencimento dia 10), para a família se planejar. Oferecer as regras por escrito | Edital 003/2026 |
-| Faculdade nova | "O curso é autorizado pela Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), e a Faculdade UFAPE é credenciada em São Paulo pela Portaria MEC nº 176, de 27/02/2025. A Ufape tem hospital veterinário próprio e professores que também dão aula nas pós-graduações da Ufape." Não dizer "reconhecido" nem citar nota | catálogo; ufape-geral.md; contexto/graduacao.md |
-| Quem são os professores | Citar nome e titulação como na ficha, só com autorização [CONFIRMAR autorização]. Exemplos que a ficha liga às pós da Ufape: Dra. Sabrina Caruso Chate (coordenadora da turma de Pós-graduação em Patologia Clínica Veterinária, Ufape Intercursos); Profa. Dra. Mayara Travalini (coordenadora de cursos de pós-graduação em Anestesiologia Veterinária, Ufape Intercursos); Profa. Dra. Denise Fantoni (Diretora Científica da Ufape Intercursos). Coordenação do curso: Prof. Dr. Alessandro Rodrigues de Carvalho Martins | ficha do curso |
+| Medo de não conseguir pagar até o fim | Não prometer manutenção do desconto. Explicar a renovação semestral com comprovação e a perda do desconto no mês pago com atraso (vencimento dia 10), para a família se planejar. Orientar a falar com a equipe sobre como funciona a renovação [CONFIRMAR até a P1 ser aprovada] | Edital 003/2026; Edital 002/2026 |
+| Faculdade nova | "O curso é autorizado pela Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), e a Faculdade UFAPE é credenciada em São Paulo pela Portaria MEC nº 176, de 27/02/2025. Os professores também dão aula nas pós-graduações da Ufape." Hospital próprio só depois de [CONFIRMAR uso pela graduação, G11]. Não dizer "reconhecido" nem citar nota | catálogo; ufape-geral.md; contexto/graduacao.md |
+| Quem são os professores | Só nome e titulação como na ficha, com [CONFIRMAR autorização]. Exemplos: Dra. Sabrina Caruso Chate; Profa. Dra. Mayara Travalini; Profa. Dra. Denise Fantoni; Dr. Alessandro Rodrigues de Carvalho Martins (coordenação). O vínculo com as pós entra só como fato geral: "professores que também dão aula nas pós da Ufape", sem cargo individual | ficha do curso; contexto/graduacao.md |
 | Medo de não passar | "A redação é online e você faz quando estiver pronto. Se já fez o Enem a partir de 2010 com média de 300 pontos ou mais, pode usar a nota." Nunca dizer que é fácil: a redação é eliminatória, nota mínima 5,0 | Edital 002/2026 |
 | E se a turma não abrir? | Resposta "E se a turma não formar?" (0.3) | Edital 002/2026 |
 
 ### 1.6 Nome e promessa
 
 - **Nome:** "Veterinária desde o 1º semestre: Vestibular 2027"
-- **Promessa em uma linha:** "Comece Medicina Veterinária em São Paulo em 22/02/2027, com prática desde o 1º semestre e hospital veterinário próprio, pagando de R$ 10.000,00 por R$ 5.000,00 por mês no 1º semestre de 2027 (condições no edital)."
+- **Promessa em uma linha:** "Comece Medicina Veterinária em São Paulo em 22/02/2027, com prática desde o 1º semestre. Integral: de R$ 10.000,00 por R$ 5.000,00/mês no 1º semestre de 2027 (50%). Condições e validade no edital."
 
 ---
 
@@ -153,7 +155,7 @@ Entrada pelo turno ("estude veterinária à noite, em São Paulo") e pelo maior 
 
 ### 2.3 Proposta de valor
 
-"Medicina Veterinária presencial à noite em São Paulo, com prática desde o 1º semestre, e um 1º semestre de 2027 com 60% de desconto, com regra clara de renovação."
+"Medicina Veterinária presencial à noite em São Paulo, com prática desde o 1º semestre. Noturno: de R$ 10.000,00 por R$ 4.000,00/mês no 1º semestre de 2027 (60%), com regra clara de renovação. Condições e validade no edital."
 
 ### 2.4 Pilha da oferta (só o que existe)
 
@@ -172,7 +174,7 @@ Entrada pelo turno ("estude veterinária à noite, em São Paulo") e pelo maior 
 |---|---|---|
 | Mensalidade alta | "No noturno, o 1º semestre de 2027 sai por R$ 4.000,00 por mês (de R$ 10.000,00, 60% de desconto). Depois disso, a renovação é pedida a cada semestre, com comprovação." Seguir com 0.3 | Edital 003/2026 |
 | Falta de tempo | "As aulas são no período noturno e o curso dura 5 anos." Horários das práticas e do estágio: só com dado confirmado [CONFIRMAR NO CATÁLOGO] | catálogo |
-| Faculdade nova | Mesma resposta do segmento A (ato, credenciamento, hospital, docentes das pós) | catálogo; ufape-geral.md |
+| Faculdade nova | Mesma resposta do segmento A (ato, credenciamento, docentes das pós; hospital só depois de G11) | catálogo; ufape-geral.md |
 | Medo de não acompanhar | Responder com fato: prática desde o 1º semestre, redação sem data marcada. Não prometer apoio pedagógico que não está no catálogo (nivelamento é proposta, seção 4) | ficha; edital |
 | Fiz o Enem há muito tempo | "Vale nota do Enem de 2010 em diante, com média mínima de 300 pontos." | Edital 002/2026 |
 
@@ -204,7 +206,7 @@ Entrada por "Pedagogia presencial, à noite, em Goiânia, com prática docente d
 |---|---|---|
 | O curso | Licenciatura presencial, noturno, 4 anos, em Goiânia | catálogo; Edital 004/2026 |
 | Foco | Docência na Educação Infantil e nos anos iniciais do Ensino Fundamental e gestão educacional (1º parágrafo da página, próprio da Pedagogia) | ficha do curso |
-| Prática desde o começo | Prática Docente e Projeto Integrador em todos os semestres a partir do 1º; estágio supervisionado obrigatório a partir do 6º semestre | ficha do curso |
+| Prática desde o começo | Prática Docente em todos os 8 semestres; Projeto Integrador do 1º ao 7º semestre; estágio supervisionado obrigatório a partir do 6º semestre | ficha do curso |
 | Conteúdos verificáveis | Fundamentos da Educação Infantil, Alfabetização e Letramento, Literatura Infantil, Educação Inclusiva, Letramento em Libras, EJA, gestão escolar | ficha do curso (matriz) |
 | Entrada sem custo | Inscrição gratuita; redação online quando puder; Enem de 2010 em diante com 300 pontos | Edital 004/2026 |
 | Preço | De R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027 (50%) | Edital 003/2026 Goiânia |
@@ -259,7 +261,7 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 | Variação | Ângulo | O que testa | Métrica principal |
 |---|---|---|---|
 | V1 Preço primeiro | Título com "de R$ 10.000,00 por R$ 5.000,00 (integral) / R$ 4.000,00 (noturno) no 1º semestre de 2027", regra na legenda | Se o desconto, mostrado com valor cheio e validade, atrai mais e se gera lead de qualidade (passa para matrícula) | Custo por lead e passagem lead para inscrito |
-| V2 Prática primeiro | Título com "prática desde o 1º semestre e hospital veterinário próprio"; preço no corpo | Se a proposta acadêmica atrai lead mais qualificado que o preço | Passagem inscrito para redação feita |
+| V2 Prática primeiro | Título com "prática desde o 1º semestre" (hospital veterinário próprio só depois de [CONFIRMAR uso pela graduação, G11]); preço no corpo | Se a proposta acadêmica atrai lead mais qualificado que o preço | Passagem inscrito para redação feita |
 | V3 Entrada sem barreira | Título com "inscrição gratuita: faça a redação online quando quiser ou use sua nota do Enem" | Se reduzir o medo da prova acelera a ação (inscrição e redação) | Taxa de inscrição e de redação feita |
 
 ### G2 Pedagogia (depois da correção da página, pedido G6)
@@ -277,6 +279,7 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 - Edital 003/2026 de SP: preâmbulo cita "2º semestre de 2026", assinatura com ano 2027 e numeração repetida. Peças citam só nome do programa, percentual, valores e validade (pedido G7).
 - Edital 003/2026 Goiânia: item 3.5 cita "Medicina Veterinária". Não repetir; não citar o item (pedido G7).
 - Carga horária da Pedagogia diverge (3.440 h x 3.640 h): fora de toda peça (pedido G5).
+- Vencimento no dia 10 e reajuste de dezembro têm fonte só no Edital 002/2026 (SP): na Pedagogia, ficam fora das peças até [CONFIRMAR com a Ufape: vencimento e reajuste no Edital 004/2026].
 - Página do noturno da Medicina Veterinária mostra "INTEGRAL" no turno (pedido G8); página de Pedagogia com texto de modelo, egresso copiado e docentes de outro curso (pedido G6).
 - Endereço de Goiânia diverge entre edital e página (pedido G9).
 - Reajuste de dezembro: se mudar os valores de 2027/1, toda peça com preço passa por ciclo extra (pedido G12).
@@ -291,36 +294,44 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 - [x] Persona e curso ou oferta nomeados: três segmentos, cada um com curso, turno e praça; personas marcadas [SUPOSIÇÃO].
 - [x] Os 8 canais avaliados: feito no plano do cmo (seção 4); esta ficha não muda canais.
 - [x] Alternativa real nomeada: outras faculdades e "não estudar agora" (G1); Pedagogia EAD mais barata (G2).
-- [ ] Todo pilar tem prova: matriz, preço, ato e regra têm fonte; uso do hospital pela graduação e autorização de imagem de docentes e do hospital [CONFIRMAR] (G11). Pilar "hospital" só entra em peça com essa confirmação.
+- [x] Todo pilar tem prova: matriz (Prática Docente nos 8 semestres, Projeto Integrador do 1º ao 7º), preço, ato e regra têm fonte; o hospital saiu da proposta de valor e da promessa e só aparece com [CONFIRMAR uso pela graduação, G11]. Autorização de imagem de docentes e do hospital segue pendente externa (G11).
 - [ ] Regras de voz com exemplos: exemplos de frase permitida e bloqueada dados nesta ficha; voz da marca segue [SUPOSIÇÃO] em ufape-geral.md.
 - [ ] Cabe no tempo e na verba: a oferta oficial não tem custo de mídia; propostas da seção 4 e verba [CONFIRMAR] (G3).
 - [x] Nenhuma oferta, pilar ou resposta promete emprego, aprovação ou salário; redação descrita como eliminatória.
-- [x] Preços e condições vêm do catálogo e dos editais; o que falta está marcado; propostas separadas e marcadas como não oficiais.
+- [x] Preços e condições vêm do catálogo e dos editais; vencimento e reajuste da Pedagogia marcados [CONFIRMAR]; propostas separadas e marcadas como não oficiais.
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, duração e turno batem com o catálogo; carga horária da Pedagogia fora até G5.
 - [x] Os dois cursos estão "aberto" no catálogo.
-- [x] Modalidade presencial clara; até 30% a distância informado no atendimento e na comparação com EAD.
+- [x] Modalidade presencial clara; até 30% a distância informado no atendimento e na comparação com EAD, citando o edital e o Decreto 14.256/2025.
 - [x] Atos do curso e credenciamentos como no catálogo e na ficha dos editais; reconhecimento não citado; data de publicação da Portaria nº 871/2022 omitida até confirmação.
 - [x] Pós lato sensu e curso livre: não se aplica.
 - [x] Nenhuma nota do MEC e nenhuma frase de certificação.
 - [x] Nenhuma promessa de emprego, salário, promoção, concurso ou aprovação.
 - [x] Sem dado de empregabilidade; sem superlativo sem fonte.
 - [x] Comparação com EAD objetiva, sem preço de terceiros e sem depreciar.
-- [x] Preço com valor cheio, parcelas, desconto, regra e validade; sem taxa escondida (matrícula é a 1ª mensalidade); reajuste sinalizado [CONFIRMAR].
+- [x] Preço com valor cheio, parcelas, desconto, regra e validade, inclusive nas propostas de valor e promessas; sem taxa escondida (matrícula é a 1ª mensalidade); reajuste sinalizado [CONFIRMAR] e, na Pedagogia, sem regra sem fonte.
 - [x] Desconto com regra, público elegível (todas as formas de ingresso) e validade (1º semestre de 2027).
 - [x] Sem urgência falsa; garantia de vaga por data (P3) só com data e número reais e depois de aprovada.
 - [x] Prouni, Fies e financiamento não aparecem.
-- [ ] Autorização de uso de imagem e nome de docentes e do hospital: [CONFIRMAR autorização] (G11). Bloqueia peça com docente ou hospital.
-- [x] Menores: aceite do responsável nas respostas; anúncio só 18+; visita guiada (P4) prevê regras para menores.
+- [ ] Autorização de uso de imagem e nome de docentes e do hospital: [CONFIRMAR autorização] (G11). Docentes já só com nome e titulação, sem cargo individual. Bloqueia peça com docente ou hospital.
+- [x] Menores: aceite do representante legal nas respostas; anúncio só 18+; visita guiada (P4) prevê regras para menores.
 - [ ] Formulários com finalidade e política de privacidade: [CONFIRMAR] com a plataforma (G13).
 - [ ] WhatsApp e e-mail só com consentimento: regra do briefing mantida; consentimento de menor no CRM [CONFIRMAR] (G10).
 - [x] Nenhum dado pessoal de aluno ou candidato neste arquivo.
 - [x] Sem segmentação discriminatória; frases que afirmam emprego ou situação de quem vê bloqueadas; convênio P8 nunca vira segmentação por emprego.
-- [ ] Página de destino entrega o que a oferta promete: G2 bloqueado até G6; noturno do G1 com ressalva até G8.
+- [ ] Página de destino entrega o que a oferta promete: G2 bloqueado até G6; noturno do G1 com ressalva até G8. As respostas não prometem mais documento que não existe (regras de renovação por escrito só depois de P1).
 - [x] Sem escassez falsa, contador, imitação de interface, pessoa pública ou tentativa de driblar a análise.
 
-**Resultado:** oferta oficial (seções 0 a 3 e 5) aprovada como rascunho para seguir à etapa 4. Bloqueados até resposta: peças com docente ou hospital (G11), anúncio pago do G2 (G6), anúncio pago do noturno (G8), carga horária da Pedagogia (G5), resposta "e depois do 1º semestre?" com qualquer valor futuro (P1, G12). Propostas da seção 4: só pedido de aprovação. Revisado por: estrategia-de-oferta (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
+**Resultado:** oferta oficial (seções 0 a 3 e 5) corrigida e pronta para a nova rodada do qa-de-marketing (arquivo -b). Bloqueados até resposta: peças com docente ou hospital (G11), anúncio pago do G2 (G6), anúncio pago do noturno (G8), carga horária da Pedagogia (G5), vencimento e reajuste da Pedagogia (Edital 004/2026), resposta "e depois do 1º semestre?" com qualquer valor futuro ou documento escrito (P1, G12). Propostas da seção 4: só pedido de aprovação. Revisado por: estrategia-de-oferta (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
+
+**Correções feitas nesta versão (Veredito A3):**
+1. Seção 3.4: Prática Docente nos 8 semestres; Projeto Integrador do 1º ao 7º; estágio a partir do 6º.
+2. Seção 1.5: docentes só com nome e titulação, sem cargos; vínculo com as pós como fato geral.
+3. Seções 0.1 e 0.3: vencimento no dia 10 e reajuste de dezembro tirados da Pedagogia e marcados [CONFIRMAR com a Ufape: vencimento e reajuste no Edital 004/2026]; reajuste citado só para a Medicina Veterinária.
+4. Seções 1.3, 1.6 e 2.3: hospital tirado da proposta de valor e da promessa; percentuais trocados pelas versões curtas da seção 0.2. Para manter a coerência, o hospital também ganhou o marcador G11 na seção 1.2, na resposta "Faculdade nova" (1.5 e 2.5) e na variação V2 do G1.
+5. Seção 0.3 (e 1.5): sai a promessa de regras "por escrito"; entra "fale com a nossa equipe sobre como funciona a renovação", com [CONFIRMAR] até a P1.
+6. Seção 0.3 (menor peso): "como a lei permite" trocado por "conforme o edital, que cita o Decreto 14.256/2025".
 
 **Notas para arquivos de outros donos (não alterados por este agente):**
 - contexto/graduacao.md pede para confirmar o grau da Pedagogia; o Edital 004/2026 já diz licenciatura.
@@ -335,11 +346,11 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 - Pedagogia, presencial, Goiânia, noturno, 4 anos, licenciatura; de R$ 1.050,00 por R$ 525,00 por mês (50%); semestre cheio de R$ 6.300,00 (catálogo; Editais 003 e 004/2026).
 - Desconto só no 1º semestre de 2027, todas as formas de ingresso, aplicado a partir da confirmação da matrícula, renovação semestral com comprovação, perda no mês pago com atraso, sem acúmulo com programa governamental, queda com turma abaixo de 30 (Editais 003/2026).
 - Inscrição gratuita desde 17/08/2026; redação online a qualquer momento, eliminatória, nota mínima 5,0; Enem com média mínima de 300 pontos, edições de 2010 em diante (Editais 002 e 004/2026).
-- Matrícula a partir de 2 dias após o resultado, confirmada com a 1ª mensalidade e o contrato; documentos em até 30 dias; aulas em 22/02/2027; devolução de 80% se o cancelamento for pedido até 2 dias antes das aulas; turma mínima de 30 com reembolso da 1ª parcela; até 30% a distância; reajuste em dezembro (editais).
+- Matrícula a partir de 2 dias após o resultado, confirmada com a 1ª mensalidade e o contrato; documentos em até 30 dias; aulas em 22/02/2027; devolução de 80% se o cancelamento for pedido até 2 dias antes das aulas; turma mínima de 30 com reembolso da 1ª parcela; até 30% a distância (editais). Vencimento no dia 10 e reajuste em dezembro: Edital 002/2026 (SP).
 - Vagas: 45 integral, 45 noturno, 80 Pedagogia (editais).
 - Atos: Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025); Portaria nº 992, de 08/12/2022 (D.O.U. 20/12/2022) (catálogo). Credenciamento: Portaria MEC nº 176/2025 (SP); Portaria MEC nº 871/2022 (Goiânia) (ufape-geral.md; ficha dos editais).
 - Matriz da Medicina Veterinária com Práticas Hospitalares e Projeto Extensionista I no 1º semestre; estágio no 7º e 8º semestres (integral) e 9º e 10º (noturno) (ficha do curso).
-- Matriz da Pedagogia com Prática Docente e Projeto Integrador desde o 1º semestre, Educação Inclusiva, Libras e estágio a partir do 6º semestre (ficha do curso).
+- Matriz da Pedagogia com Prática Docente do 1º ao 8º semestre, Projeto Integrador do 1º ao 7º, Educação Inclusiva, Libras e estágio a partir do 6º semestre (ficha do curso).
 - Hospital veterinário próprio (Ufape Clínica); professores que também dão aula nas pós (ufape-geral.md; contexto/graduacao.md; ficha do curso).
 
 ## 9. Suposições
@@ -352,8 +363,9 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 
 ## 10. Dados que faltam
 
-- [CONFIRMAR] O que é a "comprovação" da renovação, prazo do pedido e regra comercial depois de 2027/1 (G12).
+- [CONFIRMAR] O que é a "comprovação" da renovação, prazo do pedido e regra comercial depois de 2027/1 (G12, P1).
 - [CONFIRMAR] Efeito do reajuste de dezembro sobre os valores de 2027/1 (G12).
+- [CONFIRMAR com a Ufape] Vencimento e reajuste da Pedagogia no Edital 004/2026.
 - [CONFIRMAR] Data-limite de inscrição e matrícula; data de decisão da turma mínima (G4).
 - [CONFIRMAR NO CATÁLOGO] Carga horária da Pedagogia (G5); horário das práticas e do estágio do noturno da Medicina Veterinária e do estágio da Pedagogia; coordenação e corpo docente da Pedagogia.
 - [CONFIRMAR] Quais disciplinas usam os até 30% a distância.
@@ -367,4 +379,4 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 
 ## Próximo passo
 
-Na cadeia /campanha-de-vestibular, a etapa 4 é o estrategia-de-midia sob o gestor-de-midia (metas de custo e estrutura por fases, 30/10), usando a seção 0.2 (texto oficial) e a seção 5 (variações de teste). O agente padrão seguinte desta função seria o landing-page, mas a LP da Graduação é uma página separada que a squad não altera: as correções de página seguem como pedidos G6 e G8. Em paralelo, levar a tabela da seção 4 à Ufape como pedido de aprovação. Nada segue sem aprovação humana.
+Nova rodada do qa-de-marketing (arquivo -b). Depois, na cadeia /campanha-de-vestibular, a etapa 4 é o estrategia-de-midia sob o gestor-de-midia, usando a seção 0.2 (texto oficial) e a seção 5 (variações de teste). O agente padrão seguinte desta função seria o landing-page, mas a LP da Graduação é uma página separada que a squad não altera: as correções de página seguem como pedidos G6 e G8. Em paralelo, levar a tabela da seção 4 à Ufape como pedido de aprovação. Nada segue sem aprovação humana.
