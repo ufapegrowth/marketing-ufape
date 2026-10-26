@@ -151,7 +151,7 @@ Ordem da conversa: primeiro o curso e a prova (prática desde o 1º semestre, at
 
 ### 2.2 Como apresentar a oferta
 
-Entrada pelo turno ("estude veterinária à noite, em São Paulo") e pelo maior desconto da linha (60% no 1º semestre de 2027). Não afirmar situação de quem vê ("Você trabalha de dia?" bloqueia; "Para quem quer estudar veterinária à noite" passa). Não prometer "sem largar o trabalho": o horário das atividades práticas e do estágio (9º e 10º semestres) do noturno não está no catálogo [CONFIRMAR NO CATÁLOGO]. Mostrar que o curso dura 5 anos. Anúncio pago do noturno só escala depois da correção do campo turno na página (mostra "INTEGRAL", pedido G8).
+Entrada pelo turno ("estude veterinária à noite, em São Paulo") e pelo maior desconto da linha (60% no 1º semestre de 2027). Não afirmar situação de quem vê ("Você trabalha de dia?" bloqueia; "Para quem quer estudar veterinária à noite" passa). Não prometer "sem largar o trabalho": o horário das atividades práticas e do estágio (9º e 10º semestres) do noturno não está no catálogo [CONFIRMAR NO CATÁLOGO]. Mostrar que o curso dura 5 anos. Anúncio pago do noturno bloqueado até G8 e MP4 (a página mostra "INTEGRAL" no campo turno, pedido G8).
 
 ### 2.3 Proposta de valor
 
@@ -181,7 +181,7 @@ Entrada pelo turno ("estude veterinária à noite, em São Paulo") e pelo maior 
 ### 2.6 Nome e promessa
 
 - **Nome:** "Veterinária à noite: Vestibular 2027"
-- **Promessa em uma linha:** "Estude Medicina Veterinária à noite em São Paulo a partir de 22/02/2027, com prática desde o 1º semestre, de R$ 10.000,00 por R$ 4.000,00 por mês no 1º semestre de 2027 (condições no edital)."
+- **Promessa em uma linha:** "Estude Medicina Veterinária à noite em São Paulo a partir de 22/02/2027, com prática desde o 1º semestre. Noturno: de R$ 10.000,00 por R$ 4.000,00/mês no 1º semestre de 2027 (60%). Condições e validade no edital."
 
 ---
 
@@ -198,7 +198,7 @@ Entrada por "Pedagogia presencial, à noite, em Goiânia, com prática docente d
 
 ### 3.3 Proposta de valor
 
-"Pedagogia presencial à noite em Goiânia, com prática docente e projeto integrador desde o 1º semestre, e um 1º semestre de 2027 por R$ 525,00 por mês (de R$ 1.050,00), com regra clara."
+"Pedagogia presencial à noite em Goiânia, com prática docente e projeto integrador desde o 1º semestre. Pedagogia: de R$ 1.050,00 por R$ 525,00/mês no 1º semestre de 2027 (50%), com regra clara. Condições e validade no edital."
 
 ### 3.4 Pilha da oferta (só o que existe)
 
@@ -225,7 +225,7 @@ Entrada por "Pedagogia presencial, à noite, em Goiânia, com prática docente d
 ### 3.6 Nome e promessa
 
 - **Nome:** "Pedagogia à noite em Goiânia: Processo Seletivo 2027.1"
-- **Promessa em uma linha:** "Comece Pedagogia presencial à noite em Goiânia em 22/02/2027, com prática docente desde o 1º semestre, de R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027 (condições no edital)."
+- **Promessa em uma linha:** "Comece Pedagogia presencial à noite em Goiânia em 22/02/2027, com prática docente desde o 1º semestre. Pedagogia: de R$ 1.050,00 por R$ 525,00/mês no 1º semestre de 2027 (50%). Condições e validade no edital."
 
 ---
 
@@ -262,7 +262,7 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 |---|---|---|---|
 | V1 Preço primeiro | Título com "de R$ 10.000,00 por R$ 5.000,00 (integral) / R$ 4.000,00 (noturno) no 1º semestre de 2027", regra na legenda | Se o desconto, mostrado com valor cheio e validade, atrai mais e se gera lead de qualidade (passa para matrícula) | Custo por lead e passagem lead para inscrito |
 | V2 Prática primeiro | Título com "prática desde o 1º semestre" (hospital veterinário próprio só depois de [CONFIRMAR uso pela graduação, G11]); preço no corpo | Se a proposta acadêmica atrai lead mais qualificado que o preço | Passagem inscrito para redação feita |
-| V3 Entrada sem barreira | Título com "inscrição gratuita: faça a redação online quando quiser ou use sua nota do Enem" | Se reduzir o medo da prova acelera a ação (inscrição e redação) | Taxa de inscrição e de redação feita |
+| V3 Entrada sem barreira | Título com "inscrição gratuita: faça a redação online quando quiser ou use sua nota do Enem (média mínima de 300 pontos, edições de 2010 em diante)" | Se reduzir o medo da prova acelera a ação (inscrição e redação) | Taxa de inscrição e de redação feita |
 
 ### G2 Pedagogia (depois da correção da página, pedido G6)
 
@@ -320,10 +320,10 @@ Nenhuma variação muda preço, regra ou validade: muda só a ordem e o ângulo 
 - [ ] WhatsApp e e-mail só com consentimento: regra do briefing mantida; consentimento de menor no CRM [CONFIRMAR] (G10).
 - [x] Nenhum dado pessoal de aluno ou candidato neste arquivo.
 - [x] Sem segmentação discriminatória; frases que afirmam emprego ou situação de quem vê bloqueadas; convênio P8 nunca vira segmentação por emprego.
-- [ ] Página de destino entrega o que a oferta promete: G2 bloqueado até G6; noturno do G1 com ressalva até G8. As respostas não prometem mais documento que não existe (regras de renovação por escrito só depois de P1).
+- [ ] Página de destino entrega o que a oferta promete: G2 bloqueado até G6; anúncio pago do noturno do G1 bloqueado até G8 e MP4. As respostas não prometem mais documento que não existe (regras de renovação por escrito só depois de P1).
 - [x] Sem escassez falsa, contador, imitação de interface, pessoa pública ou tentativa de driblar a análise.
 
-**Resultado:** oferta oficial (seções 0 a 3 e 5) corrigida e pronta para a nova rodada do qa-de-marketing (arquivo -b). Bloqueados até resposta: peças com docente ou hospital (G11), anúncio pago do G2 (G6), anúncio pago do noturno (G8), carga horária da Pedagogia (G5), vencimento e reajuste da Pedagogia (Edital 004/2026), resposta "e depois do 1º semestre?" com qualquer valor futuro ou documento escrito (P1, G12). Propostas da seção 4: só pedido de aprovação. Revisado por: estrategia-de-oferta (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
+**Resultado:** oferta oficial (seções 0 a 3 e 5) corrigida e pronta para a nova rodada do qa-de-marketing (arquivo -b). Bloqueados até resposta: peças com docente ou hospital (G11), anúncio pago do G2 (G6), anúncio pago do noturno (G8 e MP4), carga horária da Pedagogia (G5), vencimento e reajuste da Pedagogia (Edital 004/2026), resposta "e depois do 1º semestre?" com qualquer valor futuro ou documento escrito (P1, G12). Propostas da seção 4: só pedido de aprovação. Revisado por: estrategia-de-oferta (agente). Revisão do qa-de-marketing e humana: pendente. Data: 26/10/2026.
 
 **Correções feitas nesta versão (Veredito A3):**
 1. Seção 3.4: Prática Docente nos 8 semestres; Projeto Integrador do 1º ao 7º; estágio a partir do 6º.

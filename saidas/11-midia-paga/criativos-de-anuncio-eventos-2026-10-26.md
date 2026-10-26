@@ -3,7 +3,7 @@
 - **Agente:** criativos-de-anuncio (departamento 11, Mídia Paga), camada 3, onda 1, kit do evento, etapa "criativos-de-anuncio"
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio" na planilha, nome que as peças não usam)
 - **Canal ativado:** Meta (Instagram e Facebook). Fora desta entrega: Google, TikTok, LinkedIn, YouTube, X e podcast (justificativa no briefing de campanha, seção 1).
-- **Data:** 26/10/2026 (segunda-feira). Prazo do briefing para esta entrega: 29/10.
+- **Data:** 26/10/2026 (segunda-feira). Prazo do briefing para esta entrega: 29/10. Versão corrigida depois da rodada A do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md, seção 3).
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago. Nenhuma campanha, conjunto ou anúncio foi criado, alterado, pausado ou teve verba mexida: tudo abaixo é pedido para um humano executar.
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
@@ -18,9 +18,12 @@
   - saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (bloco do workshop, seção 4, e pedidos M8 e M9)
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-eventos-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md (veredito, seção 3)
   - templates/kit-de-lancamento-evento.md
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 - Não abri faculdade.ufape.com.br. Nenhuma busca na web. Nenhum dado pessoal. Nenhum número de gasto, resultado, verba, inscritos ou vagas restantes existe nos arquivos: onde seria preciso, está escrito [DADO NÃO FORNECIDO].
+
+**Correções desta versão (veredito C1 a C10 do QA):** valores com cupom calculados retirados do arquivo, inclusive de notas (C1); divergência inexistente sobre número de temas retirada (C5); nome completo do evento em C3 e C4 (C2); horário de aula retirado do anúncio de C1, variação G2 (C3); B8 (vagas restantes) retirada, só "30 vagas" como total (C4); C6 bloqueado até a validade do cupom, que fica [CONFIRMAR] (C6); contagens de caracteres corrigidas (C7); condição do transmitido conforme o catálogo e a do presencial [CONFIRMAR NO CATÁLOGO] (C8); fonte primária do status do 68634 (C9); auditoria 11 fechada com meta, verba, pixel e plano do gestor como [CONFIRMAR] e subida bloqueada (C10).
 
 ---
 
@@ -34,24 +37,25 @@
 | Criativo 2: os dois dias (teoria e prática) | C2 SEXSAB | neuro26_sexsab_car11_sexta-base_v1 |
 | Criativo 3: intensivista (BNM e TOF) | C4 UTIBNM | neuro26_utibnm_vid916_dormindo_v1 |
 | Variante opcional para o transmitido | C5 TRANSM | neuro26_transm_est11_ao-vivo-gravada_v1 (bloqueada, ver 0.4) |
-| Versão para a base com cupom (pedido desta tarefa) | C6 BASE | neuro26_base_est11_20-aluno_v1 |
+| Versão para a base com cupom (pedido desta tarefa) | C6 BASE | neuro26_base_est11_20-aluno_v1 (bloqueada até a validade do cupom) |
 
 2. **Quantidade de conceitos.** A skill pede 8 a 12 conceitos no portfólio. Aqui são 6 (5 de público frio e remarketing, 1 de base). Motivo: 24 dias de reta final, 30 vagas presenciais e uma regra do gestor-de-midia (memorando, seção 3.3): se a verba de teste não cobre (número de conceitos x 1,5 x custo por inscrição máximo), reduzir conceitos em vez de espalhar verba que não decide nada. Verba e custo máximo: [DADO NÃO FORNECIDO]. Se a verba couber, os conceitos 7 e 8 saem do banco de ganchos da seção 2 (G3 de cada conceito).
-3. **Auditoria de similaridade (skill, passo 7) não foi feita.** Os criativos que rodam hoje são "só estático" (memorando do gestor, seção 4.1), mas as imagens, os textos e a exportação por anúncio não foram fornecidos: [DADO NÃO FORNECIDO]. Pedido ao humano que executa: exportar os anúncios ativos do workshop (imagem, texto principal, título, URL, gasto por anúncio) para o gestor-de-midia cruzar com esta matriz antes de subir (ver 8, item de aprovação A14).
+3. **Auditoria de similaridade (skill, passo 7) não foi feita.** Os criativos que rodam hoje são "só estático" (memorando do gestor, seção 4.1), mas as imagens, os textos e a exportação por anúncio não foram fornecidos: [DADO NÃO FORNECIDO]. Pedido ao humano que executa: exportar os anúncios ativos do workshop (imagem, texto principal, título, URL, gasto por anúncio) para o gestor-de-midia cruzar com esta matriz antes de subir (ver 9, item de aprovação A14).
 4. **Regras duras aplicadas em todas as peças:**
-   - Dados só da ficha: 20 e 21/11/2026; 16 h (8 teóricas e 8 práticas) só para o presencial; 30 vagas no presencial, escrito como capacidade ("30 vagas presenciais, por ordem de inscrição"), nunca "últimas vagas", "vagas limitadas" ou "somente"; R$ 1.250,00 e R$ 450,00 só nas variações marcadas como bloqueadas (parcelamento não consta, E5); Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.
+   - Dados só da ficha: 20 e 21/11/2026; 16 h (8 teóricas e 8 práticas) só para o presencial; 30 vagas no presencial, escrito como capacidade total ("30 vagas presenciais, por ordem de inscrição"), nunca "últimas vagas", "vagas limitadas", "somente" nem vagas restantes; R$ 1.250,00 e R$ 450,00 só nas variações marcadas como bloqueadas (parcelamento do presencial não consta no catálogo, E5); Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.
+   - Horário de aula: nenhum anúncio traz horário de bloco. Só o horário do dia ("das 08h às 18h"), que vem da ficha.
    - Docentes: nenhum nome e nenhuma foto nas peças-base. Uma única variação com a coordenação científica nomeada em texto existe e está bloqueada até a autorização [CONFIRMAR autorização]. Os 4 convidados "a definir" não aparecem.
    - Certificado: nenhuma peça cita certificado (leitura mais restritiva da casa de mensagens, seção 0, regra 5; decisão final AP8 do briefing). Apostila: nenhuma peça cita. MEC: nenhuma peça cita.
    - Sem promessa clínica: nenhuma peça diz que o participante "vai saber", "dominar" ou que o paciente "fica seguro". O texto descreve o que o programa faz ("treina instalar", "discute", "revisa").
    - Prática do sábado: sempre "em modelos", "casos", "simulações ou registros clínicos". Nunca "paciente real" ou "paciente vivo". Nenhuma peça diz quantos monitores há nem quantos participantes por equipamento.
-   - Cupom: só na versão da base (C6). Nenhum valor com desconto aparece. A chamada principal para público frio nunca é o cupom (item W7 do gestor).
+   - Cupom: só na versão da base (C6), que fica bloqueada até a Ufape informar a validade. Nenhum valor com desconto aparece em lugar nenhum. A chamada principal para público frio nunca é o cupom (item W7 do gestor).
    - Feriado de 20/11: não usado como argumento (sem ok da Ufape).
    - Texto de anúncio descreve a situação de uso ("para quem tem o BIS no centro cirúrgico"), nunca afirma característica de quem vê (não há "Você é anestesiologista?", "Residente sem tempo?").
-   - Nome do evento: nome completo na arte (rodapé) ou no texto principal; "workshop", nunca "simpósio". "Neuro Summit" só aparece no endereço e no parâmetro de campanha.
+   - Nome do evento: nome completo no texto principal ou na arte de toda peça; "workshop", nunca "simpósio". "Neuro Summit" só aparece no endereço e no parâmetro de campanha.
 5. **Divergências entre arquivos de entrada que afetam as peças (sem editar arquivo alheio):**
-   - A ficha diz "oito temas" na sexta, mas a grade lista nove blocos. Nenhuma peça diz "oito temas". Pedido ao site: ajustar a FAQ [CONFIRMAR].
    - A mídia do presencial para em 18/11 (briefing) ou 19/11 (memorando do gestor), os dois dependem do fim das inscrições [CONFIRMAR]. Esta entrega usa a janela 18 a 19/11 e deixa a data final para o gestor.
-   - O briefing e a pesquisa de persona trazem valores com cupom calculados (R$ 1.000,00 e R$ 360,00). Esta entrega não os usa.
+   - O briefing e a pesquisa de persona trazem valores com cupom calculados. Esta entrega não os usa e pede que o estrategia-de-campanha os retire do briefing.
+   - A casa de mensagens diz que o parcelamento não consta no catálogo para as duas modalidades. O catálogo (seção 4, produto 68634) traz para o transmitido "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão", sujeito à correção do 68634. Falta só a condição do presencial [CONFIRMAR NO CATÁLOGO]. Nenhuma peça liberável usa preço.
 
 ---
 
@@ -64,11 +68,11 @@ O mensageiro fica igual em todos os conceitos (só texto na tela e narrador inst
 | Código | Nome curto | Persona e momento | Ângulo | Formato principal | Gancho (tipo) | Mensageiro | Objeção que responde | Por que pode funcionar [SUPOSIÇÃO] |
 |---|---|---|---|---|---|---|---|---|
 | C1 ALEM | Decidir além do número | Anestesiologista (E1a, principal), público frio, quer ir além do plano de Guedel e do número | Desejo de decisão clínica, autoridade técnica | Estático 1:1 (e 9:16) | Contrário ao senso comum: "O monitor mostra um número. A decisão é sua." | Só texto | O3 "é só curso de BIS ou de equipamento?" | Fala direto com a persona principal e usa a frase mais forte da página ("decidir olhando além do número") |
-| C2 SEXSAB | Sexta teórica, sábado prático | Residente e pós-graduando (E1c e E1d), com anestesiologista e intensivista em segundo plano; momento: quer prática e teme não ter base | Clareza do roteiro e transparência: o que acontece em cada bloco | Carrossel com a programação | Resultado primeiro: "Sexta: a base. Sábado: a prática." | Só texto | O4 "preciso saber EEG antes?" e O10 "quanta prática eu faço?" | Mostra a grade hora a hora, que a casa de mensagens aponta como prova do pilar 3 |
+| C2 SEXSAB | Sexta teórica, sábado prático | Residente e pós-graduando (E1c e E1d), com anestesiologista e intensivista em segundo plano; momento: quer prática e teme não ter base | Clareza do roteiro e transparência: o que acontece em cada bloco | Carrossel com a programação | Resultado primeiro: "Sexta: a base. Sábado: a prática." | Só texto | O4 "preciso saber EEG antes?" e O10 "quanta prática eu faço?" | Mostra a grade por dia, que a casa de mensagens aponta como prova do pilar 3 |
 | C3 BISLER | Ler de verdade (BIS, PSI e Conox) | Anestesiologista que já tem monitor de índice processado (E1a, momento: já usa e desconfia do número) | Curiosidade e cautela com evidência | Vídeo 9:16 com texto na tela | Pergunta: "O que a literatura veterinária diz sobre BIS, PSI e Conox?" | Só texto | O8 "o BIS é validado em cães e gatos?" | Responde à dúvida técnica com a existência das duas aulas, sem afirmar eficácia |
 | C4 UTIBNM | UTI com bloqueio neuromuscular | Intensivista (E1b), paciente sedado e sob bloqueio | Medo e dor da rotina: avaliar hipnose sem o sinal clínico | Vídeo 9:16 (e estático 9:16) | Cena: "Paciente sob bloqueio neuromuscular. Está dormindo?" | Só texto | "Serve para UTI ou só para o centro cirúrgico?" | Dois blocos de UTI na grade e a página diz "tanto no centro cirúrgico quanto na UTI" |
 | C5 TRANSM | Teoria de sexta, ao vivo e gravada | Quem não estará em São Paulo nos dois dias (inclui residente, E1c) | Flexibilidade e economia de deslocamento | Estático 1:1 simples (e vídeo curto) | Objeção direta: "Para acompanhar de onde estiver: a teoria de sexta." | Só texto | O2 "moro fora de SP, tenho plantão" e O7 "vale a pena sem o sábado?" | Dá uma porta de entrada para quem não compra o presencial |
-| C6 BASE | 20% para aluno e ex-aluno | Base de alunos e ex-alunos com vínculo comprovável | Condição e preço (cupom) | Estático 1:1 (e 9:16) | Condição direta: "Aluno e ex-aluno Ufape: 20% no workshop." | Só texto | O1 "é caro" | Público mais quente, mensagem curta e sem concorrer com o frio |
+| C6 BASE | 20% para aluno e ex-aluno | Base de alunos e ex-alunos com vínculo comprovável | Condição e preço (cupom) | Estático 1:1 (e 9:16) | Condição direta: "Aluno e ex-aluno Ufape: 20% no workshop." | Só texto | O1 "é caro" | Público mais quente, mensagem curta e sem concorrer com o frio. Só sobe com a validade do cupom |
 
 ### 1.2 Verificação: cada par muda pelo menos 2 das 5 dimensões
 
@@ -87,7 +91,7 @@ Nenhum par repete persona, ângulo e formato ao mesmo tempo. C1 e C3 têm a mesm
 ### 1.3 Conceito novo contra iteração
 
 - **Conceito novo** (muda 2 ou mais dimensões): C1 a C6. Gera aprendizado novo.
-- **Iteração** (muda uma variável só, e só em cima de um conceito que já mostrou resultado): título, gancho dentro do mesmo conceito, formato, texto de data, mensageiro, preço visível. Estão na seção 6 (variações com sufixo) e na tabela de teste (seção 7). Nenhuma iteração sobe antes da leitura de 09/11 (ver seção 8), exceto o par de ganchos já previsto no lote 1 para C1 (variação 3 da tabela 5.1), que serve para tirar mais de um vencedor dentro do conceito.
+- **Iteração** (muda uma variável só, e só em cima de um conceito que já mostrou resultado): título, gancho dentro do mesmo conceito, formato, texto de data, mensageiro, preço visível. Estão na seção 5 (variações com sufixo) e na tabela de teste (seção 7). Nenhuma iteração sobe antes da leitura de 09/11 (ver seção 8), exceto o par de ganchos já previsto no lote 1 para C1 (variação 3 da tabela 5.1), que serve para tirar mais de um vencedor dentro do conceito.
 
 ---
 
@@ -110,7 +114,7 @@ Padrões comuns a todos:
 | # | Gancho | Palavras | Clareza | Curiosidade | Verdade | O corpo cumpre porque |
 |---|---|---|---|---|---|---|
 | G1 | "O monitor mostra um número. A decisão é sua." | 8 | 5 | 4 | 5 | O programa trata de hipnose, nocicepção, analgesia e despertar com EEG e índices lidos "de forma clínica" |
-| G2 | "Dos planos de Guedel ao awareness intraoperatório, em uma sexta." | 10 | 4 | 4 | 5 | Aula de sexta, 08h45 às 09h45, tem exatamente esse título |
+| G2 | "Dos planos de Guedel ao awareness intraoperatório, em uma sexta." | 10 | 4 | 4 | 5 | Há uma aula de sexta com exatamente esse título |
 | G3 | "O que está por trás do número do BIS?" | 8 | 4 | 5 | 4 | Aulas de sexta sobre EEG, análises espectrais e índices processados, com o BIS em destaque |
 
 - **Texto principal (v1, G1):**
@@ -128,11 +132,11 @@ Padrões comuns a todos:
 - **Texto na imagem 9:16:** em duas linhas centrais, "O monitor mostra um número." e "A decisão é sua." Abaixo: "Workshop de Neuromonitorização Veterinária | 20 e 21/11 | São Paulo". Rodapé como acima.
 - **Variação de gancho (G2), texto principal curto:**
 
-> Dos planos de Guedel ao awareness intraoperatório, em uma sexta-feira. A aula de 20/11, das 08h45 às 09h45, trata das limitações dos planos de Guedel e dos sinais clínicos e da avaliação do paciente na presença de bloqueadores neuromusculares.
+> Dos planos de Guedel ao awareness intraoperatório, em uma sexta-feira. Na sexta, 20/11, a aula trata das limitações dos planos de Guedel e dos sinais clínicos e da avaliação do paciente na presença de bloqueadores neuromusculares.
 >
 > No sábado (21/11), casos de anestesia com e sem bloqueio neuromuscular. Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. 16 h presenciais, 30 vagas, por ordem de inscrição, em São Paulo.
 
-  Título da variação: Dos planos de Guedel ao awareness (33 caracteres). Descrição: 16 h presenciais, 30 vagas (26 caracteres: "16 h presenciais, 30 vagas" tem 2+1+1+1+11+1+2+1+5 = 25, dentro do limite). Texto na imagem: "Dos planos de Guedel ao awareness intraoperatório" e "Sexta, 20/11".
+  Título da variação: Dos planos de Guedel ao awareness (33 caracteres). Descrição: 16 h presenciais, 30 vagas (26 caracteres). Texto na imagem: "Dos planos de Guedel ao awareness intraoperatório" e "Sexta, 20/11".
 
 ### C2 SEXSAB: Sexta teórica, sábado prático
 
@@ -144,9 +148,9 @@ Padrões comuns a todos:
 |---|---|---|---|---|---|---|
 | G1 | "Sexta: a base. Sábado: a prática." | 6 | 5 | 3 | 5 | Sexta teórica e sábado prático, 8 h e 8 h |
 | G2 | "Sem exigir EEG prévio: a sexta constrói a base." | 8 | 5 | 4 | 5 | FAQ da página |
-| G3 | "16 horas, dois dias: o que acontece em cada bloco." | 9 | 4 | 4 | 5 | Carrossel mostra a grade |
+| G3 | "16 horas, dois dias: o que acontece em cada dia." | 9 | 4 | 4 | 5 | Carrossel mostra a grade por dia |
 
-- **Carrossel 1:1 (7 cartões, texto curto, programação):**
+- **Carrossel 1:1 (7 cartões, texto curto, programação por dia, sem horário de bloco):**
 
 | Cartão | Texto na imagem |
 |---|---|
@@ -167,7 +171,7 @@ Padrões comuns a todos:
 > Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. 16 h, das 08h às 18h nos dois dias. 30 vagas presenciais, por ordem de inscrição.
 
 - **Título:** Sexta teórica, sábado prático (29 caracteres)
-- **Descrição:** 16 h presenciais em São Paulo (28 caracteres)
+- **Descrição:** 16 h presenciais em São Paulo (29 caracteres)
 - **Chamada:** Saiba mais
 - **Texto na imagem 1:1 estático:** "Sexta: a base. Sábado: a prática." Apoio: "16 h | 30 vagas presenciais, por ordem de inscrição". Rodapé: "Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE".
 - **Texto na imagem 9:16:** igual ao 1:1 em três linhas centrais, mais a linha "Sem exigir EEG prévio" (variação G2, gancho "sem-eeg-previo").
@@ -175,14 +179,14 @@ Padrões comuns a todos:
 ### C3 BISLER: Ler de verdade (BIS, PSI e Conox)
 
 - **Público (persona):** anestesiologista com monitor de índice processado na rotina (E1a). Público Meta: o mesmo conjunto amplo, com remarketing de quem viu o vídeo de C1 ou C4 por mais de 50% [SUPOSIÇÃO de regra de público de vídeo; o anuncios-meta decide].
-- **Ângulo:** curiosidade e cautela com evidência. **Objeção respondida:** "o BIS é validado em cães e gatos?" (O8). A peça nunca afirma validade nem eficácia: a resposta é a existência das aulas (sexta, 14h30 e 15h45).
+- **Ângulo:** curiosidade e cautela com evidência. **Objeção respondida:** "o BIS é validado em cães e gatos?" (O8). A peça nunca afirma validade nem eficácia: a resposta é a existência das duas aulas de sexta.
 - **Ganchos verdadeiros:**
 
 | # | Gancho | Palavras | Clareza | Curiosidade | Verdade | O corpo cumpre porque |
 |---|---|---|---|---|---|---|
-| G1 | "O que a literatura veterinária diz sobre BIS, PSI e Conox?" | 10 | 5 | 5 | 5 | Aula de 14h30: "revisão da literatura", "evidências veterinárias e limitações" |
-| G2 | "Sinal bom ou artefato? Checar antes de interpretar." | 8 | 5 | 4 | 5 | Sábado, 09h00: checagem da qualidade do sinal e identificação de falhas de instalação |
-| G3 | "Adaptação de eletrodos de agulha: o que está validado?" | 8 | 4 | 4 | 5 | Título literal da aula de 15h45 |
+| G1 | "O que a literatura veterinária diz sobre BIS, PSI e Conox?" | 10 | 5 | 5 | 5 | Aula de sexta: "revisão da literatura", "evidências veterinárias e limitações" |
+| G2 | "Sinal bom ou artefato? Checar antes de interpretar." | 8 | 5 | 4 | 5 | Sábado: checagem da qualidade do sinal e identificação de falhas de instalação |
+| G3 | "Adaptação de eletrodos de agulha: o que está validado?" | 8 | 4 | 4 | 5 | Título literal de uma aula de sexta |
 
 - **Texto principal (v1, G1):**
 
@@ -191,25 +195,27 @@ Padrões comuns a todos:
 > Na sexta (20/11), o workshop revisa as evidências veterinárias e as limitações desses índices e discute o que está validado na adaptação de eletrodos de agulha. No sábado (21/11), treina instalar o sensor, checar a qualidade do sinal e identificar falhas de instalação.
 >
 > Para quem tem o BIS na rotina e quer ler além do número. 16 h presenciais em São Paulo, 30 vagas, por ordem de inscrição.
+>
+> Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
 
 - **Título:** Sinal bom ou artefato? (22 caracteres)
 - **Descrição:** BIS, EEG e TOF, 20 e 21/11 (26 caracteres)
 - **Chamada:** Saiba mais
-- **Texto na imagem 1:1:** "Sinal bom ou artefato?" Apoio: "Instalar, checar e ler: sábado, 21/11". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
-- **Texto na imagem 9:16:** "O que a literatura veterinária diz sobre BIS, PSI e Conox?" Apoio: "Aula de revisão na sexta, 20/11". Rodapé igual.
+- **Texto na imagem 1:1:** "Sinal bom ou artefato?" Apoio: "Instalar, checar e ler: sábado, 21/11". Rodapé: "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | Realização: Faculdade UFAPE".
+- **Texto na imagem 9:16:** "O que a literatura veterinária diz sobre BIS, PSI e Conox?" Apoio: "Aula de revisão na sexta, 20/11". Rodapé igual ao do 1:1, com o nome completo.
 
 ### C4 UTIBNM: UTI com bloqueio neuromuscular
 
 - **Público (persona):** intensivista (E1b). Público Meta: o mesmo conjunto amplo, com interesse adicional em terapia intensiva e emergência veterinária [SUPOSIÇÃO]; mesmo remarketing.
-- **Ângulo:** medo e dor da rotina (avaliar hipnose e sedação em paciente sob bloqueio). **Objeção respondida:** "serve para UTI ou só para o centro cirúrgico?". Prova: "tanto no centro cirúrgico quanto na UTI" e dois blocos de UTI (sexta, 16h30; sábado, 16h15).
+- **Ângulo:** medo e dor da rotina (avaliar hipnose e sedação em paciente sob bloqueio). **Objeção respondida:** "serve para UTI ou só para o centro cirúrgico?". Prova: "tanto no centro cirúrgico quanto na UTI" e dois blocos de UTI (um na sexta e um no sábado).
 - **Afirmação técnica para a coordenação científica conferir (AP6):** "o paciente sob bloqueio neuromuscular não mostra, pelo sinal clínico, se está consciente". A casa de mensagens usa a frase no estágio inconsciente. Se a coordenação preferir outra formulação, só a cópia muda.
 - **Ganchos verdadeiros:**
 
 | # | Gancho | Palavras | Clareza | Curiosidade | Verdade | O corpo cumpre porque |
 |---|---|---|---|---|---|---|
-| G1 | "Paciente sob bloqueio neuromuscular. Está dormindo?" | 6 | 5 | 5 | 5 | Sexta, 16h30: avaliação de hipnose e sedação sob BNM; sábado, 16h15 e 17h15 |
+| G1 | "Paciente sob bloqueio neuromuscular. Está dormindo?" | 6 | 5 | 5 | 5 | Aula de sexta sobre avaliação de hipnose e sedação sob BNM e casos de UTI no sábado |
 | G2 | "Sedação em UTI: o que EEG, BIS e TOF mostram?" | 9 | 4 | 4 | 5 | Mesma grade: "interpretação de EEG e BIS, relação com o EMG e monitorização neuromuscular por TOF" |
-| G3 | "Dois blocos de UTI com bloqueio neuromuscular na grade." | 9 | 4 | 3 | 5 | Contagem real: sexta 16h30 e sábado 16h15 |
+| G3 | "Dois blocos de UTI com bloqueio neuromuscular na grade." | 9 | 4 | 3 | 5 | Contagem real: um na sexta e um no sábado |
 
 - **Texto principal (v1, G1):**
 
@@ -218,25 +224,27 @@ Padrões comuns a todos:
 > O workshop trata disso na sexta (20/11), com a aula de UTI e bloqueadores neuromusculares (EEG, BIS, EMG e monitorização do bloqueio por TOF), e no sábado (21/11), com casos de UTI com BNM, EEG e BIS e treino da leitura do TOF em simulações ou registros clínicos.
 >
 > 16 h presenciais em São Paulo, 30 vagas, por ordem de inscrição. Faculdade Ufape, Unidade 2, Av. Tiradentes, 960.
+>
+> Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
 
 - **Título:** UTI e bloqueio neuromuscular (28 caracteres)
 - **Descrição:** EEG, BIS e TOF na UTI (21 caracteres)
 - **Chamada:** Saiba mais
-- **Texto na imagem 9:16:** "Paciente sob bloqueio neuromuscular. Está dormindo?" Apoio: "EEG, BIS e TOF na UTI | 20 e 21/11 | São Paulo". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
-- **Texto na imagem 1:1:** igual, em quatro linhas. A arte é ilustração de linha de tempo com traçado de EEG e uma sequência de quatro pulsos de TOF, sem imagem de paciente.
+- **Texto na imagem 9:16:** "Paciente sob bloqueio neuromuscular. Está dormindo?" Apoio: "EEG, BIS e TOF na UTI | 20 e 21/11 | São Paulo". Rodapé: "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | Realização: Faculdade UFAPE".
+- **Texto na imagem 1:1:** igual, em quatro linhas, com o mesmo rodapé de nome completo. A arte é ilustração de linha de tempo com traçado de EEG e uma sequência de quatro pulsos de TOF, sem imagem de paciente.
 
 ### C5 TRANSM: Teoria de sexta, ao vivo e gravada
 
 - **Público (persona):** quem não estará em São Paulo nos dois dias (inclui residente, E1c). Público Meta: nacional, mesmo conjunto amplo de interesses (o transmitido não exige estar em São Paulo), mais remarketing de visitantes da página.
 - **Ângulo:** flexibilidade. **Objeções respondidas:** O2 (moro fora, plantão) e O7 ("vale a pena sem o sábado?"). A peça diz sempre o que o ingresso não inclui, para ninguém comprar achando que é o evento completo.
-- **Bloqueio de subida:** o produto 68634 está em "verificar" no catálogo (sem data na loja, 24 h contra 16 h do evento, modalidade "Presencial" na loja). Enquanto a Ufape não corrigir [CONFIRMAR NO CATÁLOGO], o anúncio do transmitido não sobe, porque o clique chega à página que vende esse produto. A peça não cita carga horária nem certificado nem prazo de acesso à gravação [CONFIRMAR NO CATÁLOGO].
+- **Bloqueio de subida:** o produto 68634 está em "verificar" no catálogo (sem data na loja, 24 h contra 16 h do evento, modalidade "Presencial" na loja; fonte: contexto/catalogo-de-cursos.md, seção 4). Enquanto a Ufape não corrigir [CONFIRMAR NO CATÁLOGO], o anúncio do transmitido não sobe, porque o clique chega à página que vende esse produto. A peça não cita carga horária nem certificado nem prazo de acesso à gravação [CONFIRMAR NO CATÁLOGO].
 - **Ganchos verdadeiros:**
 
 | # | Gancho | Palavras | Clareza | Curiosidade | Verdade | O corpo cumpre porque |
 |---|---|---|---|---|---|---|
 | G1 | "Para acompanhar de onde estiver: a teoria de sexta." | 9 | 5 | 3 | 5 | Página: aulas teóricas da sexta transmitidas ao vivo e gravadas |
 | G2 | "Só a teoria de sexta, ao vivo e gravada." | 8 | 5 | 3 | 5 | Texto literal do ingresso |
-| G3 | "Da neuroanatomia ao EEG, ao BIS e à UTI, sem ir a São Paulo." | 12 | 4 | 4 | 4 | Grade de sexta; evita "oito temas" |
+| G3 | "Da neuroanatomia ao EEG, ao BIS e à UTI, sem ir a São Paulo." | 12 | 4 | 4 | 4 | Grade de sexta |
 
 - **Texto principal (v1, G1):**
 
@@ -254,12 +262,13 @@ Padrões comuns a todos:
 
 ### C6 BASE: 20% para aluno e ex-aluno Ufape (versão para a base, com o cupom SIMPNEUROMONIT)
 
+- **Estado: BLOQUEADO.** Cupom sem validade e sem limite informados falha o item "desconto com regra, público e prazo" da conformidade. O texto abaixo está pronto, com a validade como [CONFIRMAR]. Só sobe depois que a Ufape informar a validade e o limite, e a validade entra no texto principal no lugar do marcador.
 - **Público:** base de alunos e ex-alunos. Duas rotas, a segunda só se a primeira não for liberada:
   1. Público personalizado de lista de contatos, **só com base legal confirmada** (LGPD) e opt-in [CONFIRMAR]. Nenhuma lista chega à squad: só a contagem por segmento (briefing, seção 1).
   2. Sem base legal, o mesmo anúncio roda para remarketing de visitantes da página e de quem engajou com o Instagram. A cópia está em terceira pessoa ("aluno e ex-aluno Ufape têm 20%"), não afirma que quem vê é aluno.
   Esta peça não roda para público frio de interesses (item W7 do gestor).
 - **Ângulo:** condição e preço. **Objeção respondida:** "R$ 1.250,00 por dois dias é muito" (O1), sem citar valor.
-- **Regra do cupom que a peça usa (e só ela):** "Aluno e ex-aluno UFAPE comprovam o vínculo com a secretaria para garantir a condição especial" (página). Validade, limite de uso, canal e prazo da comprovação, e se vale para aluno de pós em curso: [CONFIRMAR]. Por isso a peça não cria prazo nem ordem de passos. Valor com desconto: não calculado.
+- **Regra do cupom que a peça usa:** "Aluno e ex-aluno UFAPE comprovam o vínculo com a secretaria para garantir a condição especial" (página). Validade: [CONFIRMAR validade do cupom com a Ufape]. Limite de uso, canal e prazo da comprovação e se vale para aluno de pós em curso: [CONFIRMAR]. A peça não cria prazo nem ordem de passos além do que a página diz. Valor com desconto: não aparece.
 - **Ganchos verdadeiros:**
 
 | # | Gancho | Palavras | Clareza | Curiosidade | Verdade | O corpo cumpre porque |
@@ -268,18 +277,18 @@ Padrões comuns a todos:
 | G2 | "Cupom SIMPNEUROMONIT: 20% para quem é da casa." | 8 | 4 | 3 | 4 | Mesmo fato; "da casa" é expressão informal [SUPOSIÇÃO de voz] |
 | G3 | "Presencial ou só a teoria de sexta: o cupom vale nas duas." | 12 | 4 | 3 | 4 | A página mostra o desconto nas duas modalidades; pedido de confirmação do gestor em aberto |
 
-- **Texto principal (v1, G1), sem preço, liberável:**
+- **Texto principal (v1, G1), sem preço:**
 
 > Aluno e ex-aluno Ufape têm 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, com o cupom SIMPNEUROMONIT.
 >
 > A condição aparece nas duas modalidades da página: o presencial (sexta teórica e sábado prático, 20 e 21/11, 16 h, 30 vagas, por ordem de inscrição, em São Paulo) e o Workshop Transmitido + Gravado (apenas teórico, só a sexta, 20/11).
 >
-> Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial.
+> Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial. Cupom válido até [CONFIRMAR validade com a Ufape].
 
 - **Título:** 20% para aluno e ex-aluno Ufape (31 caracteres)
 - **Descrição:** Cupom SIMPNEUROMONIT (20 caracteres)
 - **Chamada:** Saiba mais
-- **Texto na imagem 1:1:** "Aluno e ex-aluno Ufape: 20% no workshop." Apoio: "Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria". Rodapé: "Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE".
+- **Texto na imagem 1:1:** "Aluno e ex-aluno Ufape: 20% no workshop." Apoio: "Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria". Rodapé: "Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE". A validade entra na arte quando a Ufape informar.
 - **Texto na imagem 9:16:** "Aluno e ex-aluno Ufape" e, abaixo, "20% no workshop de neuromonitorização". Apoio: "Cupom SIMPNEUROMONIT". Rodapé igual.
 - **Texto do cupom em caixa alta:** o código SIMPNEUROMONIT é o único trecho em caixa alta, por ser o código exato (regra de sigla).
 
@@ -287,7 +296,7 @@ Padrões comuns a todos:
 
 ## 3. Roteiros de vídeo curto 9:16 (Reels e Stories da Meta)
 
-Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gancho nos 3 primeiros segundos; legenda queimada na imagem o tempo todo (o vídeo funciona sem som); trilha instrumental sem voz [SUPOSIÇÃO: nenhum locutor nem docente gravado]; sem rosto de docente; imagem só de ilustração, tela de traçado estilizado e cartões de texto. Imagem real do ambiente da Unidade 2, de equipamento ou de participante só com autorização registrada [CONFIRMAR autorização]; sem imagem de animal em procedimento. Texto fora das zonas cobertas pela interface. Fechamento sempre com o nome do evento, data, local e a chamada para tocar em "Saiba mais". Nenhuma tela mostra preço, certificado ou docente.
+Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gancho nos 3 primeiros segundos; legenda queimada na imagem o tempo todo (o vídeo funciona sem som); trilha instrumental sem voz [SUPOSIÇÃO: nenhum locutor nem docente gravado]; sem rosto de docente; imagem só de ilustração, tela de traçado estilizado e cartões de texto. Imagem real do ambiente da Unidade 2, de equipamento ou de participante só com autorização registrada [CONFIRMAR autorização]; sem imagem de animal em procedimento. Texto fora das zonas cobertas pela interface. Fechamento sempre com o nome do evento, data, local e a chamada para tocar em "Saiba mais". Nenhuma tela mostra preço, certificado, docente ou horário de bloco.
 
 ### R1. neuro26_alem_vid916_numero-na-tela_v1 (20 s)
 
@@ -316,7 +325,7 @@ Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gan
 | 3 a 9 s | Cartão | "Sexta, 20/11: revisão das evidências veterinárias e das limitações dos índices." |
 | 9 a 15 s | Cartão | "Adaptação de eletrodos de agulha: o que está validado?" |
 | 15 a 22 s | Traçado com trecho marcado como artefato | "Sábado, 21/11: instalar o sensor, checar a qualidade do sinal, identificar falhas de instalação." |
-| 22 a 25 s (CTA) | Fechamento | "Workshop de Neuromonitorização Veterinária | São Paulo. Toque em Saiba mais." |
+| 22 a 25 s (CTA) | Fechamento | "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | São Paulo. Toque em Saiba mais." |
 
 ### R4. neuro26_utibnm_vid916_dormindo_v1 (24 s) (peça-base do criativo 3 do kit)
 
@@ -326,7 +335,7 @@ Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gan
 | 3 a 9 s | Cartão | "Avaliar hipnose e sedação sob bloqueio: EEG, BIS, EMG e TOF." |
 | 9 a 17 s | Dois cartões | "Sexta, 20/11: UTI e bloqueadores neuromusculares." e "Sábado, 21/11: casos de UTI com BNM, em simulações ou registros clínicos." |
 | 17 a 21 s | Cartão | "Desafio em pequenos grupos: caso com BIS e TOF." |
-| 21 a 24 s (CTA) | Fechamento | "16 h | 30 vagas presenciais | São Paulo. Toque em Saiba mais." |
+| 21 a 24 s (CTA) | Fechamento | "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | 16 h | 30 vagas presenciais | São Paulo. Toque em Saiba mais." |
 
 ### R5. neuro26_transm_vid916_ao-vivo-gravada_v1 (20 s) (bloqueado, ver C5)
 
@@ -343,15 +352,16 @@ Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gan
 
 | Item | Conteúdo |
 |---|---|
+| Estado | **Bloqueada** até a Ufape informar a validade e o limite do cupom |
 | Peça | C6 BASE, nome base `neuro26_base_est11_20-aluno_v1` e `neuro26_base_est916_20-aluno_v1` |
 | Código | SIMPNEUROMONIT |
 | Desconto | 20%, para aluno e ex-aluno Ufape, sem valor calculado em lugar nenhum |
-| Regra citada na peça | Só a frase da página: "Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial." |
+| Regra citada na peça | A frase da página: "Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial." Mais "Cupom válido até [CONFIRMAR validade com a Ufape]" |
 | Público | Lista de contatos com base legal e opt-in [CONFIRMAR]; sem isso, remarketing de visitantes da página e de engajados do Instagram |
 | Onde não roda | Público frio de interesses |
 | Medição | Usos do cupom (número somado, enviado pela Ufape) e inscrições por origem (utm_content). Inscrições com cupom ficam fora do custo por inscrição da mídia (memorando do gestor, seção 7.3) |
-| Texto equivalente para o CRM | Não é desta etapa: o convite por WhatsApp e e-mail é do copy-de-mensagens (30/10). O texto principal de C6 pode ser reaproveitado por ele |
-| Pendências | Validade e limite do cupom, canal e prazo da comprovação, e se vale para aluno de pós em curso [CONFIRMAR]; confirmar que vale no transmitido (a página mostra nos dois ingressos, o memorando do gestor pede confirmação) |
+| Texto equivalente para o CRM | Não é desta etapa: o convite por WhatsApp e e-mail é do copy-de-mensagens (30/10). O texto principal de C6 pode ser reaproveitado por ele depois da validade |
+| Pendências | Validade [CONFIRMAR], limite de uso, canal e prazo da comprovação, se vale para aluno de pós em curso, e se vale no transmitido (a página mostra nos dois ingressos, o memorando do gestor pede confirmação) |
 
 ---
 
@@ -359,9 +369,11 @@ Regras comuns: duração de 18 a 25 s (cabe em Reels e Stories de anúncio); gan
 
 Padrão do nome: `neuro26_<conceito>_<formato>_<gancho>_v<n>`, em minúsculas, sem acento, com hífen dentro de cada bloco. Formatos: `est11` (estático 1:1), `est916` (estático 9:16), `car11` (carrossel 1:1), `vid916` (vídeo 9:16). O mesmo nome vai no nome do anúncio no gerenciador e em `utm_content`. O prefixo `neuro26` é [SUPOSIÇÃO] até o padrão de nomenclatura do gestor-de-midia (código do catálogo no nome, M16): o código do produto presencial do workshop ainda não existe no catálogo [CONFIRMAR].
 
-### 5.1 Variações liberáveis para aprovação (sem preço, sem docente, sem número de vagas restantes)
+### 5.1 Variações liberáveis para aprovação (sem preço, sem cupom, sem docente, sem vagas restantes)
 
-| # | Nome padrão | Conceito | Formato | Gancho | O que difere do v1 do conceito | Lote de subida |
+Liberáveis para aprovação do texto. A subida de todas continua bloqueada até a seção 10.2 ser resolvida.
+
+| # | Nome padrão | Conceito | Formato | Gancho | O que difere do v1 do conceito | Lote de subida (quando a subida for liberada) |
 |---|---|---|---|---|---|---|
 | 1 | neuro26_alem_est11_numero-na-tela_v1 | C1 | est 1:1 | G1 | peça-base | 1 |
 | 2 | neuro26_alem_est916_numero-na-tela_v1 | C1 | est 9:16 | G1 | formato | 1 |
@@ -377,8 +389,6 @@ Padrão do nome: `neuro26_<conceito>_<formato>_<gancho>_v<n>`, em minúsculas, s
 | 12 | neuro26_bisler_vid916_literatura_v1 (R3) | C3 | vídeo 9:16 | G1 | peça-base | 3 |
 | 13 | neuro26_bisler_est11_sinal-ou-artefato_v1 | C3 | est 1:1 | G2 | formato e gancho | 3 |
 | 14 | neuro26_bisler_est916_literatura_v1 | C3 | est 9:16 | G1 | formato | 3 |
-| 15 | neuro26_base_est11_20-aluno_v1 | C6 | est 1:1 | G1 | peça-base (público de base) | 1 (paralelo) |
-| 16 | neuro26_base_est916_20-aluno_v1 | C6 | est 9:16 | G1 | formato | 1 (paralelo) |
 
 ### 5.2 Variações bloqueadas (existem, mas só sobem quando a condição for cumprida)
 
@@ -387,12 +397,15 @@ Padrão do nome: `neuro26_<conceito>_<formato>_<gancho>_v<n>`, em minúsculas, s
 | B1 | neuro26_transm_est11_ao-vivo-gravada_v1 | C5 | Ufape corrige o produto 68634 (data, carga, modalidade) [CONFIRMAR NO CATÁLOGO] e confirma presença e certificado no online só para atendimento [CONFIRMAR] | Peça-base de C5 |
 | B2 | neuro26_transm_est916_ao-vivo-gravada_v1 | C5 | Mesma de B1 | |
 | B3 | neuro26_transm_vid916_ao-vivo-gravada_v1 (R5) | C5 | Mesma de B1 | |
-| B4 | neuro26_alem_est11_numero-na-tela_v2-preco | C1 | Parcelamento e formas de pagamento no catálogo (E5) e ok da Ufape (AP7) | Única mudança: linha de preço "Presencial R$ 1.250,00 | Apenas teórico R$ 450,00". Testa preço visível (T8) |
-| B5 | neuro26_base_est11_20-aluno_v2-preco | C6 | Igual a B4, mais regra do cupom completa (E6) | Mostra preço de tabela, nunca o valor com desconto |
+| B4 | neuro26_alem_est11_numero-na-tela_v2-preco | C1 | Condição do presencial no catálogo [CONFIRMAR NO CATÁLOGO] (o transmitido já tem condição no catálogo, depois da correção do 68634) e ok da Ufape (AP7) | Única mudança: linha de preço "Presencial R$ 1.250,00 | Apenas teórico R$ 450,00". Testa preço visível (T8) |
+| B5 | neuro26_base_est11_20-aluno_v2-preco | C6 | Igual a B4, mais validade e regra do cupom completas (E6) | Mostra preço de tabela, nunca o valor com desconto |
 | B6 | neuro26_alem_est11_numero-na-tela_v3-coordenacao | C1 | Autorização registrada da coordenação científica [CONFIRMAR autorização] | Única mudança: acrescenta em texto "Coordenação científica: Profa. Dra. Mayara Travalini de Lima". Sem foto. Testa mensageiro (T7) |
 | B7 | neuro26_alem_est11_comeca-sexta_v2-data | C1 | Só depois da leitura de 09/11 e dentro da janela 14 a 18/11 | Única mudança: gancho de data "Começa na sexta, 20/11" (fato de calendário, sem escassez) |
-| B8 | neuro26_alem_est11_restam-vagas_v2 | C1 | Número de vagas restantes enviado pela Ufape, com data e hora [DADO NÃO FORNECIDO] | Frase modelo: "Restam [N] vagas presenciais em [data]". Sem número real, não existe |
-| B9 | neuro26_sexsab_car11_sexta-base_v2-horarios | C2 | Fim das inscrições confirmado [CONFIRMAR] | Acrescenta o cartão "Inscrições até [data]". Sem data real, não existe |
+| B9 | neuro26_sexsab_car11_sexta-base_v2-fim-inscricoes | C2 | Fim das inscrições confirmado [CONFIRMAR] | Acrescenta o cartão "Inscrições até [data]". Sem data real, não existe |
+| B10 | neuro26_base_est11_20-aluno_v1 | C6 | **Validade e limite do cupom informados pela Ufape** [CONFIRMAR]; base legal da lista (A13), senão remarketing | Peça-base de C6, texto na seção 2 com "Cupom válido até [CONFIRMAR]" |
+| B11 | neuro26_base_est916_20-aluno_v1 | C6 | Mesma de B10 | |
+
+Nota: a variação B8 ("Restam [N] vagas presenciais") foi retirada deste pacote. Nenhuma peça cita vagas restantes: "30 vagas" aparece só como total. Se a Ufape registrar o número no catálogo ou na ficha, com data, abre variação nova e nova rodada do qa-de-marketing. A numeração segue sem B8 para não confundir referências anteriores.
 
 ---
 
@@ -400,12 +413,12 @@ Padrão do nome: `neuro26_<conceito>_<formato>_<gancho>_v<n>`, em minúsculas, s
 
 | Conceito | est11 | est916 | car11 | vid916 | Bloqueio |
 |---|---|---|---|---|---|
-| C1 ALEM | sim (v1 e G2) | sim | não | sim (R1) | B4, B6, B7, B8 |
+| C1 ALEM | sim (v1 e G2) | sim | não | sim (R1) | B4, B6, B7 |
 | C2 SEXSAB | sim | sim | sim (principal) | sim (R2) | B9 |
 | C3 BISLER | sim | sim | não | sim (R3) | nenhum |
 | C4 UTIBNM | sim | sim | não | sim (R4, principal) | nenhum |
 | C5 TRANSM | bloqueado | bloqueado | não | bloqueado (R5) | 68634 |
-| C6 BASE | sim | sim | não | não | B5; público de lista depende de base legal |
+| C6 BASE | bloqueado (B10) | bloqueado (B11) | não | não | validade do cupom; B5; público de lista depende de base legal |
 
 ---
 
@@ -426,9 +439,9 @@ Regras do teste (do memorando do gestor e da skill):
 | T3 | A dúvida sobre evidência (C3) funciona melhor no remarketing do que no frio | Conceito (C3) e público (frio contra remarketing) | Custo por inscrição ou por início de checkout no remarketing | Frequência, CTR | C3 com custo menor no remarketing do que os outros conceitos no mesmo público, em 2 leituras | 13/11 | Priorizar C3 no remarketing da última semana |
 | T4 | Dentro do conceito vencedor, o gancho com termo técnico da grade (G2) retém mais que o gancho de decisão (G1) | Gancho (G1 contra G2, tudo o mais igual) | CTR no link e custo por visualização da página | Custo por início de checkout | G2 melhor em CTR e em custo por visualização, sem piora no custo por início de checkout, em 2 leituras | 13/11 | Trocar o anúncio de G1 por G2; guardar G1 |
 | T5 | Dentro do conceito vencedor, o vídeo 9:16 retém e converte mais que o estático 1:1 | Formato (vid916 contra est11, mesmo gancho e mesmo texto) | Custo por início de checkout | Reproduções de 3 s, 50% e 95%, CTR | Vídeo com custo menor em 2 leituras e retenção de 50% que justifique | 13/11 | Pedir mais variações de vídeo; se estático ganha, não produzir mais vídeo para esta edição |
-| T6 | O cupom para a base gera inscrições com custo e volume que justificam a faixa paralela | Público (base contra remarketing sem cupom), mesmo evento | Usos do cupom e inscrições por `utm_content` (números somados enviados pela Ufape) | Taxa de cliques no link, frequência | Inscrições com cupom em volume que a Ufape considere relevante [DADO NÃO FORNECIDO: meta de inscritos com cupom] | 09/11 e 16/11 | Reforçar a base no WhatsApp e e-mail (outro agente) |
+| T6 | O cupom para a base gera inscrições com custo e volume que justificam a faixa paralela | Público (base contra remarketing sem cupom), mesmo evento | Usos do cupom e inscrições por `utm_content` (números somados enviados pela Ufape) | Taxa de cliques no link, frequência | Inscrições com cupom em volume que a Ufape considere relevante [DADO NÃO FORNECIDO: meta de inscritos com cupom] | 09/11 e 16/11, só se C6 for liberado | Reforçar a base no WhatsApp e e-mail (outro agente) |
 | T7 | O mensageiro com a coordenação científica nomeada em texto aumenta o clique (prova de autoridade) | Mensageiro (B6 contra o v1 de C1, tudo o mais igual) | CTR no link e custo por início de checkout | Comentários e salvamentos | Melhora em 2 leituras seguidas, sem queda de custo por início de checkout | Depois da autorização, mínimo 5 dias de veiculação | Trocar o anúncio; liberar peças com docente para o orgânico (outro agente) |
-| T8 | Mostrar o preço de tabela no anúncio filtra o clique e melhora a qualidade do clique | Preço visível (B4 contra v1 de C1, tudo o mais igual) | Custo por início de checkout e taxa de início de checkout por clique | CTR no link | Menos cliques, mas custo por início de checkout menor ou igual, em 2 leituras | Só depois de E5 e AP7; mínimo 5 dias | Adotar a versão com preço nos anúncios de remarketing |
+| T8 | Mostrar o preço de tabela no anúncio filtra o clique e melhora a qualidade do clique | Preço visível (B4 contra v1 de C1, tudo o mais igual) | Custo por início de checkout e taxa de início de checkout por clique | CTR no link | Menos cliques, mas custo por início de checkout menor ou igual, em 2 leituras | Só depois da condição do presencial no catálogo e de AP7; mínimo 5 dias | Adotar a versão com preço nos anúncios de remarketing |
 | T9 | Em remarketing, a data próxima ("Começa na sexta, 20/11") converte mais que a versão sem data | Texto de data (B7 contra v1 de C1) | Custo por inscrição ou por início de checkout | Frequência | Melhora em 2 leituras seguidas na janela 14 a 18/11 | 17/11 | Manter até 18 ou 19/11 |
 
 Se o gestor-de-midia entregar o custo por inscrição máximo e a verba, cada linha ganha o gasto mínimo por anúncio (1,5 a 3 vezes o custo por inscrição máximo) como complemento do critério. Hoje: [DADO NÃO FORNECIDO].
@@ -437,26 +450,29 @@ Se o gestor-de-midia entregar o custo por inscrição máximo e a verba, cada li
 
 ## 8. Ordem de subida dentro da reta final (27/10 a 19/11)
 
+**Bloqueio geral: nenhuma subida acontece, nem o lote 1 de 30/10, antes de estarem resolvidos, por um humano, a meta de custo, a verba com aprovador, o pixel e a API de Conversões testados e o plano do gestor-de-midia aprovado (seção 10.2). Hoje os quatro estão [CONFIRMAR].** As datas abaixo valem só depois disso; se o desbloqueio atrasar, o lote 1 desliza e a ordem se mantém.
+
 Cada subida é um **pedido de aprovação** para um humano executar no gerenciador. Nada sobe antes de aprovado pela pessoa do marketing e conferido pelo qa-de-marketing. Calendário base: briefing (seção 2) e memorando do gestor (seção 4.4). 26/10 é segunda; 02/11 e 20/11 são feriados nacionais (20/11 é o primeiro dia do evento).
 
 | Data | Passo | O que sobe ou muda | Condição | Por que nesta ordem |
 |---|---|---|---|---|
 | 27/10 (ter) a 28/10 (qua) | Preparação | Nada vai ao ar. Humano exporta os anúncios ativos do workshop para a auditoria de similaridade. Gestor revisa W1 a W9 e escreve custo por inscrição máximo. A Ufape responde E3 a E8 e a regra do cupom | Aprovação AP1 e AP2 | Sem meta escrita e sem inventário dos criativos que rodam, não dá para julgar nada |
 | 29/10 (qui) | Aprovação | Este pacote vai ao qa-de-marketing e à pessoa do marketing | Conformidade e AP deste documento | Prazo do briefing |
-| 30/10 (sex) | **Lote 1** | C1 (variações 1, 2 e 3) e C2 (variações 5 e 6) no conjunto de público amplo; C6 BASE (variações 15 e 16) em conjunto próprio, paralelo | Aprovação; teste de rastreio de compra feito (M7 e W8); base legal da lista confirmada, senão remarketing | O briefing põe os criativos 1 e 2 em teste nesta data. C1 e C2 são os dois mais distantes (4 dimensões). C6 não concorre com o frio |
+| 30/10 (sex) | **Lote 1** | C1 (variações 1, 2 e 3) e C2 (variações 5 e 6) no conjunto de público amplo | Bloqueio geral resolvido; aprovação; teste de rastreio de compra feito (M7 e W8) | O briefing põe os criativos 1 e 2 em teste nesta data. C1 e C2 são os dois mais distantes (4 dimensões) |
+| Quando a validade do cupom chegar | Faixa paralela da base | C6 (B10 e B11) em conjunto próprio | Validade e limite do cupom informados pela Ufape; base legal da lista, senão remarketing | C6 não concorre com o frio, mas não sobe sem validade |
 | 31/10 a 02/11 | Sem mudança | Nenhuma alteração. 02/11 é feriado | | Os dados do fim de semana prolongado subcontam: não ler tendência |
-| 03/11 (ter) | Checagem 1 (leitura qualitativa) | **Lote 2:** C4 (variações 9, 10 e 11) entra no mesmo conjunto; variação 4 (vídeo de C1) entra. Sem tirar nada | Resultado do lote 1 mostra o funil funcionando (cliques na página e início de checkout registrados). Sem rastreio, não sobe | Briefing: criativo 3 (intensivista) na semana 2. Uma entrada nova por conjunto: C4 e o vídeo entram juntos porque são anúncios novos, sem mexer em verba, público ou destino |
+| 03/11 (ter) | Checagem 1 (leitura qualitativa) | **Lote 2:** C4 (variações 9, 10 e 11) entra no mesmo conjunto; variação 4 (vídeo de C1) entra. Sem tirar nada | Resultado do lote 1 mostra o funil funcionando (cliques na página e início de checkout registrados). Sem rastreio, não sobe | Briefing: criativo 3 (intensivista) na semana 2. C4 e o vídeo entram juntos porque são anúncios novos, sem mexer em verba, público ou destino |
 | 06/11 (sex) | **Lote 3** | C3 (variações 12, 13 e 14) e C2 em vídeo (variação 8) entram | Lote 2 sem erro de entrega; nada trocado no mesmo dia | Dá 3 dias a cada entrada antes de 09/11 |
 | 09/11 (seg) | **Decisão** | Leitura de T1, T2 e T6. Ações possíveis: concentrar verba no conceito vencedor; pausar o anúncio que gastou o mínimo sem início de checkout; manter o resto. Uma mudança por conjunto | Gasto mínimo e 3 dias de dados; números do gerenciador e do CRM batem (senão, investigar) | Checagem prevista no briefing e no memorando (dobrar a aposta ou mudar o rumo) |
 | 10/11 (ter) | **Lote 4: transmitido** | C5 (B1, B2 e B3) em conjunto próprio de público nacional e remarketing | **Só se** o 68634 for corrigido (E2) e a Ufape confirmar o que o ingresso entrega. Se não, C5 não sobe e o remarketing de última semana usa os conceitos presenciais | Briefing: "escolha do ingresso" na semana 3; o gestor prevê anúncio do transmitido entre 14 e 18/11 |
-| 10/11 a 12/11 | Iterações do vencedor | T4 (gancho) e T5 (formato) sobem, uma variável por vez e um teste por vez no conjunto. T7 (coordenação científica) entra se a autorização chegar. T8 (preço) entra se E5 estiver resolvido | Vencedor claro em T1; cada iteração com mudança de uma variável só | Regra: uma variável por teste só em cima de vencedor |
-| **12/11 (qui)** | **Último dia para anúncio novo** | Depois de 12/11, nenhum conceito novo e nenhuma iteração entra. Só reativação, troca de data e de vagas restantes (se houver número real) | Regra interna de 7 dias de aprendizado, aplicada por analogia ao que o gestor definiu para Pós e Livres (memorando, seção 5.1) [SUPOSIÇÃO] | Sem tempo de aprendizado nos últimos 7 dias |
+| 10/11 a 12/11 | Iterações do vencedor | T4 (gancho) e T5 (formato) sobem, uma variável por vez e um teste por vez no conjunto. T7 (coordenação científica) entra se a autorização chegar. T8 (preço) entra se a condição do presencial estiver no catálogo | Vencedor claro em T1; cada iteração com mudança de uma variável só | Regra: uma variável por teste só em cima de vencedor |
+| **12/11 (qui)** | **Último dia para anúncio novo** | Depois de 12/11, nenhum conceito novo e nenhuma iteração entra. Só reativação e troca de data | Regra interna de 7 dias de aprendizado, aplicada por analogia ao que o gestor definiu para Pós e Livres (memorando, seção 5.1) [SUPOSIÇÃO] | Sem tempo de aprendizado nos últimos 7 dias |
 | 13/11 (sex) | Leitura de T3, T4 e T5 | Concentrar o que venceu | Mesmo cuidado de dados | Última leitura antes da semana final |
-| 14/11 (sáb) a 16/11 (seg) | **Última semana, remarketing** | B7 ("Começa na sexta, 20/11", fato de calendário) entra no remarketing; vencedores de T4 e T5 ficam. Em 16/11, leitura final (briefing) | Janela de remarketing de visitantes da página; frequência controlada | A data próxima substitui escassez inventada |
-| 17/11 (ter) a 18/11 (qua) | Empurrão real | B8 ("Restam [N] vagas presenciais") **só se** a Ufape enviar o número com data. Sem número, o anúncio é o B7. Anúncio do transmitido (C5), se liberado, segue para quem não pode viajar | Número real | Urgência só com dado real (conformidade) |
+| 14/11 (sáb) a 16/11 (seg) | **Última semana, remarketing** | B7 ("Começa na sexta, 20/11", fato de calendário) entra no remarketing; vencedores de T4 e T5 ficam. Em 16/11, leitura final (briefing) | Janela de remarketing de visitantes da página; frequência controlada | A data próxima substitui qualquer escassez |
+| 17/11 (ter) a 18/11 (qua) | Última reta | B7 segue. Anúncio do transmitido (C5), se liberado, segue para quem não pode viajar. Nenhuma peça cita vagas restantes | | Urgência só pela data do evento |
 | 18/11 (qua) | Fim da mídia do presencial (briefing) | Pedido de pausa ou troca dos anúncios do presencial pelos do transmitido | Fim das inscrições do presencial [CONFIRMAR] | Briefing: 18/11; memorando do gestor: 19/11. Vale a data que a Ufape confirmar |
 | 19/11 (qui) | Pausa final | Pausa dos anúncios do presencial (e do transmitido, conforme o fim das inscrições). Pausar, nunca excluir | Fim das inscrições [CONFIRMAR] | Evento começa no dia seguinte |
-| Qualquer data | Pausa por lotação | Se as 30 vagas presenciais lotarem, pausar os anúncios do presencial e manter só o transmitido | Número real da Ufape | M9 do gestor |
+| Qualquer data | Pausa por lotação | Se as 30 vagas presenciais lotarem, pausar os anúncios do presencial e manter só o transmitido | Informação da Ufape de que lotou | M9 do gestor |
 
 Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (sem excluir). Efeito esperado: inscrições no presencial (teto 30) e no transmitido. Quanto: verba [DADO NÃO FORNECIDO]; nenhum pedido deste documento aumenta verba.
 
@@ -472,18 +488,18 @@ Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (s
 | A4 | Imagem de aluno, professor, participante ou do ambiente da Unidade 2 | Direito de imagem | Ufape, com termo registrado [CONFIRMAR] | não se aplica às peças-base (ilustração própria); só se a Ufape fornecer material |
 | A5 | Depoimento | Só real e autorizado | Ufape | não usado; nenhum depoimento escrito pela squad |
 | A6 | Preço (B4 e B5) | CDC: parcelamento e condições completas | Ufape (comercial e jurídico) | pendente (E5, AP7); peças-base sem preço |
-| A7 | Regra do cupom (validade, limite, canal e prazo da comprovação, aluno de pós, vale no transmitido) | CDC: regra, público e prazo | Ufape | pendente (E6); C6 usa só a frase da página |
+| A7 | Regra do cupom (validade, limite, canal e prazo da comprovação, aluno de pós, vale no transmitido) | CDC: regra, público e prazo | Ufape | pendente (E6); **bloqueia C6** |
 | A8 | Bolsa | Não há bolsa nesta campanha | n/a | não se aplica; sem menção às provas de 27/11 |
 | A9 | Nota do MEC, ato regulatório, certificado | Regulação | n/a | não se aplica: nenhuma peça cita MEC, nota ou certificado; decisão AP8 mantida como restritiva |
 | A10 | Produto 68634 corrigido na loja (data, carga, modalidade) | Página de destino entrega o que a peça promete | Ufape (páginas e preços) | pendente (E2); bloqueia C5 |
-| A11 | Número de vagas restantes com data | Urgência real | Ufape | [DADO NÃO FORNECIDO]; bloqueia B8 |
+| A11 | Vagas restantes | Fora desta rodada: só "30 vagas" como total | n/a | retirado; B8 não existe neste pacote |
 | A12 | Fim das inscrições do presencial e do transmitido | Data de pausa | Ufape | [CONFIRMAR]; bloqueia B9 e a data de pausa |
 | A13 | Público de lista de contatos para a base (C6) | LGPD: base legal e opt-in | Ufape | [CONFIRMAR]; sem isso C6 roda em remarketing |
 | A14 | Exportação dos anúncios ativos do workshop para a auditoria de similaridade | Skill matriz-de-criativos, passo 7 | Humano que executa no gerenciador, para o gestor-de-midia | pendente |
 | A15 | Manual de marca (logotipo, paleta, fonte) e o nome "Faculdade UFAPE" na arte | Identidade visual | Ufape | [CONFIRMAR] |
 | A16 | Padrão de UTM e prefixo de nome (neuro26) | Rastreio por origem | Gestor-de-midia e Ufape | [SUPOSIÇÃO] (P15) |
-| A17 | Pixel e API de Conversões: compra na página neuro-summit, código do produto presencial | Sem rastreio, nenhuma leitura de custo | Humano com o checklist do anuncios-meta | pendente (W8, M7) |
-| A18 | Posicionamento "feriado de 20/11" como argumento | Decisão comercial | Ufape | não usado |
+| A17 | Pixel e API de Conversões: compra na página neuro-summit, código do produto presencial | Sem rastreio, nenhuma leitura de custo | Humano com o checklist do anuncios-meta | pendente (W8, M7); bloqueia a subida |
+| A18 | "Feriado de 20/11" como argumento | Decisão comercial | Ufape | não usado |
 
 ---
 
@@ -491,7 +507,7 @@ Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (s
 
 ### 10.1 auditorias/conformidade-educacional.md, em cada conceito
 
-Legenda: [x] atendido; [ ] pendente, com o motivo; n/a não se aplica. O resultado do conceito é "liberado para aprovação" só quando nenhum item pendente é do próprio texto da peça.
+Legenda: [x] atendido; [ ] pendente, com o motivo; n/a não se aplica.
 
 | Bloco e item | C1 ALEM | C2 SEXSAB | C3 BISLER | C4 UTIBNM | C5 TRANSM | C6 BASE |
 |---|---|---|---|---|---|---|
@@ -500,13 +516,13 @@ Legenda: [x] atendido; [ ] pendente, com o motivo; n/a não se aplica. O resulta
 | Dados: modalidade clara | [x] "presenciais" | [x] | [x] | [x] | [x] "Apenas teórico" e "só presencial" para o sábado | [x] as duas separadas |
 | Regulação: pós, ato, nota MEC | n/a, sem menção | n/a | n/a | n/a | n/a | n/a |
 | Regulação: curso livre sem diploma | n/a (evento; texto de certificado [PREENCHER COM A REGULAÇÃO]); peça não cita certificado nem diploma | n/a | n/a | n/a | n/a | n/a |
-| Promessas: emprego, salário, aprovação, sucesso | [x] nenhuma; verbos descrevem o programa | [x] | [x] | [x] | [x] | [x] |
+| Promessas: emprego, salário, aprovação, sucesso, promessa clínica | [x] nenhuma; verbos descrevem o programa | [x] | [x] | [x] (frase técnica em A2) | [x] | [x] |
 | Promessas: dado de empregabilidade ou satisfação | n/a | n/a | n/a | n/a | n/a | n/a |
-| Promessas: superlativo | [x] nenhum ("primeiro", "único", "inédito", "imperdível" ausentes) | [x] | [x] | [x] | [x] | [x] |
+| Promessas: superlativo | [x] nenhum | [x] | [x] | [x] | [x] | [x] |
 | Promessas: comparação com concorrente | [x] nenhuma | [x] | [x] | [x] | [x] | [x] |
-| Preço: valor, parcelas e condições completas | [x] sem preço (peça liberável); B4 bloqueada por E5 | [x] sem preço | [x] sem preço | [x] sem preço | [x] sem preço; B1 a B3 bloqueadas por E2 | [x] sem valor calculado; B5 bloqueada |
-| Preço: bolsa e desconto com regra, público e prazo | n/a (sem cupom) | n/a | n/a | n/a | n/a | [ ] público e vínculo claros; validade e limite [CONFIRMAR] (E6). A cópia não inventa prazo |
-| Preço: urgência real | [x] só data e "30 vagas, por ordem de inscrição" | [x] | [x] | [x] | [x] | [x] |
+| Preço: valor, parcelas e condições completas | [x] sem preço (peça liberável); B4 bloqueada | [x] sem preço | [x] sem preço | [x] sem preço | [x] sem preço; B1 a B3 bloqueadas por E2 | [x] sem valor; B5 bloqueada |
+| Preço: bolsa e desconto com regra, público e prazo | n/a (sem cupom) | n/a | n/a | n/a | n/a | [ ] **Falha**: público e vínculo claros, mas validade e limite [CONFIRMAR] (E6) |
+| Preço: urgência real | [x] só data e "30 vagas, por ordem de inscrição" como total | [x] | [x] | [x] | [x] | [x] |
 | Preço: Prouni, Fies | n/a | n/a | n/a | n/a | n/a | n/a |
 | Pessoas: depoimento, foto, vídeo com autorização | [x] sem pessoa; B6 bloqueada | [x] | [x] | [x] | [x] | [x] |
 | Pessoas: menores | n/a (público 18 anos ou mais) | n/a | n/a | n/a | n/a | n/a |
@@ -514,30 +530,30 @@ Legenda: [x] atendido; [ ] pendente, com o motivo; n/a não se aplica. O resulta
 | Pessoas: WhatsApp e e-mail com consentimento | n/a nesta etapa | n/a | n/a | n/a | n/a | [ ] lista de contatos exige base legal e opt-in (A13) |
 | Pessoas: nenhum dado pessoal | [x] | [x] | [x] | [x] | [x] | [x] sem lista na squad |
 | Plataformas: políticas da Meta, sem segmentação discriminatória | [x] público 18+, sem atributo sensível | [x] | [x] | [x] | [x] | [x] |
-| Plataformas: destino entrega o que a peça promete | [ ] a página mostra convidados "A definir" e o preço abaixo da programação (E1, E12); a peça não promete nada que a página não tenha | [ ] idem | [ ] idem | [ ] idem | [ ] idem, mais o 68634 | [ ] idem; cupom sem código visível na página (E12) |
-| Anúncios: sem característica pessoal | [x] "para quem tem o BIS..." descreve uso; "O monitor mostra um número. Você decide." é afirmação sobre o leitor como decisor, não atributo protegido | [x] | [x] | [x] | [x] "Para quem não vai estar em São Paulo" descreve situação de uso, não atributo | [x] terceira pessoa |
+| Plataformas: destino entrega o que a peça promete | [ ] a página mostra convidados "A definir" e o preço abaixo da programação (E1, E12) | [ ] idem | [ ] idem | [ ] idem | [ ] idem, mais o 68634 | [ ] idem; cupom sem código visível na página (E12) |
+| Anúncios: sem característica pessoal | [x] "para quem tem o BIS..." descreve uso | [x] | [x] | [x] | [x] descreve situação de uso | [x] terceira pessoa |
 | Anúncios: sem escassez falsa, contador, play falso | [x] | [x] | [x] | [x] | [x] | [x] |
 | Anúncios: sem pessoa pública ou parceria inexistente | [x] | [x] | [x] | [x] | [x] | [x] |
 | Anúncios: sem caixa alta excessiva ou pontuação repetida | [x] | [x] | [x] | [x] | [x] | [x] só o código do cupom em caixa alta |
 | Anúncios: página de destino carrega, mostra dados da Ufape, contato e privacidade | [ ] conferir no site [CONFIRMAR] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | Anúncios: sem driblar a análise | [x] | [x] | [x] | [x] | [x] | [x] |
-| **Resultado do conceito** | Liberado para aprovação (peças-base). Pendência fora da peça: destino e privacidade | Liberado para aprovação | Liberado para aprovação | Liberado para aprovação, com A2 (frase técnica) | **Bloqueado** até a correção do 68634 (A10) | Liberado para aprovação sem preço, com A7 e A13 |
+| **Resultado do conceito** | Texto liberado para aprovação; pendência fora da peça: destino e privacidade | Texto liberado para aprovação | Texto liberado para aprovação | Texto liberado para aprovação, com A2 (frase técnica) | **Bloqueado** até a correção do 68634 (A10) | **Bloqueado** até a validade do cupom (A7) |
 
-Itens de texto conferidos em todas as peças: nenhum travessão nem meia-risca; nenhuma menção a certificado, apostila, MEC, "últimas vagas", "vagas limitadas", "somente", convidado "a definir", "simpósio", "paciente real ou vivo", "Ufape Intercursos", valor com cupom; título até 40 e descrição até 30 caracteres.
+Itens de texto conferidos em todas as peças: nenhum travessão nem meia-risca; nenhuma menção a certificado, apostila, MEC, "últimas vagas", "vagas limitadas", "somente", vagas restantes, convidado "a definir", "simpósio", "paciente real ou vivo", "Ufape Intercursos", valor com cupom; horário de bloco ausente dos anúncios; nome completo do evento em todos os textos principais de C1 a C6 (C5 e C6 também na arte ou no texto); título até 40 e descrição até 30 caracteres.
 
-### 10.2 auditorias/11-midia-paga.md, em cada conceito
+### 10.2 auditorias/11-midia-paga.md
 
-Os itens de plataforma e de conta são do gestor e do humano que executa; aqui estão marcados o que esta entrega cumpre e o que fica pendente.
+Os itens de plataforma e de conta são do gestor e do humano que executa. Aqui estão marcados o que esta entrega cumpre e o que fica [CONFIRMAR].
 
 | Item | Resultado | Observação |
 |---|---|---|
-| Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | [ ] Pendente | O memorando de 26/10 aguarda aprovação; canais do evento em briefing, seção 1 |
-| Metas de CPL e custo por matrícula escritas antes de subir | [ ] Não atendido | [DADO NÃO FORNECIDO]. Bloqueia a aplicação do critério dos testes e a subida do lote 1 (M16 antes) |
-| Verba dentro do valor aprovado, com aprovador registrado | [ ] Não atendido | Verba e aprovador [DADO NÃO FORNECIDO] (P12). Este pacote não pede aumento de verba |
+| Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | [ ] **[CONFIRMAR] bloqueia a subida** | O memorando de 26/10 aguarda aprovação; canais do evento em briefing, seção 1 |
+| Metas de CPL e custo por matrícula escritas antes de subir | [ ] **[CONFIRMAR] bloqueia a subida** | [DADO NÃO FORNECIDO]. O critério dos testes não pode ser aplicado sem o custo por inscrição máximo (M16) |
+| Verba dentro do valor aprovado, com aprovador registrado | [ ] **[CONFIRMAR] bloqueia a subida** | Verba e aprovador [DADO NÃO FORNECIDO] (P12). Este pacote não pede aumento de verba |
 | Nomenclatura padrão | [x] Atendido nesta entrega | Padrão `neuro26_conceito_formato_gancho_vN`, [SUPOSIÇÃO] até o padrão do gestor |
 | UTMs completas em todos os anúncios e origem chegando ao CRM | [ ] Parcial | UTM definida para toda peça; chegada ao CRM depende do teste de rastreio (M7, W8) |
-| Pixel e API de Conversões (Meta) configurados e testados | [ ] Pendente | Meta é o único canal ativado. TikTok, LinkedIn e Google: fora desta entrega |
-| Criativos aprovados em conformidade-educacional | [x] com ressalva | Tabela 10.1; C5 bloqueado |
+| Pixel e API de Conversões (Meta) configurados e testados | [ ] **[CONFIRMAR] bloqueia a subida** | Meta é o único canal ativado. TikTok, LinkedIn e Google: fora desta entrega |
+| Criativos aprovados em conformidade-educacional | [ ] Parcial | Tabela 10.1: C1 a C4 com texto liberado; C5 e C6 bloqueados |
 | Anúncios dentro das políticas da plataforma | [x] Atendido no desenho | Conferir na revisão da Meta; sem imagem gráfica de animal |
 | Nenhum público com menores de 18 anos | [x] Atendido | Públicos 18 anos ou mais |
 | Post de docente promovido ou Spark Ad com autorização | n/a | Sem docente nas peças-base; B6 só com autorização |
@@ -549,15 +565,17 @@ Os itens de plataforma e de conta são do gestor e do humano que executa; aqui e
 | Números da análise vêm só das exportações | [x] Atendido | Nenhum número de mídia usado; faltas marcadas [DADO NÃO FORNECIDO] |
 | Nenhuma alteração feita na plataforma sem humano | [x] Atendido | Tudo é pedido na seção 8 |
 
-**Resultado geral:** pacote aprovado como rascunho para o qa-de-marketing. Bloqueado: C5 e variações B1 a B3 (68634), variações com preço (B4 e B5, E5), variação com docente (B6, autorização), variação de vagas restantes (B8, número real), variação de prazo (B9, fim das inscrições) e a subida em si até existirem meta de custo, verba, aprovador e teste de rastreio. Revisado por: criativos-de-anuncio (agente). Revisão humana: [pendente]. Data: 26/10/2026.
+**Declaração de fechamento:** meta de custo, verba com aprovador, pixel e API de Conversões e plano do gestor-de-midia aprovado estão todos [CONFIRMAR]. **A subida está bloqueada, inclusive o lote 1 de 30/10, até um humano resolver esses quatro itens e o qa-de-marketing conferir de novo.**
+
+**Resultado geral:** pacote em rascunho para nova rodada do qa-de-marketing. Bloqueado: a subida de qualquer peça (acima); C5 e B1 a B3 (68634); C6, B10 e B11 (validade do cupom); variações com preço (B4 e B5, condição do presencial); variação com docente (B6, autorização); variação de prazo (B9, fim das inscrições). Revisado por: criativos-de-anuncio (agente). Revisão humana: [pendente]. Data: 26/10/2026.
 
 ---
 
 ## 11. Próximo passo
 
-- Próximo agente sugerido: **anuncios-meta** (primeiro canal ativado). Ele recebe este arquivo, a estrutura de campanha do workshop (conjuntos: público amplo, remarketing, base, transmitido), as regras de teste da seção 7, a ordem da seção 8 e o checklist de rastreio (W8, M7).
-- Em paralelo, na cadeia do kit: autoridade-docente, posts-sociais e copy-de-mensagens (30/10) e o qa-de-marketing a cada entrega. O texto principal de C6 serve de base ao convite da base pelo copy-de-mensagens.
-- Pedidos para a pessoa do marketing: A2, A10, A11, A12, A13, A14 e a confirmação dos dados da lista "Dados que faltam", item 1 a 8.
+- Próximo agente sugerido: **anuncios-meta** (primeiro canal ativado), só depois de o qa-de-marketing liberar esta versão. Ele recebe este arquivo, a estrutura de campanha do workshop (conjuntos: público amplo, remarketing, base, transmitido), as regras de teste da seção 7, a ordem da seção 8 e o checklist de rastreio (W8, M7).
+- Em paralelo, na cadeia do kit: autoridade-docente, posts-sociais e copy-de-mensagens (30/10) e o qa-de-marketing a cada entrega. O texto principal de C6 serve de base ao convite da base pelo copy-de-mensagens, depois da validade do cupom.
+- Pedidos para a pessoa do marketing: A2, A7, A10, A12, A13, A14, A17 e a confirmação dos itens 1 a 8 da lista "Dados que faltam".
 
 ---
 
@@ -565,19 +583,19 @@ Os itens de plataforma e de conta são do gestor e do humano que executa; aqui e
 
 1. Workshop em 20 e 21/11/2026, sexta teórica e sábado prático, das 08h às 18h, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. Fonte: ficha do evento; início em 20/11 no catálogo, seção 9.
 2. Presencial: 16 h (8 teóricas e 8 práticas), 30 vagas por ordem de inscrição, R$ 1.250,00. Transmitido + Gravado: só a teoria de sexta, ao vivo e gravada, R$ 450,00 (produto 68634). Fonte: ficha; catálogo, seção 9. Preços não aparecem nas peças liberáveis.
-3. Cupom SIMPNEUROMONIT, 20% para aluno e ex-aluno, com comprovação do vínculo na secretaria, confirmado pela Ufape em 26/10/2026. Fonte: ficha; docs/execucao-2026-10-26.md.
+3. Cupom SIMPNEUROMONIT, 20% para aluno e ex-aluno, com comprovação do vínculo na secretaria, confirmado pela Ufape em 26/10/2026; validade e limite não informados. Fonte: ficha; docs/execucao-2026-10-26.md.
 4. Destino das campanhas pagas: https://faculdade.ufape.com.br/neuro-summit/. Fonte: ficha; docs/execucao-2026-10-26.md, decisão 6.
-5. Grade: sexta, 08h45 "Dos planos de Guedel ao awareness intraoperatório"; 11h00 EEG e análises espectrais (DSA e CSA); 14h30 "Índice bispectral (BIS), PSI e Conox: índices processados e revisão da literatura" com "evidências veterinárias e limitações"; 15h45 "Adaptação de eletrodos de agulha: o que está validado?"; 16h30 UTI e bloqueadores neuromusculares com TOF. Sábado: 09h00 instalação do BIS e de outros neuromonitores "em modelos", 10h45 leitura de EEG e artefatos, 15h15 casos de anestesia com e sem BNM, 16h15 casos de UTI com BNM, EEG e BIS (TOF em "simulações ou registros clínicos"), 17h15 desafio em pequenos grupos. Fonte: ficha.
+5. Grade: sexta com aulas sobre Guedel e awareness, neuroanatomia, EEG e análises espectrais (DSA e CSA), EEG clínico, "Índice bispectral (BIS), PSI e Conox: índices processados e revisão da literatura" com "evidências veterinárias e limitações", "Adaptação de eletrodos de agulha: o que está validado?", UTI e bloqueadores neuromusculares com TOF. Sábado: instalação do BIS e de outros neuromonitores "em modelos", leitura de EEG e artefatos, casos de anestesia com e sem BNM, casos de UTI com BNM, EEG e BIS (TOF em "simulações ou registros clínicos"), desafio em pequenos grupos. Fonte: ficha.
 6. FAQ: EEG prévio não é necessário; "não é só BIS" (EEG, DSA, CSA, PSI, Conox, TOF); 30 vagas por ordem de inscrição; a sexta também pode ser acompanhada online, ao vivo e gravada. Fonte: ficha.
 7. Coordenação científica e docentes confirmados na ficha; 4 convidados "a definir" ficam fora; "apostila e material digital, se previsto" não é prometido. Fonte: ficha; docs/execucao-2026-10-26.md.
 8. Campanha paga do workshop ativa, só com criativos estáticos; checagens de mídia em 03/11, 09/11 e 16/11; remarketing de visitantes da página previsto. Fonte: memorando do gestor, seção 4; briefing, seções 2 e 4.
 9. Kit mínimo de criativos: 3 na variação simpósio, 2 na variação workshop; o briefing adota 3 (anestesiologista, os dois dias, intensivista). Fonte: templates/kit-de-lancamento-evento.md; briefing, seção 3.
-10. Produto 68634 em "verificar": sem data na loja, 24 h contra 16 h, modalidade "Presencial" na loja. Fonte: pesquisa de persona, seção 0; briefing, E2.
-11. Parcelamento do workshop não consta no catálogo; peça com preço bloqueada até a confirmação. Fonte: briefing, E5; casa de mensagens, seção 0.
-12. Peça de anúncio não cita certificado (leitura restritiva); regra de texto sem "últimas vagas", "vagas limitadas", "corra", valor com cupom calculado. Fonte: casa de mensagens, seções 0 e 5.3; guia de marca, seção 6.2.
+10. Produto 68634 em "verificar": sem data na loja, 24 h contra 16 h, modalidade "Presencial" na loja; condição "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão". Fonte: contexto/catalogo-de-cursos.md, seção 4, produto 68634.
+11. Parcelamento do presencial não consta no catálogo; peça com preço bloqueada até a confirmação. Fonte: briefing, E5; qa-de-marketing rodada A, item M6.
+12. Peça de anúncio não cita certificado (leitura restritiva); regra de texto sem "últimas vagas", "vagas limitadas", "corra", vagas restantes e valor com cupom. Fonte: casa de mensagens, seções 0 e 5.3; guia de marca, seção 6.2; qa-de-marketing rodada A.
 13. Personas E1a a E1d e a base de alunos e ex-alunos. Fonte: pesquisa de persona.
 14. 02/11 e 20/11/2026 são feriados nacionais. Fonte: briefing, seção 1 (legislação federal, fora dos arquivos da squad).
-15. Dia da semana de cada data da seção 8 conferido pelo calendário (26/10/2026 é segunda-feira). Fonte: briefing, seção 2.
+15. Dia da semana de cada data da seção 8 conferido pelo calendário (26/10/2026 é segunda-feira). Fonte: briefing, seção 2; qa-de-marketing rodada A.
 
 ## Suposições
 
@@ -595,16 +613,15 @@ Os itens de plataforma e de conta são do gestor e do humano que executa; aqui e
 ## Dados que faltam
 
 1. [DADO NÃO FORNECIDO] Verba da reta final, gasto até hoje, custo por inscrição máximo, metas de inscritos por ingresso e inscritos atuais.
-2. [DADO NÃO FORNECIDO] Número de vagas restantes com data (bloqueia B8).
-3. [DADO NÃO FORNECIDO] Imagens e textos dos criativos estáticos que rodam hoje (impede a auditoria de similaridade).
-4. [CONFIRMAR NO CATÁLOGO] Parcelamento e formas de pagamento dos dois ingressos (bloqueia B4 e B5).
+2. [DADO NÃO FORNECIDO] Imagens e textos dos criativos estáticos que rodam hoje (impede a auditoria de similaridade).
+3. [CONFIRMAR] Validade e limite do cupom (bloqueia C6), canal e prazo da comprovação, se vale para aluno de pós em curso e se vale no transmitido.
+4. [CONFIRMAR NO CATÁLOGO] Parcelamento e formas de pagamento do presencial (bloqueia B4 e B5); transmitido conforme o catálogo, depois da correção do 68634.
 5. [CONFIRMAR NO CATÁLOGO] Correção do produto 68634 (data, carga horária, modalidade); prazo de acesso à gravação; inclusão de 21/11 e do horário na linha do catálogo; código do produto presencial.
-6. [CONFIRMAR] Validade e limite do cupom, canal e prazo da comprovação, vale para aluno de pós em curso, vale no transmitido.
-7. [CONFIRMAR] Fim das inscrições de cada ingresso (data de pausa: 18 ou 19/11).
-8. [CONFIRMAR autorização] Nome da coordenação científica e de cada docente (B6); termo de imagem de participantes.
-9. [CONFIRMAR] Conferência técnica das frases da seção 2 pela coordenação científica (A2); correção da FAQ "oito temas" contra nove blocos na grade.
-10. [CONFIRMAR] Base legal e opt-in para a lista de contatos da base (C6).
-11. [CONFIRMAR] Manual de marca (logotipo, paleta, fonte) e grafia oficial (Ufape ou UFAPE).
-12. [CONFIRMAR] Quem aprova anúncios e verba (P12) e quem executa no gerenciador; ferramenta de medição e padrão de UTM (P15); status do pixel e da API de Conversões para compra na página neuro-summit.
-13. [CONFIRMAR] Monitores do sábado, quantidade e participantes por equipamento; se os casos incluem equinos e bovinos (nenhuma peça promete).
-14. [CONFIRMAR] Texto oficial de certificado de eventos (AP8) e se vale para o ingresso transmitido (nenhuma peça cita).
+6. [CONFIRMAR] Fim das inscrições de cada ingresso (data de pausa: 18 ou 19/11).
+7. [CONFIRMAR autorização] Nome da coordenação científica e de cada docente (B6); termo de imagem de participantes.
+8. [CONFIRMAR] Conferência técnica das frases da seção 2 pela coordenação científica (A2).
+9. [CONFIRMAR] Base legal e opt-in para a lista de contatos da base (C6).
+10. [CONFIRMAR] Manual de marca (logotipo, paleta, fonte) e grafia oficial (Ufape ou UFAPE).
+11. [CONFIRMAR] Quem aprova anúncios e verba (P12) e quem executa no gerenciador; ferramenta de medição e padrão de UTM (P15); status do pixel e da API de Conversões para compra na página neuro-summit; plano do gestor-de-midia aprovado.
+12. [CONFIRMAR] Monitores do sábado, quantidade e participantes por equipamento; se os casos incluem equinos e bovinos (nenhuma peça promete).
+13. [CONFIRMAR] Texto oficial de certificado de eventos (AP8) e se vale para o ingresso transmitido (nenhuma peça cita).
