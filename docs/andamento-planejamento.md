@@ -51,7 +51,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.23 | estrategia-de-campanha | pos, eventos (e graduacao) | entregue |
 | 1.24 | distribuicao | pos, livres | falta |
 | 1.25 | crescimento-de-audiencia | geral | falta |
-| 1.26 | estrategia-de-relacionamento | pos, livres | falta |
+| 1.26 | estrategia-de-relacionamento | pos, livres | pos entregue (sem qa); falta livres |
 | 1.27 | jornada-do-aluno | geral | falta |
 | 1.28 | campanhas-de-nutricao | pos, livres, eventos | falta (só graduacao existe) |
 | 1.29 | newsletter | geral | falta |
@@ -84,3 +84,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Sessão anterior: catálogo atualizado, plano do cmo aprovado, briefing de execução, 56 saídas e 15 revisões do qa (último commit 1099c51) |
 | 26/10/2026 | Esta sessão retomou. Decisões do nome do workshop e da autorização dos docentes aplicadas no plano do cmo, no briefing, na ficha do evento e em contexto/ufape-geral.md. Criado este arquivo |
 | 26/10/2026 | Lote A iniciado: estrategia-de-marketing livres e eventos, gestor-de-midia pos, estrategia-social pos, estrategia-de-relacionamento pos, newsletter geral |
+| 26/10/2026 | 1.26 pos entregue: 12 segmentos, 9 programas, cadência [SUPOSIÇÃO]. Notas N1 a N4 de choque de calendário com a régua do workshop e com copy-de-mensagens-pos, para o cmo decidir |
