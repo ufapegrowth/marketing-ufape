@@ -18,7 +18,7 @@
   - saidas/01-inteligencia-de-mercado/analise-de-tendencias-geral-2026-10-26.md (seção 8, implicações por linha)
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 5 e 7)
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
-  - Fichas lidas para extrair a voz atual (9, das quatro linhas):
+  - Fichas lidas para extrair a voz atual (10 arquivos, das quatro linhas):
     - Pós: contexto/cursos/pos/68610-pos-graduacao-em-dermatologia-veterinaria.md; contexto/cursos/pos/68652-prova-de-bolsa-de-estudos-para-medicina-de-felinos.md
     - Livres: contexto/cursos/livres/573-curso-hands-on-de-ecocardiografia-veterinaria-basica-sao-paulo.md; contexto/cursos/livres/68614-curso-livre-em-videotoscopia.md; contexto/cursos/livres/454-mini-curso-de-nefrologia-na-clinica-medica-de-pequenos-animais.md
     - Eventos: contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md; contexto/cursos/livres/700-congresso-internacional-do-paciente-grave-multidisciplinar-ufape-foco-.md
@@ -99,7 +99,7 @@ Provas complementares que a Ufape pode autorizar (inteligencia-concorrencia pos,
 | Próxima | Fala como colega que já passou pelo mesmo caso; na Graduação, fala com o jovem e responde à família | "próxima" em contexto/ufape-geral.md [SUPOSIÇÃO]; regra "de colega para colega" do mesmo arquivo |
 | Transparente | Confiança que se prova: mostra condição, limite e regra antes de pedir a inscrição | Substitui "confiante" do contexto geral [SUPOSIÇÃO]. Motivo: nas fichas, a confiança sem prova virou superlativo ("o que há de melhor", "equipamentos de última geração") e afirmação de MEC que a conformidade bloqueia |
 
-Proposta de nota para contexto/ufape-geral.md (este agente não edita o arquivo; fica como pedido): trocar "confiante" por "transparente" na seção "Voz da marca" e preencher "Palavras que usamos" com a seção 5 deste guia, depois da validação da Ufape.
+Proposta de nota para contexto/ufape-geral.md (este agente não edita o arquivo; fica como pedido): trocar "confiante" por "transparente" na seção "Voz da marca" e preencher "Palavras que usamos" e "Palavras que evitamos" com a seção 6 deste guia, depois da validação da Ufape.
 
 ### 3.2 O que a marca não é
 
@@ -122,7 +122,7 @@ Proposta de nota para contexto/ufape-geral.md (este agente não edita o arquivo;
 | Faculdade UFAPE (também "Faculdade Ufape") | Credenciamento nos editais 2027/1 ("Faculdade UFAPE, São Paulo" e "Goiânia"); domínio faculdade.ufape.com.br; página da graduação ("CEO Faculdade UFAPE"); página do workshop ("Faculdade Ufape, Unidade 2", "Certificado UFAPE"); ficha 68614 ("Local: Faculdade UFAPE"); ficha 68652 ("site da Faculdade Ufape") | Instituição de ensino credenciada; marca-mãe |
 | Ufape Intercursos (também "UFAPE Intercursos") | Considerações das páginas de Pós ("A Ufape Intercursos não se responsabiliza pelo ressarcimento de passagens", ficha 68610); currículos de docentes na página da graduação ("Diretora Científica da UFAPE Intercursos", "Coordenadora acadêmica UFAPE Intercursos", "Coordenadora de cursos de pós-graduação [...] (UFAPE Intercursos)"); e-mails oficiais @intercursos.com.br (contexto/ufape-geral.md); contexto/ufape-geral.md diz "Faculdade UFAPE (também aparece como Ufape Intercursos)" | Nome histórico ou operacional dos cursos de especialização e livres, ligado à razão social UFAPE Cursos Especializados Ltda. [SUPOSIÇÃO] |
 | Ufape Clínica | contexto/ufape-geral.md ("hospital veterinário próprio (ufape.com.br), usado em aulas práticas, estágios e aprimoramento"); catálogo, seção 8 ("Aprimoramento (Ufape Clínica)"); contexto/graduacao.md ("hospital veterinário próprio (Ufape Clínica)"). Na ficha 68614 aparece como "hospital UFAPE" | Hospital veterinário próprio; lugar da prática |
-| UFAPE Excelência Veterinária | Só em currículos de docentes na página da graduação: "Laboratório Clínico da UFAPE Excelência Veterinária" e "Preceptora - Anestesiologia - UFAPE Excelência Veterinária" | Possivelmente o hospital ou um serviço clínico da Ufape com outro nome [SUPOSIÇÃO]. Relação com a Ufape Clínica: [CONFIRMAR] |
+| UFAPE Excelência Veterinária | Só em currículos de docentes na página da graduação: "Laboratório Clínico da UFAPE Excelência Veterinária" e preceptoria de anestesiologia na "UFAPE Excelência Veterinária" | Possivelmente o hospital ou um serviço clínico da Ufape com outro nome [SUPOSIÇÃO]. Relação com a Ufape Clínica: [CONFIRMAR] |
 
 Outros achados de grafia: "UFAPE" (caixa alta) nas páginas e "Ufape" nos contextos da squad; "Aluno de Pós UFAPE" no catálogo (641). Há homonímia com uma universidade federal de Pernambuco de mesma sigla nos resultados de busca (inteligencia-concorrencia pos, alerta 9).
 
@@ -372,7 +372,7 @@ Aplicada por este agente. A conferência final é do qa-de-marketing.
 | Os 8 canais foram avaliados; ativos cabem na capacidade; os de fora têm justificativa | Atendido, com ressalva | Seção 9, com o estado do plano do cmo e o motivo de cada canal fora. Capacidade do time por semana: [CONFIRMAR] |
 | O posicionamento nomeia a alternativa real | Parcial | O guia nomeia os concorrentes que dizem o mesmo (Anclivepa e Qualittas com hospital; docentes de rotina em concorrentes) e a substituição por conteúdo gratuito aparece no tom; a alternativa central de cada linha é tarefa do posicionamento (1.7) |
 | Todo pilar tem prova | Atendido, com pendências | Propósito, promessa e os quatro diferenciais (D1 a D4) têm prova na seção 2; a prova que falta está listada (horas práticas por curso, autorizações, data de confirmação da turma) |
-| As regras de voz da marca têm exemplos | Atendido, com ressalva | 15 pares "assim sim" e "assim não" na seção 5, por traço e por linha. Ressalva: não há peças aprovadas pela Ufape; os exemplos vêm do texto publicado nas fichas e do catálogo, e ficam [SUPOSIÇÃO] até a validação |
+| As regras de voz da marca têm exemplos | Atendido, com ressalva | 14 pares "assim sim" e "assim não" na seção 5, por traço e por linha. Ressalva: não há peças aprovadas pela Ufape; os exemplos vêm do texto publicado nas fichas e do catálogo, e ficam [SUPOSIÇÃO] até a validação |
 | O plano cabe no tempo e na verba informados | Não se aplica | O guia não gera custo de mídia. Produção de imagem própria (fotos da Ufape Clínica, alunos e docentes) depende de capacidade e autorização [CONFIRMAR] |
 | Nenhuma oferta, pilar ou resposta a objeção promete emprego, aprovação ou salário | Atendido | Promessa limitada ao que acontece no curso e à clareza das condições; lista de termos proibidos na seção 6.2 |
 | Preços, bolsas e condições vêm do catálogo ou estão marcados | Atendido | Preços de 68610, 68614, provas, workshop e Graduação do catálogo; roteiro e proporção de 68614 marcados [CONFIRMAR NO CATÁLOGO]; total no cartão marcado como cálculo |
@@ -448,6 +448,6 @@ Pedidos à Ufape (sem custo, sem publicação):
 
 ## Fontes
 
-Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/graduacao.md; contexto/pos-graduacao.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md; as 10 fichas listadas no cabeçalho; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md, pesquisa-de-persona-livres-2026-10-26.md, pesquisa-de-persona-eventos-2026-10-26.md, inteligencia-concorrencia-pos-2026-10-26.md, inteligencia-concorrencia-livres-2026-10-26.md, analise-de-tendencias-geral-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; auditorias/02-estrategia-e-posicionamento.md; auditorias/conformidade-educacional.md.
+Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/graduacao.md; contexto/pos-graduacao.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md; os 10 arquivos de fichas listados no cabeçalho; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md, pesquisa-de-persona-livres-2026-10-26.md, pesquisa-de-persona-eventos-2026-10-26.md, inteligencia-concorrencia-pos-2026-10-26.md, inteligencia-concorrencia-livres-2026-10-26.md, analise-de-tendencias-geral-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; auditorias/02-estrategia-e-posicionamento.md; auditorias/conformidade-educacional.md.
 
 Externas: nenhuma nova nesta etapa. Os dados de concorrentes e do perfil da categoria vêm dos arquivos de 26/10/2026 citados acima, que se apoiam em resumos de busca e pedem conferência na fonte primária antes de ir para peça.
