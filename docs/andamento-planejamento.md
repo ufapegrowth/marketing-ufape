@@ -176,3 +176,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | estrategia-de-midia-pos v3: R$ 2.000,00 por turma em reais por canal, fase, semana e dia (14 turmas); ciclo até a data de corte; funil em duas etapas; rodízio de conceitos; sem YouTube, LinkedIn e provas. Encomendas para anuncios-meta, anuncios-google (30/11 e 30/12) e criativos-de-anuncio (02/12 e 23/12). Próximo: qa da mídia da Pós |
 | 26/10/2026 | mensagens-pos v2 (M1 a M10 do qa da camada 2) |
 | 26/10/2026 | iscas-digitais-pos v2 (I1 a I10 do qa da camada 2); busca de travessão pelo orquestrador: zero |
+| 26/10/2026 | autoridade-docente-pos v2 (D1 a D8 do qa da camada 2) |
