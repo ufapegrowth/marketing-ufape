@@ -3,7 +3,7 @@
 - Agente: pesquisa-de-palavras-chave (etapa 2.1 da camada 2)
 - Linha: pos
 - Data: 26/10/2026
-- Status: rascunho para o qa-de-marketing (auditoria 03-busca e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago. Nenhuma ação em anúncio, CRM ou site foi feita.
+- Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md), para nova passagem pelo qa-de-marketing (auditoria 03-busca e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago. Nenhuma ação em anúncio, CRM ou site foi feita.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
   - CLAUDE.md
@@ -14,6 +14,7 @@
   - saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md (entrada principal)
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 2.3, as 14 áreas, e seção 4, camada 2)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md (veredito, seção 4)
 - Pesquisa na web: 20 consultas com WebSearch em 26/10/2026 (fontes na seção "Fontes"). Nenhuma página de origem foi aberta. Não tentei abrir faculdade.ufape.com.br. Não li as fichas de contexto/cursos/ nem o template templates/pagina-da-turma.md nesta rodada: o esqueleto de H2 da seção 2.5 é proposta e o template prevalece.
 - Dados pessoais: nenhum. Docentes não são nomeados.
 
@@ -21,7 +22,7 @@
 
 ## 1. Resumo para quem decide
 
-1. **Escopo:** 14 áreas, 31 páginas de curso (turmas abertas do recorte, mais os pilares de Cardiologia, Anestesiologia e Clínica Cirúrgica, que juntam várias turmas), 22 provas de bolsa e a campanha das provas. Cada palavra-chave principal liga a uma única página. Cada área tem de 11 a 14 termos e de 5 a 7 perguntas para assistentes de IA, todos pontuados.
+1. **Escopo:** 14 áreas, 31 páginas de curso (turmas abertas do recorte, mais os pilares de Cardiologia, Anestesiologia e Clínica Cirúrgica, que juntam várias turmas), 22 provas de bolsa em 19 especialidades e a campanha das provas. Cada palavra-chave principal liga a uma única página. Cada área tem de 10 a 15 termos e de 5 a 7 perguntas para assistentes de IA, todos pontuados.
 2. **O que a busca mostrou:** nas consultas de curso por área, os resultados são agregadores (Quero Bolsa, Guia da Carreira, EAD.com.br), blogs de faculdades, editais de concorrentes e currículos de terceiros. Nenhuma página de curso da Ufape apareceu entre os resultados de "pós-graduação em <área>". A única página da Ufape que apareceu foi o edital de aprimoramento em terapia intensiva (faculdade.ufape.com.br). A busca por "presencial" devolveu quase só oferta EAD: há espaço para "semipresencial e presencial" em dermatologia, oftalmologia e Goiânia [SUPOSIÇÃO]. O WebSearch não é uma página de resultados do Google: ausência é indício, não prova.
 3. **Nichos com menos disputa visível** (a busca não trouxe pós brasileira lato sensu específica): ecocardiografia veterinária, gastroenterologia veterinária (resultados dominados por medicina humana), hematologia e citopatologia veterinárias, ortopedia veterinária [SUPOSIÇÃO]. São as melhores apostas de facilidade.
 4. **Áreas de cabeça de termo caro:** dermatologia, oncologia, oftalmologia e clínica médica têm muita oferta EAD barata em agregador. A Ufape deve disputar por formato (semipresencial, módulos práticos) e por termos de cauda (cidade, prova de bolsa), não pelo termo curto.
@@ -53,9 +54,9 @@
 | Preço | quanto custa; valor; mensalidade; parcelas | resolver |
 | Prova de bolsa | prova de bolsa de dermatologia veterinária | resolver |
 | Carreira | vale a pena; como se especializar; título de especialista | aprender e comparar |
-| Nome popular | pós em cardio vet; especialização em felinos; pós em derma vet | texto corrido, FAQ e anúncio; nunca título ou H1 |
+| Nome popular | pós em cardio vet; especialização em felinos; pós em derma vet | só em lista de palavras-chave e em palavra de grupo de anúncio |
 
-Regra de nome (contexto/pos-graduacao.md): título, H1, anúncio e página usam "Pós-graduação em <área>". "Pós em", "pós vet" e abreviações aparecem só como termo pesquisado, em texto corrido, FAQ e grupo de anúncio. A marca nos títulos é "Faculdade UFAPE", para separar da Universidade Federal do Agreste de Pernambuco, que usa a mesma sigla e aparece na busca por "ufape" (lacunas, T9).
+Regra de nome (contexto/pos-graduacao.md): título, H1, H2, anúncio, FAQ e qualquer texto visível ao candidato usam "Pós-graduação em <área>". "Pós em", "pós vet" e abreviações aparecem só em listas de palavras-chave e em palavras de grupo de anúncio (o que o candidato digita), nunca em texto visível. A marca nos títulos é "Faculdade UFAPE", para separar da Universidade Federal do Agreste de Pernambuco, que usa a mesma sigla e aparece na busca por "ufape" (lacunas, T9). Nas tabelas, título e marca vêm separados por vírgula para não quebrar a coluna; o título final pode usar a barra vertical como separador entre o nome do curso e a marca.
 
 ### 2.3 Pontuação (skill visibilidade-em-ia)
 
@@ -76,14 +77,14 @@ Pontuação = M + D + F, de 0 a 80. O componente "lacuna em IA" (0 a 20) fica de
 
 ### 2.5 Briefing SEO: esqueleto e bloco citável
 
-Esqueleto de H2 para toda página de curso (proposta; o template templates/pagina-da-turma.md prevalece):
+Esqueleto de H2 para toda página de curso (proposta; o template templates/pagina-da-turma.md prevalece). Todo H2 que cita o curso usa "Pós-graduação em <área>":
 
-1. Para quem é a pós.
+1. Para quem é a Pós-graduação em <área>.
 2. O que você vai estudar (módulos e cronograma da ficha).
 3. Como funcionam as aulas (online e módulos presenciais).
 4. Turmas, local e datas.
 5. Investimento e formas de pagamento (parcelas, valor da parcela, total e matrícula, do catálogo).
-6. Prova de bolsa de estudos (quando houver prova da área).
+6. Prova de bolsa de estudos da Pós-graduação em <área> (só quando houver prova da área no catálogo).
 7. Coordenação e docentes [CONFIRMAR autorização].
 8. Perguntas frequentes (bloco T2 da entrada principal, mais as da área).
 
@@ -107,7 +108,7 @@ Limite de caracteres: título até cerca de 60 e descrição até cerca de 155, 
 
 ## 3. Termos e perguntas transversais (valem para as 14 áreas)
 
-Páginas de destino: T1 hub da prova de bolsa, T4 guia "Como escolher uma pós-graduação em Medicina Veterinária", T5 "Pós, residência, aprimoramento e curso livre", T6 explicador de título de especialista (bloqueado), T7 "Como funciona a pós semipresencial, mês a mês", T8 "Investimento e formas de pagamento" (códigos da entrada principal). Listagens por praça são proposta [SUPOSIÇÃO: o site pode já ter uma página de listagem; [CONFIRMAR]].
+Páginas de destino: T1 hub da prova de bolsa, T4 guia "Como escolher uma Pós-graduação em Medicina Veterinária", T5 "Pós-graduação, residência, aprimoramento e curso livre: qual a diferença", T6 explicador de título de especialista (bloqueado), T7 "Como funciona a Pós-graduação semipresencial da Faculdade UFAPE, mês a mês", T8 "Investimento e formas de pagamento" (códigos da entrada principal). Listagens por praça são proposta [SUPOSIÇÃO: o site pode já ter uma página de listagem; [CONFIRMAR]].
 
 | ID | Grupo | Termo | Intenção | Volume (est.) | Pontuação (M/D/F) | Página-alvo | Observação |
 |---|---|---|---|---|---|---|---|
@@ -127,7 +128,7 @@ Páginas de destino: T1 hub da prova de bolsa, T4 guia "Como escolher uma pós-g
 | KT14 | Preço e condições | pós em medicina veterinária parcelado; com bolsa | resolver | Médio | 52 (22/14/16) | T8 e T1 | Mostrar parcelas, valor, total e matrícula do catálogo |
 | KT15 | Preço e condições | pós em medicina veterinária 2027 | matricular | Médio | 54 (24/14/16) | Listagem das pós | Turmas abertas de 2027 no catálogo; datas por curso |
 | KT16 | Goiânia | pós em medicina veterinária Goiânia | matricular | Médio | 58 (28/14/16) | Listagem Goiânia [SUPOSIÇÃO] | O agregador mostra 996 ofertas para Goiânia, quase todas EAD; nenhuma pós presencial concorrente apareceu. Turmas Ufape em Goiânia: 289, 68632, 68609 e 68623 |
-| KT17 | Goiânia | pós presencial Goiânia veterinária | matricular | Baixo | 54 (28/8/18) | 68632 (Clínica Cirúrgica, presencial) | Única pós presencial integral do recorte |
+| KT17 | Goiânia | pós presencial Goiânia veterinária | matricular | Baixo | 54 (28/8/18) | 68632 (Clínica Cirúrgica, presencial) | Única turma com modalidade "presencial" no recorte (catálogo); frequência e jornada [CONFIRMAR NO CATÁLOGO] |
 | KT18 | Prova de bolsa | prova de bolsa pós-graduação veterinária | resolver | Médio | 60 (28/14/18) | T1 (hub) | Concorrente de marca tem edital com taxa de R$ 350,00 e inscrição até 07/11/2026 (resumo de busca, [CONFIRMAR no edital]) |
 | KT19 | Prova de bolsa | como funciona a prova de bolsa de pós veterinária | resolver | Médio | 56 (24/14/18) | T1 | Regras do contexto da linha, com contradições [CONFIRMAR NO CATÁLOGO] |
 | KT20 | Marca | faculdade ufape pós-graduação; ufape intercursos | matricular | Baixo | 58 (26/8/24) | Página institucional e listagem | A busca por "Ufape Intercursos" devolveu o edital da Ufape e a universidade federal homônima. Marca precisa de página institucional (T9) |
@@ -157,6 +158,7 @@ Convenções de cada seção:
 - Onde há duas turmas do mesmo curso, a palavra principal liga a uma única página (T3). Enquanto o site mantiver uma página por turma, a página que fica com o termo principal é a da turma aberta mais próxima e a outra recebe 301 ou canonical [CONFIRMAR com o time do site].
 - O grupo "Goiânia" só aparece quando a área tem turma ou prova em Goiânia no catálogo. Sem turma, não existe termo local.
 - Nenhuma tabela promete EAD: a Ufape não tem turma EAD aberta.
+- Nas tabelas de briefing, a coluna "Título" mostra o nome do curso e a marca separados por vírgula.
 
 ---
 
@@ -172,6 +174,8 @@ Convenções de cada seção:
 | 352 | Pós-graduação em Ventilação Mecânica | São Paulo, semipresencial, 360 h | 24/05/2027, I (data diverge entre planilha e site, [CONFIRMAR NO CATÁLOGO]) | aberto | pós-graduação em ventilação mecânica veterinária | especialização em ventilação mecânica em cães e gatos; ventilação mecânica veterinária curso de especialização; pós em ventilação mecânica anestesia e UTI |
 | 68641, 68642, 68659 | Provas de bolsa de Cardiologia (SP e Goiânia, links invertidos, P3) e de Pneumologia | SP e Goiânia, 27/11/2026 | 27/11/2026 | aberto | prova de bolsa de cardiologia veterinária (68641 e 68642); prova de bolsa de pneumologia veterinária (68659) | prova de bolsa pós cardiologia Goiânia; bolsa de estudos pós cardiologia veterinária |
 
+Não há prova de bolsa de Ecocardiografia no catálogo: a página de 698 não cita prova. Se a prova de Cardiologia (68641 e 68642) valer para 698, [CONFIRMAR NO CATÁLOGO] antes de qualquer menção.
+
 Fora do recorte, só por link: 68605 e 659 (verificar), 670 (encerrado, link fora do ar), livre 573 (Hands-On de Ecocardiografia, 14/11/2026) e 68618 (Ventilação Mecânica Aplicada à Anestesia, livre).
 
 **Palavras-chave**
@@ -184,7 +188,7 @@ Fora do recorte, só por link: 68605 e 659 (verificar), 670 (encerrado, link for
 | K2.4 | Entender | pós em ecocardiografia veterinária em São Paulo | matricular | Baixo | 60 (30/8/22) | Pilar Ecocardiografia | Turma de 28/11/2026 |
 | K2.5 | Entender | pós-graduação em ventilação mecânica veterinária | matricular | Baixo | 56 (28/8/20) | Pilar Ventilação (352) | Ticket alto; público de UTI e anestesia [SUPOSIÇÃO] |
 | K2.6 | Entender | pós-graduação em pneumologia veterinária | matricular | Baixo | 54 (28/8/18) | Pilar Pneumologia (68636) | 670 fora do ar; confirmar a página oficial |
-| K2.7 | Nome popular | pós em cardio vet; especialização em cardio vet; pós em eco vet | matricular | Baixo | 52 (26/8/18) | Pilares (texto e FAQ) | Só em texto corrido, FAQ e grupo de anúncio |
+| K2.7 | Nome popular | pós em cardio vet; especialização em cardio vet; pós em eco vet | matricular | Baixo | 52 (26/8/18) | Lista de palavras e grupo de anúncio | Não vai para título, H1, H2 nem texto visível |
 | K2.8 | Preço e condições | quanto custa pós em cardiologia veterinária | resolver | Médio | 52 (22/14/16) | Seção de investimento do pilar e T8 | Parcelas, total e matrícula do catálogo |
 | K2.9 | Prova de bolsa | prova de bolsa de cardiologia veterinária | resolver | Médio | 60 (26/14/20) | Provas 68641 e 68642 e hub T1 | Corrigir os links invertidos (P3) antes de anúncio |
 | K2.10 | Comparar | cardiologia ou ecocardiografia veterinária: qual pós escolher | comparar | Baixo | 46 (16/8/22) | Guia A2 | Resolve a dúvida de nível (persona H-A2.3) |
@@ -221,10 +225,10 @@ Links: apoio liga para o pilar e para o guia; o pilar liga para o guia, para o F
 
 | Página | Título | Descrição | H1 | H2 específicos (além do esqueleto) |
 |---|---|---|---|---|
-| Ecocardiografia (698) | Pós-graduação em Ecocardiografia | Faculdade UFAPE | Pós-graduação em Ecocardiografia para médicos veterinários, semipresencial, 370 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Ecocardiografia | Ecocardiografia, cardiologia ou curso hands-on: por onde começar; Pré-requisitos [CONFIRMAR NO CATÁLOGO] |
-| Cardiologia (289) | Pós-graduação em Cardiologia Veterinária | Faculdade UFAPE | Pós-graduação em Cardiologia Veterinária, semipresencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Cardiologia Veterinária | Turma de Goiânia e turma de São Paulo [CONFIRMAR NO CATÁLOGO se a de SP entra] |
-| Pneumologia (68636) | Pós-graduação em Pneumologia Veterinária | Faculdade UFAPE | Pós-graduação em Pneumologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Pneumologia Veterinária | Data de início [CONFIRMAR NO CATÁLOGO] |
-| Ventilação Mecânica (352) | Pós-graduação em Ventilação Mecânica | Faculdade UFAPE | Pós-graduação em Ventilação Mecânica para médicos veterinários, semipresencial, 360 h, em São Paulo. Veja módulos e investimento. | Pós-graduação em Ventilação Mecânica | A pós serve só para quem trabalha em UTI? [REVISÃO DOCENTE] |
+| Ecocardiografia (698) | Pós-graduação em Ecocardiografia, Faculdade UFAPE | Pós-graduação em Ecocardiografia para médicos veterinários, semipresencial, 370 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Ecocardiografia | Pós-graduação em Ecocardiografia, Cardiologia ou curso hands-on: por onde começar; Pré-requisitos da Pós-graduação em Ecocardiografia [CONFIRMAR NO CATÁLOGO]. Sem H2 de prova de bolsa (não há prova de Ecocardiografia) |
+| Cardiologia (289) | Pós-graduação em Cardiologia Veterinária, Faculdade UFAPE | Pós-graduação em Cardiologia Veterinária, semipresencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Cardiologia Veterinária | Turma de Goiânia e turma de São Paulo da Pós-graduação em Cardiologia Veterinária [CONFIRMAR NO CATÁLOGO se a de SP entra] |
+| Pneumologia (68636) | Pós-graduação em Pneumologia Veterinária, Faculdade UFAPE | Pós-graduação em Pneumologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Pneumologia Veterinária | Data de início da Pós-graduação em Pneumologia Veterinária [CONFIRMAR NO CATÁLOGO] |
+| Ventilação Mecânica (352) | Pós-graduação em Ventilação Mecânica, Faculdade UFAPE | Pós-graduação em Ventilação Mecânica para médicos veterinários, semipresencial, 360 h, em São Paulo. Veja módulos e investimento. | Pós-graduação em Ventilação Mecânica | A Pós-graduação em Ventilação Mecânica serve só para quem trabalha em UTI? [REVISÃO DOCENTE] |
 
 Entidades a citar: Faculdade UFAPE, nome completo do curso, modalidade, local, carga horária, termos técnicos da ementa da ficha. Prova que a página precisa: dado do catálogo, coordenação com autorização registrada [CONFIRMAR autorização]. Marcação da skill schema-de-curso.
 
@@ -248,12 +252,12 @@ Livre contínuo 463: só por link.
 | K8.1 | Entender | pós-graduação em dermatologia veterinária | matricular | Alto | 58 (28/20/10) | Pilar Dermatologia (68610) | Agregadores EAD, PUCPR e outras ocupam. Disputar por formato |
 | K8.2 | EAD x presencial | pós em dermatologia veterinária presencial São Paulo; semipresencial | matricular | Médio | 62 (30/14/18) | Pilar Dermatologia | A busca por "presencial" devolveu quase só EAD: espaço aberto [SUPOSIÇÃO] |
 | K8.3 | Entender | especialização em dermatologia de cães e gatos | matricular | Médio | 54 (26/14/14) | Pilar Dermatologia | Variação da cabeça de termo |
-| K8.4 | Nome popular | pós em derma vet; pós em dermato vet | matricular | Baixo | 52 (26/8/18) | Pilar (texto e FAQ) | Nunca no título |
+| K8.4 | Nome popular | pós em derma vet; pós em dermato vet | matricular | Baixo | 52 (26/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K8.5 | Preço e condições | quanto custa pós em dermatologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | Concorrência de preço EAD forte: mostrar prática e parcelas, sem comparar |
 | K8.6 | Preço e condições | pós em dermatologia veterinária duração e carga horária | resolver | Baixo | 50 (20/8/22) | Pilar | 500 h, semipresencial (catálogo) |
 | K8.7 | Prova de bolsa | prova de bolsa de dermatologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68646 e T1 | Prova em 27/11/2026, inscrição de R$ 100,00 |
 | K8.8 | EAD x presencial | pós em dermatologia veterinária EAD | comparar | Alto | 40 (14/20/6) | Guia de formato (T4) | A Ufape não oferece EAD aberto; resposta honesta |
-| K8.9 | Comparar | dermatologia veterinária EAD ou presencial: qual vale mais | comparar | Médio | 50 (16/14/20) | Guia "EAD, semipresencial ou presencial" | P1 da entrada principal |
+| K8.9 | Comparar | dermatologia veterinária EAD ou presencial: qual vale mais | comparar | Médio | 50 (16/14/20) | Guia "Pós-graduação em Dermatologia Veterinária: EAD, semipresencial ou presencial" | P1 da entrada principal |
 | K8.10 | Comparar instituições | pós em dermatologia veterinária Ufape ou Anclivepa | comparar | Baixo | 30 (14/8/8) | Sem página própria | Abaixo do corte; atender no guia por critérios, sem nomear |
 | K8.11 | Carreira e título | pós em dermatologia veterinária vale a pena | aprender | Médio | 38 (10/14/14) | Artigo de apoio | Sem promessa de renda |
 | K8.12 | Carreira e título | título de especialista em dermatologia veterinária | aprender | Baixo | 30 (10/8/12) | T6 (bloqueado) | Abaixo do corte e bloqueado |
@@ -274,13 +278,13 @@ Livre contínuo 463: só por link.
 
 | Cluster | Pilar | Apoio |
 |---|---|---|
-| Dermatologia | Pós-graduação em Dermatologia Veterinária | Guia "EAD, semipresencial ou presencial"; prova 68646; FAQ; artigo "como se especializar"; link para o livre contínuo 463 e para A11 (citologia) |
+| Dermatologia | Pós-graduação em Dermatologia Veterinária | Guia "Pós-graduação em Dermatologia Veterinária: EAD, semipresencial ou presencial"; prova 68646; FAQ; artigo "como se especializar"; link para o livre contínuo 463 e para A11 (citologia) |
 
 **Briefing SEO resumido**
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Dermatologia (68610) | Pós-graduação em Dermatologia Veterinária | Faculdade UFAPE | Pós-graduação em Dermatologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Dermatologia Veterinária | Semipresencial, presencial ou EAD: como decidir; Alergia e dermatologia felina na ementa [REVISÃO DOCENTE] |
+| Dermatologia (68610) | Pós-graduação em Dermatologia Veterinária, Faculdade UFAPE | Pós-graduação em Dermatologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Dermatologia Veterinária | Pós-graduação em Dermatologia Veterinária semipresencial, presencial ou EAD: como decidir; Alergia e dermatologia felina na ementa da Pós-graduação em Dermatologia Veterinária [REVISÃO DOCENTE] |
 
 ---
 
@@ -294,7 +298,7 @@ Livre contínuo 463: só por link.
 | 68629 (e 706) | Pós-graduação em Ultrassonografia de Pequenos Animais | São Paulo, semipresencial, 360 h | 68629: 22/05/2027, III; 706 iniciada (verificar) | aberto (68629) | pós-graduação em ultrassonografia veterinária | pós em ultrassonografia de pequenos animais; pós em ultrassom veterinário; pós em ultrassonografia de cães e gatos; pós em USG vet |
 | 68647, 68661, 68649 | Provas de bolsa de Diagnóstico por Imagem, Ultrassonografia em Pequenos Animais e Endoscopia | São Paulo, 27/11/2026 | 27/11/2026 | aberto | prova de bolsa de diagnóstico por imagem veterinário (68647); prova de bolsa de ultrassonografia veterinária (68661); prova de bolsa de endoscopia veterinária (68649, sem destino) | bolsa de estudos pós imagem veterinária |
 
-Observações: o nome do catálogo da pós de imagem é longo e dilui o termo de busca. A primeira frase da página repete "pós-graduação em diagnóstico por imagem veterinária". Usar nome curto no título depende da Ufape [CONFIRMAR NO CATÁLOGO]. 68629 aparece no catálogo como "Pós Graduação em Ultrassonografia", fora do padrão. 653 (Endoscopia) está em "verificar": página sem chamada de compra. Livres relacionados por link: 68614, 623 e 68637.
+Observações: o nome do catálogo da pós de imagem é longo e dilui o termo de busca. A primeira frase da página usa o nome padrão do catálogo e o termo: "A Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária é uma especialização em diagnóstico por imagem veterinária...". Usar nome curto no título depende da Ufape [CONFIRMAR NO CATÁLOGO]. 68629 aparece no catálogo como "Pós Graduação em Ultrassonografia", fora do padrão. 653 (Endoscopia) está em "verificar": página sem chamada de compra. Livres relacionados por link: 68614, 623 e 68637.
 
 **Palavras-chave**
 
@@ -302,9 +306,9 @@ Observações: o nome do catálogo da pós de imagem é longo e dilui o termo de
 |---|---|---|---|---|---|---|---|
 | K5.1 | Entender | pós-graduação em diagnóstico por imagem veterinária | matricular | Alto | 60 (28/20/12) | Pilar Imagem (68604) | Poucas pós lato sensu na primeira página; a busca trouxe disciplinas stricto sensu e residência |
 | K5.2 | EAD x presencial | pós em diagnóstico por imagem veterinário semipresencial em São Paulo | matricular | Médio | 62 (30/14/18) | Pilar Imagem | Concorrente EAD de preço baixo e pós da PUCPR com prática em Curitiba (persona) |
-| K5.3 | Entender | pós-graduação em ultrassonografia veterinária | matricular | Alto | 62 (28/20/14) | Pilar Ultrassonografia (68629) | Menor ticket da linha; vagas de emprego pedem pós ou residência (sinal fraco) |
+| K5.3 | Entender | pós-graduação em ultrassonografia veterinária | matricular | Alto | 62 (28/20/14) | Pilar Ultrassonografia (68629) | Menor ticket da área A5 (68629: 24x de R$ 685,67, total de R$ 16.456,00, matrícula de R$ 350,00); o menor total da linha é o de 719 (R$ 12.000,00). Vagas de emprego pedem pós ou residência (sinal fraco) |
 | K5.4 | Entender | especialização em radiologia veterinária | matricular | Médio | 54 (26/14/14) | Pilar Imagem | Radiologia aparece entre as pós mais procuradas (Quero Bolsa) [SUPOSIÇÃO de equivalência]; a página cita radiografia |
-| K5.5 | Nome popular | pós em imagem vet; pós em USG vet | matricular | Baixo | 52 (26/8/18) | Pilares (texto e FAQ) | Nunca no título |
+| K5.5 | Nome popular | pós em imagem vet; pós em USG vet | matricular | Baixo | 52 (26/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K5.6 | Entender | pós em endoscopia veterinária | matricular | Baixo | 40 (18/8/14) | Pilar Endoscopia (653, sem compra) | Turma em "verificar": só conteúdo e a prova |
 | K5.7 | Preço e condições | quanto custa pós em ultrassonografia veterinária | resolver | Médio | 54 (22/14/18) | Investimento do pilar e T8 | Parcelas, total e matrícula de R$ 350,00 do catálogo |
 | K5.8 | Prova de bolsa | prova de bolsa de diagnóstico por imagem veterinário | resolver | Médio | 60 (26/14/20) | Prova 68647 e T1 | |
@@ -323,7 +327,7 @@ Goiânia: sem turma nesta área no catálogo. Sem termo local.
 | Q5.1 | Pós em diagnóstico por imagem veterinário presencial ou semipresencial em São Paulo, qual existe? | Solução | matricular | 56 (28/14/14) | Topo do pilar Imagem | 68604 (início 31/10/2026) |
 | Q5.2 | Qual a diferença entre pós em diagnóstico por imagem e pós em ultrassonografia veterinária? | Comparação | comparar | 46 (16/8/22) | Guia A5 | Sem resposta na Ufape hoje (lacunas) |
 | Q5.3 | Vale a pena a pós em ultrassonografia de pequenos animais para quem é clínico geral? | Problema | aprender | 38 (10/8/20) | FAQ do pilar Ultrassonografia | [REVISÃO DOCENTE] |
-| Q5.4 | Quanto custa a pós em ultrassonografia veterinária da Ufape e qual o menor investimento da linha? | Decisão | resolver | 56 (24/14/18) | Investimento do pilar | Sem comparar com concorrente; só catálogo |
+| Q5.4 | Quanto custa a pós em ultrassonografia veterinária da Ufape e qual o menor investimento da área de imagem? | Decisão | resolver | 56 (24/14/18) | Investimento do pilar | Menor ticket da área A5, só catálogo; sem comparar com concorrente |
 | Q5.5 | Endoscopia veterinária: faço pós ou curso livre? | Comparação | comparar | 38 (14/8/16) | Guia A5, com link para 623 e 68637 | Livres por link |
 | Q5.6 | Como funciona a prova de bolsa de diagnóstico por imagem da Ufape? | Decisão | resolver | 56 (26/14/16) | Prova 68647 e T1 | |
 
@@ -339,8 +343,8 @@ Goiânia: sem turma nesta área no catálogo. Sem termo local.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Imagem (68604) | Pós-graduação em Diagnóstico por Imagem Veterinária | Faculdade UFAPE (nome curto: [CONFIRMAR NO CATÁLOGO]; senão usar o nome completo) | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos e turma. | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | Radiografia e ultrassonografia na ementa; Imagem ou ultrassonografia: qual escolher |
-| Ultrassonografia (68629) | Pós-graduação em Ultrassonografia de Pequenos Animais | Faculdade UFAPE | Pós-graduação em Ultrassonografia de Pequenos Animais, semipresencial, 360 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Ultrassonografia de Pequenos Animais | Equipamento e horas de prática [CONFIRMAR NO CATÁLOGO] |
+| Imagem (68604) | Pós-graduação em Diagnóstico por Imagem Veterinária, Faculdade UFAPE (nome curto: [CONFIRMAR NO CATÁLOGO]; senão usar o nome completo) | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos e turma. | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | Radiografia e ultrassonografia na ementa da Pós-graduação em Diagnóstico por Imagem; Pós-graduação em Diagnóstico por Imagem ou em Ultrassonografia: qual escolher |
+| Ultrassonografia (68629) | Pós-graduação em Ultrassonografia de Pequenos Animais, Faculdade UFAPE | Pós-graduação em Ultrassonografia de Pequenos Animais, semipresencial, 360 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Ultrassonografia de Pequenos Animais | Equipamento e horas de prática da Pós-graduação em Ultrassonografia de Pequenos Animais [CONFIRMAR NO CATÁLOGO] |
 
 ---
 
@@ -365,7 +369,7 @@ Livres e evento relacionados, por link: 462, 106 e evento 202 (linha Eventos).
 | K11.2 | Entender | pós-graduação em patologia clínica veterinária | matricular | Alto | 60 (28/20/12) | Pilar Patologia Clínica (68615) | Pravaler a cita entre as mais procuradas |
 | K11.3 | Entender | pós-graduação em citopatologia veterinária | matricular | Baixo | 58 (28/8/22) | Pilar Citopatologia (333) | Curso novo (turma I) |
 | K11.4 | Entender | pós em análises clínicas veterinárias | matricular | Médio | 50 (24/14/12) | Pilar Patologia Clínica | O termo aparece em EAD de faculdades; [SUPOSIÇÃO] de que atrai o mesmo público |
-| K11.5 | Nome popular | pós em hemato vet; pós em patologia clínica vet | matricular | Baixo | 50 (24/8/18) | Pilares (texto e FAQ) | Nunca no título |
+| K11.5 | Nome popular | pós em hemato vet; pós em patologia clínica vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K11.6 | Preço e condições | quanto custa pós em patologia clínica veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K11.7 | Prova de bolsa | prova de bolsa de hematologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68651 e T1 | |
 | K11.8 | Prova de bolsa | prova de bolsa de patologia clínica veterinária | resolver | Médio | 60 (26/14/20) | Prova 68658 e T1 | |
@@ -399,9 +403,9 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Hematologia (68608) | Pós-graduação em Hematologia Veterinária | Faculdade UFAPE | Pós-graduação em Hematologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Hematologia Veterinária | Para clínico ou para laboratório [CONFIRMAR NO CATÁLOGO] |
-| Patologia Clínica (68615) | Pós-graduação em Patologia Clínica | Faculdade UFAPE | Pós-graduação em Patologia Clínica, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Patologia Clínica | Hematologia, patologia clínica ou citopatologia |
-| Citopatologia (333) | Pós-graduação em Citopatologia Veterinária | Faculdade UFAPE | Pós-graduação em Citopatologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Citopatologia Veterinária | Corpo docente da ficha: confirmar coordenação [CONFIRMAR] |
+| Hematologia (68608) | Pós-graduação em Hematologia Veterinária, Faculdade UFAPE | Pós-graduação em Hematologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Hematologia Veterinária | Para clínico ou para laboratório: quem faz a Pós-graduação em Hematologia Veterinária [CONFIRMAR NO CATÁLOGO] |
+| Patologia Clínica (68615) | Pós-graduação em Patologia Clínica, Faculdade UFAPE | Pós-graduação em Patologia Clínica, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Patologia Clínica | Pós-graduação em Hematologia, em Patologia Clínica ou em Citopatologia: qual escolher |
+| Citopatologia (333) | Pós-graduação em Citopatologia Veterinária, Faculdade UFAPE | Pós-graduação em Citopatologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Citopatologia Veterinária | Corpo docente da ficha da Pós-graduação em Citopatologia Veterinária: confirmar coordenação [CONFIRMAR] |
 
 ---
 
@@ -414,7 +418,7 @@ Goiânia: sem turma nesta área no catálogo.
 | 68606 | Pós-graduação em Gastroenterologia Veterinária | São Paulo, semipresencial, 500 h | 07/11/2026, IX | aberto | pós-graduação em gastroenterologia veterinária | pós em gastroenterologia veterinária de pequenos animais; especialização em gastroenterologia de cães e gatos; pós em gastro vet; pós em gastroenterologia veterinária São Paulo; pós em gastroenterologia veterinária endoscopia |
 | 68650 | Prova de Bolsa de Estudos para Gastroenterologia Veterinária | São Paulo, 27/11/2026 | 27/11/2026 | aberto | prova de bolsa de gastroenterologia veterinária | bolsa de estudos pós gastroenterologia veterinária |
 
-Livres por link: grupos de estudos 669, 455 e 721.
+Por link: minicursos 669 e 455 e grupo de estudos 721.
 
 **Palavras-chave**
 
@@ -423,7 +427,7 @@ Livres por link: grupos de estudos 669, 455 e 721.
 | K6.1 | Entender | pós-graduação em gastroenterologia veterinária | matricular | Médio | 62 (28/14/20) | Pilar Gastroenterologia (68606) | Resultados dominados por medicina humana (Afya e outras): espaço aberto [SUPOSIÇÃO] |
 | K6.2 | Entender | pós em gastroenterologia veterinária de pequenos animais em São Paulo | matricular | Baixo | 60 (30/8/22) | Pilar | Turma começa em 12 dias: serve à próxima edição |
 | K6.3 | Entender | especialização em gastroenterologia de cães e gatos | matricular | Baixo | 54 (26/8/20) | Pilar | |
-| K6.4 | Nome popular | pós em gastro vet | matricular | Baixo | 50 (24/8/18) | Pilar (texto e FAQ) | Nunca no título |
+| K6.4 | Nome popular | pós em gastro vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K6.5 | Preço e condições | quanto custa pós em gastroenterologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K6.6 | Entender | pós em gastroenterologia veterinária tem endoscopia e aulas práticas | resolver | Baixo | 48 (22/8/18) | FAQ do pilar | A ficha lista aulas práticas e estágios [CONFIRMAR NO CATÁLOGO] |
 | K6.7 | Prova de bolsa | prova de bolsa de gastroenterologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68650 e T1 | |
@@ -431,7 +435,7 @@ Livres por link: grupos de estudos 669, 455 e 721.
 | K6.9 | Comparar | gastroenterologia ou clínica médica: qual pós escolher | comparar | Baixo | 44 (16/8/20) | Guia (ponte com A3) | |
 | K6.10 | Carreira e título | como se especializar em gastroenterologia veterinária | aprender | Médio | 36 (8/14/14) | Artigo de apoio | [REVISÃO REGULAÇÃO] no trecho de título. A página atual afirma "especialidade emergente e carente de profissionais" sem fonte: não repetir |
 | K6.11 | Entender | doença inflamatória intestinal e pancreatite em cães e gatos | aprender | Médio | 30 (4/14/12) | Artigo de apoio | Abaixo do corte como alvo de matrícula; manter como conteúdo de autoridade [REVISÃO DOCENTE] |
-| K6.12 | Carreira e título | título de especialista em gastroenterologia veterinária | aprender | Baixo | 30 (10/8/12) | T6 (bloqueado) | Entidade de área a conferir na fonte |
+| K6.12 | Carreira e título | título de especialista em gastroenterologia veterinária | aprender | Baixo | 30 (10/8/12) | T6 (bloqueado) | Entidade de área sem fonte nesta rodada; conferir na fonte oficial |
 
 Goiânia: sem turma nesta área no catálogo.
 
@@ -450,13 +454,13 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Cluster | Pilar | Apoio |
 |---|---|---|
-| Gastroenterologia | Pós-graduação em Gastroenterologia Veterinária | Prova 68650; FAQ; artigo "como se especializar"; ponte com A5 (endoscopia e ultrassom); link para grupos de estudos 669, 455 e 721 |
+| Gastroenterologia | Pós-graduação em Gastroenterologia Veterinária | Prova 68650; FAQ; artigo "como se especializar"; ponte com A5 (endoscopia e ultrassom); link para os minicursos 669 e 455 e para o grupo de estudos 721 |
 
 **Briefing SEO resumido**
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Gastroenterologia (68606) | Pós-graduação em Gastroenterologia Veterinária | Faculdade UFAPE | Pós-graduação em Gastroenterologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Gastroenterologia Veterinária | Endoscopia e aulas práticas [CONFIRMAR NO CATÁLOGO]; Grupo de discussão de casos |
+| Gastroenterologia (68606) | Pós-graduação em Gastroenterologia Veterinária, Faculdade UFAPE | Pós-graduação em Gastroenterologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Gastroenterologia Veterinária | Endoscopia e aulas práticas da Pós-graduação em Gastroenterologia Veterinária [CONFIRMAR NO CATÁLOGO]; Grupo de discussão de casos |
 
 ---
 
@@ -477,16 +481,16 @@ Fora do recorte, sem chamada de compra: 586 (Anestesiologia Direto ao ponto, EAD
 
 | ID | Grupo | Termo | Intenção | Volume (est.) | Pontuação (M/D/F) | Página-alvo | Observação |
 |---|---|---|---|---|---|---|---|
-| K1.1 | Entender | pós-graduação em anestesiologia veterinária | matricular | Alto | 58 (28/20/10) | Pilar Anestesiologia | Quero Bolsa, UNAR (2026), USP e outros ocupam. Hoje há 3 páginas com o mesmo nome (C1) |
+| K1.1 | Entender | pós-graduação em anestesiologia veterinária | matricular | Alto | 58 (28/20/10) | Pilar Anestesiologia | Quero Bolsa, UNAR (2026) e outros ocupam. Hoje há 3 páginas com o mesmo nome (C1) |
 | K1.2 | Goiânia | pós em anestesiologia veterinária em Goiânia | matricular | Baixo | 60 (30/8/22) | Pilar Anestesiologia (68609) | Cauda local; turma de abril de 2027 |
 | K1.3 | Entender | pós-graduação em anestesiologia avançada veterinária | matricular | Baixo | 58 (28/8/22) | Pilar Avançada (657) | Público já anestesista [SUPOSIÇÃO]; turma de março de 2027 |
 | K1.4 | Entender | pós-graduação em anestesiologia locorregional veterinária | matricular | Baixo | 56 (28/8/20) | Pilar Locorregional (359) | Mercado pequeno e ticket alto |
-| K1.5 | Nome popular | pós em anestesio vet; pós em anestesia veterinária | matricular | Baixo | 52 (26/8/18) | Pilares (texto e FAQ) | Nunca no título |
+| K1.5 | Nome popular | pós em anestesio vet; pós em anestesia veterinária | matricular | Baixo | 52 (26/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K1.6 | Preço e condições | quanto custa pós em anestesiologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K1.7 | Prova de bolsa | prova de bolsa de anestesiologia veterinária | resolver | Médio | 60 (26/14/20) | Provas 68639 e 68640 e T1 | Prova em SP e em Goiânia |
 | K1.8 | Comparar | anestesiologia ou anestesiologia avançada: qual pós escolher | comparar | Baixo | 46 (16/8/22) | Guia A1 | P1 da entrada principal |
 | K1.9 | EAD x presencial | pós em anestesiologia veterinária EAD | comparar | Alto | 40 (14/20/6) | Guia A1 (formato) | 586 está em "verificar": sem chamada de compra |
-| K1.10 | Carreira e título | residência em anestesiologia veterinária | comparar | Médio | 38 (14/14/10) | T5 | A busca mostrou residência em UFF e especialização na USP; [REVISÃO REGULAÇÃO] |
+| K1.10 | Carreira e título | residência em anestesiologia veterinária | comparar | Médio | 38 (14/14/10) | T5 | A busca citou residência em anestesiologia na UFF e especialização na USP (resumo de busca de 26/10/2026, sem URL; conferir na fonte); [REVISÃO REGULAÇÃO] |
 | K1.11 | Carreira e título | título de especialista em anestesiologia veterinária | aprender | Médio | 36 (10/14/12) | T6 (bloqueado) | Curso livre 488 prepara para a prova de título (link, linha Livres) |
 | K1.12 | Entender | avaliação e tratamento da dor em cães e gatos pós-graduação | aprender | Médio | 32 (6/14/12) | Artigo e link para 554 (sem compra) | [REVISÃO DOCENTE]; no limite do corte |
 
@@ -515,9 +519,9 @@ Fora do recorte, sem chamada de compra: 586 (Anestesiologia Direto ao ponto, EAD
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Anestesiologia (68609) | Pós-graduação em Anestesiologia Veterinária | Faculdade UFAPE | Pós-graduação em Anestesiologia Veterinária, semipresencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Anestesiologia Veterinária | Anestesiologia, avançada e locorregional: qual escolher; Turma de São Paulo [CONFIRMAR NO CATÁLOGO] |
-| Anestesiologia Avançada (657) | Pós-graduação em Anestesiologia Avançada | Faculdade UFAPE | Pós-graduação em Anestesiologia Avançada, semipresencial, 360 h, em São Paulo. Veja módulos, pré-requisitos e investimento. | Pós-graduação em Anestesiologia Avançada | Pré-requisitos [CONFIRMAR NO CATÁLOGO] |
-| Locorregional (359) | Pós-graduação em Anestesiologia Locorregional Veterinária | Faculdade UFAPE | Pós-graduação em Anestesiologia Locorregional Veterinária, semipresencial, 360 h, em São Paulo. Veja módulos e investimento. | Pós-graduação em Anestesiologia Locorregional Veterinária | Bloqueios guiados por ultrassom [REVISÃO DOCENTE]; Pré-requisitos [CONFIRMAR NO CATÁLOGO] |
+| Anestesiologia (68609) | Pós-graduação em Anestesiologia Veterinária, Faculdade UFAPE | Pós-graduação em Anestesiologia Veterinária, semipresencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Anestesiologia Veterinária | Pós-graduação em Anestesiologia Veterinária, Anestesiologia Avançada e Anestesiologia Locorregional: qual escolher; Turma de São Paulo da Pós-graduação em Anestesiologia Veterinária [CONFIRMAR NO CATÁLOGO] |
+| Anestesiologia Avançada (657) | Pós-graduação em Anestesiologia Avançada, Faculdade UFAPE | Pós-graduação em Anestesiologia Avançada, semipresencial, 360 h, em São Paulo. Veja módulos, pré-requisitos e investimento. | Pós-graduação em Anestesiologia Avançada | Pré-requisitos da Pós-graduação em Anestesiologia Avançada [CONFIRMAR NO CATÁLOGO] |
+| Locorregional (359) | Pós-graduação em Anestesiologia Locorregional Veterinária, Faculdade UFAPE | Pós-graduação em Anestesiologia Locorregional Veterinária, semipresencial, 360 h, em São Paulo. Veja módulos e investimento. | Pós-graduação em Anestesiologia Locorregional Veterinária | Bloqueios guiados por ultrassom na Pós-graduação em Anestesiologia Locorregional Veterinária [REVISÃO DOCENTE]; Pré-requisitos [CONFIRMAR NO CATÁLOGO] |
 
 ---
 
@@ -541,7 +545,7 @@ Sem chamada de compra: Internação Veterinária (610, 614, 615, sem venda) e os
 | K3.2 | Goiânia | pós em terapia intensiva veterinária em Goiânia | matricular | Baixo | 60 (30/8/22) | Pilar Terapia Intensiva (68623) | Turma de maio de 2027 |
 | K3.3 | Entender | pós-graduação em clínica médica de pequenos animais | matricular | Alto | 56 (28/20/8) | Pilar Clínica Médica e Emergência (68635) | Agregadores com EAD de parcela baixa: disputar por prática e carga horária |
 | K3.4 | Entender | pós em emergência veterinária | matricular | Médio | 54 (26/14/14) | Pilar Clínica Médica e Emergência | |
-| K3.5 | Nome popular | pós em UTI veterinária; pós em TI vet | matricular | Baixo | 50 (24/8/18) | Pilares (texto e FAQ) | Nunca no título |
+| K3.5 | Nome popular | pós em UTI veterinária; pós em TI vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K3.6 | Preço e condições | quanto custa pós em terapia intensiva veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K3.7 | Preço e condições | pós de 750 horas vale a pena | resolver | Baixo | 42 (16/8/18) | FAQ "por que 750 h" | Distribuição de horas na ficha [CONFIRMAR NO CATÁLOGO] |
 | K3.8 | Prova de bolsa | prova de bolsa de terapia intensiva veterinária | resolver | Médio | 60 (26/14/20) | Prova 68660 e T1 | |
@@ -572,8 +576,8 @@ Sem chamada de compra: Internação Veterinária (610, 614, 615, sem venda) e os
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Clínica Médica e Emergência (68635) | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais | Faculdade UFAPE | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, semipresencial, 750 h, em São Paulo. Veja módulos e prova de bolsa. | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais | Clínica médica e emergência ou terapia intensiva; Por que 750 horas [CONFIRMAR NO CATÁLOGO] |
-| Terapia Intensiva (68623) | Pós-graduação em Terapia Intensiva e Emergência Veterinária | Faculdade UFAPE | Pós-graduação em Terapia Intensiva e Emergência Veterinária, semipresencial, 750 h, turma em Goiânia. Veja módulos e prova de bolsa. | Pós-graduação em Terapia Intensiva e Emergência Veterinária | Pós, aprimoramento e residência; Plantão e escala dos módulos [CONFIRMAR] |
+| Clínica Médica e Emergência (68635) | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, Faculdade UFAPE | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, semipresencial, 750 h, em São Paulo. Veja módulos e prova de bolsa. | Pós-graduação em Clínica Médica e Emergência de Pequenos Animais | Pós-graduação em Clínica Médica e Emergência ou em Terapia Intensiva: qual escolher; Por que 750 horas na Pós-graduação em Clínica Médica e Emergência de Pequenos Animais [CONFIRMAR NO CATÁLOGO] |
+| Terapia Intensiva (68623) | Pós-graduação em Terapia Intensiva e Emergência Veterinária, Faculdade UFAPE | Pós-graduação em Terapia Intensiva e Emergência Veterinária, semipresencial, 750 h, turma em Goiânia. Veja módulos e prova de bolsa. | Pós-graduação em Terapia Intensiva e Emergência Veterinária | Pós-graduação em Terapia Intensiva e Emergência Veterinária, aprimoramento e residência; Plantão e escala dos módulos da Pós-graduação em Terapia Intensiva e Emergência Veterinária [CONFIRMAR] |
 
 ---
 
@@ -595,26 +599,26 @@ Sem chamada de compra: 535 e 665 (verificar). Não há turma aberta de Clínica 
 
 | ID | Grupo | Termo | Intenção | Volume (est.) | Pontuação (M/D/F) | Página-alvo | Observação |
 |---|---|---|---|---|---|---|---|
-| K4.1 | Entender | pós-graduação em clínica cirúrgica de cães e gatos | matricular | Alto | 58 (28/20/10) | Pilar Clínica Cirúrgica (68632) | Hoje 4 páginas de mesmo nome (C1). UNIME e UNAR (2026) aparecem na busca |
-| K4.2 | Goiânia | pós em clínica cirúrgica presencial em Goiânia | matricular | Baixo | 60 (30/8/22) | Pilar Clínica Cirúrgica (68632) | Única pós presencial integral do recorte; aluno de fora precisa estar na cidade todo mês |
+| K4.1 | Entender | pós-graduação em clínica cirúrgica de cães e gatos | matricular | Alto | 58 (28/20/10) | Pilar Clínica Cirúrgica (68632) | Hoje há 3 páginas no catálogo (535, 665 e 68632), todas com o mesmo nome (C1). UNIME e UNAR (2026) aparecem na busca |
+| K4.2 | Goiânia | pós em clínica cirúrgica presencial em Goiânia | matricular | Baixo | 60 (30/8/22) | Pilar Clínica Cirúrgica (68632) | Única turma com modalidade "presencial" no recorte (catálogo); frequência e jornada [CONFIRMAR NO CATÁLOGO] |
 | K4.3 | Entender | pós em cirurgia veterinária | matricular | Alto | 54 (26/20/8) | Pilar Clínica Cirúrgica | Cabeça de termo |
 | K4.4 | Entender | pós-graduação em ortopedia veterinária | matricular | Médio | 56 (26/14/16) | Pilar Ortopedia (662) | A busca achou poucas pós lato sensu de ortopedia: espaço aberto [SUPOSIÇÃO]. Não anunciar antes de corrigir o link trocado |
 | K4.5 | Entender | pós-graduação em videocirurgia veterinária | matricular | Baixo | 56 (28/8/20) | Pilar Videocirurgia (578) | Concorrente: UFPA com FADESP em endoscopia e videocirurgia (persona) |
 | K4.6 | Entender | pós-graduação em fisioterapia veterinária; reabilitação | matricular | Médio | 52 (26/14/12) | Pilar Reabilitação (366) | Curso novo (turma I); Qualittas aparece com Fisiatria; data diverge |
-| K4.7 | Nome popular | pós em cirurgia vet; pós em ortopedia vet | matricular | Baixo | 50 (24/8/18) | Pilares (texto e FAQ) | Nunca no título |
+| K4.7 | Nome popular | pós em cirurgia vet; pós em ortopedia vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K4.8 | Preço e condições | quanto custa pós em clínica cirúrgica de cães e gatos | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K4.9 | Prova de bolsa | prova de bolsa de clínica cirúrgica de cães e gatos | resolver | Médio | 60 (26/14/20) | Provas 68643 e 68644 e T1 | |
 | K4.10 | Comparar | clínica cirúrgica, ortopedia ou videocirurgia: qual pós escolher | comparar | Baixo | 46 (16/8/22) | Guia A4 | |
 | K4.11 | Comparar | videocirurgia veterinária: pós ou curso prático | comparar | Baixo | 44 (16/8/20) | Guia A4, link para 99 e 433 | Livres por link |
 | K4.12 | EAD x presencial | pós em cirurgia veterinária presencial ou EAD | comparar | Médio | 46 (14/14/18) | Guia A4 (formato) | Cirurgia pede prática presencial: argumento do formato [REVISÃO DOCENTE] |
-| K4.13 | Carreira e título | título de especialista em cirurgia veterinária | aprender | Baixo | 30 (10/8/12) | T6 (bloqueado) | O Colégio Brasileiro de Cirurgia Veterinária apareceu na busca; conferir a regra na fonte |
+| K4.13 | Carreira e título | título de especialista em cirurgia veterinária | aprender | Baixo | 30 (10/8/12) | T6 (bloqueado) | A busca citou o Colégio Brasileiro de Cirurgia Veterinária (resumo de busca de 26/10/2026, sem URL); conferir a regra na fonte |
 
 **Perguntas para assistentes de IA**
 
 | ID | Pergunta | Estágio | Intenção | Pontuação (M/D/F) | Bloco citável e página | Observação |
 |---|---|---|---|---|---|---|
 | Q4.1 | Qual a melhor pós em clínica cirúrgica de cães e gatos? Tem presencial em Goiânia? | Solução | matricular | 56 (30/8/18) | Topo do pilar | 68632 |
-| Q4.2 | Pós em clínica cirúrgica presencial em Goiânia: como funciona e preciso morar na cidade? | Problema | resolver | 52 (26/8/18) | FAQ de Goiânia | Hospedagem e frequência [CONFIRMAR] |
+| Q4.2 | Pós em clínica cirúrgica presencial em Goiânia: como funciona e preciso morar na cidade? | Problema | resolver | 52 (26/8/18) | FAQ de Goiânia | Frequência, jornada e hospedagem [CONFIRMAR NO CATÁLOGO] |
 | Q4.3 | Existe pós em ortopedia veterinária em São Paulo? | Solução | matricular | 54 (28/8/18) | Pilar Ortopedia | Após corrigir dados de 662 |
 | Q4.4 | Pós em videocirurgia veterinária vale a pena ou faço só o curso prático? | Comparação | comparar | 44 (16/8/20) | Guia A4 | |
 | Q4.5 | Existe pós de fisioterapia e reabilitação veterinária? Quem pode fazer? | Solução | matricular | 52 (26/8/18) | Pilar Reabilitação | Público [CONFIRMAR]; [REVISÃO REGULAÇÃO] |
@@ -624,7 +628,7 @@ Sem chamada de compra: 535 e 665 (verificar). Não há turma aberta de Clínica 
 
 | Cluster | Pilar | Apoio |
 |---|---|---|
-| Clínica cirúrgica | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Guia A4; provas 68643 e 68644; FAQ de Goiânia; artigo "pós presencial integral em Goiânia" |
+| Clínica cirúrgica | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Guia A4; provas 68643 e 68644; FAQ de Goiânia; artigo "Pós-graduação em Clínica Cirúrgica de Cães e Gatos em Goiânia (presencial): como funciona e quem consegue conciliar" |
 | Videocirurgia | Pós-graduação em Videocirurgia Veterinária | Guia A4; link para 99 e 433 |
 | Ortopedia | Pós-graduação em Ortopedia Veterinária | Guia A4 (depois de corrigir 662) |
 | Reabilitação | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | Artigo "reabilitação e fisioterapia" [REVISÃO DOCENTE] |
@@ -633,10 +637,10 @@ Sem chamada de compra: 535 e 665 (verificar). Não há turma aberta de Clínica 
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Clínica Cirúrgica (68632) | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Faculdade UFAPE | Pós-graduação em Clínica Cirúrgica de Cães e Gatos, presencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Turma presencial em Goiânia: quem consegue conciliar; Turma de São Paulo [CONFIRMAR NO CATÁLOGO] |
-| Videocirurgia (578) | Pós-graduação em Videocirurgia Veterinária | Faculdade UFAPE | Pós-graduação em Videocirurgia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Videocirurgia Veterinária | Pós ou curso prático de cirurgia |
-| Ortopedia (662) | Pós-graduação em Ortopedia Veterinária | Faculdade UFAPE | Pós-graduação em Ortopedia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Ortopedia Veterinária | Só publicar depois de corrigir preço e turma [CONFIRMAR NO CATÁLOGO] |
-| Reabilitação (366) | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | Faculdade UFAPE | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos e turma. | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | Público e quem pode atuar [CONFIRMAR]; [REVISÃO REGULAÇÃO] |
+| Clínica Cirúrgica (68632) | Pós-graduação em Clínica Cirúrgica de Cães e Gatos, Faculdade UFAPE | Pós-graduação em Clínica Cirúrgica de Cães e Gatos, presencial, 500 h, turma em Goiânia. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Clínica Cirúrgica de Cães e Gatos | Turma presencial de Goiânia da Pós-graduação em Clínica Cirúrgica de Cães e Gatos: quem consegue conciliar [CONFIRMAR NO CATÁLOGO frequência e jornada]; Turma de São Paulo [CONFIRMAR NO CATÁLOGO] |
+| Videocirurgia (578) | Pós-graduação em Videocirurgia Veterinária, Faculdade UFAPE | Pós-graduação em Videocirurgia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Videocirurgia Veterinária | Pós-graduação em Videocirurgia Veterinária ou curso prático de cirurgia |
+| Ortopedia (662) | Pós-graduação em Ortopedia Veterinária, Faculdade UFAPE | Pós-graduação em Ortopedia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Ortopedia Veterinária | Só publicar depois de corrigir preço e turma da Pós-graduação em Ortopedia Veterinária [CONFIRMAR NO CATÁLOGO] |
+| Reabilitação (366) | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, Faculdade UFAPE | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos e turma. | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | Público e quem pode atuar após a Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária [CONFIRMAR]; [REVISÃO REGULAÇÃO] |
 
 ---
 
@@ -657,7 +661,7 @@ Livre por link: 560 (Curso de Eletroquimioterapia, 22/05/2027) e contínuo 465.
 |---|---|---|---|---|---|---|---|
 | K10.1 | Entender | pós-graduação em oncologia veterinária | matricular | Alto | 58 (28/20/10) | Pilar Oncologia (68628) | Agregadores EAD de R$ 60 a R$ 200 por mês (promocionais), PUCPR e Anclivepa |
 | K10.2 | Entender | pós em oncologia veterinária de pequenos animais presencial em São Paulo | matricular | Médio | 60 (30/14/16) | Pilar Oncologia | Semipresencial com módulos presenciais |
-| K10.3 | Nome popular | pós em onco vet | matricular | Baixo | 50 (24/8/18) | Pilar (texto e FAQ) | Nunca no título |
+| K10.3 | Nome popular | pós em onco vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K10.4 | Preço e condições | quanto custa pós em oncologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | Ticket de R$ 38.940,00 no catálogo: a objeção é forte; mostrar parcelas e estrutura |
 | K10.5 | Prova de bolsa | prova de bolsa de oncologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68657 e T1 | |
 | K10.6 | Comparar | pós em oncologia ou curso de eletroquimioterapia | comparar | Baixo | 44 (16/8/20) | Guia A10, link para 560 | Livres por link |
@@ -690,7 +694,7 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Oncologia (68628) | Pós-graduação em Oncologia Veterinária | Faculdade UFAPE | Pós-graduação em Oncologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Oncologia Veterinária | Biossegurança na quimioterapia [REVISÃO DOCENTE]; Pós em oncologia ou curso de eletroquimioterapia |
+| Oncologia (68628) | Pós-graduação em Oncologia Veterinária, Faculdade UFAPE | Pós-graduação em Oncologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Oncologia Veterinária | Biossegurança na quimioterapia na Pós-graduação em Oncologia Veterinária [REVISÃO DOCENTE]; Pós-graduação em Oncologia Veterinária ou curso de eletroquimioterapia |
 
 ---
 
@@ -711,7 +715,7 @@ Sem chamada de compra: 68612 (Nefrologia e Urologia Veterinária, VIII, iniciada
 |---|---|---|---|---|---|---|---|
 | K7.1 | Entender | pós-graduação em endocrinologia veterinária | matricular | Médio | 56 (28/14/14) | Pilar Endocrinologia (68617) | Guia da Carreira e Quero Bolsa listam, quase todas EAD; IBMR aparece |
 | K7.2 | Entender | pós em endocrinologia de pequenos animais semipresencial | matricular | Baixo | 58 (30/8/20) | Pilar Endocrinologia | |
-| K7.3 | Nome popular | pós em endócrino vet | matricular | Baixo | 50 (24/8/18) | Pilar (texto e FAQ) | Nunca no título |
+| K7.3 | Nome popular | pós em endócrino vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K7.4 | Entender | pós em nefrologia e urologia veterinária | matricular | Médio | 36 (14/14/8) | Pilar Nefrologia (68612, sem compra) | Turma iniciada: só conteúdo e prova; Módulo e FSG aparecem na busca |
 | K7.5 | Preço e condições | quanto custa pós em endocrinologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K7.6 | Prova de bolsa | prova de bolsa de endocrinologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68648 e T1 | |
@@ -746,7 +750,7 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Endocrinologia (68617) | Pós-graduação em Endocrinologia de Pequenos Animais | Faculdade UFAPE | Pós-graduação em Endocrinologia de Pequenos Animais, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Endocrinologia de Pequenos Animais | Público e nível de entrada [CONFIRMAR NO CATÁLOGO]; Turma [CONFIRMAR NO CATÁLOGO] (P5) |
+| Endocrinologia (68617) | Pós-graduação em Endocrinologia de Pequenos Animais, Faculdade UFAPE | Pós-graduação em Endocrinologia de Pequenos Animais, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Endocrinologia de Pequenos Animais | Público e nível de entrada da Pós-graduação em Endocrinologia de Pequenos Animais [CONFIRMAR NO CATÁLOGO]; Turma [CONFIRMAR NO CATÁLOGO] (P5) |
 
 ---
 
@@ -767,13 +771,13 @@ Sem chamada de compra: 677 (Neurocirurgia e Neuro-oncologia, verificar) e 701. P
 |---|---|---|---|---|---|---|---|
 | K12.1 | Entender | pós-graduação em neurologia veterinária | matricular | Médio | 56 (28/14/14) | Pilar Neurologia e Neurocirurgia (68616) | Anclivepa-SP e Módulo aparecem; a busca trouxe currículos que citam a pós da Ufape Intercursos (prova social a confirmar) |
 | K12.2 | Entender | pós em neurologia e neurocirurgia veterinária em São Paulo | matricular | Baixo | 60 (30/8/22) | Pilar | Turma de maio de 2027 |
-| K12.3 | Nome popular | pós em neuro vet | matricular | Baixo | 50 (24/8/18) | Pilar (texto e FAQ) | Nunca no título |
+| K12.3 | Nome popular | pós em neuro vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K12.4 | Entender | pós em neurocirurgia veterinária | matricular | Baixo | 36 (14/8/14) | Pilar Neurocirurgia e Neuro-oncologia (677, sem compra) | Turma em "verificar" e preço mais alto do catálogo |
 | K12.5 | Preço e condições | quanto custa pós em neurologia veterinária | resolver | Médio | 52 (22/14/16) | Investimento do pilar e T8 | |
 | K12.6 | Prova de bolsa | prova de bolsa de neurologia veterinária | resolver | Médio | 60 (26/14/20) | Prova 68654 e T1 | |
 | K12.7 | Comparar | neurologia ou neurocirurgia veterinária: qual pós escolher | comparar | Baixo | 44 (16/8/20) | Guia A12 | |
 | K12.8 | EAD x presencial | pós em neurologia veterinária EAD | comparar | Médio | 36 (14/14/8) | Guia de formato | Sem EAD da Ufape |
-| K12.9 | Carreira e título | como se especializar em neurologia veterinária; título de especialista | aprender | Médio | 34 (8/14/12) | Artigo de apoio e T6 | A busca citou ABNV como entidade [conferir]; [REVISÃO REGULAÇÃO] |
+| K12.9 | Carreira e título | como se especializar em neurologia veterinária; título de especialista | aprender | Médio | 34 (8/14/12) | Artigo de apoio e T6 | A busca citou a ABNV como entidade (resumo de busca de 26/10/2026, sem URL); conferir na fonte; [REVISÃO REGULAÇÃO] |
 | K12.10 | Entender | exame neurológico em cães e gatos; hérnia de disco | aprender | Alto | 32 (4/20/8) | Artigos de apoio | [REVISÃO DOCENTE]; no limite do corte |
 
 Goiânia: sem turma nesta área no catálogo.
@@ -799,7 +803,7 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Neurologia (68616) | Pós-graduação em Neurologia e Neurocirurgia Veterinária | Faculdade UFAPE | Pós-graduação em Neurologia e Neurocirurgia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Neurologia e Neurocirurgia Veterinária | Nível de entrada [CONFIRMAR NO CATÁLOGO]; Neuroimagem e prática cirúrgica [REVISÃO DOCENTE] |
+| Neurologia (68616) | Pós-graduação em Neurologia e Neurocirurgia Veterinária, Faculdade UFAPE | Pós-graduação em Neurologia e Neurocirurgia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e prova de bolsa. | Pós-graduação em Neurologia e Neurocirurgia Veterinária | Nível de entrada da Pós-graduação em Neurologia e Neurocirurgia Veterinária [CONFIRMAR NO CATÁLOGO]; Neuroimagem e prática cirúrgica na Pós-graduação em Neurologia e Neurocirurgia Veterinária [REVISÃO DOCENTE] |
 
 ---
 
@@ -821,7 +825,7 @@ A área não tem pós aberta. A página da prova (68652) é a mais completa do c
 | K13.1 | Prova de bolsa | prova de bolsa de medicina de felinos | resolver | Médio | 56 (26/14/16) | Prova 68652 e T1 | Só subir campanha depois de definir o destino da prova |
 | K13.2 | Prova de bolsa | o que cai na prova de bolsa de medicina felina; bibliografia | resolver | Baixo | 54 (24/8/22) | Artigo-guia da prova (a partir só da ficha) | P1 de A13 na entrada principal |
 | K13.3 | Entender | pós-graduação em medicina de felinos | aprender | Médio | 40 (14/14/12) | Pilar Medicina de Felinos (650, sem compra) | Concorrência: Qualittas, Unyleya EAD, Equalis (persona) |
-| K13.4 | Nome popular | especialização em felinos; pós em felinos; pós em gato | aprender | Médio | 38 (12/14/12) | Pilar (texto e FAQ) | Nunca no título |
+| K13.4 | Nome popular | especialização em felinos; pós em felinos; pós em gato | aprender | Médio | 38 (12/14/12) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
 | K13.5 | Entender | pós em medicina felina em São Paulo | aprender | Baixo | 36 (14/8/14) | Pilar | Sem turma aberta |
 | K13.6 | Comparar | pós em medicina de felinos ou clínica médica de pequenos animais | comparar | Baixo | 40 (14/8/18) | Guia ou FAQ | |
 | K13.7 | EAD x presencial | pós em medicina felina EAD ou presencial | comparar | Médio | 36 (14/14/8) | FAQ | Unyleya EAD aparece na busca; Ufape sem EAD |
@@ -851,8 +855,8 @@ Goiânia: sem turma nem prova de felinos em Goiânia no catálogo.
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Medicina de Felinos (650) | Pós-graduação em Medicina de Felinos | Faculdade UFAPE | Pós-graduação em Medicina de Felinos, semipresencial, 500 h, em São Paulo. Veja o conteúdo e como funciona a prova de bolsa. | Pós-graduação em Medicina de Felinos | Sem H2 de compra enquanto estiver em "verificar"; Próxima turma [CONFIRMAR] |
-| Prova de Medicina de Felinos (68652) | Prova de Bolsa de Estudos para Medicina de Felinos | Faculdade UFAPE | Prova de bolsa de medicina de felinos em 27/11/2026, em São Paulo. Veja conteúdo, bibliografia e regras. | Prova de Bolsa de Estudos para Medicina de Felinos | Conteúdo da prova; Bibliografia sugerida; Regras (depois de resolvidas as contradições) |
+| Medicina de Felinos (650) | Pós-graduação em Medicina de Felinos, Faculdade UFAPE | Pós-graduação em Medicina de Felinos, semipresencial, 500 h, em São Paulo. Veja o conteúdo e como funciona a prova de bolsa. | Pós-graduação em Medicina de Felinos | Sem H2 de compra enquanto estiver em "verificar"; Próxima turma da Pós-graduação em Medicina de Felinos [CONFIRMAR] |
+| Prova de Medicina de Felinos (68652) | Prova de Bolsa de Estudos para Medicina de Felinos, Faculdade UFAPE | Prova de bolsa de medicina de felinos em 27/11/2026, em São Paulo. Veja conteúdo, bibliografia e regras. | Prova de Bolsa de Estudos para Medicina de Felinos | Conteúdo da prova de bolsa para a Pós-graduação em Medicina de Felinos; Bibliografia sugerida; Regras (depois de resolvidas as contradições) |
 
 ---
 
@@ -873,11 +877,11 @@ Prova de bolsa: 68656 está fora do ar. Não existe prova de Oftalmologia em 27/
 | K9.1 | Entender | pós-graduação em oftalmologia veterinária | matricular | Médio | 56 (28/14/14) | Pilar Oftalmologia (707) | Guia da Carreira e Quero Bolsa mostram quase só EAD |
 | K9.2 | EAD x presencial | pós em oftalmologia veterinária presencial em São Paulo | matricular | Médio | 62 (30/14/18) | Pilar Oftalmologia | A busca não confirmou pós presencial em São Paulo além de registro antigo de concorrente: espaço aberto [SUPOSIÇÃO] |
 | K9.3 | Entender | pós em oftalmologia clínica veterinária | matricular | Médio | 54 (26/14/14) | Pilar Oftalmologia | Nome usado por agregadores |
-| K9.4 | Nome popular | pós em oftalmo vet | matricular | Baixo | 50 (24/8/18) | Pilar (texto e FAQ) | Nunca no título |
-| K9.5 | Preço e condições | quanto custa pós em oftalmologia veterinária | resolver | Alto | 56 (24/20/12) | Investimento do pilar | Objeção principal: ticket de R$ 47.700,00 contra EAD de R$ 60 a R$ 500 por mês. Responder com estrutura (microscópio individual e horas) sem comparar preço |
+| K9.4 | Nome popular | pós em oftalmo vet | matricular | Baixo | 50 (24/8/18) | Lista de palavras e grupo de anúncio | Não vai para texto visível |
+| K9.5 | Preço e condições | quanto custa pós em oftalmologia veterinária | resolver | Alto | 56 (24/20/12) | Investimento do pilar | Objeção principal: ticket de R$ 47.700,00 contra EAD de R$ 60 a R$ 500 por mês. Responder com estrutura (microscópio individual e horas, da ficha [CONFIRMAR NO CATÁLOGO]) sem comparar preço |
 | K9.6 | Comparar | pós em oftalmologia veterinária ou curso de microcirurgia ocular | comparar | Baixo | 44 (16/8/20) | Guia A9, link para os livres | Livres sem data: sem chamada de compra |
-| K9.7 | Comparar | pós ou residência em oftalmologia veterinária | comparar | Médio | 40 (14/14/12) | T5 | UFRRJ e Anclivepa aparecem como residência e pós; [REVISÃO REGULAÇÃO] |
-| K9.8 | Carreira e título | título de especialista em oftalmologia veterinária (CBOV) | aprender | Médio | 36 (10/14/12) | T6 (bloqueado) | A busca citou o CBOV como entidade que concede o título; conferir a regra na fonte |
+| K9.7 | Comparar | pós ou residência em oftalmologia veterinária | comparar | Médio | 40 (14/14/12) | T5 | A busca citou a UFRRJ e a Anclivepa como residência e pós (resumo de busca de 26/10/2026, sem URL; conferir na fonte); [REVISÃO REGULAÇÃO] |
+| K9.8 | Carreira e título | título de especialista em oftalmologia veterinária (CBOV) | aprender | Médio | 36 (10/14/12) | T6 (bloqueado) | A busca citou o CBOV como entidade que concede o título (resumo de busca de 26/10/2026, sem URL); conferir a regra na fonte |
 | K9.9 | Entender | oftalmologia na clínica de pequenos animais: o que resolver e o que encaminhar | aprender | Médio | 32 (6/14/12) | Artigo de apoio | [REVISÃO DOCENTE] |
 | K9.10 | Prova de bolsa | prova de bolsa de oftalmologia veterinária | resolver | Baixo | 24 (20/8/-4) | Nenhuma | Não existe prova aberta: não mirar o termo e remover o bloco "prova de bolsa" da página de 707 [CONFIRMAR]. A coluna F fica negativa porque a página prometeria o que não existe |
 
@@ -897,13 +901,13 @@ Goiânia: sem turma nesta área no catálogo.
 
 | Cluster | Pilar | Apoio |
 |---|---|---|
-| Oftalmologia | Pós-graduação em Oftalmologia Veterinária | FAQ de investimento; guia "pós x curso de microcirurgia" com link para os livres; T5 e T6; artigo "como se especializar" [REVISÃO REGULAÇÃO] |
+| Oftalmologia | Pós-graduação em Oftalmologia Veterinária | FAQ de investimento; guia "Pós-graduação em Oftalmologia Veterinária ou curso de microcirurgia" com link para os livres; T5 e T6; artigo "como se especializar" [REVISÃO REGULAÇÃO] |
 
 **Briefing SEO resumido**
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Oftalmologia (707) | Pós-graduação em Oftalmologia Veterinária | Faculdade UFAPE | Pós-graduação em Oftalmologia Veterinária, semipresencial, 600 h, em São Paulo. Veja módulos, investimento e como funcionam as aulas. | Pós-graduação em Oftalmologia Veterinária | Por que o investimento é esse (estrutura e horas da ficha); Pós ou curso de microcirurgia; Prova de bolsa: bloco só se houver destino válido |
+| Oftalmologia (707) | Pós-graduação em Oftalmologia Veterinária, Faculdade UFAPE | Pós-graduação em Oftalmologia Veterinária, semipresencial, 600 h, em São Paulo. Veja módulos, investimento e como funcionam as aulas. | Pós-graduação em Oftalmologia Veterinária | Por que o investimento na Pós-graduação em Oftalmologia Veterinária é esse (estrutura e horas da ficha); Pós-graduação em Oftalmologia Veterinária ou curso de microcirurgia; Prova de bolsa da Pós-graduação em Oftalmologia Veterinária: bloco só se houver destino válido |
 
 ---
 
@@ -920,7 +924,7 @@ Tratada por curso, como manda o plano do cmo. Odontologia e Nutrologia estão em
 | 382 | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos | São Paulo, semipresencial, 500 h | 22/05/2027, I | pós-graduação em reprodução de cães e gatos | pós em obstetrícia veterinária; pós em neonatologia veterinária; especialização em reprodução animal de pequenos animais; pós em reprodução vet | matricular | Médio | 52 (26/14/12) | Curso novo; público inclui criadores [SUPOSIÇÃO]. Nome do catálogo é longo: título usa o nome completo |
 | 699 | Pós-graduação em Geriatria Veterinária | São Paulo, semipresencial, 500 h | 22/05/2027, I | pós-graduação em geriatria veterinária | especialização em geriatria de cães e gatos; pós em cuidados paliativos veterinária; pós em geriatria vet; paciente geriátrico cães e gatos pós | matricular | Médio | 58 (28/14/16) | Sinal de tendência forte (longevidade); a busca não trouxe pós brasileira específica [SUPOSIÇÃO de espaço aberto]. Ficha com contradições de público, cronograma e lotação: corrigir antes de qualquer peça [CONFIRMAR NO CATÁLOGO] |
 | 60 | Pós-graduação em Medicina de Silvestres | São Paulo, semipresencial, 360 h | 28/05/2027, I | pós-graduação em medicina de silvestres | pós em animais silvestres e exóticos; especialização em animais silvestres veterinária; pós em exóticos vet; pós em medicina de animais exóticos | matricular | Baixo | 54 (28/8/18) | Quero Bolsa tem matéria sobre a especialização. A página repete número de mercado sem conferir: não copiar. Turma mínima de 15 na ficha, não 20 [CONFIRMAR NO CATÁLOGO] |
-| 719 | Pós-graduação em Inteligência Artificial na Saúde (catálogo: "Pós-Graduação Inteligência Artificial na Saúde") | São Paulo, semipresencial, 360 h | 08/05/2027, I | pós-graduação em inteligência artificial na saúde | pós em IA na saúde; especialização em inteligência artificial para saúde; pós em IA para médicos | matricular | Médio | 40 (20/14/6) | Público de saúde humana e TI, não de veterinários: persona e canal próprios [CONFIRMAR público]. Termo de cabeça muito disputado. Não ligar ao cluster de imagem veterinária |
+| 719 | Pós-graduação em Inteligência Artificial na Saúde (catálogo: "Pós-Graduação Inteligência Artificial na Saúde") | São Paulo, semipresencial, 360 h | 08/05/2027, I | pós-graduação em inteligência artificial na saúde | pós em IA na saúde; especialização em inteligência artificial para saúde; pós em IA para médicos | matricular | Médio | 40 (20/14/6) | Menor total da linha (18x de R$ 666,67, R$ 12.000,00, matrícula de R$ 250,00). Público de saúde humana e TI, não de veterinários: persona e canal próprios [CONFIRMAR público]. Termo de cabeça muito disputado. Não ligar ao cluster de imagem veterinária |
 | 68662, 678 (verificar), prova 68655 | Pós-graduação em Odontologia Veterinária | São Paulo, semipresencial, 500 h | verificar (iniciada, data diverge) | pós-graduação em odontologia veterinária | especialização em odontologia de cães e gatos; pós em odonto vet; prova de bolsa de odontologia veterinária | matricular | Médio | 36 (14/14/8) | Sem chamada de compra; prova sem turma de destino [CONFIRMAR]. Uma página única e o destino da prova são as lacunas P1 |
 
 **Perguntas para assistentes de IA (A14)**
@@ -951,18 +955,18 @@ Tratada por curso, como manda o plano do cmo. Odontologia e Nutrologia estão em
 
 | Página | Título | Descrição | H1 | H2 específicos |
 |---|---|---|---|---|
-| Medicina Interna Equina (341) | Pós-graduação em Medicina Interna Equina | Faculdade UFAPE | Pós-graduação em Medicina Interna Equina, semipresencial, 500 h, em São Paulo. Veja módulos, local da prática e investimento. | Pós-graduação em Medicina Interna Equina | Onde são as aulas práticas [CONFIRMAR NO CATÁLOGO] |
-| Infectologia (679) | Pós-graduação em Infectologia Veterinária | Faculdade UFAPE | Pós-graduação em Infectologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Infectologia Veterinária | Infectologia na rotina clínica [REVISÃO DOCENTE] |
-| Reprodução (382) | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos | Faculdade UFAPE | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos, semipresencial, 500 h, em São Paulo. Veja módulos. | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos | Para quem é: clínicos e criadores [CONFIRMAR NO CATÁLOGO] |
-| Geriatria (699) | Pós-graduação em Geriatria Veterinária | Faculdade UFAPE | Pós-graduação em Geriatria Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Geriatria Veterinária | Público, cronograma e lotação: só depois de corrigir a ficha [CONFIRMAR NO CATÁLOGO] |
-| Silvestres (60) | Pós-graduação em Medicina de Silvestres | Faculdade UFAPE | Pós-graduação em Medicina de Silvestres, semipresencial, 360 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Medicina de Silvestres | Silvestres e exóticos: por onde começar [REVISÃO DOCENTE] |
-| IA na Saúde (719) | Pós-graduação em Inteligência Artificial na Saúde | Faculdade UFAPE | Pós-graduação em Inteligência Artificial na Saúde, semipresencial, 360 h, em São Paulo. Veja módulos, turma e requisitos. | Pós-graduação em Inteligência Artificial na Saúde | Público e requisitos de equipamento da ficha [CONFIRMAR NO CATÁLOGO]; ato regulatório [CONFIRMAR NO CATÁLOGO] |
+| Medicina Interna Equina (341) | Pós-graduação em Medicina Interna Equina, Faculdade UFAPE | Pós-graduação em Medicina Interna Equina, semipresencial, 500 h, em São Paulo. Veja módulos, local da prática e investimento. | Pós-graduação em Medicina Interna Equina | Onde são as aulas práticas da Pós-graduação em Medicina Interna Equina [CONFIRMAR NO CATÁLOGO] |
+| Infectologia (679) | Pós-graduação em Infectologia Veterinária, Faculdade UFAPE | Pós-graduação em Infectologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Infectologia Veterinária | Infectologia na rotina clínica e a Pós-graduação em Infectologia Veterinária [REVISÃO DOCENTE] |
+| Reprodução (382) | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos, Faculdade UFAPE | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos, semipresencial, 500 h, em São Paulo. Veja módulos. | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos | Para quem é a Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução: clínicos e criadores [CONFIRMAR NO CATÁLOGO] |
+| Geriatria (699) | Pós-graduação em Geriatria Veterinária, Faculdade UFAPE | Pós-graduação em Geriatria Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Geriatria Veterinária | Público, cronograma e lotação da Pós-graduação em Geriatria Veterinária: só depois de corrigir a ficha [CONFIRMAR NO CATÁLOGO] |
+| Silvestres (60) | Pós-graduação em Medicina de Silvestres, Faculdade UFAPE | Pós-graduação em Medicina de Silvestres, semipresencial, 360 h, em São Paulo. Veja módulos, turma e investimento. | Pós-graduação em Medicina de Silvestres | Silvestres e exóticos: por onde começar a Pós-graduação em Medicina de Silvestres [REVISÃO DOCENTE] |
+| IA na Saúde (719) | Pós-graduação em Inteligência Artificial na Saúde, Faculdade UFAPE | Pós-graduação em Inteligência Artificial na Saúde, semipresencial, 360 h, em São Paulo. Veja módulos, turma e requisitos. | Pós-graduação em Inteligência Artificial na Saúde | Público e requisitos de equipamento da Pós-graduação em Inteligência Artificial na Saúde [CONFIRMAR NO CATÁLOGO]; ato regulatório [CONFIRMAR NO CATÁLOGO] |
 
 ---
 
 ## 5. Campanha das provas de bolsa de 27/11/2026
 
-Base: catálogo, seção 3 (22 provas abertas, inscrição de R$ 100,00 à vista, Pix ou boleto, ou 1x no cartão, prova em 27/11/2026 em São Paulo e em Goiânia) e regras do contexto da linha (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; resultado por WhatsApp ou e-mail; recurso em 2 dias úteis; matrícula em 10 dias úteis). As fichas se contradizem em partes (canal do resultado, prazo de matrícula de 10 ou 7 dias, turma mínima de 15 ou 20): [CONFIRMAR NO CATÁLOGO] antes de peça. Data de encerramento das inscrições: [CONFIRMAR NO CATÁLOGO].
+Base: catálogo, seção 3 (22 provas abertas em 19 especialidades, inscrição de R$ 100,00 à vista, Pix ou boleto, ou 1x no cartão, prova em 27/11/2026 em São Paulo e em Goiânia; Anestesiologia, Cardiologia e Clínica Cirúrgica têm prova nas duas cidades) e regras do contexto da linha (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; resultado por WhatsApp ou e-mail; recurso em 2 dias úteis; matrícula em 10 dias úteis; bolsa não acumulativa e intransferível). As fichas se contradizem em partes (canal do resultado, prazo de matrícula de 10 ou 7 dias, turma mínima de 15 ou 20): [CONFIRMAR NO CATÁLOGO] antes de peça. Data de encerramento das inscrições: [CONFIRMAR NO CATÁLOGO]. Turma de destino de cada prova: [CONFIRMAR].
 
 ### 5.1 Hub da prova de bolsa (T1)
 
@@ -975,17 +979,17 @@ Base: catálogo, seção 3 (22 provas abertas, inscrição de R$ 100,00 à vista
 | Pontuação | 60 (28/14/18) |
 | Página-alvo | Hub "Prova de bolsa de estudos" (nova), ligado a cada página de prova |
 | URL | [CONFIRMAR]; sugestão /pos-graduacao/prova-de-bolsa [SUPOSIÇÃO] |
-| Título proposto | Prova de Bolsa de Estudos da Pós-graduação | Faculdade UFAPE |
+| Título proposto | Prova de Bolsa de Estudos da Pós-graduação, Faculdade UFAPE |
 | Descrição proposta | Prova de bolsa para a pós-graduação da Faculdade UFAPE em 27/11/2026, em São Paulo e Goiânia. Veja especialidades, regras e como se inscrever. |
-| H1 | Prova de bolsa de estudos da pós-graduação |
-| H2 | Como funciona a prova; Quantas bolsas e quais percentuais; Datas, local e inscrição; Especialidades com prova (um bloco por especialidade); Resultado, recurso e matrícula; O que acontece com a bolsa depois da aprovação; Perguntas frequentes |
-| Bloco citável | "A prova de bolsa da Faculdade UFAPE acontece em 27/11/2026, em São Paulo e Goiânia, com inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50%, 4 de 25% e 5 de 10%. A nota de corte é 7,0. O candidato pode fazer recurso em 2 dias úteis." Só publicar depois de [CONFIRMAR NO CATÁLOGO] as regras |
+| H1 | Prova de bolsa de estudos da Pós-graduação |
+| H2 | Como funciona a prova de bolsa da Pós-graduação; Quantas bolsas e quais percentuais; Datas, local e inscrição; Especialidades com prova (um bloco por Pós-graduação em <área>); Resultado, recurso e matrícula; O que acontece com a bolsa depois da aprovação; Perguntas frequentes |
+| Bloco citável | "A prova de bolsa da Faculdade UFAPE acontece em 27/11/2026, em São Paulo e Goiânia, com inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50%, 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é acumulativa nem intransferível para outra pessoa, e o candidato pode fazer recurso em 2 dias úteis." Só publicar depois de [CONFIRMAR NO CATÁLOGO] as regras e a turma de destino |
 
 Regra: sem "últimas vagas", sem urgência sem número real, sem promessa de bolsa e sem frase de certificação.
 
 ### 5.2 Páginas de cada prova (uma palavra principal por página)
 
-Padrão: palavra principal "prova de bolsa de <especialidade> veterinária"; título "Prova de Bolsa de Estudos para <especialidade> | Faculdade UFAPE" (nome do catálogo); um link para o hub e um link para a pós da área.
+Padrão: palavra principal "prova de bolsa de <especialidade> veterinária"; título "Prova de Bolsa de Estudos para <especialidade>, Faculdade UFAPE" (nome do catálogo, com a marca separada por vírgula ou por barra vertical no título final); um link para o hub e um link para a pós da área.
 
 | Área | Provas (código) | Palavra principal | Estado |
 |---|---|---|---|
@@ -1004,6 +1008,8 @@ Padrão: palavra principal "prova de bolsa de <especialidade> veterinária"; tí
 | A14 | 68655 | prova de bolsa de odontologia veterinária | sem destino |
 | A9 | 68656 | (nenhuma) | fora do ar: não mirar |
 
+Não há prova de Ecocardiografia no catálogo.
+
 ### 5.3 Estrutura sugerida para o Google Search (proposta para aprovação humana)
 
 Nada foi criado no gerenciador. Quem aprova: pessoa do marketing (verba e anúncio), com o gestor-de-midia. O que: estrutura de grupos de anúncio. Por que: a busca por "prova de bolsa" tem intenção alta e janela curta (até 27/11/2026). Quanto: [CONFIRMAR] (verba não informada). Efeito esperado: inscrições na prova (sem número, não há linha de base). Como desfazer: pausar as campanhas pelo gerenciador, feito por humano.
@@ -1012,7 +1018,7 @@ Nada foi criado no gerenciador. Quem aprova: pessoa do marketing (verba e anúnc
 |---|---|---|---|---|
 | G1 Marca | prova de bolsa ufape; faculdade ufape prova de bolsa; ufape intercursos pós | exata e frase | Hub | Proteger a marca; negativar "universidade federal", "pernambuco", "agreste" |
 | G2 Genérico | prova de bolsa pós-graduação veterinária; prova de bolsa pós medicina veterinária; bolsa de estudos pós veterinária | frase | Hub | Termo de maior volume e mais disputado por concorrente e agregador |
-| G3 Por especialidade | prova de bolsa de <especialidade> veterinária (21 especialidades abertas, uma por grupo ou por tema) | frase e exata | Página da prova | Fora: 68656 (Oftalmologia, sem prova); 68652, 68649, 68653 e 68655 só com destino definido |
+| G3 Por especialidade | prova de bolsa de <especialidade> veterinária (22 provas abertas em 19 especialidades; sem as 4 provas sem destino, 18 provas em 15 especialidades; uma por grupo ou por tema) | frase e exata | Página da prova | Fora: 68656 (Oftalmologia, sem prova); 68652, 68649, 68653 e 68655 só com destino definido |
 | G4 Regras | como funciona prova de bolsa pós veterinária; quantas bolsas tem a prova; quanto custa a inscrição da prova de bolsa | frase | Hub (seção de regras) | Resposta curta no anúncio sem prometer bolsa |
 | G5 Praça | prova de bolsa pós em Goiânia; prova de bolsa pós em São Paulo; prova de bolsa pós cardiologia Goiânia | frase | Provas de Goiânia (68640, 68642 e 68644) e hub | Só 3 provas em Goiânia |
 | G6 Concorrente | prova de bolsa anclivepa; provão anclivepa | não ativar | - | Decisão humana: risco de marca e de comparação sem fonte [CONFIRMAR com jurídico]. Sugestão: não ativar |
@@ -1046,7 +1052,7 @@ Prioridade (seção 2.4). Uma palavra principal por página. A coluna "Página d
 | Transversal | quanto custa pós em medicina veterinária | resolver | P1 | T8 Investimento e formas de pagamento |
 | Transversal | como escolher pós-graduação em medicina veterinária | comparar | P2 | T4 Guia de escolha |
 | Transversal | pós-graduação ou residência em medicina veterinária | comparar | P2 | T5 |
-| Transversal | pós em medicina veterinária semipresencial | comparar | P2 | T7 Como funciona a pós semipresencial |
+| Transversal | pós em medicina veterinária semipresencial | comparar | P2 | T7 Como funciona a Pós-graduação semipresencial |
 | Transversal | pós lato sensu dá título de especialista CFMV | aprender | P3 (bloqueado) | T6 |
 | Transversal | faculdade ufape pós-graduação | matricular | P2 | Página institucional (T9) |
 | A2 | pós-graduação em ecocardiografia veterinária | matricular | P1 | Pós-graduação em Ecocardiografia (698) |
@@ -1115,13 +1121,13 @@ Critério: intenção de matricular ou resolver, turma ou prova em 2026 ou març
 | 3 | pós em dermatologia veterinária presencial em São Paulo (semipresencial) | Dermatologia (68610) | 62 | Início em 28/11/2026; a busca por presencial devolve quase só EAD |
 | 4 | pós-graduação em gastroenterologia veterinária | Gastroenterologia (68606) | 62 | Início em 07/11/2026; resultados dominados por medicina humana |
 | 5 | pós em diagnóstico por imagem veterinário semipresencial em São Paulo | Imagem (68604) | 62 | Início em 31/10/2026; serve também à prova de imagem |
-| 6 | pós-graduação em ultrassonografia veterinária | Ultrassonografia (68629) | 62 | Menor ticket da linha; turma aberta de maio de 2027 |
+| 6 | pós-graduação em ultrassonografia veterinária | Ultrassonografia (68629) | 62 | Menor ticket da área A5 (R$ 16.456,00 no total); turma aberta de maio de 2027 |
 | 7 | pós em oftalmologia veterinária presencial em São Paulo | Oftalmologia (707) | 62 | Início em 30/10/2026; espaço de formato presencial |
 | 8 | pós-graduação em hematologia veterinária | Hematologia (68608) | 60 | Início em 28/11/2026; prova de hematologia no mesmo mês |
 | 9 | pós em cardiologia veterinária em Goiânia | Cardiologia (289) | 60 | Cauda local; turma de 20/03/2027 e prova de Goiânia |
 | 10 | pós em terapia intensiva veterinária em Goiânia | Terapia Intensiva (68623) | 60 | Cauda local; turma de maio de 2027 e prova de terapia intensiva |
 
-Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou bloqueio: pós em clínica cirúrgica presencial em Goiânia (60, turma de 10/04/2027), prova de bolsa por especialidade (60 em 12 especialidades), pós-graduação em anestesiologia avançada (58, turma de 13/03/2027), pós-graduação em patologia clínica veterinária (60, turma de 20/03/2027).
+Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou bloqueio: pós em clínica cirúrgica presencial em Goiânia (60, turma de 10/04/2027), prova de bolsa por especialidade (60 em 13 especialidades com destino definido: anestesiologia, cardiologia, clínica cirúrgica, dermatologia, diagnóstico por imagem, endocrinologia, gastroenterologia, hematologia, neurologia, oncologia, patologia clínica, terapia intensiva e ultrassonografia), pós-graduação em anestesiologia avançada (58, turma de 13/03/2027), pós-graduação em patologia clínica veterinária (60, turma de 20/03/2027).
 
 ---
 
@@ -1138,7 +1144,7 @@ Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou b
 ## 9. Pendências para o qa-de-marketing e para a Ufape
 
 1. **Datas e dados conflitantes que travam página e anúncio:** 698 (site em 2027), 352, 366, 662 (link trocado), 68662, 68636 (data), 68628, 68617 e 662 (turma), 68641 e 68642 (links invertidos).
-2. **Provas sem destino:** 68652, 68649, 68653 e 68655. Prova 68656 fora do ar e bloco "prova de bolsa" da página de 707 sem destino.
+2. **Provas sem destino:** 68652, 68649, 68653 e 68655. Prova 68656 fora do ar e bloco "prova de bolsa" da página de 707 sem destino. Não há prova de Ecocardiografia; se a de Cardiologia valer para 698, confirmar.
 3. **Regras da prova** com contradições entre fichas (canal do resultado, 10 ou 7 dias, turma mínima de 15 ou 20).
 4. **Páginas de nome repetido** (C1): decisão do site sobre página única por curso (SEO-04).
 5. **Certificação:** nenhum termo de certificação foi proposto. A página da prova de felinos repete frase de reconhecimento ligada ao MEC: não copiar.
@@ -1146,17 +1152,22 @@ Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou b
 7. **Termo de marca do concorrente:** decisão humana e do jurídico sobre qualquer uso (seção 5.3, G6).
 8. **Público de 719** (veterinários ou saúde humana e TI) antes de qualquer anúncio de busca.
 9. **Aprovação** de verba e de grupos de anúncio: pessoa do marketing. Nada foi criado.
+10. **Frequência e jornada de 68632** (presencial no catálogo): confirmar antes de qualquer texto sobre rotina.
 
 ---
 
 ## Lista 1. Fatos com fonte
 
 Dados da Ufape (contexto/catalogo-de-cursos.md, 26/10/2026, seções 2 e 3):
-- Código, nome, local, modalidade, início, turma, carga horária e status de cada curso e prova citados; inscrição de R$ 100,00 das 22 provas abertas em 27/11/2026; 68656 encerrado.
+- Código, nome, local, modalidade, início, turma, carga horária e status de cada curso e prova citados; inscrição de R$ 100,00 das 22 provas abertas em 27/11/2026, em 19 especialidades; 68656 encerrado.
+- 719 tem o menor total entre as pós abertas (R$ 12.000,00); 68629 tem R$ 16.456,00, o menor da área A5.
+- Clínica Cirúrgica de Cães e Gatos tem três páginas no catálogo: 535, 665 e 68632. 68632 é "Presencial" no catálogo.
+- Não há prova de bolsa de Ecocardiografia no catálogo.
 - Contexto da linha (contexto/pos-graduacao.md): formato semipresencial com 1 módulo por mês; turma mínima de 20; regras da prova de bolsa lidas nas páginas das provas em 26/10/2026; regra de nome "Pós-graduação em <área>".
 - Contexto geral (contexto/ufape-geral.md): nome Faculdade UFAPE, CNPJ e sede; "certificado pelo MEC" não é usado.
 - Recorte, áreas e ondas: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md. Pendências P3 a P5 e provas sem destino: mesmo arquivo.
 - Lacunas T1 a T10, áreas e perguntas de base: saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md. Objeções e hipóteses da persona (H-A2.3, H-A10.2): saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md.
+- Veredito do qa: saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md.
 
 Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não abertas):
 - Nenhuma página de curso da Ufape apareceu nas consultas de curso por área. A busca por "Ufape pós-graduação veterinária prova de bolsa" devolveu o edital de aprimoramento em terapia intensiva da Ufape (julho de 2026) e editais de outras instituições.
@@ -1165,6 +1176,7 @@ Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não
 - Guias e o CRMV-ES informam que a pós lato sensu gera certificado de conclusão e que o título de especialista é registrado pelo CRMV após aprovação do CFMV; a Resolução CFMV 935/2009 aparece marcada como revogada em manual do CFMV e a norma que a substituiu não foi confirmada.
 - A busca por ecocardiografia veterinária não trouxe pós brasileira específica (apareceram cursos no exterior e especialização ampla em cardiologia).
 - Currículos públicos citam pós de Neurologia e Neurocirurgia e de Nefrologia pela Ufape (terceiros, sem verificação).
+- Sem URL guardada (resumo de busca, conferir na fonte): UFF, USP, UFRRJ, Colégio Brasileiro de Cirurgia Veterinária, ABNV e CBOV, citados em K1.10, K4.13, K9.7, K9.8 e K12.9.
 
 ## Lista 2. Suposições
 
@@ -1175,7 +1187,7 @@ Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não
 - [SUPOSIÇÃO] Espaço aberto em ecocardiografia, gastroenterologia, hematologia, citopatologia, ortopedia e geriatria; e em "presencial ou semipresencial" para dermatologia, oftalmologia e imagem.
 - [SUPOSIÇÃO] Os endereços novos seguem /pos-graduacao/pos-graduacao-em-<área> e a página única por curso (SEO-04) será implementada; o hub da prova e as listagens por praça são proposta.
 - [SUPOSIÇÃO] Página nova leva semanas para ranquear; 707, 68604 e 68606 não se beneficiam do conteúdo novo a tempo.
-- [SUPOSIÇÃO] Nomes populares ("pós em cardio vet", "especialização em felinos") são usados por candidatos; só entram em texto, FAQ e grupo de anúncio.
+- [SUPOSIÇÃO] Nomes populares ("pós em cardio vet", "especialização em felinos") são usados por candidatos; só entram em lista de palavras-chave e em grupo de anúncio.
 - [SUPOSIÇÃO] Tipos de correspondência, palavras negativas e a estrutura de grupos do Google Search (seção 5.3).
 - [SUPOSIÇÃO] Público de equinos viaja mais; público de reprodução inclui criadores; público de anestesiologia avançada já é anestesista; "radiologia veterinária" e "análises clínicas veterinárias" atraem o mesmo público das pós de imagem e de patologia clínica.
 
@@ -1185,8 +1197,8 @@ Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não
 - Sugestões do Google e "As pessoas também perguntam" (seção 8, item 1).
 - Rodada manual nos assistentes de IA (seção 8, item 4): sem ela não há taxa de citação.
 - [CONFIRMAR NO CATÁLOGO] Datas de 698, 352, 366, 662, 68662 e 68636; turma de 68628, 68617 e 662; link trocado de 662 e 68662; links invertidos de 68641 e 68642.
-- [CONFIRMAR NO CATÁLOGO] Destino das provas 68652, 68649, 68653 e 68655; situação de 68656; data de encerramento das inscrições da prova; regras da prova (canal do resultado, prazo de matrícula, turma mínima).
-- [CONFIRMAR NO CATÁLOGO] Pré-requisitos por turma (657, 359, 698, 352, 699); público de 68616, 68608, 366 e 719; ato regulatório de 719; promoção de 341; ficha de 699.
+- [CONFIRMAR NO CATÁLOGO] Destino das provas 68652, 68649, 68653 e 68655; situação de 68656; se a prova de Cardiologia vale para 698; data de encerramento das inscrições da prova; regras da prova (canal do resultado, prazo de matrícula, turma mínima).
+- [CONFIRMAR NO CATÁLOGO] Pré-requisitos por turma (657, 359, 698, 352, 699); público de 68616, 68608, 366 e 719; ato regulatório de 719; promoção de 341; ficha de 699; frequência e jornada de 68632.
 - [CONFIRMAR NO CATÁLOGO] Se a pós de imagem pode usar nome curto no título; se haverá turma de São Paulo de Anestesiologia e de Clínica Cirúrgica de novo.
 - [CONFIRMAR] Página de listagem das pós e página institucional já existentes no site; lista de artigos do blog; URL do hub da prova.
 - [CONFIRMAR] Verba e metas por linha (para o gestor-de-midia); data de encerramento das campanhas; decisão sobre termos de marca do concorrente.
@@ -1196,7 +1208,7 @@ Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não
 
 ## Fontes (consultadas em 26/10/2026, por resumo de busca)
 
-Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; .claude/skills/agrupar-palavras-chave/SKILL.md; .claude/skills/briefing-seo/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md; saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md.
+Internas: docs/execucao-2026-10-26.md; CLAUDE.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/catalogo-de-cursos.md; .claude/skills/agrupar-palavras-chave/SKILL.md; .claude/skills/briefing-seo/SKILL.md; .claude/skills/visibilidade-em-ia/SKILL.md; saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md; saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md.
 
 Externas (resumo de busca; conferir na fonte antes de ir para peça):
 - Anestesiologia: [Quero Bolsa, anestesiologia veterinária](https://querobolsa.com.br/cursos-e-faculdades/anestesiologia-veterinaria/bolsas); [UNAR, PPC de pós em anestesiologia 2026](https://www.unar.edu.br/wp-content/uploads/2026/04/PPC%20Pós%20Med%20Vet%20Anestesio%202026.pdf); [blog Anhanguera, anestesiologia veterinária](https://blog.anhanguera.com/anestesiologia-veterinaria/)
@@ -1216,4 +1228,4 @@ Externas (resumo de busca; conferir na fonte antes de ir para peça):
 
 ## Próximo passo
 
-Próximo agente sugerido: mensagens (etapa 2.2, usa os termos e as perguntas por área) e briefing-de-conteudo (etapa 2.7, usa os briefings da seção 4 e os blocos citáveis). Em paralelo, a pessoa do marketing roda a checagem da seção 8 (sugestões do Google e assistentes de IA). Antes de qualquer peça, o arquivo passa pelo qa-de-marketing com a auditoria 03-busca e com auditorias/conformidade-educacional.md. A aprovação de verba e de grupos de anúncio é da pessoa do marketing.
+Próximo agente sugerido: mensagens (etapa 2.2, usa os termos e as perguntas por área) e briefing-de-conteudo (etapa 2.7, usa os briefings da seção 4 e os blocos citáveis). Em paralelo, a pessoa do marketing roda a checagem da seção 8 (sugestões do Google e assistentes de IA). Antes de qualquer peça, o arquivo passa de novo pelo qa-de-marketing com a auditoria 03-busca e com auditorias/conformidade-educacional.md. A aprovação de verba e de grupos de anúncio é da pessoa do marketing.
