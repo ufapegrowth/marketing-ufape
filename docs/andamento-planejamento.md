@@ -23,6 +23,8 @@ Diário da rodada de planejamento. Toda sessão que retomar este trabalho lê es
 | 26/10/2026 | Datas: valem as da planilha, inclusive 68662 e 662 |
 | 26/10/2026 | Página 623 será corrigida (aprovado). Até a correção estar no site, nenhuma campanha nova aponta para ela |
 | 26/10/2026 | Prioridade depois da camada 1: Graduação e Pós-graduação primeiro; Eventos em seguida; Cursos Livres e provas de bolsa por último |
+| 26/10/2026 | Verba estimada de R$ 2.000,00 de mídia por curso; meta de pelo menos 15 matrículas por curso (15 vezes o valor do curso); na Pós a inscrição de R$ 260,00 conta na meta, separada da matrícula (1ª mensalidade). Site mostra R$ 250,00: [CONFIRMAR U11] |
+| 26/10/2026 | Limite de mensagens delegado ao cmo, com base em referências de mercado de educação |
 | 26/10/2026 | Seguir pela camada 1 até o fim. A sessão que vinha fazendo a rodada foi substituída por esta (mesmo branch) |
 
 ## Camada 1: estado por etapa
@@ -156,3 +158,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Varredura de coerência: 18 saídas antigas atualizadas com as decisões 7 a 13 e a seção 12 do cmo (prova online com campus, turma mínima 15, nome oficial do workshop, autorização para todos, datas da planilha, 623, UTM D11 e D12, frase D13). Turma mínima do exemplo JSON 707 do arquiteto corrigida para 15 pelo orquestrador |
 | 26/10/2026 | Camada 1 fechada. Criado docs/pendencias-camada-1.md com aprovações R1 a R8 e verba, perguntas U1 a U10 e metas, correções do site e os primeiros passos da semana |
 | 26/10/2026 | CEO: provas de bolsa e Livres por último; Graduação e Pós primeiro. Decisão 14 no briefing. Iniciados: fechamento do kit da Graduação e 2.2 mensagens da Pós |
+| 26/10/2026 | Decisões 15 a 17 gravadas no briefing (verba, meta, teto pelo cmo). Iniciados: cmo define o teto com referências de mercado; gestor-de-midia refaz metas e verba da Pós e da Graduação |
