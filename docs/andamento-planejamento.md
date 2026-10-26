@@ -144,3 +144,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | Encomendas aplicadas (grupo copy e campanhas): copy-de-mensagens pos v2 e eventos v3, estrategia-de-campanha pos v2 e eventos v3, criativos-de-anuncio pos v2 e eventos v3. Provas como online com campus; 12 fichas que se contradizem por dentro ficam [CONFIRMAR U1]; acesso à prova online [CONFIRMAR U2]. Todas as encomendas da seção 12 aplicadas |
 | 26/10/2026 | 1.14 entregue (5 arquivos). Lote D concluído. Iniciado o lote E: 1.33 backlog-de-otimizacao e qa do lote D |
 | 26/10/2026 | Lote E iniciado (1.33, qa do lote D, varredura de coerência das saídas antigas) |
+| 26/10/2026 | qa do lote D: 9 aprovados com ajustes, anuncios-google-pos CORRIGIR (AGP-Q1: descrição do canal de resultado só nas 10 provas sem contradição). Correções enviadas aos agentes de 1.14, 1.15 e 1.28. Para o cmo: frase de natureza do 700 (D13 ou "Evento: ..."); até lá vale a D13 |
