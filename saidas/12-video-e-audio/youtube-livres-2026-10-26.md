@@ -3,6 +3,7 @@
 - **Agente:** youtube (departamento 12, Vídeo e Áudio), etapa 1.21 da camada 1
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md, YL-Q1): UTM no padrão D11 e D12 (utm_medium=organic_social), YouTube pago só em P3 da Pós (EM8) e frase única do curso livre (D13). Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Subir vídeo, agendar, configurar canal e responder comentário em nome da Ufape é ação humana, depois de aprovação.
 - **Entradas lidas:**
   - .claude/agents/youtube.md (instrução deste agente) e .claude/agents/tiktok.md (formato de Short)
@@ -10,7 +11,8 @@
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (briefing obrigatório)
   - docs/andamento-planejamento.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3, 3, 5, 7 e 8)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3, 3, 5, 7 e 8; na versão 2, seção 12.6, EM8, e 12.7, D11 a D13)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (seção 5, YL-Q1; versão 2)
   - contexto/ufape-geral.md, contexto/cursos-livres.md, contexto/pos-graduacao.md
   - contexto/catalogo-de-cursos.md (cabeçalho "Como usar" e seções 4 e 5; fonte única de dado de curso deste arquivo)
   - contexto/cursos/livres/ (campos "Página oficial" e bloco de professores das fichas 463, 627, 482, 465, 469, 68638 e 507)
@@ -33,7 +35,7 @@
 2. **Condições de entrada:** as mesmas do canal (youtube-pos-2026-10-26.md, seção 2: canal oficial confirmado, quem publica, quem edita, revisor docente) mais duas de Livres: teste da Pós mantido em 08/01 e ao menos 2 Reels de Livres aprovados. Trecho de aula de curso gravado como amostra fica fora até a Ufape decidir se mostra conteúdo pago [CONFIRMAR].
 3. **Pauta:** SH-L1 (09/01) a partir do Reel "Uma hora de dermatologia" do Mini Curso em Dermatologia na Clínica Médica de Pequenos Animais (463), com Msc. Maurício Zago Flocke; SH-L2 (23/01) a partir do Reel do kit do Curso Prático de Ultrassonografia Point-of-Care (POCUS) em Emergência Veterinária (68638), só com a carga horária no catálogo; plano B nos minicursos de oncologia (465) ou cirurgia (469).
 4. **Leitura:** a unidade que julga Livres é o pedido pago (1.20 de Livres). Com 2 Shorts não há leitura de resultado: o teste de Livres em janeiro mede constância e sinais (comentário com pergunta, visita ao canal, clique e pedido com origem YouTube). Proposta PL1 ao cmo: julgar Livres no YouTube só depois de pelo menos 6 Shorts, se o canal continuar.
-5. **Frase obrigatória:** todo Short de Livres leva, na tela final e na descrição, "Curso livre: não confere diploma nem equivale a graduação ou pós-graduação". Nenhuma ponte prometida para a Pós e nenhum "gratuito".
+5. **Frase obrigatória:** todo Short de Livres leva, na tela final e na descrição, "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação". Nenhuma ponte prometida para a Pós e nenhum "gratuito".
 
 ---
 
@@ -77,7 +79,7 @@ Mesmos papéis do canal (youtube-pos-2026-10-26.md, seção 3.1): responsável p
 
 | Formato | Especificação | Regra de Livres |
 |---|---|---|
-| Short | Vertical 9:16, de 20 a 60 segundos, legenda gravada na tela e arquivo de legenda revisado, mesmo texto e mesma chamada do Reel de Livres | Tela final com "Curso livre: não confere diploma nem equivale a graduação ou pós-graduação". Minicurso descrito como "de 6 a 8 h" quando a frase for geral; com o curso nomeado, a carga do catálogo. Nada de "100% prático", "turma reduzida", "vagas limitadas" ou "gratuito". Nenhuma frase de certificação (texto oficial vazio). Sem dose, protocolo ou conduta escritos pela squad |
+| Short | Vertical 9:16, de 20 a 60 segundos, legenda gravada na tela e arquivo de legenda revisado, mesmo texto e mesma chamada do Reel de Livres | Tela final com "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação". Minicurso descrito como "de 6 a 8 h" quando a frase for geral; com o curso nomeado, a carga do catálogo. Nada de "100% prático", "turma reduzida", "vagas limitadas" ou "gratuito". Nenhuma frase de certificação (texto oficial vazio). Sem dose, protocolo ou conduta escritos pela squad |
 
 O link da descrição de Short não é clicável [SUPOSIÇÃO de regra da plataforma, ver PY1 do arquivo da Pós]: a chamada aponta para o perfil do canal, onde a playlist de Livres e o link da página de cursos livres ficam visíveis [CONFIRMAR endereço da página de listagem].
 
@@ -122,7 +124,7 @@ Preço não entra no Short. Se o Reel de origem mostrar preço, o Short repete o
 | Contexto | 3 a 10 s | A pergunta em uma frase. [TEXTO NA TELA: a pergunta] |
 | Resposta | 10 a 40 s | Fala revisada do docente (SH-L1) ou roteiro da ficha conferido (SH-L2). [CORTE] a cada ideia |
 | Prova | 40 a 50 s | Nome e titulação como na ficha; formato e carga horária do catálogo |
-| Chamada e frase obrigatória | 50 a 60 s | "Curso completo na playlist e no perfil do canal." [TEXTO NA TELA: nome do curso, Faculdade UFAPE. Curso livre: não confere diploma nem equivale a graduação ou pós-graduação] |
+| Chamada e frase obrigatória | 50 a 60 s | "Curso completo na playlist e no perfil do canal." [TEXTO NA TELA: nome do curso, Faculdade UFAPE. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação] |
 
 ---
 
@@ -141,15 +143,15 @@ Os títulos de SH-L1 seguem a pergunta que o docente escolher; os de SH-L2 só v
 
 ```
 <1 frase com a pergunta e a resposta.> <Nome do curso como no catálogo>, Faculdade UFAPE.
-Curso livre: não confere diploma nem equivale a graduação ou pós-graduação.
+Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 Página do curso e outros vídeos no perfil do canal.
 ```
 
 Exemplo SH-L1: "Uma decisão de dermatologia da rotina, respondida pelo Msc. Maurício Zago Flocke. Mini Curso em Dermatologia na Clínica Médica de Pequenos Animais, Faculdade UFAPE." Página da ficha: https://faculdade.ufape.com.br/produto/463/mini-curso-em-dermatologia-na-clinica-medica-de-pequenos-animais (com UTM, se o link voltar a ser clicável em Short).
 
-### 8.3 UTM sugerida [SUPOSIÇÃO; padrão da squad [CONFIRMAR]]
+### 8.3 UTM (padrão D11 e D12 do plano do cmo, seção 12.7)
 
-utm_source=youtube, utm_medium=organico, utm_campaign=livres-youtube-teste-202701, utm_content=<ID do vídeo>-<código do curso> (exemplo: sh-l1-463).
+utm_source=youtube, utm_medium=organic_social, utm_campaign=livres_<código do catálogo>_<AAAAMM da publicação>, utm_content=<ID da peça>. Exemplos: SH-L1 (09/01/2027) leva utm_campaign=livres_463_202701 e utm_content=sh-l1; SH-L2 (23/01/2027) leva utm_campaign=livres_68638_202701 e utm_content=sh-l2. Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos; nenhum dado pessoal. O link da página de listagem no perfil do canal não tem código do catálogo [CONFIRMAR chave com o cmo]; até a resposta, sai sem UTM.
 
 ### 8.4 Capa
 
@@ -164,7 +166,7 @@ Short usa o quadro do próprio vídeo; quando der para escolher, o quadro do gan
 | SH-L1 | Incorporar na página de 463 só se o teste continuar (pedido humano no site) | Livres | Já é corte do Reel |
 | SH-L2 | Incorporar na página de 68638 só se o teste continuar | Livres | Já é corte do Reel |
 
-Nada de Livres vai para a campanha de YouTube pago de março (PP13 é só da Pós).
+Nada de Livres vai para a campanha de YouTube pago de março (PP13 é só da Pós, e o YouTube pago fica só dentro de P3 do gestor-de-midia-pos, EM8 do plano do cmo).
 
 ---
 
@@ -207,7 +209,7 @@ Regras (regra prática [SUPOSIÇÃO], sem meta numérica):
 | # | Proposta | Motivo | Se o cmo não aceitar |
 |---|---|---|---|
 | PL1 | Se o canal continuar depois de 24/01, julgar Livres no YouTube só depois de pelo menos 6 Shorts (cerca de 12 semanas na cadência atual) | 2 Shorts não formam linha de base de pedido pago | Livres é julgado em 25/01 com o que houver |
-| PL2 | No próximo trimestre, considerar o tema "Curso online de veterinária vale a pena ou basta conteúdo gratuito?" (IA27) e "Minicurso de 8 horas, vale a pena?" (IA37) como pauta de Short de Livres (pilar SL5) | São perguntas reais de busca ligadas à objeção O1 da linha | Pauta segue só os Reels do calendário |
+| PL2 | No próximo trimestre, considerar o tema "Curso online de veterinária vale a pena ou basta conteúdo gratuito?" (IA27) e "Minicurso de 8 horas, vale a pena?" (IA37) como pauta de Short de Livres (pilar SL5). Se virar peça, o título de IA37 segue a regra da seção 4 ("de 6 a 8 h") ou nomeia o minicurso com a carga do catálogo; "8 horas" genérico não vai para título, porque há minicurso de 6 h (669, catálogo) | São perguntas reais de busca ligadas à objeção O1 da linha | Pauta segue só os Reels do calendário |
 | PL3 | Short de Livres em dia diferente do Short da Pós (por exemplo, domingo) | No sábado de 09/01 e 23/01 o canal teria 2 Shorts no mesmo dia | Mantém o sábado da 1.20 |
 
 ---
@@ -246,17 +248,29 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelo ajuste YL-Q1 do qa (lote C).
+- UTM da seção 8.3 no padrão D11 e D12 (utm_medium=organic_social; utm_campaign livres_463_202701 e livres_68638_202701).
+- YouTube pago só dentro de P3 da Pós (EM8), registrado na distribuição e nos fatos.
+- YL-Q1: a pauta futura de IA37 registra que o título segue "de 6 a 8 h" ou nomeia o minicurso.
+- Frase do curso livre trocada pela versão única D13. Listas finais atualizadas.
+
+---
+
 ## Fatos (com fonte)
 
 - Livres entra no teste do canal a partir de 04/01/2027, com 1 Short a cada 2 semanas derivado de Reel de Livres, só se o teste da Pós seguir e o canal existir; o canal soma 1 Short da Pós por semana; saída com 2 semanas seguidas sem quem publique; trecho de aula de gravado só com decisão da Ufape (estrategia-social-livres, seções 3.2 e 4.4; EL9).
 - Teste da Pós de 07/12/2026 a 24/01/2027, com decisão sobre o YouTube em 08/01/2027 (estrategia-social-pos, seções 4.4 e 5).
 - Calendário de Livres: S11 com "Uma hora de dermatologia" (463) e A9 (627 ou 482); S12 com 68638 (posts 1 e 2) e A6 ou A11, A10 (465) ou A4 (469) (estrategia-social-livres, seção 5.1).
 - Unidade que julga Livres: pedido pago (estrategia-social-livres, seção 0).
-- Frase do curso livre: "não confere diploma nem equivale a graduação ou pós-graduação" (estrategia-social-livres, lições LA4; contexto/cursos-livres.md).
+- Frase única do curso livre: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (cmo-geral, seção 12.7, D13; auditorias/conformidade-educacional.md).
+- Padrão de UTM: utm_source=youtube, utm_medium=organic_social, utm_campaign com a chave livres_<código> e o AAAAMM, utm_content com o ID da peça (cmo-geral, seção 12.7, D11 e D12).
 - Cursos citados, com modalidade, carga horária, início e preço: 463, 627, 482, 465, 469 e 68638 (catálogo, seções 4 e 5). 68638 sem carga horária no catálogo.
 - Docentes: 463, Msc. Maurício Zago Flocke; 627, ESP. Franco Metzker Poggiani; 482, Dra. Andrea Barbosa e Dra. Angélica Safatle; 465, MV. Carolina de Farias Leitão e Úrya de Oliveira Barbosa; 469, MSC. Geovane Pereira e Dra. Fabiana A. Voorwald; 68638, Dr. Alessandro Martins, M.V. Djalmo Pietruka, MV. Renan Matheus Holczer Duarte, Jennif Esposito e MSC. Luciane Kanayama (fichas; estrategia-social-livres, seção 6.4).
-- Todos os docentes têm autorização de uso de imagem e de citação (briefing, decisão 8, 26/10/2026).
-- YouTube pago no plano de mídia é só para turmas de março da Pós (gestor-de-midia-pos, PP13).
+- Todos os docentes têm autorização de uso de imagem e de citação (briefing, decisão 8, 26/10/2026); a decisão 10 estende a autorização a palestrantes e convidados.
+- YouTube pago no plano de mídia é só para turmas de março da Pós (gestor-de-midia-pos, PP13) e fica só dentro de P3 (cmo-geral, 12.6, EM8).
+- Minicurso 669 com 6 h (catálogo; regra "de 6 a 8 h" da seção 4).
 - Perguntas de busca IA27 e IA37 (pesquisa-de-palavras-chave-livres).
 
 ## Suposições
@@ -265,7 +279,6 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 - [SUPOSIÇÃO] Esforço de cerca de 1 h por Short de Livres e cerca de 1 h do docente por Reel.
 - [SUPOSIÇÃO] Sábado como dia do Short (herdado da 1.20) e domingo como alternativa (PL3).
 - [SUPOSIÇÃO] Regras de continuar e parar da seção 11 e o mínimo de 6 Shorts de PL1 (regra prática, não meta).
-- [SUPOSIÇÃO] UTM da seção 8.3.
 - [SUPOSIÇÃO] Que o Msc. Maurício Zago Flocke aceite gravar e escolher a pergunta.
 
 ## Dados que faltam
@@ -276,7 +289,7 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 - [CONFIRMAR NO CATÁLOGO] Carga horária de 68638 e roteiro do curso; titulação de Jennif Esposito.
 - [CONFIRMAR] Decisão sobre trecho de aula de gravado como amostra.
 - [CONFIRMAR] Números do canal e pedidos com origem YouTube: não existem nas fontes.
-- [CONFIRMAR] Padrão de UTM, ferramenta de analytics e campo de origem no CRM e na loja.
+- [CONFIRMAR] Chave de utm_campaign para o link de listagem sem código do catálogo (com o cmo), ferramenta de analytics e campo de origem no CRM e na loja.
 - [CONFIRMAR] Endereço da página de listagem de cursos livres para o perfil do canal.
 - [CONFIRMAR] Horas do time por semana para vídeo.
 - [CONFIRMAR] Padronização da grafia das titulações.

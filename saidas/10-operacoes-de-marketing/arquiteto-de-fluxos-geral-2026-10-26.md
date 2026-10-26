@@ -4,6 +4,7 @@
 - Etapa do plano: M.1 (seção 4 do plano do cmo, "Mapa mental e JSON")
 - Linha: geral (vale para graduacao, pos, livres e eventos)
 - Data: 26/10/2026 (segunda-feira)
+- Versão: 3 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: campos de janela de silêncio, de participação em evento e de vínculo no CRM, fila D2, limite de 1 mensagem de campanha por dia e padrão de UTM D11 e D12 (seção 6 nova). Mudanças no fim do arquivo.
 - Status: versão corrigida depois do veredito do qa-de-marketing (itens B1 a B6). Rascunho para nova conferência do qa-de-marketing e depois para a aprovação da pessoa do marketing. Nada foi gerado, publicado, enviado ou pago. Nenhum arquivo de .claude/commands foi criado: o texto dos workflows está na seção 3.9, pronto para virar arquivo depois da aprovação.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -13,7 +14,7 @@
   - templates/kit-de-lancamento-pos.md, kit-de-lancamento-livres.md, kit-de-lancamento-evento.md, kit-de-lancamento-graduacao.md
   - templates/pagina-da-turma.md e templates/documento-de-fluxo.md
   - docs/visao-de-campanhas-2026-10-26.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro; na versão 3, seção 12: D1, D2, D3, D8 a D12, D15 e encomendas de 12.10)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md (veredito, seção do arquiteto-de-fluxos)
   - .claude/skills/mapear-fluxo/SKILL.md e .claude/skills/matriz-gut/SKILL.md (cabeçalho)
   - .claude/agents/arquiteto-de-fluxos.md, cmo.md, qa-de-marketing.md, relatorios.md
@@ -188,7 +189,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | graduacao.validade_do_desconto | C | texto | tipo graduacao | cópia literal | ficha de editais | "[CONFIRMAR]" |
 | graduacao.lp.url | C | texto | tipo graduacao | URL da LP da Graduação | catálogo ou ufape-site | "[CONFIRMAR]" |
 | graduacao.lp.alterada_pela_squad | C | booleano | tipo graduacao | sempre false | regra do CLAUDE.md | não se aplica |
-| graduacao.lp.utm | C | objeto | tipo graduacao | gerada_por ("plataforma"), parametros (utm_source, utm_medium, utm_campaign, utm_content, utm_term), utm_campaign. Nenhum valor que identifique pessoa | plataforma; padrão da squad (plano, P15) | utm_campaign "[CONFIRMAR]" |
+| graduacao.lp.utm | C | objeto | tipo graduacao | gerada_por ("plataforma"), parametros (utm_source, utm_medium, utm_campaign, utm_content, utm_term), utm_campaign. Nenhum valor que identifique pessoa | plataforma; padrão D11 e D12 do plano do cmo (seção 12.7; seção 6.3 deste arquivo) | utm_campaign "[CONFIRMAR]" |
 | evento.subtipo | C | texto | tipo workshop ou simposio | workshop, simposio | contexto/eventos.md (subtipo obrigatório) | "[CONFIRMAR]" |
 | evento.data_inicio | C | data ou null | tipos de evento | AAAA-MM-DD | catálogo | null com pendência |
 | evento.data_fim | C | data ou null | tipos de evento | AAAA-MM-DD | página do evento | null com pendência; null (não se aplica) em evento gravado contínuo |
@@ -1103,6 +1104,69 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 
 ---
 
+## 6. Regras de envio no CRM pedidas pelo cmo (seção 12 do plano, versão 3)
+
+Esta seção atende a encomenda da seção 12.10 do plano do cmo. Ela não muda o esquema JSON da seção 1: os campos abaixo são do cadastro do contato no CRM, onde já existe dado pessoal, e nunca entram no JSON do curso (R10). A squad lê só números somados. A ferramenta de CRM, e-mail e WhatsApp que vai aplicar as regras ainda não foi informada [CONFIRMAR, P15]; os números do teto são [SUPOSIÇÃO] até a Ufape confirmar (pedido R1 do cmo).
+
+### 6.1 Campos novos no contato
+
+| Campo | Tipo | Valores | Quem preenche | Para que serve |
+|---|---|---|---|---|
+| fim_janela_silencio | data ou vazio | AAAA-MM-DD. Presencial e evento: 2 dias úteis depois do último dia do curso ou evento. Online e minicurso: 7 dias corridos depois do primeiro acesso; enquanto a plataforma não informar o acesso, 7 dias corridos depois da compra (D8) [SUPOSIÇÃO de prazo] | CRM, no pedido pago (loja) | Enquanto a data de hoje for menor ou igual a fim_janela_silencio, o contato não entra em campanha nova de outra linha (P5 da Pós, convite de Livres, convite do Workshop). Régua com data em que ele já estava antes da compra continua: a janela impede entrada nova, não interrompe régua em curso |
+| participou_evento_<código> | texto, um campo por evento ou edição | inscrito (pedido pago) ou presente [CONFIRMAR como a presença é medida]. O <código> é o código do catálogo; sem código, a chave de D12 (exemplo: participou_evento_neuro26 para o Workshop Brasileiro de Neuromonitorização de 20 e 21/11/2026) | CRM, a partir da loja e do credenciamento | Separa participante do Workshop nas réguas: provas M8 às 16h para participante (D3), M9 de 25/11 só para participantes (D9), supressões da semana S5 |
+| vinculo_ufape | lista de texto | aluno_pos, ex_aluno_pos, comprador_livres, nenhum [SUPOSIÇÃO de nomes]; Graduação [CONFIRMAR se entra] | secretaria e loja | D10: [segmento] = ex_aluno na régua das provas quer dizer ex_aluno_pos; comprador só de Livres (comprador_livres sem aluno_pos nem ex_aluno_pos) não entra na régua das provas, salvo se também for lead de Pós com opt-in. Também marca quem pode usar o cupom SIMPNEUROMONIT (aluno e ex-aluno, com comprovação na secretaria) |
+
+Campos de apoio que cada mensagem precisa levar na régua: tipo (servico ou campanha), prioridade (1 a 6, abaixo), data_do_item (data da turma, prova ou edição), nota_gut (seção 3 do plano do cmo) e canal (whatsapp ou email).
+
+### 6.2 Fila de prioridade (D2) e limite diário no CRM
+
+Antes de agendar qualquer mensagem de campanha para um contato, o CRM confere, nesta ordem:
+
+1. **Serviço passa sempre.** Confirmação de inscrição ou compra, véspera, dia, resultado da prova (M16 a M20), gravação e certificado do Workshop (M8), acesso ao online e material do pós-curso ficam fora do teto e da fila.
+2. **Dia sem campanha.** 02/11; 20 e 21/11; 25/12; 31/12; 01/01; de 21/12 a 03/01 só serviço e manutenção. Para quem está na campanha das provas, também 26 e 27/11. Mensagem de campanha nesses dias é suprimida.
+3. **Janela de horário.** WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h.
+4. **Janela de silêncio.** Se hoje for menor ou igual a fim_janela_silencio e a mensagem for entrada em campanha nova de outra linha, ela é suprimida.
+5. **Limite diário.** No máximo 1 mensagem de campanha por contato por dia, em qualquer canal. Se o dia já tem mensagem de campanha para o contato, a nova é suprimida; reenvio não muda de dia.
+6. **Teto semanal.** Até 2 WhatsApp e 2 e-mails de campanha por contato na semana (segunda a domingo), somando Pós, Livres, Eventos, Graduação e newsletter. Livres não tem sub-teto.
+7. **Disputa.** Quando duas mensagens de campanha disputam o mesmo dia ou a última vaga da semana no mesmo canal, vence a de menor número na fila D2:
+   1. serviço de qualquer linha (fora do teto);
+   2. toque principal de cada campanha com data (convite, programação, lembrete principal, toque do kit de turma);
+   3. entre toques principais, vence o de data_do_item mais próxima; empate, vence a maior nota_gut;
+   4. follow-ups e reenvios, na mesma ordem;
+   5. nutrição (newsletter, rotação dos contínuos);
+   6. reativação (lead frio, ex-aluno sem campanha ativa).
+
+O que é suprimido não acumula para a semana seguinte, salvo onde a seção 12.2 do plano do cmo diz "muda de data". O CRM registra cada supressão com o motivo (dia sem campanha, horário, janela de silêncio, limite diário, teto semanal, fila), só em contagem para a squad.
+
+### 6.3 Padrão de UTM (D11 e D12)
+
+| Tipo de envio ou peça | utm_source | utm_medium |
+|---|---|---|
+| Mensagem enviada pelo CRM (régua, kit, P1 a P9, RL1 a RL10, Workshop) | whatsapp ou email | crm |
+| Newsletter | email ou whatsapp | newsletter |
+| Orgânico social | instagram, facebook ou youtube | organic_social |
+| Pago na Meta, TikTok e LinkedIn | meta, tiktok ou linkedin | paid_social |
+| Pago no Google (Busca e YouTube) | google | cpc |
+
+- utm_medium aceita só crm, newsletter, organic_social, paid_social e cpc. Os valores base, disparo, organico e pago saem.
+- utm_campaign começa pela chave do item, <linha>_<código do catálogo> (exemplos: pos_68615, livres_573, eventos_700). Sem código: pos_provas20261127, eventos_neuro26, geral_newsletter. Graduação mantém o prefixo grad_.
+- CRM, newsletter e orgânico: utm_campaign = chave + _<AAAAMM do primeiro envio ou da publicação> (exemplos: pos_provas20261127_202611, eventos_neuro26_202610, geral_newsletter_202611).
+- Pago: nome da campanha = chave + _<plataforma>_<objetivo>_<público>_<AAAAMM>, e utm_campaign = nome da campanha. Anúncios já no ar não são renomeados; a análise lê por tabela de correspondência.
+- utm_content = ID da mensagem ou da peça (exemplos: m2-a1-anest-68639, rl1-573-t3, ed01-botao, c01).
+- Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal em UTM (risco 6 da seção 5).
+- A validação de entrada da plataforma (4.3) pode recusar utm_medium fora da lista acima [SUPOSIÇÃO de regra útil, a combinar com o admin].
+
+---
+
+## Mudanças desta versão
+
+- Versão 3 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa. A versão 2 tinha as correções B1 a B6.
+- Seção 6 nova: campos fim_janela_silencio (D8), participou_evento_<código> e vinculo_ufape (D10) no contato do CRM; fila D2, limite de 1 mensagem de campanha por contato por dia e teto semanal D1; padrão de UTM D11 e D12.
+- graduacao.lp.utm passa a citar o padrão D11 e D12. Turma mínima de 15 e autorização de imagem e citação para todos registradas nas listas (decisões 8, 10 e 11); os exemplos 1.6 e 1.7 são de antes dessas decisões: no arquivo real, a pendência 707-p05 não é aberta e a 68651-p03 fecha com turma mínima de 15.
+- Revisão deste documento em 03/11 (D15). Listas finais atualizadas.
+
+---
+
 ## Fatos (com fonte)
 
 1. O mapa HTML é um arquivo único, sem CDN, offline, sem dado pessoal, com nós do nível 0 ao 5; o JSON por item não leva nome de docente; nada vai para o banco agora e a carga futura depende de plano próprio no ufape-admin (plano do cmo, seções 6.1 e 6.2).
@@ -1111,7 +1175,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 4. Nome dos arquivos aprovado em A11, pasta saidas/10-operacoes-de-marketing/cursos/<linha>-<codigo>.json (plano do cmo, seções 6.2 e 8; briefing, decisão do cliente).
 5. Decisões do cliente de 26/10/2026: Graduação com plano próprio (A2), provas de bolsa em campanha única (A3), pendências marcadas, workshop de 20 e 21/11 com cupom SIMPNEUROMONIT e 16 h (docs/execucao-2026-10-26.md).
 6. Pós 707: turma VII, São Paulo, semipresencial, 600 h, início 30/10/2026 (planilha), 30x de R$ 1.590,00, R$ 47.700,00, matrícula R$ 250,00, status aberto (catálogo, seção 2); 24 módulos, turma mínima de 20, 3 coordenadores, 19 professores listados (ficha da 707).
-7. Prova 68651: Hematologia, São Paulo, 27/11/2026, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, aberto (catálogo, seção 3, com coluna de preço); 9 às 13h, prova presencial, nota de corte 7.0 (mínimo 70 % de acerto) e mínimo de 15 alunos nas duas menções da ficha (ficha da 68651). Regras das 22 provas, iguais em todas: 11 bolsas por prova (2 de 50% (monitoria), 4 de 25% e 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 10 dias úteis para a matrícula, turma mínima de 15 na página da prova contra 20 nas páginas de curso [CONFIRMAR], turma de destino não consta na página [CONFIRMAR] (contexto/pos-graduacao.md). O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula (ficha da 68651). O plano dá P10 como resolvido (plano do cmo, seção 7).
+7. Prova 68651: Hematologia, São Paulo, 27/11/2026, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, aberto (catálogo, seção 3, com coluna de preço); 9 às 13h, prova presencial, nota de corte 7.0 (mínimo 70 % de acerto) e mínimo de 15 alunos nas duas menções da ficha (ficha da 68651). Regras das 22 provas, iguais em todas: 11 bolsas por prova (2 de 50% (monitoria), 4 de 25% e 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 10 dias úteis para a matrícula, turma mínima de 15 na página da prova contra 20 nas páginas de curso (fechado pela decisão 11 da Ufape: turma mínima de 15, também nas turmas de Pós; provas online), turma de destino não consta na página [CONFIRMAR] (contexto/pos-graduacao.md). O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula (ficha da 68651). O plano dá P10 como resolvido (plano do cmo, seção 7).
 8. Visão de campanhas de 26/10/2026: 707 com campanha ativa, estático, sem 5 ângulos; o Simpósio de Neuromonitorização com campanha ativa, estático, 5 ângulos "não se aplica"; as provas de bolsa não constam (visão de campanhas; plano, seção 3).
 9. GUT: provas de bolsa 5, 5, 4 = 100; Pós 707, 68604 e 68606: 4, 5, 3 = 60 (plano, seção 3).
 10. Onda 1 e situação especial das turmas com campanha ativa: inventário do kit pelo cmo em 28/10, mensagens de reta final em 28/10, plano da campanha das provas em 29/10, peças das provas em 03/11 (plano, seção 4).
@@ -1123,6 +1187,8 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 16. cmo, qa-de-marketing e relatorios têm as ferramentas Read e Write (cmo também WebSearch e WebFetch); nenhum tem execução de script (.claude/agents).
 17. A plataforma pede aprovação depois de cada etapa e registra a entrega (CLAUDE.md do marketing, "Execução pela plataforma"). O admin é o único projeto que cria migrations e as tabelas cursos e turmas mandam nos dados de curso (CLAUDE.md do admin).
 18. O veredito do qa-de-marketing pediu as correções B1 a B6 (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md).
+19. Teto único D1, fila D2, janela de silêncio D8, ex-aluno de Pós na régua das provas D10, padrão de UTM D11 e D12 e revisão no dia útil seguinte quando a segunda-feira é feriado D15 (plano do cmo, seções 12.2, 12.5, 12.7 e 12.8).
+20. Autorização de imagem e citação para todos (docentes, palestrantes e convidados) e turma mínima de 15 com provas online (docs/execucao-2026-10-26.md, decisões 8, 10 e 11).
 
 ## Suposições
 
@@ -1136,19 +1202,20 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 8. [SUPOSIÇÃO] O responsável pela aprovação é, por enquanto, a pessoa do marketing que fez o pedido (P12 aberto), registrada só como papel.
 9. [SUPOSIÇÃO] Os canais dos exemplos são os da proposta do cmo (seção 5 do plano), não confirmados nas etapas 1.20 e 1.11.
 10. [SUPOSIÇÃO] A conferência C9 (dado pessoal) é feita por leitura do qa-de-marketing, porque nenhum agente executa script.
-11. [SUPOSIÇÃO] A data de revisão deste documento é 02/11/2026, a primeira revisão semanal depois da primeira rodada.
+11. [SUPOSIÇÃO] A data de revisão deste documento é 03/11/2026 (02/11 é feriado; D15), a primeira revisão semanal depois da primeira rodada.
 12. [SUPOSIÇÃO] Itens da Graduação ficam na onda 1 (Graduação aparece na onda 1 do briefing, "inscrições abertas, aulas em 22/02/2027") e sem área das 14.
 13. [SUPOSIÇÃO] Para a prova de bolsa, vale o texto do contexto da linha (resultado por WhatsApp ou e-mail, 10 dias úteis), já aprovado no plano, e os trechos divergentes da ficha viram pendência.
+14. [SUPOSIÇÃO] Números do teto D1 e prazos da janela de silêncio D8, até a Ufape confirmar (pedido R1 do cmo); nomes dos valores de vinculo_ufape.
 
 ## Dados que faltam
 
 1. [CONFIRMAR] Responsável pelo catálogo na Ufape ([nome, área] está vazio no catálogo): é quem dispara a atualização por mudança de catálogo.
 2. [CONFIRMAR] Chave que liga o código do catálogo às tabelas cursos e turmas do admin, e como a plataforma lê os arquivos (seção 4.4).
-3. [CONFIRMAR] URL da LP da Graduação e o padrão de UTM da squad (plano, P15); o catálogo só traz https://faculdade.ufape.com.br/graduacao.
+3. [CONFIRMAR] URL da LP da Graduação (o catálogo só traz https://faculdade.ufape.com.br/graduacao) e utm_campaign da Graduação com o prefixo grad_ (o padrão D11 e D12 já está definido).
 4. [CONFIRMAR] Fim das inscrições de cada turma, prova e edição (nenhum traz hoje).
-5. [CONFIRMAR] Turma de destino de cada prova de bolsa (a página não traz; as 4 provas sem turma futura aberta são 68652, 68649, 68653 e 68655), e qual turma mínima vale: 15 na página da prova ou 20 nas páginas de curso.
+5. [CONFIRMAR] Turma de destino de cada prova de bolsa (a página não traz; as 4 provas sem turma futura aberta são 68652, 68649, 68653 e 68655), (a turma mínima de 15 foi fechada pela decisão 11).
 6. [CONFIRMAR] Quem aprova cada tipo de peça (P12) e o formato do id de aprovação da plataforma (campo ref_aprovacao, hoje "[CONFIRMAR]").
-7. [CONFIRMAR autorização] Autorização de imagem e voz de docentes e palestrantes, só em contagem (P13).
+7. [CONFIRMAR] Termo de imagem de participantes e de alunos; a autorização de docentes, palestrantes e convidados foi registrada pelas decisões 8 e 10 (P13 fechado para eles).
 8. [CONFIRMAR] Metas, verba, vagas restantes e números agregados por turma (P11).
 9. [CONFIRMAR] Texto oficial de certificação da regulação (P1) e a validade do cupom e das promoções (por exemplo, 20% da Pós 341, P16).
 10. [CONFIRMAR] Decisão da pessoa do marketing: nome do arquivo do workshop com "workshop" (proposto) ou "simposio" (exemplo do plano); sufixo "-mapa" nos relatórios do lote; e qual variação do kit de evento vale para o workshop de 20 e 21/11 (o plano usou a de simpósio).
@@ -1156,6 +1223,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 12. [CONFIRMAR] Se "aprimoramento" fica como tipo próprio (proposto aqui, para os itens da Ufape Clínica) ou entra em livre_presencial.
 13. [CONFIRMAR] Inventário do que já existe do kit de 707, 68604, 68606, 698, 68610, 68608, 573, 623 e 68614 (plano, seção 4).
 14. [CONFIRMAR] Qual carga horária vale na Pedagogia (3.440 h no site, 3.640 h no edital) e as datas e textos dos editais apontados como alerta na ficha de editais.
+15. [CONFIRMAR] Ferramenta de CRM, e-mail e WhatsApp que aplica a seção 6 (P15); como a presença no evento é medida; se a Graduação entra em vinculo_ufape.
 
 ## Próximo agente
 

@@ -4,6 +4,7 @@
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.32 da camada 1 do plano do cmo
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: primeiro relatório semanal em terça 03/11 (D15), porque 02/11 é feriado. Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing. Nada é publicado, enviado ou pago. Toda decisão sobre campanha é pedido de aprovação humana.
 - **Natureza deste documento:** não existem resultados de campanha (gasto, impressões, cliques, leads, pedidos, receita) [CONFIRMAR]. Este arquivo não julga desempenho. Ele avalia a estrutura que existe hoje, escreve o que o gestor-de-midia vai conferir no gerenciador de anúncios, fixa o critério de decisão antes de os números chegarem, define os modelos de relatório e de revisão pós-campanha e registra lições como hipótese.
 - **Entradas lidas:**
@@ -15,7 +16,7 @@
   - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (26/10/2026)
   - /home/user/marketing-ufape/docs/visao-de-campanhas-2026-10-26.md
   - /home/user/marketing-ufape/saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md
-  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7, mais 4, 8 e 10 para prazos e pedidos)
+  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7, mais 4, 8 e 10 para prazos e pedidos; na versão 2, seção 12.8, D15)
 
 ---
 
@@ -195,7 +196,7 @@ Não há campanha a checar no gerenciador enquanto o status for desconhecido. O 
 | Data | O que lê | Observação |
 |---|---|---|
 | 28/10 | descoberta de status (2.5) e conferência de data de 573, 623 e 68614 | prazo do kit leve dos grupos |
-| 02/11 (segunda) | 1º relatório semanal (26/10 a 01/11) | fim da janela de 623 (31/10) |
+| 03/11 (terça) | 1º relatório semanal (26/10 a 01/11) | 02/11 é feriado (D15 do plano do cmo); fim da janela de 623 (31/10) |
 | 09/11, 16/11 | relatórios semanais | 573 pode já ter ocorrido, se a data for 14/11 |
 | 21/11 | revisão pós-campanha de 573, se a data for 14/11 (7 dias depois) | se a data for 29/11, a revisão é em 06/12 |
 | 23/11, 30/11 | relatórios semanais | 623 e 68614 em 28/11, se a data valer |
@@ -203,7 +204,7 @@ Não há campanha a checar no gerenciador enquanto o status for desconhecido. O 
 
 ### 3.2 Modelo de relatório de campanha (semanal)
 
-- **Periodicidade:** toda segunda-feira, cobrindo a semana anterior de segunda a domingo (primeira edição: 02/11/2026).
+- **Periodicidade:** toda segunda-feira, cobrindo a semana anterior de segunda a domingo (primeira edição: terça 03/11/2026, porque 02/11 é feriado). Quando a segunda-feira for feriado, o relatório passa para o dia útil seguinte (D15 do plano do cmo).
 - **Unidade:** presenciais e online com data, por turma; contínuos, por produto e por área (um relatório por área, com uma linha por produto).
 - **Regra de campo vazio:** "sem dado" ou "[CONFIRMAR]", nunca zero. Sem dado pessoal.
 
@@ -280,6 +281,14 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa.
+- D15: primeiro relatório semanal de Livres em terça 03/11/2026, cobrindo 26/10 a 01/11; regra de dia útil seguinte quando a segunda-feira for feriado (calendário 3.1 e modelo 3.2).
+- Listas finais atualizadas. O restante do arquivo não mudou.
+
+---
+
 ## Fatos (com fonte)
 
 - A visão de campanhas tem 21 linhas de Livres: 3 ativas, 4 pausadas, 14 sem campanha (visão e analista, 1.10).
@@ -290,7 +299,8 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 - A visão registra 3 novos criativos em 623 em 21/10/2026 (comentário da visão).
 - Preços e cargas horárias são os do catálogo de 26/10/2026. Os grupos 68665 e 68666 custam R$ 100,00 à vista.
 - Ciclo de captação dos presenciais: 4 a 8 semanas antes da data (contexto, marcado como [SUPOSIÇÃO] lá).
-- O plano do cmo prevê revisão toda segunda-feira (02/11, 09/11, 16/11, 23/11, 30/11).
+- O plano do cmo prevê revisão toda segunda-feira (03/11, 09/11, 16/11, 23/11, 30/11); a de 02/11 passa para 03/11 porque é feriado, e o primeiro relatório de Livres sai em 03/11, cobrindo 26/10 a 01/11 (cmo-geral, seção 12.8, D15).
+- 02/11/2026 é feriado (Finados) (cmo-geral, seção 12).
 
 ## Suposições
 

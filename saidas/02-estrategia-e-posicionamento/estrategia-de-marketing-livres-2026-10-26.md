@@ -3,13 +3,15 @@
 - **Agente:** estrategia-de-marketing (departamento 02, Estratégia e Posicionamento), etapa 1.9 da camada 1
 - **Linha:** livres
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md, ML1 a ML3): teto único D1 e fila D2, frase única do curso livre D13. Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento, aplicada na seção 9, e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Toda ação em gerenciador de anúncios, CRM, loja ou site é pedido de aprovação humana.
 - **Skills usadas:** .claude/skills/plano-de-90-dias/SKILL.md e .claude/skills/arvore-de-metricas/SKILL.md
 - **Entradas lidas:**
   - .claude/agents/estrategia-de-marketing.md
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (briefing obrigatório)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1 a 5; seções 7 a 10 de apoio)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1 a 5; seções 7 a 10 de apoio; na versão 2, seção 12: D1, D2, D13 e encomendas de 12.10)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (seção 1, ML1 a ML3; versão 2)
   - contexto/ufape-geral.md, contexto/cursos-livres.md
   - contexto/catalogo-de-cursos.md (seções 4 a 8; fonte única de dado de curso deste arquivo)
   - templates/kit-de-lancamento-livres.md
@@ -24,7 +26,7 @@
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web.
 - **Dados pessoais:** nenhum. Nenhum docente é nomeado. Este plano lê só números somados por produto, formato ou semana.
 - **Regra deste plano:** nenhum número de meta, verba, vaga, lead, pedido ou receita existe hoje (briefing de execução). Todo valor fica [CONFIRMAR]. O plano escreve a fórmula e a regra de decisão para que o número entre sem mudar a lógica.
-- **Decisões da Ufape de 26/10/2026 que este plano aplica:** todos os docentes têm autorização de uso de imagem e de citação (decisão 8 do briefing; nome e titulação só como estão na ficha), o que tira a trava P13 das personas e do posicionamento de Livres; o evento de 20 e 21/11 se chama "Workshop Brasileiro de Neuromonitorização", é da linha Eventos e tem plano próprio.
+- **Decisões da Ufape de 26/10/2026 que este plano aplica:** todos os docentes têm autorização de uso de imagem e de citação (decisão 8 do briefing; a decisão 10 estende a autorização a palestrantes e convidados; nome e titulação só como estão na ficha), o que tira a trava P13 das personas e do posicionamento de Livres; o evento de 20 e 21/11 se chama "Workshop Brasileiro de Neuromonitorização", é da linha Eventos e tem plano próprio.
 
 ---
 
@@ -36,7 +38,7 @@
 2. **Dentro dos 90 dias acontecem 6 datas.** Grupo 68665 (01/11/2026), 573 Hands-On de Ecocardiografia (14/11), grupo 68666 (25/11), 68614 Videotoscopia e 623 ou 68637 Endoscopia Digestiva (28/11), 616 Imersão Avançada em Anestesia Felina, online (05/12) e 68618 Ventilação Mecânica Aplicada à Anestesia (18/12). Catálogo, seções 4, 5 e 7. Fora do trimestre: 68638 POCUS (06/03/2027) e 560 Eletroquimioterapia (22/05/2027); a janela de 68638 abre dentro do trimestre se a regra de 4 a 8 semanas valer [SUPOSIÇÃO do contexto].
 3. **Três das datas estão em dúvida.** 573 (14/11 no catálogo, 29/11 na visão), 68614 (28/11 contra 18/12) e 68618 (18/12/2026 contra 22/05/2027): pendência P6 do plano do cmo. 623 e 68637 são o mesmo curso em duas páginas (P7).
 4. **A mídia paga que a planilha enxerga cobre 4 dos 55 itens** (573, 68614 e 623 ativas; 68618 pausada), todas só com estático. 51 itens não têm status de mídia [CONFIRMAR]. analise-de-campanha-livres, seção 1.
-5. **As páginas travam a venda antes da mídia.** Na 573, topo, bloco de investimento e boleto parcelado dizem coisas diferentes, e aparece "carta de crédito" no lugar de cartão (analise-de-funil-livres, hipótese 1). A página da 68614 afirma certificado "com selo do Ministério da Educação" (ficha 68614), frase que a squad não repete e que torna a página de destino um risco de conformidade. A regra de cancelamento com devolução total da 68614 (até 30 dias antes) vale para a turma de 28/11 só até 29/10/2026 (cálculo).
+5. **As páginas travam a venda antes da mídia.** Na 573, topo, bloco de investimento e boleto parcelado dizem coisas diferentes, e aparece "carta de crédito" no lugar de cartão (analise-de-funil-livres, hipótese 1). A página da 68614 traz uma frase de certificação ligada ao regulador (ficha 68614, campo Certificado), frase que a squad não repete e que torna a página de destino um risco de conformidade. A regra de cancelamento com devolução total da 68614 (até 30 dias antes) vale para a turma de 28/11 só até 29/10/2026 (cálculo).
 6. **O ticket é baixo e a conta de mídia nem sempre fecha.** Preço mediano de cerca de R$ 720 (contexto da linha). Minicursos de R$ 185,00 a R$ 300,00; grupos novos de R$ 100,00. O gestor-de-midia já decidiu os grupos 68665 e 68666 sem mídia paga (D21) e os anúncios de 573 e 68614 sem data até a Ufape confirmar (D12).
 7. **Não há como medir resultado hoje.** Sem meta, verba, pedidos por produto, CRM nomeado nem rastreio de pedido pago por código (analise-de-funil-livres, seção 3). A unidade que julga é o pedido pago, não o lead (analise-de-campanha-livres, regra 2).
 8. **A persona é hipótese.** P-L1 (clínico que quer incorporar uma técnica na rotina, presencial hands-on) é a principal; P-L2 (gravado) e P-L3 (minicurso) são o volume possível dos contínuos. Nenhuma fala real de candidato foi recebida (persona livres, seção 0).
@@ -64,7 +66,7 @@
 
 Relação com o plano do cmo: a meta principal do plano geral é a de turmas de Pós confirmadas, que este plano não mede. No plano do cmo, "vendas por curso livre presencial e online" é a métrica de apoio da linha (seção 1); aqui ela vira a meta única do plano de Livres, com a correção de contar só o que não é reembolsado. Nenhuma métrica deste arquivo soma Livres com Pós ou Eventos (correção LA1 do dep02b aplicada).
 
-Por que pedido e não receita como meta: com tickets de R$ 100,00 a R$ 4.060,80, a receita esconderia a base de compradores dos contínuos. A receita líquida por formato entra como métrica de resultado (M2) e na perspectiva financeira do Balanced Scorecard.
+Por que pedido e não receita como meta: com tickets de R$ 96,00 a R$ 4.060,80, a receita esconderia a base de compradores dos contínuos. A receita líquida por formato entra como métrica de resultado (M2) e na perspectiva financeira do Balanced Scorecard.
 
 ### 2.2 Persona e oferta principal
 
@@ -77,7 +79,7 @@ Por que pedido e não receita como meta: com tickets de R$ 100,00 a R$ 4.060,80,
 
 **Por que P-L1 é a principal mesmo sendo a de menor alcance:** é a única persona com datas dentro do trimestre e com mídia ativa; é a principal do contexto da linha; e os presenciais têm o maior ticket da linha (R$ 890,00 a R$ 2.350,00 à vista nos datados de novembro). Teste que muda a escolha: se o CRM ou a loja mostrar que a maior parte dos pedidos pagos da linha vem de minicurso e gravado, P-L2 vira principal no plano do próximo trimestre (persona livres, seção 1).
 
-**O que nunca muda (vale para toda peça que sair deste plano):** curso livre não confere diploma nem equivale a graduação ou pós-graduação (frase alinhada ao ajuste LA4 do dep02b); nenhuma afirmação de certificação (texto oficial vazio, P1); nada de "últimas vagas", "vagas limitadas" ou "turma reduzida" sem número; nenhuma promessa de renda, de resultado clínico ou de aprovação (inclusive na prova de título do 488); a ponte para a Pós é [SUPOSIÇÃO] e não aparece como promessa; preço sempre à vista e no cartão, com o total no cartão quando for diferente.
+**O que nunca muda (vale para toda peça que sair deste plano):** toda peça de curso livre leva a frase única definida pelo cmo (D13): "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."; nenhuma afirmação de certificação (texto oficial vazio, P1); nada de "últimas vagas", "vagas limitadas" ou "turma reduzida" sem número; nenhuma promessa de renda, de resultado clínico ou de aprovação (inclusive na prova de título do 488); a ponte para a Pós é [SUPOSIÇÃO] e não aparece como promessa; preço sempre à vista e no cartão, com o total no cartão quando for diferente.
 
 ---
 
@@ -173,7 +175,7 @@ Confirma a proposta da seção 5 do plano do cmo para Livres, com um ajuste no Y
 | Prioridade | Canal | Estado em Livres | Motivo | O que faria mudar |
 |---|---|---|---|---|
 | 1 | Instagram (@ufapevet) | **Ativo** | Canal em uso; é onde a técnica cabe em carrossel e Reel curto, e é a principal superfície da mídia Meta. Os presenciais de novembro já rodam nele com estático (visão de campanhas). Com a decisão 8, o docente pode aparecer em post e Reel, com nome e titulação da ficha | Mais Reels por semana só se houver quem filme e edite [CONFIRMAR] |
-| 2 | WhatsApp (vendas SP e GO, secretaria) | **Ativo, só com consentimento** | Canal principal de venda da Ufape; é onde se respondem viagem, turma mínima e forma de pagamento. Textos para o CRM enviar; teto de 2 mensagens de marketing por semana por pessoa, somando todas as linhas [SUPOSIÇÃO a validar com o CRM]. Risco: instabilidade relatada em 22/10 (ufape-geral.md) | Sai do envio em massa se a base com consentimento não for confirmada; fica o atendimento |
+| 2 | WhatsApp (vendas SP e GO, secretaria) | **Ativo, só com consentimento** | Canal principal de venda da Ufape; é onde se respondem viagem, turma mínima e forma de pagamento. Textos para o CRM enviar; teto único D1 do plano do cmo (seção 12.2): até 2 WhatsApp e 2 e-mails de campanha por semana por contato, somando todas as linhas e a newsletter, no máximo 1 mensagem de campanha por dia em qualquer canal, serviço fora do teto; Livres não tem sub-teto e disputa a semana pela fila D2 [SUPOSIÇÃO de número até a Ufape confirmar, R1 do cmo]. Risco: instabilidade relatada em 22/10 (ufape-geral.md) | Sai do envio em massa se a base com consentimento não for confirmada; fica o atendimento |
 | 3 | Facebook (/Ufape) | **Ativo como inventário da mídia Meta**; orgânico só reaproveitado do Instagram | Custo marginal baixo dentro da mesma campanha Meta; orgânico próprio não se paga com o time atual [SUPOSIÇÃO] | Ganha produção própria se os números mostrarem pedidos pagos de Livres vindos do Facebook em volume relevante |
 | 4 | YouTube | **Teste leve condicionado, a partir do bloco 2** (ajuste: o cmo previa ativo leve) | Shorts reaproveitando os roteiros de Reel; trechos de aulas dos gravados como amostra só com decisão da Ufape sobre o conteúdo [CONFIRMAR] (a autorização de imagem dos docentes já existe). No bloco 1 não há vídeo pronto: as 7 campanhas de Livres da visão são só estáticas | Entra de fato quando houver quem grave e edite e 2 vídeos aprovados; é também a resposta mais direta à objeção "por que pagar se há conteúdo gratuito" (amostra de aula) |
 | 5 | LinkedIn | **Fora** | Ticket mediano de cerca de R$ 720 (contexto da linha) não paga o custo do canal [SUPOSIÇÃO]; sem evidência de público veterinário ativo para curso curto | Público profissional comprovado no CRM e um produto de ticket alto com público especialista (por exemplo, 131 ou 488), com verba e rastreio testado |
@@ -341,7 +343,7 @@ Ciclo extra fora da segunda-feira: quando mudar preço, data, vagas, local, form
 | R3 | Página da 68614 mantém a frase de certificação ligada ao regulador | sem correção até 03/11 | anúncio novo da 68614 não sobe; o atual fica sinalizado no item "página de destino" da conformidade (pedido A7 do cmo) |
 | R4 | Pagamento da 573 segue contraditório | página sem texto único até 30/10 | anúncios mostram só o preço do catálogo (R$ 2.350,00 à vista ou 10x de R$ 303,00 no cartão, total de R$ 3.030,00 por cálculo); WhatsApp de vendas orienta a forma de pagamento |
 | R5 | Rastreio não funciona | teste de 31/10 falha | nenhuma leitura de custo por venda; verba nova de Livres não sobe (decisão do gestor-de-midia com aprovação) |
-| R6 | Sobreposição com a Pós e com o Workshop Brasileiro de Neuromonitorização | mesmo público de ecocardiografia (573, 68665 e Pós 698 em 28/11), anestesia (616, 68618, Pós 657 e workshop) e emergência (68666 e prova 68645) | não juntar ofertas na mesma peça; teto de 2 mensagens de marketing por semana por pessoa somando as linhas [SUPOSIÇÃO]; nenhuma mensagem de Livres em 20, 21, 26 e 27/11 para a mesma base |
+| R6 | Sobreposição com a Pós e com o Workshop Brasileiro de Neuromonitorização | mesmo público de ecocardiografia (573, 68665 e Pós 698 em 28/11), anestesia (616, 68618, Pós 657 e workshop) e emergência (68666 e prova 68645) | não juntar ofertas na mesma peça; seguir o teto único D1 (2 WhatsApp e 2 e-mails de campanha por semana por contato, somando as linhas, 1 por dia em qualquer canal, serviço fora) [SUPOSIÇÃO de número, R1 do cmo] e a fila D2 (vence o toque principal com data mais próxima; empate pela nota GUT); nenhuma campanha de nenhuma linha em 20 e 21/11; nenhuma campanha em 26 e 27/11 para quem está na campanha das provas (cmo-geral, 12.2) |
 | R7 | Canibalização entre gravado e presencial | queda de pedidos de 573 com aumento de pedidos de 411 | o gravado entra como alternativa honesta para quem não pode viajar ("o gravado ensina a ler, o presencial treina a fazer"), nunca como versão barata; ler os dois juntos por área |
 | R8 | WhatsApp instável ou sem base com consentimento | falha relatada em 22/10; base legal não confirmada | envios em massa suspensos; e-mail e página assumem; atendimento segue |
 | R9 | Fim de ano derruba atenção | queda de pedidos entre 21/12 e 03/01 [SUPOSIÇÃO] | só manutenção; retomada pronta em 30/12 |
@@ -407,7 +409,7 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todo ped
 ### 9.2 Conferência rápida de conformidade (o qa-de-marketing repete)
 
 - Nenhuma frase de certificação, selo ou nota de regulador como afirmação; a frase da página da 68614 aparece só como problema a corrigir.
-- Curso livre sempre com "não confere diploma nem equivale a graduação ou pós-graduação".
+- Curso livre sempre com a frase única D13: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."
 - Modalidade conforme o catálogo: 616 tratada como online com data (não como presencial), 573 e 560 semipresenciais, 68618 com modalidade em branco marcada.
 - Itens em "verificar" (aprimoramentos 639, 640, 641; Lima 575 e 605; 718) e duplicados sem chamada de compra.
 - Nenhuma urgência sem número; as únicas datas usadas são as do catálogo e a regra de 29/10 da 68614, que é cálculo sobre regra escrita pela Ufape e sai da peça depois dela.
@@ -433,6 +435,17 @@ Notas para arquivos de outros agentes (este agente não os altera):
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes ML1 a ML3 do qa (lote A).
+- ML1: faixa de tickets passa a começar em R$ 96,00 (602, catálogo).
+- ML2 e encomenda do cmo: o teto do WhatsApp (seção 5) e o risco R6 apontam para o teto único D1 (dois canais, 1 por dia, serviço fora, sem sub-teto de Livres) e para a fila D2.
+- ML3: a frase da página da 68614 deixa de ser repetida entre aspas; fica a descrição "frase de certificação ligada ao regulador".
+- Frase do curso livre trocada pela versão única D13; autorização de imagem e citação estendida a todos (decisão 10).
+- Listas finais atualizadas.
+
+---
+
 ## Lista 1. Fatos com fonte
 
 - Recorte de Livres: 55 itens; 10 com data e 45 contínuos (22 gravados, 13 minicursos, 2 em espanhol, 8 grupos). Plano do cmo, seção 2.2.
@@ -442,7 +455,9 @@ Notas para arquivos de outros agentes (este agente não os altera):
 - Datas divergentes entre catálogo e visão de campanhas (573, 68614, 68618) e duplicidades (623 e 68637, 643 e 713, 642 e 712). Plano do cmo, P6 e P7.
 - Campanhas de Livres na visão: 3 ativas (623, 573, 68614), 4 pausadas, todas só com estático; 4 dos 55 itens do recorte na visão. analise-de-campanha-livres, seção 1.
 - Pagamento contraditório e "carta de crédito" na página da 573. analise-de-funil-livres, hipótese 1; estrategia-de-oferta, seção 1.2.
-- Página da 68614 com certificado "com selo do Ministério da Educação" e cancelamento até 30 dias antes com devolução total; mínimo de 15 e máximo de 30. Ficha 68614.
+- Página da 68614 com frase de certificação ligada ao regulador e cancelamento até 30 dias antes com devolução total; mínimo de 15 e máximo de 30. Ficha 68614, campos Certificado e Cancelamento.
+- Menor preço da linha: R$ 96,00 (602). Catálogo, seção 5.
+- Teto único D1, fila D2 e frase única do curso livre D13. cmo-geral, seções 12.2 e 12.7.
 - 623 e 68637: mínimo de 15 e reembolso se a turma não for confirmada. Fichas 623 e 68637, via estrategia-de-oferta.
 - Decisões do gestor-de-midia: D12 (573 e 68614 sem data no anúncio), D19 (623 ou 68637 até 31/10), D21 (grupos sem mídia paga). gestor-de-midia-geral, seção 8.
 - Prazos da onda 1 de Livres: peças de 573 em 30/10; de 68614, 623 e 68637 em 03/11; kit leve de 68665 em 28/10 e de 68666 em 06/11. Plano do cmo, seção 4.
@@ -458,7 +473,7 @@ Notas para arquivos de outros agentes (este agente não os altera):
 - [SUPOSIÇÃO] Nomes das ofertas por formato e categorias de posicionamento (etapas 1.7 e 1.8).
 - [SUPOSIÇÃO] Janela de campanha de 4 a 8 semanas antes da data dos presenciais (contexto da linha) e o início da janela de 68638 em 09/01/2027 (cálculo sobre essa regra).
 - [SUPOSIÇÃO] Teto de capacidade de Livres: 2 lotes de aprovação e 1 frente nova por semana; produção própria só em Instagram e WhatsApp.
-- [SUPOSIÇÃO] Teto de 2 mensagens de marketing por semana por pessoa, somando todas as linhas.
+- [SUPOSIÇÃO] Números do teto D1 (2 WhatsApp e 2 e-mails de campanha por semana e 1 por dia por contato, somando todas as linhas), até a Ufape confirmar (cmo-geral, 12.2 e R1).
 - [SUPOSIÇÃO] Orgânico próprio no Facebook não se paga com o time atual; LinkedIn não se paga com o ticket de Livres; X e TikTok sem público ou produção.
 - [SUPOSIÇÃO] Contínuos de ticket baixo só fecham conta com remarketing, não com público frio (a validar pelo gestor-de-midia).
 - [SUPOSIÇÃO] Queda de atenção do público entre 21/12 e 03/01.

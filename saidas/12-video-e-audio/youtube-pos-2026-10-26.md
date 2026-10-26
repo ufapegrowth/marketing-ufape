@@ -3,6 +3,7 @@
 - **Agente:** youtube (departamento 12, Vídeo e Áudio), etapa 1.21 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md, YP1): UTM no padrão D11 e D12 (utm_medium=organic_social) e YouTube pago só em P3 (EM8). Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Criar ou configurar canal, subir vídeo, agendar, responder comentário em nome da Ufape e qualquer ação no Google Ads é ação humana, depois de aprovação.
 - **Entradas lidas:**
   - .claude/agents/youtube.md (instrução deste agente) e .claude/agents/tiktok.md (formato de Short que a instrução manda seguir)
@@ -10,7 +11,8 @@
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (briefing obrigatório)
   - docs/andamento-planejamento.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3, 3, 5, 7 e 8)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2.3, 3, 5, 7 e 8; na versão 2, seção 12.6, EM8, e 12.7, D11 e D12)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (seção 4, YP1; versão 2)
   - contexto/ufape-geral.md, contexto/pos-graduacao.md, contexto/cursos-livres.md
   - contexto/catalogo-de-cursos.md (cabeçalho "Como usar" e seção 2; fonte única de dado de curso deste arquivo)
   - contexto/cursos/pos/ (campos "Página oficial", "Coordenação", "Público-alvo" e "Vagas" das fichas 657, 289, 68615, 333, 341, 68635, 68617, 68628 e 68609)
@@ -49,7 +51,7 @@
 | Saída | 2 semanas seguidas sem quem publique: o teste para | Mantido, com mais 3 gatilhos (seção 12) |
 | Ordem de corte | YouTube é o primeiro canal a sair se faltar capacidade | Mantido |
 
-Fora deste arquivo: vídeo longo além da aula aberta, cadência maior, TikTok, trechos dos gravados 700 e 202 (linha Eventos), Graduação, e a verba e os criativos do YouTube pago (PP13, do gestor-de-midia e do criativos-de-anuncio). Onde eu discordo ou vejo risco, a seção 13 traz proposta ao cmo, sem mudar a decisão.
+Fora deste arquivo: vídeo longo além da aula aberta, cadência maior, TikTok, trechos dos gravados 700 e 202 (linha Eventos), Graduação, e a verba e os criativos do YouTube pago (PP13, do gestor-de-midia e do criativos-de-anuncio; YouTube pago só dentro de P3, EM8 do plano do cmo). Onde eu discordo ou vejo risco, a seção 13 traz proposta ao cmo, sem mudar a decisão.
 
 O plano do cmo (seção 5) dizia "ativo leve" para o YouTube da Pós. A 1.9 e a 1.20 fecharam "teste condicionado". Este arquivo segue a 1.20, que é a etapa que confirma os canais.
 
@@ -68,7 +70,7 @@ O teste só começa em 07/12 se todas as condições abaixo estiverem respondida
 | C5 | Revisor docente por vídeo: o próprio docente que fala revisa a transcrição e o corte antes da publicação | Ufape, com o docente | Autorização de imagem e citação registrada para todos (26/10/2026); agenda e prazo de revisão [CONFIRMAR] | Vídeo com fala clínica do docente não sai |
 | C6 | Ao menos 2 Reels da Pós aprovados para virar Short | posts-sociais e aprovação humana | Calendário da 1.20 prevê Reels nas S7 e S8 | Primeiro Short desliza para a semana em que houver 2 Reels aprovados |
 | C7 | Quem aprova vídeo e título (tabela de aprovação vazia) | Ufape (pedido A9 do cmo) | [CONFIRMAR] | Aprovação vai à pessoa do marketing que fez o pedido (regra do plano do cmo, P12) |
-| C8 | Padrão de UTM da squad | Ufape e analista-de-dados | [CONFIRMAR o arquivo do padrão] | Usa a sugestão da seção 9.4 [SUPOSIÇÃO] |
+| C8 | Padrão de UTM da squad | cmo | Definido em 26/10/2026 (D11 e D12 do plano do cmo, seção 12.7); falta a chave para vídeo sem código do catálogo [CONFIRMAR] | Seção 9.4 |
 | C9 | Termo de autorização do tutor para paciente em vídeo (Ufape Clínica) | Ufape | [CONFIRMAR] | Nenhum paciente identificável em vídeo; só caso ilustrativo marcado como tal |
 
 O canal é um só para a Ufape [SUPOSIÇÃO]: Pós, Livres e, se o cmo decidir, outras linhas usam o mesmo canal, separadas por playlist (seção 5).
@@ -138,7 +140,7 @@ Total de referência: de 1,5 h por semana em dezembro a cerca de 5 h por semana 
 | Comentários | Ativos, com retenção para revisão de comentário com link e palavras bloqueadas (telefone, CPF, e-mail) [SUPOSIÇÃO de configuração] |
 | Legendas | Português do Brasil, arquivo revisado em todo vídeo |
 | Playlists da Pós | "Pós-graduação em Medicina Veterinária: como funciona" (Shorts P2); "Aulas abertas com docentes da Faculdade UFAPE"; uma playlist por área só quando houver 3 vídeos da área (regra prática) |
-| Tela final e cards (aula aberta) | Card para a página da turma; tela final para a outra aula aberta e para a playlist "como funciona" |
+| Tela final e cards (aula aberta) | Card para a página da turma [SUPOSIÇÃO de regra da plataforma, conferir no YouTube Studio: link externo em card e tela final depende de habilitação do canal]; tela final para a outra aula aberta e para a playlist "como funciona". O caminho principal para a página da turma é o link com UTM na descrição da aula aberta (seção 9.2) |
 | Vídeo relacionado (Short) | Cada Short aponta para a aula aberta mais próxima da área, quando existir |
 
 ---
@@ -275,9 +277,13 @@ Aula completa e páginas das turmas no perfil do canal.
 
 O link vai no perfil do canal e no vídeo relacionado (seção 5). Se o YouTube voltar a deixar link clicável no Short, a descrição recebe o link da página com UTM.
 
-### 9.4 UTM sugerida [SUPOSIÇÃO; padrão da squad [CONFIRMAR]]
+### 9.4 UTM (padrão D11 e D12 do plano do cmo, seção 12.7)
 
-utm_source=youtube, utm_medium=organico, utm_campaign=pos-youtube-teste-202612, utm_content=<ID do vídeo>-<código da turma> (exemplo: aa-p1-289). Mesmo padrão de nomes da 1.20 (utm_medium=organico) e diferente do pago (utm_medium=cpc, estrategia-de-midia-pos), para não misturar orgânico e pago.
+- utm_source=youtube; utm_medium=organic_social (o valor "organico" da versão 1 sai).
+- utm_campaign = chave do item + "_" + AAAAMM da publicação. Vídeo ligado a uma turma usa pos_<código do catálogo> (exemplo: AA-P1, publicada em 06/01/2027, leva utm_campaign=pos_289_202701). Vídeo da linha toda (SH-P3, SH-P4) e link do cabeçalho do canal não têm código do catálogo, e D12 não define chave para esse caso [CONFIRMAR chave com o cmo]; até a resposta, esses links não saem com UTM.
+- utm_content = ID da peça (exemplos: aa-p1, sh-p5).
+- Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal em UTM.
+- O YouTube pago fica só dentro de P3 do gestor-de-midia-pos (EM8 do plano do cmo), com utm_source=google e utm_medium=cpc (D11). Este arquivo não tem verba.
 
 ### 9.5 Briefing de capa (aula aberta)
 
@@ -391,6 +397,16 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelo ajuste YP1 do qa (lote C).
+- UTM da seção 9.4 no padrão D11 e D12: utm_medium=organic_social e utm_campaign com a chave do item (ex.: pos_289_202701); condição C8 atualizada.
+- YouTube pago só dentro de P3 (EM8), registrado na seção 1 e na 9.4.
+- YP1: card e tela final com link externo marcados como [SUPOSIÇÃO de regra da plataforma]; o link da descrição da aula aberta fica como caminho principal.
+- Turma mínima de 15 corrigida na lista de fatos. Listas finais atualizadas.
+
+---
+
 ## Fatos (com fonte)
 
 - Teste do YouTube da Pós: 1 Short por semana de 07/12/2026 a 24/01/2027, derivado do Reel da semana; aula aberta de até 10 minutos a cada 2 semanas a partir de 04/01/2027; saída com 2 semanas seguidas sem quem publique; YouTube é o primeiro canal a sair se faltar capacidade (estrategia-social-pos, seções 3.2, 3.3 e 4.4).
@@ -401,8 +417,9 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 - Turmas citadas, com cidade, modalidade, início, turma, carga horária e preço: 657, 289, 68615, 333, 68635, 68617, 68628, 68609 (catálogo, seção 2).
 - Coordenação: 657, Dra. Mayara Travalini de Lima e Dr. Alessandro Martins; 289, Msc. Flavia Mazzo; 68615, DRA. Sabrina Caruso Chate; 333, "UFAPE" com 1 professora listada, Dra. Sabrina Caruso Chate; 68635, Prof. Caio Cavalcanti Balençuela; 68609, Dr. Alessandro Martins, Dr Rogério Viera Da Silva, Dra. Mayara Travalini de Lima (fichas; estrategia-social-pos, seção 6.4).
 - 657: público-alvo na ficha "exclusiva para médicos veterinários anestesistas já atuantes"; mínimo 20 alunos (ficha 657).
-- Formato da linha: 1 módulo por mês em fim de semana, aulas online e módulos práticos presenciais obrigatórios, cerca de 2 anos; turma mínima de 20 (contexto/pos-graduacao.md).
-- Todos os docentes têm autorização de uso de imagem e de citação (briefing, decisão 8, 26/10/2026).
+- Formato da linha: 1 módulo por mês em fim de semana, aulas online e módulos práticos presenciais obrigatórios, cerca de 2 anos; turma mínima de 15, decisão da Ufape de 26/10/2026 (contexto/pos-graduacao.md; decisão 11 do briefing).
+- Todos os docentes têm autorização de uso de imagem e de citação (briefing, decisão 8, 26/10/2026); a decisão 10 estende a autorização a palestrantes e convidados.
+- Padrão de UTM: utm_source=youtube e utm_medium=organic_social no orgânico; utm_campaign com a chave <linha>_<código> e o AAAAMM; utm_content com o ID da peça (cmo-geral, seção 12.7, D11 e D12). YouTube pago só em P3 (cmo-geral, 12.6, EM8).
 - Secretaria: (11) 97492-8443 (WhatsApp), de segunda a sexta, das 9h às 18h (contexto/ufape-geral.md).
 - Termos de busca da linha: "pós em medicina veterinária semipresencial" (KT6) e "como funciona uma pós semipresencial em medicina veterinária" (QT2) (pesquisa-de-palavras-chave-pos).
 
@@ -415,7 +432,8 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 - [SUPOSIÇÃO] Carga de referência: cerca de 1 h por Short, de 6 a 8 h por aula aberta, 0,5 h de moderação por semana.
 - [SUPOSIÇÃO] Temas sugeridos para as aulas abertas (sopro no exame de rotina; citologia e envio ao patologista), até a docente aceitar ou trocar.
 - [SUPOSIÇÃO] Regras de continuar, ajustar e parar da seção 12 (regra prática, não meta).
-- [SUPOSIÇÃO] UTM da seção 9.4 e configuração de comentários da seção 5.
+- [SUPOSIÇÃO] Configuração de comentários da seção 5.
+- [SUPOSIÇÃO] Link externo em card e tela final depende de habilitação do canal (regra da plataforma, conferir no YouTube Studio).
 - [SUPOSIÇÃO] Título de até cerca de 60 caracteres para caber no celular.
 
 ## Dados que faltam
@@ -426,7 +444,8 @@ qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educac
 - [CONFIRMAR] Quem aprova vídeos e títulos (pedido A9 do cmo).
 - [CONFIRMAR] Horas do time por semana para vídeo.
 - [CONFIRMAR] Números do canal (inscritos, visualizações, retenção): não existem nas fontes.
-- [CONFIRMAR] Padrão de UTM da squad, ferramenta de analytics do site e campo de origem no CRM.
+- [CONFIRMAR] Chave de utm_campaign para vídeo sem código do catálogo (com o cmo), ferramenta de analytics do site e campo de origem no CRM.
+- [CONFIRMAR] Se o canal tem link externo habilitado em card e tela final (YP1).
 - [CONFIRMAR] Termo de autorização do tutor para paciente em vídeo; autorização de imagem de alunos (nenhuma registrada).
 - [CONFIRMAR] Pré-requisito da 657; corpo docente completo da 333 [CONFIRMAR NO CATÁLOGO]; cronogramas de 68615 e 68635 conferidos [CONFIRMAR NO CATÁLOGO].
 - [CONFIRMAR] Endereço da página de listagem da Pós para o link do cabeçalho do canal; manual de cores da marca para a capa.

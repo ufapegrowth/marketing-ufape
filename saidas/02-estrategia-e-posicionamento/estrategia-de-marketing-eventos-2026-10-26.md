@@ -3,6 +3,7 @@
 - **Agente:** estrategia-de-marketing (departamento 02, Estratégia e Posicionamento), etapa 1.9 da camada 1
 - **Linha:** eventos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md, ME1 a ME3), alinhados ao teto único D1, à fila D2 e ao M9 de D9. Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento, aplicada na seção 8, e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Toda ação em gerenciador de anúncios, CRM ou site é pedido de aprovação humana.
 - **Skills usadas:** .claude/skills/plano-de-90-dias/SKILL.md e .claude/skills/arvore-de-metricas/SKILL.md
 - **Escopo (plano do cmo, seção 2):** 3 itens. (1) Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026, liberado para o marketing em 26/10/2026, com os dois ingressos: presencial (teórico e prático) e transmitido e gravado (só a teoria de sexta, produto 68634). (2) Gravado contínuo 700, Congresso Internacional do Paciente Grave Multidisciplinar UFAPE, Foco em Casos Clínicos, Gravação. (3) Gravado contínuo 202, Simpósio Internacional de Coagulação. O Simpósio Plantonista (10/10/2026) já passou e fica só como histórico.
@@ -10,7 +11,8 @@
   - .claude/agents/estrategia-de-marketing.md
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (briefing obrigatório)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1 a 5; seção 8 como apoio)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1 a 5; seção 8 como apoio; na versão 2, seção 12: D1, D2, D3, D9 e 12.9)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (seção 2, ME1 a ME3; versão 2)
   - contexto/ufape-geral.md
   - contexto/eventos.md
   - contexto/catalogo-de-cursos.md (seção 9, simpósios e congressos; seção 4, produto 68634; seção 5 para os pares internos 106)
@@ -46,7 +48,7 @@
 9. **Horários.** Peça pública usa só "das 08h às 18h" do dia; horário de bloco fica no calendário interno (C3 e K3 da rodada A).
 10. **Destino.** Toda peça paga do workshop vai para https://faculdade.ufape.com.br/neuro-summit/ (decisão 6). Nada aponta para a página do 68634 na loja.
 11. **Superlativos.** Sem "primeiro", "único", "inédito" e sem "1ª edição" (M4 da rodada A).
-12. **Mensagens.** WhatsApp e e-mail só para quem deu consentimento, com forma fácil de sair; a squad não dispara nada; WhatsApp fora de dia útil só como exceção aprovada, sempre com versão por e-mail (C2 e C8 da rodada B).
+12. **Mensagens.** WhatsApp e e-mail só para quem deu consentimento, com forma fácil de sair; a squad não dispara nada; WhatsApp fora de dia útil só como exceção aprovada, sempre com versão por e-mail (C2 e C8 da rodada B). Vale o teto único de campanha por contato do plano do cmo (D1, seção 12.2), somando todas as linhas e a newsletter: até 2 WhatsApp e 2 e-mails de campanha por semana, no máximo 1 mensagem de campanha por dia em qualquer canal; serviço (confirmação, véspera, dia, gravação e certificado do M8) fica fora do teto; WhatsApp em dia útil das 9h às 18h, e-mail em qualquer dia das 7h às 19h; nenhuma campanha de nenhuma linha em 20 e 21/11 [SUPOSIÇÃO de número até a Ufape confirmar, R1 do cmo]. Quando réguas disputam a mesma semana, vale a fila D2 (serviço; toque principal com data mais próxima, empate pela nota GUT; follow-ups; nutrição; reativação).
 13. **Gravados 700 e 202.** Nunca "ao vivo"; nunca "promoção por tempo limitado" (texto da página do 202 sem data nem regra); prazos de acesso, carga horária, idioma e data da edição só depois de confirmados no catálogo.
 
 ---
@@ -200,12 +202,12 @@ Resultado: 3 canais ativos (WhatsApp, Instagram, Facebook como inventário) e 1 
 | 03/11 | checagem 1; semana de programação e prova (posts 2 e 3, e-mail de programação, posts de docente) | estrategia-de-campanha |
 | 07/11 a 27/11 | Onda 2 (inclui os contínuos) | briefing de execução |
 | 09/11 | decisão de dobrar a aposta ou mudar o rumo | estrategia-de-campanha, seção 4 |
-| 14 a 16/11 | lembrete e "falta 1 semana" | estrategia-de-campanha |
-| 18 ou 19/11 | pausa provisória da mídia do presencial; as duas datas convivem hoje (memorando do gestor: 18/11; estratégia de campanha: 19/11) [SUPOSIÇÃO até a pessoa do marketing escolher] | gestor-de-midia, 4.4; estrategia-de-campanha, seção 2 |
+| 14/11 (sábado) a 17/11 | lembrete M3 por e-mail em 14/11, 9h (S3); follow-up por e-mail em 16/11 só para quem não abriu e M3 por WhatsApp em 17/11, 10h (S4); post "falta 1 semana" | estrategia-de-campanha; plano do cmo, D3 |
+| 18 ou 19/11 | pausa provisória da mídia do presencial; as duas datas convivem hoje (memorando do gestor: 18/11; estratégia de campanha: 19/11) [SUPOSIÇÃO até a pessoa do marketing escolher]; o cmo recomenda 18/11, 23h59 (EVM1, pedido R3) | gestor-de-midia, 4.4; estrategia-de-campanha, seção 2 |
 | 19/11 | véspera | estrategia-de-campanha |
 | 20/11 (sexta, feriado nacional) e 21/11 (sábado) | workshop, das 08h às 18h | ficha; catálogo, seção 9 |
 | 22 a 24/11 | agradecimento e pesquisa aos participantes | estrategia-de-campanha, fase 5 |
-| 25 e 26/11 | ponte para as provas de bolsa, só com AP10 | estrategia-de-campanha, fase 5 |
+| 25/11 (quarta) | M9: ponte para a Pós em Anestesiologia, um canal só (e-mail às 9h; WhatsApp às 10h só para quem não tem opt-in de e-mail); prova de bolsa só com AP10 aprovada e prazo de inscrição confirmado e aberto (R7, U3); sem curso livre com data. 26 e 27/11 sem campanha para quem está na campanha das provas | estrategia-de-campanha, fase 5; plano do cmo, D1 e D9 |
 | 27/11 | provas de bolsa da Pós (outra campanha); fim da onda 2 | plano do cmo, seção 2.2 |
 | 30/11 | revisão pós-evento e relatório final do workshop; início da onda 3 | estrategia-de-campanha; analise-de-campanha, 3.1 |
 | 25/12 e 01/01 | feriados; semanas de manutenção [SUPOSIÇÃO de baixa atenção do público] | |
@@ -252,17 +254,18 @@ Dono: agente da squad ou Ufape (pessoa do marketing, comercial, secretaria, site
 | S2 | 06/11 | Lote para aprovação: post 4 (escolha do ingresso, com [T] condicionado ao 68634), FAQ, lembrete (e-mail e WhatsApp) | posts-sociais, copy-de-mensagens |
 | S2 | 07/11 | Pedido à Ufape dos dados dos gravados (carga horária, idioma e tradução, prazo de acesso do 700; data da edição e prazo do 202; diferença entre 202 e 106) | cmo |
 | S3 (09/11 a 15/11), onda 2 | 09/11 | **Revisão semanal 2** e decisão de 09/11: no ritmo, pedido de aumento de verba com valor; abaixo, peso para remarketing, base e transmitido | cmo, gestor-de-midia; Ufape (verba) |
-| S3 | 09/11 a 13/11 | Post 4 e post de FAQ no ar ("não precisa saber EEG"; "não é só BIS"); mudança de mídia única da semana, pela sequência fechada pelo gestor-de-midia | posts-sociais; gestor-de-midia |
+| S3 | 09/11 a 13/11 | Post 4 e post de FAQ no ar ("não precisa saber EEG" [CONFIRMAR coordenação científica: a ficha só descreve o público; entra na conferência de frases técnicas AP6 de 28/10]; "não é só BIS"); mudança de mídia única da semana, pela sequência fechada pelo gestor-de-midia | posts-sociais; gestor-de-midia |
 | S3 | 12/11 | Lote para aprovação: véspera (por ingresso), mensagem do dia (WhatsApp como exceção e versão por e-mail), stories do dia (só ambiente; rosto de participante só com termo no credenciamento) | copy-de-mensagens, posts-sociais |
 | S3 | 13/11 | Decisões da Ufape sobre as propostas de oferta de efeito rápido: PE1 (upgrade), PE6 (regra do cupom), PE7 (cancelamento e adiamento) | Ufape (comercial e jurídico), com pedido da estrategia-de-oferta |
 | S4 (16/11 a 22/11), onda 2 | 16/11 | **Revisão semanal 3** e checagem da última semana: se o presencial lotar, pedido de pausa do presencial e manutenção do transmitido | cmo, gestor-de-midia |
-| S4 | 14/11 a 16/11 | Lembrete à base que não comprou (só contagem para a squad) e post "falta 1 semana" (fato de calendário) | Ufape (CRM e publicação) |
+| S3 | 14/11 (sábado), 9h | Lembrete M3 por e-mail à base que não comprou (só contagem para a squad); e-mail de sábado cabe na janela de D1 (qualquer dia, das 7h às 19h), então não precisa de exceção | Ufape (CRM) |
+| S4 | 16/11 e 17/11 | Follow-up do M3 por e-mail em 16/11, só para quem não abriu; M3 por WhatsApp em 17/11, 10h (16/11 já tem o e-mail, D3); post "falta 1 semana" (fato de calendário) | Ufape (CRM e publicação) |
 | S4 | 18/11 | Decisão sobre a gravação da sexta à venda depois do evento (PE5) e sobre a ponte para as provas (AP10); pausa provisória do presencial (18 ou 19/11, data única escolhida) | Ufape; pessoa do marketing; gestor-de-midia |
 | S4 | 19/11 | Véspera enviada pelo CRM; post de véspera | Ufape (CRM e publicação) |
 | S4 | 20 e 21/11 | Workshop; mensagem do dia; stories do dia | Ufape (equipe do evento) |
 | S5 (23/11 a 29/11), fim da onda 2 | 23/11 | **Revisão semanal 4**: relatório da semana do evento (inscrições finais por ingresso, presença, cupom) | cmo, gestor-de-midia, analise-de-campanha |
 | S5 | 22/11 a 24/11 | Agradecimento e pesquisa aos participantes (sem informação de certificado até haver texto oficial) | copy-de-mensagens; Ufape (CRM) |
-| S5 | 25/11 a 26/11 | Ponte para as provas de bolsa de 27/11, só com AP10 aprovada; WhatsApp só com opt-in | copy-de-mensagens |
+| S5 | 25/11 | M9 (D9 do plano do cmo): e-mail às 9h; WhatsApp às 10h só para participante sem opt-in de e-mail; leva à Pós em Anestesiologia com o campus; prova de bolsa só com AP10 aprovada (R7) e inscrição confirmada aberta (U3). Nada em 26/11 para quem está na campanha das provas | copy-de-mensagens |
 | S5 | 27/11 | Kit "sempre ligado" de 700 e 202 para aprovação (texto-padrão de preço, posts por tema, remarketing de visitantes do workshop), só com os dados que a Ufape tiver confirmado; o que faltar sai marcado e bloqueado | posts-sociais, copy-de-mensagens, criativos-de-anuncio |
 
 **Bloco 2: depois do evento e gravados ligados**
@@ -440,6 +443,16 @@ Notas para arquivos de outros agentes (não alterados aqui):
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pelos ajustes ME1 a ME3 do qa (lote A).
+- ME1: regra 12 da seção 0 com o teto único D1 e a fila D2; a ponte de 25 e 26/11 vira o M9 de 25/11, em um canal, com prova só por AP10 (D9), e 26 e 27/11 sem campanha para a base das provas.
+- ME2: "não precisa saber EEG" marcado [CONFIRMAR coordenação científica] e ligado à conferência AP6.
+- ME3: lembrete de 14/11 passa para a S3; o e-mail de sábado cabe na janela de D1; follow-up em 16/11 e WhatsApp em 17/11 na S4 (D3).
+- Autorização de imagem e citação para todos (decisão 10) e recomendação de pausa em 18/11 (EVM1) registradas. Listas finais atualizadas.
+
+---
+
 ## Lista 1. Fatos com fonte
 
 1. Workshop Brasileiro de Neuromonitorização (forma longa da página: "Veterinária, Anestesia e Neurologia"), 20 e 21/11/2026, sexta teórica e sábado prático, das 08h às 18h, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP; status aberto. Fonte: catálogo, seção 9; ficha do evento.
@@ -447,7 +460,7 @@ Notas para arquivos de outros agentes (não alterados aqui):
 3. Produto 68634: "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão", 24 h na loja, sem data, status "verificar". Fonte: catálogo, seção 4.
 4. Cupom SIMPNEUROMONIT: 20% para aluno e ex-aluno Ufape, com comprovação do vínculo na secretaria. Fonte: catálogo, seção 9; ficha; briefing de execução, decisão 6.
 5. Nome oficial, liberação em 26/10/2026 e proibição de "simpósio" nas peças; destino das campanhas na página neuro-summit; peças só com docentes confirmados. Fonte: briefing de execução, decisões 6 e 7.
-6. Todos os docentes têm autorização de uso de imagem e de citação (26/10/2026). Fonte: briefing de execução, decisão 8; contexto/ufape-geral.md.
+6. Todos os docentes têm autorização de uso de imagem e de citação (26/10/2026); a decisão 10 estende a autorização a palestrantes e convidados, inclusive dos gravados 700 e 202. Fonte: briefing de execução, decisões 8 e 10; contexto/ufape-geral.md.
 7. 700: R$ 780,00 à vista (Pix ou boleto) ou 10x de R$ 98,00 no cartão, aberto (contínuo). 202: R$ 285,00 à vista ou 6x de R$ 78,00, aberto (contínuo). Linha "Paciente Grave" da planilha sem página. Fonte: catálogo, seção 9.
 8. Linha "Paciente Grave Multidiciplinar" com campanha ativa e data de 15/11/2027 na visão; 202 sem campanha; campanha do workshop ativa e só estática. Fonte: analise-de-campanha-eventos, 1.1 e 1.3.
 9. Canais de Eventos propostos pelo cmo: Instagram, Facebook, WhatsApp e YouTube (gravados) ativos; LinkedIn, TikTok, X e podcast fora. Fonte: plano do cmo, seção 5.
@@ -460,6 +473,7 @@ Notas para arquivos de outros agentes (não alterados aqui):
 16. 02/11 e 20/11/2026 são feriados nacionais. Fonte: estrategia-de-campanha-eventos, seção 1 (Lei 14.759/2023 para 20/11).
 17. Tabela de aprovadores vazia; meta do trimestre e verba vazias. Fonte: contexto/ufape-geral.md.
 18. 26/10/2026 é segunda-feira; os dias da semana das datas deste plano foram conferidos a partir dela.
+19. Teto único de campanha por contato (D1), fila de prioridade (D2), semanas do pior caso (D3) e M9 em 25/11 em um canal (D9). Fonte: plano do cmo, seções 12.2 e 12.5.
 
 ## Lista 2. Suposições
 
@@ -474,6 +488,7 @@ Notas para arquivos de outros agentes (não alterados aqui):
 9. [SUPOSIÇÃO] Orgânico próprio no Facebook e LinkedIn institucional não se pagam com o time atual; X sem público veterinário ativo.
 10. [SUPOSIÇÃO] Linha de posicionamento "um tema a fundo, com o programa hora a hora", herdada do posicionamento.
 11. [SUPOSIÇÃO] Teto bruto de R$ 37.500,00 do presencial (cálculo interno, antes de cupom; não vai para peça).
+12. [SUPOSIÇÃO] Números do teto D1 (2 WhatsApp e 2 e-mails de campanha por semana e 1 por dia por contato), até a Ufape confirmar (plano do cmo, 12.2 e R1).
 
 ## Lista 3. Dados que faltam
 
@@ -490,9 +505,10 @@ Notas para arquivos de outros agentes (não alterados aqui):
 11. [CONFIRMAR] Código de produto do presencial na loja e teste de rastreio até o CRM; ferramentas de medição (GA4, CRM, Chatwoot).
 12. [CONFIRMAR] Destino e data do anúncio "Paciente Grave"; ligação com o 700 e de "Internacional de Coagulação" com o 202.
 13. [CONFIRMAR NO CATÁLOGO] Carga horária, idioma e tradução e prazo de acesso do 700; data da edição e prazo do 202; diferença entre 202 e 106.
-14. [CONFIRMAR] Se a autorização da decisão 8 cobre os palestrantes convidados do 700 e do 202; arquivo dos trechos e quem edita.
-15. [CONFIRMAR] Decisões PE1, PE3, PE5, PE6, PE7 e AP10.
+14. [CONFIRMAR] Arquivo dos trechos do 700 e do 202 e quem edita (a autorização dos palestrantes convidados foi fechada pela decisão 10).
+15. [CONFIRMAR] Decisões PE1, PE3, PE5, PE6, PE7 e AP10 (R7 do plano do cmo); prazo de inscrição das provas (U3).
 16. [CONFIRMAR] Medição de presença e pesquisa de satisfação; termo de imagem de participantes.
 17. [CONFIRMAR] Conferência da coordenação científica nas frases técnicas e nos temas sem bloco na grade.
 18. [CONFIRMAR] Calendário de eventos de 2027 e preenchimento de contexto/eventos.md.
 19. [CONFIRMAR] Horas do time por semana.
+20. [CONFIRMAR coordenação científica] Frase "não precisa saber EEG" do post de FAQ.

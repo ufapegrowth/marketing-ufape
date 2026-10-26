@@ -3,6 +3,7 @@
 - **Agente:** estrategia-de-marketing (departamento 02, Estratégia e Posicionamento), etapa 1.9 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: teto único D1 e fila D2 no risco R8, turma mínima de 15 (decisão 11). Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento, aplicada na seção 8, e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Toda ação em gerenciador de anúncios, CRM ou site é pedido de aprovação humana.
 - **Skills usadas:** .claude/skills/plano-de-90-dias/SKILL.md e .claude/skills/arvore-de-metricas/SKILL.md
 - **Entradas lidas:**
@@ -19,7 +20,7 @@
   - saidas/09-analytics-e-insights/analista-de-dados-geral-2026-10-26.md (árvore de métricas, seção 5.1)
   - saidas/11-midia-paga/gestor-de-midia-geral-2026-10-26.md (decisões D1 a D21 da onda 1 e fórmulas da seção 7)
   - saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md (campanha das provas, calendário e checagens)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 3, 4 e 5; seção 7 como apoio)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 3, 4 e 5; seção 7 como apoio; na versão 2, seção 12, decisões D1, D2 e encomendas de 12.10)
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web.
 - **Dados pessoais:** nenhum. Nenhum docente é nomeado. O cmo e este plano leem só números somados por turma, prova ou semana.
@@ -58,7 +59,7 @@
 | Fórmula | Turmas confirmadas = contagem de turmas do recorte em que matrículas pagas ≥ turma mínima na data de confirmação da turma |
 | Turmas que fecham dentro do trimestre | 707, 68604, 68606, 68610, 68608 e 698 (6 turmas, catálogo) |
 | Turmas cujo resultado se forma no trimestre | 657, 341, 289, 68615 e 333 (março de 2027). Leitura em 24/01/2027 pela métrica de apoio "cobertura da turma mínima" |
-| Turma mínima | 20 alunos nas páginas das turmas; 15 na página das provas e na ficha de 60 [CONFIRMAR] |
+| Turma mínima | 15 alunos (decisão 11 da Ufape, 26/10/2026; contexto/pos-graduacao.md). Algumas páginas de turma ainda dizem 20 e devem ser corrigidas |
 | Data de confirmação da turma | não existe publicada [CONFIRMAR]; enquanto isso, usa-se a data de início |
 | Valor-alvo | [CONFIRMAR] (quantas turmas a Ufape quer confirmar) |
 | Fonte | CRM (matrículas pagas por turma) e secretaria (situação da turma) [CONFIRMAR ferramenta] |
@@ -331,9 +332,9 @@ Ciclo extra fora da segunda-feira: quando mudar preço, data, vagas, local, form
 | R3 | Site não é corrigido | 698 com data errada depois de 28/10 às 18h; links de 68641 e 68642 sem correção | pausar a campanha ou o anúncio afetado (D2); Cardiologia fora da campanha; lote 2 de abril adiado |
 | R4 | Rastreio não funciona | teste de 31/10 falha | campanha das provas sobe com otimização para início de checkout ou não sobe (decisão do gestor-de-midia com aprovação); nenhuma leitura de custo por inscrito |
 | R5 | Canibalização entre prova e turmas de 28/11 | candidato de Dermatologia ou Hematologia espera a prova em vez de se matricular | nenhuma peça de 68610 ou 68608 cita bolsa; Ufape decide a regra (A-C2 da estrategia-de-campanha) |
-| R6 | Turma mínima incerta (15 ou 20) | sem resposta da Ufape | peças sem número; a meta usa 20 até a confirmação [SUPOSIÇÃO conservadora] |
+| R6 | Páginas de turma que ainda dizem 20 alunos, contra a turma mínima de 15 (decisão 11) | página com 20 no ar quando a peça diz 15 | a meta e as peças usam 15; as páginas com 20 entram na lista de correções do site (U5) [CONFIRMAR data da correção] |
 | R7 | WhatsApp instável ou sem base com consentimento | falha relatada em 22/10; base legal não confirmada | mídia não leva ao WhatsApp; envios em massa suspensos; e-mail e página assumem a nutrição |
-| R8 | Sobreposição com o Workshop de 20/11 e com a prova da Anclivepa em 14/11 | mesmo público de anestesiologia e neurologia | não juntar ofertas na mesma peça; respeitar o limite de 2 mensagens de campanha por semana por contato [SUPOSIÇÃO]; nenhuma mensagem das provas em 20 e 21/11 |
+| R8 | Sobreposição com o Workshop de 20/11 e com a prova da Anclivepa em 14/11 | mesmo público de anestesiologia e neurologia | não juntar ofertas na mesma peça; seguir o teto único D1 do plano do cmo (seção 12.2: até 2 WhatsApp e 2 e-mails de campanha por semana por contato, somando todas as linhas e a newsletter, no máximo 1 mensagem de campanha por dia em qualquer canal, serviço fora do teto) [SUPOSIÇÃO de número até a Ufape confirmar, R1 do cmo] e a fila de prioridade D2 (serviço; toque principal com data; data mais próxima e GUT; follow-ups; nutrição; reativação); nenhuma mensagem de campanha de nenhuma linha em 20 e 21/11 |
 | R9 | Fim de ano derruba atenção | queda de leads entre 21/12 e 03/01 [SUPOSIÇÃO] | só manutenção nessas semanas; retomada pronta em 30/12 para começar em 04/01 |
 | R10 | Turmas de março chegam a janeiro longe da turma mínima | M3 alto em 04/01 | alerta formal em 18/01; propostas PR2 e PR1 (confirmação e reembolso escritos) para reduzir o risco percebido; decisão de manter ou adiar a turma é da Ufape, não do marketing |
 | R11 | Capacidade de aprovação humana menor que o teto | lotes acumulados sem resposta por mais de 3 dias úteis | cortar pela ordem da seção 5.3 |
@@ -361,7 +362,7 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todo ped
 
 | # | Pedido | Para quê | Prazo proposto |
 |---|---|---|---|
-| U1 | **Metas:** quantas turmas confirmar no trimestre; matrículas por turma; turma mínima de cada turma (15 ou 20); data em que cada turma é confirmada | meta única e M2, M3 | 30/10 |
+| U1 | **Metas:** quantas turmas confirmar no trimestre; matrículas por turma; data em que cada turma é confirmada (turma mínima de 15 já decidida, decisão 11) | meta única e M2, M3 | 30/10 |
 | U2 | **Verba:** verba de mídia da Pós por mês até janeiro, quem aprova anúncios e verba, quem executa no gerenciador | D4, D11, seção 6.2 | 30/10 |
 | U3 | **Números:** exportações do gerenciador (Meta e Google), do CRM e da loja, somadas por turma e semana, sem dado pessoal (analista-de-dados, seção 4; gestor-de-midia, seção 7); custo variável, margem, evasão, desconto médio e taxa lead para matrícula | metas de custo, M4, M19, M20 | 28/10 (gerenciador), 30/10 (Ufape) |
 | U4 | **Texto de certificação** aprovado pela regulação para a Pós e troca da frase ligada ao regulador nas 46 páginas | liberar a seção de certificação; tirar o risco das páginas de destino | pedido em 27/10; sem prazo da squad |
@@ -418,13 +419,23 @@ Notas para arquivos de outros agentes (este agente não os altera):
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa.
+- Risco R8: o limite de mensagens passa a apontar para o teto único D1 e para a fila D2; 20 e 21/11 sem campanha de nenhuma linha.
+- Turma mínima de 15 (decisão 11) na seção 2.1, no risco R6 e no pedido U1; a suposição de 20 sai.
+- Listas finais atualizadas. O restante do plano não mudou.
+
+---
+
 ## Lista 1. Fatos com fonte
 
 - 30 turmas de Pós abertas e 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00 (catálogo, seções 2 e 3). Prova 68656 fora do ar (catálogo).
 - Início no trimestre: 707 (30/10), 68604 (31/10), 68606 (07/11), 68610, 68608 e 698 (28/11/2026) (catálogo, seção 2).
 - Março de 2027: 657 (13/03), 341, 289 e 68615 (20/03), 333 (27/03). Abril: 679, 68632, 68635, 366, 68628, 68617, 68636, 68609, 662. Maio: 719, 68616, 68629, 359, 699, 382, 68623, 578, 352, 60 (catálogo; plano do cmo, seção 3).
 - Regras da prova: 11 bolsas (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, 2 dias úteis de recurso, 10 dias úteis para matrícula, não acumulativa (contexto/pos-graduacao.md).
-- Turma mínima de 20 nas páginas das turmas e 15 na página da prova; 1ª mensalidade até 30 dias antes do início na maioria das páginas (contexto/pos-graduacao.md).
+- Turma mínima de 15 alunos, também nas turmas de Pós; algumas páginas de turma ainda dizem 20 (decisão 11 de docs/execucao-2026-10-26.md; contexto/pos-graduacao.md). 1ª mensalidade até 30 dias antes do início na maioria das páginas (contexto/pos-graduacao.md).
+- Teto único de campanha por contato (D1) e fila de prioridade (D2) definidos pelo cmo (cmo-geral, seção 12.2).
 - Destino das provas: 10 compatíveis, 8 incertas, 4 sem turma (estrategia-de-oferta, 3.2; estrategia-de-campanha, 3.2).
 - 19 campanhas ativas, 6 delas em Pós iniciadas com status "verificar"; 76 dos 110 itens do recorte fora da visão de campanhas (analista-de-dados; gestor-de-midia, seção 1).
 - Criativos com 5 ângulos pausados em 68615, 366 e 68617 (analista-de-dados, insight 2).
@@ -447,14 +458,13 @@ Notas para arquivos de outros agentes (este agente não os altera):
 - [SUPOSIÇÃO] Público da Pós já alcançado por Reels e Shorts, o que dispensa o TikTok; o X não tem público veterinário ativo.
 - [SUPOSIÇÃO] O candidato compara em buscadores, agregadores e assistentes de IA antes de chegar ao site.
 - [SUPOSIÇÃO] Meta de 100% de páginas com campanha ativa em conformidade e 1 teste por mês a partir de dezembro.
-- [SUPOSIÇÃO] Turma mínima de 20 como referência conservadora até a confirmação.
-- [SUPOSIÇÃO] Limite de 2 mensagens de campanha por semana por contato (estrategia-de-campanha).
+- [SUPOSIÇÃO] Números do teto D1 (2 WhatsApp e 2 e-mails de campanha por semana, 1 por dia por contato), até a Ufape confirmar (cmo-geral, 12.2 e R1).
 - [SUPOSIÇÃO] Ordem das áreas no pré-lançamento e no conteúdo pilar (A11, A2, A1, A3, A14).
 - [SUPOSIÇÃO] Personas P1 a P4 (pesquisa-de-persona).
 
 ## Lista 3. Dados que faltam
 
-- [CONFIRMAR] Quantas turmas confirmar no trimestre, matrículas por turma, turma mínima (15 ou 20) e data de confirmação de cada turma.
+- [CONFIRMAR] Quantas turmas confirmar no trimestre, matrículas por turma e data de confirmação de cada turma; data da correção das páginas que ainda dizem 20 alunos.
 - [CONFIRMAR] Verba de mídia da Pós por mês, aprovador e executor no gerenciador.
 - [CONFIRMAR] Leads, matrículas, cancelamentos, gasto e resultado por turma e semana; custo variável, margem, evasão, desconto médio e taxa lead para matrícula.
 - [CONFIRMAR] Destino de cada prova, prazo de inscrição, data do resultado, regra do aprovado sem bolsa, monitoria, ausência, base de cálculo da bolsa.

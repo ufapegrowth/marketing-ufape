@@ -3,6 +3,7 @@
 - Agente: estrategia-de-oferta (departamento 02, Estratégia e Posicionamento), etapa 1.8 da camada 1
 - Linha: pos
 - Data: 26/10/2026
+- Versão: 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: nota de proposta única de crédito (PL2 opção A, só proposta à Ufape, nenhuma peça cita crédito) e tabela única de pares (D6). Mudanças no fim do arquivo.
 - Status: rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento e auditorias/conformidade-educacional.md, aplicadas na seção 9). Nada é publicado, enviado ou pago. Toda proposta da seção 5 é pedido de aprovação à Ufape, não oferta existente.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -14,7 +15,8 @@
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md (seções 0 a 5)
   - saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-pos-2026-10-26.md
   - saidas/08-conversao/analise-de-funil-pos-2026-10-26.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7; demais como apoio)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7; demais como apoio; na versão 2, seção 12.4, D6 e D7, e pergunta U7)
+  - saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-livres-2026-10-26.md (PL2, versão 2)
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
   - Fichas conferidas para as condições: contexto/cursos/pos/341-pos-graduacao-em-medicina-interna-equina.md, 68610-pos-graduacao-em-dermatologia-veterinaria.md, 68646-prova-de-bolsa-de-estudos-para-dermatologia-veterinaria.md, 359-pos-graduacao-em-anestesiologia-locorregional-veterinaria.md e 352-pos-graduacao-em-ventilacao-mecanica.md (início de cada uma)
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web.
@@ -28,7 +30,7 @@
 |---|---|
 | Resultado dos sonhos (P1, hipótese) | Resolver na própria clínica os casos que hoje encaminha, sem largar o emprego [SUPOSIÇÃO] |
 | Maiores obstáculos (hipótese) | Total de R$ 28.050,00 a R$ 48.400,00 nas turmas abertas de pequenos animais; pagar a 1ª mensalidade sem saber se a turma abre; viagem mensal; um fim de semana por mês por cerca de 2 anos [SUPOSIÇÃO] |
-| Oferta oficial hoje | Parcelas no cartão ou boleto (30x na maioria; 24x, 18x e 26x em 6 turmas), matrícula de R$ 250,00 (R$ 350,00 em 68629), 1ª mensalidade até 30 dias antes do início, turma mínima de 20, reembolso dos "valores de inscrição" se a turma não for confirmada (texto das fichas), prova de bolsa de R$ 100,00 com 11 bolsas |
+| Oferta oficial hoje | Parcelas no cartão ou boleto (30x na maioria; 24x, 18x e 26x em 6 turmas), matrícula de R$ 250,00 (R$ 350,00 em 68629), 1ª mensalidade até 30 dias antes do início, turma mínima de 15 (decisão 11 da Ufape; algumas páginas ainda dizem 20), reembolso dos "valores de inscrição" se a turma não for confirmada (texto das fichas), prova de bolsa de R$ 100,00 com 11 bolsas |
 | O que reduz risco hoje, com fonte | Prova de bolsa (custo de entrada de R$ 100,00); reembolso se a turma não for confirmada (fichas); orientação de só comprar passagem com a turma fechada (fichas); calendário de módulos publicado (fichas) |
 | O que falta para a oferta ficar forte | Data em que a turma é confirmada; o que entra no reembolso; turma de destino de cada prova; regra escrita de aluno e ex-aluno; regra completa da promoção de 341 |
 | Nome da oferta (proposta) | **Pós sem surpresa**: matrícula com as condições inteiras na mesa |
@@ -293,7 +295,7 @@ Cada resposta usa só o que o catálogo e as fichas permitem. A coluna "proposta
 | Objeção (hipótese) | O que o catálogo permite dizer hoje | O que não dizer | Proposta que reforça |
 |---|---|---|---|
 | **Investimento alto** (turmas abertas de R$ 12.000,00 a R$ 48.400,00; de pequenos animais, a partir de R$ 16.456,00) | O texto-padrão completo, sem esconder total nem matrícula. O parcelamento em até 30x no cartão ou boleto (24x, 18x ou 26x nas turmas indicadas). A prova de bolsa de R$ 100,00, com 11 bolsas. As turmas de menor total quando servirem ao candidato (68629, 333, 60) | "Cabe no bolso", "investimento que se paga", "ganhe mais", comparação de preço com Anclivepa, Qualittas ou Equalis (sem fonte), desconto sem regra (341, 359, 352, aluno e ex-aluno) | PR5 (combo livre mais pós), PR6 (aluno e ex-aluno), PR7 (341), PR9 (crédito da inscrição da prova) |
-| **Turma não fechar** | A turma mínima (20 nas turmas; 15 na prova, [CONFIRMAR]). A orientação de comprar passagem e hotel só com a turma fechada. O reembolso "dos valores de inscrição" se a turma não for confirmada, só nas turmas com o texto de 68610 | "Turma garantida", "turma confirmada" sem confirmação, "últimas vagas", "vagas limitadas", número da turma como prova de que vai formar (uso [CONFIRMAR]). Em 341, nada sobre reembolso | PR1 (reembolso integral escrito), PR2 (data-limite de confirmação) |
+| **Turma não fechar** | A turma mínima de 15 (decisão 11 da Ufape; páginas que ainda dizem 20 vão para correção). A orientação de comprar passagem e hotel só com a turma fechada. O reembolso "dos valores de inscrição" se a turma não for confirmada, só nas turmas com o texto de 68610 | "Turma garantida", "turma confirmada" sem confirmação, "últimas vagas", "vagas limitadas", número da turma como prova de que vai formar (uso [CONFIRMAR]). Em 341, nada sobre reembolso | PR1 (reembolso integral escrito), PR2 (data-limite de confirmação) |
 | **Pagar antes de confirmar** (1ª mensalidade até 30 dias antes) | A regra como está, com a data exata calculada a partir do início da turma. Que a matrícula e a 1ª mensalidade são devolvidas se a turma não for confirmada: **não pode** ser dito hoje, porque "valores de inscrição" não está definido | "Você só paga se a turma abrir" (não é a regra atual) | PR3 (1ª mensalidade só depois da confirmação) ou, como alternativa mais leve, PR1 mais PR2 com a data de confirmação antes do vencimento da 1ª mensalidade |
 | **Viagem** | Quantos módulos presenciais a turma tem e em que datas (ficha de cada turma; ex.: 68610, módulos 5, 9, 14, 18, 21, 22 e 24). Que as aulas presenciais e práticas não são transmitidas. Que há turmas em Goiânia (289, 68632, 68609, 68623). A orientação sobre passagem e a ausência de ressarcimento em adiamento por força maior (fichas) | Parceria de hotel, ajuda de custo, ressarcimento de passagem, "flexível", "no seu ritmo" | PR2 (janela de compra de passagem), PR10 (reposição de módulo) |
 | Tempo (objeção 2 do contexto, citada para completar) | "Um fim de semana por mês, com as datas publicadas"; módulos de 3 dias quando a ficha disser (666, 707) | "Estude quando quiser" | PR10 |
@@ -310,12 +312,30 @@ Cada resposta usa só o que o catálogo e as fichas permitem. A coluna "proposta
 | PR2 | **Data-limite de confirmação da turma** | A Ufape confirma ou cancela cada turma até [N] dias antes do início e avisa os matriculados por WhatsApp e e-mail (com opt-in). Sugestão do agente: confirmar antes do vencimento da 1ª mensalidade, para o aluno pagar já sabendo [SUPOSIÇÃO de desenho] | Permanente, por turma | Sem custo direto; exige decisão interna no prazo e mensagem padronizada | Responde "pagar antes de confirmar" e "viagem" de uma vez; dá a janela de compra de passagem | Voltar ao texto atual das páginas |
 | PR3 | **1ª mensalidade só depois da confirmação** | Na matrícula, o aluno paga só a matrícula (R$ 250,00 ou R$ 350,00); a 1ª mensalidade é cobrada quando a turma for confirmada (PR2) | Testar primeiro nas turmas de abril e maio de 2027 (onda 3) | Caixa adiado entre a matrícula e a confirmação; risco de mais desistência entre matrícula e 1ª mensalidade [SUPOSIÇÃO] | Tira o maior risco percebido do candidato | Voltar a "1ª mensalidade até 30 dias antes" para matrículas novas |
 | PR4 | **Regra de entrada tardia** | Para quem se matricula a menos de 30 dias do início (ou depois do módulo 1, se a Ufape aceitar), a 1ª mensalidade vence na matrícula; dizer se há reposição do conteúdo já dado e até que módulo se aceita entrada | Imediata para 707, 68604, 68606; para 68610 e 68608 a partir de 29/10/2026; para aprovados das provas 68646 e 68651 | Sem custo direto | Tira a dúvida "posso entrar agora?" nas turmas da onda 1 (analise-de-funil, hipótese 3) | Encerrar a venda dessas turmas na data que a Ufape definir |
-| PR5 | **Combo curso livre mais pós da mesma área** | Quem fez um curso livre da Ufape da mesma área abate o valor pago no livre [na matrícula ou nas primeiras mensalidades, a definir] se se matricular na pós em até [N] dias. Pares possíveis pelo catálogo: 573 Ecocardiografia Hands-On com 698 ou 289; 68618 Ventilação Mecânica com 352; 68638 POCUS com 68635 ou 68623; 560 Eletroquimioterapia com 68628; 68614 Videotoscopia com 68610 (que tem módulos de otoscopia e videotoendoscopia na ficha) [SUPOSIÇÃO de pareamento] | Por par, com data de início e fim; não acumula com bolsa | Valor do livre abatido vezes o número de matrículas pelo combo [CONFIRMAR] | Livre vira degrau para a pós em vez de substituto (inteligencia-concorrencia, alternativa curso curto) | Encerrar o combo na data de fim; quem já usou mantém |
+| PR5 | **Combo curso livre mais pós da mesma área** | Quem fez um curso livre da Ufape da mesma área abate o valor pago no livre [na matrícula ou nas primeiras mensalidades, a definir] se se matricular na pós em até [N] dias. Pares: tabela única D6 do plano do cmo (nota abaixo da tabela). Versão 2: PR5 substituída pela proposta única PL2 opção A (U7); nenhuma peça cita crédito | Por par, com data de início e fim; não acumula com bolsa | Valor do livre abatido vezes o número de matrículas pelo combo [CONFIRMAR] | Livre vira degrau para a pós em vez de substituto (inteligencia-concorrencia, alternativa curso curto) | Encerrar o combo na data de fim; quem já usou mantém |
 | PR6 | **Condição escrita para aluno e ex-aluno** | Desconto de [percentual a definir pela Ufape] nas mensalidades para aluno ou ex-aluno de Pós [e de curso livre, se a Ufape quiser], com comprovação pela secretaria; não acumula com bolsa nem com promoção | Data de início e fim escritas; revisão anual | Percentual vezes total das mensalidades vezes número de matrículas elegíveis [CONFIRMAR] | Usa a base da casa; destrava a trilha 657 e 359 para ex-alunos de anestesiologia | Encerrar na data de fim |
 | PR7 | **Regra completa da promoção de 341** | Escrever: base (mensalidades, como diz a página), se o valor publicado de 30x de R$ 1.450,00 é antes ou depois do desconto, validade, se vale para a matrícula, se acumula; publicar o valor com desconto no padrão "30x de R$ [valor]; total de R$ [valor]; matrícula R$ 250,00" | Data de fim escrita | Já decidido pela Ufape (a promoção está no site); a proposta só pede a regra | Libera peças de 341 com o desconto; evita reclamação por texto cortado | Retirar a promoção da página na data de fim |
 | PR8 | **Trocar "10 primeiros" de 359 e 352 por prazo com data** | Desconto de 359 (12%) e 352 (10% no total) passa a valer para matrículas até [data], ou é retirado; se ficar "10 primeiros", a Ufape informa a contagem real a cada semana | Até a data escolhida | Igual ao atual (o desconto já existe no site) | Tira escassez sem prova da página; permite usar o desconto em peça | Voltar ao texto anterior ou retirar o desconto |
 | PR9 | **Destino escrito por prova e crédito da inscrição** | Cada página de prova diz a turma de destino (código, cidade, início), a base de cálculo da bolsa e o valor da parcela com cada bolsa; quem se matricula na turma de destino em até 10 dias úteis abate os R$ 100,00 da inscrição na matrícula; regra escrita para aprovado sem bolsa | Provas de 27/11/2026, se aprovado até a preparação das peças (03/11, prazo do cmo); depois, permanente | R$ 100,00 vezes matrículas vindas da prova [CONFIRMAR] | Mais inscrição (B1 para B2) e mais matrícula depois da prova (B4 para B6) (analise-de-funil, hipótese 4) | Retirar o crédito para as provas seguintes |
 | PR10 | **Regra de reposição de módulo presencial** | Escrever o que acontece se o aluno faltar a um módulo presencial (reposição em outra turma, prazo, custo) | Permanente | Depende da regra; se houver reposição em turma seguinte, custo de vaga [CONFIRMAR] | Responde a dúvida de P2 e do plantonista | Retirar o texto |
+
+**Nota da versão 2: crédito da ponte e pares (plano do cmo, seção 12.4, decisões D6 e D7)**
+
+- **Proposta única levada à Ufape (pergunta U7 do cmo):** PL2 opção A da estrategia-de-oferta-livres, isto é, abatimento até o valor da matrícula da Pós (R$ 250,00 na maioria das turmas; R$ 350,00 em 68629 e 586, catálogo) para quem comprou curso livre de um par da tabela abaixo nos 12 meses anteriores, uma vez por pessoa, sem acumular com bolsa da prova. É só proposta: depende da aprovação da Ufape.
+- **PR5 não vai à Ufape como proposta separada.** O abatimento do valor inteiro do livre não tem teto conhecido (até R$ 2.350,00 em 573, catálogo); a recomendação do cmo é a PL2 opção A, cujo custo máximo por matrícula é conhecido. O teste T3 (seção 7.2) mede o efeito, se a Ufape aprovar.
+- **Até a resposta da Ufape, nenhuma peça cita crédito, combo ou desconto da ponte** (mensagem, página, post ou anúncio). O convite do comprador de curso livre para a Pós é sempre do P5 da Pós; a régua de Livres nunca oferece Pós.
+- **Tabela única de pares (D6, substitui os pares desta PR5):** a Pós do mesmo tema; sem Pós do tema aberta, a da mesma área. O par só existe se a janela de silêncio do comprador (D8) terminar antes do vencimento da 1ª mensalidade e se a Pós começar depois do curso livre.
+
+| Curso livre (data da planilha) | Par na Pós | Início da Pós | Quando o convite pode sair |
+|---|---|---|---|
+| 573 Ecocardiografia Hands-On, SP (14/11/2026) | 289 Pós-graduação em Cardiologia Veterinária, Goiânia | 20/03/2027 | P5 lote 1, a partir de 02/12 (698 não é par: começa em 28/11/2026) |
+| 68614 Videotoscopia, SP (28/11/2026) | sem par neste trimestre (68610 começa no mesmo dia) | - | - |
+| 68637 Endoscopia Digestiva, SP (28/11/2026); 623 depois da correção | sem par | - | - |
+| 616 Imersão Avançada em Anestesia Felina, online (05/12/2026) | 657 Pós-graduação em Anestesiologia Avançada, SP | 13/03/2027 | P5 lote 2, a partir de 04/01; pré-requisito de 657 [CONFIRMAR] antes de citar o par |
+| 68618 Ventilação Mecânica Aplicada à Anestesia, SP (18/12/2026) | 352 Pós-graduação em Ventilação Mecânica, SP | 24/05/2027 | pré-lançamento de maio, no próximo trimestre |
+| 68638 POCUS em Emergência, SP (06/03/2027) | 68635 Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, SP | 10/04/2027 | depois de 09/03 (fim da janela); 1ª mensalidade vence em 11/03 |
+| 560 Eletroquimioterapia, SP (22/05/2027) | sem par no sentido Livres para Pós (68628 começa antes, em 10/04/2027) | - | - |
+| Contínuos (gravados, minicursos, grupos) | Pós aberta da mesma área | por área | depois da janela do online (D8) |
 
 Ordem sugerida de decisão (avaliação do agente [SUPOSIÇÃO]): PR4 e PR9 primeiro (prazo da onda 1 e das provas); depois PR2 e PR1 (juntas, porque uma depende da outra); depois PR7 e PR8 (corrigem textos já publicados); por último PR3, PR5, PR6 e PR10.
 
@@ -328,15 +348,15 @@ Ordem sugerida de decisão (avaliação do agente [SUPOSIÇÃO]): PR4 e PR9 prim
 | Área | Turmas abertas e padrão | Prova e destino | Oferta que vai na frente | Proposta que mais ajuda | Cuidado |
 |---|---|---|---|---|---|
 | A1 Anestesiologia e dor | 657 (30x, R$ 48.400,00), 68609 Goiânia (30x, R$ 32.450,00), 359 (26x, R$ 43.500,00) | 68640 compatível com 68609; 68639 sem destino em SP | Goiânia: prova mais 68609. SP: 657 e 359 como trilha avançada, sem prova | PR6 (ex-aluno de anestesiologia), PR8 (359) | Pré-requisito de 657 e 359 [CONFIRMAR]; não oferecer 68639 como caminho para 657 ou 359 sem decisão |
-| A2 Cardiorrespiratório | 289 Goiânia (30x), 698 (18x), 68636 (30x), 352 (30x) | 68642 compatível com 289; 68641 incerta; 68659 compatível com 68636 | 68636 e 289 pela prova; 698 só depois da correção de data; 352 pelo texto-padrão | PR5 (573 com 698; 68618 com 352), PR8 (352) | Links 68641 e 68642 invertidos (P3) |
-| A3 Emergência, UTI e clínica médica | 68635 (30x, 750 h), 68623 Goiânia (30x, 750 h) | 68645 compatível com 68635; 68660 incerta | Prova mais 68635; carga de 750 h como fato | PR5 (68638 POCUS), PR10 (plantonista) | Área mais disputada em preço: nunca comparar com EAD |
+| A2 Cardiorrespiratório | 289 Goiânia (30x), 698 (18x), 68636 (30x), 352 (30x) | 68642 compatível com 289; 68641 incerta; 68659 compatível com 68636 | 68636 e 289 pela prova; 698 só depois da correção de data; 352 pelo texto-padrão | ponte pela tabela única D6 (573 com 289; 68618 com 352; crédito só se U7 for aprovada), PR8 (352) | Links 68641 e 68642 invertidos (P3) |
+| A3 Emergência, UTI e clínica médica | 68635 (30x, 750 h), 68623 Goiânia (30x, 750 h) | 68645 compatível com 68635; 68660 incerta | Prova mais 68635; carga de 750 h como fato | ponte pela tabela única D6 (68638 com 68635; crédito só se U7 for aprovada), PR10 (plantonista) | Área mais disputada em preço: nunca comparar com EAD |
 | A4 Cirurgia, ortopedia e reabilitação | 68632 Goiânia presencial, 578, 662, 366 (todas 30x) | 68644 compatível com 68632; 68643 incerta | 68632 pela prova em Goiânia | PR2 | 68632 é presencial integral; 662 sem preço em peça (P3); 366 data diverge (P4) |
 | A5 Imagem e endoscopia | 68604 (30x, reta final), 68629 (24x, matrícula R$ 350,00) | 68661 compatível com 68629; 68647 incerta; 68649 sem turma | 68629 como menor total para P3, com a prova 68661 | PR9 | 68649 fora da campanha; 68604 com PR4 |
 | A6 Gastroenterologia | 68606 (30x, 07/11/2026) | 68650 incerta (turma começa antes) | Texto-padrão de reta final | PR4 | Não vender a prova como caminho para 68606 |
 | A7 Endocrinologia e nefrologia | 68617 (30x) | 68648 compatível; 68653 sem turma | Prova 68648 | PR9 | 68617 sem número de turma (P5); 68653 fora |
-| A8 Dermatologia | 68610 (30x, 28/11/2026) | 68646 incerta (um dia antes) | Texto-padrão completo até 29/10/2026 | PR4 (entrada de aprovados da prova), PR5 (68614) | Regra para aprovados da véspera [CONFIRMAR] |
+| A8 Dermatologia | 68610 (30x, 28/11/2026) | 68646 incerta (um dia antes) | Texto-padrão completo até 29/10/2026 | PR4 (entrada de aprovados da prova); 68614 sem par neste trimestre (D6) | Regra para aprovados da véspera [CONFIRMAR] |
 | A9 Oftalmologia | 707 (30x, 600 h, 30/10/2026) | nenhuma (68656 fora do ar) | Texto-padrão de reta final | PR4 | Maior parcela do padrão 30x em turma de reta final; sem desconto possível |
-| A10 Oncologia | 68628 (30x) | 68657 compatível | Prova 68657 | PR5 (560) | Sem número de turma (P5) |
+| A10 Oncologia | 68628 (30x) | 68657 compatível | Prova 68657 | 560 sem par no sentido Livres para Pós (D6) | Sem número de turma (P5) |
 | A11 Laboratório | 68608 (30x), 68615 (30x), 333 (30x, menor parcela do padrão) | 68651 incerta; 68658 compatível com 68615 | 68615 pela prova; 333 como entrada de menor total | PR9 | 333 com prova de docentes fraca (1 professor na ficha) |
 | A12 Neurologia | 68616 (30x) | 68654 compatível | Prova 68654 | PR9 | 677 e 701 em "verificar", sem oferta. Cupom SIMPNEUROMONIT não vale para a Pós |
 | A13 Felinos | nenhuma turma aberta | 68652 sem turma | **Nenhuma oferta de venda** | decisão de abrir turma | Inscrição na prova fora da campanha |
@@ -376,7 +396,7 @@ Pré-requisito comum: código da turma em UTM e eventos de clique (analise-de-fu
 |---|---|---|---|---|---|
 | T1 | Âncora na parcela e no total (texto-padrão na frente) contra âncora na prova de bolsa (R$ 100,00 e 11 bolsas na frente, preço da turma depois) | Se o candidato de turma com prova compatível responde mais ao preço claro ou à porta de entrada barata | Anúncios e páginas das turmas com prova compatível da onda 3 (ex.: 68635, 68636, 68629), depois de 27/11 só com a versão "parcela" | clique em COMPRAR, WhatsApp ou link da prova (A2 para A3); inscrição na prova (B2) | Destino das provas confirmado (PR9) |
 | T2 | Oferta com reembolso integral e data-limite de confirmação escritos contra oferta com o texto atual das CONSIDERAÇÕES | Se tirar o risco de "pagar antes de saber" muda a passagem do contato ao pagamento | Turmas de abril e maio de 2027 (onda 3) | contato para pagamento (A4 para A6) e motivo de perda "turma pode não abrir" | Aprovação de PR1 e PR2 |
-| T3 | Pós sozinha contra combo curso livre mais pós (abatimento do livre) | Se o livre funciona como degrau para a pós ou a substitui | Pares da PR5 (ex.: 68638 com 68635; 560 com 68628) | matrículas na pós vindas de alunos do livre | Aprovação de PR5 e campo de origem no CRM |
+| T3 | Pós sozinha contra combo curso livre mais pós (abatimento do livre) | Se o livre funciona como degrau para a pós ou a substitui | Pares da tabela única D6 (ex.: 68638 com 68635; 573 com 289), com o abatimento da proposta única PL2 opção A | matrículas na pós vindas de alunos do livre | Aprovação da proposta única pela Ufape (U7) e campo de origem no CRM |
 
 ---
 
@@ -394,7 +414,7 @@ Pré-requisito comum: código da turma em UTM e eventos de clique (analise-de-fu
 | Promoção 341 | 20% nas mensalidades, texto cortado (catálogo) | PR7: regra completa | oficial incompleto; proposta |
 | Desconto 359 e 352 | 12% e 10% para os 10 primeiros (só fichas) | PR8: prazo com data ou retirada | fora do catálogo; proposta |
 | Aluno e ex-aluno | citado no blog, sem regra | PR6: regra escrita | sem regra; proposta |
-| Combo livre mais pós | não existe | PR5 | proposta |
+| Combo livre mais pós | não existe | proposta única PL2 opção A (U7), no lugar de PR5; nenhuma peça cita crédito até a resposta | proposta |
 | Reposição de módulo | não publicada | PR10 | proposta |
 | À vista com desconto | não existe | nenhuma | não usar |
 | EAD | nenhuma turma aberta | decisão da Ufape | fora |
@@ -457,6 +477,16 @@ Conferência de forma: sem travessão nem meia-risca neste arquivo; nenhum dado 
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa.
+- PR5: nota de proposta única de crédito levada à Ufape (PL2 opção A, pergunta U7), só proposta; nenhuma peça cita crédito, combo ou desconto da ponte até a resposta.
+- Pares de Livres para Pós pela tabela única D6 (seção 5, seção 6 e teste T3); 573 com 289, não com 698; 68614 e 560 sem par.
+- Turma mínima de 15 e prova online (decisão 11) no resumo e na lista de fatos.
+- Listas finais atualizadas.
+
+---
+
 ## Lista 1. Fatos com fonte
 
 - 30 turmas de Pós abertas: 24 em 30x, 3 em 24x (68629, 699, 60), 2 em 18x (698, 719), 1 em 26x (359); todas no cartão ou boleto (catálogo, seção 2).
@@ -471,20 +501,23 @@ Conferência de forma: sem travessão nem meia-risca neste arquivo; nenhum dado 
 - Matrícula paga "à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão" (fichas 341, 68610, 359, 352).
 - Ficha 359: "DESCONTO DE 12% PARA OS 10 PRIMEIROS INSCRITOS"; público com residência em anestesiologia.
 - Ficha 352: "PARA OS 10 PRIMEIROS MATRICULADOS 10% DE DESCONTO NO VALOR TOTAL DO CURSO".
-- Provas de bolsa: 22 abertas em 27/11/2026; R$ 100,00 à vista (Pix ou boleto) ou 1x no cartão (catálogo, seção 3); 11 bolsas (2 de 50% monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, presencial das 9h às 13h, 2 dias úteis de recurso, 10 dias úteis para matrícula, não acumulativa e intransferível, desempate por currículo, turma mínima de 15 (ficha 68646; contexto/pos-graduacao.md).
+- Provas de bolsa: 22 abertas em 27/11/2026; R$ 100,00 à vista (Pix ou boleto) ou 1x no cartão (catálogo, seção 3); 11 bolsas (2 de 50% monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, online (decisão 11 da Ufape), das 9h às 13h, 2 dias úteis de recurso, 10 dias úteis para matrícula, não acumulativa e intransferível, desempate por currículo, turma mínima de 15 (ficha 68646; contexto/pos-graduacao.md).
 - Prova 68656 (Oftalmologia) fora do ar (catálogo).
 - Desconto para aluno e ex-aluno citado no blog, regra [PREENCHER] (contexto/ufape-geral.md).
 - Cupom SIMPNEUROMONIT é da linha Eventos (briefing, decisão 6).
 - Hipótese 1 de queda do funil: pagar antes de saber se a turma abre (analise-de-funil, seção 2).
 - Taxa da prova da Anclivepa-SP de R$ 350,00 e inscrições até 07/11/2026, por resumo de busca (inteligencia-concorrencia, F1 e F2).
 - Pendências P2 a P5, P11 e P16 (plano do cmo, seção 7).
+- Turma mínima de 15 alunos, também nas turmas de Pós, e provas online (decisão 11 de docs/execucao-2026-10-26.md; contexto/pos-graduacao.md).
+- Tabela única de pares (D6), regra provisória de nenhuma peça com crédito da ponte (D7) e proposta única PL2 opção A levada à Ufape (U7) (plano do cmo, seção 12.4).
+- Datas de início de 289 (20/03/2027), 657 (13/03/2027), 352 (24/05/2027), 68635 (10/04/2027) e 68628 (10/04/2027); preço de 573 de R$ 2.350,00 (catálogo).
 
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] Personas P1 a P4, resultados dos sonhos e obstáculos nas palavras delas (hipóteses de fala, sem voz real de candidato).
 - [SUPOSIÇÃO] Base de cálculo da promoção de 341 e da bolsa sobre as mensalidades (contas ilustrativas da seção 1.3 e 3.1, fora de peça).
 - [SUPOSIÇÃO] Destino provável de cada prova pela leitura do QA (3.2).
-- [SUPOSIÇÃO] Pareamentos do combo livre mais pós (PR5).
+- [SUPOSIÇÃO] Recomendação do cmo de PL2 opção A como proposta única de crédito da ponte (plano do cmo, 12.4).
 - [SUPOSIÇÃO] Desenho de confirmar a turma antes do vencimento da 1ª mensalidade (PR2) e efeitos esperados de cada proposta.
 - [SUPOSIÇÃO] PR3 pode aumentar desistência entre matrícula e 1ª mensalidade.
 - [SUPOSIÇÃO] Textos "Fale com o time para saber como entrar na turma" e "o custo de viagem não está incluído".
@@ -494,14 +527,15 @@ Conferência de forma: sem travessão nem meia-risca neste arquivo; nenhum dado 
 ## Lista 3. Dados que faltam
 
 - [CONFIRMAR] O que o botão COMPRAR cobra (matrícula, 1ª mensalidade ou os dois).
-- [CONFIRMAR] Data em que a turma é confirmada; mínimo 15 ou 20; o que entra em "valores de inscrição" no reembolso; correção do texto de reembolso de 341.
+- [CONFIRMAR] Data em que a turma é confirmada; data da correção das páginas que ainda dizem turma mínima de 20; o que entra em "valores de inscrição" no reembolso; correção do texto de reembolso de 341.
 - [CONFIRMAR] Regra de entrada para quem se matricula a menos de 30 dias do início (707, 68604, 68606, 68610, 68608) e para aprovados das provas 68646 e 68651.
 - [CONFIRMAR] Turma de destino de cada uma das 22 provas; base de cálculo da bolsa; significado de "monitoria"; regra do aprovado sem bolsa; "10 dias úteis" ou "10 dias".
 - [CONFIRMAR] Regra completa da promoção de 341 (validade, base, se o valor publicado já tem desconto, acumulação) (P16).
 - [CONFIRMAR NO CATÁLOGO] Descontos de 359 e 352 e contagem real de inscritos.
 - [PREENCHER] Regra de desconto para aluno e ex-aluno.
 - [CONFIRMAR] Como a Ufape ajusta a diferença de centavos entre parcelas e total (657, 68609, 68629, 359, 719, 698).
-- [CONFIRMAR] Pré-requisito por turma (657, 359, 699).
+- [CONFIRMAR] Pré-requisito por turma (657, 359, 699); o de 657 trava o par com 616 (U10 do cmo).
+- [CONFIRMAR] Resposta da Ufape à proposta única de crédito da ponte (U7 do cmo).
 - [CONFIRMAR] Regra de reposição de módulo presencial.
 - [CONFIRMAR] Quem aprova ofertas e preços (tabela vazia em contexto/ufape-geral.md).
 - [CONFIRMAR] Números de matrículas, vagas, cancelamentos e inscritos por turma e prova (P11), para estimar o custo das propostas.

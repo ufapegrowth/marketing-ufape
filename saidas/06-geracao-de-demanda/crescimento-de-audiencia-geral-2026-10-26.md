@@ -3,6 +3,7 @@
 - **Agente:** crescimento-de-audiencia (departamento 06, Geração de Demanda), etapa 1.25 da camada 1
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos). Graduação fora, com o motivo na seção 1.3.
 - **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md, CR1 e CR2): caixa de nova edição condicionada, linha de base por ponto a partir da data de ativação, utm_medium do padrão D11 e teto único D1. Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é publicado, enviado, pago ou alterado no site, no CRM ou no gerenciador de anúncios pela squad. Toda ação deste arquivo fora da squad é pedido de aprovação humana (seção 10).
 - **Entradas lidas:**
   - .claude/agents/crescimento-de-audiencia.md (instrução deste agente; não cita skill própria). Skill usada: .claude/skills/hipotese-de-teste/SKILL.md (cartões da seção 7)
@@ -21,6 +22,7 @@
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marketing-eventos-2026-10-26.md (só os trechos sobre próxima edição)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (vereditos SP1, NG1, NG2 e tabela X1)
   - auditorias/06-geracao-de-demanda.md
+  - Na versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12: D1, D3, D11 e D12) e saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (seção 10, CR1 e CR2)
 - **Não abri faculdade.ufape.com.br.** Nenhuma busca nova na web.
 - **Dados pessoais:** nenhum. Nenhum aluno, candidato, lead ou participante aparece. Docentes não são nomeados aqui: o plano remete à tabela 6.4 da estrategia-social-pos e às peças do autoridade-docente, onde estão nome e titulação como na ficha (autorização de uso de imagem e de citação registrada para todos em 26/10/2026, briefing, decisão 8).
 - **Números:** nenhum número de seguidores, tamanho de base, inscritos na newsletter, taxa de consentimento, abertura, clique ou descadastro existe nas fontes. Todo valor desse tipo é [CONFIRMAR]. Nenhuma meta numérica é escrita antes de 4 semanas de linha de base.
@@ -32,8 +34,8 @@
 1. **O que é audiência própria aqui:** quatro ativos que a Ufape controla e que viram demanda depois: seguidores qualificados do @ufapevet (médicos veterinários e estudantes de veterinária), base de e-mail com consentimento de marketing, base de WhatsApp com opt-in e inscritos na newsletter quinzenal. Seguidor sem perfil de candidato não conta como crescimento.
 2. **A alavanca mais forte não custa mídia nem post novo:** pedir consentimento, do jeito certo, em todo ponto em que a pessoa já fala com a Ufape (checkout da loja, formulário das 22 provas de bolsa, inscrição do Workshop Brasileiro de Neuromonitorização, botão "avise-me" das turmas sem venda, conversa no WhatsApp de vendas). Hoje nenhuma fonte confirma que esses pontos coletam consentimento com finalidade, política de privacidade e registro [CONFIRMAR].
 3. **Três ações para os próximos 30 dias, nesta ordem:** (1) consentimento em todo ponto de contato que já existe; (2) newsletter como destino fixo do orgânico, sem slot novo de feed; (3) docentes e o Workshop Brasileiro de Neuromonitorização como vitrine para seguidores qualificados, dentro dos slots já aprovados. Tarefas semanais na seção 6.
-4. **Limites respeitados:** nenhum canal novo (os ativos são Instagram, Facebook como reaproveitamento e WhatsApp, mais e-mail e newsletter; YouTube em teste condicionado; LinkedIn, TikTok, X e podcast fora); nenhuma publicação de feed a mais; teto de mensagens da 1.26 (2 WhatsApp e 2 e-mails de campanha por contato por semana, somando as linhas); nada de sorteio, compra de seguidor ou minicurso pago transformado em isca gratuita. Toda mudança em regra de outro agente vira proposta ao cmo (seção 9).
-5. **Métricas e parada:** crescimento líquido de cada base (entradas com consentimento menos saídas), taxa de consentimento por ponto de captação, seguidores ganhos por publicação nos pilares técnicos e, o que importa no fim, leads, inscrições e pedidos que vieram de quem já estava na base. Para tudo se descadastro, SAIR ou denúncia passarem do dobro da mediana da linha de base, se um ponto de captação não registrar o consentimento ou se a base crescer 90 dias sem gerar demanda (seção 8).
+4. **Limites respeitados:** nenhum canal novo (os ativos são Instagram, Facebook como reaproveitamento e WhatsApp, mais e-mail e newsletter; YouTube em teste condicionado; LinkedIn, TikTok, X e podcast fora); nenhuma publicação de feed a mais; teto único D1 do plano do cmo (2 WhatsApp e 2 e-mails de campanha por contato por semana, somando as linhas e a newsletter, no máximo 1 mensagem de campanha por dia) [SUPOSIÇÃO de número até a Ufape confirmar]; nada de sorteio, compra de seguidor ou minicurso pago transformado em isca gratuita. Toda mudança em regra de outro agente vira proposta ao cmo (seção 9).
+5. **Métricas e parada:** crescimento líquido de cada base (entradas com consentimento menos saídas), taxa de consentimento por ponto de captação, seguidores ganhos por publicação nos pilares técnicos e, o que importa no fim, leads, inscrições e pedidos que vieram de quem já estava na base. Para tudo se descadastro, SAIR ou denúncia passarem do dobro da mediana da linha de base (lida por ponto ou programa, a partir da data de ativação de cada um), se um ponto de captação não registrar o consentimento ou se a base crescer 90 dias sem gerar demanda (seção 8).
 
 ---
 
@@ -101,7 +103,7 @@ Critérios: qualidade do público (é a persona?), custo para a Ufape (horas, m�
 | L1 | Consentimento separado (e-mail, WhatsApp, newsletter) em todo ponto de contato da tabela 2.2 | Alto: é quem já comprou, se inscreveu ou perguntou | Baixo: texto e caixa no formulário, feitos pela Ufape | Total: não muda canal, grade nem teto | Alta: a base mais próxima da compra | **Ação 1** |
 | L2 | Newsletter como destino fixo do orgânico (link na bio, figurinha de link nos Stories que já existem, chamada única do carrossel educativo em semanas alternadas, rodapé do blog e do guia C08) | Alto [SUPOSIÇÃO: quem salva carrossel técnico é a persona] | Baixo: sem post novo; depende de página de inscrição [CONFIRMAR] | Parcial: mexe na chamada única de slots de outro agente, por isso vira proposta ao cmo (CA1 e CA2) | Média: nutre até a turma da área | **Ação 2** |
 | L3 | Docentes como colegas: publicação em coautoria nos slots S4 ("Quem ensina") e docentes de Eventos já na grade; docente compartilha no próprio perfil, se quiser | Alto: seguidores do docente tendem a ser da área [SUPOSIÇÃO] | Baixo: o post já está na grade | Total, se o docente aceitar; a autorização de 26/10 cobre imagem e citação, não obriga o docente a publicar (estrategia-social-pos, 4.1) | Média | **Ação 3** |
-| L4 | Workshop Brasileiro de Neuromonitorização como momento de audiência: caixa de consentimento para newsletter e para "aviso da próxima edição" na inscrição e no credenciamento; Stories do evento só com ambiente e docentes | Alto: anestesia, terapia intensiva e neurologia [SUPOSIÇÃO, persona de eventos] | Baixo | Total; Stories dentro do plano de Eventos | Média: ponte para Pós e próxima edição | **Parte das ações 1 e 3** |
+| L4 | Workshop Brasileiro de Neuromonitorização como momento de audiência: caixa de consentimento para newsletter e, só depois do [CONFIRMAR com a Ufape] de que haverá nova edição, para "aviso de nova edição" na inscrição e no credenciamento; Stories do evento só com ambiente e docentes | Alto: anestesia, terapia intensiva e neurologia [SUPOSIÇÃO, persona de eventos] | Baixo | Total; Stories dentro do plano de Eventos | Média: ponte para Pós e nova edição, se houver | **Parte das ações 1 e 3** |
 | L5 | Provas de bolsa como momento de audiência: campo opcional de área de interesse e caixas de consentimento no formulário; quem não for aprovado segue na newsletter, se consentiu | Alto | Baixo | Total; o formulário é da Ufape | Alta (S5c da Pós volta a S2) | **Parte da ação 1** |
 | L6 | Conteúdo que o colega encaminha (carrosséis S1 e S2, "vocês perguntaram", guias de escolha) | Alto | Já previsto nas estratégias sociais | Total | Indireta | Mantida como está; este plano só mede (AA1) |
 | L7 | Anúncio de geração de cadastro (formulário nativo da Meta com caixa de consentimento) para a newsletter | Médio: depende da segmentação | Mídia: [CONFIRMAR verba] | Mídia é do gestor-de-midia | Média | **Proposta ao gestor-de-midia depois da linha de base** (CA6); fora dos 30 dias |
@@ -143,7 +145,7 @@ Proposta de operação, não parecer jurídico. A base legal é decisão do enca
 |---|---|---|
 | E-mail e newsletter | "Quero receber por e-mail a newsletter quinzenal da Faculdade UFAPE, com conteúdo e agenda de cursos, e avisos de turmas da minha área. Posso cancelar quando quiser pelo link no fim de cada e-mail. Política de privacidade: [URL, CONFIRMAR]." | Checkout, formulário da prova, inscrição do workshop, avise-me, página de inscrição da newsletter |
 | WhatsApp | "Quero receber avisos de cursos e turmas da Faculdade UFAPE pelo WhatsApp, em dias úteis e no horário comercial. Para sair, é só responder SAIR. Política de privacidade: [URL, CONFIRMAR]." | Checkout, formulário da prova, inscrição do workshop, avise-me |
-| Próxima edição do evento | "Quero ser avisado por e-mail quando a próxima edição do Workshop Brasileiro de Neuromonitorização for anunciada." | Inscrição e credenciamento do workshop |
+| Nova edição do evento | "Quero ser avisado por e-mail quando houver nova edição do Workshop Brasileiro de Neuromonitorização." [CONFIRMAR com a Ufape antes de ir ao formulário: nenhuma fonte confirma nova edição; sem confirmação, a caixa não entra] | Inscrição e credenciamento do workshop |
 | Frase do time no WhatsApp | "Posso te avisar por aqui quando abrir turma ou prova da sua área? Se aceitar, você pode sair quando quiser respondendo SAIR." | Fim do atendimento, depois de a dúvida estar respondida |
 
 Os textos não citam número de mensagens por semana porque o teto ainda é [SUPOSIÇÃO] (1.26, R6). Nenhum texto promete desconto, bolsa ou conteúdo exclusivo que não exista.
@@ -179,8 +181,8 @@ Os textos não citam número de mensagens por semana porque o teto ainda é [SUP
 | Por que | A newsletter quinzenal começa em 18/11 (edição 1) e 03/12 (edição 2), para a base com consentimento (newsletter, seções 0 e 3). Sem porta de entrada, ela só fala com quem já está na base |
 | Quem faz | Ufape ou landing-page (página); posts-sociais (tela de Stories e troca da chamada, se o cmo aprovar CA1 e CA2); Ufape (link na bio) |
 | Custo | Sem mídia; sem slot novo |
-| Pronto quando | Página no ar com UTM própria, link na bio, primeira tela de Stories aprovada |
-| Métricas | AA4, AA6 e cliques com utm_campaign=newsletter-inscricao, por porta (utm_content) [SUPOSIÇÃO de padrão, CONFIRMAR o padrão de UTM da squad] |
+| Pronto quando | Página no ar, links das portas com UTM, link na bio, primeira tela de Stories aprovada |
+| Métricas | AA4, AA6 e cliques por porta, com UTM no padrão D11 e D12 do plano do cmo: utm_source=instagram (bio e Stories) ou facebook, utm_medium=organic_social, utm_campaign=geral_newsletter_<AAAAMM da publicação>, utm_content=porta (newsletter-pagina-bio, newsletter-stories, newsletter-carrossel). O rodapé do blog é link do próprio site e não tem tipo em D11 [CONFIRMAR com o cmo]; até lá, sai sem UTM |
 | Bloqueio | Página de inscrição [CONFIRMAR se existe ou quem cria]; ferramenta de e-mail; a newsletter está em correção (NG1 e NG2 do qa do lote A) e pode mudar de data |
 
 ### 5.3 Ação 3: docentes e o Workshop Brasileiro de Neuromonitorização como vitrine para seguidores qualificados
@@ -205,7 +207,7 @@ Semanas iguais às das estratégias sociais. Datas sensíveis: 02/11 (feriado), 
 |---|---|---|---|---|
 | S1, 27/10 a 01/11 | Ufape responde o inventário da tabela 2.2 (AU1). Jurídico recebe os textos da seção 4.2 (AU3). arquiteto-de-fluxos recebe os campos de registro | Ufape diz se existe página de inscrição e ferramenta de e-mail (AU4) | Ufape lista os docentes dos slots de novembro que têm perfil e aceitam coautoria (AU5) | Abrir a planilha da seção 8.3; registrar os números de partida de 27/10 (AU2) |
 | S2, 03/11 a 08/11 (02/11 feriado) | Caixa no formulário das provas e no checkout, se o jurídico aprovar; frase de opt-in entregue ao time de vendas (copy-de-mensagens) | Página de inscrição no ar; link na bio (Ufape). Nenhum envio | Convite formal aos docentes que aceitaram; posts-sociais adapta o texto para coautoria | Revisão de 03/11 com o cmo: CA1 a CA5 |
-| S3, 09/11 a 15/11 | Caixas de e-mail, WhatsApp e próxima edição na inscrição do workshop; termo de imagem do credenciamento pronto [CONFIRMAR] | Primeira tela de link para a newsletter em Stories já previstos (se CA2 aprovada), fora de 15/11 | Coautoria agendada para os slots da S4 | Revisão de 09/11: primeira leitura por ponto de captação |
+| S3, 09/11 a 15/11 | Caixas de e-mail e WhatsApp na inscrição do workshop (a de nova edição só com o [CONFIRMAR] da Ufape, CR1); data de ativação de cada caixa registrada na planilha 8.3; termo de imagem do credenciamento pronto [CONFIRMAR] | Primeira tela de link para a newsletter em Stories já previstos (se CA2 aprovada), fora de 15/11 | Coautoria agendada para os slots da S4 | Revisão de 09/11: primeira leitura por ponto de captação |
 | S4, 16/11 a 22/11 | Credenciamento do workshop com as caixas da seção 4.2 (20/11) | Edição 1 da newsletter em 18/11 para quem já consentiu (envio humano) | Reel e post de docente em coautoria (Pós, S4); Stories do workshop em 20 e 21/11 dentro do plano de Eventos | Revisão de 16/11 |
 | S5, 23/11 a 29/11 (fechamento) | Nenhum ponto novo: semana das provas; só serviço aos inscritos | Nenhuma porta nova; nada de chamada de newsletter que dispute atenção com a prova | Nenhuma ação nova | 30/11: leitura dos 30 dias (seção 8.4) |
 
@@ -232,7 +234,7 @@ Os experimentos só começam depois das 4 semanas de linha de base, a partir de 
 
 ### 8.1 Métricas
 
-Nenhuma meta numérica: não há número de seguidores, base ou taxa nas fontes [CONFIRMAR]. As 4 primeiras semanas (27/10 a 23/11) formam a linha de base. Tudo somado, sem dado pessoal.
+Nenhuma meta numérica: não há número de seguidores, base ou taxa nas fontes [CONFIRMAR]. A linha de base é lida por ponto de captação e por programa, a partir da data de ativação de cada um, registrada na planilha 8.3: as 4 semanas seguintes à ativação formam a linha de base daquele ponto. Assim, a mediana não mistura o antes e o depois das caixas e portas das ações 1 e 2, que entram no ar entre 03/11 e 20/11. Para o que já existia em 27/10 (AA1 por pilar, programas que já enviam), a janela é 27/10 a 23/11. Tudo somado, sem dado pessoal.
 
 | # | Métrica | Fórmula | Fonte | Frequência |
 |---|---|---|---|---|
@@ -249,27 +251,27 @@ Fora da decisão: seguidores totais, curtidas e alcance. Podem ser anotados, mas
 
 ### 8.2 Origens padronizadas (para o campo de origem no CRM e para a UTM)
 
-checkout-loja; prova-de-bolsa-2026-11-27; workshop-neuromonitorizacao-inscricao; workshop-neuromonitorizacao-credenciamento; avise-me; whatsapp-atendimento; newsletter-pagina-bio; newsletter-stories; newsletter-carrossel; newsletter-blog. Nomes provisórios [CONFIRMAR com o arquiteto-de-fluxos e o padrão de UTM da squad].
+checkout-loja; prova-de-bolsa-2026-11-27; workshop-neuromonitorizacao-inscricao; workshop-neuromonitorizacao-credenciamento; avise-me; whatsapp-atendimento; newsletter-pagina-bio; newsletter-stories; newsletter-carrossel; newsletter-blog. Nomes provisórios para o campo de origem do CRM [CONFIRMAR com o arquiteto-de-fluxos]. Na UTM, esses nomes entram só em utm_content (D12: minúsculas, sem acento, hífen dentro do bloco); utm_medium usa só crm, newsletter, organic_social, paid_social ou cpc (D11).
 
 ### 8.3 Planilha de acompanhamento (modelo; todos os campos começam vazios)
 
-| Semana | Origem | Novos e-mail com consentimento | Novos opt-in WhatsApp | Novos inscritos newsletter | Descadastros e SAIR | Taxa de consentimento | Seguidores ganhos por publicação (média) | Publicações no período | Observação |
-|---|---|---|---|---|---|---|---|---|---|
-| S1 | checkout-loja | - | - | - | - | - | - | - | - |
-| S1 | prova-de-bolsa-2026-11-27 | - | - | - | - | - | - | - | - |
-| S1 | avise-me | - | - | - | - | - | - | - | - |
-| S1 | whatsapp-atendimento | - | - | - | - | - | - | - | - |
-| S1 | newsletter-pagina-bio | - | - | - | - | - | - | - | - |
+| Semana | Origem | Data de ativação do ponto | Novos e-mail com consentimento | Novos opt-in WhatsApp | Novos inscritos newsletter | Descadastros e SAIR | Taxa de consentimento | Seguidores ganhos por publicação (média) | Publicações no período | Observação |
+|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | checkout-loja | - | - | - | - | - | - | - | - | - |
+| S1 | prova-de-bolsa-2026-11-27 | - | - | - | - | - | - | - | - | - |
+| S1 | avise-me | - | - | - | - | - | - | - | - | - |
+| S1 | whatsapp-atendimento | - | - | - | - | - | - | - | - | - |
+| S1 | newsletter-pagina-bio | - | - | - | - | - | - | - | - | - |
 
-Uma linha por origem e semana. Quem preenche: a Ufape, com os números somados [CONFIRMAR responsável]. A squad lê só esta planilha.
+Uma linha por origem e semana. A data de ativação é o dia em que a caixa, a porta ou o programa entrou no ar; a linha de base daquele ponto começa nela (8.1). Quem preenche: a Ufape, com os números somados [CONFIRMAR responsável]. A squad lê só esta planilha.
 
 ### 8.4 Critério de parada
 
 Global (vale para todas as ações):
-1. **Saída alta:** se AA7 de um programa passar do dobro da mediana da linha de base, o programa pausa e volta à revisão (mesma regra da 1.26, seção 7.2).
+1. **Saída alta:** se AA7 de um programa passar do dobro da mediana da linha de base daquele programa (contada a partir da data de ativação, 8.3), o programa pausa e volta à revisão (mesma regra da 1.26, seção 7.2).
 2. **Registro falho:** ponto de captação sem registro de consentimento (data, origem, versão do texto) para de captar até o conserto. Contato sem registro não entra em campanha.
 3. **Qualidade do número de WhatsApp:** se a Meta rebaixar o número ou um template (quando houver API), param os convites de opt-in por WhatsApp junto com as campanhas [regra da plataforma, conferir na política vigente].
-4. **Teto:** se a mesma pessoa passar do teto da 1.26 por causa de um convite ou de uma edição extra, o convite sai; a newsletter não ganha envio extra para "dar boas-vindas" fora da confirmação de inscrição, que é serviço [SUPOSIÇÃO de que conta como serviço, CONFIRMAR].
+4. **Teto:** se a mesma pessoa passar do teto único D1 do plano do cmo (antes, teto da 1.26) por causa de um convite ou de uma edição extra, o convite sai; a newsletter não ganha envio extra para "dar boas-vindas" fora da confirmação de inscrição, que é serviço [SUPOSIÇÃO de que conta como serviço, CONFIRMAR].
 5. **Grade:** se uma porta da ação 2 ou a coautoria fizer a semana passar do teto do @ufapevet que o cmo fixar, ela sai antes de qualquer post de turma.
 6. **Base sem demanda:** se em 90 dias (até 24/01/2027) a base crescer e AA8 ficar em zero, o plano para de buscar volume e volta ao perfil: a audiência pode estar fora da persona.
 7. **Incidente de dados:** qualquer suspeita de vazamento ou de contato sem consentimento para tudo e vai ao encarregado de dados.
@@ -370,11 +372,22 @@ Aplicada por este agente; a conferência final é do qa-de-marketing.
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pelos ajustes CR1 e CR2 do qa (lote C).
+- CR1: a caixa de "próxima edição" vira "nova edição", condicionada ao [CONFIRMAR] da Ufape antes de ir ao formulário (seções 3, 4.2 e 6).
+- CR2: a linha de base passa a ser lida por ponto e por programa a partir da data de ativação, com coluna nova na planilha 8.3; critério de parada ajustado.
+- UTM das portas da newsletter no padrão D11 e D12 (utm_medium=organic_social, utm_campaign=geral_newsletter_<AAAAMM>).
+- Teto de mensagens trocado pelo teto único D1. Listas finais atualizadas.
+
+---
+
 ## Lista 1. Fatos (com fonte)
 
 - Canais em uso: site com loja, blog, Instagram @ufapevet, Facebook /Ufape, WhatsApp de vendas (SP e Goiânia) e secretaria, e-mail, mídia paga: contexto/ufape-geral.md.
 - Canais por linha nesta rodada: Instagram, Facebook (reaproveitamento e inventário Meta) e WhatsApp ativos; YouTube em teste condicionado; LinkedIn orgânico, TikTok, X e podcast fora: estrategia-social-pos, -livres e -eventos, seção 1.
-- Teto de campanha por contato: 2 WhatsApp e 2 e-mails por semana somando todas as linhas, um canal por dia, serviço fora do limite: estrategia-de-relacionamento-pos, seções 3.2 e 6.1; dona da regra segundo o qa do lote A (tabela X1).
+- Teto de campanha por contato: 2 WhatsApp e 2 e-mails por semana somando todas as linhas e a newsletter, no máximo 1 mensagem de campanha por dia em qualquer canal, serviço fora do limite: plano do cmo, seção 12.2, D1 (antes, estrategia-de-relacionamento-pos, seções 3.2 e 6.1).
+- Padrão de UTM: utm_medium só crm, newsletter, organic_social, paid_social e cpc; utm_campaign com a chave do item (geral_newsletter para a newsletter) e o AAAAMM; utm_content com o ID da peça ou porta: plano do cmo, seção 12.7, D11 e D12.
 - Opt-in por canal e por finalidade, com data, origem e texto; o time oferece o opt-in na conversa e nunca marca sem perguntar: estrategia-de-relacionamento-pos, seções 3.1 e 3.2.
 - Newsletter quinzenal para Pós, Livres e Eventos, Graduação fora; edição 1 em 18/11/2026 e edição 2 em 03/12/2026; caixa desmarcada e separada por canal; confirmação dupla recomendada; descadastro de um clique: newsletter-geral, seções 0, 1.3, 2.2 e 3.1. Arquivo em correção (NG1, NG2): qa-de-marketing-geral-2026-10-26-loteA.
 - Grupos de estudos são produto, não canal; números do grupo nunca viram lista: estrategia-de-relacionamento-livres, seção 3.2; estrategia-social-livres, seção 6.5.
@@ -384,7 +397,7 @@ Aplicada por este agente; a conferência final é do qa-de-marketing.
 - 22 provas de bolsa em 27/11/2026, inscrição de R$ 100,00: catálogo, seção 3; contexto/pos-graduacao.md.
 - Status "sem venda (avise-me)" no catálogo: catálogo, "Como usar".
 - Minicursos online pagos (por exemplo 454, 459, 458, 466) com preço no catálogo: catálogo, seção 5. Iscas pagas não viram gratuitas sem decisão da Ufape: plano do cmo, camada 2, item 2.6.
-- Todos os docentes têm autorização de uso de imagem e de citação: briefing, decisão 8. A autorização não obriga o docente a publicar: estrategia-social-pos, 4.1.
+- A autorização de uso de imagem e de citação vale para todos, docentes, palestrantes e convidados: briefing, decisões 8 e 10. A autorização não obriga o docente a publicar: estrategia-social-pos, 4.1.
 - Teto do perfil em conflito (7 contra 10 publicações por semana, ambos suposição): estrategia-social-livres, 3.3; estrategia-social-eventos, seção 0; docs/andamento-planejamento.md.
 - Pergunta de origem nos formulários ("onde você viu a Ufape?") sugerida como forma de medir canal: analise-de-tendencias, C.3.
 - WhatsApp com sinal de custo maior e alcance menor para mensagem de marketing, fontes divergentes: analise-de-tendencias, D.4.
@@ -397,7 +410,7 @@ Aplicada por este agente; a conferência final é do qa-de-marketing.
 - [SUPOSIÇÃO] Consentimento de marketing não pode ser condição para comprar; leitura a confirmar com o jurídico.
 - [SUPOSIÇÃO] E-mail de confirmação da newsletter e frase de opt-in no atendimento não contam no teto de campanha.
 - [SUPOSIÇÃO] Sorteio atrai público fora da persona; sorteio com fim promocional pode exigir autorização federal (a confirmar com o jurídico).
-- [SUPOSIÇÃO] Padrão de UTM e nomes de origem da seção 8.2.
+- [SUPOSIÇÃO] Nomes de origem da seção 8.2 e números do teto D1, até a Ufape confirmar.
 - [SUPOSIÇÃO] Gatilhos de parada (dobro da mediana; metade dos cliques no XA1) e durações dos experimentos.
 - [SUPOSIÇÃO] Confirmação dupla como boa prática para a newsletter.
 
@@ -411,6 +424,8 @@ Aplicada por este agente; a conferência final é do qa-de-marketing.
 - [CONFIRMAR] Página de inscrição da newsletter e quem a cria (AU4).
 - [CONFIRMAR] Docentes com perfil próprio que aceitam coautoria (AU5).
 - [CONFIRMAR] Processo do termo de imagem no credenciamento do workshop.
+- [CONFIRMAR] Se haverá nova edição do Workshop Brasileiro de Neuromonitorização, antes de a caixa de aviso ir ao formulário (CR1).
+- [CONFIRMAR] Data de ativação de cada ponto de captação (planilha 8.3) e chave de UTM para o rodapé do blog (com o cmo).
 - [CONFIRMAR] Parcerias e patrocinadores disponíveis para divulgação cruzada (AU6).
 - [CONFIRMAR] Decisão da Ufape sobre minicurso pago como isca (AU7).
 - [CONFIRMAR] Teto real do @ufapevet e horas do time para social (decisão do cmo com a Ufape).

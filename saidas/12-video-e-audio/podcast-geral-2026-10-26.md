@@ -3,6 +3,7 @@
 - **Agente:** podcast (departamento 12, Vídeo e Áudio), etapa 1.22 da camada 1
 - **Linha:** geral (Pós-graduação, Cursos Livres e Eventos; Graduação conferida pelo plano próprio)
 - **Data:** 26/10/2026
+- **Versão:** 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md, PG1): afirmação sobre a decisão do candidato trocada pelo que o contexto diz. Mudanças no fim do arquivo.
 - **Status:** rascunho para o qa-de-marketing (auditorias/12-video-e-audio.md e auditorias/conformidade-educacional.md) e para a aprovação da pessoa do marketing. Nada é gravado, publicado, enviado ou pago.
 - **Entradas lidas:**
   - .claude/agents/podcast.md (instrução deste agente) e .claude/skills/conformidade-educacional/SKILL.md (skill citada)
@@ -18,6 +19,7 @@
   - saidas/05-social-e-comunidade/estrategia-social-pos-2026-10-26.md, estrategia-social-livres-2026-10-26.md e estrategia-social-eventos-2026-10-26.md (seção 1 de cada, avaliação dos 8 canais e encomendas ao departamento 12; seção 4.4 da Pós, teste do YouTube)
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md ("Onde passa o tempo" e S-P4)
   - saidas/01-inteligencia-de-mercado/analise-de-tendencias-geral-2026-10-26.md (resumo, blocos C.3 e D)
+  - Na versão 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12) e saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteC.md (seção 6, PG1)
 
 ---
 
@@ -31,9 +33,9 @@
 |---|---|---|
 | Público | Não há dado de que o médico veterinário ouça podcast para se atualizar. A persona da Pós passa o tempo, por hipótese, no Instagram, em grupos de WhatsApp e em congressos; a busca não achou dado de canal de atualização | pesquisa-de-persona-pos, "Onde passa o tempo" e lista de dados sem fonte; tendências C.3 (sinal fraco, "observar e medir") |
 | Capacidade | Nenhuma capacidade de gravação, edição ou publicação informada. Horas do time por semana: [CONFIRMAR]. O canal do YouTube, onde um podcast em vídeo seria distribuído, ainda não está confirmado | contexto/ufape-geral.md (canais em uso não incluem áudio); estrategia-social-pos, seção 4.4 |
-| Efeito na captação do período | Baixo. As janelas da rodada são curtas: provas de bolsa em 27/11, Workshop Brasileiro de Neuromonitorização em 20 e 21/11, Pós de março a maio decidida em fevereiro. Um canal novo de áudio leva semanas para ter ouvinte e não tem como ser medido com o rastreio de hoje (CRM e GA4 não informados) | catálogo, seção 9; contexto/pos-graduacao.md; plano do cmo, P15 |
+| Efeito na captação do período | Baixo. As janelas da rodada são curtas: provas de bolsa em 27/11, Workshop Brasileiro de Neuromonitorização em 20 e 21/11, turmas de Pós de março a maio com captação nos meses anteriores ao início. Um canal novo de áudio leva semanas para ter ouvinte e não tem como ser medido com o rastreio de hoje (CRM e GA4 não informados) | catálogo, seção 9; contexto/pos-graduacao.md; plano do cmo, P15 |
 | Custo de oportunidade | Cada hora de docente e de edição gasta em podcast sai do teste do YouTube (Shorts e aula aberta) e do Instagram, que já estão no plano | estrategia-social-pos, seções 1.4 e 4.4 |
-| Autorização | Não é bloqueio: todos os docentes têm autorização de uso de imagem e de citação (26/10/2026). Falta saber quem tem agenda para gravar | briefing, decisão 8 |
+| Autorização | Não é bloqueio: a autorização de uso de imagem e de citação vale para todos, docentes, palestrantes e convidados (26/10/2026). Falta saber quem tem agenda para gravar | briefing, decisões 8 e 10 |
 
 ## 3. O que faria o podcast entrar
 
@@ -69,7 +71,7 @@ Exemplo de esqueleto de pauta (área A13, só formato; temas e opiniões são do
 - Perguntas sugeridas: como o convidado prepara o ambiente; quais erros vê com frequência em quem está começando; como explica ao tutor; que caso mudou a forma dele de atender; o que estudar primeiro.
 - Chamada final: convite para a página do curso da área, com nome, modalidade e preço só do catálogo; se o dado faltar, [CONFIRMAR NO CATÁLOGO].
 
-Regras que valem para qualquer episódio: sem promessa de emprego, renda ou aprovação na prova de bolsa; sem urgência sem número real; sem "certificado pelo MEC" ou afirmação de certificação; curso livre e evento dizem que não conferem diploma nem equivalem a pós-graduação; nenhum aluno ou candidato identificado; o evento de 20 e 21/11 sempre como "Workshop Brasileiro de Neuromonitorização".
+Regras que valem para qualquer episódio: sem promessa de emprego, renda ou aprovação na prova de bolsa; sem urgência sem número real; sem "certificado pelo MEC" ou afirmação de certificação; curso livre leva a frase única "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (D13 do plano do cmo) e evento diz que não confere diploma nem equivale a pós-graduação; nenhum aluno ou candidato identificado; o evento de 20 e 21/11 sempre como "Workshop Brasileiro de Neuromonitorização".
 
 ## 5. Podcasts de terceiros
 
@@ -93,13 +95,24 @@ Também fora nesta rodada como ação ativa, porque cada convite pede agenda do 
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pelo ajuste PG1 do qa (lote C).
+- PG1: "Pós de março a maio decidida em fevereiro" (sem fonte) trocado por "turmas de Pós de março a maio com captação nos meses anteriores ao início" (contexto/pos-graduacao.md).
+- Autorização de imagem e citação registrada para todos (decisão 10). Frase do curso livre da seção 4 trocada pela versão única D13. A decisão de deixar o podcast fora não mudou.
+- Listas finais atualizadas.
+
+---
+
 ## Fatos (com fonte)
 
 - Canais em uso hoje: site com loja, blog, Instagram (@ufapevet), Facebook (/Ufape), WhatsApp de vendas e secretaria, e-mail e mídia paga. Áudio não está na lista (contexto/ufape-geral.md).
 - O plano do cmo deixa o podcast fora nas quatro linhas nesta rodada, como candidato a teste em 2027 (cmo-geral, seção 5); a estrategia-de-marca repete (seção 9).
 - As três estratégias sociais (Pós, Livres, Eventos) avaliaram o podcast como "fora", com capacidade nula informada (estrategia-social-*, seção 1.2).
 - O plano da Graduação deixa o podcast fora: produção recorrente que não muda matrícula em 17 semanas (cmo-graduacao, tabela de canais).
-- Todos os docentes têm autorização de uso de imagem e de citação desde 26/10/2026 (briefing, decisão 8).
+- A autorização de uso de imagem e de citação vale para todos, docentes, palestrantes e convidados, desde 26/10/2026 (briefing, decisões 8 e 10).
+- A campanha da Pós roda nos meses anteriores ao início da turma (contexto/pos-graduacao.md).
+- Frase única do curso livre: "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." (cmo-geral, seção 12.7, D13).
 - Teste do YouTube: 07/12/2026 a 24/01/2027, com condição de canal confirmado e pessoa nomeada (estrategia-social-pos, seção 4.4).
 - Não há pesquisa de hábito de rede ou de canal de atualização por veterinário (tendências C.3; pesquisa-de-persona-pos, lista de dados sem fonte).
 - Medicina felina e longevidade dos pets são sinais fortes no radar (tendências, resumo executivo).
