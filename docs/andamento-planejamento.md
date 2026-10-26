@@ -43,8 +43,8 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.11 | gestor-de-midia | pos, livres, eventos | entregue; pos aprovado com ajustes; livres e eventos sem qa |
 | 1.12 | analise-de-midia | pos, livres, eventos | entregue (sem qa) |
 | 1.13 | estrategia-de-midia | pos, livres | entregue (sem qa) |
-| 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | entregue (sem qa); páginas das 22 provas ainda dizem "presencial" e bloqueiam a subida (AMP2) |
-| 1.15 | anuncios-linkedin, anuncios-tiktok | pos | entregue (sem qa): LinkedIn teste condicionado só da 657 (11/01 a 31/01/2027); TikTok fora |
+| 1.14 | anuncios-meta, anuncios-google | pos, livres (Meta também eventos) | v2 aprovada pelo qa do lote D; subida bloqueada até as páginas das provas dizerem "online" (AMP2) |
+| 1.15 | anuncios-linkedin, anuncios-tiktok | pos | v2 aprovada pelo qa do lote D: LinkedIn teste condicionado só da 657 (11/01 a 31/01/2027); TikTok fora |
 | 1.16 | lacunas-de-conteudo | pos, livres | entregue |
 | 1.17 | seo-tecnico | geral | entregue |
 | 1.18 | links-e-autoridade | pos | entregue |
@@ -57,7 +57,7 @@ Legenda: entregue = arquivo existe em saidas; falta = ainda não rodou. O veredi
 | 1.25 | crescimento-de-audiencia | geral | entregue (sem qa) |
 | 1.26 | estrategia-de-relacionamento | pos, livres | entregue; pos aprovado com ajustes; livres sem qa |
 | 1.27 | jornada-do-aluno | geral | entregue (sem qa) |
-| 1.28 | campanhas-de-nutricao | pos, livres, eventos | entregue (sem qa): NP1 a NP3, NL1 a NL3, NE1 a NE3; nutrição é a 5ª na fila D2 |
+| 1.28 | campanhas-de-nutricao | pos, livres, eventos | v2 aprovada pelo qa do lote D: NP1 a NP3, NL1 a NL3, NE1 a NE3; nutrição é a 5ª na fila D2 |
 | 1.29 | newsletter | geral | versão 2 corrigida (NG1 a NG7), aguarda reconferência do qa |
 | 1.30 | analise-cro | pos, livres | entregue |
 | 1.31 | analise-de-funil | pos, livres | entregue |
@@ -108,10 +108,12 @@ Segue as dependências da seção 4 do plano do cmo.
 
 ## Próximos passos
 
-1. Lote E em execução: 1.33 backlog-de-otimizacao-geral; qa do lote D (qa-de-marketing-geral-2026-10-26-loteD.md); varredura de coerência nas saídas antigas (propaga as decisões 7 a 13 e a seção 12 do cmo em cerca de 20 arquivos feitos antes delas). Se a sessão cair, confira pelos arquivos e cabeçalhos o que já saiu.
-2. Aplicar as correções do qa do lote D.
-3. Fechar a camada 1: atualizar este arquivo e levar ao CEO, numa lista só, os pedidos de aprovação (R1 a R8 do cmo e os dos agentes) e as perguntas U1 a U10.
-4. Depois: camada 2 (por área) e camada 3 (por curso), na ordem das ondas, e o mapa mental e os JSON (M.1 a M.4).
+**Camada 1 fechada em 26/10/2026.** As 33 etapas têm entrega; todas passaram pelo qa em algum lote (A a D) ou foram feitas pela sessão anterior com qa próprio, exceto a 1.33 (backlog) e as versões da varredura de coerência, que não tiveram reconferência. As pendências para o CEO e a Ufape estão numa lista só em docs/pendencias-camada-1.md.
+
+1. Levar ao CEO docs/pendencias-camada-1.md e registrar aqui cada resposta (como decisão nova no briefing, decisões 14 em diante).
+2. Opcional antes da camada 2: qa do backlog 1.33 e reconferência por amostra das saídas da varredura.
+3. Camada 2 (por área de especialidade, A1 a A14, seção 4 do plano do cmo): parte já existe da sessão anterior (palavras-chave, mensagens e briefing da Pós). Rodar 2.1 a 2.7 que faltam, primeiro as áreas com itens na onda 1.
+4. Camada 3 (por curso, turma ou edição) na ordem das ondas, e o mapa mental e os JSON (M.1 a M.4) ao fim de cada onda.
 
 ## Diário
 
@@ -150,3 +152,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | campanhas-de-nutricao pos, livres e eventos v2 (ajustes do qa do lote D) |
 | 26/10/2026 | anuncios-meta pos, livres, eventos e anuncios-google pos, livres v2 (AGP-Q1 resolvido; título das provas "Inscrição na prova: R$ 100,00") |
 | 26/10/2026 | Varredura de coerência: 18 saídas antigas atualizadas com as decisões 7 a 13 e a seção 12 do cmo (prova online com campus, turma mínima 15, nome oficial do workshop, autorização para todos, datas da planilha, 623, UTM D11 e D12, frase D13). Turma mínima do exemplo JSON 707 do arquiteto corrigida para 15 pelo orquestrador |
+| 26/10/2026 | Camada 1 fechada. Criado docs/pendencias-camada-1.md com aprovações R1 a R8 e verba, perguntas U1 a U10 e metas, correções do site e os primeiros passos da semana |
