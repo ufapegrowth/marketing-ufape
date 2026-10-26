@@ -3,6 +3,7 @@
 - **Agente:** anuncios-linkedin (departamento 11 Mídia Paga)
 - **Linha:** pos
 - **Data:** 26/10/2026 (etapa 1.15 da camada 1)
+- **Versão:** 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md)
 - **Curso:** 657, Pós-graduação em Anestesiologia Avançada, turma II, São Paulo, semipresencial, início 13/03/2027 (catálogo, seção 2)
 - **Status deste arquivo:** rascunho para o qa-de-marketing e pedido de aprovação humana. Nada sobe, nada é pago. A montagem no Campaign Manager é feita por humano, depois da decisão do cmo em 08/01/2027 (PP14) e da aprovação de R6.
 - **Entradas lidas:**
@@ -19,6 +20,14 @@
   - auditorias/11-midia-paga.md
 
 **Nota de referência.** O pedido desta etapa cita "D13" para a regra de P5 e "D14" para o padrão de nomes. Na seção 12 do plano do cmo, a regra "P5 só para o LinkedIn de 657" é o item **EM8** (12.6), a das 3 semanas é **EM10** com o pedido **R6** (12.11), e o padrão de nomes e UTM é **D11 e D12** (12.7). D13 é a frase do curso livre e D14 trata de posts duplicados. Este arquivo segue o conteúdo pedido, com as referências da seção 12.
+
+---
+
+## Mudanças desta versão
+
+- **LI-Q1 (obrigatório antes da montagem):** grupo de campanha, campanhas e utm_campaign passam a usar a chave `pos_657`, sem a área curta, como manda D12: grupo `pos_657_linkedin_lead_202701`, campanhas `pos_657_linkedin_lead_anest_202701` e `pos_657_linkedin_lead_rmk30d_202701`, e o mesmo valor no utm_campaign (seções 3 e 5). O nome com área curta da estrategia-de-midia-pos fica citado só como forma superada, nos fatos.
+- **LI-Q2:** a referência "D8" para o evento de lead e o rastreio saiu (na seção 12 do cmo, D8 é a janela de silêncio). Agora aponta para EM11 da estrategia-de-midia-pos e para o teste de rastreio de 31/10 (C4, C10, seção 3 e lista de dados que faltam).
+- Nada mais mudou: condições, públicos, criativos, leitura e critério de parar seguem iguais.
 
 ---
 
@@ -39,13 +48,13 @@
 | C1 | Pré-requisito de 657 definido pela Ufape e escrito na página da turma | U10 (cmo 12.12); PP7 (gestor) | Aberto. A página diz só "exclusiva para médicos veterinários anestesistas já atuantes", sem dizer como isso é comprovado [CONFIRMAR U10] | Ufape; humano que edita o site |
 | C2 | Verba de P5 aprovada (PP2) e a 3ª semana aprovada junto (R6), com a verba do trimestre seguinte | EM10, R6 | [CONFIRMAR] | pessoa do marketing; cmo |
 | C3 | Condição de volume fechada: com 2 conceitos e 5% de VN em 2 semanas, VN mínima = 40 x CPLmax_h de 657 no canal; se os 5% forem espalhados em 3 semanas, VN mínima = 60 x CPLmax_h | estrategia-de-midia-pos, 3.5 | CPLmax_h de 657 depende de Mmid e c [CONFIRMAR PP1] | gestor-de-midia |
-| C4 | Insight Tag instalada no domínio faculdade.ufape.com.br, com a conversão de 657 configurada e testada | PP14; skill, passo 8 | Pendente. Quem instala [CONFIRMAR]; evento que a página registra (cadastro, início de checkout ou compra) [CONFIRMAR, D8] | humano de site e rastreio; arquiteto-de-fluxos |
+| C4 | Insight Tag instalada no domínio faculdade.ufape.com.br, com a conversão de 657 configurada e testada | PP14; skill, passo 8 | Pendente. Quem instala [CONFIRMAR]; evento que a página registra (cadastro, início de checkout ou compra) [CONFIRMAR, EM11 da estrategia-de-midia-pos e teste de rastreio de 31/10] | humano de site e rastreio; arquiteto-de-fluxos |
 | C5 | Públicos de remarketing criados logo depois da instalação da tag, antes do lançamento (o LinkedIn só conta a partir da criação) | skill, passo 8; instrução do agente | Depende de C4 | humano no gerenciador |
 | C6 | Página da Ufape no LinkedIn existente e conta de anúncios com forma de pagamento ativa | ES5 (estrategia-social-pos) | [CONFIRMAR se a página existe e quem administra]. Anúncio sem página da empresa: [SUPOSIÇÃO] de que o LinkedIn exige a página para anunciar | Ufape |
 | C7 | Público frio com tamanho estimado pela plataforma de pelo menos 15 mil membros (faixa de referência: 50 mil a 300 mil) | instrução do agente; estrategia-de-midia-pos, 4.6 | [CONFIRMAR no gerenciador]. Abaixo de 15 mil, o teste não sobe | humano no gerenciador |
 | C8 | Página de destino em conformidade: sem a frase de certificação que a squad não repete e com a turma mínima de 15 alunos (a página ainda diz 20) | contexto da linha; decisão 11; ficha de 657 (alertas) | Pendente. Se a página não for corrigida, a subida exige decisão registrada da pessoa do marketing, como nas provas em E2 | Ufape; pessoa do marketing |
 | C9 | Criativos de 657 aprovados pelo qa-de-marketing e pela conformidade | auditorias/11-midia-paga.md | Não existem ainda (seção 6) | criativos-de-anuncio; qa-de-marketing |
-| C10 | Rastreio da origem até o CRM (UTM chegando com o lead) | PP4, D8 | Pendente externo | arquiteto-de-fluxos |
+| C10 | Rastreio da origem até o CRM (UTM chegando com o lead) | PP4; EM11 e teste de rastreio de 31/10 (estrategia-de-midia-pos) | Pendente externo | arquiteto-de-fluxos |
 
 Se qualquer condição não fechar até 08/01, a recomendação é **não subir** e devolver P5 para P3 na Meta (gestor, 4.1).
 
@@ -56,12 +65,12 @@ Se qualquer condição não fechar até 08/01, a recomendação é **não subir*
 Mapa em árvore. Orçamento definido na campanha (nível onde fica o público no LinkedIn), não no grupo, porque só há uma campanha de verba e o controle por público é o que se quer ler.
 
 ```
-Grupo de campanha: pos_657-anest-avancada_linkedin_lead_202701
-  Campanha F (frio): pos_657-anest-avancada_linkedin_lead_anest_202701
+Grupo de campanha: pos_657_linkedin_lead_202701
+  Campanha F (frio): pos_657_linkedin_lead_anest_202701
     Público: anest (seção 4, opção escolhida no gerenciador)
     Anúncio L1: 657-l1-precisao_img_protocolo_v1
     Anúncio L2: 657-l2-coord_tla_caso_v1 (ou a alternativa L2b, seção 6)
-  Campanha R (remarketing, só se o público chegar a 1.000): pos_657-anest-avancada_linkedin_lead_rmk30d_202701
+  Campanha R (remarketing, só se o público chegar a 1.000): pos_657_linkedin_lead_rmk30d_202701
     Público: rmk30d (visitantes da página de 657 nos últimos 30 dias, pela Insight Tag)
     Anúncios: os mesmos L1 e L2
 ```
@@ -69,7 +78,7 @@ Grupo de campanha: pos_657-anest-avancada_linkedin_lead_202701
 | Item | Valor | Origem |
 |---|---|---|
 | Objetivo | Conversões no site (lead na página de 657, sem formulário nativo) | estrategia-de-midia-pos, 4.6: sem formulário nativo, para não coletar dado fora da política de privacidade da página [SUPOSIÇÃO do plano] |
-| Conversão otimizada | o evento de lead de 657 que a Insight Tag registrar (cadastro ou início de checkout) [CONFIRMAR, D8] | C4 |
+| Conversão otimizada | o evento de lead de 657 que a Insight Tag registrar (cadastro ou início de checkout) [CONFIRMAR, EM11 da estrategia-de-midia-pos e teste de rastreio de 31/10] | C4 |
 | Exclusões | quem já converteu em 657 (conversão da Insight Tag); a campanha F exclui o público rmk30d quando a campanha R existir | estrategia-de-midia-pos, 4.6 |
 | Expansão de público | desligada | instrução do agente |
 | Rede de audiência do LinkedIn | desligada | instrução do agente |
@@ -104,9 +113,9 @@ Regra: escolher uma opção para a campanha F (sem empilhar critérios que encol
 
 | Nível | Nome |
 |---|---|
-| Grupo de campanha | pos_657-anest-avancada_linkedin_lead_202701 |
-| Campanha frio | pos_657-anest-avancada_linkedin_lead_anest_202701 |
-| Campanha remarketing | pos_657-anest-avancada_linkedin_lead_rmk30d_202701 |
+| Grupo de campanha | pos_657_linkedin_lead_202701 |
+| Campanha frio | pos_657_linkedin_lead_anest_202701 |
+| Campanha remarketing | pos_657_linkedin_lead_rmk30d_202701 |
 | Anúncio L1 | 657-l1-precisao_img_protocolo_v1 |
 | Anúncio L2 | 657-l2-coord_tla_caso_v1 |
 | Anúncio L2b (alternativa) | 657-l2b-modulos_car_temas_v1 |
@@ -115,7 +124,7 @@ Formatos no nome: img (imagem única), tla (anúncio de líder de opinião), car
 
 URL de destino com UTM (modelo, anúncio L1 na campanha frio):
 
-`https://faculdade.ufape.com.br/produto/657/pos-graduacao-em-anestesiologia-avancada?utm_source=linkedin&utm_medium=paid_social&utm_campaign=pos_657-anest-avancada_linkedin_lead_anest_202701&utm_content=657-l1-precisao_img_protocolo_v1&utm_term=anest`
+`https://faculdade.ufape.com.br/produto/657/pos-graduacao-em-anestesiologia-avancada?utm_source=linkedin&utm_medium=paid_social&utm_campaign=pos_657_linkedin_lead_anest_202701&utm_content=657-l1-precisao_img_protocolo_v1&utm_term=anest`
 
 - utm_source=linkedin; utm_medium=paid_social; utm_campaign = nome da campanha; utm_content = nome do anúncio; utm_term = público (anest ou rmk30d).
 - Tudo em minúsculas, sem acento, sem dado pessoal.
@@ -229,7 +238,7 @@ Próximo agente sugerido: qa-de-marketing.
 - Turma mínima de 15 alunos também na Pós (decisão 11 de 26/10/2026, docs/execucao-2026-10-26.md).
 - LinkedIn é teste condicionado só para 657 no bloco 3 (gestor-de-midia-pos, seção 3; PP14); P5 só para o LinkedIn de 657 (cmo, 12.6, EM8); sobe só com as 3 semanas de 11/01 a 31/01/2027 aprovadas juntas (cmo, 12.6, EM10, e 12.11, R6).
 - Decisão do cmo sobre o LinkedIn em 08/01/2027 (gestor-de-midia-pos; estrategia-social-pos, S11).
-- Campanha planejada pos_657-anest-avancada_linkedin_lead_anest_202701, com destino na página e sem formulário nativo (estrategia-de-midia-pos, 4.6); UTM linkedin e paid_social (estrategia-de-midia-pos, 4.3; cmo, D11 e D12).
+- Campanha planejada na estrategia-de-midia-pos como pos_657-anest-avancada_linkedin_lead_anest_202701 (forma com área curta, superada por D12; aqui pos_657_linkedin_lead_anest_202701), com destino na página e sem formulário nativo (estrategia-de-midia-pos, 4.6); UTM linkedin e paid_social (estrategia-de-midia-pos, 4.3; cmo, D11 e D12).
 - Condição de volume: VN mínima = 40 x CPLmax_h com 2 semanas, ou 60 x CPLmax_h com os 5% em 3 semanas (estrategia-de-midia-pos, 3.5).
 - 657 está pausada e bloqueada até o pré-requisito estar na página (PP7; analise-de-midia-pos).
 - Pré-requisito de 657 é a pergunta U10 à Ufape (cmo, 12.12); o par 616 para 657 só cita o pré-requisito depois de confirmado (cmo, 12.4).
@@ -252,7 +261,7 @@ Próximo agente sugerido: qa-de-marketing.
 - [CONFIRMAR] Verba de P5 e da 3ª semana (R6); verba nova total (PP2).
 - [CONFIRMAR] CPLmax_h de 657 (Mmid, c e demais variáveis do PP1); leads por semana esperados.
 - [CONFIRMAR] Tamanho dos públicos A, B, C e rmk30d no gerenciador; CPC, CPM e CPL do canal: [DADO NÃO FORNECIDO].
-- [CONFIRMAR] Quem instala a Insight Tag e qual evento de lead a página de 657 registra (D8).
+- [CONFIRMAR] Quem instala a Insight Tag e qual evento de lead a página de 657 registra (EM11; teste de rastreio de 31/10).
 - [CONFIRMAR] Existência da página da Ufape no LinkedIn, administrador e forma de pagamento da conta de anúncios (ES5).
 - [CONFIRMAR] Correção da página de 657 (frase de certificação e turma mínima de 15) ou decisão registrada.
 - [CONFIRMAR] Existência de post da coordenação no LinkedIn e ok do docente para texto em primeira pessoa; nome do revisor docente do conteúdo clínico.

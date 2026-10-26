@@ -3,6 +3,7 @@
 - **Agente:** anuncios-tiktok (departamento 11 Mídia Paga)
 - **Linha:** pos
 - **Data:** 26/10/2026 (etapa 1.15 da camada 1)
+- **Versão:** 2, corrigida após qa-de-marketing-geral-2026-10-26-loteD (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteD.md)
 - **Status deste arquivo:** avaliação. O canal não foi ativado pelo gestor-de-midia; não há estrutura para montar. Nada sobe, nada é pago.
 - **Entradas lidas:**
   - .claude/agents/anuncios-tiktok.md; .claude/skills/estrutura-de-campanha-paga/SKILL.md
@@ -19,6 +20,14 @@
 
 ---
 
+## Mudanças desta versão
+
+- **TK-Q1:** o nome do desenho mínimo passa a seguir D12, com a chave só com o código: `pos_<código>_tiktok_lead_amplo18-<praça>_<AAAAMM>` (seção 4).
+- **TK-Q2:** a referência "D8" para rastreio e evento de lead saiu (na seção 12 do cmo, D8 é a janela de silêncio). Agora aponta para o teste de rastreio de 31/10, PP4 e EM11 da estrategia-de-midia-pos (seção 2, T4 e lista de dados que faltam).
+- A decisão (TikTok fora nesta rodada) não mudou.
+
+---
+
 ## 1. Decisão
 
 **TikTok Ads fica fora da Pós nesta rodada (trimestre de 27/10/2026 a 24/01/2027).** Este agente confirma a decisão do gestor-de-midia (seção 3) e não pede reabertura.
@@ -29,7 +38,7 @@
 |---|---|---|
 | 1 | Não há verba para o canal. A verba nova da Pós está toda dividida em P1 a P6, e a frente de testes (P5) é só do LinkedIn de 657 | gestor-de-midia-pos, 4.1; cmo, 12.6, EM8 |
 | 2 | Não há perfil da Ufape no TikTok citado nos contextos nem quem produza vídeo nativo com frequência (referência da squad: 2 vídeos por semana) | estrategia-de-marketing-pos, seção 4; estrategia-social-pos, seção 1.3 |
-| 3 | O rastreio não existe: pixel e API de eventos do TikTok não estão instalados, e o rastreio dos canais ativos (D8) ainda está pendente. Um canal sem rastreio não produz leitura | gestor-de-midia-pos, checklist; auditorias/11-midia-paga.md |
+| 3 | O rastreio não existe: pixel e API de eventos do TikTok não estão instalados, e o rastreio dos canais ativos (teste de rastreio de 31/10, PP4 e EM11 da estrategia-de-midia-pos) ainda está pendente. Um canal sem rastreio não produz leitura | gestor-de-midia-pos, checklist; auditorias/11-midia-paga.md |
 | 4 | A persona da Pós (médico veterinário formado, 1 a 8 anos de formado) já é alcançada com o mesmo roteiro curto em Reels, e Shorts entra em teste condicionado. Presença dela no TikTok: [SUPOSIÇÃO] de baixa presença, sem dado da Ufape | contexto/pos-graduacao.md; estrategia-social-pos, matriz de canais; estrategia-de-marketing-pos |
 | 5 | Ticket alto (de R$ 12.000,00 a R$ 48.780,00 no total) e decisão longa: no TikTok o criativo decide a entrega para público amplo, e sem histórico de conversão a otimização não tem do que aprender. A Meta, com o mesmo modelo de público amplo, já roda e tem pixel | catálogo; contexto da linha; skill estrutura-de-campanha-paga, passo 2 |
 | 6 | Na ordem da estratégia, a Graduação é candidata ao TikTok antes da Pós | estrategia-de-marketing-pos, seção 4 |
@@ -43,7 +52,7 @@ Proporcionalidade: abrir um canal novo agora tiraria verba e horas das frentes c
 | T1 | Perfil da Ufape no TikTok criado e ativo, com quem publique e responda comentários [CONFIRMAR] | Ufape; estrategia-social |
 | T2 | Inventário de pelo menos 3 vídeos verticais 9:16 da Pós, com som, legenda, gancho nos 2 primeiros segundos e áudio com direito de uso comercial (os roteiros curtos do kit e os Reels podem servir, se adaptados) [CONFIRMAR] | criativos-de-anuncio; tiktok |
 | T3 | Verba própria aprovada, sem tirar de P1 a P5, e uma turma com CPLmax_h conhecido (PP1) | pessoa do marketing; gestor-de-midia; cmo |
-| T4 | Pixel e API de eventos do TikTok instalados e testados no domínio, com o mesmo evento de lead das campanhas da Meta (D8) | humano de site e rastreio; arquiteto-de-fluxos |
+| T4 | Pixel e API de eventos do TikTok instalados e testados no domínio, com o mesmo evento de lead das campanhas da Meta (EM11 da estrategia-de-midia-pos) | humano de site e rastreio; arquiteto-de-fluxos |
 | T5 | Algum sinal de público: origem "TikTok" aparecendo no CRM ("como conheceu"), ou resultado de teste do canal na Graduação ou em Cursos Livres [CONFIRMAR] | analista-de-dados; gestor-de-midia |
 | T6 | Decisão do gestor-de-midia levada ao cmo, porque muda os canais ativos | gestor-de-midia; cmo |
 
@@ -59,7 +68,7 @@ Só referência para a próxima rodada. Não vale como pedido de subida.
 - **Público:** amplo, 18 anos ou mais, localização da praça da turma (ou Brasil, se a turma tiver a maior parte online) [SUPOSIÇÃO]. Nenhum interesse empilhado; nenhum público menor de 18 anos. Remarketing só quando houver público suficiente de visitantes da página ou de quem viu a maior parte do vídeo.
 - **Anúncios:** professor explicando um tema do cronograma, dúvida frequente respondida (como funciona o semipresencial, turma mínima de 15 alunos), bastidor de módulo prático. Uma ideia por vídeo, legenda sempre, nome exibido da Ufape, CTA "Saiba mais". Spark Ads de post de docente só com o post publicado pelo próprio docente (autorização de imagem e de citação registrada nas decisões 8 e 10; texto em primeira pessoa com o ok dele). Música só da biblioteca comercial ou licenciada.
 - **Conteúdo:** nome "Pós-graduação em <área>"; preço, se aparecer, com parcelas, valor da parcela, total e matrícula; nenhuma frase de certificação; nenhuma urgência; nenhuma frase que afirme característica de quem vê; nenhuma promessa de cargo ou renda.
-- **Nomes e UTM (D11 e D12 do cmo):** campanha `pos_<código>-<área curta>_tiktok_lead_amplo18-<praça>_<AAAAMM>`; grupo = nome da campanha + `__amplo18-<praça>`; anúncio `<código>-<conceito>_v916_<gancho>_vN`; utm_source=tiktok, utm_medium=paid_social, utm_campaign = nome da campanha, utm_content = nome do anúncio, utm_term = público.
+- **Nomes e UTM (D11 e D12 do cmo):** campanha `pos_<código>_tiktok_lead_amplo18-<praça>_<AAAAMM>`; grupo = nome da campanha + `__amplo18-<praça>`; anúncio `<código>-<conceito>_v916_<gancho>_vN`; utm_source=tiktok, utm_medium=paid_social, utm_campaign = nome da campanha, utm_content = nome do anúncio, utm_term = público.
 - **Leitura:** 3 semanas, como no LinkedIn: semana 1 só rastreio e destino; semana 2 uma mudança única (pausa de anúncio com gasto de 1,5 a 2 x CPLmax_h sem lead); semana 3 sem mudança; leitura final contra CPLmax_h e a qualidade do lead no CRM.
 - **Critério de parar:** pixel sem registrar lead em 48 h; destino diferente do catálogo; fim do período aprovado; verba, CPL e leads por semana: [CONFIRMAR].
 
@@ -101,5 +110,5 @@ Próximo agente sugerido: qa-de-marketing.
 - [CONFIRMAR] Se a Ufape tem perfil no TikTok e quem publica.
 - [CONFIRMAR] Verba própria para o canal; CPLmax_h da turma candidata (PP1); CPC, CPM e CPL do canal: [DADO NÃO FORNECIDO].
 - [CONFIRMAR] Inventário de vídeos verticais aprovados, com áudio de uso comercial.
-- [CONFIRMAR] Instalação do pixel e da API de eventos do TikTok e evento de lead das páginas (D8).
+- [CONFIRMAR] Instalação do pixel e da API de eventos do TikTok e evento de lead das páginas (EM11; teste de rastreio de 31/10).
 - [CONFIRMAR] Origem "TikTok" no CRM ou resultado de teste do canal em outra linha.
