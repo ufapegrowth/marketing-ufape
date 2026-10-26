@@ -177,7 +177,7 @@ Editais publicados no site: Vestibular 2027 (https://faculdade.ufape.com.br/uplo
 | 590 | Curso de Microcirurgia na Oftalmologia Veterinária - básico e avançado- SÃO PAULO | São Paulo | Presencial | SEM DATA | 22 h | R$ 5.220,00 à vista ou R$ 6.264,00 em 10x no cartão; R$ 5.220,00 à vista (Pix ou boleto) ou 10x de R$ 626,40 no cartão. | verificar (sem data no site) | planilha e site | [ficha](cursos/livres/590-curso-de-microcirurgia-na-oftalmologia-veterinaria-basico-e-avancado-s.md) |
 | 603 | Curso de Microcirurgia na Oftalmologia Veterinária - básico- SÃO PAULO | São Paulo | Presencial | SEM DATA | 6 h | R$ 2.300 à vista ou R$ 2.760,00 em 6x no cartão; R$ 2.300,00 à vista (Pix ou boleto) ou 6x de R$ 460,00 no cartão. | verificar (sem data no site) | planilha e site | [ficha](cursos/livres/603-curso-de-microcirurgia-na-oftalmologia-veterinaria-basico-sao-paulo.md) |
 | 715 | Programa de Aprimoramento em Terapia Intensiva Veterinária | São Paulo |  |  | 60 h | [CONFIRMAR NO SITE] | sem venda (avise-me) | só no site | [ficha](cursos/livres/715-programa-de-aprimoramento-em-terapia-intensiva-veterinaria.md) |
-| 68634 | Workshop de Neuromonitorização (Teórico) TRANSMITIDO + GRAVADO | Saiba Mais | Presencial |  | 24 h | R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. | verificar (sem data no site) | só no site | [ficha](cursos/livres/68634-workshop-de-neuromonitorizacao-teorico-transmitido-gravado.md) |
+| 68634 | Workshop de Neuromonitorização (Teórico) TRANSMITIDO + GRAVADO | Saiba Mais | Presencial |  | 24 h | R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. | verificar (sem data no site; é a modalidade transmitida do workshop de 20/11/2026, ver seção 9) | só no site | [ficha](cursos/livres/68634-workshop-de-neuromonitorizacao-teorico-transmitido-gravado.md) |
 
 ## 5. Cursos livres online e gravados
 
@@ -258,7 +258,7 @@ Editais publicados no site: Vestibular 2027 (https://faculdade.ufape.com.br/uplo
 | Código | Curso | Local | Início | Preço e condições (site) | Status | Fonte | Ficha |
 |---|---|---|---|---|---|---|---|
 |  | Simpósio Plantonista Veterinário | SP | 10/10/2026 |  | sem página | só na planilha |  |
-|  | I SIMPÓSIO BRASILEIRO DE NEUROMONITORIZAÇÃO VETERINÁRIA | SP | 20/11/2026 |  | sem página | só na planilha |  |
+|  | Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária) | São Paulo, Av. Tiradentes, 960 (Unidade 2) | 20/11/2026 | Presencial (teórico e prático, 16 h, 30 vagas): R$ 1.250,00. Transmitido + gravado (só teoria): R$ 450,00 (produto 68634). Aluno e ex-aluno Ufape: 20% de desconto com cupom | aberto | planilha e página do evento (https://faculdade.ufape.com.br/neuro-summit/) | [ficha](cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md) |
 | 700 | Congresso Internacional do Paciente Grave Multidisciplinar UFAPE - Foco em Casos Clínicos - Gravação | São Paulo |  | R$ 780,00 à vista (Pix ou boleto) ou 10x de R$ 98,00 no cartão. | aberto (contínuo) | só no site | [ficha](cursos/livres/700-congresso-internacional-do-paciente-grave-multidisciplinar-ufape-foco-.md) |
 |  | Paciente Grave Multidiciplinar Foco em casos Clinicos | ONLINE |  |  | sem página | só na planilha |  |
 | 202 | Simpósio Internacional de Coagulação | Online |  | R$ 285,00 à vista (Pix ou boleto) ou 6x de R$ 78,00 no cartão. | aberto (contínuo) | só no site | [ficha](cursos/livres/202-simposio-internacional-de-coagulacao.md) |
