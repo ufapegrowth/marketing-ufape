@@ -197,3 +197,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 27/10/2026 | N1 do qa das mensagens da onda 1 aplicado pelo orquestrador (só as linhas 231 e 573, concordância). LOTE 1 DA ONDA 1 PRONTO PARA APROVAÇÃO HUMANA (OA9) para o envio de 28/10. Decisão ao cmo: 707 e 68604 exigem OU2 e OU3 ou só OU2 |
 | 27/10/2026 | criativos-de-anuncio-pos-turmas v2 (C1 a C7, ajustes A1 a A7, A9, A10; condições do AP7 registradas). Reconferência do qa iniciada |
 | 27/10/2026 | qa criativos rodada b: 12 turmas aprovadas no texto; 68635 e 366 voltam (N1: selo com nome do curso encurtado, deve ser o nome completo). Correção enviada |
+| 27/10/2026 | criativos-de-anuncio-pos-turmas v3: N1 aplicado (selo com nome completo em 68635 e 366); conferido pelo orquestrador no diff (só selos, notas e registro de mudanças). CRIATIVOS DAS 14 TURMAS DE MARÇO E ABRIL PRONTOS PARA APROVAÇÃO HUMANA, com as travas de subida (P3, P4, PP7, U10, URL de 68617, c3 de 662) |

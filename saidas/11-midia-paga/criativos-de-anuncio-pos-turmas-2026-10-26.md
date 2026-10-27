@@ -2,11 +2,11 @@
 
 - **Agente:** criativos-de-anuncio (departamento 11 Mídia Paga), por encomenda da estrategia-de-midia-pos v4 (seção 7, linha "criativos-de-anuncio"; a v4 não muda a encomenda, os nomes nem a UTM da v3, conforme o QA) e do gestor-de-midia-pos v3 (seção 12.8)
 - **Linha:** pos
-- **Data:** 26/10/2026 (segunda-feira); versão 2 em 27/10/2026
+- **Data:** 26/10/2026 (segunda-feira); versão 2 em 27/10/2026; versão 3 em 27/10/2026
 - **Etapa:** camada 3. Onda 2 (março de 2027): 68615, 289, 333, 657, 341. Onda 3 (abril de 2027, lote 1 e lote 2): 68635, 68636, 68617, 68628, 68609, 68632, 679, 366, 662.
 - **Nome do arquivo:** exceção de nome autorizada pelo orquestrador, porque o arquivo das provas de bolsa (criativos-de-anuncio-pos-2026-10-26.md) já usa o nome padrão. Aquele arquivo não foi alterado e serviu só como referência de formato, sem nenhuma prova, bolsa ou preço.
-- **Versão:** 2 (27/10/2026), corrige o que o qa-de-marketing devolveu em saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md (C1 a C7 e ajustes A1 a A7, A9 e A10). O que mudou está na seção "Mudanças desta versão", no fim.
-- **Status:** rascunho para nova conferência do qa-de-marketing (só os itens alterados) e para a aprovação humana. Nada é publicado, enviado ou pago. Nenhuma campanha é criada, alterada, pausada ou ampliada por este arquivo: toda subida, troca de diária e pausa é pedido para um humano executar nos gerenciadores.
+- **Versão:** 3 (27/10/2026), corrige o N1 da reconferência do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos-b.md): selo com nome completo do curso em 68635 e 366. A versão 2 corrigiu a primeira revisão (saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md). O que mudou está na seção "Mudanças desta versão", no fim.
+- **Status:** rascunho para a conferência do qa-de-marketing do item N1 e para a aprovação humana. Nada é publicado, enviado ou pago. Nenhuma campanha é criada, alterada, pausada ou ampliada por este arquivo: toda subida, troca de diária e pausa é pedido para um humano executar nos gerenciadores.
 - **Prazos da encomenda:** março até 02/12/2026; abril até 23/12/2026 [SUPOSIÇÃO de prazo, da estrategia-de-midia-pos]. Este arquivo cobre as duas ondas de uma vez.
 - **Canais ativados para este pacote:** Meta (Instagram e Facebook: feed, Reels, Stories). Google Busca é texto de anúncio responsivo e fica com o anuncios-google. TikTok, YouTube e LinkedIn estão fora desta verba (PP13 e PP14 do gestor, recomendação "fora"); por isso não há roteiro de TikTok, Shorts nem peça de LinkedIn.
 - **Entradas lidas:**
@@ -21,7 +21,7 @@
   - saidas/05-social-e-comunidade/criador-de-ganchos-pos-2026-10-26.md (v2, seções 0 a 14)
   - saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (v2, seção 0)
   - saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-26.md (só formato, seções 1 a 3)
-  - saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md (revisão da versão 1)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md e qa-de-marketing-pos-2026-10-26-criativos-b.md (revisões das versões 1 e 2)
   - .claude/skills/matriz-de-criativos/SKILL.md, auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 - **Não lidos:** templates/casa-de-mensagens.md (a casa de mensagens usada é a do arquivo mensagens-pos, já aprovada na camada 2) e as saídas de analise-de-midia (não há exportação com métricas nos arquivos).
 - **Não aberto:** faculdade.ufape.com.br. O texto de cada página está na ficha do curso.
@@ -51,6 +51,7 @@
 - Característica de quem vê o anúncio. O texto descreve o curso ("para médicos veterinários anestesistas já atuantes", como diz a página), nunca "você está...".
 - Superlativo ou comparação ("o melhor", "único", "referência nacional", "renomados", "de ponta") e nome de concorrente.
 - Número de turma em 68628, 68617 e 662 (planilha e site divergem). Turma mínima com número (ver resumo, item 3).
+- Nome de curso diferente do catálogo: o nome na arte e no texto é sempre "Pós-graduação em <área>" completo, sem cortar palavra (N1 do QA).
 - Travessão, meia-risca, emoji, caixa alta para gritar, pontuação repetida. A grafia de nome e titulação de docente segue a ficha (inclusive a caixa de "DR." e "DRA."), sem mudar o conteúdo.
 
 ### 1.2 Frases fixas (cada uma com a origem que a sustenta)
@@ -64,13 +65,13 @@
 - **r2:** "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada." Fonte: regra da linha em contexto/pos-graduacao.md ("a turma pode não ser formada; a Ufape orienta comprar passagens e hotel só quando a turma for confirmada") e, onde a ficha traz, as considerações dela (12 das 14 fichas; as de 68615 e 679 não trazem a frase, só reembolso e força maior). Sem número de turma mínima.
 - **Prática presencial:** "Aulas presenciais e práticas não são transmitidas." só nas turmas cuja ficha traz essa observação: 657, 341, 289, 68615, 333, 679, 68632, 68635, 366, 68628 e 68617. **Não vale para 68636 e 68609** (as fichas não trazem; a de 68636 diz só "Cronograma sujeito a ajustes pela coordenação do curso" e a de 68609 fala de mudança de cronograma e de professores) [CONFIRMAR se as aulas presenciais delas são transmitidas].
 - **Cronograma:** "Cronograma sujeito a ajustes." (observação das fichas, inclusive 68636 e 68609).
-- **Marca e nome:** "Faculdade UFAPE" em toda arte, **inclusive no cartão final de cada vídeo**; curso sempre como "Pós-graduação em <área>" no texto visível; campus (São Paulo ou Goiânia) sempre dito.
+- **Marca e nome:** "Faculdade UFAPE" em toda arte, **inclusive no cartão final de cada vídeo**; curso sempre como "Pós-graduação em <área>" no texto visível e no selo da arte, com o nome completo do catálogo; campus (São Paulo ou Goiânia) sempre dito.
 
 ### 1.3 Formatos nativos da Meta e limites de texto
 
 - **Feed 1:1:** 1080 x 1080 px. Texto da imagem com título de até 8 palavras e no máximo 3 blocos de texto (título, apoio, rodapé), mais o selo com o nome do curso. Corpo de título a partir de 6% da altura e apoio a partir de 3% [SUPOSIÇÃO de boa prática, igual ao arquivo das provas].
-- **Texto na imagem:** a Meta não reprova mais anúncio pela proporção de texto, mas imagem muito carregada pode ter entrega menor [SUPOSIÇÃO: leitura da orientação pública da Meta; nenhuma fonte no repositório]. Por isso o apoio de cada arte tem um tema só ou uma lista curta, e o selo usa a forma curta do nome onde o texto principal já traz o nome completo (68635 e 366, nas artes de c1 e r2). Conferir na pré-visualização do gerenciador.
-- **Stories e Reels 9:16:** 1080 x 1920 px, zona segura de cerca de 14% no topo e 20% na base [referência da Meta, conferir no gerenciador]. O estático de cada turma (c1 ou c2, o que não for vídeo) e o r2 têm a adaptação 9:16 (nome com `e916`, mesmo texto, tipo "adaptação", não é teste).
+- **Texto na imagem:** a Meta não reprova mais anúncio pela proporção de texto, mas imagem muito carregada pode ter entrega menor [SUPOSIÇÃO: leitura da orientação pública da Meta; nenhuma fonte no repositório]. Por isso o apoio de cada arte tem um tema só ou uma lista curta. **O selo sempre traz o nome completo do curso no padrão do catálogo, em duas linhas se o nome for longo (68635 e 366, por exemplo); para aliviar a arte, encurta-se o apoio, nunca o nome (N1 do QA).** Conferir na pré-visualização do gerenciador.
+- **Stories e Reels 9:16:** 1080 x 1920 px, zona segura de cerca de 14% no topo e 20% na base [referência da Meta, conferir no gerenciador]. O estático de cada turma (c1 ou c2, o que não for vídeo) e o r2 têm a adaptação 9:16 (nome com `e916`, mesmo texto e mesmo selo completo, tipo "adaptação", não é teste).
 - **Carrossel 1:1:** 4 a 6 cartões, um conceito por cartão, até 25 palavras por cartão. Cada cartão tem título de até 32 caracteres e, quando precisar, apoio em linha separada. Desligar a ordenação automática dos cartões. Nenhuma seta, botão de play ou elemento que imite a interface da plataforma. O limite de 32 caracteres, e os de 6% e 3% de altura, são boas práticas do agente, não regra da Meta [SUPOSIÇÃO].
 - **Vídeo curto 9:16:** de 20 a 27 segundos. Gancho nos 3 primeiros segundos, desenvolvimento, CTA no fim. **O cartão final de todo vídeo traz "Faculdade UFAPE" escrito na tela.** Roteiro pensado para som desligado: toda fala aparece como texto na tela e como legenda (legenda sempre). Narração, se houver, é de narrador sem rosto [SUPOSIÇÃO: nenhum docente gravou e nenhum texto em primeira pessoa foi aprovado]. Fundo: tipografia sobre cor da marca ou tela de cronograma; nenhuma pessoa, nenhum animal; trilha sem letra e licenciada [CONFIRMAR licença].
 - **Textos do anúncio:** primeira linha do texto principal com até 125 caracteres (aparece antes de "ver mais"); título até 40 caracteres; descrição do link até 30; botão "Saiba mais". Os contadores entre parênteses nos títulos e descrições foram feitos à mão: conferir no gerenciador.
@@ -99,7 +100,7 @@ CAT = contexto/catalogo-de-cursos.md, seção 2. F-<código> = ficha em contexto
 - **Remarketing (r1 e r2)** é adaptação de conceito para quem já viu a página ou o Instagram: muda formato e mensagem, mas não conta como conceito novo nem como teste.
 - **Iteração** (uma variável por vez) só vale em cima de um vencedor. Cada seção traz a iteração planejada, que não sobe antes de haver vencedor.
 - **Mensageiro:** hoje é "só texto", "narrador sem rosto" ou "docentes citados por nome (texto, sem fala)". Não há docente gravado, aluno ou egresso autorizado, e nenhum texto em primeira pessoa foi aprovado. É um buraco da matriz (seção 2.3).
-- **Gancho dos r1:** o nome leva `pergunta`, mas o texto é afirmativo ("Como funciona ..., mês a mês."). O QA registrou isso como ajuste A8, sem erro de conformidade; fica mantido nesta versão para não mudar nomes e UTM já conferidos (seção "Mudanças desta versão").
+- **Gancho dos r1:** o nome leva `pergunta`, mas o texto é afirmativo ("Como funciona ..., mês a mês."). O QA registrou isso como ajuste A8, sem erro de conformidade; fica mantido para não mudar nomes e UTM já conferidos (seção "Mudanças desta versão").
 
 ### 2.2 Critério de vencedor e volume mínimo (do plano de mídia, seções 2.5 e 3.7)
 
@@ -437,6 +438,7 @@ Adaptações 9:16: `341-c1-percurso_e916_percurso_v1`, `341-r2-turma_e916_data_v
 - Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, turma V, São Paulo, semipresencial, 750 h, 28 módulos, início em 10/04/2027. Página: https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo
 - Público: médicos veterinários. Coordenação: Prof. Caio Cavalcanti Balençuela. 25 professores listados. 9 presenciais, contados na ficha: módulos 3, 6, 10, 14, 18, 21, 24, 25 e 28 (alguns só com o mês na ficha; o dia está [CONFIRMAR NO CATÁLOGO]).
 - A ficha não traz turma mínima, então nenhuma peça cita número. Fora da peça: "2 certificações aprovadas pelo MEC", "certificado de clínica médica e de emergência de 375 horas", "salvar vidas" e "oportunidade de educar tutores" como promessa.
+- **Selo das artes (N1 do QA):** nome completo do catálogo, em duas linhas ("Pós-graduação em Clínica Médica e" / "Emergência de Pequenos Animais"); a arte é aliviada pelo apoio curto, não pelo nome.
 - Campanhas: frio `pos_68635-clinmed-emerg_meta_lead_amplo18-sp_202701`; remarketing `pos_68635-clinmed-emerg_meta_lead_rmk30d_202701`. Exemplo completo (c1): https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=meta&utm_medium=paid_social&utm_campaign=pos_68635-clinmed-emerg_meta_lead_amplo18-sp_202701&utm_content=68635-c1-presenciais_e11_numero_v1&utm_term=amplo18-sp
 
 **Matriz da turma**
@@ -449,12 +451,12 @@ Adaptações 9:16: `341-c1-percurso_e916_percurso_v1`, `341-r2-turma_e916_data_v
 | 68635-r1-mesames_car_pergunta_v1 | adaptação, versão de c2 | visitante da página | como funciona | carrossel | pergunta | só texto | "como é o mês a mês?" |
 | 68635-r2-turma_e11_data_v1 | adaptação, versão de c1 | visitante da página | informação da turma | estático 1:1 | data | só texto | "qual turma, onde e quando?" |
 
-Adaptações 9:16: `68635-c1-presenciais_e916_numero_v1`, `68635-r2-turma_e916_data_v1`. Iteração planejada, só se c1 vencer: `68635-c1-presenciais_e11_numero_v2` (muda só a lista de apoio da imagem, de 4 para 2 temas, para legibilidade).
+Adaptações 9:16: `68635-c1-presenciais_e916_numero_v1`, `68635-r2-turma_e916_data_v1` (mesmo selo completo). Iteração planejada, só se c1 vencer: `68635-c1-presenciais_e11_numero_v2` (muda só a lista de apoio da imagem, de 3 temas para 2, para legibilidade).
 
 **c1. 68635-c1-presenciais_e11_numero_v1 (feed 1:1; gancho CG-A3-02)**
 - Texto principal: "9 módulos presenciais em 750 horas: da semiologia ao trauma." / "Na Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, da Faculdade UFAPE, os presenciais incluem semiologia, eletrocardiograma e hemogasometria, sondagem uretral, ambulatório clínico, A-FAST e T-FAST, triagem do paciente grave, RCP e trauma. Campus São Paulo, início em 10/04/2027."
 - Título (25): "9 presenciais em 750 horas". Descrição (28): "Campus São Paulo, 10/04/2027".
-- Imagem. Selo (forma curta, porque o texto principal traz o nome completo): "Clínica Médica e Emergência". Título: "9 presenciais em 750 horas". Apoio: "Semiologia, ECG e hemogasometria, A-FAST e T-FAST, RCP e trauma". Rodapé: "Campus São Paulo, início 10/04/2027. Faculdade UFAPE".
+- Imagem. Selo (nome completo, em duas linhas): "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais". Título: "9 presenciais em 750 horas". Apoio (curto): "Semiologia, A-FAST e T-FAST, RCP e trauma". Rodapé: "Campus São Paulo, início 10/04/2027. Faculdade UFAPE".
 - UTM: campanha frio; term amplo18-sp.
 - Fonte: F-68635 (presenciais: módulos 3, 6, 10, 14, 18, 21, 24, 25 e 28); CG-A3-02; MP-4.
 
@@ -482,7 +484,7 @@ Adaptações 9:16: `68635-c1-presenciais_e916_numero_v1`, `68635-r2-turma_e916_d
 **r2. 68635-r2-turma_e11_data_v1 (remarketing, 1:1; versão de c1)**
 - Texto principal: "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais: turma V, em São Paulo, início em 10/04/2027." / "Semipresencial, 750 h e 28 módulos, com 9 módulos presenciais. Público: médicos veterinários. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada. Veja parcelas, total e matrícula na página da turma."
 - Título (32): "Turma V em São Paulo: 10/04/2027". Descrição (22): "Veja a página da turma".
-- Imagem. Selo (forma curta): "Clínica Médica e Emergência". Título: "Turma V, em São Paulo". Apoio: "Início em 10/04/2027. 750 h, 28 módulos, 9 presenciais". Rodapé: "Veja parcelas, total e matrícula na página da turma. Faculdade UFAPE".
+- Imagem. Selo (nome completo, em duas linhas): "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais". Título: "Turma V, em São Paulo". Apoio (curto): "Início em 10/04/2027. 750 h, 28 módulos". Rodapé: "Veja parcelas, total e matrícula na página da turma. Faculdade UFAPE".
 - UTM: campanha remarketing; term rmk30d.
 - Fonte: CAT; LINHA e F-68635 (considerações).
 
@@ -843,6 +845,7 @@ Adaptações 9:16: `679-c2-online-presencial_e916_numero_v1`, `679-r2-turma_e916
 - Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, turma I, São Paulo, semipresencial, 500 h, 24 módulos. Página: https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo
 - Público: médicos veterinários. Coordenação "UFAPE", sem nome: nenhuma peça diz quem coordena [CONFIRMAR qual docente representa a turma]. 8 professores listados. 9 presenciais, contados na ficha: módulos 3, 6, 9, 12, 15, 18, 20, 21 e 24. A peça diz "presenciais", não "práticos": só 7 desses módulos trazem "prática" no título (C6 do QA).
 - Fora da peça: a Resolução nº 850 de 05/12/2006 citada na ficha (só com a regulação), "CERTIFICADO PELO MEC", a data do site.
+- **Selo das artes (N1 do QA):** nome completo do catálogo, em duas linhas ("Pós-graduação em Fisioterapia, Fisiatria" / "e Reabilitação Veterinária"); a arte é aliviada pelo apoio curto, não pelo nome.
 - Campanhas: frio `pos_366-fisio_meta_lead_amplo18-sp_202701`; remarketing `pos_366-fisio_meta_lead_rmk30d_202701` (AAAAMM pelo mês real da subida, seção 1.4). Exemplo completo (c1): https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=meta&utm_medium=paid_social&utm_campaign=pos_366-fisio_meta_lead_amplo18-sp_202701&utm_content=366-c1-presenciais_e11_numero_v1&utm_term=amplo18-sp
 
 **Matriz da turma**
@@ -855,12 +858,12 @@ Adaptações 9:16: `679-c2-online-presencial_e916_numero_v1`, `679-r2-turma_e916
 | 366-r1-modulos_car_pergunta_v1 | adaptação, versão de c1 | visitante da página | como funciona (sem datas) | carrossel | pergunta | só texto | "como é módulo a módulo?" |
 | 366-r2-turma_e11_data_v1 | adaptação, versão de c2 | visitante da página | informação da turma | estático 1:1 | data | só texto | "qual turma, onde e quando?" |
 
-Adaptações 9:16: `366-c1-presenciais_e916_numero_v1`, `366-r2-turma_e916_data_v1`. Iteração planejada, só se c1 vencer: `366-c1-presenciais_e11_numero_v2` (muda só o selo, de forma curta do nome do curso para "9 módulos presenciais").
+Adaptações 9:16: `366-c1-presenciais_e916_numero_v1`, `366-r2-turma_e916_data_v1` (mesmo selo completo). Iteração planejada, só se c1 vencer: `366-c1-presenciais_e11_numero_v2` (muda só o apoio da imagem, de "Hidroterapia, recursos eletrofísicos" para "Reabilitação neurológica e ortopédica").
 
 **c1. 366-c1-presenciais_e11_numero_v1 (feed 1:1; gancho CG-A4-08; corrigido pelo C6 do QA)**
 - Texto principal: "9 módulos presenciais de reabilitação veterinária em São Paulo." / "Na Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, da Faculdade UFAPE, os presenciais trazem biomecânica, órteses e próteses, hidroterapia e cinesioterapia, recursos eletrofísicos, avaliação e reabilitação neurológica e ortopédica, taping e terapias manuais. Aulas presenciais não são transmitidas. Campus São Paulo."
 - Título (36): "9 módulos presenciais de reabilitação". Descrição (16): "Campus São Paulo".
-- Imagem. Selo (forma curta, porque o texto principal traz o nome completo): "Fisioterapia e Reabilitação Veterinária". Título: "9 módulos presenciais de reabilitação". Apoio: "Hidroterapia, recursos eletrofísicos, reabilitação neurológica". Rodapé: "Campus São Paulo. Faculdade UFAPE".
+- Imagem. Selo (nome completo, em duas linhas): "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária". Título: "9 módulos presenciais de reabilitação". Apoio (curto): "Hidroterapia e recursos eletrofísicos". Rodapé: "Campus São Paulo. Faculdade UFAPE".
 - UTM: campanha frio; term amplo18-sp.
 - Fonte: F-366 (módulos 3, 6, 9, 12, 15, 18, 20, 21 e 24); CG-A4-08; MP-5.
 
@@ -888,7 +891,7 @@ Adaptações 9:16: `366-c1-presenciais_e916_numero_v1`, `366-r2-turma_e916_data_
 **r2. 366-r2-turma_e11_data_v1 (remarketing, 1:1; versão de c2; só sobe com a data conferida, P4)**
 - Texto principal: "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária: turma I, em São Paulo, com início em 10/04/2027." / "Semipresencial, 500 h e 24 módulos, com 9 módulos presenciais. Público: médicos veterinários. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada. Veja parcelas, total e matrícula na página da turma."
 - Título (32): "Turma I em São Paulo: 10/04/2027". Descrição (22): "Veja a página da turma".
-- Imagem. Selo (forma curta): "Fisioterapia e Reabilitação Veterinária". Título: "Turma I, em São Paulo". Apoio: "Início em 10/04/2027. 500 h, 24 módulos, 9 presenciais". Rodapé: "Veja parcelas, total e matrícula na página da turma. Faculdade UFAPE".
+- Imagem. Selo (nome completo, em duas linhas): "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária". Título: "Turma I, em São Paulo". Apoio (curto): "Início em 10/04/2027. 500 h, 24 módulos". Rodapé: "Veja parcelas, total e matrícula na página da turma. Faculdade UFAPE".
 - UTM: campanha remarketing; term rmk30d.
 - Fonte: CAT (início pela planilha, decisão 12); LINHA e F-366 (considerações). Data [CONFIRMAR P4].
 
@@ -896,7 +899,7 @@ Adaptações 9:16: `366-c1-presenciais_e916_numero_v1`, `366-r2-turma_e916_data_
 
 ## 17. 662. Pós-graduação em Ortopedia Veterinária (São Paulo, abril de 2027, lote 2, campanha ativa)
 
-**Bloqueio da camada 2 (P3): link trocado.** A página de 662 mostra início em 15 e 16 de agosto de 2026, cronograma de 2026, turma IV e preço de outra turma. Pela regra G10 da camada 2, e pela correção C7 do QA, **todas as peças trazem só nome, campus e data da planilha (24/04/2027)**. Nenhuma peça traz modalidade, carga horária, número de módulos, público-alvo, cronograma, docente, preço ou número de turma (planilha V, site IV): esses dados vêm da página, que hoje mostra outra turma, e não estão verificados para a turma de 24/04/2027. Só c1, c2 e r2 têm arte; **c3 e r1 são estrutura sem arte final**, porque não há conteúdo permitido para eles. Nada sobe antes de URL, data e cronograma corrigidos (AP12). Nova versão com conteúdo (modalidade, carga horária, módulos, docentes) só depois da ficha corrigida ou da liberação expressa do cmo. A frase do AP7 não vale para 662 enquanto a página mostrar o preço de outra turma (condição 1); nas peças de frio, e no r2, vale a variante "Veja o cronograma na página da turma".
+**Bloqueio da camada 2 (P3): link trocado.** A página de 662 mostra início em 15 e 16 de agosto de 2026, cronograma de 2026, turma IV e preço de outra turma. Pela regra G10 da camada 2, e pela correção C7 do QA, **todas as peças trazem só nome, campus e data da planilha (24/04/2027)**. Nenhuma peça traz modalidade, carga horária, número de módulos, público-alvo, cronograma, docente, preço ou número de turma (planilha V, site IV): esses dados vêm da página, que hoje mostra outra turma, e não estão verificados para a turma de 24/04/2027. Só c1, c2 e r2 têm arte; **c3 e r1 são estrutura sem arte final**, porque não há conteúdo permitido para eles. Nada sobe antes de URL, data e cronograma corrigidos (AP12). **Condição de subida (QA, segunda conferência):** o c3 precisa estar produzido e aprovado antes de a estrutura nova de 662 subir, porque o kit mínimo de 3 conceitos nunca diminui e o rodízio (estrategia-de-midia-pos, 3.7) pede 3. Nova versão com conteúdo (modalidade, carga horária, módulos, docentes) só depois da ficha corrigida ou da liberação expressa do cmo. A frase do AP7 não vale para 662 enquanto a página mostrar o preço de outra turma (condição 1); nas peças de frio, e no r2, vale a variante "Veja o cronograma na página da turma".
 
 **Ficha para peça** (CAT: nome, campus e data pela planilha)
 - Pós-graduação em Ortopedia Veterinária, São Paulo, início em 24/04/2027 (planilha, decisão 12). Página: https://faculdade.ufape.com.br/produto/662/pos-graduacao-em-ortopedia-veterinaria
@@ -934,7 +937,7 @@ Adaptações 9:16: `662-c1-turma_e916_data_v1`, `662-r2-turma_e916_data_v1`. Ite
 - Texto principal: "[A DEFINIR, após ficha corrigida ou liberação do cmo]"
 - Título e descrição: [A DEFINIR].
 - UTM: campanha frio; term amplo18-sp.
-- Fonte: nenhuma além de nome, campus e data. Não produzir arte.
+- Fonte: nenhuma além de nome, campus e data. Não produzir arte. Precisa estar produzido e aprovado antes da subida (condição do QA acima).
 
 **r1. 662-r1-modulos_car_pergunta_v1 (remarketing; estrutura sem arte final; versão de c3)**
 - Estrutura: 5 cartões. 1 "Título: Ortopedia, módulo a módulo. Apoio: Pós-graduação em Ortopedia Veterinária". 2 a 4 "[CRONOGRAMA DA TURMA DE 24/04/2027, após correção da ficha]". 5 "Campus São Paulo, início em 24/04/2027. Faculdade UFAPE".
@@ -958,7 +961,7 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 
 | # | O que precisa de aprovação | Turmas e peças | Por que | Quem |
 |---|---|---|---|---|
-| AP1 | Conformidade educacional e de plataforma de todas as peças (auditorias/conformidade-educacional.md e políticas da Meta) | as 70 peças e as 28 adaptações; o QA reconfere os itens alterados da versão 2 | regra da squad e da Meta | qa-de-marketing, depois a pessoa do marketing |
+| AP1 | Conformidade educacional e de plataforma de todas as peças (auditorias/conformidade-educacional.md e políticas da Meta) | as 70 peças e as 28 adaptações; o QA confere o item N1 da versão 3 | regra da squad e da Meta | qa-de-marketing, depois a pessoa do marketing |
 | AP2 | Nome e titulação de docente em arte e texto (sem imagem, sem fala) | c3 de 657, 289, 68615, 68635, 68617, 68636, 68609 e 366 | autorização de imagem e citação registrada (decisões 8 e 10); a squad ainda mostra o material ao docente e confirma a grafia (AD, C1 a C8) | cada docente; grafia padronizada pela Ufape |
 | AP3 | Imagem de docente | nenhuma peça usa imagem de professor. Se a Ufape quiser incluir foto, é pedido novo | autorização registrada, mas o docente vê a arte antes de sair | docente e pessoa do marketing |
 | AP4 | Texto em primeira pessoa de docente | nenhuma peça tem | exige ok do próprio docente e revisão clínica (plano do cmo, 12.9) | docente e docente revisor [CONFIRMAR nome] |
@@ -969,7 +972,7 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 | AP9 | Pré-requisito de 657 (U10) e nome "anestesistas já atuantes" | 657, todas as peças | a ficha só traz o público-alvo | Ufape (U10) |
 | AP10 | Liberação de 657 e 341 em 14/12 | 657 e 341 | PP7 | pessoa do marketing e cmo |
 | AP11 | Local da prática com cavalos e número de presenciais de 341; regra da promoção (PR7) | 341 | a ficha lista sede, Indaiatuba e "hospital veterinário"; a peça não diz o local nem a promoção | Ufape |
-| AP12 | Correção de página e liberação do cmo: link e data de 679 e 68636; link, data, cronograma, modalidade, carga horária e público de 662 | 679, 68636 (as 10 peças) e 662 (c1, c2, r2 e a estrutura de c3 e r1) | P3 da camada 2; página com link trocado não recebe anúncio | Ufape e cmo |
+| AP12 | Correção de página e liberação do cmo: link e data de 679 e 68636; link, data, cronograma, modalidade, carga horária e público de 662; c3 de 662 produzido e aprovado antes da subida | 679, 68636 (as 10 peças) e 662 (c1, c2, r2 e a estrutura de c3 e r1) | P3 da camada 2; página com link trocado não recebe anúncio; kit mínimo de 3 conceitos | Ufape e cmo |
 | AP13 | Data conferida na página de 366 e turma da URL de 68617 | 366 (r2 e subida), 68617 (URL com "/v/") | P4; planilha e site divergem | Ufape |
 | AP14 | Narração, trilha e legenda dos 14 vídeos | c2 (ou c1) de cada turma | narrador sem rosto [SUPOSIÇÃO]; trilha licenciada [CONFIRMAR]; sem docente gravado | pessoa do marketing |
 | AP15 | Logotipo, cores, fontes e a assinatura "Faculdade UFAPE" (inclusive no cartão final dos vídeos) | todas as artes | manual de marca [CONFIRMAR] | pessoa do marketing |
@@ -991,7 +994,7 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 
 ---
 
-## 20. Auditorias (autochecagem, antes da nova conferência do qa-de-marketing)
+## 20. Auditorias (autochecagem, antes da conferência do qa-de-marketing do item N1)
 
 ### 20.1 auditorias/11-midia-paga.md
 
@@ -1007,7 +1010,7 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 | Anúncios dentro das políticas das plataformas | Atendido no desenho [SUPOSIÇÃO] | Sem atributo pessoal, sem escassez, sem antes e depois, sem pessoa, sem concorrente; nota sobre texto na imagem (seção 1.3) |
 | Nenhum público com menores de 18 anos | Atendido no desenho | 18 ou mais no plano de mídia, seção 4.1 |
 | Post de docente promovido com autorização registrada | Atendido no desenho | Só nome e titulação em texto e arte (AP2); nenhuma imagem de docente |
-| Dados de curso conferidos em contexto/catalogo-de-cursos.md | Atendido | Nome, campus, modalidade, carga horária, módulos, turma e data; 662 reduzida a nome, campus e data; divergências marcadas |
+| Dados de curso conferidos em contexto/catalogo-de-cursos.md | Atendido | Nome completo do catálogo em texto e selo; 662 reduzida a nome, campus e data; divergências marcadas |
 | Destino de WhatsApp | Não se aplica | Todo destino é a página da turma |
 | Números só das exportações | Atendido | Nenhum número de desempenho; só metas e limites do plano |
 | Nenhuma alteração feita na plataforma sem um humano executar e aprovar | Atendido | Seção 18 |
@@ -1016,7 +1019,7 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 
 | Bloco | Resultado | Observação |
 |---|---|---|
-| Dados do curso batem com o catálogo | Atendido | 68632 presencial, as outras semipresencial; 68632-c1 com o nome padrão; 662 só com nome, campus e data; 68628, 68617 e 662 sem número de turma |
+| Dados do curso batem com o catálogo | Atendido | Selo e texto com "Pós-graduação em <área>" completo em 68635 e 366 (N1); 68632 presencial, as outras semipresencial; 662 só com nome, campus e data; 68628, 68617 e 662 sem número de turma |
 | Status "aberto" | Atendido | As 14 estão "aberto" no catálogo; 679, 68636 e 662 com bloqueio de página |
 | Pós sem "reconhecida pelo MEC" e sem certificação | Atendido | Nenhuma peça usa a frase; "Pós-graduação" aparece só como nome |
 | Sem promessa de emprego, salário, aprovação | Atendido | Seção 1.1 |
@@ -1026,39 +1029,38 @@ Nada abaixo foi aprovado, exceto o parecer do QA sobre a frase do AP7 (aceitáve
 | Autorização de imagem | Atendido | Docentes só por nome; nenhuma imagem de pessoa |
 | Característica pessoal de quem vê | Atendido | Texto descreve o curso; "para anestesistas já atuantes" é o público-alvo da ficha |
 | Formulários com finalidade e política de privacidade | Pendente externo | Conferir nas páginas antes de cada subida |
-| Destino entrega o que o anúncio promete | Pendente externo | 68615-c2 agora cita o objetivo inteiro da ficha; 679, 68636 e 662 (P3), 366 (P4), 68617 (URL), 341 (local da prática) |
+| Destino entrega o que o anúncio promete | Pendente externo | 679, 68636 e 662 (P3), 366 (P4), 68617 (URL), 341 (local da prática) |
 | Sem caixa alta excessiva, sem travessão nem meia-risca | Atendido | Conferido na leitura do arquivo e na busca do orquestrador; caixa alta só em titulação e país como na ficha |
 
-**Resultado:** pronto para a nova conferência do qa-de-marketing nos itens alterados e, depois, para a aprovação humana. Nenhuma campanha sobe antes disso.
+**Resultado:** pronto para a conferência do qa-de-marketing do item N1 e, depois, para a aprovação humana. Nenhuma campanha sobe antes disso.
 
 ---
 
 ## Mudanças desta versão
 
-Versão 2 (27/10/2026), a partir de saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md (veredito "corrigir"):
+**Versão 3 (27/10/2026)**, a partir de saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos-b.md (as 12 outras turmas foram aprovadas; só o N1 voltou):
+- **N1, selo das artes de 68635 e 366:** o selo volta ao nome completo do catálogo ("Pós-graduação em Clínica Médica e Emergência de Pequenos Animais" e "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"), em duas linhas, em 68635-c1, 68635-r2, 366-c1, 366-r2 e nas 4 adaptações 9:16 (mesmo texto e mesmo selo). Para aliviar a arte, o apoio foi encurtado: 68635-c1 "Semiologia, A-FAST e T-FAST, RCP e trauma"; 68635-r2 "Início em 10/04/2027. 750 h, 28 módulos"; 366-c1 "Hidroterapia e recursos eletrofísicos"; 366-r2 "Início em 10/04/2027. 500 h, 24 módulos". As fichas das duas turmas registram a regra.
+- **Seção 1.3 (linha da nota sobre texto na imagem):** deixa de sugerir selo curto; passa a dizer que o selo traz sempre o nome completo, em duas linhas se preciso, e que o apoio é que se encurta. A seção 1.1 e a regra de marca da 1.2 também passam a exigir o nome completo na arte.
+- **Iteração planejada de 366 (antes "muda só o selo"):** agora "muda só o apoio da imagem", de "Hidroterapia e recursos eletrofísicos" para "Reabilitação neurológica e ortopédica". A iteração de 68635 ficou como "de 3 temas para 2".
+- **Nota A7 da versão 2:** substituída pela regra acima (o ganho de entrega do selo curto era só [SUPOSIÇÃO]; o padrão de nome da linha vale mais).
+- **Condição de subida de 662 (QA):** o c3 precisa estar produzido e aprovado antes de a estrutura nova de 662 subir (kit mínimo de 3 conceitos e rodízio da estratégia v4, seção 3.7); registrada na seção 17 e no AP12.
+- Nenhum texto principal, título, descrição, UTM ou nome de anúncio mudou.
 
-**Correções obrigatórias**
-- **C1, 68615-c2:** o roteiro (9 a 19 s) e o texto principal passam a trazer o objetivo inteiro da ficha ("capacitar o médico veterinário a trabalhar em laboratórios clínicos, com correlação clínico-laboratorial, técnicas de coleta e gestão do laboratório"). Recorte de perfil mantido [CONFIRMAR NO CATÁLOGO]; nenhuma afirmação sobre o clínico. O roteiro passou de 24 para 26 s. Alternativa aceita pelo QA (A11-10) registrada na ficha da turma.
-- **C2, 657-r1:** horários só para os módulos 1 a 4 ("Os módulos 1 a 4 (online) vão de sábado, das 9h às 18h, a domingo, das 9h às 13h").
-- **C3, 68636 e 68609:** "Aulas presenciais não são transmitidas" saiu de 68636-c1 (e da adaptação), 68636-c2 (roteiro e texto), 68636-r1, 68609-c2 e 68609-r1; ficou "Cronograma sujeito a ajustes". A seção 1.2 limita a frase às 11 turmas cuja ficha a traz, e o AP17 pede a confirmação à Ufape.
-- **C4, 68609-c1 e adaptação:** título "Como é o módulo 8 presencial em Goiânia" (39 caracteres; sem as vírgulas do exemplo do QA, para caber em 40) e abertura "Um dos módulos presenciais em Goiânia: sábado das 9h às 18h, domingo das 9h às 13h". A peça não conta presenciais.
-- **C5, 68632-c1:** "Pós-graduação em Clínica Cirúrgica de Cães e Gatos, presencial: 24 módulos, um por mês." no roteiro; "um tema por módulo" saiu do texto principal (A5).
-- **C6, 366-c1 e adaptação:** "9 módulos presenciais de reabilitação" no título do anúncio e da imagem.
-- **C7, 662:** todas as peças reduzidas a nome, campus e data da planilha (24/04/2027). Saíram modalidade, carga horária, módulos e público. c3 e r1 viraram estrutura sem arte final (c3 trocou de "formato" para "[A DEFINIR]"); a frase do AP7 e a de passagem e hotel saíram do r2; o cronograma do r1 fica como placeholder. Resumo, visão geral, AP12 e listas ajustados.
+**Versão 2 (27/10/2026)**, a partir de saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-criativos.md (veredito "corrigir"):
 
-**Ajustes**
-- **A1:** cabeçalho cita a estrategia-de-midia-pos v4 (o QA confirmou que a encomenda, os nomes e a UTM não mudam).
-- **A2:** a fonte da frase de passagem e hotel passa a ser contexto/pos-graduacao.md (LINHA), com a ficha só onde ela traz; 68615-r2 e 679-r2 deixam de citar as considerações da ficha.
-- **A3:** o resumo e a seção 1.3 dizem que a adaptação estática é do c1 ou do c2 (o que não for vídeo), conforme a turma (333, 68628, 68632 e 679 usam o c2). A contagem de 28 adaptações não muda.
-- **A4:** "Faculdade UFAPE" escrito no cartão final dos 14 roteiros de vídeo (a regra vai para a seção 1.3).
-- **A6:** títulos de cartão de 657-c3, 68628-c3, 68632-c3, 366-c3 e 679-c3 encurtados (até 32 caracteres), com apoio em linha separada; 662-c3 virou estrutura. Os demais cartões 1 também passam a ter título e apoio.
-- **A7:** nota na seção 1.3; apoio de 68615-c1 reduzido a um tema; selos curtos em 68635 e 366 (c1 e r2).
-- **A9:** regra do AAAAMM para turma que sobe atrasada escrita na seção 1.4 e lembrada nas seções de 679, 68636, 366 e 662.
-- **A10:** registro para o revisor humano em 68635-c2.
+*Correções obrigatórias*
+- **C1, 68615-c2:** o roteiro (9 a 19 s) e o texto principal passam a trazer o objetivo inteiro da ficha. Recorte de perfil mantido [CONFIRMAR NO CATÁLOGO]; nenhuma afirmação sobre o clínico. O roteiro passou de 24 para 26 s.
+- **C2, 657-r1:** horários só para os módulos 1 a 4.
+- **C3, 68636 e 68609:** "Aulas presenciais não são transmitidas" saiu de 68636-c1 (e da adaptação), 68636-c2, 68636-r1, 68609-c2 e 68609-r1; ficou "Cronograma sujeito a ajustes". AP17 pede a confirmação à Ufape.
+- **C4, 68609-c1 e adaptação:** título "Como é o módulo 8 presencial em Goiânia" (39 caracteres) e abertura "Um dos módulos presenciais em Goiânia: sábado das 9h às 18h, domingo das 9h às 13h".
+- **C5, 68632-c1:** nome padrão no roteiro; "um tema por módulo" virou "um por mês".
+- **C6, 366-c1 e adaptação:** "9 módulos presenciais de reabilitação".
+- **C7, 662:** todas as peças reduzidas a nome, campus e data da planilha; c3 e r1 viraram estrutura sem arte final.
 
-**Frase do AP7:** parecer do QA (aceitável, com 4 condições) registrado na seção 1.2 e no AP7; a aprovação final segue com a pessoa do marketing.
-
-**Não aplicado:** A8 (gancho `pergunta` nos r1, texto afirmativo). O QA não classificou como erro de conformidade; mudar o nome dos 14 r1 alteraria utm_content já conferido. Fica para decisão do orquestrador; se aprovado, troca-se por `percurso` nos 14 nomes.
+*Ajustes*
+- A1 (estratégia v4 no cabeçalho), A2 (fonte da frase de passagem e hotel), A3 (resumo das adaptações), A4 ("Faculdade UFAPE" no cartão final dos 14 vídeos), A6 (títulos de cartão até 32 caracteres), A9 (AAAAMM da turma que sobe atrasada), A10 (registro em 68635-c2). A7 foi aplicado na versão 2 com selo curto e substituído na versão 3 (N1).
+- **Frase do AP7:** parecer do QA (aceitável, com 4 condições) registrado na seção 1.2 e no AP7.
+- **Não aplicado:** A8 (gancho `pergunta` nos r1, texto afirmativo). O QA aceitou o motivo (não mudar utm_content já conferido); a decisão fica com o orquestrador; se aprovado, troca-se por `percurso` nos 14 nomes.
 
 ---
 
@@ -1068,6 +1070,7 @@ Versão 2 (27/10/2026), a partir de saidas/10-operacoes-de-marketing/qa-de-marke
 - Nenhuma peça cita valor de inscrição até U11; provas de bolsa e Livres fora; autorização de imagem e citação de docentes, palestrantes e convidados (docs/execucao-2026-10-26.md, decisões 8, 10, 14 e 16).
 - Padrão de UTM (D11: utm_source meta, utm_medium paid_social) e de nomes (D12: chave pos_<código>, nome da campanha = utm_campaign, AAAAMM do mês da subida) (plano do cmo, 12.7; estrategia-de-midia-pos, 4.2 e 4.3).
 - Datas de início, campus, modalidade, carga horária, turma, status e valores de 657, 341, 289, 68615, 333, 679, 68632, 68635, 366, 68628, 68617, 68636, 68609 e 662 (catálogo, seção 2, 26/10/2026); 68636 com data "só no site".
+- Nomes oficiais: "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais" e "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária" (catálogo, seção 2; fichas 68635 e 366). Padrão de nome da linha: contexto/pos-graduacao.md.
 - Cronogramas, módulos presenciais, coordenações, professores listados e público-alvo de cada turma (fichas em contexto/cursos/pos/, 26/10/2026). Presenciais contados nas fichas: 657 (6), 289 (6), 333 (6), 68635 (9), 366 (9), 68628 (8), 68636 (6), 679 (3), 68617 (2). Horários de aula em 657 só nos módulos 1 a 4.
 - A observação "aulas presenciais e práticas não serão transmitidas" consta nas fichas de 657, 341, 289, 68615, 333, 679, 68632, 68635, 366, 68628 e 68617; não consta nas de 68636 e 68609.
 - "A turma pode não ser formada; a Ufape orienta comprar passagens e hotel só quando a turma for confirmada" (contexto/pos-graduacao.md); as considerações de 12 fichas trazem a orientação; as de 68615 e 679 não.
@@ -1076,7 +1079,7 @@ Versão 2 (27/10/2026), a partir de saidas/10-operacoes-de-marketing/qa-de-marke
 - Bloqueios da camada 2: 679, 68636 e 662 sem preço e sem data em peça final (662 só com nome, campus e data da planilha); 68632 presencial; 68628 e 68617 sem número de turma; 341 sem promoção; 366 com data divergente; 333 sem peça de autoridade docente (mensagens-pos 0 e 15; criador-de-ganchos 0.5, 4, 10, 11 e 14; plano do cmo, P3 a P5).
 - 289 e 662 têm campanha no ar e não são renomeadas (D12); 657 e 341 sobem em 14/12 só com PP7 (estrategia-de-midia-pos, 4.4 e 6.1).
 - Prazos de produção de criativos: 02/12 (março) e 23/12 (abril, [SUPOSIÇÃO] do plano de mídia).
-- Parecer do QA sobre a frase do AP7: aceitável com 4 condições (qa-de-marketing-pos-2026-10-26-criativos, seção 5).
+- Parecer do QA sobre a frase do AP7: aceitável com 4 condições (qa-de-marketing-pos-2026-10-26-criativos, seção 5). Kit mínimo de 3 conceitos no frio e rodízio: estrategia-de-midia-pos v4, seção 3.7.
 
 ## Lista 2. Suposições
 
@@ -1085,7 +1088,7 @@ Versão 2 (27/10/2026), a partir de saidas/10-operacoes-de-marketing/qa-de-marke
 - [SUPOSIÇÃO] Pergunta de gancho própria deste agente em 333-c2 (mielograma, linfoma e derrames), 68636-c2 (6 práticas), 68609-c2 (pré-anestésico) e 662-c2: não há gancho pronto no criador-de-ganchos; o corpo cumpre só com a ficha.
 - [SUPOSIÇÃO] A peça 68632-c3 (passagem só com a turma confirmada) como conceito de transparência: pode reduzir cliques e o teste mede.
 - [SUPOSIÇÃO] Se a Meta tratar turmas da mesma área como público parecido, o aprendizado de uma ajuda a outra (68615 e 333; 289 e 657).
-- [SUPOSIÇÃO] Tamanhos de texto, zona segura de 9:16, limite de 32 caracteres por título de cartão e limites de caracteres: boas práticas e referências de plataforma, a conferir no gerenciador. Texto na imagem não reprova o anúncio, mas pode reduzir a entrega (leitura da orientação pública da Meta, sem fonte no repositório).
+- [SUPOSIÇÃO] Tamanhos de texto, zona segura de 9:16, limite de 32 caracteres por título de cartão e limites de caracteres: boas práticas e referências de plataforma, a conferir no gerenciador. Texto na imagem não reprova o anúncio, mas pode reduzir a entrega, e o selo com nome completo em duas linhas pode reduzir um pouco a legibilidade (leitura da orientação pública da Meta, sem fonte no repositório).
 - [SUPOSIÇÃO] Prazo de abril em 23/12 e dia de subida dos lotes, como no plano de mídia.
 - [SUPOSIÇÃO] Critério de empate do rodízio por número do conceito (c1 antes de c2 antes de c3), além do critério de CTR do plano.
 
@@ -1094,7 +1097,7 @@ Versão 2 (27/10/2026), a partir de saidas/10-operacoes-de-marketing/qa-de-marke
 - [CONFIRMAR U10] Pré-requisito formal de 657.
 - [CONFIRMAR U11] Valor da inscrição e rótulo ("matrícula" ou "inscrição") nas páginas; até lá nenhuma peça cita valor (condição 3 do AP7).
 - [CONFIRMAR PR7] Regra da promoção de 341; local da prática com cavalos e número de módulos presenciais.
-- [CONFIRMAR] Correção de página, data e cronograma de 679, 68636 (P3) e 662 (P3, inclusive modalidade, carga horária e público da turma de 24/04/2027); data conferida de 366 (P4); turma da URL de 68617 (final "/v/").
+- [CONFIRMAR] Correção de página, data e cronograma de 679, 68636 (P3) e 662 (P3, inclusive modalidade, carga horária e público da turma de 24/04/2027) e c3 de 662 com conteúdo liberado antes da subida; data conferida de 366 (P4); turma da URL de 68617 (final "/v/").
 - [CONFIRMAR] Se as aulas presenciais de 68636 e 68609 são transmitidas.
 - [CONFIRMAR] Número de turma de 68628 e 68617 (planilha e site divergem); número de turma de 662 (planilha V, site IV).
 - [CONFIRMAR] Dia exato dos presenciais com só o mês na ficha (68635, 68609, 68628, 68615, 289, 657, 341); reposição de módulo; horários e jornada de 68632.
@@ -1113,4 +1116,4 @@ Internas: as entradas listadas no cabeçalho. Externas: nenhuma nesta etapa.
 
 ---
 
-**Próximo agente sugerido:** qa-de-marketing (conferir só os itens alterados da versão 2). Depois, **anuncios-meta** (primeiro canal ativado), com as estruturas de março (até 30/11) e de abril (até 30/12), usando as matrizes, as UTM e as regras de rodízio deste arquivo; anuncios-google pode usar as fichas das seções 4 a 17 para os anúncios responsivos.
+**Próximo agente sugerido:** qa-de-marketing (conferir o item N1 da versão 3). Depois, **anuncios-meta** (primeiro canal ativado), com as estruturas de março (até 30/11) e de abril (até 30/12), usando as matrizes, as UTM e as regras de rodízio deste arquivo; anuncios-google pode usar as fichas das seções 4 a 17 para os anúncios responsivos.
