@@ -193,3 +193,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 27/10/2026 | qa onda1b: plano da onda 1 da Pós APROVADO com ajustes (N1 a N4 não bloqueiam). PLANO DA ONDA 1 PRONTO PARA APROVAÇÃO HUMANA dos pedidos OA1 a OA12 |
 | 27/10/2026 | qa das mensagens da onda 1: CORRIGIR (C1 a C8: módulo 1 é online e o e-mail dizia sede em São Paulo; follow-ups não encomendados; furos no teto; respostas de vendas que prometem o não confirmado; frase de 68610; titulação de Juliana Jorge; contagem de docentes de 698; nome fora do catálogo). Correção enviada; prazo do envio: 28/10 às 9h |
 | 27/10/2026 | qa dos criativos da Pós por turma: CORRIGIR em 7 turmas (68615, 657, 68636, 68609, 68632, 366, 662); aprovadas no texto 289, 333, 341, 68635, 68617, 68628, 679. Frase AP7 aceitável com 4 condições. Correção enviada |
+| 27/10/2026 | copy-de-mensagens-pos-onda1 v2 (C1 a C8): 6 mensagens no cenário A, 10 no B; follow-ups fora do OA9. Reconferência do qa iniciada |
