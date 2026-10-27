@@ -14,7 +14,7 @@ O que a página mostra: o script não exibe os campos `codigos`, `id` nem o cód
 
 ## 1. Veredito
 
-**CORRIGIR.**
+**CORRIGIR** (superado pela reconferência da seção 6: **APROVADO**).
 
 Motivo, em resumo: o texto está bem escrito, os números de verba, metas em reais, contagens de peças e datas de início batem com a narrativa aprovada. Mas a junção das decisões perdeu um pedido inteiro com prazo (as campanhas ativas das 6 turmas que já começaram, A4, 03/11). Três prazos mudaram: a exportação de 28/10 virou 30/10, as metas e a verba da Graduação viraram "antes de 16/11" quando o prazo é 30/10, e a pergunta sobre a forma de uso do WhatsApp foi adiantada de 07/12 para 13/11. Um prazo foi criado sem fonte: o plantão de fim de semana até 13/11. Seis cursos livres aparecem como "nome a confirmar no catálogo", mas o catálogo tem os nomes, e duas datas que estão no catálogo saíram como vazias. A suspensão de provas e Livres foi atribuída à diretoria, mas foi decisão do marketing da Ufape (docs/execucao-2026-10-26.md, "Decisões do cliente (pessoa do marketing, 26/10/2026)", decisão 14). Faltam também três marcos do calendário.
 
@@ -358,6 +358,56 @@ O script do HTML não limita a quantidade de marcos. Com os acréscimos, ficam 3
 
 ---
 
+## 6. Reconferência (JSON com F1 a F58 aplicadas)
+
+Escopo: só F1 a F58, as 24 decisões, os 33 marcos e problemas novos criados pelas trocas. Revisado: saidas/09-analytics-e-insights/relatorios-geral-2026-10-27-diretoria.json, versão com F1 a F58 aplicadas. Nenhum arquivo revisado foi editado.
+
+### 6.1 Veredito
+
+**APROVADO.** Segue para a aprovação humana da pessoa do marketing antes de ir à diretoria da Ufape.
+
+### 6.2 F1 a F58, ponto a ponto
+
+| Grupo | Resultado | Trecho conferido no JSON |
+|---|---|---|
+| F1 a F4 (quem decidiu a suspensão) | **APROVADO** | resumo, frase 5; frases de provas e de livres; próxima etapa, item 3: todos com "por decisão do marketing da Ufape em 26/10". Nenhum "ordem da diretoria" sobrou |
+| F5 a F9 (A4) | **APROVADO** | decisão 2 com o prazo_texto, a pergunta (Busca do Google e A4) e "A4" nos códigos; aprovação 1 com "ou procura o tema no Google"; marco de 03/11 com "(data a confirmar)" |
+| F10 | **APROVADO** | decisão de verba e exportação com prazo "2026-10-28" e prazo_texto "até 28/10 (exportação do gerenciador e da loja) e 30/10 (verba e metas)" |
+| F11 a F16 (prazos) | **APROVADO** | U11a "antes do primeiro envio pago de 07/12, data sugerida"; plantão "(sem prazo nos planos)"; trocas de fim de semana "dependem de regra programada ou ficam para o dia útil seguinte"; 16/11 explicado; Pedagogia e privacidade com "data sugerida" |
+| F17 a F20 (aprovações) | **APROVADO** | Graduação "metas e verba até 30/10; o resto antes de 16/11"; abril "páginas até 10/12; o resto antes de 04/01/2027..."; março "até 30/11 (as páginas, até a publicação de 03/12)"; Workshop "28/10 para a sequência de mídia" |
+| F21 a F29 (partes perdidas) | **APROVADO** | OU6 e módulo 2 de Diagnóstico por Imagem; U12; rastreio das campanhas; vagas, inventário e regra do 3º módulo em março; G11; por_que de destino errado; 4 WhatsApp de Citopatologia; feriados das duas turmas; Cardiologia em 07/12 |
+| F30 a F38 | **APROVADO** | frase e meta da Graduação; criativos "ainda não foram revisados"; linhas de preço e de pagamento; WhatsApp de duas mensagens; nota da 68632; maio com 24/04 e 15/01/2027; Livres de 2027; aviso do LinkedIn com "talvez" |
+| F39 a F45 (Cursos Livres) | **APROVADO** | 8 turmas com o nome literal do catálogo; 623 com início 2026-11-28 e 68618 com 2026-12-18 e a nota pedida; 68665 (01/11) e 68666 (25/11) acrescentados |
+| F46 a F50 (marcos) | **APROVADO** | "público frio" retirado; 16/11 com as condições; 06/01 com a trava de data; 18/02 como prazo; 15/01 e 17/04 acrescentados |
+| F51 a F58 (clareza) | **APROVADO** | frase que cita o MEC só como pendência (linha da onda 1 e decisão de 29/10); "sistema de contatos" nas cinco ocorrências; "ajustes para a busca do Google"; cards explicados; "plataforma oficial do WhatsApp Business"; verba "Ainda não informada pela Ufape" nas três linhas; "aprovado pela revisão de qualidade" no número 5 e na frase de abril |
+
+### 6.3 Contagens
+
+- **Decisões:** 24. A junção de cerca de 40 pedidos não perde prazo nem muda sentido. Os prazos mais cedo de cada junção estão no campo `prazo` ou escritos no `prazo_texto`. A decisão de 29/10 saiu de lugar no arquivo, mas a página ordena por prazo: na tela, ela aparece depois das cinco de 28/10, no grupo "Esta semana".
+- **Marcos:** 33, de 28/10/2026 a 24/04/2027, todos dentro dos meses que a página mostra (outubro de 2026 a abril de 2027). Data e texto conferem com a narrativa (6.1 e 6.2) e com as datas das turmas.
+- **Turmas de Livres:** 8.
+
+### 6.4 Problemas novos
+
+Nenhum bloqueia.
+
+- **Observação 1 (não bloqueia).** O marco de 03/11 e a parte A4 da decisão 2 levam a etiqueta "Pós de outubro e novembro de 2026". As 6 turmas da A4 (650, 68662, 706, 586, 554 e 68612) são turmas já iniciadas, que não estão nessa linha. O texto diz "que já começaram", então o sentido fica claro. Se quiser, o orquestrador pode tirar a etiqueta desse marco.
+- **Observação 2 (não bloqueia).** A decisão 15 tem prazo 13/11 e traz o plantão com "(sem prazo nos planos)". É coerente e honesto. A diretoria só vê o prazo da decisão inteira.
+- **Escrita.** Sem travessão nem meia-risca: os nomes de Livres usam o hífen comum do catálogo. Sem "Agência", sem TGH, sem nome de pessoa e sem dado pessoal.
+
+### 6.5 Conformidade educacional (só os itens que falhavam)
+
+| Item | Resultado agora |
+|---|---|
+| Nome, modalidade, carga horária e datas batem com o catálogo | ok: 8 turmas de Livres com o nome literal do catálogo; 623 e 68618 com a data da planilha. A modalidade da 68618 não aparece no texto, então o [CONFIRMAR NO CATÁLOGO] não afeta |
+| Urgência real, com data | ok: todo prazo tem fonte ou vem marcado como "data sugerida", "data a confirmar" ou "sem prazo nos planos"; nenhum prazo foi adiantado |
+
+Os demais itens da seção 4 não mudaram. Continua valendo: nenhuma frase liga certificado ao MEC (a menção ao MEC é só pendência de correção no site), nenhum dado pessoal ou nome de pessoa, nenhuma ocorrência de "Agência".
+
+**Resultado:** Aprovado. Revisado por: qa-de-marketing (agente). Falta a revisão humana da pessoa do marketing antes de o texto ir à diretoria da Ufape. Data: 27/10/2026.
+
+---
+
 ## Fatos (com fonte)
 
 - Decisão 14 tomada pelo cliente (pessoa do marketing) em 26/10/2026: docs/execucao-2026-10-26.md, "Decisões do cliente".
@@ -368,6 +418,7 @@ O script do HTML não limita a quantidade de marcos. Com os acréscimos, ficam 3
 - OC1-A com prazo 10/12, PP16 até 30/12, envios de abril a partir de 04/01: cmo-pos-2026-10-27-onda3.md, seção 9; relatorios-geral-2026-10-27.md, 6.2.
 - Nomes e datas dos Livres: linha literal do catálogo em saidas/10-operacoes-de-marketing/cursos/livres-573, -68614, -68637, -623, -616, -68618, -68665 e -68666.json.
 - Datas em feriado de 333 e 341 (OU17): docs/pendencias-camada-1.md, travas da onda 2.
+- A página ordena as decisões por prazo e mostra os meses de outubro de 2026 a abril de 2027: script de plano-diretoria-2026-10-27.html.
 
 ## Suposições ([SUPOSIÇÃO])
 
@@ -377,7 +428,7 @@ O script do HTML não limita a quantidade de marcos. Com os acréscimos, ficam 3
 
 ## Dados que faltam ([CONFIRMAR])
 
-- [CONFIRMAR] Origem da data de 03/11 da A4 (já marcada na narrativa).
+- [CONFIRMAR] Origem da data de 03/11 da A4 (já marcada na narrativa e no JSON).
 - [CONFIRMAR] Quem aprova cada tipo de peça (contexto/ufape-geral.md, regras de aprovação, ainda vazio).
 - [CONFIRMAR NO CATÁLOGO] Modalidade da 68618 (o catálogo traz o campo vazio); carga horária da 68666.
 
