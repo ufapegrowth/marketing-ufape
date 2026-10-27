@@ -25,6 +25,7 @@ Diário da rodada de planejamento. Toda sessão que retomar este trabalho lê es
 | 26/10/2026 | Prioridade depois da camada 1: Graduação e Pós-graduação primeiro; Eventos em seguida; Cursos Livres e provas de bolsa por último |
 | 26/10/2026 | Verba estimada de R$ 2.000,00 de mídia por curso; meta de pelo menos 15 matrículas por curso (15 vezes o valor do curso); na Pós a inscrição de R$ 260,00 conta na meta, separada da matrícula (1ª mensalidade). Site mostra R$ 250,00: [CONFIRMAR U11] |
 | 26/10/2026 | Limite de mensagens delegado ao cmo, com base em referências de mercado de educação |
+| 27/10/2026 | Pós: a Ufape aceita matrícula depois do início, até o 3º módulo do curso (cenário B da onda 1). Reposição dos módulos perdidos: [CONFIRMAR] |
 | 26/10/2026 | Seguir pela camada 1 até o fim. A sessão que vinha fazendo a rodada foi substituída por esta (mesmo branch) |
 
 ## Camada 1: estado por etapa
@@ -203,3 +204,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 27/10/2026 | anuncios-google-pos v3: 14 campanhas de Busca (5 de março, 9 de abril), 56 anúncios, diárias da estratégia v4 (R$ 705,00 março, R$ 675,00 abril por turma); provas na seção 18 como suspenso; pedidos AGP12 a AGP23. Contagem de caracteres feita à mão: recontar por script no qa |
 | 27/10/2026 | anuncios-meta-graduacao: 1 campanha e 1 conjunto por curso e turno, 18+, otimiza Lead; Med. Vet. R$ 1.440,00 (só o integral pode subir, em 16/11), Pedagogia R$ 2.000,00 (espera G6); pedidos AM1 a AM11. Aguarda qa |
 | 27/10/2026 | anuncios-meta-pos v3: 28 campanhas e 70 anúncios das 14 turmas de março e abril (R$ 1.295,00 março, R$ 1.325,00 abril por turma); provas na seção 13 como suspenso; pedidos AMP13 a AMP24. A v2 (textos com preço) continua no histórico do git. Pergunta ao cmo: chave utm_campaign com área curta (pos_68615-patclin) ou só o código (D12). Iniciado o qa das 4 montagens (Pós e Graduação), com recontagem de caracteres por script |
+| 27/10/2026 | Decisão 18 gravada (briefing e contexto/pos-graduacao.md). Cenário B vale para a onda 1. Iniciada a versão 3 do plano da onda 1 pelo cmo, com a nova data limite de cada turma e a recomendação para as ondas 2 e 3 |

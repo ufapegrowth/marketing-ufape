@@ -11,6 +11,7 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir
 - **Praças:** São Paulo (maioria), Goiânia e EAD.
 - **Formato típico:** semipresencial, com 1 módulo por mês em fim de semana (sábado e domingo), aulas online e módulos práticos presenciais obrigatórios. Duração de cerca de 2 anos.
 - **Carga horária:** 500 h na maioria; também 360 h, 600 h e 750 h, conforme o curso.
+- **Entrada depois do início:** o aluno pode se matricular até o 3º módulo do curso (decisão da Ufape em 26/10/2026, informada pelo CEO em 27/10/2026). Como recupera os módulos perdidos: [CONFIRMAR].
 - **Turma mínima:** 15 alunos (decisão da Ufape em 26/10/2026; algumas páginas de curso ainda dizem 20 e devem ser corrigidas). A turma pode não ser formada; a Ufape orienta comprar passagens e hotel só quando a turma for confirmada.
 - **Preço:** total de R$ 12.000,00 (IA na Saúde) a R$ 48.780,00 (Neurocirurgia e Neuro-oncologia) por curso, na maioria em 30 parcelas (algumas em 18, 24, 26 ou 27) no cartão ou boleto, mais matrícula de R$ 250,00. Na maioria das páginas, a 1ª mensalidade é paga 30 dias antes do início.
 - **Promoções vistas no site:** 20% de desconto em todas as mensalidades da Pós em Medicina Interna Equina; desconto exclusivo para alunos e ex-alunos de pós (regra a confirmar).
