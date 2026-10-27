@@ -4,7 +4,6 @@
 - **Linha:** pos
 - **Data:** 27/10/2026 (terça-feira)
 - **Versão:** 1 (lote A). O lote B (maio) entra em nova versão, sem mudar o nome (convenção do plano). A turma 662 fica fora, em espera total (OU18): nenhum post, registro na seção 11 (em -p3).
-- **Partes deste arquivo (cada uma começa onde a anterior parou, sem resumo):** este arquivo traz cabeçalho, regras, calendário, conferência slot a slot e as seções 679 e 68632; `posts-sociais-pos-2026-10-27-onda3-p2.md` traz as seções 68635, 366, 68628 e 68617; `posts-sociais-pos-2026-10-27-onda3-p3.md` traz as seções 68636 e 68609, a seção 662, a autochecagem, o próximo passo e **as três listas finais** (fatos, suposições e dados que faltam).
 - **Encomenda:** O8 do plano do CMO da onda 3, versão 2 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md): linha O8 da seção 10, seção 7.6 (reserva de feed e de Stories), seção 7.5 (slots de docente D01 a D48), seção 7.3 (datas das mensagens), regras 1 a 13 da seção 2.1 e regras E1 a E22 da seção 2.2.
 - **Entrega:** 48 posts (6 por turma: 2 de feed e 4 de Stories, 16 de feed e 32 de Stories) e, ao lado deles, os 8 Reels do O9 com slot e data (1 por turma). Formato do template templates/post-social.md, com os campos extras ID, formato, texto da arte e link com UTM, como na onda 2.
 - **Status:** rascunho para o qa-de-marketing (auditorias/05-social.md e auditorias/conformidade-educacional.md) e para a aprovação humana (OC3 do plano). Nada é publicado, agendado, enviado ou pago a partir deste arquivo. Nenhum post sai antes de a página da turma estar no ar e conferida (regra 13 do plano, OC1-A, conferência de 11/12/2026).
@@ -40,8 +39,8 @@
 5. **Depois do início** (só S4 de 68628, 68617, 68636 e 68609, que têm o dia do 3º módulo na ficha), o post diz a regra completa, com a frase E7: "A turma começou em [data]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." A data do 3º módulo nunca aparece sozinha (E6), nem como número de módulo em card, nem como tema com número. Nenhuma promessa de reposição, gravação ou aula extra (OU3).
 6. **Turmas sem o dia do 3º módulo (679, 68635 e 366, E18):** nenhum post cita o mês do 3º módulo e nenhum sai depois do início; o S4 delas é "viagem e turma", antes do início. **Turma com regra 8 (68632, OU3 aberta):** nenhum post fala de entrada depois do início, nenhum diz "matrícula aberta até o 3º módulo", nenhum sai depois de 10/04/2027 (a mídia para em 09/04, 23h59) e nenhuma resposta a comentário traz a regra (E22).
 7. **Frase "matrícula aberta até o 3º módulo":** só nos S3 de 679, 68635, 366, 68628, 68617, 68636 e 68609, sem a data (como o S3 da onda 2). Fora de 68632.
-8. **Presenciais (E4 e E5).** Lista parcial leva "entre eles" ou "entre outros". Lista completa só onde as contagens da ficha batem: 679 (3), 68635 (9), 366 (9, dois deles não chamados de "prática"), 68628 (8, citados com "entre eles", o 24 não citado), 68617 (2), 68636 (6), 68609 (10, sempre "entre outros": 2 são campanha de castração e o 20 tem parte online). 68632 é presencial inteira. Nenhum post diz que todos os presenciais são de um tipo. Nenhum diz que "toda a teoria é online": o texto usa "a maior parte dos módulos é online" (O2, regra 4).
-9. **Frases que não voltam (E3, onda2c):** "nem gravadas", "bombas de infusão na mão", "na mão", "quase todos os temas", "a teoria vem antes da prática", "de cães e gatos" fora do nome de 68632, "você decide com a conta inteira", "laboratório inteiro", "cobre o laboratório inteiro", frase-ponte antiga entre turmas. As frases-ponte A1 a A4 da O2 ficam como resposta a comentário (O7, O9), não como post, por causa da E19 (as outras páginas da área ainda não passaram na conferência).
+8. **Presenciais (E4 e E5).** Lista parcial leva "entre eles" ou "entre outros". Lista completa só onde as contagens da ficha batem: 679 (3), 68635 (9), 366 (9, dois deles não chamados de "prática"), 68617 (2) e 68636 (6). Em 68628 (8) a lista é parcial, com "entre eles", e o módulo 24 não é citado; em 68609 (10) a lista é sempre parcial, com "entre outros" (2 são campanha de castração e o 20 tem parte online). 68632 é presencial inteira. Nenhum post diz que todos os presenciais são de um tipo. Nenhum diz que "toda a teoria é online": o texto usa "a maior parte dos módulos é online" (O2, regra 4).
+9. **Frases que não voltam (E3, onda2c):** "nem gravadas", "bombas de infusão", "quase todos os temas", "a teoria vem antes da prática", "de cães e gatos" fora do nome de 68632, "você decide com a conta inteira", "laboratório inteiro", "cobre o laboratório inteiro", frase-ponte antiga entre turmas. As frases-ponte A1 a A4 da O2 ficam como resposta a comentário (O7, O9), não como post, por causa da E19 (as outras páginas da área ainda não passaram na conferência).
 10. **Nome do curso (E2):** "Pós-graduação em <nome do catálogo>" na primeira menção, sem palavra acrescentada ou tirada; "Faculdade UFAPE" na primeira menção da instituição, depois "Ufape". Sem emoji, sem travessão, sem meia-risca. Hashtags [CONFIRMAR se a conta usa].
 11. **Campus (E17).** Aparece só como dado ("Local: Ufape Goiânia" em 68632 e 68609; "São Paulo" na linha de dados das outras), nunca em gancho, título de arte ou frase de venda, e nunca como local de todas as aulas. Em 68636, a ficha diz "aulas práticas em São Paulo": a cidade fica só na linha de dados.
 12. **Frase "aulas presenciais e práticas não são transmitidas"** só onde a ficha a traz (679, 68632, 68635, 366, 68628 e 68617). **Não aparece em 68636 nem em 68609.**
@@ -50,6 +49,7 @@
 15. **Facebook:** os 16 posts de feed e os 8 Reels são reaproveitados no mesmo dia ou no seguinte, com o link escrito na legenda e utm_source=facebook. Stories não vão ao Facebook.
 16. **Resposta a comentários:** pergunta de pré-requisito, de data (679, 366, 68636), de reposição de módulo, de certificação, de prova de Especialista (68609), de bolsa e de preço vai para a secretaria ou para o time de vendas, sem texto próprio. Respostas prontas: O7.
 17. **Visual padrão V1:** arte tipográfica no padrão da marca, sem foto de pessoa. Produção das artes [CONFIRMAR OU16]. Autorização de imagem: não se aplica (nenhuma pessoa na arte).
+18. **Chave `matriz` das páginas (O3, OB1).** Nas páginas de 68628, 68617, 68636 e 68609 o cronograma só fica visível depois de o dado ser corrigido. Os posts dessas quatro que mandam ver o "cronograma na página da turma" só saem com a `matriz` visível; sem ela, a chamada passa a "Veja os módulos presenciais e o corpo docente na página da turma", a mesma variante do O6 [SUPOSIÇÃO de troca, o qa decide]. As outras quatro (679, 68632, 68635 e 366) não têm essa condição no O6. Em 679, 366 e 68636, a chave `local_e_datas` só aparece depois da data confirmada.
 
 ### 0.1 Link e UTM orgânica (regra 12 do plano)
 
@@ -200,7 +200,7 @@ Só entram os dias em que há Stories deste arquivo. "Onda 2" é a sequência de
 | 07/05 | sex | - | D21 (359, lote B) | 68617-S4 | 2 |
 | 13/05 | qui | R11 (AD-A3-2, 68623) | - | 68609-S4 | 2 |
 
-**Resultado.** 32 sequências de Stories (4 por turma) em 30 dias; nenhum dia passa de 2 sequências da Pós. As sequências de turma da onda 2 (08/01 e outras) nunca passam de 1 por dia com as deste arquivo. Nenhuma turma tem Stories no dia de sequência de docente dela: 68628 (D01 22/12, D09 29/01; Stories em 05/01, 02/02, 07/04 e 30/04), 68617 (D02 29/12, D10 05/02, R2 13/04; Stories em 07/01, 16/02, 14/04 e 07/05), 679 (D03 05/01, D12 26/02; Stories em 28/01, 23/02, 23/03 e 01/04), 68632 (D04 07/01, D13 05/03; Stories em 22/01, 26/02, 30/03 e 08/04), 68636 (D05 12/01, R3 15/04, R9 06/05; Stories em 08/01, 18/02, 13/04 e 04/05), 68609 (D06 14/01, D08 21/01; Stories em 29/01, 25/02, 20/04 e 13/05), 68635 (AD-A3-1 14/01, D07 19/01, D14 12/03, R1 08/04; Stories em 22/01, 19/02, 02/04 e 06/04) e 366 (D16 02/04; Stories em 05/02, 02/03, 07/04 e 09/04). O S3 e o S4 deste arquivo caem em 08/04, 13/04, 20/04, 04/05 e 13/05 junto de reservas (R1, R2, R4, R8 e R11): vencem a reserva, como manda a seção 7.6, e a reserva fica com 1 sequência no dia. A onda 1 (Stories de 04 a 22/01) não foi conferida: o arquivo dela não consta; se ocupar 05/01, 07/01, 08/01 ou 22/01, o S1 afetado passa para o primeiro slot livre da seção 2.6 [SUPOSIÇÃO].
+**Resultado.** 32 sequências de Stories (4 por turma) em 30 dias; nenhum dia passa de 2 sequências da Pós. Nenhuma turma tem Stories no dia de sequência de docente dela: 68628 (D01 22/12, D09 29/01; Stories em 05/01, 02/02, 07/04 e 30/04), 68617 (D02 29/12, D10 05/02, R2 13/04; Stories em 07/01, 16/02, 14/04 e 07/05), 679 (D03 05/01, D12 26/02; Stories em 28/01, 23/02, 23/03 e 01/04), 68632 (D04 07/01, D13 05/03; Stories em 22/01, 26/02, 30/03 e 08/04), 68636 (D05 12/01, R3 15/04, R9 06/05; Stories em 08/01, 18/02, 13/04 e 04/05), 68609 (D06 14/01, D08 21/01; Stories em 29/01, 25/02, 20/04 e 13/05), 68635 (AD-A3-1 14/01, D07 19/01, D14 12/03, R1 08/04; Stories em 22/01, 19/02, 02/04 e 06/04) e 366 (D16 02/04; Stories em 05/02, 02/03, 07/04 e 09/04). O S3 e o S4 deste arquivo caem em 08/04, 13/04, 20/04, 04/05 e 13/05 junto de reservas (R1, R2, R4, R8 e R11): vencem a reserva, como manda a seção 7.6, e a reserva fica com 1 sequência no dia. A onda 1 (Stories de 04 a 22/01) não foi conferida: o arquivo dela não consta; se ocupar 05/01, 07/01, 08/01 ou 22/01, o S1 afetado passa para o primeiro slot livre da seção 2.5 [SUPOSIÇÃO].
 
 ### 2.3 Conferência com os slots de docente da O6 (turmas de abril)
 
@@ -239,7 +239,7 @@ Cada Reel é antes do início da turma (os mais próximos: 679 em 03/04, com o R
 - **679 (P3, OU19) e 68636 (OU21):** nenhum post sai com o dia; o S3 de cada uma tem a versão com o dia, só depois da confirmação. O Reel de cada uma segue a condição do O9 (legenda do O9 só preenchida depois da confirmação) [SUPOSIÇÃO: o qa decide se o Reel também sai com "abril de 2027", como os posts].
 - **Página fora do ar na data do post:** o post espera a conferência (regra 13 do plano); toque perdido não acumula.
 - **Se a U8 trouxer teto menor:** primeiro cortam-se os slots livres (30/03 e 02/04) e os condicionais; depois o feed vira Stories (formato muda, o post não sai); o mínimo de 2 de feed e 4 Stories por turma não baixa. Nunca sai a resposta a comentários.
-- **Slots livres para S1 deslocado (onda 1):** 12/01, 15/01, 26/01 e 04/02 (1 sequência cada).
+- **Slots livres de Stories para um S1 deslocado (onda 1):** 12/01, 15/01, 26/01 e 04/02 (1 sequência cada).
 
 ### 2.6 O que sobra de Stories para o lote B (aviso ao cmo)
 
@@ -274,7 +274,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   > Dados da turma: turma IV, São Paulo, semipresencial, 500 h, 24 módulos, início em abril de 2027. O cronograma pode ser alterado conforme a necessidade, como a página informa.
   >
   > Faculdade UFAPE
-- **Ponto de vista:** o cronograma trata os agentes, os tratamentos e o controle de infecção em módulos separados, e isso é o que se lê antes de escolher.
+- **Ponto de vista:** o cronograma trata os agentes, os tratamentos e o controle de infecção em módulos separados.
 - **Linha final ou pergunta:** Qual agente você quer ver detalhado no próximo post?
 - **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_679_202701&utm_content=679-f1
@@ -393,7 +393,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 
 - **Gancho recomendado (O9, 679-G3):** Zoonoses: sábado de teoria, domingo de prática laboratorial.
 - **Alternativos do O9:** 679-G1 "O diagnóstico da doença infecciosa começa na amostra." (pede a conferência do docente revisor); 679-G2 "Virologia e bacteriologia online. Laboratório e zoonoses no presencial."
-- **Roteiro e legenda:** os do O9 (seções 1.2 e 1.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 679. O O9 pede o campo aberto até a confirmação (OU19) e a legenda sem publicar: o qa decide qual das duas regras vale [SUPOSIÇÃO].
+- **Roteiro e legenda:** os do O9 (seções 1.2 e 1.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 679. O O9 pede que a legenda não seja publicada com o campo de início aberto (OU19): o qa decide qual das duas regras vale [SUPOSIÇÃO].
 - **Chamada:** "Veja o cronograma, do laboratório ao controle de infecção hospitalar." Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_679_202701&utm_content=679-reel1
 - **Conferência:** sem data falada nem na imagem; sem print de cronograma (E6); sem docente; Facebook reaproveita.
@@ -416,12 +416,12 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   - Tela 2: "Três módulos presenciais" | "Afecções cirúrgicas dos olhos e anexos oculares (16 e 17/10/2027)" | "Cirurgias otológicas (15 e 16/07/2028)" | "Odontologia e cirurgias da cavidade oral (14 e 15/10/2028)"
   - Tela 3: "Cronograma na página da turma" | "Local: Ufape Goiânia" | figurinha de link
 - **Corpo:** só a arte. Sem legenda.
-- **Ponto de vista:** o cronograma separa cada sistema em módulo próprio, e esses três são os que a clínica geral costuma encaminhar [SUPOSIÇÃO de texto: se o qa preferir, tirar esta frase do ponto de vista].
+- **Ponto de vista:** o cronograma separa cada sistema em módulo próprio, e olhos, ouvidos e cavidade oral têm o seu.
 - **Linha final ou pergunta:** nenhuma.
 - **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
 - **Link:** https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68632_202701&utm_content=68632-s1
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** módulos 7, 16 e 19 e datas literais da ficha; o módulo 16 também traz "cirurgias complexas da região cervical" (não citado); nenhum módulo é 3º módulo; cidade só como dado.
+- **Conferência:** módulos 7, 16 e 19 e datas literais da ficha; o módulo 16 também traz "cirurgias complexas da região cervical" (não citado); nenhum deles é o 3º módulo; cidade só como dado.
 
 ### 68632-F1 | quinta 28/01/2027 | feed B | carrossel de 6 cards | condicional (seção 2.5)
 
@@ -495,12 +495,12 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
   >
   > Dados da turma: turma V, presencial, 500 h, 24 módulos, aulas a partir de 10/04/2027. Local: Ufape Goiânia. O cronograma pode ser alterado conforme a necessidade, como a página informa.
-- **Ponto de vista:** quem trabalha em escala decide melhor com o calendário inteiro dos 24 fins de semana na mão da página.
+- **Ponto de vista:** quem trabalha em escala decide melhor com o calendário completo dos 24 fins de semana.
 - **Linha final ou pergunta:** Em qual desses fins de semana você já bloquearia a agenda?
 - **Chamada para ação:** Veja as datas e as parcelas, total e matrícula na página da turma. Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68632_202701&utm_content=68632-f2
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** os 24 módulos são mensais, de abril de 2027 a março de 2029, todos em sábado e domingo (datas conferidas na ficha); regra 8: nenhuma frase de entrada depois do início, sem data do 3º módulo, sem a frase "matrícula até o 3º módulo"; reposição de módulo [CONFIRMAR OU3], por isso nenhuma frase a respeito. Observação: a frase "na mão da página" do ponto de vista não vai para a arte; se o qa preferir, trocar por "com o calendário completo da página".
+- **Conferência:** os 24 módulos são mensais, de abril de 2027 a março de 2029, todos em sábado e domingo (datas conferidas na ficha); regra 8: nenhuma frase de entrada depois do início, sem data do 3º módulo, sem a frase "matrícula até o 3º módulo"; reposição de módulo [CONFIRMAR OU3], por isso nenhuma frase a respeito.
 
 ### 68632-S4 | terça 30/03/2027 | Stories | 3 telas | viagem e turma, antes do início
 
@@ -551,4 +551,1006 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 
 ---
 
-*Continua em `posts-sociais-pos-2026-10-27-onda3-p2.md`, a partir da seção 5 (68635), sem resumo.*
+---
+
+## 5. Seção 68635: Pós-graduação em Clínica Médica e Emergência de Pequenos Animais
+
+**Dados da turma (catálogo e ficha):** turma V, São Paulo, semipresencial, 750 h, 28 módulos, início em 10/04/2027 (módulo 1 online em 10 e 11/04). 19 módulos online e 9 presenciais (3, 6, 10, 14, 18, 21, 24, 25 e 28), um módulo por mês, de abril de 2027 a julho de 2029. O 3º módulo é presencial e só tem o mês na ficha: **nenhum post cita o mês dele (E18) nem o número**; o tema dele (semiologia e patologia clínica) só aparece na lista completa dos 9 presenciais. Nada sobre "duas certificações", "dupla certificação" nem certificados por parte da carga (OU35). Sem "extremamente benéfico" nem "você será capaz" da ficha. "Pequenos animais" só dentro do nome; "cães e gatos" não entra. A ficha não chama de "prática" os módulos presenciais: os posts dizem "presenciais".
+
+### 68635-F1 | quinta 21/01/2027 | feed B | carrossel de 6 cards
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (68635) | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, prática presencial com roteiro
+- **Gancho (linha 1):** 9 módulos presenciais em 750 horas: da semiologia ao trauma. (A3-02)
+- **Ganchos alternativos (2):**
+  1. Semiologia, eletrocardiograma, triagem, RCP e trauma: o que é presencial na Clínica Médica e Emergência.
+  2. Clínica médica sistema por sistema, com a emergência no mesmo percurso: veja os módulos presenciais.
+- **Texto da arte:**
+  - Card 1: "9 módulos presenciais" | "Da semiologia ao trauma" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Card 2: "Online, sistema por sistema" | "Nefrologia, neurologia, pneumologia, gastroenterologia, infectologia, dermatologia, endocrinologia, oftalmologia, hematologia, oncologia, odontologia, medicina felina e diagnóstico por imagem, entre outros"
+  - Card 3: "Presenciais, tema a tema (1 de 2)" | "Semiologia e patologia clínica. Anatomia cardiovascular, eletrocardiograma e hemogasometria. Semiologia neurológica e respiratória e sondagem uretral. Raspado de pele e testes alergênicos. Ambulatório clínico."
+  - Card 4: "Presenciais, tema a tema (2 de 2)" | "Exame clínico oral, odontograma e tratamento periodontal. Triagem e monitoração do paciente grave. A-FAST, T-FAST e atendimento de felinos. Reanimação cardiopulmonar, trauma e atendimento clínico."
+  - Card 5: "Aulas presenciais e práticas não são transmitidas"
+  - Card 6: "Turma V | São Paulo | semipresencial | 750 h | 28 módulos" | "Aulas a partir de 10/04/2027" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > 9 módulos presenciais em 750 horas.
+  >
+  > A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais percorre a clínica médica sistema por sistema, com a emergência do paciente grave no mesmo percurso. A maior parte dos módulos é online.
+  >
+  > Os 9 presenciais trazem: semiologia e patologia clínica; anatomia cardiovascular, eletrocardiograma e hemogasometria; semiologia neurológica e respiratória e sondagem uretral; raspado de pele e testes alergênicos; ambulatório clínico; exame clínico oral, odontograma e tratamento periodontal; triagem e monitoração do paciente grave; A-FAST, T-FAST e atendimento de felinos; reanimação cardiopulmonar, trauma e atendimento clínico. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  >
+  > Dados da turma: turma V, São Paulo, semipresencial, 750 h, 28 módulos, aulas a partir de 10/04/2027. O cronograma pode ser alterado conforme a necessidade, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** o cronograma mostra, módulo a módulo, onde a clínica médica pede presença.
+- **Linha final ou pergunta:** Qual desses módulos presenciais pesa mais na sua decisão?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** os 9 presenciais conferidos módulo a módulo na ficha (3, 6, 10, 14, 18, 21, 24, 25 e 28) e a lista dos cards 3 e 4 é completa (E4); nenhum fala em "prática" onde a ficha não diz (E5); sem certificação (OU35); sem mês nem número do 3º módulo (E18).
+
+### 68635-S1 | sexta 22/01/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68635 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Eletrocardiograma e hemogasometria também estão nos módulos presenciais. (68635-G3 do O9)
+- **Ganchos alternativos (2):**
+  1. Anatomia cardiovascular, eletrocardiograma e hemogasometria: um módulo presencial.
+  2. Do sistema cardiovascular online ao eletrocardiograma no presencial.
+- **Texto da arte (telas):**
+  - Tela 1: "Eletrocardiograma e hemogasometria no presencial" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Tela 2: "Sistema cardiovascular, online (07 e 08/08/2027)" | "Depois, módulo presencial (setembro de 2027): anatomia cardiovascular, interpretação do eletrocardiograma e análise de hemogasometria"
+  - Tela 3: "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a teoria do sistema cardiovascular tem o módulo presencial logo depois no cronograma.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 5 (07 e 08/08/2027, online) e 6 (setembro de 2027, presencial) literais da ficha; a ficha não chama o módulo 6 de "prática", e a arte não usa a palavra.
+
+### 68635-S2 | sexta 19/02/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68635 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** A emergência está dentro do curso: triagem, A-FAST e T-FAST, RCP e trauma.
+- **Ganchos alternativos (2):**
+  1. Triagem do paciente grave também é clínica médica? O cronograma responde. (variação do 68635-G2 do O9)
+  2. RCP e trauma fecham o cronograma de Clínica Médica e Emergência.
+- **Texto da arte (telas):**
+  - Tela 1: "A emergência está dentro do curso" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Tela 2: "Presenciais: triagem e monitoração do paciente grave (03 e 04/03/2029). A-FAST, T-FAST e atendimento de felinos (abril de 2029). Reanimação cardiopulmonar, trauma e atendimento clínico (07 e 08/07/2029)."
+  - Tela 3: "Online: urgência e emergência, UTI e internação" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a emergência do paciente grave fecha o percurso da clínica médica no cronograma.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 24, 25 e 28 (presenciais) e 26 e 27 (online) literais da ficha; sem conduta; sem certificação por parte da carga (OU35).
+
+### 68635-F2 | sexta 05/03/2027 | feed C | carrossel de 6 cards | conversão
+
+- **Linha:** Pós-graduação | **Curso:** 68635 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** Faz plantão? O cronograma mostra o mês de cada módulo presencial. (A3-03)
+- **Ganchos alternativos (2):**
+  1. 28 módulos, um por mês: 19 online e 9 presenciais.
+  2. Plantão e pós: veja quando cada módulo presencial acontece.
+- **Texto da arte:**
+  - Card 1: "Faz plantão?" | "O cronograma mostra o mês de cada módulo presencial" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Card 2: "28 módulos, um por mês" | "De abril de 2027 a julho de 2029"
+  - Card 3: "19 módulos online, 9 presenciais" | "A maior parte do curso é online"
+  - Card 4: "Aulas presenciais e práticas não são transmitidas"
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "Turma V | São Paulo | aulas a partir de 10/04/2027"
+- **Corpo (legenda):**
+  > Faz plantão? O cronograma mostra o mês de cada módulo presencial.
+  >
+  > A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais tem 28 módulos, um por mês, de abril de 2027 a julho de 2029: 19 online e 9 presenciais. A maior parte dos módulos é online, e o mês de cada presencial está no cronograma da página, então dá para planejar a escala com antecedência. As aulas presenciais e práticas não são transmitidas.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: turma V, São Paulo, semipresencial, 750 h, 28 módulos, aulas a partir de 10/04/2027.
+- **Ponto de vista:** quem faz plantão decide melhor com o mês de cada módulo presencial à vista.
+- **Linha final ou pergunta:** Como você organiza a escala nos fins de semana de módulo?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** contagem 28, 19 e 9 conferida; "um por mês" confere (de abril de 2027 a julho de 2029, 28 meses); o mês dos presenciais está na ficha e a legenda não o lista (E18); sem "flexível" nem "no seu ritmo"; reposição [CONFIRMAR OU3], por isso nenhuma frase a respeito; "Faz plantão?" é pergunta, não afirma nada sobre quem lê.
+
+### 68635-S4 | sexta 02/04/2027 | Stories | 3 telas | viagem e turma, antes do início
+
+- **Linha:** Pós-graduação | **Curso:** 68635 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Módulo presencial pede viagem? Compre passagem e hotel só depois de a turma ser confirmada.
+- **Ganchos alternativos (2):**
+  1. A turma pode não ser formada: veja o que fazer antes de comprar a passagem.
+  2. Os 9 módulos presenciais têm o mês no cronograma: planeje a viagem com a turma confirmada.
+- **Texto da arte (telas):**
+  - Tela 1: "Antes de comprar passagem e hotel" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Tela 2: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada."
+  - Tela 3: "O cronograma mostra o mês de cada módulo presencial" | "Fale com o time" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a viagem se planeja com a turma confirmada e com o mês de cada presencial à vista no cronograma.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sai antes do início porque 68635 não tem o dia do 3º módulo (E18); sem o mês do 3º módulo; não afirma turma confirmada [CONFIRMAR OU4].
+
+### 68635-S3 | terça 06/04/2027 | Stories | 3 telas | semana anterior ao início
+
+- **Linha:** Pós-graduação | **Curso:** 68635 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Sábado, 10/04, começa a turma V de Clínica Médica e Emergência de Pequenos Animais.
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é online: medicina interna e semiologia.
+  2. Aulas em 10 e 11/04: veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Sábado, 10/04, começa a turma V" | "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais"
+  - Tela 2: "Módulo 1, online (10 e 11/04/2027)" | "Introdução e bases para clínica médica. Medicina interna e semiologia."
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo exatamente por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data nem o mês do 3º módulo (E18); módulo 1 literal da ficha; não afirma turma confirmada [CONFIRMAR OU4]. A reserva R1 do O6 (08/04, cards de 68635) não pode ter Stories S3 de 68635 no dia: o S3 está em 06/04.
+
+### 68635-REEL | quinta 25/03/2027 | Reel (feed B) | roteiro do O9, seção 3
+
+- **Gancho recomendado (O9, 68635-G1):** Da semiologia à UTI, a clínica médica sistema por sistema.
+- **Alternativos do O9:** 68635-G2 "Triagem do paciente grave também é clínica médica?"; 68635-G3 "Eletrocardiograma e hemogasometria também estão nos módulos presenciais."
+- **Roteiro e legenda:** os do O9 (seções 3.2 e 3.3), sem mudança (início em 10/04/2027; lista de presenciais parcial, com "entre os presenciais" e "entre outros").
+- **Chamada:** "Veja o cronograma, da semiologia ao atendimento do paciente grave." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68635_202701&utm_content=68635-reel1
+- **Conferência:** sem certificação (OU35); se o Reel sair depois de 10/04, a legenda só vai com o dia do 3º módulo (OU25); frase-ponte A3 só como resposta a comentário, sem link para a página de 68623 (E19).
+
+---
+
+## 6. Seção 366: Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária
+
+**Dados da turma (catálogo e ficha):** turma I, São Paulo, semipresencial, 500 h, 24 módulos. **Data em divergência (P4, OU20): planilha 10/04/2027, site e cronograma 24 e 25/04/2027.** Os posts dizem "início em abril de 2027" e **nenhum sai antes da data confirmada**; nenhum cita data de módulo. 15 módulos online e 9 presenciais (3, 6, 9, 12, 15, 18, 20, 21 e 24); **7 são de prática** (6, 9, 12, 15, 18, 21 e 24) e **2 não se dizem prática** (3, biomecânica aplicada, órteses e próteses; 20, avaliação respiratória e avaliação fisiátrica à beira-leito). Sem "coordenação" (OU34), sem o CEP, sem a Resolução de conselho de classe, sem "a área pertence à Medicina Veterinária", sem "equipe formada por mestres e doutores", sem "formação de novos profissionais especializados". "Cães e gatos" não entra. Pergunta sobre atuação profissional vai ao time e à regulação. UTM: pos_366_202702 (o primeiro post da turma é o 366-F1).
+
+### 366-F1 | quinta 04/02/2027 | feed B | carrossel de 6 cards | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (366) | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, prática presencial com roteiro
+- **Gancho (linha 1):** 9 módulos presenciais de reabilitação: da hidroterapia às terapias manuais. (A4-08, sem a cidade)
+- **Ganchos alternativos (2):**
+  1. Hidroterapia, recursos eletrofísicos e reabilitação neurológica: o que é presencial na pós de Fisioterapia.
+  2. Cinesioterapia, taping, terapias manuais: o roteiro dos módulos presenciais.
+- **Texto da arte:**
+  - Card 1: "9 módulos presenciais de reabilitação" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Card 2: "Online, a base" | "Anatomia do sistema locomotor, fisiopatologia da dor, hidroterapia e cinesioterapia, recursos eletrofísicos, entre outros"
+  - Card 3: "Presenciais de prática (1 de 2)" | "Hidroterapia, cinesioterapia e avaliação de dor. Recursos eletrofísicos. Avaliação e reabilitação neurológica. Avaliação e reabilitação ortopédica."
+  - Card 4: "Presenciais de prática (2 de 2)" | "Bandagem taping e reabilitação em felinos e silvestres. Terapias manuais e paciente à beira-leito. Atendimento clínico."
+  - Card 5: "Outros dois presenciais" | "Biomecânica aplicada, órteses e próteses. Avaliação respiratória e avaliação fisiátrica do paciente à beira-leito." | "Aulas presenciais e práticas não são transmitidas"
+  - Card 6: "Turma I | São Paulo | semipresencial | 500 h | 24 módulos" | "Início em abril de 2027" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > 9 módulos presenciais de reabilitação.
+  >
+  > Na Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, a base é online: anatomia do sistema locomotor, fisiopatologia da dor, hidroterapia e cinesioterapia, recursos eletrofísicos, entre outros temas.
+  >
+  > Dos 9 módulos presenciais, 7 são de prática: hidroterapia, cinesioterapia e avaliação de dor; recursos eletrofísicos; avaliação e reabilitação neurológica; avaliação e reabilitação ortopédica; bandagem taping e reabilitação em felinos e silvestres; terapias manuais e paciente à beira-leito; atendimento clínico. Os outros 2 tratam de biomecânica aplicada, órteses e próteses, e de avaliação respiratória e avaliação fisiátrica à beira-leito. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  >
+  > Dados da turma: turma I, São Paulo, semipresencial, 500 h, 24 módulos, início em abril de 2027. O cronograma pode ser alterado conforme a necessidade, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** o cronograma põe cada técnica de reabilitação em módulo presencial próprio.
+- **Linha final ou pergunta:** Qual dessas técnicas você mais quer ver detalhada?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** contagem 9 conferida (3, 6, 9, 12, 15, 18, 20, 21 e 24) e 7 de prática; lista completa (cards 3 a 5); os módulos 3 e 20 não são chamados de prática (E5); sem data (P4); sem "coordenação"; sem frase normativa, sem "mestres e doutores", sem atuação profissional.
+
+### 366-S1 | sexta 05/02/2027 | Stories | 3 telas | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** 366 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa (tema felino)
+- **Gancho (linha 1):** Cão idoso, felino e silvestre: a reabilitação tem módulos próprios. (A4-09, ampliado)
+- **Ganchos alternativos (2):**
+  1. Reabilitação em felinos tem módulo online e prática presencial.
+  2. Do cão idoso ao silvestre: veja os módulos de reabilitação por paciente.
+- **Texto da arte (telas):**
+  - Tela 1: "Cão idoso, felino e silvestre" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Tela 2: "Online: reabilitação no cão idoso e obeso, reabilitação em felinos, avaliação e reabilitação em silvestres"
+  - Tela 3: "Presencial: prática de bandagem taping e reabilitação em felinos e silvestres" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma trata cada paciente em módulo próprio.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 4 e 17 (online) e 18 (presencial) literais da ficha, sem data; "obeso" vem de "obesos" da ficha; sem conduta. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 366-S2 | terça 02/03/2027 | Stories | 3 telas | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** 366 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** A dor volta em três momentos do cronograma de reabilitação.
+- **Ganchos alternativos (2):**
+  1. Da fisiopatologia da dor aos cuidados paliativos: o que o cronograma trata.
+  2. Avaliação de dor tem prática presencial na pós de Fisioterapia.
+- **Texto da arte (telas):**
+  - Tela 1: "A dor volta em três momentos" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Tela 2: "Fisiopatologia da dor (online). Prática de hidroterapia, cinesioterapia e avaliação de dor (presencial). Cuidados paliativos e cuidados com paciente oncológico (online)."
+  - Tela 3: "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a dor aparece no começo, na prática e perto do fim do cronograma.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 2, 6 e 23 da ficha, pelo título, sem data; sem conduta nem promessa de alívio. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 366-F2 | terça 09/03/2027 | feed A | carrossel de 6 cards | conversão | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** 366 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** Reabilitação veterinária começa pela avaliação: o cronograma segue essa ordem. (366-G1 do O9)
+- **Ganchos alternativos (2):**
+  1. Tem prática de verdade ou é só teoria? Veja os módulos presenciais.
+  2. Da avaliação ortopédica e neurológica ao protocolo: o caminho da pós de Fisioterapia.
+- **Texto da arte:**
+  - Card 1: "Reabilitação começa pela avaliação" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Card 2: "O curso parte do caminho clínico" | "Histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor"
+  - Card 3: "Depois, o protocolo de fisioterapia" | "Com o objetivo de restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão, como a página descreve"
+  - Card 4: "A maior parte dos módulos é online" | "Os presenciais trazem prática, entre eles avaliação e reabilitação neurológica e ortopédica" | "Aulas presenciais e práticas não são transmitidas"
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "Turma I | São Paulo | início em abril de 2027"
+- **Corpo (legenda):**
+  > Reabilitação veterinária começa pela avaliação.
+  >
+  > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária parte do caminho clínico: histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor, para então estabelecer o protocolo de fisioterapia, com o objetivo de restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão, como a página descreve.
+  >
+  > A maior parte dos módulos é online. Os presenciais trazem prática, entre eles avaliação e reabilitação neurológica e ortopédica. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: turma I, São Paulo, semipresencial, 500 h, 24 módulos, início em abril de 2027.
+- **Ponto de vista:** quem quer oferecer reabilitação precisa saber por onde o curso começa, e o cronograma começa pela avaliação.
+- **Linha final ou pergunta:** Por onde você começa a avaliar um paciente que chega para reabilitação?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** o caminho clínico e o protocolo são o texto de apresentação da ficha (e a prova 2 da O2); frase de método, [REVISÃO DOCENTE]; sem a Resolução, sem "pertence à Medicina Veterinária", sem "mestres e doutores"; "fisioterapeuta pode fazer?" vai ao time e à regulação, sem texto aqui; frase de turma mínima da regra 3.
+
+### 366-S4 | quarta 07/04/2027 (dia extra de Stories) | Stories | 3 telas | viagem e turma, antes do início | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** 366 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Módulo presencial pede viagem? Compre passagem e hotel só depois de a turma ser confirmada.
+- **Ganchos alternativos (2):**
+  1. A turma pode não ser formada: veja o que fazer antes de comprar a passagem.
+  2. Antes de reservar hotel, espere a confirmação da turma.
+- **Texto da arte (telas):**
+  - Tela 1: "Antes de comprar passagem e hotel" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Tela 2: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada."
+  - Tela 3: "O cronograma mostra o mês de cada módulo presencial" | "Fale com o time" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a viagem se planeja com a turma confirmada.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** antes do início porque 366 não tem o dia do 3º módulo (E18); todos os 9 presenciais têm ao menos o mês na ficha; sem data de início (P4); não afirma turma confirmada [CONFIRMAR OU4].
+
+### 366-S3 | sexta 09/04/2027 | Stories | 3 telas | semana anterior ao início | só com OU20 resolvida
+
+- **Linha:** Pós-graduação | **Curso:** 366 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Em abril de 2027 começa a turma I de Fisioterapia, Fisiatria e Reabilitação Veterinária. (sem o dia, P4 e OU20)
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é online: anatomia do sistema locomotor.
+  2. Veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Em abril de 2027 começa a turma I" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
+  - Tela 2: "Módulo 1, online" | "Anatomia do sistema locomotor"
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Versão com o dia (só depois da confirmação de OU20):** Tela 1: "Sábado, 10/04, começa a turma I" (planilha); se o início for 24/04, "Sábado, 24/04, começa a turma I", com a data do S3 trocada para 23/04 (seção 2.5 do arquivo principal).
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data nem o mês do 3º módulo (E18); módulo 1 literal da ficha; nenhuma data de módulo; o D16 do O6 (02/04, cards de 366) não cai neste dia.
+
+### 366-REEL | quinta 01/04/2027 | Reel (feed B) | roteiro do O9, seção 4 | só com OU20 resolvida
+
+- **Gancho recomendado (O9, 366-G3):** Hidroterapia, recursos eletrofísicos, terapias manuais: prática presencial.
+- **Alternativos do O9:** 366-G1 "Por onde começa a reabilitação veterinária? Pela avaliação." (pede a conferência do docente revisor); 366-G2 "Da fisiopatologia da dor às terapias manuais, em módulos online e presenciais."
+- **Roteiro e legenda:** os do O9 (seções 4.2 e 4.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 366. O O9 pede que a legenda não seja publicada com o campo de início aberto (OU20): o qa decide qual regra vale [SUPOSIÇÃO].
+- **Chamada:** "Veja o cronograma, da avaliação da dor às terapias manuais." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-reel1
+- **Conferência:** o Reel está em 01/04 (e não em 02/04) para não cair no dia do D16 do O6 (sequência de docente de 366). Se o início for 24/04, a janela e a legenda mudam (ciclo extra).
+
+---
+
+## 7. Seção 68628: Pós-graduação em Oncologia Veterinária
+
+**Dados da turma (catálogo e ficha):** São Paulo, semipresencial, 500 h, 24 módulos, início em 10/04/2027 (módulo 1 online em 10 e 11/04); **sem número de turma em nenhum post (P5: planilha VI, site VII)**. 16 módulos online e 8 presenciais (5, 7, 9, 12, 15, 17, 20 e 24). 3º módulo em 26 e 27/06/2027 (online, "Diagnóstico do câncer (imagem, patologia e clínica)"): a data só aparece no S4, dentro da regra completa. Sem "tem reconhecimento pelo Ministério da Educação", "referência nacional" nem "garante" (E14). Nenhum post descreve a turma como presencial. O módulo 15 é "radioterapia com visita" e não é chamado de prática; o módulo 24 ("Para definir") não é citado. "De pequenos animais" e "cães e gatos" não entram. Janela da turma: até 25/06/2027, 23h59.
+
+### 68628-S1 | terça 05/01/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Oncologia Veterinária (68628) | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Quimioterapia com biossegurança: o que o presencial de agosto de 2027 inclui? (A10-02)
+- **Ganchos alternativos (2):**
+  1. Biossegurança entra no módulo de quimioterapia antineoplásica.
+  2. O primeiro módulo presencial do curso é de quimioterapia e biossegurança.
+- **Texto da arte (telas):**
+  - Tela 1: "Quimioterapia e biossegurança" | "Pós-graduação em Oncologia Veterinária"
+  - Tela 2: "Tratamento, parte I (presencial, agosto de 2027)" | "Quimioterapia antineoplásica" | "Conhecimento de biossegurança"
+  - Tela 3: "Antes, no online: diagnóstico histopatológico e molecular (24 e 25/07/2027)" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma põe a biossegurança no mesmo módulo da quimioterapia.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 4 (24 e 25/07/2027, online) e 5 (agosto de 2027, presencial) literais da ficha; o módulo 5 é o primeiro presencial do curso (5, 7, 9...); sem promessa de segurança nem estrutura exigida na clínica do aluno; sem número de turma. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 68628-F1 | terça 12/01/2027 | feed A | carrossel de 6 cards
+
+- **Linha:** Pós-graduação | **Curso:** 68628 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Da imunoterapia online à eletroquimioterapia presencial: dois módulos em sequência. (A10-03)
+- **Ganchos alternativos (2):**
+  1. Do diagnóstico ao tratamento: o cronograma de Oncologia põe cada etapa em módulo próprio.
+  2. Quimioterapia com biossegurança, eletroquimioterapia e cirurgia oncológica: os módulos de tratamento.
+- **Texto da arte:**
+  - Card 1: "Da imunoterapia à eletroquimioterapia" | "Pós-graduação em Oncologia Veterinária"
+  - Card 2: "Primeiro, o diagnóstico (online)" | "Biologia do câncer; diagnóstico por imagem, patologia e clínica; diagnóstico histopatológico e molecular"
+  - Card 3: "Tratamento, parte I (presencial, agosto de 2027)" | "Quimioterapia antineoplásica e conhecimento de biossegurança"
+  - Card 4: "Tratamento, parte II (online, 04 e 05/09/2027)" | "Imunoterapia e terapia alvo"
+  - Card 5: "Tratamento, parte III (presencial, outubro de 2027)" | "Eletroquimioterapia e crioterapia" | "Depois, parte IV: cirurgia oncológica e reconstrutiva (presencial, novembro de 2027)"
+  - Card 6: "São Paulo | semipresencial | 500 h | 24 módulos" | "Aulas a partir de 10/04/2027" | "Aulas presenciais e práticas não são transmitidas" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > Da imunoterapia online à eletroquimioterapia presencial.
+  >
+  > Na Pós-graduação em Oncologia Veterinária, o tratamento é dividido em partes. A parte I, presencial, trata de quimioterapia antineoplásica e de biossegurança. A parte II, online, trata de imunoterapia e terapia alvo. A parte III, presencial, trata de eletroquimioterapia e crioterapia. A parte IV, também presencial, trata de cirurgia oncológica e reconstrutiva.
+  >
+  > Antes do tratamento, o cronograma percorre a biologia do câncer e o diagnóstico: imagem, patologia, histopatológico e molecular.
+  >
+  > A maior parte dos módulos é online. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  >
+  > Dados da turma: São Paulo, semipresencial, 500 h, 24 módulos, aulas a partir de 10/04/2027. O cronograma pode ser alterado conforme a necessidade, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** o diagnóstico vem antes do tratamento no cronograma, e cada parte do tratamento tem módulo próprio.
+- **Linha final ou pergunta:** Qual parte do tratamento você quer ver detalhada?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 5 a 9 e as datas literais da ficha (partes I a IV do tratamento); o tema "diagnóstico por imagem, patologia e clínica" aparece sem o número do módulo e sem a data dele (E6); sem número de turma; sem "tem reconhecimento", "referência nacional" e "garante". [REVISÃO DOCENTE] se acrescentarem explicação clínica.
+
+### 68628-S2 | terça 02/02/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68628 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa (tema felino)
+- **Gancho (linha 1):** Melanoma e sarcoma felino: um módulo presencial de Oncologia em março de 2028. (A10-07)
+- **Ganchos alternativos (2):**
+  1. Neoplasias cutâneas têm dois módulos: um online e um presencial.
+  2. Do carcinoma cutâneo ao melanoma: veja onde o cronograma trata as neoplasias de pele.
+- **Texto da arte (telas):**
+  - Tela 1: "Melanoma e sarcoma felino" | "Pós-graduação em Oncologia Veterinária"
+  - Tela 2: "Módulo presencial de março de 2028" | "Melanoma, sarcoma felino e neoplasias cutâneas II"
+  - Tela 3: "Antes, online (12 e 13/02/2028): neoplasias cutâneas I" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma separa as neoplasias de pele em dois módulos, um online e um presencial.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 11 (12 e 13/02/2028, online) e 12 (março de 2028, presencial) literais da ficha, pelo título; sem conduta. [REVISÃO DOCENTE] se houver explicação além do título.
+
+### 68628-F2 | quinta 25/02/2027 | feed B | carrossel de 6 cards | conversão
+
+- **Linha:** Pós-graduação | **Curso:** 68628 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** 24 módulos: 16 online e 8 presenciais. Veja o que cada presencial trata. (A10-06, corrigido: o presencial não é todo "prática")
+- **Ganchos alternativos (2):**
+  1. Quanto da Oncologia exige presença? Oito módulos presenciais.
+  2. Quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos: o que é presencial.
+- **Texto da arte:**
+  - Card 1: "16 módulos online, 8 presenciais" | "Pós-graduação em Oncologia Veterinária"
+  - Card 2: "Online" | "Do diagnóstico às neoplasias, uma por uma, mais cuidado paliativo, tratamento da dor e terapia intensiva em oncologia, entre outros temas"
+  - Card 3: "Presenciais, entre eles" | "Quimioterapia antineoplásica com biossegurança. Eletroquimioterapia e crioterapia. Cirurgia oncológica e reconstrutiva."
+  - Card 4: "Também presenciais" | "Melanoma, sarcoma felino e neoplasias cutâneas. Radioterapia, com visita e discussão de casos clínicos. Mastocitoma e neoplasias do sistema urinário, com discussão de casos clínicos."
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada" | "Aulas presenciais e práticas não são transmitidas"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "São Paulo | aulas a partir de 10/04/2027"
+- **Corpo (legenda):**
+  > Dos 24 módulos, 16 são online e 8 são presenciais.
+  >
+  > Na Pós-graduação em Oncologia Veterinária, entre os presenciais estão quimioterapia antineoplásica com biossegurança, eletroquimioterapia e crioterapia, cirurgia oncológica e reconstrutiva, melanoma, sarcoma felino e neoplasias cutâneas, radioterapia com visita e discussão de casos clínicos, mastocitoma e neoplasias do sistema urinário com discussão de casos clínicos. As aulas presenciais e práticas não são transmitidas.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: São Paulo, semipresencial, 500 h, 24 módulos, aulas a partir de 10/04/2027.
+- **Ponto de vista:** quem quer saber quanto precisa viajar precisa ver o que cada presencial trata.
+- **Linha final ou pergunta:** Qual desses presenciais você mais quer ver detalhado?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** contagem 16 e 8 conferida na ficha (presenciais 5, 7, 9, 12, 15, 17, 20 e 24); lista parcial com "entre eles" e "entre os presenciais" (E4), módulo 24 não citado; "radioterapia com visita" não é chamada de prática (E5); sem número de turma; reposição [CONFIRMAR OU3], por isso nenhuma frase a respeito.
+
+### 68628-Reel | sexta 12/03/2027 | Reel (feed C) | roteiro do O9, seção 5
+
+- **Gancho recomendado (O9, 68628-G3):** Quimioterapia, eletroquimioterapia e crioterapia estão nos módulos presenciais.
+- **Alternativos do O9:** 68628-G1 "Massa cutânea, linfoma, mastocitoma: o diagnóstico vem antes do protocolo." (pede a conferência do docente revisor); 68628-G2 "Do histopatológico à cirurgia oncológica, em módulos online e presenciais."
+- **Roteiro e legenda:** os do O9 (seções 5.2 e 5.3), sem mudança (início em 10/04/2027, sem número de turma).
+- **Chamada:** "Veja o cronograma, do diagnóstico do câncer à discussão de casos." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-reel1
+- **Conferência:** sem data falada, sem print de cronograma, sem docente; se sair depois de 10/04, a legenda traz a regra completa com o 3º módulo em 26/06/2027, pelo texto do O7.
+
+### 68628-S3 | quarta 07/04/2027 (dia extra de Stories) | Stories | 3 telas | semana anterior ao início
+
+- **Linha:** Pós-graduação | **Curso:** 68628 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Sábado, 10/04, começa a Pós-graduação em Oncologia Veterinária.
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é online: introdução à oncologia.
+  2. Aulas em 10 e 11/04: veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Sábado, 10/04, começa a turma" | "Pós-graduação em Oncologia Veterinária"
+  - Tela 2: "Módulo 1, online (10 e 11/04/2027)" | "Introdução à oncologia: história, etiologia e epidemiologia"
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data do 3º módulo (regra 7 do plano, antes do início); módulo 1 literal da ficha; sem número de turma; não afirma turma confirmada [CONFIRMAR OU4].
+
+### 68628-S4 | sexta 30/04/2027 | Stories | 3 telas | depois do início, regra completa
+
+- **Linha:** Pós-graduação | **Curso:** 68628 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** A Pós-graduação em Oncologia Veterinária já começou.
+- **Ganchos alternativos (2):**
+  1. Chegou depois do início? Veja como funciona a entrada na turma.
+  2. Matrícula em turma que já começou: a regra completa.
+- **Texto da arte (telas):**
+  - Tela 1: "A Pós-graduação em Oncologia Veterinária já começou."
+  - Tela 2: "A turma começou em 10/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 26/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
+  - Tela 3: "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** entrar depois do início é possível, e a regra deve ser dita inteira antes de qualquer pagamento.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68628_202612&utm_content=68628-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** texto da regra literal (regra 5 do arquivo principal, E7, decisão 18); a data do 3º módulo (26 e 27/06/2027, ficha) aparece só dentro da regra, sem "corra", "só até" ou contador; nenhuma promessa de reposição (OU3); a regra do 3º módulo precisa estar na página como dado (OU14); se a OU6 trouxer outra leitura de "até o 3º módulo", reescrever a tela 2. Janela de 68628 até 25/06, 23h59; o W pós-início é de 28/04.
+
+---
+
+## 8. Seção 68617: Pós-graduação em Endocrinologia de Pequenos Animais
+
+**Dados da turma (catálogo e ficha):** São Paulo, semipresencial, 500 h, 24 módulos, início em 17/04/2027 (módulo 1 online em 17 e 18/04); **sem número de turma em nenhum post (P5: planilha VII, site V)**; **a URL com "/v/" é conferida no dia da subida (OU29)**. 22 módulos online e 2 presenciais (12, em 18 e 19/03/2028, e 23, em fevereiro de 2029): nenhum post fala em "muita prática" nem trata a turma como presencial. 3º módulo em 19 e 20/06/2027 (online, eixos hormonais): a data só aparece no S4, dentro da regra completa. Nada de TCC (o módulo 5 traz "Como montar seu TCC", e a ficha não explica); sem "instituição reconhecida e respeitada", "profissionais renomados", "você estará apto" nem "amplia suas oportunidades" (E14); sem "Palladia". "Pequenos animais" só dentro do nome; "cães e gatos" só como tema de módulo ("em cães", "em gatos"). O módulo 17 (data fora de ordem na ficha) não é citado. Janela da turma: até 18/06/2027, 23h59.
+
+### 68617-S1 | quinta 07/01/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Endocrinologia de Pequenos Animais (68617) | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Ressonância magnética em endocrinologia? O módulo 6 trata do tema. (A7-10)
+- **Ganchos alternativos (2):**
+  1. Neuroendocrinologia e alterações neurológicas do endocrinopata têm módulo próprio.
+  2. A ressonância magnética entra no cronograma de Endocrinologia.
+- **Texto da arte (telas):**
+  - Tela 1: "Ressonância magnética em endocrinologia" | "Pós-graduação em Endocrinologia de Pequenos Animais"
+  - Tela 2: "Módulo 6 (online, setembro de 2027)" | "Neuroendocrinologia" | "Alterações neurológicas do paciente endocrinopata" | "Ressonância magnética em endocrinologia"
+  - Tela 3: "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma dá módulo próprio à imagem avançada do paciente endócrino.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulo 6 literal da ficha (setembro de 2027, online), pelos títulos; sem conduta; sem número de turma; URL "/v/" conferida (OU29). [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 68617-F1 | sexta 15/01/2027 | feed C | carrossel de 6 cards
+
+- **Linha:** Pós-graduação | **Curso:** 68617 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Cushing só chega no módulo 5: veja o que vem antes na Endocrinologia. (A7-01)
+- **Ganchos alternativos (2):**
+  1. Anatomia, histologia e fisiologia por eixo: a ordem em que a Endocrinologia começa.
+  2. Antes do Cushing, quatro módulos de bases: veja o que o cronograma trata.
+- **Texto da arte:**
+  - Card 1: "Cushing só chega no módulo 5" | "Pós-graduação em Endocrinologia de Pequenos Animais"
+  - Card 2: "Antes, os quatro primeiros módulos (online)" | "Anatomia, histologia e fisiologia do sistema endócrino, mecanismos de ação hormonal, eixos hormonais, cálcio e fósforo" | "De 17 e 18/04/2027 a 17 e 18/07/2027"
+  - Card 3: "Módulo 5 (online, 21 e 22/08/2027)" | "Síndrome de Cushing em cães: etiologia, diagnóstico e tratamento"
+  - Card 4: "Depois, doença por doença" | "Hipoadrenocorticismo, diabetes mellitus em cães e em gatos, tireoide e insulinoma, com discussão de casos clínicos ao longo do cronograma"
+  - Card 5: "Os módulos presenciais trazem aula prática" | "Aulas presenciais e práticas não são transmitidas"
+  - Card 6: "São Paulo | semipresencial | 500 h | 24 módulos" | "Aulas a partir de 17/04/2027" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > Cushing só chega no módulo 5.
+  >
+  > Na Pós-graduação em Endocrinologia de Pequenos Animais, os quatro primeiros módulos são online e tratam de anatomia, histologia e fisiologia do sistema endócrino, mecanismos de ação hormonal, eixos hormonais, cálcio e fósforo. O módulo 5, também online, trata da síndrome de Cushing em cães: etiologia, diagnóstico e tratamento. Depois vêm as doenças, uma a uma, com discussão de casos clínicos ao longo do cronograma.
+  >
+  > A maior parte dos módulos é online. Os presenciais trazem aula prática. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  >
+  > Dados da turma: São Paulo, semipresencial, 500 h, 24 módulos, aulas a partir de 17/04/2027. O cronograma pode ser alterado conforme a necessidade, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** o cronograma começa pelas bases e só depois entra na doença: é essa a ordem que se escolhe ao escolher a pós.
+- **Linha final ou pergunta:** Qual doença endócrina você quer ver detalhada no próximo post?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** o módulo 5 e a ordem dos módulos conferidos na ficha; o motivo da ordem não é explicado (só com revisão docente); o bloco "quatro primeiros módulos" não cita o número nem a data do 3º módulo (E6); sem número de turma; sem TCC; URL "/v/" conferida (OU29).
+
+### 68617-S2 | terça 16/02/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68617 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Diabetes em cães, em gatos e cetoacidose diabética: reunidos em um módulo.
+- **Ganchos alternativos (2):**
+  1. Diabetes mellitus tem módulo próprio, para cães e para gatos.
+  2. Do diabetes à cetoacidose e à hemogasometria: um módulo da Endocrinologia.
+- **Texto da arte (telas):**
+  - Tela 1: "Diabetes mellitus em cães e em gatos" | "Pós-graduação em Endocrinologia de Pequenos Animais"
+  - Tela 2: "Módulo 11 (online, 19 e 20/02/2028)" | "Diabetes mellitus em cães" | "Diabetes mellitus em gatos" | "Cetoacidose diabética e hemogasometria"
+  - Tela 3: "Mais tarde, discussão de casos de diabetes mellitus em outro módulo (15 e 16/04/2028)" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma trata o diabetes em um módulo e volta a ele na discussão de casos.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 11 e 13 e datas literais da ficha ("Diabetes mellitus: Discussão de casos" no módulo 13); sem conduta; sem número de turma. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 68617-F2 | quinta 11/03/2027 | feed B | carrossel de 6 cards | conversão
+
+- **Linha:** Pós-graduação | **Curso:** 68617 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** Teoria demais no começo? Veja quando a prática presencial entra na Endocrinologia. (A7-08)
+- **Ganchos alternativos (2):**
+  1. 24 módulos, só 2 presenciais: veja o que cada um trata.
+  2. A maior parte da Endocrinologia é online: veja onde entra a aula prática.
+- **Texto da arte:**
+  - Card 1: "Teoria demais no começo?" | "Pós-graduação em Endocrinologia de Pequenos Animais"
+  - Card 2: "24 módulos: 22 online e 2 presenciais" | "A discussão de casos clínicos aparece ao longo do cronograma"
+  - Card 3: "Presencial, 18 e 19/03/2028" | "Aula prática de atendimento endocrinológico. Aula prática de anatomia do sistema endócrino. Discussão de casos clínicos."
+  - Card 4: "Presencial, fevereiro de 2029" | "Aula prática de atendimento endócrino, de ultrassonografia abdominal e de cirurgia do sistema endócrino. Discussão de casos clínicos dos alunos."
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada" | "Aulas presenciais e práticas não são transmitidas"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "São Paulo | aulas a partir de 17/04/2027"
+- **Corpo (legenda):**
+  > Teoria demais no começo?
+  >
+  > A Pós-graduação em Endocrinologia de Pequenos Animais tem 24 módulos: 22 online e 2 presenciais. O começo é de bases, anatomia, histologia e fisiologia, e a discussão de casos clínicos aparece ao longo do cronograma. Os 2 presenciais trazem aula prática: atendimento endocrinológico e anatomia do sistema endócrino (18 e 19/03/2028), e atendimento endócrino, ultrassonografia abdominal e cirurgia do sistema endócrino (fevereiro de 2029). As aulas presenciais e práticas não são transmitidas.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: São Paulo, semipresencial, 500 h, 24 módulos, aulas a partir de 17/04/2027.
+- **Ponto de vista:** quem pergunta quando a prática entra merece a resposta com o mês e o tema de cada presencial.
+- **Linha final ou pergunta:** O que você esperaria de uma aula prática de endocrinologia?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** contagem 22 e 2 conferida (presenciais 12 e 23); os dois presenciais são descritos pelo texto literal da ficha e a lista é completa; sem "muita prática"; reposição [CONFIRMAR OU3], por isso nenhuma frase a respeito; sem número de turma.
+
+### 68617-Reel | terça 06/04/2027 | Reel (feed A) | roteiro do O9, seção 6
+
+- **Gancho recomendado (O9, 68617-G1):** Poliúria, polidipsia, alopecia: quando o caso pede raciocínio endócrino?
+- **Alternativos do O9:** 68617-G2 "Do eixo hormonal à discussão de casos: Cushing, diabetes e tireoide."; 68617-G3 "Endocrinologia: a maior parte do curso é online, com aula prática no presencial."
+- **Roteiro e legenda:** os do O9 (seções 6.2 e 6.3), sem mudança (início em 17/04/2027, sem número de turma).
+- **Chamada:** "Veja o cronograma, da fisiologia hormonal às emergências endócrinas." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-reel1
+- **Conferência:** URL "/v/" conferida antes da publicação (OU29); sem data falada, sem print de cronograma, sem docente; se sair depois de 17/04, a legenda traz a regra completa com o 3º módulo em 19/06/2027, pelo texto do O7.
+
+### 68617-S3 | quarta 14/04/2027 (dia extra de Stories) | Stories | 3 telas | semana anterior ao início
+
+- **Linha:** Pós-graduação | **Curso:** 68617 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Sábado, 17/04, começa a Pós-graduação em Endocrinologia de Pequenos Animais.
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é online: do histórico da endocrinologia à anatomia e à histologia.
+  2. Aulas em 17 e 18/04: veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Sábado, 17/04, começa a turma" | "Pós-graduação em Endocrinologia de Pequenos Animais"
+  - Tela 2: "Módulo 1, online (17 e 18/04/2027)" | "História da endocrinologia, introdução, anatomia e histologia do sistema endócrino"
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data do 3º módulo (antes do início); módulo 1 literal da ficha; sem número de turma. A reserva R2 do O6 (13/04, cards de 68617) não pode ter Stories de 68617 no dia: o S3 está em 14/04.
+
+### 68617-S4 | sexta 07/05/2027 | Stories | 3 telas | depois do início, regra completa
+
+- **Linha:** Pós-graduação | **Curso:** 68617 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** A Pós-graduação em Endocrinologia de Pequenos Animais já começou.
+- **Ganchos alternativos (2):**
+  1. Chegou depois do início? Veja como funciona a entrada na turma.
+  2. Matrícula em turma que já começou: a regra completa.
+- **Texto da arte (telas):**
+  - Tela 1: "A Pós-graduação em Endocrinologia de Pequenos Animais já começou."
+  - Tela 2: "A turma começou em 17/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 19/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
+  - Tela 3: "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** entrar depois do início é possível, e a regra deve ser dita inteira antes de qualquer pagamento.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68617_202612&utm_content=68617-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** texto da regra literal (regra 5 do arquivo principal, E7, decisão 18); a data do 3º módulo (19 e 20/06/2027, ficha) aparece só dentro da regra, sem "corra", "só até" ou contador; nenhuma promessa de reposição (OU3); depende de OU14 e OU6. Janela de 68617 até 18/06, 23h59; o W pós-início é de 06/05.
+
+---
+
+---
+
+## 9. Seção 68636: Pós-graduação em Pneumologia Veterinária
+
+**Dados da turma (catálogo e ficha):** turma VIII, São Paulo, semipresencial, 500 h, 24 módulos. **Início em 17/04/2027 só no site, sem a data na planilha (P3, OU21): os posts dizem "início em abril de 2027" e nenhum cita data nem mês de módulo** (os módulos 16 e 24 têm mês fora de ordem na ficha). 18 módulos online (a legenda da ficha chama de "aulas teóricas a distância") e 6 presenciais (4, 7, 13, 16, 19 e 24, "aulas práticas"). 3º módulo em 19 e 20/06/2027 (online, radiologia do sistema respiratório): a data só aparece no S4, dentro da regra completa, e o S4 só sai depois de OU21. **A ficha de 68636 não traz a frase "aulas presenciais e práticas não são transmitidas": nenhum post a usa.** Sem "vácuo", "poucas referências", "escassez de especialistas", "não é uma extensão da clínica geral" nem "é uma especialidade" (E14); a palavra "especialidade" não entra. "Cães e gatos" não entra ("patologias respiratórias em felinos" e "em cães" só como tema). O módulo de ventilação mecânica (online) fica fora (ponte A2, E11). Cidade só na linha de dados. Sem prometer que o aluno executa nem quantos procedimentos. Janela da turma: até 18/06/2027, 23h59.
+
+### 68636-S1 | sexta 08/01/2027 | Stories | 3 telas | OU21: sem data
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Pneumologia Veterinária (68636) | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Síndrome do braquicefálico, doenças pleurais e tromboembolismo pulmonar têm módulo próprio.
+- **Ganchos alternativos (2):**
+  1. Braquicefálico, doença pleural, tromboembolismo pulmonar: o caso respiratório pede exame e imagem. (68636-G1 do O9)
+  2. Doença por doença: veja os temas respiratórios do cronograma.
+- **Texto da arte (telas):**
+  - Tela 1: "Braquicefálico, doença pleural, tromboembolismo" | "Pós-graduação em Pneumologia Veterinária"
+  - Tela 2: "Três módulos online, um por tema" | "Síndrome do braquicefálico. Doenças pleurais. Tromboembolismo pulmonar."
+  - Tela 3: "Também no cronograma: dirofilariose e circulação pulmonar, oncologia do trato respiratório e sedação no pneumopata, entre outros" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma trata cada doença respiratória em módulo próprio.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 6, 20 e 21 (online), e 10, 17 e 23 (online) literais da ficha, pelo título e sem data; sem a frase "não transmitidas"; sem conduta. [REVISÃO DOCENTE] se acrescentarem explicação clínica.
+
+### 68636-F1 | terça 19/01/2027 | feed A | carrossel de 6 cards | OU21: sem data
+
+- **Linha:** Pós-graduação | **Curso:** 68636 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Da fisiologia online à semiologia no presencial: o primeiro módulo prático de Pneumologia. (A2-06, recomendado)
+- **Ganchos alternativos (2):**
+  1. Anatomia das vias aéreas, fisiologia respiratória e semiologia: como a Pneumologia começa.
+  2. Teoria a distância e aula prática presencial: veja a primeira prática do cronograma.
+- **Texto da arte:**
+  - Card 1: "Da fisiologia à semiologia no presencial" | "Pós-graduação em Pneumologia Veterinária"
+  - Card 2: "Teoria a distância" | "Anatomia das vias aéreas e fisiologia respiratória. Semiologia e farmacologia respiratória. Radiologia do sistema respiratório."
+  - Card 3: "Primeira aula prática, presencial" | "Práticas em anatomia e semiologia do sistema respiratório"
+  - Card 4: "Depois, o cronograma segue" | "Hemogasometria e síndrome do braquicefálico, a distância. Ultrassonografia pulmonar, presencial."
+  - Card 5: "As aulas presenciais são práticas" | "Entre elas: ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia e intervenções emergenciais"
+  - Card 6: "Turma VIII | São Paulo | semipresencial | 500 h | 24 módulos" | "Início em abril de 2027" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > Da fisiologia online à semiologia no presencial.
+  >
+  > A Pós-graduação em Pneumologia Veterinária começa na anatomia das vias aéreas e na fisiologia respiratória, passa por semiologia, farmacologia e radiologia, e chega à primeira aula prática: práticas em anatomia e semiologia do sistema respiratório.
+  >
+  > As aulas teóricas são a distância e as aulas presenciais são práticas, entre elas ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia e intervenções emergenciais.
+  >
+  > Dados da turma: turma VIII, São Paulo, semipresencial, 500 h, 24 módulos, início em abril de 2027. O cronograma está sujeito a ajustes, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** a primeira prática presencial vem depois da fisiologia, da semiologia e da radiologia, e o cronograma deixa essa ordem à vista.
+- **Linha final ou pergunta:** Qual aula prática do cronograma você mais quer ver detalhada?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 1, 2, 3, 4, 5, 6 e 7 da ficha pelo título, sem número e sem data (P3, E6: "radiologia" aparece como tema do 3º módulo, sem o número); legenda de modalidades da ficha ("aulas teóricas a distância", "aulas práticas"); sem "não transmitidas"; sem "especialidade", "escassez" ou "vácuo"; "entre elas" na lista de presenciais.
+
+### 68636-S2 | quinta 18/02/2027 | Stories | 3 telas | OU21: sem data
+
+- **Linha:** Pós-graduação | **Curso:** 68636 | **Plataforma:** Instagram Stories | **Pilar:** S2, prática presencial
+- **Gancho (linha 1):** Laringotraqueobroncoscopia e rinoscopia: dois módulos presenciais de aula prática.
+- **Ganchos alternativos (2):**
+  1. Endoscopia respiratória no presencial: veja os dois módulos.
+  2. Rinoscopia tem módulo próprio na pós de Pneumologia.
+- **Texto da arte (telas):**
+  - Tela 1: "Laringotraqueobroncoscopia e rinoscopia" | "Pós-graduação em Pneumologia Veterinária"
+  - Tela 2: "Dois módulos presenciais de aula prática" | "Laringotraqueobroncoscopia" | "Rinoscopia"
+  - Tela 3: "Também no cronograma, a distância: radiologia, hemogasometria e tomografia do trato respiratório" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** a endoscopia respiratória tem aula prática presencial no cronograma.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 13 e 16 (presenciais) literais da ficha, sem mês (o 16 está fora de ordem); "endoscopia respiratória" é a descrição da mensagem central da O2; não promete que o aluno executa nem quantos procedimentos; sem "não transmitidas".
+
+### 68636-F2 | terça 16/03/2027 | feed A | carrossel de 6 cards | conversão | OU21: sem data
+
+- **Linha:** Pós-graduação | **Curso:** 68636 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** Quanto da Pneumologia pede você na sala? 6 módulos presenciais de aulas práticas.
+- **Ganchos alternativos (2):**
+  1. 18 módulos a distância, 6 presenciais: veja o que cada presencial pratica.
+  2. Teoria a distância, prática presencial: o formato da pós de Pneumologia.
+- **Texto da arte:**
+  - Card 1: "18 módulos a distância, 6 presenciais" | "Pós-graduação em Pneumologia Veterinária"
+  - Card 2: "Aulas teóricas a distância" | "É a maior parte do curso"
+  - Card 3: "Os 6 módulos presenciais são de aulas práticas" | "Anatomia e semiologia do sistema respiratório. Ultrassonografia pulmonar. Laringotraqueobroncoscopia. Rinoscopia. Intervenções emergenciais no paciente respiratório. Atividades práticas."
+  - Card 4: "O cronograma está sujeito a ajustes, como a página informa"
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "Início em abril de 2027"
+- **Corpo (legenda):**
+  > Quanto da Pneumologia pede você na sala?
+  >
+  > A Pós-graduação em Pneumologia Veterinária tem 24 módulos: 18 a distância, com as aulas teóricas, e 6 presenciais, com as aulas práticas: anatomia e semiologia do sistema respiratório, ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia, intervenções emergenciais no paciente respiratório e atividades práticas.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: turma VIII, São Paulo, semipresencial, 500 h, 24 módulos, início em abril de 2027.
+- **Ponto de vista:** quem pergunta quanto precisa viajar merece a resposta com a lista inteira dos presenciais, sem rodeio.
+- **Linha final ou pergunta:** Qual desses módulos presenciais pesa mais na sua decisão?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** contagem 18 e 6 conferida (presenciais 4, 7, 13, 16, 19 e 24); a lista de 6 é completa; nenhum mês de módulo é dito (os módulos 16 e 24 têm mês fora de ordem); sem "não transmitidas"; reposição [CONFIRMAR OU3], por isso nenhuma frase a respeito. "Lista inteira" no ponto de vista não vai para a arte.
+
+### 68636-Reel | quinta 08/04/2027 | Reel (feed B) | roteiro do O9, seção 7 | OU21
+
+- **Gancho recomendado (O9, 68636-G3):** Rinoscopia e ultrassonografia pulmonar: aula prática presencial.
+- **Alternativos do O9:** 68636-G1 "Braquicefálico, doença pleural, tromboembolismo pulmonar: o caso respiratório pede exame e imagem."; 68636-G2 "Teoria a distância, aula prática presencial: pneumologia veterinária."
+- **Roteiro e legenda:** os do O9 (seções 7.2 e 7.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 68636. O O9 pede o campo aberto até a confirmação (OU21) e a legenda não publicada: o qa decide qual regra vale [SUPOSIÇÃO]. Este é o único Reel do lote A, com o de 68609, sem a frase "não transmitidas".
+- **Chamada:** "Veja o cronograma, da fisiologia respiratória às intervenções emergenciais." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-reel1
+- **Conferência:** sem data falada, sem print de cronograma, sem docente, sem cidade na fala; frase-ponte A2 só como resposta a comentário, sem link para as páginas de 289 e 352 (E19).
+
+### 68636-S3 | terça 13/04/2027 | Stories | 3 telas | semana anterior ao início | OU21: sem o dia
+
+- **Linha:** Pós-graduação | **Curso:** 68636 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Em abril de 2027 começa a turma VIII de Pneumologia Veterinária. (sem o dia, P3 e OU21)
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é a distância: anatomia das vias aéreas e fisiologia respiratória.
+  2. Veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Em abril de 2027 começa a turma VIII" | "Pós-graduação em Pneumologia Veterinária"
+  - Tela 2: "Módulo 1, a distância" | "Anatomia das vias aéreas e fisiologia respiratória"
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Versão com o dia (só depois da confirmação de OU21; site 17/04/2027):** Tela 1: "Sábado, 17/04, começa a turma VIII".
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data do 3º módulo (antes do início); módulo 1 pelo título da ficha, sem data; não afirma turma confirmada [CONFIRMAR OU4]. A reserva R2 do O6 (13/04, cards de 68617) é de outra turma; o W pré-início de 68636 é do mesmo dia.
+
+### 68636-S4 | terça 04/05/2027 | Stories | 3 telas | depois do início, regra completa | só depois de OU21
+
+- **Linha:** Pós-graduação | **Curso:** 68636 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** A turma VIII de Pneumologia Veterinária já começou.
+- **Ganchos alternativos (2):**
+  1. Chegou depois do início? Veja como funciona a entrada na turma.
+  2. Matrícula em turma que já começou: a regra completa.
+- **Texto da arte (telas):**
+  - Tela 1: "A turma VIII de Pneumologia Veterinária já começou."
+  - Tela 2: "A turma começou em 17/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 19/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
+  - Tela 3: "Fale com o time e veja o cronograma na página da turma." | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** entrar depois do início é possível, e a regra deve ser dita inteira antes de qualquer pagamento.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** texto da regra literal (regra 5 do arquivo principal, E7, decisão 18); **só sai depois de a Ufape confirmar a data de início (OU21), porque a regra completa traz o dia de início**; a data do 3º módulo (19 e 20/06/2027, ficha) aparece só dentro da regra, sem "corra", "só até" ou contador; nenhuma promessa de reposição (OU3); depende de OU14 e OU6. Janela de 68636 até 18/06, 23h59; o W pós-início é de 30/04, também só depois de OU21. A reserva R9 do O6 (06/05, cards de 68636) não cai neste dia.
+
+---
+
+## 10. Seção 68609: Pós-graduação em Anestesiologia Veterinária
+
+**Dados da turma (catálogo e ficha):** turma VIII, Goiânia ("Local: Ufape Goiânia" como dado), semipresencial, 500 h, início em 24/04/2027 (módulo 1 online em 24 e 25/04). **A ficha diz 26 módulos nos dados e lista 24 no cronograma [CONFIRMAR NO CATÁLOGO]: nenhum post cita o número de módulos.** 10 presenciais (5, 8, 11, 14, 16, 17, 20, 21, 23 e 24), dois deles de campanha de castração (16 e 17) e o 20 com parte online: **nenhum post diz que todos os presenciais são hands-on** (a ficha só marca hands-on em 5, 11 e 23) e a lista é sempre parcial ("entre outros"). Sem o convite da prova de Especialista, sem título nem prova de Especialista (E13, OU31). Sem "gravada" (vale só para os itens marcados), sem "formar veterinários capazes", sem RECOVER, ROTEM, Xlung e VetPain. Nome sem o plural "Veterinárias" do título da página no ar (E2). **A ficha de 68609 não traz a frase "aulas presenciais e práticas não são transmitidas": nenhum post a usa.** "Cães e gatos" não entra. O 3º módulo é em 26 e 27/06/2027 (online: exames pré-operatórios, avaliação cardiológica e POCUS): a data só aparece no S4, dentro da regra completa. Janela da turma: até 25/06/2027, 23h59; a extensão da mídia começa em 26/03 (feriado).
+
+### 68609-F1 | sexta 22/01/2027 | feed C | carrossel de 6 cards | condicional (seção 2.5 do arquivo principal)
+
+- **Linha:** Pós-graduação | **Curso:** Pós-graduação em Anestesiologia Veterinária (68609) | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, prática presencial com roteiro
+- **Gancho (linha 1):** Sábado das 9h às 18h, domingo das 9h às 13h: um módulo presencial de Anestesiologia. (A1-04, sem a cidade)
+- **Ganchos alternativos (2):**
+  1. Intubação, indução e anestesia geral inalatória: o que o módulo presencial de novembro de 2027 lista.
+  2. Tira-dúvidas, intubação e manipulação de equipamentos: um fim de semana de módulo.
+- **Texto da arte:**
+  - Card 1: "Sábado das 9h às 18h. Domingo das 9h às 13h." | "Um módulo presencial da Pós-graduação em Anestesiologia Veterinária"
+  - Card 2: "Módulo presencial de novembro de 2027" | "Tira-dúvidas. Intubação. Manipulação de equipamentos. Indução anestésica. Anestesia geral inalatória."
+  - Card 3: "Antes, no online" | "Fisiologia cardiovascular e respiratória aplicada, farmacologia aplicada, avaliação pré-anestésica, monitoração anestésica básica, indução e anestesia inalatória"
+  - Card 4: "E, no presencial de agosto de 2027" | "Hands-on de avaliação pré-anestésica, sedação e monitoração"
+  - Card 5: "Avaliação obrigatória ao término de cada módulo online" | "Acompanhamento presencial individualizado, sob supervisão do corpo docente"
+  - Card 6: "Turma VIII | semipresencial | 500 h" | "Aulas a partir de 24/04/2027" | "Local: Ufape Goiânia" | "Cronograma na página da turma"
+- **Corpo (legenda):**
+  > Sábado das 9h às 18h, domingo das 9h às 13h.
+  >
+  > É o horário que a ficha marca para o módulo presencial de novembro de 2027 da Pós-graduação em Anestesiologia Veterinária, que lista tira-dúvidas, intubação, manipulação de equipamentos, indução anestésica e anestesia geral inalatória.
+  >
+  > Antes dele, no online, o cronograma passa por fisiologia e farmacologia aplicadas, avaliação pré-anestésica e monitoração. E o presencial de agosto de 2027 traz hands-on de avaliação pré-anestésica, sedação e monitoração.
+  >
+  > Há avaliação obrigatória ao término de todos os módulos online e acompanhamento presencial individualizado, sob supervisão do corpo docente.
+  >
+  > Dados da turma: turma VIII, semipresencial, 500 h, aulas a partir de 24/04/2027. Local: Ufape Goiânia. O cronograma pode ser alterado conforme a necessidade, como a página informa.
+  >
+  > Faculdade UFAPE
+- **Ponto de vista:** um fim de semana de módulo tem horário e tema publicados antes da matrícula.
+- **Linha final ou pergunta:** Que tema desse módulo você quer ver detalhado?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-f1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** horário, temas e mês do módulo 8 e do módulo 5 literais da ficha; o horário vale só para o módulo 8 e a legenda diz isso; "hands-on" só no módulo 5; a ficha não chama o módulo 8 de hands-on e a arte não o faz; sem número de módulos (26 ou 24); sem "gravada"; sem convite da prova de Especialista; cidade só como dado.
+
+### 68609-S1 | sexta 29/01/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68609 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa (tema felino e exóticos)
+- **Gancho (linha 1):** Anestesia em felinos e em animais exóticos: hands-on no presencial. (68609-G3 do O9)
+- **Ganchos alternativos (2):**
+  1. Anestesia em felinos tem hands-on no presencial.
+  2. Exóticos e felinos: dois temas de hands-on no cronograma.
+- **Texto da arte (telas):**
+  - Tela 1: "Felinos e exóticos: hands-on no presencial" | "Pós-graduação em Anestesiologia Veterinária"
+  - Tela 2: "Módulo presencial de fevereiro de 2029" | "Anestesia em animais exóticos: prática demonstrativa e hands-on" | "Anestesia em felinos: hands-on"
+  - Tela 3: "Antes, no online (27 e 28/01/2029): anestesia em animais exóticos, felinos e grandes animais" | "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma põe a teoria de felinos e exóticos online e a prática em módulo presencial.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-s1
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulos 22 (27 e 28/01/2029, online) e 23 (fevereiro de 2029, presencial) literais da ficha; "hands-on" só onde a ficha marca; sem conduta. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 68609-S2 | quinta 25/02/2027 | Stories | 3 telas
+
+- **Linha:** Pós-graduação | **Curso:** 68609 | **Plataforma:** Instagram Stories | **Pilar:** S2, ementa
+- **Gancho (linha 1):** Dor tem escala: o módulo de analgesia multimodal trabalha escalas validadas.
+- **Ganchos alternativos (2):**
+  1. Avaliação e tratamento da dor entram no cronograma de Anestesiologia.
+  2. Analgesia multimodal perioperatória tem módulo próprio.
+- **Texto da arte (telas):**
+  - Tela 1: "Dor tem escala" | "Pós-graduação em Anestesiologia Veterinária"
+  - Tela 2: "Módulo online de 23 e 24/10/2027" | "Analgesia multimodal perioperatória" | "Avaliação e tratamento da dor, com aplicação de escalas validadas"
+  - Tela 3: "Cronograma na página da turma" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** o cronograma trata a dor com módulo próprio e com escalas validadas.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-s2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** módulo 7 e data literais da ficha; o item "Wetlab com aplicativo" (marca de terceiros) fica fora; sem conduta. [REVISÃO DOCENTE] se acrescentarem explicação.
+
+### 68609-F2 | quinta 18/03/2027 | feed B | carrossel de 6 cards | conversão
+
+- **Linha:** Pós-graduação | **Curso:** 68609 | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S1, como funciona (conversão)
+- **Gancho (linha 1):** Vou praticar ou só assistir? Veja o que o cronograma coloca no presencial. (68609-Q4 da O1 e resposta da O2)
+- **Ganchos alternativos (2):**
+  1. Hands-on de sedação, TIVA, felinos e exóticos: o que o presencial lista.
+  2. No presencial, a evolução de cada aluno é acompanhada de forma individualizada.
+- **Texto da arte:**
+  - Card 1: "Vou praticar ou só assistir?" | "Pós-graduação em Anestesiologia Veterinária"
+  - Card 2: "Hands-on" | "Avaliação pré-anestésica, sedação e monitoração. TIVA e anestesia alvo-controlada. Anestesia em felinos e em animais exóticos."
+  - Card 3: "Também no presencial, entre outros" | "Intubação, indução e anestesia geral inalatória. Bloqueios locorregionais em modelos anatômicos. Reanimação cardiorrespiratória e vias aéreas difíceis."
+  - Card 4: "Acompanhamento individualizado" | "No presencial, a evolução de cada aluno é acompanhada sob supervisão do corpo docente"
+  - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
+  - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "Turma VIII | semipresencial | 500 h | aulas a partir de 24/04/2027" | "Local: Ufape Goiânia"
+- **Corpo (legenda):**
+  > Vou praticar ou só assistir?
+  >
+  > Nos módulos presenciais da Pós-graduação em Anestesiologia Veterinária, o cronograma lista, entre outros temas: hands-on de avaliação pré-anestésica, sedação e monitoração; hands-on de TIVA e de anestesia alvo-controlada; hands-on de anestesia em felinos e em animais exóticos; intubação, indução e anestesia geral inalatória; prática de bloqueios locorregionais em modelos anatômicos; reanimação cardiorrespiratória e manejo de vias aéreas difíceis.
+  >
+  > No presencial, a evolução de cada aluno é acompanhada de forma individualizada, sob supervisão do corpo docente.
+  >
+  > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
+  >
+  > Dados da turma: turma VIII, semipresencial, 500 h, aulas a partir de 24/04/2027. Local: Ufape Goiânia.
+- **Ponto de vista:** quem pergunta se vai praticar merece a lista do que o cronograma põe no presencial.
+- **Linha final ou pergunta:** Qual desses módulos presenciais você quer ver detalhado?
+- **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-f2
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** "hands-on" só nos módulos 5, 11 e 23 (os temas do card 2); intubação e indução (módulo 8), bloqueios em modelos anatômicos (módulo 14) e reanimação cardiorrespiratória e vias aéreas difíceis (módulo 21) são pelo texto da ficha, sem a palavra hands-on; a lista é parcial ("entre outros") e não diz que todos os presenciais são hands-on (E5); as campanhas de castração (16 e 17) não entram; sem convite da prova de Especialista; frase de turma mínima da regra 3; reposição [CONFIRMAR OU3], por isso nenhuma frase a respeito.
+
+### 68609-Reel | sexta 09/04/2027 | Reel (feed C) | roteiro do O9, seção 8
+
+- **Gancho recomendado (O9, 68609-G1):** Sedar, intubar, monitorar: a anestesia começa na avaliação pré-anestésica.
+- **Alternativos do O9:** 68609-G2 "Da avaliação pré-anestésica aos pacientes especiais, em módulos online e presenciais."; 68609-G3 "Anestesia em felinos e exóticos: hands-on no presencial."
+- **Roteiro e legenda:** os do O9 (seções 8.2 e 8.3), sem mudança (início em 24/04/2027; frase de método "a anestesia começa na avaliação pré-anestésica" pede a conferência do docente revisor).
+- **Chamada:** "Veja o cronograma, da avaliação pré-anestésica aos pacientes especiais." Link na bio.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-reel1
+- **Conferência:** sem a frase "não transmitidas" (a ficha não a traz); sem convite da prova de Especialista (OU31); frase-ponte A1 só como resposta a comentário, sem link para as páginas de 657 e 359 e sem dizer quem pode entrar em 359 (E19); se sair depois de 24/04, a legenda traz a regra completa com o 3º módulo em 26/06/2027, pelo texto do O7.
+
+### 68609-S3 | terça 20/04/2027 | Stories | 3 telas | semana anterior ao início
+
+- **Linha:** Pós-graduação | **Curso:** 68609 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** Sábado, 24/04, começa a turma VIII de Anestesiologia Veterinária.
+- **Ganchos alternativos (2):**
+  1. O primeiro módulo é online: fisiologia cardiovascular e respiratória aplicada à anestesiologia.
+  2. Aulas em 24 e 25/04: veja por onde o curso começa.
+- **Texto da arte (telas):**
+  - Tela 1: "Sábado, 24/04, começa a turma VIII" | "Pós-graduação em Anestesiologia Veterinária"
+  - Tela 2: "Módulo 1, online (24 e 25/04/2027)" | "Fisiologia cardiovascular e respiratória aplicada à anestesiologia veterinária"
+  - Tela 3: "A matrícula segue aberta até o 3º módulo." | "Fale com o time e veja o cronograma na página da turma." | "Local: Ufape Goiânia" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** quem ainda decide pode entrar sabendo por onde o curso começa.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-s3
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** sem a data do 3º módulo (antes do início); módulo 1 literal da ficha (os outros itens do módulo, entre eles o "mercado veterinário" e o "gravada online", ficam fora); cidade só como dado; vendas de Goiânia respondem a quem escreve (O7); não afirma turma confirmada [CONFIRMAR OU4].
+
+### 68609-S4 | quinta 13/05/2027 | Stories | 3 telas | depois do início, regra completa
+
+- **Linha:** Pós-graduação | **Curso:** 68609 | **Plataforma:** Instagram Stories | **Pilar:** S1, como funciona
+- **Gancho (linha 1):** A turma VIII de Anestesiologia Veterinária já começou.
+- **Ganchos alternativos (2):**
+  1. Chegou depois do início? Veja como funciona a entrada na turma.
+  2. Matrícula em turma que já começou: a regra completa.
+- **Texto da arte (telas):**
+  - Tela 1: "A turma VIII de Anestesiologia Veterinária já começou."
+  - Tela 2: "A turma começou em 24/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 26/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
+  - Tela 3: "Fale com o time e veja o cronograma na página da turma." | "Local: Ufape Goiânia" | figurinha de link
+- **Corpo:** só a arte. Sem legenda.
+- **Ponto de vista:** entrar depois do início é possível, e a regra deve ser dita inteira antes de qualquer pagamento.
+- **Linha final ou pergunta:** nenhuma.
+- **Chamada para ação:** figurinha "Falar com o time". Veja parcelas, total e matrícula na página da turma.
+- **Link:** https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68609_202701&utm_content=68609-s4
+- **Visual e autorização:** V1; não se aplica.
+- **Conferência:** texto da regra literal (regra 5 do arquivo principal, E7, decisão 18); a data do 3º módulo (26 e 27/06/2027, ficha) aparece só dentro da regra, sem "corra", "só até" ou contador; nenhuma promessa de reposição (OU3); depende de OU14 e OU6; cidade só como dado. Janela de 68609 até 25/06, 23h59; o W pós-início é de 11/05. A reserva R11 do O6 (13/05, AD-A3-2 de 68623) é de outra turma.
+
+---
+
+## 11. 662: registro de espera (OU18)
+
+Nenhum post foi escrito para 662. Espera total até a Ufape responder OU18 (24/04/2027 é turma nova de Ortopedia Veterinária ou o módulo 9 da turma IV, e qual é a ficha de 2027). A ficha de 26/10/2026 traz cronograma e turma de 2026, e a campanha atual aponta para essa turma. Nada é escrito com a ficha de 2026. Quando a resposta chegar, este agente entrega a seção 662 em nova versão do arquivo, no ciclo extra do plano (seção 7.7), com 2 de feed, 4 Stories e 1 Reel e nova conferência no D5. **Os slots 30/03 e 02/04 (feed) ficam como reserva de feed da onda 3 e podem servir a 662 se a resposta chegar a tempo.**
+
+---
+
+## 12. Autochecagem (auditorias/05-social.md e auditorias/conformidade-educacional.md)
+
+| Item | Situação |
+|---|---|
+| 48 posts: 6 por turma, 2 de feed e 4 Stories, nas datas do calendário; 8 Reels do O9 com slot e data | Sim (seção 1 do arquivo principal) |
+| Cada post tem ID, data, formato, gancho, 2 primeiras linhas alternativas, texto da arte, legenda (feed) ou telas (Stories), chamada e link com a UTM da regra 12 | Sim |
+| Frequência segue o plano: 3 slots de feed por semana e Stories em terça, quinta e sexta (mais a quarta extra nas semanas de início), dentro do D5 | Sim (seções 2.1 e 2.2) |
+| Conferência slot a slot com a onda 2 (feed, Reels e Stories), com os slots de docente da O6 (D01 a D48, reservas R1 a R13, AD-A3-1) e com os 8 Reels do O9 | Sim (seções 2.1 a 2.4); a onda 1 não conferida, marcada [SUPOSIÇÃO] |
+| Nenhuma data reservada da onda 2 usada; nenhum dia com mais de 1 feed da Pós nem mais de 2 sequências de Stories da Pós; nenhuma turma com Stories no dia de sequência de docente dela | Sim |
+| Sem preço (U11), sem bolsa, sem desconto, sem promoção, sem certificação, sem frase ligada ao órgão regulador | Sim |
+| Sem urgência (sem "últimas vagas", "corra", "só até", contador, "faltam"); data do 3º módulo só dentro da regra completa | Sim |
+| 3º módulo nunca como tema numerado nem com data fora da regra completa; nenhum mês do 3º módulo em 679, 68635 e 366 | Sim (E6, E18) |
+| Regra 8 em 68632: nenhuma peça fala de entrada depois do início, nenhuma diz "matrícula até o 3º módulo", nenhuma sai depois de 09/04 | Sim |
+| 679, 366 e 68636 sem o dia até a confirmação ("abril de 2027"), sem data de módulo; versão com o dia só nos S3, marcada | Sim |
+| 68628 e 68617 sem número de turma; 68632 e 366 sem "coordenação" | Sim |
+| Frase "não transmitidas" fora de 68636 e 68609 | Sim |
+| 68609 sem convite da prova de Especialista e sem número de módulos (26 ou 24) | Sim |
+| Listas de presenciais: parciais com "entre eles" ou "entre outros"; completas só onde a contagem da ficha bate (679, 68635, 366, 68617 e 68636) | Sim (E4, E5) |
+| Nenhuma frase proibida da E3 e da onda2c nos textos de arte e legenda; frase-ponte A1 a A4 só como resposta a comentário (E19) | Sim |
+| Turma mínima sem número, com a frase da regra 3 nos 8 posts F2 e nos S4 de viagem | Sim |
+| Nome do curso "Pós-graduação em <área>" na primeira menção, sem palavra acrescentada (E2) | Sim |
+| Dados de curso só do catálogo e das fichas | Sim; contagens conferidas módulo a módulo |
+| Nenhum docente nomeado, nenhum dado pessoal, nenhuma pessoa na arte | Sim |
+| Sem promessa de emprego, renda ou aprovação | Sim |
+| Sem travessão nem meia-risca | Conferido na escrita; a busca final é do orquestrador |
+| Nada publicado, agendado, enviado ou pago | Sim |
+
+---
+
+## Próximo passo
+
+Próximo agente sugerido: **criador-de-ganchos**, para escolher a primeira linha final de cada um dos 48 posts entre as três opções (principal e 2 alternativas) e conferir os ganchos marcados [SUPOSIÇÃO de texto] (679-F1, 68632-S2) e os que dependem de revisão docente (A10-02, A10-07, A7-10, 366-F2, 68609-F2). Em paralelo, na cadeia do plano: O6 (autoridade-docente) alinha o utm_campaign de 366 (pos_366_202702) e confere que nenhum Stories de turma cai no dia da sequência de docente dela; O7 (copy-de-mensagens) usa as datas da seção 7.3 do plano, sem choque com os posts; O9 (tiktok) confirma as datas dos 8 Reels; o qa-de-marketing (O18c) revisa este arquivo com auditorias/05-social.md e auditorias/conformidade-educacional.md. O lote B (maio) entra em nova versão deste arquivo, com a conta slot a slot dos Stories que sobram (seção 2.6).
+
+---
+
+## Fatos (com fonte)
+
+- Nome, campus, modalidade, carga horária, turma, início e status "aberto" das 8 turmas: contexto/catalogo-de-cursos.md, seção 2, linhas 79 a 87 (679 IV, São Paulo, 500 h, 03/04/2027; 68632 V, Goiânia, presencial, 500 h, 10/04/2027; 68635 V, São Paulo, 750 h, 10/04/2027; 366 I, São Paulo, 500 h, 10/04/2027 na planilha; 68628 VII no site, São Paulo, 500 h, 10/04/2027; 68617 V no site, São Paulo, 500 h, 17/04/2027; 68636 VIII, São Paulo, 500 h, 17/04/2027 só no site; 68609 VIII, Goiânia, 500 h, 24/04/2027).
+- Módulos, formato por módulo, temas, datas dos módulos usados e contagens de presenciais (679: 3; 68632: todos presenciais, 24; 68635: 9 em 28; 366: 9 em 24, 7 de prática; 68628: 8 em 24; 68617: 2 em 24; 68636: 6 em 24; 68609: 10 na lista de 24): as 8 fichas em contexto/cursos/pos/ (cronograma e observações).
+- Horário do módulo presencial de novembro de 2027 de 68609 (sábado das 9h às 18h, domingo das 9h às 13h), avaliação obrigatória ao término dos módulos online e acompanhamento presencial individualizado: ficha de 68609 (módulo 8 e observações).
+- Aviso de passagem e hotel e turma mínima: fichas de 68632, 68635, 366, 68628, 68617 e 68636 (considerações); regra 6 do plano para 679 e 68609.
+- 3º módulo de 68628 (26/06/2027), 68617 (19/06/2027), 68636 (19/06/2027) e 68609 (26/06/2027), e 3º módulo sem dia em 679, 68635 e 366: fichas e plano, seção 1.1.
+- Decisões 8, 10, 11, 12, 14, 16, 18 e 20: docs/execucao-2026-10-26.md. Regra completa do 3º módulo, regras 1 a 13 e E1 a E22: plano do CMO da onda 3, versão 2, seções 2.1 e 2.2.
+- Slots livres de feed, reserva de Stories, grade de docente (D01 a D48, R1 a R13, AD-A3-1), datas e dias de mensagens: plano do CMO da onda 3, seções 7.3, 7.5 e 7.6; autoridade-docente-pos-2026-10-27-onda3.md (seção 3); autoridade-docente-pos-2026-10-27-onda2.md (seções 4.2 e 4.3).
+- Feed e Stories da onda 2 (datas reservadas e Reels): posts-sociais-pos-2026-10-27-onda2.md, seções 2.1, 2.2 e nota do orquestrador.
+- Mensagem central, provas, objeções, chamada principal e variações das 8 turmas: mensagens-pos-2026-10-27-onda3.md (O2); roteiros, ganchos e legendas dos 8 Reels: tiktok-pos-2026-10-27-onda3.md (O9); ganchos A1-04, A2-06, A3-02, A3-03, A4-03, A4-04, A4-08, A4-09, A7-01, A7-08, A7-10, A10-02, A10-03, A10-06, A10-07 e 679-03, 679-04, 679-08, 679-10: criador-de-ganchos-pos-2026-10-26.md.
+- Erros da onda 2 que não se repetem (frase-ponte antiga, 3º módulo como tema, lista de presenciais lida como completa): qa-de-marketing-pos-2026-10-27-onda2c.md (P1 a P20, V1 a V11) e -onda2c2.md.
+- Calendário: 01/01/2027 é sexta; 05/01, 12/01, 19/01, 26/01, 02/02, 16/02, 23/02, 02/03, 09/03, 16/03, 23/03, 30/03, 06/04, 13/04, 20/04, 04/05 são terças; 07/01, 21/01, 28/01, 04/02, 18/02, 25/02, 04/03, 11/03, 18/03, 25/03, 01/04, 08/04, 13/05 são quintas; 08/01, 15/01, 22/01, 29/01, 05/02, 19/02, 26/02, 05/03, 12/03, 19/03, 02/04, 09/04, 30/04, 07/05 são sextas; 07/04 e 14/04 são quartas; 03, 10, 17 e 24/04/2027 são sábados; 26/03/2027 é a sexta-feira da Paixão; 21/04/2027 é quarta (Tiradentes); 25/01 é feriado em São Paulo (plano).
+
+## [SUPOSIÇÃO]
+
+- Turno da manhã para o feed da Pós; até 2 sequências de Stories da Pós por dia em terça, quinta e sexta e a quarta como dia extra nas semanas de início (plano 7.5 e 7.6).
+- A escolha dos temas, da ordem e dos dias dentro dos slots livres (seções 1 e 2), inclusive a troca de tipo de slot dentro da semana (Reel em terça ou quinta, F2 em sexta), que é decisão do cmo pela seção 7.6.
+- Que as reservas R1 a R13 da onda 2 contam como ocupadas enquanto a onda 2 não as liberar, e que os slots D do lote B ocupam o dia.
+- Que a onda 1 não ocupa 05/01, 07/01, 08/01 e 22/01 com Stories (o arquivo dela não consta); fallback na seção 2.5 do arquivo principal.
+- 366: utm_campaign pos_366_202702, porque o 366-F1 (04/02) é o primeiro post da turma; o O6 usa 202701 como suposição.
+- Frases de abertura e de contraste do texto da squad: 679-10 ("Infectologia não é só antibiótico") e 68632-G3 ("Cirurgia além da técnica"), a validar pelo qa e pela pessoa do marketing.
+- Que "Faz plantão?" (68635-F2) e "Vai viajar todo mês?" (68632-F2) são perguntas e não afirmam nada sobre quem lê.
+- Sequências de Stories com figurinha de link e sem legenda; Facebook sem Stories.
+- Que a legenda dos Reels de 679, 366 e 68636 pode sair com "início em abril de 2027" como os posts, enquanto o O9 pede o campo aberto: o qa decide.
+- Que a conferência com o lote B pode ser feita depois, pela reserva do plano, enquanto o arquivo de posts de maio não existe.
+- Corte da 1ª mensalidade 30 dias antes do início em cada turma (fórmula do plano).
+
+## [CONFIRMAR]
+
+- **OU19, OU20 e OU21:** datas de início de 679, 366 e 68636 (nenhum post sai com o dia até lá; o S3 de cada uma tem a versão com o dia; o S4 de 68636 só sai depois de OU21). Se o início de 366 for 24/04/2027, ciclo extra (seção 2.5 do arquivo principal).
+- **OU3:** como o aluno repõe os módulos presenciais perdidos, em especial o módulo 1 presencial de 68632 (nenhum post de 68632 fala de entrada depois do início; o último é o S3 de 08/04).
+- **OU6 e OU14:** "até o 3º módulo" inclui ou não o dia do módulo, e a regra do 3º módulo como dado da página (os S4 de 68628, 68617, 68636 e 68609 e a frase dos S3 dependem delas).
+- **OU25:** dia do 3º módulo de 679, 68635 e 366 (junho); sem ele, nenhuma peça dessas três sai depois do início.
+- **OU4:** vagas e turma confirmada (nenhum post afirma turma confirmada).
+- **OU29:** URL "/v/" de 68617 e número da turma. **OU31:** convite da prova de Especialista de 68609 e "26 ou 24 módulos". **OU34:** quem representa 68632 e 366 (sem "coordenação"). **OU35:** texto da regulação sobre as duas certificações de 68635.
+- **U11:** valor da inscrição (volta do preço às peças). **A12:** correção da turma mínima nas páginas (o número 15 só entra depois).
+- **OC1-A:** páginas das 8 turmas publicadas até 10/12/2026 e conferidas em 11/12; endereço final de cada página (OB1); se alguma página pode receber post antes da troca da frase ligada ao órgão regulador (decisão humana registrada).
+- **OU16:** quem produz as artes (feed, Stories e Reels); **OU15:** quem grava os Reels; **U8:** horas do time e teto D5 real; feed das outras três linhas e turnos; grade do @ufapevet depois de 24/01/2027.
+- Quem aprova posts orgânicos (tabela de aprovação de ufape-geral.md) e quem publica; hashtags da conta; revisor docente nomeado para as frases clínicas marcadas [REVISÃO DOCENTE].
+- **[CONFIRMAR NO CATÁLOGO]:** número de módulos de 68609 (26 ou 24); nível de entrada e experiência prévia de 679, 68632, 68628, 68636 e 68609; linha de reembolso e aviso de passagem de 679; TCC de 68617.
+- Arquivo de posts da onda 1 (conferência de 05/01, 07/01, 08/01 e 22/01) e arquivo de posts do lote B (conferência slot a slot dos Stories que sobram).

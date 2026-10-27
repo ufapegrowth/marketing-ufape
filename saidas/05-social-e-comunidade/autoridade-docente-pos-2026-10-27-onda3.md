@@ -80,7 +80,7 @@ Chave de UTM orgânica por turma (regra 12; "igual em todos os posts e cards da 
 | 68636 | pos_68636_202701 | D05, ter 12/01 | confere |
 | 68609 | pos_68609_202701 | D06, qui 14/01 | confere |
 | 68635 | pos_68635_202701 | feed AD-A3-1, qui 14/01 | confere |
-| 366 | pos_366_202701 (base) | F1 de 366 no F8 [SUPOSIÇÃO: janeiro] | se o O8 pôr o primeiro post de 366 em outro mês, a chave muda em todas as peças da turma |
+| 366 | pos_366_202702 (base) | F1 de 366 no O8 em 04/02 (alinhado pelo orquestrador em 27/10/2026) | se o O8 pôr o primeiro post de 366 em outro mês, a chave muda em todas as peças da turma |
 
 Se o O8 (posts-sociais) mudar o mês da primeira publicação de qualquer turma, a chave muda em bloco, como na onda 2.
 
@@ -359,7 +359,7 @@ Nota de 68635: C68635-21 "Dr. Eric Vieira" pode ser o coordenador de 68617 (DR. 
 
 ### 2.6 Cards de 366 (8)
 
-Turma I, São Paulo, abril de 2027 [OU20]. A ficha traz coordenação "UFAPE", que não é pessoa e não ganha card; nenhum card diz "coordenação" (OU34). UTM: pos_366_202701 (base). **Nada sai antes da data confirmada (OU20); se o início mudar, há ciclo extra.**
+Turma I, São Paulo, abril de 2027 [OU20]. A ficha traz coordenação "UFAPE", que não é pessoa e não ganha card; nenhum card diz "coordenação" (OU34). UTM: pos_366_202702 (base). **Nada sai antes da data confirmada (OU20); se o início mudar, há ciclo extra.**
 
 | ID | Nome e titulação (exatamente como na ficha de 366) | Sequência e slot | Docente vê até | utm_content |
 |---|---|---|---|---|
@@ -734,7 +734,7 @@ Nada é publicado, enviado ou pago por este agente.
 
 - [SUPOSIÇÃO] O texto novo dos posts AD-A4-2 (versão 68632) e AD-A1-2 (versão 68609), os ganchos novos, as variantes de chamada e os ajustes de texto da seção 1 são texto proposto por este agente, a validar pelo qa, pela pessoa do marketing e pelo docente.
 - [SUPOSIÇÃO] O texto das linhas 2 a 5 de cada card, a variante V2 e a V3 da linha 4, e "abril de 2027" no lugar do dia em 679, 366 e 68636.
-- [SUPOSIÇÃO] A chave pos_366_202701 como base (primeira publicação de 366 em janeiro, pelo F8) e as chaves de 68628 e 68617 em dezembro (primeira publicação em D01 e D02).
+- [SUPOSIÇÃO] A chave pos_366_202702 como base (primeira publicação de 366 em janeiro, pelo F8) e as chaves de 68628 e 68617 em dezembro (primeira publicação em D01 e D02).
 - [SUPOSIÇÃO] "Docente vê até" a 7 dias corridos do slot (cards) e prazos de ok de 15/12 a 14/01 (posts), com o recesso de fim de ano e os feriados de 26/03 e 27/05 considerados.
 - [SUPOSIÇÃO] A ordem dos cards pela lista "Professores" da ficha, a posição de "Dra. Mayara Travalini de Lima" em 68609 e os cortes em sequências de 3 cards.
 - [SUPOSIÇÃO] Os dias de Stories da Pós em terça, quinta e sexta depois de 24/01 (herdados da onda 2) e a sexta como dia com 3 sequências de docente na semana (AD-O3-1).
