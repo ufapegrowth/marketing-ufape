@@ -3,7 +3,7 @@
 - **Agente:** criativos-de-anuncio (departamento 11 Mídia Paga), por encomenda curta do gestor-de-midia (peças -ext previstas em saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md, seção 6.4 e AMP25, e em saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md, seções 4.6 e 8.9 e AGP25)
 - **Linha:** pos
 - **Data:** 27/10/2026
-- **Versão:** 3 (27/10/2026). Aplica a encomenda O14 (a) do plano da onda 3 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, v2): situação da -exta de 68635, 679 e 366 (memorando da onda 2 do gestor, item g) e -exta nova de 68632 (decisão do cmo, saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-68632.md). Versão 2 (27/10/2026): aplica a resolução do CC1 pelo orquestrador: a extensão roda em duas peças em sequência, **-exta** (pré-início, nova) e **-extb** (a peça da versão 1, renomeada), na mesma campanha e com a mesma verba.
+- **Versão:** 4 (27/10/2026). Aplica a decisão do cmo saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-333-359.md: a -exta de 333 passa ao texto novo da decisão (a versão anterior fica arquivada, marcada "só depois da OU3"). Versão 3 (27/10/2026). Aplica a encomenda O14 (a) do plano da onda 3 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, v2): situação da -exta de 68635, 679 e 366 (memorando da onda 2 do gestor, item g) e -exta nova de 68632 (decisão do cmo, saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-68632.md). Versão 2 (27/10/2026): aplica a resolução do CC1 pelo orquestrador: a extensão roda em duas peças em sequência, **-exta** (pré-início, nova) e **-extb** (a peça da versão 1, renomeada), na mesma campanha e com a mesma verba.
 - **Prazos da encomenda (dos arquivos de campanha):** peças de março até 25/01/2027 e de abril até 25/02/2027. Este arquivo cobre as duas ondas.
 - **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada é publicado, enviado ou pago. Nenhuma campanha é criada, alterada, pausada ou ampliada por este arquivo.
 - **Canais:** Meta (só remarketing, 1 peça por turma de cada vez) e Google Busca (1 anúncio responsivo por grupo de cada vez). TikTok, YouTube e LinkedIn estão fora (PP13 e PP14 do gestor), então não há roteiro de vídeo nem peça de LinkedIn nesta encomenda.
@@ -18,6 +18,7 @@
   - .claude/skills/matriz-de-criativos/SKILL.md
   - Mensagem do orquestrador de 27/10/2026 (resolução do CC1)
   - Versão 3: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-68632.md, saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md (item g) e saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md (seções 3 e 8)
+  - Versão 4: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-333-359.md
 - **Não lidos:** a tabela 12.9 do gestor-de-midia-pos (as datas do 3º módulo vieram direto das fichas e batem com as datas de pausa total dos arquivos de campanha) e saídas de analise-de-midia (não há exportação com métricas nos arquivos).
 - **Não aberto:** faculdade.ufape.com.br. O texto de cada página está na ficha do curso.
 - **Dados pessoais:** nenhum. Nenhum docente, aluno, depoimento ou imagem de pessoa.
@@ -27,6 +28,7 @@
 
 ## Mudanças desta versão
 
+- **Versão 4:** em 333 a -exta passa ao texto novo da decisão do cmo (cmo-pos-2026-10-27-decisao-333-359.md, seção 2), copiado literalmente: Meta (trecho visível, título, descrição, restante e imagem) e Google (título 4 e descrição 2), sem "3º módulo" e sem a data do 3º módulo; contagens da decisão (103, 16, 19, 19 e 83), recontadas por script pelo orquestrador. A -exta anterior (v3) fica arquivada na seção 3, marcada "só depois da OU3". A -extb de 333 segue bloqueada até a OU3. Nomes da -exta nova com `_v2`, como em 68632. Nota: 359 não está neste arquivo (é de maio); a -exta de 359 de maio segue a regra 8 pela mesma decisão e será escrita na O14 (b).
 - **Versão 3:** em 68635, 679 e 366 a situação passa a "-exta liberada pelo gestor (memorando da onda 2, item g); -extb só com o dia do 3º módulo", sem mudar texto de anúncio; em 68632 a -exta passa ao texto novo da decisão do cmo (a versão aprovada na rodada f fica arquivada na seção 3, marcada "só depois da OU3"), com a -extb ainda bloqueada até a OU3 e a mídia da turma parando às 23h59 de 09/04/2027.
 
 ---
@@ -192,18 +194,18 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 
 ### 333. Pós-graduação em Citopatologia Veterinária (São Paulo). Só a -exta enquanto OU3 estiver aberta
 
-A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (28/05/2027).
+A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (28/05/2027). A -exta abaixo é o texto novo da decisão do cmo (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-333-359.md, seção 2), copiado literalmente: sem "3º módulo" e sem a data do 3º módulo em nenhuma linha, nenhum título com data, e 333 é semipresencial, então nenhuma peça diz "Turma presencial". Janela de 26/02 a 26/03/2027, pausa total às 23h59 de 26/03 (plano C às 18h), diária, R$ 150,00 por canal e R$ 2.000,00 da turma sem mudança. A versão anterior da -exta está arquivada na nota ao fim desta turma e não sobe antes da OU3.
 
-**-exta, Meta**
-- Trecho visível (116): "Pós-graduação em Citopatologia Veterinária: aulas em 27/03/2027. Matrícula aberta até o 3º módulo (29 e 30/05/2027)."
-- Restante: "Campus São Paulo. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada. Veja parcelas, total e matrícula na página da turma."
-- Título (32): "Matrícula aberta até o 3º módulo". Descrição (19): "Aulas em 27/03/2027".
-- Imagem. Selo: "Pós-graduação em Citopatologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 27/03/2027. 3º módulo em 29 e 30/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
+**-exta, Meta (texto da decisão do cmo, v2)**
+- Trecho visível (103): "Pós-graduação em Citopatologia Veterinária: aulas em 27/03/2027. Módulo 1 presencial, campus São Paulo."
+- Restante (143): "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada. Veja parcelas, total e matrícula na página da turma."
+- Título (16): "Matrícula aberta". Descrição (19): "Aulas em 27/03/2027".
+- Imagem 1:1 e 9:16. Selo: "Pós-graduação em Citopatologia Veterinária". Título: "Matrícula aberta". Apoio (41): "Aulas em 27/03/2027. Módulo 1 presencial." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
-**-exta, Google**
-- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
+**-exta, Google (texto da decisão do cmo, v2)**
+- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Módulo 1 presencial" (19) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (61): "Pós-graduação em Citopatologia Veterinária, campus São Paulo."
-- Descrição 2 (85): "As aulas começam em 27/03/2027. Matrícula aberta até o 3º módulo, em 29 e 30/05/2027."
+- Descrição 2, fixada (83): "As aulas começam em 27/03/2027. Módulo 1 presencial. Veja datas na página da turma."
 
 **-extb, Meta (bloqueada por OU3)**
 - Trecho visível (111): "Pós-graduação em Citopatologia Veterinária: as aulas já começaram. Matrícula até o 3º módulo (29 e 30/05/2027)."
@@ -215,6 +217,19 @@ A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (
 - Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (61): "Pós-graduação em Citopatologia Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 29 e 30/05/2027. Fale com o time."
+
+**Nota: -exta anterior de 333 (v3 desta peça), arquivada, só depois da OU3.** Não sobe enquanto a OU3 estiver aberta. Com a OU3 respondida, o cmo decide em ciclo extra se ela volta e se a -extb sobe. Texto arquivado, sem alteração:
+
+*-exta, Meta (arquivada)*
+- Trecho visível (116): "Pós-graduação em Citopatologia Veterinária: aulas em 27/03/2027. Matrícula aberta até o 3º módulo (29 e 30/05/2027)."
+- Restante: "Campus São Paulo. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada. Veja parcelas, total e matrícula na página da turma."
+- Título (32): "Matrícula aberta até o 3º módulo". Descrição (19): "Aulas em 27/03/2027".
+- Imagem. Selo: "Pós-graduação em Citopatologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 27/03/2027. 3º módulo em 29 e 30/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
+
+*-exta, Google (arquivada)*
+- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
+- Descrição 1, fixada (61): "Pós-graduação em Citopatologia Veterinária, campus São Paulo."
+- Descrição 2 (85): "As aulas começam em 27/03/2027. Matrícula aberta até o 3º módulo, em 29 e 30/05/2027."
 
 ### 657. Pós-graduação em Anestesiologia Avançada (São Paulo)
 
@@ -545,13 +560,13 @@ As peças -exta e -extb não são conceito novo: são adaptações do r2 ("turma
 | Mensageiro | só texto | só texto |
 | Objeção que responde | "a turma ainda aceita matrícula?" | "a turma já começou, ainda posso entrar?" |
 
-**Nomes** (padrão D12; nome final do anúncio Meta é do criativos-de-anuncio, conforme o anuncios-meta 6.4). A adaptação 9:16 troca `e11` por `e916`. Os nomes da versão 1 (`-ext`) foram renomeados para `-extb`. Na versão 3, a -exta de 68632 passa aos nomes `_v2` sugeridos na decisão do cmo (a -exta arquivada mantém o nome `_v1`).
+**Nomes** (padrão D12; nome final do anúncio Meta é do criativos-de-anuncio, conforme o anuncios-meta 6.4). A adaptação 9:16 troca `e11` por `e916`. Os nomes da versão 1 (`-ext`) foram renomeados para `-extb`. Na versão 3, a -exta de 68632 passa aos nomes `_v2` sugeridos na decisão do cmo (a -exta arquivada mantém o nome `_v1`). Na versão 4, a -exta de 333 passa aos nomes `_v2` sugeridos na decisão do cmo de 333 e 359 (a -exta arquivada de 333 mantém o nome `_v1`).
 
 | Turma | Meta -exta | Meta -extb | Google -exta (área; marca) | Google -extb (área; marca) | utm_campaign (remarketing) |
 |---|---|---|---|---|---|
 | 68615 | 68615-r2-exta_e11_regra3mod_v1 | 68615-r2-extb_e11_regra3mod_v1 | rsa-68615-area-exta_v1; rsa-68615-marca-exta_v1 | rsa-68615-area-extb_v1; rsa-68615-marca-extb_v1 | pos_68615-patclin_meta_lead_rmk30d_202612 |
 | 289 | 289-r2-exta_e11_regra3mod_v1 | 289-r2-extb_e11_regra3mod_v1 | rsa-289-area-exta_v1; rsa-289-marca-exta_v1 | rsa-289-area-extb_v1; rsa-289-marca-extb_v1 | pos_289-cardio-go_meta_lead_rmk30d_202612 |
-| 333 | 333-r2-exta_e11_regra3mod_v1 | 333-r2-extb_e11_regra3mod_v1 | rsa-333-area-exta_v1; rsa-333-marca-exta_v1 | rsa-333-area-extb_v1; rsa-333-marca-extb_v1 | pos_333-citopato_meta_lead_rmk30d_202612 |
+| 333 | 333-r2-exta_e11_inicio_v2 | 333-r2-extb_e11_regra3mod_v1 | rsa-333-area-exta_v2; rsa-333-marca-exta_v2 | rsa-333-area-extb_v1; rsa-333-marca-extb_v1 | pos_333-citopato_meta_lead_rmk30d_202612 |
 | 657 | 657-r2-exta_e11_regra3mod_v1 | 657-r2-extb_e11_regra3mod_v1 | rsa-657-area-exta_v1; rsa-657-marca-exta_v1 | rsa-657-area-extb_v1; rsa-657-marca-extb_v1 | pos_657-anest-avancada_meta_lead_rmk30d_202612 |
 | 341 | 341-r2-exta_e11_regra3mod_v1 | 341-r2-extb_e11_regra3mod_v1 | rsa-341-area-exta_v1; rsa-341-marca-exta_v1 | rsa-341-area-extb_v1; rsa-341-marca-extb_v1 | pos_341-equina_meta_lead_rmk30d_202612 |
 | 68635 | 68635-r2-exta_e11_regra3mod_v1 | 68635-r2-extb_e11_regra3mod_v1 | rsa-68635-area-exta_v1; rsa-68635-marca-exta_v1 | rsa-68635-area-extb_v1; rsa-68635-marca-extb_v1 | pos_68635-clinmed-emerg_meta_lead_rmk30d_202701 |
@@ -633,22 +648,24 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 - Frase do AP7 e suas 4 condições: criativos-de-anuncio-pos-turmas-2026-10-26.md, seção 1.2. Frase do AP8 (passagem e hotel): mesma seção e contexto/pos-graduacao.md (turma mínima e confirmação da turma).
 - Nome "Faculdade UFAPE" e homonímia: contexto/ufape-geral.md; anuncios-google 1.
 - Versão 3: -exta liberada pelo gestor em 68635, 679 e 366 (gestor-de-midia-pos-2026-10-27-onda2.md, item g e seção 7); texto novo da -exta de 68632, janela de 12/03 a 09/04/2027 e -extb bloqueada até a OU3 (cmo-pos-2026-10-27-decisao-68632.md, seções 1 e 2); contagens 106, 16, 19, 38, 16 e 87 recontadas por script pelo orquestrador.
+- Versão 4: texto novo da -exta de 333 (cmo-pos-2026-10-27-decisao-333-359.md, seções 1 e 2); contagens 103, 16, 19, 19 e 83 recontadas por script pelo orquestrador, todas certas. Ficha de 333: semipresencial, módulo 1 presencial em 27 e 28/03/2027, e "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas". A -exta de 359 de maio segue a regra 8 pela mesma decisão (seção 3) e será escrita na O14 (b); 359 não está neste arquivo.
 
 ## [SUPOSIÇÃO]
 
 - "Fale com o time" como referência neutra aos módulos já realizados (origem: gestor 12.9, "o time explica os módulos já dados"; sem promessa de gravação nem reposição).
 - A -exta inclui a frase do AP8 (passagem e hotel) no Meta, por ser anterior ao início e a extensão só rodar com a turma abaixo de 15 matrículas (origem: regra da linha e anuncios-meta 6.4).
-- Nome do anúncio Meta `<código>-r2-exta_e11_regra3mod_v1` e `-extb_` (origem: a extensão é versão do r2, "turma, campus e data"; o exemplo da estratégia usa o gancho `regra3mod`; nome final é deste agente, conforme anuncios-meta 6.4). Na -exta de 68632 (v3), os nomes `68632-r2-exta_e11_inicio_v2`, `rsa-68632-area-exta_v2` e `rsa-68632-marca-exta_v2` seguem a sugestão da decisão do cmo, que a marcou como [SUPOSIÇÃO].
+- Nome do anúncio Meta `<código>-r2-exta_e11_regra3mod_v1` e `-extb_` (origem: a extensão é versão do r2, "turma, campus e data"; o exemplo da estratégia usa o gancho `regra3mod`; nome final é deste agente, conforme anuncios-meta 6.4). Na -exta de 68632 (v3), os nomes `68632-r2-exta_e11_inicio_v2`, `rsa-68632-area-exta_v2` e `rsa-68632-marca-exta_v2` seguem a sugestão da decisão do cmo, que a marcou como [SUPOSIÇÃO]. Na -exta de 333 (v4), os nomes `333-r2-exta_e11_inicio_v2`, `rsa-333-area-exta_v2` e `rsa-333-marca-exta_v2` seguem a sugestão da decisão do cmo de 333 e 359, também marcada como [SUPOSIÇÃO].
 - "Aulas em abril" e "abril de 2027" nas três turmas sem data de início citada (origem: catálogo e ficha trazem abril de 2027; em 366 vale para as duas datas, 10/04 e 24/04).
 - Persona da peça -ext (quem visitou a página ou engajou com o Instagram); pins e uso de 5 títulos próprios no Google (regras de plataforma sem fonte nos arquivos; conferir no editor).
 - Limites de 125, 40 e 30 (Meta) e 30 e 90 (Google) como referência de plataforma; as contagens são por soma de fragmentos, recontadas por script pelo orquestrador em 27/10/2026.
 - Estático 1:1 com adaptação 9:16 como formato da peça Meta (mesmo padrão do r2 do criativos v3).
 - O dia do 3º módulo que a Ufape informar para 68635, 679, 366 e 662 terá o formato de dois dias seguidos (sábado e domingo), como nas demais turmas; se for um dia só, as linhas ficam mais curtas.
 - A troca de -exta para -extb ocorre na data de início do catálogo (a aula de sábado já é a primeira).
+- "Módulo 1 presencial" na -exta de 333 informa sem criar urgência, porque a peça só roda até a véspera do início (origem: decisão do cmo de 333 e 359).
 
 ## [CONFIRMAR]
 
-- **OU3:** como o aluno recupera os módulos que perdeu. Pode mudar a última frase de toda -extb e decide a -extb de 333 e 68632 (e se a -exta arquivada de 68632 volta, por decisão do cmo em ciclo extra).
+- **OU3:** como o aluno recupera os módulos que perdeu. Pode mudar a última frase de toda -extb e decide a -extb de 333 e 68632 (e se a -exta arquivada de 333 e a de 68632 voltam, por decisão do cmo em ciclo extra).
 - **OU6:** "até o 3º módulo" lido como "até a véspera" (a mídia para na véspera) ou incluindo o dia do módulo.
 - **OU8:** como paga quem entra depois do corte (não aparece em nenhuma peça).
 - Dia do 3º módulo em 68635, 679 e 366 (trava a -extb e, pelos arquivos de campanha, também a subida da -exta, até o gestor-de-midia decidir) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
