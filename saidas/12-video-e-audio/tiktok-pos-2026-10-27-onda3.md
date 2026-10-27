@@ -29,7 +29,7 @@
 1. **Formato.** Vertical 9:16, de 1080 por 1920 pixels, de 20 a 40 segundos (todos aqui ficam entre 34 e 37; a duração é regra prática, não meta). Legenda queimada na imagem em todos: o vídeo precisa funcionar sem som. Todo gancho funciona sem som e sem conhecer a Ufape, e tem menos de 15 palavras.
 2. **Sem docente.** Nenhum dos 8 roteiros usa docente (imagem, voz, nome ou citação). A voz é locução do time da Faculdade UFAPE, com grafismo e texto na tela. Versão com docente seria pedido novo, com roteiro próprio e o ok e a revisão do docente.
 3. **Sem aluno e sem rosto.** Nenhuma cena com aluno ou pessoa reconhecível. As cenas usam grafismo, ilustração, etiquetas e termos do cronograma, ou equipamento e material sem pessoas de banco licenciado [CONFIRMAR acervo e licença, OU5 e OU15]. Nenhum grafismo mostra data, número de módulo ou print do cronograma (E6; correção V3 da revisão onda2c).
-4. **Data de início.** Não é falada e não aparece na imagem. Entra só na legenda do post, com dia, mês e ano (E9). Se o vídeo for publicado depois do início da turma, a legenda troca para a regra completa, com o texto vindo do copy-de-mensagens (O7): "a turma começou em [data], a matrícula é aceita até o 3º módulo, que nesta turma começa em [data da ficha], e, antes de pagar, o time explica como ficam os módulos que já aconteceram" (E7; correção V1). Nunca a data do 3º módulo sozinha. Em 679, 68635 e 366 (3º módulo sem dia na ficha), depois do início nenhuma legenda sai sem o dia (E18). Em 68632 não há versão pós-início: regra 8 (OU3), o vídeo sai da fila a partir de 10/04/2027 e nenhuma legenda fala de entrada depois do início (E22). **679, 366 e 68636 saem sem data até a confirmação (OU19, OU20 e OU21)**; a legenda deles traz o campo marcado e não é publicada com o campo aberto.
+4. **Data de início.** Não é falada e não aparece na imagem. Entra só na legenda do post, com dia, mês e ano (E9). Se o vídeo for publicado depois do início da turma, a legenda troca para a regra completa, com o texto vindo do copy-de-mensagens (O7): "a turma começou em [data], a matrícula é aceita até o 3º módulo, que nesta turma começa em [data da ficha], e, antes de pagar, o time explica como ficam os módulos que já aconteceram" (E7; correção V1). Nunca a data do 3º módulo sozinha. Em 679, 68635 e 366 (3º módulo sem dia na ficha), depois do início nenhuma legenda sai sem o dia (E18). Em 68632 não há versão pós-início: regra 8 (OU3), o vídeo sai da fila a partir de 10/04/2027 e nenhuma legenda fala de entrada depois do início (E22). **679, 366 e 68636 saem sem o dia até a confirmação (OU19, OU20 e OU21)**: a legenda deles diz "Início em abril de 2027", como as mensagens, os cards e os posts (regra 2.3 do plano), e troca para a data absoluta quando a Ufape confirmar; 366 só é publicado depois da OU20.
 5. **Sem número falado nem escrito na tela.** Nenhum número de módulos, de horas, de professores, de turma ou de vagas. Horas, turma e campus vão na legenda, como dado do catálogo. Em 68628 e 68617 a legenda não traz o número da turma (P5).
 6. **Proibido em fala, tela e legenda:** preço, parcela, matrícula, bolsa, prova de bolsa, desconto, promoção, MEC, certificado, certificação, reconhecimento, título ou prova de Especialista (E13), superlativo da ficha (E14: "referência nacional", "garante", "única", "especialidade", "escassez de especialistas", "inédito"), urgência ("últimas vagas", "corra", "só até", contador), promessa de emprego, renda, aprovação ou resultado clínico, "coordenação" em 68632 e 366 (OU34), e qualquer característica pessoal de quem assiste ("você que atende clínica").
 7. **Frases proibidas da E3 (caíram na onda 2) e regras de lista.** Nenhuma destas aparece: "nem gravadas", "na mão", "quase todos os temas", "a teoria vem antes da prática", "de cães e gatos" fora do nome de 68632, "você decide com a conta inteira", "laboratório inteiro". Lista de presenciais incompleta leva "entre eles", "entre outros" ou "entre elas" (E4). Nenhuma frase diz que todos os presenciais são de um tipo (E5). Nenhuma frase diz que toda a teoria é online: o texto usa "a maior parte dos módulos é online" (O2, regra 4).
@@ -64,13 +64,13 @@ Um vídeo por turma, 8 neste lote, mais o Reel de feed já previsto na seção 7
 
 | Turma | Janela | Trava |
 |---|---|---|
-| 679 | março, antes do início | OU19 (data) e página no ar e conferida em 11/12; sem a data, não sai |
+| 679 | março, antes do início | página no ar e conferida em 11/12; legenda com "abril de 2027" até a OU19 |
 | 68632 | março até 09/04/2027, 23h59 | regra 8 e OU3: sai da fila a partir de 10/04; página no ar |
 | 68635 | março até a véspera do início | página no ar; legenda pós-início só com o dia do 3º módulo (OU25) |
 | 366 | março, antes do início | OU20 (data diverge, P4): nada sai antes da confirmação; se o início for 24/04/2027, a legenda e a janela mudam (ciclo extra) |
 | 68628 | março, antes do início | página no ar; sem número de turma (P5) |
 | 68617 | março, antes do início | página no ar; URL conferida (OU29); sem número de turma (P5) |
-| 68636 | março, antes do início | OU21 (data só no site, P3): sem data, não sai |
+| 68636 | março, antes do início | página no ar; legenda com "abril de 2027" até a OU21 (data só no site, P3) |
 | 68609 | março até a véspera do início | página no ar; sem o convite da prova de Especialista (OU31) |
 
 Gravação: locução e grafismo numa única sessão de produção, se a OU15 permitir [SUPOSIÇÃO]. Entrega à edição dos 8 Reels de abril até 01/03/2027 (pedido OC4 do plano). Se a OU15 não permitir gravar tudo, a ordem de corte é pelo início mais distante (68609, depois 68617 e 68636), nunca por turma com data pendente sem avisar o cmo.
@@ -112,7 +112,7 @@ Notas (clareza, curiosidade, verdade; avaliação do agente, não medida): G1 4/
 
 > Zoonoses com teoria no sábado e prática laboratorial no domingo, virologia, micologia, bacteriologia e antibioticoterapia: o cronograma da Pós-graduação em Infectologia Veterinária, do laboratório ao controle de infecção hospitalar.
 >
-> Semipresencial, 500 horas, São Paulo, turma IV. Início: [CONFIRMAR OU19: não publicar com este campo aberto]. A maior parte dos módulos é online; os presenciais trazem prática laboratorial, zoonoses e controle de infecção hospitalar. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+> Semipresencial, 500 horas, São Paulo, turma IV. Início em abril de 2027. A maior parte dos módulos é online; os presenciais trazem prática laboratorial, zoonoses e controle de infecção hospitalar. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
 >
 > Veja o cronograma, do laboratório ao controle de infecção hospitalar: link na bio.
 >
@@ -120,7 +120,7 @@ Notas (clareza, curiosidade, verdade; avaliação do agente, não medida): G1 4/
 >
 > #infectologiaveterinaria #posgraduacao #medicinaveterinaria [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_source=instagram, utm_medium=organic_social, utm_campaign=pos_679_<AAAAMM do O8>, utm_content=679-reel1 [CONFIRMAR URL depois do OC1-A].
+- **Chamada e rastreio:** link da página da turma na bio, utm_source=instagram, utm_medium=organic_social, utm_campaign=pos_679_202701, utm_content=679-reel1 [CONFIRMAR URL depois do OC1-A].
 - **Comentário "quando começa?":** "Vou confirmar a data com a secretaria e te retorno com o link da turma" (resposta da O2, seção 3.3).
 - **Comentário "posso entrar depois que começar?":** resposta pronta do O7 com a regra completa, sem o mês do 3º módulo (E18); não improvisar.
 - **Comentário "infectologia ou clínica médica?":** ponte opcional da O2 (seção 2.5), só a critério do qa, sem dizer qual é melhor.
@@ -149,7 +149,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 4/4/4. Recomendado G1 por ser concreto, fiel à fi
 | 0 a 3 s | Gancho | G1 | "E depois do fechamento da cirurgia? Complicações, sondas, drenos." | [TEXTO NA TELA: E depois do fechamento?] |
 | 3 a 12 s | Contexto | cartão com a etiqueta PRESENCIAL em destaque; abaixo, "Princípios da cirurgia" e "Acessos cirúrgicos" entrando | "A Pós-graduação em Clínica Cirúrgica de Cães e Gatos é presencial e começa pelos princípios da cirurgia e pelos acessos cirúrgicos." | [TEXTO NA TELA: Pós-graduação em Clínica Cirúrgica de Cães e Gatos / Curso presencial] |
 | 12 a 20 s | Virada | lista animada, um tema por vez | "Segue sistema por sistema, até a neurocirurgia e as cirurgias cardiovasculares, e traz complicações, sondas, drenos e cuidados perioperatórios." | [TEXTO NA TELA: Sistema por sistema / Neurocirurgia e cirurgias cardiovasculares / Complicações, sondas e drenos] |
-| 20 a 27 s | Prova | etiquetas "Aulas teórico-práticas" e "Ética, más notícias e luto"; sem pessoas | "O curso é presencial, com aulas teórico-práticas. No fim do curso, ética, más notícias e luto na medicina veterinária." | [TEXTO NA TELA: Aulas presenciais não são transmitidas] |
+| 20 a 27 s | Prova | etiquetas "Aulas teórico-práticas" e "Ética, más notícias e luto"; sem pessoas | "O curso é presencial, com aulas teórico-práticas. Perto do fim do curso, ética, más notícias e luto na medicina veterinária." | [TEXTO NA TELA: Aulas presenciais não são transmitidas] |
 | 27 a 34 s | Chamada e cartão final | cartão da marca, sem cidade | "Veja o cronograma presencial de clínica cirúrgica, módulo a módulo." | [TEXTO NA TELA: Faculdade UFAPE / Veja o cronograma presencial de clínica cirúrgica, módulo a módulo. / @ufapevet, link na bio] |
 
 [CORTE] a cada tema da lista (12 a 20 s). Se for usado o G2 ou o G3, troque só a primeira linha da fala e o texto da tela de 0 a 3 s; o corpo cumpre os três ganchos. O vídeo não diz "primeiro módulo", não cita data e não fala de quando a turma começa nem de entrada depois do início.
@@ -166,7 +166,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 4/4/4. Recomendado G1 por ser concreto, fiel à fi
 >
 > #cirurgiaveterinaria #clinicacirurgica #posgraduacao [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68632_<AAAAMM do O8>, utm_content=68632-reel1 [CONFIRMAR URL depois do OC1-A]. Sair da fila de publicação a partir de 10/04/2027 (regra 8, enquanto OU3 estiver aberta).
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68632_202701, utm_content=68632-reel1 [CONFIRMAR URL depois do OC1-A]. Sair da fila de publicação a partir de 10/04/2027 (regra 8, enquanto OU3 estiver aberta).
 - **Comentário "ainda dá tempo?":** pela E22, só a data de início e o link: "A turma começa em 10/04/2027. O link da página está na bio."
 - **Comentário "cirurgia, reabilitação ou videocirurgia?":** frase-ponte A4 da O2, sem mudança: "A Pós-graduação em Clínica Cirúrgica de Cães e Gatos é centrada na clínica cirúrgica, dos princípios da cirurgia aos procedimentos de alta complexidade. A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária é centrada na reabilitação: avaliação, fisioterapia e recursos terapêuticos para pacientes com alterações neurológicas e ortopédicas. A Pós-graduação em Videocirurgia Veterinária é centrada na videocirurgia. A escolha depende do trabalho que você quer fazer na rotina."
 - **Comentário "preciso já operar para entrar?":** "Vou confirmar com a secretaria e te retorno" (O2). **"Quem coordena?":** não responder (OU34). Dúvida de vendas: vendas de Goiânia pelo formulário ou pela conversa da página (O7).
@@ -211,7 +211,7 @@ Notas: G1 5/3/5; G2 4/4/4; G3 4/3/5. Recomendado G1 pela clareza e porque abre s
 >
 > #clinicamedica #emergenciaveterinaria #posgraduacao [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68635_<AAAAMM do O8>, utm_content=68635-reel1 [CONFIRMAR URL depois do OC1-A]. Se publicado depois de 10/04/2027, a legenda troca para a regra completa só com o dia do 3º módulo (OU25).
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68635_202701, utm_content=68635-reel1 [CONFIRMAR URL depois do OC1-A]. Se publicado depois de 10/04/2027, a legenda troca para a regra completa só com o dia do 3º módulo (OU25).
 - **Comentário "clínica médica e emergência ou terapia intensiva?":** frase-ponte A3 da O2, sem mudança: "A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais é centrada na clínica médica, sistema por sistema, com a emergência do paciente grave no mesmo percurso. A Pós-graduação em Terapia Intensiva e Emergência Veterinária é centrada no cuidado do paciente crítico. A escolha depende do trabalho que você quer fazer na rotina." Sem link para a página de 68623 enquanto ela não passar na conferência (E19).
 - **Comentário "tem duas certificações?" ou "como é o certificado?":** "Vou confirmar com a secretaria" (OU35), sem texto pronto.
 
@@ -247,7 +247,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 5/4/5. Recomendado G3: concreto, só da ficha e se
 
 > Hidroterapia, recursos eletrofísicos, taping e terapias manuais em módulos presenciais de prática: o cronograma da Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, da avaliação da dor às terapias manuais.
 >
-> Semipresencial, 500 horas, São Paulo, turma I. Início: [CONFIRMAR OU20: não publicar com este campo aberto]. A maior parte dos módulos é online. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+> Semipresencial, 500 horas, São Paulo, turma I. Início em abril de 2027. A maior parte dos módulos é online. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
 >
 > Veja o cronograma, da avaliação da dor às terapias manuais: link na bio.
 >
@@ -255,7 +255,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 5/4/5. Recomendado G3: concreto, só da ficha e se
 >
 > #fisioterapiaveterinaria #reabilitacaoveterinaria #posgraduacao [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_366_<AAAAMM do O8>, utm_content=366-reel1 [CONFIRMAR URL depois do OC1-A]. Se a data virar 24/04/2027 (OU20), a janela e a legenda mudam e o cmo abre ciclo extra. Se publicado depois do início, a legenda troca para a regra completa só com a data e o dia do 3º módulo.
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_366_202702, utm_content=366-reel1 [CONFIRMAR URL depois do OC1-A]. Se a data virar 24/04/2027 (OU20), a janela e a legenda mudam e o cmo abre ciclo extra. Se publicado depois do início, a legenda troca para a regra completa só com a data e o dia do 3º módulo.
 - **Comentário "reabilitação, cirurgia ou videocirurgia?":** frase-ponte A4 da O2, sem mudança, a mesma da seção 2.3 deste arquivo.
 - **Comentário "quando começa?":** "Vou confirmar a data com a secretaria e te retorno" (O2). **"Fisioterapeuta pode fazer?":** "O público da turma são médicas e médicos veterinários." Pergunta sobre atuação profissional depois do curso vai ao time e à regulação, sem texto pronto [REVISÃO REGULAÇÃO]. **"Quem coordena?":** não responder (OU34).
 
@@ -299,7 +299,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 5/4/5. Recomendado G3 pela concretude e porque a f
 >
 > #oncologiaveterinaria #posgraduacao #medicinaveterinaria [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68628_<AAAAMM do O8>, utm_content=68628-reel1 [CONFIRMAR URL depois do OC1-A]. Sem número de turma na legenda (P5). Se publicado depois de 10/04/2027, a legenda troca para a regra completa com o 3º módulo em 26/06/2027 (dia da ficha), pelo texto do O7.
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68628_202612, utm_content=68628-reel1 [CONFIRMAR URL depois do OC1-A]. Sem número de turma na legenda (P5). Se publicado depois de 10/04/2027, a legenda troca para a regra completa com o 3º módulo em 26/06/2027 (dia da ficha), pelo texto do O7.
 - **Comentário "pós ou curso de eletroquimioterapia?":** vai ao guia de decisão A10 (68628-Q3), sem texto nesta casa; só encaminhar quando o guia estiver publicado [CONFIRMAR].
 - **Comentário "qual é a turma?":** sem número (P5): "Vou confirmar com a secretaria e te retorno".
 
@@ -343,7 +343,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 5/3/5. Recomendado G1 pela curiosidade técnica; G
 >
 > #endocrinologiaveterinaria #posgraduacao #medicinaveterinaria [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68617_<AAAAMM do O8>, utm_content=68617-reel1 [CONFIRMAR URL depois do OC1-A e conferir que a URL "/v/" leva à turma certa, OU29]. Sem número de turma na legenda (P5). Se publicado depois de 17/04/2027, a legenda troca para a regra completa com o 3º módulo em 19/06/2027 (dia da ficha), pelo texto do O7.
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68617_202612, utm_content=68617-reel1 [CONFIRMAR URL depois do OC1-A e conferir que a URL "/v/" leva à turma certa, OU29]. Sem número de turma na legenda (P5). Se publicado depois de 17/04/2027, a legenda troca para a regra completa com o 3º módulo em 19/06/2027 (dia da ficha), pelo texto do O7.
 - **Comentário "tem TCC?":** "Vou confirmar com a secretaria" [CONFIRMAR NO CATÁLOGO].
 - **Comentário "pós ou curso online mais curto?":** encaminhar ao guia de decisão A7, sem dizer qual é melhor, quando o guia estiver publicado [CONFIRMAR].
 
@@ -379,7 +379,7 @@ Notas: G1 4/4/4; G2 5/3/5; G3 5/4/5. Recomendado G3 pela concretude e porque cum
 
 > Da fisiologia respiratória às intervenções emergenciais: o cronograma da Pós-graduação em Pneumologia Veterinária, com aulas teóricas a distância e aulas práticas presenciais, entre elas rinoscopia, laringotraqueobroncoscopia e ultrassonografia pulmonar.
 >
-> Semipresencial, 500 horas, São Paulo, turma VIII. Início: [CONFIRMAR OU21: não publicar com este campo aberto]. A maior parte dos módulos é online.
+> Semipresencial, 500 horas, São Paulo, turma VIII. Início em abril de 2027. A maior parte dos módulos é online.
 >
 > Veja o cronograma, da fisiologia respiratória às intervenções emergenciais: link na bio.
 >
@@ -387,7 +387,7 @@ Notas: G1 4/4/4; G2 5/3/5; G3 5/4/5. Recomendado G3 pela concretude e porque cum
 >
 > #pneumologiaveterinaria #posgraduacao #medicinaveterinaria [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68636_<AAAAMM do O8>, utm_content=68636-reel1 [CONFIRMAR URL depois do OC1-A].
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68636_202701, utm_content=68636-reel1 [CONFIRMAR URL depois do OC1-A].
 - **Comentário "pneumologia, cardiologia ou ventilação mecânica?":** frase-ponte A2 da O2, sem mudança: "A Pós-graduação em Pneumologia Veterinária é centrada no sistema respiratório, da fisiologia às intervenções emergenciais no paciente respiratório. A Pós-graduação em Cardiologia Veterinária é centrada na cardiologia, da fisiologia ao laudo. A Pós-graduação em Ventilação Mecânica é centrada na ventilação mecânica. A escolha depende do trabalho que você quer fazer na rotina." Sem link para as páginas de 289 e 352 enquanto não passarem na conferência (E19).
 - **Comentário "quando começa?":** "Vou confirmar a data com a secretaria e te retorno" (OU21). **"Qual a diferença para a de ecocardiografia?":** resposta pronta do O7, sem comparar valor.
 
@@ -431,7 +431,7 @@ Notas: G1 5/4/4; G2 4/3/5; G3 4/4/5. Recomendado G1 por ser concreto, técnico e
 >
 > #anestesiologiaveterinaria #posgraduacao #medicinaveterinaria [CONFIRMAR hashtags da conta]
 
-- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68609_<AAAAMM do O8>, utm_content=68609-reel1 [CONFIRMAR URL depois do OC1-A]. Se publicado depois de 24/04/2027, a legenda troca para a regra completa com o 3º módulo em 26/06/2027 (dia da ficha), pelo texto do O7.
+- **Chamada e rastreio:** link da página da turma na bio, utm_campaign=pos_68609_202701, utm_content=68609-reel1 [CONFIRMAR URL depois do OC1-A]. Se publicado depois de 24/04/2027, a legenda troca para a regra completa com o 3º módulo em 26/06/2027 (dia da ficha), pelo texto do O7.
 - **Comentário "anestesiologia, avançada ou locorregional?":** frase-ponte A1 da O2, sem mudança: "A Pós-graduação em Anestesiologia Veterinária é centrada na anestesiologia clínica, da avaliação pré-anestésica à anestesia de pacientes especiais. A Pós-graduação em Anestesiologia Avançada é centrada na transição da anestesia de protocolo para a anestesia de precisão. A Pós-graduação em Anestesiologia Locorregional Veterinária é centrada nas técnicas de anestesia locorregional. A escolha depende do trabalho que você quer fazer na rotina." Sem link para as páginas de 657 e 359 enquanto não passarem na conferência (E19), e sem dizer quem pode entrar em 359.
 - **Comentário sobre a prova de Especialista:** secretaria, sem texto pronto (E13, OU31). **"Preciso já ser anestesista?":** resposta pronta do O7 (experiência prévia [CONFIRMAR NO CATÁLOGO]). Dúvida de vendas: vendas de Goiânia pelo formulário ou pela conversa da página (O7); o telefone entra como dado da página, não no vídeo.
 
@@ -514,7 +514,7 @@ Nenhum roteiro foi escrito para 662. Espera total até a Ufape responder OU18 (2
 
 - **OU15:** quem grava e edita, e com que custo. **OU5:** acervo de imagens e vídeos de equipamento e material sem pessoas, com licença; trilha licenciada.
 - **OC1-A:** páginas das 8 turmas publicadas e sem as frases ligadas ao MEC; URL final de cada página para a bio e a UTM.
-- **OU19, OU20 e OU21:** datas de 679, 366 e 68636; até lá, legenda sem data e vídeo sem publicação. Se o início de 366 for 24/04/2027, ciclo extra.
+- **OU19, OU20 e OU21:** datas de 679, 366 e 68636; até lá, legenda com "abril de 2027"; 366 sem publicação até a OU20. Se o início de 366 for 24/04/2027, ciclo extra.
 - **OU3:** reposição do módulo 1 presencial de 68632; até lá, nenhuma peça de 68632 fala de entrada depois do início e o vídeo sai da fila em 10/04/2027.
 - **OU25:** dia do 3º módulo de 679, 68635 e 366 (junho), necessário para qualquer legenda pós-início dessas turmas.
 - **OU29:** URL "/v/" de 68617 e número da turma. **OU31:** convite da prova de Especialista de 68609. **OU34:** quem representa 68632 e 366. **OU35:** texto da regulação sobre as duas certificações de 68635.

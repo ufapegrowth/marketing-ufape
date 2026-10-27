@@ -49,7 +49,7 @@
 15. **Facebook:** os 16 posts de feed e os 8 Reels são reaproveitados no mesmo dia ou no seguinte, com o link escrito na legenda e utm_source=facebook. Stories não vão ao Facebook.
 16. **Resposta a comentários:** pergunta de pré-requisito, de data (679, 366, 68636), de reposição de módulo, de certificação, de prova de Especialista (68609), de bolsa e de preço vai para a secretaria ou para o time de vendas, sem texto próprio. Respostas prontas: O7.
 17. **Visual padrão V1:** arte tipográfica no padrão da marca, sem foto de pessoa. Produção das artes [CONFIRMAR OU16]. Autorização de imagem: não se aplica (nenhuma pessoa na arte).
-18. **Chave `matriz` das páginas (O3, OB1).** Nas páginas de 68628, 68617, 68636 e 68609 o cronograma só fica visível depois de o dado ser corrigido. Os posts dessas quatro que mandam ver o "cronograma na página da turma" só saem com a `matriz` visível; sem ela, a chamada passa a "Veja os módulos presenciais e o corpo docente na página da turma", a mesma variante do O6 [SUPOSIÇÃO de troca, o qa decide]. As outras quatro (679, 68632, 68635 e 366) não têm essa condição no O6. Em 679, 366 e 68636, a chave `local_e_datas` só aparece depois da data confirmada.
+18. **Chave `matriz` das páginas (O3, OB1).** Nas páginas de 68628, 68617, 68636 e 68609 o cronograma só fica visível depois de o dado ser corrigido. Os posts dessas quatro que mandam ver o "cronograma na página da turma" só saem com a `matriz` visível; sem ela, a chamada passa a "Veja os módulos presenciais e o corpo docente na página da turma", a mesma variante do O6 (troca confirmada pelo qa na revisão onda3e). As outras quatro (679, 68632, 68635 e 366) não têm essa condição no O6. Em 679, 366 e 68636, a chave `local_e_datas` só aparece depois da data confirmada.
 
 ### 0.1 Link e UTM orgânica (regra 12 do plano)
 
@@ -60,7 +60,7 @@ Padrão: `?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_<cód
 | 679 | https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria | pos_679_202701 | D03 do O6 (05/01/2027); o 679-F1 é de 26/01 |
 | 68632 | https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania | pos_68632_202701 | D04 do O6 (07/01/2027) |
 | 68635 | https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo | pos_68635_202701 | AD-A3-1, feed de 14/01/2027 |
-| 366 | https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo | pos_366_202702 | o primeiro post da turma é o 366-F1 (04/02/2027), antes do D16 (02/04). **O O6 usa pos_366_202701 como base [SUPOSIÇÃO de janeiro]: o O6 alinha para 202702, ou eu troco os 7 links se o cmo puser outro primeiro post** |
+| 366 | https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo | pos_366_202702 | o primeiro post da turma é o 366-F1 (04/02/2027), antes do D16 (02/04). O O6 já usa pos_366_202702 (alinhado pelo orquestrador em 27/10/2026); se o primeiro post de 366 mudar de mês, a chave muda em bloco nas duas saídas |
 | 68628 | https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo | pos_68628_202612 | D01 do O6 (22/12/2026); se o D01 não sair em dezembro, trocar por pos_68628_202701 nos 7 links |
 | 68617 | https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo | pos_68617_202612 | D02 do O6 (29/12/2026); se não sair em dezembro, pos_68617_202701. **A URL com "/v/" é conferida no dia da subida (OU29)** |
 | 68636 | https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria | pos_68636_202701 | D05 do O6 (12/01/2027) |
@@ -235,8 +235,8 @@ Cada Reel é antes do início da turma (os mais próximos: 679 em 03/04, com o R
 ### 2.5 Condicionais e fallbacks
 
 - **22/01 (68609-F1) e 28/01 (68632-F1)** são os dois slots condicionais do plano (22/01 só se a onda 1 não usar; 28/01 só se 341 não tiver OU10, caso em que 28/01 é o Reel de 341). Se um dos dois cair, o F1 afetado vai para 04/02 e o 366-F1 passa para 30/03 (só com a data de 366 confirmada). Se os dois caírem, o 68609-F1 vai para 04/02, o 68632-F1 vira Stories de 3 telas no slot livre de 26/01 (mesma arte, mesma UTM com utm_content=68632-f1; ordem de corte da estrategia-social 3.3) e o 366-F1 vai para 30/03.
-- **366 (P4, OU20):** nenhum post de 366 sai antes da data confirmada. Se o início for 24/04/2027 (site e cronograma), abre ciclo extra (plano 7.7): o S3 vai para 23/04 (D19 do lote B, 1 sequência, total 2), o S4 para 20/04 (com R4, total 2) e o corte da 1ª mensalidade vira 25/03 (o F2 de 09/03 segue antes do corte). Se a data não estiver confirmada até 30/11, o F1 de 04/02 e o S1 de 05/02 esperam, sem acumular.
-- **679 (P3, OU19) e 68636 (OU21):** nenhum post sai com o dia; o S3 de cada uma tem a versão com o dia, só depois da confirmação. O Reel de cada uma segue a condição do O9 (legenda do O9 só preenchida depois da confirmação) [SUPOSIÇÃO: o qa decide se o Reel também sai com "abril de 2027", como os posts].
+- **366 (P4, OU20):** nenhum post de 366 sai antes da data confirmada. Se o início for 24/04/2027 (site e cronograma), abre ciclo extra (plano 7.7): o S3 vai para 23/04 (D19 do lote B, 1 sequência, total 2), o S4 para 16/04 (com o D18 do lote B, total 2; 20/04 já tem R4 e o 68609-S3) e o corte da 1ª mensalidade vira 25/03 (o F2 de 09/03 segue antes do corte). Se a data não estiver confirmada até 30/11, o F1 de 04/02 e o S1 de 05/02 esperam, sem acumular.
+- **679 (P3, OU19) e 68636 (OU21):** nenhum post sai com o dia; o S3 de cada uma tem a versão com o dia, só depois da confirmação. O Reel de cada uma sai com "Início em abril de 2027" na legenda, como os posts (decisão do qa na revisão onda3e; o O9 foi alinhado), e troca para a data absoluta quando a Ufape confirmar.
 - **Página fora do ar na data do post:** o post espera a conferência (regra 13 do plano); toque perdido não acumula.
 - **Se a U8 trouxer teto menor:** primeiro cortam-se os slots livres (30/03 e 02/04) e os condicionais; depois o feed vira Stories (formato muda, o post não sai); o mínimo de 2 de feed e 4 Stories por turma não baixa. Nunca sai a resposta a comentários.
 - **Slots livres de Stories para um S1 deslocado (onda 1):** 12/01, 15/01, 26/01 e 04/02 (1 sequência cada).
@@ -360,7 +360,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 - **Texto da arte (telas):**
   - Tela 1: "Antes de comprar passagem e hotel" | "Pós-graduação em Infectologia Veterinária"
   - Tela 2: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada."
-  - Tela 3: "Os módulos presenciais, com prática de laboratório e de zoonoses, estão no cronograma da página da turma" | "Fale com o time" | figurinha de link
+  - Tela 3: "Os módulos presenciais, com prática de laboratório, de zoonoses e de controle de infecção hospitalar, estão no cronograma da página da turma" | "Fale com o time" | figurinha de link
 - **Corpo:** só a arte. Sem legenda.
 - **Ponto de vista:** a viagem se planeja com a turma confirmada, e o cronograma já mostra o mês de cada presencial.
 - **Linha final ou pergunta:** nenhuma.
@@ -393,7 +393,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 
 - **Gancho recomendado (O9, 679-G3):** Zoonoses: sábado de teoria, domingo de prática laboratorial.
 - **Alternativos do O9:** 679-G1 "O diagnóstico da doença infecciosa começa na amostra." (pede a conferência do docente revisor); 679-G2 "Virologia e bacteriologia online. Laboratório e zoonoses no presencial."
-- **Roteiro e legenda:** os do O9 (seções 1.2 e 1.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 679. O O9 pede que a legenda não seja publicada com o campo de início aberto (OU19): o qa decide qual das duas regras vale [SUPOSIÇÃO].
+- **Roteiro e legenda:** os do O9 (seções 1.2 e 1.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 679. Vale "abril de 2027" na legenda até a OU19 (decisão do qa na revisão onda3e; o O9 foi alinhado).
 - **Chamada:** "Veja o cronograma, do laboratório ao controle de infecção hospitalar." Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_679_202701&utm_content=679-reel1
 - **Conferência:** sem data falada nem na imagem; sem print de cronograma (E6); sem docente; Facebook reaproveita.
@@ -466,12 +466,12 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   - Tela 2: "Módulo presencial de 10 e 11/02/2029" | "Processos éticos em Medicina Veterinária, comunicação de más notícias e luto na Medicina Veterinária" | "Também: particularidades das cirurgias em felinos e abordagem emergencial do paciente traumatizado"
   - Tela 3: "Cronograma na página da turma" | "Local: Ufape Goiânia" | figurinha de link
 - **Corpo:** só a arte. Sem legenda.
-- **Ponto de vista:** o curso fecha o percurso cirúrgico com o que a técnica sozinha não resolve.
+- **Ponto de vista:** perto do fim, o cronograma traz o que a técnica sozinha não resolve.
 - **Linha final ou pergunta:** nenhuma.
 - **Chamada para ação:** figurinha "Ver cronograma". Veja parcelas, total e matrícula na página da turma.
 - **Link:** https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68632_202701&utm_content=68632-s2
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** módulo 23 e data literais da ficha ("profilaxia da culpa" fica fora); tom sensível, o qa decide; [REVISÃO DOCENTE] se acrescentarem explicação.
+- **Conferência:** módulo 23 e data literais da ficha ("profilaxia da culpa" fica fora); tom sensível conferido pelo qa (revisão onda3e): tema literal do módulo 23, sem conduta, aprovado; [REVISÃO DOCENTE] se acrescentarem explicação.
 
 ### 68632-F2 | quinta 04/03/2027 | feed B | carrossel de 6 cards | conversão
 
@@ -788,7 +788,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   - Card 1: "Reabilitação começa pela avaliação" | "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária"
   - Card 2: "O curso parte do caminho clínico" | "Histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor"
   - Card 3: "Depois, o protocolo de fisioterapia" | "Com o objetivo de restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão, como a página descreve"
-  - Card 4: "A maior parte dos módulos é online" | "Os presenciais trazem prática, entre eles avaliação e reabilitação neurológica e ortopédica" | "Aulas presenciais e práticas não são transmitidas"
+  - Card 4: "A maior parte dos módulos é online" | "Dos 9 presenciais, 7 são de prática, entre eles avaliação e reabilitação neurológica e ortopédica" | "Aulas presenciais e práticas não são transmitidas"
   - Card 5: "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
   - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma" | "Turma I | São Paulo | início em abril de 2027"
 - **Corpo (legenda):**
@@ -796,7 +796,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
   >
   > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária parte do caminho clínico: histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor, para então estabelecer o protocolo de fisioterapia, com o objetivo de restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão, como a página descreve.
   >
-  > A maior parte dos módulos é online. Os presenciais trazem prática, entre eles avaliação e reabilitação neurológica e ortopédica. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
+  > A maior parte dos módulos é online. Dos 9 presenciais, 7 são de prática, entre eles avaliação e reabilitação neurológica e ortopédica. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
   >
   > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
   >
@@ -851,7 +851,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 
 - **Gancho recomendado (O9, 366-G3):** Hidroterapia, recursos eletrofísicos, terapias manuais: prática presencial.
 - **Alternativos do O9:** 366-G1 "Por onde começa a reabilitação veterinária? Pela avaliação." (pede a conferência do docente revisor); 366-G2 "Da fisiopatologia da dor às terapias manuais, em módulos online e presenciais."
-- **Roteiro e legenda:** os do O9 (seções 4.2 e 4.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 366. O O9 pede que a legenda não seja publicada com o campo de início aberto (OU20): o qa decide qual regra vale [SUPOSIÇÃO].
+- **Roteiro e legenda:** os do O9 (seções 4.2 e 4.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 366. Vale "abril de 2027" no rascunho da legenda, como nos demais posts de 366 (decisão do qa na revisão onda3e); o Reel só é publicado depois da OU20.
 - **Chamada:** "Veja o cronograma, da avaliação da dor às terapias manuais." Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_366_202702&utm_content=366-reel1
 - **Conferência:** o Reel está em 01/04 (e não em 02/04) para não cair no dia do D16 do O6 (sequência de docente de 366). Se o início for 24/04, a janela e a legenda mudam (ciclo extra).
@@ -1270,7 +1270,7 @@ Depois dos 32 Stories deste arquivo, ficam livres 21 sequências entre 12/01 e 2
 
 - **Gancho recomendado (O9, 68636-G3):** Rinoscopia e ultrassonografia pulmonar: aula prática presencial.
 - **Alternativos do O9:** 68636-G1 "Braquicefálico, doença pleural, tromboembolismo pulmonar: o caso respiratório pede exame e imagem."; 68636-G2 "Teoria a distância, aula prática presencial: pneumologia veterinária."
-- **Roteiro e legenda:** os do O9 (seções 7.2 e 7.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 68636. O O9 pede o campo aberto até a confirmação (OU21) e a legenda não publicada: o qa decide qual regra vale [SUPOSIÇÃO]. Este é o único Reel do lote A, com o de 68609, sem a frase "não transmitidas".
+- **Roteiro e legenda:** os do O9 (seções 7.2 e 7.3), sem mudança, com o campo de início em "abril de 2027" como nos demais posts de 68636. Vale "abril de 2027" na legenda até a OU21 (decisão do qa na revisão onda3e; o O9 foi alinhado). Este é o único Reel do lote A, com o de 68609, sem a frase "não transmitidas".
 - **Chamada:** "Veja o cronograma, da fisiologia respiratória às intervenções emergenciais." Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_68636_202701&utm_content=68636-reel1
 - **Conferência:** sem data falada, sem print de cronograma, sem docente, sem cidade na fala; frase-ponte A2 só como resposta a comentário, sem link para as páginas de 289 e 352 (E19).
@@ -1508,7 +1508,7 @@ Nenhum post foi escrito para 662. Espera total até a Ufape responder OU18 (24/0
 
 ## Próximo passo
 
-Próximo agente sugerido: **criador-de-ganchos**, para escolher a primeira linha final de cada um dos 48 posts entre as três opções (principal e 2 alternativas) e conferir os ganchos marcados [SUPOSIÇÃO de texto] (679-F1, 68632-S2) e os que dependem de revisão docente (A10-02, A10-07, A7-10, 366-F2, 68609-F2). Em paralelo, na cadeia do plano: O6 (autoridade-docente) alinha o utm_campaign de 366 (pos_366_202702) e confere que nenhum Stories de turma cai no dia da sequência de docente dela; O7 (copy-de-mensagens) usa as datas da seção 7.3 do plano, sem choque com os posts; O9 (tiktok) confirma as datas dos 8 Reels; o qa-de-marketing (O18c) revisa este arquivo com auditorias/05-social.md e auditorias/conformidade-educacional.md. O lote B (maio) entra em nova versão deste arquivo, com a conta slot a slot dos Stories que sobram (seção 2.6).
+Próximo agente sugerido: **criador-de-ganchos**, para escolher a primeira linha final de cada um dos 48 posts entre as três opções (principal e 2 alternativas) e conferir os ganchos marcados [SUPOSIÇÃO de texto] (679-F1, 68632-S2) e os que dependem de revisão docente (A10-02, A10-07, A7-10, 366-F2, 68609-F2). Em paralelo, na cadeia do plano: O6 (autoridade-docente) já usa o utm_campaign de 366 (pos_366_202702) e confere que nenhum Stories de turma cai no dia da sequência de docente dela; O7 (copy-de-mensagens) usa as datas da seção 7.3 do plano, sem choque com os posts; O9 (tiktok) confirma as datas dos 8 Reels; o qa-de-marketing (O18c) revisa este arquivo com auditorias/05-social.md e auditorias/conformidade-educacional.md. O lote B (maio) entra em nova versão deste arquivo, com a conta slot a slot dos Stories que sobram (seção 2.6).
 
 ---
 
@@ -1532,11 +1532,11 @@ Próximo agente sugerido: **criador-de-ganchos**, para escolher a primeira linha
 - A escolha dos temas, da ordem e dos dias dentro dos slots livres (seções 1 e 2), inclusive a troca de tipo de slot dentro da semana (Reel em terça ou quinta, F2 em sexta), que é decisão do cmo pela seção 7.6.
 - Que as reservas R1 a R13 da onda 2 contam como ocupadas enquanto a onda 2 não as liberar, e que os slots D do lote B ocupam o dia.
 - Que a onda 1 não ocupa 05/01, 07/01, 08/01 e 22/01 com Stories (o arquivo dela não consta); fallback na seção 2.5 do arquivo principal.
-- 366: utm_campaign pos_366_202702, porque o 366-F1 (04/02) é o primeiro post da turma; o O6 usa 202701 como suposição.
+- 366: utm_campaign pos_366_202702, porque o 366-F1 (04/02) é o primeiro post da turma; o O6 já usa a mesma chave.
 - Frases de abertura e de contraste do texto da squad: 679-10 ("Infectologia não é só antibiótico") e 68632-G3 ("Cirurgia além da técnica"), a validar pelo qa e pela pessoa do marketing.
 - Que "Faz plantão?" (68635-F2) e "Vai viajar todo mês?" (68632-F2) são perguntas e não afirmam nada sobre quem lê.
 - Sequências de Stories com figurinha de link e sem legenda; Facebook sem Stories.
-- Que a legenda dos Reels de 679, 366 e 68636 pode sair com "início em abril de 2027" como os posts, enquanto o O9 pede o campo aberto: o qa decide.
+- Legenda dos Reels de 679, 366 e 68636 com "início em abril de 2027", como os posts: decidido pelo qa na revisão onda3e (366 só sai depois da OU20).
 - Que a conferência com o lote B pode ser feita depois, pela reserva do plano, enquanto o arquivo de posts de maio não existe.
 - Corte da 1ª mensalidade 30 dias antes do início em cada turma (fórmula do plano).
 
@@ -1553,4 +1553,4 @@ Próximo agente sugerido: **criador-de-ganchos**, para escolher a primeira linha
 - **OU16:** quem produz as artes (feed, Stories e Reels); **OU15:** quem grava os Reels; **U8:** horas do time e teto D5 real; feed das outras três linhas e turnos; grade do @ufapevet depois de 24/01/2027.
 - Quem aprova posts orgânicos (tabela de aprovação de ufape-geral.md) e quem publica; hashtags da conta; revisor docente nomeado para as frases clínicas marcadas [REVISÃO DOCENTE].
 - **[CONFIRMAR NO CATÁLOGO]:** número de módulos de 68609 (26 ou 24); nível de entrada e experiência prévia de 679, 68632, 68628, 68636 e 68609; linha de reembolso e aviso de passagem de 679; TCC de 68617.
-- Arquivo de posts da onda 1 (conferência de 05/01, 07/01, 08/01 e 22/01) e arquivo de posts do lote B (conferência slot a slot dos Stories que sobram).
+- Arquivo de posts da onda 1 (conferência de 05/01, 07/01, 08/01 e 22/01) e arquivo de posts do lote B (conferência slot a slot dos Stories que sobram). Data absoluta de 679, 366 e 68636 (OU19, OU20, OU21) para trocar "abril de 2027" nos posts e nas legendas dos Reels.

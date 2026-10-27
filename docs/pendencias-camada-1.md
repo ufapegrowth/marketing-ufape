@@ -86,3 +86,18 @@ Aprovada pelo qa-de-marketing (revisões midia-d a f, onda3c e onda3d). Nada sob
 | OM1 a OM7 | Conferência das páginas de abril, pausa de 662 (com ciência do cmo), execução em sábado e feriado, plano de maio | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md |
 
 Verba: R$ 2.000,00 por turma (Meta 17.740,00 e Google 10.260,00 nas 14 turmas; 662 com a verba reservada). Travas: OU3 (333 e 68632 só com a -exta nova e mídia parando na véspera do início), dia do 3º módulo (68635, 679 e 366 sem -extb), OU18 (662), páginas corrigidas (OB1 e OC1).
+
+## Onda 3 da Pós, lote A (turmas de abril de 2027: 679, 68632, 68635, 366, 68628, 68617, 68636, 68609), pronta para a aprovação humana em 27/10/2026
+
+Aprovada pelo qa-de-marketing (revisões onda3, onda3a, onda3b, onda3b2, onda3c, onda3d e onda3e). 662 em espera total até OU18. Nada sobe, é enviado, publicado ou pago sem a pessoa do marketing.
+
+| Pedido | O que aprovar | Arquivo |
+|---|---|---|
+| OC1-A | Publicar as 8 páginas e corrigir o site no ar (lista OB1 por turma) | saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md, com seo-on-page e otimizador-de-cta do mesmo dia |
+| OC2 | Envio das mensagens de nutrição (55 textos) | saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md |
+| OC3 e AD-O6-1 a AD-O6-8 | Posts de docente, 129 cards e a grade | saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md |
+| OC4 | 48 posts e 8 Reels | saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md e saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md |
+| AF1 a AF7 e DEC1 a DEC8 | Listas e automações do CRM | saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md |
+| OM1 a OM7 | Mídia: conferência das páginas, pausa de 662, sábados e feriados, plano de maio | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md |
+
+Travas: política de privacidade; U11; datas de 679, 366 e 68636 (OU19 a OU21); dia do 3º módulo de 679, 68635 e 366 (OU25); OU3 em 68632; `matriz` corrigida no site em 68628, 68617, 68636 e 68609; campos `titulo` e apoio aceitos pela plataforma; quem grava os Reels (OU15).

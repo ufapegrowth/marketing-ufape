@@ -36,7 +36,7 @@
 | 68636 | seg 04/01 | qua 20/01 | qua 17/02 | sex 26/02 | seg 15/03 | ter 13/04 (acréscimo) | sex 30/04 (4º do kit) | pos_68636_202701 |
 | 68635 | qua 20/01 | sex 05/02 | sex 19/02 | seg 01/03 | seg 08/03 | ter 06/04 (4º do kit) | seg 03/05 (acréscimo, só com o dia) | pos_68635_202701 |
 | 68609 | qua 20/01 | seg 15/02 | qui 25/02 | seg 08/03 | qua 17/03 | seg 19/04 (acréscimo) | ter 11/05 (4º do kit) | pos_68609_202701 |
-| 68632 | sex 22/01 | seg 15/02 | seg 22/02 | qua 03/03 | sex 05/03 | seg 05/04 (4º do kit, sem a frase do 3º módulo) | seg 04/05, reservado sem texto (OU3) | pos_68632_202701 |
+| 68632 | sex 22/01 | seg 15/02 | seg 22/02 | qua 03/03 | sex 05/03 | seg 05/04 (4º do kit, sem a frase do 3º módulo) | ter 04/05, reservado sem texto (OU3) | pos_68632_202701 |
 | 679 | sex 22/01 | sex 19/02 | seg 22/02 | qua 24/02 | seg 01/03 | seg 29/03 (4º do kit) | seg 26/04 (acréscimo, só com o dia) | pos_679_202701 |
 | 366 | sex 05/02 | qua 17/02 | qua 24/02 | seg 01/03 | seg 08/03 | qua 07/04 (4º do kit) | seg 03/05 (acréscimo, só com a data e o dia) | pos_366_202702 |
 
