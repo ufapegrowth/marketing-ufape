@@ -33,11 +33,26 @@
 | ESPERA | Depende de resposta ou de correção que só a Ufape faz |
 | A FAZER | Ainda não foi produzido |
 
+### Termos usados neste documento
+
+| Termo | O que quer dizer |
+|---|---|
+| Squad | Equipe de agentes de marketing que planeja, escreve e revisa os rascunhos. Nada vai ao ar sem a pessoa do marketing |
+| qa | Revisão de qualidade e de conformidade (dados do catálogo, regras do MEC e do consumidor, privacidade) feita antes da aprovação humana |
+| Onda | Grupo de turmas planejadas juntas pela data de início (onda 1: começam até 28/11/2026; onda 2: março de 2027; onda 3: abril e maio de 2027) |
+| Camada 1 e camada 2 | Camada 1: estratégia de cada linha. Camada 2: mensagens e peças-base por área de especialidade |
+| Kit mínimo | Lista mínima de peças que toda turma recebe (página, posts, criativos, mensagens, roteiro de vídeo) |
+| Card | Story do Instagram que apresenta um docente da turma |
+| Remarketing e Busca | Anúncio só para quem já visitou a página; anúncio no Google para quem procura o tema |
+| UTM, CRM e opt-in | Etiqueta no link que mostra de onde veio o contato; sistema de contatos da Ufape; autorização do contato para receber mensagens |
+| Extensão | Últimos 15% da verba da turma, usados depois da data de corte até a véspera do 3º módulo |
+| Códigos | OA, OB e OC: pedidos de aprovação das ondas 1, 2 e 3 da Pós. OU e U: perguntas à Ufape. G e MP: pedidos da Graduação. AMP e AGP: campanhas Meta e Google da Pós. R, A e P: aprovações, pedidos e pendências do plano geral. Os demais códigos seguem a lista de aprovação do arquivo citado na mesma linha |
+
 ---
 
 ## 1. Resumo em 5 frases
 
-1. Em 26 e 27/10/2026 a squad fechou o planejamento geral (33 etapas da camada 1) e montou, em rascunho, o trabalho de tudo o que começa até abril de 2027: 6 turmas de Pós que começam entre 30/10 e 28/11, 5 turmas de março e 9 de abril de 2027, a Graduação 2027.1, o Workshop Brasileiro de Neuromonitorização (20 e 21/11), as 22 provas de bolsa (27/11) e os Cursos Livres, sem que nada tenha sido publicado, enviado ou pago.
+1. Em 26 e 27/10/2026 a squad fechou o planejamento geral (33 etapas da camada 1) e montou, em rascunho, o trabalho de tudo o que começa até abril de 2027: 6 turmas de Pós que começam entre 30/10 e 28/11, 5 turmas de março e 9 de abril de 2027 (8 com o kit pronto e a 662 em espera), a Graduação 2027.1, o Workshop Brasileiro de Neuromonitorização (20 e 21/11), as 22 provas de bolsa (27/11) e os Cursos Livres, sem que nada tenha sido publicado, enviado ou pago.
 2. Estão prontos para a sua aprovação, depois de passarem pelo qa: o plano e as mensagens das 6 turmas da onda 1, o kit completo das 5 turmas de março e das 8 turmas de abril, a mídia paga de 14 turmas de março e abril (Meta R$ 17.740,00 e Google R$ 10.260,00, no total de R$ 28.000,00, R$ 2.000,00 por turma) e o kit e as campanhas da Graduação (R$ 2.000,00 por curso).
 3. O que segura a subida não é a produção, é o que só a Ufape tem: o endereço da política de privacidade, o valor da inscrição da Pós (R$ 260,00 ou R$ 250,00), a correção das páginas no site (inclusive a frase ligada ao MEC e a turma mínima de 20), as respostas sobre reposição de módulos e datas, e quem aprova, quem grava e quantas horas o time tem.
 4. Ainda não existe nenhum número de leads, inscrições, matrículas ou gasto nos arquivos recebidos, então hoje não dá para dizer se a verba virou matrícula; o que existe é a meta (pelo menos 15 matrículas por curso, com no máximo R$ 133,33 de mídia por matrícula) e a conta de que ela fecha se o custo por cadastro ficar dentro do limite.
@@ -59,10 +74,10 @@ Regra de leitura: só entra aqui o que o diário e os arquivos dizem. Onde o di�
 | Pós abril de 2027 (8 turmas; 662 em espera) | PRONTO PARA APROVAR | Kit do lote A completo aprovado pelo qa em 27/10 |
 | Mídia paga das 14 turmas de março e abril | PRONTO PARA APROVAR | Meta e Google aprovados pelo qa; 662 com a verba reservada e a campanha atual com pedido de pausa |
 | Graduação 2027.1 | PRONTO PARA APROVAR (kit e campanhas); travas abertas | Kit mínimo coberto nos dois cursos; Pedagogia e noturno de Medicina Veterinária seguram a mídia |
-| Workshop Brasileiro de Neuromonitorização | PRONTO PARA APROVAR (posts e mensagens) e ESPERA | Posts e mensagens aprovados pelo qa em 27/10; criativos sem revisão; a mídia já está no ar e precisa de conferência em 28/10 |
+| Workshop Brasileiro de Neuromonitorização | PRONTO PARA APROVAR (posts e mensagens) e ESPERA | Mensagens aprovadas pelo qa em 27/10 e posts com a última troca aplicada e conferida no mesmo dia; criativos sem revisão; a mídia já está no ar e precisa de conferência em 28/10 |
 | 22 provas de bolsa | SUSPENSO (decisão 14) | Rascunhos da camada 1 existem e pedem varredura da decisão 20 (provas presenciais) |
 | Cursos Livres e contínuos | SUSPENSO (decisão 14) | Estratégia pronta; kit por curso A FAZER |
-| Mapa mental e JSON | Mapa e 184 JSON gerados em 27/10; qa M.4 pendente | Esta narrativa é a etapa M.2 |
+| Mapa por curso | Mapa e 184 arquivos por curso gerados em 27/10 e refeitos depois da primeira revisão de qualidade; a reconferência de 27/10 ainda pede ajustes no gerador | O mapa deste documento mostra os 100 itens que começam até abril de 2027 |
 
 ### 2.2 Pós, onda 1: as 6 turmas que já estão em operação
 
@@ -122,7 +137,7 @@ Fonte: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md (versã
 
 O que está pronto para as 8 turmas: 8 páginas, 55 textos de mensagens, 129 cards de docente mais 9 posts de coordenação, 48 posts, 8 roteiros de vídeo, listas do CRM com 55 toques em 31 dias sem colisão, e o memorando da mídia com conferência de página em 11/12 e 04/01.
 
-Ponto de atenção honesto: dos 262 cards de docente das ondas de abril e maio (129 e 133), só 103 têm dia firme no calendário e 159 ficaram como lacuna registrada, por falta de capacidade do perfil e por falta da resposta sobre as horas do time (U8). O mínimo do kit não foi reduzido; a lacuna está escrita com o motivo.
+Ponto de atenção: dos 129 cards de docente de abril, 52 têm dia firme no calendário e 77 ficaram como lacuna registrada (65 se as reservas da onda 2 forem liberadas), por falta de capacidade do perfil e por falta da resposta sobre as horas do time (U8). O mínimo do kit não foi reduzido; a lacuna está escrita com o motivo. Os 133 cards de maio estão na próxima etapa (seção 7).
 
 ### 2.5 Mídia paga das 14 turmas de março e abril
 
@@ -163,7 +178,7 @@ O que segura a mídia da Graduação:
 Fontes: contexto/catalogo-de-cursos.md (linha do evento, 26/10), docs/execucao-2026-10-26.md (decisões 6, 7, 8 e 10), saidas/10-operacoes-de-marketing/cursos/eventos-workshop-neuromonitorizacao-2026-11-20.json e backlog A08.
 
 - Dados do catálogo: São Paulo, Av. Tiradentes, 960 (Unidade 2); presencial teórico e prático, 16 h, 30 vagas, R$ 1.250,00; transmitido e gravado (só teoria), R$ 450,00 (produto 68634); 20% de desconto para aluno e ex-aluno com o cupom SIMPNEUROMONIT. Página oficial: https://faculdade.ufape.com.br/neuro-summit/. Peças só com os docentes confirmados.
-- Rascunhos existentes (estratégia de campanha, criativos, posts com o nome oficial, mensagens, nutrição, anúncios Meta, plano de mídia do gestor com a sequência EVM1): posts e mensagens foram corrigidos e aprovados pelo qa na reconferência de 27/10 (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-27-c.md) e aguardam a aprovação humana; os criativos seguem sem revisão. Envio e publicação continuam travados por E5 (pagamento do presencial), E6 (validade do cupom), verificação do produto 68634 (segura todo trecho do transmitido), AP8 (texto do certificado), A2, A4, A5 (templates da Meta) e opt-in no CRM e no checkout.
+- Rascunhos existentes (estratégia de campanha, criativos, posts com o nome oficial, mensagens, nutrição, anúncios Meta, plano de mídia do gestor com a sequência EVM1): as mensagens foram aprovadas pelo qa na reconferência de 27/10 (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-27-c.md); os posts receberam ali uma última troca de texto, já aplicada e conferida no mesmo dia; os dois aguardam a aprovação humana, e os criativos seguem sem revisão. Mesmo com a aprovação, envio e publicação esperam: as linhas de preço do presencial (E5), a validade do cupom (E6), a verificação do produto transmitido 68634 (segura todo trecho sobre o transmitido), o link e o prazo da gravação na mensagem M8 (AP8), o endereço e o bloco da prova na mensagem M9 (A4), o WhatsApp das mensagens M6 e M7 (A2), a aprovação dos modelos de mensagem na Meta (A5) e o registro do consentimento no CRM e no checkout.
 - A campanha paga do evento já está no ar (visão de campanhas de 26/10) e é anterior à decisão sobre nome e destino. Em 28/10 alguém da Ufape precisa conferir, anúncio por anúncio, a URL final e o nome usado (backlog A08).
 - O que a Ufape ainda não respondeu: fim das inscrições e validade e limite do cupom (U9); carga horária e status do produto 68634 na loja.
 
@@ -341,7 +356,7 @@ Quem administra a loja executa; a squad não altera páginas.
 | 36 | U5, U6 | A 68637 continua à venda depois de corrigida a 623? A linha "Pneumologia" da visão é da 670 ou da 68636? | 28/10 para conferir URLs; depois, sem data fixa |
 | 37 | U7 | Aprova o crédito do curso livre na matrícula da Pós? Até a resposta nenhuma peça cita crédito | sem data nos planos [CONFIRMAR] |
 | 38 | U9 | Fim das inscrições do Workshop, validade e limite do cupom | sem data nos planos; antes da mudança do público frio em 10/11 [SUPOSIÇÃO] |
-| 39 | A4, A6, A12 | A4: as 6 turmas iniciadas e pausadas ainda antes do 3º módulo serão conferidas pelo gestor e trazidas ao cmo, sem reativar nada (03/11); A6: correção de 698; A12: planilha e site (P3 a P7) | 03/11 (A4); demais sem data fixa |
+| 39 | A4, A6, A12 | A4: decidir se as campanhas pagas ainda ativas das 6 turmas já iniciadas (650, 68662, 706, 586, 554 e 68612) são pausadas ou mantidas, depois da conferência do gestor de mídia; A6: correção de 698; A12: planilha e site (P3 a P7) | 03/11 (A4) [CONFIRMAR: origem da data]; demais sem data fixa |
 | 40 | CP1 | Cidade fora do texto da página: decidida pelo cmo em 27/10 (vale só para o texto de página; assunto, primeira linha e posts podem dizer o campus). Não há pergunta aberta | decidido |
 
 ---
@@ -352,11 +367,11 @@ Quem aprova: a pessoa do marketing. Quem executa no site, no CRM e no gerenciado
 
 | Bloco | Códigos | O que se aprova | Arquivo |
 |---|---|---|---|
-| Camada 1 (aprovações de 26/10) | R1 a R8, Verba | R1: teto de mensagens (já decidido pelo cmo, D16); R2: mensagens de serviço fora da janela (27/11 às 8h, 20 e 21/11 às 8h, sábado de Livres); R3: mídia do Workshop; R4: mídia da 616 em 19/11; R5: 289 sem aumento e URL da 662; R6: teste de LinkedIn só da 657 (11 a 31/01/2027), que perdeu o sentido porque LinkedIn saiu pela decisão 15; R7: mensagem pós-Workshop de 25/11 convida para a prova de Anestesiologia ou Neurologia; R8: anúncios para a 623; Verba do trimestre | docs/pendencias-camada-1.md, seção 1 |
+| Camada 1 (aprovações de 26/10) | R1 a R8, Verba | R1: teto de mensagens (já decidido pelo cmo, D16); R2: mensagens de serviço fora da janela (27/11 às 8h, 20 e 21/11 às 8h, sábado de Livres); R3: mídia do Workshop; R4: mídia da 616 em 19/11; R5: 289 sem aumento e URL da 662; R6: teste de LinkedIn só da 657 (11 a 31/01/2027), que talvez tenha perdido o sentido, porque o LinkedIn pago saiu do plano de mídia com a verba de R$ 2.000,00 por turma (decisão 15) [SUPOSIÇÃO]; R7: mensagem pós-Workshop de 25/11 convida para a prova de Anestesiologia ou Neurologia; R8: anúncios para a 623; Verba do trimestre | docs/pendencias-camada-1.md, seção 1 |
 | Pós onda 1 (6 turmas) | OA1, OA2-B, OA3-B, OA4, OA5, OA6, OA7, OA8, OA9, OA10, OA11, OA12 | Diária e passagem para remarketing e busca por turma; registro das lacunas do kit; envio das mensagens; correções do site; 12 posts de feed e 24 de Stories; posts de docente | saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (seção 8) |
-| Pós onda 1, mídia | PP15, PP17, EM4, EM11, EM13 a EM16 (PP13 e PP14 também ao cmo) | Pausa de turma que já gastou R$ 2.000,00; diária até a véspera do 3º módulo; regra de 85% e 15% | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md |
+| Pós onda 1, mídia | PP15, PP17, EM4, EM11, EM13 a EM16 (PP13 e PP14 já fechados no memorando de mídia da onda 2) | Pausa de turma que já gastou R$ 2.000,00; diária até a véspera do 3º módulo; regra de 85% e 15% | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md |
 | Pós março (onda 2) | OB1, OB2, OB3, OB4 e OB5, AD-F6-1 a AD-F6-5, AF1 a AF7, DEC1 a DEC7, MO1 a MO5, MO6 | Páginas e correções do site; envio das mensagens; 30 posts, posts de docente e 53 cards; gravação dos 5 Reels e artes; grade de docentes; listas e automações do CRM; conferências de 04/12 e 11/12, subida de 657 e 341, pausa de 289 e 333; MO6 libera a extensão de 68635, 366 e 679 | saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md; saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md e autoridade-docente-pos-2026-10-27-onda2.md; saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md; saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md; saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md |
-| Mídia das 14 turmas de março e abril | AMP13 a AMP25, AGP12 a AGP25, PP16, MO6, OM1 a OM7 | 13 campanhas Meta ativas (662 pausada), Busca Google, plano de abril, extensão, plantão de sábado e feriado, pausa da 662, plano de maio | saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md (v7); anuncios-google-pos-2026-10-26.md (v7); gestor-de-midia-pos-2026-10-26.md (v7); gestor-de-midia-pos-2026-10-27-onda3.md |
+| Mídia das 14 turmas de março e abril | AMP13 a AMP25, AGP12 a AGP25, PP16, MO6, OM1 a OM7 | Campanhas Meta das 14 turmas (13 ativas; 662 pausada até OU18), Busca Google, plano de abril, extensão, plantão de sábado e feriado, pausa da 662, plano de maio | saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md (v7); anuncios-google-pos-2026-10-26.md (v7); gestor-de-midia-pos-2026-10-26.md (v7); gestor-de-midia-pos-2026-10-27-onda3.md |
 | Pós abril (onda 3, lote A) | OC1-A, OC2, OC3, AD-O6-1 a AD-O6-8, OC4, AF1 a AF7, DEC1 a DEC8, OM1 a OM7 (e OC5, OC6, OC8) | 8 páginas e correções; envio de 55 textos; posts de docente e 129 cards; 48 posts e 8 Reels; listas e automações; mídia; artes; horas do time; pausa da 662 | saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md; saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md e posts-sociais-pos-2026-10-27-onda3.md; saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md; saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md; saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md |
 | Graduação, plano e peças | G1 a G16 | Plano, números, verba, correções de página e de edital, regras para menores, capacidade, aprovadores, publicação e envio, pausa em 22/02/2027 | saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md (seção 8) |
 | Graduação, mídia | MP1 a MP4, MP7 a MP15 (MP5 e MP6 suspensos), AM1 a AM12, AG1 a AG11 | Metas, gasto de R$ 4.000,00, divisão por fase, públicos, rastreio, subida por fase, desbloqueio do noturno e da Pedagogia | saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md; anuncios-meta-graduacao-2026-10-26.md; anuncios-google-graduacao-2026-10-26.md |
@@ -380,7 +395,7 @@ Datas dos planos (cmo-pos onda 1, onda 2 e onda 3; gestor-de-midia; cmo-graduaca
 | 29/10 (qui), 10h | WhatsApp 1 das 6 turmas; conferência de 707 e 68604 | humano |
 | 30/10 (sex) | Início de 707; teste de rastreio do Workshop; e-mail do Workshop; envio das perguntas OU18 a OU37 e das abertas | humano; cmo |
 | 31/10 (sáb) | Início de 68604 | - |
-| 03/11 (ter) | Revisão semanal; posts da onda 1 começam; criativos 1 e 2 do Workshop; conferência das 6 turmas iniciadas e pausadas (A4) | cmo; gestor |
+| 03/11 (ter) | Revisão semanal; posts da onda 1 começam; criativos 1 e 2 do Workshop; conferência das 6 turmas iniciadas com campanha ativa (A4) | cmo; gestor |
 | 04/11 | WhatsApp 2 de 698, 68610 e 68608 | humano no CRM |
 | 06/11 (sex) | WhatsApp 2 de 68606; 23h59, 68606 passa a só remarketing e busca | humano |
 | 07/11 (sáb) | Início de 68606 | - |
@@ -398,7 +413,7 @@ Datas dos planos (cmo-pos onda 1, onda 2 e onda 3; gestor-de-midia; cmo-graduaca
 | 25/11 | WhatsApp 4 de 698, 68610 e 68608; mensagem pós-Workshop (R7) | humano |
 | 27/11 (sex) | Provas de bolsa (22), se mantidas; 23h59, 698, 68610 e 68608 passam a só remarketing e busca; prazo de U10 e OU10 | humano; Ufape |
 | 28 e 29/11 | Início de 698 (decisão 19), 68610 e 68608; Livres 68614 e 68637 (28/11) | - |
-| 30/11 (seg) | Aprovação de PP16, AMP13 a AMP25, AGP12 a AGP25 e OB2 a OB5 | pessoa do marketing |
+| 30/11 (seg) | Aprovação de AMP13 a AMP25, AGP12 a AGP25 e OB2 a OB5; o PP16 (plano de abril) fica para 30/12 [CONFIRMAR: data de cada pedido no gestor-de-midia-pos] | pessoa do marketing |
 | 01 e 02/12 | WhatsApp 3 de 707 e e-mail 2 de 68604; e-mail 2 de 68606 | humano |
 | 03/12 (qui) | Páginas de março publicadas pela Ufape; newsletter 2 | Ufape |
 | 04/12 (sex) | Conferência das páginas no ar (destino, UTM, formulário e política de privacidade); Reels de dezembro prontos | humano; gestor confere o registro |
@@ -457,7 +472,7 @@ Turmas: 719 (08/05), 68616 (08/05), 68629 (22/05, só no site), 359 (22/05, só 
 
 | O que já está planejado | Fonte |
 |---|---|
-| Plano do cmo da onda 3 (19 turmas), aprovado pelo qa com 29 correções aplicadas | cmo-pos-2026-10-27-onda3.md |
+| Plano do cmo da onda 3 (19 turmas), revisado pelo qa, com as 29 correções pedidas já aplicadas (versão 2) | cmo-pos-2026-10-27-onda3.md |
 | Plano de mídia de maio completo: R$ 2.000,00 por turma com a mesma regra de abril, subida não antes de 15/02/2027; 5 das 10 turmas sobem sem resposta da Ufape (719, 68616, 382, 578 e 60) | gestor-de-midia-pos-2026-10-27-onda3.md |
 | Grade de mensagens de maio (toques de 17/02 a 24/05, mais pós-início) em volta das datas já reservadas | cmo-pos onda 3, seção 7.3 |
 | Grade de docentes, com a lacuna registrada e o pedido de horas (OC6) | cmo-pos onda 3, seção 7.5 |
@@ -473,7 +488,7 @@ Turmas: 719 (08/05), 68616 (08/05), 68629 (22/05, só no site), 359 (22/05, só 
 | 699 e 719 | público de cada uma (OU27 e OU28); páginas sem a regra da 1ª mensalidade |
 | 68623 | local da prática (OU26) |
 | 68616, 359, 578 e 352 | reposição do módulo presencial (OU3) |
-| 662 | espera total até OU18 |
+| 662 (turma de abril, já no mapa deste documento) | espera total até OU18 (ver 2.4) |
 
 ### 7.2 Cursos Livres de 2027 (68638 e 560)
 
@@ -519,8 +534,8 @@ Pela decisão 14, as provas de bolsa e os Cursos Livres (inclusive os de 2027) f
 - Provas: 22 provas, inscrição de R$ 100,00, bolsas de 50%, 25% e 10%, nota de corte 7,0, presenciais em São Paulo e Goiânia: cmo-geral-2026-10-26.md (P10); decisão 20.
 - Decisão 14 suspende peças novas de provas e Livres: docs/execucao-2026-10-26.md.
 - Não existe nenhum número de leads, inscrições, matrículas, vagas restantes ou gasto: docs/execucao-2026-10-26.md (regra de fonte); cabeçalhos dos planos.
-- 262 cards de docente em abril e maio, 103 com dia firme e 159 de lacuna: cmo-pos-2026-10-27-onda3.md, seção 7.5.
-- Mapa mental HTML e 184 JSON gerados em 27/10; qa M.4 pendente: docs/andamento-planejamento.md (última linha).
+- 129 cards de docente em abril, 52 com dia firme e 77 de lacuna registrada (65 com as reservas): docs/andamento-planejamento.md (entrega O6 de 27/10); 133 cards de maio, na próxima etapa: cmo-pos-2026-10-27-onda3.md, seção 7.5.
+- Mapa HTML e 184 JSON gerados em 27/10 e refeitos depois da revisão M.4 (commit 45cbc09); reconferência e revisão deste documento em saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-27-documento-final.md: docs/andamento-planejamento.md (últimas linhas).
 
 ## [SUPOSIÇÃO]
 

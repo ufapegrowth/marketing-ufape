@@ -21,7 +21,8 @@ def inline(t):
     t = re.sub(r'`([^`]+)`', r'<code>\1</code>', t)
     t = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', t)
     t = re.sub(r'(?<![\w*])\*([^*]+)\*(?![\w*])', r'<em>\1</em>', t)
-    t = re.sub(r'(https://[^\s<)]+)', r'<a href="\1" rel="noopener">\1</a>', t)
+    # A pontuação final fica fora do endereço (revisão do documento final, R-D14)
+    t = re.sub(r'(https://[^\s<)]+?)([.,;:]?)(?=\s|<|$)', r'<a href="\1" rel="noopener">\1</a>\2', t)
     t = re.sub(r'\[(SUPOSIÇÃO|CONFIRMAR[^\]]*|DADO NÃO FORNECIDO)\]', r'<span class="mk">[\1]</span>', t)
     return t
 
@@ -78,7 +79,7 @@ def lista(bloco):
 
 
 # Narrativa: corta o cabeçalho de metadados (até "## Como ler") e as seções de FORA
-bruto = open(NARRATIVA, encoding='utf-8').read()
+bruto = open(NARRATIVA, encoding='utf-8').read().replace('/home/user/marketing-ufape/', '')
 corpo = bruto[bruto.index('## Como ler as situações'):]
 secoes = re.split(r'(?m)^(?=## )', corpo)
 principais, notas = [], []
@@ -102,7 +103,12 @@ def no_documento(j):
 proxima = sorted([j for j in dados if j['recorte'] == 'planejar' and not no_documento(j)], key=lambda j: (j['inicio'] or '9999', j['codigo']))
 ids = {j['id'] for j in dados if no_documento(j)}
 fmt = lambda iso: '/'.join(reversed(iso.split('-'))) if iso else '-'
-nome = lambda j: j.get('nome_padrao') or j['nome_no_site']
+def nome(j):
+    # Mesma regra do mapa: sem nome padrão confirmado, mostra o nome do site com o aviso
+    n = j.get('nome_padrao')
+    if not n or n.startswith('[CONFIRMAR'):
+        return j['nome_no_site'] + ' (nome padrão [CONFIRMAR])'
+    return n
 LIN = {'pos': 'Pós-graduação', 'livres': 'Cursos Livres', 'eventos': 'Eventos', 'graduacao': 'Graduação'}
 TAB_PROX = ('<div class="tbl"><table><thead><tr><th>Código</th><th>Turma</th><th>Linha</th><th>Início</th><th>Local</th></tr></thead><tbody>'
             + ''.join(f'<tr><td class="f">{html.escape(j["codigo"])}</td><td>{html.escape(nome(j))}</td><td>{LIN[j["linha"]]}</td><td>{fmt(j["inicio"])}</td><td>{html.escape(j["local"] or "-")}</td></tr>' for j in proxima)
@@ -115,11 +121,26 @@ corpo_mapa = re.search(r'(<div class="bar">.*?)</div></main>', mapa, re.S).group
 corpo_mapa = corpo_mapa.replace('<span>itens no catálogo</span>', '<span>itens neste documento</span>')
 corpo_mapa = corpo_mapa.replace('<span>no recorte do plano + Graduação (ramo à parte)</span>', '<span>turmas, provas e eventos até abril de 2027 + Graduação</span>')
 assert 'até abril de 2027 + Graduação' in corpo_mapa, 'rótulo do cartão do recorte mudou no mapa'
+# Modo documento (R-D16): linguagem para a diretoria, sem nomes de agente nem arquivos das camadas
+TROCAS_DOC = [
+    (corpo_mapa, '<span>com kit inteiro aprovado pelo qa, à espera da aprovação humana</span>', '<span>com kit inteiro aprovado na revisão de qualidade, à espera da aprovação humana</span>'),
+    (corpo_mapa, '<span><i class="dot" style="background:var(--hist)"></i>Fora do recorte</span>', ''),
+]
+for _, a, b in TROCAS_DOC:
+    assert a in corpo_mapa, 'trecho do mapa mudou: ' + a
+    corpo_mapa = corpo_mapa.replace(a, b)
+for d in dados:
+    assert not (no_documento(d) and d['inicio'] and d['inicio'] > LIMITE), 'item depois do limite: ' + d['id']
+assert len(ids) + len(proxima) == sum(1 for d in dados if d['recorte'] == 'planejar'), 'recorte e próxima etapa não somam o total planejado'
 # O mapa do documento só mostra o recorte; a lista completa continua no mapa de trabalho
 script = script.replace('const D=', 'const D_TODOS=', 1)
 script = re.sub(r'(const D_TODOS=.*?\]), AREAS=', lambda m: m.group(1) + ', D=D_TODOS.filter(x=>IDS.has(x.id)), AREAS=', script, count=1, flags=re.S)
 script = 'const IDS=new Set(' + json.dumps(sorted(ids), ensure_ascii=False) + ');\n' + script
 assert 'D=D_TODOS.filter' in script, 'filtro do mapa não entrou no script'
+for a, b in [("aguardando_aprovacao:'aprovado pelo qa, aguarda aprovação humana'", "aguardando_aprovacao:'aprovado na revisão de qualidade, aguarda aprovação humana'"),
+             ('<h4>Arquivos das camadas</h4>${cam}', ''), ('<th>Responsável</th>', ''), ('<td>${esc(e.rp)}</td>', '')]:
+    assert a in script, 'trecho do script do mapa mudou: ' + a
+    script = script.replace(a, b)
 
 CSS_DOC = r"""
 .doc{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
