@@ -32,7 +32,7 @@
 3. **Nome e titulação.** Exatamente como na ficha da turma citada, inclusive caixa alta, pontuação e país entre parênteses. Pessoa listada duas vezes na mesma ficha conta uma vez e usa a grafia da coordenação (C17). Padronizar a grafia é decisão da Ufape [CONFIRMAR].
 4. **Curso.** Sempre "Pós-graduação em <área>" (341 e 333 aparecem como "Pós Graduação" no catálogo; o texto usa a forma padrão). Primeira menção "Faculdade UFAPE", depois "Ufape".
 5. **O que nenhuma peça diz.** Preço, valor de matrícula ou inscrição, desconto, promoção, bolsa, prova de bolsa, "últimas vagas", contador, "corra", "só até"; frase de certificação ou ligada ao MEC; título ou prova de Especialista; superlativo da ficha; promessa de emprego, renda, título ou resultado clínico; dado pessoal.
-6. **Data de início e regra do 3º módulo.** Antes do início, a peça usa a data de início do catálogo. Depois do início, só com a regra completa (regra 7 do plano): a turma começou em [data], a matrícula é aceita até o 3º módulo, que nesta turma começa em [data da ficha], e o time explica os módulos já dados. Nunca a data do 3º módulo sozinha.
+6. **Data de início e regra do 3º módulo.** Antes do início, a peça usa a data de início do catálogo. Depois do início, só com a regra completa (regra 7 do plano): a turma começou em [data], a matrícula é aceita até o 3º módulo, que nesta turma começa em [data da ficha], e, antes de pagar, o time explica como ficam os módulos que já aconteceram. Nunca a data do 3º módulo sozinha.
 7. **Travas por turma (regras 8, 9 e 10 do plano).** 657: sem pré-requisito, sem quem pode entrar e sem prova de Especialista. 341: nenhuma peça, inclusive AD-A14-4 e os cards, sai sem OU10 resolvida (página corrigida ou promoção retirada), sem citar promoção e sem dizer onde é a prática. 333: sem a palavra "coordenação", sem nenhuma peça depois do início enquanto OU3 estiver aberta, e sem dizer que todos os módulos presenciais são de leitura de lâminas.
 8. **UTM orgânica (regra 12).** utm_source=instagram; utm_medium=organic_social; utm_campaign=pos_<código>_<AAAAMM da primeira publicação da turma>, igual em todos os posts e cards da turma; utm_content=docente-<sobrenome>. Tudo em minúsculas, sem acento. Chaves por turma na seção 1.1.
 9. **Destino.** Página oficial da turma (campo "Página oficial" da ficha), só depois de a página nova estar no ar (OB1, publicação até 03/12) e conferida em 04/12. Nenhuma peça deste arquivo sai para página com a frase ligada ao MEC (regra 13 do plano). O endereço da página nova ainda não consta no catálogo: [CONFIRMAR NO CATÁLOGO]. Enquanto isso, as páginas atuais da ficha:
@@ -107,7 +107,7 @@ Texto de 26/10 mantido sem mudança.
 - Conferência com a página nova (F3, seção 3): a chave `local_e_datas` traz o campus de Goiânia do dado; a pergunta "Preciso da cardiologia completa ou só do exame?" combina com o gancho do Stories.
 - **Ressalva para a F3, a F2 e o F13 (não altero arquivo alheio).** A F2 (4.2, prova 1) e a F3 (`sobre` de 289) dizem "Os módulos presenciais são de prática hands-on de ecocardiograma". Pela ficha, 4 dos 6 presenciais são de ecocardiograma; os módulos 6 e 24 não são descritos assim. O post de Flavia mantém a contagem exata ("6 presenciais, 4 deles de prática de ecocardiograma") e fica certo; a frase da página precisa ser corrigida para o post e a página não se contradizerem.
 - Condições para sair: página de 289 no ar e conferida (OB1); ok e revisão da Msc. Flavia; no carrossel co-assinado do feed, a frase dela só entra se ela aprovar, e o destino do carrossel (guia A2 ou página de 289) deve ser conferido junto com a UTM [CONFIRMAR].
-- Encaixe: Stories na S7 (dia combinado com o F8) e carrossel co-assinado no slot B, qui 17/12. LinkedIn dela, se quiser.
+- Encaixe: Stories na S7, qui 10/12 (dia do 68615-S1 do F8, turma diferente) ou ter 08/12 se o AD-A1-2 já tiver saído em 04/12; nunca sex 11/12, dia do 289-S1 do F8 (regra 4.4). Carrossel co-assinado no slot B, qui 17/12. LinkedIn dela, se quiser.
 - UTM: ?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_289_202612&utm_content=docente-mazzo
 
 ### 1.5 AD-A11-2. DRA. Sabrina Caruso Chate (coordenação de 68615)
@@ -194,14 +194,14 @@ Texto final do card = linha 1 (nome e titulação da tabela da turma) + bloco da
 
 | Turma | Linha 2 | Linha 3 | Linha 4 | Linha 5 |
 |---|---|---|---|---|
-| 289 | Docente da Pós-graduação em Cardiologia Veterinária | Faculdade UFAPE, Goiânia. Turma II, que começou em 20/03/2027. | A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 15/05/2027. O time explica os módulos já dados. | Detalhes na página da turma. |
-| 68615 | Docente da Pós-graduação em Patologia Clínica | Faculdade UFAPE, São Paulo. Turma VII, que começou em 20/03/2027. | A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 22/05/2027. O time explica os módulos já dados. | Detalhes na página da turma. |
+| 289 | Docente da Pós-graduação em Cardiologia Veterinária | Faculdade UFAPE, Goiânia. Turma II, que começou em 20/03/2027. | A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 15/05/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. | Detalhes na página da turma. |
+| 68615 | Docente da Pós-graduação em Patologia Clínica | Faculdade UFAPE, São Paulo. Turma VII, que começou em 20/03/2027. | A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 22/05/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. | Detalhes na página da turma. |
 
 Exemplo montado (card C289-10, depois do início):
 > DR. BRUNO DURANTE
 > Docente da Pós-graduação em Cardiologia Veterinária
 > Faculdade UFAPE, Goiânia. Turma II, que começou em 20/03/2027.
-> A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 15/05/2027. O time explica os módulos já dados.
+> A Ufape aceita matrícula até o 3º módulo, que nesta turma começa em 15/05/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 > Detalhes na página da turma.
 
 Exemplo montado (card C657-01, antes do início):
@@ -210,7 +210,7 @@ Exemplo montado (card C657-01, antes do início):
 > Faculdade UFAPE, São Paulo. Turma II, início em 13/03/2027.
 > Cronograma e corpo docente na página da turma.
 
-Condições dos cards depois do início: a regra do 3º módulo precisa estar na página como dado da turma (OU14, OU6); sem isso, a chamada do card passa a "Fale com o time", com o contato de vendas da praça (São Paulo: (11) 91366-9290; Goiânia: (62) 9420-1847, contexto/ufape-geral.md) e o time confere se o WhatsApp de vendas voltou a funcionar [CONFIRMAR]. Nenhum card cita como o aluno repõe módulos nem como paga a 1ª mensalidade (OU3 e OU8 abertas): a frase é só "o time explica os módulos já dados".
+Condições dos cards depois do início: a regra do 3º módulo precisa estar na página como dado da turma (OU14, OU6); sem isso, a chamada do card passa a "Fale com o time", com o contato de vendas da praça (São Paulo: (11) 91366-9290; Goiânia: (62) 9420-1847, contexto/ufape-geral.md) e o time confere se o WhatsApp de vendas voltou a funcionar [CONFIRMAR]. Nenhum card cita como o aluno repõe módulos nem como paga a 1ª mensalidade (OU3 e OU8 abertas): a frase é só "antes de pagar, o time explica como ficam os módulos que já aconteceram".
 
 ### 3.3 Cards de 657 (16)
 
@@ -235,7 +235,7 @@ Turma II, São Paulo, início 13/03/2027. Ficha de 657: 17 professores listados 
 | C657-15 | Prof. André Shih (EUA) | 657-F, S13, ter 09/03 | 02/03 | docente-shih |
 | C657-16 | Prof. Francesco Staffieri (Itália) | 657-F, S13, ter 09/03 | 02/03 | docente-staffieri |
 
-Nota de 657: a ficha traz "DACVAA" no nome do Prof. Pablo Ezequiel Otero. O card mantém o nome como na ficha, mas título de especialista não entra em peça (criativos v3, 1.1); se a regulação entender que a sigla conta como título, o card sai com o nome sem a sigla e a Ufape decide [CONFIRMAR com a regulação]. Nenhum card de 657 diz quem pode entrar (U10).
+Nota de 657: a ficha traz "DACVAA" no nome do Prof. Pablo Ezequiel Otero. O card mantém o nome como na ficha, mas título de especialista não entra em peça (criativos v3, 1.1); se a regulação entender que a sigla conta como título, o card sai com o nome sem a sigla e a Ufape decide [CONFIRMAR com a regulação, resposta pedida até 18/02]. Sem resposta até 18/02, o C657-13 passa para a S13 (ter 09/03, docente vê até 02/03, sequência de 3 cards); sem resposta até 02/03, vira lacuna condicional registrada na seção 5, e a squad não tira a sigla por conta própria. Nenhum card de 657 diz quem pode entrar (U10).
 
 ### 3.4 Cards de 341 (8), todos condicionados a OU10
 
@@ -249,8 +249,8 @@ Turma I, São Paulo, início 20/03/2027. A ficha lista a coordenadora Esp. Maria
 | C341-04 | Dra. Roberta Basile | 341-B, S12, qui 04/03 | 25/02 | docente-basile |
 | C341-05 | MSC. Tatiana Figueiredo | 341-B, S12, qui 04/03 | 25/02 | docente-figueiredo |
 | C341-06 | Dr. Marlos Gonçalves Sousa | 341-B, S12, qui 04/03 | 25/02 | docente-sousa |
-| C341-07 | M.V. Allan Pires Barbosa | 341-C, S16, qui 18/03 | 11/03 | docente-barbosa |
-| C341-08 | M.V Túlio Carvalho | 341-C, S16, qui 18/03 | 11/03 | docente-carvalho |
+| C341-07 | M.V. Allan Pires Barbosa | 341-C, S15, ter 16/03 | 09/03 | docente-barbosa |
+| C341-08 | M.V Túlio Carvalho | 341-C, S15, ter 16/03 | 09/03 | docente-carvalho |
 
 Nota de 341: "Dr.Júlio Spagnolo" está sem espaço depois de "Dr." na ficha e foi mantido; a correção da grafia é da Ufape [CONFIRMAR]. Nenhum card cita promoção, bolsa, local da prática nem formato do módulo 3 (OU10 e OU11). Se OU10 só chegar depois de 12/02, as sequências de 341 que perderem o slot entram nos slots de reserva da seção 4.3, sem acumular.
 
@@ -266,9 +266,9 @@ Turma II, Goiânia, início 20/03/2027. A ficha lista a coordenadora Msc. Flavia
 | C289-04 | Dr. Guillermo Veiga | 289-B, S11, ter 02/03 | 23/02 | docente-veiga |
 | C289-05 | Dr. Marlos Gonçalves Sousa | 289-B, S11, ter 02/03 | 23/02 | docente-sousa |
 | C289-06 | Dr. Luis Felipe Santos | 289-B, S11, ter 02/03 | 23/02 | docente-santos |
-| C289-07 | MV. Vinícius Dayoub | 289-C, S15, ter 16/03 | 09/03 | docente-dayoub |
-| C289-08 | Dra. Ana Paula Sasrraf | 289-C, S15, ter 16/03 | 09/03 | docente-sasrraf |
-| C289-09 | MSC. REBECCA PESSOA | 289-C, S15, ter 16/03 | 09/03 | docente-pessoa |
+| C289-07 | MV. Vinícius Dayoub | 289-C, S16, qui 18/03 | 11/03 | docente-dayoub |
+| C289-08 | Dra. Ana Paula Sasrraf | 289-C, S16, qui 18/03 | 11/03 | docente-sasrraf |
+| C289-09 | MSC. REBECCA PESSOA | 289-C, S16, qui 18/03 | 11/03 | docente-pessoa |
 | C289-10 | DR. BRUNO DURANTE | 289-D, S18, qui 25/03 (depois do início) | 18/03 | docente-durante |
 | C289-11 | DRA. Marcela Wolf | 289-D, S18, qui 25/03 (depois do início) | 18/03 | docente-wolf |
 | C289-12 | MSC. Karen Macambria | 289-E, S20, qui 01/04 (depois do início) | 25/03 | docente-macambria |
@@ -352,13 +352,13 @@ Em 657 o Dr. Alessandro Martins consta como coordenador e já tem o AD-A1-2; por
 | S07 | ter 16/02 | 15 a 21/02 | 657-D | C657-10 a 12 | antes | OB1, OB3 |
 | S08 | qui 18/02 | 15 a 21/02 | 68615-B | C68615-04 a 06 | antes | OB1, OB3 |
 | S09 | ter 23/02 | 22 a 28/02 | AD-N333-1 | post de Sabrina, 3 telas | antes (início 27/03) | ok dela, OB1, OB3 |
-| S10 | qui 25/02 | 22 a 28/02 | 657-E | C657-13 e 14 | antes | OB1, OB3 |
+| S10 | qui 25/02 | 22 a 28/02 | 657-E | C657-13 e 14 | antes | OB1, OB3; C657-13 só com a resposta da regulação sobre DACVAA (nota de 657) |
 | S11 | ter 02/03 | 01 a 07/03 | 289-B | C289-04 a 06 | antes | OB1, OB3 |
 | S12 | qui 04/03 | 01 a 07/03 | 341-B | C341-04 a 06 | antes | OU10, OB1, OB3 |
 | S13 | ter 09/03 | 08 a 14/03 | 657-F | C657-15 e 16 | antes (início 13/03) | OB1, OB3 |
 | S14 | qui 11/03 | 08 a 14/03 | 68615-C | C68615-07 a 09 | antes | OB1, OB3 |
-| S15 | ter 16/03 | 15 a 21/03 | 289-C | C289-07 a 09 | antes (início 20/03) | OB1, OB3 |
-| S16 | qui 18/03 | 15 a 21/03 | 341-C | C341-07 e 08 | antes | OU10, OB1, OB3 |
+| S15 | ter 16/03 | 15 a 21/03 | 341-C | C341-07 e 08 | antes (início 20/03) | OU10, OB1, OB3 |
+| S16 | qui 18/03 | 15 a 21/03 | 289-C | C289-07 a 09 | antes | OB1, OB3 |
 | S17 | ter 23/03 | 22 a 28/03 | 68615-D | C68615-10 a 12 | depois, regra completa | OU14 e OU6 (regra na página), OB3 |
 | S18 | qui 25/03 | 22 a 28/03 | 289-D | C289-10 e 11 | depois, regra completa | OU14 e OU6, OB3 |
 | S19 | ter 30/03 | 29/03 a 04/04 | 68615-E | C68615-13 e 14 | depois, regra completa | OU14 e OU6, OB3 |
@@ -372,8 +372,8 @@ Verificação por turma:
 | Turma | Sequências | Slots | Último slot | Limite (véspera do início ou do 3º módulo) | Cabe |
 |---|---|---|---|---|---|
 | 657 | 6 | S01, S03, S05, S07, S10, S13 | 09/03 | início 13/03, véspera 12/03 | sim, todas antes do início |
-| 341 | 3 | S06, S12, S16 | 18/03 | início 20/03, véspera 19/03 | sim, todas antes do início |
-| 289 | 5 | S04, S11, S15, S18, S20 | 01/04 | 3º módulo 15/05, véspera 14/05 | sim, 3 antes e 2 depois do início |
+| 341 | 3 | S06, S12, S15 | 16/03 | início 20/03, véspera 19/03 | sim, todas antes do início |
+| 289 | 5 | S04, S11, S16, S18, S20 | 01/04 | 3º módulo 15/05, véspera 14/05 | sim, 3 antes e 2 depois do início |
 | 68615 | 6 | S02, S08, S14, S17, S19, S21 | 06/04 | 3º módulo 22/05, véspera 21/05 | sim, 3 antes e 3 depois do início |
 | 333 | 1 post (sem cards) | S09 | 23/02 | início 27/03, véspera 26/03 (OU3) | sim |
 
@@ -399,6 +399,7 @@ Regras de deslize:
 - 341 desliza só com OU10; depois do início usa a regra completa e exige OU11 e OU17 resolvidas (módulo 3 marcado "ONLINE PRESENCIAL" e data em feriado nacional).
 - Se o ok de Sabrina para o post de 333 chegar depois de 23/02, o post usa o primeiro slot livre até qui 25/03 e a sequência de 289 ou de 68615 que perder o slot anda para a reserva mais próxima.
 - 333 não tem reserva depois do início enquanto OU3 estiver aberta.
+- Reserva que cai em dia de Stories da mesma turma no F8 não serve a ela: R3 (15/04) não serve a 341 (341-S4), R7 (29/04) não serve a 289 (289-S4) e R9 (06/05) não serve a 68615 (68615-S4); R5 (22/04) já tem o 657-S4 e recebe no máximo 1 sequência de docente.
 - Se o teto real de Stories cair (U8; ordem de corte da estrategia-social-pos, 3.3: Stories de 3 para 2 dias por semana), a sexta já está livre para a F8 e os docentes ficam com terça e quinta; se cair para 1 sequência por semana, as sequências finais de 289 e 68615 passam para a reserva e a seção 5 registra o que não couber.
 
 ### 4.4 Cuidados da grade

@@ -174,6 +174,9 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 
 ---
 
+
+**Nota do orquestrador (27/10/2026, qa onda2b, seção 3):** a reserva de slots de docente vai até 06/04/2027, e não só até 19/03, porque o F6 usa S17 a S21 (23/03 a 06/04) e as reservas R1 a R13; a grade do feed e dos Stories registra o docente em 25/03 e nos outros dias da tabela 4.2 do F6. Em 16/03 o docente é de 341 (S15) e em 18/03 de 289 (S16), sem Stories de 289 no mesmo dia que a sequência de docente de 289. O AD-A2-1 sai em 10/12 ou 08/12, nunca em 11/12 (dia do 289-S1).
+
 ## 3. Seção 657: Pós-graduação em Anestesiologia Avançada
 
 **Dados da turma (catálogo e ficha):** turma II, São Paulo, semipresencial, 360 h, 18 módulos, início em 13/03/2027. Módulo 1 online em 13 e 14/03 (sábado das 9h às 18h, domingo das 9h às 13h). 3º módulo em 22 e 23/05/2027. Mídia e matrícula até 21/05 (decisão 18). Sem pré-requisito, sem prova de Especialista, sem "exclusiva".

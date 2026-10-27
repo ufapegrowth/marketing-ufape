@@ -51,7 +51,7 @@ Início das turmas: 657 em 13/03/2027; 341, 289 e 68615 em 20/03/2027; 333 em 27
 
 ### 0.3 Como ler as contagens
 
-- **Contagem à mão** (como na F3; o qa confere). Caracteres com espaços, quebras de linha como 1. No WhatsApp a contagem **não inclui o link** (ele vai no botão de URL; no corpo aparece só como [LINK]); "[nome]" conta 6 caracteres (um nome real muda o total em poucos caracteres). Total A ou B = primeira linha + corpo, e as reservas só trocam a primeira linha (não contadas). Recontagem por script do orquestrador em 27/10/2026: 112 contagens de assunto, pré-cabeçalho, primeira linha, reserva e corpo; 26 rótulos corrigidos para o valor real (diferenças de 1 a 14 caracteres). Os totais por mensagem não foram recontados e ficam para o qa.
+- **Contagem à mão** (como na F3; o qa confere). Caracteres com espaços, quebras de linha como 1. No WhatsApp a contagem **não inclui o link** (ele vai no botão de URL; no corpo aparece só como [LINK]); "[nome]" conta 6 caracteres (um nome real muda o total em poucos caracteres). Total A ou B = primeira linha + 2 (linha em branco) + corpo inteiro sem o link, com cada quebra de linha contando 1 e o [LINK] contando 0 (na prática: primeira linha + texto antes do link + 101 nas mensagens com link; primeira linha + corpo + 51 no pós-início); as reservas só trocam a primeira linha (não contadas). Recontagem por script do orquestrador em 27/10/2026: 112 contagens de assunto, pré-cabeçalho, primeira linha, reserva e corpo; 26 rótulos corrigidos para o valor real (diferenças de 1 a 14 caracteres). Os totais por mensagem não foram recontados e ficam para o qa.
 - Assuntos: todos os 5 contados. Pré-cabeçalho: contado.
 - Segmento (todos os toques): S2 e S3 da área, com opt-in no canal; quem pagou a 1ª mensalidade sai no dia; depois da data limite a turma sai de toda lista; quem respondeu sai da automação e o time assume; "[nome]" vazio: "Olá" sem nome. Contato que saiu da NP2 da área entra no primeiro toque do kit.
 
@@ -80,7 +80,7 @@ Coordenação na ficha: DRA. Sabrina Caruso Chate. Primeiro presencial: módulo 
 >
 > O que está na página da turma:
 > - o laboratório inteiro, do pré-analítico ao laudo, com correlação clínico-laboratorial;
-> - módulos presenciais de prática: hemograma, hemoparasitoses, mielograma, bioquímica e urina, coleta e confecção de lâminas e microbiologia;
+> - módulos presenciais de prática, entre eles hemograma, hemoparasitoses, mielograma, bioquímica e urina, coleta e confecção de lâminas e microbiologia;
 > - estrutura e administração de um laboratório, com controle de qualidade e biossegurança;
 > - coordenação da DRA. Sabrina Caruso Chate.
 >
@@ -112,23 +112,23 @@ Coordenação na ficha: DRA. Sabrina Caruso Chate. Primeiro presencial: módulo 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 355; B, 359. **Chamada única:** o link da página. **Follow-up:** W2 de 13/01. **Opt-in:** sim, filtro do CRM. **Sair:** "responda SAIR" e botão "Sair".
+- **Total (sem o link):** A, 356; B, 359. **Chamada única:** o link da página. **Follow-up:** W2 de 13/01. **Opt-in:** sim, filtro do CRM. **Sair:** "responda SAIR" e botão "Sair".
 
 ### 1.3 WhatsApp W2 (qua 13/01, 10h; pos_68615_kit_w2; utm_content=w2-68615). Objeção de tempo.
 
 - **Primeira linha A (teste), 63:** Olá, [nome]. Um fim de semana por mês, com datas no cronograma.
 - **Primeira linha B (teste), 61:** Olá, [nome]. A teoria é online; o presencial tem mês marcado.
 - Reservas: "Olá, [nome]. Dá para planejar a agenda da clínica?"; "Olá, [nome]. Quando são os módulos presenciais?"; "Olá, [nome]. Teoria online e prática presencial, no cronograma."
-- **Corpo (231 caracteres antes do link):**
+- **Corpo (242 caracteres antes do link):**
 
-> Na Pós-graduação em Patologia Clínica (turma VII, São Paulo), a teoria é online. O presencial fica nos módulos de prática: automação e prática de hemograma, bioquímica e urina, mielograma e microbiologia. As datas estão no cronograma.
+> Na Pós-graduação em Patologia Clínica (turma VII, São Paulo), a teoria é online. O presencial fica nos módulos de prática, entre eles automação e prática de hemograma, bioquímica e urina, mielograma e microbiologia. As datas estão no cronograma.
 >
 > Parcelas, total e matrícula na página da turma:
 > [LINK]
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 395; B, 393. **Follow-up:** E2 de 29/01. Demais campos como no W1.
+- **Total (sem o link):** A, 406; B, 404. **Follow-up:** E2 de 29/01. Demais campos como no W1.
 
 ### 1.4 E-mail E2 (sex 29/01, 9h; utm_content=e2-68615). Mês a mês e condições.
 
@@ -147,6 +147,7 @@ Coordenação na ficha: DRA. Sabrina Caruso Chate. Primeiro presencial: módulo 
 > - módulo 4, presencial (junho de 2027): automação e prática de hemograma;
 > - módulos 6 e 7, presenciais: hemoparasitoses em hematoscopia e mielograma;
 > - módulo 11, presencial (janeiro de 2028): urinálise e prática de bioquímica e urina;
+> - módulos 9, 14, 16, 20 e 23, também presenciais (de novembro de 2027 a janeiro de 2029): transfusão, exames da dermatologia, coproparasitológico, líquidos cavitários e microbiologia;
 > - módulo 17, presencial (julho de 2028): coleta e confecção de lâminas, na citologia; a Pós-graduação em Citopatologia Veterinária é outra turma, centrada na leitura de lâminas, e a escolha depende do trabalho que você quer fazer na rotina.
 >
 > Parcelas, total e matrícula você vê na página da turma.
@@ -180,8 +181,8 @@ Coordenação na ficha: DRA. Sabrina Caruso Chate. Primeiro presencial: módulo 
 ### 1.6 WhatsApp a mais, semana anterior ao início (qui 11/03, 10h; pos_68615_kit_ac; utm_content=ac-68615)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 20/03; matrícula aberta até o 3º módulo.
-- **Primeira linha B (teste), 66:** Olá, [nome]. A turma de Patologia Clínica começa no sábado, 20/03.
-- Reservas: "Olá, [nome]. Sábado começa a turma VII de Patologia Clínica."; "Olá, [nome]. Ainda dá para conversar com o time antes do início."; "Olá, [nome]. O módulo 1 é online."
+- **Primeira linha B (teste), 66:** Olá, [nome]. A turma de Patologia Clínica começa em 20/03, sábado.
+- Reservas: "Olá, [nome]. Em 20/03 começa a turma VII de Patologia Clínica."; "Olá, [nome]. Ainda dá para conversar com o time antes do início."; "Olá, [nome]. O módulo 1 é online."
 - **Corpo (190 caracteres antes do link):**
 
 > A Pós-graduação em Patologia Clínica (turma VII, São Paulo) começa em 20/03/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
@@ -191,7 +192,7 @@ Coordenação na ficha: DRA. Sabrina Caruso Chate. Primeiro presencial: módulo 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 363; B, 357.
+- **Total (sem o link):** A, 364; B, 357.
 
 ### 1.7 WhatsApp pós-início (qua 05/05, 10h; pos_68615_kit_pi; utm_content=pi-68615). Regra completa.
 
@@ -250,7 +251,7 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 ### 2.2 WhatsApp W1 (sex 11/12, 10h; pos_289_kit_w1; utm_content=w1-289)
 
 - **Primeira linha A (teste), 68:** Olá, [nome]. Do ECG online ao ecocardiograma presencial, em Goiânia.
-- **Primeira linha B (teste), 71:** Olá, [nome]. Ecocardiograma na mão nos módulos práticos da Cardiologia.
+- **Primeira linha B (teste), 72:** Olá, [nome]. Ecocardiograma na mão em 4 módulos práticos da Cardiologia.
 - Reservas: "Olá, [nome]. Quer ver o cronograma de Cardiologia em Goiânia?"; "Olá, [nome]. Cardiologia em Goiânia, turma II."; "Olá, [nome]. Do eletrocardiograma às emergências cardíacas."
 - **Corpo (245 caracteres antes do link):**
 
@@ -261,7 +262,7 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 414; B, 416. Demais campos como em 1.2.
+- **Total (sem o link):** A, 414; B, 418. Demais campos como em 1.2.
 
 ### 2.3 WhatsApp W2 (sex 08/01, 10h; pos_289_kit_w2; utm_content=w2-289). Tempo e viagem.
 
@@ -277,7 +278,7 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 400; B, 402 (a primeira linha B tem 59 caracteres de gancho; com "Olá, [nome]. " soma 72, e o total já considera isso).
+- **Total (sem o link):** A, 400; B, 403.
 
 ### 2.4 E-mail E2 (qua 27/01, 9h; utm_content=e2-289)
 
@@ -329,8 +330,8 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 ### 2.6 WhatsApp a mais, semana anterior ao início (ter 09/03, 10h; pos_289_kit_ac; utm_content=ac-289)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 20/03; matrícula aberta até o 3º módulo.
-- **Primeira linha B (teste), 62:** Olá, [nome]. A Cardiologia em Goiânia começa no sábado, 20/03.
-- Reservas: "Olá, [nome]. Sábado começa a turma II de Cardiologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time?"
+- **Primeira linha B (teste), 62:** Olá, [nome]. A Cardiologia em Goiânia começa em 20/03, sábado.
+- Reservas: "Olá, [nome]. Em 20/03 começa a turma II de Cardiologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time?"
 - **Corpo (203 caracteres antes do link):**
 
 > A Pós-graduação em Cardiologia Veterinária (turma II, Goiânia) começa em 20/03/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas de Goiânia ajuda a concluir.
@@ -340,7 +341,7 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 377; B, 365.
+- **Total (sem o link):** A, 377; B, 366.
 
 ### 2.7 WhatsApp pós-início (ter 27/04, 10h; pos_289_kit_pi; utm_content=pi-289). Regra completa.
 
@@ -353,7 +354,7 @@ Campus: Ufape Goiânia. Coordenação: Msc. Flavia Mazzo. Presenciais da ficha: 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 490; B, 509. Sem link.
+- **Total:** A, 491; B, 509. Sem link.
 
 ---
 
@@ -425,7 +426,7 @@ Módulo 1 presencial (27 e 28/03/2027): manejo de materiais biológicos, colora�
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 448; B, 434.
+- **Total (sem o link):** A, 449; B, 435.
 
 ### 3.4 E-mail E2 (qua 03/02, 9h; utm_content=e2-333)
 
@@ -442,7 +443,7 @@ Módulo 1 presencial (27 e 28/03/2027): manejo de materiais biológicos, colora�
 > Esta é a turma I da Pós-graduação em Citopatologia Veterinária, em São Paulo, com início em 27/03/2027. O mês a mês, pelo cronograma da página:
 > - módulo 1, presencial (27 e 28/03/2027): manejo de materiais biológicos, coloração e microscopia;
 > - módulos 2 a 4, online: citologia básica, gestão da qualidade e atualizações no diagnóstico;
-> - módulos 5 e 10, presenciais: leitura de lâminas de citopatologia e discussão de casos (24 e 25/07/2027 e 18 e 19/12/2027);
+> - módulos 5, 10 e 20, presenciais: leitura de lâminas de citopatologia e discussão de casos (24 e 25/07/2027, 18 e 19/12/2027 e 28 e 29/10/2028);
 > - módulos 12 e 13, presenciais: citologia esplênica e linfoma, e mielograma (2028);
 > - os demais módulos, online, seguem sistema por sistema.
 >
@@ -476,9 +477,9 @@ Módulo 1 presencial (27 e 28/03/2027): manejo de materiais biológicos, colora�
 
 ### 3.6 WhatsApp W4, pré-início (ter 16/03, 10h; pos_333_kit_w4; utm_content=w4-333). 4º do kit; sem a frase do 3º módulo (desvio 11 da seção 0).
 
-- **Primeira linha A (teste), 53:** Olá, [nome]. A Citopatologia começa no sábado, 27/03.
+- **Primeira linha A (teste), 53:** Olá, [nome]. A Citopatologia começa em 27/03, sábado.
 - **Primeira linha B (teste), 69:** Olá, [nome]. O módulo 1 de Citopatologia é presencial, em 27 e 28/03.
-- Reservas: "Olá, [nome]. Em duas semanas começa a turma I."; "Olá, [nome]. Falta tirar alguma dúvida antes do módulo 1?"; "Olá, [nome]. O módulo 1 é de manejo do material."
+- Reservas: "Olá, [nome]. Em 27/03 começa a turma I."; "Olá, [nome]. Falta tirar alguma dúvida antes do módulo 1?"; "Olá, [nome]. O módulo 1 é de manejo do material."
 - **Corpo (324 caracteres antes do link):**
 
 > A Pós-graduação em Citopatologia Veterinária (turma I, São Paulo) começa em 27/03/2027, com o módulo 1 presencial (27 e 28/03): manejo de materiais biológicos, coloração e microscopia. O time de vendas ajuda você a concluir a matrícula. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
@@ -488,7 +489,7 @@ Módulo 1 presencial (27 e 28/03/2027): manejo de materiais biológicos, colora�
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 477; B, 494.
+- **Total (sem o link):** A, 478; B, 494.
 
 ### 3.7 Pós-início de 333: sem texto
 
@@ -617,7 +618,7 @@ Toque reservado em qua 12/05, 10h, **só com OU3 respondida** (reposição do m�
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 20/03; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 64:** Olá, [nome]. A turma de Medicina Interna Equina começa em 20/03.
-- Reservas: "Olá, [nome]. Sábado começa a turma I."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
+- Reservas: "Olá, [nome]. Em 20/03 começa a turma I."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
 - **Corpo (183 caracteres antes do link):**
 
 > A Pós-graduação em Medicina Interna Equina (turma I) começa em 20/03/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
@@ -640,7 +641,7 @@ Toque reservado em qua 12/05, 10h, **só com OU3 respondida** (reposição do m�
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 471; B, 469. Sem link.
+- **Total:** A, 472; B, 469. Sem link.
 
 ---
 
@@ -668,7 +669,7 @@ Toques a partir de 05/01. **Nenhuma frase diz quem pode entrar (U10)**; nada de 
 > O que está na página da turma:
 > - hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular e coagulação no transoperatório;
 > - prática guiada nos módulos presenciais: bloqueios locorregionais, manipulação de ventiladores e monitores hemodinâmicos, TIVA e TCI;
-> - aulas práticas que não são transmitidas nem gravadas;
+> - aulas práticas e presenciais que não são transmitidas nem disponibilizadas depois;
 > - coordenação da Dra. Mayara Travalini de Lima, com professores do Brasil e do exterior listados.
 >
 > Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
@@ -697,7 +698,7 @@ Toques a partir de 05/01. **Nenhuma frase diz quem pode entrar (U10)**; nada de 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 391; B, 402.
+- **Total (sem o link):** A, 393; B, 402.
 
 ### 5.3 WhatsApp W2 (qui 21/01, 10h; pos_657_kit_w2; utm_content=w2-657). Escala do centro cirúrgico.
 
@@ -764,8 +765,8 @@ Toques a partir de 05/01. **Nenhuma frase diz quem pode entrar (U10)**; nada de 
 ### 5.6 WhatsApp a mais, semana anterior ao início (ter 02/03, 10h; pos_657_kit_ac; utm_content=ac-657)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 13/03; matrícula aberta até o 3º módulo.
-- **Primeira linha B (teste), 63:** Olá, [nome]. A Anestesiologia Avançada começa no sábado, 13/03.
-- Reservas: "Olá, [nome]. Sábado começa a turma II."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
+- **Primeira linha B (teste), 63:** Olá, [nome]. A Anestesiologia Avançada começa em 13/03, sábado.
+- Reservas: "Olá, [nome]. Em 13/03 começa a turma II."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
 - **Corpo (195 caracteres antes do link):**
 
 > A Pós-graduação em Anestesiologia Avançada (turma II, São Paulo) começa em 13/03/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
@@ -788,7 +789,7 @@ Toques a partir de 05/01. **Nenhuma frase diz quem pode entrar (U10)**; nada de 
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 482; B, 481. Sem link.
+- **Total:** A, 484; B, 484. Sem link.
 
 ---
 
@@ -813,12 +814,12 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 | 68615 | 20/03/2027 | 22 e 23/05/2027, online | módulo 4, junho de 2027 |
 | 333 | 27/03/2027 | 29 e 30/05/2027, online (só depois de OU3) | módulo 1, 27 e 28/03/2027 |
 
-- **R1. "Ainda dá tempo de me matricular?"** (657, 341, 289, 68615; em 333 só antes do início) Antes do início: "A turma começa em [início]. A Ufape aceita matrícula até o 3º módulo do curso, que nesta turma começa em [data]. Você pode começar desde o módulo 1: [link da turma]. Parcelas, total e matrícula estão lá." Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]
+- **R1. "Ainda dá tempo de me matricular?"** (657, 341, 289, 68615; em 333, só antes do início e só com "A turma começa em 27/03/2027. Você pode começar desde o módulo 1: [link da turma]. Parcelas, total e matrícula estão lá.", sem a regra e sem a data do 3º módulo enquanto OU3 estiver aberta, como em 6.7) Antes do início: "A turma começa em [início]. A Ufape aceita matrícula até o 3º módulo do curso, que nesta turma começa em [data]. Você pode começar desde o módulo 1: [link da turma]. Parcelas, total e matrícula estão lá." Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]
 - **R2. "Posso entrar depois do início?"** (657, 341, 289, 68615) "Pode. A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, te explico como ficam os módulos que já aconteceram." Em 333: ver 6.7.
 - **R3. "Perdi o módulo 1 (ou o 2). Como reponho?"** "Antes de você pagar, te explico como ficam os módulos que já aconteceram. Como é a reposição, vou confirmar com a coordenação e te respondo por aqui. Hoje não consigo te prometer gravação nem aula extra." [OU3] Aulas presenciais e práticas não são transmitidas nem disponibilizadas (texto das fichas).
 - **R4. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"** "Vou confirmar com o financeiro como fica para quem entra depois e te respondo por aqui. Parcelas, total e matrícula estão na página da turma: [link]." [OU8]
 - **R5. "Tem vaga? A turma está confirmada?"** "Vou confirmar com a secretaria e te respondo por aqui." [OU4] Antes do início: "A página informa que a turma pode não ser formada; por isso a orientação é comprar passagem e hotel só depois de a turma ser confirmada." Nunca número de vagas sem dado da Ufape.
-- **R6. "Qual o valor? Tem desconto, promoção ou bolsa?"** "Parcelas, total e matrícula da turma estão na página: [link]. Para esta turma, não tenho desconto nem bolsa confirmados para te oferecer; se quiser, a secretaria responde." Nunca valor em texto até a U11; nunca citar prova de bolsa.
+- **R6. "Qual o valor? Tem desconto, promoção ou bolsa?"** "Parcelas, total e matrícula da turma estão na página: [link]. Para esta turma, não tenho desconto nem bolsa confirmados para te oferecer; se quiser, a secretaria responde." Nunca valor em texto até a U11; nunca citar prova de bolsa. Em 341, vale a resposta de 6.4 no lugar desta.
 - **R7. "Se a turma não fechar, perco o que paguei?"** (657, 289, 68615, 333) "A página da turma informa que pedidos de reembolso dos valores de inscrição só são devidos caso a turma não seja confirmada. Sobre passagem e hospedagem, a página diz que a Ufape não se responsabiliza pelo ressarcimento em caso de adiamento das aulas presenciais por força maior. Por isso, compre passagem e hotel só depois de a turma ser confirmada." Em 341: "Vou confirmar com a secretaria a regra de reembolso e te respondo por aqui" (o texto da ficha está truncado).
 
 ### 6.3 657, Anestesiologia Avançada

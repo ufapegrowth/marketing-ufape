@@ -344,7 +344,7 @@ Datas escolhidas para que nenhum dia tenha dois toques da onda 2, nenhum caia em
 
 - Kit de cada turma: 2 e-mails (E1, E2) e 4 WhatsApp (W1, W2, W3 e o pós-início; em 333, o pré-início). Acréscimo: o outro WhatsApp.
 - 341: se OU10 não estiver resolvida até 11/12, E1 passa para 15/01, W1 para 18/01 e W2 para 26/01, e a utm_campaign passa a pos_341_202701.
-- Conteúdo por toque (a copy-de-mensagens escreve; casa de mensagens da área): E1 apresenta a turma (quem ensina, prática presencial, data de início, campus); W1 convida para a página; W2 responde à objeção de tempo (um fim de semana por mês, datas publicadas); E2 mostra o mês a mês e as condições (página com parcelas, total e matrícula; turma mínima sem número); W3 lembra a data de início e que o time ajuda na matrícula, sem urgência; pré-início diz "aulas em [data]; matrícula aberta até o 3º módulo"; pós-início traz a regra completa.
+- Conteúdo por toque (a copy-de-mensagens escreve; casa de mensagens da área): E1 apresenta a turma (quem ensina, prática presencial, data de início, campus); W1 convida para a página; W2 responde à objeção de tempo (um fim de semana por mês, datas publicadas); E2 mostra o mês a mês e as condições (página com parcelas, total e matrícula; turma mínima sem número); W3 lembra a data de início e que o time ajuda na matrícula, sem urgência; pré-início diz "aulas em [data]; matrícula aberta até o 3º módulo" (em 333, sem a frase do 3º módulo enquanto OU3 estiver aberta, regra 8); pós-início traz a regra completa.
 - Fim de ano: nenhum toque de 21/12 a 03/01. Todos os envios só depois do qa próprio e do OB2.
 
 ### 7.4 Calendário da liberação
