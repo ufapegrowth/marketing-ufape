@@ -45,8 +45,8 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 | Objeção [SUPOSIÇÃO, contexto da linha] | Texto para a página | Limite |
 |---|---|---|
-| "É caro. Quanto vou pagar no total?" | "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente." | Sem valor no texto (vem do dado). Nunca "cabe no bolso", "investimento que se paga", "ganhe mais", desconto, promoção ou bolsa. |
-| "E se a turma não fechar?" | "A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada." | Sem o número mínimo (A12). Frase de reembolso só em 657, 289 e 333, onde a ficha diz que o reembolso dos valores de inscrição é devido se a turma não for confirmada; em 341 o texto da ficha está truncado e contraditório [CONFIRMAR]; em 68615 a ficha não traz o aviso de passagem e hotel, e vale a regra da linha. |
+| "É caro. Quanto vou pagar no total?" | "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento." | Sem valor no texto (vem do dado). Nunca "cabe no bolso", "investimento que se paga", "ganhe mais", desconto, promoção ou bolsa. |
+| "E se a turma não fechar?" | "A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada." | Sem o número mínimo (A12). Frase de reembolso em 657, 289, 68615 e 333, onde a ficha diz que o reembolso dos valores de inscrição é devido se a turma não for confirmada; em 341 o texto da ficha está truncado e contraditório [CONFIRMAR]; em 68615 a ficha não traz o aviso de passagem e hotel, e vale a regra da linha. |
 | "Posso entrar depois que a turma começar?" | Nenhum texto da IA. A resposta entra como dado da turma no `faq` (OU14), com a regra completa da decisão 18. Até lá, resposta do time: "A Ufape aceita matrícula até o 3º módulo; eu te explico como ficam os módulos já dados." | Nunca como chamada, título ou frase de prazo. Em 333, bloqueada até OU3: resposta do time "vou confirmar com a secretaria como fica". |
 | "Vou ter de largar a rotina?" | "A teoria é online e o presencial fica nos módulos de prática, com as datas publicadas no cronograma antes de começar. Dá para planejar a agenda da clínica com antecedência." | Nunca "flexível", "no seu ritmo", "estude quando quiser". Reposição de módulo perdido [CONFIRMAR OU3]. |
 
@@ -54,7 +54,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 ## 2. Seção 657: Pós-graduação em Anestesiologia Avançada
 
-**Notas internas (não vão para a página).** Palavra principal (F1): "pós-graduação em anestesiologia avançada veterinária" (657-K0). Pergunta de IA que a mensagem central responde: 657-Q1, sem a parte "para quem" (U10). Termo da ficha que vira entidade: "anestesia de precisão" (657-K6). A palavra "exclusiva" e qualquer recorte de quem pode entrar ficam fora até U10. C14: o convite da ficha para a prova de especialista não entra em texto, chamada, FAQ nem resposta do time; e o item do "Objetivo do Programa" que fala de resultado clínico perioperatório não é repetido aqui: fica só na seção de dado `objetivos`.
+**Notas internas (não vão para a página).** Palavra principal (F1): "pós-graduação em anestesiologia avançada veterinária" (657-K0). Pergunta de IA que a mensagem central responde: 657-Q1, sem a parte "para quem" (U10). Termo da ficha que vira entidade: "anestesia de precisão" (657-K6). A palavra "exclusiva" e qualquer recorte de quem pode entrar ficam fora até U10. C14: o convite da ficha para a prova de especialista não entra em texto, chamada, FAQ nem resposta do time; e o item do "Objetivo do Programa" que fala de resultado clínico perioperatório não é repetido aqui: fica só na seção de dado `objetivos`. Alternativa real [SUPOSIÇÃO, contexto da linha]: seguir só com a rotina do centro cirúrgico, cursos curtos e congressos, ou aprender com um colega anestesista.
 
 ### 2.1 Mensagem central (texto para a página)
 
@@ -62,7 +62,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 ### 2.2 Três provas de apoio (texto para a página; fonte: ficha de 657)
 
-1. **Prática guiada nos módulos presenciais.** Bloqueios locorregionais com prática guiada e execução avançada; hemodinâmica avançada e ventilação mecânica com manipulação de ventiladores e monitores hemodinâmicos; TIVA e TCI em execução avançada; reanimação cardiorrespiratória com avaliação viscoelástica do coágulo. As aulas práticas não são transmitidas nem gravadas. *(Fonte: cronograma, módulos marcados PRESENCIAL, e observação da ficha.)*
+1. **Prática guiada nos módulos presenciais.** Bloqueios locorregionais com prática guiada e execução avançada; hemodinâmica avançada e ventilação mecânica com manipulação de ventiladores e monitores hemodinâmicos; TIVA e TCI em execução avançada; reanimação cardiorrespiratória com avaliação viscoelástica do coágulo. As aulas práticas não são transmitidas nem disponibilizadas depois. *(Fonte: cronograma, módulos marcados PRESENCIAL, e observação da ficha.)*
 2. **O paciente que o protocolo não resolve.** Hemodinâmica além da pressão arterial, com foco em débito cardíaco e perfusão tecidual; ventilação do paciente especial e proteção pulmonar; bloqueio neuromuscular e ventilação monopulmonar; distúrbios de coagulação e uso racional de hemoderivados; anestesia em cirurgias neurológicas e cardiotorácicas; dor e analgesia em felinos; pets não convencionais. *(Fonte: cronograma.)*
 3. **Uma proposta escrita, não um slogan.** O programa foi estruturado para a transição da anestesia de protocolo para a anestesia de precisão, com base em fisiologia aplicada, tomada de decisão crítica e gestão de riscos, para conduzir pacientes de risco moderado a alto e antecipar crises anestésicas. *(Fonte: texto de apresentação e "Objetivo do Programa" da ficha, só os itens de conduta; sem resultado clínico, C14.)*
 
@@ -70,8 +70,8 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 | Objeção, nas palavras do candidato [SUPOSIÇÃO, H-A1.1 e persona] | Resposta |
 |---|---|
-| "Anestesia já faz parte da minha rotina. O que eu vou ver aqui que ainda não vi?" | "O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores, monitores e bombas de infusão na mão." |
-| "É um dos valores mais altos que vi." (H-A1.4) | "O total, as parcelas e a matrícula estão nesta página, ao lado do cronograma de cada módulo presencial. Você vê o que paga e o que vai praticar antes de decidir." (Sem justificar com adjetivo nem comparar com outra pós.) |
+| "Anestesia já faz parte da minha rotina. O que eu vou ver aqui que ainda não vi?" | "O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores e monitores hemodinâmicos na mão e execução de TIVA e TCI." |
+| "É um dos valores mais altos que vi." (H-A1.4) | "O total, as parcelas e a matrícula estão nesta página, assim como o cronograma de cada módulo presencial. Você vê as condições e o que vai praticar antes de decidir." (Sem justificar com adjetivo nem comparar com outra pós.) |
 | "Não consigo sair do centro cirúrgico com frequência." | "A teoria é online, em fins de semana com data marcada no cronograma. O presencial fica só nos módulos de prática, também com mês marcado, então dá para montar a escala antes de começar." |
 
 **Fora da página até U10:** "Preciso ser anestesista ou já atuar na área?" (657-Q3). Resposta do time: "Vou confirmar com a secretaria quem pode entrar nesta turma e te retorno." Nenhuma peça diz quem pode entrar. Pergunta sobre prova ou título de especialista também vai para a secretaria, sem texto pronto (C14).
@@ -87,7 +87,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 ## 3. Seção 341: Pós-graduação em Medicina Interna Equina
 
-**Notas internas.** Palavra principal (F1): "pós-graduação em medicina interna equina" (341-K0); variação de corpo "médico veterinário de equinos" (341-K2, [SUPOSIÇÃO] da F1). Pergunta de IA: 341-Q1 e 341-Q5. Bloqueadas: 341-Q3 (local da prática e formato do módulo 3, OU11). C7: nenhum texto, chamada, resposta ou variação depende da promoção (OU10); a resposta de investimento é a mesma das outras turmas. Fica fora o texto da ficha que chama o recém-formado de "inseguro e sem nenhum diferencial competitivo", que ofende o público, e a frase da ficha sobre "descontos e bolsas de estudo". "Hospital veterinário" não entra no texto enquanto o local da prática estiver em aberto (OU11).
+**Notas internas.** Palavra principal (F1): "pós-graduação em medicina interna equina" (341-K0); variação de corpo "médico veterinário de equinos" (341-K2, [SUPOSIÇÃO] da F1). Pergunta de IA: 341-Q1 e 341-Q5. Bloqueadas: 341-Q3 (local da prática e formato do módulo 3, OU11). C7: nenhum texto, chamada, resposta ou variação depende da promoção (OU10); a resposta de investimento é a mesma das outras turmas. Fica fora o texto da ficha que chama o recém-formado de "inseguro e sem nenhum diferencial competitivo", que ofende o público, e a frase da ficha sobre "descontos e bolsas de estudo". "Hospital veterinário" não entra no texto enquanto o local da prática estiver em aberto (OU11). Alternativa real [SUPOSIÇÃO, contexto da linha]: seguir aprendendo a campo com um colega de equinos, ou cursos curtos e congressos.
 
 ### 3.1 Mensagem central (texto para a página)
 
@@ -96,16 +96,16 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 ### 3.2 Três provas de apoio (texto para a página; fonte: ficha de 341)
 
 1. **A espécie inteira, por sistema.** Abordagem clínica do paciente equino e farmacologia; paciente crítico, choque e cuidados intensivos; preparação cirúrgica e manejo de feridas; cardiologia com eletrocardiograma e ecocardiograma; trato respiratório; sistema digestivo; sistema locomotor e diagnóstico de claudicação; neonatologia, UTI neonatal e potros críticos; podologia; odontologia equina; transtornos neurológicos; pele, olhos, sistema urinário e genital. *(Fonte: cronograma.)*
-2. **Prática em quase todos os temas.** O curso prevê treinamentos práticos e demonstrativos na maioria dos temas, aulas teóricas online e práticas presenciais aos fins de semana, e termina com estágio obrigatório e atividades complementares. *(Fonte: texto de apresentação, objetivo e cronograma da ficha. Onde é a prática: [CONFIRMAR OU11], fora do texto.)*
-3. **Evidência e leitura crítica.** Há um módulo de medicina equina baseada em evidências, os conteúdos teóricos combinam aula online e leitura crítica, e a avaliação inclui provas práticas, seminários e trabalho de conclusão quando escolhido com a coordenação do curso. *(Fonte: cronograma e "Avaliação e metodologia" da ficha.)*
+2. **Prática na maioria dos temas.** O curso prevê treinamentos práticos e demonstrativos na maioria dos temas, aulas teóricas online e práticas presenciais aos fins de semana, e termina com estágio obrigatório e atividades complementares. *(Fonte: texto de apresentação, objetivo e cronograma da ficha. Onde é a prática: [CONFIRMAR OU11], fora do texto.)*
+3. **Evidência e leitura crítica.** O cronograma inclui medicina equina baseada em evidências, os conteúdos teóricos combinam aula online e leitura crítica, e a avaliação inclui provas práticas, seminários e trabalho de conclusão quando escolhido com a coordenação do curso. *(Fonte: cronograma e "Avaliação e metodologia" da ficha.)*
 
 ### 3.3 Respostas às 3 objeções principais (texto para a página)
 
 | Objeção [SUPOSIÇÃO, H-A14.1 e texto da ficha sobre pouca prática na graduação] | Resposta |
 |---|---|
-| "Na faculdade quase não pratiquei com cavalo. Vou dar conta?" | "O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia. A teoria vem antes da prática em cada sistema." |
+| "Na faculdade quase não pratiquei com cavalo. Vou dar conta?" | "O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia." |
 | "Atendo a campo. Não dá para parar toda hora para viajar." | "A teoria é online. O presencial acontece em fins de semana, com as datas publicadas no cronograma antes de começar. Compre passagem e hotel só depois de a turma ser confirmada." |
-| "É caro para quem está começando com equinos." | "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente." (Mesma resposta das outras turmas, sem nenhuma condição além do dado.) |
+| "É caro para quem está começando com equinos." | "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento." (Mesma resposta das outras turmas, sem nenhuma condição além do dado.) |
 
 **Fora da página até a resposta da Ufape:** "Onde são as aulas práticas com os cavalos?" (OU11). Resposta do time: "Vou confirmar com a secretaria onde acontece cada módulo presencial e te retorno." Qualquer pergunta sobre condição de pagamento além do que a página mostra também vai para a secretaria, sem texto pronto.
 
@@ -120,11 +120,11 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 ## 4. Seção 289: Pós-graduação em Cardiologia Veterinária
 
-**Notas internas.** Palavra principal (F1): "pós-graduação em cardiologia veterinária" (289-K0); alvo de curto prazo é a cauda de cidade (289-K1), que **não entra no texto da IA** (template e CP1). A diferença real da turma é o campus; sem CP1 aprovada, ela aparece só no dado (`local_e_datas`) e no JSON-LD. Se a CP1 for aprovada, a cidade entra por variável do dado em `titulo_seo` e `resposta_citavel` (seo-on-page, F4), não por texto desta casa. "Ecocardiograma" aparece como conteúdo; "ecocardiografia" como palavra-alvo é da página de 698 (F1, seção 3). Bloco "PROVA DE BOLSA" da ficha: fora (decisão 14).
+**Notas internas.** Palavra principal (F1): "pós-graduação em cardiologia veterinária" (289-K0); alvo de curto prazo é a cauda de cidade (289-K1), que **não entra no texto da IA** (template e CP1). A diferença real da turma é o campus; sem CP1 aprovada, ela aparece só no dado (`local_e_datas`) e no JSON-LD. Se a CP1 for aprovada, a cidade entra por variável do dado em `titulo_seo` e `resposta_citavel` (seo-on-page, F4), não por texto desta casa. "Ecocardiograma" aparece como conteúdo; "ecocardiografia" como palavra-alvo é da página de 698 (F1, seção 3). Bloco "PROVA DE BOLSA" da ficha: fora (decisão 14). Alternativa real [SUPOSIÇÃO, contexto da linha]: fazer só a formação de exame (Ecocardiografia, 698) ou cursos curtos de eletrocardiograma, ou adiar a especialização.
 
 ### 4.1 Mensagem central (texto para a página)
 
-> Cardiologia veterinária de cães e gatos da fisiologia ao laudo, com ecocardiograma na mão nos módulos práticos e toda a teoria acompanhada a distância.
+> Cardiologia veterinária da fisiologia ao laudo, com ecocardiograma na prática e toda a teoria acompanhada a distância.
 
 ### 4.2 Três provas de apoio (texto para a página; fonte: ficha de 289)
 
@@ -137,7 +137,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 | Objeção [SUPOSIÇÃO, persona secundária e H-A2.3] | Resposta |
 |---|---|
 | "Moro longe. Vou ter de viajar todo mês?" | "Não. A teoria é acompanhada a distância; só os módulos com aula prática são presenciais, e as datas estão no cronograma. Compre passagem e hotel só depois de a turma ser confirmada." |
-| "Preciso da cardiologia completa ou só do exame?" | "Aqui o ecocardiograma faz parte de um percurso maior, que vai da fisiologia e do eletrocardiograma às cardiopatias e às emergências. Se o seu objetivo é só o exame, o guia de decisão da área mostra os dois caminhos lado a lado." (Sem dizer qual é melhor; o link vai para o guia A2, que liga a 698.) |
+| "Preciso da cardiologia completa ou só do exame?" | "Aqui o ecocardiograma faz parte de um percurso maior, que vai da fisiologia e do eletrocardiograma às cardiopatias e às emergências. Se o seu objetivo é só o exame, o guia de decisão da área mostra os caminhos lado a lado." (Sem dizer qual é melhor; o link vai para o guia A2, que liga a 698.) |
 | "Sou clínico geral, não cardiologista. Serve para mim?" (289-Q5) | "O público da turma são médicas e médicos veterinários, e o curso começa pela anatomia, pela fisiologia e pela semiologia circulatória antes de chegar aos exames." Nível de entrada exigido [CONFIRMAR NO CATÁLOGO]. |
 
 ### 4.4 Chamada principal e 3 variações
@@ -155,7 +155,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 
 **Texto para a página (igual nas duas):**
 
-> "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
+> "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
 
 - Na página de 68615, o nome "Pós-graduação em Citopatologia Veterinária" é o link para 333; na página de 333, "Pós-graduação em Patologia Clínica" é o link para 68615 (regra de âncora da F1).
 - Sem comparação de valor, de duração, de carga, de quantidade de prática ou de corpo docente. Nenhuma das duas é chamada de "mais completa", "mais prática" ou "mais acessível".
@@ -165,7 +165,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 
 ## 6. Seção 68615: Pós-graduação em Patologia Clínica (laboratório clínico)
 
-**Notas internas.** Palavra principal (F1): "pós-graduação em patologia clínica veterinária" (68615-K0); o nome do catálogo não traz "veterinária", então a palavra entra no corpo ("laboratório clínico veterinário" na mensagem central). Perguntas de IA: 68615-Q1, Q3, Q4 e Q5. Ficam fora as frases da ficha ligadas ao órgão regulador, "referência nacional em educação" e o bloco "PROVA DE BOLSA". Citologia aparece só como parte do curso, nunca como foco.
+**Notas internas.** Palavra principal (F1): "pós-graduação em patologia clínica veterinária" (68615-K0); o nome do catálogo não traz "veterinária", então a palavra entra no corpo ("laboratório clínico veterinário" na mensagem central). Perguntas de IA: 68615-Q1, Q3, Q4 e Q5. Ficam fora as frases da ficha ligadas ao órgão regulador, "referência nacional em educação" e o bloco "PROVA DE BOLSA". Citologia aparece só como parte do curso, nunca como foco. Alternativa real [SUPOSIÇÃO, contexto da linha]: aprender na rotina de um laboratório com um colega, fazer só a Hematologia (68608) ou adiar a especialização.
 
 ### 6.1 Mensagem central (texto para a página)
 
@@ -174,7 +174,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 ### 6.2 Três provas de apoio (texto para a página; fonte: ficha de 68615)
 
 1. **Um objetivo escrito para o laboratório.** Capacitar a médica e o médico veterinário a trabalhar em laboratórios clínicos, com correlação clínico-laboratorial, conhecimento de equipamentos e metodologias, técnicas de coleta e a estrutura e a administração de um laboratório. *(Fonte: texto de apresentação da ficha.)*
-2. **O laboratório inteiro, fase por fase.** Materiais biológicos e erros pré-analíticos, analíticos e pós-analíticos; hemograma e sua automação; hemostasia; hemoparasitoses; avaliação bioquímica, função renal e urinálise; eletrólitos e hemogasometria; distúrbios endócrinos; exame coproparasitológico; citologia; líquidos cavitários e líquor; testes imunológicos e PCR; microbiologia; controle de qualidade e biossegurança no laboratório clínico veterinário. *(Fonte: cronograma.)*
+2. **O laboratório, fase por fase.** Materiais biológicos e erros pré-analíticos, analíticos e pós-analíticos; hemograma e sua automação; hemostasia; hemoparasitoses; avaliação bioquímica, função renal e urinálise; eletrólitos e hemogasometria; distúrbios endócrinos; exame coproparasitológico; citologia; líquidos cavitários e líquor; testes imunológicos e PCR; microbiologia; controle de qualidade e biossegurança no laboratório clínico veterinário. *(Fonte: cronograma.)*
 3. **Prática presencial com laudo.** Os módulos presenciais trazem automação e prática de hemograma, hemoparasitoses em hematoscopia, mielograma, hemocomponentes e transfusão, prática de bioquímica e urina, coleta e confecção de lâminas e técnicas básicas de microbiologia; a elaboração de laudos aparece ao longo do cronograma. As aulas presenciais não são transmitidas. *(Fonte: cronograma, módulos marcados Presencial, e observação da ficha.)*
 
 ### 6.3 Respostas às 3 objeções principais (texto para a página)
@@ -198,7 +198,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 
 ## 7. Seção 333: Pós-graduação em Citopatologia Veterinária (leitura de lâminas)
 
-**Notas internas.** Palavra principal (F1): "pós-graduação em citopatologia veterinária" (333-K0); diferencial de vocabulário "leitura de lâminas" (333-K3). Perguntas de IA: 333-Q1, Q2, Q3 e Q4. Bloqueadas: 333-Q5 e 333-QC2 (OU3). Nenhuma palavra sobre coordenação nem sobre quem ensina (OU12); a seção `docentes` é dado. Ficam fora "oportunidade única", "contribui para o avanço da ciência" e "o que há de mais recente" (textos da ficha). O ticket menor que o de 68615 não entra em texto nenhum. **C1 e C2 (contagem pela ficha, só para conferência interna):** são 6 módulos presenciais (1, 5, 10, 12, 13 e 20); só 3 deles (5, 10 e 20, "Experiências práticas citopatológicas") são de leitura de lâminas e discussão de casos; os outros são manejo de materiais biológicos (1), citologia esplênica e linfoma (12) e mielograma (13). O texto para a página nunca soma os presenciais nem trata todos como de leitura: diz "módulos presenciais de leitura de lâminas e discussão de casos" e nomeia os outros presenciais pelo tema.
+**Notas internas.** Palavra principal (F1): "pós-graduação em citopatologia veterinária" (333-K0); diferencial de vocabulário "leitura de lâminas" (333-K3). Perguntas de IA: 333-Q1, Q2, Q3 e Q4. Bloqueadas: 333-Q5 e 333-QC2 (OU3). Nenhuma palavra sobre coordenação nem sobre quem ensina (OU12); a seção `docentes` é dado. Ficam fora "oportunidade única", "contribui para o avanço da ciência" e "o que há de mais recente" (textos da ficha). O ticket menor que o de 68615 não entra em texto nenhum. **C1 e C2 (contagem pela ficha, só para conferência interna):** são 6 módulos presenciais (1, 5, 10, 12, 13 e 20); só 3 deles (5, 10 e 20, "Experiências práticas citopatológicas") são de leitura de lâminas e discussão de casos; os outros são manejo de materiais biológicos (1), citologia esplênica e linfoma (12) e mielograma (13). O texto para a página nunca soma os presenciais nem trata todos como de leitura: diz "módulos presenciais de leitura de lâminas e discussão de casos" e nomeia os outros presenciais pelo tema. Alternativa real [SUPOSIÇÃO, contexto da linha]: aprender a ler lâminas com um patologista na rotina, conteúdo gratuito e congressos, ou adiar a especialização.
 
 ### 7.1 Mensagem central (texto para a página)
 
@@ -207,7 +207,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 ### 7.2 Três provas de apoio (texto para a página; fonte: ficha de 333)
 
 1. **Leitura de lâminas no presencial.** O cronograma tem módulos presenciais de leitura de lâminas e discussão de casos, chamados de experiências práticas citopatológicas. Os demais módulos presenciais tratam de manejo do material, de citologia esplênica e linfoma e de mielograma. As aulas presenciais não são transmitidas. *(Fonte: cronograma e observação da ficha; contagem nas notas internas, C1 e C2.)*
-2. **Começa pelo material.** O curso abre com um módulo presencial de manejo de materiais biológicos (coleta, armazenamento, acondicionamento e transporte de amostras, técnicas de coloração e microscopia) e segue para citologia básica, critérios de malignidade e gestão da qualidade aplicada à citopatologia. *(Fonte: cronograma. Fato de formato, sem tom de prazo.)*
+2. **Começa pelo material.** O curso abre com o módulo presencial de manejo de materiais biológicos (coleta, armazenamento, acondicionamento e transporte de amostras, técnicas de coloração e microscopia) e segue para citologia básica, critérios de malignidade e gestão da qualidade aplicada à citopatologia. *(Fonte: cronograma. Fato de formato, sem tom de prazo.)*
 3. **Lesão por lesão, sistema por sistema.** Processos inflamatórios e enfermidades infecciosas, derrames cavitários, líquidos biológicos, trato respiratório, neoplasias de células redondas, sangue periférico, neoplasias glandulares e mesenquimais, trato gastrointestinal, aparelho urinário, citopatologia reprodutiva, oftalmológica e auditiva, com atualizações em imunocitopatologia, automação citopatológica e citoinclusão. *(Fonte: cronograma.)*
 
 ### 7.3 Respostas às 3 objeções principais (texto para a página)

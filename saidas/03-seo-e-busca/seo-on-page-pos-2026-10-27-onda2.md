@@ -32,7 +32,7 @@
 3. **CP1 aplicada como trava:** nenhuma das 5 turmas leva cidade em `titulo_seo`, `descricao_seo`, `resposta_citavel`, `descricao_schema` ou resposta de FAQ. Em 289, a cauda de Goiânia (F1: 289-K1 e 289-K2, a melhor aposta da turma) fica só no dado (`local_e_datas`) e no JSON-LD (`location`). Se a pessoa do marketing aprovar a CP1, o cmo pede uma versão nova deste arquivo; nenhuma variante com cidade está escrita aqui.
 4. **Sem as palavras proibidas da F3:** nenhum "MEC", "certificado", "reconhecida", "bolsa", "promoção", urgência ou contador, nenhum "especialista" como título, nenhum pré-requisito. 657 sem a parte "para quem" (U10). 341 sem promoção (OU10). 333 sem "coordenação" (OU12). Nenhum superlativo da ficha, nenhuma promessa de emprego, renda, aprovação ou resultado clínico.
 5. **Divisão 68615 x 333 (F1, seção 4):** 68615 só usa o vocabulário de laboratório clínico (patologia clínica, laboratório clínico, pré-analítico, correlação clínico-laboratorial, controle de qualidade); 333 só usa o de leitura de lâminas (citopatologia, leitura de lâminas, coloração, microscopia). Nenhum dos dois campos de SEO de 68615 traz "citologia" ou "citopatologia", e nenhum de 333 traz "patologia clínica", "laboratório clínico" ou "hematologia". A única menção cruzada é a pergunta-ponte do FAQ, que já é texto da F3. "Mielograma" e "hemograma" ficam fora de todos os campos de SEO das duas.
-6. **Nome padrão:** "Pós-graduação em <área>" (contexto/pos-graduacao.md). "Veterinária" aparece no título e na resposta citável de 657 e de 68615, como pede a F1 (o nome do catálogo não a traz); nos outros dois, o nome já a traz. Isso é palavra de SEO, não troca o nome do catálogo, que continua no H1 e nos dados [SUPOSIÇÃO: escolha deste agente, sobre a regra da seção 2.4 da F1].
+6. **Nome padrão:** "Pós-graduação em <área>" (contexto/pos-graduacao.md). Em 657 e 68615 o nome do catálogo não traz "veterinária": o nome fica exatamente como no catálogo em todo campo, e a palavra entra fora do nome ("anestesia veterinária", "laboratório clínico veterinário", "para veterinários"), como pede a F1 ("sem trocar o nome do catálogo"; correção do qa na revisão F13a).
 7. **Marca no título:** todos os títulos fecham com " | Ufape", para o padrão ser único nas 5 páginas [SUPOSIÇÃO].
 8. **JSON-LD:** os valores de dado (nome, início, turma, carga horária, modalidade, cidade, preço) entram como chave `{{...}}` e não foram digitados, porque a plataforma monta o JSON-LD com os fatos do banco (template, seção "Marcação para buscadores e IA") e porque o texto proíbe número. A seção 7 mostra, só para conferência do qa, o valor que cada chave deve devolver segundo o catálogo. O FAQPage repete palavra por palavra as respostas que a F3 escreveu (o FAQ marcado tem de ser o que está visível, skill schema-de-curso).
 
@@ -44,21 +44,21 @@ Palavra principal (F1): pós-graduação em anestesiologia avançada veterinári
 
 ### 1.1 Campos de SEO
 
-**titulo_seo** (60 caracteres, limite 60):
+**titulo_seo** (48 caracteres, limite 60):
 
-> Pós-graduação em Anestesiologia Avançada Veterinária | Ufape
+> Pós-graduação em Anestesiologia Avançada | Ufape
 
-Está no limite. Se o validador contar diferente, a versão de reserva é a mesma sem a marca: "Pós-graduação em Anestesiologia Avançada Veterinária" (52 caracteres).
+O nome fica igual ao do catálogo; "veterinária" vai na descrição e na resposta citável.
 
-**descricao_seo** (151 caracteres, limite 155; recontado por script pelo orquestrador):
+**descricao_seo** (147 caracteres, limite 155; contagem do qa, a recontar por script):
 
-> Pós-graduação em anestesiologia avançada veterinária semipresencial: hemodinâmica, ventilação do paciente especial e prática guiada. Veja o cronograma.
+> Pós-graduação em Anestesiologia Avançada, semipresencial: anestesia veterinária com hemodinâmica, ventilação do paciente especial e prática guiada.
 
-**resposta_citavel** (55 palavras, faixa de 40 a 60):
+**resposta_citavel** (54 palavras, faixa de 40 a 60):
 
-> A pós-graduação em anestesiologia avançada veterinária da Faculdade Ufape é um curso semipresencial que leva a anestesia do protocolo à anestesia de precisão. O programa trata de fisiologia aplicada, hemodinâmica, ventilação do paciente especial, bloqueio neuromuscular e coagulação, com prática presencial guiada. É pensado para quem quer aprofundar a decisão crítica em pacientes de risco.
+> A Pós-graduação em Anestesiologia Avançada da Faculdade Ufape é um curso semipresencial de anestesia veterinária que leva a anestesia do protocolo à anestesia de precisão. O programa trata de fisiologia aplicada, hemodinâmica, ventilação do paciente especial, bloqueio neuromuscular e coagulação, com prática presencial guiada. O foco é a decisão crítica em pacientes de risco.
 
-A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão crítica" descreve o motivo do curso, não um requisito. A frase "para quem" fica assim até a Ufape escrever o pré-requisito real.
+A resposta não diz quem pode entrar (U10). Nenhuma frase descreve público (U10): "O foco é a decisão crítica" fala do curso, não de quem entra.
 
 **entidades:**
 
@@ -70,9 +70,9 @@ A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão cr�
 - Onde nomear: hero, sobre, matriz (dado) e faq.
 - Não nomear como entidade (F1, seção 5.1): locorregional (é de 359), ventilação mecânica (é de 352 e de 68618), pets não convencionais e reanimação (Livres), "título" ou "prova" de especialista, EAD e residência.
 
-**descricao_schema** (249 caracteres, limite 300):
+**descricao_schema** (260 caracteres, limite 300):
 
-> Pós-graduação semipresencial em Anestesiologia Avançada Veterinária da Faculdade Ufape. Da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, hemodinâmica, ventilação, bloqueio neuromuscular, coagulação e prática presencial guiada.
+> Pós-graduação em Anestesiologia Avançada da Faculdade Ufape, semipresencial. Anestesia veterinária da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, hemodinâmica, ventilação, bloqueio neuromuscular, coagulação e prática presencial guiada.
 
 ### 1.2 JSON-LD (Course com CourseInstance e Offer, mais FAQPage)
 
@@ -83,7 +83,7 @@ A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão cr�
     {
       "@type": "Course",
       "name": "{{catalogo.nome}}",
-      "description": "Pós-graduação semipresencial em Anestesiologia Avançada Veterinária da Faculdade Ufape. Da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, hemodinâmica, ventilação, bloqueio neuromuscular, coagulação e prática presencial guiada.",
+      "description": "Pós-graduação em Anestesiologia Avançada da Faculdade Ufape, semipresencial. Anestesia veterinária da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, hemodinâmica, ventilação, bloqueio neuromuscular, coagulação e prática presencial guiada.",
       "url": "{{pagina.url_canonica}}",
       "inLanguage": "pt-BR",
       "provider": {
@@ -92,7 +92,7 @@ A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão cr�
         "url": "https://faculdade.ufape.com.br"
       },
       "about": [
-        { "@type": "Thing", "name": "anestesiologia veterinária" },
+        { "@type": "Thing", "name": "anestesiologia avançada" },
         { "@type": "Thing", "name": "anestesia de precisão" },
         { "@type": "Thing", "name": "hemodinâmica avançada" },
         { "@type": "Thing", "name": "bloqueio neuromuscular" }
@@ -129,7 +129,7 @@ A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão cr�
           "name": "O que o curso traz além da rotina de anestesia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores, monitores e bombas de infusão na mão."
+            "text": "O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores e monitores hemodinâmicos na mão e execução de TIVA e TCI."
           }
         },
         {
@@ -145,7 +145,7 @@ A resposta não diz quem pode entrar (U10). "Quem quer aprofundar a decisão cr�
           "name": "Quanto vou pagar no total?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O total, as parcelas e a matrícula estão nesta página, ao lado do cronograma de cada módulo presencial. Você vê o que paga e o que vai praticar antes de decidir."
+            "text": "O total, as parcelas e a matrícula estão nesta página, assim como o cronograma de cada módulo presencial. Você vê as condições e o que vai praticar antes de decidir."
           }
         },
         {
@@ -253,7 +253,7 @@ Palavra principal (F1): pós-graduação em medicina interna equina. Página: a 
           "name": "Pratiquei pouco com cavalos na faculdade. O curso ajuda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia. A teoria vem antes da prática em cada sistema."
+            "text": "O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia."
           }
         },
         {
@@ -269,7 +269,7 @@ Palavra principal (F1): pós-graduação em medicina interna equina. Página: a 
           "name": "Quanto vou pagar no total?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente."
+            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento."
           }
         },
         {
@@ -403,7 +403,7 @@ A resposta não diz "de cães e gatos": a ficha traz também cardiologia equina 
           "name": "Quanto vou pagar no total?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente."
+            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento."
           }
         },
         {
@@ -430,17 +430,17 @@ Palavra principal (F1): pós-graduação em patologia clínica veterinária. Voc
 
 ### 4.1 Campos de SEO
 
-**titulo_seo** (54 caracteres, limite 60):
+**titulo_seo** (60 caracteres, limite 60; reserva sem "para veterinários": 42):
 
-> Pós-graduação em Patologia Clínica Veterinária | Ufape
+> Pós-graduação em Patologia Clínica para veterinários | Ufape
 
-**descricao_seo** (135 caracteres, limite 155):
+**descricao_seo** (136 caracteres, limite 155):
 
-> Pós-graduação em patologia clínica veterinária semipresencial: o laboratório clínico do pré-analítico ao laudo, com prática presencial.
+> Pós-graduação em Patologia Clínica, semipresencial: o laboratório clínico veterinário do pré-analítico ao laudo, com prática presencial.
 
 **resposta_citavel** (52 palavras, faixa de 40 a 60):
 
-> A pós-graduação em patologia clínica veterinária da Faculdade Ufape é um curso semipresencial com foco no laboratório clínico: do pré-analítico ao laudo, com correlação clínico-laboratorial, controle de qualidade e prática presencial. O curso também trata de estruturar e administrar um laboratório. É pensada para médicas e médicos veterinários interessados em laboratório clínico.
+> A Pós-graduação em Patologia Clínica da Faculdade Ufape é um curso semipresencial com foco no laboratório clínico veterinário: do pré-analítico ao laudo, com correlação clínico-laboratorial, controle de qualidade e prática presencial. O curso também trata de estruturar e administrar um laboratório. É pensada para médicas e médicos veterinários interessados em laboratório clínico.
 
 **entidades:**
 
@@ -452,9 +452,9 @@ Palavra principal (F1): pós-graduação em patologia clínica veterinária. Voc
 - Onde nomear: hero, sobre, para_quem, matriz (dado) e faq.
 - Não nomear como entidade (F1, seções 4 e 8.1): citologia e citopatologia, leitura de lâminas (são de 333; a ponte entre as duas é só a pergunta do FAQ); hematologia e hemograma (são de 68608, onda 1); mielograma (de nenhuma das duas); histopatologia, anatomia patológica e necropsia; EAD; título de especialista; "referência nacional" e qualquer frase de reconhecimento da ficha.
 
-**descricao_schema** (268 caracteres, limite 300):
+**descricao_schema** (269 caracteres, limite 300):
 
-> Pós-graduação semipresencial em Patologia Clínica Veterinária da Faculdade Ufape. O laboratório clínico do pré-analítico ao laudo: correlação clínico-laboratorial, controle de qualidade, biossegurança, prática presencial e como estruturar e administrar um laboratório.
+> Pós-graduação em Patologia Clínica da Faculdade Ufape, semipresencial. O laboratório clínico veterinário do pré-analítico ao laudo: correlação clínico-laboratorial, controle de qualidade, biossegurança, prática presencial e como estruturar e administrar um laboratório.
 
 ### 4.2 JSON-LD (Course com CourseInstance e Offer, mais FAQPage)
 
@@ -465,7 +465,7 @@ Palavra principal (F1): pós-graduação em patologia clínica veterinária. Voc
     {
       "@type": "Course",
       "name": "{{catalogo.nome}}",
-      "description": "Pós-graduação semipresencial em Patologia Clínica Veterinária da Faculdade Ufape. O laboratório clínico do pré-analítico ao laudo: correlação clínico-laboratorial, controle de qualidade, biossegurança, prática presencial e como estruturar e administrar um laboratório.",
+      "description": "Pós-graduação em Patologia Clínica da Faculdade Ufape, semipresencial. O laboratório clínico veterinário do pré-analítico ao laudo: correlação clínico-laboratorial, controle de qualidade, biossegurança, prática presencial e como estruturar e administrar um laboratório.",
       "url": "{{pagina.url_canonica}}",
       "inLanguage": "pt-BR",
       "provider": {
@@ -519,7 +519,7 @@ Palavra principal (F1): pós-graduação em patologia clínica veterinária. Voc
           "name": "Patologia clínica ou citopatologia: qual eu faço?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
+            "text": "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
           }
         },
         {
@@ -543,7 +543,7 @@ Palavra principal (F1): pós-graduação em patologia clínica veterinária. Voc
           "name": "Quanto vou pagar no total?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente."
+            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento."
           }
         },
         {
@@ -651,7 +651,7 @@ Palavra principal (F1): pós-graduação em citopatologia veterinária. Vocabul�
           "name": "Citopatologia ou patologia clínica: qual eu faço?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
+            "text": "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
           }
         },
         {
@@ -683,7 +683,7 @@ Palavra principal (F1): pós-graduação em citopatologia veterinária. Vocabul�
           "name": "Quanto vou pagar no total?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente."
+            "text": "O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento."
           }
         },
         {
@@ -710,17 +710,17 @@ Notas de 333: sem `instructor`, sem `Person` e sem coordenação (OU12). Sem per
 
 | Turma | titulo_seo (limite 60) | descricao_seo (limite 155) | resposta_citavel (40 a 60 palavras) | descricao_schema (limite 300) |
 |---|---|---|---|---|
-| 657 | 60 | 152 | 55 | 249 |
+| 657 | 48 | 147 | 54 | 260 |
 | 341 | 48 | 152 | 53 | 231 |
 | 289 | 48 | 145 | 52 | 244 |
-| 68615 | 54 | 135 | 52 | 268 |
+| 68615 | 60 | 136 | 52 | 269 |
 | 333 | 50 | 143 | 46 | 242 |
 
-Contagem manual, a conferir pelo validador. Só o título de 657 está no limite exato.
+Contagem manual, a conferir pelo validador. Só o título de 68615 está no limite exato (reserva de 42 caracteres na seção 4.1). Contagens de 657 e 68615 feitas à mão pelo qa: recontar por script.
 
 ### 6.2 Unicidade e canibalização (auditorias/03-busca.md)
 
-- Títulos e descrições das 5 turmas são diferentes entre si. O título de 289 é igual ao que a turma 68605 (Cardiologia, São Paulo, status "verificar", não divulgada) teria se usasse o mesmo padrão. Enquanto 68605 não estiver à venda, não há duas páginas disputando; quando reabrir, a F1 manda decidir canonical ou 301 pela regra T3, e o título dela leva outro diferencial [SUPOSIÇÃO].
+- Títulos e descrições das 5 turmas são diferentes entre si. O título de 289 é igual ao que a turma 68605 (Cardiologia, São Paulo) teria no mesmo padrão. O catálogo marca 68605 como "verificar (turma já iniciada e com venda)": a página dela está no ar e vende, então as duas páginas disputam a consulta "pós-graduação em cardiologia veterinária". Chamado proposto: com a CP1 aprovada, a cidade entra no título das duas; sem a CP1, a página de 68605 sai de venda depois do 3º módulo (decisão 18) e recebe 301 para a próxima turma de Cardiologia de São Paulo ou para a página do curso [CONFIRMAR com o time do site].
 - 68615 x 333: nenhum campo de SEO de uma usa a palavra principal da outra (itens 5 e 6 da seção 0 e listas "Não nomear" acima). A pergunta-ponte do FAQ é a única ligação, com a âncora cruzada da F1 (68615 liga a 333 por "Pós-graduação em Citopatologia Veterinária"; 333 liga a 68615 por "Pós-graduação em Patologia Clínica").
 - 657: o termo genérico "pós-graduação em anestesiologia veterinária" é da página de 68609 e "locorregional" é da de 359: nenhum campo de 657 usa o genérico sozinho nem "locorregional" fora do conteúdo do módulo.
 - 289: o termo "ecocardiografia" é da página de 698. Nenhum campo de SEO de 289 o usa; "ecocardiograma" aparece só como conteúdo da prática.

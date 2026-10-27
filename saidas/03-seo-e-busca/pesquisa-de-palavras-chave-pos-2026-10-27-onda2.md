@@ -228,7 +228,7 @@ Regra de link interno: 68615 liga para 333 pela âncora "Pós-graduação em Cit
 
 ## 7. Seção 289: Pós-graduação em Cardiologia Veterinária, Goiânia (turma II)
 
-**Dados de apoio (catálogo, seção 2):** Goiânia, semipresencial, 500 h, início 20/03/2027, turma II, status aberto. **Ficha:** público-alvo "Médicos Veterinários"; 24 módulos, 6 presenciais (hands-on de ecocardiograma); temas: anatomia e fisiologia, semiologia circulatória, radiografia, ECG, taquiarritmias e bradiarritmias, ecocardiografia, cardiopatias de cães, de felinos e congênitas, emergências cardíacas; a ficha traz o bloco "PROVA DE BOLSA" (sem peça, decisão 14).
+**Dados de apoio (catálogo, seção 2):** Goiânia, semipresencial, 500 h, início 20/03/2027, turma II, status aberto. **Ficha:** público-alvo "Médicos Veterinários"; 24 módulos, 6 presenciais, 4 deles de prática de ecocardiograma (módulos 9, 13, 16 e 19), o 24 de aula prática e prova final e o 6 sem conteúdo no cronograma; temas: anatomia e fisiologia, semiologia circulatória, radiografia, ECG, taquiarritmias e bradiarritmias, ecocardiografia, cardiopatias de cães, de felinos e congênitas, emergências cardíacas; a ficha traz o bloco "PROVA DE BOLSA" (sem peça, decisão 14).
 
 **O que a busca na web mostrou (27/10):** o Anclivepa-SP publicou o edital da Pós-graduação em Cardiologia Veterinária de 2026; o Pravaler tem guia sobre a especialidade; o Guia da Carreira lista pós em medicina veterinária em Goiânia quase só em EAD, sem cardiologia semipresencial. Nenhuma pós de cardiologia semipresencial em Goiânia apareceu: sinal de espaço aberto para a cauda local [SUPOSIÇÃO]. A cabeça de termo ("pós-graduação em cardiologia veterinária") é disputada por agregadores e concorrentes (F baixo).
 

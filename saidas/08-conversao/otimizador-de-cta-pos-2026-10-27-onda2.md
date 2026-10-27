@@ -70,7 +70,7 @@ Dica dentro do campo: só o WhatsApp leva "DDD e número". Os outros dois ficam 
 >
 > Quero receber mensagens sobre esta turma e sobre cursos da mesma área por e-mail.
 
-A caixa de e-mail só aparece ou só vale se o campo de e-mail estiver preenchido. O retorno do time de vendas pedido no formulário não depende de nenhuma das duas caixas.
+A caixa de e-mail só aparece ou só vale se o campo de e-mail estiver preenchido. O retorno do time de vendas pedido no formulário não depende de nenhuma das duas caixas. Quem não marca uma caixa recebe só o retorno pedido e não entra nas listas de campanha (S2 e S3) daquele canal (encomenda F10).
 
 **Campos de rastreamento (ocultos, sem dado pessoal):** código da turma, UTM (preservadas do clique ao CRM, regra 12 do plano) e `cta_variante` (c, v1 ou v2). Ver 0.5.
 
@@ -78,7 +78,7 @@ A caixa de e-mail só aparece ou só vale se o campo de e-mail estiver preenchid
 
 **Mensagem de erro de envio (comum):**
 
-> Não conseguimos enviar seus dados agora. Tente de novo ou fale com a secretaria pelo WhatsApp desta página.
+> Não conseguimos enviar seus dados agora. Tente de novo ou fale com o time pelo WhatsApp desta página.
 
 **Frase de risco abaixo do botão (comum):**
 
@@ -98,7 +98,7 @@ O endereço da política não está em contexto/ufape-geral.md nem em nenhuma da
 |---|---|---|---|
 | C (recomendado e controle) | Quero receber o retorno do time | 31 | diz o que acontece depois do clique |
 | V1 | Quero tirar minhas dúvidas | 26 | reduz o compromisso percebido |
-| V2 | Quero me inscrever | 18 | é o texto provisório da F3, com a palavra de intenção |
+| V2 | Quero me inscrever | 18 | suspenso: só entra no teste se o clique levar à inscrição de fato; com o formulário de contato, promete mais do que entrega (conformidade, página de destino) [CONFIRMAR com o time do site] |
 
 Contagem feita letra por letra, espaços inclusos. O mesmo texto vale para o botão do hero, do formulário e do `cta_final` em cada braço. A F3 deixou "Quero me inscrever" no hero: como este arquivo não altera o arquivo da F3, o editor troca o botão do hero pelo texto do braço sorteado (pedido no fim de cada seção) [SUPOSIÇÃO: meta de até 32 caracteres para caber em uma linha no celular, que é só uma meta de leitura, o template não fixa limite].
 
@@ -107,7 +107,7 @@ Por que o controle não é "Quero me inscrever": quem clica espera começar a in
 ### 0.5 Regras comuns do teste de botão (skill hipotese-de-teste)
 
 1. **Uma mudança por teste:** só o texto do botão, nas 3 posições da mesma página e em todas as 5 páginas. Nada mais muda.
-2. **Sorteio por visitante,** com divisão igual entre C, V1 e V2, e o mesmo braço nas 5 páginas para quem visitar mais de uma. Isso importa em 68615 e 333, que disputam o mesmo segmento (A11) [SUPOSIÇÃO: a plataforma faz o sorteio por cookie, CONFIRMAR com o time do site].
+2. **Sorteio por visitante,** com divisão igual entre C e V1 (V2 suspenso, seção 0.4), e o mesmo braço nas 5 páginas para quem visitar mais de uma. Isso importa em 68615 e 333, que disputam o mesmo segmento (A11) [SUPOSIÇÃO: a plataforma faz o sorteio por cookie, CONFIRMAR com o time do site].
 3. **Métrica principal:** taxa de envio do formulário (leads dividido por visitantes da página). **Métrica de qualidade:** inscrição paga por lead, medida separada da matrícula paga, só números somados (decisão 16). A 1ª mensalidade paga não decide este teste: o ciclo dela é mais longo que a janela [SUPOSIÇÃO].
 4. **Evento:** `generate_lead` com o parâmetro `cta_variante`, e o mesmo valor gravado no lead do CRM; `click_whatsapp` sem o parâmetro (a F3 sugere os nomes dos eventos [SUPOSIÇÃO]). Sem dado pessoal em nenhum parâmetro.
 5. **Janela:** de segunda 04/01/2027 a domingo 07/02/2027, 5 semanas inteiras. Não atravessa o fim de ano sem campanha (21/12 a 03/01), o Carnaval (08 a 10/02) nem os cortes da 1ª mensalidade (11/02 em 657; 18/02 em 341, 289 e 68615; 25/02 em 333), todos do plano do CMO. De 07/12 a 03/01 as páginas rodam só com o controle, para formar a linha de base.
@@ -192,7 +192,7 @@ Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 - **Tempo mínimo:** a janela comum (04/01 a 07/02/2027). A mídia de 657 só sobe em 14/12 e com PP7, então a janela cobre toda a fase de conversão até o corte de 11/02.
 - **Se ganhar / se perder:** regra da seção 0.5, item 7. Em 657, se ganhar em volume e perder em inscrição paga por lead, fica o controle.
 
-**V2: "Quero me inscrever" (18 caracteres)**
+**V2: "Quero me inscrever" (18 caracteres), suspenso até a confirmação da seção 0.4**
 
 - **Mudança:** o botão passa para "Quero me inscrever", o texto provisório da F3. Nada mais muda.
 - **Efeito previsto:** menos envios no tráfego frio e igual ou mais no remarketing e na busca de marca; inscrição paga por lead acima do controle.
@@ -252,7 +252,7 @@ Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 - **Tempo mínimo:** a janela comum. O teste só começa se a página corrigida (OB1: promoção resolvida e segundo local explicado) estiver no ar; se OU10 não estiver resolvida até 11/12, os toques de 341 passam para janeiro (plano, regra 10) e o teste entra com a linha de base mais curta, mantendo o início em 04/01.
 - **Se ganhar / se perder:** regra da seção 0.5. Em 341 o volume é o menor, então a leitura por turma não decide: vale o resultado somado.
 
-**V2: "Quero me inscrever" (18 caracteres)**
+**V2: "Quero me inscrever" (18 caracteres), suspenso até a confirmação da seção 0.4**
 
 - **Mudança:** o botão passa para "Quero me inscrever". Nada mais muda.
 - **Efeito previsto:** igual ou menos envios; inscrição paga por lead acima do controle.
@@ -312,7 +312,7 @@ Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 - **Tempo mínimo:** a janela comum. 289 é a única turma com campanha ativa hoje (limitada a R$ 500,00 até 06/12, PP9), mas o tráfego atual vai para a página antiga e não serve de linha de base.
 - **Se ganhar / se perder:** regra da seção 0.5.
 
-**V2: "Quero me inscrever" (18 caracteres)**
+**V2: "Quero me inscrever" (18 caracteres), suspenso até a confirmação da seção 0.4**
 
 - **Mudança:** o botão passa para "Quero me inscrever". Nada mais muda.
 - **Efeito previsto:** igual ou menos envios; inscrição paga por lead acima do controle.
@@ -372,7 +372,7 @@ Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 - **Tempo mínimo:** a janela comum. Para ler o efeito sem enganar, o desenho-de-experimentos soma os leads de 68615 e 333 (área A11) antes de comparar os braços.
 - **Se ganhar / se perder:** regra da seção 0.5. Se o braço só mover leads de 333 para 68615 sem aumentar o total da área, não conta como vitória.
 
-**V2: "Quero me inscrever" (18 caracteres)**
+**V2: "Quero me inscrever" (18 caracteres), suspenso até a confirmação da seção 0.4**
 
 - **Mudança:** o botão passa para "Quero me inscrever". Nada mais muda.
 - **Efeito previsto:** igual ou menos envios; inscrição paga por lead acima do controle.
@@ -432,7 +432,7 @@ Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 - **Tempo mínimo:** a janela comum. O teste cabe inteiro antes do corte de 25/02 e da pausa da mídia de 333 em 26/03 (sexta-feira da Paixão, enquanto OU3 estiver aberta). Os leads de 333 se somam aos de 68615 na leitura da área A11.
 - **Se ganhar / se perder:** regra da seção 0.5.
 
-**V2: "Quero me inscrever" (18 caracteres)**
+**V2: "Quero me inscrever" (18 caracteres), suspenso até a confirmação da seção 0.4**
 
 - **Mudança:** o botão passa para "Quero me inscrever". Nada mais muda.
 - **Efeito previsto:** igual ou menos envios; inscrição paga por lead acima do controle.

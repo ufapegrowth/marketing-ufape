@@ -35,7 +35,7 @@
 5. **Seção de certificação oculta, sem frase.** `certificacao` com visivel nao nas 5, até a regulação aprovar o texto oficial (contexto/catalogo-de-cursos.md: [PREENCHER COM A REGULAÇÃO]). Nenhuma página escreve "MEC", "certificado", "reconhecida" nem variações.
 6. **Sem bolsa.** Nenhuma pergunta ou resposta fala de bolsa, prova de bolsa, desconto ou promoção (decisão 14; 341 sem promoção, OU10). Pergunta sobre bolsa vai para a secretaria.
 7. **Sem depoimento, nota, empregabilidade ou prova externa.** Não há depoimento autorizado em mãos: `depoimentos` fica oculta (escolha humana). A voz do candidato aparece nas perguntas do `faq`, todas [SUPOSIÇÃO] (hipóteses da persona e das objeções da F2) até chegarem conversas anonimizadas do WhatsApp de vendas.
-8. **Chamada principal única por página:** "Quero me inscrever" (formulário). WhatsApp é chamada secundária, com o número da praça vindo do dado (Goiânia tem telefone próprio em 289).
+8. **Chamada principal única por página:** "Quero receber o retorno do time" (formulário), o mesmo texto no hero, no formulário e no `cta_final` (braço de controle do F5). WhatsApp é chamada secundária, com o número da praça vindo do dado (Goiânia tem telefone próprio em 289).
 9. **Ordem do que o candidato precisa ver até o fim:** topo (título, subtítulo, botão), proposta (`sobre`), para quem, conteúdo (`matriz`), quem ensina, condições (`investimento`, `local_e_datas`), dúvidas (`faq`), formulário, chamada final. É a ordem padrão do tipo, então problema, solução, rotina, provas, oferta, objeções e chamada final ficam todos cobertos: problema e solução no `sobre`, rotina e modalidade no `sobre` e no `faq`, provas no `sobre` e na `matriz` (dado), oferta no `investimento` (dado), objeções no `faq`.
 
 ---
@@ -69,7 +69,7 @@ motivo_da_ordem: ordem padrão do tipo
 | sobre | sim | IA |
 | para_quem | **nao** | oculta até U10: nenhuma peça diz quem pode entrar em 657. A ficha diz "exclusiva para médicos veterinários anestesistas já atuantes" e a Ufape ainda não respondeu |
 | diferenciais | sim se o banco trouxer | dado, sem reescrita |
-| matriz | sim | dado. Ver pedido OB1 sobre frases de resultado clínico no cronograma |
+| matriz | **só depois da correção** | dado. O cronograma da ficha traz "elevando drasticamente as taxas de retorno à circulação espontânea" e "a decisão do anestesista dita a sobrevivência": a página de 657 só é publicada com essas frases corrigidas no dado (OB1, item 6) |
 | docentes | sim | dado |
 | certificacao | **nao** | oculta até a regulação; sem frase |
 | video | nao | humano: o editor decide; o roteiro da F9 serve a Reels |
@@ -90,30 +90,30 @@ motivo_da_ordem: ordem padrão do tipo
 
 **sobre**
 
-> Da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, decisão crítica em tempo real e prática presencial guiada nos módulos de técnica avançada. A Faculdade Ufape oferece a pós-graduação em anestesiologia avançada veterinária em formato semipresencial.
+> Da anestesia de protocolo à anestesia de precisão: fisiologia aplicada, decisão crítica em tempo real e prática presencial guiada nos módulos de técnica avançada. A Faculdade Ufape oferece a Pós-graduação em Anestesiologia Avançada em formato semipresencial, voltada à anestesia veterinária de pacientes de risco.
 >
 > **Uma proposta escrita, não um slogan.** O programa foi estruturado para a transição da anestesia de protocolo para a anestesia de precisão, com base em fisiologia aplicada, tomada de decisão crítica e gestão de riscos, para conduzir pacientes de risco moderado a alto e antecipar crises anestésicas.
 >
 > **O paciente que o protocolo não resolve.** Hemodinâmica além da pressão arterial, com foco em débito cardíaco e perfusão tecidual; ventilação do paciente especial e proteção pulmonar; bloqueio neuromuscular e ventilação monopulmonar; distúrbios de coagulação e uso racional de hemoderivados; anestesia em cirurgias neurológicas e cardiotorácicas; dor e analgesia em felinos; pets não convencionais.
 >
-> **Prática guiada nos módulos presenciais.** Bloqueios locorregionais com prática guiada e execução avançada; hemodinâmica avançada e ventilação mecânica com manipulação de ventiladores e monitores hemodinâmicos; TIVA e TCI em execução avançada; reanimação cardiorrespiratória com avaliação viscoelástica do coágulo. As aulas práticas não são transmitidas nem gravadas.
+> **Prática guiada nos módulos presenciais.** Bloqueios locorregionais com prática guiada e execução avançada; hemodinâmica avançada e ventilação mecânica com manipulação de ventiladores e monitores hemodinâmicos; TIVA e TCI em execução avançada; reanimação cardiorrespiratória com avaliação viscoelástica do coágulo. As aulas práticas não são transmitidas nem disponibilizadas depois.
 
 **para_quem:** oculta (U10). Nenhum item escrito.
 
 **investimento (frase de apoio, sem valor)**
 
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 
 **faq (perguntas da IA, depois das que já estão na turma)**
 
 > **O que o curso traz além da rotina de anestesia?**
-> O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores, monitores e bombas de infusão na mão.
+> O curso vai para onde o protocolo não chega: hemodinâmica além da pressão arterial, ventilação do paciente especial, bloqueio neuromuscular, coagulação no transoperatório e anestesia em cirurgias neurológicas e cardiotorácicas. Nos módulos presenciais, a prática é guiada, com ventiladores e monitores hemodinâmicos na mão e execução de TIVA e TCI.
 >
 > **Dá para encaixar o curso na escala do centro cirúrgico?**
 > A teoria é online, em fins de semana com data marcada no cronograma. O presencial fica só nos módulos de prática, também com mês marcado, então dá para montar a escala antes de começar.
 >
 > **Quanto vou pagar no total?**
-> O total, as parcelas e a matrícula estão nesta página, ao lado do cronograma de cada módulo presencial. Você vê o que paga e o que vai praticar antes de decidir.
+> O total, as parcelas e a matrícula estão nesta página, assim como o cronograma de cada módulo presencial. Você vê as condições e o que vai praticar antes de decidir.
 >
 > **E se a turma não fechar?**
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada. Se a turma não for confirmada, os valores de inscrição pagos podem ser reembolsados.
@@ -123,15 +123,15 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
-- botao: Quero me inscrever
-- frase de apoio: Deixe seus dados e o time de vendas retorna para tirar suas dúvidas e orientar a inscrição. Usamos seus dados só para esse contato, conforme a política de privacidade.
+- botao: Quero receber o retorno do time
+- frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, os módulos de prática guiada e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do F5, seção 0.3.
 - Finalidade e link da política de privacidade são refinados pelo F5 (otimizador-de-cta).
 
 **cta_final**
 
 - titulo: Veja o cronograma e os módulos de prática guiada antes de decidir.
-- botao: Quero me inscrever
-- apoio (opcional): Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time.
+- botao: Quero receber o retorno do time
+- apoio (opcional): Viu o cronograma? Deixe seus dados e o time de vendas responde suas dúvidas sobre os módulos de prática guiada e as condições. Enviar seus dados não gera cobrança.
 
 ### 1.5 Travas aplicadas em 657
 
@@ -150,6 +150,13 @@ motivo_da_ordem: ordem padrão do tipo
 7. "Prova de recuperação ... (Prova cobrada separadamente)" sem valor: preço e condições têm de ser completos (conformidade-educacional, CDC). A Ufape informa o valor ou a regra [CONFIRMAR].
 8. Bloco "Documentos para matrícula (MEC e UFAPE)" cita o órgão: a regulação diz se o título fica [CONFIRMAR].
 9. Docente listada duas vezes com grafias diferentes (Dra. Mayara Travalini de Lima e Profa. Mayara Travalini): uniformizar no dado.
+10. (novo) Valor da matrícula do site (R$ 250,00) conferido contra o valor da inscrição informado pelo CEO (R$ 260,00) antes de publicar (U11, decisão 16): o dado de `investimento` mostra o valor certo.
+11. (novo) Condição da 1ª mensalidade (paga até 30 dias antes do início, fichas) visível junto de total, parcelas e matrícula no `investimento` (CDC: condições completas).
+12. (novo) Botão "COMPRAR" da página atual: decidir se fica ao lado do formulário. Se ficar, vira chamada secundária e o formulário continua como a principal (auditoria 08: uma chamada principal) [CONFIRMAR].
+13. (novo) Formulário com o link da política de privacidade e com o aviso de cookies do pixel e das tags, antes da subida de 07/12 [CONFIRMAR endereço].
+14. (novo) Bloco "Parceiros e patrocinadores" vazio nas 5 fichas: ocultar.
+15. (novo) Nome do programa no texto ("Programa Avançado em Anestesiologia Veterinária da Faculdade Ufape"): trocar por "Pós-graduação em Anestesiologia Avançada".
+16. (novo) "Aula dada por instrutor RECOVER": marca de terceiro; a Ufape documenta a credencial ou retira [CONFIRMAR].
 
 ---
 
@@ -207,7 +214,7 @@ motivo_da_ordem: ordem padrão do tipo
 >
 > **A espécie inteira, por sistema.** Abordagem clínica do paciente equino e farmacologia; paciente crítico, choque e cuidados intensivos; preparação cirúrgica e manejo de feridas; cardiologia com eletrocardiograma e ecocardiograma; trato respiratório; sistema digestivo; sistema locomotor e diagnóstico de claudicação; neonatologia, UTI neonatal e potros críticos; podologia; odontologia equina; transtornos neurológicos; pele, olhos, sistema urinário e genital.
 >
-> **Prática em quase todos os temas.** O curso prevê treinamentos práticos e demonstrativos na maioria dos temas, aulas teóricas online e práticas presenciais aos fins de semana, e termina com estágio obrigatório e atividades complementares. **Evidência e leitura crítica.** Há um módulo de medicina equina baseada em evidências, os conteúdos teóricos combinam aula online e leitura crítica, e a avaliação inclui provas práticas, seminários e trabalho de conclusão quando escolhido com a coordenação do curso.
+> **Prática na maioria dos temas.** O curso prevê treinamentos práticos e demonstrativos na maioria dos temas, aulas teóricas online e práticas presenciais aos fins de semana, e termina com estágio obrigatório e atividades complementares. **Evidência e leitura crítica.** O cronograma inclui medicina equina baseada em evidências, os conteúdos teóricos combinam aula online e leitura crítica, e a avaliação inclui provas práticas, seminários e trabalho de conclusão quando escolhido com a coordenação do curso.
 
 **para_quem**
 
@@ -218,18 +225,18 @@ motivo_da_ordem: ordem padrão do tipo
 
 **investimento (frase de apoio, sem valor)**
 
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 
 **faq (perguntas da IA)**
 
 > **Pratiquei pouco com cavalos na faculdade. O curso ajuda?**
-> O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia. A teoria vem antes da prática em cada sistema.
+> O curso começa pela abordagem clínica do paciente equino e prevê treinamento prático e demonstrativo na maioria dos temas, do paciente crítico à podologia.
 >
 > **Atendo a campo. Dá para viajar para as aulas presenciais?**
 > A teoria é online. O presencial acontece em fins de semana, com as datas publicadas no cronograma antes de começar. Compre passagem e hotel só depois de a turma ser confirmada.
 >
 > **Quanto vou pagar no total?**
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 >
 > **E se a turma não fechar?**
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada.
@@ -241,14 +248,14 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
-- botao: Quero me inscrever
-- frase de apoio: Deixe seus dados e o time de vendas retorna para tirar suas dúvidas e orientar a inscrição. Usamos seus dados só para esse contato, conforme a política de privacidade.
+- botao: Quero receber o retorno do time
+- frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre os sistemas, os módulos práticos e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do F5, seção 0.3.
 
 **cta_final**
 
 - titulo: Veja os sistemas, os módulos práticos e as condições da turma de medicina interna equina.
-- botao: Quero me inscrever
-- apoio (opcional): Cronograma, quem ensina e condições estão nesta página. Fale com o time antes de se matricular.
+- botao: Quero receber o retorno do time
+- apoio (opcional): Viu os sistemas e os módulos práticos? Deixe seus dados e o time de vendas responde suas dúvidas e orienta a inscrição. Enviar seus dados não gera cobrança.
 
 ### 2.5 Travas aplicadas em 341
 
@@ -271,6 +278,13 @@ motivo_da_ordem: ordem padrão do tipo
 10. Regra do 3º módulo: incluir como dado da turma, com a data (decisão 18, OU14, OU6). A data do 3º módulo cai em feriado nacional (OU17): a Ufape confirma.
 11. Nome padrão: "Pós-graduação em Medicina Interna Equina" (a ficha traz "Pós Graduação" e "Pós-Graduação/Especialização").
 12. Bloco "Documentos para matrícula (MEC e UFAPE)" cita o órgão: a regulação diz se o título fica [CONFIRMAR].
+13. (novo) Valor da matrícula do site (R$ 250,00) conferido contra o valor da inscrição informado pelo CEO (R$ 260,00) antes de publicar (U11, decisão 16): o dado de `investimento` mostra o valor certo.
+14. (novo) Condição da 1ª mensalidade (paga até 30 dias antes do início, fichas) visível junto de total, parcelas e matrícula no `investimento` (CDC: condições completas).
+15. (novo) Botão "COMPRAR" da página atual: decidir se fica ao lado do formulário. Se ficar, vira chamada secundária e o formulário continua como a principal (auditoria 08: uma chamada principal) [CONFIRMAR].
+16. (novo) Formulário com o link da política de privacidade e com o aviso de cookies do pixel e das tags, antes da subida de 07/12 [CONFIRMAR endereço].
+17. (novo) Bloco "Parceiros e patrocinadores" vazio nas 5 fichas: ocultar.
+18. (novo) "objetivando especialistas formando em medicina equina": sugere título de especialista; passar pela regulação.
+19. (novo) Erros no cronograma e no texto: "águas gestantes" (éguas), "Reanimação cardiopulmonar em vasos críticos" (o tema certo [CONFIRMAR]), "COMPLEMETARES", "comun acordo", "inico", "sigulrmente": corrigir no dado.
 
 ---
 
@@ -320,11 +334,11 @@ motivo_da_ordem: ordem padrão do tipo
 **hero**
 
 - titulo (64 caracteres): Pós-graduação em Cardiologia Veterinária: da fisiologia ao laudo
-- subtitulo (150 caracteres): Cardiologia veterinária de cães e gatos da fisiologia ao laudo, com ecocardiograma na mão nos módulos práticos e toda a teoria acompanhada a distância.
+- subtitulo (118 caracteres): Cardiologia veterinária da fisiologia ao laudo, com ecocardiograma na prática e toda a teoria acompanhada a distância.
 
 **sobre**
 
-> Cardiologia veterinária de cães e gatos da fisiologia ao laudo, com ecocardiograma na mão nos módulos práticos e toda a teoria acompanhada a distância. A Faculdade Ufape oferece a pós-graduação em cardiologia veterinária em formato semipresencial.
+> Cardiologia veterinária da fisiologia ao laudo, com ecocardiograma na prática e toda a teoria acompanhada a distância. A Faculdade Ufape oferece a pós-graduação em cardiologia veterinária em formato semipresencial.
 >
 > **Do exame físico à emergência.** Anatomia, fisiologia e semiologia circulatória; farmacologia cardiovascular e insuficiência cardíaca congestiva; radiografia; eletrocardiograma, taquiarritmias e bradiarritmias; ecocardiografia com Doppler e hemodinâmica; cardiopatias adquiridas de cães e de felinos; cardiopatias congênitas; hipertensão arterial sistêmica; síndrome cardiorrenal; cirurgia e intervencionismo; anestesia do paciente cardiopata; emergências cardíacas.
 >
@@ -338,7 +352,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **investimento (frase de apoio, sem valor)**
 
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 
 **faq (perguntas da IA)**
 
@@ -346,32 +360,32 @@ motivo_da_ordem: ordem padrão do tipo
 > Não. A teoria é acompanhada a distância; só os módulos com aula prática são presenciais, e as datas estão no cronograma. Compre passagem e hotel só depois de a turma ser confirmada.
 >
 > **Preciso da cardiologia completa ou só do exame?**
-> Aqui o ecocardiograma faz parte de um percurso maior, que vai da fisiologia e do eletrocardiograma às cardiopatias e às emergências. Se o seu objetivo é só o exame, o guia de decisão da área mostra os dois caminhos lado a lado.
+> Aqui o ecocardiograma faz parte de um percurso maior, que vai da fisiologia e do eletrocardiograma às cardiopatias e às emergências. Se o seu objetivo é só o exame, o guia de decisão da área mostra os caminhos lado a lado.
 >
 > **Sou clínico geral, não cardiologista. Serve para mim?**
 > O público da turma são médicas e médicos veterinários, e o curso começa pela anatomia, pela fisiologia e pela semiologia circulatória antes de chegar aos exames.
 >
 > **Quanto vou pagar no total?**
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 >
 > **E se a turma não fechar?**
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada. Se a turma não for confirmada, os valores de inscrição pagos podem ser reembolsados.
 
-- **A frase do guia** ("o guia de decisão da área mostra os dois caminhos lado a lado") só vai ao ar com o guia A2 publicado e com o link dele na resposta; sem o guia, a editora retira a última frase [CONFIRMAR]. O guia liga à turma de Ecocardiografia (onda 1) sem dizer qual é melhor.
+- **A frase do guia** ("o guia de decisão da área mostra os caminhos lado a lado") só vai ao ar com o guia A2 publicado e com o link dele na resposta; sem o guia, a editora retira a última frase [CONFIRMAR]. O guia liga à turma de Ecocardiografia (onda 1) sem dizer qual é melhor.
 - **Item de dado da turma, não escrito pela squad (OU14):** "Posso entrar depois que a turma começar?", com a regra e a data do 3º módulo. Modelo: seção 7.1.
 - **Nível de entrada da pergunta de clínico geral** [CONFIRMAR NO CATÁLOGO]: a ficha diz só "Médicos Veterinários". A resposta não diz que o curso é "para iniciantes".
 
 **formulario**
 
-- botao: Quero me inscrever
-- frase de apoio: Deixe seus dados e o time de vendas retorna para tirar suas dúvidas e orientar a inscrição. Usamos seus dados só para esse contato, conforme a política de privacidade.
+- botao: Quero receber o retorno do time
+- frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, a teoria a distância, os módulos práticos e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do F5, seção 0.3.
 - O telefone de vendas de Goiânia vem do dado ou do formulário, nunca do texto.
 
 **cta_final**
 
 - titulo: Veja o cronograma, do eletrocardiograma ao ecocardiograma na prática.
-- botao: Quero me inscrever
-- apoio (opcional): Cronograma, quem ensina e condições estão nesta página. O time de vendas tira suas dúvidas.
+- botao: Quero receber o retorno do time
+- apoio (opcional): Viu o cronograma? Deixe seus dados e o time de vendas responde suas dúvidas sobre a teoria a distância e os módulos práticos. Enviar seus dados não gera cobrança.
 
 ### 3.5 Travas aplicadas em 289
 
@@ -389,6 +403,14 @@ motivo_da_ordem: ordem padrão do tipo
 6. Erros de digitação no cronograma ("Ecocargiograma", "Afeccções", aspas abertas no módulo 22): corrigir no dado.
 7. Descrever o conteúdo de cardiologia equina e de pets não convencionais do cronograma (módulos 22 e 23) para a página poder decidir se "de cães e gatos" é fiel (F2 marca [CONFIRMAR NO CATÁLOGO]).
 8. Bloco "Documentos para matrícula (MEC e UFAPE)" cita o órgão: a regulação diz se o título fica [CONFIRMAR].
+9. (novo) Valor da matrícula do site (R$ 250,00) conferido contra o valor da inscrição informado pelo CEO (R$ 260,00) antes de publicar (U11, decisão 16): o dado de `investimento` mostra o valor certo.
+10. (novo) Condição da 1ª mensalidade (paga até 30 dias antes do início, fichas) visível junto de total, parcelas e matrícula no `investimento` (CDC: condições completas).
+11. (novo) Botão "COMPRAR" da página atual: decidir se fica ao lado do formulário. Se ficar, vira chamada secundária e o formulário continua como a principal (auditoria 08: uma chamada principal) [CONFIRMAR].
+12. (novo) Formulário com o link da política de privacidade e com o aviso de cookies do pixel e das tags, antes da subida de 07/12 [CONFIRMAR endereço].
+13. (novo) Bloco "Parceiros e patrocinadores" vazio nas 5 fichas: ocultar.
+14. (novo) Módulo 6 marcado PRESENCIAL sem conteúdo no cronograma: completar no dado.
+15. (novo) Nome "A Pós-Graduação Lato Sensu em Cardiologia Veterinária" no texto: padrão "Pós-graduação em Cardiologia Veterinária".
+16. (novo) Contato e endereço de documentos: a página manda para secretaria@intercursos.com.br e para um endereço de São Paulo, enquanto o contexto geral traz duvidas@intercursos.com.br e a turma é de Goiânia: a Ufape confirma [CONFIRMAR].
 
 ---
 
@@ -442,11 +464,11 @@ motivo_da_ordem: ordem padrão do tipo
 
 **sobre**
 
-> O laboratório clínico veterinário do pré-analítico ao laudo: correlação clínico-laboratorial, prática presencial e como estruturar e administrar um laboratório. A Faculdade Ufape oferece a pós-graduação em patologia clínica veterinária em formato semipresencial, com foco no laboratório clínico.
+> O laboratório clínico veterinário do pré-analítico ao laudo: correlação clínico-laboratorial, prática presencial e como estruturar e administrar um laboratório. A Faculdade Ufape oferece a Pós-graduação em Patologia Clínica em formato semipresencial, com foco no laboratório clínico veterinário.
 >
 > **Um objetivo escrito para o laboratório.** Capacitar a médica e o médico veterinário a trabalhar em laboratórios clínicos, com correlação clínico-laboratorial, conhecimento de equipamentos e metodologias, técnicas de coleta e a estrutura e a administração de um laboratório.
 >
-> **O laboratório inteiro, fase por fase.** Materiais biológicos e erros pré-analíticos, analíticos e pós-analíticos; hemograma e sua automação; hemostasia; hemoparasitoses; avaliação bioquímica, função renal e urinálise; eletrólitos e hemogasometria; distúrbios endócrinos; exame coproparasitológico; citologia; líquidos cavitários e líquor; testes imunológicos e PCR; microbiologia; controle de qualidade e biossegurança no laboratório clínico veterinário.
+> **O laboratório, fase por fase.** Materiais biológicos e erros pré-analíticos, analíticos e pós-analíticos; hemograma e sua automação; hemostasia; hemoparasitoses; avaliação bioquímica, função renal e urinálise; eletrólitos e hemogasometria; distúrbios endócrinos; exame coproparasitológico; citologia; líquidos cavitários e líquor; testes imunológicos e PCR; microbiologia; controle de qualidade e biossegurança no laboratório clínico veterinário.
 >
 > **Prática presencial com laudo.** Os módulos presenciais trazem automação e prática de hemograma, hemoparasitoses em hematoscopia, mielograma, hemocomponentes e transfusão, prática de bioquímica e urina, coleta e confecção de lâminas e técnicas básicas de microbiologia; a elaboração de laudos aparece ao longo do cronograma. As aulas presenciais não são transmitidas.
 
@@ -459,7 +481,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **investimento (frase de apoio, sem valor)**
 
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 
 **faq (perguntas da IA)**
 
@@ -467,7 +489,7 @@ motivo_da_ordem: ordem padrão do tipo
 > O público da turma são médicas e médicos veterinários. O foco é o laboratório clínico, e a correlação clínico-laboratorial atravessa o curso: do pedido do exame à leitura do laudo.
 >
 > **Patologia clínica ou citopatologia: qual eu faço?**
-> A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A [Pós-graduação em Citopatologia Veterinária](link para a página da turma 333) é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina.
+> A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A [Pós-graduação em Citopatologia Veterinária](link para a página da turma 333) é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina.
 >
 > **Tem prática de verdade ou é tudo online?**
 > A teoria é online e há módulos presenciais de prática: automação e prática de hemograma, bioquímica e urina, mielograma, coleta e confecção de lâminas e microbiologia. Essas aulas não são transmitidas.
@@ -476,26 +498,26 @@ motivo_da_ordem: ordem padrão do tipo
 > Estruturar e administrar um laboratório está no objetivo do curso, junto com controle de qualidade, biossegurança e as boas práticas de laboratório em análises clínicas.
 >
 > **Quanto vou pagar no total?**
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 >
 > **E se a turma não fechar?**
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada. Se a turma não for confirmada, os valores de inscrição pagos podem ser reembolsados.
 
 - **Pergunta-ponte (seção 5 da F2):** o texto é idêntico ao da página de 333; só muda o link (aqui, o nome "Pós-graduação em Citopatologia Veterinária" leva à página de 333). Sem comparação de valor, duração, carga, prática ou corpo docente, e sem dizer qual é melhor.
-- **Reembolso em 68615:** a F2 limita a frase a 657, 289 e 333, mas a ficha de 68615 traz o mesmo texto de reembolso. Incluída aqui por ter fonte na ficha [CONFIRMAR com o qa e a secretaria]; o aviso de passagem e hotel que a ficha não traz vem da regra da linha.
+- **Reembolso em 68615:** a F2 limita a frase a 657, 289 e 333, mas a ficha de 68615 traz o mesmo texto de reembolso. Incluída aqui por ter fonte na ficha (conferida pelo qa na revisão F13a: ficha de 68615, Considerações); o alcance de "valores de inscrição" fica [CONFIRMAR com a secretaria]; o aviso de passagem e hotel que a ficha não traz vem da regra da linha.
 - **Recorte de perfil** da primeira pergunta [CONFIRMAR NO CATÁLOGO]: a ficha diz só "Médicos Veterinários".
 - **Item de dado da turma, não escrito pela squad (OU14):** "Posso entrar depois que a turma começar?", com a regra e a data do 3º módulo. Modelo: seção 7.1.
 
 **formulario**
 
-- botao: Quero me inscrever
-- frase de apoio: Deixe seus dados e o time de vendas retorna para tirar suas dúvidas e orientar a inscrição. Usamos seus dados só para esse contato, conforme a política de privacidade.
+- botao: Quero receber o retorno do time
+- frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma do laboratório clínico e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do F5, seção 0.3.
 
 **cta_final**
 
 - titulo: Veja o cronograma do laboratório clínico, do pré-analítico ao laudo.
-- botao: Quero me inscrever
-- apoio (opcional): Cronograma, quem ensina e condições estão nesta página. Em dúvida entre patologia clínica e citopatologia? O time explica a diferença.
+- botao: Quero receber o retorno do time
+- apoio (opcional): Viu o cronograma? Em dúvida entre patologia clínica e citopatologia, o time de vendas explica a diferença. Deixe seus dados. Enviar seus dados não gera cobrança.
 
 ### 4.5 Travas aplicadas em 68615
 
@@ -515,6 +537,12 @@ motivo_da_ordem: ordem padrão do tipo
 8. Regra do 3º módulo: incluir como dado da turma, com a data (decisão 18, OU14, OU6).
 9. Erros de digitação no cronograma ("regulameno", "sedmentoscopia"): corrigir no dado.
 10. Bloco "Documentos para matrícula (MEC e UFAPE)" cita o órgão: a regulação diz se o título fica [CONFIRMAR].
+11. (novo) Valor da matrícula do site (R$ 250,00) conferido contra o valor da inscrição informado pelo CEO (R$ 260,00) antes de publicar (U11, decisão 16): o dado de `investimento` mostra o valor certo.
+12. (novo) Condição da 1ª mensalidade (paga até 30 dias antes do início, fichas) visível junto de total, parcelas e matrícula no `investimento` (CDC: condições completas).
+13. (novo) Botão "COMPRAR" da página atual: decidir se fica ao lado do formulário. Se ficar, vira chamada secundária e o formulário continua como a principal (auditoria 08: uma chamada principal) [CONFIRMAR].
+14. (novo) Formulário com o link da política de privacidade e com o aviso de cookies do pixel e das tags, antes da subida de 07/12 [CONFIRMAR endereço].
+15. (novo) Bloco "Parceiros e patrocinadores" vazio nas 5 fichas: ocultar.
+16. (novo) Endereço da página fora do padrão (/produto/68615/pos-graduacao-patologia-clinica/sao-paulo, sem "-em-"): a página nova usa pos-graduacao-em-patologia-clinica e a antiga recebe 301 [CONFIRMAR com o time do site].
 
 ---
 
@@ -570,7 +598,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 > Citopatologia veterinária centrada na leitura de lâminas: da coleta e da coloração à discussão de casos ao microscópio, sistema por sistema. A Faculdade Ufape oferece a pós-graduação em citopatologia veterinária em formato semipresencial.
 >
-> **Começa pelo material.** O curso abre com um módulo presencial de manejo de materiais biológicos (coleta, armazenamento, acondicionamento e transporte de amostras, técnicas de coloração e microscopia) e segue para citologia básica, critérios de malignidade e gestão da qualidade aplicada à citopatologia. **Lesão por lesão, sistema por sistema.** Processos inflamatórios e enfermidades infecciosas, derrames cavitários, líquidos biológicos, trato respiratório, neoplasias de células redondas, sangue periférico, neoplasias glandulares e mesenquimais, trato gastrointestinal, aparelho urinário, citopatologia reprodutiva, oftalmológica e auditiva, com atualizações em imunocitopatologia, automação citopatológica e citoinclusão.
+> **Começa pelo material.** O curso abre com o módulo presencial de manejo de materiais biológicos (coleta, armazenamento, acondicionamento e transporte de amostras, técnicas de coloração e microscopia) e segue para citologia básica, critérios de malignidade e gestão da qualidade aplicada à citopatologia. **Lesão por lesão, sistema por sistema.** Processos inflamatórios e enfermidades infecciosas, derrames cavitários, líquidos biológicos, trato respiratório, neoplasias de células redondas, sangue periférico, neoplasias glandulares e mesenquimais, trato gastrointestinal, aparelho urinário, citopatologia reprodutiva, oftalmológica e auditiva, com atualizações em imunocitopatologia, automação citopatológica e citoinclusão.
 >
 > **Leitura de lâminas no presencial.** O cronograma tem módulos presenciais de leitura de lâminas e discussão de casos, chamados de experiências práticas citopatológicas. Os demais módulos presenciais tratam de manejo do material, de citologia esplênica e linfoma e de mielograma. As aulas presenciais não são transmitidas.
 
@@ -582,12 +610,12 @@ motivo_da_ordem: ordem padrão do tipo
 
 **investimento (frase de apoio, sem valor)**
 
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 
 **faq (perguntas da IA)**
 
 > **Citopatologia ou patologia clínica: qual eu faço?**
-> A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina.
+> A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina.
 >
 > **Vou treinar leitura de lâmina de verdade?**
 > Sim. O cronograma tem módulos presenciais de leitura de lâminas de citopatologia e discussão de casos. Outros módulos presenciais trabalham o manejo do material, a citologia esplênica e o linfoma e o mielograma.
@@ -599,7 +627,7 @@ motivo_da_ordem: ordem padrão do tipo
 > A teoria é online e o presencial fica nos módulos de prática, com as datas publicadas no cronograma antes de começar. Dá para planejar a agenda da clínica com antecedência.
 >
 > **Quanto vou pagar no total?**
-> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento. Você decide com a conta inteira na frente.
+> O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
 >
 > **E se a turma não fechar?**
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada. Se a turma não for confirmada, os valores de inscrição pagos podem ser reembolsados.
@@ -611,14 +639,14 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
-- botao: Quero me inscrever
-- frase de apoio: Deixe seus dados e o time de vendas retorna para tirar suas dúvidas e orientar a inscrição. Usamos seus dados só para esse contato, conforme a política de privacidade.
+- botao: Quero receber o retorno do time
+- frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma de leitura de lâminas e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do F5, seção 0.3.
 
 **cta_final**
 
 - titulo: Veja o cronograma de leitura de lâminas, sistema por sistema.
-- botao: Quero me inscrever
-- apoio (opcional): Cronograma e condições estão nesta página. Em dúvida entre citopatologia e patologia clínica? O time explica a diferença.
+- botao: Quero receber o retorno do time
+- apoio (opcional): Viu o cronograma? Em dúvida entre citopatologia e patologia clínica, o time de vendas explica a diferença. Deixe seus dados. Enviar seus dados não gera cobrança.
 
 ### 5.5 Travas aplicadas em 333
 
@@ -638,6 +666,11 @@ motivo_da_ordem: ordem padrão do tipo
 7. Erros de digitação no cronograma ("masculine", "Experiência práticas citopatológicas"): corrigir no dado.
 8. Nome padrão: "Pós-graduação em Citopatologia Veterinária" (a ficha traz "Pós Graduação").
 9. Bloco "Documentos para matrícula (MEC e UFAPE)" cita o órgão: a regulação diz se o título fica [CONFIRMAR].
+10. (novo) Valor da matrícula do site (R$ 250,00) conferido contra o valor da inscrição informado pelo CEO (R$ 260,00) antes de publicar (U11, decisão 16): o dado de `investimento` mostra o valor certo.
+11. (novo) Condição da 1ª mensalidade (paga até 30 dias antes do início, fichas) visível junto de total, parcelas e matrícula no `investimento` (CDC: condições completas).
+12. (novo) Botão "COMPRAR" da página atual: decidir se fica ao lado do formulário. Se ficar, vira chamada secundária e o formulário continua como a principal (auditoria 08: uma chamada principal) [CONFIRMAR].
+13. (novo) Formulário com o link da política de privacidade e com o aviso de cookies do pixel e das tags, antes da subida de 07/12 [CONFIRMAR endereço].
+14. (novo) Bloco "Parceiros e patrocinadores" vazio nas 5 fichas: ocultar.
 
 ---
 
@@ -647,7 +680,7 @@ Mesmo pedido do plano (seção 9, OB1), com as listas por turma nas seções 1.6
 
 | Campo | Conteúdo |
 |---|---|
-| O que | Publicar as 5 páginas deste arquivo (depois do qa e do F4 e F5) e corrigir no site o que as listas por turma apontam. Os itens comuns às 5: frase "CERTIFICADO PELO MEC"; turma mínima de 20; regra do 3º módulo ausente; bloco de prova de bolsa em 289 e 68615; frase de reconhecimento pelo órgão em 68615; convite da prova de Especialista em 657 |
+| O que | Publicar as 5 páginas deste arquivo (depois do qa e do F4 e F5) e corrigir no site o que as listas por turma apontam. Os itens comuns às 5: frase "CERTIFICADO PELO MEC"; turma mínima de 20; regra do 3º módulo ausente; bloco de prova de bolsa em 289 e 68615; frase de reconhecimento pelo órgão em 68615; convite da prova de Especialista em 657; e os itens comuns novos da revisão F13a: valor da matrícula e da inscrição conferido (U11), condição da 1ª mensalidade junto do investimento, decisão sobre o botão COMPRAR da página e link da política de privacidade no formulário |
 | Por quê | Nenhuma das 5 páginas passa hoje em conformidade-educacional, e a mídia de 07/12 aponta para elas. Página fora da regra não conta como entregue |
 | Quanto | Sem custo de mídia. Custo de quem edita o site: [CONFIRMAR] |
 | Efeito esperado | A página entrega o que a peça promete e passa nas auditorias de conformidade e de conversão |
@@ -673,8 +706,8 @@ Regras: nunca como título, chamada, contador ou "corra" (regra 7 do plano); a f
 ### 7.2 Checklist de design e rastreamento (construção, por humano ou plataforma)
 
 Design e conversão (auditorias/08-conversao.md):
-- [ ] Topo passa no teste dos 5 segundos no celular: título com o nome do curso, subtítulo, botão "Quero me inscrever" visível sem rolar.
-- [ ] Uma chamada principal por página ("Quero me inscrever", rola até o formulário); WhatsApp é chamada secundária, com botão fixo no celular e o número da praça vindo do dado (Goiânia em 289).
+- [ ] Topo passa no teste dos 5 segundos no celular: título com o nome do curso, subtítulo, botão "Quero receber o retorno do time" visível sem rolar.
+- [ ] Uma chamada principal por página ("Quero receber o retorno do time", rola até o formulário); WhatsApp é chamada secundária, com botão fixo no celular e o número da praça vindo do dado (Goiânia em 289).
 - [ ] Formulário curto: nome, WhatsApp e e-mail, mais a pergunta de interesse se necessária. Nada além do que o contato precisa.
 - [ ] Finalidade do uso dos dados e link da política de privacidade ao lado do botão (conformidade-educacional); F5 refina.
 - [ ] Dados do curso conferidos com contexto/catalogo-de-cursos.md: nome, modalidade, carga horária, preço, parcelas, matrícula, datas e local aparecem nas chaves de dado, nunca digitados no texto.
