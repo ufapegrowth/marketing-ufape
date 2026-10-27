@@ -1,0 +1,218 @@
+{
+  "versao_schema": 1,
+  "id": "livres-603",
+  "revisao": 1,
+  "revisao_aprovada": 0,
+  "estado_do_arquivo": "ativo",
+  "substituido_por": null,
+  "gerado_em": "2026-10-27",
+  "atualizado_em": "2026-10-27",
+  "fontes": {
+    "catalogo": "contexto/catalogo-de-cursos.md",
+    "data_catalogo": "2026-10-26",
+    "catalogo_linha_literal": "| 603 | Curso de Microcirurgia na Oftalmologia Veterinária - básico- SÃO PAULO | São Paulo | Presencial | SEM DATA | 6 h | R$ 2.300 à vista ou R$ 2.760,00 em 6x no cartão; R$ 2.300,00 à vista (Pix ou boleto) ou 6x de R$ 460,00 no cartão. | verificar (sem data no site) | planilha e site",
+    "ficha": "contexto/cursos/livres/603-curso-de-microcirurgia-na-oftalmologia-veterinaria-basico-sao-paulo.md",
+    "ficha_lida_em": null,
+    "campos_so_na_ficha": [
+      "pagina_oficial"
+    ],
+    "visao_de_campanhas": {
+      "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
+      "data": "2026-10-26"
+    },
+    "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+    "auditorias": [
+      "docs/auditoria-do-catalogo-2026-10-26.md"
+    ]
+  },
+  "codigo": "603",
+  "linha": "livres",
+  "linha_origem": "catalogo",
+  "tipo": "livre_presencial",
+  "nome_no_site": "Curso de Microcirurgia na Oftalmologia Veterinária - básico- SÃO PAULO",
+  "nome_padrao": "Curso de Microcirurgia na Oftalmologia Veterinária - básico- SÃO PAULO",
+  "slug_sugerido": "[CONFIRMAR]",
+  "aliases": [],
+  "pagina_oficial": "https://faculdade.ufape.com.br/produto/603/curso-microcirurgia-na-oftalmologia-veterinaria-basico/sao-paulo",
+  "area": {
+    "codigo": "sem_area",
+    "nome": "[CONFIRMAR]",
+    "natureza": "plano_do_cmo"
+  },
+  "recorte": "pendencia",
+  "motivo_do_recorte": "status do catálogo pede verificação ou o item está fora do recorte",
+  "onda": null,
+  "modo_de_venda": "com_data",
+  "grupo_de_campanha": null,
+  "gut": null,
+  "relacionados": [],
+  "local": "São Paulo",
+  "modalidade": "Presencial",
+  "modalidade_normalizada": "presencial",
+  "turma": null,
+  "carga_horaria": "6 h",
+  "modulos": null,
+  "inicio": null,
+  "fonte_da_data": "ausente",
+  "dias_ate_inicio": null,
+  "fim_das_inscricoes": null,
+  "preco_texto_site": "R$ 2.300 à vista ou R$ 2.760,00 em 6x no cartão; R$ 2.300,00 à vista (Pix ou boleto) ou 6x de R$ 460,00 no cartão.",
+  "preco_estruturado": {
+    "moeda": "BRL",
+    "parcelas": 6,
+    "valor_parcela": 460.0,
+    "total": 2300.0,
+    "matricula": null
+  },
+  "condicoes_especiais": [],
+  "status_catalogo": "verificar",
+  "status_catalogo_texto": "verificar (sem data no site)",
+  "vagas": {
+    "turma_minima": null,
+    "vagas_ofertadas": null,
+    "vagas_restantes": null
+  },
+  "equipe": {
+    "coordenadores_na_ficha": null,
+    "docentes_na_ficha": null,
+    "autorizacoes_de_imagem_registradas": null
+  },
+  "status_midia": {
+    "campanha": "nao_consta",
+    "formatos": [],
+    "cinco_angulos": "nao_consta",
+    "vinculo_com_a_visao": "nenhum",
+    "inicio_na_visao": null,
+    "divergencia_de_data": false,
+    "fonte": "docs/visao-de-campanhas-2026-10-26.md",
+    "lido_em": "2026-10-26"
+  },
+  "kit": {
+    "template": null,
+    "variacao": null,
+    "escopo": "item",
+    "entregas": [],
+    "acrescimos": []
+  },
+  "canais": [
+    {
+      "canal": "instagram",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "facebook",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "tiktok",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "x",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "linkedin",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "youtube",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "podcast",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "whatsapp",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    }
+  ],
+  "arquivos_por_camada": {
+    "geral": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+        "secao": null,
+        "estado": "aprovado",
+        "aprovado_em": "2026-10-26",
+        "ref_aprovacao": "plano aprovado pela pessoa do marketing"
+      }
+    ],
+    "linha": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
+        "secao": null,
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "area": [],
+    "curso": []
+  },
+  "metas": {
+    "matriculas_alvo": null,
+    "cpl_maximo": null,
+    "custo_por_matricula_maximo": null,
+    "verba": null,
+    "fonte": "[CONFIRMAR]"
+  },
+  "numeros_agregados": {
+    "leads": null,
+    "inscricoes": null,
+    "matriculas": null,
+    "verba_gasta": null,
+    "lido_em": null
+  },
+  "pendencias": [
+    {
+      "id": "P1",
+      "ref_plano": "P1",
+      "tipo": "certificacao",
+      "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "certificacao"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    }
+  ],
+  "aprovacoes": [],
+  "historico": [
+    {
+      "revisao": 1,
+      "em": "2026-10-27",
+      "campo": "*",
+      "de": null,
+      "para": "criação",
+      "motivo": "versão 1 do mapa, gerada do catálogo e das saídas aprovadas",
+      "origem": "gerador do orquestrador sobre o plano do cmo",
+      "aplicado_por": "orquestrador"
+    }
+  ],
+  "resumo": {
+    "pendencias_abertas": 1,
+    "bloqueado": false
+  }
+}

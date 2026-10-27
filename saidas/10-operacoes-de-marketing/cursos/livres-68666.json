@@ -1,0 +1,322 @@
+{
+  "versao_schema": 1,
+  "id": "livres-68666",
+  "revisao": 1,
+  "revisao_aprovada": 0,
+  "estado_do_arquivo": "ativo",
+  "substituido_por": null,
+  "gerado_em": "2026-10-27",
+  "atualizado_em": "2026-10-27",
+  "fontes": {
+    "catalogo": "contexto/catalogo-de-cursos.md",
+    "data_catalogo": "2026-10-26",
+    "catalogo_linha_literal": "| 68666 | Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos | Online | Online | 25/11/2026 |  | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. | aberto | só no site",
+    "ficha": "contexto/cursos/livres/68666-grupo-de-estudos-em-clinica-medica-e-emergencia-de-caes-e-gatos.md",
+    "ficha_lida_em": null,
+    "campos_so_na_ficha": [
+      "pagina_oficial"
+    ],
+    "visao_de_campanhas": {
+      "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
+      "data": "2026-10-26"
+    },
+    "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+    "auditorias": [
+      "docs/auditoria-do-catalogo-2026-10-26.md"
+    ]
+  },
+  "codigo": "68666",
+  "linha": "livres",
+  "linha_origem": "catalogo",
+  "tipo": "grupo_de_estudos",
+  "nome_no_site": "Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos",
+  "nome_padrao": "Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos",
+  "slug_sugerido": "[CONFIRMAR]",
+  "aliases": [],
+  "pagina_oficial": "https://faculdade.ufape.com.br/produto/68666/grupo-de-estudo-clinica-medica-e-emergencia-de-caes-e-gatos/",
+  "area": {
+    "codigo": "A3",
+    "nome": "Emergência, terapia intensiva e clínica médica",
+    "natureza": "plano_do_cmo"
+  },
+  "recorte": "planejar",
+  "motivo_do_recorte": "à venda e no recorte do plano geral (seção 2)",
+  "onda": 1,
+  "modo_de_venda": "com_data",
+  "grupo_de_campanha": null,
+  "gut": {
+    "g": 2,
+    "u": 5,
+    "t": 2,
+    "total": 20,
+    "motivo": "grupos de estudos com início próximo",
+    "natureza": "avaliacao_do_agente",
+    "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
+  },
+  "relacionados": [],
+  "local": "Online",
+  "modalidade": "Online",
+  "modalidade_normalizada": "online",
+  "turma": null,
+  "carga_horaria": "[CONFIRMAR]",
+  "modulos": null,
+  "inicio": "2026-11-25",
+  "fonte_da_data": "site",
+  "dias_ate_inicio": 29,
+  "fim_das_inscricoes": null,
+  "preco_texto_site": "R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão.",
+  "preco_estruturado": {
+    "moeda": "BRL",
+    "parcelas": 1,
+    "valor_parcela": 100.0,
+    "total": 100.0,
+    "matricula": null
+  },
+  "condicoes_especiais": [],
+  "status_catalogo": "aberto",
+  "status_catalogo_texto": "aberto",
+  "vagas": {
+    "turma_minima": null,
+    "vagas_ofertadas": null,
+    "vagas_restantes": null
+  },
+  "equipe": {
+    "coordenadores_na_ficha": null,
+    "docentes_na_ficha": null,
+    "autorizacoes_de_imagem_registradas": null
+  },
+  "status_midia": {
+    "campanha": "nao_consta",
+    "formatos": [],
+    "cinco_angulos": "nao_consta",
+    "vinculo_com_a_visao": "nenhum",
+    "inicio_na_visao": null,
+    "divergencia_de_data": false,
+    "fonte": "docs/visao-de-campanhas-2026-10-26.md",
+    "lido_em": "2026-10-26"
+  },
+  "kit": {
+    "template": "templates/kit-de-lancamento-livres.md",
+    "variacao": null,
+    "escopo": "item",
+    "acrescimos": [],
+    "entregas": [
+      {
+        "chave": "pagina",
+        "entrega": "Página",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "landing-page",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "plano_8_canais",
+        "entrega": "Plano dos 8 canais",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "cmo",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "posts_organicos",
+        "entrega": "Posts orgânicos",
+        "quantidade_minima": 4,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "posts-sociais",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "criativos",
+        "entrega": "Criativos",
+        "quantidade_minima": 2,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "criativos-de-anuncio",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "whatsapp",
+        "entrega": "WhatsApp",
+        "quantidade_minima": 3,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "copy-de-mensagens",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "email",
+        "entrega": "E-mail",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "copy-de-mensagens",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      }
+    ]
+  },
+  "canais": [
+    {
+      "canal": "instagram",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "facebook",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "tiktok",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "x",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "linkedin",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "youtube",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "podcast",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "whatsapp",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    }
+  ],
+  "arquivos_por_camada": {
+    "geral": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+        "secao": null,
+        "estado": "aprovado",
+        "aprovado_em": "2026-10-26",
+        "ref_aprovacao": "plano aprovado pela pessoa do marketing"
+      }
+    ],
+    "linha": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
+        "secao": null,
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "area": [
+      {
+        "agente": "mensagens",
+        "caminho": "saidas/02-estrategia-e-posicionamento/mensagens-livres-2026-10-26.md",
+        "secao": "A3",
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "curso": []
+  },
+  "metas": {
+    "matriculas_alvo": null,
+    "cpl_maximo": null,
+    "custo_por_matricula_maximo": null,
+    "verba": null,
+    "fonte": "[CONFIRMAR]"
+  },
+  "numeros_agregados": {
+    "leads": null,
+    "inscricoes": null,
+    "matriculas": null,
+    "verba_gasta": null,
+    "lido_em": null
+  },
+  "pendencias": [
+    {
+      "id": "P1",
+      "ref_plano": "P1",
+      "tipo": "certificacao",
+      "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "certificacao"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "decisão 14",
+      "ref_plano": "decisão 14",
+      "tipo": "kit",
+      "descricao": "Cursos Livres ficam por último na ordem de prioridade; kit ainda não produzido",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[*]"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    }
+  ],
+  "aprovacoes": [],
+  "historico": [
+    {
+      "revisao": 1,
+      "em": "2026-10-27",
+      "campo": "*",
+      "de": null,
+      "para": "criação",
+      "motivo": "versão 1 do mapa, gerada do catálogo e das saídas aprovadas",
+      "origem": "gerador do orquestrador sobre o plano do cmo",
+      "aplicado_por": "orquestrador"
+    }
+  ],
+  "resumo": {
+    "pendencias_abertas": 2,
+    "bloqueado": false
+  }
+}

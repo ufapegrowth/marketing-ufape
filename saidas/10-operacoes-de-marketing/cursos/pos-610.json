@@ -1,0 +1,219 @@
+{
+  "versao_schema": 1,
+  "id": "pos-610",
+  "revisao": 1,
+  "revisao_aprovada": 0,
+  "estado_do_arquivo": "ativo",
+  "substituido_por": null,
+  "gerado_em": "2026-10-27",
+  "atualizado_em": "2026-10-27",
+  "fontes": {
+    "catalogo": "contexto/catalogo-de-cursos.md",
+    "data_catalogo": "2026-10-26",
+    "catalogo_linha_literal": "| 610 | Pós-graduação em Internação Veterinária | São Paulo | Semipresencial | 360 horas |  | 360 h | 24x de R$ 980,00; R$ 23.520,00 no cartão ou boleto | sem venda (avise-me) | só no site",
+    "ficha": "contexto/cursos/pos/610-pos-graduacao-em-internacao-veterinaria.md",
+    "ficha_lida_em": null,
+    "campos_so_na_ficha": [
+      "modulos",
+      "pagina_oficial"
+    ],
+    "visao_de_campanhas": {
+      "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
+      "data": "2026-10-26"
+    },
+    "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+    "auditorias": [
+      "docs/auditoria-do-catalogo-2026-10-26.md"
+    ]
+  },
+  "codigo": "610",
+  "linha": "pos",
+  "linha_origem": "catalogo",
+  "tipo": "pos",
+  "nome_no_site": "Pós-graduação em Internação Veterinária",
+  "nome_padrao": "Pós-graduação em Internação Veterinária",
+  "slug_sugerido": "pos-graduacao-em-internacao-veterinaria",
+  "aliases": [],
+  "pagina_oficial": "https://faculdade.ufape.com.br/produto/610/pos-graduacao-em-internacao-veterinaria",
+  "area": {
+    "codigo": "sem_area",
+    "nome": "[CONFIRMAR]",
+    "natureza": "plano_do_cmo"
+  },
+  "recorte": "historico",
+  "motivo_do_recorte": "sem venda ou encerrado no catálogo",
+  "onda": null,
+  "modo_de_venda": "com_data",
+  "grupo_de_campanha": null,
+  "gut": null,
+  "relacionados": [],
+  "local": "São Paulo",
+  "modalidade": "Semipresencial",
+  "modalidade_normalizada": "semipresencial",
+  "turma": "[CONFIRMAR]",
+  "carga_horaria": "360 h",
+  "modulos": 18,
+  "inicio": null,
+  "fonte_da_data": "ausente",
+  "dias_ate_inicio": null,
+  "fim_das_inscricoes": null,
+  "preco_texto_site": "24x de R$ 980,00; R$ 23.520,00 no cartão ou boleto",
+  "preco_estruturado": {
+    "moeda": "BRL",
+    "parcelas": 24,
+    "valor_parcela": 980.0,
+    "total": 23520.0,
+    "matricula": null
+  },
+  "condicoes_especiais": [],
+  "status_catalogo": "sem venda",
+  "status_catalogo_texto": "sem venda (avise-me)",
+  "vagas": {
+    "turma_minima": 15,
+    "vagas_ofertadas": null,
+    "vagas_restantes": null
+  },
+  "equipe": {
+    "coordenadores_na_ficha": null,
+    "docentes_na_ficha": null,
+    "autorizacoes_de_imagem_registradas": null
+  },
+  "status_midia": {
+    "campanha": "nao_consta",
+    "formatos": [],
+    "cinco_angulos": "nao_consta",
+    "vinculo_com_a_visao": "nenhum",
+    "inicio_na_visao": null,
+    "divergencia_de_data": false,
+    "fonte": "docs/visao-de-campanhas-2026-10-26.md",
+    "lido_em": "2026-10-26"
+  },
+  "kit": {
+    "template": "templates/kit-de-lancamento-pos.md",
+    "variacao": null,
+    "escopo": "item",
+    "entregas": [],
+    "acrescimos": []
+  },
+  "canais": [
+    {
+      "canal": "instagram",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "facebook",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "tiktok",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "x",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "linkedin",
+      "estado": "teste",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "youtube",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "podcast",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    },
+    {
+      "canal": "whatsapp",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "natureza": "proposta_do_cmo"
+    }
+  ],
+  "arquivos_por_camada": {
+    "geral": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+        "secao": null,
+        "estado": "aprovado",
+        "aprovado_em": "2026-10-26",
+        "ref_aprovacao": "plano aprovado pela pessoa do marketing"
+      }
+    ],
+    "linha": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+        "secao": null,
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "area": [],
+    "curso": []
+  },
+  "metas": {
+    "matriculas_alvo": null,
+    "cpl_maximo": null,
+    "custo_por_matricula_maximo": null,
+    "verba": null,
+    "fonte": "decisões 15 e 16 do briefing"
+  },
+  "numeros_agregados": {
+    "leads": null,
+    "inscricoes": null,
+    "matriculas": null,
+    "verba_gasta": null,
+    "lido_em": null
+  },
+  "pendencias": [
+    {
+      "id": "P1",
+      "ref_plano": "P1",
+      "tipo": "certificacao",
+      "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "certificacao"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    }
+  ],
+  "aprovacoes": [],
+  "historico": [
+    {
+      "revisao": 1,
+      "em": "2026-10-27",
+      "campo": "*",
+      "de": null,
+      "para": "criação",
+      "motivo": "versão 1 do mapa, gerada do catálogo e das saídas aprovadas",
+      "origem": "gerador do orquestrador sobre o plano do cmo",
+      "aplicado_por": "orquestrador"
+    }
+  ],
+  "resumo": {
+    "pendencias_abertas": 1,
+    "bloqueado": false
+  }
+}

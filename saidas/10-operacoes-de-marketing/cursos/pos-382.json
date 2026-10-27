@@ -1,0 +1,406 @@
+{
+  "versao_schema": 1,
+  "id": "pos-382",
+  "revisao": 1,
+  "revisao_aprovada": 0,
+  "estado_do_arquivo": "ativo",
+  "substituido_por": null,
+  "gerado_em": "2026-10-27",
+  "atualizado_em": "2026-10-27",
+  "fontes": {
+    "catalogo": "contexto/catalogo-de-cursos.md",
+    "data_catalogo": "2026-10-26",
+    "catalogo_linha_literal": "| 382 | Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos | São Paulo | Semipresencial | 22/05/2027 | I | 500 h | 30x de R$ 1.125,00; R$ 33.750,00 no cartão ou boleto; matrícula R$ 250,00 | aberto | planilha e site",
+    "ficha": "contexto/cursos/pos/382-pos-graduacao-em-obstetricia-neonatologia-e-biotecnologias-da-reproduc.md",
+    "ficha_lida_em": null,
+    "campos_so_na_ficha": [
+      "modulos",
+      "pagina_oficial"
+    ],
+    "visao_de_campanhas": {
+      "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
+      "data": "2026-10-26"
+    },
+    "plano": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+    "auditorias": [
+      "docs/auditoria-do-catalogo-2026-10-26.md"
+    ]
+  },
+  "codigo": "382",
+  "linha": "pos",
+  "linha_origem": "catalogo",
+  "tipo": "pos",
+  "nome_no_site": "Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos",
+  "nome_padrao": "Pós-graduação em Obstetrícia, Neonatologia e Biotecnologias da Reprodução em Cães e Gatos",
+  "slug_sugerido": "pos-graduacao-em-obstetricia-neonatologia-e-biotecnologias-da-reproducao-em-caes-e-gatos",
+  "aliases": [],
+  "pagina_oficial": "https://faculdade.ufape.com.br/produto/382/pos-graduacao-em-obstetricia-neonatologia-e-biotecnologias-da-reproducao-em-caes-e-gatos",
+  "area": {
+    "codigo": "A14",
+    "nome": "Outras especialidades (infectologia, reprodução, geriatria, equinos, silvestres, IA na Saúde, odontologia, auxiliar)",
+    "natureza": "plano_do_cmo"
+  },
+  "recorte": "planejar",
+  "motivo_do_recorte": "à venda e no recorte do plano geral (seção 2)",
+  "onda": 3,
+  "modo_de_venda": "com_data",
+  "grupo_de_campanha": null,
+  "gut": {
+    "g": 5,
+    "u": 2,
+    "t": 2,
+    "total": 20,
+    "motivo": "Pós de maio de 2027",
+    "natureza": "avaliacao_do_agente",
+    "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
+  },
+  "relacionados": [],
+  "local": "São Paulo",
+  "modalidade": "Semipresencial",
+  "modalidade_normalizada": "semipresencial",
+  "turma": "I",
+  "carga_horaria": "500 h",
+  "modulos": 24,
+  "inicio": "2027-05-22",
+  "fonte_da_data": "planilha",
+  "dias_ate_inicio": 207,
+  "fim_das_inscricoes": null,
+  "preco_texto_site": "30x de R$ 1.125,00; R$ 33.750,00 no cartão ou boleto; matrícula R$ 250,00",
+  "preco_estruturado": {
+    "moeda": "BRL",
+    "parcelas": 30,
+    "valor_parcela": 1125.0,
+    "total": 33750.0,
+    "matricula": 250.0
+  },
+  "condicoes_especiais": [],
+  "status_catalogo": "aberto",
+  "status_catalogo_texto": "aberto",
+  "vagas": {
+    "turma_minima": 15,
+    "vagas_ofertadas": null,
+    "vagas_restantes": null
+  },
+  "equipe": {
+    "coordenadores_na_ficha": null,
+    "docentes_na_ficha": null,
+    "autorizacoes_de_imagem_registradas": null
+  },
+  "status_midia": {
+    "campanha": "pausada",
+    "formatos": [],
+    "cinco_angulos": "nao_consta",
+    "vinculo_com_a_visao": "provavel",
+    "inicio_na_visao": null,
+    "divergencia_de_data": false,
+    "fonte": "docs/visao-de-campanhas-2026-10-26.md",
+    "lido_em": "2026-10-26"
+  },
+  "kit": {
+    "template": "templates/kit-de-lancamento-pos.md",
+    "variacao": null,
+    "escopo": "item",
+    "entregas": [
+      {
+        "chave": "pagina",
+        "entrega": "Página da turma",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "landing-page",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "plano_8_canais",
+        "entrega": "Plano dos 8 canais",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "cmo",
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md"
+      },
+      {
+        "chave": "plano_de_midia",
+        "entrega": "Plano de mídia",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "gestor-de-midia",
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md"
+      },
+      {
+        "chave": "posts_organicos",
+        "entrega": "Posts orgânicos",
+        "quantidade_minima": 6,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "posts-sociais",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "criativos",
+        "entrega": "Criativos de anúncio",
+        "quantidade_minima": 3,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "criativos-de-anuncio",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "post_por_docente",
+        "entrega": "Post por docente",
+        "quantidade_minima": null,
+        "regra_quantidade": "1_por_docente_autorizado",
+        "autorizados": null,
+        "responsavel": "autoridade-docente",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "whatsapp",
+        "entrega": "Mensagens de WhatsApp",
+        "quantidade_minima": 4,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "copy-de-mensagens",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "email",
+        "entrega": "E-mails",
+        "quantidade_minima": 2,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "copy-de-mensagens",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      },
+      {
+        "chave": "roteiro_video",
+        "entrega": "Roteiro de vídeo curto",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": "tiktok",
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null
+      }
+    ],
+    "acrescimos": []
+  },
+  "canais": [
+    {
+      "canal": "instagram",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "facebook",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "tiktok",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "x",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "linkedin",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "youtube",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "podcast",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    },
+    {
+      "canal": "whatsapp",
+      "estado": "ativo",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "natureza": "plano_da_onda"
+    }
+  ],
+  "arquivos_por_camada": {
+    "geral": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md",
+        "secao": null,
+        "estado": "aprovado",
+        "aprovado_em": "2026-10-26",
+        "ref_aprovacao": "plano aprovado pela pessoa do marketing"
+      }
+    ],
+    "linha": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+        "secao": null,
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "area": [
+      {
+        "agente": "mensagens",
+        "caminho": "saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md",
+        "secao": "A14",
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "curso": [
+      {
+        "agente": "cmo",
+        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+        "secao": "382",
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      },
+      {
+        "agente": "gestor-de-midia",
+        "caminho": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md",
+        "secao": "382",
+        "estado": "pendente_de_aprovacao",
+        "aprovado_em": null,
+        "ref_aprovacao": null
+      }
+    ]
+  },
+  "metas": {
+    "matriculas_alvo": 15,
+    "cpl_maximo": null,
+    "custo_por_matricula_maximo": null,
+    "verba": 2000.0,
+    "fonte": "decisões 15 e 16 do briefing"
+  },
+  "numeros_agregados": {
+    "leads": null,
+    "inscricoes": null,
+    "matriculas": null,
+    "verba_gasta": null,
+    "lido_em": null
+  },
+  "pendencias": [
+    {
+      "id": "P1",
+      "ref_plano": "P1",
+      "tipo": "certificacao",
+      "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "certificacao"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "P2",
+      "ref_plano": "P2",
+      "tipo": "conformidade",
+      "descricao": "Página no ar com frase de certificação ligada ao órgão regulador e turma mínima diferente de 15; correção pedida no site",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "pagina"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "U11",
+      "ref_plano": "decisão 16",
+      "tipo": "preco_ou_condicao",
+      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "preco_estruturado.matricula"
+      ],
+      "bloqueia": [
+        "preco"
+      ],
+      "fonte": "docs/execucao-2026-10-26.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "privacidade",
+      "ref_plano": "OB1",
+      "tipo": "conformidade",
+      "descricao": "Endereço da política de privacidade do formulário",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "pagina"
+      ],
+      "fonte": "saidas/08-conversao/otimizador-de-cta-pos-2026-10-27-onda2.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    }
+  ],
+  "aprovacoes": [],
+  "historico": [
+    {
+      "revisao": 1,
+      "em": "2026-10-27",
+      "campo": "*",
+      "de": null,
+      "para": "criação",
+      "motivo": "versão 1 do mapa, gerada do catálogo e das saídas aprovadas",
+      "origem": "gerador do orquestrador sobre o plano do cmo",
+      "aplicado_por": "orquestrador"
+    }
+  ],
+  "resumo": {
+    "pendencias_abertas": 4,
+    "bloqueado": false
+  }
+}
