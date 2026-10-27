@@ -1,0 +1,6027 @@
+[
+  {
+    "id": "pos-abril-geral-conferencia-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Teste de rastreio: lead, inscrição paga e 1ª mensalidade como conversões separadas; UTM",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 371,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:371"
+  },
+  {
+    "id": "pos-abril-geral-outro-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609",
+      "662"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Perguntas OU18 a OU37 enviadas à Ufape; resposta pedida até 20/11 (abril)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+    "linha": 628,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:628"
+  },
+  {
+    "id": "pos-abril-geral-aprovacao-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "OC1-A: aprovação humana das páginas de abril",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+    "linha": 637,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:637"
+  },
+  {
+    "id": "pos-abril-366-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25",
+      "OU34",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 462,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-679-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Infectologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 55,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68609-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Anestesiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU31",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 1011,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68617-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Endocrinologia de Pequenos Animais",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P5",
+      "OU29",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68628-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Oncologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P5",
+      "OU30",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 601,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68632-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Clínica Cirúrgica de Cães e Gatos",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU3",
+      "OU34",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 192,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68635-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Clínica Médica e Emergência de Pequenos Animais",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU35",
+      "OU25",
+      "OU4",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 328,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-68636-pagina-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página: Pós-graduação em Pneumologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda3.md",
+    "linha": 873,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:643"
+  },
+  {
+    "id": "pos-abril-geral-conferencia-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "OM1: conferência C1 a C20 das páginas de abril no ar (destino, UTM, formulário)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md",
+    "linha": 50,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md:50"
+  },
+  {
+    "id": "pos-abril-68628-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A10-1 (docente da turma): O que você precisa ter pronto antes de assumir o paciente",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 153,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:555"
+  },
+  {
+    "id": "pos-abril-68617-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A7-1 (docente da turma): Por que endocrinologia começa pela fisiologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 168,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:556"
+  },
+  {
+    "id": "pos-abril-geral-aprovacao-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-12-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "PP16 de abril, AMP13 a AMP25 e AGP12 a AGP25 de abril, MO6 (depois do qa da v7)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+    "linha": 645,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md:645"
+  },
+  {
+    "id": "pos-abril-geral-aprovacao-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-12-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "OM3: execução das datas de abril em sábado e feriado; nomes do plantão e escolha do plano",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md",
+    "linha": 420,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md:420"
+  },
+  {
+    "id": "pos-abril-geral-conferencia-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "OM1: reconferência curta (C1, C2, C3, C5, C12, C13 e C16) antes da subida de 06/01",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md",
+    "linha": 50,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md:50"
+  },
+  {
+    "id": "pos-abril-68617-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Endocrinologia em São Paulo: da fisiologia aos casos",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 805,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:805"
+  },
+  {
+    "id": "pos-abril-68617-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A7 no primeiro toque do kit (flag da área)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 439,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:439"
+  },
+  {
+    "id": "pos-abril-68628-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Oncologia em São Paulo: do diagnóstico ao tratamento",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 655,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:655"
+  },
+  {
+    "id": "pos-abril-68628-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A10 no primeiro toque do kit (flag da área)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 438,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:438"
+  },
+  {
+    "id": "pos-abril-68636-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Pneumologia em São Paulo: da fisiologia à emergência",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 954,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:954"
+  },
+  {
+    "id": "pos-abril-679-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A14-1 (docente da turma): Antibiótico, zoonose, infecção hospitalar: qual dessas",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19",
+      "P3"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 103,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:557"
+  },
+  {
+    "id": "pos-abril-68628-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-S1: Quimioterapia com biossegurança: o que o presencial de agosto de 2027 inclui?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 865,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:865"
+  },
+  {
+    "id": "pos-abril-366-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 366, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 144,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-366-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 366, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-679-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 679, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 141,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-679-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 679, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 112,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68609-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68609, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 148,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68609-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68609, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 110,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68617-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68617, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 146,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68617-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68617, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 108,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68628-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68628, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 145,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68628-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68628, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 109,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68632-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68632, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 142,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68632-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68632, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 111,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68635-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68635, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68635-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68635, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 106,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68636-campanha-subida-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Meta de 68636, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 147,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:379"
+  },
+  {
+    "id": "pos-abril-68636-campanha-subida-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2027-01-06",
+    "data_fim": "2027-01-24",
+    "hora": null,
+    "quando": null,
+    "titulo": "Subida Busca de 68636, com as diárias do aquecimento (06/01 a 24/01)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 107,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:740"
+  },
+  {
+    "id": "pos-abril-68617-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-S1: Ressonância magnética em endocrinologia? O módulo 6 trata do tema.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1018,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1018"
+  },
+  {
+    "id": "pos-abril-68632-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A4-2 (docente da turma): Cirurgia presencial: o que você quer ver no cronograma antes",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU34"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 117,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:558"
+  },
+  {
+    "id": "pos-abril-68636-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-S1: Síndrome do braquicefálico, doenças pleurais e tromboembolismo pulmonar têm",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1171,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1171"
+  },
+  {
+    "id": "pos-abril-geral-relatorio-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-11",
+    "data_fim": "2027-07-26",
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia com as linhas de abril: 11/01, 18/01, 26/01 e toda segunda",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md",
+    "linha": 372,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md:372"
+  },
+  {
+    "id": "pos-abril-68628-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-F1: Da imunoterapia online à eletroquimioterapia presencial: dois módulos em",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 884,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:884"
+  },
+  {
+    "id": "pos-abril-68636-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A2-3 (docente da turma): Do exame do paciente respiratório à broncoscopia: o que se",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21",
+      "P3"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 183,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:559"
+  },
+  {
+    "id": "pos-abril-68609-story-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A1-3 (docente da turma): Anestesia clínica em Goiânia: o que se pratica no módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 198,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:560"
+  },
+  {
+    "id": "pos-abril-68635-post-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2027-01-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A3-1 (docente da turma): Plantão de fim de semana: dá para planejar uma pós com meses",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 137,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:150"
+  },
+  {
+    "id": "pos-abril-geral-conferencia-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Teste do plano A (regra programada de pausar e ativar anúncios), em anúncio pausado e sem",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 741,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:741"
+  },
+  {
+    "id": "pos-abril-68617-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-F1: Cushing só chega no módulo 5: veja o que vem antes na Endocrinologia.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1037,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1037"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68635-01 a 03 (sequência 68635-A, 3 cards), slot D07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 332,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:561"
+  },
+  {
+    "id": "pos-abril-68636-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-F1: Da fisiologia online à semiologia no presencial: o primeiro módulo prático de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1190,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1190"
+  },
+  {
+    "id": "pos-abril-68609-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Anestesiologia em Goiânia: do pré-anestésico à reanimação",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1102,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1102"
+  },
+  {
+    "id": "pos-abril-68628-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Oncologia em São Paulo: do diagnóstico ao tratamento.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 690,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:690"
+  },
+  {
+    "id": "pos-abril-68635-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Clínica médica em São Paulo, do exame ao paciente grave",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 360,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:360"
+  },
+  {
+    "id": "pos-abril-68635-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A3 no primeiro toque do kit (flag da área)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 440,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:440"
+  },
+  {
+    "id": "pos-abril-68636-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Pneumologia em São Paulo: da fisiologia à emergência.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 989,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:989"
+  },
+  {
+    "id": "pos-abril-68609-story-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A1-2 (docente da turma): Antes de anestesiar, o que você precisa saber do paciente?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 213,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:562"
+  },
+  {
+    "id": "pos-abril-68635-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-F1: 9 módulos presenciais em 750 horas: da semiologia ao trauma.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 560,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:560"
+  },
+  {
+    "id": "pos-abril-679-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Infectologia em São Paulo: da amostra ao diagnóstico",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 70,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:70"
+  },
+  {
+    "id": "pos-abril-679-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A14 no primeiro toque do kit (flag da área)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 442,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:442"
+  },
+  {
+    "id": "pos-abril-68609-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-F1: Sábado das 9h às 18h, domingo das 9h às 13h: um módulo presencial de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1323,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1323"
+  },
+  {
+    "id": "pos-abril-68617-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Cushing, diabetes e tireoide, em São Paulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 840,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:840"
+  },
+  {
+    "id": "pos-abril-68632-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Clínica cirúrgica presencial em Goiânia, sistema por sistema",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 221,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:221"
+  },
+  {
+    "id": "pos-abril-geral-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632",
+      "366"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A4 no primeiro toque do kit (flag da área)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 441,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:441"
+  },
+  {
+    "id": "pos-abril-68632-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-S1: Olhos, ouvidos e cavidade oral: três módulos próprios no cronograma de cirurgia.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 407,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:407"
+  },
+  {
+    "id": "pos-abril-68635-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-S1: Eletrocardiograma e hemogasometria também estão nos módulos presenciais.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 591,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:591"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 366: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 144,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 366: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-04",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 679: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 141,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-04",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 679: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 112,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68609: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 148,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68609: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 110,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68617: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 146,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68617: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 108,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68628: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 145,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68628: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 109,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68632-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68632: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 142,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68632-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68632: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 111,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68635: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68635: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 106,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68636: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 147,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": "2027-03-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de abril em 68636: diárias da conversão até o corte",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 107,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-abril-679-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-F1: Infectologia não é só antibiótico: virologia, micologia e controle de infecção",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 254,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:254"
+  },
+  {
+    "id": "pos-abril-679-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-S1: Antibioticoterapia, sepse e infecções intra-abdominais: três módulos em sequência.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 284,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:284"
+  },
+  {
+    "id": "pos-abril-68632-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-F1: Dos acessos cirúrgicos à neurocirurgia: o roteiro dos 24 módulos presenciais.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 426,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:426"
+  },
+  {
+    "id": "pos-abril-68609-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-S1: Anestesia em felinos e em animais exóticos: hands-on no presencial.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1356,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1356"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68628-01 a 03 (sequência 68628-A, 3 cards), slot D09",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 383,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:563"
+  },
+  {
+    "id": "pos-abril-68628-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-S2: Melanoma e sarcoma felino: um módulo presencial de Oncologia em março de 2028.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 917,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:917"
+  },
+  {
+    "id": "pos-abril-366-conferencia-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "conferencia",
+    "canal": "crm",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "18h",
+    "quando": null,
+    "titulo": "Portão OU20 de 366 no CRM antes do E1 (verificação em 03/02, 18h)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 657,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:657"
+  },
+  {
+    "id": "pos-abril-366-carrossel-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-F1: 9 módulos presenciais de reabilitação: da hidroterapia às terapias manuais.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 711,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:711"
+  },
+  {
+    "id": "pos-abril-366-email-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1: Reabilitação em São Paulo: da avaliação ao protocolo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 507,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:507"
+  },
+  {
+    "id": "pos-abril-366-story-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-S1: Cão idoso, felino e silvestre: a reabilitação tem módulos próprios.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 742,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:742"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68617-01 a 03 (sequência 68617-A, 3 cards), slot D10",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 427,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:564"
+  },
+  {
+    "id": "pos-abril-68628-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. Semipresencial: a maior parte dos módulos é online.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 706,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:706"
+  },
+  {
+    "id": "pos-abril-68635-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Clínica médica em São Paulo: do exame ao paciente grave.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 395,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:395"
+  },
+  {
+    "id": "pos-abril-68609-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Anestesiologia em Goiânia: do pré-anestésico à reanimação.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1137,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1137"
+  },
+  {
+    "id": "pos-abril-68617-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. A maior parte do curso é online, em São Paulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 856,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:856"
+  },
+  {
+    "id": "pos-abril-68632-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Clínica cirúrgica presencial, em Goiânia, módulo a módulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 256,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:256"
+  },
+  {
+    "id": "pos-abril-68617-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-S2: Diabetes em cães, em gatos e cetoacidose diabética: reunidos em um módulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1068,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1068"
+  },
+  {
+    "id": "pos-abril-366-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-17",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Reabilitação em São Paulo: da avaliação ao protocolo.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 542,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:542"
+  },
+  {
+    "id": "pos-abril-68628-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-17",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Oncologia em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 722,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:722"
+  },
+  {
+    "id": "pos-abril-68636-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-17",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. Teoria a distância; prática presencial em módulos marcados.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1005,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1005"
+  },
+  {
+    "id": "pos-abril-68636-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-S2: Laringotraqueobroncoscopia e rinoscopia: dois módulos presenciais de aula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1221,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1221"
+  },
+  {
+    "id": "pos-abril-679-whatsapp-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1: Olá, [nome]. Infectologia em São Paulo: da amostra ao diagnóstico.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 106,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:106"
+  },
+  {
+    "id": "pos-abril-68635-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-S2: A emergência está dentro do curso: triagem, A-FAST e T-FAST, RCP e trauma.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 610,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:610"
+  },
+  {
+    "id": "pos-abril-68635-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. Faz plantão? A maior parte dos módulos é online.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 411,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:411"
+  },
+  {
+    "id": "pos-abril-679-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. Vai ter prática ou é tudo online? Veja o cronograma.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 122,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:122"
+  },
+  {
+    "id": "pos-abril-68632-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. Presencial: o cronograma mostra cada módulo, em Goiânia.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 272,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:272"
+  },
+  {
+    "id": "pos-abril-679-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-S2: Doenças infecciosas em felinos: dois módulos, viroses e depois bactérias e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 303,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:303"
+  },
+  {
+    "id": "pos-abril-366-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-24",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. A maior parte dos módulos é online.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 558,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:558"
+  },
+  {
+    "id": "pos-abril-679-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-24",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Infectologia em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 138,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:138"
+  },
+  {
+    "id": "pos-abril-68617-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-24",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Endocrinologia em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 872,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:872"
+  },
+  {
+    "id": "pos-abril-geral-anuncio-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Peças -exta e -extb de abril prontas e criadas pausadas (com a -exta nova de 68632)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 384,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:384"
+  },
+  {
+    "id": "pos-abril-geral-anuncio-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "anuncio",
+    "canal": "google_ads",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Peças -exta e -extb de abril prontas e criadas pausadas (com a -exta nova de 68632)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 745,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:745"
+  },
+  {
+    "id": "pos-abril-68609-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-S2: Dor tem escala: o módulo de analgesia multimodal trabalha escalas validadas.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1375,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1375"
+  },
+  {
+    "id": "pos-abril-68609-whatsapp-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2: Olá, [nome]. No presencial, o acompanhamento é individualizado.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1153,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1153"
+  },
+  {
+    "id": "pos-abril-68628-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-F2: 24 módulos: 16 online e 8 presenciais. Veja o que cada presencial trata.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 936,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:936"
+  },
+  {
+    "id": "pos-abril-679-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C679-01 a 03 (sequência 679-A, 3 cards), slot D12",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 303,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:565"
+  },
+  {
+    "id": "pos-abril-68632-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-S2: Cirurgia além da técnica: ética, más notícias e luto.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 457,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:457"
+  },
+  {
+    "id": "pos-abril-68636-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-26",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Pneumologia em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1021,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1021"
+  },
+  {
+    "id": "pos-abril-366-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Reabilitação em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 574,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:574"
+  },
+  {
+    "id": "pos-abril-geral-video-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679",
+      "68632",
+      "68635",
+      "366",
+      "68628",
+      "68617",
+      "68636",
+      "68609"
+    ],
+    "tipo": "video",
+    "canal": "interno",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Entrega à edição dos 8 Reels de abril (gravação, pedido OC4)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU15"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 76,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md:76"
+  },
+  {
+    "id": "pos-abril-679-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma IV de Infectologia começa em abril.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 170,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:170"
+  },
+  {
+    "id": "pos-abril-68635-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Clínica médica em São Paulo: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 427,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:427"
+  },
+  {
+    "id": "pos-abril-366-story-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-S2: A dor volta em três momentos do cronograma de reabilitação.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 761,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:761"
+  },
+  {
+    "id": "pos-abril-679-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-F2: 21 módulos online, 3 presenciais: a rotina da pós de Infectologia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 322,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:322"
+  },
+  {
+    "id": "pos-abril-68628-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-03",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma de Oncologia em São Paulo começa em 10/04.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 754,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:754"
+  },
+  {
+    "id": "pos-abril-68632-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-03-03",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Clínica cirúrgica em Goiânia: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 288,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:288"
+  },
+  {
+    "id": "pos-abril-68632-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-F2: 24 módulos, um fim de semana por mês, todos presenciais.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 476,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:476"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-05",
+    "data_fim": "2027-04-02",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 679: Pós-graduação em Infectologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 457,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:386"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-05",
+    "data_fim": "2027-04-02",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 679: As aulas começam em abril de 2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 463,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:747"
+  },
+  {
+    "id": "pos-abril-68632-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68632-01 a 03 (sequência 68632-A, 3 cards), slot D13",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 318,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:566"
+  },
+  {
+    "id": "pos-abril-68632-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. Clínica cirúrgica em Goiânia começa em 10/04.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 318,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:318"
+  },
+  {
+    "id": "pos-abril-68635-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-F2: Faz plantão? O cronograma mostra o mês de cada módulo presencial.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 629,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:629"
+  },
+  {
+    "id": "pos-abril-366-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-08",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma I de Reabilitação começa em abril.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 604,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:604"
+  },
+  {
+    "id": "pos-abril-68609-email-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-03-08",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2: Anestesiologia em Goiânia: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1169,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1169"
+  },
+  {
+    "id": "pos-abril-68635-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-08",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma V de Clínica Médica começa em 10/04.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 456,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:456"
+  },
+  {
+    "id": "pos-abril-366-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-F2: Reabilitação veterinária começa pela avaliação: o cronograma segue essa ordem.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 780,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:780"
+  },
+  {
+    "id": "pos-abril-68617-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-F2: Teoria demais no começo? Veja quando a prática presencial entra na",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1087,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1087"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 366: Pós-graduação em Fisioterapia, Fisiatria e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 483,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:387"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 366: As aulas começam em abril de 2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 489,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:748"
+  },
+  {
+    "id": "pos-abril-68617-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma de Endocrinologia começa em 17/04.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 903,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:903"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68628: Pós-graduação em Oncologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 368,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:387"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68628: As aulas começam em 10/04/2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 374,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:748"
+  },
+  {
+    "id": "pos-abril-68628-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-03-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68628: \"Quimioterapia, eletroquimioterapia e crioterapia estão nos módulos",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 278,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:965"
+  },
+  {
+    "id": "pos-abril-68632-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68632: Pós-graduação em Clínica Cirúrgica de Cães",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 418,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:387"
+  },
+  {
+    "id": "pos-abril-68632-campanha-fase-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68632: As aulas começam em 10/04/2027. Turma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 424,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:748"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68635: Pós-graduação em Clínica Médica e",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 290,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:387"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-12",
+    "data_fim": "2027-04-09",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68635: As aulas começam em 10/04/2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 296,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:748"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68635-04 a 06 (sequência 68635-B, 3 cards), slot D14",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 335,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:567"
+  },
+  {
+    "id": "pos-abril-68636-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma de Pneumologia começa em abril.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1051,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1051"
+  },
+  {
+    "id": "pos-abril-68636-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-F2: Quanto da Pneumologia pede você na sala? 6 módulos presenciais de aulas",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1240,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1240"
+  },
+  {
+    "id": "pos-abril-68609-whatsapp-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-17",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3: Olá, [nome]. A turma de Anestesiologia em Goiânia começa em 24/04.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1202,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1202"
+  },
+  {
+    "id": "pos-abril-68609-carrossel-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-03-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-F2: Vou praticar ou só assistir? Veja o que o cronograma coloca no presencial.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1394,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1394"
+  },
+  {
+    "id": "pos-abril-679-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-03-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 679: \"Zoonoses: sábado de teoria, domingo de prática laboratorial.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 99,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:392"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-19",
+    "data_fim": "2027-04-16",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68617: Pós-graduação em Endocrinologia de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 342,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:389"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-19",
+    "data_fim": "2027-04-16",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68617: As aulas começam em 17/04/2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:750"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-19",
+    "data_fim": "2027-04-16",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68636: Pós-graduação em Pneumologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 316,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:389"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-19",
+    "data_fim": "2027-04-16",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68636: As aulas começam em abril de 2027.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 322,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:750"
+  },
+  {
+    "id": "pos-abril-679-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-S4: Módulo presencial pede viagem? Compre passagem e hotel só depois de a turma ser",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 353,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:353"
+  },
+  {
+    "id": "pos-abril-68632-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-03-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68632: \"E depois do fechamento da cirurgia? Complicações, sondas, drenos.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 145,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:543"
+  },
+  {
+    "id": "pos-abril-68635-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-03-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68635: \"Da semiologia à UTI, a clínica médica sistema por sistema.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 190,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:696"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-26",
+    "data_fim": "2027-04-23",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68609: Pós-graduação em Anestesiologia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 392,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:391"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-26",
+    "data_fim": "2027-04-23",
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa do frio e extensão com a -exta de 68609: As aulas começam em 24/04/2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 398,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:752"
+  },
+  {
+    "id": "pos-abril-679-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 186,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:186"
+  },
+  {
+    "id": "pos-abril-68632-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-S4: Curso presencial pede viagem? Compre passagem e hotel só depois de a turma ser",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 505,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:505"
+  },
+  {
+    "id": "pos-abril-366-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-04-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 366: \"Hidroterapia, recursos eletrofísicos, terapias manuais: prática presencial.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 234,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:850"
+  },
+  {
+    "id": "pos-abril-679-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "679-S3: Em abril de 2027 começa a turma IV de Infectologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 372,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:372"
+  },
+  {
+    "id": "pos-abril-366-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C366-01 a 03 (sequência 366-A, 3 cards), slot D16",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 366,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:568"
+  },
+  {
+    "id": "pos-abril-679-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-04-02",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 679 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 141,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:393"
+  },
+  {
+    "id": "pos-abril-679-campanha-pausa-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-04-02",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 679 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 112,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:754"
+  },
+  {
+    "id": "pos-abril-68635-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-S4: Módulo presencial pede viagem? Compre passagem e hotel só depois de a turma ser",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 658,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:658"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 679 no início: Pós-graduação em Infectologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 468,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:394"
+  },
+  {
+    "id": "pos-abril-679-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 679 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 474,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:755"
+  },
+  {
+    "id": "pos-abril-679-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 679: Pós-graduação em Infectologia Veterinária",
+    "status": "a_fazer",
+    "trava": [
+      "P3",
+      "OU19"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-679.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-679.json:64"
+  },
+  {
+    "id": "pos-abril-68628-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em 10/04; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 770,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:770"
+  },
+  {
+    "id": "pos-abril-68632-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em 10/04, em Goiânia.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 334,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:334"
+  },
+  {
+    "id": "pos-abril-68617-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-04-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68617: \"Poliúria, polidipsia, alopecia: quando o caso pede raciocínio endócrino?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 322,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1116"
+  },
+  {
+    "id": "pos-abril-68635-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68635-S3: Sábado, 10/04, começa a turma V de Clínica Médica e Emergência de Pequenos",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 677,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:677"
+  },
+  {
+    "id": "pos-abril-68635-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-06",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em 10/04; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 472,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:472"
+  },
+  {
+    "id": "pos-abril-366-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-S4: Módulo presencial pede viagem? Compre passagem e hotel só depois de a turma ser",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 811,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:811"
+  },
+  {
+    "id": "pos-abril-366-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-07",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 620,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:620"
+  },
+  {
+    "id": "pos-abril-68628-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-S3: Sábado, 10/04, começa a Pós-graduação em Oncologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 974,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:974"
+  },
+  {
+    "id": "pos-abril-68632-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68632-S3: Sábado, 10/04, começa a turma V de Clínica Cirúrgica de Cães e Gatos.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 524,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:524"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68635-07 a 09 (sequência 68635-C, 3 cards), reserva R1, só se a onda 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 338,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:598"
+  },
+  {
+    "id": "pos-abril-68636-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-04-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68636: \"Rinoscopia e ultrassonografia pulmonar: aula prática presencial.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 366,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1269"
+  },
+  {
+    "id": "pos-abril-366-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 366 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 144,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:395"
+  },
+  {
+    "id": "pos-abril-366-campanha-pausa-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 366 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:756"
+  },
+  {
+    "id": "pos-abril-366-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "366-S3: Em abril de 2027 começa a turma I de Fisioterapia, Fisiatria e Reabilitação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 830,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:830"
+  },
+  {
+    "id": "pos-abril-68609-reels-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reel 68609: \"Sedar, intubar, monitorar: a anestesia começa na avaliação pré-anestésica.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda3.md",
+    "linha": 410,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1425"
+  },
+  {
+    "id": "pos-abril-68632-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68632 às 23h59, véspera do início e do módulo 1 presencial, até OU3",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 142,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:395"
+  },
+  {
+    "id": "pos-abril-68632-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68632 às 23h59, véspera do início e do módulo 1 presencial, até OU3",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 111,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:756"
+  },
+  {
+    "id": "pos-abril-68632-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista de 68632 fecha às 23h59 de 09/04/2027 enquanto a OU3 estiver aberta (regra 8)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 168,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:168"
+  },
+  {
+    "id": "pos-abril-68635-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 68635 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:395"
+  },
+  {
+    "id": "pos-abril-68635-campanha-pausa-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-04-09",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Fim da -exta de 68635 às 23h59, se o dia do 3º módulo não tiver chegado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 106,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:756"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 366 no início: Pós-graduação em Fisioterapia, Fisiatria e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 494,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:396"
+  },
+  {
+    "id": "pos-abril-366-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 366 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 500,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:757"
+  },
+  {
+    "id": "pos-abril-366-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 366: Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária",
+    "status": "a_fazer",
+    "trava": [
+      "P4",
+      "OU20"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-366.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-366.json:64"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-10",
+    "data_fim": "2027-06-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68628 no início: Pós-graduação em Oncologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 379,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:396"
+  },
+  {
+    "id": "pos-abril-68628-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-10",
+    "data_fim": "2027-06-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68628 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 385,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:757"
+  },
+  {
+    "id": "pos-abril-68628-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68628: Pós-graduação em Oncologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68628.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68628.json:64"
+  },
+  {
+    "id": "pos-abril-68632-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68632: Pós-graduação em Clínica Cirúrgica de Cães e Gatos",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68632.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68632.json:64"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68635 no início: Pós-graduação em Clínica Médica e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 301,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:396"
+  },
+  {
+    "id": "pos-abril-68635-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68635 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 307,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:757"
+  },
+  {
+    "id": "pos-abril-68635-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68635: Pós-graduação em Clínica Médica e Emergência de Pequenos Animais",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68635.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68635.json:64"
+  },
+  {
+    "id": "pos-abril-68617-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em 17/04; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 919,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:919"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68617-10 a 12 (sequência 68617-D, 3 cards), reserva R2, só se a onda 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 436,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:599"
+  },
+  {
+    "id": "pos-abril-68636-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-S3: Em abril de 2027 começa a turma VIII de Pneumologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1278,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1278"
+  },
+  {
+    "id": "pos-abril-68636-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-13",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1067,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1067"
+  },
+  {
+    "id": "pos-abril-68617-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-S3: Sábado, 17/04, começa a Pós-graduação em Endocrinologia de Pequenos Animais.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1125,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1125"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68636-07 a 09 (sequência 68636-C, 3 cards), reserva R3, só se a onda 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 463,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:600"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-17",
+    "data_fim": "2027-06-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68617 no início: Pós-graduação em Endocrinologia de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 353,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:397"
+  },
+  {
+    "id": "pos-abril-68617-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-17",
+    "data_fim": "2027-06-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68617 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 359,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:758"
+  },
+  {
+    "id": "pos-abril-68617-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68617: Pós-graduação em Endocrinologia de Pequenos Animais",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68617.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68617.json:64"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-17",
+    "data_fim": "2027-06-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68636 no início: Pós-graduação em Pneumologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 327,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:397"
+  },
+  {
+    "id": "pos-abril-68636-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-17",
+    "data_fim": "2027-06-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68636 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 333,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:758"
+  },
+  {
+    "id": "pos-abril-68636-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68636: Pós-graduação em Pneumologia Veterinária",
+    "status": "a_fazer",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68636.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68636.json:64"
+  },
+  {
+    "id": "pos-abril-68609-whatsapp-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-19",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pré-início: Olá, [nome]. As aulas começam em 24/04; matrícula aberta até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1218,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1218"
+  },
+  {
+    "id": "pos-abril-68609-story-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-S3: Sábado, 24/04, começa a turma VIII de Anestesiologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1434,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1434"
+  },
+  {
+    "id": "pos-abril-662-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "662"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 662: Pós-graduação em Ortopedia Veterinária",
+    "status": "suspenso",
+    "trava": [
+      "OU18"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-662.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-662.json:64"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-04-24",
+    "data_fim": "2027-06-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68609 no início: Pós-graduação em Anestesiologia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 403,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:398"
+  },
+  {
+    "id": "pos-abril-68609-campanha-fase-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-04-24",
+    "data_fim": "2027-06-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Troca da -exta para a -extb de 68609 no início: As aulas já começaram. Matrícula até o 3º",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 409,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:759"
+  },
+  {
+    "id": "pos-abril-68609-inicio-turma-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-04-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma 68609: Pós-graduação em Anestesiologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68609.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68609.json:64"
+  },
+  {
+    "id": "pos-abril-679-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-26",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Infectologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 202,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:202"
+  },
+  {
+    "id": "pos-abril-68628-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-28",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Oncologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 786,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:786"
+  },
+  {
+    "id": "pos-abril-68628-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68628-S4: A Pós-graduação em Oncologia Veterinária já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 993,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:993"
+  },
+  {
+    "id": "pos-abril-68636-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-30",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Pneumologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1083,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1083"
+  },
+  {
+    "id": "pos-abril-366-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-03",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Reabilitação?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 636,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:636"
+  },
+  {
+    "id": "pos-abril-68635-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-03",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Clínica Médica?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 488,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:488"
+  },
+  {
+    "id": "pos-abril-68636-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-05-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68636-S4: A turma VIII de Pneumologia Veterinária já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21",
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1298,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1298"
+  },
+  {
+    "id": "pos-abril-68617-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-06",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Endocrinologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 935,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:935"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-05-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68636-10 a 12 (sequência 68636-D, 3 cards), reserva R9, só se a onda 2",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 466,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:601"
+  },
+  {
+    "id": "pos-abril-68617-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-05-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68617-S4: A Pós-graduação em Endocrinologia de Pequenos Animais já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1144,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1144"
+  },
+  {
+    "id": "pos-abril-68609-whatsapp-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início: Olá, [nome]. Entender como entrar na turma de Anestesiologia?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md",
+    "linha": 1234,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda3.md:1234"
+  },
+  {
+    "id": "pos-abril-68609-story-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-05-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68609-S4: A turma VIII de Anestesiologia Veterinária já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md",
+    "linha": 1453,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda3.md:1453"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-05-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68628-04 a 06 (sequência 68628-B, 3 cards), slot D25",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 386,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:569"
+  },
+  {
+    "id": "pos-abril-366-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-31",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 366 fecha: 23h59 da véspera do 3º módulo; sem o dia, 23h59 de 31/05/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 170,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:170"
+  },
+  {
+    "id": "pos-abril-679-outro-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-31",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 679 fecha: 23h59 da véspera do 3º módulo; sem o dia, 23h59 de 31/05/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 167,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:167"
+  },
+  {
+    "id": "pos-abril-68635-outro-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-31",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 68635 fecha: 23h59 da véspera do 3º módulo; sem o dia, 23h59 de 31/05/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 169,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:169"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68617-04 a 06 (sequência 68617-B, 3 cards), slot D26",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 430,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:570"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68636-01 a 03 (sequência 68636-A, 3 cards), slot D27",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 457,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:571"
+  },
+  {
+    "id": "pos-abril-68609-card-docente-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68609-01 a 03 (sequência 68609-A, 3 cards), slot D28",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 482,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:572"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68628-07 a 09 (sequência 68628-C, 3 cards), slot D29",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 389,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:573"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68617-07 a 09 (sequência 68617-C, 3 cards), slot D30",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 433,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:574"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68636-04 a 06 (sequência 68636-B, 3 cards), slot D32",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU21"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 460,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:575"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68628-10 a 12 (sequência 68628-D, 3 cards), slot D33",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 392,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:576"
+  },
+  {
+    "id": "pos-abril-68609-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68609-04 a 06 (sequência 68609-B, 3 cards), slot D34",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 485,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:577"
+  },
+  {
+    "id": "pos-abril-68617-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68617 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 146,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:404"
+  },
+  {
+    "id": "pos-abril-68617-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68617 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU29"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 108,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:765"
+  },
+  {
+    "id": "pos-abril-68617-outro-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 68617 fecha: 23h59 de 18/06/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 172,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:172"
+  },
+  {
+    "id": "pos-abril-68636-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68636 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 147,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:404"
+  },
+  {
+    "id": "pos-abril-68636-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68636 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU21"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 107,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:765"
+  },
+  {
+    "id": "pos-abril-68636-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-06-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 68636 fecha: 23h59 de 18/06/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 173,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:173"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68628-13 a 15 (sequência 68628-E, 3 cards), slot D35",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 395,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:578"
+  },
+  {
+    "id": "pos-abril-68609-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-06-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Cards de docente C68609-07 (sequência 68609-C, 1 card), slot D36",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 488,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:579"
+  },
+  {
+    "id": "pos-abril-68609-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68609 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 148,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:405"
+  },
+  {
+    "id": "pos-abril-68609-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68609 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 110,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:766"
+  },
+  {
+    "id": "pos-abril-68609-outro-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 68609 fecha: 23h59 de 25/06/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 174,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:174"
+  },
+  {
+    "id": "pos-abril-68628-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68628 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 145,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:405"
+  },
+  {
+    "id": "pos-abril-68628-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 68628 às 23h59 (fim da extensão, véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 109,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:766"
+  },
+  {
+    "id": "pos-abril-68628-outro-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-06-25",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Lista da turma 68628 fecha: 23h59 de 25/06/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md",
+    "linha": 171,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda3.md:171"
+  },
+  {
+    "id": "pos-abril-366-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 366 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 144,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:144"
+  },
+  {
+    "id": "pos-abril-366-campanha-pausa-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 366 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P4",
+      "OU20",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:113"
+  },
+  {
+    "id": "pos-abril-366-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C366-04 a 06 (sequência 366-B, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8",
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 369,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:369"
+  },
+  {
+    "id": "pos-abril-366-card-docente-3",
+    "bloco": "pos-abril",
+    "turmas": [
+      "366"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C366-07 a 08 (sequência 366-C, 2 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8",
+      "OU20"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 372,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:372"
+  },
+  {
+    "id": "pos-abril-662-campanha-pausa-1",
+    "bloco": "pos-abril",
+    "turmas": [
+      "662"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "próxima ação no gerenciador",
+    "titulo": "OM2: pausar a campanha atual de 662 até a OU18, com exportação",
+    "status": "suspenso",
+    "trava": [
+      "OU18"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 369,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:369"
+  },
+  {
+    "id": "pos-abril-662-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "662"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "próxima ação no editor",
+    "titulo": "OM2: pausar a campanha atual de 662 até a OU18, com exportação",
+    "status": "suspenso",
+    "trava": [
+      "OU18"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 731,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:731"
+  },
+  {
+    "id": "pos-abril-679-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 679 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 141,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:141"
+  },
+  {
+    "id": "pos-abril-679-campanha-pausa-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 679 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "P3",
+      "OU19",
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 112,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:112"
+  },
+  {
+    "id": "pos-abril-679-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "679"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C679-04 a 06 (sequência 679-B, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 306,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:306"
+  },
+  {
+    "id": "pos-abril-68609-card-docente-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68609-08 a 10 (sequência 68609-D, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 489,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:489"
+  },
+  {
+    "id": "pos-abril-68609-card-docente-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68609"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68609-11 a 13 (sequência 68609-E, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 492,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:492"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68617-13 a 15 (sequência 68617-E, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 439,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:439"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68617-16 a 18 (sequência 68617-F, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 442,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:442"
+  },
+  {
+    "id": "pos-abril-68617-card-docente-7",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68617"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68617-19 a 21 (sequência 68617-G, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 445,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:445"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-10",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-28 a 30 (sequência 68628-J, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 410,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:410"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-11",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-31 a 33 (sequência 68628-K, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 413,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:413"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-12",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-34 a 35 (sequência 68628-L, 2 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 416,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:416"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-16 a 18 (sequência 68628-F, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 398,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:398"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-7",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-19 a 21 (sequência 68628-G, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 401,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:401"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-8",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-22 a 24 (sequência 68628-H, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 404,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:404"
+  },
+  {
+    "id": "pos-abril-68628-card-docente-9",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68628"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68628-25 a 27 (sequência 68628-I, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 407,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:407"
+  },
+  {
+    "id": "pos-abril-68632-card-docente-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68632"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot; só antes de 10/04",
+    "titulo": "Cards de docente C68632-04 a 05 (sequência 68632-B, 2 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 321,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:321"
+  },
+  {
+    "id": "pos-abril-68635-campanha-pausa-2",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 68635 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:143"
+  },
+  {
+    "id": "pos-abril-68635-campanha-pausa-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": "véspera do 3º módulo, junho de 2027, dia [CONFIRMAR] (OU25)",
+    "titulo": "Pausa total de 68635 às 23h59 da véspera do 3º módulo (junho de 2027, dia a confirmar)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU25"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 106,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:106"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-4",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-10 a 12 (sequência 68635-D, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 341,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:341"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-13 a 15 (sequência 68635-E, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 344,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:344"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-16 a 18 (sequência 68635-F, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:347"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-7",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-19 a 21 (sequência 68635-G, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 350,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:350"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-8",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-22 a 24 (sequência 68635-H, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 353,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:353"
+  },
+  {
+    "id": "pos-abril-68635-card-docente-9",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68635"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68635-25 (sequência 68635-I, 1 card), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 356,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:356"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-5",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68636-13 a 15 (sequência 68636-E, 3 cards), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 469,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:469"
+  },
+  {
+    "id": "pos-abril-68636-card-docente-6",
+    "bloco": "pos-abril",
+    "turmas": [
+      "68636"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fila sem slot (lacuna registrada): entra quando houver capacidade; docente vê 7 dias antes do slot",
+    "titulo": "Cards de docente C68636-16 (sequência 68636-F, 1 card), fila",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md",
+    "linha": 472,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda3.md:472"
+  }
+]

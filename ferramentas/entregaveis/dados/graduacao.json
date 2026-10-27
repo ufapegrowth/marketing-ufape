@@ -1,0 +1,4897 @@
+[
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-01: Práticas Hospitalares é matéria do 1º semestre de Medicina Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 135,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-01: Práticas Hospitalares é matéria do 1º semestre de Medicina Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 135,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-01: Práticas Hospitalares é matéria do 1º semestre de Medicina Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 135,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-02: Boa prova no Enem, nos dias 08 e 15/11.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 175,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:101"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-02: Boa prova no Enem, nos dias 08 e 15/11.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 175,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:101"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-03: Medicina Veterinária presencial à noite, em São Paulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 214,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:102"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-03: Medicina Veterinária presencial à noite, em São Paulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 214,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:102"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-03: Medicina Veterinária presencial à noite, em São Paulo.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 214,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:102"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-04: A Ufape tem hospital veterinário próprio, a Ufape Clínica.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G11"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 254,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:103"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-04: A Ufape tem hospital veterinário próprio, a Ufape Clínica.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G11"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 254,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:103"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-04-alt: Projeto Extensionista I está no 1º semestre de Medicina Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 294,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:104"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-04-alt: Projeto Extensionista I está no 1º semestre de Medicina Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 294,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:104"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2026-11-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-05: 5 perguntas que pais e responsáveis fazem antes de a família decidir.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 336,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:105"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-05: 5 perguntas que pais e responsáveis fazem antes de a família decidir.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 336,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:105"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-06: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 381,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:106"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-06: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 381,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:106"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-06: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 381,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:106"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-07: De R$ 10.000,00 por R$ 5.000,00 por mês no 1º semestre de 2027.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 426,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-07: De R$ 10.000,00 por R$ 5.000,00 por mês no 1º semestre de 2027.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 426,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-01-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-08: Quanto custa estudar Medicina Veterinária à noite em São Paulo?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 468,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:108"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2027-01-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-08: Quanto custa estudar Medicina Veterinária à noite em São Paulo?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 468,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:108"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-09: O que a família precisa ler no edital antes de matricular.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 512,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:109"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-carrossel-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-09: O que a família precisa ler no edital antes de matricular.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 512,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:109"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-10: Matrícula em Medicina Veterinária: os 4 passos do edital.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 557,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:110"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-10: Matrícula em Medicina Veterinária: os 4 passos do edital.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 557,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:110"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-10: Matrícula em Medicina Veterinária: os 4 passos do edital.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 557,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:110"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-11: As aulas de Medicina Veterinária começam na segunda, 22/02.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 601,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:111"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-post-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-11: As aulas de Medicina Veterinária começam na segunda, 22/02.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 601,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:111"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-story-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-11: As aulas de Medicina Veterinária começam na segunda, 22/02.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 601,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:111"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-01: Pedagogia presencial, à noite, em Goiânia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 644,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:121"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-01: Pedagogia presencial, à noite, em Goiânia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 644,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:121"
+  },
+  {
+    "id": "graduacao-pedagogia-story-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-02: Boa prova no Enem, nos dias 08 e 15/11.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 681,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:122"
+  },
+  {
+    "id": "graduacao-pedagogia-story-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-02: Boa prova no Enem, nos dias 08 e 15/11.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 681,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:122"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-03: Prática Docente já no 1º semestre de Pedagogia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 720,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:123"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-03: Prática Docente já no 1º semestre de Pedagogia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 720,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:123"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-03: Prática Docente já no 1º semestre de Pedagogia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 720,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:123"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-04: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 761,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:124"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-04: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 761,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:124"
+  },
+  {
+    "id": "graduacao-pedagogia-story-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-04: Sem dia marcado de prova: faça a redação online quando puder.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 761,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:124"
+  },
+  {
+    "id": "graduacao-pedagogia-post-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2027-01-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-05: De R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 806,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:125"
+  },
+  {
+    "id": "graduacao-pedagogia-post-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2027-01-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-05: De R$ 1.050,00 por R$ 525,00 por mês no 1º semestre de 2027.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 806,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:125"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-06: Educação Inclusiva e Libras fazem parte da matriz de Pedagogia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 850,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:126"
+  },
+  {
+    "id": "graduacao-pedagogia-carrossel-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "carrossel",
+    "canal": "facebook",
+    "data": "2027-01-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-06: Educação Inclusiva e Libras fazem parte da matriz de Pedagogia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 850,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:126"
+  },
+  {
+    "id": "graduacao-pedagogia-post-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-07: Passos da matrícula em Pedagogia, do resultado às aulas.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 894,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:127"
+  },
+  {
+    "id": "graduacao-pedagogia-post-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "post",
+    "canal": "facebook",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-07: Passos da matrícula em Pedagogia, do resultado às aulas.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 894,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:127"
+  },
+  {
+    "id": "graduacao-pedagogia-story-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-07: Passos da matrícula em Pedagogia, do resultado às aulas.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+    "linha": 894,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md:127"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-01: \"Professor, o que tem de prática no 1º semestre?\" (integral)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G14"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 129,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:118"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-01: \"Professor, o que tem de prática no 1º semestre?\" (integral)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G14"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 129,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:118"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-video-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "video",
+    "canal": "youtube",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-01: \"Professor, o que tem de prática no 1º semestre?\" (integral)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G14"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 129,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:118"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-video-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "video",
+    "canal": "tiktok",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-01: \"Professor, o que tem de prática no 1º semestre?\" (integral)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G14",
+      "G11"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 129,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:118"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G2-01: \"Pedagogia à noite em Goiânia: 5 coisas para saber antes de escolher\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 260,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:119"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G2-01: \"Pedagogia à noite em Goiânia: 5 coisas para saber antes de escolher\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 260,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:119"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-02: \"Integral ou noturno: o que muda?\" (os dois turnos, foco no noturno)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:120"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-reels-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-02: \"Integral ou noturno: o que muda?\" (os dois turnos, foco no noturno)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:120"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-video-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "video",
+    "canal": "youtube",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-02: \"Integral ou noturno: o que muda?\" (os dois turnos, foco no noturno)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:120"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-video-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "video",
+    "canal": "tiktok",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G1-02: \"Integral ou noturno: o que muda?\" (os dois turnos, foco no noturno)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "G11"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:120"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-01-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G2-02: \"O 1º semestre de Pedagogia, disciplina por disciplina\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 320,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:121"
+  },
+  {
+    "id": "graduacao-pedagogia-reels-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "reels",
+    "canal": "facebook",
+    "data": "2027-01-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "TK-G2-02: \"O 1º semestre de Pedagogia, disciplina por disciplina\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+    "linha": 320,
+    "fonte_da_data": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md:121"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-AT1: sua inscrição está feita, falta a avaliação",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 321,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-AT1-R: Vestibular 2027 de {nome_candidato}: o próximo passo é a redação ou o Enem",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 342,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-AT2: redação online, sem dia marcado",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 359,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-AT2-R: Olá, aqui é da Faculdade UFAPE. Sobre o Vestibular 2027 de {nome_candidato}",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 379,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-AT3: três perguntas sobre a redação",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 391,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do cadastro na LP",
+    "titulo": "G1-L1: boas-vindas e como funciona o ingresso",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 415,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:415"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 do cadastro na LP",
+    "titulo": "G1-L2: Enem desde 2010 ou redação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 442,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:442"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 do cadastro na LP",
+    "titulo": "G1-L2-R: Olá, aqui é da Faculdade UFAPE. Esta mensagem é para o representante legal de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 461,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:461"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D5 do cadastro na LP",
+    "titulo": "G1-L3: o desconto, com valor cheio e validade",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 474,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:474"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D8 do cadastro na LP",
+    "titulo": "G1-L4: dúvidas de pais e responsáveis (adulto que decide com a família)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 498,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:498"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D8 do cadastro na LP",
+    "titulo": "G1-L4-R: Olá. Esta mensagem é para o representante legal de {nome_candidato}: o que você",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 521,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:521"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D12 do cadastro na LP",
+    "titulo": "G1-L5: visita (só se existir) ou o curso por dentro",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 541,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:541"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D15 do cadastro na LP",
+    "titulo": "G1-L6: objeção \"e depois do 1º semestre?\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 579,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:579"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D20 do cadastro na LP",
+    "titulo": "G1-L7: lembrete com o resumo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 597,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:597"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da inscrição concluída",
+    "titulo": "G1-R1: inscrição recebida e próximos passos",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 623,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:623"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da inscrição concluída",
+    "titulo": "G1-R1-R: Inscrição de {nome_candidato} recebida: o próximo passo é a redação ou o Enem",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 637,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:637"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 da inscrição concluída",
+    "titulo": "G1-R2: passo a passo e oferta de ajuda",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 649,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:649"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 da inscrição concluída",
+    "titulo": "G1-R2-R: Olá, aqui é da Faculdade UFAPE. A inscrição de {nome_candidato} foi recebida: o",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 662,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:662"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D5 da inscrição concluída",
+    "titulo": "G1-R3: perguntas sobre a redação e o Enem, respondidas",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 672,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:672"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D9 da inscrição concluída",
+    "titulo": "G1-R4: ajuda do time",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 694,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:694"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D14 da inscrição concluída",
+    "titulo": "G1-R5: o que acontece depois da redação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 707,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:707"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do resultado com status aprovado",
+    "titulo": "G1-A1: seu resultado está no site",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 728,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:728"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do resultado com status aprovado",
+    "titulo": "G1-A1-R: O resultado de {nome_candidato} no Vestibular 2027 está no site",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 749,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:749"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+2 do resultado com status aprovado",
+    "titulo": "G1-A2: matrícula aberta",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 762,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:762"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-13",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+3 do resultado com status aprovado",
+    "titulo": "G1-A3: antes de pagar, as regras",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 776,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:776"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-14",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+3 do resultado com status aprovado",
+    "titulo": "G1-A3-R: Antes da matrícula de {nome_candidato}: valor, renovação e cancelamento",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 800,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:800"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-13",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+2 do resultado com status aprovado",
+    "titulo": "G1-A4-R: Olá. Esta mensagem é para o representante legal de {nome_candidato}: a matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 813,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:813"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-14",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+7 do resultado com status aprovado",
+    "titulo": "G1-A5: o que travou?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 828,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:828"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-15",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 ou a partir de 01/02/2027 do resultado com status aprovado",
+    "titulo": "G1-A6: como concluir a matrícula antes das aulas",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 841,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:841"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-16",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 do resultado com status aprovado",
+    "titulo": "G1-A6-R: Aulas começam em 22/02/2027: o que falta na matrícula de {nome_candidato}",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 857,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:857"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-17",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da matrícula confirmada",
+    "titulo": "G1-M1: matrícula confirmada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 876,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:876"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-18",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da matrícula confirmada",
+    "titulo": "G1-M1-R: Matrícula de {nome_candidato} confirmada: o que acontece até 22/02/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 890,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:890"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-15",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+5 da matrícula confirmada",
+    "titulo": "G1-M2: documentos",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 902,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:902"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-16",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+5 da matrícula confirmada",
+    "titulo": "G1-M2-R: Olá, aqui é da Faculdade UFAPE. Lembrete para o representante legal de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 916,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:916"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-19",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 da matrícula confirmada",
+    "titulo": "G1-M3: o que esperar do 1º semestre",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 926,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:926"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-17",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "3 a 5 dias úteis antes de cada vencimento do dia 10 do 1º semestre",
+    "titulo": "G1-M4: mensalidade no dia 10 e o desconto",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 941,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:941"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-20",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-M5: semana de início",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 956,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:956"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-21",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G1-M5-R: Segunda-feira, 22/02/2027: começam as aulas de {nome_candidato}",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 971,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:971"
+  },
+  {
+    "id": "graduacao-pedagogia-email-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-AT1: {primeiro_nome}, sua inscrição na Pedagogia está feita: o próximo passo é a",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1002,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-AT2: Oi, {primeiro_nome}, aqui é da Faculdade UFAPE de Goiânia. Sua redação pode ser",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1017,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-AT3: Oi, {primeiro_nome}. Três respostas rápidas sobre a redação do Processo Seletivo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1030,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-pedagogia-email-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do cadastro na LP",
+    "titulo": "G2-L1: boas-vindas e como funciona o ingresso",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1047,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1047"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 do cadastro na LP",
+    "titulo": "G2-L2: Enem desde 2010 ou redação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1063,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1063"
+  },
+  {
+    "id": "graduacao-pedagogia-email-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D5 do cadastro na LP",
+    "titulo": "G2-L3: o desconto, com valor cheio e validade",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1078,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1078"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D8 do cadastro na LP",
+    "titulo": "G2-L4: dúvidas de quem decide junto, incluindo responsáveis",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1095,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1095"
+  },
+  {
+    "id": "graduacao-pedagogia-email-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D12 do cadastro na LP",
+    "titulo": "G2-L5: o que se estuda e como o curso é autorizado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1109,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1109"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D15 do cadastro na LP",
+    "titulo": "G2-L6: objeção \"EAD é mais barato\" e \"e depois do 1º semestre?\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1128,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1128"
+  },
+  {
+    "id": "graduacao-pedagogia-email-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D20 do cadastro na LP",
+    "titulo": "G2-L7: lembrete com o resumo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G6"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1143,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1143"
+  },
+  {
+    "id": "graduacao-pedagogia-email-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da inscrição concluída",
+    "titulo": "G2-R1: Inscrição recebida: veja o que fazer agora no Processo Seletivo 2027.1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1163,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1163"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 da inscrição concluída",
+    "titulo": "G2-R2: Oi, {primeiro_nome}. Sua inscrição foi recebida. Quer ajuda para fazer a redação?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1173,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1173"
+  },
+  {
+    "id": "graduacao-pedagogia-email-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D5 da inscrição concluída",
+    "titulo": "G2-R3: Redação e Enem no Processo Seletivo da Ufape: as dúvidas respondidas",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1182,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1182"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D9 da inscrição concluída",
+    "titulo": "G2-R4: Oi, {primeiro_nome}. O que está faltando para você fazer a redação?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1193,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1193"
+  },
+  {
+    "id": "graduacao-pedagogia-email-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D14 da inscrição concluída",
+    "titulo": "G2-R5: Depois da redação: resultado, matrícula e valor, passo a passo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1202,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1202"
+  },
+  {
+    "id": "graduacao-pedagogia-email-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do resultado com status aprovado",
+    "titulo": "G2-A1: Seu resultado do Processo Seletivo 2027.1 está no site",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1217,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1217"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+2 do resultado com status aprovado",
+    "titulo": "G2-A2: Oi, {primeiro_nome}. Sua matrícula na Pedagogia da Ufape já está aberta.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1228,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1228"
+  },
+  {
+    "id": "graduacao-pedagogia-email-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+3 do resultado com status aprovado",
+    "titulo": "G2-A3: Antes de se matricular: desconto, renovação e cancelamento em linguagem simples",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1238,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1238"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+7 do resultado com status aprovado",
+    "titulo": "G2-A5: Oi, {primeiro_nome}. A sua matrícula ainda não foi concluída. Podemos ajudar?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1250,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1250"
+  },
+  {
+    "id": "graduacao-pedagogia-email-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 ou a partir de 01/02/2027 do resultado com status aprovado",
+    "titulo": "G2-A6: Aulas começam em 22/02/2027: como concluir a sua matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1259,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1259"
+  },
+  {
+    "id": "graduacao-pedagogia-email-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da matrícula confirmada",
+    "titulo": "G2-M1: Matrícula confirmada: o que acontece até as aulas, em 22/02/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1275,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1275"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+5 da matrícula confirmada",
+    "titulo": "G2-M2: Oi, {primeiro_nome}. Lembrete: os documentos da matrícula entram pela plataforma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1286,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1286"
+  },
+  {
+    "id": "graduacao-pedagogia-email-13",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 da matrícula confirmada",
+    "titulo": "G2-M3: Seu 1º semestre de Pedagogia na Ufape: o que esperar",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1296,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1296"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "antes do vencimento da mensalidade, depois da matrícula confirmada",
+    "titulo": "G2-M4: Oi, {primeiro_nome}. A sua mensalidade vence em {data_vencimento}.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1307,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1307"
+  },
+  {
+    "id": "graduacao-pedagogia-email-14",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-M5: Segunda-feira, 22/02/2027: começam as suas aulas de Pedagogia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1318,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1318"
+  },
+  {
+    "id": "graduacao-pedagogia-email-15",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-AT1-R: Processo Seletivo 2027.1 de {nome_candidato}: o próximo passo é a redação ou o",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1333,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-AT2-R: Olá, aqui é da Faculdade UFAPE de Goiânia. Sobre o Processo Seletivo de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1342,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:307"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-13",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 do cadastro na LP",
+    "titulo": "G2-L2-R: Olá, aqui é da Faculdade UFAPE de Goiânia. Esta mensagem é para o representante",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1350,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1350"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-14",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D8 do cadastro na LP",
+    "titulo": "G2-L4-R: Olá. Esta mensagem é para o representante legal de {nome_candidato}: o que você",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G6",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1360,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1360"
+  },
+  {
+    "id": "graduacao-pedagogia-email-16",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da inscrição concluída",
+    "titulo": "G2-R1-R: Inscrição de {nome_candidato} recebida: o próximo passo é a redação ou o Enem",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1369,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1369"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-15",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D2 da inscrição concluída",
+    "titulo": "G2-R2-R: Olá, aqui é da Faculdade UFAPE de Goiânia. A inscrição de {nome_candidato} foi",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1378,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1378"
+  },
+  {
+    "id": "graduacao-pedagogia-email-17",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 do resultado com status aprovado",
+    "titulo": "G2-A1-R: O resultado de {nome_candidato} no Processo Seletivo 2027.1 está no site",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1386,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1386"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-16",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+2 do resultado com status aprovado",
+    "titulo": "G2-A4-R: Olá. Esta mensagem é para o representante legal de {nome_candidato}: a matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1396,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1396"
+  },
+  {
+    "id": "graduacao-pedagogia-email-18",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+3 do resultado com status aprovado",
+    "titulo": "G2-A3-R: Antes da matrícula de {nome_candidato}: valor, renovação e cancelamento",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1407,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1407"
+  },
+  {
+    "id": "graduacao-pedagogia-email-19",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+14 do resultado com status aprovado",
+    "titulo": "G2-A6-R: Aulas começam em 22/02/2027: o que falta na matrícula de {nome_candidato}",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G12",
+      "G7",
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1418,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1418"
+  },
+  {
+    "id": "graduacao-pedagogia-email-20",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D0 da matrícula confirmada",
+    "titulo": "G2-M1-R: Matrícula de {nome_candidato} confirmada: o que acontece até 22/02/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1429,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1429"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-17",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "D+5 da matrícula confirmada",
+    "titulo": "G2-M2-R: Olá, aqui é da Faculdade UFAPE de Goiânia. Lembrete para o representante legal",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1438,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1438"
+  },
+  {
+    "id": "graduacao-pedagogia-email-21",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "G2-M5-R: Segunda-feira, 22/02/2027: começam as aulas de {nome_candidato}",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G10"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md",
+    "linha": 1446,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md:1446"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-22",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE1 (e-mail, ter 17/11/2026, 9h): inscrições abertas e gratuitas, sem dia de prova",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 224,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:77"
+  },
+  {
+    "id": "graduacao-pedagogia-email-22",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE1 (e-mail, ter 17/11/2026, 9h): inscrições abertas e gratuitas, sem dia de prova",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 250,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:77"
+  },
+  {
+    "id": "graduacao-geral-email-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE1-R (e-mail, representante legal, G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 274,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:77"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-18",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW1 (WhatsApp, qui 19/11/2026, 10h30): o mesmo convite, para quem não abriu o KE1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 313,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:78"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-18",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW1 (WhatsApp, qui 19/11/2026, 10h30): o mesmo convite, para quem não abriu o KE1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 328,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:78"
+  },
+  {
+    "id": "graduacao-geral-whatsapp-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW1-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 343,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:78"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-19",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": "1º dia útil depois da divulgação oficial das notas do Enem 2026",
+    "titulo": "KW2 (WhatsApp, 1º dia útil depois da divulgação oficial das notas do Enem 2026, 10h30): a",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 375,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:79"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-19",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": "1º dia útil depois da divulgação oficial das notas do Enem 2026",
+    "titulo": "KW2 (WhatsApp, 1º dia útil depois da divulgação oficial das notas do Enem 2026, 10h30): a",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 389,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:79"
+  },
+  {
+    "id": "graduacao-geral-whatsapp-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": "1º dia útil depois da divulgação oficial das notas do Enem 2026",
+    "titulo": "KW2-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 403,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:79"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-23",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE2 (e-mail, ter 05/01/2027, 9h): do começo do ano até a primeira aula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 435,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:80"
+  },
+  {
+    "id": "graduacao-pedagogia-email-23",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE2 (e-mail, ter 05/01/2027, 9h): do começo do ano até a primeira aula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 460,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:80"
+  },
+  {
+    "id": "graduacao-geral-email-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE2-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 483,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:80"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-20",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-07",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW3 (WhatsApp, qui 07/01/2027, 10h30): o mesmo passo, para quem não abriu o KE2",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 521,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:81"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-20",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-07",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW3 (WhatsApp, qui 07/01/2027, 10h30): o mesmo passo, para quem não abriu o KE2",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 536,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:81"
+  },
+  {
+    "id": "graduacao-geral-whatsapp-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-07",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW3-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 551,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:81"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-21",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW4 G1 integral: aprovado sem matrícula, com o valor e as regras",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G12",
+      "G7"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 582,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:82"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-22",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW4 G1 noturno: aprovado sem matrícula, com o valor e as regras",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G12",
+      "G7",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 595,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:82"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-21",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW4 (WhatsApp, qua 03/02/2027, 10h30): aprovado sem matrícula, com o valor e as regras",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G12",
+      "G7",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 597,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:82"
+  },
+  {
+    "id": "graduacao-geral-whatsapp-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW4-R (templates grad_kit_w4_r_int, grad_kit_w4_r_not e grad_kit_w4_r_ped; o bloco LD do",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G12",
+      "G7",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 610,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:82"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-email-24",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE3 (e-mail, qui 11/02/2027, 9h): reta final para quem ainda não fez a avaliação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 645,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:83"
+  },
+  {
+    "id": "graduacao-pedagogia-email-24",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE3 (e-mail, qui 11/02/2027, 9h): reta final para quem ainda não fez a avaliação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 667,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:83"
+  },
+  {
+    "id": "graduacao-geral-email-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "KE3-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 691,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:83"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-whatsapp-23",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW5 (WhatsApp, sex 12/02/2027, 10h30): a reta final, para quem não abriu o KE3",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 726,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:84"
+  },
+  {
+    "id": "graduacao-pedagogia-whatsapp-22",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW5 (WhatsApp, sex 12/02/2027, 10h30): a reta final, para quem não abriu o KE3",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G6"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 741,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:84"
+  },
+  {
+    "id": "graduacao-geral-whatsapp-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "KW5-R (G1 e G2)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G13",
+      "G14",
+      "G10",
+      "G6",
+      "G8"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+    "linha": 756,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md:84"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-outro-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "outro",
+    "canal": "meta_ads",
+    "data": "2026-11-11",
+    "data_fim": "2026-11-13",
+    "hora": null,
+    "quando": null,
+    "titulo": "Montagem (11 a 13/11/2026, tudo em pausa): integral, por humano",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "MP10",
+      "G13"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 263,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:263"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-subida-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-11-16",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "grad_medvet-integral_meta_cadastro_amplo18_202611, fases 1 e 2 (16/11 a 03/01/2027)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "MP15"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 69,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-fase-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Trocas de fase (AM4): 07/12 (remarketing, se houver público)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "MP15"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 271,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:271"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-pausa-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "03/01/2027: pausar amplo18_202611 e rmk-lp30d_202612 (substituídas)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 275,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:275"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-subida-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "grad_medvet-integral_meta_cadastro_amplo18_202701, fases 3 e 4 (04/01 a 21/02/2027). Sobe",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "MP15"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 70,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:271"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-pausa-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-31",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "31/01/2027: pausar rmk-lp30d_202701; amplo18_202701 só se o CPL da fase 3 passou do máximo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 276,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:276"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-fase-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-01",
+    "data_fim": "2027-02-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "Trocas de fase (AM4): 01/02 (remarketing _202702, se houver público; sem público, a",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "MP15"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 271,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:271"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-subida-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "segunda-feira seguinte a MP8",
+    "titulo": "grad_medvet-noturno_meta_cadastro_amplo18_AAAAMM (BLOQUEADO: G8 e MP4, depois MP8)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "MP4",
+      "MP8",
+      "MP1",
+      "MP2",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 75,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:75"
+  },
+  {
+    "id": "graduacao-pedagogia-campanha-subida-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "dia seguinte a MP9",
+    "titulo": "grad_pedagogia_meta_cadastro_goiania18_AAAAMM (BLOQUEADO: G6, MP4 e MP1, depois MP9)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9",
+      "MP2",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 81,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:81"
+  },
+  {
+    "id": "graduacao-geral-campanha-pausa-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "22/02/2027: pausar todas as campanhas da Graduação 2027/1 (MP13)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md",
+    "linha": 277,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-graduacao-2026-10-26.md:277"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "INT-V1 v1-preco: \"A conta do 1º semestre\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G7",
+      "G12",
+      "MP1",
+      "MP2",
+      "MP4",
+      "EM1"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 161,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "INT-V2 v2-pratica: \"O que tem no 1º semestre\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "EM1"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 189,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "INT-V3 v3-entrada: \"Sua nota do Enem pode ser a sua entrada\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP4",
+      "EM1"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 217,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:107"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "INT-V4 v4-ato: \"O que a família confere antes de matricular\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G7",
+      "G12",
+      "MP1",
+      "MP2",
+      "MP4",
+      "EM1"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 245,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:108"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 do noturno, depois do desbloqueio (MP8)",
+    "titulo": "NOT-V1 v1-preco: \"Noturno com 60%\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "MP4",
+      "MP8",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 277,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:277"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 do noturno, depois do desbloqueio (MP8)",
+    "titulo": "NOT-V2 v2-noite: \"Veterinária à noite\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "MP4",
+      "MP8"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 305,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:305"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 do noturno, depois do desbloqueio (MP8)",
+    "titulo": "NOT-V3 v3-entrada: \"Enem antigo, com média mínima de 300 pontos\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "MP4",
+      "MP8"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 333,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:333"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 2 (conceito novo), depois do desbloqueio do noturno (MP8)",
+    "titulo": "NOT-V4 v4-ato: \"Antes de um curso de 5 anos\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G8",
+      "MP4",
+      "MP8",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 361,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:361"
+  },
+  {
+    "id": "graduacao-pedagogia-anuncio-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 da Pedagogia, depois do desbloqueio (MP9)",
+    "titulo": "P1 p1-noite: \"Pedagogia à noite em Goiânia\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 393,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:393"
+  },
+  {
+    "id": "graduacao-pedagogia-anuncio-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 da Pedagogia, depois do desbloqueio (MP9), se o volume permitir",
+    "titulo": "P2 p2-pratica: \"Prática Docente desde o 1º semestre\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 421,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:421"
+  },
+  {
+    "id": "graduacao-pedagogia-anuncio-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 da Pedagogia, depois do desbloqueio (MP9)",
+    "titulo": "P3 p3-preco: \"A conta do 1º semestre de Pedagogia\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 450,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:450"
+  },
+  {
+    "id": "graduacao-pedagogia-anuncio-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 1 da Pedagogia, depois do desbloqueio (MP9), se o volume permitir",
+    "titulo": "P4 p4-ato: \"O que conferir antes de matricular em Pedagogia\"",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 478,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:478"
+  },
+  {
+    "id": "graduacao-pedagogia-anuncio-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fase 2 (conceito novo), depois do desbloqueio da Pedagogia (MP9)",
+    "titulo": "P5 p5-entrada: \"Enem antigo, com média mínima de 300 pontos, e redação online\" (conceito",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G6",
+      "MP4",
+      "MP1",
+      "MP9"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+    "linha": 506,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md:506"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-outro-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "outro",
+    "canal": "google_ads",
+    "data": "2026-11-11",
+    "data_fim": "2026-11-13",
+    "hora": null,
+    "quando": null,
+    "titulo": "Duas campanhas criadas em pausa (montagem entre 11 e 13/11, MP11), Rede de Pesquisa",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 530,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:485"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-subida-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": "2027-02-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "grad_medvet-integral_google_busca_marca_202611 (Busca, marca)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 147,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-subida-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": "2027-02-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "grad_medvet-integral_google_busca_generica_202611 (Busca, genérica)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 159,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-fase-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-07",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Fase 2 (S4 a S7, 07/12/2026 a 03/01/2027): diária da seção 3, marca e genérica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 118,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:118"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-fase-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-01-31",
+    "hora": null,
+    "quando": null,
+    "titulo": "Fase 3 (S8 a S11, 04/01 a 31/01/2027): diária da seção 3, marca e genérica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 122,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:122"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-fase-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-01",
+    "data_fim": "2027-02-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "Ativos extras da fase 4 (reta final, trocar em 01/02/2027) e diária S12 a S14",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "MP12"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 331,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:331"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "RSA-M1 (campanha de marca, conceito preço) utm_content v1-preco_rsa_a_v1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 227,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "RSA-M2 (campanha de marca, conceito entrada) utm_content v3-entrada_rsa_a_v1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 253,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "RSA-G1 (campanha genérica, conceito preço) utm_content v1-preco_rsa_a_v1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14",
+      "G7",
+      "G12"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 279,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-anuncio-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "anuncio",
+    "canal": "google_ads",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "RSA-G2 (campanha genérica, conceito entrada) utm_content v3-entrada_rsa_a_v1",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "MP1",
+      "MP2",
+      "MP15",
+      "MP4",
+      "MP10",
+      "G13",
+      "G14"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 305,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:100"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-campanha-pausa-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausar as duas campanhas em 22/02/2027 (MP13), com a data de término como segunda trava",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md",
+    "linha": 556,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md:556"
+  },
+  {
+    "id": "graduacao-geral-aprovacao-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C0: Chegaram os números agregados e as metas de custo? Metas aprovadas (MP1 e MP2) antes",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md",
+    "linha": 220,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md:220"
+  },
+  {
+    "id": "graduacao-geral-aprovacao-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-11",
+    "data_fim": "2026-11-13",
+    "hora": null,
+    "quando": null,
+    "titulo": "11 a 13/11 aprovação humana e montagem (pixel, CRM, gerenciador) por humano (G15)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "G14"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 284,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:284"
+  },
+  {
+    "id": "graduacao-geral-conferencia-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Conferência de todas as peças (auditorias 06, 11 e conformidade-educacional)",
+    "status": "executado",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 217,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:217"
+  },
+  {
+    "id": "graduacao-geral-conferencia-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C1: CPL e passagem lead para inscrito por turno dentro da meta?",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md",
+    "linha": 221,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md:221"
+  },
+  {
+    "id": "graduacao-geral-conferencia-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C2: Avaliados e matrículas acumuladas por turno estão na curva para o piso de 30?",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md",
+    "linha": 222,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md:222"
+  },
+  {
+    "id": "graduacao-geral-conferencia-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C3: Projeção de matrículas por turno até 22/02 alcança 30?",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md",
+    "linha": 223,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/estrategia-de-campanha-graduacao-2026-10-26.md:223"
+  },
+  {
+    "id": "graduacao-geral-conferencia-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão das mensagens de reta final com os números reais de matrícula por turno",
+    "status": "a_fazer",
+    "trava": [
+      "G4"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 218,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:218"
+  },
+  {
+    "id": "graduacao-geral-relatorio-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-5",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-6",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-7",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-8",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-9",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-10",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-11",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-12",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-13",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-14",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-15",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-16",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-17",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal do cmo (até 300 palavras, com o relatório do gestor-de-midia)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:292"
+  },
+  {
+    "id": "graduacao-geral-relatorio-18",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": "até 05/03/2027",
+    "titulo": "Relatório final: resultado contra metas por turma, o que funcionou e o que repetir em",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 290,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:290"
+  },
+  {
+    "id": "graduacao-pedagogia-outro-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "2 dias úteis depois da confirmação",
+    "titulo": "Ciclo extra: inserir carga horária, coordenação e endereço nas peças não publicadas",
+    "status": "a_fazer",
+    "trava": [
+      "G5",
+      "G9",
+      "G6"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 258,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:258"
+  },
+  {
+    "id": "graduacao-geral-outro-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-11-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "08/11/2026 (domingo), data informada para o 1º dia do Enem 2026: sem anúncio pago no ar",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md",
+    "linha": 315,
+    "fonte_da_data": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md:315"
+  },
+  {
+    "id": "graduacao-geral-outro-2",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-11-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "15/11/2026 (domingo), data informada para o 2º dia do Enem 2026: sem anúncio pago no ar",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md",
+    "linha": 318,
+    "fonte_da_data": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md:318"
+  },
+  {
+    "id": "graduacao-geral-outro-3",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "semana da divulgação oficial das notas do Enem 2026 [CONFIRMAR]",
+    "titulo": "Semana E: divulgação das notas do Enem 2026 (versões \"use sua nota do Enem\" na Meta e na",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md",
+    "linha": 330,
+    "fonte_da_data": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md:330"
+  },
+  {
+    "id": "graduacao-geral-outro-4",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria",
+      "pedagogia"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-02-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Último dia de pedido de cancelamento com devolução de 80%",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md",
+    "linha": 336,
+    "fonte_da_data": "saidas/11-midia-paga/estrategia-de-midia-graduacao-2026-10-26.md:336"
+  },
+  {
+    "id": "graduacao-medicina-veterinaria-inicio-turma-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "medicina-veterinaria"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início das aulas: 22/02/2027 (segunda-feira), Medicina Veterinária integral e noturno",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 53,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:53"
+  },
+  {
+    "id": "graduacao-pedagogia-inicio-turma-1",
+    "bloco": "graduacao",
+    "turmas": [
+      "pedagogia"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início das aulas: 22/02/2027 (segunda-feira), Pedagogia noturno",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+    "linha": 53,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md:53"
+  }
+]
