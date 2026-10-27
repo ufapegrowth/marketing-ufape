@@ -56,3 +56,20 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 ## 4. Primeiros passos da semana (27 a 30/10), pelo backlog
 
 Páginas das provas, verba, montagem da campanha das provas em rascunho, metas em reais, teste de rastreio em 30/10, data da 698, pausa das 6 campanhas em turmas já iniciadas, aprovação do R3, política de entrada nas 12 turmas com 1ª mensalidade vencendo, exportação do gerenciador e da loja.
+
+## Onda 2 da Pós (turmas de março de 2027: 657, 341, 289, 68615, 333), pronta para a aprovação humana em 27/10/2026
+
+Tudo aprovado pelo qa-de-marketing (revisões onda2, onda2a, onda2b, onda2b2, onda2c e onda2c2). Nada sobe, é enviado, publicado ou pago sem a pessoa do marketing.
+
+| Pedido | O que aprovar | Arquivo |
+|---|---|---|
+| OB1 | Publicar as 5 páginas novas e corrigir o site no ar (frase do MEC, turma mínima 20, "reconhecimento pelo MEC" em 68615, convite da prova de Especialista em 657, itens novos da revisão onda2a) | saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md |
+| OB2 | Envio das mensagens de nutrição (2 e-mails e 5 WhatsApp por turma) | saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md |
+| OB3 | Publicar os 30 posts, os posts de docente e os 53 cards | saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md e autoridade-docente-pos-2026-10-27-onda2.md |
+| OB4 e OB5 | Gravação dos 5 Reels e produção das artes | saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md |
+| AD-F6-1 a AD-F6-5 | Grade e condições dos posts de docente | autoridade-docente-pos-2026-10-27-onda2.md |
+| AF1 a AF7, DEC1 a DEC7 | Listas, regras e automações do CRM | saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md |
+| MO1 a MO5 | Conferência de 04/12 e 11/12, subida de 657 e 341, pausa de 289 e de 333, relatório semanal | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md |
+| MO6 | Liberar a -exta de 68635, 366 e 679 | só depois do qa da nova versão de anuncios-meta-pos e anuncios-google-pos |
+
+Travas que seguram a publicação mesmo com a aprovação: endereço da política de privacidade; U11 (inscrição R$ 260,00 ou R$ 250,00); frases de resultado clínico no cronograma de 657 (regulação); CP1 (cidade no texto); U10 (657), OU10 (341), OU3 e OU12 (333), OU11 e OU17 (341 e 333); DACVAA (regulação, até 18/02); página da 68605 disputando a busca de 289.

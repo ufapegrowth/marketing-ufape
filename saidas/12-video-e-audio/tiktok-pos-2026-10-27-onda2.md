@@ -92,7 +92,7 @@ Notas (clareza, curiosidade, verdade; avaliação do agente, não medida): G1 4/
 | Tempo | Bloco | O que aparece | O que se fala | Texto na tela |
 |---|---|---|---|---|
 | 0 a 3 s | Gancho | G3 | "Só a pressão arterial não conta a história toda." | [TEXTO NA TELA: Além da pressão arterial] |
-| 3 a 10 s | Contexto | grafismo com o título 'Hemodinâmica avançada' e os termos 'débito cardíaco' e 'perfusão tecidual', sem número de módulo e sem data (não usar print do cronograma: é o 3º módulo, e a data dele é a data limite da regra 7) | "Na Pós-graduação em Anestesiologia Avançada, a hemodinâmica vai para o débito cardíaco e a perfusão tecidual." | [TEXTO NA TELA: Pós-graduação em Anestesiologia Avançada] |
+| 3 a 10 s | Contexto | grafismo com o título "Hemodinâmica avançada" e os termos "débito cardíaco" e "perfusão tecidual", sem número de módulo e sem data (não usar print do cronograma: é o 3º módulo, e a data dele é a data limite da regra 7) | "Na Pós-graduação em Anestesiologia Avançada, a hemodinâmica vai para o débito cardíaco e a perfusão tecidual." | [TEXTO NA TELA: Pós-graduação em Anestesiologia Avançada] |
 | 10 a 20 s | Virada | três cartões entrando um a um, sobre fundo escuro | "E a anestesia deixa de ser só protocolo: ventilação do paciente especial, bloqueador neuromuscular, coagulação no transoperatório." | [TEXTO NA TELA: Ventilação do paciente especial / Bloqueador neuromuscular / Coagulação no transoperatório] |
 | 20 a 29 s | Prova | grafismo com duas etiquetas, ONLINE e PRESENCIAL; sobre PRESENCIAL entram "bloqueios", "ventiladores" e "monitores hemodinâmicos"; sem pessoas | "A teoria é online. Nos módulos presenciais, a prática é guiada: bloqueios, ventiladores e monitores." | [TEXTO NA TELA: Aulas práticas não são transmitidas] |
 | 29 a 35 s | Chamada e cartão final | cartão da marca | "Veja o cronograma e os módulos de prática guiada antes de decidir." | [TEXTO NA TELA: Faculdade UFAPE / Veja o cronograma e os módulos de prática guiada antes de decidir. / @ufapevet, link na bio] |
@@ -205,7 +205,7 @@ Notas: G1 5/3/5; G2 4/3/4; G3 5/3/5. Recomendado G1 pela clareza e porque abre s
 
 ## 4. Seção 68615: Pós-graduação em Patologia Clínica (laboratório clínico)
 
-**Trava da F2 e do plano.** Nenhuma frase ligada ao órgão regulador, nenhum "referência nacional em educação", nada do bloco "PROVA DE BOLSA". O vídeo fica no vocabulário "laboratório clínico" e não cita a 333 nem compara as duas; citologia aparece só como parte do curso. Base: mensagem central, provas 1 a 3, variação 1 e chamada da F2 (seção 6), frase-ponte da seção 5.
+**Trava da F2 e do plano.** Nenhuma frase ligada ao órgão regulador, nenhum "referência nacional em educação", nada do bloco "PROVA DE BOLSA". O vídeo fica no vocabulário "laboratório clínico" e não cita a 333 nem compara as duas; citologia aparece só entre os exames do laboratório (frase-ponte corrigida, Q13). Base: mensagem central, provas 1 a 3, variação 1 e chamada da F2 (seção 6), frase-ponte da seção 5.
 
 ### 4.1 Três ganchos
 
