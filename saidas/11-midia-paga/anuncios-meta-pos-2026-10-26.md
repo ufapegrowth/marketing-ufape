@@ -3,12 +3,12 @@
 - **Agente:** anuncios-meta (departamento 11 Mídia Paga, por encomenda do gestor-de-midia e da estrategia-de-midia-pos v5)
 - **Linha:** pos
 - **Data:** 26/10/2026 (rodada); versões 3, 4 e 5 em 27/10/2026
-- **Versão:** 5. Aplica a encomenda da seção 7 da estrategia-de-midia-pos v5 (tabela 7.1 de diárias e montagem da extensão, 7.2) e a decisão 18 do CEO: 85% da verba até a data de corte de cada turma (Meta de março R$ 1.250,75 por turma; abril R$ 1.276,25) e fase de extensão de R$ 150,00 no Meta, só remarketing, com 1 peça, até a véspera do 3º módulo. Exceções da estratégia: 333 e 68632 param na véspera do módulo presencial até OU3; 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR]; excedente de 662 sai da extensão (o de 289 sai da manutenção); teto de R$ 2.000,00 por turma. A versão 4 (M1, R1 e R5 do qa-de-marketing e nota da decisão 18) e a versão 3 (que substituía a versão 2, corrigida pelo qa-de-marketing-geral-2026-10-26-loteD, com as provas e o pós-prova em percentual da verba nova VN) seguem no que esta versão não muda. Este arquivo monta só as turmas de março e abril, por turma, em reais, e guarda a montagem das provas na seção 13, marcada "suspenso (decisão 14)". O que mudou está em "Mudanças desta versão", no fim.
+- **Versão:** 5. Aplica a encomenda da seção 7 da estrategia-de-midia-pos v5 (tabela 7.1 de diárias e montagem da extensão, 7.2) e a decisão 18 do CEO: 85% da verba até a data de corte de cada turma (Meta de março R$ 1.250,75 por turma; abril R$ 1.276,25) e fase de extensão de R$ 150,00 no Meta, só remarketing, com 1 peça, até a véspera do 3º módulo. Exceções da estratégia: 333 e 68632 param na véspera do módulo presencial até OU3; 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR]; excedente de 662 sai da extensão (o de 289 sai da manutenção); teto de R$ 2.000,00 por turma. Registra também as decisões 19 (698) e 20 (provas presenciais) do CEO, sem mudar nenhuma peça (seção 13 e "Mudanças desta versão"). A versão 4 (M1, R1 e R5 do qa-de-marketing e nota da decisão 18) e a versão 3 (que substituía a versão 2, corrigida pelo qa-de-marketing-geral-2026-10-26-loteD, com as provas e o pós-prova em percentual da verba nova VN) seguem no que esta versão não muda. Este arquivo monta só as turmas de março e abril, por turma, em reais, e guarda a montagem das provas na seção 13, marcada "suspenso (decisão 14)". O que mudou está em "Mudanças desta versão", no fim.
 - **Etapa:** 1.14 da camada 1 do plano do cmo; encomenda da seção 7 da estrategia-de-midia-pos v5 (linha anuncios-meta-pos) e das seções 12.5, 12.8 e 12.9 do gestor-de-midia-pos v6, que a estratégia v5 adota. Prazos: março até 30/11/2026; abril até 30/12/2026.
 - **Status:** rascunho para a conferência do qa-de-marketing (versão 5) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha de montagem, troca de diária, início de extensão e pausa é pedido para um humano executar no Gerenciador de Anúncios, depois da aprovação (seção 12).
 - **Entradas lidas:**
   - /home/user/marketing-ufape/CLAUDE.md
-  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 18; nesta versão pesam 8, 10, 11, 12, 14, 15, 16, 17 e 18)
+  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 20; nesta versão pesam 8, 10, 11, 12, 14, 15, 16, 17, 18, 19 e 20)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 7, 8, 12 e 13; D11 e D12 mandam nos nomes e nas UTM; a seção 13, teto de mensagens, não altera a mídia paga)
   - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (versão 5: seções 2, 3, 4, 6, 7 e 8; entrada principal; tabela 7.1 e encomenda 7.2)
   - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (versão 6; cabeçalho lido; seções 12.5, 12.8 e 12.9 e 13.1 conferidas pela estratégia v5, que as adota)
@@ -110,7 +110,7 @@ AAAAMM é o mês da subida (D12): 202612 em março e 202701 em abril. Turma que 
 | Abril | 366 Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | São Paulo | pos_366-fisio_meta_lead_amplo18-sp_202701 | pos_366-fisio_meta_lead_rmk30d_202701 |
 | Abril | 662 Pós-graduação em Ortopedia Veterinária | São Paulo | pos_662-orto_meta_lead_amplo18-sp_202701 | pos_662-orto_meta_lead_rmk30d_202701 |
 
-Conjunto de cada campanha: nome da campanha + `__amplo18-sp`, `__amplo18-go` ou `__rmk30d`. Nomes de turma e praça: catálogo, seção 2. 68628, 68617 e 662 sem número de turma em qualquer peça (P5).
+Conjunto de cada campanha: nome da campanha + `__amplo18-sp`, `__amplo18-go` ou `__rmk30d`. Nomes de turma e praça: catálogo, seção 2. 68628, 68617 e 662 sem número de turma em qualquer peça (P5). A turma 698 (onda 1, início em 28 e 29/11/2026) não faz parte deste arquivo e não tem trava de "site corrigido" aqui (decisão 19).
 
 ### 3.3 Datas, corte, subida, extensão e pausa total
 
@@ -639,7 +639,7 @@ Com G = gasto até a véspera:
 
 ## 8. Travas de subida
 
-Nenhuma destas turmas sobe, nem tem campanha montada para publicação, antes da liberação escrita de quem confirma. A estrutura fica descrita neste arquivo; o humano só monta depois da liberação. Quando a trava pede liberação "da pessoa do marketing com ciência do cmo", é a mesma redação do anuncios-google.
+Nenhuma destas turmas sobe, nem tem campanha montada para publicação, antes da liberação escrita de quem confirma. A estrutura fica descrita neste arquivo; o humano só monta depois da liberação. Quando a trava pede liberação "da pessoa do marketing com ciência do cmo", é a mesma redação do anuncios-google. A turma 698 (onda 1) não consta deste arquivo e, pela decisão 19, não tem trava nem pausa por "site corrigido".
 
 | Trava | Turma | O que impede | O que muda na montagem | Quem libera |
 |---|---|---|---|---|
@@ -768,6 +768,8 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos v�
 ## 13. SUSPENSO (decisão 14): montagem das provas de bolsa e do pós-prova
 
 **Estado: suspenso. Não executar.** A decisão 14 do CEO (26/10/2026) manda não produzir peças novas das provas de bolsa nem de Livres, e as encomendas das provas ficam suspensas até nova ordem (gestor-de-midia-pos 12.8; estrategia-de-midia-pos v4, seção 1). O conteúdo abaixo é o da versão 2 deste arquivo, guardado sem apagar e sem mudar o texto. Verba aparece como percentual da verba nova da Pós (VN) e o valor em reais é VN x percentual [CONFIRMAR]. As datas (03/11, 10/11, 26/11, 27/11) e os percentuais valiam na versão 2; se o CEO retomar as provas, tudo volta a passar pelo qa-de-marketing e pela conformidade, com as datas conferidas de novo. Nada desta seção sobe, muda, pausa ou gasta. O pedido de retomada seria novo, com nova ordem do CEO. Cada subseção abaixo repete o aviso "SUSPENSO, NÃO EXECUTAR" no título (recomendação R1 do qa).
+
+**Nota da decisão 20 do CEO (27/10/2026): este texto está desatualizado e não vale.** As provas de bolsa são **presenciais**, em São Paulo e em Goiânia, e toda peça diz o campus e o local da prova da ficha. Onde o texto abaixo diz "online" (regras 13.1, estruturas, anúncios 13.6.1 a 13.6.7, o bloqueio das páginas de Goiânia e a pendência U2 de acesso online), ele foi escrito para a decisão 11 e não pode ser usado. O local de Goiânia é [CONFIRMAR]: as fichas 68640, 68642 e 68644 mostram endereço de São Paulo. **A trava AMP2 (páginas das provas dizerem "online") deixa de existir**, e o texto do AMP2 e do AMP5 na seção 13.10 fica só como histórico. O texto das provas será reescrito pela varredura da vez das provas, se o CEO retomá-las (decisão 14). Nenhuma peça desta seção sobe.
 
 ### 13.1 Regras próprias das provas [SUSPENSO, NÃO EXECUTAR] (versão 2, seção 1)
 
@@ -1036,7 +1038,7 @@ CPImax: [CONFIRMAR em PP1]. Sem ele, nenhuma campanha das provas sobe.
 |---|---|---|
 | S2 | Pixel e API de Conversões recebendo o evento escolhido na página de destino (teste de 30/10, com compra de R$ 100,00 nas provas) | obrigatório |
 | S4 | Evento de otimização certo no conjunto (compra ou início de checkout) | obrigatório |
-| S7 | Página de destino confere com o anúncio: nas provas, diz "online" (AMP2); sem endereço contraditório; Goiânia com o campus certo; Cardiologia com links corrigidos | obrigatório |
+| S7 | Página de destino confere com o anúncio: nas provas, diz "online" (AMP2, sem efeito pela decisão 20); sem endereço contraditório; Goiânia com o campus certo; Cardiologia com links corrigidos | obrigatório |
 | S8 | Página com frase de certificação ligada ao MEC: só com decisão registrada da pessoa do marketing ou com a página corrigida (estado E2) | obrigatório nas 5 provas E2 |
 | S11 | Data de término programada (26/11 nas provas) | obrigatório |
 | P1 (pausa) | Pausa aprovada antes (A-C6 nas provas, confirmada em 23/11). Pausas previstas: provas em 27/11 (término programado em 26/11, 23h59); pós-prova no fim dos 10 dias úteis [CONFIRMAR] | obrigatório |
@@ -1046,7 +1048,7 @@ CPImax: [CONFIRMAR em PP1]. Sem ele, nenhuma campanha das provas sobe.
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
 | AMP1 | Estrutura das provas da seção 13.3 (1 campanha, 3 conjuntos, orçamento no conjunto) com nomes e UTM de D11 e D12 desde 03/11, substituindo a UTM antiga do criativos e a exceção de EM2 e PP4 | D12 manda as provas no padrão, porque ainda não subiram | dentro de P1: 20,25% de VN na Meta [CONFIRMAR reais] | relatório das provas somando com as demais linhas | trocar os parâmetros de URL (não reinicia aprendizado [SUPOSIÇÃO]) | 30/10 |
-| AMP2 | Textos das provas reescritos (seções 13.6.1 a 13.6.6): "online" e campus no lugar de "presencial", endereço, documento e celular; pedido à Ufape para as 22 páginas das provas dizerem "online" antes de 03/11 | decisão 11; a página precisa entregar o que o anúncio diz | sem verba | anúncio e página coerentes | voltar ao texto anterior só se a Ufape revogar a decisão 11 | 30/10 (páginas até 02/11) |
+| AMP2 (deixa de existir, decisão 20) | Textos das provas reescritos (seções 13.6.1 a 13.6.6): "online" e campus no lugar de "presencial", endereço, documento e celular; pedido à Ufape para as 22 páginas das provas dizerem "online" antes de 03/11 | decisão 11; a página precisa entregar o que o anúncio diz | sem verba | anúncio e página coerentes | voltar ao texto anterior só se a Ufape revogar a decisão 11 | 30/10 (páginas até 02/11) |
 | AMP3 | Evento de otimização das provas: compra; troca única para início de checkout se o teste de 30/10 falhar ou não houver volume na 1ª semana | a compra de R$ 100,00 tem pouco volume por área | sem verba | campanha aprende com um evento que registra | trocar o evento (reinicia aprendizado) | 30/10 |
 | AMP4 | Posicionamentos manuais (Feed, Stories, Reels, Explorar), sem Audience Network nem Messenger | leitura por posicionamento e controle de onde a marca aparece | sem verba | menos entrega fora do Instagram e do Facebook | voltar ao automático | 30/10 |
 | AMP5 | Conjunto de Goiânia só depois de as páginas 68640, 68642 e 68644 dizerem "online" e "campus Goiânia" (o endereço de São Paulo deixa de ser o bloqueio, pela decisão 11, mas a página ainda diz presencial); Cardiologia só com os links corrigidos | página coerente com o anúncio | 2,8125% de VN no conjunto GO; enquanto bloqueado, vai para SP na mesma fase | entrega em Goiânia sem destino errado | pausar o conjunto | 31/10 |
@@ -1058,7 +1060,7 @@ CPImax: [CONFIRMAR em PP1]. Sem ele, nenhuma campanha das provas sobe.
 
 ### 13.11 Pendências e suposições próprias das provas [SUSPENSO, NÃO EXECUTAR] (versão 2)
 
-- [CONFIRMAR] U2: plataforma, acesso e regras do dia da prova online; páginas das provas atualizadas para "online" com o campus.
+- [CONFIRMAR] U2: plataforma, acesso e regras do dia da prova online; páginas das provas atualizadas para "online" com o campus. (Sem efeito pela decisão 20: as provas são presenciais; local de Goiânia [CONFIRMAR].)
 - [CONFIRMAR] U1 e U3: prazo de matrícula, canal e data do resultado, fim das inscrições; sem isso, nenhum texto cita prazo.
 - [CONFIRMAR] A-C2: turma de destino de cada prova (libera C5 e P2); U4 para as 4 provas sem turma.
 - [CONFIRMAR] Correção dos links de Cardiologia (68641 e 68642) e das páginas de Goiânia.
@@ -1118,7 +1120,7 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 
 ## Mudanças desta versão
 
-**Versão 5 (27/10/2026)**, por encomenda da seção 7 da estrategia-de-midia-pos v5 (tabela 7.1 e encomenda 7.2) e da decisão 18 do CEO:
+**Versão 5 (27/10/2026)**, por encomenda da seção 7 da estrategia-de-midia-pos v5 (tabela 7.1 e encomenda 7.2) e das decisões 18, 19 e 20 do CEO:
 
 - **Verba a 85% até o corte e extensão de 15%:** Meta de março R$ 1.250,75 por turma (frio R$ 668,95, remarketing R$ 581,80) e de abril R$ 1.276,25 (frio R$ 735,25, remarketing R$ 541,00), no lugar de R$ 1.295,00 e R$ 1.325,00; total da Meta R$ 17.740,00 (antes R$ 18.400,00), Google R$ 10.260,00, soma R$ 28.000,00. Editados: seções 0, 1, 2, 5.1, 5.2, 5.3, 5.4, 5.6, 12 (AMP13 e AMP14) e 14.1.
 - **Diárias refeitas** pela tabela 7.1 da estratégia v5: aquecimento (R$ 17,00 e R$ 4,25 em 68615, 289 e 333; R$ 34,00 e R$ 8,50 em 657 e 341; R$ 12,52 e R$ 3,13 nas de abril), manutenção de março no remarketing (R$ 6,07, antes R$ 7,14), conversão e semanas da seção 5.2; leads por semana no CPL máximo recalculados (5.3); EM14 recalculada (5.4). Nova seção 5.2b (diárias por turma, tabela 7.1) e 5.2c (soma por turma: março R$ 668,95 + R$ 581,80 = R$ 1.250,75; abril R$ 735,25 + R$ 541,00 = R$ 1.276,25; com Google, R$ 2.000,00 em cada turma; soma por diária x dias sempre abaixo do plano).
@@ -1126,8 +1128,10 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 - **Exceções da estratégia:** 333 e 68632 param na véspera do módulo presencial (26/03 e 09/04) até OU3, e com OU3 a diária é recalculada pelo saldo até 28/05 e 11/06; 679, 68635, 366 e 662 sem a data do 3º módulo não sobem a extensão e os R$ 150,00 da Meta não são gastos (nova trava na seção 8); EM14 vale também na extensão (diárias de R$ 1,41 a R$ 5,17), com os R$ 150,00 concentrados nas últimas semanas.
 - **Calendário (3.3 e 5.5):** datas de corte, subida e conversão iguais; novas colunas de início da extensão e de pausa total; pausas totais de 26/03 a 25/06; pausa do frio em 12/02, 19/02, 26/02, 05/03, 12/03, 19/03 e 26/03. AMP16 reescrito; nota da decisão 18 da seção 3.3 trocada pela decisão aplicada.
 - **289 e 662 (seção 7, AMP17 e AMP18):** aquecimento da estrutura nova de R$ 425,00 (antes R$ 500,00); o excedente sobre R$ 425,00 sai da manutenção de R$ 170,00 em 289 e da extensão de R$ 300,00 em 662; avisos e teto acima de R$ 595,00 (289) e R$ 725,00 (662), antes R$ 700,00 e R$ 500,00; conversão de R$ 1.105,00 e R$ 1.275,00, antes R$ 1.300,00 e R$ 1.500,00. Mantido o limite de R$ 500,00 do gasto atual e o teto de R$ 2.000,00 por turma prevalecendo (M1); anotado que a estratégia v5 só manda avisar nesse caso [CONFIRMAR o caminho].
-- **Cabeçalho, entradas lidas e listas** atualizados (a decisão 18 agora consta em docs/execucao-2026-10-26.md).
-- **Não mudou:** nomes de campanha, conjunto e anúncio, públicos, textos, títulos, descrições e botões, UTM dos 70 anúncios, URL de destino, travas P3, P4, U10, PP7, URL de 68617 e c3 de 662, regras de preço (nenhum preço até U11) e a seção 13 (provas, suspenso).
+- **Decisão 19 (698, Ecocardiografia, início em 28 e 29/11/2026, sem esperar a correção do site):** a 698 é da onda 1 e não consta deste arquivo; nenhuma trava ou pausa por "site corrigido" existia aqui para ela. Registrado nas seções 3.2 e 8 que a 698 não tem essa trava e que o anúncio dela usa a data de 2026. Nada mudou na estrutura.
+- **Decisão 20 (provas presenciais):** nota no topo da seção 13 dizendo que o texto das provas ("online") está desatualizado, que as provas são presenciais em São Paulo e em Goiânia, que o local de Goiânia é [CONFIRMAR] e que a trava AMP2 deixa de existir; marcas em AMP2 (13.10), S7 (13.9) e na pendência U2 (13.11). O texto das peças suspensas não foi reescrito (decisão 14: varredura da vez das provas).
+- **Cabeçalho, entradas lidas e listas** atualizados (as decisões 18, 19 e 20 constam em docs/execucao-2026-10-26.md).
+- **Não mudou:** nomes de campanha, conjunto e anúncio, públicos, textos, títulos, descrições e botões, UTM dos 70 anúncios, URL de destino, travas P3, P4, U10, PP7, URL de 68617 e c3 de 662, regras de preço (nenhum preço até U11) e o texto da seção 13 (provas, suspenso), salvo a nota e as marcas acima.
 
 **Versão 4 (27/10/2026)**, a partir do qa-de-marketing-pos-2026-10-27-campanhas.md e da decisão 18 do CEO:
 
@@ -1158,6 +1162,8 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 - Verba de R$ 2.000,00 de mídia por turma de Pós no ciclo; meta de 15 matrículas; meta em reais de 15 vezes o valor do curso; inscrição de R$ 260,00 medida separada da 1ª mensalidade; nenhuma peça cita o valor da inscrição até U11; provas de bolsa e Livres fora desta rodada (docs/execucao-2026-10-26.md, decisões 14, 15 e 16).
 - Autorização de uso de imagem e de citação de docentes, palestrantes e convidados; em divergência entre planilha e site, valem as datas da planilha; página 623 sem campanha nova (docs/execucao-2026-10-26.md, decisões 8, 10, 12 e 13).
 - Decisão 18 do CEO: a Ufape aceita matrícula na Pós até o 3º módulo; vale para todas as turmas; nenhuma peça usa urgência com essa data sem dizer a regra completa; como o aluno recupera os módulos é [CONFIRMAR OU3] (docs/execucao-2026-10-26.md, decisão 18).
+- Decisão 19 do CEO: a turma 698 (Pós-graduação em Ecocardiografia) segue com início em 28 e 29/11/2026; peças e mídia saem sem esperar a correção da página no site, que ainda mostra 2027; o anúncio diz a data de 2026 (docs/execucao-2026-10-26.md, decisão 19). A 698 é da onda 1 e não está neste arquivo.
+- Decisão 20 do CEO: as provas de bolsa são presenciais, em São Paulo e em Goiânia; toda peça diz o campus e o local da ficha; local de Goiânia [CONFIRMAR] (fichas 68640, 68642 e 68644 mostram endereço de São Paulo) (docs/execucao-2026-10-26.md, decisão 20). As provas seguem suspensas pela decisão 14.
 - 85% da verba até o corte e 15% (R$ 300,00) na extensão; Meta de março R$ 1.250,75 por turma e de abril R$ 1.276,25, Google R$ 749,25 e R$ 723,75; diárias por turma e fase; extensão de R$ 150,00 na Meta, só remarketing com 1 peça, e de R$ 150,00 no Google; EM16; excedente de 289 sai da manutenção e o de 662 da extensão; 333 e 68632 param na véspera do módulo presencial até OU3; 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR] (estrategia-de-midia-pos v5, 3.1, 3.3 a 3.6, 3.8, 6.1, 7.1, 7.2 e EM14 a EM16; gestor-de-midia-pos v6, 12.5, 12.8 e 12.9, conforme a estratégia).
 - Custo máximo por matrícula R$ 133,33; CPL máximo R$ 4,00, R$ 10,00 e R$ 18,00 (taxas [SUPOSIÇÃO ilustrativa]); rodízio com gatilho de R$ 20,00 na 1ª semana fechada; leitura com 3 dias e R$ 27,00 (estrategia-de-midia-pos v5, 2.2, 2.5 e 3.7).
 - Limites de volume por fase e na extensão, fonte única (estrategia-de-midia-pos v5, 3.6).
@@ -1203,6 +1209,7 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 - [CONFIRMAR] Procedência dos alunos por estado (para ampliar a região); base legal para listas de contatos; política de privacidade e finalidade do formulário nas 14 páginas; páginas com frase ligada ao MEC (decisão da pessoa do marketing ou correção); correção das páginas que dizem turma mínima de 20.
 - [CONFIRMAR] Se a troca de diária de 25/01 é feita no feriado; janela de atribuição da conta.
 - [CONFIRMAR] Motivo das pausas antigas das turmas de março e abril e se os 5 ângulos antigos de 68615, 68617 e 366 podem voltar (o criativos v3 não os reaproveitou).
+- [CONFIRMAR] Local da prova de bolsa em Goiânia (decisão 20; só vale se as provas forem retomadas).
 - Entregável padrão de 5 textos principais por conceito: não produzido nesta versão, por pedido de ligar os anúncios às peças aprovadas; variações só como iteração do criativos-de-anuncio.
 
 ## Fontes
