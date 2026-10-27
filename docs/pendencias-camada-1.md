@@ -21,7 +21,7 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 | Código | Pergunta |
 |---|---|
 | U1 | Em 12 fichas de prova a própria ficha traz duas versões da regra (prazo de matrícula "10 dias úteis" e "7 dias"; canal do resultado em até três versões). Qual vale? |
-| U2 | Como é a prova online: plataforma, acesso, horário e o que vale das regras de documento com foto e celular |
+| U2 | Local das provas de Goiânia (as fichas 68640, 68642 e 68644 mostram endereço de São Paulo). RESOLVIDO em 27/10/2026: as provas são presenciais, em São Paulo e em Goiânia |
 | U3 | Prazo de inscrição das provas, data do resultado, canal do recurso, regra do aprovado sem bolsa e política de ausência |
 | U4 | Turma de destino de cada prova, em especial 68652, 68649, 68653 e 68655 |
 | U5 | Depois de corrigida a 623, a 68637 continua à venda? |
@@ -44,9 +44,9 @@ Lista única do que a squad precisa de você e da Ufape para sair do planejament
 
 ## 3. Correções no site (quem administra a loja)
 
-- As 22 páginas das provas de 27/11: trocar "prova presencial" e endereço por "online" e o campus. Bloqueia toda a mídia das provas.
+- As 22 páginas das provas de 27/11: as provas são presenciais (decisão de 27/10/2026), então não há troca para "online". Falta só corrigir o endereço nas páginas de Goiânia (68640, 68642, 68644), que mostram São Paulo.
 - Página 623 (data de início "01 e 02 de agosto de 2026"), aprovada para correção.
-- Data da 698 até 28/10, ou pausa da campanha.
+- Data da 698: a página ainda mostra 2027. Pela decisão 19 a campanha segue com 28 e 29/11/2026; a correção continua pedida, sem pausa.
 - Páginas de turma que ainda dizem turma mínima de 20 (vale 15).
 - Frase de certificação ligada ao MEC em páginas de Pós e na 68614.
 - Links trocados das provas de Cardiologia (68641 e 68642).

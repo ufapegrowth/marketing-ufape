@@ -103,7 +103,7 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 | Situação | O que fazer com a campanha |
 |---|---|
 | Até a correção do site, com prazo de 28/10 às 18h | MANTER a campanha, com duas condições: (a) pausar já qualquer anúncio que cite data de início ou "2027" no texto, título ou imagem; (b) o WhatsApp de vendas recebe a orientação de confirmar a data de 28/11/2026 ao candidato [CONFIRMAR com a Ufape]. Nenhum anúncio novo, nenhum aumento de verba |
-| Site não corrigido até 28/10 às 18h | PAUSAR a campanha até a correção. A página de destino não entrega o que a turma é (item "página de destino" da conformidade; risco de promessa errada pelo CDC) |
+| Site ainda com 2027 | REVOGADO pela decisão 19 do CEO (27/10/2026): a campanha de 698 segue com início em 28 e 29/11/2026. Os anúncios dizem a data de 2026 no texto e o time de vendas confirma a quem perguntar; a correção da página continua pedida |
 | Site corrigido | MANTER; seguir o calendário de reta final da seção 5 e pausar na data de início (28/11) ou na data de corte confirmada |
 
 ### 2.3 O que conferir no gerenciador

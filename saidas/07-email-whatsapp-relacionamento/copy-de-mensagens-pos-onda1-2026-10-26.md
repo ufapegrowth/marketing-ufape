@@ -29,7 +29,7 @@
 1. **Objetivo de cada mensagem.** Antes do início: concluir a matrícula na turma, pela página dela. Depois do início: falar com o time para entender como entrar na turma (a matrícula vale até o 3º módulo). Um objetivo e uma chamada para ação por mensagem.
 2. **Regra da decisão 18.** Depois do início, toda mensagem que fala de entrada diz a regra inteira: "A turma começou em [data]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." A data do 3º módulo nunca aparece sozinha nem com "corra", "só até", "últimas vagas" ou contador. Nenhuma mensagem promete reposição, gravação ou aula extra (OU3 em aberto). Antes do início, a mensagem usa a data de início e não cita o 3º módulo.
 3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e como fica o pagamento de quem entra depois dela está em aberto (OU8). A frase saiu de todas as mensagens.
-4. **Trava de 698.** Nenhuma mensagem de 698 sai antes de a página mostrar o início em 28 e 29/11/2026 (hoje mostra "28 e 29 de Novembro de 2027"). Sem a correção até 28/10, 18h, nada de 698 sai.
+4. **698 liberada (decisão 19 do CEO, 27/10/2026).** As mensagens de 698 saem com o início em 28 e 29/11/2026, mesmo com a página ainda mostrando "28 e 29 de Novembro de 2027". A correção da página continua pedida (OA10); o time de vendas usa a nota da seção 7 para quem perguntar.
 5. **Módulo 1 online (C1).** Em todas as turmas o módulo 1 é online. Toda mensagem diz "começa em DD/MM/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo" (ou "começou em", depois do início) e cita o 1º presencial. Nos e-mails depois do início, a mensagem diz quais módulos em curso são online e onde é o primeiro presencial (M2 do qa).
 6. **Sem preço, bolsa, prova, MEC ou certificação, "últimas vagas" ou número de vagas.** Turma mínima sem número. Nenhuma promessa de reposição.
 7. **Condições de envio (plano do cmo, regra 9 e OU9).** As páginas das turmas ainda não passam em conformidade (A7, A12 e A13, e A6 em 698). O envio depende da decisão humana registrada no OA9 [CONFIRMAR com a regulação se pode sair antes da troca da frase do MEC]. Mensagem depois do início depende também de a turma estar "aberto" no catálogo (OU9).
@@ -52,7 +52,7 @@ Não há follow-up separado: o toque seguinte do OA9 de cada turma faz esse pape
 
 | Quando | ID | Canal | Turma | Observação |
 |---|---|---|---|---|
-| qua 28/10, 9h | T1 | E-mail | 698, 68610, 68608, 707, 68604, 68606 | 698 só com o site corrigido (se corrigir até 18h, sai até 18h30) |
+| qua 28/10, 9h | T1 | E-mail | 698, 68610, 68608, 707, 68604, 68606 | 698 incluída (decisão 19) |
 | qui 29/10, 10h | T2 | WhatsApp | as mesmas 6 | idem |
 | sex 06/11, 10h | W2 | WhatsApp | 68606 | véspera do início (07/11) |
 | ter 10/11, 10h | W2 | WhatsApp | 707 | depois do início (30/10) |
@@ -176,7 +176,7 @@ Ficha: semipresencial, 370 h, 12 módulos, "aberto". Módulo 1 (28 e 29/11) onli
 
 - **Chamada para ação (única):** botão para https://faculdade.ufape.com.br/produto/698/pos-graduacao-em-ecocardiografia?utm_source=email&utm_medium=crm&utm_campaign=pos_698_202610&utm_content=t1-698
 - **Follow-up:** o toque seguinte do OA9 (WhatsApp em 29/10, e depois 04/11, 18/11 e 25/11 e e-mail em 12/11, no lote 3).
-- **Data e horário de envio:** qua 28/10, 9h (698 só com o site corrigido)
+- **Data e horário de envio:** qua 28/10, 9h (698 incluída, decisão 19)
 - **Opt-in de WhatsApp confirmado:** não se aplica
 - **Template aprovado pela Meta:** não se aplica
 - **Forma de sair:** descadastro em um clique no rodapé
@@ -960,7 +960,7 @@ Entram na conta os toques principais já agendados: Workshop M1 ou M2 por e-mail
 | Interesse em 68606 e 698, 68610 ou 68608 | só 68606 | só 68606 | - | 1 | 1 | Sim; 68606 começa em 07/11, antes das de 28/11 |
 | Também na base da Graduação | T1, se a Graduação não enviou e-mail no dia | T2 só se a Graduação não enviou WhatsApp nos 3 dias úteis anteriores | - | 1 | 0 ou 1 | Sim, com teto de 3 por semana e 1 WhatsApp a cada 3 dias úteis [CONFIRMAR as datas da Graduação com o arquiteto-de-fluxos] |
 
-**29/10, área A2 (decidido pelo cmo, seção 11, choque 1).** Sai o T2 da 698 em 29/10, 10h, só com o site corrigido até 28/10, 18h. O 68665 não envia, porque Livres está suspenso pela decisão 14. Se a Ufape liberar Livres antes de 29/10, vale a remarcação da seção 11 do plano do cmo (o 68665 fica com 29/10 e o T2 da 698 passa para 03/11, 10h), num ciclo extra do cmo antes do envio.
+**29/10, área A2 (decidido pelo cmo, seção 11, choque 1).** Sai o T2 da 698 em 29/10, 10h (liberado pela decisão 19). O 68665 não envia, porque Livres está suspenso pela decisão 14. Se a Ufape liberar Livres antes de 29/10, vale a remarcação da seção 11 do plano do cmo (o 68665 fica com 29/10 e o T2 da 698 passa para 03/11, 10h), num ciclo extra do cmo antes do envio.
 
 ### 8.2 Toques posteriores de 707, 68604 e 68606 contra o que já está agendado
 
@@ -1012,6 +1012,9 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 ## Mudanças desta versão
 
+**Versão 5.1 (27/10/2026), decisão 19 do CEO**
+- A trava da 698 saiu: as mensagens de 698 saem em 28 e 29/10 com o início em 28 e 29/11/2026, mesmo antes da correção da página. Nenhum corpo de mensagem mudou.
+
 **Versão 5 (27/10/2026), correções D1 e D2 do qa rodada d**
 - **D1:** UTM com o mês do primeiro envio da turma, igual em todos os toques (pos_<código>_202610 nas 6 turmas): seção 1.5, link do W2 de 68606 e autoconferência.
 - **D2:** provas de bolsa, Livres, 616 e 68665 não enviam (decisão 14; seção 11 do plano do cmo): seção 1.2 (teto e contagem), W2 de 68606, seção 8.1 (contagem e 29/10 na área A2), tabela 8.2 refeita, [SUPOSIÇÃO] e [CONFIRMAR].
@@ -1057,7 +1060,7 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 ## [SUPOSIÇÃO]
 
-- Horários de envio (e-mail 9h; WhatsApp 10h) e janela de até 18h30 de 28/10 para o T1 de 698 se o site for corrigido durante o dia.
+- Horários de envio (e-mail 9h; WhatsApp 10h) .
 - Ganchos de cada turma: hipóteses das casas de mensagens A2, A5, A6, A8, A9 e A11, sem citação real de candidato.
 - Abreviação "Pós-graduação em Diagnóstico por Imagem" em assuntos e primeiras linhas de 68604.
 - Palavra de resposta "TURMA" como chamada do WhatsApp depois do início.
@@ -1070,7 +1073,7 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 - OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU4 (vagas, turma confirmada, nova turma, registro de interesse), OU6 (3º módulo: até a véspera ou inclusive o 1º dia), OU7 (dia do módulo 2 de 68604), OU8 (pagamento da 1ª mensalidade de quem entra depois do início) e OU9 (status "aberto" no catálogo depois do início).
 - Titulação de Juliana Jorge (coordenação de 707) pela Ufape.
 - Regras do estágio de 68606 (a ficha cita "Estágios com a cooperação em suas clínicas/hospitais"); as mensagens não citam.
-- Correção da data de 698 no site até 28/10, 18h (A6); frase do MEC e "CERTIFICAÇÃO DO MEC" (A7); turma mínima 15 nas páginas (A12); regra do 3º módulo nas páginas (A13); se as mensagens podem sair antes da troca da frase do MEC (regulação).
+- Correção da data de 698 no site, sem bloquear o envio (A6, decisão 19); frase do MEC e "CERTIFICAÇÃO DO MEC" (A7); turma mínima 15 nas páginas (A12); regra do 3º módulo nas páginas (A13); se as mensagens podem sair antes da troca da frase do MEC (regulação).
 - U11 (inscrição de R$ 260,00 contra matrícula de R$ 250,00) e U11a (API oficial do WhatsApp).
 - Pré-requisito de 698 [CONFIRMAR NO CATÁLOGO].
 - Datas de envio da Graduação no CRM e se a decisão 14 muda para provas e Livres (ativa as remarcações condicionais da seção 11 do plano do cmo).
