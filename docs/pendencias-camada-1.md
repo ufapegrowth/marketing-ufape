@@ -73,3 +73,16 @@ Tudo aprovado pelo qa-de-marketing (revisões onda2, onda2a, onda2b, onda2b2, on
 | MO6 | Liberar a -exta de 68635, 366 e 679 | só depois do qa da nova versão de anuncios-meta-pos e anuncios-google-pos |
 
 Travas que seguram a publicação mesmo com a aprovação: endereço da política de privacidade; U11 (inscrição R$ 260,00 ou R$ 250,00); frases de resultado clínico no cronograma de 657 (regulação); CP1 (cidade no texto); U10 (657), OU10 (341), OU3 e OU12 (333), OU11 e OU17 (341 e 333); DACVAA (regulação, até 18/02); página da 68605 disputando a busca de 289.
+
+## Mídia paga das turmas de março e abril de 2027, pronta para a aprovação humana em 27/10/2026
+
+Aprovada pelo qa-de-marketing (revisões midia-d a f, onda3c e onda3d). Nada sobe ou é pago sem a pessoa do marketing.
+
+| Pedido | O que aprovar | Arquivo |
+|---|---|---|
+| AMP13 a AMP25 | Campanhas Meta das 14 turmas (13 ativas; 662 pausada até OU18), extensão em duas peças, plantão de sábado e feriado | saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md (v7) |
+| AGP12 a AGP25 | Campanhas de Busca das mesmas turmas, mesmas datas e regras | saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md (v7) |
+| PP16 e MO6 | Plano de abril e liberação da -exta de 68635, 679 e 366 | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (v7) e gestor-de-midia-pos-2026-10-27-onda2.md |
+| OM1 a OM7 | Conferência das páginas de abril, pausa de 662 (com ciência do cmo), execução em sábado e feriado, plano de maio | saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md |
+
+Verba: R$ 2.000,00 por turma (Meta 17.740,00 e Google 10.260,00 nas 14 turmas; 662 com a verba reservada). Travas: OU3 (333 e 68632 só com a -exta nova e mídia parando na véspera do início), dia do 3º módulo (68635, 679 e 366 sem -extb), OU18 (662), páginas corrigidas (OB1 e OC1).
