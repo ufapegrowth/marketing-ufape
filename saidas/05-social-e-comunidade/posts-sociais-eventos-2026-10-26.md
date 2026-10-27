@@ -329,7 +329,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 >
 > Detalhes na página do evento. Link na bio.
 
-  Sem [T] liberado, o corpo fica só com o bloco "Workshop Presencial" e a frase do cupom referida ao presencial. A primeira linha do corpo e o "Ponto de vista" também são [T]: sem [T], a primeira linha vira "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: presencial, sexta e sábado." e o "Ponto de vista" vira "O post diz o que cada dia inclui."
+  Sem [T] liberado, o corpo fica só com o bloco "Workshop Presencial" e a frase do cupom referida ao presencial. A primeira linha do corpo e o "Ponto de vista" também são [T]: sem [T], a primeira linha vira "Workshop Brasileiro de Neuromonitorização: presencial, sexta e sábado." e o "Ponto de vista" vira "O post diz o que cada dia inclui."
 - **Ponto de vista:** [T] A escolha é entre ir e praticar, ou acompanhar a base e rever na gravação. O post diz claramente o que cada ingresso não inclui, para ninguém comprar achando que é o evento completo. Sem [T]: O post diz o que cada dia inclui.
 - **Linha final ou pergunta:** Qual modalidade combina melhor com a sua agenda de 20 e 21/11? (Sem [T]: Qual parte do programa você quer ver de perto?)
 - **Texto para a arte (carrossel):**
