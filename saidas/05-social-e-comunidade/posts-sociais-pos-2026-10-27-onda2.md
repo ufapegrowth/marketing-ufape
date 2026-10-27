@@ -132,8 +132,8 @@ Regra de trabalho [SUPOSIÇÃO]: até 2 sequências de Stories por dia da Pós (
 
 | Data | Sequência da onda 2 | Outras sequências conhecidas no dia |
 |---|---|---|
-| qui 10/12 | 68615-S1 | docente da S7, se houver (AD-A2-1 em S7) |
-| sex 11/12 | 289-S1 | AD-A2-1, se cair neste dia |
+| qui 10/12 | 68615-S1 | AD-A2-1 (289), se não sair em 08/12 |
+| sex 11/12 | 289-S1 | nenhuma (AD-A2-1 nunca em 11/12, regra 4.4 do F6) |
 | qui 17/12 | 333-S1 | - |
 | sex 18/12 | 341-S1 (só com OU10) | - |
 | sex 08/01 | 289-S2 | - |
@@ -141,13 +141,13 @@ Regra de trabalho [SUPOSIÇÃO]: até 2 sequências de Stories por dia da Pós (
 | sex 15/01 | 341-S2 (só com OU10) | - |
 | ter 19/01 | 333-S2 | - |
 | qui 21/01 | 657-S1 | - |
-| sex 12/02 | 657-S2 | docente (reserva C19) |
-| qui 04/03 | 333-S3 | docente (reserva C19) |
-| qui 11/03 | 657-S3 | docente (reserva C19) |
-| ter 16/03 | 289-S3 | docente (reserva C19) |
-| qui 18/03 | 68615-S3 | docente (reserva C19) |
+| sex 12/02 | 657-S2 | docente de 341 (S06 do F6), só com OU10 |
+| qui 04/03 | 333-S3 | docente de 341 (S12 do F6), só com OU10 |
+| qui 11/03 | 657-S3 | docente de 68615 (S14 do F6) |
+| ter 16/03 | 289-S3 | docente de 341 (S15 do F6), só com OU10 |
+| qui 18/03 | 68615-S3 | docente de 289 (S16 do F6) |
 | sex 19/03 | 341-S3 (só com OU10) | - |
-| qui 25/03 | 333-S4 | - |
+| qui 25/03 | 333-S4 | docente de 289 (S18 do F6) |
 | qui 15/04 | 341-S4 (só com OU10) | - |
 | qui 22/04 | 657-S4 | - |
 | qui 29/04 | 289-S4 | - |
@@ -157,7 +157,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 
 ### 2.3 Reserva dos cards de docente (C19) e do pós-início
 
-- **Reservados para o F6, sem uso nesta entrega:** as sequências de docente de 25/01 em diante (C19). Capacidade: 2 sequências por semana (plano 4.6), de 26/01 a 19/03, ou seja 8 semanas e 16 sequências, em terça e quinta [SUPOSIÇÃO de dias]. As 20 sequências do plano (657: 6; 341: 3; 289: 5; 68615: 6) não cabem todas antes de 19/03, e o que sobrar sai depois do início com a regra completa (4.6 do plano). Este arquivo só coloca as suas sequências nos dias que não tiram uma delas: cada dia de turma da onda 2 acima soma uma sequência de turma a uma de docente, no máximo 2 no dia.
+- **Reservados para o F6, sem uso nesta entrega:** as sequências de docente de 25/01 em diante (C19). Capacidade: 2 sequências por semana (plano 4.6), em terça e quinta, de 26/01 a 06/04 (S01 a S21 do F6, seção 4.2), mais as reservas R1 a R13 até 20/05 (F6, seção 4.3). As 20 sequências do plano (657: 6; 341: 3; 289: 5; 68615: 6) não cabem todas antes de 19/03, e o que sobrar sai depois do início com a regra completa (4.6 do plano). Este arquivo só coloca as suas sequências nos dias que não tiram uma delas: cada dia de turma da onda 2 acima soma uma sequência de turma a uma de docente, no máximo 2 no dia.
 - **Pós-início (4 sequências, abril e maio):** cada uma cai de 1 a 2 dias depois do WhatsApp pós-início da turma (7.3 do plano: 341 em 14/04, 657 em 20/04, 289 em 27/04, 68615 em 05/05) e dentro da janela da turma (341 até 30/04; 657 e 68615 até 21/05; 289 até 14/05). 333 não tem pós-início até OU3.
 
 ### 2.4 Grade proposta para a Pós de 25/01 a 06/05 (a estrategia-social termina em 24/01), dentro do D5
@@ -165,17 +165,17 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 | Item | Proposta |
 |---|---|
 | Feed | 3 por semana (A terça, B quinta, C sexta), 1 por dia, turno da manhã [SUPOSIÇÃO]. Sem slot em 25/01 (segunda), 09/02 (Carnaval, terça), 10/02 (Cinzas) e 26/03 (Paixão). A semana de 08 a 12/02 fica com 2 slots (11 e 12/02) |
-| Reserva por onda | 26/01 a 28/02: onda 2 nos 6 slots da tabela 2.1 (02/02, 11/02, 12/02, 16/02 e 23/02, mais 05/01 em janeiro); o resto, ondas 1 e 3. De 01/03 em diante: todos os slots para a onda 3, e a onda 2 só com Stories |
+| Reserva por onda | 26/01 a 28/02: onda 2 nos 5 slots de feed da tabela 2.1 (02/02, 11/02, 12/02, 16/02 e 23/02) e nos 5 Reels do F9 (28/01, 29/01, 05/02, 19/02 e 26/02); o resto, ondas 1 e 3. De 01/03 em diante: todos os slots para a onda 3, e a onda 2 só com Stories |
 | Slot A, B e C | A: turma e oferta; B: educativo e guia de área; C: Reel e docente. A troca de tipo em um slot é decisão do cmo |
 | Stories | terça, quinta e sexta, até 2 sequências por dia; quarta opcional nas semanas de 08 a 12/03, 15 a 19/03 e 22 a 25/03 |
-| Reserva de docente (C19) | 2 sequências por semana, terça e quinta, de 26/01 a 19/03, para o F6 |
+| Reserva de docente (C19) | 2 sequências por semana, terça e quinta, de 26/01 a 06/04 (S01 a S21), mais R1 a R13 até 20/05, para o F6 |
 | Semana de início das turmas (15 a 26/03) | feed todo para a onda 3; Stories da onda 2 nos dias da seção 2.2; nenhum post da onda 2 em 26/03 |
 | Corte se a U8 trouxer menos horas | primeiro os evergreens e os slots livres; depois o feed vira Stories (estrategia-social, 3.3); o mínimo da Pós é 2 de feed e 2 dias de Stories por semana; nunca sai a resposta a comentários e directs |
 
 ---
 
 
-**Nota do orquestrador (27/10/2026, qa onda2b, seção 3):** a reserva de slots de docente vai até 06/04/2027, e não só até 19/03, porque o F6 usa S17 a S21 (23/03 a 06/04) e as reservas R1 a R13; a grade do feed e dos Stories registra o docente em 25/03 e nos outros dias da tabela 4.2 do F6. Em 16/03 o docente é de 341 (S15) e em 18/03 de 289 (S16), sem Stories de 289 no mesmo dia que a sequência de docente de 289. O AD-A2-1 sai em 10/12 ou 08/12, nunca em 11/12 (dia do 289-S1).
+**Nota do orquestrador (27/10/2026, qa onda2b, seção 3):** a reserva de slots de docente vai até 06/04/2027, e não só até 19/03, porque o F6 usa S17 a S21 (23/03 a 06/04) e as reservas R1 a R13; a grade do feed e dos Stories registra o docente em 25/03 e nos outros dias da tabela 4.2 do F6. Em 16/03 o docente é de 341 (S15) e em 18/03 de 289 (S16), sem Stories de 289 no mesmo dia que a sequência de docente de 289. O AD-A2-1 sai em 10/12 ou 08/12, nunca em 11/12 (dia do 289-S1). Reels do F9 (1 por turma, feed): 341 em qui 28/01 (slot B, só com OU10; sem OU10 o slot fica livre), 68615 em sex 29/01, 289 em sex 05/02, 657 em sex 19/02 e 333 em sex 26/02 (slots C), todos livres na tabela 2.1; nenhuma semana passa de 2 feeds da onda 2 [SUPOSIÇÃO do qa na revisão onda2c, o cmo pode trocar].
 
 ## 3. Seção 657: Pós-graduação em Anestesiologia Avançada
 
@@ -186,18 +186,18 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Linha:** Pós-graduação | **Curso:** Pós-graduação em Anestesiologia Avançada (657) | **Plataforma:** Instagram; Facebook reaproveita | **Pilar:** S2, prática e ementa
 - **Gancho (linha 1):** Além da pressão arterial: o que o módulo de hemodinâmica avançada trata? (A1-08)
 - **Ganchos alternativos (2):**
-  1. Débito cardíaco e perfusão tecidual: o módulo 3 coloca os dois no centro.
-  2. O módulo 3 da Anestesiologia Avançada trata de status cardiovascular além da pressão arterial.
+  1. Débito cardíaco e perfusão tecidual: o módulo de hemodinâmica avançada coloca os dois no centro.
+  2. Um módulo online da Anestesiologia Avançada trata de status cardiovascular além da pressão arterial.
 - **Texto da arte:**
   - Card 1: "Além da pressão arterial" | "Pós-graduação em Anestesiologia Avançada"
-  - Card 2: "Módulo 3 (online)" | "Hemodinâmica avançada: interpretação, intervenção e tomada de decisão"
+  - Card 2: "Módulo online" | "Hemodinâmica avançada: interpretação, intervenção e tomada de decisão"
   - Card 3: "O foco" | "Débito cardíaco e perfusão tecidual"
   - Card 4: "Aulas práticas e presenciais não são transmitidas nem disponibilizadas depois"
   - Card 5: "Turma II | São Paulo | semipresencial | 360 h | 18 módulos" | "Aulas a partir de 13/03/2027" | "Cronograma na página da turma"
 - **Corpo (legenda):**
   > Além da pressão arterial.
   >
-  > O módulo 3 da Pós-graduação em Anestesiologia Avançada trata de hemodinâmica avançada: interpretação, intervenção e tomada de decisão.
+  > Um dos módulos online da Pós-graduação em Anestesiologia Avançada trata de hemodinâmica avançada: interpretação, intervenção e tomada de decisão.
   >
   > O foco está no status cardiovascular, com débito cardíaco e perfusão tecidual.
   >
@@ -211,7 +211,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/657/pos-graduacao-em-anestesiologia-avancada?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_657_202612&utm_content=657-f1
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** texto só da ficha (módulo 3 e aviso de aulas práticas); sem pré-requisito; sem resultado clínico. [REVISÃO DOCENTE] se alguém acrescentar explicação clínica ao card 3.
+- **Conferência:** texto só da ficha (tema do 3º módulo, sem o número e sem a data, regra 5; aviso de aulas práticas); sem pré-requisito; sem resultado clínico. [REVISÃO DOCENTE] se alguém acrescentar explicação clínica ao card 3.
 
 ### 657-S1 | quinta 21/01/2027 | Stories | 3 telas
 
@@ -355,7 +355,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Texto da arte:**
   - Card 1: "Do paciente crítico ao potro neonato" | "Pós-graduação em Medicina Interna Equina"
   - Card 2: "Começa pela clínica do paciente equino" | "Módulo 1: abordagem clínica | Módulo 2: princípios farmacológicos"
-  - Card 3: "Módulo 3: paciente crítico" | "Choque, resposta inflamatória sistêmica, monitoramento hemodinâmico e cuidados intensivos"
+  - Card 3: "Paciente crítico" | "Choque, resposta inflamatória sistêmica, monitoramento hemodinâmico e cuidados intensivos"
   - Card 4: "Módulo 5: cardiologia, com eletrocardiograma e ecocardiograma" | "Módulo 8: sistema locomotor"
   - Card 5: "Módulo 9: neonatologia" | "Módulo 12: UTI neonatal"
   - Card 6: "Turma I | semipresencial | 500 h | 24 módulos" | "Aulas a partir de 20/03/2027" | "Cronograma completo na página da turma"
@@ -372,7 +372,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Chamada para ação:** Veja o cronograma e as parcelas, total e matrícula na página da turma. Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/341/pos-graduacao-em-medicina-interna-equina?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_341_202612&utm_content=341-f1
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** sem a data do módulo 3 (é a data limite) e sem o formato dos módulos; sem local; sem promoção. A frase "Teoria online e práticas presenciais aos finais de semana" é da ficha e não diz onde.
+- **Conferência:** sem o número e a data do módulo 3 (é a data limite, regra 5) e sem o formato dos módulos; sem local; sem promoção. A frase "Teoria online e práticas presenciais aos finais de semana" é da ficha e não diz onde.
 
 ### 341-S2 | sexta 15/01/2027 | Stories | 3 telas | só com OU10
 
@@ -410,7 +410,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Corpo (legenda):**
   > Atende a campo e não pode parar toda hora?
   >
-  > O cronograma da Pós-graduação em Medicina Interna Equina tem 24 módulos em fins de semana, do primeiro (20 e 21/03/2027) ao último (17 e 18/02/2029), que traz estágio obrigatório e atividades complementares. A teoria é online. As datas dos módulos práticos estão publicadas na página antes de começar.
+  > O cronograma da Pós-graduação em Medicina Interna Equina tem 24 módulos em fins de semana, do primeiro (20 e 21/03/2027) ao último (17 e 18/02/2029), que traz estágio obrigatório e atividades complementares. A teoria é online. As datas dos 24 módulos estão publicadas na página antes de começar.
   >
   > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
   >
@@ -420,7 +420,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Chamada para ação:** Veja as datas e as parcelas, total e matrícula na página da turma. Link na bio.
 - **Link:** https://faculdade.ufape.com.br/produto/341/pos-graduacao-em-medicina-interna-equina?utm_source=instagram&utm_medium=organic_social&utm_campaign=pos_341_202612&utm_content=341-f2
 - **Visual e autorização:** V1; não se aplica.
-- **Conferência:** não diz quantos módulos são presenciais nem onde (OU11); a "alteração de cronograma" é aviso da ficha; sem promoção. Datas de 20/03 e 01/05/2027 e 17 e 18/02/2029 ficam sujeitas à OU17 [CONFIRMAR].
+- **Conferência:** não diz quantos nem quais módulos são presenciais, nem onde (OU11); a "alteração de cronograma" é aviso da ficha; sem promoção. Datas de 20/03 e 01/05/2027 e 17 e 18/02/2029 ficam sujeitas à OU17 [CONFIRMAR].
 
 ### 341-S3 | sexta 19/03/2027 | Stories | 3 telas | semana anterior ao início | só com OU10
 
@@ -631,7 +631,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 
 ## 7. Seção 68615: Pós-graduação em Patologia Clínica
 
-**Dados da turma (catálogo e ficha):** turma VII, São Paulo, semipresencial, 500 h, 24 módulos, início em 20/03/2027 (módulo 1 online em 20 e 21/03). 3º módulo em 22 e 23/05/2027. Mídia e matrícula até 21/05. Foco: o laboratório clínico do pré-analítico ao laudo; a citologia é uma das partes, nunca o foco. Sem frase ligada ao órgão regulador, sem "referência nacional em educação", sem comparação com 333 (a frase-ponte da F2, seção 5, é o único texto sobre a diferença). CEP da ficha [CONFIRMAR OU13]: nenhum endereço aparece nas artes.
+**Dados da turma (catálogo e ficha):** turma VII, São Paulo, semipresencial, 500 h, 24 módulos, início em 20/03/2027 (módulo 1 online em 20 e 21/03). 3º módulo em 22 e 23/05/2027. Mídia e matrícula até 21/05. Foco: o laboratório clínico do pré-analítico ao laudo; a citologia entra entre os exames do laboratório, nunca como foco (frase-ponte corrigida, Q13 da revisão onda2a). Sem frase ligada ao órgão regulador, sem "referência nacional em educação", sem comparação com 333 (a frase-ponte da F2, seção 5, é o único texto sobre a diferença). CEP da ficha [CONFIRMAR OU13]: nenhum endereço aparece nas artes.
 
 ### 68615-S1 | quinta 10/12/2026 | Stories | 3 telas
 
@@ -686,10 +686,10 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Gancho (linha 1):** Patologia clínica ou citopatologia? A escolha depende do trabalho que você quer fazer na rotina.
 - **Ganchos alternativos (2):**
   1. Duas pós de laboratório, dois focos: veja a diferença.
-  2. Laboratório clínico inteiro ou leitura de lâminas? Entenda a diferença.
+  2. Laboratório clínico ou leitura de lâminas? Entenda a diferença.
 - **Texto da arte (telas):**
   - Tela 1: "Patologia clínica ou citopatologia?"
-  - Tela 2: "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes."
+  - Tela 2: "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório."
   - Tela 3: "A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina." | figurinha de link
 - **Corpo:** só a arte. Sem legenda.
 - **Ponto de vista:** a escolha entre as duas é de foco de trabalho, não de valor.
@@ -710,7 +710,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
   - Card 1: "Serve para clínico ou só para quem trabalha em laboratório?" | "Pós-graduação em Patologia Clínica"
   - Card 2: "O público da turma são médicas e médicos veterinários"
   - Card 3: "O foco é o laboratório clínico. A correlação clínico-laboratorial atravessa o curso: do pedido do exame à leitura do laudo"
-  - Card 4: "Teoria online e módulos presenciais de prática: automação e hemograma, bioquímica e urina, mielograma, coleta e confecção de lâminas e microbiologia"
+  - Card 4: "Teoria online e módulos presenciais de prática, entre eles automação e hemograma, bioquímica e urina, mielograma, coleta e confecção de lâminas e microbiologia"
   - Card 5: "Aulas presenciais não são transmitidas" | "A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada"
   - Card 6: "Veja o cronograma e as parcelas, total e matrícula na página da turma"
 - **Corpo (legenda):**
@@ -718,7 +718,7 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
   >
   > O público da turma são médicas e médicos veterinários. O foco da Pós-graduação em Patologia Clínica é o laboratório clínico, e a correlação clínico-laboratorial atravessa o curso: do pedido do exame à leitura do laudo.
   >
-  > A teoria é online e há módulos presenciais de prática: automação e hemograma, bioquímica e urina, mielograma, coleta e confecção de lâminas e microbiologia. As aulas presenciais não são transmitidas.
+  > A teoria é online e há módulos presenciais de prática, entre eles automação e hemograma, bioquímica e urina, mielograma, coleta e confecção de lâminas e microbiologia. As aulas presenciais não são transmitidas.
   >
   > A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
   >
@@ -828,10 +828,10 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 - **Gancho (linha 1):** Citopatologia ou patologia clínica? A escolha depende do trabalho que você quer fazer na rotina.
 - **Ganchos alternativos (2):**
   1. Duas pós de laboratório, dois focos: veja a diferença.
-  2. Leitura de lâminas ou laboratório clínico inteiro? Entenda a diferença.
+  2. Leitura de lâminas ou laboratório clínico? Entenda a diferença.
 - **Texto da arte (telas):**
   - Tela 1: "Citopatologia ou patologia clínica?"
-  - Tela 2: "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes."
+  - Tela 2: "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório."
   - Tela 3: "A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina." | figurinha de link
 - **Corpo:** só a arte. Sem legenda.
 - **Ponto de vista:** a escolha entre as duas é de foco de trabalho, não de valor.

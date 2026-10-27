@@ -265,7 +265,7 @@ Observação sobre 11 a 17/01 (b): a F7 só contou essa semana com um quarto toq
 
 | Turma | G | U | T | Total | Motivo das notas (dado e fonte) |
 |---|---|---|---|---|---|
-| 341 | 5 | 4 | 4 | **80** | G: meta em reais de R$ 652.500,00, a maior das três (plano, seção 1). U: início em 20/03, mesma data das outras duas, e a janela de matrícula depois do início é a mais curta (3º módulo em 01/05, 42 dias depois). T: turma I, sem histórico; o plano a trata como a de menor encaixe de canais [SUPOSIÇÃO do plano], então perder um toque da base pesa mais |
+| 341 | 5 | 4 | 4 | **80** | G: meta em reais de R$ 652.500,00, a maior das três (plano, seção 1), calculada sem a promoção de 20%. Se a OU10 mantiver a promoção, a meta cai para cerca de R$ 522.000,00 [SUPOSIÇÃO de conta do qa: 15 x 30 x R$ 1.450,00 x 0,8], G passa a 4 e o total a 64, ainda acima de 48: a ordem não muda e é a mesma da data limite mais próxima (341 01/05; 289 15/05; 68615 22/05). U: início em 20/03, mesma data das outras duas, e a janela de matrícula depois do início é a mais curta (3º módulo em 01/05, 42 dias depois). T: turma I, sem histórico; o plano a trata como a de menor encaixe de canais [SUPOSIÇÃO do plano], então perder um toque da base pesa mais |
 | 289 | 4 | 4 | 3 | **48** | G: meta de R$ 531.000,00 (plano, seção 1). U: início em 20/03; 3º módulo em 15/05, 56 dias depois. T: tem campanha ativa, o que dá leitura de custo, e é turma II |
 | 68615 | 4 | 4 | 3 | **48** | G: meta de R$ 531.000,00 (plano, seção 1). U: início em 20/03; 3º módulo em 22/05, 63 dias depois. T: turma VII, a mais antiga das cinco; o contato de A11 ainda recebe o W4 de 333 na semana seguinte |
 | 657 e 333 | | | | 45 | nota do grupo (plano geral, seção 3); nunca empatam por data com outra turma de março nas semanas conferidas |
@@ -342,7 +342,7 @@ Portão da turma: página publicada e conferida em 04/12 (OB1); OU13 (CEP) é s�
 |---|---|---|---|---|
 | 1 | seg 07/12, 9h | OB2 do E1; página no ar; primeiro toque de A11 | enviar E1 (botão "Ver a turma e as condições", utm_content=e1-68615); ligar a flag de saída da NP2 de A11 às 00h05 | saída padrão; SA2 (pagou 333 também tira) |
 | 2 | qui 10/12, 10h | opt-in de WhatsApp; template pos_68615_kit_w1 aprovado na Meta, se API [CONFIRMAR U11a] | enviar W1 (botão URL; utm_content=w1-68615) | saída padrão |
-| 3 | qua 13/01, 10h | semana 11 a 17/01: cai pelo GUT no pior caso (b) de 7.4 | enviar W2 (utm_content=w2-68615) | saída padrão |
+| 3 | qua 13/01, 10h | semana 11 a 17/01: cai no pior caso (a) de 7.4, pela data, e no (b), pelo GUT | enviar W2 (utm_content=w2-68615) | saída padrão |
 | 4 | sex 29/01, 9h | semana 25 a 31/01: a newsletter de 28/01 cai para quem também está em A2 | enviar E2 (utm_content=e2-68615) | saída padrão |
 | 5 | ter 16/02, 10h | conferido contra newsletter de 18/02 (semana comum) | enviar W3, com a frase de turma mínima sem número | saída padrão |
 | 6 | qui 11/03, 10h | semana 08 a 14/03: **cai** para o contato em A2, A14 e A11 ao mesmo tempo (DEC1) | enviar AC ("matrícula aberta até o 3º módulo", sem a data dele) | saída padrão |
@@ -373,7 +373,7 @@ Portão da turma: OU3. Sem OU3 nenhuma mensagem depois do início e a turma sai 
 | # | Gatilho | Condição específica | Ação | Saída |
 |---|---|---|---|---|
 | 1 | qua 09/12, 9h | OB2 do E1; **cai** para o contato em A11 e A2 na semana 07 a 13/12 | enviar E1 (utm_content=e1-333) | saída padrão; SA2 |
-| 2 | qui 17/12, 10h | dia da edição 3 da newsletter; kit vence; cai para o contato com 2 WhatsApp da onda 1 na semana | enviar W1 (utm_content=w1-333) | saída padrão |
+| 2 | qui 17/12, 10h | dia da edição 3 da newsletter; kit vence; cai para o contato com 2 WhatsApp da onda 1 na semana, ou com 1 da onda 1 e o W1 de 341 (início mais próximo) | enviar W1 (utm_content=w1-333) | saída padrão |
 | 3 | ter 19/01, 10h | semana 18 a 24/01: cai na variante de 341 se o contato também está em A14 e A1 | enviar W2 (utm_content=w2-333) | saída padrão |
 | 4 | qua 03/02, 9h | semana 01 a 07/02: **cai** para o contato em A1, A14 e A11 | enviar E2 (utm_content=e2-333) | saída padrão |
 | 5 | ter 23/02, 10h | semana comum | enviar W3 (utm_content=w3-333) | saída padrão |
@@ -389,7 +389,7 @@ Portão da turma: **OU10** (página corrigida ou promoção retirada). Verifica�
 | # | Gatilho | Condição específica | Ação | Saída |
 |---|---|---|---|---|
 | 1 | seg 14/12, 9h (variante: sex 15/01) | OU10 resolvida; marca de equinos | enviar E1 (utm_content=e1-341); ligar a flag de saída da NP2 de equinos às 00h05 | saída padrão |
-| 2 | sex 18/12, 10h (variante: seg 18/01) | **cai** pelo pior caso de 14 a 20/12 para quem tem área da onda 1 e A11 | enviar W1 (utm_content=w1-341) | saída padrão |
+| 2 | sex 18/12, 10h (variante: seg 18/01) | **cai** pelo pior caso de 14 a 20/12 só para quem tem os dois WhatsApp da onda 1 na semana (15 e 16/12); com uma área da onda 1, fica e cai o W1 de 333 | enviar W1 (utm_content=w1-341) | saída padrão |
 | 3 | sex 15/01, 10h (variante: ter 26/01) | semana 11 a 17/01: fica pelo GUT no pior caso (b); cai no (a) | enviar W2, com a frase de passagem e hotel só depois da turma confirmada | saída padrão |
 | 4 | ter 02/02, 9h | semana 01 a 07/02: fica | enviar E2 | saída padrão |
 | 5 | sex 12/02, 10h | depois das Cinzas | enviar W3 | saída padrão |

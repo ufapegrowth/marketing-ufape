@@ -29,14 +29,14 @@
 1. **Formato.** Vertical 9:16, de 1080 por 1920 pixels, de 20 a 40 segundos (todos aqui ficam entre 33 e 37). Legenda queimada na imagem em todos (o vídeo precisa funcionar sem som). Todo gancho funciona sem som e sem conhecer a Ufape.
 2. **Sem docente.** Nenhum dos 5 roteiros usa docente (imagem, voz, nome ou citação). A voz é locução do time da Faculdade UFAPE ou só texto na tela, com música. Por isso não há marca [CONFIRMAR ok do docente] nem "versão sem docente": o roteiro já é a versão sem docente. Se a Ufape quiser versão com docente, ela vira pedido novo, com roteiro próprio e [CONFIRMAR ok do docente].
 3. **Sem aluno e sem rosto.** Nenhuma cena com aluno ou pessoa reconhecível sem autorização registrada de imagem. As cenas usam grafismo do cronograma (a página nova, depois da publicação), equipamentos e material de laboratório sem pessoas, ou banco de imagens licenciado [CONFIRMAR acervo e licença, OU5 e OU15].
-4. **Data de início.** Não é falada e não aparece na imagem. Entra só na legenda do post. Regra 7 do plano: se o vídeo for publicado depois do início da turma, a legenda troca para a regra completa (turma começou em [data], matrícula aceita até o 3º módulo, que nesta turma começa em [data da ficha], e o time explica os módulos já dados), com o texto vindo do copy-de-mensagens. Nunca a data do 3º módulo sozinha. A 333 não tem esse caso: sem peça depois do início até a OU3.
+4. **Data de início.** Não é falada e não aparece na imagem. Entra só na legenda do post. Regra 7 do plano: se o vídeo for publicado depois do início da turma, a legenda troca para a regra completa (turma começou em [data], matrícula aceita até o 3º módulo, que nesta turma começa em [data da ficha], e, antes de pagar, o time explica como ficam os módulos que já aconteceram), com o texto vindo do copy-de-mensagens. Nunca a data do 3º módulo sozinha. A 333 não tem esse caso: sem peça depois do início até a OU3.
 5. **Sem número falado nem escrito na tela.** Nenhum número de módulos, de horas, de professores ou de vagas. O número de horas e a turma vão na legenda, como dado do catálogo.
 6. **Proibido em fala, tela e legenda:** preço, parcela, matrícula, bolsa, prova de bolsa, desconto, promoção, MEC, certificado, certificação, reconhecimento, título ou prova de especialista, superlativo da ficha ("referência nacional", "oportunidade única", "de excelência", "de ponta"), urgência ("últimas vagas", "corra", "só até", contador), promessa de emprego, renda, aprovação ou resultado clínico, e qualquer característica pessoal de quem assiste ("você que é anestesista", "você que está sem tempo").
 7. **Nome.** Sempre "Pós-graduação em <área>". A 341 e a 333 aparecem como "Pós Graduação" no catálogo; o roteiro usa a forma padrão.
 8. **Cartão final (todos).** Fundo da marca, texto "Faculdade UFAPE" em destaque, a chamada da F2 da turma e "@ufapevet, link na bio" [CONFIRMAR com quem posta se o link da bio aponta para a página da turma]. Sem logotipo de órgão regulador, sem selo.
-9. **Rastreio.** Link da página da turma na bio ou no adesivo de link, com utm_source=instagram, utm_medium=organic_social, utm_campaign=pos_<código>_<AAAAMM da primeira publicação da turma> (regra 12 do plano) e utm_content=reel_<código>_v1. O mês da primeira publicação é do F8; aqui fica como variável.
+9. **Rastreio.** Link da página da turma na bio ou no adesivo de link, com utm_source=instagram, utm_medium=organic_social, utm_campaign=pos_<código>_<AAAAMM da primeira publicação da turma> (regra 12 do plano) e utm_content=<código>-reel1 (padrão do F8, seção 0.1). O utm_campaign é o do F8 para cada turma (657, 289, 68615 e 333 em 202612; 341 em 202612 ou 202701, conforme a OU10). O mês da primeira publicação é do F8; aqui fica como variável.
 10. **Destino.** Só a página oficial da turma, depois de passar pelo qa e de a Ufape trocar a frase ligada ao MEC (regra 13 do plano e OB1). Antes disso, o vídeo não sai.
-11. **Tendência e áudio da moda:** nenhum. Trilha instrumental sem direito autoral [CONFIRMAR biblioteca licenciada]. Nenhum áudio que ridicularize candidato, aluno ou outra instituição.
+11. **Tendência e áudio da moda:** nenhum. As hashtags das legendas só entram se a conta usar [CONFIRMAR, como no F8, regra 7]. Trilha instrumental sem direito autoral [CONFIRMAR biblioteca licenciada]. Nenhum áudio que ridicularize candidato, aluno ou outra instituição.
 12. **Quem grava e edita:** OU15 [CONFIRMAR]. Os roteiros foram pensados para gravar com locução e grafismo, sem diária de elenco, para caber no custo que a Ufape disser.
 13. **Revisão técnica.** As falas só repetem o que as fichas e a F2 dizem, mas a conferência clínica final é do docente revisor [CONFIRMAR nome e prazo], como a F2 já pede antes da publicação.
 
@@ -83,7 +83,7 @@ Gravação: numa única diária, junto com os Reels de docente da grade de dezem
 |---|---|---|---|---|---|
 | 657-G1 | CSC | "Paciente de alto risco não cabe no protocolo." | "Do protocolo à precisão" | tela dividida: de um lado uma lista de passos fixos, do outro uma curva hemodinâmica em movimento (grafismo) | variação 1 da F2; fala-se de paciente, não de quem assiste |
 | 657-G2 | A/D | "Teoria online. Depois, ventilador e bloqueio na mão." | "Teoria online. Prática presencial." | duas etiquetas "ONLINE" e "PRESENCIAL" se encaixando; ao fundo, equipamento de anestesia sem pessoas [CONFIRMAR acervo] | variação 2 da F2; o corpo cumpre com os módulos presenciais |
-| 657-G3 (recomendado) | PER | "Só a pressão arterial não conta a história toda." | "Além da pressão arterial" | monitor com curva de pressão arterial e, em seguida, os termos "débito cardíaco" e "perfusão tecidual" aparecendo ao lado | tema do módulo 3 da ficha; fala de 9 palavras na fala e funciona sem som pelo texto |
+| 657-G3 (recomendado) | PER | "Só a pressão arterial não conta a história toda." | "Além da pressão arterial" | monitor com curva de pressão arterial e, em seguida, os termos "débito cardíaco" e "perfusão tecidual" aparecendo ao lado | tema do 3º módulo da ficha, sem o número e sem a data (regra 7 do plano); fala de 9 palavras na fala e funciona sem som pelo texto |
 
 Notas (clareza, curiosidade, verdade; avaliação do agente, não medida): G1 4/4/4; G2 4/3/5; G3 5/4/4. Recomendado G3 por ser concreto e técnico e por não tocar em quem pode entrar. Verdade 4 em G3 porque a frase clínica pede a conferência do docente revisor (regra 13).
 
@@ -92,7 +92,7 @@ Notas (clareza, curiosidade, verdade; avaliação do agente, não medida): G1 4/
 | Tempo | Bloco | O que aparece | O que se fala | Texto na tela |
 |---|---|---|---|---|
 | 0 a 3 s | Gancho | G3 | "Só a pressão arterial não conta a história toda." | [TEXTO NA TELA: Além da pressão arterial] |
-| 3 a 10 s | Contexto | print animado do módulo de hemodinâmica avançada, retirado do cronograma da página publicada | "Na Pós-graduação em Anestesiologia Avançada, a hemodinâmica vai para o débito cardíaco e a perfusão tecidual." | [TEXTO NA TELA: Pós-graduação em Anestesiologia Avançada] |
+| 3 a 10 s | Contexto | grafismo com o título 'Hemodinâmica avançada' e os termos 'débito cardíaco' e 'perfusão tecidual', sem número de módulo e sem data (não usar print do cronograma: é o 3º módulo, e a data dele é a data limite da regra 7) | "Na Pós-graduação em Anestesiologia Avançada, a hemodinâmica vai para o débito cardíaco e a perfusão tecidual." | [TEXTO NA TELA: Pós-graduação em Anestesiologia Avançada] |
 | 10 a 20 s | Virada | três cartões entrando um a um, sobre fundo escuro | "E a anestesia deixa de ser só protocolo: ventilação do paciente especial, bloqueador neuromuscular, coagulação no transoperatório." | [TEXTO NA TELA: Ventilação do paciente especial / Bloqueador neuromuscular / Coagulação no transoperatório] |
 | 20 a 29 s | Prova | grafismo com duas etiquetas, ONLINE e PRESENCIAL; sobre PRESENCIAL entram "bloqueios", "ventiladores" e "monitores hemodinâmicos"; sem pessoas | "A teoria é online. Nos módulos presenciais, a prática é guiada: bloqueios, ventiladores e monitores." | [TEXTO NA TELA: Aulas práticas não são transmitidas] |
 | 29 a 35 s | Chamada e cartão final | cartão da marca | "Veja o cronograma e os módulos de prática guiada antes de decidir." | [TEXTO NA TELA: Faculdade UFAPE / Veja o cronograma e os módulos de prática guiada antes de decidir. / @ufapevet, link na bio] |
@@ -146,7 +146,7 @@ Notas: G1 4/4/5; G2 4/3/5; G3 4/4/3. Recomendado G1 por entregar três temas té
 
 > Do paciente crítico ao potro neonato: a Pós-graduação em Medicina Interna Equina trata a espécie sistema por sistema, de cardiologia a odontologia equina.
 >
-> Semipresencial, 500 horas, São Paulo, turma I. Início em 20/03/2027. Teoria online e prática presencial em fins de semana, com as datas no cronograma.
+> Semipresencial, 500 horas, turma I. Início em 20/03/2027. Teoria online e prática presencial em fins de semana, com as datas no cronograma.
 >
 > Veja os sistemas, os módulos práticos e as condições da turma de medicina interna equina: link na bio.
 >
@@ -223,15 +223,15 @@ Notas: G1 4/4/4; G2 5/4/5; G3 5/3/5. Recomendado G1 por curiosidade e porque o c
 |---|---|---|---|---|
 | 0 a 3 s | Gancho | G1 | "Erro de exame começa antes do equipamento." | [TEXTO NA TELA: O erro começa antes do equipamento] |
 | 3 a 11 s | Contexto | linha do tempo: coleta, armazenamento, envio da amostra | "Coleta, armazenamento, envio da amostra: é o pré-analítico, e é por ele que o laudo começa." | [TEXTO NA TELA: Coleta / Armazenamento / Envio da amostra] |
-| 11 a 22 s | Virada | etiquetas entrando em sequência | "A Pós-graduação em Patologia Clínica segue o laboratório inteiro: hemograma, hemostasia, bioquímica, urinálise, citologia, microbiologia, até o laudo." | [TEXTO NA TELA: Pós-graduação em Patologia Clínica / Hemograma, hemostasia, bioquímica, urinálise, citologia, microbiologia] |
-| 22 a 31 s | Prova | etiquetas ONLINE e PRESENCIAL; sobre PRESENCIAL, "automação do hemograma", "bioquímica e urina", "mielograma", "lâminas" | "A teoria é online. Nos módulos presenciais, a prática: automação do hemograma, bioquímica e urina, mielograma e lâminas." | [TEXTO NA TELA: Aulas presenciais não são transmitidas] |
+| 11 a 22 s | Virada | etiquetas entrando em sequência | "A Pós-graduação em Patologia Clínica segue o laboratório clínico: hemograma, hemostasia, bioquímica, urinálise, citologia, microbiologia, até o laudo." | [TEXTO NA TELA: Pós-graduação em Patologia Clínica / Hemograma, hemostasia, bioquímica, urinálise, citologia, microbiologia] |
+| 22 a 31 s | Prova | etiquetas ONLINE e PRESENCIAL; sobre PRESENCIAL, "automação do hemograma", "bioquímica e urina", "mielograma", "lâminas" | "A teoria é online. Nos módulos presenciais, a prática, entre outros temas: automação do hemograma, bioquímica e urina, mielograma e lâminas." | [TEXTO NA TELA: Aulas presenciais não são transmitidas] |
 | 31 a 37 s | Chamada e cartão final | cartão da marca | "Veja o cronograma do laboratório clínico, do pré-analítico ao laudo." | [TEXTO NA TELA: Faculdade UFAPE / Veja o cronograma do laboratório clínico, do pré-analítico ao laudo. / @ufapevet, link na bio] |
 
 [CORTE] a cada bloco. Se sobrar tempo e o qa aprovar, acrescentar antes da chamada uma frase do objetivo da ficha: "e como estruturar e administrar um laboratório" (F2, apoio do FAQ 68615-Q5), sem prometer resultado de negócio; o vídeo passaria a cerca de 40 segundos, o limite da encomenda.
 
 ### 4.3 Legenda do post
 
-> O erro de exame começa antes do equipamento. A Pós-graduação em Patologia Clínica acompanha o laboratório clínico inteiro, do pré-analítico ao laudo, com prática presencial.
+> O erro de exame começa antes do equipamento. A Pós-graduação em Patologia Clínica acompanha o laboratório clínico, do pré-analítico ao laudo, com prática presencial.
 >
 > Semipresencial, 500 horas, São Paulo, turma VII. Início em 20/03/2027. Teoria online e módulos presenciais de prática.
 >
@@ -242,7 +242,7 @@ Notas: G1 4/4/4; G2 5/4/5; G3 5/3/5. Recomendado G1 por curiosidade e porque o c
 > #patologiaclinica #laboratorioveterinario #posgraduacao
 
 - **Chamada:** link da página da turma, com UTM da seção 0 [CONFIRMAR URL depois da OB1].
-- **Comentário "patologia clínica ou citopatologia, qual eu faço?":** responder com a frase-ponte única da F2, seção 5, sem mudança e sem dizer qual é melhor. Texto: "A Pós-graduação em Patologia Clínica cobre o laboratório clínico inteiro, do pré-analítico ao laudo, e tem a citologia como uma das partes. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
+- **Comentário "patologia clínica ou citopatologia, qual eu faço?":** responder com a frase-ponte única da F2, seção 5, sem mudança e sem dizer qual é melhor. Texto: "A Pós-graduação em Patologia Clínica é centrada no laboratório clínico, do pré-analítico ao laudo, com a citologia entre os exames do laboratório. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: células e tecidos ao microscópio, com discussão de casos. A escolha depende do trabalho que você quer fazer na rotina."
 - **Endereço e CEP:** não aparecem no vídeo (OU13 aberta).
 
 ---
@@ -277,7 +277,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 4/3/4. Recomendado G1 pela tensão técnica que o 
 
 > A lâmina chega e a dúvida fica. A Pós-graduação em Citopatologia Veterinária é centrada na leitura de lâminas: da coleta e da coloração à discussão de casos ao microscópio, sistema por sistema.
 >
-> Semipresencial, 500 horas, São Paulo, turma I. Início em 27/03/2027. Teoria online e módulos presenciais, entre eles os de leitura de lâminas e discussão de casos.
+> Semipresencial, 500 horas, turma I. Início em 27/03/2027. Teoria online e módulos presenciais, entre eles os de leitura de lâminas e discussão de casos.
 >
 > Veja o cronograma de leitura de lâminas, sistema por sistema: link na bio.
 >
@@ -286,7 +286,7 @@ Notas: G1 4/4/4; G2 4/3/5; G3 4/3/4. Recomendado G1 pela tensão técnica que o 
 > #citopatologia #citologiaveterinaria #posgraduacao
 
 - **Chamada:** link da página da turma, com UTM da seção 0 [CONFIRMAR URL depois da OB1].
-- **Comentário "patologia clínica ou citopatologia, qual eu faço?":** frase-ponte única da F2 (seção 4.3 acima), sem mudança.
+- **Comentário "patologia clínica ou citopatologia, qual eu faço?":** frase-ponte única da F2 (seção 5, texto corrigido na revisão onda2a, Q13), a mesma da seção 4.3 acima, sem mudança.
 - **Comentário "e se eu entrar depois do início, como recupero o módulo presencial?":** "Vou confirmar com a secretaria como fica e te retorno" (resposta do time da F2). Nenhum texto novo.
 - **Quem ensina:** não responder; a seção de docentes da página mostra o dado da ficha (OU12).
 - **Fim da janela:** retirar do cronograma de publicação a partir de 26/03/2027 (regra 8 do plano) e só republicar com a OU3 respondida.
