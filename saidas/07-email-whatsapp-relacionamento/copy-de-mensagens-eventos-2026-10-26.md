@@ -90,7 +90,7 @@ A primeira mensagem a quem não escreveu nas últimas 24 horas precisa de templa
 | neuro_pos_gravacao_v1 | Utilidade | M8 | {{1}} = [primeiro_nome], {{2}} = [link_gravacao] | URL |
 | neuro_pos_proximo_passo_v1 | Marketing | M9 | {{1}} = [primeiro_nome] | URL e "SAIR" |
 
-Cada template leva o texto das mensagens abaixo com as variáveis numeradas. Os textos têm até 3 balões curtos; no template, os balões viram um corpo único com quebras de linha. O e-mail de programação (M10) não usa template.
+Cada template leva o texto das mensagens abaixo com as variáveis numeradas. Os textos são em balões curtos, de até 3 linhas cada; no template, os balões viram um corpo único com quebras de linha. O e-mail de programação (M10) não usa template.
 
 ### 0.4 Horário de envio
 
@@ -181,7 +181,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > São 16 h, das 8h às 18h, na Unidade 2 (Av. Tiradentes, 960). O presencial tem 30 vagas no total, por ordem de inscrição. Presencial: R$ 1.250,00. *(linha de preço)*
 >
-> [T] Se você só consegue a sexta, a teoria também vai ao vivo e fica gravada (apenas teórico): R$ 450,00. *(linha de preço)*
+> [T] Se você só consegue a sexta, a teoria também vai ao vivo e fica gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. *(linha de preço)*
 >
 > Programação e ingressos: https://faculdade.ufape.com.br/neuro-summit/[UTM:c01]
 >
@@ -195,7 +195,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > Apenas teórico: o sábado prático é só presencial.
 >
-> Workshop Transmitido + Gravado: R$ 450,00. *(linha de preço)*
+> Workshop Transmitido + Gravado: R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. *(linha de preço)*
 >
 > Programação e ingressos: https://faculdade.ufape.com.br/neuro-summit/[UTM:c02]
 >
@@ -245,7 +245,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 > - Onde: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP
 > - Vagas: 30 no presencial, por ordem de inscrição
 > - Workshop Presencial (teórico e prático): R$ 1.250,00 *(linha de preço)*
-> - [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 *(linha de preço)*
+> - [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão *(linha de preço)*
 >
 > [Ver programação e ingressos](https://faculdade.ufape.com.br/neuro-summit/[UTM:c01])
 >
@@ -262,7 +262,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > - Quando: sexta-feira, 20/11/2026 (aulas teóricas, a partir das 8h30)
 > - Como: transmissão ao vivo e gravação [CONFIRMAR prazo de acesso à gravação]
-> - Investimento: R$ 450,00 *(linha de preço)*
+> - Investimento: R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão *(linha de preço)*
 >
 > [Ver programação e ingresso](https://faculdade.ufape.com.br/neuro-summit/[UTM:c02])
 >
@@ -306,7 +306,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 > Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Quem é aluno ou ex-aluno tem 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11, em São Paulo), com o cupom SIMPNEUROMONIT.
 >
-> Presencial (sexta teórica e sábado prático, 16 h, 30 vagas por ordem de inscrição): R$ 1.250,00. *(linha de preço)* [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00. *(linha de preço)*
+> Presencial (sexta teórica e sábado prático, 16 h, 30 vagas por ordem de inscrição): R$ 1.250,00. *(linha de preço)* [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. *(linha de preço)*
 >
 > Para usar a condição, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. Secretaria: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Prazo da comprovação: [CONFIRMAR]. Validade do cupom: [CONFIRMAR].
 >
@@ -317,7 +317,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 **Chamada para ação:** ver programação e ingressos (um link; o contato da secretaria é informação da regra, não segunda chamada).
 **Follow-up (04/11, 10h, só para quem não clicou):**
 
-> [primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e ex-aluno) vale para o workshop de 20 e 21/11, com o vínculo comprovado na secretaria. Se tiver dúvida sobre como usar, responda aqui.
+> [primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e ex-aluno) vale para o workshop de 20 e 21/11, com o vínculo comprovado na secretaria. Validade do cupom: [CONFIRMAR]. Se tiver dúvida sobre como usar, responda aqui.
 > https://faculdade.ufape.com.br/neuro-summit/[UTM:c03]
 > Responda SAIR para não receber mais mensagens.
 
@@ -353,7 +353,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > **Ingressos** (valores de tabela; o desconto de 20% é aplicado com o cupom):
 > - Workshop Presencial (teórico e prático, 16 h, das 8h às 18h, 30 vagas por ordem de inscrição): R$ 1.250,00 *(linha de preço)*
-> - [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 *(linha de preço)*
+> - [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão *(linha de preço)*
 >
 > Local do presencial: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. Validade do cupom: [CONFIRMAR].
 >
@@ -365,7 +365,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 **Chamada para ação:** botão "Ver programação e ingressos".
 **Follow-up (03/11, 9h, só para quem não abriu):**
 - Assunto: "Como usar o cupom SIMPNEUROMONIT no workshop de 20 e 21/11"
-- Corpo: "Olá, [primeiro_nome]. Para usar a condição de aluno e ex-aluno no workshop de 20 e 21/11, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. https://faculdade.ufape.com.br/neuro-summit/[UTM:c03]" + rodapé.
+- Corpo: "Olá, [primeiro_nome]. Para usar a condição de aluno e ex-aluno no workshop de 20 e 21/11, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. Validade do cupom: [CONFIRMAR]. https://faculdade.ufape.com.br/neuro-summit/[UTM:c03]" + rodapé.
 
 **Data e horário de envio:** 30/10 (sexta), 9h. Follow-up em 03/11 (ter), 9h; não sai para a base das provas (D3).
 **Opt-in:** e-mail marketing registrado. [CONFIRMAR]
@@ -463,7 +463,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 **5 assuntos:**
 1. O workshop de neuromonitorização é na semana que vem (20 e 21/11)
 2. Falta pouco: sexta teórica e sábado prático, em São Paulo
-3. Presencial ou só a teoria de sexta: veja como participar do workshop de 20 e 21/11
+3. [T] Presencial ou só a teoria de sexta: veja como participar do workshop de 20 e 21/11
 4. Ainda dá para se inscrever: programação e ingressos do workshop de neuromonitorização
 5. Dúvida sobre o workshop? Estas são as perguntas mais comuns
 
@@ -477,7 +477,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 >
 > Como participar:
 > - **Presencial (teórico e prático):** sexta e sábado, das 8h às 18h, 16 h no total. O presencial tem 30 vagas no total, por ordem de inscrição. R$ 1.250,00. *(linha de preço)*
-> - [T] **Transmitido + Gravado (apenas teórico):** só as aulas de sexta, ao vivo e gravadas. R$ 450,00. O sábado prático não faz parte deste ingresso. *(linha de preço)*
+> - [T] **Transmitido + Gravado (apenas teórico):** só as aulas de sexta, ao vivo e gravadas. R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. O sábado prático não faz parte deste ingresso. *(linha de preço)*
 >
 > As perguntas mais comuns:
 > - **Preciso saber interpretar EEG antes?** Não. A sexta constrói a base, de neuroanatomia, EEG e análises espectrais a índices processados, antes da prática do sábado.
@@ -516,13 +516,13 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 > Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Na sexta, 20/11, começa o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, em São Paulo.
 >
-> Presencial (sexta teórica e sábado prático, das 8h às 18h): 30 vagas no total, por ordem de inscrição, R$ 1.250,00. *(linha de preço)* [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00. *(linha de preço)*
+> Presencial (sexta teórica e sábado prático, das 8h às 18h): 30 vagas no total, por ordem de inscrição, R$ 1.250,00. *(linha de preço)* [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. *(linha de preço)*
 >
 > Se ficou alguma dúvida sobre os dois dias, responda aqui que o time te ajuda. Ingressos e programação: https://faculdade.ufape.com.br/neuro-summit/[UTM:c04]
 >
 > Responda SAIR para não receber mais mensagens.
 
-**Corpo (aluno e ex-aluno):** igual ao geral, com o parágrafo do meio trocado por: "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT, comprovando o vínculo na secretaria." e o link com [UTM:c05].
+**Corpo (aluno e ex-aluno):** igual ao geral, com o parágrafo do meio trocado por: "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT, comprovando o vínculo na secretaria. Validade do cupom: [CONFIRMAR]." e o link com [UTM:c05].
 
 **Chamada para ação:** ver ingressos e programação (um link).
 **Follow-up:** não há segundo toque de marketing por WhatsApp na última semana (frequência humana). Quem responder é atendido por vendas (seção 3).
@@ -719,7 +719,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **Canal:** e-mail (mensagem do dia em qualquer cenário) e WhatsApp (exceção a aprovar)
 **Objetivo:** lembrar o inscrito, presencial e transmitido, do início do dia teórico.
-**Segmento:** inscritos, duas versões. O e-mail vai a todos os inscritos com e-mail; o WhatsApp vai só a quem tem opt-in de WhatsApp e só se a exceção for aprovada.
+**Segmento:** inscritos, duas versões. O e-mail vai aos inscritos que autorizaram o contato por e-mail na inscrição [CONFIRMAR no checkout]; o WhatsApp vai só a quem tem opt-in de WhatsApp e só se a exceção for aprovada.
 **Por que há dois canais:** 20/11 é feriado nacional e a mensagem precisa chegar antes das 8h30. O WhatsApp às 8h00 fica fora do horário comercial e depende de aprovação (A2). O e-mail às 7h cumpre o kit mínimo ("Mensagem do dia") sem depender dessa exceção e alcança quem não tem opt-in de WhatsApp.
 
 #### M6 por e-mail
@@ -801,7 +801,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 
 **Canal:** e-mail (mensagem do dia em qualquer cenário) e WhatsApp (exceção a aprovar)
 **Objetivo:** lembrar o inscrito no presencial do início do dia prático.
-**Segmento:** inscritos no Workshop Presencial. Quem comprou só o transmitido não recebe. O e-mail vai a todos os inscritos no presencial; o WhatsApp só a quem tem opt-in e só se a exceção for aprovada (sábado, antes das 9h).
+**Segmento:** inscritos no Workshop Presencial. Quem comprou só o transmitido não recebe. O e-mail vai aos inscritos no presencial que autorizaram o contato por e-mail na inscrição [CONFIRMAR no checkout]; o WhatsApp só a quem tem opt-in e só se a exceção for aprovada (sábado, antes das 9h).
 
 #### M7 por e-mail
 
@@ -867,7 +867,7 @@ Em cada mensagem de marketing (M1 a M3, M9 e M10) há 5 assuntos ou primeiras li
 **Condição:** só sai depois de a Ufape confirmar o texto de certificado, o prazo e o link da gravação [CONFIRMAR]. Sem isso, M8 fica parada. A squad não escreve data de emissão do certificado.
 **Assunto A:** Obrigada por participar do workshop de neuromonitorização
 **Assunto B:** Gravação e certificado do workshop de neuromonitorização
-**Texto de pré-visualização:** Como acessar as aulas gravadas e quando sai o certificado.
+**Texto de pré-visualização:** Como acessar as aulas gravadas e informações sobre o certificado.
 
 #### M8 por e-mail
 
@@ -1033,7 +1033,7 @@ Uso: atendimento humano, no WhatsApp de vendas (SP: (11) 91366-9290) ou por e-ma
 | R5 | Tem certificado? | "Sim, certificado conforme presença, emitido pela UFAPE. [CONFIRMAR texto aprovado, AP8] Quando e como ele é enviado: vou confirmar com a secretaria. Para o ingresso transmitido [T], como a presença é conferida e se o certificado vale: vou confirmar e te respondo." Se perguntarem se é reconhecido ou certificado pelo MEC: "Não é um curso de pós-graduação. Vou confirmar o texto oficial e te respondo." Não ligar o certificado ao MEC e não citar carga horária nesta resposta. A divergência entre o briefing (certificado só a inscritos, depois de aprovado) e a casa de mensagens (também a quem pergunta) segue para a pessoa do marketing decidir (AP8). | Ficha, perguntas frequentes; casa de mensagens O6 e O9 | Texto oficial de certificação [PREENCHER COM A REGULAÇÃO]; presença e certificado no online |
 | R6 | 20/11 é feriado. O workshop acontece mesmo assim? | "Sim, o workshop acontece normalmente nos dois dias: sexta, 20/11, e sábado, 21/11, das 8h às 18h, na Unidade 2. Se a sua dúvida é sobre transporte ou funcionamento do local no feriado, vou confirmar com a equipe e te respondo." O time não usa o feriado como argumento de venda ("aproveite o feriado") sem ok da Ufape. | Ficha (datas e horário); briefing de campanha, seção 1 | Orientação de transporte e funcionamento no feriado [CONFIRMAR]; uso do feriado como argumento |
 | R7 | Posso parcelar? Quais são as formas de pagamento? | Presencial: "Vou confirmar as formas de pagamento do presencial e te respondo em seguida." [CONFIRMAR NO CATÁLOGO parcelamento do presencial] Transmitido [T]: "Vou confirmar as condições de pagamento do ingresso transmitido e te respondo em seguida." [CONFIRMAR NO CATÁLOGO até a verificação do produto 68634] O time não cita "em até Nx", "sem juros" ou qualquer parcela sem confirmação por escrito. | Catálogo, seção 4 (produto 68634, status "verificar"); presencial sem dado | Parcelamento e formas de pagamento do presencial; condições do transmitido só depois da verificação do 68634 |
-| R8 | Como uso o cupom SIMPNEUROMONIT? | "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT. Para usar a condição, é preciso comprovar o vínculo com a secretaria e usar o cupom: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Você é aluno ou ex-aluno de qual curso? Vou confirmar se a regra vale para o seu caso." O time não calcula o valor final com o cupom na mensagem e não inventa a ordem entre cupom e comprovação. | Ficha e catálogo, seção 9; casa de mensagens | Validade e limite do cupom; ordem e prazo da comprovação; se vale para aluno de pós em curso e ex-aluno de curso livre [CONFIRMAR] |
+| R8 | Como uso o cupom SIMPNEUROMONIT? | "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT. Para usar a condição, é preciso comprovar o vínculo com a secretaria e usar o cupom: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Validade do cupom: [CONFIRMAR]. Você é aluno ou ex-aluno de qual curso? Vou confirmar se a regra vale para o seu caso." O time não calcula o valor final com o cupom na mensagem e não inventa a ordem entre cupom e comprovação. | Ficha e catálogo, seção 9; casa de mensagens | Validade e limite do cupom; ordem e prazo da comprovação; se vale para aluno de pós em curso e ex-aluno de curso livre [CONFIRMAR] |
 | R9 | Quanto de prática eu faço? | "O sábado inteiro é prático, das 8h às 18h: instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e reconhecimento de artefatos, casos de anestesia e de UTI com e sem bloqueio neuromuscular e um desafio em pequenos grupos. O programa diz que as atividades dependem dos equipamentos e registros disponíveis. Quais monitores e quantos participantes por equipamento: vou confirmar com a coordenação." | Ficha (grade de sábado); casa de mensagens O10 | Monitores, quantidade e participantes por equipamento [CONFIRMAR NO CATÁLOGO] |
 | R10 | Serve para cães, gatos, equinos e bovinos? Serve para UTI? | "A página diz que o workshop leva a neuromonitorização para a rotina clínica de cães, gatos, equinos e bovinos, no centro cirúrgico e na UTI. Os casos do sábado são de anestesia e de UTI, com e sem bloqueio neuromuscular. Se os casos incluem equinos e bovinos: vou confirmar." | Ficha, "Para quem é"; casa de mensagens O5 | Se há caso ou prática com grandes animais [CONFIRMAR NO CATÁLOGO] |
 | R11 | Quem são os professores? | "A coordenação científica é da Profa. Dra. Mayara Travalini de Lima. A grade completa, com horários e temas, está na página: https://faculdade.ufape.com.br/neuro-summit/" O time só cita docente confirmado, com nome e titulação como estão na ficha, e nunca cita os convidados "a definir". | Ficha; decisões 8 e 10 (autorização registrada para todos) | Nada |
@@ -1182,3 +1182,4 @@ Versão 3 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 8 e 10
 - Nova seção 0.5 com teto D1, fila D2, supressões D3 e janela D8; seção 0.4 com a janela única; coluna de supressão no mapa.
 - UTM: utm_medium=crm, utm_campaign=eventos_neuro26_202610 (D11 e D12).
 - Docentes: autorização registrada para todos (decisões 8 e 10); marcas [CONFIRMAR autorização] retiradas da regra 2, de R11, das auditorias e da lista C.
+- Correções R-M1 a R-M6 do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b-b.md, seção 2.5), só nestes pontos: validade do cupom [CONFIRMAR] nos follow-ups de M2 (WhatsApp e e-mail), no corpo aluno de M3 por WhatsApp e em R8 (R-M1); [T] no assunto 3 do e-mail de M3 (R-M2); preço do transmitido com as condições do catálogo (à vista Pix ou boleto, ou 1x no cartão) nas 8 linhas de preço [T] de M1, M2 e M3 (R-M3); e-mail de M6 e M7 só para quem autorizou o contato por e-mail na inscrição [CONFIRMAR no checkout] (R-M4); pré-visualização de M8 sem prometer a data do certificado (R-M5); frase da seção 0.3 sobre balões (R-M6).

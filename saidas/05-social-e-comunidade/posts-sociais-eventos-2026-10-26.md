@@ -64,7 +64,7 @@ Dias contados a partir de 26/10/2026. "Entra" significa texto pronto para aprova
 | 07/11 | sáb | Programação de sábado (prática) | P3 | Carrossel + Reels | Aprovação |
 | 07/11 | sáb | Stories: respostas às perguntas de 06/11, com os cartões do P5 | S2 | Stories | Respostas só da ficha; cartão 1 e cartão 5 do P5 são [T] |
 | 09/11 | seg | Reta final: as duas modalidades (versão A sem preço; versão B com preço) | P4 | Carrossel de 5 cartões + Story de reforço | B só depois de E5 e E6; cartão 3 é [T] |
-| 11/11 | qua | FAQ da página em carrossel (semana 3 do briefing); fica no feed (decisão do cmo, 12.3) | P14 | Carrossel de 5 cartões | Sem certificado e sem preço; cartão 1 é [T] |
+| 11/11 | qua | FAQ da página em carrossel (semana 3 do briefing); fica no feed (decisão do cmo, 12.3) | P14 | Carrossel de 5 cartões | Sem certificado e sem preço; cartão extra e resposta do corpo são [T] |
 | 11/11 | qua | Stories: perguntas e respostas com docentes, rodada 1 | autoridade-docente | Stories | Texto aprovado pelo docente |
 | 12/11 | qui | Stories: como funciona a condição de aluno e ex-aluno, com a arte do P6; respostas da rodada 1 | S3 e P6 | Stories | Validade do cupom [CONFIRMAR] |
 | 13/11 | sex | Stories: falta 1 semana, com a arte do P7 e adesivo de contagem | S4 e P7 | Stories | Aprovação; linha [T] |
@@ -259,7 +259,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 - **Gancho (linha 1):** Para quem decide olhando além do número.
 - **Ganchos alternativos (2):**
   1. Anestesia, UTI, residência ou pós: onde este workshop se encaixa.
-  2. Quatro situações em que este workshop faz sentido.
+  2. [T] Quatro situações em que este workshop faz sentido. Sem [T]: Três situações em que este workshop faz sentido.
 - **Corpo (linhas curtas):**
 
 > O workshop leva a neuromonitorização para a rotina clínica de cães, gatos, equinos e bovinos, no centro cirúrgico e na UTI.
@@ -310,7 +310,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. [Versão B] [T] R$ 1.250,00 ou R$ 450,00: a diferença é o sábado prático.
 - **Corpo (linhas curtas), versões A e B iguais, salvo as linhas de preço:**
 
-> Duas formas de participar do Workshop Brasileiro de Neuromonitorização.
+> [T] Duas formas de participar do Workshop Brasileiro de Neuromonitorização.
 >
 > Workshop Presencial (teórico + prático)
 > - Sexta teórica e sábado prático, 20 e 21/11
@@ -329,8 +329,8 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 >
 > Detalhes na página do evento. Link na bio.
 
-  Sem [T] liberado, o corpo fica só com o bloco "Workshop Presencial" e a frase do cupom referida ao presencial.
-- **Ponto de vista:** A escolha é entre ir e praticar, ou acompanhar a base e rever na gravação. O post diz claramente o que cada ingresso não inclui, para ninguém comprar achando que é o evento completo.
+  Sem [T] liberado, o corpo fica só com o bloco "Workshop Presencial" e a frase do cupom referida ao presencial. A primeira linha do corpo e o "Ponto de vista" também são [T]: sem [T], a primeira linha vira "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: presencial, sexta e sábado." e o "Ponto de vista" vira "O post diz o que cada dia inclui."
+- **Ponto de vista:** [T] A escolha é entre ir e praticar, ou acompanhar a base e rever na gravação. O post diz claramente o que cada ingresso não inclui, para ninguém comprar achando que é o evento completo. Sem [T]: O post diz o que cada dia inclui.
 - **Linha final ou pergunta:** Qual modalidade combina melhor com a sua agenda de 20 e 21/11? (Sem [T]: Qual parte do programa você quer ver de perto?)
 - **Texto para a arte (carrossel):**
 
@@ -901,6 +901,7 @@ Pedidos que ficam fora deste arquivo (este agente não edita arquivo alheio):
   - Autorização de imagem e de citação registrada para todos (decisões 8 e 10): regras 2 e da seção 4, tabela 3.1, seção 5 (S6), auditorias e listas.
   - UTM no padrão D11 e D12: utm_medium=organic_social e utm_campaign=eventos_neuro26_<AAAAMM>.
   - Nome oficial "Workshop Brasileiro de Neuromonitorização" na primeira menção, nas legendas e nas artes, no lugar da forma longa da página e de "Workshop de Neuromonitorização Veterinária" (decisão 7; mesmo ajuste do SEv2 pedido à 1.20 de Eventos).
+- Versão 3, ajuste pós-reconferência do qa (26/10/2026, itens R-P1 a R-P3 de saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b-b.md, seção 1.5): R-P1, gancho alternativo 2 de P5 marcado [T], com a versão sem [T] "Três situações em que este workshop faz sentido"; R-P2, primeira linha do corpo e "Ponto de vista" de P4 marcados [T], com as versões sem [T] da revisão e a nota do corpo ajustada; R-P3, condição de P14 no calendário trocada por "cartão extra e resposta do corpo são [T]". Nada além disso foi alterado.
 
 ---
 
