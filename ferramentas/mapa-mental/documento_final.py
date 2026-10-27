@@ -129,8 +129,11 @@ TROCAS_DOC = [
 for _, a, b in TROCAS_DOC:
     assert a in corpo_mapa, 'trecho do mapa mudou: ' + a
     corpo_mapa = corpo_mapa.replace(a, b)
-for d in dados:
-    assert not (no_documento(d) and d['inicio'] and d['inicio'] > LIMITE), 'item depois do limite: ' + d['id']
+# Relê a data de cada item que vai para o mapa do documento, sem passar pelo filtro
+INICIO = {d['id']: d['inicio'] for d in dados}
+for i in ids:
+    assert not (INICIO[i] and INICIO[i] > LIMITE), 'item depois do limite: ' + i
+assert not any(d['codigo'] in PROXIMA_LIVRES for d in dados if d['id'] in ids), 'Livres de 2027 no mapa do documento'
 assert len(ids) + len(proxima) == sum(1 for d in dados if d['recorte'] == 'planejar'), 'recorte e próxima etapa não somam o total planejado'
 # O mapa do documento só mostra o recorte; a lista completa continua no mapa de trabalho
 script = script.replace('const D=', 'const D_TODOS=', 1)

@@ -77,7 +77,7 @@ Regra de leitura: só entra aqui o que o diário e os arquivos dizem. Onde o di�
 | Workshop Brasileiro de Neuromonitorização | PRONTO PARA APROVAR (posts e mensagens) e ESPERA | Mensagens aprovadas pelo qa em 27/10 e posts com a última troca aplicada e conferida no mesmo dia; criativos sem revisão; a mídia já está no ar e precisa de conferência em 28/10 |
 | 22 provas de bolsa | SUSPENSO (decisão 14) | Rascunhos da camada 1 existem e pedem varredura da decisão 20 (provas presenciais) |
 | Cursos Livres e contínuos | SUSPENSO (decisão 14) | Estratégia pronta; kit por curso A FAZER |
-| Mapa por curso | Mapa e 184 arquivos por curso gerados em 27/10 e refeitos depois da primeira revisão de qualidade; a reconferência de 27/10 ainda pede ajustes no gerador | O mapa deste documento mostra os 100 itens que começam até abril de 2027 |
+| Mapa por curso | Mapa e 184 arquivos por curso gerados em 27/10, refeitos depois da primeira revisão de qualidade e aprovados na reconferência final de 27/10 | O mapa deste documento mostra os 100 itens que começam até abril de 2027 |
 
 ### 2.2 Pós, onda 1: as 6 turmas que já estão em operação
 

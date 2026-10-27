@@ -3,11 +3,11 @@
 - **Agente:** qa-de-marketing (departamento 10, Operações de Marketing)
 - **Linha:** geral (graduacao, pos, livres e eventos)
 - **Data:** 27/10/2026
-- **Commit revisado:** 45cbc09
+- **Commit revisado:** 45cbc09 (reconferência final no commit ce44d44, seção 8)
 - **Revisado (nenhum arquivo foi editado):**
   - Parte 1: saidas/10-operacoes-de-marketing/cursos/*.json (amostra da seção 2 da revisão M.4 e arquivos citados em cada B), ferramentas/mapa-mental/mapa_html.py
   - Parte 2: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-27-documento-final.html, saidas/09-analytics-e-insights/relatorios-geral-2026-10-27.md, ferramentas/mapa-mental/documento_final.py
-- **Entradas lidas:** contexto/ufape-geral.md; auditorias/conformidade-educacional.md; contexto/catalogo-de-cursos.md (cabeçalho, seções 1 e 2); docs/execucao-2026-10-26.md (decisões 1 a 20); docs/andamento-planejamento.md (inteiro); docs/pendencias-camada-1.md (inteiro); saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (cabeçalho, seções 1 e 2); saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md (linhas 1 a 210 e 780 a 1013: tabelas 1.1 e 1.2, regras, 2.3, 7.5, 7.7, 8, 9, 10 e 11); saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-27-mapa.md; saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-27-c.md; saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md (linhas 328 a 335)
+- **Entradas lidas:** contexto/ufape-geral.md; auditorias/conformidade-educacional.md; contexto/catalogo-de-cursos.md (cabeçalho, seções 1 e 2); docs/execucao-2026-10-26.md (decisões 1 a 20); docs/andamento-planejamento.md (inteiro); docs/pendencias-camada-1.md (inteiro); saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (cabeçalho, seções 1, 2 e 7); saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md (linhas 1 a 210 e 780 a 1013: tabelas 1.1 e 1.2, regras, 2.3, 7.5, 7.7, 8, 9, 10 e 11); saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-27-mapa.md; saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-27-c.md; saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md (linhas 328 a 335)
 - **JSON abertos:** pos-650, pos-698, pos-707, pos-657, pos-352, pos-359, pos-679, pos-68636, pos-68629, pos-366, pos-662, pos-691, pos-670, pos-68656, pos-68641, livres-623, livres-68637, livres-68634, livres-616, livres-469, livres-575, livres-573, livres-347, livres-721, livres-639, livres-68668, eventos-workshop-neuromonitorizacao-2026-11-20, eventos-sem-codigo-simposio-plantonista-veterinario, graduacao-medicina-veterinaria, graduacao-pedagogia
 - **Dados pessoais:** nenhum lido ou citado.
 
@@ -17,8 +17,8 @@
 
 | Parte | Veredito | Para onde vai |
 |---|---|---|
-| Parte 1: mapa e 184 JSON (B1 a B14) | **CORRIGIR** | Volta ao orquestrador (gerador ferramentas/mapa-mental/mapa_json.py): B6, B7, B13 e os problemas novos N1 e N2. B1 a B5, B8 a B12 e B14 passam |
-| Parte 2: documento final para o cliente | **CORRIGIR** | Volta ao relatorios (texto da narrativa, seção 4 desta revisão) e ao orquestrador (gerador documento_final.py, seção 5) |
+| Parte 1: mapa e 184 JSON (B1 a B14) | **CORRIGIR** (superado pela reconferência final, seção 8: APROVADO) | Volta ao orquestrador (gerador ferramentas/mapa-mental/mapa_json.py): B6, B7, B13 e os problemas novos N1 e N2. B1 a B5, B8 a B12 e B14 passam |
+| Parte 2: documento final para o cliente | **CORRIGIR** (superado pela reconferência final, seção 8: APROVADO) | Volta ao relatorios (texto da narrativa, seção 4 desta revisão) e ao orquestrador (gerador documento_final.py, seção 5) |
 
 Motivo em uma frase: o gerador resolveu quase todos os bloqueios, mas a 359 ficou sem a trava do desconto que o plano manda (regra 10), a P3 não segura a subida de 679 e 68636 e vários textos saem cortados com "…"; o documento final bate com as fontes em verba, metas em reais, contagens e recorte, mas traz números e situações desatualizados ou trocados (cards de abril, travas do Workshop, PP13 e PP14, "13 campanhas", A4), nomes "[CONFIRMAR]" na lista da próxima etapa, um link quebrado e termos internos sem explicação para a diretoria.
 
@@ -47,7 +47,7 @@ Nada foi publicado, enviado ou pago. Nenhuma das duas partes segue para a aprova
 | B4 | **APROVADO** | pos-691.json: `"recorte": "historico"`, `"grupo_de_campanha": null`, `"entregas": []`, 8 canais `"estado": "fora"`, `"motivo": "fora do recorte do plano (seção 2.4)"`, sem a pendência "decisão 14", `"bloqueado": false` | - |
 | B5 | **APROVADO** | livres-616.json, livres-469.json, livres-575.json, livres-623.json: `"preco_estruturado": null`; pos-698.json: 18 x 1.498,33 = 26.969,94 contra 26.970,00 (diferença dentro de R$ 0,01 por parcela), estruturado mantido | - |
 | B6 | **CORRIGIR** | pos-359.json: `"ref_plano": "OU24"`, `"bloqueia": ["preco"]`, descrição só com "desconto de 12%"; `"resumo": {"pendencias_abertas": 14, "bloqueado": false}`. Em pos-352.json a OU23 sai com `"tipo": "data"`, `"campos": ["inicio"]` e `"bloqueia": ["data", "peca_final"]` | (a) OU24 em 359: `"tipo": "preco_ou_condicao"`, `"campos": ["condicoes_especiais"]`, `"bloqueia": ["preco", "peca_final"]`, descrição com os três pontos da pergunta (desconto de 12% sem regra completa, pré-requisito de residência ou pós, convite da prova de Especialista), fonte "cmo-pos-2026-10-27-onda3.md, regra 10, 2.3 e seção 8". (b) Regra geral: código de pergunta cujo texto no plano trata de desconto ou público (OU23, OU24, OU27, OU28) recebe `"peca_final"` quando a regra 9 ou 10 do plano da onda diz que a peça não sai; não derivar `bloqueia` só da palavra "data". (c) OU23 em 352: manter `"tipo": "data"` e acrescentar `"condicoes_especiais"` em `campos` e `"preco"` em `bloqueia`, porque a pergunta cobre data e desconto |
-| B7 | **CORRIGIR** | pos-679.json e pos-68636.json: `"ref_plano": "P3"`, `"bloqueia": ["data", "preco"]`, descrição terminando em `"Tratamento no plano……"`; pos-679.json: `"ref_plano": "OU19"`, `"bloqueia": ["data"]`, descrição "afeta: data nas peças, subida, contagem de cards". livres-573.json e pos-662.json: `"Tratamento no plano: [CONFIRMAR]."` (P6 e P5). Relacionados, P17, política de entrada e inicio_na_visao conferem (livres-573: `"inicio_na_visao": "2026-11-29"`, `"divergencia_de_data": true`; livres-347: P17 com `peca_final`; livres-721: "2.1 item 3") | (a) P3 em 679, 68636 e 662: `"bloqueia": ["data", "preco", "anuncio"]`, porque o plano da onda 3 diz "subida só com P3 (lote 2)" (4.1) e o inventário diz "subida 06/01 com as travas P3 (679, 68636, 662)". (b) Pergunta cujo "Por que importa" cita "subida", "mídia" ou "campanha" recebe `"anuncio"` em `bloqueia` (OU19 em 679). (c) A descrição da P3 em cada item diz o que vale para aquele item (em 68636: "data só no site, sem linha na planilha"), sem a lista dos outros códigos. (d) "Tratamento no plano" é copiado da coluna de tratamento da seção 7 do plano geral; "[CONFIRMAR]" só quando a coluna estiver vazia |
+| B7 | **CORRIGIR** | pos-679.json e pos-68636.json: `"ref_plano": "P3"`, `"bloqueia": ["data", "preco"]`, descrição terminando em `"Tratamento no plano……"`; pos-679.json: `"ref_plano": "OU19"`, `"bloqueia": ["data"]`, descrição "afeta: data nas peças, subida, contagem de cards". livres-573.json e pos-662.json: `"Tratamento no plano: [CONFIRMAR]."` (P6 e P5). Relacionados, P17, política de entrada e inicio_na_visao conferem (livres-573: `"inicio_na_visao": "2026-11-29"`, `"divergencia_de_data": true`; livres-347: P17 com `peca_final`; livres-721: "2.1 item 3") | (a) P3 em 679, 68636 e 662: `"bloqueia": ["data", "preco", "anuncio"]`, porque o plano da onda 3 diz "subida só com P3 (lote 2)" (4.1) e o inventário diz "subida 06/01 com as travas P3 (679, 68636, 662)". (b) Pergunta cujo "Por que importa" cita "subida", "mídia" ou "campanha" recebe `"anuncio"` em `bloqueia` (OU19 em 679). (c) A descrição da P3 em cada item diz o que vale para aquele item (em 68636: "data só no site, sem linha na planilha"), sem a lista dos outros códigos. (d) "Tratamento no plano" é copiado da coluna de tratamento da seção 7 do plano geral; "[CONFIRMAR]" só quando a coluna estiver vazia (item (d) retirado na seção 8: a própria coluna do plano começa com "[CONFIRMAR].") |
 | B8 | **APROVADO** (ver N1) | pos-707.json: OA1, OA2-B, OA8, OA10, OA9, OA11, OA12; pos-698.json: OA1, OA5, OA8, OA10, OA9, OA11, OA12; pos-662.json: OC8, AMP13 a AMP25, AGP12 a AGP25, PP16 e MO6, OM1 a OM7, R5; workshop: R2, R3, R7; pos-657.json: OB5, AD-F6-1 a AD-F6-5, AF1 a AF7 e DEC1 a DEC7, MO1 a MO5, AMP13 a AMP25, AGP12 a AGP25, R6. `"quanto": "R$ 2.000,00 por turma, decisão 15"` nos pedidos de mídia; efeito_esperado copiado ou "conforme o plano da onda" | - |
 | B9 | **APROVADO** | workshop: `"nome_padrao": "Workshop Brasileiro de Neuromonitorização"`, `"aliases": ["I Simpósio Brasileiro de Neuromonitorização Veterinária"]`, `"desconto_texto": "20% de desconto"`, `"modalidades"` com 2 itens (30 vagas; produto 68634), 7 chaves do kit (pagina com `"inventario_pendente"`), U9. livres-68634.json: `"linha": "eventos"`, `"tipo": "workshop"`, `"modalidade_normalizada": "online"`, P9 com `"bloqueia": ["peca_final"]`. Posts do workshop com `"qa": "aprovado"`: confere, porque a troca pedida em qa-de-marketing-eventos-2026-10-27-c.md (R-P2) está aplicada na linha 332 de posts-sociais-eventos-2026-10-26.md, conferida nesta revisão | - |
 | B10 | **APROVADO** | pos-670.json e pos-68656.json: `"recorte": "pendencia"`, `"dias_ate_inicio": null` | - |
@@ -317,29 +317,110 @@ A troca C16 só define termos: não cria dado. Nenhuma correção acima usa trav
 
 ---
 
+## 8. Reconferência final (commit ce44d44)
+
+Escopo: só os pontos devolvidos nas seções 2 a 5, mais o desvio de tamanho das descrições. Nenhum arquivo revisado foi editado.
+
+### 8.1 Vereditos
+
+| Parte | Veredito | Para onde vai |
+|---|---|---|
+| Parte 1: mapa e 184 JSON | **APROVADO**, com o desvio de R9 aceito e registrado (8.3) | Segue para a aprovação humana junto com o documento; o desvio vai ao arquiteto-de-fluxos |
+| Parte 2: documento final | **APROVADO**, com uma ressalva de texto que não bloqueia (8.4) | Segue para a aprovação humana da pessoa do marketing antes de ir à diretoria da Ufape |
+
+### 8.2 Parte 1, ponto a ponto
+
+| Ponto | Resultado | Trecho conferido |
+|---|---|---|
+| B6 | **APROVADO** | pos-359.json: `"ref_plano": "OU24"`, `"tipo": "preco_ou_condicao"`, `"campos": ["condicoes_especiais"]`, `"bloqueia": ["preco", "peca_final", "anuncio"]`, descrição com desconto, público e convite da prova de Especialista, fonte "seção 8, regra 10 e 2.3"; `"bloqueado": true`. pos-352.json: OU23 com `"campos": ["inicio", "condicoes_especiais"]` e `"bloqueia": ["data", "peca_final", "preco"]`. A OU22 da 359 segue só com `["data"]`, como pede o plano (2.3) |
+| B7 | **APROVADO** | pos-679.json: P3 com `"bloqueia": ["data", "preco", "anuncio"]` e descrição só da 679 ("linha \"Citopatologia 03/04\" que aponta para Infectologia 679"); OU19 com `["data", "anuncio"]`. pos-68636.json: P3 com `anuncio` e "P3 (data sem planilha)" da tabela 1.1. Correção minha: o item (d) de B7 estava errado. A coluna "Tratamento no plano" da seção 7 do plano geral começa, ela mesma, com "[CONFIRMAR]." (P3, P5 e P6), então o gerador copia certo. Retiro o item (d) |
+| B13 | **APROVADO** | graduacao-pedagogia.json: `"vagas.vagas_ofertadas"` na pendência "editais" e `"turnos": [{"turno": "noturno", "duracao_anos": 4, "vagas": 80, ...}]`, que vem do edital |
+| N1 | **APROVADO** | Textos inteiros, sem "…", na amostra: G11 ("... (em que semestre) com autorização de uso do hospital em peças"), OA10 de pos-707.json ("... e o que vale para os módulos perdidos (OU3)"), P3 de 679 e de 68636, OU24 e OU23 |
+| N2 | **APROVADO** | pos-366.json e pos-352.json: P4 com as datas do próprio item ("planilha 10/04/2027; site: site e cronograma em 24/04/2027") e sem menção à 698. pos-698.json: "Revogado pela decisão 19 (27/10/2026)", com `"resolvida_em": "2026-10-27"` |
+| Ressalva R5 | **APROVADO** | pos-662.json: R5 com `"quanto": "sem aumento de verba"` |
+
+### 8.3 Desvio: descrições acima de 240 caracteres (R9)
+
+**ACEITO como desvio registrado.** Motivo: cortar fazia sumir a regra no meio da frase (N1). A R9 existe para manter o texto curto, não para esconder a condição. Trocar o corte por um texto completo é o lado seguro. Exemplos conferidos: a OU24 da 359 e a OU23 da 352 passam de 240 caracteres e carregam a trava inteira.
+
+Condições:
+- o arquiteto-de-fluxos decide, na próxima versão do esquema, entre limite maior e campo novo de texto completo (por exemplo `descricao_completa`, com `descricao` curta). Campo novo opcional não muda a versão; mudar o limite da R9 entra no documento de fluxo;
+- até lá, nenhum texto pode passar de 240 caracteres por acréscimo do gerador (nota, prefixo repetido). Só o texto copiado da fonte pode passar;
+- o mapa e a plataforma não podem cortar na exibição sem mostrar o texto inteiro no detalhe.
+
+Observação de forma (não bloqueia): em várias descrições falta o ponto antes de "Afeta:" (exemplo, pos-359.json, OU22: "(só no site, 22/05/2027) Afeta: data nas peças"). Fica para a próxima rodada do gerador.
+
+### 8.4 Parte 2, ponto a ponto
+
+- **C1 a C16:** as 16 trocas estão no arquivo com o texto pedido. Conferi no relatorios-geral-2026-10-27.md o glossário (linhas 36 a 49) e a frase 1 (linha 55). Conferi também:
+  - 2.1, Workshop e mapa (linhas 77 e 80);
+  - 2.4, os 129 cards de abril (linha 140);
+  - 2.7, as travas na ordem da revisão do eventos (linha 181);
+  - 4.6, item 39 (linha 359);
+  - seção 5: R6 com [SUPOSIÇÃO], PP13 e PP14 já fechados e "Campanhas Meta das 14 turmas" (linhas 370 a 374);
+  - 6.1, datas de 03/11 e 30/11 (linhas 398 e 416);
+  - 7.1, plano revisado e 662 (linhas 475 e 491);
+  - Fatos (linhas 537 e 538).
+- **R-D13:** **APROVADO.** A lista da próxima etapa (HTML, linha 259) mostra "Pós-graduação em Inteligência Artificial na Saúde" (719) e "Pós-graduação em Ultrassonografia de Pequenos Animais" (68629), sem "[CONFIRMAR]". O nome segue a regra E2. As 12 turmas continuam certas.
+- **R-D14:** **APROVADO.** `<a href="https://faculdade.ufape.com.br/neuro-summit/" rel="noopener">...</a>.`, com o ponto fora do endereço (HTML, linha 164).
+- **R-D15:** **APROVADO.** A seção "Fontes" (HTML, linha 229) só tem caminhos relativos.
+- **R-D16:** **APROVADO.** O script tira o bloco "Arquivos das camadas" e a coluna "Responsável" (cabeçalho e as duas linhas do kit). Troca "aprovado pelo qa" por "aprovado na revisão de qualidade" no estado e no cartão (HTML, linha 250) e tira "Fora do recorte" da legenda (linha 253). Cada troca tem `assert`: se o mapa mudar, o script falha em vez de passar calado.
+- **Conferência automática:** **APROVADO.** `len(ids) + len(proxima)` é igual ao total "planejar", o que fecha 100 + 12. Ressalva técnica, que não bloqueia: o `assert` de data (documento_final.py, linha 133) não pega nada, porque `no_documento` já exclui o que passa de 30/04/2027. Para servir de checagem de verdade, ele deve rodar sobre `ids` relendo a data de cada item.
+- **Os seis números:** aceito a conferência do orquestrador, com as fontes citadas. São eles:
+  - 46 páginas: arquiteto-de-fluxos-geral, A7;
+  - duas pessoas no plantão: gestor-de-midia-pos onda 3, titular e suplente;
+  - R$ 142,86 por semana: gestor-de-midia-graduacao;
+  - devolução de 80%: qa-de-marketing-graduacao-2026-10-27-campanhas;
+  - 5 das 10 turmas: gestor-de-midia-pos onda 3;
+  - 11/01 e 29/01: cmo-pos onda 3 e gestor-de-midia-pos onda 3.
+
+  Não reabri esses arquivos. Conferi por mim o "R$ 142,86": dá R$ 2.000,00 dividido por 14 semanas, de 16/11/2026 a 21/02/2027.
+
+**Ressalva de texto (não bloqueia):** a linha "Mapa por curso" de 2.1 (C3, linha 80) ainda diz "a reconferência de 27/10 ainda pede ajustes no gerador". Com esta reconferência, isso ficou velho:
+- Trocar: "Mapa e 184 arquivos por curso gerados em 27/10 e refeitos depois da primeira revisão de qualidade; a reconferência de 27/10 ainda pede ajustes no gerador"
+- Por: "Mapa e 184 arquivos por curso gerados em 27/10, refeitos depois da primeira revisão de qualidade e aprovados na reconferência final de 27/10"
+
+A mesma troca vale na linha de Fatos (C14) se o orquestrador quiser citar o veredito final.
+
+### 8.5 Conformidade educacional (só os itens que falhavam)
+
+| Parte | Item | Resultado agora |
+|---|---|---|
+| 1 | Bolsa e desconto com regra, público e validade (359) | ok: OU24 segura peça final, preço e anúncio |
+| 1 | Página de destino entrega o prometido (679 e 68636) | ok: P3 segura anúncio |
+| 2 | Nome bate com o catálogo (próxima etapa) | ok: 719 e 68629 com o nome padrão |
+| 2 | Número sem erro contra a fonte | ok: cards de abril (129, 52, 77, 65) e "14 turmas (13 ativas)" |
+
+Os demais itens não mudaram (seções 6.1 e 6.2). Continua valendo: nada de "Agência", nenhum nome de pessoa, nenhum dado pessoal e nenhuma frase que ligue certificado ao MEC fora das pendências.
+
+**Resultado:** Aprovado, nas duas partes. Revisado por: qa-de-marketing (agente). Falta a revisão humana da pessoa do marketing antes de o documento ir à diretoria da Ufape. Data: 27/10/2026.
+
+---
+
 ## Fatos (com fonte)
 
 - A regra 10 do plano da onda 3 segura toques, posts e cards de 359 e 352 até a página corrigida ou o desconto retirado. A 2.3 diz "359 sem pré-requisito, sem desconto". Fonte: cmo-pos-2026-10-27-onda3.md.
 - Subida de 679 e 68636 só com P3: cmo-pos-2026-10-27-onda3.md, seção 3 (anuncios-meta v6) e 4.1.
+- A coluna de tratamento da P3, P5 e P6 começa com "[CONFIRMAR].": cmo-geral-2026-10-26.md, seção 7.
 - Decisão 19 libera peças e mídia da 698: docs/execucao-2026-10-26.md.
 - Na revisão qa-de-marketing-eventos-2026-10-27-c.md os posts voltaram CORRIGIR com 1 troca e as mensagens foram APROVADAS. A troca está aplicada na linha 332 de posts-sociais-eventos-2026-10-26.md.
 - Abril tem 129 cards: 52 firmes, 77 de lacuna e 65 com reservas. Fonte: docs/andamento-planejamento.md (O6).
 - PP13 e PP14 estão fechados: docs/andamento-planejamento.md (F11).
 - "Campanhas Meta das 14 turmas (13 ativas; 662 pausada até OU18)": docs/pendencias-camada-1.md.
 - As 6 turmas iniciadas "seguem com campanha paga ATIVA": cmo-geral-2026-10-26.md, 2.1 item 2; docs/execucao-2026-10-26.md.
-- O documento tem 100 itens no mapa e 12 na próxima etapa (HTML, linhas 231 e 256; lista IDS na linha 263).
+- O documento tem 100 itens no mapa e 12 na próxima etapa (HTML, linhas 233 e 258).
 
 ## Suposições ([SUPOSIÇÃO])
 
 - [SUPOSIÇÃO] Os JSON fora da amostra seguem as mesmas regras do gerador, sem exceção por item além das já vistas.
 - [SUPOSIÇÃO] A data de 03/11 do item 39 vem de algum plano que não abri. Só o texto "pausadas" contradiz as fontes lidas.
 - [SUPOSIÇÃO] As definições do glossário (C16) descrevem o uso dos termos nos planos lidos. Não criam regra nem dado.
+- [SUPOSIÇÃO] Os seis números da seção 8.4 estão nas linhas citadas pelo orquestrador; não reabri esses arquivos.
 
 ## Dados que faltam ([CONFIRMAR])
 
-- [CONFIRMAR] Fonte de "6 turmas iniciadas e pausadas" e da data de 03/11 (A4).
-- [CONFIRMAR] Data de cada pedido de mídia (30/11 e 30/12) no gestor-de-midia-pos.
-- [CONFIRMAR] Os itens "não conferido" da seção 3.2.
+- [CONFIRMAR] Origem da data de 03/11 (A4), marcada no próprio documento.
+- [CONFIRMAR] Data de cada pedido de mídia (30/11 e 30/12) no gestor-de-midia-pos, marcada no próprio documento.
 - [CONFIRMAR] Quem aprova cada tipo de peça (contexto/ufape-geral.md, regras de aprovação, ainda vazio).
 
 ## Fontes
@@ -358,4 +439,4 @@ A troca C16 só define termos: não cria dado. Nenhuma correção acima usa trav
 - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-27-c.md
 - saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md
 - saidas/10-operacoes-de-marketing/cursos/ (JSON listados no cabeçalho)
-- ferramentas/mapa-mental/mapa_html.py e ferramentas/mapa-mental/documento_final.py
+- ferramentas/mapa-mental/mapa_json.py, mapa_html.py e documento_final.py
