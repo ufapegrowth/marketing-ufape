@@ -197,7 +197,7 @@ Os públicos de visitantes e de engajamento precisam existir antes da subida. O 
 
 ---
 
-Continuação de `anuncios-meta-pos-2026-10-26.md` (cabeçalho e seções 0 a 4). Mesmos marcadores, mesma versão.
+
 
 ---
 
@@ -378,10 +378,10 @@ As datas de corte seguem a seção 3.3. No dia seguinte ao corte, o humano pede 
 | 04/01 | Conversão de março: o frio volta (mesma campanha) com a diária da conversão; remarketing troca a diária; rodízio onde disparou em 21/12 | as 5 de março | revisão de 04/01; em 289, nova versão antes desta data se o gasto anterior passar de R$ 595,00 (seção 7.3) |
 | 06/01 (quarta) | Sobem as duas campanhas das turmas de abril, com as diárias do aquecimento (662 só depois da OU18, com link corrigido) | as 8 de abril; 662 retida | PP11, PP16, travas liberadas |
 | 18/01 | Gatilho do rodízio de abril lido (1ª semana fechada, 11 a 17/01) | as de abril no ar | revisão de 18/01 |
-| 25/01 (segunda, feriado municipal em São Paulo) | Conversão de abril: diárias da conversão em frio e remarketing. Peças -exta e -extb de março prontas (criativos-de-anuncio). Execução pela seção 5.5b | as de abril no ar; março | plano A, B ou C da seção 5.5b; em 662, só se já estiver no ar, com nova versão antes desta data se o gasto anterior passar de R$ 725,00 (seção 7.3) |
+| 25/01 (segunda, feriado municipal em São Paulo) | Conversão de abril: diárias da conversão em frio e remarketing. Peças -exta e -extb de março prontas (criativos-de-anuncio), com a -exta nova de 333 (`333-r2-exta_e11_inicio_v2`). Execução pela seção 5.5b | as de abril no ar; março | plano A, B ou C da seção 5.5b; em 662, só se já estiver no ar, com nova versão antes desta data se o gasto anterior passar de R$ 725,00 (seção 7.3) |
 | 12/02 | Pausa do frio e dos anúncios com data; início da extensão com a -exta (diária R$ 1,51 até 21/05; -exta até 12/03) | 657 | corte em 11/02; condições da extensão (6.4); revisão de 10/02 decide |
 | 19/02 | idem, com a -exta (até 19/03); extensão até 21/05 (68615, diária R$ 1,63), 14/05 (289, R$ 1,76) e 30/04 (341, R$ 2,11) | 68615, 289, 341 | corte em 18/02 |
-| 25/02 | Peças -exta e -extb de abril prontas (criativos-de-anuncio), com a -exta nova de 333 e de 68632 (nomes `_v2`) | abril; 333 e 68632 | prazo da encomenda; qa antes do MO6 |
+| 25/02 | Peças -exta e -extb de abril prontas (criativos-de-anuncio), com a -exta nova de 68632 (`68632-r2-exta_e11_inicio_v2`) | abril; 68632 | prazo da encomenda; qa antes do MO6 |
 | 26/02 | idem, com a -exta nova (texto das decisões do cmo, nome `333-r2-exta_e11_inicio_v2`); extensão até 26/03, diária R$ 5,17 | 333 | corte em 25/02; com OU3, saldo até 28/05 |
 | 05/03 | Pausa do frio e dos anúncios com data; **início da -exta liberada pelo gestor**, diária R$ 1,29, até 02/04 (teto da -exta R$ 37,41) | 679 | corte em 04/03; P3 resolvida; condições da 6.4 |
 | 12/03 | Pausa do frio e dos anúncios com data; extensão com a -exta de 68628 (R$ 1,41, até 25/06; -exta até 09/04) e de 68632 (texto novo, `68632-r2-exta_e11_inicio_v2`, R$ 5,17, até 09/04); **-exta liberada de 68635 e 366** (R$ 1,36, até 09/04, teto R$ 39,44; 366 só com P4 resolvida) | 68632, 68635, 366, 68628 | corte em 11/03 |
@@ -913,7 +913,7 @@ Não se aplica nesta rodada. Toda campanha da Pós leva à página da turma (ges
 
 ## 12. Pedidos de aprovação humana (AMP13 a AMP25)
 
-Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos vão à pessoa do marketing que aprovou o plano do cmo; os que mudam canal ou distribuição vão também ao gestor e ao cmo. Quem executa: humano no gerenciador. Nada é executado pela squad. Os pedidos AMP1 a AMP12 da versão 2 são das provas e estão suspensos na seção 13. Os pedidos MO6, OM2, OM3 e OM4 dos memorandos do gestor são os mesmos aqui como AMP25, AMP18 e AMP15 (execução em fim de semana e feriado); o MO6 só é aprovado depois do qa desta versão.
+Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos vão à pessoa do marketing que aprovou o plano do cmo; os que mudam canal ou distribuição vão também ao gestor e ao cmo. Quem executa: humano no gerenciador. Nada é executado pela squad. Os pedidos AMP1 a AMP12 da versão 2 são das provas e estão suspensos na seção 13. Os pedidos MO6, OM2 e OM3 dos memorandos do gestor são os mesmos aqui como AMP25, AMP18 e AMP15 (execução em fim de semana e feriado de março e abril); o OM4 (maio) não faz parte deste arquivo; o MO6 só é aprovado depois do qa desta versão.
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
@@ -931,7 +931,7 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos v�
 | AMP24 | Limite de gasto por campanha (se o recurso existir), igual ao total da campanha na turma (seção 5.1: frio R$ 668,95 ou R$ 735,25; remarketing R$ 581,80 ou R$ 541,00), e limite de gasto da conta acima da soma das diárias | A diária pode oscilar acima do valor em alguns dias [SUPOSIÇÃO de plataforma] e o teto de R$ 2.000,00 é do CEO | Sem aumento de verba | Teto por campanha respeitado | Retirar o limite, com aprovação | 30/11; 30/12 |
 | AMP25 | **O que:** extensão em duas peças em sequência **dentro da campanha e do conjunto de remarketing existentes** de cada turma, adaptações do r2 (r2 fixo) (EM16). (1) No dia seguinte ao corte, subir a **-exta** (`<código>-r2-exta_e11_regra3mod_v1`; em 333 e 68632, o texto novo `333-r2-exta_e11_inicio_v2` e `68632-r2-exta_e11_inicio_v2`; UTM da seção 6.4), com r1 e r2 pausados e o frio pausado; (2) no dia do início das aulas, **pausar a -exta e ativar a -extb** (`<código>-r2-extb_e11_regra3mod_v1`), com a mesma diária (em 68635, 679 e 366, pelo saldo), nunca as duas no ar ao mesmo tempo, com a forma de execução da seção 5.5b em sábado, domingo e feriado; (3) pausa total às 23h59 da véspera do 3º módulo. Só se a turma não tiver 15 matrículas nem lotada [CONFIRMAR vagas] e com as peças aprovadas pelo qa. Bloqueios e liberações: **333 e 68632, só a -exta nova, sem "Matrícula aberta até o 3º módulo", enquanto a OU3 estiver aberta, com a mídia parando às 23h59 da véspera do início (26/03 e 09/04); a -exta antiga arquivada até a OU3; 68635, 679 e 366, -exta liberada pelo gestor (diária de R$ 1,36, R$ 1,29 e R$ 1,36 por canal; teto da -exta de R$ 39,44, R$ 37,41 e R$ 39,44; regra do saldo para a -extb), -extb só com o dia do 3º módulo; 662 com as duas bloqueadas.** Datas de troca na tabela da seção 6.4 (13/03 em 657; 20/03 em 68615, 289 e 341; 03/04 em 679; 10/04 em 68628, 68635 e 366; 17/04 em 68617 e 68636; 24/04 em 68609; 27/03 em 333 e 10/04 em 68632 só com OU3) | **Por quê:** decisão 18 do CEO (matrícula até o 3º módulo) e teto da decisão 15. A extensão começa no dia seguinte ao corte, antes do início das aulas na maioria das turmas, e dizer "as aulas já começaram" antes do início seria falso (CC1). Em 333 e 68632, a regra 8 do plano da onda 3 impede a frase de entrada até o 3º módulo enquanto a OU3 estiver aberta (decisões do cmo). Em 68635, 679 e 366, a -exta não depende do dia do 3º módulo e as semanas antes do início são as que mais decidem a matrícula de quem já visitou a página (item g) | **Quanto:** R$ 150,00 na Meta por turma no período todo (-exta mais -extb), no máximo R$ 2.100,00 nas 14, já dentro dos R$ 2.000,00 por turma; diária da tabela 5.2b, igual nas duas peças, sem mudança na troca (em 68635, 679 e 366, a -extb pelo saldo); na -exta, teto por canal de R$ 39,44, R$ 37,41 e R$ 39,44 | **Efeito esperado:** remarketing até o último dia em que a pessoa ainda pode entrar, com a mensagem correta antes e depois do início, sem passar do teto. Sem número de resultado esperado: leitura mensal, volume muito baixo [DADO NÃO FORNECIDO] | **Como desfazer:** pausar o anúncio ativo (-exta ou -extb) e a campanha de remarketing da turma, com exportação antes; voltar ao bloqueio da extensão em 68635, 679 e 366 (nova versão deste arquivo); se o início da turma mudar, pausar a -exta ou a -extb conforme o caso e refazer a data de troca; a -extb nunca fica ativa antes do início | peças em 25/01 (março) e 25/02 (abril); início da -exta nas datas da seção 5.5; troca no dia do início de cada turma; MO6 depois do qa desta versão |
 
-**Os 3 primeiros:** AMP19 (teste de rastreio de 30/10), AMP18 (pausa de 662, na próxima ação) e AMP17 (gasto de 289, antes de 03/11) e AMP13 (estrutura de março, com a pergunta do D12). **Vão ao cmo, com ciência dele:** AMP13 (nome com área curta) e AMP23 (liberação de P3 pela pessoa do marketing com ciência do cmo). Nenhum pedido muda a verba total nem o canal.
+**Os 4 primeiros:** AMP19 (teste de rastreio de 30/10), AMP18 (pausa de 662, na próxima ação), AMP17 (gasto de 289, antes de 03/11) e AMP13 (estrutura de março, com a pergunta do D12). **Vão ao cmo, com ciência dele:** AMP13 (nome com área curta) e AMP23 (liberação de P3 pela pessoa do marketing com ciência do cmo). Nenhum pedido muda a verba total nem o canal.
 
 ---
 
@@ -1311,7 +1311,7 @@ Esta versão não escreve texto de anúncio novo, salvo a cópia literal da -ext
 - **662 com a pausa do OM2** (OC8): campanha atual pausada até a OU18, com exportação; estrutura nova só depois, pela regra de turma atrasada (seção 5.6); limite de R$ 500,00 e recálculo de 30/12 suspensos enquanto a pausa durar; nova seção 7.5; AMP14 (abril com 8 turmas montadas, 662 fora) e AMP18 reescritos.
 - **Errata do item h** (memorando da onda 2): a extensão roda dentro da campanha e do conjunto de remarketing existentes (sem campanha nem conjunto novos), com r2 fixo (sem escolha de peça por menor CPL) e "fale com o time" sobre os módulos já realizados. Ajustadas as seções 0, 1, 3.1, 4.1, 6.4 e 12 (AMP25) e o item S23.
 - **Não mudou:** verba, diárias aprovadas, totais, datas de corte, subida, conversão e pausa total (salvo a pausa em 26/03 e 09/04 de 333 e 68632, que já era o plano até a OU3), nomes de campanha e conjunto, textos, títulos, descrições e botões do frio e do r1 e r2, UTM dos 70 anúncios, URL de destino, travas P3, P4, U10, PP7, URL de 68617 e c3 de 662, regras de preço, seção 7 (289) e o texto da seção 13 (provas, suspenso). As ressalvas RM1, RM2, RE3, RE4, RE5, CE2 (com o texto novo), R1, R2, R4, R5 e R6 seguem aplicadas.
-- **Formato do arquivo:** por limite de tamanho de saída, a versão 7 foi gravada em sete partes na mesma pasta (arquivo principal e `-p2` a `-p7`); o conteúdo é o do arquivo inteiro, na ordem.
+- **Formato do arquivo:** por limite de tamanho de saída, a versão 7 foi gravada em sete partes e juntada pelo orquestrador neste arquivo único, na ordem; vale só este arquivo.
 
 **Versão 6 (27/10/2026)**, a partir da resolução do CC1 pelo orquestrador (criativos-de-anuncio-pos-2026-10-27-ext, versão 2), da ressalva R6 do qa-de-marketing (rodada d), da ressalva R5 (caracteres de árvore) e dos ajustes RE3, RE4, RE5 e CE2 da rodada e. Mudança única e estrutural: a extensão passa a ter duas peças em sequência.
 
@@ -1429,7 +1429,7 @@ Esta versão não escreve texto de anúncio novo, salvo a cópia literal da -ext
 
 ## Fontes
 
-Internas: as entradas listadas no cabeçalho do arquivo principal. Externas: nenhuma. Regras de política e de recurso da Meta sem fonte nos arquivos estão marcadas [SUPOSIÇÃO].
+Internas: as entradas listadas no cabeçalho. Externas: nenhuma. Regras de política e de recurso da Meta sem fonte nos arquivos estão marcadas [SUPOSIÇÃO].
 
 ---
 

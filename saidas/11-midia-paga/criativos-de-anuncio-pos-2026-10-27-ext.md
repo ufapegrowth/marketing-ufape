@@ -35,7 +35,7 @@
 
 ## 0. Resumo e o que bloqueia
 
-1. **O que entrega:** para cada uma das 14 turmas, duas peças em sequência. **-exta** (pré-início): diz que as aulas começam na data da ficha e que a matrícula segue aberta até o 3º módulo, sem urgência. **-extb** (a partir do início): diz que as aulas já começaram, a matrícula vale até o 3º módulo e quem quiser saber dos módulos já realizados fala com o time. Cada peça tem Meta (trecho visível de até 125 caracteres, título de até 40, descrição de até 30, texto da imagem 1:1 e adaptação 9:16) e Google (5 títulos de até 30 e 2 descrições de até 90). Todas as contagens estão nas seções 3 e 4.
+1. **O que entrega:** para cada uma das 14 turmas, duas peças em sequência. **-exta** (pré-início): diz que as aulas começam na data da ficha e que a matrícula segue aberta até o 3º módulo, sem urgência; em 333 e 68632, enquanto a OU3 estiver aberta, diz só a data de início e o formato, sem o 3º módulo (regra 8, decisões do cmo). **-extb** (a partir do início): diz que as aulas já começaram, a matrícula vale até o 3º módulo e quem quiser saber dos módulos já realizados fala com o time. Cada peça tem Meta (trecho visível de até 125 caracteres, título de até 40, descrição de até 30, texto da imagem 1:1 e adaptação 9:16) e Google (5 títulos de até 30 e 2 descrições de até 90). Todas as contagens estão nas seções 3 e 4.
 2. **Nenhuma peça promete gravação nem reposição.** A resposta de como o aluno recupera os módulos é [CONFIRMAR OU3] e pode mudar a última frase de toda peça -extb.
 3. **Nenhuma peça cita:** preço, parcela, valor de inscrição ou de matrícula, "certificado", "reconhecida pelo MEC", "últimas vagas", "vagas limitadas", contador, "corra", docente, depoimento ou imagem de pessoa. Datas de início e do 3º módulo vêm só das fichas e do catálogo.
 4. **CC1 está resolvido** (seção 2): a -exta cobre do dia seguinte ao corte até a véspera do início, e a -extb do início até a véspera do 3º módulo. Em 333 e 68632, enquanto OU3 estiver aberta, vale só a -exta.
@@ -122,7 +122,7 @@
 | 68628 | 12/03/2027 | 09/04/2027 | 10/04/2027 | 25/06/2027 | prontas para o qa; sem número de turma |
 | 68609 | 26/03/2027 | 23/04/2027 | 24/04/2027 | 25/06/2027 | prontas para o qa |
 | 68632 | 12/03/2027 | 09/04/2027 | 10/04/2027 | 11/06/2027, só com OU3 | só a -exta enquanto OU3 estiver aberta; presencial (nunca "semipresencial") |
-| 679 | 05/03/2027 | 02/04/2027 | 03/04/2027 (planilha) | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta liberada pelo gestor (memorando da onda 2, item g); -extb só com o dia do 3º módulo; sem data de início (P3 resolvido) |
+| 679 | 05/03/2027 | 02/04/2027 | 03/04/2027 (planilha) | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta liberada pelo gestor (memorando da onda 2, item g); -extb só com o dia do 3º módulo; sem data de início até a P3 ser resolvida |
 | 366 | 12/03/2027 | 09/04/2027 | 10/04/2027 (planilha; o site diz 24/04/2027, P4) [CONFIRMAR] | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta liberada pelo gestor (memorando da onda 2, item g); -extb só com o dia do 3º módulo; sem data de início, a troca só com a data conferida (P4) |
 | 662 | 26/03/2027 | 23/04/2027 | 24/04/2027 (planilha; a página mostra 15/08/2026, P3) | [CONFIRMAR] (ficha com módulos de 2026) | bloqueadas: ficha de 2026 e sem 3º módulo; só nome, campus e data; sem a frase do AP7 |
 
@@ -194,7 +194,7 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 
 ### 333. Pós-graduação em Citopatologia Veterinária (São Paulo). Só a -exta enquanto OU3 estiver aberta
 
-A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (28/05/2027). A -exta abaixo é o texto novo da decisão do cmo (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-333-359.md, seção 2), copiado literalmente: sem "3º módulo" e sem a data do 3º módulo em nenhuma linha, nenhum título com data, e 333 é semipresencial, então nenhuma peça diz "Turma presencial". Janela de 26/02 a 26/03/2027, pausa total às 23h59 de 26/03 (plano C às 18h), diária, R$ 150,00 por canal e R$ 2.000,00 da turma sem mudança. A versão anterior da -exta está arquivada na nota ao fim desta turma e não sobe antes da OU3.
+A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (28/05/2027). A -exta abaixo é o texto novo da decisão do cmo (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-decisao-333-359.md, seção 2), copiado literalmente: sem "3º módulo" e sem a data do 3º módulo em nenhuma linha, nenhum título com data, e 333 é semipresencial, então nenhuma peça diz "Turma presencial". Janela de 26/02 a 26/03/2027, pausa total às 23h59 de 26/03 (sexta da Paixão: término programado antes do feriado, MO5; plano C na quinta 25/03, 18h), diária, R$ 150,00 por canal e R$ 2.000,00 da turma sem mudança. A versão anterior da -exta está arquivada na nota ao fim desta turma e não sobe antes da OU3.
 
 **-exta, Meta (texto da decisão do cmo, v2)**
 - Trecho visível (103): "Pós-graduação em Citopatologia Veterinária: aulas em 27/03/2027. Módulo 1 presencial, campus São Paulo."
@@ -549,7 +549,7 @@ Pins sugeridos no Google [SUPOSIÇÃO de plataforma; conferir no editor]: em `__
 
 ## 5. Matriz de variações e nomes padronizados (skill matriz-de-criativos)
 
-As peças -exta e -extb não são conceito novo: são adaptações do r2 ("turma, campus e data") para quem já viu a página ou o Instagram, com a mensagem trocada pela regra de matrícula (antes e depois do início). Não contam como teste nem entram em rodízio: são a mesma peça em dois momentos, e com R$ 150,00 por turma e diária de R$ 1,41 a R$ 5,17 não há volume para ler vencedor (leitura mensal). Não há iteração planejada; se houver vencedor depois, a iteração muda uma variável por vez, a pedido.
+As peças -exta e -extb não são conceito novo: são adaptações do r2 ("turma, campus e data") para quem já viu a página ou o Instagram, com a mensagem trocada pela regra de matrícula (antes e depois do início). Não contam como teste nem entram em rodízio: são a mesma peça em dois momentos, e com R$ 150,00 por turma e diária de R$ 1,29 a R$ 5,17 não há volume para ler vencedor (leitura mensal). Não há iteração planejada; se houver vencedor depois, a iteração muda uma variável por vez, a pedido.
 
 | Dimensão | -exta (pré-início) | -extb (a partir do início) |
 |---|---|---|
@@ -668,7 +668,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 - **OU3:** como o aluno recupera os módulos que perdeu. Pode mudar a última frase de toda -extb e decide a -extb de 333 e 68632 (e se a -exta arquivada de 333 e a de 68632 voltam, por decisão do cmo em ciclo extra).
 - **OU6:** "até o 3º módulo" lido como "até a véspera" (a mídia para na véspera) ou incluindo o dia do módulo.
 - **OU8:** como paga quem entra depois do corte (não aparece em nenhuma peça).
-- Dia do 3º módulo em 68635, 679 e 366 (trava a -extb e, pelos arquivos de campanha, também a subida da -exta, até o gestor-de-midia decidir) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
+- Dia do 3º módulo em 68635, 679 e 366 (trava só a -extb; a -exta foi liberada pelo gestor-de-midia, memorando da onda 2, item g) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
 - Data de início de 68636 (planilha sem data), de 366 (P4: planilha 10/04/2027, site 24/04/2027) e de 662 (P3: página com 15/08/2026) e correção do link de 679 (P3). A data de troca depende delas; e se 24/04/2027 é o início de uma turma nova de 662 ou o módulo 9 da turma IV (ficha 662, cronograma).
 - Formato do módulo 3 de 341 (a ficha lista "online" e "presencial"); não aparece no texto.
 - Vagas: turma sem 15 matrículas e não lotada na véspera de cada extensão (condição de subida).
