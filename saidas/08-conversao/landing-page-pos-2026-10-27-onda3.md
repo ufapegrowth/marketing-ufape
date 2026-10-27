@@ -43,7 +43,7 @@
 7. **Sem depoimento, nota, empregabilidade ou prova externa.** Não há depoimento autorizado em mãos: `depoimentos` fica oculta (escolha humana). A "linha de prova" do topo é o próprio cronograma, dito no subtítulo, e o conteúdo da ficha no `sobre`. A voz do candidato aparece nas perguntas do `faq`, todas [SUPOSIÇÃO] (hipóteses da persona e das objeções da O2), até chegarem conversas anonimizadas do WhatsApp de vendas.
 8. **Chamada principal única por página (E8):** "Quero receber o retorno do time" (31 caracteres), o mesmo texto no hero, no formulário e no `cta_final`. Nunca "Quero me inscrever" enquanto o formulário só pede contato. O template prevê no `hero` só titulo e subtitulo; o botão do topo entra como campo `botao` do hero e vira [CONFIRMAR com a plataforma] se o validador não aceitar. WhatsApp é chamada secundária, com o número da praça vindo do dado (Goiânia em 68632 e 68609).
 9. **Frase de apoio do formulário no molde da onda 2 corrigida (Q26):** "Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre <o que a turma traz> e as condições da turma, e orientar a inscrição." Nunca "usamos seus dados só para esse contato": quem não marca a caixa de um canal recebe só o retorno pedido e não entra nas listas S2 e S3 daquele canal (E21). Abaixo do botão: frase de risco, finalidade e link da política, que o O5 refina no molde do F5 da onda 2, seção 0.3.
-10. **Nome do curso exatamente como no catálogo (E2).** Só o prefixo vira "Pós-graduação em". Nenhuma das 8 recebe palavra acrescentada ou tirada (68609 sem o plural "Anestesiologias Veterinárias" do H1 da página no ar). "Veterinária" fora do nome (por exemplo "anestesia veterinária") só como palavra de corpo.
+10. **Nome do curso exatamente como no catálogo (E2).** Só o prefixo vira "Pós-graduação em". Nenhuma das 8 recebe palavra acrescentada ou tirada (68609 sem o plural "Anestesiologia Veterinárias" do H1 da página no ar). "Veterinária" fora do nome (por exemplo "anestesia veterinária") só como palavra de corpo.
 11. **Datas.** 679, 366 e 68636 entram com a data de início como dado a confirmar (P3 e OU19 em 679; P4 e OU20 em 366; OU21 em 68636): `local_e_datas` só fica visível depois da confirmação. Nenhuma data, nem mês, aparece em texto.
 12. **Regra 8 em 68632 (OU3 aberta).** Nada sobre entrada depois do início: nenhum item de dado "Posso entrar depois que a turma começar?", nenhuma frase de "matrícula aberta até o 3º módulo", nenhuma pergunta sobre o assunto.
 13. **Links entre turmas (E19).** O nome da outra pós-graduação, nas frases-ponte, vira link só depois de a página dela passar na conferência: 657 (onda 2) e 359 (lote B) em A1; 289 (onda 2) e 352 (lote B) em A2; 68623 (lote B) em A3; 578 (lote B) em A4. Sem a página conferida, o nome fica sem link.
@@ -98,12 +98,12 @@ motivo_da_ordem: ordem padrão do tipo
 **hero**
 
 - titulo (65 caracteres): Pós-graduação em Infectologia Veterinária: laboratório e zoonoses
-- subtitulo (145 caracteres): Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e prática presencial de laboratório e de zoonoses.
+- subtitulo (159 caracteres, contagem do qa a recontar por script; se passar de 160, tirar "veterinária " do início): Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e práticas presenciais, entre elas de laboratório e de zoonoses.
 - botao: Quero receber o retorno do time
 
 **sobre**
 
-> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e prática presencial de laboratório e de zoonoses. A Faculdade Ufape oferece a Pós-graduação em Infectologia Veterinária em formato semipresencial.
+> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e práticas presenciais, entre elas de laboratório e de zoonoses. A Faculdade Ufape oferece a Pós-graduação em Infectologia Veterinária em formato semipresencial.
 >
 > **Prática presencial de laboratório.** Os módulos presenciais tratam de prática laboratorial (coleta, armazenamento e envio de amostras), de zoonoses, com prática laboratorial de coleta de material para exame de raiva, e de controle de infecção hospitalar, com prática. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
 >
@@ -126,12 +126,12 @@ motivo_da_ordem: ordem padrão do tipo
 > Aqui a infectologia é a área do curso: vírus, fungos, bactérias, helmintos e protozoários, antibioticoterapia, sepse, infectologia na UTI e as doenças infecciosas sistema por sistema, com prática presencial de laboratório.
 >
 > **Vou ter prática ou é tudo online?**
-> A maior parte dos módulos é online. Os módulos presenciais trazem prática de laboratório: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência.
+> A maior parte dos módulos é online. Os módulos presenciais trazem prática: coleta, armazenamento e envio de amostras no laboratório, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência.
 >
 > **Atendo na clínica. Serve para mim?**
 > O público da turma são médicas e médicos veterinários. O curso parte do que a rotina clínica pede: prevenção e controle de zoonoses, diagnóstico e tratamento de doenças infecciosas e parasitárias.
 >
-> **Infectologia ou clínica médica ampla: qual eu faço?** (item opcional, [SUPOSIÇÃO]: ponte 2.5 da O2, que responde a pergunta 679-Q5 da O1; o qa decide se entra)
+> **Infectologia ou clínica médica ampla: qual eu faço?**
 > A Pós-graduação em Infectologia Veterinária é centrada nas doenças infecciosas e parasitárias, do diagnóstico laboratorial ao controle de infecção hospitalar. A [Pós-graduação em Clínica Médica e Emergência de Pequenos Animais](link para a página da turma 68635) é centrada na clínica médica, sistema por sistema, com a emergência do paciente grave no mesmo percurso. A escolha depende do trabalho que você quer fazer na rotina.
 >
 > **Quanto vou pagar no total?**
@@ -143,10 +143,11 @@ motivo_da_ordem: ordem padrão do tipo
 - **Sem a frase de reembolso em 679:** a ficha não traz a linha de reembolso de inscrição, só a de não ressarcimento de passagens em adiamento (O2, seção 1) [CONFIRMAR com a secretaria].
 - **Item de dado da turma, não escrito pela squad (OU14):** "Posso entrar depois que a turma começar?", com a regra da decisão 18. O dia do 3º módulo é "junho de 2027, dia [CONFIRMAR NO CATÁLOGO]" (OU25): antes do dia e antes do início da turma, o item sai sem o mês e sem a data (E18); depois do início, nenhuma peça sai sem o dia. Modelo para o editor: seção 11.1.
 - **Fora da página:** "Quando começa?" Resposta do time: "Vou confirmar a data com a secretaria e te retorno com o link da turma" (P3, OU19). "Se a turma não fechar, recebo de volta?" vai para a secretaria.
-- **Link da ponte:** só depois de a página de 68635 passar na conferência (E19, mesmo lote, qa em 18/11).
+- **Link da ponte:** só depois de a página de 68635 passar na conferência (E19, mesmo lote, qa em 18/11). A pergunta da ponte entra no `faq` (decisão do qa na revisão O18a: responde 679-Q5 da O1 e diz em que cada curso é centrado, sem dizer que um contém o outro).
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Infectologia Veterinária
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, a prática de laboratório e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -274,12 +275,13 @@ motivo_da_ordem: ordem padrão do tipo
 > A turma só começa quando atinge o número mínimo de alunos. Por isso, a orientação é comprar passagem e hotel só depois de a turma ser confirmada. O reembolso dos valores de inscrição é devido se a turma não for confirmada.
 
 - **Regra 8 (OU3) e E22:** nenhum item de dado, pergunta ou resposta sobre entrada depois do início, nem sobre o 3º módulo. A resposta do time a "Ainda dá tempo?" diz só a data de início (dado da turma) e o link, enquanto OU3 estiver aberta (O7).
-- **Links da ponte (E19):** a página de 366 é do mesmo lote (qa em 18/11); a de 578 é do lote B. Sem a página conferida, o nome fica sem link.
+- **Links da ponte (E19):** a página de 366 é do mesmo lote (qa em 18/11), mas só vai ao ar com a data confirmada (P4, OU20): o nome vira link só com a página de 366 publicada; a de 578 é do lote B. Sem a página conferida e no ar, o nome fica sem link.
 - **Fora da página:** "Preciso já operar para entrar?" Resposta do time: "O público da turma são médicas e médicos veterinários; experiência prévia, vou confirmar com a secretaria." "Quem coordena?": sem texto (OU34).
 - **Alcance de "valores de inscrição" no reembolso** [CONFIRMAR com a secretaria].
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Clínica Cirúrgica de Cães e Gatos
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma presencial, as aulas teórico-práticas e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 - O telefone de vendas de Goiânia vem do dado ou do formulário, nunca do texto.
@@ -336,7 +338,7 @@ palavra_chave_principal: pós-graduação em clínica médica e emergência de p
 
 ### 3.2 SEO (IA)
 
-A cargo do O4. "Terapia intensiva" é termo de 68623 (O1, seção 4): só aparece no nome da outra pós-graduação, na frase-ponte. Nenhum campo de SEO fala em certificado nem em "duas certificações" (OU35).
+A cargo do O4. "Terapia intensiva" é termo de 68623 (O1, seção 4): só aparece no nome da outra pós-graduação, na frase-ponte, e no apoio do `cta_final` (que não é campo de SEO). Nenhum campo de SEO fala em certificado nem em "duas certificações" (OU35).
 
 ### 3.3 Ordem e visibilidade
 
@@ -416,6 +418,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Clínica Médica e Emergência de Pequenos Animais
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, os módulos presenciais e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -437,7 +440,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 1. "CURSO COM 2 (duas) CERTIFICAÇÕES APROVADAS PELO MEC" e os blocos "CERTIFICADO DE CLÍNICA MÉDICA- 375 HORAS" e "CERTIFICADO DE EMERGÊNCIA- 375 HORAS": remover; a regulação diz o que pode ser dito (OU35).
 2. Frase "CERTIFICADO PELO MEC" (bloco de certificação). Remover; a seção fica oculta até o texto da regulação.
-3. Texto de apresentação: "extremamente benéfico", "Você será capaz de cuidar de uma ampla gama de condições de saúde animal, oferecendo um atendimento abrangente" (promessa), "desempenham um papel crucial" e "contribuir para o seu desenvolvimento profissional". Reescrever ou retirar (E14).
+3. Texto de apresentação: "extremamente benéfico", "Você será capaz de cuidar de uma ampla gama de condições de saúde animal, oferecendo um atendimento abrangente" (promessa), "desempenham um papel crucial" e "contribuir para o seu desenvolvimento profissional". Reescrever ou retirar (E14). (novo) O mesmo texto chama o curso de "pós-graduação em clínica médica geral": usar o nome padrão "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais".
 4. Vagas: a ficha não traz a linha de turma mínima. Incluir o aviso de turma mínima com 15 (decisão 11, A12) ou sem número; vagas totais e restantes [CONFIRMAR OU4].
 5. Bloco "PROVA DE BOLSA: Tem interesse em prestar a prova de bolsa? Clique aqui". Retirar (decisão 14).
 6. Regra do 3º módulo: incluir como dado da turma (decisão 18, OU14), com a redação final depois de OU6; o dia do módulo 3 (junho de 2027) falta na ficha (OU25).
@@ -507,7 +510,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **sobre**
 
-> Fisioterapia, fisiatria e reabilitação veterinária da avaliação ao protocolo: dor, recursos eletrofísicos, hidroterapia e terapias manuais, com prática presencial. A Faculdade Ufape oferece a Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária em formato semipresencial, com foco em fisioterapia veterinária. [SUPOSIÇÃO: a expressão final leva a palavra principal da O1 ao corpo; "fisioterapia veterinária" é termo da ficha]
+> Fisioterapia, fisiatria e reabilitação veterinária da avaliação ao protocolo: dor, recursos eletrofísicos, hidroterapia e terapias manuais, com prática presencial. A Faculdade Ufape oferece a Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária em formato semipresencial, com foco em fisioterapia veterinária.
 >
 > **Prática presencial por técnica.** Entre os módulos presenciais estão a prática de hidroterapia, cinesioterapia e avaliação de dor, a de recursos eletrofísicos, a de avaliação e reabilitação neurológica, a de avaliação e reabilitação ortopédica, a de bandagem taping e reabilitação em felinos e silvestres, a de terapias manuais e paciente à beira-leito e a de atendimento clínico. Outros módulos presenciais tratam de biomecânica aplicada, órteses e próteses e de avaliação respiratória e fisiátrica à beira-leito. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
 >
@@ -536,7 +539,7 @@ motivo_da_ordem: ordem padrão do tipo
 > O público da turma são médicas e médicos veterinários.
 >
 > **Reabilitação ou cirurgia: qual eu faço?**
-> A Pós-graduação em Clínica Cirúrgica de Cães e Gatos é centrada na clínica cirúrgica, dos princípios da cirurgia aos procedimentos de alta complexidade. A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária é centrada na reabilitação: avaliação, fisioterapia e recursos terapêuticos para pacientes com alterações neurológicas e ortopédicas. A [Pós-graduação em Videocirurgia Veterinária](link para a página da turma 578) é centrada na videocirurgia. A escolha depende do trabalho que você quer fazer na rotina.
+> A [Pós-graduação em Clínica Cirúrgica de Cães e Gatos](link para a página da turma 68632) é centrada na clínica cirúrgica, dos princípios da cirurgia aos procedimentos de alta complexidade. A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária é centrada na reabilitação: avaliação, fisioterapia e recursos terapêuticos para pacientes com alterações neurológicas e ortopédicas. A [Pós-graduação em Videocirurgia Veterinária](link para a página da turma 578) é centrada na videocirurgia. A escolha depende do trabalho que você quer fazer na rotina.
 >
 > **Quanto vou pagar no total?**
 > O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
@@ -552,6 +555,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, a prática presencial e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -623,7 +627,7 @@ motivo_da_ordem: ordem padrão do tipo
 | sobre | sim | IA |
 | para_quem | sim | IA |
 | diferenciais | **só depois da correção** | dado. O texto da ficha traz "reconhecimento pelo Ministério da Educação ... referência nacional" e "O curso garante": a chave só aparece com o dado corrigido (OB1, itens 1 e 2); até lá, oculta |
-| matriz | **só depois da correção** | dado. O módulo 24 traz o item "Para definir - presencial" e os módulos 21 e 22 repetem os mesmos temas: a chave só aparece com o dado corrigido (OB1, item 7) |
+| matriz | **só depois da correção** | dado. O módulo 24 traz o item "Para definir - presencial" e os módulos 21 e 22 repetem os mesmos temas: a chave só aparece com o dado corrigido (OB1, item 7). Se a página for publicada com a `matriz` oculta, valem o `cta_final` de reserva do O5 (seção 5.3) e, no `faq`, a resposta "Como funciona o semipresencial? Tenho de ir sempre?" sem o trecho ", com o mês marcado no cronograma" (o FAQPage do O4 muda junto) |
 | docentes | sim | dado, com a grafia da coordenação na duplicata (E15, OU30) |
 | certificacao | **nao** | oculta até a regulação; sem frase |
 | video | nao | humano |
@@ -640,12 +644,12 @@ motivo_da_ordem: ordem padrão do tipo
 **hero**
 
 - titulo (64 caracteres): Pós-graduação em Oncologia Veterinária: diagnóstico e tratamento
-- subtitulo (129 caracteres): Quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos no presencial, com a maior parte dos módulos online.
+- subtitulo (142 caracteres, contagem do qa a recontar por script): Quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos entre os temas presenciais, com a maior parte dos módulos online.
 - botao: Quero receber o retorno do time
 
 **sobre**
 
-> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos no presencial, com a maior parte dos módulos online. A Faculdade Ufape oferece a Pós-graduação em Oncologia Veterinária em formato semipresencial.
+> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos entre os temas presenciais, com a maior parte dos módulos online. A Faculdade Ufape oferece a Pós-graduação em Oncologia Veterinária em formato semipresencial.
 >
 > **Tratamento e casos no presencial.** Entre os módulos presenciais estão quimioterapia antineoplásica com biossegurança; eletroquimioterapia e crioterapia; cirurgia oncológica e reconstrutiva; melanoma, sarcoma felino e neoplasias cutâneas; radioterapia, com visita e discussão de casos clínicos; mastocitoma e neoplasias do sistema urinário, com discussão de casos clínicos. As aulas presenciais e práticas não são transmitidas nem disponibilizadas.
 >
@@ -687,6 +691,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Oncologia Veterinária
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, os módulos presenciais e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -758,7 +763,7 @@ motivo_da_ordem: ordem padrão do tipo
 | sobre | sim | IA |
 | para_quem | sim | IA |
 | diferenciais | **só depois da correção** | dado. O texto da ficha traz "instituição reconhecida e respeitada", "profissionais renomados" e "você estará apto": a chave só aparece com o dado corrigido (OB1, item 1); até lá, oculta |
-| matriz | **só depois da correção** | dado. O módulo 17 traz a mesma data do módulo 11 e fica fora da ordem: a chave só aparece com o dado corrigido (OB1, item 8) |
+| matriz | **só depois da correção** | dado. O módulo 17 traz a mesma data do módulo 11 e fica fora da ordem: a chave só aparece com o dado corrigido (OB1, item 8). Se a página for publicada com a `matriz` oculta, valem o `cta_final` de reserva do O5 (seção 6.3) e, no `faq`, a resposta "Quanto do curso é presencial?" sem o trecho ", e o cronograma está nesta página" (o FAQPage do O4 muda junto) |
 | docentes | sim | dado, com a grafia da coordenação na duplicata "Dr. Eric Vieira" (E15, OU29) |
 | certificacao | **nao** | oculta até a regulação; sem frase |
 | video | nao | humano |
@@ -806,7 +811,7 @@ motivo_da_ordem: ordem padrão do tipo
 > A maior parte do curso é online. Os módulos presenciais são de aula prática de atendimento, de anatomia, de ultrassonografia abdominal e de cirurgia do sistema endócrino, e o cronograma está nesta página.
 >
 > **Pós-graduação ou curso online mais curto?**
-> A pós-graduação percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial. Se você quer aprofundar só o diabetes ou só a tireoide, o guia de decisão da área mostra os caminhos lado a lado.
+> A pós-graduação percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial. Se você quer aprofundar só o diabetes, o guia de decisão da área mostra os caminhos lado a lado.
 >
 > **Quanto vou pagar no total?**
 > O total, as parcelas e a matrícula aparecem nesta página antes de qualquer pagamento.
@@ -822,6 +827,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Endocrinologia de Pequenos Animais
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, as aulas práticas e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -877,7 +883,7 @@ palavra_chave_principal: pós-graduação em pneumologia veterinária (O1, 68636
 
 ### 7.2 SEO (IA)
 
-A cargo do O4. Nenhum campo de SEO leva data (P3, OU21). "Cardiologia" é termo de 289 e "ventilação mecânica" é de 352 (O1, seção 4): só aparecem nos nomes das outras pós-graduações, na frase-ponte. Sem "especialidade" nem "escassez" (E14).
+A cargo do O4. Nenhum campo de SEO leva data (P3, OU21). "Cardiologia" é termo de 289 e "ventilação mecânica" é de 352 (O1, seção 4): só aparecem nos nomes das outras pós-graduações, na frase-ponte, e no apoio do `cta_final` (que não é campo de SEO). Sem "especialidade" nem "escassez" (E14).
 
 ### 7.3 Ordem e visibilidade
 
@@ -893,7 +899,7 @@ motivo_da_ordem: ordem padrão do tipo
 | sobre | sim | IA |
 | para_quem | sim | IA |
 | diferenciais | **só depois da correção** | dado. O texto da ficha traz "vácuo", "poucas referências", "escassez de especialistas" e "É uma especialidade": a chave só aparece com o dado corrigido (OB1, item 1); até lá, oculta |
-| matriz | **só depois da correção** | dado. Os módulos 16 (julho de 2027) e 24 (março de 2028) têm data fora da sequência: a chave só aparece com o dado corrigido (OB1, item 7) |
+| matriz | **só depois da correção** | dado. Os módulos 16 (julho de 2027) e 24 (março de 2028) têm data fora da sequência: a chave só aparece com o dado corrigido (OB1, item 7). Se a página for publicada com a `matriz` oculta, valem o `cta_final` de reserva do O5 (seção 7.3) e, no `faq`, a resposta "Vou ver endoscopia e imagem na prática?" sem o trecho ", e o cronograma mostra o mês de cada módulo presencial" (o FAQPage do O4 muda junto) |
 | docentes | sim | dado |
 | certificacao | **nao** | oculta até a regulação; sem frase |
 | video | nao | humano |
@@ -910,12 +916,12 @@ motivo_da_ordem: ordem padrão do tipo
 **hero**
 
 - titulo (61 caracteres): Pós-graduação em Pneumologia Veterinária: imagem e endoscopia
-- subtitulo (153 caracteres): Da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais de imagem e endoscopia respiratória.
+- subtitulo (152 caracteres, contagem do qa a recontar por script): Da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais, entre elas de imagem e endoscopia.
 - botao: Quero receber o retorno do time
 
 **sobre**
 
-> Pneumologia veterinária da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais de imagem e endoscopia respiratória. A Faculdade Ufape oferece a Pós-graduação em Pneumologia Veterinária em formato semipresencial.
+> Pneumologia veterinária da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais, entre elas de imagem e endoscopia respiratória. A Faculdade Ufape oferece a Pós-graduação em Pneumologia Veterinária em formato semipresencial.
 >
 > **Teoria a distância, prática presencial.** As aulas teóricas são a distância e as aulas presenciais são práticas, entre elas práticas de anatomia e semiologia do sistema respiratório, ultrassonografia pulmonar, laringotraqueobroncoscopia, rinoscopia e intervenções emergenciais no paciente respiratório.
 >
@@ -958,6 +964,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Pneumologia Veterinária
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, as aulas práticas presenciais e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 
@@ -1026,11 +1033,11 @@ motivo_da_ordem: ordem padrão do tipo
 | Chave | visivel | Origem e nota |
 |---|---|---|
 | hero | sim | IA e humano |
-| numeros | sim | dado. O dado de módulos diz 26 e o cronograma traz 24: só aparece depois da conferência (OB1, item 7) |
+| numeros | **só depois da conferência** | dado. O dado de módulos diz 26 e o cronograma traz 24: a chave só aparece com o número de módulos conferido (OB1, item 7); até lá, oculta |
 | sobre | sim | IA |
 | para_quem | sim | IA |
 | diferenciais | **só depois da correção** | dado. O texto da ficha traz "extrema importância", "intensa evolução", "alto grau de informações" e "formar veterinários capazes de exercer com competência e qualidade": a chave só aparece com o dado corrigido (OB1, item 3); até lá, oculta |
-| matriz | **só depois da correção** | dado. O módulo 1 traz "do anestesista volante ao chefe de setor" (frase de carreira) e o módulo 17 está em data anterior à do módulo 16: a chave só aparece com o dado corrigido (OB1, itens 8 a 10) |
+| matriz | **só depois da correção** | dado. O módulo 1 traz "do anestesista volante ao chefe de setor" (frase de carreira) e o módulo 17 está em data anterior à do módulo 16: a chave só aparece com o dado corrigido (OB1, itens 8 a 10). Se a página for publicada com a `matriz` oculta, vale o `cta_final` de reserva do O5 (seção 8.3) |
 | docentes | sim | dado, com a grafia da coordenação nas duplicatas (E15, OU31) |
 | certificacao | **nao** | oculta até a regulação; sem frase |
 | video | nao | humano |
@@ -1095,6 +1102,7 @@ motivo_da_ordem: ordem padrão do tipo
 
 **formulario**
 
+- titulo: Tire suas dúvidas sobre a Pós-graduação em Anestesiologia Veterinária
 - botao: Quero receber o retorno do time
 - frase de apoio: Deixe seus dados e o time de vendas retorna pelo WhatsApp para responder suas dúvidas sobre o cronograma, a prática presencial e as condições da turma, e orientar a inscrição. Abaixo do botão: frase de risco, finalidade e link da política do O5 (molde do F5 da onda 2, seção 0.3).
 - O telefone de vendas de Goiânia vem do dado ou do formulário, nunca do texto.
@@ -1157,7 +1165,7 @@ Mesmo pedido do plano (seção 9, OC1-A), com as listas por turma nas seções 1
 
 | Campo | Conteúdo |
 |---|---|
-| O que | Publicar as 8 páginas deste arquivo (depois do O4, do O5 e do qa) e corrigir no site o que as listas por turma apontam. **Itens comuns às 8:** frase "CERTIFICADO PELO MEC" (e, em 68632, 68628 e 68635, a frase de reconhecimento pelo órgão, os certificados por parte da carga e o texto de certificado); turma mínima de 20 (e a falta de aviso em 68635); regra do 3º módulo ausente; bloco "PROVA DE BOLSA" (em todas menos 679 e 366, cujas fichas não o trazem); valor da matrícula conferido contra a inscrição (U11); condição da 1ª mensalidade junto do investimento; decisão sobre o botão "COMPRAR"; link da política de privacidade e aviso de cookies no formulário; bloco "Documentos para matrícula (MEC e UFAPE)" revisto pela regulação; bloco de parceiros vazio oculto; aviso de passagem e hotel alinhado à regra da linha (68632, 68635, 366, 68628, 68617 e 68609; 679 sem o aviso); URL antiga sem "-em-" com 301 (68632, 68635, 366, 68628, 68617 e 68609). **Itens por turma:** superlativos e promessas da regra E14 (679, 68632, 68635, 366, 68628, 68617, 68636 e 68609); "garante" (68632 e 68628); "formar especialistas" (68632) e convite da prova de Especialista (68609); título com plural (68609); superlativo e promessa de emprego em 679; data de início (679, 366 e 68636); coordenação "UFAPE", CEP e frases normativas (366); turma VII ou VI (68628) e V ou VII (68617); URL "/v/" (68617); módulos com data fora da sequência ou "Para definir" (68628, 68617, 68636 e 68609); nome de marca e de terceiros (68617 e 68609); duplicatas de docentes (679, 68628, 68617 e 68609); turma antiga à venda (535 e 665 em 68632, 663 em 68635, 654 em 68628, 670 em 68636, 68607, 664 e 586 em 68609); erros de digitação do cronograma corrigidos no dado |
+| O que | Publicar as 8 páginas deste arquivo (depois do O4, do O5 e do qa) e corrigir no site o que as listas por turma apontam. **Itens comuns às 8:** frase "CERTIFICADO PELO MEC" (e, em 68632 e 68628, a frase de reconhecimento pelo órgão e o texto de certificado; em 68635, as duas certificações e os certificados por parte da carga); turma mínima de 20 (e a falta de aviso em 68635); regra do 3º módulo ausente; bloco "PROVA DE BOLSA" (em todas menos 679 e 366, cujas fichas não o trazem); valor da matrícula conferido contra a inscrição (U11); condição da 1ª mensalidade junto do investimento; decisão sobre o botão "COMPRAR"; link da política de privacidade e aviso de cookies no formulário; bloco "Documentos para matrícula (MEC e UFAPE)" revisto pela regulação; bloco de parceiros vazio oculto; aviso de passagem e hotel alinhado à regra da linha (68632, 68635, 366, 68628, 68617 e 68609; 679 sem o aviso); URL antiga sem "-em-" com 301 (68632, 68635, 366, 68628, 68617 e 68609). **Itens por turma:** superlativos e promessas da regra E14 (679, 68632, 68635, 366, 68628, 68617, 68636 e 68609); "garante" (68632 e 68628); "formar especialistas" (68632) e convite da prova de Especialista (68609); título com plural (68609); superlativo e promessa de emprego em 679; data de início (679, 366 e 68636); coordenação "UFAPE", CEP e frases normativas (366); turma VII ou VI (68628) e V ou VII (68617); URL "/v/" (68617); módulos com data fora da sequência ou "Para definir" (68628, 68617, 68636 e 68609); nome de marca e de terceiros (68617 e 68609); duplicatas de docentes (679, 68628, 68617 e 68609); turma antiga à venda (535 e 665 em 68632, 663 em 68635, 654 em 68628, 670 em 68636, 68607, 664 e 586 em 68609); erros de digitação do cronograma corrigidos no dado |
 | Por quê | Nenhuma das 8 páginas passa hoje em conformidade-educacional, e a mídia de 06/01 aponta para elas. Página fora da regra não conta como entregue (plano, decisão 1 e regra 13) |
 | Quanto | Sem custo de mídia. Custo de quem edita o site: [CONFIRMAR] |
 | Efeito esperado | A página entrega o que a peça promete e passa nas auditorias de conformidade e de conversão |
@@ -1198,8 +1206,8 @@ Por turma, pela ficha de 26/10/2026 (nota para o editor, fora da página):
 Design e conversão (auditorias/08-conversao.md):
 - [ ] Topo passa no teste dos 5 segundos no celular: título com o nome do curso, subtítulo, botão "Quero receber o retorno do time" visível sem rolar.
 - [ ] Uma chamada principal por página ("Quero receber o retorno do time", rola até o formulário); WhatsApp é chamada secundária, com botão fixo no celular e o número da praça vindo do dado (Goiânia em 68632 e 68609; São Paulo nas demais).
-- [ ] Formulário curto: nome, WhatsApp e e-mail (e-mail opcional), mais a pergunta de interesse se necessária. Nada além do que o contato precisa. Duas caixas de aceite (WhatsApp e e-mail), opcionais e desmarcadas.
-- [ ] Finalidade do uso dos dados e link da política de privacidade ao lado do botão (conformidade-educacional); o O5 refina.
+- [ ] Formulário curto: nome, WhatsApp e e-mail (e-mail opcional), sem pergunta de interesse (O5, seção 0.3). Nada além do que o contato precisa. Duas caixas de aceite (WhatsApp e e-mail), opcionais e desmarcadas.
+- [ ] Finalidade do uso dos dados e link da política de privacidade abaixo do botão, depois da frase de risco (conformidade-educacional; texto do O5, seção 0.3).
 - [ ] Dados do curso conferidos com contexto/catalogo-de-cursos.md: nome, modalidade, carga horária, preço, parcelas, matrícula, datas e local aparecem nas chaves de dado, nunca digitados no texto.
 - [ ] `certificacao`, `depoimentos` e `parceiros` ocultas; `video` só com vídeo aprovado; `diferenciais` e `matriz` só com o dado corrigido onde a tabela da turma pede; `local_e_datas` de 679, 366 e 68636 só com a data confirmada.
 - [ ] Imagens do acervo, sem foto de docente sem autorização registrada (decisões 8 e 10) e sem pessoa pública.
@@ -1221,11 +1229,11 @@ Contagens de caracteres feitas à mão (limite de 70 no título e de 160 no subt
 
 | Turma | titulo | subtitulo |
 |---|---|---|
-| 679 | 65 | 145 |
-| 68632 | 62 | 118 |
+| 679 | 65 | 159 |
+| 68632 | 62 | 119 |
 | 68635 | 64 | 131 |
 | 366 | 67 | 112 |
-| 68628 | 65 | 129 |
+| 68628 | 64 | 142 |
 | 68617 | 67 | 136 |
 | 68636 | 61 | 152 |
 | 68609 | 62 | 120 |

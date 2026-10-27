@@ -65,7 +65,7 @@
 
 Só o WhatsApp leva a dica "DDD e número"; os outros dois ficam sem exemplo, para a tela não carregar número.
 
-**Caixas de aceite (opcionais, nunca pré-marcadas), uma por canal e finalidade (regras E4 e E21 do plano):**
+**Caixas de aceite (opcionais, nunca pré-marcadas), uma por canal e finalidade (regra E4 da decisão 17, D16, e regra E21 do plano):**
 
 > Quero receber mensagens sobre esta turma e sobre cursos da mesma área por WhatsApp.
 >
@@ -172,7 +172,7 @@ Linha extra só para quem marcou a caixa de e-mail:
 | # | Onde na O3 | O que está | O que a O3 deve fazer |
 |---|---|---|---|
 | 1 | `formulario` de cada turma (seções 1.4 a 8.4) | só `botao` e "frase de apoio" | acrescentar o campo `titulo` com "Tire suas dúvidas sobre a Pós-graduação em <nome do catálogo>" (texto exato nas seções 1.1 a 8.1 deste arquivo). O template só prevê botão e frase de apoio: se a plataforma recusar o título, ele sai e nada mais muda [CONFIRMAR com a plataforma, mesma trava da onda 2] |
-| 2 | `cta_final` de 68628, 68617, 68636 e 68609 (seções 5.4, 6.4, 7.4 e 8.4) | título e apoio dizem "Veja o cronograma" e "Viu o cronograma?" | registrar que esse texto só vale com a `matriz` visível. A O3 mantém `matriz` oculta nessas quatro até a correção do dado. Se a `matriz` ficar oculta no dia da publicação, trocar pelo texto de reserva das seções 5.3, 6.3, 7.3 e 8.3 deste arquivo |
+| 2 | `cta_final` de 68628, 68617, 68636 e 68609 (seções 5.4, 6.4, 7.4 e 8.4) | título e apoio dizem "Veja o cronograma" e "Viu o cronograma?" | registrar que esse texto só vale com a `matriz` visível. A O3 mantém `matriz` oculta nessas quatro até a correção do dado. Se a `matriz` ficar oculta no dia da publicação, trocar pelo texto de reserva das seções 5.3, 6.3, 7.3 e 8.3 deste arquivo; em 68628, 68617 e 68636, a resposta do `faq` que cita o cronograma também perde o trecho indicado na revisão O18a |
 | 3 | Notas 3.2 e 7.2 (SEO) e seções 3.4, 7.4 e 8.4 (`cta_final`) | a nota diz que "terapia intensiva", "cardiologia", "ventilação mecânica" e termos irmãos só aparecem no nome da outra pós-graduação, na frase-ponte; o apoio do `cta_final` de 68635 e 68636 e de 68609 também os nomeia ("Em dúvida entre ..., o time de vendas explica a diferença") | manter o texto (o apoio não diz qual é melhor, E11) e ajustar a nota para "só na frase-ponte e no apoio do `cta_final`", para o qa não ler como erro. O `cta_final` não é campo de SEO |
 | 4 | Seção 0, item 8 | `botao` do hero com "[CONFIRMAR com a plataforma]" | sem troca. Registrar que o texto do hero muda pelo braço sorteado (seção 0.4 deste arquivo) |
 | 5 | Checklist 11.2, "Formulário curto" | "nome, WhatsApp e e-mail (e-mail opcional), mais a pergunta de interesse se necessária" | tirar "mais a pergunta de interesse se necessária". O formulário só pede nome, WhatsApp e e-mail (seção 0.3) |
@@ -600,7 +600,7 @@ Mais as linhas comuns da **variante B** (seção 0.6), enquanto a `matriz` estiv
 
 Igual à O3 (seção 7.4). **Só vale com a `matriz` visível.** Na O3 ela fica oculta até a correção do dado (módulos 16 e 24 com data fora da sequência). Texto de reserva, para a `matriz` oculta (palavras tiradas do hero da O3):
 
-> **Título (reserva):** Veja as aulas práticas presenciais de imagem e endoscopia respiratória.
+> **Título (reserva):** Veja as aulas práticas presenciais, entre elas de imagem e endoscopia respiratória.
 >
 > **Apoio (reserva):** Viu as aulas práticas? Em dúvida entre pneumologia, cardiologia e ventilação mecânica, o time de vendas explica a diferença. Deixe seus dados. Enviar seus dados não gera cobrança.
 >
@@ -647,7 +647,7 @@ Regras comuns: seção 0.5.
 - **Botão (controle):** Quero receber o retorno do time (31 caracteres).
 - **Frase de risco, finalidade e link da política:** textos da seção 0.3 (link [CONFIRMAR]).
 - **Mensagem de erro de envio:** seção 0.3; o WhatsApp da página é o de vendas de Goiânia, vindo do dado.
-- **Não pedir nem dizer:** nada de prova ou título de Especialista (E13, OU31); nenhuma pergunta de experiência prévia (a ficha traz só o público "Médicos Veterinários que querem atuar na anestesiologia veterinária clínica"); nome do curso no singular, nunca "Anestesiologias Veterinárias"; nenhuma cidade em texto (CP1).
+- **Não pedir nem dizer:** nada de prova ou título de Especialista (E13, OU31); nenhuma pergunta de experiência prévia (a ficha traz só o público "Médicos Veterinários que querem atuar na anestesiologia veterinária clínica"); nome do curso no singular, nunca "Anestesiologia Veterinárias"; nenhuma cidade em texto (CP1).
 
 ### 8.2 Mensagem de confirmação
 

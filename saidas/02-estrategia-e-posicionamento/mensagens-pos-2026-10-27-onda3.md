@@ -85,7 +85,7 @@ Notas internas: 662 não entra na frase enquanto OU18 estiver aberta (o termo "o
 
 > "A Pós-graduação em Infectologia Veterinária é centrada nas doenças infecciosas e parasitárias, do diagnóstico laboratorial ao controle de infecção hospitalar. A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais é centrada na clínica médica, sistema por sistema, com a emergência do paciente grave no mesmo percurso. A escolha depende do trabalho que você quer fazer na rotina."
 
-Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no `faq` de 679 e no guia A14 de 679, a critério do qa. O módulo online de infectologia de 68635 (12) não entra.
+Notas internas: responde 679-Q5 da O1. Não é par da E11; uso no `faq` de 679 e no guia A14 de 679, aprovado pelo qa na revisão O18a. O módulo online de infectologia de 68635 (12) não entra.
 
 ---
 
@@ -95,7 +95,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 ### 3.1 Mensagem central (texto para a página)
 
-> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e prática presencial de laboratório e de zoonoses.
+> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e práticas presenciais, entre elas de laboratório e de zoonoses.
 
 ### 3.2 Três provas de apoio (texto para a página; fonte: ficha de 679)
 
@@ -108,7 +108,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 | Objeção, nas palavras do candidato [SUPOSIÇÃO, persona da linha e O1] | Resposta |
 |---|---|
 | "Infectologia já aparece na clínica geral. Preciso de pós nisso?" (679-Q2, Q4) | "Aqui a infectologia é a área do curso: vírus, fungos, bactérias, helmintos e protozoários, antibioticoterapia, sepse, infectologia na UTI e as doenças infecciosas sistema por sistema, com prática presencial de laboratório." |
-| "Vou ter prática ou é tudo online?" (679-Q3) | "A maior parte dos módulos é online. Os módulos presenciais trazem prática de laboratório: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência." |
+| "Vou ter prática ou é tudo online?" (679-Q3) | "A maior parte dos módulos é online. Os módulos presenciais trazem prática: coleta, armazenamento e envio de amostras no laboratório, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência." |
 | "Atendo na clínica. Serve para mim?" (679-Q4) | "O público da turma são médicas e médicos veterinários. O curso parte do que a rotina clínica pede: prevenção e controle de zoonoses, diagnóstico e tratamento de doenças infecciosas e parasitárias." Nível de entrada [CONFIRMAR NO CATÁLOGO], fora do texto. |
 
 **Fora da página:** "Quando começa?" resposta do time: "Vou confirmar a data com a secretaria e te retorno com o link da turma" (P3, OU19). "Posso entrar depois que começar?" pela regra 5, sem o mês do 3º módulo (E18). "Se a turma não fechar, recebo de volta?" vai para a secretaria (ficha sem a linha de reembolso).
@@ -117,7 +117,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, do laboratório ao controle de infecção hospitalar."
 - **Variação 1 (consciente do problema):** "O diagnóstico da doença infecciosa começa na amostra: coleta, armazenamento e envio."
-- **Variação 2 (consciente da solução):** "Virologia, micologia, bacteriologia e antibioticoterapia em módulos online, com prática presencial de laboratório e de zoonoses."
+- **Variação 2 (consciente da solução):** "Virologia, micologia, bacteriologia e antibioticoterapia em módulos online, com prática presencial de laboratório, de zoonoses e de controle de infecção hospitalar."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
@@ -217,8 +217,8 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 ### 6.4 Chamada principal e 3 variações
 
 - **Chamada principal:** "Veja o cronograma, da avaliação da dor às terapias manuais."
-- **Variação 1 (consciente do problema):** "Pós-operatório, paciente neurológico, cão idoso: a reabilitação começa pela avaliação."
-- **Variação 2 (consciente da solução):** "Módulos online e prática presencial de hidroterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica e terapias manuais."
+- **Variação 1 (consciente do problema):** "Trauma, paciente neurológico, cão idoso: a reabilitação começa pela avaliação."
+- **Variação 2 (consciente da solução):** "Módulos online e prática presencial, entre elas hidroterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica e terapias manuais."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
@@ -229,13 +229,13 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 ### 7.1 Mensagem central (texto para a página)
 
-> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos no presencial, com a maior parte dos módulos online.
+> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos entre os temas presenciais, com a maior parte dos módulos online.
 
 ### 7.2 Três provas de apoio (texto para a página; fonte: ficha de 68628)
 
 1. **Tratamento e casos no presencial.** Entre os módulos presenciais estão quimioterapia antineoplásica com biossegurança; eletroquimioterapia e crioterapia; cirurgia oncológica e reconstrutiva; melanoma, sarcoma felino e neoplasias cutâneas; radioterapia, com visita e discussão de casos clínicos; mastocitoma e neoplasias do sistema urinário, com discussão de casos clínicos. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. *(Fonte: cronograma, módulos marcados PRESENCIAL, e observação da ficha.)*
 2. **Do diagnóstico à escolha do tratamento.** Introdução à oncologia, biologia do câncer, diagnóstico por imagem, patologia e clínica, diagnóstico histopatológico e molecular, síndrome paraneoplásica e as linhas de tratamento: quimioterapia, imunoterapia e terapia alvo, eletroquimioterapia e crioterapia e cirurgia oncológica. *(Fonte: cronograma.)*
-3. **Neoplasia por neoplasia, e o paciente inteiro.** Neoplasias mamárias e do sistema reprodutor, cutâneas, hematopoiéticas, respiratórias e cardíacas, do sistema digestório, ósseas, do sistema nervoso, oculares, urinárias e hepáticas, e neoplasias em animais exóticos; cuidado paliativo, tratamento de dor e terapia intensiva em oncologia; psico-oncologia; nutrição do paciente oncológico e medicina integrativa. *(Fonte: cronograma.)*
+3. **Neoplasia por neoplasia e cuidado do paciente.** Neoplasias mamárias e do sistema reprodutor, cutâneas, hematopoiéticas, respiratórias e cardíacas, do sistema digestório, ósseas, do sistema nervoso, oculares, urinárias e hepáticas, e neoplasias em animais exóticos; cuidado paliativo, tratamento de dor e terapia intensiva em oncologia; psico-oncologia; nutrição do paciente oncológico e medicina integrativa. *(Fonte: cronograma.)*
 
 ### 7.3 Respostas às 3 objeções principais (texto para a página)
 
@@ -266,7 +266,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 ### 8.2 Três provas de apoio (texto para a página; fonte: ficha de 68617)
 
-1. **Doença por doença.** Síndrome de Cushing, hipoadrenocorticismo, diabetes mellitus em cães e em gatos e cetoacidose diabética, hipotireoidismo canino, hipertireoidismo e hipotireoidismo felinos, distúrbios da calcemia, insulinoma e hipoglicemias, neoplasias adrenais e tireoidianas, alopecia X, dislipidemias, síndromes poliglandulares e emergências endócrinas, com discussão de casos clínicos ao longo do cronograma. *(Fonte: cronograma.)*
+1. **Doença por doença.** Síndrome de Cushing, hipoadrenocorticismo, diabetes mellitus em cães e em gatos e cetoacidose diabética, hipotireoidismo canino, hipertireoidismo e hipotireoidismo felinos, distúrbios da calcemia, insulinoma e hipoglicemias, neoplasias adrenais e tireoidianas, dislipidemias, síndromes poliglandulares e emergências endócrinas, com discussão de casos clínicos ao longo do cronograma. *(Fonte: cronograma.)*
 2. **Da fisiologia ao diagnóstico.** Anatomia e histologia do sistema endócrino; fisiologia por eixo hormonal e mecanismos de ação hormonal; dosagens hormonais; diagnóstico diferencial de poliúria e polidipsia; imagem aplicada: ressonância magnética, tomografia, cintilografia e ultrassonografia abdominal e cervical. *(Fonte: cronograma.)*
 3. **Formato claro.** A maior parte dos módulos é online. Os módulos presenciais trazem aula prática de atendimento endocrinológico, de anatomia do sistema endócrino, de ultrassonografia abdominal e de cirurgia do sistema endócrino, com discussão de casos clínicos, inclusive casos dos alunos. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. *(Fonte: cronograma, módulos marcados PRESENCIAL e ONLINE, e observação da ficha.)*
 
@@ -276,7 +276,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 |---|---|
 | "Sou clínico geral. Endocrinologia é para mim?" (68617-Q3, Q4) | "O público da turma são médicas e médicos veterinários. O curso começa pela fisiologia e pela anatomia do sistema endócrino e passa por síndrome de Cushing, diabetes mellitus e doenças tireoidianas, com discussão de casos ao longo do cronograma." Sem promessa de renda. |
 | "Quanto do curso é presencial?" (68617-Q2) | "A maior parte do curso é online. Os módulos presenciais são de aula prática de atendimento, de anatomia, de ultrassonografia abdominal e de cirurgia do sistema endócrino, e o cronograma está nesta página." |
-| "Pós ou curso online mais curto?" (68617-Q5) | "A pós percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial. Se você quer aprofundar só o diabetes ou só a tireoide, o guia de decisão da área mostra os caminhos lado a lado." Sem dizer qual é melhor; o link vai ao guia A7. |
+| "Pós ou curso online mais curto?" (68617-Q5) | "A pós-graduação percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial. Se você quer aprofundar só o diabetes, o guia de decisão da área mostra os caminhos lado a lado." Sem dizer qual é melhor; o link vai ao guia A7. |
 
 **Fora da página:** "Tem TCC?": "vou confirmar com a secretaria" [CONFIRMAR NO CATÁLOGO]. "Qual é a turma?": sem número (P5). Entrada depois do início pela regra 5.
 
@@ -284,7 +284,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, da fisiologia hormonal às emergências endócrinas."
 - **Variação 1 (consciente do problema):** "Poliúria, polidipsia, alopecia: quando o caso pede raciocínio endócrino."
-- **Variação 2 (consciente da solução):** "Cushing, diabetes, tireoide e adrenais por módulo, com aula prática presencial de atendimento, ultrassonografia abdominal e cirurgia endócrina."
+- **Variação 2 (consciente da solução):** "Cushing, diabetes, tireoide e adrenais por módulo, com aula prática presencial de atendimento, anatomia, ultrassonografia abdominal e cirurgia endócrina."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
@@ -295,7 +295,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 ### 9.1 Mensagem central (texto para a página)
 
-> Pneumologia veterinária da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais de imagem e endoscopia respiratória.
+> Pneumologia veterinária da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais, entre elas de imagem e endoscopia respiratória.
 
 ### 9.2 Três provas de apoio (texto para a página; fonte: ficha de 68636)
 
@@ -317,7 +317,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, da fisiologia respiratória às intervenções emergenciais."
 - **Variação 1 (consciente do problema):** "Braquicefálico, doença pleural, tromboembolismo pulmonar: o paciente respiratório pede exame, imagem e decisão."
-- **Variação 2 (consciente da solução):** "Aulas teóricas a distância e aulas práticas presenciais de ultrassonografia pulmonar, laringotraqueobroncoscopia e rinoscopia."
+- **Variação 2 (consciente da solução):** "Aulas teóricas a distância e aulas práticas presenciais, entre elas ultrassonografia pulmonar, laringotraqueobroncoscopia e rinoscopia."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Em dúvida entre pneumologia, cardiologia e ventilação mecânica? O time explica a diferença."
 
 ---
@@ -350,8 +350,8 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, da avaliação pré-anestésica aos pacientes especiais."
 - **Variação 1 (consciente do problema):** "Sedar, intubar, monitorar: a anestesia começa na avaliação pré-anestésica."
-- **Variação 2 (consciente da solução):** "Módulos online e prática presencial com hands-on de sedação, TIVA e TCI e anestesia em felinos e exóticos, e bloqueios em modelos anatômicos."
-- **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Em dúvida entre as pós de anestesiologia? O time explica a diferença."
+- **Variação 2 (consciente da solução):** "Módulos online e prática presencial com, entre outros, hands-on de sedação, TIVA e TCI e anestesia em felinos e exóticos, e bloqueios em modelos anatômicos."
+- **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Em dúvida entre as pós-graduações de anestesiologia? O time explica a diferença."
 
 ---
 

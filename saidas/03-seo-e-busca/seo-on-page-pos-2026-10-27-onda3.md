@@ -147,7 +147,7 @@ A lista dos módulos presenciais está completa (três presenciais na ficha: lab
           "name": "Vou ter prática ou é tudo online?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A maior parte dos módulos é online. Os módulos presenciais trazem prática de laboratório: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência."
+            "text": "A maior parte dos módulos é online. Os módulos presenciais trazem prática: coleta, armazenamento e envio de amostras no laboratório, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial, então dá para planejar a agenda com antecedência."
           }
         },
         {
@@ -190,7 +190,7 @@ A lista dos módulos presenciais está completa (três presenciais na ficha: lab
 
 Notas de 679:
 
-- A pergunta da ponte (quarta) é item opcional na O3 [SUPOSIÇÃO: o qa decide se entra na página]. Se sair da página, sai da marcação no mesmo dia. O link para a página de 68635 só existe no HTML, depois da conferência dela (E19); na marcação o texto fica sem link.
+- A pergunta da ponte (quarta) entra na página e na marcação (decisão do qa na revisão O18a). O link para a página de 68635 só existe no HTML, depois da conferência dela (E19); na marcação o texto fica sem link.
 - Sem frase de reembolso (a ficha de 679 não traz a linha; O3, seção 1.4) [CONFIRMAR com a secretaria].
 - Sem item "Posso entrar depois que a turma começar?": é dado da turma (OU14), com o dia do 3º módulo [CONFIRMAR NO CATÁLOGO, OU25]. Se a plataforma o exibir, inclui no `mainEntity` o texto exato que o editor digitou, sem o mês antes do dia (E18).
 - `startDate` só com a data confirmada (P3, OU19, pedido S7 da O1). Sem `audience`, sem `coursePrerequisites`, sem `educationalCredentialAwarded`.
@@ -899,7 +899,7 @@ Os módulos presenciais da ficha são dois e ambos são de aula prática (confer
 Notas de 68617:
 
 - **P5:** `CourseInstance.name` sem a turma (V no site e VII na planilha; OU29).
-- Na terceira resposta, a O3 acrescenta uma frase sobre o guia de decisão A7 ("Se você quer aprofundar só o diabetes ou só a tireoide, o guia de decisão da área mostra os caminhos lado a lado."), que só vai ao ar com o guia publicado e linkado. A marcação acima está sem essa frase. Quando o guia sair, a mesma frase entra aqui, igual à da página, no mesmo dia.
+- Na terceira resposta, a O3 acrescenta uma frase sobre o guia de decisão A7 ("Se você quer aprofundar só o diabetes, o guia de decisão da área mostra os caminhos lado a lado."), que só vai ao ar com o guia publicado e linkado. A marcação acima está sem essa frase. Quando o guia sair, a mesma frase entra aqui, igual à da página, no mesmo dia.
 - URL "/v/" da página atual: conferida pelo time do site antes da subida e antes de qualquer envio (OU29, pedido S6 da O1). `pagina.url_canonica` deve devolver a URL final.
 - Sem `instructor` (duplicata "Dr. Eric Vieira", E15). Item "Posso entrar depois que a turma começar?" é dado da turma (OU14), com a data do 3º módulo pela ficha. Sem pergunta sobre TCC. Nível de entrada [CONFIRMAR NO CATÁLOGO].
 
@@ -933,9 +933,9 @@ Sem data (P3, OU21). Sem "cardiologia" (289), "ventilação mecânica" (352), "t
 - Onde nomear: hero, sobre, para_quem, faq e matriz (dado, só depois da correção, O3 seção 7.3).
 - Não nomear como entidade (O1, seção 12.1): cardiologia veterinária e ecocardiografia (289 e 698); ventilação mecânica como pós (352; o curso livre é de Cursos Livres); terapia intensiva e emergência como pós (68623 e 68635); diagnóstico por imagem, ultrassonografia e tomografia como pós (68604 e 68629); hemogasometria como curso (655 e 107); pneumologia humana, pneumologista e residência; "escassez de especialistas", "é uma especialidade" e "vácuo" (E14); "cães e gatos"; data; EAD; título de especialista.
 
-**descricao_schema** (230 caracteres, limite 300):
+**descricao_schema** (242 caracteres, limite 300; contagem do qa a recontar por script):
 
-> Pós-graduação em Pneumologia Veterinária da Faculdade Ufape, semipresencial. Da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais de imagem e endoscopia respiratória.
+> Pós-graduação em Pneumologia Veterinária da Faculdade Ufape, semipresencial. Da fisiologia respiratória às intervenções emergenciais, com aulas teóricas a distância e aulas práticas presenciais, entre elas de imagem e endoscopia respiratória.
 
 #### JSON-LD (Course com CourseInstance e Offer, mais FAQPage)
 
@@ -1057,7 +1057,7 @@ Palavra principal (O1, 68609-K0): pós-graduação em anestesiologia veterinári
 
 > A Pós-graduação em Anestesiologia Veterinária da Faculdade Ufape é um curso semipresencial de anestesiologia clínica, da avaliação pré-anestésica à anestesia de pacientes especiais. Os módulos presenciais trazem, entre outros temas, sedação e monitoração, TIVA, intubação e reanimação cardiorrespiratória, com acompanhamento individualizado da evolução.
 
-Nome sempre no singular (nunca "Anestesiologias Veterinárias", E2). Sem "avançada" (657) nem "locorregional" (359). Sem "prova", "título" nem "Especialista" (E13). Sem "hands-on" onde a ficha não o marca (só nos módulos de sedação, TIVA e anestesia em felinos e exóticos; E5). Sem "gravada" (vale só para os itens marcados na ficha, E3). Sem marcas de terceiros (RECOVER, ROTEM, Xlung, VetPain). Sem "cães e gatos" (a ficha fala em animais das diferentes espécies). Sem cidade (CP1).
+Nome sempre no singular (nunca "Anestesiologia Veterinárias", E2). Sem "avançada" (657) nem "locorregional" (359). Sem "prova", "título" nem "Especialista" (E13). Sem "hands-on" onde a ficha não o marca (só nos módulos de sedação, TIVA e anestesia em felinos e exóticos; E5). Sem "gravada" (vale só para os itens marcados na ficha, E3). Sem marcas de terceiros (RECOVER, ROTEM, Xlung, VetPain). Sem "cães e gatos" (a ficha fala em animais das diferentes espécies). Sem cidade (CP1).
 
 **entidades:**
 
@@ -1191,7 +1191,7 @@ Contagem à mão; o orquestrador reconta por script. Palavras de `resposta_citav
 | 366 | 58 | 135 | 42 | 240 |
 | 68628 | 46 | 139 | 50 | 255 |
 | 68617 | 59 | 145 | 47 | 235 |
-| 68636 | 48 | 141 | 43 | 230 |
+| 68636 | 48 | 141 | 43 | 242 |
 | 68609 | 51 | 148 | 43 | 245 |
 
 Pontos de atenção para a recontagem: `titulo_seo` de 68617 (59, margem de um caractere), de 68632 e de 366 (58); `descricao_seo` de 679 (151) e de 68609 (148); `descricao_schema` de 679 (285). Se algum campo passar do limite, a redução sugerida é: em 68617, trocar o título para o nome sem " | Ufape" (51); em 679, tirar "hospitalar" da `descricao_seo`; em 679, tirar "e de controle de infecção" da `descricao_schema`.
@@ -1213,7 +1213,7 @@ Pontos de atenção para a recontagem: `titulo_seo` de 68617 (59, margem de um c
 | 68628 (A10) | oncologia, quimioterapia, imunoterapia, neoplasias | eletroquimioterapia como curso, citologia, hematologia, cirurgia oncológica como pós, pequenos animais, número da turma |
 | 68617 (A7) | endocrinologia, Cushing, diabetes, tireoide, calcemia | nefrologia, geriatria, dermatologia, metabologia, TCC, número da turma |
 | 68636 (A2) | pneumologia, sistema respiratório, endoscopia respiratória, ultrassonografia pulmonar | cardiologia, ventilação mecânica, terapia intensiva, pneumologista, especialidade, escassez |
-| 68609 (A1) | anestesiologia clínica, avaliação pré-anestésica, pacientes especiais, TIVA | avançada, locorregional, especialista, prova, EAD, marcas de terceiros, "Anestesiologias" no plural |
+| 68609 (A1) | anestesiologia clínica, avaliação pré-anestésica, pacientes especiais, TIVA | avançada, locorregional, especialista, prova, EAD, marcas de terceiros, "Veterinárias" no plural |
 
 Conferência feita por leitura dos campos finais; a busca por script é do orquestrador e do qa (E12).
 
@@ -1272,7 +1272,7 @@ Notas:
 - `catalogo.modalidade`: o valor vira o termo da marcação por regra da plataforma (por exemplo, semipresencial para "blended" e presencial para "onsite") [SUPOSIÇÃO].
 - `courseWorkload` no formato de duração ISO (PT500H) [SUPOSIÇÃO: formato escolhido por este agente, em conformidade com o schema.org].
 - 68628: o catálogo traz turma VII e a planilha traz VI; 68617: o catálogo traz V e a planilha traz VII. Por isso a chave de turma não entra na marcação das duas (P5).
-- 366: a planilha traz o início em 10/04/2027 e o site, em outra data de abril; vale a planilha pela decisão 12, mas a O1 e a O3 pedem a confirmação (OU20). Em 679 e 68636 a data é a do site e só vale depois da confirmação.
+- 366: a planilha traz o início em 10/04/2027 e o site, em outra data de abril; vale a planilha pela decisão 12, mas a O1 e a O3 pedem a confirmação (OU20). Em 679 a data da planilha e a do site coincidem, mas só vale depois da confirmação da P3 (OU19); em 68636 a data é só do site e só vale depois da confirmação (OU21).
 
 ---
 
@@ -1307,7 +1307,7 @@ Observações:
 1. **Para o qa (D1):** decidir sobre os títulos de 68635 e 366 sem o prefixo "Pós-graduação em". A alternativa é a forma digitada em 366, com o risco de E2.
 2. **Para o qa (D3):** conferir que a `resposta_citavel` sem frase de público atende o campo "o que é e para quem é" do template; se o qa preferir uma frase de público, ela precisa vir da ficha ("Médicos Veterinários") e não do pré-requisito.
 3. **Para a O3 e o qa (observação, sem editar o arquivo alheio):** o `sobre` de 68609 cita "bloqueios locorregionais" como conteúdo de módulo e a frase-ponte nomeia "Anestesiologia Locorregional Veterinária". Os campos de SEO de 68609 não usam "locorregional"; cabe ao qa decidir se as duas ocorrências ficam como conteúdo.
-4. **Para a O3 e o qa:** em 68617 a frase do guia A7 só entra na resposta do FAQ e na marcação com o guia publicado e linkado.
+4. **Para a O3 e o qa:** em 68617 a frase do guia A7 só entra na resposta do FAQ e na marcação com o guia publicado e linkado. Se 68628, 68617 ou 68636 forem publicadas com a `matriz` oculta, a resposta do FAQ que cita o cronograma perde o trecho indicado na O3 (tabela de visibilidade, linha `matriz`) e a marcação muda no mesmo dia, para o FAQPage continuar igual ao FAQ visível (revisão O18a).
 5. **Aplicação da marcação (time do site, depois da aprovação):** testar cada página com o validador de dados estruturados antes de publicar; publicar a marcação só junto com a página (prazo da O3: 10/12/2026); conferir que o FAQ marcado é o mesmo que está visível; emitir `startDate` de 679, 366 e 68636 só com a data confirmada.
 6. **Descrição e título são rascunho de SEO, não promessa:** nada aqui altera mídia, anúncio, CRM ou site.
 
