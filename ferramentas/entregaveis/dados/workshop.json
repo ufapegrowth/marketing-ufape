@@ -16,7 +16,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 343,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103",
+    "titulo_limpo": "Corrigir os anúncios ativos do workshop e registrar o ponto de partida",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-outro-1",
@@ -37,7 +39,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 344,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103",
+    "titulo_limpo": "Criar os públicos de visitantes da página do evento, sem gasto",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-aprovacao-1",
@@ -60,7 +64,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 347,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:306"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:306",
+    "titulo_limpo": "Aprovar metas, verba e o calendário único da mídia do workshop",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-conferencia-2",
@@ -81,7 +87,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 346,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:105"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:105",
+    "titulo_limpo": "Testar o rastreio da compra na página do evento",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-post-1",
@@ -102,7 +110,42 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 99,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60",
+    "titulo_limpo": "O monitor mostra um número. A decisão continua sendo sua.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O monitor mostra um número. A decisão continua sendo sua."
+        }
+      ],
+      "arte": [
+        "\"O monitor mostra um número. A decisão é sua.\" Apoio: \"Workshop Brasileiro de Neuromonitorização, Anestesia e Neurologia\". Data: \"20 e 21/11 | São Paulo\". Rodapé: \"Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "O monitor mostra um número.\nA decisão sobre hipnose, analgesia e despertar continua sendo sua.",
+        "Por isso o Workshop Brasileiro de Neuromonitorização tem dois dias.",
+        "Sexta, 20/11: a base.\nNeuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS.",
+        "Sábado, 21/11: a prática.\nInstalar o sensor, checar o sinal, ler EEG e BIS e discutir casos de anestesia e de UTI, com e sem bloqueio neuromuscular.",
+        "Das 08h às 18h, nos dois dias.\n16 h presenciais, 30 vagas, por ordem de inscrição.\nFaculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.",
+        "[T] Não vai estar em São Paulo nos dois dias? A teoria de sexta também pode ser acompanhada online, ao vivo e gravada (apenas teórico).",
+        "Programação completa na página do evento. Link na bio.",
+        "Qual decisão da sua rotina você gostaria de tomar olhando além do número?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Uma sexta para entender o sinal. Um sábado para decidir com ele."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Dos planos de Guedel ao awareness intraoperatório, em uma sexta."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-reels-1",
@@ -121,7 +164,27 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 132,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60",
+    "titulo_limpo": "O monitor mostra um número. A decisão continua sendo sua.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O monitor mostra um número. A decisão continua sendo sua."
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s: Traçado de EEG estilizado, com um número grande no canto. Na tela: O monitor mostra um número.",
+        "3 a 8 s: O número some, o traçado ocupa a tela. Na tela: A decisão sobre hipnose, analgesia e despertar é sua.",
+        "8 a 15 s: Dois cartões. Na tela: Sexta, 20/11: neuroanatomia, EEG, análises espectrais, BIS. / Sábado, 21/11: instalar, ler e decidir.",
+        "15 a 20 s: Fechamento. Na tela: Workshop Brasileiro de Neuromonitorização | 16 h | 30 vagas presenciais, por ordem de inscrição | São Paulo. Programação na página do evento."
+      ],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reels publicado no mesmo dia do post, com legenda curta."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-1",
@@ -145,7 +208,51 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 160,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211",
+    "titulo_limpo": "Em 20 e 21/11 a Faculdade UFAPE faz um workshop de neuromonitorização em São Paulo.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Em 20 e 21/11 a Faculdade UFAPE faz um workshop de neuromonitorização em São Paulo."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Em 20 e 21/11 temos o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, em São Paulo.",
+        "Sexta é teórica: neuroanatomia, EEG, análises espectrais, BIS, PSI e Conox (com uma aula sobre evidências veterinárias e limitações desses índices) e UTI com bloqueio neuromuscular.",
+        "Sábado é prático: instalar o sensor, checar a qualidade do sinal, ler EEG e BIS e discutir casos de anestesia e de UTI, com e sem bloqueio, em pequenos grupos.",
+        "São 16 h, das 8h às 18h, na Unidade 2 (Av. Tiradentes, 960). O presencial tem 30 vagas no total, por ordem de inscrição. Presencial: R$ 1.250,00.",
+        "[T] Se você só consegue a sexta, a teoria também vai ao vivo e fica gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão.",
+        "Programação e ingressos: https://faculdade.ufape.com.br/neuro-summit/",
+        "Responda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha 2",
+          "texto": "Oi, [primeiro_nome]. Uma sexta para entender o sinal do monitor e um sábado para instalar e ler: 20 e 21/11."
+        },
+        {
+          "rotulo": "Primeira linha 3",
+          "texto": "Oi, [primeiro_nome]. EEG, BIS e TOF na anestesia e na UTI, em dois dias, na Unidade 2 da Faculdade UFAPE."
+        },
+        {
+          "rotulo": "Primeira linha 4",
+          "texto": "Oi, [primeiro_nome]. Se o BIS já está na sua rotina, o workshop de 20 e 21/11 tem uma aula sobre evidências e limitações dos índices BIS, PSI e qNOX."
+        },
+        {
+          "rotulo": "Primeira linha 5",
+          "texto": "[T] Oi, [primeiro_nome]. Não pode ir nos dois dias? A teoria de sexta, 20/11, vai ao vivo e fica gravada."
+        },
+        {
+          "rotulo": "Corpo, versão B (transmitida e gravada) [T], não enviar até a liberação do 68634",
+          "texto": "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Se você não consegue estar em São Paulo nos dois dias, dá para acompanhar só a teoria do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.\n\nÉ o dia de sexta, 20/11: neuroanatomia, EEG e análises espectrais, EEG clínico, BIS, PSI e Conox, eletrodos de agulha (o que está validado) e neuromonitorização na UTI com bloqueio neuromuscular. Ao vivo e gravado.\n\nApenas teórico: o sábado prático é só presencial.\n\nWorkshop Transmitido + Gravado: R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão.\n\nProgramação e ingressos: https://faculdade.ufape.com.br/neuro-summit/\n\nResponda SAIR para não receber mais mensagens."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão A (presencial), em balões curtos\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-2",
@@ -170,7 +277,45 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 292,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324",
+    "titulo_limpo": "Aluno e ex-aluno Ufape têm 20% de desconto no workshop de neuromonitorização de 20 e 21/11.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Aluno e ex-aluno Ufape têm 20% de desconto no workshop de neuromonitorização de 20 e 21/11."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Quem é aluno ou ex-aluno tem 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11, em São Paulo), com o cupom SIMPNEUROMONIT.",
+        "Presencial (sexta teórica e sábado prático, 16 h, 30 vagas por ordem de inscrição): R$ 1.250,00. [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão.",
+        "Para usar a condição, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. Secretaria: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Prazo da comprovação: [CONFIRMAR]. Validade do cupom: [CONFIRMAR].",
+        "Programação e ingressos: https://faculdade.ufape.com.br/neuro-summit/",
+        "Responda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha 2",
+          "texto": "Oi, [primeiro_nome]. Você estuda ou estudou na Ufape? O workshop de neuromonitorização (20 e 21/11) tem condição para você."
+        },
+        {
+          "rotulo": "Primeira linha 3",
+          "texto": "Oi, [primeiro_nome]. Uma sexta para entender o sinal e um sábado para instalar e ler, com 20% para quem é da casa."
+        },
+        {
+          "rotulo": "Primeira linha 4",
+          "texto": "Oi, [primeiro_nome]. O cupom SIMPNEUROMONIT dá 20% no workshop de 20 e 21/11 para aluno e ex-aluno."
+        },
+        {
+          "rotulo": "Primeira linha 5",
+          "texto": "Oi, [primeiro_nome]. Do cérebro à analgesia: workshop em 20 e 21/11, com condição para aluno e ex-aluno Ufape."
+        }
+      ],
+      "observacao": "Sai pelo WhatsApp só para quem deu opt-in; quem responder SAIR deixa de receber."
+    }
   },
   {
     "id": "workshop-workshop-email-1",
@@ -193,7 +338,55 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 216,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277",
+    "titulo_limpo": "Workshop de Neuromonitorização Veterinária: 20 e 21/11, em São Paulo",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Workshop de Neuromonitorização Veterinária: 20 e 21/11, em São Paulo"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "16 h presenciais, das 8h às 18h. Programação completa na página."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "O monitor mostra um número. A decisão sobre hipnose, analgesia e despertar continua sendo sua. É sobre isso que trata o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, que a Faculdade UFAPE realiza nos dias 20 e 21 de novembro de 2026, em São Paulo.",
+        "Sexta-feira, 20/11, é teórica. Dos planos de Guedel ao awareness intraoperatório (limitações dos planos de Guedel e dos sinais clínicos e avaliação do paciente na presença de bloqueadores neuromusculares), passando por neuroanatomia aplicada à anestesia, como funciona o EEG (do sinal às análises espectrais), EEG clínico na neurologia veterinária, índice bispectral (BIS), PSI e Conox com revisão da literatura, uma revisão crítica do que está validado na adaptação de eletrodos de agulha e a neuromonitorização na UTI com bloqueadores neuromusculares, incluindo o TOF.",
+        "Sábado, 21/11, é prático. Instalação do BIS e de outros neuromonitores em modelos, leitura prática de EEG e reconhecimento de artefatos, casos de anestesia e de UTI com e sem bloqueio neuromuscular e um desafio em pequenos grupos. O BIS tem destaque, mas o programa também passa por EEG, DSA, CSA, PSI, Conox e TOF.",
+        "Para quem é: médicos veterinários, anestesiologistas, intensivistas, residentes, pós-graduandos e profissionais interessados em monitorização avançada, anestesia de precisão e cuidado do paciente crítico. Não é preciso saber interpretar EEG antes: a sexta constrói a base.",
+        "- Quando: 20 e 21/11/2026, sexta e sábado, das 8h às 18h (16 h, sendo 8 teóricas e 8 práticas)\n- Onde: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP\n- Vagas: 30 no presencial, por ordem de inscrição\n- Workshop Presencial (teórico e prático): R$ 1.250,00\n- [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão",
+        "Faculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+      ],
+      "roteiro": [],
+      "chamada": "Ver programação e ingressos",
+      "variantes": [
+        {
+          "rotulo": "Assunto 2",
+          "texto": "Sexta para entender o sinal, sábado para instalar e ler: neuromonitorização em 2 dias"
+        },
+        {
+          "rotulo": "Assunto 3",
+          "texto": "Além do número na tela: EEG, BIS e TOF na anestesia e na UTI"
+        },
+        {
+          "rotulo": "Assunto 4",
+          "texto": "Dos planos de Guedel ao awareness intraoperatório: a programação do workshop"
+        },
+        {
+          "rotulo": "Assunto 5",
+          "texto": "[T] Não pode ir nos dois dias? A teoria de sexta, ao vivo e gravada"
+        },
+        {
+          "rotulo": "Corpo, versão B (transmitida e gravada) [T], não enviar até a liberação do 68634",
+          "texto": "Olá, [primeiro_nome],\n\nNem todo mundo consegue estar em São Paulo na sexta e no sábado. Por isso, o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia tem um ingresso só para a teoria.\n\nNo Workshop Transmitido + Gravado (apenas teórico), você acompanha ao vivo as aulas de sexta-feira, 20/11, e elas ficam gravadas: neuroanatomia aplicada à anestesia, como funciona o EEG, EEG clínico, BIS, PSI e Conox, eletrodos de agulha (o que está validado) e neuromonitorização na UTI com bloqueadores neuromusculares e TOF. O sábado prático é só presencial e não faz parte deste ingresso.\n\n- Quando: sexta-feira, 20/11/2026 (aulas teóricas, a partir das 8h30)\n- Como: transmissão ao vivo e gravação [CONFIRMAR prazo de acesso à gravação]\n- Investimento: R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão\n\nFaculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão A (presencial)\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-email-2",
@@ -217,7 +410,51 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 329,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370",
+    "titulo_limpo": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "20% de desconto com o cupom, com o vínculo comprovado na secretaria. Programação na página."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Quem é aluno ou ex-aluno da Faculdade UFAPE tem 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, nos dias 20 e 21 de novembro de 2026, em São Paulo.",
+        "O que é o workshop. Uma sexta-feira teórica (neuroanatomia, EEG, análises espectrais, BIS, PSI e Conox, UTI com bloqueio neuromuscular e TOF) e um sábado prático (instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e artefatos, casos com e sem bloqueio neuromuscular e um desafio em pequenos grupos). É um treinamento progressivo: instalar, avaliar o sinal, interpretar e discutir os casos.",
+        "Como usar a condição. Para usar a condição, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. Secretaria: (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. Prazo da comprovação: [CONFIRMAR].",
+        "Ingressos (valores de tabela; o desconto de 20% é aplicado com o cupom):\n- Workshop Presencial (teórico e prático, 16 h, das 8h às 18h, 30 vagas por ordem de inscrição): R$ 1.250,00\n- [T] Workshop Transmitido + Gravado (apenas teórico, só as aulas de sexta, ao vivo e gravadas): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão",
+        "Local do presencial: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. Validade do cupom: [CONFIRMAR].",
+        "Faculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+      ],
+      "roteiro": [],
+      "chamada": "Ver programação e ingressos",
+      "variantes": [
+        {
+          "rotulo": "Assunto 2",
+          "texto": "Cupom SIMPNEUROMONIT: como usar no workshop de 20 e 21/11"
+        },
+        {
+          "rotulo": "Assunto 3",
+          "texto": "Uma condição para quem é da casa: workshop de neuromonitorização em São Paulo"
+        },
+        {
+          "rotulo": "Assunto 4",
+          "texto": "Sexta para entender o sinal, sábado para instalar e ler (com 20% para aluno e ex-aluno)"
+        },
+        {
+          "rotulo": "Assunto 5",
+          "texto": "Você estuda ou estudou na Ufape? Veja a condição do workshop de 20 e 21/11"
+        }
+      ],
+      "observacao": null
+    }
   },
   {
     "id": "workshop-workshop-story-6",
@@ -236,7 +473,24 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 99,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:61"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:61",
+    "titulo_limpo": "O monitor mostra um número. A decisão continua sendo sua.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O monitor mostra um número. A decisão continua sendo sua."
+        }
+      ],
+      "arte": [
+        "\"O monitor mostra um número. A decisão é sua.\" Apoio: \"Workshop Brasileiro de Neuromonitorização, Anestesia e Neurologia\". Data: \"20 e 21/11 | São Paulo\". Rodapé: \"Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Story de reforço do anúncio do evento, com adesivo de link para a página."
+    }
   },
   {
     "id": "workshop-workshop-aprovacao-2",
@@ -258,7 +512,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 349,
-    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md:349"
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md:349",
+    "titulo_limpo": "Aprovar textos e artes dos anúncios, com o nome oficial do evento",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-anuncio-1",
@@ -277,7 +533,50 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 110,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465",
+    "titulo_limpo": "O monitor mostra um número. A decisão é sua.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O monitor mostra um número. A decisão é sua."
+        },
+        {
+          "rotulo": "Título",
+          "texto": "Decidir olhando além do número"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "20 e 21/11, São Paulo"
+        }
+      ],
+      "arte": [
+        "Imagem 1:1: \"O monitor mostra um número. Você decide.\" Apoio: \"Workshop de Neuromonitorização Veterinária, Anestesia e Neurologia\". Linha de data: \"20 e 21/11 | São Paulo\". Rodapé: \"Realização: Faculdade UFAPE\".",
+        "Imagem 9:16: em duas linhas centrais, \"O monitor mostra um número.\" e \"A decisão é sua.\" Abaixo: \"Workshop de Neuromonitorização Veterinária | 20 e 21/11 | São Paulo\". Rodapé como acima."
+      ],
+      "corpo": [
+        "O monitor mostra um número. A decisão sobre hipnose, analgesia e despertar continua sendo sua.",
+        "No Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, a sexta-feira (20/11) constrói a base: neuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS. No sábado (21/11), é a prática.",
+        "16 h presenciais, 30 vagas, por ordem de inscrição. Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Dos planos de Guedel ao awareness intraoperatório, em uma sexta."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "O que está por trás do número do BIS?"
+        },
+        {
+          "rotulo": "Texto principal com o gancho alternativo",
+          "texto": "Dos planos de Guedel ao awareness intraoperatório, em uma sexta-feira. Na sexta, 20/11, a aula trata das limitações dos planos de Guedel e dos sinais clínicos e da avaliação do paciente na presença de bloqueadores neuromusculares.\n\nNo sábado (21/11), casos de anestesia com e sem bloqueio neuromuscular. Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. 16 h presenciais, 30 vagas, por ordem de inscrição, em São Paulo."
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-anuncio-2",
@@ -296,7 +595,46 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 143,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465",
+    "titulo_limpo": "Sexta: a base. Sábado: a prática.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Sexta: a base. Sábado: a prática."
+        },
+        {
+          "rotulo": "Título",
+          "texto": "Sexta teórica, sábado prático"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "16 h presenciais em São Paulo"
+        }
+      ],
+      "arte": [
+        "Imagem 1:1 estático: \"Sexta: a base. Sábado: a prática.\" Apoio: \"16 h | 30 vagas presenciais, por ordem de inscrição\". Rodapé: \"Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE\".",
+        "Imagem 9:16: igual ao 1:1 em três linhas centrais, mais a linha \"Sem exigir EEG prévio\" (variação G2, gancho \"sem-eeg-previo\")."
+      ],
+      "corpo": [
+        "Uma sexta-feira para entender o sinal. Um sábado para instalar, ler e decidir.",
+        "Sem exigir EEG prévio: a sexta (20/11) constrói a base, da neuroanatomia e do EEG aos índices processados como o BIS. No sábado (21/11), instalação em modelos, leitura de EEG e artefatos, casos com e sem bloqueio neuromuscular e um desafio em pequenos grupos.",
+        "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. 16 h, das 08h às 18h nos dois dias. 30 vagas presenciais, por ordem de inscrição."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sem exigir EEG prévio: a sexta constrói a base."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "16 horas, dois dias: o que acontece em cada dia."
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-anuncio-3",
@@ -317,7 +655,47 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 181,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466",
+    "titulo_limpo": "O que a literatura veterinária diz sobre BIS, PSI e Conox?",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O que a literatura veterinária diz sobre BIS, PSI e Conox?"
+        },
+        {
+          "rotulo": "Título",
+          "texto": "Sinal bom ou artefato?"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "BIS, EEG e TOF, 20 e 21/11"
+        }
+      ],
+      "arte": [
+        "Imagem 1:1: \"Sinal bom ou artefato?\" Apoio: \"Instalar, checar e ler: sábado, 21/11\". Rodapé: \"Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | Realização: Faculdade UFAPE\".",
+        "Imagem 9:16: \"O que a literatura veterinária diz sobre BIS, PSI e Conox?\" Apoio: \"Aula de revisão na sexta, 20/11\". Rodapé igual ao do 1:1, com o nome completo."
+      ],
+      "corpo": [
+        "O que a literatura veterinária diz sobre BIS, PSI e Conox? E quais são as limitações?",
+        "Na sexta (20/11), o workshop revisa as evidências veterinárias e as limitações desses índices e discute o que está validado na adaptação de eletrodos de agulha. No sábado (21/11), treina instalar o sensor, checar a qualidade do sinal e identificar falhas de instalação.",
+        "Para quem tem o BIS na rotina e quer ler além do número. 16 h presenciais em São Paulo, 30 vagas, por ordem de inscrição.",
+        "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sinal bom ou artefato? Checar antes de interpretar."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Adaptação de eletrodos de agulha: o que está validado?"
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-campanha-fase-1",
@@ -341,7 +719,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 81,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:106"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:106",
+    "titulo_limpo": "Anúncios novos entram no público que ainda não conhece o workshop",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-campanha-subida-1",
@@ -363,7 +743,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 81,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:107"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:107",
+    "titulo_limpo": "Sobe a campanha para quem já visitou a página do evento",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-relatorio-1",
@@ -382,7 +764,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 308,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:308"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:308",
+    "titulo_limpo": "Revisão semanal 1 da mídia do workshop",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-video-1",
@@ -401,7 +785,27 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 303,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465",
+    "titulo_limpo": "O monitor mostra um número.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O monitor mostra um número."
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s (gancho): Traçado de EEG estilizado, com um número grande piscando no canto. Na tela: \"O monitor mostra um número.\"",
+        "3 a 8 s: O número some e o traçado ocupa a tela. Na tela: \"A decisão sobre hipnose, analgesia e despertar é sua.\"",
+        "8 a 15 s: Dois cartões em sequência. Na tela: \"Sexta, 20/11: neuroanatomia, EEG, análises espectrais, BIS.\" e \"Sábado, 21/11: instalar, ler e decidir.\"",
+        "15 a 20 s (CTA): Cartão de fechamento. Na tela: \"Workshop de Neuromonitorização Veterinária | 16 h | 30 vagas presenciais | São Paulo. Toque em Saiba mais.\""
+      ],
+      "chamada": "Saiba mais",
+      "variantes": [],
+      "observacao": "Vídeo curto vertical para Reels e Stories de anúncio, com legenda na tela e sem locução."
+    }
   },
   {
     "id": "workshop-workshop-video-2",
@@ -420,7 +824,28 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 312,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465",
+    "titulo_limpo": "Sexta: a base. Sábado: a prática.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Sexta: a base. Sábado: a prática."
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s (gancho): Duas colunas, \"Sexta\" e \"Sábado\". Na tela: \"Sexta: a base. Sábado: a prática.\"",
+        "3 a 10 s: Lista animada da coluna Sexta. Na tela: \"Neuroanatomia, EEG, DSA e CSA, BIS, PSI e Conox, UTI e bloqueio neuromuscular.\"",
+        "10 a 18 s: Lista animada da coluna Sábado. Na tela: \"Instalar o sensor em modelos, checar o sinal, ler EEG e BIS, discutir casos.\"",
+        "18 a 22 s: Cartão. Na tela: \"Sem exigir EEG prévio.\"",
+        "22 a 25 s (CTA): Fechamento. Na tela: \"20 e 21/11 | 16 h | 30 vagas presenciais, por ordem de inscrição. Toque em Saiba mais.\""
+      ],
+      "chamada": "Saiba mais",
+      "variantes": [],
+      "observacao": "Vídeo curto vertical para Reels e Stories de anúncio, com legenda na tela e sem locução."
+    }
   },
   {
     "id": "workshop-workshop-video-3",
@@ -441,7 +866,28 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 322,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466",
+    "titulo_limpo": "O que a literatura veterinária diz sobre BIS, PSI e Conox?",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "O que a literatura veterinária diz sobre BIS, PSI e Conox?"
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s (gancho): Três siglas se alinhando: BIS, PSI, Conox. Na tela: \"O que a literatura veterinária diz sobre BIS, PSI e Conox?\"",
+        "3 a 9 s: Cartão. Na tela: \"Sexta, 20/11: revisão das evidências veterinárias e das limitações dos índices.\"",
+        "9 a 15 s: Cartão. Na tela: \"Adaptação de eletrodos de agulha: o que está validado?\"",
+        "15 a 22 s: Traçado com trecho marcado como artefato. Na tela: \"Sábado, 21/11: instalar o sensor, checar a qualidade do sinal, identificar falhas de instalação.\"",
+        "22 a 25 s (CTA): Fechamento. Na tela: \"Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | São Paulo. Toque em Saiba mais.\""
+      ],
+      "chamada": "Saiba mais",
+      "variantes": [],
+      "observacao": "Vídeo curto vertical para Reels e Stories de anúncio, com legenda na tela e sem locução."
+    }
   },
   {
     "id": "workshop-workshop-email-11",
@@ -462,7 +908,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 273,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277",
+    "titulo_limpo": "Programação hora a hora do workshop de neuromonitorização, 20 e 21/11",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Programação hora a hora do workshop de neuromonitorização, 20 e 21/11"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome]. Caso o e-mail anterior tenha passado despercebido: a programação de sexta (teórica) e de sábado (prática) está na página, com horário e tema de cada bloco. https://faculdade.ufape.com.br/neuro-summit/"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-email-12",
@@ -484,7 +947,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 366,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370",
+    "titulo_limpo": "Como usar o cupom SIMPNEUROMONIT no workshop de 20 e 21/11",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Como usar o cupom SIMPNEUROMONIT no workshop de 20 e 21/11"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome]. Para usar a condição de aluno e ex-aluno no workshop de 20 e 21/11, comprove o vínculo na secretaria e use o cupom SIMPNEUROMONIT. Validade do cupom: [CONFIRMAR]. https://faculdade.ufape.com.br/neuro-summit/"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-10",
@@ -506,7 +986,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 205,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211",
+    "titulo_limpo": "[primeiro_nome], só para o caso de a mensagem ter se perdido",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "[primeiro_nome], só para o caso de a mensagem ter se perdido"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "[primeiro_nome], só para o caso de a mensagem ter se perdido: a programação do workshop de 20 e 21/11 está na página, com o horário de cada aula. Qualquer dúvida sobre os ingressos, é só responder aqui.\nhttps://faculdade.ufape.com.br/neuro-summit/\nResponda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-11",
@@ -529,7 +1026,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 318,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324",
+    "titulo_limpo": "[primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e ex-aluno) vale para o",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "[primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e ex-aluno) vale para o workshop de 20 e 21/11, com o vínculo comprovado na secretaria. Validade do cupom"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "[primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e ex-aluno) vale para o workshop de 20 e 21/11, com o vínculo comprovado na secretaria. Validade do cupom: [CONFIRMAR]. Se tiver dúvida sobre como usar, responda aqui.\nhttps://faculdade.ufape.com.br/neuro-summit/\nResponda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-carrossel-1",
@@ -548,7 +1062,47 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 148,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:62"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:62",
+    "titulo_limpo": "Sexta, 20/11: da neuroanatomia ao BIS, em um dia.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Sexta, 20/11: da neuroanatomia ao BIS, em um dia."
+        }
+      ],
+      "arte": [
+        "Cartão 1 (capa): \"Sexta, 20/11: da neuroanatomia ao BIS.\" Apoio: \"Workshop Brasileiro de Neuromonitorização | São Paulo\"",
+        "Cartão 2: \"08h30 Abertura. 08h45 Dos planos de Guedel ao awareness intraoperatório.\"",
+        "Cartão 3: \"09h45 Redes neurais e neuroanatomia aplicada à anestesia (aula online ao vivo). 11h00 Como funciona o EEG: do sinal às análises espectrais.\"",
+        "Cartão 4: \"13h30 EEG clínico na neurologia veterinária. 14h30 BIS, PSI e Conox: índices processados e revisão da literatura.\"",
+        "Cartão 5: \"15h45 Adaptação de eletrodos de agulha: o que está validado? 16h30 Neuromonitorização na UTI e bloqueadores neuromusculares. 17h15 Qual monitor temos disponível na prática?\"",
+        "Cartão 6 (fechamento): \"Sem exigir EEG prévio. A sexta constrói a base.\" \"16 h | 30 vagas presenciais, por ordem de inscrição | Faculdade Ufape, Unidade 2, Av. Tiradentes, 960\". \"Programação na página do evento. Realização: Faculdade UFAPE.\""
+      ],
+      "corpo": [
+        "Sexta-feira, 20/11, é o dia da teoria.",
+        "Neuroanatomia, EEG, análises espectrais e índices processados, passando por BIS, PSI e Conox.",
+        "Também entram a UTI com bloqueadores neuromusculares e o monitor neuromuscular por TOF.",
+        "Você não precisa saber interpretar EEG antes.\nA sexta constrói a base para a prática do sábado.",
+        "Arraste para ver os horários.",
+        "16 h presenciais no total (8 teóricas e 8 práticas), 30 vagas, por ordem de inscrição.\nFaculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.",
+        "Programação completa na página do evento. Link na bio.",
+        "Qual desses temas você mais quer ver explicado com calma?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Oito horas de teoria para o sábado prático fazer sentido."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sem exigir EEG prévio: a sexta constrói a base."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-email-3",
@@ -569,7 +1123,51 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 377,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445",
+    "titulo_limpo": "A programação hora a hora do workshop de neuromonitorização, 20 e 21/11",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "A programação hora a hora do workshop de neuromonitorização, 20 e 21/11"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Sexta teórica e sábado prático, com o tema e o horário de cada bloco."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Antes de decidir, muita gente quer ver o que cada hora do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia trata. Aqui vai a grade, como está na página. As aulas seguem a ordem abaixo; a distribuição entre docentes segue em alinhamento com a coordenação científica.",
+        "Sexta-feira, 20/11 (teórica)\n- 8h30 às 8h45: abertura, com os objetivos, a sequência do curso e a preparação para o sábado prático\n- 8h45 às 9h45: dos planos de Guedel ao awareness intraoperatório\n- 9h45 às 10h45: redes neurais e neuroanatomia aplicada à anestesia (aula online ao vivo)\n- 10h45 às 11h00: intervalo\n- 11h00 às 12h30: como funciona o EEG, do sinal às análises espectrais\n- 12h30 às 13h30: almoço\n- 13h30 às 14h30: EEG clínico na neurologia veterinária\n- 14h30 às 15h30: índice bispectral (BIS), PSI e Conox, com revisão da literatura\n- 15h30 às 15h45: intervalo\n- 15h45 às 16h30: adaptação de eletrodos de agulha, o que está validado\n- 16h30 às 17h15: neuromonitorização na UTI e bloqueadores neuromusculares\n- 17h15 às 18h00: qual monitor temos disponível na prática",
+        "Sábado, 21/11 (prático, só no presencial)\n- 8h30 às 9h00: demonstração inicial e organização dos grupos práticos\n- 9h00 às 10h30: instalação do BIS e de outros neuromonitores\n- 10h30 às 10h45: intervalo\n- 10h45 às 12h30: leitura prática de EEG e reconhecimento de artefatos\n- 12h30 às 13h30: almoço\n- 13h30 às 15h00: BIS, DSA, CSA e índices processados na prática\n- 15h00 às 15h15: intervalo\n- 15h15 às 16h15: casos de anestesia com e sem bloqueio neuromuscular\n- 16h15 às 17h15: casos de UTI com bloqueio neuromuscular, EEG e BIS\n- 17h15 às 17h45: desafio prático em pequenos grupos\n- 17h45 às 18h00: devolutiva e encerramento",
+        "O sábado trabalha com modelos, simulações ou registros clínicos, conforme os equipamentos e registros disponíveis. Não é preciso saber interpretar EEG antes: a sexta constrói a base. E o BIS tem destaque, mas o programa também passa por EEG, DSA, CSA, PSI, Conox e TOF.",
+        "Local: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. O presencial tem 30 vagas no total, por ordem de inscrição.",
+        "Faculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+      ],
+      "roteiro": [],
+      "chamada": "Ver a programação completa e os ingressos",
+      "variantes": [
+        {
+          "rotulo": "Assunto 2",
+          "texto": "Sexta e sábado, bloco a bloco: veja o que cada horário trata"
+        },
+        {
+          "rotulo": "Assunto 3",
+          "texto": "Do EEG ao TOF: a grade completa do workshop de 20 e 21/11"
+        },
+        {
+          "rotulo": "Assunto 4",
+          "texto": "O que acontece das 8h às 18h nos dois dias do workshop de neuromonitorização"
+        },
+        {
+          "rotulo": "Assunto 5",
+          "texto": "Casos com e sem bloqueio neuromuscular: a programação do sábado prático"
+        }
+      ],
+      "observacao": null
+    }
   },
   {
     "id": "workshop-workshop-conferencia-3",
@@ -590,7 +1188,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 374,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:309"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:309",
+    "titulo_limpo": "Conferir a sobreposição de públicos com outras campanhas",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-story-7",
@@ -611,7 +1211,28 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 710,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:63"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:63",
+    "titulo_limpo": "Dúvidas sobre o workshop de neuromonitorização? Pergunte aqui.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira tela",
+          "texto": "Dúvidas sobre o workshop de neuromonitorização? Pergunte aqui."
+        }
+      ],
+      "arte": [
+        "Tela 1: \"Dúvidas sobre o workshop de neuromonitorização? Pergunte aqui.\".",
+        "Tela 2: [T] Enquete \"O workshop completo é presencial ou online?\" [Presencial / Online].",
+        "Tela 3: Enquete \"Preciso saber interpretar EEG antes?\" [Sim / Não].",
+        "Tela 4: Enquete \"O workshop é só sobre BIS?\" [Sim / Não].",
+        "Tela 5: \"Respostas amanhã.\""
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Sequência de Stories do Instagram, com link para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-carrossel-2",
@@ -630,7 +1251,47 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 195,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64",
+    "titulo_limpo": "Sábado: instalar o sensor, checar o sinal, ler o traçado.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Sábado: instalar o sensor, checar o sinal, ler o traçado."
+        }
+      ],
+      "arte": [
+        "Cartão 1 (capa): \"Sábado, 21/11: a prática.\" Apoio: \"Instalar, avaliar o sinal, interpretar e discutir os casos.\"",
+        "Cartão 2: \"08h30 Demonstração inicial e organização dos grupos práticos. 09h00 Instalação do BIS e de outros neuromonitores, em modelos.\"",
+        "Cartão 3: \"10h45 Leitura prática de EEG e reconhecimento de artefatos. 13h30 BIS, DSA, CSA e índices processados na prática.\"",
+        "Cartão 4: \"15h15 Casos de anestesia com e sem bloqueio neuromuscular. 16h15 Casos de UTI com BNM, EEG e BIS.\"",
+        "Cartão 5: \"17h15 Desafio prático em pequenos grupos: caso com BIS e TOF. 17h45 Devolutiva e encerramento.\"",
+        "Cartão 6 (fechamento): \"Não é só BIS: EEG, DSA, CSA, PSI, Conox e TOF.\" \"30 vagas presenciais, por ordem de inscrição | Faculdade Ufape, Unidade 2\". \"Realização: Faculdade UFAPE.\""
+      ],
+      "corpo": [
+        "Sábado, 21/11, é o dia da prática.",
+        "Instalar o BIS e outros neuromonitores em modelos.\nChecar a qualidade do sinal e identificar falhas de instalação.",
+        "Ler EEG e reconhecer artefatos.\nInterpretar BIS, DSA, CSA e índices processados, conforme os equipamentos e registros disponíveis.",
+        "Discutir casos de anestesia e de UTI, com e sem bloqueio neuromuscular.",
+        "E fechar com um desafio em pequenos grupos: caso com BIS e TOF em paciente sob bloqueio neuromuscular.\nCada grupo avalia o sinal, interpreta os registros, identifica limitações e justifica suas decisões.",
+        "Das 08h às 18h. 30 vagas presenciais, por ordem de inscrição.\nFaculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.",
+        "Programação completa na página do evento. Link na bio.",
+        "No seu centro cirúrgico ou na sua UTI, quem confere a qualidade do sinal antes de olhar o número?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sinal bom ou artefato? O sábado treina esse olhar."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Um sábado inteiro de prática, em modelos e casos."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-reels-2",
@@ -649,7 +1310,28 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 195,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64",
+    "titulo_limpo": "Sábado: instalar o sensor, checar o sinal, ler o traçado.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Sábado: instalar o sensor, checar o sinal, ler o traçado."
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s: Cartão com dois traçados, um limpo e um com trecho marcado. Na tela: Sinal bom ou artefato?",
+        "3 a 10 s: Lista animada. Na tela: Sábado, 21/11: instalar o sensor em modelos, checar o sinal, ler EEG e BIS.",
+        "10 a 18 s: Lista animada. Na tela: Casos de anestesia e de UTI, com e sem bloqueio neuromuscular.",
+        "18 a 22 s: Cartão. Na tela: Desafio em pequenos grupos: caso com BIS e TOF.",
+        "22 a 25 s: Fechamento. Na tela: 21/11 | 30 vagas presenciais | São Paulo. Programação na página do evento."
+      ],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reels publicado no mesmo dia do post, com legenda curta."
+    }
   },
   {
     "id": "workshop-workshop-story-8",
@@ -670,7 +1352,28 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 711,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:65"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:65",
+    "titulo_limpo": "O workshop completo é presencial, sexta e sábado.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira tela",
+          "texto": "O workshop completo é presencial, sexta e sábado."
+        }
+      ],
+      "arte": [
+        "Tela 1: Sem [T]: \"O workshop completo é presencial, sexta e sábado.\" [T]: \"Presencial ou online? O completo é presencial. A teoria de sexta também tem modalidade online, ao vivo e gravada (apenas teórico).\"",
+        "Tela 2: \"Preciso saber EEG? Não. A sexta constrói a base.\"",
+        "Tela 3: \"É só BIS? Não. EEG, DSA, CSA, PSI, Conox e TOF.\"",
+        "Tela 4: Cartão com 1 a 2 respostas às perguntas recebidas, só da tabela 3.1.",
+        "Tela 5: \"Dúvida sobre valores, formas de pagamento ou cupom? Fale com a secretaria. Programação na página.\""
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Sequência de Stories do Instagram, com link para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-carrossel-3",
@@ -693,7 +1396,44 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 301,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:66"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:66",
+    "titulo_limpo": "[T] Dois dias em São Paulo ou só a teoria de sexta, online.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "[T] Dois dias em São Paulo ou só a teoria de sexta, online."
+        }
+      ],
+      "arte": [
+        "Cartão 1 (capa): [T] \"Duas formas de participar.\" Sem [T]: \"Workshop presencial: sexta e sábado.\" Apoio: \"Workshop Brasileiro de Neuromonitorização | 20 e 21/11\"",
+        "Cartão 2: \"Presencial: teórico + prático. Sexta e sábado, 16 h, das 08h às 18h. 30 vagas, por ordem de inscrição. Faculdade Ufape, Unidade 2, São Paulo.\" Versão B acrescenta: \"R$ 1.250,00. Parcelamento: [CONFIRMAR NO CATÁLOGO]\"",
+        "Cartão 3 [T]: \"Transmitido + Gravado: apenas teórico. Só as aulas de sexta, 20/11, ao vivo e gravadas. O sábado prático é só presencial.\" Versão B acrescenta: \"R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão\"",
+        "Cartão 4: \"Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT. Vínculo comprovado na secretaria. Validade: [CONFIRMAR].\"",
+        "Cartão 5: \"Detalhes e inscrição na página do evento. Realização: Faculdade UFAPE.\""
+      ],
+      "corpo": [
+        "[T] Duas formas de participar do Workshop Brasileiro de Neuromonitorização.",
+        "Workshop Presencial (teórico + prático)\n- Sexta teórica e sábado prático, 20 e 21/11\n- 16 h (8 teóricas e 8 práticas), das 08h às 18h\n- Faculdade Ufape, Unidade 2, São Paulo/SP\n- 30 vagas, por ordem de inscrição\n[Versão B] - R$ 1.250,00 (demais participantes). Parcelamento e formas de pagamento: [CONFIRMAR NO CATÁLOGO]",
+        "[T] Workshop Transmitido + Gravado (apenas teórico)\n- Só as aulas teóricas de sexta, 20/11\n- Ao vivo e gravadas\n- O sábado prático não está incluído (é só presencial)\n[Versão B] [T] - R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão (demais participantes)",
+        "Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT, com comprovação do vínculo na secretaria. Validade do cupom: [CONFIRMAR].",
+        "Detalhes na página do evento. Link na bio.",
+        "Qual modalidade combina melhor com a sua agenda de 20 e 21/11? (Sem [T]: Qual parte do programa você quer ver de perto?)"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] Presencial ou só a teoria de sexta: o que cada um inclui."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[Versão B] [T] R$ 1.250,00 ou R$ 450,00: a diferença é o sábado prático."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-relatorio-2",
@@ -712,7 +1452,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 310,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:310"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:310",
+    "titulo_limpo": "Revisão semanal 2: decidir o ajuste da última fase",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-13",
@@ -733,7 +1475,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 441,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445",
+    "titulo_limpo": "A grade do workshop de neuromonitorização em um só lugar",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "A grade do workshop de neuromonitorização em um só lugar"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome]. A programação completa do workshop de 20 e 21/11, com horário e tema de cada bloco, está na página. https://faculdade.ufape.com.br/neuro-summit/"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-anuncio-4",
@@ -754,7 +1513,47 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 209,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469",
+    "titulo_limpo": "Paciente sob bloqueio neuromuscular. Está dormindo?",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Paciente sob bloqueio neuromuscular. Está dormindo?"
+        },
+        {
+          "rotulo": "Título",
+          "texto": "UTI e bloqueio neuromuscular"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "EEG, BIS e TOF na UTI"
+        }
+      ],
+      "arte": [
+        "Imagem 9:16: \"Paciente sob bloqueio neuromuscular. Está dormindo?\" Apoio: \"EEG, BIS e TOF na UTI | 20 e 21/11 | São Paulo\". Rodapé: \"Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | Realização: Faculdade UFAPE\".",
+        "Imagem 1:1: igual, em quatro linhas, com o mesmo rodapé de nome completo. A arte é ilustração de linha de tempo com traçado de EEG e uma sequência de quatro pulsos de TOF, sem imagem de paciente."
+      ],
+      "corpo": [
+        "Paciente sedado e sob bloqueio neuromuscular: como avaliar hipnose e sedação nesse cenário?",
+        "O workshop trata disso na sexta (20/11), com a aula de UTI e bloqueadores neuromusculares (EEG, BIS, EMG e monitorização do bloqueio por TOF), e no sábado (21/11), com casos de UTI com BNM, EEG e BIS e treino da leitura do TOF em simulações ou registros clínicos.",
+        "16 h presenciais em São Paulo, 30 vagas, por ordem de inscrição. Faculdade Ufape, Unidade 2, Av. Tiradentes, 960.",
+        "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sedação em UTI: o que EEG, BIS e TOF mostram?"
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Dois blocos de UTI com bloqueio neuromuscular na grade."
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-campanha-fase-2",
@@ -775,7 +1574,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 81,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:110"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:110",
+    "titulo_limpo": "Ajuste único no público novo, conforme a revisão de 09/11",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-video-4",
@@ -796,7 +1597,28 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 332,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469",
+    "titulo_limpo": "Paciente sob bloqueio neuromuscular. Está dormindo?",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Paciente sob bloqueio neuromuscular. Está dormindo?"
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s (gancho): Linha de tempo com traçado de EEG e quatro pulsos de TOF. Na tela: \"Paciente sob bloqueio neuromuscular. Está dormindo?\"",
+        "3 a 9 s: Cartão. Na tela: \"Avaliar hipnose e sedação sob bloqueio: EEG, BIS, EMG e TOF.\"",
+        "9 a 17 s: Dois cartões. Na tela: \"Sexta, 20/11: UTI e bloqueadores neuromusculares.\" e \"Sábado, 21/11: casos de UTI com BNM, em simulações ou registros clínicos.\"",
+        "17 a 21 s: Cartão. Na tela: \"Desafio em pequenos grupos: caso com BIS e TOF.\"",
+        "21 a 24 s (CTA): Fechamento. Na tela: \"Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | 16 h | 30 vagas presenciais | São Paulo. Toque em Saiba mais.\""
+      ],
+      "chamada": "Saiba mais",
+      "variantes": [],
+      "observacao": "Vídeo curto vertical para Reels e Stories de anúncio, com legenda na tela e sem locução."
+    }
   },
   {
     "id": "workshop-workshop-carrossel-4",
@@ -817,7 +1639,46 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 352,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:67"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:67",
+    "titulo_limpo": "Preciso saber EEG antes? Não. Veja as outras dúvidas.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Preciso saber EEG antes? Não. Veja as outras dúvidas."
+        }
+      ],
+      "arte": [
+        "Cartão 1 (capa): \"Dúvidas frequentes.\" Apoio: \"Workshop Brasileiro de Neuromonitorização | 20 e 21/11\"",
+        "Cartão 2: \"Preciso saber EEG antes? Não. A sexta constrói a base.\"",
+        "Cartão 3: \"É só BIS? Não. EEG, DSA, CSA, PSI, Conox e TOF.\"",
+        "Cartão 4: \"Como funcionam os dois dias? Sexta: teoria. Sábado: prática, em modelos e casos.\"",
+        "Cartão 5: \"Quantas vagas? 30, por ordem de inscrição. Dúvidas: secretaria. Realização: Faculdade UFAPE.\""
+      ],
+      "corpo": [
+        "Dúvidas frequentes sobre o Workshop Brasileiro de Neuromonitorização.",
+        "Preciso saber interpretar EEG antes?\nNão. A sexta constrói a base, de neuroanatomia e EEG a análises espectrais e índices processados, antes da prática do sábado.",
+        "O workshop é só sobre BIS?\nNão. O BIS tem destaque, mas o programa passa por EEG, DSA, CSA, PSI, Conox e monitorização neuromuscular por TOF.",
+        "Como funcionam os dois dias?\nSexta é teórica. Sábado é prático: instalação dos monitores, leitura de EEG e BIS, casos com e sem bloqueio neuromuscular e um desafio em pequenos grupos.",
+        "Quantas vagas existem?\nSão 30, por ordem de inscrição (capacidade do presencial).",
+        "[T] É presencial ou online?\nO completo é presencial. A teoria de sexta também tem modalidade online, ao vivo e gravada (apenas teórico).",
+        "Dúvida sobre pagamento, vínculo ou cupom? Fale com a secretaria. Programação completa na página do evento. Link na bio.",
+        "Qual dúvida você ainda tem sobre o workshop?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "É só BIS? Não. O programa passa por EEG, DSA, CSA, PSI, Conox e TOF."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Dúvidas mais comuns sobre o workshop, respondidas pela página."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-story-1",
@@ -839,7 +1700,40 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 402,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:69"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:69",
+    "titulo_limpo": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização."
+        }
+      ],
+      "arte": [
+        "\"Aluno e ex-aluno Ufape: 20% no workshop.\" Apoio: \"Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria | validade: [CONFIRMAR]\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | 20 e 21/11 | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Aluno e ex-aluno Ufape têm 20% de desconto no Workshop Brasileiro de Neuromonitorização.",
+        "Use o cupom SIMPNEUROMONIT.",
+        "Presencial: sexta teórica e sábado prático, 20 e 21/11, 16 h, 30 vagas, por ordem de inscrição, em São Paulo.\n[T] Transmitido + Gravado: apenas teórico, só a sexta, 20/11. A condição aparece nas duas modalidades da página.",
+        "Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial.\nValidade do cupom: [CONFIRMAR].",
+        "Os valores e as condições para os demais participantes estão na página do evento. Link na bio.",
+        "Dúvida sobre como comprovar o vínculo? Fale com a secretaria."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "20% de desconto para aluno e ex-aluno Ufape no workshop."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] O cupom SIMPNEUROMONIT vale para o presencial e para a teoria de sexta."
+        }
+      ],
+      "observacao": "Sai nos Stories do Instagram; a arte vira a tela principal e o texto serve de apoio para responder comentários e mensagens."
+    }
   },
   {
     "id": "workshop-workshop-story-2",
@@ -860,7 +1754,41 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 435,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:70"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:70",
+    "titulo_limpo": "Falta 1 semana para o workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Falta 1 semana para o workshop de neuromonitorização."
+        }
+      ],
+      "arte": [
+        "\"Falta 1 semana.\" Apoio: \"Sexta: a base. Sábado: a prática.\" Linha de data: \"20 e 21/11 | São Paulo\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Falta 1 semana.",
+        "Sexta, 20/11: a base.\nNeuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS.",
+        "Sábado, 21/11: a prática.\nInstalar, avaliar o sinal, interpretar e discutir casos de anestesia e de UTI.",
+        "Presencial: 16 h, das 08h às 18h, 30 vagas, por ordem de inscrição.\nFaculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.",
+        "[T] Só a teoria de sexta, ao vivo e gravada: Workshop Transmitido + Gravado (apenas teórico).",
+        "Programação completa e inscrição na página do evento. Link na bio.",
+        "Qual bloco da programação você marcou na agenda?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sexta que vem: a base. Sábado: a prática."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Em 7 dias, começa a sexta teórica."
+        }
+      ],
+      "observacao": "Sai nos Stories do Instagram; a arte vira a tela principal e o texto serve de apoio para responder comentários e mensagens."
+    }
   },
   {
     "id": "workshop-workshop-anuncio-5",
@@ -881,7 +1809,46 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 238,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471",
+    "titulo_limpo": "Para acompanhar de onde estiver: a teoria de sexta.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Para acompanhar de onde estiver: a teoria de sexta."
+        },
+        {
+          "rotulo": "Título",
+          "texto": "Teoria de sexta, ao vivo"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "Apenas teórico, 20/11"
+        }
+      ],
+      "arte": [
+        "Imagem 1:1: \"A teoria de sexta, ao vivo e gravada.\" Apoio: \"Apenas teórico: só as aulas de sexta-feira, 20/11\". Rodapé: \"Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE\".",
+        "Imagem 9:16: \"Para acompanhar de onde estiver: a teoria de sexta.\" Apoio: \"Apenas teórico | ao vivo e gravada | 20/11\"."
+      ],
+      "corpo": [
+        "Para quem não vai estar em São Paulo nos dois dias: a sexta-feira teórica (20/11) também pode ser acompanhada online, ao vivo e com gravação, no Workshop Transmitido + Gravado.",
+        "Apenas teórico: não inclui o sábado prático, que é só presencial. A grade passa por neuroanatomia, EEG, BIS, PSI e Conox, e UTI com bloqueio neuromuscular.",
+        "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Só a teoria de sexta, ao vivo e gravada."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Da neuroanatomia ao EEG, ao BIS e à UTI, sem ir a São Paulo."
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-anuncio-7",
@@ -900,7 +1867,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 405,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:470"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:470",
+    "titulo_limpo": "Anúncio \"Começa na sexta, 20/11\": sem texto completo no arquivo de criativos",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-campanha-fase-3",
@@ -921,7 +1890,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 246,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:111"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:111",
+    "titulo_limpo": "Entra o anúncio \"Começa na sexta, 20/11\" para quem já visitou a página",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-campanha-subida-2",
@@ -943,7 +1914,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 260,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:112"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:112",
+    "titulo_limpo": "Sobe a campanha do ingresso transmitido, se o produto for confirmado",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-video-5",
@@ -964,7 +1937,27 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 342,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471",
+    "titulo_limpo": "Para acompanhar de onde estiver: a teoria de sexta.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Para acompanhar de onde estiver: a teoria de sexta."
+        }
+      ],
+      "arte": [],
+      "corpo": [],
+      "roteiro": [
+        "0 a 3 s (gancho): Cartão com a sexta destacada em um calendário. Na tela: \"Para acompanhar de onde estiver: a teoria de sexta.\"",
+        "3 a 9 s: Cartão. Na tela: \"Workshop Transmitido + Gravado: ao vivo e gravado.\"",
+        "9 a 15 s: Cartão com destaque. Na tela: \"Apenas teórico: só as aulas de sexta-feira, 20/11.\"",
+        "15 a 20 s (CTA): Fechamento. Na tela: \"O sábado prático é só presencial, em São Paulo. Toque em Saiba mais.\""
+      ],
+      "chamada": "Saiba mais",
+      "variantes": [],
+      "observacao": "Vídeo curto vertical para Reels e Stories de anúncio, com legenda na tela e sem locução."
+    }
   },
   {
     "id": "workshop-workshop-email-4",
@@ -987,7 +1980,50 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 461,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499",
+    "titulo_limpo": "O workshop de neuromonitorização é na semana que vem (20 e 21/11)",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "O workshop de neuromonitorização é na semana que vem (20 e 21/11)"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "20 e 21/11, das 8h às 18h. Presencial com 30 vagas no total."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Na próxima sexta-feira, 20/11, começa o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, na Faculdade Ufape (Unidade 2, Av. Tiradentes, 960, São Paulo/SP).",
+        "Como participar:\n- Presencial (teórico e prático): sexta e sábado, das 8h às 18h, 16 h no total. O presencial tem 30 vagas no total, por ordem de inscrição. R$ 1.250,00.\n- [T] Transmitido + Gravado (apenas teórico): só as aulas de sexta, ao vivo e gravadas. R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. O sábado prático não faz parte deste ingresso.",
+        "As perguntas mais comuns:\n- Preciso saber interpretar EEG antes? Não. A sexta constrói a base, de neuroanatomia, EEG e análises espectrais a índices processados, antes da prática do sábado.\n- É só sobre BIS? Não. O BIS tem destaque, mas o programa passa por EEG, DSA, CSA, PSI, Conox e monitorização neuromuscular por TOF.\n- O que se faz no sábado prático? Instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e artefatos, casos com e sem bloqueio neuromuscular e desafio em pequenos grupos.",
+        "Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT, com o vínculo comprovado na secretaria. Validade e prazo da comprovação: [CONFIRMAR].",
+        "Faculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+      ],
+      "roteiro": [],
+      "chamada": "Ver ingressos e programação",
+      "variantes": [
+        {
+          "rotulo": "Assunto 2",
+          "texto": "Falta pouco: sexta teórica e sábado prático, em São Paulo"
+        },
+        {
+          "rotulo": "Assunto 3",
+          "texto": "[T] Presencial ou só a teoria de sexta: veja como participar do workshop de 20 e 21/11"
+        },
+        {
+          "rotulo": "Assunto 4",
+          "texto": "Ainda dá para se inscrever: programação e ingressos do workshop de neuromonitorização"
+        },
+        {
+          "rotulo": "Assunto 5",
+          "texto": "Dúvida sobre o workshop? Estas são as perguntas mais comuns"
+        }
+      ],
+      "observacao": "O parágrafo do cupom vai só para o segmento de aluno e ex-aluno."
+    }
   },
   {
     "id": "workshop-workshop-relatorio-3",
@@ -1006,7 +2042,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 313,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:313"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:313",
+    "titulo_limpo": "Revisão semanal 3; pausa imediata do presencial se lotar",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-story-9",
@@ -1025,7 +2063,25 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 714,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:73"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:73",
+    "titulo_limpo": "Última dúvida antes de sexta? Pergunte aqui.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira tela",
+          "texto": "Última dúvida antes de sexta? Pergunte aqui."
+        }
+      ],
+      "arte": [
+        "Tela 1: \"Última dúvida antes de sexta? Pergunte aqui.\".",
+        "Tela 2: Respostas só da tabela 3.1, no mesmo dia ou em 17/11"
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Sequência de Stories do Instagram, com link para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-email-14",
@@ -1046,7 +2102,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 495,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499",
+    "titulo_limpo": "O workshop começa na sexta: horário, local e ingressos",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "O workshop começa na sexta: horário, local e ingressos"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome]. Resumo: 20 e 21/11, das 8h às 18h, na Unidade 2 (Av. Tiradentes, 960). https://faculdade.ufape.com.br/neuro-summit/"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-story-3",
@@ -1068,7 +2141,41 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 479,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:74"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:74",
+    "titulo_limpo": "Faltam 3 dias para a sexta teórica.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Faltam 3 dias para a sexta teórica."
+        }
+      ],
+      "arte": [
+        "\"Faltam 3 dias.\" Apoio: \"Sexta: a base. Sábado: a prática.\" Linha de data: \"20 e 21/11 | São Paulo\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Faltam 3 dias.",
+        "Sexta, 20/11, abre a teoria. Sábado, 21/11, é a prática.",
+        "Dos planos de Guedel ao awareness intraoperatório.\nDo sinal do EEG às análises espectrais.\nBIS, PSI e Conox.\nUTI com bloqueio neuromuscular e TOF.",
+        "Presencial na Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.\n30 vagas, por ordem de inscrição.",
+        "[T] Se você não vai estar em São Paulo, a teoria de sexta também pode ser acompanhada online, ao vivo e gravada (apenas teórico).",
+        "Detalhes na página do evento. Link na bio.",
+        "Ficou alguma dúvida antes de sexta? Pergunte nos Stories."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sexta, 20/11: começa o workshop de neuromonitorização."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] Quem não vai estar em São Paulo ainda pode ver a teoria de sexta."
+        }
+      ],
+      "observacao": "Sai nos Stories do Instagram; a arte vira a tela principal e o texto serve de apoio para responder comentários e mensagens."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-3",
@@ -1093,7 +2200,48 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 504,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:529"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:529",
+    "titulo_limpo": "O workshop de neuromonitorização é na sexta-feira, 20/11.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. O workshop de neuromonitorização é na sexta-feira, 20/11."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Na sexta, 20/11, começa o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, em São Paulo.",
+        "Presencial (sexta teórica e sábado prático, das 8h às 18h): 30 vagas no total, por ordem de inscrição, R$ 1.250,00. [T] Só a teoria de sexta, ao vivo e gravada (apenas teórico): R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão.",
+        "Se ficou alguma dúvida sobre os dois dias, responda aqui que o time te ajuda. Ingressos e programação: https://faculdade.ufape.com.br/neuro-summit/",
+        "Responda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha 2",
+          "texto": "Oi, [primeiro_nome]. É nesta sexta, 20/11: o workshop de neuromonitorização."
+        },
+        {
+          "rotulo": "Primeira linha 3",
+          "texto": "[T] Oi, [primeiro_nome]. Presencial ou só a teoria de sexta? Veja como participar do workshop de 20 e 21/11."
+        },
+        {
+          "rotulo": "Primeira linha 4",
+          "texto": "Oi, [primeiro_nome]. Ficou alguma dúvida sobre o workshop de neuromonitorização? Responda aqui."
+        },
+        {
+          "rotulo": "Primeira linha 5",
+          "texto": "Oi, [primeiro_nome]. Nesta semana: sexta teórica, sábado prático, na Unidade 2."
+        },
+        {
+          "rotulo": "Corpo (aluno e ex-aluno)",
+          "texto": ""
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo (geral)\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-story-10",
@@ -1112,7 +2260,26 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 715,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:75"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:75",
+    "titulo_limpo": "Faltam 2 dias.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira tela",
+          "texto": "Faltam 2 dias."
+        }
+      ],
+      "arte": [
+        "Tela 1: \"Faltam 2 dias.\"",
+        "Tela 2: Resumo da grade de sexta e de sábado em dois cartões (como P2 e P3).",
+        "Tela 3: Reaproveitamento das melhores respostas em vídeo dos docentes, só os já autorizados e aprovados, sem criar peça nova."
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Sequência de Stories do Instagram, com link para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-campanha-pausa-1",
@@ -1133,7 +2300,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 357,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:114"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:114",
+    "titulo_limpo": "Pausa dos anúncios do presencial",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-post-2",
@@ -1154,7 +2323,42 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 516,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:76"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:76",
+    "titulo_limpo": "Amanhã, sexta-feira, começa o workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Amanhã, sexta-feira, começa o workshop de neuromonitorização."
+        }
+      ],
+      "arte": [
+        "\"Amanhã, 20/11.\" Apoio: \"Faculdade Ufape, Unidade 2 | Av. Tiradentes, 960, São Paulo/SP\". Linha: \"Sexta: teoria. Sábado: prática. Das 08h às 18h.\" Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Amanhã, sexta-feira, 20/11, começa o Workshop Brasileiro de Neuromonitorização.",
+        "Onde:\nFaculdade Ufape, Unidade 2\nAv. Tiradentes, 960, São Paulo/SP",
+        "Atenção: é na Unidade 2, e não na sede da Av. 9 de Julho.",
+        "Quando:\nSexta, 20/11, e sábado, 21/11\nDas 08h às 18h, nos dois dias\nChegada e credenciamento: [CONFIRMAR horário]",
+        "Sexta: teoria. Sábado: prática.",
+        "[T] Quem está no Workshop Transmitido + Gravado (apenas teórico) recebe as informações de acesso pelos canais da inscrição [CONFIRMAR canal].",
+        "Programação na página do evento. Link na bio.",
+        "Nos vemos amanhã."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Amanhã é a sexta teórica, na Unidade 2, Av. Tiradentes, 960."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Onde e a que horas começa o workshop de amanhã."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-story-11",
@@ -1173,7 +2377,26 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 716,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:77"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:77",
+    "titulo_limpo": "Amanhã.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira tela",
+          "texto": "Amanhã."
+        }
+      ],
+      "arte": [
+        "Tela 1: \"Amanhã.\"",
+        "Tela 2: \"Faculdade Ufape, Unidade 2. Av. Tiradentes, 960, São Paulo/SP.\".",
+        "Tela 3: \"Sexta: teoria. Sábado: prática. Das 08h às 18h. Chegada e credenciamento: [CONFIRMAR].\""
+      ],
+      "corpo": [],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Sequência de Stories do Instagram, com link para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-5",
@@ -1194,7 +2417,36 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 685,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:711"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:711",
+    "titulo_limpo": "Amanhã começa o workshop de neuromonitorização. Seguem local e horário.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Amanhã começa o workshop de neuromonitorização. Seguem local e horário."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Amanhã, sexta-feira, 20/11, começa o workshop de neuromonitorização.",
+        "Local: Unidade 2, Av. Tiradentes, 960, São Paulo. Das 8h às 18h; a programação abre às 8h30. O sábado, 21/11, segue no mesmo horário. O que levar, almoço e estacionamento: [CONFIRMAR]. Suporte nos dois dias: [contato_plantao_evento].",
+        "Programação do dia: https://faculdade.ufape.com.br/neuro-summit/",
+        "Para parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha B",
+          "texto": "Oi, [primeiro_nome]. Quase lá: o workshop começa amanhã, 20/11."
+        },
+        {
+          "rotulo": "Corpo, versão transmitida",
+          "texto": "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Amanhã, sexta-feira, 20/11, é a transmissão do workshop de neuromonitorização (apenas teórico).\n\nA programação começa às 8h30. Seu acesso: [link_acesso_transmissao] [CONFIRMAR como é enviado]. Se não abrir, responda aqui ou fale com [contato_plantao_evento].\n\nProgramação do dia: https://faculdade.ufape.com.br/neuro-summit/\n\nPara parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-12",
@@ -1215,7 +2467,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 681,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:681"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:681",
+    "titulo_limpo": "Amanhã, 20/11, a transmissão começa às 8h30. O acesso foi enviado por e-mail [CONFIRMAR]; se não o",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Amanhã, 20/11, a transmissão começa às 8h30. O acesso foi enviado por e-mail [CONFIRMAR]; se não o encontrou, responda aqui. Para parar de receber divulgações, responda SAIR."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Amanhã, 20/11, a transmissão começa às 8h30. O acesso foi enviado por e-mail [CONFIRMAR]; se não o encontrou, responda aqui. Para parar de receber divulgações, responda SAIR."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-campanha-pausa-2",
@@ -1236,7 +2505,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 357,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:115"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:115",
+    "titulo_limpo": "Pausa dos anúncios do transmitido e do cupom",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-6",
@@ -1255,7 +2526,40 @@
     "trava": [],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 635,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:682"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:682",
+    "titulo_limpo": "Amanhã começa o workshop: endereço, horário e orientações",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto (presencial)",
+          "texto": "Amanhã começa o workshop: endereço, horário e orientações"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Tudo o que você precisa para a sexta-feira, 20/11."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Amanhã, sexta-feira, 20/11, começa o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. Resumo para você chegar tranquilo(a):",
+        "- Local: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP\n- Horário: das 8h às 18h. A programação começa às 8h30, com a abertura pela coordenação científica. Credenciamento: [CONFIRMAR]\n- Sexta (teórica): neuroanatomia, EEG e análises espectrais, EEG clínico, BIS, PSI e Conox, eletrodos de agulha, neuromonitorização na UTI com bloqueadores neuromusculares e os monitores previstos para o sábado\n- Sábado, 21/11 (prático): das 8h às 18h, com instalação dos neuromonitores em modelos, leitura de EEG, casos e desafio em pequenos grupos\n- O que levar: [CONFIRMAR lista com a coordenação]\n- Almoço: intervalo das 12h30 às 13h30. Incluído ou por conta do participante: [CONFIRMAR]\n- Como chegar e estacionamento: [CONFIRMAR]\n- Dúvidas e suporte nos dias do evento: [contato_plantao_evento] [CONFIRMAR canal e horário; a secretaria atende de segunda a sexta, das 9h às 18h e o dia 20/11 é feriado nacional, então confirmar quem atende]",
+        "Faculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber divulgações, descadastre aqui."
+      ],
+      "roteiro": [],
+      "chamada": "Ver a programação do dia",
+      "variantes": [
+        {
+          "rotulo": "Assunto B (transmitido)",
+          "texto": "Amanhã começa o workshop: seu acesso à transmissão"
+        },
+        {
+          "rotulo": "Corpo, versão transmitida",
+          "texto": "Olá, [primeiro_nome],\n\nAmanhã, sexta-feira, 20/11, acontecem as aulas teóricas do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, ao vivo e gravadas. Seu ingresso é o Workshop Transmitido + Gravado (apenas teórico).\n\n- Como entrar: [link_acesso_transmissao] [CONFIRMAR como o acesso é enviado e se há senha ou cadastro prévio]\n- Horário: a programação começa às 8h30 e vai até as 18h, com intervalos às 10h45, das 12h30 às 13h30 (almoço) e às 15h30\n- Programação: abertura, Guedel e awareness, redes neurais e neuroanatomia (aula online ao vivo), como funciona o EEG, EEG clínico, BIS, PSI e Conox, eletrodos de agulha, neuromonitorização na UTI com bloqueadores neuromusculares e os monitores previstos para o sábado\n- Gravação: [CONFIRMAR prazo e forma de acesso]\n- Se o acesso não abrir: [contato_plantao_evento] [CONFIRMAR canal de suporte]\n\nO sábado prático, 21/11, é só presencial e não faz parte deste ingresso.\n\nFaculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber divulgações, descadastre aqui."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-inicio-turma-1",
@@ -1274,7 +2578,9 @@
     "trava": [],
     "arquivo": "contexto/catalogo-de-cursos.md",
     "linha": 261,
-    "fonte_da_data": "contexto/catalogo-de-cursos.md:261"
+    "fonte_da_data": "contexto/catalogo-de-cursos.md:261",
+    "titulo_limpo": "Workshop Brasileiro de Neuromonitorização: sexta (feriado nacional) e sábado, 20 e 21/11/2026",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-story-4",
@@ -1293,7 +2599,40 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 556,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:78"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:78",
+    "titulo_limpo": "Hoje começa o Workshop Brasileiro de Neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Hoje começa o Workshop Brasileiro de Neuromonitorização."
+        }
+      ],
+      "arte": [
+        "\"Hoje: a teoria.\" Apoio: \"Amanhã: a prática.\" Linha: \"20 e 21/11 | São Paulo\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Hoje, sexta-feira, 20/11, é o dia da teoria.",
+        "Neuroanatomia, EEG, análises espectrais, BIS, PSI, Conox, UTI e bloqueio neuromuscular.",
+        "Amanhã, a prática.",
+        "Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.\nAcompanhe os Stories do dia.",
+        "Do cérebro à analgesia: monitorando aquilo que realmente importa.",
+        "Acompanhe os Stories de hoje e de amanhã."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sexta-feira de teoria: do cérebro à analgesia."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Hoje é dia de construir a base para o sábado prático."
+        }
+      ],
+      "observacao": "Sai nos Stories do Instagram; a arte vira a tela principal e o texto serve de apoio para responder comentários e mensagens."
+    }
   },
   {
     "id": "workshop-workshop-email-7",
@@ -1314,7 +2653,41 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 725,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:760"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:760",
+    "titulo_limpo": "Hoje começa o workshop: Unidade 2, abertura às 8h30",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto (presencial)",
+          "texto": "Hoje começa o workshop: Unidade 2, abertura às 8h30"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Local ou acesso, horários e intervalos do dia teórico."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Bom dia, [primeiro_nome].",
+        "Hoje é o dia teórico do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, na Faculdade Ufape, Unidade 2 (Av. Tiradentes, 960, São Paulo). A programação abre às 8h30, com a coordenação científica.",
+        "Intervalos às 10h45 e às 15h30, almoço das 12h30 às 13h30. Amanhã, sábado, é o dia prático, no mesmo horário.",
+        "Suporte hoje: [contato_plantao_evento] [CONFIRMAR].",
+        "Faculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber divulgações, descadastre aqui."
+      ],
+      "roteiro": [],
+      "chamada": "Ver a programação do dia",
+      "variantes": [
+        {
+          "rotulo": "Assunto B (transmitido)",
+          "texto": "Hoje começa o workshop: sua transmissão abre às 8h30"
+        },
+        {
+          "rotulo": "Corpo, transmitido",
+          "texto": "Bom dia, [primeiro_nome].\n\nHoje é a transmissão das aulas teóricas do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, a partir das 8h30. Seu acesso: [link_acesso_transmissao] [CONFIRMAR como é enviado].\n\nIntervalos às 10h45 e às 15h30, almoço das 12h30 às 13h30. As aulas ficam gravadas [CONFIRMAR prazo]. Se o acesso não abrir: [contato_plantao_evento].\n\nFaculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber divulgações, descadastre aqui."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-6",
@@ -1336,7 +2709,36 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 764,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:793"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:793",
+    "titulo_limpo": "Hoje começa o workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Bom dia, [primeiro_nome]. Hoje começa o workshop de neuromonitorização."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Bom dia, [primeiro_nome]. Aqui é da Faculdade UFAPE. Hoje é o dia teórico do workshop, na Unidade 2 (Av. Tiradentes, 960).",
+        "A programação abre às 8h30, com a coordenação científica. Intervalos às 10h45 e às 15h30, almoço das 12h30 às 13h30. Amanhã, sábado, é o dia prático, no mesmo horário.",
+        "Qualquer coisa hoje: [contato_plantao_evento].\nProgramação do dia: https://faculdade.ufape.com.br/neuro-summit/",
+        "Para parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha B",
+          "texto": "Bom dia, [primeiro_nome]. O workshop começa às 8h30."
+        },
+        {
+          "rotulo": "Corpo, transmitido",
+          "texto": "Bom dia, [primeiro_nome]. Aqui é da Faculdade UFAPE. Hoje é a transmissão das aulas teóricas do workshop, a partir das 8h30.\n\nSeu acesso: [link_acesso_transmissao] [CONFIRMAR como é enviado]. Intervalos às 10h45 e às 15h30, almoço das 12h30 às 13h30. As aulas ficam gravadas [CONFIRMAR prazo].\n\nSe o acesso não abrir: [contato_plantao_evento].\nProgramação do dia: https://faculdade.ufape.com.br/neuro-summit/\n\nPara parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-story-5",
@@ -1355,7 +2757,39 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 588,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:79"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:79",
+    "titulo_limpo": "Hoje é dia de prática: instalar, checar, ler, discutir.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Hoje é dia de prática: instalar, checar, ler, discutir."
+        }
+      ],
+      "arte": [
+        "\"Hoje: a prática.\" Apoio: \"Instalar, avaliar o sinal, interpretar e discutir os casos.\" Linha: \"21/11 | São Paulo\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Hoje, sábado, 21/11, é o dia da prática.",
+        "Instalação do BIS e de outros neuromonitores em modelos.\nLeitura de EEG e reconhecimento de artefatos.\nCasos de anestesia e de UTI, com e sem bloqueio neuromuscular.\nDesafio prático em pequenos grupos.",
+        "Acompanhe os Stories do dia.",
+        "Workshop Brasileiro de Neuromonitorização. Realização: Faculdade UFAPE.",
+        "Qual desses momentos você gostaria de ver nos Stories?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sábado de prática: do sensor ao caso discutido em grupo."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Ontem a base. Hoje a prática."
+        }
+      ],
+      "observacao": "Sai nos Stories do Instagram; a arte vira a tela principal e o texto serve de apoio para responder comentários e mensagens."
+    }
   },
   {
     "id": "workshop-workshop-email-8",
@@ -1376,7 +2810,38 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 806,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:830"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:830",
+    "titulo_limpo": "Hoje é o dia prático do workshop: programação do sábado",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Hoje é o dia prático do workshop: programação do sábado"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Horários, intervalos e o que se faz em cada bloco."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Bom dia, [primeiro_nome].",
+        "Hoje é o dia prático do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, na Faculdade Ufape, Unidade 2 (Av. Tiradentes, 960). A programação abre às 8h30, com a demonstração inicial e a organização dos grupos.",
+        "Depois: instalação do BIS e de outros neuromonitores em modelos, leitura de EEG e reconhecimento de artefatos, BIS, DSA, CSA e índices processados na prática, casos com e sem bloqueio neuromuscular, casos de UTI e o desafio em pequenos grupos.",
+        "Intervalos às 10h30 e às 15h00, almoço das 12h30 às 13h30. Encerramos às 18h.",
+        "Suporte hoje: [contato_plantao_evento] [CONFIRMAR].",
+        "Faculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber divulgações, descadastre aqui."
+      ],
+      "roteiro": [],
+      "chamada": "Ver a programação do dia",
+      "variantes": [
+        {
+          "rotulo": "Assunto B",
+          "texto": "Sábado prático: abertura às 8h30, na Unidade 2"
+        }
+      ],
+      "observacao": null
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-7",
@@ -1398,7 +2863,33 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 834,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:854"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:854",
+    "titulo_limpo": "Hoje é o dia prático do workshop.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Bom dia, [primeiro_nome]. Hoje é o dia prático do workshop."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Bom dia, [primeiro_nome]. Aqui é da Faculdade UFAPE. Hoje é o dia prático, na Unidade 2 (Av. Tiradentes, 960). A programação abre às 8h30 com a demonstração inicial e a organização dos grupos.",
+        "Depois, instalação do BIS e de outros neuromonitores em modelos, leitura de EEG, casos com e sem bloqueio neuromuscular e o desafio em pequenos grupos.",
+        "Intervalos às 10h30 e às 15h00, almoço das 12h30 às 13h30. Encerramos às 18h.",
+        "Qualquer coisa hoje: [contato_plantao_evento].\nProgramação do dia: https://faculdade.ufape.com.br/neuro-summit/",
+        "Para parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha B",
+          "texto": "Bom dia, [primeiro_nome]. O sábado prático começa às 8h30."
+        }
+      ],
+      "observacao": "Sai pelo WhatsApp só para quem deu opt-in; quem responder SAIR deixa de receber."
+    }
   },
   {
     "id": "workshop-workshop-campanha-subida-4",
@@ -1420,7 +2911,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 380,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:317"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:317",
+    "titulo_limpo": "Anúncio da gravação da teoria de sexta, se a venda for aprovada",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-post-3",
@@ -1439,7 +2932,39 @@
     "trava": [],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 620,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:80"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:80",
+    "titulo_limpo": "Obrigado a quem esteve com a gente em 20 e 21/11.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Obrigado a quem esteve com a gente em 20 e 21/11."
+        }
+      ],
+      "arte": [
+        "\"Obrigado.\" Apoio: \"Workshop Brasileiro de Neuromonitorização | 20 e 21/11\". Rodapé: \"Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "Obrigado a quem esteve com a gente no Workshop Brasileiro de Neuromonitorização.",
+        "Na sexta, a base: neuroanatomia, EEG, análises espectrais, BIS, PSI, Conox, UTI e bloqueio neuromuscular.\nNo sábado, a prática: instalar, checar o sinal, ler EEG e BIS e discutir casos.",
+        "Um agradecimento também aos docentes e à equipe da Faculdade UFAPE que fizeram os dois dias acontecer.",
+        "Do cérebro à analgesia: monitorando aquilo que realmente importa.",
+        "Ficou alguma pergunta do workshop? Escreva nos comentários."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Sexta a base, sábado a prática: obrigado a quem participou."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Dois dias de neuromonitorização: o que o programa percorreu."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-post-4",
@@ -1460,7 +2985,40 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 650,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:81"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:81",
+    "titulo_limpo": "[T] A teoria de sexta pode ser assistida na gravação.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "[T] A teoria de sexta pode ser assistida na gravação."
+        }
+      ],
+      "arte": [
+        "\"A teoria de sexta, gravada.\" Apoio: \"Apenas teórico\". Rodapé: \"Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE\"."
+      ],
+      "corpo": [
+        "[T] A teoria de sexta-feira do Workshop Brasileiro de Neuromonitorização está gravada.",
+        "Neuroanatomia, EEG, análises espectrais, BIS, PSI, Conox, UTI e bloqueio neuromuscular.",
+        "Apenas teórico: o sábado prático não está incluído.",
+        "Como acessar a gravação: [CONFIRMAR NO CATÁLOGO, com preço e prazo de acesso].",
+        "Detalhes na página do evento. Link na bio.",
+        "Quer ver a programação antes? Está na página do evento."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] Perdeu a sexta? A teoria do workshop está gravada."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] Da neuroanatomia ao BIS, na gravação da sexta."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-relatorio-4",
@@ -1479,7 +3037,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 318,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:318"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:318",
+    "titulo_limpo": "Revisão semanal 4: semana do evento",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-whatsapp-8",
@@ -1502,7 +3062,31 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 918,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:933"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:933",
+    "titulo_limpo": "Obrigada por participar do workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Obrigada por participar do workshop de neuromonitorização."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Obrigada por participar do workshop de neuromonitorização.",
+        "As aulas teóricas de sexta estão gravadas: [link_gravacao]. Prazo de acesso: [CONFIRMAR]. O certificado é conforme presença, emitido pela UFAPE [CONFIRMAR texto aprovado, AP8]; processo e prazo: [CONFIRMAR]. Se algo não chegou, responda aqui.",
+        "Para parar de receber divulgações, responda SAIR. Mensagens sobre a sua participação continuam."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha B",
+          "texto": "Oi, [primeiro_nome]. A gravação das aulas de sexta está disponível."
+        }
+      ],
+      "observacao": "Sai pelo WhatsApp só para quem deu opt-in; quem responder SAIR deixa de receber."
+    }
   },
   {
     "id": "workshop-workshop-email-9",
@@ -1524,7 +3108,43 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 872,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914",
+    "titulo_limpo": "Obrigada por participar do workshop de neuromonitorização",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Obrigada por participar do workshop de neuromonitorização"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Como acessar as aulas gravadas e informações sobre o certificado."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Obrigada por participar do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. Foram dois dias, de sexta teórica e sábado prático, e a Faculdade UFAPE agradece a sua presença.",
+        "Gravação. As aulas teóricas de sexta, 20/11, estão gravadas. Acesse por este link: [link_gravacao]. Prazo de acesso: [CONFIRMAR NO CATÁLOGO]. Se os participantes presenciais também têm acesso à gravação: [CONFIRMAR].",
+        "Certificado. O workshop emite Certificado UFAPE conforme presença. [CONFIRMAR texto aprovado, AP8] Como a presença é conferida e quando o certificado é enviado: [CONFIRMAR processo e prazo].",
+        "Pesquisa de satisfação (opcional). [CONFIRMAR se haverá; o link vai aqui. Os resultados chegam à squad só somados.]",
+        "Se algo não chegou ou ficou errado, responda este e-mail.",
+        "Faculdade UFAPE\nMensagem sobre a sua participação. Para parar de receber divulgações, descadastre aqui."
+      ],
+      "roteiro": [],
+      "chamada": "Acessar a gravação",
+      "variantes": [
+        {
+          "rotulo": "Assunto B",
+          "texto": "Gravação e certificado do workshop de neuromonitorização"
+        },
+        {
+          "rotulo": "Corpo, versão transmitido",
+          "texto": "Olá, [primeiro_nome],\n\nObrigada por acompanhar as aulas teóricas de sexta-feira, 20/11, do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. A Faculdade UFAPE agradece a sua presença.\n\nGravação. As aulas de sexta estão gravadas. Acesse por este link: [link_gravacao]. Prazo de acesso: [CONFIRMAR NO CATÁLOGO].\n\nCertificado. O workshop emite Certificado UFAPE conforme presença. [CONFIRMAR texto aprovado, AP8] Se o certificado vale para o ingresso transmitido, como a presença no online é medida e quando ele é enviado: [CONFIRMAR processo e prazo].\n\nPesquisa de satisfação (opcional). [CONFIRMAR se haverá; o link vai aqui. Os resultados chegam à squad só somados.]\n\nSe algo não chegou ou ficou errado, responda este e-mail.\n\nFaculdade UFAPE\nMensagem sobre a sua participação. Para parar de receber divulgações, descadastre aqui."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-9",
@@ -1549,7 +3169,45 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 991,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:1016"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:1016",
+    "titulo_limpo": "Se o workshop abriu vontade de seguir estudando anestesiologia, deixo aqui o caminho.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Se o workshop abriu vontade de seguir estudando anestesiologia, deixo aqui o caminho."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Obrigada por ter participado do workshop de neuromonitorização.",
+        "Se você quiser seguir estudando anestesiologia, temos pós-graduações no campus São Paulo (Anestesiologia Avançada, a próxima, começa em 13/03/2027) e no campus Goiânia. Sem prazo para decidir agora: as condições de cada turma estão nas páginas.",
+        "[bloco_prova, só com R7 e U3]",
+        "Para ver as opções: [LINK_DA_PÁGINA_DAS_PÓS_DE_ANESTESIOLOGIA]  [CONFIRMAR URL]",
+        "Responda SAIR para não receber mais mensagens."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha 2",
+          "texto": "Oi, [primeiro_nome]. Depois do workshop, uma sugestão sem pressa: pós-graduações em anestesiologia da Faculdade UFAPE."
+        },
+        {
+          "rotulo": "Primeira linha 3",
+          "texto": "Oi, [primeiro_nome]. A Pós-graduação em Anestesiologia Avançada começa em 13/03/2027. Para consultar quando quiser."
+        },
+        {
+          "rotulo": "Primeira linha 4",
+          "texto": "Oi, [primeiro_nome]. Quer saber que formações em anestesiologia a Ufape oferece depois do workshop?"
+        },
+        {
+          "rotulo": "Primeira linha 5",
+          "texto": "Oi, [primeiro_nome]. Obrigada pelo workshop. Se quiser continuar estudando, tem material para você aqui."
+        }
+      ],
+      "observacao": "Sai pelo WhatsApp só para quem deu opt-in; quem responder SAIR deixa de receber."
+    }
   },
   {
     "id": "workshop-workshop-email-10",
@@ -1573,7 +3231,51 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 952,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:986"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:986",
+    "titulo_limpo": "Para continuar estudando anestesiologia: conheça as pós e os cursos da Faculdade UFAPE",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Para continuar estudando anestesiologia: conheça as pós e os cursos da Faculdade UFAPE"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Pós-graduação em Anestesiologia em São Paulo e em Goiânia, para consultar quando fizer sentido para você."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Na semana passada você participou do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. Se o tema despertou vontade de seguir estudando, a Faculdade UFAPE tem formações em anestesiologia que você pode consultar com calma, sem prazo para decidir agora.",
+        "- Pós-graduação em Anestesiologia Avançada (campus São Paulo, semipresencial, 360 h, turma II), com início em 13/03/2027.\n- Pós-graduação em Anestesiologia Veterinária (campus Goiânia, semipresencial, 500 h, turma VIII), com início em 24/04/2027.\n- Pós-graduação em Anestesiologia Locorregional Veterinária (campus São Paulo, semipresencial, 360 h, turma I), com início em 22/05/2027.",
+        "As condições de cada turma (carga horária, investimento e regras) estão nas páginas dos cursos. Toda turma é confirmada com o mínimo de 15 alunos. Em caso de dúvida, o time de vendas responde.",
+        "[bloco_prova, só com R7 e U3]",
+        "Conhecer as pós de anestesiologia [CONFIRMAR URL da página e se há uma única página que reúna as pós]",
+        "Faculdade UFAPE\nVocê recebeu este e-mail porque aceitou receber comunicações da Faculdade UFAPE. Descadastrar"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Assunto 2",
+          "texto": "Depois do workshop: um mapa dos estudos em anestesiologia na Faculdade UFAPE"
+        },
+        {
+          "rotulo": "Assunto 3",
+          "texto": "Pós-graduação em Anestesiologia Avançada: turma com início em 13/03/2027"
+        },
+        {
+          "rotulo": "Assunto 4",
+          "texto": "Se o workshop abriu perguntas, há onde seguir estudando"
+        },
+        {
+          "rotulo": "Assunto 5",
+          "texto": "Anestesiologia na Faculdade UFAPE: pós-graduações para consultar com calma"
+        }
+      ],
+      "observacao": null
+    }
   },
   {
     "id": "workshop-workshop-email-15",
@@ -1595,7 +3297,24 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 913,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914",
+    "titulo_limpo": "Sua gravação do workshop de neuromonitorização",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Sua gravação do workshop de neuromonitorização"
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome]. As aulas de sexta estão disponíveis aqui: [link_gravacao]. Se tiver qualquer problema para acessar, responda este e-mail."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [],
+      "observacao": "Reenvio só para quem não abriu ou não clicou no envio anterior."
+    }
   },
   {
     "id": "workshop-workshop-relatorio-5",
@@ -1614,7 +3333,9 @@
     "trava": [],
     "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
     "linha": 319,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:319"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:319",
+    "titulo_limpo": "Revisão final e relatório do workshop",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-16",
@@ -1633,7 +3354,9 @@
     "trava": [],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 113,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:113"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:113",
+    "titulo_limpo": "Mensagem ainda sem texto final (E-mail de 11/12/2026): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-18",
@@ -1652,7 +3375,9 @@
     "trava": [],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 131,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:131"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:131",
+    "titulo_limpo": "Mensagem ainda sem texto final (E-mail de 11/12/2026): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-whatsapp-13",
@@ -1673,7 +3398,9 @@
     ],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 114,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:114"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:114",
+    "titulo_limpo": "Mensagem ainda sem texto final (WhatsApp de 13/01/2027): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-17",
@@ -1694,7 +3421,9 @@
     ],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 115,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:115"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:115",
+    "titulo_limpo": "Mensagem ainda sem texto final (E-mail de 21/01/2027): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-email-19",
@@ -1715,7 +3444,9 @@
     ],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 132,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:132"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:132",
+    "titulo_limpo": "Mensagem ainda sem texto final (E-mail de 21/01/2027): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-anuncio-6",
@@ -1736,7 +3467,46 @@
     ],
     "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
     "linha": 265,
-    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:475"
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:475",
+    "titulo_limpo": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização."
+        },
+        {
+          "rotulo": "Título",
+          "texto": "20% para aluno e ex-aluno Ufape"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "Cupom SIMPNEUROMONIT"
+        }
+      ],
+      "arte": [
+        "Imagem 1:1: \"Aluno e ex-aluno Ufape: 20% no workshop.\" Apoio: \"Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria\". Rodapé: \"Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE\". A validade entra na arte quando a Ufape informar.",
+        "Imagem 9:16: \"Aluno e ex-aluno Ufape\" e, abaixo, \"20% no workshop de neuromonitorização\". Apoio: \"Cupom SIMPNEUROMONIT\". Rodapé igual."
+      ],
+      "corpo": [
+        "Aluno e ex-aluno Ufape têm 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, com o cupom SIMPNEUROMONIT.",
+        "A condição aparece nas duas modalidades da página: o presencial (sexta teórica e sábado prático, 20 e 21/11, 16 h, 30 vagas, por ordem de inscrição, em São Paulo) e o Workshop Transmitido + Gravado (apenas teórico, só a sexta, 20/11).",
+        "Aluno e ex-aluno comprovam o vínculo com a secretaria para garantir a condição especial. Cupom válido até [CONFIRMAR validade com a Ufape]."
+      ],
+      "roteiro": [],
+      "chamada": "Saiba mais",
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Cupom SIMPNEUROMONIT: 20% para quem é da casa."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Presencial ou só a teoria de sexta: o cupom vale nas duas."
+        }
+      ],
+      "observacao": "Anúncio no Instagram e no Facebook (Meta), com o botão para a página do evento."
+    }
   },
   {
     "id": "workshop-workshop-campanha-subida-3",
@@ -1758,7 +3528,9 @@
     ],
     "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
     "linha": 272,
-    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:116"
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:116",
+    "titulo_limpo": "Sobe a campanha do cupom para aluno e ex-aluno, quando a validade for definida",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-carrossel-5",
@@ -1779,7 +3551,46 @@
     ],
     "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
     "linha": 254,
-    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:254"
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:254",
+    "titulo_limpo": "Para quem decide olhando além do número.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Gancho",
+          "texto": "Para quem decide olhando além do número."
+        }
+      ],
+      "arte": [
+        "Cartão 1 (capa): \"Para quem decide olhando além do número.\" Apoio: \"Workshop Brasileiro de Neuromonitorização | 20 e 21/11\"",
+        "Cartão 2: \"Para quem anestesia: dos planos de Guedel ao awareness intraoperatório.\"",
+        "Cartão 3: \"Para quem cuida do paciente crítico: hipnose e sedação sob bloqueio neuromuscular. EEG, BIS, EMG e TOF.\"",
+        "Cartão 4: \"Para quem está na residência ou na pós-graduação: sem exigir EEG prévio. A sexta constrói a base.\"",
+        "Cartão 5 [T]: \"Para quem não vai estar em São Paulo nos dois dias: a teoria de sexta, ao vivo e gravada. Apenas teórico.\"",
+        "Cartão 6: \"Centro cirúrgico e UTI. 30 vagas presenciais, por ordem de inscrição. Programação na página do evento. Realização: Faculdade UFAPE.\""
+      ],
+      "corpo": [
+        "O workshop leva a neuromonitorização para a rotina clínica de cães, gatos, equinos e bovinos, no centro cirúrgico e na UTI.",
+        "Para quem anestesia:\ndos planos de Guedel ao awareness intraoperatório, e casos com e sem bloqueio neuromuscular.",
+        "Para quem cuida do paciente crítico:\nhipnose e sedação sob bloqueio neuromuscular, com EEG, BIS, EMG e TOF.",
+        "Para quem está na residência ou na pós-graduação:\nsem exigir EEG prévio, a sexta constrói a base e o sábado treina instalar, avaliar o sinal, interpretar e discutir os casos.",
+        "[T] Para quem não vai estar em São Paulo nos dois dias:\na teoria de sexta, ao vivo e gravada (apenas teórico).",
+        "Programação completa na página do evento. Link na bio.",
+        "Qual dessas situações é a sua?"
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "Anestesia, UTI, residência ou pós: onde este workshop se encaixa."
+        },
+        {
+          "rotulo": "Gancho alternativo",
+          "texto": "[T] Quatro situações em que este workshop faz sentido. Sem [T]: Três situações em que este workshop faz sentido."
+        }
+      ],
+      "observacao": "O Facebook recebe o mesmo texto do Instagram."
+    }
   },
   {
     "id": "workshop-workshop-email-5",
@@ -1798,7 +3609,41 @@
     "trava": [],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 544,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:592"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:592",
+    "titulo_limpo": "Sua inscrição no workshop de neuromonitorização está confirmada",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Assunto",
+          "texto": "Sua inscrição no workshop de neuromonitorização está confirmada"
+        },
+        {
+          "rotulo": "Pré-cabeçalho",
+          "texto": "Local, horário e o que levar."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Olá, [primeiro_nome],",
+        "Sua inscrição no Workshop Presencial (teórico e prático) do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia está confirmada. Obrigada por se inscrever.",
+        "- Datas: sexta-feira, 20/11/2026 (teórica), e sábado, 21/11/2026 (prática)\n- Horário: das 8h às 18h nos dois dias. A abertura da programação é às 8h30, com a abertura pela coordenação científica. Credenciamento e horário de chegada: [CONFIRMAR]\n- Local: Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP\n- Carga horária: 16 h, sendo 8 teóricas e 8 práticas\n- O que levar: [CONFIRMAR lista com a coordenação]. Sugestão para validar: documento de identificação com foto [SUPOSIÇÃO]\n- Almoço: a grade tem intervalo das 12h30 às 13h30 nos dois dias. Se o almoço está incluído ou não: [CONFIRMAR]\n- Dúvidas antes do evento: secretaria, (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h",
+        "Se algum dado da inscrição estiver errado, responda este e-mail. Na véspera, enviamos um lembrete com as últimas orientações.",
+        "Faculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber comunicações de divulgação, descadastre aqui."
+      ],
+      "roteiro": [],
+      "chamada": "Rever a programação do workshop",
+      "variantes": [
+        {
+          "rotulo": "Assunto B",
+          "texto": "Inscrição confirmada: o que você precisa saber sobre 20 e 21/11"
+        },
+        {
+          "rotulo": "Corpo, versão transmitida",
+          "texto": "Olá, [primeiro_nome],\n\nSua inscrição no Workshop Transmitido + Gravado (apenas teórico) está confirmada. Obrigada por se inscrever.\n\n- Data: sexta-feira, 20/11/2026, aulas teóricas ao vivo, a partir das 8h30 (programação até as 18h)\n- Como acessar: [CONFIRMAR como o acesso é enviado e quando]. Enviaremos o acesso na véspera, 19/11 [CONFIRMAR]\n- Gravação: as aulas de sexta ficam gravadas. Prazo e forma de acesso: [CONFIRMAR NO CATÁLOGO]\n- Atenção: este ingresso é apenas teórico. O sábado prático, 21/11, é só presencial e não faz parte dele.\n- Dúvidas antes do evento: secretaria, (11) 97492-8443 (WhatsApp) ou duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h\n\nSe algum dado da inscrição estiver errado, responda este e-mail.\n\nFaculdade UFAPE\nMensagem sobre a sua inscrição. Para parar de receber comunicações de divulgação, descadastre aqui."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-4",
@@ -1819,7 +3664,36 @@
     ],
     "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
     "linha": 594,
-    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:621"
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:621",
+    "titulo_limpo": "Sua inscrição no workshop de neuromonitorização está confirmada.",
+    "conteudo": {
+      "destaque": [
+        {
+          "rotulo": "Primeira linha",
+          "texto": "Oi, [primeiro_nome]. Sua inscrição no workshop de neuromonitorização está confirmada."
+        }
+      ],
+      "arte": [],
+      "corpo": [
+        "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Sua inscrição no Workshop Presencial de Neuromonitorização está confirmada.",
+        "Sexta, 20/11 (teórica), e sábado, 21/11 (prática), das 8h às 18h, na Unidade 2: Av. Tiradentes, 960, São Paulo. O que levar e o horário de chegada: [CONFIRMAR]. Na véspera, mandamos o lembrete com tudo.",
+        "Se algum dado estiver errado ou ficou dúvida, responda aqui. Programação: https://faculdade.ufape.com.br/neuro-summit/",
+        "Para parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+      ],
+      "roteiro": [],
+      "chamada": null,
+      "variantes": [
+        {
+          "rotulo": "Primeira linha B",
+          "texto": "Oi, [primeiro_nome]. Recebemos sua inscrição no workshop de 20 e 21/11. Está tudo certo."
+        },
+        {
+          "rotulo": "Corpo, versão transmitida",
+          "texto": "Oi, [primeiro_nome]. Aqui é da Faculdade UFAPE. Sua inscrição no Workshop Transmitido + Gravado (apenas teórico) está confirmada.\n\nA transmissão é na sexta, 20/11, a partir das 8h30. O acesso: [CONFIRMAR como é enviado]. O sábado prático é só presencial e não faz parte deste ingresso.\n\nSe algum dado estiver errado ou ficou dúvida, responda aqui. Programação: https://faculdade.ufape.com.br/neuro-summit/\n\nPara parar de receber divulgações, responda SAIR. Mensagens sobre a sua inscrição continuam."
+        }
+      ],
+      "observacao": "O texto principal é o \"Corpo, versão presencial\"; as outras versões estão em variantes."
+    }
   },
   {
     "id": "workshop-workshop-whatsapp-14",
@@ -1840,7 +3714,9 @@
     ],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 116,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:116"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:116",
+    "titulo_limpo": "Mensagem ainda sem texto final (WhatsApp, a partir de 02/02/2027): só esboço da nutrição",
+    "conteudo": null
   },
   {
     "id": "workshop-workshop-whatsapp-15",
@@ -1861,6 +3737,8 @@
     ],
     "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
     "linha": 133,
-    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:133"
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:133",
+    "titulo_limpo": "Mensagem ainda sem texto final (WhatsApp, a partir de 02/02/2027): só esboço da nutrição",
+    "conteudo": null
   }
 ]

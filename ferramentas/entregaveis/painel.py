@@ -63,7 +63,8 @@ for x in pecas:
     x['_base'] = x['linha'] if tipo_t == 'bloco' else max(1, x['linha'] - len(linhas) + 1)
     t = x.get('titulo_limpo') or CODIGO.sub('', x['titulo'], count=1)
     x['_titulo'] = t.strip() or x['titulo']
-    x['_publica'] = x['tipo'] in PUBLICAS
+    # Página sem texto nesta entrega (só correção no site) fica nos bastidores
+    x['_publica'] = x['tipo'] in PUBLICAS and not (x['tipo'] == 'pagina' and not x.get('conteudo'))
 
 # Nomes de curso e explicação das travas, do mapa por curso
 mapa = json.load(open(MAPA, encoding='utf-8'))
@@ -158,7 +159,7 @@ nav.tabs .g{display:flex;gap:6px 14px;flex-wrap:wrap;padding-block:10px;align-it
 .tablist a:hover{color:var(--ink)}
 .tablist a[aria-current="page"]:hover{color:var(--surface)}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto;align-items:center;min-width:0;max-width:100%}
-@media (max-width:760px){.filters{margin-left:0;width:100%}.filters select,.filters input{flex:1 1 100%}}
+@media (max-width:760px){.filters{margin-left:0;width:100%}.filters select,.filters input[type=search]{flex:1 1 100%}}
 .filters select,.filters input{font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:7px 12px;min-width:0;max-width:100%}
 .filters label{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--ink)}
 main .g{padding-block:20px 64px;display:grid;gap:18px}
@@ -374,7 +375,7 @@ function vSemana(){
   $('#s-hoje').onclick=()=>{semana=segunda(HOJE);vSemana();};
 }
 // Mês
-let mes=HOJE.slice(0,7);
+let mes=(+HOJE.slice(8,10)>=22?addD(HOJE,12):HOJE).slice(0,7);
 function vMes(){
   const [y,m]=mes.split('-').map(Number), first=new Date(y,m-1,1,12), ini=new Date(first); ini.setDate(1-((first.getDay()+6)%7));
   const xs=pubs().filter(x=>x.data&&x.data.startsWith(mes)); const porDia={}; xs.forEach(x=>(porDia[x.data]=porDia[x.data]||[]).push(x));
