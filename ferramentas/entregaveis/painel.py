@@ -61,7 +61,9 @@ for t in list(textos.values()) + [json.dumps(pecas, ensure_ascii=False)]:
 NOMES = {'medicina-veterinaria': 'Medicina Veterinária', 'pedagogia': 'Pedagogia', 'workshop': 'Workshop de Neuromonitorização'}
 for j in json.load(open('ferramentas/mapa-mental/saida/mapa-dados.json', encoding='utf-8')):
     n = j.get('nome_padrao') or ''
-    if j['codigo'] and not n.startswith('[CONFIRMAR'):
+    if not n or n.startswith('[CONFIRMAR'):
+        n = j.get('nome_no_site') or ''
+    if j['codigo'] and n:
         NOMES.setdefault(j['codigo'], n.replace('Pós-graduação em ', ''))
 CURTO = {'pos-onda1': 'Pós out/nov', 'workshop': 'Workshop', 'pos-marco': 'Pós março', 'pos-abril': 'Pós abril', 'graduacao': 'Graduação'}
 DATA = json.dumps({'hoje': HOJE, 'blocos': BLOCOS, 'curto': CURTO, 'nomes': NOMES, 'pecas': pecas, 'arquivos': textos}, ensure_ascii=False, separators=(',', ':'))
@@ -102,6 +104,7 @@ h1{font:700 clamp(24px,3.2vw,32px)/1.1 var(--f-display);margin:4px 0 0;letter-sp
 .kpi{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:2px;background:var(--bg)}
 .kpi b{font:700 22px/1.1 var(--f-display);font-variant-numeric:tabular-nums}
 .kpi span{font-size:13px;color:var(--muted)}
+@media (max-width:720px){nav.tabs{position:static!important}}
 nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
 nav.tabs .wrap{display:flex;gap:4px;flex-wrap:wrap;padding-block:8px;align-items:center}
 nav.tabs a{font-weight:600;text-decoration:none;color:var(--muted);padding:7px 12px;border-radius:8px}
@@ -136,7 +139,7 @@ h3.grp{font:600 13px/1 var(--f-data);letter-spacing:.06em;text-transform:upperca
 .p-atraso{color:var(--surface);background:var(--s-cor);border-color:var(--s-cor)}
 .empty{color:var(--muted);padding:10px 0}
 /* Calendário */
-.calnav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.calnav{display:flex;margin-top:6px;gap:8px;align-items:center;flex-wrap:wrap}
 .calnav button{font:inherit;font-weight:600;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
 .calnav .mes{font:700 20px/1.2 var(--f-display);min-width:190px}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -150,7 +153,8 @@ h3.grp{font:600 13px/1 var(--f-data);letter-spacing:.06em;text-transform:upperca
 .mais{font:600 12px var(--f-body);background:none;border:0;color:var(--accent);cursor:pointer;text-align:left;padding:2px}
 @media (max-width:720px){.cal .wd{font-size:10px;padding:2px}.day{min-height:64px;padding:4px}.chip{font-size:0;height:8px;padding:0;border-left-width:0;background:var(--k)}.day .n{font-size:11px}}
 /* Linha do tempo */
-.gantt{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+#v{min-width:0}
+.gantt{max-width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
 .gantt svg{display:block}
 .gantt text{fill:var(--ink);font:12px var(--f-body)}
 .gantt .ax{fill:var(--muted);font:11px var(--f-data)}
@@ -197,6 +201,7 @@ const CAT={post:'social',carrossel:'social',reels:'social',story:'social',card_d
 const CATN={social:'Redes sociais e vídeo',msg:'WhatsApp e e-mail',midia:'Mídia paga',site:'Página da turma',marco:'Marcos, aprovações e conferências'};
 const TIPON={post:'Post',carrossel:'Carrossel',reels:'Reels',story:'Story',card_docente:'Card de docente',video:'Vídeo',whatsapp:'WhatsApp',email:'E-mail',pagina:'Página',anuncio:'Anúncio',campanha_subida:'Subida de campanha',campanha_fase:'Troca de fase da campanha',campanha_pausa:'Pausa de campanha',conferencia:'Conferência',aprovacao:'Aprovação',relatorio:'Relatório',inicio_turma:'Início da turma',outro:'Marco'};
 const STN={aguardando_aprovacao:'aguarda sua aprovação',em_correcao:'em correção',a_fazer:'a fazer',suspenso:'suspenso',executado:'feito'};
+const ROT={'medicina-veterinaria':'Med. Vet.',pedagogia:'Pedagogia',workshop:'Workshop'};
 const MES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
 const WD=['seg','ter','qua','qui','sex','sáb','dom'];
 const $=s=>document.querySelector(s);
@@ -253,20 +258,26 @@ function vAgora(){
 // Aba Calendário
 let mesAtual=HOJE.slice(0,7);
 function vCal(){
-  const xs=sel(); const [y,m]=mesAtual.split('-').map(Number);
+  const [y,m]=mesAtual.split('-').map(Number);
+  const seg=isoD(new Date(y,m,1,12)).slice(0,7);
+  $('#v').innerHTML=`<div class="calnav"><button id="m-prev" aria-label="Mês anterior">‹</button><button id="m-next" aria-label="Próximo mês">›</button><button id="m-hoje">Hoje</button><span class="note">Dois meses por vez. Clique numa peça para ler o texto.</span></div><div id="cal1"></div><div id="cal2"></div><div id="dia"></div>`;
+  $('#m-prev').onclick=()=>{mesAtual=isoD(new Date(y,m-2,1,12)).slice(0,7);vCal();};
+  $('#m-next').onclick=()=>{mesAtual=isoD(new Date(y,m,1,12)).slice(0,7);vCal();};
+  $('#m-hoje').onclick=()=>{mesAtual=HOJE.slice(0,7);vCal();};
+  mesCal(mesAtual,'#cal1'); mesCal(seg,'#cal2');
+}
+function mesCal(mesX,alvo){
+  const xs=sel(); const [y,m]=mesX.split('-').map(Number);
   const first=new Date(y,m-1,1,12), ini=new Date(first); ini.setDate(1-((first.getDay()+6)%7));
   const porDia={}; for(const x of xs){ if(!x.data) continue; const fim=x.data_fim&&CAT[x.tipo]!=='midia'?x.data_fim:x.data; (porDia[x.data]=porDia[x.data]||[]).push(x); }
   let cells=WD.map(w=>`<div class="wd">${w}</div>`).join('');
   for(let i=0;i<42;i++){const d=new Date(ini);d.setDate(ini.getDate()+i);const iso=isoD(d);const fora=d.getMonth()!==m-1;
     if(i>=35&&fora&&d.getDate()<=7&&i%7===0) break;
-    const list=(porDia[iso]||[]).sort(ord); const max=4;
-    cells+=`<div class="day${fora?' fora':''}${iso===HOJE?' hoje':''}"><span class="n"><span>${d.getDate()}</span>${list.length?`<span>${list.length}</span>`:''}</span>${list.slice(0,max).map(x=>`<button class="chip k-${CAT[x.tipo]}" data-id="${esc(x.id)}" title="${esc(TIPON[x.tipo]+': '+x.titulo)}">${esc(x.turmas[0]||'')} ${esc(TIPON[x.tipo])}</button>`).join('')}${list.length>max?`<button class="mais" data-dia="${iso}">+${list.length-max} no dia</button>`:''}</div>`;}
-  const tot=xs.filter(x=>x.data&&x.data.startsWith(mesAtual)).length;
-  $('#v').innerHTML=`<div class="calnav"><button id="m-prev" aria-label="Mês anterior">‹</button><span class="mes">${MES[m-1]} de ${y}</span><button id="m-next" aria-label="Próximo mês">›</button><button id="m-hoje">Hoje</button><span class="note">${tot} peças neste mês</span></div><div class="cal">${cells}</div><div id="dia"></div>`;
-  $('#m-prev').onclick=()=>{mesAtual=isoD(new Date(y,m-2,1,12)).slice(0,7);vCal();};
-  $('#m-next').onclick=()=>{mesAtual=isoD(new Date(y,m,1,12)).slice(0,7);vCal();};
-  $('#m-hoje').onclick=()=>{mesAtual=HOJE.slice(0,7);vCal();};
-  document.querySelectorAll('.mais').forEach(b=>b.onclick=()=>{const iso=b.dataset.dia;const g=(porDia[iso]||[]).sort(ord);$('#dia').innerHTML=`<section class="semana"><header><h2>${fmt(iso)}</h2><span class="meta">${g.length} peças</span></header><div class="rows">${g.map(row).join('')}</div></section>`;$('#dia').scrollIntoView({block:'start'});});
+    const list=fora?[]:(porDia[iso]||[]).sort(ord); const max=4;
+    cells+=`<div class="day${fora?' fora':''}${iso===HOJE&&!fora?' hoje':''}"><span class="n"><span>${d.getDate()}</span>${list.length?`<span>${list.length}</span>`:''}</span>${list.slice(0,max).map(x=>`<button class="chip k-${CAT[x.tipo]}" data-id="${esc(x.id)}" title="${esc(TIPON[x.tipo]+': '+x.titulo)}">${esc(ROT[x.turmas[0]]||x.turmas[0]||'')} ${esc(TIPON[x.tipo])}</button>`).join('')}${list.length>max?`<button class="mais" data-dia="${iso}">+${list.length-max} no dia</button>`:''}</div>`;}
+  const tot=xs.filter(x=>x.data&&x.data.startsWith(mesX)).length;
+  $(alvo).innerHTML=`<div class="calnav"><span class="mes">${MES[m-1]} de ${y}</span><span class="note">${tot} peças neste mês</span></div><div class="cal">${cells}</div>`;
+  $(alvo).querySelectorAll('.mais').forEach(b=>b.onclick=()=>{const iso=b.dataset.dia;const g=(porDia[iso]||[]).sort(ord);$('#dia').innerHTML=`<section class="semana"><header><h2>${fmt(iso)}</h2><span class="meta">${g.length} peças</span></header><div class="rows">${g.map(row).join('')}</div></section>`;$('#dia').scrollIntoView({block:'start'});});
 }
 // Aba Linha do tempo
 function vGantt(){
@@ -274,7 +285,7 @@ function vGantt(){
   if(!xs.length){$('#v').innerHTML='<p class="empty">Nada com data com os filtros atuais.</p>';return;}
   const linhas=[]; const vistos={};
   for(const k of Object.keys(B)){ const ts=[...new Set(xs.filter(x=>x.bloco===k).flatMap(x=>x.turmas))].sort(); for(const t of ts){ const key=k+'|'+t; if(!vistos[key]){vistos[key]=1;linhas.push({k,t});} } }
-  const d0=toD('2026-10-01'), d1=toD('2027-05-01'); const dias=(d1-d0)/864e5;
+  const d0=toD('2026-10-01'), d1=toD('2027-08-01'); const dias=(d1-d0)/864e5;
   const L=300, W=Math.max(1180,Math.round(dias*5)), R=16, H=26, top=34, h=top+linhas.length*H+12;
   const X=iso=>L+((toD(iso)-d0)/864e5)/dias*(W-L-R);
   let svg=`<svg width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" role="img" aria-label="Linha do tempo das peças por turma">`;

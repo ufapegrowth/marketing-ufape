@@ -1,0 +1,1709 @@
+[
+  {
+    "id": "pos-onda1-geral-aprovacao-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707",
+      "68604",
+      "68606",
+      "698",
+      "68610",
+      "68608"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-10-27",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação de OA1 e OA2-B a OA7 (mídia das 6 turmas até a véspera do 3º módulo)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA1",
+      "OA2-B",
+      "OA3-B",
+      "OA4",
+      "OA5",
+      "OA6",
+      "OA7"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 322,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:268"
+  },
+  {
+    "id": "pos-onda1-698-pagina-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Correção da data de 698 no site, pedida sem pausa (decisão 19)",
+    "status": "a_fazer",
+    "trava": [
+      "OA10",
+      "A6"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 330,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:270"
+  },
+  {
+    "id": "pos-onda1-geral-conferencia-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707",
+      "68604",
+      "68606",
+      "698",
+      "68610",
+      "68608"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "PP15 e diária até a véspera do 3º módulo nas 6 campanhas (707 e 68604 até 29/10)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA1",
+      "PP15",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 698,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:757"
+  },
+  {
+    "id": "pos-onda1-68604-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: 7 módulos presenciais de prática em imagem, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 542,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:578"
+  },
+  {
+    "id": "pos-onda1-68606-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: Prática de cirurgia esofágica, gástrica e intestinal, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 698,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:738"
+  },
+  {
+    "id": "pos-onda1-68608-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: Do hemograma à medicina transfusional, em 24 módulos",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 301,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:341"
+  },
+  {
+    "id": "pos-onda1-68610-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: 7 módulos presenciais, com atendimento de casos clínicos",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 220,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:260"
+  },
+  {
+    "id": "pos-onda1-698-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: 5 módulos hands-on de ecocardiografia, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A6",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 139,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:179"
+  },
+  {
+    "id": "pos-onda1-707-email-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "T1: Microscópio individual nas aulas práticas, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 384,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:422"
+  },
+  {
+    "id": "pos-onda1-68604-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. São 7 módulos presenciais de prática na Pós-graduação em Diagnóstico por",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 583,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:608"
+  },
+  {
+    "id": "pos-onda1-68606-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. Prática de cirurgia esofágica, gástrica e intestinal na Pós-graduação em",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 743,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:768"
+  },
+  {
+    "id": "pos-onda1-68608-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. Do hemograma à medicina transfusional: Pós-graduação em Hematologia",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 346,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:371"
+  },
+  {
+    "id": "pos-onda1-68610-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. São 7 módulos presenciais na Pós-graduação em Dermatologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 265,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:290"
+  },
+  {
+    "id": "pos-onda1-698-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. São 5 módulos hands-on na Pós-graduação em Ecocardiografia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A6",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 184,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:209"
+  },
+  {
+    "id": "pos-onda1-707-whatsapp-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-29",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "T2: Olá, [nome]. Microscópio individual nas aulas práticas de Oftalmologia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 427,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:452"
+  },
+  {
+    "id": "pos-onda1-707-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-10-30",
+    "data_fim": "2026-12-17",
+    "hora": null,
+    "quando": null,
+    "titulo": "707: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA2-B",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-707-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma VII: Pós-graduação em Oftalmologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-707.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-707.json:64"
+  },
+  {
+    "id": "pos-onda1-68604-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-10-31",
+    "data_fim": "2027-01-22",
+    "hora": null,
+    "quando": null,
+    "titulo": "68604: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA3-B",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-68604-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-10-31",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma VI: Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68604.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68604.json:64"
+  },
+  {
+    "id": "pos-onda1-68610-conferencia-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Vídeo de 68610: decisão pela diária máxima com o gasto real",
+    "status": "a_fazer",
+    "trava": [
+      "OA6"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 730,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:730"
+  },
+  {
+    "id": "pos-onda1-68608-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 2 de 68608 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:349"
+  },
+  {
+    "id": "pos-onda1-68610-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 2 de 68610 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:348"
+  },
+  {
+    "id": "pos-onda1-698-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 2 de 698 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:347"
+  },
+  {
+    "id": "pos-onda1-68606-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-06",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W2: Olá, [nome]. O módulo 1 de Gastroenterologia é em 07 e 08/11, online.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 773,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:798"
+  },
+  {
+    "id": "pos-onda1-68606-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-07",
+    "data_fim": "2027-01-22",
+    "hora": null,
+    "quando": null,
+    "titulo": "68606: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA4",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-68606-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-11-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma IX: Pós-graduação em Gastroenterologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68606.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68606.json:64"
+  },
+  {
+    "id": "pos-onda1-707-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W2: Olá, [nome]. Microscópio individual nas aulas práticas de Oftalmologia.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 489,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:489"
+  },
+  {
+    "id": "pos-onda1-68604-whatsapp-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W2: Olá, [nome]. São 7 módulos presenciais de prática em Diagnóstico por Imagem.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 617,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:617"
+  },
+  {
+    "id": "pos-onda1-68608-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-12",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail 2 de 68608 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:349"
+  },
+  {
+    "id": "pos-onda1-68610-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-12",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail 2 de 68610 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:348"
+  },
+  {
+    "id": "pos-onda1-698-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-12",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail 2 de 698 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:347"
+  },
+  {
+    "id": "pos-onda1-68608-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 3 de 68608 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:349"
+  },
+  {
+    "id": "pos-onda1-68610-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 3 de 68610 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:348"
+  },
+  {
+    "id": "pos-onda1-698-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 3 de 698 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:347"
+  },
+  {
+    "id": "pos-onda1-707-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-24",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E2: Microscópio individual nas aulas práticas, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 461,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:461"
+  },
+  {
+    "id": "pos-onda1-68608-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 4 de 68608 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:349"
+  },
+  {
+    "id": "pos-onda1-68610-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 4 de 68610 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:348"
+  },
+  {
+    "id": "pos-onda1-698-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp 4 de 698 (toque do OA9, texto do lote 3 ainda não escrito)",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:347"
+  },
+  {
+    "id": "pos-onda1-68608-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-28",
+    "data_fim": "2027-01-15",
+    "hora": null,
+    "quando": null,
+    "titulo": "68608: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA7",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-68608-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-11-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma VIII: Pós-graduação em Hematologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68608.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68608.json:64"
+  },
+  {
+    "id": "pos-onda1-68610-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-28",
+    "data_fim": "2027-01-29",
+    "hora": null,
+    "quando": null,
+    "titulo": "68610: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA6",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-68610-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-11-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma V: Pós-graduação em Dermatologia Veterinária",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68610.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68610.json:64"
+  },
+  {
+    "id": "pos-onda1-698-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-28",
+    "data_fim": "2026-12-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "698: passagem para só remarketing e busca no início; saem os anúncios com data de início",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA5",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 713,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:715"
+  },
+  {
+    "id": "pos-onda1-698-inicio-turma-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-11-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma III: Pós-graduação em Ecocardiografia",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-698.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-698.json:64"
+  },
+  {
+    "id": "pos-onda1-707-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-01",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W3: Olá, [nome]. São 10 módulos presenciais na Pós-graduação em Oftalmologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 502,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:502"
+  },
+  {
+    "id": "pos-onda1-68604-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-01",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E2: 7 módulos presenciais de prática em imagem, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 630,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:630"
+  },
+  {
+    "id": "pos-onda1-68606-email-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-02",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E2: Prática de cirurgia esofágica, gástrica e intestinal, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 807,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:807"
+  },
+  {
+    "id": "pos-onda1-68604-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W3: Olá, [nome]. Da radiologia à ressonância, em 24 módulos.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 658,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:658"
+  },
+  {
+    "id": "pos-onda1-707-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W4: Olá, [nome]. A turma de Oftalmologia segue com matrícula aberta, segundo a Ufape.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 517,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:517"
+  },
+  {
+    "id": "pos-onda1-68606-whatsapp-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-16",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W3: Olá, [nome]. Prática de cirurgia e anatomia na Pós-graduação em Gastroenterologia",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 835,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:835"
+  },
+  {
+    "id": "pos-onda1-707-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2026-12-17",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "707: pausa de todas as campanhas na véspera do 3º módulo, com exportação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA2-B",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 704,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:704"
+  },
+  {
+    "id": "pos-onda1-698-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2026-12-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "698: pausa na véspera do módulo 2 presencial (15/01/2027 só com OU3)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA5",
+      "PP17",
+      "OU3"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 707,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:707"
+  },
+  {
+    "id": "pos-onda1-geral-campanha-fase-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604",
+      "68606",
+      "68610",
+      "68608"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de fim de ano: só remarketing, diária pela metade",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 698,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:700"
+  },
+  {
+    "id": "pos-onda1-698-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 698, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 184,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:184"
+  },
+  {
+    "id": "pos-onda1-707-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 707, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 122,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:122"
+  },
+  {
+    "id": "pos-onda1-68608-whatsapp-5",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-06",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp de acréscimo do cmo de 68608, com a regra completa",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:349"
+  },
+  {
+    "id": "pos-onda1-698-whatsapp-5",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-06",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp de acréscimo do cmo de 698, só com OU3",
+    "status": "a_fazer",
+    "trava": [
+      "OA9",
+      "OU3"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:347"
+  },
+  {
+    "id": "pos-onda1-68604-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W4: Olá, [nome]. Ainda pensa na Pós-graduação em Diagnóstico por Imagem?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 673,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:673"
+  },
+  {
+    "id": "pos-onda1-68606-whatsapp-4",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "W4: Olá, [nome]. Ainda pensa na Pós-graduação em Gastroenterologia Veterinária?",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9",
+      "OU9",
+      "A7",
+      "A12",
+      "A13",
+      "U11a"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+    "linha": 850,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:850"
+  },
+  {
+    "id": "pos-onda1-68610-whatsapp-5",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp de acréscimo do cmo de 68610, com a regra completa",
+    "status": "a_fazer",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:348"
+  },
+  {
+    "id": "pos-onda1-68608-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "68608: pausa de todas as campanhas na véspera do 3º módulo, com exportação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA7",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 709,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:709"
+  },
+  {
+    "id": "pos-onda1-68608-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68608, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 224,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:224"
+  },
+  {
+    "id": "pos-onda1-707-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 707, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 122,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:122"
+  },
+  {
+    "id": "pos-onda1-68604-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "68604: pausa de todas as campanhas na véspera do 3º módulo, com exportação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA3-B",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 705,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:705"
+  },
+  {
+    "id": "pos-onda1-68606-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-22",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "68606: pausa de todas as campanhas na véspera do 3º módulo, com exportação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA4",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 706,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:706"
+  },
+  {
+    "id": "pos-onda1-68604-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68604, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 142,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:142"
+  },
+  {
+    "id": "pos-onda1-68606-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68606, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 162,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:162"
+  },
+  {
+    "id": "pos-onda1-68610-campanha-pausa-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-01-29",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "68610: pausa de todas as campanhas na véspera do 3º módulo, com exportação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA6",
+      "PP17"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+    "linha": 708,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md:708"
+  },
+  {
+    "id": "pos-onda1-68610-relatorio-1",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68610, parte 1",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 204,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:204"
+  },
+  {
+    "id": "pos-onda1-68608-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68608"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68608, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 224,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:224"
+  },
+  {
+    "id": "pos-onda1-698-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "698"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 698, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 184,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:184"
+  },
+  {
+    "id": "pos-onda1-68604-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68604"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68604, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 142,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:142"
+  },
+  {
+    "id": "pos-onda1-68606-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68606"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68606, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 162,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:162"
+  },
+  {
+    "id": "pos-onda1-68610-relatorio-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "68610"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68610, parte 2 (30 dias de maturação)",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 204,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:204"
+  },
+  {
+    "id": "pos-onda1-geral-aprovacao-3",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "650",
+      "68662",
+      "706",
+      "586",
+      "554",
+      "68612"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "depois da conferência E1 (g) do gestor, com prazo em 03/11; o plano não dá data para a decisão",
+    "titulo": "Pedido A4: decidir pausa ou manutenção das 6 turmas iniciadas (650, 68662, 706, 586, 554",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A4",
+      "OU9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 310,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md:388"
+  },
+  {
+    "id": "pos-onda1-geral-aprovacao-2",
+    "bloco": "pos-onda1",
+    "turmas": [
+      "707",
+      "68604",
+      "68606",
+      "698",
+      "68610",
+      "68608"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "antes do primeiro envio (28/10, 9h)",
+    "titulo": "OA9: envio em massa de cada toque, depois do qa, só para S2 e S3 da área com opt-in",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OA9"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+    "linha": 336,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md:8"
+  }
+]

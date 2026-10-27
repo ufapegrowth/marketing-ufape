@@ -1,0 +1,1866 @@
+[
+  {
+    "id": "workshop-workshop-conferencia-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Correções W1 a W9 nos anúncios ativos, linha de base e exportação dos anúncios",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 343,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103"
+  },
+  {
+    "id": "workshop-workshop-outro-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "outro",
+    "canal": "meta_ads",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Públicos personalizados de visitantes da página neuro-summit, sem gasto (EVM4)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM4"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 344,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:103"
+  },
+  {
+    "id": "workshop-workshop-aprovacao-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Metas e verba com aprovador (EVM2, EVM3) e sequência EVM1 aprovada (R3)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM1",
+      "EVM2",
+      "EVM3"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 347,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:306"
+  },
+  {
+    "id": "workshop-workshop-conferencia-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Teste de rastreio da compra presencial e do transmitido (EA4)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM4"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 346,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:105"
+  },
+  {
+    "id": "workshop-workshop-post-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P1: O monitor mostra um número. A decisão continua sendo sua. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 99,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60"
+  },
+  {
+    "id": "workshop-workshop-reels-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P1 Reels: O monitor mostra um número. A decisão continua sendo sua.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 132,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:60"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M1: Oi, [primeiro_nome]. Em 20 e 21/11 a Faculdade UFAPE faz um workshop de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "68634",
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 160,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": "10h30",
+    "quando": null,
+    "titulo": "M2: Oi, [primeiro_nome]. Aluno e ex-aluno Ufape têm 20% de desconto no workshop de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "E6",
+      "68634",
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324"
+  },
+  {
+    "id": "workshop-workshop-email-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M1: Workshop de Neuromonitorização Veterinária: 20 e 21/11, em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "68634",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 216,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277"
+  },
+  {
+    "id": "workshop-workshop-email-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M2: Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "E6",
+      "68634",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 329,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370"
+  },
+  {
+    "id": "workshop-workshop-story-6",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-10-31",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P1 Story de reforço: O monitor mostra um número. A decisão continua sendo sua.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 99,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:61"
+  },
+  {
+    "id": "workshop-workshop-aprovacao-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Textos e artes aprovados pelo qa e pela pessoa do marketing, com o nome oficial nas artes",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A2",
+      "AME5"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 349,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md:349"
+  },
+  {
+    "id": "workshop-workshop-anuncio-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C1 ALEM: Decidir olhando além do número",
+    "status": "em_correcao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 110,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+  },
+  {
+    "id": "workshop-workshop-anuncio-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C2 SEXSAB: Sexta teórica, sábado prático",
+    "status": "em_correcao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+  },
+  {
+    "id": "workshop-workshop-anuncio-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C3 BISLER: Ler de verdade (BIS, PSI e Conox)",
+    "status": "em_correcao",
+    "trava": [
+      "A2"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 181,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466"
+  },
+  {
+    "id": "workshop-workshop-campanha-fase-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Frio (campanha atual): entram C1 ALEM e C2 SEXSAB",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM2",
+      "EVM3",
+      "EVM4",
+      "EVM5"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 81,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:106"
+  },
+  {
+    "id": "workshop-workshop-campanha-subida-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": "2026-11-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "eventos_neuro26_meta_checkout_misto18_202611__rmk30d: remarketing com C3 e C2",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM6",
+      "AME2"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 81,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:107"
+  },
+  {
+    "id": "workshop-workshop-relatorio-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal 1 da mídia do workshop",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 308,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:308"
+  },
+  {
+    "id": "workshop-workshop-video-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "video",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "R1. neuro26_alem_vid916_numero-na-tela_v1 (20 s)",
+    "status": "em_correcao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 303,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+  },
+  {
+    "id": "workshop-workshop-video-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "video",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "R2. neuro26_sexsab_vid916_sexta-base_v1 (25 s)",
+    "status": "em_correcao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 312,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:465"
+  },
+  {
+    "id": "workshop-workshop-video-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "video",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "R3. neuro26_bisler_vid916_literatura_v1 (25 s)",
+    "status": "em_correcao",
+    "trava": [
+      "A2"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 322,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:466"
+  },
+  {
+    "id": "workshop-workshop-email-11",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M1 follow-up: Programação hora a hora do workshop de neuromonitorização, 20 e 21/11",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 273,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:277"
+  },
+  {
+    "id": "workshop-workshop-email-12",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M2 follow-up: Como usar o cupom SIMPNEUROMONIT no workshop de 20 e 21/11",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E6",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 366,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:370"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-10",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M1 follow-up: [primeiro_nome], só para o caso de a mensagem ter se perdido: a programação",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 205,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:211"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-11",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M2 follow-up: [primeiro_nome], lembrando que o cupom SIMPNEUROMONIT (20% para aluno e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E6",
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 318,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:324"
+  },
+  {
+    "id": "workshop-workshop-carrossel-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P2: Sexta, 20/11: da neuroanatomia ao BIS, em um dia. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 148,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:62"
+  },
+  {
+    "id": "workshop-workshop-email-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M10: A programação hora a hora do workshop de neuromonitorização, 20 e 21/11",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 377,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445"
+  },
+  {
+    "id": "workshop-workshop-conferencia-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-11-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Ferramenta de sobreposição de públicos, anexada à revisão de 09/11 (EA3)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "AME8"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 374,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:309"
+  },
+  {
+    "id": "workshop-workshop-story-7",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S1: Dúvidas sobre o workshop de neuromonitorização? Pergunte aqui.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 710,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:63"
+  },
+  {
+    "id": "workshop-workshop-carrossel-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P3: Sábado: instalar o sensor, checar o sinal, ler o traçado. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64"
+  },
+  {
+    "id": "workshop-workshop-reels-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-11-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P3 Reels: Sábado: instalar o sensor, checar o sinal, ler o traçado.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 195,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:64"
+  },
+  {
+    "id": "workshop-workshop-story-8",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S2: O workshop completo é presencial, sexta e sábado.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 711,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:65"
+  },
+  {
+    "id": "workshop-workshop-carrossel-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P4: [T] Dois dias em São Paulo ou só a teoria de sexta, online. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "E6",
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 301,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:66"
+  },
+  {
+    "id": "workshop-workshop-relatorio-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal 2: decisão de dobrar a aposta ou mudar o rumo",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 310,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:310"
+  },
+  {
+    "id": "workshop-workshop-email-13",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-09",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M10 follow-up: A grade do workshop de neuromonitorização em um só lugar",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 441,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:445"
+  },
+  {
+    "id": "workshop-workshop-anuncio-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C4 UTIBNM: UTI com bloqueio neuromuscular",
+    "status": "em_correcao",
+    "trava": [
+      "A2"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 209,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469"
+  },
+  {
+    "id": "workshop-workshop-campanha-fase-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Mudança única do frio pela decisão de 09/11 (opção a, b ou c; na b entra C4 UTIBNM)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM7"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 81,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:110"
+  },
+  {
+    "id": "workshop-workshop-video-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "video",
+    "canal": "meta_ads",
+    "data": "2026-11-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "R4. neuro26_utibnm_vid916_dormindo_v1 (24 s) (peça-base do criativo 3 do kit)",
+    "status": "em_correcao",
+    "trava": [
+      "A2"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 332,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:469"
+  },
+  {
+    "id": "workshop-workshop-carrossel-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-11-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P14: Preciso saber EEG antes? Não. Veja as outras dúvidas. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 352,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:67"
+  },
+  {
+    "id": "workshop-workshop-story-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S3 e P6: Aluno e ex-aluno Ufape: 20% no workshop de neuromonitorização.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E6",
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 402,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:69"
+  },
+  {
+    "id": "workshop-workshop-story-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S4 e P7: Falta 1 semana para o workshop de neuromonitorização.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 435,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:70"
+  },
+  {
+    "id": "workshop-workshop-anuncio-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "C5 TRANSM: Teoria de sexta, ao vivo e gravada",
+    "status": "em_correcao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 238,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471"
+  },
+  {
+    "id": "workshop-workshop-anuncio-7",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": "2026-11-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "B7: neuro26_alem_est11_comeca-sexta_v2-data (\"Começa na sexta, 20/11\")",
+    "status": "em_correcao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 405,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:470"
+  },
+  {
+    "id": "workshop-workshop-campanha-fase-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-11-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Remarketing: entra B7 (\"Começa na sexta, 20/11\"), programado em 13/11",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM8"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 246,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:111"
+  },
+  {
+    "id": "workshop-workshop-campanha-subida-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-11-14",
+    "data_fim": "2026-11-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "__transmitido-br: C5 TRANSM, só com o 68634 corrigido",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634",
+      "EVM9"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 260,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:112"
+  },
+  {
+    "id": "workshop-workshop-video-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "video",
+    "canal": "meta_ads",
+    "data": "2026-11-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "R5. neuro26_transm_vid916_ao-vivo-gravada_v1 (20 s) (bloqueado, ver C5)",
+    "status": "em_correcao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 342,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:471"
+  },
+  {
+    "id": "workshop-workshop-email-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-14",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M3: O workshop de neuromonitorização é na semana que vem (20 e 21/11)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "68634",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 461,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499"
+  },
+  {
+    "id": "workshop-workshop-relatorio-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal 3; pausa imediata do presencial se lotar",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 313,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:313"
+  },
+  {
+    "id": "workshop-workshop-story-9",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S5: Última dúvida antes de sexta? Pergunte aqui.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 714,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:73"
+  },
+  {
+    "id": "workshop-workshop-email-14",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-16",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M3 follow-up: O workshop começa na sexta: horário, local e ingressos",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 495,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:499"
+  },
+  {
+    "id": "workshop-workshop-story-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P8: Faltam 3 dias para a sexta teórica. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E7",
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 479,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:74"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-17",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M3: Oi, [primeiro_nome]. O workshop de neuromonitorização é na sexta-feira, 20/11.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "E5",
+      "E6",
+      "68634",
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 504,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:529"
+  },
+  {
+    "id": "workshop-workshop-story-10",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S6: Faltam 2 dias.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 715,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:75"
+  },
+  {
+    "id": "workshop-workshop-campanha-pausa-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2026-11-18",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa do frio e do remarketing do presencial (antes, se lotar ou fecharem as inscrições)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM11"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 357,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:114"
+  },
+  {
+    "id": "workshop-workshop-post-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P9: Amanhã, sexta-feira, começa o workshop de neuromonitorização. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 516,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:76"
+  },
+  {
+    "id": "workshop-workshop-story-11",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S7: Amanhã.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 716,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:77"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M5: Oi, [primeiro_nome]. Amanhã começa o workshop de neuromonitorização. Seguem local e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A5"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 685,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:711"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-12",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "16h",
+    "quando": null,
+    "titulo": "M5 follow-up (transmitido): Oi, [primeiro_nome]. Amanhã, 20/11, a transmissão começa às",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 681,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:681"
+  },
+  {
+    "id": "workshop-workshop-campanha-pausa-2",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa do transmitido e da base",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EVM12"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 357,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:115"
+  },
+  {
+    "id": "workshop-workshop-email-6",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-19",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M5: Amanhã começa o workshop: endereço, horário e orientações",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 635,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:682"
+  },
+  {
+    "id": "workshop-workshop-inicio-turma-1",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2026-11-20",
+    "data_fim": "2026-11-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20/11 é",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "contexto/catalogo-de-cursos.md",
+    "linha": 261,
+    "fonte_da_data": "contexto/catalogo-de-cursos.md:261"
+  },
+  {
+    "id": "workshop-workshop-story-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S8 e P10: Hoje começa o Workshop Brasileiro de Neuromonitorização.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 556,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:78"
+  },
+  {
+    "id": "workshop-workshop-email-7",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-20",
+    "data_fim": null,
+    "hora": "7h",
+    "quando": null,
+    "titulo": "M6: Hoje começa o workshop: Unidade 2, abertura às 8h30",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 725,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:760"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-6",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-20",
+    "data_fim": null,
+    "hora": "8h",
+    "quando": null,
+    "titulo": "M6: Bom dia, [primeiro_nome]. Hoje começa o workshop de neuromonitorização.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A2",
+      "A5"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 764,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:793"
+  },
+  {
+    "id": "workshop-workshop-story-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-11-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "S9 e P11: Hoje é dia de prática: instalar, checar, ler, discutir.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 588,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:79"
+  },
+  {
+    "id": "workshop-workshop-email-8",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-21",
+    "data_fim": null,
+    "hora": "7h",
+    "quando": null,
+    "titulo": "M7: Hoje é o dia prático do workshop: programação do sábado",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 806,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:830"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-7",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-21",
+    "data_fim": null,
+    "hora": "8h",
+    "quando": null,
+    "titulo": "M7: Bom dia, [primeiro_nome]. Hoje é o dia prático do workshop.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A2",
+      "A5"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 834,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:854"
+  },
+  {
+    "id": "workshop-workshop-campanha-subida-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-11-22",
+    "data_fim": "2026-11-30",
+    "hora": null,
+    "quando": null,
+    "titulo": "Remarketing da gravação da teoria de sexta, só com PE5 (EVM15)",
+    "status": "a_fazer",
+    "trava": [
+      "PE5",
+      "EVM15"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 380,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:317"
+  },
+  {
+    "id": "workshop-workshop-post-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-11-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P12: Obrigado a quem esteve com a gente em 20 e 21/11. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 620,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:80"
+  },
+  {
+    "id": "workshop-workshop-post-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "post",
+    "canal": "instagram",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "P13: [T] A teoria de sexta pode ser assistida na gravação. (Instagram e Facebook)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 650,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:81"
+  },
+  {
+    "id": "workshop-workshop-relatorio-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão semanal 4: semana do evento",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 318,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:318"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-8",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M8: Oi, [primeiro_nome]. Obrigada por participar do workshop de neuromonitorização.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "AP8",
+      "E7",
+      "A5"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 918,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:933"
+  },
+  {
+    "id": "workshop-workshop-email-9",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M8: Obrigada por participar do workshop de neuromonitorização",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "AP8",
+      "E7"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 872,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-9",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "M9: Oi, [primeiro_nome]. Se o workshop abriu vontade de seguir estudando anestesiologia",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A4",
+      "R7",
+      "U3",
+      "A5",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 991,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:1016"
+  },
+  {
+    "id": "workshop-workshop-email-10",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-25",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M9: Para continuar estudando anestesiologia: conheça as pós e os cursos da Faculdade UFAPE",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A4",
+      "R7",
+      "U3",
+      "opt-in"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 952,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:986"
+  },
+  {
+    "id": "workshop-workshop-email-15",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-11-26",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "M8 follow-up: Sua gravação do workshop de neuromonitorização",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "AP8",
+      "E7"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 913,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:914"
+  },
+  {
+    "id": "workshop-workshop-relatorio-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão 5 e relatório final do workshop",
+    "status": "a_fazer",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md",
+    "linha": 319,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:319"
+  },
+  {
+    "id": "workshop-workshop-email-16",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "NE1-T1: Neuromonitorização em anestesia: o que o EEG e o BIS mostram, e o que não mostram",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:113"
+  },
+  {
+    "id": "workshop-workshop-email-18",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "NE2-T1: Depois do Workshop: um texto de consulta sobre neuromonitorização em anestesia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 131,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:131"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-13",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-13",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "NE1-T2: Oi, [primeiro_nome]. A teoria de sexta do Workshop Brasileiro de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PE5"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 114,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:114"
+  },
+  {
+    "id": "workshop-workshop-email-17",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "NE1-T3: Para seguir estudando em casa: a gravação de um evento da Faculdade UFAPE",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EV-12"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 115,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:115"
+  },
+  {
+    "id": "workshop-workshop-email-19",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "NE2-T2: Se o Workshop abriu perguntas sobre o paciente crítico, a gravação do Congresso",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EV-12"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 132,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:132"
+  },
+  {
+    "id": "workshop-workshop-anuncio-6",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "anuncio",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "da validade do cupom até 19/11, em conjunto próprio",
+    "titulo": "C6 BASE: 20% para aluno e ex-aluno Ufape (versão para a base, com o cupom SIMPNEUROMONIT)",
+    "status": "em_correcao",
+    "trava": [
+      "E6"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+    "linha": 265,
+    "fonte_da_data": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md:475"
+  },
+  {
+    "id": "workshop-workshop-campanha-subida-3",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": null,
+    "data_fim": "2026-11-19",
+    "hora": null,
+    "quando": "quando a validade do cupom chegar",
+    "titulo": "__base: C6 BASE com o cupom SIMPNEUROMONIT, até 19/11",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U9",
+      "EVM13"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md",
+    "linha": 272,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md:116"
+  },
+  {
+    "id": "workshop-workshop-carrossel-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "fora do feed; cartões nos Stories S2 de 07/11 e no P14",
+    "titulo": "P5: Para quem decide olhando além do número.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "68634"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+    "linha": 254,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md:254"
+  },
+  {
+    "id": "workshop-workshop-email-5",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "imediato após a confirmação do pagamento",
+    "titulo": "M4: Sua inscrição no workshop de neuromonitorização está confirmada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 544,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:592"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-4",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": null,
+    "quando": "até 1 hora depois da confirmação, em horário comercial; senão no próximo dia útil às 9h",
+    "titulo": "M4: Oi, [primeiro_nome]. Sua inscrição no workshop de neuromonitorização está confirmada.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "A5"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+    "linha": 594,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md:621"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-14",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": "10h",
+    "quando": "a partir de ter 02/02 (plano seguinte)",
+    "titulo": "NE1-T4: Oi, [primeiro_nome]. A Faculdade UFAPE vai fazer uma nova edição do Workshop",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EV-14"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 116,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:116"
+  },
+  {
+    "id": "workshop-workshop-whatsapp-15",
+    "bloco": "workshop",
+    "turmas": [
+      "workshop"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": null,
+    "data_fim": null,
+    "hora": "10h",
+    "quando": "a partir de ter 02/02 (plano seguinte)",
+    "titulo": "NE2-T3: Você participou da edição de 2026",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "EV-14"
+    ],
+    "arquivo": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md",
+    "linha": 133,
+    "fonte_da_data": "saidas/06-geracao-de-demanda/campanhas-de-nutricao-eventos-2026-10-26.md:133"
+  }
+]
