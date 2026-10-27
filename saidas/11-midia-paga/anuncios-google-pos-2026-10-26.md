@@ -1,12 +1,12 @@
-# Estrutura de Google Ads da Pós-graduação: Busca por turma de março e de abril de 2027 (etapa 1.14, versão 5)
+# Estrutura de Google Ads da Pós-graduação: Busca por turma de março e de abril de 2027 (etapa 1.14, versão 6)
 
 - **Agente:** anuncios-google (departamento 11 Mídia Paga, por encomenda do gestor-de-midia)
 - **Linha:** pos
 - **Data:** 27/10/2026 (terça-feira); arquivo criado em 26/10/2026
-- **Versão:** 5 (27/10/2026). Aplica a encomenda da seção 7 de saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (versão 5, tabela 7.1 e encomenda "anuncios-google-pos") e a versão 6 do gestor-de-midia-pos (12.5, 12.8 e 12.9): orçamentos e diárias a 85% até a data de corte de cada turma (Google de março R$ 749,25 por turma e de abril R$ 723,75, já com a extensão) e fase de extensão de R$ 150,00 no Google, só busca, com 1 anúncio por grupo, até a véspera do 3º módulo, com as exceções da estratégia (333 e 68632 param na véspera do módulo presencial até OU3; 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR]; 662 com 1 anúncio por grupo; teto de R$ 2.000,00 por turma). Registra também as decisões 19 e 20 do CEO (nota na seção 17). Palavras-chave, negativas, recursos, textos, UTMs e a seção 18 (provas, suspenso) ficam como na versão 4, salvo o que a encomenda e as decisões pedem. O que mudou está na seção 17.
-- **Versões anteriores:** 4 (27/10/2026, G1 a G7 e R3 a R7 do qa-de-marketing e decisão 18, verba da estratégia v4); 3 (27/10/2026, devolvida pelo qa com G1 a G7); 2 (26/10/2026, provas e turmas, corrigida pelo qa-de-marketing-geral-2026-10-26-loteD); 1 (26/10/2026).
+- **Versão:** 6 (27/10/2026). Mudança única e estrutural: a extensão passa a ter **dois conjuntos de anúncios em sequência**, `-exta` (do dia seguinte ao corte até a véspera do início da turma) e `-extb` (do início até a véspera do 3º módulo), nunca os dois ativos juntos, com os títulos e as descrições da versão 2 de saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md (copiados, não reescritos) e a resolução de R6 do qa-de-marketing (rodada d). **Nenhuma verba, diária ou total mudou.** Da versão 5 ficam todas as demais seções, inclusive C1 (seção 4.3), a linha nova da Lista 2 e R3 do qa (seção 13), aplicados pelo orquestrador. O que mudou está na seção 17.
+- **Versões anteriores:** 5 (27/10/2026, encomenda da seção 7 da estratégia v5 e do gestor v6, com extensão de R$ 150,00, decisões 19 e 20; C1, linha da Lista 2 e R3 do qa-de-marketing-pos-2026-10-27-midia-d aplicados pelo orquestrador); 4 (27/10/2026, G1 a G7 e R3 a R7 do qa-de-marketing e decisão 18, verba da estratégia v4); 3 (27/10/2026, devolvida pelo qa com G1 a G7); 2 (26/10/2026, provas e turmas, corrigida pelo qa-de-marketing-geral-2026-10-26-loteD); 1 (26/10/2026).
 - **Etapa:** 1.14 da camada 1 do plano do cmo; encomenda do gestor-de-midia-pos (versão 6, seções 12.5, 12.8 e 12.9) e da estrategia-de-midia-pos (versão 5, seção 7).
-- **Status:** rascunho para a reconferência do qa-de-marketing (somas da seção 4.1b e contagens das cadeias novas) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha é pedido para um humano executar no Google Ads, depois da aprovação.
+- **Status:** rascunho para a reconferência do qa-de-marketing (as cadeias -exta e -extb, as contagens e a sequência da seção 8.9) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda linha é pedido para um humano executar no Google Ads, depois da aprovação.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
   - CLAUDE.md
   - docs/execucao-2026-10-26.md (decisões 1 a 20; valem nesta rodada 8, 10, 11, 12, 14, 15, 16, 17, 18, 19 e 20)
@@ -17,7 +17,9 @@
   - saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md (seções 2 a 4, áreas A1 a A14)
   - saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md (v2, aprovada; seções 0, 1 e 2)
   - saidas/11-midia-paga/criativos-de-anuncio-pos-turmas-2026-10-26.md (v3, aprovada; seções 0 a 3, a ficha para peça de cada turma e as seções 17 a 19)
+  - **saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md (versão 2: seção 2 "CC1 resolvido" com as datas de troca por turma, seção 3 com os títulos e as descrições Google de cada turma, seção 4 com os limites e os pins sugeridos, seção 5 com a tabela de nomes)**
   - saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-campanhas.md (veredito sobre a versão 3 e recomendações)
+  - **saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-midia-d.md (revisão da versão 5: C1, R3, R6 e a pendência P1 da seção 6)**
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
   - .claude/skills/estrutura-de-campanha-paga/SKILL.md
   - contexto/ufape-geral.md, contexto/pos-graduacao.md e contexto/catalogo-de-cursos.md (seção 2)
@@ -25,17 +27,17 @@
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma pesquisa na web para este conteúdo.
 - **Dados pessoais:** nenhum. Nenhum docente é nomeado neste arquivo.
 - **Marcadores:** [CONFIRMAR] é fato que a Ufape ou o time precisa informar; [CONFIRMAR NO CATÁLOGO] é dado de curso que o catálogo não traz; [SUPOSIÇÃO] é escolha de desenho ou hipótese deste agente, sempre com a origem; [SUPOSIÇÃO de plataforma; conferir no editor] é regra do Google Ads sem fonte nos arquivos; [DADO NÃO FORNECIDO] é número de mídia que não existe nos arquivos (volume, CPC, CTR, gasto, leads). Regra prática é regra de método, não meta. Verba (R$ 2.000,00 por turma) e meta (15 matrículas) vêm do CEO (decisões 15 e 16).
-- **Limites de caracteres** (título 30, descrição 90, frase de destaque 25, sitelink 25, caminho 15) são referência de plataforma sem fonte nos arquivos [SUPOSIÇÃO de plataforma; conferir no editor]. **Contagens:** a versão 3 foi recontada por script pelo qa-de-marketing em 27/10/2026 (99 contagens declaradas conferidas e 290 títulos e descrições montados, nenhum acima do limite; arquivo do qa, seção 1.1). As cadeias que mudaram na versão 4 (a descrição DT, de 90 caracteres, e a DS1 de 68632, de 89, ambas contadas por script pelo qa) e a correção da fórmula de " Início em dd/mm/aaaa." (22 caracteres, e não 23) entram na reconferência do qa. **Novas na versão 5:** as DS1 sem data da seção 8.9 foram contadas por subtração da fórmula de 22 caracteres e precisam de recontagem por script; o editor do Google Ads é a conferência final (item S9 do checklist).
+- **Limites de caracteres** (título 30, descrição 90, frase de destaque 25, sitelink 25, caminho 15) são referência de plataforma sem fonte nos arquivos [SUPOSIÇÃO de plataforma; conferir no editor]. **Contagens:** a versão 3 foi recontada por script pelo qa-de-marketing em 27/10/2026 (99 contagens declaradas conferidas e 290 títulos e descrições montados, nenhum acima do limite). A descrição DT (90), a DS1 de 68632 (89) e as 14 DS1 sem data da seção 8.9 (53, 57, 61, 59, 59, 83, 59, 70, 57, 60, 67, 60, 86 e 57 caracteres, em ordem de turma) foram recontadas pelo qa na rodada d. **Novas na versão 6:** os títulos e as descrições -exta e -extb da seção 8.9 vêm do criativos-de-anuncio, que contou por soma de fragmentos, sem script (maior título 28, maior descrição 88, a de 68636 na -exta); precisam de recontagem por script e o editor do Google Ads é a conferência final (item S9 do checklist).
 
 ---
 
 ## 0. Resumo em cinco linhas
 
-1. **O que é:** 14 campanhas de Busca, uma por turma (5 de março, 9 de abril), cada uma com 2 grupos (`__area`, com campus, e `__marca`, "Faculdade UFAPE"), 2 textos de anúncio por grupo até o corte (1 em 662, até a ficha ser corrigida; 54 anúncios) e, a partir do dia seguinte ao corte, 1 anúncio -ext por grupo (28 anúncios -ext, 8 deles só com a data do 3º módulo), palavras-chave sementes [SUPOSIÇÃO] sem volume nem CPC [DADO NÃO FORNECIDO], negativas gerais, cruzadas e de praça, e recursos sem preço.
-2. **Verba:** só a parte Google da estratégia v5, por turma: março R$ 749,25 e abril R$ 723,75 (85% até o corte, mais R$ 150,00 de extensão; teto de R$ 10.260,00 nas 14 turmas), com as diárias em reais por fase da seção 4 (arredondadas para baixo) e a soma de cada turma conferida na seção 4.1b. O teto de R$ 2.000,00 por turma prevalece em 289 e 662 (seção 4.3).
+1. **O que é:** 14 campanhas de Busca, uma por turma (5 de março, 9 de abril), cada uma com 2 grupos (`__area`, com campus, e `__marca`, "Faculdade UFAPE"), 2 textos de anúncio por grupo até o corte (1 em 662, até a ficha ser corrigida; 54 anúncios) e, depois do corte, a **extensão em dois conjuntos em sequência**: do dia seguinte ao corte até a véspera do início, 1 anúncio `-exta` por grupo; do início até a véspera do 3º módulo, 1 anúncio `-extb` por grupo (56 anúncios -ext criados, 28 -exta e 28 -extb; 42 liberados e 14 bloqueados, seção 8.9; nunca dois conjuntos ativos juntos). Palavras-chave sementes [SUPOSIÇÃO] sem volume nem CPC [DADO NÃO FORNECIDO], negativas gerais, cruzadas e de praça, e recursos sem preço.
+2. **Verba:** só a parte Google da estratégia v5, por turma: março R$ 749,25 e abril R$ 723,75 (85% até o corte, mais R$ 150,00 de extensão; teto de R$ 10.260,00 nas 14 turmas), com as diárias em reais por fase da seção 4 (arredondadas para baixo) e a soma de cada turma conferida na seção 4.1b. **A extensão tem uma diária só por turma: a troca de -exta para -extb não muda diária nem total.** O teto de R$ 2.000,00 por turma prevalece em 289 e 662 (seção 4.3).
 3. **Conversão:** lead (cadastro ou início de checkout) é a única que otimiza; inscrição paga e 1ª mensalidade ficam como conversões separadas, só para leitura. UTM `google` e `cpc` no padrão D11 e D12 (a chave com área curta espera a confirmação do cmo, seção 3).
 4. **Fora:** lance em concorrente, Performance Max, Display, YouTube, preço, valor de inscrição, MEC, certificação, bolsa e urgência.
-5. **Trava:** nada sobe antes do teste de rastreio de 30/10 e da aprovação; 679, 68636 e 662 (P3), 366 (P4), 657 (U10 e PP7), 341 (PP7), 68617 (URL) e as páginas com a frase ligada ao MEC têm trava própria (seção 11); a extensão tem as suas (seção 4.6). Catorze pedidos de aprovação (AGP12 a AGP25, seção 15).
+5. **Trava:** nada sobe antes do teste de rastreio de 30/10 e da aprovação; 679, 68636 e 662 (P3), 366 (P4), 657 (U10 e PP7), 341 (PP7), 68617 (URL) e as páginas com a frase ligada ao MEC têm trava própria (seção 11); a extensão tem as suas (seções 4.6 e 8.9): 333 e 68632 só -exta enquanto OU3 estiver aberta; 68635, 679 e 366 com a -extb bloqueada sem o dia do 3º módulo; 662 com as duas bloqueadas. Catorze pedidos de aprovação (AGP12 a AGP25, seção 15).
 
 ---
 
@@ -46,15 +48,15 @@
 | Nome do curso | "Pós-graduação em <área>" como no catálogo, nas descrições. Em título (30 caracteres) nenhum nome completo cabe: o título leva a área como está no catálogo; onde nem ela cabe, forma curta marcada (68635, 68617, 68632, 366), sem mudar o sentido e só com a descrição de nome completo fixada na posição 1 (AGP18). A descrição fixada traz sempre o nome completo | catálogo, seção 2; contexto/pos-graduacao.md |
 | Marca | "Faculdade UFAPE" em todo anúncio (homonímia com a universidade federal) | estrategia-de-midia-pos, 4.1 |
 | Preço | Nenhum anúncio, recurso ou sitelink mostra parcela, total, matrícula ou valor de inscrição até a resposta de U11. Não entra a frase "Veja parcelas, total e matrícula" (a condição 4 do AP7 a limita ao remarketing) | decisão 16; criativos v3, 1.2 |
-| Proibido no texto | MEC, certificação, título de especialista, bolsa, prova de bolsa, desconto, promoção (341 inclusive), "últimas vagas", "vagas limitadas", contagem regressiva, "inscrição", "inscreva-se", superlativo, nome de concorrente, travessão e meia-risca. Até o corte nenhum texto usa a regra de matrícula até o 3º módulo; só o anúncio -ext a usa, com a regra completa e sem urgência com a data (decisão 18) | conformidade-educacional; criativos v3, 1.1; decisão 18; gestor 12.9 |
+| Proibido no texto | MEC, certificação, título de especialista, bolsa, prova de bolsa, desconto, promoção (341 inclusive), "últimas vagas", "vagas limitadas", contagem regressiva, "inscrição", "inscreva-se", superlativo, nome de concorrente, travessão e meia-risca. Até o corte nenhum texto usa a regra de matrícula até o 3º módulo; só os anúncios -exta e -extb a usam, com a regra completa e sem urgência com a data (decisão 18) | conformidade-educacional; criativos v3, 1.1; decisão 18; gestor 12.9 |
 | Turma | Número de turma fora das peças de 68628, 68617 e 662; turma mínima sem número | criativos v3, 1.1 |
-| Data de início | Só a da planilha. Sem data em 679, 68636 e 366 até a trava (seção 11); em 662 só nome, campus e data. Na extensão, nenhum título, descrição ou frase de destaque cita a data de início ou o mês da turma sem a regra completa (EM16) | criativos v3, seções 15 a 17; estrategia-de-midia-pos, 4.1 e EM16 |
+| Data de início | Só a da planilha. Sem data em 679, 68636 e 366 até a trava (seção 11); em 662 só nome, campus e data. Na extensão, nenhum título, descrição ou frase de destaque cita a data de início ou o mês da turma sem a regra completa (EM16): a -exta diz as duas coisas na mesma descrição, fixada na posição 2 | criativos v3, seções 15 a 17; estrategia-de-midia-pos, 4.1 e EM16; criativos ext v2, 3 e 4 |
 | Modalidade | 68632 é presencial: nenhum texto diz "semipresencial" | catálogo; criativos v3 |
 | Concorrente | Nenhum nome em anúncio; nenhum lance em marca de concorrente; o nome entra só como negativa | anuncios-google.md; gestor, 3 |
 | Políticas | Sem ponto de exclamação no título, sem caixa alta para gritar (UFAPE é sigla), sem símbolos, sem característica de quem vê | conformidade-educacional [SUPOSIÇÃO de política do Google] |
 | Rede | Só Rede de Pesquisa do Google; sem parceiros de pesquisa, sem Display, sem Performance Max, sem YouTube | estrategia-de-midia-pos, seção 7; gestor, 3 [SUPOSIÇÃO de desenho: parceiros sem leitura de qualidade] |
 | Destino | Sempre a página da turma, nunca WhatsApp. Página com link trocado não recebe anúncio. Página com a frase "CERTIFICADO PELO MEC" só recebe a campanha com decisão registrada da pessoa do marketing ou com a página corrigida (seção 11) | estrategia-de-midia-pos, 4.1; igual ao S8 do anuncios-meta |
-| Nomes | Campanha `pos_<código>-<área curta>_google_lead_busca_<AAAAMM da subida>`; grupo = campanha + `__area` ou `__marca`; anúncio `rsa-<código>-<grupo>-<a ou b>_v1`; anúncio da extensão `rsa-<código>-<grupo>-ext_v1`, dentro da mesma campanha e do mesmo grupo (a extensão não cria campanha nova). **[CONFIRMAR com o cmo que a chave com área curta e o nome do anúncio responsivo cumprem o D12]** (ver nota abaixo) | D12; estrategia-de-midia-pos, 4.2 |
+| Nomes | Campanha `pos_<código>-<área curta>_google_lead_busca_<AAAAMM da subida>`; grupo = campanha + `__area` ou `__marca`; anúncio do corte `rsa-<código>-<grupo>-<a ou b>_v1`; **anúncios da extensão `rsa-<código>-<grupo>-exta_v1` (do dia seguinte ao corte até a véspera do início) e `rsa-<código>-<grupo>-extb_v1` (do início até a véspera do 3º módulo)**, dentro da mesma campanha e do mesmo grupo (a extensão não cria campanha nova). **[CONFIRMAR com o cmo que a chave com área curta e o nome do anúncio responsivo cumprem o D12]** (ver nota abaixo) | D12; estrategia-de-midia-pos, 4.2; criativos ext v2, 5 |
 | UTM | Marcação automática ligada e sufixo de URL final da seção 10, com `utm_source=google` e `utm_medium=cpc` | D11 e D12 |
 | Execução | Só por humano, depois da aprovação | CLAUDE.md |
 
@@ -64,7 +66,7 @@
 
 ## 2. Modelo de estrutura, metas e conversão (skill estrutura-de-campanha-paga)
 
-**Modelo: enxuta.** Verba de R$ 2.000,00 por turma no ciclo e Google com R$ 723,75 a R$ 749,25 dela: uma campanha de conversão por turma, com orçamento na campanha (a meta e a verba são por turma, e o código vai no nome), 2 grupos e 2 anúncios por grupo até o corte (1 em 662; 1 por grupo na extensão). Mais campanhas ou grupos espalhariam uma verba que já é pequena (gestor 12.6). Orçamento na campanha, nunca no grupo.
+**Modelo: enxuta.** Verba de R$ 2.000,00 por turma no ciclo e Google com R$ 723,75 a R$ 749,25 dela: uma campanha de conversão por turma, com orçamento na campanha (a meta e a verba são por turma, e o código vai no nome), 2 grupos e 2 anúncios por grupo até o corte (1 em 662; 1 por grupo na extensão, de cada vez: -exta e depois -extb). Mais campanhas ou grupos espalhariam uma verba que já é pequena (gestor 12.6). Orçamento na campanha, nunca no grupo.
 
 **Metas escritas antes de subir** (estrategia-de-midia-pos, 2.2 e 2.5; todas as taxas são [SUPOSIÇÃO ilustrativa] do gestor):
 
@@ -79,38 +81,38 @@
 
 **Estratégia de lance** [SUPOSIÇÃO de desenho, AGP15]: "Maximizar conversões" com a conversão de lead, sem CPA desejado, porque não há histórico de custo por clique na conta [DADO NÃO FORNECIDO]. Com diárias de R$ 1,41 a R$ 18,21 o volume é baixo; o risco está registrado na seção 12. Se o teste de rastreio de 30/10 falhar, a campanha não sobe.
 
-**Protocolo de teste** (a regra da skill, aplicada ao plano): leitura só com 3 dias de dados e R$ 27,00 gastos na campanha; pausa de anúncio com R$ 36,00 gastos sem lead, nunca todos os anúncios de uma campanha ao mesmo tempo; uma mudança por campanha por semana (seção 12). Na extensão, com R$ 1,41 a R$ 5,17 por dia, a leitura é mensal (estrategia-de-midia-pos, 2.5).
+**Protocolo de teste** (a regra da skill, aplicada ao plano): leitura só com 3 dias de dados e R$ 27,00 gastos na campanha; pausa de anúncio com R$ 36,00 gastos sem lead, nunca todos os anúncios de uma campanha ao mesmo tempo; uma mudança por campanha por semana (seção 12). Na extensão, com R$ 1,41 a R$ 5,17 por dia, a leitura é mensal (estrategia-de-midia-pos, 2.5); a troca de -exta para -extb no dia do início é troca programada do plano e não conta como a mudança da semana.
 
 ---
 
 ## 3. Mapa das 14 campanhas
 
-Todas: Rede de Pesquisa, português, todos os dias, orçamento diário na campanha, sem data de término automática (a troca para a extensão é pedido no dia seguinte ao corte; a pausa total é pedido na véspera do 3º módulo, às 23h59, ou antes se o gasto do ciclo chegar a R$ 2.000,00, AGP24 e AGP25). Localização "presença ou interesse" (EM6, [SUPOSIÇÃO de desenho; origem: a persona secundária viaja para o módulo, e a procedência dos alunos não existe nos dados; ampliar só com a procedência do CRM, [CONFIRMAR]]).
+Todas: Rede de Pesquisa, português, todos os dias, orçamento diário na campanha, sem data de término automática (a troca para a extensão é pedido no dia seguinte ao corte; a troca de -exta para -extb é pedido no dia do início; a pausa total é pedido na véspera do 3º módulo, às 23h59, ou antes se o gasto do ciclo chegar a R$ 2.000,00, AGP24 e AGP25). Localização "presença ou interesse" (EM6, [SUPOSIÇÃO de desenho; origem: a persona secundária viaja para o módulo, e a procedência dos alunos não existe nos dados; ampliar só com a procedência do CRM, [CONFIRMAR]]).
 
-| Turma | Campanha (= utm_campaign) | URL final (página da turma) | Localização | Sobe | Fim da extensão (pausa total, 23h59) | Trava (seção 11) |
-|---|---|---|---|---|---|---|
-| 68615 | pos_68615-patclin_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/68615/pos-graduacao-patologia-clinica/sao-paulo | estado de SP | 07/12 | 21/05/2027 | PP6; frase do MEC na página |
-| 289 | pos_289-cardio-go_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/289/pos-graduacao-em-cardiologia-veterinaria | GO e DF | 07/12 | 14/05/2027 | teto de R$ 2.000,00, limite de R$ 500,00 e recálculo de 30/11; frase do MEC |
-| 333 | pos_333-citopato_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/333/pos-graduacao-em-citopatologia-veterinaria | estado de SP | 07/12 | 26/03/2027 (véspera do módulo 1 presencial, até OU3); com OU3, 28/05/2027 | PP6; frase do MEC |
-| 657 | pos_657-anest-avancada_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/657/pos-graduacao-em-anestesiologia-avancada | estado de SP | 14/12 | 21/05/2027 | PP7 e U10; frase do MEC |
-| 341 | pos_341-equina_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/341/pos-graduacao-em-medicina-interna-equina | estado de SP | 14/12 | 30/04/2027 (formato do módulo [CONFIRMAR]) | PP7, PR7, local da prática; frase do MEC |
-| 68635 | pos_68635-clinmed-emerg_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo | estado de SP | 06/01 | [CONFIRMAR] (3º módulo em junho de 2027, dia sem data) | página sem pendência; frase do MEC; data do 3º módulo para a extensão |
-| 68636 | pos_68636-pneumo_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria | estado de SP | 06/01 | 18/06/2027 | P3 e U6: data conferida na planilha; frase do MEC |
-| 68617 | pos_68617-endocrino_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo | estado de SP | 06/01 | 18/06/2027 | URL com final "/v/" (turma V); frase do MEC |
-| 68628 | pos_68628-onco_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo | estado de SP | 06/01 | 25/06/2027 | sem número de turma (P5); frase do MEC |
-| 68609 | pos_68609-anest-go_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania | GO e DF | 06/01 | 25/06/2027 | frase do MEC |
-| 68632 | pos_68632-cirurgia-go_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania | GO e DF | 06/01 | 09/04/2027 (véspera do módulo 1 presencial, até OU3); com OU3, 11/06/2027 | nunca "semipresencial"; frase do MEC |
-| 679 | pos_679-infecto_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria | estado de SP | só com a trava resolvida | [CONFIRMAR] (3º módulo em junho de 2027, dia sem data) | P3 (link trocado); frase do MEC; data do 3º módulo para a extensão |
-| 366 | pos_366-fisio_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo | estado de SP | só com a data conferida | [CONFIRMAR] (início diverge, P4) | P4 (data diverge); frase do MEC; data do 3º módulo para a extensão |
-| 662 | pos_662-orto_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/662/pos-graduacao-em-ortopedia-veterinaria | estado de SP | só com o link corrigido | [CONFIRMAR] (ficha com módulos de 2026, P3) | P3, teto de R$ 2.000,00 e limite de R$ 500,00; frase do MEC; data do 3º módulo para a extensão |
+| Turma | Campanha (= utm_campaign) | URL final (página da turma) | Localização | Sobe | Troca -exta para -extb (início) | Fim da extensão (pausa total, 23h59) | Trava (seção 11) |
+|---|---|---|---|---|---|---|---|
+| 68615 | pos_68615-patclin_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/68615/pos-graduacao-patologia-clinica/sao-paulo | estado de SP | 07/12 | 20/03/2027 | 21/05/2027 | PP6; frase do MEC na página |
+| 289 | pos_289-cardio-go_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/289/pos-graduacao-em-cardiologia-veterinaria | GO e DF | 07/12 | 20/03/2027 | 14/05/2027 | teto de R$ 2.000,00, limite de R$ 500,00 e recálculo de 30/11; frase do MEC |
+| 333 | pos_333-citopato_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/333/pos-graduacao-em-citopatologia-veterinaria | estado de SP | 07/12 | 27/03/2027, só com OU3 (sem OU3 não há -extb) | 26/03/2027 (véspera do módulo 1 presencial, até OU3); com OU3, 28/05/2027 | PP6; frase do MEC |
+| 657 | pos_657-anest-avancada_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/657/pos-graduacao-em-anestesiologia-avancada | estado de SP | 14/12 | 13/03/2027 | 21/05/2027 | PP7 e U10; frase do MEC |
+| 341 | pos_341-equina_google_lead_busca_202612 | https://faculdade.ufape.com.br/produto/341/pos-graduacao-em-medicina-interna-equina | estado de SP | 14/12 | 20/03/2027 | 30/04/2027 (formato do módulo [CONFIRMAR]) | PP7, PR7, local da prática; frase do MEC |
+| 68635 | pos_68635-clinmed-emerg_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68635/pos-graduacao-clinica-medica-e-emergencia-de-pequenos-animais/sao-paulo | estado de SP | 06/01 | 10/04/2027, só com o dia do 3º módulo | [CONFIRMAR] (3º módulo em junho de 2027, dia sem data) | página sem pendência; frase do MEC; -extb bloqueada sem o dia do 3º módulo |
+| 68636 | pos_68636-pneumo_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68636/pos-graduacao-em-pneumologia-veterinaria | estado de SP | 06/01 | 17/04/2027 (só no site; planilha sem data) [CONFIRMAR na planilha] | 18/06/2027 | P3 e U6: data conferida na planilha; frase do MEC |
+| 68617 | pos_68617-endocrino_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68617/pos-graduacao-endocrinologia-de-pequenos-animais/v/sao-paulo | estado de SP | 06/01 | 17/04/2027 | 18/06/2027 | URL com final "/v/" (turma V); frase do MEC |
+| 68628 | pos_68628-onco_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68628/pos-graduacao-oncologia-veterinaria/sao-paulo | estado de SP | 06/01 | 10/04/2027 | 25/06/2027 | sem número de turma (P5); frase do MEC |
+| 68609 | pos_68609-anest-go_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68609/pos-graduacao-anestesiologia-veterinaria/goiania | GO e DF | 06/01 | 24/04/2027 | 25/06/2027 | frase do MEC |
+| 68632 | pos_68632-cirurgia-go_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/68632/pos-graduacao-clinica-cirurgica-de-caes-e-gatos/goiania | GO e DF | 06/01 | 10/04/2027, só com OU3 (sem OU3 não há -extb) | 09/04/2027 (véspera do módulo 1 presencial, até OU3); com OU3, 11/06/2027 | nunca "semipresencial"; frase do MEC |
+| 679 | pos_679-infecto_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/679/pos-graduacao-em-infectologia-veterinaria | estado de SP | só com a trava resolvida | 03/04/2027 (planilha), só com o dia do 3º módulo | [CONFIRMAR] (3º módulo em junho de 2027, dia sem data) | P3 (link trocado); frase do MEC; -extb bloqueada sem o dia do 3º módulo |
+| 366 | pos_366-fisio_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/366/pos-graduacao-fisioterapia-fisiatria-e-reabilitacao-veterinaria/sao-paulo | estado de SP | só com a data conferida | 10/04/2027 (planilha; o site diz 24/04/2027, P4) [CONFIRMAR], só com o dia do 3º módulo | [CONFIRMAR] (início diverge, P4) | P4 (data diverge); frase do MEC; -extb bloqueada sem o dia do 3º módulo |
+| 662 | pos_662-orto_google_lead_busca_202701 | https://faculdade.ufape.com.br/produto/662/pos-graduacao-em-ortopedia-veterinaria | estado de SP | só com o link corrigido | 24/04/2027 (planilha; a página mostra 15/08/2026, P3), só com o 3º módulo | [CONFIRMAR] (ficha com módulos de 2026, P3) | P3, teto de R$ 2.000,00 e limite de R$ 500,00; frase do MEC; -exta e -extb bloqueadas |
 
-Notas: (a) o AAAAMM é o mês da subida (D12): 202612 em março e 202701 em abril; 679, 366, 662 e 68636, se subirem depois, trocam o AAAAMM do nome e da utm_campaign pelo mês real da subida (o nome do anúncio não muda). (b) 289 e 662 têm campanha no ar que não é renomeada (D12); a visão de campanhas não separa o canal, então, se houver busca ativa de 289 ou 662, ela não recebe as palavras-chave novas [CONFIRMAR na exportação, A1 da 1.12]. (c) Os URLs vêm das seções 4 a 17 do criativos v3 e são iguais aos do anuncios-meta; o URL de 662 é conferido em 28/10 (PP5). (d) 68632 e 68609 em GO e DF; as demais em SP. (e) A chave com área curta espera a ratificação do cmo (nota da seção 1). (f) As datas de fim da extensão vêm da estratégia v5 (3.5b e 6.1) e do gestor 12.9, a partir das fichas; são a véspera do 3º módulo e dependem de OU6 ("até o 3º módulo" lido como até a véspera) [CONFIRMAR]. (g) A turma 698 (onda 1, Ecocardiografia) não faz parte destas 14 campanhas; pela decisão 19 ela segue com início em 28 e 29/11/2026 e seus anúncios não esperam a correção do site, o que é tratado no plano da onda 1 do gestor (seção 13), e não aqui.
+Notas: (a) o AAAAMM é o mês da subida (D12): 202612 em março e 202701 em abril; 679, 366, 662 e 68636, se subirem depois, trocam o AAAAMM do nome e da utm_campaign pelo mês real da subida (o nome do anúncio não muda). (b) 289 e 662 têm campanha no ar que não é renomeada (D12); a visão de campanhas não separa o canal, então, se houver busca ativa de 289 ou 662, ela não recebe as palavras-chave novas [CONFIRMAR na exportação, A1 da 1.12]. (c) Os URLs vêm das seções 4 a 17 do criativos v3 e são iguais aos do anuncios-meta; o URL de 662 é conferido em 28/10 (PP5). (d) 68632 e 68609 em GO e DF; as demais em SP. (e) A chave com área curta espera a ratificação do cmo (nota da seção 1). (f) As datas de fim da extensão vêm da estratégia v5 (3.5b e 6.1) e do gestor 12.9, a partir das fichas; são a véspera do 3º módulo e dependem de OU6 ("até o 3º módulo" lido como até a véspera) [CONFIRMAR]. (g) A turma 698 (onda 1, Ecocardiografia) não faz parte destas 14 campanhas; pela decisão 19 ela segue com início em 28 e 29/11/2026 e seus anúncios não esperam a correção do site, o que é tratado no plano da onda 1 do gestor (seção 13), e não aqui. (h) **As datas de troca de -exta para -extb são as datas de início do catálogo (seção 2 do catálogo), conforme a seção 2 do criativos ext v2, e valem só se o início não mudar; mudança de início muda a troca.** A turma 68636 troca só com a data de início conferida na planilha (U6) e 366 só depois de P4.
 
 ---
 
 ## 4. Verba e diárias em reais, por fase
 
-Só a parte Google da estratégia v5 (3.1, 3.3, 3.4, 3.5b e 7.1), que vem do gestor 12.5 (versão 6): 85% da verba da turma até a data de corte e 15% na extensão. Até o corte, março tem 30% do aquecimento (R$ 127,50), 50% da manutenção (R$ 85,00) e 35% da conversão (R$ 386,75); abril tem 30% do aquecimento (R$ 127,50) e 35% da conversão (R$ 446,25). Na extensão o Google fica com R$ 150,00 (50% dos R$ 300,00 da turma), só busca. A verba não gasta numa fase passa para a seguinte da mesma turma e do mesmo canal; na última (a extensão), a sobra não é gasta. Diária = total da fase dividido pelos dias da fase, **arredondada para baixo** em duas casas (diária vezes dias nunca passa do total). Nada passa de uma turma para outra sem nova decisão do CEO. Nenhum valor abaixo é aumento: são tetos.
+Só a parte Google da estratégia v5 (3.1, 3.3, 3.4, 3.5b e 7.1), que vem do gestor 12.5 (versão 6): 85% da verba da turma até a data de corte e 15% na extensão. Até o corte, março tem 30% do aquecimento (R$ 127,50), 50% da manutenção (R$ 85,00) e 35% da conversão (R$ 386,75); abril tem 30% do aquecimento (R$ 127,50) e 35% da conversão (R$ 446,25). Na extensão o Google fica com R$ 150,00 (50% dos R$ 300,00 da turma), só busca. **A extensão é uma fase só, com uma diária só: -exta e -extb dividem o mesmo total e a mesma diária, e a troca no dia do início não muda nenhum valor.** A verba não gasta numa fase passa para a seguinte da mesma turma e do mesmo canal; na última (a extensão), a sobra não é gasta. Diária = total da fase dividido pelos dias da fase, **arredondada para baixo** em duas casas (diária vezes dias nunca passa do total). Nada passa de uma turma para outra sem nova decisão do CEO. Nenhum valor abaixo é aumento: são tetos.
 
 ### 4.1 Total por turma e por fase
 
@@ -122,28 +124,28 @@ Só a parte Google da estratégia v5 (3.1, 3.3, 3.4, 3.5b e 7.1), que vem do ges
 | 68615, 289, 341 | Conversão | 04/01 a 18/02 (46) | R$ 386,75 | R$ 58,85 | R$ 8,40 |
 | 333 | Conversão | 04/01 a 25/02 (53) | R$ 386,75 | R$ 51,08 | R$ 7,29 |
 | 657 | Conversão | 04/01 a 11/02 (39) | R$ 386,75 | R$ 69,42 | R$ 9,91 |
-| 657 | Extensão | 12/02 a 21/05 (99) | R$ 150,00 | R$ 10,61 | R$ 1,51 |
-| 341 | Extensão | 19/02 a 30/04 (71) | R$ 150,00 | R$ 14,79 | R$ 2,11 |
-| 289 | Extensão | 19/02 a 14/05 (85) | R$ 150,00 | R$ 12,35 | R$ 1,76 |
-| 68615 | Extensão | 19/02 a 21/05 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
-| 333 | Extensão (até OU3) | 26/02 a 26/03 (29) | R$ 150,00 | R$ 36,21 | R$ 5,17 |
+| 657 | Extensão (-exta 12/02 a 12/03; -extb 13/03 a 21/05) | 12/02 a 21/05 (99) | R$ 150,00 | R$ 10,61 | R$ 1,51 |
+| 341 | Extensão (-exta 19/02 a 19/03; -extb 20/03 a 30/04) | 19/02 a 30/04 (71) | R$ 150,00 | R$ 14,79 | R$ 2,11 |
+| 289 | Extensão (-exta 19/02 a 19/03; -extb 20/03 a 14/05) | 19/02 a 14/05 (85) | R$ 150,00 | R$ 12,35 | R$ 1,76 |
+| 68615 | Extensão (-exta 19/02 a 19/03; -extb 20/03 a 21/05) | 19/02 a 21/05 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
+| 333 | Extensão (até OU3; só -exta, 26/02 a 26/03) | 26/02 a 26/03 (29) | R$ 150,00 | R$ 36,21 | R$ 5,17 |
 | as 9 de abril (662: teto) | Aquecimento | 06/01 a 24/01 (19) | R$ 127,50 | R$ 46,97 | R$ 6,71 |
 | 679 | Conversão | 25/01 a 04/03 (39) | R$ 446,25 | R$ 80,10 | R$ 11,44 |
 | 68632, 68635, 366, 68628 | Conversão | 25/01 a 11/03 (46) | R$ 446,25 | R$ 67,91 | R$ 9,70 |
 | 68617, 68636 | Conversão | 25/01 a 18/03 (53) | R$ 446,25 | R$ 58,94 | R$ 8,41 |
 | 68609, 662 | Conversão | 25/01 a 25/03 (60) | R$ 446,25 | R$ 52,06 | R$ 7,43 |
-| 68632 | Extensão (até OU3) | 12/03 a 09/04 (29) | R$ 150,00 | R$ 36,21 | R$ 5,17 |
-| 68628 | Extensão | 12/03 a 25/06 (106) | R$ 150,00 | R$ 9,91 | R$ 1,41 |
-| 68617, 68636 | Extensão | 19/03 a 18/06 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
-| 68609 | Extensão | 26/03 a 25/06 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
-| 679, 68635, 366 | Extensão | do dia seguinte ao corte até a véspera do 3º módulo [CONFIRMAR] | R$ 150,00 | R$ 150,00 x 7 / dias [CONFIRMAR] | R$ 150,00 / dias [CONFIRMAR]; não sobe sem a data |
-| 662 | Extensão | idem [CONFIRMAR] | R$ 150,00 menos metade do excedente (4.3) | idem | idem; não sobe sem a data |
+| 68632 | Extensão (até OU3; só -exta, 12/03 a 09/04) | 12/03 a 09/04 (29) | R$ 150,00 | R$ 36,21 | R$ 5,17 |
+| 68628 | Extensão (-exta 12/03 a 09/04; -extb 10/04 a 25/06) | 12/03 a 25/06 (106) | R$ 150,00 | R$ 9,91 | R$ 1,41 |
+| 68617, 68636 | Extensão (-exta 19/03 a 16/04; -extb 17/04 a 18/06) | 19/03 a 18/06 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
+| 68609 | Extensão (-exta 26/03 a 23/04; -extb 24/04 a 25/06) | 26/03 a 25/06 (92) | R$ 150,00 | R$ 11,41 | R$ 1,63 |
+| 679, 68635, 366 | Extensão (-exta do dia seguinte ao corte até a véspera do início; -extb do início até a véspera do 3º módulo) | do dia seguinte ao corte até a véspera do 3º módulo [CONFIRMAR] | R$ 150,00 | R$ 150,00 x 7 / dias [CONFIRMAR] | R$ 150,00 / dias [CONFIRMAR]; a -exta pode subir sem o dia do 3º módulo, mas a diária segue sem valor até a data (ver 4.6, item 4) |
+| 662 | Extensão (as duas peças bloqueadas) | idem [CONFIRMAR] | R$ 150,00 menos metade do excedente (4.3) | idem | idem; não sobe sem a data |
 
 Totais por turma (Google): março R$ 127,50 + R$ 85,00 + R$ 386,75 + R$ 150,00 = **R$ 749,25**; abril R$ 127,50 + R$ 446,25 + R$ 150,00 = **R$ 723,75**. Teto nas 14 turmas: 5 x R$ 749,25 + 9 x R$ 723,75 = R$ 3.746,25 + R$ 6.513,75 = **R$ 10.260,00**, dentro dos R$ 2.000,00 de cada turma. O restante é Meta, no arquivo do anuncios-meta: março R$ 1.250,75 (frio R$ 668,95 e remarketing R$ 581,80) e abril R$ 1.276,25 (R$ 735,25 e R$ 541,00), da estratégia v5 (3.3 e 3.4). Conta: R$ 749,25 + R$ 1.250,75 = R$ 2.000,00 e R$ 723,75 + R$ 1.276,25 = R$ 2.000,00. Turma que sobe atrasada (bloqueio): as partes são as mesmas, contadas da data de subida; se subir já na manutenção ou depois, o aquecimento vai para a conversão (estrategia-de-midia-pos, 3.1).
 
 ### 4.1b Soma de cada turma contra a tabela 7.1 da estratégia v5
 
-As diárias abaixo são as da coluna Google da tabela 7.1, conferidas uma a uma. "Diária x dias" é o máximo que a campanha pode gastar nas diárias aplicadas; a soma nunca passa do total do plano, e a diferença é só o arredondamento para baixo. Meta do plano: R$ 1.250,75 em março e R$ 1.276,25 em abril (estratégia 3.3 e 3.4).
+As diárias abaixo são as da coluna Google da tabela 7.1, conferidas uma a uma. "Diária x dias" é o máximo que a campanha pode gastar nas diárias aplicadas; a soma nunca passa do total do plano, e a diferença é só o arredondamento para baixo. Meta do plano: R$ 1.250,75 em março e R$ 1.276,25 em abril (estratégia 3.3 e 3.4). Na coluna Extensão, a diária e os dias são os da extensão inteira (-exta mais -extb), como na versão 5.
 
 | Turma | Aquecimento | Manutenção | Conversão | Extensão | Soma das diárias x dias | Total do plano (Google) | Google + Meta do plano |
 |---|---|---|---|---|---|---|---|
@@ -162,7 +164,7 @@ As diárias abaixo são as da coluna Google da tabela 7.1, conferidas uma a uma.
 | 68609 | 6,71 x 19 = R$ 127,49 | - | 7,43 x 60 = R$ 445,80 | 1,63 x 92 = R$ 149,96 | R$ 723,25 | R$ 723,75 | R$ 2.000,00 |
 | 662 (teto) | 6,71 x 19 = R$ 127,49 | - | 7,43 x 60 = R$ 445,80 | só com a data [CONFIRMAR] | R$ 573,29 até o corte | R$ 723,75 | R$ 2.000,00 |
 
-Leitura: as fases do plano somam R$ 749,25 (março) e R$ 723,75 (abril) em todas as turmas, e com a Meta fecham os R$ 2.000,00; nenhuma soma de diárias passa do total do plano. Em 289 e 662 os valores de aquecimento e de manutenção (289) ou de extensão (662) são tetos, recalculados em 30/11 e 30/12 (seção 4.3). Em 333 e 68632, com OU3, a extensão passa a ser o saldo do canal dividido pelos dias até a véspera do 3º módulo, sem passar de R$ 150,00 (seção 4.6).
+Leitura: as fases do plano somam R$ 749,25 (março) e R$ 723,75 (abril) em todas as turmas, e com a Meta fecham os R$ 2.000,00; nenhuma soma de diárias passa do total do plano. Em 289 e 662 os valores de aquecimento e de manutenção (289) ou de extensão (662) são tetos, recalculados em 30/11 e 30/12 (seção 4.3). Em 333 e 68632, com OU3, a extensão passa a ser o saldo do canal dividido pelos dias até a véspera do 3º módulo, sem passar de R$ 150,00 (seção 4.6). **A divisão da extensão em -exta e -extb não altera nenhuma linha desta tabela:** a diária da extensão corre sem interrupção do dia seguinte ao corte até a véspera do 3º módulo.
 
 ### 4.2 Calendário de diárias por turma (cada troca é pedido a humano)
 
@@ -182,11 +184,11 @@ Leitura: as fases do plano somam R$ 749,25 (março) e R$ 723,75 (abril) em todas
 | 679 | R$ 6,71 (06/01, só com a trava) | - | R$ 11,44 em 25/01 | só com a data do 3º módulo [CONFIRMAR]; dia seguinte ao corte: 05/03 | [CONFIRMAR] |
 | 662 | teto de R$ 6,71, recalculada em 30/12 | - | R$ 7,43 em 25/01 | (R$ 150,00 menos metade do excedente) / dias, só com a data do 3º módulo [CONFIRMAR]; dia seguinte ao corte: 26/03 | [CONFIRMAR] |
 
-Dia seguinte ao corte (troca para a extensão): 12/02 (657), 19/02 (68615, 289 e 341), 26/02 (333), 05/03 (679), 12/03 (68628, 68632, 68635 e 366), 19/03 (68617 e 68636) e 26/03 (68609 e 662). Nesse dia o humano pausa os anúncios do corte, ativa o anúncio -ext de cada grupo e muda a diária, só se a turma tiver as condições da seção 4.6.
+Dia seguinte ao corte (troca para a extensão): 12/02 (657), 19/02 (68615, 289 e 341), 26/02 (333), 05/03 (679), 12/03 (68628, 68632, 68635 e 366), 19/03 (68617 e 68636) e 26/03 (68609 e 662). Nesse dia o humano pausa os anúncios do corte, ativa o anúncio -exta de cada grupo e muda a diária, só se a turma tiver as condições da seção 4.6. **No dia do início da turma (seção 4.6, tabela de janelas), o humano pausa os -exta e ativa os -extb, sem mudar a diária.**
 
 Datas de corte são [SUPOSIÇÃO] (1ª mensalidade 30 dias antes do início, por turma; [CONFIRMAR na ficha]) e as de fim da extensão são a véspera do 3º módulo da ficha [CONFIRMAR OU6]; se qualquer uma mudar, a diária e a pausa são recalculadas numa nova versão escrita antes da subida.
 
-**Nota da decisão 18 (CEO, 27/10/2026): a Ufape aceita matrícula até o 3º módulo do curso de Pós-graduação, em todas as turmas.** É essa regra que cria a extensão: o dia seguinte ao corte deixa de ser o fim da campanha e passa a ser a troca para 1 anúncio por grupo, com R$ 150,00 até a véspera do 3º módulo. Como o aluno recupera os módulos perdidos segue [CONFIRMAR OU3]; pagamento de quem entra depois do corte, [CONFIRMAR OU8]. Nenhum texto até o corte usa a data do 3º módulo nem urgência com ela; o anúncio -ext usa a regra completa e sem urgência (seção 8.9).
+**Nota da decisão 18 (CEO, 27/10/2026): a Ufape aceita matrícula até o 3º módulo do curso de Pós-graduação, em todas as turmas.** É essa regra que cria a extensão: o dia seguinte ao corte deixa de ser o fim da campanha e passa a ser a troca para 1 anúncio por grupo, com R$ 150,00 até a véspera do 3º módulo, em dois conjuntos de anúncio em sequência (-exta antes do início e -extb depois). Como o aluno recupera os módulos perdidos segue [CONFIRMAR OU3]; pagamento de quem entra depois do corte, [CONFIRMAR OU8]. Nenhum texto até o corte usa a data do 3º módulo nem urgência com ela; os anúncios -exta e -extb usam a regra completa e sem urgência (seção 8.9).
 
 ### 4.3 289 e 662: o teto de R$ 2.000,00 prevalece (regra 3.8, EM15 e G3)
 
@@ -214,7 +216,7 @@ Datas de corte são [SUPOSIÇÃO] (1ª mensalidade 30 dias antes do início, por
 
 ### 4.5 Condição de volume (tabela 3.6 da estratégia v5, fonte única)
 
-Maior CPL que o Google da campanha aguenta, com 2 anúncios por grupo até o corte e 1 na extensão: igual a 2 vezes a verba semanal do Google dividida pelos anúncios por grupo (a 85% até o corte). Os CPL máximos do CEO (R$ 4,00 a R$ 18,00) ficam abaixo de todos os limites, então a estrutura passa no papel; o mais baixo é 68628 na extensão (R$ 19,81).
+Maior CPL que o Google da campanha aguenta, com 2 anúncios por grupo até o corte e 1 na extensão: igual a 2 vezes a verba semanal do Google dividida pelos anúncios por grupo (a 85% até o corte). Os CPL máximos do CEO (R$ 4,00 a R$ 18,00) ficam abaixo de todos os limites, então a estrutura passa no papel; o mais baixo é 68628 na extensão (R$ 19,81). Na extensão o limite vale para a fase inteira: -exta e -extb têm 1 anúncio por grupo cada, nunca juntos, e a diária é a mesma.
 
 | Turmas | Fase | Limite Google |
 |---|---|---|
@@ -239,18 +241,43 @@ Maior CPL que o Google da campanha aguenta, com 2 anúncios por grupo até o cor
 
 Escada: CPL da semana fechada acima do limite, o grupo fica com 1 anúncio responsivo (o limite dobra); só depois disso vai o pedido de tirar a busca. **662 já sobe com 1 anúncio por grupo** (seção 8), então o limite dela é o de 1 anúncio (o dobro: R$ 93,94 no aquecimento e R$ 104,12 na conversão, conta do limite da tabela). Na extensão todo grupo já tem 1 anúncio, ou seja, já está no último degrau da escada: se o CPL passar do limite, o pedido é de tirar a busca da extensão. Para onde vai a verba da busca que sai: [CONFIRMAR com o gestor] (a regra da estratégia para o frio da Meta divide metade para remarketing e metade para busca; para a busca não há regra escrita).
 
-### 4.6 Extensão: condições, mínimo diário e pausa total (EM16 e EM14)
+### 4.6 Extensão: condições, sequência -exta e -extb, mínimo diário e pausa total (EM16 e EM14)
 
-Do gestor 12.9 e da estratégia v5 (3.1, 3.5b, 4.1, 7.2 e EM16). O Google roda a extensão **só busca**, com 1 anúncio responsivo -ext por grupo (`__marca` e `__area`, o de maior intenção), R$ 150,00 no período, na mesma campanha.
+Do gestor 12.9, da estratégia v5 (3.1, 3.5b, 4.1, 7.2 e EM16) e da resolução do CC1 (criativos ext v2, seção 2). O Google roda a extensão **só busca**, com 1 anúncio responsivo por grupo de cada vez (`__marca` e `__area`), R$ 150,00 no período, na mesma campanha, em dois conjuntos em sequência:
+
+- **-exta (pré-início):** `rsa-<código>-area-exta_v1` e `rsa-<código>-marca-exta_v1`, do dia seguinte ao corte até a véspera do início da turma. Diz que as aulas começam na data da ficha e que a matrícula segue aberta até o 3º módulo.
+- **-extb (a partir do início):** `rsa-<código>-area-extb_v1` e `rsa-<código>-marca-extb_v1`, do início até a véspera do 3º módulo. Diz que as aulas já começaram, a matrícula vale até o 3º módulo e quem quiser saber dos módulos já realizados fala com o time.
+- **Nunca os dois conjuntos ativos juntos.** No dia do início, o humano pausa (nunca remove) os -exta e ativa os -extb; diária e total não mudam.
+
+Condições:
 
 1. **Só começa se a turma não tiver chegado às 15 matrículas nem lotado** [CONFIRMAR vagas]. Se não começar, os R$ 150,00 não são gastos, e a sobra só vai a outra turma com decisão do CEO. Quem confere é o gestor, na revisão de segunda anterior ao corte.
-2. **Texto:** 1 anúncio -ext por grupo, com a regra completa do 3º módulo e sem preço; nenhum texto cita a data de início sem a regra (seção 8.9).
-3. **333 e 68632:** a extensão para na véspera do módulo 1 presencial (26/03 e 09/04) até a Ufape responder OU3. Com OU3, a diária é o saldo do canal dividido pelos dias que faltam até a véspera do 3º módulo (28/05 e 11/06), sem passar de R$ 150,00 [SUPOSIÇÃO de desenho, estratégia 3.5b].
-4. **679, 68635, 366 e 662:** sem a data do 3º módulo a extensão não sobe e os R$ 150,00 não são gastos até a data chegar [SUPOSIÇÃO de desenho, estratégia 3.5b; origem: sem a data o anúncio não pode dizer a regra completa]. Em 662, o total é R$ 150,00 menos metade do excedente (4.3).
+2. **Texto:** 1 anúncio por grupo de cada vez, com a regra completa do 3º módulo e sem preço; nenhum texto cita a data de início sem a regra (seção 8.9). Os textos vêm do criativos-de-anuncio (versão 2 do arquivo -ext) e passam pelo qa antes do dia seguinte ao corte de cada turma.
+3. **333 e 68632:** a extensão para na véspera do módulo 1 presencial (26/03 e 09/04), que é a véspera do início, até a Ufape responder OU3. Enquanto OU3 estiver aberta, **só a -exta roda** e a -extb fica bloqueada. Com OU3, a diária é o saldo do canal dividido pelos dias que faltam até a véspera do 3º módulo (28/05 e 11/06), sem passar de R$ 150,00 [SUPOSIÇÃO de desenho, estratégia 3.5b], e a -extb sobe no início (27/03 e 10/04).
+4. **679, 68635 e 366:** a -exta pode subir sem o dia do 3º módulo, porque o texto cita só o mês da ficha ("junho de 2027"); a **-extb fica bloqueada sem o dia** (o texto não usa placeholder). Como a diária da extensão é o total dividido pelos dias até a véspera do 3º módulo, sem o dia ela segue sem valor [CONFIRMAR]: a -exta dessas três só sobe se o gestor aprovar por escrito a diária da fase sem mudar o total de R$ 150,00 [SUPOSIÇÃO de desenho; origem: a regra da versão 5 mandava não gastar a extensão sem a data, e a conta da diária depende dela]. No dia do início, se a -extb ainda estiver bloqueada, o humano pausa a -exta e a campanha fica sem anúncio de extensão no ar, sem gasto, até o dia entrar. **662:** as duas peças bloqueadas (ficha de 2026 e sem 3º módulo); o total é R$ 150,00 menos metade do excedente (4.3).
 5. **Disputa de público:** a extensão de março entra em abril e maio e concorre com turmas da mesma área; sem exclusão entre campanhas, e a analise-de-midia lê as turmas da mesma área lado a lado (gestor 12.9, condição 4).
-6. **Leitura de "até o 3º módulo":** até a véspera para a mídia [CONFIRMAR OU6]; pagamento de quem entra depois do corte [CONFIRMAR OU8].
-7. **Mínimo diário (EM14):** as diárias da extensão vão de R$ 1,41 a R$ 5,17. Se o Google Ads não aceitar a diária calculada [CONFIRMAR o mínimo aceito], os R$ 150,00 são concentrados nas últimas semanas antes da véspera do 3º módulo, com a menor diária aceita, sem mudar o total [SUPOSIÇÃO de desenho, estratégia 3.1 e EM14].
+6. **Leitura de "até o 3º módulo":** até a véspera para a mídia [CONFIRMAR OU6]; pagamento de quem entra depois do corte [CONFIRMAR OU8]. Se OU6 responder outra coisa, muda a redação de todos os textos (criativos ext v2, 1.2) e esta seção volta ao qa.
+7. **Mínimo diário (EM14):** as diárias da extensão vão de R$ 1,41 a R$ 5,17. Se o Google Ads não aceitar a diária calculada [CONFIRMAR o mínimo aceito], os R$ 150,00 são concentrados nas últimas semanas antes da véspera do 3º módulo, com a menor diária aceita, sem mudar o total [SUPOSIÇÃO de desenho, estratégia 3.1 e EM14]. A concentração cai quase toda na -extb.
 8. **Pausa total:** às 23h59 da véspera do 3º módulo (datas da seção 3, coluna "Fim da extensão"), ou antes se o gasto do ciclo da turma (Meta e Google) chegar a R$ 2.000,00; com exportação prévia e sem remover nada.
+
+**Extensão por turma: janelas, data de troca e situação** (início do catálogo, seção 2; 3º módulo da ficha; corte e janelas das seções 3 e 4.2; igual à tabela da seção 2 do criativos ext v2):
+
+| Turma | -exta roda de | até a véspera do início | Troca para -extb em (início; pedido humano) | -extb roda até (pausa total, 23h59) | Situação |
+|---|---|---|---|---|---|
+| 68615 | 19/02/2027 | 19/03/2027 | 20/03/2027 | 21/05/2027 | -exta e -extb liberadas para o qa |
+| 289 | 19/02/2027 | 19/03/2027 | 20/03/2027 | 14/05/2027 | -exta e -extb liberadas para o qa |
+| 333 | 26/02/2027 | 26/03/2027 | 27/03/2027, só com OU3 | 28/05/2027, só com OU3 | só -exta enquanto OU3 estiver aberta; pausa total em 26/03 |
+| 657 | 12/02/2027 | 12/03/2027 | 13/03/2027 | 21/05/2027 | liberadas para o qa; trava de subida U10 e PP7 |
+| 341 | 19/02/2027 | 19/03/2027 | 20/03/2027 | 30/04/2027 | liberadas para o qa; PP7; formato do módulo 3 [CONFIRMAR] |
+| 68635 | 12/03/2027 | 09/04/2027 | 10/04/2027, só com o dia do 3º módulo | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir (diária, item 4); -extb bloqueada sem o dia |
+| 68636 | 19/03/2027 | 16/04/2027 | 17/04/2027 (só no site; planilha sem data) [CONFIRMAR na planilha] | 18/06/2027 | liberadas para o qa, sem data de início nos textos (P3); a troca só ocorre com a data conferida |
+| 68617 | 19/03/2027 | 16/04/2027 | 17/04/2027 | 18/06/2027 | liberadas para o qa; URL com "/v/" a conferir; sem número de turma |
+| 68628 | 12/03/2027 | 09/04/2027 | 10/04/2027 | 25/06/2027 | liberadas para o qa; sem número de turma |
+| 68609 | 26/03/2027 | 23/04/2027 | 24/04/2027 | 25/06/2027 | liberadas para o qa |
+| 68632 | 12/03/2027 | 09/04/2027 | 10/04/2027, só com OU3 | 11/06/2027, só com OU3 | só -exta enquanto OU3 estiver aberta; presencial (nunca "semipresencial"); pausa total em 09/04 |
+| 679 | 05/03/2027 | 02/04/2027 | 03/04/2027 (planilha) | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir (P3 resolvido, sem data de início; diária, item 4); -extb bloqueada sem o dia |
+| 366 | 12/03/2027 | 09/04/2027 | 10/04/2027 (planilha; o site diz 24/04/2027, P4) [CONFIRMAR] | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir sem data de início (diária, item 4); troca só com a data conferida (P4); -extb bloqueada sem o dia |
+| 662 | 26/03/2027 | 23/04/2027 | 24/04/2027 (planilha; a página mostra 15/08/2026, P3) | [CONFIRMAR] (ficha com módulos de 2026) | -exta e -extb bloqueadas: ficha de 2026 e sem 3º módulo; só nome, campus e data |
 
 ---
 
@@ -259,7 +286,7 @@ Do gestor 12.9 e da estratégia v5 (3.1, 3.5b, 4.1, 7.2 e EM16). O Google roda a
 | Campo | Valor |
 |---|---|
 | Tipo e objetivo | Pesquisa; meta "Leads" (cadastro) |
-| Orçamento | Diário, na campanha, nos valores da seção 4; sem orçamento compartilhado; na extensão, a diária da coluna "Extensão" da seção 4.2, na mesma campanha |
+| Orçamento | Diário, na campanha, nos valores da seção 4; sem orçamento compartilhado; na extensão, a diária da coluna "Extensão" da seção 4.2, na mesma campanha, igual em -exta e -extb |
 | Trava de gasto | Limite de gasto da campanha no total do Google da turma (R$ 749,25 em março, R$ 723,75 em abril); a soma com a Meta é lida toda segunda contra R$ 2.000,00 [SUPOSIÇÃO de plataforma; conferir no editor: o recurso de limite de gasto da campanha] |
 | Lance | Maximizar conversões (lead), sem CPA desejado [SUPOSIÇÃO, AGP15]; troca para CPA desejado só com conversões registradas e com aprovação |
 | Rede | Só Pesquisa; parceiros de pesquisa e Display desligados |
@@ -294,7 +321,7 @@ Todas são sementes. **Volume e CPC de toda palavra-chave abaixo: [DADO NÃO FOR
 | 366 | "pós-graduação em fisioterapia veterinária" (frase, K4.6); "pós em reabilitação veterinária" (frase, K4.6); "pós em fisiatria veterinária" (frase, sec. A4); "pós em fisioterapia e reabilitação de cães e gatos" (frase, sec. A4) | "faculdade ufape fisioterapia veterinária" (frase, derivada); [faculdade ufape pós-graduação reabilitação veterinária] (exata, derivada) |
 | 662 | "pós-graduação em ortopedia veterinária" (frase, K4.4); [pós-graduação em ortopedia veterinária] (exata, K4.4); "pós em ortopedia veterinária são paulo" (frase, sec. A4); "especialização em ortopedia de cães e gatos" (frase, sec. A4) | "faculdade ufape ortopedia" (frase, derivada); [faculdade ufape pós-graduação ortopedia veterinária] (exata, derivada) |
 
-Notas: (a) K4.3 ("pós em cirurgia veterinária") e K3.3 ("pós-graduação em clínica médica de pequenos animais") são cabeças de termo de volume alto e disputa de agregadores; ficam fora das sementes de 68632 e 68635 [SUPOSIÇÃO de desenho: com diárias de R$ 6,71 a R$ 11,44 por dia, o gasto iria para termos de menor intenção]. (b) Nenhum termo traz marca de concorrente. (c) O relatório de termos de pesquisa é lido em toda revisão (seção 12); termo novo entra como semente só com aprovação. (d) Não existe grupo amplo nesta estrutura (só `__area` e `__marca`, em frase e exata): na extensão nenhuma palavra-chave entra, sai ou muda; o que muda é o anúncio (seção 8.9).
+Notas: (a) K4.3 ("pós em cirurgia veterinária") e K3.3 ("pós-graduação em clínica médica de pequenos animais") são cabeças de termo de volume alto e disputa de agregadores; ficam fora das sementes de 68632 e 68635 [SUPOSIÇÃO de desenho: com diárias de R$ 6,71 a R$ 11,44 por dia, o gasto iria para termos de menor intenção]. (b) Nenhum termo traz marca de concorrente. (c) O relatório de termos de pesquisa é lido em toda revisão (seção 12); termo novo entra como semente só com aprovação. (d) Não existe grupo amplo nesta estrutura (só `__area` e `__marca`, em frase e exata): na extensão nenhuma palavra-chave entra, sai ou muda, nem na troca de -exta para -extb; o que muda é o anúncio (seção 8.9).
 
 ---
 
@@ -334,15 +361,15 @@ Notas: (a) K4.3 ("pós em cirurgia veterinária") e K3.3 ("pós-graduação em c
 | 366 | ortopedia; fisioterapeuta [SUPOSIÇÃO: o público é de médicos veterinários, quem pode atuar é [CONFIRMAR]]; goiânia; goiás |
 | 662 | videocirurgia; goiânia; goiás |
 
-Regra de praça: campanha de São Paulo nega "goiânia" e "goiás"; campanha de Goiânia nega "são paulo". Termo de negativa novo que sair do relatório de termos não conta como mudança de estrutura [SUPOSIÇÃO de desenho]. As negativas valem igual na extensão.
+Regra de praça: campanha de São Paulo nega "goiânia" e "goiás"; campanha de Goiânia nega "são paulo". Termo de negativa novo que sair do relatório de termos não conta como mudança de estrutura [SUPOSIÇÃO de desenho]. As negativas valem igual na extensão, em -exta e em -extb.
 
 ---
 
-## 8. Anúncios responsivos (2 por grupo até o corte; 1 em 662; 1 por grupo na extensão)
+## 8. Anúncios responsivos (2 por grupo até o corte; 1 em 662; 1 por grupo na extensão, de cada vez)
 
 ### 8.1 Como são montados
 
-Cada turma tem dois textos de anúncio, **A (turma e campus)** e **B (formato e prática)**, copiados nos dois grupos **até o corte**. 13 turmas têm 4 anúncios por campanha; **662 tem só o texto A (2 anúncios, um por grupo) até a ficha ser corrigida** (decisão do qa, G5: A e B de 662 teriam os mesmos títulos e as mesmas descrições). Total até o corte: 54 anúncios. **No dia seguinte ao corte**, cada grupo passa a ter 1 anúncio -ext (seção 8.9): 28 anúncios -ext no total, 8 deles (679, 68635, 366 e 662) só com a data do 3º módulo.
+Cada turma tem dois textos de anúncio, **A (turma e campus)** e **B (formato e prática)**, copiados nos dois grupos **até o corte**. 13 turmas têm 4 anúncios por campanha; **662 tem só o texto A (2 anúncios, um por grupo) até a ficha ser corrigida** (decisão do qa, G5: A e B de 662 teriam os mesmos títulos e as mesmas descrições). Total até o corte: 54 anúncios. **No dia seguinte ao corte**, cada grupo passa a ter 1 anúncio **-exta**; **no dia do início da turma**, o -exta é pausado e entra 1 anúncio **-extb** por grupo (seção 8.9). Os anúncios da extensão são 56 (14 turmas x 2 grupos x 2 conjuntos): 28 -exta e 28 -extb, **42 liberados** (26 -exta e 16 -extb) e **14 bloqueados** (2 -exta de 662 e 12 -extb de 333, 68632, 68635, 679, 366 e 662). Nunca os dois conjuntos ativos juntos.
 
 | Anúncio (nome = utm_content) | Grupo | Texto | Fixações [SUPOSIÇÃO] |
 |---|---|---|---|
@@ -350,12 +377,14 @@ Cada turma tem dois textos de anúncio, **A (turma e campus)** e **B (formato e 
 | rsa-<código>-area-b_v1 | `__area` | B (não em 662) | igual |
 | rsa-<código>-marca-a_v1 | `__marca` | A | "Faculdade UFAPE" na posição 1; título da área na posição 2; descrição 1 fixada |
 | rsa-<código>-marca-b_v1 | `__marca` | B (não em 662) | igual |
-| rsa-<código>-area-ext_v1 | `__area` | -ext (seção 8.9), no lugar dos anúncios anteriores depois do corte | igual ao texto A, com a DS1 sem data |
-| rsa-<código>-marca-ext_v1 | `__marca` | -ext (seção 8.9), no lugar dos anúncios anteriores depois do corte | igual ao texto A, com a DS1 sem data |
+| rsa-<código>-area-exta_v1 | `__area` | -exta (seção 8.9), do dia seguinte ao corte até a véspera do início, no lugar dos anúncios do corte | título da área na 1; "Faculdade UFAPE" na 3; descrição 1 (DS1 sem data) na 1; descrição 2 (a regra) na 2 |
+| rsa-<código>-marca-exta_v1 | `__marca` | -exta (seção 8.9), idem | "Faculdade UFAPE" na 1; título da área na 2; descrição 1 na 1; descrição 2 na 2 |
+| rsa-<código>-area-extb_v1 | `__area` | -extb (seção 8.9), do início até a véspera do 3º módulo, no lugar dos -exta | igual ao -exta de `__area` |
+| rsa-<código>-marca-extb_v1 | `__marca` | -extb (seção 8.9), idem | igual ao -exta de `__marca` |
 
-Em 662 só existem `rsa-662-area-a_v1` e `rsa-662-marca-a_v1` até o corte; o texto B de 662 só entra em nova versão, com conteúdo liberado pela ficha corrigida.
+Em 662 só existem `rsa-662-area-a_v1` e `rsa-662-marca-a_v1` até o corte; o texto B de 662 só entra em nova versão, com conteúdo liberado pela ficha corrigida. Os -exta e -extb de 662 estão escritos, mas bloqueados (seção 8.9).
 
-Cada texto tem até 12 títulos e 4 descrições (o limite é 15 e 4 [SUPOSIÇÃO de plataforma; conferir no editor]). Quando o CPL da semana fechada passa do limite da seção 4.5, cada grupo fica só com o texto A [SUPOSIÇÃO de desenho: A é o texto de decisão, com campus e turma]. A descrição de nome completo fica fixada na posição 1 em todos: é ela que garante que "Pós-graduação em <área>" e o campus apareçam juntos.
+Cada texto tem até 12 títulos e 4 descrições (o limite é 15 e 4 [SUPOSIÇÃO de plataforma; conferir no editor]); os anúncios -exta e -extb têm 5 títulos e 2 descrições. Quando o CPL da semana fechada passa do limite da seção 4.5, cada grupo fica só com o texto A [SUPOSIÇÃO de desenho: A é o texto de decisão, com campus e turma]. A descrição de nome completo fica fixada na posição 1 em todos: é ela que garante que "Pós-graduação em <área>" e o campus apareçam juntos.
 
 ### 8.2 Títulos que valem para várias turmas (até 30 caracteres)
 
@@ -474,21 +503,61 @@ Nomes completos conferidos no catálogo, seção 2: o catálogo escreve "Pós Gr
 
 Nenhum texto do corte traz preço, parcela, matrícula, inscrição, bolsa, desconto, MEC, certificado, "últimas vagas", a data do 3º módulo (decisão 18) ou concorrente. "Para médicos veterinários" e "Para anestesistas já atuantes" repetem o público-alvo da página (não descrevem quem vê o anúncio). A frase DT (passagem e hotel) é a aprovada do AP8 do criativos v3 (1.2, r2), sem mudança, com 90 caracteres.
 
-### 8.9 Anúncio da extensão (-ext): 1 por grupo, do dia seguinte ao corte até a véspera do 3º módulo
+### 8.9 Anúncios da extensão: dois conjuntos em sequência, -exta e -extb (1 por grupo de cada vez)
 
-Encomenda da estratégia v5 (7.2, item 3) e EM16. No dia seguinte ao corte, o humano **pausa** (nunca remove) os anúncios do corte, que citam a data de início ou o mês da turma sem a regra completa, e ativa 1 anúncio -ext por grupo (`rsa-<código>-area-ext_v1` e `rsa-<código>-marca-ext_v1`), dentro da mesma campanha e do mesmo grupo, só se a turma tiver as condições da seção 4.6. Não existe grupo amplo na estrutura, então nenhum grupo é pausado e nenhuma palavra-chave muda (seção 6, nota d).
+Encomenda da estratégia v5 (7.2, item 3), EM16 e a resolução do CC1 pelo orquestrador (criativos ext v2, seção 2). **Os textos abaixo são os do criativos-de-anuncio (versão 2 do arquivo -ext, seção 3), copiados sem reescrever;** a regra do qa (P1) foi cumprida: a regra completa cabe numa única descrição de até 90 caracteres, fixada na posição 2, e nenhum título cita data sem a regra.
 
-**Regra do texto -ext:** a regra completa do 3º módulo (gestor 12.9, condição 2): início da turma, "matrícula até o 3º módulo", data do 3º módulo e que o time explica os módulos já dados; sem urgência com a data (decisão 18) e sem preço (U11). **Esta versão não escreve a descrição da regra:** a data do 3º módulo só está resolvida para 10 turmas (tabela do gestor 12.9), a reposição dos módulos segue [CONFIRMAR OU3] e "até o 3º módulo" como véspera segue [CONFIRMAR OU6]; escrever o texto aqui seria inventar. A descrição da regra vem da peça -ext do criativos-de-anuncio (25/01 para março e 25/02 para abril) e passa pelo qa antes do dia seguinte ao corte [CONFIRMAR NO CATÁLOGO para o texto]. Aqui ficam o encaixe, as regras e as cadeias que dependem só de texto já aprovado.
+**Sequência e troca** (a tabela por turma está na seção 4.6):
 
-**Montagem do -ext:**
-- **Títulos:** os do texto A sem os títulos 6 e 7 ("Início em dd/mm/aaaa" e "Turma de <mês> de 2027"), na ordem: 1 título da área; 2 C1; 3 "Campus <praça>"; 4 C2; 5 modalidade; 6 "<CH> h de carga horária"; 7 "<N> módulos"; 8 C3 (657: C3b); 9 C4; 10 título extra da turma (onde houver); 11 C5. 68632 com "Presencial" e "Cães e Gatos"; 68636, 679 e 366 como no texto A (sem data, com "<N> módulos presenciais" onde coube). **662:** só os títulos 1, 2, 3, 4, C4 e C5.
-- **Descrições (até 4):** DS1 sem data (tabela abaixo), fixada na posição 1; DC (DC657 em 657); DS2 (DS2p em 68632); e a descrição da regra completa (da peça -ext). **Sem DT** [SUPOSIÇÃO: a frase trata de comprar passagem antes de a turma ser confirmada, o que não cabe depois do corte; o qa confere]. **662:** DS1 sem data, D662b e a descrição da regra (a D662c cita a data e sai).
-- **Fixações:** as do texto A (área na posição 1 e "Faculdade UFAPE" na 3 em `__area`; marca na 1 e área na 2 em `__marca`; DS1 fixada na descrição 1).
-- **Nome e UTM:** `rsa-<código>-<grupo>-ext_v1` como utm_content; utm_campaign é o da campanha (seção 10).
-- **Recursos:** a frase de destaque "Início em dd/mm/aaaa" sai da campanha na extensão (seção 9).
+1. **Dia seguinte ao corte (troca para a extensão):** o humano **pausa** (nunca remove) os anúncios do corte, que citam a data de início ou o mês da turma sem a regra completa, e ativa o anúncio **-exta** de cada grupo (`rsa-<código>-area-exta_v1` e `rsa-<código>-marca-exta_v1`), só se a turma tiver as condições da seção 4.6. Os -exta e os -extb são criados antes, já pausados, e aprovados pelo qa.
+2. **Véspera do início:** último dia do -exta (o humano não precisa pausar às 23h59; a troca do dia seguinte faz o serviço, e o -exta nunca fica no ar depois do início).
+3. **Dia do início da turma:** o humano **pausa** os -exta e **ativa** os -extb (`rsa-<código>-area-extb_v1` e `rsa-<código>-marca-extb_v1`), na mesma campanha e no mesmo grupo, sem mudar diária, total, palavras-chave ou negativas. **Nunca os dois pares ativos juntos:** a conferência é ver, no mesmo dia, os -exta pausados e os -extb ativos (ou, onde a -extb está bloqueada, os dois pares pausados).
+4. **Véspera do 3º módulo, 23h59:** pausa total (seção 4.6, item 8).
+5. Não existe grupo amplo na estrutura, então nenhum grupo é pausado e nenhuma palavra-chave muda (seção 6, nota d).
+
+**Montagem, igual nas duas fases:**
+- **Títulos (5):** 1 título da área; 2 "Faculdade UFAPE"; 3, 4 e 5 conforme a fase (abaixo). Estes 5 títulos **substituem** os títulos herdados do texto A (que não cabem na extensão por citarem "Início em dd/mm/aaaa" ou o mês da turma); títulos herdados só voltam com aprovação do qa.
+  - **-exta:** 3 "Matrícula segue aberta" (22); 4 "Aberta até o 3º módulo" (22); 5 "Aulas em <data de início>" ou, sem data de início, "Aulas em abril de 2027" (22).
+  - **-extb:** 3 "Matrícula até o 3º módulo" (25); 4 "As aulas já começaram" (21); 5 "3º módulo em <data>" (26 a 28).
+- **Descrições (2):** descrição 1 = DS1 sem data (tabela abaixo, a mesma nas duas fases), **fixada na posição 1**; descrição 2 = **a regra completa da fase, fixada na posição 2** (tabela por turma), para a regra aparecer sempre que houver duas descrições. A DC, a DS2 e a DT do corte não entram. A DT (passagem e hotel) só poderia voltar como 3ª descrição da -exta, nunca da -extb, se o qa e o AGP20 mantiverem a frase na extensão [SUPOSIÇÃO: o criativos ext v2 apontou a possibilidade; a versão 5 a excluiu da extensão por supor peça pós-corte; padrão desta versão: sem DT, decisão do qa].
+- **Fixações:** em `__area`, título da área na posição 1 e "Faculdade UFAPE" na 3; em `__marca`, "Faculdade UFAPE" na 1 e título da área na 2; descrição 1 na posição 1 e descrição 2 na posição 2. Os títulos 3, 4 e 5 não são fixados: qualquer combinação deles é verdadeira [SUPOSIÇÃO de plataforma; conferir no editor].
+- **Nome e UTM:** `rsa-<código>-<grupo>-exta_v1` e `rsa-<código>-<grupo>-extb_v1` como utm_content; utm_campaign é o da campanha (seção 10).
+- **Recursos:** a frase de destaque "Início em dd/mm/aaaa" sai da campanha na extensão, nas duas fases (seção 9).
 - **Limite de volume:** 1 anúncio por grupo é o último degrau da escada (seção 4.5).
+- **662:** só nome, campus e data da planilha; nenhum texto de modalidade, CH, módulos, público ou docente; sem DT. Os textos estão prontos, com "[DATA]" no lugar do 3º módulo (15 caracteres de uma data de dois dias nas contagens; 5 a menos se for um dia só), e bloqueados.
 
-**DS1 sem data (a DS1 da tabela 8.6 menos " Início em dd/mm/aaaa.", 22 caracteres; contagem por subtração, recontar por script e no editor):**
+**Títulos e descrições por turma** (copiados do criativos ext v2, seção 3; caracteres entre parênteses; os títulos 2, 3 e 4 são os comuns acima; o 1 é o título da área):
+
+| Turma | Título 1 | -exta, título 5 | -exta, descrição 2 (regra, fixada na posição 2) | -extb, título 5 | -extb, descrição 2 (regra, fixada na posição 2) |
+|---|---|---|---|---|---|
+| 68615 | Patologia Clínica (17) | Aulas em 20/03/2027 (19) | As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 22 e 23/05/2027. (85) | 3º módulo em 22 e 23/05/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 22 e 23/05/2027. Fale com o time. (86) |
+| 289 | Cardiologia Veterinária (23) | Aulas em 20/03/2027 (19) | As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 15 e 16/05/2027. (85) | 3º módulo em 15 e 16/05/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 15 e 16/05/2027. Fale com o time. (86) |
+| 333 (-extb bloqueada por OU3) | Citopatologia Veterinária (25) | Aulas em 27/03/2027 (19) | As aulas começam em 27/03/2027. Matrícula aberta até o 3º módulo, em 29 e 30/05/2027. (85) | 3º módulo em 29 e 30/05/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 29 e 30/05/2027. Fale com o time. (86) |
+| 657 | Anestesiologia Avançada (23) | Aulas em 13/03/2027 (19) | As aulas começam em 13/03/2027. Matrícula aberta até o 3º módulo, em 22 e 23/05/2027. (85) | 3º módulo em 22 e 23/05/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 22 e 23/05/2027. Fale com o time. (86) |
+| 341 | Medicina Interna Equina (23) | Aulas em 20/03/2027 (19) | As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 01 e 02/05/2027. (85) | 3º módulo em 01 e 02/05/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 01 e 02/05/2027. Fale com o time. (86) |
+| 68635 (-extb bloqueada: dia do 3º módulo) | Clínica Médica e Emergência (27, forma curta por limite) | Aulas em 10/04/2027 (19) | As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em junho de 2027. (83) | 3º módulo em junho de 2027 (26) | As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time. (84) |
+| 68636 | Pneumologia Veterinária (23) | Aulas em abril de 2027 (22) | As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em 19 e 20/06/2027. (88) | 3º módulo em 19 e 20/06/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 19 e 20/06/2027. Fale com o time. (86) |
+| 68617 | Endocrinologia (14, forma curta por limite) | Aulas em 17/04/2027 (19) | As aulas começam em 17/04/2027. Matrícula aberta até o 3º módulo, em 19 e 20/06/2027. (85) | 3º módulo em 19 e 20/06/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 19 e 20/06/2027. Fale com o time. (86) |
+| 68628 | Oncologia Veterinária (21) | Aulas em 10/04/2027 (19) | As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em 26 e 27/06/2027. (85) | 3º módulo em 26 e 27/06/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 26 e 27/06/2027. Fale com o time. (86) |
+| 68609 | Anestesiologia Veterinária (26) | Aulas em 24/04/2027 (19) | As aulas começam em 24/04/2027. Matrícula aberta até o 3º módulo, em 26 e 27/06/2027. (85) | 3º módulo em 26 e 27/06/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 26 e 27/06/2027. Fale com o time. (86) |
+| 68632 (-extb bloqueada por OU3) | Clínica Cirúrgica (17, forma curta por limite) | Aulas em 10/04/2027 (19) | As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em 12 e 13/06/2027. (85) | 3º módulo em 12 e 13/06/2027 (28) | As aulas já começaram. Matrícula até o 3º módulo, em 12 e 13/06/2027. Fale com o time. (86) |
+| 679 (-extb bloqueada: dia do 3º módulo) | Infectologia Veterinária (24) | Aulas em abril de 2027 (22) | As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em junho de 2027. (86) | 3º módulo em junho de 2027 (26) | As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time. (84) |
+| 366 (-extb bloqueada: dia do 3º módulo; data de início só depois de P4) | Reabilitação Veterinária (24, forma curta por limite) | Aulas em abril de 2027 (22) | As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em junho de 2027. (86) | 3º módulo em junho de 2027 (26) | As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time. (84) |
+| 662 (-exta e -extb bloqueadas: ficha de 2026 e sem 3º módulo) | Ortopedia Veterinária (21) | Aulas em 24/04/2027 (19) | As aulas começam em 24/04/2027. Matrícula aberta até o 3º módulo, em [DATA]. (85, contada com uma data de dois dias no lugar de "[DATA]") | Campus São Paulo (16; o título 5 é o campus no lugar da data) | As aulas já começaram. Matrícula até o 3º módulo, em [DATA]. Fale com o time. (86, contada com uma data de dois dias no lugar de "[DATA]") |
+
+**Bloqueios por turma** (como no criativos ext v2; nada sobe com bloqueio aberto):
+
+| Turma | -exta | -extb |
+|---|---|---|
+| 68615, 289, 657, 341, 68636, 68617, 68628, 68609 | liberada para o qa (travas gerais e da seção 11) | liberada para o qa |
+| 333 | liberada | **bloqueada por OU3** (só sobe se OU3 for respondida e a extensão correr até 28/05) |
+| 68632 | liberada | **bloqueada por OU3** (só sobe se OU3 for respondida e a extensão correr até 11/06) |
+| 68635, 679, 366 | liberada (o texto cita só o mês do 3º módulo; diária conforme 4.6, item 4) | **bloqueada sem o dia do 3º módulo** [CONFIRMAR NO CATÁLOGO] |
+| 662 | **bloqueada** (ficha de 2026, P3, e sem 3º módulo) | **bloqueada** |
+
+Totais: 26 -exta e 16 -extb liberados para o qa (42); 2 -exta e 12 -extb bloqueados (14).
+
+**DS1 sem data (descrição 1, fixada na posição 1, igual em -exta e -extb; é a DS1 da tabela 8.6 menos " Início em dd/mm/aaaa.", 22 caracteres; contagens recontadas pelo qa na rodada d):**
 
 | Turma | DS1 sem data | Caracteres |
 |---|---|---|
@@ -507,6 +576,8 @@ Encomenda da estratégia v5 (7.2, item 3) e EM16. No dia seguinte ao corte, o hu
 | 366 | Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, campus São Paulo. | 86 (idem; perto do limite) |
 | 662 | Pós-graduação em Ortopedia Veterinária, campus São Paulo. | 57 |
 
+**Pontos de atenção de contagem** (criativos ext v2, seção 4): maior título 28 (título 5 da -extb, com data de dois dias); maior descrição 2, 88 (68636, -exta); maior DS1, 86 (366). A contagem do criativos foi por soma de fragmentos, sem script; recontar por script e no editor antes de subir (S9).
+
 ---
 
 ## 9. Recursos (extensões)
@@ -515,7 +586,7 @@ Nenhum recurso mostra preço, parcela, matrícula ou valor de inscrição (decis
 
 | Recurso | Conteúdo | Condição |
 |---|---|---|
-| Frases de destaque (até 25) | "Faculdade UFAPE" (15); "Campus São Paulo" (16) ou "Campus Goiânia" (14); "Semipresencial" (14) ou "Presencial" (10); "Início em dd/mm/aaaa" (20, onde há data); "<CH> h de carga horária" (22, menos 662); "Módulos presenciais" (19, ou "Aulas presenciais" (17) em 68632); "Cronograma na página" (20); "Corpo docente na página" (23, só onde C7 vale) | todas as campanhas; 662 só com marca, campus, data e cronograma; **na extensão, "Início em dd/mm/aaaa" sai (cita a data sem a regra completa, EM16) e as demais ficam** |
+| Frases de destaque (até 25) | "Faculdade UFAPE" (15); "Campus São Paulo" (16) ou "Campus Goiânia" (14); "Semipresencial" (14) ou "Presencial" (10); "Início em dd/mm/aaaa" (20, onde há data); "<CH> h de carga horária" (22, menos 662); "Módulos presenciais" (19, ou "Aulas presenciais" (17) em 68632); "Cronograma na página" (20); "Corpo docente na página" (23, só onde C7 vale) | todas as campanhas; 662 só com marca, campus, data e cronograma; **na extensão (-exta e -extb), "Início em dd/mm/aaaa" sai (cita a data sem a regra completa, EM16) e as demais ficam** |
 | Snippet estruturado | cabeçalho "Cursos" [SUPOSIÇÃO de cabeçalho disponível em português]; de 3 a 10 valores de até 25 caracteres [SUPOSIÇÃO de plataforma; conferir no editor] | só onde o programa está na ficha; nas demais, sem snippet [CONFIRMAR na ficha] |
 | Sitelinks (até 25) | "Calendário dos módulos" (22); "Corpo docente" (13); "Como funciona" (13); "Todas as pós-graduações" (23) | só com URL distinta da página da turma e aceita pelo editor [CONFIRMAR]; sem URL própria, não sobe (o anúncio vale sem sitelink) |
 | Chamada | não | atendimento instável em 22/10 e destino é a página, nunca WhatsApp |
@@ -543,7 +614,9 @@ Valores de snippet (módulos da ficha como estão nas peças aprovadas do criati
 - **Sufixo de URL final**, no nível do anúncio: `utm_source=google&utm_medium=cpc&utm_campaign=<nome da campanha>&utm_content=<nome do anúncio>&utm_term={keyword}` (D11 e D12). Minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal em UTM. A chave com área curta e o nome do anúncio esperam a ratificação do cmo (seção 1, nota sobre o D12).
 - **Exemplo (68615, `__area`, texto A):** `utm_source=google&utm_medium=cpc&utm_campaign=pos_68615-patclin_google_lead_busca_202612&utm_content=rsa-68615-area-a_v1&utm_term={keyword}`.
 - **Exemplo (68632, `__marca`, texto B):** `utm_source=google&utm_medium=cpc&utm_campaign=pos_68632-cirurgia-go_google_lead_busca_202701&utm_content=rsa-68632-marca-b_v1&utm_term={keyword}`.
-- **Exemplo da extensão (68615, `__area`, anúncio -ext):** `utm_source=google&utm_medium=cpc&utm_campaign=pos_68615-patclin_google_lead_busca_202612&utm_content=rsa-68615-area-ext_v1&utm_term={keyword}`. A extensão não cria campanha nova: o utm_campaign é o mesmo e só o utm_content leva o sufixo -ext [SUPOSIÇÃO de desenho, estratégia 4.2; origem: manter o histórico e a leitura por turma].
+- **Exemplo da extensão, antes do início (68615, `__area`, anúncio -exta):** `utm_source=google&utm_medium=cpc&utm_campaign=pos_68615-patclin_google_lead_busca_202612&utm_content=rsa-68615-area-exta_v1&utm_term={keyword}`.
+- **Exemplo da extensão, a partir do início (68615, `__marca`, anúncio -extb):** `utm_source=google&utm_medium=cpc&utm_campaign=pos_68615-patclin_google_lead_busca_202612&utm_content=rsa-68615-marca-extb_v1&utm_term={keyword}`.
+- A extensão não cria campanha nova: o utm_campaign é o mesmo e só o utm_content leva o sufixo -exta ou -extb [SUPOSIÇÃO de desenho, estratégia 4.2; origem: manter o histórico e a leitura por turma]. A analise-de-midia lê a extensão pelo padrão `rsa-<código>-<grupo>-ext[ab]_v1` e compara as duas fases pela mesma diária.
 - **Anúncios já no ar** (289 e 662, se tiverem busca) não são renomeados; a análise lê por tabela de correspondência (D12).
 - **Conversões:**
 
@@ -574,9 +647,10 @@ Os dois pagamentos são lidos por turma e somados no CRM (só números somados, 
 | 289 | Teto de R$ 2.000,00; limite de R$ 500,00 da campanha atual até 06/12; diárias recalculadas em 30/11; excedente sobre R$ 425,00 sai da manutenção | analise-de-midia e gestor | seção 4.3 |
 | 68615 e 333 | **PP6:** motivo da pausa anterior conhecido, meta escrita, criativos aprovados e página sem pendência | gestor e qa | - |
 | 68632 | Nunca "semipresencial" | - | texto e negativa já cuidam disso |
-| **Extensão, todas** | só sobe se a turma não tiver 15 matrículas nem lotado [CONFIRMAR vagas]; o texto -ext (regra completa) precisa estar entregue pelo criativos-de-anuncio e aprovado pelo qa; OU6 (véspera) [CONFIRMAR] | gestor; criativos-de-anuncio; Ufape | os anúncios do corte são pausados e a campanha não gasta além do corte; nada de extensão sem texto aprovado |
-| **333 e 68632 (extensão)** | módulo 1 presencial: a extensão para na véspera dele (26/03 e 09/04) até OU3 | Ufape | pausa total em 26/03 e 09/04 |
-| **679, 68635, 366 e 662 (extensão)** | sem a data do 3º módulo na ficha; a extensão não sobe e os R$ 150,00 não são gastos | Ufape (data) e gestor | só até o corte; em 662, 4.3 define o valor |
+| **Extensão, todas** | só sobe se a turma não tiver 15 matrículas nem lotado [CONFIRMAR vagas]; os textos -exta e -extb (criativos ext v2) precisam ser aprovados pelo qa; OU6 (véspera) [CONFIRMAR]; **a troca de -exta para -extb é pedido humano no dia do início, nunca com os dois pares ativos** | gestor; qa; Ufape | os anúncios do corte são pausados e a campanha não gasta além do corte; nada de extensão sem texto aprovado |
+| **333 e 68632 (extensão)** | módulo 1 presencial: a extensão para na véspera dele (26/03 e 09/04) até OU3; **só a -exta roda, a -extb fica bloqueada** | Ufape | pausa total em 26/03 e 09/04 |
+| **68635, 679 e 366 (extensão)** | **-extb bloqueada sem o dia do 3º módulo na ficha**; a -exta pode subir (texto só com o mês), mas a diária da extensão depende do dia (seção 4.6, item 4) e os R$ 150,00 não são gastos sem diária aprovada | Ufape (data) e gestor | a -exta só com a diária aprovada; a campanha sem anúncio de extensão no dia do início, se o dia não entrou |
+| **662 (extensão)** | **-exta e -extb bloqueadas:** ficha de 2026 (P3) e sem 3º módulo; os R$ 150,00 não são gastos; em 662, 4.3 define o valor | Ufape (ficha e data) e gestor | só até o corte |
 
 Também seguem [CONFIRMAR]: páginas que dizem turma mínima de 20 (a decisão 11 fixa 15; nenhum texto cita o número); política de privacidade e finalidade do formulário em cada página.
 
@@ -595,8 +669,9 @@ Também seguem [CONFIRMAR]: páginas que dizem turma mínima de 20 (a decisão 1
 | Aviso ao cmo | CPL acima de R$ 18,00 por 2 semanas fechadas |
 | Teto da turma | gasto acumulado do ciclo da turma (Meta e Google) em R$ 2.000,00, ou fim da extensão (23h59 da véspera do 3º módulo): pedido de pausa de todas as campanhas da turma (EM16, AGP24). O dia seguinte ao corte é a troca para a extensão (AGP25), não a pausa |
 | Lance | troca para CPA desejado só com conversões registradas e com aprovação |
+| Leitura da sequência -exta e -extb | a leitura de cada fase é mensal e separada pelo sufixo do utm_content; com R$ 150,00 por turma e a mesma diária nas duas, não há volume para eleger vencedor entre -exta e -extb: elas são a mesma peça em dois momentos, não um teste |
 
-**Riscos registrados (sem número observado):** (1) com diária de R$ 1,41 a R$ 18,21 e CPC [DADO NÃO FORNECIDO], a campanha pode entregar poucos cliques; 2 grupos com 2 anúncios cada fragmentam esse volume até o corte, e a escada da seção 4.5 é a resposta do plano. (2) A estratégia "Maximizar conversões" com poucos leads pode demorar a aprender [SUPOSIÇÃO]. (3) Termos genéricos de alta disputa (cabeças de termo) ficaram fora das sementes de propósito. (4) Na extensão a diária é de R$ 1,41 a R$ 5,17: pode ficar abaixo do mínimo que o Google Ads aceita [CONFIRMAR no editor]; a resposta é a concentração nas últimas semanas (4.6, item 7). (5) A extensão de março roda em abril e maio e concorre com turmas da mesma área; sem exclusão entre campanhas, com leitura lado a lado pela analise-de-midia.
+**Riscos registrados (sem número observado):** (1) com diária de R$ 1,41 a R$ 18,21 e CPC [DADO NÃO FORNECIDO], a campanha pode entregar poucos cliques; 2 grupos com 2 anúncios cada fragmentam esse volume até o corte, e a escada da seção 4.5 é a resposta do plano. (2) A estratégia "Maximizar conversões" com poucos leads pode demorar a aprender [SUPOSIÇÃO]. (3) Termos genéricos de alta disputa (cabeças de termo) ficaram fora das sementes de propósito. (4) Na extensão a diária é de R$ 1,41 a R$ 5,17: pode ficar abaixo do mínimo que o Google Ads aceita [CONFIRMAR no editor]; a resposta é a concentração nas últimas semanas (4.6, item 7). (5) A extensão de março roda em abril e maio e concorre com turmas da mesma área; sem exclusão entre campanhas, com leitura lado a lado pela analise-de-midia. (6) **Troca no dia do início:** se o humano esquecer de pausar o -exta, o anúncio diz "as aulas começam em <data>" depois do início, o que é falso; por isso a troca tem item próprio no calendário e no checklist (S15) e o qa confere na primeira segunda-feira depois de cada início.
 
 ---
 
@@ -613,16 +688,23 @@ Também seguem [CONFIRMAR]: páginas que dizem turma mínima de 20 (a decisão 1
 | 30/12 | Estrutura de abril pronta para aprovação; diárias de 662 recalculadas | abril; 662 |
 | 04/01 | Conversão de março: R$ 8,40 (68615, 289, 341), R$ 7,29 (333), R$ 9,91 (657) | março |
 | 06/01 | Sobe abril, lote 1 (68635, 68636, 68617, 68628, 68609, 68632); lote 2 (679, 366, 662) só com a trava resolvida; aquecimento de R$ 6,71 por dia | abril |
-| 25/01 | Conversão de abril (seção 4.2); peças -ext de março entregues pelo criativos-de-anuncio | abril; março |
-| 12/02 | 657: troca para a extensão (pausa dos anúncios do corte, anúncio -ext, R$ 1,51 por dia) | 657 |
-| 19/02 | 68615, 289 e 341: troca para a extensão (R$ 1,63, R$ 1,76 e R$ 2,11) | março |
-| 25/02 | Peças -ext de abril entregues pelo criativos-de-anuncio | abril |
-| 26/02 | 333: troca para a extensão (R$ 5,17, até 26/03; com OU3, saldo até 28/05) | 333 |
-| 05/03 | 679: troca para a extensão, só com a data do 3º módulo | 679 |
-| 12/03 | 68628 (R$ 1,41) e 68632 (R$ 5,17, até 09/04; com OU3, até 11/06): troca para a extensão; 68635 e 366, só com a data do 3º módulo | abril |
-| 19/03 | 68617 e 68636: troca para a extensão (R$ 1,63) | abril |
-| 26/03 | 68609: troca para a extensão (R$ 1,63); 333: pausa total até OU3; 662: troca para a extensão, só com a data do 3º módulo | abril; 333 |
-| 09/04 | 68632: pausa total até OU3 | 68632 |
+| 25/01 | Conversão de abril (seção 4.2); textos -exta e -extb de março aprovados pelo qa e anúncios -exta e -extb de março criados já pausados | abril; março |
+| 12/02 | 657: troca para a extensão (pausa dos anúncios do corte, ativa os -exta, R$ 1,51 por dia) | 657 |
+| 19/02 | 68615, 289 e 341: troca para a extensão com os -exta (R$ 1,63, R$ 1,76 e R$ 2,11) | março |
+| 25/02 | Textos -exta e -extb de abril aprovados pelo qa e anúncios -exta e -extb de abril criados já pausados | abril |
+| 26/02 | 333: troca para a extensão com os -exta (R$ 5,17, até 26/03; com OU3, saldo até 28/05) | 333 |
+| 05/03 | 679: troca para a extensão com a -exta, só com a diária aprovada (item 4 da seção 4.6) | 679 |
+| 12/03 | 68628 (R$ 1,41) e 68632 (R$ 5,17, até 09/04; com OU3, até 11/06): troca para a extensão com os -exta; 68635 e 366, só com a diária aprovada (item 4 da seção 4.6) | abril |
+| **13/03** | **657: início da turma. Pausa os -exta e ativa os -extb (mesma diária)** | 657 |
+| 19/03 | 68617 e 68636: troca para a extensão com os -exta (R$ 1,63) | abril |
+| **20/03** | **68615, 289 e 341: início das turmas. Pausa os -exta e ativa os -extb (mesma diária)** | março |
+| 26/03 | 68609: troca para a extensão com os -exta (R$ 1,63); 333: pausa total até OU3 (véspera do início); 662: troca para a extensão, só com a data do 3º módulo e a ficha corrigida | abril; 333 |
+| **27/03** | **333: início da turma. Sem troca enquanto OU3 estiver aberta (a campanha já foi pausada em 26/03); com OU3, ativa os -extb** | 333 |
+| **03/04** | **679: início da turma. Pausa a -exta; ativa a -extb só se o dia do 3º módulo estiver na ficha; senão a extensão fica sem anúncio e sem gasto** | 679 |
+| 09/04 | 68632: pausa total até OU3 (véspera do início) | 68632 |
+| **10/04** | **68628: início da turma; pausa os -exta e ativa os -extb. 68632: ativa os -extb só com OU3. 68635 e 366: pausa a -exta; ativa a -extb só com o dia do 3º módulo (366 também só com a data de início conferida, P4)** | abril |
+| **17/04** | **68617 e 68636: início das turmas; pausa os -exta e ativa os -extb (68636 só com a data conferida na planilha)** | abril |
+| **24/04** | **68609: início da turma; pausa os -exta e ativa os -extb. 662: só se estiver desbloqueada** | 68609; 662 |
 | 30/04 | 341: pausa total (fim da extensão) | 341 |
 | 14/05 | 289: pausa total | 289 |
 | 21/05 | 657 e 68615: pausa total | março |
@@ -631,7 +713,7 @@ Também seguem [CONFIRMAR]: páginas que dizem turma mínima de 20 (a decisão 1
 | 18/06 | 68617 e 68636: pausa total | abril |
 | 25/06 | 68628 e 68609: pausa total | abril |
 
-A troca para a extensão é feita na data indicada (dia seguinte ao corte) e toda pausa total é às 23h59 da data indicada (véspera do 3º módulo), com exportação prévia, e antes se o gasto do ciclo da turma chegar a R$ 2.000,00. Datas de corte e de 3º módulo são [SUPOSIÇÃO] ou [CONFIRMAR] até as fichas e a Ufape confirmarem; mudança vira nova versão antes da subida. As datas seguem a tabela 6.1 da estratégia v5.
+A troca para a extensão é feita na data indicada (dia seguinte ao corte), a troca de -exta para -extb é feita no dia do início da turma (linhas em negrito) e toda pausa total é às 23h59 da data indicada (véspera do 3º módulo), com exportação prévia, e antes se o gasto do ciclo da turma chegar a R$ 2.000,00. Datas de corte, de início e de 3º módulo são [SUPOSIÇÃO] ou [CONFIRMAR] até as fichas e a Ufape confirmarem; mudança vira nova versão antes da subida (a troca para a -extb acompanha a data de início). As datas seguem a tabela 6.1 da estratégia v5 e a seção 2 do criativos ext v2.
 
 ---
 
@@ -643,16 +725,17 @@ A troca para a extensão é feita na data indicada (dia seguinte ao corte) e tod
 | S2 | Tag do Google e conversão de lead disparando na página de destino; inscrição paga e 1ª mensalidade como conversões secundárias; marcação automática ligada (teste de 30/10) |
 | S3 | Rede só de Pesquisa; parceiros, Display, Performance Max e YouTube fora |
 | S4 | Localização "presença ou interesse" nos locais da seção 3; idioma português |
-| S5 | Nomes de campanha, grupo e anúncio e sufixo de UTM como nas seções 3, 8 e 10; resposta do cmo sobre a chave com área curta registrada |
+| S5 | Nomes de campanha, grupo e anúncio e sufixo de UTM como nas seções 3, 8 e 10 (inclusive `-exta_v1` e `-extb_v1`); resposta do cmo sobre a chave com área curta registrada |
 | S6 | Página de destino coerente e sem a trava da seção 11; URL de 68617 e de 662 conferidas; **página com a frase "CERTIFICADO PELO MEC" só com decisão registrada da pessoa do marketing ou página corrigida** |
 | S7 | Orçamento diário nos valores da seção 4 (4.2 por turma), arredondado para baixo; a soma da turma conferida na 4.1b; 289 e 662 com o saldo recalculado e o teto de R$ 2.000,00 respeitado |
-| S8 | Dados de curso conferidos na ficha no dia da montagem (data, campus, modalidade, CH, módulos, contagem de presenciais) |
-| S9 | Títulos e descrições aprovados pelo qa (conformidade) e recontados no editor, em especial DT (90), DS1 de 68632 (89) e 366 (86) e as DS1 sem data da 8.9; fixações aplicadas |
+| S8 | Dados de curso conferidos na ficha no dia da montagem (data, campus, modalidade, CH, módulos, contagem de presenciais, data do 3º módulo) |
+| S9 | Títulos e descrições aprovados pelo qa (conformidade) e recontados no editor, em especial DT (90), DS1 de 68632 (89) e 366 (86), as DS1 sem data da 8.9 e **os títulos e as descrições -exta e -extb da 8.9 (maior título 28, maior descrição 88)**; fixações aplicadas |
 | S10 | Negativas gerais, cruzadas e de praça aplicadas antes do primeiro dia; "graduação" só como exata |
 | S11 | Recursos: frases de destaque (sem "Início em dd/mm/aaaa" na extensão); snippets só onde há programa; sitelinks só com URL própria; sem chamada, sem formulário, sem preço |
 | S12 | Sem término automático; no dia seguinte ao corte, troca para a extensão (AGP25); pedido de pausa total (AGP24) na véspera do 3º módulo ou ao teto; exportação antes de qualquer pausa |
 | S13 | Registro de quem montou, revisou e aprovou |
-| S14 | Extensão: anúncios -ext criados já pausados e aprovados pelo qa antes do dia seguinte ao corte; condições da seção 4.6 conferidas (matrículas, vagas, data do 3º módulo, OU3 em 333 e 68632); trava de gasto da campanha no total do Google da turma |
+| S14 | Extensão: anúncios -exta e -extb criados já pausados e aprovados pelo qa antes do dia seguinte ao corte; condições da seção 4.6 conferidas (matrículas, vagas, data do 3º módulo, OU3 em 333 e 68632); trava de gasto da campanha no total do Google da turma; **os 14 anúncios bloqueados (2 -exta de 662 e 12 -extb de 333, 68632, 68635, 679, 366 e 662) criados sem ativação e marcados como bloqueados** |
+| S15 | **Troca no dia do início (por turma):** os -exta pausados e os -extb ativos no mesmo dia, com exportação prévia; nunca os dois pares ativos; diária igual à da extensão; onde a -extb está bloqueada, os dois pares pausados e o registro do motivo; conferência do qa na primeira segunda-feira depois do início |
 
 Pausa (todas): exportar a campanha (grupos, palavras-chave, anúncios, recursos); pausar, nunca remover; conferir gasto zero no dia seguinte; registrar data, hora e motivo; desfazer reativando.
 
@@ -670,14 +753,14 @@ Os pedidos AGP1 a AGP11 da versão 2 seguem na seção 18 e ficam suspensos (dec
 | AGP15 | Lance "Maximizar conversões" (lead) sem CPA desejado | sem histórico de CPC na conta | sem verba nova | aprendizado sem teto errado | trocar a estratégia (reinicia o aprendizado) | 30/11 |
 | AGP16 | Só Rede de Pesquisa, sem parceiros, sem Display, sem Performance Max e sem YouTube; sem lance em concorrente | controle de qualidade do tráfego; encomenda do gestor | sem verba nova | gasto só na busca | ligar parceiros (não recomendado) | 30/11 |
 | AGP17 | Negativas gerais, cruzadas e de praça da seção 7, inclusive "prova de bolsa", "bolsa", "ead" e "título de especialista" | evitar disputa interna e termo que a peça não atende | sem verba | menos gasto fora da intenção | retirar a negativa | 30/11 |
-| AGP18 | Fixações: título da área (posição 1 em `__area`), "Faculdade UFAPE" (posição 3 em `__area`; posição 1 em `__marca`) e a descrição de nome completo na posição 1 | nome completo do catálogo, campus e marca sempre visíveis; as formas curtas de título só valem com ela | sem verba | conformidade de nome e homonímia | soltar as fixações (e tirar as formas curtas dos títulos) | 30/11 |
+| AGP18 | Fixações: título da área (posição 1 em `__area`), "Faculdade UFAPE" (posição 3 em `__area`; posição 1 em `__marca`) e a descrição de nome completo na posição 1; **na extensão, também a descrição da regra na posição 2** | nome completo do catálogo, campus e marca sempre visíveis; as formas curtas de título só valem com ela; a regra completa aparece em todo anúncio -exta e -extb (P1 do qa) | sem verba | conformidade de nome e homonímia e regra sempre visível | soltar as fixações (e tirar as formas curtas dos títulos) | 30/11 |
 | AGP19 | Conversões: lead primária; inscrição paga e 1ª mensalidade secundárias; importação offline do CRM só com P15 e base legal | EM11; funil de duas etapas medido por turma | sem verba | leitura do custo por inscrição e por matrícula | desativar a conversão secundária | 30/10 (teste) |
-| AGP20 | Frase de transparência **aprovada do AP8, sem mudança** ("A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.", 90 caracteres) no texto A (menos 662); fora do anúncio -ext | regra da linha e pilar de condições claras; mesma aprovação do AP8 do criativos v3 | sem verba | transparência sem número de turma mínima | tirar a descrição DT | 30/11 |
+| AGP20 | Frase de transparência **aprovada do AP8, sem mudança** ("A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.", 90 caracteres) no texto A (menos 662); fora da -extb; na -exta só como 3ª descrição opcional, se o qa mantiver [SUPOSIÇÃO, criativos ext v2] | regra da linha e pilar de condições claras; mesma aprovação do AP8 do criativos v3 | sem verba | transparência sem número de turma mínima | tirar a descrição DT | 30/11 |
 | AGP21 | Recursos: frases de destaque e snippets onde há programa já; sitelinks só com URL própria; sem chamada, sem formulário, sem preço | URL distinta e atendimento instável | sem verba | anúncio mais completo sem destino falso | ativar depois | 30/11 |
 | AGP22 | Liberar as turmas com trava só quando a trava da seção 11 estiver resolvida: 679, 68636 e 662 (P3, liberação pela pessoa do marketing com ciência do cmo), 366 (P4), 657 (U10 e PP7), 341 (PP7 e PR7), 68617 (URL); **e as 14 páginas com a frase "CERTIFICADO PELO MEC", que só recebem a campanha com decisão registrada da pessoa do marketing ou com a página corrigida (igual ao S8 do anuncios-meta)** | página que não entrega o que o anúncio promete bloqueia a peça (conformidade) | a mesma verba de cada turma, sem verba nova | nenhum clique pago para página errada ou com a frase de certificação sem decisão | pausar a campanha | 30/11; 30/12 |
 | AGP23 | Localização "presença ou interesse": estado de SP para as turmas de São Paulo; GO e DF para 289, 68609 e 68632 | EM6; sem dado de procedência | sem custo | menos gasto fora do público provável | ampliar a região | 30/11 |
 | AGP24 | Pausa total da campanha de Busca de cada turma às 23h59 da véspera do 3º módulo (26/03 em 333 e 09/04 em 68632 até OU3; 30/04, 14/05, 21/05, 18/06 e 25/06 nas demais com data; 679, 68635, 366 e 662 quando a data existir), ou antes se o gasto do ciclo da turma (Meta e Google) chegar a R$ 2.000,00 (EM16) | fim do ciclo e teto do CEO (decisão 15) | sem gasto novo | nenhum gasto depois da véspera do 3º módulo nem acima da verba | reativar só com verba nova aprovada | datas da seção 4.2 |
-| AGP25 | Extensão (EM16 e encomenda da estratégia v5): no dia seguinte ao corte (12/02, 19/02, 26/02, 05/03, 12/03, 19/03 e 26/03), pausar os anúncios do corte e ativar 1 anúncio -ext por grupo, com a regra completa do 3º módulo, na mesma campanha e com a diária da coluna "Extensão" da seção 4.2; só se a turma não tiver 15 matrículas nem lotado; 333 e 68632 até a véspera do módulo presencial (OU3); 679, 68635, 366 e 662 só com a data do 3º módulo. Texto -ext do criativos-de-anuncio, aprovado pelo qa | decisão 18 (matrícula até o 3º módulo) e gestor 12.9; captação de quem já conhece a turma até o último dia em que pode entrar | R$ 150,00 por turma no Google (até R$ 2.100,00 nas 14, se todas subirem), dentro dos R$ 2.000,00 de cada turma | leads de quem ainda pode entrar, sem público frio e sem conceito novo | pausar o anúncio -ext e voltar à pausa no dia seguinte ao corte | 25/01 (texto de março); 25/02 (texto de abril); datas da seção 4.2 |
+| AGP25 | **Extensão em dois conjuntos de anúncio em sequência (EM16, encomenda da estratégia v5 e CC1 resolvido).** (a) **No dia seguinte ao corte** (12/02, 19/02, 26/02, 05/03, 12/03, 19/03 e 26/03): pausar os anúncios do corte e ativar 1 anúncio **-exta** por grupo (`rsa-<código>-area-exta_v1` e `rsa-<código>-marca-exta_v1`), com a regra completa do 3º módulo e a data de início, na mesma campanha e com a diária da coluna "Extensão" da seção 4.2. (b) **No dia do início da turma** (13/03, 20/03, 27/03, 03/04, 10/04, 17/04 e 24/04, seção 4.6): pausar os -exta e ativar 1 anúncio **-extb** por grupo (`rsa-<código>-area-extb_v1` e `rsa-<código>-marca-extb_v1`), até a véspera do 3º módulo, **sem mudar diária nem total**; **nunca os dois pares ativos juntos**. Só se a turma não tiver 15 matrículas nem lotado. Bloqueios: 333 e 68632 só -exta enquanto OU3 estiver aberta (a extensão para na véspera do módulo presencial); 68635, 679 e 366 com a -extb bloqueada sem o dia do 3º módulo (a -exta sobe, com a diária aprovada pelo gestor); 662 com as duas bloqueadas. Textos: criativos-de-anuncio, versão 2 do arquivo -ext, aprovados pelo qa (seção 8.9) | decisão 18 (matrícula até o 3º módulo) e gestor 12.9; captação de quem já conhece a turma até o último dia em que pode entrar; antes do início o anúncio diz que as aulas começam (verdade), depois diz que já começaram (verdade), o que a peça única da versão 5 não conseguia | R$ 150,00 por turma no Google (até R$ 2.100,00 nas 14, se todas subirem), **o mesmo valor de antes: a divisão em -exta e -extb não muda diária nem total**, dentro dos R$ 2.000,00 de cada turma | leads de quem ainda pode entrar, sem público frio e sem conceito novo; texto sempre verdadeiro para a data | em (a), pausar o -exta e voltar à pausa do corte; em (b), pausar o -extb e reativar o -exta só se o início ainda não chegou; em qualquer caso, pausar os dois pares (campanha sem anúncio de extensão, sem gasto) | aprovação do qa dos textos até 25/01 (março) e 25/02 (abril); anúncios criados pausados antes do corte; trocas nas datas das seções 4.2 e 4.6 |
 
 **Os 3 primeiros:** AGP19 (rastreio, antes de 30/10), AGP12 (março, antes de 30/11) e AGP22 (travas, antes de cada subida).
 
@@ -691,51 +774,61 @@ Os pedidos AGP1 a AGP11 da versão 2 seguem na seção 18 e ficam suspensos (dec
 |---|---|---|
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | Pendente externo | Só Busca nesta saída; Meta no arquivo do anuncios-meta; YouTube e LinkedIn fora (PP13 e PP14 ao cmo); aprovação em PP16 (divisão 85% e 15% da versão 6 do gestor) |
 | Metas de CPL e custo por matrícula escritas antes de subir | Atendido em parte | Seção 2, com os números do plano; taxas i e k [SUPOSIÇÃO ilustrativa] |
-| Verba dentro do valor aprovado, com aprovador registrado | Atendido em parte | Seção 4: nenhuma turma passa de R$ 2.000,00 (Google R$ 749,25 ou R$ 723,75 mais a Meta do plano, soma conferida na 4.1b), inclusive 289 e 662 (4.3); aprovador [CONFIRMAR] |
-| Nomenclatura padrão | Atendido no desenho, pendente a confirmação do cmo | Seções 3 e 8 (D12); chave com área curta e nome do anúncio (AGP12) |
+| Verba dentro do valor aprovado, com aprovador registrado | Atendido em parte | Seção 4: nenhuma turma passa de R$ 2.000,00 (Google R$ 749,25 ou R$ 723,75 mais a Meta do plano, soma conferida na 4.1b), inclusive 289 e 662 (4.3); a sequência -exta e -extb não altera valor; aprovador [CONFIRMAR] |
+| Nomenclatura padrão | Atendido no desenho, pendente a confirmação do cmo | Seções 3 e 8 (D12); chave com área curta e nome do anúncio (AGP12); sufixos -exta e -extb da seção 8.9 |
 | UTMs completas e origem chegando ao CRM | Pendente externo | Seção 10 (D11); depende do teste de 30/10 |
 | Pixel, API de Conversões e conversões do Google | Pendente externo | Seção 10; teste de 30/10; TikTok e LinkedIn fora |
-| Criativos aprovados em conformidade-educacional | Pendente externo | Os anúncios desta saída passam pelo qa antes da subida (reconferência de G1 a G7 e das cadeias novas da versão 5); o texto da regra do anúncio -ext vem do criativos-de-anuncio |
+| Criativos aprovados em conformidade-educacional | Pendente externo | Os anúncios desta saída passam pelo qa antes da subida; os textos -exta e -extb vêm do criativos-de-anuncio (versão 2 do arquivo -ext) e ainda não foram auditados pelo qa |
 | Anúncios dentro das políticas de cada plataforma | Atendido no desenho [SUPOSIÇÃO] | Sem característica pessoal, sem escassez, sem concorrente; regras de plataforma marcadas |
 | Nenhum público com menores de 18 anos; no YouTube, conteúdo infantil excluído | Atendido no desenho [SUPOSIÇÃO de plataforma] | Busca com ajuste de 18 anos ou mais; YouTube fora |
 | Post de docente promovido ou Spark Ad com autorização registrada | Não se aplica | Nenhum docente nomeado |
 | Relatório semanal ao CMO | Pendente externo | Seção 12 |
 | Sem segmentação discriminatória nem exclusão por atributo sensível | Atendido no desenho | Seção 5 |
 | Públicos sem dados pessoais usados sem base legal | Atendido | Sem lista de contatos |
-| Dados de curso conferidos no catálogo | Atendido | Seção 8.3; divergências marcadas (68636, 366, 662, 68617, 68628); datas do 3º módulo só onde o gestor 12.9 as traz |
+| Dados de curso conferidos no catálogo | Atendido | Seção 8.3; divergências marcadas (68636, 366, 662, 68617, 68628); datas do 3º módulo só onde o gestor 12.9 e as fichas as trazem |
 | Destino de WhatsApp | Não se aplica | O destino é a página da turma |
 | Números só das exportações | Atendido | Nenhum número de mídia observado; contas só com a verba e a meta do CEO, a divisão do gestor e da estratégia e as taxas [SUPOSIÇÃO] do gestor |
-| Nenhuma alteração feita na plataforma sem um humano executar e aprovar | Atendido | Seções 11, 13 e 15 escritas como pedido, inclusive a extensão (AGP25) e a pausa (AGP24) |
+| Nenhuma alteração feita na plataforma sem um humano executar e aprovar | Atendido | Seções 11, 13 e 15 escritas como pedido, inclusive a extensão e a troca no início (AGP25) e a pausa (AGP24) |
 
 ### 16.2 auditorias/conformidade-educacional.md
 
 | Bloco | Resultado | Observação |
 |---|---|---|
-| Dados do curso batem com o catálogo | Atendido | Nome completo na descrição fixada; formas curtas só em título por limite; 68632 presencial |
+| Dados do curso batem com o catálogo | Atendido | Nome completo na descrição fixada; formas curtas só em título por limite; 68632 presencial; datas de início e do 3º módulo do catálogo e das fichas |
 | Status "aberto" | Atendido | As 14 estão "aberto"; 679, 68636 e 662 com trava de página |
 | Pós sem "reconhecida pelo MEC" e sem certificação | Atendido | Nenhum texto; negativas cobrem a consulta |
-| Sem promessa de emprego, salário, aprovação | Atendido | Seção 1 |
+| Sem promessa de emprego, salário, aprovação | Atendido | Seção 1; a -extb só diz "Fale com o time" sobre os módulos já realizados, sem prometer gravação nem reposição |
 | Preço com condições completas | Atendido | Nenhum preço em anúncio ou recurso (U11) |
 | Bolsa e desconto com regra | Atendido | Nenhum texto cita bolsa ou desconto; 341 sem promoção |
-| Urgência real | Atendido | Até o corte só data de início da planilha e a informação de que a turma pode não ser formada (frase aprovada); o anúncio -ext usa a regra completa do 3º módulo e nenhuma urgência com a data (decisão 18); texto -ext a aprovar |
+| Urgência real | Atendido | Até o corte só data de início da planilha e a informação de que a turma pode não ser formada (frase aprovada); a -exta informa a data de início e a regra completa, a -extb informa que as aulas já começaram e a data real do 3º módulo; nenhuma urgência com a data (decisão 18); a frase "as aulas já começaram" nunca roda antes do início, porque a -exta cobre esse período (CC1 resolvido); textos -exta e -extb a auditar pelo qa |
 | Autorização de imagem | Atendido | Nenhum docente nomeado; nenhuma imagem |
 | Característica pessoal de quem vê | Atendido | O texto descreve o curso e o público da página |
 | Formulários com finalidade e política de privacidade | Pendente externo | Conferir nas páginas antes de cada subida |
 | Destino entrega o que o anúncio promete | Pendente externo | 679, 68636, 662, 366, 68617, 341, 657 e as páginas com a frase do MEC (seção 11, S6 e AGP22) |
 | Sem caixa alta excessiva, sem travessão nem meia-risca | Atendido | Conferido por leitura do arquivo; caixa alta só em "UFAPE" |
 
-**Resultado:** pronto para a reconferência do qa-de-marketing (somas da seção 4.1b e contagens das cadeias novas) e, depois, para a aprovação humana dos pedidos AGP12 a AGP25. Nenhuma campanha sobe antes disso.
+**Resultado:** pronto para a reconferência do qa-de-marketing (cadeias -exta e -extb e a sequência da seção 8.9, a tabela de janelas da 4.6, o calendário da seção 13 e o AGP25) e, depois, para a aprovação humana dos pedidos AGP12 a AGP25. Nenhuma campanha sobe antes disso.
 
 ---
 
 ## 17. Mudanças desta versão
 
+**Versão 6 (27/10/2026)**, mudança única e estrutural, pela resolução do CC1 (criativos-de-anuncio-pos-2026-10-27-ext, versão 2, seções 2 e 3) e por R6 e P1 do qa-de-marketing-pos-2026-10-27-midia-d:
+- **A extensão passa a ter dois conjuntos de anúncios em sequência.** Os anúncios -ext da versão 5 (`rsa-<código>-<grupo>-ext_v1`) viram dois pares: `rsa-<código>-area-exta_v1` e `rsa-<código>-marca-exta_v1` (do dia seguinte ao corte até a véspera do início) e `rsa-<código>-area-extb_v1` e `rsa-<código>-marca-extb_v1` (do início até a véspera do 3º módulo). Nunca os dois pares ativos juntos: no dia do início, o humano pausa os -exta e ativa os -extb. A contagem passa de 28 para 56 anúncios -ext (42 liberados e 14 bloqueados; seções 0, 8.1 e 8.9).
+- **Diárias e totais não mudam.** A extensão segue com R$ 150,00 por turma e uma diária só (R$ 1,41 a R$ 5,17), corrida do dia seguinte ao corte até a véspera do 3º módulo; nenhuma linha das seções 4.1, 4.1b, 4.2, 4.4 e 4.5 mudou de valor (só os rótulos da 4.1 indicam a janela de cada conjunto).
+- **Textos do criativos copiados, sem reescrever (8.9):** 5 títulos e 2 descrições por conjunto, com a descrição 1 (DS1 sem data) fixada na posição 1 e a descrição 2 (a regra completa da fase) fixada na posição 2, por turma. A pendência P1 do qa (texto da regra do 3º módulo) deixa de ser "texto a vir" e passa a ser "texto a auditar". A descrição "da regra" que a versão 5 deixava em aberto agora existe; os títulos herdados do texto A saem da extensão e a DT fica de fora, salvo decisão do qa.
+- **Bloqueios por turma, como no criativos:** 333 e 68632 só -exta enquanto OU3 estiver aberta; 68635, 679 e 366 com a -extb bloqueada sem o dia do 3º módulo (a -exta sobe, mas a diária da extensão ainda depende do dia: seção 4.6, item 4, a decidir pelo gestor sem mudar o total); 662 com as duas bloqueadas.
+- **Seções reescritas:** 4.6 (sequência, itens 2 a 4 e 7 e nova tabela de janelas, datas de troca e situação por turma), 8.9 (montagem, tabela de textos por turma, bloqueios e DS1), 8.1 (tabela de anúncios e total), 3 (nova coluna "Troca -exta para -extb (início)" e nota h), 13 (calendário com as trocas de 13/03, 20/03, 27/03, 03/04, 10/04, 17/04 e 24/04, R6 do qa) e 15 (AGP25 reescrito, com o que, por que, quanto, efeito esperado e como desfazer; AGP18 e AGP20 ajustados).
+- **Ajustes de consistência:** rótulos na seção 1 (Nomes e Data de início), seções 0, 2, 4 (introdução e texto antes e depois da 4.2), 5, 6 (nota d), 7 (negativas valem nas duas fases), 9 (frase de destaque), 10 (UTM de -exta e -extb), 11 (travas), 12 (risco 6 e linha de leitura), 14 (S5, S8, S9, S14 e novo S15) e 16 (auditorias).
+- **Não desfeito da versão 5:** C1 (seção 4.3, conversão protegida até o teto), a linha nova da Lista 2 e R3 (seção 13, pausa total às 23h59 da véspera do 3º módulo), aplicados pelo orquestrador.
+- **Sem mudança:** verba, diárias, palavras-chave (6), negativas (7), textos do corte (8.2 a 8.8), UTM do corte, conversões, e a seção 18 (provas, suspenso).
+
 **Versão 5 (27/10/2026)**, pela encomenda da seção 7 da estrategia-de-midia-pos v5 (tabela 7.1 e linha "anuncios-google-pos"), pela versão 6 do gestor-de-midia-pos (12.5, 12.8 e 12.9) e pelas decisões 19 e 20 do CEO:
 - **Verba a 85% até o corte e extensão:** a parte Google passa a R$ 749,25 por turma de março (aquecimento R$ 127,50, manutenção R$ 85,00, conversão R$ 386,75 e extensão R$ 150,00) e R$ 723,75 por turma de abril (R$ 127,50, R$ 446,25 e R$ 150,00); eram R$ 705,00 e R$ 675,00. Teto nas 14 turmas: R$ 10.260,00 (antes R$ 9.600,00). Com a Meta do plano (R$ 1.250,75 e R$ 1.276,25), cada turma soma R$ 2.000,00 (seções 0, 2, 4.1 e 4.1b).
 - **Diárias refeitas pela tabela 7.1** (coluna Google, conferidas uma a uma): março R$ 9,10 e R$ 18,21 no aquecimento, R$ 6,07 na manutenção, R$ 8,40, R$ 7,29 e R$ 9,91 na conversão; abril R$ 6,71 no aquecimento e R$ 11,44, R$ 9,70, R$ 8,41 e R$ 7,43 na conversão; extensão de R$ 1,41 a R$ 5,17 (seções 4.1, 4.2, 13).
 - **Soma por turma conferida (nova seção 4.1b):** as fases somam R$ 749,25 (março) e R$ 723,75 (abril) e, com a Meta, R$ 2.000,00; diária x dias nunca passa do total do plano. Tabelas de leitura (4.4) e de limite de volume (4.5) refeitas a 85%, com as linhas da extensão (menor limite: 68628, R$ 19,81, ainda acima de R$ 18,00); limite de 662 com 1 anúncio refeito (R$ 93,94 e R$ 104,12).
-- **Extensão de R$ 150,00, só busca, 1 anúncio por grupo (nova seção 4.6, 8.9 e AGP25):** no dia seguinte ao corte os anúncios do corte são pausados e entra o anúncio -ext (regra completa do 3º módulo, sem urgência e sem preço), na mesma campanha, até 23h59 da véspera do 3º módulo. Condições: sem 15 matrículas nem lotado, texto -ext aprovado, EM14 para diária abaixo do mínimo. A descrição da regra completa não é escrita aqui (vem do criativos-de-anuncio); as DS1 sem data de cada turma entram na 8.9.
-- **Exceções da estratégia:** 333 e 68632 param na véspera do módulo presencial (26/03 e 09/04) até OU3 (com OU3, diária pelo saldo até 28/05 e 11/06); 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR] não sobem a extensão; 662 segue com 1 anúncio por grupo; teto de R$ 2.000,00 por turma prevalece.
+- **Extensão de R$ 150,00, só busca, 1 anúncio por grupo (nova seção 4.6, 8.9 e AGP25):** no dia seguinte ao corte os anúncios do corte são pausados e entra o anúncio -ext (regra completa do 3º módulo, sem urgência e sem preço), na mesma campanha, até 23h59 da véspera do 3º módulo. Condições: sem 15 matrículas nem lotado, texto -ext aprovado, EM14 para diária abaixo do mínimo. A descrição da regra completa não é escrita aqui (vem do criativos-de-anuncio); as DS1 sem data de cada turma entram na 8.9. (Na versão 6, o anúncio -ext vira o par -exta e -extb.)
+- **Exceções da estratégia:** 333 e 68632 param na véspera do módulo presencial (26/03 e 09/04) até OU3 (com OU3, diária pelo saldo até 28/05 e 11/06); 679, 68635, 366 e 662 com o 3º módulo [CONFIRMAR] não sobem a extensão; 662 segue com 1 anúncio por grupo; teto de R$ 2.000,00 por turma prevalece. (Na versão 6, a -exta de 68635, 679 e 366 pode subir sem o dia do 3º módulo.)
 - **289 e 662 (4.3):** aquecimento novo de R$ 425,00 menos G; excedente de 289 sai da manutenção (R$ 170,00 menos E) e o de 662 sai da extensão (R$ 300,00 menos E, metade no Google); nunca da conversão; avisos acima de R$ 595,00 (289) e R$ 725,00 (662).
 - **AGP24 reescrito** (pausa total na véspera do 3º módulo ou ao teto, e não mais no dia seguinte ao corte); **AGP25 novo** (extensão); AGP12, AGP13 e AGP14 com os novos valores. Seção 3 ganha a coluna "Fim da extensão"; seção 5 ganha a trava de gasto; seção 9 tira "Início em dd/mm/aaaa" na extensão; seção 11 ganha as travas da extensão; seções 12 a 14 e 16 atualizadas; calendário 13 com as trocas e as pausas totais da estratégia 6.1.
 - **Decisão 19 (CEO, 27/10/2026), turma 698:** segue com início em 28 e 29/11/2026 e os anúncios dela sobem sem esperar a correção do site, que ainda mostra 2027; o texto do anúncio diz a data de 2026. A 698 é da onda 1 e não tem campanha neste arquivo (são 14 turmas de março e abril); nota (g) da seção 3 registra o caso, e este arquivo não traz nenhuma trava ou pausa "só com o site corrigido" para a 698. Ela é tratada na seção 13 do gestor.
@@ -749,7 +842,7 @@ Os pedidos AGP1 a AGP11 da versão 2 seguem na seção 18 e ficam suspensos (dec
 - **G4:** marcadas com [SUPOSIÇÃO de plataforma; conferir no editor] as cinco regras: conversão secundária sem entrar no lance, rotação "Otimizar", ajuste de demografia de 18 anos ou mais, limite de 15 títulos e 4 descrições, e snippet de 3 a 10 valores de até 25 caracteres; incluídas na Lista 2.
 - **G5:** 662 sobe com 1 anúncio por grupo (texto A: `rsa-662-area-a_v1` e `rsa-662-marca-a_v1`); o texto B de 662 só entra com a ficha corrigida. Total de anúncios: 54 (eram 56). O limite de volume de 662 passa a ser o de 1 anúncio.
 - **G6:** novo AGP24 (pausa no dia seguinte ao corte ou ao teto de R$ 2.000,00). (Reescrito na versão 5.)
-- **G7:** a pergunta ao cmo sobre a chave com área curta e o nome do anúncio entra na regra "Nomes", na nota da seção 1, no AGP12 e na auditoria ("Atendido no desenho, pendente a confirmação do cmo").
+- **G7:** a pergunta ao cmo sobre a chave com área curta e o nome do anúncio responsivo entra na regra "Nomes", na nota da seção 1, no AGP12 e na auditoria ("Atendido no desenho, pendente a confirmação do cmo").
 - **R3:** DS1 de 68632 na forma padrão, "Início em 10/04/2027." (89 caracteres). **R4:** a negativa de 68628 passa a exata, só para o curso livre 560; o snippet "Eletroquimioterapia" fica. **R5:** a liberação da P3 de 679, 68636 e 662 é da pessoa do marketing com ciência do cmo, e a correção é da Ufape. **R6:** cabeçalho com a recontagem do qa. **R7:** as subseções suspensas das provas levam "suspenso, não executar" no título.
 - **Fórmula de " Início em dd/mm/aaaa.":** 22 caracteres (corrigida de 23); nenhuma DS1 muda.
 - **Decisão 18 (matrícula até o 3º módulo):** registrada em nota nas seções 4.2, 10 e 13; nenhum texto de anúncio do corte usa a regra; a recuperação de módulos segue [CONFIRMAR OU3]. (Na versão 5 a decisão passa a gerar a extensão.)
@@ -897,8 +990,11 @@ Leitura: custo por inscrito por grupo, com 3 dias e gasto de 1,5 x CPImax; relat
 - A Ufape aceita matrícula até o 3º módulo do curso de Pós, em todas as turmas; a recuperação dos módulos perdidos segue [CONFIRMAR OU3] (decisão 18, CEO, 27/10/2026).
 - Turma 698 com início em 28 e 29/11/2026, anúncios sem esperar a correção do site (decisão 19, CEO, 27/10/2026; fora das 14 turmas deste arquivo).
 - Provas de bolsa presenciais em São Paulo e em Goiânia; local de Goiânia [CONFIRMAR] (decisão 20, CEO, 27/10/2026; seção 18 segue suspensa pela decisão 14).
-- Parte Google por turma: março R$ 749,25 (aquecimento R$ 127,50, manutenção R$ 85,00, conversão R$ 386,75, extensão R$ 150,00) e abril R$ 723,75 (aquecimento R$ 127,50, conversão R$ 446,25, extensão R$ 150,00); 85% até o corte e 15% na extensão; Meta de março R$ 1.250,75 e de abril R$ 1.276,25; Meta e Google somam R$ 2.000,00 por turma (gestor-de-midia-pos v6, 12.5, 12.8 e 12.9; estrategia-de-midia-pos v5, 3.1 a 3.6 e 7; soma refeita na seção 4.1b).
+- Parte Google por turma: março R$ 749,25 (aquecimento R$ 127,50, manutenção R$ 85,00, conversão R$ 386,75, extensão R$ 150,00) e abril R$ 723,75 (aquecimento R$ 127,50, conversão R$ 446,25, extensão R$ 150,00); 85% até o corte e 15% na extensão; Meta de março R$ 1.250,75 e de abril R$ 1.276,25; Meta e Google somam R$ 2.000,00 por turma (gestor-de-midia-pos v6, 12.5, 12.8 e 12.9; estrategia-de-midia-pos v5, 3.1 a 3.6 e 7; soma refeita na seção 4.1b e conferida pelo qa na rodada d).
 - Diárias por turma e fase, coluna Google da tabela 7.1; extensão com 1 anúncio por grupo e R$ 150,00 por canal; EM16; condições 1 a 5 da extensão; 289 e 662 com limite de R$ 500,00 e excedente da manutenção (289) ou da extensão (662); fim da extensão na véspera do 3º módulo da ficha (estrategia-de-midia-pos v5, 3.5b, 3.8, 6.1 e 7.1; gestor 12.9).
+- A extensão roda em dois conjuntos em sequência, -exta (do dia seguinte ao corte até a véspera do início) e -extb (do início até a véspera do 3º módulo), na mesma campanha, com a mesma verba; troca no dia do início por pedido humano; 333 e 68632 só -exta enquanto OU3 estiver aberta (criativos-de-anuncio-pos-2026-10-27-ext, versão 2, seção 2, resolução do CC1 pelo orquestrador de 27/10/2026).
+- Títulos e descrições Google de -exta e -extb das 14 turmas; datas do 3º módulo: 68615 (22 e 23/05/2027), 289 (15 e 16/05/2027), 333 (29 e 30/05/2027), 657 (22 e 23/05/2027), 341 (01 e 02/05/2027), 68636 e 68617 (19 e 20/06/2027), 68628 e 68609 (26 e 27/06/2027), 68632 (12 e 13/06/2027); 68635, 679 e 366 só "junho de 2027"; 662 sem 3º módulo da turma de 2027 (criativos ext v2, seções 3 e Fatos; fichas em contexto/cursos/pos/).
+- A revisão do qa (rodada d, seção 6, P1 e R6) pede a regra completa numa única descrição de até 90 caracteres, fixada na posição 2, e a troca no dia do início como linha do calendário; ambos atendidos na versão 6.
 - Meta de custo: R$ 133,33 por matrícula; CPL máximo R$ 4,00, R$ 10,00 e R$ 18,00 nos três cenários [taxas SUPOSIÇÃO do gestor] (estrategia-de-midia-pos 2.2).
 - Padrão D11 (utm_source google, utm_medium cpc) e D12 (chave pos_<código>, nome da campanha = utm_campaign, AAAAMM da subida) (cmo-geral, 12.7; estrategia-de-midia-pos 4.2 e 4.3).
 - Áreas curtas, negativas cruzadas por turma, e que Performance Max, Display, YouTube e LinkedIn estão fora (estrategia-de-midia-pos 4.2, 4.4, 4.5 e 7; gestor 12.6).
@@ -913,17 +1009,18 @@ Leitura: custo por inscrito por grupo, com 3 dias e gasto de 1,5 x CPImax; relat
 ## Lista 2. Suposições
 
 - [SUPOSIÇÃO] Todas as palavras-chave são sementes, sem volume nem CPC; as "derivadas" combinam o nome do catálogo com o campus ou a marca.
-- [SUPOSIÇÃO de plataforma; conferir no editor] Limites de caracteres; limite de 15 títulos e 4 descrições; cabeçalho "Cursos" e snippet de 3 a 10 valores de até 25 caracteres; conversão secundária que não entra no lance; rotação "Otimizar" como padrão dos responsivos; ajuste de demografia de 18 anos ou mais na Busca; comportamento do hífen em negativa; gasto acima da diária em um dia; limite de gasto da campanha no total do Google da turma.
+- [SUPOSIÇÃO de plataforma; conferir no editor] Limites de caracteres; limite de 15 títulos e 4 descrições; cabeçalho "Cursos" e snippet de 3 a 10 valores de até 25 caracteres; conversão secundária que não entra no lance; rotação "Otimizar" como padrão dos responsivos; ajuste de demografia de 18 anos ou mais na Busca; comportamento do hífen em negativa; gasto acima da diária em um dia; limite de gasto da campanha no total do Google da turma; fixação de duas descrições (posições 1 e 2) e de títulos nos anúncios -exta e -extb.
 - [SUPOSIÇÃO] Correspondência só de frase e exata no começo; Rede de Pesquisa sem parceiros; sem ajuste de lance por horário ou dispositivo.
 - [SUPOSIÇÃO] Lance "Maximizar conversões" (lead) sem CPA desejado.
 - [SUPOSIÇÃO] Fixações de título e descrição; texto A como o de decisão que fica quando o CPL passa do limite.
 - [SUPOSIÇÃO] Localização "presença ou interesse" (EM6): a persona secundária viaja; a procedência dos alunos não existe nos dados.
 - [SUPOSIÇÃO] Negativas "ead", "100% online", "bolsa", "prova de bolsa", "título de especialista", "reconhecida pelo mec", "salário", "semipresencial" (em 68632), "fisioterapeuta" (em 366), as exatas de 657 e as exatas de eletroquimioterapia (em 68628).
-- [SUPOSIÇÃO] Datas de corte (1ª mensalidade 30 dias antes do início) e, por isso, as datas de troca para a extensão; a véspera do 3º módulo como fim da extensão (OU6).
+- [SUPOSIÇÃO] Datas de corte (1ª mensalidade 30 dias antes do início) e, por isso, as datas de troca para a extensão; a véspera do 3º módulo como fim da extensão (OU6); **a data de troca de -exta para -extb é a data de início do catálogo (a aula de sábado já é a primeira), como no criativos ext v2.**
 - [SUPOSIÇÃO] A parcela Google da curva de leads é régua de leitura; o plano não fixa meta de leads por canal.
 - [SUPOSIÇÃO] Leitura permitida com R$ 27,00 e pausa de anúncio com R$ 36,00 sem lead (1,5 e 2 vezes o maior CPL máximo); leitura mensal na extensão.
-- [SUPOSIÇÃO de desenho, estratégia v5] Extensão dentro da mesma campanha e do mesmo grupo, com 1 anúncio -ext por grupo e sufixo -ext no utm_content; sem a data do 3º módulo a extensão não sobe; 333 e 68632 com OU3 recalculam a diária pelo saldo; diária abaixo do mínimo concentrada nas últimas semanas (EM14).
-- [SUPOSIÇÃO] A DS1 sem data do anúncio -ext é a DS1 do corte sem " Início em dd/mm/aaaa."; a frase DT fica fora do -ext porque trata de comprar passagem antes de a turma ser confirmada; a conferência é do qa.
+- [SUPOSIÇÃO de desenho, estratégia v5] Extensão dentro da mesma campanha e do mesmo grupo, com 1 anúncio por grupo de cada vez e sufixos -exta e -extb no utm_content; 333 e 68632 com OU3 recalculam a diária pelo saldo; diária abaixo do mínimo concentrada nas últimas semanas (EM14).
+- [SUPOSIÇÃO de desenho] A -exta de 68635, 679 e 366 só sobe se o gestor aprovar por escrito a diária da fase, sem mudar o total de R$ 150,00, porque a diária depende do dia do 3º módulo (a regra da versão 5 mandava não gastar a extensão sem a data; o criativos libera só o texto).
+- [SUPOSIÇÃO] A DS1 sem data do anúncio -exta e -extb é a DS1 do corte sem " Início em dd/mm/aaaa."; a frase DT fica fora da extensão (opcional só na -exta, a critério do qa) porque trata de comprar passagem antes de a turma ser confirmada; a conferência é do qa.
 - [SUPOSIÇÃO] 289 e 662 com aquecimento novo zero sobem na fase seguinte (289 em 21/12, 662 em 25/01); avisos acima de R$ 595,00 (289) e R$ 725,00 (662).
 - [SUPOSIÇÃO] Na regra do teto (M1), o excesso de gasto anterior acima de R$ 595,00 (289) ou de R$ 725,00 (662) sai da conversão na mesma divisão por canal da fase (Google 35% de X, Meta 65%); o caminho final é do gestor e do cmo.
 - [SUPOSIÇÃO] Ficar sem snippet nas turmas sem programa lido.
@@ -939,10 +1036,10 @@ Leitura: custo por inscrito por grupo, com 3 dias e gasto de 1,5 x CPImax; relat
 - [CONFIRMAR] Link e página de 679, 68636 e 662 (P3); data de 366 (P4) e de 68636 na planilha (U6); turma da URL de 68617 e número de turma de 68628, 68617 e 662.
 - [CONFIRMAR] Decisão registrada da pessoa do marketing (ou correção da página) sobre a frase "CERTIFICADO PELO MEC" nas 14 páginas (A7).
 - [CONFIRMAR] Caminho do gestor e do cmo quando o gasto anterior de 289 passar de R$ 595,00 ou o de 662 passar de R$ 725,00.
-- [CONFIRMAR] Data do 3º módulo de 679, 68635, 366 e 662; formato do 3º módulo de 341; vagas por turma e matrículas, para a condição 1 da extensão.
-- [CONFIRMAR OU3] Reposição dos módulos (333 e 68632 param na véspera do módulo presencial até a resposta); [CONFIRMAR OU6] "até o 3º módulo" lido como até a véspera; [CONFIRMAR OU8] pagamento de quem entra depois do corte.
-- [CONFIRMAR NO CATÁLOGO] Texto da descrição da regra completa do anúncio -ext (peça -ext do criativos-de-anuncio, 25/01 e 25/02) e a aprovação do qa.
-- [CONFIRMAR] Datas de corte por turma; período exato do ciclo de cada turma (decisão 15); mínimo diário aceito pelo Google para a diária da extensão; para onde vai a verba da busca que sair.
+- [CONFIRMAR] Dia do 3º módulo de 68635, 679 e 366 (destrava a -extb) e 3º módulo da turma de 2027 de 662 (destrava as duas peças) [CONFIRMAR NO CATÁLOGO]; formato do 3º módulo de 341; vagas por turma e matrículas, para a condição 1 da extensão; **diária da extensão de 68635, 679 e 366 (e de 662) enquanto o dia do 3º módulo não existir.**
+- [CONFIRMAR OU3] Reposição dos módulos (333 e 68632 só -exta até a resposta; a -extb de todas as turmas tem "Fale com o time" como única referência aos módulos já realizados); [CONFIRMAR OU6] "até o 3º módulo" lido como até a véspera (muda a redação e as contagens de todos os textos -exta e -extb); [CONFIRMAR OU8] pagamento de quem entra depois do corte.
+- [CONFIRMAR] Aprovação do qa dos textos -exta e -extb (criativos ext v2) e recontagem por script (soma de fragmentos, sem script no criativos); decisão do qa sobre a DT como 3ª descrição da -exta (AGP20).
+- [CONFIRMAR] Datas de corte por turma; datas de início que definem a troca (68636 na planilha, 366 depois de P4, 662 depois de P3); período exato do ciclo de cada turma (decisão 15); mínimo diário aceito pelo Google para a diária da extensão; para onde vai a verba da busca que sair.
 - [CONFIRMAR] Local das provas de bolsa de Goiânia (decisão 20; as fichas 68640, 68642 e 68644 mostram endereço de São Paulo).
 - [CONFIRMAR] URLs próprias para sitelinks; programa de 341, 68635, 68636, 68617, 68632, 679 e 662 para snippets; contagem de presenciais de 68615, 341 e 68609.
 - [CONFIRMAR] Lista de concorrentes para negativas; aprovador de "Anúncios e verba" em contexto/ufape-geral.md; política de privacidade e finalidade do formulário nas 14 páginas; páginas que ainda dizem turma mínima de 20.
@@ -951,8 +1048,8 @@ Leitura: custo por inscrito por grupo, com 3 dias e gasto de 1,5 x CPImax; relat
 
 ## Fontes
 
-Internas: as entradas listadas no cabeçalho. Externas: nenhuma. Regras de plataforma sem fonte nos arquivos estão marcadas [SUPOSIÇÃO de plataforma; conferir no editor].
+Internas: as entradas listadas no cabeçalho, em especial saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md (versão 2) para os textos e as datas de troca da extensão, e saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-midia-d.md para C1, R3, R6 e P1. Externas: nenhuma. Regras de plataforma sem fonte nos arquivos estão marcadas [SUPOSIÇÃO de plataforma; conferir no editor].
 
 ---
 
-**Próximo agente sugerido:** qa-de-marketing (reconferência da versão 5: somas por turma da seção 4.1b contra a tabela 7.1, recontagem por script das DS1 sem data da 8.9 e conferência dos pedidos AGP24 e AGP25); depois, a peça -ext do criativos-de-anuncio e a aprovação humana dos pedidos AGP12 a AGP25, com execução por humano no Google Ads.
+**Próximo agente sugerido:** qa-de-marketing (reconferência da versão 6: sequência -exta e -extb da seção 8.9 contra o criativos ext v2, recontagem por script dos títulos e das descrições novos e das DS1 sem data, tabela de janelas da 4.6, calendário da seção 13 com as trocas, e os pedidos AGP24 e AGP25); depois, a aprovação humana dos pedidos AGP12 a AGP25, com execução por humano no Google Ads. A mesma sequência -exta e -extb precisa estar espelhada no arquivo do anuncios-meta (AMP25), que não foi alterado aqui.

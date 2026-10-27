@@ -30,7 +30,7 @@
 2. **Nenhuma peça promete gravação nem reposição.** A resposta de como o aluno recupera os módulos é [CONFIRMAR OU3] e pode mudar a última frase de toda peça -extb.
 3. **Nenhuma peça cita:** preço, parcela, valor de inscrição ou de matrícula, "certificado", "reconhecida pelo MEC", "últimas vagas", "vagas limitadas", contador, "corra", docente, depoimento ou imagem de pessoa. Datas de início e do 3º módulo vêm só das fichas e do catálogo.
 4. **CC1 está resolvido** (seção 2): a -exta cobre do dia seguinte ao corte até a véspera do início, e a -extb do início até a véspera do 3º módulo. Em 333 e 68632, enquanto OU3 estiver aberta, vale só a -exta.
-5. **Travas herdadas dos arquivos de campanha:** 679, 68635, 366 e 662 não têm o dia do 3º módulo na ficha. Na -exta, 68635, 679 e 366 podem subir sem o dia, porque o texto usa o mês da ficha (junho de 2027) e não cita o dia. A -extb dessas três e as duas peças de 662 seguem bloqueadas até o dia entrar (662 ainda tem ficha com módulos de 2026, P3). 68636 e 679 (P3) e 366 (P4) não citam data de início, só "abril de 2027" (mês que catálogo e ficha trazem nas três).
+5. **Travas herdadas dos arquivos de campanha:** 679, 68635, 366 e 662 não têm o dia do 3º módulo na ficha. Na -exta, o texto de 68635, 679 e 366 não depende do dia, porque usa o mês da ficha (junho de 2027); a subida, porém, só ocorre se o gestor-de-midia liberar a extensão sem o dia do 3º módulo e definir a diária da -exta, porque hoje o anuncios-meta (6.4) e o anuncios-google (4.2) só começam a extensão com essa data [CONFIRMAR com o gestor]. A -extb dessas três e as duas peças de 662 seguem bloqueadas até o dia entrar (662 ainda tem ficha com módulos de 2026, P3). 68636 e 679 (P3) e 366 (P4) não citam data de início, só "abril de 2027" (mês que catálogo e ficha trazem nas três).
 
 ---
 
@@ -56,12 +56,11 @@
 | Título Google 4, -exta | "Aberta até o 3º módulo" | 22 |
 | Título Google 4, -extb, e título da imagem -extb | "As aulas já começaram" | 21 |
 | Título Google 2 (as duas) | "Faculdade UFAPE" | 15 |
-| Título Google 5, -exta, com data | "Aulas em 20/03/2027" | 19 |
-| Título Google 5, -exta, só mês | "Aulas em abril de 2027" | 22 |
+| Título Google 5 (as duas peças) | "Campus São Paulo" ou "Campus Goiânia" | 16 ou 14 |
 | Descrição Meta, -exta, com data | "Aulas em 20/03/2027" | 19 |
 | Descrição Meta, -exta, só mês | "Aulas em abril de 2027" | 22 |
-| Descrição Meta e título Google 5, -extb (com data) | "3º módulo em 22 e 23/05/2027" | 28 |
-| Descrição Meta e título Google 5, -extb (só mês da ficha) | "3º módulo em junho de 2027" | 26 |
+| Descrição Meta, -extb (com data) | "3º módulo em 22 e 23/05/2027" | 28 |
+| Descrição Meta, -extb (só mês da ficha) | "3º módulo em junho de 2027" | 26 |
 | Descrição Google 2, -exta (início com data, 3º módulo com data) | "As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 22 e 23/05/2027." | 85 |
 | Descrição Google 2, -exta (início só mês, 3º módulo com data) | "As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em 19 e 20/06/2027." | 88 |
 | Descrição Google 2, -exta (início com data, 3º módulo só mês) | "As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em junho de 2027." | 83 |
@@ -73,14 +72,14 @@
 - **-extb:** nome completo do curso (com "Pós-graduação em ", 17 caracteres) + 24 + 26 + 18 + 1 = nome + 69. Sem a data entre parênteses, nome + 51.
 - **-exta:** nome + 11 + 10 + 1 + 33 + 18 + 1 = nome + 74. Sem a data entre parênteses, nome + 56. A data de dois dias tem sempre 15 caracteres ("dd e dd/mm/2027"), então as contagens valem para qualquer turma com dois dias seguidos.
 
-**Como contei:** por soma de fragmentos, cada um recontado caractere a caractere à mão, e os nomes de curso conferidos contra as descrições DS1 do anuncios-google (seção 8.6, que o qa recontou por script). Não rodei script nesta entrega. Recontar no gerenciador e no editor é o item final do checklist.
+**Como contei:** por soma de fragmentos, cada um recontado caractere a caractere à mão, e os nomes de curso conferidos contra as descrições DS1 do anuncios-google (seção 8.6, que o qa recontou por script). Não rodei script nesta entrega. Recontar no gerenciador e no editor é o item final do checklist. Recontagem por script do orquestrador em 27/10/2026: 268 contagens certas, nenhuma acima do limite.
 
 ### 1.2 Regras de texto
 
 - Nome do curso sempre "Pós-graduação em <área>" completo no trecho visível do Meta e no selo da imagem. Nos títulos do Google (30 caracteres) vale a forma curta já aprovada no anuncios-google (8.3), e a DS1 com o nome completo e o campus fica fixada na posição 1.
 - Marca "Faculdade UFAPE" em toda peça. A palavra "inscrição" não aparece. "Matrícula" aparece só na regra e na frase aprovada do AP7.
 - A frase "Veja parcelas, total e matrícula na página da turma." (AP7) entra só no Meta (remarketing) e só onde as 4 condições do criativos v3 permitem: fora em 662, 68636 e 679 (P3). Não entra no Google.
-- **-exta:** inclui no Meta a frase aprovada do AP8 ("A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada."), porque antes do início a turma ainda pode não fechar (regra da linha, contexto/pos-graduacao.md). No Google, a DT (90 caracteres, mesma frase) pode entrar como 3ª descrição se o qa e o AGP20 mantiverem [SUPOSIÇÃO: a versão 5 do anuncios-google a excluiu da extensão por supor peça pós-corte]. Não tem número de turma mínima.
+- **-exta:** inclui no Meta a frase aprovada do AP8 ("A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada."), porque antes do início a turma ainda pode não fechar (regra da linha, contexto/pos-graduacao.md). No Google, a DT não entra: com a descrição 1 e a 2 fixadas, uma 3ª descrição não aparece [SUPOSIÇÃO de plataforma; conferir no editor]. Fonte da frase: contexto/pos-graduacao.md (turma mínima e confirmação da turma). Não tem número de turma mínima.
 - **-extb:** sem a frase da passagem e do hotel (depois do início ela não se aplica) e sem a frase "aulas presenciais não são transmitidas", para não sugerir uma resposta de reposição que OU3 ainda não deu.
 - Na **-extb**, "Fale com o time" é a única referência aos módulos já realizados. Não promete gravação, reposição, plantão de dúvida ou prazo [CONFIRMAR OU3]. A **-exta** não fala de módulos já realizados, porque antes do início ninguém perdeu módulo.
 - "Até o 3º módulo" é escrito como a decisão 18 diz, com a data do módulo. Se OU6 responder "até a véspera", trocar por "Matrícula até a véspera do 3º módulo" (+12 caracteres na -extb) e "Matrícula aberta até a véspera do 3º módulo" (+12 na -exta) e rever todas as contagens: vários trechos visíveis passam de 125 e a data sai do trecho visível; onde nem assim couber, o nome completo passa para a segunda linha do texto e fica no selo da imagem.
@@ -97,7 +96,7 @@
 - **-extb (a partir do início):** do dia do início até a véspera do 3º módulo (pausa total às 23h59, como nos arquivos de campanha). É a peça da versão 1 deste arquivo, renomeada.
 - **Troca no dia do início da turma:** o humano pausa (nunca remove) a -exta e ativa a -extb, no Meta (mesmo anúncio de remarketing, 1 peça por vez) e no Google (1 anúncio por grupo por vez). Diária e verba não mudam. O arquivo de campanha passa de 28 para 56 anúncios -ext no Google e de 14 para 28 peças -ext na Meta, mas nunca mais de 1 por grupo ou por turma no ar ao mesmo tempo.
 - **333 e 68632 enquanto OU3 estiver aberta:** a extensão para na véspera do módulo 1 presencial (26/03 e 09/04), que é a véspera do início, então só a -exta roda. A -extb só sobe se OU3 for respondida e a extensão passar a correr até o 3º módulo (28/05 e 11/06).
-- **68635, 679 e 366:** a -exta pode subir sem o dia do 3º módulo, porque cita só o mês da ficha ("junho de 2027") e nenhum dia. A -extb exige o dia (não usa placeholder na peça).
+- **68635, 679 e 366:** o texto da -exta não depende do dia do 3º módulo, porque cita só o mês da ficha ("junho de 2027"); a subida depende de o gestor-de-midia liberar a extensão sem o dia (hoje travada nos arquivos de campanha). A -extb exige o dia (não usa placeholder na peça).
 
 **Datas de troca por turma** (corte e janelas dos arquivos de campanha; início do catálogo; 3º módulo das fichas):
 
@@ -108,14 +107,14 @@
 | 333 | 26/02/2027 | 26/03/2027 | 27/03/2027 | 28/05/2027, só com OU3 | só a -exta enquanto OU3 estiver aberta |
 | 657 | 12/02/2027 | 12/03/2027 | 13/03/2027 | 21/05/2027 | prontas para o qa; trava de subida U10 e PP7 |
 | 341 | 19/02/2027 | 19/03/2027 | 20/03/2027 | 30/04/2027 | prontas para o qa; PP7; formato do módulo 3 [CONFIRMAR] (a ficha lista "online" e "presencial") |
-| 68635 | 12/03/2027 | 09/04/2027 | 10/04/2027 | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir; -extb bloqueada sem o dia |
+| 68635 | 12/03/2027 | 09/04/2027 | 10/04/2027 | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta com texto pronto, subida só com a extensão liberada pelo gestor; -extb bloqueada sem o dia |
 | 68636 | 19/03/2027 | 16/04/2027 | 17/04/2027 (só no site; planilha sem data) [CONFIRMAR na planilha] | 18/06/2027 | prontas para o qa, sem data de início e sem a frase do AP7 (P3); a troca só ocorre com a data conferida |
 | 68617 | 19/03/2027 | 16/04/2027 | 17/04/2027 | 18/06/2027 | prontas para o qa; URL com "/v/" a conferir; sem número de turma |
 | 68628 | 12/03/2027 | 09/04/2027 | 10/04/2027 | 25/06/2027 | prontas para o qa; sem número de turma |
 | 68609 | 26/03/2027 | 23/04/2027 | 24/04/2027 | 25/06/2027 | prontas para o qa |
 | 68632 | 12/03/2027 | 09/04/2027 | 10/04/2027 | 11/06/2027, só com OU3 | só a -exta enquanto OU3 estiver aberta; presencial (nunca "semipresencial") |
-| 679 | 05/03/2027 | 02/04/2027 | 03/04/2027 (planilha) | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir (P3 resolvido, sem data de início); -extb bloqueada sem o dia |
-| 366 | 12/03/2027 | 09/04/2027 | 10/04/2027 (planilha; o site diz 24/04/2027, P4) [CONFIRMAR] | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta pode subir sem data de início; a troca só com a data conferida (P4); -extb bloqueada sem o dia |
+| 679 | 05/03/2027 | 02/04/2027 | 03/04/2027 (planilha) | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta com texto pronto, subida só com a extensão liberada pelo gestor (P3 resolvido, sem data de início); -extb bloqueada sem o dia |
+| 366 | 12/03/2027 | 09/04/2027 | 10/04/2027 (planilha; o site diz 24/04/2027, P4) [CONFIRMAR] | [CONFIRMAR] (3º módulo em junho de 2027; dia [CONFIRMAR NO CATÁLOGO]) | -exta com texto pronto, sem data de início, subida só com a extensão liberada pelo gestor; a troca só com a data conferida (P4); -extb bloqueada sem o dia |
 | 662 | 26/03/2027 | 23/04/2027 | 24/04/2027 (planilha; a página mostra 15/08/2026, P3) | [CONFIRMAR] (ficha com módulos de 2026) | bloqueadas: ficha de 2026 e sem 3º módulo; só nome, campus e data; sem a frase do AP7 |
 
 Fontes: início no catálogo, seção 2; 3º módulo, cronograma de cada ficha (as datas de pausa total dos arquivos de campanha coincidem com a véspera do módulo da ficha em todas as turmas que têm o dia); janela da extensão, anuncios-meta 6.4 e anuncios-google 4.2. As datas de troca são a data de início e valem só se o início não mudar; mudança de início muda a troca.
@@ -145,7 +144,7 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 - Imagem. Selo: "Pós-graduação em Patologia Clínica". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 20/03/2027. 3º módulo em 22 e 23/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Patologia Clínica" (17) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 20/03/2027" (19)
+- Títulos: 1 "Patologia Clínica" (17) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (53): "Pós-graduação em Patologia Clínica, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 22 e 23/05/2027."
 
@@ -156,7 +155,7 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 - Imagem. Selo: "Pós-graduação em Patologia Clínica". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (22 e 23/05/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Patologia Clínica" (17) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 22 e 23/05/2027" (28)
+- Títulos: 1 "Patologia Clínica" (17) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (53): "Pós-graduação em Patologia Clínica, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 22 e 23/05/2027. Fale com o time."
 
@@ -169,7 +168,7 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 - Imagem. Selo: "Pós-graduação em Cardiologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 20/03/2027. 3º módulo em 15 e 16/05/2027." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Cardiologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 20/03/2027" (19)
+- Títulos: 1 "Cardiologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (57): "Pós-graduação em Cardiologia Veterinária, campus Goiânia."
 - Descrição 2 (85): "As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 15 e 16/05/2027."
 
@@ -180,7 +179,7 @@ Texto padrão da imagem: selo "<Pós-graduação em área>"; rodapé "Campus <pr
 - Imagem. Selo: "Pós-graduação em Cardiologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (15 e 16/05/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Cardiologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 15 e 16/05/2027" (28)
+- Títulos: 1 "Cardiologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (57): "Pós-graduação em Cardiologia Veterinária, campus Goiânia."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 15 e 16/05/2027. Fale com o time."
 
@@ -195,7 +194,7 @@ A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (
 - Imagem. Selo: "Pós-graduação em Citopatologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 27/03/2027. 3º módulo em 29 e 30/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 27/03/2027" (19)
+- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (61): "Pós-graduação em Citopatologia Veterinária, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 27/03/2027. Matrícula aberta até o 3º módulo, em 29 e 30/05/2027."
 
@@ -206,7 +205,7 @@ A -extb só sobe se OU3 for respondida e a extensão correr até o 3º módulo (
 - Imagem. Selo: "Pós-graduação em Citopatologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (29 e 30/05/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google (bloqueada por OU3)**
-- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 29 e 30/05/2027" (28)
+- Títulos: 1 "Citopatologia Veterinária" (25) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (61): "Pós-graduação em Citopatologia Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 29 e 30/05/2027. Fale com o time."
 
@@ -221,7 +220,7 @@ Texto sem o público "anestesistas já atuantes" (U10 aberta): a peça não desc
 - Imagem. Selo: "Pós-graduação em Anestesiologia Avançada". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 13/03/2027. 3º módulo em 22 e 23/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Anestesiologia Avançada" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 13/03/2027" (19)
+- Títulos: 1 "Anestesiologia Avançada" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Anestesiologia Avançada, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 13/03/2027. Matrícula aberta até o 3º módulo, em 22 e 23/05/2027."
 
@@ -232,7 +231,7 @@ Texto sem o público "anestesistas já atuantes" (U10 aberta): a peça não desc
 - Imagem. Selo: "Pós-graduação em Anestesiologia Avançada". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (22 e 23/05/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Anestesiologia Avançada" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 22 e 23/05/2027" (28)
+- Títulos: 1 "Anestesiologia Avançada" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Anestesiologia Avançada, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 22 e 23/05/2027. Fale com o time."
 
@@ -247,7 +246,7 @@ Sem promoção nem desconto (PR7) e sem local da prática.
 - Imagem. Selo: "Pós-graduação em Medicina Interna Equina". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 20/03/2027. 3º módulo em 01 e 02/05/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Medicina Interna Equina" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 20/03/2027" (19)
+- Títulos: 1 "Medicina Interna Equina" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Medicina Interna Equina, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em 01 e 02/05/2027."
 
@@ -258,11 +257,11 @@ Sem promoção nem desconto (PR7) e sem local da prática.
 - Imagem. Selo: "Pós-graduação em Medicina Interna Equina". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (01 e 02/05/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Medicina Interna Equina" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 01 e 02/05/2027" (28)
+- Títulos: 1 "Medicina Interna Equina" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Medicina Interna Equina, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 01 e 02/05/2027. Fale com o time."
 
-### 68635. Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo). -exta pode subir; -extb bloqueada sem o dia do 3º módulo
+### 68635. Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo). -exta com texto pronto (subida só com a extensão liberada); -extb bloqueada sem o dia do 3º módulo
 
 O nome completo tem 64 caracteres, então a data do 3º módulo não cabe no trecho visível. A ficha traz o módulo 3 só como "Junho de 2027" (presencial). A -exta usa só o mês, sem placeholder.
 
@@ -273,7 +272,7 @@ O nome completo tem 64 caracteres, então a data do 3º módulo não cabe no tre
 - Imagem. Selo: "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais" (em duas linhas). Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 10/04/2027. 3º módulo em junho de 2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Clínica Médica e Emergência" (27, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 10/04/2027" (19)
+- Títulos: 1 "Clínica Médica e Emergência" (27, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (83): "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, campus São Paulo."
 - Descrição 2 (83): "As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em junho de 2027."
 
@@ -284,7 +283,7 @@ O nome completo tem 64 caracteres, então a data do 3º módulo não cabe no tre
 - Imagem. Selo: "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais" (em duas linhas). Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (junho de 2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google (bloqueada: dia do 3º módulo)**
-- Títulos: 1 "Clínica Médica e Emergência" (27, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em junho de 2027" (26)
+- Títulos: 1 "Clínica Médica e Emergência" (27, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (83): "Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, campus São Paulo."
 - Descrição 2 (84): "As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time."
 
@@ -299,7 +298,7 @@ A data de início 17/04/2027 só existe no site (a planilha não tem data, U6): 
 - Imagem. Selo: "Pós-graduação em Pneumologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em abril de 2027. 3º módulo em 19 e 20/06/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Pneumologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em abril de 2027" (22)
+- Títulos: 1 "Pneumologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Pneumologia Veterinária, campus São Paulo."
 - Descrição 2 (88): "As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em 19 e 20/06/2027."
 
@@ -310,7 +309,7 @@ A data de início 17/04/2027 só existe no site (a planilha não tem data, U6): 
 - Imagem. Selo: "Pós-graduação em Pneumologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (19 e 20/06/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Pneumologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 19 e 20/06/2027" (28)
+- Títulos: 1 "Pneumologia Veterinária" (23) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (59): "Pós-graduação em Pneumologia Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 19 e 20/06/2027. Fale com o time."
 
@@ -325,7 +324,7 @@ Sem número de turma (planilha VII, site V). URL com "/v/" a conferir antes de s
 - Imagem. Selo: "Pós-graduação em Endocrinologia de Pequenos Animais". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 17/04/2027. 3º módulo em 19 e 20/06/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Endocrinologia" (14, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 17/04/2027" (19)
+- Títulos: 1 "Endocrinologia" (14, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (70): "Pós-graduação em Endocrinologia de Pequenos Animais, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 17/04/2027. Matrícula aberta até o 3º módulo, em 19 e 20/06/2027."
 
@@ -336,7 +335,7 @@ Sem número de turma (planilha VII, site V). URL com "/v/" a conferir antes de s
 - Imagem. Selo: "Pós-graduação em Endocrinologia de Pequenos Animais". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (19 e 20/06/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Endocrinologia" (14, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 19 e 20/06/2027" (28)
+- Títulos: 1 "Endocrinologia" (14, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (70): "Pós-graduação em Endocrinologia de Pequenos Animais, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 19 e 20/06/2027. Fale com o time."
 
@@ -351,7 +350,7 @@ Sem número de turma (planilha VI, site VII).
 - Imagem. Selo: "Pós-graduação em Oncologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 10/04/2027. 3º módulo em 26 e 27/06/2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Oncologia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 10/04/2027" (19)
+- Títulos: 1 "Oncologia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (57): "Pós-graduação em Oncologia Veterinária, campus São Paulo."
 - Descrição 2 (85): "As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em 26 e 27/06/2027."
 
@@ -362,7 +361,7 @@ Sem número de turma (planilha VI, site VII).
 - Imagem. Selo: "Pós-graduação em Oncologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (26 e 27/06/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Oncologia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 26 e 27/06/2027" (28)
+- Títulos: 1 "Oncologia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (57): "Pós-graduação em Oncologia Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 26 e 27/06/2027. Fale com o time."
 
@@ -375,7 +374,7 @@ Sem número de turma (planilha VI, site VII).
 - Imagem. Selo: "Pós-graduação em Anestesiologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 24/04/2027. 3º módulo em 26 e 27/06/2027." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Anestesiologia Veterinária" (26) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 24/04/2027" (19)
+- Títulos: 1 "Anestesiologia Veterinária" (26) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (60): "Pós-graduação em Anestesiologia Veterinária, campus Goiânia."
 - Descrição 2 (85): "As aulas começam em 24/04/2027. Matrícula aberta até o 3º módulo, em 26 e 27/06/2027."
 
@@ -386,7 +385,7 @@ Sem número de turma (planilha VI, site VII).
 - Imagem. Selo: "Pós-graduação em Anestesiologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (26 e 27/06/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-extb, Google**
-- Títulos: 1 "Anestesiologia Veterinária" (26) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 26 e 27/06/2027" (28)
+- Títulos: 1 "Anestesiologia Veterinária" (26) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (60): "Pós-graduação em Anestesiologia Veterinária, campus Goiânia."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 26 e 27/06/2027. Fale com o time."
 
@@ -401,7 +400,7 @@ Presencial: nenhum texto diz "semipresencial". A -extb só sobe se OU3 for respo
 - Imagem. Selo: "Pós-graduação em Clínica Cirúrgica de Cães e Gatos". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 10/04/2027. 3º módulo em 12 e 13/06/2027." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Clínica Cirúrgica" (17, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 10/04/2027" (19)
+- Títulos: 1 "Clínica Cirúrgica" (17, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (67): "Pós-graduação em Clínica Cirúrgica de Cães e Gatos, campus Goiânia."
 - Descrição 2 (85): "As aulas começam em 10/04/2027. Matrícula aberta até o 3º módulo, em 12 e 13/06/2027."
 
@@ -412,11 +411,11 @@ Presencial: nenhum texto diz "semipresencial". A -extb só sobe se OU3 for respo
 - Imagem. Selo: "Pós-graduação em Clínica Cirúrgica de Cães e Gatos". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (12 e 13/06/2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus Goiânia. Faculdade UFAPE".
 
 **-extb, Google (bloqueada por OU3)**
-- Títulos: 1 "Clínica Cirúrgica" (17, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em 12 e 13/06/2027" (28)
+- Títulos: 1 "Clínica Cirúrgica" (17, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus Goiânia" (14)
 - Descrição 1, fixada (67): "Pós-graduação em Clínica Cirúrgica de Cães e Gatos, campus Goiânia."
 - Descrição 2 (86): "As aulas já começaram. Matrícula até o 3º módulo, em 12 e 13/06/2027. Fale com o time."
 
-### 679. Pós-graduação em Infectologia Veterinária (São Paulo). -exta pode subir; -extb bloqueada sem o dia do 3º módulo; sem data de início e sem frase do AP7 (P3)
+### 679. Pós-graduação em Infectologia Veterinária (São Paulo). -exta com texto pronto (subida só com a extensão liberada); -extb bloqueada sem o dia do 3º módulo; sem data de início e sem frase do AP7 (P3)
 
 A ficha traz o módulo 3 só como "Junho de 2027" (presencial). A data de início (03/04/2027) fica fora dos textos até a correção do link (P3); o texto usa "abril de 2027".
 
@@ -427,7 +426,7 @@ A ficha traz o módulo 3 só como "Junho de 2027" (presencial). A data de iníci
 - Imagem. Selo: "Pós-graduação em Infectologia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em abril de 2027. 3º módulo em junho de 2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Infectologia Veterinária" (24) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em abril de 2027" (22)
+- Títulos: 1 "Infectologia Veterinária" (24) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (60): "Pós-graduação em Infectologia Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em junho de 2027."
 
@@ -438,11 +437,11 @@ A ficha traz o módulo 3 só como "Junho de 2027" (presencial). A data de iníci
 - Imagem. Selo: "Pós-graduação em Infectologia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (junho de 2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google (bloqueada: dia do 3º módulo)**
-- Títulos: 1 "Infectologia Veterinária" (24) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em junho de 2027" (26)
+- Títulos: 1 "Infectologia Veterinária" (24) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (60): "Pós-graduação em Infectologia Veterinária, campus São Paulo."
 - Descrição 2 (84): "As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time."
 
-### 366. Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo). -exta pode subir; -extb bloqueada sem o dia do 3º módulo; data de início só depois de P4
+### 366. Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo). -exta com texto pronto (subida só com a extensão liberada); -extb bloqueada sem o dia do 3º módulo; data de início só depois de P4
 
 O nome completo tem 67 caracteres. Planilha: início em 10/04/2027; site: 24/04/2027. Os textos não citam a data de início até a conferência (P4); a -exta usa "abril" e a segunda linha traz "abril de 2027", mês comum às duas datas. A ficha traz o módulo 3 só como "Junho de 2027" (presencial).
 
@@ -453,7 +452,7 @@ O nome completo tem 67 caracteres. Planilha: início em 10/04/2027; site: 24/04/
 - Imagem. Selo: "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária" (em duas linhas). Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em abril de 2027. 3º módulo em junho de 2027." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Reabilitação Veterinária" (24, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em abril de 2027" (22)
+- Títulos: 1 "Reabilitação Veterinária" (24, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (86): "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, campus São Paulo."
 - Descrição 2 (86): "As aulas começam em abril de 2027. Matrícula aberta até o 3º módulo, em junho de 2027."
 
@@ -464,7 +463,7 @@ O nome completo tem 67 caracteres. Planilha: início em 10/04/2027; site: 24/04/
 - Imagem. Selo: "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária" (em duas linhas). Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo (junho de 2027). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-extb, Google (bloqueada: dia do 3º módulo)**
-- Títulos: 1 "Reabilitação Veterinária" (24, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "3º módulo em junho de 2027" (26)
+- Títulos: 1 "Reabilitação Veterinária" (24, forma curta por limite) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (86): "Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária, campus São Paulo."
 - Descrição 2 (84): "As aulas já começaram. Matrícula até o 3º módulo, em junho de 2027. Fale com o time."
 
@@ -479,7 +478,7 @@ A ficha mostra módulos de 2026 (turma IV, início em 15/08/2026) e a planilha d
 - Imagem. Selo: "Pós-graduação em Ortopedia Veterinária". Título: "Matrícula aberta até o 3º módulo". Apoio: "Aulas em 24/04/2027. 3º módulo em [DATA]." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
 **-exta, Google**
-- Títulos: 1 "Ortopedia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Aulas em 24/04/2027" (19)
+- Títulos: 1 "Ortopedia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula segue aberta" (22) | 4 "Aberta até o 3º módulo" (22) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (57): "Pós-graduação em Ortopedia Veterinária, campus São Paulo."
 - Descrição 2 (85, contada com uma data de dois dias no lugar de "[DATA]"): "As aulas começam em 24/04/2027. Matrícula aberta até o 3º módulo, em [DATA]."
 
@@ -489,7 +488,7 @@ A ficha mostra módulos de 2026 (turma IV, início em 15/08/2026) e a planilha d
 - Título (25): "Matrícula até o 3º módulo". Descrição (28, com uma data de dois dias): "3º módulo em [DATA]".
 - Imagem. Selo: "Pós-graduação em Ortopedia Veterinária". Título: "As aulas já começaram". Apoio: "Matrícula até o 3º módulo ([DATA]). Sobre os módulos já realizados, fale com o time." Rodapé: "Campus São Paulo. Faculdade UFAPE".
 
-**-extb, Google** (o título 5 é o campus no lugar da data)
+**-extb, Google**
 - Títulos: 1 "Ortopedia Veterinária" (21) | 2 "Faculdade UFAPE" (15) | 3 "Matrícula até o 3º módulo" (25) | 4 "As aulas já começaram" (21) | 5 "Campus São Paulo" (16)
 - Descrição 1, fixada (57): "Pós-graduação em Ortopedia Veterinária, campus São Paulo."
 - Descrição 2 (86, contada com uma data de dois dias no lugar de "[DATA]"): "As aulas já começaram. Matrícula até o 3º módulo, em [DATA]. Fale com o time."
@@ -503,13 +502,13 @@ A ficha mostra módulos de 2026 (turma IV, início em 15/08/2026) e a planilha d
 | Meta, trecho visível | 125 | 120 | -exta de 68635; -extb de 68617 | 5 |
 | Meta, título | 40 | 32 | -exta, todas | 8 |
 | Meta, descrição | 30 | 28 | -extb com data de dois dias | 2 |
-| Google, título | 30 | 28 | -extb, título 5 com data | 2 |
+| Google, título | 30 | 27 | título 1 de 68635 | 3 |
 | Google, descrição 1 (DS1 sem data) | 90 | 86 | 366 | 4 |
 | Google, descrição 2 | 90 | 88 | -exta de 68636 | 2 |
 
 Pontos de atenção: 68636 -exta (descrição 2 com 88) e os trechos visíveis de 68635 (120), 68617 (120) e 366 (118) estão perto do limite. 662 tem "[DATA]" no lugar da data: as contagens usam os 15 caracteres de uma data de dois dias. Se a Ufape informar um dia só ("dd/mm/2027", 10 caracteres), as linhas ficam 5 caracteres mais curtas. Recontar tudo no gerenciador e no editor do Google Ads antes de subir (a contagem acima é por soma de fragmentos, sem script).
 
-Pins sugeridos no Google [SUPOSIÇÃO de plataforma; conferir no editor]: em `__area`, título 1 na posição 1 e "Faculdade UFAPE" na posição 3; em `__marca`, "Faculdade UFAPE" na posição 1 e o título da área na posição 2; descrição 1 fixada na posição 1 e descrição 2 na posição 2, para a regra aparecer sempre que houver duas descrições. Os títulos 3, 4 e 5 não são fixados; qualquer combinação deles é verdadeira, e por isso estes 5 títulos substituem os títulos herdados do texto A (que não cabem na extensão, por citarem "Início em dd/mm/aaaa" ou o mês da turma, 8.9). Títulos herdados só voltam com aprovação do qa.
+Pins sugeridos no Google [SUPOSIÇÃO de plataforma; conferir no editor]: em `__area`, título 1 na posição 1 e "Faculdade UFAPE" na posição 3; em `__marca`, "Faculdade UFAPE" na posição 1 e o título da área na posição 2; descrição 1 fixada na posição 1 e descrição 2 na posição 2, para a regra aparecer sempre que houver duas descrições. Os títulos 3, 4 e 5 não são fixados; qualquer combinação deles é verdadeira; nenhum título cita data, e a data de início e a do 3º módulo aparecem só na descrição 2, fixada, com a regra completa (EM16), e por isso estes 5 títulos substituem os títulos herdados do texto A (que não cabem na extensão, por citarem "Início em dd/mm/aaaa" ou o mês da turma, 8.9). Títulos herdados só voltam com aprovação do qa.
 
 ---
 
@@ -556,7 +555,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 | Sequência -exta e -extb e a troca no dia do início (seção 2) | pessoa do marketing com o gestor-de-midia | resolução do CC1 pelo orquestrador; a troca é pedido de aprovação por turma; sem mudança de verba |
 | Regra de matrícula até o 3º módulo, nas duas peças | pessoa do marketing; qa-de-marketing na conformidade | decisão 18 do CEO; a última frase da -extb ("fale com o time") muda se OU3 mudar |
 | "Aulas em <data>" na -exta, sem urgência | qa-de-marketing | a data é a da ficha; nenhuma expressão de escassez |
-| Frase da passagem e do hotel (AP8) na -exta | pessoa do marketing | mesma aprovação do AP8; a DT do Google como 3ª descrição depende do AGP20 |
+| Frase da passagem e do hotel (AP8) na -exta | pessoa do marketing | mesma aprovação do AP8; só no Meta; sai por pedido humano se a Ufape confirmar a turma antes do início |
 | Preço, parcela, valor de inscrição ou matrícula | não aplicável | nenhuma peça cita (U11); só a frase do AP7 no Meta, sujeita às 4 condições do criativos v3 |
 | Bolsa, prova de bolsa, desconto, promoção (341) | não aplicável | nenhuma peça cita |
 | Nota ou texto do MEC, "certificado" | não aplicável | nenhuma peça cita |
@@ -617,7 +616,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 ## [SUPOSIÇÃO]
 
 - "Fale com o time" como referência neutra aos módulos já realizados (origem: gestor 12.9, "o time explica os módulos já dados"; sem promessa de gravação nem reposição).
-- A -exta inclui a frase do AP8 (passagem e hotel) por ser anterior ao início e a turma ainda poder não fechar (origem: regra da linha). A DT como 3ª descrição do Google na -exta também.
+- A -exta inclui a frase do AP8 (passagem e hotel) no Meta, por ser anterior ao início e a extensão só rodar com a turma abaixo de 15 matrículas (origem: regra da linha e anuncios-meta 6.4).
 - Nome do anúncio Meta `<código>-r2-exta_e11_regra3mod_v1` e `-extb_` (origem: a extensão é versão do r2, "turma, campus e data"; o exemplo da estratégia usa o gancho `regra3mod`; nome final é deste agente, conforme anuncios-meta 6.4).
 - "Aulas em abril" e "abril de 2027" nas três turmas sem data de início citada (origem: catálogo e ficha trazem abril de 2027; em 366 vale para as duas datas, 10/04 e 24/04).
 - Persona da peça -ext (quem visitou a página ou engajou com o Instagram); pins e uso de 5 títulos próprios no Google (regras de plataforma sem fonte nos arquivos; conferir no editor).
@@ -632,10 +631,10 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 - **OU6:** "até o 3º módulo" lido como "até a véspera" (a mídia para na véspera) ou incluindo o dia do módulo.
 - **OU8:** como paga quem entra depois do corte (não aparece em nenhuma peça).
 - Dia do 3º módulo em 68635, 679 e 366 (só trava a -extb) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
-- Data de início de 68636 (planilha sem data), de 366 (P4: planilha 10/04/2027, site 24/04/2027) e de 662 (P3: página com 15/08/2026) e correção do link de 679 (P3). A data de troca depende delas.
+- Data de início de 68636 (planilha sem data), de 366 (P4: planilha 10/04/2027, site 24/04/2027) e de 662 (P3: página com 15/08/2026) e correção do link de 679 (P3). A data de troca depende delas; e se 24/04/2027 é o início de uma turma nova de 662 ou o módulo 9 da turma IV (ficha 662, cronograma).
 - Formato do módulo 3 de 341 (a ficha lista "online" e "presencial"); não aparece no texto.
 - Vagas: turma sem 15 matrículas e não lotada na véspera de cada extensão (condição de subida).
 - Atualização dos arquivos de campanha (anuncios-meta e anuncios-google) com a sequência -exta e -extb, sem mudar diária nem total da turma.
 - Aprovador de "Anúncios e verba" em contexto/ufape-geral.md ainda vazio.
 - Manual de marca (logotipo, cores e fontes) para a arte.
-- Limites e contagens no gerenciador da Meta e no editor do Google Ads (recontagem por script ou na plataforma).
+- Prévia no gerenciador da Meta e no editor do Google Ads (as contagens já foram recontadas por script; contar de novo só os títulos trocados em CE1).
