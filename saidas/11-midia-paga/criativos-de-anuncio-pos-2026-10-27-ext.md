@@ -506,7 +506,7 @@ A ficha mostra módulos de 2026 (turma IV, início em 15/08/2026) e a planilha d
 | Google, descrição 1 (DS1 sem data) | 90 | 86 | 366 | 4 |
 | Google, descrição 2 | 90 | 88 | -exta de 68636 | 2 |
 
-Pontos de atenção: 68636 -exta (descrição 2 com 88) e os trechos visíveis de 68635 (120), 68617 (120) e 366 (118) estão perto do limite. 662 tem "[DATA]" no lugar da data: as contagens usam os 15 caracteres de uma data de dois dias. Se a Ufape informar um dia só ("dd/mm/2027", 10 caracteres), as linhas ficam 5 caracteres mais curtas. Recontar tudo no gerenciador e no editor do Google Ads antes de subir (a contagem acima é por soma de fragmentos, sem script).
+Pontos de atenção: 68636 -exta (descrição 2 com 88) e os trechos visíveis de 68635 (120), 68617 (120) e 366 (118) estão perto do limite. 662 tem "[DATA]" no lugar da data: as contagens usam os 15 caracteres de uma data de dois dias. Se a Ufape informar um dia só ("dd/mm/2027", 10 caracteres), as linhas ficam 5 caracteres mais curtas. Recontar tudo no gerenciador e no editor do Google Ads antes de subir (a contagem acima é por soma de fragmentos e foi recontada por script pelo orquestrador em 27/10/2026).
 
 Pins sugeridos no Google [SUPOSIÇÃO de plataforma; conferir no editor]: em `__area`, título 1 na posição 1 e "Faculdade UFAPE" na posição 3; em `__marca`, "Faculdade UFAPE" na posição 1 e o título da área na posição 2; descrição 1 fixada na posição 1 e descrição 2 na posição 2, para a regra aparecer sempre que houver duas descrições. Os títulos 3, 4 e 5 não são fixados; qualquer combinação deles é verdadeira; nenhum título cita data, e a data de início e a do 3º módulo aparecem só na descrição 2, fixada, com a regra completa (EM16), e por isso estes 5 títulos substituem os títulos herdados do texto A (que não cabem na extensão, por citarem "Início em dd/mm/aaaa" ou o mês da turma, 8.9). Títulos herdados só voltam com aprovação do qa.
 
@@ -561,7 +561,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 | Nota ou texto do MEC, "certificado" | não aplicável | nenhuma peça cita |
 | Depoimento, imagem de aluno ou de professor | não aplicável | nenhuma peça usa; a arte é só tipografia sobre a cor da marca [CONFIRMAR manual de marca] |
 | Frase do AP7 no Meta (menos 662, 68636 e 679) | pessoa do marketing | confirmar na página, no dia da subida, que parcelas, total e matrícula estão visíveis |
-| Datas de início e do 3º módulo | Ufape | dia do 3º módulo em 68635, 679, 366 e 662 (só a -extb); data de início de 68636 (planilha), 366 (P4) e 662 (P3) |
+| Datas de início e do 3º módulo | Ufape | dia do 3º módulo em 68635, 679, 366 e 662 (trava a -extb e, enquanto o gestor-de-midia não liberar a extensão sem o dia, também a -exta de 68635, 679 e 366); data de início de 68636 (planilha), 366 (P4) e 662 (P3) |
 | "Até o 3º módulo" lido como "até a véspera" | Ufape (OU6) | muda a redação e as contagens (seção 1.2) |
 | Peças -extb de 333 e 68632 | Ufape (OU3) e pessoa do marketing | só valem com a extensão correndo até o 3º módulo |
 | Condição de subida: turma sem 15 matrículas e não lotada | gestor-de-midia | [CONFIRMAR vagas] (anuncios-meta 6.4, anuncios-google 4.6) |
@@ -605,7 +605,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 
 - Os 14 códigos, nomes, campus e datas de início vêm do catálogo, seção 2 (contexto/catalogo-de-cursos.md). Observações de fonte: 68636 só no site; 366 e 662 com a data da planilha (decisão 12). As três turmas sem data de início citada (68636, 679, 366) têm início em abril de 2027 pelo catálogo e pela ficha.
 - Datas do 3º módulo: cronograma de cada ficha em contexto/cursos/pos/: 68615 (22 e 23/05/2027), 289 (15 e 16/05/2027), 333 (29 e 30/05/2027), 657 (22 e 23/05/2027), 341 (01 e 02/05/2027), 68636 (19 e 20/06/2027), 68617 (19 e 20/06/2027), 68628 (26 e 27/06/2027), 68609 (26 e 27/06/2027), 68632 (12 e 13/06/2027). 68635, 679 e 366: só "Junho de 2027". 662: ficha com módulos de 2026.
-- A Ufape aceita matrícula até o 3º módulo em todas as turmas de Pós (decisão 18, 27/10/2026; contexto/pos-graduacao.md). A extensão é de R$ 150,00 por turma, só remarketing, com 1 peça na Meta e anúncio -ext no Google, até a véspera do 3º módulo (anuncios-meta 6.4, anuncios-google 4.6 e AGP25).
+- A Ufape aceita matrícula até o 3º módulo em todas as turmas de Pós (decisão 18, 27/10/2026; contexto/pos-graduacao.md). A extensão é de R$ 150,00 por turma, só remarketing, com 1 peça por vez na Meta e 1 anúncio por grupo por vez no Google (-exta e depois -extb), até a véspera do 3º módulo (anuncios-meta 6.4, anuncios-google 4.6 e AGP25).
 - CC1 resolvido pelo orquestrador em 27/10/2026: -exta do dia seguinte ao corte até a véspera do início e -extb do início até a véspera do 3º módulo, na mesma campanha, sem mudar a verba.
 - Janelas da extensão, nomes de campanha e regras de montagem: anuncios-meta 3.2 e 6.4; anuncios-google 3, 4.2, 8.1 e 8.9.
 - Descrições DS1 sem data e títulos de área: anuncios-google 8.3 e 8.9 (as contagens batem com a soma de nome e fragmentos refeita aqui).
@@ -620,7 +620,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 - Nome do anúncio Meta `<código>-r2-exta_e11_regra3mod_v1` e `-extb_` (origem: a extensão é versão do r2, "turma, campus e data"; o exemplo da estratégia usa o gancho `regra3mod`; nome final é deste agente, conforme anuncios-meta 6.4).
 - "Aulas em abril" e "abril de 2027" nas três turmas sem data de início citada (origem: catálogo e ficha trazem abril de 2027; em 366 vale para as duas datas, 10/04 e 24/04).
 - Persona da peça -ext (quem visitou a página ou engajou com o Instagram); pins e uso de 5 títulos próprios no Google (regras de plataforma sem fonte nos arquivos; conferir no editor).
-- Limites de 125, 40 e 30 (Meta) e 30 e 90 (Google) como referência de plataforma; as contagens são por soma de fragmentos, sem script.
+- Limites de 125, 40 e 30 (Meta) e 30 e 90 (Google) como referência de plataforma; as contagens são por soma de fragmentos, recontadas por script pelo orquestrador em 27/10/2026.
 - Estático 1:1 com adaptação 9:16 como formato da peça Meta (mesmo padrão do r2 do criativos v3).
 - O dia do 3º módulo que a Ufape informar para 68635, 679, 366 e 662 terá o formato de dois dias seguidos (sábado e domingo), como nas demais turmas; se for um dia só, as linhas ficam mais curtas.
 - A troca de -exta para -extb ocorre na data de início do catálogo (a aula de sábado já é a primeira).
@@ -630,7 +630,7 @@ UTM do Meta: `utm_source=meta&utm_medium=paid_social&utm_campaign=<coluna acima>
 - **OU3:** como o aluno recupera os módulos que perdeu. Pode mudar a última frase de toda -extb e decide a -extb de 333 e 68632.
 - **OU6:** "até o 3º módulo" lido como "até a véspera" (a mídia para na véspera) ou incluindo o dia do módulo.
 - **OU8:** como paga quem entra depois do corte (não aparece em nenhuma peça).
-- Dia do 3º módulo em 68635, 679 e 366 (só trava a -extb) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
+- Dia do 3º módulo em 68635, 679 e 366 (trava a -extb e, pelos arquivos de campanha, também a subida da -exta, até o gestor-de-midia decidir) e o 3º módulo da turma de 2027 de 662 [CONFIRMAR NO CATÁLOGO] (trava as duas peças).
 - Data de início de 68636 (planilha sem data), de 366 (P4: planilha 10/04/2027, site 24/04/2027) e de 662 (P3: página com 15/08/2026) e correção do link de 679 (P3). A data de troca depende delas; e se 24/04/2027 é o início de uma turma nova de 662 ou o módulo 9 da turma IV (ficha 662, cronograma).
 - Formato do módulo 3 de 341 (a ficha lista "online" e "presencial"); não aparece no texto.
 - Vagas: turma sem 15 matrículas e não lotada na véspera de cada extensão (condição de subida).
