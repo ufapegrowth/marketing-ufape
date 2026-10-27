@@ -62,7 +62,7 @@
 | WhatsApp | WhatsApp com DDD | sim | canal do retorno do time de vendas [SUPOSIÇÃO: o retorno é por WhatsApp] | Confira o número do WhatsApp com DDD. |
 | E-mail | E-mail (opcional) | não | só para quem quer receber mensagens por e-mail; sem ele o retorno acontece pelo WhatsApp [SUPOSIÇÃO: o CRM aceita lead sem e-mail, CONFIRMAR] | Confira o e-mail. |
 
-Placeholders sem número: "Seu nome", "DDD e número", "voce@email.com.br" não é usado; o campo de e-mail fica sem exemplo.
+Dica dentro do campo: só o WhatsApp leva "DDD e número". Os outros dois ficam sem exemplo, para a tela não carregar número.
 
 **Caixas de aceite (opcionais, nunca pré-marcadas), uma por canal e finalidade (regra E4 do plano geral):**
 
@@ -364,7 +364,7 @@ O título é a chamada principal da F2, sem mudança. A menção à citopatologi
 
 Regras comuns de janela, métrica, mínimo de leads e decisão: seção 0.5.
 
-**V1: "Quero tirar minhas dúvidas" (31 não: 26 caracteres)**
+**V1: "Quero tirar minhas dúvidas" (26 caracteres)**
 
 - **Mudança:** o botão do hero, do formulário e do `cta_final` passa de "Quero receber o retorno do time" para "Quero tirar minhas dúvidas". Nada mais muda.
 - **Efeito previsto:** taxa de envio do formulário acima do controle; inscrição paga por lead igual.
