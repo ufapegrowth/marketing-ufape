@@ -53,7 +53,13 @@
     "natureza": "avaliacao_do_agente",
     "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
   },
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "livres-623",
+      "relacao": "duplicidade_provavel",
+      "natureza": "[SUPOSIÇÃO]"
+    }
+  ],
   "local": "São Paulo",
   "modalidade": "Presencial",
   "modalidade_normalizada": "presencial",
@@ -65,13 +71,7 @@
   "dias_ate_inicio": 32,
   "fim_das_inscricoes": null,
   "preco_texto_site": "R$ 890,00 à vista (Pix ou boleto) ou 6x de R$ 205,00 no cartão.",
-  "preco_estruturado": {
-    "moeda": "BRL",
-    "parcelas": 6,
-    "valor_parcela": 205.0,
-    "total": 890.0,
-    "matricula": null
-  },
+  "preco_estruturado": null,
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
@@ -99,7 +99,6 @@
     "template": "templates/kit-de-lancamento-livres.md",
     "variacao": null,
     "escopo": "item",
-    "acrescimos": [],
     "entregas": [
       {
         "chave": "pagina",
@@ -107,11 +106,16 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_8_canais",
@@ -119,11 +123,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -131,11 +139,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -143,11 +155,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp",
@@ -155,11 +171,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email",
@@ -167,13 +187,18 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       }
-    ]
+    ],
+    "acrescimos": []
   },
   "canais": [
     {
@@ -241,7 +266,7 @@
         "agente": "cmo",
         "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
         "secao": null,
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -251,7 +276,7 @@
         "agente": "mensagens",
         "caminho": "saidas/02-estrategia-e-posicionamento/mensagens-livres-2026-10-26.md",
         "secao": "A5",
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -274,7 +299,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68637-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -288,7 +313,7 @@
       "resolvida_em": null
     },
     {
-      "id": "decisão 14",
+      "id": "68637-p02",
       "ref_plano": "decisão 14",
       "tipo": "kit",
       "descricao": "Cursos Livres ficam por último na ordem de prioridade; kit ainda não produzido",
@@ -300,9 +325,112 @@
       "fonte": "docs/execucao-2026-10-26.md",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
+    },
+    {
+      "id": "68637-p03",
+      "ref_plano": "P7",
+      "tipo": "duplicidade",
+      "descricao": "Duplicidade provável com livres-623; a Ufape confirma qual página fica à venda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "relacionados"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68637-p04",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "vagas.turma_minima",
+        "vagas.vagas_ofertadas",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68637-p05",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68637-p06",
+      "ref_plano": "fim das inscrições",
+      "tipo": "data",
+      "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes"
+      ],
+      "bloqueia": [],
+      "fonte": "contexto/cursos/livres/68637-curso-de-imersao-teorico-e-pratico-em-endoscopia-digestiva-sao-paulo.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68637-p07",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
     }
   ],
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "ref": "R8",
+      "o_que": "Anúncios ativos que levam à página 623: trocar para a 68637 ou pausar em 28/10",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "[CONFIRMAR]",
+      "efeito_esperado": "Nenhum clique para página com data errada",
+      "como_desfazer": "[CONFIRMAR]",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    }
+  ],
   "historico": [
     {
       "revisao": 1,
@@ -316,7 +444,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 2,
+    "pendencias_abertas": 7,
     "bloqueado": false
   }
 }

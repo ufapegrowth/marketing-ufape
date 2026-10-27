@@ -107,11 +107,16 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_8_canais",
@@ -119,11 +124,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_de_midia",
@@ -131,11 +140,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "gestor-de-midia",
+        "responsavel": [
+          "gestor-de-midia"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -143,11 +156,15 @@
         "quantidade_minima": 6,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -155,11 +172,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "post_por_docente",
@@ -167,11 +188,15 @@
         "quantidade_minima": null,
         "regra_quantidade": "1_por_docente_autorizado",
         "autorizados": null,
-        "responsavel": "autoridade-docente",
+        "responsavel": [
+          "autoridade-docente"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp",
@@ -179,11 +204,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email",
@@ -191,11 +220,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "roteiro_video",
@@ -203,11 +236,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "tiktok",
+        "responsavel": [
+          "tiktok"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       }
     ],
     "acrescimos": []
@@ -216,49 +253,49 @@
     {
       "canal": "instagram",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
-      "estado": "teste",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 5 (plano da onda)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -311,7 +348,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "662-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -325,7 +362,7 @@
       "resolvida_em": null
     },
     {
-      "id": "P2",
+      "id": "662-p02",
       "ref_plano": "P2",
       "tipo": "conformidade",
       "descricao": "Página no ar com frase de certificação ligada ao órgão regulador e turma mínima diferente de 15; correção pedida no site",
@@ -339,10 +376,10 @@
       "resolvida_em": null
     },
     {
-      "id": "U11",
+      "id": "662-p03",
       "ref_plano": "decisão 16",
       "tipo": "preco_ou_condicao",
-      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor",
+      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor (U11)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "preco_estruturado.matricula"
@@ -355,7 +392,7 @@
       "resolvida_em": null
     },
     {
-      "id": "privacidade",
+      "id": "662-p04",
       "ref_plano": "OB1",
       "tipo": "conformidade",
       "descricao": "Endereço da política de privacidade do formulário",
@@ -369,10 +406,41 @@
       "resolvida_em": null
     },
     {
-      "id": "E1",
+      "id": "662-p05",
+      "ref_plano": "P3",
+      "tipo": "link",
+      "descricao": "Links trocados: Odontologia 68662 e Ortopedia 662; linha \"Citopatologia 03/04\" que aponta para Infectologia 679; provas de Cardiologia GO e SP invertidas; Pneumologia 670 e prova de Oftalmologia 68656 fora do ar. Tratamento no plano…",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "pagina_oficial"
+      ],
+      "bloqueia": [
+        "data",
+        "preco"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p06",
+      "ref_plano": "P5",
+      "tipo": "turma",
+      "descricao": "Turma diferente entre planilha e site. Tratamento no plano: [CONFIRMAR]. Peças sem número de turma",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "turma"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p07",
       "ref_plano": "OU18",
       "tipo": "data",
-      "descricao": "Turma de 2027 sem data confiável (24/04/2027 coincide com o módulo 9 da turma IV); campanha atual com pedido de pausa",
+      "descricao": "Bloqueio no plano da onda 3 (tabela 1.1): OU18: espera total; Pergunta OU18 à Ufape ainda sem resposta; afeta: todo o kit e a campanha que roda hoje",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -382,12 +450,174 @@
         "peca_final",
         "anuncio"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p08",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p09",
+      "ref_plano": "OU4",
+      "tipo": "meta_ou_verba",
+      "descricao": "Vagas totais e restantes da turma ainda não informadas pela Ufape (só números somados)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "vagas.vagas_ofertadas"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, seção 3",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p10",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas",
+        "kit.entregas[5].autorizados"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p11",
+      "ref_plano": "fim das inscrições",
+      "tipo": "data",
+      "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes"
+      ],
+      "bloqueia": [],
+      "fonte": "contexto/cursos/pos/662-pos-graduacao-em-ortopedia-veterinaria.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "662-p12",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo",
+        "kit.entregas[6].prazo",
+        "kit.entregas[7].prazo",
+        "kit.entregas[8].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
   ],
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "ref": "OC8",
+      "o_que": "Pausar a campanha atual de 662 até OU18, com exportação, se a URL ainda levar à turma de 2026 (pedido formal pelo gestor, O11)",
+      "por_que": "anúncio que leva a turma errada falha em \"página entrega o que promete\"",
+      "quanto": "deixa de gastar a diária atual [DADO NÃO FORNECIDO]; nada novo",
+      "efeito_esperado": "nenhum gasto com destino errado",
+      "como_desfazer": "reativar com a página certa",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AMP13 a AMP25",
+      "o_que": "Campanhas Meta das 14 turmas (13 ativas; 662 pausada até OU18), extensão em duas peças, plantão de sábado e feriado",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md (v7))",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AGP12 a AGP25",
+      "o_que": "Campanhas de Busca das mesmas turmas, mesmas datas e regras",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md (v7))",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "PP16 e MO6",
+      "o_que": "Plano de abril e liberação da -exta de 68635, 679 e 366",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (v7) e gestor-de-midia-pos-2026-10-27-onda2.md)",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OM1 a OM7",
+      "o_que": "Conferência das páginas de abril, pausa de 662 (com ciência do cmo), execução em sábado e feriado, plano de maio",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md)",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "R5",
+      "o_que": "289 sem aumento de verba; conferir em 28/10 a URL da 662 e pausar se estiver errada",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "Nenhum gasto fora do plano",
+      "como_desfazer": "[CONFIRMAR]",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    }
+  ],
   "historico": [
     {
       "revisao": 1,
@@ -401,7 +631,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 5,
+    "pendencias_abertas": 12,
     "bloqueado": true
   }
 }

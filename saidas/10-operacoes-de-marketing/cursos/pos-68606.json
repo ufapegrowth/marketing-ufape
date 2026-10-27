@@ -107,11 +107,16 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_8_canais",
@@ -119,11 +124,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md"
+        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_de_midia",
@@ -131,11 +140,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "gestor-de-midia",
+        "responsavel": [
+          "gestor-de-midia"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -143,11 +156,15 @@
         "quantidade_minima": 6,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -155,11 +172,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "post_por_docente",
@@ -167,11 +188,15 @@
         "quantidade_minima": null,
         "regra_quantidade": "1_por_docente_autorizado",
         "autorizados": null,
-        "responsavel": "autoridade-docente",
+        "responsavel": [
+          "autoridade-docente"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp",
@@ -179,11 +204,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email",
@@ -191,11 +220,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "roteiro_video",
@@ -203,14 +236,67 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "tiktok",
+        "responsavel": [
+          "tiktok"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       }
     ],
-    "acrescimos": []
+    "acrescimos": [
+      {
+        "chave": "inventario_do_kit",
+        "entrega": "Inventário do que já existe do kit, conferido item por item",
+        "quantidade": 1,
+        "responsavel": [
+          "cmo"
+        ],
+        "prazo": "2026-10-28",
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
+      },
+      {
+        "chave": "whatsapp_reta_final",
+        "entrega": "Mensagens de reta final, sem urgência por vagas, porque não há número de vagas",
+        "quantidade": null,
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
+      },
+      {
+        "chave": "pausa_e_relatorio_final",
+        "entrega": "Pedido de pausa das campanhas e relatório final",
+        "quantidade": 2,
+        "responsavel": [
+          "cmo",
+          "gestor-de-midia"
+        ],
+        "prazo": null,
+        "status": "a_fazer",
+        "qa": "pendente",
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
+      }
+    ],
+    "inventario": {
+      "situacao": "pendente",
+      "prazo": "2026-10-28",
+      "responsavel": "cmo"
+    }
   },
   "canais": [
     {
@@ -317,14 +403,6 @@
         "estado": "pendente_de_aprovacao",
         "aprovado_em": null,
         "ref_aprovacao": null
-      },
-      {
-        "agente": "copy-de-mensagens",
-        "caminho": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md",
-        "secao": "68606",
-        "estado": "pendente_de_aprovacao",
-        "aprovado_em": null,
-        "ref_aprovacao": null
       }
     ]
   },
@@ -344,7 +422,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68606-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -358,7 +436,7 @@
       "resolvida_em": null
     },
     {
-      "id": "P2",
+      "id": "68606-p02",
       "ref_plano": "P2",
       "tipo": "conformidade",
       "descricao": "Página no ar com frase de certificação ligada ao órgão regulador e turma mínima diferente de 15; correção pedida no site",
@@ -372,10 +450,10 @@
       "resolvida_em": null
     },
     {
-      "id": "U11",
+      "id": "68606-p03",
       "ref_plano": "decisão 16",
       "tipo": "preco_ou_condicao",
-      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor",
+      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor (U11)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "preco_estruturado.matricula"
@@ -388,7 +466,7 @@
       "resolvida_em": null
     },
     {
-      "id": "privacidade",
+      "id": "68606-p04",
       "ref_plano": "OB1",
       "tipo": "conformidade",
       "descricao": "Endereço da política de privacidade do formulário",
@@ -400,9 +478,186 @@
       "fonte": "saidas/08-conversao/otimizador-de-cta-pos-2026-10-27-onda2.md",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
+    },
+    {
+      "id": "68606-p05",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68606-p06",
+      "ref_plano": "OU4",
+      "tipo": "meta_ou_verba",
+      "descricao": "Vagas totais e restantes da turma ainda não informadas pela Ufape (só números somados)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "vagas.vagas_ofertadas"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, seção 3",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68606-p07",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas",
+        "kit.entregas[5].autorizados"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68606-p08",
+      "ref_plano": "fim das inscrições",
+      "tipo": "data",
+      "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes"
+      ],
+      "bloqueia": [],
+      "fonte": "contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68606-p09",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo",
+        "kit.entregas[6].prazo",
+        "kit.entregas[7].prazo",
+        "kit.entregas[8].prazo",
+        "kit.acrescimos[1].prazo",
+        "kit.acrescimos[2].prazo",
+        "kit.acrescimos[1].quantidade"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, seção 4",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
     }
   ],
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "ref": "OA1",
+      "o_que": "Conferir na exportação o gasto do ciclo das 6 campanhas e pausar já a que tiver chegado a R$ 2.000,00, com exportação prévia (PP15); com o resto, fixar a diária de cada turma para durar até a véspera do 3º módulo",
+      "por_que": "o ciclo ficou mais longo e a verba não cresceu",
+      "quanto": "sem gasto novo; diária = (R$ 2.000,00 menos gasto acumulado) dividido pelos dias até a pausa [CONFIRMAR, PP15]",
+      "efeito_esperado": "nenhuma turma acima da verba e nenhuma sem verba antes da data limite",
+      "como_desfazer": "voltar à diária anterior, dentro do teto",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA4",
+      "o_que": "68606: como está até 06/11 (com a troca da D20, se houver fadiga); anúncios com a data de início saem em 07/11; de 07/11/2026 a 22/01/2027, 23h59, só remarketing e busca",
+      "por_que": "3º módulo em 23/01/2027",
+      "quanto": "sem aumento; até o que sobrar dos R$ 2.000,00 [CONFIRMAR, PP15]",
+      "efeito_esperado": "gasto só em quem já visitou a página ou busca a área; nenhum lead na turma errada",
+      "como_desfazer": "reativar o conjunto frio exportado",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA8",
+      "o_que": "Registrar no kit, sem mudar o template, só as lacunas que sobram: posts por docente além da coordenação (707: 16; 68604: 11; 68606: 37; 698: 4; 68610: 17 ou 18; 68608: 13); criativos no ar abaixo de 3 ou reprovados; em 698, todo item que não sair por falta de correção do site",
+      "por_que": "o mínimo não baixa; o que não chega fica escrito com motivo",
+      "quanto": "sem custo",
+      "efeito_esperado": "lacuna visível no relatório final",
+      "como_desfazer": "produzir depois, se a Ufape pedir",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA10",
+      "o_que": "Corrigir no site: data de 698 (A6; pela decisão 19 não bloqueia peça nem mídia); afirmações ligadas ao órgão regulador nas 6 páginas, inclusive a frase de certificação que a squad não repete (707) e a frase de certificação que a squad não repete (68610) (A7); turma mínima de 20 para 15 e linha de vagas em 698 (A12); A13: a regra \"matrícula até o 3º módulo\" escrita nas páginas das turmas, com a…",
+      "por_que": "sem isso nenhuma página conta como entregue e a página não confirma o que a mensagem diz",
+      "quanto": "sem custo",
+      "efeito_esperado": "páginas que entregam o que a peça promete",
+      "como_desfazer": "não se aplica",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA9",
+      "o_que": "Envio em massa, depois do qa, só para contatos com opt-in de S2 e S3 da área, de cada toque da tabela abaixo; depois do início, sempre com a frase da regra 6",
+      "por_que": "a base é a principal alavanca até o 3º módulo",
+      "quanto": "sem custo de mídia; contatos por turma e área [CONFIRMAR]",
+      "efeito_esperado": "matrícula de quem já está na base",
+      "como_desfazer": "pausar a régua no CRM; SAIR tira de tudo",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA11",
+      "o_que": "Publicar no Instagram (e reaproveitar no Facebook) 6 posts por turma (2 no feed, 4 em Stories) nas janelas da seção 4",
+      "por_que": "kit mínimo das 6 turmas",
+      "quanto": "sem custo de mídia",
+      "efeito_esperado": "lembrança e clique de quem segue o perfil",
+      "como_desfazer": "arquivar ou apagar o post",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OA12",
+      "o_que": "Publicar os posts de docente com chamada para a turma e a regra completa: AD-A9-1, AD-A9-2, AD-A9-3, AD-A5-1, AD-A6-1, AD-A11-1; AD-A2-2 liberado (decisão 19); AD-A8-1 só com o candidato confirmado. Cada um só com o ok e a revisão clínica do próprio docente",
+      "por_que": "prova de autoridade da turma",
+      "quanto": "sem custo de mídia",
+      "efeito_esperado": "confiança na escolha da turma",
+      "como_desfazer": "arquivar ou apagar o post",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    }
+  ],
   "historico": [
     {
       "revisao": 1,
@@ -416,7 +671,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 4,
+    "pendencias_abertas": 9,
     "bloqueado": false
   }
 }

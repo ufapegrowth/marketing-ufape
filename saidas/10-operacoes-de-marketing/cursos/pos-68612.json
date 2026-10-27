@@ -38,7 +38,7 @@
     "natureza": "plano_do_cmo"
   },
   "recorte": "pendencia",
-  "motivo_do_recorte": "status do catálogo pede verificação ou o item está fora do recorte",
+  "motivo_do_recorte": "pendência urgente: turma iniciada com campanha ativa (plano geral, 2.1 item 2)",
   "onda": null,
   "modo_de_venda": "com_data",
   "grupo_de_campanha": null,
@@ -52,7 +52,7 @@
   "modulos": null,
   "inicio": "2026-10-24",
   "fonte_da_data": "planilha",
-  "dias_ate_inicio": -3,
+  "dias_ate_inicio": null,
   "fim_das_inscricoes": null,
   "preco_texto_site": "30x de R$ 1.084,00; R$ 32.520,00 no cartão ou boleto; matrícula R$ 250,00",
   "preco_estruturado": {
@@ -76,10 +76,10 @@
     "autorizacoes_de_imagem_registradas": null
   },
   "status_midia": {
-    "campanha": "nao_consta",
+    "campanha": "ativa",
     "formatos": [],
     "cinco_angulos": "nao_consta",
-    "vinculo_com_a_visao": "nenhum",
+    "vinculo_com_a_visao": "provavel",
     "inicio_na_visao": null,
     "divergencia_de_data": false,
     "fonte": "docs/visao-de-campanhas-2026-10-26.md",
@@ -95,50 +95,50 @@
   "canais": [
     {
       "canal": "instagram",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
-      "estado": "teste",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -182,7 +182,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68612-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -194,9 +194,38 @@
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
+    },
+    {
+      "id": "68612-p02",
+      "ref_plano": "P8",
+      "tipo": "outro",
+      "descricao": "Decidir pausa ou manutenção da campanha ativa em turma iniciada (A4)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "status_midia.campanha"
+      ],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
     }
   ],
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "ref": "A4",
+      "o_que": "Decidir sobre as campanhas ativas das 6 turmas já iniciadas (650, 68662, 706, 586, 554, 68612): pausar ou manter",
+      "por_que": "turma já começou e a campanha segue ativa",
+      "quanto": "verba gasta e diária: [CONFIRMAR]",
+      "efeito_esperado": "parar gasto em turma que talvez não aceite mais entrada",
+      "como_desfazer": "reativar no gerenciador de anúncios; ação feita por humano",
+      "status": "pendente",
+      "pedido_em": "2026-10-26",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    }
+  ],
   "historico": [
     {
       "revisao": 1,
@@ -210,7 +239,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 1,
+    "pendencias_abertas": 2,
     "bloqueado": false
   }
 }

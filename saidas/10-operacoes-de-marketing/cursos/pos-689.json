@@ -44,7 +44,7 @@
   "motivo_do_recorte": "sem venda ou encerrado no catálogo",
   "onda": null,
   "modo_de_venda": "com_data",
-  "grupo_de_campanha": "provas-de-bolsa-2026-11-27",
+  "grupo_de_campanha": null,
   "gut": null,
   "relacionados": [],
   "local": "São Paulo",
@@ -67,10 +67,22 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "prova_de_bolsa": {
+    "data_da_prova": null,
+    "horario_texto": "[CONFIRMAR]",
+    "formato": "presencial",
+    "local_texto": "São Paulo",
+    "nota_de_corte_texto": "[CONFIRMAR]",
+    "turma_de_destino": {
+      "codigo": "[CONFIRMAR]",
+      "sugestao_do_plano": null,
+      "natureza_da_sugestao": "[SUPOSIÇÃO]"
+    },
+    "bolsas_previstas": null,
+    "prazo_de_matricula_apos_resultado": "[CONFIRMAR]",
+    "divulgacao_do_resultado": "[CONFIRMAR]",
+    "minimo_para_confirmar_turma": 15
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -86,69 +98,56 @@
     "template": null,
     "variacao": null,
     "escopo": "grupo",
-    "entregas": [
-      {
-        "chave": "campanha_unica",
-        "entrega": "Campanha única das provas de 27/11",
-        "quantidade_minima": 1,
-        "regra_quantidade": null,
-        "autorizados": null,
-        "responsavel": "estrategia-de-campanha",
-        "prazo": null,
-        "status": "revisar_por_mudanca",
-        "qa": "pendente",
-        "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md"
-      }
-    ],
+    "entregas": [],
     "acrescimos": []
   },
   "canais": [
     {
       "canal": "instagram",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
-      "estado": "teste",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -174,16 +173,7 @@
       }
     ],
     "area": [],
-    "curso": [
-      {
-        "agente": "estrategia-de-campanha",
-        "caminho": "saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md",
-        "secao": "689",
-        "estado": "pendente_de_aprovacao",
-        "aprovado_em": null,
-        "ref_aprovacao": null
-      }
-    ]
+    "curso": []
   },
   "metas": {
     "matriculas_alvo": null,
@@ -201,7 +191,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "689-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -211,22 +201,6 @@
         "certificacao"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
-      "aberta_em": "2026-10-27",
-      "resolvida_em": null
-    },
-    {
-      "id": "decisão 14",
-      "ref_plano": "decisão 14",
-      "tipo": "kit",
-      "descricao": "Peças das provas suspensas até nova ordem; textos antigos tratam a prova como online e precisam de varredura para presencial (decisão 20)",
-      "marcador": "[CONFIRMAR]",
-      "campos": [
-        "kit.entregas[*]"
-      ],
-      "bloqueia": [
-        "peca_final"
-      ],
-      "fonte": "docs/execucao-2026-10-26.md",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -244,24 +218,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "prova_de_bolsa": {
-    "data_da_prova": null,
-    "horario_texto": "[CONFIRMAR]",
-    "formato": "presencial",
-    "local_texto": "São Paulo",
-    "nota_de_corte_texto": "[CONFIRMAR]",
-    "turma_de_destino": {
-      "codigo": "[CONFIRMAR]",
-      "sugestao_do_plano": null,
-      "natureza_da_sugestao": "[SUPOSIÇÃO]"
-    },
-    "bolsas_previstas": null,
-    "prazo_de_matricula_apos_resultado": "[CONFIRMAR]",
-    "divulgacao_do_resultado": "[CONFIRMAR]",
-    "minimo_para_confirmar_turma": 15
-  },
   "resumo": {
-    "pendencias_abertas": 2,
-    "bloqueado": true
+    "pendencias_abertas": 1,
+    "bloqueado": false
   }
 }

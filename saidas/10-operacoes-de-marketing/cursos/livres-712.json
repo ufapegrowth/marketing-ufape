@@ -53,7 +53,13 @@
     "natureza": "avaliacao_do_agente",
     "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
   },
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "livres-642",
+      "relacao": "duplicidade_provavel",
+      "natureza": "[SUPOSIÇÃO]"
+    }
+  ],
   "local": "Online",
   "modalidade": "Online",
   "modalidade_normalizada": "online",
@@ -65,13 +71,7 @@
   "dias_ate_inicio": null,
   "fim_das_inscricoes": null,
   "preco_texto_site": "R$ 734,00 à vista (Pix ou boleto) ou 10x de R$ 88,00 no cartão.",
-  "preco_estruturado": {
-    "moeda": "BRL",
-    "parcelas": 10,
-    "valor_parcela": 88.0,
-    "total": 734.0,
-    "matricula": null
-  },
+  "preco_estruturado": null,
   "condicoes_especiais": [],
   "status_catalogo": "aberto (contínuo)",
   "status_catalogo_texto": "aberto (contínuo)",
@@ -168,7 +168,7 @@
         "agente": "cmo",
         "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
         "secao": null,
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -178,7 +178,7 @@
         "agente": "mensagens",
         "caminho": "saidas/02-estrategia-e-posicionamento/mensagens-livres-2026-10-26.md",
         "secao": "A7",
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -201,7 +201,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "712-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -215,7 +215,7 @@
       "resolvida_em": null
     },
     {
-      "id": "decisão 14",
+      "id": "712-p02",
       "ref_plano": "decisão 14",
       "tipo": "kit",
       "descricao": "Cursos Livres ficam por último na ordem de prioridade; kit ainda não produzido",
@@ -225,6 +225,63 @@
       ],
       "bloqueia": [],
       "fonte": "docs/execucao-2026-10-26.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "712-p03",
+      "ref_plano": "P7",
+      "tipo": "duplicidade",
+      "descricao": "Duplicidade provável com livres-642; a Ufape confirma qual página fica à venda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "relacionados"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "712-p04",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "vagas.turma_minima",
+        "vagas.vagas_ofertadas",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "712-p05",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -243,7 +300,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 2,
+    "pendencias_abertas": 5,
     "bloqueado": false
   }
 }

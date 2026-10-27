@@ -26,9 +26,9 @@
     ]
   },
   "codigo": "68634",
-  "linha": "livres",
-  "linha_origem": "catalogo",
-  "tipo": "livre_presencial",
+  "linha": "eventos",
+  "linha_origem": "plano",
+  "tipo": "workshop",
   "nome_no_site": "Workshop de Neuromonitorização (Teórico) TRANSMITIDO + GRAVADO",
   "nome_padrao": "Workshop de Neuromonitorização (Teórico) TRANSMITIDO + GRAVADO",
   "slug_sugerido": "[CONFIRMAR]",
@@ -40,15 +40,21 @@
     "natureza": "plano_do_cmo"
   },
   "recorte": "pendencia",
-  "motivo_do_recorte": "status do catálogo pede verificação ou o item está fora do recorte",
+  "motivo_do_recorte": "pendência: modalidade transmitida e gravada do workshop, sem data no site (plano geral, 2.1 item 7)",
   "onda": null,
   "modo_de_venda": "com_data",
   "grupo_de_campanha": null,
   "gut": null,
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20",
+      "relacao": "modalidade_do_mesmo_evento",
+      "natureza": "dado"
+    }
+  ],
   "local": "Saiba Mais",
   "modalidade": "Presencial",
-  "modalidade_normalizada": "presencial",
+  "modalidade_normalizada": "online",
   "turma": null,
   "carga_horaria": "24 h",
   "modulos": null,
@@ -72,10 +78,23 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "evento": {
+    "subtipo": "workshop",
+    "data_inicio": null,
+    "data_fim": null,
+    "horario_texto": "[CONFIRMAR]",
+    "formato": "[CONFIRMAR]",
+    "modalidades": [],
+    "carga_horaria_oficial": "16 h",
+    "cupom": null,
+    "pagina_oficial": "https://faculdade.ufape.com.br/produto/68634/workshop-de-neuromonitorizacao-teorico-transmitido-gravado",
+    "destino_das_campanhas_pagas": "https://faculdade.ufape.com.br/neuro-summit/",
+    "palestrantes": {
+      "confirmados_na_ficha": null,
+      "convidados_a_definir": null,
+      "autorizacoes_de_imagem_registradas": null
+    }
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -97,50 +116,50 @@
   "canais": [
     {
       "canal": "instagram",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -155,16 +174,7 @@
         "ref_aprovacao": "plano aprovado pela pessoa do marketing"
       }
     ],
-    "linha": [
-      {
-        "agente": "cmo",
-        "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
-        "secao": null,
-        "estado": "pendente_de_aprovacao",
-        "aprovado_em": null,
-        "ref_aprovacao": null
-      }
-    ],
+    "linha": [],
     "area": [],
     "curso": []
   },
@@ -184,7 +194,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68634-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -194,6 +204,27 @@
         "certificacao"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68634-p02",
+      "ref_plano": "P9",
+      "tipo": "divergencia",
+      "descricao": "Modalidade transmitida e gravada do workshop: carga horária de 24 h na loja contra 16 h oficiais, sem data e local \"Saiba Mais\" no catálogo; correção pedida no site",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "carga_horaria",
+        "local",
+        "modalidade_normalizada",
+        "evento.data_inicio",
+        "evento.formato",
+        "evento.horario_texto"
+      ],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7 (P9) e 2.1 item 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -212,7 +243,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 1,
-    "bloqueado": false
+    "pendencias_abertas": 2,
+    "bloqueado": true
   }
 }

@@ -43,7 +43,13 @@
   "modo_de_venda": "com_data",
   "grupo_de_campanha": null,
   "gut": null,
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "eventos-700",
+      "relacao": "duplicidade_provavel",
+      "natureza": "[SUPOSIÇÃO]"
+    }
+  ],
   "local": "ONLINE",
   "modalidade": "[CONFIRMAR]",
   "modalidade_normalizada": "[CONFIRMAR]",
@@ -64,10 +70,23 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "evento": {
+    "subtipo": "simposio",
+    "data_inicio": null,
+    "data_fim": null,
+    "horario_texto": "[CONFIRMAR]",
+    "formato": "[CONFIRMAR]",
+    "modalidades": [],
+    "carga_horaria_oficial": "[CONFIRMAR]",
+    "cupom": null,
+    "pagina_oficial": "[CONFIRMAR]",
+    "destino_das_campanhas_pagas": "[CONFIRMAR]",
+    "palestrantes": {
+      "confirmados_na_ficha": null,
+      "convidados_a_definir": null,
+      "autorizacoes_de_imagem_registradas": null
+    }
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -89,50 +108,50 @@
   "canais": [
     {
       "canal": "instagram",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -167,7 +186,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "eventos-sem-codigo-paciente-grave-multidiciplinar-foco-em-casos-clinicos-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -176,6 +195,20 @@
       "bloqueia": [
         "certificacao"
       ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "eventos-sem-codigo-paciente-grave-multidiciplinar-foco-em-casos-clinicos-p02",
+      "ref_plano": "P7",
+      "tipo": "duplicidade",
+      "descricao": "Duplicidade provável com eventos-700; a Ufape confirma qual página fica à venda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "relacionados"
+      ],
+      "bloqueia": [],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
@@ -194,25 +227,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "evento": {
-    "subtipo": "simposio",
-    "data_inicio": null,
-    "data_fim": null,
-    "horario_texto": "[CONFIRMAR]",
-    "formato": "[CONFIRMAR]",
-    "modalidades": [],
-    "carga_horaria_oficial": "[CONFIRMAR]",
-    "cupom": null,
-    "pagina_oficial": "[CONFIRMAR]",
-    "destino_das_campanhas_pagas": "[CONFIRMAR]",
-    "palestrantes": {
-      "confirmados_na_ficha": null,
-      "convidados_a_definir": null,
-      "autorizacoes_de_imagem_registradas": null
-    }
-  },
   "resumo": {
-    "pendencias_abertas": 1,
+    "pendencias_abertas": 2,
     "bloqueado": false
   }
 }

@@ -14,7 +14,10 @@
     "ficha": "contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md",
     "ficha_lida_em": null,
     "campos_so_na_ficha": [
-      "pagina_oficial"
+      "pagina_oficial",
+      "evento.data_fim",
+      "evento.horario_texto",
+      "evento.cupom.comprovacao_texto"
     ],
     "visao_de_campanhas": {
       "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
@@ -29,10 +32,12 @@
   "linha": "eventos",
   "linha_origem": "catalogo",
   "tipo": "workshop",
-  "nome_no_site": "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária)",
-  "nome_padrao": "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária)",
+  "nome_no_site": "Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia",
+  "nome_padrao": "Workshop Brasileiro de Neuromonitorização",
   "slug_sugerido": "[CONFIRMAR]",
-  "aliases": [],
+  "aliases": [
+    "I Simpósio Brasileiro de Neuromonitorização Veterinária"
+  ],
   "pagina_oficial": "https://faculdade.ufape.com.br/neuro-summit/",
   "area": {
     "codigo": "A12",
@@ -53,7 +58,13 @@
     "natureza": "avaliacao_do_agente",
     "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
   },
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "livres-68634",
+      "relacao": "modalidade_do_mesmo_evento",
+      "natureza": "dado"
+    }
+  ],
   "local": "São Paulo, Av. Tiradentes, 960 (Unidade 2)",
   "modalidade": "[CONFIRMAR]",
   "modalidade_normalizada": "[CONFIRMAR]",
@@ -66,18 +77,57 @@
   "fim_das_inscricoes": null,
   "preco_texto_site": "Presencial (teórico e prático, 16 h, 30 vagas): R$ 1.250,00. Transmitido + gravado (só teoria): R$ 450,00 (produto 68634). Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT",
   "preco_estruturado": null,
-  "condicoes_especiais": [],
+  "condicoes_especiais": [
+    {
+      "tipo": "cupom",
+      "texto": "Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT",
+      "codigo": "SIMPNEUROMONIT",
+      "publico": "Aluno e ex-aluno Ufape",
+      "validade": null
+    }
+  ],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
   "vagas": {
     "turma_minima": null,
-    "vagas_ofertadas": null,
+    "vagas_ofertadas": 30,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "evento": {
+    "subtipo": "workshop",
+    "data_inicio": "2026-11-20",
+    "data_fim": "2026-11-21",
+    "horario_texto": "das 08h às 18h",
+    "formato": "presencial",
+    "modalidades": [
+      {
+        "nome": "Presencial (teórico e prático, 16 h, 30 vagas)",
+        "preco_texto_site": "R$ 1.250,00",
+        "vagas": 30,
+        "produto": null
+      },
+      {
+        "nome": "Transmitido + gravado (só teoria)",
+        "preco_texto_site": "R$ 450,00",
+        "vagas": null,
+        "produto": "68634"
+      }
+    ],
+    "carga_horaria_oficial": "16 h",
+    "cupom": {
+      "codigo": "SIMPNEUROMONIT",
+      "publico": "Aluno e ex-aluno Ufape",
+      "desconto_texto": "20% de desconto",
+      "comprovacao_texto": "Aluno e ex-aluno UFAPE comprovam o vínculo com a secretaria para garantir a condição especial."
+    },
+    "pagina_oficial": "https://faculdade.ufape.com.br/neuro-summit/",
+    "destino_das_campanhas_pagas": "https://faculdade.ufape.com.br/neuro-summit/",
+    "palestrantes": {
+      "confirmados_na_ficha": null,
+      "convidados_a_definir": null,
+      "autorizacoes_de_imagem_registradas": null
+    }
   },
   "status_midia": {
     "campanha": "ativa",
@@ -93,19 +143,39 @@
     "template": "templates/kit-de-lancamento-evento.md",
     "variacao": "workshop",
     "escopo": "item",
-    "acrescimos": [],
     "entregas": [
+      {
+        "chave": "pagina",
+        "entrega": "Página do evento (página própria da Ufape, campanhas apontam para ela)",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
+        "prazo": null,
+        "status": "inventario_pendente",
+        "qa": "pendente",
+        "arquivo": "contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md",
+        "secao": null,
+        "ref_aprovacao": null
+      },
       {
         "chave": "posts_organicos",
         "entrega": "Posts orgânicos",
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
-        "status": "devolvido",
-        "qa": "corrigir",
-        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md"
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -113,37 +183,82 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "inventario_pendente",
         "qa": "pendente",
-        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "mensagem_convite",
-        "entrega": "Mensagens (convite, véspera, dia) e e-mail convite",
-        "quantidade_minima": 4,
-        "regra_quantidade": null,
-        "autorizados": null,
-        "responsavel": "copy-de-mensagens",
-        "prazo": null,
-        "status": "devolvido",
-        "qa": "corrigir",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md"
-      },
-      {
-        "chave": "pagina",
-        "entrega": "Página do evento (página própria da Ufape, campanhas apontam para ela)",
+        "entrega": "Mensagem de convite",
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
-        "status": "nao_aplicavel",
-        "qa": "pendente",
-        "arquivo": null
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
+      },
+      {
+        "chave": "mensagem_vespera",
+        "entrega": "Mensagem de véspera",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
+      },
+      {
+        "chave": "mensagem_do_dia",
+        "entrega": "Mensagem do dia",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
+      },
+      {
+        "chave": "email_convite",
+        "entrega": "E-mail de convite",
+        "quantidade_minima": 1,
+        "regra_quantidade": null,
+        "autorizados": null,
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
+        "prazo": null,
+        "status": "aguardando_aprovacao",
+        "qa": "aprovado",
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       }
-    ]
+    ],
+    "acrescimos": []
   },
   "canais": [
     {
@@ -213,7 +328,7 @@
         "agente": "posts-sociais",
         "caminho": "saidas/05-social-e-comunidade/posts-sociais-eventos-2026-10-26.md",
         "secao": "workshop-neuro",
-        "estado": "devolvido",
+        "estado": "pendente_de_aprovacao",
         "aprovado_em": null,
         "ref_aprovacao": null
       },
@@ -229,7 +344,7 @@
         "agente": "copy-de-mensagens",
         "caminho": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md",
         "secao": "workshop-neuro",
-        "estado": "devolvido",
+        "estado": "pendente_de_aprovacao",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -251,7 +366,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -263,9 +378,125 @@
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
+    },
+    {
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20-p02",
+      "ref_plano": "U9",
+      "tipo": "data",
+      "descricao": "Fim das inscrições do workshop (presencial e transmitido) e validade e limite do cupom SIMPNEUROMONIT",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes",
+        "evento.cupom",
+        "condicoes_especiais[0].validade",
+        "evento.modalidades[1].vagas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20-p03",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "vagas.turma_minima",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20-p04",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "evento.palestrantes.confirmados_na_ficha",
+        "evento.palestrantes.convidados_a_definir",
+        "evento.palestrantes.autorizacoes_de_imagem_registradas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "eventos-workshop-neuromonitorizacao-2026-11-20-p05",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo",
+        "kit.entregas[6].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
     }
   ],
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "ref": "R2",
+      "o_que": "Mensagens de serviço fora da janela: 27/11 às 8h (prova), 20 e 21/11 às 8h (workshop), sábado de curso de Livres",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "[CONFIRMAR]",
+      "efeito_esperado": "Inscrito recebe o aviso do dia",
+      "como_desfazer": "[CONFIRMAR]",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "R3",
+      "o_que": "Mídia do Workshop Brasileiro de Neuromonitorização: criativos em 03/11, ajuste do público frio em 10/11, pausa do presencial em 18/11 às 23h59, transmitido até 19/11; teste de rastreio em 30/10",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "[CONFIRMAR]",
+      "efeito_esperado": "Uma sequência só no lugar de três calendários",
+      "como_desfazer": "[CONFIRMAR]",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "R7",
+      "o_que": "Mensagem pós-workshop (25/11) pode convidar para a prova de Anestesiologia ou Neurologia",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "[CONFIRMAR]",
+      "efeito_esperado": "Inscrições na prova vindas do workshop",
+      "como_desfazer": "[CONFIRMAR]",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    }
+  ],
   "historico": [
     {
       "revisao": 1,
@@ -278,30 +509,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "evento": {
-    "subtipo": "workshop",
-    "data_inicio": "2026-11-20",
-    "data_fim": "2026-11-21",
-    "horario_texto": "[CONFIRMAR]",
-    "formato": "presencial",
-    "modalidades": [],
-    "carga_horaria_oficial": "16 h",
-    "cupom": {
-      "codigo": "SIMPNEUROMONIT",
-      "publico": "aluno e ex-aluno",
-      "desconto_texto": "[CONFIRMAR]",
-      "comprovacao_texto": "[CONFIRMAR]"
-    },
-    "pagina_oficial": "https://faculdade.ufape.com.br/neuro-summit/",
-    "destino_das_campanhas_pagas": "https://faculdade.ufape.com.br/neuro-summit/",
-    "palestrantes": {
-      "confirmados_na_ficha": null,
-      "convidados_a_definir": null,
-      "autorizacoes_de_imagem_registradas": null
-    }
-  },
   "resumo": {
-    "pendencias_abertas": 1,
+    "pendencias_abertas": 5,
     "bloqueado": false
   }
 }

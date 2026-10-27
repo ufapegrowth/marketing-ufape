@@ -113,6 +113,8 @@ css_mapa = re.search(r'<style>(.*?)</style>', mapa, re.S).group(1)
 script = re.search(r'<script>(.*?)</script>', mapa, re.S).group(1)
 corpo_mapa = re.search(r'(<div class="bar">.*?)</div></main>', mapa, re.S).group(1)
 corpo_mapa = corpo_mapa.replace('<span>itens no catálogo</span>', '<span>itens neste documento</span>')
+corpo_mapa = corpo_mapa.replace('<span>no recorte do plano + Graduação (ramo à parte)</span>', '<span>turmas, provas e eventos até abril de 2027 + Graduação</span>')
+assert 'até abril de 2027 + Graduação' in corpo_mapa, 'rótulo do cartão do recorte mudou no mapa'
 # O mapa do documento só mostra o recorte; a lista completa continua no mapa de trabalho
 script = script.replace('const D=', 'const D_TODOS=', 1)
 script = re.sub(r'(const D_TODOS=.*?\]), AREAS=', lambda m: m.group(1) + ', D=D_TODOS.filter(x=>IDS.has(x.id)), AREAS=', script, count=1, flags=re.S)

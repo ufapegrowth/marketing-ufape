@@ -65,13 +65,7 @@
   "dias_ate_inicio": 32,
   "fim_das_inscricoes": null,
   "preco_texto_site": "R$ 1.250,00 à vista (Pix ou boleto) ou 10x de R$ 175,00 no cartão.",
-  "preco_estruturado": {
-    "moeda": "BRL",
-    "parcelas": 10,
-    "valor_parcela": 175.0,
-    "total": 1250.0,
-    "matricula": null
-  },
+  "preco_estruturado": null,
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
@@ -90,8 +84,8 @@
     "formatos": [],
     "cinco_angulos": "nao_consta",
     "vinculo_com_a_visao": "provavel",
-    "inicio_na_visao": null,
-    "divergencia_de_data": false,
+    "inicio_na_visao": "2026-12-18",
+    "divergencia_de_data": true,
     "fonte": "docs/visao-de-campanhas-2026-10-26.md",
     "lido_em": "2026-10-26"
   },
@@ -99,7 +93,6 @@
     "template": "templates/kit-de-lancamento-livres.md",
     "variacao": null,
     "escopo": "item",
-    "acrescimos": [],
     "entregas": [
       {
         "chave": "pagina",
@@ -107,11 +100,16 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_8_canais",
@@ -119,11 +117,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -131,11 +133,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -143,11 +149,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp",
@@ -155,11 +165,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email",
@@ -167,13 +181,18 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "a_fazer",
         "qa": "pendente",
-        "arquivo": null
+        "arquivo": null,
+        "secao": null,
+        "ref_aprovacao": null
       }
-    ]
+    ],
+    "acrescimos": []
   },
   "canais": [
     {
@@ -241,7 +260,7 @@
         "agente": "cmo",
         "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
         "secao": null,
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -251,7 +270,7 @@
         "agente": "mensagens",
         "caminho": "saidas/02-estrategia-e-posicionamento/mensagens-livres-2026-10-26.md",
         "secao": "A5",
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -274,7 +293,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68614-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -288,7 +307,7 @@
       "resolvida_em": null
     },
     {
-      "id": "decisão 14",
+      "id": "68614-p02",
       "ref_plano": "decisão 14",
       "tipo": "kit",
       "descricao": "Cursos Livres ficam por último na ordem de prioridade; kit ainda não produzido",
@@ -298,6 +317,99 @@
       ],
       "bloqueia": [],
       "fonte": "docs/execucao-2026-10-26.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68614-p03",
+      "ref_plano": "P6",
+      "tipo": "data",
+      "descricao": "Datas do catálogo diferentes das datas da visão de campanhas. Tratamento no plano: [CONFIRMAR]. Peças sem data até a Ufape confirmar",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "inicio",
+        "status_midia.inicio_na_visao"
+      ],
+      "bloqueia": [
+        "data"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68614-p04",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "vagas.turma_minima",
+        "vagas.vagas_ofertadas",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68614-p05",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68614-p06",
+      "ref_plano": "fim das inscrições",
+      "tipo": "data",
+      "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes"
+      ],
+      "bloqueia": [],
+      "fonte": "contexto/cursos/livres/68614-curso-livre-em-videotoscopia.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68614-p07",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -316,7 +428,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 2,
+    "pendencias_abertas": 7,
     "bloqueado": false
   }
 }

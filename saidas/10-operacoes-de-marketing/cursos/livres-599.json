@@ -54,16 +54,10 @@
   "modulos": null,
   "inicio": "2026-06-20",
   "fonte_da_data": "planilha",
-  "dias_ate_inicio": -129,
+  "dias_ate_inicio": null,
   "fim_das_inscricoes": null,
   "preco_texto_site": "R$ 680,00 à vista (Pix ou boleto) ou 6x de R$ 136,67 no cartão.",
-  "preco_estruturado": {
-    "moeda": "BRL",
-    "parcelas": 6,
-    "valor_parcela": 136.67,
-    "total": 680.0,
-    "matricula": null
-  },
+  "preco_estruturado": null,
   "condicoes_especiais": [],
   "status_catalogo": "verificar",
   "status_catalogo_texto": "verificar (turma já iniciada e com venda)",
@@ -97,50 +91,50 @@
   "canais": [
     {
       "canal": "instagram",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
-      "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
+      "estado": "fora",
+      "motivo": "fora do recorte do plano (seção 2.4)",
       "natureza": "proposta_do_cmo"
     }
   ],
@@ -160,7 +154,7 @@
         "agente": "cmo",
         "caminho": "saidas/02-estrategia-e-posicionamento/cmo-livres-2026-10-26.md",
         "secao": null,
-        "estado": "pendente_de_aprovacao",
+        "estado": "devolvido",
         "aprovado_em": null,
         "ref_aprovacao": null
       }
@@ -184,7 +178,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "599-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",

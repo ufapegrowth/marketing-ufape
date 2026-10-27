@@ -53,7 +53,13 @@
     "natureza": "avaliacao_do_agente",
     "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 3"
   },
-  "relacionados": [],
+  "relacionados": [
+    {
+      "id": "eventos-sem-codigo-paciente-grave-multidiciplinar-foco-em-casos-clinicos",
+      "relacao": "duplicidade_provavel",
+      "natureza": "[SUPOSIÇÃO]"
+    }
+  ],
   "local": "São Paulo",
   "modalidade": "[CONFIRMAR]",
   "modalidade_normalizada": "[CONFIRMAR]",
@@ -65,13 +71,7 @@
   "dias_ate_inicio": null,
   "fim_das_inscricoes": null,
   "preco_texto_site": "R$ 780,00 à vista (Pix ou boleto) ou 10x de R$ 98,00 no cartão.",
-  "preco_estruturado": {
-    "moeda": "BRL",
-    "parcelas": 10,
-    "valor_parcela": 98.0,
-    "total": 780.0,
-    "matricula": null
-  },
+  "preco_estruturado": null,
   "condicoes_especiais": [],
   "status_catalogo": "aberto (contínuo)",
   "status_catalogo_texto": "aberto (contínuo)",
@@ -80,10 +80,23 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "evento": {
+    "subtipo": "simposio",
+    "data_inicio": null,
+    "data_fim": null,
+    "horario_texto": "[CONFIRMAR]",
+    "formato": "gravado",
+    "modalidades": [],
+    "carga_horaria_oficial": "[CONFIRMAR]",
+    "cupom": null,
+    "pagina_oficial": "https://faculdade.ufape.com.br/produto/700/congresso-internacional-do-paciente-grave-multidisciplinar-ufape-foco-em-casos-clinicos-gravacao",
+    "destino_das_campanhas_pagas": "[CONFIRMAR]",
+    "palestrantes": {
+      "confirmados_na_ficha": null,
+      "convidados_a_definir": null,
+      "autorizacoes_de_imagem_registradas": null
+    }
   },
   "status_midia": {
     "campanha": "ativa",
@@ -183,7 +196,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "700-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -193,6 +206,63 @@
         "certificacao"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "700-p02",
+      "ref_plano": "P7",
+      "tipo": "duplicidade",
+      "descricao": "Duplicidade provável com eventos-sem-codigo-paciente-grave-multidiciplinar-foco-em-casos-clinicos; a Ufape confirma qual página fica à venda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "relacionados"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "700-p03",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "vagas.turma_minima",
+        "vagas.vagas_ofertadas",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "700-p04",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "evento.palestrantes.confirmados_na_ficha",
+        "evento.palestrantes.convidados_a_definir",
+        "evento.palestrantes.autorizacoes_de_imagem_registradas"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -210,25 +280,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "evento": {
-    "subtipo": "simposio",
-    "data_inicio": null,
-    "data_fim": null,
-    "horario_texto": "[CONFIRMAR]",
-    "formato": "gravado",
-    "modalidades": [],
-    "carga_horaria_oficial": "[CONFIRMAR]",
-    "cupom": null,
-    "pagina_oficial": "[CONFIRMAR]",
-    "destino_das_campanhas_pagas": "[CONFIRMAR]",
-    "palestrantes": {
-      "confirmados_na_ficha": null,
-      "convidados_a_definir": null,
-      "autorizacoes_de_imagem_registradas": null
-    }
-  },
   "resumo": {
-    "pendencias_abertas": 1,
+    "pendencias_abertas": 4,
     "bloqueado": false
   }
 }

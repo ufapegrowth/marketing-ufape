@@ -107,11 +107,16 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "landing-page",
+        "responsavel": [
+          "landing-page",
+          "seo-on-page"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_8_canais",
@@ -119,11 +124,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_de_midia",
@@ -131,11 +140,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "gestor-de-midia",
+        "responsavel": [
+          "gestor-de-midia"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -143,11 +156,15 @@
         "quantidade_minima": 6,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos",
@@ -155,11 +172,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-turmas-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-turmas-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "post_por_docente",
@@ -167,11 +188,15 @@
         "quantidade_minima": null,
         "regra_quantidade": "1_por_docente_autorizado",
         "autorizados": null,
-        "responsavel": "autoridade-docente",
+        "responsavel": [
+          "autoridade-docente"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp",
@@ -179,11 +204,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email",
@@ -191,11 +220,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "roteiro_video",
@@ -203,11 +236,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "tiktok",
+        "responsavel": [
+          "tiktok"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md"
+        "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+        "secao": null,
+        "ref_aprovacao": null
       }
     ],
     "acrescimos": []
@@ -216,50 +253,50 @@
     {
       "canal": "instagram",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "facebook",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "linkedin",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "youtube",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "podcast",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     },
     {
       "canal": "whatsapp",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
-      "natureza": "plano_da_onda"
+      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 5 (plano da onda)",
+      "natureza": "proposta_do_cmo"
     }
   ],
   "arquivos_por_camada": {
@@ -351,14 +388,6 @@
         "ref_aprovacao": null
       },
       {
-        "agente": "copy-de-mensagens",
-        "caminho": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
-        "secao": "289",
-        "estado": "pendente_de_aprovacao",
-        "aprovado_em": null,
-        "ref_aprovacao": null
-      },
-      {
         "agente": "tiktok",
         "caminho": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
         "secao": "289",
@@ -384,7 +413,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "289-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -398,7 +427,7 @@
       "resolvida_em": null
     },
     {
-      "id": "P2",
+      "id": "289-p02",
       "ref_plano": "P2",
       "tipo": "conformidade",
       "descricao": "Página no ar com frase de certificação ligada ao órgão regulador e turma mínima diferente de 15; correção pedida no site",
@@ -412,10 +441,10 @@
       "resolvida_em": null
     },
     {
-      "id": "U11",
+      "id": "289-p03",
       "ref_plano": "decisão 16",
       "tipo": "preco_ou_condicao",
-      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor",
+      "descricao": "Valor da inscrição (R$ 260,00 informado) diferente da matrícula do site; nenhuma peça cita o valor (U11)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "preco_estruturado.matricula"
@@ -428,7 +457,7 @@
       "resolvida_em": null
     },
     {
-      "id": "privacidade",
+      "id": "289-p04",
       "ref_plano": "OB1",
       "tipo": "conformidade",
       "descricao": "Endereço da política de privacidade do formulário",
@@ -442,14 +471,103 @@
       "resolvida_em": null
     },
     {
-      "id": "E1",
+      "id": "289-p05",
       "ref_plano": "CP1",
       "tipo": "outro",
       "descricao": "Cidade no texto da página só com aprovação; página de 68605 à venda disputa a mesma busca",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [],
-      "fonte": "saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-onda2a.md",
+      "fonte": "docs/pendencias-camada-1.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "289-p06",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "289-p07",
+      "ref_plano": "OU4",
+      "tipo": "meta_ou_verba",
+      "descricao": "Vagas totais e restantes da turma ainda não informadas pela Ufape (só números somados)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "vagas.vagas_ofertadas"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, seção 3",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "289-p08",
+      "ref_plano": "P13",
+      "tipo": "autorizacao",
+      "descricao": "Autorização de imagem e citação registrada pela Ufape para todos (decisões 8 e 10); falta o cmo lançar as contagens da ficha",
+      "marcador": "[CONFIRMAR autorização]",
+      "campos": [
+        "equipe.coordenadores_na_ficha",
+        "equipe.docentes_na_ficha",
+        "equipe.autorizacoes_de_imagem_registradas",
+        "kit.entregas[5].autorizados"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "289-p09",
+      "ref_plano": "fim das inscrições",
+      "tipo": "data",
+      "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes"
+      ],
+      "bloqueia": [],
+      "fonte": "contexto/cursos/pos/289-pos-graduacao-em-cardiologia-veterinaria.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "289-p10",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo",
+        "kit.entregas[6].prazo",
+        "kit.entregas[7].prazo",
+        "kit.entregas[8].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 7",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -457,11 +575,11 @@
   "aprovacoes": [
     {
       "ref": "OB1",
-      "o_que": "publicar a página e corrigir o site",
-      "por_que": "kit mínimo da onda 2",
-      "quanto": "sem verba nova",
-      "efeito_esperado": "turma pronta para a subida de 07/12",
-      "como_desfazer": "despublicar ou pausar",
+      "o_que": "Publicar as 5 páginas com o texto do /pagina-de-curso (depois do qa) e corrigir no site: frase ligada ao órgão regulador nas 5 (inclusive a frase de certificação que a squad não repete em 68615), turma mínima de 20 para 15, regra do 3º módulo com a data (A13, OU14), promoção de 341 com regra completa ou retirada (OU10), segundo local de 341 explicado (OU11), coordenação e docentes de 333 (OU12)…",
+      "por_que": "sem isso nenhuma página conta como entregue e a mídia de 07/12 leva a página reprovada",
+      "quanto": "sem custo de mídia",
+      "efeito_esperado": "destino que entrega o que a peça promete",
+      "como_desfazer": "voltar à versão anterior da página, exportada antes da troca",
       "status": "pendente",
       "pedido_em": "2026-10-27",
       "decidido_em": null,
@@ -469,11 +587,11 @@
     },
     {
       "ref": "OB2",
-      "o_que": "enviar as mensagens",
-      "por_que": "kit mínimo da onda 2",
-      "quanto": "sem verba nova",
-      "efeito_esperado": "turma pronta para a subida de 07/12",
-      "como_desfazer": "despublicar ou pausar",
+      "o_que": "Envio em massa de cada toque da seção 7.3, depois do qa próprio, só para S2 e S3 da área com opt-in, com as regras da seção 2",
+      "por_que": "a base é a alavanca mais barata da turma",
+      "quanto": "sem custo de mídia; custo por conversa de marketing do WhatsApp Business, se o envio for pela API [CONFIRMAR com a ferramenta, como na newsletter-geral 2.5]; contatos por área [CONFIRMAR]. Se houver custo, o valor vem antes do primeiro envio de 07/12",
+      "efeito_esperado": "matrícula de quem já está na base",
+      "como_desfazer": "pausar a régua no CRM; SAIR tira de tudo",
       "status": "pendente",
       "pedido_em": "2026-10-27",
       "decidido_em": null,
@@ -481,23 +599,107 @@
     },
     {
       "ref": "OB3",
-      "o_que": "publicar posts e cards de docente",
-      "por_que": "kit mínimo da onda 2",
-      "quanto": "sem verba nova",
-      "efeito_esperado": "turma pronta para a subida de 07/12",
-      "como_desfazer": "despublicar ou pausar",
+      "o_que": "Publicar no Instagram (e reaproveitar no Facebook) 6 posts por turma, os posts de docente (5 existentes e o de 333) e os 53 cards, cada post em primeira pessoa só com o ok e a revisão do docente; os cards em terceira pessoa saem com a autorização registrada (decisões 8 e 10), e o docente vê o card antes (C5 da autoridade-docente-pos)",
+      "por_que": "kit mínimo das 5 turmas",
+      "quanto": "sem custo de mídia",
+      "efeito_esperado": "lembrança, clique e confiança em quem ensina",
+      "como_desfazer": "arquivar ou apagar o post",
       "status": "pendente",
       "pedido_em": "2026-10-27",
       "decidido_em": null,
       "decidido_por_papel": null
     },
     {
-      "ref": "AMP13 a AMP25 e AGP12 a AGP25",
-      "o_que": "subir a mídia paga",
-      "por_que": "kit mínimo da onda 2",
-      "quanto": "sem verba nova",
-      "efeito_esperado": "turma pronta para a subida de 07/12",
-      "como_desfazer": "despublicar ou pausar",
+      "ref": "OB4",
+      "o_que": "Gravação dos 5 roteiros de vídeo curto e dos Reels AD-A1-1, AD-A11-2 e AD-A14-4",
+      "por_que": "o kit pede 1 roteiro por turma; os Reels já estão na grade",
+      "quanto": "[CONFIRMAR OU15]; se houver custo, vem pedido próprio com o valor",
+      "efeito_esperado": "Reels prontos até 04/12 (dezembro) e até 22/12 (30/12 e 08/01)",
+      "como_desfazer": "não publicar o material",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "OB5",
+      "o_que": "Produção das artes dos criativos (c1 a c3, r1, r2, 9:16, -exta, -extb), dos posts e dos guias das iscas de A1, A2, A11 e 341",
+      "por_que": "texto aprovado sem arte não sobe",
+      "quanto": "[CONFIRMAR OU16]; se houver custo, pedido próprio",
+      "efeito_esperado": "peças prontas para 07/12",
+      "como_desfazer": "não usar a arte",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AD-F6-1 a AD-F6-5",
+      "o_que": "Grade e condições dos posts de docente",
+      "por_que": "conforme o plano da onda (autoridade-docente-pos-2026-10-27-onda2.md)",
+      "quanto": "conforme o plano da onda",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AF1 a AF7 e DEC1 a DEC7",
+      "o_que": "Listas, regras e automações do CRM",
+      "por_que": "conforme o plano da onda (saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md)",
+      "quanto": "conforme o plano da onda",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "MO1 a MO5",
+      "o_que": "Conferência de 04/12 e 11/12, subida de 657 e 341, pausa de 289 e de 333, relatório semanal",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md)",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AMP13 a AMP25",
+      "o_que": "Campanhas Meta das 14 turmas (13 ativas; 662 pausada até OU18), extensão em duas peças, plantão de sábado e feriado",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md (v7))",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "AGP12 a AGP25",
+      "o_que": "Campanhas de Busca das mesmas turmas, mesmas datas e regras",
+      "por_que": "conforme o plano da onda (saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md (v7))",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "conforme o plano da onda",
+      "como_desfazer": "conforme o plano da onda",
+      "status": "pendente",
+      "pedido_em": "2026-10-27",
+      "decidido_em": null,
+      "decidido_por_papel": null
+    },
+    {
+      "ref": "R5",
+      "o_que": "289 sem aumento de verba; conferir em 28/10 a URL da 662 e pausar se estiver errada",
+      "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
+      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "efeito_esperado": "Nenhum gasto fora do plano",
+      "como_desfazer": "[CONFIRMAR]",
       "status": "pendente",
       "pedido_em": "2026-10-27",
       "decidido_em": null,
@@ -517,7 +719,7 @@
     }
   ],
   "resumo": {
-    "pendencias_abertas": 5,
+    "pendencias_abertas": 10,
     "bloqueado": false
   }
 }

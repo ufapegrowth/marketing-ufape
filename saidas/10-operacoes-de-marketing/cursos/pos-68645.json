@@ -80,10 +80,22 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "prova_de_bolsa": {
+    "data_da_prova": "2026-11-27",
+    "horario_texto": "[CONFIRMAR]",
+    "formato": "presencial",
+    "local_texto": "São Paulo",
+    "nota_de_corte_texto": "[CONFIRMAR]",
+    "turma_de_destino": {
+      "codigo": "[CONFIRMAR]",
+      "sugestao_do_plano": null,
+      "natureza_da_sugestao": "[SUPOSIÇÃO]"
+    },
+    "bolsas_previstas": null,
+    "prazo_de_matricula_apos_resultado": "[CONFIRMAR]",
+    "divulgacao_do_resultado": "[CONFIRMAR]",
+    "minimo_para_confirmar_turma": 15
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -106,11 +118,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "estrategia-de-campanha",
+        "responsavel": [
+          "estrategia-de-campanha"
+        ],
         "prazo": null,
         "status": "revisar_por_mudanca",
         "qa": "pendente",
-        "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md"
+        "arquivo": "saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       }
     ],
     "acrescimos": []
@@ -223,7 +239,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "68645-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; nenhuma peça afirma certificação",
@@ -237,7 +253,7 @@
       "resolvida_em": null
     },
     {
-      "id": "decisão 14",
+      "id": "68645-p02",
       "ref_plano": "decisão 14",
       "tipo": "kit",
       "descricao": "Peças das provas suspensas até nova ordem; textos antigos tratam a prova como online e precisam de varredura para presencial (decisão 20)",
@@ -249,6 +265,91 @@
         "peca_final"
       ],
       "fonte": "docs/execucao-2026-10-26.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68645-p03",
+      "ref_plano": "U1",
+      "tipo": "regra_de_bolsa",
+      "descricao": "Em 12 fichas de prova a própria ficha traz duas versões da regra (prazo de matrícula \"10 dias úteis\" e \"7 dias\"; canal do resultado em até três versões). Qual vale?",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "prova_de_bolsa.bolsas_previstas",
+        "prova_de_bolsa.nota_de_corte_texto",
+        "prova_de_bolsa.prazo_de_matricula_apos_resultado",
+        "prova_de_bolsa.divulgacao_do_resultado"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68645-p04",
+      "ref_plano": "U3",
+      "tipo": "regra_de_bolsa",
+      "descricao": "Prazo de inscrição das provas, data do resultado, canal do recurso, regra do aprovado sem bolsa e política de ausência",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes",
+        "prova_de_bolsa.horario_texto"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68645-p05",
+      "ref_plano": "U4",
+      "tipo": "regra_de_bolsa",
+      "descricao": "Turma de destino de cada prova, em especial 68652, 68649, 68653 e 68655",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "prova_de_bolsa.turma_de_destino.codigo"
+      ],
+      "bloqueia": [],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68645-p06",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo",
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "metas.verba",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes",
+        "metas.fonte"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68645-p07",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -266,24 +367,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "prova_de_bolsa": {
-    "data_da_prova": "2026-11-27",
-    "horario_texto": "[CONFIRMAR]",
-    "formato": "presencial",
-    "local_texto": "São Paulo",
-    "nota_de_corte_texto": "[CONFIRMAR]",
-    "turma_de_destino": {
-      "codigo": "[CONFIRMAR]",
-      "sugestao_do_plano": null,
-      "natureza_da_sugestao": "[SUPOSIÇÃO]"
-    },
-    "bolsas_previstas": null,
-    "prazo_de_matricula_apos_resultado": "[CONFIRMAR]",
-    "divulgacao_do_resultado": "[CONFIRMAR]",
-    "minimo_para_confirmar_turma": 15
-  },
   "resumo": {
-    "pendencias_abertas": 2,
+    "pendencias_abertas": 7,
     "bloqueado": true
   }
 }

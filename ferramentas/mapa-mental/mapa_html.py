@@ -4,11 +4,15 @@ dados = json.load(open(S + 'mapa-dados.json', encoding='utf-8'))
 slim = []
 for j in dados:
     slim.append({
-        'id': j['id'], 'c': j['codigo'], 'n': j['nome_no_site'], 'l': j['linha'], 't': j['tipo'], 'a': j['area']['codigo'], 'an': j['area']['nome'],
+        # B11: o título do nó é o nome padrão; o nome no site vai no detalhe
+        'id': j['id'], 'c': j['codigo'], 'n': j['nome_padrao'] if j['nome_padrao'] != '[CONFIRMAR]' else j['nome_no_site'] + ' (nome padrão [CONFIRMAR])', 'ns': j['nome_no_site'], 'l': j['linha'], 't': j['tipo'], 'a': j['area']['codigo'], 'an': j['area']['nome'],
         'r': j['recorte'], 'o': j['onda'], 'loc': j['local'], 'mod': j['modalidade_normalizada'], 'tu': j['turma'], 'ch': j['carga_horaria'],
         'i': j['inicio'], 'fd': j['fonte_da_data'], 'd': j['dias_ate_inicio'], 'p': j['preco_texto_site'], 'st': j['status_catalogo'],
         'm': j['status_midia']['campanha'], 'g': (j['gut'] or {}).get('total'), 'gm': (j['gut'] or {}).get('motivo'),
-        'k': [{'e': e['entrega'], 'q': e['quantidade_minima'], 'rp': e['responsavel'], 's': e['status'], 'qa': e['qa'], 'f': e['arquivo']} for e in j['kit']['entregas']],
+        'k': [{'e': e['entrega'], 'q': e['quantidade_minima'], 'rq': e['regra_quantidade'], 'rp': ', '.join(e['responsavel']), 's': e['status'], 'qa': e['qa'], 'f': e['arquivo']} for e in j['kit']['entregas']],
+        'ka': [{'e': e['entrega'], 'q': e['quantidade'], 'rp': ', '.join(e['responsavel']), 's': e['status'], 'f': e['arquivo']} for e in j['kit']['acrescimos']],
+        # B14: arquivos das camadas; "devolvido" aparece como rascunho a revisar
+        'cam': [[k, a['caminho'], a['estado']] for k in ('geral', 'linha', 'area') for a in j['arquivos_por_camada'][k]],
         'kt': j['kit']['template'], 'can': [[c['canal'], c['estado']] for c in j['canais']],
         'pe': [{'ref': p['ref_plano'], 'd': p['descricao'], 'b': p['bloqueia']} for p in j['pendencias']],
         'ap': [{'ref': a['ref'], 'o': a['o_que']} for a in j['aprovacoes']],
@@ -107,6 +111,8 @@ const D=__DATA__, AREAS=__AREAS__;
 const LIN={pos:'Pós-graduação',livres:'Cursos Livres',eventos:'Eventos',graduacao:'Graduação'};
 const REC={planejar:'no recorte',historico:'histórico',pendencia:'pendência'};
 const MID={ativa:'mídia ativa',pausada:'mídia pausada',sem_campanha:'sem campanha',nao_consta:'mídia não consta'};
+const QM={'1_por_docente_autorizado':'1 por docente autorizado','1_por_palestrante_autorizado':'1 por palestrante autorizado'};
+const CAM={aprovado:'aprovado',pendente_de_aprovacao:'aguarda aprovação',devolvido:'rascunho a revisar'};
 const ST={aguardando_aprovacao:'aprovado pelo qa, aguarda aprovação humana',a_fazer:'a fazer',inventario_pendente:'inventário pendente',devolvido:'devolvido para correção',revisar_por_mudanca:'revisar por mudança',nao_aplicavel:'não se aplica',aprovado:'aprovado'};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -119,22 +125,23 @@ fill('#f-status',[['aberto','aberto'],['aberto (contínuo)','aberto (contínuo)'
 fill('#f-midia',Object.entries(MID),'Toda situação de mídia');
 function pass(x){
   const q=$('#f-q').value.trim().toLowerCase(), l=$('#f-linha').value, o=$('#f-onda').value, a=$('#f-area').value, s=$('#f-status').value, m=$('#f-midia').value, b=$('#f-block').checked;
-  if(q && !(x.n.toLowerCase().includes(q)||x.c.includes(q)||x.loc.toLowerCase().includes(q))) return false;
+  if(q && !(x.n.toLowerCase().includes(q)||x.ns.toLowerCase().includes(q)||x.c.includes(q)||x.loc.toLowerCase().includes(q))) return false;
   if(l && x.l!==l) return false; if(o==='x' && x.o!==null) return false; if(o && o!=='x' && String(x.o)!==o) return false;
   if(a && x.a!==a) return false; if(s && x.st!==s) return false; if(m && x.m!==m) return false; if(b && !x.bl) return false; return true;}
 function item(x){
   const tags=[x.o?`<span class="tag">onda ${x.o}</span>`:`<span class="tag hist">${REC[x.r]}</span>`,x.g?`<span class="tag">GUT ${x.g}</span>`:'',`<span class="tag hist">${esc(MID[x.m])}</span>`,x.bl?'<span class="tag block">bloqueia peça final</span>':''].join('');
-  const kit=x.k.length?`<div class="tbl"><table><thead><tr><th>Entrega</th><th>Mín.</th><th>Responsável</th><th>Situação</th><th>Arquivo</th></tr></thead><tbody>${x.k.map(e=>`<tr><td>${esc(e.e)}</td><td>${e.q??'1 por docente'}</td><td>${esc(e.rp)}</td><td class="s-${e.s}">${esc(ST[e.s]||e.s)}</td><td class="f">${esc(e.f||'-')}</td></tr>`).join('')}</tbody></table></div>`:'<p class="empty">Sem kit neste recorte.</p>';
+  const kit=x.k.length?`<div class="tbl"><table><thead><tr><th>Entrega</th><th>Mín.</th><th>Responsável</th><th>Situação</th><th>Arquivo</th></tr></thead><tbody>${x.k.map(e=>`<tr><td>${esc(e.e)}</td><td>${e.q??esc(QM[e.rq]||'-')}</td><td>${esc(e.rp)}</td><td class="s-${e.s}">${esc(ST[e.s]||e.s)}</td><td class="f">${esc(e.f||'-')}</td></tr>`).join('')}${x.ka.map(e=>`<tr><td>${esc(e.e)} <small>(acréscimo)</small></td><td>${e.q??'-'}</td><td>${esc(e.rp)}</td><td class="s-${e.s}">${esc(ST[e.s]||e.s)}</td><td class="f">${esc(e.f||'-')}</td></tr>`).join('')}</tbody></table></div>`:'<p class="empty">Sem kit neste recorte.</p>';
   const pe=x.pe.length?`<ul class="pend">${x.pe.map(p=>`<li class="${p.b.includes('peca_final')?'b':''}"><b>${esc(p.ref)}:</b> ${esc(p.d)}</li>`).join('')}</ul>`:'<p class="empty">Nenhuma.</p>';
   const ap=x.ap.length?`<ul class="pend">${x.ap.map(p=>`<li><b>${esc(p.ref)}:</b> ${esc(p.o)}</li>`).join('')}</ul>`:'<p class="empty">Nenhuma aberta.</p>';
+  const cam=x.cam.length?`<ul class="pend">${x.cam.map(([k,f,e])=>`<li class="${e==='devolvido'?'b':''}"><b>${esc(k)}:</b> <span class="f">${esc(f)}</span> (${esc(CAM[e]||e)})</li>`).join('')}</ul>`:'<p class="empty">Nenhum.</p>';
   const can=`<div class="chips">${x.can.map(([c,e])=>`<span class="chip ${e}">${esc(c)}: ${esc(e)}</span>`).join('')}</div>`;
   const metas=x.mt&&x.mt.verba?`${x.mt.matriculas_alvo} matrículas; verba de R$ ${x.mt.verba.toLocaleString('pt-BR',{minimumFractionDigits:2})} (${esc(x.mt.fonte)})`:'[CONFIRMAR]';
   return `<details class="item o${x.o??'x'}" data-id="${esc(x.id)}"><summary><span class="code">${esc(x.c==='sem-codigo'?'sem código':x.c)}</span><span class="nm">${esc(x.n)}</span><span class="tags">${tags}</span></summary>
-  <div class="det"><dl class="kv"><div><dt>Local e modalidade</dt><dd>${esc(x.loc)} · ${esc(x.mod)}</dd></div><div><dt>Início</dt><dd>${fmt(x.i)} (fonte: ${esc(x.fd)})${x.d!=null&&x.d>=0?`, faltam ${x.d} dias`:''}</dd></div>
+  <div class="det"><dl class="kv"><div><dt>Nome no site</dt><dd>${esc(x.ns)}</dd></div><div><dt>Local e modalidade</dt><dd>${esc(x.loc)} · ${esc(x.mod)}</dd></div><div><dt>Início</dt><dd>${fmt(x.i)} (fonte: ${esc(x.fd)})${x.d!=null&&x.d>=0?`, faltam ${x.d} dias`:''}</dd></div>
   ${(x.tu||x.ch)?`<div><dt>Turma e carga horária</dt><dd>${esc(x.tu??'-')} · ${esc(x.ch??'-')}</dd></div>`:''}<div><dt>Status no catálogo</dt><dd>${esc(x.st)}</dd></div>
   <div><dt>Preço no site</dt><dd>${esc(x.p)} <small>(site em 26/10/2026; conferir antes de publicar)</small></dd></div><div><dt>Meta</dt><dd>${metas}</dd></div>
   ${x.gm?`<div><dt>Prioridade (GUT ${x.g})</dt><dd>${esc(x.gm)}</dd></div>`:''}<div><dt>Ficha</dt><dd class="f">${esc(x.fi||'-')}</dd></div></dl>
-  <h4>Kit mínimo${x.kt?' ('+esc(x.kt.split('/').pop())+')':''}</h4>${kit}<h4>Canais</h4>${can}<h4>Pendências</h4>${pe}<h4>Aprovações pedidas</h4>${ap}</div></details>`;}
+  <h4>Kit mínimo${x.kt?' ('+esc(x.kt.split('/').pop())+')':''}</h4>${kit}<h4>Canais</h4>${can}<h4>Pendências</h4>${pe}<h4>Aprovações pedidas</h4>${ap}<h4>Arquivos das camadas</h4>${cam}</div></details>`;}
 function render(){
   const sel=D.filter(pass); const out=[];
   for(const l of Object.keys(LIN)){
@@ -148,9 +155,10 @@ function render(){
       return `<details class="l2"${k!=='fora'?' open':''}><summary><span class="chev">▸</span><h3>${esc(nome)}</h3><span class="meta">${g.length} itens</span></summary><div class="items">${g.map(item).join('')}</div></details>`;}).join('')}</div></details>`);}
   $('#tree').innerHTML=out.join('')||'<p class="empty">Nenhum item com estes filtros. Limpe a busca ou escolha outra linha.</p>';
   $('#count').textContent=`${sel.length} de ${D.length} itens`;}
-const rec=D.filter(x=>x.r==='planejar');
-$('#t-total').textContent=D.length; $('#t-rec').textContent=rec.length;
-$('#t-o1').textContent=rec.filter(x=>x.o===1).length; $('#t-o2').textContent=rec.filter(x=>x.o===2).length; $('#t-o3').textContent=rec.filter(x=>x.o===3).length;
+const rec=D.filter(x=>x.r==='planejar'), recG=rec.filter(x=>x.l==='graduacao'), recS=rec.filter(x=>x.l!=='graduacao');
+// B11: o recorte do plano é contado sem a Graduação, que é ramo à parte (plano geral, 2.2)
+$('#t-total').textContent=D.length; $('#t-rec').textContent=`${recS.length} + ${recG.length}`;
+$('#t-o1').textContent=`${recS.filter(x=>x.o===1).length} + ${recG.filter(x=>x.o===1).length}`; $('#t-o2').textContent=rec.filter(x=>x.o===2).length; $('#t-o3').textContent=rec.filter(x=>x.o===3).length;
 $('#t-bl').textContent=D.filter(x=>x.bl).length;
 $('#t-ag').textContent=rec.filter(x=>x.k.length&&x.k.every(e=>e.s==='aguardando_aprovacao')).length;
 document.querySelectorAll('.bar input,.bar select').forEach(el=>el.addEventListener('input',render));
@@ -175,8 +183,8 @@ HTML = f"""<title>Mapa de marketing Ufape</title>
 <main><div class="wrap">
 <section class="summary" aria-label="Resumo">
 <div class="tile"><b id="t-total"></b><span>itens no catálogo</span></div>
-<div class="tile"><b id="t-rec"></b><span>no recorte do plano</span></div>
-<div class="tile"><b id="t-o1"></b><span>onda 1 (27/10 a 06/11)</span></div>
+<div class="tile"><b id="t-rec"></b><span>no recorte do plano + Graduação (ramo à parte)</span></div>
+<div class="tile"><b id="t-o1"></b><span>onda 1 (27/10 a 06/11) + Graduação</span></div>
 <div class="tile"><b id="t-o2"></b><span>onda 2 (07/11 a 27/11)</span></div>
 <div class="tile"><b id="t-o3"></b><span>onda 3 (a partir de 30/11)</span></div>
 <div class="tile"><b id="t-ag"></b><span>com kit inteiro aprovado pelo qa, à espera da aprovação humana</span></div>

@@ -65,10 +65,48 @@
     "vagas_ofertadas": null,
     "vagas_restantes": null
   },
-  "equipe": {
-    "coordenadores_na_ficha": null,
-    "docentes_na_ficha": null,
-    "autorizacoes_de_imagem_registradas": null
+  "equipe": null,
+  "graduacao": {
+    "edital": {
+      "numero": "[CONFIRMAR]",
+      "titulo": "[CONFIRMAR]",
+      "url": "[CONFIRMAR]"
+    },
+    "edital_de_desconto": {
+      "numero": "[CONFIRMAR]",
+      "titulo": "[CONFIRMAR]",
+      "url": "[CONFIRMAR]"
+    },
+    "ato_autorizativo": "Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026",
+    "reconhecimento": "[CONFIRMAR]",
+    "grau": "bacharelado",
+    "turnos": [],
+    "formas_de_ingresso": [
+      "redacao",
+      "enem",
+      "transferencia_externa",
+      "diplomado",
+      "vagas_remanescentes"
+    ],
+    "inscricoes_abertas_desde": "2026-08-17",
+    "inscricao_ate": null,
+    "inicio_das_aulas": "2027-02-22",
+    "validade_do_desconto": "só para o 1º semestre de 2027",
+    "lp": {
+      "url": "[CONFIRMAR]",
+      "alterada_pela_squad": false,
+      "utm": {
+        "gerada_por": "plataforma",
+        "parametros": [
+          "utm_source",
+          "utm_medium",
+          "utm_campaign",
+          "utm_content",
+          "utm_term"
+        ],
+        "utm_campaign": "[CONFIRMAR]"
+      }
+    }
   },
   "status_midia": {
     "campanha": "nao_consta",
@@ -91,11 +129,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "cmo",
+        "responsavel": [
+          "cmo"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md"
+        "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "plano_de_midia",
@@ -103,11 +145,15 @@
         "quantidade_minima": 1,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "gestor-de-midia",
+        "responsavel": [
+          "gestor-de-midia"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "posts_organicos",
@@ -115,11 +161,15 @@
         "quantidade_minima": 6,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "posts-sociais",
+        "responsavel": [
+          "posts-sociais"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md"
+        "arquivo": "saidas/05-social-e-comunidade/posts-sociais-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "criativos_com_utm",
@@ -127,11 +177,15 @@
         "quantidade_minima": 4,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "criativos-de-anuncio",
+        "responsavel": [
+          "criativos-de-anuncio"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md"
+        "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "whatsapp_prazos_do_edital",
@@ -139,11 +193,15 @@
         "quantidade_minima": 5,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "email_prazos_do_edital",
@@ -151,11 +209,15 @@
         "quantidade_minima": 3,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "copy-de-mensagens",
+        "responsavel": [
+          "copy-de-mensagens"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md"
+        "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       },
       {
         "chave": "roteiro_video",
@@ -163,11 +225,15 @@
         "quantidade_minima": 2,
         "regra_quantidade": null,
         "autorizados": null,
-        "responsavel": "tiktok",
+        "responsavel": [
+          "tiktok"
+        ],
         "prazo": null,
         "status": "aguardando_aprovacao",
         "qa": "aprovado",
-        "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md"
+        "arquivo": "saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md",
+        "secao": null,
+        "ref_aprovacao": null
       }
     ],
     "acrescimos": []
@@ -253,7 +319,7 @@
   },
   "pendencias": [
     {
-      "id": "P1",
+      "id": "graduacao-medicina-veterinaria-p01",
       "ref_plano": "P1",
       "tipo": "certificacao",
       "descricao": "Reconhecimento do curso: texto da regulação ainda não preenchido no contexto da linha",
@@ -267,14 +333,266 @@
       "resolvida_em": null
     },
     {
-      "id": "edital",
+      "id": "graduacao-medicina-veterinaria-p02",
       "ref_plano": "editais",
       "tipo": "divergencia",
-      "descricao": "Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape",
+      "descricao": "Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape; edital, turnos e LP ainda não copiados para o JSON",
       "marcador": "[CONFIRMAR]",
-      "campos": [],
+      "campos": [
+        "graduacao.turnos",
+        "graduacao.edital",
+        "graduacao.edital_de_desconto",
+        "graduacao.reconhecimento",
+        "graduacao.lp.url",
+        "graduacao.lp.utm.utm_campaign",
+        "pagina_oficial",
+        "slug_sugerido"
+      ],
       "bloqueia": [],
       "fonte": "contexto/cursos/graduacao/editais-2027-1.md",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p03",
+      "ref_plano": "G7",
+      "tipo": "outro",
+      "descricao": "Pedir à regulação a correção dos textos dos Editais 003/2026 (preâmbulo e data de assinatura do de SP; item 3.5 do de Goiânia)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p04",
+      "ref_plano": "G8",
+      "tipo": "outro",
+      "descricao": "Pedir a correção do campo turno no bloco do noturno da página de Medicina Veterinária (mostra \"INTEGRAL\")",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p05",
+      "ref_plano": "G10",
+      "tipo": "outro",
+      "descricao": "Aprovar as regras para menores de idade: anúncio só para 18 anos ou mais; sem imagem de menor sem autorização dos responsáveis; validação jurídica de como o CRM trata consentimento de candidato menor para WhatsApp e e-mail",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p06",
+      "ref_plano": "G11",
+      "tipo": "outro",
+      "descricao": "Informar a capacidade de produção: horas do time por semana, se existem perfis de TikTok, YouTube e da unidade de Goiânia, quem grava vídeo, autorização de imagem de docentes, e se a graduação usa a Ufape Clínica (em que semestre) com…",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p07",
+      "ref_plano": "G12",
+      "tipo": "outro",
+      "descricao": "Confirmar se o reajuste de dezembro altera os valores do Edital 003/2026 para o 1º semestre de 2027",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p08",
+      "ref_plano": "G13",
+      "tipo": "outro",
+      "descricao": "Confirmar a URL da LP da Graduação que recebe a UTM, por curso, e que a origem chega ao CRM",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p09",
+      "ref_plano": "G14",
+      "tipo": "outro",
+      "descricao": "Nomear quem aprova posts, anúncios e verba, mensagens em massa e peças com ato regulatório (tabela vazia em ufape-geral.md)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "peca_final"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p10",
+      "ref_plano": "U12",
+      "tipo": "meta_ou_verba",
+      "descricao": "Na Graduação, o que é \"valor do curso\" para a meta de 15 matrículas (mensalidade vezes duração, primeira anualidade ou outra conta)?",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p11",
+      "ref_plano": "U13",
+      "tipo": "meta_ou_verba",
+      "descricao": "Graduação (MP15): a meta de 15 matrículas por curso convive com a turma mínima de 30 do edital? Medicina Veterinária conta como 1 curso ou 2 turnos (integral e noturno)? As 15 são a meta total ou só a parte da mídia?",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.matriculas_alvo"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "docs/pendencias-camada-1.md, seção 2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p12",
+      "ref_plano": "MP1",
+      "tipo": "meta_ou_verba",
+      "descricao": "Aprovar as metas desta versão por curso: custo por matrícula máximo R$ 133,33; CPL e custo por inscrito do cenário base (R$ 6,67 e R$ 16,67) como meta provisória; trocar pelas taxas reais do CRM uma única vez, antes de 16/11/2026",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p13",
+      "ref_plano": "MP2",
+      "tipo": "meta_ou_verba",
+      "descricao": "Aprovar o gasto da verba estimada: R$ 2.000,00 para Medicina Veterinária e R$ 2.000,00 para Pedagogia (R$ 4.000,00 na Graduação), e nomear quem aprova",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p14",
+      "ref_plano": "MP4",
+      "tipo": "outro",
+      "descricao": "Aprovar os públicos: 18+ em todos os conjuntos; Grande São Paulo e Goiânia e região com área confirmada pelo comercial; público amplo sem interesses; remarketing só por pixel e engajamento. Define o público adulto que desbloqueia noturno…",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p15",
+      "ref_plano": "MP10",
+      "tipo": "outro",
+      "descricao": "Configurar rastreamento: pixel e API de Conversões, tag e conversão do Google, públicos de remarketing, envio da origem ao CRM (G13 do cmo)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p16",
+      "ref_plano": "G4",
+      "tipo": "data",
+      "descricao": "Confirmar se existe data-limite interna de inscrição e de matrícula e a data de decisão da turma mínima",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "fim_das_inscricoes",
+        "graduacao.inscricao_ate"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p17",
+      "ref_plano": "P11",
+      "tipo": "meta_ou_verba",
+      "descricao": "Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "metas.cpl_maximo",
+        "metas.custo_por_matricula_maximo",
+        "numeros_agregados.leads",
+        "numeros_agregados.inscricoes",
+        "numeros_agregados.matriculas",
+        "numeros_agregados.verba_gasta",
+        "vagas.vagas_restantes"
+      ],
+      "bloqueia": [
+        "meta"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "graduacao-medicina-veterinaria-p18",
+      "ref_plano": "prazo do kit",
+      "tipo": "kit",
+      "descricao": "Prazo de cada entrega ainda não lançado no JSON; vale o calendário do plano da onda",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[0].prazo",
+        "kit.entregas[1].prazo",
+        "kit.entregas[2].prazo",
+        "kit.entregas[3].prazo",
+        "kit.entregas[4].prazo",
+        "kit.entregas[5].prazo",
+        "kit.entregas[6].prazo"
+      ],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-graduacao-2026-10-26.md, seção 6",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     }
@@ -305,50 +623,8 @@
       "aplicado_por": "orquestrador"
     }
   ],
-  "graduacao": {
-    "edital": {
-      "numero": "[CONFIRMAR]",
-      "titulo": "[CONFIRMAR]",
-      "url": "[CONFIRMAR]"
-    },
-    "edital_de_desconto": {
-      "numero": "[CONFIRMAR]",
-      "titulo": "[CONFIRMAR]",
-      "url": "[CONFIRMAR]"
-    },
-    "ato_autorizativo": "Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026",
-    "reconhecimento": "[CONFIRMAR]",
-    "grau": "bacharelado",
-    "turnos": [],
-    "formas_de_ingresso": [
-      "redacao",
-      "enem",
-      "transferencia_externa",
-      "diplomado",
-      "vagas_remanescentes"
-    ],
-    "inscricoes_abertas_desde": "2026-08-17",
-    "inscricao_ate": null,
-    "inicio_das_aulas": "2027-02-22",
-    "validade_do_desconto": "só para o 1º semestre de 2027",
-    "lp": {
-      "url": "[CONFIRMAR]",
-      "alterada_pela_squad": false,
-      "utm": {
-        "gerada_por": "plataforma",
-        "parametros": [
-          "utm_source",
-          "utm_medium",
-          "utm_campaign",
-          "utm_content",
-          "utm_term"
-        ],
-        "utm_campaign": "[CONFIRMAR]"
-      }
-    }
-  },
   "resumo": {
-    "pendencias_abertas": 2,
-    "bloqueado": false
+    "pendencias_abertas": 18,
+    "bloqueado": true
   }
 }
