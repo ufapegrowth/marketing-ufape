@@ -204,13 +204,13 @@ Coordenação na ficha: Ricardo L. S. Gonzalez ("Mv. Ricardo Lopes" pode ser o m
 - **Primeira linha A (teste), 59:** Olá, [nome]. Entender como entrar na turma de Infectologia?
 - **Primeira linha B (teste), 61:** Olá, [nome]. Infectologia em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma IV?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (388 caracteres, com a data do 3º módulo de 10 caracteres):**
+- **Corpo (357 caracteres, com a data do 3º módulo de 10 caracteres):**
 
 > A Pós-graduação em Infectologia Veterinária (São Paulo) segue em andamento. A turma começou em abril de 2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 498; B, 500. Sem link. Sem o dia, o toque não sai. Com OU19 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
+- **Total:** A, 467; B, 469. Sem link. Sem o dia, o toque não sai. Com OU19 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
 
 ---
 
@@ -490,13 +490,13 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 - **Primeira linha A (teste), 61:** Olá, [nome]. Entender como entrar na turma de Clínica Médica?
 - **Primeira linha B (teste), 63:** Olá, [nome]. Clínica Médica em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma V?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (408 caracteres, com a data de 10 caracteres):**
+- **Corpo (377 caracteres, com a data de 10 caracteres):**
 
 > A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo) segue em andamento. A turma começou em 10/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 520; B, 522. Sem link. Sem o dia, o toque não sai.
+- **Total:** A, 489; B, 491. Sem link. Sem o dia, o toque não sai.
 
 ---
 
@@ -638,13 +638,13 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 - **Primeira linha A (teste), 59:** Olá, [nome]. Entender como entrar na turma de Reabilitação?
 - **Primeira linha B (teste), 61:** Olá, [nome]. Reabilitação em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma I?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (414 caracteres, com a data do 3º módulo de 10 caracteres):**
+- **Corpo (383 caracteres, com a data do 3º módulo de 10 caracteres):**
 
 > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo) segue em andamento. A turma começou em abril de 2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 524; B, 526. Sem link. Sem a data e o dia, o toque não sai. Com OU20 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
+- **Total:** A, 493; B, 495. Sem link. Sem a data e o dia, o toque não sai. Com OU20 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
 
 ---
 
