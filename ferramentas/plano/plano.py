@@ -59,7 +59,14 @@ for j in mapa:
     trav = [re.sub(r'\s+', ' ', CODIGO.sub('', p['descricao'] or '')).replace(' ()', '').strip(' ;,.') for p in j['pendencias'] if 'peca_final' in (p.get('bloqueia') or []) and not p.get('resolvida_em')]
     cursos.append({'l': j['linha'], 'tp': j['tipo'], 'n': n, 'c': '' if j['codigo'] == 'sem-codigo' else j['codigo'], 'i': j['inicio'], 'loc': j['local'],
                    'mod': j['modalidade_normalizada'], 'o': j['onda'], 'kit': kit, 'tr': trav[:6], 'ntr': len(trav)})
-cursos.sort(key=lambda c: (list(LIN).index(c['l']) if c['l'] in LIN else 9, c['i'] or '9999', c['n']))
+# Nome da turma pelo mapa quando o texto não trouxe
+NOME_MAPA = {c['c']: c['n'] for c in cursos if c['c']}
+for l in d.get('linhas', []):
+    for tm in l.get('turmas', []):
+        if tm.get('codigo') in NOME_MAPA and ('confirmar' in (tm.get('nome') or '').lower() or not tm.get('nome')):
+            tm['nome'] = NOME_MAPA[tm['codigo']]
+ORDEM_TIPO = {'prova_de_bolsa': 1}
+cursos.sort(key=lambda c: (list(LIN).index(c['l']) if c['l'] in LIN else 9, ORDEM_TIPO.get(c['tp'], 0), c['i'] or '9999', c['n']))
 
 # Peças por linha, do painel
 PUB = {'post', 'carrossel', 'reels', 'story', 'card_docente', 'video', 'whatsapp', 'email', 'pagina', 'anuncio'}
@@ -155,7 +162,8 @@ h2{font:700 clamp(22px,2.2vw,28px)/1.15 var(--f-display);margin:0;text-wrap:bala
 .q .pz{font:700 15px/1.2 var(--f-display)}
 .q .pz small{display:block;font:600 11.5px var(--f-data);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 .q .tx b{display:block;font-size:15.5px;line-height:1.35}
-.q .tx span{color:var(--muted);font-size:14px}
+.q .tx span{color:var(--muted);font-size:14px;display:block}
+.q .tx .pzt{display:block;font-style:normal;font-size:13px;color:var(--wait);margin-top:2px}
 .q .af{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end;max-width:260px}
 .tag{font:600 11.5px var(--f-body);padding:4px 8px;border-radius:999px;background:var(--soft);white-space:nowrap}
 @media (max-width:700px){.q{grid-template-columns:minmax(0,1fr)}.q .af{justify-content:flex-start;max-width:none}}
@@ -189,6 +197,7 @@ h2{font:700 clamp(22px,2.2vw,28px)/1.15 var(--f-display);margin:0;text-wrap:bala
 .cur details summary{cursor:pointer;font-size:13.5px;color:var(--risk);font-weight:600}
 .cur details ul{margin:6px 0 0;padding-left:18px;font-size:13.5px;display:grid;gap:3px}
 .cnt{font-size:14px;color:var(--muted)}
+.grid .gr{grid-column:1/-1;font:700 17px var(--f-display);margin:12px 0 0}
 .prox{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .prox div{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:12px 14px}
 .prox b{display:block}
@@ -200,6 +209,7 @@ JS = r"""
 const X=__DATA__, D=X.d, HOJE=X.hoje;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const WD=['domingo','segunda','terça','quarta','quinta','sexta','sábado'];
 const MES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
 const dm=iso=>iso?iso.slice(8,10)+'/'+iso.slice(5,7):'-';
 const dma=iso=>iso?iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4):'-';
@@ -225,7 +235,7 @@ $('#linhas').innerHTML=(D.linhas||[]).map(l=>{const pc=X.pecas[l.id];
 const dec=(D.decisoes||[]).slice().sort((a,b)=>(a.prazo||'9999').localeCompare(b.prazo||'9999'));
 const addD=(iso,n)=>{const d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().slice(0,10);};
 const grupos=[['Esta semana',x=>x.prazo&&x.prazo<=addD(HOJE,6),'até '+dm(addD(HOJE,6))],['Em novembro',x=>x.prazo&&x.prazo>addD(HOJE,6)&&x.prazo<='2026-11-30',''],['Dezembro em diante',x=>x.prazo&&x.prazo>'2026-11-30',''],['Sem prazo definido',x=>!x.prazo,'responder assim que possível']];
-$('#dec').innerHTML=grupos.map(([t,f,s])=>{const g=dec.filter(f);if(!g.length)return '';return `<div class="grupo"><h3>${esc(t)} <span>${g.length} ${g.length===1?'item':'itens'}${s?' · '+esc(s):''}</span></h3>${g.map(q=>`<div class="q${t==='Esta semana'?' urg':''}"><span class="pz">${esc(q.prazo_texto||(q.prazo?'até '+dm(q.prazo):'sem prazo'))}<small>${q.prazo?dma(q.prazo):''}</small></span><span class="tx"><b>${esc(q.pergunta)}</b><span>${esc(q.por_que)}</span></span><span class="af">${(q.afeta||[]).map(a=>`<span class="tag">${esc(NOMEL[a]||a)}</span>`).join('')}</span></div>`).join('')}</div>`;}).join('');
+$('#dec').innerHTML=grupos.map(([t,f,s])=>{const g=dec.filter(f);if(!g.length)return '';return `<div class="grupo"><h3>${esc(t)} <span>${g.length} ${g.length===1?'item':'itens'}${s?' · '+esc(s):''}</span></h3>${g.map(q=>`<div class="q${t==='Esta semana'?' urg':''}"><span class="pz">${q.prazo?(q.prazo===HOJE?'Hoje':'Até '+dm(q.prazo)):'Sem prazo'}<small>${q.prazo?WD[new Date(q.prazo+'T12:00:00').getDay()]:''}</small></span><span class="tx"><b>${esc(q.pergunta)}</b><span>${esc(q.por_que)}</span>${q.prazo_texto&&!/^(até|hoje)\s*\d{2}\/\d{2}$/i.test(q.prazo_texto.trim())?`<em class="pzt">Prazo: ${esc(q.prazo_texto)}</em>`:''}</span><span class="af">${(q.afeta||[]).map(a=>`<span class="tag">${esc(NOMEL[a]||a)}</span>`).join('')}</span></div>`).join('')}</div>`;}).join('');
 // calendário
 const marcos=(D.marcos||[]).slice().sort((a,b)=>a.data.localeCompare(b.data));
 const meses=[];for(let y=2026,m=9;!(y===2027&&m===4);){meses.push([y,m]);m++;if(m===12){m=0;y++;}}
@@ -240,8 +250,9 @@ $('#f-l').innerHTML='<option value="">Todas as linhas</option>'+Object.entries(L
 function cursos(){const q=$('#f-q').value.trim().toLowerCase(),l=$('#f-l').value,so=$('#f-t').checked;
   const xs=X.cursos.filter(c=>(!l||c.l===l)&&(!so||c.ntr)&&(!q||(c.n+' '+c.c+' '+(c.loc||'')).toLowerCase().includes(q)));
   $('#cnt').textContent=`${xs.length} de ${X.cursos.length} cursos, turmas, provas e eventos`;
-  $('#grid').innerHTML=xs.map(c=>{const k=/prontas/.test(c.kit)?'ok':/parte|revisar/.test(c.kit)?'wait':'stop';
-    return `<div class="cur"><div class="t"><b>${esc(c.n)}</b>${c.c?`<span class="cod">${esc(c.c)}</span>`:''}</div><span class="m">${esc(LIN[c.l]||c.l)}${TP[c.tp]?' · '+TP[c.tp]:''} · ${c.i?'início '+dma(c.i):'sem data fixa'}${c.loc?' · '+esc(c.loc):''}</span><span class="k ${k}">${esc(c.kit)}</span>${c.ntr?`<details><summary>${c.ntr} ${c.ntr===1?'resposta pendente':'respostas pendentes'} da Ufape</summary><ul>${c.tr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`:''}</div>`;}).join('')||'<p class="sub">Nenhum curso com esses filtros.</p>';}
+  let ant='';
+  $('#grid').innerHTML=xs.map(c=>{const g=(LIN[c.l]||c.l)+(c.tp==='prova_de_bolsa'?': provas de bolsa':'');const h=g!==ant?`<h3 class="gr">${esc(g)}</h3>`:'';ant=g;return h+(()=>{const k=/prontas/.test(c.kit)?'ok':/parte|revisar/.test(c.kit)?'wait':'stop';
+    return `<div class="cur"><div class="t"><b>${esc(c.n)}</b>${c.c?`<span class="cod">${esc(c.c)}</span>`:''}</div><span class="m">${esc(LIN[c.l]||c.l)}${TP[c.tp]?' · '+TP[c.tp]:''} · ${c.i?'início '+dma(c.i):'sem data fixa'}${c.loc?' · '+esc(c.loc):''}</span><span class="k ${k}">${esc(c.kit)}</span>${c.ntr?`<details><summary>${c.ntr} ${c.ntr===1?'resposta pendente':'respostas pendentes'} da Ufape</summary><ul>${c.tr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`:''}</div>`;})();}).join('')||'<p class="sub">Nenhum curso com esses filtros.</p>';}
 ['#f-q','#f-l','#f-t'].forEach(s=>$(s).addEventListener('input',cursos));cursos();
 // próxima etapa e avisos
 $('#prox').innerHTML=(D.proxima_etapa||[]).map(p=>`<div><b>${esc(p.titulo)}</b><span class="sub">${esc(p.frase)}</span></div>`).join('');
