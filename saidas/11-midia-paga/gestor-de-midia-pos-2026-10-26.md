@@ -4,7 +4,8 @@
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.11 da camada 1 do plano do cmo (metas-de-custo em três cenários e divisão de verba por canal)
-- **Versão:** 6 (27/10/2026), aplica a decisão 18 do CEO (matrícula na Pós até o 3º módulo) e as encomendas E1 (onda 1, seção 13) e E1b (ondas 2 e 3, seções 12.5 e 12.9, EM16) do plano saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (versão 3). O que mudou está na seção "Mudanças desta versão", no fim.
+- **Versão:** 7 (27/10/2026), aplica a encomenda O11 (f) do plano saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md (versão 2): a errata do item h e o item g do memorando saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md e as ressalvas M1 e M2 de saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-onda2c.md. O que mudou está na seção "Mudanças desta versão", no fim.
+- **Versão 6:** (27/10/2026) aplica a decisão 18 do CEO (matrícula na Pós até o 3º módulo) e as encomendas E1 (onda 1, seção 13) e E1b (ondas 2 e 3, seções 12.5 e 12.9, EM16) do plano saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (versão 3). O que mudou está na seção "Mudanças desta versão", no fim.
 - **Versão 5:** (26/10/2026) aplica a correção QM6 do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-midia-b.md): 289 e 662 dentro dos R$ 2.000,00 da turma com o limite de R$ 500,00 da estrategia-de-midia-pos (3.8, EM15); PP5, PP6, PP9 e PP11 com a verba da seção 12.5; encomendas das provas suspensas (decisão 14). Nenhuma conta mudou. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Versão 4:** (26/10/2026) aplica as correções QM1, QM2 e QM3 do qa (saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-26-midia.md): o corpo do arquivo deixa de programar provas, YouTube, LinkedIn e reserva P6; nenhuma peça mostra preço nem valor de inscrição até U11; a tabela 3.6 da estrategia-de-midia-pos (versão 3) passa a ser a fonte única do limite de volume. Nenhuma conta mudou. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Versão 3:** (26/10/2026) aplica as decisões 15 e 16 do CEO (verba de R$ 2.000,00 por turma de Pós no ciclo; meta de 15 matrículas, meta em reais de 15 vezes o valor do curso, inscrição de R$ 260,00 medida separada da matrícula) na seção 12 nova, e registra a decisão 14 (provas de bolsa e Livres fora desta rodada). O que mudou está na seção "Mudanças desta versão", no fim.
@@ -34,6 +35,7 @@
   - /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-26.md (seções 0, 6 e 7, para conciliar o calendário de verba das provas)
   - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep11-06.md (correções G1 a G8, para não repetir os erros)
   - /home/user/marketing-ufape/auditorias/11-midia-paga.md e /home/user/marketing-ufape/auditorias/conformidade-educacional.md
+  - Na versão 7: /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md (itens g e h), /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-onda2c.md (M1 e M2), /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md (versão 2, O11) e /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (versão 5, tabela 3.6)
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web nesta etapa.
 - **Dados pessoais:** nenhum. Nenhum docente, aluno, candidato ou lead é citado. Só contas sobre preços do catálogo.
 - **Marcadores:** [CONFIRMAR] é número ou fato que a Ufape precisa informar. [SUPOSIÇÃO] é hipótese ou escolha de desenho deste agente, sempre com a origem do raciocínio. Regra prática é regra de método, não meta. Desde a versão 3, verba (R$ 2.000,00 por turma) e meta (15 matrículas, 15 vezes o valor do curso) vêm do CEO (decisões 15 e 16); gasto, CPL, vagas, leads, inscritos e matrículas observados continuam sem número.
@@ -422,7 +424,7 @@ Notas de 1 a 5 são avaliação do gestor, não medida; empate desfeito pela urg
 | Promessas e provas | Empregabilidade e satisfação com fonte, período e amostra | Não se aplica | Nenhum dado desse tipo |
 | Promessas e provas | Superlativos só com fonte | Atendido | Nenhum |
 | Promessas e provas | Comparação com concorrente objetiva | Atendido | Anclivepa só como data de calendário interno; nenhuma peça a cita |
-| Preço e condições | Valor, parcelas e condições completas | Atendido | Versão 4: nenhuma peça mostra preço (parcela, total ou matrícula) nem valor de inscrição até U11; o investimento completo fica na página da turma (12.8, QM2) |
+| Preço e condições | Valor, parcelas e condições completas | Atendido | Versão 4: nenhuma peça mostra preço (parcela, total ou matrícula) nem valor de inscrição até U11; o investimento completo fica na página da turma (12.8, QM2). Versão 7 (M1 do qa onda2c): a conferência da página antes de cada subida (item C5 dos memorandos das ondas 2 e 3) pede a condição da 1ª mensalidade junto de parcelas, total e matrícula e o valor da matrícula conferido contra a U11 |
 | Preço e condições | Bolsa e desconto com regra, público e prazo | Pendente externo | Provas suspensas (decisão 14), sem anúncio de bolsa; promoção de 341 [CONFIRMAR]; 341 sem promoção em anúncio até PR7 (PP7) |
 | Preço e condições | Urgência real | Atendido | Nenhum "últimas vagas"; turma mínima tratada como piso, não como meta nem escassez |
 | Preço e condições | Prouni, Fies ou financiamento | Não se aplica | |
@@ -491,7 +493,7 @@ Notas:
 - Conta de exemplo (68615): 15 x R$ 35.400,00 = R$ 531.000,00; R$ 531.000,00 / R$ 2.000,00 = 265,50 vezes; R$ 2.000,00 / 15 = R$ 133,33.
 - Em 657, 698 e 68609 a parcela vezes o número de parcelas difere do total do site em centavos; vale o total do site.
 - 341 com a promoção de 20% sobre as mensalidades, se a regra valer (PR7): valor de R$ 34.800,00 e meta de R$ 522.000,00 (261,00 vezes). Conta de uso interno: nenhum valor com desconto calculado vai para peça.
-- Recorte: onda 1 (reta final, início até 28/11/2026), onda 2 (março de 2027) e onda 3 até abril de 2027. As turmas de maio (onda 3, fora do trimestre) têm a meta calculada do mesmo jeito: 719 R$ 180.000,00 (90,00 vezes); 68616 R$ 536.580,00 (268,29); 68629 R$ 246.840,00 (123,42); 359 R$ 652.500,00 (326,25); 699 R$ 495.000,00 (247,50); 382 R$ 506.250,00 (253,13); 68623 R$ 522.000,00 (261,00); 578 R$ 562.500,00 (281,25); 352 R$ 718.200,00 (359,10); 60 R$ 445.500,00 (222,75). A divisão da verba delas entra no plano do trimestre seguinte.
+- Recorte: onda 1 (reta final, início até 28/11/2026), onda 2 (março de 2027) e onda 3 até abril de 2027. As turmas de maio (onda 3, fora do trimestre) têm a meta calculada do mesmo jeito: 719 R$ 180.000,00 (90,00 vezes); 68616 R$ 536.580,00 (268,29); 68629 R$ 246.840,00 (123,42); 359 R$ 652.500,00 (326,25); 699 R$ 495.000,00 (247,50); 382 R$ 506.250,00 (253,13); 68623 R$ 522.000,00 (261,00); 578 R$ 562.500,00 (281,25); 352 R$ 718.200,00 (359,10); 60 R$ 445.500,00 (222,75). A divisão da verba delas entra no plano do trimestre seguinte. Versão 7: a divisão de maio, igual à de abril e dentro dos mesmos R$ 2.000,00 por turma, está no memorando saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md, seção 4 (pedido OM5, que é o OC7 do cmo).
 - Leitura: o retorno de 90 a 363 vezes mostra que a meta do CEO cabe com folga na matrícula de lista (o teto absoluto da seção 2.4 vai de R$ 11.470,00 a R$ 19.609,96 por matrícula em 12 parcelas, contra R$ 133,33 de custo máximo). O risco não é a matrícula pagar a mídia; é a verba comprar volume suficiente (seções 12.3 e 12.6).
 
 ### 12.3 Custo por lead máximo em três cenários
@@ -566,21 +568,30 @@ Canais da extensão: 50% e 50%, os mesmos da manutenção de fim de ano, a outra
 
 ### 12.6 Onde R$ 2.000,00 é pouco e o que fazer
 
-**Fonte única do limite de volume (versão 4, QM3):** a tabela 3.6 da estrategia-de-midia-pos (versão 3) é a única fonte do limite de volume e do gatilho "o frio sai". Regra: verba semanal da campanha x 3 maior ou igual a conceitos ativos x 1,5 x CPL, com Meta frio (3 conceitos) e Meta remarketing (2 peças) como campanhas separadas e Google com 2 anúncios responsivos por grupo. Valores copiados de lá para leitura, sem mudança:
+**Fonte única do limite de volume (versão 4, QM3):** a tabela 3.6 da estrategia-de-midia-pos (versão 3; hoje versão 5) é a única fonte do limite de volume e do gatilho "o frio sai". Regra: verba semanal da campanha x 3 maior ou igual a conceitos ativos x 1,5 x CPL, com Meta frio (3 conceitos) e Meta remarketing (2 peças) como campanhas separadas e Google com 2 anúncios responsivos por grupo; na extensão, 1 peça por vez e 1 anúncio por grupo de cada vez. Valores copiados da versão 5 da estratégia (a 85%, com as linhas da extensão), para leitura, sem mudança (versão 7, errata do item h do memorando da onda 2), mais as linhas da -exta liberada pelo item g:
 
-| Turmas | Fase | Limite Meta frio (3) | Limite Meta remarketing (2) | Limite Google (2) |
+| Turmas | Fase | Limite Meta frio (3) | Limite Meta remarketing (2; extensão: 1) | Limite Google (2; extensão: 1) |
 |---|---|---|---|---|
-| 68615, 289, 333 | Aquecimento | R$ 93,33 | R$ 35,00 | R$ 75,00 |
-| 657, 341 | Aquecimento | R$ 186,67 | R$ 70,00 | R$ 150,00 |
-| as 5 de março | Manutenção | pausado | R$ 50,00 | R$ 50,00 |
-| 68615, 289, 341 | Conversão | R$ 51,43 | R$ 51,43 | R$ 69,24 |
-| 333 | Conversão | R$ 44,64 | R$ 44,64 | R$ 60,09 |
-| 657 | Conversão | R$ 60,67 | R$ 60,67 | R$ 81,67 |
-| as 9 de abril | Aquecimento | R$ 68,77 | R$ 25,79 | R$ 55,26 |
-| 679 | Conversão | R$ 70,00 | R$ 70,00 | R$ 94,23 |
-| 68632, 68635, 366, 68628 | Conversão | R$ 59,35 | R$ 59,35 | R$ 79,89 |
-| 68617, 68636 | Conversão | R$ 51,51 | R$ 51,51 | R$ 69,34 |
-| 68609, 662 | Conversão | R$ 45,50 | R$ 45,50 | R$ 61,25 |
+| 68615, 289, 333 | Aquecimento | R$ 79,33 | R$ 29,75 | R$ 63,75 |
+| 657, 341 | Aquecimento | R$ 158,67 | R$ 59,50 | R$ 127,50 |
+| as 5 de março | Manutenção | pausado | R$ 42,50 | R$ 42,50 |
+| 68615, 289, 341 | Conversão | R$ 43,72 | R$ 43,72 | R$ 58,85 |
+| 333 | Conversão | R$ 37,95 | R$ 37,95 | R$ 51,08 |
+| 657 | Conversão | R$ 51,57 | R$ 51,57 | R$ 69,42 |
+| as 9 de abril | Aquecimento | R$ 58,46 | R$ 21,92 | R$ 46,97 |
+| 679 | Conversão | R$ 59,50 | R$ 59,50 | R$ 80,10 |
+| 68632, 68635, 366, 68628 | Conversão | R$ 50,45 | R$ 50,45 | R$ 67,91 |
+| 68617, 68636 | Conversão | R$ 43,78 | R$ 43,78 | R$ 58,94 |
+| 68609, 662 | Conversão | R$ 38,68 | R$ 38,68 | R$ 52,06 |
+| 657 | Extensão | pausado | R$ 21,21 | R$ 21,21 |
+| 341 | Extensão | pausado | R$ 29,58 | R$ 29,58 |
+| 289 | Extensão | pausado | R$ 24,71 | R$ 24,71 |
+| 68615, 68617, 68636, 68609 (e 333 e 68632 com OU3) | Extensão | pausado | R$ 22,83 | R$ 22,83 |
+| 333, 68632 (até OU3) | Extensão | pausado | R$ 72,41 | R$ 72,41 |
+| 68628 | Extensão | pausado | R$ 19,81 | R$ 19,81 |
+| 68635, 366 (-exta, item g) | Extensão | pausado | R$ 19,04 | R$ 19,04 |
+| 679 (-exta, item g) | Extensão | pausado | R$ 18,06 | R$ 18,06 |
+| 679, 68635, 366 (-extb, pelo saldo) e 662 | Extensão | pausado | 2 x verba semanal do saldo [CONFIRMAR o dia do 3º módulo] | idem |
 
 A tabela da versão 3 deste arquivo (Meta inteira com 3 conceitos) e a conversão para fatores de VN saem: VN e YouTube não existem mais na estratégia. Se a estratégia mudar a 3.6, vale a versão dela.
 
@@ -588,8 +599,8 @@ A tabela da versão 3 deste arquivo (Meta inteira com 3 conceitos) e a conversã
 1. **A meta exige CPL muito baixo.** Se o CPL real da Pós ficar acima de R$ 18,00, a meta de 15 matrículas não fecha com R$ 2.000,00 em nenhum cenário, e acima dos limites da tabela nem o teste dos 3 conceitos fecha. Não há CPL histórico para saber [DADO NÃO FORNECIDO]: a primeira semana fechada de cada turma decide.
 2. **Aprendizado da plataforma.** Com cerca de R$ 110,00 a R$ 175,00 por semana na Meta e CPL de R$ 10,00, a turma gera de 11 a 18 leads por semana, longe das cerca de 50 conversões por semana que a Meta usa para sair do aprendizado (estimativa, seção 5). Otimizar para inscrição paga ou matrícula está fora de alcance: 17 a 25 inscrições no ciclo inteiro.
 3. **Comparar conceitos.** A regra da diagnostico-de-midia pede de 10 a 20 conversões de cada lado: 3 conceitos x 10 leads = 30 leads. Com CPL de R$ 10,00, R$ 300,00 (15% da verba); com CPL de R$ 50,00, R$ 1.500,00 (75%), o que não deixa verba para escalar o vencedor.
-4. **Manutenção de fim de ano:** só remarketing com 2 peças, limite de R$ 50,00 (tabela 3.6); a Meta fria fica pausada.
-5. **Google no aquecimento de abril:** R$ 55,26 por semana.
+4. **Manutenção de fim de ano:** só remarketing com 2 peças, limite de R$ 50,00 na versão 4 e R$ 42,50 a 85% (tabela 3.6 da estratégia v5); a Meta fria fica pausada.
+5. **Google no aquecimento de abril:** R$ 55,26 por semana na versão 4; R$ 46,97 a 85% (tabela 3.6 da estratégia v5).
 6. **YouTube e LinkedIn não cabem.** O YouTube levaria 10% de uma verba que já é pequena, e o LinkedIn de 657 (P5 era 5% da VN contra os 7% de 657 inteira) consumiria R$ 1.428,57 (5/7) dos R$ 2.000,00 de 657.
 7. **Onda 1:** as 6 turmas da reta final rodam desde antes da decisão; o gasto do ciclo pode já estar perto ou acima de R$ 2.000,00 [CONFIRMAR].
 
@@ -621,15 +632,15 @@ PP13 e PP14 passam a ter recomendação "fora nesta verba" e vão ao cmo (mudam 
 | anuncios-meta, anuncios-google, criativos-de-anuncio e estrategia-de-midia | Todas as encomendas das provas de bolsa e do pós-prova da seção 7 (estrutura, rastreio, pacote de criativos e plano das provas) ficam **suspensas (decisão 14)** até nova ordem do CEO | - |
 | analise-de-midia | Ler o gasto acumulado por turma contra R$ 2.000,00 (onda 1, 289 e 662) e incluir no relatório semanal: gasto do ciclo, inscrições pagas e 1ª mensalidade por turma, só números somados | 2 dias úteis depois da exportação |
 | estrategia-de-midia (versão 6 deste arquivo) | Adotar a divisão 85% e 15% da seção 12.5 (fases até o corte multiplicadas por 0,85; extensão com R$ 150,00 por canal), refazer a tabela 3.6 com os limites a 85% e as linhas da extensão (1 peça, 1 anúncio, seção 12.9), trocar o texto de EM16 pelo da seção 12.9, pôr as datas de fim da extensão no calendário 6.1 e ajustar o excedente de 662 em EM15 (sai da extensão) | 10/11 |
-| anuncios-meta (anuncios-meta-pos, em correção em paralelo; não editado) | Diárias de cada fase até o corte a 85% dos valores atuais; conjunto de extensão por turma: só remarketing de visitantes, 1 peça (a de menor CPL até o corte), R$ 150,00 no período, texto com a regra completa do 3º módulo; pausa no dia seguinte ao corte só do frio e dos anúncios com data de início; pausa total na véspera do 3º módulo (ou do 1º módulo presencial entre os dois primeiros: 333 e 68632, até OU3) ou com R$ 2.000,00 gastos; trava de gasto da campanha igual ao total da turma | depois da estratégia; antes de 30/11 (março) e 30/12 (abril) |
-| anuncios-google (anuncios-google-pos, em correção em paralelo; não editado) | Diárias até o corte a 85%; na extensão, só grupos de marca e de maior intenção, 1 anúncio responsivo por grupo, R$ 150,00 no período; mesmas datas de pausa do anuncios-meta; o "pedido de pausa no dia seguinte ao corte (EM16)" passa a ser o fim do frio e dos grupos amplos, não da campanha | idem |
-| criativos-de-anuncio | Versão de remarketing de cada turma de março e abril para a extensão, com a regra completa do 3º módulo e sem preço (E10 do cmo vale também para as ondas 2 e 3), sem conceito novo | 25/01 (março); 25/02 (abril) |
+| anuncios-meta (anuncios-meta-pos, em correção em paralelo; não editado) | Diárias de cada fase até o corte a 85% dos valores atuais; extensão dentro da campanha e do conjunto de remarketing já existentes da turma (`pos_<código>-<área>_meta_lead_rmk30d_<AAAAMM>__rmk30d`), sem campanha nem conjunto novos; 1 anúncio ativo por vez, a -exta (do dia seguinte ao corte até a véspera do início) e depois a -extb (do início até a véspera do 3º módulo), as duas adaptações do r2 (r2 fixo, RE4), com a mesma diária e os mesmos R$ 150,00, texto com a regra completa do 3º módulo e "fale com o time" sobre os módulos já realizados (versão 7, errata do item h); pausa no dia seguinte ao corte só do frio e dos anúncios com data de início; pausa total na véspera do 3º módulo (ou do 1º módulo presencial entre os dois primeiros: 333 e 68632, até OU3) ou com R$ 2.000,00 gastos; trava de gasto da campanha igual ao total da turma | depois da estratégia; antes de 30/11 (março) e 30/12 (abril) |
+| anuncios-google (anuncios-google-pos, em correção em paralelo; não editado) | Diárias até o corte a 85%; na extensão, dentro da campanha de Busca existente da turma, nos grupos `__area` e `__marca`, 1 anúncio responsivo por grupo de cada vez (-exta e depois -extb), com a mesma diária, R$ 150,00 no período (versão 7, errata do item h); mesmas datas de pausa do anuncios-meta; o "pedido de pausa no dia seguinte ao corte (EM16)" passa a ser o fim do frio e dos grupos amplos, não da campanha | idem |
+| criativos-de-anuncio | Peças -exta e -extb de cada turma, entregues em criativos-de-anuncio-pos-2026-10-27-ext (versão 2), com a regra completa do 3º módulo e sem preço (E10 do cmo vale também para as ondas 2 e 3), sem conceito novo (versão 7, errata do item h) | 25/01 (março); 25/02 (abril) |
 | analise-de-midia | Onda 1: leitura até a véspera do 3º módulo contra a diária da seção 13.1, leads antes e depois do início separados; ondas 2 e 3: leitura da extensão lado a lado com as turmas da mesma área (12.9, condição 4); tabela de encerramento da 13.6 | semanal |
-
+| anuncios-meta e anuncios-google (versão 7 dos arquivos de campanha; encomendas O12 a e O13 a do cmo) | -exta de 68635, 679 e 366 liberada pelo item g do memorando da onda 2 (diária de R$ 1,36, R$ 1,29 e R$ 1,36 por canal, teto de R$ 39,44, R$ 37,41 e R$ 39,44, regra do saldo, seção 12.9); forma de execução das trocas e passagens em sábado e feriado pelo memorando da onda 3 (seção 3); conferência da página antes de cada subida com a C5 completa, condição da 1ª mensalidade e valor da matrícula contra a U11 (M1 do qa onda2c); MO6 só aprovado depois do qa dessas versões (M2); ordem de dependência no memorando da onda 3, seção 9. Criativos-de-anuncio: nota de situação "-exta liberada pelo gestor (memorando da onda 2, item g); -extb bloqueada sem o dia" no ext v3, sem mudar texto de anúncio | 19/11 (versão 7); qa em 25/11; MO6 em 30/12 |
 
 ### 12.9 Avaliação da proposta do cmo para as ondas 2 e 3 (E1b) e EM16 reescrito
 
-**Decisão do gestor: aceito os 85% e 15%, dentro dos mesmos R$ 2.000,00, com um ajuste de formato na extensão.** Motivos: (1) as semanas antes do início vendem o curso inteiro e ficam com 85%; (2) depois do corte, quem ainda entra já conhece a turma, então remarketing e busca bastam (origem do percentual: [SUPOSIÇÃO] do cmo, cmo-pos-2026-10-26.md, E1b); (3) a extensão é longa (de 4 a 15 semanas), e R$ 300,00 dão de R$ 9,91 a R$ 36,21 por semana por canal. Com 2 peças no remarketing e 2 anúncios no Google, o limite de volume ficaria entre R$ 9,91 e R$ 14,79 nas turmas de extensão longa, abaixo do CPL otimista de R$ 18,00. **Ajuste:** na extensão, a Meta roda só 1 peça de remarketing (a de menor CPL até o corte) e o Google 1 anúncio responsivo por grupo, o que dobra o limite e põe todas as turmas acima de R$ 18,00. Nenhum outro percentual muda.
+**Decisão do gestor: aceito os 85% e 15%, dentro dos mesmos R$ 2.000,00, com um ajuste de formato na extensão.** Motivos: (1) as semanas antes do início vendem o curso inteiro e ficam com 85%; (2) depois do corte, quem ainda entra já conhece a turma, então remarketing e busca bastam (origem do percentual: [SUPOSIÇÃO] do cmo, cmo-pos-2026-10-26.md, E1b); (3) a extensão é longa (de 4 a 15 semanas), e R$ 300,00 dão de R$ 9,91 a R$ 36,21 por semana por canal. Com 2 peças no remarketing e 2 anúncios no Google, o limite de volume ficaria entre R$ 9,91 e R$ 14,79 nas turmas de extensão longa, abaixo do CPL otimista de R$ 18,00. **Ajuste:** na extensão, a Meta roda 1 peça por vez, a -exta e depois a -extb, adaptações do r2 (r2 fixo, RE4), dentro da campanha e do conjunto de remarketing já existentes da turma, e o Google 1 anúncio responsivo por grupo de cada vez (-exta e depois -extb), nos grupos `__area` e `__marca` da campanha de Busca existente, o que dobra o limite e põe todas as turmas acima de R$ 18,00 (versão 7, errata do item h). Nenhum outro percentual muda.
 
 **Extensão por turma** (do dia seguinte ao corte até a véspera do 3º módulo da ficha; R$ 150,00 por canal; limite = 2 x verba semanal / 1 peça, regra da tabela 3.6 da estrategia-de-midia-pos):
 
@@ -640,10 +651,10 @@ PP13 e PP14 passam a ter recomendação "fora nesta verba" e vão ao cmo (mudam 
 | 289 | 18/02/2027 | 15 e 16/05/2027, online | 19/02 a 14/05 | 12,14 | R$ 12,35 | R$ 24,71 |
 | 68615 | 18/02/2027 | 22 e 23/05/2027, online | 19/02 a 21/05 | 13,14 | R$ 11,41 | R$ 22,83 |
 | 333 | 25/02/2027 | 29 e 30/05/2027; **módulo 1 presencial (27 e 28/03)** | 26/02 a 26/03 (véspera do módulo 1, até OU3); com OU3, até 28/05 | 4,14 (13,14) | R$ 36,21 (R$ 11,41) | R$ 72,41 (R$ 22,83) |
-| 679 | 04/03/2027 | junho de 2027, dia [CONFIRMAR] | 05/03 até a véspera | [CONFIRMAR] | [CONFIRMAR] | [CONFIRMAR] |
+| 679 | 04/03/2027 | junho de 2027, dia [CONFIRMAR] | -exta liberada de 05/03 a 02/04 (item g); -extb do início (03/04) até a véspera do 3º módulo, só com o dia | -exta 4,14; total [CONFIRMAR] | -exta R$ 9,03 (diária R$ 1,29); -extb pelo saldo | -exta R$ 18,06; -extb [CONFIRMAR] |
 | 68632 | 11/03/2027 | 12 e 13/06/2027; **turma presencial** | 12/03 a 09/04 (véspera do módulo 1, até OU3) | 4,14 | R$ 36,21 | R$ 72,41 |
-| 68635 | 11/03/2027 | junho de 2027, presencial, dia [CONFIRMAR]; módulos 1 e 2 online | 12/03 até a véspera | [CONFIRMAR] | [CONFIRMAR] | [CONFIRMAR] |
-| 366 | 11/03/2027 | junho de 2027, dia [CONFIRMAR]; ficha com módulo 1 em 24 e 25/04, início diverge (P4) | [CONFIRMAR] | [CONFIRMAR] | [CONFIRMAR] | [CONFIRMAR] |
+| 68635 | 11/03/2027 | junho de 2027, presencial, dia [CONFIRMAR]; módulos 1 e 2 online | -exta liberada de 12/03 a 09/04 (item g); -extb do início (10/04) até a véspera do 3º módulo, só com o dia | -exta 4,14; total [CONFIRMAR] | -exta R$ 9,52 (diária R$ 1,36); -extb pelo saldo | -exta R$ 19,04; -extb [CONFIRMAR] |
+| 366 | 11/03/2027 | junho de 2027, dia [CONFIRMAR]; ficha com módulo 1 em 24 e 25/04, início diverge (P4) | -exta liberada de 12/03 a 09/04 pela data da planilha (item g; só com P4 resolvida); -extb só com o dia | -exta 4,14; total [CONFIRMAR] | -exta R$ 9,52 (diária R$ 1,36); -extb pelo saldo | -exta R$ 19,04; -extb [CONFIRMAR] |
 | 68628 | 11/03/2027 | 26 e 27/06/2027, online | 12/03 a 25/06 | 15,14 | R$ 9,91 | R$ 19,81 |
 | 68617 | 18/03/2027 | 19 e 20/06/2027, online | 19/03 a 18/06 | 13,14 | R$ 11,41 | R$ 22,83 |
 | 68636 | 18/03/2027 | 19 e 20/06/2027 (ficha; início só no site) | 19/03 a 18/06 | 13,14 | R$ 11,41 | R$ 22,83 |
@@ -652,11 +663,21 @@ PP13 e PP14 passam a ter recomendação "fora nesta verba" e vão ao cmo (mudam 
 
 Conta de exemplo (68615): 19/02 a 21/05 = 92 dias = 13,14 semanas; R$ 150,00 / 13,14 = R$ 11,41 por semana; 2 x R$ 11,41 / 1 = R$ 22,83.
 
+**Extensão sem o dia do 3º módulo: -exta liberada em 68635, 679 e 366 (versão 7; item g do memorando saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md, seção 7).** O texto da -exta não depende do dia (cita só o mês da ficha e a regra de matrícula, sem urgência; criativos ext v2), e as 4 semanas antes do início são as que mais decidem a matrícula de quem já visitou a página. A -exta sobe no dia seguinte ao corte com diária própria por canal, igual na Meta e no Google: R$ 150,00 divididos pelos dias do dia seguinte ao corte até 29/06/2027 (véspera do último dia possível de junho), arredondada para baixo, com piso de R$ 1,29, que mantém o limite de volume de 1 peça acima de R$ 18,00 [SUPOSIÇÃO de desenho do item g]. A -extb continua bloqueada até o dia do 3º módulo entrar na ficha.
+
+| Turma | -exta no ar (dia seguinte ao corte até a véspera do início) | Dias da -exta | Conta | Diária da -exta por canal | Teto da -exta por canal | Saldo mínimo para a -extb por canal | Limite de volume (1 peça) |
+|---|---|---|---|---|---|---|---|
+| 68635 | 12/03 a 09/04/2027 | 29 | R$ 150,00 / 110 dias = R$ 1,3636 | **R$ 1,36** | R$ 39,44 | R$ 110,56 | R$ 19,04 |
+| 366 | 12/03 a 09/04/2027 (início da planilha; a campanha só existe com P4 resolvida) | 29 | R$ 150,00 / 110 dias = R$ 1,3636 | **R$ 1,36** | R$ 39,44 | R$ 110,56 | R$ 19,04 |
+| 679 | 05/03 a 02/04/2027 (a campanha só existe com P3 resolvida) | 29 | R$ 150,00 / 117 dias = R$ 1,2820; piso | **R$ 1,29** | R$ 37,41 | R$ 112,59 | R$ 18,06 |
+
+Regra do saldo (item g): (1) a -exta roda do dia seguinte ao corte até 23h59 da véspera do início e nunca gasta mais que o teto do canal; (2) com o dia D do 3º módulo, a -extb sobe no dia do início com diária = (R$ 150,00 menos o gasto real da -exta no canal) / dias do início até a véspera de D, arredondada para baixo, sem passar de R$ 150,00 no canal; (3) sem D até a véspera do início, a -exta para às 23h59 da véspera do início (02/04 em 679; 09/04 em 68635 e 366) e o saldo não é gasto; se D chegar depois, a -extb sobe na segunda seguinte com o saldo dividido pelos dias que faltarem, em nova versão dos arquivos de campanha; (4) sobra não vai a outra turma sem decisão do CEO, e o total da turma continua R$ 2.000,00; (5) diária abaixo do mínimo da plataforma [CONFIRMAR]: EM14 dentro da janela da -exta, sem passar do teto; (6) valem as demais condições da extensão; (7) 662 não muda, com as duas peças bloqueadas. O pedido é o MO6 do memorando da onda 2, aprovado só depois do qa das novas versões do anuncios-meta e do anuncios-google (M2 do qa onda2c). A execução das trocas e passagens em sábado e feriado está no memorando da onda 3 (saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md, seção 3).
+
 **Efeito nas fases até o corte:** todas as verbas de fase caem 15% com as semanas iguais, então os limites da tabela 3.6 caem para 85%. Exemplos: 68615 na conversão, Meta frio de R$ 51,43 para R$ 43,72; manutenção, remarketing de R$ 50,00 para R$ 42,50; menor limite, remarketing do aquecimento de abril, de R$ 25,79 para R$ 21,92. Todos seguem acima de R$ 18,00. A tabela 3.6 continua a fonte única; a estrategia-de-midia-pos a refaz (12.8).
 
 **Condições da extensão (do cmo, E1b, todas mantidas):**
 1. Só começa se a turma não tiver chegado às 15 matrículas nem lotado [CONFIRMAR vagas]; se não começar, os R$ 300,00 não são gastos.
-2. Sem público frio, sem criativo novo de conceito; texto com a regra completa (regra 6 do plano da onda 1: início, "matrícula até o 3º módulo", data do 3º módulo e que o time explica os módulos já dados). Nenhuma urgência com a data sem a regra.
+2. Sem público frio, sem criativo novo de conceito; texto com a regra completa (regra 6 do plano da onda 1: início, "matrícula até o 3º módulo", data do 3º módulo e "fale com o time" sobre os módulos já realizados, RM1 da rodada f, sem nenhuma promessa de reposição até OU3; versão 7, errata do item h). Nenhuma urgência com a data sem a regra.
 3. Se o módulo 1 ou o 2 for presencial, a extensão para na véspera dele até a Ufape dizer como se repõe (OU3): hoje 333 e 68632.
 4. A extensão de março entra em abril e maio e disputa público com as turmas da mesma área: sem exclusão, leitura lado a lado (frequência e CPM) no relatório semanal.
 5. "Até o 3º módulo" lido como até a véspera para a mídia [CONFIRMAR OU6]; pagamento de quem entra depois do corte [CONFIRMAR OU8].
@@ -665,7 +686,7 @@ Conta de exemplo (68615): 19/02 a 21/05 = 92 dias = 13,14 semanas; R$ 150,00 / 1
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
-| EM16 (versão 6 do gestor) | No dia seguinte ao corte, pausar o público frio e todos os anúncios de turma que citam a data de início sem a regra completa; seguir só com 1 peça de remarketing na Meta e 1 anúncio responsivo por grupo de marca e de maior intenção no Google, com R$ 150,00 por canal, até 23h59 da véspera do 3º módulo (ou da véspera do 1º módulo presencial entre os dois primeiros, até OU3), só se a turma não tiver 15 matrículas nem lotado; pausa de todas as campanhas da turma no fim da extensão, ou antes se o gasto do ciclo chegar a R$ 2.000,00 | decisão 18 (matrícula até o 3º módulo) e teto do CEO (decisão 15) | 15% dos R$ 2.000,00 (R$ 300,00) | captação de quem já conhece a turma até o último dia em que pode entrar | voltar à pausa no dia seguinte ao corte | datas da tabela acima |
+| EM16 (versão 7 do gestor; texto da versão 6 com a errata do item h) | No dia seguinte ao corte, pausar o público frio e todos os anúncios de turma que citam a data de início sem a regra completa; seguir, dentro da campanha e do conjunto de remarketing já existentes da turma, com 1 peça por vez na Meta (a -exta até a véspera do início e a -extb do início até a véspera do 3º módulo, adaptações do r2) e, dentro da campanha de Busca existente, com 1 anúncio responsivo por grupo de marca e de maior intenção de cada vez (-exta e depois -extb), com R$ 150,00 por canal, até 23h59 da véspera do 3º módulo (ou da véspera do 1º módulo presencial entre os dois primeiros, até OU3), só se a turma não tiver 15 matrículas nem lotado; texto com a regra completa e "fale com o time" sobre os módulos já realizados; pausa de todas as campanhas da turma no fim da extensão, ou antes se o gasto do ciclo chegar a R$ 2.000,00 | decisão 18 (matrícula até o 3º módulo) e teto do CEO (decisão 15) | 15% dos R$ 2.000,00 (R$ 300,00) | captação de quem já conhece a turma até o último dia em que pode entrar | voltar à pausa no dia seguinte ao corte | datas da tabela acima |
 
 ---
 
@@ -737,6 +758,9 @@ Só números somados, sem dado pessoal; preenchida pela analise-de-midia (E8 do 
 ---
 
 ## Mudanças desta versão
+
+Versão 7 (27/10/2026), pela encomenda O11 (f) do plano da onda 3 do cmo:
+- Errata do item h do memorando da onda 2 aplicada no texto (12.6 com a tabela 3.6 da estratégia v5 a 85% e as linhas da extensão, e os itens 4 e 5 da leitura; 12.8, 12.9 e EM16 com a extensão dentro da campanha e do conjunto de remarketing existentes, 1 peça por vez, -exta e depois -extb, adaptações do r2 fixo, e "fale com o time" sobre os módulos já realizados), item g na 12.9 e na 12.6 (-exta de 68635, 679 e 366 liberada sem o dia do 3º módulo, diária de R$ 1,36, R$ 1,29 e R$ 1,36 por canal, teto, saldo e limite de volume), M1 do qa onda2c na auditoria 11.2 e na 12.8, M2 (MO6 só depois do qa das novas versões) na 12.9 e na 12.8, encomenda da versão 7 dos arquivos de campanha na 12.8 e aviso do plano de maio na nota da 12.2; nenhuma verba, diária até o corte ou total mudou.
 
 Versão 6 (27/10/2026), pela decisão 18 do CEO (matrícula na Pós até o 3º módulo) e pelas encomendas E1 e E1b do plano da onda 1 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, versão 3):
 - **Seção 12.5 reescrita:** ciclo até a véspera do 3º módulo; 85% da verba nas fases até o corte (todas as partes multiplicadas por 0,85) e 15% na extensão só remarketing e busca; março Meta R$ 1.250,75 e Google R$ 749,25; abril Meta R$ 1.276,25 e Google R$ 723,75; onda 1 sem as pausas de D9 e D18; excedente de 662 sai da extensão.
@@ -810,6 +834,7 @@ Versão 2 (26/10/2026), pela seção 12 do plano do cmo e pela revisão qa-de-ma
 - [SUPOSIÇÃO] 85% até o corte e 15% na extensão (percentual do cmo, E1b); canais da extensão 50% e 50%; 1 peça e 1 anúncio por grupo na extensão.
 - [SUPOSIÇÃO] Dias da manutenção de fim de ano contam meio dia na diária da onda 1; "até o 3º módulo" lido como até a véspera (OU6).
 - [SUPOSIÇÃO] Excedente de 662 sobre o aquecimento sai da extensão.
+- [SUPOSIÇÃO] Diária da -exta sem o dia do 3º módulo calculada até 29/06/2027, com piso de R$ 1,29 para manter o limite de volume acima de R$ 18,00 (item g do memorando da onda 2; versão 7).
 
 - [SUPOSIÇÃO ilustrativa] Taxas lead para inscrição de 5%, 10% e 15% e inscrição para matrícula de 60%, 75% e 90% nos três cenários da seção 12.3, sem fonte, só para sensibilidade.
 - [SUPOSIÇÃO] Mmid = 15: toda a meta pesa na mídia até a Ufape informar a parte da base e do orgânico.
@@ -861,4 +886,4 @@ Internas: as entradas listadas no cabeçalho. Externas: nenhuma nesta etapa.
 
 ---
 
-**Próximo agente sugerido (versão 6):** qa-de-marketing (seções 12.5, 12.9 e 13); depois, estrategia-de-midia (EM16 e tabela 3.6) e humano no gerenciador (PP15 e PP17 até 28/10). Registro da versão 3: qa-de-marketing (conferência da versão 3, sobretudo a seção 12); depois, cmo (PP13, PP14 e PP16, que mudam canais e divisão). Depois, **estrategia-de-midia** (plano novo da Pós por semana, seção 7) e **analise-de-midia** (etapa 1.12, diagnóstico das campanhas da Pós assim que a exportação chegar).
+**Próximo agente sugerido (versão 7):** qa-de-marketing (12.6, 12.8 e 12.9, junto com o memorando saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda3.md); depois, anuncios-meta e anuncios-google (versão 7, na ordem da seção 9 do memorando da onda 3). Registro da versão 6: qa-de-marketing (seções 12.5, 12.9 e 13); depois, estrategia-de-midia (EM16 e tabela 3.6) e humano no gerenciador (PP15 e PP17 até 28/10). Registro da versão 3: qa-de-marketing (conferência da versão 3, sobretudo a seção 12); depois, cmo (PP13, PP14 e PP16, que mudam canais e divisão). Depois, **estrategia-de-midia** (plano novo da Pós por semana, seção 7) e **analise-de-midia** (etapa 1.12, diagnóstico das campanhas da Pós assim que a exportação chegar).
