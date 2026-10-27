@@ -474,7 +474,7 @@
       "id": "366-p05",
       "ref_plano": "P4",
       "tipo": "data",
-      "descricao": "Datas diferentes entre planilha e site (vale a planilha). Tratamento no plano: peças usam a data da planilha; anúncio novo de 698 só depois de o site ser corrigido (pedido A6); Bloqueio no plano da onda 3 (tabela 1.1): P4 (data)",
+      "descricao": "Datas diferentes entre planilha e site (vale a planilha): planilha 10/04/2027; site: site e cronograma em 24/04/2027. Tratamento no plano: Peças usam a data da planilha. Bloqueio no plano da onda 3 (tabela 1.1): P4 (data)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -491,7 +491,7 @@
       "id": "366-p06",
       "ref_plano": "OU20",
       "tipo": "data",
-      "descricao": "Pergunta OU20 à Ufape ainda sem resposta; afeta: todo o calendário, corte, extensão",
+      "descricao": "Pergunta OU20 à Ufape ainda sem resposta: Início de 366: 10/04 (planilha) ou 24/04 (site e cronograma)? Quem coordena (a ficha diz \"UFAPE\")? O CEP é 01428-001 ou 01407-100? Afeta: todo o calendário, corte, extensão.",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -508,7 +508,7 @@
       "id": "366-p07",
       "ref_plano": "OU25",
       "tipo": "data",
-      "descricao": "Pergunta OU25 à Ufape ainda sem resposta; afeta: data limite, -extb, pós-início, pausas",
+      "descricao": "Pergunta OU25 à Ufape ainda sem resposta: Dia do 3º módulo presencial de 679, 68635 e 366 (junho) e de 359 e 60 (julho); dia do módulo 2 presencial de 68616 e 359 (junho) e de 352 (maio) Afeta: data limite, -extb, pós-início, pausas.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [
@@ -522,7 +522,7 @@
       "id": "366-p08",
       "ref_plano": "OU34",
       "tipo": "outro",
-      "descricao": "Pergunta OU34 à Ufape ainda sem resposta; afeta: post de quem representa a turma, página",
+      "descricao": "Pergunta OU34 à Ufape ainda sem resposta: Quem representa 68632 (sem coordenação), 366 e 578 (\"UFAPE\")? Afeta: post de quem representa a turma, página.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [],
@@ -649,7 +649,7 @@
   "aprovacoes": [
     {
       "ref": "OC1-A",
-      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula…",
+      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula conferido contra a U11, política de privacidade e aviso de cookies no formulário, decisão sobre o botão COMPRAR, bloco a frase de certificação que a squad não repete revisto pela regulação [CONFIRMAR], bloco de parceiros vazio oculto e erros de digitação do cronograma corrigidos no dado). Prazo: 10/12",
       "por_que": "sem isso nenhuma página conta e a mídia de 06/01 leva a página reprovada",
       "quanto": "sem custo de mídia",
       "efeito_esperado": "destino que entrega o que a peça promete",

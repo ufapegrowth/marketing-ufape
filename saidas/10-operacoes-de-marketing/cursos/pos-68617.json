@@ -474,7 +474,7 @@
       "id": "68617-p05",
       "ref_plano": "P5",
       "tipo": "turma",
-      "descricao": "Turma diferente entre planilha e site. Tratamento no plano: [CONFIRMAR]. Peças sem número de turma; Bloqueio no plano da onda 3 (tabela 1.1): P5",
+      "descricao": "Turma diferente entre planilha e site. Tratamento no plano: [CONFIRMAR]. Peças sem número de turma. Bloqueio no plano da onda 3 (tabela 1.1): P5",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "turma"
@@ -486,6 +486,18 @@
     },
     {
       "id": "68617-p06",
+      "ref_plano": "OU29",
+      "tipo": "outro",
+      "descricao": "Pergunta OU29 à Ufape ainda sem resposta. Afeta: P5, URL, cards.",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "68617-p07",
       "ref_plano": "URL \"/v/\"",
       "tipo": "outro",
       "descricao": "Bloqueio no plano da onda 3 (tabela 1.1): URL \"/v/\" conferida antes da subida",
@@ -495,18 +507,6 @@
         "anuncio"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1",
-      "aberta_em": "2026-10-27",
-      "resolvida_em": null
-    },
-    {
-      "id": "68617-p07",
-      "ref_plano": "OU29",
-      "tipo": "outro",
-      "descricao": "Pergunta OU29 à Ufape ainda sem resposta; afeta: P5, URL, cards",
-      "marcador": "[CONFIRMAR]",
-      "campos": [],
-      "bloqueia": [],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
@@ -643,7 +643,7 @@
   "aprovacoes": [
     {
       "ref": "OC1-A",
-      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula…",
+      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula conferido contra a U11, política de privacidade e aviso de cookies no formulário, decisão sobre o botão COMPRAR, bloco a frase de certificação que a squad não repete revisto pela regulação [CONFIRMAR], bloco de parceiros vazio oculto e erros de digitação do cronograma corrigidos no dado). Prazo: 10/12",
       "por_que": "sem isso nenhuma página conta e a mídia de 06/01 leva a página reprovada",
       "quanto": "sem custo de mídia",
       "efeito_esperado": "destino que entrega o que a peça promete",

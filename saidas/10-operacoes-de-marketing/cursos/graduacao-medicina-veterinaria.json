@@ -14,7 +14,9 @@
     "ficha": "contexto/cursos/graduacao/editais-2027-1.md",
     "ficha_editais": "contexto/cursos/graduacao/editais-2027-1.md",
     "ficha_lida_em": null,
-    "campos_so_na_ficha": [],
+    "campos_so_na_ficha": [
+      "graduacao.turnos"
+    ],
     "visao_de_campanhas": {
       "arquivo": "docs/visao-de-campanhas-2026-10-26.md",
       "data": "2026-10-26"
@@ -80,7 +82,20 @@
     "ato_autorizativo": "Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025), conforme o Edital 002/2026",
     "reconhecimento": "[CONFIRMAR]",
     "grau": "bacharelado",
-    "turnos": [],
+    "turnos": [
+      {
+        "turno": "integral",
+        "duracao_anos": 4,
+        "vagas": 45,
+        "mensalidade_texto": "de R$ 10.000,00 por R$ 5.000,00/mês (desconto de 50%)"
+      },
+      {
+        "turno": "noturno",
+        "duracao_anos": 5,
+        "vagas": 45,
+        "mensalidade_texto": "de R$ 10.000,00 por R$ 4.000,00/mês (desconto de 60%)"
+      }
+    ],
     "formas_de_ingresso": [
       "redacao",
       "enem",
@@ -336,17 +351,17 @@
       "id": "graduacao-medicina-veterinaria-p02",
       "ref_plano": "editais",
       "tipo": "divergencia",
-      "descricao": "Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape; edital, turnos e LP ainda não copiados para o JSON",
+      "descricao": "Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape; edital e LP ainda não copiados para o JSON; vagas ficam por turno em graduacao.turnos (edital)",
       "marcador": "[CONFIRMAR]",
       "campos": [
-        "graduacao.turnos",
         "graduacao.edital",
         "graduacao.edital_de_desconto",
         "graduacao.reconhecimento",
         "graduacao.lp.url",
         "graduacao.lp.utm.utm_campaign",
         "pagina_oficial",
-        "slug_sugerido"
+        "slug_sugerido",
+        "vagas.vagas_ofertadas"
       ],
       "bloqueia": [],
       "fonte": "contexto/cursos/graduacao/editais-2027-1.md",
@@ -399,7 +414,7 @@
       "id": "graduacao-medicina-veterinaria-p06",
       "ref_plano": "G11",
       "tipo": "outro",
-      "descricao": "Informar a capacidade de produção: horas do time por semana, se existem perfis de TikTok, YouTube e da unidade de Goiânia, quem grava vídeo, autorização de imagem de docentes, e se a graduação usa a Ufape Clínica (em que semestre) com…",
+      "descricao": "Informar a capacidade de produção: horas do time por semana, se existem perfis de TikTok, YouTube e da unidade de Goiânia, quem grava vídeo, autorização de imagem de docentes, e se a graduação usa a Ufape Clínica (em que semestre) com autorização de uso do hospital em peças",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [
@@ -515,7 +530,7 @@
       "id": "graduacao-medicina-veterinaria-p14",
       "ref_plano": "MP4",
       "tipo": "outro",
-      "descricao": "Aprovar os públicos: 18+ em todos os conjuntos; Grande São Paulo e Goiânia e região com área confirmada pelo comercial; público amplo sem interesses; remarketing só por pixel e engajamento. Define o público adulto que desbloqueia noturno…",
+      "descricao": "Aprovar os públicos: 18+ em todos os conjuntos; Grande São Paulo e Goiânia e região com área confirmada pelo comercial; público amplo sem interesses; remarketing só por pixel e engajamento. Define o público adulto que desbloqueia noturno e Pedagogia",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [

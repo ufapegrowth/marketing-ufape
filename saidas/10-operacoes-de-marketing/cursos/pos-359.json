@@ -440,41 +440,9 @@
     },
     {
       "id": "359-p06",
-      "ref_plano": "OU24",
-      "tipo": "preco_ou_condicao",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): OU24 (desconto de 12%); Pergunta OU24 à Ufape ainda sem resposta; afeta: página, mídia, mensagens, respostas do time",
-      "marcador": "[CONFIRMAR]",
-      "campos": [
-        "condicoes_especiais"
-      ],
-      "bloqueia": [
-        "preco"
-      ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
-      "aberta_em": "2026-10-27",
-      "resolvida_em": null
-    },
-    {
-      "id": "359-p07",
-      "ref_plano": "OU3",
-      "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): OU3; Pergunta OU3 à Ufape ainda sem resposta; afeta: peças e mídia depois do início",
-      "marcador": "[CONFIRMAR]",
-      "campos": [
-        "kit.entregas[*]"
-      ],
-      "bloqueia": [
-        "anuncio"
-      ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
-      "aberta_em": "2026-10-27",
-      "resolvida_em": null
-    },
-    {
-      "id": "359-p08",
       "ref_plano": "OU22",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): data sem planilha; Pergunta OU22 à Ufape ainda sem resposta; afeta: data nas peças",
+      "descricao": "Pergunta OU22 à Ufape ainda sem resposta: Datas de 68629 e 359 na planilha (só no site, 22/05/2027) Afeta: data nas peças. Bloqueio no plano da onda 3 (tabela 1.2): data sem planilha",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -482,21 +450,55 @@
       "bloqueia": [
         "data"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
     {
-      "id": "359-p09",
+      "id": "359-p07",
+      "ref_plano": "OU24",
+      "tipo": "preco_ou_condicao",
+      "descricao": "Pergunta OU24 à Ufape ainda sem resposta: Regra completa do desconto de 12% para os 10 primeiros inscritos de 359, ou retirada? O público da página (residência ou pós em anestesiologia) é exigência de matrícula? O convite da prova de Especialista fica? Afeta: página, mídia, mensagens, respostas do time. Bloqueio no plano da onda 3 (tabela 1.2): OU24 (desconto de 12%)",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "condicoes_especiais"
+      ],
+      "bloqueia": [
+        "preco",
+        "peca_final",
+        "anuncio"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8, regra 10 e 2.3; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "359-p08",
       "ref_plano": "OU25",
       "tipo": "data",
-      "descricao": "Pergunta OU25 à Ufape ainda sem resposta; afeta: data limite, -extb, pós-início, pausas",
+      "descricao": "Pergunta OU25 à Ufape ainda sem resposta: Dia do 3º módulo presencial de 679, 68635 e 366 (junho) e de 359 e 60 (julho); dia do módulo 2 presencial de 68616 e 359 (junho) e de 352 (maio) Afeta: data limite, -extb, pós-início, pausas.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [
         "anuncio"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "359-p09",
+      "ref_plano": "OU3",
+      "tipo": "data",
+      "descricao": "Pergunta OU3 à Ufape ainda sem resposta: Como o aluno repõe os módulos presenciais que perdeu: módulo 1 de 68632; módulo 2 de 68616, 359, 578 e 352 Afeta: peças e mídia depois do início. Bloqueio no plano da onda 3 (tabela 1.2): OU3",
+      "marcador": "[CONFIRMAR]",
+      "campos": [
+        "kit.entregas[*]"
+      ],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
@@ -690,6 +692,6 @@
   ],
   "resumo": {
     "pendencias_abertas": 14,
-    "bloqueado": false
+    "bloqueado": true
   }
 }

@@ -490,7 +490,7 @@
       "id": "68632-p06",
       "ref_plano": "OU3",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.1): OU3 (módulo 1 presencial); Pergunta OU3 à Ufape ainda sem resposta; afeta: peças e mídia depois do início",
+      "descricao": "Pergunta OU3 à Ufape ainda sem resposta: Como o aluno repõe os módulos presenciais que perdeu: módulo 1 de 68632; módulo 2 de 68616, 359, 578 e 352 Afeta: peças e mídia depois do início. Bloqueio no plano da onda 3 (tabela 1.1): OU3 (módulo 1 presencial)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "kit.entregas[*]"
@@ -498,7 +498,7 @@
       "bloqueia": [
         "anuncio"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
@@ -506,7 +506,7 @@
       "id": "68632-p07",
       "ref_plano": "OU34",
       "tipo": "outro",
-      "descricao": "Pergunta OU34 à Ufape ainda sem resposta; afeta: post de quem representa a turma, página",
+      "descricao": "Pergunta OU34 à Ufape ainda sem resposta: Quem representa 68632 (sem coordenação), 366 e 578 (\"UFAPE\")? Afeta: post de quem representa a turma, página.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [],
@@ -633,7 +633,7 @@
   "aprovacoes": [
     {
       "ref": "OC1-A",
-      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula…",
+      "o_que": "Publicar as 8 páginas de abril com o texto do /pagina-de-curso (depois do qa) e corrigir no site o que a seção 4 lista por turma (frases ligadas ao órgão regulador, turma mínima 20 para 15, regra do 3º módulo com a data quando houver, \"PROVA DE BOLSA\", convite da prova de Especialista de 68609, superlativos da regra E14, condição da 1ª mensalidade junto do investimento, valor da matrícula conferido contra a U11, política de privacidade e aviso de cookies no formulário, decisão sobre o botão COMPRAR, bloco a frase de certificação que a squad não repete revisto pela regulação [CONFIRMAR], bloco de parceiros vazio oculto e erros de digitação do cronograma corrigidos no dado). Prazo: 10/12",
       "por_que": "sem isso nenhuma página conta e a mídia de 06/01 leva a página reprovada",
       "quanto": "sem custo de mídia",
       "efeito_esperado": "destino que entrega o que a peça promete",

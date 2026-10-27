@@ -60,17 +60,24 @@ def tabelas(t):
     if cab is not None: out.append(rows)
     return out
 
-def limpa(s, n=240):
+def limpa(s):
     # R9: sem negrito, sem travessão ou meia-risca (U+2014 e U+2013), sem frase de certificação ligada ao órgão regulador, sem urgência falsa por vagas
     s = (s or '').replace('**', '').replace('`', '').replace(chr(0x2014), ', ').replace(chr(0x2013), ', ')
     s = re.sub(r'["“][^"”]*(MEC|Ministério da Educação)[^"”]*["”]', 'a frase de certificação que a squad não repete', s)
     s = re.sub(r'\bligad([ao]s?) ao MEC', r'ligad\1 ao órgão regulador', s)
     s = re.sub(r'\bMEC\b', 'órgão regulador', s)
     s = re.sub(r'(?i)[uú]ltimas\s+vagas', 'urgência por vagas', s)
-    s = re.sub(r'\s+', ' ', s).strip()
-    if len(s) > n:
-        s = s[:n - 1].rsplit(' ', 1)[0].rstrip(' ,;:(') + '…'
-    return s
+    return re.sub(r'\s+', ' ', s).strip()
+
+def corta(s, fonte, minimo=0, n=240):
+    # R-N1: nunca corta no meio. Até n caracteres fica inteiro; acima disso, corta no fim de uma frase e indica a fonte.
+    # O texto principal (os "minimo" primeiros caracteres, copiados da fonte) nunca é cortado: se não couber, fica inteiro.
+    if len(s) <= n: return s
+    fontes = fonte.split('; ')
+    nota = f' (texto completo: {fontes[-1] if len(fontes) > 1 else fontes[0]})'
+    fins = [m.end() for m in re.finditer(r'[.?!](?=\s)', s)]
+    ok = [f for f in fins if f >= minimo and f + len(nota) <= n]
+    return s[:ok[-1]] + nota if ok else s
 
 def expande(s):
     # "G10 a G14" vira G10, G11, G12, G13, G14; "OU19 a OU21" idem; códigos soltos ficam como estão
@@ -170,12 +177,14 @@ for c in INICIADAS_ATIVAS: MIDIA[c] = 'ativa'   # B1: plano geral, 2.1 item 2 ("
 
 # ---------- pendências: fontes em tabela ----------
 def pend(ref, tipo, desc, marc, campos, bloq, fonte, resolvida=None):
-    return {'id': None, 'ref_plano': ref, 'tipo': tipo, 'descricao': limpa(desc), 'marcador': marc, 'campos': list(campos),
-            'bloqueia': list(bloq), 'fonte': fonte, 'aberta_em': HOJE, 'resolvida_em': resolvida}
+    d = limpa(desc)
+    return {'id': None, 'ref_plano': ref, 'tipo': tipo, 'descricao': d, 'marcador': marc, 'campos': list(campos),
+            'bloqueia': list(bloq), 'fonte': fonte, 'aberta_em': HOJE, 'resolvida_em': resolvida, '_base': len(d)}
 
 # O que cada código bloqueia, quando a tabela de origem não tem coluna própria.
 BLOQ = {
     'P3': ['data', 'preco'],            # plano geral, seção 7, P3: "nenhuma peça com preço ou data desses itens até a correção"
+    # P3 nas turmas da onda 3: "subida só com P3 (lote 2)" (plano da onda 3, 4.1) e inventário "subida 06/01 com as travas P3 (679, 68636, 662)"
     'P4': ['data', 'peca_final'],       # revisão do qa, B6: divergência de data entre planilha e site bloqueia sempre
     'P5': [],                           # plano geral, seção 7, P5: "peças sem número de turma"
     'P6': ['data'],                     # plano geral, seção 7, P6: "peças sem data até a Ufape confirmar"
@@ -189,8 +198,8 @@ BLOQ = {
     'U10': ['pagina'],                  # plano da onda 2, seção 8: pré-requisito na página
     'OU18': ['data', 'peca_final', 'anuncio'],  # plano da onda 3, 2.3: espera total
     'OU19': ['data'], 'OU21': ['data'], 'OU22': ['data'],  # plano da onda 3, 2.3: peças com o mês no lugar do dia
-    'OU20': ['data', 'peca_final'], 'OU23': ['data', 'peca_final'],  # plano da onda 3, 2.3 (P4): nada sai sem a data
-    'OU24': ['preco'],                  # plano da onda 3, 2.3: 359 sem desconto
+    'OU20': ['data', 'peca_final'], 'OU23': ['data', 'peca_final', 'preco'],  # plano da onda 3, 2.3 (P4): nada sai sem a data; OU23 também desconto
+    'OU24': ['preco', 'peca_final'],    # plano da onda 3, regra 10, 2.3 e seção 8: desconto, público e convite; a peça não sai com eles
     'OU25': ['anuncio'],                # pendencias-camada-1, mídia: dia do 3º módulo segura a -extb
     'decisão 13': ['anuncio', 'peca_final'],    # docs/execucao-2026-10-26.md, decisão 13
 }
@@ -199,7 +208,8 @@ TIPO_REF = {'P3': 'link', 'P4': 'data', 'P5': 'turma', 'P6': 'data', 'P7': 'dupl
             'OU21': 'data', 'OU22': 'data', 'OU23': 'data', 'OU24': 'preco_ou_condicao', 'OU25': 'data', 'OU12': 'outro', 'OU13': 'divergencia'}
 CAMPOS_REF = {'P3': ['pagina_oficial'], 'P4': ['inicio'], 'P5': ['turma'], 'P6': ['inicio', 'status_midia.inicio_na_visao'],
               'OU10': ['condicoes_especiais'], 'OU24': ['condicoes_especiais'], 'OU12': ['equipe.coordenadores_na_ficha'],
-              'OU18': ['inicio'], 'OU19': ['inicio'], 'OU20': ['inicio'], 'OU21': ['inicio'], 'OU22': ['inicio'], 'OU23': ['inicio'],
+              'OU18': ['inicio'], 'OU19': ['inicio'], 'OU20': ['inicio'], 'OU21': ['inicio'], 'OU22': ['inicio'],
+              'OU23': ['inicio', 'condicoes_especiais'],   # OU23 cobre data e desconto (revisão do qa, R-B6)
               'OU3': ['kit.entregas[*]']}
 
 POR_ITEM = {}   # código ou chave do item -> lista de pendências vindas das tabelas
@@ -209,7 +219,7 @@ def junta(lista, p):
             for k in ('campos', 'bloqueia'):
                 for v in p[k]:
                     if v not in q[k]: q[k].append(v)
-            if p['descricao'] not in q['descricao']: q['descricao'] = limpa(q['descricao'] + '; ' + p['descricao'])
+            if p['descricao'] not in q['descricao']: q['descricao'] = q['descricao'].rstrip('.') + '. ' + p['descricao']
             if p['fonte'] not in q['fonte']: q['fonte'] = q['fonte'] + '; ' + p['fonte']
             if q['resolvida_em'] and not p['resolvida_em']: q['resolvida_em'] = None
             return
@@ -218,6 +228,40 @@ def add(chave, ref, desc, fonte, tipo=None, campos=None, bloq=None, marc='[CONFI
     junta(POR_ITEM.setdefault(chave, []), pend(ref, tipo or TIPO_REF.get(ref, 'outro'), desc, marc,
                                                  CAMPOS_REF.get(ref, []) if campos is None else campos,
                                                  BLOQ.get(ref, []) if bloq is None else bloq, fonte, resolvida))
+
+CAT_ROW = {re.sub(r'\D', '', x.get('Código', '')): x for x in itens if re.sub(r'\D', '', x.get('Código', ''))}
+PALAVRAS_FRACAS = {'veterinaria', 'graduacao', 'estudos', 'prova', 'bolsa', 'curso', 'animais', 'pequenos'}
+def do_item(texto, c):
+    # parte da coluna "Pendência" que vale para o item c: trechos que citam c; sem nenhum, trechos que citam a área do nome
+    # do item. Coluna sem nenhum código vale inteira.
+    m = re.match(r'([^:;.]{3,40}): ', texto)
+    pre, corpo = (m.group(1) + ': ', texto[m.end():]) if m else ('', texto)
+    partes = [x.strip() for x in re.split(r';\s*', corpo) if x.strip()]
+    if not any(cods(x) for x in partes): return texto
+    meus = [x for x in partes if c in cods(x)]
+    if not meus:
+        nome = sem_acento(CAT_ROW[c].get('Curso', '').lower()) if c in CAT_ROW else ''
+        fortes = {w for w in re.findall(r'[a-z]{6,}', nome)} - PALAVRAS_FRACAS
+        meus = [x for x in partes if fortes & set(re.findall(r'[a-z]{6,}', sem_acento(x.lower())))]
+    return (pre + '; '.join(meus)) if meus else ''
+def trat_item(texto, c):
+    # coluna "Tratamento no plano" copiada inteira, menos as frases sobre outros itens
+    partes = [x.strip().rstrip('.') for x in re.split(r'(?<=[.;])\s+', texto) if x.strip()]
+    return '. '.join(x.rstrip(';')[:1].upper() + x.rstrip(';')[1:] for x in partes if not cods(x) or c in cods(x))
+# datas do site para a P4: 698 pela coluna "Itens afetados" da P4; 366 e 352 pela coluna "Início (fonte)" das tabelas 1.1 e 1.2
+# do plano da onda 3; 623 pela seção 3 de docs/pendencias-camada-1.md
+SITE_P4 = {}
+for tit in (r'^### 1\.1 ', r'^### 1\.2 '):
+    for t in tabelas(trecho(ler(PL3), tit)):
+        for r in t:
+            m = re.search(r';\s*(site[^|]*)', r.get('Início (fonte)', ''))
+            if m and r.get('Código') in CODIGOS: SITE_P4[r['Código']] = m.group(1).strip()
+m = re.search(r'Página 623 \((data de início "[^"]+")\)', ler(PC1))
+if m: SITE_P4['623'] = m.group(1)
+for t in tabelas(trecho(P, r'^## 7\. ')):
+    for r in t:
+        if r.get('#') == 'P4':
+            for c, x in re.findall(r'(\d{3,5}) \((site[^)]*)\)', r['Itens afetados']): SITE_P4[c] = x
 
 # B7: plano geral, seção 7, P3 a P17, para cada código citado em "Itens afetados"
 P6_VISAO = {}
@@ -228,12 +272,20 @@ for t in tabelas(trecho(P, r'^## 7\. ')):
         # P7 entra junto com os relacionados (mais abaixo), com o par citado na descrição
         alvo = INICIADAS_ATIVAS if ref == 'P8' else [] if ref == 'P7' else cods(r['Itens afetados'])
         for c in alvo:
-            desc = r['Pendência'] + '. Tratamento no plano: ' + r['Tratamento no plano']
+            # R-B7 e R-N2: descrição e tratamento só com o que vale para o item; tratamento copiado da coluna da seção 7
+            trat = trat_item(r['Tratamento no plano'], c) or '[CONFIRMAR]'
+            desc = do_item(r['Pendência'], c)
             res = None
-            if ref == 'P4' and c == '698':   # decisão 19 (27/10/2026): 698 segue com 28 e 29/11/2026
-                desc += '; na 698 a decisão 19 mantém o início em 28 e 29/11/2026'; res = '2026-10-27'
+            if ref == 'P4':
+                dp = CAT_ROW[c].get('Início', '[CONFIRMAR]')
+                desc = f'Datas diferentes entre planilha e site (vale a planilha): planilha {dp}; site: {SITE_P4.get(c, "[CONFIRMAR]")}'
+                if c == '698':   # docs/execucao-2026-10-26.md, decisão 19
+                    trat += '. Revogado pela decisão 19 (27/10/2026): a turma segue com início em 28 e 29/11/2026'; res = '2026-10-27'
             if ref == 'P8': desc = 'Decidir pausa ou manutenção da campanha ativa em turma iniciada (A4)'
-            add(c, ref, desc, PLANO_GERAL + ', seção 7', campos=['status_midia.campanha'] if ref == 'P8' else None, resolvida=res)
+            elif desc: desc = desc + '. Tratamento no plano: ' + trat
+            else: desc = 'Tratamento no plano: ' + trat
+            bl = BLOQ.get(ref, []) + (['anuncio'] if ref == 'P3' and c in POS_ONDA3 else [])
+            add(c, ref, desc, PLANO_GERAL + ', seção 7', campos=['status_midia.campanha'] if ref == 'P8' else None, bloq=bl, resolvida=res)
         if ref == 'P6':
             for c, d1, d2 in re.findall(r'(\d{3,5}) \((\d{2}/\d{2}(?:/\d{4})?) x (\d{2}/\d{2}(?:/\d{4})?)\)', r['Itens afetados']):
                 P6_VISAO[c] = d2
@@ -248,6 +300,21 @@ for parte in re.split(r'[;,]', P7_TXT):
     cs = cods(parte)
     if len(cs) == 2: PARES_P7.append(tuple(cs))
     elif 'Paciente Grave' in parte and len(cs) == 1: PARES_P7.append(('paciente-grave', cs[0]))
+
+# B6: perguntas por turma das seções 8 dos planos das ondas 2 e 3 (só as linhas com turma citada)
+for arq in (PL2, PL3):
+    for t in tabelas(trecho(ler(arq), r'^## 8\. ')):
+        for r in t:
+            ref = re.sub(r'\s*\(.*\)', '', r.get('#', '')).strip()
+            if not re.fullmatch(r'O?U\d+', ref): continue
+            pq = r.get('Por que importa', '')
+            perg = r.get('Pergunta', '')
+            # R10: pergunta com nome de pessoa não é copiada; fica só o que ela afeta
+            texto_q = (': ' + perg.rstrip() + ' ' if not re.search(r'\b(Dr|Dra|Mv|MSc|Prof)\b\.?|Esp\.', perg) else '. ') + f'Afeta: {pq}.'
+            # R-B7: pergunta que afeta subida, mídia ou campanha também segura o anúncio
+            bl = BLOQ.get(ref, []) + (['anuncio'] if re.search(r'(?i)subida|mídia|campanha', pq) and 'anuncio' not in BLOQ.get(ref, []) else [])
+            for c in cods(r.get('Turma')):
+                add(c, ref, f'Pergunta {ref} à Ufape ainda sem resposta{texto_q}', arq + ', seção 8' + (', regra 10 e 2.3' if ref == 'OU24' else ''), bloq=bl)
 
 # B6: plano da onda 3, tabelas 1.1 e 1.2, coluna "Bloqueio"
 TOKEN_REF = [  # plano da onda 3, seção 8: OU25 é o dia do 3º módulo e do módulo 2; OU22 é a data só no site de 68629 e 359
@@ -267,15 +334,6 @@ for tit, nome_t in ((r'^### 1\.1 ', '1.1'), (r'^### 1\.2 ', '1.2')):
                 m = re.match(r'(P\d+|OU\d+)\b', tok)
                 ref = m.group(1) if m else next((v for k, v in TOKEN_REF if k in tok), 'onda 3, Bloqueio')
                 add(c, ref, f'Bloqueio no plano da onda 3 (tabela {nome_t}): {tok}', PL3 + ', tabela ' + nome_t)
-
-# B6: perguntas por turma das seções 8 dos planos das ondas 2 e 3 (só as linhas com turma citada)
-for arq in (PL2, PL3):
-    for t in tabelas(trecho(ler(arq), r'^## 8\. ')):
-        for r in t:
-            ref = re.sub(r'\s*\(.*\)', '', r.get('#', '')).strip()
-            if not re.fullmatch(r'O?U\d+', ref): continue
-            for c in cods(r.get('Turma')):
-                add(c, ref, f'Pergunta {ref} à Ufape ainda sem resposta; afeta: {r.get("Por que importa", "")}', arq + ', seção 8')
 
 # Travas em texto corrido de docs/pendencias-camada-1.md (blocos da onda 2 e do lote A da onda 3)
 TRAVAS = [
@@ -328,8 +386,8 @@ def data_arq(p):
     return m.group(1) if m else HOJE
 VERBA_TXT = 'R$ 2.000,00 por turma, decisão 15'
 def apr(ref, o_que, por_que, quanto, efeito, desfazer, pedido_em):
-    return {'ref': limpa(ref, 120), 'o_que': limpa(o_que, 400), 'por_que': limpa(por_que, 400), 'quanto': limpa(quanto, 400),
-            'efeito_esperado': limpa(efeito, 400), 'como_desfazer': limpa(desfazer, 400), 'status': 'pendente',
+    return {'ref': limpa(ref), 'o_que': limpa(o_que), 'por_que': limpa(por_que), 'quanto': limpa(quanto),
+            'efeito_esperado': limpa(efeito), 'como_desfazer': limpa(desfazer), 'status': 'pendente',
             'pedido_em': pedido_em, 'decidido_em': None, 'decidido_por_papel': None}
 def linhas_pedido(arq, titulo):
     out = []
@@ -384,7 +442,8 @@ for r in APR_R:
     if re.search(r'(?i)workshop', r['Pedido']): alvo = alvo + ['workshop-neuro']
     for c in alvo:
         add_apr([c], apr(r['Código'], r['Pedido'], 'pedido do fechamento da camada 1 (' + PC1 + ', seção 1)',
-                         VERBA_TXT if (c in ONDA1_POS + MARCO + POS_ONDA3) and re.search(r'(?i)mídia|verba|anúncio', r['Pedido']) else '[CONFIRMAR]',
+                         (mv.group(0) if (mv := re.search(r'sem aumento de verba|sem verba nova', r['Pedido'])) else
+                          VERBA_TXT if (c in ONDA1_POS + MARCO + POS_ONDA3) and re.search(r'(?i)mídia|verba|anúncio', r['Pedido']) else '[CONFIRMAR]'),
                          r.get('Efeito se aprovar', ''), '[CONFIRMAR]', HOJE))
 # B1: A4 do plano geral (seção 8) para as 6 turmas iniciadas com campanha ativa
 for r in linhas_pedido(PLANO_GERAL, r'^## 8\. '):
@@ -519,9 +578,13 @@ def pagina_da_ficha(p):
     m = re.search(r'https://faculdade\.ufape\.com\.br/\S+', ler(p))
     return m.group(0).rstrip(').,') if m else None
 
-def nome_padrao(nome, tipo):
+# R-D13: nomes da regra E2 do plano da onda 3 (seção 2.2), lidos da própria regra ("68629: "Pós-graduação em ...")
+E2 = {}
+for l in ler(PL3).split('\n'):
+    if l.startswith('| E2 |'): E2 = dict(re.findall(r'(\d{2,5}): "(Pós-graduação em [^"]+)"', l))
+def nome_padrao(nome, tipo, cod=None):
     if tipo == 'pos':
-        return nome if nome.startswith('Pós-graduação em') else '[CONFIRMAR]'
+        return nome if nome.startswith('Pós-graduação em') else E2.get(cod, '[CONFIRMAR]')
     return nome
 
 def nulos(j, caminhos):
@@ -551,7 +614,9 @@ def ordena(j):  # R13: chaves na ordem do modelo 1.5
 def fecha(j, pends):
     # B12: id da pendência = "<codigo>-p01" (itens sem código usam o id do arquivo); B3: resumo calculado
     pre = j['codigo'] if j['codigo'] != 'sem-codigo' else j['id']
-    for i, p in enumerate(pends, 1): p['id'] = f'{pre}-p{i:02d}'
+    for i, p in enumerate(pends, 1):
+        p['id'] = f'{pre}-p{i:02d}'
+        p['descricao'] = corta(p['descricao'], p['fonte'], p.pop('_base', 0))
     j['pendencias'] = pends
     ab = [p for p in pends if p['resolvida_em'] is None]
     j['resumo'] = {'pendencias_abertas': len(ab), 'bloqueado': any('peca_final' in p['bloqueia'] for p in ab)}
@@ -564,6 +629,7 @@ def padroes(j, pends, fonte_kit):
                     'numeros_agregados.leads', 'numeros_agregados.inscricoes', 'numeros_agregados.matriculas', 'numeros_agregados.verba_gasta',
                     'vagas.vagas_restantes'])
     if tipo not in ('pos', 'prova_de_bolsa', 'graduacao'): p11 += nulos(j, ['vagas.turma_minima', 'vagas.vagas_ofertadas'])
+    if tipo == 'prova_de_bolsa': p11 += nulos(j, ['vagas.vagas_ofertadas'])   # vagas da prova não informadas
     if j['metas']['fonte'] == '[CONFIRMAR]': p11.append('metas.fonte')
     junta(pends, pend('P11', 'meta_ou_verba', 'Sem metas de custo, números agregados e vagas restantes por turma; nenhuma peça fala em urgência por vagas',
                       '[CONFIRMAR]', p11, ['meta'], PLANO_GERAL + ', seção 7'))
@@ -742,7 +808,7 @@ for r in itens:
                     'visao_de_campanhas': {'arquivo': 'docs/visao-de-campanhas-2026-10-26.md', 'data': '2026-10-26'}, 'plano': PLANO_GERAL,
                     'auditorias': ['docs/auditoria-do-catalogo-2026-10-26.md']},
          'codigo': cod, 'linha': linha, 'linha_origem': linha_origem, 'tipo': tipo, 'nome_no_site': nome or '[CONFIRMAR]',
-         'nome_padrao': 'Workshop Brasileiro de Neuromonitorização' if chave == 'workshop-neuro' else nome_padrao(nome, tipo),   # B9: decisão 7
+         'nome_padrao': 'Workshop Brasileiro de Neuromonitorização' if chave == 'workshop-neuro' else nome_padrao(nome, tipo, cod),   # B9: decisão 7
          'slug_sugerido': slug(nome) if tipo == 'pos' and nome.startswith('Pós-graduação em') else '[CONFIRMAR]', 'aliases': aliases,
          'pagina_oficial': pagina_da_ficha(fp) or ('[CONFIRMAR]' if st.startswith('aberto') else None),
          'area': {'codigo': area or 'sem_area', 'nome': NOMES_AREA.get(area, '[CONFIRMAR]') if area else '[CONFIRMAR]', 'natureza': 'plano_do_cmo'},
@@ -830,9 +896,19 @@ for ident, nome, local in GRAD:
                               ('email_prazos_do_edital', 'E-mails ligados ao edital', 3, 'saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-graduacao-2026-10-26.md'),
                               ('roteiro_video', 'Roteiros de vídeo curto', 2, 'saidas/12-video-e-audio/tiktok-graduacao-2026-10-26.md')]]
     pends = [pend('P1', 'certificacao', 'Reconhecimento do curso: texto da regulação ainda não preenchido no contexto da linha', '[CONFIRMAR]', [], ['certificacao'], 'contexto/graduacao.md'),
-             pend('editais', 'divergencia', 'Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape; edital, turnos e LP ainda não copiados para o JSON', '[CONFIRMAR]',
-                  ['graduacao.turnos', 'graduacao.edital', 'graduacao.edital_de_desconto', 'graduacao.reconhecimento', 'graduacao.lp.url', 'graduacao.lp.utm.utm_campaign', 'pagina_oficial', 'slug_sugerido'],
+             pend('editais', 'divergencia', 'Alertas do texto dos editais (datas e numeração) a confirmar com a Ufape; edital e LP ainda não copiados para o JSON; vagas ficam por turno em graduacao.turnos (edital)', '[CONFIRMAR]',
+                  ['graduacao.edital', 'graduacao.edital_de_desconto', 'graduacao.reconhecimento', 'graduacao.lp.url', 'graduacao.lp.utm.utm_campaign', 'pagina_oficial', 'slug_sugerido', 'vagas.vagas_ofertadas'],
                   [], 'contexto/cursos/graduacao/editais-2027-1.md')]
+    # R-B13: turnos, duração e vagas do edital (contexto/cursos/graduacao/editais-2027-1.md, seção do curso); mensalidade literal do catálogo
+    ed = trecho(ler('contexto/cursos/graduacao/editais-2027-1.md'), r'^## ' + nome + ' ')
+    mt = re.search(r'\*\*Turnos?, duração e vagas:\*\*([^\n]*)', ed)
+    preco_g = cel[5] if len(cel) > 5 else ''
+    turnos = []
+    for tn, anos, vg in re.findall(r'(integral|noturno), (\d+) anos, (\d+) vagas', mt.group(1) if mt else ''):
+        mm = re.search(tn + r': (de R\$ .*?\))', preco_g, re.I) or re.search(r'^(De R\$ .*?\))', preco_g)
+        turnos.append({'turno': tn, 'duracao_anos': int(anos), 'vagas': int(vg), 'mensalidade_texto': mm.group(1) if mm else '[CONFIRMAR]'})
+    if not turnos:
+        pends.append(pend('editais (turnos)', 'divergencia', 'Turnos e vagas não encontrados na ficha dos editais', '[CONFIRMAR]', ['graduacao.turnos'], [], 'contexto/cursos/graduacao/editais-2027-1.md'))
     # B3: uma pendência por trava da Graduação (diário), com o texto do pedido do plano da Graduação ou do gestor-de-midia
     for cg in TRAVAS_G:
         if cg in G_LINHAS:
@@ -851,7 +927,7 @@ for ident, nome, local in GRAD:
         pends.append(pend('G4', 'data', G_LINHAS['G4']['O que'], '[CONFIRMAR]', ['fim_das_inscricoes', 'graduacao.inscricao_ate'], [], PLG + ', seção 8'))
     am = 'AM1 a AM12' if nome == 'Pedagogia' else 'AM1 a AM12 e AG1 a AG11'   # B3: diário, "Pedagogia 100% Meta"
     j = {'versao_schema': 1, 'id': ident, 'revisao': 1, 'revisao_aprovada': 0, 'estado_do_arquivo': 'ativo', 'substituido_por': None, 'gerado_em': HOJE, 'atualizado_em': HOJE,
-         'fontes': {'catalogo': CAT, 'data_catalogo': DATA_CAT, 'catalogo_linha_literal': lit, 'ficha': 'contexto/cursos/graduacao/editais-2027-1.md', 'ficha_editais': 'contexto/cursos/graduacao/editais-2027-1.md', 'ficha_lida_em': None, 'campos_so_na_ficha': [],
+         'fontes': {'catalogo': CAT, 'data_catalogo': DATA_CAT, 'catalogo_linha_literal': lit, 'ficha': 'contexto/cursos/graduacao/editais-2027-1.md', 'ficha_editais': 'contexto/cursos/graduacao/editais-2027-1.md', 'ficha_lida_em': None, 'campos_so_na_ficha': ['graduacao.turnos'] if turnos else [],
                     'visao_de_campanhas': {'arquivo': 'docs/visao-de-campanhas-2026-10-26.md', 'data': '2026-10-26'}, 'plano': PLG, 'auditorias': ['docs/auditoria-do-catalogo-2026-10-26.md']},
          'codigo': 'sem-codigo', 'linha': 'graduacao', 'linha_origem': 'catalogo', 'tipo': 'graduacao', 'nome_no_site': nome, 'nome_padrao': nome, 'slug_sugerido': '[CONFIRMAR]', 'aliases': [], 'pagina_oficial': '[CONFIRMAR]',
          'area': {'codigo': 'nao_se_aplica', 'nome': 'Graduação', 'natureza': 'plano_do_cmo'}, 'recorte': 'planejar', 'motivo_do_recorte': 'plano próprio da Graduação (decisão 2)', 'onda': 1, 'modo_de_venda': 'com_data', 'grupo_de_campanha': 'vestibular-2027-1',
@@ -869,10 +945,43 @@ for ident, nome, local in GRAD:
          'historico': [{'revisao': 1, 'em': HOJE, 'campo': '*', 'de': None, 'para': 'criação', 'motivo': 'versão 1 do mapa', 'origem': 'gerador do orquestrador sobre o plano do cmo', 'aplicado_por': 'orquestrador'}]}
     j['graduacao'] = {'edital': {'numero': '[CONFIRMAR]', 'titulo': '[CONFIRMAR]', 'url': '[CONFIRMAR]'}, 'edital_de_desconto': {'numero': '[CONFIRMAR]', 'titulo': '[CONFIRMAR]', 'url': '[CONFIRMAR]'},
                       'ato_autorizativo': cel[6] if len(cel) > 6 else '[CONFIRMAR]', 'reconhecimento': '[CONFIRMAR]', 'grau': 'bacharelado' if 'Veterin' in nome else 'licenciatura',
-                      'turnos': [], 'formas_de_ingresso': ['redacao', 'enem', 'transferencia_externa', 'diplomado', 'vagas_remanescentes'], 'inscricoes_abertas_desde': '2026-08-17',
+                      'turnos': turnos, 'formas_de_ingresso': ['redacao', 'enem', 'transferencia_externa', 'diplomado', 'vagas_remanescentes'], 'inscricoes_abertas_desde': '2026-08-17',
                       'inscricao_ate': None, 'inicio_das_aulas': '2027-02-22', 'validade_do_desconto': 'só para o 1º semestre de 2027', 'lp': {'url': '[CONFIRMAR]', 'alterada_pela_squad': False, 'utm': {'gerada_por': 'plataforma', 'parametros': ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'], 'utm_campaign': '[CONFIRMAR]'}}}
     padroes(j, pends, PLG + ', seção 6')
     res.append(fecha(j, pends))
+
+# ---------- conferência antes de gravar (R-B13): todo null de item "planejar" é citado por uma pendência aberta ----------
+# null sem pendência só onde o esquema diz "não se aplica" (seção 1.3, R2)
+NAO_SE_APLICA = [r'substituido_por$', r'fontes\.', r'^turma$', r'^modulos$', r'^carga_horaria$', r'^gut$', r'^preco_estruturado', r'^equipe$',
+                 r'^numeros_agregados\.lido_em$', r'^status_midia\.inicio_na_visao$', r'^arquivos_por_camada\.', r'^(historico|pendencias|aprovacoes|relacionados)\[', r'^kit\.(template|variacao)$',
+                 r'^kit\.(entregas|acrescimos)\[\d+\]\.(regra_quantidade|arquivo|secao|ref_aprovacao|quantidade_minima)$',
+                 r'^evento\.cupom$', r'^evento\.modalidades\[\d+\]\.produto$', r'^prova_de_bolsa\.turma_de_destino\.sugestao_do_plano$', r'^grupo_de_campanha$',
+                 r'^onda$', r'^pagina_oficial$']
+def nulos_de(o, p=''):
+    if isinstance(o, dict):
+        for k, v in o.items(): yield from nulos_de(v, f'{p}.{k}' if p else k)
+    elif isinstance(o, list):
+        for i, v in enumerate(o): yield from nulos_de(v, f'{p}[{i}]')
+    elif o is None: yield p
+def citado(c, campos):
+    for x in campos:
+        rx = '^' + re.escape(x).replace(r'\[\*\]', r'\[\d+\]') + r'($|\.|\[)'
+        if re.match(rx, c): return True
+    return False
+falta = []
+for j in res:
+    if j['recorte'] != 'planejar': continue
+    cs = [c for p in j['pendencias'] if p['resolvida_em'] is None for c in p['campos']]
+    for c in nulos_de(j):
+        if any(re.search(x, c) for x in NAO_SE_APLICA): continue
+        if c == 'kit.inventario': continue
+        if j['modo_de_venda'] == 'continuo' and re.match(r'(inicio|fim_das_inscricoes|dias_ate_inicio|evento\.data_(inicio|fim))$', c): continue
+        if j['tipo'] == 'prova_de_bolsa' and c == 'vagas.turma_minima': continue   # o mínimo fica no bloco da prova
+        me = re.match(r'kit\.entregas\[(\d+)\]\.autorizados$', c)
+        if me and not j['kit']['entregas'][int(me.group(1))]['regra_quantidade']: continue   # só a entrega por docente conta autorizados
+        if not citado(c, cs): falta.append((j['id'], c))
+if falta:
+    sys.exit('Conferência falhou: null sem pendência que o cite: ' + str(falta[:20]) + f' (total {len(falta)})')
 
 # ---------- gravação ----------
 if '--write' in sys.argv:

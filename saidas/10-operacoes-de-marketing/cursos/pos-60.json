@@ -426,13 +426,13 @@
       "id": "60-p05",
       "ref_plano": "OU25",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): dia do 3º módulo; Pergunta OU25 à Ufape ainda sem resposta; afeta: data limite, -extb, pós-início, pausas",
+      "descricao": "Pergunta OU25 à Ufape ainda sem resposta: Dia do 3º módulo presencial de 679, 68635 e 366 (junho) e de 359 e 60 (julho); dia do módulo 2 presencial de 68616 e 359 (junho) e de 352 (maio) Afeta: data limite, -extb, pós-início, pausas. Bloqueio no plano da onda 3 (tabela 1.2): dia do 3º módulo",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [
         "anuncio"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
@@ -440,7 +440,7 @@
       "id": "60-p06",
       "ref_plano": "OU36",
       "tipo": "outro",
-      "descricao": "Pergunta OU36 à Ufape ainda sem resposta; afeta: página",
+      "descricao": "Pergunta OU36 à Ufape ainda sem resposta: 60: fonte de \"R$ 77,3 bilhões\" e das listas do MMA, ou retirada Afeta: página.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [],

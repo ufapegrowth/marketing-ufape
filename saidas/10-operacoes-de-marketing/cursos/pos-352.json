@@ -426,7 +426,7 @@
       "id": "352-p05",
       "ref_plano": "P4",
       "tipo": "data",
-      "descricao": "Datas diferentes entre planilha e site (vale a planilha). Tratamento no plano: peças usam a data da planilha; anúncio novo de 698 só depois de o site ser corrigido (pedido A6); Bloqueio no plano da onda 3 (tabela 1.2): P4 (data)",
+      "descricao": "Datas diferentes entre planilha e site (vale a planilha): planilha 24/05/2027; site: site e cronograma em 24 e 25/04/2027. Tratamento no plano: Peças usam a data da planilha. Bloqueio no plano da onda 3 (tabela 1.2): P4 (data)",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -443,24 +443,40 @@
       "id": "352-p06",
       "ref_plano": "OU23",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): OU23 (desconto de 10%); Pergunta OU23 à Ufape ainda sem resposta; afeta: todo o kit",
+      "descricao": "Pergunta OU23 à Ufape ainda sem resposta: Início de 352: 24/05/2027 (planilha, uma segunda-feira) ou 24/04/2027 (site e cronograma)? Regra completa do desconto de 10% para os 10 primeiros, ou retirada? E os textos \"CURSO INÉDITO\", \"melhores especialistas do mundo\" e \"referência mundial\" Afeta: todo o kit. Bloqueio no plano da onda 3 (tabela 1.2): OU23 (desconto de 10%)",
       "marcador": "[CONFIRMAR]",
       "campos": [
-        "inicio"
+        "inicio",
+        "condicoes_especiais"
       ],
       "bloqueia": [
         "data",
-        "peca_final"
+        "peca_final",
+        "preco"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
     {
       "id": "352-p07",
+      "ref_plano": "OU25",
+      "tipo": "data",
+      "descricao": "Pergunta OU25 à Ufape ainda sem resposta: Dia do 3º módulo presencial de 679, 68635 e 366 (junho) e de 359 e 60 (julho); dia do módulo 2 presencial de 68616 e 359 (junho) e de 352 (maio) Afeta: data limite, -extb, pós-início, pausas.",
+      "marcador": "[CONFIRMAR]",
+      "campos": [],
+      "bloqueia": [
+        "anuncio"
+      ],
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "aberta_em": "2026-10-27",
+      "resolvida_em": null
+    },
+    {
+      "id": "352-p08",
       "ref_plano": "OU3",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.2): OU3; Pergunta OU3 à Ufape ainda sem resposta; afeta: peças e mídia depois do início",
+      "descricao": "Pergunta OU3 à Ufape ainda sem resposta: Como o aluno repõe os módulos presenciais que perdeu: módulo 1 de 68632; módulo 2 de 68616, 359, 578 e 352 Afeta: peças e mídia depois do início. Bloqueio no plano da onda 3 (tabela 1.2): OU3",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "kit.entregas[*]"
@@ -468,21 +484,7 @@
       "bloqueia": [
         "anuncio"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
-      "aberta_em": "2026-10-27",
-      "resolvida_em": null
-    },
-    {
-      "id": "352-p08",
-      "ref_plano": "OU25",
-      "tipo": "data",
-      "descricao": "Pergunta OU25 à Ufape ainda sem resposta; afeta: data limite, -extb, pós-início, pausas",
-      "marcador": "[CONFIRMAR]",
-      "campos": [],
-      "bloqueia": [
-        "anuncio"
-      ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.2",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },

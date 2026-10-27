@@ -345,7 +345,7 @@
       "id": "623-p04",
       "ref_plano": "P4",
       "tipo": "data",
-      "descricao": "Datas diferentes entre planilha e site (vale a planilha). Tratamento no plano: peças usam a data da planilha; anúncio novo de 698 só depois de o site ser corrigido (pedido A6)",
+      "descricao": "Datas diferentes entre planilha e site (vale a planilha): planilha 28/11/2026; site: data de início \"01 e 02 de agosto de 2026\". Tratamento no plano: Peças usam a data da planilha",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"

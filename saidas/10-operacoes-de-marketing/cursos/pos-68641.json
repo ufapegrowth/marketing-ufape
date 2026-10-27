@@ -318,7 +318,7 @@
       "id": "68641-p06",
       "ref_plano": "P3",
       "tipo": "link",
-      "descricao": "Links trocados: Odontologia 68662 e Ortopedia 662; linha \"Citopatologia 03/04\" que aponta para Infectologia 679; provas de Cardiologia GO e SP invertidas; Pneumologia 670 e prova de Oftalmologia 68656 fora do ar. Tratamento no plano…",
+      "descricao": "Links trocados: provas de Cardiologia GO e SP invertidas. Tratamento no plano: [CONFIRMAR]. Nenhuma peça com preço ou data desses itens até a correção",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "pagina_oficial"
@@ -347,6 +347,7 @@
         "numeros_agregados.matriculas",
         "numeros_agregados.verba_gasta",
         "vagas.vagas_restantes",
+        "vagas.vagas_ofertadas",
         "metas.fonte"
       ],
       "bloqueia": [

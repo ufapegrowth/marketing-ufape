@@ -489,7 +489,7 @@
       "id": "341-p06",
       "ref_plano": "OU10",
       "tipo": "preco_ou_condicao",
-      "descricao": "Pergunta OU10 à Ufape ainda sem resposta; afeta: PP7, toques de dezembro, página",
+      "descricao": "Pergunta OU10 à Ufape ainda sem resposta: Regra completa da promoção de 20% de 341 (quem, quando, até quando, acumula?) ou retirada da página (P16, PR7) Afeta: PP7, toques de dezembro, página.",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "condicoes_especiais"
@@ -505,7 +505,7 @@
       "id": "341-p07",
       "ref_plano": "OU11",
       "tipo": "outro",
-      "descricao": "Pergunta OU11 à Ufape ainda sem resposta; afeta: página, criativos, respostas do time e condição da extensão (módulo presencial antes do 3º)",
+      "descricao": "Pergunta OU11 à Ufape ainda sem resposta: O que é o segundo local de 341 (Indaiatuba) e se o módulo 3 de 341 é online ou presencial Afeta: página, criativos, respostas do time e condição da extensão (módulo presencial antes do 3º).",
       "marcador": "[CONFIRMAR]",
       "campos": [],
       "bloqueia": [],
@@ -517,10 +517,12 @@
       "id": "341-p08",
       "ref_plano": "OU17",
       "tipo": "data",
-      "descricao": "Pergunta OU17 à Ufape ainda sem resposta; afeta: data de início, data limite, pausa da mídia e relatórios",
+      "descricao": "Pergunta OU17 à Ufape ainda sem resposta: O módulo 1 de 333 cai em 27 e 28/03/2027 (sábado de Aleluia e domingo de Páscoa) e o módulo 3 de 341 em 01 e 02/05/2027 (01/05 é feriado nacional). As datas ficam? Afeta: data de início, data limite, pausa da mídia e relatórios.",
       "marcador": "[CONFIRMAR]",
       "campos": [],
-      "bloqueia": [],
+      "bloqueia": [
+        "anuncio"
+      ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 8",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
@@ -618,7 +620,7 @@
   "aprovacoes": [
     {
       "ref": "OB1",
-      "o_que": "Publicar as 5 páginas com o texto do /pagina-de-curso (depois do qa) e corrigir no site: frase ligada ao órgão regulador nas 5 (inclusive a frase de certificação que a squad não repete em 68615), turma mínima de 20 para 15, regra do 3º módulo com a data (A13, OU14), promoção de 341 com regra completa ou retirada (OU10), segundo local de 341 explicado (OU11), coordenação e docentes de 333 (OU12)…",
+      "o_que": "Publicar as 5 páginas com o texto do /pagina-de-curso (depois do qa) e corrigir no site: frase ligada ao órgão regulador nas 5 (inclusive a frase de certificação que a squad não repete em 68615), turma mínima de 20 para 15, regra do 3º módulo com a data (A13, OU14), promoção de 341 com regra completa ou retirada (OU10), segundo local de 341 explicado (OU11), coordenação e docentes de 333 (OU12), pré-requisito de 657 escrito (U10), e o convite 'Tem interesse em prestar a prova de Especialista em Anestesiologia? Clique aqui' de 657 revisto pela regulação [CONFIRMAR], porque título de especialista não entra em peça (criativos v3, 1.1). Prazo: 03/12",
       "por_que": "sem isso nenhuma página conta como entregue e a mídia de 07/12 leva a página reprovada",
       "quanto": "sem custo de mídia",
       "efeito_esperado": "destino que entrega o que a peça promete",

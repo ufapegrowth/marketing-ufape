@@ -344,6 +344,7 @@
         "numeros_agregados.matriculas",
         "numeros_agregados.verba_gasta",
         "vagas.vagas_restantes",
+        "vagas.vagas_ofertadas",
         "metas.fonte"
       ],
       "bloqueia": [

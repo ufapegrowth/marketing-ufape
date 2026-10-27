@@ -409,14 +409,15 @@
       "id": "662-p05",
       "ref_plano": "P3",
       "tipo": "link",
-      "descricao": "Links trocados: Odontologia 68662 e Ortopedia 662; linha \"Citopatologia 03/04\" que aponta para Infectologia 679; provas de Cardiologia GO e SP invertidas; Pneumologia 670 e prova de Oftalmologia 68656 fora do ar. Tratamento no plano…",
+      "descricao": "Links trocados: Odontologia 68662 e Ortopedia 662. Tratamento no plano: [CONFIRMAR]. Nenhuma peça com preço ou data desses itens até a correção. Para 662, preço e turma podem ser de outra turma",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "pagina_oficial"
       ],
       "bloqueia": [
         "data",
-        "preco"
+        "preco",
+        "anuncio"
       ],
       "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7",
       "aberta_em": "2026-10-27",
@@ -440,7 +441,7 @@
       "id": "662-p07",
       "ref_plano": "OU18",
       "tipo": "data",
-      "descricao": "Bloqueio no plano da onda 3 (tabela 1.1): OU18: espera total; Pergunta OU18 à Ufape ainda sem resposta; afeta: todo o kit e a campanha que roda hoje",
+      "descricao": "Pergunta OU18 à Ufape ainda sem resposta: 24/04/2027 é início de turma nova de Ortopedia ou o módulo 9 da turma IV? Qual a ficha da turma de 2027 (cronograma, turma, preço, docentes)? Afeta: todo o kit e a campanha que roda hoje. Bloqueio no plano da onda 3 (tabela 1.1): OU18: espera total",
       "marcador": "[CONFIRMAR]",
       "campos": [
         "inicio"
@@ -450,7 +451,7 @@
         "peca_final",
         "anuncio"
       ],
-      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 8; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, tabela 1.1",
       "aberta_em": "2026-10-27",
       "resolvida_em": null
     },
@@ -609,7 +610,7 @@
       "ref": "R5",
       "o_que": "289 sem aumento de verba; conferir em 28/10 a URL da 662 e pausar se estiver errada",
       "por_que": "pedido do fechamento da camada 1 (docs/pendencias-camada-1.md, seção 1)",
-      "quanto": "R$ 2.000,00 por turma, decisão 15",
+      "quanto": "sem aumento de verba",
       "efeito_esperado": "Nenhum gasto fora do plano",
       "como_desfazer": "[CONFIRMAR]",
       "status": "pendente",
