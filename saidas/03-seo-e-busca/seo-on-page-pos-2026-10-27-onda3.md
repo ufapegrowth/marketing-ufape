@@ -3,13 +3,13 @@
 - **Agente:** seo-on-page (departamento 03, SEO e Busca por IA)
 - **Linha:** pos
 - **Data:** 27/10/2026 (terça-feira)
-- **Versão:** 1 (lote A). O lote B (maio) entra em nova versão deste arquivo, sem mudar o nome. A turma 662 fica fora, em espera total (OU18); o registro está na seção 9.
+- **Versão:** 1 (lote A). O lote B (maio) entra em nova versão deste arquivo, sem mudar o nome. A turma 662 fica fora, em espera total (OU18); o registro está na seção 11.
 - **Encomenda:** O4 do plano do CMO em versão 2 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda3.md, seção 10, linha O4; regras E1 a E22).
 - **Status:** rascunho para o qa-de-marketing (auditorias/03-busca.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada é publicado, enviado ou pago. Aplicar a marcação no site é ação do time do site (projeto ufape-site), depois da aprovação.
 - **Consumidores:** otimizador-de-cta (O5), qa-de-marketing (O18a) e a plataforma, que valida o formato de templates/pagina-da-turma.md. Próximo agente sugerido: **editor-de-conteudo**, que recebe este arquivo junto da O3 para revisar a voz antes da aprovação humana.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
   - CLAUDE.md
-  - docs/execucao-2026-10-26.md (decisões 1 a 20; pesam 8, 11, 12, 14, 16, 18 e 20)
+  - docs/execucao-2026-10-26.md (decisões 1 a 20; pesam 8, 11, 12, 14, 16 e 18)
   - contexto/catalogo-de-cursos.md (seção 2, linhas das 8 turmas; fonte única dos dados de curso)
   - Fichas das 8 turmas em contexto/cursos/pos/: os fatos de curso vieram da O1 e da O3, que as leram inteiras e conferiram módulo a módulo; não reabri as fichas
   - templates/pagina-da-turma.md (limites: titulo_seo até 60 caracteres, descricao_seo até 155, resposta_citavel de 40 a 60 palavras, descricao_schema até 300, tudo sem número)
@@ -34,7 +34,7 @@
 4. **Palavras e estruturas proibidas:** nenhum "MEC", "certificado", "reconhecida", "bolsa", urgência ou contador; nenhum `educationalCredentialAwarded`; nenhum "especialista" como título; nenhum superlativo da ficha (E14); nenhuma promessa de emprego, renda, aprovação ou resultado clínico.
 5. **Nada de "É pensado para quem" que descreva público (revisão Q42 da onda 2).** Nenhuma `resposta_citavel` diz quem pode entrar: ela diz o que é o curso, em que é centrado e como funciona. O público da ficha (médicas e médicos veterinários) aparece só no FAQ, palavra por palavra como na O3.
 6. **Nome do catálogo nunca muda (E2).** Todo campo que cita o curso usa "Pós-graduação em <nome do catálogo>" ou, no título, o nome sem o prefixo quando o nome com o prefixo passa de 60 caracteres (68635 e 366, decisão D1 abaixo). "Veterinária" entra fora do nome, como palavra de corpo, em 68632, 68635 e 68617, cujos nomes do catálogo não a trazem. 68609 sempre no singular.
-7. **Vocabulário separado entre turmas da mesma área (O1, seção 4).** Cada turma só usa o termo que é dela; os termos das turmas irmãs aparecem apenas dentro das frases-ponte do FAQ, que repetem a O3. A tabela da seção 6.3 mostra, por turma, o que foi conferido como ausente nos cinco campos de SEO.
+7. **Vocabulário separado entre turmas da mesma área (O1, seção 4).** Cada turma só usa o termo que é dela; os termos das turmas irmãs aparecem apenas dentro das frases-ponte do FAQ, que repetem a O3. A tabela da seção 7.3 mostra, por turma, o que foi conferido como ausente nos cinco campos de SEO.
 8. **Regra 8 em 68632 (OU3 aberta):** nenhum campo e nenhuma resposta de FAQ de 68632 fala de entrada depois do início, de matrícula até o 3º módulo ou do 3º módulo. O JSON-LD de 68632 não traz pergunta sobre o assunto.
 9. **E4 e E5:** lista de módulos presenciais incompleta leva "entre eles", "entre outros" ou "entre outras". Nenhum campo diz que todos os presenciais são práticos. Conferência feita contra a O3 (listas de presenciais por turma) e a O1.
 10. **P5 (68628 e 68617):** a chave `catalogo.turma` não entra na marcação dessas duas turmas (o número diverge entre planilha e site). `CourseInstance.name` usa só `catalogo.nome`.
@@ -46,7 +46,7 @@
 
 - **D1. Título sem o prefixo "Pós-graduação em" em 68635 e 366.** O nome do catálogo de 68635 tem 64 caracteres com o prefixo e o de 366 tem 67; nenhum cabe em `titulo_seo` (60). Alterar o nome (cortar palavra, abreviar "Pós em") violaria E2 e a regra 2.4 da O1. Escolhi o nome sem o prefixo mais " | Ufape". O prefixo, a palavra "pós-graduação" e "semipresencial" vão na `descricao_seo` e na `resposta_citavel`. Alternativa, se o qa preferir: título com a forma digitada ("Pós-graduação em Fisioterapia Veterinária | Ufape", 49 caracteres), que a O1 marca como termo de busca e nunca como nome da página [SUPOSIÇÃO: o risco é E2].
 - **D2. Título de 68632 sem "presencial".** Com o nome completo e a palavra "presencial" o título passa de 60. A distinção da turma V de 68632 (presencial) contra a 665 (semipresencial) fica na `descricao_seo`, na `resposta_citavel` e na `descricao_schema`.
-- **D3. 679, 68628 e outras:** `resposta_citavel` sem frase de público (item 5 acima). A template diz "o que é e para quem é"; a revisão Q42 da onda 2 manda o "para quem" sair enquanto a ficha não traz pré-requisito.
+- **D3. `resposta_citavel` sem frase de público nas 8 turmas.** O template diz "o que é e para quem é"; a revisão Q42 da onda 2 manda o "para quem" sair enquanto a ficha não traz pré-requisito.
 
 ---
 
@@ -762,9 +762,9 @@ Notas de 68628:
 
 ---
 
-## 6. Seção 68617 e 68636 e 68609: ver seções 6.1 a 6.3 abaixo
+## 6. Seções 68617, 68636 e 68609
 
-Para manter a ordem do plano, as três turmas restantes têm seção própria (6, 7 e 8 do plano da O3 aparecem aqui como 6.1, 6.2 e 6.3 no bloco seguinte de campos e marcações) e as checagens do lote seguem na seção 7.
+As três últimas turmas do lote seguem a ordem da O3 (68617, 68636 e 68609) e têm as subseções 6.1, 6.2 e 6.3. As checagens do lote estão na seção 7.
 
 ### 6.1 Seção 68617: Pós-graduação em Endocrinologia de Pequenos Animais (sem número de turma, P5)
 
@@ -1341,7 +1341,7 @@ Nenhum campo foi escrito para 662. Espera total até a Ufape responder OU18 (24/
 - O título de 68635 e de 366 sem o prefixo "Pós-graduação em" (D1) e o de 68632 sem a palavra "presencial" (D2).
 - "Veterinária" como palavra de corpo em 68632, 68635 e 68617 (nomes do catálogo sem a palavra), como pede a O1 e a revisão Q39 a Q43 da onda 2.
 - "Fisioterapia veterinária" no corpo de 366 (forma digitada pelo candidato, O1 366-K0) e "avaliação do aparelho locomotor" como leitura da ficha ("inspeção do aparelho locomotor").
-- A resposta da O3 em item opcional (ponte de 679 com 68635) entra na marcação; sai se o qa a tirar da página.
+- A pergunta opcional da ponte de 679 com 68635 entra na marcação; sai se o qa a tirar da página.
 - Os valores de `about`, a escolha de `EducationalOrganization` como `provider`, `courseWorkload` em duração ISO e `courseMode` por regra da plataforma.
 - Que a marcação de 68617 sem a frase do guia A7 é a versão correta até a publicação do guia.
 - Que o validador do template ignora "um" e "uma" como artigo e conta "Pós-graduação", "pré-anestésica", "hands-on" e "teórico-práticas" como uma palavra cada (se separar, cada resposta sobe no máximo 3 palavras).
