@@ -2,10 +2,10 @@
 
 - Agente: anuncios-google (departamento 11, Mídia Paga, sob o gestor-de-midia)
 - Linha: graduacao
-- Data: 26/10/2026 (rodada)
-- Workflow: /campanha-de-vestibular, etapa 4, encomenda da seção 6 do gestor-de-midia-graduacao v3 (prazo 06/11/2026)
+- Data: 26/10/2026 (rodada). Versão 2 em 27/10/2026, depois do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-27-campanhas.md, veredito "aprovado com ajustes" G-1 e G-2)
+- Workflow: /campanha-de-vestibular, etapa 5 (montagem dos canais pagos, junto com o anuncios-meta), encomenda da seção 6 do gestor-de-midia-graduacao v3 (prazo 06/11/2026)
 - Liberação coberta: G1, Edital nº 002/2026 (Vestibular 2027) + Graduação em Medicina Veterinária, São Paulo. Só o integral é montado agora. O noturno fica reservado e bloqueado (seção 13). Pedagogia, Performance Max e YouTube estão fora (decisão do gestor, seção 3.1 dele).
-- Status: rascunho para aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Um humano monta as campanhas na plataforma, em estado pausado, depois do qa-de-marketing e da aprovação (seção 15).
+- Status: rascunho para aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Um humano monta as campanhas na plataforma, em estado pausado, depois da conferência do qa nos itens G-1 e G-2 e da aprovação (seção 15).
 - Entradas lidas:
   - CLAUDE.md e docs/execucao-2026-10-26.md (decisões 1 a 17, em especial 15 e 16)
   - contexto/ufape-geral.md, contexto/graduacao.md
@@ -14,16 +14,29 @@
   - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12.7, D11 e D12; seção 13 só conferida quanto a mídia: sem regra nova de UTM)
   - saidas/11-midia-paga/gestor-de-midia-graduacao-2026-10-26.md (versão 3) e estrategia-de-midia-graduacao-2026-10-26.md (versão 3)
   - saidas/11-midia-paga/criativos-de-anuncio-graduacao-2026-10-26.md (seção 4, anúncios de busca, e seção 9)
-  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (ajustes A-C1 a A-C5)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-graduacao-2026-10-26-d.md (ajustes A-C1 a A-C5) e qa-de-marketing-graduacao-2026-10-27-campanhas.md (G-1, G-2, R-G1 a R-G3)
   - .claude/skills/estrutura-de-campanha-paga/SKILL.md
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
 - Regra de fonte: nome do curso, turno, duração, modalidade, carga horária, preço e ato vêm do catálogo (seção 1); datas, vagas, formas de ingresso, regras de desconto e menor de idade vêm da ficha dos editais 2027/1; verba, fases, metas e nomes vêm do gestor-de-midia v3. Não existe exportação do Planejador de palavras-chave, histórico de CPL nem pesquisa do departamento 03: volume e CPC ficam [DADO NÃO FORNECIDO]. Nenhum dado pessoal neste arquivo.
 
 ---
 
+## Mudanças desta versão (v2, 27/10/2026)
+
+| # | O que mudou | Onde | Motivo |
+|---|---|---|---|
+| 1 | Contradição retirada: o orçamento é por campanha, e o orçamento compartilhado aparece só como item de reserva do AG2. A frase "o Google só tem orçamento por campanha" saiu | 2.1 e 3 | G-1 do qa |
+| 2 | Limites de 15 títulos e 4 descrições por anúncio, e o comentário sobre a "Força do anúncio", marcados [SUPOSIÇÃO, CONFIRMAR no editor]; levados à Lista 2 | 6 e Lista 2 | G-1 do qa |
+| 3 | Faixa etária "desconhecida": decisão levada ao AG5 com as duas opções, efeito no alcance e validação do jurídico (G10). Vale a opção mais restrita (excluir "desconhecida") até a resposta | 8, 15 (AG5), Lista 3 | G-2 do qa |
+| 4 | Sitelinks para PDF: o humano confere se o PDF mostra contato da Ufape e política de privacidade; se não mostrar, o destino vira a LP | 7.1 e 14 (item 14) | R-G1 do qa |
+| 5 | Limite de gasto com valor: R$ 560,00 somando as duas campanhas, e aviso de que a conta pode ser compartilhada com a Pós [CONFIRMAR] (limite de conta não serve de trava; valem diária e data de término) | 14 (item 13) e AG2 | R-G2 do qa |
+| 6 | Etapa do workflow alinhada com o anuncios-meta (etapa 5) | Cabeçalho | R-G3 do qa |
+
+---
+
 ## 0. Resumo em cinco linhas
 
-1. Uma campanha-mãe de Busca por intenção, duas campanhas: marca e genérica (um grupo cada), só Medicina Veterinária integral, São Paulo, com R$ 560,00 no ciclo de 16/11/2026 a 21/02/2027 (R$ 184,00 na marca e R$ 376,00 na genérica) e diária em reais por semana na seção 3.
+1. Uma estrutura de Busca por intenção, duas campanhas: marca e genérica (um grupo cada), só Medicina Veterinária integral, São Paulo, com R$ 560,00 no ciclo de 16/11/2026 a 21/02/2027 (R$ 184,00 na marca e R$ 376,00 na genérica) e diária em reais por semana na seção 3.
 2. Quatro anúncios responsivos (2 por grupo: preço e entrada), títulos até 30 e descrições até 90 recontados, com fixações para que o desconto e o Enem nunca apareçam sem as condições.
 3. Recursos sem preço: 4 sitelinks (mais 1 condicionado a G7), 6 frases de destaque e nome da empresa; snippet, chamada e formulário ficam de fora, com motivo.
 4. Conversão otimizada: cadastro na LP (primária); matrícula só para leitura (secundária, fora da otimização). UTM google e cpc no padrão D11 e D12, com auto tagging ligado. Sem lance em concorrente.
@@ -37,7 +50,7 @@
 |---|---|---|---|
 | 1 | 2 anúncios por grupo, como pedido. O esboço do criativos tinha 3 por grupo da genérica; o v2-pratica (RSA-INT-v2 do criativos, seção 4.2) fica de reserva para a fase 2 | 6.6 | Cadência do gestor: conceito novo a cada 2 semanas a partir da fase 2 |
 | 2 | utm_content no padrão D12 com bloco de gancho: conceito_formato_gancho_vN (ex.: v1-preco_rsa_a_v1). O criativos usa conceito_formato_vN com a versão como gancho (v1-preco_rsa_v1). Segue o D12 e o ajuste A-C1 do qa-d; o gestor-de-midia confirma na próxima versão do plano dele | 10 | D12 é a regra aprovada pelo cmo; A-C1 do qa-d |
-| 3 | Título fixado "Enem: Média Mínima 300 Pontos" na posição 1 dos anúncios de entrada (antes, "Enem com Média Mínima de 300" na posição 2), porque a palavra "pontos" faz parte da condição e a posição 1 garante que o Enem nunca aparece sem ela | 6.3 e 6.4 | Condição completa do Enem em toda peça |
+| 3 | Título fixado "Enem: Média Mínima 300 Pontos" na posição 1 dos anúncios de entrada (antes, "Enem com Média Mínima de 300" na posição 2), porque a palavra "pontos" faz parte da condição e a posição 1 garante que o Enem nunca aparece sem ela | 6.2 e 6.4 | Condição completa do Enem em toda peça |
 | 4 | Descrição com a linha do menor de idade ("representante legal") nos 4 anúncios, no lugar da descrição "Inscrição gratuita em São Paulo. Aulas...", que já aparece em títulos | 6 | Pedido do cmo: representante legal onde couber (Edital 002/2026) |
 | 5 | Descrição 2 dos anúncios com preço traz a regra de renovação com comprovação (Edital 003/2026) | 6.1 e 6.3 | Desconto só com as condições que o espaço comporta; regra completa no edital |
 | 6 | Divisão da verba do Google entre marca e genérica: 30% e 70% nas semanas S1 a S11 e 40% e 60% nas S12 a S14 [SUPOSIÇÃO de desenho] | 3 | O gestor deixou a divisão para este arquivo; a marca pesa mais na reta final (gestor 3.3) |
@@ -64,7 +77,7 @@ Conta Google Ads da Ufape [CONFIRMAR ID da conta com a Ufape]
   Lista compartilhada de negativas: grad_medvet_negativas_gerais
 ```
 
-Modelo de estrutura (skill estrutura-de-campanha-paga): enxuta, dentro do lançamento por fases do gestor. 1 campanha por intenção, 1 grupo por campanha, 2 anúncios por grupo, porque a verba semanal do Google é de R$ 15,00 a R$ 64,00 e o volume não sustenta mais. Orçamento na campanha (o Google só tem orçamento por campanha). O AAAAMM do nome é o mês da subida e o nome não muda nos meses seguintes (as fases trocam anúncios e diária, não campanha).
+Modelo de estrutura (skill estrutura-de-campanha-paga): enxuta, dentro do lançamento por fases do gestor. 1 campanha por intenção, 1 grupo por campanha, 2 anúncios por grupo, porque a verba semanal do Google é de R$ 15,00 a R$ 64,00 e o volume não sustenta mais. Orçamento por campanha (ou compartilhado entre as duas, só no item de reserva do AG2). O AAAAMM do nome é o mês da subida e o nome não muda nos meses seguintes (as fases trocam anúncios e diária, não campanha).
 
 ### 2.2 Configurações das duas campanhas (humano confere no editor)
 
@@ -120,8 +133,8 @@ Regras de leitura:
 - Diária = verba semanal dividida por 7, arredondada para baixo ao centavo. O gasto máximo da semana (7 x diária) nunca passa do valor da tabela; a sobra de centavos vira economia. Em S8 a S11 os valores exatos são R$ 13,125 e R$ 30,625; a tabela mostra centavos arredondados e os totais por campanha (R$ 184,00 e R$ 376,00) valem.
 - Total diário das duas campanhas por fase: S1 a S3, R$ 7,14; S4 e S5, R$ 3,21; S6 e S7, R$ 2,14; S8 a S11, R$ 6,24; S12, R$ 9,13; S13 e S14, R$ 6,85.
 - O humano troca a diária de cada campanha na segunda-feira de cada semana (14 trocas por campanha). Pesos semanais e fases: os do estrategia-de-midia (2.3 e 2.4), com a regra do Enem e do Sisu dele quando as datas forem confirmadas; nunca muda o total.
-- O Google pode gastar até o dobro da diária em um dia e compensar em outros [CONFIRMAR na Central de Ajuda do Google Ads]. O teto que vale é o gasto acumulado: nunca acima de R$ 560,00 no Google nem de R$ 2.000,00 no curso (gestor 6.2, regra 1).
-- Diárias abaixo de R$ 2,00 (marca em quase todo o ciclo; genérica em S6 e S7) podem não entregar [SUPOSIÇÃO]. Se o painel mostrar zero impressões em uma campanha por 3 dias seguidos, o gestor-de-midia propõe orçamento compartilhado entre as duas campanhas nessas semanas, sem mudar o total (pedido AG2, item de reserva).
+- O Google pode gastar até o dobro da diária em um dia e compensar em outros [SUPOSIÇÃO, CONFIRMAR na Central de Ajuda do Google Ads]. O teto que vale é o gasto acumulado: nunca acima de R$ 560,00 no Google nem de R$ 2.000,00 no curso (gestor 6.2, regra 1).
+- Diárias abaixo de R$ 2,00 (marca em quase todo o ciclo; genérica em S6 e S7) podem não entregar [SUPOSIÇÃO]. O orçamento é por campanha. Só se o painel mostrar zero impressões em uma campanha por 3 dias seguidos, o gestor-de-midia propõe orçamento compartilhado entre as duas campanhas nessas semanas, sem mudar o total (item de reserva do AG2, com aprovação).
 - Leads que a verba compra, só como referência: no cenário base do gestor (CPL máximo R$ 6,67, [SUPOSIÇÃO de cenário], aprovação em MP1), R$ 560,00 compram cerca de 84 leads se o CPL ficar exatamente no máximo (560 dividido por 6,67). Não é previsão.
 - A genérica só segue depois de 3 semanas se trouxer cadastro com CPL até o máximo aprovado. Se não trouxer, a verba dela passa para a marca; passar para a Meta é pedido ao cmo (gestor 3.5 e estrategia 6.2, regra 3).
 
@@ -202,14 +215,14 @@ Nenhuma além da lista compartilhada. Se algum termo com "ufape" aparecer na gen
 
 ## 6. Anúncios responsivos
 
-Limites: título até 30 caracteres e descrição até 90, contados com espaços (contagem feita nesta redação, uma a uma). **O humano confere de novo no editor antes de montar.** Até 15 títulos e 4 descrições por anúncio. Sem ponto de exclamação, sem caixa alta para gritar, sem emoji, sem nome de concorrente, sem "últimas vagas", sem nota do MEC e sem frase de certificação.
+Limites: título até 30 caracteres e descrição até 90, contados com espaços (contagem feita nesta redação, uma a uma, e recontada pelo qa por script: 0 divergências). **O humano confere de novo no editor antes de montar.** Quantidade máxima de títulos e descrições por anúncio: 15 títulos e 4 descrições [SUPOSIÇÃO, CONFIRMAR no editor]. Sem ponto de exclamação, sem caixa alta para gritar, sem emoji, sem nome de concorrente, sem "últimas vagas", sem nota do MEC e sem frase de certificação.
 
 Regras fixas que valem para os quatro anúncios:
 - Desconto: o título "Integral: 50% de Desconto" e a descrição 1 de preço são fixados juntos na posição 1, para o desconto nunca aparecer sem valor cheio, valor com desconto, validade (1º semestre 2027) e "Condições e validade no edital".
 - Enem: o título "Enem: Média Mínima 300 Pontos" (posição 1) e a descrição 1 de entrada (posição 1) são fixados juntos; a descrição 1 traz a condição completa, "média mínima de 300 pontos, edições de 2010 em diante". Nenhum outro título com Enem fica sem a condição.
 - Ato: só como no catálogo, "Portaria SERES/MEC nº 162, de 13/03/2025 (D.O.U. 21/03/2025)", sem reconhecimento e sem nota.
 - Menor de idade: "representante legal", como no Edital 002/2026.
-- Com as fixações, a "Força do anúncio" do Google pode ficar em "Média" ou "Ruim". É aceito: a conformidade vem antes da nota de força. Não remover fixação para subir a força.
+- Com as fixações, a "Força do anúncio" do Google pode ficar em "Média" ou "Ruim" [SUPOSIÇÃO, CONFIRMAR no editor]. Se ficar, é aceito: a conformidade vem antes da nota de força. Não remover fixação para subir a força.
 
 ### 6.1 RSA-M1 (campanha de marca, conceito preço) utm_content v1-preco_rsa_a_v1
 
@@ -355,7 +368,7 @@ Não são criados recursos de preço nem de promoção: mostrariam valor sem as 
 
 Notas:
 - SL3: nomes de disciplina da matriz da ficha, [CONFIRMAR NO CATÁLOGO].
-- SL2 e SL5 apontam para PDF. O Google pode recusar PDF como destino de sitelink [CONFIRMAR na análise da plataforma]; se recusar, o destino vira a LP, com a mesma UTM.
+- SL2 e SL5 apontam para PDF. O Google pode recusar PDF como destino de sitelink [CONFIRMAR na análise da plataforma]. Antes de usar, o humano abre o PDF e confere se ele mostra o contato da Ufape e a política de privacidade (auditoria de conformidade, item de plataformas); se não mostrar, ou se o Google recusar, o destino vira a LP, com a mesma UTM.
 - SL5 só é criado depois de G7 (correção dos textos do Edital 003/2026: preâmbulo, data de assinatura e item 3.5 de Goiânia). Ele é o caminho para a regra completa do desconto (perda por atraso, não acúmulo com programa governamental), que não cabe nas descrições.
 - As descrições dos sitelinks podem ser mostradas juntas ou separadas [CONFIRMAR no editor]; por isso nenhuma frase se divide entre as duas linhas.
 - Sem sitelink de "ato do curso": a portaria completa não cabe em 35 caracteres sem arredondar; o ato fica na descrição 4 dos anúncios.
@@ -388,7 +401,7 @@ Notas:
 | Locais | Município de São Paulo e municípios da Região Metropolitana. Lista exata dos municípios: [CONFIRMAR com o comercial de São Paulo] | [SUPOSIÇÃO: Grande São Paulo], gestor 1.1 e MP4 |
 | Opção de segmentação | Presença: pessoas que estão ou regularmente estão nos locais (não "presença ou interesse") | [SUPOSIÇÃO de desenho] |
 | Exclusão de locais | Nenhuma. Goiânia e Goiás já estão nas negativas de texto | |
-| Idade | Anúncio só para 18 anos ou mais. A Busca do Google não tem faixa abaixo de 18 [CONFIRMAR no editor]; não excluir a faixa "desconhecida". Como menor pode ver anúncio de Busca por contexto, o texto não pressiona menor e fala com a família | Gestor 4.5; G10 [CONFIRMAR com o jurídico] |
+| Idade | Anúncio só para 18 anos ou mais. A Busca do Google não tem faixa abaixo de 18 [CONFIRMAR no editor]. **A faixa "desconhecida" pode incluir menores: a decisão é do AG5, com duas opções e validação do jurídico (G10). Até a resposta, vale a opção mais restrita: excluir a faixa "desconhecida"** (falha fechada). Como menor pode ver anúncio de Busca por contexto, o texto não pressiona menor e fala com a família | Gestor 4.5; G10 [CONFIRMAR com o jurídico]; qa G-2 |
 | Renda, emprego e outras características | Nenhuma segmentação nem exclusão | Gestor 4.5 |
 | Audiências | Nenhuma. Listas de contatos e semelhantes bloqueadas até o jurídico validar (MP7) | |
 | Remarketing | Não nesta versão (verba) | Gestor 3.5, linha 4 |
@@ -438,7 +451,7 @@ Correspondência com o criativos-de-anuncio: v1-preco_rsa_v1 passa a v1-preco_rs
 | utm_content | nome do anúncio ou do sitelink (D12) |
 | utm_term | {keyword} (palavra cadastrada, entregue pelo Google; fica com a grafia da palavra-chave, com acento quando houver [SUPOSIÇÃO: o arquiteto-de-fluxos confere a leitura no GA4 e no CRM]) |
 
-Como montar: URL final limpa, "https://faculdade.ufape.com.br/graduacao" [CONFIRMAR, G13], e **sufixo do URL final completo no nível do anúncio e no nível do sitelink**, porque o sufixo do nível mais baixo prevalece sobre o da campanha [CONFIRMAR no editor]. Sem sufixo no nível da campanha. Auto tagging ligado ao mesmo tempo [CONFIRMAR com o arquiteto-de-fluxos qual dos dois o GA4 e o CRM usam na atribuição].
+Como montar: URL final limpa, "https://faculdade.ufape.com.br/graduacao" [CONFIRMAR, G13], e **sufixo do URL final completo no nível do anúncio e no nível do sitelink**, porque o sufixo do nível mais baixo prevalece sobre o da campanha [SUPOSIÇÃO, CONFIRMAR no editor]. Sem sufixo no nível da campanha. Auto tagging ligado ao mesmo tempo [CONFIRMAR com o arquiteto-de-fluxos qual dos dois o GA4 e o CRM usam na atribuição].
 
 | Peça | Sufixo do URL final |
 |---|---|
@@ -466,7 +479,7 @@ A squad nunca altera a LP. Origem chegando ao CRM com utm_campaign e utm_content
 | 5 | **Datas do Enem**: Enem 2026 informado para 08 e 15/11 e divulgação das notas, ambos [CONFIRMAR no calendário oficial do Inep] | (a) Nada no ar em 08 e 15/11 (a subida é 16/11). (b) Nenhum texto diz ou sugere que a nota do Enem 2026 já pode ser usada, nem fala em "sua nota", "resultado" ou "nota do Sisu". (c) A palavra "veterinária com nota do enem" e a retirada das negativas "enem 2026", "resultado do enem" e "nota do enem 2026" esperam a semana da divulgação das notas. (d) Enem sempre com a condição completa, sem reescrever a regra do edital | Versão de texto da semana E, só com a data confirmada, por nova versão deste arquivo |
 | 6 | **G13**: URL da LP que recebe a UTM, se o formulário é a inscrição ou só captura, origem no CRM e política de privacidade no formulário | Conversão de lead, UTM final e a conferência "a página entrega o que o anúncio promete" | Montagem final |
 | 7 | **G14**: ninguém nomeado para aprovar anúncios, verba e peças com ato regulatório | Registro de qualquer aprovação deste arquivo | Aprovações dos pedidos da seção 15 |
-| 8 | **G10**: tratamento de menor de idade (anúncio de Busca visto por menor, consentimento no CRM, uso de dados na importação de matrícula) | Importação de conversão de matrícula e qualquer lista de contatos | Importação, depois da validação do jurídico |
+| 8 | **G10**: tratamento de menor de idade (anúncio de Busca visto por menor, faixa etária "desconhecida", consentimento no CRM, uso de dados na importação de matrícula) | Importação de conversão de matrícula, qualquer lista de contatos e a abertura da faixa "desconhecida" | Importação e faixa "desconhecida", depois da validação do jurídico |
 | 9 | **MP4**: públicos 18 ou mais e área geográfica confirmada pelo comercial | Configuração final de locais | Montagem final |
 | 10 | **MP10**: tag do Google e conversão de lead testadas | Ativação | Ativação |
 | 11 | **qa-de-marketing** (auditoria 11 e conformidade-educacional), previsto para 10/11/2026 | Montagem | Montagem entre 11 e 13/11 (MP11), em pausa |
@@ -512,15 +525,15 @@ Ordem: 1 a 6 até 10/11; 7 a 12 de 11 a 13/11, tudo em pausa; 13 a 15 em 16/11.
 - [ ] 3. Planejador de palavras-chave consultado: volume e CPC registrados em arquivo de retorno; palavras sem volume retiradas (seção 4).
 - [ ] 4. Teto de CPC máximo aprovado pelo gestor-de-midia (AG4); sem ele, não ativar.
 - [ ] 5. G13 respondido: URL final, formulário (inscrição ou captura), origem no CRM, política de privacidade.
-- [ ] 6. qa-de-marketing aprovou os 4 anúncios e os recursos (auditoria 11 e conformidade-educacional).
+- [ ] 6. qa-de-marketing conferiu G-1 e G-2 desta versão e aprovou os 4 anúncios e os recursos (auditoria 11 e conformidade-educacional).
 - [ ] 7. Tag do Google e conversão de lead criadas, com envio de teste aparecendo no Google Ads e no CRM com utm_campaign e utm_content (MP10). Conversão de matrícula só depois de G13 e G10.
-- [ ] 8. Duas campanhas criadas em pausa, com os nomes da seção 10, Rede de Pesquisa, sem parceiros de pesquisa nem Display, locais e idioma da seção 8, data de início 16/11/2026 e de término 21/02/2027.
+- [ ] 8. Duas campanhas criadas em pausa, com os nomes da seção 10, Rede de Pesquisa, sem parceiros de pesquisa nem Display, locais e idioma da seção 8, data de início 16/11/2026 e de término 21/02/2027. Faixa etária: excluir "desconhecida" até a resposta do AG5.
 - [ ] 9. Recursos automáticos, expansão de URL final e AI Max desligados [CONFIRMAR no editor]; sem inserção dinâmica de palavra-chave.
 - [ ] 10. Grupos, palavras (seção 4, sem a de nota do Enem ativa) e lista compartilhada de negativas anexada; negativas da marca (5.2) na campanha de marca.
 - [ ] 11. Quatro anúncios com as fixações da seção 6, contagens conferidas no editor e sufixo de URL final completo por anúncio (seção 10.2). RSA-M1 e RSA-G1 em pausa até G7 e G12.
 - [ ] 12. Sitelinks SL1 a SL4 (SL5 só com G7), frases de destaque e nome da empresa; confirmar que o Google aceitou os PDFs.
-- [ ] 13. Conferir: diária da S1 (marca R$ 2,14 e genérica R$ 5,00), teto de CPC, estratégia de lance, data de término e limite de gasto da conta igual à verba aprovada.
-- [ ] 14. Conferir o destino de cada anúncio e sitelink: carrega, mostra dados da Ufape, contato e política de privacidade, sem redirecionar para domínio inesperado.
+- [ ] 13. Conferir: diária da S1 (marca R$ 2,14 e genérica R$ 5,00), teto de CPC, estratégia de lance, data de término e limite de gasto de R$ 560,00 somando as duas campanhas. A conta de anúncios pode ser compartilhada com a Pós [CONFIRMAR]; se for, o limite de gasto da conta não serve de trava, e valem a diária, a data de término e o acompanhamento do gasto acumulado.
+- [ ] 14. Conferir o destino de cada anúncio e sitelink: carrega, mostra dados da Ufape, contato e política de privacidade, sem redirecionar para domínio inesperado. Nos sitelinks para PDF (SL2 e SL5), abrir o arquivo e ver se mostra contato e política de privacidade; se não mostrar, trocar o destino para a LP.
 - [ ] 15. Ativar em 16/11/2026 e anotar no relatório; trocar a diária toda segunda-feira (seção 3); pausar em 22/02/2027 (MP13).
 
 ---
@@ -532,10 +545,10 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | AG1 | Aprovar a estrutura: 2 campanhas de Busca (marca e genérica), 1 grupo cada, sementes, negativas, localização e configurações das seções 2, 4, 5 e 8 | É o que o gestor encomendou (seção 6 do plano dele) e define o que o humano monta | Sem custo de mídia (campanhas criadas em pausa) | Estrutura pronta e conferida antes da subida | Excluir as campanhas pausadas no Google Ads, por humano |
-| AG2 | Aprovar a diária semanal da seção 3 e as datas de início (16/11/2026) e término (21/02/2027), dentro dos R$ 2.000,00 do curso (MP2, MP3). Item de reserva: orçamento compartilhado entre marca e genérica nas semanas em que a diária de uma ficar abaixo de R$ 2,00, sem mudar o total | Verba por curso (decisão 15); a marca e as semanas de festas ficam com diárias muito baixas | R$ 560,00 no ciclo (R$ 184,00 marca e R$ 376,00 genérica). Nada acima | Gasto semanal conforme a curva do plano | Reduzir ou pausar a diária no editor, por humano |
+| AG2 | Aprovar a diária semanal da seção 3 e as datas de início (16/11/2026) e término (21/02/2027), dentro dos R$ 2.000,00 do curso (MP2, MP3), com limite de gasto de R$ 560,00 somando as duas campanhas. Item de reserva: orçamento compartilhado entre marca e genérica, só nas semanas em que uma delas ficar 3 dias seguidos sem impressões, sem mudar o total | Verba por curso (decisão 15); a marca e as semanas de festas ficam com diárias muito baixas. Se a conta for compartilhada com a Pós [CONFIRMAR], o limite de conta não vale como trava | R$ 560,00 no ciclo (R$ 184,00 marca e R$ 376,00 genérica). Nada acima | Gasto semanal conforme a curva do plano | Reduzir ou pausar a diária no editor, por humano |
 | AG3 | Aprovar os 4 anúncios responsivos, as fixações, o ato (regulação) e o texto do desconto (regulação, com G7 e G12) | Preço, desconto, Enem e ato passam por aprovação; fixações garantem as condições | Sem custo adicional | Anúncios aprovados para montagem. M1 e G1 só ativam com G7 e G12 | Pausar o anúncio; voltar à versão anterior |
 | AG4 | Aprovar o teto de CPC máximo, a partir do Planejador de palavras-chave e da 1ª semana | Sem teto, maximizar cliques gasta a diária em poucos cliques caros; valor [DADO NÃO FORNECIDO] | Dentro da diária | Gasto previsível por clique | Trocar o teto no editor |
-| AG5 | Aprovar localização (Grande São Paulo, lista de municípios do comercial), idade 18 ou mais, ausência de audiências e a regra para menor de idade (liga a MP4 e G10) | ECA, LGPD e políticas do Google | Sem custo | Entrega só à praça certa, sem público de menor ou sensível | Editar locais e configurações no editor |
+| AG5 | Aprovar localização (Grande São Paulo, lista de municípios do comercial), idade 18 ou mais, ausência de audiências e a regra para menor de idade (liga a MP4 e G10). **Decidir a faixa etária "desconhecida" com o jurídico (G10). Opção A, a mais restrita e a que vale até a resposta: excluir "desconhecida"; menos risco de mostrar a menor identificado como sem idade, mas o alcance cai, porque a faixa inclui adultos sem idade conhecida pelo Google (tamanho do corte: [DADO NÃO FORNECIDO]). Opção B: não excluir; mais alcance, com o risco de menor na faixa; só com parecer do jurídico** | ECA, LGPD e políticas do Google; a Busca não tem faixa abaixo de 18 [CONFIRMAR no editor] | Sem custo | Entrega só à praça certa, sem público de menor ou sensível | Editar locais, faixa etária e configurações no editor, por humano |
 | AG6 | Aprovar as conversões: lead primária; matrícula secundária por importação offline sem dado pessoal, só depois de G13 e da validação do jurídico | Sem conversão não há leitura nem otimização | Sem custo de mídia | Leitura por campanha e por anúncio | Remover a tag ou a ação de conversão, por humano |
 | AG7 | Autorizar a rotina semanal de negativas (adicionar termo fora de escopo, de outra instituição, com "sisu" ou "enem 2026") sem pedido novo a cada vez, sem mexer em verba, lance ou texto | Termo ruim gasta a pouca verba; o pedido por termo seria lento | Sem custo | Menos gasto em busca fora de escopo | Remover a negativa no editor |
 | AG8 | Autorizar a subida em 16/11/2026 (MP11 e MP12 do gestor), depois dos itens da seção 11 | Montagem e publicação são de humano | R$ 150,00 na fase 1 (R$ 45,00 marca e R$ 105,00 genérica) | Captação a partir de 16/11 | Pausar as campanhas, por humano |
@@ -554,9 +567,9 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 - [x] Nomenclatura padrão em campanhas, grupos e anúncios (seção 10).
 - [ ] UTM completas e origem no CRM: UTM completas por anúncio e sitelink (seção 10); URL e chegada ao CRM [CONFIRMAR] (G13, MP10).
 - [ ] Conversões do Google configuradas e testadas: desenhadas (seção 9); estado atual [DADO NÃO FORNECIDO].
-- [ ] Criativos aprovados na conformidade: dependem do qa-de-marketing.
+- [ ] Criativos aprovados na conformidade: qa aprovou com ajustes G-1 e G-2, tratados nesta versão; conferência do qa antes da montagem.
 - [x] Anúncios dentro das políticas do Google: sem ponto de exclamação, sem caixa alta excessiva, sem inserção dinâmica, sem recurso automático, sem urgência falsa, sem recurso de preço ou promoção.
-- [x] Nenhum público com menores de 18: sem audiências nem listas; texto sem pressão sobre menor; busca vista por menor [CONFIRMAR com o jurídico, G10].
+- [ ] Nenhum público com menores de 18: sem audiências nem listas; texto sem pressão sobre menor; faixa "desconhecida" excluída até a resposta (AG5); busca vista por menor [CONFIRMAR com o jurídico, G10].
 - [x] Spark Ad e post de docente promovido: não se aplicam.
 - [ ] Relatório semanal ao cmo: começa em 23/11/2026.
 - [x] Sem segmentação discriminatória nem exclusão por atributo sensível.
@@ -581,14 +594,14 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 - [x] Nenhum dado pessoal neste arquivo.
 - [x] Sem comparação com concorrente, sem nome de outra instituição em texto ou palavra-chave, sem lance em concorrente.
 - [ ] Formulário com finalidade e política de privacidade: [CONFIRMAR] (G13); a squad não altera a LP.
-- [ ] Página de destino entrega o que o anúncio promete: [CONFIRMAR] (G13). O bloco do noturno com turno errado (G8) está fora das campanhas.
+- [ ] Página de destino entrega o que o anúncio promete: [CONFIRMAR] (G13); PDFs conferidos no item 14 do checklist. O bloco do noturno com turno errado (G8) está fora das campanhas.
 - [x] Texto não afirma característica de quem vê.
 
-**Resultado:** rascunho pronto para o qa-de-marketing. Bloqueados até resposta: ativação de qualquer campanha (MP1, MP2, G14, G13, MP10, MP4), anúncios com preço (G7, G12), noturno (G8, MP8), importação de matrícula (G10) e texto de nota do Enem (datas do Enem). Revisado por: anuncios-google (agente). Revisão humana: pendente. Data: 26/10/2026.
+**Resultado:** rascunho pronto para a conferência do qa nos itens G-1 e G-2. Bloqueados até resposta: ativação de qualquer campanha (MP1, MP2, G14, G13, MP10, MP4), anúncios com preço (G7, G12), noturno (G8, MP8), importação de matrícula e faixa "desconhecida" (G10) e texto de nota do Enem (datas do Enem). Revisado por: anuncios-google (agente), versão 2. Revisão humana: pendente. Data: 27/10/2026.
 
 **Notas para arquivos de outros donos (não alterados por este agente):**
 - criativos-de-anuncio-graduacao-2026-10-26.md: o utm_content dos RSA usa a versão como gancho; este arquivo segue o D12 com bloco de gancho (A-C1 do qa-d). O RSA-INT-v3 fixava o título de Enem na posição 2; aqui a posição 1 leva "Enem: Média Mínima 300 Pontos". A descrição "Inscrição gratuita em São Paulo..." deu lugar à linha do menor de idade.
-- gestor-de-midia-graduacao-2026-10-26.md: a divisão 30% e 70% (40% e 60% na reta final) entre marca e genérica está proposta aqui; o gestor confirma na próxima versão. O gestor lista 3 anúncios na genérica; aqui são 2 (o terceiro, v2-pratica, entra na fase 2).
+- gestor-de-midia-graduacao-2026-10-26.md: a divisão 30% e 70% (40% e 60% na reta final) entre marca e genérica está proposta aqui; o gestor confirma na próxima versão. O gestor lista 3 anúncios na genérica; aqui são 2 (o terceiro, v2-pratica, entra na fase 2). A 4.8 dele pede limite de conta de R$ 4.000,00: no Google vale R$ 560,00 somando as duas campanhas.
 
 ---
 
@@ -604,6 +617,7 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 - Canais e bloqueios: Google Search só na Medicina Veterinária; Performance Max, YouTube e TikTok fora; noturno bloqueado por G8 e MP4; anúncio só para 18 anos ou mais (gestor v3, 3.1 e 4.5).
 - Padrão D11 (Google: utm_source google e utm_medium cpc) e D12 (utm_campaign igual ao nome da campanha; anúncio conceito_formato_gancho_vN; prefixo grad_) (cmo-geral-2026-10-26.md, seção 12.7).
 - Secretaria: (11) 5054-1204, segunda a sexta, 9h às 18h; vendas São Paulo: (11) 91366-9290 (contexto/ufape-geral.md).
+- Recontagem do qa: 100 itens de texto do Google, 0 divergências, 0 acima do limite (qa-de-marketing-graduacao-2026-10-27-campanhas.md, 2.1).
 - 16/11/2026 e 22/02/2027 são segundas-feiras (calendário).
 
 ## Lista 2. Suposições
@@ -616,18 +630,20 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 - [SUPOSIÇÃO] Diárias abaixo de R$ 2,00 podem não entregar.
 - [SUPOSIÇÃO] O gargalo do funil é o inscrito que não faz a redação (hipótese do cmo); a objeção principal é mensalidade alta (contexto da linha).
 - [SUPOSIÇÃO] O {keyword} do Google chega ao GA4 e ao CRM com a grafia cadastrada, com acento quando houver.
-- [SUPOSIÇÃO] A Busca do Google não tem faixa etária abaixo de 18, e o sufixo de URL de nível mais baixo prevalece sobre o da campanha (conferir no editor).
+- [SUPOSIÇÃO, CONFIRMAR no editor] Regras de plataforma do Google citadas neste arquivo: máximo de 15 títulos e 4 descrições por anúncio; "Força do anúncio" que pode ficar em "Média" ou "Ruim" com fixações; a Busca não tem faixa etária abaixo de 18; o sufixo de URL de nível mais baixo prevalece sobre o da campanha; o Google pode gastar até o dobro da diária em um dia; orçamento compartilhado entre campanhas de Busca.
+- [SUPOSIÇÃO] A conta de anúncios do Google pode ser compartilhada com campanhas da Pós, o que tira o valor do limite de conta como trava.
 
 ## Lista 3. Dados que faltam
 
-- [DADO NÃO FORNECIDO] Volume de busca e CPC estimado de cada palavra (Planejador de palavras-chave ou exportação); teto de CPC máximo; pesquisa do departamento 03; histórico de CPL; estado da tag e das conversões do Google; ID da conta; lista de concorrentes da Ufape.
+- [DADO NÃO FORNECIDO] Volume de busca e CPC estimado de cada palavra (Planejador de palavras-chave ou exportação); teto de CPC máximo; pesquisa do departamento 03; histórico de CPL; estado da tag e das conversões do Google; ID da conta; lista de concorrentes da Ufape; tamanho do corte de alcance ao excluir a faixa etária "desconhecida".
 - [CONFIRMAR] MP1 e MP15 (metas, leitura de "valor do curso", meta de 15 e turma mínima de 30); MP2 (gasto de R$ 560,00) e aprovador nomeado (G14).
 - [CONFIRMAR] G13: URL da LP que recebe a UTM, se o formulário é a inscrição ou só captura de contato, origem no CRM, política de privacidade no formulário, gclid chegando ao CRM.
 - [CONFIRMAR] G12: efeito do reajuste de dezembro nos valores de 2027/1. G7: correção dos textos dos Editais 003/2026. G8: campo turno do noturno na página.
 - [CONFIRMAR] Datas do Enem 2026 (08 e 15/11 informadas) e da divulgação das notas, no calendário oficial do Inep.
-- [CONFIRMAR] G10: consentimento de candidato menor no CRM, anúncio de Busca visto por menor e uso de dados na importação de matrícula; modo de consentimento da tag.
+- [CONFIRMAR] G10, com o jurídico: faixa etária "desconhecida" no Google (AG5), consentimento de candidato menor no CRM, anúncio de Busca visto por menor e uso de dados na importação de matrícula; modo de consentimento da tag.
 - [CONFIRMAR] Área geográfica e lista de municípios com o comercial de São Paulo (MP4).
-- [CONFIRMAR] Se o número de vendas de São Paulo atende chamada de voz; logotipo aprovado para o nome da empresa.
+- [CONFIRMAR] Se a conta de anúncios do Google é só da Graduação ou compartilhada com a Pós.
+- [CONFIRMAR] Se o número de vendas de São Paulo atende chamada de voz; logotipo aprovado para o nome da empresa; se os PDFs dos editais mostram contato e política de privacidade.
 - [CONFIRMAR NO CATÁLOGO] Nomes das disciplinas do 1º semestre (Anatomia, Práticas Hospitalares, Projeto Extensionista I) como dado de catálogo; horário de prática e estágio do noturno.
 - [CONFIRMAR no editor e na Central de Ajuda do Google Ads] Limites de caracteres, aceitação de PDF em sitelink, número mínimo de valores de snippet, regra de gasto diário, desligamento de AI Max e ativos automáticos, comportamento do sufixo de URL.
 
@@ -635,4 +651,4 @@ Aprovador: [CONFIRMAR, G14]. Nada é feito pela squad: um humano executa no Goog
 
 ## Próximo passo
 
-Arquivo: saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md. Próximo agente: **qa-de-marketing** (auditoria 11 e auditorias/conformidade-educacional.md sobre os 4 anúncios e os recursos), antes da aprovação humana e da montagem entre 11 e 13/11/2026. Nada é publicado, enviado ou pago sem aprovação humana.
+Arquivo: saidas/11-midia-paga/anuncios-google-graduacao-2026-10-26.md (versão 2). Próximo agente: **qa-de-marketing**, que confere só G-1 e G-2 antes da aprovação humana e da montagem entre 11 e 13/11/2026. Nada é publicado, enviado ou pago sem aprovação humana.
