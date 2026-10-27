@@ -924,14 +924,14 @@ Nenhuma sequência da onda 2 cai em 25/01, 08 a 10/02, 25/12, 01/01 nem 26/03 (s
 | 333 sem "coordenação", sem tratar todos os presenciais como de leitura de lâminas e sem pós-início | Sim |
 | 657 sem pré-requisito e sem prova ou título de especialista | Sim |
 | 341 sem promoção, sem local da prática e sem formato do módulo 3 | Sim |
-| Turma mínima sem número, com a frase da regra 6 | Sim (nos 7 posts de conversão; em 657-F2, 341-F2, 289-F2, 68615-F2, 333-F2) |
+| Turma mínima sem número, com a frase da regra 6 | Sim (nos 5 posts de conversão: em 657-F2, 341-F2, 289-F2, 68615-F2, 333-F2) |
 | Nome do curso "Pós-graduação em <área>" na primeira menção | Sim |
 | Dados de curso só do catálogo e da ficha | Sim (módulos e datas conferidos nas fichas) |
 | Sem promessa de emprego, renda ou aprovação | Sim |
 | Sem travessão nem meia-risca | Conferido na escrita; a busca final é do orquestrador |
 | Nada publicado, enviado ou pago | Sim |
 
-Observação: a linha "7 posts de conversão" acima conta os 5 posts de feed 2 (657-F2, 341-F2, 289-F2, 68615-F2 e 333-F2); os posts de feed 1 (lançamento) não levam a frase de turma mínima, por falta de espaço para a ideia única do post.
+Observação: a linha "5 posts de conversão" acima conta os 5 posts de feed 2 (657-F2, 341-F2, 289-F2, 68615-F2 e 333-F2); os posts de feed 1 (lançamento) não levam a frase de turma mínima, por falta de espaço para a ideia única do post.
 
 ---
 
