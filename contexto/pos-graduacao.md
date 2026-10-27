@@ -67,7 +67,7 @@ Leia junto com contexto/ufape-geral.md. Primeira versão em 22/10/2026, a partir
 ## Regras específicas de comunicação
 
 - Nunca usar "certificado pelo MEC" ou "reconhecida pelo MEC" até a regulação aprovar o texto oficial.
-- Não divulgar turma com status "verificar", "sem venda" ou "encerrado" no catálogo.
+- Não divulgar turma com status "verificar", "sem venda" ou "encerrado" no catálogo. Exceção (decisão 18, 27/10/2026): turma marcada "verificar" só por já ter começado pode ser divulgada até a véspera do 3º módulo, porque a Ufape aceita matrícula até o 3º módulo; o texto diz que a turma já começou e cita a regra completa.
 - Toda peça com preço mostra número de parcelas, valor da parcela, total e matrícula.
 - Ser transparente sobre a turma mínima e a confirmação da turma.
 - Público-alvo é médico veterinário formado. A página de Nutrologia cita "graduandos"; confirmar com a regulação antes de usar.
