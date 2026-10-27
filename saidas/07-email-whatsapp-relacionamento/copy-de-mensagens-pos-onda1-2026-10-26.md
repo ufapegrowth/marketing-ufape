@@ -228,7 +228,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 >
 > O que está na página da turma:
 > - 7 dos 24 módulos são presenciais, dois deles com atendimento de casos clínicos (módulos 5 e 9);
-> - aulas online ao vivo, gravada, e plantões de dúvidas mensais;
+> - aulas online ao vivo e gravadas, e plantões de dúvidas mensais;
 > - 18 professores listados, com nome e titulação.
 >
 > A página da turma informa que a 1ª mensalidade deve ser paga com 30 dias de antecedência da data de início. Parcelas, total e matrícula estão lá, junto com o cronograma completo.
@@ -570,7 +570,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - Provisória: "Vou confirmar com a coordenação como fica a reposição de módulo e te respondo por aqui."
 - Cenário A: "Como a entrada depois do início não está aberta para esta turma, não há reposição a combinar."
 - Cenário B, 707 (só com OU3 por escrito): "A página informa aulas teóricas online e ao vivo e acesso a aulas gravadas na plataforma do curso. O módulo 1 é online, então [REGRA OU3: como o módulo 1 é reposto]. Aulas presenciais e práticas não são transmitidas nem disponibilizadas, conforme a página."
-- Cenário B, 68610 (só com OU3 por escrito): "A página informa que as aulas são online ao vivo, gravada. O módulo 1 é online, então [REGRA OU3: como o módulo 1 é reposto]. Aulas presenciais e práticas não são transmitidas nem disponibilizadas, conforme a página."
+- Cenário B, 68610 (só com OU3 por escrito): "A página informa que as aulas online são ao vivo e gravadas. O módulo 1 é online, então [REGRA OU3: como o módulo 1 é reposto]. Aulas presenciais e práticas não são transmitidas nem disponibilizadas, conforme a página."
 - Cenário B, 68604, 68606, 698 e 68608: "A página não informa se as aulas online ficam gravadas [CONFIRMAR OU3 antes de responder]. Aulas presenciais e práticas não são transmitidas nem disponibilizadas, conforme a página. Vou confirmar com a coordenação como fica o módulo 1 e te respondo por aqui."
 
 **R5. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"**
