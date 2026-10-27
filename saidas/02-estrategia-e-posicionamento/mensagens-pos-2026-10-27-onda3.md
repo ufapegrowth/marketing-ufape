@@ -31,7 +31,7 @@
 1. **Texto para a página e para peças sem número (E1).** Nenhum algarismo, romano, ordinal, número por extenso nem "um" ou "uma" que conta. Sem preço, parcela, data, vaga, carga horária, duração, local (cidade, bairro, endereço, hospital) e nome de docente. Esses fatos vêm como dado (`numeros`, `investimento`, `local_e_datas`, `docentes`, `matriz`). As **notas internas** de cada seção citam código, módulo, ID da O1 e pendência para conferência e **não vão para a página nem para peça**.
 2. **Fonte.** Toda prova sai da ficha da turma, com a fonte ao lado. O que a ficha não diz fica fora do texto e vira [CONFIRMAR] na nota.
 3. **Proibido no texto (E3, E5, E13, E14):** "MEC", "certificado", "certificação", "reconhecido" e variações; prova ou título de especialista; bolsa, prova de bolsa, desconto, promoção; urgência ("últimas vagas", "corra", "só até", contador); promessa de emprego, renda ou resultado clínico; superlativos das fichas; "de cães e gatos" fora do nome de 68632; "nem gravadas"; "na mão"; "quase todos os temas"; "a teoria vem antes da prática"; "você decide com a conta inteira"; "laboratório inteiro"; "coordenação" em 68632 e 366 (OU34).
-4. **Presenciais (E4 e E5).** Lista incompleta leva "entre eles" ou "entre outros". Nenhuma frase diz que todos os presenciais são de um tipo sem a conferência módulo a módulo, que está nas notas internas de cada turma.
+4. **Presenciais (E4 e E5).** Lista incompleta leva "entre eles" ou "entre outros". Nenhuma frase diz que todos os presenciais são de um tipo sem a conferência módulo a módulo, que está nas notas internas de cada turma. Nenhuma frase diz que toda a teoria é online quando há módulo presencial com parte teórica: o texto usa "a maior parte dos módulos é online" ou "módulos online".
 5. **Entrada depois do início.** Nenhum texto da IA. Entra como dado da turma no `faq` (OU14). A resposta do time é a regra completa da decisão 18 com a frase E7, redigida pelo copy-de-mensagens (O7). Em 679, 68635 e 366, sem o mês do 3º módulo (E18). Em 68632, nada sobre entrada depois do início (regra 8 e E22).
 6. **Sem data em 679, 366 e 68636** (P3, P4 e OU21), e sem data em nenhum texto desta casa.
 7. **Nome do curso** exatamente como no catálogo (E2). Nenhuma das 8 recebe palavra acrescentada.
@@ -91,17 +91,17 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 ## 3. Seção 679: Pós-graduação em Infectologia Veterinária
 
-**Notas internas (não vão para a página).** Palavra principal: 679-K0 "pós-graduação em infectologia veterinária"; perguntas que a casa responde: 679-Q1 a Q4 (Q5 pela ponte 2.5). Data em aberto (P3, OU19): nenhuma data nem mês em texto ou chamada; resposta do time sobre data: "vou confirmar com a secretaria". E18: o mês do 3º módulo não aparece em mensagem, post, página nem roteiro. E14: "ÚNICA PÓS GRADUAÇÃO ... DO MUNDO", "diferencial competitivo", "melhoria de sua empregabilidade" e "maior capacidade de atuação em saúde pública" ficam fora (OC1). A frase da ficha sobre o crescimento do número de pets não tem fonte e fica fora. "Pequenos animais" e "cães e gatos" não entram (O1, 679-K3). **Conferência módulo a módulo:** 3 presenciais e mais nada (3 prática laboratorial; 13 zoonoses, sábado teórico e domingo com prática; 22 controle de infecção hospitalar com prática no domingo); 21 online. A lista da prova 1 é completa. A ficha traz "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas". A ficha não traz reembolso de inscrição nem o aviso de passagem e hotel: vale a regra da linha para passagem e hotel; reembolso [CONFIRMAR]. Nível de entrada [CONFIRMAR NO CATÁLOGO]. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** seguir com a rotina e conteúdo gratuito, fazer cursos curtos de antibioticoterapia (Cursos Livres, 541, só por link), ir a congressos, escolher a clínica médica ampla (68635) ou adiar a especialização.
+**Notas internas (não vão para a página).** Palavra principal: 679-K0 "pós-graduação em infectologia veterinária"; perguntas que a casa responde: 679-Q1 a Q4 (Q5 pela ponte 2.5). Data em aberto (P3, OU19): nenhuma data nem mês em texto ou chamada; resposta do time sobre data: "vou confirmar com a secretaria". E18: o mês do 3º módulo não aparece em mensagem, post, página nem roteiro. E14: "ÚNICA PÓS GRADUAÇÃO ... DO MUNDO", "diferencial competitivo", "melhoria de sua empregabilidade" e "maior capacidade de atuação em saúde pública" ficam fora (OC1). A frase da ficha sobre o crescimento do número de pets não tem fonte e fica fora. "Pequenos animais" e "cães e gatos" não entram (O1, 679-K3). **Conferência módulo a módulo:** 3 presenciais e mais nada (3 prática laboratorial; 13 zoonoses, sábado teórico e domingo com prática; 22 controle de infecção hospitalar com prática no domingo); 21 online. A lista da prova 1 é completa. Como o módulo 13 tem parte teórica presencial, o texto não diz que toda a teoria é online. A ficha traz "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas". A ficha não traz reembolso de inscrição nem o aviso de passagem e hotel: vale a regra da linha para passagem e hotel; reembolso [CONFIRMAR]. Nível de entrada [CONFIRMAR NO CATÁLOGO]. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** seguir com a rotina e conteúdo gratuito, fazer cursos curtos de antibioticoterapia (Cursos Livres, 541, só por link), ir a congressos, escolher a clínica médica ampla (68635) ou adiar a especialização.
 
 ### 3.1 Mensagem central (texto para a página)
 
-> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com a teoria online e prática presencial de laboratório e de zoonoses.
+> Infectologia veterinária do diagnóstico ao controle de infecção hospitalar, com módulos online e prática presencial de laboratório e de zoonoses.
 
 ### 3.2 Três provas de apoio (texto para a página; fonte: ficha de 679)
 
 1. **Prática presencial de laboratório.** Os módulos presenciais tratam de prática laboratorial (coleta, armazenamento e envio de amostras), de zoonoses, com prática laboratorial de coleta de material para exame de raiva, e de controle de infecção hospitalar, com prática. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. *(Fonte: cronograma, módulos marcados PRESENCIAL, e observação da ficha.)*
 2. **Agente por agente, sistema por sistema.** Imunologia e diagnóstico de doenças infecciosas; helmintos e protozoários; virologia; micologia; bacteriologia; doenças infecciosas de importância na medicina felina; antibioticoterapia; sepse; infecções intra-abdominais; doenças infecciosas de importância hematológica, gastrointestinal, cardiovascular e respiratória, renal, oftálmica, neurológica, na neonatologia e na reprodução e ortopédica; infectologia na UTI; vacinação. *(Fonte: cronograma.)*
-3. **Um objetivo escrito para a rotina clínica.** O curso parte da prevenção e do controle de zoonoses e do diagnóstico e do tratamento de doenças infecciosas e parasitárias, competências que a ficha atribui a quem atua na clínica médica. *(Fonte: texto de apresentação da ficha, sem a parte de carreira, E14.)*
+3. **Um objetivo escrito para a rotina clínica.** O curso parte da prevenção e do controle de zoonoses e do diagnóstico e do tratamento de doenças infecciosas e parasitárias, competências de quem atua na clínica médica. *(Fonte: texto de apresentação da ficha, sem a parte de carreira, E14.)*
 
 ### 3.3 Respostas às 3 objeções principais (texto para a página)
 
@@ -117,14 +117,14 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, do laboratório ao controle de infecção hospitalar."
 - **Variação 1 (consciente do problema):** "O diagnóstico da doença infecciosa começa na amostra: coleta, armazenamento e envio."
-- **Variação 2 (consciente da solução):** "Virologia, micologia, bacteriologia e antibioticoterapia online, com prática presencial de laboratório e de zoonoses."
+- **Variação 2 (consciente da solução):** "Virologia, micologia, bacteriologia e antibioticoterapia em módulos online, com prática presencial de laboratório e de zoonoses."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
 
 ## 4. Seção 68632: Pós-graduação em Clínica Cirúrgica de Cães e Gatos
 
-**Notas internas (não vão para a página).** Palavra principal: 68632-K0; perguntas: 68632-Q1, Q3, Q4 e Q5; 68632-QC2 bloqueada. **Regra 8 e E22:** nenhuma linha desta seção fala de entrada depois do início; a resposta do time a "Ainda dá tempo?" diz só a data de início (dado da turma) e o link da página, sem a regra e sem a data do 3º módulo, enquanto OU3 estiver aberta. **Turma presencial**, sem formato marcado por módulo: o texto nunca diz "online", "a distância" nem "semipresencial" (O1). Sem "coordenação" (OU34); a seção `docentes` é dado. Campus fora do texto (CP1). E13 e E14: "formar especialistas", "tem reconhecimento pelo Ministério da Educação", "referência nacional" e "garante" ficam fora (OC1); a prova 1 cita as simulações de habilidades nas aulas práticas como descrição da ficha, sem o verbo "garante". "Ortopedia" e "osteossíntese" (módulo 15) não entram no texto: o termo fica reservado a 662 (O1, seção 4). "Cães e gatos" só dentro do nome do curso. A ficha traz o aviso de passagem e hotel e a linha de reembolso de inscrição. Experiência prévia, frequência, jornada e hospedagem [CONFIRMAR NO CATÁLOGO]. Disputa com 535 e 665 (E20): pedido S1 e S3 da O1. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** aprender na rotina com um cirurgião colega, fazer imersões e cursos curtos de cirurgia (Cursos Livres 99, 433, 625 e 469, só por link), ir a congressos ou adiar a especialização.
+**Notas internas (não vão para a página).** Palavra principal: 68632-K0; perguntas: 68632-Q1, Q3, Q4 e Q5; 68632-QC2 bloqueada. **Regra 8 e E22:** nenhuma linha desta seção fala de entrada depois do início; a resposta do time a "Ainda dá tempo?" diz só a data de início (dado da turma) e o link da página, sem a regra e sem a data do 3º módulo, enquanto OU3 estiver aberta. **Turma presencial**, sem formato marcado por módulo: o texto nunca diz "online", "a distância" nem "semipresencial" (O1). Sem "coordenação" (OU34); a seção `docentes` é dado. Campus fora do texto (CP1). E13 e E14: "formar especialistas", "tem reconhecimento pelo Ministério da Educação", "referência nacional" e "garante" ficam fora (OC1); a prova 1 cita as simulações de habilidades nas aulas práticas como descrição da ficha, sem o verbo "garante". "Ortopedia" e "osteossíntese" (módulo 15) não entram no texto: o termo fica reservado a 662 (O1, seção 4). "Cães e gatos" só dentro do nome do curso. A ficha traz o aviso de passagem e hotel e a linha de reembolso de inscrição. Experiência prévia, frequência, jornada e hospedagem [CONFIRMAR NO CATÁLOGO]. Disputa com 535 e 665 (E20): pedidos S1 e S3 da O1. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** aprender na rotina com um cirurgião colega, fazer imersões e cursos curtos de cirurgia (Cursos Livres 99, 433, 625 e 469, só por link), ir a congressos ou adiar a especialização.
 
 ### 4.1 Mensagem central (texto para a página)
 
@@ -183,7 +183,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, da semiologia ao atendimento do paciente grave."
 - **Variação 1 (consciente do problema):** "O paciente chega instável e o caso é clínico: triagem, monitoração e raciocínio por sistema."
-- **Variação 2 (consciente da solução):** "Teoria online por sistema e módulos presenciais de semiologia, exames, ambulatório e emergência."
+- **Variação 2 (consciente da solução):** "Módulos online por sistema e módulos presenciais de semiologia, exames, ambulatório e emergência."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Em dúvida entre clínica médica e terapia intensiva? O time explica a diferença."
 
 ---
@@ -199,14 +199,14 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 ### 6.2 Três provas de apoio (texto para a página; fonte: ficha de 366)
 
 1. **Prática presencial por técnica.** Entre os módulos presenciais estão a prática de hidroterapia, cinesioterapia e avaliação de dor, a de recursos eletrofísicos, a de avaliação e reabilitação neurológica, a de avaliação e reabilitação ortopédica, a de bandagem taping e reabilitação em felinos e silvestres, a de terapias manuais e paciente à beira-leito e a de atendimento clínico. Outros módulos presenciais tratam de biomecânica aplicada, órteses e próteses e de avaliação respiratória e fisiátrica à beira-leito. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. *(Fonte: cronograma, módulos marcados PRESENCIAL, e observação da ficha.)*
-2. **Avaliar antes de tratar.** A ficha descreve o caminho do curso: histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor, para então estabelecer o protocolo de fisioterapia, restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão. *(Fonte: texto de apresentação da ficha.)*
+2. **Avaliar antes de tratar.** O curso parte do caminho clínico: histórico clínico completo, avaliação ortopédica e neurológica e inspeção do aparelho locomotor, para então estabelecer o protocolo de fisioterapia, restabelecer o movimento, aliviar a dor e prevenir o agravamento da lesão. *(Fonte: texto de apresentação da ficha.)*
 3. **Do paciente idoso ao atleta.** Anatomia do sistema locomotor e fisiopatologia da dor; reabilitação no cão idoso e no obeso e em felinos; reabilitação neurológica e ortopédica; endocrinopata e cardiopata; cavalo atleta e silvestres; manejo de feridas; medicina integrativa; cuidados paliativos e paciente oncológico. *(Fonte: cronograma.)*
 
 ### 6.3 Respostas às 3 objeções principais (texto para a página)
 
 | Objeção [SUPOSIÇÃO, persona da linha e O1] | Resposta |
 |---|---|
-| "Quero oferecer reabilitação, mas não sei por onde começar." (366-Q3, Q4) | "O curso começa pela anatomia do sistema locomotor e pela fisiopatologia da dor e passa pela avaliação neurológica e ortopédica, que a ficha põe antes da montagem do protocolo." Sem promessa de serviço, renda ou resultado clínico. |
+| "Quero oferecer reabilitação, mas não sei por onde começar." (366-Q3, Q4) | "O curso começa pela anatomia do sistema locomotor e pela fisiopatologia da dor e passa pela avaliação neurológica e ortopédica, que vem antes da montagem do protocolo de fisioterapia." Sem promessa de serviço, renda ou resultado clínico. |
 | "Tem prática de verdade ou é só teoria?" (366-Q3) | "A maior parte dos módulos é online, e há módulos presenciais de prática, entre eles hidroterapia e cinesioterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica, bandagem taping e terapias manuais. O cronograma mostra o mês de cada módulo presencial." |
 | "Reabilitação ou cirurgia: qual eu faço?" (366-Q5) | Frase-ponte A4 (seção 2.4), sem mudança. |
 
@@ -218,18 +218,18 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, da avaliação da dor às terapias manuais."
 - **Variação 1 (consciente do problema):** "Pós-operatório, paciente neurológico, cão idoso: a reabilitação começa pela avaliação."
-- **Variação 2 (consciente da solução):** "Teoria online e prática presencial de hidroterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica e terapias manuais."
+- **Variação 2 (consciente da solução):** "Módulos online e prática presencial de hidroterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica e terapias manuais."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
 
 ## 7. Seção 68628: Pós-graduação em Oncologia Veterinária
 
-**Notas internas (não vão para a página).** Palavra principal: 68628-K0; perguntas: 68628-Q1, Q2, Q4 e Q5; Q3 (pós ou curso de eletroquimioterapia) vai ao guia A10, com Cursos Livres 560 só por link. P5: nenhum número de turma. **Turma semipresencial:** o texto nunca diz "presencial" sozinho para a turma; 68628-K1 ("presencial") é termo de lista e anúncio, não de página (O1, ponto 1 a 4). "De pequenos animais" e "cães e gatos" não entram (a ficha tem neoplasias em animais exóticos). E14: "tem reconhecimento pelo Ministério da Educação", "referência nacional" e "garante" ficam fora (OC1). **Conferência módulo a módulo:** 8 presenciais (5, 7, 9, 12, 15, 17, 20 e 24), 16 online; a prova 1 cita 7 deles pelo tema e leva "entre eles"; o 24 tem item "Para definir" e não é citado; o 15 é "radioterapia com visita" e não é descrito como prática; os módulos 21 e 22 repetem conteúdo [CONFIRMAR NO CATÁLOGO]. A ficha traz "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas", o aviso de passagem e hotel e o reembolso. Nível de entrada [CONFIRMAR NO CATÁLOGO]. Disputa com 654 (E20): pedido S4 da O1. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** encaminhar o paciente oncológico a um colega, fazer o curso de eletroquimioterapia ou o mini curso de oncologia na clínica (Cursos Livres 560 e 465, só por link), ir a congressos ou adiar a especialização.
+**Notas internas (não vão para a página).** Palavra principal: 68628-K0; perguntas: 68628-Q1, Q2, Q4 e Q5; Q3 (pós ou curso de eletroquimioterapia) vai ao guia A10, com Cursos Livres 560 só por link. P5: nenhum número de turma. **Turma semipresencial:** o texto nunca descreve a turma como presencial; 68628-K1 ("presencial") é termo de lista e anúncio, não de página (O1, pontos 1 a 4 do fim). "De pequenos animais" e "cães e gatos" não entram (a ficha tem neoplasias em animais exóticos). E14: "tem reconhecimento pelo Ministério da Educação", "referência nacional" e "garante" ficam fora (OC1). **Conferência módulo a módulo:** 8 presenciais (5, 7, 9, 12, 15, 17, 20 e 24), 16 online; a prova 1 cita 7 deles pelo tema e leva "entre eles"; o 24 tem item "Para definir" e não é citado; o 15 é "radioterapia com visita" e não é descrito como prática; os módulos 21 e 22 repetem conteúdo [CONFIRMAR NO CATÁLOGO]. A ficha traz "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas", o aviso de passagem e hotel e o reembolso. Nível de entrada [CONFIRMAR NO CATÁLOGO]. Disputa com 654 (E20): pedido S4 da O1. **Alternativa real [SUPOSIÇÃO, contexto da linha e O1]:** encaminhar o paciente oncológico a um colega, fazer o curso de eletroquimioterapia ou o mini curso de oncologia na clínica (Cursos Livres 560 e 465, só por link), ir a congressos ou adiar a especialização.
 
 ### 7.1 Mensagem central (texto para a página)
 
-> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos na prática presencial, com a teoria online.
+> Oncologia veterinária do diagnóstico ao tratamento: quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos no presencial, com a maior parte dos módulos online.
 
 ### 7.2 Três provas de apoio (texto para a página; fonte: ficha de 68628)
 
@@ -242,7 +242,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 | Objeção [SUPOSIÇÃO, H-A10 e O1] | Resposta |
 |---|---|
 | "Não tenho estrutura para quimioterapia na clínica." (68628-Q2) | "A quimioterapia antineoplásica é trabalhada no presencial junto com a biossegurança, e o curso trata também imunoterapia, terapia alvo, eletroquimioterapia e crioterapia." Sem promessa de montar serviço. |
-| "Como funciona o semipresencial? Tenho de ir sempre?" (68628-Q1) | "A maior parte dos módulos é online. O presencial inclui, entre outros, os módulos de tratamento, módulos de neoplasias com discussão de casos e a visita de radioterapia, com o mês de cada um no cronograma." |
+| "Como funciona o semipresencial? Tenho de ir sempre?" (68628-Q1) | "A maior parte dos módulos é online. O presencial inclui, entre outros, os módulos de tratamento, módulos de neoplasias com discussão de casos e a visita de radioterapia, com o mês marcado no cronograma." |
 | "Atendo clínica geral. Oncologia é para mim?" (68628-Q5) | "O público da turma são médicas e médicos veterinários. O curso começa pela introdução à oncologia e pela biologia do câncer antes de chegar ao diagnóstico e ao tratamento." Nível de entrada [CONFIRMAR NO CATÁLOGO], fora do texto. |
 
 **Fora da página:** "Pós ou curso de eletroquimioterapia?" vai ao guia A10 (68628-Q3), sem texto nesta casa. "Qual é a turma?": sem número (P5). Entrada depois do início pela regra 5.
@@ -251,7 +251,7 @@ Notas internas: responde 679-Q5 da O1. Não é par da E11; uso opcional, só no 
 
 - **Chamada principal:** "Veja o cronograma, do diagnóstico do câncer à discussão de casos."
 - **Variação 1 (consciente do problema):** "Massa cutânea, linfoma, mastocitoma: o caso oncológico pede diagnóstico antes do protocolo."
-- **Variação 2 (consciente da solução):** "Teoria online e módulos presenciais de quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos."
+- **Variação 2 (consciente da solução):** "Módulos online e módulos presenciais de quimioterapia, eletroquimioterapia, cirurgia oncológica e discussão de casos."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. Ficou alguma dúvida? Fale com o time."
 
 ---
@@ -376,6 +376,7 @@ Nenhuma mensagem foi escrita para 662. Espera total até a Ufape responder OU18 
 | "De cães e gatos" só no nome de 68632 | Sim |
 | Listas de presenciais incompletas com "entre eles" ou "entre outros" (E4) | Sim em 366, 68628, 68636 e 68609; 679, 68635 e 68617 com lista completa conferida módulo a módulo |
 | Nenhum "todos os presenciais são de um tipo" sem conferir (E5) | Sim; 366 (módulos 3 e 20 à parte), 68609 (20 não descrito, castração à parte), 68628 (24 não citado, radioterapia como visita) |
+| Nenhum "toda a teoria é online" onde há presencial com parte teórica | Sim; "maior parte dos módulos é online" ou "módulos online"; 68636 usa a legenda da ficha |
 | 68628 nunca descrita como presencial; 68617 sem "muita prática" | Sim |
 | Frase "não transmitidas" só onde a ficha traz | Sim; fora de 68636 e 68609 |
 | Entrada depois do início só como dado e resposta do time (OU14); 68632 sem nada (regra 8, E22) | Sim |
@@ -393,7 +394,7 @@ Nenhuma mensagem foi escrita para 662. Espera total até a Ufape responder OU18 
 ## Fatos (com fonte)
 
 - Nome, local, modalidade, carga horária, turma, início e status "aberto" das 8 turmas: contexto/catalogo-de-cursos.md, seção 2, linhas 79 a 87. Nenhum desses valores está no texto para a página.
-- 679: 24 módulos, 3 presenciais (3 prática laboratorial; 13 zoonoses com coleta para exame de raiva; 22 controle de infecção hospitalar com prática), temas por agente e por sistema, objetivo de prevenção e controle de zoonoses e de diagnóstico e tratamento de doenças infecciosas e parasitárias, aulas presenciais e práticas não transmitidas, sem reembolso de inscrição e sem aviso de passagem e hotel: ficha de 679.
+- 679: 24 módulos, 3 presenciais (3 prática laboratorial; 13 zoonoses com coleta para exame de raiva e parte teórica; 22 controle de infecção hospitalar com prática), temas por agente e por sistema, objetivo de prevenção e controle de zoonoses e de diagnóstico e tratamento de doenças infecciosas e parasitárias, aulas presenciais e práticas não transmitidas, sem reembolso de inscrição e sem aviso de passagem e hotel: ficha de 679.
 - 68632: modalidade presencial, objetivo de conhecimentos teórico-práticos, simulações de habilidades nas aulas práticas, temas por sistema, módulos finais de gestão clínica, perioperatório, felinos, trauma, ética, más notícias e luto, aviso de passagem e hotel, reembolso, sem coordenação: ficha de 68632 e catálogo.
 - 68635: 9 presenciais (3, 6, 10, 14, 18, 21, 24, 25 e 28) com os temas citados, 19 online, temas por sistema e de emergência, frase de duas certificações: ficha de 68635.
 - 366: 9 presenciais (3, 6, 9, 12, 15, 18, 20, 21 e 24), o 3 e o 20 sem a palavra "prática", caminho de avaliação antes do protocolo, animais de grande e pequeno porte, coordenação "UFAPE", resolução de conselho, data em divergência: ficha de 366 e catálogo.
