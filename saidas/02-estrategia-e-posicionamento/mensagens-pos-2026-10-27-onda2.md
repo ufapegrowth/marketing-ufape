@@ -128,7 +128,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 ### 4.2 Três provas de apoio (texto para a página; fonte: ficha de 289)
 
-1. **Ecocardiograma na prática.** Os módulos presenciais são de prática hands-on de ecocardiograma, e o curso trata a interpretação crítica e a elaboração de laudos ecocardiográficos na rotina. *(Fonte: cronograma, módulos PRESENCIAL e módulo de laudos.)*
+1. **Ecocardiograma na prática.** A maior parte dos módulos presenciais é de prática hands-on de ecocardiograma, e o curso trata a interpretação crítica e a elaboração de laudos ecocardiográficos na rotina. *(Fonte: cronograma, módulos PRESENCIAL e módulo de laudos.)*
 2. **Do exame físico à emergência.** Anatomia, fisiologia e semiologia circulatória; farmacologia cardiovascular e insuficiência cardíaca congestiva; radiografia; eletrocardiograma, taquiarritmias e bradiarritmias; ecocardiografia com Doppler e hemodinâmica; cardiopatias adquiridas de cães e de felinos; cardiopatias congênitas; hipertensão arterial sistêmica; síndrome cardiorrenal; cirurgia e intervencionismo; anestesia do paciente cardiopata; emergências cardíacas. *(Fonte: cronograma.)*
 3. **Presencial só onde há prática.** Todas as aulas teóricas são acompanhadas a distância; apenas os módulos com aula prática são obrigatoriamente presenciais, e essas aulas não são transmitidas. *(Fonte: texto de apresentação e observação da ficha.)*
 
@@ -144,7 +144,7 @@ Valem como base do `faq` e da frase de apoio de `investimento` em todas as turma
 
 - **Chamada principal:** "Veja o cronograma, do eletrocardiograma ao ecocardiograma na prática."
 - **Variação 1 (consciente do problema):** "Fechar o caso cardiológico pede eletrocardiograma, imagem e raciocínio clínico juntos."
-- **Variação 2 (consciente da solução):** "Teoria a distância e ecocardiograma hands-on nos módulos presenciais."
+- **Variação 2 (consciente da solução):** "Teoria a distância e ecocardiograma hands-on na maior parte dos módulos presenciais."
 - **Variação 3 (pronto para decidir):** "Cronograma, quem ensina e condições estão nesta página. O time de vendas tira suas dúvidas." (O telefone de vendas da praça entra como dado ou no formulário, não no texto.)
 
 ---
@@ -268,7 +268,7 @@ As duas turmas têm o mesmo segmento (A11) e começam com uma semana de diferen�
 - Nome, local, modalidade, carga horária, turma, início e status "aberto" das 5 turmas: contexto/catalogo-de-cursos.md, seção 2. Nenhum desses valores está no texto para a página.
 - 657: transição de "anestesias de protocolo" para "anestesia de precisão", fisiologia aplicada, decisão crítica e gestão de riscos; objetivo de conduzir pacientes de risco moderado a alto e antecipar crises; módulos presenciais de bloqueios locorregionais, hemodinâmica avançada e ventilação mecânica, reanimação com avaliação viscoelástica, TIVA e TCI, cirurgia cardiotorácica e pets não convencionais; aulas práticas não transmitidas; público-alvo "exclusiva para médicos veterinários anestesistas já atuantes": ficha de 657.
 - 341: temas por sistema, de abordagem clínica a odontologia equina; treinamentos práticos e demonstrativos na maioria dos temas; teoria online e práticas presenciais aos fins de semana; estágio obrigatório e atividades complementares; módulo de medicina baseada em evidências; avaliação com provas práticas, seminários e TCC opcional; segundo local em Indaiatuba; texto de reembolso truncado: ficha de 341.
-- 289: módulos presenciais de prática hands-on de ecocardiograma; laudos ecocardiográficos; percurso da anatomia às emergências cardíacas; teoria acompanhada a distância e só módulos práticos obrigatoriamente presenciais; público "Médicos Veterinários"; bloco "PROVA DE BOLSA": ficha de 289.
+- 289: 4 dos 6 módulos presenciais de prática hands-on de ecocardiograma (correção do orquestrador em 27/10/2026, ficha de 289: módulos 9, 13, 16 e 19); laudos ecocardiográficos; percurso da anatomia às emergências cardíacas; teoria acompanhada a distância e só módulos práticos obrigatoriamente presenciais; público "Médicos Veterinários"; bloco "PROVA DE BOLSA": ficha de 289.
 - 68615: objetivo de trabalhar em laboratórios clínicos, correlação clínico-laboratorial, estruturar e administrar um laboratório, equipamentos, metodologias e coleta; módulos de pré-analítico a controle de qualidade e biossegurança; módulos presenciais de hemograma, hemoparasitoses, mielograma, hemocomponentes, bioquímica e urina, citologia com confecção de lâminas, líquidos cavitários e microbiologia; ficha sem o aviso de passagem e hotel: ficha de 68615.
 - 333: 6 módulos presenciais (1, 5, 10, 12, 13 e 20), dos quais 3 (5, 10 e 20) de leitura de lâminas e discussão de casos; módulo inicial presencial de manejo de materiais biológicos, coloração e microscopia; percurso por lesão e sistema; coordenação "UFAPE" e uma professora listada: ficha de 333, confirmado pelas correções C1 e C2 do plano em versão 2.
 - Reembolso dos valores de inscrição devido se a turma não for confirmada: fichas de 657, 289, 68615 e 333.
