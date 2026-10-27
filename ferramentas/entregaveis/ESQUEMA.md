@@ -27,3 +27,26 @@ Regras:
 - Nenhuma data inventada. Peça sem data no arquivo entra com data null e "quando" preenchido.
 - Uma peça repetida em canais diferentes no mesmo dia (o mesmo post no Instagram e no Facebook) pode ser uma peça só com o canal principal e a lista de canais em "titulo" ou repetida; prefira uma por canal quando o arquivo separar.
 - Use a versão atual e aprovada de cada arquivo. Arquivos marcados no diário como substituídos ou "rascunho a revisar" não entram.
+
+## Versão 2: texto da peça para leitura (campos novos)
+
+Toda peça de tipo post, carrossel, reels, story, card_docente, video, whatsapp, email, pagina ou anuncio ganha dois campos. As outras (campanha_*, conferencia, aprovacao, relatorio, inicio_turma, outro) ficam com conteudo null e ganham só titulo_limpo.
+
+| Campo | Tipo | Regra |
+|---|---|---|
+| titulo_limpo | texto | o título que uma pessoa da diretoria entende, sem código interno (sem "657-F1", "W1", "OB1", "AD-A1-1", "G1-AT2"): o gancho, o assunto ou a primeira linha da peça; para operação, uma frase simples ("Campanha no Meta entra na fase de conversão"). Até 100 caracteres |
+| conteudo | objeto ou null | o texto que o público vê, copiado do arquivo, palavra por palavra |
+
+Campos de conteudo:
+
+| Campo | Tipo | O que vai |
+|---|---|---|
+| destaque | lista de {rotulo, texto} | o que abre a peça: "Gancho", "Primeira linha", "Assunto", "Pré-cabeçalho", "Título". Só a versão principal (A); as outras vão em variantes |
+| arte | lista de texto | o texto de cada card, tela ou slide da arte, na ordem ("Card 1: ..."); no card de docente, o nome e a função ou o tema, como no arquivo |
+| corpo | lista de texto | os parágrafos que o público lê: legenda, mensagem de WhatsApp, corpo do e-mail, texto do anúncio, blocos principais da página. Um parágrafo por item. Mantenha [nome], [LINK] e marcas como [T] e [CONFIRMAR] |
+| roteiro | lista de texto | as cenas ou falas do vídeo, na ordem |
+| chamada | texto ou null | o texto do botão ou da chamada para ação |
+| variantes | lista de {rotulo, texto} | versões de teste e reservas ("Primeira linha B (teste)", "Assunto B") |
+| observacao | texto ou null | uma frase simples sobre como sai, se o arquivo disser (ex. "O Facebook reaproveita no mesmo dia") |
+
+Regras: copiar, nunca reescrever nem resumir o texto público. Nada de nota de produção (UTM, contagem de caracteres, conferências, template) dentro de destaque, arte, corpo ou roteiro. Se o arquivo não tiver texto público para a peça (por exemplo, toque ainda sem texto), conteudo fica null e titulo_limpo diz isso ("Mensagem ainda sem texto").
