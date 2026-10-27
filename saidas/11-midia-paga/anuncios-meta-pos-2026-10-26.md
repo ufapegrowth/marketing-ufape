@@ -9,7 +9,7 @@
 - **Entradas lidas:**
   - /home/user/marketing-ufape/CLAUDE.md
   - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 17; nesta versão pesam 8, 10, 11, 12, 14, 15, 16 e 17)
-  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 7, 8 e 12; D11 e D12; seção 13 não muda nada aqui, porque trata do teto de mensagens)
+  - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 7, 8, 12 e 13; D11 e D12 mandam nos nomes e nas UTM; a seção 13, teto de mensagens, não altera a mídia paga)
   - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (versão 5, seções 12.1 a 12.8)
   - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (versão 4: seções 2, 3, 4, 6, 7 e 8; entrada principal)
   - /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-turmas-2026-10-26.md (versão 3, aprovada: peças c1 a c3, r1 e r2 das 14 turmas, nomes, URL e UTM)
@@ -41,7 +41,7 @@
 | Verba | R$ 2.000,00 por turma no ciclo, somando Meta e Google, da subida até o corte da 1ª mensalidade. Nada passa de uma turma para outra sem nova decisão do CEO. Pagamento só com aprovação humana | decisão 15; estrategia 3.1; gestor 12.5 |
 | Parte da Meta | Março R$ 1.295,00 por turma; abril R$ 1.325,00 por turma. Google: R$ 705,00 e R$ 675,00 (anuncios-google) | gestor 12.5; estrategia 3.3 e 3.4 |
 | Metas de custo (escritas antes de subir) | Custo máximo por matrícula R$ 133,33. CPL máximo R$ 4,00 (conservador, meta de corte), R$ 10,00 (base), R$ 18,00 (otimista). Custo máximo por inscrição R$ 80,00, R$ 100,00 e R$ 120,00. Taxas de lead para inscrição e de inscrição para matrícula são [SUPOSIÇÃO ilustrativa] do gestor | estrategia 2.2; gestor 12.3 |
-| Preço e inscrição | Nenhum texto, título, descrição ou arte mostra preço (parcela, total ou matrícula) nem o valor da inscrição (R$ 260,00, R$ 250,00 ou R$ 350,00) até a resposta da U11. O investimento completo fica na página da turma. Só o remarketing usa a frase "Veja parcelas, total e matrícula na página da turma", nas 4 condições do AP7 | decisão 16; criativos 1.1 e 1.2 |
+| Preço e inscrição | Nenhum texto, título, descrição ou arte mostra preço (parcela, total, matrícula) nem o valor da inscrição (R$ 260,00, R$ 250,00 ou R$ 350,00) até a resposta da U11. O investimento completo fica na página da turma. Só o remarketing usa a frase "Veja parcelas, total e matrícula na página da turma", nas 4 condições do AP7 | decisão 16; criativos 1.1 e 1.2 |
 | Fora desta rodada | Provas de bolsa, bolsa, pós-prova, Cursos Livres, YouTube, LinkedIn, TikTok, WhatsApp como destino, Performance Max e Display | decisão 14; gestor 12.6 |
 | Certificação e MEC | Nenhuma frase de certificação, nenhuma menção ao MEC, nenhuma nota | conformidade; criativos 1.1 |
 | Urgência | Nenhum "últimas vagas", "vagas limitadas", contador ou "termina hoje". O único fato de tempo é a data de início da planilha | conformidade; criativos 1.1 |
@@ -107,7 +107,7 @@ AAAAMM é o mês da subida (D12): 202612 em março e 202701 em abril. Turma que 
 | Abril | 366 Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária | São Paulo | pos_366-fisio_meta_lead_amplo18-sp_202701 | pos_366-fisio_meta_lead_rmk30d_202701 |
 | Abril | 662 Pós-graduação em Ortopedia Veterinária | São Paulo | pos_662-orto_meta_lead_amplo18-sp_202701 | pos_662-orto_meta_lead_rmk30d_202701 |
 
-Conjunto de cada campanha: nome da campanha + `__amplo18-sp`, `__amplo18-go` ou `__rmk30d`. Nomes de turma e praça: catálogo, seção 2. 68628 e 68617 sem número de turma e 662 sem número de turma em qualquer peça (P5).
+Conjunto de cada campanha: nome da campanha + `__amplo18-sp`, `__amplo18-go` ou `__rmk30d`. Nomes de turma e praça: catálogo, seção 2. 68628, 68617 e 662 sem número de turma em qualquer peça (P5).
 
 ### 3.3 Datas, corte e subida
 
@@ -531,7 +531,7 @@ Nenhuma destas turmas sobe, nem tem campanha montada para publicação, antes da
 Outras condições que valem para toda turma antes de subir, sem trava própria:
 
 - Página de destino com data, campus e modalidade iguais ao anúncio (68632 é presencial; nunca "semipresencial"). Algumas páginas ainda dizem turma mínima de 20: nenhum anúncio cita o número (criativos v3), e a correção da página é o pedido A12 do cmo.
-- Páginas com frase ligada ao MEC (12 de 14 ativas, segundo a análise): o anúncio não a repete, e a página de destino é sinalizada no item "página de destino" da conformidade (pedido A7 do cmo). Subida só com decisão registrada da pessoa do marketing ou com a página corrigida [CONFIRMAR].
+- Páginas com frase ligada ao MEC (12 de 14 campanhas ativas e 17 de 18 pausadas levam página com a frase, segundo a análise): o anúncio não a repete, e a página de destino é sinalizada no item "página de destino" da conformidade (pedido A7 do cmo). Subida só com decisão registrada da pessoa do marketing ou com a página corrigida [CONFIRMAR].
 - Política de privacidade e finalidade do formulário visíveis na página da turma (conformidade) [CONFIRMAR em cada página].
 - Frase de remarketing "Veja parcelas, total e matrícula na página da turma": o humano confere, no dia da subida, que parcelas, total e matrícula estão visíveis na página (condição 2 do AP7). Se a U11 mudar o rótulo "Matrícula" para "Inscrição", a frase muda junto, em nova versão do criativos (condição 3).
 - As campanhas antigas pausadas das turmas de março e abril (657, 68615, 341, 333, 68635, 366, 68617 e a de 679) seguem **pausadas**, sem renomear e sem excluir; nenhuma é reativada. As novas sobem no padrão, para não herdar público, verba e nome antigos [SUPOSIÇÃO de desenho, mantida da versão 2].
@@ -558,7 +558,7 @@ Copiados da estratégia v4 (2.5, 3.7 e 6.3), sem número novo.
 | Cadência de criativo novo | Aquecimento sem julgar conceito; manutenção sem criativo novo; conversão julga | nenhum anúncio novo sem pedido |
 | Teto da turma | Gasto acumulado do ciclo (Meta e Google) chega a R$ 2.000,00, ou dia seguinte ao corte | pedido de pausa de todas as campanhas da turma (EM16) |
 
-Revisão toda segunda-feira (feriado passa para o dia útil seguinte, D15): 03/11, 26/01 (25/01 é feriado municipal em São Paulo) e 10/02 (08 e 09/02 são Carnaval) estão na seção 6.2 da estratégia. Gasto, leads, inscrições pagas e 1ª mensalidade somados por turma vêm da analise-de-midia.
+Revisão toda segunda-feira (feriado passa para o dia útil seguinte, D15): as datas de 03/11, 26/01 (25/01 é feriado municipal em São Paulo) e 10/02 (08 e 09/02 são Carnaval) estão na seção 6.2 da estratégia. Gasto, leads, inscrições pagas e 1ª mensalidade somados por turma vêm da analise-de-midia.
 
 ---
 
@@ -617,7 +617,7 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos v�
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Prazo |
 |---|---|---|---|---|---|---|
-| AMP13 | Montar e subir a estrutura de março: 10 campanhas Meta (2 por turma em 68615, 289, 333, 657 e 341), 1 conjunto em cada, orçamento na campanha, evento lead, nomes e parâmetros de URL das seções 3 e 6 (chave com área curta, [CONFIRMAR com o cmo que cumpre o D12]). 657 e 341 só com PP7 e U10 | Meta e verba são por turma; a manutenção desliga só o frio | Meta R$ 1.295,00 por turma (frio R$ 787,00, remarketing R$ 508,00), R$ 6.475,00 nas 5, dentro dos R$ 2.000,00 por turma | Leitura por turma; 28 leads por semana a R$ 10,00 no frio das 68615, 289 e 333 no aquecimento (seção 5.3), sem promessa de resultado | Pausar as 10 campanhas com exportação (nunca excluir); reativar as antigas só com nova aprovação | 30/11; subida em 07/12 (657 e 341 em 14/12) |
+| AMP13 | Montar e subir a estrutura de março: 10 campanhas Meta (2 por turma em 68615, 289, 333, 657 e 341), 1 conjunto em cada, orçamento na campanha, evento lead, nomes e parâmetros de URL das seções 3 e 6 (chave com área curta, [CONFIRMAR com o cmo que cumpre o D12]). 657 e 341 só com PP7 e U10 | Meta e verba são por turma; a manutenção desliga só o frio | Meta R$ 1.295,00 por turma (frio R$ 787,00, remarketing R$ 508,00), R$ 6.475,00 nas 5, dentro dos R$ 2.000,00 por turma | Leitura por turma; no aquecimento, a verba do frio compra 14 leads por semana a R$ 10,00 em 68615, 289 e 333 e 28 em 657 e 341 (seção 5.3), conta do plano, sem promessa de resultado | Pausar as 10 campanhas com exportação (nunca excluir); reativar as antigas só com nova aprovação | 30/11; subida em 07/12 (657 e 341 em 14/12) |
 | AMP14 | Montar e subir a estrutura de abril: 18 campanhas Meta (2 por turma nas 9 turmas), mesmo desenho, sem manutenção. 679, 366 e 662 (lote 2), 68636 e 68617 só com as travas da seção 8 liberadas | Idem | Meta R$ 1.325,00 por turma (frio R$ 865,00, remarketing R$ 460,00), R$ 11.925,00 nas 9, dentro dos R$ 2.000,00 por turma | Leitura por turma a partir de 06/01 | Pausar as 18 campanhas com exportação; reativar as antigas só com nova aprovação | 30/12; subida em 06/01 |
 | AMP15 | Trocas de diária por humano, com os valores da seção 5.2: 21/12 (frio pausa; remarketing de manutenção), 04/01 (frio volta e conversão de março), 25/01 (conversão de abril) | Verba e mensagem de cada fase escritas antes de começar | Sem aumento do total: soma das fases = total da turma | Cada fase gasta o que o plano previu | Voltar à diária da fase anterior (pode reiniciar o aprendizado [SUPOSIÇÃO]) | datas da seção 5.5 |
 | AMP16 | Pausa das duas campanhas Meta de cada turma no dia seguinte ao corte, ou antes se o gasto do ciclo chegar a R$ 2.000,00 (EM16) | Fim do ciclo e teto do CEO | Sem gasto novo | Nenhum gasto depois do corte nem acima da verba | Reativar só com verba nova aprovada | 12/02, 19/02, 26/02, 05/03, 12/03, 19/03 e 26/03 |
@@ -674,10 +674,10 @@ pos_provas20261127_meta_compra_misto18_202611   (objetivo Vendas; orçamento no 
 │     sobe só com a página de Goiânia dizendo prova online e campus Goiânia (AMP5)
 └── pos_provas20261127_meta_compra_misto18_202611__rmk30d
       c4-regra_<área>_car_pergunta_v1 (carrossel "Como funciona")
-      estático de remarketing da área (seção 13.6, C6)
+      estático de remarketing da área (seção 13.6.6, C6)
 ```
 
-Em 10/11 (fase 2) entram, por pedido, C3 reescrito (seção 13.6, só com U2 respondido), as iterações do vencedor (uma variável por vez) e as áreas de E5 com destino confirmado. C5 fica travado até A-C2.
+Em 10/11 (fase 2) entram, por pedido, C3 reescrito (seção 13.6.4, só com U2 respondido), as iterações do vencedor (uma variável por vez) e as áreas de E5 com destino confirmado. C5 fica travado até A-C2.
 
 | Campo | Valor |
 |---|---|
@@ -699,7 +699,7 @@ Em 10/11 (fase 2) entram, por pedido, C3 reescrito (seção 13.6, só com U2 res
 pos_provas20261127-matricula_meta_compra_rmk-prova_<AAAAMM do resultado>   (Vendas; orçamento na campanha)
 └── um conjunto por turma de destino confirmada: ...__rmk-prova-<código da turma>
       c5-turma_<área>_e11_resultado_v1 (só depois de A-C2)
-      <código da turma>-c2-investimento_e11_numero_v1 (seção 5.8 da versão 2, que continha preço e não foi mantida)
+      <código da turma>-c2-investimento_e11_numero_v1 (texto da seção 5.8 da versão 2, que continha preço e não foi mantido nesta versão)
 ```
 
 Observação de nome: a chave `pos_provas20261127-matricula` é a da 1.13 (seção 4.6). D12 não prevê chave para o pós-prova; proponho mantê-la para separar a leitura da inscrição da leitura da matrícula (AMP6).
@@ -989,7 +989,7 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 
 **Versão 3 (27/10/2026)**, por encomenda da estrategia-de-midia-pos v4 (seção 7), do gestor-de-midia-pos v5 (12.8) e da decisão 14 do CEO:
 
-- **Provas e pós-prova suspensos (decisão 14):** a montagem das provas de bolsa (P1) e do pós-prova (P2) saiu do corpo do arquivo e ficou na seção 13, marcada "suspenso (decisão 14)", com o texto da versão 2 sem alteração (regras, mapa, verba em percentual de VN, anúncios C1 a C6, UTM, protocolo, itens de checklist e pedidos AMP1 a AMP6, AMP10 e AMP12).
+- **Provas e pós-prova suspensos (decisão 14):** a montagem das provas de bolsa (P1) e do pós-prova (P2) saiu do corpo do arquivo e ficou na seção 13, marcada "suspenso (decisão 14)", com o texto da versão 2 sem alteração (regras, mapa, verba em percentual de VN, anúncios C1 a C6, UTM, protocolo, itens de checklist e pedidos AMP1 a AMP6, AMP10 e AMP12). Única adaptação: duas remissões internas de seção renumeradas e uma observação sobre o texto de preço do pós-prova (seção 13.4).
 - **Corpo do arquivo agora só de turmas:** 2 campanhas Meta por turma (frio `amplo18` da praça e remarketing `rmk30d`), 1 conjunto em cada, orçamento na campanha, para as 14 turmas de março e abril.
 - **Verba em reais:** saem os percentuais de VN e a reserva P6; entram R$ 1.295,00 (março) e R$ 1.325,00 (abril) por turma na Meta, com diária por fase e por semana, trocas em 21/12, 04/01 e 25/01, leads por semana no CPL máximo, limite de volume da tabela 3.6, mínimo diário [CONFIRMAR no gerenciador] e regra EM14 com os valores de cada caso (seção 5).
 - **Anúncios ligados às peças aprovadas do criativos v3:** 3 no frio, prontos para o rodízio, e 2 no remarketing, com as 2 artes 9:16 de cada turma anexas; 70 anúncios, com nomes e parâmetros de URL completos (seção 6). Saem os textos de anúncio da versão 2 (seções 5.8 e 5.9), que mostravam preço e valor de matrícula, contra as decisões 15 e 16 e a U11; o texto de cada anúncio é o do criativos v3. A chave da campanha passa a ter a área curta (`pos_<código>-<área>`), como na estratégia v4 e no criativos v3; a versão 2 usava só o código (nota na seção 1).
@@ -1015,7 +1015,7 @@ Esta versão não escreve texto de anúncio: os textos são os do criativos v3, 
 - Peças aprovadas, nomes, URL e UTM dos 70 anúncios; frase "Veja parcelas, total e matrícula na página da turma" só no remarketing, com 4 condições; 662 só com nome, campus e data, c3 e r1 sem arte (criativos-de-anuncio-pos-turmas v3).
 - Início, praça, turma, modalidade e status das 14 turmas; 68636 com data "só no site"; 670 encerrada (catálogo, seção 2, 26/10/2026).
 - Situação atual: 289 com campanha ativa (estático, "com 5 ângulos"); 662 com campanha ativa (estático e vídeo, "sem 5 ângulos"); 657, 68615, 341, 333, 68635, 366 e 68617 com campanha pausada; 68628, 68636, 68632 e 68609 sem campanha (docs/visao-de-campanhas-2026-10-26.md).
-- 12 de 14 turmas ativas e 17 de 18 pausadas levam página com frase ligada ao MEC (análise de mídia da Pós, N4, citada pela estrategia 4.1 e pela versão 2).
+- 12 de 14 campanhas ativas e 17 de 18 pausadas levam página com frase ligada ao MEC (análise de mídia da Pós, N4, citada pela estrategia 4.1 e pela versão 2).
 - Contatos oficiais com horário informado (secretaria, vendas São Paulo e vendas Goiânia) (contexto/ufape-geral.md).
 - Calendário: 07/12, 14/12, 04/01 e 25/01/2027 são segundas-feiras; 06/01/2027 é quarta-feira; 25/01 é feriado municipal em São Paulo; 08 e 09/02/2027 são Carnaval; cortes caem em quintas-feiras (estrategia-de-midia-pos v4, lista de fatos).
 
