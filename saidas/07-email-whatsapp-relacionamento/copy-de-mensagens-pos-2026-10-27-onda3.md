@@ -16,7 +16,7 @@
 ## 0. Resumo e regras aplicadas
 
 1. **Objetivo único.** Antes do início: concluir a matrícula na turma, pela página dela. Depois do início: falar com o time para entender como entrar (resposta "TURMA"). Uma mensagem, um objetivo, uma chamada para ação.
-2. **Kit por turma:** 2 e-mails (E1, E2) e 4 WhatsApp, mais 1 WhatsApp de acréscimo. Em 68628, 68617, 68636 e 68609 o 4º do kit é o pós-início e o acréscimo é o pré-início. Em 679, 68635 e 366 o 4º do kit é o pré-início e o acréscimo é o pós-início, **condicionado ao dia do 3º módulo** (E18). Em 68632 os 4 WhatsApp são todos pré-início e o pós-início fica reservado **sem texto** (regra 8, E22). Total de textos: 7 por turma, 6 em 68632 (2 e-mails e 4 WhatsApp), 49 no lote A (16 e-mails e 33 WhatsApp).
+2. **Kit por turma:** 2 e-mails (E1, E2) e 4 WhatsApp, mais 1 WhatsApp de acréscimo. Em 68628, 68617, 68636 e 68609 o 4º do kit é o pós-início e o acréscimo é o pré-início. Em 679, 68635 e 366 o 4º do kit é o pré-início e o acréscimo é o pós-início, **condicionado ao dia do 3º módulo** (E18). Em 68632 os 4 WhatsApp são todos pré-início e o pós-início fica reservado **sem texto** (regra 8, E22). Total de textos: 7 por turma, 6 em 68632 (2 e-mails e 4 WhatsApp), 55 no lote A (16 e-mails e 39 WhatsApp).
 3. **Regra completa depois do início (decisão 18):** "A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." Sempre em bloco, sem destaque, sem "corra", "só até", contador ou "últimas vagas". Nenhuma promessa de reposição, gravação ou aula extra [CONFIRMAR OU3]. OU6 pode ajustar a frase.
 4. **Antes do início**, a data do 3º módulo não aparece (E6), nem como tema, nem o mês (E18 em 679, 68635 e 366). Em 68628, 68617, 68636 e 68609 o 3º módulo é online e a data também fica fora das mensagens pré-início.
 5. **Regra 8 em 68632:** nada sobre entrada depois do início; o pré-início de 05/04 sai sem "matrícula aberta até o 3º módulo"; a resposta "Ainda dá tempo?" diz só a data de início e o link (E22). O toque de 04/05 fica reservado, sem texto, até OU3.
@@ -117,23 +117,23 @@ Coordenação na ficha: Ricardo L. S. Gonzalez ("Mv. Ricardo Lopes" pode ser o m
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 401; B, 398. **Follow-up:** W2 de 22/02. **Opt-in:** sim, filtro do CRM. **Sair:** "responda SAIR" e botão "Sair".
+- **Total (sem o link):** A, 398; B, 396. **Follow-up:** W2 de 22/02. **Opt-in:** sim, filtro do CRM. **Sair:** "responda SAIR" e botão "Sair".
 
 ### 1.3 WhatsApp W2 (seg 22/02, 10h; pos_679_kit_w2; utm_content=w2-679). Objeção: prática ou tudo online.
 
 - **Primeira linha A (teste), 65:** Olá, [nome]. Vai ter prática ou é tudo online? Veja o cronograma.
 - **Primeira linha B (teste), 78:** Olá, [nome]. Prática presencial de laboratório e de zoonoses, com mês marcado.
 - Reservas: "Olá, [nome]. Dá para planejar a agenda da clínica?"; "Olá, [nome]. Quando são os módulos presenciais de Infectologia?"; "Olá, [nome]. A maior parte dos módulos é online."
-- **Corpo (337 caracteres antes do link):**
+- **Corpo (324 caracteres antes do link):**
 
-> Na Pós-graduação em Infectologia Veterinária (São Paulo), a maior parte dos módulos é online. Os módulos presenciais trazem prática de laboratório: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial.
+> Na Pós-graduação em Infectologia Veterinária (São Paulo), a maior parte dos módulos é online. Os módulos presenciais trazem prática: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial.
 >
 > Parcelas, total e matrícula na página da turma:
 > [LINK]
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 505; B, 517. **Follow-up:** E2 de 24/02.
+- **Total (sem o link):** A, 490; B, 503. **Follow-up:** E2 de 24/02.
 
 ### 1.4 E-mail E2 (qua 24/02, 9h; utm_content=e2-679). Mês a mês e condições.
 
@@ -149,7 +149,7 @@ Coordenação na ficha: Ricardo L. S. Gonzalez ("Mv. Ricardo Lopes" pode ser o m
 >
 > Esta é a turma IV da Pós-graduação em Infectologia Veterinária, em São Paulo, com início em abril de 2027. O mês a mês, pelo cronograma da página:
 > - no começo, online: introdução à infectologia clínica, imunologia e diagnóstico de doenças infecciosas;
-> - módulos presenciais, entre eles a prática de laboratório (coleta, amostras, armazenamento e envio), as zoonoses (abril de 2028, com sábado teórico e domingo de prática laboratorial de coleta para exame de raiva) e o controle de infecção hospitalar (janeiro de 2029, com prática no domingo);
+> - módulos presenciais, entre eles a prática de laboratório (coleta de amostras, armazenamento e envio), as zoonoses (abril de 2028, com sábado teórico e domingo de prática laboratorial de coleta para exame de raiva) e o controle de infecção hospitalar (janeiro de 2029, com prática no domingo);
 > - online, agente por agente: helmintos e protozoários, virologia, micologia e bacteriologia (de julho a outubro de 2027);
 > - online, doenças infecciosas na medicina felina, antibioticoterapia, sepse e infecções intra-abdominais (de novembro de 2027 a março de 2028);
 > - online, doenças infecciosas por sistema, da hematologia à ortopedia (de maio a dezembro de 2028);
@@ -181,14 +181,14 @@ Coordenação na ficha: Ricardo L. S. Gonzalez ("Mv. Ricardo Lopes" pode ser o m
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 411; B, 410.
+- **Total (sem o link):** A, 409; B, 407.
 
 ### 1.6 WhatsApp pré-início, 4º do kit (seg 29/03, 10h; pos_679_kit_pr; utm_content=pr-679)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 57:** Olá, [nome]. A Infectologia em São Paulo começa em abril.
 - Reservas: "Olá, [nome]. Em abril começa a turma IV de Infectologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time antes do início?"
-- **Corpo (188 caracteres antes do link):**
+- **Corpo (189 caracteres antes do link):**
 
 > A Pós-graduação em Infectologia Veterinária (São Paulo) começa em abril de 2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -197,20 +197,20 @@ Coordenação na ficha: Ricardo L. S. Gonzalez ("Mv. Ricardo Lopes" pode ser o m
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 365; B, 350. Com OU19 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
+- **Total (sem o link):** A, 363; B, 347. Com OU19 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
 
 ### 1.7 WhatsApp pós-início, acréscimo (seg 26/04, 10h; pos_679_kit_pi; utm_content=pi-679). Regra completa, **só com o dia do 3º módulo e com OU19**.
 
 - **Primeira linha A (teste), 59:** Olá, [nome]. Entender como entrar na turma de Infectologia?
 - **Primeira linha B (teste), 61:** Olá, [nome]. Infectologia em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma IV?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (359 caracteres, com a data do 3º módulo de 10 caracteres):**
+- **Corpo (388 caracteres, com a data do 3º módulo de 10 caracteres):**
 
 > A Pós-graduação em Infectologia Veterinária (São Paulo) segue em andamento. A turma começou em abril de 2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 470; B, 472. Sem link. Sem o dia, o toque não sai.
+- **Total:** A, 498; B, 500. Sem link. Sem o dia, o toque não sai. Com OU19 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
 
 ---
 
@@ -258,7 +258,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 - **Primeira linha A (teste), 71:** Olá, [nome]. Clínica cirúrgica presencial, em Goiânia, módulo a módulo.
 - **Primeira linha B (teste), 64:** Olá, [nome]. Dos acessos cirúrgicos à neurocirurgia, em Goiânia.
 - Reservas: "Olá, [nome]. Quer ver o cronograma presencial de cirurgia?"; "Olá, [nome]. Cirurgia presencial em Goiânia, turma V."; "Olá, [nome]. Sondas, drenos e perioperatório: veja os módulos."
-- **Corpo (238 caracteres antes do link):**
+- **Corpo (240 caracteres antes do link):**
 
 > A Pós-graduação em Clínica Cirúrgica de Cães e Gatos (Goiânia) é presencial e vai dos princípios da cirurgia e dos acessos cirúrgicos à neurocirurgia e às cirurgias cardiovasculares, com aulas teórico-práticas. A turma começa em 10/04/2027.
 >
@@ -267,7 +267,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 412; B, 404.
+- **Total (sem o link):** A, 412; B, 405.
 
 ### 2.3 WhatsApp W2 (seg 22/02, 10h; pos_68632_kit_w2; utm_content=w2-68632). Objeção: conciliar o presencial com a clínica.
 
@@ -283,7 +283,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 422; B, 423.
+- **Total (sem o link):** A, 420; B, 422.
 
 ### 2.4 E-mail E2 (qua 03/03, 9h; utm_content=e2-68632). Percurso e condições.
 
@@ -319,7 +319,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 
 - **Primeira linha A (teste), 58:** Olá, [nome]. Clínica cirúrgica em Goiânia começa em 10/04.
 - **Primeira linha B (teste), 57:** Olá, [nome]. Dúvida sobre a clínica cirúrgica em Goiânia?
-- Reservas: "Olá, [nome]. O time de vendas de Goiânia tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma V?"; "Olá, [nome]. A turma começa em abril, em Goiânia."
+- Reservas: "Olá, [nome]. O time de vendas de Goiânia tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma V?"; "Olá, [nome]. A turma começa em 10/04, em Goiânia."
 - **Corpo (274 caracteres antes do link):**
 
 > A turma V começa em 10/04/2027, em Goiânia, com o módulo 1 presencial (10 e 11/04). O time de vendas de Goiânia ajuda você a concluir a matrícula e tira as dúvidas sobre o cronograma. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
@@ -329,7 +329,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 435; B, 434.
+- **Total (sem o link):** A, 433; B, 432.
 
 ### 2.6 WhatsApp pré-início, 4º do kit (seg 05/04, 10h; pos_68632_kit_pr; utm_content=pr-68632). Sem a frase do 3º módulo (regra 8).
 
@@ -345,7 +345,7 @@ Campus: Ufape Goiânia. Turma presencial inteira, sem formato por módulo na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 456; B, 474.
+- **Total (sem o link):** A, 454; B, 471.
 
 ### 2.7 Pós-início de 68632: sem texto
 
@@ -397,7 +397,7 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 - **Primeira linha A (teste), 69:** Olá, [nome]. Clínica médica em São Paulo: do exame ao paciente grave.
 - **Primeira linha B (teste), 63:** Olá, [nome]. Triagem, A-FAST, T-FAST e RCP: turma em São Paulo.
 - Reservas: "Olá, [nome]. Quer ver o cronograma de Clínica Médica e Emergência?"; "Olá, [nome]. Clínica médica sistema por sistema, em São Paulo."; "Olá, [nome]. Da semiologia à UTI: veja os módulos."
-- **Corpo (248 caracteres antes do link):**
+- **Corpo (250 caracteres antes do link):**
 
 > Na Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo), a clínica médica vai sistema por sistema, com a emergência do paciente grave no mesmo percurso e prática presencial de semiologia e exames. A turma começa em 10/04/2027.
 >
@@ -406,7 +406,7 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 419; B, 414.
+- **Total (sem o link):** A, 420; B, 414.
 
 ### 3.3 WhatsApp W2 (sex 19/02, 10h; pos_68635_kit_w2; utm_content=w2-68635). Objeção: plantão.
 
@@ -422,7 +422,7 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 383; B, 387.
+- **Total (sem o link):** A, 381; B, 386.
 
 ### 3.4 E-mail E2 (seg 01/03, 9h; utm_content=e2-68635). Mês a mês e condições.
 
@@ -457,7 +457,7 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 
 - **Primeira linha A (teste), 57:** Olá, [nome]. A turma V de Clínica Médica começa em 10/04.
 - **Primeira linha B (teste), 49:** Olá, [nome]. Dúvida sobre a turma V em São Paulo?
-- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma V?"; "Olá, [nome]. A turma de São Paulo começa em abril."
+- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma V?"; "Olá, [nome]. A turma de São Paulo começa em 10/04."
 - **Corpo (248 caracteres antes do link):**
 
 > A turma V começa em 10/04/2027, em São Paulo, com o módulo 1 online. O time de vendas ajuda você a concluir a matrícula e tira as dúvidas sobre o cronograma. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
@@ -467,14 +467,14 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 407; B, 399.
+- **Total (sem o link):** A, 406; B, 398.
 
 ### 3.6 WhatsApp pré-início, 4º do kit (ter 06/04, 10h; pos_68635_kit_pr; utm_content=pr-68635)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 10/04; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 67:** Olá, [nome]. A Clínica Médica em São Paulo começa em 10/04, sábado.
 - Reservas: "Olá, [nome]. Em 10/04 começa a turma V."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
-- **Corpo (206 caracteres antes do link):**
+- **Corpo (209 caracteres antes do link):**
 
 > A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo) começa em 10/04/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -483,20 +483,20 @@ Coordenação: Prof. Caio Cavalcanti Balençuela. Presenciais da ficha (9): 3, 6
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 383; B, 376.
+- **Total (sem o link):** A, 383; B, 377.
 
 ### 3.7 WhatsApp pós-início, acréscimo (seg 03/05, 10h; pos_68635_kit_pi; utm_content=pi-68635). Regra completa, **só com o dia do 3º módulo**.
 
 - **Primeira linha A (teste), 61:** Olá, [nome]. Entender como entrar na turma de Clínica Médica?
 - **Primeira linha B (teste), 63:** Olá, [nome]. Clínica Médica em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma V?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (377 caracteres, com a data de 10 caracteres):**
+- **Corpo (408 caracteres, com a data de 10 caracteres):**
 
 > A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais (São Paulo) segue em andamento. A turma começou em 10/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 489; B, 492. Sem link. Sem o dia, o toque não sai.
+- **Total:** A, 520; B, 522. Sem link. Sem o dia, o toque não sai.
 
 ---
 
@@ -517,7 +517,7 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 
 > Olá, [nome],
 >
-> Pós-operatório, paciente neurológico, cão idoso: a reabilitação começa pela avaliação.
+> Trauma, paciente neurológico, cão idoso: a reabilitação começa pela avaliação.
 >
 > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária da Faculdade UFAPE (turma I) começa em abril de 2027, em São Paulo, com o módulo 1 online. São 500 horas, semipresencial. Os módulos presenciais têm o mês marcado no cronograma.
 >
@@ -544,7 +544,7 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 - **Primeira linha A (teste), 66:** Olá, [nome]. Reabilitação em São Paulo: da avaliação ao protocolo.
 - **Primeira linha B (teste), 59:** Olá, [nome]. Hidroterapia e terapias manuais, em São Paulo.
 - Reservas: "Olá, [nome]. Quer ver o cronograma de Reabilitação?"; "Olá, [nome]. Reabilitação veterinária, turma I."; "Olá, [nome]. Da avaliação da dor às terapias manuais."
-- **Corpo (242 caracteres antes do link):**
+- **Corpo (245 caracteres antes do link):**
 
 > Na Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo), o cronograma parte da avaliação da dor e do sistema locomotor e chega a hidroterapia, recursos eletrofísicos e terapias manuais. A turma começa em abril de 2027.
 >
@@ -553,14 +553,14 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 411; B, 405.
+- **Total (sem o link):** A, 412; B, 405.
 
 ### 4.3 WhatsApp W2 (qua 24/02, 10h; pos_366_kit_w2; utm_content=w2-366). Objeção: tem prática de verdade.
 
 - **Primeira linha A (teste), 48:** Olá, [nome]. A maior parte dos módulos é online.
 - **Primeira linha B (teste), 59:** Olá, [nome]. Presencial com mês marcado: veja o cronograma.
 - Reservas: "Olá, [nome]. Tem prática de verdade? Veja os módulos."; "Olá, [nome]. Quando são os módulos presenciais?"; "Olá, [nome]. Reabilitação em São Paulo: prática por técnica."
-- **Corpo (335 caracteres antes do link):**
+- **Corpo (339 caracteres antes do link):**
 
 > Na Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo), a maior parte dos módulos é online. Há módulos presenciais de prática, entre eles hidroterapia e cinesioterapia, recursos eletrofísicos, reabilitação neurológica e ortopédica, taping e terapias manuais. O cronograma mostra o mês de cada módulo presencial.
 >
@@ -569,7 +569,7 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 486; B, 497.
+- **Total (sem o link):** A, 488; B, 499.
 
 ### 4.4 E-mail E2 (seg 01/03, 9h; utm_content=e2-366). Mês a mês e condições.
 
@@ -615,14 +615,14 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 408; B, 408.
+- **Total (sem o link):** A, 407; B, 406.
 
 ### 4.6 WhatsApp pré-início, 4º do kit (qua 07/04, 10h; pos_366_kit_pr; utm_content=pr-366)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 57:** Olá, [nome]. A Reabilitação em São Paulo começa em abril.
 - Reservas: "Olá, [nome]. Em abril começa a turma I de Reabilitação."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time antes do início?"
-- **Corpo (213 caracteres antes do link):**
+- **Corpo (215 caracteres antes do link):**
 
 > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo) começa em abril de 2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -631,20 +631,20 @@ Sem "coordenação" (a ficha diz "UFAPE", OU34): a mensagem cita a lista de doce
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 390; B, 374. Com OU20 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
+- **Total (sem o link):** A, 389; B, 373. Com OU20 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
 
 ### 4.7 WhatsApp pós-início, acréscimo (seg 03/05, 10h; pos_366_kit_pi; utm_content=pi-366). Regra completa, **só com a data de início e o dia do 3º módulo**.
 
 - **Primeira linha A (teste), 59:** Olá, [nome]. Entender como entrar na turma de Reabilitação?
 - **Primeira linha B (teste), 61:** Olá, [nome]. Reabilitação em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma I?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 e 2 são online."
-- **Corpo (384 caracteres, com a data do 3º módulo de 10 caracteres):**
+- **Corpo (414 caracteres, com a data do 3º módulo de 10 caracteres):**
 
 > A Pós-graduação em Fisioterapia, Fisiatria e Reabilitação Veterinária (São Paulo) segue em andamento. A turma começou em abril de 2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [dd/06/2027, CONFIRMAR NO CATÁLOGO, OU25]. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 494; B, 496. Sem link. Sem a data e o dia, o toque não sai.
+- **Total:** A, 524; B, 526. Sem link. Sem a data e o dia, o toque não sai. Com OU20 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
 
 ---
 
@@ -660,7 +660,7 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 - Reserva (55): Pós-graduação em Oncologia Veterinária: início em 10/04
 - Reserva (56): Quimioterapia, eletroquimioterapia e cirurgia oncológica
 - Reserva (58): Olá, o caso oncológico pede diagnóstico antes do protocolo
-- **Pré-cabeçalho (80):** Turma de abril em São Paulo, com módulos online e presencial. Veja o cronograma.
+- **Pré-cabeçalho (81):** Turma de abril em São Paulo, com módulos online e presenciais. Veja o cronograma.
 - **Corpo:**
 
 > Olá, [nome],
@@ -692,7 +692,7 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 - **Primeira linha A (teste), 66:** Olá, [nome]. Oncologia em São Paulo: do diagnóstico ao tratamento.
 - **Primeira linha B (teste), 64:** Olá, [nome]. Linfoma, mastocitoma, melanoma: turma em São Paulo.
 - Reservas: "Olá, [nome]. Quer ver o cronograma de Oncologia?"; "Olá, [nome]. Oncologia em São Paulo, módulo a módulo."; "Olá, [nome]. Quimioterapia e cirurgia oncológica: veja os módulos."
-- **Corpo (225 caracteres antes do link):**
+- **Corpo (223 caracteres antes do link):**
 
 > Na Pós-graduação em Oncologia Veterinária (São Paulo), o cronograma vai do diagnóstico do câncer ao tratamento, com módulos online e presenciais, entre eles quimioterapia e cirurgia oncológica. A turma começa em 10/04/2027.
 >
@@ -701,14 +701,14 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 395; B, 393.
+- **Total (sem o link):** A, 390; B, 388.
 
 ### 5.3 WhatsApp W2 (sex 05/02, 10h; pos_68628_kit_w2; utm_content=w2-68628). Objeção: como funciona o semipresencial.
 
 - **Primeira linha A (teste), 64:** Olá, [nome]. Semipresencial: a maior parte dos módulos é online.
 - **Primeira linha B (teste), 64:** Olá, [nome]. Oncologia em São Paulo: presencial com mês marcado.
 - Reservas: "Olá, [nome]. Tenho de ir sempre? Veja o cronograma."; "Olá, [nome]. Quando são os módulos presenciais?"; "Olá, [nome]. A radioterapia tem visita no cronograma."
-- **Corpo (236 caracteres antes do link):**
+- **Corpo (235 caracteres antes do link):**
 
 > Na Pós-graduação em Oncologia Veterinária (São Paulo), a maior parte dos módulos é online. O presencial inclui, entre outros, quimioterapia, neoplasias com discussão de casos e a visita de radioterapia, com o mês marcado no cronograma.
 >
@@ -717,7 +717,7 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 403; B, 404.
+- **Total (sem o link):** A, 400; B, 400.
 
 ### 5.4 E-mail E2 (qua 17/02, 9h; utm_content=e2-68628). Mês a mês e condições.
 
@@ -731,7 +731,7 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 
 > Olá, [nome],
 >
-> Esta é a turma de Oncologia Veterinária de São Paulo, com início em 10/04/2027. O mês a mês, pelo cronograma da página:
+> Esta é a turma da Pós-graduação em Oncologia Veterinária em São Paulo, com início em 10/04/2027. O mês a mês, pelo cronograma da página:
 > - no começo, online: introdução à oncologia e biologia do câncer;
 > - módulo 5, presencial (agosto de 2027): quimioterapia antineoplásica e biossegurança;
 > - módulo 7, presencial (outubro de 2027): eletroquimioterapia e crioterapia;
@@ -755,7 +755,7 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 
 - **Primeira linha A (teste), 63:** Olá, [nome]. A turma de Oncologia em São Paulo começa em 10/04.
 - **Primeira linha B (teste), 51:** Olá, [nome]. Dúvida sobre a Oncologia em São Paulo?
-- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma de abril?"; "Olá, [nome]. A turma começa em abril, em São Paulo."
+- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma de abril?"; "Olá, [nome]. A turma começa em 10/04, em São Paulo."
 - **Corpo (246 caracteres antes do link):**
 
 > A turma começa em 10/04/2027, em São Paulo, com o módulo 1 online. O time de vendas ajuda você a concluir a matrícula e tira as dúvidas sobre o cronograma. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
@@ -765,14 +765,14 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 414; B, 401.
+- **Total (sem o link):** A, 410; B, 398.
 
 ### 5.6 WhatsApp pré-início, acréscimo (seg 05/04, 10h; pos_68628_kit_pr; utm_content=pr-68628)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 10/04; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 62:** Olá, [nome]. A Oncologia em São Paulo começa em 10/04, sábado.
 - Reservas: "Olá, [nome]. Em 10/04 começa a turma de Oncologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Quer falar com o time antes do início?"
-- **Corpo (182 caracteres antes do link):**
+- **Corpo (183 caracteres antes do link):**
 
 > A Pós-graduação em Oncologia Veterinária (São Paulo) começa em 10/04/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -781,20 +781,20 @@ Sem número de turma (P5). Coordenação na ficha: ESP. Juliana Vieira Cirillo (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 359; B, 349.
+- **Total (sem o link):** A, 357; B, 346.
 
 ### 5.7 WhatsApp pós-início, 4º do kit (qua 28/04, 10h; pos_68628_kit_pi; utm_content=pi-68628). Regra completa.
 
 - **Primeira linha A (teste), 56:** Olá, [nome]. Entender como entrar na turma de Oncologia?
 - **Primeira linha B (teste), 62:** Olá, [nome]. Oncologia em São Paulo: dúvida sobre como entrar?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma de Oncologia?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 a 4 são online."
-- **Corpo (353 caracteres):**
+- **Corpo (351 caracteres):**
 
 > A Pós-graduação em Oncologia Veterinária (São Paulo) segue em andamento. A turma começou em 10/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 26/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 460; B, 467. Sem link.
+- **Total:** A, 458; B, 464. Sem link.
 
 ---
 
@@ -851,14 +851,14 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 365; B, 370.
+- **Total (sem o link):** A, 363; B, 368.
 
 ### 6.3 WhatsApp W2 (seg 15/02, 10h; pos_68617_kit_w2; utm_content=w2-68617). Objeção: quanto é presencial.
 
 - **Primeira linha A (teste), 59:** Olá, [nome]. A maior parte do curso é online, em São Paulo.
 - **Primeira linha B (teste), 54:** Olá, [nome]. Quanto é presencial? O cronograma mostra.
 - Reservas: "Olá, [nome]. Preciso viajar com frequência?"; "Olá, [nome]. As datas dos presenciais estão no cronograma."; "Olá, [nome]. Aula prática de atendimento e de ultrassonografia."
-- **Corpo (269 caracteres antes do link):**
+- **Corpo (271 caracteres antes do link):**
 
 > Na Pós-graduação em Endocrinologia de Pequenos Animais (São Paulo), a maior parte do curso é online. Os módulos presenciais são de aula prática de atendimento, de anatomia, de ultrassonografia abdominal e de cirurgia do sistema endócrino, com discussão de casos clínicos.
 >
@@ -867,7 +867,7 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 430; B, 426.
+- **Total (sem o link):** A, 431; B, 426.
 
 ### 6.4 E-mail E2 (qua 24/02, 9h; utm_content=e2-68617). Mês a mês e condições.
 
@@ -888,7 +888,7 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 > - online, de janeiro de 2028 em diante, entre outros: hipoadrenocorticismo, diabetes mellitus, insulinoma, hipoglicemias, nutrologia, emergências endócrinas, tireoide e dosagens hormonais;
 > - módulo 23, presencial (fevereiro de 2029): atendimento endócrino, ultrassonografia abdominal, cirurgia do sistema endócrino e casos dos alunos.
 >
-> Parcelas, total e matrícula você vê na página da turma. A Pós-graduação em Endocrinologia de Pequenos Animais percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial; para aprofundar só o diabetes ou só a tireoide, o guia de decisão da área mostra os caminhos lado a lado.
+> Parcelas, total e matrícula você vê na página da turma. A Pós-graduação em Endocrinologia de Pequenos Animais percorre a endocrinologia da fisiologia às emergências endócrinas, com discussão de casos e aula prática presencial.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -904,7 +904,7 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 
 - **Primeira linha A (teste), 55:** Olá, [nome]. A turma de Endocrinologia começa em 17/04.
 - **Primeira linha B (teste), 56:** Olá, [nome]. Dúvida sobre a Endocrinologia em São Paulo?
-- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma de abril?"; "Olá, [nome]. A turma começa em abril, em São Paulo."
+- Reservas: "Olá, [nome]. O time de vendas tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma de abril?"; "Olá, [nome]. A turma começa em 17/04, em São Paulo."
 - **Corpo (246 caracteres antes do link):**
 
 > A turma começa em 17/04/2027, em São Paulo, com o módulo 1 online. O time de vendas ajuda você a concluir a matrícula e tira as dúvidas sobre o cronograma. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
@@ -914,14 +914,14 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 403; B, 405.
+- **Total (sem o link):** A, 402; B, 403.
 
 ### 6.6 WhatsApp pré-início, acréscimo (seg 12/04, 10h; pos_68617_kit_pr; utm_content=pr-68617)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 17/04; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 67:** Olá, [nome]. A Endocrinologia em São Paulo começa em 17/04, sábado.
 - Reservas: "Olá, [nome]. Em 17/04 começa a turma de Endocrinologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time?"
-- **Corpo (194 caracteres antes do link):**
+- **Corpo (196 caracteres antes do link):**
 
 > A Pós-graduação em Endocrinologia de Pequenos Animais (São Paulo) começa em 17/04/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -930,20 +930,20 @@ Sem número de turma (P5). **URL com "/v/" conferida antes do primeiro envio** (
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 371; B, 363.
+- **Total (sem o link):** A, 370; B, 364.
 
 ### 6.7 WhatsApp pós-início, 4º do kit (qui 06/05, 10h; pos_68617_kit_pi; utm_content=pi-68617). Regra completa.
 
 - **Primeira linha A (teste), 61:** Olá, [nome]. Entender como entrar na turma de Endocrinologia?
 - **Primeira linha B (teste), 63:** Olá, [nome]. Endocrinologia em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma de Endocrinologia?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 a 3 são online."
-- **Corpo (365 caracteres):**
+- **Corpo (364 caracteres):**
 
 > A Pós-graduação em Endocrinologia de Pequenos Animais (São Paulo) segue em andamento. A turma começou em 17/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 19/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 477; B, 479. Sem link.
+- **Total:** A, 476; B, 478. Sem link.
 
 ---
 
@@ -1000,7 +1000,7 @@ Coordenação: Agata R. M. Esposito. A ficha **não** traz a frase "aulas presen
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 402; B, 402.
+- **Total (sem o link):** A, 400; B, 400.
 
 ### 7.3 WhatsApp W2 (qua 17/02, 10h; pos_68636_kit_w2; utm_content=w2-68636). Objeção: prática de endoscopia e imagem.
 
@@ -1016,7 +1016,7 @@ Coordenação: Agata R. M. Esposito. A ficha **não** traz a frase "aulas presen
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 431; B, 416.
+- **Total (sem o link):** A, 429; B, 414.
 
 ### 7.4 E-mail E2 (sex 26/02, 9h; utm_content=e2-68636). Mês a mês e condições.
 
@@ -1062,14 +1062,14 @@ Coordenação: Agata R. M. Esposito. A ficha **não** traz a frase "aulas presen
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 409; B, 411.
+- **Total (sem o link):** A, 407; B, 408.
 
 ### 7.6 WhatsApp pré-início, acréscimo (ter 13/04, 10h; pos_68636_kit_pr; utm_content=pr-68636)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em abril; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 56:** Olá, [nome]. A Pneumologia em São Paulo começa em abril.
 - Reservas: "Olá, [nome]. Em abril começa a turma VIII de Pneumologia."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time?"
-- **Corpo (187 caracteres antes do link):**
+- **Corpo (188 caracteres antes do link):**
 
 > A Pós-graduação em Pneumologia Veterinária (São Paulo) começa em abril de 2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas ajuda a concluir.
 >
@@ -1078,20 +1078,20 @@ Coordenação: Agata R. M. Esposito. A ficha **não** traz a frase "aulas presen
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 364; B, 348. Com OU21 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
+- **Total (sem o link):** A, 362; B, 345. Com OU21 respondida, trocar "abril de 2027" e "abril" pela data absoluta (E9).
 
 ### 7.7 WhatsApp pós-início, 4º do kit (sex 30/04, 10h; pos_68636_kit_pi; utm_content=pi-68636). Regra completa, só com OU21.
 
 - **Primeira linha A (teste), 58:** Olá, [nome]. Entender como entrar na turma de Pneumologia?
 - **Primeira linha B (teste), 60:** Olá, [nome]. Pneumologia em São Paulo: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma VIII?"; "Olá, [nome]. Quer falar com o time sobre a turma que já começou?"; "Olá, [nome]. Os módulos 1 a 3 são online."
-- **Corpo (358 caracteres):**
+- **Corpo (356 caracteres):**
 
 > A Pós-graduação em Pneumologia Veterinária (São Paulo) segue em andamento. A turma começou em abril de 2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 19/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 467; B, 470. Sem link.
+- **Total:** A, 465; B, 467. Sem link. Com OU21 respondida, trocar "abril de 2027" pela data absoluta (E9) e recontar.
 
 ---
 
@@ -1117,7 +1117,7 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 > A Pós-graduação em Anestesiologia Veterinária da Faculdade UFAPE (turma VIII) começa em 24/04/2027, na Ufape Goiânia, com o módulo 1 online. São 500 horas, semipresencial. O primeiro módulo presencial é o 5, em agosto de 2027. O público da turma são médicas e médicos veterinários que querem atuar na anestesiologia veterinária clínica.
 >
 > O que está na página da turma:
-> - módulos presenciais com, entre outros, hands-on de avaliação pré-anestésica, sedação e monitoração, de TIVA e anestesia alvo-controlada e de anestesia em felinos e em exóticos, prática de bloqueios locorregionais em modelos anatômicos e campanha de castração; as aulas presenciais e práticas não são transmitidas nem disponibilizadas;
+> - módulos presenciais com, entre outros, hands-on de avaliação pré-anestésica, sedação e monitoração, de TIVA e anestesia alvo-controlada e de anestesia em felinos e em exóticos, prática de bloqueios locorregionais em modelos anatômicos e campanha de castração;
 > - avaliação obrigatória ao término dos módulos online e, no presencial, acompanhamento individualizado da evolução de cada aluno, sob supervisão do corpo docente;
 > - a anestesia ligada à clínica: fluidoterapia, patologia clínica, emergências, cardiologia, terapia intensiva e farmacologia, além de analgesia multimodal;
 > - coordenação de Dr. Alessandro Martins, Dr Rogério Viera Da Silva e Dra. Mayara Travalini de Lima.
@@ -1139,7 +1139,7 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 - **Primeira linha A (teste), 71:** Olá, [nome]. Anestesiologia em Goiânia: do pré-anestésico à reanimação.
 - **Primeira linha B (teste), 57:** Olá, [nome]. Sedar, intubar, monitorar: turma em Goiânia.
 - Reservas: "Olá, [nome]. Quer ver o cronograma de Anestesiologia em Goiânia?"; "Olá, [nome]. Anestesiologia em Goiânia, turma VIII."; "Olá, [nome]. Hands-on de sedação e monitoração: veja os módulos."
-- **Corpo (219 caracteres antes do link):**
+- **Corpo (222 caracteres antes do link):**
 
 > A Pós-graduação em Anestesiologia Veterinária (Goiânia) tem módulos online e módulos presenciais com hands-on de sedação e monitoração, TIVA e anestesia em felinos e em exóticos, entre outros. A turma começa em 24/04/2027.
 >
@@ -1148,14 +1148,14 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 393; B, 379.
+- **Total (sem o link):** A, 394; B, 380.
 
 ### 8.3 WhatsApp W2 (qui 25/02, 10h; pos_68609_kit_w2; utm_content=w2-68609). Objeção: praticar ou só assistir.
 
 - **Primeira linha A (teste), 63:** Olá, [nome]. No presencial, o acompanhamento é individualizado.
 - **Primeira linha B (teste), 60:** Olá, [nome]. Vai praticar ou só assistir? Veja o cronograma.
 - Reservas: "Olá, [nome]. Quando são os módulos presenciais em Goiânia?"; "Olá, [nome]. Hands-on e bloqueios em modelos anatômicos."; "Olá, [nome]. A evolução de cada aluno é acompanhada."
-- **Corpo (276 caracteres antes do link):**
+- **Corpo (280 caracteres antes do link):**
 
 > Na Pós-graduação em Anestesiologia Veterinária (Goiânia), os módulos presenciais trazem, entre outros, hands-on de sedação e monitoração e de TIVA, e prática de bloqueios em modelos anatômicos. No presencial, a evolução de cada aluno é acompanhada sob supervisão do corpo docente.
 >
@@ -1164,7 +1164,7 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 440; B, 438.
+- **Total (sem o link):** A, 444; B, 441.
 
 ### 8.4 E-mail E2 (seg 08/03, 9h; utm_content=e2-68609). Mês a mês e condições.
 
@@ -1203,8 +1203,8 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 
 - **Primeira linha A (teste), 66:** Olá, [nome]. A turma de Anestesiologia em Goiânia começa em 24/04.
 - **Primeira linha B (teste), 54:** Olá, [nome]. Dúvida sobre a Anestesiologia em Goiânia?
-- Reservas: "Olá, [nome]. O time de vendas de Goiânia tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma VIII?"; "Olá, [nome]. A turma começa em abril, em Goiânia."
-- **Corpo (261 caracteres antes do link):**
+- Reservas: "Olá, [nome]. O time de vendas de Goiânia tira suas dúvidas."; "Olá, [nome]. Quer ajuda com a matrícula na turma VIII?"; "Olá, [nome]. A turma começa em 24/04, em Goiânia."
+- **Corpo (260 caracteres antes do link):**
 
 > A turma VIII começa em 24/04/2027, em Goiânia, com o módulo 1 online. O time de vendas de Goiânia ajuda você a concluir a matrícula e tira as dúvidas sobre o cronograma. A turma pode não ser formada: compre passagem e hotel só depois de a turma ser confirmada.
 >
@@ -1213,14 +1213,14 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 431; B, 418.
+- **Total (sem o link):** A, 427; B, 415.
 
 ### 8.6 WhatsApp pré-início, acréscimo (seg 19/04, 10h; pos_68609_kit_pr; utm_content=pr-68609)
 
 - **Primeira linha A (teste), 73:** Olá, [nome]. As aulas começam em 24/04; matrícula aberta até o 3º módulo.
 - **Primeira linha B (teste), 65:** Olá, [nome]. A Anestesiologia em Goiânia começa em 24/04, sábado.
 - Reservas: "Olá, [nome]. Em 24/04 começa a turma VIII."; "Olá, [nome]. O módulo 1 é online."; "Olá, [nome]. Falta tirar alguma dúvida com o time de Goiânia?"
-- **Corpo (195 caracteres antes do link):**
+- **Corpo (197 caracteres antes do link):**
 
 > A Pós-graduação em Anestesiologia Veterinária (Goiânia) começa em 24/04/2027, com o módulo 1 online. A matrícula segue aberta até o 3º módulo do curso. O time de vendas de Goiânia ajuda a concluir.
 >
@@ -1229,20 +1229,20 @@ Campus: Ufape Goiânia; vendas de Goiânia, (62) 9420-1847. Coordenação na fic
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total (sem o link):** A, 372; B, 364.
+- **Total (sem o link):** A, 371; B, 363.
 
 ### 8.7 WhatsApp pós-início, 4º do kit (ter 11/05, 10h; pos_68609_kit_pi; utm_content=pi-68609). Regra completa.
 
 - **Primeira linha A (teste), 61:** Olá, [nome]. Entender como entrar na turma de Anestesiologia?
 - **Primeira linha B (teste), 61:** Olá, [nome]. Anestesiologia em Goiânia: como entrar na turma?
 - Reservas: "Olá, [nome]. Dúvida sobre como entrar na turma VIII?"; "Olá, [nome]. Quer falar com o time de Goiânia?"; "Olá, [nome]. Os módulos 1 a 4 são online."
-- **Corpo (376 caracteres):**
+- **Corpo (375 caracteres):**
 
 > A Pós-graduação em Anestesiologia Veterinária (Goiânia) segue em andamento. A turma começou em 24/04/2027. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 26/06/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Para falar com o time de vendas de Goiânia, responda TURMA. O atendimento é em horário comercial.
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Total:** A, 488; B, 489. Sem link. Quem responde passa ao time de Goiânia.
+- **Total:** A, 487; B, 487. Sem link. Quem responde passa ao time de Goiânia.
 
 ---
 
@@ -1252,7 +1252,7 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 
 ### 9.1 Regras do bloco (valem para as 8 turmas)
 
-- **Regra do 3º módulo (decisão 18):** depois do início: "A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." Antes do início: "A turma começa em [início]. A Ufape aceita matrícula até o 3º módulo do curso, que nesta turma começa em [data]. Você pode começar desde o módulo 1." **Exceções:** 68632 (regra 8 e E22: só a data de início e o link); 679, 68635 e 366 (o dia do 3º módulo é [CONFIRMAR OU25]: o time diz "vou confirmar o dia com a secretaria").
+- **Regra do 3º módulo (decisão 18):** depois do início: "A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." Antes do início: "A turma começa em [início]. Você pode começar desde o módulo 1, e a Ufape aceita matrícula até o 3º módulo do curso." (sem a data do 3º módulo antes do início, E6) **Exceções:** 68632 (regra 8 e E22: só a data de início e o link); 679, 68635 e 366 (o dia do 3º módulo é [CONFIRMAR OU25]: o time diz "vou confirmar o dia com a secretaria").
 - **Em aberto (o time diz "vou confirmar", nunca promete):** OU3 (reposição, gravação), OU6 (véspera ou 1º dia do 3º módulo), OU8 (1ª mensalidade de quem entra depois), OU4 (vagas, turma confirmada).
 - **Nunca:** "últimas vagas", "só até", "corra", contador, data do 3º módulo sozinha, preço, parcela, matrícula ou valor de inscrição (U11), bolsa, desconto, certificação ou "MEC". Dúvida de certificado ou de bolsa: secretaria, (11) 97492-8443 (WhatsApp) ou (11) 5054-1204, duvidas@intercursos.com.br, segunda a sexta, das 9h às 18h.
 - **Pedido para sair:** o time registra SAIR no CRM no mesmo dia (máximo 48 h).
@@ -1270,10 +1270,10 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 | 68636 | abril de 2027 [OU21]: "vou confirmar com a secretaria" | 19 e 20/06/2027, online | módulo 4, julho de 2027 |
 | 68609 | 24/04/2027 | 26 e 27/06/2027, online | módulo 5, agosto de 2027 |
 
-- **R1. "Ainda dá tempo de me matricular?"** (todas menos 68632) Antes do início: a frase "antes do início" de 9.1, com [link da turma] e "Parcelas, total e matrícula estão lá." Depois do início: a regra completa. Em 679, 68635 e 366 sem o dia: "A Ufape aceita matrícula até o 3º módulo do curso. O dia do 3º módulo nesta turma, vou confirmar com a secretaria e te respondo por aqui." Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]. **Em 68632:** "A turma começa em 10/04/2027. Você pode começar desde o módulo 1: [link da turma]. Parcelas, total e matrícula estão lá." Sem a regra e sem a data do 3º módulo enquanto OU3 estiver aberta (E22).
-- **R2. "Posso entrar depois do início?"** (todas menos 68632) "Pode. A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, te explico como ficam os módulos que já aconteceram." Em 679, 68635 e 366: "Pode; o dia do 3º módulo, vou confirmar com a secretaria." **Em 68632:** "O módulo 1 é presencial. Vou confirmar com a secretaria como fica para quem entrar depois e te retorno."
-- **R3. "Perdi o módulo 1 (ou o 2). Como reponho?"** "Antes de você pagar, te explico como ficam os módulos que já aconteceram. Como é a reposição, vou confirmar com a coordenação e te respondo por aqui. Hoje não consigo te prometer gravação nem aula extra." [OU3] Em 68632, 68635, 366, 68628, 68617, 679 e 68609, acrescentar: "As aulas presenciais e práticas não são transmitidas nem disponibilizadas, como diz a página." Em 68636 a ficha não traz essa frase: não citar.
-- **R4. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"** "Vou confirmar com o financeiro como fica para quem entra depois e te respondo por aqui. Parcelas, total e matrícula estão na página da turma: [link]." [OU8]
+- **R1. "Ainda dá tempo de me matricular?"** (todas menos 68632) Antes do início: a frase "antes do início" de 9.1, com [link da turma] e "Parcelas, total e matrícula estão lá." Depois do início: a regra completa. Em 679, 68635 e 366 sem o dia: "A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; o dia do 3º módulo nesta turma, vou confirmar com a secretaria e te respondo por aqui. Antes de pagar, o time explica como ficam os módulos que já aconteceram." Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]. **Em 68632:** "A turma começa em 10/04/2027. Você pode começar desde o módulo 1: [link da turma]. Parcelas, total e matrícula estão lá." Sem a regra e sem a data do 3º módulo enquanto OU3 estiver aberta (E22).
+- **R2. "Posso entrar depois do início?"** (todas menos 68632) "Pode. A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, te explico como ficam os módulos que já aconteceram." Em 679, 68635 e 366: "Pode. A turma começou em [início]. A Ufape aceita matrícula até o 3º módulo do curso; o dia do 3º módulo nesta turma, vou confirmar com a secretaria. Antes de pagar, te explico como ficam os módulos que já aconteceram." **Em 68632:** "O módulo 1 é presencial. Vou confirmar com a secretaria como fica para quem entrar depois e te retorno."
+- **R3. "Perdi o módulo 1 (ou o 2). Como reponho?"** (todas menos 68632; em 68632, só a resposta da 9.4: "O módulo 1 é presencial, em 10 e 11/04/2027. Vou confirmar com a secretaria como fica para quem entrar depois e te retorno.") "Antes de você pagar, te explico como ficam os módulos que já aconteceram. Como é a reposição, vou confirmar com a secretaria e te respondo por aqui. Hoje não consigo te prometer gravação nem aula extra." [OU3] Em 68635, 366, 68628, 68617 e 679, acrescentar: "As aulas presenciais e práticas não são transmitidas nem disponibilizadas, como diz a página." Em 68636 e 68609 a ficha não traz essa frase: não citar.
+- **R4. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"** (em 68632, sem "para quem entra depois": "Vou confirmar com o financeiro e te respondo por aqui. Parcelas, total e matrícula estão na página da turma: [link].") "Vou confirmar com o financeiro como fica para quem entra depois e te respondo por aqui. Parcelas, total e matrícula estão na página da turma: [link]." [OU8]
 - **R5. "Tem vaga? A turma está confirmada?"** "Vou confirmar com a secretaria e te respondo por aqui." [OU4] Antes do início: "A página informa que a turma pode não ser formada; por isso a orientação é comprar passagem e hotel só depois de a turma ser confirmada." Nunca número de vagas sem dado da Ufape.
 - **R6. "Qual o valor? Tem desconto, promoção ou bolsa?"** "Parcelas, total e matrícula da turma estão na página: [link]. Para esta turma, não tenho desconto nem bolsa confirmados para te oferecer; se quiser, a secretaria responde." Nunca valor em texto até a U11; nunca citar prova de bolsa.
 - **R7. "Se a turma não fechar, perco o que paguei?"** (todas menos 679) "A página da turma informa que pedidos de reembolso dos valores de inscrição só são devidos caso a turma não seja confirmada. Sobre passagem e hospedagem, a página diz que a Ufape não se responsabiliza pelo ressarcimento em caso de adiamento das aulas presenciais por força maior. Por isso, compre passagem e hotel só depois de a turma ser confirmada." **Em 679:** a ficha não traz a linha de reembolso: "Vou confirmar com a secretaria a regra de reembolso e te respondo por aqui. A orientação é comprar passagem e hotel só depois de a turma ser confirmada."
@@ -1282,7 +1282,7 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 
 - **"Quando começa?"** "Vou confirmar a data com a secretaria e te retorno com o link da turma." [OU19, P3]
 - **"Infectologia já aparece na clínica geral. Preciso de pós nisso?"** "Aqui a infectologia é a área do curso: vírus, fungos, bactérias, helmintos e protozoários, antibioticoterapia, sepse, infectologia na UTI e as doenças infecciosas sistema por sistema, com prática presencial de laboratório."
-- **"Vou ter prática ou é tudo online?"** "A maior parte dos módulos é online. Os módulos presenciais trazem prática de laboratório: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial."
+- **"Vou ter prática ou é tudo online?"** "A maior parte dos módulos é online. Os módulos presenciais trazem prática: coleta, armazenamento e envio de amostras, coleta de material para exame de raiva no módulo de zoonoses e controle de infecção hospitalar. O cronograma mostra o mês de cada módulo presencial."
 - **"Infectologia ou clínica médica ampla: qual eu faço?"** "A Pós-graduação em Infectologia Veterinária é centrada nas doenças infecciosas e parasitárias, do diagnóstico laboratorial ao controle de infecção hospitalar. A Pós-graduação em Clínica Médica e Emergência de Pequenos Animais é centrada na clínica médica, sistema por sistema, com a emergência do paciente grave no mesmo percurso. A escolha depende do trabalho que você quer fazer na rotina."
 - **"Preciso ter experiência prévia?"** "O público da turma são médicas e médicos veterinários; sobre experiência prévia, vou confirmar com a secretaria." [CONFIRMAR NO CATÁLOGO]
 
@@ -1314,7 +1314,7 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 
 - **"Qual é a turma?"** Sem número de turma (P5): "É a turma que começa em 10/04/2027, em São Paulo. O link da página é este: [link]."
 - **"Não tenho estrutura para quimioterapia na clínica."** "A quimioterapia antineoplásica é trabalhada no presencial junto com a biossegurança, e o curso trata também imunoterapia, terapia alvo, eletroquimioterapia e crioterapia." Sem promessa de montar serviço.
-- **"Como funciona o semipresencial? Tenho de ir sempre?"** "A maior parte dos módulos é online. O presencial inclui, entre outros, os módulos de tratamento, módulos de neoplasias com discussão de casos e a visita de radioterapia, com o mês marcado no cronograma."
+- **"Como funciona o semipresencial? Tenho de ir sempre?"** "A maior parte dos módulos é online. O presencial inclui, entre outros, três dos quatro módulos de tratamento (quimioterapia, eletroquimioterapia e cirurgia oncológica), módulos de neoplasias com discussão de casos e a visita de radioterapia, com o mês marcado no cronograma."
 - **"Pós ou curso de eletroquimioterapia?"** "Posso te explicar a diferença sem dizer qual é melhor; o guia de decisão da área mostra os caminhos lado a lado." Sem data nem link de curso livre.
 
 ### 9.8 68617, Endocrinologia de Pequenos Animais
@@ -1408,11 +1408,11 @@ Uso: conversa 1 a 1 no WhatsApp de vendas de São Paulo, (11) 91366-9290, ou de 
 | A14 | 29/03 a 04/04 | 01/04 newsletter = 1 | 29/03 = 1 | Sim | 1 |
 | A14 | 26/04 a 02/05 | 29/04 newsletter = 1 | 26/04 (só com o dia) = 1 | Sim | 1 |
 
-**Resultado:** nenhum contato de uma só área passa de 2 WhatsApp por semana, nem de 1 mensagem por dia. Para e-mail, o único ponto que passa de 2 é A4 em 01 a 07/03 quando a newsletter de 04/03 (suposta) é somada aos dois e-mails de 366 e 68632; a regra D2 manda o kit vencer a newsletter, que não vai a quem já tem 2 e-mails na semana. O E1 do teto (contato sem engajamento recebe 1 WhatsApp por semana) só corta, nunca soma.
+**Resultado:** nenhum contato de uma só área passa de 2 WhatsApp por semana, nem de 1 mensagem por dia. Para e-mail, o único ponto que passa de 2 é A4 em 01 a 07/03 quando a newsletter de 04/03 (suposta) é somada aos dois e-mails de 366 e 68632; a regra D2 manda o kit vencer a newsletter, que não vai a quem já tem 2 e-mails na semana. O E1 do teto (contato sem engajamento recebe 1 WhatsApp por semana) só corta, nunca soma. Se o CRM tiver A14 numa lista só, 22 a 28/02 (e-mails de 679, 699 e 382) e 29/03 a 04/04 (WhatsApp de 679, 719 e 60) passam do teto com o lote B e dependem da fila D2, como registra o plano (seção 7.3).
 
 ### 10.2 Dias com mais de um toque do lote A (contato em mais de uma área)
 
-Cada área tem no máximo 1 toque por dia. Dias com toques de áreas diferentes: 04/01 (3 e-mails: A10, A7, A2), 20/01 (2 e-mails: A3, A1; 2 WhatsApp: A10, A2), 22/01 (2 e-mails: A4, A14; 1 WhatsApp: A7), 15/02 (3 WhatsApp: A4, A7, A1), 17/02 (2 WhatsApp: A4, A2; 1 e-mail: A10), 22/02 (2 WhatsApp: A14, A4), 24/02 (1 WhatsApp: A4; 2 e-mails: A14, A7), 01/03 (1 WhatsApp: A14; 2 e-mails: A4, A3), 03/03 (1 WhatsApp: A10; 1 e-mail: A4), 05/04 (2 WhatsApp: A10, A4), 08/03 (2 WhatsApp: A4, A3; 1 e-mail: A1). Para o contato que está em duas ou mais dessas áreas, vale a fila D2 da seção 7.4 do plano: recebe só o de data de referência mais próxima, o outro não é reenviado, e o F10 do arquiteto-de-fluxos lista as supressões por dia, só com números somados. Conferido: nenhum toque do lote A cai nas datas reservadas da onda 1, da onda 2 (07 a 11/12, 14, 17, 18/12; 05, 08, 11, 13, 15, 18, 19, 21, 26, 27, 29/01; 01 a 04, 11, 12, 16, 23/02; 02, 09, 10, 11, 16/03; 14, 20, 27/04; 05 e 12/05) nem nas edições da newsletter.
+Cada área tem no máximo 1 toque por dia. Dias com toques de áreas diferentes: 04/01 (3 e-mails: A10, A7, A2), 20/01 (2 e-mails: A3, A1; 2 WhatsApp: A10, A2), 22/01 (2 e-mails: A4, A14; 1 WhatsApp: A7), 05/02 (2 WhatsApp: A3, A10; 1 e-mail: A4), 15/02 (3 WhatsApp: A4, A7, A1), 17/02 (2 WhatsApp: A4, A2; 1 e-mail: A10), 19/02 (2 WhatsApp: A3, A14), 22/02 (2 WhatsApp: A14, A4), 24/02 (1 WhatsApp: A4; 2 e-mails: A14, A7), 01/03 (1 WhatsApp: A14; 2 e-mails: A4, A3), 03/03 (1 WhatsApp: A10; 1 e-mail: A4), 08/03 (2 WhatsApp: A4, A3; 1 e-mail: A1), 05/04 (2 WhatsApp: A10, A4), 03/05 (2 WhatsApp: A3, A4, os dois condicionados). Para o contato que está em duas ou mais dessas áreas, vale a fila D2 da seção 7.4 do plano: recebe só o de data de referência mais próxima, o outro não é reenviado, e o F10 do arquiteto-de-fluxos lista as supressões por dia, só com números somados. Conferido: nenhum toque do lote A cai nas datas reservadas da onda 1, da onda 2 (07 a 11/12, 14, 17, 18/12; 05, 08, 11, 13, 15, 18, 19, 21, 26, 27, 29/01; 01 a 04, 11, 12, 16, 23/02; 02, 09, 10, 11, 16/03; 14, 20, 27/04; 05 e 12/05) nem nas edições da newsletter.
 
 ---
 
