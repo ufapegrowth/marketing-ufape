@@ -3,7 +3,7 @@
 - **Agente:** copy-de-mensagens (departamento 07, E-mail, WhatsApp e Relacionamento), camada 3, onda 1
 - **Linha:** pos
 - **Data:** 26/10/2026 (segunda-feira); versões 2, 3 e 4 em 27/10/2026
-- **Versão:** 4. Acrescenta a seção 6A (68606, lote 2 da encomenda E2) sobre a versão 3, que aplicou a decisão 18 do CEO (a Ufape aceita matrícula até o 3º módulo da Pós) e a versão 3 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md: encomenda E2, regra 6 e tabela do OA9). As mensagens de 698, 68610, 68608, 707 e 68604 não foram alteradas na versão 4 (o qa revisa a versão 3). O cenário A e o cenário B deixaram de existir: vale o antigo B. A versão 2 aplicou o qa (C1 a C8). O que mudou está em "Mudanças desta versão", antes das listas finais.
+- **Versão:** 4. Acrescenta a seção 6A (68606, lote 2 da encomenda E2) sobre a versão 3 e aplica as 3 correções do qa (qa-de-marketing-pos-2026-10-27-onda1-mensagens-c.md: N1, M1 e M2). A versão 3 aplicou a decisão 18 do CEO (a Ufape aceita matrícula até o 3º módulo da Pós) e a versão 3 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md: encomenda E2, regra 6 e tabela do OA9). O cenário A e o cenário B deixaram de existir: vale o antigo B. A versão 2 aplicou o qa (C1 a C8). O que mudou está em "Mudanças desta versão", antes das listas finais.
 - **Encomenda:** E2, lotes 1 e 2. Exceção de nome de arquivo autorizada pelo orquestrador.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana do pedido OA9. A squad não envia nada. Os textos são para o CRM e o time de vendas, só para contatos com opt-in.
 - **Fora deste arquivo:** os toques posteriores de 698, 68610 e 68608 (lote 3, T3 a T6, 30/10).
@@ -14,6 +14,7 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 12 e 13: D1, D2, D3, D11, D12, D16, E1 a E4)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md (áreas A2, A5, A6, A8, A9 e A11)
   - /home/user/marketing-ufape/saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (datas da régua das provas, para os choques de calendário)
+  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-27-onda1-mensagens-c.md
   - /home/user/marketing-ufape/contexto/ufape-geral.md, pos-graduacao.md, catalogo-de-cursos.md (seção 2)
   - Fichas em /home/user/marketing-ufape/contexto/cursos/pos/: 698, 68610, 68608, 707, 68604 e 68606
   - /home/user/marketing-ufape/templates/mensagem.md
@@ -29,7 +30,7 @@
 2. **Regra da decisão 18.** Depois do início, toda mensagem que fala de entrada diz a regra inteira: "A turma começou em [data]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." A data do 3º módulo nunca aparece sozinha nem com "corra", "só até", "últimas vagas" ou contador. Nenhuma mensagem promete reposição, gravação ou aula extra (OU3 em aberto). Antes do início, a mensagem usa a data de início e não cita o 3º módulo.
 3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e como fica o pagamento de quem entra depois dela está em aberto (OU8). A frase saiu de todas as mensagens.
 4. **Trava de 698.** Nenhuma mensagem de 698 sai antes de a página mostrar o início em 28 e 29/11/2026 (hoje mostra "28 e 29 de Novembro de 2027"). Sem a correção até 28/10, 18h, nada de 698 sai.
-5. **Módulo 1 online (C1).** Em todas as turmas o módulo 1 é online. Toda mensagem diz "começa em DD/MM/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo" (ou "começou em", depois do início) e cita o 1º presencial.
+5. **Módulo 1 online (C1).** Em todas as turmas o módulo 1 é online. Toda mensagem diz "começa em DD/MM/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo" (ou "começou em", depois do início) e cita o 1º presencial. Nos e-mails depois do início, a mensagem diz quais módulos em curso são online e onde é o primeiro presencial (M2 do qa).
 6. **Sem preço, bolsa, prova, MEC ou certificação, "últimas vagas" ou número de vagas.** Turma mínima sem número. Nenhuma promessa de reposição.
 7. **Condições de envio (plano do cmo, regra 9 e OU9).** As páginas das turmas ainda não passam em conformidade (A7, A12 e A13, e A6 em 698). O envio depende da decisão humana registrada no OA9 [CONFIRMAR com a regulação se pode sair antes da troca da frase do MEC]. Mensagem depois do início depende também de a turma estar "aberto" no catálogo (OU9).
 
@@ -241,7 +242,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 >
 > O que está na página da turma:
 > - 7 dos 24 módulos são presenciais, dois deles com atendimento de casos clínicos (módulos 5 e 9);
-> - aulas online ao vivo, gravada, e plantões de dúvidas mensais;
+> - aulas online ao vivo e gravadas, e plantões de dúvidas mensais;
 > - 18 professores listados, com nome e titulação.
 >
 > Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
@@ -378,7 +379,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (28 e 29/11) e m�
 
 Ficha: semipresencial, 600 h, 24 módulos, "aberto". Módulos de sexta a domingo. Módulo 1 (30, 31/10 e 01/11) online; módulo 2 (27 a 29/11) online; **3º módulo: 18, 19 e 20/12/2026, online**; 1º presencial no módulo 4 (29 a 31/01/2027). 10 presenciais na sede, com microscópio individual por aluno, supervisão e mutirões supervisionados. A ficha diz "Aulas teóricas online e ao vivo" e "Acesso a aulas gravadas, disponíveis na plataforma do curso". Coordenação Dra. Andrea Barbosa, Dra. Angélica Safatle e Juliana Jorge, sem titulação até a Ufape confirmar (a ficha traz "Dra." na coordenação e "MSC." na lista); 19 professores listados. A ficha tem "CERTIFICAÇÃO DO MEC": as mensagens não repetem. Sem prova de bolsa de Oftalmologia (68656).
 
-Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início. Os toques de 10/11 em diante saem depois do início e levam a frase da regra completa (seção 1.4).
+Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início; nelas a frase sobre aulas gravadas pode ficar. Os toques de 10/11 em diante saem depois do início, levam a frase da regra completa (seção 1.4) e não citam gravação (M1 do qa).
 
 ### 5.1 E-mail T1 (28/10, antes do início)
 
@@ -468,14 +469,14 @@ Prazo de entrega: textos de 28 e 29/10 hoje; estes, até 30/10 (plano do cmo, E2
 
 > Olá, [nome],
 >
-> A Pós-graduação em Oftalmologia Veterinária da Faculdade UFAPE (turma VII) está em andamento, na sede da Ufape, em São Paulo.
+> A Pós-graduação em Oftalmologia Veterinária da Faculdade UFAPE (turma VII, São Paulo) está em andamento. Os módulos 1 a 3 são online; o primeiro presencial é o módulo 4, de 29 a 31/01/2027, na sede da Ufape.
 >
 > A turma começou em 30/10/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 18/12/2026. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 >
 > O que está na página da turma:
 > - 600 horas em 24 módulos, de sexta a domingo;
 > - 10 módulos presenciais, com microscópio individual por aluno e supervisão de professores e monitores;
-> - aulas teóricas online e ao vivo, com acesso a aulas gravadas na plataforma do curso.
+> - atendimentos clínicos reais em mutirões supervisionados.
 >
 > Fale com o time para entender como entrar na turma. Parcelas, total e matrícula você vê na página da turma.
 >
@@ -637,7 +638,7 @@ Mesmas condições da seção 5.3 (entrega até 30/10, OU9, regra inteira, sem p
 
 > Olá, [nome],
 >
-> A Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária da Faculdade UFAPE (turma VI) está em andamento, na sede da Ufape, em São Paulo.
+> A Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária da Faculdade UFAPE (turma VI, São Paulo) está em andamento. Os módulos 1 a 3 são online; o primeiro presencial é o módulo 4, em fevereiro de 2027, na sede da Ufape.
 >
 > A turma começou em 31/10/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 >
@@ -690,7 +691,7 @@ Mesmas condições da seção 5.3 (entrega até 30/10, OU9, regra inteira, sem p
 
 ## 6A. Pós-graduação em Gastroenterologia Veterinária (68606), São Paulo, turma IX, início em 07/11/2026 (lote 2)
 
-Ficha: semipresencial, 500 h, 24 módulos, "aberto". Início "7 e 8 novembro de 2026" (sábado e domingo). Módulo 1 (07 e 08/11) online, com semiologia e fisiologia gastrointestinal; módulo 2 (19 e 20/12) online; **3º módulo: 23 e 24/01/2027, online**; 1º presencial no módulo 6 (17 e 18/04/2027), com anatomia prática, prática de cirurgia esofágica, gástrica e intestinal e prática de parasitologia ou transplante fecal; o módulo 13 (27 e 28/11/2027) é presencial, com endoscopia. A página diz "Aulas práticas de anatomia, cirurgia e endoscopia" e "Grupo para discussão de casos entre os alunos e os coordenadores". A ficha cita "Estágios com a cooperação em suas clínicas/hospitais", mas sem as regras do estágio: [CONFIRMAR NO CATÁLOGO]; as mensagens não citam estágio. A ficha não cita aula gravada. Coordenação Esp. Maria Carolina Pappalardo; 38 nomes listados, coordenação incluída (plano do cmo, versão 3). A página tem bloco de prova de bolsa, a frase "CERTIFICADO PELO MEC" e "turma mínima de 20": as mensagens não citam nenhum dos três. Os textos "especialidade emergente e carente de profissionais" e "coordenadores são referências nacionais" da página não são repetidos.
+Ficha: semipresencial, 500 h, 24 módulos, "aberto". Início "7 e 8 novembro de 2026" (sábado e domingo). Módulo 1 (07 e 08/11) online, com semiologia e fisiologia gastrointestinal; módulo 2 (19 e 20/12) online; **3º módulo: 23 e 24/01/2027, online**; módulos 1 a 5 online; 1º presencial no módulo 6 (17 e 18/04/2027), com anatomia prática, prática de cirurgia esofágica, gástrica e intestinal e prática de parasitologia ou transplante fecal; o módulo 13 (27 e 28/11/2027) é presencial, com endoscopia. A página diz "Aulas práticas de anatomia, cirurgia e endoscopia" e "Grupo para discussão de casos entre os alunos e os coordenadores". A ficha cita "Estágios com a cooperação em suas clínicas/hospitais", mas sem as regras do estágio: [CONFIRMAR NO CATÁLOGO]; as mensagens não citam estágio. A ficha não cita aula gravada. Coordenação Esp. Maria Carolina Pappalardo; 38 nomes listados, coordenação incluída (plano do cmo, versão 3). A página tem bloco de prova de bolsa, a frase "CERTIFICADO PELO MEC" e "turma mínima de 20": as mensagens não citam nenhum dos três. Os textos "especialidade emergente e carente de profissionais" e "coordenadores são referências nacionais" da página não são repetidos.
 
 Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails em 28/10 e 02/12; WhatsApp em 29/10, 06/11 (véspera do início), 16/12 e 12/01. O e-mail de 05/11 do D3 saiu do plano. Os três primeiros toques saem antes do início e usam a data de início; os três últimos saem depois e levam a frase da regra completa (seção 1.4). Pausa da mídia em 22/01/2027, 23h59.
 
@@ -814,7 +815,7 @@ Mesmas condições das seções 5.3 e 6.3: entrega com as reservas completas at�
 
 > Olá, [nome],
 >
-> A Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE (turma IX) está em andamento, na sede da Ufape, em São Paulo.
+> A Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE (turma IX, São Paulo) está em andamento. Os módulos 1 a 5 são online; o primeiro presencial é o módulo 6, em 17 e 18/04/2027, na sede da Ufape.
 >
 > A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 >
@@ -908,7 +909,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 **R4. "Perdi o módulo 1 (ou o 2). Como reponho?"**
 - "Antes de você pagar, te explico como ficam os módulos que já aconteceram. Como é a reposição, vou confirmar com a coordenação e te respondo por aqui. Hoje não consigo te prometer gravação nem aula extra." [OU3]
 - 707: pode acrescentar "A página da turma informa aulas teóricas online e ao vivo e acesso a aulas gravadas na plataforma do curso; como isso vale para quem entra depois, confirmo com a coordenação."
-- 68610: pode acrescentar "A página informa que as aulas são online ao vivo, gravada; como isso vale para quem entra depois, confirmo com a coordenação."
+- 68610: pode acrescentar "A página informa que as aulas online são ao vivo e gravadas; como isso vale para quem entra depois, confirmo com a coordenação."
 - 698, módulo 2: "O módulo 2 é presencial, hands-on, em 19 e 20/12/2026. A página diz que aulas presenciais e práticas não são transmitidas nem disponibilizadas. Como fica para quem entra depois dele, vou confirmar e te respondo por aqui." Nunca prometer reposição.
 - 68604, 68606, 698 e 68608: não dizer que as aulas online ficam gravadas (a ficha não cita).
 
@@ -992,11 +993,12 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, campus, modalidade, carga horária, turma e datas (início e 3º módulo) batem com o catálogo e as fichas.
+- [x] Modalidade clara nos e-mails depois do início: dizem que os módulos em curso são online e onde é o primeiro presencial.
 - [x] Nenhum preço, parcela, matrícula ou valor de inscrição.
 - [x] Nenhuma bolsa, prova, frase de certificação ou referência ao MEC.
 - [x] Nenhum "últimas vagas", contador ou número de vagas; turma mínima sem número.
 - [x] A data do 3º módulo só aparece dentro da frase da regra completa; sem "corra" ou "só até".
-- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 e OU8 em aberto).
+- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 e OU8 em aberto); o e-mail de 707 de 24/11 não cita aulas gravadas.
 - [x] Campus dito em todas as mensagens.
 - [x] Nenhum dado pessoal, depoimento ou resultado inventado.
 - [x] 68606: sem os superlativos da página ("referências nacionais", "emergente e carente de profissionais") e sem estágio (regras não confirmadas).
@@ -1008,11 +1010,14 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 ## Mudanças desta versão
 
-**Versão 4 (27/10/2026), lote 2 da E2**
+**Versão 4 (27/10/2026), lote 2 da E2 e correções do qa (N1, M1, M2)**
 - Nova seção 6A: 68606 Pós-graduação em Gastroenterologia Veterinária, com os 6 toques do OA9: T1 (e-mail, 28/10, 9h), T2 (WhatsApp, 29/10, 10h) e W2 (WhatsApp, 06/11, véspera do início), antes do início e com a data de início; E2 (e-mail, 02/12), W3 (WhatsApp, 16/12) e W4 (WhatsApp, 12/01), depois do início, com a frase da regra completa e o 3º módulo em 23/01/2027. O e-mail de 05/11 do D3 não existe mais (plano do cmo, seção 4.3).
+- **N1 (68610):** no e-mail T1 de 28/10, "- aulas online ao vivo e gravadas, e plantões de dúvidas mensais;" (era "online ao vivo, gravada"); em R4, "A página informa que as aulas online são ao vivo e gravadas; como isso vale para quem entra depois, confirmo com a coordenação."
+- **M1 (707):** no E2 de 24/11, a linha sobre aulas gravadas foi trocada por "- atendimentos clínicos reais em mutirões supervisionados." (a frase sobre gravação fica só no T1 e no T2, que saem antes do início).
+- **M2 (707 e 68604):** nos E2, a abertura passa a dizer "está em andamento. Os módulos 1 a 3 são online; o primeiro presencial é o módulo 4, ..., na sede da Ufape.", com o texto do relatório do qa. O mesmo ajuste foi feito, por ser o mesmo problema, no E2 de 68606 (nova): "Os módulos 1 a 5 são online; o primeiro presencial é o módulo 6, em 17 e 18/04/2027, na sede da Ufape."
 - Blocos fixos atualizados só para incluir 68606: áreas (A6), módulo 1 e 1º presencial (módulo 6, 17 e 18/04/2027), frase da regra, link e IDs de UTM.
 - Tabelas 0.1, 0.2 e 8 atualizadas (totais: 24 mensagens; novo choque de 12/01 entre 68604 e 68606; 06/11 resolvido pelo D3; 02/12 contra 616). Seção 7 já cobria 68606; R8 ganhou 68606 no bloco de prova de bolsa.
-- Nenhuma mensagem de 698, 68610, 68608, 707 e 68604 foi alterada.
+- Nenhuma outra mensagem de 698, 68610, 68608, 707 e 68604 foi alterada. Os ajustes recomendados do qa que não bloqueiam (W4 de 707 com a linha B, frase de página no E2 sem link) ficam para decisão do qa e do cmo.
 - Pendente para 30/10: reservas de primeira linha de WhatsApp dos toques posteriores de 707, 68604 e 68606.
 
 **Versão 3 (27/10/2026), pela decisão 18 e pela versão 3 do plano do cmo**
@@ -1033,13 +1038,14 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 - 3º módulo pelas fichas: 707, 18, 19 e 20/12/2026; 68604, 23 e 24/01/2027; 68606, 23 e 24/01/2027; 698, 16 e 17/01/2027; 68610, 30 e 31/01/2027; 68608, 16 e 17/01/2027.
 - Início, turma, campus, modalidade, carga horária e status "aberto" das 6 turmas: catálogo, seção 2 (datas pela planilha, decisão 12).
 - Módulo 1 online nas 6 fichas; 1º presencial: 698 módulo 2 (19 e 20/12/2026), 68610 módulo 5 (20 e 21/03/2027), 68608 módulo 6 (abril de 2027), 707 módulo 4 (29 a 31/01/2027), 68604 módulo 4 (fevereiro de 2027), 68606 módulo 6 (17 e 18/04/2027).
-- 68606: módulo 1 em 07 e 08/11 (semiologia e fisiologia gastrointestinal), módulo 2 em 19 e 20/12, módulo 3 em 23 e 24/01/2027, módulo 6 presencial com anatomia prática, cirurgia esofágica, gástrica e intestinal e parasitologia ou transplante fecal, módulo 13 presencial com endoscopia, "Grupo para discussão de casos entre os alunos e os coordenadores": ficha 68606. Coordenação Esp. Maria Carolina Pappalardo; 38 listados.
+- 68606: módulo 1 em 07 e 08/11 (semiologia e fisiologia gastrointestinal), módulo 2 em 19 e 20/12, módulo 3 em 23 e 24/01/2027, módulos 1 a 5 online, módulo 6 presencial com anatomia prática, cirurgia esofágica, gástrica e intestinal e parasitologia ou transplante fecal, módulo 13 presencial com endoscopia, "Grupo para discussão de casos entre os alunos e os coordenadores": ficha 68606. Coordenação Esp. Maria Carolina Pappalardo; 38 listados.
 - Módulos presenciais e temas das demais: cronogramas das fichas (698: 2, 4, 6, 8 e 10 hands-on; 68610: 7, casos clínicos nos 5 e 9; 68608: 3; 707: 10; 68604: 7).
 - 707: microscópio individual, supervisão, mutirões, "Aulas teóricas online e ao vivo", "Acesso a aulas gravadas, disponíveis na plataforma do curso", sexta a domingo, "CERTIFICAÇÃO DO MEC": ficha 707. 68610: "online ao vivo, gravada", plantões de dúvidas mensais: ficha 68610.
 - Coordenações e professores: 698 (MSc Fernanda Fontalva Cordeiro e mais 4), 68610 ("UFAPE" e 18), 68608 (ESP. Mariana Aldemundo Pereira di Vincenzo e 14), 707 (Dra. Andrea Barbosa, Dra. Angélica Safatle, Juliana Jorge e 19), 68604 (M.V. Carlos Fotin e 11): fichas.
 - Texto de reembolso e de passagem e hotel: fichas, bloco "Considerações".
 - Página de 698 com "28 e 29 de Novembro de 2027": ficha 698. A 68611 tem o mesmo nome da 68604 e não tem data: catálogo.
 - Toques e datas do OA9 (inclusive 68606), regra 6, regra 9, calendário e gates: plano do cmo, versão 3. Teto, fila, dias sem campanha, UTM, E1 a E4: plano geral, seções 12 e 13. Régua das provas (M5 em 06/11, M7 em 10/11 e M9 em 24/11): copy-de-mensagens-pos-2026-10-26.md.
+- Correções N1, M1 e M2: qa-de-marketing-pos-2026-10-27-onda1-mensagens-c.md.
 - Contatos de vendas e secretaria: contexto/ufape-geral.md.
 
 ## [SUPOSIÇÃO]
