@@ -3,6 +3,7 @@
 - **Agente:** analise-de-funil (departamento 08 Conversão), etapa 1.31 da camada 1
 - **Linha:** pos
 - **Data:** 26/10/2026
+- **Versão:** 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
 - **Natureza desta entrega:** não existe nenhum número de funil (visitas, leads, inscrições, matrículas) [CONFIRMAR]. Por isso este arquivo desenha o funil como ele existe hoje, nomeia cada etapa e o evento que a mede, lista hipóteses de queda, propõe a instrumentação mínima e define as perguntas que os números precisam responder primeiro. Nenhuma taxa de conversão foi escrita nem estimada.
 - **Entradas lidas:**
@@ -72,18 +73,18 @@ Conversão entre etapas (a calcular quando houver números, nunca antes):
 | A4 | A5 | checkouts ÷ leads | [CONFIRMAR] |
 | A5 | A6 | pagamentos ÷ checkouts | [CONFIRMAR] |
 | A4 | A7 | matriculados ÷ leads (taxa lead para matrícula, métrica da árvore do analista) | [CONFIRMAR] |
-| A7 | A8 | matriculados da turma ÷ mínimo de alunos (20, contexto da linha) | [CONFIRMAR] |
+| A7 | A8 | matriculados da turma ÷ mínimo de alunos (15, decisão 11 da Ufape, 26/10/2026) | [CONFIRMAR] |
 
 Observação sobre A3 e A4: o candidato de ticket alto pode ir da página direto para o WhatsApp sem passar por COMPRAR, ou comprar sem falar com ninguém. As duas portas existem e a conta de A3 para A4 precisa separar as duas origens [SUPOSIÇÃO: o candidato de pós conversa antes de pagar, hipótese do CRO ainda não validada].
 
 ### 1.2 Trilha B: prova de bolsa (funil paralelo)
 
-Regras lidas nas páginas das 22 provas de 27/11/2026 (iguais em todas, contexto/pos-graduacao.md): inscrição de R$ 100,00, prova presencial, nota de corte 7,0, 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%), 2 dias úteis para recurso, 10 dias úteis para a matrícula depois do resultado.
+Regras lidas nas páginas das 22 provas de 27/11/2026 (iguais em todas, contexto/pos-graduacao.md): inscrição de R$ 100,00, prova presencial nas páginas (decisão 11 da Ufape, 26/10/2026: a prova é online, com o campus dito na peça; prazo de matrícula e canal do resultado pela ficha de cada prova, U1), nota de corte 7,0, 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%), 2 dias úteis para recurso, 10 dias úteis para a matrícula depois do resultado.
 
 ```
 B1 visita à página da prova
   > B2 inscrição na prova (R$ 100,00 pagos)
-    > B3 comparecimento à prova presencial (27/11/2026)
+    > B3 participação na prova online (27/11/2026)
       > B4 resultado (nota de corte 7,0) e divulgação (WhatsApp ou e-mail)
         > B5 bolsa concedida, ou aprovado sem bolsa
           > B6 matrícula dentro de 10 dias úteis
@@ -96,7 +97,7 @@ B1 visita à página da prova
 | B1 | Visita à página da prova | visualizacao_pagina_prova (codigo_prova, especialidade, praça) | GA4 | [CONFIRMAR] |
 | B1b | Chegada vinda da página da turma | clique_prova_bolsa (de qual turma veio) | GA4 | exemplo: 68610 tem "Clique aqui" (E); clique medido [CONFIRMAR] |
 | B2 | Inscrição paga | pedidos pagos da prova, por especialidade e praça | loja | [CONFIRMAR] |
-| B3 | Comparecimento | presentes sobre inscritos | CRM ou lista de presença | [CONFIRMAR] (pedido do analista, seção 4.3) |
+| B3 | Participação | presentes sobre inscritos | CRM ou registro de acesso à prova online [CONFIRMAR U2] | [CONFIRMAR] (pedido do analista, seção 4.3) |
 | B4 | Aprovação | notas acima da nota de corte, em contagem; recursos | CRM | [CONFIRMAR] |
 | B5 | Bolsa | bolsas por faixa (50%, 25%, 10%) e aprovados sem bolsa | CRM | [CONFIRMAR]; a regra de distribuição e o que fazer com aprovado sem bolsa não estão publicadas (CRO, página 3) |
 | B6 | Matrícula | matrículas feitas depois da prova, por prova | CRM | [CONFIRMAR] |
@@ -108,7 +109,7 @@ Conversão entre etapas: B1 para B2, B2 para B3, B3 para B4, B4 para B6 e B6 par
 Três fatos do desenho que o funil precisa registrar, porque mudam a leitura:
 
 1. A turma de destino de cada prova não aparece na página [CONFIRMAR]. Para Felinos, Endoscopia, Nefrologia e Odontologia não há turma futura aberta da mesma área no catálogo (cmo, seção 2.3). Sem destino, B6 não pode ser ligada a uma turma.
-2. O mínimo para confirmar a turma é 15 na página da prova e 20 nas páginas das turmas [CONFIRMAR NO CATÁLOGO]. A8 e B8 mudam conforme o número que valer.
+2. O mínimo para confirmar a turma é 15 alunos, também na Pós (decisão 11 da Ufape, 26/10/2026); as páginas das turmas ainda dizem 20, texto a corrigir no site. A8 e B8 usam 15.
 3. A prova de Dermatologia (68646) é em 27/11/2026 e a turma 68610 começa em 28/11/2026. O prazo de 10 dias úteis para a matrícula cai depois do início da turma, e a regra da 1ª mensalidade ("30 dias antes do início", E) não combina com esse calendário [CONFIRMAR regra para quem entra depois].
 
 ### 1.3 Definições provisórias de etapa [SUPOSIÇÃO]
@@ -133,7 +134,7 @@ Critério de ordem (avaliação do agente, [SUPOSIÇÃO]): quanto a evidência j
 | 1 | **Pagar antes de saber se a turma abre.** A 1ª mensalidade é paga até 30 dias antes do início e o reembolso só ocorre se a turma não for confirmada. A página não diz quando a turma é confirmada. | A4 para A5, A5 para A6, A6 para A7 | Insights H-T1 e H-T2; CRO 707, problemas 2 e 3, e correção 3; fichas lidas (turma mínima de 20, passagem e hotel só com a turma fechada) | motivo de perda "turma pode não abrir" ou "pagamento antecipado" entre os leads perdidos; quedas maiores entre A4 e A6 do que entre A2 e A3 | motivo de perda dominado por preço ou concorrente; leads de turmas já confirmadas com a mesma queda | Alta |
 | 2 | **Caminho único de compra.** Só COMPRAR no texto copiado, para tickets altos; sem "falar com o time", sem formulário. | A2 para A3 e A3 para A4 | CRO páginas 707, 68610 e 68639 (problemas 1 e 2); síntese, item 1; o template exige a seção formulario e as páginas não a têm | muitos visitantes na página e poucos cliques; leads vindos de WhatsApp fora da página; queda grande de A2 para A3 | A2 para A3 em linha com as turmas que já têm WhatsApp na página | Alta |
 | 3 | **Regra da 1ª mensalidade inviável perto do início.** 707 começa em 4 dias (prazo já vencido) e 68610 passa do prazo em 29/10. | A4 para A6 nas turmas com início próximo | CRO 707 (problema 3) e 68610 (problema 5) | perda de leads concentrada nos últimos 30 dias antes do início; perguntas repetidas ao time sobre "posso entrar agora" | leads convertendo igual dentro e fora da janela de 30 dias | Alta nas turmas da onda 1 |
-| 4 | **Prova de bolsa pouco ligada à turma e regras contraditórias.** A página não diz a turma de destino nem o valor da mensalidade com bolsa; mínimo 15 contra 20; resultado e prazo descritos de formas diferentes. | B1 para B2, B4 para B6 | CRO 68639 (problemas 1, 2 e 5); insights H-PB5, H-PB7 e H-PB8; contexto da linha | muitas visitas à prova e poucas inscrições; muitos aprovados e poucas matrículas; perguntas sobre "para qual turma vale" | inscrição e matrícula altas mesmo nas provas sem destino claro | Alta (campanha única de 27/11, 32 dias) |
+| 4 | **Prova de bolsa pouco ligada à turma e regras contraditórias.** A página não diz a turma de destino nem o valor da mensalidade com bolsa; mínimo 15 contra 20 nas páginas (vale 15, decisão 11); resultado e prazo descritos de formas diferentes. | B1 para B2, B4 para B6 | CRO 68639 (problemas 1, 2 e 5); insights H-PB5, H-PB7 e H-PB8; contexto da linha | muitas visitas à prova e poucas inscrições; muitos aprovados e poucas matrículas; perguntas sobre "para qual turma vale" | inscrição e matrícula altas mesmo nas provas sem destino claro | Alta (campanha única de 27/11, 32 dias) |
 | 5 | **Atendimento: demora na primeira resposta e instabilidade do WhatsApp.** O WhatsApp de vendas é o canal principal; o site informou instabilidade em 22/10/2026. | A4 para A5 e A4 para A7 | ufape-geral.md (canais e ferramentas); cmo, seção 5 (WhatsApp como canal principal). Não há dado de tempo de resposta | conversão de lead para matrícula menor nas faixas de resposta mais lenta; conversas sem resposta no Chatwoot | tempo de resposta curto e estável com a mesma queda | Média, sobe para alta se a mediana for longa |
 | 6 | **Turma mínima enterrada no fim da página.** O candidato descobre o risco de a turma não fechar tarde, depois de ler 24 módulos. | A2 para A3 e depois A4 para A6 | CRO 707 (problema 2); insights H-T1; rolagem até CONSIDERAÇÕES [CONFIRMAR] | profundidade de rolagem baixa até CONSIDERAÇÕES e perguntas sobre turma no WhatsApp | candidatos que leram CONSIDERAÇÕES e mesmo assim saem | Média |
 | 7 | **Prática real e rotina de viagem não explicadas.** Quantos módulos exigem viagem, onde é a prática, quantos alunos por mesa ficam invisíveis. | A2 para A3 | CRO 707 e 68610 (problema 6); insights H-A4.2, H-A9.1 e H-A14.3 | perguntas sobre viagem e prática no WhatsApp; motivo de perda "deslocamento" | motivo de perda irrelevante nesse tema | Média |
@@ -175,14 +176,14 @@ Nada disso é marcação de pessoa. Os carimbos de tempo viram só a mediana por
 
 ### 3.3 UTM
 
-Padrão proposto [SUPOSIÇÃO; conferir com o padrão de UTM da squad, que não foi aberto nesta etapa]:
+Padrão único da squad (D11 e D12 da seção 12 do plano do cmo):
 
 | Parâmetro | Valor | Exemplo |
 |---|---|---|
-| utm_source | plataforma | meta, google, instagram, whatsapp, email |
-| utm_medium | tipo de mídia | cpc, organico, disparo, bio |
-| utm_campaign | código do catálogo e tipo | 707_pos, 68610_pos, prova_bolsa_20261127 |
-| utm_content | formato e ângulo | estatico_a1, video_a3 |
+| utm_source | plataforma ou canal | meta, tiktok, linkedin, google, instagram, facebook, youtube, whatsapp, email |
+| utm_medium | só crm, newsletter, organic_social, paid_social ou cpc | paid_social (Meta, TikTok, LinkedIn), cpc (Google), crm (WhatsApp e e-mail pelo CRM), organic_social (orgânico) |
+| utm_campaign | chave do item, <linha>_<código do catálogo>; no CRM, na newsletter e no orgânico, chave + _<AAAAMM>; no pago, o nome da campanha | pos_68610_202611, pos_provas20261127_202611, pos_707_meta_<objetivo>_<público>_<AAAAMM> |
+| utm_content | ID da mensagem ou da peça | m2-a1-anest-68639, c01 |
 | utm_term | termo (busca paga) | palavra-chave somada, sem dado pessoal |
 
 Para a campanha única das provas de bolsa, o código da prova (68639, 68646 e os outros) vai em utm_content, para a variação por especialidade ser lida sem criar uma campanha por prova.
@@ -309,11 +310,18 @@ desenho-de-experimentos, depois que a Ufape enviar o pedido de dados (analista, 
 
 ---
 
+## Mudanças desta versão
+
+- Trilha B: prova online (decisão 11); B3 passa a ser participação na prova online, medida pelo acesso (U2); prazo e canal do resultado pela ficha de cada prova (U1).
+- A8, B8 e listas: turma mínima de 15 alunos, também na Pós (decisão 11).
+- Seção 3.3: UTM no padrão D11 e D12 (utm_medium só crm, newsletter, organic_social, paid_social e cpc; utm_campaign pela chave do item); saem organico, disparo e bio.
+- Dados que faltam: datas pela planilha (decisão 12).
+
 ## Fatos (com fonte)
 
 - Não existe número de funil hoje (briefing do pedido; analista-de-dados, seção 0).
-- A turma mínima da Pós é 20 nas páginas das turmas e 15 na página da prova de bolsa (contexto/pos-graduacao.md).
-- A prova de bolsa tem inscrição de R$ 100,00, prova presencial em 27/11/2026, nota de corte 7,0, 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%), 2 dias úteis de recurso e 10 dias úteis para matrícula (contexto/pos-graduacao.md).
+- A turma mínima da Pós é 15 alunos (decisão 11 da Ufape, 26/10/2026); as páginas das turmas dizem 20 e a da prova de bolsa 15 (contexto/pos-graduacao.md).
+- A prova de bolsa tem inscrição de R$ 100,00, prova online em 27/11/2026 (decisão 11 da Ufape; as páginas diziam presencial), nota de corte 7,0, 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%), 2 dias úteis de recurso e 10 dias úteis para matrícula (contexto/pos-graduacao.md).
 - A matrícula é de R$ 250,00 e a 1ª mensalidade é paga, na maioria das páginas, 30 dias antes do início (contexto/pos-graduacao.md).
 - As páginas 707, 68610 e 68639 têm COMPRAR como único caminho de ação no texto copiado (analise-cro-pos, síntese, item 1).
 - 707 começa em 30/10/2026 (4 dias); 68610 em 28/11/2026 (33 dias); as provas são em 27/11/2026 (32 dias) (analise-cro-pos).
@@ -329,7 +337,7 @@ desenho-de-experimentos, depois que a Ufape enviar o pedido de dados (analista, 
 - [SUPOSIÇÃO] O candidato de pós conversa com o time antes de pagar, e por isso o caminho único prejudica (hipótese do analise-cro, não validada).
 - [SUPOSIÇÃO] A maior parte dos candidatos chega pelo celular.
 - [SUPOSIÇÃO] As definições provisórias de lead, inscrito, matriculado e turma confirmada da seção 1.3.
-- [SUPOSIÇÃO] Os nomes de evento, o padrão de UTM e a lista de motivos de perda são propostas, a validar com a Ufape e com o padrão de UTM da squad.
+- [SUPOSIÇÃO] Os nomes de evento e a lista de motivos de perda são propostas, a validar com a Ufape. O padrão de UTM é o D11 e D12 do plano do cmo.
 - [SUPOSIÇÃO] A janela de dados a partir de 01/08/2026 (proposta do analista).
 - [SUPOSIÇÃO] A ordem de prioridade das hipóteses e a regra de tratar primeiro a etapa mais próxima do pagamento são avaliação do agente.
 - [SUPOSIÇÃO] O candidato pode usar a trilha A e a trilha B ao mesmo tempo, e a compra direta pode vir sem lead no CRM (compra pela loja sem conversa).
@@ -338,12 +346,13 @@ desenho-de-experimentos, depois que a Ufape enviar o pedido de dados (analista, 
 
 - [CONFIRMAR] Todos os contadores das etapas A1 a A9 e B1 a B8, por turma e por semana (Meta Ads, Google Ads, GA4, loja, CRM, Chatwoot).
 - [CONFIRMAR] O que o botão COMPRAR cobra (matrícula, 1ª mensalidade ou os dois).
-- [CONFIRMAR] Quando a turma é confirmada e quem decide; qual mínimo vale (15 ou 20).
+- [CONFIRMAR] Quando a turma é confirmada e quem decide.
+- [CONFIRMAR U2] Como é o acesso à prova online e como se registra a presença.
 - [CONFIRMAR] Definições do CRM de lead, inscrito, matriculado e cancelamento.
 - [CONFIRMAR] Ferramenta de CRM, GA4 e atendimento; se as páginas têm tag e eventos de clique; se existe botão de WhatsApp e formulário nas páginas.
 - [CONFIRMAR] Tempo da primeira resposta e horário de atendimento do time.
 - [CONFIRMAR] Turma de destino de cada prova, regra de distribuição das bolsas, data do resultado e regra para quem passa sem bolsa.
 - [CONFIRMAR] Regra da 1ª mensalidade para quem entra com o início próximo e data-limite de matrícula.
 - [CONFIRMAR] Histórico de provas e turmas equivalentes (inscritos, presentes, matrículas) para comparar períodos.
-- [CONFIRMAR] Código do catálogo no nome das campanhas e uma data única de início para os itens com datas divergentes.
+- [CONFIRMAR] Código do catálogo no nome das campanhas. Data de início: nas divergências vale a da planilha, inclusive 68662 e 662 (decisão 12).
 - [CONFIRMAR] Quem aprova metas, páginas e preços, mensagens em massa e verba (ufape-geral.md, tabela vazia).

@@ -3,10 +3,11 @@
 - Agente: insights-de-alunos
 - Linha: pos
 - Data: 26/10/2026
+- Versão: 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). O resto do arquivo segue a versão 1. Mudanças no fim do arquivo.
 - Etapa: 1.3 da camada 1 (plano do cmo, seção 4; pendência P14)
 - Status: rascunho para a auditoria 01-qualidade-de-pesquisa e para auditorias/conformidade-educacional.md. Nada foi publicado, enviado ou pago.
 - Natureza do material: a Ufape ainda não enviou conversas do WhatsApp de vendas, avaliações do Google, reclamações do Reclame Aqui nem respostas de pesquisa [CONFIRMAR]. Não existe voz real de candidato ou de aluno neste arquivo. Tudo o que está nas seções 3 a 5 é hipótese [SUPOSIÇÃO], deduzida do que as páginas da própria Ufape já respondem (perguntas frequentes, público-alvo, textos de "para quem é", regras de turma mínima, passagens e pagamento). Nenhuma citação de cliente foi inventada.
-- Dados pessoais: nenhum. Docentes e coordenadores não são nomeados (autorização de imagem e voz ainda não registrada, pendência P13).
+- Dados pessoais: nenhum. Docentes e coordenadores não são nomeados neste arquivo. A autorização de uso de imagem e de citação de docentes, palestrantes e convidados foi registrada pela Ufape em 26/10/2026 (decisões 8 e 10), o que fecha a pendência P13; citação de aluno continua exigindo autorização registrada (seção 7).
 
 ## Entradas lidas
 
@@ -58,7 +59,7 @@ Para a fronteira com Livres, foram lidas também 24 fichas de contexto/cursos/li
 
 | ID | Quem | Tipo | Hipótese | Ficha de origem e o que a página mostra |
 |---|---|---|---|---|
-| H-T1 | candidato | objeção | Medo de pagar e a turma não abrir. O candidato quer saber quando a turma está confirmada antes de reservar viagem e antes de pagar. [SUPOSIÇÃO] | Fichas 68607, 359, 68605, 698, 666, 68632, 68604, 68606 (lidas por inteiro): "Turma mínima de 20 alunos", "eventualmente a turma pode não completar o número mínimo", compra de passagens e hotel só uma semana antes ou com a turma fechada. Campo "Vagas" com mínimo 20 em 15 das 17 turmas lidas (faltam em 698 e 719). |
+| H-T1 | candidato | objeção | Medo de pagar e a turma não abrir. O candidato quer saber quando a turma está confirmada antes de reservar viagem e antes de pagar. [SUPOSIÇÃO] | Fichas 68607, 359, 68605, 698, 666, 68632, 68604, 68606 (lidas por inteiro): "Turma mínima de 20 alunos", "eventualmente a turma pode não completar o número mínimo", compra de passagens e hotel só uma semana antes ou com a turma fechada. Campo "Vagas" com mínimo 20 em 15 das 17 turmas lidas (faltam em 698 e 719). Decisão da Ufape em 26/10/2026 (decisão 11): a turma mínima é de 15 alunos, também nas turmas de Pós; o 20 das páginas é texto a corrigir no site. |
 | H-T2 | candidato | confusão | Estranha a ordem de eventos: a 1ª mensalidade é paga até 30 dias antes do início e a turma pode não abrir. "Pago antes de saber se fecha?" [SUPOSIÇÃO] | Mesmas 8 fichas: "1ª mensalidade deverá ser paga até 30 dias de antecedência" e "reembolso só será devido caso a turma não seja confirmada". Não há na ficha a data em que a turma é confirmada [CONFIRMAR]. |
 | H-T3 | candidato | objeção | Risco percebido de perder dinheiro com passagem e hotel em caso de adiamento. [SUPOSIÇÃO] | Mesmas 8 fichas: a Ufape "não se responsabiliza pelo ressarcimento de passagens e/ou hospedagem em caso de adiamento das aulas presenciais". |
 | H-T4 | candidato e aluno | objeção | Tempo: um fim de semana por mês por cerca de 2 anos, com trabalho de clínica e plantão. [SUPOSIÇÃO] | Cronogramas de 68607 (módulos até 2028), 68632 (módulos até março de 2029), 68605 (até 2028), 666 (28 módulos). Contexto da linha: formato de 1 módulo por mês. |
@@ -216,12 +217,12 @@ Cada área lista as fichas efetivamente lidas. Onde a área tem turmas do recort
 
 ## 4. Provas de bolsa (fichas lidas: 68639 Anestesiologia SP, 68647 Diagnóstico por Imagem SP, 68652 Medicina de Felinos SP)
 
-As três fichas seguem o mesmo molde: prova presencial de 9h às 13h em 27/11/2026, nota de corte 7,0, resultado divulgado por canais que variam, matrícula em até 10 dias úteis. Preço e data vêm de contexto/pos-graduacao.md e do catálogo (inscrição de R$ 100,00 no site). Os números de bolsas e percentuais estão só nas fichas e levam [CONFIRMAR NO CATÁLOGO].
+As três fichas seguem o mesmo molde: prova presencial de 9h às 13h em 27/11/2026, nota de corte 7,0, resultado divulgado por canais que variam, matrícula em até 10 dias úteis. Decisão da Ufape em 26/10/2026 (decisão 11): as provas são online, e não presenciais como as fichas diziam; vale a regra escrita na ficha de cada prova, e onde a ficha se contradiz por dentro (prazo de matrícula, canal do resultado) a regra fica [CONFIRMAR U1]. Toda peça diferencia o campus (São Paulo ou Goiânia). Preço e data vêm de contexto/pos-graduacao.md e do catálogo (inscrição de R$ 100,00 no site). Os números de bolsas e percentuais estão só nas fichas e levam [CONFIRMAR NO CATÁLOGO].
 
 | ID | Quem | Tipo | Hipótese | Ficha de origem e o que a página mostra |
 |---|---|---|---|---|
 | H-PB1 | candidato | dúvida | "O que cai na prova? Como estudar?" Só a ficha de Felinos traz conteúdo e bibliografia sugerida. As de Anestesiologia e Diagnóstico por Imagem não. [SUPOSIÇÃO] | 68652 (seções "Conteúdo" e "Bibliografia sugerida") frente a 68639 e 68647 (sem essas seções). |
-| H-PB2 | candidato | objeção | Para quem mora longe, pagar R$ 100,00 e viajar para uma prova presencial de 4 horas pesa. "Tem versão online?" [SUPOSIÇÃO] | 68639, 68647 e 68652: "PROVA PRESENCIAL", local São Paulo. |
+| H-PB2 | candidato | objeção | Para quem mora longe, pagar R$ 100,00 e viajar para uma prova presencial de 4 horas pesa. "Tem versão online?" [SUPOSIÇÃO] | 68639, 68647 e 68652: "PROVA PRESENCIAL", local São Paulo. Decisão da Ufape em 26/10/2026 (decisão 11): as provas são online; a objeção da viagem cai e fica a dúvida de como é o acesso [CONFIRMAR U2]. O campus (São Paulo ou Goiânia) segue dito na peça. |
 | H-PB3 | candidato | dúvida | "Quantas bolsas existem? Qual a chance? Vale pagar R$ 100,00?" Há poucas bolsas por prova e nota de corte alta. [SUPOSIÇÃO] | Fichas: 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10%; nota de corte 7,0 [CONFIRMAR NO CATÁLOGO]. |
 | H-PB4 | candidato | dúvida | "O que significa 50% (monitoria)? Que obrigações tem o monitor?" [SUPOSIÇÃO] | 68639, 68647 e 68652, tabela de bolsas. Regras da monitoria [CONFIRMAR]. |
 | H-PB5 | candidato | confusão | Regras que se contradizem na mesma ficha: resultado "via telefone (WhatsApp e/ou e-mail)", "via email" e "no site"; prazo de matrícula de 10 dias e de 7 dias; mínimo de 15 alunos para confirmar a turma e turma mínima de 20 nas páginas dos cursos. "Em quanto tempo preciso decidir? Quantos fecham a turma?" [SUPOSIÇÃO] | 68652 (campos "Considerações", "Divulgação do resultado" e "Regras"). Relação com H-T1. |
@@ -475,15 +476,22 @@ Regras de aplicação: não sugerir resposta, não prometer resultado, não fala
 
 Próximo agente: o plano do cmo coloca pesquisa-de-persona (etapa 1.4) logo depois desta; a camada 2 continua com mensagens (etapa 2.2). Sugestão: mensagens, com estas hipóteses marcadas como [SUPOSIÇÃO] até chegarem as conversas.
 
+## Mudanças desta versão
+
+- Cabeçalho: autorização de imagem e citação registrada para docentes, palestrantes e convidados (decisões 8 e 10); pendência P13 fechada.
+- H-T1 e fatos: turma mínima de 15 alunos, também na Pós (decisão 11); o 20 das páginas fica como texto a corrigir no site.
+- Seção 4, H-PB2 e fatos: o que as fichas diziam ("PROVA PRESENCIAL") fica registrado, com a correção de que as provas são online, com a regra de cada ficha, campus dito na peça e as dúvidas U1 e U2.
+- Dados que faltam: sai a autorização de docentes; entram U1 e U2.
+
 ## 11. Listas finais
 
 ### Fatos (com fonte)
 
 - A Ufape ainda não enviou conversas, avaliações nem pesquisas (pedido desta rodada).
-- Turma mínima de 20 alunos consta no campo "Vagas" de 15 das 17 turmas lidas (fichas, campo "Vagas"). A turma que pode não ser formada, o reembolso só se a turma não for confirmada e a ausência de ressarcimento de passagens constam nas 8 fichas lidas por inteiro (68607, 359, 68605, 698, 666, 68632, 68604 e 68606).
+- Turma mínima de 20 alunos consta no campo "Vagas" de 15 das 17 turmas lidas (fichas, campo "Vagas"). A turma que pode não ser formada, o reembolso só se a turma não for confirmada e a ausência de ressarcimento de passagens constam nas 8 fichas lidas por inteiro (68607, 359, 68605, 698, 666, 68632, 68604 e 68606). Decisão da Ufape em 26/10/2026 (decisão 11): turma mínima de 15 alunos, também nas turmas de Pós.
 - A 1ª mensalidade é paga até 30 dias antes do início nas 8 fichas lidas por inteiro.
 - Preços, parcelas, cargas horárias, datas e status citados vêm de contexto/catalogo-de-cursos.md, seção 2.
-- As provas de bolsa 68639, 68647 e 68652 trazem prova presencial em 27/11/2026, das 9h às 13h, nota de corte 7,0, 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10% (fichas; números ainda fora do catálogo).
+- As provas de bolsa 68639, 68647 e 68652 trazem prova presencial em 27/11/2026, das 9h às 13h, nota de corte 7,0, 2 bolsas de 50% (monitoria), 4 de 25% e 5 de 10% (fichas; números ainda fora do catálogo). Decisão da Ufape em 26/10/2026 (decisão 11): as provas são online, com a regra escrita na ficha de cada prova (docs/execucao-2026-10-26.md).
 - 15 das 17 turmas lidas usam a frase de certificação ligada ao MEC (fichas); a squad não a repete.
 - Divergências listadas na seção 6 constam nos campos "Alertas" ou no texto das fichas citadas.
 - A pós 68604 e a 68611 são páginas distintas no catálogo, com a mesma turma VI (catálogo).
@@ -505,4 +513,5 @@ Próximo agente: o plano do cmo coloca pesquisa-de-persona (etapa 1.4) logo depo
 - Texto oficial de certificação e a regra de desconto de aluno e ex-aluno [PREENCHER COM A REGULAÇÃO] e [PREENCHER].
 - Desconto de 12% da ficha 359 e duração da ficha 666: [CONFIRMAR NO CATÁLOGO]. Números de bolsas e percentuais das provas: no contexto da linha desde 26/10.
 - Fichas de Pós não lidas nesta rodada (turmas 289, 68636, 68635, 68623, 578, 662, 366, 68615, 333, 679, 699, 382, 352, 60, 68612 e as demais provas de bolsa) e o fim do cronograma das 9 fichas lidas em parte.
-- Autorização de uso de imagem e voz de docentes (pendência P13) e de qualquer citação de aluno em peça pública.
+- Autorização de qualquer citação de aluno em peça pública. A de docentes, palestrantes e convidados foi registrada em 26/10/2026 (decisões 8 e 10).
+- Como é o acesso à prova online (U2) e qual bloco vale nas fichas de prova que se contradizem por dentro (U1) [CONFIRMAR].

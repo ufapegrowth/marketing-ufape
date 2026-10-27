@@ -3,6 +3,7 @@
 - Agente: pesquisa-de-persona (etapa 1.4 da camada 1)
 - Linha: pos
 - Data: 26/10/2026
+- Versão: 3 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: versão 2, corrigida a partir do veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep01b.md, seção 1, itens P1 a P6). Rascunho para nova auditoria. Nada é publicado, enviado ou pago.
 - Natureza do material: a Ufape ainda não enviou conversas do WhatsApp de vendas, avaliações, pesquisas nem anotações da captação (insights-de-alunos, pedido de dados da seção 8). Não existe voz real de candidato ou de aluno neste arquivo. Nenhuma citação de cliente foi inventada. Onde o modelo pede "palavras dela", escrevo hipóteses de fala marcadas [SUPOSIÇÃO], com o ID da hipótese e a ficha que as sustenta. Hipótese de fala não é citação e não pode virar depoimento nem texto de anúncio como se fosse fala de cliente.
 - Dados pessoais: nenhum. Docentes não são nomeados.
@@ -93,7 +94,7 @@ Nome do segmento: Clínico de pequenos animais, de 1 a 8 anos de formado, que qu
 |---|---|---|---|
 | 1 | Investimento alto: total de R$ 28.050,00 (333) a R$ 47.700,00 (707, 600 h) nas turmas abertas de 500 h ou mais. Considerando todas as abertas, de R$ 12.000,00 (719, outro público) a R$ 48.400,00 (657, 360 h) (H-T10) | Mostrar parcela, número de parcelas, total e matrícula, como manda a regra da linha. Exemplos: 68604, 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00; 333, 30x de R$ 935,00, total de R$ 28.050,00, matrícula de R$ 250,00. Apresentar a prova de bolsa de R$ 100,00 como forma de reduzir o valor | Preços do catálogo (site em 26/10/2026). Regras da bolsa: contexto/pos-graduacao.md, a lançar no catálogo [CONFIRMAR NO CATÁLOGO]. Não comparar preço com Anclivepa, Qualittas e Equalis: sem fonte |
 | 2 | Tempo: um fim de semana por mês durante cerca de 2 anos, com plantão (H-T4, H-A3.4) | Dizer o formato com clareza: 1 módulo por mês, sábado e domingo, aulas online e módulos presenciais obrigatórios (contexto da linha). Informar as datas do módulo presencial quando a ficha trouxer | Contexto da linha e cronogramas das fichas. Regra de reposição de módulo: [CONFIRMAR] |
-| 3 | Medo de pagar e a turma não fechar (H-T1 a H-T3) | Ser transparente: turma mínima de 20 alunos (contexto da linha), a Ufape orienta comprar passagem e hotel só com a turma confirmada. Reembolso só se a turma não for confirmada (fichas lidas) | Fichas 68607, 359, 68605, 698, 666, 68632, 68604 e 68606 [CONFIRMAR NO CATÁLOGO]. A data em que a turma é confirmada não existe: [CONFIRMAR]. Mínimo diverge (15 na página da prova, 20 nas páginas dos cursos). Sem "últimas vagas" |
+| 3 | Medo de pagar e a turma não fechar (H-T1 a H-T3) | Ser transparente: turma mínima de 15 alunos (decisão 11 da Ufape, 26/10/2026, que vale também para a Pós), a Ufape orienta comprar passagem e hotel só com a turma confirmada. Reembolso só se a turma não for confirmada (fichas lidas) | Fichas 68607, 359, 68605, 698, 666, 68632, 68604 e 68606 [CONFIRMAR NO CATÁLOGO]. A data em que a turma é confirmada não existe: [CONFIRMAR]. As páginas dos cursos dizem 20 e a da prova 15; a Ufape decidiu 15 em 26/10/2026 (decisão 11), e o 20 das páginas é texto a corrigir no site. Sem "últimas vagas" |
 | 4 | "O que o certificado permite?" (H-T8) | Não prometer. Dizer o que consta: certificado de especialização lato sensu (contexto da linha). Encaminhar dúvida sobre título de especialista e concurso à secretaria | Texto oficial de certificação: [PREENCHER COM A REGULAÇÃO]. Nada de MEC |
 
 **Onde passa o tempo (canais)** [SUPOSIÇÃO; não há dado de canal por perfil de veterinário]
@@ -121,7 +122,7 @@ Linha de negócio: Pós-graduação
 Nome do segmento: Candidato que usa a prova de bolsa como porta de entrada
 
 **Quem é**
-- Mesma base de P1, P2 e P3, em um comportamento específico: quer a pós, mas o preço total é a maior barreira, então testa a prova antes de decidir [SUPOSIÇÃO, H-PB8]. A prova é presencial, de 9h às 13h, em São Paulo ou Goiânia, com inscrição de R$ 100,00 (site; fichas 68639, 68647, 68652 lidas).
+- Mesma base de P1, P2 e P3, em um comportamento específico: quer a pós, mas o preço total é a maior barreira, então testa a prova antes de decidir [SUPOSIÇÃO, H-PB8]. As fichas lidas (68639, 68647, 68652) diziam prova presencial, das 9h às 13h; decisão da Ufape em 26/10/2026 (decisão 11): a prova é online, vale a regra escrita na ficha de cada prova e a peça diz o campus (São Paulo ou Goiânia). Inscrição de R$ 100,00 (site).
 - Também considera a bolsa do concorrente: a Anclivepa-SP teria inscrições até 07/11/2026 e taxa de R$ 350,00 (edital do ciclo de fevereiro de 2027, resumo de busca de 26/10/2026, [CONFIRMAR no edital oficial]). A prova presencial dela seria em 14/11/2026 e os bolsistas sairiam em 05/12/2026, segundo cópia não oficial do edital [CONFIRMAR no edital oficial]. Quem presta as duas decide depois de ver as duas notas [SUPOSIÇÃO].
 - Quem decide e paga: o candidato [SUPOSIÇÃO].
 
@@ -174,14 +175,14 @@ As outras 10 provas abertas (68640, 68642, 68644, 68645, 68648, 68654, 68657, 68
 | # | Objeção (hipótese) | Resposta possível | Prova e limite |
 |---|---|---|---|
 | 1 | "Pago R$ 100,00 e talvez não ganho nada" (H-PB3) | Falar do custo baixo de entrada (R$ 100,00) e dizer o número de bolsas (11 por prova) sem prometer resultado. Falar em quantidade de bolsas e custo de entrada, não em percentual de 50% (a Ufape tem só 2 por prova). A comparação com a taxa da Anclivepa-SP (R$ 350,00) não entra em peça por ora: o valor vem de resumo de busca e está [CONFIRMAR no edital oficial]. Comparação com concorrente só em peça aprovada pelo responsável de contexto/ufape-geral.md (nome ainda [PREENCHER]), depois de conferir a fonte primária | Inscrição: site e contexto da linha. Taxa e bolsa da Anclivepa: resumo de busca de 26/10/2026 (inteligencia-concorrencia). Número de bolsas do concorrente: sem fonte |
-| 2 | "Moro longe, tenho que viajar para uma prova presencial de 4 horas" (H-PB2) | Informar local e horário com antecedência. Sem versão online na ficha | Fichas 68639, 68647 e 68652: prova presencial. Não inventar versão online |
+| 2 | "Moro longe, tenho que viajar para uma prova presencial de 4 horas" (H-PB2) | Decisão da Ufape em 26/10/2026 (decisão 11): a prova é online, sem viagem. Dizer o campus (São Paulo ou Goiânia), a data e o horário como na ficha da prova e explicar o acesso quando a Ufape confirmar [CONFIRMAR U2] | As fichas 68639, 68647 e 68652 diziam prova presencial; vale a decisão 11. Não inventar plataforma nem forma de acesso |
 | 3 | "A bolsa vale para qual turma?" (H-PB7) | Não indicar turma de destino enquanto a Ufape não confirmar. Para as 12 provas da tabela acima, dizer só que o destino será informado | Destino de cada prova: [CONFIRMAR destino]. Uma prova sem turma vira só inscrição de R$ 100,00, risco de reclamação |
 
 **Onde passa o tempo**: mesmos canais de P1, mais a página da prova no site e o WhatsApp de vendas. A decisão aparece em duas janelas: antes da prova (informação) e depois do resultado (10 dias úteis para matrícula) [SUPOSIÇÃO].
 
 **O que desqualifica**
 - Candidato de área sem turma de destino certa (as 12 provas da tabela) até a Ufape confirmar o destino.
-- Quem não pode comparecer à prova presencial em 27/11/2026.
+- Quem não pode fazer a prova online em 27/11/2026, no horário da ficha (decisão 11 da Ufape; as fichas diziam prova presencial).
 - Candidato de Oftalmologia: a prova 68656 está fora do ar (catálogo); sem prova, a porta não funciona nessa área.
 
 **Evidências usadas**: insights-de-alunos seção 4 (H-PB1 a H-PB8); inteligencia-concorrencia seção 6 (alertas 1 e 2); catálogo seção 3; contexto/pos-graduacao.md (regras da bolsa); QA dep01b tabela 6.1.
@@ -384,6 +385,12 @@ Conclusão: pronta para nova revisão do qa-de-marketing como rascunho de hipót
 8. Ufape: confirmar pré-requisitos de entrada por turma (nível, residência em 359, estudante de último ano em 699, "graduandos" na Nutrologia) antes de peça de oferta, porque definem quem é desqualificado.
 9. Ufape: conferir no edital oficial da Anclivepa-SP a taxa, as datas e o número de bolsas, antes de qualquer comparação em peça, e indicar quem aprova peça com comparação de concorrente.
 
+## Mudanças desta versão
+
+- P4 (seção 2): as provas são online (decisão 11); a objeção 2 deixa de pedir viagem e passa a depender do acesso [CONFIRMAR U2]; a peça diz o campus; o que desqualifica deixa de ser "não poder comparecer".
+- P1, objeção 3, e Lista 1: turma mínima de 15 alunos, também na Pós (decisão 11); o 20 das páginas fica como texto a corrigir no site.
+- Lista 3: sai a dúvida "15 ou 20" e a marca de autorização de docentes (decisões 8 e 10); entram U1 e U2.
+
 ---
 
 ## Lista 1. Fatos com fonte
@@ -395,9 +402,9 @@ Catálogo (contexto/catalogo-de-cursos.md, 26/10/2026):
 - Zero turmas EAD abertas; 586 em "verificar".
 - 4 turmas abertas em Goiânia (289, 68632, 68609, 68623) e 3 provas (68640, 68642, 68644).
 
-Contexto da linha (contexto/pos-graduacao.md): formato semipresencial com 1 módulo por mês em fim de semana, cerca de 2 anos; turma mínima de 20; inscrição da prova de R$ 100,00; regras de bolsa lidas das páginas das provas em 26/10/2026 (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; 2 dias úteis de recurso; 10 dias úteis de matrícula).
+Contexto da linha (contexto/pos-graduacao.md): formato semipresencial com 1 módulo por mês em fim de semana, cerca de 2 anos; turma mínima de 20 na versão lida (decisão da Ufape em 26/10/2026: 15, também na Pós; provas online); inscrição da prova de R$ 100,00; regras de bolsa lidas das páginas das provas em 26/10/2026 (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; 2 dias úteis de recurso; 10 dias úteis de matrícula).
 
-Fichas via insights-de-alunos: turma mínima de 20, 1ª mensalidade até 30 dias antes do início e sem ressarcimento de passagem em caso de adiamento nas 8 fichas lidas por inteiro; horários do módulo presencial da 68607; ficha de 359 exige residência ou pós em anestesiologia; ficha de 719 lista profissionais de saúde e TI como público.
+Fichas via insights-de-alunos: turma mínima de 20 nas páginas (texto a corrigir no site; vale 15 pela decisão 11 da Ufape), 1ª mensalidade até 30 dias antes do início e sem ressarcimento de passagem em caso de adiamento nas 8 fichas lidas por inteiro; horários do módulo presencial da 68607; ficha de 359 exige residência ou pós em anestesiologia; ficha de 719 lista profissionais de saúde e TI como público.
 
 Concorrência (inteligencia-concorrencia, 26/10/2026, por resumo de busca, a conferir no edital oficial): taxa de R$ 350,00 e bolsa de 50% da Anclivepa-SP, com inscrições de 01/08 a 07/11/2026; mensalidade de R$ 1.920,00 da UFPA com FADESP (18 meses); editais de residência de UEL e UFRRJ; ofertas de agregador citadas na seção 3 daquele arquivo.
 
@@ -425,17 +432,18 @@ Mercado (pesquisa-de-mercado): média CLT de R$ 4.670,73 a R$ 5.054,00; piso de 
 - [CONFIRMAR] Lista dos melhores alunos (matriculados que ficaram e concluíram), em agregado por curso: idade em faixa, tempo de formado em faixa, origem (mesma cidade, mesmo estado, outro estado), quem pagou, se fez a prova de bolsa.
 - [CONFIRMAR] Conversas do WhatsApp de vendas (SP e Goiânia), avaliações do Google, Reclame Aqui, pesquisas e anotações da captação, anonimizados.
 - [CONFIRMAR] Funil por turma: leads, inscritos nas provas, matriculados, conversão de prova em matrícula.
-- [CONFIRMAR] Quando a turma é confirmada; regra de reposição de módulo; lista de documentos de matrícula; lotação mínima real (15 ou 20); acumulação de bolsa com descontos de 341 (20%), 359 (12%) e 352 (10%).
+- [CONFIRMAR] Quando a turma é confirmada; regra de reposição de módulo; lista de documentos de matrícula; acumulação de bolsa com descontos de 341 (20%), 359 (12%) e 352 (10%).
 - [CONFIRMAR destino] Turma de destino das 12 provas: 68652, 68649, 68653, 68655, 68650, 68647, 68641, 68643, 68639, 68660, 68646 e 68651. As outras 10 abertas também dependem de confirmação da Ufape.
 - [CONFIRMAR no edital oficial] Taxa de R$ 350,00, datas (inscrição até 07/11/2026, prova em 14/11/2026, bolsistas em 05/12/2026) e número de bolsas da Anclivepa-SP.
-- [CONFIRMAR NO CATÁLOGO] Regras da prova de bolsa (11 bolsas, percentuais, nota de corte, prazos) e as contradições entre fichas; pré-requisitos por turma; local das aulas de 341; ato regulatório e público de 719.
+- [CONFIRMAR NO CATÁLOGO] Regras da prova de bolsa (11 bolsas, percentuais, nota de corte, prazos) e as contradições entre fichas (onde a ficha da prova se contradiz por dentro: [CONFIRMAR U1]); pré-requisitos por turma; local das aulas de 341; ato regulatório e público de 719.
 - [CONFIRMAR] Valor da média CLT de 39 h (R$ 4.670,73 ou R$ 4.607,16) e número de veterinários por critério (registrados e em atividade).
 - [PREENCHER] Responsável pela aprovação de peças com comparação com concorrente (contexto/ufape-geral.md).
 - [PREENCHER COM A REGULAÇÃO] Texto de certificação e se o EAD lato sensu em veterinária tem regra própria.
 - [PREENCHER] Regra do desconto de aluno e ex-aluno de pós.
 - Sem fonte: número oficial atual de médicos veterinários (CFMV, 2025), por estado (CRMV-SP, CRMV-GO) e em pequenos animais; idade, tempo de formado e renda do veterinário que faz pós lato sensu; canal de atualização usado por veterinários (YouTube, Instagram, congresso, LinkedIn); quantos veterinários pagam a própria pós e quantos têm apoio da clínica ou da família; preço de pós da Anclivepa, Qualittas e Equalis; renda do aluno real da Ufape.
 - Sem fonte: público do 719 (IA na Saúde) e canal que o alcança.
-- [CONFIRMAR autorização] Docentes e depoimentos em peça; qualquer citação de aluno exige autorização registrada.
+- [CONFIRMAR] Depoimentos em peça: qualquer citação de aluno exige autorização registrada. Docentes, palestrantes e convidados têm autorização de imagem e citação desde 26/10/2026 (decisões 8 e 10).
+- [CONFIRMAR U2] Como é o acesso à prova online.
 
 ## Fontes
 

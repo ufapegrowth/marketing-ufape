@@ -3,6 +3,7 @@
 - Agente: pesquisa-de-palavras-chave (etapa 2.1 da camada 2)
 - Linha: pos
 - Data: 26/10/2026
+- Versão: 3 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho corrigido após o veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep03.md), para nova passagem pelo qa-de-marketing (auditoria 03-busca e auditorias/conformidade-educacional.md). Nada é publicado, enviado ou pago. Nenhuma ação em anúncio, CRM ou site foi feita.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -85,7 +86,7 @@ Esqueleto de H2 para toda página de curso (proposta; o template templates/pagin
 4. Turmas, local e datas.
 5. Investimento e formas de pagamento (parcelas, valor da parcela, total e matrícula, do catálogo).
 6. Prova de bolsa de estudos da Pós-graduação em <área> (só quando houver prova da área no catálogo).
-7. Coordenação e docentes [CONFIRMAR autorização].
+7. Coordenação e docentes, com nome e titulação como estão na ficha (autorização de imagem e citação registrada em 26/10/2026, decisões 8 e 10).
 8. Perguntas frequentes (bloco T2 da entrada principal, mais as da área).
 
 Não existe H2 de certificação nem frase de certificação em nenhuma página: o texto oficial está vazio.
@@ -230,7 +231,7 @@ Links: apoio liga para o pilar e para o guia; o pilar liga para o guia, para o F
 | Pneumologia (68636) | Pós-graduação em Pneumologia Veterinária, Faculdade UFAPE | Pós-graduação em Pneumologia Veterinária, semipresencial, 500 h, em São Paulo. Veja módulos, investimento e prova de bolsa. | Pós-graduação em Pneumologia Veterinária | Data de início da Pós-graduação em Pneumologia Veterinária [CONFIRMAR NO CATÁLOGO] |
 | Ventilação Mecânica (352) | Pós-graduação em Ventilação Mecânica, Faculdade UFAPE | Pós-graduação em Ventilação Mecânica para médicos veterinários, semipresencial, 360 h, em São Paulo. Veja módulos e investimento. | Pós-graduação em Ventilação Mecânica | A Pós-graduação em Ventilação Mecânica serve só para quem trabalha em UTI? [REVISÃO DOCENTE] |
 
-Entidades a citar: Faculdade UFAPE, nome completo do curso, modalidade, local, carga horária, termos técnicos da ementa da ficha. Prova que a página precisa: dado do catálogo, coordenação com autorização registrada [CONFIRMAR autorização]. Marcação da skill schema-de-curso.
+Entidades a citar: Faculdade UFAPE, nome completo do curso, modalidade, local, carga horária, termos técnicos da ementa da ficha. Prova que a página precisa: dado do catálogo, coordenação com nome e titulação da ficha (autorização registrada em 26/10/2026, decisões 8 e 10). Marcação da skill schema-de-curso.
 
 ---
 
@@ -328,7 +329,7 @@ Goiânia: sem turma nesta área no catálogo. Sem termo local.
 | Q5.2 | Qual a diferença entre pós em diagnóstico por imagem e pós em ultrassonografia veterinária? | Comparação | comparar | 46 (16/8/22) | Guia A5 | Sem resposta na Ufape hoje (lacunas) |
 | Q5.3 | Vale a pena a pós em ultrassonografia de pequenos animais para quem é clínico geral? | Problema | aprender | 38 (10/8/20) | FAQ do pilar Ultrassonografia | [REVISÃO DOCENTE] |
 | Q5.4 | Quanto custa a pós em ultrassonografia veterinária da Ufape e qual o menor investimento da área de imagem? | Decisão | resolver | 56 (24/14/18) | Investimento do pilar | Menor ticket da área A5, só catálogo; sem comparar com concorrente |
-| Q5.5 | Endoscopia veterinária: faço pós ou curso livre? | Comparação | comparar | 38 (14/8/16) | Guia A5, com link para 623 e 68637 | Livres por link |
+| Q5.5 | Endoscopia veterinária: faço pós ou curso livre? | Comparação | comparar | 38 (14/8/16) | Guia A5, com link para 68637 | Livres por link; a 623 só recebe link depois de corrigida a página (decisão 13) |
 | Q5.6 | Como funciona a prova de bolsa de diagnóstico por imagem da Ufape? | Decisão | resolver | 56 (26/14/16) | Prova 68647 e T1 | |
 
 **Pilar e apoio**
@@ -337,7 +338,7 @@ Goiânia: sem turma nesta área no catálogo. Sem termo local.
 |---|---|---|
 | Imagem | Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | Guia A5; prova 68647; FAQ de prática [CONFIRMAR NO CATÁLOGO]; link para 68614 |
 | Ultrassonografia | Pós-graduação em Ultrassonografia de Pequenos Animais | Guia A5; prova 68661; artigo "ultrassom na própria clínica" [REVISÃO DOCENTE] |
-| Endoscopia | Pós-graduação em Endoscopia Veterinária (653, sem compra) | Prova 68649 (só com destino); links para os livres 623 e 68637 |
+| Endoscopia | Pós-graduação em Endoscopia Veterinária (653, sem compra) | Prova 68649 (só com destino); link para o livre 68637 (a 623 só depois de corrigida a página, decisão 13) |
 
 **Briefing SEO resumido**
 
@@ -925,7 +926,7 @@ Tratada por curso, como manda o plano do cmo. Odontologia e Nutrologia estão em
 | 699 | Pós-graduação em Geriatria Veterinária | São Paulo, semipresencial, 500 h | 22/05/2027, I | pós-graduação em geriatria veterinária | especialização em geriatria de cães e gatos; pós em cuidados paliativos veterinária; pós em geriatria vet; paciente geriátrico cães e gatos pós | matricular | Médio | 58 (28/14/16) | Sinal de tendência forte (longevidade); a busca não trouxe pós brasileira específica [SUPOSIÇÃO de espaço aberto]. Ficha com contradições de público, cronograma e lotação: corrigir antes de qualquer peça [CONFIRMAR NO CATÁLOGO] |
 | 60 | Pós-graduação em Medicina de Silvestres | São Paulo, semipresencial, 360 h | 28/05/2027, I | pós-graduação em medicina de silvestres | pós em animais silvestres e exóticos; especialização em animais silvestres veterinária; pós em exóticos vet; pós em medicina de animais exóticos | matricular | Baixo | 54 (28/8/18) | Quero Bolsa tem matéria sobre a especialização. A página repete número de mercado sem conferir: não copiar. Turma mínima de 15 na ficha, não 20 [CONFIRMAR NO CATÁLOGO] |
 | 719 | Pós-graduação em Inteligência Artificial na Saúde (catálogo: "Pós-Graduação Inteligência Artificial na Saúde") | São Paulo, semipresencial, 360 h | 08/05/2027, I | pós-graduação em inteligência artificial na saúde | pós em IA na saúde; especialização em inteligência artificial para saúde; pós em IA para médicos | matricular | Médio | 40 (20/14/6) | Menor total da linha (18x de R$ 666,67, R$ 12.000,00, matrícula de R$ 250,00). Público de saúde humana e TI, não de veterinários: persona e canal próprios [CONFIRMAR público]. Termo de cabeça muito disputado. Não ligar ao cluster de imagem veterinária |
-| 68662, 678 (verificar), prova 68655 | Pós-graduação em Odontologia Veterinária | São Paulo, semipresencial, 500 h | verificar (iniciada, data diverge) | pós-graduação em odontologia veterinária | especialização em odontologia de cães e gatos; pós em odonto vet; prova de bolsa de odontologia veterinária | matricular | Médio | 36 (14/14/8) | Sem chamada de compra; prova sem turma de destino [CONFIRMAR]. Uma página única e o destino da prova são as lacunas P1 |
+| 68662, 678 (verificar), prova 68655 | Pós-graduação em Odontologia Veterinária | São Paulo, semipresencial, 500 h | verificar (iniciada em 15/08/2026; vale a data da planilha, decisão 12) | pós-graduação em odontologia veterinária | especialização em odontologia de cães e gatos; pós em odonto vet; prova de bolsa de odontologia veterinária | matricular | Médio | 36 (14/14/8) | Sem chamada de compra; prova sem turma de destino [CONFIRMAR]. Uma página única e o destino da prova são as lacunas P1 |
 
 **Perguntas para assistentes de IA (A14)**
 
@@ -966,7 +967,7 @@ Tratada por curso, como manda o plano do cmo. Odontologia e Nutrologia estão em
 
 ## 5. Campanha das provas de bolsa de 27/11/2026
 
-Base: catálogo, seção 3 (22 provas abertas em 19 especialidades, inscrição de R$ 100,00 à vista, Pix ou boleto, ou 1x no cartão, prova em 27/11/2026 em São Paulo e em Goiânia; Anestesiologia, Cardiologia e Clínica Cirúrgica têm prova nas duas cidades) e regras do contexto da linha (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; resultado por WhatsApp ou e-mail; recurso em 2 dias úteis; matrícula em 10 dias úteis; bolsa não acumulativa e intransferível). As fichas se contradizem em partes (canal do resultado, prazo de matrícula de 10 ou 7 dias, turma mínima de 15 ou 20): [CONFIRMAR NO CATÁLOGO] antes de peça. Data de encerramento das inscrições: [CONFIRMAR NO CATÁLOGO]. Turma de destino de cada prova: [CONFIRMAR].
+Base: catálogo, seção 3 (22 provas abertas em 19 especialidades, inscrição de R$ 100,00 à vista, Pix ou boleto, ou 1x no cartão, prova em 27/11/2026, online (decisão 11 da Ufape, 26/10/2026), com provas do campus São Paulo e do campus Goiânia; Anestesiologia, Cardiologia e Clínica Cirúrgica têm prova nas duas cidades) e regras do contexto da linha (11 bolsas por prova: 2 de 50%, 4 de 25% e 5 de 10%; nota de corte 7,0; resultado por WhatsApp ou e-mail; recurso em 2 dias úteis; matrícula em 10 dias úteis; bolsa não acumulativa e intransferível). As fichas se contradizem em partes (canal do resultado, prazo de matrícula de 10 ou 7 dias): vale a regra escrita na ficha de cada prova e, onde ela se contradiz por dentro, [CONFIRMAR U1] antes de peça. Turma mínima: 15 alunos, também na Pós (decisão 11). Data de encerramento das inscrições: [CONFIRMAR NO CATÁLOGO]. Turma de destino de cada prova: [CONFIRMAR].
 
 ### 5.1 Hub da prova de bolsa (T1)
 
@@ -982,8 +983,8 @@ Base: catálogo, seção 3 (22 provas abertas em 19 especialidades, inscrição 
 | Título proposto | Prova de Bolsa de Estudos da Pós-graduação, Faculdade UFAPE |
 | Descrição proposta | Prova de bolsa para a pós-graduação da Faculdade UFAPE em 27/11/2026, em São Paulo e Goiânia. Veja especialidades, regras e como se inscrever. |
 | H1 | Prova de bolsa de estudos da Pós-graduação |
-| H2 | Como funciona a prova de bolsa da Pós-graduação; Quantas bolsas e quais percentuais; Datas, local e inscrição; Especialidades com prova (um bloco por Pós-graduação em <área>); Resultado, recurso e matrícula; O que acontece com a bolsa depois da aprovação; Perguntas frequentes |
-| Bloco citável | "A prova de bolsa da Faculdade UFAPE acontece em 27/11/2026, em São Paulo e Goiânia, com inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50%, 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é acumulativa nem intransferível para outra pessoa, e o candidato pode fazer recurso em 2 dias úteis." Só publicar depois de [CONFIRMAR NO CATÁLOGO] as regras e a turma de destino |
+| H2 | Como funciona a prova de bolsa da Pós-graduação; Quantas bolsas e quais percentuais; Data, campus, acesso à prova online e inscrição; Especialidades com prova (um bloco por Pós-graduação em <área>); Resultado, recurso e matrícula; O que acontece com a bolsa depois da aprovação; Perguntas frequentes |
+| Bloco citável | "A prova de bolsa da Faculdade UFAPE acontece em 27/11/2026, online, com provas para o campus São Paulo e para o campus Goiânia, e inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50%, 4 de 25% e 5 de 10%. A nota de corte é 7,0. A bolsa não é acumulativa nem intransferível para outra pessoa, e o candidato pode fazer recurso em 2 dias úteis." Só publicar depois de [CONFIRMAR NO CATÁLOGO] as regras e a turma de destino |
 
 Regra: sem "últimas vagas", sem urgência sem número real, sem promessa de bolsa e sem frase de certificação.
 
@@ -1033,9 +1034,9 @@ Calendário de leilão: o gestor-de-midia decide início e fim. Janela útil: do
 |---|---|---|---|---|---|---|
 | QP1 | Como funciona a prova de bolsa da Ufape e quantas bolsas tem cada especialidade? | Decisão | resolver | 58 (26/14/18) | Hub | Regras com contradições [CONFIRMAR NO CATÁLOGO] |
 | QP2 | Quanto custa a inscrição da prova de bolsa da Ufape e quando é a prova? | Decisão | resolver | 56 (26/14/16) | Hub | R$ 100,00; 27/11/2026 (catálogo) |
-| QP3 | A prova de bolsa da Ufape é presencial? Onde fazer? | Decisão | resolver | 52 (24/14/14) | Hub | São Paulo e Goiânia; local exato [CONFIRMAR] |
+| QP3 | A prova de bolsa da Ufape é presencial? Onde fazer? | Decisão | resolver | 52 (24/14/14) | Hub | Não: a prova é online (decisão 11 da Ufape, 26/10/2026); a resposta diz o campus da prova (São Paulo ou Goiânia) e o acesso fica [CONFIRMAR U2] |
 | QP4 | O que cai na prova de bolsa de pós em medicina veterinária da Ufape? | Problema | resolver | 46 (22/8/16) | Hub e artigo-guia | Só felinos tem conteúdo e bibliografia na ficha |
-| QP5 | Se eu passar na prova de bolsa, em quanto tempo preciso me matricular e a bolsa vale para qual turma? | Decisão | resolver | 50 (26/8/16) | Hub (FAQ) | 10 dias úteis (contexto) ou 7 (ficha): [CONFIRMAR]; destino [CONFIRMAR] |
+| QP5 | Se eu passar na prova de bolsa, em quanto tempo preciso me matricular e a bolsa vale para qual turma? | Decisão | resolver | 50 (26/8/16) | Hub (FAQ) | 10 dias úteis (contexto) ou 7 (ficha): vale a ficha de cada prova; contradição interna [CONFIRMAR U1]; destino [CONFIRMAR] |
 | QP6 | Prova de bolsa de pós veterinária: Ufape ou Anclivepa, qual vale mais a pena? | Comparação | comparar | 38 (14/8/16) | Hub (critérios, sem nomear) | Comparar só com critérios e dado conferido de cada lado; sem ranking |
 | QP7 | Posso acumular a bolsa com outro desconto da Ufape? | Decisão | resolver | 40 (22/8/10) | Hub (FAQ) | Bolsa não acumulativa (contexto); acumulação com descontos de 341, 359 e 352 [CONFIRMAR] |
 
@@ -1143,9 +1144,9 @@ Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou b
 
 ## 9. Pendências para o qa-de-marketing e para a Ufape
 
-1. **Datas e dados conflitantes que travam página e anúncio:** 698 (site em 2027), 352, 366, 662 (link trocado), 68662, 68636 (data), 68628, 68617 e 662 (turma), 68641 e 68642 (links invertidos).
+1. **Datas e dados conflitantes que travam página e anúncio:** 698 (site em 2027), 352, 366, 662 (link trocado), 68662, 68636 (data), 68628, 68617 e 662 (turma), 68641 e 68642 (links invertidos). Datas: em divergência entre planilha e site vale a planilha, inclusive 68662 e 662 (decisão 12 da Ufape, 26/10/2026); o site continua a corrigir. A 68636 só tem data no site.
 2. **Provas sem destino:** 68652, 68649, 68653 e 68655. Prova 68656 fora do ar e bloco "prova de bolsa" da página de 707 sem destino. Não há prova de Ecocardiografia; se a de Cardiologia valer para 698, confirmar.
-3. **Regras da prova** com contradições entre fichas (canal do resultado, 10 ou 7 dias, turma mínima de 15 ou 20).
+3. **Regras da prova** com contradições entre fichas (canal do resultado, 10 ou 7 dias): vale a ficha de cada prova; contradição dentro da mesma ficha é U1. Turma mínima fechada em 15 (decisão 11).
 4. **Páginas de nome repetido** (C1): decisão do site sobre página única por curso (SEO-04).
 5. **Certificação:** nenhum termo de certificação foi proposto. A página da prova de felinos repete frase de reconhecimento ligada ao MEC: não copiar.
 6. **Nome curto da pós de imagem** e nomes fora do padrão do catálogo (Citopatologia, Ultrassonografia, Medicina Interna Equina, IA na Saúde): decidir se o catálogo muda ou se a página usa o padrão.
@@ -1156,6 +1157,13 @@ Também de alta pontuação e perto da matrícula, fora do top 10 por prazo ou b
 
 ---
 
+## Mudanças desta versão
+
+- Seções 3 e 4: saem as marcas [CONFIRMAR autorização] de coordenação e docentes (decisões 8 e 10).
+- Seção 4 (A5 e Endoscopia): os links passam a apontar para a 68637; a 623 só depois de corrigida (decisão 13).
+- Seção 4 (68662), seção 9 e Lista 3: datas pela planilha, inclusive 68662 e 662 (decisão 12).
+- Seção 5: provas online, com campus São Paulo ou Goiânia, regra da ficha de cada prova e U1 (decisão 11); QP3 respondida; turma mínima de 15.
+
 ## Lista 1. Fatos com fonte
 
 Dados da Ufape (contexto/catalogo-de-cursos.md, 26/10/2026, seções 2 e 3):
@@ -1163,7 +1171,7 @@ Dados da Ufape (contexto/catalogo-de-cursos.md, 26/10/2026, seções 2 e 3):
 - 719 tem o menor total entre as pós abertas (R$ 12.000,00); 68629 tem R$ 16.456,00, o menor da área A5.
 - Clínica Cirúrgica de Cães e Gatos tem três páginas no catálogo: 535, 665 e 68632. 68632 é "Presencial" no catálogo.
 - Não há prova de bolsa de Ecocardiografia no catálogo.
-- Contexto da linha (contexto/pos-graduacao.md): formato semipresencial com 1 módulo por mês; turma mínima de 20; regras da prova de bolsa lidas nas páginas das provas em 26/10/2026; regra de nome "Pós-graduação em <área>".
+- Contexto da linha (contexto/pos-graduacao.md): formato semipresencial com 1 módulo por mês; turma mínima de 20 na versão lida (decisão da Ufape em 26/10/2026: 15, também na Pós; provas online); regras da prova de bolsa lidas nas páginas das provas em 26/10/2026; regra de nome "Pós-graduação em <área>".
 - Contexto geral (contexto/ufape-geral.md): nome Faculdade UFAPE, CNPJ e sede; "certificado pelo MEC" não é usado.
 - Recorte, áreas e ondas: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md. Pendências P3 a P5 e provas sem destino: mesmo arquivo.
 - Lacunas T1 a T10, áreas e perguntas de base: saidas/03-seo-e-busca/lacunas-de-conteudo-pos-2026-10-26.md. Objeções e hipóteses da persona (H-A2.3, H-A10.2): saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md.
@@ -1196,14 +1204,14 @@ Dados da busca na web (WebSearch, 26/10/2026, resumo de resultado; páginas não
 - Search Console (16 meses), Google Trends e ferramenta de palavras-chave: sem eles não há volume real nem canibalização.
 - Sugestões do Google e "As pessoas também perguntam" (seção 8, item 1).
 - Rodada manual nos assistentes de IA (seção 8, item 4): sem ela não há taxa de citação.
-- [CONFIRMAR NO CATÁLOGO] Datas de 698, 352, 366, 662, 68662 e 68636; turma de 68628, 68617 e 662; link trocado de 662 e 68662; links invertidos de 68641 e 68642.
+- [CONFIRMAR NO CATÁLOGO] Data de 68636 (só no site; nas demais divergências vale a planilha, decisão 12); turma de 68628, 68617 e 662; link trocado de 662 e 68662; links invertidos de 68641 e 68642.
 - [CONFIRMAR NO CATÁLOGO] Destino das provas 68652, 68649, 68653 e 68655; situação de 68656; se a prova de Cardiologia vale para 698; data de encerramento das inscrições da prova; regras da prova (canal do resultado, prazo de matrícula, turma mínima).
 - [CONFIRMAR NO CATÁLOGO] Pré-requisitos por turma (657, 359, 698, 352, 699); público de 68616, 68608, 366 e 719; ato regulatório de 719; promoção de 341; ficha de 699; frequência e jornada de 68632.
 - [CONFIRMAR NO CATÁLOGO] Se a pós de imagem pode usar nome curto no título; se haverá turma de São Paulo de Anestesiologia e de Clínica Cirúrgica de novo.
 - [CONFIRMAR] Página de listagem das pós e página institucional já existentes no site; lista de artigos do blog; URL do hub da prova.
 - [CONFIRMAR] Verba e metas por linha (para o gestor-de-midia); data de encerramento das campanhas; decisão sobre termos de marca do concorrente.
 - [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação, regra do EAD lato sensu e leitura da norma vigente do CFMV sobre título de especialista.
-- [CONFIRMAR autorização] Docentes e coordenação em qualquer página ou peça.
+- [CONFIRMAR U2] Como é o acesso à prova online.
 - [CONFIRMAR] Parceria citada em currículos públicos (Gastroenterologia) e uso desses perfis como prova social.
 
 ## Fontes (consultadas em 26/10/2026, por resumo de busca)

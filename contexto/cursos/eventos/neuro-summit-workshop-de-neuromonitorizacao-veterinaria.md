@@ -19,7 +19,9 @@ Ficha montada em 26/10/2026 a partir da página oficial do evento (https://facul
 - **Docentes confirmados na página:** Prof. MSc. Daniel Zannin, Profa. MSc. Elidia Zotelli, Prof. Renan Holczer, Prof. MSc. Yuri Ferreira Vicentini, Prof. Dr. Rodrigo Neca Ribeiro (online ao vivo)
 - **Destino das campanhas pagas:** esta página (confirmado pela Ufape em 26/10/2026).
 - **Convidados "a definir":** neurofisiologia e EEG clínico, neuroanestesia e NIRS, nocicepção e variabilidade da frequência cardíaca, inteligência artificial e processamento de sinais. Decisão da Ufape em 26/10/2026: as peças usam só os docentes já confirmados; os convidados entram quando a Ufape enviar a confirmação.
-- **Alertas:** o nome muda entre planilha (simpósio) e página (workshop); a página diz "apostila e material digital, se previsto" (não prometer apostila em peça); o produto 68634 está sem data na loja.
+- **Nome oficial (decisão da Ufape em 26/10/2026):** Workshop Brasileiro de Neuromonitorização. Evento liberado para o marketing. Não usar "simpósio" nas peças.
+- **Autorização dos docentes:** todos os docentes têm autorização de uso de imagem e de citação em materiais (decisão da Ufape em 26/10/2026).
+- **Alertas:** a planilha ainda chama o evento de simpósio; vale o nome oficial acima; a página diz "apostila e material digital, se previsto" (não prometer apostila em peça); o produto 68634 está sem data na loja.
 
 ## Texto da página (copiado do site)
 

@@ -3,6 +3,7 @@
 - Agente: estrategia-de-oferta (departamento 02, Estratégia e Posicionamento), etapa 1.8 da camada 1, cobrindo a linha Eventos
 - Linha: eventos (os Cursos Livres estão em saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-livres-2026-10-26.md)
 - Data: 26/10/2026
+- Versão: 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
 - Status: rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento e auditorias/conformidade-educacional.md, resultado na seção 9). Nada publicado, enviado ou pago. Toda proposta da seção 5 é pedido de aprovação, não oferta vigente.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -18,7 +19,7 @@
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
 - Recorte (plano do cmo, seção 2.2): o workshop de 20 e 21/11/2026 com o produto 68634 (transmitido e gravado) e os gravados contínuos 700 e 202. O Simpósio Plantonista (10/10/2026) já passou e não tem página; a linha "Paciente Grave" da planilha sem página fica ligada ao 700 (P7).
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web.
-- Dados pessoais: nenhum. Nenhum docente ou palestrante é nomeado (autorização P13; decisão de 26/10/2026: só docentes confirmados e autorizados).
+- Dados pessoais: nenhum. Nenhum docente ou palestrante é nomeado neste arquivo. A autorização de imagem e citação de docentes, palestrantes e convidados foi registrada em 26/10/2026 (decisões 8 e 10); só entram docentes confirmados (decisão 6).
 
 ---
 
@@ -53,7 +54,7 @@
 | Cancelamento, adiamento, reembolso | [CONFIRMAR NO CATÁLOGO] | [CONFIRMAR NO CATÁLOGO] | - |
 | Material | A página diz "apostila e material digital, se previsto": não prometer | Idem | Ficha |
 
-Divergências da página da loja do 68634 que precisam de correção antes de qualquer peça que leve a ela: nome "Simpósio Brasileiro de Neuromonitorização Veterinária", datas "20, 21 e 22 de novembro", 24 h, modalidade "Presencial" e localidade "Saiba Mais" (ficha 68634). O catálogo marca o 68634 como "verificar (sem data no site)". Se o checkout do transmitido passa por essa página [CONFIRMAR], o comprador vê informação diferente da página neuro-summit.
+Divergências da página da loja do 68634 que precisam de correção antes de qualquer peça que leve a ela: nome com "simpósio" no lugar do nome oficial "Workshop Brasileiro de Neuromonitorização" (decisão 7), datas "20, 21 e 22 de novembro", 24 h, modalidade "Presencial" e localidade "Saiba Mais" (ficha 68634). O catálogo marca o 68634 como "verificar (sem data no site)". Se o checkout do transmitido passa por essa página [CONFIRMAR], o comprador vê informação diferente da página neuro-summit.
 
 ### 1.2 Gravados contínuos
 
@@ -74,7 +75,7 @@ Não há cupom, desconto ou condição de aluno nos gravados de Eventos no catá
 2. Frase obrigatória em peça longa: "Evento não confere diploma nem equivale a pós-graduação."
 3. O cupom sempre com a regra inteira: quem pode usar, como comprova e, quando a Ufape informar, até quando vale. Nunca só "20% off".
 4. Capacidade como dado ("30 vagas no presencial"), nunca como pressão.
-5. Docentes só os confirmados e com autorização registrada [CONFIRMAR autorização]; o texto de preço não depende deles.
+5. Docentes só os confirmados (decisão 6), com a autorização de imagem e citação registrada (decisões 8 e 10); o texto de preço não depende deles.
 
 ### 2.2 Modelos
 
@@ -104,7 +105,7 @@ Personas da pesquisa de eventos e do posicionamento (E1a a E1d, E2a, E2b). Resul
 **Workshop presencial (E1a anestesiologista, E1b intensivista; E1c residente e E1d pós-graduando)**
 - Resultado dos sonhos: "Confiar no que o monitor mostra e saber quando não confiar, na anestesia e na UTI." [SUPOSIÇÃO]
 - Maiores obstáculos: "R$ 1.250,00 e dois dias fora da rotina", "não sei EEG", "quanta prática eu faço e com que monitor?", "o BIS vale em cão e gato?". [SUPOSIÇÃO]
-- Pilha da oferta (só o que existe): 16 h num tema (catálogo); sexta de base que não exige EEG prévio (FAQ); sábado prático com instalação em modelos, leitura de EEG e artefatos, casos de anestesia e UTI com e sem bloqueio neuromuscular e desafio em pequenos grupos (grade da ficha); coordenação científica que também coordena a Pós em Anestesiologia Avançada 657 (fichas, só com autorização); roteiro de aplicação na rotina entregue no encerramento (grade da ficha) [CONFIRMAR NO CATÁLOGO].
+- Pilha da oferta (só o que existe): 16 h num tema (catálogo); sexta de base que não exige EEG prévio (FAQ); sábado prático com instalação em modelos, leitura de EEG e artefatos, casos de anestesia e UTI com e sem bloqueio neuromuscular e desafio em pequenos grupos (grade da ficha); coordenação científica que também coordena a Pós em Anestesiologia Avançada 657 (fichas; autorização registrada, decisões 8 e 10); roteiro de aplicação na rotina entregue no encerramento (grade da ficha) [CONFIRMAR NO CATÁLOGO].
 - Redução de risco existente: modalidade de R$ 450,00 para quem não pode ir no sábado; cupom de 20% para aluno e ex-aluno; programa hora a hora antes da inscrição. Não existe regra escrita de cancelamento ou adiamento [CONFIRMAR NO CATÁLOGO].
 - Nome da oferta: "Neuromonitorização em dois dias: base e prática". [SUPOSIÇÃO]
 - Promessa em uma linha: "16 h num tema só para decidir pelo sinal, não só pelo número, com o programa hora a hora antes da inscrição."
@@ -173,7 +174,7 @@ Todas são **proposta**. Percentuais e prazos são ponto de partida [SUPOSIÇÃO
 | PE2 | Inscrição de equipe | 3 ou mais inscrições presenciais da mesma clínica ou hospital no mesmo pedido: desconto a definir (ponto de partida 10% [SUPOSIÇÃO]). Não cumulativo com o cupom | Até a data do evento, sujeito às 30 vagas | 3 inscrições de R$ 1.250,00 = R$ 3.750,00; com 10%, R$ 375,00 a menos por equipe (cálculo) | Preenche vagas com equipes de UTI e centro cirúrgico, público da página | Pedidos de equipe, somados | Desativar a condição; pedidos pagos não mudam |
 | PE3 | Pacote dos gravados de paciente grave (700 e 202) | Produto único na loja com os dois: R$ 1.065,00 à vista somados; desconto a definir (ponto de partida 15% [SUPOSIÇÃO], R$ 905,25 por cálculo). Cada item com o prazo de acesso próprio, depois de confirmado | Piloto de 90 dias [SUPOSIÇÃO], com data de fim na página | R$ 159,75 por pacote (cálculo) | Ticket médio maior no contínuo; resposta a EO1b | Pedidos do pacote x avulsos | Tirar da loja na data de fim; quem comprou mantém o acesso |
 | PE4 | Crédito do workshop na prova de bolsa ou na Pós | Opção A: participante do workshop (presencial ou transmitido) tem a inscrição de R$ 100,00 abatida numa prova de bolsa de 27/11/2026 de anestesia (68639 SP, 68640 GO), terapia intensiva (68660) ou neurologia (68654). Opção B: abatimento até o valor da matrícula (R$ 250,00) numa Pós de anestesia (657, 68609, 359) até 22/05/2027. Uma vez por pessoa; acúmulo com a bolsa [CONFIRMAR] | A: até o fim das inscrições das provas [CONFIRMAR data]. B: até 22/05/2027 [SUPOSIÇÃO] | A: até R$ 100,00 por inscrição na prova. B: até R$ 250,00 por matrícula | Testa a ponte evento para Pós, que hoje é [SUPOSIÇÃO], com número medido | Provas e matrículas com crédito usado, somadas | Encerrar para inscrições novas; honrar créditos emitidos até o prazo |
-| PE5 | Gravação da sexta à venda depois do evento | Depois de 20/11/2026, manter o 68634 como gravado contínuo, com prazo de acesso escrito e página corrigida (nome, data, 8 h teóricas) | A partir de 23/11/2026 [SUPOSIÇÃO], enquanto a Ufape quiser | Sem custo de mídia; depende de autorização de imagem e voz dos docentes para a gravação [CONFIRMAR autorização] | Aproveita a demanda de quem não pôde comprar a tempo | Pedidos do 68634 depois do evento | Tirar da loja; quem comprou mantém o prazo de acesso |
+| PE5 | Gravação da sexta à venda depois do evento | Depois de 20/11/2026, manter o 68634 como gravado contínuo, com prazo de acesso escrito e página corrigida (nome, data, 8 h teóricas) | A partir de 23/11/2026 [SUPOSIÇÃO], enquanto a Ufape quiser | Sem custo de mídia; a autorização de imagem e citação dos docentes foi registrada em 26/10/2026 (decisões 8 e 10), e a gravação deixa de travar por autorização | Aproveita a demanda de quem não pôde comprar a tempo | Pedidos do 68634 depois do evento | Tirar da loja; quem comprou mantém o prazo de acesso |
 | PE6 | Regra escrita do cupom SIMPNEUROMONIT | Dizer no catálogo: quem é ex-aluno (Pós, Graduação, Livres), o documento de comprovação, a data-limite e que não acumula com outra condição | Até o evento | Nenhum novo; é regra de algo vigente | Menos dúvida e menos uso indevido | Pedidos com cupom e recusas na secretaria | Não se aplica |
 | PE7 | Política de cancelamento, adiamento e transferência do workshop | Escrever: até quando o inscrito cancela com devolução; o que acontece se o evento for adiado ou não atingir um mínimo (devolução integral ou transferência para a próxima edição) | Edição de 20 e 21/11/2026 e próximas | Reembolsos em caso de cancelamento | Responde a EO2 e EO3; reduz a queda entre intenção e pagamento (funil, hipótese 2, por analogia) | Perguntas sobre cancelamento no atendimento; pedidos pagos | Voltar à ausência de regra só para edições futuras; quem comprou fica com a regra da compra |
 
@@ -189,7 +190,7 @@ Os dois fazem parte dos 47 contínuos do plano do cmo (45 de Livres e estes 2).
 
 | Item | Oferta sempre ligada | Condição para peça final | Uso no remarketing [SUPOSIÇÃO] |
 |---|---|---|---|
-| 700 | Texto-padrão da seção 2.2; criativos por tema da grade (ventilação, fluidos e hemodinâmica, anestesia regional, UTI), sempre dizendo que é gravação de novembro de 2025 | CH, idioma ou tradução e prazo no catálogo; P7 resolvida; nenhum palestrante nomeado sem autorização | Para quem viu o workshop e não comprou (tema de anestesia e UTI) |
+| 700 | Texto-padrão da seção 2.2; criativos por tema da grade (ventilação, fluidos e hemodinâmica, anestesia regional, UTI), sempre dizendo que é gravação de novembro de 2025 | CH, idioma ou tradução e prazo no catálogo; P7 resolvida; palestrante só com nome e titulação como na ficha (autorização registrada, decisão 10) | Para quem viu o workshop e não comprou (tema de anestesia e UTI) |
 | 202 | Texto-padrão; tema único de coagulação | Data da edição e prazo no catálogo; diferença com o curso 106 dita pela Ufape | Para quem viu 106 ou 462 (laboratório) |
 
 Sem promoção inventada. "PROMOÇÃO VÁLIDA POR TEMPO LIMITADO" da página do 202 não é usada.
@@ -200,7 +201,7 @@ Sem promoção inventada. "PROMOÇÃO VÁLIDA POR TEMPO LIMITADO" da página do 
 |---|---|
 | Oferta | Presencial R$ 1.250,00 e transmitido R$ 450,00, lado a lado; cupom com a regra inteira |
 | Redução de risco que pode ir para peça | Programa hora a hora; FAQ ("não precisa saber EEG"; "não é só BIS"); modalidade transmitida para quem não pode viajar |
-| Bloqueios antes da peça final | Parcelamento do presencial; página do 68634; autorização dos docentes; prazo e público do cupom |
+| Bloqueios antes da peça final | Parcelamento do presencial; página do 68634; prazo e público do cupom |
 | Destino dos anúncios | https://faculdade.ufape.com.br/neuro-summit/ (decisão de 26/10/2026). A própria página usa "Somente 30 vagas", "Garanta a sua vaga" e "Certificado UFAPE": a peça não repete, e o item fica registrado para a Ufape no pedido A7 do plano do cmo |
 | Propostas que mais ajudam | PE1, PE6 e PE7 (rápidas, sem perda de receita); PE4 se a Ufape quiser medir a ponte para a Pós |
 
@@ -267,6 +268,11 @@ Próximo agente sugerido: landing-page (conferência da página neuro-summit e d
 
 ---
 
+## Mudanças desta versão
+
+- Seções 0, 1, 3, 5 e 6 e Lista 3: autorização de imagem e citação registrada para docentes, palestrantes e convidados, inclusive dos gravados (decisões 8 e 10); saem as marcas [CONFIRMAR autorização] e o bloqueio de peça por autorização.
+- Seção 1: a divergência da página da loja do 68634 passa a citar o nome oficial do evento, Workshop Brasileiro de Neuromonitorização (decisão 7), sem repetir o nome antigo.
+
 ## Lista 1. Fatos com fonte
 
 1. Workshop: 20 e 21/11/2026; Unidade 2, Av. Tiradentes, 960, São Paulo; 16 h; 30 vagas; presencial R$ 1.250,00; transmitido e gravado R$ 450,00 (68634); 20% para aluno e ex-aluno com SIMPNEUROMONIT e comprovação na secretaria. Fonte: catálogo, seção 9; ficha do evento.
@@ -297,7 +303,7 @@ Próximo agente sugerido: landing-page (conferência da página neuro-summit e d
 5. [CONFIRMAR] Vagas restantes do presencial (número real, uso interno e, se a Ufape quiser, em peça).
 6. [CONFIRMAR NO CATÁLOGO] CH, idioma ou tradução e prazo de acesso do 700; P7 com a linha "Paciente Grave".
 7. [CONFIRMAR NO CATÁLOGO] Data da edição e prazo de acesso do 202; diferença de conteúdo com o curso 106.
-8. [CONFIRMAR autorização] Imagem e voz dos docentes confirmados, inclusive para vender a gravação (PE5).
+8. Fechado em 26/10/2026: autorização de imagem e citação de docentes, palestrantes e convidados (decisões 8 e 10); a venda da gravação (PE5) deixa de travar por autorização.
 9. [CONFIRMAR] Data-limite de inscrição das provas de bolsa de 27/11/2026 (para PE4).
 10. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificado de evento (P1).
 11. [CONFIRMAR] contexto/eventos.md: preço típico, política de grupo, cortesia e meia-entrada.

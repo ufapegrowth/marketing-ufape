@@ -1,9 +1,9 @@
-# Posts sociais: reta final do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11/2026), Instagram e Facebook
+# Posts sociais: reta final do Workshop Brasileiro de Neuromonitorização (20 e 21/11/2026), Instagram e Facebook
 
 - **Agente:** posts-sociais (departamento 05, Social e Comunidade), camada 3, onda 1, kit do evento, etapa "posts-sociais" do /lancamento-de-evento
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio" na planilha, nome que as peças não usam)
 - **Data:** 26/10/2026 (segunda-feira). Janela do calendário: 27/10 a 22/11/2026.
-- **Versão:** revisada em 26/10/2026 depois do veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md, itens P-C1 a P-C8). Ver a lista do que mudou na seção 9.
+- **Versão:** versão 3, aplica a seção 12 do plano do cmo e os ajustes do qa (encomenda da seção 12.10: calendário de feed da seção 4.2 da 1.20 de Eventos; autorização registrada para todos, decisões 8 e 10; UTM organic_social e eventos_neuro26). A versão 2 foi revisada depois do veredito do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md, itens P-C1 a P-C8; ver a seção 9).
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago. Publicação só por pessoa autorizada da Ufape, depois da aprovação.
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
@@ -19,16 +19,19 @@
   - saidas/05-social-e-comunidade/autoridade-docente-eventos-2026-10-26.md (posts de docente, só com autorização)
   - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md
   - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-b.md (veredito, seção de posts)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 12, conciliação da camada 1: D5, G1, D11, D12 e 12.10; lida na versão 3)
+  - saidas/05-social-e-comunidade/estrategia-social-eventos-2026-10-26.md (seção 4.2, grade de feed em vigor, e seção 4.3; lida na versão 3)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (SEv2, nome oficial na primeira menção; lida na versão 3)
   - auditorias/05-social.md e auditorias/conformidade-educacional.md
 - Não abri faculdade.ufape.com.br. Os dados do catálogo citados nesta revisão (produto 68634, seção 4) vêm do veredito do qa-de-marketing, que leu contexto/catalogo-de-cursos.md. Eu não reli o catálogo nesta etapa.
-- Dados pessoais: nenhum. Nenhum docente é nomeado nos posts deste arquivo. Os posts de docente, com nome e titulação, estão em autoridade-docente-eventos-2026-10-26.md e entram no calendário abaixo só como faixa, condicionados à autorização registrada.
+- Dados pessoais: nenhum. Nenhum docente é nomeado nos posts deste arquivo. Os posts de docente, com nome e titulação como na ficha, estão em autoridade-docente-eventos-2026-10-26.md e entram no calendário abaixo; a autorização de imagem e de citação está registrada para todos, docentes, palestrantes e convidados (decisões 8 e 10 do briefing, 26/10/2026).
 
 ---
 
 ## 0. Regras que governam este arquivo
 
 1. **Dados só da ficha e do catálogo.** Datas, horários, grade, vagas, preços, modalidades, cupom e local vêm da ficha, da casa de mensagens e do catálogo (seção 9). Dado que não está lá é [CONFIRMAR] ou [CONFIRMAR NO CATÁLOGO].
-2. **Docentes.** Nenhum post deste arquivo cita nome de docente. Os docentes confirmados (coordenação científica e 5) aparecem só nos posts de autoridade-docente, com nome e titulação como na ficha e com [CONFIRMAR autorização] registrada. Os 4 convidados "a definir" não aparecem em nenhuma peça.
+2. **Docentes.** Nenhum post deste arquivo cita nome de docente. Os docentes confirmados (coordenação científica e 5) aparecem só nos posts de autoridade-docente, com nome e titulação como na ficha; a autorização de imagem e de citação está registrada para todos (decisões 8 e 10). Texto em primeira pessoa continua precisando do ok do próprio docente. Os 4 convidados "a definir" não aparecem em nenhuma peça.
 3. **Sem certificado.** Nenhum post cita certificado, nem MEC. Pergunta sobre certificado nos Stories vai para a secretaria (decisão da casa de mensagens, seção 0, regra 5; AP8 em aberto).
 4. **Sem apostila nem material.** A página diz "se previsto".
 5. **Sem promessa clínica.** Os textos dizem o que o programa trata e o que o participante faz (instalar, checar, ler, discutir). Nunca "vai dominar", "paciente mais seguro" ou resultado clínico.
@@ -37,58 +40,57 @@
 8. **Transmitido (marca [T]).** O ingresso transmitido é o produto 68634, que está com status "verificar" no catálogo (seção 4: 24 h contra 16 h do evento e sem data). **Toda menção ao transmitido leva a marca [T] e fica bloqueada** até a Ufape confirmar o 68634: posts, cartões de carrossel, Stories, tabela de respostas, ganchos e legendas. Onde há [T], o texto também diz "apenas teórico" ou "só a teoria de sexta, ao vivo e gravada", sem carga horária e sem prazo de acesso à gravação [CONFIRMAR NO CATÁLOGO]. Sem [T] liberado, o trecho marcado sai e o resto do post fica igual; cada trecho [T] tem abaixo a alternativa sem o transmitido. Liberar junto com a liberação do conceito C5 dos criativos.
 9. **Prática do sábado.** "Em modelos", "casos", "simulações ou registros clínicos", "conforme equipamentos e registros disponíveis". Nunca "paciente real" ou "paciente vivo", e nenhum número de monitores ou de participantes por equipamento [CONFIRMAR NO CATÁLOGO].
 10. **Feriado de 20/11.** Não usado como argumento de venda (sem ok da Ufape).
-11. **Nome do evento.** Primeira menção com o nome completo da página. Depois, "o workshop". "Realização: Faculdade UFAPE" na arte. Nunca "simpósio" nem "Neuro Summit" como nome (é só o endereço da página). Nunca "Ufape Intercursos". Evento é na Unidade 2, não na Ufape Clínica.
+11. **Nome do evento.** Primeira menção com o nome oficial, "Workshop Brasileiro de Neuromonitorização" (decisão 7; SEv2 do qa). A forma longa da página só se a Ufape autorizar [CONFIRMAR]. Depois, "o workshop". "Realização: Faculdade UFAPE" na arte. Nunca "simpósio" nem "Neuro Summit" como nome (é só o endereço da página). Nunca "Ufape Intercursos". Evento é na Unidade 2, não na Ufape Clínica.
 12. **Superlativos.** Nenhum ("primeiro", "único", "inédito", "o maior", "imperdível", "completo").
 13. **Escrita.** Português do Brasil, linhas curtas, uma ideia por linha, nenhum parágrafo com mais de 3 linhas, sem emoji, sem caixa alta para gritar (o código SIMPNEUROMONIT é a única exceção, por ser o código exato), sem travessão nem meia-risca.
-14. **Link.** Todo post chama para https://faculdade.ufape.com.br/neuro-summit/ com UTM no padrão proposto (utm_source=instagram ou facebook, utm_medium=organico, utm_campaign=neuro-summit-2026, utm_content=código do post) [SUPOSIÇÃO do padrão, P15]. Instagram não abre link na legenda: o texto diz "link na bio" e o Story do mesmo dia leva o adesivo de link. No Facebook, o link vai no texto. Nada aponta para o produto 68634 da loja.
+14. **Link.** Todo post chama para https://faculdade.ufape.com.br/neuro-summit/ com UTM no padrão único do cmo (D11 e D12): utm_source=instagram ou facebook, utm_medium=organic_social, utm_campaign=eventos_neuro26_<AAAAMM da publicação> (eventos_neuro26_202610 no P1 de 30/10; eventos_neuro26_202611 nas peças de novembro), utm_content=código do post. Tudo em minúsculas, sem acento e sem dado pessoal. Instagram não abre link na legenda: o texto diz "link na bio" e o Story do mesmo dia leva o adesivo de link. No Facebook, o link vai no texto. Nada aponta para o produto 68634 da loja.
 15. **Colisão com posts de docente.** Quando houver post de docente autorizado no mesmo dia, o do docente sai de manhã e o desta lista à tarde [SUPOSIÇÃO de horário]. Nunca dois posts de feed na mesma hora. Peça de docente não autorizada não ocupa o dia.
 16. **Canais.** Instagram (@ufapevet) e Facebook (/Ufape) ativos. Facebook recebe o mesmo texto do Instagram (reaproveitamento). TikTok, X, LinkedIn institucional, YouTube e podcast ficam fora desta etapa, como no briefing de campanha, seção 1.
 17. **Encaminhamentos.** Dúvida sobre vínculo e cupom, pagamento, parcelamento, cancelamento, certificado, apostila, monitores e logística vai para a **secretaria**, pelos contatos oficiais de contexto/ufape-geral.md: (11) 97492-8443 (WhatsApp) ou (11) 5054-1204, duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h. O contexto registra instabilidade no WhatsApp interno em 22/10/2026: conferir o canal ativo antes de publicar [CONFIRMAR].
 
 ---
 
-## 1. Calendário orgânico de 27/10 a 22/11/2026
+## 1. Calendário orgânico de 27/10 a 23/11/2026
 
-Dias contados a partir de 26/10/2026. "Entra" significa texto pronto para aprovação humana. Frequência: no máximo um post de feed por dia, mais Stories nos dias marcados [SUPOSIÇÃO de capacidade: a Ufape não informou quantas peças por semana o time sustenta, [CONFIRMAR]]. Dias sem post: 31/10 (apenas Story de reforço), 01/11, 02/11 (feriado de Finados), 04/11, 08/11, 10/11 e 14/11 a 15/11 (15/11 é feriado nacional). Nesses dias podem sair os posts de docente, se autorizados.
+Dias contados a partir de 26/10/2026. "Entra" significa texto pronto para aprovação humana. O feed segue a grade da seção 4.2 da estrategia-social-eventos (1.20 de Eventos), que o cmo usou para fixar o teto provisório do @ufapevet (D5: no máximo 2 publicações de feed por dia, em turnos diferentes, 1 por linha por dia e 10 por semana, somando as quatro linhas) [SUPOSIÇÃO de capacidade até a Ufape informar as horas do time, [CONFIRMAR]]. Eventos fica com 1 publicação de feed em S1, 2 em S2, 3 em S3 e 3 em S4, mais o P13 em 23/11 se a gravação for à venda. P5 sai do feed; P6, P7, P8, P10 e P11 viram Stories: nesses casos o texto para a arte vira a tela principal da sequência e a legenda fica como texto de apoio para responder comentários e directs. Dias sem feed de Eventos: 31/10, 01/11, 02/11 (feriado), 03/11, 04/11, 06/11, 08/11, 10/11, 12/11, 13/11, 15/11 (feriado), 17/11, 18/11, 20/11 e 21/11.
 
 | Data | Dia | O que entra | Código | Formato | Condição |
 |---|---|---|---|---|---|
-| 27/10 a 29/10 | ter a qui | Preparação: aprovação deste arquivo, pedido de autorização aos docentes (feito por autoridade-docente), arte-base, confirmação dos pendentes E3 a E8 | | | Nada novo vai ao ar antes de aprovado |
-| 30/10 | sex | Anúncio do evento: os dois dias e a mensagem central | P1 | Feed + Reels + Story de reforço | Aprovação; linha [T] só com 68634 confirmado |
-| 03/11 | ter | Programação de sexta (teoria) | P2 | Carrossel | Aprovação |
-| 05/11 | qui | Programação de sábado (prática) | P3 | Carrossel + Reels | Aprovação |
+| 27/10 a 29/10 | ter a qui | Preparação: aprovação deste arquivo, arte-base, aprovação dos textos de docente pelo próprio docente (autoridade-docente), confirmação dos pendentes E3 a E8 | | | Nada novo vai ao ar antes de aprovado |
+| 30/10 | sex | Anúncio do evento: os dois dias e a mensagem central | P1 | Feed + Reels + Story de reforço (turno diferente do Post 3 da Pós) | Aprovação; linha [T] só com 68634 confirmado |
+| 31/10 | sáb | Story de reforço do P1 | P1 | Stories | Aprovação |
+| 05/11 | qui | Programação de sexta (teoria) | P2 | Carrossel + Story de reforço | Aprovação |
 | 06/11 | sex | Stories: caixa de perguntas e enquetes (FAQ da página) | S1 | Stories | Aprovação; enquete do online é [T] |
-| 07/11 | sáb | Para quem é, por público | P5 | Carrossel | Aprovação; cartão 5 é [T] |
-| 07/11 | sáb | Stories: respostas às perguntas de 06/11 | S2 | Stories | Respostas só da ficha; cartão 1 é [T] |
-| 09/11 | seg | Reta final: as duas modalidades (versão A sem preço; versão B com preço) | P4 | Carrossel de 5 cartões | B só depois de E5 e E6; cartão 3 é [T] |
-| 11/11 | qua | FAQ da página em carrossel (semana 3 do briefing) | P14 | Carrossel de 5 cartões | Sem certificado e sem preço; cartão 1 é [T] |
-| 12/11 | qui | Cupom SIMPNEUROMONIT para aluno e ex-aluno | P6 | Feed estático | Validade do cupom [CONFIRMAR] |
-| 12/11 | qui | Stories: como funciona a condição de aluno e ex-aluno | S3 | Stories | Validade do cupom [CONFIRMAR] |
-| 13/11 | sex | Contagem: falta 1 semana | P7 | Feed + Reels | Aprovação; linha [T] |
-| 13/11 | sex | Stories: contagem regressiva com adesivo | S4 | Stories | Aprovação |
-| 16/11 | seg | Stories: última dúvida antes de sexta | S5 | Stories | Aprovação |
-| 17/11 | ter | Contagem: faltam 3 dias (com a linha [T] do transmitido, se liberada) | P8 | Feed estático | [T] depende do 68634 |
-| 18/11 | qua | Stories: faltam 2 dias e reaproveitamento das respostas em vídeo dos docentes (só os já aprovados) | S6 | Stories | Docentes autorizados |
+| 07/11 | sáb | Programação de sábado (prática) | P3 | Carrossel + Reels | Aprovação |
+| 07/11 | sáb | Stories: respostas às perguntas de 06/11, com os cartões do P5 | S2 | Stories | Respostas só da ficha; cartão 1 e cartão 5 do P5 são [T] |
+| 09/11 | seg | Reta final: as duas modalidades (versão A sem preço; versão B com preço) | P4 | Carrossel de 5 cartões + Story de reforço | B só depois de E5 e E6; cartão 3 é [T] |
+| 11/11 | qua | FAQ da página em carrossel (semana 3 do briefing); fica no feed (decisão do cmo, 12.3) | P14 | Carrossel de 5 cartões | Sem certificado e sem preço; cartão 1 é [T] |
+| 11/11 | qua | Stories: perguntas e respostas com docentes, rodada 1 | autoridade-docente | Stories | Texto aprovado pelo docente |
+| 12/11 | qui | Stories: como funciona a condição de aluno e ex-aluno, com a arte do P6; respostas da rodada 1 | S3 e P6 | Stories | Validade do cupom [CONFIRMAR] |
+| 13/11 | sex | Stories: falta 1 semana, com a arte do P7 e adesivo de contagem | S4 e P7 | Stories | Aprovação; linha [T] |
+| 14/11 | sáb | Post de docente: coordenação científica (arquivo autoridade-docente) | autoridade-docente | Feed | Texto aprovado pela docente; collab só se ela aceitar |
+| 16/11 | seg | Reel de docente, "uma pergunta, uma resposta" (arquivo autoridade-docente) | autoridade-docente | Feed (Reel) | Texto aprovado pelo docente |
+| 16/11 | seg | Stories: última dúvida antes de sexta; perguntas e respostas com docentes, rodada 2 | S5 | Stories | Aprovação |
+| 17/11 | ter | Stories: faltam 3 dias, com a arte do P8 (linha [T] do transmitido, se liberada); respostas da rodada 2 | P8 | Stories | [T] depende do 68634 |
+| 18/11 | qua | Stories: faltam 2 dias e reaproveitamento das respostas em vídeo dos docentes | S6 | Stories | Respostas aprovadas pelo docente |
 | 19/11 | qui | Véspera: endereço e horário | P9 | Feed estático | Horário de chegada [CONFIRMAR] |
 | 19/11 | qui | Stories de véspera, com adesivo de localização | S7 | Stories | Idem |
-| 20/11 | sex | Dia 1: hoje começa (arte, sem foto) | P10 | Feed estático | Aprovação |
-| 20/11 | sex | Stories ao vivo do dia 1 | S8 | Stories | Imagem de pessoas só com autorização [CONFIRMAR] |
-| 21/11 | sáb | Dia 2: hoje é a prática (arte ou foto autorizada) | P11 | Feed | Autorização de imagem para foto |
-| 21/11 | sáb | Stories ao vivo do dia 2 | S9 | Stories | Idem |
+| 20/11 | sex | Stories ao vivo do dia 1, com a arte do P10 | S8 e P10 | Stories | Imagem de participante só com termo [CONFIRMAR] |
+| 21/11 | sáb | Stories ao vivo do dia 2, com a arte do P11 | S9 e P11 | Stories | Idem |
 | 22/11 | dom | Agradecimento | P12 | Feed estático | Texto confirmado depois do evento |
-| 22/11 | dom | Gravação da teoria de sexta | P13 | Feed estático | [T]; só se a Ufape confirmar a venda depois de 20/11, com preço e prazo [CONFIRMAR NO CATÁLOGO] |
+| 23/11 | seg | Gravação da teoria de sexta | P13 | Feed estático | [T]; só se a Ufape confirmar a venda depois de 20/11, com preço e prazo [CONFIRMAR NO CATÁLOGO] |
 
-Faixas dos posts de docente (arquivo autoridade-docente, só com autorização registrada e texto aprovado pelo docente): posts em 03/11, 04/11, 05/11, 06/11, 09/11 e 10/11; vídeos curtos em 11/11, 12/11 e 13/11; perguntas e respostas em 11/11 a 12/11 e 16/11 a 17/11. Este arquivo não os reescreve.
+Peças de docente (arquivo autoridade-docente): no feed, só o post da coordenação científica em 14/11 e o Reel de 16/11; as demais peças dele viram material de Stories e de LinkedIn pessoal do docente (seção 4.2 da 1.20 de Eventos). Este arquivo não as reescreve.
 
-Pontos de checagem da campanha (briefing, seção 4): 03/11, 09/11 e 16/11. Se a checagem de 09/11 pedir mais peça para algum público, o post P5 (para quem é) e os Reels são os que mais se reaproveitam.
+Pontos de checagem da campanha (briefing, seção 4): 03/11, 09/11 e 16/11. Se a checagem de 09/11 pedir mais peça para algum público, os cartões do P5 (para quem é) e os Reels são os que mais se reaproveitam, em Stories.
 
-Mínimo do kit de evento (templates/kit-de-lancamento-evento.md, variação simpósio: 4 posts orgânicos; variação workshop: 3): cumprido por P1 (anúncio), P2 (sexta), P3 (sábado) e P4 (escolha da modalidade). Acréscimos desta entrega: P5, P6, P7, P8, P9, P10, P11, P12, P13, P14 (FAQ da semana 3, pedido pelo briefing) e os Stories S1 a S9.
+Mínimo do kit de evento (templates/kit-de-lancamento-evento.md, variação simpósio: 4 posts orgânicos; variação workshop: 3): cumprido por P1 (anúncio), P2 (sexta), P3 (sábado) e P4 (escolha da modalidade), todos no feed. Acréscimos no feed: P14, P9, P12 e, se aprovado, P13. Acréscimos em Stories: P5 (cartões), P6, P7, P8, P10, P11 e S1 a S9.
 
 ---
 
 ## 2. Posts
 
-Formato de templates/post-social.md. Em todos: **Linha de negócio:** Eventos (workshop). **Curso:** Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, 20 e 21/11/2026, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. **Plataforma:** Instagram (@ufapevet) e Facebook (/Ufape), mesmo texto. **Chamada para ação:** página do evento, https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_content com o código do post).
+Formato de templates/post-social.md. Em todos: **Linha de negócio:** Eventos (workshop). **Curso:** Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026, Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP. **Plataforma:** Instagram (@ufapevet) e Facebook (/Ufape), mesmo texto. **Chamada para ação:** página do evento, https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_content com o código do post).
 
 Padrão visual (todas as artes): ilustração própria de traçado de EEG ou linha do tempo, sem foto de docente, sem animal em procedimento, sem selo do MEC ou de terceiro, rodapé "Realização: Faculdade UFAPE". Logotipo, paleta e fonte [CONFIRMAR manual de marca]. Autorização de imagem: nenhuma pessoa aparece nas artes-base, então nada a registrar, salvo onde indicado.
 
@@ -108,7 +110,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 > O monitor mostra um número.
 > A decisão sobre hipnose, analgesia e despertar continua sendo sua.
 >
-> Por isso o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia tem dois dias.
+> Por isso o Workshop Brasileiro de Neuromonitorização tem dois dias.
 >
 > Sexta, 20/11: a base.
 > Neuroanatomia, EEG, análises espectrais e índices processados, com destaque para o BIS.
@@ -126,7 +128,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** Neuromonitorização serve à decisão clínica, não à marca do equipamento (página: "Abordagem centrada em decisões clínicas, não apenas em equipamentos").
 - **Linha final ou pergunta:** Qual decisão da sua rotina você gostaria de tomar olhando além do número?
-- **Texto para a arte (1:1):** "O monitor mostra um número. A decisão é sua." Apoio: "Workshop de Neuromonitorização Veterinária, Anestesia e Neurologia". Data: "20 e 21/11 | São Paulo". Rodapé: "Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "O monitor mostra um número. A decisão é sua." Apoio: "Workshop Brasileiro de Neuromonitorização, Anestesia e Neurologia". Data: "20 e 21/11 | São Paulo". Rodapé: "Realização: Faculdade UFAPE".
 - **Versão Reels (20 s, 9:16, legenda queimada, trilha sem voz, sem rosto):**
 
 | Tempo | Imagem | Texto na tela |
@@ -134,7 +136,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 | 0 a 3 s | Traçado de EEG estilizado, com um número grande no canto | O monitor mostra um número. |
 | 3 a 8 s | O número some, o traçado ocupa a tela | A decisão sobre hipnose, analgesia e despertar é sua. |
 | 8 a 15 s | Dois cartões | Sexta, 20/11: neuroanatomia, EEG, análises espectrais, BIS. / Sábado, 21/11: instalar, ler e decidir. |
-| 15 a 20 s | Fechamento | Workshop de Neuromonitorização Veterinária | 16 h | 30 vagas presenciais, por ordem de inscrição | São Paulo. Programação na página do evento. |
+| 15 a 20 s | Fechamento | Workshop Brasileiro de Neuromonitorização | 16 h | 30 vagas presenciais, por ordem de inscrição | São Paulo. Programação na página do evento. |
 
   Legenda do Reels: gancho, duas linhas da sexta e do sábado, data, local e "link na bio". Reaproveita a arte do roteiro R1 de criativos-de-anuncio (pedir a arte ao criativos-de-anuncio, sem editar o arquivo dele).
 - **Autorização de uso de imagem:** não se aplica (sem pessoas).
@@ -143,7 +145,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 ---
 
-### P2. Programação de sexta, teoria (03/11, terça)
+### P2. Programação de sexta, teoria (05/11, quinta)
 
 - **Código e UTM:** social02-sexta (utm_content=social02-sexta)
 - **Formato:** Carrossel 1:1 de 6 cartões
@@ -176,7 +178,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 | Cartão | Texto na imagem |
 |---|---|
-| 1 (capa) | "Sexta, 20/11: da neuroanatomia ao BIS." Apoio: "Workshop de Neuromonitorização Veterinária | São Paulo" |
+| 1 (capa) | "Sexta, 20/11: da neuroanatomia ao BIS." Apoio: "Workshop Brasileiro de Neuromonitorização | São Paulo" |
 | 2 | "08h30 Abertura. 08h45 Dos planos de Guedel ao awareness intraoperatório." |
 | 3 | "09h45 Redes neurais e neuroanatomia aplicada à anestesia (aula online ao vivo). 11h00 Como funciona o EEG: do sinal às análises espectrais." |
 | 4 | "13h30 EEG clínico na neurologia veterinária. 14h30 BIS, PSI e Conox: índices processados e revisão da literatura." |
@@ -185,12 +187,12 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Versão Reels:** não cabe (a grade em horários funciona melhor em carrossel). O gancho alternativo 2 vira Story de 1 cartão no mesmo dia.
 - **Autorização de uso de imagem:** não se aplica. Nenhum docente é nomeado nos cartões.
-- **Data de publicação:** 03/11/2026 (terça)
+- **Data de publicação:** 05/11/2026 (quinta), pela grade da seção 4.2 da 1.20 de Eventos
 - **Bloqueios:** conferir a grade vigente da página antes de publicar (a página diz "a distribuição entre docentes segue em alinhamento com a coordenação"). Divergência de entrada: a ficha diz "oito temas" na sexta e a grade lista nove blocos, e a página diz "08h às 18h" enquanto a grade começa às 08h30. Este post não diz "oito temas" e usa os horários da grade [CONFIRMAR com a coordenação].
 
 ---
 
-### P3. Programação de sábado, prática (05/11, quinta)
+### P3. Programação de sábado, prática (07/11, sábado)
 
 - **Código e UTM:** social03-sabado (utm_content=social03-sabado)
 - **Formato:** Carrossel 1:1 de 6 cartões + Reels
@@ -244,12 +246,12 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
   Reaproveita o roteiro R3 e o conceito C2 de criativos-de-anuncio (pedir a arte, sem editar o arquivo dele).
 - **Autorização de uso de imagem:** não se aplica (sem pessoas, sem animal).
-- **Data de publicação:** 05/11/2026 (quinta)
+- **Data de publicação:** 07/11/2026 (sábado), pela grade da seção 4.2 da 1.20 de Eventos
 - **Bloqueios:** nenhuma frase diz "paciente real" ou "paciente vivo". A frase "em modelos" e "conforme equipamentos e registros disponíveis" é obrigatória. Não citar número de monitores [CONFIRMAR NO CATÁLOGO].
 
 ---
 
-### P5. Para quem é, por público (07/11, sábado)
+### P5. Para quem é, por público (fora do feed; cartões nos Stories S2 de 07/11 e no P14)
 
 - **Código e UTM:** social05-paraquem (utm_content=social05-paraquem)
 - **Formato:** Carrossel 1:1 de 6 cartões
@@ -282,7 +284,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 | Cartão | Texto na imagem |
 |---|---|
-| 1 (capa) | "Para quem decide olhando além do número." Apoio: "Workshop de Neuromonitorização Veterinária | 20 e 21/11" |
+| 1 (capa) | "Para quem decide olhando além do número." Apoio: "Workshop Brasileiro de Neuromonitorização | 20 e 21/11" |
 | 2 | "Para quem anestesia: dos planos de Guedel ao awareness intraoperatório." |
 | 3 | "Para quem cuida do paciente crítico: hipnose e sedação sob bloqueio neuromuscular. EEG, BIS, EMG e TOF." |
 | 4 | "Para quem está na residência ou na pós-graduação: sem exigir EEG prévio. A sexta constrói a base." |
@@ -291,7 +293,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Versão Reels:** não cabe; o conteúdo em quatro situações funciona melhor em carrossel. Se a checagem de 09/11 pedir, o cartão 3 (UTI) vira Reels a partir do roteiro R4 de criativos-de-anuncio.
 - **Autorização de uso de imagem:** não se aplica.
-- **Data de publicação:** 07/11/2026 (sábado)
+- **Data de publicação:** não vai ao feed (grade da seção 4.2 da 1.20 de Eventos); os cartões entram nos Stories S2 de 07/11 e no P14 de 11/11
 - **Bloqueios:** o bloco "cães, gatos, equinos e bovinos" é texto literal da página, mas a grade não traz bloco por espécie. O post não promete caso nem prática com equinos e bovinos [CONFIRMAR NO CATÁLOGO se os casos do sábado incluem grandes animais]. Preferível, até a coordenação confirmar: trocar essa frase por "no centro cirúrgico e na UTI". O cartão 5 [T] sai enquanto o 68634 estiver em "verificar": o carrossel fica com 5 cartões (o cartão 4 passa a ser o penúltimo). Os cartões descrevem situações de uso, não característica de quem vê (importante se o post for impulsionado).
 
 ---
@@ -308,7 +310,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. [Versão B] [T] R$ 1.250,00 ou R$ 450,00: a diferença é o sábado prático.
 - **Corpo (linhas curtas), versões A e B iguais, salvo as linhas de preço:**
 
-> Duas formas de participar do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Duas formas de participar do Workshop Brasileiro de Neuromonitorização.
 >
 > Workshop Presencial (teórico + prático)
 > - Sexta teórica e sábado prático, 20 e 21/11
@@ -334,7 +336,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 | Cartão | Texto na imagem |
 |---|---|
-| 1 (capa) | [T] "Duas formas de participar." Sem [T]: "Workshop presencial: sexta e sábado." Apoio: "Workshop de Neuromonitorização Veterinária | 20 e 21/11" |
+| 1 (capa) | [T] "Duas formas de participar." Sem [T]: "Workshop presencial: sexta e sábado." Apoio: "Workshop Brasileiro de Neuromonitorização | 20 e 21/11" |
 | 2 | "Presencial: teórico + prático. Sexta e sábado, 16 h, das 08h às 18h. 30 vagas, por ordem de inscrição. Faculdade Ufape, Unidade 2, São Paulo." Versão B acrescenta: "R$ 1.250,00. Parcelamento: [CONFIRMAR NO CATÁLOGO]" |
 | 3 [T] | "Transmitido + Gravado: apenas teórico. Só as aulas de sexta, 20/11, ao vivo e gravadas. O sábado prático é só presencial." Versão B acrescenta: "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão" |
 | 4 | "Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT. Vínculo comprovado na secretaria. Validade: [CONFIRMAR]." |
@@ -358,7 +360,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. Dúvidas mais comuns sobre o workshop, respondidas pela página.
 - **Corpo (linhas curtas):**
 
-> Dúvidas frequentes sobre o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Dúvidas frequentes sobre o Workshop Brasileiro de Neuromonitorização.
 >
 > Preciso saber interpretar EEG antes?
 > Não. A sexta constrói a base, de neuroanatomia e EEG a análises espectrais e índices processados, antes da prática do sábado.
@@ -383,7 +385,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 | Cartão | Texto na imagem |
 |---|---|
-| 1 (capa) | "Dúvidas frequentes." Apoio: "Workshop de Neuromonitorização Veterinária | 20 e 21/11" |
+| 1 (capa) | "Dúvidas frequentes." Apoio: "Workshop Brasileiro de Neuromonitorização | 20 e 21/11" |
 | 2 | "Preciso saber EEG antes? Não. A sexta constrói a base." |
 | 3 | "É só BIS? Não. EEG, DSA, CSA, PSI, Conox e TOF." |
 | 4 | "Como funcionam os dois dias? Sexta: teoria. Sábado: prática, em modelos e casos." |
@@ -397,7 +399,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 ---
 
-### P6. Cupom SIMPNEUROMONIT para aluno e ex-aluno (12/11, quinta)
+### P6. Cupom SIMPNEUROMONIT para aluno e ex-aluno (12/11, quinta, nos Stories S3; fora do feed)
 
 - **Código e UTM:** social06-cupom (utm_content=social06-cupom)
 - **Formato:** Feed estático 1:1 (reaproveita o conceito C6 de criativos-de-anuncio, em tom orgânico)
@@ -408,7 +410,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. [T] O cupom SIMPNEUROMONIT vale para o presencial e para a teoria de sexta.
 - **Corpo (linhas curtas):**
 
-> Aluno e ex-aluno Ufape têm 20% de desconto no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Aluno e ex-aluno Ufape têm 20% de desconto no Workshop Brasileiro de Neuromonitorização.
 >
 > Use o cupom SIMPNEUROMONIT.
 >
@@ -422,15 +424,15 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** Quem já é da casa tem uma condição própria, e ela vem com a regra à vista: cupom e comprovação do vínculo.
 - **Linha final ou pergunta:** Dúvida sobre como comprovar o vínculo? Fale com a secretaria.
-- **Texto para a arte (1:1):** "Aluno e ex-aluno Ufape: 20% no workshop." Apoio: "Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria | validade: [CONFIRMAR]". Rodapé: "Workshop de Neuromonitorização Veterinária | 20 e 21/11 | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Aluno e ex-aluno Ufape: 20% no workshop." Apoio: "Cupom SIMPNEUROMONIT | vínculo comprovado na secretaria | validade: [CONFIRMAR]". Rodapé: "Workshop Brasileiro de Neuromonitorização | 20 e 21/11 | Realização: Faculdade UFAPE".
 - **Versão Reels:** não cabe. O Story S3 do mesmo dia cobre a condição.
 - **Autorização de uso de imagem:** não se aplica.
-- **Data de publicação:** 12/11/2026 (quinta)
+- **Data de publicação:** 12/11/2026 (quinta), só nos Stories S3 (a arte vira a tela principal), e só com a validade do cupom
 - **Bloqueios:** **bloqueado até a validade e o limite de uso do cupom estarem definidos** (E6; conformidade, desconto com regra, público e prazo). Quando a Ufape definir, trocar "Validade do cupom: [CONFIRMAR]" pela data e pelo limite. Canal e prazo da comprovação e se vale para aluno de pós em curso também [CONFIRMAR]: o post não cria prazo nem ordem de passos. Sem valor final calculado. Trechos [T] saem enquanto o 68634 estiver em "verificar"; o cupom segue citado só para o presencial.
 
 ---
 
-### P7. Contagem: falta 1 semana (13/11, sexta)
+### P7. Contagem: falta 1 semana (13/11, sexta, nos Stories S4; fora do feed)
 
 - **Código e UTM:** social07-semana (utm_content=social07-semana)
 - **Formato:** Feed estático 1:1 + Reels curto + Story S4 com adesivo de contagem
@@ -458,7 +460,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** A data é o fato. O post conta os dias e não cria pressão que a Ufape não possa sustentar com número.
 - **Linha final ou pergunta:** Qual bloco da programação você marcou na agenda?
-- **Texto para a arte (1:1):** "Falta 1 semana." Apoio: "Sexta: a base. Sábado: a prática." Linha de data: "20 e 21/11 | São Paulo". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Falta 1 semana." Apoio: "Sexta: a base. Sábado: a prática." Linha de data: "20 e 21/11 | São Paulo". Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Versão Reels (15 s, 9:16):**
 
 | Tempo | Imagem | Texto na tela |
@@ -469,12 +471,12 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 | 12 a 15 s | Fechamento | 20 e 21/11 | São Paulo. Programação na página do evento. |
 
 - **Autorização de uso de imagem:** não se aplica.
-- **Data de publicação:** 13/11/2026 (sexta)
+- **Data de publicação:** 13/11/2026 (sexta), só nos Stories S4
 - **Bloqueios:** a linha [T] sai enquanto o 68634 estiver em "verificar". Sem "últimas vagas", sem contador de vagas. Se a Ufape enviar número de vagas restantes com data e hora, a linha "Restam N vagas presenciais em dd/mm" pode ser avaliada à parte, com nova passagem pela conformidade; sem número real, não existe.
 
 ---
 
-### P8. Contagem: faltam 3 dias (17/11, terça)
+### P8. Contagem: faltam 3 dias (17/11, terça, nos Stories; fora do feed)
 
 - **Código e UTM:** social08-tresdias (utm_content=social08-tresdias)
 - **Formato:** Feed estático 1:1
@@ -503,10 +505,10 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** O que vai acontecer em cada dia já está dito: o post só relembra a data e os temas.
 - **Linha final ou pergunta:** Ficou alguma dúvida antes de sexta? Pergunte nos Stories.
-- **Texto para a arte (1:1):** "Faltam 3 dias." Apoio: "Sexta: a base. Sábado: a prática." Linha de data: "20 e 21/11 | São Paulo". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Faltam 3 dias." Apoio: "Sexta: a base. Sábado: a prática." Linha de data: "20 e 21/11 | São Paulo". Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Versão Reels:** não cabe (o P7 já cobre a contagem em vídeo).
 - **Autorização de uso de imagem:** não se aplica.
-- **Data de publicação:** 17/11/2026 (terça)
+- **Data de publicação:** 17/11/2026 (terça), só nos Stories
 - **Bloqueios:** o fim das inscrições de cada modalidade não está definido [CONFIRMAR]. Se as inscrições do presencial já tiverem fechado ou lotado até 17/11, a Ufape informa e o post muda o gancho para o transmitido, sem texto de venda do presencial (só se o 68634 estiver confirmado). O gancho alternativo 2 e o parágrafo [T] saem enquanto o 68634 estiver em "verificar".
 
 ---
@@ -522,7 +524,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. Onde e a que horas começa o workshop de amanhã.
 - **Corpo (linhas curtas):**
 
-> Amanhã, sexta-feira, 20/11, começa o Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Amanhã, sexta-feira, 20/11, começa o Workshop Brasileiro de Neuromonitorização.
 >
 > Onde:
 > Faculdade Ufape, Unidade 2
@@ -543,7 +545,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** Na véspera, o post resolve a logística: onde, quando e qual dos dois endereços da Ufape.
 - **Linha final ou pergunta:** Nos vemos amanhã.
-- **Texto para a arte (1:1):** "Amanhã, 20/11." Apoio: "Faculdade Ufape, Unidade 2 | Av. Tiradentes, 960, São Paulo/SP". Linha: "Sexta: teoria. Sábado: prática. Das 08h às 18h." Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Amanhã, 20/11." Apoio: "Faculdade Ufape, Unidade 2 | Av. Tiradentes, 960, São Paulo/SP". Linha: "Sexta: teoria. Sábado: prática. Das 08h às 18h." Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Versão Reels:** não cabe (conteúdo de informação).
 - **Autorização de uso de imagem:** não se aplica.
 - **Data de publicação:** 19/11/2026 (quinta)
@@ -551,12 +553,12 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 ---
 
-### P10. Dia 1: hoje começa (20/11, sexta)
+### P10. Dia 1: hoje começa (20/11, sexta, nos Stories S8; fora do feed)
 
 - **Código e UTM:** social10-dia1 (utm_content=social10-dia1)
 - **Formato:** Feed estático 1:1 (sem foto) + Stories S8
 - **Pilar:** Decidir olhando além do número (pilar 1)
-- **Gancho (linha 1):** Hoje começa o Workshop de Neuromonitorização Veterinária.
+- **Gancho (linha 1):** Hoje começa o Workshop Brasileiro de Neuromonitorização.
 - **Ganchos alternativos (2):**
   1. Sexta-feira de teoria: do cérebro à analgesia.
   2. Hoje é dia de construir a base para o sábado prático.
@@ -575,15 +577,15 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** O post marca a abertura sem inventar o que acontece: a descrição é a da programação.
 - **Linha final ou pergunta:** Acompanhe os Stories de hoje e de amanhã.
-- **Texto para a arte (1:1):** "Hoje: a teoria." Apoio: "Amanhã: a prática." Linha: "20 e 21/11 | São Paulo". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Hoje: a teoria." Apoio: "Amanhã: a prática." Linha: "20 e 21/11 | São Paulo". Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Versão Reels:** não cabe neste dia. Se houver imagem autorizada, um Reels curto de bastidores pode ser feito depois do evento (ver P12).
 - **Chamada para ação:** acompanhar os Stories. Link da página no Story, sem chamada de venda no dia do evento (se a Ufape quiser vender o transmitido ainda em 20/11, o texto vem de copy-de-mensagens, é [T] e precisa do fim das inscrições [CONFIRMAR]).
 - **Autorização de uso de imagem:** não se aplica (arte sem pessoas).
-- **Data de publicação:** 20/11/2026 (sexta), de manhã
+- **Data de publicação:** 20/11/2026 (sexta), de manhã, só nos Stories S8
 
 ---
 
-### P11. Dia 2: hoje é a prática (21/11, sábado)
+### P11. Dia 2: hoje é a prática (21/11, sábado, nos Stories S9; fora do feed)
 
 - **Código e UTM:** social11-dia2 (utm_content=social11-dia2)
 - **Formato:** Feed estático 1:1 ou carrossel com foto autorizada + Stories S9
@@ -603,15 +605,15 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 >
 > Acompanhe os Stories do dia.
 >
-> Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia. Realização: Faculdade UFAPE.
+> Workshop Brasileiro de Neuromonitorização. Realização: Faculdade UFAPE.
 
 - **Ponto de vista:** O post do dia 2 descreve a grade de sábado e mostra o ambiente, sem prometer o que cada participante vai fazer além do que está na programação.
 - **Linha final ou pergunta:** Qual desses momentos você gostaria de ver nos Stories?
-- **Texto para a arte (1:1):** "Hoje: a prática." Apoio: "Instalar, avaliar o sinal, interpretar e discutir os casos." Linha: "21/11 | São Paulo". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Hoje: a prática." Apoio: "Instalar, avaliar o sinal, interpretar e discutir os casos." Linha: "21/11 | São Paulo". Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Visual necessário:** arte de EEG (padrão) ou, se houver autorização, foto do ambiente e dos equipamentos expostos, sem pessoa identificável, sem animal, sem tutor e sem tela com dado de paciente.
 - **Versão Reels:** só depois do evento e só com autorização de imagem de todos os presentes e dos docentes que aparecerem (ver regra de dia do evento, seção 4).
 - **Autorização de uso de imagem:** [CONFIRMAR processo de autorização no credenciamento]. Foto com participante ou docente só com autorização registrada. Sem ela, usar a arte.
-- **Data de publicação:** 21/11/2026 (sábado), de manhã
+- **Data de publicação:** 21/11/2026 (sábado), de manhã, só nos Stories S9
 
 ---
 
@@ -626,7 +628,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. Dois dias de neuromonitorização: o que o programa percorreu.
 - **Corpo (linhas curtas):**
 
-> Obrigado a quem esteve com a gente no Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia.
+> Obrigado a quem esteve com a gente no Workshop Brasileiro de Neuromonitorização.
 >
 > Na sexta, a base: neuroanatomia, EEG, análises espectrais, BIS, PSI, Conox, UTI e bloqueio neuromuscular.
 > No sábado, a prática: instalar, checar o sinal, ler EEG e BIS e discutir casos.
@@ -637,7 +639,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** O encerramento agradece e descreve o que a programação percorreu. Nenhum número de participantes, nenhum resultado, nenhuma frase de satisfação.
 - **Linha final ou pergunta:** Ficou alguma pergunta do workshop? Escreva nos comentários.
-- **Texto para a arte (1:1):** "Obrigado." Apoio: "Workshop de Neuromonitorização Veterinária | 20 e 21/11". Rodapé: "Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "Obrigado." Apoio: "Workshop Brasileiro de Neuromonitorização | 20 e 21/11". Rodapé: "Realização: Faculdade UFAPE".
 - **Versão Reels:** só se a Ufape reunir imagens com autorização registrada. Sem elas, não há.
 - **Autorização de uso de imagem:** não se aplica na arte padrão; qualquer foto de pessoa só com autorização [CONFIRMAR].
 - **Data de publicação:** 22/11/2026 (domingo)
@@ -645,10 +647,10 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 ---
 
-### P13. Gravação da teoria de sexta (22/11, domingo), condicional
+### P13. Gravação da teoria de sexta (23/11, segunda), condicional
 
 - **Código e UTM:** social13-gravacao (utm_content=social13-gravacao)
-- **Formato:** Feed estático 1:1 (publicar no lugar de um segundo post em 22/11 ou em 23/11, conforme a Ufape)
+- **Formato:** Feed estático 1:1 (23/11, em turno diferente do Post 8 da Pós, pela grade da seção 4.2 da 1.20 de Eventos)
 - **Pilar:** Sexta teórica, sábado prático (pilar 2), objeção O7
 - **Gancho (linha 1):** [T] A teoria de sexta pode ser assistida na gravação.
 - **Ganchos alternativos (2):**
@@ -656,7 +658,7 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
   2. [T] Da neuroanatomia ao BIS, na gravação da sexta.
 - **Corpo (linhas curtas):**
 
-> [T] A teoria de sexta-feira do Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia está gravada.
+> [T] A teoria de sexta-feira do Workshop Brasileiro de Neuromonitorização está gravada.
 >
 > Neuroanatomia, EEG, análises espectrais, BIS, PSI, Conox, UTI e bloqueio neuromuscular.
 >
@@ -668,17 +670,17 @@ Padrão visual (todas as artes): ilustração própria de traçado de EEG ou lin
 
 - **Ponto de vista:** Quem não pôde ir tem uma porta de entrada para a base, dita sem prometer que equivale ao presencial.
 - **Linha final ou pergunta:** Quer ver a programação antes? Está na página do evento.
-- **Texto para a arte (1:1):** "A teoria de sexta, gravada." Apoio: "Apenas teórico". Rodapé: "Workshop de Neuromonitorização Veterinária | Realização: Faculdade UFAPE".
+- **Texto para a arte (1:1):** "A teoria de sexta, gravada." Apoio: "Apenas teórico". Rodapé: "Workshop Brasileiro de Neuromonitorização | Realização: Faculdade UFAPE".
 - **Versão Reels:** não.
 - **Autorização de uso de imagem:** não se aplica.
-- **Data de publicação:** 22/11/2026, só se confirmada a condição abaixo
+- **Data de publicação:** 23/11/2026, só se confirmada a condição abaixo
 - **Bloqueios:** o post inteiro é [T]. **Só roda se a Ufape confirmar o 68634 e a venda da gravação depois de 20/11, com preço e prazo de acesso** [CONFIRMAR NO CATÁLOGO]. Sem isso, o post não existe e a fase de gravação do briefing não roda. Não citar carga horária (68634 mostra 24 h) nem certificado. Nenhum trecho da gravação vai a post sem autorização de todos que aparecem.
 
 ---
 
 ## 3. Stories com caixa de perguntas e sequências
 
-Regras dos Stories (valem para S1 a S9): texto curto na tela, sem preço, sem certificado, sem nome de docente (salvo reaproveitamento de respostas em vídeo de docente já autorizado e aprovado, em S6), sem "últimas vagas". Todo cartão que cita o transmitido leva [T] e sai enquanto o 68634 estiver em "verificar" (regra 8). Adesivo de link para https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_source=instagram, utm_medium=organico, utm_campaign=neuro-summit-2026, utm_content=código do Story). Resposta da squad ou da Ufape a pergunta do público só com o que está na ficha. Qualquer pergunta sobre vínculo, cupom, pagamento ou fora da ficha vai para a secretaria (tabela 3.1). Nenhuma pergunta ou resposta reproduz nome de seguidor: ao responder, a equipe não cita o autor da pergunta.
+Regras dos Stories (valem para S1 a S9): texto curto na tela, sem preço, sem certificado, sem nome de docente (salvo reaproveitamento de respostas em vídeo de docente já autorizado e aprovado, em S6), sem "últimas vagas". Todo cartão que cita o transmitido leva [T] e sai enquanto o 68634 estiver em "verificar" (regra 8). Adesivo de link para https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_source=instagram, utm_medium=organic_social, utm_campaign=eventos_neuro26_202611, utm_content=código do Story). Resposta da squad ou da Ufape a pergunta do público só com o que está na ficha. Qualquer pergunta sobre vínculo, cupom, pagamento ou fora da ficha vai para a secretaria (tabela 3.1). Nenhuma pergunta ou resposta reproduz nome de seguidor: ao responder, a equipe não cita o autor da pergunta.
 
 ### 3.1 Perguntas prováveis e resposta permitida
 
@@ -695,7 +697,7 @@ Regras dos Stories (valem para S1 a S9): texto curto na tela, sem preço, sem ce
 | Parcelamento e formas de pagamento? | Encaminhar à secretaria. | E5 | Citar parcelas |
 | Como comprovo o vínculo? O cupom vale para aluno de pós em curso? Qual a validade? | Encaminhar à secretaria. Dizer só a regra da página: aluno e ex-aluno comprovam o vínculo com a secretaria. | Ficha | Criar prazo, validade ou ordem de passos |
 | Quais monitores e quantos? | Encaminhar à secretaria. | Ficha ("conforme equipamentos e registros disponíveis") | Citar marca, número ou participantes por equipamento |
-| Quem são os docentes? | Remeter à página do evento. Nome só se o docente já estiver autorizado e aprovado. | Estratégia de marca, 8.1 | Citar convidados "a definir" |
+| Quem são os docentes? | Remeter à página do evento. Nome e titulação como na ficha (autorização registrada para todos, decisões 8 e 10). | Estratégia de marca, 8.1 | Citar convidados "a definir" |
 | Cancelamento, reembolso, almoço, estacionamento, hospedagem? | Encaminhar à secretaria. | E8 | Responder de improviso |
 | Prazo de acesso à gravação? | Encaminhar à secretaria. | [CONFIRMAR NO CATÁLOGO] | Citar prazo |
 
@@ -723,7 +725,7 @@ A Ufape executa a captação. A squad entrega só o roteiro. Nada abaixo afirma 
 
 **Regras de imagem e de conteúdo (obrigatórias):**
 1. Imagem de **ambiente, sala, slide de programação e equipamentos expostos** pode sair sem pessoa.
-2. **Rosto de docente:** só com autorização registrada e texto aprovado. O docente que dá a aula online ao vivo não está presente no local: não mostrar como presencial.
+2. **Rosto de docente:** autorização registrada para todos (decisões 8 e 10); fala em primeira pessoa só com texto aprovado pelo docente. O docente que dá a aula online ao vivo não está presente no local: não mostrar como presencial.
 3. **Rosto de participante ou voz:** só com autorização de imagem coletada no credenciamento [CONFIRMAR processo e termo de imagem]. Sem termo, imagem de costas ou plano aberto sem identificação.
 4. **Nunca mostrar:** animal em procedimento, tutor, prontuário, dado de paciente, tela de monitor com identificação, imagem gráfica. A prática de sábado é em modelos, simulações ou registros: não escrever "paciente real" ou "paciente vivo".
 5. **Nenhum número** de presentes, de vagas preenchidas ou de "sala cheia" sem número real enviado pela Ufape.
@@ -760,7 +762,7 @@ A Ufape executa a captação. A squad entrega só o roteiro. Nada abaixo afirma 
 | P3 | Sim | Nenhum |
 | P4 | Versão A sem [T] sim; versão B não; cartão 4 só com validade do cupom | Parcelamento do presencial (E5), validade do cupom (E6), [T] (68634) |
 | P14 | Sim, sem o cartão e a resposta [T] | [T] |
-| P5 | Sim, sem [T] | Decidir a frase "cães, gatos, equinos e bovinos" (CONFIRMAR NO CATÁLOGO), [T] |
+| P5 | Fora do feed; cartões nos Stories S2 e no P14, sem [T] | Decidir a frase "cães, gatos, equinos e bovinos" (CONFIRMAR NO CATÁLOGO), [T] |
 | P6 | Não | Validade e limite do cupom (E6); [T] |
 | P7 | Sim, sem [T] | [T] |
 | P8 | Sim, sem [T] | Fim das inscrições (E7); [T] |
@@ -773,7 +775,7 @@ A Ufape executa a captação. A squad entrega só o roteiro. Nada abaixo afirma 
 | S2 | Sim, com o cartão 1 sem [T] | [T] |
 | S3 | Não | Validade do cupom (E6); [T] no cartão 3 |
 | S4, S5 | Sim | Contato ativo da secretaria |
-| S6 | Sim sem docente | Autorização dos docentes |
+| S6 | Sim | Respostas em vídeo aprovadas pelo próprio docente (a autorização está registrada) |
 | S7 | Não | Horário de chegada |
 | S8, S9 | Sim, só com ambiente e equipamento | Autorização de imagem para pessoas; regras da seção 4 |
 
@@ -786,7 +788,7 @@ A Ufape executa a captação. A squad entrega só o roteiro. Nada abaixo afirma 
 | Cliques na página do evento por post e por Story | utm_content (códigos acima) | GA4 ou ferramenta definida em P15 [CONFIRMAR] |
 | Perguntas e respostas nos Stories (S1, S2, S5) | Contagem somada por tema, sem nome de seguidor | Relatório semanal |
 | Mensagens à secretaria que citam o post | Contagem somada, enviada pela Ufape | Checagens de 03/11, 09/11 e 16/11 |
-| Inscrições com origem orgânica (utm_source=instagram ou facebook, utm_medium=organico) | Número somado enviado pela Ufape | Checagens e relatório final de 30/11 |
+| Inscrições com origem orgânica (utm_source=instagram ou facebook, utm_medium=organic_social) | Número somado enviado pela Ufape | Checagens e relatório final de 30/11 |
 | Usos do cupom SIMPNEUROMONIT | Número somado enviado pela Ufape | Idem |
 
 Curtidas e alcance ficam como apoio de leitura, nunca como meta. Metas numéricas [CONFIRMAR] (E4 do briefing).
@@ -799,14 +801,14 @@ Curtidas e alcance ficam como apoio de leitura, nunca como meta. Metas numérica
 
 | Item | Resultado | Observação |
 |---|---|---|
-| A frequência de publicação segue o plano | [x] Atendido | Calendário do briefing (seção 2): posts 1 a 4, FAQ da semana 3 (P14) e acréscimos (1 semana, véspera, dia, pós-evento), com no máximo um post de feed por dia. A capacidade real do time por semana não foi informada [CONFIRMAR]. P7 em 13/11 (7 dias antes) difere de 14 a 16/11 do briefing: pedir ajuste ao estrategia-de-campanha |
+| A frequência de publicação segue o plano | [x] Atendido | Calendário do briefing (seção 2): posts 1 a 4, FAQ da semana 3 (P14) e acréscimos (1 semana, véspera, dia, pós-evento), com a grade de feed da seção 4.2 da 1.20 de Eventos (2, 3 e 3 publicações de Eventos em S2 a S4) dentro do teto provisório do @ufapevet (D5 do cmo: 2 por dia, 1 por linha por dia, 10 por semana). A capacidade real do time por semana não foi informada [CONFIRMAR]. P7 em 13/11 (7 dias antes) difere de 14 a 16/11 do briefing: pedir ajuste ao estrategia-de-campanha |
 | Todo post tem uma ideia clara | [x] Atendido | Uma ideia por post |
 | Os ganchos são cumpridos pelo conteúdo | [x] Atendido | Cada gancho tem menos de 15 palavras e é cumprido pelo corpo (ver 7.3). Ganchos que citam o transmitido levam [T] e têm alternativa sem [T] |
 | Histórias e números são reais | [x] Atendido | Nenhum depoimento, história de aluno ou resultado. Números só da ficha e do catálogo: 20 e 21/11, 08h às 18h, 16 h (8 e 8), 30 vagas (capacidade), R$ 1.250,00 e R$ 450,00 (só versão B de P4), cupom de 20% |
 | Os posts estão formatados para celular | [x] Atendido | Gancho sozinho na linha 1, linhas curtas, espaço em branco, nenhum parágrafo com mais de 3 linhas, termina em pergunta ou ponto claro |
 | As ações de comunidade aconteceram nesta semana | [ ] Não se aplica ainda | Semana de 27/10 a 29/10 é de preparação. Caixas de perguntas programadas para 06/11 e 16/11 (conferir na semana em que ocorrerem) |
 | As métricas acompanhadas são conversas qualificadas e leads, não vaidade | [x] Atendido | Seção 6 |
-| Toda imagem ou depoimento de aluno e professor tem autorização registrada | [ ] Pendente | Nenhuma autorização registrada. Os posts desta lista não usam foto nem nome de docente. Foto de pessoas (P11, P12, S6, S8, S9) só com autorização [CONFIRMAR]; sem ela, usar a versão sem pessoa |
+| Toda imagem ou depoimento de aluno e professor tem autorização registrada | [ ] Parcial | Docentes, palestrantes e convidados: autorização registrada (decisões 8 e 10). Os posts desta lista não usam nome de docente. Participantes: foto ou voz (P11, P12, S8, S9) só com termo de imagem no credenciamento [CONFIRMAR]; sem ele, usar a versão sem pessoa |
 | Dados de curso nos posts batem com contexto/catalogo-de-cursos.md | [ ] Parcial | Datas, 30 vagas, modalidades, local, preços e cupom batem com o catálogo (conferido pelo qa-de-marketing, seção 1 do veredito). Pendências: o transmitido é o produto 68634 em "verificar" (todo trecho [T] bloqueado) e 21/11 e o horário ainda não estão na linha do catálogo |
 
 ### 7.2 auditorias/conformidade-educacional.md
@@ -826,7 +828,7 @@ Curtidas e alcance ficam como apoio de leitura, nunca como meta. Metas numérica
 | Preço e condições | Desconto com regra, público e prazo | [ ] Pendente: regra e público claros (aluno e ex-aluno, vínculo na secretaria); **validade e limite [CONFIRMAR]** em P4 cartão 4, P6 e S3, que ficam bloqueados. Nenhum valor com cupom calculado |
 | Preço e condições | Urgência real | [x] Só data e capacidade de 30 vagas |
 | Preço e condições | Prouni, Fies, financiamento | [x] Não se aplica |
-| Pessoas e dados | Autorização de docentes e participantes | [ ] Pendente para P11, P12 (se houver foto), S6, S8 e S9; os demais posts não usam pessoa |
+| Pessoas e dados | Autorização de docentes e participantes | [x] Docentes registrados (decisões 8 e 10). [ ] Participantes pendentes para P11, P12 (se houver foto), S8 e S9; os demais posts não usam pessoa |
 | Pessoas e dados | Menores de idade | [x] Não se aplica |
 | Pessoas e dados | Formulários com finalidade e política de privacidade | [x] Não se aplica aos posts; o checkout da página segue [CONFIRMAR no site] |
 | Pessoas e dados | WhatsApp e e-mail com consentimento | [x] Não se aplica: posts orgânicos |
@@ -853,7 +855,7 @@ Curtidas e alcance ficam como apoio de leitura, nunca como meta. Metas numérica
 | P7 | Falta 1 semana para o workshop de neuromonitorização. | 8 | Fato de calendário (13/11 a 20/11) |
 | P8 | Faltam 3 dias para a sexta teórica. | 7 | Fato de calendário (17/11 a 20/11) |
 | P9 | Amanhã, sexta-feira, começa o workshop de neuromonitorização. | 8 | Fato de calendário e logística da ficha |
-| P10 | Hoje começa o Workshop de Neuromonitorização Veterinária. | 7 | Fato de calendário |
+| P10 | Hoje começa o Workshop Brasileiro de Neuromonitorização. | 7 | Fato de calendário |
 | P11 | Hoje é dia de prática: instalar, checar, ler, discutir. | 9 | Grade de sábado |
 | P12 | Obrigado a quem esteve com a gente em 20 e 21/11. | 10 | Fato posterior ao evento, confirmado em 22/11 |
 | P13 | [T] A teoria de sexta pode ser assistida na gravação. | 9 | Só se a gravação estiver à venda, confirmada pela Ufape |
@@ -870,7 +872,7 @@ Pedidos que ficam fora deste arquivo (este agente não edita arquivo alheio):
 1. contexto/catalogo-de-cursos.md, seção 9: incluir 21/11/2026 e o horário (08h às 18h) na linha do workshop. Seção 4: verificar o produto 68634 (24 h, sem data) e liberar o transmitido nas peças.
 2. Página do evento: unificar o nome de docentes (grade e Corpo docente trazem formas diferentes), esclarecer "oito temas" contra nove blocos na sexta, esconder "A definir", alinhar o horário de início (08h na página, 08h30 na grade).
 3. Criativos-de-anuncio: enviar as artes-base de C1, C2 e C6, e os roteiros R1, R3 e R4, para reaproveitar em P1, P3, P5 e P6.
-4. Autoridade-docente: confirmar quais docentes estão autorizados até 29/10; os posts deles entram nas faixas do calendário.
+4. Autoridade-docente: a autorização está registrada para todos (decisões 8 e 10); os posts dele entram no calendário da seção 1 (post da coordenação em 14/11 e Reel em 16/11 no feed; o restante em Stories).
 5. Copy-de-mensagens: o texto de véspera e do dia para o CRM é desse agente. Este arquivo cobre só os posts e Stories.
 6. Estrategia-de-campanha: ajustar o "falta 1 semana" do calendário para 13/11 (7 dias antes).
 
@@ -892,6 +894,16 @@ Pedidos que ficam fora deste arquivo (este agente não edita arquivo alheio):
 
 ---
 
+## Mudanças desta versão
+
+- Versão 3 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa.
+  - Calendário da seção 1 trocado pela grade de feed da seção 4.2 da 1.20 de Eventos (D5 do cmo): P2 em 05/11, P3 em 07/11, P5 fora do feed, P6, P7, P8, P10 e P11 em Stories, P14 no feed em 11/11, post da coordenação em 14/11, Reel de docente em 16/11, P13 em 23/11. Cabeçalhos e datas de publicação dos posts ajustados; nenhum texto de post foi reescrito.
+  - Autorização de imagem e de citação registrada para todos (decisões 8 e 10): regras 2 e da seção 4, tabela 3.1, seção 5 (S6), auditorias e listas.
+  - UTM no padrão D11 e D12: utm_medium=organic_social e utm_campaign=eventos_neuro26_<AAAAMM>.
+  - Nome oficial "Workshop Brasileiro de Neuromonitorização" na primeira menção, nas legendas e nas artes, no lugar da forma longa da página e de "Workshop de Neuromonitorização Veterinária" (decisão 7; mesmo ajuste do SEv2 pedido à 1.20 de Eventos).
+
+---
+
 ## Fatos (com fonte)
 
 1. Evento em 20 e 21/11/2026, sexta teórica e sábado prático, das 08h às 18h; Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP; 16 h (8 teóricas e 8 práticas); 30 vagas, por ordem de inscrição. Fonte: ficha do evento; catálogo, seção 9 (20/11); casa de mensagens, fatos 1 e 2.
@@ -905,17 +917,20 @@ Pedidos que ficam fora deste arquivo (este agente não edita arquivo alheio):
 9. Destino único das campanhas: https://faculdade.ufape.com.br/neuro-summit/. Fonte: docs/execucao-2026-10-26.md.
 10. "Apostila e material digital, se previsto". Fonte: ficha.
 11. Calendário-base da reta final, com post de FAQ na semana de 09/11 a 13/11, pontos de checagem de 03/11, 09/11 e 16/11, fases de véspera, dia e pós-evento. Fonte: estrategia-de-campanha-eventos-2026-10-26.md, seções 2 e 4.
-12. Posts de docente: 03/11 a 10/11, vídeos 11/11 a 13/11, perguntas e respostas em 11/11 a 12/11 e 16/11 a 17/11, todos condicionados à autorização. Fonte: autoridade-docente-eventos-2026-10-26.md, seção 4.
+12. Posts de docente no feed: post da coordenação científica em 14/11 e Reel de docente em 16/11; perguntas e respostas nos Stories em 11 e 12/11 e 16 e 17/11. Fonte: estrategia-social-eventos-2026-10-26.md, seção 4.2; autoridade-docente-eventos-2026-10-26.md, seção 4.
+16. Autorização de imagem e de citação registrada para todos: docentes, palestrantes e convidados. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
+17. Nome oficial "Workshop Brasileiro de Neuromonitorização"; nunca "simpósio". Fonte: docs/execucao-2026-10-26.md, decisão 7.
+18. Grade de feed do @ufapevet com teto provisório (2 por dia, 1 por linha por dia, 10 por semana) e padrão de UTM (organic_social; utm_campaign com a chave eventos_neuro26). Fonte: cmo-geral-2026-10-26.md, seção 12 (D5, D11, D12); estrategia-social-eventos-2026-10-26.md, seção 4.2.
 13. Contatos oficiais da secretaria (segunda a sexta, 9h às 18h) e das vendas. Fonte: contexto/ufape-geral.md. O contexto também registra instabilidade no WhatsApp interno em 22/10/2026.
 14. A sede fica na Av. 9 de Julho, 3939, e o workshop acontece na Unidade 2, na Av. Tiradentes, 960. Fonte: contexto/ufape-geral.md; ficha; estrategia-de-marca-geral, seção 4.2.
 15. 02/11/2026 (Finados), 15/11/2026 (Proclamação da República) e 20/11/2026 (Dia Nacional de Zumbi e da Consciência Negra) são feriados nacionais. Fonte: legislação federal (fora dos arquivos da squad); 02/11 e 20/11 constam no briefing de campanha.
 
 ## Suposições
 
-1. [SUPOSIÇÃO] Padrão de UTM (utm_source, utm_medium=organico, utm_campaign=neuro-summit-2026, utm_content com o código do post), até a decisão de P15.
-2. [SUPOSIÇÃO] Capacidade do time de um post de feed por dia e Stories nos dias marcados; horários de publicação (manhã para docente, tarde para esta lista).
+1. [SUPOSIÇÃO] Que o GA4 ou a ferramenta de P15 leia organic_social como orgânico social (padrão fixado pelo cmo em D11 e D12; a conferência é do arquiteto-de-fluxos).
+2. [SUPOSIÇÃO] Teto provisório D5 do cmo para o @ufapevet e Stories nos dias marcados; horários de publicação (manhã para docente, tarde para esta lista).
 3. [SUPOSIÇÃO] Instagram e Facebook como canais únicos desta etapa e Facebook como reaproveitamento do Instagram, como no briefing de campanha.
-4. [SUPOSIÇÃO] Sábado, 07/11, e domingo, 22/11, funcionam para o público profissional (sem dado de comportamento).
+4. [SUPOSIÇÃO] Sábados (07/11, 14/11) e domingo, 22/11, funcionam para o público profissional (sem dado de comportamento).
 5. [SUPOSIÇÃO] Enquetes e caixa de perguntas geram conversa qualificada; a hipótese é verificada na checagem de 09/11.
 6. [SUPOSIÇÃO] A sequência de Stories de contagem regressiva usa 20/11 às 08h30 como início (abertura na grade), a conferir.
 7. [SUPOSIÇÃO] O código do cupom em caixa alta é a única exceção à regra de caixa alta.
@@ -931,12 +946,12 @@ Pedidos que ficam fora deste arquivo (este agente não edita arquivo alheio):
 3. [CONFIRMAR] Fim das inscrições de cada modalidade; vagas restantes com data (sem esse número, nenhuma peça de escassez).
 4. [CONFIRMAR NO CATÁLOGO] Prazo de acesso à gravação e venda da gravação depois de 20/11, com preço (libera P13).
 5. [CONFIRMAR] Horário de chegada e credenciamento (a página diz 08h, a grade abre às 08h30).
-6. [CONFIRMAR autorização] Nome, imagem e voz de cada docente (posts de autoridade-docente e S6); termo de imagem de participantes no credenciamento (P11, S8, S9).
+6. [CONFIRMAR] Termo de imagem de participantes no credenciamento (P11, S8, S9). A autorização de docentes, palestrantes e convidados está registrada (decisões 8 e 10); falta só o ok do docente ao texto em primeira pessoa.
 7. [CONFIRMAR com a coordenação] Grade vigente e distribuição entre docentes; se os casos do sábado incluem equinos e bovinos.
 8. [CONFIRMAR NO CATÁLOGO] Monitores do sábado, quantidade e participantes por equipamento.
 9. [CONFIRMAR] Almoço, o que levar, estacionamento, cancelamento, transferência e reembolso (respostas nos Stories vão à secretaria).
 10. [CONFIRMAR] Decisão sobre "Certificado UFAPE" em peça (AP8) e texto oficial de certificação; até lá, nenhum post cita certificado.
-11. [CONFIRMAR] Quem na Ufape aprova e publica cada tipo de peça (P12), ferramenta de medição e padrão de UTM (P15), metas numéricas e inscritos atuais (E4).
+11. [CONFIRMAR] Quem na Ufape aprova e publica cada tipo de peça (P12), ferramenta de medição (P15; o padrão de UTM foi fixado pelo cmo em D11 e D12), metas numéricas e inscritos atuais (E4).
 12. [CONFIRMAR] Manual de marca (logotipo, paleta, fonte) e canal de contato ativo da secretaria (WhatsApp interno instável em 22/10/2026).
 13. [CONFIRMAR NO CATÁLOGO] Inclusão de 21/11/2026 e do horário (08h às 18h) na linha do catálogo.
 14. [CONFIRMAR] Aprovação de venda cruzada para as provas de bolsa de 27/11 no pós-evento (nenhum post deste arquivo a usa).

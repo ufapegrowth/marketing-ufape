@@ -3,6 +3,7 @@
 - Agente: estrategia-de-oferta (departamento 02, Estratégia e Posicionamento), etapa 1.8 da camada 1
 - Linha: livres (os Eventos estão em arquivo próprio: saidas/02-estrategia-e-posicionamento/estrategia-de-oferta-eventos-2026-10-26.md)
 - Data: 26/10/2026
+- Versão: 2 (26/10/2026). Aplica a seção 12 do plano do cmo e os ajustes do qa: nota de proposta única de crédito (PL2 opção A, só proposta à Ufape, nenhuma peça cita crédito), tabela única de pares (D6) e frase única do curso livre (D13). Mudanças no fim do arquivo.
 - Status: rascunho para o qa-de-marketing (auditoria 02-estrategia-e-posicionamento e auditorias/conformidade-educacional.md, resultado na seção 9). Nada publicado, enviado ou pago. Toda proposta da seção 5 é pedido de aprovação, não oferta vigente.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -13,7 +14,7 @@
   - saidas/01-inteligencia-de-mercado/pesquisa-de-persona-livres-2026-10-26.md
   - saidas/01-inteligencia-de-mercado/inteligencia-concorrencia-livres-2026-10-26.md (seções 1 a 8)
   - saidas/08-conversao/analise-de-funil-livres-2026-10-26.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7; seções 4, 5 e 8 de apoio)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 2, 3 e 7; seções 4, 5 e 8 de apoio; na versão 2, seção 12.4, D6 e D7, D13 e pergunta U7)
   - Fichas abertas por este agente: contexto/cursos/livres/573, 68614, 623, 68637, 640, 641, 68665, 68666, 720, 721; contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
 - Não abri faculdade.ufape.com.br. Nenhuma busca nova na web.
@@ -25,7 +26,7 @@
 
 1. **Oferta oficial** é só o que está em contexto/catalogo-de-cursos.md. O que está só na ficha do curso aparece com [CONFIRMAR NO CATÁLOGO] e serve para orientar, não para peça final.
 2. **Totais no cartão** (parcela vezes número de parcelas) são cálculo deste agente e aparecem como cálculo.
-3. **Curso livre não confere diploma nem equivale a pós-graduação.** Nenhuma frase de certificação (texto oficial [PREENCHER COM A REGULAÇÃO], pendência P1). A ficha de 68614 traz frase de certificação ligada ao órgão regulador: não repetir.
+3. **Frase única do curso livre (D13 do cmo): "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação."** Nenhuma frase de certificação (texto oficial [PREENCHER COM A REGULAÇÃO], pendência P1). A ficha de 68614 traz frase de certificação ligada ao órgão regulador: não repetir.
 4. **Sem urgência sem número.** Nada de "últimas vagas", "vagas limitadas", "garanta sua vaga" ou "turma reduzida" sem número. A única data-limite que pode aparecer é uma data real escrita pela Ufape (início do curso, fim de uma regra de cancelamento).
 5. **Garantia só a que a Ufape já escreve e honra.** Hoje isso é: devolução total por cancelamento até 30 dias antes em 68614 (ficha) e reembolso se a turma não for confirmada em 623 e 68637 (fichas). Nada além.
 6. **Proposta não é oferta.** Tudo da seção 5 depende de aprovação da Ufape, com regra, validade e custo escritos. Até lá, nenhuma peça cita proposta.
@@ -154,37 +155,37 @@ Pontos que a oferta tem de dizer, se um dia for divulgada: os três são **está
 1. Ordem: preço à vista (Pix ou boleto) primeiro, depois parcelas no cartão, depois o total no cartão entre parênteses quando for diferente do à vista, depois a condição que muda a decisão (regra da turma, prazo de acesso, reembolso), por fim a frase de curso livre.
 2. Valores sempre com centavos e "R$", como no catálogo.
 3. Nunca "a partir de" sem o valor mínimo real; nunca "só hoje", "promoção" ou "desconto" sem regra aprovada.
-4. A frase de curso livre entra em toda peça longa (página, e-mail, WhatsApp): "Curso livre: não confere diploma nem equivale a pós-graduação." Em anúncio curto, ela vai no texto principal ou na página de destino logo acima do botão [CONFIRMAR com o qa onde cabe em cada formato de anúncio].
+4. A frase de curso livre entra em toda peça longa (página, e-mail, WhatsApp): "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." Em anúncio curto, ela vai no texto principal ou na página de destino logo acima do botão [CONFIRMAR com o qa onde cabe em cada formato de anúncio].
 5. Antes de publicar, conferir o preço na página oficial (catálogo, "Como usar").
 
 ### 2.2 Modelos
 
 **F1 Presencial (longo)**
-> [Nome do curso], [data, só depois de resolvida P6], em São Paulo, [CH] h. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total] no cartão). [Regra da turma como está na ficha confirmada.] Curso livre: não confere diploma nem equivale a pós-graduação.
+> [Nome do curso], [data, só depois de resolvida P6], em São Paulo, [CH] h. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total] no cartão). [Regra da turma como está na ficha confirmada.] Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 Exemplo preenchido (68637, depois de resolvida P7):
-> Imersão teórica e prática em Endoscopia Digestiva, 28 e 29/11/2026, em São Paulo, 12 h. R$ 890,00 à vista no Pix ou boleto, ou 6x de R$ 205,00 no cartão (total de R$ 1.230,00 no cartão). A turma abre com no mínimo 15 participantes; se não abrir, o valor da inscrição é devolvido. Compre passagem e hotel só com a turma confirmada. Curso livre: não confere diploma nem equivale a pós-graduação.
+> Imersão teórica e prática em Endoscopia Digestiva, 28 e 29/11/2026, em São Paulo, 12 h. R$ 890,00 à vista no Pix ou boleto, ou 6x de R$ 205,00 no cartão (total de R$ 1.230,00 no cartão). A turma abre com no mínimo 15 participantes; se não abrir, o valor da inscrição é devolvido. Compre passagem e hotel só com a turma confirmada. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 **F1 Presencial (curto, anúncio ou story)**
 > R$ [à vista] no Pix ou [n]x de R$ [parcela] no cartão (R$ [total]).
 
 **F2 Gravado (longo)**
-> [Nome do curso], gravado, [CH] h[, acesso por [prazo], só se confirmado no catálogo]. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Dúvidas por e-mail com a secretaria. Curso livre: não confere diploma nem equivale a pós-graduação.
+> [Nome do curso], gravado, [CH] h[, acesso por [prazo], só se confirmado no catálogo]. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Dúvidas por e-mail com a secretaria. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 Exemplo (411):
-> Curso de Ecocardiograma em Pequenos Animais, gravado, 12 h. R$ 420,00 à vista no Pix ou boleto, ou 6x de R$ 98,00 no cartão (total de R$ 588,00). Curso livre: não confere diploma nem equivale a pós-graduação.
+> Curso de Ecocardiograma em Pequenos Animais, gravado, 12 h. R$ 420,00 à vista no Pix ou boleto, ou 6x de R$ 98,00 no cartão (total de R$ 588,00). Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 (O prazo de 120 dias entra quando estiver no catálogo, com o início da contagem.)
 
 **F3 Minicurso**
-> Minicurso de [área] na Clínica Médica de Pequenos Animais, 8 h gravadas. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Curso livre: não confere diploma nem equivale a pós-graduação.
+> Minicurso de [área] na Clínica Médica de Pequenos Animais, 8 h gravadas. R$ [à vista] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 Frase de linha para peça que mostra vários minicursos: "13 minicursos de 8 h (um de 6 h), de R$ 185,00 a R$ 300,00 à vista no Pix ou boleto." (catálogo)
 
 **F4 Grupo de estudos**
-> Grupo de Estudos em [área], online, [frequência da ficha confirmada], início em [data]. R$ [valor] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Em caso de desistência, o valor não é reembolsado. Curso livre: não confere diploma nem equivale a pós-graduação.
+> Grupo de Estudos em [área], online, [frequência da ficha confirmada], início em [data]. R$ [valor] à vista no Pix ou boleto, ou [n]x de R$ [parcela] no cartão (total de R$ [total]). Em caso de desistência, o valor não é reembolsado. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 Exemplo (68666):
-> Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, online, início em 25/11/2026. R$ 100,00 à vista no Pix ou boleto, ou 1x de R$ 100,00 no cartão. [Regra de reembolso de 68666: CONFIRMAR NO CATÁLOGO; a ficha deste grupo não traz.] Curso livre: não confere diploma nem equivale a pós-graduação.
+> Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, online, início em 25/11/2026. R$ 100,00 à vista no Pix ou boleto, ou 1x de R$ 100,00 no cartão. [Regra de reembolso de 68666: CONFIRMAR NO CATÁLOGO; a ficha deste grupo não traz.] Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
 
 Sem "R$ 100,00 por ano" até a Ufape confirmar o período.
 
@@ -263,8 +264,8 @@ A resposta usa só a oferta oficial. A coluna "se a proposta for aprovada" mostr
 | O5 | "Gravado sem data: quando começa e até quando vejo?" | F2, F3 | Dizer o que o catálogo e a ficha dizem: compra a qualquer momento (status contínuo) e prazo de acesso onde a ficha informa (120 dias em 591, 103 e 411; 8 meses em 482) [CONFIRMAR NO CATÁLOGO, inclusive quando a contagem começa]. Sem prazo na ficha, a peça não fala de prazo | Prazo de acesso padrão por formato, contado do primeiro acesso (PL7) |
 | O6 | "Por que no cartão é mais caro?" | Todos | Mostrar os dois valores e o total no cartão na mesma peça (seção 2). O Pix ou boleto é a forma mais barata; não chamar isso de desconto nem de promoção | Nenhuma proposta; é transparência |
 | O7 | "R$ 100,00 é por encontro, por mês ou pelo ano?" | F4 | Mostrar a agenda publicada (68666: 25/11/2026 a 24/11/2027, ficha) sem afirmar o que o valor cobre até o catálogo dizer | Pedido de regra (seção 5, PL4, item b) |
-| O8 | "Sou aluno ou ex-aluno da Ufape: tenho desconto?" | Todos | Hoje não há regra geral em Livres. Existem: 641 para aluno de pós (aprimoramento, em "verificar"); 720 para ex-aluno e aluno da Pós em Oftalmologia (ficha); cupom do workshop (Eventos) | Cupom de ex-aluno em todos os livres (PL3); crédito do livre na matrícula da Pós (PL2) |
-| O9 | "O certificado vale como especialização?" | Todos | "Curso livre: não confere diploma nem equivale a pós-graduação." Sem frase de certificado | Texto oficial da regulação (P1) |
+| O8 | "Sou aluno ou ex-aluno da Ufape: tenho desconto?" | Todos | Hoje não há regra geral em Livres. Existem: 641 para aluno de pós (aprimoramento, em "verificar"); 720 para ex-aluno e aluno da Pós em Oftalmologia (ficha); cupom do workshop (Eventos) | Cupom de ex-aluno em todos os livres (PL3); crédito do livre na matrícula da Pós (PL2 opção A, proposta única U7; não citar em peça até a resposta) |
+| O9 | "O certificado vale como especialização?" | Todos | "Curso livre: não confere diploma e não equivale a graduação ou pós-graduação." Sem frase de certificado | Texto oficial da regulação (P1) |
 
 Nenhuma resposta promete emprego, renda, aprovação (inclusive na prova de título do 488) ou resultado clínico.
 
@@ -277,13 +278,30 @@ Todas são **proposta**. Nenhuma está vigente. Percentuais e prazos sugeridos s
 | # | Proposta | Regra proposta | Validade proposta | Custo | Efeito esperado [SUPOSIÇÃO] | Como medir | Como desfazer |
 |---|---|---|---|---|---|---|---|
 | PL1 | Trilhas de minicursos com preço de pacote | Produto novo na loja com 3 itens da mesma família. Exemplos: "Clínica do dia a dia" (454 Nefrologia, 458 Endocrinologia, 455 Gastroenterologia: R$ 749,00 à vista somados); "Anestesia na clínica" (minicursos 483 e 461 e o gravado 602: R$ 539,00 somados). Desconto sobre a soma à vista definido pela Ufape (ponto de partida: 15% [SUPOSIÇÃO], o que daria R$ 636,65 e R$ 458,15 por cálculo). Mesmo prazo de acesso de cada item. Não cumulativo | Piloto de 90 dias a partir da aprovação [SUPOSIÇÃO], com data de fim escrita na página | Receita abdicada por pacote: R$ 112,35 e R$ 80,85 no exemplo (cálculo), contra a chance de vender 3 itens em vez de 1. Operação: cadastrar produto na loja | Ticket médio maior nos minicursos; resposta à objeção O1 | Pedidos pagos do pacote x pedidos avulsos dos mesmos códigos, por semana (funil, L6) | Tirar o produto da loja na data de fim; quem comprou mantém o acesso |
-| PL2 | Crédito do curso livre na matrícula da Pós | Quem pagou curso livre da mesma área (pares da seção 2.1 do posicionamento) nos 12 meses anteriores recebe o valor pago como abatimento. Opção A: até o valor da matrícula da Pós (R$ 250,00 na maioria das turmas; R$ 350,00 em 68629 e 586, catálogo). Opção B: até o valor pago no livre, diluído nas mensalidades. Uma vez por pessoa; regra de acúmulo com a bolsa da prova [CONFIRMAR] | Compras de livre feitas a partir da aprovação; crédito válido por 12 meses [SUPOSIÇÃO] | Opção A: até R$ 250,00 ou R$ 350,00 por matrícula vinda de Livres. Opção B: até o preço do livre (ex.: R$ 2.350,00 em 573) por matrícula. Operação: controle na secretaria | Testar a hipótese "livre é porta de entrada para a Pós" com um incentivo medido | Matrículas de Pós com crédito usado, somadas (funil, L8) | Encerrar para compras novas com data; honrar até o fim do prazo os créditos já emitidos |
+| PL2 | Crédito do curso livre na matrícula da Pós | Versão 2: a proposta levada à Ufape é só a opção A (nota abaixo da tabela; U7 do cmo). Quem pagou curso livre de um par da tabela única D6 nos 12 meses anteriores recebe o valor pago como abatimento. Opção A: até o valor da matrícula da Pós (R$ 250,00 na maioria das turmas; R$ 350,00 em 68629 e 586, catálogo). Opção B: até o valor pago no livre, diluído nas mensalidades. Uma vez por pessoa; sem acumular com bolsa da prova (proposta do cmo) | Compras de livre feitas a partir da aprovação; crédito válido por 12 meses [SUPOSIÇÃO] | Opção A: até R$ 250,00 ou R$ 350,00 por matrícula vinda de Livres. Opção B: até o preço do livre (ex.: R$ 2.350,00 em 573) por matrícula. Operação: controle na secretaria | Testar a hipótese "livre é porta de entrada para a Pós" com um incentivo medido | Matrículas de Pós com crédito usado, somadas (funil, L8) | Encerrar para compras novas com data; honrar até o fim do prazo os créditos já emitidos |
 | PL3 | Cupom de ex-aluno em todos os livres | Um cupom único para aluno e ex-aluno Ufape, com comprovação do vínculo na secretaria, como já se faz no workshop. Percentual a definir (precedentes: 20% no workshop e em 720). Não cumulativo com outra condição; fora dos grupos de R$ 100,00 e do 641. Definir quem é ex-aluno: Pós, Graduação ou também Livres [CONFIRMAR] | Piloto até 31/03/2027 [SUPOSIÇÃO], com data escrita | Até o percentual escolhido sobre cada venda com cupom (ex.: 20% de R$ 1.250,00 em 68614 = R$ 250,00 por venda, cálculo). Risco: dar desconto a quem compraria sem ele | Recompra pela base da Ufape; resposta à objeção O8 | Pedidos com cupom por código e semana (loja) | Desativar o cupom na loja na data de fim, anunciada antes; pedidos já pagos não mudam |
 | PL4 | Entrada proporcional em grupo de estudos já iniciado | (a) Preço proporcional aos encontros que faltam, com piso de R$ 100,00 [SUPOSIÇÃO]. Exemplos por cálculo: 721 com 11 de 22 módulos restantes = R$ 367,00; 713 com 6 de 23 aulas restantes = R$ 191,48; 720 a partir de novembro, 10 de 12 módulos = R$ 611,67. Mais acesso às gravações ainda disponíveis. (b) Dizer no catálogo o que os R$ 100,00 dos grupos novos cobrem | Enquanto o grupo tiver encontros a realizar | Diferença entre R$ 734,00 e o proporcional por entrada tardia (ex.: R$ 367,00 em 721). Hoje a entrada tardia pelo valor cheio pode simplesmente não acontecer (funil, hipótese 7) | Vendas de grupos em andamento sem reclamação de "paguei por aulas que já passaram" | Pedidos por mês de entrada no ciclo; cancelamentos (funil) | Voltar ao preço cheio para entradas novas; quem entrou mantém o que comprou |
 | PL5 | Política única de turma para os presenciais | Publicar em toda página de presencial: mínimo de participantes; data em que a turma é confirmada (ponto de partida: 14 dias antes [SUPOSIÇÃO]); reembolso integral se não abrir (já é regra de 623 e 68637); opção de transferência para a próxima turma; cancelamento pelo aluno até 30 dias antes com devolução total (já é regra de 68614) | Turmas com início depois da aprovação | Baixo: reembolsos que já existem em parte. Risco: mais cancelamentos até 30 dias antes | Menos queda entre intenção e pagamento nos presenciais (funil, hipótese 2) | Pedidos pagos e perguntas "tem vaga" e "e se não fechar" no atendimento | Voltar à regra por curso; quem comprou fica com a regra da data da compra |
 | PL6 | Crédito do gravado no presencial do mesmo tema | Quem comprou 411 (R$ 420,00), 291 (R$ 280,00) ou 591 (R$ 384,00) tem o valor pago abatido em 573, 623 ou 68637, e 68638, respectivamente | Compras do gravado nos 6 meses anteriores [SUPOSIÇÃO] | Até o valor do gravado por venda do presencial | Responde a O2 sem desvalorizar o gravado; leva ao degrau seguinte | Pedidos de presencial com crédito, somados | Encerrar para compras novas; honrar créditos emitidos |
 | PL7 | Prazo de acesso padrão por formato | Levar ao catálogo o prazo de acesso de cada gravado, minicurso e grupo, e dizer quando a contagem começa (ponto de partida: do primeiro acesso [SUPOSIÇÃO]) | Permanente | Sem custo de mídia; custo de hospedagem [CONFIRMAR] | Responde a O5; tira dúvida de pós-compra | Perguntas sobre acesso no atendimento | Mudar o prazo para compras novas |
 | PL8 | Regra de arrependimento escrita para compras online | Validar com o jurídico o direito de arrependimento em compra online (prazo legal de 7 dias, [SUPOSIÇÃO] a confirmar) e escrevê-lo nas páginas de gravados e minicursos. Só vira "garantia" em peça se a Ufape decidir ir além da lei e honrar | Permanente | Reembolsos de quem desiste no prazo (já devidos por lei, se o jurídico confirmar) | Responde a O1 e iguala a Quadam, que oferece reembolso em 7 dias (concorrência 1.2) | Pedidos de reembolso por código | Não se aplica à parte legal; a parte extra pode ser retirada para compras novas |
+
+**Nota da versão 2: proposta única de crédito e tabela única de pares (plano do cmo, seção 12.4, decisões D6 e D7)**
+
+- **Proposta única levada à Ufape (pergunta U7 do cmo): PL2 opção A.** Abatimento até o valor da matrícula da Pós (R$ 250,00 na maioria das turmas; R$ 350,00 em 68629 e 586, catálogo) para quem comprou curso livre de um par da tabela abaixo nos 12 meses anteriores, uma vez por pessoa, sem acumular com bolsa da prova. A opção B e a PR5 da estrategia-de-oferta-pos (abatimento do valor inteiro do livre, até R$ 2.350,00 em 573) não são levadas, porque não têm teto conhecido. É só proposta: depende da aprovação da Ufape.
+- **Nenhuma peça cita crédito, combo ou desconto da ponte** (mensagem, página, post ou anúncio) até a resposta da Ufape. A régua de Livres nunca oferece Pós; o convite é sempre do P5 da Pós.
+- **Pares:** a Pós do mesmo tema; sem Pós do tema aberta, a da mesma área. O par só existe se a janela de silêncio do comprador (D8) terminar antes do vencimento da 1ª mensalidade e se a Pós começar depois do curso livre. Substitui os "pares da seção 2.1 do posicionamento" citados na PL2.
+
+| Curso livre (data da planilha) | Par na Pós | Início da Pós | Quando o convite pode sair |
+|---|---|---|---|
+| 573 Ecocardiografia Hands-On, SP (14/11/2026) | 289 Pós-graduação em Cardiologia Veterinária, Goiânia | 20/03/2027 | P5 lote 1, a partir de 02/12 (698 não é par: começa em 28/11/2026) |
+| 68614 Videotoscopia, SP (28/11/2026) | sem par neste trimestre (68610 começa no mesmo dia) | - | - |
+| 68637 Endoscopia Digestiva, SP (28/11/2026); 623 depois da correção | sem par | - | - |
+| 616 Imersão Avançada em Anestesia Felina, online (05/12/2026) | 657 Pós-graduação em Anestesiologia Avançada, SP | 13/03/2027 | P5 lote 2, a partir de 04/01; pré-requisito de 657 [CONFIRMAR] antes de citar o par |
+| 68618 Ventilação Mecânica Aplicada à Anestesia, SP (18/12/2026) | 352 Pós-graduação em Ventilação Mecânica, SP | 24/05/2027 | pré-lançamento de maio, no próximo trimestre |
+| 68638 POCUS em Emergência, SP (06/03/2027) | 68635 Pós-graduação em Clínica Médica e Emergência de Pequenos Animais, SP | 10/04/2027 | depois de 09/03 (fim da janela); 1ª mensalidade vence em 11/03 |
+| 560 Eletroquimioterapia, SP (22/05/2027) | sem par no sentido Livres para Pós (68628 começa antes, em 10/04/2027) | - | - |
+| Contínuos (gravados, minicursos, grupos) | Pós aberta da mesma área | por área | depois da janela do online (D8) |
 
 Pedidos de dado (sem custo) que acompanham as propostas: período coberto pelos R$ 100,00 dos grupos; regra de reembolso de 68666 e 68663; regra de turma de 573, 616, 68618, 68638 e 560; o que vale em 573 ("6 x de 550 reais no boleto" e "carta de crédito"); qual página fica à venda entre 623 e 68637, 643 e 713, 642 e 712; meio de pagamento fora do Brasil (F5).
 
@@ -344,7 +362,7 @@ V1 e V2 usam só a oferta oficial; V3 depende de aprovação. Teste A/B só onde
 |---|---|---|---|
 | Toda a linha | À vista no Pix ou boleto; parcelado no cartão, mais caro | - | PL3 cupom de ex-aluno; PL8 regra de arrependimento |
 | F1 Presencial | Preço, CH e data dos 7 abertos (seção 1.2) | Regras de turma, cancelamento e prática; material de 68614; horas práticas de 573 | PL5 política única de turma; PL6 crédito do gravado |
-| F2 Gravado | Preço e CH dos 22 contínuos | Prazo de acesso (591, 103, 411); dúvidas por e-mail; contrato em 103 e 501 | PL7 prazo padrão; PL2 crédito na Pós |
+| F2 Gravado | Preço e CH dos 22 contínuos | Prazo de acesso (591, 103, 411); dúvidas por e-mail; contrato em 103 e 501 | PL7 prazo padrão; PL2 opção A crédito na Pós (proposta única U7) |
 | F3 Minicurso | Preço e CH dos 13 | Tópicos; 8 meses em 482 | PL1 trilhas com preço de pacote |
 | F4 Grupo | R$ 100,00 (3 grupos) e R$ 734,00 ou 10x de R$ 88,00 (7) | Agenda, gravações, sem reembolso; 20% e gratuidade em 720 | PL4 entrada proporcional e período dos R$ 100,00 |
 | F5 Espanhol | Preço de 347 e 501 | 120 dias em 347; US$ 50,00 em 501 | Pedido de meio de pagamento e revisão nativa |
@@ -392,6 +410,16 @@ Próximo agente sugerido: landing-page (páginas de 573, 68637 e dos grupos 6866
 
 ---
 
+## Mudanças desta versão
+
+- Versão 2 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa.
+- PL2: nota de proposta única levada à Ufape (opção A, U7), só proposta; nenhuma peça cita crédito, combo ou desconto da ponte até a resposta.
+- Pares de Livres para Pós pela tabela única D6, no lugar dos pares do posicionamento.
+- Frase do curso livre trocada pela versão única D13 em todos os modelos e respostas.
+- Listas finais atualizadas.
+
+---
+
 ## Lista 1. Fatos com fonte
 
 1. Preços à vista e no cartão, carga horária, início e status de todos os itens citados: contexto/catalogo-de-cursos.md, seções 4 a 8 (26/10/2026).
@@ -404,6 +432,7 @@ Próximo agente sugerido: landing-page (páginas de 573, 68637 e dos grupos 6866
 8. Workshop: cupom SIMPNEUROMONIT, 20% para aluno e ex-aluno com comprovação. Fonte: catálogo, seção 9, e ficha do evento.
 9. Quadam com reembolso em 7 dias: inteligencia-concorrencia-livres, C9 (26/10/2026).
 10. Pendências P1, P6, P7, P11, P12, P17 e ondas: cmo-geral-2026-10-26.md, seções 3 e 7.
+11. Tabela única de pares (D6), regra provisória sem crédito em peça (D7), proposta única PL2 opção A (U7) e frase única do curso livre (D13): cmo-geral-2026-10-26.md, seções 12.4 e 12.7. Datas de 289, 657, 352, 68635 e 68628: catálogo, seção 2.
 
 ## Lista 2. Suposições
 
@@ -412,8 +441,9 @@ Próximo agente sugerido: landing-page (páginas de 573, 68637 e dos grupos 6866
 3. [SUPOSIÇÃO] Percentuais e prazos de ponto de partida das propostas (15% nas trilhas, piloto de 90 dias, 31/03/2027, 12 meses, 6 meses, 14 dias, piso de R$ 100,00).
 4. [SUPOSIÇÃO] Efeitos esperados das propostas e o remarketing do gravado para quem viu o presencial.
 5. [SUPOSIÇÃO] O direito de arrependimento de 7 dias se aplica às compras online da Ufape (validar com o jurídico).
-6. [SUPOSIÇÃO] O curso livre é porta de entrada para a Pós (PL2 é o teste).
+6. [SUPOSIÇÃO] O curso livre é porta de entrada para a Pós (PL2 opção A é o teste, se aprovada).
 7. [SUPOSIÇÃO] 68637 é a página que deve ficar à venda no lugar de 623.
+8. [SUPOSIÇÃO] Recomendação do cmo de PL2 opção A como proposta única de crédito (plano do cmo, 12.4).
 
 ## Lista 3. Dados que faltam
 
@@ -428,6 +458,7 @@ Próximo agente sugerido: landing-page (páginas de 573, 68637 e dos grupos 6866
 9. [CONFIRMAR] Volume de vendas por código, para estimar o custo total das propostas (P11).
 10. [CONFIRMAR] Quem aprova preço e condição comercial (P12).
 11. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação do curso livre (P1).
+12. [CONFIRMAR] Resposta da Ufape à proposta única de crédito da ponte (U7 do cmo); pré-requisito de 657, que trava o par com 616 (U10).
 
 ## Fontes
 

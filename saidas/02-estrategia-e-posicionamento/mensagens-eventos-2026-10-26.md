@@ -1,9 +1,9 @@
 # Casa de mensagens: Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20 e 21/11/2026)
 
 - **Agente:** mensagens (departamento 02, Estratégia e Posicionamento), camada 3, onda 1, kit do evento, etapa "mensagens" do /lancamento-de-evento
-- **Linha:** eventos (subtipo workshop na página; "I Simpósio Brasileiro de Neuromonitorização Veterinária" na planilha)
+- **Linha:** eventos (subtipo workshop; nome oficial "Workshop Brasileiro de Neuromonitorização", decisão 7 da Ufape, 26/10/2026; o nome que a planilha usava não circula)
 - **Data:** 26/10/2026
-- **Versão:** revisão 1, depois da rodada A do qa-de-marketing (correções M1 a M10, resumo na seção 8)
+- **Versão:** revisão 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md); mudanças na seção "Mudanças desta versão", antes das listas finais. A revisão 1 veio da rodada A do qa-de-marketing (correções M1 a M10, resumo na seção 8)
 - **Modelo:** templates/casa-de-mensagens.md, com o método do agente (mensagem central, elevador, 3 pilares, objeções, estágios de consciência) e os acréscimos pedidos no kit
 - **Status:** rascunho para nova rodada do qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago.
 - **Entradas lidas:**
@@ -21,7 +21,7 @@
   - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md (seção 1, veredito sobre esta casa)
   - auditorias/02-estrategia-e-posicionamento.md e auditorias/conformidade-educacional.md
 - Não abri faculdade.ufape.com.br. Nenhuma busca na web.
-- Dados pessoais: nenhum. Docentes aparecem só com nome e titulação como estão na ficha, sempre com [CONFIRMAR autorização].
+- Dados pessoais: nenhum. Docentes aparecem só com nome e titulação como estão na ficha, com a autorização de imagem e citação registrada (decisões 8 e 10 da Ufape, 26/10/2026).
 
 ---
 
@@ -29,7 +29,7 @@
 
 1. **Fonte dos dados do evento.** A linha do catálogo (seção 9) traz: nome, local (Av. Tiradentes, 960, Unidade 2, São Paulo), início em 20/11/2026, presencial teórico e prático com 16 h e 30 vagas por R$ 1.250,00, transmitido e gravado (só teoria, produto 68634) por R$ 450,00, cupom SIMPNEUROMONIT com 20% para aluno e ex-aluno, status aberto. O resto (21/11, horário das 08h às 18h, grade, docentes, perguntas frequentes) vem da ficha do evento, que o catálogo liga como ficha oficial da liberação (CLAUDE.md: "a ficha congelada da liberação é o catálogo"). Pedido de nota: completar a linha do catálogo com a data de 21/11 e o horário.
 2. **Voz do candidato.** A pesquisa de persona registra 0 citações reais de participante. Toda frase em "palavras do candidato" abaixo é formulação provável escrita pela pesquisa de persona ou por este agente, marcada [SUPOSIÇÃO]. O que é "voz da página" é texto da Ufape, não do candidato. Quando houver conversas anonimizadas do WhatsApp de vendas, estas frases devem ser trocadas.
-3. **Docentes.** Só a coordenação científica e os 5 docentes confirmados na ficha. Os 4 convidados "a definir" não aparecem. Nenhum nome vai para peça publicada sem autorização registrada [CONFIRMAR autorização].
+3. **Docentes.** Só a coordenação científica e os 5 docentes confirmados na ficha. Os 4 convidados "a definir" não aparecem até serem confirmados (decisão 6). A autorização de imagem e citação de docentes, palestrantes e convidados foi registrada em 26/10/2026 (decisões 8 e 10): a coordenação e os 5 docentes confirmados podem ir para peça, com nome e titulação como na ficha.
 4. **Preço e condições.** Os dois preços de tabela podem ser citados. Condição de pagamento: o catálogo (seção 4, produto 68634) traz para o transmitido "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão", sujeita à correção do 68634 (status "verificar", 24 h e sem data na loja). Para o presencial, parcelamento e formas de pagamento [CONFIRMAR NO CATÁLOGO]; peça final com o preço do presencial espera essa confirmação. O valor final com cupom não é calculado em nenhuma peça: diz-se "20% de desconto com o cupom SIMPNEUROMONIT".
 5. **Cupom.** Regra e público claros (aluno e ex-aluno Ufape, com comprovação do vínculo na secretaria). Validade e limite de uso [CONFIRMAR validade do cupom]. Toda linha desta casa que cita o cupom fica **bloqueada para peça final** até a Ufape informar validade e limite.
 6. **Certificado.** Nenhuma peça afirma certificação, em nenhuma modalidade (presencial ou transmitido) e em nenhum canal (anúncio, post, WhatsApp, e-mail, inclusive o e-mail de programação, e respostas a objeções), até a regulação aprovar o texto oficial (docs/execucao-2026-10-26.md: "a peça fica sem afirmação de certificação"; AP8 do briefing de campanha). A página do evento traz o tema na pergunta frequente; a squad não o repete.
@@ -80,7 +80,7 @@ Como a casa responde, sem citar concorrente: com o que só a prova da ficha sust
 | Parte | Conteúdo |
 |---|---|
 | Afirmação | Cada bloco da programação tem tema, horário e docente definidos, sob coordenação científica, e o programa mostra o que cada um conduz. |
-| Prova (ficha) [CONFIRMAR autorização de cada nome antes de peça] | Coordenação científica: Profa. Dra. Mayara Travalini de Lima (neuromonitorização, nocicepção, integração multimodal e casos). Prof. MSc. Daniel Zannin (condução principal das aulas teóricas, demonstrações e treinamento prático). Profa. MSc. Elidia Zotelli (EEG clínico, aplicação em UTI e apoio aos exercícios de interpretação). Prof. Renan Holczer (ventilação mecânica e UTI neuromonitorizada). Prof. MSc. Yuri Ferreira Vicentini (artefatos de EEG, qCON e qNOX na decisão anestésica). Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo sobre redes neurais e neuroanatomia aplicada à anestesia). A página informa que "a distribuição entre docentes segue em alinhamento com a coordenação". |
+| Prova (ficha; autorização de imagem e citação registrada, decisões 8 e 10) | Coordenação científica: Profa. Dra. Mayara Travalini de Lima (neuromonitorização, nocicepção, integração multimodal e casos). Prof. MSc. Daniel Zannin (condução principal das aulas teóricas, demonstrações e treinamento prático). Profa. MSc. Elidia Zotelli (EEG clínico, aplicação em UTI e apoio aos exercícios de interpretação). Prof. Renan Holczer (ventilação mecânica e UTI neuromonitorizada). Prof. MSc. Yuri Ferreira Vicentini (artefatos de EEG, qCON e qNOX na decisão anestésica). Prof. Dr. Rodrigo Neca Ribeiro (aula online ao vivo sobre redes neurais e neuroanatomia aplicada à anestesia). A página informa que "a distribuição entre docentes segue em alinhamento com a coordenação". |
 | Palavras do candidato [SUPOSIÇÃO, formulação provável] | "Quero saber quem vai estar comigo no sábado." "Preciso ver a programação antes de pagar." |
 
 **Objeção e resposta (resumo; mapa completo na seção 3):**
@@ -156,7 +156,7 @@ Respostas na linguagem de colega, com prova da ficha. Nenhuma resposta promete r
 
 ## 4. Versões curtas (uma linha por canal, para os agentes seguintes)
 
-Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_campaign=neuro-summit-2026, [SUPOSIÇÃO do padrão]).
+Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM no padrão D11 e D12 do plano do cmo: utm_medium=crm no WhatsApp e no e-mail, organic_social no orgânico, paid_social no pago; utm_campaign=eventos_neuro26_<AAAAMM> no CRM e no orgânico (ex.: eventos_neuro26_202610) e, no pago, o nome da campanha com a chave eventos_neuro26.
 
 | Canal | Linha | Agente que usa | Observação |
 |---|---|---|---|
@@ -188,15 +188,15 @@ Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_camp
 | apenas teórico; ao vivo e gravada | Sempre no ingresso transmitido | Página |
 | à vista (Pix ou boleto) ou 1x no cartão | Só para o transmitido | Catálogo, seção 4 (68634) |
 | aluno e ex-aluno Ufape; cupom SIMPNEUROMONIT; comprovação do vínculo na secretaria | Sempre os três juntos, e com a validade quando a Ufape informar | Ficha; catálogo |
-| coordenação científica | Com o nome e a titulação da ficha, se autorizado | Ficha |
+| coordenação científica | Com o nome e a titulação da ficha (autorização registrada, decisões 8 e 10) | Ficha |
 | médico veterinário, médica veterinária | Sem assumir leitor homem | Guia de marca |
 
 ### 5.2 Evitamos
 
 | Evitamos | Por quê | No lugar |
 |---|---|---|
-| "simpósio", "I Simpósio", "1ª edição", "primeira edição" | Nome e numeração da planilha; a página não diz edição | "workshop"; "edição de 20 e 21/11/2026" |
-| "Neuro Summit" como nome do evento | É o endereço da página; nome só se a Ufape decidir | Nome completo da página |
+| "simpósio", "1ª edição", "primeira edição" | Numeração e nome que não são os oficiais (decisão 7: nunca "simpósio" nas peças); a página não diz edição | "Workshop Brasileiro de Neuromonitorização" ou "workshop"; "edição de 20 e 21/11/2026" |
+| "Neuro Summit" como nome do evento | É o endereço da página; nome só se a Ufape decidir | Nome oficial: "Workshop Brasileiro de Neuromonitorização" (decisão 7) |
 | "primeiro", "único", "inédito", "o maior", "referência" | Sem fonte; a busca de concorrência não prova ineditismo | O que acontece em cada bloco |
 | "curso de BIS", "treinamento no equipamento X" | Contradiz "decisões clínicas, não apenas equipamentos" | "neuromonitorização aplicada à decisão clínica" |
 | "hands-on" sem dizer o quê e com quantos | Sem número de monitores por participante | "sábado prático: instalar, ler e discutir casos" |
@@ -260,7 +260,7 @@ Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_camp
 | Preço e condições | Desconto com regra, público e prazo | [ ] Pendente: regra e público claros; validade e limite [CONFIRMAR validade do cupom]. Todas as linhas com cupom (1, 2.1, 2.2, 2.3, O1, WhatsApp, e-mail) bloqueadas para peça final |
 | Preço e condições | Urgência real | [x] Só a data e a capacidade total de 30; nenhuma peça cita vagas restantes |
 | Preço e condições | Prouni, Fies, financiamento | [x] Não se aplica |
-| Pessoas e dados | Autorização de docentes | [ ] Pendente: nomes só com [CONFIRMAR autorização] |
+| Pessoas e dados | Autorização de docentes | [x] Registrada pela Ufape em 26/10/2026 para docentes, palestrantes e convidados (decisões 8 e 10); nome e titulação como na ficha |
 | Pessoas e dados | Menores de idade | [x] Não se aplica |
 | Pessoas e dados | Formulários com finalidade e política de privacidade | [ ] Pendente: checkout da página [CONFIRMAR no site] (fora desta casa) |
 | Pessoas e dados | WhatsApp e e-mail com consentimento e saída fácil | [x] Regra escrita nas linhas de WhatsApp e e-mail (opt-in e forma de sair); execução no CRM |
@@ -269,7 +269,7 @@ Destino de todas: https://faculdade.ufape.com.br/neuro-summit/ com UTM (utm_camp
 | Plataformas | Página de destino entrega o que a peça promete | [ ] Pendente: a página ainda mostra convidados "A definir" e o cupom sem passo a passo (briefing de campanha, E1 e E12). As mensagens não prometem nada que a página não tenha |
 | Anúncios | Sem característica pessoal, escassez falsa, pessoa pública, caixa alta excessiva, drible da análise | [x] Regras na seção 5 |
 
-**Resultado:** Aprovado como rascunho de casa de mensagens para os agentes seguintes. Bloqueado para peça final: linhas com o preço do presencial (condição de pagamento), linhas com cupom (validade e limite), peças com docente (autorização) e qualquer afirmação de certificação (até a regulação). Revisado por: mensagens (agente). Revisão humana: [pendente]. Nova rodada do qa-de-marketing: [pendente]. Data: 26/10/2026.
+**Resultado:** Aprovado como rascunho de casa de mensagens para os agentes seguintes. Bloqueado para peça final: linhas com o preço do presencial (condição de pagamento), linhas com cupom (validade e limite) e qualquer afirmação de certificação (até a regulação). Revisado por: mensagens (agente). Revisão humana: [pendente]. Nova rodada do qa-de-marketing: [pendente]. Data: 26/10/2026.
 
 Nota para outros arquivos (este agente não edita arquivo alheio):
 - contexto/catalogo-de-cursos.md, seção 9: incluir 21/11/2026 e o horário (08h às 18h) na linha do workshop.
@@ -301,6 +301,12 @@ Nova rodada do qa-de-marketing sobre esta versão. Depois, pelo método deste ag
 
 ---
 
+## Mudanças desta versão
+
+- Cabeçalho e seção 5: nome oficial "Workshop Brasileiro de Neuromonitorização"; sai o nome que a planilha usava; nunca "simpósio" (decisão 7).
+- Seções 0, 1, 5 e 6 e listas: autorização de imagem e citação registrada para docentes, palestrantes e convidados (decisões 8 e 10); peças com docente deixam de ficar bloqueadas por autorização. Os convidados "a definir" seguem fora até a confirmação (decisão 6).
+- Seção 4 e Suposições: UTM no padrão D11 e D12, com a chave eventos_neuro26.
+
 ## Fatos (com fonte)
 
 1. Nome, local (Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP), início em 20/11/2026, presencial teórico e prático com 16 h e 30 vagas por R$ 1.250,00, transmitido e gravado (só teoria, produto 68634) por R$ 450,00, cupom SIMPNEUROMONIT com 20% para aluno e ex-aluno, status aberto. Fonte: contexto/catalogo-de-cursos.md, seção 9 (26/10/2026).
@@ -321,7 +327,7 @@ Nova rodada do qa-de-marketing sobre esta versão. Depois, pelo método deste ag
 2. [SUPOSIÇÃO] Personas, ordem de prioridade, objeções e ingresso mais provável por público (herdados da pesquisa de persona).
 3. [SUPOSIÇÃO] Alternativa real da persona (outros eventos e cursos de anestesia, conteúdo gratuito e rotina, não ir).
 4. [SUPOSIÇÃO] Mensagem central, elevador, pilares e variações por estágio, até validação da Ufape.
-5. [SUPOSIÇÃO] Padrão de UTM (utm_campaign=neuro-summit-2026).
+5. Padrão de UTM: deixou de ser suposição; vale D11 e D12 do plano do cmo (chave eventos_neuro26).
 6. [SUPOSIÇÃO] Voz da marca (técnica e próxima; "transparente" proposta pelo guia de marca).
 7. [SUPOSIÇÃO] Pós-graduando da Ufape conta como "aluno" para o cupom, pela leitura da página.
 
@@ -332,7 +338,7 @@ Nova rodada do qa-de-marketing sobre esta versão. Depois, pelo método deste ag
 3. [CONFIRMAR NO CATÁLOGO] Prazo de acesso à gravação e carga horária do ingresso transmitido.
 4. [CONFIRMAR] Fim das inscrições de cada modalidade.
 5. [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação de eventos (AP8).
-6. [CONFIRMAR autorização] Nome e imagem de cada docente.
+6. Fechado em 26/10/2026: autorização de imagem e citação de todos os docentes, palestrantes e convidados (decisões 8 e 10).
 7. [CONFIRMAR NO CATÁLOGO] Monitores do sábado, quantidade e participantes por equipamento; se os casos incluem equinos e bovinos.
 8. [CONFIRMAR] Uso do feriado de 20/11 como argumento; hospedagem, almoço, cancelamento e reembolso.
 9. [CONFIRMAR] Conferência técnica da frase do estágio "Inconsciente" pela coordenação científica.

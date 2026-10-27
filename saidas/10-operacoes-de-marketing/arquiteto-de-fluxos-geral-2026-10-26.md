@@ -4,6 +4,7 @@
 - Etapa do plano: M.1 (seção 4 do plano do cmo, "Mapa mental e JSON")
 - Linha: geral (vale para graduacao, pos, livres e eventos)
 - Data: 26/10/2026 (segunda-feira)
+- Versão: 4 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo nos exemplos JSON antigos (707-p05, 68651-p03 e "PROVA PRESENCIAL"); mudanças no fim do arquivo. A versão 3 aplicou a seção 12 do plano do cmo e os ajustes do qa: campos de janela de silêncio, de participação em evento e de vínculo no CRM, fila D2, limite de 1 mensagem de campanha por dia e padrão de UTM D11 e D12 (seção 6 nova). Mudanças no fim do arquivo.
 - Status: versão corrigida depois do veredito do qa-de-marketing (itens B1 a B6). Rascunho para nova conferência do qa-de-marketing e depois para a aprovação da pessoa do marketing. Nada foi gerado, publicado, enviado ou pago. Nenhum arquivo de .claude/commands foi criado: o texto dos workflows está na seção 3.9, pronto para virar arquivo depois da aprovação.
 - Entradas lidas:
   - docs/execucao-2026-10-26.md
@@ -13,7 +14,7 @@
   - templates/kit-de-lancamento-pos.md, kit-de-lancamento-livres.md, kit-de-lancamento-evento.md, kit-de-lancamento-graduacao.md
   - templates/pagina-da-turma.md e templates/documento-de-fluxo.md
   - docs/visao-de-campanhas-2026-10-26.md
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro)
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro; na versão 3, seção 12: D1, D2, D3, D8 a D12, D15 e encomendas de 12.10)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md (veredito, seção do arquiteto-de-fluxos)
   - .claude/skills/mapear-fluxo/SKILL.md e .claude/skills/matriz-gut/SKILL.md (cabeçalho)
   - .claude/agents/arquiteto-de-fluxos.md, cmo.md, qa-de-marketing.md, relatorios.md
@@ -142,7 +143,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | Campo | Cl. | Tipo | Obrig. | Valores permitidos | Origem | Se vazio |
 |---|---|---|---|---|---|---|
 | local | C | texto | sim | cópia literal ("São Paulo", "SP", "Online", "Goiânia", "Lima - Peru" etc.) | catálogo | "[CONFIRMAR]" |
-| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo e, na prova de bolsa, o texto da ficha, como "PROVA PRESENCIAL") | catálogo ou ficha | "[CONFIRMAR]" |
+| modalidade | C | texto | sim | cópia literal (inclui erros de grafia do catálogo e, na prova de bolsa, o texto da ficha, como "PROVA PRESENCIAL", que é texto a corrigir no site: as provas são online, decisão 11 da Ufape) | catálogo ou ficha | "[CONFIRMAR]" |
 | modalidade_normalizada | C | texto | sim | presencial, semipresencial, ead, online, gravacao, "[CONFIRMAR]". Tabela de equivalência em 1.4 | cmo, a partir de modalidade | "[CONFIRMAR]" |
 | turma | C | texto ou null | sim | numeral romano do catálogo | catálogo | "[CONFIRMAR]" em pos com coluna vazia; null (não se aplica) em tipos sem turma (provas, livres, graduação, eventos) |
 | carga_horaria | C | texto ou null | sim | cópia literal ("600 h", "4.195 h + 75 h de atividades complementares") | catálogo | "[CONFIRMAR]"; null (não se aplica) em prova_de_bolsa (a ficha da prova repete a carga horária da Pós, não a da prova) [SUPOSIÇÃO] |
@@ -188,7 +189,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
 | graduacao.validade_do_desconto | C | texto | tipo graduacao | cópia literal | ficha de editais | "[CONFIRMAR]" |
 | graduacao.lp.url | C | texto | tipo graduacao | URL da LP da Graduação | catálogo ou ufape-site | "[CONFIRMAR]" |
 | graduacao.lp.alterada_pela_squad | C | booleano | tipo graduacao | sempre false | regra do CLAUDE.md | não se aplica |
-| graduacao.lp.utm | C | objeto | tipo graduacao | gerada_por ("plataforma"), parametros (utm_source, utm_medium, utm_campaign, utm_content, utm_term), utm_campaign. Nenhum valor que identifique pessoa | plataforma; padrão da squad (plano, P15) | utm_campaign "[CONFIRMAR]" |
+| graduacao.lp.utm | C | objeto | tipo graduacao | gerada_por ("plataforma"), parametros (utm_source, utm_medium, utm_campaign, utm_content, utm_term), utm_campaign. Nenhum valor que identifique pessoa | plataforma; padrão D11 e D12 do plano do cmo (seção 12.7; seção 6.3 deste arquivo) | utm_campaign "[CONFIRMAR]" |
 | evento.subtipo | C | texto | tipo workshop ou simposio | workshop, simposio | contexto/eventos.md (subtipo obrigatório) | "[CONFIRMAR]" |
 | evento.data_inicio | C | data ou null | tipos de evento | AAAA-MM-DD | catálogo | null com pendência |
 | evento.data_fim | C | data ou null | tipos de evento | AAAA-MM-DD | página do evento | null com pendência; null (não se aplica) em evento gravado contínuo |
@@ -245,7 +246,7 @@ Legenda de "Obrig.": sim = a chave sempre existe; tipo X = a chave existe só no
   - kit-de-lancamento-evento, variação simpósio: pagina (1), plano_8_canais (1), plano_de_midia (1), post_por_palestrante (1 por palestrante autorizado), posts_organicos (4), criativos (3), email_convite (1), email_lembrete (1), email_programacao (1), mensagem_vespera (1), mensagem_do_dia (1).
   - kit-de-lancamento-graduacao (sem página; a LP nunca é alterada): plano_8_canais (1), plano_de_midia (1), posts_organicos (6), criativos_com_utm (4), whatsapp_prazos_do_edital (5), email_prazos_do_edital (3), roteiro_video (2).
   - Provas de bolsa e contínuos (sem template): entregas definidas pelo cmo na campanha única ou no kit sempre ligado, com chaves livres em letras minúsculas e sublinhado.
-- modalidade_normalizada, equivalências: "Presencial" e "PROVA PRESENCIAL" são presencial; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
+- modalidade_normalizada, equivalências: "Presencial" é presencial; "PROVA PRESENCIAL" é online, porque as provas de bolsa são online (decisão 11 da Ufape, 26/10/2026) e a página é que está desatualizada; "Semipresencial", "Semi-presencial", "Semi presencial" e "Semiprensecial" são semipresencial; "Ead" é ead; "Online" e "On-line" são online; "Gravação" é gravacao; "Presencial e Online" ou outra mistura sem regra: "[CONFIRMAR]".
 - area.codigo e nomes: A1 Anestesiologia e dor; A2 Cardiorrespiratório; A3 Emergência, terapia intensiva e clínica médica; A4 Cirurgia, ortopedia e reabilitação; A5 Diagnóstico por imagem e endoscopia; A6 Gastroenterologia; A7 Endocrinologia e nefrologia; A8 Dermatologia; A9 Oftalmologia; A10 Oncologia; A11 Laboratório; A12 Neurologia; A13 Medicina felina; A14 Outras especialidades (plano, seção 2.3).
 - Evolução do esquema: campo novo opcional não muda a versão; remover, renomear, mudar tipo ou valor permitido exige versao_schema 2 e um novo documento de fluxo. Os arquivos da versão 1 continuam válidos.
 
@@ -414,7 +415,7 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
   "condicoes_especiais": [],
   "status_catalogo": "aberto",
   "status_catalogo_texto": "aberto",
-  "vagas": { "turma_minima": 20, "vagas_ofertadas": null, "vagas_restantes": null },
+  "vagas": { "turma_minima": 15, "vagas_ofertadas": null, "vagas_restantes": null },
   "equipe": { "coordenadores_na_ficha": 3, "docentes_na_ficha": 19, "autorizacoes_de_imagem_registradas": null },
   "status_midia": {
     "campanha": "ativa",
@@ -471,7 +472,7 @@ Os dados vêm de contexto/catalogo-de-cursos.md (linha 707), da ficha contexto/c
     { "id": "707-p02", "ref_plano": "P2", "tipo": "certificacao", "descricao": "A página oficial tem bloco de certificação. Conferir se traz a frase de certificação que a squad não repete (auditoria de 26/10, seção 9) antes de anúncio que leve a ela.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "docs/auditoria-do-catalogo-2026-10-26.md, seção 9", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p03", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas ofertadas, vagas restantes e números agregados por turma. Nenhuma peça diz últimas vagas.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p04", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e voz dos docentes não registrada; post por docente só depois do registro.", "marcador": "[CONFIRMAR autorização]", "campos": ["equipe.autorizacoes_de_imagem_registradas", "kit.entregas[5].autorizados"], "bloqueia": ["autorizacao_docente"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "707-p05", "ref_plano": "P13", "tipo": "autorizacao", "descricao": "Autorização de imagem e citação de todos os docentes registrada pela Ufape em 26/10/2026 (decisões 8 e 10); post por docente liberado. Falta o cmo lançar as contagens.", "marcador": "[CONFIRMAR]", "campos": ["equipe.autorizacoes_de_imagem_registradas", "kit.entregas[5].autorizados"], "bloqueia": [], "fonte": "docs/execucao-2026-10-26.md, decisões 8 e 10", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p06", "ref_plano": "seção 4, situação especial da onda 1", "tipo": "kit", "descricao": "Inventário do que já existe do kit pendente com a Ufape; sem ele os prazos das entregas e a quantidade das mensagens de reta final ficam em aberto.", "marcador": "[CONFIRMAR]", "campos": ["kit.inventario", "kit.entregas[*].prazo", "kit.acrescimos[*].prazo", "kit.acrescimos[1].quantidade"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p07", "ref_plano": "seção 10", "tipo": "data", "descricao": "Fim das inscrições não consta no catálogo nem na ficha; sem ele o pedido de pausa fica sem data.", "marcador": "[CONFIRMAR]", "campos": ["fim_das_inscricoes"], "bloqueia": [], "fonte": "contexto/cursos/pos/707-pos-graduacao-em-oftalmologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "707-p08", "ref_plano": "seção 5", "tipo": "outro", "descricao": "Estado dos 8 canais é proposta do cmo, a confirmar nas etapas 1.20 e 1.11.", "marcador": "[SUPOSIÇÃO]", "campos": ["canais[*]"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5", "aberta_em": "2026-10-26", "resolvida_em": null }
@@ -496,7 +497,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
 - O mínimo de 15 alunos é copiado da página da prova (a ficha o repete sem contradição). Ele diverge dos 20 das páginas de curso: a divergência vira pendência. O resultado sai por WhatsApp ou e-mail (contexto da linha); o trecho REGRAS da ficha cita o site e 7 dias de prazo, e isso também vira pendência.
 - A carga horária da ficha (500 h) é da Pós, não da prova: carga_horaria é null (não se aplica).
 - O texto da página traz uma afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte: nada disso é copiado.
-- As cópias da ficha são literais ("PROVA PRESENCIAL", "7.0 (mínimo 70 % de acerto)"). O preço vem do catálogo, que agora tem a coluna de preço.
+- As cópias da ficha são literais ("PROVA PRESENCIAL", "7.0 (mínimo 70 % de acerto)"). Pela decisão 11 da Ufape, a prova é online: modalidade_normalizada e prova_de_bolsa.formato ficam "online", e o texto da página vira a pendência 68651-p10. O preço vem do catálogo, que agora tem a coluna de preço.
 - Este exemplo passa na conferência C11: todo "[CONFIRMAR]" e todo null por origem vazia (slug_sugerido, fim_das_inscricoes, vagas, kit, metas, números, ref_aprovacao, turma de destino e a sugestão) é citado em "campos" de uma pendência.
 
 ```json
@@ -540,7 +541,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "relacionados": [ { "id": "pos-68608", "relacao": "turma_de_destino", "natureza": "[SUPOSIÇÃO]" } ],
   "local": "São Paulo",
   "modalidade": "PROVA PRESENCIAL",
-  "modalidade_normalizada": "presencial",
+  "modalidade_normalizada": "online",
   "turma": null,
   "carga_horaria": null,
   "modulos": null,
@@ -558,7 +559,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "prova_de_bolsa": {
     "data_da_prova": "2026-11-27",
     "horario_texto": "9 às 13h",
-    "formato": "presencial",
+    "formato": "online",
     "local_texto": "São Paulo",
     "nota_de_corte_texto": "7.0 (mínimo 70 % de acerto)",
     "turma_de_destino": { "codigo": "[CONFIRMAR]", "sugestao_do_plano": "68608", "natureza_da_sugestao": "[SUPOSIÇÃO]" },
@@ -617,13 +618,14 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "pendencias": [
     { "id": "68651-p01", "ref_plano": "P1", "tipo": "certificacao", "descricao": "Texto oficial de certificação ainda não aprovado pela regulação; as peças saem sem afirmação de certificação.", "marcador": "[CONFIRMAR]", "campos": [], "bloqueia": ["peca_final", "certificacao"], "fonte": "contexto/catalogo-de-cursos.md, seção Como usar", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p02", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A página da prova não traz a turma de destino da bolsa. O contexto da linha marca como a confirmar.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.turma_de_destino.codigo"], "bloqueia": ["peca_final"], "fonte": "contexto/pos-graduacao.md", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p03", "ref_plano": "contexto/pos-graduacao.md", "tipo": "divergencia", "descricao": "Turma mínima de 15 na página da prova contra 20 nas páginas de curso. O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.minimo_para_confirmar_turma", "prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado"], "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p03", "ref_plano": "U1 do plano do cmo", "tipo": "divergencia", "descricao": "Turma mínima fechada em 15, também na Pós (decisão 11). Segue aberto: o trecho REGRAS da ficha cita o site como local do resultado e 7 dias para a matrícula, contra 10 dias no topo.", "marcador": "[CONFIRMAR]", "campos": ["prova_de_bolsa.prazo_de_matricula_apos_resultado", "prova_de_bolsa.divulgacao_do_resultado"], "bloqueia": ["peca_final"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md; docs/execucao-2026-10-26.md, decisão 11", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p04", "ref_plano": "P2", "tipo": "conformidade", "descricao": "O texto da página oficial traz afirmação de certificação não aprovada, um superlativo e dados clínicos com fonte. Nada disso é repetido; anúncio que leve à página é sinalizado.", "marcador": "[CONFIRMAR]", "campos": ["pagina_oficial"], "bloqueia": ["anuncio"], "fonte": "contexto/cursos/pos/68651-prova-de-bolsa-de-estudos-para-hematologia-veterinaria.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p05", "ref_plano": "P11", "tipo": "meta_ou_verba", "descricao": "Sem metas, verba, vagas e número de inscritos na prova.", "marcador": "[CONFIRMAR]", "campos": ["vagas.vagas_ofertadas", "vagas.vagas_restantes", "metas.matriculas_alvo", "metas.cpl_maximo", "metas.custo_por_matricula_maximo", "metas.verba", "numeros_agregados.leads", "numeros_agregados.inscricoes", "numeros_agregados.matriculas", "numeros_agregados.verba_gasta"], "bloqueia": ["meta"], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 7", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p06", "ref_plano": "P12", "tipo": "aprovador", "descricao": "Tabela de quem aprova cada tipo de peça está vazia, e o id de aprovação da plataforma ainda não foi informado; a aprovação vai à pessoa do marketing que fez o pedido.", "marcador": "[CONFIRMAR]", "campos": ["arquivos_por_camada.geral[0].ref_aprovacao"], "bloqueia": [], "fonte": "contexto/ufape-geral.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p07", "ref_plano": "seção 3", "tipo": "outro", "descricao": "Status de mídia: a visão de campanhas não traz as provas; só a Ufape confirma se há campanha.", "marcador": "[CONFIRMAR]", "campos": ["status_midia.campanha"], "bloqueia": [], "fonte": "docs/visao-de-campanhas-2026-10-26.md", "aberta_em": "2026-10-26", "resolvida_em": null },
     { "id": "68651-p08", "ref_plano": "seção 4", "tipo": "kit", "descricao": "Kit de campanha única definido pelo cmo: prazos, quantidades, fim das inscrições e slug da prova ainda sem definição.", "marcador": "[CONFIRMAR]", "campos": ["slug_sugerido", "fim_das_inscricoes", "kit.entregas[*].prazo", "kit.entregas[*].quantidade_minima"], "bloqueia": [], "fonte": "saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 4", "aberta_em": "2026-10-26", "resolvida_em": null },
-    { "id": "68651-p09", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A sugestão 68608 como turma de destino é do plano e começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "campos": ["prova_de_bolsa.turma_de_destino.sugestao_do_plano", "relacionados[0]", "canais[*]"], "bloqueia": [], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null }
+    { "id": "68651-p09", "ref_plano": "seção 2.3", "tipo": "turma", "descricao": "A sugestão 68608 como turma de destino é do plano e começa em 28/11/2026, um dia depois da prova.", "marcador": "[SUPOSIÇÃO]", "campos": ["prova_de_bolsa.turma_de_destino.sugestao_do_plano", "relacionados[0]", "canais[*]"], "bloqueia": [], "fonte": "contexto/catalogo-de-cursos.md, seções 2 e 3", "aberta_em": "2026-10-26", "resolvida_em": null },
+    { "id": "68651-p10", "ref_plano": "U2 do plano do cmo", "tipo": "divergencia", "descricao": "A página diz PROVA PRESENCIAL; a prova é online (decisão 11), texto a corrigir no site. Acesso à prova online e regras de documento e celular a confirmar.", "marcador": "[CONFIRMAR]", "campos": ["modalidade", "prova_de_bolsa.formato"], "bloqueia": [], "fonte": "docs/execucao-2026-10-26.md, decisão 11; ficha da 68651", "aberta_em": "2026-10-26", "resolvida_em": null }
   ],
   "aprovacoes": [
     { "ref": "A3", "o_que": "Tratar as 22 provas de bolsa como uma campanha única com variação por especialidade, e os 47 contínuos com kit sempre ligado por área", "por_que": "Não há kit de prova nem de contínuo nos templates; uma peça por prova multiplicaria o trabalho sem ganho claro.", "quanto": "Reduz cerca de 150 rodadas.", "efeito_esperado": "Campanha das provas pronta até 03/11.", "como_desfazer": "Voltar a um kit por item.", "status": "aprovado", "pedido_em": "2026-10-26", "decidido_em": "2026-10-26", "decidido_por_papel": "pessoa_do_marketing" },
@@ -633,7 +635,7 @@ Dados de contexto/catalogo-de-cursos.md (seção 3, linha 68651, agora com colun
   "historico": [
     { "revisao": 1, "em": "2026-10-26", "campo": "(arquivo)", "de": null, "para": "criado", "motivo": "Criação a partir do catálogo de 26/10/2026, da ficha, do contexto da linha e do plano do cmo.", "origem": "contexto/catalogo-de-cursos.md", "aplicado_por": "cmo" }
   ],
-  "resumo": { "pendencias_abertas": 9, "bloqueado": true }
+  "resumo": { "pendencias_abertas": 10, "bloqueado": true }
 }
 ```
 
@@ -1103,6 +1105,73 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 
 ---
 
+## 6. Regras de envio no CRM pedidas pelo cmo (seção 12 do plano, versão 3)
+
+Esta seção atende a encomenda da seção 12.10 do plano do cmo. Ela não muda o esquema JSON da seção 1: os campos abaixo são do cadastro do contato no CRM, onde já existe dado pessoal, e nunca entram no JSON do curso (R10). A squad lê só números somados. A ferramenta de CRM, e-mail e WhatsApp que vai aplicar as regras ainda não foi informada [CONFIRMAR, P15]; os números do teto são [SUPOSIÇÃO] até a Ufape confirmar (pedido R1 do cmo).
+
+### 6.1 Campos novos no contato
+
+| Campo | Tipo | Valores | Quem preenche | Para que serve |
+|---|---|---|---|---|
+| fim_janela_silencio | data ou vazio | AAAA-MM-DD. Presencial e evento: 2 dias úteis depois do último dia do curso ou evento. Online e minicurso: 7 dias corridos depois do primeiro acesso; enquanto a plataforma não informar o acesso, 7 dias corridos depois da compra (D8) [SUPOSIÇÃO de prazo] | CRM, no pedido pago (loja) | Enquanto a data de hoje for menor ou igual a fim_janela_silencio, o contato não entra em campanha nova de outra linha (P5 da Pós, convite de Livres, convite do Workshop). Régua com data em que ele já estava antes da compra continua: a janela impede entrada nova, não interrompe régua em curso |
+| participou_evento_<código> | texto, um campo por evento ou edição | inscrito (pedido pago) ou presente [CONFIRMAR como a presença é medida]. O <código> é o código do catálogo; sem código, a chave de D12 (exemplo: participou_evento_neuro26 para o Workshop Brasileiro de Neuromonitorização de 20 e 21/11/2026) | CRM, a partir da loja e do credenciamento | Separa participante do Workshop nas réguas: provas M8 às 16h para participante (D3), M9 de 25/11 só para participantes (D9), supressões da semana S5 |
+| vinculo_ufape | lista de texto | aluno_pos, ex_aluno_pos, comprador_livres, nenhum [SUPOSIÇÃO de nomes]; Graduação [CONFIRMAR se entra] | secretaria e loja | D10: [segmento] = ex_aluno na régua das provas quer dizer ex_aluno_pos; comprador só de Livres (comprador_livres sem aluno_pos nem ex_aluno_pos) não entra na régua das provas, salvo se também for lead de Pós com opt-in. Também marca quem pode usar o cupom SIMPNEUROMONIT (aluno e ex-aluno, com comprovação na secretaria) |
+
+Campos de apoio que cada mensagem precisa levar na régua: tipo (servico ou campanha), prioridade (1 a 6, abaixo), data_do_item (data da turma, prova ou edição), nota_gut (seção 3 do plano do cmo) e canal (whatsapp ou email).
+
+### 6.2 Fila de prioridade (D2) e limite diário no CRM
+
+Antes de agendar qualquer mensagem de campanha para um contato, o CRM confere, nesta ordem:
+
+1. **Serviço passa sempre.** Confirmação de inscrição ou compra, véspera, dia, resultado da prova (M16 a M20), gravação e certificado do Workshop (M8), acesso ao online e material do pós-curso ficam fora do teto e da fila.
+2. **Dia sem campanha.** 02/11; 20 e 21/11; 25/12; 31/12; 01/01; de 21/12 a 03/01 só serviço e manutenção. Para quem está na campanha das provas, também 26 e 27/11. Mensagem de campanha nesses dias é suprimida.
+3. **Janela de horário.** WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h.
+4. **Janela de silêncio.** Se hoje for menor ou igual a fim_janela_silencio e a mensagem for entrada em campanha nova de outra linha, ela é suprimida.
+5. **Limite diário.** No máximo 1 mensagem de campanha por contato por dia, em qualquer canal. Se o dia já tem mensagem de campanha para o contato, a nova é suprimida; reenvio não muda de dia.
+6. **Teto semanal.** Até 2 WhatsApp e 2 e-mails de campanha por contato na semana (segunda a domingo), somando Pós, Livres, Eventos, Graduação e newsletter. Livres não tem sub-teto.
+7. **Disputa.** Quando duas mensagens de campanha disputam o mesmo dia ou a última vaga da semana no mesmo canal, vence a de menor número na fila D2:
+   1. serviço de qualquer linha (fora do teto);
+   2. toque principal de cada campanha com data (convite, programação, lembrete principal, toque do kit de turma);
+   3. entre toques principais, vence o de data_do_item mais próxima; empate, vence a maior nota_gut;
+   4. follow-ups e reenvios, na mesma ordem;
+   5. nutrição (newsletter, rotação dos contínuos);
+   6. reativação (lead frio, ex-aluno sem campanha ativa).
+
+O que é suprimido não acumula para a semana seguinte, salvo onde a seção 12.2 do plano do cmo diz "muda de data". O CRM registra cada supressão com o motivo (dia sem campanha, horário, janela de silêncio, limite diário, teto semanal, fila), só em contagem para a squad.
+
+### 6.3 Padrão de UTM (D11 e D12)
+
+| Tipo de envio ou peça | utm_source | utm_medium |
+|---|---|---|
+| Mensagem enviada pelo CRM (régua, kit, P1 a P9, RL1 a RL10, Workshop) | whatsapp ou email | crm |
+| Newsletter | email ou whatsapp | newsletter |
+| Orgânico social | instagram, facebook ou youtube | organic_social |
+| Pago na Meta, TikTok e LinkedIn | meta, tiktok ou linkedin | paid_social |
+| Pago no Google (Busca e YouTube) | google | cpc |
+
+- utm_medium aceita só crm, newsletter, organic_social, paid_social e cpc. Os valores base, disparo, organico e pago saem.
+- utm_campaign começa pela chave do item, <linha>_<código do catálogo> (exemplos: pos_68615, livres_573, eventos_700). Sem código: pos_provas20261127, eventos_neuro26, geral_newsletter. Graduação mantém o prefixo grad_.
+- CRM, newsletter e orgânico: utm_campaign = chave + _<AAAAMM do primeiro envio ou da publicação> (exemplos: pos_provas20261127_202611, eventos_neuro26_202610, geral_newsletter_202611).
+- Pago: nome da campanha = chave + _<plataforma>_<objetivo>_<público>_<AAAAMM>, e utm_campaign = nome da campanha. Anúncios já no ar não são renomeados; a análise lê por tabela de correspondência.
+- utm_content = ID da mensagem ou da peça (exemplos: m2-a1-anest-68639, rl1-573-t3, ed01-botao, c01).
+- Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal em UTM (risco 6 da seção 5).
+- A validação de entrada da plataforma (4.3) pode recusar utm_medium fora da lista acima [SUPOSIÇÃO de regra útil, a combinar com o admin].
+
+---
+
+## Mudanças desta versão
+
+- Versão 4 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo só nos exemplos JSON antigos: 707-p05 deixa de bloquear o post por docente (autorização registrada, decisões 8 e 10) e fica só a contagem; 68651-p03 perde a turma mínima (fechada em 15, decisão 11) e fica com a contradição interna da ficha (U1); "PROVA PRESENCIAL" passa a online na normalização e no formato da prova, com a pendência 68651-p10 (U2) e o resumo do exemplo com 10 pendências abertas.
+
+### Mudanças da versão 3
+
+- Versão 3 (26/10/2026), pela seção 12 do plano do cmo (encomenda de 12.10) e pelos ajustes do qa. A versão 2 tinha as correções B1 a B6.
+- Seção 6 nova: campos fim_janela_silencio (D8), participou_evento_<código> e vinculo_ufape (D10) no contato do CRM; fila D2, limite de 1 mensagem de campanha por contato por dia e teto semanal D1; padrão de UTM D11 e D12.
+- graduacao.lp.utm passa a citar o padrão D11 e D12. Turma mínima de 15 e autorização de imagem e citação para todos registradas nas listas (decisões 8, 10 e 11); os exemplos 1.6 e 1.7 são de antes dessas decisões: no arquivo real, a pendência 707-p05 não é aberta e a 68651-p03 fecha com turma mínima de 15.
+- Revisão deste documento em 03/11 (D15). Listas finais atualizadas.
+
+---
+
 ## Fatos (com fonte)
 
 1. O mapa HTML é um arquivo único, sem CDN, offline, sem dado pessoal, com nós do nível 0 ao 5; o JSON por item não leva nome de docente; nada vai para o banco agora e a carga futura depende de plano próprio no ufape-admin (plano do cmo, seções 6.1 e 6.2).
@@ -1111,7 +1180,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 4. Nome dos arquivos aprovado em A11, pasta saidas/10-operacoes-de-marketing/cursos/<linha>-<codigo>.json (plano do cmo, seções 6.2 e 8; briefing, decisão do cliente).
 5. Decisões do cliente de 26/10/2026: Graduação com plano próprio (A2), provas de bolsa em campanha única (A3), pendências marcadas, workshop de 20 e 21/11 com cupom SIMPNEUROMONIT e 16 h (docs/execucao-2026-10-26.md).
 6. Pós 707: turma VII, São Paulo, semipresencial, 600 h, início 30/10/2026 (planilha), 30x de R$ 1.590,00, R$ 47.700,00, matrícula R$ 250,00, status aberto (catálogo, seção 2); 24 módulos, turma mínima de 20, 3 coordenadores, 19 professores listados (ficha da 707).
-7. Prova 68651: Hematologia, São Paulo, 27/11/2026, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, aberto (catálogo, seção 3, com coluna de preço); 9 às 13h, prova presencial, nota de corte 7.0 (mínimo 70 % de acerto) e mínimo de 15 alunos nas duas menções da ficha (ficha da 68651). Regras das 22 provas, iguais em todas: 11 bolsas por prova (2 de 50% (monitoria), 4 de 25% e 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 10 dias úteis para a matrícula, turma mínima de 15 na página da prova contra 20 nas páginas de curso [CONFIRMAR], turma de destino não consta na página [CONFIRMAR] (contexto/pos-graduacao.md). O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula (ficha da 68651). O plano dá P10 como resolvido (plano do cmo, seção 7).
+7. Prova 68651: Hematologia, São Paulo, 27/11/2026, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, aberto (catálogo, seção 3, com coluna de preço); 9 às 13h, prova presencial, nota de corte 7.0 (mínimo 70 % de acerto) e mínimo de 15 alunos nas duas menções da ficha (ficha da 68651). Regras das 22 provas, iguais em todas: 11 bolsas por prova (2 de 50% (monitoria), 4 de 25% e 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 10 dias úteis para a matrícula, turma mínima de 15 na página da prova contra 20 nas páginas de curso (fechado pela decisão 11 da Ufape: turma mínima de 15, também nas turmas de Pós; provas online), turma de destino não consta na página [CONFIRMAR] (contexto/pos-graduacao.md). O trecho REGRAS da ficha cita ainda o site como local do resultado e 7 dias para a matrícula (ficha da 68651). O plano dá P10 como resolvido (plano do cmo, seção 7).
 8. Visão de campanhas de 26/10/2026: 707 com campanha ativa, estático, sem 5 ângulos; o Simpósio de Neuromonitorização com campanha ativa, estático, 5 ângulos "não se aplica"; as provas de bolsa não constam (visão de campanhas; plano, seção 3).
 9. GUT: provas de bolsa 5, 5, 4 = 100; Pós 707, 68604 e 68606: 4, 5, 3 = 60 (plano, seção 3).
 10. Onda 1 e situação especial das turmas com campanha ativa: inventário do kit pelo cmo em 28/10, mensagens de reta final em 28/10, plano da campanha das provas em 29/10, peças das provas em 03/11 (plano, seção 4).
@@ -1123,6 +1192,8 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 16. cmo, qa-de-marketing e relatorios têm as ferramentas Read e Write (cmo também WebSearch e WebFetch); nenhum tem execução de script (.claude/agents).
 17. A plataforma pede aprovação depois de cada etapa e registra a entrega (CLAUDE.md do marketing, "Execução pela plataforma"). O admin é o único projeto que cria migrations e as tabelas cursos e turmas mandam nos dados de curso (CLAUDE.md do admin).
 18. O veredito do qa-de-marketing pediu as correções B1 a B6 (saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep09-10.md).
+19. Teto único D1, fila D2, janela de silêncio D8, ex-aluno de Pós na régua das provas D10, padrão de UTM D11 e D12 e revisão no dia útil seguinte quando a segunda-feira é feriado D15 (plano do cmo, seções 12.2, 12.5, 12.7 e 12.8).
+20. Autorização de imagem e citação para todos (docentes, palestrantes e convidados) e turma mínima de 15 com provas online (docs/execucao-2026-10-26.md, decisões 8, 10 e 11).
 
 ## Suposições
 
@@ -1136,19 +1207,20 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 8. [SUPOSIÇÃO] O responsável pela aprovação é, por enquanto, a pessoa do marketing que fez o pedido (P12 aberto), registrada só como papel.
 9. [SUPOSIÇÃO] Os canais dos exemplos são os da proposta do cmo (seção 5 do plano), não confirmados nas etapas 1.20 e 1.11.
 10. [SUPOSIÇÃO] A conferência C9 (dado pessoal) é feita por leitura do qa-de-marketing, porque nenhum agente executa script.
-11. [SUPOSIÇÃO] A data de revisão deste documento é 02/11/2026, a primeira revisão semanal depois da primeira rodada.
+11. [SUPOSIÇÃO] A data de revisão deste documento é 03/11/2026 (02/11 é feriado; D15), a primeira revisão semanal depois da primeira rodada.
 12. [SUPOSIÇÃO] Itens da Graduação ficam na onda 1 (Graduação aparece na onda 1 do briefing, "inscrições abertas, aulas em 22/02/2027") e sem área das 14.
 13. [SUPOSIÇÃO] Para a prova de bolsa, vale o texto do contexto da linha (resultado por WhatsApp ou e-mail, 10 dias úteis), já aprovado no plano, e os trechos divergentes da ficha viram pendência.
+14. [SUPOSIÇÃO] Números do teto D1 e prazos da janela de silêncio D8, até a Ufape confirmar (pedido R1 do cmo); nomes dos valores de vinculo_ufape.
 
 ## Dados que faltam
 
 1. [CONFIRMAR] Responsável pelo catálogo na Ufape ([nome, área] está vazio no catálogo): é quem dispara a atualização por mudança de catálogo.
 2. [CONFIRMAR] Chave que liga o código do catálogo às tabelas cursos e turmas do admin, e como a plataforma lê os arquivos (seção 4.4).
-3. [CONFIRMAR] URL da LP da Graduação e o padrão de UTM da squad (plano, P15); o catálogo só traz https://faculdade.ufape.com.br/graduacao.
+3. [CONFIRMAR] URL da LP da Graduação (o catálogo só traz https://faculdade.ufape.com.br/graduacao) e utm_campaign da Graduação com o prefixo grad_ (o padrão D11 e D12 já está definido).
 4. [CONFIRMAR] Fim das inscrições de cada turma, prova e edição (nenhum traz hoje).
-5. [CONFIRMAR] Turma de destino de cada prova de bolsa (a página não traz; as 4 provas sem turma futura aberta são 68652, 68649, 68653 e 68655), e qual turma mínima vale: 15 na página da prova ou 20 nas páginas de curso.
+5. [CONFIRMAR] Turma de destino de cada prova de bolsa (a página não traz; as 4 provas sem turma futura aberta são 68652, 68649, 68653 e 68655), (a turma mínima de 15 foi fechada pela decisão 11).
 6. [CONFIRMAR] Quem aprova cada tipo de peça (P12) e o formato do id de aprovação da plataforma (campo ref_aprovacao, hoje "[CONFIRMAR]").
-7. [CONFIRMAR autorização] Autorização de imagem e voz de docentes e palestrantes, só em contagem (P13).
+7. [CONFIRMAR] Termo de imagem de participantes e de alunos; a autorização de docentes, palestrantes e convidados foi registrada pelas decisões 8 e 10 (P13 fechado para eles).
 8. [CONFIRMAR] Metas, verba, vagas restantes e números agregados por turma (P11).
 9. [CONFIRMAR] Texto oficial de certificação da regulação (P1) e a validade do cupom e das promoções (por exemplo, 20% da Pós 341, P16).
 10. [CONFIRMAR] Decisão da pessoa do marketing: nome do arquivo do workshop com "workshop" (proposto) ou "simposio" (exemplo do plano); sufixo "-mapa" nos relatórios do lote; e qual variação do kit de evento vale para o workshop de 20 e 21/11 (o plano usou a de simpósio).
@@ -1156,6 +1228,7 @@ Risco que sobra: um texto livre com nome de pessoa que o regex e a leitura do qa
 12. [CONFIRMAR] Se "aprimoramento" fica como tipo próprio (proposto aqui, para os itens da Ufape Clínica) ou entra em livre_presencial.
 13. [CONFIRMAR] Inventário do que já existe do kit de 707, 68604, 68606, 698, 68610, 68608, 573, 623 e 68614 (plano, seção 4).
 14. [CONFIRMAR] Qual carga horária vale na Pedagogia (3.440 h no site, 3.640 h no edital) e as datas e textos dos editais apontados como alerta na ficha de editais.
+15. [CONFIRMAR] Ferramenta de CRM, e-mail e WhatsApp que aplica a seção 6 (P15); como a presença no evento é medida; se a Graduação entra em vinculo_ufape.
 
 ## Próximo agente
 

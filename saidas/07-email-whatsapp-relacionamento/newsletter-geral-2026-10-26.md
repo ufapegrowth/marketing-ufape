@@ -1,906 +1,499 @@
-# Newsletter da Ufape para médicos veterinários: conceito e 4 edições de novembro de 2026
+# Newsletter geral da Faculdade UFAPE: regras, calendário de edições e as duas primeiras edições (novembro e dezembro de 2026)
 
-- Agente: newsletter (departamento 07, E-mail, WhatsApp e Relacionamento), etapa 1.29 da camada 1
-- Linha: geral (a edição cruza Pós-graduação, Cursos Livres e Eventos; a Graduação fica fora, porque tem plano próprio pelo /campanha-de-vestibular)
-- Data: 26/10/2026 (segunda-feira)
-- Status: rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada é publicado, enviado ou pago. Envio de e-mail e de WhatsApp em massa é pedido de aprovação humana (seção 7). O envio está bloqueado pelas pendências da seção 8.
-- Skill usada: .claude/skills/assuntos-de-email/SKILL.md (objetivo único, 10 ideias de assunto, corte dos que a mensagem não cumpre, 2 para teste, registro de teste) e templates/mensagem.md (campos de canal, segmento, assunto A e B, pré-visualização, gancho, corpo, chamada, follow-up, horário, opt-in, template Meta, forma de sair).
-- Entradas lidas:
-  - docs/execucao-2026-10-26.md
-  - CLAUDE.md
-  - contexto/ufape-geral.md, contexto/pos-graduacao.md, contexto/cursos-livres.md, contexto/eventos.md, contexto/graduacao.md
-  - contexto/catalogo-de-cursos.md (resumo, seções 1 a 9, para conferir cada número citado)
-  - templates/mensagem.md
-  - .claude/skills/assuntos-de-email/SKILL.md
-  - saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md (entrada principal, lido inteiro: pilares, calendário C01 a C28 e métricas)
-  - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (linhas 1 a 377 de 509: voz, palavras evitadas, regras de docente e de imagem, checklist)
-  - saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md (linhas 1 a 422 de 562: regras das 22 provas, destino por prova, canais, cadência, UTM)
-  - saidas/06-geracao-de-demanda/estrategia-de-campanha-eventos-2026-10-26.md (inteiro: workshop de 20 e 21/11)
-  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (inteiro, com atenção às seções 3 e 5)
-  - Fichas conferidas para o que está só nelas (cada uso leva [CONFIRMAR NO CATÁLOGO]): contexto/cursos/pos/68610, 68608, 68606, 707, 68604 e 68639; contexto/cursos/livres/68666, 616 e 700; contexto/cursos/eventos/neuro-summit-workshop-de-neuromonitorizacao-veterinaria.md
-  - auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md
-- Não existe saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md: os Cursos Livres entram só pelo catálogo e pelo contexto da linha.
-- Não abri faculdade.ufape.com.br. Os links de página de curso vêm das fichas (campo "Página oficial").
-- Dados pessoais: nenhum. Nenhum aluno, candidato ou leitor é citado. Nenhum docente é nomeado (autorização [CONFIRMAR autorização]). Nenhum depoimento.
+- **Agente:** newsletter (departamento 07, E-mail, WhatsApp e Relacionamento), etapa 1.29 da camada 1
+- **Linha:** geral (Pós-graduação, Cursos Livres e Eventos). Graduação fora, com o motivo na seção 1.3.
+- **Data:** 26/10/2026 (segunda-feira)
+- **Versão:** versão 3 (26/10/2026): aplica a seção 12 do plano do cmo e os ajustes do qa (NV1 a NV4 da revisão saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md). Entradas novas desta versão: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (D1 a D17, encomendas em 12.10); docs/execucao-2026-10-26.md, decisões 10 a 13; contexto/pos-graduacao.md atualizado (provas online, regra da ficha de cada prova, campus, turma mínima de 15). O que mudou nesta versão está na seção "Mudanças desta versão", no fim; o que mudou na versão 2 está na seção 8.
+- **Status:** rascunho para o qa-de-marketing (auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md) e para a aprovação humana. A squad não envia nada: este arquivo é texto e regra para a ferramenta de e-mail e para o CRM enviarem, depois da aprovação da pessoa do marketing.
+- **Formato:** templates/mensagem.md, com a skill .claude/skills/assuntos-de-email/SKILL.md para assuntos e primeiras linhas.
+- **Entradas lidas:**
+  - .claude/agents/newsletter.md
+  - CLAUDE.md e docs/execucao-2026-10-26.md
+  - saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 1, 3, 4, 5, 7, 8 e 10)
+  - contexto/ufape-geral.md, contexto/pos-graduacao.md, contexto/cursos-livres.md, contexto/eventos.md
+  - contexto/catalogo-de-cursos.md (cabeçalho "Como usar" e seções 2, 3, 4, 5, 7 e 9)
+  - saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md (leitura completa)
+  - saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md (seções 0 a 5)
+  - saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md (seções 1, 5.4, 6, 7, 8 e 9)
+  - saidas/02-estrategia-e-posicionamento/posicionamento-pos-2026-10-26.md e posicionamento-livres-2026-10-26.md (estrutura e regras de "o que nunca afirmar", via as estratégias de conteúdo)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a-b.md e qa-de-marketing-geral-2026-10-26-dep02b.md (vereditos sobre o guia de marca e os posicionamentos)
+  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (régua das provas, para não somar envios) e copy-de-mensagens-eventos-2026-10-26.md (régua escrita do workshop, mapa da seção 1 e datas de cada follow-up; fonte das datas do workshop na versão 2)
+  - saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-26.md (1.26 da Pós, dona da regra de cadência: seção 3.2, item 6) e estrategia-de-relacionamento-livres-2026-10-26.md (1.26 de Livres, que usa a agenda da edição 1 como o e-mail de Livres para quem está em todas as bases)
+  - saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteA.md (seção 6, revisão deste arquivo)
+  - templates/mensagem.md, .claude/skills/assuntos-de-email/SKILL.md, auditorias/07-email-e-whatsapp.md, auditorias/conformidade-educacional.md
+- **Revisões do qa sobre as entradas:** não há revisão do qa sobre as duas estratégias de conteúdo (1.19) até esta data. O guia de marca (dep02a-b) e os três posicionamentos (dep02b) estão **bloqueados** e voltaram aos agentes. Este arquivo herda os pontos que o qa apontou: bolsa sempre com data, público, regra de não acumulação e marcação de que as regras vêm da página da prova; turma mínima de 15 ou 20 marcada [CONFIRMAR] (fechado na versão 3 pela decisão 11: 15 alunos); nenhuma peça das provas 68641 e 68642 (links trocados).
+- Não abri faculdade.ufape.com.br. Nenhuma busca na web. Nenhum dado pessoal: a newsletter não usa nem o primeiro nome do contato (seção 2.4).
 
 ---
 
 ## 0. Resumo para quem decide
 
-1. **Nome proposto:** Decisão de Rotina, a newsletter da Faculdade UFAPE para médicos veterinários [SUPOSIÇÃO de nome, a validar]. Ligada ao propósito da marca: decidir com segurança diante do caso real.
-2. **Promessa:** toda quinta, um assunto da sua rotina ou da sua decisão de se especializar, e o que abre na Ufape com preço, parcelas e regras à vista.
-3. **Periodicidade:** semanal, quinta-feira. E-mail às 12h30. WhatsApp às 15h, só para quem deu opt-in. Horário proposto [SUPOSIÇÃO], com teste de horário em dezembro.
-4. **Quatro seções fixas:** (1) decisão da semana, com caso ou técnica quando houver revisor docente; (2) o que abre nas próximas semanas; (3) prova de bolsa e eventos; (4) pergunta do leitor.
-5. **Proporção:** no mês, pelo menos 60% do corpo é conteúdo e no máximo 40% é oferta. Nenhuma edição fica abaixo de 50% de conteúdo (seção 1.5).
-6. **Novembro:** 05/11 prova de bolsa em um e-mail; 12/11 como escolher uma pós (Dermatologia de exemplo); 19/11 o que se faz num módulo presencial (Hematologia de exemplo, véspera do workshop); 26/11 a prova é amanhã, e o que vem depois.
-7. **Sem revisor docente, a seção 1 sai na Versão B** (critério de decisão, roteiro de módulo e regras da prova, tudo do catálogo e das fichas). A Versão A (caso clínico) só existe com revisor nomeado e autorização registrada. Em novembro, a primeira data possível da Versão A é a edição de 19/11.
-8. **Bloqueios que decidem o envio:** ferramenta e tamanho da base [CONFIRMAR], opt-in registrado com data e origem, regras e destino das provas, política de entrada em turma iniciada, parcelamento do workshop, URL do hub da prova, aprovador de e-mail e WhatsApp em massa. Cada uma tem tratamento na seção 8 e pedido na seção 7.
+1. **O que é:** uma newsletter quinzenal por e-mail, para a base de médicos veterinários e estudantes com consentimento de e-mail, que junta Pós, Livres e Eventos em uma edição só, mais uma chamada curta no WhatsApp só para quem deu opt-in nesse canal. Uma ideia principal por edição, uma chamada, uma agenda com datas do catálogo.
+2. **Para que serve:** apoio à decisão (como escolher, quanto tempo, quanto custa), que é a camada comum às duas estratégias de conteúdo. A venda de cada turma continua nas réguas das campanhas; a newsletter não é régua de venda.
+3. **Cadência proposta:** quinzenal, às quartas ou quintas, 10h [SUPOSIÇÃO]. Primeira edição em **qua 18/11/2026** e não em 12/11, porque a semana de 09 a 15/11 já tem para a mesma base os 2 e-mails de campanha (provas M7 em 10/11 e M3 do workshop em 14/11, D3 do cmo), e o teto D1 é de 2 e-mails e 2 WhatsApp de campanha por semana por contato, somando todas as linhas e a newsletter, com no máximo 1 mensagem de campanha por dia (seção 3.2). A newsletter é nutrição: 5º lugar da fila D2. A edição 4 passa para qui 07/01/2027 (D4). A edição de 26/11 prevista na estratégia de conteúdo da Pós sai pelo mesmo motivo; o conteúdo dela já está na mensagem de véspera aos inscritos (M12 da régua das provas).
+4. **Entregue aqui:** regras de envio e LGPD (seção 2), calendário de 7 edições até 18/02/2027 (seção 3), a edição 1 completa (seção 4) e a edição 2 completa (seção 5), cada uma com 3 assuntos, pré-visualização, e-mail inteiro e versão de WhatsApp.
+5. **O que falta para enviar:** tamanho da base, ferramenta de e-mail, registro de consentimento, URL da política de privacidade, URL do guia de escolha e do guia de investimento, e as pendências de dado de cada item da agenda. Tudo marcado [CONFIRMAR].
 
 ---
 
-## 1. Conceito
+## 1. Ideia da newsletter e limites
 
-### 1.1 Nome, promessa e leitor
+### 1.1 Leitor e promessa da newsletter
 
-| Item | Definição | Status |
+- **Leitor:** médico veterinário de pequenos animais que pensa no próximo passo da formação: uma pós, um curso prático, um gravado, um grupo de estudos ou um evento (personas P1 a P4 da Pós e P-L1 a P-L3 dos Livres, todas [SUPOSIÇÃO] nas entradas).
+- **Promessa de cada edição:** uma pergunta de decisão respondida com dado verificável, e a agenda das próximas datas com as condições inteiras. Liga à promessa da marca ("sabe antes de se inscrever o que vai praticar, quando, onde e quanto vai pagar", estrategia-de-marca, seção 1, [SUPOSIÇÃO] até a validação).
+- **Tom:** de colega para colega, precisa, próxima e transparente (estrategia-de-marca, seção 5). Sem emoji no e-mail. Primeira menção "Faculdade UFAPE", depois "Ufape" (grafia oficial [CONFIRMAR]).
+- **Tamanho:** corpo entre 300 e 550 palavras, com a agenda, lido em cerca de 2 minutos [SUPOSIÇÃO]; blocos curtos com título, para escanear.
+
+### 1.2 Estrutura fixa de cada edição
+
+| Bloco | O que entra | Regra |
 |---|---|---|
-| Nome | Decisão de Rotina | [SUPOSIÇÃO], validar com a Ufape |
-| Assinatura | "Decisão de Rotina, da Faculdade UFAPE" (primeira menção "Faculdade UFAPE", depois "Ufape", como no guia de marca). Nunca "Ufape Intercursos" como marca | guia de marca, seção 4.2 |
-| Promessa (uma frase) | Toda quinta, um assunto da sua rotina ou da sua decisão de se especializar, e o que abre na Ufape com preço, parcelas e regras à vista. | [SUPOSIÇÃO] |
-| Leitor | Médico veterinário formado, clínico de pequenos animais, que atende e está decidindo se, quando e como se especializar. Também alunos e ex-alunos. Não assume leitor homem | persona P1 a P4 da Pós, tudo [SUPOSIÇÃO] |
-| Tom | Colega para colega. Precisa, próxima, transparente (traços do guia de marca, [SUPOSIÇÃO]). Termo técnico certo, "você", frases curtas | guia de marca, seção 5 |
-| O que a newsletter não é | Não é cartaz de matrícula, não é lista de preços, não é fonte de conduta clínica escrita pela squad, não promete resultado | regras da marca |
-| Objetivo único de cada edição | Fazer o leitor tomar uma decisão melhor com informação conferível, e dar um próximo passo claro (uma chamada principal) | skill assuntos-de-email |
+| Gancho | 1 a 2 frases com a dúvida da edição | Sem urgência, sem característica pessoal de quem lê |
+| Ideia principal | A resposta, em lista curta ou tabela | Sem afirmação clínica sem revisão docente; sem promessa de emprego, renda ou título |
+| Botão (a chamada única) | Link para a peça âncora do site, com UTM | Um só botão por edição. A página entrega o que o botão promete |
+| Recurso útil | Agenda das próximas datas, só itens com status "aberto" no catálogo | Texto sem link, para não competir com o botão (seção 2.6). Preço sempre inteiro quando aparece |
+| Contato | Secretaria, como está em contexto/ufape-geral.md | Telefones e e-mail oficiais, horário de atendimento |
+| Rodapé | Remetente, endereço, motivo do recebimento, descadastro, política de privacidade | Obrigatório (seção 2.3) |
 
-Por que semanal: o calendário de conteúdo da Pós já prevê um e-mail por semana (estrategia-de-conteudo-pos, seção 3.1), e nas semanas 2 e 4 esse e-mail "vira newsletter". Este conceito faz da newsletter o e-mail da semana nas quatro semanas, para o leitor não receber a newsletter e mais um e-mail da mesma linha no mesmo dia.
+### 1.3 Por que a Graduação fica fora
 
-### 1.2 Dia, hora e tamanho
+- O público é outro: vestibulando, família e adulto que trabalha, com possível menor de idade (estrategia-de-marca, seção 5.4; cuidado redobrado de ECA e LGPD).
+- A Graduação tem plano próprio (cmo-graduacao, /campanha-de-vestibular) e régua de nutrição própria (saidas/06-geracao-de-demanda/campanhas-de-nutricao-graduacao-2026-10-26.md), e a LP da Graduação é página separada que a squad não altera.
+- Misturar as duas bases quebraria o item "segmentos recebem mensagens relevantes para a etapa da jornada" da auditoria 07.
+- Contatos que estão nas duas bases (por exemplo, um médico veterinário que também é pai de vestibulando) recebem a newsletter geral pela base de veterinários; a ferramenta não cruza bases para isso [SUPOSIÇÃO de que as bases são separadas, CONFIRMAR].
 
-| Item | Proposta | Motivo |
-|---|---|---|
-| Dia | Quinta-feira (05/11, 12/11, 19/11, 26/11) | Coincide com as datas já previstas no calendário de conteúdo (C12 em 12/11 e C24 em 26/11); evita a segunda (revisão do cmo) e a sexta (20/11 é feriado nacional e dia do workshop) [SUPOSIÇÃO de que quinta funciona para o público] |
-| Hora do e-mail | 12h30 | Intervalo de almoço de quem atende [SUPOSIÇÃO]. Teste de horário só em dezembro, para não misturar duas variáveis com o teste de assunto |
-| Hora do WhatsApp | 15h, no mesmo dia | Horário comercial (auditoria 07), duas horas e meia depois do e-mail, para quem não abriu |
-| Tamanho do e-mail | Cerca de 600 palavras de corpo, 3 a 4 minutos de leitura, lido em tela de celular | [SUPOSIÇÃO] |
-| Tamanho do WhatsApp | Até 3 parágrafos curtos, 1 link, saída por "SAIR" | regra do agente |
-| Remetente | "Faculdade UFAPE" com o nome da newsletter; endereço de resposta [CONFIRMAR] | evita confusão com a universidade federal homônima (marca, seção 4.1) |
+### 1.4 O que a newsletter nunca faz
 
-### 1.3 Seções fixas e estrutura de cada edição
+- Nunca usa "últimas vagas", "vagas limitadas", "corra", "garanta já", "termina hoje" ou contador. "30 vagas" do workshop aparece como capacidade total, sem dizer quantas restam.
+- Nunca diz "certificado pelo MEC", "reconhecida pelo MEC", "selo do MEC", nota do MEC, "Certificado UFAPE" ou "certificado de participação". O texto oficial de certificação não existe ([PREENCHER COM A REGULAÇÃO]).
+- Nunca "bolsa de até 50%" sozinho: sempre as 11 bolsas com a distribuição completa e as regras.
+- Nunca "Black Friday" perto da prova de 27/11.
+- Nunca chama de "simpósio" o Workshop Brasileiro de Neuromonitorização.
+- Nunca nomeia concorrente nem compara preço.
+- Nunca cita aluno, candidato, paciente ou tutor; nenhum depoimento é escrito pela squad. Docente só com nome e titulação como estão na ficha (todos autorizados em 26/10/2026); as duas primeiras edições não citam docente.
+- Nunca chama para compra item que não esteja "aberto" no catálogo, nem 698 (data errada no site), 68641 e 68642 (links trocados), 68656 (encerrada), 341 com o desconto (regra cortada) ou provas sem turma de destino como oferta de turma.
 
-Ordem de cada e-mail: gancho (2 a 3 linhas), seção 1 (ideia principal e recurso útil), seção 2, seção 3, seção 4, próximo passo e rodapé. O gancho abre a edição e o próximo passo (a chamada principal) fecha o corpo, como pede o método do agente.
+---
 
-| # | Seção | O que traz | Regras |
-|---|---|---|---|
-| 1 | Decisão da semana (caso ou técnica da área, com revisão de docente) | Um assunto de decisão com um recurso útil (lista, tabela, roteiro) que serve mesmo a quem não vai comprar nada | Versão A (clínica) só com docente revisor e autorização. Sem revisor, Versão B (seção 1.4). A squad nunca escreve dose, protocolo nem conduta. Caso ilustrativo é dito "ilustrativo". Sem paciente, tutor ou clínica identificáveis |
-| 2 | O que abre nas próximas semanas | Até 4 turmas ou cursos com status "aberto" no catálogo, com data, local, modalidade, carga horária e preço completo (parcelas, valor da parcela, total, matrícula). Na edição 1, que é o panorama do mês, a tabela pode ter até 6 linhas, 3 delas condicionais | Turma em "verificar", "sem venda" ou "encerrado" não entra. Curso livre diz que não confere diploma nem equivale a graduação ou pós. Sem "últimas vagas". Turma mínima e passagem só depois da confirmação |
-| 3 | Prova de bolsa e eventos | A prova de 27/11 (22 provas) com todas as bolsas, e o workshop de 20 e 21/11 quando fizer sentido para o leitor; depois do workshop, gravados à venda contínua | Bolsa sempre com a distribuição completa (2 de 50%, 4 de 25%, 5 de 10%) e nota de corte. Nenhuma frase de certificação. Cupom só com a regra da página |
-| 4 | Pergunta do leitor | Uma dúvida real, sem nome nem dado pessoal, com resposta de quem pode responder (secretaria, comercial ou docente autorizado) | Só publica com permissão de quem perguntou. Sem identificar. Dúvida clínica só com docente. Na ausência de pergunta recebida, usa "dúvida comum nas páginas dos cursos", e diz que é isso |
+## 2. Regras de envio, consentimento e LGPD (para a ferramenta de e-mail e o CRM)
 
-### 1.4 Versão A e Versão B da seção 1
+### 2.1 Quem recebe o e-mail
 
-| Versão | Quando usar | Conteúdo | Base |
-|---|---|---|---|
-| A (caso ou técnica clínica) | Só com revisor docente nomeado e autorização registrada, e com o texto revisado a pelo menos 3 dias do envio [SUPOSIÇÃO de prazo; o prazo real é pedido à Ufape] | Pergunta de decisão, o que investigar e quando encaminhar, escritos ou validados pelo docente, com a referência que ele indicar | Pilares P1 e P5 do calendário de conteúdo (suspensos até haver revisor) |
-| B (decisão de carreira, roteiro e regras) | Padrão enquanto não houver revisor. Também serve de plano B quando o docente não devolve no prazo | Critério de escolha, roteiro de módulo ou regras da prova, só com dado do catálogo e das fichas (cada dado de ficha leva [CONFIRMAR NO CATÁLOGO]) | Pilares P2 e P3 |
+| Inclui | Exclui |
+|---|---|
+| Contatos com consentimento de e-mail de marketing registrado (data, origem, texto aceito) [CONFIRMAR onde o registro fica e se existe por contato] | Quem pediu descadastro, em qualquer lista da Ufape |
+| Leads de Pós, Livres e Eventos; alunos e ex-alunos que deram o consentimento | E-mails com devolução permanente ou reclamação de spam |
+| | Base da Graduação (seção 1.3) e base dos cursos em espanhol (347, 501 e Lima: P17 do cmo, revisão por falante nativo) |
+| | Contato que já tem 2 e-mails de campanha na mesma semana ou outra mensagem de campanha no dia (teto D1 e fila D2, seção 3.2) |
+| | Contato sem consentimento registrado, mesmo que já tenha comprado: a base legal de ex-alunos é decisão do jurídico (seção 2.2) |
 
-Molde da Versão A (a squad entrega a casca, o docente entrega o conteúdo clínico):
-- Título e área.
-- Pergunta de decisão (uma frase, no formato "diante de X, o que decidir primeiro?"): [A DEFINIR COM O DOCENTE].
-- O que investigar (até 3 itens): [TEXTO DO DOCENTE].
-- Quando encaminhar: [TEXTO DO DOCENTE].
-- Referência: [INDICADA PELO DOCENTE].
-- Rótulo: "caso ilustrativo" quando não for caso real autorizado. Revisor e data de revisão ficam registrados fora do e-mail.
-- Nome e titulação do docente só como estão na ficha e só com autorização [CONFIRMAR autorização].
+Tamanho de cada segmento, taxa de abertura e de clique históricas: **[CONFIRMAR]**. Nenhum número consta nas fontes e nenhum é estimado aqui.
 
-Em novembro: edições 1, 2 e 4 saem na Versão B. A edição 3 sai na Versão B por padrão e troca para a Versão A só se o revisor devolver até 16/11 (casa com o caso em decisão C17 do calendário, previsto para 19/11).
+### 2.2 Base legal e consentimento
 
-### 1.5 Regra de proporção entre conteúdo e oferta
+- **Base legal proposta:** consentimento do titular para o envio de comunicação de marketing (Lei nº 13.709/2018, LGPD, art. 7º, I). Para alunos e ex-alunos, o uso de legítimo interesse (art. 7º, IX) é possível em tese, mas a escolha é do jurídico ou do encarregado de dados da Ufape **[CONFIRMAR com o jurídico]**. Até a resposta, vale a regra mais segura: só recebe quem consentiu.
+- **Coleta do consentimento:** caixa própria e desmarcada no formulário, separada para e-mail e para WhatsApp, com a finalidade escrita ("receber a newsletter quinzenal da Faculdade UFAPE com conteúdo e agenda de cursos") e link da política de privacidade. Texto final e URL da política: **[CONFIRMAR]**.
+- **Confirmação dupla (double opt-in):** recomendada para contatos novos, com um e-mail que pede o clique de confirmação [SUPOSIÇÃO de boa prática; decisão humana].
+- **Prova do consentimento:** a ferramenta ou o CRM guarda data, hora, origem (formulário ou página) e versão do texto aceito. Sem registro, o contato não entra [CONFIRMAR o campo e a ferramenta].
+- **Encarregado de dados (DPO):** nome e canal de contato no rodapé ou na política [CONFIRMAR].
 
-Definição, para o qa conferir contando palavras do corpo (sem rodapé):
-- **Conteúdo:** trecho que serve a quem não vai comprar nada (critério de escolha, roteiro de módulo, regra da prova, resposta a pergunta).
-- **Oferta:** nome do curso com data de início, preço, parcelas, matrícula, cupom e chamada de inscrição ou compra.
+### 2.3 Rodapé obrigatório de toda edição
+
+Texto do rodapé (rascunho):
+
+> Você recebe este e-mail porque autorizou o envio da newsletter da Faculdade UFAPE em [origem do consentimento, CONFIRMAR o campo].
+> Não quer mais receber? [Descadastrar com um clique]. Para ajustar o que recebe: [preferências, CONFIRMAR se a ferramenta oferece].
+> Política de privacidade: [URL, CONFIRMAR].
+> Faculdade UFAPE (UFAPE - CURSOS ESPECIALIZADOS LTDA, CNPJ 27.409.162/0001-34). Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP, 01407-100.
 
 Regras:
-1. No mês, conteúdo de pelo menos 60% do corpo e oferta de no máximo 40%.
-2. Nenhuma edição abaixo de 50% de conteúdo. Nas semanas da prova (edições 1 e 4) o limite é o piso de 50%. Nas edições 2 e 3 o conteúdo passa de 65%, para equilibrar o mês.
-3. A seção 1 (conteúdo) vem antes de qualquer preço. Nenhum preço aparece antes do segundo terço do e-mail.
-4. Uma chamada principal (botão) por edição. Os links da tabela "o que abre" (no máximo 4, ou 6 na edição 1) e o link de evento são secundários, em texto simples, sem botão.
-5. O assunto promete o que o primeiro terço do e-mail entrega. Assunto que promete oferta só quando a oferta é o tema (prova de bolsa, nas edições 1 e 4) e traz o conteúdo prometido no próprio e-mail.
-6. Duas edições seguidas não podem ter o foco principal em oferta. Em novembro: 1 foco em prova (informação e regras), 2 conteúdo, 3 conteúdo, 4 prova (roteiro do dia).
-7. Se os descadastros de uma edição forem os maiores do mês, a edição seguinte reduz a oferta ao piso e corta a seção 2 para 2 itens.
+- O descadastro funciona com um clique, sem login e sem pedir motivo obrigatório, e vale em até 24 horas para toda comunicação de marketing por e-mail [SUPOSIÇÃO de prazo; CONFIRMAR na ferramenta]. O descadastro na ferramenta de e-mail volta para o CRM [CONFIRMAR integração].
+- Remetente com nome "Faculdade UFAPE" e endereço de resposta lido por uma pessoa [CONFIRMAR endereço]. Domínio de envio autenticado (SPF, DKIM e DMARC) [CONFIRMAR com quem administra o domínio].
 
-Estimativa por edição (contagem do agente, [SUPOSIÇÃO], o qa recontará): edição 1 cerca de 50/50, edição 2 cerca de 70/30, edição 3 cerca de 70/30, edição 4 cerca de 50/50. Média do mês: cerca de 60/40.
+### 2.4 Dados pessoais
 
-### 1.6 Segmentação possível
+- A newsletter não usa campo de personalização com nome: o texto é o mesmo para todos, o que reduz o dado tratado (minimização). Se a pessoa do marketing quiser o primeiro nome, a decisão é humana e o texto já funciona com e sem ele.
+- Medição só em números somados por edição e por bloco: envios, entregues, cliques, descadastros, reclamações, respostas. Nenhum relatório com nome, e-mail ou telefone sai da ferramenta para os arquivos da squad.
+- Respostas ao e-mail são lidas pela secretaria; nenhuma é copiada para arquivo da squad com dado pessoal.
 
-Princípio: **uma edição, blocos que se encaixam por segmento**. Não se escrevem 4 newsletters diferentes por semana: o e-mail é um só, e três tipos de bloco trocam conforme o campo do cadastro. Os campos disponíveis na ferramenta e no CRM são [CONFIRMAR]. A squad recebe só contagens por segmento, nunca lista.
+### 2.5 Versão de WhatsApp
 
-| Eixo | Valores possíveis | Para que serve | Campo necessário |
-|---|---|---|---|
-| Área de interesse | Os grupos A1 a A14 do plano do cmo, agrupados em 5 blocos para não pulverizar: anestesia, dor e terapia intensiva (A1, A3); cardiorrespiratório (A2); cirurgia, imagem e endoscopia (A4, A5); clínica e especialidades (A6, A7, A8, A9, A10, A12, A13); laboratório e outras (A11, A14) | Trocar o exemplo da seção 1 (Versão B) e o bloco de evento da seção 3. O workshop de 20 e 21/11 só aparece completo para o segmento anestesia, terapia intensiva e neurologia (alinhado ao briefing do evento) | Interesse declarado no cadastro, ou clique em conteúdo da área [CONFIRMAR] |
-| Linha de interesse | Pós; Cursos Livres; Eventos. A Graduação não faz parte desta lista | Escolher quais itens aparecem na seção 2 (Pós sempre; livres e gravados só para quem clicou nessa linha) | Origem do cadastro e histórico de cliques [CONFIRMAR] |
-| Relação com a Ufape | Aluno atual de pós; ex-aluno; candidato que se inscreveu em prova de bolsa (só contagem, sem lista); contato com opt-in sem compra | Aluno e ex-aluno veem a regra do cupom SIMPNEUROMONIT no bloco de evento. Inscrito na prova recebe, no bloco da prova, a versão de logística (sem chamada de inscrição). Quem comprou uma turma sai do bloco de oferta daquela turma | Status no CRM [CONFIRMAR] |
-| Praça | São Paulo; Goiânia; outras cidades | Goiânia tem 3 provas (68640, 68642, 68644) e turmas próprias. Quem é de outra cidade vê a regra de passagem e hotel (só depois da turma confirmada) | Cidade do cadastro [CONFIRMAR] |
-| Canal | E-mail; WhatsApp (opt-in separado) | O WhatsApp só vai para quem deu opt-in de WhatsApp. Quem assinou só o e-mail não recebe WhatsApp | Consentimentos registrados por canal [CONFIRMAR] |
+- Só para contatos com opt-in de WhatsApp registrado no CRM (campo [opt_in_whatsapp] igual a sim, nome do campo [CONFIRMAR]). Opt-in de e-mail não vale para WhatsApp.
+- Só em dia útil, das 9h às 18h [SUPOSIÇÃO alinhada ao horário da secretaria em contexto/ufape-geral.md; a Ufape confirma]. Nunca em feriado (02/11, 15/11 e 20/11 em novembro).
+- No máximo 3 parágrafos curtos e um único link. Primeira linha que cabe na notificação e soa como pessoa falando.
+- Forma de sair: "responda SAIR" no texto e botão de resposta rápida "Sair" quando houver template; quem responde SAIR sai de toda mensagem de marketing.
+- Se o envio for pela API do WhatsApp Business, cada texto vira template aprovado pela Meta, na categoria de marketing, com o link como variável [CONFIRMAR ferramenta e nome do template]. Custo por conversa de marketing: [CONFIRMAR].
+- Quem responde à mensagem sai da automação e é atendido por uma pessoa.
 
-Regras de segmento:
-- Segmento com poucos contatos [CONFIRMAR o mínimo] não é separado: recebe a versão geral.
-- Regra de saída (auditoria 07): quem se inscreve na prova ou compra uma turma sai do bloco de oferta daquele item na edição seguinte. Quem pede para sair do e-mail sai do e-mail; quem responde SAIR no WhatsApp sai de todo WhatsApp de marketing. Nenhuma saída depende de resposta humana.
-- Sem dado pessoal na segmentação que a squad use. Não há segmentação por característica pessoal sensível.
+### 2.6 Link, UTM e medição
 
-### 1.7 A chamada de WhatsApp de cada edição
-
-Cada edição tem uma versão curta para a lista de transmissão ou para o envio por template. Regras:
-- Só para quem deu opt-in de WhatsApp, registrado com data e origem [CONFIRMAR registro]. Em horário comercial (9h às 18h, segunda a sexta): quinta às 15h.
-- Até 3 parágrafos curtos, um único link, tom de pessoa. Sem emoji (no máximo 1 funcional, a Ufape decide). Primeira linha cabe na notificação e entrega o que o resto da mensagem entrega.
-- Saída: "Para não receber mais, responda SAIR".
-- Se a Ufape usar a API oficial do WhatsApp Business, mensagem fora da janela de 24 horas exige template aprovado pela Meta [CONFIRMAR se usa API ou lista de transmissão]. Proposta de template (um por edição, categoria marketing): "newsletter_vet_ed01" a "newsletter_vet_ed04", variáveis {{1}} primeiro nome (com "colega" quando faltar) e {{2}} link, botão de resposta rápida "SAIR". Aprovação da Meta: [CONFIRMAR].
-- Limite de cadência: no máximo 2 mensagens de campanha por semana por contato no WhatsApp, somando todas as campanhas (limite do plano de campanha da Pós, [SUPOSIÇÃO]). A newsletter ocupa 1. Mensagens de serviço ao inscrito não contam.
-- Mapa com o pacote de WhatsApp do calendário de conteúdo da Pós: a versão de WhatsApp da edição 1 cumpre o C06 (05/11), a da edição 2 cumpre o C13 (previsto para 13/11, passa para 12/11), a da edição 3 cumpre o C19 (previsto para 20/11, que é feriado e dia do workshop, passa para 19/11) e a da edição 4 cumpre a primeira parte do C25 (26/11). O lembrete de manhã do C25 (27/11) continua separado, como mensagem de serviço para inscritos.
-
-### 1.8 Integração com o calendário de conteúdo e com as campanhas
-
-A squad não altera arquivo de outro agente. Estas são notas desta saída, para o cmo e a pessoa do marketing decidirem.
-
-| Item do calendário | Data prevista lá | O que muda com a newsletter | Decisão pedida |
-|---|---|---|---|
-| C05, e-mail da prova (base com opt-in) | ter 03/11 | Continua como e-mail próprio, 2 dias antes da edição 1. Soma 2 e-mails na semana, dentro do teto [SUPOSIÇÃO de 2 por semana]. Para não repetir texto, a edição 1 aprofunda o que o C05 apresenta | Manter ou fundir C05 na edição 1 |
-| C12, newsletter "antes de escolher a especialidade" | qui 12/11 | É a edição 2 | Nenhuma |
-| C18, e-mail "o que se faz no módulo presencial: Hematologia" | sex 20/11 (feriado e dia do workshop) | Passa para a edição 3, em 19/11 | Aprovar a mudança de data |
-| C24, newsletter "a prova é amanhã" | qui 26/11 | É a edição 4 | Nenhuma |
-| Pacote de WhatsApp C06, C13, C19, C25 | 05, 13, 20 e 26/11 | Cada um vira a versão de WhatsApp da edição do mesmo dia ou da quinta anterior | Aprovar |
-| E-mails do workshop (convite, programação, lembrete) | 30/10, semana de 03/11, 14 a 16/11 | Seguem como e-mails de campanha do evento. A edição 3 traz só um bloco curto de evento, para o segmento certo | Conferir o teto de 2 e-mails por semana por contato |
-| UTM | cada campanha usa o seu | Provas: medium "base", campaign "provas-de-bolsa-2026-11-27". Workshop: medium "crm", campaign "neuro-summit-2026". Os dois padrões diferem; esta saída respeita cada um e marca a edição pelo utm_content (prefixo "nl") | Unificar o padrão (pedido U11) |
-
-### 1.9 Regras de exclusão (valem em todas as edições)
-
-1. Nenhuma frase de certificação ligada ao MEC, nenhuma nota do MEC, nenhum texto de certificado de curso, de evento ou de workshop.
-2. Nada de "últimas vagas", "vagas limitadas", "corra", "garanta já", contador, nem "Black Friday" junto da prova de bolsa. "30 vagas, por ordem de inscrição" do workshop é número real da ficha e pode aparecer.
-3. Nenhum depoimento, nenhum nome de aluno, nenhum nome de docente sem autorização registrada.
-4. Nenhuma comparação com outra instituição, nem a taxa de inscrição de prova de concorrente.
-5. Turma com status diferente de "aberto" no catálogo não recebe chamada. Hoje fora: 650, 677, 701, 564, 535, 663, 706, 653, 68662, 678, 586, 554, 665, 666, 659, 68605, 68607, 68612, 68611.
-6. Pós sempre com o nome "Pós-graduação em <área>". Prova com o nome "Prova de bolsa para a Pós-graduação em <área>".
-7. Link de prova individual só depois de a Ufape corrigir os links trocados de Cardiologia (68641 e 68642). Até lá, todo link de prova vai ao hub.
-8. Nunca "Ufape Intercursos" como marca. Os contatos oficiais @intercursos.com.br podem aparecer.
+- Um botão por e-mail e um link por WhatsApp, os dois para a peça âncora da edição.
+- UTM (padrão único D11 e D12 do cmo): utm_source=email ou whatsapp; utm_medium=newsletter; utm_campaign=geral_newsletter_<AAAAMM do envio> (ex.: geral_newsletter_202611 para a edição 1, geral_newsletter_202612 para a edição 2, geral_newsletter_202701 para a edição 4); utm_content=ID da edição e do bloco (ex.: ed01-botao, ed01-whatsapp). Tudo em minúsculas, sem acento, hífen dentro do bloco e sublinhado entre blocos. Nenhum dado pessoal na UTM. O arquiteto-de-fluxos confere quando a ferramenta for confirmada.
+- O que se mede, além da abertura (que é estimativa): cliques no botão, respostas, descadastros, reclamações de spam e inscrições ou matrículas que informaram a newsletter como origem, somadas por edição. Ferramenta: [CONFIRMAR].
+- Linha de base: as 4 primeiras edições. Antes disso não há meta. Se os descadastros de uma edição ficarem acima da mediana das anteriores, a próxima edição é revista e a cadência pode cair para mensal [SUPOSIÇÃO de regra].
+- Teste de assunto: assunto A contra B em uma fração da base só se o tamanho da base permitir leitura [CONFIRMAR tamanho]. O resultado vai para o registro de testes [CONFIRMAR onde fica].
 
 ---
 
-## 2. Convenções das edições
+## 3. Calendário de edições (proposta, depende de aprovação humana)
 
-### 2.1 Cabeçalho e rodapé padrão do e-mail
+### 3.1 Edições
 
-Cabeçalho: nome da newsletter, número da edição, data. Linha de abertura: "Olá, {{primeiro_nome}}" com "Olá, colega" quando o campo faltar.
+| Ed. | Data e hora | Ideia principal | Peça âncora (botão) | Agenda (recurso) | Dependências |
+|---|---|---|---|---|---|
+| 1 | qua 18/11/2026, 10h | Antes de escolher uma pós, faça estas 7 perguntas | Guia C08 da estratégia de conteúdo da Pós ("Como escolher uma pós-graduação em Medicina Veterinária"), previsto para 12/11 | Workshop (20 e 21/11), grupo 68666 (25/11), provas de bolsa (27/11), Pós 68610 e 68608 e Livre 68614 (28/11) | C08 publicado; URL [CONFIRMAR]. Plano B na seção 4 |
+| 2 | qui 03/12/2026, 10h | Quanto tempo e quanto custa cada formato: pós, curso prático, gravado, minicurso, grupo e evento | Guia de investimento T8 da Pós (bloco D1, 30/11 a 06/12) ou guia L27 dos Livres, o que estiver publicado | Ventilação Mecânica 68618 (18/12, condicional) e turmas de Pós de março de 2027 (657, 289, 68615, 341, 333) | T8 ou L27 publicados; URL [CONFIRMAR]. Plano B na seção 5 |
+| 3 | qui 17/12/2026, 10h | Cardiologia: pós, ecocardiografia gravada ou curso prático, por onde começar (área A2) | Guia de A2 da Pós (bloco D3, 14 a 20/12); plano B: guia de Anestesiologia (bloco D2) | Pós-graduação em Cardiologia Veterinária em Goiânia (289, 20/03/2027); Curso de Ecocardiograma em Pequenos Animais (411, contínuo) | 698 fora até a data do site ser corrigida; provas de Cardiologia (68641, 68642) fora |
+| 4 | qui 07/01/2027, 10h (antes ter 22/12; D4 do cmo, NL6) | Edição de início de ano, sem venda: as perguntas que mais recebemos em 2026 e onde está a resposta | Página de FAQ ou hub com as respostas [CONFIRMAR qual] | Sem agenda de venda; horário da secretaria [CONFIRMAR] | Lista de perguntas recorrentes da secretaria e das vendas, sem dado pessoal [CONFIRMAR]. É campanha e por isso saiu da janela de 21/12 a 03/01, que é só de serviço e manutenção (D4). Nenhuma newsletter em 25/12, 31/12 e 01/01 |
+| 5 | qui 14/01/2027, 10h | Turmas de março de 2027: o que comparar antes da janela de decisão (1ª mensalidade cerca de 30 dias antes do início, conforme a maioria das fichas [CONFIRMAR NO CATÁLOGO]) | Tabela de turmas de março com condições completas (bloco J1 da Pós) | 657, 289, 68615, 341 (sem o desconto) e 333; grupos e contínuos da área da semana (rotação dos Livres, seção 5.3) | Pré-requisito de 657 [CONFIRMAR]; 333 sem peça de autoridade docente |
+| 6 | qui 28/01/2027, 10h | Turma mínima, confirmação da turma e quando comprar passagem | Guia "compre só com a turma confirmada" (bloco J4 da Pós) | Turmas de março; Curso Prático de POCUS em Emergência Veterinária (68638, 06/03/2027) com carga horária [CONFIRMAR NO CATÁLOGO] | Turma mínima de 15 alunos (decisão 11); data de confirmação da turma [CONFIRMAR] |
+| 7 | qui 18/02/2027, 10h | Clínica cirúrgica em São Paulo e Goiânia: presencial ou semipresencial | FAQ de A4 (bloco F3 da Pós) | Turmas de abril de A4 (68632 presencial em Goiânia, 366); POCUS 68638 | 662 sem preço até a correção do link; 366 sem data (P4). Semana de Carnaval (08 a 12/02) fica sem envio |
 
-Rodapé (obrigatório em todas as edições):
-- "Você recebe a Decisão de Rotina porque se cadastrou para receber e-mails da Faculdade UFAPE. Para sair, [LINK-DE-DESCADASTRO]. Política de privacidade: [LINK-DA-POLÍTICA]."
-- Faculdade UFAPE, Av. 9 de Julho, 3939, Jardim Paulista, São Paulo, SP, 01407-100. Secretaria: (11) 97492-8443 (WhatsApp) ou (11) 5054-1204, duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h.
-- Responda este e-mail com a sua dúvida: [E-MAIL-DE-RESPOSTA, CONFIRMAR].
+As edições 3 a 7 ficam como pauta: o texto de cada uma é escrito na quinzena anterior, com o catálogo do dia, e passa pelo qa-de-marketing antes da aprovação.
 
-### 2.2 UTM (proposta [SUPOSIÇÃO], a unificar no pedido U11)
+### 3.2 Como a newsletter convive com as réguas de campanha
 
-- utm_source: email ou whatsapp.
-- utm_medium: base para provas e turmas, crm para o workshop (cada campanha mantém o seu).
-- utm_campaign: provas-de-bolsa-2026-11-27 (links da prova), neuro-summit-2026 (links do workshop), newsletter-vet-2026-11 (turmas, cursos, gravados e demais links).
-- utm_content: nl<edição>-<item>, por exemplo nl01-hub, nl02-68610, nl03-neuro.
-- Nenhum dado pessoal em UTM. Todo link tem utm_content, para a medição por seção.
+Regra de cadência (teto D1 do cmo, seção 12.2, que vale para todas as linhas e para a newsletter): no máximo 2 e-mails e 2 WhatsApp de campanha por contato por semana (segunda a domingo), somando Pós, Livres, Eventos, Graduação e newsletter; no máximo 1 mensagem de campanha por contato por dia, em qualquer canal; WhatsApp só em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h [SUPOSIÇÃO de número até a Ufape confirmar, pedido R1 do cmo]. A newsletter conta como campanha. Mensagem de serviço ao inscrito não conta.
 
-Modelo: URL-de-destino?utm_source=email&utm_medium=base&utm_campaign=newsletter-vet-2026-11&utm_content=nl02-68610
+Tabela refeita com a semana a semana de D3 do cmo (pior caso: contato que está na campanha das provas, na base do workshop, com opt-in nos dois canais, e na newsletter). Fonte das réguas: provas, saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md (mapa da seção 2); workshop, saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md (mapa e follow-ups), com as supressões e mudanças de data de D3. A lista oficial de envios do workshop é essa (12.9 do cmo, NL5).
 
-### 2.3 Páginas de destino (das fichas)
-
-| Código | Destino | Fonte |
-|---|---|---|
-| Hub da prova | [URL-DO-HUB, CONFIRMAR] (C01, ainda não publicado) | calendário de conteúdo |
-| 68606 | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria | ficha |
-| 68610 | https://faculdade.ufape.com.br/produto/68610/pos-graduacao-dermatologia-veterinaria/v/sao-paulo | ficha |
-| 68608 | https://faculdade.ufape.com.br/produto/68608/pos-graduacao-hematologia-veterinaria/sao-paulo | ficha |
-| 707 | https://faculdade.ufape.com.br/produto/707/pos-graduacao-em-oftalmologia-veterinaria | ficha |
-| 68604 | https://faculdade.ufape.com.br/produto/68604/pos-graduacao-em-diagnostico-por-imagem-aplicado-a-clinica-medica-e-cirurgica-veterinaria | ficha |
-| 698 | [URL, CONFIRMAR], só depois de o site corrigir a data | pendência P4 do cmo |
-| Grupo 68666 | https://faculdade.ufape.com.br/produto/68666/grupo-de-estudo-clinica-medica-e-emergencia-de-caes-e-gatos/ | ficha |
-| 616 | https://faculdade.ufape.com.br/produto/616/imersao-avancada-em-anestesia-felina | ficha |
-| 700 | https://faculdade.ufape.com.br/produto/700/congresso-internacional-do-paciente-grave-multidisciplinar-ufape-foco-em-casos-clinicos-gravacao | ficha |
-| 202 | [URL, CONFIRMAR NO CATÁLOGO] (ficha em contexto/cursos/livres/202-simposio-internacional-de-coagulacao.md, não aberta nesta etapa) | catálogo |
-| Workshop | https://faculdade.ufape.com.br/neuro-summit/ (destino único, decisão da Ufape de 26/10/2026) | ficha do evento |
-| 573, 68614 | [URL, CONFIRMAR] (fichas não abertas nesta etapa) | catálogo |
-
-### 2.4 Teste de assunto
-
-- Cada edição traz 5 alternativas, variando entre benefício, curiosidade, direto, série e detalhe concreto. Dois seguem para teste, A contra B.
-- Métrica de decisão do teste: cliques únicos por entregue, não abertura (a abertura é estimada e falha com proteção de privacidade do leitor de e-mail). Descadastros e reclamações de spam são vetos: assunto vencedor em clique com mais descadastro não vence.
-- Base pequena: se a ferramenta não separar 2 grupos com tamanho suficiente [CONFIRMAR tamanho da base], o teste vira sequencial, e o resultado orienta a edição seguinte, nunca a atual.
-- Resultado registrado na tabela da seção 4.4. Nenhuma conclusão com amostra pequena.
-- Os assuntos têm de 40 a 80 caracteres. Assunto mais longo vale desde que o começo carregue o sentido (a notificação do celular corta o fim).
-
----
-
-## 3. As quatro edições de novembro de 2026
-
-Dados de curso, preço e data vêm do catálogo de 26/10/2026. O que está só em ficha ou em contexto de linha leva [CONFIRMAR NO CATÁLOGO] e só vai ao leitor depois da confirmação. As "travas de envio" de cada edição dizem o que fazer se o dado não chegar.
-
-Condição comum a todas as turmas da seção 2, repetida em cada tabela: "1ª mensalidade conforme a página do curso: a página informa pagamento com 30 dias de antecedência do início. Para quem entra agora, a forma exata é [CONFIRMAR com a secretaria]."
-
----
-
-### Edição 1: quinta-feira, 05/11/2026
-
-**Canal:** e-mail às 12h30, WhatsApp às 15h.
-**Linha e curso:** geral. Prova de bolsa (22 provas), Pós 68606, 68610, 68608 (e linhas condicionais 707, 68604, 698), workshop de 20 e 21/11.
-**Objetivo:** o leitor entende a prova de bolsa de 27/11 por inteiro e decide se vale fazer a da sua especialidade. Chamada principal: abrir o hub da prova.
-**Segmento (etapa da jornada):** toda a base com opt-in de e-mail; blocos por área, relação e praça (seção 1.6). Inscritos na prova veem a versão de logística no lugar da chamada.
-**Proporção:** cerca de 50% conteúdo e 50% oferta [SUPOSIÇÃO].
-
-**Assuntos (5; teste A contra C)**
-
-| # | Assunto | Tipo | Observação |
-|---|---|---|---|
-| A | Prova de bolsa de 27/11: as 11 bolsas de cada prova, uma a uma | direto | o e-mail lista as 11 bolsas e a regra completa |
-| B | Quanto custa tentar uma bolsa: R$ 100,00 e 11 bolsas por prova | benefício | conta inteira no e-mail |
-| C | Antes de pagar a inscrição da prova de bolsa, confira estas 5 perguntas | curiosidade | o e-mail traz exatamente 5 perguntas |
-| D | Decisão de rotina nº 1: vale fazer a prova da sua especialidade? | série | nome da newsletter no assunto |
-| E | As regras da prova de bolsa de 27/11 num e-mail só | benefício | evita abrir 22 páginas |
-
-Escolhidos para teste: A (direto) e C (curiosidade). Nenhum assunto usa prazo nem escassez.
-
-**Texto de pré-visualização:** Valor, data, bolsas, nota de corte, recurso e matrícula, num lugar só. Mais as turmas que abrem em novembro.
-
-**Rascunho do e-mail**
-
-> Olá, {{primeiro_nome}}.
->
-> **Gancho.** Antes de pagar a inscrição de uma prova de bolsa, vale ter a conta inteira à mão. Esta é a primeira edição da Decisão de Rotina, a newsletter da Faculdade UFAPE para médicos veterinários. Toda quinta, um assunto da sua rotina ou da sua decisão de se especializar, e o que abre na Ufape, com preço e regras à vista. Hoje: a prova de bolsa de 27/11.
->
-> **1. Decisão da semana: vale fazer a prova da sua especialidade?**
-> Cinco perguntas para responder antes de se inscrever (recurso útil):
-> 1. Qual caso da sua rotina você hoje encaminha e gostaria de resolver? Essa é a sua especialidade.
-> 2. Você consegue estar presencialmente em São Paulo ou em Goiânia no dia 27/11, das 9h às 13h? A prova é presencial.
-> 3. Você já olhou a turma dessa especialidade: início, módulos presenciais, parcelas e matrícula? A bolsa só ajuda se a turma cabe na sua rotina e no seu orçamento.
-> 4. Você sabe para qual turma a bolsa vale? [TRAVA 1: se a Ufape confirmar o destino, escrever aqui "A bolsa da prova de X vale para a turma Y"; se não, manter: "As páginas das provas ainda não dizem a turma de destino. Pergunte à secretaria antes de pagar a inscrição: (11) 97492-8443."]
-> 5. Passar da nota de corte garante bolsa? Não é a mesma coisa: a nota de corte é 7,0 (70% de acerto), são 11 bolsas por prova e o desempate é por análise de currículo.
->
-> **2. O que abre nas próximas semanas**
-> Pós-graduações com status aberto, todas semipresenciais, em São Paulo (módulos presenciais na sede, Av. 9 de Julho, 3939):
->
-> | Curso | Início | Turma e carga | Investimento |
-> |---|---|---|---|
-> | Pós-graduação em Gastroenterologia Veterinária | 07/11/2026 | IX, 500 h | 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00 |
-> | Pós-graduação em Dermatologia Veterinária | 28/11/2026 | V, 500 h | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
-> | Pós-graduação em Hematologia Veterinária | 28/11/2026 | VIII, 500 h | 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00 |
-> | [LINHA CONDICIONAL, TRAVA 2: apagar se a Ufape não informar a política de entrada em turma já iniciada] Pós-graduação em Oftalmologia Veterinária | 30/10/2026 (já iniciada) | VII, 600 h | 30x de R$ 1.590,00, total de R$ 47.700,00, matrícula de R$ 250,00 |
-> | [LINHA CONDICIONAL, TRAVA 2] Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | 31/10/2026 (já iniciada) | VI, 500 h | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
-> | [LINHA CONDICIONAL, TRAVA 3: só depois de o site corrigir a data] Pós-graduação em Ecocardiografia | [data da planilha, 28/11/2026] | III, 370 h | 18x de R$ 1.498,33, total de R$ 26.970,00, matrícula de R$ 250,00 |
->
-> Turma mínima de 20 alunos. A turma pode não ser formada: compre passagem e hotel só depois da confirmação. Pedido de reembolso da inscrição só é devido se a turma não for confirmada. 1ª mensalidade conforme a página do curso (30 dias de antecedência do início; para quem entra agora, confirme na secretaria [CONFIRMAR]). Links das turmas: L1 (68606), L2 (68610), L3 (68608), L4 (707), L5 (68604), L6 (698), listados na tabela de chamadas abaixo.
-> Também online, a partir de 25/11/2026: Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Curso livre: não confere diploma nem equivale a graduação ou pós-graduação. L7.
->
-> **3. Prova de bolsa e eventos**
-> *Prova de bolsa para a Pós-graduação em <sua especialidade>, 27/11/2026*
->
-> | Item | Regra |
-> |---|---|
-> | Provas | 22, sendo 19 em São Paulo e 3 em Goiânia (Anestesiologia, Cardiologia e Clínica Cirúrgica de Cães e Gatos) |
-> | Data e horário | 27/11/2026 (sexta-feira), das 9h às 13h [CONFIRMAR NO CATÁLOGO] |
-> | Formato | Presencial, com questões de múltipla escolha e dissertativas [CONFIRMAR NO CATÁLOGO] |
-> | Inscrição | R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão |
-> | Bolsas por prova | 11: 2 de 50% (monitoria), 4 de 25% e 5 de 10% [CONFIRMAR NO CATÁLOGO] |
-> | Nota de corte | 7,0 (mínimo de 70% de acerto) [CONFIRMAR NO CATÁLOGO] |
-> | Resultado | Por WhatsApp e/ou e-mail. Data: [CONFIRMAR] |
-> | Recurso | 2 dias úteis depois do resultado [CONFIRMAR NO CATÁLOGO] |
-> | Matrícula | Até 10 dias úteis depois do resultado [CONFIRMAR NO CATÁLOGO] |
-> | Bolsa | Não acumulativa e intransferível. Desempate por análise de currículo [CONFIRMAR NO CATÁLOGO] |
->
-> Todas as provas e a sua especialidade: **[BOTÃO: Ver as regras e se inscrever na prova]** (hub, L8).
->
-> *Workshop, 20 e 21/11* [BLOCO DO SEGMENTO anestesia, terapia intensiva e neurologia; para os demais, apagar]
-> Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia: sexta-feira teórica e sábado prático, 16 h, das 8h às 18h, na Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo. Presencial: R$ 1.250,00, com 30 vagas por ordem de inscrição. Só a teoria de sexta-feira, ao vivo e gravada: R$ 450,00. Parcelamento: [CONFIRMAR NO CATÁLOGO]. Aluno e ex-aluno Ufape têm 20% de desconto com o cupom SIMPNEUROMONIT, com comprovação do vínculo na secretaria (validade [CONFIRMAR]). L9.
->
-> **4. Pergunta do leitor**
-> Qual é a sua dúvida sobre a prova de bolsa ou sobre escolher uma pós? Responda este e-mail. Na próxima quinta respondemos algumas, sem nomes. Só publicamos a sua pergunta com a sua permissão.
->
-> Boa semana de plantão,
-> Equipe da Faculdade UFAPE
->
-> [RODAPÉ PADRÃO, seção 2.1]
-
-**Chamadas e UTM (edição 1)**
-
-| Id | Destino | Papel | UTM (campo utm_content) |
-|---|---|---|---|
-| L8 | Hub da prova | Principal (botão) | utm_campaign=provas-de-bolsa-2026-11-27, utm_medium=base, utm_content=nl01-hub |
-| L1 | 68606 | Secundária | utm_campaign=newsletter-vet-2026-11, utm_content=nl01-68606 |
-| L2 | 68610 | Secundária | utm_content=nl01-68610 |
-| L3 | 68608 | Secundária | utm_content=nl01-68608 |
-| L4, L5, L6 | 707, 68604, 698 | Secundárias, só se a trava liberar | utm_content=nl01-707, nl01-68604, nl01-698 |
-| L7 | Grupo 68666 | Secundária | utm_content=nl01-68666 |
-| L9 | Workshop | Secundária, só no segmento | utm_campaign=neuro-summit-2026, utm_medium=crm, utm_content=nl01-neuro |
-
-Todas com utm_source=email.
-
-**Follow-up para quem não abriu:** reenvio com o outro assunto do teste, na segunda 09/11 às 12h30 (3 dias depois, o fim de semana fica de fora) [SUPOSIÇÃO], só para quem não abriu nem clicou. Um reenvio no máximo. Não vale para quem pediu para sair. Dentro do teto de e-mails da semana.
-
-**Versão curta para WhatsApp (quinta, 15h, só opt-in, saída SAIR)**
-
-Primeira linha, alternativa A: "Oi! Saiu a Decisão de Rotina desta semana: a prova de bolsa de 27/11, com as 11 bolsas de cada prova."
-Primeira linha, alternativa B: "Oi, aqui é a equipe da Faculdade UFAPE. Reuni num lugar só as regras da prova de bolsa de 27/11."
-
-> {Primeira linha}
->
-> São 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%), inscrição de R$ 100,00 e nota de corte 7,0. Juntei as regras e cinco perguntas para fazer antes de se inscrever.
->
-> Está aqui: [L8 com utm_source=whatsapp, utm_content=nl01-hub-wa]
-> Para não receber mais, responda SAIR.
-
-**Travas de envio da edição 1**
-- TRAVA 1: destino das provas. Se a Ufape não responder até 04/11, a pergunta 4 usa o texto de orientação à secretaria (a pessoa do marketing aprova a frase, porque ela afirma que a página não informa o destino; pedido N5).
-- TRAVA 2: política de entrada em turma já iniciada (707, 68604). Sem resposta, as duas linhas saem.
-- TRAVA 3: data de 698 corrigida no site. Sem correção, a linha sai.
-- Hub (C01) publicado. Se não estiver, o botão leva a [URL de página que a Ufape indicar] e o texto "regras completas na secretaria"; sem URL, a edição não sai.
-- Regras da prova (formato, horário, bolsas, nota de corte, recurso, matrícula) conferidas e lançadas no catálogo. Linha que não for confirmada é apagada, e o e-mail diz "regras completas na página da prova". Nenhuma linha vai com o marcador [CONFIRMAR] ao leitor.
-- Prova de Felinos (68652) tem contradições na página (canal do resultado, prazo de matrícula de 10 ou 7 dias, composição da prova). A edição não cita Felinos por nome.
-- Provas sem destino definido (68652, 68649, 68653, 68655): a edição não lista especialidades por nome, só aponta o hub. Se a Ufape confirmar, o hub lista.
-- Opt-in, descadastro e política de privacidade conferidos (seção 8).
-- Aprovação humana registrada.
-
----
-
-### Edição 2: quinta-feira, 12/11/2026
-
-**Canal:** e-mail às 12h30, WhatsApp às 15h.
-**Linha e curso:** Pós, com a Pós-graduação em Dermatologia Veterinária (68610) como exemplo; 68608; grupo 68666; prova de bolsa; workshop.
-**Objetivo:** o leitor aprende a comparar pós-graduações por critérios que dá para conferir na página de cada turma. Chamada principal: abrir o guia "Como escolher uma pós-graduação" (C08, publicado em 12/11).
-**Segmento:** toda a base com opt-in; bloco de Dermatologia vale para todos (é exemplo); bloco de evento só para o segmento certo; praça Goiânia vê a nota sobre as turmas de Goiânia quando houver.
-**Proporção:** cerca de 70% conteúdo e 30% oferta [SUPOSIÇÃO].
-
-**Assuntos (5; teste B contra C)**
-
-| # | Assunto | Tipo | Observação |
-|---|---|---|---|
-| A | Como escolher uma pós: 7 critérios, com a Dermatologia de exemplo | direto | tabela de 7 critérios no e-mail |
-| B | Em dúvida entre duas especialidades? Compare nestes 7 critérios | benefício | mesma tabela |
-| C | O que se faz num módulo presencial de Dermatologia (e o que fica online) | curiosidade | o e-mail traz os módulos presenciais |
-| D | Pós EAD, semipresencial ou presencial: o que a Ufape tem aberto hoje | detalhe concreto | o e-mail diz que não há turma EAD aberta |
-| E | Decisão de rotina nº 2: antes de escolher a pós, olhe estes 7 pontos | série | |
-
-Escolhidos para teste: B (benefício) e C (curiosidade).
-
-**Texto de pré-visualização:** Carga prática, formato, docentes, parcelas, turma mínima, praça e prova de bolsa, com a turma de Dermatologia como exemplo.
-
-**Rascunho do e-mail**
-
-> Olá, {{primeiro_nome}}.
->
-> **Gancho.** Duas pós-graduações podem ter o mesmo nome de área e rotinas completamente diferentes na sua agenda. Hoje, sete critérios para comparar e, de exemplo, a turma de Dermatologia que começa em 28/11.
->
-> **1. Decisão da semana: como escolher uma pós-graduação**
-> Sete pontos que dá para conferir na página de qualquer turma (recurso útil):
->
-> | Critério | O que olhar | Exemplo: Pós-graduação em Dermatologia Veterinária, turma V |
-> |---|---|---|
-> | Carga prática | Quantos módulos são presenciais e o que se faz neles | 24 módulos, 7 presenciais. No módulo 5 (20 e 21/03/2027): exames dermatológicos ambulatoriais, técnicas de coleta e colorações, citopatologia e atendimento de casos clínicos [CONFIRMAR NO CATÁLOGO] |
-> | Formato | O que é online e o que é presencial | Semipresencial: aulas online ao vivo e gravadas, práticas presenciais na sede, sem transmissão das práticas [CONFIRMAR NO CATÁLOGO] |
-> | Docentes | Quantos, com qual titulação, e o que cada um ensina | 18 professores listados na página, com titulação [CONFIRMAR NO CATÁLOGO] |
-> | Parcelas | Número de parcelas, valor, total e matrícula | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
-> | Turma mínima | O mínimo de alunos e o que acontece se não fechar | Mínimo de 20 alunos. Passagem e hotel só depois da turma confirmada. Reembolso da inscrição só se a turma não for confirmada |
-> | Praça | Onde ficam os módulos presenciais | São Paulo, Av. 9 de Julho, 3939 |
-> | Prova de bolsa | Se existe, quantas bolsas e para qual turma | Há prova de bolsa de Dermatologia em 27/11 (11 bolsas). Para qual turma ela vale: [CONFIRMAR]; pergunte à secretaria |
->
-> Sobre o formato: hoje a Ufape não tem turma EAD aberta no catálogo. A turma de Dermatologia é semipresencial, e o cronograma pode mudar conforme a disponibilidade dos professores (a página avisa). Os critérios valem para comparar turmas da Ufape entre si e com qualquer outra opção que você esteja olhando, sem ranking.
-> **[BOTÃO: Ler o guia completo "Como escolher uma pós-graduação"]** (L1)
->
-> **2. O que abre nas próximas semanas**
->
-> | Curso | Início | Turma e carga | Investimento |
-> |---|---|---|---|
-> | Pós-graduação em Dermatologia Veterinária (São Paulo, semipresencial) | 28/11/2026 | V, 500 h | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
-> | Pós-graduação em Hematologia Veterinária (São Paulo, semipresencial) | 28/11/2026 | VIII, 500 h | 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00 |
->
-> Turma mínima de 20 alunos; compre passagem e hotel só depois da confirmação da turma. 1ª mensalidade conforme a página do curso (a página informa pagamento com 30 dias de antecedência do início; para quem entra agora, confirme na secretaria [CONFIRMAR]). Dermatologia: L2. Hematologia: L3.
-> Online, a partir de 25/11/2026: Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão. Curso livre: não confere diploma nem equivale a graduação ou pós-graduação. L4.
-> [BLOCO OPCIONAL, TRAVA 4: só com data confirmada] Curso Hands-On de Ecocardiografia Veterinária Básica, São Paulo, 28 h, data [CONFIRMAR: o catálogo diz 14/11/2026 e a visão de campanhas diz 29/11], R$ 2.350,00 à vista (Pix ou boleto) ou 10x de R$ 303,00 no cartão (R$ 3.030,00 no total, conta do agente). Curso livre: não confere diploma nem equivale a graduação ou pós-graduação. L5.
->
-> **3. Prova de bolsa e eventos**
-> A prova de bolsa é no dia 27/11, das 9h às 13h [CONFIRMAR NO CATÁLOGO], com inscrição de R$ 100,00 e 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%). Regras completas: L6 (hub).
-> [BLOCO DO SEGMENTO anestesia, terapia intensiva e neurologia; para os demais, apagar] Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia, em 8 dias (20 e 21/11, Unidade 2, Av. Tiradentes, 960, São Paulo). Presencial (16 h, 30 vagas por ordem de inscrição): R$ 1.250,00. Só a teoria de sexta-feira, ao vivo e gravada: R$ 450,00. Parcelamento: [CONFIRMAR NO CATÁLOGO]. Aluno e ex-aluno Ufape: 20% com o cupom SIMPNEUROMONIT, com comprovação do vínculo na secretaria (validade [CONFIRMAR]). L7.
->
-> **4. Pergunta do leitor**
-> Dúvida comum nas páginas dos cursos: "E se a turma não fechar?" [rótulo obrigatório enquanto não houver pergunta recebida; se houver, trocar pela pergunta recebida, sem nome e com permissão]
-> A turma mínima é de 20 alunos. Se não for formada, o pedido de reembolso do valor de inscrição é devido. Por isso a orientação é comprar passagem e hotel só depois de a turma estar confirmada, ou apenas uma semana antes do início das aulas. A data em que a turma é confirmada: [CONFIRMAR]. Mais dúvidas? Responda este e-mail.
->
-> Boa semana de plantão,
-> Equipe da Faculdade UFAPE
->
-> [RODAPÉ PADRÃO]
-
-**Chamadas e UTM (edição 2)**
-
-| Id | Destino | Papel | utm_content |
-|---|---|---|---|
-| L1 | Guia C08 [URL-DO-GUIA, CONFIRMAR] | Principal (botão) | nl02-guia (utm_campaign=newsletter-vet-2026-11) |
-| L2 | 68610 | Secundária | nl02-68610 |
-| L3 | 68608 | Secundária | nl02-68608 |
-| L4 | Grupo 68666 | Secundária | nl02-68666 |
-| L5 | 573 [URL, CONFIRMAR], só com a data | Secundária opcional | nl02-573 |
-| L6 | Hub da prova | Secundária | nl02-hub (campaign provas, medium base) |
-| L7 | Workshop | Secundária, só no segmento | nl02-neuro (campaign neuro-summit-2026, medium crm) |
-
-Todas com utm_source=email.
-
-**Follow-up para quem não abriu:** reenvio com o outro assunto do teste, segunda 16/11 às 12h30, só para quem não abriu nem clicou. Um reenvio no máximo.
-
-**Versão curta para WhatsApp (quinta, 15h, só opt-in, saída SAIR)**
-
-Primeira linha A: "Oi! Em dúvida entre duas especialidades? A Decisão de Rotina de hoje compara 7 critérios."
-Primeira linha B: "Oi, aqui é a equipe da Faculdade UFAPE. Separei 7 pontos para comparar pós-graduações, com a Dermatologia de exemplo."
-
-> {Primeira linha}
->
-> Carga prática, formato, docentes, parcelas, turma mínima, praça e prova de bolsa. É uma tabela curta, com os números de uma turma real como exemplo.
->
-> Guia completo: [L1 com utm_source=whatsapp, utm_content=nl02-guia-wa]
-> Para não receber mais, responda SAIR.
-
-**Travas de envio da edição 2**
-- Guia C08 publicado e URL definida. Sem o guia, o botão principal passa a ser a página da turma de Dermatologia (L2), e o assunto deixa de prometer "guia".
-- Dados de ficha de 68610 (7 módulos presenciais, módulo 5, 18 professores, práticas sem transmissão) lançados ou confirmados no catálogo. Sem a confirmação, apagar as células marcadas e manter só preço, parcelas, turma mínima e praça.
-- 698, 707 e 68604 não aparecem nesta edição.
-- Valor com cupom do workshop não aparece (conta depende da base de incidência [CONFIRMAR]).
-- Dúvida comum "E se a turma não fechar?": texto vem do contexto da linha e da ficha 68610; a data de confirmação da turma é [CONFIRMAR]; sem ela, a frase fica como está, sem data.
-- Prova 68646 (Dermatologia) e turma 68610: não escrever que a bolsa vale para a turma de 28/11 (a prova é em 27/11, um dia antes). Texto da célula "Prova de bolsa" depende da resposta da Ufape (pedido U5).
-- Opt-in, descadastro, aprovação humana.
-
----
-
-### Edição 3: quinta-feira, 19/11/2026
-
-**Canal:** e-mail às 12h30, WhatsApp às 15h.
-**Linha e curso:** Pós, com a Pós-graduação em Hematologia Veterinária (68608) como exemplo; workshop (começa amanhã, sexta 20/11, feriado nacional); prova de bolsa em 8 dias.
-**Objetivo:** o leitor entende como é um fim de semana de módulo, o que é online, o que é presencial e o que não é transmitido. Chamada principal: abrir a página da turma 68608.
-**Segmento:** toda a base; bloco de evento só para o segmento certo; Versão A da seção 1 só com revisor e autorização, até 16/11.
-**Proporção:** cerca de 70% conteúdo e 30% oferta [SUPOSIÇÃO].
-
-**Assuntos (5; teste A contra D)**
-
-| # | Assunto | Tipo | Observação |
-|---|---|---|---|
-| A | O que se faz num fim de semana de módulo: o roteiro de Hematologia | direto | roteiro por módulo no e-mail |
-| B | Primeiro fim de semana online, prática presencial depois: como funciona | detalhe concreto | o e-mail mostra a ordem real dos módulos |
-| C | Teoria online, prática presencial: o que não é transmitido | curiosidade | o e-mail diz que as práticas não são transmitidas |
-| D | Módulo a módulo: o que é online e o que é presencial numa pós semipresencial | benefício | |
-| E | Decisão de rotina nº 3: o que acontece no módulo presencial | série | |
-
-Escolhidos para teste: A (direto) e D (benefício).
-
-**Texto de pré-visualização:** O que é online, o que é presencial e o que não é transmitido, módulo por módulo, com a Pós-graduação em Hematologia Veterinária como exemplo.
-
-**Rascunho do e-mail**
-
-> Olá, {{primeiro_nome}}.
->
-> **Gancho.** "Semipresencial" quer dizer coisas diferentes em cada curso. Hoje, o roteiro real de uma turma que começa em 28/11, módulo por módulo: o que acontece online e o que só acontece na sede.
->
-> **1. Decisão da semana: o que se faz num fim de semana de módulo (Versão B)**
-> Exemplo: Pós-graduação em Hematologia Veterinária, turma VIII, 500 h, 24 módulos [CONFIRMAR NO CATÁLOGO o cronograma, que está na ficha].
->
-> | Módulo | Data | Formato | Assunto |
-> |---|---|---|---|
-> | 1 | 28 e 29/11/2026 | Online | Patologia clínica: interpretação de hemograma e de bioquímicos, testes sorológicos e PCR importantes na hematologia |
-> | 5 | 20 e 21/03/2027 | Online | Mielograma: indicações, interpretação e coleta, com casos clínicos |
-> | 6 | abril de 2027 (dias a confirmar) | Presencial | Coagulograma (TP, TTPa, TSMO e tromboelastograma) e coleta de mielograma |
-> | 13 | novembro de 2027 (dias a confirmar) | Presencial | Medicina transfusional: coleta e processamento de hemocomponentes e exames de triagem dos doadores |
-> | 22 | agosto de 2028 (dias a confirmar) | Presencial | Farmacologia e prova escrita |
->
-> Três coisas que o roteiro mostra e que ajudam a decidir:
-> 1. O primeiro fim de semana é online. A primeira prática presencial aparece no módulo 6.
-> 2. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. Quem viaja precisa planejar a presença.
-> 3. A avaliação é uma prova mensal on-line com 5 questões e uma prova de recuperação no fim, que pode ser substituída por estudo dirigido, aulas e seminários.
-> O cronograma e as palestras podem mudar conforme a disponibilidade dos professores e por força maior, e a Ufape avisa com antecedência. Pergunte à secretaria o que isso significa para a sua agenda.
-> [TROCA PARA A VERSÃO A, só com revisor devolvendo até 16/11: no lugar da tabela, o molde da seção 1.4 sobre um caso de Hematologia ou Patologia Clínica, com a tabela reduzida a 3 linhas.]
-> **[BOTÃO: Ver o cronograma completo da turma]** (L1, página do 68608)
->
-> **2. O que abre nas próximas semanas**
->
-> | Curso | Início | Turma e carga | Investimento |
-> |---|---|---|---|
-> | Pós-graduação em Hematologia Veterinária (São Paulo, semipresencial) | 28/11/2026 | VIII, 500 h | 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00 |
-> | Pós-graduação em Dermatologia Veterinária (São Paulo, semipresencial) | 28/11/2026 | V, 500 h | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
->
-> Turma mínima de 20 alunos; passagem e hotel só depois da confirmação da turma. 1ª mensalidade conforme a página do curso (a página informa pagamento com 30 dias de antecedência do início; para quem entra agora, confirme na secretaria [CONFIRMAR]). Hematologia: L1. Dermatologia: L2.
-> [BLOCO OPCIONAL, TRAVA 4: só com data confirmada] Curso Livre em Videotoscopia, São Paulo, presencial, 12 h, data [CONFIRMAR: o catálogo diz 28/11/2026 e a visão de campanhas diz 18/12], R$ 1.250,00 à vista (Pix ou boleto) ou 10x de R$ 175,00 no cartão (R$ 1.750,00 no total, conta do agente). Curso livre: não confere diploma nem equivale a graduação ou pós-graduação. L3.
->
-> **3. Prova de bolsa e eventos**
-> *Workshop de Neuromonitorização começa amanhã* [BLOCO DO SEGMENTO anestesia, terapia intensiva e neurologia; para os demais, apagar]
-> Sexta-feira, 20/11, é o dia teórico; sábado, 21/11, o dia prático, das 8h às 18h, na Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo (16 h no total). Presencial: R$ 1.250,00, com 30 vagas por ordem de inscrição. Só a teoria de sexta-feira, ao vivo e gravada: R$ 450,00 (não inclui o sábado prático). Se você ainda não se inscreveu, confira na página se as inscrições seguem abertas: [CONFIRMAR fim das inscrições]. Parcelamento: [CONFIRMAR NO CATÁLOGO]. Aluno e ex-aluno Ufape: 20% com o cupom SIMPNEUROMONIT, com comprovação do vínculo na secretaria (validade [CONFIRMAR]). L4.
-> *Prova de bolsa em 8 dias.* A prova é no dia 27/11, das 9h às 13h [CONFIRMAR NO CATÁLOGO]. Inscrição de R$ 100,00 e 11 bolsas por prova (2 de 50%, 4 de 25% e 5 de 10%). Regras completas: L5 (hub).
->
-> **4. Pergunta do leitor**
-> Dúvida comum nas páginas dos cursos: "O que é transmitido nos módulos?" [rótulo obrigatório enquanto não houver pergunta recebida]
-> As aulas teóricas são online, ao vivo e gravadas. As aulas presenciais e práticas não são transmitidas nem disponibilizadas. Em caso de dúvida sobre reposição de módulo, a regra é [CONFIRMAR]. Responda este e-mail com a sua pergunta.
->
-> Boa semana de plantão,
-> Equipe da Faculdade UFAPE
->
-> [RODAPÉ PADRÃO]
-
-**Chamadas e UTM (edição 3)**
-
-| Id | Destino | Papel | utm_content |
-|---|---|---|---|
-| L1 | 68608 | Principal (botão) e secundária na tabela | nl03-68608 (campaign newsletter-vet-2026-11) |
-| L2 | 68610 | Secundária | nl03-68610 |
-| L3 | 68614 [URL, CONFIRMAR], só com a data | Secundária opcional | nl03-68614 |
-| L4 | Workshop | Secundária, só no segmento | nl03-neuro (campaign neuro-summit-2026, medium crm) |
-| L5 | Hub da prova | Secundária | nl03-hub (campaign provas, medium base) |
-
-Todas com utm_source=email.
-
-**Follow-up para quem não abriu:** reenvio na segunda 23/11 às 12h30, com o outro assunto, só para quem não abriu nem clicou. O bloco do workshop sai do reenvio (o evento já passou).
-
-**Versão curta para WhatsApp (quinta, 15h, só opt-in, saída SAIR)**
-
-Primeira linha A: "Oi! Hoje a Decisão de Rotina mostra o que se faz em cada módulo da Hematologia, online e presencial."
-Primeira linha B: "Oi, aqui é a equipe da Faculdade UFAPE. O que é online e o que é presencial na Pós-graduação em Hematologia Veterinária."
-
-> {Primeira linha}
->
-> O primeiro fim de semana (28 e 29/11) é online, e as práticas presenciais não são transmitidas. Montei o roteiro dos módulos para você ver o que cabe na sua agenda.
->
-> Roteiro: [L1 com utm_source=whatsapp, utm_content=nl03-68608-wa]
-> Para não receber mais, responda SAIR.
-
-**Travas de envio da edição 3**
-- Cronograma de 68608 (módulos 1, 5, 6, 13 e 22, avaliação, aviso de mudança) lançado ou confirmado no catálogo. Sem a confirmação, a tabela sai e a seção 1 vira "o que perguntar à secretaria antes de escolher uma turma semipresencial", com os mesmos sete critérios da edição 2 em versão curta.
-- Versão A (C17): só com revisor nomeado e autorização, devolvida até 16/11. Sem retorno, fica a Versão B (plano B do C17).
-- Bloco de evento: se as inscrições já tiverem fechado (data [CONFIRMAR]), o bloco vira "amanhã começa" sem chamada de compra. A data provisória de pausa do presencial é 19/11 no fim do dia [SUPOSIÇÃO do briefing do evento].
-- 20/11 é feriado nacional e dia do workshop: não enviar a newsletter nesse dia. A secretaria no feriado: [CONFIRMAR]; se confirmado, incluir uma linha.
-- Parcelamento do workshop e validade do cupom: se não confirmados até 18/11, o bloco do evento mostra preço sem parcelamento e leva ao link, com o aviso de aprovação humana do que falta.
-- Opt-in, descadastro, aprovação humana.
-
----
-
-### Edição 4: quinta-feira, 26/11/2026
-
-**Canal:** e-mail às 12h30, WhatsApp às 15h.
-**Linha e curso:** prova de bolsa (22 provas), Pós 68610 e 68608 (começam sábado, 28/11), livre 616, gravados 700 e 202.
-**Objetivo:** o leitor chega à prova de amanhã sabendo horário, local, o que levar e o que acontece depois do resultado. Chamada principal: abrir o hub da prova.
-**Segmento:** toda a base. Inscritos na prova recebem a versão de logística, sem chamada de inscrição. Goiânia tem local próprio [CONFIRMAR].
-**Proporção:** cerca de 50% conteúdo e 50% oferta [SUPOSIÇÃO].
-
-**Assuntos (5; teste A contra C)**
-
-| # | Assunto | Tipo | Observação |
-|---|---|---|---|
-| A | A prova de bolsa é amanhã: horário, endereço, o que levar e o que vem depois | direto | o e-mail traz tudo isso |
-| B | Roteiro do dia da prova de bolsa e dos prazos de resultado, recurso e matrícula | benefício | |
-| C | Prova de bolsa, 27/11: o que levar, o que não levar e o que acontece depois | curiosidade | o e-mail lista o que levar e o que não levar |
-| D | Decisão de rotina nº 4: como se organizar para a prova de amanhã | série | |
-| E | Prova de bolsa de amanhã: 9h às 13h, documento com foto e sem celular | detalhe concreto | |
-
-Escolhidos para teste: A (direto) e C (curiosidade).
-
-**Texto de pré-visualização:** Horário, local, documentos, o que não levar e os prazos de resultado, recurso e matrícula.
-
-**Rascunho do e-mail**
-
-> Olá, {{primeiro_nome}}.
->
-> **Gancho.** A prova de bolsa é amanhã, sexta-feira, 27/11. A data não mudou: este e-mail só junta, num lugar, o que você precisa saber para chegar organizado e o que acontece depois.
->
-> **1. Decisão da semana: o roteiro do dia da prova (Versão B)**
-> Se você já se inscreveu, este bloco é seu. Se ainda não, veja na página se as inscrições seguem abertas: [CONFIRMAR prazo de inscrição; sem a informação, não escrever prazo].
->
-> | Item | O que vale |
-> |---|---|
-> | Data e horário | 27/11/2026, das 9h às 13h [CONFIRMAR NO CATÁLOGO] |
-> | Local | São Paulo: Av. 9 de Julho, 3939, esquina com Honduras, 765, Jardim Paulista. Goiânia: [CONFIRMAR o endereço] |
-> | Leve | Documento com foto [CONFIRMAR NO CATÁLOGO] |
-> | Não leve | Celular e relógio não são permitidos no dia da prova [CONFIRMAR NO CATÁLOGO] |
-> | Formato | Presencial, com questões de múltipla escolha e dissertativas [CONFIRMAR NO CATÁLOGO] |
-> | Nota de corte | 7,0 (mínimo de 70% de acerto) [CONFIRMAR NO CATÁLOGO] |
-> | Resultado | Por WhatsApp e/ou e-mail. Data: [CONFIRMAR] |
-> | Recurso | 2 dias úteis depois do resultado [CONFIRMAR NO CATÁLOGO] |
-> | Matrícula | Até 10 dias úteis depois do resultado [CONFIRMAR NO CATÁLOGO] |
-> | Bolsas | 11 por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Não acumulativa e intransferível. Desempate por análise de currículo [CONFIRMAR NO CATÁLOGO] |
->
-> Dúvida de última hora sobre a sua prova: secretaria, (11) 97492-8443 (WhatsApp) ou (11) 5054-1204, de segunda a sexta, das 9h às 18h.
-> **[BOTÃO: Ver o hub da prova com o roteiro e as regras]** (L1)
->
-> **2. O que abre nas próximas semanas**
->
-> | Curso | Início | Turma e carga | Investimento |
-> |---|---|---|---|
-> | Pós-graduação em Dermatologia Veterinária (São Paulo, semipresencial) | sábado, 28/11/2026 | V, 500 h | 30x de R$ 1.000,00, total de R$ 30.000,00, matrícula de R$ 250,00 |
-> | Pós-graduação em Hematologia Veterinária (São Paulo, semipresencial) | sábado, 28/11/2026 | VIII, 500 h | 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00 |
->
-> O primeiro fim de semana dessas duas turmas é online. Turma mínima de 20 alunos; passagem e hotel só depois da confirmação da turma. 1ª mensalidade conforme a página do curso (a página informa pagamento com 30 dias de antecedência do início; para quem entra agora, confirme na secretaria [CONFIRMAR]). Dermatologia: L2. Hematologia: L3. A prova de amanhã não indica, nas páginas, a turma de destino da bolsa: pergunte à secretaria [TRAVA 1].
-> Em 05/12/2026: Imersão Avançada em Anestesia Felina, 12 h, R$ 990,00 à vista (Pix ou boleto) ou 5x de R$ 240,00 no cartão (R$ 1.200,00 no total). Modalidade: [CONFIRMAR NO CATÁLOGO] (o catálogo traz "presencial e online" e "on-line"). Curso livre: não confere diploma nem equivale a graduação ou pós-graduação. L4.
->
-> **3. Prova de bolsa e eventos**
-> O workshop de neuromonitorização foi em 20 e 21/11. Duas gravações de eventos seguem à venda o ano todo:
-> - Congresso Internacional do Paciente Grave Multidisciplinar UFAPE, Foco em Casos Clínicos (gravação): R$ 780,00 à vista (Pix ou boleto) ou 10x de R$ 98,00 no cartão (R$ 980,00 no total). L5.
-> - Simpósio Internacional de Coagulação (online): R$ 285,00 à vista (Pix ou boleto) ou 6x de R$ 78,00 no cartão (R$ 468,00 no total). L6.
-> Eventos gravados: não conferem diploma nem equivalem a graduação ou pós-graduação.
->
-> **4. Pergunta do leitor**
-> Dúvida comum: "Quando sai o resultado da prova?" [rótulo obrigatório enquanto não houver pergunta recebida]
-> O resultado é divulgado por WhatsApp e/ou e-mail, na data [CONFIRMAR]. A partir dele, são 2 dias úteis para recorrer e até 10 dias úteis para a matrícula [CONFIRMAR NO CATÁLOGO]. Responda este e-mail com a sua dúvida.
->
-> Boa prova e boa semana de plantão,
-> Equipe da Faculdade UFAPE
->
-> [RODAPÉ PADRÃO]
-
-**Chamadas e UTM (edição 4)**
-
-| Id | Destino | Papel | utm_content |
-|---|---|---|---|
-| L1 | Hub da prova | Principal (botão) | nl04-hub (campaign provas, medium base) |
-| L2 | 68610 | Secundária | nl04-68610 (campaign newsletter-vet-2026-11) |
-| L3 | 68608 | Secundária | nl04-68608 |
-| L4 | 616 | Secundária | nl04-616 |
-| L5 | 700 | Secundária | nl04-700 |
-| L6 | 202 [URL, CONFIRMAR] | Secundária | nl04-202 |
-
-Todas com utm_source=email.
-
-**Follow-up:** sem reenvio. O e-mail é de véspera; um reenvio perderia o sentido. A mensagem de WhatsApp (abaixo) cobre quem não abriu, e a mensagem de serviço de manhã da prova é separada, para inscritos (C25).
-
-**Versão curta para WhatsApp (quinta, 15h, só opt-in, saída SAIR)**
-
-Primeira linha A: "Oi! A prova de bolsa é amanhã, 27/11, das 9h às 13h. Mandei o roteiro do dia."
-Primeira linha B: "Oi, aqui é a equipe da Faculdade UFAPE. Roteiro da prova de bolsa de amanhã: local, horário e o que levar."
-
-> {Primeira linha}
->
-> Está lá o endereço, o documento com foto, o que não levar e como funcionam resultado, recurso e matrícula. Se tiver dúvida de última hora, a secretaria responde de segunda a sexta, das 9h às 18h.
->
-> Roteiro: [L1 com utm_source=whatsapp, utm_content=nl04-hub-wa]
-> Para não receber mais, responda SAIR.
-
-**Travas de envio da edição 4**
-- Horário, local (incluindo Goiânia), documento, regra de celular e relógio, formato e prazos conferidos no catálogo. Linha não confirmada sai, e o e-mail diz "regras completas na página da prova".
-- Prazo de inscrição desconhecido: o e-mail nunca escreve "inscrições até hoje" nem "últimas horas".
-- Data e canal do resultado: [CONFIRMAR]. Sem a data, a linha diz só o canal e os prazos depois do resultado.
-- "Black Friday" fora do e-mail e do WhatsApp.
-- Se o hub não estiver publicado ou se o local de Goiânia estiver errado na página (a ficha 68640 mostra o endereço de São Paulo), a edição não cita endereço de Goiânia.
-- 616: modalidade [CONFIRMAR NO CATÁLOGO]. Sem a confirmação, a linha de 616 sai.
-- 202: URL e ficha conferidas. Sem elas, a linha sai.
-- Opt-in, descadastro, aprovação humana.
-
----
-
-## 4. Métricas sem urgência falsa
-
-Sem meta numérica agora: não existem lista, taxa de abertura nem histórico (base, ferramenta e linha de base são [CONFIRMAR]). As quatro edições de novembro formam a linha de base, como o calendário de conteúdo já define. Nenhum número abaixo é meta.
-
-### 4.1 O que se mede
-
-| # | Métrica | O que diz | Fonte | Limite |
+| Semana | E-mails de campanha já previstos (pior caso) | WhatsApp de campanha já previstos (pior caso) | Newsletter | Leitura contra o teto |
 |---|---|---|---|---|
-| M1 | Cliques únicos por entregue, por edição e por seção (utm_content) | Se a seção entrega o que promete | Ferramenta de e-mail e relatório por UTM [CONFIRMAR] | Mede clique, não decisão |
-| M2 | Cliques no hub da prova por edição e inscrições na prova com origem "newsletter" | Se a newsletter leva à prova | UTM e a pergunta de origem no formulário da prova (pedido E8 do calendário de conteúdo) | Auto-relato na pergunta de origem. Não atribui matrícula a uma edição |
-| M3 | Respostas e perguntas recebidas por edição | Interesse e dúvida real; alimenta a seção 4 e os FAQs | Caixa de resposta, lida por humano, sem copiar dado pessoal | Qualitativo |
-| M4 | Descadastros por mil entregues e reclamações de spam | Cansaço da base e risco de entrega | Ferramenta de e-mail | Descadastro alto vale mais do que clique alto (regra 7 da seção 1.5) |
-| M5 | Falhas de entrega e e-mail inválido | Higiene da base | Ferramenta | Só serve após limpeza inicial |
-| M6 | WhatsApp: respostas, cliques no link único, "SAIR" por mil enviados | Se o canal incomoda ou ajuda | Registro do CRM ou da API [CONFIRMAR] | Leitura (visto) não é métrica de decisão |
-| M7 | Cliques por tipo de oferta (turma, livre, gravado, workshop) | O que a base procura | UTM de cada link | Sem atribuição causal |
-| M8 | Matrículas e inscrições em prova que informaram a origem newsletter (contagem somada) | Resultado de negócio, indireto | CRM [CONFIRMAR], agregado por turma e prova | Nunca diz que "a newsletter vendeu"; diz "X informaram a origem newsletter" |
-| M9 | Cumprimento da proporção (palavras de conteúdo e de oferta por edição) | Se a regra da seção 1.5 foi seguida | Contagem do qa-de-marketing | Métrica de processo |
-| M10 | Edições enviadas no dia e hora previstos; pergunta do leitor respondida no prazo | Se a rotina cabe na capacidade | Planilha do cmo | Processo |
+| 27/10 a 01/11 | Reta final da Pós 707 e 68604 (28/10, só nas áreas dessas turmas); workshop M1 ou M2 (30/10, 9h) | Reta final da Pós 707 e 68604 e 68665 (29/10, só nas áreas); workshop M1 e M2 por WhatsApp em 30/10 só para quem não tem opt-in de e-mail | não | Dentro do teto, com 1 mensagem de campanha por dia |
+| 02 a 08/11 | Provas M2 ou M4 (03/11); workshop M10 (05/11, 9h). Suprimidos por D3: follow-up do workshop de 03/11 e provas M6 (05/11) | Provas M1 ou M3 (04/11); provas M5 (06/11). Suprimido por D3: follow-up do workshop de 04/11 | não | No teto (2 e 2) sem a newsletter. Em S2 de Gastroenterologia, o P2 de 68606 ocupa 05/11 (e-mail) e 06/11 (WhatsApp) |
+| 09 a 15/11 | Provas M7 (10/11); workshop M3 por e-mail (sáb 14/11, 9h). Suprimidos por D3: follow-up de M10 do workshop (09/11) e reenvio das provas (12/11) | até 2 de Livres em 09, 11 ou 13/11, pela área | não | No teto de e-mail sem a newsletter. Por isso a edição 1 não sai em 12/11 |
+| 16 a 22/11 | Workshop, follow-up de M3 (16/11, 9h, só quem não abriu) | Workshop M3 por WhatsApp (ter 17/11, 10h; passou de 16/11 para 17/11 por D3) | **Ed. 1: e-mail qua 18/11, 10h; WhatsApp qui 19/11, 14h** | 2 e-mails (16 e 18/11) e 2 WhatsApp (17 e 19/11), dentro do teto, com 1 mensagem de campanha por dia: 16/11 só e-mail, 17/11 só WhatsApp, 18/11 só e-mail, 19/11 só WhatsApp. Véspera (M5, 19/11), dia 1 (M6, 20/11) e dia 2 (M7, 21/11) do workshop são serviço a inscritos e não contam. 20 e 21/11 sem campanha de nenhuma linha |
+| 23 a 29/11 | Provas M8 (23/11; às 16h para participante do workshop, que recebe o M8 de serviço do workshop às 9h); workshop M9 (qua 25/11, 9h, só participantes) | Provas M9 (24/11). Workshop M9 por WhatsApp (25/11, 10h) só para participante sem opt-in de e-mail (D9) | não | No teto. Suprimidos: reenvio das provas de 25/11 para participante do workshop; toda campanha em 26 e 27/11 para a base das provas. A edição de 26/11 da Pós (C24) sai: a véspera vai aos inscritos pela M12 (serviço) |
+| 30/11 a 06/12 | Mensagens de resultado das provas (M16 a M20, serviço fora do teto, D4) | 616 T3 e T4 (30/11 e 02/12, só A1 e A13) | **Ed. 2: e-mail qui 03/12, 10h; WhatsApp sex 04/12, 10h, se couber** | 1 e-mail de newsletter. O WhatsApp de 04/12 é suprimido para quem já tem os 2 toques com data da semana (616 T3 e T4), pela fila D2 |
+| 14 a 20/12 | P5 lote 2 da Pós (só áreas) | P5 (só áreas) | Ed. 3: e-mail qui 17/12, 10h | Suprimida para quem já tem 2 e-mails com data na semana (fila D2) |
+| 04 a 10/01 | P5 da Pós, retomada das turmas de março | P5 | Ed. 4: e-mail qui 07/01/2027, 10h | Suprimida para quem já tem 2 e-mails com data na semana (fila D2) |
 
-### 4.2 O que não se faz
+Regras para a ferramenta e o CRM (fila D2 do cmo, que substitui as regras de supressão da versão 2):
+1. Ordem da fila: (1) serviço de qualquer linha, fora do teto; (2) toque principal de cada campanha com data; (3) entre toques principais no mesmo canal e na mesma semana, vence o de data mais próxima, e no empate a maior nota GUT; (4) follow-ups e reenvios; (5) nutrição, onde está a newsletter, junto com a rotação dos contínuos; (6) reativação.
+2. A newsletter só sai para o contato se, depois dos itens 1 a 4 da fila, ainda couber no teto da semana naquele canal e o dia não tiver outra mensagem de campanha para ele, em qualquer canal.
+3. O que é suprimido não acumula: o contato recebe a edição seguinte. A newsletter nunca muda de dia por contato.
 
-1. Não se mede nem se otimiza "senso de urgência". Não há contador, não há prazo criado pela peça.
-2. Abertura não decide nada sozinha. Entra como indicador de entrega, com a ressalva de que é estimada.
-3. Nenhum assunto vence um teste por clique se aumentar descadastro ou reclamação.
-4. Sem meta numérica por edição até haver as 4 semanas de linha de base. Depois, metas relativas (a melhor edição contra a mediana), não contra um número inventado.
-5. Nenhum dado pessoal em planilha de medição: contagens somadas por edição, seção, turma e prova.
-
-### 4.3 Rotina de revisão
-
-- Toda segunda-feira (02/11, 09/11, 16/11, 23/11, 30/11), junto com a revisão do cmo: o que cada seção trouxe de clique, de pergunta e de inscrição informada; o que mantém, ajusta ou corta. Pergunta fixa: o leitor encontrou o que o assunto prometeu?
-- Fim de novembro: relatório curto de 300 palavras no máximo, com a linha de base, os resultados dos testes de assunto, a proporção realizada e a decisão de dezembro (manter o dia, testar horário, ajustar segmentos).
-- Este é o insumo do próximo agente, o otimizacao-de-mensagens.
-
-### 4.4 Registro de testes (modelo, a preencher depois do envio)
-
-| Edição | Assunto A | Assunto B | Divisão | Cliques únicos A e B | Descadastros A e B | Conclusão | Amostra suficiente |
-|---|---|---|---|---|---|---|---|
-| 1 (05/11) | A (direto) | C (curiosidade) | [CONFIRMAR] | [preencher] | [preencher] | [preencher] | [preencher] |
-| 2 (12/11) | B (benefício) | C (curiosidade) | [CONFIRMAR] | [preencher] | [preencher] | [preencher] | [preencher] |
-| 3 (19/11) | A (direto) | D (benefício) | [CONFIRMAR] | [preencher] | [preencher] | [preencher] | [preencher] |
-| 4 (26/11) | A (direto) | C (curiosidade) | [CONFIRMAR] | [preencher] | [preencher] | [preencher] | [preencher] |
-
-Primeira linha de WhatsApp: mesmo teste A contra B por edição, medido por clique no link único e por "SAIR". Se a lista de transmissão não permitir dividir a base, a alternativa A vai em duas edições e a B nas outras duas, e a comparação é fraca (registrar como tal).
+A fila e o teto são decisão do cmo (D1 e D2); os números do teto são [SUPOSIÇÃO] até a Ufape confirmar (R1 do cmo). O CRM aplica a fila por contato (encomenda ao arquiteto-de-fluxos).
 
 ---
 
-## 5. Fluxo de produção de cada edição (proposta)
+## 4. Edição 1: "Antes de escolher uma pós, faça estas 7 perguntas" (qua 18/11/2026)
 
-Prazos de referência para o time ajustar, a partir do fluxo do calendário de conteúdo [SUPOSIÇÃO]:
+### 4.1 Ficha da mensagem (templates/mensagem.md)
 
-| Dia | O que acontece |
-|---|---|
-| D-7 (quinta anterior) | Briefing da edição aprovado: tema, itens da seção 2, bloco de evento por segmento |
-| D-5 | Rascunho pronto (e-mail e WhatsApp), com travas listadas |
-| D-4 | Resposta da Ufape às travas de dado (catálogo, destino, política) |
-| D-3 | Revisão docente da Versão A, se houver; revisão da regulação se a seção 1 tocar em regra legal |
-| D-2 | qa-de-marketing (auditoria 07 e conformidade) e editor |
-| D-1 | Aprovação humana de e-mail e de WhatsApp em massa |
-| D (quinta) | 12h30 e-mail; 15h WhatsApp |
-| D+1 a D+3 | Leitura de cliques, respostas e descadastros; reenvio quando previsto; pergunta do leitor tratada |
+- **Canal:** e-mail e WhatsApp
+- **Linha de negócio e curso:** geral (Pós como ideia principal; Livres e Eventos na agenda)
+- **Objetivo:** levar ao guia "Como escolher uma pós-graduação em Medicina Veterinária" (C08). Métrica: cliques no botão e inscrições ou matrículas com origem informada.
+- **Segmento:** base com consentimento de e-mail (seção 2.1), em qualquer etapa antes da matrícula; alunos e ex-alunos com consentimento também recebem (a agenda traz o cupom do workshop).
+- **Data e horário de envio:** e-mail na qua 18/11/2026, 10h. WhatsApp na qui 19/11/2026, 14h. Motivo: 1 mensagem de campanha por dia (o e-mail sai em 18/11); 19/11 é o último dia útil da semana com WhatsApp de campanha, porque 20/11 é feriado e 20 e 21/11 ficam sem campanha de nenhuma linha; o WhatsApp de campanha do workshop nessa semana é o M3 de 17/11 (D3 do cmo), e a véspera do workshop (M5, 19/11, 10h) é serviço a inscritos, por isso a newsletter vai às 14h, longe dela.
+- **Opt-in de WhatsApp confirmado:** só para [opt_in_whatsapp] igual a sim.
+- **Template aprovado pela Meta:** [CONFIRMAR nome] (categoria marketing; variável: link).
+- **Forma de sair:** descadastro com um clique no rodapé do e-mail; "responda SAIR" no WhatsApp.
+- **Follow-up para quem não abriu:** nenhum reenvio. A newsletter não persegue: quem não abriu recebe a edição seguinte.
 
-Capacidade: uma edição pede cerca de 6 horas do time (e-mail 3 h, WhatsApp 1 h, pergunta do leitor 1 h, medição 1 h) [SUPOSIÇÃO, sem dado do time]. Isso é um pouco acima do que o Nível 1 do calendário de conteúdo reserva para e-mail e WhatsApp (2 h cada, 4 h), e a diferença sai da peça de WhatsApp, que passa de 2 textos para 1 por semana. Horas do time por semana: [CONFIRMAR].
+### 4.2 Assuntos e pré-visualização
+
+Opções escritas com a skill assuntos-de-email (direto, benefício, pergunta e curiosidade); ficam as três que a mensagem cumpre por inteiro.
+
+| | Assunto | Tipo | Por que fica |
+|---|---|---|---|
+| A (teste) | 7 perguntas para fazer antes de escolher uma pós | Direto | Entrega exatamente o corpo do e-mail |
+| B (teste) | Como comparar duas pós-graduações sem olhar só a área | Benefício | Fala da dúvida real de quem compara; sem promessa |
+| C (reserva) | Pós, curso prático ou evento: o que faz sentido agora? | Pergunta | O bloco "e se o que você precisa é uma técnica?" responde |
+
+Cortados: assuntos com "não perca", "antes que acabe", "vagas", "bolsa de 50%" e "prova é já", porque a mensagem não cumpre ou cria urgência.
+
+**Texto de pré-visualização:** Carga prática, formato, docentes, preço inteiro, turma mínima, cidade e prova de bolsa. E a agenda de novembro.
+
+### 4.3 Rascunho do e-mail
+
+> **Antes de escolher uma pós, faça estas 7 perguntas**
+>
+> Olá,
+>
+> Na Faculdade UFAPE, a maior parte das pós-graduações é semipresencial: aulas online, um módulo por mês em fim de semana e módulos práticos presenciais, por cerca de 2 anos. É tempo e investimento demais para decidir só pelo nome da área.
+>
+> Separamos as perguntas que ajudam a comparar qualquer pós-graduação, inclusive as nossas:
+>
+> 1. **Quanto é prática presencial?** Quantos módulos são presenciais e o que se faz em cada um.
+> 2. **O que é online e o que é presencial?** E se as aulas práticas são transmitidas ou não.
+> 3. **Quem dá aula?** Nome e titulação de cada docente, na página da turma.
+> 4. **Quanto custa, inteiro?** Número de parcelas, valor da parcela, total e matrícula.
+> 5. **Qual é a turma mínima?** E a partir de quando é seguro comprar passagem e hotel.
+> 6. **Onde são os módulos?** Cidade e endereço, para calcular a viagem.
+> 7. **Existe prova de bolsa?** Quantas bolsas, de quanto e com quais regras.
+>
+> [Botão: **Leia o guia completo para escolher sua pós**]
+>
+> **E se o que você precisa agora é uma técnica?**
+> Nem toda dúvida pede uma especialização. Para treinar um procedimento ou um exame, existem cursos livres práticos de 1 a 3 dias, cursos online gravados e minicursos online de 6 a 8 h. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
+>
+> **Agenda de novembro**
+>
+> - **20 e 21/11/2026, Workshop Brasileiro de Neuromonitorização.** São Paulo, Av. Tiradentes, 960 (Unidade 2). Presencial, teórico e prático, 16 h, 30 vagas: preço e formas de pagamento na página do evento [CONFIRMAR NO CATÁLOGO o parcelamento do presencial; até lá, sem valor no e-mail]. Transmitido e gravado, apenas teórico: R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão. Aluno e ex-aluno Ufape: 20% de desconto com o cupom SIMPNEUROMONIT, com vínculo comprovado na secretaria. Evento não confere diploma e não equivale a graduação ou pós-graduação.
+> - **25/11/2026, Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos.** Online. R$ 100,00 à vista ou 1x de R$ 100,00 no cartão. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
+> - **27/11/2026, provas de bolsa de estudos da Pós-graduação.** Online, por especialidade, para turmas de São Paulo e de Goiânia (cada prova diz o campus da turma). Inscrição de R$ 100,00. Cada prova tem 11 bolsas: 2 de 50% (com monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. A bolsa não é acumulativa e é intransferível. Prazos de recurso e de matrícula: os da página de cada prova.
+> - **28/11/2026, início de duas turmas em São Paulo, semipresenciais, 500 h.** Pós-graduação em Dermatologia Veterinária (turma V): 30x de R$ 1.000,00, total de R$ 30.000,00, mais matrícula de R$ 250,00. Pós-graduação em Hematologia Veterinária (turma VIII): 30x de R$ 1.180,00, total de R$ 35.400,00, mais matrícula de R$ 250,00. A turma só é confirmada com o número mínimo de alunos: compre passagem e hotel depois da confirmação.
+> - **28/11/2026, Curso Livre em Videotoscopia.** São Paulo, presencial, 12 h. R$ 1.250,00 à vista ou 10x de R$ 175,00 no cartão (R$ 1.750,00 no total). Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
+>
+> Dúvidas sobre qualquer data: secretaria pelo WhatsApp (11) 97492-8443, pelo telefone (11) 5054-1204 ou por duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h.
+>
+> Até a próxima edição,
+> Equipe da Faculdade UFAPE
+>
+> [Rodapé da seção 2.3]
+
+Contagem: cerca de 540 palavras no corpo, com a agenda, dentro do tamanho da seção 1.1. Se itens da agenda saírem pelos portões da seção 4.4, o texto encurta.
+
+### 4.4 Portões de cada trecho (o texto só vai à aprovação final com estes itens fechados)
+
+| Trecho | Fonte | Portão | Se não fechar |
+|---|---|---|---|
+| Parágrafo de abertura (semipresencial, 1 módulo por mês, cerca de 2 anos) | contexto/pos-graduacao.md, "Formato típico" | Duração e módulos variam por curso [CONFIRMAR NO CATÁLOGO por turma]; por isso "a maior parte" e "cerca de" | Mantém o texto; não cita turma |
+| As 7 perguntas | Pilar P3 e critérios do guia C08 (estratégia de conteúdo da Pós) | Nenhuma afirmação clínica; [REVISÃO REGULAÇÃO] nos critérios legais do guia, não neste resumo | - |
+| Botão | Guia C08, publicação prevista em 12/11 | URL [CONFIRMAR] e guia publicado antes de 18/11 | Plano B: botão "Veja as turmas de pós-graduação abertas" para a listagem de turmas [CONFIRMAR URL]; o assunto A continua válido, porque as 7 perguntas estão no corpo |
+| Bloco de curso livre | contexto/cursos-livres.md (formatos e regra de diploma) | "1 a 3 dias" e "6 a 8 h" são da tabela de formatos do contexto e do catálogo (minicursos de 6 a 8 h; 669 tem 6 h, catálogo, seção 5); frase única D13 do cmo | - |
+| Workshop | Catálogo, seções 4 e 9 | Parcelamento do presencial [CONFIRMAR NO CATÁLOGO] (pendência EV-5 do plano de Eventos); transmitido com o texto do catálogo, seção 4 (R$ 450,00 à vista, Pix ou boleto, ou 1x de R$ 450,00 no cartão); a pendência real do transmitido é o status "verificar" do produto 68634 no catálogo, seção 4 [CONFIRMAR]; validade do cupom e se vale para ex-aluno de curso livre (G7) [CONFIRMAR]; nenhuma vaga restante citada | Sem parcelamento confirmado, a linha do presencial sai sem preço (preço só na página de destino), como está no texto da versão 2. Com o parcelamento confirmado, entra o valor de R$ 1.250,00 com as condições completas. Sem o 68634 confirmado, a linha do transmitido sai. Sem a regra do cupom, a frase do cupom sai |
+| Grupo 68666 | Catálogo, seção 7 | Período que os R$ 100,00 cobrem (G5) [CONFIRMAR NO CATÁLOGO]; regra de desistência e reembolso dita antes da compra (Livres, aposta 3 e U9) [CONFIRMAR NO CATÁLOGO]; carga horária vazia no catálogo, por isso não aparece | Item sai da agenda |
+| Provas de bolsa | Catálogo, seção 3 (data, campus, preço, status); regras das páginas das provas em contexto/pos-graduacao.md | Vale a regra escrita na ficha de cada prova (decisão 11), por isso o texto não cita prazo de matrícula: fichas com regra interna contraditória (U1 do cmo); prova online, local não importa, campus dito (decisão 11); como é o acesso online [CONFIRMAR, U2]; público elegível [CONFIRMAR]; turma de destino de cada prova [CONFIRMAR, U4]; provas 68641, 68642 e 68656 não são citadas; data do resultado [CONFIRMAR, U3] | Sem as regras confirmadas, o item fica só com data, campus, preço e "regras completas na página de cada prova" (plano B de C01) |
+| Turmas 68610 e 68608 | Catálogo, seção 2 (status "aberto") | Se as turmas ainda aceitam matrícula em 18/11, 10 dias antes do início e depois da 1ª mensalidade prevista para 30 dias antes [CONFIRMAR]; turma mínima de 15 alunos (decisão 11; algumas páginas de curso ainda dizem 20 e serão corrigidas), por isso o texto não diz o número até a página ser corrigida | Item sai da agenda |
+| Curso 68614 | Catálogo, seção 4 | Data de 28/11/2026 pela planilha (decisão 12; G1 e P6 fechados); janela de cancelamento de 30 dias fechou em 29/10 (G6), por isso o texto não fala de devolução; total no cartão é cálculo do agente (10 x R$ 175,00); a página tem frase de certificação ligada ao regulador (Livres, U6 e R3): o e-mail não repete, e o envio espera a página ser corrigida ou o aval do aprovador para mandar a ela [CONFIRMAR] | Item sai da agenda |
+| Endoscopia digestiva (68637) | Catálogo, seção 4 | A 623 será corrigida e nenhuma campanha nova aponta para ela até lá; o kit de Endoscopia usa a 68637 (decisão 13); qual página fica à venda depois da correção [CONFIRMAR, U5] | Pode entrar pela 68637 com R$ 890,00 à vista ou 6x de R$ 205,00 (R$ 1.230,00 no total, cálculo), 12 h, 28/11, com a frase D13; nunca pela 623 |
+| Contatos | contexto/ufape-geral.md | - | - |
+
+Antes do envio, o CRM ou a ferramenta confere o status "aberto" de cada item no catálogo do dia. Item que mudou de status sai do texto.
+
+### 4.5 Versão de WhatsApp (qui 19/11/2026, 14h)
+
+**Primeira linha A (teste):** Oi, aqui é a Faculdade UFAPE, com 7 perguntas para fazer antes de escolher uma pós.
+**Primeira linha B (teste):** Está comparando pós-graduações? Separamos 7 perguntas que ajudam.
+**Primeira linha C (reserva):** Escolher uma pós leva tempo. Fizemos um guia curto para ajudar.
+
+Texto (com a primeira linha A):
+
+> Oi, aqui é a Faculdade UFAPE, com 7 perguntas para fazer antes de escolher uma pós.
+>
+> Carga prática, o que é online e o que é presencial, quem dá aula, preço inteiro (parcelas, total e matrícula), turma mínima, cidade dos módulos e prova de bolsa. Está tudo neste guia: [link com UTM]
+>
+> Se não quiser mais receber mensagens como esta, responda SAIR.
+
+Sem emoji. Um link. Se o guia C08 não estiver publicado, a versão de WhatsApp não sai (não há plano B com outro link, para não prometer um guia que não existe).
 
 ---
 
-## 6. Dezembro e adiante (visão curta, sem peça)
+## 5. Edição 2: "Quanto tempo e quanto custa cada formato" (qui 03/12/2026)
 
-Não fazem parte das 4 edições pedidas; ficam como direção, sem texto:
-- Dezembro: edições alinhadas aos blocos D1 a D3 do calendário de conteúdo (depois da prova: matrícula nos prazos, investimento por turma aberta, guia de Anestesiologia, guia de Cardiologia). Cadência mínima no recesso (1 edição curta, sem lançamento).
-- Janeiro: Versão A com caso em decisão e docente, se houver revisor e autorização; turmas de março em tabela com condições completas.
-- Teste de horário (7h30 contra 12h30) só em dezembro.
-- Provas de bolsa de novas turmas só com data real e confirmação da Ufape.
+### 5.1 Ficha da mensagem
+
+- **Canal:** e-mail e WhatsApp
+- **Linha de negócio e curso:** geral (Pós, Livres e Eventos)
+- **Objetivo:** levar ao guia de investimento e formas de pagamento (T8, Pós) ou ao guia de formatos (L27, Livres), o que estiver publicado em 01/12. Métrica: cliques no botão.
+- **Segmento:** mesma base da edição 1, sem quem se descadastrou. Inscritos na prova de 27/11 recebem a edição normalmente; o resultado deles segue pela régua de serviço.
+- **Data e horário de envio:** e-mail na qui 03/12/2026, 10h; WhatsApp na sex 04/12/2026, 10h.
+- **Opt-in, template e forma de sair:** como na edição 1.
+- **Follow-up para quem não abriu:** nenhum.
+
+### 5.2 Assuntos e pré-visualização
+
+| | Assunto | Tipo | Por que fica |
+|---|---|---|---|
+| A (teste) | Quanto tempo dura e quanto custa cada formato de curso | Direto | O corpo é a tabela que o assunto promete |
+| B (teste) | Pós, curso prático, gravado ou grupo: o que cabe na sua rotina | Benefício | Fala de tempo, sem prometer resultado |
+| C (reserva) | Preço sem susto: à vista, parcelado e o total | Curiosidade | O corpo mostra os três valores nos exemplos |
+
+**Texto de pré-visualização:** Uma tabela com duração, formato e exemplos de preço do catálogo, do minicurso à pós-graduação.
+
+### 5.3 Rascunho do e-mail
+
+> **Quanto tempo dura e quanto custa cada formato**
+>
+> Olá,
+>
+> A pergunta que mais pesa na escolha de um curso costuma ser "isso cabe na minha rotina e no meu orçamento?". Montamos uma tabela para responder antes de você abrir qualquer página de inscrição.
+>
+> | Formato | Quanto tempo | Como funciona | Exemplo do catálogo |
+> |---|---|---|---|
+> | Pós-graduação semipresencial | Cerca de 2 anos (cada turma informa as datas dos módulos) | Aulas online e módulos práticos presenciais, um fim de semana por mês | Pós-graduação em Cardiologia Veterinária, Goiânia, turma II, início em 20/03/2027, 500 h: 30x de R$ 1.180,00, total de R$ 35.400,00, mais matrícula de R$ 250,00 |
+> | Curso livre prático presencial | 1 a 3 dias | Prática em turma pequena, em data marcada | Preço e carga horária na página de cada curso |
+> | Curso online gravado | No seu ritmo | Aulas gravadas | Curso de Ecocardiograma em Pequenos Animais, 12 h: R$ 420,00 à vista ou 6x de R$ 98,00 no cartão (R$ 588,00 no total) |
+> | Minicurso online | 6 a 8 h | Um tema da clínica médica de pequenos animais | Mini Curso de Nefrologia na Clínica Médica de Pequenos Animais: R$ 246,00 à vista ou 5x de R$ 59,00 no cartão (R$ 295,00 no total) |
+> | Grupo de estudos online | Encontros ao longo do período do grupo | Discussão de casos com quem é da área | Preço e período na página de cada grupo |
+> | Evento | Por edição | Programa por dia, teórico e prático conforme o evento | Próximas edições: em breve na newsletter |
+>
+> No parcelado no cartão, o total pode ser maior que o preço à vista. Por isso mostramos sempre os dois.
+>
+> Curso livre: não confere diploma e não equivale a graduação ou pós-graduação. O mesmo vale para o evento.
+>
+> [Botão: **Veja o guia completo de investimento e formas de pagamento**]
+>
+> **Agenda**
+>
+> - **Turmas de pós-graduação que começam em março de 2027:** Pós-graduação em Anestesiologia Avançada (São Paulo, 13/03/2027); Pós-graduação em Cardiologia Veterinária (Goiânia, 20/03/2027); Pós-graduação em Patologia Clínica (São Paulo, 20/03/2027); Pós-graduação em Medicina Interna Equina (São Paulo, 20/03/2027); Pós-graduação em Citopatologia Veterinária (São Paulo, 27/03/2027). Condições completas na página de cada turma.
+> - **18/12/2026, Ventilação Mecânica Aplicada à Anestesia Veterinária (teórico-prático).** 17 h. R$ 1.710,00 à vista ou 1x de R$ 1.800,00 no cartão. Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.
+>
+> Dúvidas: secretaria pelo WhatsApp (11) 97492-8443, pelo telefone (11) 5054-1204 ou por duvidas@intercursos.com.br, de segunda a sexta, das 9h às 18h.
+>
+> Até a próxima edição,
+> Equipe da Faculdade UFAPE
+>
+> [Rodapé da seção 2.3]
+
+Contagem: cerca de 450 palavras no corpo, com a tabela.
+
+### 5.4 Portões de cada trecho
+
+| Trecho | Fonte | Portão | Se não fechar |
+|---|---|---|---|
+| Linha da pós (289) | Catálogo, seção 2 (status "aberto"; o catálogo grafa "Semi presencial") | Duração e módulos por turma [CONFIRMAR NO CATÁLOGO]; status "aberto" no dia do envio | Troca por 68615 (São Paulo, 20/03/2027, VII, 500 h, 30x de R$ 1.180,00, total de R$ 35.400,00, matrícula de R$ 250,00), com o mesmo portão |
+| Linha do presencial | contexto/cursos-livres.md (1 a 3 dias) | Sem exemplo de preço: os presenciais com data têm portão aberto (68638 sem carga horária, 616 com modalidade em conflito, 68618 com data divergente) | - |
+| Linha do gravado (411) | Catálogo, seção 5 | Tempo de acesso ao gravado [CONFIRMAR NO CATÁLOGO], por isso "no seu ritmo" sem prazo; total no cartão é cálculo (6 x R$ 98,00) | - |
+| Linha do minicurso (454) | Catálogo, seção 5 | Total no cartão é cálculo (5 x R$ 59,00) | - |
+| Linha do grupo | Catálogo, seção 7; estratégia de Livres, pilar P4 | Gravação dos encontros e período do valor [CONFIRMAR NO CATÁLOGO], por isso o texto não fala de gravação nem de período | - |
+| Linha do evento | contexto/eventos.md | Próxima edição de evento [CONFIRMAR]. "Em breve na newsletter" só fica se a Ufape confirmar que haverá nova edição; senão, a célula vira "-" | Célula "-" |
+| Botão | Guia T8 (Pós, bloco D1) ou L27 (Livres) | Guia publicado até 01/12 e URL [CONFIRMAR]; T8 sem a promoção de 341 (P16) | Plano B: botão "Compare as turmas abertas" para a listagem [CONFIRMAR URL], com o assunto A mantido |
+| Turmas de março | Catálogo, seção 2 | Pré-requisito de 657 [CONFIRMAR]; 341 citada sem o desconto de 20% até a regra e a validade serem confirmadas (P16); nome de 341 e 333 escrito no padrão "Pós-graduação em" (o catálogo grafa "Pós Graduação em") | Turma sem confirmação sai da lista |
+| Curso 68618 | Catálogo, seção 4 | Data 18/12/2026 pela planilha (decisão 12; G4 fechado); modalidade em branco [CONFIRMAR NO CATÁLOGO] | Item sai da agenda |
+
+### 5.5 Versão de WhatsApp (sex 04/12/2026, 10h)
+
+**Primeira linha A (teste):** Oi, aqui é a Faculdade UFAPE. Quanto tempo dura e quanto custa cada formato de curso?
+**Primeira linha B (teste):** Pós, curso prático, gravado ou grupo de estudos: fizemos uma tabela simples.
+**Primeira linha C (reserva):** À vista, parcelado e o total: juntamos os números em um só lugar.
+
+Texto (com a primeira linha A):
+
+> Oi, aqui é a Faculdade UFAPE. Quanto tempo dura e quanto custa cada formato de curso?
+>
+> Montamos uma tabela com a duração e exemplos de preço do catálogo, do minicurso à pós-graduação, sempre com o valor à vista, o parcelado e o total: [link com UTM]
+>
+> Se não quiser mais receber mensagens como esta, responda SAIR.
 
 ---
 
-## 7. Pedidos de aprovação e pedidos à Ufape
+## 6. Auditoria 07-email-e-whatsapp aplicada a esta saída
 
-### 7.1 Pedidos de aprovação humana (o que, por que, quanto, efeito esperado, como desfazer)
+Aplicada por este agente. A conferência final é do qa-de-marketing.
+
+| Item | Resultado | Onde |
+|---|---|---|
+| Consentimento e descadastro funcionando | Atendido no desenho; depende de [CONFIRMAR] da ferramenta, do registro de consentimento e da URL da política | Seções 2.1 a 2.5 |
+| Cada mensagem tem um objetivo | Atendido | Um botão por e-mail e um link por WhatsApp (seções 4.1 e 5.1); agenda sem link |
+| Assuntos e primeiras linhas honestos | Atendido | Seções 4.2, 4.5, 5.2 e 5.5: o corpo entrega o que o assunto promete; cortados os de urgência |
+| Segmentos recebem mensagens relevantes | Atendido com ressalva | Base de veterinários, sem Graduação e sem espanhol (seção 1.3). Bloco por área de interesse fica para quando o CRM tiver o campo [CONFIRMAR] |
+| Réguas têm regras de saída | Atendido | Descadastro, SAIR, supressão por teto semanal, saída de quem responde (seções 2.3, 2.5 e 3.2) |
+| Resultados registrados para cada envio | Desenhado; depende da ferramenta [CONFIRMAR] | Seção 2.6 |
+| Cliques, respostas e conversões medidos | Desenhado | Seção 2.6: cliques, respostas, descadastros e origem informada nas inscrições |
+| WhatsApp em horário comercial, frequência humana, template aprovado | Atendido no desenho | Seção 2.5; quinta ou sexta às 10h, fora de feriado; template [CONFIRMAR] |
+
+Conferência rápida de conformidade educacional (o qa repete, trecho por trecho):
+- Dados do curso: todos os preços, datas, cargas horárias, turmas e status citados batem com contexto/catalogo-de-cursos.md de 26/10/2026; regras das provas vêm das páginas (contexto da linha) e estão marcadas; totais no cartão são cálculo e estão marcados nas seções 4.4 e 5.4.
+- Regulação: nenhuma frase de MEC, nenhum texto de certificação; curso livre e evento com a frase de que não conferem diploma.
+- Promessas: nenhuma promessa de emprego, renda, título ou aprovação; nenhum superlativo; nenhuma comparação com concorrente.
+- Preço e condições: Pós com parcelas, valor da parcela, total e matrícula; Livres com à vista e no cartão, e total quando diferente; bolsa com a distribuição completa e as regras; cupom com regra (validade [CONFIRMAR]); nenhuma urgência.
+- Pessoas e dados: nenhum dado pessoal; nenhum docente citado nas edições 1 e 2; envio só com consentimento e saída fácil.
+- Página de destino: o botão só aponta para peça publicada que entrega o que o e-mail promete; plano B definido.
+- Nenhum travessão nem meia-risca neste arquivo.
+
+Resultado: pronto para o qa-de-marketing como rascunho. Não está pronto para envio: faltam ferramenta, registro de consentimento, URLs e os portões das seções 4.4 e 5.4.
+
+---
+
+## 7. Pedidos de aprovação humana
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
-| N1 | Aprovar o conceito (nome, promessa, quinta às 12h30, seções, regra 60/40) | Base de todas as edições | Sem custo de mídia; cerca de 6 h por edição [SUPOSIÇÃO] | Uma rotina semanal com objetivo e limite claros | Nova versão deste arquivo |
-| N2 | Aprovar o envio de cada edição por e-mail para a base com opt-in | Mensagem em massa exige aprovação humana e consentimento | Sem custo de mídia; custo da ferramenta [CONFIRMAR] | Quatro edições no mês | Interromper o envio ou a sequência na ferramenta |
-| N3 | Aprovar o envio das 4 versões de WhatsApp para quem tem opt-in | Mensagem em massa; risco de custo e queda de alcance | Custo por mensagem se for API [CONFIRMAR] | Uma mensagem humana por semana | Interromper a lista; quem pediu SAIR já está fora |
-| N4 | Aprovar o encaixe com o calendário de conteúdo: C05 mantido ou fundido, C18 passa para 19/11, WhatsApp C13 passa para 12/11 e C19 para 19/11 | Evitar 3 e-mails na mesma semana e conflito com o feriado de 20/11 | Sem custo | Semana mais limpa para o leitor | Voltar às datas originais |
-| N5 | Aprovar o aviso de que a página da prova ainda não informa a turma de destino, se a Ufape não responder até 04/11 (TRAVA 1) | Transparência com o leitor, que pode pagar R$ 100,00 sem saber o destino | Sem custo | Menos reclamação de quem pagou sem saber | Retirar a frase se a Ufape responder |
-| N6 | Autorizar a edição 3 a trocar para a Versão A se o revisor devolver até 16/11 | Libera o caso clínico sem atrasar o envio | Sem custo | Seção 1 clínica com docente | Manter a Versão B |
+| N1 | Aprovar a newsletter geral quinzenal (Pós, Livres e Eventos), com a Graduação fora | Uma edição para a base de veterinários, sem somar envios das três linhas | Sem custo de mídia; horas do time [CONFIRMAR]; custo da ferramenta e do WhatsApp [CONFIRMAR] | Canal próprio de apoio à decisão, com medição por edição | Suspender as edições na ferramenta; as réguas de campanha seguem |
+| N2 | Aprovar a primeira edição em 18/11 e a segunda em 03/12, no lugar das newsletters de 12/11 e 26/11 da estratégia de conteúdo da Pós (C12 e C24). Aceito pelo cmo (D4); falta a aprovação humana do envio | Respeitar o teto D1 (2 e-mails e 2 WhatsApp de campanha por semana, somando as linhas, 1 mensagem de campanha por dia) | Sem custo | Menos cansaço da base e menos descadastro [SUPOSIÇÃO] | Voltar às datas de 12/11 e 26/11 com supressão por contato |
+| N7 | Fechado pelo cmo (D4, NL6): a edição 4 sai na qui 07/01/2027, 10h | - | - | - | - |
+| N3 | Confirmar a base legal com o jurídico ou o encarregado de dados (consentimento para todos ou legítimo interesse para alunos e ex-alunos) | LGPD | Sem custo | Base de envio definida com segurança | Restringir a base a quem consentiu |
+| N4 | Informar a ferramenta de e-mail, o registro de consentimento, o campo de opt-in de WhatsApp, a URL da política de privacidade, o endereço de resposta e o encarregado de dados | Sem isso não há rodapé completo nem envio | Sem custo | Edição 1 enviável | - |
+| N5 | Resolver os portões das seções 4.4 e 5.4 (regras e público das provas, cupom, 68634, 68666, 68610 e 68608 ainda aceitam matrícula, 68614, 68637, 68618, pré-requisito de 657) | Cada item da agenda depende de dado | Sem custo | Agenda completa | Tirar o item da agenda (regra de cada linha) |
+| N6 | Aprovar o texto final das edições 1 e 2 e o envio (data, hora, segmento) | Nada é enviado sem aprovação humana | Sem custo | Envio nas datas propostas | Cancelar o agendamento na ferramenta antes da hora |
 
-### 7.2 Pedidos à Ufape
+Quem aprova e-mail e WhatsApp em massa: [CONFIRMAR] (tabela vazia em contexto/ufape-geral.md). Até lá, a pessoa do marketing que fez o pedido (P12 do cmo).
 
-| # | O que pedir | Por que | Prazo desejado |
-|---|---|---|---|
-| U1 | **Ferramenta de e-mail** (nome, plano e quem opera), com: segmentação por campo, descadastro de um clique, UTM por link, teste de assunto, relatório por link, registro de consentimento com data e origem, resposta a um endereço humano, autenticação de domínio do remetente (SPF, DKIM e DMARC) | Sem ela a newsletter não sai nem se mede | 30/10 |
-| U2 | **Tamanho e composição da base:** total com opt-in de e-mail, total com opt-in de WhatsApp, por segmento de relação (aluno atual, ex-aluno, candidato, contato sem compra), por praça e por área de interesse; data e origem de cada consentimento; limpeza de inativos e de inválidos (só contagem para a squad) | Define teste de assunto, segmentos mínimos e linha de base | 30/10 |
-| U3 | **Texto e registro do opt-in:** texto de consentimento e finalidade para o e-mail e outro, separado, para o WhatsApp; link da política de privacidade; confirmação do cadastro; onde ficam as provas de consentimento. Proposta de texto: "Quero receber a Decisão de Rotina, a newsletter semanal da Faculdade UFAPE para médicos veterinários, por e-mail. Posso sair a qualquer momento. Política de privacidade: [link]." [SUPOSIÇÃO; validar com o jurídico] | Lei de proteção de dados e auditoria 07 | 30/10 |
-| U4 | **Revisor docente:** nome do revisor (ou um por área), prazo de revisão em dias úteis, termo de autorização de nome, imagem e voz, e o termo do tutor para caso com paciente | Libera a Versão A | 10/11 |
-| U5 | **Destino de cada prova de bolsa** e regras que estão só nas fichas (formato, horário, bolsas, nota de corte, recurso, matrícula, canal e data do resultado, regra de ausência e de inscrição fora do prazo), lançadas no catálogo | Sem isso as edições 1 e 4 saem com menos informação | 03/11 |
-| U6 | **Política de entrada em turma já iniciada** (707, 68604) e como fica a 1ª mensalidade para quem entra com menos de 30 dias | Linha condicional da edição 1 e nota de todas as tabelas | 03/11 |
-| U7 | **Workshop:** parcelamento dos dois ingressos, base de incidência e validade do cupom, fim das inscrições, política de cancelamento | Peça com preço completo | 28/10 (já pedido no briefing do evento) |
-| U8 | **Correção do site e da loja:** data da Ecocardiografia (698), links de Cardiologia (68641 e 68642), local de Goiânia na página 68640, frase de certificação ligada ao MEC em páginas de destino, contradições da página de Felinos (68652) | Os links desta newsletter levam a essas páginas | 03/11 |
-| U9 | **URL do hub da prova (C01) e do guia C08**, ou o plano B de página de destino | Chamada principal das edições 1, 2 e 4 | 04/11 |
-| U10 | **Quem aprova** e-mail e WhatsApp em massa (tabela de aprovação do contexto geral está vazia) | Aprovação sem gargalo | 30/10 |
-| U11 | **Padrão de UTM unificado** entre as campanhas (hoje provas usam medium "base" e workshop usa "crm") | Medição por origem coerente | 30/10 |
-| U12 | **WhatsApp:** se usa API oficial ou lista de transmissão; quem opera; template aprovado pela Meta; registro do opt-in; horário de envio aprovado (quinta, 15h) | Regra de template e de horário | 30/10 |
-| U13 | **Nome da newsletter, grafia oficial** (Ufape ou UFAPE) e endereço de resposta | Cabeçalho e rodapé | 30/10 |
-| U14 | **Confirmação dos dados das fichas usados nas edições** (cronograma de 68610 e de 68608, 18 professores, avaliação, aviso de mudança de cronograma, modalidade de 616, página e ficha de 202, 573 e 68614) lançados no catálogo | Regra de fonte de dados de curso | 03/11 |
+Notas para outros arquivos (não editados aqui):
+- Para o copy-de-mensagens e o arquiteto-de-fluxos: os choques entre a régua das provas e a régua escrita do workshop foram decididos pelo cmo em D3 (supressões e mudanças de data na tabela da seção 3.2); a newsletter não envia nas semanas de 02 a 08/11 e de 09 a 15/11. Notas do qa (NV4) para o copy-de-mensagens-eventos: em 16/11, e-mail (follow-up de M3, 9h) e WhatsApp (M3, 10h) caíam no mesmo dia; D3 passa o WhatsApp do M3 para 17/11, 10h. Em 25/11, o M9 saía por e-mail e WhatsApp; D9 deixa um canal só (e-mail às 9h; WhatsApp às 10h só para participante sem opt-in de e-mail).
+- Para a estrategia-de-conteudo (Pós): C12 e C24 passam a ser cobertos pela newsletter geral nas datas de 18/11 e 03/12, se N2 for aprovado.
+
+Próximo agente sugerido: **otimizacao-de-mensagens**, para escolher os testes de assunto e primeira linha das edições 1 e 2 e montar o registro de testes; depois, qa-de-marketing com auditorias/07-email-e-whatsapp.md e auditorias/conformidade-educacional.md.
 
 ---
 
-## 8. Pendências que travam o envio
+## 8. O que mudou na versão 2 (qa-de-marketing-geral-2026-10-26-loteA, seção 6)
 
-| # | Pendência | O que trava | Tratamento |
-|---|---|---|---|
-| T1 | Ferramenta e base não informadas (U1, U2) | Qualquer envio | [CONFIRMAR]. Sem elas, o arquivo fica como rascunho |
-| T2 | Opt-in de e-mail e de WhatsApp com data e origem (U3, U12) | Envio e segmentação | Sem registro, não se envia. WhatsApp só para quem tem opt-in registrado |
-| T3 | Regras e destino das provas (U5) | Edições 1 e 4 | Linhas sem confirmação saem; "regras completas na página da prova" |
-| T4 | Política de entrada em turma iniciada (U6) | Linhas 707 e 68604 | As duas linhas ficam fora |
-| T5 | Parcelamento, cupom e inscrições do workshop (U7) | Bloco de evento | Preço sem parcelamento, ou o bloco sai |
-| T6 | Revisor docente e autorização (U4) | Versão A | Versão B em todas as edições |
-| T7 | Dados de ficha ainda fora do catálogo (U14) | Tabelas de cronograma e de módulos | Apagar a célula ou usar o plano B de cada edição |
-| T8 | Hub e guia publicados (U9) | Chamada principal | Plano B por edição (seção 3) |
-| T9 | Links e datas errados no site (U8) | Links de 698, 68641 e 68642; local de Goiânia | Fora da edição até a correção |
-| T10 | Aprovador de e-mail e WhatsApp em massa (U10) | Envio | Toda aprovação vai à pessoa do marketing que fez o pedido |
-| T11 | Texto oficial de certificação | Qualquer frase de certificação | Nenhuma frase de certificação em nenhuma edição |
-| T12 | Datas divergentes de 573, 68614 e 68618 entre catálogo e visão de campanhas | Blocos opcionais de Livres | Só com a data confirmada |
-
----
-
-## 9. Auditorias
-
-Aplicadas por este agente. A conferência final é do qa-de-marketing. Resultado por item: Atendido, Pendente externo (depende de resposta da Ufape), Não se aplica.
-
-### 9.1 auditorias/07-email-e-whatsapp.md
-
-| Item | Resultado | Observação |
-|---|---|---|
-| Consentimento e descadastro funcionando (opt-in registrado para WhatsApp e forma simples de sair nos dois canais) | Pendente externo | Rodapé com descadastro de um clique e "SAIR" no WhatsApp estão escritos; opt-in registrado depende de T2 |
-| Cada mensagem tem um objetivo | Atendido | Um objetivo e uma chamada principal por edição (cabeçalho de cada edição) |
-| Assuntos e primeiras linhas de WhatsApp são honestos | Atendido | 20 assuntos e 8 primeiras linhas; cada um cumpre o que promete no e-mail. Nenhum prazo, escassez, "últimas vagas" ou "bolsa garantida". O "amanhã" da edição 4 é data real |
-| Segmentos recebem mensagens relevantes para a etapa da jornada | Atendido, com ressalva | Cinco eixos de segmentação e blocos por segmento (seção 1.6). Os campos do CRM são [CONFIRMAR] |
-| Réguas têm regras de saída | Atendido | Seção 1.6: quem se inscreve ou compra sai do bloco de oferta; SAIR e descadastro removem de todo envio de marketing do canal; o e-mail de véspera não tem reenvio |
-| Resultados registrados para cada envio | Atendido | Tabela de teste da seção 4.4 e revisão semanal da seção 4.3 |
-| Cliques, respostas e conversões (inscrição e matrícula) medidos, não só aberturas e leituras | Atendido, com ressalva | M1 a M8 por UTM e pergunta de origem; matrícula só por contagem somada com origem informada. Depende de U1, U2 e do formulário de origem |
-| WhatsApp enviado só em horário comercial, com frequência humana e template aprovado pela Meta quando usar a API | Pendente externo | Quinta, 15h; no máximo 1 mensagem da newsletter por semana (teto de 2 de campanha, [SUPOSIÇÃO]); template proposto, aprovação da Meta [CONFIRMAR] |
-
-### 9.2 auditorias/conformidade-educacional.md
-
-| Bloco | Item | Resultado | Observação |
-|---|---|---|---|
-| Dados do curso | Nome, modalidade, carga horária, duração e turno batem com o catálogo | Atendido, com ressalva | Conferidos contra as seções 2, 3, 5, 7 e 9 do catálogo: 68606, 68610, 68608, 707, 68604, 698, 616, 68666, 700, 202 e as 22 provas. Cronogramas de módulo e número de professores estão só nas fichas e levam [CONFIRMAR NO CATÁLOGO] |
-| Dados do curso | O curso está com status "aberto" no catálogo | Atendido | Só itens "aberto" ou "aberto (contínuo)". 707 e 68604 estão em "aberto" no catálogo, mas ficam em linha condicional por política de entrada. 573, 68614: data divergente, bloco opcional |
-| Dados do curso | Modalidade clara e correta | Atendido, com ressalva | Pós semipresencial dita como tal; "não há turma EAD aberta"; 616 com modalidade [CONFIRMAR] |
-| Regulação | Graduação: ato citado é o do catálogo | Não se aplica | Graduação fora desta newsletter |
-| Regulação | Pós lato sensu: não diz "reconhecida pelo MEC"; usa o texto aprovado | Atendido | Nenhuma frase de certificação ligada ao MEC. Texto oficial: [PREENCHER COM A REGULAÇÃO]. As páginas de destino de 68610, 68608, 68606 e 68604 usam a frase ligada ao MEC, e a de 68610 usa "reconhecida pelo Ministério da Educação" no texto: o link leva a página com a frase proibida, sinalizado no pedido U8 |
-| Regulação | Curso livre: deixa claro que não confere diploma e não equivale a graduação ou pós | Atendido | Dito em cada bloco de curso livre e de evento gravado |
-| Regulação | Nota MEC só com fonte oficial e ano | Atendido | Nenhuma nota citada |
-| Promessas e provas | Nenhuma promessa de emprego, salário, promoção, aprovação ou garantia de sucesso | Atendido | Nenhuma. "Boa prova" é cortesia, não promessa |
-| Promessas e provas | Dados de empregabilidade ou satisfação com fonte, período e amostra | Atendido | Nenhum dado desse tipo |
-| Promessas e provas | Superlativos só com fonte | Atendido | Nenhum |
-| Promessas e provas | Comparação com concorrente objetiva e não depreciativa | Atendido | Nenhuma comparação. A tabela de critérios é neutra |
-| Preço e condições | Valor, parcelas e condições completas | Atendido, com ressalva | Toda turma com parcelas, valor da parcela, total e matrícula. Cursos livres com à vista e no cartão e total (conta do agente, marcada). Parcelamento do workshop e 1ª mensalidade para quem entra agora: [CONFIRMAR] |
-| Preço e condições | Bolsa e desconto com regra, público elegível e validade | Pendente externo | Prova com as 11 bolsas completas; cupom do workshop com a regra da página; validade do cupom [CONFIRMAR] |
-| Preço e condições | Urgência real | Atendido | Só datas reais e "30 vagas, por ordem de inscrição". Sem "últimas vagas", contador ou prazo criado |
-| Preço e condições | Prouni, Fies ou financiamento próprio | Não se aplica | |
-| Pessoas e dados | Depoimentos, fotos e vídeos com autorização registrada | Atendido | Nenhum depoimento, foto ou vídeo. Nenhum docente nomeado |
-| Pessoas e dados | Menores de idade | Não se aplica | Público de profissionais formados |
-| Pessoas e dados | Formulários com finalidade e política de privacidade | Pendente externo | Proposta de texto de opt-in no pedido U3 |
-| Pessoas e dados | WhatsApp e e-mail só com consentimento e saída fácil | Pendente externo | Regra escrita em todas as edições; registro do consentimento depende de T2 |
-| Pessoas e dados | Nenhum dado pessoal de aluno ou candidato na peça ou nos arquivos | Atendido | Só contagens somadas. Pergunta do leitor sem nome e com permissão |
-| Plataformas | Anúncios seguem as políticas da Meta e do Google | Não se aplica | Peça de relacionamento, sem anúncio |
-| Plataformas | Página de destino entrega o que a mensagem prometeu | Pendente externo | Hub e guia ainda não publicados; páginas de 698, Cardiologia e Goiânia com problemas conhecidos (U8, U9) |
-| Texto | Travessão ou meia-risca | Atendido | Nenhum no arquivo, conferido na redação |
-
-**Resultado:** rascunho pronto para o qa-de-marketing. **Bloqueado para envio** até resolver T1 a T3, T5, T8 e T10 (e T4, T6, T7, T9 para as linhas e blocos que dependem deles). Revisado por: newsletter (agente). Revisão humana: [pendente]. Data: 26/10/2026.
-
----
-
-## 10. Próximo passo
-
-Agente seguinte sugerido: **otimizacao-de-mensagens**. Ele só tem o que otimizar depois do primeiro envio, quando existirem os dados de clique, resposta e descadastro das quatro edições e o registro de testes da seção 4.4. Até lá, o fluxo é: qa-de-marketing sobre este arquivo, depois aprovação humana (pedidos N1 a N6) e as respostas da Ufape (U1 a U14). Em paralelo, o copy-de-mensagens (camada 3) pode reaproveitar os blocos de WhatsApp e de e-mail das edições 1 e 4 como base do pacote da prova de bolsa, desde que mantenha o teto de mensagens por contato.
-
----
+| Item do qa | Correção |
+|---|---|
+| NG1 (obrigatória) | Tabela da seção 3.2 refeita com as datas da régua escrita do workshop (copy-de-mensagens-eventos) e da régua das provas, no pior caso, com e-mail e WhatsApp separados; semanas de 16 a 22/11 e de 30/11 a 06/12 reconferidas contra o teto; justificativa do WhatsApp da edição 1 (19/11, agora às 14h) refeita na seção 4.1; resumo (seção 0, item 3) e fonte da Lista 1 corrigidos |
+| NG2 (obrigatória) | Presencial do workshop sem valor no e-mail até o parcelamento ser confirmado [CONFIRMAR NO CATÁLOGO]; portão da seção 4.4 diz que a linha sai sem preço se o parcelamento não for confirmado |
+| NG3 | Regra de um canal por dia incluída nas regras para a ferramenta (seção 3.2, regra 2), com a 1.26 como dona da regra |
+| NG4 | Edição 4 marcada como exceção a aprovar (pedido N7), com alternativa em 07/01/2027 |
+| NG5 | "minicursos online de 6 a 8 h" |
+| NG6 | Status "verificar" do 68634 atribuído ao catálogo; "apenas teórico" na linha do transmitido |
+| NG7 | Portão da 68614 com a frase de certificação ligada ao regulador na página; portão da 68666 com a regra de reembolso antes da compra |
+| 1.26 de Livres | Registrada como entrada: a agenda da edição 1 serve de e-mail de Livres para quem está em todas as bases; por isso os itens 68666 e 68614 continuam na agenda, com os portões da seção 4.4 |
 
 ## Lista 1. Fatos com fonte
 
-- 22 provas de bolsa em 27/11/2026, inscrição de R$ 100,00 à vista (Pix ou boleto) ou 1x de R$ 100,00 no cartão, 19 em São Paulo e 3 em Goiânia (68640, 68642, 68644): contexto/catalogo-de-cursos.md, seção 3.
-- Regras da prova (11 bolsas por prova: 2 de 50% com monitoria, 4 de 25%, 5 de 10%; nota de corte 7,0; prova presencial com múltipla escolha e dissertativas; resultado por WhatsApp ou e-mail; 2 dias úteis para recurso; 10 dias úteis para a matrícula; bolsa não acumulativa e intransferível; desempate por análise de currículo): contexto/pos-graduacao.md, item "Prova de bolsa". Horário de 9h às 13h, documento com foto, sem celular e relógio, endereço de São Paulo: ficha 68639. Todos marcados [CONFIRMAR NO CATÁLOGO] até o lançamento no catálogo.
-- Contradições nas regras (turma mínima de 15 na prova e de 20 nas páginas de curso; Felinos com regras próprias) e turma de destino ausente: contexto/pos-graduacao.md; saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md, seções 1 e 3.
-- Turmas de Pós (código, curso, início, turma, carga, parcelas, total, matrícula, status aberto): 68606 (07/11/2026, IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00), 68610 (28/11/2026, V, 500 h, 30x de R$ 1.000,00, R$ 30.000,00), 68608 (28/11/2026, VIII, 500 h, 30x de R$ 1.180,00, R$ 35.400,00), 707 (30/10/2026, VII, 600 h, 30x de R$ 1.590,00, R$ 47.700,00), 68604 (31/10/2026, VI, 500 h, 30x de R$ 1.000,00, R$ 30.000,00), 698 (28/11/2026 pela planilha, III, 370 h, 18x de R$ 1.498,33, R$ 26.970,00); matrícula de R$ 250,00 em todas: contexto/catalogo-de-cursos.md, seção 2.
-- Turma mínima de 20 alunos; passagem e hotel só com a turma confirmada; reembolso da inscrição só se a turma não for confirmada; 1ª mensalidade com 30 dias de antecedência: contexto/pos-graduacao.md e ficha 68610 (e 68608).
-- Cronograma de 68610 (24 módulos, 7 presenciais, módulo 5 em 20 e 21/03/2027, 18 professores, práticas não transmitidas, avaliação mensal com 5 questões): ficha 68610. Cronograma de 68608 (módulos 1, 5, 6, 13 e 22): ficha 68608.
-- Nenhuma turma EAD aberta; 586 (Direto ao ponto) em "verificar": catálogo, seção 2.
-- Livres: 68666 (25/11/2026, online, R$ 100,00), 616 (05/12/2026, 12 h, R$ 990,00 à vista ou 5x de R$ 240,00, R$ 1.200,00 no cartão), 573 (14/11/2026 pelo catálogo, 28 h, R$ 2.350,00 ou 10x de R$ 303,00), 68614 (28/11/2026 pelo catálogo, 12 h, R$ 1.250,00 ou 10x de R$ 175,00): catálogo, seções 4, 5 e 7. Livre não confere diploma nem equivale a pós: contexto/cursos-livres.md.
-- Gravados: 700 (R$ 780,00 ou 10x de R$ 98,00) e 202 (R$ 285,00 ou 6x de R$ 78,00), status aberto (contínuo): catálogo, seção 9.
-- Workshop de 20 e 21/11/2026, Unidade 2, Av. Tiradentes, 960, São Paulo; presencial 16 h, 30 vagas por ordem de inscrição, R$ 1.250,00; transmitido e gravado (só a teoria de sexta) R$ 450,00; cupom SIMPNEUROMONIT com 20% para aluno e ex-aluno, com comprovação do vínculo; destino único https://faculdade.ufape.com.br/neuro-summit/: catálogo, seção 9; ficha do evento; docs/execucao-2026-10-26.md.
-- 20/11/2026 é feriado nacional (Dia Nacional de Zumbi e da Consciência Negra): saidas/06-geracao-de-demanda/estrategia-de-campanha-eventos-2026-10-26.md, seção 1.
-- Datas de semana: 05, 12, 19 e 26/11/2026 são quintas-feiras; 27/11 e 28/11 são sexta e sábado (calendário de 2026, conferido a partir de 26/10/2026, segunda-feira).
-- Contatos oficiais da secretaria, endereço e horário (segunda a sexta, 9h às 18h): contexto/ufape-geral.md.
-- Calendário de conteúdo da Pós (C01 a C28, nível 1 e plano B), dependências, teto de e-mails e de mensagens, métricas M1 a M9: saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md.
-- Cadência máxima por contato (2 mensagens de campanha por semana no WhatsApp e 2 e-mails): saidas/06-geracao-de-demanda/estrategia-de-campanha-pos-2026-10-26.md, seção 4.3 (já marcada [SUPOSIÇÃO] lá).
-- Regras de marca (palavras evitadas, uso de docente, "Pós-graduação em", proibição de "Ufape Intercursos" como marca): saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md, seções 4, 6 e 8.
-- Aprovação humana antes de enviar; nenhum dado pessoal; nenhum travessão: docs/execucao-2026-10-26.md e CLAUDE.md.
+- Formato típico da Pós (semipresencial, 1 módulo por mês em fim de semana, aulas online e módulos práticos presenciais, cerca de 2 anos), turma mínima de 15 alunos (decisão da Ufape de 26/10/2026; algumas páginas ainda dizem 20) e orientação de comprar passagem e hotel só com a turma confirmada: contexto/pos-graduacao.md; docs/execucao-2026-10-26.md, decisão 11.
+- 68610, Pós-graduação em Dermatologia Veterinária, São Paulo, semipresencial, 28/11/2026, turma V, 500 h, 30x de R$ 1.000,00, R$ 30.000,00, matrícula de R$ 250,00, aberto; 68608, Pós-graduação em Hematologia Veterinária, São Paulo, semipresencial, 28/11/2026, turma VIII, 500 h, 30x de R$ 1.180,00, R$ 35.400,00, matrícula de R$ 250,00, aberto: catálogo, seção 2.
+- 289 (Goiânia, 20/03/2027, II, 500 h, 30x de R$ 1.180,00, R$ 35.400,00, matrícula de R$ 250,00), 68615 (São Paulo, 20/03/2027, VII, mesmas condições), 657 (São Paulo, 13/03/2027), 341 (São Paulo, 20/03/2027, promoção com texto cortado), 333 (São Paulo, 27/03/2027), todos abertos: catálogo, seção 2.
+- 22 provas de bolsa abertas em 27/11/2026, inscrição de R$ 100,00, São Paulo e Goiânia; 68656 encerrada: catálogo, seção 3.
+- Regras das provas (11 bolsas: 2 de 50% com monitoria, 4 de 25%, 5 de 10%; nota de corte 7,0; prova online, com o campus da turma dito em cada peça; resultado por WhatsApp ou e-mail; 2 dias úteis para recurso; 10 dias úteis para a matrícula; bolsa não acumulativa e intransferível; vale a regra da ficha de cada prova, e há fichas com regra interna contraditória, U1): contexto/pos-graduacao.md, a partir das páginas das provas lidas em 26/10/2026; docs/execucao-2026-10-26.md, decisão 11; cmo, seção 12.12.
+- Workshop Brasileiro de Neuromonitorização, 20 e 21/11/2026, São Paulo, Av. Tiradentes, 960 (Unidade 2), presencial teórico e prático de 16 h com 30 vagas por R$ 1.250,00 (sem parcelamento no catálogo, por isso sem valor no e-mail da versão 2), transmitido e gravado apenas teórico por R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão (68634, status "verificar" no catálogo, seção 4), cupom SIMPNEUROMONIT de 20% para aluno e ex-aluno: catálogo, seção 9; nome oficial e liberação: docs/execucao-2026-10-26.md, decisão 7.
+- 68666 Grupo de Estudos em Clínica Médica e Emergência de Cães e Gatos, online, 25/11/2026, R$ 100,00 à vista ou 1x de R$ 100,00, aberto: catálogo, seção 7.
+- 68614 Curso Livre em Videotoscopia, São Paulo, presencial, 28/11/2026, 12 h, R$ 1.250,00 à vista ou 10x de R$ 175,00; 623 e 68637 Endoscopia Digestiva, 28/11/2026, 12 h, R$ 890,00 à vista ou 6x de R$ 205,00; 68618 Ventilação Mecânica, 18/12/2026, 17 h, R$ 1.710,00 à vista ou 1x de R$ 1.800,00; 68638 POCUS, 06/03/2027, sem carga horária: catálogo, seção 4.
+- 411 Curso de Ecocardiograma em Pequenos Animais, online, 12 h, R$ 420,00 ou 6x de R$ 98,00; 454 Mini Curso de Nefrologia na Clínica Médica de Pequenos Animais, online, 8 h, R$ 246,00 ou 5x de R$ 59,00: catálogo, seção 5.
+- Formatos de curso livre (presenciais de 1 a 3 dias, gravados, minicursos de 6 a 8 h, grupos) e regra de que curso livre não confere diploma e não equivale a graduação ou pós-graduação: contexto/cursos-livres.md; catálogo, seção 5 (669 com 6 h); frase única D13 do cmo, seção 12.7.
+- Contatos da secretaria, razão social, CNPJ e endereço da sede: contexto/ufape-geral.md.
+- Newsletter da Pós nas semanas 2 e 4 (C12 em 12/11 e C24 em 26/11) e blocos D1 a F4 de dezembro a fevereiro: saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md, seções 3.1, 4 e 5. E-mail dos Livres a cada 2 semanas, portões G1 a G12 e rotação dos contínuos: saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md, seções 3.2, 4.1 e 5.3.
+- Régua das provas (M2 a M20, datas, teto de 2 e-mails e 2 WhatsApp por semana, janela das 9h às 18h, SAIR): saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md, seção 1. Régua do workshop (M1 e M2 em 30/10, follow-ups em 03/11 por e-mail e 04/11 por WhatsApp, M10 em 05/11 com follow-up em 09/11, M3 por e-mail em 14/11 e por WhatsApp em 16/11 com follow-up por e-mail em 16/11, véspera em 19/11, dias 20 e 21/11, pós-evento em 23 e 25/11): saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md, seção 1 e fichas de cada mensagem.
+- Teto D1, fila D2, semana a semana D3, serviço e calendário D4 (edição 4 em 07/01/2027; C12 e C24 cobertos pela newsletter), M9 do workshop D9, UTM D11 e D12, frase do curso livre D13, lista oficial de envios do workshop (12.9): saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12. A estrategia-de-relacionamento-livres-2026-10-26.md usa a agenda da edição 1 como e-mail de Livres para quem está em todas as bases.
+- Datas de 68614 e 68618 pela planilha; 623 fora de campanha nova até a correção: docs/execucao-2026-10-26.md, decisões 12 e 13.
+- Pendências P1 a P18 e pedidos A1 a A12: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seções 7 e 8.
+- Pontos de bloqueio do qa sobre bolsa, turma mínima e provas 68641 e 68642: saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a-b.md e dep02b.md.
 
 ## Lista 2. Suposições
 
-- [SUPOSIÇÃO] O nome "Decisão de Rotina".
-- [SUPOSIÇÃO] Persona P1 a P4 como leitor da newsletter (herdada do plano de conteúdo e da pesquisa de persona).
-- [SUPOSIÇÃO] Quinta-feira às 12h30 como dia e hora do e-mail, e 15h como hora do WhatsApp.
-- [SUPOSIÇÃO] Corpo de cerca de 600 palavras e 3 a 4 minutos de leitura.
-- [SUPOSIÇÃO] A regra 60/40 entre conteúdo e oferta, e as estimativas por edição (50/50, 70/30, 70/30, 50/50).
-- [SUPOSIÇÃO] O teto de 2 e-mails e 2 mensagens de WhatsApp de campanha por semana por contato (herdado do plano da Pós, que também o marca como suposição).
-- [SUPOSIÇÃO] Os 5 grupos de área e os 5 eixos de segmentação, que dependem dos campos do CRM.
-- [SUPOSIÇÃO] O padrão de UTM, o prefixo "nl" no utm_content e a convivência dos dois mediums existentes.
-- [SUPOSIÇÃO] Prazo de 3 dias para a revisão docente, e o fluxo D-7 a D+3.
-- [SUPOSIÇÃO] Cerca de 6 horas do time por edição.
-- [SUPOSIÇÃO] Os templates de WhatsApp "newsletter_vet_ed01" a "ed04" e a categoria marketing.
-- [SUPOSIÇÃO] O texto do opt-in (a validar com o jurídico).
-- [SUPOSIÇÃO] Reenvio para quem não abriu 3 a 4 dias depois, no máximo uma vez.
-- [SUPOSIÇÃO] A data provisória de pausa do presencial do workshop em 19/11 (herdada do briefing do evento).
-- [SUPOSIÇÃO] O teste de horário (7h30 contra 12h30) em dezembro.
+- [SUPOSIÇÃO] Cadência quinzenal, às quartas ou quintas, 10h, e tamanho de 300 a 550 palavras por edição.
+- [SUPOSIÇÃO] Números do teto D1: 2 e-mails e 2 WhatsApp de campanha por semana por contato, somando as linhas e a newsletter, e 1 mensagem de campanha por dia (até a Ufape confirmar, pedido R1 do cmo).
+- [SUPOSIÇÃO] Janela de WhatsApp em dia útil, das 9h às 18h; e-mail em qualquer dia, das 7h às 19h.
+- [SUPOSIÇÃO] Bases da Graduação e dos veterinários são separadas na ferramenta.
+- [SUPOSIÇÃO] Confirmação dupla de inscrição como boa prática; descadastro processado em até 24 horas.
+- [SUPOSIÇÃO] Regra de revisão da cadência quando os descadastros passam da mediana das edições anteriores.
+- [SUPOSIÇÃO] Leitura de que "pago" não seria classificado como mídia paga no GA4 (motivo citado em D11 para o padrão único de UTM; o arquiteto-de-fluxos confere).
+- [SUPOSIÇÃO] Menos envios na mesma semana reduzem descadastro.
+- [SUPOSIÇÃO] Personas e tom de voz herdados das entradas (pesquisa-de-persona e estrategia-de-marca, ainda sem validação).
 
 ## Lista 3. Dados que faltam
 
-- [CONFIRMAR] Ferramenta de e-mail, plano e operador; tamanho da base e composição por segmento; total com opt-in de WhatsApp; data e origem de cada consentimento; mínimo de contatos por segmento.
-- [CONFIRMAR] Se o WhatsApp usa API oficial ou lista de transmissão; template aprovado pela Meta; registro do opt-in; quem opera.
-- [CONFIRMAR] Horas do time por semana e quem aprova e-mail e WhatsApp em massa.
-- [CONFIRMAR NO CATÁLOGO] Regras da prova (horário, formato, bolsas, nota de corte, recurso, matrícula, canal e data do resultado, regra de ausência, prazo de inscrição, local de Goiânia) e a turma de destino de cada prova, em especial 68652, 68649, 68653 e 68655.
-- [CONFIRMAR] Política de entrada em turma já iniciada (707, 68604) e forma de pagamento da 1ª mensalidade para quem entra com menos de 30 dias.
-- [CONFIRMAR NO CATÁLOGO] Cronogramas de 68610 e 68608, número de professores, avaliação e aviso de mudança de cronograma; data em que a turma é confirmada; regra de reposição de módulo; dias dos módulos presenciais de abril de 2027, novembro de 2027 e agosto de 2028 em 68608.
-- [CONFIRMAR NO CATÁLOGO] Parcelamento dos dois ingressos do workshop; base de incidência, validade e limite do cupom SIMPNEUROMONIT; fim das inscrições; política de cancelamento.
-- [CONFIRMAR] Data da Ecocardiografia (698) corrigida no site; data de 573, 68614 e 68618 (catálogo contra visão de campanhas); modalidade de 616; ficha e URL de 202, 573 e 68614.
-- [CONFIRMAR] URL do hub da prova (C01) e do guia C08; links de Cardiologia (68641 e 68642); local de Goiânia na página 68640.
-- [CONFIRMAR] Nome do revisor docente, prazo de revisão e autorização de docentes; termo do tutor.
-- [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação.
-- [CONFIRMAR] Nome oficial da newsletter, grafia (Ufape ou UFAPE), endereço de resposta, atendimento da secretaria no feriado de 20/11.
-- Sem fonte: taxa de abertura, de clique e de descadastro anteriores; histórico de e-mails da Ufape; voz real de leitores; vagas restantes; número de inscritos.
+- [CONFIRMAR] Tamanho da base de e-mail e de WhatsApp, por segmento; taxas históricas de abertura, clique e descadastro; ferramenta de e-mail atual; ferramenta de WhatsApp (API ou não) e nome do template.
+- [CONFIRMAR] Base legal para alunos e ex-alunos (jurídico ou encarregado de dados); registro do consentimento por contato; texto da caixa de consentimento; URL da política de privacidade; nome e canal do encarregado de dados; endereço de resposta; autenticação do domínio de envio.
+- [CONFIRMAR] URL e data de publicação do guia C08 (edição 1), do guia T8 ou L27 (edição 2) e da listagem de turmas (planos B).
+- [CONFIRMAR NO CATÁLOGO] Regras das provas no catálogo, público elegível, turma de destino de cada prova (U4), data do resultado (U3), qual bloco vale nas fichas com regra contraditória (U1) e como é a prova online (U2).
+- [CONFIRMAR] Se 68610 e 68608 aceitam matrícula em 18/11; parcelamento do presencial do workshop (o presencial fica sem preço no e-mail até lá); status do 68634; validade do cupom SIMPNEUROMONIT e se vale para ex-aluno de curso livre (U9); período coberto pelos R$ 100,00 do 68666; qual página fica à venda depois da correção da 623 (U5); modalidade de 68618; pré-requisito de 657 (U10); regra e validade da promoção de 341.
+- [CONFIRMAR NO CATÁLOGO] Duração e módulos por turma de Pós; tempo de acesso aos gravados; gravação e período dos grupos; carga horária de 68638.
+- [CONFIRMAR] Se haverá nova edição de evento a anunciar em dezembro; lista de perguntas recorrentes da secretaria para a edição 4; horário da secretaria no recesso.
+- [CONFIRMAR] Quem aprova e-mail e WhatsApp em massa (tabela vazia em contexto/ufape-geral.md); horas do time por semana; grafia oficial (Ufape ou UFAPE).
+- [PREENCHER COM A REGULAÇÃO] Texto oficial de certificação de Pós, Livres e Eventos (nenhuma edição cita certificado até lá).
+- Sem fonte: metas de leads, inscrições e matrículas; verba; vagas restantes.
+
+## Fontes
+
+Internas: .claude/agents/newsletter.md; CLAUDE.md; docs/execucao-2026-10-26.md; contexto/ufape-geral.md; contexto/pos-graduacao.md; contexto/cursos-livres.md; contexto/eventos.md; contexto/catalogo-de-cursos.md (26/10/2026); saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md; saidas/04-conteudo/estrategia-de-conteudo-livres-2026-10-26.md; saidas/02-estrategia-e-posicionamento/estrategia-de-marca-geral-2026-10-26.md; saidas/02-estrategia-e-posicionamento/posicionamento-pos-2026-10-26.md; saidas/02-estrategia-e-posicionamento/posicionamento-livres-2026-10-26.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02a-b.md; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-dep02b.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26.md; saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-eventos-2026-10-26.md; templates/mensagem.md; .claude/skills/assuntos-de-email/SKILL.md; auditorias/07-email-e-whatsapp.md; auditorias/conformidade-educacional.md.
+
+Externas: nenhuma. A referência à Lei nº 13.709/2018 (LGPD) é a base legal geral; a aplicação ao caso da Ufape é do jurídico [CONFIRMAR].
+
+Versão 3: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12; docs/execucao-2026-10-26.md, decisões 10 a 13; saidas/10-operacoes-de-marketing/qa-de-marketing-geral-2026-10-26-loteB.md (NV1 a NV4); contexto/catalogo-de-cursos.md, seções 4 e 5 (68634 e 669).
+
+## Mudanças desta versão
+
+Versão 3, 26/10/2026. Aplica a seção 12 do plano do cmo e os ajustes do qa.
+
+- Encomendas do cmo (12.10): tabela 3.2 refeita com a semana a semana de D3 (supressões, M3 do workshop por WhatsApp em 17/11, M8 das provas às 16h para participante, M9 do workshop em um canal) e com as edições 3 e 4; edição 4 em qui 07/01/2027, 10h (D4; pedido N7 fechado); regras de supressão trocadas pela fila D2; UTM com utm_campaign=geral_newsletter_<AAAAMM> (D11 e D12); resumo, seção 2.1 e ficha da edição 1 com o teto D1.
+- Decisões 11 a 13: provas online e com o campus na agenda da edição 1, sem citar o prazo de matrícula (vale a ficha de cada prova, U1); turma mínima de 15; datas de 68614 e 68618 pela planilha; Endoscopia só pela 68637 (623 fora até a correção).
+- NV1: "minicursos de 6 a 8 h" no portão da seção 4.4 e na Lista 1; a pré-visualização e o WhatsApp da edição 2 deixam de dizer "minicurso de 8 h".
+- NV2: transmitido com o texto do catálogo (R$ 450,00 à vista, Pix ou boleto, ou 1x de R$ 450,00 no cartão); fica só o portão do status "verificar" do 68634.
+- NV3: frase única D13 ("Curso livre: não confere diploma e não equivale a graduação ou pós-graduação.") nas edições 1 e 2 e na Lista 1; o evento leva a mesma regra.
+- NV4: nota ao copy-de-mensagens-eventos sobre 16/11 e 25/11 (seção 7), já resolvidas por D3 e D9.

@@ -4,7 +4,8 @@
 - **Linha:** eventos
 - **Data:** 26/10/2026 (segunda-feira)
 - **Etapa:** 1.32 da camada 1 do plano do cmo
-- **Escopo:** Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20/11/2026; na planilha: I Simpósio Brasileiro de Neuromonitorização Veterinária), com o produto transmitido e gravado (68634), e os dois eventos gravados de venda contínua, 700 e 202. O Simpósio Plantonista (10/10/2026, já realizado) entra só como histórico.
+- **Versão:** 2 (26/10/2026), propaga as decisões 7 a 13 da Ufape e a seção 12 do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md). Mudanças na seção "Mudanças desta versão", antes das listas finais.
+- **Escopo:** Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia (20/11/2026; nome oficial "Workshop Brasileiro de Neuromonitorização", decisão 7 da Ufape, evento liberado; a planilha usava outro nome, que não circula), com o produto transmitido e gravado (68634), e os dois eventos gravados de venda contínua, 700 e 202. O Simpósio Plantonista (10/10/2026, já realizado) entra só como histórico.
 - **Status:** rascunho para o qa-de-marketing. Nada é publicado, enviado ou pago. Toda decisão sobre campanha é pedido de aprovação humana.
 - **Natureza deste documento:** não existem resultados de campanha (gasto, impressões, cliques, inscrições, receita) [CONFIRMAR]. Este arquivo não julga desempenho. Ele avalia a estrutura que existe hoje, escreve o que o gestor-de-midia vai conferir no gerenciador de anúncios, fixa o critério de decisão antes de os números chegarem, define os modelos de relatório e de revisão pós-evento e registra lições como hipótese.
 - **Entradas lidas:**
@@ -25,7 +26,7 @@
 1. **Sem número, sem decisão.** Nenhuma linha abaixo manda manter, ajustar ou pausar uma campanha. Cada linha diz o que olhar e qual regra aplicar quando o número chegar. Metas, verba, limites e volumes mínimos são [CONFIRMAR]: nenhum foi inventado.
 2. **Lead e clique não são inscrição.** Em Eventos, o que julga é a inscrição paga (loja), separada por modalidade (presencial ou transmitida) e por uso de cupom. Presença no dia é medida do CRM, não da mídia.
 3. **Janela de tempo.** Evento tem data fixa: toda a venda acontece antes dela, com picos perto da data [SUPOSIÇÃO]. A antecedência de divulgação por subtipo é [CONFIRMAR] (contexto da linha). Janela de atribuição usada aqui: inscrição paga até 7 dias depois do clique [SUPOSIÇÃO]. O gravado continua vendendo depois do evento, então a revisão final espera 10 dias depois da data [SUPOSIÇÃO].
-4. **Dados do evento** vêm só do catálogo (seção 9) e da ficha do evento. Programação, palestrantes e facilitadores só entram em peça com autorização registrada.
+4. **Dados do evento** vêm só do catálogo (seção 9) e da ficha do evento. Programação, palestrantes e facilitadores entram em peça com nome e titulação da ficha; a autorização de imagem e citação de docentes, palestrantes e convidados foi registrada em 26/10/2026 (decisões 8 e 10).
 5. **Nenhuma afirmação de certificação.** O texto de certificado de participação é [CONFIRMAR] (contexto da linha).
 
 ---
@@ -36,7 +37,7 @@
 
 | Linha da visão | Evento | Data (visão) | Dias | Campanha | Formatos | Ângulos | Ligação com o catálogo |
 |---|---|---|---|---|---|---|---|
-| V36 | I Simpósio Brasileiro de Neuromonitorização Veterinária | 20/11/2026 | 25 | ativa | estático | não se aplica a eventos (comentário da visão) | Workshop de 20/11 (seção 9 do catálogo) |
+| V36 | Workshop Brasileiro de Neuromonitorização (a visão usa o nome antigo da planilha) | 20/11/2026 | 25 | ativa | estático | não se aplica a eventos (comentário da visão) | Workshop de 20/11 (seção 9 do catálogo) |
 | V67 | Paciente Grave Multidiciplinar Foco em casos Clinicos | 15/11/2027 | 385 | ativa | estático | sem 5 ângulos | 700 [CONFIRMAR]; a linha da planilha está "sem página" no catálogo |
 | V66 | Internacional de Coagulação | 15/11/2027 | 385 | sem campanha | não se aplica | não se aplica | 202 [CONFIRMAR] |
 | V28 | Simpósio Plantonista Veterinário | 10/10/2026 | -16 | sem campanha | não se aplica | não se aplica | sem página no catálogo, só na planilha |
@@ -50,7 +51,7 @@ Cobertura do recorte do plano (3 itens de Eventos): os 3 constam na visão com a
 | Dado | Valor | Fonte |
 |---|---|---|
 | Nome oficial | Workshop Brasileiro de Neuromonitorização Veterinária, Anestesia e Neurologia | catálogo, seção 9 |
-| Nome na planilha | I Simpósio Brasileiro de Neuromonitorização Veterinária | visão |
+| Nome oficial | Workshop Brasileiro de Neuromonitorização (a planilha usava outro nome, que não circula) | decisão 7 da Ufape, 26/10/2026 |
 | Data e local | 20/11/2026, São Paulo, Av. Tiradentes, 960 (Unidade 2) | catálogo |
 | Carga horária | 16 h (oficial do evento); o produto 68634 na loja mostra 24 h | catálogo; plano, P9 |
 | Presencial (teórico e prático) | 30 vagas, R$ 1.250,00 | catálogo |
@@ -70,11 +71,11 @@ Contas simples a partir do catálogo (não são meta):
 Achados estruturais (fatos; a conclusão é hipótese):
 
 1. A campanha é só estática e leva direto à página do evento. Nenhum vídeo, e nenhum docente aparece sem autorização registrada.
-2. Existem dois produtos de preço muito diferente (R$ 1.250,00 e R$ 450,00) e só uma campanha na visão. O catálogo só dá código de produto para o transmitido (68634); a inscrição presencial não tem código no catálogo. Sem código, a venda presencial não se liga à campanha: a chave de rastreio precisa ser criada [CONFIRMAR]. O JSON do plano usa "eventos-simposio-neuromonitorizacao-2026-11-20" para esse item.
+2. Existem dois produtos de preço muito diferente (R$ 1.250,00 e R$ 450,00) e só uma campanha na visão. O catálogo só dá código de produto para o transmitido (68634); a inscrição presencial não tem código no catálogo. Sem código, a venda presencial não se liga à campanha: a chave da campanha é eventos_neuro26 (D12 do cmo), e a ligação da venda presencial à campanha segue [CONFIRMAR]. O exemplo de nome de JSON do plano usava "simposio"; pela decisão 7, o item é o workshop.
 3. O cupom vale só para aluno e ex-aluno, que são a base da Ufape, não o público frio da mídia paga. Inscrição com cupom não prova que o anúncio funcionou.
 4. O evento está ligado à área de neurologia (A12): o plano tem a prova de bolsa 68654 de Neurologia e Neurocirurgia em 27/11 (7 dias depois), a Pós 68616 (08/05/2027, sem campanha) e o minicurso 466. Isso é uma cadeia de funil hoje sem medição.
 5. A carga horária do produto 68634 (24 h) diverge da oficial (16 h): a página de venda do transmitido pode mostrar um dado errado (P9; a correção é da Ufape).
-6. O nome na planilha ("I Simpósio") difere do nome oficial ("Workshop"): conferir qual nome está no anúncio.
+6. A planilha chamava o evento de simpósio; o nome oficial é Workshop Brasileiro de Neuromonitorização (decisão 7): conferir se o anúncio usa o nome oficial e, se não usar, trocar (ação humana).
 
 ### 1.3 Os dois eventos gravados (700 e 202)
 
@@ -112,11 +113,11 @@ As 2 campanhas de Eventos estão entre as 34 de 41 (ativas e pausadas, de todas 
 | # | Verificação | Onde olhar |
 |---|---|---|
 | E1 | O status real no gerenciador bate com a visão e a data da última mudança | Meta Ads, Google Ads |
-| E2 | Código ou chave de rastreio da edição no nome da campanha ou no utm_campaign (para o workshop, uma chave própria para o presencial e o código 68634 para o transmitido) | Meta Ads, loja |
+| E2 | Código ou chave de rastreio da edição no nome da campanha ou no utm_campaign (para o workshop, a chave eventos_neuro26 do padrão D12 do cmo; a campanha já no ar não é renomeada e é lida pela tabela de correspondência) | Meta Ads, loja |
 | E3 | A página de destino é a oficial do evento (neuro-summit), com nome oficial, data, local, carga horária de 16 h e preços iguais ao catálogo | anúncio, site, catálogo |
 | E4 | Gasto dos últimos 7 dias e acumulado, orçamento e ritmo contra os dias até a data | Meta Ads, Google Ads |
 | E5 | Entrega: impressões, alcance, frequência; sinal de saturação | Meta Ads |
-| E6 | Peça: CTR de link e CPC por criativo; só aparecem docentes confirmados e com autorização registrada [CONFIRMAR autorização] | Meta Ads, banco de peças |
+| E6 | Peça: CTR de link e CPC por criativo; só aparecem docentes confirmados (autorização registrada, decisões 8 e 10) | Meta Ads, banco de peças |
 | E7 | Visitas à página do evento, cliques em comprar, conversão do checkout, carrinhos abandonados | GA4, loja [ferramenta CONFIRMAR] |
 | E8 | Inscrições pagas por modalidade (presencial e transmitida), receita bruta e líquida, forma de pagamento (em contagem), reembolsos e UTM do pedido | loja |
 | E9 | Uso de cupom: inscrições com SIMPNEUROMONIT e sem cupom, por modalidade | loja |
@@ -154,7 +155,7 @@ Metas e limites vêm da skill metas-de-custo e da Ufape: [CONFIRMAR]. As regras 
 
 | Campanha | Checar além de E1 a E10 | Critério |
 |---|---|---|
-| Workshop de Neuromonitorização, 20/11/2026 (25 dias) | destino é neuro-summit (decisão A5) e não a página do 68634 nem uma página antiga; nome no anúncio (oficial ou "I Simpósio"); carga horária 16 h no anúncio e na página, e 24 h no produto 68634 (P9); inscrições presenciais contra as 30 vagas; transmitido separado; inscrições com e sem cupom; só docentes confirmados; sem urgência sem número de vagas | R1 primeiro: com destino ou dado divergente, nenhuma leitura de desempenho. Depois R4, com o ritmo de 30 vagas até 20/11 e o custo por inscrição por modalidade, lendo o público frio sem cupom separado da base com cupom. Em 25 dias há pouco espaço: uma mudança por vez e por semana. R6 se as 30 vagas encherem. Relatório semanal em 02/11, 09/11 e 16/11; checagem de véspera em 19/11. |
+| Workshop de Neuromonitorização, 20/11/2026 (25 dias) | destino é neuro-summit (decisão A5) e não a página do 68634 nem uma página antiga; nome no anúncio (tem de ser o oficial, Workshop Brasileiro de Neuromonitorização, decisão 7); carga horária 16 h no anúncio e na página, e 24 h no produto 68634 (P9); inscrições presenciais contra as 30 vagas; transmitido separado; inscrições com e sem cupom; só docentes confirmados; sem urgência sem número de vagas | R1 primeiro: com destino ou dado divergente, nenhuma leitura de desempenho. Depois R4, com o ritmo de 30 vagas até 20/11 e o custo por inscrição por modalidade, lendo o público frio sem cupom separado da base com cupom. Em 25 dias há pouco espaço: uma mudança por vez e por semana. R6 se as 30 vagas encherem. Relatório semanal em 02/11, 09/11 e 16/11; checagem de véspera em 19/11. |
 | "Paciente Grave Multidiciplinar" (data de 15/11/2027 na visão; 700 [CONFIRMAR]) | para onde o anúncio leva (700, outra página, página inexistente); data que aparece no anúncio; produto à venda hoje; sem 5 ângulos, só estático; gasto da semana | R1 primeiro: sem ligação confirmada, não se lê desempenho. Se o destino for o 700 (gravação contínua), R4 pelo custo por venda contra a meta do contínuo [CONFIRMAR], sem referência a data de evento. Se o destino for uma página sem venda, ou a data de 2027 estiver no anúncio de um produto que vende agora, pedir PAUSA (R6) e corrigir. |
 
 ### 2.4 Sem campanha
@@ -231,7 +232,7 @@ Estrutura do arquivo:
 | # | Lição (hipótese) | Evidência de estrutura | Como testar |
 |---|---|---|---|
 | H1 | A regra dos 5 ângulos não serve a eventos, e hoje a linha não tem um conjunto de testes próprio. Eixos possíveis: tema, docente autorizado, programa, formato (presencial ou transmitido) e cupom. | comentário da visão | escolher 2 eixos para o workshop e rotular cada peça |
-| H2 | O workshop roda só estático e sem vídeo, mesmo sendo um evento de técnica e prática. | visão | testar vídeo curto com docente autorizado, se houver tempo e autorização (25 dias é pouco) |
+| H2 | O workshop roda só estático e sem vídeo, mesmo sendo um evento de técnica e prática. | visão | testar vídeo curto com docente, se houver tempo (25 dias é pouco); a autorização está registrada (decisões 8 e 10) |
 | H3 | Dois produtos com preços de R$ 1.250,00 e R$ 450,00 podem se ajudar (o transmitido como entrada) ou competir (o transmitido tira inscrição do presencial). | catálogo | ler a mistura de inscrições por modalidade a cada semana |
 | H4 | A mídia paga alcança público frio, e o cupom de 20% só vale para aluno e ex-aluno. Se as inscrições com cupom entrarem na conta, o custo por inscrição da mídia parece menor do que é. | catálogo | custo por inscrição sem cupom, calculado à parte |
 | H5 | O evento faz parte de uma cadeia de neurologia que hoje não se mede: workshop de 20/11, prova de bolsa 68654 em 27/11, Pós 68616 em 08/05/2027 (sem campanha) e minicurso 466. | plano, A12 | contar inscritos do workshop que viram lead da Pós ou da prova, somados |
@@ -262,6 +263,12 @@ Nenhuma campanha é ligada, pausada ou alterada por este arquivo.
 O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 3.2 e o calendário da seção 3.1 para a narrativa semanal. Arquivos irmãos: analise-de-campanha-pos-2026-10-26.md e analise-de-campanha-livres-2026-10-26.md.
 
 ---
+
+## Mudanças desta versão
+
+- Escopo e seções 1 e 2: nome oficial "Workshop Brasileiro de Neuromonitorização", evento liberado; sai o nome antigo da planilha por extenso; o anúncio tem de usar o nome oficial (decisão 7).
+- Seções 0, 2 e 4 e Dados que faltam: autorização de imagem e citação registrada para docentes, palestrantes e convidados (decisões 8 e 10).
+- Seções 1 e 2: chave de campanha eventos_neuro26 (D12).
 
 ## Fatos (com fonte)
 
@@ -295,7 +302,7 @@ O agente **relatorios** (09 Analytics e Insights) pode usar o modelo da seção 
 - [CONFIRMAR] Regra do cupom por modalidade e período.
 - [CONFIRMAR] Destino e data do anúncio de "Paciente Grave"; ligação com 700; ligação de "Internacional de Coagulação" com 202.
 - [CONFIRMAR] Antecedência de divulgação por subtipo, política de cortesias, meia-entrada e inscrição em grupo (contexto da linha).
-- [CONFIRMAR] Autorização de imagem e voz dos docentes confirmados.
+- Autorização de imagem e citação dos docentes: registrada em 26/10/2026 (decisões 8 e 10); deixa de faltar.
 - [CONFIRMAR] Texto de certificado de participação.
 - [CONFIRMAR] Se a Ufape mede presença e satisfação.
 - [CONFIRMAR] Ferramentas de CRM, GA4 e atendimento (ufape-geral.md, seção Ferramentas).

@@ -3,7 +3,8 @@
 - **Agente:** criativos-de-anuncio (departamento 11, Mídia Paga), camada 3, onda 1, kit do evento, etapa "criativos-de-anuncio"
 - **Linha:** eventos (subtipo workshop na página; "I Simpósio" na planilha, nome que as peças não usam)
 - **Canal ativado:** Meta (Instagram e Facebook). Fora desta entrega: Google, TikTok, LinkedIn, YouTube, X e podcast (justificativa no briefing de campanha, seção 1).
-- **Data:** 26/10/2026 (segunda-feira). Prazo do briefing para esta entrega: 29/10. Versão corrigida depois da rodada A do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md, seção 3).
+- **Data:** 26/10/2026 (segunda-feira). Prazo do briefing para esta entrega: 29/10. Versão 2 corrigida depois da rodada A do qa-de-marketing (saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md, seção 3).
+- **Versão:** 3 (26/10/2026), aplica a seção 12 do plano do cmo (saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, encomenda da seção 12.10 para este arquivo: sufixos de UTM no padrão de D11 e D12 antes da subida de 03/11 e datas de EVM1) e as decisões 8 e 10 de docs/execucao-2026-10-26.md. O que mudou está na seção "Mudanças desta versão", no fim.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação da pessoa do marketing. Nada foi publicado, enviado ou pago. Nenhuma campanha, conjunto ou anúncio foi criado, alterado, pausado ou teve verba mexida: tudo abaixo é pedido para um humano executar.
 - **Entradas lidas:**
   - docs/execucao-2026-10-26.md
@@ -21,6 +22,7 @@
   - saidas/10-operacoes-de-marketing/qa-de-marketing-eventos-2026-10-26-a.md (veredito, seção 3)
   - templates/kit-de-lancamento-evento.md
   - auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md
+  - Versão 3: saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 12 (12.6 EVM1, D11, D12, 12.11 R3); saidas/11-midia-paga/gestor-de-midia-eventos-2026-10-26.md (seção 1.6, sequência única, e pedidos EVM1 a EVM13); saidas/11-midia-paga/anuncios-meta-eventos-2026-10-26.md (nomes de campanha e de conjunto e UTM por conjunto)
 - Não abri faculdade.ufape.com.br. Nenhuma busca na web. Nenhum dado pessoal. Nenhum número de gasto, resultado, verba, inscritos ou vagas restantes existe nos arquivos: onde seria preciso, está escrito [DADO NÃO FORNECIDO].
 
 **Correções desta versão (veredito C1 a C10 do QA):** valores com cupom calculados retirados do arquivo, inclusive de notas (C1); divergência inexistente sobre número de temas retirada (C5); nome completo do evento em C3 e C4 (C2); horário de aula retirado do anúncio de C1, variação G2 (C3); B8 (vagas restantes) retirada, só "30 vagas" como total (C4); C6 bloqueado até a validade do cupom, que fica [CONFIRMAR] (C6); contagens de caracteres corrigidas (C7); condição do transmitido conforme o catálogo e a do presencial [CONFIRMAR NO CATÁLOGO] (C8); fonte primária do status do 68634 (C9); auditoria 11 fechada com meta, verba, pixel e plano do gestor como [CONFIRMAR] e subida bloqueada (C10).
@@ -44,7 +46,7 @@
 4. **Regras duras aplicadas em todas as peças:**
    - Dados só da ficha: 20 e 21/11/2026; 16 h (8 teóricas e 8 práticas) só para o presencial; 30 vagas no presencial, escrito como capacidade total ("30 vagas presenciais, por ordem de inscrição"), nunca "últimas vagas", "vagas limitadas", "somente" nem vagas restantes; R$ 1.250,00 e R$ 450,00 só nas variações marcadas como bloqueadas (parcelamento do presencial não consta no catálogo, E5); Faculdade Ufape, Unidade 2, Av. Tiradentes, 960, São Paulo/SP.
    - Horário de aula: nenhum anúncio traz horário de bloco. Só o horário do dia ("das 08h às 18h"), que vem da ficha.
-   - Docentes: nenhum nome e nenhuma foto nas peças-base. Uma única variação com a coordenação científica nomeada em texto existe e está bloqueada até a autorização [CONFIRMAR autorização]. Os 4 convidados "a definir" não aparecem.
+   - Docentes: nenhum nome e nenhuma foto nas peças-base. A autorização de imagem e citação está registrada para todos (decisões 8 e 10). A única variação com a coordenação científica nomeada em texto (B6) deixa de esperar autorização, mas não tem janela na sequência EVM1 (a mudança do frio em 10/11 e a do remarketing em 14/11 já estão ocupadas): fica para a próxima edição ou para troca aprovada pelo gestor. Os 4 convidados "a definir" não aparecem.
    - Certificado: nenhuma peça cita certificado (leitura mais restritiva da casa de mensagens, seção 0, regra 5; decisão final AP8 do briefing). Apostila: nenhuma peça cita. MEC: nenhuma peça cita.
    - Sem promessa clínica: nenhuma peça diz que o participante "vai saber", "dominar" ou que o paciente "fica seguro". O texto descreve o que o programa faz ("treina instalar", "discute", "revisa").
    - Prática do sábado: sempre "em modelos", "casos", "simulações ou registros clínicos". Nunca "paciente real" ou "paciente vivo". Nenhuma peça diz quantos monitores há nem quantos participantes por equipamento.
@@ -53,7 +55,7 @@
    - Texto de anúncio descreve a situação de uso ("para quem tem o BIS no centro cirúrgico"), nunca afirma característica de quem vê (não há "Você é anestesiologista?", "Residente sem tempo?").
    - Nome do evento: nome completo no texto principal ou na arte de toda peça; "workshop", nunca "simpósio". "Neuro Summit" só aparece no endereço e no parâmetro de campanha.
 5. **Divergências entre arquivos de entrada que afetam as peças (sem editar arquivo alheio):**
-   - A mídia do presencial para em 18/11 (briefing) ou 19/11 (memorando do gestor), os dois dependem do fim das inscrições [CONFIRMAR]. Esta entrega usa a janela 18 a 19/11 e deixa a data final para o gestor.
+   - Resolvido na versão 3 pela sequência única EVM1 (plano do cmo, 12.6; gestor-de-midia-eventos, 1.6): a mídia do presencial para em 18/11, às 23h59, e a do transmitido e da base em 19/11, às 23h59, ou antes, se as inscrições acabarem [CONFIRMAR, U9].
    - O briefing e a pesquisa de persona trazem valores com cupom calculados. Esta entrega não os usa e pede que o estrategia-de-campanha os retire do briefing.
    - A casa de mensagens diz que o parcelamento não consta no catálogo para as duas modalidades. O catálogo (seção 4, produto 68634) traz para o transmitido "R$ 450,00 à vista (Pix ou boleto) ou 1x de R$ 450,00 no cartão", sujeito à correção do 68634. Falta só a condição do presencial [CONFIRMAR NO CATÁLOGO]. Nenhuma peça liberável usa preço.
 
@@ -63,7 +65,7 @@
 
 ### 1.1 As 5 dimensões de cada conceito
 
-O mensageiro fica igual em todos os conceitos (só texto na tela e narrador institucional, sem docente) porque nenhum docente tem autorização registrada. Ele só vira variável de teste quando houver autorização (teste T7). Por isso a diferença entre conceitos vem de persona, ângulo, formato e gancho.
+O mensageiro fica igual em todos os conceitos (só texto na tela e narrador institucional, sem docente). A autorização de imagem e citação está registrada (decisões 8 e 10), mas a sequência EVM1 não tem janela para o teste do mensageiro (T7) nesta edição. Por isso a diferença entre conceitos vem de persona, ângulo, formato e gancho.
 
 | Código | Nome curto | Persona e momento | Ângulo | Formato principal | Gancho (tipo) | Mensageiro | Objeção que responde | Por que pode funcionar [SUPOSIÇÃO] |
 |---|---|---|---|---|---|---|---|---|
@@ -99,7 +101,7 @@ Nenhum par repete persona, ângulo e formato ao mesmo tempo. C1 e C3 têm a mesm
 
 Padrões comuns a todos:
 
-- **Destino:** https://faculdade.ufape.com.br/neuro-summit/ com UTM. Modelo (padrão proposto no briefing, [SUPOSIÇÃO] até P15): `https://faculdade.ufape.com.br/neuro-summit/?utm_source=<instagram ou facebook, por posicionamento>&utm_medium=pago&utm_campaign=neuro-summit-2026&utm_content=<nome padrão da variação>`. O parâmetro `utm_content` é sempre igual ao nome padrão da variação (seção 5). Nada aponta para o produto 68634 da loja.
+- **Destino:** https://faculdade.ufape.com.br/neuro-summit/ com UTM no padrão D11 e D12 do plano do cmo, igual ao do anuncios-meta-eventos: `?utm_source=meta&utm_medium=paid_social&utm_campaign=<nome da campanha>&utm_content=<nome padrão da variação>&utm_term=<público do conjunto>`. Campanha nova (remarketing, transmitido e base): `utm_campaign=eventos_neuro26_meta_checkout_misto18_202611`, com utm_term rmk30d, transmitido-br ou base. Campanha atual do frio, que não é renomeada (D12): utm_campaign = `eventos_neuro26_` mais o nome atual em minúsculas e sem acento, com utm_term=frio. O parâmetro `utm_content` é sempre igual ao nome padrão da variação (seção 5). Tudo em minúsculas, sem acento, sem dado pessoal. Nada aponta para o produto 68634 da loja.
 - **Chamada (botão):** "Saiba mais" em todas, porque a página não tem formulário de lead e o preço aparece abaixo da programação (CRO, página 4). O anuncios-meta pode trocar o botão se o gerenciador oferecer opção mais adequada, sem mudar o texto.
 - **Limites de texto** (conferidos por contagem): título até 40 caracteres, descrição até 30. O texto principal tem a frase de abertura nos primeiros 125 caracteres.
 - **Arte (todos os formatos):** ilustração própria de traçado de EEG ou de linha do tempo, sem foto de docente, sem imagem de animal em procedimento, sem selo do MEC ou de terceiro, sem botão de play falso. Rodapé de toda arte: "Realização: Faculdade UFAPE". Logotipo, paleta e fonte: [CONFIRMAR manual de marca]. Sem caixa alta para gritar, sem pontuação repetida, sem emoji.
@@ -373,22 +375,22 @@ Padrão do nome: `neuro26_<conceito>_<formato>_<gancho>_v<n>`, em minúsculas, s
 
 Liberáveis para aprovação do texto. A subida de todas continua bloqueada até a seção 10.2 ser resolvida.
 
-| # | Nome padrão | Conceito | Formato | Gancho | O que difere do v1 do conceito | Lote de subida (quando a subida for liberada) |
+| # | Nome padrão | Conceito | Formato | Gancho | O que difere do v1 do conceito | Entrada na sequência EVM1 (seção 8; quando a subida for liberada) |
 |---|---|---|---|---|---|---|
-| 1 | neuro26_alem_est11_numero-na-tela_v1 | C1 | est 1:1 | G1 | peça-base | 1 |
-| 2 | neuro26_alem_est916_numero-na-tela_v1 | C1 | est 9:16 | G1 | formato | 1 |
-| 3 | neuro26_alem_est11_guedel-awareness_v1 | C1 | est 1:1 | G2 | gancho (iteração prevista) | 1 |
-| 4 | neuro26_alem_vid916_numero-na-tela_v1 (R1) | C1 | vídeo 9:16 | G1 | formato | 2 |
-| 5 | neuro26_sexsab_car11_sexta-base_v1 | C2 | carrossel 1:1 | G1 | peça-base | 1 |
-| 6 | neuro26_sexsab_est11_sexta-base_v1 | C2 | est 1:1 | G1 | formato | 1 |
-| 7 | neuro26_sexsab_est916_sem-eeg-previo_v1 | C2 | est 9:16 | G2 | formato e gancho (peça nova de formato, não iteração) | 2 |
-| 8 | neuro26_sexsab_vid916_sexta-base_v1 (R2) | C2 | vídeo 9:16 | G1 | formato | 3 |
-| 9 | neuro26_utibnm_vid916_dormindo_v1 (R4) | C4 | vídeo 9:16 | G1 | peça-base | 2 |
-| 10 | neuro26_utibnm_est916_dormindo_v1 | C4 | est 9:16 | G1 | formato | 2 |
-| 11 | neuro26_utibnm_est11_dormindo_v1 | C4 | est 1:1 | G1 | formato | 2 |
-| 12 | neuro26_bisler_vid916_literatura_v1 (R3) | C3 | vídeo 9:16 | G1 | peça-base | 3 |
-| 13 | neuro26_bisler_est11_sinal-ou-artefato_v1 | C3 | est 1:1 | G2 | formato e gancho | 3 |
-| 14 | neuro26_bisler_est916_literatura_v1 | C3 | est 9:16 | G1 | formato | 3 |
+| 1 | neuro26_alem_est11_numero-na-tela_v1 | C1 | est 1:1 | G1 | peça-base | 03/11, frio |
+| 2 | neuro26_alem_est916_numero-na-tela_v1 | C1 | est 9:16 | G1 | formato | 03/11, frio |
+| 3 | neuro26_alem_est11_guedel-awareness_v1 | C1 | est 1:1 | G2 | gancho (iteração prevista) | 03/11, frio |
+| 4 | neuro26_alem_vid916_numero-na-tela_v1 (R1) | C1 | vídeo 9:16 | G1 | formato | 03/11, frio, só se pronto e aprovado até 03/11 |
+| 5 | neuro26_sexsab_car11_sexta-base_v1 | C2 | carrossel 1:1 | G1 | peça-base | 03/11, frio e remarketing |
+| 6 | neuro26_sexsab_est11_sexta-base_v1 | C2 | est 1:1 | G1 | formato | 03/11, frio e remarketing |
+| 7 | neuro26_sexsab_est916_sem-eeg-previo_v1 | C2 | est 9:16 | G2 | formato e gancho (peça nova de formato, não iteração) | sem janela nesta edição |
+| 8 | neuro26_sexsab_vid916_sexta-base_v1 (R2) | C2 | vídeo 9:16 | G1 | formato | 03/11, frio, só se pronto e aprovado até 03/11 |
+| 9 | neuro26_utibnm_vid916_dormindo_v1 (R4) | C4 | vídeo 9:16 | G1 | peça-base | 10/11, frio, só pela opção (b) |
+| 10 | neuro26_utibnm_est916_dormindo_v1 | C4 | est 9:16 | G1 | formato | 10/11, frio, só pela opção (b) |
+| 11 | neuro26_utibnm_est11_dormindo_v1 | C4 | est 1:1 | G1 | formato | 10/11, frio, só pela opção (b) |
+| 12 | neuro26_bisler_vid916_literatura_v1 (R3) | C3 | vídeo 9:16 | G1 | peça-base | 03/11, remarketing |
+| 13 | neuro26_bisler_est11_sinal-ou-artefato_v1 | C3 | est 1:1 | G2 | formato e gancho | 03/11, remarketing |
+| 14 | neuro26_bisler_est916_literatura_v1 | C3 | est 9:16 | G1 | formato | 03/11, remarketing |
 
 ### 5.2 Variações bloqueadas (existem, mas só sobem quando a condição for cumprida)
 
@@ -399,7 +401,7 @@ Liberáveis para aprovação do texto. A subida de todas continua bloqueada até
 | B3 | neuro26_transm_vid916_ao-vivo-gravada_v1 (R5) | C5 | Mesma de B1 | |
 | B4 | neuro26_alem_est11_numero-na-tela_v2-preco | C1 | Condição do presencial no catálogo [CONFIRMAR NO CATÁLOGO] (o transmitido já tem condição no catálogo, depois da correção do 68634) e ok da Ufape (AP7) | Única mudança: linha de preço "Presencial R$ 1.250,00 | Apenas teórico R$ 450,00". Testa preço visível (T8) |
 | B5 | neuro26_base_est11_20-aluno_v2-preco | C6 | Igual a B4, mais validade e regra do cupom completas (E6) | Mostra preço de tabela, nunca o valor com desconto |
-| B6 | neuro26_alem_est11_numero-na-tela_v3-coordenacao | C1 | Autorização registrada da coordenação científica [CONFIRMAR autorização] | Única mudança: acrescenta em texto "Coordenação científica: Profa. Dra. Mayara Travalini de Lima". Sem foto. Testa mensageiro (T7) |
+| B6 | neuro26_alem_est11_numero-na-tela_v3-coordenacao | C1 | Autorização registrada (decisões 8 e 10); entra só se o gestor abrir janela fora da sequência EVM1 | Única mudança: acrescenta em texto "Coordenação científica: Profa. Dra. Mayara Travalini de Lima". Sem foto. Testa mensageiro (T7) |
 | B7 | neuro26_alem_est11_comeca-sexta_v2-data | C1 | Só depois da leitura de 09/11 e dentro da janela 14 a 18/11 | Única mudança: gancho de data "Começa na sexta, 20/11" (fato de calendário, sem escassez) |
 | B9 | neuro26_sexsab_car11_sexta-base_v2-fim-inscricoes | C2 | Fim das inscrições confirmado [CONFIRMAR] | Acrescenta o cartão "Inscrições até [data]". Sem data real, não existe |
 | B10 | neuro26_base_est11_20-aluno_v1 | C6 | **Validade e limite do cupom informados pela Ufape** [CONFIRMAR]; base legal da lista (A13), senão remarketing | Peça-base de C6, texto na seção 2 com "Cupom válido até [CONFIRMAR]" |
@@ -440,7 +442,7 @@ Regras do teste (do memorando do gestor e da skill):
 | T4 | Dentro do conceito vencedor, o gancho com termo técnico da grade (G2) retém mais que o gancho de decisão (G1) | Gancho (G1 contra G2, tudo o mais igual) | CTR no link e custo por visualização da página | Custo por início de checkout | G2 melhor em CTR e em custo por visualização, sem piora no custo por início de checkout, em 2 leituras | 13/11 | Trocar o anúncio de G1 por G2; guardar G1 |
 | T5 | Dentro do conceito vencedor, o vídeo 9:16 retém e converte mais que o estático 1:1 | Formato (vid916 contra est11, mesmo gancho e mesmo texto) | Custo por início de checkout | Reproduções de 3 s, 50% e 95%, CTR | Vídeo com custo menor em 2 leituras e retenção de 50% que justifique | 13/11 | Pedir mais variações de vídeo; se estático ganha, não produzir mais vídeo para esta edição |
 | T6 | O cupom para a base gera inscrições com custo e volume que justificam a faixa paralela | Público (base contra remarketing sem cupom), mesmo evento | Usos do cupom e inscrições por `utm_content` (números somados enviados pela Ufape) | Taxa de cliques no link, frequência | Inscrições com cupom em volume que a Ufape considere relevante [DADO NÃO FORNECIDO: meta de inscritos com cupom] | 09/11 e 16/11, só se C6 for liberado | Reforçar a base no WhatsApp e e-mail (outro agente) |
-| T7 | O mensageiro com a coordenação científica nomeada em texto aumenta o clique (prova de autoridade) | Mensageiro (B6 contra o v1 de C1, tudo o mais igual) | CTR no link e custo por início de checkout | Comentários e salvamentos | Melhora em 2 leituras seguidas, sem queda de custo por início de checkout | Depois da autorização, mínimo 5 dias de veiculação | Trocar o anúncio; liberar peças com docente para o orgânico (outro agente) |
+| T7 | (Sem janela na sequência EVM1 nesta edição.) O mensageiro com a coordenação científica nomeada em texto aumenta o clique (prova de autoridade) | Mensageiro (B6 contra o v1 de C1, tudo o mais igual) | CTR no link e custo por início de checkout | Comentários e salvamentos | Melhora em 2 leituras seguidas, sem queda de custo por início de checkout | Depois da autorização, mínimo 5 dias de veiculação | Trocar o anúncio; liberar peças com docente para o orgânico (outro agente) |
 | T8 | Mostrar o preço de tabela no anúncio filtra o clique e melhora a qualidade do clique | Preço visível (B4 contra v1 de C1, tudo o mais igual) | Custo por início de checkout e taxa de início de checkout por clique | CTR no link | Menos cliques, mas custo por início de checkout menor ou igual, em 2 leituras | Só depois da condição do presencial no catálogo e de AP7; mínimo 5 dias | Adotar a versão com preço nos anúncios de remarketing |
 | T9 | Em remarketing, a data próxima ("Começa na sexta, 20/11") converte mais que a versão sem data | Texto de data (B7 contra v1 de C1) | Custo por inscrição ou por início de checkout | Frequência | Melhora em 2 leituras seguidas na janela 14 a 18/11 | 17/11 | Manter até 18 ou 19/11 |
 
@@ -450,28 +452,27 @@ Se o gestor-de-midia entregar o custo por inscrição máximo e a verba, cada li
 
 ## 8. Ordem de subida dentro da reta final (27/10 a 19/11)
 
-**Bloqueio geral: nenhuma subida acontece, nem o lote 1 de 30/10, antes de estarem resolvidos, por um humano, a meta de custo, a verba com aprovador, o pixel e a API de Conversões testados e o plano do gestor-de-midia aprovado (seção 10.2). Hoje os quatro estão [CONFIRMAR].** As datas abaixo valem só depois disso; se o desbloqueio atrasar, o lote 1 desliza e a ordem se mantém.
+**Bloqueio geral: nenhuma subida acontece, nem o lote 1 de 03/11, antes de estarem resolvidos, por um humano, a meta de custo, a verba com aprovador, o pixel e a API de Conversões testados e o plano do gestor-de-midia aprovado (seção 10.2). Hoje os quatro estão [CONFIRMAR].** As datas abaixo valem só depois disso; se o desbloqueio atrasar, o lote 1 desliza e a ordem se mantém.
 
-Cada subida é um **pedido de aprovação** para um humano executar no gerenciador. Nada sobe antes de aprovado pela pessoa do marketing e conferido pelo qa-de-marketing. Calendário base: briefing (seção 2) e memorando do gestor (seção 4.4). 26/10 é segunda; 02/11 e 20/11 são feriados nacionais (20/11 é o primeiro dia do evento).
+Cada subida é um **pedido de aprovação** para um humano executar no gerenciador. Nada sobe antes de aprovado pela pessoa do marketing e conferido pelo qa-de-marketing. Calendário: sequência única EVM1 da seção 1.6 do gestor-de-midia-eventos, confirmada pelo cmo como recomendação (12.6) e levada à aprovação humana no pedido R3; ela substitui as datas da versão 2 desta seção. 26/10 é segunda; 02/11 e 20/11 são feriados nacionais (20/11 é o primeiro dia do evento).
 
 | Data | Passo | O que sobe ou muda | Condição | Por que nesta ordem |
 |---|---|---|---|---|
-| 27/10 (ter) a 28/10 (qua) | Preparação | Nada vai ao ar. Humano exporta os anúncios ativos do workshop para a auditoria de similaridade. Gestor revisa W1 a W9 e escreve custo por inscrição máximo. A Ufape responde E3 a E8 e a regra do cupom | Aprovação AP1 e AP2 | Sem meta escrita e sem inventário dos criativos que rodam, não dá para julgar nada |
+| 27/10 (ter) a 28/10 (qua) | Preparação | Nada novo vai ao ar. Em 28/10, humano aplica as correções W1 a W9 na campanha atual, registra a linha de base, exporta os anúncios ativos do workshop para a auditoria de similaridade e cria os públicos de visitantes da página, sem gasto. Gestor escreve custo por inscrição máximo. A Ufape responde E3 a E8 e a regra do cupom | Aprovação AP1 e AP2 | Sem meta escrita e sem inventário dos criativos que rodam, não dá para julgar nada |
 | 29/10 (qui) | Aprovação | Este pacote vai ao qa-de-marketing e à pessoa do marketing | Conformidade e AP deste documento | Prazo do briefing |
-| 30/10 (sex) | **Lote 1** | C1 (variações 1, 2 e 3) e C2 (variações 5 e 6) no conjunto de público amplo | Bloqueio geral resolvido; aprovação; teste de rastreio de compra feito (M7 e W8) | O briefing põe os criativos 1 e 2 em teste nesta data. C1 e C2 são os dois mais distantes (4 dimensões) |
-| Quando a validade do cupom chegar | Faixa paralela da base | C6 (B10 e B11) em conjunto próprio | Validade e limite do cupom informados pela Ufape; base legal da lista, senão remarketing | C6 não concorre com o frio, mas não sobe sem validade |
-| 31/10 a 02/11 | Sem mudança | Nenhuma alteração. 02/11 é feriado | | Os dados do fim de semana prolongado subcontam: não ler tendência |
-| 03/11 (ter) | Checagem 1 (leitura qualitativa) | **Lote 2:** C4 (variações 9, 10 e 11) entra no mesmo conjunto; variação 4 (vídeo de C1) entra. Sem tirar nada | Resultado do lote 1 mostra o funil funcionando (cliques na página e início de checkout registrados). Sem rastreio, não sobe | Briefing: criativo 3 (intensivista) na semana 2. C4 e o vídeo entram juntos porque são anúncios novos, sem mexer em verba, público ou destino |
-| 06/11 (sex) | **Lote 3** | C3 (variações 12, 13 e 14) e C2 em vídeo (variação 8) entram | Lote 2 sem erro de entrega; nada trocado no mesmo dia | Dá 3 dias a cada entrada antes de 09/11 |
-| 09/11 (seg) | **Decisão** | Leitura de T1, T2 e T6. Ações possíveis: concentrar verba no conceito vencedor; pausar o anúncio que gastou o mínimo sem início de checkout; manter o resto. Uma mudança por conjunto | Gasto mínimo e 3 dias de dados; números do gerenciador e do CRM batem (senão, investigar) | Checagem prevista no briefing e no memorando (dobrar a aposta ou mudar o rumo) |
-| 10/11 (ter) | **Lote 4: transmitido** | C5 (B1, B2 e B3) em conjunto próprio de público nacional e remarketing | **Só se** o 68634 for corrigido (E2) e a Ufape confirmar o que o ingresso entrega. Se não, C5 não sobe e o remarketing de última semana usa os conceitos presenciais | Briefing: "escolha do ingresso" na semana 3; o gestor prevê anúncio do transmitido entre 14 e 18/11 |
-| 10/11 a 12/11 | Iterações do vencedor | T4 (gancho) e T5 (formato) sobem, uma variável por vez e um teste por vez no conjunto. T7 (coordenação científica) entra se a autorização chegar. T8 (preço) entra se a condição do presencial estiver no catálogo | Vencedor claro em T1; cada iteração com mudança de uma variável só | Regra: uma variável por teste só em cima de vencedor |
-| **12/11 (qui)** | **Último dia para anúncio novo** | Depois de 12/11, nenhum conceito novo e nenhuma iteração entra. Só reativação e troca de data | Regra interna de 7 dias de aprendizado, aplicada por analogia ao que o gestor definiu para Pós e Livres (memorando, seção 5.1) [SUPOSIÇÃO] | Sem tempo de aprendizado nos últimos 7 dias |
-| 13/11 (sex) | Leitura de T3, T4 e T5 | Concentrar o que venceu | Mesmo cuidado de dados | Última leitura antes da semana final |
-| 14/11 (sáb) a 16/11 (seg) | **Última semana, remarketing** | B7 ("Começa na sexta, 20/11", fato de calendário) entra no remarketing; vencedores de T4 e T5 ficam. Em 16/11, leitura final (briefing) | Janela de remarketing de visitantes da página; frequência controlada | A data próxima substitui qualquer escassez |
-| 17/11 (ter) a 18/11 (qua) | Última reta | B7 segue. Anúncio do transmitido (C5), se liberado, segue para quem não pode viajar. Nenhuma peça cita vagas restantes | | Urgência só pela data do evento |
-| 18/11 (qua) | Fim da mídia do presencial (briefing) | Pedido de pausa ou troca dos anúncios do presencial pelos do transmitido | Fim das inscrições do presencial [CONFIRMAR] | Briefing: 18/11; memorando do gestor: 19/11. Vale a data que a Ufape confirmar |
-| 19/11 (qui) | Pausa final | Pausa dos anúncios do presencial (e do transmitido, conforme o fim das inscrições). Pausar, nunca excluir | Fim das inscrições [CONFIRMAR] | Evento começa no dia seguinte |
+| 30/10 (sex) | Teste de rastreio (EA4) | Nada sobe. Humano testa a compra do presencial e do transmitido na página neuro-summit (pixel e API de Conversões), um dia útil antes de 03/11, porque 31/10 é sábado e 02/11 é feriado | Checklist do anuncios-meta | EVM1 e EVM4 do gestor; antes, o lote 1 era em 30/10 |
+| 31/10 a 02/11 | Sem mudança | Nenhuma alteração. A campanha atual segue com a diária atual, sem aumento. 02/11 é feriado | | Os dados do fim de semana prolongado subcontam: não ler tendência |
+| 03/11 (ter) | **Lote 1 no frio**, depois da revisão semanal 1 | C1 ALEM e C2 SEXSAB entram no conjunto frio (variações 1, 2, 3, 5 e 6; vídeos 4 e 8 só se prontos e aprovados até 03/11). Anúncios antigos que passaram em W1 a W9 seguem até 10/11 | Bloqueio geral resolvido; teste de 30/10 feito; peças aprovadas pelo qa e pela pessoa do marketing (EVM5) | Sequência EVM1: uma mudança por semana em cada conjunto |
+| 03/11 (ter) | **Remarketing (conjunto novo)** | C3 BISLER (variações 12, 13 e 14) e C2 SEXSAB para visitantes da página nos últimos 30 dias, menos compradores | Mesmas de EVM5; público com tamanho que a plataforma aceite (EVM6) | C3 foi desenhado para remarketing (T3) |
+| 03/11 a 18/11 | Leitura de sobreposição (EA3) | Nada sobe. Registro lado a lado de CPM, alcance e frequência com as provas de Anestesiologia e de Neurologia e, desde a subida, com a 616 | | CPM subindo com CTR estável é disputa de leilão, não criativo fraco (NE4) |
+| 09/11 (seg) | **Decisão** (revisão semanal 2) | Leitura de T1 (C1 contra C2) e de T6, se a base estiver no ar. Escolha da mudança única de 10/11 | Gasto mínimo e 3 dias de dados; gerenciador, GA4 e loja batem | Checagem do briefing e do gestor |
+| 10/11 (ter) | **Mudança única no frio** | Uma só: (a) no ritmo ou acima, aumento de até 20% da diária do frio no conceito vencedor, dentro da verba aprovada; (b) abaixo do ritmo e com início de checkout, entra C4 UTIBNM (variações 9, 10 e 11) e sai o anúncio que gastou o mínimo sem início de checkout; (c) sem início de checkout, nenhuma mudança e investigação de página e rastreio | Revisão de 09/11 registrada (EVM7) | C4 deixa de entrar em 03/11: só entra pela opção (b) |
+| 14/11 (sáb), programado em 13/11 (sex) | **Remarketing: B7** | B7 ("Começa na sexta, 20/11", fato de calendário) entra; é a única mudança da semana no remarketing (vira o T9) | B7 aprovado (EVM8) | A data próxima substitui qualquer escassez |
+| 14/11 (sáb), programado em 13/11 | **Transmitido (conjunto novo)** | C5 (B1, B2 e B3) com público nacional e remarketing de visitantes | **Só se** o 68634 for corrigido (E2) e a Ufape confirmar o que o ingresso entrega (EVM9); senão não sobe | Antes, o lote do transmitido era em 10/11 |
+| 16/11 (seg) | Revisão semanal 3 | Leitura final; se o presencial lotar, pausa imediata do frio e do remarketing do presencial | (EVM11) | |
+| 18/11 (qua), 23h59 | **Pausa do presencial** | Pausa (nunca excluir) do frio e do remarketing do presencial, com exportação prévia; antes, se as 30 vagas lotarem ou as inscrições do presencial acabarem | Fim das inscrições do presencial [CONFIRMAR, U9] (EVM11) | Data única da sequência EVM1, no lugar de "18 ou 19/11" |
+| 19/11 (qui), 23h59 | **Pausa do transmitido e da base** | Pausa dos conjuntos do transmitido e da base (C6) | Antes, se as inscrições do transmitido acabarem [CONFIRMAR, U9] (EVM12) | Evento começa no dia seguinte |
+| Da validade do cupom até 19/11 | Faixa paralela da base | C6 (B10 e B11) em conjunto próprio | Validade e limite do cupom informados pela Ufape; base legal da lista, senão remarketing (EVM13) | C6 não concorre com o frio, mas não sobe sem validade |
 | Qualquer data | Pausa por lotação | Se as 30 vagas presenciais lotarem, pausar os anúncios do presencial e manter só o transmitido | Informação da Ufape de que lotou | M9 do gestor |
 
 Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (sem excluir). Efeito esperado: inscrições no presencial (teto 30) e no transmitido. Quanto: verba [DADO NÃO FORNECIDO]; nenhum pedido deste documento aumenta verba.
@@ -482,9 +483,9 @@ Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (s
 
 | # | O que precisa de aprovação | Por que | Quem aprova | Estado |
 |---|---|---|---|---|
-| A1 | Este pacote (conceitos, textos, roteiros, nomes, ordem de subida) | Anúncio e verba | Pessoa do marketing (aprovador formal ainda não definido, P12) | pendente |
+| A1 | Este pacote (conceitos, textos, roteiros, nomes, ordem de subida) e a sequência EVM1 com o teste de 30/10 (pedido R3 do plano do cmo) | Anúncio e verba | Pessoa do marketing (aprovador formal ainda não definido, P12) | pendente |
 | A2 | Afirmações técnicas das peças (BIS, EEG, BNM, TOF, "evidências e limitações", "o que está validado", frase do paciente sob bloqueio) | Precisão científica, público especialista | Coordenação científica do evento [CONFIRMAR] | pendente (AP6) |
-| A3 | Nome de docente em qualquer peça (única variação: B6, coordenação científica) | Direito de imagem e nome | Autorização registrada de cada docente [CONFIRMAR autorização] | pendente (AP5); peças-base sem nome |
+| A3 | Nome de docente em qualquer peça (única variação: B6, coordenação científica) | Nome e titulação conforme a ficha | Pessoa do marketing; autorização de imagem e citação já registrada (decisões 8 e 10) | sem janela na sequência EVM1; peças-base sem nome |
 | A4 | Imagem de aluno, professor, participante ou do ambiente da Unidade 2 | Direito de imagem | Ufape, com termo registrado [CONFIRMAR] | não se aplica às peças-base (ilustração própria); só se a Ufape fornecer material |
 | A5 | Depoimento | Só real e autorizado | Ufape | não usado; nenhum depoimento escrito pela squad |
 | A6 | Preço (B4 e B5) | CDC: parcelamento e condições completas | Ufape (comercial e jurídico) | pendente (E5, AP7); peças-base sem preço |
@@ -493,12 +494,12 @@ Como desfazer qualquer subida: pausar o anúncio ou o conjunto no gerenciador (s
 | A9 | Nota do MEC, ato regulatório, certificado | Regulação | n/a | não se aplica: nenhuma peça cita MEC, nota ou certificado; decisão AP8 mantida como restritiva |
 | A10 | Produto 68634 corrigido na loja (data, carga, modalidade) | Página de destino entrega o que a peça promete | Ufape (páginas e preços) | pendente (E2); bloqueia C5 |
 | A11 | Vagas restantes | Fora desta rodada: só "30 vagas" como total | n/a | retirado; B8 não existe neste pacote |
-| A12 | Fim das inscrições do presencial e do transmitido | Data de pausa | Ufape | [CONFIRMAR]; bloqueia B9 e a data de pausa |
+| A12 | Fim das inscrições do presencial e do transmitido | Pausa antecipada, se vier antes de 18/11 e 19/11 | Ufape | [CONFIRMAR, U9]; bloqueia B9. As datas de pausa estão fixadas por EVM1 |
 | A13 | Público de lista de contatos para a base (C6) | LGPD: base legal e opt-in | Ufape | [CONFIRMAR]; sem isso C6 roda em remarketing |
 | A14 | Exportação dos anúncios ativos do workshop para a auditoria de similaridade | Skill matriz-de-criativos, passo 7 | Humano que executa no gerenciador, para o gestor-de-midia | pendente |
 | A15 | Manual de marca (logotipo, paleta, fonte) e o nome "Faculdade UFAPE" na arte | Identidade visual | Ufape | [CONFIRMAR] |
-| A16 | Padrão de UTM e prefixo de nome (neuro26) | Rastreio por origem | Gestor-de-midia e Ufape | [SUPOSIÇÃO] (P15) |
-| A17 | Pixel e API de Conversões: compra na página neuro-summit, código do produto presencial | Sem rastreio, nenhuma leitura de custo | Humano com o checklist do anuncios-meta | pendente (W8, M7); bloqueia a subida |
+| A16 | Padrão de UTM (D11 e D12) e prefixo de nome de anúncio (neuro26) | Rastreio por origem | Gestor-de-midia e pessoa do marketing; ferramenta em P15 | padrão fechado pelo plano do cmo; ferramenta [CONFIRMAR] |
+| A17 | Pixel e API de Conversões: compra na página neuro-summit, código do produto presencial | Sem rastreio, nenhuma leitura de custo | Humano com o checklist do anuncios-meta | teste em 30/10 (EA4, EVM4); bloqueia a subida de 03/11 |
 | A18 | "Feriado de 20/11" como argumento | Decisão comercial | Ufape | não usado |
 
 ---
@@ -550,13 +551,13 @@ Os itens de plataforma e de conta são do gestor e do humano que executa. Aqui e
 | Plano do gestor-de-midia aprovado, com canais ativados e fora justificados | [ ] **[CONFIRMAR] bloqueia a subida** | O memorando de 26/10 aguarda aprovação; canais do evento em briefing, seção 1 |
 | Metas de CPL e custo por matrícula escritas antes de subir | [ ] **[CONFIRMAR] bloqueia a subida** | [DADO NÃO FORNECIDO]. O critério dos testes não pode ser aplicado sem o custo por inscrição máximo (M16) |
 | Verba dentro do valor aprovado, com aprovador registrado | [ ] **[CONFIRMAR] bloqueia a subida** | Verba e aprovador [DADO NÃO FORNECIDO] (P12). Este pacote não pede aumento de verba |
-| Nomenclatura padrão | [x] Atendido nesta entrega | Padrão `neuro26_conceito_formato_gancho_vN`, [SUPOSIÇÃO] até o padrão do gestor |
-| UTMs completas em todos os anúncios e origem chegando ao CRM | [ ] Parcial | UTM definida para toda peça; chegada ao CRM depende do teste de rastreio (M7, W8) |
+| Nomenclatura padrão | [x] Atendido nesta entrega | Anúncio `neuro26_conceito_formato_gancho_vN`; campanha e conjunto pelo padrão D12 (chave eventos_neuro26), como no anuncios-meta-eventos |
+| UTMs completas em todos os anúncios e origem chegando ao CRM | [ ] Parcial | UTM no padrão D11 e D12 para toda peça; chegada ao CRM depende do teste de rastreio de 30/10 (EA4) |
 | Pixel e API de Conversões (Meta) configurados e testados | [ ] **[CONFIRMAR] bloqueia a subida** | Meta é o único canal ativado. TikTok, LinkedIn e Google: fora desta entrega |
 | Criativos aprovados em conformidade-educacional | [ ] Parcial | Tabela 10.1: C1 a C4 com texto liberado; C5 e C6 bloqueados |
 | Anúncios dentro das políticas da plataforma | [x] Atendido no desenho | Conferir na revisão da Meta; sem imagem gráfica de animal |
 | Nenhum público com menores de 18 anos | [x] Atendido | Públicos 18 anos ou mais |
-| Post de docente promovido ou Spark Ad com autorização | n/a | Sem docente nas peças-base; B6 só com autorização |
+| Post de docente promovido ou Spark Ad com autorização | n/a | Sem docente nas peças-base; autorização registrada (decisões 8 e 10); B6 sem janela nesta edição |
 | Relatório semanal ao CMO | n/a | Não é desta etapa; primeiro relatório do gestor em 02/11 (passa para 03/11) |
 | Sem segmentação discriminatória nem exclusão por atributo sensível | [x] Atendido | Interesses profissionais; sem exclusões |
 | Públicos sem dados pessoais usados sem base legal | [ ] Pendente | Lista de contatos (C6) só com base legal (A13) |
@@ -565,7 +566,7 @@ Os itens de plataforma e de conta são do gestor e do humano que executa. Aqui e
 | Números da análise vêm só das exportações | [x] Atendido | Nenhum número de mídia usado; faltas marcadas [DADO NÃO FORNECIDO] |
 | Nenhuma alteração feita na plataforma sem humano | [x] Atendido | Tudo é pedido na seção 8 |
 
-**Declaração de fechamento:** meta de custo, verba com aprovador, pixel e API de Conversões e plano do gestor-de-midia aprovado estão todos [CONFIRMAR]. **A subida está bloqueada, inclusive o lote 1 de 30/10, até um humano resolver esses quatro itens e o qa-de-marketing conferir de novo.**
+**Declaração de fechamento:** meta de custo, verba com aprovador, pixel e API de Conversões e plano do gestor-de-midia aprovado estão todos [CONFIRMAR]. **A subida está bloqueada, inclusive o lote 1 de 03/11, até um humano resolver esses quatro itens e o qa-de-marketing conferir de novo.**
 
 **Resultado geral:** pacote em rascunho para nova rodada do qa-de-marketing. Bloqueado: a subida de qualquer peça (acima); C5 e B1 a B3 (68634); C6, B10 e B11 (validade do cupom); variações com preço (B4 e B5, condição do presencial); variação com docente (B6, autorização); variação de prazo (B9, fim das inscrições). Revisado por: criativos-de-anuncio (agente). Revisão humana: [pendente]. Data: 26/10/2026.
 
@@ -596,16 +597,19 @@ Os itens de plataforma e de conta são do gestor e do humano que executa. Aqui e
 13. Personas E1a a E1d e a base de alunos e ex-alunos. Fonte: pesquisa de persona.
 14. 02/11 e 20/11/2026 são feriados nacionais. Fonte: briefing, seção 1 (legislação federal, fora dos arquivos da squad).
 15. Dia da semana de cada data da seção 8 conferido pelo calendário (26/10/2026 é segunda-feira). Fonte: briefing, seção 2; qa-de-marketing rodada A.
+16. Sequência única EVM1: 28/10 correções e públicos; 30/10 teste de rastreio (EA4); 03/11 C1 e C2 no frio e remarketing novo; 10/11 mudança única no frio; 14/11 B7 e, com o 68634 corrigido, o transmitido; pausa do presencial em 18/11, 23h59; do transmitido e da base em 19/11, 23h59. Fonte: plano do cmo, 12.6; gestor-de-midia-eventos, seção 1.6.
+17. Padrão de UTM: utm_source=meta, utm_medium=paid_social, utm_campaign com a chave eventos_neuro26. Fonte: plano do cmo, D11 e D12; anuncios-meta-eventos.
+18. Autorização de imagem e citação registrada para todos: docentes, palestrantes e convidados. Fonte: docs/execucao-2026-10-26.md, decisões 8 e 10.
 
 ## Suposições
 
-1. [SUPOSIÇÃO] Padrão de UTM e prefixo de nome `neuro26` (padrão proposto no briefing; padrão da squad em P15).
+1. [SUPOSIÇÃO] Prefixo `neuro26` no nome do anúncio e uso de utm_term para o público do conjunto.
 2. [SUPOSIÇÃO] Todas as personas, gatilhos, dores e objeções (herdadas da pesquisa de persona, sem voz real de participante).
 3. [SUPOSIÇÃO] Interesses de público disponíveis na ferramenta da Meta e regra de público de vídeo; a decisão final é do anuncios-meta.
 4. [SUPOSIÇÃO] Por que cada conceito pode funcionar (coluna da seção 1.1); nenhum teste real existe.
 5. [SUPOSIÇÃO] Trilha instrumental sem voz e nenhum locutor; ilustração própria no lugar de foto.
 6. [SUPOSIÇÃO] Zonas seguras do 9:16 (14% no topo e 20% na base).
-7. [SUPOSIÇÃO] Regra de 7 dias sem criativo novo antes do evento (analogia à regra do memorando para Pós e Livres).
+7. [SUPOSIÇÃO] Janela de 30 dias do público de remarketing (gestor-de-midia-eventos, 1.6).
 8. [SUPOSIÇÃO] "Para quem é da casa" (gancho G2 do C6) como expressão de voz informal.
 9. [SUPOSIÇÃO] O cupom vale no transmitido, como mostra a página; o gestor pediu confirmação.
 10. [SUPOSIÇÃO] Escada de métrica (compra, início de checkout, visualização da página) e critério "2 leituras seguidas" como regra de decisão, no lugar de percentual.
@@ -617,11 +621,19 @@ Os itens de plataforma e de conta são do gestor e do humano que executa. Aqui e
 3. [CONFIRMAR] Validade e limite do cupom (bloqueia C6), canal e prazo da comprovação, se vale para aluno de pós em curso e se vale no transmitido.
 4. [CONFIRMAR NO CATÁLOGO] Parcelamento e formas de pagamento do presencial (bloqueia B4 e B5); transmitido conforme o catálogo, depois da correção do 68634.
 5. [CONFIRMAR NO CATÁLOGO] Correção do produto 68634 (data, carga horária, modalidade); prazo de acesso à gravação; inclusão de 21/11 e do horário na linha do catálogo; código do produto presencial.
-6. [CONFIRMAR] Fim das inscrições de cada ingresso (data de pausa: 18 ou 19/11).
-7. [CONFIRMAR autorização] Nome da coordenação científica e de cada docente (B6); termo de imagem de participantes.
+6. [CONFIRMAR U9] Fim das inscrições de cada ingresso (pausa antecipada, se vier antes de 18/11 e 19/11).
+7. [CONFIRMAR] Termo de imagem de participantes (a autorização de docentes, palestrantes e convidados está registrada, decisões 8 e 10).
 8. [CONFIRMAR] Conferência técnica das frases da seção 2 pela coordenação científica (A2).
 9. [CONFIRMAR] Base legal e opt-in para a lista de contatos da base (C6).
 10. [CONFIRMAR] Manual de marca (logotipo, paleta, fonte) e grafia oficial (Ufape ou UFAPE).
-11. [CONFIRMAR] Quem aprova anúncios e verba (P12) e quem executa no gerenciador; ferramenta de medição e padrão de UTM (P15); status do pixel e da API de Conversões para compra na página neuro-summit; plano do gestor-de-midia aprovado.
+11. [CONFIRMAR] Quem aprova anúncios e verba (P12) e quem executa no gerenciador; ferramenta de medição (P15); aprovação da sequência EVM1 (R3); status do pixel e da API de Conversões para compra na página neuro-summit; plano do gestor-de-midia aprovado.
 12. [CONFIRMAR] Monitores do sábado, quantidade e participantes por equipamento; se os casos incluem equinos e bovinos (nenhuma peça promete).
 13. [CONFIRMAR] Texto oficial de certificado de eventos (AP8) e se vale para o ingresso transmitido (nenhuma peça cita).
+
+## Mudanças desta versão
+
+Versão 3 (26/10/2026), pela seção 12 do plano do cmo e pelas decisões 8 e 10:
+- UTM no padrão D11 e D12 antes da subida de 03/11: utm_source=meta, utm_medium=paid_social, utm_campaign com a chave eventos_neuro26 (campanha nova eventos_neuro26_meta_checkout_misto18_202611; campanha atual lida com a chave na frente do nome), utm_content = nome da variação, utm_term = público.
+- Seção 8 refeita com as datas de EVM1: nada sobe em 30/10 (teste de rastreio); lote 1 no frio e remarketing novo em 03/11; mudança única no frio em 10/11 (C4 só pela opção b); B7 e transmitido em 14/11; pausa do presencial em 18/11, 23h59; do transmitido e da base em 19/11, 23h59.
+- Autorização de docentes registrada (decisões 8 e 10): marcas [CONFIRMAR autorização] retiradas; B6 e T7 sem janela nesta edição.
+- Aprovações, auditoria 11 e as três listas atualizadas.
