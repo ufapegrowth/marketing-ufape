@@ -1,0 +1,5623 @@
+[
+  {
+    "id": "pos-marco-657-inicio-turma-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-03-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma: Pós-graduação em Anestesiologia Avançada (657)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-657.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-657.json:64"
+  },
+  {
+    "id": "pos-marco-341-inicio-turma-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-03-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma: Pós-graduação em Medicina Interna Equina (341)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-341.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-341.json:64"
+  },
+  {
+    "id": "pos-marco-289-inicio-turma-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-03-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma: Pós-graduação em Cardiologia Veterinária (289)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-289.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-289.json:64"
+  },
+  {
+    "id": "pos-marco-68615-inicio-turma-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-03-20",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma: Pós-graduação em Patologia Clínica (68615)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-68615.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-68615.json:64"
+  },
+  {
+    "id": "pos-marco-333-inicio-turma-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "inicio_turma",
+    "canal": "interno",
+    "data": "2027-03-27",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Início da turma: Pós-graduação em Citopatologia Veterinária (333)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU17"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/cursos/pos-333.json",
+    "linha": 64,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/cursos/pos-333.json:64"
+  },
+  {
+    "id": "pos-marco-657-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-05-22",
+    "data_fim": "2027-05-23",
+    "hora": null,
+    "quando": null,
+    "titulo": "3º módulo de 657 (Pós-graduação em Anestesiologia Avançada): data limite de matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 43,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:43"
+  },
+  {
+    "id": "pos-marco-341-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-05-01",
+    "data_fim": "2027-05-02",
+    "hora": null,
+    "quando": null,
+    "titulo": "3º módulo de 341 (Pós-graduação em Medicina Interna Equina): data limite de matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU11",
+      "OU17"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 44,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:44"
+  },
+  {
+    "id": "pos-marco-289-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-05-15",
+    "data_fim": "2027-05-16",
+    "hora": null,
+    "quando": null,
+    "titulo": "3º módulo de 289 (Pós-graduação em Cardiologia Veterinária): data limite de matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 45,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:45"
+  },
+  {
+    "id": "pos-marco-68615-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-05-22",
+    "data_fim": "2027-05-23",
+    "hora": null,
+    "quando": null,
+    "titulo": "3º módulo de 68615 (Pós-graduação em Patologia Clínica): data limite de matrícula pela",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 46,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:46"
+  },
+  {
+    "id": "pos-marco-333-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2027-05-29",
+    "data_fim": "2027-05-30",
+    "hora": null,
+    "quando": null,
+    "titulo": "3º módulo de 333 (Pós-graduação em Citopatologia Veterinária): data limite de matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 47,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:47"
+  },
+  {
+    "id": "pos-marco-657-pagina-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página nova da turma (OB1): Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U10",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+    "linha": 43,
+    "fonte_da_data": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md:688"
+  },
+  {
+    "id": "pos-marco-341-pagina-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página nova da turma (OB1): Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10",
+      "OU11",
+      "OU17",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+    "linha": 163,
+    "fonte_da_data": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md:688"
+  },
+  {
+    "id": "pos-marco-289-pagina-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página nova da turma (OB1): Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "CP1",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+    "linha": 291,
+    "fonte_da_data": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md:688"
+  },
+  {
+    "id": "pos-marco-68615-pagina-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página nova da turma (OB1): Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU13",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+    "linha": 417,
+    "fonte_da_data": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md:688"
+  },
+  {
+    "id": "pos-marco-333-pagina-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "pagina",
+    "canal": "site",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Publicação da página nova da turma (OB1): Pós-graduação em Citopatologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU3",
+      "OU12",
+      "OU17",
+      "U11"
+    ],
+    "arquivo": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md",
+    "linha": 549,
+    "fonte_da_data": "saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md:688"
+  },
+  {
+    "id": "pos-marco-657-carrossel-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-F1 (Instagram e Facebook): Além da pressão arterial: o que o módulo de hemodinâmica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 184,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:184"
+  },
+  {
+    "id": "pos-marco-657-story-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-S1 (Stories): Sábado das 9h às 18h, domingo das 9h às 13h.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 216,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:216"
+  },
+  {
+    "id": "pos-marco-657-carrossel-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-F2 (Instagram e Facebook): Da teoria online ao ventilador avançado: dois módulos da",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 235,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:235"
+  },
+  {
+    "id": "pos-marco-657-story-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-S2 (Stories): Gato não é cão pequeno.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 266,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:266"
+  },
+  {
+    "id": "pos-marco-657-story-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-S3 (Stories): Sábado, 13/03, começa a turma II de Anestesiologia Avançada.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 285,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:285"
+  },
+  {
+    "id": "pos-marco-657-story-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "657-S4 (Stories): A turma II de Anestesiologia Avançada já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 304,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:304"
+  },
+  {
+    "id": "pos-marco-341-story-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-S1 (Stories): Claudicação, bloqueios diagnósticos e cintilografia: o módulo 8 de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 329,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:329"
+  },
+  {
+    "id": "pos-marco-341-carrossel-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-F1 (Instagram e Facebook): Do paciente crítico ao potro neonato: 24 módulos de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 348,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:348"
+  },
+  {
+    "id": "pos-marco-341-story-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-S2 (Stories): Atende equinos a campo? Há um módulo sobre o neonato em condições de",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 377,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:377"
+  },
+  {
+    "id": "pos-marco-341-carrossel-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-F2 (Instagram e Facebook): 24 fins de semana, de 20 e 21/03/2027 a 17 e 18/02/2029",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 396,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:396"
+  },
+  {
+    "id": "pos-marco-341-story-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-S3 (Stories): Sábado, 20/03, começa a turma I de Medicina Interna Equina.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 425,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:425"
+  },
+  {
+    "id": "pos-marco-341-story-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "341-S4 (Stories): A turma I de Medicina Interna Equina já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 444,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:444"
+  },
+  {
+    "id": "pos-marco-289-carrossel-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-F1 (Instagram e Facebook): Do ECG online ao ecocardiograma presencial: o caminho da",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 496,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:496"
+  },
+  {
+    "id": "pos-marco-289-story-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-S1 (Stories): Cardiologia felina entra na pós? O módulo 12 trata disso.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 525,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:525"
+  },
+  {
+    "id": "pos-marco-289-story-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-S2 (Stories): Quatro módulos com prática de ecocardiograma: novembro de 2027, março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 544,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:544"
+  },
+  {
+    "id": "pos-marco-289-carrossel-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-F2 (Instagram e Facebook): 24 módulos, um fim de semana por mês: só 6 são presenciais.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 563,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:563"
+  },
+  {
+    "id": "pos-marco-289-story-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-S3 (Stories): Sábado, 20/03, começa a turma II de Cardiologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 592,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:592"
+  },
+  {
+    "id": "pos-marco-289-story-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-04-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "289-S4 (Stories): A turma II de Cardiologia Veterinária já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 611,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:611"
+  },
+  {
+    "id": "pos-marco-68615-story-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-S1 (Stories): Estruturar e administrar um laboratório entra no objetivo da pós de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 636,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:636"
+  },
+  {
+    "id": "pos-marco-68615-carrossel-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-F1 (Instagram e Facebook): Do hemograma online à automação na prática: Patologia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 655,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:655"
+  },
+  {
+    "id": "pos-marco-68615-story-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-S2 (Stories): Patologia clínica ou citopatologia? A escolha depende do trabalho que",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 683,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:683"
+  },
+  {
+    "id": "pos-marco-68615-carrossel-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-F2 (Instagram e Facebook): Serve para clínico ou só para quem trabalha em",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 702,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:702"
+  },
+  {
+    "id": "pos-marco-68615-story-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-S3 (Stories): Sábado, 20/03, começa a turma VII de Patologia Clínica.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 733,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:733"
+  },
+  {
+    "id": "pos-marco-68615-story-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-05-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "68615-S4 (Stories): A turma VII de Patologia Clínica já começou.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 752,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:752"
+  },
+  {
+    "id": "pos-marco-333-story-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-S1 (Stories): O primeiro módulo de Citopatologia é presencial e começa pelo material",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 777,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:777"
+  },
+  {
+    "id": "pos-marco-333-carrossel-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-F1 (Instagram e Facebook): Da coleta e da coloração à leitura de lâminas: o",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 796,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:796"
+  },
+  {
+    "id": "pos-marco-333-story-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-01-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-S2 (Stories): Citopatologia ou patologia clínica? A escolha depende do trabalho que",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 825,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:825"
+  },
+  {
+    "id": "pos-marco-333-carrossel-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2027-02-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-F2 (Instagram e Facebook): Serve para clínico ou só para quem trabalha em laboratório?",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 844,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:844"
+  },
+  {
+    "id": "pos-marco-333-story-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-S3 (Stories): Leitura de lâminas e discussão de casos: três módulos presenciais, três",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 875,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:875"
+  },
+  {
+    "id": "pos-marco-333-story-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-03-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "333-S4 (Stories): Sábado, 27/03, começa a turma I de Citopatologia Veterinária.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 894,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:894"
+  },
+  {
+    "id": "pos-marco-333-story-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-05-13",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reserva de 333: Stories com a regra completa, sem texto, só depois da OU3",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md",
+    "linha": 476,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:476"
+  },
+  {
+    "id": "pos-marco-657-video-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "video",
+    "canal": "instagram",
+    "data": "2027-02-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reels de 657 (Instagram e Facebook): Só a pressão arterial não conta a história toda.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 76,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:178"
+  },
+  {
+    "id": "pos-marco-341-video-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "video",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reels de 341 (Instagram e Facebook): Claudicação, sistema digestivo, potro crítico: cada",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10",
+      "OU11"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 119,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:178"
+  },
+  {
+    "id": "pos-marco-289-video-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "video",
+    "canal": "instagram",
+    "data": "2027-02-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reels de 289 (Instagram e Facebook): Do eletrocardiograma ao ecocardiograma na prática.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 162,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:178"
+  },
+  {
+    "id": "pos-marco-68615-video-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "video",
+    "canal": "instagram",
+    "data": "2027-01-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reels de 68615 (Instagram e Facebook): Erro de exame começa antes do equipamento.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 206,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:178"
+  },
+  {
+    "id": "pos-marco-333-video-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "video",
+    "canal": "instagram",
+    "data": "2027-02-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Reels de 333 (Instagram e Facebook): A lâmina chega e a dúvida fica: inflamatório ou",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 250,
+    "fonte_da_data": "saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-27-onda2.md:178"
+  },
+  {
+    "id": "pos-marco-geral-outro-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-12-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Gravação dos 5 roteiros e dos Reels de docente de dezembro (OB4), se a OU15 permitir",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU15"
+    ],
+    "arquivo": "saidas/12-video-e-audio/tiktok-pos-2026-10-27-onda2.md",
+    "linha": 67,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:325"
+  },
+  {
+    "id": "pos-marco-657-reels-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A1-1 (Reel, coordenação de 657): O que você faria diferente na próxima anestesia de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 73,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:83"
+  },
+  {
+    "id": "pos-marco-657-story-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A1-2 (Stories, coordenação de 657): Anestesia de protocolo ou anestesia de precisão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 86,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:97"
+  },
+  {
+    "id": "pos-marco-289-story-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A2-1 (Stories, coordenação de 289): Cardiologia ou ecocardiografia: por onde você",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 100,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:110"
+  },
+  {
+    "id": "pos-marco-289-carrossel-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "carrossel",
+    "canal": "instagram",
+    "data": "2026-12-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A2-1 (carrossel co-assinado, Instagram e Facebook): Cardiologia ou ecocardiografia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 100,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:110"
+  },
+  {
+    "id": "pos-marco-68615-reels-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2026-12-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A11-2 (Reel, coordenação de 68615): Qual exame você pede sem saber exatamente como ele",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 113,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:122"
+  },
+  {
+    "id": "pos-marco-341-reels-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "reels",
+    "canal": "instagram",
+    "data": "2027-01-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-A14-4 (Reel, coordenação de 341): O paciente equino crítico chega ao seu atendimento",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 125,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:135"
+  },
+  {
+    "id": "pos-marco-333-story-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "story",
+    "canal": "instagram",
+    "data": "2027-02-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "AD-N333-1 (Stories, professora de 333): A lâmina chega e a dúvida fica: processo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 146,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:156"
+  },
+  {
+    "id": "pos-marco-657-card-docente-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-01, 657-A, S01: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 221,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:221"
+  },
+  {
+    "id": "pos-marco-657-card-docente-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-02, 657-A, S01: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 222,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:222"
+  },
+  {
+    "id": "pos-marco-657-card-docente-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-03, 657-A, S01: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 223,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:223"
+  },
+  {
+    "id": "pos-marco-657-card-docente-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-04, 657-B, S03: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 224,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:224"
+  },
+  {
+    "id": "pos-marco-657-card-docente-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-05, 657-B, S03: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 225,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:225"
+  },
+  {
+    "id": "pos-marco-657-card-docente-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-06, 657-B, S03: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 226,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:226"
+  },
+  {
+    "id": "pos-marco-657-card-docente-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-07, 657-C, S05: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 227,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:227"
+  },
+  {
+    "id": "pos-marco-657-card-docente-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-08, 657-C, S05: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 228,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:228"
+  },
+  {
+    "id": "pos-marco-657-card-docente-9",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-09, 657-C, S05: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 229,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:229"
+  },
+  {
+    "id": "pos-marco-657-card-docente-10",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-10, 657-D, S07: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 230,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:230"
+  },
+  {
+    "id": "pos-marco-657-card-docente-11",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-11, 657-D, S07: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 231,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:231"
+  },
+  {
+    "id": "pos-marco-657-card-docente-12",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-12, 657-D, S07: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 232,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:232"
+  },
+  {
+    "id": "pos-marco-657-card-docente-13",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-13, 657-E, S10: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "DACVAA"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 233,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:233"
+  },
+  {
+    "id": "pos-marco-657-card-docente-14",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-14, 657-E, S10: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 234,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:234"
+  },
+  {
+    "id": "pos-marco-657-card-docente-15",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-15, 657-F, S13: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 235,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:235"
+  },
+  {
+    "id": "pos-marco-657-card-docente-16",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-09",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C657-16, 657-F, S13: Docente da Pós-graduação em Anestesiologia Avançada",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 236,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:236"
+  },
+  {
+    "id": "pos-marco-341-card-docente-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-01, 341-A, S06: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 246,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:246"
+  },
+  {
+    "id": "pos-marco-341-card-docente-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-02, 341-A, S06: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 247,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:247"
+  },
+  {
+    "id": "pos-marco-341-card-docente-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-03, 341-A, S06: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 248,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:248"
+  },
+  {
+    "id": "pos-marco-341-card-docente-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-04, 341-B, S12: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 249,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:249"
+  },
+  {
+    "id": "pos-marco-341-card-docente-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-05, 341-B, S12: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 250,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:250"
+  },
+  {
+    "id": "pos-marco-341-card-docente-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-06, 341-B, S12: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 251,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:251"
+  },
+  {
+    "id": "pos-marco-341-card-docente-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-07, 341-C, S15: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 252,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:252"
+  },
+  {
+    "id": "pos-marco-341-card-docente-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-16",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C341-08, 341-C, S15: Docente da Pós-graduação em Medicina Interna Equina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 253,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:253"
+  },
+  {
+    "id": "pos-marco-289-card-docente-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-01, 289-A, S04: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 263,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:263"
+  },
+  {
+    "id": "pos-marco-289-card-docente-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-02, 289-A, S04: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 264,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:264"
+  },
+  {
+    "id": "pos-marco-289-card-docente-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-03, 289-A, S04: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 265,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:265"
+  },
+  {
+    "id": "pos-marco-289-card-docente-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-04, 289-B, S11: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 266,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:266"
+  },
+  {
+    "id": "pos-marco-289-card-docente-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-05, 289-B, S11: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 267,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:267"
+  },
+  {
+    "id": "pos-marco-289-card-docente-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-06, 289-B, S11: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 268,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:268"
+  },
+  {
+    "id": "pos-marco-289-card-docente-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-07, 289-C, S16: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 269,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:269"
+  },
+  {
+    "id": "pos-marco-289-card-docente-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-08, 289-C, S16: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 270,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:270"
+  },
+  {
+    "id": "pos-marco-289-card-docente-9",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-09, 289-C, S16: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 271,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:271"
+  },
+  {
+    "id": "pos-marco-289-card-docente-10",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-10, 289-D, S18, pós-início: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 272,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:272"
+  },
+  {
+    "id": "pos-marco-289-card-docente-11",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-11, 289-D, S18, pós-início: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 273,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:273"
+  },
+  {
+    "id": "pos-marco-289-card-docente-12",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-12, 289-E, S20, pós-início: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 274,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:274"
+  },
+  {
+    "id": "pos-marco-289-card-docente-13",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C289-13, 289-E, S20, pós-início: Docente da Pós-graduação em Cardiologia Veterinária",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 275,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:275"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-01, 68615-A, S02: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 285,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:285"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-02, 68615-A, S02: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 286,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:286"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-01-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-03, 68615-A, S02: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 287,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:287"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-04, 68615-B, S08: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 288,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:288"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-05, 68615-B, S08: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 289,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:289"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-02-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-06, 68615-B, S08: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 290,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:290"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-07, 68615-C, S14: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 291,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:291"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-08, 68615-C, S14: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 292,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:292"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-9",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-09, 68615-C, S14: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 293,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:293"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-10",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-10, 68615-D, S17, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 294,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:294"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-11",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-11, 68615-D, S17, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 295,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:295"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-12",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-12, 68615-D, S17, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 296,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:296"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-13",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-13, 68615-E, S19, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 297,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:297"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-14",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-03-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-14, 68615-E, S19, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 298,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:298"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-15",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-15, 68615-F, S21, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 299,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:299"
+  },
+  {
+    "id": "pos-marco-68615-card-docente-16",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "card_docente",
+    "canal": "instagram",
+    "data": "2027-04-06",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Card C68615-16, 68615-F, S21, pós-início: Docente da Pós-graduação em Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU14",
+      "OU6"
+    ],
+    "arquivo": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md",
+    "linha": 300,
+    "fonte_da_data": "saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-27-onda2.md:300"
+  },
+  {
+    "id": "pos-marco-68615-email-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1 de 68615: Do pré-analítico ao laudo: Patologia Clínica em São Paulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 64,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:64"
+  },
+  {
+    "id": "pos-marco-68615-whatsapp-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-10",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1 de 68615: Olá, [nome]. Erro de exame começa antes do equipamento.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 101,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:101"
+  },
+  {
+    "id": "pos-marco-68615-whatsapp-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-13",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2 de 68615: Olá, [nome]. Um fim de semana por mês, com datas no cronograma.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 117,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:117"
+  },
+  {
+    "id": "pos-marco-68615-email-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-29",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2 de 68615: Mês a mês: o cronograma da Patologia Clínica",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 133,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:133"
+  },
+  {
+    "id": "pos-marco-68615-whatsapp-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-16",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3 de 68615: Olá, [nome]. As aulas de Patologia Clínica começam em 20/03.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 165,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:165"
+  },
+  {
+    "id": "pos-marco-68615-whatsapp-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp AC (pré-início) de 68615: Olá, [nome]. As aulas começam em 20/03; matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 181,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:181"
+  },
+  {
+    "id": "pos-marco-68615-whatsapp-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-05",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp PI (pós-início) de 68615: Olá, [nome]. Entender como entrar na turma de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 197,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:197"
+  },
+  {
+    "id": "pos-marco-289-email-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-08",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1 de 289: Do ECG ao ecocardiograma: Cardiologia em Goiânia",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 216,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:216"
+  },
+  {
+    "id": "pos-marco-289-whatsapp-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1 de 289: Olá, [nome]. Do ECG online ao ecocardiograma presencial, em Goiânia.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 251,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:251"
+  },
+  {
+    "id": "pos-marco-289-whatsapp-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-08",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2 de 289: Olá, [nome]. Teoria a distância; presencial só nos módulos de prática.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 267,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:267"
+  },
+  {
+    "id": "pos-marco-289-email-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-27",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2 de 289: Cardiologia em Goiânia: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 283,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:283"
+  },
+  {
+    "id": "pos-marco-289-whatsapp-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3 de 289: Olá, [nome]. A turma II de Cardiologia começa em 20/03.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 314,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:314"
+  },
+  {
+    "id": "pos-marco-289-whatsapp-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-09",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp AC (pré-início) de 289: Olá, [nome]. As aulas começam em 20/03; matrícula aberta",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 330,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:330"
+  },
+  {
+    "id": "pos-marco-289-whatsapp-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-27",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp PI (pós-início) de 289: Olá, [nome]. Entender como entrar na turma de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 346,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:346"
+  },
+  {
+    "id": "pos-marco-333-email-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-09",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1 de 333: Leitura de lâminas, sistema por sistema",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 365,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:365"
+  },
+  {
+    "id": "pos-marco-333-whatsapp-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-17",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1 de 333: Olá, [nome]. Leitura de lâminas, sistema por sistema.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 399,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:399"
+  },
+  {
+    "id": "pos-marco-333-whatsapp-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-19",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2 de 333: Olá, [nome]. Módulos presenciais de leitura de lâminas e discussão de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 415,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:415"
+  },
+  {
+    "id": "pos-marco-333-email-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-03",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2 de 333: Citopatologia: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 431,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:431"
+  },
+  {
+    "id": "pos-marco-333-whatsapp-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-23",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3 de 333: Olá, [nome]. A turma I de Citopatologia começa em 27/03.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 462,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:462"
+  },
+  {
+    "id": "pos-marco-333-whatsapp-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-16",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W4 (pré-início) de 333: Olá, [nome]. A Citopatologia começa em 27/03, sábado.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 478,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:478"
+  },
+  {
+    "id": "pos-marco-341-email-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1 de 341: Medicina interna equina, sistema por sistema",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 504,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:504"
+  },
+  {
+    "id": "pos-marco-341-whatsapp-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2026-12-18",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1 de 341: Olá, [nome]. Do paciente crítico ao potro neonato.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 539,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:539"
+  },
+  {
+    "id": "pos-marco-341-whatsapp-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2 de 341: Olá, [nome]. A teoria é online; o presencial é em fins de semana.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 555,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:555"
+  },
+  {
+    "id": "pos-marco-341-email-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-02",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2 de 341: Medicina Interna Equina: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 571,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:571"
+  },
+  {
+    "id": "pos-marco-341-whatsapp-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3 de 341: Olá, [nome]. A turma I de Medicina Interna Equina começa em 20/03.",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 601,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:601"
+  },
+  {
+    "id": "pos-marco-341-whatsapp-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-10",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp AC (pré-início) de 341: Olá, [nome]. As aulas começam em 20/03; matrícula aberta",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 617,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:617"
+  },
+  {
+    "id": "pos-marco-341-whatsapp-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-14",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp PI (pós-início) de 341: Olá, [nome]. Entender como entrar na turma de Medicina",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10",
+      "OU11",
+      "OU17"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 633,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:633"
+  },
+  {
+    "id": "pos-marco-657-email-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E1 de 657: Da anestesia de protocolo à anestesia de precisão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 652,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:652"
+  },
+  {
+    "id": "pos-marco-657-whatsapp-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-11",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W1 de 657: Olá, [nome]. Da anestesia de protocolo à anestesia de precisão.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 687,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:687"
+  },
+  {
+    "id": "pos-marco-657-whatsapp-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-01-21",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W2 de 657: Olá, [nome]. Escala do centro cirúrgico: teoria online, prática com",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 703,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:703"
+  },
+  {
+    "id": "pos-marco-657-email-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "email",
+    "canal": "email",
+    "data": "2027-02-01",
+    "data_fim": null,
+    "hora": "9h",
+    "quando": null,
+    "titulo": "E-mail E2 de 657: Anestesiologia Avançada: o mês a mês do cronograma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 719,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:719"
+  },
+  {
+    "id": "pos-marco-657-whatsapp-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-02-04",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp W3 de 657: Olá, [nome]. A turma II de Anestesiologia Avançada começa em 13/03.",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 749,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:749"
+  },
+  {
+    "id": "pos-marco-657-whatsapp-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-03-02",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp AC (pré-início) de 657: Olá, [nome]. As aulas começam em 13/03; matrícula aberta",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 765,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:765"
+  },
+  {
+    "id": "pos-marco-657-whatsapp-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-04-20",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp PI (pós-início) de 657: Olá, [nome]. Entender como entrar na turma de",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 781,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:781"
+  },
+  {
+    "id": "pos-marco-333-whatsapp-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "whatsapp",
+    "canal": "whatsapp",
+    "data": "2027-05-12",
+    "data_fim": null,
+    "hora": "10h",
+    "quando": null,
+    "titulo": "WhatsApp pós-início de 333: toque reservado, sem texto, só com OU3 respondida",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md",
+    "linha": 494,
+    "fonte_da_data": "saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-27-onda2.md:496"
+  },
+  {
+    "id": "pos-marco-geral-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615",
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A11 (68615 e 333) no primeiro toque do kit (flag às 00h05)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 298,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:298"
+  },
+  {
+    "id": "pos-marco-289-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2026-12-08",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A2 (289) no primeiro toque do kit (flag às 00h05)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 299,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:299"
+  },
+  {
+    "id": "pos-marco-341-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A14 equinos (341) no primeiro toque do kit (flag às 00h05)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 300,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:300"
+  },
+  {
+    "id": "pos-marco-657-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-01-05",
+    "data_fim": null,
+    "hora": "00h05",
+    "quando": null,
+    "titulo": "Saída da NP2 da área A1 (657) no primeiro toque do kit (flag às 00h05)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 301,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:301"
+  },
+  {
+    "id": "pos-marco-341-outro-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-04-30",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Turma 341 sai de toda lista no fim da véspera do 3º módulo (SA3)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:143"
+  },
+  {
+    "id": "pos-marco-289-outro-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-14",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Turma 289 sai de toda lista no fim da véspera do 3º módulo (SA3)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:143"
+  },
+  {
+    "id": "pos-marco-657-outro-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Turma 657 sai de toda lista no fim da véspera do 3º módulo (SA3)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:143"
+  },
+  {
+    "id": "pos-marco-68615-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Turma 68615 sai de toda lista no fim da véspera do 3º módulo (SA3)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:143"
+  },
+  {
+    "id": "pos-marco-333-outro-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "crm",
+    "data": "2027-03-26",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Turma 333 sai de toda lista na véspera do módulo 1 presencial, enquanto a OU3 estiver",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 144,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:144"
+  },
+  {
+    "id": "pos-marco-341-conferencia-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "conferencia",
+    "canal": "crm",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": "18h",
+    "quando": null,
+    "titulo": "Verificação da OU10 de 341: calendário padrão ou variante de janeiro",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md",
+    "linha": 387,
+    "fonte_da_data": "saidas/10-operacoes-de-marketing/arquiteto-de-fluxos-pos-2026-10-27-onda2.md:387"
+  },
+  {
+    "id": "pos-marco-68615-campanha-subida-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobem as duas campanhas Meta de 68615 (frio amplo18 e remarketing rmk30d), aquecimento",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 374,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:374"
+  },
+  {
+    "id": "pos-marco-68615-campanha-subida-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobe a campanha de Busca de 68615 (aquecimento, R$ 9,10 por dia)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 735,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:735"
+  },
+  {
+    "id": "pos-marco-289-campanha-subida-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobem as duas campanhas Meta de 289 (frio amplo18 e remarketing rmk30d), aquecimento",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 374,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:374"
+  },
+  {
+    "id": "pos-marco-289-campanha-subida-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobe a campanha de Busca de 289 (aquecimento, R$ 9,10 por dia)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 735,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:735"
+  },
+  {
+    "id": "pos-marco-333-campanha-subida-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobem as duas campanhas Meta de 333 (frio amplo18 e remarketing rmk30d), aquecimento",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 374,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:374"
+  },
+  {
+    "id": "pos-marco-333-campanha-subida-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobe a campanha de Busca de 333 (aquecimento, R$ 9,10 por dia)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 735,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:735"
+  },
+  {
+    "id": "pos-marco-657-campanha-subida-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobem as duas campanhas Meta de 657 (frio amplo18 e remarketing rmk30d), aquecimento de 7",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "U10"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 375,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:375"
+  },
+  {
+    "id": "pos-marco-657-campanha-subida-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobe a campanha de Busca de 657, se PP7 desbloqueado (R$ 18,21 por dia)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "U10"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 736,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:736"
+  },
+  {
+    "id": "pos-marco-341-campanha-subida-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "meta_ads",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobem as duas campanhas Meta de 341 (frio amplo18 e remarketing rmk30d), aquecimento de 7",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "PR7",
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 375,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:375"
+  },
+  {
+    "id": "pos-marco-341-campanha-subida-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_subida",
+    "canal": "google_ads",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Sobe a campanha de Busca de 341, se PP7 desbloqueado (R$ 18,21 por dia)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "PR7",
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 736,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:736"
+  },
+  {
+    "id": "pos-marco-289-campanha-pausa-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Pausa da campanha atual de 289, com exportação, suba ou não a estrutura nova (PP9, MO3)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 81,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:81"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 657: pausa do frio e diária de manutenção no remarketing (PP10)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 376,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:376"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 657 na Busca: diária de R$ 6,07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:737"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 341: pausa do frio e diária de manutenção no remarketing (PP10)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 376,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:376"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 341 na Busca: diária de R$ 6,07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:737"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 289: pausa do frio e diária de manutenção no remarketing (PP10)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 376,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:376"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 289 na Busca: diária de R$ 6,07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:737"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 68615: pausa do frio e diária de manutenção no remarketing (PP10)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 376,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:376"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 68615 na Busca: diária de R$ 6,07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:737"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 333: pausa do frio e diária de manutenção no remarketing (PP10)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 376,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:376"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2026-12-21",
+    "data_fim": "2027-01-03",
+    "hora": null,
+    "quando": null,
+    "titulo": "Manutenção de 333 na Busca: diária de R$ 6,07",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 737,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:737"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 657: o frio volta com a diária da conversão e o remarketing troca a diária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 378,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:378"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-11",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 657 na Busca, diária da conversão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 739,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:739"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 341: o frio volta com a diária da conversão e o remarketing troca a diária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 378,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:378"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 341 na Busca, diária da conversão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 739,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:739"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 289: o frio volta com a diária da conversão e o remarketing troca a diária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 378,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:378"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 289 na Busca, diária da conversão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 739,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:739"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 68615: o frio volta com a diária da conversão e o remarketing troca a diária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 378,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:378"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-18",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 68615 na Busca, diária da conversão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 739,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:739"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 333: o frio volta com a diária da conversão e o remarketing troca a diária",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 378,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:378"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-01-04",
+    "data_fim": "2027-02-25",
+    "hora": null,
+    "quando": null,
+    "titulo": "Conversão de 333 na Busca, diária da conversão",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 739,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:739"
+  },
+  {
+    "id": "pos-marco-geral-outro-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "meta_ads",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Peças -exta e -extb de março prontas, com a -exta nova de 333 (333-r2-exta_e11_inicio_v2)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 381,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:381"
+  },
+  {
+    "id": "pos-marco-geral-outro-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "google_ads",
+    "data": "2027-01-25",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Textos -exta e -extb de março aprovados pelo qa e anúncios criados já pausados",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 742,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:742"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "conferencia",
+    "canal": "google_ads",
+    "data": "2027-01-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Teste do plano A (regra programada de pausar e ativar anúncios), em anúncio pausado e sem",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 741,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:741"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-12",
+    "data_fim": "2027-03-12",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Meta de 657: Pós-graduação em Anestesiologia Avançada: aulas em 13/03/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 238,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:382"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-13",
+    "data_fim": "2027-05-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Meta de 657: Pós-graduação em Anestesiologia Avançada: as aulas já começaram",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 249,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:388"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-12",
+    "data_fim": "2027-03-12",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Google de 657: As aulas começam em 13/03/2027. Matrícula aberta até o 3º módulo, em",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 244,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:743"
+  },
+  {
+    "id": "pos-marco-657-campanha-fase-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-13",
+    "data_fim": "2027-05-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Google de 657: As aulas já começaram. Matrícula até o 3º módulo, em 22 e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 255,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:749"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Meta de 341: Pós-graduação em Medicina Interna Equina: aulas em 20/03/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 264,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:383"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-04-30",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Meta de 341: Pós-graduação em Medicina Interna Equina: as aulas já começaram",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "OU10",
+      "OU11",
+      "OU17"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 275,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:390"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Google de 341: As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 270,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:744"
+  },
+  {
+    "id": "pos-marco-341-campanha-fase-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-04-30",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Google de 341: As aulas já começaram. Matrícula até o 3º módulo, em 01 e",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "PP7",
+      "OU10",
+      "OU11",
+      "OU17"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 281,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:751"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Meta de 289: Pós-graduação em Cardiologia Veterinária: aulas em 20/03/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 173,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:383"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-05-14",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Meta de 289: Pós-graduação em Cardiologia Veterinária: as aulas já começaram",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 184,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:390"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Google de 289: As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo, em",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 179,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:744"
+  },
+  {
+    "id": "pos-marco-289-campanha-fase-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-05-14",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Google de 289: As aulas já começaram. Matrícula até o 3º módulo, em 15 e",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 190,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:751"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Meta de 68615: Pós-graduação em Patologia Clínica: aulas em 20/03/2027. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 149,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:383"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-05-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Meta de 68615: Pós-graduação em Patologia Clínica: as aulas já começaram. Matrícula",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 160,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:390"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-19",
+    "data_fim": "2027-03-19",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Google de 68615: As aulas começam em 20/03/2027. Matrícula aberta até o 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 155,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:744"
+  },
+  {
+    "id": "pos-marco-68615-campanha-fase-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-20",
+    "data_fim": "2027-05-21",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Google de 68615: As aulas já começaram. Matrícula até o 3º módulo, em 22 e",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 166,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:751"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-02-26",
+    "data_fim": "2027-03-26",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Meta de 333: Pós-graduação em Citopatologia Veterinária: aulas em 27/03/2027",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 199,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:385"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "meta_ads",
+    "data": "2027-03-27",
+    "data_fim": "2027-05-28",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Meta de 333: Pós-graduação em Citopatologia Veterinária: as aulas já começaram",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 210,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:392"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-02-26",
+    "data_fim": "2027-03-26",
+    "hora": null,
+    "quando": null,
+    "titulo": "-exta Google de 333: As aulas começam em 27/03/2027. Módulo 1 presencial. Veja datas na",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 205,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:746"
+  },
+  {
+    "id": "pos-marco-333-campanha-fase-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_fase",
+    "canal": "google_ads",
+    "data": "2027-03-27",
+    "data_fim": "2027-05-28",
+    "hora": null,
+    "quando": null,
+    "titulo": "-extb Google de 333: As aulas já começaram. Matrícula até o 3º módulo, em 29 e",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-27-ext.md",
+    "linha": 216,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:753"
+  },
+  {
+    "id": "pos-marco-341-campanha-pausa-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-04-30",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total das campanhas Meta de 341, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 399,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:399"
+  },
+  {
+    "id": "pos-marco-341-campanha-pausa-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-04-30",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total da campanha de Busca de 341, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 760,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:760"
+  },
+  {
+    "id": "pos-marco-289-campanha-pausa-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-05-14",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total das campanhas Meta de 289, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 400,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:400"
+  },
+  {
+    "id": "pos-marco-289-campanha-pausa-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-05-14",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total da campanha de Busca de 289, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 761,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:761"
+  },
+  {
+    "id": "pos-marco-68615-campanha-pausa-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total das campanhas Meta de 68615, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 401,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:401"
+  },
+  {
+    "id": "pos-marco-68615-campanha-pausa-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total da campanha de Busca de 68615, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 762,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:762"
+  },
+  {
+    "id": "pos-marco-657-campanha-pausa-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total das campanhas Meta de 657, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 401,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:401"
+  },
+  {
+    "id": "pos-marco-657-campanha-pausa-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-05-21",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total da campanha de Busca de 657, véspera do 3º módulo",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 762,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:762"
+  },
+  {
+    "id": "pos-marco-333-campanha-pausa-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-03-26",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 333 na Meta, véspera do início e do módulo 1 presencial, enquanto a OU3",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 391,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:391"
+  },
+  {
+    "id": "pos-marco-333-campanha-pausa-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-03-26",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 333 na Busca, véspera do início, enquanto a OU3 estiver aberta (MO5)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 752,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:752"
+  },
+  {
+    "id": "pos-marco-333-campanha-pausa-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-05-28",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 333 na Meta, véspera do 3º módulo, só com OU3",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 402,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:402"
+  },
+  {
+    "id": "pos-marco-333-campanha-pausa-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "google_ads",
+    "data": "2027-05-28",
+    "data_fim": null,
+    "hora": "23h59",
+    "quando": null,
+    "titulo": "Pausa total de 333 na Busca, véspera do 3º módulo, só com OU3",
+    "status": "suspenso",
+    "trava": [
+      "OU3"
+    ],
+    "arquivo": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md",
+    "linha": 763,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-google-pos-2026-10-26.md:763"
+  },
+  {
+    "id": "pos-marco-333-campanha-pausa-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "campanha_pausa",
+    "canal": "meta_ads",
+    "data": "2027-03-22",
+    "data_fim": "2027-03-23",
+    "hora": null,
+    "quando": null,
+    "titulo": "Programar o término das campanhas de 333 na Meta e no Google para 26/03/2027, 23h59, com",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 143,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:143"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Teste de rastreio: lead, inscrição paga e 1ª mensalidade como conversões separadas; UTM",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 371,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:371"
+  },
+  {
+    "id": "pos-marco-289-conferencia-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-10-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Gasto do ciclo de 289 na exportação (PP15)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 370,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:370"
+  },
+  {
+    "id": "pos-marco-289-conferencia-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-11-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Gasto previsto de 289 até 06/12 contra R$ 500,00; pedido de redução da diária, se passar",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 372,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:372"
+  },
+  {
+    "id": "pos-marco-289-conferencia-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Recálculo das diárias de 289 pelo saldo informado pela analise-de-midia (PP9)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md",
+    "linha": 373,
+    "fonte_da_data": "saidas/11-midia-paga/anuncios-meta-pos-2026-10-26.md:373"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615",
+      "333",
+      "289"
+    ],
+    "tipo": "conferencia",
+    "canal": "site",
+    "data": "2026-12-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Conferência de página, UTM e formulário antes da subida de 07/12 (20 itens, MO4)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 86,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:88"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341"
+    ],
+    "tipo": "conferencia",
+    "canal": "site",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Conferência de página, UTM e formulário antes da subida de 14/12 (20 itens, MO4)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U10",
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 86,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:88"
+  },
+  {
+    "id": "pos-marco-333-conferencia-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "conferencia",
+    "canal": "meta_ads",
+    "data": "2027-03-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Conferir gasto zero de 333 em 27 e 28/03 nas duas plataformas e registrar o gasto final",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 146,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:146"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão de ritmo por turma (fase de operação)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 357,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:357"
+  },
+  {
+    "id": "pos-marco-geral-conferencia-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "conferencia",
+    "canal": "interno",
+    "data": "2027-01-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Revisão de ritmo por turma (fase de operação)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 357,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:357"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-07",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (rastreio, entrega e resultado da",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (gasto contra o planejado; 657 e",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (1ª semana fechada contra o gatilho",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2026-12-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-04",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (volta da conversão; rodízio; turma",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-7",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-18",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-8",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-01-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (terça)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-9",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-10",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (quarta; extensão de 657 sobe ou",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-11",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-12",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-02-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-13",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-01",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-14",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-08",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-15",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-15",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-16",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-22",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (agendamento de 333)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-17",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março (conferência da pausa de 333)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-18",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-04-05",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-19",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-04-12",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-20",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-04-19",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-21",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-04-26",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-22",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-23",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-10",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-24",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-geral-relatorio-25",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório semanal de mídia paga das 5 turmas de março",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 191,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:191"
+  },
+  {
+    "id": "pos-marco-657-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 657, parte 1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 139,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:139"
+  },
+  {
+    "id": "pos-marco-657-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-06-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 657, parte 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 139,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:139"
+  },
+  {
+    "id": "pos-marco-341-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-03",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 341, parte 1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 166,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:166"
+  },
+  {
+    "id": "pos-marco-341-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-31",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 341, parte 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 166,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:166"
+  },
+  {
+    "id": "pos-marco-289-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-17",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 289, parte 1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 193,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:193"
+  },
+  {
+    "id": "pos-marco-289-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "289"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-06-14",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 289, parte 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 193,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:193"
+  },
+  {
+    "id": "pos-marco-68615-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-05-24",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68615, parte 1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 220,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:220"
+  },
+  {
+    "id": "pos-marco-68615-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "68615"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-06-21",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 68615, parte 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 220,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:220"
+  },
+  {
+    "id": "pos-marco-333-relatorio-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-03-29",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 333, parte 1",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 247,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:247"
+  },
+  {
+    "id": "pos-marco-333-relatorio-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "333"
+    ],
+    "tipo": "relatorio",
+    "canal": "interno",
+    "data": "2027-06-28",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Relatório final de 333, parte 2",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 247,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:247"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-23",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana das páginas (OB1)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 394,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:320"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-2",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana de PP16, AMP13 a AMP25 e AGP12 a AGP25 (mídia)",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 400,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:324"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-3",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana do OB2: envio em massa de cada toque da seção 7.3",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 395,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:324"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-4",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana do OB3: publicar os 6 posts por turma, os posts de docente e os 53 cards",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 396,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:324"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana do OB4: gravação dos 5 roteiros e dos Reels de docente",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU15"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 397,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:324"
+  },
+  {
+    "id": "pos-marco-geral-aprovacao-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-11-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Aprovação humana do OB5: produção das artes dos criativos, dos posts e dos guias",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU16"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 398,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:324"
+  },
+  {
+    "id": "pos-marco-657-aprovacao-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "MO1: PP7 de 657, subida em 14/12 só com U10 respondida até 30/11 e página conferida até",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U10"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 261,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:261"
+  },
+  {
+    "id": "pos-marco-341-aprovacao-1",
+    "bloco": "pos-marco",
+    "turmas": [
+      "341"
+    ],
+    "tipo": "aprovacao",
+    "canal": "interno",
+    "data": "2026-12-11",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "MO2: PP7 de 341, mesma regra, com OU10 (regra completa da promoção ou retirada)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "OU10"
+    ],
+    "arquivo": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md",
+    "linha": 262,
+    "fonte_da_data": "saidas/11-midia-paga/gestor-de-midia-pos-2026-10-27-onda2.md:261"
+  },
+  {
+    "id": "pos-marco-geral-outro-5",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341",
+      "289",
+      "68615",
+      "333"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-10-30",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Perguntas U10, OU3, OU4, OU5, OU6, OU8, OU10 a OU17, U8 e U11 enviadas à Ufape",
+    "status": "aguardando_aprovacao",
+    "trava": [],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 312,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:312"
+  },
+  {
+    "id": "pos-marco-geral-outro-6",
+    "bloco": "pos-marco",
+    "turmas": [
+      "657",
+      "341"
+    ],
+    "tipo": "outro",
+    "canal": "interno",
+    "data": "2026-11-27",
+    "data_fim": null,
+    "hora": null,
+    "quando": null,
+    "titulo": "Prazo das respostas de U10 e OU10 (para PP7 e para os toques de 341)",
+    "status": "aguardando_aprovacao",
+    "trava": [
+      "U10",
+      "OU10"
+    ],
+    "arquivo": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md",
+    "linha": 323,
+    "fonte_da_data": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md:323"
+  }
+]
