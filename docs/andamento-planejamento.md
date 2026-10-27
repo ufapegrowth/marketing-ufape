@@ -185,3 +185,4 @@ Segue as dependências da seção 4 do plano do cmo.
 | 26/10/2026 | estrategia-de-midia-pos v4 (QM3 a QM5). Reconferência do qa da mídia iniciada |
 | 26/10/2026 | qa da mídia rodada b: estrategia-de-midia-pos v4 APROVADA; gestor-de-midia-pos v4 volta só pelo QM6 (pedidos PP5, PP6, PP9, PP11 e encomendas das provas ainda na lógica antiga) |
 | 27/10/2026 | qa do plano da onda 1: CORRIGIR (C1 a C7): páginas de 707, 68604, 68606, 68610 e 68608 com frase do MEC e turma mínima 20 não contam como entregues; lacunas do cenário A sem registro; pedidos de aprovação faltando para T3 a T6 e posts; pausa de 707 e 68604 antes do prazo da resposta da Ufape (cenário B vira reativação com pedido próprio); citação do gestor; ordem GUT. Datas e contas conferem com as fichas |
+| 27/10/2026 | gestor-de-midia-pos v5 (QM6). Conferência curta do qa iniciada |

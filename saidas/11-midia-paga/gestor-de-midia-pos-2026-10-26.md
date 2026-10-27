@@ -620,6 +620,7 @@ PP13 e PP14 passam a ter recomendação "fora nesta verba" e vão ao cmo (mudam 
 ## Mudanças desta versão
 
 Versão 5 (26/10/2026), pela correção QM6 do qa-de-marketing-pos-2026-10-26-midia-b:
+- **Seção 12.5:** a regra de 289 e 662 ganha os limites de R$ 500,00 da 3.8 da estrategia-de-midia-pos (EM15).
 - **Seção 1:** a linha "Ativas fora da onda 1" marca 289 e 662 dentro dos R$ 2.000,00 da turma, com a regra da 3.8 da estrategia-de-midia-pos (EM15).
 - **PP5 (662):** diária atual dentro dos R$ 2.000,00 de 662, limitada a R$ 500,00 até 05/01, com recálculo em 30/12.
 - **PP9 (289):** gasto até 06/12 limitado a R$ 500,00; o excedente sai da manutenção, nunca da conversão (EM15).
