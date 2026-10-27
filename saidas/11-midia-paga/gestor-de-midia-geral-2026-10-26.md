@@ -102,9 +102,9 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 
 | Situação | O que fazer com a campanha |
 |---|---|
-| Até a correção do site, com prazo de 28/10 às 18h | MANTER a campanha, com duas condições: (a) pausar já qualquer anúncio que cite data de início ou "2027" no texto, título ou imagem; (b) o WhatsApp de vendas recebe a orientação de confirmar a data de 28/11/2026 ao candidato [CONFIRMAR com a Ufape]. Nenhum anúncio novo, nenhum aumento de verba |
+| Até a correção do site, com prazo de 28/10 às 18h | **Substituído pelas decisões 18 e 19 e pela seção 13 do gestor-de-midia-pos: anúncios com a data de 2026 seguem sem esperar o site.** Texto anterior: MANTER a campanha, com duas condições: (a) pausar já qualquer anúncio que cite data de início ou "2027" no texto, título ou imagem; (b) o WhatsApp de vendas recebe a orientação de confirmar a data de 28/11/2026 ao candidato [CONFIRMAR com a Ufape]. Nenhum anúncio novo, nenhum aumento de verba |
 | Site ainda com 2027 | REVOGADO pela decisão 19 do CEO (27/10/2026): a campanha de 698 segue com início em 28 e 29/11/2026. Os anúncios dizem a data de 2026 no texto e o time de vendas confirma a quem perguntar; a correção da página continua pedida |
-| Site corrigido | MANTER; seguir o calendário de reta final da seção 5 e pausar na data de início (28/11) ou na data de corte confirmada |
+| Site corrigido | MANTER; seguir o calendário de reta final da seção 5. A pausa na data de início foi substituída pela decisão 18 e pela seção 13 do gestor-de-midia-pos (698 até 18/12/2026, véspera do módulo 2, até OU3) |
 
 ### 2.3 O que conferir no gerenciador
 
@@ -124,7 +124,7 @@ Dias desde o início contados até 26/10/2026 pela data do catálogo (planilha).
 
 ### 3.1 Dados do catálogo e da concorrência
 
-- 22 provas abertas em 27/11/2026, inscrição de R$ 100,00 (à vista ou 1x no cartão), 19 São Paulo e 3 Goiânia (68640 Anestesiologia, 68642 Cardiologia, 68644 Clínica Cirúrgica). Prova das 9h às 13h (ficha 68647); online, pela decisão 11 da Ufape, com o campus (São Paulo ou Goiânia) dito em toda peça. Prova de Oftalmologia 68656 fora do ar: fica fora.
+- 22 provas abertas em 27/11/2026, inscrição de R$ 100,00 (à vista ou 1x no cartão), 19 São Paulo e 3 Goiânia (68640 Anestesiologia, 68642 Cardiologia, 68644 Clínica Cirúrgica). Prova das 9h às 13h (ficha 68647); presencial (superado pela decisão 20: a decisão 11 dizia online; local de Goiânia [CONFIRMAR]), com o campus (São Paulo ou Goiânia) dito em toda peça. Prova de Oftalmologia 68656 fora do ar: fica fora.
 - Regras iguais nas 22 páginas: 11 bolsas por prova (2 de 50% em monitoria, 4 de 25%, 5 de 10%), nota de corte 7,0, resultado por WhatsApp ou e-mail, 2 dias úteis para recurso, 10 dias úteis para a matrícula, bolsa não acumulativa e intransferível, desempate por currículo.
 - Lacunas que afetam o anúncio: turma de destino de cada prova [CONFIRMAR]; data de fim das inscrições [CONFIRMAR]; data do resultado [CONFIRMAR]; turma mínima de 15 na página da prova e 20 nas páginas de curso [CONFIRMAR].
 - Concorrência (inteligencia-concorrencia-pos): Anclivepa-SP com inscrições até 07/11/2026 (edital) e prova presencial em 14/11/2026 segundo cópia não oficial do edital [CONFIRMAR no edital oficial]; taxa de R$ 350,00; bolsistas divulgados em 05/12/2026 (cópia não oficial).

@@ -195,7 +195,7 @@ Datas de corte são [SUPOSIÇÃO] (1ª mensalidade 30 dias antes do início, por
 - **Excedente de 289 (sai da manutenção, nunca da conversão):** se G passar de R$ 425,00, seja E = G menos R$ 425,00 (no máximo R$ 75,00 com o limite de R$ 500,00). Manutenção nova = R$ 170,00 menos E; o Google fica com 50% dela, dividido por 14 dias (21/12 a 03/01), arredondado para baixo. Exemplo de conta, só para mostrar a fórmula (não é dado observado): com G = R$ 500,00, E = R$ 75,00, manutenção nova de R$ 95,00, Google de R$ 47,50 e diária de R$ 3,39. Se o aquecimento novo for zero, a estrutura de 289 sobe em 21/12, já na manutenção.
 - **Excedente de 662 (sai da extensão, nunca da conversão):** a mesma conta de E, porque abril não tem manutenção (gestor 12.5). Extensão nova = R$ 300,00 menos E; o Google fica com 50% dela, ou seja, R$ 150,00 menos metade de E (com G = R$ 500,00, R$ 112,50), dividida pelos dias da extensão, só quando a data do 3º módulo estiver confirmada. Se o aquecimento novo for zero, a estrutura de 662 sobe em 25/01, na conversão.
 - **Aviso:** se o gasto de 289 já registrado em 30/11 passar de R$ 595,00 (aquecimento mais manutenção), ou o de 662 em 30/12 passar de R$ 725,00 (aquecimento mais extensão), aviso ao gestor e ao cmo antes da subida [CONFIRMAR o caminho; a estratégia v5, 3.8, não o escreve]. Até lá vale a pausa pelo teto (AGP24).
-- **Conversão protegida:** a conversão (Google R$ 386,75 em 289 e R$ 446,25 em 662) não muda por causa do gasto anterior; o teto de R$ 2.000,00 vale em todas as fases.
+- **Conversão protegida até o teto (regra M1 do qa, igual à seção 7.3 do anuncios-meta):** a conversão (Google R$ 386,75 em 289 e R$ 446,25 em 662) fica protegida do gasto anterior só enquanto a soma da turma não passar de R$ 2.000,00. Se o gasto anterior passar do que o aquecimento e a manutenção absorvem em 289 (R$ 595,00) ou do que o aquecimento e a extensão absorvem em 662 (R$ 725,00), o excesso X (X = G menos R$ 595,00 em 289; X = G menos R$ 725,00 em 662) sai da conversão da mesma turma: o Google perde 35% de X e a Meta 65%, em nova versão escrita antes de 04/01 (289) ou de 25/01 (662), com aviso ao gestor e ao cmo [SUPOSIÇÃO de que o excesso sai na mesma divisão por canal; CONFIRMAR o caminho com o gestor e o cmo]. Até lá vale a pausa pelo teto (AGP24).
 - 662: a URL é conferida em 28/10; se levar à página errada, vai o pedido de pausa (PP5). Estrutura nova de 662 só com o link corrigido.
 
 ### 4.4 Referência de leitura da parte Google (verba da fase dividida pelo CPL máximo de cada cenário)
@@ -631,7 +631,7 @@ Também seguem [CONFIRMAR]: páginas que dizem turma mínima de 20 (a decisão 1
 | 18/06 | 68617 e 68636: pausa total | abril |
 | 25/06 | 68628 e 68609: pausa total | abril |
 
-Toda troca para a extensão e toda pausa total é às 23h59 do dia anterior ou na data indicada, com exportação prévia, e antes se o gasto do ciclo da turma chegar a R$ 2.000,00. Datas de corte e de 3º módulo são [SUPOSIÇÃO] ou [CONFIRMAR] até as fichas e a Ufape confirmarem; mudança vira nova versão antes da subida. As datas seguem a tabela 6.1 da estratégia v5.
+A troca para a extensão é feita na data indicada (dia seguinte ao corte) e toda pausa total é às 23h59 da data indicada (véspera do 3º módulo), com exportação prévia, e antes se o gasto do ciclo da turma chegar a R$ 2.000,00. Datas de corte e de 3º módulo são [SUPOSIÇÃO] ou [CONFIRMAR] até as fichas e a Ufape confirmarem; mudança vira nova versão antes da subida. As datas seguem a tabela 6.1 da estratégia v5.
 
 ---
 
@@ -925,6 +925,7 @@ Leitura: custo por inscrito por grupo, com 3 dias e gasto de 1,5 x CPImax; relat
 - [SUPOSIÇÃO de desenho, estratégia v5] Extensão dentro da mesma campanha e do mesmo grupo, com 1 anúncio -ext por grupo e sufixo -ext no utm_content; sem a data do 3º módulo a extensão não sobe; 333 e 68632 com OU3 recalculam a diária pelo saldo; diária abaixo do mínimo concentrada nas últimas semanas (EM14).
 - [SUPOSIÇÃO] A DS1 sem data do anúncio -ext é a DS1 do corte sem " Início em dd/mm/aaaa."; a frase DT fica fora do -ext porque trata de comprar passagem antes de a turma ser confirmada; a conferência é do qa.
 - [SUPOSIÇÃO] 289 e 662 com aquecimento novo zero sobem na fase seguinte (289 em 21/12, 662 em 25/01); avisos acima de R$ 595,00 (289) e R$ 725,00 (662).
+- [SUPOSIÇÃO] Na regra do teto (M1), o excesso de gasto anterior acima de R$ 595,00 (289) ou de R$ 725,00 (662) sai da conversão na mesma divisão por canal da fase (Google 35% de X, Meta 65%); o caminho final é do gestor e do cmo.
 - [SUPOSIÇÃO] Ficar sem snippet nas turmas sem programa lido.
 - [SUPOSIÇÃO] Taxas de lead para inscrição e de inscrição para matrícula (5%, 10%, 15%; 60%, 75%, 90%), do gestor, só ilustrativas.
 

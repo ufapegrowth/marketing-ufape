@@ -25,7 +25,7 @@
 
 | Arquivo | Veredito | Motivo em uma linha |
 |---|---|---|
-| anuncios-meta-pos v5 | **APROVADO COM RESSALVAS** | Verba, diárias, datas, exceções e conformidade batem; uma célula de conferência (679, linha 272) soma errado sem mudar nenhuma diária, e há três ajustes de redação (R1 a R5) |
+| anuncios-meta-pos v5 | **APROVADO COM RESSALVAS** | Verba, diárias, datas, exceções e conformidade batem; uma célula de conferência (679, linha 272) soma errado sem mudar nenhuma diária, e há ajustes de redação (R1 a R5) |
 | anuncios-google-pos v5 | **CORRIGIR** (1 item obrigatório, C1) | Verba e diárias certas, mas a seção 4.3 voltou a dizer que a conversão "não muda" com o gasto anterior, o que contradiz a regra do teto (M1) que o Meta aplica e que o próprio Google tinha aceitado na versão 4 (G3) |
 | Texto -ext das duas peças | **PENDENTE** (P1) | Não existe ainda; vem do criativos-de-anuncio (25/01 e 25/02) e passa por este agente antes de subir. Seção 6 diz o que precisa ser escrito |
 
@@ -94,7 +94,7 @@ Todas conferidas e certas nas duas peças e iguais à tabela 7.1 da estratégia 
 - **Meta (5.2 e 5.2b):** 17,00 e 4,25 (semanas 119,00 e 29,75); 34,00 e 8,50 (238,00 e 59,50); 6,07 (42,50); 9,36 e 6,24 (65,58 e 43,72); 8,13 e 5,42 (56,92 e 37,95); 11,05 e 7,36 (77,35 e 51,57); 12,52 e 3,13 (87,68 e 21,92); 12,75 e 8,50 (89,25 e 59,50); 10,80 e 7,20 (75,67 e 50,45); 9,38 e 6,25 (65,67 e 43,78); 8,28 e 5,52 (58,01 e 38,68); extensão 1,51 (10,61), 2,11 (14,79), 1,76 (12,35), 1,63 (11,41), 5,17 (36,21) e 1,41 (9,91).
 - **Google (4.1 e 4.2):** 9,10 (63,75); 18,21 (127,50); 6,07 (42,50); 8,40 (58,85); 7,29 (51,08); 9,91 (69,42); 6,71 (46,97); 11,44 (80,10); 9,70 (67,91); 8,41 (58,94); 7,43 (52,06); extensão igual à Meta.
 - **Limites de volume:** Meta frio = 2 x semana / 3, remarketing = 2 x semana / 2, extensão = 2 x semana / 1; Google = 2 x semana / 2 até o corte e 2 x semana na extensão; 662 com 1 anúncio: 93,94 e 104,12. Todos certos (o 21,21 de 657 vem da conta sem arredondar a semana, 2 x 150 x 7 / 99 = 21,2121, e está certo).
-- **Leads por semana (Meta 5.3) e referência de leitura (Google 4.4):** todas as 87 células conferidas, certas no arredondamento.
+- **Leads por semana (Meta 5.3) e referência de leitura (Google 4.4):** todas as células conferidas, certas no arredondamento.
 - **EM14 (Meta 5.4):** 297,50 / 14 = 21,25; / 7 = 42,50; 718,25 / 46 = 15,61; / 53 = 13,55; / 39 = 18,41; 297,50 / 19 = 15,65; 828,75 / 39 = 21,25; / 46 = 18,01; / 53 = 15,63; / 60 = 13,81. Certas.
 - **Turma atrasada (Meta 5.6):** 331,50 + 59,50 = 391,00; mais 150,00 = 541,00. Certo.
 - **289 e 662 (Meta 7.3 e Google 4.3):** 56% + 14% + 30% de R$ 425,00 = 238,00 + 59,50 + 127,50; exemplo de 289 com G = 500,00: E = 75,00, manutenção nova 95,00, Google 47,50, diária 3,39; 662: extensão nova 300,00 menos E, Google 150,00 menos E / 2 (112,50 com G = 500,00); limiares 425 + 170 = 595,00 e 425 + 300 = 725,00; Meta 65% de X (39% e 26%) e Google 35% de X, iguais à divisão da conversão (718,25 / 1.105,00 = 828,75 / 1.275,00 = 65%). Contas certas.
@@ -186,12 +186,12 @@ Peças até o corte: textos do criativos v3 (Meta) e títulos e descrições das
 | Sem caixa alta excessiva ou símbolos | [x] | [x] Só "UFAPE" (sigla) |
 | Página carrega, mostra dados, contato e privacidade | Pendente externo (S7) | Pendente externo (S6) |
 | Sem drible da análise das plataformas | [x] Melhorias automáticas desligadas | [x] |
-| Sem travessão nem meia-risca | [x] Nenhum na leitura. Há caracteres de desenho de árvore (U+2500 e vizinhos) nas linhas 81, 86, 799, 802, 805, 808 e 833, que não são travessão nem meia-risca: ressalva R5 | [x] Nenhum na leitura |
+| Sem travessão nem meia-risca | [x] Nenhum na leitura. Há caracteres de desenho de árvore (U+2500, U+2502, U+2514 e U+251C) nas linhas 81, 86, 799, 802, 805, 808 e 833, que não são travessão nem meia-risca: ressalva R5 | [x] Nenhum na leitura |
 | Nada publicado, enviado ou pago sem aprovação humana | [x] Seções 5.5, 6.4, 8 e 12 como pedido | [x] Seções 11, 13 e 15 como pedido |
 
 **Resultado da conformidade:** nenhum item marcado como falha nas duas peças. Os pendentes externos têm trava de subida escrita, então não liberam nada antes de resolvidos. As peças -ext não foram auditadas (P1) e não podem subir sem passar por esta auditoria.
 
-**Auditoria 11 (mídia paga), resumo:** plano do gestor e PP16 pendentes de aprovação humana; metas escritas; verba dentro de R$ 2.000,00 por turma nas duas (Google com a ressalva de redação de C1); aprovador de "Anúncios e verba" vazio em contexto/ufape-geral.md [CONFIRMAR]; nomenclatura no desenho, com a chave de área curta à espera do cmo (AMP13 e AGP12); UTM completas, chegada ao CRM depende do teste de 30/10; públicos sem lista de contatos; nenhum menor de 18; destino nunca WhatsApp; nenhum número de mídia inventado; nenhuma ação na plataforma sem humano.
+**Auditoria 11 (mídia paga), resumo:** plano do gestor e PP16 pendentes de aprovação humana; metas escritas; verba dentro de R$ 2.000,00 por turma nas duas (Google com a correção de redação C1); aprovador de "Anúncios e verba" vazio em contexto/ufape-geral.md [CONFIRMAR]; nomenclatura no desenho, com a chave de área curta à espera do cmo (AMP13 e AGP12); UTM completas, chegada ao CRM depende do teste de 30/10; públicos sem lista de contatos; nenhum menor de 18; destino nunca WhatsApp; nenhum número de mídia inventado; nenhuma ação na plataforma sem humano.
 
 ---
 
@@ -240,7 +240,7 @@ Trocar `R$ 1.126,65 até o corte (extensão sem data)` por `R$ 1.126,10 até o c
 ### R2. Ressalva. anuncios-meta-pos v5, seção 6.4, linhas 550 e 551
 
 O exemplo usa o conceito `c2`, de anúncio frio, enquanto a mesma linha e a regra da seção 1 (linha 53) mandam `<r1 ou r2>-ext`.
-- Linha 550: trocar `Exemplo de padrão da estratégia: \`68615-c2-ext_e11_regra3mod_v1\`` por `Exemplo, se a peça de menor CPL for r1: \`68615-r1-ext_car_regra3mod_v1\` [SUPOSIÇÃO; nome final do criativos-de-anuncio]`.
+- Linha 550: trocar `Exemplo de padrão da estratégia: 68615-c2-ext_e11_regra3mod_v1` por `Exemplo, se a peça de menor CPL for r1: 68615-r1-ext_car_regra3mod_v1 [SUPOSIÇÃO; nome final do criativos-de-anuncio]`.
 - Linha 551: no exemplo de UTM, trocar `utm_content=68615-c2-ext_e11_regra3mod_v1` por `utm_content=68615-r1-ext_car_regra3mod_v1`.
 
 ### R3. Ressalva. anuncios-google-pos v5, seção 13, linha 634
@@ -262,7 +262,7 @@ A nota do topo (linha 772) já anula o "online", mas os trechos abaixo ainda afi
 
 ### R5. Ressalva. anuncios-meta-pos v5, linhas 81, 86, 799, 802, 805, 808 e 833
 
-As árvores usam caracteres de desenho de caixa (por exemplo "└──" e "├──"). Não são travessão (U+2014) nem meia-risca (U+2013), mas parecem traço longo na leitura e podem disparar a varredura. Sugestão: trocar por recuo simples ou por "+ " e "| " em ASCII.
+As árvores usam caracteres de desenho de caixa (U+2500, U+2502, U+2514 e U+251C). Não são travessão (U+2014) nem meia-risca (U+2013), mas parecem traço longo na leitura e podem disparar a varredura. Sugestão: trocar por recuo simples ou por "+ " e "| " em ASCII.
 
 ### R6. Ressalva condicionada a P1. anuncios-meta-pos v5, seção 5.5, e anuncios-google-pos v5, seção 13
 
@@ -286,7 +286,7 @@ As três seguem como recomendação (não bloqueiam): o aviso da linha 320 e as 
 
 ## 9. Observações sobre arquivos fora do escopo (não editados; vão ao gestor-de-midia)
 
-- **O1, gestor-de-midia-geral, seção 2.2, linha 105:** a primeira linha da tabela da 698 ("Até a correção do site... pausar já qualquer anúncio que cite data de início ou '2027'") ainda é uma trava ligada à correção do site, e a linha 107 manda pausar a 698 na data de início (28/11). A decisão 19 libera anúncios com a data de 2026 sem esperar o site, e a decisão 18 com a seção 13 do gestor-de-midia-pos leva a 698 até 18/12/2026 (véspera do módulo 2 presencial, até OU3). Sugestão: marcar as linhas 105 e 107 como substituídas pelas decisões 18 e 19 e pela seção 13 do gestor-de-midia-pos.
+- **O1, gestor-de-midia-geral, seção 2.2, linhas 105 e 107:** a primeira linha da tabela da 698 ("Até a correção do site... pausar já qualquer anúncio que cite data de início ou '2027'") ainda é uma trava ligada à correção do site, e a linha 107 manda pausar a 698 na data de início (28/11). A decisão 19 libera anúncios com a data de 2026 sem esperar o site, e a decisão 18 com a seção 13 do gestor-de-midia-pos leva a 698 até 18/12/2026 (véspera do módulo 2 presencial, até OU3). Sugestão: marcar as linhas 105 e 107 como substituídas pelas decisões 18 e 19 e pela seção 13 do gestor-de-midia-pos.
 - **O2, gestor-de-midia-geral, seção 3.1, linha 127:** "online, pela decisão 11" contraria a decisão 20. Sugestão: marcar "superado pela decisão 20: presencial; local de Goiânia [CONFIRMAR]", como as peças fizeram.
 - **O3, gestor-de-midia-pos v6, 12.8, linha 624:** a encomenda ao anuncios-meta fala em "conjunto de extensão por turma"; a estratégia v5 (7.2) e as duas peças põem a extensão dentro da campanha e do conjunto de remarketing existentes. As peças seguem a estratégia, que é posterior. Sugestão: alinhar a 12.8 na próxima versão do gestor.
 

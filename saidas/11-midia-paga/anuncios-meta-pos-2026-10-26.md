@@ -269,7 +269,7 @@ Plano = soma dos totais das fases (frio: aquecimento + conversão; remarketing: 
 | 68628 | R$ 735,25 | R$ 541,00 | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.274,81 |
 | 68609 | R$ 735,25 | R$ 541,00 | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.275,31 |
 | 68632 | R$ 735,25 | R$ 541,00 | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.275,28 |
-| 679 | R$ 735,25 | R$ 541,00 (extensão [CONFIRMAR]) | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.126,65 até o corte (extensão sem data) |
+| 679 | R$ 735,25 | R$ 541,00 (extensão [CONFIRMAR]) | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.126,10 até o corte (extensão sem data) |
 | 366 | R$ 735,25 | R$ 541,00 (extensão [CONFIRMAR]) | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.125,35 até o corte (extensão sem data) |
 | 662 (teto) | R$ 735,25 | R$ 541,00 (extensão [CONFIRMAR]) | R$ 1.276,25 | R$ 723,75 | R$ 2.000,00 | R$ 1.125,35 até o corte (extensão sem data) |
 
@@ -547,8 +547,8 @@ Regra da estratégia v5 (4.1, 7.2 e EM16). Este arquivo não escreve o texto da 
 | O que sai | Pedido de pausa da campanha fria inteira e de todo anúncio que cite a data de início sem a regra completa (r1 e r2 até o corte; r2 cita a data). Pausar, nunca apagar, com exportação antes |
 | O que fica | Na campanha de remarketing, 1 anúncio, o de menor CPL até o corte entre r1 e r2 (empate: maior CTR; persistindo, r1) [SUPOSIÇÃO de desempate], na versão -ext. Mesmo conjunto, públicos de visitantes (30 dias) e engajamento (90 dias), 18+ |
 | O que a peça diz | A regra completa: início da turma, "matrícula até o 3º módulo", data do 3º módulo e que o time explica os módulos já dados [CONFIRMAR OU3 para o texto]. Sem preço, sem valor de inscrição, sem "últimas vagas" ou urgência com a data sem a regra (decisão 18; conformidade) |
-| Nome | `<código>-<r1 ou r2>-ext_<formato>_<gancho>_vN` [SUPOSIÇÃO; nome final do criativos-de-anuncio]. Exemplo de padrão da estratégia: `68615-c2-ext_e11_regra3mod_v1` |
-| UTM | `utm_source=meta&utm_medium=paid_social&utm_campaign=<campanha de remarketing da turma, seção 3.2>&utm_content=<nome do anúncio -ext>&utm_term=rmk30d`. Exemplo com o nome acima, para 68615: `utm_source=meta&utm_medium=paid_social&utm_campaign=pos_68615-patclin_meta_lead_rmk30d_202612&utm_content=68615-c2-ext_e11_regra3mod_v1&utm_term=rmk30d` |
+| Nome | `<código>-<r1 ou r2>-ext_<formato>_<gancho>_vN` [SUPOSIÇÃO; nome final do criativos-de-anuncio]. Exemplo, no nome do criativos-de-anuncio-pos-2026-10-27-ext: `68615-r2-ext_e11_regra3mod_v1` (as peças se dividem em -exta antes do início e -extb depois) |
+| UTM | `utm_source=meta&utm_medium=paid_social&utm_campaign=<campanha de remarketing da turma, seção 3.2>&utm_content=<nome do anúncio -ext>&utm_term=rmk30d`. Exemplo com o nome acima, para 68615: `utm_source=meta&utm_medium=paid_social&utm_campaign=pos_68615-patclin_meta_lead_rmk30d_202612&utm_content=68615-r2-ext_e11_regra3mod_v1&utm_term=rmk30d` |
 | Verba | R$ 150,00 por turma no período, diária da coluna "Extensão" da tabela 5.2b. Diária abaixo do mínimo aceito: EM14 na extensão (seção 5.4). Sobra não é gasta |
 | Quando pára | Pausa total às 23h59 da véspera do 3º módulo (333: 26/03 e 68632: 09/04, até OU3), ou antes se o gasto do ciclo da turma chegar a R$ 2.000,00, a turma chegar a 15 matrículas ou lotar |
 | Leitura | Mensal (diária de R$ 1,41 a R$ 5,17); frequência e CPM lado a lado com as turmas da mesma área (68615 e 333; 289 e 657) |
@@ -775,7 +775,7 @@ Até a tabela de aprovação de contexto/ufape-geral.md ser preenchida, todos v�
 
 | Regra | Valor nesta montagem | Fonte |
 |---|---|---|
-| Prova de bolsa | Online. Toda peça diz o campus da prova (São Paulo ou Goiânia). Sem endereço, sem "presencial", sem documento com foto, sem "sem celular". Data e horário como na ficha: 27/11/2026, das 9h às 13h. Acesso online: [CONFIRMAR, U2] | decisão 11; seção 12.9 |
+| Prova de bolsa | **Superado pela decisão 20: provas presenciais, com o campus e o local da ficha; local de Goiânia [CONFIRMAR].** Texto da versão 2: Online. Toda peça diz o campus da prova (São Paulo ou Goiânia). Sem endereço, sem "presencial", sem documento com foto, sem "sem celular". Data e horário como na ficha: 27/11/2026, das 9h às 13h. Acesso online: [CONFIRMAR, U2] | decisão 11; seção 12.9 |
 | Bolsa | Só nas provas e no pós-prova, sempre com a distribuição completa (2 de 50% com monitoria, 4 de 25%, 5 de 10%) e "Bolsa não acumulativa e intransferível". Anúncio de turma não fala de bolsa | criativos-de-anuncio-pos, 1.1 a 1.3; 1.13, 4.1 |
 | Crédito e ponte Livres para Pós | Nenhuma menção a crédito, combo ou desconto da ponte | D7 da seção 12.4 |
 | Nomes | Campanha = chave + `_<plataforma>_<objetivo>_<público>_<AAAAMM>`; chave = `pos_provas20261127`. Conjunto = nome da campanha + `__` + público. Minúsculas, sem acento | D12 |
@@ -867,7 +867,7 @@ Contagem de caracteres: a primeira frase do texto principal aparece entre parên
 
 Exemplos preenchidos com as duas provas que sobem em 03/11 sem pendência (E1): 68654 Neurologia e 68658 Patologia Clínica. As demais áreas usam o mesmo texto, trocando {nome curto} e {nome completo} pela tabela da seção 4.1 do criativos-de-anuncio-pos e o campus pela praça da prova.
 
-#### 13.6.1 Corpo fixo das provas [SUSPENSO, NÃO EXECUTAR] (substitui BODY_SP e BODY_GO do criativos-de-anuncio-pos)
+#### 13.6.1 Corpo fixo das provas [SUSPENSO, NÃO EXECUTAR] (texto "online" superado pela decisão 20) (substitui BODY_SP e BODY_GO do criativos-de-anuncio-pos)
 
 - **Corpo São Paulo:** "Prova de bolsa do campus São Paulo da Faculdade UFAPE, online, em 27/11/2026, das 9h às 13h. Inscrição de R$ 100,00 (Pix, boleto ou 1x no cartão). São 11 bolsas por prova: 2 de 50% (monitoria), 4 de 25% e 5 de 10%. Nota de corte 7,0. Bolsa não acumulativa e intransferível. Regras completas na página da prova."
 - **Corpo Goiânia:** igual, com "campus Goiânia". Sem endereço. Sem prazo de matrícula e sem canal do resultado em nenhuma prova até U1 (12 fichas têm versões contraditórias: 68641, 68642, 68643, 68644, 68645, 68650, 68651, 68652, 68653, 68657, 68659, 68661).
@@ -924,7 +924,7 @@ Cuidado de verdade nos textos 3 e 4: nenhum diz que a bolsa é certa nem que R$ 
 - **Combinação para o 1º teste:** `c2-entrada_<área>_e11_numero_v1` + texto 5 + título "R$ 100,00 para concorrer" + descrição "11 bolsas por prova". O vídeo `c2-entrada_<área>_vid916_pergunta_v1` entra com o texto 2 se estiver pronto em 03/11.
 - **Vídeo (roteiro da seção 3.8 do criativos):** o quadro de 8 a 14 s muda para "Prova online / Sexta, 27/11/2026, das 9h às 13h / Campus São Paulo" e a locução opcional para "A prova é online, em 27 de novembro, das 9 às 13 horas." Sai "Documento com foto".
 
-#### 13.6.4 C3 reescrito [SUSPENSO, NÃO EXECUTAR]. Prova online, 27/11, das 9h às 13h (fase 2, só com U2 respondido)
+#### 13.6.4 C3 reescrito [SUSPENSO, NÃO EXECUTAR]. Prova online, 27/11, das 9h às 13h (fase 2, só com U2 respondido) (superado pela decisão 20: provas presenciais)
 
 O conceito original (logística da prova presencial, local, documento e celular) deixou de ser verdade com a decisão 11. A versão reescrita mantém o ângulo "economia de incerteza", agora sobre o formato online e o campus. Sobe em 10/11 só se a Ufape responder U2 (plataforma, acesso e regras do dia) e a página da prova disser "online". Nomes: `c3-online_<área>_e916_data_v1`, `c3-online_<área>_e11_data_v1`.
 
