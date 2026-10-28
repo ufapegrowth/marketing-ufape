@@ -227,12 +227,12 @@ Link na bio.
 **Gancho (linha 1):** Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. (A6-05; correção E13 do qa: a pergunta da segunda opinião fica para o ep. 2 do podcast, onde o convidado responde)
 
 **Ganchos alternativos (2):**
-1. Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. (A6-05)
+1. Quando um caso gastrointestinal pede uma segunda opinião? (fica para o ep. 2 do podcast; não usar neste Stories, E13)
 2. 38 professores listados: quem ensina na Pós-graduação em Gastroenterologia Veterinária. (A6-01)
 
 **Ponto de vista:** discutir o caso com quem coordena faz parte do curso, segundo a página da turma. [SUPOSIÇÃO de texto: é a posição da Ufape, não da docente]
 
-**Nota sobre a voz.** O rascunho original AD-A6-1 era em primeira pessoa ("Sou Esp. Maria Carolina Pappalardo e coordeno...") e trazia um campo de ponto de vista da docente. Aqui o texto está em terceira pessoa e sem opinião atribuída a ela, como pediu a encomenda. A pergunta do gancho é da Ufape e não é respondida clinicamente. Se a docente aprovar uma versão em primeira pessoa, com a frase dela, ela entra no lugar da tela 2 (checklist C1 a C8 da seção 0 do autoridade-docente-pos).
+**Nota sobre a voz.** O rascunho original AD-A6-1 era em primeira pessoa ("Sou Esp. Maria Carolina Pappalardo e coordeno...") e trazia um campo de ponto de vista da docente. Aqui o texto está em terceira pessoa e sem opinião atribuída a ela, como pediu a encomenda. O gancho descreve o que a página prevê; não há pergunta clínica nesta peça. Se a docente aprovar uma versão em primeira pessoa, com a frase dela, ela entra no lugar da tela 2 (checklist C1 a C8 da seção 0 do autoridade-docente-pos).
 
 **Texto tela a tela**
 
@@ -266,7 +266,7 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 
 **Briefing visual**
 - 9:16, mesma identidade do P1 para o conjunto da turma ficar reconhecível.
-- Tela 1: pergunta em tipografia grande sobre fundo liso.
+- Tela 1: gancho em tipografia grande sobre fundo liso.
 - Tela 2: card com o nome e a titulação em destaque. Foto da coordenadora, se houver, em recorte limpo, com autorização registrada, aprovada por ela antes de sair. Se não houver foto aprovada, card tipográfico, sem imagem de pessoa.
 - Nenhuma legenda de fala, aspas ou balão: nada soa como frase dela.
 - Nenhum paciente, tutor, aluno ou clínica identificável.
@@ -505,7 +505,7 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 
 ## 7. Textos de contingência e notas de publicação
 
-**Se P1 ou P2 forem publicados depois de 07/11 (atraso de aprovação).** Trocar a chamada final (tela 4 do P1; card 6 e legenda do P2), no lugar de "A turma IX começa em 07/11/2026, em São Paulo.", por:
+**Se P1 ou P2 forem publicados depois de 07/11 (atraso de aprovação).** Trocar a chamada final (tela 4 do P1 e legenda do P2; o card 6 do P2 já não tem data nem chamada), no lugar das linhas "A turma IX começa em 07/11/2026, em São Paulo." e "Fale com o time para saber como entrar na turma.", por:
 "A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma."
 Nesse caso, em P2 o gancho e o corpo não mudam.
 
@@ -515,7 +515,7 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 
 **Ordem de corte, se a capacidade do perfil ficar abaixo do planejado** (seção 12.3 do plano geral): primeiro P2 e P4 viram Stories, mantendo o conteúdo; nenhum dos 6 sai do kit.
 
-**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de pagamento da 1ª mensalidade, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: responder só com a condição completa do P5 ou levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir se o número voltou a funcionar antes de usar).
+**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de pagamento da 1ª mensalidade, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: enquanto a OU8 não tiver resposta, levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir antes se o número voltou a funcionar) ou à página da turma, sem citar valores em resposta pública. Depois da OU8, responder só com a condição completa do P5 já aprovada pelo qa.
 
 ---
 
@@ -586,3 +586,4 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 
 criador-de-ganchos, para revisar as primeiras linhas e as alternativas deste kit (principalmente P1, P3 e P6, que usam ganchos novos ou adaptados) antes do qa-de-marketing.
 - 28/10/2026: correções E1, E13, E14, E15, E16 e E17 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: ajustes R4 e R5 da reconferência do qa-de-marketing aplicados pelo orquestrador.

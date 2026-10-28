@@ -94,9 +94,9 @@
 | 03/11 | ter | 18h | Instagram Stories | P1: "3 práticas em um módulo" (4 telas; chamada com a data de início) | F1 | posts-sociais; publicação humana (OA11) | rascunho |
 | 03/11 | ter | dia | Podcast | Aprovação do nome UFAPE Cast e checagem de perfis no YouTube e no Spotify (prazo 06/11) | F1 | Ufape | a produzir |
 | 04/11 | qua | a definir | Instagram Reels e YouTube Shorts | TK-A: vídeo curto versão A, 41 s, "Cinco módulos online. No sexto, a prática." Dia [SUPOSIÇÃO] dentro da janela de 03 a 06/11. Ver C12 | F1 | tiktok (roteiro); time de vídeo [CONFIRMAR] | rascunho (roteiro); gravação e edição a produzir |
+| até 04/11 | prazo | dia | Meta Ads | Criar os públicos de remarketing (visitantes 30 dias, engajamento 90 dias); conjunto com idade mínima de 25 anos (decisão 24) | F1 | humano no gerenciador | rascunho |
 | 05/11 | qui | 12h | Instagram feed | P2: carrossel de 6 cards "Do módulo online de fisiologia à cirurgia na prática". Ver C8 | F1 | posts-sociais; publicação humana | rascunho |
 | 05/11 | qui | a definir | Facebook | P2 reaproveitado (mesmo dia ou no seguinte, com o link na legenda) | F1 | posts-sociais | rascunho |
-| até 04/11 | qua | dia | Meta Ads | Criar os públicos de remarketing (visitantes 30 dias, engajamento 90 dias); conjunto com idade mínima de 25 anos (decisão 24) | F1 | humano no gerenciador | rascunho |
 | 05/11 | qui | dia | Meta Ads | Enviar F2-A e F2-B para revisão da Meta, conjunto de remarketing com início agendado em 07/11, 00:00 | F1 | humano | rascunho |
 | 05/11 | qui | dia | Google Ads | Porta de entrada P1: a página da turma precisa trazer a regra completa do 3º módulo (A13) para os RSAs subirem. Prazo do pedido. Ver C14 | F1 | time do site (Ufape); anuncios-google | a produzir (correção na página) |
 | 06/11 | sex | 10h | WhatsApp | W2: véspera do início, módulo 1 online (semiologia e fisiologia gastrointestinal) | F1 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
@@ -108,7 +108,7 @@
 | 07/11 | sáb | dia | Meta Ads | F2-B: vídeo de 38 s "A turma já começou. Ainda dá para entrar?" entra no remarketing (CA3). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | idem | rascunho; vídeo a produzir |
 | 07/11 | sáb | dia | Google Ads | P3: pausar anúncio com data de início; subir 4 RSAs ativos (marca1, marca2, area1, area2); manter pausado o grupo de custo (RSAs custo1 e custo2 prontos como reserva). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | anuncios-google; gestor-de-midia; humano no Google Ads | rascunho |
 | 07/11 | sáb | dia | Instagram e Facebook | Editar a legenda do P2 para o texto de contingência; tirar P1 dos Destaques, se estiver (E14) | F2 | posts-sociais; humano | rascunho |
-| 07/11 | sáb | dia | Google Ads | P5: 4 sitelinks, 7 frases de destaque e 1 snippet estruturado (sem chamada nem formulário) | F2 | anuncios-google; humano | rascunho |
+| 07/11 | sáb | dia | Google Ads | P5: 4 sitelinks, 7 frases de destaque e 1 snippet estruturado (sem chamada nem formulário). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | anuncios-google; humano | rascunho |
 | 08/11 | dom | - | Turma | Módulo 1, segundo dia. Enem: sem feed da Pós | F2 | Ufape | - |
 
 ### Semana 3: seg 09/11 a dom 15/11
@@ -194,7 +194,7 @@
 | Data | Dia | Hora | Canal | Peça | Fase | Dono | Status |
 |---|---|---|---|---|---|---|---|
 | 14/12 | seg | dia | Gestão | Revisão semanal 7 | F2 | cmo; gestor-de-midia; analise-de-midia | a produzir |
-| 15/12 | ter | 18h | Instagram Stories | P5: "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira." (parcelas, total e matrícula; último dia de Stories antes da pausa). Ver C18 | F2 | posts-sociais; publicação humana | rascunho |
+| 15/12 | ter | 18h | Instagram Stories | P5: com preço só se a OU8 for respondida até 14/12 (versão com parcelas, total, matrícula e a regra da 1ª mensalidade, que volta ao qa); sem a OU8, versão sem valores, "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? Onde ver a conta inteira." (E16). Último dia de Stories antes da pausa. Ver C18. Só sai com a A13 publicada na página e conferida pelo qa (E1). | F2 | posts-sociais; publicação humana | rascunho |
 | 15/12 | ter | a definir | Instagram Reels e YouTube Shorts | EP2-C3: corte 3 "Como falar com o tutor sobre segunda opinião?" | F2 | podcast; posts-sociais | a produzir |
 | 15/12 | ter | dia | Podcast | Sessão de gravação 3: EP5 (e o episódio reserva, se aprovado) | F2 | produção; Ufape | a produzir |
 | 16/12 | qua | 10h | WhatsApp | W3: regra completa do 3º módulo; chamada "responda TURMA" | F2 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
@@ -360,7 +360,7 @@
 | 01/12 | Corte 3 do episódio 1; gravação 2 (episódios 3 e 4) |
 | 02 e 03/12 | E-mail E2 (turma em andamento); P4 em carrossel; newsletter ed. 2 (04/12 no WhatsApp) |
 | 08 a 10/12 | Episódio 2, cortes 1 e 2, Stories e card do convidado |
-| 15/12 | P5 em Stories (conta inteira); corte 3 do episódio 2; gravação 3 |
+| 15/12 | P5 em Stories (com preço só com a OU8; senão, sem valores); corte 3 do episódio 2; gravação 3 |
 | 16/12 | WhatsApp W3 |
 | 19 e 20/12 | Marco: módulo 2 online |
 | 21/12 a 03/01 | Sem mensagem de campanha; mídia em manutenção (diária pela metade) |
@@ -409,7 +409,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 | # | Gravidade | O que acontece | Regra afetada | Ajuste proposto | Quem decide |
 |---|---|---|---|---|---|
 | C6 | alta | 24/11: corte 1 (Reels) e card 4:5 do EP1 no mesmo dia, dois itens de feed da mesma linha | no máximo 1 feed da mesma linha por dia | Corte 1 na terça, como está; o card 4:5 vira anúncio de remarketing (trocando uma peça, com aprovação, AP-4) ou Story, em vez de feed orgânico. Decidido em 28/10/2026 (D-G do qa). | cmo |
-| C7 | alta | Feed da turma por semana: 4 itens em 23 a 29/11 (corte 1, card 4:5, card da convidada, corte 2); 3 itens em 07 a 13/12, 04 a 10/01 e 18 a 24/01 (corte 1, card do convidado e corte 2). A grade da Pós tem 3 slots de feed por semana para as 6 turmas da onda 1; o aquecimento de março entra em 07/12 | 3 slots semanais da Pós; teto de 10 por semana | Pela ordem de corte da seção 12.3 do plano geral: o feed vira Stories (corte 2 e card 4:5 vão para Stories) e ficam corte 1 e card do convidado; os posts do kit (P2 e P4) não saem. Decidir depois da resposta U8 (horas do time). Decidido em 28/10/2026 (D-G do qa). | cmo |
+| C7 | alta | Feed da turma por semana: 4 itens em 23 a 29/11 (corte 1, card 4:5, card da convidada, corte 2); 3 itens em 07 a 13/12, 04 a 10/01 e 18 a 24/01 (corte 1, card do convidado e corte 2). A grade da Pós tem 3 slots de feed por semana para as 6 turmas da onda 1; o aquecimento de março entra em 07/12 | 3 slots semanais da Pós; teto de 10 por semana | Pela ordem de corte da seção 12.3 do plano geral: o feed vira Stories (corte 2 e card 4:5 vão para Stories) e ficam corte 1 e card do convidado; os posts do kit (P2 e P4) não saem. Decidido em 28/10/2026 (D-G do qa). | cmo |
 | C8 | média | Semana de 02 a 08/11: TK-A e P2 usam 2 dos 3 slots da Pós, e as outras 5 turmas da onda 1 também começam os posts em 03/11 | 3 slots semanais da Pós | TK-A em 04/11 e P2 em 05/11, em dias diferentes; se faltar slot, o P2 vira Stories mantendo o conteúdo (ordem de corte 12.3) | posts-sociais; cmo |
 | C9 | baixa | 19/01: P6 e Story de estreia do EP5 no mesmo dia, ambos em Stories da mesma linha | cuidado de cadência | Mover o Story de estreia do EP5 para qua 20/01, junto com o card do convidado | posts-sociais |
 | C10 | baixa | 09/11 é segunda-feira; os dias de Stories da Pós parecem ser terça e quinta [SUPOSIÇÃO, pelas datas de P1, P3, P5, P6 e dos Stories do podcast] | grade de Stories | Abrir a caixa de perguntas em ter 10/11 e fechar em ter 17/11 (7 dias) | posts-sociais |
@@ -535,10 +535,10 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 ## [CONFIRMAR]
 
-- Se o T1 de 28/10 saiu, e a decisão humana (OA9) de usar a página da turma antes da correção (A7, A12, A13); se o qa revisou cada mensagem e as respostas prontas.
+- Se o T1 de 28/10 saiu, e a decisão da regulação (OA9) de usar a página com A7 e A12 pendentes, só para as peças de antes de 07/11; as de depois de 07/11 esperam a A13 (E1); se o qa revisou cada mensagem e as respostas prontas.
 - OU3 (reposição de módulos), OU6 (véspera ou 1º dia do 3º módulo), OU8 (pagamento de quem entra depois), OU4 (vagas, turma confirmada, próxima turma da área).
 - Quem executa no CRM, no gerenciador (inclusive no sábado 07/11) e no perfil do Instagram; horas do time (U8); capacidade do time do site e do time de vídeo; canal do YouTube da Ufape.
-- Gasto acumulado do ciclo (PP15), diária atual e nome real das campanhas no ar; arquivo de Meta (anuncios-meta).
+- Gasto acumulado do ciclo (PP15), diária atual e nome real das campanhas no ar.
 - Ok e revisão clínica da docente para P3 e para os cards e cortes do podcast; nome do revisor docente; docentes e agendas dos episódios 2 a 5; egresso e termo de autorização do episódio 1.
 - Nome UFAPE Cast e perfis (até 06/11); formulário da caixa de perguntas com política de privacidade; quem apresenta e edita.
 - Datas dos cards 4:5 dos episódios 2 a 5 (viram Story, C6).
@@ -548,3 +548,4 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 briefing-de-conteudo, para os guias da linha que sustentam a decisão (C03, C08, C15 e T8), com a seção sobre MBA e especialização no C15 e o plano B da seção C17. Antes de qualquer publicação, o qa-de-marketing e a aprovação humana.
 - 28/10/2026: correções E1, E13, E14, E22, E32, E33, E34 e E35 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: ajustes R12, R13 e R14 da reconferência do qa-de-marketing aplicados pelo orquestrador.

@@ -36,7 +36,6 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 ```
 
 - O `utm_campaign` é `pos_68606_202610` em todo episódio com chamada da turma (regra 11 do cmo-pos). Episódio sem chamada de turma usa `pos_conteudo_<AAAAMM>` [CONFIRMAR com o arquiteto-de-fluxos].
-- Episódio que fala de várias turmas ou sem chamada de turma usa `utm_campaign=pos_conteudo_<AAAAMM>` (exceção a conferir pelo arquiteto-de-fluxos [CONFIRMAR]).
 - Link testado antes de publicar. O tráfego do Spotify usa `utm_medium=organic_social` por seguir o plano do cmo [CONFIRMAR com o arquiteto-de-fluxos se áudio pede outro medium].
 
 **[ABERTURA-FALADA]** (apresentador, da proposta): "Bem-vindo ao UFAPE Cast, o podcast da Faculdade UFAPE sobre conhecimento e prática em Medicina Veterinária." Assinatura fixa: "Um podcast da Faculdade UFAPE."
@@ -270,7 +269,7 @@ Poucas palavras, marca legível, respiro ao redor, foto real autorizada (coorden
 
 #### O card 4:5 (1080 x 1350)
 
-- **Função:** anúncio do episódio com tema e dia (feed). Uso em remarketing Meta só com aprovação, trocando uma peça e não somando (AP-4 do plano do cmo).
+- **Função:** anúncio do episódio com tema e dia, publicado como Story (C6, decisão D-G do qa), nunca no feed. Uso em remarketing Meta só com aprovação, trocando uma peça e não somando (AP-4 do plano do cmo).
 - **Texto na arte:**
   - Topo: UFAPE CAST | EP. 01
   - Centro: Como escolher minha pós?
@@ -443,7 +442,7 @@ Todas as datas são [SUPOSIÇÃO] até a Ufape aprovar o nome do podcast, os con
 | qui 10/12 | Corte 2 em Story (C7) e Story de link do ep. 2 | posts-sociais |
 | ter 15/12 | Corte 3 do ep. 2; **sessão de gravação 3: ep. 5** (e reserva, se aprovada) | produção |
 | sáb 19 e dom 20/12 | Módulo 2 da 68606 (online) | Ufape |
-| 21/12 a 03/01 | Sem mensagem de campanha. Posts orgânicos seguem só em ritmo reduzido [SUPOSIÇÃO]; sem urgência | - |
+| 21/12 a 03/01 | Sem mensagem de campanha e sem nenhuma peça derivada do podcast (decisão D-A do qa); só o ep. 3 em 22/12, no YouTube e no Spotify. | - |
 | **ter 22/12** | **Ep. 3 no ar** só no YouTube e no Spotify (sem chamada de turma, `utm_campaign=pos_conteudo_202612`); nenhuma peça derivada de 21/12 a 03/01 (D-A) | produção |
 | **ter 05/01** | **Ep. 4 no ar**; corte 1; Story de estreia | produção |
 | qua 06/01 | Card da convidada do ep. 4 | posts-sociais |
@@ -532,7 +531,7 @@ Observações de calendário:
 | 7 | Correção da página da 68606 (A7, A12, A13) | página de destino entrega o que a peça promete |
 | 8 | Formulário da pergunta da comunidade com política de privacidade | bloco 4 de todo episódio |
 | 9 | OU3 (reposição dos módulos perdidos) e OU6 (véspera ou 1º dia) | só afeta respostas do time; a pauta não promete reposição |
-| 11 | Exceção de UTM `pos_conteudo_<AAAAMM>` e medium do Spotify | rastreio |
+| 10 | Exceção de UTM `pos_conteudo_<AAAAMM>` e medium do Spotify | rastreio |
 
 ---
 
@@ -574,7 +573,6 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 - Prazo de 09/11 a 17/11 para a caixa de perguntas, a pergunta de reserva do ep. 1 e a triagem de 18/11.
 - Possibilidade de o convidado pedir a retirada de um trecho antes da publicação.
 - Revisão por profissional de saúde mental no ep. 3.
-- Posts em ritmo reduzido de 21/12 a 03/01.
 - Sessões de gravação com 2 episódios.
 - Frases para posts do ep. 1 (sujeitas a conferir com a edição final).
 
@@ -589,7 +587,7 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 - Onde ficam a transcrição revisada e as legendas.
 - Créditos, trilha e licenças.
 - Exceção de UTM de conteúdo e medium do Spotify.
-- Decisão da chamada do ep. 3 e conteúdo do ep. 6 (reserva).
+- Conteúdo do episódio reserva de 02/02 (a chamada do ep. 3 foi decidida pela D-A).
 - Próxima turma da área para as chamadas depois de 22/01 (OU4).
 - Reposição dos módulos perdidos (OU3) e data limite de matrícula (OU6).
 - Correção da página da 68606 e texto de certificação.
@@ -612,3 +610,4 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 
 qa-de-marketing (auditoria do departamento 12 e conformidade-educacional), antes da aprovação humana.
 - 28/10/2026: correções E1, E2, E5, E6, E20 a E26 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: ajustes R7, R8 e R9 da reconferência do qa-de-marketing aplicados pelo orquestrador.

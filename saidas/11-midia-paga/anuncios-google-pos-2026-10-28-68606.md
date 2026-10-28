@@ -501,7 +501,6 @@ Regra: verba semanal x 3 maior ou igual a anúncios ativos x 1,5 x CPL; o maior 
 | 2 RSAs por grupo (4 anúncios) | semanal do Google maior ou igual a R$ 36,00 (diária maior ou igual a R$ 5,14) | Vale para G até R$ 1.177,14 |
 | 1 RSA por grupo (2 anúncios) | semanal maior ou igual a R$ 18,00 (diária maior ou igual a R$ 2,57) | Vale para G até R$ 1.588,57 |
 | Só `__marca`, 1 RSA | semanal maior ou igual a R$ 9,00 (diária maior ou igual a R$ 1,29) | Vale para G até R$ 1.794,29; acima disso, pedido de pausa ao gestor [SUPOSIÇÃO] |
-| Abaixo disso | | Só o grupo `__marca` até o fim [SUPOSIÇÃO, regra do gestor 13.1: "só a busca de marca"] |
 
 Conta: na fase 2, `__marca` e `__area` dividem um só orçamento; diária do Google na fase 2 = 0,50 x (2.000 menos G) / 80; R$ 36,00 / 7 = R$ 5,14 por dia, logo 2.000 menos G maior ou igual a R$ 822,86. Com G = 0, a semanal do Google na fase 2 é R$ 87,50 (R$ 12,50 x 7): passa com folga. Se a diária calculada ficar abaixo do mínimo da plataforma: [CONFIRMAR]. Nesse caso, concentrar nas últimas semanas antes de 22/01 (EM14), sem passar do total.
 
@@ -561,7 +560,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 
 **Porta de entrada da fase 2 (antes de 07/11)**
 6. P1 respondido: a página da turma traz a regra completa do 3º módulo, a data de início 07/11/2026 e as condições. Se não trouxer, não subir os RSAs; avisar o gestor.
-7. [CONFIRMAR NO CATÁLOGO] o título "Prática em endoscopia" (RSA area1); sem confirmação, trocar por "Aulas práticas presenciais".
+7. Título "Prática em endoscopia" (RSA area1): fonte é a ficha da 68606 (módulo 13 presencial, "Endoscopia"), que o catálogo indica como fonte do cronograma; nada a confirmar (D-D).
 8. Conferir que o destino de cada anúncio é a página do produto 68606 (não 68611 nem outra turma).
 
 **Montagem em 07/11**
@@ -648,3 +647,4 @@ Internas, listadas no cabeçalho. Externas: nenhuma nesta etapa.
 
 **Próximo agente sugerido:** qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md), com atenção a P1, às contagens de caracteres e ao plano B da regra do 3º módulo. Depois, o humano executa as seções 10 e 11 depois da aprovação.
 - 28/10/2026: correções E1, E3, E4, E5, E10, E11, E12 e E36 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: ajustes R2 e R3 da reconferência do qa-de-marketing aplicados pelo orquestrador.

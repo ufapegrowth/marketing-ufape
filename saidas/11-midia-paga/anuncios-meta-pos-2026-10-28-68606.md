@@ -172,9 +172,9 @@ O pacote de criativos usa nomes `pos68606_...` e pede `utm_content` igual a eles
 
 ## 4. Públicos
 
-### 4.1 Fase 1: público de frio (conjuntos atuais, sem alterar)
+### 4.1 Fase 1: público de frio (conjuntos atuais; só a idade muda, na operação de 03/11)
 
-A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por vez, no máximo uma por semana). Público, localização e posicionamento dos conjuntos de frio ficam como estão [DADO NÃO FORNECIDO]. O que o cmo definiu como público base para todos os cursos (slide 4; deck da The Growth Hub, slides 8 e 9):
+A operação de 03/11 é a única mudança da fase 1 (regra R6: uma mudança por vez, no máximo uma por semana): troca de criativo e idade mínima de 25 anos (decisão 24), juntas [SUPOSIÇÃO: contam como uma mudança só; o gestor confirma]. Localização e posicionamento dos conjuntos de frio ficam como estão [DADO NÃO FORNECIDO]. O que o cmo definiu como público base para todos os cursos (slide 4; deck da The Growth Hub, slides 8 e 9):
 
 | Item | Regra |
 |---|---|
@@ -208,7 +208,7 @@ O pedido é excluir quem pagou a 1ª mensalidade e os alunos. Duas vias, na orde
 | 1. Pixel | Quem registrou **compra** da turma no site (matrícula de R$ 250,00) | Evento Purchase da 68606. **Não excluir por padrão:** quem pagou só a matrícula ainda precisa pagar a 1ª mensalidade, e é esse o público do remarketing. Decisão do gestor | [CONFIRMAR] qual evento a compra dispara |
 | 2. Lista de contatos | Alunos e quem pagou a 1ª mensalidade, por lista enviada à Meta (e-mail ou telefone com hash) | Público personalizado de lista, usado só como exclusão | **Bloqueada até a Ufape confirmar a base legal e a política de privacidade** (estrategia 4.1; regra do projeto). Pedido AM6 |
 
-Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e fica registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por idade, gênero, renda, saúde, religião ou origem.
+Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e fica registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por gênero, renda, saúde, religião ou origem. A idade mínima é a da decisão 24 (25 anos ou mais, sem máxima, seção 4.4).
 
 ### 4.4 Idade (decisão 24 do CEO, 28/10/2026)
 
@@ -949,7 +949,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seção 2)
 - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md
 - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
-- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22 e 23)
+- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22, 23 e 24)
 - /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md (textos, artes, matriz e frase da regra)
 - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (seções 8, 12.2, 12.3, 12.5, 12.6, 12.9 e 13)
 - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (seções 3.2, 3.6, 3.7, 4.1 a 4.3)
@@ -966,3 +966,4 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 
 **Próximo agente sugerido:** qa-de-marketing (auditorias 11 e conformidade-educacional, antes da aprovação humana); depois anuncios-google, que usa a mesma diária da turma (divisão Meta e Google a confirmar com o gestor), as mesmas datas de fase e os ganchos da matriz nos anúncios de Busca.
 - 28/10/2026: correções E1, E7, E27, E28, E29, E30 e E31 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: ajustes R10 e R11 da reconferência do qa-de-marketing aplicados pelo orquestrador.
