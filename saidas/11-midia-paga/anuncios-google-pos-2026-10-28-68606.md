@@ -456,7 +456,7 @@ Montagem: sufixo de URL final no nível do anúncio, com `utm_content` próprio;
 
 ### 8.3 Por que não usar preço, e a condição completa se alguém insistir
 
-Decisão 23 (CEO, 28/10/2026): a inscrição é de R$ 250,00 e as peças podem citar o valor **com a condição completa do catálogo**. Recomendação desta entrega: não usar preço. Condição completa do catálogo e da ficha: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (decisão D-C do qa de 28/10/2026), à vista (Pix ou boleto) ou 1x no cartão; a ficha ainda diz que a 1ª mensalidade deve ser paga até 30 dias antes do início, e para quem entra depois da data de corte isso continua [CONFIRMAR OU8]. Isso soma mais de 200 caracteres e não cabe em descrição de 90, e um preço sem a condição completa é proibido. O investimento fica na página da turma.
+Decisão 23 (CEO, 28/10/2026): a inscrição é de R$ 250,00 e as peças podem citar o valor **com a condição completa do catálogo**. Recomendação desta entrega: não usar preço. Condição completa (decisões 23 e 25): inscrição de R$ 250,00, à vista (Pix ou boleto) ou 1x no cartão, e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual. Isso soma mais de 200 caracteres e não cabe em descrição de 90, e um preço sem a condição completa é proibido. O investimento fica na página da turma.
 
 ### 8.4 Conversão que a campanha otimiza
 
@@ -606,7 +606,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 
 ## Fatos (com fonte)
 
-- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, 07/11/2026, turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula R$ 250,00, status aberto, fonte planilha e site (catálogo, seção 2).
+- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, 07/11/2026, turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula R$ 250,00 no catálogo (nas peças, inscrição de R$ 250,00 pela decisão 25), status aberto, fonte planilha e site (catálogo, seção 2).
 - Cronograma: módulo 1 em 07 e 08/11/2026, módulo 2 em 19 e 20/12/2026, módulo 3 em 23 e 24/01/2027, os três online (ficha do curso). 24 módulos; módulos 6, 13 e 21 presenciais (ficha). Local: Av 9 de Julho 3939, Jardim Paulista, São Paulo (ficha).
 - Matrícula na Pós aceita até o 3º módulo, em todas as turmas (decisão 18, 27/10/2026). Reposição dos módulos: [CONFIRMAR OU3].
 - Inscrição da Pós de R$ 250,00, citável só com a condição completa (decisão 23, 28/10/2026).
@@ -634,7 +634,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 
 - [DADO NÃO FORNECIDO] Gasto acumulado do ciclo (G), diária atual, estratégia de lance atual, CPC médio, volume e CPC por palavra-chave, nome real da campanha e dos grupos no ar, anúncios no ar e quais citam a data de início (exportação D6 e Planejador de Palavras-chave).
 - [CONFIRMAR] P1: a página traz a regra completa do 3º módulo e as condições; evento de conversão que a página registra.
-- [CONFIRMAR OU3] Como se repõem os módulos já realizados; [CONFIRMAR OU6] se "até o 3º módulo" inclui o 1º dia dele; [CONFIRMAR OU8] pagamento da 1ª mensalidade de quem entra depois do corte.
+- [CONFIRMAR OU3] Como se repõem os módulos já realizados; [CONFIRMAR OU6] se "até o 3º módulo" inclui o 1º dia dele.
 - [CONFIRMAR] Horário de atendimento de vendas e número de chamada; base legal e política de privacidade para formulário; perfil de empresa para asset de local; recurso de trava de gasto na conta; mínimo diário da plataforma.
 - [CONFIRMAR] Quem executa no sábado 07/11; responsáveis por montar, revisar e aprovar.
 - [CONFIRMAR] Correção da página (frase de certificação e turma mínima de 20) pelo time do site (OA10 do cmo).
@@ -648,3 +648,4 @@ Internas, listadas no cabeçalho. Externas: nenhuma nesta etapa.
 **Próximo agente sugerido:** qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md), com atenção a P1, às contagens de caracteres e ao plano B da regra do 3º módulo. Depois, o humano executa as seções 10 e 11 depois da aprovação.
 - 28/10/2026: correções E1, E3, E4, E5, E10, E11, E12 e E36 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R2 e R3 da reconferência do qa-de-marketing aplicados pelo orquestrador.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).

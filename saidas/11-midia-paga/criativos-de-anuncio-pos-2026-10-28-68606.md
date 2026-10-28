@@ -59,7 +59,7 @@
 | Grupo de discussão | "Grupo para discussão de casos entre os alunos e os coordenadores" (formato e frequência [CONFIRMAR]) | ficha |
 | Coordenação | Esp. Maria Carolina Pappalardo | ficha |
 | Turma pode não ser formada | A turma pode não completar o número mínimo e não ser formada (sem número em peça, porque as páginas ainda dizem 20 e a decisão 11 diz 15) | ficha; decisão 11 |
-| Preço (só com condição completa) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (decisão 23; termo pela decisão D-C do qa de 28/10/2026). A ficha acrescenta: à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão | catálogo; ficha; decisão 23 |
+| Preço (só com condição completa) | Inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual (decisões 23 e 25). A ficha acrescenta: inscrição à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão | catálogo; ficha; decisões 23 e 25 |
 | Regra do 3º módulo (fase 2) | Frase completa da seção 4.1 | decisão 18; cmo-pos, regra 6 |
 | Destino | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria | ficha |
 
@@ -349,15 +349,15 @@ Não é o padrão. Entra como teste de uma variável (com preço ou sem preço n
 
 Parágrafo a acrescentar, depois da frase da regra e antes da linha final da legenda:
 
-> Condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão.
+> Condições: inscrição de R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão, e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto. Quem entra depois do início paga igual.
 
 Nomes: pos68606_calendario_est_presenciais_vp_v1 e pos68606_pratica_vid_entrada_vp_v1 (o sufixo vp marca a variante).
 
 Pontos de atenção:
-- A V-P segue bloqueada até a resposta da OU8 (como paga a 1ª mensalidade quem entra depois do início): a ficha manda pagar a 1ª mensalidade até 30 dias antes do início, o que é impossível para quem entra depois de 07/11, e a peça não pode omitir nem inventar a regra nova. Com a OU8 respondida, a frase dela entra no mesmo parágrafo, logo depois da matrícula, e a V-P volta ao qa.
-- Termo: "matrícula de R$ 250,00" (decisão D-C do qa de 28/10/2026). Histórico: o catálogo e a ficha chamam o valor de R$ 250,00 de "matrícula"; a decisão 23 o chama de "inscrição". A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma), e as duas aparecem lado a lado: o aprovador precisa ver isso.
-- Quem entra depois do início paga a 1ª mensalidade quando, e se há ajuste de parcelas pelos módulos perdidos, é OU8 e está aberto. O preço de lista da peça pode não valer para quem entra no 3º módulo; a frase "Antes de pagar, o time explica" cobre a conversa, mas a decisão de pôr preço em remarketing depende dessa resposta.
-- A página oficial traz a condição de pagamento da 1ª mensalidade com 30 dias de antecedência do início. Depois do início, essa linha da página pode contradizer a peça (OU8).
+- A V-P deixa de estar bloqueada pela regra de pagamento: a decisão 25 (28/10/2026) diz que quem entra depois do início paga igual, e a frase "Quem entra depois do início paga igual." já está no parágrafo de condições. Continua valendo: sai só com a regra do 3º módulo na página e com a aprovação humana do preço.
+- Termo: "inscrição de R$ 250,00" e "matrícula" como a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). O catálogo e a página ainda chamam os R$ 250,00 de "matrícula"; o ajuste da página está combinado para depois.
+- Quem entra depois do início paga igual (decisão 25): o preço de lista vale também para quem entra até o 3º módulo. A reposição dos módulos perdidos segue em OU3; a frase "Antes de pagar, o time explica" cobre a conversa.
+- A página oficial traz a condição de pagamento da 1ª mensalidade com 30 dias de antecedência do início. Depois do início, essa linha da página contradiz a decisão 25; o ajuste da página está combinado para depois.
 
 ---
 
@@ -372,8 +372,8 @@ Pontos de atenção:
 | F1-V | pos68606_pratica_vid_objecao_v1 | C3 | quer praticar, não só assistir | prova por demonstração | vídeo 9:16, 34 s | objeção direta: "Tem prática ou é tudo online?" | narrador e texto | 1 | pronto para revisão |
 | F2-A | pos68606_calendario_est_presenciais_v1 | C1 (adaptação, E10) | quem já viu a turma e pesa a entrada | tempo e rotina, com a regra da entrada | estático 4:5 e 9:16 | fato: "Os 3 módulos presenciais ainda não começaram." | só texto | 2 | pronto para revisão |
 | F2-B | pos68606_pratica_vid_entrada_v1 | C3 (adaptação, E10) | quem já viu a turma e pesa a entrada | prova por demonstração, com a regra da entrada | vídeo 9:16, 38 s | pergunta: "A turma já começou. Ainda dá para entrar?" | narrador e texto | 2 | pronto para revisão |
-| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | bloqueado até OU8 e aprovação de preço |
-| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | bloqueado até OU8 e aprovação de preço |
+| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | só com a regra na página e aprovação de preço |
+| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | só com a regra na página e aprovação de preço |
 | C4-R | pos68606_docencia_car_numero_v1 (nome reservado) | C4 | valoriza quem ensina e a discussão de casos | autoridade docente | carrossel ou vídeo | número: "38 nomes na lista de docentes: quem ensina a Pós-graduação em Gastroenterologia Veterinária." | coordenação | 1 ou 2 | reserva, não produzido |
 
 Padrão do nome: pos<código da turma>_<conceito>_<formato>_<gancho>_v<n>. Formatos: est, car, vid. O anuncios-meta ajusta ao padrão D11 e D12 de campanha, conjunto e anúncio [CONFIRMAR], sem renomear o que já está no ar.
@@ -458,8 +458,8 @@ Quem aprova: a pessoa do marketing que aprovou o plano geral, até a tabela de u
 | # | Item | Onde aparece | O que aprovar | Status |
 |---|---|---|---|---|
 | 1 | Subir com a página de destino pendente | todas as peças | A página ainda traz "CERTIFICADO PELO MEC" (A7), turma mínima de 20 (A12) e não escreve a regra do 3º módulo (A13). Decidir se as peças sobem assim ou depois de OA10 [CONFIRMAR com a regulação]. F2-A, F2-B e V-P (depois de 07/11, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); F1-E, F1-C e F1-V dependem só da decisão sobre A7 e A12 | pendente |
-| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão), termo pela decisão D-C do qa de 28/10/2026 | bloqueado até OU8 e aprovação de preço; padrão é sem preço |
-| 3 | Resposta de OU8 antes de pôr preço em remarketing | V-P | Como e quando quem entra depois do início paga; bloqueado até OU8 | aberta |
+| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão) e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual (decisão 25) | só com a regra na página e aprovação de preço; padrão é sem preço |
+| 3 | Pagamento de quem entra depois do início | V-P | Paga igual (decisão 25, 28/10/2026) | respondida |
 | 4 | Frase da regra do 3º módulo | F2-A, F2-B | Texto exato da seção 4.1, que vem da decisão 18 e do plano do cmo; OU6 (véspera ou 1º dia do 3º módulo) e OU3 (reposição) seguem abertas, e a frase não promete nada sobre elas | texto pronto, aprovação humana pendente |
 | 5 | Depoimento | nenhuma peça | Nenhum depoimento é usado. Se algum entrar depois: só real, com autorização de uso de imagem e voz registrada | não se aplica |
 | 6 | Imagem de aluno | nenhuma peça | Vedada neste pacote. Opção B do vídeo (acervo real) exige autorização de imagem de toda pessoa que aparecer | não se aplica |
@@ -529,7 +529,7 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 ## Fatos (com fonte)
 
 - Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, semipresencial, 500 h, 24 módulos, início em 07/11/2026, status "aberto" em 26/10/2026 (catálogo, seção 2, e ficha 68606).
-- Preço e condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão (catálogo e ficha). Valor de R$ 250,00 chamado de inscrição pela decisão 23; nas peças, "matrícula" (decisão D-C do qa) (docs/execucao-2026-10-26.md).
+- Preço e condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; inscrição de R$ 250,00 à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão (catálogo e ficha chamam de matrícula). Nas peças, "inscrição" é o valor de R$ 250,00 e "matrícula" é a 1ª mensalidade; quem entra depois do início paga igual (decisões 23 e 25, docs/execucao-2026-10-26.md).
 - Cronograma: 3 módulos presenciais, o 6 (17 e 18/04/2027), o 13 (27 e 28/11/2027) e o 21 (julho de 2028); todos os outros 21 online; módulo 3 em 23 e 24/01/2027; um módulo por mês até 28 e 29/10/2028 (ficha).
 - Conteúdo dos módulos 6, 13 e 21 e dos módulos online citados, como na ficha.
 - "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas" e "o cronograma e palestrantes poderão ser alterado" (ficha, observação).
@@ -561,7 +561,7 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 
 - [DADO NÃO FORNECIDO] Lista, nome e texto dos criativos hoje no ar do 68606 e dos 5 ângulos; gasto acumulado do ciclo (G) e diária atual; mínimo diário aceito pela plataforma (exportação D6).
 - [DADO NÃO FORNECIDO] Qualquer CPL, taxa de lead para inscrição ou de inscrição para matrícula; número de inscrições pagas e 1ª mensalidade do 68606.
-- [CONFIRMAR] OU3 (reposição dos módulos), OU6 (véspera ou 1º dia do 3º módulo), OU8 (pagamento de quem entra depois do início), OU4 (turma confirmada, vagas e matrículas) e OU9 (status do catálogo depois do início).
+- [CONFIRMAR] OU3 (reposição dos módulos), OU6 (véspera ou 1º dia do 3º módulo), OU4 (turma confirmada, vagas e matrículas) e OU9 (status do catálogo depois do início).
 - [CONFIRMAR] Regras e formato do estágio e do grupo de discussão de casos (por isso o estágio não é usado e o grupo só aparece como "a página prevê").
 - [CONFIRMAR] Correção da página (A7, A12, A13) e decisão humana de subir com ela pendente; política de privacidade no formulário.
 - [CONFIRMAR] Nome da campanha existente e UTM exata (padrão D11 e D12); quem executa no gerenciador; texto da D20.
@@ -588,3 +588,4 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 **Próximo agente sugerido:** qa-de-marketing (auditorias 11 e conformidade-educacional, antes da aprovação humana); depois anuncios-meta, primeiro canal ativado, para a estrutura dos anúncios, a nomenclatura e as UTM de F1-E, F1-C, F1-V, F2-A e F2-B, e em seguida anuncios-google, que reaproveita os ganchos da matriz nos anúncios de Busca.
 - 28/10/2026: correções E1, E4, E7, E8 e E9 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R1 da reconferência do qa-de-marketing aplicados pelo orquestrador.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).

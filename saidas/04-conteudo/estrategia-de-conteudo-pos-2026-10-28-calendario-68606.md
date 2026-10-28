@@ -163,7 +163,7 @@
 | Data | Dia | Hora | Canal | Peça | Fase | Dono | Status |
 |---|---|---|---|---|---|---|---|
 | 30/11 | seg | dia | Gestão | Revisão semanal 5 | F2 | cmo; gestor-de-midia; analise-de-midia | a produzir |
-| 30/11 | seg | dia | Blog e site | T8 (guia da linha Pós, apoio à decisão): "Investimento e formas de pagamento", tabela por turma aberta (parcelas, valor da parcela, total e matrícula). Dia [SUPOSIÇÃO] entre 30/11 e 02/12, porque a ed. 2 da newsletter leva a ele em 03/12 | F2 | estrategia-de-conteudo; briefing-de-conteudo; conteudo-longo; editor-de-conteudo | a produzir |
+| 30/11 | seg | dia | Blog e site | T8 (guia da linha Pós, apoio à decisão): "Investimento e formas de pagamento", tabela por turma aberta (inscrição, parcelas, valor da parcela e total). Dia [SUPOSIÇÃO] entre 30/11 e 02/12, porque a ed. 2 da newsletter leva a ele em 03/12 | F2 | estrategia-de-conteudo; briefing-de-conteudo; conteudo-longo; editor-de-conteudo | a produzir |
 | 01/12 | ter | a definir | Instagram Reels e YouTube Shorts | EP1-C3: corte 3 "Como conhecer quem ensina?" | F2 | podcast; posts-sociais | a produzir |
 | 01/12 | ter | dia | Podcast | Sessão de gravação 2: EP3 e EP4 | F2 | produção; Ufape | a produzir |
 | 02/12 | qua | 9h | E-mail | E2: turma em andamento, com a regra completa do 3º módulo; botão para o WhatsApp de vendas (assunto B "como entrar na turma que já começou"). Ver C3 | F2 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
@@ -194,7 +194,7 @@
 | Data | Dia | Hora | Canal | Peça | Fase | Dono | Status |
 |---|---|---|---|---|---|---|---|
 | 14/12 | seg | dia | Gestão | Revisão semanal 7 | F2 | cmo; gestor-de-midia; analise-de-midia | a produzir |
-| 15/12 | ter | 18h | Instagram Stories | P5: com preço só se a OU8 for respondida até 14/12 (versão com parcelas, total, matrícula e a regra da 1ª mensalidade, que volta ao qa); sem a OU8, versão sem valores, "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? Onde ver a conta inteira." (E16). Último dia de Stories antes da pausa. Ver C18. Só sai com a A13 publicada na página e conferida pelo qa (E1). | F2 | posts-sociais; publicação humana | rascunho |
+| 15/12 | ter | 18h | Instagram Stories | P5 com preço (decisão 25): inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual. Versão sem valores fica de reserva. Último dia de Stories antes da pausa. Ver C18. Só sai com a A13 publicada na página e conferida pelo qa (E1). | F2 | posts-sociais; publicação humana | rascunho |
 | 15/12 | ter | a definir | Instagram Reels e YouTube Shorts | EP2-C3: corte 3 "Como falar com o tutor sobre segunda opinião?" | F2 | podcast; posts-sociais | a produzir |
 | 15/12 | ter | dia | Podcast | Sessão de gravação 3: EP5 (e o episódio reserva, se aprovado) | F2 | produção; Ufape | a produzir |
 | 16/12 | qua | 10h | WhatsApp | W3: regra completa do 3º módulo; chamada "responda TURMA" | F2 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
@@ -360,7 +360,7 @@
 | 01/12 | Corte 3 do episódio 1; gravação 2 (episódios 3 e 4) |
 | 02 e 03/12 | E-mail E2 (turma em andamento); P4 em carrossel; newsletter ed. 2 (04/12 no WhatsApp) |
 | 08 a 10/12 | Episódio 2, cortes 1 e 2, Stories e card do convidado |
-| 15/12 | P5 em Stories (com preço só com a OU8; senão, sem valores); corte 3 do episódio 2; gravação 3 |
+| 15/12 | P5 em Stories, com preço e a condição completa; corte 3 do episódio 2; gravação 3 |
 | 16/12 | WhatsApp W3 |
 | 19 e 20/12 | Marco: módulo 2 online |
 | 21/12 a 03/01 | Sem mensagem de campanha; mídia em manutenção (diária pela metade) |
@@ -430,7 +430,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 | # | Gravidade | O que acontece | Regra afetada | Ajuste proposto | Quem decide |
 |---|---|---|---|---|---|
-| C18 | média | Preço: só o P5 (15/12) mostra parcelas, total e matrícula (a decisão 23 permite, com a condição completa). Mensagens, vídeos, podcast, Google e criativos seguem sem preço (OU8 aberta: como e quando paga quem entra depois). A decisão 23 chama o valor de "inscrição"; catálogo e página chamam de "matrícula". O copy-de-mensagens ainda traz a nota "sem preço até a U11", que a decisão 23 já respondeu (sem efeito: nenhuma mensagem cita preço) | preço com condição completa; coerência de política | P5 com preço só com a OU8 respondida até 14/12; sem ela, P5 sem valores (E16). Termo: 'matrícula' (D-C) | pessoa do marketing |
+| C18 | média | Preço: só o P5 (15/12) mostra inscrição, parcelas e total (decisões 23 e 25, com a condição completa; quem entra depois paga igual). Mensagens, vídeos, podcast e Google seguem sem preço; a variante com preço dos anúncios depende só da aprovação. Nas peças, "inscrição" é o valor de R$ 250,00 e "matrícula" é a 1ª mensalidade (decisão 25); catálogo e página ainda chamam os R$ 250,00 de "matrícula", com ajuste combinado para depois. O copy-de-mensagens ainda traz a nota "sem preço até a U11", que a decisão 23 já respondeu (sem efeito: nenhuma mensagem cita preço) | preço com condição completa; coerência de política | P5 com preço (decisão 25); versão sem valores de reserva. Termo: 'inscrição de R$ 250,00' (decisão 25) | pessoa do marketing |
 | C19 | média | utm_campaign: posts e mensagens usam pos_68606_202610 em todas as peças (mês do primeiro envio, regra 11 do cmo-pos); o vídeo e o podcast usam o mês da publicação (202611, 202612, 202701). O D12 aceita os dois | medição por turma | Decidido pelo qa (D-B): pos_68606_202610 em todo toque orgânico e de CRM; pos_conteudo_202612 só no ep. 3; mídia paga com o nome real da campanha (E3) | arquiteto-de-fluxos |
 | C20 | baixa | Depois de 24/01 nenhuma peça publicada pode manter a regra do 3º módulo (cortes, card, destaques dos Stories, TK-B) | regra 6 do plano e arquivo do podcast | Tarefa da sexta 22/01 (já na tabela da semana 13); corte 3 do EP5 sai sem chamada | posts-sociais; podcast |
 | C21 | baixa | "Até o 3º módulo" pode incluir o 1º dia dele (OU6). O calendário assume a pausa em 22/01, 23h59 | decisão 18 | Se a Ufape responder que inclui 23/01, a pausa sobe para 24/01 e a frase muda | cmo, depois da OU6 |
@@ -445,7 +445,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 | Data | Marco |
 |---|---|
-| 08/10/2026 | 1ª mensalidade venceu (30 dias antes do início, pela página); como paga quem entra agora: [CONFIRMAR OU8] |
+| 08/10/2026 | 1ª mensalidade venceu (30 dias antes do início, pela página); quem entra agora paga igual (decisão 25) |
 | 07 e 08/11/2026 (sáb e dom) | Módulo 1, online: início da turma IX |
 | 19 e 20/12/2026 (sáb e dom) | Módulo 2, online |
 | 23 e 24/01/2027 (sáb e dom) | Módulo 3, online: último fim de semana de matrícula ("até o 3º módulo", OU6 aberta) |
@@ -508,7 +508,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 ## Fatos (com fonte)
 
-- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início em 07/11/2026, turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula de R$ 250,00, status "aberto" (catálogo, seção 2).
+- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início em 07/11/2026, turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula de R$ 250,00 no catálogo (nas peças, inscrição de R$ 250,00 pela decisão 25), status "aberto" (catálogo, seção 2).
 - Módulos 1 (07 e 08/11/2026), 2 (19 e 20/12/2026), 3 (23 e 24/01/2027) e 4 (20 e 21/02/2027), todos online; módulo 6 presencial em 17 e 18/04/2027 (ficha 68606).
 - Matrícula aceita até o 3º módulo em todas as turmas de Pós; reposição de módulos em aberto (decisão 18). Inscrição de R$ 250,00 citável com a condição completa (decisão 23).
 - 6 mensagens da turma: e-mail T1 em 28/10, 9h; WhatsApp T2 em 29/10, 10h; WhatsApp W2 em 06/11, 10h; e-mail E2 em 02/12, 9h; WhatsApp W3 em 16/12, 10h; WhatsApp W4 em 12/01, 10h (copy-de-mensagens, seção 6A; cmo-pos, OA9).
@@ -536,7 +536,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 ## [CONFIRMAR]
 
 - Se o T1 de 28/10 saiu, e a decisão da regulação (OA9) de usar a página com A7 e A12 pendentes, só para as peças de antes de 07/11; as de depois de 07/11 esperam a A13 (E1); se o qa revisou cada mensagem e as respostas prontas.
-- OU3 (reposição de módulos), OU6 (véspera ou 1º dia do 3º módulo), OU8 (pagamento de quem entra depois), OU4 (vagas, turma confirmada, próxima turma da área).
+- OU3 (reposição de módulos), OU6 (véspera ou 1º dia do 3º módulo), OU4 (vagas, turma confirmada, próxima turma da área).
 - Quem executa no CRM, no gerenciador (inclusive no sábado 07/11) e no perfil do Instagram; horas do time (U8); capacidade do time do site e do time de vídeo; canal do YouTube da Ufape.
 - Gasto acumulado do ciclo (PP15), diária atual e nome real das campanhas no ar.
 - Ok e revisão clínica da docente para P3 e para os cards e cortes do podcast; nome do revisor docente; docentes e agendas dos episódios 2 a 5; egresso e termo de autorização do episódio 1.
@@ -549,3 +549,4 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 briefing-de-conteudo, para os guias da linha que sustentam a decisão (C03, C08, C15 e T8), com a seção sobre MBA e especialização no C15 e o plano B da seção C17. Antes de qualquer publicação, o qa-de-marketing e a aprovação humana.
 - 28/10/2026: correções E1, E13, E14, E22, E32, E33, E34 e E35 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R12, R13 e R14 da reconferência do qa-de-marketing aplicados pelo orquestrador.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).

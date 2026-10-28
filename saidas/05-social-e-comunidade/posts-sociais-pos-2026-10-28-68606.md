@@ -32,7 +32,7 @@
 | P2 | qui 05/11/2026, 12h | Feed, carrossel de 6 cards | A ordem do cronograma: base online, depois o primeiro presencial | Do módulo online de fisiologia à cirurgia na prática: o primeiro presencial de Gastroenterologia. | Antes do início: data de início e "Fale com o time" |
 | P3 | qui 12/11/2026, 18h | Stories, 3 telas | A coordenação da turma e o grupo de discussão de casos | Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. | Frase completa do 3º módulo |
 | P4 | qui 03/12/2026, 12h | Feed, carrossel de 6 cards | Onde a cirurgia entra no cronograma (2 dos 3 presenciais) | Cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária? Veja o presencial. | Frase completa do 3º módulo |
-| P5 | ter 15/12/2026, 18h | Stories, 4 telas | A conta inteira: parcelas, total e matrícula | Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira. | Frase completa do 3º módulo |
+| P5 | ter 15/12/2026, 18h | Stories, 4 telas | A conta inteira: inscrição, parcelas e total | Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira. | Frase completa do 3º módulo |
 | P6 | ter 19/01/2027, 18h | Stories, 4 telas | Os 3 primeiros módulos: o que já aconteceu e o que vem agora | Os 3 primeiros módulos da Pós-graduação em Gastroenterologia Veterinária: o que já aconteceu e o que vem agora. | Frase completa do 3º módulo |
 
 Horários são [SUPOSIÇÃO]: o perfil @ufapevet não tem medida de melhor horário e a regra D5 pede feed e Stories em turnos diferentes no mesmo dia. Ajustar depois das 4 primeiras semanas de linha de base (estrategia-social-pos, seção 9).
@@ -45,7 +45,7 @@ Horários são [SUPOSIÇÃO]: o perfil @ufapevet não tem medida de melhor horá
 4. **Nome do curso:** sempre "Pós-graduação em Gastroenterologia Veterinária" (primeira menção em cada peça, com "Faculdade UFAPE"; depois "Ufape").
 5. **Docente:** só nome e titulação como na ficha ("Esp. Maria Carolina Pappalardo"), em terceira pessoa. Nenhuma fala, opinião ou conduta clínica atribuída a ela.
 6. **Conteúdo de cronograma:** só títulos e datas da ficha. Nenhuma conduta, dose ou protocolo. Nenhuma promessa de volume de prática, de reposição, de gravação ou de estágio.
-7. **Preço** só em P5, com condição completa do catálogo (decisão 23): parcelas, valor da parcela, total e matrícula.
+7. **Preço** só em P5, com condição completa (decisões 23 e 25): inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual.
 8. **UTM no padrão D11 e D12:** utm_source=instagram (Facebook: facebook), utm_medium=organic_social, utm_campaign=pos_68606_202610 (o mesmo em todos os toques da turma, mês do primeiro envio, regra 11 do cmo-pos), utm_content=ID da peça. Minúsculas, sem acento, sem dado pessoal. Ver [CONFIRMAR] sobre o mês da campanha.
 9. **Link base** (campo "Página oficial" da ficha): https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria
 10. Métricas: cliques no link com UTM por peça, respostas e mensagens recebidas, conversas com o time de vendas que citam o post (só contagem), salvamentos. Alcance e curtidas só como contexto.
@@ -385,10 +385,10 @@ Link na bio.
 **Gancho (linha 1):** Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira. (A6-06, liberado pela decisão 23)
 
 **Ganchos alternativos (2):**
-1. 30 parcelas de R$ 1.180,00: veja também o total e a matrícula da Pós-graduação em Gastroenterologia Veterinária.
-2. Parcela é só uma parte da conta: total e matrícula da Pós-graduação em Gastroenterologia Veterinária.
+1. 30 parcelas de R$ 1.180,00: veja também o total e a inscrição da Pós-graduação em Gastroenterologia Veterinária.
+2. Parcela é só uma parte da conta: inscrição e total da Pós-graduação em Gastroenterologia Veterinária.
 
-**Ponto de vista:** a conta só é justa quando mostra parcela, total e matrícula juntos. [SUPOSIÇÃO de texto]
+**Ponto de vista:** a conta só é justa quando mostra inscrição, parcela e total juntos. [SUPOSIÇÃO de texto]
 
 **Texto tela a tela**
 
@@ -396,23 +396,24 @@ Tela 1
 - Selo: Pós-graduação em Gastroenterologia Veterinária | São Paulo
 - Texto grande: Quanto custa? A conta inteira.
 
-**Status: bloqueado até a resposta da OU8** (como paga a 1ª mensalidade quem entra depois do início). O P5 sai em 15/12, depois do início, e a regra da página (1ª mensalidade até 30 dias antes do início) não vale para quem entra agora (E16 do qa de 28/10/2026).
+**Status: versão com preço liberada pela decisão 25** (28/10/2026: quem entra depois do início paga igual). O P5 sai em 15/12, depois do início: só com a regra do 3º módulo na página e com a aprovação humana. A página ainda diz que a 1ª mensalidade vence 30 dias antes do início; o ajuste da página está combinado para depois.
 
-**Versão com preço (só se a OU8 for respondida até 14/12; volta ao qa):**
+**Versão com preço (padrão, pela decisão 25):**
 
 Tela 2
 - Título: Parcelas e total
 - 30x de R$ 1.180,00.
 - R$ 35.400,00 no cartão ou boleto.
+- A matrícula é a 1ª mensalidade.
 
 Tela 3
-- Título: Matrícula
+- Título: Inscrição
 - R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão.
-- 1ª mensalidade: [texto da resposta da OU8]
+- Quem entra depois do início paga igual.
 - 500 horas, 24 módulos, semipresencial, São Paulo.
 - Rodapé pequeno: Condições da página da turma.
 
-**Versão sem valores (se a OU8 não for respondida até 14/12; o kit não perde o post):** gancho e tela 1 "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? Onde ver a conta inteira."; telas 2 e 3 viram uma só: "Parcelas, total e matrícula estão na página da turma." / "500 horas, 24 módulos, semipresencial, São Paulo."; tela 4 sem mudança; nenhum valor na peça.
+**Versão sem valores (reserva, se a aprovação humana preferir não mostrar preço):** gancho e tela 1 "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? Onde ver a conta inteira."; telas 2 e 3 viram uma só: "Inscrição, parcelas e total estão na página da turma." / "500 horas, 24 módulos, semipresencial, São Paulo."; tela 4 sem mudança; nenhum valor na peça.
 
 Tela 4 (chamada)
 - A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
@@ -422,7 +423,7 @@ Tela 4 (chamada)
 **Linha final ou pergunta:** Fale com o time para saber como entrar na turma.
 
 **Legenda de apoio** (destaque ou reaproveitamento)
-Quanto custa a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE? 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; mais matrícula de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão); 1ª mensalidade: [texto da resposta da OU8]. (Na versão sem valores, a legenda segue a mesma troca das telas.) 500 horas, 24 módulos, semipresencial, São Paulo. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
+Quanto custa a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE? Inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão) e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto. Quem entra depois do início paga igual. (Na versão sem valores, a legenda segue a mesma troca das telas.) 500 horas, 24 módulos, semipresencial, São Paulo. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
 
 **Hashtags:** nenhuma em Stories.
 
@@ -515,7 +516,7 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 
 **Ordem de corte, se a capacidade do perfil ficar abaixo do planejado** (seção 12.3 do plano geral): primeiro P2 e P4 viram Stories, mantendo o conteúdo; nenhum dos 6 sai do kit.
 
-**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de pagamento da 1ª mensalidade, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: enquanto a OU8 não tiver resposta, levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir antes se o número voltou a funcionar) ou à página da turma, sem citar valores em resposta pública. Depois da OU8, responder só com a condição completa do P5 já aprovada pelo qa.
+**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de pagamento da 1ª mensalidade, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: responder com a condição completa do P5 (inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual) e levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir antes se o número voltou a funcionar) ou à página da turma.
 
 ---
 
@@ -540,10 +541,10 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 
 ## Fatos (com fonte)
 
-- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início 07/11/2026 (planilha), turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula R$ 250,00, status "aberto" (catálogo, seção 2).
-- Matrícula de R$ 250,00 à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão; 24 módulos; 38 professores listados; coordenação Esp. Maria Carolina Pappalardo; grupo para discussão de casos entre alunos e coordenadores; "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas"; cronograma e palestrantes "poderão ser alterados" (ficha 68606).
+- 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início 07/11/2026 (planilha), turma IX, 500 h, 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula R$ 250,00 no catálogo (nas peças, inscrição de R$ 250,00 pela decisão 25), status "aberto" (catálogo, seção 2).
+- Inscrição de R$ 250,00 (a ficha chama de matrícula) à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão; 24 módulos; 38 professores listados; coordenação Esp. Maria Carolina Pappalardo; grupo para discussão de casos entre alunos e coordenadores; "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas"; cronograma e palestrantes "poderão ser alterados" (ficha 68606).
 - Cronograma usado: módulo 1 (07 e 08/11/2026), módulo 2 (19 e 20/12/2026), módulo 3 (23 e 24/01/2027), módulos 1 a 5 online, módulo 6 presencial (17 e 18/04/2027), módulo 13 presencial (27 e 28/11/2027), módulo 21 presencial (julho de 2028); os demais módulos são online (ficha 68606).
-- Decisão 18 (CEO, 27/10/2026): matrícula até o 3º módulo, em todas as turmas de Pós. Decisão 23 (CEO, 28/10/2026): inscrição de R$ 250,00, como no site, citável com a condição completa do catálogo (docs/execucao-2026-10-26.md).
+- Decisão 18 (CEO, 27/10/2026): matrícula até o 3º módulo, em todas as turmas de Pós. Decisão 23 (CEO, 28/10/2026): inscrição de R$ 250,00, como no site, citável com a condição completa do catálogo. Decisão 25 (CEO, 28/10/2026): quem entra depois do início paga igual; inscrição é o valor de R$ 250,00 e matrícula é a 1ª mensalidade (docs/execucao-2026-10-26.md).
 - Frase completa da regra do 3º módulo, 3º módulo da 68606 em 23/01/2027 e pausa da mídia em 22/01/2027: cmo-pos, seção 1 e regra 6; encomenda do orquestrador.
 - 6 posts por turma, 2 no feed e 4 em Stories, de 03/11 a 20/01, para a 68606 (cmo-pos, 4.3 e OA11).
 - Sem campanha em 02/11, 20 e 21/11, 25/12, 01/01 e de 21/12 a 03/01; feed da Pós fora em 08 e 15/11; teto de 10 posts de feed por semana no perfil, no máximo 2 por dia e 1 por linha por dia (cmo-geral, 12.2 e 12.3, D1 e D5).
@@ -565,9 +566,7 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 ## [CONFIRMAR]
 
 - **Reposição dos módulos perdidos (OU3):** nenhum post promete reposição, gravação ou aula extra. Dúvida vai para o time.
-- **Pagamento de quem entra depois do início (OU8):** nenhum post cita quando se paga a 1ª mensalidade. A ficha ainda diz que ela vence 30 dias antes do início.
 - **"Até o 3º módulo" (OU6):** a frase é usada exatamente como decidida. Se vale inclusive o 1º dia do 3º módulo (23/01) ou só até a véspera: [CONFIRMAR].
-- **Inscrição ou matrícula:** a decisão 23 chama o valor de "inscrição"; o catálogo e a página da turma chamam de "matrícula" (R$ 250,00). O P5 usa "matrícula", como a página de destino. [CONFIRMAR com a pessoa do marketing se prefere "inscrição".]
 - **Preço no dia da publicação:** valores lidos do catálogo (site em 26/10/2026). Conferir a página da turma antes de publicar P5.
 - **Mês do utm_campaign:** este arquivo usa pos_68606_202610 em todos os posts, pela regra 11 do cmo-pos (mês do primeiro envio, o e-mail de 28/10). O D12 do plano geral e a estrategia-social-pos falam em "mês da publicação" (pos_68606_202611, 202612 e 202701), e o AD-A6-1 trazia pos_68606_202611. [CONFIRMAR com o arquiteto-de-fluxos qual vale.]
 - **Página de destino:** a página da 68606 ainda tem pendências (frase ligada ao MEC, turma mínima de 20, regra do 3º módulo ausente; pedidos A7, A12 e A13 do OA10). Pela regra 9 do cmo-pos, o post com link só sai com a decisão humana registrada de usar a página antes da correção. [CONFIRMAR com a regulação e com a pessoa do marketing.]
@@ -587,3 +586,4 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 criador-de-ganchos, para revisar as primeiras linhas e as alternativas deste kit (principalmente P1, P3 e P6, que usam ganchos novos ou adaptados) antes do qa-de-marketing.
 - 28/10/2026: correções E1, E13, E14, E15, E16 e E17 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R4 e R5 da reconferência do qa-de-marketing aplicados pelo orquestrador.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).

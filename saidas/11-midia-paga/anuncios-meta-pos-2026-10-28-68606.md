@@ -35,7 +35,7 @@
 1. **Modelo:** lançamento por fases, sem campanha nova de público frio. Fase 1 (28/10 a 06/11, 23h59): a campanha atual segue como está, com uma única troca de criativo por fadiga em 03/11 (D20). Fase 2 (07/11 00:00 a 22/01/2027, 23h59): um único conjunto de remarketing, com F2-A e F2-B, e o frio sai de veiculação.
 2. **Criativos:** os 5 do pacote aprovado para produção: F1-E, F1-C e F1-V na fase 1; F2-A e F2-B na fase 2. Cada um traz 5 textos principais de ângulos diferentes (pelo menos 2 curtos e 1 longo), 5 títulos, 3 descrições, CTA com motivo e URL com UTM (seções 7 e 8).
 3. **Fase 2:** todo texto principal leva a frase completa da regra do 3º módulo (201 caracteres, sem cortar nem trocar palavra). Título, descrição e botão não falam de entrada.
-4. **Preço:** nenhum anúncio da fase 1 e nenhum texto base da fase 2 mostra preço. A variante com preço (V-P) existe só na fase 2, só com a condição completa, e fica bloqueada até a aprovação humana e a resposta de OU8. Não se usa preço em público frio.
+4. **Preço:** nenhum anúncio da fase 1 e nenhum texto base da fase 2 mostra preço. A variante com preço (V-P) existe só na fase 2, só com a condição completa, e sai só com a aprovação humana e com a regra do 3º módulo na página. Quem entra depois do início paga igual (decisão 25). Não se usa preço em público frio.
 5. **Diária:** diária máxima da turma = (R$ 2.000,00 menos o gasto acumulado G [CONFIRMAR]) dividido pelos dias equivalentes restantes. Com G = 0, o teto é de R$ 25,00 por dia (Meta e Google somados) e R$ 12,50 de 21/12 a 03/01. Nunca aumenta (seção 9).
 6. **Pausa:** às 23h59 de 22/01/2027, véspera do 3º módulo, ou antes, se o gasto do ciclo chegar a R$ 2.000,00.
 7. **Leitura:** a fase 1 só tem até 4 dias de dados com os criativos novos (03/11 a 06/11). A leitura dela é direcional e serve de modelo para as outras turmas (decisão 22), não de veredito.
@@ -61,7 +61,7 @@
 | Sem promessa | Sem emprego, salário, renda, promoção, "referência nacional", "o melhor", reposição, gravação ou aula extra dos módulos já ocorridos (OU3 aberta) | criativos 1.2 |
 | Sem bolsa | Nenhuma peça cita bolsa, desconto ou prova de bolsa | decisão 14 |
 | Nome do curso | Sempre "Pós-graduação em Gastroenterologia Veterinária", inteiro | contexto da linha |
-| Valor de R$ 250,00 | Se citado, "matrícula de R$ 250,00", como na página de destino | pedido; catálogo |
+| Valor de R$ 250,00 | Se citado, "inscrição de R$ 250,00"; "matrícula" é a 1ª mensalidade | decisões 23 e 25 |
 | Sem quem vê | Nenhum texto afirma ou insinua característica pessoal de quem vê | conformidade |
 | Listas de contatos | Nenhuma lista de alunos, leads ou inscritos sem base legal confirmada (LGPD) | estrategia 4.1 |
 | Execução | Só humano, depois da aprovação. Esta squad não sobe, altera, pausa nem aumenta verba | CLAUDE.md |
@@ -205,7 +205,7 @@ O pedido é excluir quem pagou a 1ª mensalidade e os alunos. Duas vias, na orde
 |---|---|---|---|
 | 1. Pixel e API de Conversões (sem lista de contatos) | Quem registrou o evento de **1ª mensalidade paga** da turma 68606 | Público personalizado por evento, 180 dias. Só funciona se o CRM enviar esse evento pela API de Conversões, o que usa e-mail ou telefone com hash e precisa de base legal | [CONFIRMAR] se o evento existe e se há base legal. Sem isso, não há como excluir por pixel quem pagou boleto ou Pix fora do site |
 | 1. Pixel | **Alunos:** visitantes da Área do Aluno nos últimos 180 dias | Regra de URL da Área do Aluno, se o pixel estiver instalado lá | [CONFIRMAR] se o pixel está na Área do Aluno |
-| 1. Pixel | Quem registrou **compra** da turma no site (matrícula de R$ 250,00) | Evento Purchase da 68606. **Não excluir por padrão:** quem pagou só a matrícula ainda precisa pagar a 1ª mensalidade, e é esse o público do remarketing. Decisão do gestor | [CONFIRMAR] qual evento a compra dispara |
+| 1. Pixel | Quem registrou **compra** da turma no site (inscrição de R$ 250,00) | Evento Purchase da 68606. **Não excluir por padrão:** quem pagou só a inscrição ainda precisa pagar a matrícula (1ª mensalidade), e é esse o público do remarketing. Decisão do gestor | [CONFIRMAR] qual evento a compra dispara |
 | 2. Lista de contatos | Alunos e quem pagou a 1ª mensalidade, por lista enviada à Meta (e-mail ou telefone com hash) | Público personalizado de lista, usado só como exclusão | **Bloqueada até a Ufape confirmar a base legal e a política de privacidade** (estrategia 4.1; regra do projeto). Pedido AM6 |
 
 Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e fica registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por gênero, renda, saúde, religião ou origem. A idade mínima é a da decisão 24 (25 anos ou mais, sem máxima, seção 4.4).
@@ -267,7 +267,7 @@ Bloco de pré-lançamento da skill (passo 8). Nada disso foi verificado por este
 | API de Conversões | Eventos do servidor com desduplicação por event_id | [CONFIRMAR, D8] |
 | Domínio | faculdade.ufape.com.br verificado na conta de negócios | [CONFIRMAR] |
 | Evento de otimização | Lead (cadastro), se a página tiver; senão InitiateCheckout (início de checkout). A ficha mostra botão COMPRAR e nenhum formulário, então o evento provável é InitiateCheckout [SUPOSIÇÃO]. Se nenhum dos dois disparar, **não subir** com outro objetivo sem decisão do gestor | [CONFIRMAR evento que a página registra] |
-| Leitura de funil (conversões separadas, só para leitura, EM11) | Lead, InitiateCheckout, inscrição paga (compra da matrícula de R$ 250,00) e 1ª mensalidade paga (evento do CRM, só com base legal) | [CONFIRMAR] |
+| Leitura de funil (conversões separadas, só para leitura, EM11) | Lead, InitiateCheckout, inscrição paga (compra da inscrição de R$ 250,00) e 1ª mensalidade paga (evento do CRM, só com base legal) | [CONFIRMAR] |
 | Atribuição | Janela padrão da Meta, sem mudança [SUPOSIÇÃO] | [CONFIRMAR] |
 | Origem no CRM | utm_source, utm_medium, utm_campaign, utm_content e utm_term chegam ao lead e à compra | [CONFIRMAR, D8] |
 | Consentimento e privacidade | Aviso de cookies e consentimento para o pixel; política de privacidade na página e no checkout (LGPD) | [CONFIRMAR] |
@@ -632,13 +632,13 @@ Não é o padrão. Só vale para F2-A e F2-B, só no texto principal (nunca na a
 
 Parágrafo a acrescentar, depois da frase da regra e antes da linha final do texto:
 
-> Condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão.
+> Condições: inscrição de R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão, e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto. Quem entra depois do início paga igual.
 
 Nomes: 68606-r1-calendario_e45_presenciais-vp_v1 e 68606-r2-pratica_v916_entrada-vp_v1. Combinação: T1 de cada anúncio com o parágrafo acrescentado, título 1, descrição 1.
 
 **Por que está bloqueada:**
-- A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso pode contradizer a peça, e como e quando quem entra depois do início paga é OU8, aberta. Condição incompleta em anúncio com preço é item de conformidade.
-- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" na decisão 23. Nesta estrutura vale "matrícula de R$ 250,00", como na página de destino (decisão D-C do qa de 28/10/2026). A V-P segue bloqueada por OU8 e AM8. A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma): o aprovador precisa ver os dois usos lado a lado.
+- A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso contradiz a decisão 25 (quem entra depois paga igual), que já está no parágrafo de condições; o ajuste da página está combinado para depois. Condição incompleta em anúncio com preço é item de conformidade.
+- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" nas decisões 23 e 25. Nesta estrutura vale "inscrição de R$ 250,00", e "matrícula" é a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). A V-P depende só do AM8 e da regra do 3º módulo na página.
 - Precisa de aprovação humana (AM8) e do ok do qa-de-marketing.
 
 ---
@@ -758,7 +758,7 @@ Feriados e fins de semana conferidos: 02/11 (segunda), 15/11 (domingo, sem açã
 - **Os 2 últimos dias subcontam conversões:** nenhuma tendência com eles.
 - **Nunca desligar todos os antigos ao mesmo tempo** (skill, passo 5). Na troca de 03/11 só saem os n com fadiga.
 - **Fase 1:** sem teste de texto (4 dias). O que ela entrega é uma leitura direcional dos conceitos C1 e C3 e a prova de que a estrutura de 5 criativos funciona como modelo para as outras turmas (decisão 22).
-- **Fase 2:** F2-A e F2-B rodam juntos como as 2 peças do remarketing. Ordem das trocas de texto, uma por semana e só fora de 21/12 a 03/01: (1) T2 curto no lugar de T1 em F2-A; (2) T2 curto no lugar de T1 em F2-B; (3) T3 ou T5 em F2-A e em F2-B, um por vez; (4) V-P (com e sem preço), só depois de AM8 aprovado e de OU8 respondida.
+- **Fase 2:** F2-A e F2-B rodam juntos como as 2 peças do remarketing. Ordem das trocas de texto, uma por semana e só fora de 21/12 a 03/01: (1) T2 curto no lugar de T1 em F2-A; (2) T2 curto no lugar de T1 em F2-B; (3) T3 ou T5 em F2-A e em F2-B, um por vez; (4) V-P (com e sem preço), só depois de AM8 aprovado e com a regra do 3º módulo na página.
 - **Fadiga na fase 2:** se a frequência subir e o CTR cair por 2 semanas seguidas, o gestor pede a próxima troca de texto da fila. Se o público for pequeno demais para a diária, a resposta é ampliar a janela (pedido separado), e não aumentar verba.
 - **Sem conceito novo depois do início** (E10 do cmo): todas as trocas são adaptações de texto de C1 e C3.
 - **Leitura por praça e por idade:** só como quebra no relatório (seções 4.4 e 4.5).
@@ -779,7 +779,7 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | AM5 | Em 22/01/2027, 23h59, pausar todas as campanhas do 68606 (data de término agendada e conferência humana, com nova conferência em 23/01 de manhã) | Véspera do 3º módulo; PP17 | Reduz o gasto a zero | Fim da captação no último dia em que a turma aceita matrícula | Reativar só com verba nova aprovada |
 | AM6 | Decidir as exclusões de quem pagou a 1ª mensalidade e dos alunos: via pixel e API de Conversões agora; lista de contatos só depois de a Ufape confirmar base legal e política de privacidade | LGPD (listas sem base legal) e verba (não mostrar anúncio de captação a quem já é aluno) | Sem verba | Menos desperdício no remarketing; nenhum dado pessoal usado sem base legal | Remover a exclusão do conjunto |
 | AM7 | Aplicar a idade mínima de 25 anos, sem idade máxima, nos conjuntos de frio (na operação de 03/11) e no remarketing (desde 07/11), com leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais) | Decisão 24 do CEO (28/10/2026) | Sem verba | Gasto só em quem tem o perfil de pós (formado), pela decisão do CEO | Voltar à idade da exportação anterior, só com nova decisão humana |
-| AM8 | Decidir a variante com preço (V-P) na fase 2: aprovar só depois de OU8 respondida | Teste de uma variável (com e sem preço); preço só com condição completa | Sem verba nova | Saber se preço na legenda ajuda ou atrapalha o remarketing | Pausar a variante |
+| AM8 | Decidir a variante com preço (V-P) na fase 2: aprovar com a condição completa da decisão 25 | Teste de uma variável (com e sem preço); preço só com condição completa | Sem verba nova | Saber se preço na legenda ajuda ou atrapalha o remarketing | Pausar a variante |
 | AM9 | Decidir se as peças sobem com a página de destino pendente (A7: frase "CERTIFICADO PELO MEC"; A12: turma mínima de 20; A13: a página não escreve a regra do 3º módulo) | A peça diz o que a página ainda não sustenta (conformidade: o destino entrega o que o anúncio promete) | Sem custo | Evita promessa que a página não confirma | Não subir, ou subir só depois da correção (OA10). F2-A, F2-B e V-P (fase 2, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); a fase 1 depende só da decisão sobre A7 e A12 |
 | AM10 | Confirmar o teste de rastreio de 30/10 (pixel, API de Conversões, evento de otimização, UTM no CRM) e o evento que a página registra | Sem isso, não se sobe (auditoria 11) | Sem custo | Lead e matrícula ligados à turma | Não subir |
 
@@ -834,8 +834,8 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | 1 | O pacote de criativos manda `utm_content` igual ao nome `pos68606_...`; o D12 do cmo manda nome de anúncio no padrão `<código>-<conceito>_<formato>_<gancho>_vN` | Vale o D12 (o pacote diz que o anuncios-meta ajusta). Tabela de correspondência na seção 3.4 |
 | 2 | Contagem da primeira linha: pacote diz 113 (F1-C) e 85 (F1-V); contagem manual aqui dá 115 e 86 | Valem as contagens desta estrutura; as quatro cabem antes do "ver mais". Conferir no contador do gerenciador |
 | 3 | Idade: roteiro do cmo sugeria 22 a 35; regra do agente e estratégia 4.1 mandavam 18+ | Resolvido pela decisão 24: 25 anos ou mais, sem máxima, com leitura semanal por faixa |
-| 4 | Gestor e criativos dizem "nenhum preço até a U11"; a decisão 23 resolveu a U11 com R$ 250,00 | O texto base continua sem preço. V-P existe, mas bloqueada por OU8 e por AM8 |
-| 5 | "Inscrição" (decisão 23) contra "matrícula" (catálogo e página) | "Matrícula de R$ 250,00", como na página (decisão D-C do qa de 28/10/2026) |
+| 4 | Gestor e criativos dizem "nenhum preço até a U11"; a decisão 23 resolveu a U11 com R$ 250,00 | O texto base continua sem preço. V-P existe, depende do AM8 |
+| 5 | "Inscrição" (decisão 23) contra "matrícula" (catálogo e página) | "Inscrição de R$ 250,00"; "matrícula" é a 1ª mensalidade (decisão 25) |
 | 6 | A diária máxima do gestor conta 80 dias desde 28/10; a aplicação acontece depois | Tabela de recálculo por data (seção 9.1), com a regra "nunca aumenta" |
 | 7 | O pacote diz que a fase 1 tem 4 dias de dados com os criativos novos; a ordem de teste do pacote pede F1-E e F1-V primeiro | A troca é uma operação com n entradas e n saídas; F1-E primeiro; F1-V se pronto; F1-C em reserva |
 | 8 | O cmo (OA4) fala em "só remarketing e busca"; não define a divisão Meta e Google da onda 1 | Divisão 50 e 50 [SUPOSIÇÃO], igual à manutenção e à extensão das outras turmas; gestor e anuncios-google confirmam |
@@ -896,7 +896,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 
 ## Fatos (com fonte)
 
-- Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, semipresencial, 500 h, 24 módulos, início em 07/11/2026 (planilha), status "aberto", 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, matrícula de R$ 250,00 à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão (catálogo, seção 2, e ficha 68606).
+- Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, semipresencial, 500 h, 24 módulos, início em 07/11/2026 (planilha), status "aberto", 30x de R$ 1.180,00, R$ 35.400,00 no cartão ou boleto, inscrição de R$ 250,00 à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão (catálogo, seção 2, e ficha 68606, que chamam de matrícula; termo pela decisão 25). Quem entra depois do início paga igual (decisão 25).
 - Módulo 1: 07 e 08/11/2026; módulo 2: 19 e 20/12/2026; módulo 3: 23 e 24/01/2027, todos online. Presenciais: módulo 6 (17 e 18/04/2027), módulo 13 (27 e 28/11/2027) e módulo 21 (julho de 2028). Os outros 21 são online (ficha, cronograma).
 - Conteúdo dos módulos 6, 13 e 21 e dos temas online citados (ficha). "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas" e "o cronograma e palestrantes poderão ser alterado" (ficha, observação). Página prevê grupo para discussão de casos entre alunos e coordenadores (ficha).
 - A página oficial diz "CERTIFICADO PELO MEC" e "Turma mínima de 20 alunos", e a 1ª mensalidade até 30 dias antes do início; não escreve a regra do 3º módulo (ficha; cmo A7, A12, A13).
@@ -938,7 +938,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - [CONFIRMAR] Base legal para lista de contatos de alunos e de quem pagou a 1ª mensalidade; política de privacidade nas páginas e no checkout.
 - [CONFIRMAR] Disponibilidade, no gerenciador, das opções de público "Medicina veterinária", "Médico Veterinário" e "formação universitária ou mestrado"; nome das opções de expansão de público e de melhorias criativas automáticas.
 - [CONFIRMAR] Comportamento do limite de gasto da campanha (se conta o gasto desde a criação).
-- [CONFIRMAR] OU3 (reposição dos módulos), OU6 (véspera ou 1º dia do 3º módulo), OU8 (pagamento de quem entra depois do início), OU4 (turma confirmada e vagas), OU9 (status do catálogo depois do início).
+- [CONFIRMAR] OU3 (reposição dos módulos), OU6 (véspera ou 1º dia do 3º módulo), OU4 (turma confirmada e vagas), OU9 (status do catálogo depois do início).
 - [CONFIRMAR] Correção da página (A7, A12, A13) ou decisão humana de subir com ela pendente; caminho de contato com o time na página.
 - [CONFIRMAR] Decisão sobre os 20% de Goiás e DF (slide 17, item 9).
 - [CONFIRMAR] Locução, licença da trilha e prazo das artes e dos vídeos F1-V e F2-B; manual da marca; dicionário de códigos de formato do criativos.
@@ -967,3 +967,4 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 **Próximo agente sugerido:** qa-de-marketing (auditorias 11 e conformidade-educacional, antes da aprovação humana); depois anuncios-google, que usa a mesma diária da turma (divisão Meta e Google a confirmar com o gestor), as mesmas datas de fase e os ganchos da matriz nos anúncios de Busca.
 - 28/10/2026: correções E1, E7, E27, E28, E29, E30 e E31 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R10 e R11 da reconferência do qa-de-marketing aplicados pelo orquestrador.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
