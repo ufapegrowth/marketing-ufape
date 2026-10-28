@@ -3,9 +3,9 @@
 - **Agente:** cmo
 - **Linha:** pos
 - **Data:** 28/10/2026 (quarta-feira)
-- **Formato:** roteiro de apresentação, slide a slide (20 slides). Para cada slide: título-afirmação, subtítulo, conteúdo exato, fonte de cada número e sugestão de visual. Não é peça de divulgação: preço aparece só no slide 5, com a condição completa e a marca "uso interno".
+- **Formato:** roteiro de apresentação, slide a slide (20 slides). Para cada slide: título-afirmação, subtítulo, conteúdo exato, fonte de cada número e sugestão de visual. Não é peça de divulgação: preço aparece nos slides 5 (condição completa), 6 (meta em reais) e 17 (U11), sempre com a marca "uso interno".
 - **Base obrigatória (pedido do CEO, "use como base"):** docs/insumos/tgh-plano-de-campanhas-cursos-tier1-v2.txt, deck da The Growth Hub de outubro de 2026 (26 slides). Este roteiro segue a mesma lógica (onde investir, quem impactar, quanto investir, próximos passos) e a mesma linguagem: título-afirmação curto, um número forte por tela, rodapé fixo. Números de cadastros e de CPA são citados como fonte do deck.
-- **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada é publicado, enviado, pausado ou pago a partir deste arquivo.
+- **Status:** rascunho para o qa-de-marketing e para a aprovação humana, com as correções do qa de 28/10/2026 aplicadas no roteiro (ver a seção final). Nada é publicado, enviado, pausado ou pago a partir deste arquivo.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/CLAUDE.md
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
@@ -23,6 +23,7 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seções 4, 5, 12 e 13)
   - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/cursos/pos-68606.json (kit, pendências e aprovações)
   - /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-geral-2026-10-26.md (avaliação antiga, substituída pela decisão 21)
+  - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-28-apresentacao.md (revisão do qa, veredito CORRIGIR)
   - /home/user/marketing-ufape/auditorias/02-estrategia-e-posicionamento.md e /home/user/marketing-ufape/auditorias/conformidade-educacional.md
 - **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Nenhum número de leads, inscrições, matrículas, vagas restantes ou gasto foi recebido para a 68606: todos ficam [CONFIRMAR]. Docentes só com nome e titulação como estão na ficha.
@@ -123,7 +124,7 @@
   - **Turma mínima:** 15 alunos (decisão 11); a página ainda diz 20 e precisa de correção (pedido A12).
   - **Investimento (uso interno, nunca em peça até a U11):** 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto, mais matrícula de R$ 250,00 no site; 1ª mensalidade paga até 30 dias antes do início, segundo a página. O CEO informou inscrição de R$ 260,00: a diferença com os R$ 250,00 do site é [CONFIRMAR U11].
 - **Fonte:** ficha contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (cronograma, endereço, coordenação, 38 professores listados, preço do site); linha do catálogo citada em pos-68606.json; decisões 11, 16 e 18 de docs/execucao-2026-10-26.md.
-- **Visual:** linha do tempo horizontal dos 24 módulos com os três presenciais em destaque (azul-petróleo) e uma bandeira no 3º módulo com a frase "matrícula aceita até aqui"; preço num card cinza com a etiqueta "uso interno".
+- **Visual:** linha do tempo horizontal dos 24 módulos com os três presenciais em destaque (azul-petróleo) e uma bandeira no 3º módulo com a frase "matrícula até o 3º módulo (véspera ou 1º dia: [CONFIRMAR OU6])"; preço num card cinza com a etiqueta "uso interno".
 
 ---
 
@@ -144,9 +145,10 @@
 | Base | 10% | 75% | 20 | 200 | R$ 10,00 |
 | Otimista | 15% | 90% | 17 | 112 | R$ 18,00 |
 
+  - **Nota da tabela:** no otimista, a conta dá 111,11 leads (112 na prática, gestor 12.3); o CPL máximo de R$ 18,00 vem da conta exata (R$ 133,33 x 15% x 90%); com 112 leads inteiros, R$ 17,86.
   - **A conta fecha?** Ainda não dá para dizer. Três sinais de risco:
     1. No cenário base, os 200 leads consomem os R$ 2.000,00 inteiros: não há folga.
-    2. Com CPL acima de R$ 18,00 por 2 semanas fechadas, a meta não fecha só com mídia em nenhum cenário (gestor-de-midia).
+    2. Com CPL acima de R$ 18,00 por 2 semanas fechadas, a meta não fecha só com mídia em nenhum dos três cenários (gestor-de-midia).
     3. O deck da The Growth Hub cita CPA de R$ 210,51 na média da conta e de R$ 168,50 na Imersão Cirurgia (GO). Se esse CPA for custo por matrícula, a média da conta já passa do teto de R$ 133,33. O que o CPA mede (cadastro, inscrição ou matrícula): [CONFIRMAR com a The Growth Hub].
   - **Por isso:** a base (WhatsApp e e-mail), o time de vendas e o conteúdo orgânico, com o podcast, carregam parte da meta [SUPOSIÇÃO do cmo]. Quantas das 15 matrículas vêm de fora da mídia (Mmid): [CONFIRMAR].
 - **Fonte:** decisões 15 e 16 (docs/execucao-2026-10-26.md); gestor-de-midia-pos-2026-10-26.md, seções 12.2 (R$ 133,33, R$ 531.000,00, 265,50 vezes), 12.3 (cenários) e 12.6 (limite de R$ 18,00); deck da The Growth Hub, slide 6 (CPA).
@@ -175,7 +177,7 @@
   - **Como a conta das fases foi feita:** a diária máxima é (R$ 2.000,00 menos o gasto acumulado do ciclo, G) dividida por 80 dias equivalentes, de 28/10/2026 a 22/01/2027, em que os 14 dias de fim de ano (21/12 a 03/01) contam meio dia. Com G = 0, a diária é de R$ 25,00 (R$ 12,50 no fim de ano). Fase 1: 10 dias x R$ 25,00 = R$ 250,00. Fase 2: 63 dias x R$ 25,00 mais 14 dias x R$ 12,50 = R$ 1.750,00. **É teto, não meta.** A 68606 já roda desde antes da decisão: G é [CONFIRMAR, PP15]; a verba real de cada praça é (R$ 2.000,00 menos G) x o percentual.
   - **Fase 1, até 06/11, 23h59:** campanha como está (OA4), com uma troca de criativo por fadiga até 03/11 (D20). Os anúncios que citam a data de início saem em 07/11.
   - **Fase 2, de 07/11 a 22/01/2027, 23h59:** só remarketing de visitantes e busca de marca e de maior intenção, com a regra completa do 3º módulo no texto; pausa na véspera do 3º módulo ou antes, se os R$ 2.000,00 acabarem.
-  - **Recomendação do cmo para a 68606:** não abrir cinco campanhas novas a 9 dias do início. Com R$ 25,00 por dia, cinco campanhas de R$ 2,75 a R$ 7,50 por dia não saem do aprendizado e uma mudança grande reinicia o aprendizado (gestor-de-midia, seção 8, item 5). Na 68606, a divisão do deck vira **limite de leitura por praça** no relatório semanal; na fase 2, o remarketing fica num conjunto só, porque o público de quem visitou a página é pequeno para ser cortado em cinco [SUPOSIÇÃO do cmo]. A estrutura completa de cinco campanhas entra nas turmas de março (onda 2), que começam do zero.
+  - **Recomendação do cmo para a 68606:** não abrir cinco campanhas novas a 10 dias do início. Com R$ 25,00 por dia, cinco campanhas de R$ 2,75 a R$ 7,50 por dia não saem do aprendizado e uma mudança grande reinicia o aprendizado (gestor-de-midia, seção 8, item 5). Na 68606, a divisão do deck vira **limite de leitura por praça** no relatório semanal; na fase 2, o remarketing fica num conjunto só, porque o público de quem visitou a página é pequeno para ser cortado em cinco [SUPOSIÇÃO do cmo]. A estrutura completa de cinco campanhas entra nas turmas de março (onda 2), que começam do zero.
   - **Ponto para a diretoria:** Goiás + DF recebe 20% pelo peso da unidade, mas a 68606 é de São Paulo, com presenciais na sede. Manter os 20% como teste (lógica "testar" do deck) ou passar parte para SP: decisão da Ufape (slide 17).
 - **Fonte:** deck da The Growth Hub, slides 12 e 22 (percentuais e valores com R$ 2.000); gestor-de-midia-pos-2026-10-26.md, seção 13.1 (fórmula, 80 dias equivalentes, R$ 25,00 com G = 0) e seção 8 (mudança grande reinicia o aprendizado); cmo-pos-2026-10-26.md, seção 4.3 e OA4; decisão 18. Os valores por fase são conta do cmo sobre a fórmula do gestor.
 - **Visual:** cinco barras empilhadas (uma por praça), cada uma dividida em fase 1 (cor clara) e fase 2 (azul-petróleo), com uma linha do tempo embaixo marcando 07/11 e 22/01.
@@ -189,16 +191,16 @@
 - **Subtítulo:** Casa de mensagens da área A6, ganchos recomendados e anúncios sem preço.
 - **Conteúdo:**
   - **Promessa central (área A6):** Gastroenterologia de cães e gatos do diagnóstico à prática cirúrgica e endoscópica, com grupo de discussão de casos com a coordenação.
-  - **Três pilares e a prova de cada um:** (1) prática no calendário: três módulos presenciais com data (6, 13 e 21); (2) quem ensina, com nome: coordenação e 38 nomes na página; (3) condições claras: parcelas, total e matrícula na página da turma, e turma que pode não ser formada.
+  - **Três pilares e a prova de cada um:** (1) prática no calendário: três módulos presenciais com data (6, 13 e 21); (2) quem ensina, com nome: coordenação e 38 nomes na página; (3) condições claras: parcelas, total e matrícula na página da turma, e a turma pode não ser formada; sem preço no anúncio.
   - **Três ganchos recomendados:**
     - A6-09: "Do módulo online de fisiologia à cirurgia na prática: o primeiro presencial de Gastroenterologia." (Reel)
     - A6-03: "3 práticas em um módulo: anatomia, cirurgia digestiva e parasitologia ou transplante fecal." (Reel)
-    - A6-02: "Cirurgia esofágica, gástrica e intestinal na pós de Gastroenterologia? Veja o presencial." (carrossel)
+    - A6-02: "Cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária? Veja o presencial." (carrossel). O arquivo do criador-de-ganchos ainda traz a forma antiga e precisa da mesma troca antes de virar carrossel.
   - **Criativo do deck, ajustado ao padrão de nome:** o deck sugere a forma abreviada "Pós em Gastroenterologia para médicos veterinários formados". Nas peças, sempre: "Pós-graduação em Gastroenterologia Veterinária para médicos veterinários formados".
   - **Exemplo de anúncio até 06/11 [SUPOSIÇÃO de texto, passa pelo qa]:** título "Pós-graduação em Gastroenterologia Veterinária para médicos veterinários formados"; texto "Turma IX em São Paulo, com início em 07/11/2026 e o módulo 1 online. Teoria online e 3 módulos presenciais de prática, o primeiro em 17 e 18/04/2027. Veja parcelas, total e matrícula na página da turma."
   - **Exemplo de remarketing a partir de 07/11 [SUPOSIÇÃO de texto, passa pelo qa]:** "A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
   - **O que nenhum criativo diz:** preço ou valor de inscrição (até a U11), frase de certificação, bolsa ou prova de bolsa, "últimas vagas", contador, número de turma mínima, "especialidade emergente e carente de profissionais" e "coordenadores referências nacionais" (textos da página sem fonte).
-- **Fonte:** mensagens-pos-2026-10-26.md, seções 0, 1 e 7 (A6); criador-de-ganchos-pos-2026-10-26.md, seção 6 (A6-02, A6-03, A6-09); deck da The Growth Hub, slide 21 (criativo); copy-de-mensagens-pos-onda1-2026-10-26.md, seção 1.4 (frase da regra); contexto/pos-graduacao.md (padrão de nome).
+- **Fonte:** mensagens-pos-2026-10-26.md, seções 0, 1 e 7 (A6); criador-de-ganchos-pos-2026-10-26.md, seção 6 (A6-02, A6-03, A6-09; A6-02 com o nome ajustado pela revisão do qa de 28/10/2026, F15); deck da The Growth Hub, slide 21 (criativo); copy-de-mensagens-pos-onda1-2026-10-26.md, seção 1.4 (frase da regra); contexto/pos-graduacao.md (padrão de nome).
 - **Visual:** à esquerda, a "casa" (promessa no telhado, três pilares); à direita, dois mockups de anúncio no feed, lado a lado: "antes de 07/11" e "depois de 07/11".
 
 ---
@@ -231,7 +233,7 @@
 ## Slide 10. Régua de WhatsApp e e-mail
 
 - **Etiqueta:** 03 · BASE
-- **Título-afirmação:** Seis mensagens até 12/01, dentro do teto de mercado.
+- **Título-afirmação:** Seis mensagens até 12/01, dentro do teto D16.
 - **Subtítulo:** Textos aprovados pelo qa; cada envio ainda espera a aprovação humana (OA9).
 - **Conteúdo (tabela):**
 
@@ -244,14 +246,14 @@
 | qua 16/12, 10h | WhatsApp W3 | regra completa do 3º módulo | falar com o time | responder TURMA |
 | ter 12/01, 10h | WhatsApp W4 | último toque antes da pausa de 22/01, com a regra completa | falar com o time | responder TURMA |
 
-  - **Teto (D16, decisão do cmo com referência de mercado):** até 2 WhatsApp e 2 e-mails de campanha por contato por semana, no máximo 1 por dia, somando todas as campanhas; contato sem engajamento recebe até 1 WhatsApp por semana (E1). Sem campanha em 02/11, 20 e 21/11 (Workshop Brasileiro de Neuromonitorização) e de 21/12 a 03/01.
-  - **Por que esse número:** nenhuma fonte publica um número de mensagens por semana para educação; as fontes oficiais (Meta e Gmail) medem qualidade, não frequência. O teto vem com limites de alerta: spam no Gmail abaixo de 0,10%, descadastro acima de 0,17% por envio (média do Brasil) e qualidade do número do WhatsApp.
+  - **Teto (D16, decisão do cmo; número [SUPOSIÇÃO], calibrado pelos limites de alerta com fonte da seção 13.4):** até 2 WhatsApp e 2 e-mails de campanha por contato por semana, no máximo 1 por dia, somando todas as campanhas; contato sem engajamento recebe até 1 WhatsApp por semana (E1). Sem campanha em 02/11, 20 e 21/11 (Workshop Brasileiro de Neuromonitorização) e de 21/12 a 03/01.
+  - **Por que esse número:** nenhuma fonte publica um número de mensagens por semana para educação; as fontes oficiais (Meta e Gmail) medem qualidade, não frequência. O teto vem com limites de alerta: alerta com spam no Gmail de 0,10% ou mais (corte com 0,30%); alerta com descadastro acima de 0,17% (média do Brasil) em 2 envios seguidos da mesma régua (corte acima de 0,34% em 1 envio [SUPOSIÇÃO do fator 2]); qualidade do número do WhatsApp em amarelo (corte em vermelho).
   - **Quem recebe:** só contatos com opt-in, da área A6 (S2) e de quem falou com o time sem pagar (S3). Quem pagou a 1ª mensalidade sai no dia; depois de 22/01, a turma sai de toda lista.
   - **O podcast não cria toque novo:** o link do episódio vai na newsletter (que já conta no teto) e nas respostas 1 a 1 do time de vendas, dentro da janela de 24 h aberta pelo candidato.
   - **Respostas prontas do time:** 10 perguntas (ainda dá tempo, já começou, perdi o módulo, tem vaga, qual o valor), com "vou confirmar" para reposição (OU3) e pagamento (OU8).
   - Envio do T1 de hoje, 28/10, 9h: [CONFIRMAR se saiu, depois da aprovação do OA9].
 - **Fonte:** copy-de-mensagens-pos-onda1-2026-10-26.md, seções 0.2, 1.1 a 1.4, 6A e 7; cmo-geral-2026-10-26.md, seção 13 (D16, E1 a E4, R5 a R7 e limites de 13.4); cmo-pos-2026-10-26.md, OA9; pos-68606.json (qa "aprovado", status "aguardando_aprovacao").
-- **Visual:** linha do tempo de 28/10 a 22/01 com os seis toques (envelope para e-mail, balão para WhatsApp), a faixa cinza de 21/12 a 03/01 "sem campanha" e um termômetro lateral "teto: 2 + 2 por semana, 1 por dia".
+- **Visual:** linha do tempo de 28/10 a 22/01 com os seis toques (envelope para e-mail, balão para WhatsApp), a faixa cinza de 21/12 a 03/01 "sem campanha" e um termômetro lateral "teto: 2 + 2 por semana, 1 por dia", com a linha embaixo "Número [SUPOSIÇÃO do cmo, D16], revisto pelos limites de alerta com fonte."
 
 ---
 
@@ -265,9 +267,9 @@
   - **Corpo docente listado na ficha:** 38 nomes, coordenação incluída. Pela titulação escrita na ficha: 17 Dr. ou Dra., 12 MSc., 6 Esp., 3 Profa. (contagem do cmo sobre a ficha). Dois nomes podem ser a mesma pessoa ("Profa. Ísis Carvalho" e "ESP. Isis de Carvalho Rodrigues Santana Lemes"): [CONFIRMAR].
   - **Exemplos que as peças já usam:** Dr. Rodolfo Oliveira Leal, DRA. VIVIANE DE MARCO, DR. Fabrizio Grandi, DRA. Maria Anete Lallo.
   - **Post pronto (rascunho):** AD-A6-1, Stories de 3 telas da coordenação, na semana de 09 a 15/11. Gancho: "Quando um caso gastrointestinal pede uma segunda opinião?" Chamada: "Fale com o time para saber como entrar na turma." Sai só com o ok e a revisão clínica da própria docente.
-  - **Lacuna do kit:** o kit pede 1 post por docente autorizado; há 1 de 38 (37 em lacuna, OA8). **O podcast fecha parte dela:** cada docente convidado ganha o card do convidado e um corte com o nome dele, que contam como post de docente [SUPOSIÇÃO do cmo, a confirmar no qa].
+  - **Lacuna do kit:** o kit pede 1 post por docente autorizado; há 1 de 38 (37 em lacuna, OA8). **O podcast fecha parte dela:** cada docente da ficha convidado ganha o card do convidado e um corte com o nome dele, que contam juntos como 1 post de docente do kit quando seguem o checklist C1 a C8 da autoridade-docente-pos (critério do qa, 28/10/2026).
   - **Regras:** a squad não escreve opinião clínica na voz do docente; dose, protocolo e conduta, nunca. Revisor docente do conteúdo clínico da Pós: [CONFIRMAR nome].
-- **Fonte:** ficha 68606 (lista "Participantes"); decisões 8 e 10; autoridade-docente-pos-2026-10-26.md, seções 0 e 6 (AD-A6-1); mensagens-pos-2026-10-26.md, seção 7; cmo-pos-2026-10-26.md, OA8.
+- **Fonte:** ficha 68606 (lista "Participantes"); decisões 8 e 10; autoridade-docente-pos-2026-10-26.md, seções 0 e 6 (AD-A6-1); mensagens-pos-2026-10-26.md, seção 7; cmo-pos-2026-10-26.md, OA8; qa-de-marketing-pos-2026-10-28-apresentacao.md, F9 (card do convidado e corte contando como 1 post de docente).
 - **Visual:** mosaico de 38 cards cinza (silhueta, sem foto até o docente aprovar), com o card da coordenação em destaque; barra horizontal com a contagem por titulação.
 
 ---
@@ -296,7 +298,7 @@
 ## Slide 13. Do episódio à matrícula
 
 - **Etiqueta:** 03 · PODCAST NO FUNIL
-- **Título-afirmação:** Um episódio vira 10 peças e todas levam à página da turma.
+- **Título-afirmação:** Um episódio vira 10 peças de divulgação, e as chamadas de turma levam à página da turma.
 - **Subtítulo:** O podcast alimenta posts, Reels, anúncios, newsletter e WhatsApp, sem passar dos tetos.
 - **Conteúdo:**
 
@@ -313,12 +315,13 @@
 | Link do episódio | newsletter | consideração | a newsletter já conta no teto D16 |
 | Link do episódio | resposta 1 a 1 do time de vendas no WhatsApp | decisão | só dentro da janela de 24 h aberta pelo candidato; não é toque de campanha |
 
+  - **Contagem:** 10 peças = pacote da decisão 21 (3 cortes verticais, 3 capas verticais, 1 card 4:5, 2 Stories e 1 card do convidado); episódio, áudio e link na newsletter ficam fora da conta [SUPOSIÇÃO de contagem]. Em 5 episódios, cerca de 50 peças.
   - **Chamada de cada peça:** antes de 07/11, a data de início; a partir de 07/11, a frase completa do 3º módulo. Depois de 22/01, a 68606 sai das chamadas e o episódio aponta para a próxima turma da área [CONFIRMAR OU4] ou para o conteúdo da Pós.
   - **UTM:** utm_source=youtube, spotify ou instagram; utm_medium=organic_social; utm_campaign=pos_68606_<AAAAMM> quando a chamada é da turma, e pos_conteudo_<AAAAMM> quando o episódio fala de várias turmas (exceção a conferir pelo arquiteto-de-fluxos) [CONFIRMAR].
   - **Calendário quinzenal [SUPOSIÇÃO de calendário, depende do nome aprovado e de quem produz]:** episódio na terça; corte 1 e Stories de estreia na terça; corte 2 na quinta; corte 3 na terça seguinte; card do convidado na quarta; link na newsletter do mês. Gravação em sessões de 2 ou 3 episódios para caber na agenda dos docentes.
   - **Como medir:** ouvintes que chegam ao fim, visitas à página da turma com UTM do podcast, conversas do time que citam o episódio (só contagem) e a pergunta "onde você viu a Ufape?" no formulário. Sem meta antes de 4 episódios de linha de base.
 - **Fonte:** decisão 21 (pacote); docs/insumos/ufape-podcast-proposta-2026-10-28.txt (páginas 19 e 20, formatos e pacote); cmo-geral-2026-10-26.md, seções 12 e 13 (D5, D16); autoridade-docente-pos-2026-10-26.md, seção 0.3 (slots de feed e Stories); gestor-de-midia-pos-2026-10-26.md, seção 13.4 (critério de troca de peça); podcast-geral-2026-10-26.md, seções 3 e 4 (rastreio e métricas).
-- **Visual:** diagrama em árvore: microfone no topo, oito saídas para os canais, todas convergindo para um funil "página da turma, time de vendas, inscrição paga, 1ª mensalidade"; embaixo, régua de duas semanas com os dias de cada peça.
+- **Visual:** diagrama em árvore: microfone no topo, oito saídas para os canais; as que têm chamada de turma convergem para um funil "página da turma, time de vendas, inscrição paga, 1ª mensalidade"; embaixo, régua de duas semanas com os dias de cada peça.
 
 ---
 
@@ -334,14 +337,14 @@
 | 1, ter 24/11 | Como escolher minha pós? (pauta sugerida pela proposta) | Formação em foco | Esp. Maria Carolina Pappalardo (coordenação) | egresso de pós da Ufape [CONFIRMAR nome e autorização] | página da 68606 com a regra completa |
 | 2, ter 08/12 | Quando um caso gastrointestinal pede uma segunda opinião? | Ciência e prática | Dr. Rodolfo Oliveira Leal [CONFIRMAR agenda e tema] | veterinário clínico convidado [CONFIRMAR] | página da 68606 com a regra completa |
 | 3, ter 22/12 | Luto e burnout: como cuidar de quem cuida? (tema do módulo 24 da ficha) | Comunidade UFAPE | docente da ficha a indicar pela coordenação [CONFIRMAR] | [CONFIRMAR] | sem chamada de turma (fim de ano, sem campanha); utm de conteúdo |
-| 4, ter 05/01 | O que a imagem mostra num caso gastrointestinal? (temas dos módulos 5 e 8 da ficha) | Ciência e prática | Dra. Cibele Figueira Carvalho [CONFIRMAR tema; ela também está listada na Pós de Diagnóstico por Imagem, 68604] | [CONFIRMAR] | página da 68606 com a regra completa |
-| 5, ter 19/01 | Do exame de laboratório ao diagnóstico: o que pedir e como ler? (tema do módulo 3 da ficha) | Ciência e prática | DR. Fabrizio Grandi [CONFIRMAR tema; ele também está listado na Pós de Patologia Clínica, 68615] | [CONFIRMAR] | página da 68606 com a regra completa (último episódio antes da pausa de 22/01) |
+| 4, ter 05/01 | O que a imagem mostra num caso gastrointestinal? (temas dos módulos 5 e 8 da ficha) | Ciência e prática | Dra. Cibele Figueira Carvalho [CONFIRMAR tema; ela também está listada na Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, 68604] | [CONFIRMAR] | página da 68606 com a regra completa |
+| 5, ter 19/01 | Do exame de laboratório ao diagnóstico: o que pedir e como ler? (tema do módulo 3 da ficha) | Ciência e prática | DR. Fabrizio Grandi [CONFIRMAR tema; ele também está listado na Pós-graduação em Patologia Clínica, 68615] | [CONFIRMAR] | página da 68606 com a regra completa (último episódio antes da pausa de 22/01) |
 | Reserva, ter 02/02 | Pós, residência, curso curto ou aprender com um colega? | Formação em foco | Esp. Maria Carolina Pappalardo ou outro docente da ficha [CONFIRMAR] | [CONFIRMAR] | próxima turma da área [CONFIRMAR OU4] ou conteúdo da Pós |
 
   - **Cortes de exemplo do episódio 1 [SUPOSIÇÃO de texto]:** "O que olhar no cronograma antes de pagar uma pós?"; "Prática presencial com data: por que isso pesa na escolha?"; "Quem vai te ensinar: onde ver isso antes da matrícula?". Os três respondem com fato da página, sem opinião da squad na voz da docente.
   - **Regras de toda pauta:** a opinião é do convidado; conteúdo clínico passa por [REVISÃO DOCENTE]; nenhum paciente, tutor, aluno ou clínica identificável; sem promessa de emprego, renda ou título; sem frase de certificação; sem "últimas vagas"; a data do 3º módulo só dentro da frase completa da regra; o evento de 20 e 21/11, se citado, é o "Workshop Brasileiro de Neuromonitorização".
   - **Reúso para outros cursos:** os episódios 1 e 3 servem a todas as turmas de Pós (e o 1, à Graduação, na frente "Começo de carreira"); os episódios 2, 4 e 5 servem à área A6 e podem citar a 68606 ou a próxima turma da área.
-- **Fonte:** docs/insumos/ufape-podcast-proposta-2026-10-28.txt (página 4, "Como escolher minha pós?", professor e egresso; página 8, quadros); ficha 68606 (módulos 3, 5, 8 e 24; nomes dos docentes); mensagens-pos-2026-10-26.md, seção 6 (Dra. Cibele Figueira Carvalho na 68604); criador-de-ganchos-pos-2026-10-26.md, A11-08 (DR. Fabrizio Grandi na 68615); autoridade-docente-pos-2026-10-26.md, AD-A6-1 (pergunta da segunda opinião) e pergunta 8 da entrevista (pós, residência ou curso curto).
+- **Fonte:** docs/insumos/ufape-podcast-proposta-2026-10-28.txt (página 4, "Como escolher minha pós?", professor e egresso; página 8, quadros); ficha 68606 (módulos 3, 5, 8 e 24; nomes dos docentes); mensagens-pos-2026-10-26.md, seção 6 (Dra. Cibele Figueira Carvalho na Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária, 68604); criador-de-ganchos-pos-2026-10-26.md, A11-08 (DR. Fabrizio Grandi na Pós-graduação em Patologia Clínica, 68615); autoridade-docente-pos-2026-10-26.md, AD-A6-1 (pergunta da segunda opinião) e pergunta 8 da entrevista (pós, residência ou curso curto).
 - **Visual:** cinco capas verticais em sequência (estilo "UFAPE CAST / EP. 01"), cada uma com a pergunta curta, o quadro e um espaço "foto real do convidado"; a reserva em cinza.
 
 ---
@@ -370,7 +373,7 @@
 | ter 08/12 | episódio 2 no ar | produção, posts-sociais |
 | qua 16/12 | WhatsApp W3 | humano no CRM |
 | sáb 19 e dom 20/12 | módulo 2, online | Ufape |
-| 21/12 a 03/01 | sem mensagem de campanha; mídia só no remarketing, com diária pela metade | gestor-de-midia |
+| 21/12 a 03/01 | sem mensagem de campanha; mídia só no remarketing, diária pela metade [SUPOSIÇÃO do gestor, 13.1] | gestor-de-midia |
 | ter 22/12 | episódio 3 no ar (sem chamada de turma) | produção |
 | ter 05/01 | episódio 4 no ar | produção |
 | ter 12/01 | WhatsApp W4, último toque | humano no CRM |
@@ -396,11 +399,11 @@
 | Entrega (mínimo) | Situação | Dono | Bloqueio |
 |---|---|---|---|
 | Página da turma (1) | no ar, mas não conta como entregue | Ufape (site) | frase de certificação ligada ao MEC (A7), turma mínima de 20 (A12), regra do 3º módulo ausente (A13), política de privacidade do formulário [CONFIRMAR] |
-| Plano dos 8 canais (1) | escrito; qa aprovado; aguarda aprovação | cmo | - |
-| Plano de mídia (1) | escrito; qa aprovado; aguarda aprovação | gestor-de-midia | gasto acumulado (PP15) |
-| Posts orgânicos (6) | inventário pendente; 2 no feed e 4 em Stories de 03/11 a 20/01 | posts-sociais | OA11 |
-| Criativos (3) | inventário pendente; estático e vídeo com 5 ângulos no ar, quantos aprovados [CONFIRMAR] | gestor-de-midia, criativos-de-anuncio | texto pós-início até 05/11 |
-| Post por docente (38) | 1 rascunho (AD-A6-1); 37 em lacuna | autoridade-docente | ok de cada docente |
+| Plano dos 8 canais (1) | escrito; qa aprovado na versão com podcast e YouTube fora; aguarda a aprovação do plano da onda 1 | cmo | a mudança da decisão 21 (slide 9) depende da revisão do qa e da aprovação humana |
+| Plano de mídia (1) | escrito; qa aprovado; aguarda a aprovação do plano da onda 1 | gestor-de-midia | gasto acumulado (PP15) |
+| Posts orgânicos (6) | inventário pendente; 2 no feed e 4 em Stories de 03/11 a 20/01; publicação a partir de 03/11 | posts-sociais | OA11 |
+| Criativos (3) | inventário pendente; estático e vídeo com 5 ângulos no ar, quantos aprovados [CONFIRMAR]; prazo 05/11 | gestor-de-midia, criativos-de-anuncio | texto pós-início até 05/11 |
+| Post por docente (38) | 1 rascunho (AD-A6-1); 37 em lacuna; prazo do post de docente em 29/10 | autoridade-docente | ok de cada docente |
 | WhatsApp (4) | escritos; qa aprovado; aguardam o OA9 | copy-de-mensagens | OA9 |
 | E-mail (2) | escritos; qa aprovado; aguardam o OA9 | copy-de-mensagens | OA9 |
 | Roteiro de vídeo curto (1) | inventário pendente; prazo 05/11 | tiktok | - |
@@ -408,9 +411,11 @@
 | Acréscimo: pausa e relatório final | a fazer; 22/01, 25/01 e 22/02 | cmo, gestor-de-midia | - |
 | Acréscimo novo: pacote do podcast (5 episódios na janela) | a fazer | produção do podcast, posts-sociais | nome, perfis, convidados, quem produz [CONFIRMAR] |
 
+  - **Aprovações:** plano dos 8 canais e plano de mídia aguardam a aprovação do plano da onda 1; WhatsApp e e-mails, o OA9. A versão do plano dos 8 canais aprovada pelo qa tem podcast e YouTube fora; a mudança da decisão 21 (slide 9) depende desta revisão e da aprovação humana.
+  - **Prazos:** posts em 03/11 (OA11); criativos e roteiro em 05/11; post de docente em 29/10.
   - **Pendências abertas no mapa da 68606 (9):** texto oficial de certificação (p01); página com frase de certificação e turma mínima diferente de 15 (p02); valor da inscrição, U11 (p03); política de privacidade do formulário (p04); metas de custo, números agregados e vagas restantes (p05); vagas totais (p06); contagem de autorizações no mapa (p07); fim das inscrições, que com a decisão 18 passa a ser a véspera do 3º módulo [CONFIRMAR OU6] (p08); prazos do kit no mapa (p09).
   - O mínimo do kit nunca diminui: o podcast é acréscimo, não troca de item.
-- **Fonte:** saidas/10-operacoes-de-marketing/cursos/pos-68606.json (kit.entregas, kit.acrescimos, pendencias p01 a p09); cmo-pos-2026-10-26.md, seção 4.3, OA8 e OA10; decisão 21.
+- **Fonte:** saidas/10-operacoes-de-marketing/cursos/pos-68606.json (kit.entregas, kit.acrescimos, pendencias p01 a p09, status "aguardando_aprovacao"); cmo-pos-2026-10-26.md, seções 4.3 e 5, OA8, OA9, OA10 e OA11; decisão 21; qa-de-marketing-pos-2026-10-28-apresentacao.md, F10.
 - **Visual:** tabela com semáforo (verde: escrito e aprovado pelo qa; amarelo: inventário ou aprovação pendente; vermelho: bloqueado por fator externo) e um contador "9 pendências abertas".
 
 ---
@@ -428,7 +433,7 @@
 | 2 | Aprovar OA4 (fase 1 até 06/11 e fase 2 só remarketing e busca até 22/01) | define a mídia das duas fases | 30/10 |
 | 3 | Aprovar os envios da régua (OA9) e as publicações (OA11 e OA12) | nada sai sem aprovação | 28/10 em diante |
 | 4 | Corrigir a página da turma: frase ligada ao MEC, turma mínima de 15, regra do 3º módulo, política de privacidade (OA10) | a página não confirma o que a mensagem diz | o quanto antes |
-| 5 | Valor da inscrição: R$ 260,00 ou R$ 250,00 (U11) | nenhuma peça cita preço até a resposta | 30/10 |
+| 5 | Valor da inscrição: R$ 260,00 ou R$ 250,00 (U11) · uso interno | nenhuma peça cita preço até a resposta | 30/10 |
 | 6 | Reposição dos módulos perdidos (OU3), véspera ou 1º dia do 3º módulo (OU6) e pagamento de quem entra depois do início (OU8) | o time responde "vou confirmar"; nenhuma peça promete reposição | 30/10 |
 | 7 | Vagas totais e restantes, inscrições pagas e 1ª mensalidade paga, só somadas (OU4) | sem elas não há leitura contra a meta de 15 | toda segunda-feira |
 | 8 | O que o CPA do deck mede (cadastro, inscrição ou matrícula) e quantas das 15 matrículas vêm de fora da mídia (Mmid) | decide se a conta fecha com R$ 2.000,00 | 03/11 |
@@ -496,10 +501,10 @@
 | OA1 / PP15 (aberto) | conferir o gasto do ciclo da 68606; se chegou a R$ 2.000,00, pausar já; se não, fixar a diária para durar até 22/01 | a verba é o teto do ciclo inteiro | sem gasto novo; diária = (R$ 2.000,00 menos G) / 80 | nenhuma turma acima da verba nem sem verba antes do 3º módulo | voltar à diária anterior, dentro do teto |
 | OA4 (aberto) | campanha como está até 06/11; de 07/11 a 22/01, 23h59, só remarketing e busca | matrícula aceita até o 3º módulo | até o que sobrar dos R$ 2.000,00 | gasto só em quem já conhece a turma | reativar o conjunto frio exportado |
 | OA9, OA11, OA12 (abertos) | envios da régua; 6 posts; Stories da coordenação | kit mínimo | sem custo de mídia | matrícula de quem já está na base; prova de autoridade | pausar a régua; arquivar o post |
-| AP-1 (novo) | usar a divisão por praça do deck como limite de leitura na 68606, sem abrir cinco campanhas novas, e aplicar a estrutura de cinco campanhas a partir das turmas de março | 9 dias até o início e diária de até R$ 25,00 não sustentam cinco campanhas | sem verba nova | leitura por praça sem reiniciar o aprendizado | abrir os cinco conjuntos por nova decisão |
-| AP-2 (novo) | aprovar o podcast com o nome UFAPE Cast (ou outro), o pacote por episódio e o calendário quinzenal de 24/11 a 19/01 | decisão 21; conteúdo para todos os cursos | custo de produção [CONFIRMAR], fora da verba de mídia | 5 episódios e cerca de 50 peças derivadas até a pausa [SUPOSIÇÃO de contagem: 10 peças por episódio] | parar a série depois de 2 episódios atrasados seguidos |
+| AP-1 (novo) | usar a divisão por praça do deck como limite de leitura na 68606, sem abrir cinco campanhas novas, e aplicar a estrutura de cinco campanhas a partir das turmas de março | 10 dias até o início e diária de até R$ 25,00 não sustentam cinco campanhas | sem verba nova | leitura por praça sem reiniciar o aprendizado | abrir os cinco conjuntos por nova decisão |
+| AP-2 (novo) | aprovar o podcast com o nome UFAPE Cast (ou outro), o pacote por episódio e o calendário quinzenal de 24/11 a 19/01 | decisão 21; conteúdo para todos os cursos | custo de produção [CONFIRMAR], fora da verba de mídia | 5 episódios e cerca de 50 peças derivadas até a pausa. Contagem: 10 peças = pacote da decisão 21 (3 cortes verticais, 3 capas verticais, 1 card 4:5, 2 Stories e 1 card do convidado); episódio, áudio e link na newsletter ficam fora da conta [SUPOSIÇÃO de contagem]. Em 5 episódios, cerca de 50 peças. | parar a série depois de 2 episódios atrasados seguidos |
 | AP-3 (novo) | publicar episódios e cortes no YouTube e no Spotify e os cortes no Instagram, cada um com o ok do convidado | nada é publicado sem aprovação | sem custo de mídia | visitas à página da turma com UTM do podcast | despublicar ou arquivar |
-| AP-4 (novo, condicional) | testar o card 4:5 ou um corte no remarketing da 68606, trocando uma peça, não somando | formato que a página e a base ainda não têm | dentro dos R$ 2.000,00; só se a diária da turma for de pelo menos R$ 3,86 [critério do gestor, 13.4] | remarketing com prova de autoridade | voltar à peça anterior |
+| AP-4 (novo, condicional) | testar o card 4:5 ou um corte no remarketing da 68606, trocando uma peça, não somando | formato que a página e a base ainda não têm | dentro dos R$ 2.000,00; só se a diária da turma for de pelo menos R$ 3,86 (critério do gestor para o vídeo de 68610, 13.4, aplicado à 68606 por analogia [SUPOSIÇÃO do cmo]) | remarketing com prova de autoridade | voltar à peça anterior |
 
 - **Fonte:** cmo-pos-2026-10-26.md, seção 8; gestor-de-midia-pos-2026-10-26.md, seções 12.7, 13.1, 13.4 e 13.7; decisão 21.
 - **Visual:** tabela simples em corpo pequeno, sem cor, para leitura e assinatura.
@@ -517,14 +522,14 @@
 - [ ] Regras de voz com exemplos: pendente na Ufape; não bloqueia.
 - [x] Cabe no tempo e na verba: R$ 2.000,00 de mídia; podcast fora da verba, com custo [CONFIRMAR]; nenhum toque de mensagem novo.
 - [x] Nenhuma promessa de emprego, aprovação ou salário.
-- [x] Preços e condições só do catálogo e da ficha, no slide 5, com a condição completa e marcados como uso interno.
+- [x] Preços e condições só do catálogo e da ficha, nos slides 5 (condição completa), 6 (meta em reais) e 17 (U11), sempre marcados como uso interno.
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, carga horária e turma batem com o catálogo e a ficha.
 - [x] Status "aberto" no catálogo; depois do início, a exceção da linha (até a véspera do 3º módulo, com a regra completa).
 - [x] Pós lato sensu: nenhuma frase de certificação ligada ao MEC; a página que usa a frase não conta como entregue.
 - [x] Sem nota MEC, sem superlativo sem fonte, sem comparação com concorrente.
-- [x] Preço só com parcelas, total, matrícula e condição da 1ª mensalidade, e só no slide interno; nenhum exemplo de peça cita preço.
+- [x] Preço só com parcelas, total, matrícula e condição da 1ª mensalidade, e só nos slides internos marcados como uso interno; nenhum exemplo de peça cita preço.
 - [x] Urgência real: a data do 3º módulo só aparece com a regra completa; sem "últimas vagas".
 - [x] Sem bolsa nem prova de bolsa em peça.
 - [x] Docentes com autorização registrada (decisões 8 e 10); egresso e convidados de fora do corpo docente com autorização [CONFIRMAR] por episódio (decisão 21).
@@ -552,9 +557,10 @@ Depois da aprovação do roteiro: o orquestrador monta os slides a partir deste 
 - Verba de R$ 2.000,00 por turma; meta de 15 matrículas; inscrição de R$ 260,00 informada pelo CEO, com a diferença em [CONFIRMAR U11]; matrícula até o 3º módulo; podcast no plano (decisões 15, 16, 18 e 21).
 - Custo máximo por matrícula de R$ 133,33; meta em reais de R$ 531.000,00 (265,50 vezes); cenários de CPL de R$ 4,00, R$ 10,00 e R$ 18,00; diária máxima de R$ 25,00 com G = 0 e 80 dias equivalentes (gestor-de-midia-pos, seções 12.2, 12.3 e 13.1).
 - Seis mensagens da 68606 com datas e textos; frase da regra (copy-de-mensagens-pos-onda1, seção 6A e 1.4).
-- Teto D16 e limites de alerta com fonte (cmo-geral, seção 13).
+- Teto D16 (número [SUPOSIÇÃO] do cmo) e limites de alerta com fonte (cmo-geral, seção 13).
 - Kit, pendências p01 a p09 e aprovações (pos-68606.json).
 - UFAPE Cast recomendado, nome em aprovação; YouTube e Spotify; quinzenal, 35 a 45 minutos; pacote por episódio; pauta "Como escolher minha pós?" com professor e egresso (proposta do podcast; decisão 21).
+- Card do convidado e corte com o nome do docente da ficha contam juntos como 1 post de docente do kit, com o checklist C1 a C8 (critério do qa, qa-de-marketing-pos-2026-10-28-apresentacao.md, F9).
 
 ## [SUPOSIÇÃO]
 
@@ -563,8 +569,9 @@ Depois da aprovação do roteiro: o orquestrador monta os slides a partir deste 
 - Não abrir cinco campanhas na 68606 e usar a divisão do deck como limite de leitura; remarketing num conjunto só na fase 2.
 - Base, time de vendas e conteúdo carregam parte da meta.
 - Calendário do podcast (aprovação até 06/11, gravação na semana de 16/11, episódios às terças de 24/11 a 19/01, reserva em 02/02) e a sequência de cortes na quinzena.
-- Card do convidado e corte com o docente contando como post de docente do kit.
-- Contagem de cerca de 10 peças por episódio (pacote da decisão 21 mais episódio, áudio e link na newsletter).
+- Contagem de 10 peças por episódio: só o pacote da decisão 21 (3 + 3 + 1 + 2 + 1); episódio, áudio e newsletter fora da conta.
+- Número do teto D16 (2 + 2 por semana, 1 por dia), calibrado pelos limites de alerta com fonte da seção 13.4 do plano geral.
+- Critério de R$ 3,86 por dia do AP-4, do vídeo de 68610, aplicado à 68606 por analogia.
 - Textos de exemplo de anúncio e de cortes.
 - Persona de 24 a 40 anos (contexto da linha) e leitura por faixa de idade.
 
@@ -579,3 +586,24 @@ Depois da aprovação do roteiro: o orquestrador monta os slides a partir deste 
 - Se "Profa. Ísis Carvalho" e "ESP. Isis de Carvalho Rodrigues Santana Lemes" são a mesma pessoa; revisor docente do conteúdo clínico.
 - Ferramentas de CRM e analytics para a leitura semanal; envio do T1 de 28/10.
 - Exceção de UTM pos_conteudo_<AAAAMM> pelo arquiteto-de-fluxos.
+
+---
+
+## Correções do qa de 28/10/2026
+
+Fonte: /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-28-apresentacao.md (veredito CORRIGIR). Aplicadas só neste roteiro; slides, JSON e saídas de outros agentes não foram editados.
+
+- **F5 (teto de mensagens):** slide 10, título trocado para "Seis mensagens até 12/01, dentro do teto D16."; o item do teto passou a "Teto (D16, decisão do cmo; número [SUPOSIÇÃO], calibrado pelos limites de alerta com fonte da seção 13.4)"; no visual, abaixo de "2 + 2 por semana", entrou a linha "Número [SUPOSIÇÃO do cmo, D16], revisto pelos limites de alerta com fonte."; o número do D16 entrou na lista [SUPOSIÇÃO].
+- **F6 (limites de alerta, o qa aponta o roteiro):** slide 10, "Por que esse número", com o texto exato do qa (Gmail 0,10% e corte 0,30%; descadastro acima de 0,17% em 2 envios seguidos e corte acima de 0,34% em 1 envio [SUPOSIÇÃO do fator 2]; WhatsApp amarelo e corte em vermelho).
+- **F7 (10 peças):** slide 13, título trocado para "Um episódio vira 10 peças de divulgação, e as chamadas de turma levam à página da turma."; entrou o item "Contagem" com o texto do qa; o visual não diz mais que todas as saídas convergem para a página; no slide 20, AP-2, a contagem usa o texto do qa; na lista [SUPOSIÇÃO], o item virou "Contagem de 10 peças por episódio: só o pacote da decisão 21 (3 + 3 + 1 + 2 + 1); episódio, áudio e newsletter fora da conta."
+- **F9 (card do convidado, o qa aponta o roteiro):** slide 11, texto trocado pelo do qa (docente da ficha, 1 post de docente do kit, checklist C1 a C8, critério do qa de 28/10/2026); item tirado da lista [SUPOSIÇÃO]; a revisão do qa entrou como fonte do slide 11 e na lista de fatos.
+- **F10 (situação do kit, o qa aponta o roteiro):** slide 16, plano dos 8 canais e plano de mídia passam a aguardar a aprovação do plano da onda 1, com a nota de que a versão aprovada pelo qa tinha podcast e YouTube fora; entraram os rodapés de aprovações e de prazos do qa (posts em 03/11, OA11; criativos e roteiro em 05/11; post de docente em 29/10). O inventário do kit (28/10, OU5) já estava no roteiro.
+- **F12 (preço e "uso interno"):** slide 17, item 5 com "· uso interno"; cabeçalho do roteiro trocado para "preço aparece nos slides 5 (condição completa), 6 (meta em reais) e 17 (U11), sempre com a marca "uso interno""; as duas linhas das auditorias foram ajustadas para dizer o mesmo.
+- **F13 (dias até o início):** slide 7, "a 10 dias do início"; slide 20, AP-1, "10 dias até o início".
+- **F14 (meta, mesma condição no roteiro):** slide 6, entrou a nota do otimista (111,11 leads, 112 na prática, R$ 17,86 com 112 leads) e o risco 2 passou a "em nenhum dos três cenários". A etiqueta [SUPOSIÇÃO ilustrativa] e o [CONFIRMAR com a The Growth Hub] já estavam no roteiro.
+- **F15 (padrão "Pós-graduação em"):** slide 8, A6-02 trocado por "Cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária? Veja o presencial", com aviso de que o arquivo do criador-de-ganchos precisa da mesma troca; slide 14, tabela e fonte, com "Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária (68604)" e "Pós-graduação em Patologia Clínica (68615)".
+- **F18 (fim de ano, mesmo texto no roteiro):** slide 15, a linha de 21/12 a 03/01 passou a "sem mensagem de campanha; mídia só no remarketing, diária pela metade [SUPOSIÇÃO do gestor, 13.1]". A linha do módulo 1 já dizia "online".
+- **F19 (bandeira do 3º módulo, mesmo texto no roteiro):** slide 5, visual, a bandeira passou a "matrícula até o 3º módulo (véspera ou 1º dia: [CONFIRMAR OU6])".
+- **F20 (critério do AP-4):** slide 20, AP-4, coluna Quanto, com "(critério do gestor para o vídeo de 68610, 13.4, aplicado à 68606 por analogia [SUPOSIÇÃO do cmo])"; o critério entrou na lista [SUPOSIÇÃO].
+- **F21 (pilar 3, o qa aponta o roteiro):** slide 8, pilar 3 passou a "parcelas, total e matrícula na página da turma, e a turma pode não ser formada; sem preço no anúncio."
+- **Sem mudança no roteiro:** F1, F2, F3, F4, F8, F11, F16 e F17, porque o qa registra que o roteiro já tem o texto certo; a correção desses itens é só nos slides.
