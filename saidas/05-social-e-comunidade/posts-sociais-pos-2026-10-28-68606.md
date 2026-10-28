@@ -516,7 +516,7 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 
 **Ordem de corte, se a capacidade do perfil ficar abaixo do planejado** (seção 12.3 do plano geral): primeiro P2 e P4 viram Stories, mantendo o conteúdo; nenhum dos 6 sai do kit.
 
-**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de pagamento da 1ª mensalidade, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: responder com a condição completa do P5 (inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual) e levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir antes se o número voltou a funcionar) ou à página da turma.
+**Respostas a comentários e directs destes posts** (roteiro da seção 6.3 do estrategia-social-pos): dúvida de reposição, de gravação, de certificado ou de título vai para o time de vendas ou para a secretaria, sem resposta pública com afirmação. Pergunta que pede preço: responder com a condição completa do P5 (inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual, e a 1ª mensalidade vence após a assinatura do contrato) e levar ao WhatsApp de vendas de São Paulo ((11) 91366-9290, conferir antes se o número voltou a funcionar) ou à página da turma.
 
 ---
 
@@ -588,3 +588,4 @@ criador-de-ganchos, para revisar as primeiras linhas e as alternativas deste kit
 - 28/10/2026: ajustes R4 e R5 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
 - 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: decisão 26 aplicada pelo orquestrador (1ª mensalidade de quem entra depois vence após a assinatura do contrato; decisões 25 e 26 valem para todas as turmas de Pós).

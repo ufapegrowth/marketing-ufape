@@ -28,7 +28,7 @@
 
 1. **Objetivo de cada mensagem.** Antes do início: concluir a matrícula na turma, pela página dela. Depois do início: falar com o time para entender como entrar na turma (a matrícula vale até o 3º módulo). Um objetivo e uma chamada para ação por mensagem.
 2. **Regra da decisão 18.** Depois do início, toda mensagem que fala de entrada diz a regra inteira: "A turma começou em [data]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." A data do 3º módulo nunca aparece sozinha nem com "corra", "só até", "últimas vagas" ou contador. Nenhuma mensagem promete reposição, gravação ou aula extra (OU3 em aberto). Antes do início, a mensagem usa a data de início e não cita o 3º módulo.
-3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e como fica o pagamento de quem entra depois dela está em aberto (OU8). A frase saiu de todas as mensagens. A decisão 25 (28/10/2026) respondeu a OU8 em parte: na 68606, quem entra depois paga os mesmos valores; as mensagens seguem sem preço, que fica só nas respostas R5 e R10.
+3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e o pagamento de quem entra depois dela foi definido pelas decisões 25 e 26 (28/10/2026): em todas as turmas de Pós, quem entra depois paga os mesmos valores (inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade), e a 1ª mensalidade vence após a assinatura do contrato. A frase saiu de todas as mensagens. As mensagens seguem sem preço, que fica só nas respostas R2, R5 e R10.
 4. **698 liberada (decisão 19 do CEO, 27/10/2026).** As mensagens de 698 saem com o início em 28 e 29/11/2026, mesmo com a página ainda mostrando "28 e 29 de Novembro de 2027". A correção da página continua pedida (OA10); o time de vendas usa a nota da seção 7 para quem perguntar.
 5. **Módulo 1 online (C1).** Em todas as turmas o módulo 1 é online. Toda mensagem diz "começa em DD/MM/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo" (ou "começou em", depois do início) e cita o 1º presencial. Nos e-mails depois do início, a mensagem diz quais módulos em curso são online e onde é o primeiro presencial (M2 do qa).
 6. **Sem preço, bolsa, prova, MEC ou certificação, "últimas vagas" ou número de vagas.** Turma mínima sem número. Nenhuma promessa de reposição.
@@ -874,7 +874,7 @@ Uso: conversa 1 a 1 no WhatsApp de vendas (São Paulo, (11) 91366-9290), dentro 
 
 - **Regra (decisão 18):** a Ufape aceita matrícula até o 3º módulo do curso, em todas as turmas de Pós. A data de corte da 1ª mensalidade (30 dias antes do início, texto das fichas) não é mais limite de matrícula.
 - **Frase-base:** "A turma [começa em / começou em] [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo, tabela 7.2]. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
-- **Ainda sem resposta da Ufape (o time diz "vou confirmar" e não promete):** OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU6 (até a véspera ou inclusive o 1º dia do 3º módulo), OU7 (dia do módulo 2 de 68604), OU8, em parte (decisão 25: na 68606, quem entra depois paga os mesmos valores; falta a data da 1ª mensalidade de quem entra depois e se a regra vale para as outras turmas), OU4 (vagas, turma confirmada, nova turma).
+- **Ainda sem resposta da Ufape (o time diz "vou confirmar" e não promete):** OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU6 (até a véspera ou inclusive o 1º dia do 3º módulo), OU7 (dia do módulo 2 de 68604), OU4 (vagas, turma confirmada, nova turma).
 - Nunca "últimas vagas", "só até", "corra", contador, nem a data do 3º módulo sozinha. Preço só em R5 e R10, sempre com inscrição, parcelas e total da tabela 7.2. Sem bolsa. Sem comentar certificação.
 
 ### 7.2 Campos por turma
@@ -901,7 +901,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]
 
 **R2. "A página diz que a 1ª mensalidade é paga 30 dias antes do início. Já passou, ainda consigo entrar?"**
-- "A página traz essa orientação, e a Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo]. Quem entra agora paga os mesmos valores; a data da 1ª mensalidade para quem entra depois do início eu confirmo com o financeiro e te respondo por aqui." (na 68606; nas outras turmas, só depois da confirmação do CEO pedida em R5, e até lá vale o texto anterior: "Como fica o pagamento da 1ª mensalidade para quem entra agora, vou confirmar com o financeiro e te respondo por aqui.")
+- "A página traz essa orientação, e a Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo]. Quem entra agora paga os mesmos valores, e a 1ª mensalidade vence após a assinatura do contrato." (todas as turmas de Pós, decisões 25 e 26)
 - Não dizer a data do corte nem "perdeu o prazo".
 
 **R3. "A turma já começou (ou começa em breve). Posso entrar depois do início?"**
@@ -916,8 +916,8 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - 68604, 68606, 698 e 68608: não dizer que as aulas online ficam gravadas (a ficha não cita).
 
 **R5. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"**
-- "Quem entra depois do início paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. A data da 1ª mensalidade para quem entra agora eu confirmo com o financeiro e te respondo por aqui. Os valores estão na página da turma: [link da turma]."
-- Regra de uso: "Vale para a 68606 (decisão 25). Para 707, 68604, 698, 68610 e 68608, só depois de o CEO confirmar que a decisão 25 vale para todas as turmas de Pós [CONFIRMAR]; até lá: 'Os valores estão na página da turma: [link da turma]. Como fica o pagamento para quem entra depois do início, vou confirmar com o financeiro e te respondo por aqui.'"
+- "Quem entra depois do início paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. A 1ª mensalidade vence após a assinatura do contrato. Os valores estão na página da turma: [link da turma]."
+- Regra de uso: vale para todas as turmas da tabela 7.2 (decisões 25 e 26), com as parcelas e o total de cada turma.
 
 **R6. "Tem vaga? A turma está confirmada?"**
 - "Vou confirmar com a secretaria e te respondo por aqui." Depois da resposta da Ufape: "Segundo a secretaria em [data], a turma [nº] [está confirmada / ainda não foi confirmada]." [OU4]
@@ -1003,7 +1003,7 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 - [x] Nenhuma bolsa, prova, frase de certificação ou referência ao MEC.
 - [x] Nenhum "últimas vagas", contador ou número de vagas; turma mínima sem número.
 - [x] A data do 3º módulo só aparece dentro da frase da regra completa; sem "corra" ou "só até".
-- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 em aberto; OU8 respondida em parte pela decisão 25, usada só em R5 e R10); o e-mail de 707 de 24/11 não cita aulas gravadas.
+- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 em aberto; OU8 respondida pelas decisões 25 e 26, usada só em R2, R5 e R10); o e-mail de 707 de 24/11 não cita aulas gravadas.
 - [x] Campus dito em todas as mensagens.
 - [x] Nenhum dado pessoal, depoimento ou resultado inventado.
 - [x] 68606: sem os superlativos da página ("referências nacionais", "emergente e carente de profissionais") e sem estágio (regras não confirmadas).
@@ -1035,9 +1035,9 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 **Versão 3 (27/10/2026), pela decisão 18 e pela versão 3 do plano do cmo**
 - O cenário A e o cenário B saíram: vale o antigo B. 707 e 68604 deixaram de ser "só cenário B" e passam a ter os toques e as datas da tabela do OA9: T1 (28/10) e T2 (29/10), antes do início, e os toques posteriores (707: W2 10/11, E2 24/11, W3 01/12, W4 15/12; 68604: W2 11/11, E2 01/12, W3 15/12, W4 12/01), depois do início, com a frase da regra inteira.
-- A frase da 1ª mensalidade ("30 dias de antecedência") saiu de todas as mensagens e o assunto B das três turmas de 28/11 mudou para data de início e campus: a data de corte deixou de ser limite e o pagamento de quem entra depois dela está em aberto (OU8).
+- A frase da 1ª mensalidade ("30 dias de antecedência") saiu de todas as mensagens e o assunto B das três turmas de 28/11 mudou para data de início e campus: a data de corte deixou de ser limite; o pagamento de quem entra depois dela foi definido pelas decisões 25 e 26.
 - Frase da regra depois do início (707 e 68604) e data do 3º módulo só dentro dela, sem pressa; nenhuma promessa de reposição (OU3).
-- Respostas do time de vendas (seção 7) refeitas com a regra: R2 trata a frase da página sobre a 1ª mensalidade sem citar data de corte; R3 e R4 não prometem reposição; R5 e R8 remetem à OU8; tabela 7.2 ganhou o 3º módulo de cada turma; os três cenários por pergunta saíram.
+- Respostas do time de vendas (seção 7) refeitas com a regra: R2 trata a frase da página sobre a 1ª mensalidade sem citar data de corte; R3 e R4 não prometem reposição; R2 e R5 seguem as decisões 25 e 26; tabela 7.2 ganhou o 3º módulo de cada turma; os três cenários por pergunta saíram.
 - Seção 8: tabela de 28 a 30/10 refeita sem follow-ups; nova tabela dos toques posteriores contra a régua das provas, o Workshop e Livres, com a pergunta ao cmo sobre mudar de data em vez de suprimir. Teto D16 e fila D2 mantidos.
 - Dados novos: 3º módulo de cada turma e primeiro módulo presencial nas frases.
 
@@ -1073,7 +1073,7 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 ## [CONFIRMAR]
 
-- OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU4 (vagas, turma confirmada, nova turma, registro de interesse), OU6 (3º módulo: até a véspera ou inclusive o 1º dia), OU7 (dia do módulo 2 de 68604), OU8 em parte (data da 1ª mensalidade de quem entra depois e alcance da decisão 25 nas outras turmas) e OU9 (status "aberto" no catálogo depois do início).
+- OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU4 (vagas, turma confirmada, nova turma, registro de interesse), OU6 (3º módulo: até a véspera ou inclusive o 1º dia), OU7 (dia do módulo 2 de 68604) e OU9 (status "aberto" no catálogo depois do início).
 - Titulação de Juliana Jorge (coordenação de 707) pela Ufape.
 - Regras do estágio de 68606 (a ficha cita "Estágios com a cooperação em suas clínicas/hospitais"); as mensagens não citam.
 - Correção da data de 698 no site, sem bloquear o envio (A6, decisão 19); frase do MEC e "CERTIFICAÇÃO DO MEC" (A7); turma mínima 15 nas páginas (A12); regra do 3º módulo nas páginas (A13); se as mensagens podem sair antes da troca da frase do MEC (regulação).
@@ -1090,3 +1090,4 @@ Próximo agente sugerido: otimizacao-de-mensagens (depois do qa-de-marketing e c
 - 28/10/2026: 6A.2 (68606), primeira linha A e reserva com o nome padrão "Pós-graduação em Gastroenterologia Veterinária". Correção G11 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-apresentacao-modelo.md). Nada mais foi alterado.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador: "Parcelas, total e matrícula" virou "Inscrição, parcelas e total" em todas as mensagens (a matrícula passa a ser a 1ª mensalidade); respostas sobre quem entra depois do início e sobre o valor atualizadas.
 - 28/10/2026: correções U2 a U5 da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: decisão 26 aplicada pelo orquestrador: a 1ª mensalidade de quem entra depois do início vence após a assinatura do contrato, e as decisões 25 e 26 valem para todas as turmas de Pós (R2, R5, regra de uso, listas de pendências). OU8 respondida.

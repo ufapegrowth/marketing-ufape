@@ -637,7 +637,7 @@ Parágrafo a acrescentar, depois da frase da regra e antes da linha final do tex
 Nomes: 68606-r1-calendario_e45_presenciais-vp_v1 e 68606-r2-pratica_v916_entrada-vp_v1. Combinação: T1 de cada anúncio com o parágrafo acrescentado, título 1, descrição 1.
 
 **Por que está bloqueada:**
-- A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso contradiz a decisão 25 (quem entra depois paga igual), que já está no parágrafo de condições; o ajuste da página está combinado para depois. Condição incompleta em anúncio com preço é item de conformidade.
+- A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso contradiz as decisões 25 e 26 (quem entra depois paga igual, com a 1ª mensalidade após a assinatura do contrato), que já estão no parágrafo de condições; o ajuste da página está combinado para depois. Condição incompleta em anúncio com preço é item de conformidade.
 - O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" nas decisões 23 e 25. Nesta estrutura vale "inscrição de R$ 250,00", e "matrícula" é a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). A V-P depende do AM8 e da página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade ajustada para quem entra depois (decisão 25).
 - Precisa de aprovação humana (AM8) e do ok do qa-de-marketing.
 
@@ -969,3 +969,4 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - 28/10/2026: ajustes R10 e R11 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
 - 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: decisão 26 aplicada pelo orquestrador (1ª mensalidade de quem entra depois vence após a assinatura do contrato; decisões 25 e 26 valem para todas as turmas de Pós).

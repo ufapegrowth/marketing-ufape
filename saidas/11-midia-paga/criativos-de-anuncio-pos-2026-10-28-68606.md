@@ -459,7 +459,7 @@ Quem aprova: a pessoa do marketing que aprovou o plano geral, até a tabela de u
 |---|---|---|---|---|
 | 1 | Subir com a página de destino pendente | todas as peças | A página ainda traz "CERTIFICADO PELO MEC" (A7), turma mínima de 20 (A12) e não escreve a regra do 3º módulo (A13). Decidir se as peças sobem assim ou depois de OA10 [CONFIRMAR com a regulação]. F2-A, F2-B e V-P (depois de 07/11, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); F1-E, F1-C e F1-V dependem só da decisão sobre A7 e A12 | pendente |
 | 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão) e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual (decisão 25) | só com a página ajustada (regra do 3º módulo, inscrição e 1ª mensalidade) e aprovação de preço; padrão é sem preço |
-| 3 | Pagamento de quem entra depois do início | V-P | Paga igual (decisão 25, 28/10/2026) | respondida |
+| 3 | Pagamento de quem entra depois do início | V-P | Paga igual, com a 1ª mensalidade após a assinatura do contrato (decisões 25 e 26, 28/10/2026) | respondida |
 | 4 | Frase da regra do 3º módulo | F2-A, F2-B | Texto exato da seção 4.1, que vem da decisão 18 e do plano do cmo; OU6 (véspera ou 1º dia do 3º módulo) e OU3 (reposição) seguem abertas, e a frase não promete nada sobre elas | texto pronto, aprovação humana pendente |
 | 5 | Depoimento | nenhuma peça | Nenhum depoimento é usado. Se algum entrar depois: só real, com autorização de uso de imagem e voz registrada | não se aplica |
 | 6 | Imagem de aluno | nenhuma peça | Vedada neste pacote. Opção B do vídeo (acervo real) exige autorização de imagem de toda pessoa que aparecer | não se aplica |
@@ -590,3 +590,4 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 - 28/10/2026: ajustes R1 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
 - 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: decisão 26 aplicada pelo orquestrador (1ª mensalidade de quem entra depois vence após a assinatura do contrato; decisões 25 e 26 valem para todas as turmas de Pós).

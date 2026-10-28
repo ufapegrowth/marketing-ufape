@@ -74,7 +74,7 @@
 |---|---|---|---|---|---|---|---|
 | 28/10 | qua | 9h | E-mail | T1: reta final antes do início (assunto A "Prática de cirurgia esofágica, gástrica e intestinal, em São Paulo"; assunto B em teste). Objetivo: concluir a matrícula pela página. Ver C1 e C14 | F1 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 [CONFIRMAR se saiu hoje] |
 | 28/10 | qua | dia | Meta e Google Ads | PP15 e PP17 (OA1): conferir o gasto do ciclo, aplicar a diária até 22/01 (a menor entre a atual e a máxima) e pausar já se o gasto chegou a R$ 2.000,00 | F1 | gestor-de-midia; humano no gerenciador | rascunho (pedido de aprovação) |
-| 28/10 | qua | dia | WhatsApp e e-mail do time de vendas | R1 a R10: respostas prontas (como entrar depois do início, 3º módulo, "vou confirmar" para reposição e para a data da 1ª mensalidade de quem entra depois) | F1 | copy-de-mensagens; time de vendas | rascunho [CONFIRMAR revisão do qa] |
+| 28/10 | qua | dia | WhatsApp e e-mail do time de vendas | R1 a R10: respostas prontas (como entrar depois do início, 3º módulo, "vou confirmar" para reposição; quem entra depois paga igual e a 1ª mensalidade vence após a assinatura do contrato) | F1 | copy-de-mensagens; time de vendas | rascunho [CONFIRMAR revisão do qa] |
 | 29/10 | qui | 10h | WhatsApp | T2: início em 07/11, módulo 1 online, 1º presencial em 17 e 18/04/2027. Ver C1 e C14 | F1 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
 | 29/10 | qui | dia | Google Ads | P2: lista de negativas da campanha de Busca (opcional, a partir desta data) | F1 | anuncios-google; humano no Google Ads | rascunho |
 | 29/10 | qui | dia | qa e aprovação | qa-de-marketing dos 5 criativos (F1-E, F1-C, F1-V, F2-A, F2-B) e decisões da seção 7 do pacote; segue até 30/10 | F1 | qa-de-marketing; pessoa do marketing | a produzir |
@@ -551,3 +551,4 @@ briefing-de-conteudo, para os guias da linha que sustentam a decisão (C03, C08,
 - 28/10/2026: ajustes R12, R13 e R14 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
 - 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
+- 28/10/2026: decisão 26 aplicada pelo orquestrador (1ª mensalidade de quem entra depois vence após a assinatura do contrato; decisões 25 e 26 valem para todas as turmas de Pós).
