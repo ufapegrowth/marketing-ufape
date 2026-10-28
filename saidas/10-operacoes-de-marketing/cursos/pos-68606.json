@@ -1,12 +1,12 @@
 {
   "versao_schema": 1,
   "id": "pos-68606",
-  "revisao": 1,
+  "revisao": 2,
   "revisao_aprovada": 0,
   "estado_do_arquivo": "ativo",
   "substituido_por": null,
   "gerado_em": "2026-10-27",
-  "atualizado_em": "2026-10-27",
+  "atualizado_em": "2026-10-28",
   "fontes": {
     "catalogo": "contexto/catalogo-de-cursos.md",
     "data_catalogo": "2026-10-26",
@@ -302,50 +302,58 @@
     {
       "canal": "instagram",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "canal em uso; 6 posts do kit, Stories de docente, anúncios Meta e cortes do podcast nos slots que a grade da Pós já tem",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9; docs/execucao-2026-10-26.md, decisão 21"
     },
     {
       "canal": "facebook",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "ativo como inventário da mídia Meta e reaproveitamento do Instagram; mesma produção, sem peça própria",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     },
     {
       "canal": "tiktok",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "sem perfil nem produção comprovados; o roteiro de vídeo curto do kit serve a Reels e Shorts",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     },
     {
       "canal": "x",
       "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "sem perfil e sem público veterinário ativo [SUPOSIÇÃO]",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     },
     {
       "canal": "linkedin",
-      "estado": "teste",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "estado": "fora",
+      "motivo": "fora para a Ufape: a verba não cabe e o teste da Pós é só para a 657; o docente pode publicar o card do episódio no perfil pessoal, se quiser",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     },
     {
       "canal": "youtube",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "ativo só no orgânico, como casa do podcast (episódio inteiro e Shorts); o pago segue fora, sem verba dentro dos R$ 2.000,00 (PP13); canal da Ufape no YouTube [CONFIRMAR]",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9; docs/execucao-2026-10-26.md, decisão 21"
     },
     {
       "canal": "podcast",
-      "estado": "fora",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "estado": "ativo",
+      "motivo": "UFAPE Cast (nome em aprovação), ativo como motor de conteúdo: um episódio quinzenal vira cortes, cards, Stories e newsletter para os cursos; substitui a avaliação fora até 24/01/2027",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "docs/execucao-2026-10-26.md, decisão 21; saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     },
     {
       "canal": "whatsapp",
       "estado": "ativo",
-      "motivo": "ver saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md, seção 5",
-      "natureza": "proposta_do_cmo"
+      "motivo": "canal principal de venda da Pós; 4 toques da régua e respostas prontas do time de vendas",
+      "natureza": "plano_onda1_e_decisao_21",
+      "fonte": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9"
     }
   ],
   "arquivos_por_camada": {
@@ -668,6 +676,16 @@
       "motivo": "versão 1 do mapa, gerada do catálogo e das saídas aprovadas",
       "origem": "gerador do orquestrador sobre o plano do cmo",
       "aplicado_por": "orquestrador"
+    },
+    {
+      "revisao": 2,
+      "em": "2026-10-28",
+      "campo": "canais",
+      "de": "instagram ativo; facebook ativo; tiktok fora; x fora; linkedin teste; youtube ativo; podcast fora; whatsapp ativo (motivos apontando para cmo-geral, seção 5)",
+      "para": "instagram ativo; facebook ativo; whatsapp ativo; podcast ativo (UFAPE Cast, nome em aprovação, motor de conteúdo); youtube ativo só no orgânico (pago fora); linkedin fora; tiktok fora; x fora; motivo próprio e fonte em cada canal",
+      "motivo": "decisão 21 do CEO (podcast no plano) e slide 9 do roteiro da apresentação aprovado pelo qa (reconferência de 28/10/2026); pendência deixada pelo qa no andamento",
+      "origem": "saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md, slide 9; docs/execucao-2026-10-26.md, decisão 21",
+      "aplicado_por": "cmo"
     }
   ],
   "resumo": {
