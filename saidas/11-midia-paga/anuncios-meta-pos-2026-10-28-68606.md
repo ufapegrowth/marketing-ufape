@@ -6,7 +6,7 @@
 - **Versão:** 1
 - **Curso e turma:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, semipresencial, 500 h, 24 módulos, início em 07/11/2026, status "aberto" no catálogo (código 68606)
 - **Canais:** Instagram e Facebook (Meta). Google Busca é do anuncios-google, que vem a seguir.
-- **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda montagem, troca, diária e pausa é pedido para um humano executar no Gerenciador de Anúncios (seção 10).
+- **Status:** rascunho para o qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada sobe, muda, pausa ou gasta a partir deste arquivo. Toda montagem, troca, diária e pausa é pedido para um humano executar no Gerenciador de Anúncios (seção 11).
 - **Entradas lidas:**
   - /home/user/marketing-ufape/CLAUDE.md
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
@@ -26,20 +26,20 @@
 - **Não lido:** o memorando do gestor da onda 3 (execução em fim de semana e feriado), o texto da D20 (troca por fadiga), a exportação D6 do gerenciador e o criativos-de-anuncio-pos-turmas v3 (dicionário de códigos de formato). Onde isso pesa, está marcado.
 - **Não aberto:** faculdade.ufape.com.br (o texto da página está na ficha). Nenhuma busca na web.
 - **Dados pessoais:** nenhum. Nenhum aluno, candidato ou lead. Nenhum docente é citado nos anúncios.
-- **Marcadores:** [CONFIRMAR] é fato ou configuração que a Ufape ou quem executa precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso fora do catálogo. [DADO NÃO FORNECIDO] é número de mídia que não existe nos arquivos (nome da campanha atual, gasto, diária, criativos no ar, tamanho de público). [SUPOSIÇÃO] é escolha de desenho ou regra de plataforma sem fonte nos arquivos. Contagens de caracteres foram feitas à mão, caractere a caractere, e devem ser conferidas no contador do gerenciador.
+- **Marcadores:** [CONFIRMAR] é fato ou configuração que a Ufape ou quem executa precisa informar. [CONFIRMAR NO CATÁLOGO] é dado de curso fora do catálogo. [DADO NÃO FORNECIDO] é número ou nome de mídia que não existe nos arquivos (nome da campanha atual, gasto, diária, criativos no ar, tamanho de público). [SUPOSIÇÃO] é escolha de desenho ou regra de plataforma sem fonte nos arquivos. Contagens de caracteres foram feitas à mão, caractere a caractere, e devem ser conferidas no contador do gerenciador.
 
 ---
 
 ## 0. Resumo
 
 1. **Modelo:** lançamento por fases, sem campanha nova de público frio. Fase 1 (28/10 a 06/11, 23h59): a campanha atual segue como está, com uma única troca de criativo por fadiga em 03/11 (D20). Fase 2 (07/11 00:00 a 22/01/2027, 23h59): um único conjunto de remarketing, com F2-A e F2-B, e o frio sai de veiculação.
-2. **Criativos:** os 5 do pacote aprovado para produção: F1-E, F1-C e F1-V na fase 1; F2-A e F2-B na fase 2. Cada um traz 5 textos principais de ângulos diferentes (pelo menos 2 curtos e 1 longo), 5 títulos, 3 descrições, CTA com motivo e URL com UTM (seção 7).
+2. **Criativos:** os 5 do pacote aprovado para produção: F1-E, F1-C e F1-V na fase 1; F2-A e F2-B na fase 2. Cada um traz 5 textos principais de ângulos diferentes (pelo menos 2 curtos e 1 longo), 5 títulos, 3 descrições, CTA com motivo e URL com UTM (seções 7 e 8).
 3. **Fase 2:** todo texto principal leva a frase completa da regra do 3º módulo (201 caracteres, sem cortar nem trocar palavra). Título, descrição e botão não falam de entrada.
 4. **Preço:** nenhum anúncio da fase 1 e nenhum texto base da fase 2 mostra preço. A variante com preço (V-P) existe só na fase 2, só com a condição completa, e fica bloqueada até a aprovação humana e a resposta de OU8. Não se usa preço em público frio.
-5. **Diária:** diária máxima da turma = (R$ 2.000,00 menos o gasto acumulado G [CONFIRMAR]) dividido pelos dias equivalentes restantes. Com G = 0, o teto é de R$ 25,00 por dia (Meta e Google somados) e R$ 12,50 de 21/12 a 03/01. Nunca aumenta (seção 8).
+5. **Diária:** diária máxima da turma = (R$ 2.000,00 menos o gasto acumulado G [CONFIRMAR]) dividido pelos dias equivalentes restantes. Com G = 0, o teto é de R$ 25,00 por dia (Meta e Google somados) e R$ 12,50 de 21/12 a 03/01. Nunca aumenta (seção 9).
 6. **Pausa:** às 23h59 de 22/01/2027, véspera do 3º módulo, ou antes, se o gasto do ciclo chegar a R$ 2.000,00.
 7. **Leitura:** a fase 1 só tem até 4 dias de dados com os criativos novos (03/11 a 06/11). A leitura dela é direcional e serve de modelo para as outras turmas (decisão 22), não de veredito.
-8. **Quatro decisões humanas pedem atenção antes de subir:** faixa de idade (18+ contra a sugestão de 22 a 35, seção 4.4), exclusão de quem pagou e de alunos por lista (base legal, seção 4.3), subida com a página de destino ainda pendente (seção 10, AM9) e a variante com preço (AM8).
+8. **Quatro decisões humanas pedem atenção antes de subir:** faixa de idade (18+ contra a sugestão de 22 a 35, seção 4.4), exclusão de quem pagou e de alunos por lista (base legal, seção 4.3), subida com a página de destino ainda pendente (seção 11, AM9) e a variante com preço (AM8).
 
 ---
 
@@ -78,7 +78,7 @@ Metas e taxas vêm do gestor-de-midia (12.2 e 12.3). As taxas de lead para inscr
 | Leads necessários para 15 matrículas (turma inteira) | 500 | 200 | 112 |
 | Custo máximo por matrícula | R$ 133,33 | R$ 133,33 | R$ 133,33 |
 
-**Leads por semana na Meta da fase 2 (aritmética, não previsão).** Com G = 0 e a Meta com a metade da diária da turma [SUPOSIÇÃO de divisão 50 e 50, seção 8.2]: R$ 12,50 por dia, R$ 87,50 por semana (R$ 43,75 na manutenção de fim de ano). Dividido pelo CPL máximo de cada cenário:
+**Leads por semana na Meta da fase 2 (aritmética, não previsão).** Com G = 0 e a Meta com a metade da diária da turma [SUPOSIÇÃO de divisão 50 e 50, seção 9.2]: R$ 12,50 por dia, R$ 87,50 por semana (R$ 43,75 na manutenção de fim de ano). Dividido pelo CPL máximo de cada cenário:
 
 | Semana | Verba da Meta | A R$ 4,00 | A R$ 10,00 | A R$ 18,00 |
 |---|---|---|---|---|
@@ -88,7 +88,7 @@ Metas e taxas vêm do gestor-de-midia (12.2 e 12.3). As taxas de lead para inscr
 
 **Leitura honesta.** O ciclo precisa de 500, 200 ou 112 leads para 15 matrículas, e a Meta da fase 2 sozinha, mesmo com G = 0, compra 218,8, 87,5 ou 48,6 no CPL máximo de cada cenário. O resto vem da fase 1, do Google, da base (WhatsApp e e-mail) e do time de vendas. Com G maior que zero, tudo cai. A estrutura é a menor possível por isso (skill, passo 4). Sem número de CPL real, nada aqui promete resultado, prazo de aprendizado ou saída do aprendizado: a campanha deve ficar em "aprendizado limitado" [SUPOSIÇÃO de plataforma].
 
-**Condição de volume do remarketing (tabela 3.6 do gestor, regra: maior CPL aguentado = 2 x verba semanal / peças).** Com 2 peças e R$ 87,50 por semana, o limite é R$ 87,50. Na manutenção, R$ 43,75. Os dois ficam acima de R$ 18,00. Passa.
+**Condição de volume do remarketing (tabela 3.6 do gestor; regra: maior CPL aguentado = 2 x verba semanal / peças).** Com 2 peças e R$ 87,50 por semana, o limite é R$ 87,50. Na manutenção, R$ 43,75. Os dois ficam acima de R$ 18,00. Passa.
 
 **Condição de volume da troca da fase 1 (R3 do gestor).** Cada anúncio novo só é julgado depois de 3 dias de dados e R$ 27,00 gastos (1,5 x R$ 18,00). Com a troca em 03/11, restam 4 dias (03, 04, 05 e 06/11). Com 2 anúncios novos, são R$ 54,00 em 3 dias, ou R$ 18,00 por dia só para eles. Se a diária do frio atual [DADO NÃO FORNECIDO] for menor que isso, a fase 1 não fecha leitura e entra no relatório como "não lida", sem veredito.
 
@@ -101,20 +101,22 @@ Metas e taxas vêm do gestor-de-midia (12.2 e 12.3). As taxas de lead para inscr
 ```
 CAMPANHA ATUAL (não renomear, D12)
   nome: NOME_DA_CAMPANHA_ATUAL [DADO NÃO FORNECIDO, exportação D6]
-  objetivo e evento: conferir que é Leads e que otimiza para lead ou início de checkout (EM11); se for outro, parar e pedir decisão
-  limite de gasto da campanha: R$ 2.000,00 (trava, gestor 12.8) [CONFIRMAR se a plataforma conta o gasto desde a criação da campanha]
+  objetivo e evento: conferir que é Leads e que otimiza para lead ou início de checkout (EM11);
+                     se for outro, parar e pedir decisão
+  limite de gasto da campanha: R$ 2.000,00 (trava, gestor 12.8)
+                     [CONFIRMAR se a plataforma conta o gasto desde a criação da campanha]
 
   FASE 1 (28/10 a 06/11, 23h59)
   CONJUNTOS DE FRIO ATUAIS (não alterar público, localização nem posicionamento)
     anúncios atuais: estático e vídeo, 5 ângulos [DADO NÃO FORNECIDO]
     TROCA ÚNICA EM 03/11 (D20): pausar n anúncios com fadiga e subir n anúncios novos
       68606-c1-calendario_e45_numero_v1        (F1-E, entra primeiro)
-      68606-c3-pratica_v916_objecao_v1         (F1-V, entra se estiver pronto com locução e trilha aprovadas)
+      68606-c3-pratica_v916_objecao_v1         (F1-V, entra se estiver pronto, com locução e trilha aprovadas)
       68606-c2-mapa_car45_pergunta_v1          (F1-C, reserva; entra só se n = 3 ou como reposição no rodízio)
     fim da fase 1: data de término dos conjuntos de frio em 06/11, 23h59
 
   FASE 2 (07/11 00:00 a 22/01/2027, 23h59)
-  CONJUNTO DE REMARKETING (novo, ou o já existente, se houver conjunto de visitantes ativo)
+  CONJUNTO DE REMARKETING (novo; ou o já existente, se houver conjunto de visitantes ativo)
     nome: NOME_DA_CAMPANHA_ATUAL__rmk30d
     início agendado: 07/11/2026, 00:00
     anúncios (um conjunto, dois anúncios):
@@ -154,7 +156,7 @@ Pausar nunca é apagar. Exportar campanha, conjuntos e anúncios antes de mexer 
 
 ### 3.4 Tabela de correspondência (pacote de criativos para este arquivo)
 
-O pacote de criativos usa nomes `pos68606_...` e pede `utm_content` igual a eles. O padrão D12 do cmo manda e o próprio pacote diz que o anuncios-meta ajusta ao padrão. Esta estrutura usa os nomes D12 como nome do anúncio e como `utm_content`. A analise-de-midia lê pela correspondência:
+O pacote de criativos usa nomes `pos68606_...` e pede `utm_content` igual a eles. O padrão D12 do cmo manda, e o próprio pacote diz que o anuncios-meta ajusta ao padrão. Esta estrutura usa os nomes D12 como nome do anúncio e como `utm_content`. A analise-de-midia lê pela correspondência:
 
 | ID | Nome no pacote de criativos | Nome do anúncio e utm_content (D12) |
 |---|---|---|
@@ -172,7 +174,7 @@ O pacote de criativos usa nomes `pos68606_...` e pede `utm_content` igual a eles
 
 ### 4.1 Fase 1: público de frio (conjuntos atuais, sem alterar)
 
-A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por vez, no máximo uma por semana). Público, localização e posicionamento dos conjuntos de frio ficam como estão [DADO NÃO FORNECIDO]. O que o cmo definiu como público base para todos os cursos (slide 4, deck da The Growth Hub, slides 8 e 9):
+A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por vez, no máximo uma por semana). Público, localização e posicionamento dos conjuntos de frio ficam como estão [DADO NÃO FORNECIDO]. O que o cmo definiu como público base para todos os cursos (slide 4; deck da The Growth Hub, slides 8 e 9):
 
 | Item | Regra |
 |---|---|
@@ -193,7 +195,7 @@ A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por v
 | Idade e gênero | 18 anos ou mais, todos os gêneros, sem exclusão |
 | Expansão de público | Desligada, para o conjunto não sair das listas de origem [CONFIRMAR o nome da opção no gerenciador, "público original" ou equivalente] |
 | Tamanho do público | [DADO NÃO FORNECIDO]. Se for pequeno demais para gastar a diária, não compensar com aumento. Ampliar a janela de 30 para 60 ou 90 dias é uma mudança separada, com pedido ao gestor |
-| Frequência | Ler a frequência a cada segunda-feira. Com 2 anúncios por até 77 dias, o risco é fadiga: a troca de texto das seções 7 e 9 é a ferramenta, com uma mudança por semana |
+| Frequência | Ler a frequência a cada segunda-feira. Com 2 anúncios por até 77 dias, o risco é fadiga: a troca de texto das seções 7 e 10 é a ferramenta, com uma mudança por semana |
 
 ### 4.3 Exclusões (fases 1 e 2)
 
@@ -203,10 +205,10 @@ O pedido é excluir quem pagou a 1ª mensalidade e os alunos. Duas vias, na orde
 |---|---|---|---|
 | 1. Pixel e API de Conversões (sem lista de contatos) | Quem registrou o evento de **1ª mensalidade paga** da turma 68606 | Público personalizado por evento, 180 dias. Só funciona se o CRM enviar esse evento pela API de Conversões, o que usa e-mail ou telefone com hash e precisa de base legal | [CONFIRMAR] se o evento existe e se há base legal. Sem isso, não há como excluir por pixel quem pagou boleto ou Pix fora do site |
 | 1. Pixel | **Alunos:** visitantes da Área do Aluno nos últimos 180 dias | Regra de URL da Área do Aluno, se o pixel estiver instalado lá | [CONFIRMAR] se o pixel está na Área do Aluno |
-| 1. Pixel | Quem registrou **compra** da turma no site (inscrição paga, matrícula de R$ 250,00) | Evento Purchase da 68606. **Não excluir por padrão:** quem pagou só a matrícula ainda precisa pagar a 1ª mensalidade, e é esse o público do remarketing. Decisão do gestor | [CONFIRMAR] qual evento a compra dispara |
+| 1. Pixel | Quem registrou **compra** da turma no site (matrícula de R$ 250,00) | Evento Purchase da 68606. **Não excluir por padrão:** quem pagou só a matrícula ainda precisa pagar a 1ª mensalidade, e é esse o público do remarketing. Decisão do gestor | [CONFIRMAR] qual evento a compra dispara |
 | 2. Lista de contatos | Alunos e quem pagou a 1ª mensalidade, por lista enviada à Meta (e-mail ou telefone com hash) | Público personalizado de lista, usado só como exclusão | **Bloqueada até a Ufape confirmar a base legal e a política de privacidade** (estrategia 4.1; regra do projeto). Pedido AM6 |
 
-Enquanto a via 1 e a via 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e está registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por idade, gênero, renda, saúde, religião ou origem.
+Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e fica registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por idade, gênero, renda, saúde, religião ou origem.
 
 ### 4.4 Idade: divergência entre o roteiro do cmo e a regra de segmentação
 
@@ -284,7 +286,7 @@ Regras de escrita aplicadas em todos os textos: segunda pessoa só em imperativo
 
 Estruturas usadas: curto direto; pergunta de curiosidade; objeção primeiro; lista de fatos; texto completo do pacote (base). "Problema, agitação e solução" e "antes, depois e ponte" ficaram fora: pediriam descrever a situação de quem vê, e "antes e depois" é expressão restrita pelas plataformas. "História de aluno" fora: não há depoimento autorizado (nenhum é usado neste pacote).
 
-CTA de todos os anúncios: **Saiba mais.** Motivo: o destino é a página do curso, que tem preço, cronograma e botão de compra. "Cadastre-se" sugeriria um formulário que não existe. "Enviar mensagem" sugeriria WhatsApp, que está fora (gestor 3). "Comprar" ou "Inscreva-se" pressiona decisão no público frio e na fase 2 poderia contradizer a frase que manda falar com o time antes de pagar.
+CTA de todos os anúncios: **Saiba mais.** Motivo: o destino é a página do curso, que tem preço, cronograma e botão de compra. "Cadastre-se" sugeriria um formulário que não existe. "Enviar mensagem" sugeriria WhatsApp, que está fora (gestor 3). "Comprar" ou "Inscreva-se" pressiona decisão no público frio e, na fase 2, poderia contradizer a frase que manda falar com o time antes de pagar.
 
 Nas peças da fase 1, a chamada padrão é "Fale com o time para saber como entrar na turma" (regra G2 da linha). Que caminho de contato a página oferece (WhatsApp, chat, telefone) é [CONFIRMAR]: se a página não deixar claro como falar com o time, a chamada fica sem destino.
 
@@ -324,7 +326,7 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 > Pós-graduação em Gastroenterologia Veterinária, semipresencial, turma IX, com início em 07/11/2026.
 
 **T4. Longo, lista de fatos. Primeira frase: 63 caracteres.**
-> O cronograma em números: 21 online e 3 presenciais.
+> O cronograma em números: 24 módulos, 21 online e 3 presenciais.
 >
 > Pós-graduação em Gastroenterologia Veterinária, turma IX, em São Paulo.
 > Módulos 1 a 5: online, de 07/11/2026 a 21/03/2027.
@@ -334,9 +336,6 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 > Módulos 22 a 24: online.
 >
 > Cronograma completo na página da turma. Fale com o time para saber como entrar na turma. A turma pode não ser formada se não atingir o número mínimo de alunos.
-
-Nota: no T4 a primeira frase correta é "O cronograma em números: 24 módulos, 21 online e 3 presenciais." (63 caracteres). Usar esta, não a linha acima:
-> O cronograma em números: 24 módulos, 21 online e 3 presenciais.
 
 **T5. Curto, curiosidade. Primeira frase: 29 caracteres. Total: 153.**
 > 21 dos 24 módulos são online. Os 3 presenciais já estão marcados no cronograma da Pós-graduação em Gastroenterologia Veterinária, turma IX, em São Paulo.
@@ -361,7 +360,7 @@ Nota: no T4 a primeira frase correta é "O cronograma em números: 24 módulos, 
 
 **Combinações sugeridas para o primeiro teste:**
 1. **Sobe em 03/11:** T1 + título 1 + descrição 1 (a versão aprovada, sem mudança de texto). Com 4 dias de dados e a regra R3, um teste de texto no mesmo conjunto não leria nada: não sobe A/B de texto na fase 1.
-2. **Pronta, em espera:** T2 + título 2 + descrição 1, para a iteração de "texto curto contra longo" quando houver vencedor (matriz de criativos, seção 5.3), em turma da mesma linha.
+2. **Pronta, em espera:** T2 + título 2 + descrição 1, para a iteração "texto curto contra longo" quando houver vencedor (matriz de criativos, seção 5.3), em turma da mesma linha.
 
 ---
 
@@ -671,8 +670,8 @@ Nenhum dado pessoal em UTM. Variante só de texto: mesmo `utm_content` com o suf
 | F1-V | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c3-pratica_v916_objecao_v1&utm_term=vetform18 |
 | F2-A | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-r1-calendario_e45_presenciais_v1&utm_term=rmk30d |
 | F2-B | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-r2-pratica_v916_entrada_v1&utm_term=rmk30d |
-| F2-A-vp (bloqueada) | ...&utm_content=68606-r1-calendario_e45_presenciais-vp_v1&utm_term=rmk30d |
-| F2-B-vp (bloqueada) | ...&utm_content=68606-r2-pratica_v916_entrada-vp_v1&utm_term=rmk30d |
+| F2-A-vp (bloqueada) | mesma URL, com utm_content=68606-r1-calendario_e45_presenciais-vp_v1 e utm_term=rmk30d |
+| F2-B-vp (bloqueada) | mesma URL, com utm_content=68606-r2-pratica_v916_entrada-vp_v1 e utm_term=rmk30d |
 
 Antes de subir: abrir cada URL, ver a página carregar e o lead ou o checkout chegar ao CRM com a origem preenchida (teste de 30/10, D8).
 
@@ -730,7 +729,7 @@ A divisão 50 e 50 da fase 2 é a mesma que o gestor usa na manutenção e na ex
 | Data | O que | Quem |
 |---|---|---|
 | qua 28/10 | Entrega deste arquivo. Exportação D6 do gerenciador (nome da campanha, conjuntos, anúncios, diária, G, orçamento no nível da campanha ou do conjunto, anúncios com sinais de fadiga). PP15: se G chegou a R$ 2.000,00, pausar já | anuncios-meta; humano no gerenciador |
-| qui 29/10 e sex 30/10 | qa-de-marketing (auditorias 11 e conformidade-educacional); decisões da seção 10. 30/10: teste de rastreio (D8, EA4) | qa; pessoa do marketing; humano |
+| qui 29/10 e sex 30/10 | qa-de-marketing (auditorias 11 e conformidade-educacional); decisões da seção 11. 30/10: teste de rastreio (D8, EA4) | qa; pessoa do marketing; humano |
 | até qua 04/11 | Criar os públicos de remarketing (visitantes 30 dias, engajamento 90 dias) **antes** de 07/11 | humano no gerenciador |
 | seg 02/11 | Feriado. Sem revisão | - |
 | ter 03/11 | Revisão semanal 1 (última data da troca por fadiga, D20). **Troca única:** exportar; pausar n anúncios com fadiga; subir F1-E (e F1-V, se pronto); aplicar diária = menor entre atual e máxima com o G da data | gestor-de-midia; humano |
@@ -776,10 +775,10 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
 | AM1 | Em 03/11, trocar n anúncios com fadiga do frio atual pelos criativos novos (F1-E e, se pronto, F1-V; F1-C em reserva), numa operação só | D20 permite uma troca por fadiga até 03/11; kit mínimo de 3 criativos; é a única mudança da fase 1 | Sem verba nova. Diária = menor entre a atual e (R$ 2.000,00 menos G) / 74 [G: CONFIRMAR]. Teto com G = 0: R$ 25,00 por dia da turma, Meta e Google somados | Primeira leitura direcional de C1 e C3 em até 4 dias, antes do fim da fase 1 | Reativar os anúncios pausados (exportação prévia) e pausar os novos. Nada é apagado |
-| AM2 | Em 06/11, 23h59, pôr data de término nos conjuntos de frio e tirar de veiculação todo anúncio que cita a data de início | Regra 4 do plano da onda 1 e decisão 18: a data de início não pode ficar no ar depois do início | Reduz gasto do frio a zero a partir de 07/11 | O frio sai e a verba restante vai para quem já conhece a turma | Reativar o conjunto frio exportado (OA4) |
+| AM2 | Em 06/11, 23h59, pôr data de término nos conjuntos de frio e tirar de veiculação todo anúncio que cita a data de início | Regra 4 do plano da onda 1 e decisão 18: a data de início não pode ficar no ar depois do início | Reduz o gasto do frio a zero a partir de 07/11 | O frio sai e a verba restante vai para quem já conhece a turma | Reativar o conjunto frio exportado (OA4) |
 | AM3 | Em 07/11, 00:00, ligar o conjunto de remarketing `...__rmk30d` com F2-A e F2-B (ou, se já houver conjunto de visitantes ativo, só trocar os anúncios dele) | Decisão 18: matrícula até o 3º módulo; E10: adaptação de texto, sem conceito novo | Diária de R$ 12,50 na Meta com G = 0 e divisão 50 e 50 [SUPOSIÇÃO]; sem aumento da diária da turma | Remarketing com a regra completa do 3º módulo, de 07/11 a 22/01 | Pausar o conjunto de remarketing e reativar o frio exportado |
 | AM4 | Aplicar a fórmula da diária em cada data da tabela 9.1, com o G da data, e a manutenção de 21/12 a 03/01 pela metade | Verba de R$ 2.000,00 por turma até a véspera do 3º módulo (decisões 15 e 18) | Sem aumento. Teto com G = 0: R$ 25,00 por dia (R$ 12,50 na manutenção) | Nenhuma turma acima da verba e nenhuma sem verba antes do 3º módulo | Voltar à diária anterior, dentro do teto |
-| AM5 | Em 22/01/2027, 23h59, pausar todas as campanhas do 68606 (data de término agendada e conferência humana, com conferência também em 23/01 de manhã) | Véspera do 3º módulo; PP17 | Reduz gasto a zero | Fim da captação no último dia em que a turma aceita matrícula | Reativar só com verba nova aprovada |
+| AM5 | Em 22/01/2027, 23h59, pausar todas as campanhas do 68606 (data de término agendada e conferência humana, com nova conferência em 23/01 de manhã) | Véspera do 3º módulo; PP17 | Reduz o gasto a zero | Fim da captação no último dia em que a turma aceita matrícula | Reativar só com verba nova aprovada |
 | AM6 | Decidir as exclusões de quem pagou a 1ª mensalidade e dos alunos: via pixel e API de Conversões agora; lista de contatos só depois de a Ufape confirmar base legal e política de privacidade | LGPD (listas sem base legal) e verba (não mostrar anúncio de captação a quem já é aluno) | Sem verba | Menos desperdício no remarketing; nenhum dado pessoal usado sem base legal | Remover a exclusão do conjunto |
 | AM7 | Decidir a faixa de idade: 18 ou mais (recomendado) ou filtro de 22 a 35 (roteiro do cmo, slide 4) | O filtro exclui por idade; a regra de segmentação e a estratégia 4.1 pedem 18+ | Sem verba | 18+ com leitura de custo por faixa evita exclusão por idade; filtro reduz público já pequeno | Abrir a faixa |
 | AM8 | Decidir a variante com preço (V-P) na fase 2: aprovar só depois de OU8 respondida | Teste de uma variável (com e sem preço); preço só com condição completa | Sem verba nova | Saber se preço na legenda ajuda ou atrapalha o remarketing | Pausar a variante |
@@ -860,10 +859,10 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | Sem comparação com concorrente | Atendido | Nenhuma |
 | Preço com valor, parcelas e condições completas | Atendido | Fase 1 e textos base da fase 2 sem preço. V-P com condição, bloqueada |
 | Sem bolsa ou desconto | Atendido | Nenhuma |
-| Urgência real | Atendido | Sem "últimas vagas", contador ou "corra". A data do 3º módulo só dentro da frase completa. Pendente de leitura humana: "Ainda dá para entrar?" é o gancho aprovado do F2-B, e não fala de prazo |
+| Urgência real | Atendido | Sem "últimas vagas", contador ou "corra". A data do 3º módulo só dentro da frase completa. "Ainda dá para entrar?" é o gancho aprovado do F2-B e não fala de prazo |
 | Sem depoimento, sem imagem de aluno | Atendido | Nenhum |
 | Sem docente citado | Atendido | Nenhum nos anúncios |
-| Sem característica pessoal de quem vê | Atendido | Perguntas como "Tudo online, sem prática?" e "Entrar com a turma em andamento?" são sobre o curso, não sobre quem vê. Nenhuma frase em primeira pessoa do leitor ("Perdi o início"), nem "Você é veterinário?" |
+| Sem característica pessoal de quem vê | Atendido | "Tudo online, sem prática?" e "Entrar com a turma em andamento?" são perguntas sobre o curso, não sobre quem vê. Nenhuma frase em primeira pessoa do leitor ("Perdi o início"), nem "Você é veterinário?" |
 | Sem "antes e depois" | Atendido | Expressão não usada |
 | Sem caixa alta, pontuação repetida ou símbolo | Atendido | Conferir nas artes finais |
 | Sem urgência falsa, contador falso, play falso ou imitação da interface | Atendido | Selos de chamada são retângulos discretos |
@@ -903,13 +902,13 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - Módulo 1: 07 e 08/11/2026; módulo 2: 19 e 20/12/2026; módulo 3: 23 e 24/01/2027, todos online. Presenciais: módulo 6 (17 e 18/04/2027), módulo 13 (27 e 28/11/2027) e módulo 21 (julho de 2028). Os outros 21 são online (ficha, cronograma).
 - Conteúdo dos módulos 6, 13 e 21 e dos temas online citados (ficha). "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas" e "o cronograma e palestrantes poderão ser alterado" (ficha, observação). Página prevê grupo para discussão de casos entre alunos e coordenadores (ficha).
 - A página oficial diz "CERTIFICADO PELO MEC" e "Turma mínima de 20 alunos", e a 1ª mensalidade até 30 dias antes do início; não escreve a regra do 3º módulo (ficha; cmo A7, A12, A13).
-- Matrícula aceita até o 3º módulo em toda turma de Pós; frase completa da regra (decisão 18; cmo regra 6). Valor da inscrição de R$ 250,00 como no site, com a condição completa do catálogo (decisão 23).
+- Matrícula aceita até o 3º módulo em toda turma de Pós; frase completa da regra (decisão 18; cmo regra 6). Valor de R$ 250,00 como no site, com a condição completa do catálogo (decisão 23).
 - Verba de R$ 2.000,00 por turma; meta de 15 matrículas e custo máximo de R$ 133,33 por matrícula (decisões 15 e 16; gestor 12.2).
 - CPL máximos de R$ 4,00, R$ 10,00 e R$ 18,00; leads necessários de 500, 200 e 112 (gestor 12.3, taxas ilustrativas).
 - Diária máxima = (R$ 2.000,00 menos G) / 80 dias equivalentes desde 28/10; com G = 0, R$ 25,00 (R$ 12,50 na manutenção); pausa às 23h59 de 22/01/2027 ou antes se o gasto chegar a R$ 2.000,00 (gestor 13.1, 13.2 e 13.7; cmo OA1 e OA4).
 - Plano da 68606: manter até 06/11 (com a troca da D20, se houver fadiga); de 07/11 a 22/01, só remarketing e busca; anúncios com data de início saem em 07/11 (cmo OA4 e regra 4).
 - AP-1: não abrir cinco campanhas na 68606; a divisão por praça do deck é limite de leitura; remarketing num conjunto só na fase 2 (cmo, slides 7 e 20).
-- Público base: veterinário E formado; sugestão do deck de 22 a 35 anos (cmo, slide 4, deck da The Growth Hub, slides 8 e 9).
+- Público base: veterinário E formado; sugestão do deck de 22 a 35 anos (cmo, slide 4; deck da The Growth Hub, slides 8 e 9).
 - Padrão D11 e D12: utm_source=meta, utm_medium=paid_social, utm_campaign = nome da campanha, utm_content = nome do anúncio, utm_term = público; anúncios no ar não são renomeados (cmo-geral, 12.7; estrategia 4.2 e 4.3).
 - R3, R6 e o rodízio do gestor (seções 8 e 12.6). Limite de volume do remarketing: 2 x verba semanal / número de peças (estrategia 3.6).
 - Não existe benchmark brasileiro verificável de CPL de pós-graduação (pesquisa-de-mercado, seção 2.1).
