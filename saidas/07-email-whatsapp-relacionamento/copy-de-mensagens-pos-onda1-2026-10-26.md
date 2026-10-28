@@ -164,7 +164,7 @@ Ficha: semipresencial, 370 h, 12 módulos, "aberto". Módulo 1 (28 e 29/11) onli
 > - teoria online nos demais módulos;
 > - coordenação da MSc Fernanda Fontalva Cordeiro, com mais 4 professores listados.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -199,7 +199,7 @@ Ficha: semipresencial, 370 h, 12 módulos, "aberto". Módulo 1 (28 e 29/11) onli
 >
 > A Pós-graduação em Ecocardiografia (turma III) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 2, em 19 e 20/12/2026. São 370 h e 5 módulos presenciais hands-on.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/698/pos-graduacao-em-ecocardiografia?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_698_202610&utm_content=t2-698
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -245,7 +245,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 > - aulas online ao vivo e gravadas, e plantões de dúvidas mensais;
 > - 18 professores listados, com nome e titulação.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -280,7 +280,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 >
 > A Pós-graduação em Dermatologia Veterinária (turma V) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 5, em 20 e 21/03/2027. São 500 h e 7 módulos presenciais, dois com atendimento de casos clínicos.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68610/pos-graduacao-dermatologia-veterinaria/v/sao-paulo?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68610_202610&utm_content=t2-68610
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -326,7 +326,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (28 e 29/11) e m�
 > - 3 módulos presenciais, entre eles coagulograma e coleta de mielograma;
 > - coordenação da ESP. Mariana Aldemundo Pereira di Vincenzo, com 14 professores listados.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -361,7 +361,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (28 e 29/11) e m�
 >
 > A Pós-graduação em Hematologia Veterinária (turma VIII) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em abril de 2027. São 500 h e 3 módulos presenciais, entre eles coagulograma e coleta de mielograma.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68608/pos-graduacao-hematologia-veterinaria/sao-paulo?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68608_202610&utm_content=t2-68608
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -407,7 +407,7 @@ Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início; 
 > - aulas teóricas online e ao vivo, com acesso a aulas gravadas na plataforma do curso;
 > - coordenação da Dra. Andrea Barbosa, da Dra. Angélica Safatle e de Juliana Jorge.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -442,7 +442,7 @@ Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início; 
 >
 > A turma VII da Pós-graduação em Oftalmologia Veterinária começa em 30/10/2026, sexta-feira, com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 4, em 29 a 31/01/2027. São 600 h e microscópio individual nas aulas práticas presenciais.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/707/pos-graduacao-em-oftalmologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_707_202610&utm_content=t2-707
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -478,7 +478,7 @@ Prazo de entrega: textos de 28 e 29/10 hoje; estes, até 30/10 (plano do cmo, E2
 > - 10 módulos presenciais, com microscópio individual por aluno e supervisão de professores e monitores;
 > - atendimentos clínicos reais em mutirões supervisionados.
 >
-> Fale com o time para entender como entrar na turma. Parcelas, total e matrícula você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -563,7 +563,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (31/10 e 01/11) o
 > - 7 módulos presenciais de prática (anatomia, radiografia e ultrassom por sistema, Doppler, ultrassom intervencionista e beira-leito);
 > - coordenação do M.V. Carlos Fotin, com 11 professores listados.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -598,7 +598,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (31/10 e 01/11) o
 >
 > A turma VI da Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária começa em 31/10/2026, sábado, com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 4, em fevereiro de 2027. São 500 h e 7 módulos presenciais de prática.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68604/pos-graduacao-em-diagnostico-por-imagem-aplicado-a-clinica-medica-e-cirurgica-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68604_202610&utm_content=t2-68604
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -647,7 +647,7 @@ Mesmas condições da seção 5.3 (entrega até 30/10, OU9, regra inteira, sem p
 > - 7 módulos presenciais de prática, o primeiro em fevereiro de 2027;
 > - coordenação do M.V. Carlos Fotin, com 11 professores listados.
 >
-> Fale com o time para entender como entrar na turma. Parcelas, total e matrícula você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -723,7 +723,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 > - grupo para discussão de casos entre alunos e coordenadores;
 > - coordenação da Esp. Maria Carolina Pappalardo, com 38 nomes listados, coordenação incluída.
 >
-> Parcelas, total e matrícula estão na página da turma, junto com o cronograma completo.
+> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -758,7 +758,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 >
 > A Pós-graduação em Gastroenterologia Veterinária (turma IX) começa em 07/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em 17 e 18/04/2027, com prática de cirurgia esofágica, gástrica e intestinal. São 500 h em 24 módulos.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68606_202610&utm_content=t2-68606
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -788,7 +788,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 >
 > A turma IX da Pós-graduação em Gastroenterologia Veterinária começa em 07/11/2026, sábado, com o módulo 1 online (semiologia e fisiologia gastrointestinal); os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em 17 e 18/04/2027.
 >
-> Parcelas, total e matrícula estão na página da turma:
+> Inscrição, parcelas e total estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68606_202610&utm_content=w2-68606
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -824,7 +824,7 @@ Mesmas condições das seções 5.3 e 6.3: entrega com as reservas completas at�
 > - grupo para discussão de casos entre alunos e coordenadores;
 > - coordenação da Esp. Maria Carolina Pappalardo.
 >
-> Fale com o time para entender como entrar na turma. Parcelas, total e matrícula você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -895,7 +895,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 ### 7.3 As 10 perguntas
 
 **R1. "Ainda dá tempo de me matricular?"**
-- "Sim. [Frase-base com início e 3º módulo da tabela 7.2.] Se quiser, te ajudo a finalizar: [link da turma]. Parcelas, total e matrícula estão lá."
+- "Sim. [Frase-base com início e 3º módulo da tabela 7.2.] Se quiser, te ajudo a finalizar: [link da turma]. Inscrição, parcelas e total estão lá."
 - Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]
 
 **R2. "A página diz que a 1ª mensalidade é paga 30 dias antes do início. Já passou, ainda consigo entrar?"**
@@ -914,7 +914,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - 68604, 68606, 698 e 68608: não dizer que as aulas online ficam gravadas (a ficha não cita).
 
 **R5. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"**
-- "Vou confirmar com o financeiro como fica para quem entra depois do início e te respondo por aqui. Parcelas, total e matrícula estão na página da turma: [link da turma]." [OU8]
+- "Quem entra depois do início paga igual: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, nas mesmas condições da página. Inscrição, parcelas e total estão na página da turma: [link da turma]."
 
 **R6. "Tem vaga? A turma está confirmada?"**
 - "Vou confirmar com a secretaria e te respondo por aqui." Depois da resposta da Ufape: "Segundo a secretaria em [data], a turma [nº] [está confirmada / ainda não foi confirmada]." [OU4]
@@ -931,7 +931,7 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - "Hoje não tenho data de nova turma de [área] para te passar [CONFIRMAR OU4]. A Ufape aceita matrícula nesta turma até o 3º módulo, que começa em [data do 3º módulo]. Se quiser, te explico como ficam os módulos que já aconteceram." Oferecer registro de interesse só se existir esse registro.
 
 **R10. "Qual o valor?"**
-- "Parcelas, total e matrícula da turma [nº] estão na página da turma: [link da turma]. Se quiser, te explico como funciona o pagamento." Sem valores em texto até a U11 (inscrição de R$ 260,00 contra matrícula de R$ 250,00 no site).
+- "Inscrição, parcelas e total da turma [nº] estão na página da turma: [link da turma]. A inscrição é de R$ 250,00 e a matrícula é a 1ª mensalidade das parcelas da turma; se quiser, te explico como funciona o pagamento." (decisões 23 e 25)
 
 ### 7.4 Regras para o time
 
@@ -1085,3 +1085,4 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 Próximo agente sugerido: otimizacao-de-mensagens (depois do qa-de-marketing e com números somados do envio real).
 - 28/10/2026: 6A.2 (68606), primeira linha A e reserva com o nome padrão "Pós-graduação em Gastroenterologia Veterinária". Correção G11 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-apresentacao-modelo.md). Nada mais foi alterado.
+- 28/10/2026: decisão 25 aplicada pelo orquestrador: "Parcelas, total e matrícula" virou "Inscrição, parcelas e total" em todas as mensagens (a matrícula passa a ser a 1ª mensalidade); respostas sobre quem entra depois do início e sobre o valor atualizadas.
