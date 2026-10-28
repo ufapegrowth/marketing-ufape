@@ -3,27 +3,28 @@
 - **Agente:** qa-de-marketing (departamento 10, Operações de Marketing)
 - **Linha:** pos
 - **Data:** 28/10/2026 (quarta-feira)
-- **Versão:** 6. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). A versão 4 acrescentou a **seção 8**, reconferência dos achados E1 a E36 (commit fe187b2 informado pelo orquestrador). A versão 5 acrescentou a **seção 9**, reconferência de R1 a R14 (commit 66afad5) e revisão dos slides e-* da apresentação ao cliente. Esta versão acrescenta a **seção 10**: conferência de S1 a S7 e R15 (commit 65ed424), do e-posts-2 e da limpeza das notas do apresentador, com o veredito final da apresentação. Os commits foram conferidos pelo conteúdo dos arquivos, não pelo histórico do repositório. As seções 1 a 9 ficam como registro.
-- **Objeto:** as 7 peças novas do enxoval da 68606 e a apresentação ao cliente com o enxoval (decisões 22 e 23).
+- **Versão:** 7. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). A versão 4 acrescentou a **seção 8**, reconferência dos achados E1 a E36 (commit fe187b2 informado pelo orquestrador). A versão 5 acrescentou a **seção 9**, reconferência de R1 a R14 (commit 66afad5) e revisão dos slides e-* da apresentação ao cliente. A versão 6 acrescentou a **seção 10**: conferência de S1 a S7 e R15 (commit 65ed424), do e-posts-2 e da limpeza das notas do apresentador, com o veredito final da apresentação. Esta versão acrescenta a **seção 11**: conferência da aplicação da **decisão 25 do CEO** (pagamento de quem entra depois do início e termos inscrição e matrícula; commit 8b31dc2 informado pelo orquestrador) no enxoval, no copy-de-mensagens da onda 1 e em 13 slides. Os commits foram conferidos pelo conteúdo dos arquivos, não pelo histórico do repositório. As seções 1 a 10 ficam como registro.
+- **Objeto:** as 7 peças novas do enxoval da 68606, a apresentação ao cliente com o enxoval (decisões 22 e 23) e, na seção 11, as mudanças da decisão 25 no copy-de-mensagens da onda 1.
 - **Status:** rascunho de revisão. Nada é publicado, enviado ou pago. As peças e os slides não foram editados pelo qa: cada correção volta para o dono do arquivo.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
-  - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (cabeçalho, "Como usar" e seção 2, linha 68606)
+  - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (cabeçalho, "Como usar" e seção 2; na seção 11, as linhas de 707, 68604, 68606, 68610, 698 e 68608)
   - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (ficha inteira, com cronograma e lista de docentes; relida nas reconferências)
-  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 24 e regras para toda saída)
+  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 25 e regras para toda saída)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (versão 4: seções 1 a 11)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md (slides 1 a 15)
-  - As 7 peças: /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-28-calendario-68606.md (relidas nas reconferências, nos trechos de cada achado)
-  - Apresentação ao cliente: /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/ (os 25 e-* na seção 9; na seção 10, os 14 reconferidos e mais 8 por amostragem das notas)
+  - As 7 peças: /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-28-calendario-68606.md (relidas nas reconferências, nos trechos de cada achado; na seção 11, criativos, Meta, Google, posts e tiktok lidos inteiros e o calendário nas semanas 1, 2, 6 a 9, na visão mensal e nos conflitos)
+  - Na seção 11: /home/user/marketing-ufape/saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md (inteiro)
+  - Apresentação ao cliente: /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/ (os 25 e-* na seção 9; na seção 10, os 14 reconferidos e mais 8 por amostragem das notas; na seção 11, curso, estrategia, meta, precisamos, relacionamento, e-posts-3, e-meta-f2a, e-cal-dez, e-respostas, e-video-b, e-email, e-whats-1 e e-whats-2)
   - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md e /home/user/marketing-ufape/auditorias/12-video-e-audio.md. Não existe auditorias/04-conteudo.md: o calendário foi auditado pela conformidade-educacional e pela coerência com as peças.
-- **Não aberto nesta revisão:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6), o copy-de-mensagens-pos-onda1 e os slides fora do enxoval que não entraram na amostra da seção 10.2. Os slides e-email, e-whats-1, e-whats-2 e e-respostas reproduzem o copy-de-mensagens, que esta revisão não cobre: foram conferidos só nos pontos pedidos. As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação do cmo [SUPOSIÇÃO: o original A6 não foi relido]. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha).
+- **Não aberto:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6) e os slides fora do enxoval que não entraram na amostra da seção 10.2 nem na lista da seção 11. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha). As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação do cmo [SUPOSIÇÃO: o original A6 não foi relido].
 - **Dados pessoais:** nenhum nesta revisão. Docentes só com nome e titulação da ficha.
 
 ---
 
 ## 1. Vereditos (revisão original, versão 3)
 
-**Vereditos atuais: seção 9.2 (arquivos) e seção 10.4 (apresentação).**
+**Vereditos atuais: seção 11.4 (arquivos e apresentação).**
 
 | # | Arquivo | Veredito | Achados que bloqueiam | Volta para |
 |---|---|---|---|---|
@@ -54,6 +55,8 @@ Regra aplicada: toda peça que falha em qualquer item de auditorias/conformidade
 **Decisão: `utm_campaign=pos_68606_202610` em todo toque orgânico e de CRM da turma, em qualquer mês de publicação.** Fonte: cmo-pos, regra 11 e OA9, ajuste N2 da versão 4 (mês do primeiro envio, igual em todos os toques da turma, com o toque no utm_content). O primeiro envio da 68606 foi o e-mail de 28/10 (OA9). O D12 do plano geral ("mês do primeiro envio ou da publicação") é a regra geral; a regra 11 do plano da turma é a aplicação dela e prevalece. A exceção `pos_conteudo_<AAAAMM>` vale só para peça sem chamada de turma (ep. 3). Já está certo nos posts-sociais; muda no tiktok e no podcast (E2) e no calendário (E34). Na mídia paga, ver E3.
 
 ### D-C. "Matrícula" ou "inscrição" para os R$ 250,00
+
+**Revogada em 28/10/2026 pela decisão 25 do CEO (seção 11):** nas peças, "inscrição" é o valor de R$ 250,00 e "matrícula" é a 1ª mensalidade paga. O texto abaixo fica só como registro.
 
 **Decisão: nas peças, "matrícula de R$ 250,00".** Motivos: (1) dado de curso só vem do catálogo, e o catálogo (seção 2) e a página dizem "matrícula R$ 250,00"; (2) a decisão 23 diz "R$ 250,00, como no site" e manda citar "a condição completa do catálogo"; (3) a peça precisa casar com a página de destino; (4) a palavra casa com a frase da regra ("A Ufape aceita matrícula até o 3º módulo"): pagar a matrícula é o ato de entrar. No funil interno segue "inscrição paga", medida à parte da 1ª mensalidade (decisões 16 e 23). Se a pessoa do marketing preferir "inscrição", a troca vale para todas as peças de uma vez e o catálogo é atualizado antes. Correções: E8 (criativos) e E31 (Meta, só o marcador). Posts, tiktok, Google e Meta já usam "matrícula" nas peças.
 
@@ -316,7 +319,7 @@ Formato: arquivo, onde, trecho atual, correção exata. "Bloqueia" indica item d
 
 ## 4. auditorias/conformidade-educacional.md, item por item (revisão original)
 
-Legenda: OK = atendido; FALHA = bloqueia (achado); PENDENTE = depende de resposta ou ação fora da peça, também bloqueia publicação; N/A = não se aplica. C = criativos; G = Google; P = posts; T = tiktok; Pc = podcast; M = Meta; Cal = calendário (avaliado pelo que ele agenda). O resultado depois das correções está nas seções 8.4 e 9.
+Legenda: OK = atendido; FALHA = bloqueia (achado); PENDENTE = depende de resposta ou ação fora da peça, também bloqueia publicação; N/A = não se aplica. C = criativos; G = Google; P = posts; T = tiktok; Pc = podcast; M = Meta; Cal = calendário (avaliado pelo que ele agenda). O resultado depois das correções está nas seções 8.4, 9 e 11.3.
 
 | Item | C | G | P | T | Pc | M | Cal |
 |---|---|---|---|---|---|---|---|
@@ -696,7 +699,7 @@ Nenhuma ressalva, marca ou fonte externa foi apagada na amostra.
 - e-semana: "Fonte: calendário dia a dia."
 - Assim todas as notas seguem o mesmo padrão das de e-abertura, e-midia, e-google e e-cal-*.
 
-### 10.4 Veredito final da apresentação ao cliente
+### 10.4 Veredito final da apresentação ao cliente (versão 6, substituído pela seção 11.4)
 
 **APROVADO para ir ao cliente, com o T1 aplicado antes da reunião.** T1 é uma repetição de palavras num selo, corrigida pelo texto exato acima, sem nova revisão do qa. T2 entra junto, pelo texto exato, também sem nova revisão. T3 é opcional.
 
@@ -711,17 +714,156 @@ O que este veredito cobre e o que não cobre:
 
 ---
 
+## 11. Quarta conferência: decisão 25 (pagamento de quem entra depois e termos inscrição e matrícula)
+
+Data: 28/10/2026. **Decisão 25 do CEO** (docs/execucao-2026-10-26.md): quem entra depois do início da turma paga igual; "inscrição" é o valor de R$ 250,00; "matrícula" é a 1ª mensalidade (30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto). Responde a OU8 e **revoga a D-C** desta revisão. A página será ajustada depois (A7, A12, A13 e o termo inscrição) e o aprovador de cada publicação ainda não foi definido; o CEO pediu para seguir assim, e as peças de depois de 07/11 com link da turma continuam marcadas para sair só com a página ajustada.
+
+Escopo (só as mudanças da decisão 25; o orquestrador informou o commit 8b31dc2 para o enxoval; conferi pelo conteúdo): criativos, Meta, Google, posts, tiktok e calendário; copy-de-mensagens-pos-onda1-2026-10-26.md (17 trocas para "Inscrição, parcelas e total" e as respostas R5 e R10); 13 slides (curso, estrategia, meta, precisamos, relacionamento, e-posts-3, e-meta-f2a, e-cal-dez, e-respostas, e-video-b, e-email, e-whats-1 e e-whats-2). O podcast não mudou e segue APROVADO (seção 9.2). Pontos pedidos: preço sempre com a condição completa; nenhum lugar chama os R$ 250,00 de matrícula; frase da regra do 3º módulo intacta; respostas novas do time.
+
+**E1 segue igual:** a ficha da 68606 continua na versão de 26/10/2026. Agora ela também contradiz a decisão 25 em dois pontos: chama os R$ 250,00 de "matrícula" e manda pagar a 1ª mensalidade "até 30 dias de antecedência" do início. O catálogo (seção 2) também ainda diz "matrícula R$ 250,00".
+
+### 11.1 Resultado dos quatro pontos
+
+| Ponto | Resultado |
+|---|---|
+| Preço sempre com a condição completa | **Atendido** em: criativos (1.1, V-P da 4.4 e item 2 da seção 7), Meta (1, 7.6, AM8), Google (8.3, só interno), posts (P5 telas 2 e 3 e legenda; resposta a comentários da seção 7), calendário (15/12 e visão mensal), slides curso, estrategia (nota), e-posts-3, e-meta-f2a (nota) e e-cal-dez (nota). Todos trazem inscrição, parcelas e total juntos, e "quem entra depois do início paga igual". **Falha:** copy-de-mensagens R5 (sem parcelas nem total, e "nas mesmas condições da página", que hoje diz 30 dias antes do início; U3) e R10 (cita os R$ 250,00 sem parcelas nem total; U4); slide e-respostas, linha "quando pago a 1ª mensalidade?" (U7) |
+| Nenhum lugar chama os R$ 250,00 de matrícula | **Atendido** em todo texto de peça, mensagem e slide. "Matrícula R$ 250,00" só aparece como citação do catálogo ou da página, nas listas de fatos e nas notas, sempre com a ressalva de que nas peças vale "inscrição" (decisão 25). A frase da regra ("A Ufape aceita matrícula até o 3º módulo") segue coerente: matrícula passa a ser o pagamento da 1ª mensalidade, que é o ato de entrar |
+| Frase da regra do 3º módulo intacta | **Atendido** em F2-A e F2-B (criativos e Meta), P3 a P6, versão B do tiktok, E2, W3 e W4 da 68606, slides e-posts-3 (referência), e-meta-f2a, e-video-b (em 2 cards, na ordem), e-email e e-whats-2. **Falha:** slide e-respostas, primeira linha da tabela, sem a última frase "Antes de pagar, o time explica como ficam os módulos que já aconteceram." (U7) |
+| Respostas novas do time | **R5 e R10: corrigir** (U3 e U4). R5 também vale para as outras 5 turmas do arquivo (707, 68604, 698, 68610 e 68608), com valores da 68606 e uma decisão que cita só os valores da 68606 (U3). **Resíduos** que contradizem a decisão 25 em 7.1, R2 e R8 (U5) |
+
+### 11.2 Achados da quarta conferência
+
+**U1. Peças com preço só saem com a página ajustada também no termo e na 1ª mensalidade (bloqueia: instrução de publicação incompleta)**
+- Problema: a V-P, o P5 com preço e os slides que os descrevem dizem que saem "com a regra do 3º módulo na página". A decisão 25 diz que a página será ajustada (A7, A12, A13 e o termo inscrição). Se só a A13 entrar, a peça com preço leva a uma página que chama os R$ 250,00 de matrícula e manda pagar a 1ª mensalidade 30 dias antes do início, o que contradiz "quem entra depois do início paga igual" (conformidade: "Página de destino entrega exatamente o que a peça prometeu").
+- Condição exata (texto a usar): "com a página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade (paga até 30 dias antes do início) ajustada para quem entra depois (decisão 25)".
+- posts, P5, parágrafo "Status". Trecho atual: "só com a regra do 3º módulo na página e com a aprovação humana. A página ainda diz que a 1ª mensalidade vence 30 dias antes do início; o ajuste da página está combinado para depois." Correção exata: "só com a aprovação humana e com a página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade (paga até 30 dias antes do início) ajustada para quem entra depois (decisão 25). Sem esse ajuste até 14/12, sai a versão sem valores."
+- posts, 0.1, item 11: acrescentar no fim "O P5 com preço depende também do termo inscrição e da linha da 1ª mensalidade na página (decisão 25)."
+- calendário, semana 8, linha 15/12. Trecho atual: "Só sai com a A13 publicada na página e conferida pelo qa (E1)." Correção exata: "Com preço, só sai com a página ajustada e conferida pelo qa (A13, termo inscrição e linha da 1ª mensalidade, decisão 25); sem esse ajuste até 14/12, sai a versão sem valores. A versão sem valores também precisa da A13 (E1)."
+- criativos, 4.4, primeiro ponto de atenção. Trecho atual: "Continua valendo: sai só com a regra do 3º módulo na página e com a aprovação humana do preço." Correção exata: "Continua valendo: sai só com a aprovação humana do preço e com a página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade ajustada para quem entra depois (decisão 25)." Na seção 7, item 2, e na matriz 5.1 (linhas F2-A-vp e F2-B-vp), coluna "Status": trocar "só com a regra na página e aprovação de preço" por "só com a página ajustada (regra do 3º módulo, inscrição e 1ª mensalidade) e aprovação de preço".
+- Meta, 7.6, segundo ponto de "Por que está bloqueada". Trecho atual: "A V-P depende só do AM8 e da regra do 3º módulo na página." Correção exata: "A V-P depende do AM8 e da página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade ajustada para quem entra depois (decisão 25)." Seção 0, item 4. Trecho atual: "sai só com a aprovação humana e com a regra do 3º módulo na página." Correção exata: "sai só com a aprovação humana e com a página ajustada (regra do 3º módulo, termo inscrição e linha da 1ª mensalidade)." Seção 10, item (4): trocar "com a regra do 3º módulo na página" por "com a página ajustada (regra do 3º módulo, termo inscrição e linha da 1ª mensalidade)".
+- Slide e-posts-3, nota. Trecho atual: "Os dois só saem com a regra do 3º módulo na página." Correção exata: "O post 6 só sai com a regra do 3º módulo na página. O post 5 com preço também precisa da página chamando os R$ 250,00 de inscrição e com a linha da 1ª mensalidade ajustada; sem isso, sai a versão sem valores."
+- Slide e-meta-f2a, nota. Trecho atual: "Ela sai com a aprovação de preço e com a regra do 3º módulo na página." Correção exata: "Ela sai com a aprovação de preço e com a página ajustada: regra do 3º módulo, R$ 250,00 chamados de inscrição e linha da 1ª mensalidade ajustada."
+- Slide e-cal-dez, nota. Trecho atual: "a versão sem valores fica de reserva". Correção exata: "a versão com preço só sai com a página ajustada no termo inscrição e na linha da 1ª mensalidade; sem isso, sai a versão sem valores".
+
+**U2. "Inscrição, parcelas e total estão na página" antes de a página usar "inscrição" (bloqueia o envio de 29/10 em diante: a página não mostra o que a mensagem anuncia)**
+- Problema: as 6 páginas da onda 1 (catálogo, seção 2) chamam os R$ 250,00 de "matrícula". A mensagem manda ver a "inscrição" na página, e quem abre encontra "matrícula R$ 250,00", que é justamente o termo que a decisão 25 tirou das peças. O ajuste combinado é só da página da 68606, e sem data. O texto neutro abaixo cumpre a decisão 25 (não chama os R$ 250,00 de nada) e casa com qualquer página.
+- copy-de-mensagens, todas as ocorrências (T1 e T2 das 6 turmas, W2 da 68606): trocar "Inscrição, parcelas e total estão na página da turma" por "Parcelas, total e demais condições estão na página da turma" (mantendo o resto da frase, como ", junto com o cronograma completo." ou ":" antes do link). Nos E2 de 707, 68604 e 68606: trocar "Inscrição, parcelas e total você vê na página da turma." por "Parcelas, total e demais condições você vê na página da turma." Em R1: trocar "Inscrição, parcelas e total estão lá." por "Parcelas, total e demais condições estão lá."
+- tiktok, seção 2.1 (versão A) e legenda da versão B: trocar "Veja inscrição, parcelas e total na página da turma." por "Veja parcelas, total e condições na página da turma." Seção 7, linha "Preço": trocar "a legenda remete à página para inscrição, parcelas e total" por "a legenda remete à página para parcelas, total e condições".
+- Slides: e-whats-1 (duas vezes, texto visível) e relacionamento (texto visível do exemplo): trocar "Inscrição, parcelas e total estão na página da turma." por "Parcelas, total e demais condições estão na página da turma." Notas de e-email (as duas ocorrências) e de e-video-b: mesma troca.
+- Depois que cada página chamar os R$ 250,00 de inscrição, o texto pode voltar a "Inscrição, parcelas e total", por turma, sem nova revisão.
+- Prazo: antes do T2 de qui 29/10, 10h. O T1 estava marcado para hoje, 28/10, 9h: [CONFIRMAR se saiu e com qual texto]. Se saiu com "Parcelas, total e matrícula", nada a fazer nele.
+
+**U3. Resposta R5 sem a condição completa e com escopo maior que a decisão (bloqueia: preço incompleto e regra aplicada a turmas que a decisão não cita)**
+- copy-de-mensagens, 7.3, R5. Trecho atual: "Quem entra depois do início paga igual: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, nas mesmas condições da página. Inscrição, parcelas e total estão na página da turma: [link da turma]."
+- Problemas: (1) cita os R$ 250,00 sem parcelas nem total; (2) "nas mesmas condições da página" leva a pessoa à linha que manda pagar a 1ª mensalidade 30 dias antes do início, o que é impossível para quem entra depois; (3) a pergunta é "quando e como pago", e a decisão 25 diz quanto (paga igual), não quando vence a 1ª mensalidade de quem entra depois; (4) a seção 7 vale para 6 turmas, e a decisão 25 traz só os valores da 68606.
+- Correção exata do texto: "Quem entra depois do início paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. A data da 1ª mensalidade para quem entra agora eu confirmo com o financeiro e te respondo por aqui. Os valores estão na página da turma: [link da turma]."
+- Regra de uso, logo abaixo de R5: "Vale para a 68606 (decisão 25). Para 707, 68604, 698, 68610 e 68608, só depois de o CEO confirmar que a decisão 25 vale para todas as turmas de Pós [CONFIRMAR]; até lá: 'Os valores estão na página da turma: [link da turma]. Como fica o pagamento para quem entra depois do início, vou confirmar com o financeiro e te respondo por aqui.'"
+- Tabela 7.2: acrescentar a coluna "Inscrição, parcelas e total (catálogo)": 707, "R$ 250,00; 30x de R$ 1.590,00; R$ 47.700,00 no cartão ou boleto"; 68604, "R$ 250,00; 30x de R$ 1.000,00; R$ 30.000,00 no cartão ou boleto"; 68606, "R$ 250,00; 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto"; 698, "R$ 250,00; 18x de R$ 1.498,33; R$ 26.970,00 no cartão ou boleto"; 68610, "R$ 250,00; 30x de R$ 1.000,00; R$ 30.000,00 no cartão ou boleto"; 68608, "R$ 250,00; 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto". Nota da coluna: "o catálogo e as páginas chamam os R$ 250,00 de matrícula; nas peças, inscrição (decisão 25)".
+
+**U4. Resposta R10 cita a inscrição sem parcelas nem total (bloqueia: preço incompleto)**
+- copy-de-mensagens, 7.3, R10. Trecho atual: "Inscrição, parcelas e total da turma [nº] estão na página da turma: [link da turma]. A inscrição é de R$ 250,00 e a matrícula é a 1ª mensalidade das parcelas da turma; se quiser, te explico como funciona o pagamento." (decisões 23 e 25)
+- Correção exata: "A inscrição é de R$ 250,00, e a matrícula é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. Na página, os R$ 250,00 ainda aparecem como "matrícula": é a inscrição. Tudo está na página da turma: [link da turma]. Se quiser, te explico como funciona o pagamento." (decisões 23 e 25; valores do catálogo)
+
+**U5. Copy-de-mensagens: trechos que ainda dizem que a OU8 está aberta ou proíbem preço (ajuste: contradizem R5 e R10)**
+- 7.1, "Ainda sem resposta da Ufape": trocar "OU8 (como e quando paga a 1ª mensalidade quem entra depois dela; ajuste de parcelas)" por "OU8, em parte (decisão 25: na 68606, quem entra depois paga os mesmos valores; falta a data da 1ª mensalidade de quem entra depois e se a regra vale para as outras turmas)".
+- 7.1, último item: trocar "Sem preço, parcela, matrícula ou valor de inscrição até a U11." por "Preço só em R5 e R10, sempre com inscrição, parcelas e total da tabela 7.2."
+- R2, segunda frase. Trecho atual: "Como fica o pagamento da 1ª mensalidade para quem entra agora, vou confirmar com o financeiro e te respondo por aqui." Correção exata: "Quem entra agora paga os mesmos valores; a data da 1ª mensalidade para quem entra depois do início eu confirmo com o financeiro e te respondo por aqui." (na 68606; nas outras turmas, só depois da confirmação do CEO pedida em U3, e até lá vale o texto atual).
+- R8, último item. Trecho atual: "Entrar depois do início não muda condição de preço? Só responder se a Ufape disser (OU8); até lá, "vou confirmar"." Correção exata: "Entrar depois do início não muda condição de preço? Na 68606, não muda: quem entra depois paga os mesmos valores (decisão 25). Nas outras turmas, "vou confirmar" até a confirmação do CEO."
+- Seção 0, item 3: acrescentar no fim "A decisão 25 (28/10/2026) respondeu a OU8 em parte: na 68606, quem entra depois paga os mesmos valores; as mensagens seguem sem preço, que fica só nas respostas R5 e R10."
+- Seção 9 (autoconferência), linha "Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 e OU8 em aberto)": trocar "(OU3 e OU8 em aberto)" por "(OU3 em aberto; OU8 respondida em parte pela decisão 25, usada só em R5 e R10)".
+- [CONFIRMAR], linha "U11 (inscrição de R$ 260,00 contra matrícula de R$ 250,00) e U11a (API oficial do WhatsApp).": trocar por "U11a (API oficial do WhatsApp). A U11 foi respondida pela decisão 23 (inscrição de R$ 250,00)." Na linha das OU, trocar "OU8 (pagamento da 1ª mensalidade de quem entra depois do início)" por "OU8 em parte (data da 1ª mensalidade de quem entra depois e alcance da decisão 25 nas outras turmas)".
+
+**U6. Posts: conferência final desatualizada (ajuste, sem nova revisão)**
+- Seção 8, linha "Preço só com condição completa". Trecho atual: "Sim, apenas em P5". Correção exata: "Sim, em P5 e na resposta a comentários da seção 7, sempre com inscrição, parcelas e total".
+
+**U7. Slide e-respostas: frase da regra incompleta e resposta de pagamento sem a condição completa (corrigir antes da reunião: texto visível)**
+- Linha "Ainda dá tempo de me matricular?". Trecho atual: "Sim. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027." Correção exata: "Sim. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
+- Linha "Se eu entrar agora, quando pago a 1ª mensalidade?". Trecho atual: "Quem entra depois do início paga igual: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, nas mesmas condições da página." Correção exata: "Paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das 30x de R$ 1.180,00, ou R$ 35.400,00 no cartão ou boleto. A data da 1ª mensalidade para quem entra agora, o time confirma com o financeiro."
+- Nota, trecho "com a decisão da Ufape de 28/10, a resposta passa a ser "Quem entra agora paga igual: (...) [link da turma]." (texto novo, a revisar antes do uso)": trocar por "com a decisão da Ufape de 28/10: "Quem entra depois do início paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das 30x de R$ 1.180,00, ou R$ 35.400,00 no cartão ou boleto. A data da 1ª mensalidade para quem entra agora eu confirmo com o financeiro e te respondo por aqui. Os valores estão na página da turma: [link da turma].""
+- Nota, frase "A resposta sobre valor vai ser atualizada com a inscrição de R$ 250,00 e a matrícula, que é a 1ª mensalidade, confirmadas pela Ufape em 28/10.": trocar por "Valor: "A inscrição é de R$ 250,00, e a matrícula é a 1ª mensalidade das 30x de R$ 1.180,00, ou R$ 35.400,00 no cartão ou boleto. Na página, os R$ 250,00 ainda aparecem como matrícula: é a inscrição.""
+- Nota, última frase: trocar "Pendente com a Ufape: reposição, se a matrícula vale no 1º dia do 3º módulo, vagas." por "Pendente com a Ufape: reposição, se a matrícula vale no 1º dia do 3º módulo, a data da 1ª mensalidade de quem entra depois e vagas."
+- Selo: com U3, U4, U5 e U7 aplicados palavra por palavra, trocar "em revisão" por "pronto para aprovação".
+
+**U8. Slides com "Inscrição, parcelas e total estão na página" (corrigir antes da reunião: texto visível; mesmo motivo do U2)**
+- e-whats-1, duas vezes, e relacionamento, uma vez: trocar "Inscrição, parcelas e total estão na página da turma." por "Parcelas, total e demais condições estão na página da turma."
+- Notas de e-email (duas ocorrências) e de e-video-b ("Veja inscrição, parcelas e total na página da turma." por "Veja parcelas, total e condições na página da turma."): mesma troca.
+
+**U9. Slide precisamos: o pedido à Ufape não cobre a linha da 1ª mensalidade nem a data de quem entra depois (ajuste: texto visível)**
+- Linha 1. Trecho atual: "chamar os R$ 250,00 de inscrição e política de privacidade no formulário." Correção exata: "chamar os R$ 250,00 de inscrição, ajustar a linha que manda pagar a 1ª mensalidade 30 dias antes do início e pôr política de privacidade no formulário."
+- Linha 4. Trecho atual: "Como o aluno repõe os módulos que perdeu e se a matrícula vale até a véspera ou também no 1º dia do 3º módulo". Correção exata: "Como o aluno repõe os módulos que perdeu, se a matrícula vale até a véspera ou também no 1º dia do 3º módulo e quando vence a 1ª mensalidade de quem entra depois do início".
+- Nota, trecho "(o pagamento de quem entra depois já foi definido pela Ufape em 28/10: paga igual, com inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade)": acrescentar antes do parêntese final "; falta a data da 1ª mensalidade de quem entra depois".
+
+**U10. Slide e-posts-3: título voltou a não descrever o post (sugestão, não bloqueia)**
+- O S6 trocou o título para "Onde ver a conta" porque o P5 era a versão sem valores. Agora o P5 mostrado tem os valores. Sugestão: "A conta inteira <span>e o que vem agora.</span>".
+
+**U11. Resíduos de fonte e de conflito (ajuste, sem nova revisão)**
+- criativos, "Fontes", linha de docs/execucao-2026-10-26.md: trocar "(decisões 8, 10, 11, 14, 15, 16, 18, 22 e 23)" por "(decisões 8, 10, 11, 14, 15, 16, 18, 22, 23 e 25)".
+- Meta, "Fontes": trocar "(decisões 8, 10, 11, 14, 15, 16, 18, 22, 23 e 24)" por "(decisões 8, 10, 11, 14, 15, 16, 18, 22, 23, 24 e 25)".
+- Google, cabeçalho, entrada de docs/execucao-2026-10-26.md: trocar "(decisões 14, 15, 16, 18 e 23)" por "(decisões 14, 15, 16, 18, 23 e 25)".
+- calendário, C18. Trecho atual: "O copy-de-mensagens ainda traz a nota "sem preço até a U11", que a decisão 23 já respondeu (sem efeito: nenhuma mensagem cita preço)". Correção exata: "As mensagens seguem sem preço; só as respostas R5 e R10 do time citam valores, com inscrição, parcelas e total".
+- calendário, semana 1, linha 28/10 das respostas R1 a R10. Trecho atual: "\"vou confirmar\" para reposição e pagamento". Correção exata: "\"vou confirmar\" para reposição e para a data da 1ª mensalidade de quem entra depois".
+
+**U12. Catálogo e ficha sem a decisão 25 (condição para o orquestrador, não é correção de peça)**
+- A regra da squad diz que preço e condições só vêm do catálogo e da ficha. Os dois ainda dizem "matrícula R$ 250,00" e "1ª mensalidade até 30 dias antes do início", e não trazem "quem entra depois do início paga igual". Antes de qualquer peça com preço ir ao ar, o orquestrador registra a decisão 25 na linha 68606 do catálogo e na ficha, como condição de venda decidida pelo CEO, com a data [CONFIRMAR]. Os textos das peças já estão com os valores do catálogo.
+
+### 11.3 conformidade-educacional depois da decisão 25 (só os itens que a decisão mexe)
+
+C = criativos; M = Meta; G = Google; P = posts; T = tiktok; Cal = calendário; Msg = copy-de-mensagens; Sl = os 13 slides.
+
+| Item | C | M | G | P | T | Cal | Msg | Sl |
+|---|---|---|---|---|---|---|---|---|
+| Nome, modalidade, carga horária e turma batem com o catálogo | OK | OK | OK | OK | OK | OK | OK | OK |
+| Preço com parcelas e condições completas, sem esconder matrícula | OK (V-P com inscrição, parcelas, total e "paga igual") | OK (7.6) | OK (sem preço) | OK (P5 e resposta a comentários) | OK (sem preço) | OK (15/12) | FALHA até U3 e U4 | FALHA até U7 (e-respostas); demais OK |
+| Dados de curso só do catálogo | PENDENTE (U12) | PENDENTE (U12) | OK | PENDENTE (U12) | OK | PENDENTE (U12) | PENDENTE (U12; valores da tabela 7.2 pelo U3) | PENDENTE (U12) |
+| Urgência real, com data | OK | OK | OK | OK | OK | OK | OK | OK |
+| Sem promessa (reposição, emprego, condição inventada) | OK | OK | OK | OK | OK | OK | OK (R5 corrigida não inventa a data da 1ª mensalidade) | OK |
+| Frase da regra do 3º módulo inteira | OK | OK | N/A | OK | OK | OK | OK | FALHA até U7 (e-respostas) |
+| WhatsApp e e-mail com consentimento e saída fácil | N/A | N/A | N/A | N/A | N/A | OK | OK (sem mudança) | OK |
+| Página de destino entrega o que a peça promete | FALHA até U1 (V-P) | FALHA até U1 (V-P) | PENDENTE externo (E1) | FALHA até U1 (P5 com preço) | FALHA até U2 ("inscrição" na página) | FALHA até U1 | FALHA até U2 | FALHA até U2 e U8; notas pelo U1 |
+| Demais itens | sem mudança em relação às seções 8.4 e 9 | idem | idem | idem | idem | idem | não revisados nesta rodada | idem |
+
+Também conferido, sem achado: nenhum "últimas vagas", bolsa, frase de certificação ou promessa de emprego nas mudanças; nenhum dado pessoal; nenhum telefone novo em texto visível; nenhuma ocorrência de "agência"; sem travessão nem meia-risca nos trechos alterados (conferência por leitura, sem busca automática). Os valores citados (R$ 250,00; 30x de R$ 1.180,00; R$ 35.400,00) batem com a linha 68606 do catálogo.
+
+### 11.4 Vereditos depois da decisão 25
+
+| # | Arquivo | Veredito | Achados | Volta para |
+|---|---|---|---|---|
+| 1 | criativos-de-anuncio | **CORRIGIR** | U1 (porta da V-P); U11 | criativos-de-anuncio |
+| 2 | anuncios-google | **APROVADO** | U11 (fonte), sem nova revisão | aprovação humana |
+| 3 | posts-sociais | **CORRIGIR** | U1 (porta do P5 com preço); U6 | posts-sociais |
+| 4 | tiktok | **CORRIGIR** | U2 (legendas A e B) | tiktok |
+| 5 | podcast UFAPE Cast | **APROVADO** (sem mudança) | nenhum | aprovação humana |
+| 6 | anuncios-meta | **CORRIGIR** | U1 (porta da V-P); U11 | anuncios-meta |
+| 7 | calendário (estrategia-de-conteudo) | **CORRIGIR** | U1 (15/12); U11 | estrategia-de-conteudo |
+| 8 | copy-de-mensagens-pos-onda1 (só as mudanças da decisão 25) | **CORRIGIR** | U2, U3, U4, U5 | copy-de-mensagens |
+| 9 | Apresentação ao cliente (13 slides desta rodada) | **CORRIGIR** | U7 e U8 (texto visível); U9 (visível); U1 nas notas de e-posts-3, e-meta-f2a e e-cal-dez; U10 opcional | orquestrador (dono dos slides) |
+
+**Veredito da apresentação ao cliente: CORRIGIR**, substituindo o APROVADO da seção 10.4. Motivo: o e-respostas mostra ao cliente a frase da regra sem a última frase e uma resposta de pagamento sem parcelas nem total; o e-whats-1 e o relacionamento anunciam "inscrição" numa página que ainda diz "matrícula". Com U7, U8 e U9 aplicados palavra por palavra (e U1 nas notas), a apresentação passa a APROVADO sem nova revisão do qa. T1 e T2 da seção 10 continuam valendo, se ainda não foram aplicados.
+
+**Para os arquivos:** todas as correções da seção 11.2 são textos exatos. Aplicadas palavra por palavra, os arquivos passam a APROVADO sem nova revisão. Qualquer mudança de redação nos textos de U3, U4 ou U7 volta ao qa, porque são falas de preço ao candidato.
+
+**Prazo que pesa:** o U2 precisa entrar no copy-de-mensagens antes do T2 de qui 29/10, 10h. O T1 de hoje, 28/10, 9h: [CONFIRMAR se saiu e com qual texto].
+
+**Continua valendo:** nada é publicado, enviado ou pago sem o ok humano de cada peça. O aprovador ainda não está definido (tabela de contexto/ufape-geral.md vazia; a decisão 25 registra isso). As peças de depois de 07/11 com link da turma só saem com a página da 68606 ajustada e conferida pelo qa (OA10); as peças com preço, também com o termo inscrição e a linha da 1ª mensalidade (U1).
+
+**Revisado por:** qa-de-marketing (agente). Humano: [CONFIRMAR, pessoa do marketing].
+**Data:** 28/10/2026.
+
+---
+
 ## Fatos (com fonte)
 
 - 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início 07/11/2026, turma IX, 500 h, "30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula R$ 250,00", status "aberto" (contexto/catalogo-de-cursos.md, seção 2).
+- Inscrição de R$ 250,00 e parcelas e total de 707 (30x de R$ 1.590,00; R$ 47.700,00), 68604 (30x de R$ 1.000,00; R$ 30.000,00), 698 (18x de R$ 1.498,33; R$ 26.970,00), 68610 (30x de R$ 1.000,00; R$ 30.000,00) e 68608 (30x de R$ 1.180,00; R$ 35.400,00), com os R$ 250,00 chamados de matrícula (catálogo, seção 2).
 - O catálogo indica a ficha como fonte do cronograma, da coordenação e das condições (contexto/catalogo-de-cursos.md, cabeçalho).
 - Cronograma, presenciais 6, 13 e 21, coordenação, 38 nomes listados, "1ª mensalidade deverá ser paga até 30 dias de antecedência da data de seu início", "Turma mínima de 20 alunos" e a frase ligada ao MEC na página (ficha 68606, ainda na versão de 26/10/2026 nas reconferências).
-- Decisões 8, 10, 11, 14, 15, 16, 18, 21, 22, 23 e 24 (docs/execucao-2026-10-26.md). Decisão 24: idade mínima de 25 anos, sem máxima, leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais), substitui 22 a 35 e 18+; referência citada: Demografia da Medicina Veterinária 2022.
+- Decisões 8, 10, 11, 14, 15, 16, 18, 21, 22, 23, 24 e 25 (docs/execucao-2026-10-26.md). Decisão 24: idade mínima de 25 anos, sem máxima, leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais), substitui 22 a 35 e 18+; referência citada: Demografia da Medicina Veterinária 2022. Decisão 25: quem entra depois do início paga igual; inscrição é o valor de R$ 250,00 e matrícula é a 1ª mensalidade (30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto); responde a OU8 e substitui a D-C; página ajustada depois; aprovador ainda não definido.
 - Regras 4, 5, 6, 7, 9 e 11, OA4, OA9 a OA12, OU3, OU6 e OU8, seção 5 dos canais (cmo-pos-2026-10-26.md, versão 4).
 - Episódio 3 sem chamada de turma, faixa de 22 a 35 do deck e calendário do podcast (cmo-pos-2026-10-28-apresentacao-68606.md, slides 4 e 13 a 15).
 - Contatos oficiais e instabilidade do WhatsApp em 22/10/2026; tabela de aprovação vazia (contexto/ufape-geral.md).
 - Toda peça com preço mostra parcelas, valor da parcela, total e matrícula; persona de 24 a 40 anos e persona secundária recém-formada [SUPOSIÇÃO do contexto]; exceção de divulgação de turma iniciada até a véspera do 3º módulo, com a regra completa (contexto/pos-graduacao.md).
-- Linhas datadas de 28/10/2026 no fim dos 7 arquivos, com as correções e os ajustes aplicados pelo orquestrador (lidas nas reconferências).
+- Linhas datadas de 28/10/2026 no fim dos arquivos revisados, com as correções, os ajustes e a decisão 25 aplicados pelo orquestrador (lidas nas reconferências).
+- Copy-de-mensagens da onda 1: 24 mensagens de 6 turmas, T1 marcado para 28/10, 9h, e T2 para 29/10, 10h; respostas R1 a R10 valem para as 6 turmas (copy-de-mensagens-pos-onda1-2026-10-26.md, seções 0.1, 0.2 e 7).
 - Ordem dos 42 slides e das 7 seções da apresentação ao cliente (ferramentas/apresentacao-68606-cliente/project/deck.json); texto visível e notas dos slides lidos (pasta slides/).
 - Fontes externas citadas nas notas da apresentação, conferidas só quanto à presença depois da limpeza (não quanto ao conteúdo): CFMV e CRMVs via CRMV-RJ, PetBioID via Panorama Pet Vet, Demografia da Medicina Veterinária 2022, Unicruz, UFPA, Semesp e Buzzsprout.
 
@@ -732,22 +874,25 @@ O que este veredito cobre e o que não cobre:
 - Datas das peças derivadas do ep. 3 depois de 22/01 (E22 e E35).
 - Pedido de pausa ao gestor quando G passar de R$ 1.794,29 (E12).
 - A idade de 25 anos nos conjuntos de frio entra na mesma operação da troca de 03/11 e conta como uma mudança só (E29, R11); no Google, a faixa "desconhecida" fica incluída (E36). O gestor confirma as duas.
-- Os commits fe187b2, 66afad5 e 65ed424 são os que o orquestrador informou; as conferências foram feitas pelo conteúdo dos arquivos, não pelo histórico do repositório.
+- Os commits fe187b2, 66afad5, 65ed424 e 8b31dc2 são os que o orquestrador informou; as conferências foram feitas pelo conteúdo dos arquivos, não pelo histórico do repositório.
 - A amostra de 21 notas representa a limpeza das 42; as 20 notas fora da amostra não foram lidas depois da limpeza.
+- A decisão 25 diz quanto paga quem entra depois (os mesmos valores), não quando vence a 1ª mensalidade dele; e cita só os valores da 68606. Por isso U3 e U5 tratam a data e o alcance nas outras turmas como pendentes.
+- Na seção 11, o calendário foi lido nas partes que a decisão 25 toca (semanas 1, 2, 6 a 9, visão mensal e conflitos); o resto não mudou nesta rodada, segundo o orquestrador.
 
 ## [CONFIRMAR]
 
 - A13, A7 e A12 na página da 68606, ou decisão da regulação sobre publicar antes de A7 e A12 (E1, E32). Nas reconferências, a ficha seguia sem mudança.
-- OU8: pagamento da 1ª mensalidade de quem entra depois do início (E8, E16, R4, R12, V-P da Meta). OU3 e OU6 seguem abertas; nenhuma peça promete reposição.
+- Ajuste da página da 68606 no termo inscrição e na linha da 1ª mensalidade (decisão 25, U1), e registro da decisão 25 no catálogo e na ficha (U12).
+- Data de vencimento da 1ª mensalidade de quem entra depois do início, e se a decisão 25 vale para todas as turmas de Pós (U3, U5). OU3 e OU6 seguem abertas; nenhuma peça promete reposição.
+- Se o T1 de 28/10, 9h, saiu e com qual texto (U2).
 - Exceção `pos_conteudo_<AAAAMM>` com o arquiteto-de-fluxos (D-A, E22).
 - Nome real das campanhas Meta e Google da 68606 (exportação D6) (E3).
-- Preferência da pessoa do marketing entre "matrícula" e "inscrição" (D-C).
 - Quem executa e quem confere a troca de fase na sexta 06/11 e no sábado 07/11 (D-G, C13).
 - WhatsApp de vendas funcionando e horário de atendimento (E19, R4).
 - Termo do egresso e aprovação de depoimento (E25); equipe e capacidade do podcast (E26); formulário com política de privacidade (E24).
 - Ok da Esp. Maria Carolina Pappalardo para o P3 e foto aprovada; voz do narrador do tiktok e das locuções F1-V e F2-B.
 - Base legal e evento configurado para as exclusões da Meta (AM6, S7).
-- Quem aprova cada tipo de peça (tabela de contexto/ufape-geral.md vazia; até lá, a pessoa do marketing).
+- Quem aprova cada tipo de peça (tabela de contexto/ufape-geral.md vazia; a decisão 25 registra que o aprovador ainda não foi definido; até lá, a pessoa do marketing).
 
 ## Fontes
 
@@ -755,12 +900,19 @@ O que este veredito cobre e o que não cobre:
 - /home/user/marketing-ufape/contexto/pos-graduacao.md
 - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md
 - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md
-- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (inclusive a decisão 24)
+- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (inclusive as decisões 24 e 25)
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md
+- /home/user/marketing-ufape/saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md
 - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md, /home/user/marketing-ufape/auditorias/12-video-e-audio.md
 - As 7 peças revisadas e reconferidas (cabeçalho).
 - /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/
 - Externas: nenhuma consultada pelo qa.
 
-**Próximo passo:** a apresentação vai ao cliente com o T1 aplicado (e o T2 junto), sem nova revisão. Os 7 arquivos seguem para a aprovação humana (seção 9.2). As peças de depois de 07/11 seguem bloqueadas para publicação até a Ufape publicar a regra do 3º módulo na página da 68606 (OA10). Nota ao cmo: slide 4 do roteiro dele com a decisão 24 e a caixa da titulação.
+**Próximo passo:** voltam para correção, pelo texto exato da seção 11.2:
+- **copy-de-mensagens** (U2 a U5): o U2 entra antes do T2 de 29/10, 10h.
+- **criativos, Meta, posts e calendário** (U1, U6 e U11).
+- **tiktok** (U2).
+- **slides** (U7, U8, U9 e as notas do U1).
+
+Aplicados palavra por palavra, todos seguem para a aprovação humana sem nova revisão. Google e podcast já seguem para a aprovação humana. As peças de depois de 07/11 continuam bloqueadas para publicação até a página da 68606 ser ajustada (OA10). As peças com preço também esperam o termo inscrição e a linha da 1ª mensalidade na página, e a decisão 25 registrada no catálogo (U1, U12). Nota ao cmo: o slide 4 do roteiro dele ainda precisa da decisão 24 e da caixa da titulação.
