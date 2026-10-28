@@ -3,9 +3,10 @@
 - **Agente:** qa-de-marketing (departamento 10, Operações de Marketing)
 - **Linha:** pos
 - **Data:** 28/10/2026 (quarta-feira)
+- **Situação atual:** reconferência feita em 28/10/2026 (seção 8). **Veredito da reconferência: APROVADO.** As seções 1 a 7 registram a primeira revisão (CORRIGIR) e ficam como histórico.
 - **Peças revisadas:**
   - Os 20 slides publicados em /home/user/marketing-ufape/ferramentas/apresentacao-68606/project/slides/, na ordem de deck.json: capa, indice, pracas, publico, curso, meta, verba, mensagem, canais, regua, docentes, podcast, episodio-funil, pauta, calendario, kit, decisoes, proximos, conclusao, anexo (texto visível e notas em aside).
-  - O roteiro do cmo: /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md (inteiro, 582 linhas).
+  - O roteiro do cmo: /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md.
 - **Entradas lidas (fontes primárias):**
   - /home/user/marketing-ufape/CLAUDE.md; /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 21 e regras)
   - /home/user/marketing-ufape/contexto/ufape-geral.md; /home/user/marketing-ufape/contexto/pos-graduacao.md
@@ -22,12 +23,12 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (seções 0 a 8)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md (seção 13: 13.1 a 13.4 e listas)
   - /home/user/marketing-ufape/auditorias/02-estrategia-e-posicionamento.md; /home/user/marketing-ufape/auditorias/conformidade-educacional.md
-- **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web. Nenhum slide e nenhuma linha do roteiro foram editados.
+- **Não aberto:** faculdade.ufape.com.br. Nenhuma busca na web. Nenhum slide e nenhuma linha do roteiro foram editados pelo qa.
 - **Dados pessoais:** nenhum. Docentes citados só com nome e titulação como estão na ficha.
 
 ---
 
-## 1. Veredito
+## 1. Veredito (primeira revisão)
 
 **CORRIGIR.**
 
@@ -73,7 +74,7 @@ São 21 achados: 14 bloqueiam (B) e 7 são ajustes (A). Depois das correções, 
 - Proposta do podcast: nome recomendado UFAPE Cast e as outras cinco opções, subtítulo, assinatura, três públicos, objetivo, quadros, roteiro de 0 a 45 minutos, pacote por episódio, YouTube e Spotify, PodVet como referência editorial e as cores #056382, #6687A6 e #B6CADB. Todos certos.
 - Saídas de 26/10: régua de 6 toques da 68606 (T1, T2, W2, E2, W3, W4, datas e assuntos), frase da regra, 10 respostas do time, ganchos A6-09, A6-03 e A6-02, promessa e pilares da área A6, AD-A6-1 em S3 (09 a 15/11), OA4, OA8 (37 em lacuna), OA9, OA10, R3 de 1,5 x CPL e 3 dias, 30 dias de maturação. Todos certos.
 
-### 2.3 Regras do pedido
+### 2.3 Regras do pedido (primeira revisão)
 
 | Regra | Resultado | Onde |
 |---|---|---|
@@ -88,7 +89,7 @@ São 21 achados: 14 bloqueiam (B) e 7 são ajustes (A). Depois das correções, 
 
 ---
 
-## 3. Achados
+## 3. Achados (primeira revisão)
 
 Legenda: **B** bloqueia (falha de conformidade, regra do pedido, marca [SUPOSIÇÃO] ou [CONFIRMAR] perdida, ou mudança de sentido); **A** ajuste (precisão ou clareza, sem mudar o sentido). Quando o mesmo erro está no roteiro, a correção vale para os dois arquivos.
 
@@ -230,7 +231,7 @@ Legenda: **B** bloqueia (falha de conformidade, regra do pedido, marca [SUPOSIÇ
 
 ---
 
-## 4. auditorias/02-estrategia-e-posicionamento.md (aplicada à apresentação e ao roteiro)
+## 4. auditorias/02-estrategia-e-posicionamento.md (primeira revisão)
 
 | Item | Resultado | Observação |
 |---|---|---|
@@ -246,7 +247,7 @@ Legenda: **B** bloqueia (falha de conformidade, regra do pedido, marca [SUPOSIÇ
 
 ---
 
-## 5. auditorias/conformidade-educacional.md, item por item
+## 5. auditorias/conformidade-educacional.md, item por item (primeira revisão)
 
 A apresentação é interna, mas traz exemplos de peças (anúncio, remarketing, Stories, cortes) que vão a público depois. Os itens valem para esses exemplos e para os dados citados.
 
@@ -281,9 +282,7 @@ A apresentação é interna, mas traz exemplos de peças (anúncio, remarketing,
 | Anúncios | Página carrega, domínio esperado, dados da Ufape, contato e privacidade | **Não atende (pendente externo)** | p04 e OA10 |
 | Anúncios | Sem sugestão para driblar a análise das plataformas | Atende | |
 
-**Resultado:** Bloqueado. Itens que precisam mudar: modalidade (F2), preço (F3, F12), urgência (F1), autorização (F8, F16). Pendentes externos que seguem bloqueando as peças, não a apresentação: política de privacidade (p04) e página de destino (OA10).
-**Revisado por:** qa-de-marketing (agente). Revisão humana: pendente.
-**Data:** 28/10/2026.
+**Resultado (primeira revisão):** Bloqueado. Itens que precisavam mudar: modalidade (F2), preço (F3, F12), urgência (F1), autorização (F8, F16). Pendentes externos que seguem bloqueando as peças, não a apresentação: política de privacidade (p04) e página de destino (OA10).
 
 ---
 
@@ -296,9 +295,91 @@ A apresentação é interna, mas traz exemplos de peças (anúncio, remarketing,
 
 ---
 
-## 7. Próximo passo
+## 7. Próximo passo (primeira revisão)
 
-A apresentação **volta para o agente que a produziu** (cmo, com o orquestrador que montou os slides) para aplicar F1 a F21 nos slides e, onde indicado, no roteiro. Depois, nova conferência do qa só desses itens. Ela não segue para a aprovação humana nesta versão. Nada foi publicado, enviado ou pago.
+A apresentação voltou para o agente que a produziu (cmo, com o orquestrador que montou os slides) para aplicar F1 a F21 nos slides e, onde indicado, no roteiro, com nova conferência do qa só desses itens. Resultado na seção 8.
+
+---
+
+## 8. Reconferência (28/10/2026)
+
+**Veredito: APROVADO.**
+
+Reconferidos só os itens F1 a F21, nos 14 slides tocados (curso, meta, verba, mensagem, canais, regua, docentes, episodio-funil, pauta, calendario, kit, decisoes, proximos, anexo) e no roteiro, inclusive a seção "Correções do qa de 28/10/2026". Nenhum item ficou aberto.
+
+### 8.1 Item por item
+
+| Item | Onde | Resultado | O que está agora |
+|---|---|---|---|
+| F1 | mensagem.html | Corrigido | card de remarketing com a frase da regra inteira, igual ao texto exato; a frase solta saiu da nota |
+| F2 | mensagem.html | Corrigido | anúncio até 06/11 com "módulo 1 online", "Teoria online", 1º presencial em 17 e 18/04/2027 e "Veja parcelas, total e matrícula na página da turma" |
+| F3 | curso.html | Corrigido | "no cartão ou boleto", matrícula, condição da 1ª mensalidade, [CONFIRMAR U11] e "Nunca em peça até a U11", na etiqueta "uso interno" |
+| F4 | verba.html | Corrigido | título "com a verba que sobrar do ciclo"; colunas "Fase 1 (28/10 a 06/11), teto se G = 0" e "Fase 2 (07/11 a 22/01), teto se G = 0"; rodapé com [SUPOSIÇÃO], fórmula com G e [CONFIRMAR PP15] |
+| F5 | regua.html e roteiro, slide 10 | Corrigido | "dentro do teto D16."; linha "Número [SUPOSIÇÃO do cmo, D16], revisto pelos limites de alerta com fonte."; o item do teto no roteiro e a lista [SUPOSIÇÃO] também foram trocados |
+| F6 | regua.html (nota) e roteiro | Corrigido | limites de alerta e de corte com o texto exato, inclusive "2 envios seguidos" e [SUPOSIÇÃO do fator 2] |
+| F7 | episodio-funil.html, anexo.html e roteiro | Corrigido | título "10 peças de divulgação, e as chamadas de turma levam à página da turma"; contagem certa (só o pacote, 3 + 3 + 1 + 2 + 1) com [SUPOSIÇÃO de contagem] nas duas notas e na lista do roteiro |
+| F8 | episodio-funil.html | Corrigido | "com o ok dele (checklist C1 a C8)", "só com aprovação (AP-4)" e "nome e titulação da ficha, link com UTM e transcrição revisada" |
+| F9 | docentes.html e roteiro | Corrigido | texto do critério do qa no slide; item fora da lista [SUPOSIÇÃO] e citado como fato com a fonte |
+| F10 | kit.html e roteiro | Corrigido | ver 8.2 |
+| F11 | canais.html | Corrigido | "Podcast (UFAPE Cast, nome em aprovação)"; Instagram "nos slots que a grade da Pós já tem" |
+| F12 | decisoes.html e roteiro | Corrigido | item 5 com "· uso interno"; cabeçalho do roteiro lista os slides 5, 6 e 17 com a marca |
+| F13 | verba.html, anexo.html e roteiro | Corrigido | "a 10 dias do início" e "10 dias até o início" |
+| F14 | meta.html | Corrigido | etiqueta "[SUPOSIÇÃO ilustrativa] taxas sem histórico"; card com "2 semanas fechadas", "em nenhum dos três cenários" e "[CONFIRMAR com a The Growth Hub]"; nota do otimista (111,11 e R$ 17,86) no aside, ver 8.2 |
+| F15 | pauta.html, mensagem.html e roteiro | Corrigido | três nomes no padrão "Pós-graduação em" |
+| F16 | pauta.html | Corrigido | rodapé com tema e agenda de cada docente, nome do egresso, convidados e autorização por episódio [CONFIRMAR] (decisão 21); regra do nome do Workshop na nota |
+| F17 | proximos.html | Corrigido | "Recomendação do deck: dashboards e sistemas da The Growth Hub..." e "Ferramentas da Ufape: [CONFIRMAR]" |
+| F18 | calendario.html e roteiro | Corrigido | ver 8.2; "Módulo 1, online" |
+| F19 | curso.html e roteiro | Corrigido | ver 8.2 |
+| F20 | anexo.html e roteiro | Corrigido | origem do critério (vídeo de 68610) e [SUPOSIÇÃO do cmo] na nota e na lista do roteiro; "[SUPOSIÇÃO]" também na coluna Quanto do slide |
+| F21 | mensagem.html e roteiro | Corrigido | pilar 3 com "a turma pode não ser formada" |
+
+### 8.2 Pontos que o orquestrador pediu para conferir (texto mais curto ou levado para o aside)
+
+- **F10, rodapé da coluna 1 do kit:** "Planos esperam a aprovação do plano da onda 1; mensagens, o OA9. O plano aprovado tinha podcast e YouTube fora: a mudança da decisão 21 espera aprovação humana." As aprovações estão certas e a nota de podcast e YouTube fora se mantém. A parte "depende desta revisão" deixou de ser necessária, porque esta reconferência é a revisão do qa sobre essa mudança (seção 8.3). **Aceito.**
+- **F14, nota do otimista no aside:** o slide continua com a marca [SUPOSIÇÃO ilustrativa] visível, e a conta de 111,11 leads e R$ 17,86 fica com quem apresenta. É detalhe de conta, não marca nem condição. **Aceito.**
+- **F18, linha de 21/12 a 03/01:** "Sem mensagem de campanha · só remarketing, diária pela metade [SUPOSIÇÃO]". A marca está visível; a origem (gestor, 13.1) e a regra da mensagem de serviço estão no aside; "Sem mensagem de campanha" já não proíbe o serviço. **Aceito.**
+- **F19, bandeira do módulo 3:** "matrícula até o 3º módulo [CONFIRMAR OU6]", e o rodapé do slide diz "Matrícula vale até a véspera ou no 1º dia do 3º módulo: [CONFIRMAR OU6]". A pendência aparece na própria bandeira e é explicada na mesma tela. **Aceito.**
+- **Subtítulos de curso e canais:** no curso, o subtítulo virou a etiqueta "02 · O curso exemplo · Pós-graduação em Gastroenterologia Veterinária · São Paulo · 68606", com o nome no padrão. Em canais, "Cinco canais ativos, que saem de três produções; três ficam de fora, com motivo" foi para o aside, e a tabela mostra os 8 canais com estado e motivo. Nenhum dos dois perdeu marca ou condição. **Aceito.**
+- **F7, linha "Quinzena" no aside:** foi com a marca "Quinzena [SUPOSIÇÃO]", e o card do convidado na quarta foi acrescentado, como no roteiro. O slide não afirma o calendário sem a marca. **Aceito.**
+
+### 8.3 Decisão do qa sobre a mudança de canais (pendência do F10)
+
+O plano dos 8 canais com podcast ativo como motor de conteúdo e YouTube ativo só no orgânico (canais.html, slide 09) passa no qa. A decisão 21 inclui o podcast; o YouTube pago continua fora (PP13); a produção fica fora dos R$ 2.000,00; e os pontos de capacidade, nome, perfis e custo estão marcados [CONFIRMAR]. Falta a aprovação humana.
+
+### 8.4 Regras do pedido, depois das correções
+
+| Regra | Resultado |
+|---|---|
+| Nenhum travessão nem meia-risca | Atende na leitura dos slides corrigidos e da seção nova do roteiro (busca automática dos caracteres U+2014 e U+2013 com o orquestrador) |
+| Nunca "certificado/reconhecido pelo MEC" | Atende |
+| TGH nunca chamada de agência | Atende |
+| Nada de dado pessoal | Atende |
+| Preço só como uso interno | Atende (slides 5, 6 e 17 marcados) |
+| Nada de urgência sem número real | Atende (data do 3º módulo só dentro da regra completa nos exemplos de peça) |
+| Sempre "Pós-graduação em" no nome | Atende |
+| Nome exato do evento | Atende |
+
+### 8.5 auditorias/conformidade-educacional.md, itens que estavam em "Não atende"
+
+| Item | Resultado agora |
+|---|---|
+| Modalidade clara e correta | Atende (F2) |
+| Valor, parcelas e condições completas | Atende (F3, F12) |
+| Urgência real | Atende (F1) |
+| Autorização de uso de imagem | Atende (docentes pelas decisões 8 e 10; card do convidado com o ok dele, F8; egresso e convidados com autorização [CONFIRMAR] por episódio, F16) |
+| Sem urgência falsa nos anúncios | Atende (F1) |
+| Formulários com política de privacidade | Pendente externo (p04): continua bloqueando a publicação das peças, não a apresentação |
+| Página de destino entrega o que a peça promete / página com privacidade | Pendente externo (OA10, p04): mesma condição |
+
+Os demais itens seguem como na seção 5 (Atende ou Não se aplica).
+
+**Resultado da reconferência:** Aprovado para a apresentação, que é interna. Os exemplos de peça que ela mostra só podem ser publicados depois de p04 e OA10 e com o qa próprio de cada peça.
+**Revisado por:** qa-de-marketing (agente). Revisão humana: pendente.
+**Data:** 28/10/2026.
+
+### 8.6 Próximo passo
+
+A apresentação **segue para a aprovação humana** (pessoa do marketing e diretoria). Continuam valendo as observações da seção 6, que não bloqueiam: o pos-68606.json com canais desatualizados (orquestrador) e o A6-02 no arquivo do criador-de-ganchos. Nada foi publicado, enviado ou pago.
 
 ---
 
@@ -340,6 +421,6 @@ A apresentação **volta para o agente que a produziu** (cmo, com o orquestrador
 - /home/user/marketing-ufape/saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-geral-2026-10-26.md
-- /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md
+- /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md (inclusive a seção "Correções do qa de 28/10/2026")
 - /home/user/marketing-ufape/ferramentas/apresentacao-68606/project/deck.json e slides/*.html
 - /home/user/marketing-ufape/auditorias/02-estrategia-e-posicionamento.md; /home/user/marketing-ufape/auditorias/conformidade-educacional.md
