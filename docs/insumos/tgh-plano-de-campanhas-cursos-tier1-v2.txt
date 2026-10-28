@@ -1,0 +1,584 @@
+=== slide 1
+- UFAPE · INTERCURSOS
+- Plano de campanhas. Cursos tier 1.
+- Onde investir, quem impactar e quanto destinar a cada curso de pós-graduação veterinária no Meta Ads.
+- OUTUBRO 2026
+- THE GROWTH HUB
+=== slide 2
+- ÍNDICE
+- O que vamos apresentar
+- 01
+- Segmentação por localidade
+- Onde investir: cinco praças que concentram 76,7% da base de cadastros
+- 02
+- Estratégia de Públicos
+- Quem impactar: um público base de veterinários formados para todos os cursos
+- 03
+- Plano por curso
+- Quanto investir: público, localização e verba de cada um dos sete cursos tier 1
+- 04
+- Conclusão
+- Resumo do plano e próximos passos
+- UFAPE Intercursos · Plano de campanhas
+- Índice
+=== slide 3
+- UFAPE · INTERCURSOS
+- Segmentação por localidade. Onde investir em cada praça.
+- Estratégia de campanhas construída a partir de 10.447 cadastros consolidados. As cinco praças priorizadas cobrem 76,7% da base.
+- OUTUBRO 2026
+- THE GROWTH HUB
+=== slide 4
+- 01 · SÃO PAULO UNIFICADO
+- Metade da base está em um só estado. Um em cada dois cadastros.
+- 49,3%
+- 5.151 de 10.447 cadastros. SP sozinho supera a soma dos 14 estados seguintes (4.636).
+- Estado de SP sem a capital
+- 2.900 · 27,8%
+- Capital
+- 2.251 · 21,5%
+- Fora da capital estão 56% de SP: região metropolitana (658), interior e litoral do top 20 (418) e cerca de 1.824 cadastros espalhados por outras cidades. Por isso São Paulo roda em duas campanhas, com exclusão cruzada entre elas.
+- UFAPE · Segmentação por localidade
+- 02
+=== slide 5
+- 02 · PRAÇAS FORA DE SÃO PAULO
+- Três praças com perfis distintos. Uma delas tem unidade própria.
+- GOIÁS + DF
+- 947 · 9,1%
+- Praça da unidade UFAPE em Goiânia. Penetração de ~92 cadastros por milhão de habitantes em GO e ~105 no DF, mais que o dobro de MG e RJ.
+- Raio de 30 a 50 km da unidade · restante de GO · Brasília
+- REGIÃO SUL
+- 1.099 · 10,5%
+- RS 386 · PR 371 · SC 342. Volume equilibrado e público espalhado pelo interior: nenhuma capital passa de 42% do estado.
+- Uma campanha · um conjunto por estado
+- MINAS GERAIS
+- 819 · 7,8%
+- Segundo estado em volume. Belo Horizonte concentra só 34%, então focar na capital deixaria dois terços do público de fora.
+- Estado inteiro
+- UFAPE · Segmentação por localidade
+- 03
+=== slide 6
+- 03 · DIVISÃO DE INVESTIMENTO
+- Verba proporcional ao volume. Peso extra onde há unidade.
+  | Campanha | Cadastros | % base | Verba |
+  | 1. Estado de SP sem a capital | 2.900 | 27,8% | 30% |
+  | 2. Capital SP | 2.251 | 21,5% | 25% |
+  | 3. Goiás + DF (unidade) | 947 | 9,1% | 20% |
+  | 4. Sul: RS 5% · PR 5% · SC 4% | 1.099 | 10,5% | 14% |
+  | 5. Minas Gerais | 819 | 7,8% | 11% |
+  | Total | 8.016 | 76,7% | 100% |
+- São Paulo · 55%. O estado concentra 64% do público do top 5 e se divide em duas campanhas que não competem entre si.
+- Goiás + DF · 20%. Única praça acima do seu volume, pela unidade e pelo histórico: CPA de R$ 168,50 na Imersão Cirurgia (GO), contra R$ 210,51 da conta.
+- Sul e MG · 25%. Seguem o volume, com realocação entre conjuntos após as primeiras semanas.
+- UFAPE · Segmentação por localidade
+- 04
+=== slide 7
+- UFAPE · INTERCURSOS
+- Estratégia de Públicos. Veterinário formado como base.
+- Por que cursos de nicho não se segmentam por interesse no Meta, e como a especialidade chega ao público certo.
+- OUTUBRO 2026
+- THE GROWTH HUB
+=== slide 8
+- 04 · POR QUE NÃO SEGMENTAR POR CURSO
+- Cursos de nicho não existem no Meta. Segmentar por curso não se sustenta.
+- O PROBLEMA
+- Nenhum curso tier 1 existe como interesse veterinário no Meta: Cardiorrespiratório, Gastroenterologia, Nefrologia, Hematologia, Diagnóstico por imagem, Endoscopia e Cirurgia.
+- O QUE OS TESTES MOSTRARAM
+- As especialidades só aparecem como campo de estudo ou cargo, de medicina humana, e pouquíssimos veterinários as declaram. Qualquer forma de incluir a especialidade no público quebra o tamanho ou a qualidade.
+- A SOLUÇÃO
+- Um público base de veterinários formados para todos os cursos. A especialidade entra pelo criativo, pela estrutura das campanhas e por públicos próprios.
+- ESPECIALIDADE OBRIGATÓRIA (E)
+- Menos de 1.000 pessoas
+- Público pequeno demais para o algoritmo entregar
+- ESPECIALIDADE OPCIONAL (OU)
+- Milhões de pessoas
+- O ganho vem de médicos de humanos, fora do público
+- UFAPE · Estratégia de Públicos
+- 06
+=== slide 9
+- 05 · PÚBLICO BASE
+- Um público para todos os cursos. Só veterinário formado.
+- GRUPO 1 · É VETERINÁRIO
+- Campo de estudo: Medicina veterinária OU Cargo: Médico Veterinário OU Veterinarian (VET)
+- E
+- GRUPO 2 · É FORMADO
+- Nível educacional: Formação universitária OU Mestrado
+- Em cada praça: localização e exclusões geográficas · idade mínima · exclusão de alunos do curso
+- EXEMPLO REAL
+- Público Otimizado · Estado de SP
+- Localização: estado de São Paulo
+- Exclusão: cidade de São Paulo + 40 km
+- Idade: mínima 20 · sugestão de 22 a 35
+- Direcionamento: veterinário E formado
+- Tamanho estimado: 4,7 a 5,5 milhões
+- UFAPE · Estratégia de Públicos
+- 07
+=== slide 10
+- UFAPE · INTERCURSOS
+- Plano por curso. Tier 1.
+- Como a segmentação por localidade e o público base de veterinários formados se aplicam a cada curso prioritário.
+- OUTUBRO 2026
+- THE GROWTH HUB
+=== slide 11
+- CURSO TIER 1
+- Nefrologia e Urologia Veterinária
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Nefrologia e Urologia para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 1/7
+=== slide 12
+- CURSO TIER 1
+- Nefrologia e Urologia Veterinária
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 1/7 · Investimento
+=== slide 13
+- CURSO TIER 1
+- Cardiorrespiratório Veterinário
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Cardiorrespiratório para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 2/7
+=== slide 14
+- CURSO TIER 1
+- Cardiorrespiratório Veterinário
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 2/7 · Investimento
+=== slide 15
+- CURSO TIER 1
+- Cirurgia de Pequenos Animais
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Cirurgia de Pequenos Animais para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 3/7
+=== slide 16
+- CURSO TIER 1
+- Cirurgia de Pequenos Animais
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 3/7 · Investimento
+=== slide 17
+- CURSO TIER 1
+- Diagnóstico por Imagem
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Diagnóstico por Imagem para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 4/7
+=== slide 18
+- CURSO TIER 1
+- Diagnóstico por Imagem
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 4/7 · Investimento
+=== slide 19
+- CURSO TIER 1
+- Endoscopia Veterinária
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Endoscopia para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 5/7
+=== slide 20
+- CURSO TIER 1
+- Endoscopia Veterinária
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 5/7 · Investimento
+=== slide 21
+- CURSO TIER 1
+- Gastroenterologia Veterinária
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% ·  | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Gastroenterologia para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 6/7
+=== slide 22
+- CURSO TIER 1
+- Gastroenterologia Veterinária
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 6/7 · Investimento
+=== slide 23
+- CURSO TIER 1
+- Hematologia Veterinária
+- Pós-Graduação
+- PÚBLICO E LOCALIZAÇÃO PROPOSTOS
+- LOCALIZAÇÃO
+- Estado de SP sem a capital 30% · Capital SP 25% · | Goiás + DF 20% · Sul 14% · MG 11%
+- IDADE
+- De 22 a 35 anos
+- FORMATOS
+- Estático e vídeo
+- PÚBLICO
+- UFAPE · Veterinários formados: Medicina veterinária ou Médico Veterinário, E formação universitária ou mestrado
+- CRIATIVO
+- “Pós em Hematologia para médicos veterinários formados”
+- Observação: com a unidade da UFAPE em Goiás, recomendamos ampliar a oferta de cursos nessa praça, que receberá mais visibilidade.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 7/7
+=== slide 24
+- CURSO TIER 1
+- Hematologia Veterinária
+- Divisão de investimento · mesma divisão para qualquer verba
+- CINCO CAMPANHAS, UMA POR REGIÃO
+- 30%
+- 25%
+- 20%
+- 14%
+- 11%
+- CAMPANHA
+- %
+- COM R$ 2.000
+- COM R$ 3.000
+- COM R$ 5.000
+- Estado de SP sem a capital
+- 30%
+- R$ 600
+- R$ 900
+- R$ 1.500
+- Capital SP
+- 25%
+- R$ 500
+- R$ 750
+- R$ 1.250
+- Goiás + DF
+- 20%
+- R$ 400
+- R$ 600
+- R$ 1.000
+- Sul: RS, PR e SC
+- 14%
+- R$ 280
+- R$ 420
+- R$ 700
+- Minas Gerais
+- 11%
+- R$ 220
+- R$ 330
+- R$ 550
+- DEFESA DA ESTRATÉGIA · BUDGET INICIAL DE R$ 3.000
+- A verba segue a base de cadastros. São Paulo recebe 55% por concentrar metade da base, e Goiás + DF tem peso extra pela unidade. Após as primeiras semanas, a verba migra para as regiões com menor custo por matrícula.
+- UFAPE Intercursos · Plano de campanhas · Plano por curso
+- Curso 7/7 · Investimento
+=== slide 25
+- PRÓXIMOS PASSOS
+- Leitura semanal do funil
+- Marketing e Vendas olhando para os mesmos números
+- POR QUE A COMBINAÇÃO DE ESTRATÉGIAS FUNCIONA
+- PRIORIZAR
+- As praças core, como São Paulo, concentram a maior parte da verba e da base de cadastros.
+- TESTAR
+- A mesma estrutura mede a aderência de regiões promissoras: Goiás + DF, Sul e Minas Gerais.
+- CONECTAR
+- Cada curso terá aderência diferente em cada estado. Só o fim do funil, com CRM e comercial, mostra onde a matrícula acontece.
+- RECOMENDAÇÃO
+- Utilização de dashboards e sistemas TGH para Cruzar toda semana a performance das campanhas com os dados do CRM e do comercial, para identificar os cursos top sellers e os possíveis gargalos.
+- UFAPE Intercursos · Plano de campanhas
+- Próximos passos
+=== slide 26
+- CONCLUSÃO
+- Obrigado. Plano pronto para entrar no ar.
+- INVESTIMENTO TOTAL MENSAL
+- R$ 21.000
+- 7 cursos tier 1 × R$ 3.000
+- Por região: Estado de SP R$ 6.300 · Capital SP R$ 5.250 · Goiás + DF R$ 4.200 · Sul R$ 2.940 · MG R$ 2.310
+- ONDE
+- Cinco praças com 76,7% da base, São Paulo com 55% da verba e peso extra para Goiás + DF
+- QUEM
+- Veterinários formados como público base, com a especialidade de cada curso no criativo
+- QUANTO
+- R$ 3.000 por curso, sempre com a mesma divisão por região
+- OUTUBRO 2026
+- THE GROWTH HUB
