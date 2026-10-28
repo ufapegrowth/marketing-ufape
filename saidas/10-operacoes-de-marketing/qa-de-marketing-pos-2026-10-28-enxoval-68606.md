@@ -3,8 +3,8 @@
 - **Agente:** qa-de-marketing (departamento 10, Operações de Marketing)
 - **Linha:** pos
 - **Data:** 28/10/2026 (quarta-feira)
-- **Versão:** 5. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). A versão 4 acrescentou a **seção 8, Reconferência** dos achados E1 a E36 (commit fe187b2 informado pelo orquestrador). Esta versão acrescenta a **seção 9**: reconferência dos ajustes R1 a R14 (commit 66afad5 informado pelo orquestrador) e revisão dos slides e-* da apresentação ao cliente. Os commits foram conferidos pelo conteúdo dos arquivos, não pelo histórico do repositório. As seções 1 a 8 ficam como registro.
-- **Objeto:** as 7 peças novas do enxoval da 68606 e os slides do enxoval na apresentação ao cliente (decisões 22 e 23).
+- **Versão:** 6. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). A versão 4 acrescentou a **seção 8**, reconferência dos achados E1 a E36 (commit fe187b2 informado pelo orquestrador). A versão 5 acrescentou a **seção 9**, reconferência de R1 a R14 (commit 66afad5) e revisão dos slides e-* da apresentação ao cliente. Esta versão acrescenta a **seção 10**: conferência de S1 a S7 e R15 (commit 65ed424), do e-posts-2 e da limpeza das notas do apresentador, com o veredito final da apresentação. Os commits foram conferidos pelo conteúdo dos arquivos, não pelo histórico do repositório. As seções 1 a 9 ficam como registro.
+- **Objeto:** as 7 peças novas do enxoval da 68606 e a apresentação ao cliente com o enxoval (decisões 22 e 23).
 - **Status:** rascunho de revisão. Nada é publicado, enviado ou pago. As peças e os slides não foram editados pelo qa: cada correção volta para o dono do arquivo.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
@@ -14,16 +14,16 @@
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (versão 4: seções 1 a 11)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md (slides 1 a 15)
   - As 7 peças: /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-28-calendario-68606.md (relidas nas reconferências, nos trechos de cada achado)
-  - Apresentação ao cliente: /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os 25 slides e-* em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/ (e-abertura a e-semana, na ordem do deck.json)
+  - Apresentação ao cliente: /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/ (os 25 e-* na seção 9; na seção 10, os 14 reconferidos e mais 8 por amostragem das notas)
   - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md e /home/user/marketing-ufape/auditorias/12-video-e-audio.md. Não existe auditorias/04-conteudo.md: o calendário foi auditado pela conformidade-educacional e pela coerência com as peças.
-- **Não aberto nesta revisão:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6), o copy-de-mensagens-pos-onda1 e os 17 slides que não são do enxoval (capa a calendario, precisamos e proximos). Os slides e-email, e-whats-1, e-whats-2 e e-respostas reproduzem o copy-de-mensagens, que esta revisão não cobre: foram conferidos só nos 5 pontos pedidos. As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação do cmo [SUPOSIÇÃO: o original A6 não foi relido]. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha).
+- **Não aberto nesta revisão:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6), o copy-de-mensagens-pos-onda1 e os slides fora do enxoval que não entraram na amostra da seção 10.2. Os slides e-email, e-whats-1, e-whats-2 e e-respostas reproduzem o copy-de-mensagens, que esta revisão não cobre: foram conferidos só nos pontos pedidos. As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação do cmo [SUPOSIÇÃO: o original A6 não foi relido]. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha).
 - **Dados pessoais:** nenhum nesta revisão. Docentes só com nome e titulação da ficha.
 
 ---
 
 ## 1. Vereditos (revisão original, versão 3)
 
-**Vereditos atuais: seção 9.**
+**Vereditos atuais: seção 9.2 (arquivos) e seção 10.4 (apresentação).**
 
 | # | Arquivo | Veredito | Achados que bloqueiam | Volta para |
 |---|---|---|---|---|
@@ -547,7 +547,7 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 
 ## 9. Segunda reconferência (R1 a R14) e slides do enxoval na apresentação ao cliente
 
-Data: 28/10/2026. Escopo: (1) os ajustes R1 a R14 nos 7 arquivos (o orquestrador informou o commit 66afad5; conferi pelo conteúdo); (2) os 25 slides e-* da apresentação ao cliente, nos 5 pontos pedidos: status de cada peça, P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo e nenhum código interno nem telefone no texto visível. Texto visível é o que fica na tela; o bloco `<aside>` de cada slide é nota do apresentador e não aparece para o cliente, por isso códigos e nomes de arquivo ali não contam como achado.
+Data: 28/10/2026. Escopo: (1) os ajustes R1 a R14 nos 7 arquivos (o orquestrador informou o commit 66afad5; conferi pelo conteúdo); (2) os 25 slides e-* da apresentação ao cliente, nos 5 pontos pedidos: status de cada peça, P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo e nenhum código interno nem telefone no texto visível. Texto visível é o que fica na tela; o bloco `<aside>` de cada slide é nota do apresentador.
 
 **E1 segue igual:** reli a ficha da 68606 e ela continua na versão de 26/10/2026, sem a regra do 3º módulo (A13), com "Turma mínima de 20 alunos" (A12) e com a frase ligada ao MEC (A7). As peças de depois de 07/11 seguem bloqueadas para publicação até a A13 estar na página e conferida pelo qa (pedido OA10 à Ufape).
 
@@ -597,7 +597,7 @@ Conferi os 25 slides do enxoval: e-abertura, e-midia, e-meta-f1e, e-meta-f1c, e-
 | P5 sem valores | **OK no slide e-posts-3:** gancho "Onde ver a conta inteira.", "Parcelas, total e matrícula estão na página da turma." e "Versão com preço bloqueada até a regra de pagamento.". Nenhum valor em texto visível. O título do slide ainda diz "A conta inteira" (S6) e o e-cal-dez não diz que o post sai sem valores (S5) |
 | Idade de 25 anos ou mais | **OK:** e-midia diz "a partir de 25 anos, sem idade máxima, em todos os públicos, inclusive o frio, a partir de 03/11. Leitura por faixa: 25 a 34, 35 a 44 e 45 ou mais.". Nenhum outro slide do enxoval cita idade. Fora do enxoval, o slide 4 da apresentação do cmo segue com a nota da D-F |
 | Regra do 3º módulo | **OK:** a frase aparece inteira e sem mudar palavra em e-meta-f2a, e-meta-f2b (em 3 telas, na ordem), e-posts-2, e-video-b (em 2 cards, na ordem), e-email (e-mail 2) e e-whats-2 (W3 e W4). A data do 3º módulo não aparece fora da frase em nenhum texto visível. e-google-rsa explica que a regra não cabe no Google e fica na página |
-| Código interno e telefone no texto visível | **OK para telefone:** nenhum número aparece em texto visível. **OK para código:** nenhum código de peça (F1-E, P5, TK-B, EP1-C2 e similares), de pendência (A13, OU8) nem nome de arquivo aparece em texto visível; todos estão só nas notas. "[nome]" em e-email e e-whats-1 e e-whats-2 é o campo de personalização da mensagem, não código interno |
+| Código interno e telefone no texto visível | **OK para telefone:** nenhum número aparece em texto visível. **OK para código:** nenhum código de peça (F1-E, P5, TK-B, EP1-C2 e similares), de pendência (A13, OU8) nem nome de arquivo aparece em texto visível; todos estavam só nas notas. "[nome]" em e-email e e-whats-1 e e-whats-2 é o campo de personalização da mensagem, não código interno |
 
 Também conferido, sem achado: as datas dos slides batem com os arquivos corrigidos (fase 1 até 06/11, 23h59; remarketing de 07/11 a 22/01, 23h59; ep. 3 só no YouTube e no Spotify em 22/12; peças do ep. 3 depois de 22/01; corte 2 e card 4:5 em Story; P4 em 03/12). O nome do curso aparece sempre inteiro e as titulações de docentes estão como na D-E. Os slides não usam frase de certificação, "últimas vagas", bolsa nem promessa. Também não há travessão, meia-risca nem a palavra "agência", na leitura integral dos 25 slides.
 
@@ -632,11 +632,79 @@ Também conferido, sem achado: as datas dos slides batem com os arquivos corrigi
 **S7. Exclusões apresentadas como certas (corrigir: dependem de base legal e de evento configurado)**
 - e-midia, coluna "Quem vê", segunda linha. Trecho atual: "Fora: alunos atuais e quem já pagou a 1ª mensalidade." Correção exata: "Fora, quando a exclusão estiver configurada e com base legal confirmada pela Ufape: alunos atuais e quem já pagou a 1ª mensalidade." Fonte: anuncios-meta, 4.3 e AM6 ("Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio").
 
-### 9.5 Veredito da apresentação (slides e-*)
+### 9.5 Veredito da apresentação (slides e-*), versão 5
 
-**CORRIGIR.** Motivo: S1 e S2 mostram ao cliente um status que não é o atual, e três peças de depois de 07/11 aparecem sem o bloqueio da página. S3, S4 e S7 apresentam como certo o que depende de reserva, da A13 ou de base legal. Sem esses ajustes, o slide promete o que a peça ainda não pode cumprir (auditoria, "entrega exatamente o que prometeu"). S5 e S6 são ajustes de redação. Os 5 pontos pedidos passam, menos o status: P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo, nenhum código interno e nenhum telefone no texto visível.
+**CORRIGIR.** Motivo: S1 e S2 mostravam ao cliente um status que não era o atual, e três peças de depois de 07/11 apareciam sem o bloqueio da página. S3, S4 e S7 apresentavam como certo o que depende de reserva, da A13 ou de base legal. S5 e S6 eram ajustes de redação. Slides a reconferir: e-abertura, e-midia, e-google, e-google-rsa, e-posts-1, e-posts-3, e-cast-ep1, e-cast-pacote, e-cast-eps, e-cal-nov, e-cal-dez, e-cal-jan e e-semana. Resultado na seção 10.
 
-Correções S1 a S7 de volta para quem montou a apresentação (orquestrador). Depois disso, o qa reconfere só os slides citados: e-abertura, e-midia, e-google, e-google-rsa, e-posts-1, e-posts-3, e-cast-ep1, e-cast-pacote, e-cast-eps, e-cal-nov, e-cal-dez, e-cal-jan e e-semana. A apresentação vai ao cliente como plano em aprovação; nenhuma peça é publicada, enviada ou paga a partir dela.
+---
+
+## 10. Terceira conferência: slides corrigidos, notas do apresentador e veredito final da apresentação
+
+Data: 28/10/2026. Escopo: (1) S1 a S7 e R15 (o orquestrador informou o commit 65ed424; conferi pelo conteúdo) nos 13 slides da seção 9.5, mais o e-posts-2, que também mudou de selo; (2) por amostragem, se a limpeza das notas do apresentador (o cliente pode lê-las) apagou alguma ressalva, marca ou fonte externa. Como as notas agora são material do cliente, elas também passam a contar como texto lido pelo cliente.
+
+**E1 segue igual:** a ficha da 68606 continua sem a regra do 3º módulo, com a turma mínima de 20 e com a frase ligada ao MEC. Os slides dizem isso como "sai com a regra na página", o que está certo.
+
+### 10.1 Os 14 slides reconferidos
+
+| Slide | Item | Situação |
+|---|---|---|
+| e-abertura | S1 | Corrigido: Meta, Google, Posts, UFAPE Cast e Calendário em "pronto para aprovação"; Vídeo curto em "pronto para aprovação · versão B sai com a regra na página"; nota com a nova definição de status. "Time de vendas" segue "em revisão", como previsto |
+| e-midia | S7 | Corrigido: "Fora, quando a exclusão estiver configurada e com base legal confirmada pela Ufape: alunos atuais e quem já pagou a 1ª mensalidade." Idade de 25 anos ou mais mantida |
+| e-google | S1 | Corrigido: "pronto para aprovação · sai com a regra na página" |
+| e-google-rsa | S1 | Corrigido: "pronto para aprovação · sai com a regra na página" |
+| e-posts-1 | S1 | Corrigido: "pronto para aprovação" (P1 e P2 são de antes de 07/11) |
+| e-posts-2 | selo | **Falha de digitação (T1):** o selo ficou "pronto para aprovação · sai com a regra na página · sai com a regra na página", com a expressão repetida |
+| e-posts-3 | S2, S6 | Corrigidos: selo "pronto para aprovação · sai com a regra na página" e título "Onde ver a conta e o que vem agora." P5 continua sem valores em texto visível |
+| e-cast-ep1 | S2 | Corrigido: "pronto para aprovação · sai com a regra na página" |
+| e-cast-pacote | S1 | Corrigido: "pronto para aprovação · sai com a regra na página"; corte 2 e card do episódio em Story (coerente com o R15) |
+| e-cast-eps | S2 | Corrigido: "pronto para aprovação · datas a confirmar · ep. 2, 4 e 5 saem com a regra na página" |
+| e-cal-nov | S1, S3, S4 | Corrigidos: selo, linha de 03 a 05/11 com o carrossel de reserva, linhas de 07 e 08/11 e de 10 e 12/11 com a condição da regra na página |
+| e-cal-dez | S1, S5 | Corrigidos: selo e linha de 15/12 ("onde ver a conta inteira", sem valores até a regra de pagamento) |
+| e-cal-jan | S1 | Corrigido: "pronto para aprovação" |
+| e-semana | S1 | Corrigido no selo. **Resíduo na nota (T2):** a nota diz "Situação: roteiro em rascunho; gravação, edição e peças a produzir.", que contradiz o selo "pronto para aprovação" agora que o cliente lê as notas |
+
+R15: conferido no slide e-cast-pacote e no e-semana (corte 2 em Story). No arquivo do podcast, a correção da seção 2.7 é ajuste direto, sem nova revisão (seção 9.1).
+
+Nos 14 slides, sem achado: regra do 3º módulo inteira onde aparece (e-posts-2, e-cast-pacote na nota, e-cast-ep1 na nota); nenhum telefone; nenhum código interno, nome de agente nem caminho de arquivo, inclusive nas notas; nome do curso sempre inteiro; sem travessão, meia-risca ou "agência".
+
+### 10.2 Amostragem das notas do apresentador depois da limpeza
+
+Amostra: as notas dos 14 slides da seção 10.1, mais 8 slides com ressalvas, marcas ou fontes externas na versão anterior: publico, meta, aprendizados, podcast, investimento, e-meta-f2a, e-respostas e e-midia (este já contado na 10.1). Total: 21 notas lidas.
+
+| O que procurei | Resultado |
+|---|---|
+| Fontes externas | **Mantidas.** publico: CFMV e CRMVs via CRMV-RJ (março de 2026, com a faixa de 218 mil a 228 mil de outras fontes), PetBioID com dados do CFMV via Panorama Pet Vet (09/09/2026, "confiança média") e Demografia da Medicina Veterinária 2022. aprendizados: Unicruz (edital 05/2026, "ano a confirmar"), agregador "sem data", UFPA e Semesp ("todas as áreas"). podcast: Buzzsprout (julho de 2026, "global"). publico, aprendizados e investimento: a The Growth Hub citada como origem dos públicos e da base de cadastros |
+| Ressalvas sobre os números | **Mantidas.** publico: "Os dois números vêm de bases diferentes (março e setembro de 2026): são ordem de grandeza, não se dividem um pelo outro." aprendizados: "a busca não achou concorrente nomeado, o que não prova que não exista" e "as hipóteses viram regra só depois de validadas". meta: cenários "estimados" e "Precisamos dos números reais da turma". investimento: "Valores máximos, se nada foi gasto ainda" e a dúvida sobre os 20% de Goiás e DF |
+| Marcas visíveis | **Mantidas:** "referência de mercado" (publico), "estimativa" (meta), "ilustrativo · nome em aprovação" (podcast), "a confirmar" (e-midia, e-google, e-cast-ep1, e-cast-eps, investimento) |
+| Ressalvas de conformidade | **Mantidas:** porta da regra do 3º módulo (e-abertura, e-google, e-posts-2, e-posts-3, e-cal-nov, e-meta-f2a); variante com preço bloqueada até a regra de pagamento (e-meta-f2a, e-posts-3, e-cal-dez); exclusão por lista dependente da base legal (e-midia, publico); risco do corte de idade para o recém-formado de 22 a 24 anos (publico); "Sem egresso autorizado, o episódio sai só com a coordenação" e "A regra de entrada é fala do apresentador" (e-cast-ep1); linha fixa de apoio em saúde mental do ep. 3 (e-cast-eps); "Hoje não consigo te prometer gravação nem aula extra" (e-respostas) |
+| Fontes internas | **Simplificadas, sem perda de conteúdo.** Onde havia nome de arquivo, ficou a descrição ("plano de busca no Google", "calendário dia a dia"). As notas de e-posts-1, e-posts-2, e-posts-3, e-meta-f2a, e-cast-ep1, e-cast-pacote, e-cast-eps e e-semana ficaram sem a linha "Fonte"; o conteúdo das peças continua literal. Não é ressalva nem fonte externa: fica como sugestão (T3), sem bloquear |
+
+Nenhuma ressalva, marca ou fonte externa foi apagada na amostra.
+
+### 10.3 Achados da terceira conferência
+
+**T1. e-posts-2: expressão repetida no selo (corrigir antes da reunião: texto visível)**
+- Trecho atual: "pronto para aprovação · sai com a regra na página · sai com a regra na página". Correção exata: "pronto para aprovação · sai com a regra na página".
+
+**T2. e-semana: nota contradiz o selo (ajuste: o cliente lê as notas)**
+- Trecho atual, fim da nota: "Situação: roteiro em rascunho; gravação, edição e peças a produzir. Quem publica é sempre uma pessoa." Correção exata: "Situação: texto aprovado pela revisão de qualidade, à espera do ok de cada publicação; gravação, edição e peças a produzir. Quem publica é sempre uma pessoa."
+
+**T3. Notas sem a linha "Fonte" (sugestão, não bloqueia)**
+- e-posts-1, e-posts-2 e e-posts-3: acrescentar no fim "Fonte: posts do kit da turma, 28/10/2026."
+- e-meta-f2a: "Fonte: criativos e plano de anúncios no Instagram e Facebook, 28/10/2026."
+- e-cast-ep1, e-cast-pacote e e-cast-eps: "Fonte: pacote do podcast, 28/10/2026."
+- e-semana: "Fonte: calendário dia a dia."
+- Assim todas as notas seguem o mesmo padrão das de e-abertura, e-midia, e-google e e-cal-*.
+
+### 10.4 Veredito final da apresentação ao cliente
+
+**APROVADO para ir ao cliente, com o T1 aplicado antes da reunião.** T1 é uma repetição de palavras num selo, corrigida pelo texto exato acima, sem nova revisão do qa. T2 entra junto, pelo texto exato, também sem nova revisão. T3 é opcional.
+
+O que este veredito cobre e o que não cobre:
+- **Cobre:** os 25 slides do enxoval (e-*) e as notas da amostra da seção 10.2. Eles reproduzem as peças aprovadas na seção 9.2, com status correto, P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo inteira e nenhum código interno nem telefone em texto visível ou nas notas.
+- **Não cobre:** o texto do copy-de-mensagens nos slides de e-mail, WhatsApp e respostas, que esta revisão não fez. Também não cobre os slides fora do enxoval que não entraram na amostra.
+- **Continua valendo:** a apresentação é um plano em aprovação. Nenhuma peça é publicada, enviada ou paga a partir dela. As peças de depois de 07/11 só saem com a regra do 3º módulo publicada na página da 68606 e conferida pelo qa (pedido OA10 à Ufape). Cada publicação espera o ok humano.
+- **Fora do enxoval:** o slide 4 da apresentação do cmo (arquivo de roteiro) ainda precisa da decisão 24 e da caixa da titulação (D-F e E6). O slide "publico" desta apresentação já traz a idade da decisão 24.
 
 **Revisado por:** qa-de-marketing (agente). Humano: [CONFIRMAR, pessoa do marketing].
 **Data:** 28/10/2026.
@@ -647,14 +715,15 @@ Correções S1 a S7 de volta para quem montou a apresentação (orquestrador). D
 
 - 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início 07/11/2026, turma IX, 500 h, "30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula R$ 250,00", status "aberto" (contexto/catalogo-de-cursos.md, seção 2).
 - O catálogo indica a ficha como fonte do cronograma, da coordenação e das condições (contexto/catalogo-de-cursos.md, cabeçalho).
-- Cronograma, presenciais 6, 13 e 21, coordenação, 38 nomes listados, "1ª mensalidade deverá ser paga até 30 dias de antecedência da data de seu início", "Turma mínima de 20 alunos" e a frase ligada ao MEC na página (ficha 68606, ainda na versão de 26/10/2026 nas duas reconferências).
+- Cronograma, presenciais 6, 13 e 21, coordenação, 38 nomes listados, "1ª mensalidade deverá ser paga até 30 dias de antecedência da data de seu início", "Turma mínima de 20 alunos" e a frase ligada ao MEC na página (ficha 68606, ainda na versão de 26/10/2026 nas reconferências).
 - Decisões 8, 10, 11, 14, 15, 16, 18, 21, 22, 23 e 24 (docs/execucao-2026-10-26.md). Decisão 24: idade mínima de 25 anos, sem máxima, leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais), substitui 22 a 35 e 18+; referência citada: Demografia da Medicina Veterinária 2022.
 - Regras 4, 5, 6, 7, 9 e 11, OA4, OA9 a OA12, OU3, OU6 e OU8, seção 5 dos canais (cmo-pos-2026-10-26.md, versão 4).
 - Episódio 3 sem chamada de turma, faixa de 22 a 35 do deck e calendário do podcast (cmo-pos-2026-10-28-apresentacao-68606.md, slides 4 e 13 a 15).
 - Contatos oficiais e instabilidade do WhatsApp em 22/10/2026; tabela de aprovação vazia (contexto/ufape-geral.md).
 - Toda peça com preço mostra parcelas, valor da parcela, total e matrícula; persona de 24 a 40 anos e persona secundária recém-formada [SUPOSIÇÃO do contexto]; exceção de divulgação de turma iniciada até a véspera do 3º módulo, com a regra completa (contexto/pos-graduacao.md).
 - Linhas datadas de 28/10/2026 no fim dos 7 arquivos, com as correções e os ajustes aplicados pelo orquestrador (lidas nas reconferências).
-- Ordem dos 42 slides e das 7 seções da apresentação ao cliente (ferramentas/apresentacao-68606-cliente/project/deck.json); texto visível e notas dos 25 slides e-* (pasta slides/).
+- Ordem dos 42 slides e das 7 seções da apresentação ao cliente (ferramentas/apresentacao-68606-cliente/project/deck.json); texto visível e notas dos slides lidos (pasta slides/).
+- Fontes externas citadas nas notas da apresentação, conferidas só quanto à presença depois da limpeza (não quanto ao conteúdo): CFMV e CRMVs via CRMV-RJ, PetBioID via Panorama Pet Vet, Demografia da Medicina Veterinária 2022, Unicruz, UFPA, Semesp e Buzzsprout.
 
 ## [SUPOSIÇÃO]
 
@@ -663,12 +732,12 @@ Correções S1 a S7 de volta para quem montou a apresentação (orquestrador). D
 - Datas das peças derivadas do ep. 3 depois de 22/01 (E22 e E35).
 - Pedido de pausa ao gestor quando G passar de R$ 1.794,29 (E12).
 - A idade de 25 anos nos conjuntos de frio entra na mesma operação da troca de 03/11 e conta como uma mudança só (E29, R11); no Google, a faixa "desconhecida" fica incluída (E36). O gestor confirma as duas.
-- Os commits fe187b2 e 66afad5 são os que o orquestrador informou; as reconferências foram feitas pelo conteúdo dos arquivos, não pelo histórico do repositório.
-- O bloco `<aside>` dos slides é nota do apresentador e não aparece para o cliente (padrão de apresentação); se a ferramenta exibir as notas na tela, os códigos e nomes de arquivo das notas precisam sair antes da reunião.
+- Os commits fe187b2, 66afad5 e 65ed424 são os que o orquestrador informou; as conferências foram feitas pelo conteúdo dos arquivos, não pelo histórico do repositório.
+- A amostra de 21 notas representa a limpeza das 42; as 20 notas fora da amostra não foram lidas depois da limpeza.
 
 ## [CONFIRMAR]
 
-- A13, A7 e A12 na página da 68606, ou decisão da regulação sobre publicar antes de A7 e A12 (E1, E32). Nas duas reconferências, a ficha seguia sem mudança.
+- A13, A7 e A12 na página da 68606, ou decisão da regulação sobre publicar antes de A7 e A12 (E1, E32). Nas reconferências, a ficha seguia sem mudança.
 - OU8: pagamento da 1ª mensalidade de quem entra depois do início (E8, E16, R4, R12, V-P da Meta). OU3 e OU6 seguem abertas; nenhuma peça promete reposição.
 - Exceção `pos_conteudo_<AAAAMM>` com o arquiteto-de-fluxos (D-A, E22).
 - Nome real das campanhas Meta e Google da 68606 (exportação D6) (E3).
@@ -691,7 +760,7 @@ Correções S1 a S7 de volta para quem montou a apresentação (orquestrador). D
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md
 - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md, /home/user/marketing-ufape/auditorias/12-video-e-audio.md
 - As 7 peças revisadas e reconferidas (cabeçalho).
-- /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os 25 slides e-* em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/
-- Externas: nenhuma.
+- /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/
+- Externas: nenhuma consultada pelo qa.
 
-**Próximo passo:** os 7 arquivos seguem para a aprovação humana, com o R15 aplicado direto no podcast. As peças de depois de 07/11 seguem bloqueadas para publicação até a Ufape publicar a A13 na página da 68606 (OA10). A apresentação volta ao orquestrador com S1 a S7; depois, nova conferência só dos slides citados em 9.5. Nota ao cmo: slide 4 da apresentação dele com a decisão 24 e a caixa da titulação (E6).
+**Próximo passo:** a apresentação vai ao cliente com o T1 aplicado (e o T2 junto), sem nova revisão. Os 7 arquivos seguem para a aprovação humana (seção 9.2). As peças de depois de 07/11 seguem bloqueadas para publicação até a Ufape publicar a regra do 3º módulo na página da 68606 (OA10). Nota ao cmo: slide 4 do roteiro dele com a decisão 24 e a caixa da titulação.
