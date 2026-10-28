@@ -2,22 +2,24 @@
 
 - **Agente:** relatorios (departamento 09, Analytics e Insights)
 - **Linha:** pos
-- **Data:** 28/10/2026
+- **Data:** 28/10/2026 (versão 2, com o inventário completo pelo grep do orquestrador)
 - **Para:** complementar o roteiro de 20 slides saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md. Os blocos A e B (insights e estratégia) são do cmo e não estão aqui.
-- **Papel da apresentação (informação nova do CEO):** a apresentação é o MODELO para os outros cursos; a 68606 é o primeiro preenchimento. O deck da The Growth Hub e a proposta do podcast são só referência para tópicos sem resposta.
+- **Papel da apresentação (informação do CEO):** a apresentação é o MODELO para os outros cursos; a 68606 é o primeiro preenchimento. O deck da The Growth Hub e a proposta do podcast são só referência para tópicos sem resposta.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada foi publicado, enviado, pausado ou pago.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
   - contexto/ufape-geral.md, contexto/pos-graduacao.md, conhecimento/INDICE.md
   - saidas/10-operacoes-de-marketing/cursos/pos-68606.json
   - saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (seções 0 a 4.3, 6 e 8) e cmo-pos-2026-10-28-apresentacao-68606.md
-  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md (v5, seções 0, 1, 6A, 7 e 8); cabeçalho e seção 0 de copy-de-mensagens-pos-2026-10-26-reta-final.md
+  - saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md (v5, seções 0, 1, 6A, 7 e 8) e copy-de-mensagens-pos-2026-10-26-reta-final.md (cabeçalho, seções 0.1 a 0.6 e dados da 68606, para a comparação de versões)
   - saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md (seção 0, seção 7 A6)
-  - saidas/05-social-e-comunidade/criador-de-ganchos-pos-2026-10-26.md (seções 0 e 6, A6) e autoridade-docente-pos-2026-10-26.md (seções 0 e 6, A6)
+  - saidas/05-social-e-comunidade/criador-de-ganchos-pos-2026-10-26.md (seções 0 e 6, A6), autoridade-docente-pos-2026-10-26.md (seções 0 e 6, A6) e posts-sociais-pos-2026-10-26.md (linha 223)
   - saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (v7; seções 12 e 13) e cabeçalhos de criativos-de-anuncio-pos-2026-10-26.md, criativos-de-anuncio-pos-turmas-2026-10-26.md, criativos-de-anuncio-pos-2026-10-27-ext.md, anuncios-meta-pos-2026-10-26.md e anuncios-google-pos-2026-10-26.md
-  - cabeçalhos e resumos de posts-sociais-pos-2026-10-26.md, landing-page-pos-2026-10-26.md, iscas-digitais-pos-2026-10-26.md, conteudo-longo-pos-2026-10-26.md, campanhas-de-nutricao-pos-2026-10-26.md, estrategia-de-conteudo-pos-2026-10-26.md, newsletter-geral-2026-10-26.md, youtube-pos-2026-10-26.md, pesquisa-de-palavras-chave-pos-2026-10-26.md
+  - saidas/06-geracao-de-demanda/iscas-digitais-pos-2026-10-26.md (seção 8) e campanhas-de-nutricao-pos-2026-10-26.md (linha 159)
+  - saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md (resumo e seção A6)
+  - saidas/04-conteudo/conteudo-longo-pos-2026-10-26.md (linha 107), estrategia-de-conteudo-pos-2026-10-26.md, newsletter-geral-2026-10-26.md, youtube-pos-2026-10-26.md (cabeçalhos e resumos)
   - saidas/10-operacoes-de-marketing/qa-de-marketing-pos-2026-10-28-apresentacao.md (veredito final: APROVADO na reconferência de 28/10/2026)
   - docs/pendencias-camada-1.md, docs/execucao-2026-10-26.md (decisões 1 a 21), docs/insumos/ufape-podcast-proposta-2026-10-28.txt
-- **Limite do inventário:** a busca por texto (grep -rl 68606 saidas) não estava disponível nesta sessão. O inventário foi feito pelos arquivos citados no pedido, pelo mapa pos-68606.json e pela leitura de cabeçalhos e seções da área A6. Arquivos de outras pastas que citem 68606 só de passagem podem não estar aqui: [CONFIRMAR com grep -rl 68606 saidas antes de fechar o inventário]. Os arquivos grandes (anuncios-meta, anuncios-google, posts-sociais, iscas, conteúdo longo, nutrição, newsletter, YouTube) não foram lidos linha a linha.
+- **Inventário por busca textual:** o orquestrador rodou `grep -rl 68606 saidas` e passou a lista com a linha de cada ocorrência; ela está incorporada. youtube-pos, anuncios-meta-pos e anuncios-google-pos não têm nada da 68606. Os arquivos grandes não foram lidos linha a linha: as passagens da 68606 foram lidas nas linhas indicadas.
 - **Dados pessoais:** nenhum. Docentes só com nome e titulação como estão na ficha.
 - **Troca de travessão no texto copiado:** nenhuma foi necessária; as peças copiadas não traziam travessão nem meia-risca.
 
@@ -65,9 +67,10 @@
 - **Notas do apresentador:**
   - O mínimo nunca diminui. O que não chega vira lacuna escrita no relatório final (OA8).
   - Acréscimos do kit da 68606: mensagens de reta final (mesmo arquivo dos WhatsApp, aprovadas pelo qa); inventário do kit (cmo, prazo 28/10, a fazer, depende da resposta OU5 da Ufape); pedido de pausa e relatório final (cmo e gestor-de-midia, a fazer, prazos 22/01, 25/01 e 22/02/2027); pacote do podcast (acréscimo da decisão 21, a fazer).
-  - Posts orgânicos: o plano do cmo prevê 2 no feed e 4 em Stories de 03/11 a 20/01 (OA11), mas nenhum texto dos 6 existe em arquivo da squad. Criativos: o cmo-pos diz que contam os que já estão no ar e aprovados; quantos são, a Ufape ainda não informou (OU5).
+  - Posts orgânicos: o plano do cmo prevê 2 no feed e 4 em Stories de 03/11 a 20/01 (OA11), mas nenhum texto dos 6 existe em arquivo da squad. O arquivo posts-sociais-pos-2026-10-26.md é da campanha das provas (ver slide C18). Criativos: o cmo-pos diz que contam os que já estão no ar e aprovados; quantos são, a Ufape ainda não informou (OU5). Criativos-de-anuncio-pos-turmas-2026-10-26.md cobre 14 turmas de março e abril; o grep achou 2 ocorrências do código 68606 nele, mas o arquivo não tem criativo da 68606 (a turma não está entre as 14) [CONFIRMAR as 2 linhas].
   - Página: a página oficial está no ar com frase de certificação ligada ao órgão regulador, turma mínima de 20 e sem a regra do 3º módulo; por isso não conta como entregue (OA10, pendências p01, p02 e p04).
   - Post por docente: o kit pede 1 por docente autorizado; há 1 de 38, e a lacuna de 37 está registrada no OA8.
+  - **Substituição de versão (mensagens):** o arquivo copy-de-mensagens-pos-2026-10-26-reta-final.md (73 ocorrências da 68606; 9 mensagens de reta final, véspera e pós-início de 707, 68604 e 68606, com envios da 68606 em 03/11, 06/11 e 11/11) é a versão anterior. O arquivo onda1 v5 é o vigente, e esta apresentação mostra só ele. Ver a comparação no slide C2.
   - Para outra turma: copie esta tabela, troque os arquivos pelos do JSON dessa turma e some a quantidade real.
 
 ---
@@ -75,7 +78,7 @@
 ## Slide C2. Materiais além do kit e o que serve à turma
 
 - **Etiqueta:** C · MATERIAIS · ALÉM DO KIT
-- **Título-afirmação:** A área A6 tem casa de mensagens, 10 ganchos e 1 post de docente; iscas, conteúdo longo e nutrição estão reservados ou ainda genéricos.
+- **Título-afirmação:** A área A6 tem casa de mensagens, 10 ganchos, palavras-chave e 1 post de docente; a isca está especificada e não produzida.
 - **Subtítulo:** O que serve à 68606, o que é da linha toda e o que não foi feito para ela.
 - **Rótulo:** MODELO: troca por turma (a área A6 muda para a área da turma; os arquivos são os mesmos, com outra seção).
 - **Conteúdo (tabela):**
@@ -83,23 +86,23 @@
 | Material | Agente | Arquivo | Serve à 68606? | Situação |
 |---|---|---|---|---|
 | Casa de mensagens A6 | mensagens | mensagens-pos-2026-10-26.md, seção 7 | sim | v2, corrigida após o qa |
-| 10 ganchos A6 (3 recomendados) | criador-de-ganchos | criador-de-ganchos-pos-2026-10-26.md, seção 6 | sim | v2; cmo-pos cita camada 2 aprovada [CONFIRMAR, o cabeçalho ainda diz "para nova conferência"] |
-| Respostas prontas do time (10) | copy-de-mensagens | copy-de-mensagens-pos-onda1-2026-10-26.md, seção 7 | sim | qa aprovado e aguardando aprovação humana |
-| Isca digital da área A6 | iscas-digitais | iscas-digitais-pos-2026-10-26.md | reservada, não produzida | rascunho (A6 reservada) |
-| Conteúdo longo | conteudo-longo | conteudo-longo-pos-2026-10-26.md (C03, C08, C09) | não é da A6 | rascunho |
-| Nutrição, newsletter, YouTube | campanhas-de-nutricao, newsletter, youtube | arquivos de 26/10 | não específico da 68606 | rascunho |
-| Anúncios Meta e Google | anuncios-meta, anuncios-google | arquivos de março e abril | não cobrem a 68606 | rascunho |
-| Posts de provas e landing das provas | posts-sociais, landing-page | arquivos de 26/10 | não (provas suspensas, decisão 14) | rascunho |
+| 10 ganchos A6 (3 recomendados) | criador-de-ganchos | criador-de-ganchos-pos-2026-10-26.md, seção 6 | sim | v2; cmo-pos cita camada 2 aprovada [CONFIRMAR, o cabeçalho diz "para nova conferência"] |
+| Respostas do time (10) | copy-de-mensagens | copy-de-mensagens-pos-onda1-2026-10-26.md, seção 7 | sim | qa aprovado e aguardando aprovação humana |
+| Palavras-chave K6.1 a K6.5 | pesquisa-de-palavras-chave | pesquisa-de-palavras-chave-pos-2026-10-26.md, seção A6 | sim (Google) | rascunho; sem RSA escrito |
+| Isca da área A6 | iscas-digitais | iscas-digitais-pos-2026-10-26.md, seção 8 | especificada, produção reservada | rascunho |
+| Nutrição NP3 (área sem turma aberta) | campanhas-de-nutricao | campanhas-de-nutricao-pos-2026-10-26.md, linha 159 | depois de 07/11 | rascunho |
+| Conteúdo longo | conteudo-longo | conteudo-longo-pos-2026-10-26.md, linha 107 | só cita a 68606 numa tabela | rascunho |
+| Material da prova 68650 | vários | ver slide C18 | relacionado, fora da prioridade | decisão 14 |
 
 - **Fonte:** arquivos citados na tabela; pos-68606.json (arquivos_por_camada); cmo-pos-2026-10-26.md, seção 4.3.
 - **Visual:** mapa em colunas "serve à turma" e "serve à linha" com os arquivos como etiquetas.
 - **Notas do apresentador:**
-  - Iscas: "as iscas de A6, A8 e A9 ficam reservadas porque as turmas começam entre 30/10 e 28/11 e não há turma futura aberta" (iscas-digitais-pos, resumo, item 4).
-  - Conteúdo: a estratégia de conteúdo diz que não vende as turmas que já começaram; a reta final da 68606 é do kit de WhatsApp, e o conteúdo editorial serve à próxima edição e à citação por assistentes de IA (estrategia-de-conteudo-pos, resumo, item 5). Os artigos C03, C08 e C09 de conteudo-longo-pos não são da área A6.
-  - Nutrição: a sequência NP2 por área só entra quando a área ganha régua com data; na 68606 já há régua de reta final (campanhas-de-nutricao-pos, 1.2, item 1).
-  - Anúncios: anuncios-meta-pos e anuncios-google-pos cobrem as turmas de março e abril de 2027 (v7); a 68606 segue com a campanha que já roda (OA4). Os anúncios no ar não estão nos arquivos da squad.
-  - Posts das provas e landing das provas: suspensos pela decisão 14.
-  - Versão anterior de mensagens: saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-2026-10-26-reta-final.md (707, 68604 e 68606) traz a frase da 1ª mensalidade vencida, que as versões 3 a 5 do arquivo onda1 removeram. Vale o onda1 v5, e este slide não usa o arquivo antigo.
+  - **Comparação das duas versões das mensagens da 68606.** Vigente: copy-de-mensagens-pos-onda1-2026-10-26.md, versão 5, com 6 toques (T1 28/10, T2 29/10, W2 06/11, E2 02/12, W3 16/12, W4 12/01), regra completa do 3º módulo e nenhuma frase da 1ª mensalidade; é o arquivo que o mapa pos-68606.json e o plano do cmo citam. Anterior: copy-de-mensagens-pos-2026-10-26-reta-final.md, com 3 mensagens por turma (reta final em 03/11, véspera em 06/11 e pós-início em 11/11) e a frase CL1 ("a 1ª mensalidade é paga até 30 dias antes do início; esse prazo já passou"). Divergências: a frase da 1ª mensalidade (linha 46 do arquivo antigo) saiu das versões 3 a 5 do onda1, porque a decisão 18 (27/10) mudou a regra de entrada e a data de corte deixou de ser limite; o arquivo antigo depende de PR4, B2 e B5 (política de entrada e lista de interesse), que a decisão 18 respondeu. A substituição é inferência deste agente [SUPOSIÇÃO], pelos arquivos do mapa e do plano do cmo; o cabeçalho de nenhum dos dois arquivos declara a substituição [CONFIRMAR com o cmo].
+  - Isca (especificação, não produzida): título "Gastroenterologia veterinária na Ufape: o que se pratica nos 3 módulos presenciais", subtítulo "Pós-graduação em Gastroenterologia Veterinária", PDF de 4 a 6 páginas, esforço 4 h. Motivo da reserva: a turma começa em 07/11/2026, a isca não estaria no ar a tempo, e depois dela a área fica sem turma aberta (NP3). Produzir só se a Ufape informar a regra de entrada tardia ou uma turma futura.
+  - Nutrição: o segmento S10 inclui "A6 Gastroenterologia depois de 07/11 (68606 iniciada)", área sem turma aberta no catálogo; antes disso a 68606 tem régua com data.
+  - Conteúdo longo: o artigo cita "Pós-graduação em Gastroenterologia Veterinária (turma IX)", 500 h, 24 módulos, 3 presenciais, em tabela de comparação de seis cursos. Não é peça da turma.
+  - A estratégia de conteúdo diz que a venda de reta final é do kit, e o conteúdo editorial serve à próxima edição (estrategia-de-conteudo-pos, resumo, item 5). Newsletter e YouTube não citam a 68606 (YouTube: nada no grep).
+  - Anúncios: anuncios-meta-pos e anuncios-google-pos cobrem março e abril e não têm a 68606 (grep).
 
 ---
 
@@ -142,13 +145,14 @@
 >
 > Para não receber mais mensagens, responda SAIR.
 
-- **Agente:** copy-de-mensagens. **Arquivo:** saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md, seção 6A.2 (versão 5, a última). **Situação:** qa aprovado e aguardando aprovação humana (OA9).
+- **Agente:** copy-de-mensagens. **Arquivo:** saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md, seção 6A.2 (versão 5, a vigente). **Situação:** qa aprovado e aguardando aprovação humana (OA9).
 - **Visual:** mockup de balão de WhatsApp com o botão "Ver a turma" e o botão "Sair" embaixo.
 - **Notas do apresentador:**
   - Primeira linha A (teste): "Olá, [nome]. Prática de cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia." Primeira linha B (teste): "Olá, [nome]. A turma de Gastroenterologia começa em 07/11, em São Paulo."
   - Template Meta: pos_68606_reta_final_t2, variável {{1}} = primeiro nome; botões "Ver a turma" (URL estática com UTM) e "Sair" [CONFIRMAR U11a: se a Ufape usa a API oficial do WhatsApp].
   - Sem preço, bolsa, certificação ou "últimas vagas". Toda mensagem depende da página corrigida (OA10) e da decisão humana no OA9 [CONFIRMAR com a regulação se pode sair antes da troca da frase na página].
   - O envio de 29/10 está dentro do teto D16 [SUPOSIÇÃO do cmo].
+  - Esta mensagem substitui a "reta final" de 03/11 do arquivo anterior (reta-final.md); ver slide C2.
 
 ---
 
@@ -171,7 +175,7 @@
 
 - **Agente:** copy-de-mensagens. **Arquivo:** copy-de-mensagens-pos-onda1-2026-10-26.md, seção 6A.3 (v5). **Situação:** qa aprovado e aguardando aprovação humana (OA9).
 - **Visual:** balão de WhatsApp com a data em destaque; ao lado, o calendário de 06 a 08/11.
-- **Notas do apresentador:** primeira linha A (teste): "Olá, [nome]. O módulo 1 de Gastroenterologia é em 07 e 08/11, online." Primeira linha B (teste): "Olá, [nome]. A turma de Gastroenterologia começa em 07/11, em São Paulo." Template pos_68606_reta_final_w2 [CONFIRMAR U11a]. Sexta é dia útil, e a régua das provas não envia nesta data (decisão 14).
+- **Notas do apresentador:** primeira linha A (teste): "Olá, [nome]. O módulo 1 de Gastroenterologia é em 07 e 08/11, online." Primeira linha B (teste): "Olá, [nome]. A turma de Gastroenterologia começa em 07/11, em São Paulo." Template pos_68606_reta_final_w2 [CONFIRMAR U11a]. Sexta é dia útil, e a régua das provas não envia nesta data (decisão 14). Coincide com a data da "véspera" do arquivo anterior (06/11, 10h), mas o texto vigente é este.
 
 ---
 
@@ -326,27 +330,35 @@
   - A campanha da 68606 roda desde antes da decisão 15, com estático e vídeo e 5 ângulos, e é candidata a fadiga (D20, uma troca até 03/11) [analise-de-midia-pos 3.2, citada no plano do cmo]. Quais criativos estão no ar e quais passam na conformidade: [CONFIRMAR na exportação D6].
   - Os anúncios que citam a data de início saem em 07/11. Depois, só remarketing e busca (OA4).
   - Nada de preço, valor de inscrição, bolsa, certificação ou "últimas vagas" em anúncio.
-  - A estrutura Meta por turma (campanha fria, remarketing, nomes e UTM) existe só para as turmas de março e abril, em anuncios-meta-pos-2026-10-26.md (v7); é o molde para as turmas novas.
+  - Conferido por grep: anuncios-meta-pos-2026-10-26.md não tem a 68606. A estrutura Meta por turma (campanha fria, remarketing, nomes e UTM) existe só para as turmas de março e abril (v7); é o molde para as turmas novas.
 
 ---
 
-## Slide C11. Anúncios Google: o que existe para a 68606
+## Slide C11. Google Ads: palavras-chave existem, anúncio responsivo não
 
 - **Etiqueta:** C · MATERIAIS · GOOGLE ADS
-- **Título-afirmação:** Os títulos, descrições e palavras-chave da busca da 68606 não estão escritos em arquivo.
-- **Subtítulo:** O plano define a busca de marca e de maior intenção; o texto do anúncio responsivo ainda não existe.
-- **Rótulo:** MODELO: troca por turma. Para uma turma nova, o molde é anuncios-google-pos-2026-10-26.md (grupos __area e __marca, 1 anúncio responsivo por grupo na extensão); termos da área vêm de pesquisa-de-palavras-chave-pos.
-- **Conteúdo:**
-  - **Títulos e descrições do RSA da 68606:** [DADO NÃO FORNECIDO]
-  - **Palavras-chave principais e negativas da 68606:** [DADO NÃO FORNECIDO]
-  - **O que o plano diz:** de 07/11 a 22/01, 23h59, só remarketing e busca de marca e de maior intenção ("pós-graduação em <área> veterinária" e marca), conforme o gestor (12.6 e 13.2).
-  - **Pesquisa da área:** nicho com menos disputa visível, resultados dominados por medicina humana [SUPOSIÇÃO].
-- **Fonte:** gestor-de-midia-pos-2026-10-26.md (12.6, 13.2); pesquisa-de-palavras-chave-pos-2026-10-26.md (resumo, item 3); cmo-pos-2026-10-26.md, OA4.
-- **Visual:** mockup de resultado de busca com título, URL e descrição em cinza tracejado ([DADO NÃO FORNECIDO]) e ao lado a lista dos termos de maior intenção como o plano define.
+- **Título-afirmação:** A 68606 tem cinco palavras-chave pesquisadas; os títulos e descrições do anúncio responsivo não foram escritos.
+- **Subtítulo:** Busca dominada por medicina humana: espaço aberto para a Ufape [SUPOSIÇÃO].
+- **Rótulo:** MODELO: troca por turma. Termos vêm da seção da área em pesquisa-de-palavras-chave-pos (K<área>.x); a estrutura da campanha vem de anuncios-google-pos-2026-10-26.md (grupos __area e __marca, 1 anúncio responsivo por grupo na extensão).
+- **Conteúdo (palavras-chave, texto literal, com intenção e pontuação M/D/F):**
+
+| ID | Termo | Pontuação |
+|---|---|---|
+| K6.1 | pós-graduação em gastroenterologia veterinária | 62 (28/14/20) |
+| K6.2 | pós em gastroenterologia veterinária de pequenos animais em São Paulo | 60 (30/8/22) |
+| K6.3 | especialização em gastroenterologia de cães e gatos | 54 (26/8/20) |
+| K6.5 | quanto custa pós em gastroenterologia veterinária | 52 (22/14/16) |
+| K6.4 | pós em gastro vet (só lista de palavras e grupo de anúncio, não vai para texto visível) | 50 (24/8/18) |
+
+  - **Títulos e descrições do RSA da 68606:** [DADO NÃO FORNECIDO]. **Palavras-chave negativas da 68606:** [DADO NÃO FORNECIDO].
+- **Agente:** pesquisa-de-palavras-chave. **Arquivo:** saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md, seção "A6. Gastroenterologia" (linhas 413 a 432) e resumo, item 3 (linha 28). **Situação:** rascunho (versão 3, corrigida após o qa); estrutura da campanha de Busca da 68606 em anuncios-google-pos: não tem (grep).
+- **Visual:** mockup de resultado de busca com URL e descrição em cinza tracejado ([DADO NÃO FORNECIDO]) e, ao lado, a tabela dos termos.
 - **Notas do apresentador:**
-  - Os termos da área A6 e as perguntas para assistentes de IA estão em pesquisa-de-palavras-chave-pos-2026-10-26.md (seção da área de gastroenterologia). Esse arquivo não foi lido por área neste inventário: [CONFIRMAR e copiar os termos principais e as negativas na versão final].
-  - Pelo padrão de nome, o texto visível usa "Pós-graduação em Gastroenterologia Veterinária"; abreviações como "pós vet" só em lista de palavras-chave.
-  - A conferência da página de destino antes de qualquer subida (conformidade) segue pendente (OA10).
+  - Volume é qualitativo e [SUPOSIÇÃO]: K6.1 e K6.5 médio; K6.2, K6.3 e K6.4 baixo. Observação do arquivo: "resultados dominados por medicina humana (Afya e outras): espaço aberto [SUPOSIÇÃO]". K6.2: "turma começa em 12 dias: serve à próxima edição". K6.5 aponta para a seção de investimento do pilar.
+  - O plano da mídia diz que de 07/11 a 22/01, 23h59, só entram remarketing e busca de marca e de maior intenção (gestor, 12.6 e 13.2; OA4). A palavra de maior intenção do gestor é "pós-graduação em <área> veterinária", que coincide com K6.1.
+  - Palavra-chave de preço (K6.5) só leva à página; nenhum anúncio cita valor até a U11.
+  - Pelo padrão de nome, o texto visível usa "Pós-graduação em Gastroenterologia Veterinária".
+  - A conferência da página de destino antes de qualquer subida segue pendente (OA10).
 
 ---
 
@@ -369,7 +381,7 @@
 - **Visual:** três cartões de conceito (Reel, Reel, carrossel) e um quarto cartão cinza "roteiro de vídeo curto: pendente".
 - **Notas do apresentador:**
   - A6-02 no arquivo do criador-de-ganchos ainda traz "pós de Gastroenterologia" e precisa da mesma troca de nome antes de virar carrossel (observação do qa, seção 6). Aqui o texto já está no padrão.
-  - O pacote criativos-de-anuncio-pos-2026-10-26.md é da campanha das provas de bolsa (suspensa, decisão 14) e o criativos-de-anuncio-pos-turmas cobre março e abril; nenhum cobre a 68606.
+  - O pacote criativos-de-anuncio-pos-2026-10-26.md é da campanha das provas de bolsa (suspensa, decisão 14) e o criativos-de-anuncio-pos-turmas cobre março e abril; nenhum tem criativo da 68606 (ver slide C18 para o material da prova 68650).
   - Fim de ano: nenhum conceito novo na extensão, só adaptação de texto (E10).
 
 ---
@@ -392,9 +404,9 @@
 - **Notas do apresentador (os 4 restantes, texto literal):**
   - A6-05 (carrossel): "Grupo de discussão de casos com a coordenação: o que a página prevê." Formato e frequência [CONFIRMAR].
   - A6-06 (anúncio): "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira." BLOQUEADO até a U11; usar a versão sem valor.
-  - A6-08 (carrossel): "O que a página diz sobre o estágio da pós de Gastroenterologia?" Regras, carga e local do estágio [CONFIRMAR]. Nome fora do padrão no arquivo-fonte: no uso, "Pós-graduação em Gastroenterologia Veterinária".
+  - A6-08 (carrossel): "O que a página diz sobre o estágio da pós de Gastroenterologia?" Regras, carga e local do estágio [CONFIRMAR].
   - A6-10 (WhatsApp): "Cronograma completo da Gastroenterologia, com as datas dos 3 módulos presenciais?"
-  - Troca de grafia aplicada nos textos acima: nos ganchos A6-07 e A6-08, a forma "pós de Gastroenterologia" do arquivo-fonte vira "Pós-graduação em Gastroenterologia Veterinária" onde há menção ao curso; o A6-02 foi trocado pela correção F15 do qa.
+  - Registro de grafia: no A6-08, a forma "pós de Gastroenterologia" do arquivo-fonte fica como está acima e deve virar "Pós-graduação em Gastroenterologia Veterinária" antes de ir ao ar; o A6-02 já foi trocado pela correção F15 do qa. Nenhum outro gancho citado nesta nota tinha o nome fora do padrão.
   - Restrições da área: sem "especialidade emergente e carente de profissionais", sem "coordenadores referências nacionais"; volume de prática de endoscopia não prometido; a prova de bolsa 68650 fica fora.
 
 ---
@@ -415,7 +427,7 @@
   - UTM: utm_campaign=pos_68606_202611; utm_content=docente-pappalardo. Encaixe: Stories da S3 (09 a 15/11).
   - Aprovar além do checklist: que a frase do grupo de discussão reflete o que ela conduz (formato e frequência [CONFIRMAR]); que o texto não cita o estágio.
   - A squad não escreve opinião clínica na voz do docente. Revisor docente do conteúdo clínico da Pós: [CONFIRMAR nome].
-  - Os 6 posts orgânicos do kit (2 no feed e 4 em Stories, de 03/11 a 20/01, fora de 21/12 a 03/01; OA11) ainda não têm texto: inventário pendente. O arquivo posts-sociais-pos-2026-10-26.md é das provas de bolsa e não serve à 68606.
+  - Os 6 posts orgânicos do kit (2 no feed e 4 em Stories, de 03/11 a 20/01, fora de 21/12 a 03/01; OA11) ainda não têm texto: inventário pendente. O posts-sociais-pos-2026-10-26.md cita a área A6 só como destino de campanha das provas (linha 223, item 7: "Pós-graduação em Gastroenterologia Veterinária (São Paulo)").
   - Lacuna de docentes: 37 dos 38 nomes sem post (OA8). O podcast pode fechar parte dela (card do convidado e corte contam como 1 post de docente, checklist C1 a C8; critério do qa de 28/10).
 
 ---
@@ -435,31 +447,33 @@
 - **Visual:** captura da página oficial com quatro marcas numeradas nos trechos a corrigir; rótulo "pedido à Ufape".
 - **Notas do apresentador:**
   - Não há /pagina-de-curso para a 68606: a página oficial está no ar e a correção é da Ufape (roteiro do cmo, "Próximo passo"). A LP da Graduação é página separada e a squad nunca a altera.
-  - O hub de prova de bolsa de landing-page-pos-2026-10-26.md é das provas (suspensas).
+  - O hub de prova de bolsa de landing-page-pos-2026-10-26.md é das provas (suspensas; ver C18).
   - Para as turmas de março e abril, as páginas novas estão em saidas/08-conversao/landing-page-pos-2026-10-27-onda2.md e onda3.md, no formato de templates/pagina-da-turma.md; são o molde.
   - A página também mostra "1ª mensalidade paga até 30 dias antes do início" (ficha); como isso convive com a regra do 3º módulo é a OU8.
 
 ---
 
-## Slide C16. Iscas, conteúdo longo, nutrição, newsletter e YouTube
+## Slide C16. Isca, conteúdo longo, nutrição, newsletter e YouTube
 
 - **Etiqueta:** C · MATERIAIS · CONTEÚDO
-- **Título-afirmação:** Para a 68606 não há isca nem artigo próprio; o conteúdo da área alimenta a próxima edição.
-- **Subtítulo:** O que existe na linha, o que serve à área e o que ficou de fora.
+- **Título-afirmação:** A isca da área A6 está especificada e reservada; não há artigo, nutrição nem vídeo próprios da 68606.
+- **Subtítulo:** O que existe na linha, o que serve à área e o que ficou de fora, com o motivo.
 - **Rótulo:** MODELO: fixo da linha (regras e estrutura); troca por turma (a isca da área, quando houver turma futura aberta).
 - **Conteúdo (tabela):**
 
 | Peça | Situação para a área A6 | Arquivo |
 |---|---|---|
-| Isca digital (guia de decisão da área) | reservada, não produzida: turma começa em 07/11 e não há turma futura aberta | iscas-digitais-pos-2026-10-26.md |
-| Artigos C03, C08 e C09 | da linha, sem afirmação clínica; não são da A6 | conteudo-longo-pos-2026-10-26.md |
-| Nutrição NP2 por área | só entra quando a área não tem régua com data; a 68606 tem | campanhas-de-nutricao-pos-2026-10-26.md |
-| Newsletter geral | edições de novembro e dezembro; ligação com a 68606 [CONFIRMAR na seção das edições] | newsletter-geral-2026-10-26.md |
-| YouTube | teste condicionado, 07/12 a 24/01; pago fora (PP13); orgânico como casa do podcast | youtube-pos-2026-10-26.md |
+| Isca: "Gastroenterologia veterinária na Ufape: o que se pratica nos 3 módulos presenciais" | especificada, produção reservada: a turma começa em 07/11 e não há turma futura aberta | iscas-digitais-pos-2026-10-26.md, seção 8 |
+| Artigos C03, C08 e C09 | da linha; a 68606 só aparece numa tabela de contraste | conteudo-longo-pos-2026-10-26.md, linha 107 |
+| Nutrição NP3 | S10: área sem turma aberta depois de 07/11 | campanhas-de-nutricao-pos-2026-10-26.md, linha 159 |
+| Newsletter geral | sem a 68606 no grep | newsletter-geral-2026-10-26.md |
+| YouTube | nada da 68606 (grep); orgânico como casa do podcast | youtube-pos-2026-10-26.md |
 
-- **Fonte:** arquivos da tabela (resumos e cabeçalhos).
+- **Fonte:** arquivos da tabela.
 - **Visual:** cinco ícones de formato; os que servem à área em azul-petróleo, os reservados em cinza.
-- **Notas do apresentador:** a estratégia de conteúdo (estrategia-de-conteudo-pos-2026-10-26.md) diz que "a venda de reta final dessas turmas é do kit (WhatsApp de reta final), não deste plano". Se a Ufape quiser uma isca da A6 para a próxima edição da área, é novo pedido [CONFIRMAR OU4: há nova turma da área?]. O podcast (decisão 21) entra como nova fonte de conteúdo e substitui a avaliação "podcast fora".
+- **Notas do apresentador:**
+  - Isca, especificação: PDF de 4 a 6 páginas, ênfase no que se pratica; promessa "Veja o que a página oficial lista nos 3 módulos presenciais da Pós-graduação em Gastroenterologia Veterinária e como funciona o grupo de discussão de casos."; ponte para a 68606 com "Fale com o time para saber como entrar na turma."; revisor sugerido Esp. Maria Carolina Pappalardo [CONFIRMAR aceite]; esforço 4 h. Produzir só se a Ufape informar a regra de entrada tardia ou uma turma futura.
+  - A estratégia de conteúdo diz que "a venda de reta final dessas turmas é do kit (WhatsApp de reta final), não deste plano". Nova isca ou artigo da A6 é novo pedido [CONFIRMAR OU4: há nova turma da área?]. O podcast (decisão 21) entra como nova fonte de conteúdo e substitui a avaliação "podcast fora".
 
 ---
 
@@ -491,7 +505,24 @@
 
 ---
 
-## Slide C18. O painel de todas as peças
+## Slide C18. Material relacionado: a prova de bolsa de Gastroenterologia (68650)
+
+- **Etiqueta:** C · MATERIAIS · RELACIONADO
+- **Título-afirmação:** Existe material da prova de bolsa de Gastroenterologia, mas está fora da prioridade e com correção pendente.
+- **Subtítulo:** Não serve como peça vigente da 68606.
+- **Rótulo:** MODELO: troca por turma (cada área tem a sua prova, quando existe; código vem do catálogo, seção 3).
+- **Conteúdo:**
+  - **Prova:** 68650, Prova de Bolsa de Estudos para Gastroenterologia Veterinária, São Paulo, 27/11/2026 (palavras-chave da área).
+  - **Onde há material:** criativos-de-anuncio-pos-2026-10-26.md (linha 566), landing-page-pos-2026-10-26.md (linha 912), posts-sociais-pos-2026-10-26.md (linha 671).
+  - **Situação:** campanha das provas parada pela decisão 14; correção pendente pela decisão 20: os textos tratam a prova como "online", e ela é presencial, em São Paulo e em Goiânia.
+  - **Uso:** nenhuma peça da 68606 cita a prova de bolsa como caminho para a turma.
+- **Fonte:** decisões 14 e 20 (docs/execucao-2026-10-26.md); arquivos citados (linhas indicadas pelo grep do orquestrador). O texto desses arquivos não foi copiado, porque não é vigente.
+- **Visual:** cartão cinza "fora da prioridade" com o selo "correção pendente (decisão 20)".
+- **Notas do apresentador:** o plano do cmo e a casa de mensagens mandam a prova de bolsa da área ficar fora das peças da turma. Local da prova de Goiânia: [CONFIRMAR] (fichas 68640, 68642 e 68644 mostram endereço de São Paulo). Turma de destino da 68650: a página não informa [CONFIRMAR].
+
+---
+
+## Slide C19. O painel de todas as peças
 
 - **Etiqueta:** C · MATERIAIS · PAINEL
 - **Título-afirmação:** Todas as peças de todos os cursos estão no painel.
@@ -684,7 +715,7 @@ Duas partes: **Parte 1, lacunas da linha** (resolvem-se uma vez só e valem para
 
 - **Fonte:** cmo-pos-2026-10-26.md, OA10 e regra 9; pos-68606.json (p02, p04); otimizador-de-cta-pos-2026-10-27-onda2.md (OB1); pendencias-camada-1.md, seção 3.
 - **Visual:** quatro marcas sobre a captura da página.
-- **Notas do apresentador:** prazo: "o quanto antes" (roteiro do cmo). Referência disponível: nenhuma. A5 A4, A8 e A9 do plano do cmo-geral não foram lidos e não se aplicam à 68606 pelos arquivos desta sessão [CONFIRMAR].
+- **Notas do apresentador:** prazo: "o quanto antes" (roteiro do cmo). Referência disponível: nenhuma. Os pedidos A4, A8 e A9 do plano do cmo-geral não foram lidos e não se aplicam à 68606 pelos arquivos desta sessão [CONFIRMAR].
 
 ---
 
@@ -728,7 +759,7 @@ Duas partes: **Parte 1, lacunas da linha** (resolvem-se uma vez só e valem para
 
 - **Fonte:** decisões 15, 16 e 21; qa-de-marketing-pos-2026-10-28-apresentacao.md, seções 6 e 8.3; pos-68606.json (canais); ficha da 68606.
 - **Visual:** cinco cartões "o slide diz" e "pode querer dizer".
-- **Notas do apresentador:** o qa registrou que o JSON precisa de nova revisão dos canais pelo orquestrador; a recomendação de página, a A6-02 no arquivo do criador-de-ganchos e o canal LinkedIn também esperam revisão. Nada disso bloqueia a apresentação, que é interna.
+- **Notas do apresentador:** o qa registrou que o JSON precisa de nova revisão dos canais pelo orquestrador; a A6-02 no arquivo do criador-de-ganchos também espera revisão. Nada disso bloqueia a apresentação, que é interna.
 
 ---
 
@@ -738,7 +769,7 @@ Duas partes: **Parte 1, lacunas da linha** (resolvem-se uma vez só e valem para
 - Planos de 8 canais e de mídia: qa aprovado e aguardando aprovação humana (pos-68606.json).
 - Posts, criativos, post por docente (além do AD-A6-1), roteiro de vídeo e página: inventário pendente (pos-68606.json).
 - 10 respostas do time: copy-de-mensagens-pos-onda1-2026-10-26.md, seção 7.
-- Ganchos e AD-A6-1: criador-de-ganchos-pos e autoridade-docente-pos, versão 2.
+- Ganchos e AD-A6-1: criador-de-ganchos-pos e autoridade-docente-pos, versão 2. Palavras-chave K6.1 a K6.5: pesquisa-de-palavras-chave-pos, seção A6. Isca A6: iscas-digitais-pos, seção 8.
 - Pendências p01 a p09 e OA1, OA4, OA8 a OA12: pos-68606.json.
 - Decisões 1 a 21: docs/execucao-2026-10-26.md.
 
@@ -748,12 +779,15 @@ Duas partes: **Parte 1, lacunas da linha** (resolvem-se uma vez só e valem para
 - Calendário do podcast e prazo de 06/11: [SUPOSIÇÃO] do cmo.
 - Teto D16 de mensagens, taxas do funil e divisão de verba por fase: [SUPOSIÇÃO] do cmo e do gestor.
 - Ganchos de e-mail e palavra TURMA: [SUPOSIÇÃO de texto] do copy-de-mensagens.
-- Papel de modelo: o rótulo "fixo" ou "troca por turma" e as origens dos campos são classificação deste agente [SUPOSIÇÃO], a validar com o cmo.
+- Volume das palavras-chave: [SUPOSIÇÃO] do agente de pesquisa.
+- Substituição do arquivo reta-final pelo onda1 v5: inferência deste agente, pelo mapa e pelo plano do cmo.
+- Papel de modelo: o rótulo "fixo" ou "troca por turma" e as origens dos campos são classificação deste agente, a validar com o cmo.
 
 ## [CONFIRMAR]
 
-- Inventário completo por busca textual (grep -rl 68606 saidas) e leitura da seção A6 de pesquisa-de-palavras-chave-pos, iscas A6, newsletter e posts.
-- Criativos no ar da 68606, título e botão dos anúncios, RSA e palavras-chave do Google.
+- Criativos no ar da 68606, título e botão dos anúncios, RSA e palavras-chave negativas do Google.
+- As 2 ocorrências da 68606 em criativos-de-anuncio-pos-turmas-2026-10-26.md.
+- Se o cmo declara a substituição do arquivo reta-final.
 - Conteúdo atual do painel do artifact.
 - Lacunas dos slides D1 a D10.
 
@@ -764,5 +798,5 @@ Duas partes: **Parte 1, lacunas da linha** (resolvem-se uma vez só e valem para
 
 ## Contagem e próximo agente
 
-- Bloco C: 18 slides (C1 a C18). Bloco D: 10 slides (D1 a D10), em duas partes: D1 a D5 (linha) e D6 a D10 (turma).
+- Bloco C: 19 slides (C1 a C19). Bloco D: 10 slides (D1 a D10), em duas partes: D1 a D5 (linha) e D6 a D10 (turma).
 - Próximo agente sugerido: backlog-de-otimizacao.
