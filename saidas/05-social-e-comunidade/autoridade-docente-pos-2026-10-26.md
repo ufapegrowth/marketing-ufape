@@ -370,7 +370,7 @@ Aula aberta, webinar e blog: aula aberta de até 10 minutos entra a partir de 04
 **AD-A6-1. Esp. Maria Carolina Pappalardo (coordenação de 68606)**
 - Formato: Stories de 3 telas, bastidor da primeira semana da turma.
 - Gancho: "Quando um caso gastrointestinal pede uma segunda opinião?"
-- Roteiro curto: tela 1, gancho. Tela 2: "Sou Esp. Maria Carolina Pappalardo e coordeno a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE, em São Paulo. São 24 módulos e 500 horas, com 3 módulos presenciais, entre eles endoscopia e videocirurgia, e um grupo para discussão de casos entre alunos e coordenadores." Tela 3: [PONTO DE VISTA A CONFIRMAR COM O DOCENTE] e "Fale com o time para saber como entrar na turma."
+- Roteiro curto: tela 1, gancho. Tela 2: "Sou Esp. Maria Carolina Pappalardo e coordeno a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE, em São Paulo. São 24 módulos e 500 horas, com 3 módulos presenciais, entre eles endoscopia e videocirurgia, e um grupo para discussão de casos entre alunos e coordenadores." Tela 3: [PONTO DE VISTA A CONFIRMAR COM O DOCENTE] e "A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma."
 - Aprovar além do checklist: que a frase do grupo de discussão reflete o que ela de fato conduz (formato e frequência [CONFIRMAR]); que o texto não cita o estágio.
 - Encaixe: Stories da S3 (09 a 15/11).
 - UTM: utm_campaign=pos_68606_202611; utm_content=docente-pappalardo.
@@ -775,3 +775,4 @@ docs/execucao-2026-10-26.md; CLAUDE.md; .claude/agents/autoridade-docente.md; co
 ## Próximo passo
 
 Reconferência do qa-de-marketing nos itens D1 a D3 (marcados F) e, depois do ok da pessoa do marketing nos pedidos AD1 a AD7, rodar o **distribuicao** para o calendário de publicação dos 28 posts na grade do @ufapevet, o plano de Stories e a lista de docentes a contatar, com a entrevista de 10 perguntas marcada primeiro com os docentes das ondas 1 e 2 (Dra. Mayara Travalini de Lima, ESP. Mariana Aldemundo Pereira di Vincenzo, Msc. Flavia Mazzo, DRA. Sabrina Caruso Chate e Esp. Maria Augusta Berlingieri).
+- 28/10/2026: AD-A6-1 (68606), tela 3, com a frase completa da regra do 3º módulo, porque os Stories saem depois do início (regra 6 do plano da onda 1 e OA12). Correção G10 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-apresentacao-modelo.md). Nada mais foi alterado.

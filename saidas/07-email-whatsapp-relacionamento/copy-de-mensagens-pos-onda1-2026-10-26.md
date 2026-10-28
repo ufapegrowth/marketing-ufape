@@ -746,10 +746,10 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 - **Linha de negócio e curso:** Pós-graduação, Pós-graduação em Gastroenterologia Veterinária (68606), turma IX
 - **Objetivo (único):** concluir a matrícula na turma pela página dela.
 - **Segmento:** S2 e S3 da área A6, com opt-in de campanha no WhatsApp.
-- **Primeira linha A (teste):** Olá, [nome]. Prática de cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia.
+- **Primeira linha A (teste):** Olá, [nome]. Prática de cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária.
 - **Primeira linha B (teste):** Olá, [nome]. A turma de Gastroenterologia começa em 07/11, em São Paulo.
 - Reserva: Olá, [nome]. Você ainda pensa na Pós-graduação em Gastroenterologia Veterinária?
-- Reserva: Olá, [nome]. Grupo de discussão de casos com a coordenação, na Pós-graduação em Gastroenterologia.
+- Reserva: Olá, [nome]. Grupo de discussão de casos com a coordenação, na Pós-graduação em Gastroenterologia Veterinária.
 - Reserva: Olá, [nome]. Quer ver o cronograma da Pós-graduação em Gastroenterologia Veterinária?
 - **Gancho:** a data de início e a prática de cirurgia.
 - **Corpo:**
@@ -1084,3 +1084,4 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 ---
 
 Próximo agente sugerido: otimizacao-de-mensagens (depois do qa-de-marketing e com números somados do envio real).
+- 28/10/2026: 6A.2 (68606), primeira linha A e reserva com o nome padrão "Pós-graduação em Gastroenterologia Veterinária". Correção G11 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-apresentacao-modelo.md). Nada mais foi alterado.
