@@ -30,7 +30,7 @@
 |---|---|---|---|---|---|
 | P1 | ter 03/11/2026, 18h | Stories, 4 telas | Onde estão as práticas presenciais no calendário | 3 práticas em um módulo: anatomia, cirurgia digestiva e parasitologia ou transplante fecal. | Antes do início: data de início e "Fale com o time" |
 | P2 | qui 05/11/2026, 12h | Feed, carrossel de 6 cards | A ordem do cronograma: base online, depois o primeiro presencial | Do módulo online de fisiologia à cirurgia na prática: o primeiro presencial de Gastroenterologia. | Antes do início: data de início e "Fale com o time" |
-| P3 | qui 12/11/2026, 18h | Stories, 3 telas | A coordenação da turma e o grupo de discussão de casos | Quando um caso gastrointestinal pede uma segunda opinião? | Frase completa do 3º módulo |
+| P3 | qui 12/11/2026, 18h | Stories, 3 telas | A coordenação da turma e o grupo de discussão de casos | Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. | Frase completa do 3º módulo |
 | P4 | qui 03/12/2026, 12h | Feed, carrossel de 6 cards | Onde a cirurgia entra no cronograma (2 dos 3 presenciais) | Cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária? Veja o presencial. | Frase completa do 3º módulo |
 | P5 | ter 15/12/2026, 18h | Stories, 4 telas | A conta inteira: parcelas, total e matrícula | Quanto custa a Pós-graduação em Gastroenterologia Veterinária? A conta inteira. | Frase completa do 3º módulo |
 | P6 | ter 19/01/2027, 18h | Stories, 4 telas | Os 3 primeiros módulos: o que já aconteceu e o que vem agora | Os 3 primeiros módulos da Pós-graduação em Gastroenterologia Veterinária: o que já aconteceu e o que vem agora. | Frase completa do 3º módulo |
@@ -48,6 +48,8 @@ Horários são [SUPOSIÇÃO]: o perfil @ufapevet não tem medida de melhor horá
 7. **Preço** só em P5, com condição completa do catálogo (decisão 23): parcelas, valor da parcela, total e matrícula.
 8. **UTM no padrão D11 e D12:** utm_source=instagram (Facebook: facebook), utm_medium=organic_social, utm_campaign=pos_68606_202610 (o mesmo em todos os toques da turma, mês do primeiro envio, regra 11 do cmo-pos), utm_content=ID da peça. Minúsculas, sem acento, sem dado pessoal. Ver [CONFIRMAR] sobre o mês da campanha.
 9. **Link base** (campo "Página oficial" da ficha): https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria
+10. Métricas: cliques no link com UTM por peça, respostas e mensagens recebidas, conversas com o time de vendas que citam o post (só contagem), salvamentos. Alcance e curtidas só como contexto.
+11. **Status de P3 a P6 (depois de 07/11, com link da turma):** só saem com a A13 publicada na página da 68606 e conferida pelo qa, mais a troca da frase ligada ao MEC (A7) e da turma mínima (A12) ou a decisão registrada da regulação (E1 do qa de 28/10/2026). P1 e P2 dependem só da decisão sobre A7 e A12.
 
 ---
 
@@ -163,11 +165,11 @@ Card 5: O que a página avisa
 - O cronograma e os palestrantes podem ser alterados conforme necessidades durante as aulas.
 
 Card 6 (chamada)
-- A turma IX começa em 07/11/2026, em São Paulo.
+- Turma IX, São Paulo.
 - 24 módulos, 500 horas, semipresencial.
 - Cronograma completo e docentes na página da turma.
-- Fale com o time para saber como entrar na turma.
 - Link na bio.
+(Sem data e sem chamada de entrada na arte: post de feed fica no perfil depois de 07/11. A data de início e a chamada ficam só na legenda.)
 
 **Legenda completa (Instagram)**
 
@@ -222,7 +224,7 @@ Link na bio.
 **Pilar:** S4, Quem ensina (post da coordenação, AD-A6-1, em terceira pessoa)
 **Data de publicação:** qui 12/11/2026, 18h [SUPOSIÇÃO]. A peça AD-A6-1 estava prevista na semana S3 (09 a 15/11).
 
-**Gancho (linha 1):** Quando um caso gastrointestinal pede uma segunda opinião? (AD-A6-1)
+**Gancho (linha 1):** Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. (A6-05; correção E13 do qa: a pergunta da segunda opinião fica para o ep. 2 do podcast, onde o convidado responde)
 
 **Ganchos alternativos (2):**
 1. Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. (A6-05)
@@ -236,7 +238,7 @@ Link na bio.
 
 Tela 1
 - Selo: Pós-graduação em Gastroenterologia Veterinária | São Paulo
-- Texto grande: Quando um caso gastrointestinal pede uma segunda opinião?
+- Texto grande: Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê.
 
 Tela 2
 - Título: Quem coordena a turma
@@ -253,7 +255,7 @@ Tela 3 (chamada)
 **Linha final ou pergunta:** Fale com o time para saber como entrar na turma.
 
 **Legenda de apoio** (destaque ou reaproveitamento)
-Quando um caso gastrointestinal pede uma segunda opinião? Na Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE, a coordenação da turma é da Esp. Maria Carolina Pappalardo, e a página prevê um grupo para discussão de casos entre alunos e coordenadores. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
+Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê. Na Faculdade UFAPE, a coordenação da turma é da Esp. Maria Carolina Pappalardo, e a página prevê um grupo para discussão de casos entre alunos e coordenadores. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
 
 **Hashtags:** nenhuma em Stories.
 
@@ -280,7 +282,7 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 **Plataforma:** Instagram feed, com reaproveitamento no Facebook
 **Formato:** carrossel de 6 cards, 4:5 (1080 x 1350)
 **Pilar:** S2, Prática presencial com roteiro
-**Data de publicação:** qui 03/12/2026, 12h [SUPOSIÇÃO]. Slot B da semana S6. Esse slot também abriga o carrossel "como funciona uma pós semipresencial, mês a mês" da estratégia social: se os dois couberem na mesma semana, este P4 pode ir para terça 01/12 [CONFIRMAR slot a slot, seção 6].
+**Data de publicação:** qui 03/12/2026, 12h [SUPOSIÇÃO]. Slot B da semana S6. Esse slot também abriga o carrossel "como funciona uma pós semipresencial, mês a mês" da estratégia social: o P4 fica em 03/12, sem a opção de 01/12 (E23 do qa de 28/10/2026) [CONFIRMAR slot a slot, seção 6].
 
 **Gancho (linha 1):** Cirurgia esofágica, gástrica e intestinal na Pós-graduação em Gastroenterologia Veterinária? Veja o presencial. (A6-02)
 
@@ -308,7 +310,7 @@ Card 3: Módulo 13, presencial
 - Endoscopia.
 - Parasitologia ou transplante fecal.
 - Prova 2.
-- Neste módulo, a ficha não lista cirurgia.
+- Neste módulo, o cronograma não lista cirurgia.
 
 Card 4: Módulo 21, presencial
 - Julho de 2028
@@ -394,16 +396,23 @@ Tela 1
 - Selo: Pós-graduação em Gastroenterologia Veterinária | São Paulo
 - Texto grande: Quanto custa? A conta inteira.
 
+**Status: bloqueado até a resposta da OU8** (como paga a 1ª mensalidade quem entra depois do início). O P5 sai em 15/12, depois do início, e a regra da página (1ª mensalidade até 30 dias antes do início) não vale para quem entra agora (E16 do qa de 28/10/2026).
+
+**Versão com preço (só se a OU8 for respondida até 14/12; volta ao qa):**
+
 Tela 2
 - Título: Parcelas e total
-- 30x de R$ 1.180,00 no cartão ou boleto.
-- Total: R$ 35.400,00.
+- 30x de R$ 1.180,00.
+- R$ 35.400,00 no cartão ou boleto.
 
 Tela 3
 - Título: Matrícula
 - R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão.
+- 1ª mensalidade: [texto da resposta da OU8]
 - 500 horas, 24 módulos, semipresencial, São Paulo.
 - Rodapé pequeno: Condições da página da turma.
+
+**Versão sem valores (se a OU8 não for respondida até 14/12; o kit não perde o post):** gancho e tela 1 "Quanto custa a Pós-graduação em Gastroenterologia Veterinária? Onde ver a conta inteira."; telas 2 e 3 viram uma só: "Parcelas, total e matrícula estão na página da turma." / "500 horas, 24 módulos, semipresencial, São Paulo."; tela 4 sem mudança; nenhum valor na peça.
 
 Tela 4 (chamada)
 - A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
@@ -413,7 +422,7 @@ Tela 4 (chamada)
 **Linha final ou pergunta:** Fale com o time para saber como entrar na turma.
 
 **Legenda de apoio** (destaque ou reaproveitamento)
-Quanto custa a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE? 30x de R$ 1.180,00 no cartão ou boleto, total de R$ 35.400,00, mais matrícula de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão). 500 horas, 24 módulos, semipresencial, São Paulo. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
+Quanto custa a Pós-graduação em Gastroenterologia Veterinária da Faculdade UFAPE? 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; mais matrícula de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão); 1ª mensalidade: [texto da resposta da OU8]. (Na versão sem valores, a legenda segue a mesma troca das telas.) 500 horas, 24 módulos, semipresencial, São Paulo. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma.
 
 **Hashtags:** nenhuma em Stories.
 
@@ -500,6 +509,8 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 "A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram. Fale com o time para saber como entrar na turma."
 Nesse caso, em P2 o gancho e o corpo não mudam.
 
+Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; se o P1 estiver nos Destaques, tirar dos Destaques em 07/11.
+
 **Se algum post cair em 20 ou 21/11 ou de 21/12 a 03/01 por reagendamento.** Não publicar. Mover para o próximo dia de Stories ou de feed livre, dentro do limite de 20/01/2027.
 
 **Ordem de corte, se a capacidade do perfil ficar abaixo do planejado** (seção 12.3 do plano geral): primeiro P2 e P4 viram Stories, mantendo o conteúdo; nenhum dos 6 sai do kit.
@@ -574,3 +585,4 @@ Nesse caso, em P2 o gancho e o corpo não mudam.
 ## Próximo agente sugerido
 
 criador-de-ganchos, para revisar as primeiras linhas e as alternativas deste kit (principalmente P1, P3 e P6, que usam ganchos novos ou adaptados) antes do qa-de-marketing.
+- 28/10/2026: correções E1, E13, E14, E15, E16 e E17 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

@@ -59,7 +59,7 @@
 | Grupo de discussão | "Grupo para discussão de casos entre os alunos e os coordenadores" (formato e frequência [CONFIRMAR]) | ficha |
 | Coordenação | Esp. Maria Carolina Pappalardo | ficha |
 | Turma pode não ser formada | A turma pode não completar o número mínimo e não ser formada (sem número em peça, porque as páginas ainda dizem 20 e a decisão 11 diz 15) | ficha; decisão 11 |
-| Preço (só com condição completa) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; inscrição de R$ 250,00 (decisão 23). A ficha acrescenta: à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão | catálogo; ficha; decisão 23 |
+| Preço (só com condição completa) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (decisão 23; termo pela decisão D-C do qa de 28/10/2026). A ficha acrescenta: à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão | catálogo; ficha; decisão 23 |
 | Regra do 3º módulo (fase 2) | Frase completa da seção 4.1 | decisão 18; cmo-pos, regra 6 |
 | Destino | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria | ficha |
 
@@ -200,7 +200,7 @@ Conferência do texto contra a ficha: módulo 1 em 07 e 08/11/2026 e módulo 5 e
 
 - Primeira linha: 113 caracteres, cabe antes do "ver mais".
 - **Título do anúncio:** Pós-graduação em Gastroenterologia Veterinária.
-- **Título por cartão (campo de título do cartão, até cerca de 32 caracteres):** 1. Em que módulo cada tema entra?; 2. Módulos 1 a 5, online; 3. Módulo 6, presencial; 4. Online, de 22/05/2027 a 20/02/2028; 5. Módulos 13 e 21, presenciais; 6. Fale com o time.
+- **Título por cartão (campo de título do cartão, até cerca de 32 caracteres):** 1. Em que módulo cada tema entra?; 2. Módulos 1 a 5, online; 3. Módulo 6, presencial; 4. Online, 05/2027 a 02/2028; 5. Módulos 13 e 21, presenciais; 6. Fale com o time.
 - **Descrição do link:** Cronograma completo na página da turma.
 - **Botão de chamada:** Saiba mais.
 - **utm_content:** pos68606_mapa_car_pergunta_v1
@@ -282,7 +282,7 @@ Regras de uso:
 | Marca | Logotipo da Faculdade UFAPE |
 
 **Briefing visual para o designer:**
-- Mesma família visual do F1-E: linha do tempo de 24 quadrados, agora com os módulos 1 e 2 em tom de "já aconteceu" (neutro mais escuro) e os 3 presenciais em cor de destaque. Não marcar o módulo 3 com cor ou ícone: ele aparece só como quadrado numerado, para a data do 3º módulo continuar vivendo apenas dentro da frase.
+- Mesma família visual do F1-E: a linha do tempo de 24 quadrados fica neutra, sem nenhum módulo marcado como "já aconteceu", com os 3 presenciais (6, 13 e 21) em cor de destaque. Uma só arte vale de 07/11 a 22/01. Não marcar o módulo 3 com cor ou ícone: ele aparece só como quadrado numerado, para a data do 3º módulo continuar vivendo apenas dentro da frase.
 - O painel da regra ocupa cerca de 35% da altura, fundo sólido, texto com pelo menos 36 px, contraste de 4,5 para 1 ou mais, margem de 64 px. É o texto mais importante da peça e precisa ler no celular sem zoom. A frase não pode ser quebrada em dois cartões nem encolhida.
 - O título fica acima, em corpo grande. Nada de cor de alerta (vermelho, amarelo) e nada de relógio, calendário rasgado ou contagem: não pode sugerir urgência.
 - Versão 9:16 com o painel dentro da zona de segurança.
@@ -315,7 +315,7 @@ Regras de uso:
 | Tempo | Tela e texto na tela (legenda queimada) | Locução |
 |---|---|---|
 | 0:00 a 0:03 (gancho) | Fundo liso. Texto grande: "A turma já começou. Ainda dá para entrar?". Etiqueta fixa até o fim: "Pós-graduação em Gastroenterologia Veterinária". | "A turma já começou. Ainda dá para entrar?" |
-| 0:03 a 0:07 | Linha do tempo de 24 quadrados com os módulos 1 e 2 em tom de "já aconteceu". Texto 1 da frase: "A turma começou em 07/11/2026." | "A turma começou em 7 de novembro de 2026." |
+| 0:03 a 0:07 | A linha do tempo de 24 quadrados fica neutra, sem nenhum módulo marcado como "já aconteceu", com os 3 presenciais (6, 13 e 21) em cor de destaque. Texto 1 da frase: "A turma começou em 07/11/2026." | "A turma começou em 7 de novembro de 2026." |
 | 0:07 a 0:17 | Texto 2 da frase, em uma só tela: "A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027." | "A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23 de janeiro de 2027." |
 | 0:17 a 0:24 | Texto 3 da frase: "Antes de pagar, o time explica como ficam os módulos que já aconteceram." | "Antes de pagar, o time explica como ficam os módulos que já aconteceram." |
 | 0:24 a 0:32 | Os 3 quadrados presenciais acendem. Texto: "Pelo cronograma atual, os 3 módulos presenciais ainda não começaram: abril de 2027, novembro de 2027 e julho de 2028." | "Pelo cronograma atual, os 3 módulos presenciais ainda não começaram: abril de 2027, novembro de 2027 e julho de 2028." |
@@ -349,12 +349,13 @@ Não é o padrão. Entra como teste de uma variável (com preço ou sem preço n
 
 Parágrafo a acrescentar, depois da frase da regra e antes da linha final da legenda:
 
-> Condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; inscrição de R$ 250,00, à vista (Pix ou boleto) ou em 1x no cartão.
+> Condições: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00, à vista (Pix ou boleto) ou 1x de R$ 250,00 no cartão.
 
 Nomes: pos68606_calendario_est_presenciais_vp_v1 e pos68606_pratica_vid_entrada_vp_v1 (o sufixo vp marca a variante).
 
 Pontos de atenção:
-- O catálogo e a ficha chamam o valor de R$ 250,00 de "matrícula"; a decisão 23 o chama de "inscrição". Enquanto o catálogo não trouxer o termo único, a palavra "inscrição" na peça pode não casar com a palavra "Matrícula" que a página mostra [CONFIRMAR NO CATÁLOGO]. A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma), e as duas aparecem lado a lado: o aprovador precisa ver isso.
+- A V-P segue bloqueada até a resposta da OU8 (como paga a 1ª mensalidade quem entra depois do início): a ficha manda pagar a 1ª mensalidade até 30 dias antes do início, o que é impossível para quem entra depois de 07/11, e a peça não pode omitir nem inventar a regra nova. Com a OU8 respondida, a frase dela entra no mesmo parágrafo, logo depois da matrícula, e a V-P volta ao qa.
+- Termo: "matrícula de R$ 250,00" (decisão D-C do qa de 28/10/2026). Histórico: o catálogo e a ficha chamam o valor de R$ 250,00 de "matrícula"; a decisão 23 o chama de "inscrição". Enquanto o catálogo não trouxer o termo único, a palavra "inscrição" na peça pode não casar com a palavra "Matrícula" que a página mostra [CONFIRMAR NO CATÁLOGO]. A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma), e as duas aparecem lado a lado: o aprovador precisa ver isso.
 - Quem entra depois do início paga a 1ª mensalidade quando, e se há ajuste de parcelas pelos módulos perdidos, é OU8 e está aberto. O preço de lista da peça pode não valer para quem entra no 3º módulo; a frase "Antes de pagar, o time explica" cobre a conversa, mas a decisão de pôr preço em remarketing depende dessa resposta.
 - A página oficial traz a condição de pagamento da 1ª mensalidade com 30 dias de antecedência do início. Depois do início, essa linha da página pode contradizer a peça (OU8).
 
@@ -371,8 +372,8 @@ Pontos de atenção:
 | F1-V | pos68606_pratica_vid_objecao_v1 | C3 | quer praticar, não só assistir | prova por demonstração | vídeo 9:16, 34 s | objeção direta: "Tem prática ou é tudo online?" | narrador e texto | 1 | pronto para revisão |
 | F2-A | pos68606_calendario_est_presenciais_v1 | C1 (adaptação, E10) | quem já viu a turma e pesa a entrada | tempo e rotina, com a regra da entrada | estático 4:5 e 9:16 | fato: "Os 3 módulos presenciais ainda não começaram." | só texto | 2 | pronto para revisão |
 | F2-B | pos68606_pratica_vid_entrada_v1 | C3 (adaptação, E10) | quem já viu a turma e pesa a entrada | prova por demonstração, com a regra da entrada | vídeo 9:16, 38 s | pergunta: "A turma já começou. Ainda dá para entrar?" | narrador e texto | 2 | pronto para revisão |
-| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | bloqueado até aprovar o preço |
-| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | bloqueado até aprovar o preço |
+| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | bloqueado até OU8 e aprovação de preço |
+| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | bloqueado até OU8 e aprovação de preço |
 | C4-R | pos68606_docencia_car_numero_v1 (nome reservado) | C4 | valoriza quem ensina e a discussão de casos | autoridade docente | carrossel ou vídeo | número: "38 nomes na lista de docentes: quem ensina a Pós-graduação em Gastroenterologia Veterinária." | coordenação | 1 ou 2 | reserva, não produzido |
 
 Padrão do nome: pos<código da turma>_<conceito>_<formato>_<gancho>_v<n>. Formatos: est, car, vid. O anuncios-meta ajusta ao padrão D11 e D12 de campanha, conjunto e anúncio [CONFIRMAR], sem renomear o que já está no ar.
@@ -456,9 +457,9 @@ Quem aprova: a pessoa do marketing que aprovou o plano geral, até a tabela de u
 
 | # | Item | Onde aparece | O que aprovar | Status |
 |---|---|---|---|---|
-| 1 | Subir com a página de destino pendente | todas as peças | A página ainda traz "CERTIFICADO PELO MEC" (A7), turma mínima de 20 (A12) e não escreve a regra do 3º módulo (A13). Decidir se as peças sobem assim ou depois de OA10 [CONFIRMAR com a regulação] | pendente |
-| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x no cartão), mais o termo "inscrição" contra "matrícula" da página | pendente; padrão é sem preço |
-| 3 | Resposta de OU8 antes de pôr preço em remarketing | V-P | Como e quando quem entra depois do início paga | aberta |
+| 1 | Subir com a página de destino pendente | todas as peças | A página ainda traz "CERTIFICADO PELO MEC" (A7), turma mínima de 20 (A12) e não escreve a regra do 3º módulo (A13). Decidir se as peças sobem assim ou depois de OA10 [CONFIRMAR com a regulação]. F2-A, F2-B e V-P (depois de 07/11, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); F1-E, F1-C e F1-V dependem só da decisão sobre A7 e A12 | pendente |
+| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão), termo pela decisão D-C do qa de 28/10/2026 | bloqueado até OU8 e aprovação de preço; padrão é sem preço |
+| 3 | Resposta de OU8 antes de pôr preço em remarketing | V-P | Como e quando quem entra depois do início paga; bloqueado até OU8 | aberta |
 | 4 | Frase da regra do 3º módulo | F2-A, F2-B | Texto exato da seção 4.1, que vem da decisão 18 e do plano do cmo; OU6 (véspera ou 1º dia do 3º módulo) e OU3 (reposição) seguem abertas, e a frase não promete nada sobre elas | texto pronto, aprovação humana pendente |
 | 5 | Depoimento | nenhuma peça | Nenhum depoimento é usado. Se algum entrar depois: só real, com autorização de uso de imagem e voz registrada | não se aplica |
 | 6 | Imagem de aluno | nenhuma peça | Vedada neste pacote. Opção B do vídeo (acervo real) exige autorização de imagem de toda pessoa que aparecer | não se aplica |
@@ -586,3 +587,4 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 ---
 
 **Próximo agente sugerido:** qa-de-marketing (auditorias 11 e conformidade-educacional, antes da aprovação humana); depois anuncios-meta, primeiro canal ativado, para a estrutura dos anúncios, a nomenclatura e as UTM de F1-E, F1-C, F1-V, F2-A e F2-B, e em seguida anuncios-google, que reaproveita os ganchos da matriz nos anúncios de Busca.
+- 28/10/2026: correções E1, E4, E7, E8 e E9 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

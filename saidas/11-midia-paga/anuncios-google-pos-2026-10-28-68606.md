@@ -39,7 +39,7 @@
 | Quando | O que roda | O que muda | Fonte da regra |
 |---|---|---|---|
 | 28/10 a 06/11/2026 (sexta) | Campanha como está | Nada, exceto a regra de diária (PP15 e PP17). A lista de negativas (seção 6) é um pedido separado e opcional nesta fase (P2) | Pedido do cmo; gestor, 13.1 |
-| 07/11/2026 (sábado) a 22/01/2027 (sexta, 23h59) | Remarketing (fora deste arquivo) e Busca de marca e de maior intenção | Sai tudo que cita "começa em", "início em" ou "inscrições até" sem a regra; entram os 6 RSAs desta seção (2 por grupo); `__custo` pausado; diária da seção 9 | Gestor, 13.2 (checklist) e 13.1 |
+| 07/11/2026 (sábado) a 22/01/2027 (sexta, 23h59) | Remarketing (fora deste arquivo) e Busca de marca e de maior intenção | Sai tudo que cita "começa em", "início em" ou "inscrições até" sem a regra, e todo texto com "entrada", "entrar", "matricule-se" ou "inscreva-se"; entram os 6 RSAs desta seção (2 por grupo); `__custo` pausado; diária da seção 9 | Gestor, 13.2 (checklist) e 13.1 |
 | 21/12/2026 a 03/01/2027 | Mesma estrutura | Diária pela metade (cada dia conta meio dia) | Gestor, 13.1 |
 | 22/01/2027, 23h59 | Nada | Pausa de todas as campanhas da turma, com exportação antes. Antes disso, se G chegar a R$ 2.000,00 | Gestor, 13.1 e 13.2 (item 9) |
 
@@ -72,7 +72,7 @@ Campanha: pos_68606-gastro_google_lead_busca_202610   (Busca, objetivo lead)
 | Grupo | `pos_68606-gastro_google_lead_busca_202610__marca`, `__area`, `__custo` | Nome da campanha mais "__" e o grupo, como na 4.2 da estratégia. Os grupos `__area` e `__marca` são os que o gestor manda manter depois do início (13.2 e 12.8) |
 | Anúncio | `68606-marca1_rsa_posinicio_v1` e seguintes | Padrão `<código>-<conceito>_<formato>_<gancho>_vN` |
 
-**Campanha já no ar não é renomeada (D12).** Se o nome real for outro, ele fica como está e a analise-de-midia lê pela tabela de correspondência (ação A4). O `utm_campaign` dos anúncios novos usa o nome D12 de referência acima, para a leitura por turma fechar. Nome real da campanha no ar e grupos atuais: [DADO NÃO FORNECIDO, exportação D6]. Quem monta compara esta árvore com o que está no ar antes de mexer.
+**Campanha já no ar não é renomeada (D12).** Se o nome real for outro, ele fica como está e a analise-de-midia lê pela tabela de correspondência (ação A4). O `utm_campaign` dos anúncios novos é o nome real da campanha no ar, em minúsculas e sem acento [DADO NÃO FORNECIDO, exportação D6]; a leitura por turma fecha pela tabela de correspondência (ação A4), como na Meta. Nome real da campanha no ar e grupos atuais: [DADO NÃO FORNECIDO, exportação D6]. Quem monta compara esta árvore com o que está no ar antes de mexer.
 
 ---
 
@@ -132,7 +132,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | K6.8 EAD ou presencial | A Ufape não tem turma EAD de Gastroenterologia; a pesquisa leva a um guia de formato, não a anúncio |
 | K6.10 e K6.12 como se especializar e título de especialista | Intenção de aprender, regulação bloqueada (nenhuma frase de título ou certificação) |
 | K6.11 doença inflamatória intestinal e pancreatite | Abaixo do corte como alvo de matrícula; é conteúdo de autoridade |
-| K6.6 endoscopia e aulas práticas (como pergunta) | Fica só a palavra 11 do grupo `__area`; a ficha cita prática, mas o catálogo não: [CONFIRMAR NO CATÁLOGO] |
+| K6.6 endoscopia e aulas práticas (como pergunta) | Fica só a palavra 11 do grupo `__area`; a prática vem da ficha da 68606, que o catálogo indica como fonte do cronograma |
 
 ---
 
@@ -146,8 +146,8 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 - **Um título "Turma iniciada em 07/11" fixado na posição 2** em todos os RSAs (marcado "FIXAR 2"). Assim toda impressão diz que a turma já começou, e nenhuma combinação de títulos e descrições fala em entrar sem dizer isso. Custo: a nota de qualidade do anúncio pode ficar menor que "Excelente". Aceito [SUPOSIÇÃO].
 - Plano B da regra do 3º módulo: data de início mais "veja as condições na página". Nenhum texto usa "matricule-se", "inscreva-se", "garanta", "últimas vagas", "vagas limitadas", contador, "só até" ou a data do 3º módulo sozinha.
 - Sem preço, parcela, total, valor de inscrição, bolsa, desconto, certificação, "reconhecida", nota ou promessa de emprego, renda ou resultado. Sem marca de concorrente. Nomes populares ("pós em", "gastro vet") não aparecem em texto visível.
-- "Prática em endoscopia" (título 15 do `__area` 1) vem da ficha, não do catálogo: [CONFIRMAR NO CATÁLOGO] antes de subir. Se não for confirmado, trocar por "Aulas práticas presenciais".
-- "24 módulos", "aulas online e práticas presenciais" e "grupo para discussão de casos" vêm da ficha do curso (cronograma e texto da página), não de uma coluna do catálogo: [CONFIRMAR NO CATÁLOGO].
+- "Prática em endoscopia" (título 15 do `__area` 1) vem da ficha da 68606, que o catálogo indica como fonte do cronograma (módulo 13 presencial "Endoscopia").
+- "24 módulos", "aulas online e práticas presenciais" e "grupo para discussão de casos" vêm da ficha da 68606, que o catálogo indica como fonte do cronograma.
 
 ### 5.2 Grupo `__marca`, RSA marca1 (68606-marca1_rsa_posinicio_v1)
 
@@ -165,7 +165,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | 10 | Aulas práticas presenciais | 26 |
 | 11 | Para médicos veterinários | 25 |
 | 12 | Veja as condições na página | 27 |
-| 13 | Condições de entrada na página | 30 |
+| 13 | Fale com o time da turma | 24 |
 | 14 | Grupo de discussão de casos | 27 |
 | 15 | Módulos online e presenciais | 28 |
 
@@ -199,7 +199,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | # | Descrição | Caracteres |
 |---|---|---|
 | 1 (FIXAR 1) | Faculdade UFAPE: Pós-graduação em Gastroenterologia Veterinária em São Paulo. | 77 |
-| 2 | Turma IX iniciada em 07/11/2026. Veja as condições de entrada na página. | 72 |
+| 2 | Turma IX iniciada em 07/11/2026. Fale com o time da turma. | 58 |
 | 3 | Conheça cronograma, módulos práticos e docentes da turma no site da Faculdade UFAPE. | 84 |
 | 4 | Para médicos veterinários. Turma iniciada em 07/11: veja as condições na página. | 80 |
 
@@ -221,7 +221,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | 12 | Módulos online e presenciais | 28 |
 | 13 | Cronograma completo na página | 29 |
 | 14 | Pós-graduação em São Paulo | 26 |
-| 15 | Prática em endoscopia [CONFIRMAR NO CATÁLOGO] | 21 |
+| 15 | Prática em endoscopia | 21 |
 
 | # | Descrição | Caracteres |
 |---|---|---|
@@ -266,7 +266,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | 3 | Gastroenterologia Veterinária | 29 |
 | 4 | Pós-graduação Veterinária | 25 |
 | 5 | Parcelas e condições na página | 30 |
-| 6 | Condições de entrada na página | 30 |
+| 6 | Fale com o time da turma | 24 |
 | 7 | Faculdade UFAPE | 15 |
 | 8 | Semipresencial em São Paulo | 27 |
 | 9 | 500 horas, 24 módulos | 21 |
@@ -280,7 +280,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 | # | Descrição | Caracteres |
 |---|---|---|
 | 1 (FIXAR 1) | Pós-graduação em Gastroenterologia Veterinária, Faculdade UFAPE. Veja o investimento. | 85 |
-| 2 | Turma IX iniciada em 07/11/2026. Veja parcelas e condições de entrada na página. | 80 |
+| 2 | Turma IX iniciada em 07/11/2026. Veja parcelas na página e fale com o time. | 75 |
 | 3 | Semipresencial em São Paulo, com 500 horas, 24 módulos e aulas práticas presenciais. | 84 |
 | 4 | Todas as condições, o cronograma e os docentes estão na página da turma. | 72 |
 
@@ -313,7 +313,7 @@ Motivo da pausa na fase 2: o gestor manda manter só marca e maior intenção (1
 
 ### 5.8 Conferência dos limites
 
-- Nenhum título passa de 30 (maior: 30, em quatro títulos) e nenhuma descrição passa de 90 (maior: 88).
+- Nenhum título passa de 30 (maior: 30, em três títulos depois da correção E10: area1 3, area2 15 e custo1 5; antes dela eram cinco: marca1 13, area1 3, area2 15, custo1 5 e custo1 6) e nenhuma descrição passa de 90 (maior: 88).
 - Os 6 RSAs têm 15 títulos e 4 descrições; a descrição 1 de cada um traz o nome completo do curso, fixada na posição 1.
 - A frase completa da regra do 3º módulo tem cerca de 200 caracteres e não cabe em descrição de 90. Por isso o plano B em todos os RSAs. A frase completa fica para a página (seção 10, P1).
 
@@ -385,7 +385,7 @@ Todas com URL com UTM própria (seção 8). Texto sem preço, sem certificação
 | # | Título | Linha 1 | Linha 2 | Destino | utm_content |
 |---|---|---|---|---|---|
 | 1 | Cronograma da turma (19) | Veja os 24 módulos do curso (27) | Online e práticas presenciais (29) | Página da turma, âncora do cronograma [CONFIRMAR se existe] | 68606-sl-cronograma_sitelink_posinicio_v1 |
-| 2 | Condições da turma (18) | Turma iniciada em 07/11/2026 (28) | Veja as condições de entrada (28) | Página da turma, trecho das condições [CONFIRMAR que traz a regra completa] | 68606-sl-condicoes_sitelink_posinicio_v1 |
+| 2 | Condições da turma (18) | Turma iniciada em 07/11/2026 (28) | Fale com o time da turma (24) | Página da turma, trecho das condições [CONFIRMAR que traz a regra completa] | 68606-sl-condicoes_sitelink_posinicio_v1 |
 | 3 | Docentes e coordenação (22) | Veja quem são os docentes (25) | Coordenação e corpo docente (27) | Página da turma, âncora dos docentes [CONFIRMAR se existe] | 68606-sl-docentes_sitelink_posinicio_v1 |
 | 4 | Local das aulas (15) | Av. 9 de Julho, 3939 (20) | Jardim Paulista, São Paulo (26) | Página da turma, trecho do local [CONFIRMAR se existe] | 68606-sl-local_sitelink_posinicio_v1 |
 
@@ -434,13 +434,13 @@ Fonte: ficha do curso e catálogo. A página não recebe anúncio se estiver com
 |---|---|
 | utm_source | google |
 | utm_medium | cpc |
-| utm_campaign | `pos_68606-gastro_google_lead_busca_202610` (nome da campanha, minúsculas, sem acento) |
+| utm_campaign | `NOME_DA_CAMPANHA_ATUAL` (a preencher na exportação D6; nome real da campanha no ar, minúsculas, sem acento) |
 | utm_content | nome do anúncio ou do asset (tabela abaixo) |
 | utm_term | `{keyword}` (ValueTrack, preenchido pela plataforma) |
 
 Modelo (RSA area1):
 
-`https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=google&utm_medium=cpc&utm_campaign=pos_68606-gastro_google_lead_busca_202610&utm_content=68606-area1_rsa_posinicio_v1&utm_term={keyword}`
+`https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=google&utm_medium=cpc&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-area1_rsa_posinicio_v1&utm_term={keyword}`
 
 | Anúncio ou asset | utm_content |
 |---|---|
@@ -456,7 +456,7 @@ Montagem: sufixo de URL final no nível do anúncio, com `utm_content` próprio;
 
 ### 8.3 Por que não usar preço, e a condição completa se alguém insistir
 
-Decisão 23 (CEO, 28/10/2026): a inscrição é de R$ 250,00 e as peças podem citar o valor **com a condição completa do catálogo**. Recomendação desta entrega: não usar preço. Condição completa do catálogo e da ficha: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula (inscrição) de R$ 250,00, à vista (Pix ou boleto) ou 1x no cartão; a ficha ainda diz que a 1ª mensalidade deve ser paga até 30 dias antes do início, e para quem entra depois da data de corte isso continua [CONFIRMAR OU8]. Isso soma mais de 200 caracteres e não cabe em descrição de 90, e um preço sem a condição completa é proibido. O investimento fica na página da turma.
+Decisão 23 (CEO, 28/10/2026): a inscrição é de R$ 250,00 e as peças podem citar o valor **com a condição completa do catálogo**. Recomendação desta entrega: não usar preço. Condição completa do catálogo e da ficha: 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula de R$ 250,00 (decisão D-C do qa de 28/10/2026), à vista (Pix ou boleto) ou 1x no cartão; a ficha ainda diz que a 1ª mensalidade deve ser paga até 30 dias antes do início, e para quem entra depois da data de corte isso continua [CONFIRMAR OU8]. Isso soma mais de 200 caracteres e não cabe em descrição de 90, e um preço sem a condição completa é proibido. O investimento fica na página da turma.
 
 ### 8.4 Conversão que a campanha otimiza
 
@@ -498,11 +498,12 @@ Regra: verba semanal x 3 maior ou igual a anúncios ativos x 1,5 x CPL; o maior 
 
 | Situação | Condição | Resultado na fase 2 |
 |---|---|---|
-| 2 RSAs por grupo | semanal do Google maior ou igual a R$ 18,00 (diária maior ou igual a R$ 2,57) | Vale para G até R$ 1.588,57 |
-| 1 RSA por grupo | semanal maior ou igual a R$ 9,00 (diária maior ou igual a R$ 1,29) | Vale para G até R$ 1.794,29; acima disso, 1 RSA por grupo |
+| 2 RSAs por grupo (4 anúncios) | semanal do Google maior ou igual a R$ 36,00 (diária maior ou igual a R$ 5,14) | Vale para G até R$ 1.177,14 |
+| 1 RSA por grupo (2 anúncios) | semanal maior ou igual a R$ 18,00 (diária maior ou igual a R$ 2,57) | Vale para G até R$ 1.588,57 |
+| Só `__marca`, 1 RSA | semanal maior ou igual a R$ 9,00 (diária maior ou igual a R$ 1,29) | Vale para G até R$ 1.794,29; acima disso, pedido de pausa ao gestor [SUPOSIÇÃO] |
 | Abaixo disso | | Só o grupo `__marca` até o fim [SUPOSIÇÃO, regra do gestor 13.1: "só a busca de marca"] |
 
-Com G = 0, a semanal do Google na fase 2 é R$ 87,50 (R$ 12,50 x 7): passa com folga. Se a diária calculada ficar abaixo do mínimo da plataforma: [CONFIRMAR]. Nesse caso, concentrar nas últimas semanas antes de 22/01 (EM14), sem passar do total.
+Conta: na fase 2, `__marca` e `__area` dividem um só orçamento; diária do Google na fase 2 = 0,50 x (2.000 menos G) / 80; R$ 36,00 / 7 = R$ 5,14 por dia, logo 2.000 menos G maior ou igual a R$ 822,86. Com G = 0, a semanal do Google na fase 2 é R$ 87,50 (R$ 12,50 x 7): passa com folga. Se a diária calculada ficar abaixo do mínimo da plataforma: [CONFIRMAR]. Nesse caso, concentrar nas últimas semanas antes de 22/01 (EM14), sem passar do total.
 
 ### 9.5 Lance
 
@@ -528,7 +529,7 @@ Com G = 0, a semanal do Google na fase 2 é R$ 87,50 (R$ 12,50 x 7): passa com f
 | Rede | Pesquisa do Google apenas; desligar parceiros de pesquisa e a expansão para Display | [SUPOSIÇÃO de método] |
 | Local | Estado de São Paulo, "presença ou interesse" | EM6 da estratégia (SUPOSIÇÃO) |
 | Idioma | Português | |
-| Público | 18 anos ou mais; listas de remarketing só como observação, nunca como restrição; nenhuma lista de contatos sem base legal [CONFIRMAR] | Estratégia, 4.1 |
+| Público | 25 anos ou mais, sem idade máxima (decisão 24): excluir a faixa de 18 a 24 anos e manter 25 a 34, 35 a 44, 45 a 54, 55 a 64, 65 ou mais e "desconhecida" [SUPOSIÇÃO: "desconhecida" fica, porque não indica menos de 25 anos; o gestor confirma]. Leitura semanal por faixa: 25 a 34, 35 a 44 e 45 ou mais. Listas de remarketing só como observação, nunca como restrição; nenhuma lista de contatos sem base legal [CONFIRMAR] | Decisão 24 (docs/execucao-2026-10-26.md) |
 | Agenda | Sem restrição de horário | A busca de quem decide vem em qualquer hora |
 
 ---
@@ -539,7 +540,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer | Quando |
 |---|---|---|---|---|---|---|
-| P1 | **Porta de entrada da fase 2:** confirmar com o time do site que a página da turma 68606 traz a regra completa do 3º módulo (frase da seção 5.8), a data certa e as condições. Sem isso, os RSAs com "veja as condições na página" não podem subir, porque a página não entregaria o que o anúncio manda ver | O plano B de texto só vale se a página trouxer a regra (decisão 18; regra 6 do cmo). A conferência de 28/10 não existe: a página ainda não conta como entregue (A7, A12 e A13 no OA10 do cmo) | Sem custo de mídia | Anúncio e página dizem o mesmo | Não subir os RSAs da fase 2; manter só marca sem texto de entrada ou pausar a campanha em 07/11 | Até 05/11 |
+| P1 | **Porta de entrada da fase 2:** confirmar com o time do site que a página da turma 68606 traz a regra completa do 3º módulo (frase da seção 5.8), a data certa e as condições. Sem isso, os RSAs com "veja as condições na página" não podem subir, porque a página não entregaria o que o anúncio manda ver | O plano B de texto só vale se a página trouxer a regra (decisão 18; regra 6 do cmo). A conferência de 28/10 não existe: a página ainda não conta como entregue (A7, A12 e A13 no OA10 do cmo) | Sem custo de mídia | Anúncio e página dizem o mesmo | Não subir os RSAs da fase 2; manter só marca sem texto de entrada ou pausar a campanha em 07/11. Os RSAs, sitelinks e frases de destaque da fase 2 só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026) | Até 05/11 |
 | P2 | (Opcional) Adicionar a lista de negativas da seção 6 à campanha, inclusive na fase 1 | Medicina humana domina a busca e gasta clique sem relação com a Pós | Sem custo; reduz clique irrelevante | Menos clique fora do público; sem mudar lance, texto ou diária | Remover a lista da campanha | A partir de 29/10 |
 | P3 | Em 07/11 (ou programado para sexta, 06/11 à noite): pausar todo anúncio que cita data de início, "começa em", "inscrições até" ou "últimas vagas" sem a regra; subir os RSAs marca1, marca2, area1 e area2 (com os fixados da seção 5.1); pausar o grupo `__custo` e qualquer grupo fora de `__marca` e `__area`. Exportar o estado atual antes | Regra do início: sem data de início sem a regra; gestor 13.2 (itens 3 e 4) | Sem custo adicional; a diária segue a seção 9 | Só marca e maior intenção, com texto que diz que a turma começou | Reativar os anúncios exportados (restaurar o estado do arquivo) | 07/11 |
 | P4 | Aplicar a diária do Google da seção 9.2 e a trava de gasto (se existir) | Teto de R$ 2.000,00 por turma no ciclo (decisão 15; PP15 e PP17) | Até R$ 962,50 de Google no ciclo se G = 0; fórmula com G real | Gasto distribuído até 22/01 sem passar do teto | Voltar à diária anterior | 28/10 (fase 1) e 07/11, 21/12 e 04/01 (mudanças de fase) |
@@ -570,7 +571,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 12. Colar a lista de palavras-chave da seção 4 e a lista de negativas da seção 6; conferir os tipos de correspondência.
 13. Criar os assets da seção 7 com as UTMs.
 14. Conferir cada URL final: UTM completa, minúsculas, sem acento, sem dado pessoal; `utm_term={keyword}`.
-15. Conferir rede (só Pesquisa), local (estado de São Paulo), idioma, 18 anos ou mais e a trava de gasto.
+15. Conferir rede (só Pesquisa), local (estado de São Paulo), idioma, idade de 25 anos ou mais com a faixa de 18 a 24 excluída (decisão 24) e a trava de gasto.
 16. Conferir o texto dos anúncios contra a seção 12 (conformidade) e enviar para a aprovação final.
 
 **Durante a fase 2**
@@ -588,7 +589,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 |---|---|---|
 | Nome, modalidade, carga horária, local, turma e início batem com o catálogo | Atendido | Pós-graduação em Gastroenterologia Veterinária, IX, São Paulo, semipresencial, 500 h, 07/11/2026 |
 | "Pós-graduação em Gastroenterologia Veterinária" no texto de todo RSA | Atendido | Descrição 1 de cada RSA, fixada na posição 1 (46 caracteres, não cabe em título) |
-| Dado que só está na ficha | Pendente externo | 24 módulos, aulas práticas presenciais, grupo de casos, prática em endoscopia e endereço: [CONFIRMAR NO CATÁLOGO] |
+| Dado que só está na ficha | Atendido | 24 módulos, aulas práticas presenciais, grupo de casos, prática em endoscopia e endereço: ficha da 68606, que o catálogo indica como fonte do cronograma |
 | Sem frase de certificação, "MEC", nota ou "reconhecida" | Atendido | Nenhum texto usa. A página de destino ainda usa "CERTIFICADO PELO MEC" (pendência do cmo, não desta entrega) |
 | Sem "últimas vagas", "vagas limitadas", contador ou urgência com data | Atendido | A data do 3º módulo não aparece em anúncio |
 | Regra do 3º módulo depois do início | Atendido pelo plano B e depende de P1 | Data de início e "veja as condições na página", com a pinagem do título "Turma iniciada em 07/11" |
@@ -598,7 +599,7 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 | Sem marca de concorrente em texto ou lance | Atendido | Só em negativas |
 | Sem travessão nem meia-risca | Atendido | Só hífen em palavras compostas |
 | Sem pontuação repetida, caixa alta excessiva ou símbolos | Atendido | Só a sigla UFAPE em caixa alta |
-| Públicos de 18 anos ou mais, sem segmentação sensível, sem lista de contatos sem base legal | Atendido no desenho | |
+| Público de 25 anos ou mais, sem idade máxima (decisão 24); sem outra segmentação sensível; sem lista de contatos sem base legal | Atendido no desenho | Leitura semanal por faixa: 25 a 34, 35 a 44 e 45 ou mais |
 | Destino entrega o que o anúncio promete | Pendente externo | P1; página com turma mínima de 20 (a decisão da Ufape é 15) e sem a regra do 3º módulo |
 | Números só de arquivos fornecidos | Atendido | Contas sobre R$ 2.000,00, 80 dias equivalentes e percentuais do gestor; volume, CPC, G e leads são [DADO NÃO FORNECIDO] |
 
@@ -634,7 +635,6 @@ Nada abaixo foi feito. Cada pedido é para um humano executar no Google Ads depo
 
 - [DADO NÃO FORNECIDO] Gasto acumulado do ciclo (G), diária atual, estratégia de lance atual, CPC médio, volume e CPC por palavra-chave, nome real da campanha e dos grupos no ar, anúncios no ar e quais citam a data de início (exportação D6 e Planejador de Palavras-chave).
 - [CONFIRMAR] P1: a página traz a regra completa do 3º módulo e as condições; evento de conversão que a página registra.
-- [CONFIRMAR NO CATÁLOGO] Prática em endoscopia, aulas práticas, 24 módulos e grupo de discussão de casos (hoje só na ficha).
 - [CONFIRMAR OU3] Como se repõem os módulos já realizados; [CONFIRMAR OU6] se "até o 3º módulo" inclui o 1º dia dele; [CONFIRMAR OU8] pagamento da 1ª mensalidade de quem entra depois do corte.
 - [CONFIRMAR] Horário de atendimento de vendas e número de chamada; base legal e política de privacidade para formulário; perfil de empresa para asset de local; recurso de trava de gasto na conta; mínimo diário da plataforma.
 - [CONFIRMAR] Quem executa no sábado 07/11; responsáveis por montar, revisar e aprovar.
@@ -647,3 +647,4 @@ Internas, listadas no cabeçalho. Externas: nenhuma nesta etapa.
 ---
 
 **Próximo agente sugerido:** qa-de-marketing (auditorias/11-midia-paga.md e auditorias/conformidade-educacional.md), com atenção a P1, às contagens de caracteres e ao plano B da regra do 3º módulo. Depois, o humano executa as seções 10 e 11 depois da aprovação.
+- 28/10/2026: correções E1, E3, E4, E5, E10, E11, E12 e E36 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

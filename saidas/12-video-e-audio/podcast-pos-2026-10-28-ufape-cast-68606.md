@@ -17,7 +17,7 @@
   - /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/cursos/pos-68606.json (linha literal do catálogo)
   - /home/user/marketing-ufape/.claude/skills/conformidade-educacional/SKILL.md e /home/user/marketing-ufape/auditorias/conformidade-educacional.md
 - **Não aberto:** faculdade.ufape.com.br e contexto/catalogo-de-cursos.md inteiro (os dados de curso vêm da linha literal do catálogo citada no JSON da 68606 e da ficha). Nenhuma busca na web.
-- **Dados pessoais:** nenhum. Nenhum aluno, tutor, paciente ou egresso é nomeado. Docentes só com nome e titulação como estão na ficha (maiúsculas normalizadas).
+- **Dados pessoais:** nenhum. Nenhum aluno, tutor, paciente ou egresso é nomeado. Docentes só com nome e titulação como estão na ficha (maiúsculas normalizadas). Só a caixa muda (DR. para Dr.); nome e titulação como na ficha. Mesmo ajuste na apresentação.
 
 ---
 
@@ -29,13 +29,13 @@ Estes blocos são copiados sem alteração onde indicados. Mudou aqui, muda em t
 
 > A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 
-**[LINK-TURMA]** (UTM do plano do cmo, slide 13; o `utm_campaign` e o `utm_content` mudam por episódio):
+**[LINK-TURMA]** (UTM do plano do cmo, slide 13; só o `utm_content` muda por episódio):
 
 ```
-https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=<youtube|spotify|instagram>&utm_medium=organic_social&utm_campaign=pos_68606_202611&utm_content=ufapecast_ep01
+https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=<youtube|spotify|instagram>&utm_medium=organic_social&utm_campaign=pos_68606_202610&utm_content=ufapecast_ep01
 ```
 
-- Mês do `utm_campaign` segue o mês de publicação (ep. 1 em 24/11: `202611`; ep. 3 em 22/12: `202612`; ep. 4 e 5 em 01/2027: `202701`).
+- O `utm_campaign` é `pos_68606_202610` em todo episódio com chamada da turma (regra 11 do cmo-pos). Episódio sem chamada de turma usa `pos_conteudo_<AAAAMM>` [CONFIRMAR com o arquiteto-de-fluxos].
 - Episódio que fala de várias turmas ou sem chamada de turma usa `utm_campaign=pos_conteudo_<AAAAMM>` (exceção a conferir pelo arquiteto-de-fluxos [CONFIRMAR]).
 - Link testado antes de publicar. O tráfego do Spotify usa `utm_medium=organic_social` por seguir o plano do cmo [CONFIRMAR com o arquiteto-de-fluxos se áudio pede outro medium].
 
@@ -90,7 +90,7 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 - **Data de publicação:** terça, 24/11/2026 [SUPOSIÇÃO de calendário, depende do nome aprovado e da produção].
 - **Convidados:**
   - Esp. Maria Carolina Pappalardo, coordenação da Pós-graduação em Gastroenterologia Veterinária (nome e titulação como na ficha). Autorização de imagem e citação: registrada (decisões 8 e 10).
-  - Egresso de pós da Ufape: [CONFIRMAR nome, de qual pós, e autorização de imagem, voz e citação]. Sem a autorização registrada, o episódio sai só com a coordenação.
+  - Egresso de pós da Ufape: [CONFIRMAR nome, de qual pós, e autorização de imagem, voz e citação]. Sem a autorização registrada, o episódio sai só com a coordenação. Relato de egresso é depoimento: além do termo assinado de imagem, voz e citação, o episódio com egresso passa pela aprovação de "Peças com certificação, ato regulatório ou depoimento" de contexto/ufape-geral.md (responsável e regulação, hoje [CONFIRMAR]). Sem as duas coisas, o ep. 1 sai só com a coordenação, e a descrição, os títulos, o Story e o card tiram toda menção ao egresso.
 - **Apresentador:** [CONFIRMAR].
 - **O que o ep. 1 serve:** todas as turmas de Pós. A chamada aponta para a 68606.
 
@@ -110,7 +110,7 @@ https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-
 Como escolher minha pós-graduação? Neste primeiro episódio do UFAPE Cast, o podcast da Faculdade UFAPE sobre conhecimento e prática em Medicina Veterinária, a coordenação da Pós-graduação em Gastroenterologia Veterinária e um egresso de pós da Ufape conversam sobre as perguntas de quem avalia uma especialização: o que comparar, como é a rotina de estudo, o que olhar no cronograma e quem ensina.
 
 Conheça a Pós-graduação em Gastroenterologia Veterinária (turma IX, São Paulo):
-https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=youtube&utm_medium=organic_social&utm_campaign=pos_68606_202611&utm_content=ufapecast_ep01
+https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=youtube&utm_medium=organic_social&utm_campaign=pos_68606_202610&utm_content=ufapecast_ep01
 
 A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 
@@ -151,7 +151,7 @@ Notas de produção da descrição: os tempos dos capítulos são [SUPOSIÇÃO] 
 ```
 Como escolher minha pós-graduação? A coordenação da Pós-graduação em Gastroenterologia Veterinária, Esp. Maria Carolina Pappalardo, e um egresso de pós da Ufape [CONFIRMAR] conversam sobre as dúvidas de quem avalia uma especialização: o que comparar, como é a rotina de módulos, o que olhar no cronograma e quem ensina.
 
-Página da turma IX, São Paulo: https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=spotify&utm_medium=organic_social&utm_campaign=pos_68606_202611&utm_content=ufapecast_ep01
+Página da turma IX, São Paulo: https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=spotify&utm_medium=organic_social&utm_campaign=pos_68606_202610&utm_content=ufapecast_ep01
 
 A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 
@@ -209,7 +209,7 @@ Legenda: **FALA INSTITUCIONAL** é texto da Ufape e pode ser lido como está. **
 
 #### Bloco 4. Pergunta da comunidade (28:00 a 35:00)
 
-- **Como a pergunta chega:** caixa de perguntas nos Stories e formulário curto da Ufape, abertos de 09/11 a 17/11 [SUPOSIÇÃO de prazo]. A pergunta é lida sem nome, sem cidade e sem curso de quem enviou. Sem consentimento do remetente, nada identifica a pessoa. [CONFIRMAR formulário com política de privacidade (pendência p04)].
+- **Como a pergunta chega:** caixa de perguntas nos Stories e formulário curto da Ufape, abertos de 09/11 a 17/11 [SUPOSIÇÃO de prazo]. A pergunta é lida sem nome, sem cidade e sem curso de quem enviou. Sem consentimento do remetente, nada identifica a pessoa. [CONFIRMAR formulário com política de privacidade (pendência p04)]. A caixa de perguntas do Instagram mostra o perfil de quem enviou: o perfil nunca vai para arquivo de trabalho, planilha ou chat da squad; a triagem copia só o texto da pergunta. O formulário só abre com finalidade escrita e link da política de privacidade. Sem isso até a véspera da abertura, o ep. 1 usa a pergunta de reserva e o bloco 4 não abre formulário.
 - **Pergunta escolhida:** [CONFIRMAR, vem da comunidade].
 - **Pergunta de reserva (se nenhuma chegar)** [SUPOSIÇÃO, não atribuir a ninguém, dizer "uma dúvida comum de quem avalia uma pós"]: "Dá para conciliar uma pós com a rotina de clínica?"
 - **PERGUNTAS de aprofundamento:** o que você diria a quem tem essa dúvida? Que exemplo anônimo ilustra? Que informação a pessoa pode pedir ao time para decidir?
@@ -222,9 +222,8 @@ Legenda: **FALA INSTITUCIONAL** é texto da Ufape e pode ser lido como está. **
   1. Como é a rotina de um módulo online e a de um módulo presencial?
   2. O que o aluno encontra no grupo de discussão de casos descrito na página? (a descrição vem da página; a resposta é da coordenação)
   3. Como funciona a avaliação ao longo do curso?
-  4. Que orientação vocês dão a quem quer entrar depois do início da turma? (a resposta é a [CHAMADA-TURMA]; o que a coordenação não souber, o apresentador diz "o time confirma", sem prometer reposição)
 - **TRAZER:** uma descrição de um módulo (tema, formato), sem relatar paciente.
-- **Não perguntar nem afirmar:** reposição de módulos (OU3 em aberto), data final de matrícula além da regra oficial, número de vagas, turma mínima.
+- **Não perguntar nem afirmar:** regra de entrada depois do início (é fala do apresentador); reposição de módulos (OU3 em aberto), data final de matrícula além da regra oficial, número de vagas, turma mínima.
 
 #### Bloco 6. Fechamento (40:00 a 45:00)
 
@@ -279,7 +278,7 @@ Poucas palavras, marca legível, respiro ao redor, foto real autorizada (coorden
   - Faixa: No ar terça, 24/11, no YouTube e no Spotify
   - Rodapé pequeno: Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo. A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 - **Legenda do post:** "Como escolher minha pós? Terça, 24/11, no UFAPE Cast, o podcast da Faculdade UFAPE. Conversa com a coordenação da Pós-graduação em Gastroenterologia Veterinária e um egresso de pós da Ufape. Página da turma: [LINK-TURMA]. [CHAMADA-TURMA]. As opiniões são dos convidados."
-- **Dia sugerido:** ter 24/11.
+- **Dia sugerido:** ter 24/11, em formato de Story (C6); como anúncio de remarketing só pelo AP-4.
 
 #### Os 2 Stories (1080 x 1920)
 
@@ -352,7 +351,7 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   2. "O que reunir antes de discutir um caso?" (pergunta 2, [REVISÃO DOCENTE] obrigatória na legenda)
   3. "Como falar com o tutor sobre segunda opinião?" (pergunta 4)
 - **Card do convidado:** Dr. Rodolfo Oliveira Leal, docente da Pós-graduação em Gastroenterologia Veterinária (titulação como na ficha).
-- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202612`, `utm_content=ufapecast_ep02`).
+- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202610`, `utm_content=ufapecast_ep02`).
 - **[REVISÃO DOCENTE]:** em toda a pauta, no roteiro final e nas legendas.
 
 ### Episódio 3. "Luto e burnout: como cuidar de quem cuida?"
@@ -365,7 +364,7 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   2. Que diferença os convidados fazem entre cansaço, estresse e burnout? [REVISÃO DOCENTE: profissional de saúde mental deve validar a terminologia]
   3. Como uma equipe de clínica pode abrir esse assunto entre colegas?
   4. Como acolher um tutor em luto sem expor nenhum caso identificável?
-  5. Por que esse tema aparece num curso técnico, como o módulo 24 da ficha da pós?
+  5. Por que esse tema aparece num curso técnico, como no módulo 24 da Pós-graduação em Gastroenterologia Veterinária?
   6. Que hábitos de rotina cada convidado adota? (relato pessoal, opcional)
   7. Onde buscar apoio profissional? (os convidados indicam serviços e profissionais; a Ufape confere cada indicação antes de publicar)
 - **Os 3 cortes (ideias):**
@@ -373,7 +372,7 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   2. "Como uma equipe pode falar sobre isso?"
   3. "Acolher o tutor em luto: o que considerar?"
 - **Cuidados específicos:** linha fixa na descrição e no fim do episódio: "Em caso de necessidade de apoio, procure um profissional de saúde mental ou um serviço de saúde." [REVISÃO DOCENTE do texto]. Nenhum corte usa título que insinue que quem assiste está esgotado ou em sofrimento.
-- **Chamada:** sem chamada de turma, porque é fim de ano sem campanha (cmo, slide 14). Chamada: "Siga o UFAPE Cast e envie sua pergunta para o próximo episódio." Link da Ufape com `utm_campaign=pos_conteudo_202612` [CONFIRMAR exceção de UTM]. Se a Ufape preferir manter a chamada da turma, usa-se a [CHAMADA-TURMA] completa. **Decisão da Ufape [CONFIRMAR].**
+- **Chamada:** sem chamada de turma (decisão D-A do qa de 28/10/2026). O episódio sai em 22/12 só no YouTube e no Spotify. Chamada única: "Siga o UFAPE Cast e envie sua pergunta para o próximo episódio." Link: canal do UFAPE Cast; se o link for para o site, https://faculdade.ufape.com.br/?utm_source=<youtube|spotify|instagram>&utm_medium=organic_social&utm_campaign=pos_conteudo_202612&utm_content=ufapecast_ep03 [CONFIRMAR exceção com o arquiteto-de-fluxos]. Nenhuma peça do ep. 3 leva [CHAMADA-TURMA], link da 68606 ou data do 3º módulo.
 
 ### Episódio 4. "O que a imagem mostra num caso gastrointestinal?"
 
@@ -393,7 +392,7 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   2. "Radiografia ou ultrassom: o que cada um mostra?"
   3. "Como o clínico conversa com quem faz a imagem?"
 - **Cuidado de imagem:** qualquer imagem de exame mostrada vem de acervo autorizado, sem nome, data, clínica ou código que identifique, com crédito. Sem imagem, o apresentador descreve o que a tela mostra (áudio autossuficiente).
-- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202701`, `utm_content=ufapecast_ep04`).
+- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202610`, `utm_content=ufapecast_ep04`).
 
 ### Episódio 5. "Do exame de laboratório ao diagnóstico: o que pedir e como ler?"
 
@@ -405,7 +404,7 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   2. Como o clínico escolhe o que solicitar? [REVISÃO DOCENTE]
   3. Que cuidados de coleta e de comunicação com o laboratório fazem diferença?
   4. Como o convidado orienta a leitura de um resultado sem fechar diagnóstico só com um exame? [REVISÃO DOCENTE]
-  5. Que papel têm a fluidoterapia e a hemogasometria na discussão do módulo 3? (tema da ficha; resposta do convidado) [REVISÃO DOCENTE]
+  5. Que papel têm a fluidoterapia e a hemogasometria na discussão do módulo 3 da Pós-graduação em Gastroenterologia Veterinária? (tema da ficha; resposta do convidado) [REVISÃO DOCENTE]
   6. Que exemplo anônimo ilustra a diferença entre pedir um exame e interpretar o conjunto? [REVISÃO DOCENTE]
   7. Como um aluno pode estudar a interpretação de exames de forma prática?
   8. Que conselho para quem quer evoluir nessa leitura?
@@ -413,7 +412,8 @@ Convenções: perguntas feitas pelo apresentador; as respostas são dos convidad
   1. "Como o laboratório entra no diagnóstico?"
   2. "O que considerar ao ler um resultado?"
   3. "Como estudar exames na prática?"
-- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202701`, `utm_content=ufapecast_ep05`). Dado que o episódio sai a 4 dias do 3º módulo, a regra completa é obrigatória e nenhuma peça sugere "corra" ou "última chance".
+- **Chamada:** [CHAMADA-TURMA] com [LINK-TURMA] (`utm_campaign=pos_68606_202610`, `utm_content=ufapecast_ep05`). Dado que o episódio sai a 4 dias do 3º módulo, a regra completa é obrigatória e nenhuma peça sugere "corra" ou "última chance".
+- **Cuidados do ep. 5:** ninguém fala a data do módulo 3 nem "neste fim de semana" fora da [CHAMADA-TURMA]; na pauta, a pergunta 5 cita só "o módulo 3 da Pós-graduação em Gastroenterologia Veterinária", sem data.
 
 ### Reserva em 02/02/2027. "Pós, residência, curso curto ou aprender com um colega?"
 
@@ -433,33 +433,39 @@ Todas as datas são [SUPOSIÇÃO] até a Ufape aprovar o nome do podcast, os con
 | seg 16/11 a sex 20/11 | Preparação, teste de áudio e câmeras; **sessão de gravação 1: ep. 1 e ep. 2** (ex.: ter 17/11) | produção |
 | 20 e 21/11 | Workshop Brasileiro de Neuromonitorização: sem campanha da Pós; sem postagem do podcast | - |
 | seg 23/11 | Edição final do ep. 1, revisão docente, legendas SRT, miniatura, capa quadrada; conformidade e qa; aprovação humana | editor, designer, qa |
-| **ter 24/11** | **Ep. 1 no ar** (YouTube e Spotify); corte 1; Story de estreia; card 4:5 | responsável pelos canais |
+| **ter 24/11** | **Ep. 1 no ar** (YouTube e Spotify); corte 1; Story de estreia; card 4:5 em formato de Story (C6) | responsável pelos canais |
 | qua 25/11 | Card da convidada (Esp. Maria Carolina Pappalardo) | posts-sociais |
-| qui 26/11 | Corte 2; Story de link | posts-sociais |
+| qui 26/11 | Corte 2 em Story (C7); Story de link | posts-sociais |
 | ter 01/12 | Corte 3 do ep. 1; **sessão de gravação 2: ep. 3 e ep. 4** | produção |
 | qua 02/12 | E-mail E2 da régua (já contado no teto D16); o link do ep. 1 pode ir na newsletter do mês, que já conta no teto | humano no CRM |
 | **ter 08/12** | **Ep. 2 no ar**; corte 1 do ep. 2; Story de estreia | produção |
 | qua 09/12 | Card do convidado do ep. 2 | posts-sociais |
-| qui 10/12 | Corte 2 e Story de link do ep. 2 | posts-sociais |
+| qui 10/12 | Corte 2 em Story (C7) e Story de link do ep. 2 | posts-sociais |
 | ter 15/12 | Corte 3 do ep. 2; **sessão de gravação 3: ep. 5** (e reserva, se aprovada) | produção |
 | sáb 19 e dom 20/12 | Módulo 2 da 68606 (online) | Ufape |
 | 21/12 a 03/01 | Sem mensagem de campanha. Posts orgânicos seguem só em ritmo reduzido [SUPOSIÇÃO]; sem urgência | - |
-| **ter 22/12** | **Ep. 3 no ar** (sem chamada de turma, `utm_campaign=pos_conteudo_202612`); corte 1; Story de estreia | produção |
-| qua 23/12 | Card do convidado do ep. 3 | posts-sociais |
+| **ter 22/12** | **Ep. 3 no ar** só no YouTube e no Spotify (sem chamada de turma, `utm_campaign=pos_conteudo_202612`); nenhuma peça derivada de 21/12 a 03/01 (D-A) | produção |
 | **ter 05/01** | **Ep. 4 no ar**; corte 1; Story de estreia | produção |
 | qua 06/01 | Card da convidada do ep. 4 | posts-sociais |
-| qui 07/01 | Corte 2 e Story de link do ep. 4 | posts-sociais |
+| qui 07/01 | Corte 2 em Story (C7) e Story de link do ep. 4 | posts-sociais |
 | ter 12/01 | Corte 3 do ep. 4; WhatsApp W4 da régua (último toque antes da pausa); o link do ep. 5 ainda não existe | humano no CRM |
 | **ter 19/01** | **Ep. 5 no ar**; corte 1; Story de estreia | produção |
 | qua 20/01 | Card do convidado do ep. 5 | posts-sociais |
-| qui 21/01 | Corte 2 e Story de link do ep. 5 | posts-sociais |
+| qui 21/01 | Corte 2 em Story (C7) e Story de link do ep. 5 | posts-sociais |
 | sex 22/01, 23h59 | Pausa das campanhas da 68606. Peças com [CHAMADA-TURMA] saem do ar ou são trocadas | humano no gerenciador |
 | sáb 23 e dom 24/01 | Módulo 3 da 68606 (online): fim da janela de matrícula | Ufape |
-| ter 26/01 | Corte 3 do ep. 5, sem chamada de matrícula da 68606 (a janela fechou): chamada para o conteúdo da Pós ou para a próxima turma da área [CONFIRMAR OU4] | posts-sociais |
 | seg 25/01 | Primeira leitura de métricas do podcast (ouvintes até o fim, visitas com UTM, cortes publicados) | analista |
+| ter 26/01 | Corte 3 do ep. 5, sem chamada de matrícula da 68606 (a janela fechou): chamada para o conteúdo da Pós ou para a próxima turma da área [CONFIRMAR OU4] | posts-sociais |
+| qua 27/01 | Corte 1 e Story 1 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data] | posts-sociais |
+| qui 28/01 | Story 2 do ep. 3 (link para o episódio), sem chamada de turma [SUPOSIÇÃO de data] | posts-sociais |
 | ter 02/02 | Reserva, se aprovada | produção |
+| qua 03/02 | Card do convidado do ep. 3, sem chamada de turma [SUPOSIÇÃO de data] | posts-sociais |
+| qui 04/02 | Corte 2 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data] | posts-sociais |
+| qua 17/02 | Corte 3 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data: depois da pausa de 22/01, fora da semana de Carnaval e sem outro post de feed da Pós no mesmo dia; o posts-sociais confere com as turmas de março] | posts-sociais |
 
 Observações de calendário:
+
+- No máximo 1 post de feed da Pós por dia e 3 por semana, somando o kit da turma, os posts de docente e o podcast. O card 4:5 de todo episódio vira Story (ou anúncio de remarketing só pelo AP-4, nunca feed) e o corte 2 de cada episódio vira Story (C6 e C7). Story com link da turma leva a [CHAMADA-TURMA] inteira; a conferência slot a slot é do posts-sociais antes da aprovação. O P4 do posts-sociais fica em 03/12, sem a opção de 01/12.
 
 - Nos cortes que sobram depois de 22/01, trocar a legenda: a [CHAMADA-TURMA] sai e entra um link para o conteúdo da Pós [CONFIRMAR OU4]. Nenhuma peça publicada fica com a regra do 3º módulo depois de 24/01.
 - O teto de mensagens D16 não é alterado: o podcast só entra no WhatsApp em respostas 1 a 1 do time de vendas, dentro da janela de 24 h aberta pelo candidato, e na newsletter que já conta no teto.
@@ -526,7 +532,6 @@ Observações de calendário:
 | 7 | Correção da página da 68606 (A7, A12, A13) | página de destino entrega o que a peça promete |
 | 8 | Formulário da pergunta da comunidade com política de privacidade | bloco 4 de todo episódio |
 | 9 | OU3 (reposição dos módulos perdidos) e OU6 (véspera ou 1º dia) | só afeta respostas do time; a pauta não promete reposição |
-| 10 | Decisão sobre a chamada do ep. 3 (sem turma, como no plano do cmo, ou com [CHAMADA-TURMA]) | ep. 3 |
 | 11 | Exceção de UTM `pos_conteudo_<AAAAMM>` e medium do Spotify | rastreio |
 
 ---
@@ -544,6 +549,9 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 | AP-2 (do cmo) | aprovar o nome UFAPE Cast (ou outro), o pacote por episódio e o calendário quinzenal | decisão 21 | custo de produção [CONFIRMAR], fora da verba de mídia | 5 episódios e cerca de 50 peças derivadas até a pausa | parar a série depois de 2 episódios atrasados |
 | AP-3 (do cmo) | publicar episódios e cortes em YouTube, Spotify e Instagram, cada um com o ok do convidado | nada se publica sem aprovação | sem custo de mídia | visitas à página da turma com UTM do podcast | despublicar ou arquivar |
 | AP-4 (do cmo, condicional) | usar o card 4:5 ou um corte no remarketing da 68606, trocando uma peça | só com diária suficiente | dentro dos R$ 2.000,00 | prova de autoridade no remarketing | voltar à peça anterior |
+
+- A série só vai à aprovação de produção (AP-2) com equipe, horas por semana e custo informados pela Ufape. Até lá, o pacote é plano, não calendário.
+- Os ep. 1, 2, 4 e 5 e seus pacotes com [CHAMADA-TURMA] ou [LINK-TURMA] só saem com a A13 publicada na página da 68606 e conferida pelo qa, mais a troca da frase ligada ao MEC (A7) e da turma mínima (A12) ou a decisão registrada da regulação (E1 do qa de 28/10/2026).
 
 ---
 
@@ -585,7 +593,6 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 - Próxima turma da área para as chamadas depois de 22/01 (OU4).
 - Reposição dos módulos perdidos (OU3) e data limite de matrícula (OU6).
 - Correção da página da 68606 e texto de certificação.
-- Confirmar no catálogo (contexto/catalogo-de-cursos.md) a linha da 68606 e os dados citados: [CONFIRMAR NO CATÁLOGO] (conferi pela linha literal registrada no JSON, não pelo arquivo do catálogo).
 - Se "Profa. Ísis Carvalho" e "ESP. Isis de Carvalho Rodrigues Santana Lemes" são a mesma pessoa (não afeta este pacote).
 
 ## Fontes
@@ -604,3 +611,4 @@ Não faz parte deste pedido. A lista de podcasts de terceiros com o ângulo de c
 ## Próximo agente
 
 qa-de-marketing (auditoria do departamento 12 e conformidade-educacional), antes da aprovação humana.
+- 28/10/2026: correções E1, E2, E5, E6, E20 a E26 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
