@@ -19,12 +19,13 @@
   - saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md (P1 a P6)
   - saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (AD-A6-1, semana de 09 a 15/11, realizado no P3 do arquivo de posts)
   - saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md (F1-E, F1-C, F1-V, F2-A, F2-B)
+  - saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md (estrutura, públicos e textos da Meta)
   - saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md (6 RSAs, extensões, pedidos P1 a P7)
   - saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (versão 7, seção 13: diária, checklist da passagem, tabela de encerramento)
   - saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md (versões A e B do vídeo curto)
   - saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md (gravação, 5 episódios, cortes, Stories e cards)
   - saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-26.md (peças de apoio à decisão da linha: C03, C08, C15 e T8)
-- **Não aberto:** faculdade.ufape.com.br; relatórios do qa-de-marketing; saidas/10-operacoes-de-marketing/cursos/pos-68606.json; docs/insumos. O arquivo saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md **ainda não existe**: as etapas de Meta usam as fases do plano (até 06/11 a campanha atual com a troca de criativo; de 07/11 a 22/01, remarketing e busca; pausa às 23h59 de 22/01).
+- **Não aberto:** faculdade.ufape.com.br; relatórios do qa-de-marketing; saidas/10-operacoes-de-marketing/cursos/pos-68606.json; docs/insumos.
 - **Dados pessoais:** nenhum. Docentes só com nome e titulação como estão na ficha (autorização de imagem e citação registrada, decisões 8 e 10).
 
 ---
@@ -33,7 +34,7 @@
 
 1. **O que o calendário cobre:** 118 dias, de 28/10/2026 a 22/02/2027, com 18 semanas de segunda a domingo. A captação da turma vai de 28/10 à véspera do 3º módulo (pausa às 23h59 de 22/01/2027); depois disso ficam o encerramento, os relatórios e o que o podcast ainda publica.
 2. **Matrícula depois do início (decisão 18):** a Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Toda peça depois de 07/11 que fala de entrada traz a frase completa da regra. Nenhuma peça promete reposição de módulo (OU3 aberta).
-3. **Dias sem campanha respeitados:** 02/11 (feriado), 20 e 21/11 (Workshop Brasileiro de Neuromonitorização), de 21/12 a 03/01 (somente serviço e manutenção) e, para feed, 25/12 e 01/01. As 6 mensagens da turma não caem em nenhum deles. **Exceção a decidir:** o episódio 3 do podcast está marcado para 22/12 (conflito C4).
+3. **Dias sem campanha respeitados:** 02/11 (feriado), 20 e 21/11 (Workshop Brasileiro de Neuromonitorização), de 21/12 a 03/01 (somente serviço e manutenção) e, para feed, 25/12 e 01/01. As 6 mensagens da turma não caem em nenhum deles. Episódio 3 em 22/12 só no YouTube e no Spotify, sem peças derivadas no fim de ano (D-G).
 4. **Teto D16 (decisão 17):** até 2 WhatsApp e 2 e-mails de campanha por contato por semana, no máximo 1 mensagem de campanha por dia. As 6 mensagens da turma, isoladas, cabem no teto (verificação C5). Os conflitos de teto vêm de outras campanhas que dividem a base (C1 a C3).
 5. **O que mais pesa:** posts acima da grade do perfil (C6 e C7), prazo dos criativos (C11), vídeo curto da versão A (C12), a troca de fase no sábado 07/11 (C13) e a página da turma ainda sem a regra do 3º módulo (C14).
 6. **Apoio à decisão em todo o calendário:** como escolher uma pós (C08 em 12/11, newsletter em 18/11, episódio 1 em 24/11), diferença entre MBA e especialização (C15 em 19/11), quanto tempo dura (C03 em 06/11, F1-E, P1, P2 e P6), quanto custa (T8 na semana de 30/11, newsletter em 03/12 e P5 em 15/12) e como entrar depois do início (P6, E2, W3, W4 e respostas do time).
@@ -87,23 +88,26 @@
 |---|---|---|---|---|---|---|---|
 | 02/11 | seg | - | - | Feriado (Finados): **sem campanha**. Prazo das artes F1-E e F1-C (cai em dia sem expediente, ver C11) | F1 | designer [CONFIRMAR]; criativos-de-anuncio | a produzir |
 | 03/11 | ter | dia | Gestão | Revisão semanal 1 (D15: a de 02/11 passa para o dia útil seguinte). Último dia da troca de criativo por fadiga (D20) | F1 | cmo; gestor-de-midia; analise-de-midia | a produzir |
-| 03/11 | ter | dia | Meta Ads | F1-E: estático "24 módulos. 3 presenciais." (subida humana do que estiver aprovado, CA2). Ver C11 | F1 | criativos-de-anuncio; gestor-de-midia; humano no gerenciador | rascunho; arte a produzir |
-| 03/11 | ter | dia | Meta Ads | F1-C: carrossel de 6 cartões "Do esôfago ao fígado: em que módulo cada tema entra?" (subida, CA2) | F1 | idem | rascunho; arte a produzir |
+| 03/11 | ter | dia | Meta Ads | F1-E: estático "24 módulos. 3 presenciais." (subida humana do que estiver aprovado, CA2); na mesma operação: idade mínima de 25 anos nos conjuntos de frio (decisão 24). Ver C11 | F1 | criativos-de-anuncio; gestor-de-midia; humano no gerenciador | rascunho; arte a produzir |
+| 03/11 | ter | dia | Meta Ads | F1-C em reserva da troca de 03/11 (entra só se n = 3 ou como reposição, anuncios-meta AM1): carrossel de 6 cartões "Do esôfago ao fígado: em que módulo cada tema entra?" | F1 | idem | rascunho; arte a produzir |
 | 03/11 | ter | dia | Meta Ads | F1-V: vídeo de 34 s "Tem prática ou é tudo online?" (subida, CA2) | F1 | idem | rascunho; vídeo a produzir |
 | 03/11 | ter | 18h | Instagram Stories | P1: "3 práticas em um módulo" (4 telas; chamada com a data de início) | F1 | posts-sociais; publicação humana (OA11) | rascunho |
 | 03/11 | ter | dia | Podcast | Aprovação do nome UFAPE Cast e checagem de perfis no YouTube e no Spotify (prazo 06/11) | F1 | Ufape | a produzir |
 | 04/11 | qua | a definir | Instagram Reels e YouTube Shorts | TK-A: vídeo curto versão A, 41 s, "Cinco módulos online. No sexto, a prática." Dia [SUPOSIÇÃO] dentro da janela de 03 a 06/11. Ver C12 | F1 | tiktok (roteiro); time de vídeo [CONFIRMAR] | rascunho (roteiro); gravação e edição a produzir |
 | 05/11 | qui | 12h | Instagram feed | P2: carrossel de 6 cards "Do módulo online de fisiologia à cirurgia na prática". Ver C8 | F1 | posts-sociais; publicação humana | rascunho |
 | 05/11 | qui | a definir | Facebook | P2 reaproveitado (mesmo dia ou no seguinte, com o link na legenda) | F1 | posts-sociais | rascunho |
+| até 04/11 | qua | dia | Meta Ads | Criar os públicos de remarketing (visitantes 30 dias, engajamento 90 dias); conjunto com idade mínima de 25 anos (decisão 24) | F1 | humano no gerenciador | rascunho |
+| 05/11 | qui | dia | Meta Ads | Enviar F2-A e F2-B para revisão da Meta, conjunto de remarketing com início agendado em 07/11, 00:00 | F1 | humano | rascunho |
 | 05/11 | qui | dia | Google Ads | Porta de entrada P1: a página da turma precisa trazer a regra completa do 3º módulo (A13) para os RSAs subirem. Prazo do pedido. Ver C14 | F1 | time do site (Ufape); anuncios-google | a produzir (correção na página) |
 | 06/11 | sex | 10h | WhatsApp | W2: véspera do início, módulo 1 online (semiologia e fisiologia gastrointestinal) | F1 | copy-de-mensagens; humano no CRM (OA9) | pronto e revisado; aguarda OA9 |
 | 06/11 | sex | dia | Blog e site | C03 (guia da linha Pós, apoio à decisão): "Como funciona uma pós semipresencial, mês a mês: o que é online, o que é presencial, quanto tempo dura" | F1 | estrategia-de-conteudo; briefing-de-conteudo; conteudo-longo; editor-de-conteudo | a produzir |
 | 06/11 | sex | dia | Podcast | Convites aos docentes dos episódios 2 a 5 e busca do egresso do episódio 1, com pedido de autorização (prazo) | F1 | produção; Ufape | a produzir |
 | 06/11 | sex | 23h59 | Meta e Google Ads | Fim da fase 1: sai o público frio e saem os anúncios que citam a data de início (OA4). Ver C13 | F1 | gestor-de-midia; humano no gerenciador | rascunho (pedido OA4) |
 | 07/11 | sáb | - | Turma | **Marco: início da turma IX, módulo 1 online (07 e 08/11)** | F2 | Ufape | - |
-| 07/11 | sáb | dia | Meta Ads | F2-A: estático "Os 3 módulos presenciais ainda não começaram." entra no remarketing, com a frase completa da regra (CA3) | F2 | criativos-de-anuncio; humano no gerenciador | rascunho; arte a produzir |
-| 07/11 | sáb | dia | Meta Ads | F2-B: vídeo de 38 s "A turma já começou. Ainda dá para entrar?" entra no remarketing (CA3) | F2 | idem | rascunho; vídeo a produzir |
-| 07/11 | sáb | dia | Google Ads | P3: pausar anúncio com data de início; subir 4 RSAs ativos (marca1, marca2, area1, area2); manter pausado o grupo de custo (RSAs custo1 e custo2 prontos como reserva) | F2 | anuncios-google; gestor-de-midia; humano no Google Ads | rascunho |
+| 07/11 | sáb | dia | Meta Ads | F2-A: estático "Os 3 módulos presenciais ainda não começaram." entra no remarketing, com a frase completa da regra (CA3). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | criativos-de-anuncio; humano no gerenciador | rascunho; arte a produzir |
+| 07/11 | sáb | dia | Meta Ads | F2-B: vídeo de 38 s "A turma já começou. Ainda dá para entrar?" entra no remarketing (CA3). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | idem | rascunho; vídeo a produzir |
+| 07/11 | sáb | dia | Google Ads | P3: pausar anúncio com data de início; subir 4 RSAs ativos (marca1, marca2, area1, area2); manter pausado o grupo de custo (RSAs custo1 e custo2 prontos como reserva). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | anuncios-google; gestor-de-midia; humano no Google Ads | rascunho |
+| 07/11 | sáb | dia | Instagram e Facebook | Editar a legenda do P2 para o texto de contingência; tirar P1 dos Destaques, se estiver (E14) | F2 | posts-sociais; humano | rascunho |
 | 07/11 | sáb | dia | Google Ads | P5: 4 sitelinks, 7 frases de destaque e 1 snippet estruturado (sem chamada nem formulário) | F2 | anuncios-google; humano | rascunho |
 | 08/11 | dom | - | Turma | Módulo 1, segundo dia. Enem: sem feed da Pós | F2 | Ufape | - |
 
@@ -113,9 +117,9 @@
 |---|---|---|---|---|---|---|---|
 | 09/11 | seg | dia | Gestão | Revisão semanal 2: leitura direcional da fase 1; leads depois do início lidos à parte (E8); termos de busca do Google (1ª semana da fase 2); gasto contra R$ 2.000,00 | F2 | cmo; gestor-de-midia; analise-de-midia | a produzir |
 | 09/11 | seg | a definir | Instagram Stories | Abertura da caixa de perguntas da comunidade (até 17/11), para o bloco 4 do EP1. Formulário com política de privacidade [CONFIRMAR]. Ver C10 | F2 | posts-sociais; Ufape | a produzir |
-| 10/11 | ter | a definir | Instagram Reels e YouTube Shorts | TK-B: vídeo curto versão B, 45 s, com a frase completa da regra na tela e na legenda. Dia [SUPOSIÇÃO]: Reel da Pós da semana 3 (D5) | F2 | tiktok; time de vídeo [CONFIRMAR] | rascunho (roteiro); gravação a produzir |
+| 10/11 | ter | a definir | Instagram Reels e YouTube Shorts | TK-B: vídeo curto versão B, 45 s, com a frase completa da regra na tela e na legenda. Dia [SUPOSIÇÃO]: Reel da Pós da semana 3 (D5). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | tiktok; time de vídeo [CONFIRMAR] | rascunho (roteiro); gravação a produzir |
 | 11/11 | qua | - | - | sem peça | - | - | - |
-| 12/11 | qui | 18h | Instagram Stories | P3 (AD-A6-1): "Quando um caso gastrointestinal pede uma segunda opinião?" (3 telas; coordenação da turma, em terceira pessoa; frase completa da regra). Só sai com o ok e a revisão clínica da docente (C16) | F2 | autoridade-docente; posts-sociais; ok da docente | rascunho |
+| 12/11 | qui | 18h | Instagram Stories | P3 (AD-A6-1): "Discussão de casos entre alunos e coordenação: o que a página da Pós-graduação em Gastroenterologia Veterinária prevê." (3 telas; coordenação da turma, em terceira pessoa; frase completa da regra). Só sai com o ok e a revisão clínica da docente (C16). Só sai com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026). | F2 | autoridade-docente; posts-sociais; ok da docente | rascunho |
 | 12/11 | qui | dia | Blog e site | C08 (guia da linha Pós, apoio à decisão): "Como escolher uma pós-graduação em Medicina Veterinária: 7 critérios" | F2 | estrategia-de-conteudo; briefing-de-conteudo; conteudo-longo; editor-de-conteudo | a produzir |
 | 13/11 | sex | - | - | sem peça | - | - | - |
 | 14/11 | sáb | - | - | sem peça | - | - | - |
@@ -146,9 +150,9 @@
 | 24/11 | ter | a definir | YouTube e Spotify | EP1: "Como escolher minha pós-graduação?" (UFAPE Cast #01; coordenação da turma e um egresso [CONFIRMAR]; apoio à decisão) | F2 | podcast; produção; humano publica | rascunho (roteiro); gravação e edição a produzir |
 | 24/11 | ter | a definir | Instagram Reels e YouTube Shorts | EP1-C1: corte 1 "O que olhar no cronograma?" | F2 | podcast; posts-sociais | a produzir |
 | 24/11 | ter | a definir | Instagram Stories | EP1-S1: Story de estreia | F2 | posts-sociais | a produzir |
-| 24/11 | ter | a definir | Instagram feed | EP1-CARD: card 4:5 "Como escolher minha pós?" (uso em remarketing Meta só com aprovação, trocando uma peça). **Segundo item de feed no mesmo dia, C6** | F2 | podcast; posts-sociais | a produzir |
+| 24/11 | ter | a definir | Instagram Stories | EP1-CARD: card 4:5 "Como escolher minha pós?" em formato de Story (C6, decidido em 28/10/2026, D-G do qa); uso em remarketing Meta só com aprovação, trocando uma peça (AP-4) | F2 | podcast; posts-sociais | a produzir |
 | 25/11 | qua | a definir | Instagram feed | EP1-CONV: card do convidado (1080 x 1080) com a Esp. Maria Carolina Pappalardo; conta como post de docente do kit junto com o corte | F2 | posts-sociais; ok da docente | a produzir |
-| 26/11 | qui | a definir | Instagram Reels e YouTube Shorts | EP1-C2: corte 2 "Prática presencial pesa na escolha?" | F2 | podcast; posts-sociais | a produzir |
+| 26/11 | qui | a definir | Instagram Stories | EP1-C2: corte 2 "Prática presencial pesa na escolha?" em Story (C7, D-G do qa) | F2 | podcast; posts-sociais | a produzir |
 | 26/11 | qui | a definir | Instagram Stories | EP1-S2: Story de link (página da turma, com a frase completa da regra) | F2 | posts-sociais | a produzir |
 | 27/11 | sex | - | - | sem peça da turma (prova de bolsa de 27/11 da linha: sem peça nova, decisão 14) | - | - | - |
 | 28/11 | sáb | - | - | sem peça | - | - | - |
@@ -179,7 +183,7 @@
 | 08/12 | ter | a definir | Instagram Reels e YouTube Shorts | EP2-C1: corte 1 "Quando pedir uma segunda opinião?" | F2 | podcast; posts-sociais | a produzir |
 | 08/12 | ter | a definir | Instagram Stories | EP2-S1: Story de estreia | F2 | posts-sociais | a produzir |
 | 09/12 | qua | a definir | Instagram feed | EP2-CONV: card do convidado, Dr. Rodolfo Oliveira Leal | F2 | posts-sociais; ok do docente | a produzir |
-| 10/12 | qui | a definir | Instagram Reels e YouTube Shorts | EP2-C2: corte 2 "O que reunir antes de discutir um caso?" ([REVISÃO DOCENTE] na legenda) | F2 | podcast; posts-sociais | a produzir |
+| 10/12 | qui | a definir | Instagram Stories | EP2-C2: corte 2 "O que reunir antes de discutir um caso?" em Story (C7, D-G do qa) ([REVISÃO DOCENTE] na legenda) | F2 | podcast; posts-sociais | a produzir |
 | 10/12 | qui | a definir | Instagram Stories | EP2-S2: Story de link | F2 | posts-sociais | a produzir |
 | 11/12 | sex | - | - | sem peça | - | - | - |
 | 12/12 | sáb | - | - | sem peça | - | - | - |
@@ -204,10 +208,8 @@
 | Data | Dia | Hora | Canal | Peça | Fase | Dono | Status |
 |---|---|---|---|---|---|---|---|
 | 21/12 | seg | dia | Gestão | Revisão semanal 8 em ritmo de manutenção. Começa o período **sem mensagem de campanha**; mídia só no remarketing, diária pela metade, sem criativo novo (Meta e Google P4) | F2 manut. | cmo; gestor-de-midia; analise-de-midia | a produzir |
-| 22/12 | ter | a definir | YouTube e Spotify | EP3: "Luto e burnout: como cuidar de quem cuida?" (sem chamada de turma). **Cai em dia sem campanha, C4** | F2 manut. | podcast; produção | rascunho (pauta); a produzir |
-| 22/12 | ter | a definir | Instagram Reels e YouTube Shorts | EP3-C1: corte 1 "Luto na veterinária: por onde começar a conversa?" (C4) | F2 manut. | podcast; posts-sociais | a produzir |
-| 22/12 | ter | a definir | Instagram Stories | EP3-S1: Story de estreia (C4) | F2 manut. | posts-sociais | a produzir |
-| 23/12 | qua | a definir | Instagram feed | EP3-CONV: card do convidado (docente da ficha a indicar pela coordenação [CONFIRMAR]) (C4) | F2 manut. | posts-sociais; ok do docente | a produzir |
+| 22/12 | ter | a definir | YouTube e Spotify | EP3: "Luto e burnout: como cuidar de quem cuida?" só no YouTube e no Spotify, sem chamada de turma e sem peças derivadas no fim de ano (C4, decidido em 28/10/2026, D-G do qa) | F2 manut. | podcast; produção | rascunho (pauta); a produzir |
+| 23/12 | qua | - | - | sem peça (EP3-CONV passa para 03/02, E22 do qa) | - | - | - |
 | 24/12 | qui | - | - | sem peça | - | - | - |
 | 25/12 | sex | - | - | Natal: sem feed | - | - | - |
 | 26/12 | sáb | - | - | sem peça | - | - | - |
@@ -234,7 +236,7 @@
 | 05/01 | ter | a definir | Instagram Reels e YouTube Shorts | EP4-C1: corte 1 "O que a imagem mostra num caso?" | F2 | podcast; posts-sociais | a produzir |
 | 05/01 | ter | a definir | Instagram Stories | EP4-S1: Story de estreia | F2 | posts-sociais | a produzir |
 | 06/01 | qua | a definir | Instagram feed | EP4-CONV: card do convidado, Dra. Cibele Figueira Carvalho | F2 | posts-sociais; ok da docente | a produzir |
-| 07/01 | qui | a definir | Instagram Reels e YouTube Shorts | EP4-C2: corte 2 "Radiografia ou ultrassom: o que cada um mostra?" | F2 | podcast; posts-sociais | a produzir |
+| 07/01 | qui | a definir | Instagram Stories | EP4-C2: corte 2 "Radiografia ou ultrassom: o que cada um mostra?" em Story (C7, D-G do qa) | F2 | podcast; posts-sociais | a produzir |
 | 07/01 | qui | a definir | Instagram Stories | EP4-S2: Story de link | F2 | posts-sociais | a produzir |
 | 08/01 | sex | - | - | sem peça | - | - | - |
 | 09/01 | sáb | - | - | sem peça | - | - | - |
@@ -263,7 +265,7 @@
 | 19/01 | ter | a definir | Instagram Reels e YouTube Shorts | EP5-C1: corte 1 "Como o laboratório entra no diagnóstico?" | F2 | podcast; posts-sociais | a produzir |
 | 19/01 | ter | a definir | Instagram Stories | EP5-S1: Story de estreia (C9) | F2 | posts-sociais | a produzir |
 | 20/01 | qua | a definir | Instagram feed | EP5-CONV: card do convidado, Dr. Fabrizio Grandi (20/01 é o limite de publicação do kit de posts) | F2 | posts-sociais; ok do docente | a produzir |
-| 21/01 | qui | a definir | Instagram Reels e YouTube Shorts | EP5-C2: corte 2 "O que considerar ao ler um resultado?" | F2 | podcast; posts-sociais | a produzir |
+| 21/01 | qui | a definir | Instagram Stories | EP5-C2: corte 2 "O que considerar ao ler um resultado?" em Story (C7, D-G do qa) | F2 | podcast; posts-sociais | a produzir |
 | 21/01 | qui | a definir | Instagram Stories | EP5-S2: Story de link | F2 | posts-sociais | a produzir |
 | 22/01 | sex | dia | Instagram, Reels, Shorts e podcast | Retirar ou arquivar TK-B; tirar do ar ou trocar a legenda das peças que ainda carregam a frase da regra (cortes e card do episódio, destaques dos Stories P3 a P6). Ver C20 | F2 | posts-sociais; tiktok; podcast; humano | a produzir |
 | 22/01 | sex | 23h59 | Meta e Google Ads | **Pausa de todas as campanhas da turma** (com exportação antes; ou antes disso se o gasto chegar a R$ 2.000,00; ou 23/01 se a OU6 disser que o 1º dia do 3º módulo conta, C21). Fim dos 87 dias de captação | F2 | gestor-de-midia; humano no gerenciador | rascunho (pedidos OA4 e P7 do Google) |
@@ -277,8 +279,8 @@
 | 25/01 | seg | dia | Relatórios | Relatório final, parte 1: tabela de encerramento da turma (gasto, leads antes e depois do início, inscrições pagas, 1ª mensalidade paga, custo por matrícula contra R$ 133,33) | Enc. | cmo; analise-de-campanha; analise-de-midia | a produzir |
 | 25/01 | seg | dia | Podcast | Primeira leitura de métricas do podcast (ouvintes até o fim, visitas com UTM, cortes publicados) | Enc. | analista-de-dados | a produzir |
 | 26/01 | ter | a definir | Instagram Reels e YouTube Shorts | EP5-C3: corte 3, **sem chamada de matrícula da turma** (a janela fechou): chamada para o conteúdo da Pós ou para a próxima turma da área [CONFIRMAR OU4] | Enc. | podcast; posts-sociais | a produzir |
-| 27/01 | qua | - | - | sem peça | - | - | - |
-| 28/01 | qui | - | - | sem peça da turma | - | - | - |
+| 27/01 | qua | a definir | Instagram Reels e Stories | EP3-C1 e EP3-S1: corte 1 e Story 1 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data, E22 do qa] | Enc. | podcast; posts-sociais | a produzir |
+| 28/01 | qui | a definir | Instagram Stories | EP3-S2: Story 2 do ep. 3 (link para o episódio), sem chamada de turma [SUPOSIÇÃO de data, E22] | Enc. | posts-sociais | a produzir |
 | 29/01 | sex | - | - | sem peça | - | - | - |
 | 30/01 | sáb | - | - | sem peça | - | - | - |
 | 31/01 | dom | - | - | sem peça | - | - | - |
@@ -289,8 +291,8 @@
 |---|---|---|---|---|---|---|---|
 | 01/02 | seg | - | - | sem peça | - | - | - |
 | 02/02 | ter | a definir | YouTube e Spotify | Episódio reserva: "Pós, residência, curso curto ou aprender com um colega?" (Esp. Maria Carolina Pappalardo ou outro docente da ficha [CONFIRMAR]); só se a Ufape aprovar a reserva; sem chamada da 68606 | Enc. | podcast; produção | a produzir |
-| 03/02 | qua | - | - | sem peça | - | - | - |
-| 04/02 | qui | - | - | sem peça | - | - | - |
+| 03/02 | qua | a definir | Instagram feed | EP3-CONV: card do convidado do ep. 3, sem chamada de turma [SUPOSIÇÃO de data, E22] | Enc. | posts-sociais; ok do docente | a produzir |
+| 04/02 | qui | a definir | Instagram Stories | EP3-C2: corte 2 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data, E22] | Enc. | podcast; posts-sociais | a produzir |
 | 05/02 | sex | - | - | sem peça | - | - | - |
 | 06/02 | sáb | - | - | sem peça | - | - | - |
 | 07/02 | dom | - | - | sem peça | - | - | - |
@@ -313,7 +315,7 @@
 |---|---|---|---|---|---|---|---|
 | 15/02 | seg | - | - | sem peça | - | - | - |
 | 16/02 | ter | - | - | sem peça | - | - | - |
-| 17/02 | qua | - | - | sem peça | - | - | - |
+| 17/02 | qua | a definir | Instagram Reels | EP3-C3: corte 3 do ep. 3, sem chamada de turma [SUPOSIÇÃO de data, E22] | Enc. | podcast; posts-sociais | a produzir |
 | 18/02 | qui | - | - | sem peça da turma | - | - | - |
 | 19/02 | sex | - | - | sem peça | - | - | - |
 | 20/02 | sáb | - | Turma | **Marco: módulo 4 online (20 e 21/02)** | Enc. | Ufape | - |
@@ -348,7 +350,7 @@
 | 10 e 12/11 | TK-B (regra completa); P3 (coordenação, AD-A6-1) em Stories; guia C08 |
 | 09 a 18/11 | Caixa de perguntas (09 a 17/11); gravação 1 (17/11); newsletter ed. 1 (18 e 19/11); guia C15 (MBA e lato sensu) |
 | 20 e 21/11 | Sem campanha (Workshop Brasileiro de Neuromonitorização) |
-| 24 a 26/11 | Episódio 1 do UFAPE Cast, 2 cortes, 2 Stories, card 4:5 e card da convidada |
+| 24 a 26/11 | Episódio 1 do UFAPE Cast, corte 1, corte 2 e card 4:5 em Stories, 2 Stories e card da convidada |
 | 30/11 | Revisão semanal; guia T8 (investimento) |
 
 ### Dezembro
@@ -362,7 +364,7 @@
 | 16/12 | WhatsApp W3 |
 | 19 e 20/12 | Marco: módulo 2 online |
 | 21/12 a 03/01 | Sem mensagem de campanha; mídia em manutenção (diária pela metade) |
-| 22 e 23/12 | Episódio 3 e card do convidado (em dia sem campanha: decidir, C4) |
+| 22/12 | Episódio 3 em 22/12 só no YouTube e no Spotify, sem peças derivadas no fim de ano (D-G) |
 | 07, 14, 21 e 28/12 | Revisões semanais |
 
 ### Janeiro
@@ -399,15 +401,15 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 | C1 | média | 28/10 (T1) e 29/10 (T2): as 6 turmas da onda 1 enviam no mesmo dia. Contato que está em mais de uma área recebe só 1 por dia, e vence a data mais próxima (707 em 30/10, 68604 em 31/10, depois 68606 em 07/11). Quem for suprimido não acumula | 1 mensagem de campanha por dia; fila D2 | Aceitar: o W2 de 06/11 cobre quem perdeu T1 ou T2. Se o cmo quiser cobrir, remarcar T2 só para o contato suprimido para ter 03/11 (primeiro dia útil livre; 02/11 é feriado) | cmo, antes de 29/10 |
 | C2 | alta | 12/01: três WhatsApp de turmas diferentes no mesmo dia (W4 da 68606, W4 da 68604 e o acréscimo da 68610). Contato nas áreas A5 e A6 só recebe um; 68604 e 68606 empatam na fila D2 (3º módulo em 23/01 nas duas) | 1 por dia; fila D2 | Fixar o desempate: W4 da 68606 fica em 12/01 e o W4 da 68604 passa a 13/01 para contato nas duas áreas (ou o inverso, por decisão do cmo) | cmo, antes de 12/01 |
 | C3 | baixa | 01/12 (E2 da 68604), 02/12 (E2 da 68606) e 03/12 (newsletter ed. 2): contato em A5 e A6 teria 3 e-mails de campanha em 3 dias. O teto é de 2 e-mails por semana | 2 e-mails por semana | Nenhuma mudança de data: a newsletter é nutrição (5º lugar da fila D2) e é suprimida para quem já tem 2 e-mails com data. O arquiteto-de-fluxos confere a fila no CRM | arquiteto-de-fluxos |
-| C4 | alta | EP3 em 22/12 (com corte 1 e Story de estreia) e card do convidado em 23/12 caem em 21/12 a 03/01. O arquivo do podcast fala em "ritmo reduzido" [SUPOSIÇÃO]; o arquivo de posts proíbe post nesse período | dias sem campanha (21/12 a 03/01); feed em 25/12 e 01/01 | Opção A (recomendada): publicar o EP3 só no YouTube e no Spotify em 22/12, sem corte, Story nem card no período, e levar corte 1, Story e card para 05/01 a 07/01 se houver slot (colide com o EP4, C7). Opção B: EP3 em 05/01, EP4 em 19/01 e EP5 como reserva de 02/02, sem chamada de matrícula; perde 1 episódio com chamada antes da pausa | cmo, antes de 15/12 (sessão de gravação 3) |
+| C4 | alta | EP3 em 22/12 (com corte 1 e Story de estreia) e card do convidado em 23/12 caem em 21/12 a 03/01. O arquivo do podcast fala em "ritmo reduzido" [SUPOSIÇÃO]; o arquivo de posts proíbe post nesse período | dias sem campanha (21/12 a 03/01); feed em 25/12 e 01/01 | Opção A (recomendada): publicar o EP3 só no YouTube e no Spotify em 22/12, sem corte, Story nem card no período, e levar corte 1, Story e card para 05/01 a 07/01 se houver slot (colide com o EP4, C7). Opção B: EP3 em 05/01, EP4 em 19/01 e EP5 como reserva de 02/02, sem chamada de matrícula; perde 1 episódio com chamada antes da pausa. Decidido em 28/10/2026 (D-G do qa): opção A; peças derivadas do ep. 3 nas datas do E22 (27/01, 28/01, 03/02, 04/02 e 17/02), sem chamada de turma. | cmo, antes de 15/12 (sessão de gravação 3) |
 | C5 | sem conflito | Verificação: as 6 mensagens da 68606 caem em dias diferentes (28/10, 29/10, 06/11, 02/12, 16/12, 12/01); no máximo 1 WhatsApp e 1 e-mail por semana; WhatsApp em dia útil, das 9h às 18h; nenhuma em 02/11, 20 e 21/11 ou de 21/12 a 03/01 | D16, D1, dias sem campanha | Nenhum | - |
 
 ### 3.2 Posts acima da grade do @ufapevet (D5, provisório até a resposta U8)
 
 | # | Gravidade | O que acontece | Regra afetada | Ajuste proposto | Quem decide |
 |---|---|---|---|---|---|
-| C6 | alta | 24/11: corte 1 (Reels) e card 4:5 do EP1 no mesmo dia, dois itens de feed da mesma linha | no máximo 1 feed da mesma linha por dia | Corte 1 na terça, como está; o card 4:5 vira anúncio de remarketing (trocando uma peça, com aprovação, AP-4) ou Story, em vez de feed orgânico | cmo |
-| C7 | alta | Feed da turma por semana: 4 itens em 23 a 29/11 (corte 1, card 4:5, card da convidada, corte 2); 3 itens em 07 a 13/12, 04 a 10/01 e 18 a 24/01 (corte 1, card do convidado e corte 2). A grade da Pós tem 3 slots de feed por semana para as 6 turmas da onda 1; o aquecimento de março entra em 07/12 | 3 slots semanais da Pós; teto de 10 por semana | Pela ordem de corte da seção 12.3 do plano geral: o feed vira Stories (corte 2 e card 4:5 vão para Stories) e ficam corte 1 e card do convidado; os posts do kit (P2 e P4) não saem. Decidir depois da resposta U8 (horas do time) | cmo |
+| C6 | alta | 24/11: corte 1 (Reels) e card 4:5 do EP1 no mesmo dia, dois itens de feed da mesma linha | no máximo 1 feed da mesma linha por dia | Corte 1 na terça, como está; o card 4:5 vira anúncio de remarketing (trocando uma peça, com aprovação, AP-4) ou Story, em vez de feed orgânico. Decidido em 28/10/2026 (D-G do qa). | cmo |
+| C7 | alta | Feed da turma por semana: 4 itens em 23 a 29/11 (corte 1, card 4:5, card da convidada, corte 2); 3 itens em 07 a 13/12, 04 a 10/01 e 18 a 24/01 (corte 1, card do convidado e corte 2). A grade da Pós tem 3 slots de feed por semana para as 6 turmas da onda 1; o aquecimento de março entra em 07/12 | 3 slots semanais da Pós; teto de 10 por semana | Pela ordem de corte da seção 12.3 do plano geral: o feed vira Stories (corte 2 e card 4:5 vão para Stories) e ficam corte 1 e card do convidado; os posts do kit (P2 e P4) não saem. Decidir depois da resposta U8 (horas do time). Decidido em 28/10/2026 (D-G do qa). | cmo |
 | C8 | média | Semana de 02 a 08/11: TK-A e P2 usam 2 dos 3 slots da Pós, e as outras 5 turmas da onda 1 também começam os posts em 03/11 | 3 slots semanais da Pós | TK-A em 04/11 e P2 em 05/11, em dias diferentes; se faltar slot, o P2 vira Stories mantendo o conteúdo (ordem de corte 12.3) | posts-sociais; cmo |
 | C9 | baixa | 19/01: P6 e Story de estreia do EP5 no mesmo dia, ambos em Stories da mesma linha | cuidado de cadência | Mover o Story de estreia do EP5 para qua 20/01, junto com o card do convidado | posts-sociais |
 | C10 | baixa | 09/11 é segunda-feira; os dias de Stories da Pós parecem ser terça e quinta [SUPOSIÇÃO, pelas datas de P1, P3, P5, P6 e dos Stories do podcast] | grade de Stories | Abrir a caixa de perguntas em ter 10/11 e fechar em ter 17/11 (7 dias) | posts-sociais |
@@ -418,8 +420,8 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 |---|---|---|---|---|---|
 | C11 | alta | Criativos: o kit marca 05/11, mas a subida realista é 03/11 (CA2). As artes F1-E e F1-C vencem em 02/11 (feriado, sem expediente) e o vídeo F1-V em 03/11. A fase 1 fica com só 4 dias de dados (03 a 06/11), e a troca por fadiga (D20) vai até 03/11 | kit mínimo (3 criativos) sem baixar; D20 | Subir em 03/11 o que estiver aprovado, começando pelo F1-E; F1-C e F1-V entram se prontos. F2-A e F2-B só precisam estar prontos em 06/11. Ler a fase 1 como direcional | gestor-de-midia; designer [CONFIRMAR] |
 | C12 | alta | TK-A: janela de publicação de 03 a 06/11, mas o roteiro tem prazo de 05/11, a capacidade de gravação e edição é [CONFIRMAR] e 02/11 é feriado | E7 do cmo (roteiro até 05/11); OA11 | Se o vídeo não estiver pronto até 06/11, não publicar TK-A e publicar TK-B (que já traz a regra completa) a partir de 07/11 | cmo; time de vídeo |
-| C13 | alta | A troca de fase cai no sábado 07/11 e as fontes divergem: plano do cmo diz 06/11, 23h59; gestor diz no dia do início; Google diz sexta à noite ou sábado cedo; quem executa no sábado é [CONFIRMAR] | OA4; checklist 13.2 do gestor | Adotar uma regra única: fase 1 termina em 06/11, 23h59; programar na sexta com data de fim dos anúncios e de início dos novos, se a conta permitir, e nomear quem executa | gestor-de-midia; pessoa do marketing |
-| C14 | alta | A página da 68606 ainda traz "CERTIFICADO PELO MEC", turma mínima de 20 e não escreve a regra do 3º módulo (A7, A12, A13). Pela regra 9 do plano, toda peça com link depende de decisão humana de usar a página antes da correção. O pedido P1 do Google exige a regra na página até 05/11 | página que entrega o que a peça promete | Registrar hoje no OA9 a decisão de usar a página (T1 sai em 28/10). Pedir A13 à Ufape até 05/11; sem isso, os RSAs de entrada não sobem (só marca, sem texto de entrada) | pessoa do marketing; regulação; time do site |
+| C13 | alta | A troca de fase cai no sábado 07/11 e as fontes divergem: plano do cmo diz 06/11, 23h59; gestor diz no dia do início; Google diz sexta à noite ou sábado cedo; quem executa no sábado é [CONFIRMAR] | OA4; checklist 13.2 do gestor | Adotar uma regra única: fase 1 termina em 06/11, 23h59; programar na sexta com data de fim dos anúncios e de início dos novos, se a conta permitir, e nomear quem executa. Decidido em 28/10/2026 (D-G do qa). | gestor-de-midia; pessoa do marketing |
+| C14 | alta | A página da 68606 ainda traz "CERTIFICADO PELO MEC", turma mínima de 20 e não escreve a regra do 3º módulo (A7, A12, A13). Pela regra 9 do plano, toda peça com link depende de decisão humana de usar a página antes da correção. O pedido P1 do Google exige a regra na página até 05/11 | página que entrega o que a peça promete | Registrar hoje no OA9 a decisão da regulação sobre usar a página com A7 e A12 pendentes (vale para T1, T2, W2, F1-E, F1-C, F1-V, P1, P2 e TK-A). Pedir A13 à Ufape até 05/11. Sem A13 publicada e conferida pelo qa, nenhuma peça de depois de 07/11 com chamada ou link da turma sai (E1 do qa de 28/10/2026): os RSAs não sobem e o remarketing da Meta não liga em 07/11 | pessoa do marketing; regulação; time do site |
 | C15 | média | Cadeia do podcast: nome aprovado até 06/11; egresso com termo; formulário com política de privacidade antes de 09/11; revisor docente [CONFIRMAR nome]; gravação em 17/11; produção sem dono definido [CONFIRMAR] | decisão 21; regra AP-2 (parar após 2 episódios atrasados) | Se o EP1 atrasar, empurrar a caixa de perguntas e a gravação; plano B do EP1: só com a coordenação. Se o nome não for aprovado até 06/11, adiar o EP1 em uma quinzena [SUPOSIÇÃO] | Ufape; cmo |
 | C16 | média | P3 (AD-A6-1) em 12/11 só sai com o ok e a revisão clínica da docente (C1 a C8 do arquivo de autoridade docente). Sem isso, o kit fica sem post de docente até 24 e 25/11 | kit mínimo: 1 post por docente | Pedir o ok até 09/11; plano B: card tipográfico sem foto; o EP1 (corte e card) conta como post de docente depois | autoridade-docente; Ufape |
 | C17 | média | O apoio à decisão sobre MBA e especialização está só no C15 (19/11), que depende da revisão da regulação até 17/11; o plano B do C15 publica só pós e curso livre. Os guias C03, C08, C15 e T8 também dependem do time do site [CONFIRMAR capacidade]. A ed. 1 da newsletter (18/11) leva ao C08 | regra: apoio à decisão em todo calendário | Se a regulação não revisar até 17/11, abrir briefing próprio para MBA e especialização ou resposta pronta da secretaria; T8 até 02/12 para a ed. 2 não ficar sem botão | estrategia-de-conteudo; briefing-de-conteudo |
@@ -428,18 +430,18 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 
 | # | Gravidade | O que acontece | Regra afetada | Ajuste proposto | Quem decide |
 |---|---|---|---|---|---|
-| C18 | média | Preço: só o P5 (15/12) mostra parcelas, total e matrícula (a decisão 23 permite, com a condição completa). Mensagens, vídeos, podcast, Google e criativos seguem sem preço (OU8 aberta: como e quando paga quem entra depois). A decisão 23 chama o valor de "inscrição"; catálogo e página chamam de "matrícula". O copy-de-mensagens ainda traz a nota "sem preço até a U11", que a decisão 23 já respondeu (sem efeito: nenhuma mensagem cita preço) | preço com condição completa; coerência de política | Decidir antes de 15/12 se o P5 sai com preço; usar "matrícula", como a página. Atualizar a nota do copy | pessoa do marketing |
-| C19 | média | utm_campaign: posts e mensagens usam pos_68606_202610 em todas as peças (mês do primeiro envio, regra 11 do cmo-pos); o vídeo e o podcast usam o mês da publicação (202611, 202612, 202701). O D12 aceita os dois | medição por turma | O arquiteto-de-fluxos fixa um padrão por tipo de peça; até lá, a análise lê por tabela de correspondência | arquiteto-de-fluxos |
+| C18 | média | Preço: só o P5 (15/12) mostra parcelas, total e matrícula (a decisão 23 permite, com a condição completa). Mensagens, vídeos, podcast, Google e criativos seguem sem preço (OU8 aberta: como e quando paga quem entra depois). A decisão 23 chama o valor de "inscrição"; catálogo e página chamam de "matrícula". O copy-de-mensagens ainda traz a nota "sem preço até a U11", que a decisão 23 já respondeu (sem efeito: nenhuma mensagem cita preço) | preço com condição completa; coerência de política | P5 com preço só com a OU8 respondida até 14/12; sem ela, P5 sem valores (E16). Termo: 'matrícula' (D-C) | pessoa do marketing |
+| C19 | média | utm_campaign: posts e mensagens usam pos_68606_202610 em todas as peças (mês do primeiro envio, regra 11 do cmo-pos); o vídeo e o podcast usam o mês da publicação (202611, 202612, 202701). O D12 aceita os dois | medição por turma | Decidido pelo qa (D-B): pos_68606_202610 em todo toque orgânico e de CRM; pos_conteudo_202612 só no ep. 3; mídia paga com o nome real da campanha (E3) | arquiteto-de-fluxos |
 | C20 | baixa | Depois de 24/01 nenhuma peça publicada pode manter a regra do 3º módulo (cortes, card, destaques dos Stories, TK-B) | regra 6 do plano e arquivo do podcast | Tarefa da sexta 22/01 (já na tabela da semana 13); corte 3 do EP5 sai sem chamada | posts-sociais; podcast |
 | C21 | baixa | "Até o 3º módulo" pode incluir o 1º dia dele (OU6). O calendário assume a pausa em 22/01, 23h59 | decisão 18 | Se a Ufape responder que inclui 23/01, a pausa sobe para 24/01 e a frase muda | cmo, depois da OU6 |
-| C22 | média | Peças do pacote do podcast sem data nos arquivos: card 4:5 dos episódios 2 a 5; cortes 2 e 3 e Story de link do EP3 | "só o que existe nos arquivos" | Ficam fora das tabelas até a produção datar; quando entrarem, valem C6 e C7 (card 4:5 em Story ou anúncio; EP3 conforme a decisão de C4) | podcast; cmo |
-| C23 | baixa | O arquivo anuncios-meta-pos-2026-10-28-68606.md não existe. As etapas de Meta (subida em 03/11, F2 em 07/11, manutenção e pausa) seguem o plano de fases | kit: plano de mídia | O arquivo vira "a produzir" no calendário; a execução usa as datas das tabelas | gestor-de-midia |
+| C22 | média | Peças do pacote do podcast sem data nos arquivos: card 4:5 dos episódios 2 a 5; cortes 2 e 3 e Story de link do EP3 | "só o que existe nos arquivos" | Datas do ep. 3 definidas pelo E22 do qa; cards 4:5 dos ep. 2 a 5 viram Story (C6) | podcast; cmo |
+| C23 | baixa | O arquivo anuncios-meta-pos-2026-10-28-68606.md não existe. As etapas de Meta (subida em 03/11, F2 em 07/11, manutenção e pausa) seguem o plano de fases | kit: plano de mídia | Resolvido: anuncios-meta-pos-2026-10-28-68606.md entregue em 28/10 | gestor-de-midia |
 
 ---
 
 ## 4. Marcos da turma
 
-### 4.1 Marcos acadêmicos (ficha do curso, datas dos módulos: [CONFIRMAR NO CATÁLOGO])
+### 4.1 Marcos acadêmicos (ficha do curso)
 
 | Data | Marco |
 |---|---|
@@ -474,7 +476,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 |---|---|---|
 | Página da turma (1) | Fora do calendário: página oficial no site | Pendente externo: A7, A12 e A13 (OA10); gate de 05/11 (C14) |
 | Plano dos 8 canais (1) | cmo-pos, seção 5 | Entregue |
-| Plano de mídia (1) | Google (anuncios-google) e fases do plano; Meta sem arquivo (C23) | Parcial |
+| Plano de mídia (1) | Google (anuncios-google) e Meta (anuncios-meta) | Rascunho, em revisão do qa |
 | Posts orgânicos (6) | P1 a P6 (03/11, 05/11, 12/11, 03/12, 15/12, 19/01) | Rascunho; 2 no feed e 4 em Stories |
 | Criativos (3) | F1-E, F1-C, F1-V (03/11), mais F2-A e F2-B (07/11) | Rascunho; artes a produzir |
 | Post por docente | P3 (AD-A6-1, 12/11); EP1-CONV e EP1-C1 (24 a 26/11) contam como 1 post de docente (critério do qa de 28/10) | Rascunho; 1 de 38 na ficha, 37 em lacuna (OA8), parte coberta pelo podcast |
@@ -498,7 +500,7 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 |---|---|
 | Mensagens (T1, T2, W2, E2, W3, W4) | cliques por UTM (utm_medium=crm), conversas no WhatsApp de vendas (contagem de R1 a R9), descadastros e SAIR (limites de alerta de 13.4 do plano geral) |
 | Posts, vídeo e podcast | cliques por UTM (organic_social), salvamentos, compartilhamentos, visitas ao perfil, ouvintes até o fim; sem meta antes de 4 episódios |
-| Anúncios (Meta e Google) | leads, custo por lead (R$ 4,00, R$ 10,00 e R$ 18,00 são cenários [SUPOSIÇÃO ilustrativa]), inscrição paga e 1ª mensalidade paga por turma; leads antes e depois do início separados |
+| Anúncios (Meta e Google) | leads, custo por lead (R$ 4,00, R$ 10,00 e R$ 18,00 são cenários [SUPOSIÇÃO ilustrativa]), inscrição paga e 1ª mensalidade paga por turma; leads antes e depois do início separados; custo por lead por faixa de idade: 25 a 34, 35 a 44 e 45 ou mais (decisão 24) |
 | Guias e newsletter | visitas, cliques para a página da turma e para a listagem de turmas, leads com a origem informada |
 | Turma | 15 matrículas (1ª mensalidade paga) e custo máximo de R$ 133,33 por matrícula (decisões 15 e 16); leitura nas revisões de segunda e nos relatórios de 25/01 e 22/02 |
 
@@ -539,11 +541,10 @@ Gravidade: **alta** trava ou desrespeita uma regra e pede decisão antes da data
 - Gasto acumulado do ciclo (PP15), diária atual e nome real das campanhas no ar; arquivo de Meta (anuncios-meta).
 - Ok e revisão clínica da docente para P3 e para os cards e cortes do podcast; nome do revisor docente; docentes e agendas dos episódios 2 a 5; egresso e termo de autorização do episódio 1.
 - Nome UFAPE Cast e perfis (até 06/11); formulário da caixa de perguntas com política de privacidade; quem apresenta e edita.
-- Datas dos cards 4:5 dos episódios 2 a 5 e dos cortes 2 e 3 e Story de link do episódio 3 (C22); decisão de C4 sobre o episódio 3.
-- Padrão de utm_campaign por tipo de peça (C19); uso do termo "inscrição" ou "matrícula" (C18).
-- [CONFIRMAR NO CATÁLOGO]: 24 módulos, datas dos módulos 1 a 6, 13, 21 e 24, e a prática presencial (hoje só na ficha do curso).
+- Datas dos cards 4:5 dos episódios 2 a 5 (viram Story, C6).
 - Texto oficial de certificação (nenhuma peça usa frase de certificação).
 
 ## Próximo agente sugerido
 
 briefing-de-conteudo, para os guias da linha que sustentam a decisão (C03, C08, C15 e T8), com a seção sobre MBA e especialização no C15 e o plano B da seção C17. Antes de qualquer publicação, o qa-de-marketing e a aprovação humana.
+- 28/10/2026: correções E1, E13, E14, E22, E32, E33, E34 e E35 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

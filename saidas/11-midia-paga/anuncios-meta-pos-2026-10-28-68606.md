@@ -39,7 +39,7 @@
 5. **Diária:** diária máxima da turma = (R$ 2.000,00 menos o gasto acumulado G [CONFIRMAR]) dividido pelos dias equivalentes restantes. Com G = 0, o teto é de R$ 25,00 por dia (Meta e Google somados) e R$ 12,50 de 21/12 a 03/01. Nunca aumenta (seção 9).
 6. **Pausa:** às 23h59 de 22/01/2027, véspera do 3º módulo, ou antes, se o gasto do ciclo chegar a R$ 2.000,00.
 7. **Leitura:** a fase 1 só tem até 4 dias de dados com os criativos novos (03/11 a 06/11). A leitura dela é direcional e serve de modelo para as outras turmas (decisão 22), não de veredito.
-8. **Quatro decisões humanas pedem atenção antes de subir:** faixa de idade (18+ contra a sugestão de 22 a 35, seção 4.4), exclusão de quem pagou e de alunos por lista (base legal, seção 4.3), subida com a página de destino ainda pendente (seção 11, AM9) e a variante com preço (AM8).
+8. **Três decisões humanas pedem atenção antes de subir:** exclusão de quem pagou e de alunos por lista (base legal, seção 4.3), subida com a página de destino ainda pendente (seção 11, AM9) e a variante com preço (AM8). A idade já está decidida: 25 anos ou mais, sem máxima (decisão 24, seção 4.4).
 
 ---
 
@@ -180,7 +180,7 @@ A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por v
 |---|---|
 | Inclusão | Grupo 1: é veterinário (campo de estudo Medicina veterinária, ou cargo Médico Veterinário ou Veterinarian). E Grupo 2: é formado (formação universitária ou mestrado). Especialidade não existe como interesse no Meta, então o criativo faz a especialidade [CONFIRMAR que essas opções ainda existem no gerenciador] |
 | Localização | A da campanha atual [DADO NÃO FORNECIDO]. Cinco praças só como limite de leitura (4.5) |
-| Idade | 18 anos ou mais, sem corte superior (4.4) |
+| Idade | 25 anos ou mais, sem idade máxima (decisão 24, 4.4); aplicada na operação de 03/11, junto com a troca de criativo; leitura semanal por faixa: 25 a 34, 35 a 44 e 45 ou mais |
 | Públicos semelhantes de matriculados | Fora. Exigem lista de matriculados, que não tem base legal confirmada (4.3). A fase 1 também não muda conjunto |
 | Exclusões | As de 4.3. Se os conjuntos atuais não as tiverem, o gestor decide se entram na operação de 03/11 (mesma operação da troca, [SUPOSIÇÃO de que conta como uma mudança só]) |
 
@@ -192,7 +192,7 @@ A troca de criativo é a única mudança da fase 1 (regra R6: uma mudança por v
 | Inclusão B | Engajamento com o Instagram (@ufapevet) nos últimos 90 dias e com a Página do Facebook (/Ufape) nos últimos 90 dias [SUPOSIÇÃO de janela, EM7] |
 | Inclusão C (opcional, cresce o público) | Quem assistiu pelo menos 50% do F1-V nos últimos 30 dias. Sem dado pessoal. Só existe se o F1-V subir em 03/11 |
 | Localização | A mesma da campanha atual. Remarketing é um conjunto só: o público de quem visitou a página é pequeno para ser cortado em cinco (cmo, slide 7) |
-| Idade e gênero | 18 anos ou mais, todos os gêneros, sem exclusão |
+| Idade e gênero | 25 anos ou mais, sem idade máxima (decisão 24); todos os gêneros, sem exclusão |
 | Expansão de público | Desligada, para o conjunto não sair das listas de origem [CONFIRMAR o nome da opção no gerenciador, "público original" ou equivalente] |
 | Tamanho do público | [DADO NÃO FORNECIDO]. Se for pequeno demais para gastar a diária, não compensar com aumento. Ampliar a janela de 30 para 60 ou 90 dias é uma mudança separada, com pedido ao gestor |
 | Frequência | Ler a frequência a cada segunda-feira. Com 2 anúncios por até 77 dias, o risco é fadiga: a troca de texto das seções 7 e 10 é a ferramenta, com uma mudança por semana |
@@ -210,11 +210,9 @@ O pedido é excluir quem pagou a 1ª mensalidade e os alunos. Duas vias, na orde
 
 Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio. O dano é pequeno (verba de remarketing de até R$ 12,50 por dia) e fica registrado como risco aceito pelo gestor, a decidir em AM6. A régua de WhatsApp e e-mail já tira quem pagou a 1ª mensalidade no dia (cmo, regra 8 e seção 2, item 8). Nenhuma exclusão por idade, gênero, renda, saúde, religião ou origem.
 
-### 4.4 Idade: divergência entre o roteiro do cmo e a regra de segmentação
+### 4.4 Idade (decisão 24 do CEO, 28/10/2026)
 
-O roteiro do cmo (slide 4) recomenda manter a faixa de 22 a 35 anos do deck da The Growth Hub como ponto de partida e ler o custo por faixa de idade. A regra do agente e a estratégia de mídia (4.1) mandam 18 anos ou mais em todo conjunto, sem exclusão por idade acima de 18. A persona (24 a 40 anos) é [SUPOSIÇÃO] sem fonte, e a pesquisa de mercado só sustenta "predominam 30 a 49 anos" (benchmarks, seção 1.3).
-
-**Decisão desta estrutura:** 18 anos ou mais, sem corte superior. A idade entra no relatório como quebra de leitura (custo por faixa), não como filtro. Se o cmo mantiver a faixa de 22 a 35 como filtro, é decisão humana registrada em AM7, com a ressalva de que ela exclui por idade. Nos conjuntos de fase 1, que não mudam, vale o que já está configurado [DADO NÃO FORNECIDO].
+Idade mínima de 25 anos, sem idade máxima, em todos os conjuntos da 68606: no conjunto de remarketing desde a criação (07/11) e nos conjuntos de frio da fase 1 na operação única de 03/11, junto com a troca de criativo [SUPOSIÇÃO: conta como uma mudança só na regra R6; o gestor confirma]. A idade entra no relatório semanal como quebra de leitura em três faixas: 25 a 34, 35 a 44 e 45 ou mais. A decisão 24 substitui o 18+ sem corte da estratégia de mídia (4.1) e a faixa de 22 a 35 do deck da The Growth Hub. Referência citada na decisão: veterinários atuantes concentrados de 30 a 49 anos (Demografia da Medicina Veterinária 2022). Mudar a faixa só com nova decisão humana.
 
 ### 4.5 Leitura por praça (AP-1), sem abrir campanha
 
@@ -314,16 +312,16 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 >
 > Cronograma completo, docentes e condições na página da turma. Fale com o time para saber como entrar na turma. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
-**T2. Curto, direto. Primeira frase: 74 caracteres. Total: 105.**
+**T2. Curto, direto. Primeira frase: 74 caracteres. Total: 176.**
 > Pós-graduação em Gastroenterologia Veterinária: 24 módulos, 3 presenciais.
-> Cronograma na página da turma.
+> Cronograma na página da turma. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T3. Médio, pergunta e resposta (objeção primeiro). Primeira frase: 52 caracteres.**
 > Quantos dos 24 módulos exigem presença em São Paulo?
 >
 > Pelo cronograma atual, três: os módulos 6, 13 e 21, em abril de 2027, novembro de 2027 e julho de 2028. Os outros 21 são online. As aulas presenciais e práticas não são transmitidas.
 >
-> Pós-graduação em Gastroenterologia Veterinária, semipresencial, turma IX, com início em 07/11/2026.
+> Pós-graduação em Gastroenterologia Veterinária, semipresencial, turma IX, com início em 07/11/2026. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T4. Longo, lista de fatos. Primeira frase: 63 caracteres.**
 > O cronograma em números: 24 módulos, 21 online e 3 presenciais.
@@ -337,8 +335,8 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 >
 > Cronograma completo na página da turma. Fale com o time para saber como entrar na turma. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
-**T5. Curto, curiosidade. Primeira frase: 29 caracteres. Total: 153.**
-> 21 dos 24 módulos são online. Os 3 presenciais já estão marcados no cronograma da Pós-graduação em Gastroenterologia Veterinária, turma IX, em São Paulo.
+**T5. Curto, curiosidade. Primeira frase: 29 caracteres. Total: 224.**
+> 21 dos 24 módulos são online. Os 3 presenciais já estão marcados no cronograma da Pós-graduação em Gastroenterologia Veterinária, turma IX, em São Paulo. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **Títulos (5):**
 
@@ -367,7 +365,7 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 ### 7.2 F1-C: carrossel, conceito C2 (mapa), fase 1
 
 - **Nome do anúncio e utm_content:** 68606-c2-mapa_car45_pergunta_v1
-- **Arte:** 6 cartões 1080 x 1350 px (como no pacote). Título de cada cartão: 1. Em que módulo cada tema entra?; 2. Módulos 1 a 5, online; 3. Módulo 6, presencial; 4. Online, de 22/05/2027 a 20/02/2028; 5. Módulos 13 e 21, presenciais; 6. Fale com o time.
+- **Arte:** 6 cartões 1080 x 1350 px (como no pacote). Título de cada cartão: 1. Em que módulo cada tema entra?; 2. Módulos 1 a 5, online; 3. Módulo 6, presencial; 4. Online, 05/2027 a 02/2028; 5. Módulos 13 e 21, presenciais; 6. Fale com o time.
 - **Onde:** reserva da troca de 03/11 (entra se n = 3 ou como reposição no rodízio). Sai em 07/11.
 - **CTA:** Saiba mais.
 
@@ -382,18 +380,18 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 
 (O pacote de criativos registra 113 caracteres para essa primeira frase; a contagem aqui dá 115. Os dois cabem antes do "ver mais".)
 
-**T2. Curto, pergunta. Primeira frase: 52 caracteres. Total: 121.**
-> Do esôfago ao fígado: em que módulo cada tema entra? Veja o cronograma da Pós-graduação em Gastroenterologia Veterinária.
+**T2. Curto, pergunta. Primeira frase: 52 caracteres. Total: 192.**
+> Do esôfago ao fígado: em que módulo cada tema entra? Veja o cronograma da Pós-graduação em Gastroenterologia Veterinária. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
-**T3. Curto, direto. Primeira frase: 71 caracteres. Total: 140.**
-> Módulos 1 a 24, tema por tema, com o que é online e o que é presencial. Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo.
+**T3. Curto, direto. Primeira frase: 71 caracteres. Total: 211.**
+> Módulos 1 a 24, tema por tema, com o que é online e o que é presencial. Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T4. Médio, objeção primeiro. Primeira frase: 31 caracteres.**
 > O que se estuda em cada módulo?
 >
 > Do esôfago ao fígado, o cronograma mostra os temas, as datas e o que é online ou presencial. As aulas presenciais e práticas não são transmitidas.
 >
-> Pós-graduação em Gastroenterologia Veterinária, turma IX, semipresencial, São Paulo, 500 h, com início em 07/11/2026. Veja o cronograma completo na página da turma.
+> Pós-graduação em Gastroenterologia Veterinária, turma IX, semipresencial, São Paulo, 500 h, com início em 07/11/2026. Veja o cronograma completo na página da turma. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T5. Longo, lista de fatos. Primeira frase: 78 caracteres.**
 > Em 6 cartões: o que é online, o que é presencial e em que mês cada tema entra.
@@ -449,16 +447,16 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 
 (O pacote registra 85 caracteres para a primeira linha; a contagem aqui dá 86.)
 
-**T2. Curto, direto. Primeira frase: 47 caracteres. Total: 81.**
-> 3 dos 24 módulos são presenciais, em São Paulo. Veja o que se pratica em cada um.
+**T2. Curto, direto. Primeira frase: 47 caracteres. Total: 152.**
+> 3 dos 24 módulos são presenciais, em São Paulo. Veja o que se pratica em cada um. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
-**T3. Curto, curiosidade. Primeira frase: 43 caracteres. Total: 96.**
-> Qual é o primeiro fim de semana presencial? 17 e 18/04/2027, no módulo 6, pelo cronograma atual.
+**T3. Curto, curiosidade. Primeira frase: 43 caracteres. Total: 167.**
+> Qual é o primeiro fim de semana presencial? 17 e 18/04/2027, no módulo 6, pelo cronograma atual. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T4. Médio, objeção primeiro. Primeira frase: 25 caracteres.**
 > Tudo online, sem prática?
 >
-> Na Pós-graduação em Gastroenterologia Veterinária, 21 dos 24 módulos são online e 3 são presenciais, em São Paulo: módulo 6 (17 e 18/04/2027), módulo 13 (27 e 28/11/2027) e módulo 21 (julho de 2028). As aulas presenciais e práticas não são transmitidas. Turma IX, início em 07/11/2026.
+> Na Pós-graduação em Gastroenterologia Veterinária, 21 dos 24 módulos são online e 3 são presenciais, em São Paulo: módulo 6 (17 e 18/04/2027), módulo 13 (27 e 28/11/2027) e módulo 21 (julho de 2028). As aulas presenciais e práticas não são transmitidas. Turma IX, início em 07/11/2026. A turma pode não ser formada se não atingir o número mínimo de alunos.
 
 **T5. Longo, lista de fatos. Primeira frase: 66 caracteres.**
 > O que se pratica em cada módulo presencial, pelo cronograma atual:
@@ -496,7 +494,7 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 ### 7.4 F2-A: estático, adaptação do conceito C1 (calendário), fase 2
 
 - **Nome do anúncio e utm_content:** 68606-r1-calendario_e45_presenciais_v1
-- **Arte:** 1080 x 1350 px e 1080 x 1920 px. Título na imagem: "Os 3 módulos presenciais ainda não começaram." A frase da regra ocupa o painel de fundo sólido, com pelo menos 36 px e contraste de 4,5 para 1. Sem cor de alerta, sem relógio, sem contagem.
+- **Arte:** 1080 x 1350 px e 1080 x 1920 px. Título na imagem: "Os 3 módulos presenciais ainda não começaram." A frase da regra ocupa o painel de fundo sólido, com pelo menos 36 px e contraste de 4,5 para 1. Sem cor de alerta, sem relógio, sem contagem. A linha do tempo de 24 quadrados fica neutra, sem nenhum módulo marcado como "já aconteceu", com os 3 presenciais (6, 13 e 21) em destaque (E7 do qa); uma só arte vale de 07/11 a 22/01.
 - **Onde:** conjunto de remarketing, início agendado em 07/11, 00:00.
 - **CTA:** Saiba mais.
 - **Regra de campo:** título, descrição e botão não falam de entrada. A frase aparece inteira só no texto principal e na arte.
@@ -565,7 +563,7 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 ### 7.5 F2-B: vídeo, adaptação do conceito C3 (prática), fase 2
 
 - **Nome do anúncio e utm_content:** 68606-r2-pratica_v916_entrada_v1
-- **Arte:** vídeo 9:16, 1080 x 1920 px, cerca de 38 segundos, legenda queimada. As três partes da frase aparecem como texto na tela e na locução, na ordem exata. Sem cor de alerta, sem relógio.
+- **Arte:** vídeo 9:16, 1080 x 1920 px, cerca de 38 segundos, legenda queimada. As três partes da frase aparecem como texto na tela e na locução, na ordem exata. Sem cor de alerta, sem relógio. A linha do tempo fica neutra, sem nenhum módulo marcado como "já aconteceu" (E7 do qa); vale de 07/11 a 22/01.
 - **Onde:** conjunto de remarketing, início agendado em 07/11, 00:00.
 - **CTA:** Saiba mais.
 - **Regra de campo:** título, descrição e botão não falam de entrada. Nenhum deles usa "a turma já começou", que é parte da frase.
@@ -599,7 +597,7 @@ Definição de "curto" na fase 2: só gancho, frase completa e nome do curso (de
 >
 > A turma começou em 07/11/2026. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em 23/01/2027. Antes de pagar, o time explica como ficam os módulos que já aconteceram.
 >
-> Pelo cronograma atual: o módulo 2 é online, em 19 e 20/12/2026, e os 3 módulos presenciais são em 17 e 18/04/2027, 27 e 28/11/2027 e julho de 2028. As aulas presenciais e práticas não são transmitidas.
+> Pelo cronograma atual, os 3 módulos presenciais são em 17 e 18/04/2027, 27 e 28/11/2027 e julho de 2028. As aulas presenciais e práticas não são transmitidas.
 >
 > Pós-graduação em Gastroenterologia Veterinária, semipresencial, São Paulo, 500 h, 24 módulos. Cronograma e condições completas na página da turma.
 
@@ -640,7 +638,7 @@ Nomes: 68606-r1-calendario_e45_presenciais-vp_v1 e 68606-r2-pratica_v916_entrada
 
 **Por que está bloqueada:**
 - A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso pode contradizer a peça, e como e quando quem entra depois do início paga é OU8, aberta. Condição incompleta em anúncio com preço é item de conformidade.
-- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" na decisão 23. Nesta estrutura vale "matrícula de R$ 250,00", como na página de destino [CONFIRMAR NO CATÁLOGO o termo único]. A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma): o aprovador precisa ver os dois usos lado a lado.
+- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" na decisão 23. Nesta estrutura vale "matrícula de R$ 250,00", como na página de destino (decisão D-C do qa de 28/10/2026). A V-P segue bloqueada por OU8 e AM8. A palavra "matrícula" na frase da regra tem outro sentido (entrada na turma): o aprovador precisa ver os dois usos lado a lado.
 - Precisa de aprovação humana (AM8) e do ok do qa-de-marketing.
 
 ---
@@ -657,7 +655,7 @@ Nomes: 68606-r1-calendario_e45_presenciais-vp_v1 e 68606-r2-pratica_v916_entrada
 | utm_medium | paid_social |
 | utm_campaign | nome da campanha, exatamente como no gerenciador, em minúsculas e sem acento. Campanha atual: NOME_DA_CAMPANHA_ATUAL [DADO NÃO FORNECIDO]. Se o nome real tiver maiúscula ou acento, converter e registrar na tabela de correspondência |
 | utm_content | nome do anúncio (coluna da seção 3.4) |
-| utm_term | público: `vetform18` na fase 1 [SUPOSIÇÃO: ajustar ao nome do conjunto de frio atual] e `rmk30d` na fase 2 |
+| utm_term | público: `vetform25` na fase 1 [SUPOSIÇÃO: ajustar ao nome do conjunto de frio atual] e `rmk30d` na fase 2 |
 
 Nenhum dado pessoal em UTM. Variante só de texto: mesmo `utm_content` com o sufixo `-tN` (exemplo: `68606-c1-calendario_e45_numero_v1-t2`).
 
@@ -665,9 +663,9 @@ Nenhum dado pessoal em UTM. Variante só de texto: mesmo `utm_content` com o suf
 
 | Anúncio | URL |
 |---|---|
-| F1-E | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c1-calendario_e45_numero_v1&utm_term=vetform18 |
-| F1-C | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c2-mapa_car45_pergunta_v1&utm_term=vetform18 |
-| F1-V | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c3-pratica_v916_objecao_v1&utm_term=vetform18 |
+| F1-E | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c1-calendario_e45_numero_v1&utm_term=vetform25 |
+| F1-C | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c2-mapa_car45_pergunta_v1&utm_term=vetform25 |
+| F1-V | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-c3-pratica_v916_objecao_v1&utm_term=vetform25 |
 | F2-A | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-r1-calendario_e45_presenciais_v1&utm_term=rmk30d |
 | F2-B | https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=meta&utm_medium=paid_social&utm_campaign=NOME_DA_CAMPANHA_ATUAL&utm_content=68606-r2-pratica_v916_entrada_v1&utm_term=rmk30d |
 | F2-A-vp (bloqueada) | mesma URL, com utm_content=68606-r1-calendario_e45_presenciais-vp_v1 e utm_term=rmk30d |
@@ -780,9 +778,9 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | AM4 | Aplicar a fórmula da diária em cada data da tabela 9.1, com o G da data, e a manutenção de 21/12 a 03/01 pela metade | Verba de R$ 2.000,00 por turma até a véspera do 3º módulo (decisões 15 e 18) | Sem aumento. Teto com G = 0: R$ 25,00 por dia (R$ 12,50 na manutenção) | Nenhuma turma acima da verba e nenhuma sem verba antes do 3º módulo | Voltar à diária anterior, dentro do teto |
 | AM5 | Em 22/01/2027, 23h59, pausar todas as campanhas do 68606 (data de término agendada e conferência humana, com nova conferência em 23/01 de manhã) | Véspera do 3º módulo; PP17 | Reduz o gasto a zero | Fim da captação no último dia em que a turma aceita matrícula | Reativar só com verba nova aprovada |
 | AM6 | Decidir as exclusões de quem pagou a 1ª mensalidade e dos alunos: via pixel e API de Conversões agora; lista de contatos só depois de a Ufape confirmar base legal e política de privacidade | LGPD (listas sem base legal) e verba (não mostrar anúncio de captação a quem já é aluno) | Sem verba | Menos desperdício no remarketing; nenhum dado pessoal usado sem base legal | Remover a exclusão do conjunto |
-| AM7 | Decidir a faixa de idade: 18 ou mais (recomendado) ou filtro de 22 a 35 (roteiro do cmo, slide 4) | O filtro exclui por idade; a regra de segmentação e a estratégia 4.1 pedem 18+ | Sem verba | 18+ com leitura de custo por faixa evita exclusão por idade; filtro reduz público já pequeno | Abrir a faixa |
+| AM7 | Aplicar a idade mínima de 25 anos, sem idade máxima, nos conjuntos de frio (na operação de 03/11) e no remarketing (desde 07/11), com leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais) | Decisão 24 do CEO (28/10/2026) | Sem verba | Gasto só em quem tem o perfil de pós (formado), pela decisão do CEO | Voltar à idade da exportação anterior, só com nova decisão humana |
 | AM8 | Decidir a variante com preço (V-P) na fase 2: aprovar só depois de OU8 respondida | Teste de uma variável (com e sem preço); preço só com condição completa | Sem verba nova | Saber se preço na legenda ajuda ou atrapalha o remarketing | Pausar a variante |
-| AM9 | Decidir se as peças sobem com a página de destino pendente (A7: frase "CERTIFICADO PELO MEC"; A12: turma mínima de 20; A13: a página não escreve a regra do 3º módulo) | A peça diz o que a página ainda não sustenta (conformidade: o destino entrega o que o anúncio promete) | Sem custo | Evita promessa que a página não confirma | Não subir, ou subir só depois da correção (OA10) |
+| AM9 | Decidir se as peças sobem com a página de destino pendente (A7: frase "CERTIFICADO PELO MEC"; A12: turma mínima de 20; A13: a página não escreve a regra do 3º módulo) | A peça diz o que a página ainda não sustenta (conformidade: o destino entrega o que o anúncio promete) | Sem custo | Evita promessa que a página não confirma | Não subir, ou subir só depois da correção (OA10). F2-A, F2-B e V-P (fase 2, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); a fase 1 depende só da decisão sobre A7 e A12 |
 | AM10 | Confirmar o teste de rastreio de 30/10 (pixel, API de Conversões, evento de otimização, UTM no CRM) e o evento que a página registra | Sem isso, não se sobe (auditoria 11) | Sem custo | Lead e matrícula ligados à turma | Não subir |
 
 ---
@@ -805,7 +803,7 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 **Públicos**
 - [ ] Públicos de remarketing criados antes de 07/11: visitantes 30 dias, engajamento Instagram 90 dias e Facebook 90 dias, (opcional) vídeo 50%.
 - [ ] Exclusões conforme AM6 (pixel e API de Conversões; lista só com base legal).
-- [ ] Idade 18+ (AM7). Sem exclusão por gênero, renda, saúde, religião ou origem.
+- [ ] Idade mínima de 25 anos, sem máxima (decisão 24, AM7). Sem exclusão por gênero, renda, saúde, religião ou origem.
 - [ ] Expansão de público desligada no conjunto de remarketing.
 
 **Anúncios**
@@ -835,9 +833,9 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 |---|---|---|
 | 1 | O pacote de criativos manda `utm_content` igual ao nome `pos68606_...`; o D12 do cmo manda nome de anúncio no padrão `<código>-<conceito>_<formato>_<gancho>_vN` | Vale o D12 (o pacote diz que o anuncios-meta ajusta). Tabela de correspondência na seção 3.4 |
 | 2 | Contagem da primeira linha: pacote diz 113 (F1-C) e 85 (F1-V); contagem manual aqui dá 115 e 86 | Valem as contagens desta estrutura; as quatro cabem antes do "ver mais". Conferir no contador do gerenciador |
-| 3 | Idade: roteiro do cmo sugere 22 a 35; regra do agente e estratégia 4.1 mandam 18+ | 18+ como padrão, decisão em AM7 |
+| 3 | Idade: roteiro do cmo sugeria 22 a 35; regra do agente e estratégia 4.1 mandavam 18+ | Resolvido pela decisão 24: 25 anos ou mais, sem máxima, com leitura semanal por faixa |
 | 4 | Gestor e criativos dizem "nenhum preço até a U11"; a decisão 23 resolveu a U11 com R$ 250,00 | O texto base continua sem preço. V-P existe, mas bloqueada por OU8 e por AM8 |
-| 5 | "Inscrição" (decisão 23) contra "matrícula" (catálogo e página) | "Matrícula de R$ 250,00", como na página [CONFIRMAR NO CATÁLOGO o termo único] |
+| 5 | "Inscrição" (decisão 23) contra "matrícula" (catálogo e página) | "Matrícula de R$ 250,00", como na página (decisão D-C do qa de 28/10/2026) |
 | 6 | A diária máxima do gestor conta 80 dias desde 28/10; a aplicação acontece depois | Tabela de recálculo por data (seção 9.1), com a regra "nunca aumenta" |
 | 7 | O pacote diz que a fase 1 tem 4 dias de dados com os criativos novos; a ordem de teste do pacote pede F1-E e F1-V primeiro | A troca é uma operação com n entradas e n saídas; F1-E primeiro; F1-V se pronto; F1-C em reserva |
 | 8 | O cmo (OA4) fala em "só remarketing e busca"; não define a divisão Meta e Google da onda 1 | Divisão 50 e 50 [SUPOSIÇÃO], igual à manutenção e à extensão das outras turmas; gestor e anuncios-google confirmam |
@@ -868,11 +866,11 @@ Nada foi feito nos gerenciadores. Quem aprova: a pessoa do marketing que aprovou
 | Sem urgência falsa, contador falso, play falso ou imitação da interface | Atendido | Selos de chamada são retângulos discretos |
 | Sem sugestão para driblar a análise | Atendido | Nenhuma |
 | Frase da regra inteira em toda peça da fase 2 | Atendido | 201 caracteres, copiada em 10 textos principais; título, descrição e botão sem entrada |
-| Segmentação não discriminatória | Atendido com decisão pendente | 18+ sem exclusão por idade; faixa de 22 a 35 só com AM7 |
+| Segmentação não discriminatória | Atendido com decisão registrada | Idade mínima de 25 anos pela decisão 24 do CEO (perfil formado e valor do curso); nenhuma outra exclusão por atributo pessoal |
 | Listas de contatos com base legal | Atendido | Nenhuma lista usada; lista de exclusão bloqueada até base legal (AM6) |
 | Destino entrega o que a peça promete | Pendente externo | A7, A12 e A13 (AM9) |
 | Formulário e página com política de privacidade | Pendente externo | [CONFIRMAR] |
-| Transparência da turma mínima | Pendente de decisão | Frase "A turma pode não ser formada..." nos textos longos da fase 1 (item 10 da lista de aprovações do pacote). Os curtos não a levam; a página a tem. O qa decide se os curtos precisam dela |
+| Transparência da turma mínima | Atendido | Decidido pelo qa (D-H): obrigatória em todo texto da fase 1 que for ao ar; não obrigatória na fase 2. Frase acrescentada aos textos curtos F1-E T2, T3 e T5; F1-C T2, T3 e T4; F1-V T2, T3 e T4 |
 | Nada publicado, enviado ou pago | Atendido | Toda ação é pedido (seção 11) |
 
 ### 14.2 auditorias/11-midia-paga.md (itens que dependem deste arquivo)
@@ -908,7 +906,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - Diária máxima = (R$ 2.000,00 menos G) / 80 dias equivalentes desde 28/10; com G = 0, R$ 25,00 (R$ 12,50 na manutenção); pausa às 23h59 de 22/01/2027 ou antes se o gasto chegar a R$ 2.000,00 (gestor 13.1, 13.2 e 13.7; cmo OA1 e OA4).
 - Plano da 68606: manter até 06/11 (com a troca da D20, se houver fadiga); de 07/11 a 22/01, só remarketing e busca; anúncios com data de início saem em 07/11 (cmo OA4 e regra 4).
 - AP-1: não abrir cinco campanhas na 68606; a divisão por praça do deck é limite de leitura; remarketing num conjunto só na fase 2 (cmo, slides 7 e 20).
-- Público base: veterinário E formado; sugestão do deck de 22 a 35 anos (cmo, slide 4; deck da The Growth Hub, slides 8 e 9).
+- Público base: veterinário E formado; sugestão do deck de 22 a 35 anos (cmo, slide 4; deck da The Growth Hub, slides 8 e 9). Idade: 25 anos ou mais, sem máxima (decisão 24).
 - Padrão D11 e D12: utm_source=meta, utm_medium=paid_social, utm_campaign = nome da campanha, utm_content = nome do anúncio, utm_term = público; anúncios no ar não são renomeados (cmo-geral, 12.7; estrategia 4.2 e 4.3).
 - R3, R6 e o rodízio do gestor (seções 8 e 12.6). Limite de volume do remarketing: 2 x verba semanal / número de peças (estrategia 3.6).
 - Não existe benchmark brasileiro verificável de CPL de pós-graduação (pesquisa-de-mercado, seção 2.1).
@@ -922,7 +920,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - [SUPOSIÇÃO] Exclusões no conjunto de frio atual, se faltarem, entram na mesma operação da troca de 03/11.
 - [SUPOSIÇÃO] Janelas de remarketing de 30 dias (visitantes) e 90 dias (engajamento), como EM7 da estratégia; opcional de vídeo 50%.
 - [SUPOSIÇÃO] Posicionamentos manuais e a lista de excluídos; carrossel só em feed.
-- [SUPOSIÇÃO] Códigos de formato `e45`, `car45` e `v916`; área curta `gastro`; público `vetform18` no utm_term da fase 1.
+- [SUPOSIÇÃO] Códigos de formato `e45`, `car45` e `v916`; área curta `gastro`; público `vetform25` no utm_term da fase 1.
 - [SUPOSIÇÃO] Evento provável de otimização: InitiateCheckout (a ficha mostra COMPRAR e nenhum formulário).
 - [SUPOSIÇÃO] A Meta pode gastar até cerca de 25% a mais em um dia; o controle é semanal.
 - [SUPOSIÇÃO] "Um fim de semana por mês" lido do cronograma atual (o módulo 21 traz só o mês).
@@ -940,10 +938,9 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - [CONFIRMAR] Base legal para lista de contatos de alunos e de quem pagou a 1ª mensalidade; política de privacidade nas páginas e no checkout.
 - [CONFIRMAR] Disponibilidade, no gerenciador, das opções de público "Medicina veterinária", "Médico Veterinário" e "formação universitária ou mestrado"; nome das opções de expansão de público e de melhorias criativas automáticas.
 - [CONFIRMAR] Comportamento do limite de gasto da campanha (se conta o gasto desde a criação).
-- [CONFIRMAR NO CATÁLOGO] Termo único para o valor de R$ 250,00: "matrícula" (catálogo e página) ou "inscrição" (decisão 23).
 - [CONFIRMAR] OU3 (reposição dos módulos), OU6 (véspera ou 1º dia do 3º módulo), OU8 (pagamento de quem entra depois do início), OU4 (turma confirmada e vagas), OU9 (status do catálogo depois do início).
 - [CONFIRMAR] Correção da página (A7, A12, A13) ou decisão humana de subir com ela pendente; caminho de contato com o time na página.
-- [CONFIRMAR] Decisão sobre a faixa de idade (AM7) e sobre os 20% de Goiás e DF (slide 17, item 9).
+- [CONFIRMAR] Decisão sobre os 20% de Goiás e DF (slide 17, item 9).
 - [CONFIRMAR] Locução, licença da trilha e prazo das artes e dos vídeos F1-V e F2-B; manual da marca; dicionário de códigos de formato do criativos.
 - [CONFIRMAR] Quem executa no gerenciador, quem monta, quem revisa e quem cobre sábado, domingo e feriado.
 
@@ -968,3 +965,4 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 ---
 
 **Próximo agente sugerido:** qa-de-marketing (auditorias 11 e conformidade-educacional, antes da aprovação humana); depois anuncios-google, que usa a mesma diária da turma (divisão Meta e Google a confirmar com o gestor), as mesmas datas de fase e os ganchos da matriz nos anúncios de Busca.
+- 28/10/2026: correções E1, E7, E27, E28, E29, E30 e E31 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
