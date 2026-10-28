@@ -3,26 +3,27 @@
 - **Agente:** qa-de-marketing (departamento 10, Operações de Marketing)
 - **Linha:** pos
 - **Data:** 28/10/2026 (quarta-feira)
-- **Versão:** 4. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). Esta versão acrescenta a **seção 8, Reconferência**, depois da aplicação das correções E1 a E36 nos 7 arquivos (commit fe187b2 informado pelo orquestrador; conferido pelo qa na leitura dos arquivos, não no histórico do repositório). As seções 1 a 7 ficam como estavam na versão 3, como registro da revisão original.
-- **Objeto:** as 7 peças novas do enxoval da 68606, antes de entrarem na apresentação ao cliente (decisões 22 e 23).
-- **Status:** rascunho de revisão. Nada é publicado, enviado ou pago. As peças não foram editadas pelo qa: cada correção volta para o agente dono do arquivo.
+- **Versão:** 5. A versão 1 cobria 5 arquivos; a versão 2 incluiu os anúncios Meta e o calendário (arquivos 6 e 7), respondeu às decisões C4, C6, C7 e C13 e reviu o critério do utm_campaign da mídia paga (E3). A versão 3 aplicou a **decisão 24 do CEO** (idade mínima de 25 anos, sem máxima, com leitura por faixa). A versão 4 acrescentou a **seção 8, Reconferência** dos achados E1 a E36 (commit fe187b2 informado pelo orquestrador). Esta versão acrescenta a **seção 9**: reconferência dos ajustes R1 a R14 (commit 66afad5 informado pelo orquestrador) e revisão dos slides e-* da apresentação ao cliente. Os commits foram conferidos pelo conteúdo dos arquivos, não pelo histórico do repositório. As seções 1 a 8 ficam como registro.
+- **Objeto:** as 7 peças novas do enxoval da 68606 e os slides do enxoval na apresentação ao cliente (decisões 22 e 23).
+- **Status:** rascunho de revisão. Nada é publicado, enviado ou pago. As peças e os slides não foram editados pelo qa: cada correção volta para o dono do arquivo.
 - **Entradas lidas:**
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
   - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (cabeçalho, "Como usar" e seção 2, linha 68606)
-  - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (ficha inteira, com cronograma e lista de docentes; relida na reconferência)
+  - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (ficha inteira, com cronograma e lista de docentes; relida nas reconferências)
   - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 1 a 24 e regras para toda saída)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (versão 4: seções 1 a 11)
   - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md (slides 1 a 15)
-  - As 7 peças: /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-28-calendario-68606.md (todas relidas na reconferência, nos trechos de cada achado)
+  - As 7 peças: /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-google-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/05-social-e-comunidade/posts-sociais-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/tiktok-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/12-video-e-audio/podcast-pos-2026-10-28-ufape-cast-68606.md, /home/user/marketing-ufape/saidas/11-midia-paga/anuncios-meta-pos-2026-10-28-68606.md, /home/user/marketing-ufape/saidas/04-conteudo/estrategia-de-conteudo-pos-2026-10-28-calendario-68606.md (relidas nas reconferências, nos trechos de cada achado)
+  - Apresentação ao cliente: /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os 25 slides e-* em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/ (e-abertura a e-semana, na ordem do deck.json)
   - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md e /home/user/marketing-ufape/auditorias/12-video-e-audio.md. Não existe auditorias/04-conteudo.md: o calendário foi auditado pela conformidade-educacional e pela coerência com as peças.
-- **Não aberto nesta revisão:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6) e o copy-de-mensagens-pos-onda1. Os trechos deles foram conferidos pelo que o plano do cmo (versão 4), a apresentação de 28/10 e as próprias peças citam. As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação [SUPOSIÇÃO: o original A6 não foi relido]. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha).
+- **Não aberto nesta revisão:** o arquivo do gestor-de-midia-pos, a estrategia-de-midia-pos, a casa de mensagens (mensagens-pos), os ganchos do criador-de-ganchos-pos (área A6), o copy-de-mensagens-pos-onda1 e os 17 slides que não são do enxoval (capa a calendario, precisamos e proximos). Os slides e-email, e-whats-1, e-whats-2 e e-respostas reproduzem o copy-de-mensagens, que esta revisão não cobre: foram conferidos só nos 5 pontos pedidos. As citações A6-02, A6-03, A6-07 e A6-09 batem com o slide 8 da apresentação do cmo [SUPOSIÇÃO: o original A6 não foi relido]. faculdade.ufape.com.br não foi aberto (o texto da página está na ficha).
 - **Dados pessoais:** nenhum nesta revisão. Docentes só com nome e titulação da ficha.
 
 ---
 
 ## 1. Vereditos (revisão original, versão 3)
 
-**Vereditos atuais, depois das correções: seção 8.**
+**Vereditos atuais: seção 9.**
 
 | # | Arquivo | Veredito | Achados que bloqueiam | Volta para |
 |---|---|---|---|---|
@@ -96,7 +97,7 @@ Regra aplicada: toda peça que falha em qualquer item de auditorias/conformidade
 
 ## 3. Achados (revisão original)
 
-Formato: arquivo, onde, trecho atual, correção exata. "Bloqueia" indica item de conformidade, de promessa ou contrário a decisão registrada; "ajuste" indica correção que precisa entrar, sem item próprio. A situação de cada achado depois das correções está na seção 8.
+Formato: arquivo, onde, trecho atual, correção exata. "Bloqueia" indica item de conformidade, de promessa ou contrário a decisão registrada; "ajuste" indica correção que precisa entrar, sem item próprio. A situação de cada achado depois das correções está nas seções 8 e 9.
 
 ### Transversais
 
@@ -315,7 +316,7 @@ Formato: arquivo, onde, trecho atual, correção exata. "Bloqueia" indica item d
 
 ## 4. auditorias/conformidade-educacional.md, item por item (revisão original)
 
-Legenda: OK = atendido; FALHA = bloqueia (achado); PENDENTE = depende de resposta ou ação fora da peça, também bloqueia publicação; N/A = não se aplica. C = criativos; G = Google; P = posts; T = tiktok; Pc = podcast; M = Meta; Cal = calendário (avaliado pelo que ele agenda). O resultado depois das correções está na seção 8.4.
+Legenda: OK = atendido; FALHA = bloqueia (achado); PENDENTE = depende de resposta ou ação fora da peça, também bloqueia publicação; N/A = não se aplica. C = criativos; G = Google; P = posts; T = tiktok; Pc = podcast; M = Meta; Cal = calendário (avaliado pelo que ele agenda). O resultado depois das correções está nas seções 8.4 e 9.
 
 | Item | C | G | P | T | Pc | M | Cal |
 |---|---|---|---|---|---|---|---|
@@ -441,13 +442,13 @@ Legenda: OK = atendido; FALHA = bloqueia (achado); PENDENTE = depende de respost
 
 ## 8. Reconferência (28/10/2026, depois da aplicação de E1 a E36)
 
-Escopo: só os achados E1 a E36, conferidos nos 7 arquivos pelo trecho de cada correção, e o que a aplicação deixou incoerente ao redor. Cada arquivo traz no fim uma linha datada de 28/10/2026 com a lista de correções aplicadas; conferi as sete. Os achados que sobraram estão numerados R1 a R14, com a correção exata.
+Escopo: só os achados E1 a E36, conferidos nos 7 arquivos pelo trecho de cada correção, e o que a aplicação deixou incoerente ao redor. Cada arquivo traz no fim uma linha datada de 28/10/2026 com a lista de correções aplicadas; conferi as sete. Os achados que sobraram estão numerados R1 a R14, com a correção exata. A situação deles está na seção 9.1.
 
 ### 8.1 Situação do E1 (página de destino)
 
 O E1 não depende dos agentes. Reli a ficha da 68606: ela continua com a versão de 26/10/2026, ainda com "Turma mínima de 20 alunos", ainda com a frase ligada ao MEC e ainda sem a regra do 3º módulo. **A13, A7 e A12 seguem abertas.** O que os agentes podiam fazer foi feito: os 7 arquivos registram que as peças de depois de 07/11 com chamada ou link da turma só saem com a A13 publicada e conferida pelo qa (criativos 7, item 1; Google P1; posts 0.1, item 11; tiktok V3; podcast, aprovações; Meta AM9; calendário C14 e linhas de 07/11, 10/11 e 12/11).
 
-Consequência para os vereditos abaixo: **APROVADO** quer dizer que o texto do arquivo passou e segue para a aprovação humana. As peças de antes de 07/11 dependem só da decisão da regulação sobre A7 e A12. As peças de depois de 07/11 continuam **bloqueadas para publicação** até a A13 estar na página e conferida pelo qa, que é um bloqueio externo, sem correção a fazer no arquivo.
+Consequência para os vereditos: **APROVADO** quer dizer que o texto do arquivo passou e segue para a aprovação humana. As peças de antes de 07/11 dependem só da decisão da regulação sobre A7 e A12. As peças de depois de 07/11 continuam **bloqueadas para publicação** até a A13 estar na página e conferida pelo qa, que é um bloqueio externo, sem correção a fazer no arquivo.
 
 ### 8.2 Vereditos da reconferência
 
@@ -522,7 +523,7 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 - [CONFIRMAR], primeira linha: trocar "a decisão humana (OA9) de usar a página da turma antes da correção (A7, A12, A13)" por "a decisão da regulação (OA9) de usar a página com A7 e A12 pendentes, só para as peças de antes de 07/11; as de depois de 07/11 esperam a A13 (E1)".
 - [CONFIRMAR], linha "Gasto acumulado do ciclo (PP15), diária atual e nome real das campanhas no ar; arquivo de Meta (anuncios-meta).": apagar "; arquivo de Meta (anuncios-meta)".
 
-### 8.4 conformidade-educacional depois das correções (só o que mudou em relação à seção 4)
+### 8.4 conformidade-educacional depois das correções E1 a E36 (só o que mudou em relação à seção 4)
 
 | Item | C | G | P | T | Pc | M | Cal |
 |---|---|---|---|---|---|---|---|
@@ -534,9 +535,7 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 | Página de destino entrega o que a peça promete | PENDENTE externo (A13; registrado no arquivo) | PENDENTE externo (P1) | PENDENTE externo | PENDENTE externo | PENDENTE externo | PENDENTE externo (AM9) | OK (C14 corrigido, E32) |
 | Demais itens | sem mudança em relação à seção 4: OK ou N/A | idem | idem | idem | idem | idem | idem |
 
-**Resultado da reconferência:** criativos e tiktok aprovados para a aprovação humana. Google, posts, podcast, Meta e calendário voltam com R2 a R14. O bloqueio de publicação das peças de depois de 07/11 continua até a Ufape publicar a A13 na página da 68606 (OA10). Os itens PENDENTE (narrador, locuções, egresso, formulários, A7 e A12) seguem como condição da aprovação humana de cada publicação.
-**Revisado por:** qa-de-marketing (agente). Humano: [CONFIRMAR, pessoa do marketing].
-**Data:** 28/10/2026.
+**Resultado da reconferência (versão 4):** criativos e tiktok aprovados para a aprovação humana; Google, posts, podcast, Meta e calendário voltaram com R2 a R14.
 
 ### 8.5 Notas do aplicador, conferidas
 
@@ -546,30 +545,130 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 
 ---
 
+## 9. Segunda reconferência (R1 a R14) e slides do enxoval na apresentação ao cliente
+
+Data: 28/10/2026. Escopo: (1) os ajustes R1 a R14 nos 7 arquivos (o orquestrador informou o commit 66afad5; conferi pelo conteúdo); (2) os 25 slides e-* da apresentação ao cliente, nos 5 pontos pedidos: status de cada peça, P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo e nenhum código interno nem telefone no texto visível. Texto visível é o que fica na tela; o bloco `<aside>` de cada slide é nota do apresentador e não aparece para o cliente, por isso códigos e nomes de arquivo ali não contam como achado.
+
+**E1 segue igual:** reli a ficha da 68606 e ela continua na versão de 26/10/2026, sem a regra do 3º módulo (A13), com "Turma mínima de 20 alunos" (A12) e com a frase ligada ao MEC (A7). As peças de depois de 07/11 seguem bloqueadas para publicação até a A13 estar na página e conferida pelo qa (pedido OA10 à Ufape).
+
+### 9.1 Reconferência de R1 a R14
+
+| Item | Arquivo | Situação |
+|---|---|---|
+| R1 | criativos | Aplicado: a frase com [CONFIRMAR NO CATÁLOGO] saiu da 4.4 |
+| R2 | Google | Aplicado: a linha "Abaixo disso" saiu da tabela 9.4 |
+| R3 | Google | Aplicado: item 7 do checklist com o texto exato |
+| R4 | posts | Aplicado: resposta a comentário sem valores enquanto a OU8 não tiver resposta |
+| R5 | posts | Aplicado: contingência, gancho alternativo 1, nota de voz e briefing da tela 1 do P3 |
+| R6 | tiktok | Aplicado: imagens renumeradas para 8 e 9 |
+| R7 | podcast | Aplicado: linha de 21/12 a 03/01, suposição apagada, [CONFIRMAR] do ep. 3 trocado |
+| R8 | podcast | **Aplicado em parte:** a "Função" do card 4:5 está certa; a tabela dos cortes, linha 2, coluna "Dia sugerido", ainda diz só "qui 26/11" (R15) |
+| R9 | podcast | Aplicado: item duplicado da seção 0 apagado e numeração da seção 6 corrigida |
+| R10 | Meta | Aplicado: 4.3 com a idade mínima da decisão 24 |
+| R11 | Meta | Aplicado: título e primeira frase da 4.1 e a decisão 24 nas fontes |
+| R12 | calendário | Aplicado: linha de 15/12 e visão mensal de dezembro |
+| R13 | calendário | Aplicado: linha de 07/11 dos sitelinks com a porta da A13 |
+| R14 | calendário | Aplicado: linha "até 04/11" no lugar, frase do C7 e as duas linhas de [CONFIRMAR] |
+
+**R15. Podcast: dia do corte 2 do ep. 1 sem "em Story" (ajuste, sem nova revisão)**
+- Seção 2.7, tabela dos cortes, linha 2, coluna "Dia sugerido". Trecho atual: "qui 26/11". Correção exata: "qui 26/11, em Story (C7)". A regra que vale para a publicação já está escrita na seção 4 do mesmo arquivo ("Corte 2 em Story (C7)") e no calendário; por isso é ajuste de coerência, sem nova revisão.
+
+### 9.2 Vereditos dos 7 arquivos
+
+| # | Arquivo | Veredito | Observação |
+|---|---|---|---|
+| 1 | criativos-de-anuncio | **APROVADO** | Segue para a aprovação humana. F2-A, F2-B e V-P só são publicadas com a A13; a V-P também espera a OU8 |
+| 2 | anuncios-google | **APROVADO** | Segue para a aprovação humana. Os 6 RSAs, sitelinks e frases de destaque da fase 2 só sobem com a A13 (P1) |
+| 3 | posts-sociais | **APROVADO** | Segue para a aprovação humana. P3 a P6 só saem com a A13; o P5 sai com preço só se a OU8 for respondida até 14/12 |
+| 4 | tiktok | **APROVADO** | Segue para a aprovação humana. A versão B só sai com a A13 |
+| 5 | podcast UFAPE Cast | **APROVADO** | Segue para a aprovação humana, com o R15 aplicado direto. Os ep. 1, 2, 4 e 5 só saem com a A13; a produção só é aprovada com equipe, horas e custo (E26) |
+| 6 | anuncios-meta | **APROVADO** | Segue para a aprovação humana. O remarketing só liga com a A13; a V-P espera a OU8 |
+| 7 | calendário (estrategia-de-conteudo) | **APROVADO** | Segue para a aprovação humana como plano de execução |
+
+Os itens PENDENTE da seção 8.4 (narrador, locuções, egresso, formulário da caixa de perguntas, decisão da regulação sobre A7 e A12) seguem como condição da aprovação humana de cada publicação. Nenhum deles é correção de texto.
+
+### 9.3 Slides e-* da apresentação ao cliente: conferência nos 5 pontos
+
+Conferi os 25 slides do enxoval: e-abertura, e-midia, e-meta-f1e, e-meta-f1c, e-meta-f1v, e-meta-f2a, e-meta-f2b, e-google, e-google-rsa, e-posts-1, e-posts-2, e-posts-3, e-video, e-video-b, e-email, e-whats-1, e-whats-2, e-respostas, e-cast-ep1, e-cast-pacote, e-cast-eps, e-cast-gravacao, e-cal-nov, e-cal-dez, e-cal-jan e e-semana.
+
+| Ponto | Resultado |
+|---|---|
+| Status de cada peça | **Falha (S1, S2).** Os selos "em revisão final" ficaram para trás: com a seção 9.2, Google, posts, podcast e calendário passam a "pronto para aprovação". E três slides de peças de depois de 07/11 não dizem "sai com a regra na página" |
+| P5 sem valores | **OK no slide e-posts-3:** gancho "Onde ver a conta inteira.", "Parcelas, total e matrícula estão na página da turma." e "Versão com preço bloqueada até a regra de pagamento.". Nenhum valor em texto visível. O título do slide ainda diz "A conta inteira" (S6) e o e-cal-dez não diz que o post sai sem valores (S5) |
+| Idade de 25 anos ou mais | **OK:** e-midia diz "a partir de 25 anos, sem idade máxima, em todos os públicos, inclusive o frio, a partir de 03/11. Leitura por faixa: 25 a 34, 35 a 44 e 45 ou mais.". Nenhum outro slide do enxoval cita idade. Fora do enxoval, o slide 4 da apresentação do cmo segue com a nota da D-F |
+| Regra do 3º módulo | **OK:** a frase aparece inteira e sem mudar palavra em e-meta-f2a, e-meta-f2b (em 3 telas, na ordem), e-posts-2, e-video-b (em 2 cards, na ordem), e-email (e-mail 2) e e-whats-2 (W3 e W4). A data do 3º módulo não aparece fora da frase em nenhum texto visível. e-google-rsa explica que a regra não cabe no Google e fica na página |
+| Código interno e telefone no texto visível | **OK para telefone:** nenhum número aparece em texto visível. **OK para código:** nenhum código de peça (F1-E, P5, TK-B, EP1-C2 e similares), de pendência (A13, OU8) nem nome de arquivo aparece em texto visível; todos estão só nas notas. "[nome]" em e-email e e-whats-1 e e-whats-2 é o campo de personalização da mensagem, não código interno |
+
+Também conferido, sem achado: as datas dos slides batem com os arquivos corrigidos (fase 1 até 06/11, 23h59; remarketing de 07/11 a 22/01, 23h59; ep. 3 só no YouTube e no Spotify em 22/12; peças do ep. 3 depois de 22/01; corte 2 e card 4:5 em Story; P4 em 03/12). O nome do curso aparece sempre inteiro e as titulações de docentes estão como na D-E. Os slides não usam frase de certificação, "últimas vagas", bolsa nem promessa. Também não há travessão, meia-risca nem a palavra "agência", na leitura integral dos 25 slides.
+
+### 9.4 Achados dos slides
+
+**S1. Selos de status desatualizados (corrigir: o cliente veria peças aprovadas como "em revisão")**
+- e-google e e-google-rsa: "em revisão final · sai com a regra na página". Correção exata: "pronto para aprovação · sai com a regra na página".
+- e-posts-1: "em revisão final". Correção exata: "pronto para aprovação".
+- e-cal-nov, e-cal-dez, e-cal-jan e e-semana: "em revisão final". Correção exata: "pronto para aprovação".
+- e-cast-pacote: "em revisão final · sai com a regra na página". Correção exata: "pronto para aprovação · sai com a regra na página".
+- e-abertura, tabela, coluna "Status": Google busca "em revisão final", Posts "em revisão final", UFAPE Cast "em revisão final" e Calendário "em revisão final". Correção exata: "pronto para aprovação" nas quatro linhas. Na linha "Anúncios Meta", trocar "criativos prontos para aprovação" por "pronto para aprovação". Na linha "Vídeo curto", trocar "pronto para aprovação" por "pronto para aprovação · versão B sai com a regra na página".
+- e-abertura, nota (aside): trocar a definição "Em revisão final: peça escrita em 28/10/2026, corrigida pelo qa (achados E2 a E36), com os últimos ajustes da reconferência." por "Pronto para aprovação: texto aprovado pelo qa-de-marketing em 28/10/2026 (seção 9 da revisão), à espera do ok humano de cada publicação." O selo "em revisão" de e-respostas fica como está: as respostas prontas vêm do copy-de-mensagens, que esta revisão não cobre.
+
+**S2. Peças de depois de 07/11 sem "sai com a regra na página" no selo (corrigir: o status visível esconde o bloqueio)**
+- e-posts-3 (P5 e P6, ambos depois de 07/11, com link da turma): selo atual "em revisão final". Correção exata: "pronto para aprovação · sai com a regra na página".
+- e-cast-ep1 (ep. 1, 24/11, com chamada e link da turma): selo atual "em revisão final". Correção exata: "pronto para aprovação · sai com a regra na página".
+- e-cast-eps: selo atual "em revisão final · datas a confirmar". Correção exata: "pronto para aprovação · datas a confirmar · ep. 2, 4 e 5 saem com a regra na página".
+
+**S3. Fase 1: o calendário diz que sobem os 3 anúncios (corrigir: o carrossel é reserva)**
+- e-cal-nov, linha "03 a 05/11". Trecho atual: "Sobem os 3 anúncios da fase 1 · post de Stories · vídeo curto · carrossel no feed". Correção exata: "Sobem os anúncios novos da fase 1 (o estático e, se estiver pronto, o vídeo; o carrossel fica de reserva) · post de Stories · vídeo curto · carrossel no feed". O próprio e-meta-f1c já mostra o carrossel como "reserva", e o calendário diz "F1-C em reserva da troca de 03/11".
+
+**S4. 07/11 sem a condição da página (corrigir: o cliente leria como certo o que depende da A13)**
+- e-cal-nov, linha "07 e 08/11". Trecho atual: "Início da turma, módulo 1 online · entram o remarketing e os anúncios novos de busca". Correção exata: "Início da turma, módulo 1 online · entram o remarketing e os anúncios novos de busca, se a página da turma já trouxer a regra do 3º módulo".
+- e-cal-nov, linha "10 e 12/11". Trecho atual: "Vídeo curto com a regra completa · post da coordenação em Stories". Correção exata: "Vídeo curto com a regra completa · post da coordenação em Stories (os dois só com a regra do 3º módulo na página)".
+
+**S5. Dezembro: o post de preço aparece como "quanto custa" sem dizer que sai sem valores (ajuste)**
+- e-cal-dez, linha "15/12". Trecho atual: "Post “quanto custa” em Stories · corte 3 do episódio 2 · gravação 3". Correção exata: "Post “onde ver a conta inteira” em Stories (sem valores até a regra de pagamento de quem entra depois do início) · corte 3 do episódio 2 · gravação 3".
+
+**S6. Título do slide dos posts 5 e 6 promete "a conta inteira" (ajuste)**
+- e-posts-3, título. Trecho atual: "A conta inteira <span>e o que vem agora.</span>". Correção exata: "Onde ver a conta <span>e o que vem agora.</span>". O post mostrado é a versão sem valores; o título não pode sugerir que o slide traz a conta.
+
+**S7. Exclusões apresentadas como certas (corrigir: dependem de base legal e de evento configurado)**
+- e-midia, coluna "Quem vê", segunda linha. Trecho atual: "Fora: alunos atuais e quem já pagou a 1ª mensalidade." Correção exata: "Fora, quando a exclusão estiver configurada e com base legal confirmada pela Ufape: alunos atuais e quem já pagou a 1ª mensalidade." Fonte: anuncios-meta, 4.3 e AM6 ("Enquanto as vias 1 e 2 não estiverem confirmadas, quem já pagou pode ver o anúncio").
+
+### 9.5 Veredito da apresentação (slides e-*)
+
+**CORRIGIR.** Motivo: S1 e S2 mostram ao cliente um status que não é o atual, e três peças de depois de 07/11 aparecem sem o bloqueio da página. S3, S4 e S7 apresentam como certo o que depende de reserva, da A13 ou de base legal. Sem esses ajustes, o slide promete o que a peça ainda não pode cumprir (auditoria, "entrega exatamente o que prometeu"). S5 e S6 são ajustes de redação. Os 5 pontos pedidos passam, menos o status: P5 sem valores, idade de 25 anos ou mais, regra do 3º módulo, nenhum código interno e nenhum telefone no texto visível.
+
+Correções S1 a S7 de volta para quem montou a apresentação (orquestrador). Depois disso, o qa reconfere só os slides citados: e-abertura, e-midia, e-google, e-google-rsa, e-posts-1, e-posts-3, e-cast-ep1, e-cast-pacote, e-cast-eps, e-cal-nov, e-cal-dez, e-cal-jan e e-semana. A apresentação vai ao cliente como plano em aprovação; nenhuma peça é publicada, enviada ou paga a partir dela.
+
+**Revisado por:** qa-de-marketing (agente). Humano: [CONFIRMAR, pessoa do marketing].
+**Data:** 28/10/2026.
+
+---
+
 ## Fatos (com fonte)
 
 - 68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, início 07/11/2026, turma IX, 500 h, "30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto; matrícula R$ 250,00", status "aberto" (contexto/catalogo-de-cursos.md, seção 2).
 - O catálogo indica a ficha como fonte do cronograma, da coordenação e das condições (contexto/catalogo-de-cursos.md, cabeçalho).
-- Cronograma, presenciais 6, 13 e 21, coordenação, 38 nomes listados, "1ª mensalidade deverá ser paga até 30 dias de antecedência da data de seu início", "Turma mínima de 20 alunos" e a frase ligada ao MEC na página (ficha 68606, ainda na versão de 26/10/2026 na reconferência).
+- Cronograma, presenciais 6, 13 e 21, coordenação, 38 nomes listados, "1ª mensalidade deverá ser paga até 30 dias de antecedência da data de seu início", "Turma mínima de 20 alunos" e a frase ligada ao MEC na página (ficha 68606, ainda na versão de 26/10/2026 nas duas reconferências).
 - Decisões 8, 10, 11, 14, 15, 16, 18, 21, 22, 23 e 24 (docs/execucao-2026-10-26.md). Decisão 24: idade mínima de 25 anos, sem máxima, leitura semanal por faixa (25 a 34, 35 a 44, 45 ou mais), substitui 22 a 35 e 18+; referência citada: Demografia da Medicina Veterinária 2022.
 - Regras 4, 5, 6, 7, 9 e 11, OA4, OA9 a OA12, OU3, OU6 e OU8, seção 5 dos canais (cmo-pos-2026-10-26.md, versão 4).
 - Episódio 3 sem chamada de turma, faixa de 22 a 35 do deck e calendário do podcast (cmo-pos-2026-10-28-apresentacao-68606.md, slides 4 e 13 a 15).
 - Contatos oficiais e instabilidade do WhatsApp em 22/10/2026; tabela de aprovação vazia (contexto/ufape-geral.md).
 - Toda peça com preço mostra parcelas, valor da parcela, total e matrícula; persona de 24 a 40 anos e persona secundária recém-formada [SUPOSIÇÃO do contexto]; exceção de divulgação de turma iniciada até a véspera do 3º módulo, com a regra completa (contexto/pos-graduacao.md).
-- Linhas datadas de 28/10/2026 no fim dos 7 arquivos, com as correções aplicadas pelo orquestrador (lidas na reconferência).
+- Linhas datadas de 28/10/2026 no fim dos 7 arquivos, com as correções e os ajustes aplicados pelo orquestrador (lidas nas reconferências).
+- Ordem dos 42 slides e das 7 seções da apresentação ao cliente (ferramentas/apresentacao-68606-cliente/project/deck.json); texto visível e notas dos 25 slides e-* (pasta slides/).
 
 ## [SUPOSIÇÃO]
 
-- Os ganchos A6 citados nas peças batem com o original do criador-de-ganchos-pos (conferidos só pela citação do slide 8).
+- Os ganchos A6 citados nas peças batem com o original do criador-de-ganchos-pos (conferidos só pela citação do slide 8 da apresentação do cmo).
 - Ajuste de caixa da titulação permitido (D-E).
 - Datas das peças derivadas do ep. 3 depois de 22/01 (E22 e E35).
 - Pedido de pausa ao gestor quando G passar de R$ 1.794,29 (E12).
 - A idade de 25 anos nos conjuntos de frio entra na mesma operação da troca de 03/11 e conta como uma mudança só (E29, R11); no Google, a faixa "desconhecida" fica incluída (E36). O gestor confirma as duas.
-- O commit fe187b2 é o que o orquestrador informou; a reconferência foi feita pelo conteúdo dos arquivos, não pelo histórico do repositório.
+- Os commits fe187b2 e 66afad5 são os que o orquestrador informou; as reconferências foram feitas pelo conteúdo dos arquivos, não pelo histórico do repositório.
+- O bloco `<aside>` dos slides é nota do apresentador e não aparece para o cliente (padrão de apresentação); se a ferramenta exibir as notas na tela, os códigos e nomes de arquivo das notas precisam sair antes da reunião.
 
 ## [CONFIRMAR]
 
-- A13, A7 e A12 na página da 68606, ou decisão da regulação sobre publicar antes de A7 e A12 (E1, E32). Na reconferência, a ficha segue sem mudança.
+- A13, A7 e A12 na página da 68606, ou decisão da regulação sobre publicar antes de A7 e A12 (E1, E32). Nas duas reconferências, a ficha seguia sem mudança.
 - OU8: pagamento da 1ª mensalidade de quem entra depois do início (E8, E16, R4, R12, V-P da Meta). OU3 e OU6 seguem abertas; nenhuma peça promete reposição.
 - Exceção `pos_conteudo_<AAAAMM>` com o arquiteto-de-fluxos (D-A, E22).
 - Nome real das campanhas Meta e Google da 68606 (exportação D6) (E3).
@@ -578,6 +677,7 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 - WhatsApp de vendas funcionando e horário de atendimento (E19, R4).
 - Termo do egresso e aprovação de depoimento (E25); equipe e capacidade do podcast (E26); formulário com política de privacidade (E24).
 - Ok da Esp. Maria Carolina Pappalardo para o P3 e foto aprovada; voz do narrador do tiktok e das locuções F1-V e F2-B.
+- Base legal e evento configurado para as exclusões da Meta (AM6, S7).
 - Quem aprova cada tipo de peça (tabela de contexto/ufape-geral.md vazia; até lá, a pessoa do marketing).
 
 ## Fontes
@@ -591,6 +691,7 @@ Critério: APROVADO quando todos os E do arquivo foram aplicados e só sobra aju
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606.md
 - /home/user/marketing-ufape/auditorias/conformidade-educacional.md, /home/user/marketing-ufape/auditorias/11-midia-paga.md, /home/user/marketing-ufape/auditorias/05-social.md, /home/user/marketing-ufape/auditorias/12-video-e-audio.md
 - As 7 peças revisadas e reconferidas (cabeçalho).
+- /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/deck.json e os 25 slides e-* em /home/user/marketing-ufape/ferramentas/apresentacao-68606-cliente/project/slides/
 - Externas: nenhuma.
 
-**Próximo passo:** criativos e tiktok seguem para a aprovação humana (com R1 e R6 aplicados direto, sem nova revisão), com as peças de depois de 07/11 ainda bloqueadas para publicação até a A13. Voltam ao agente: anuncios-google (R2, R3), posts-sociais (R4, R5), podcast (R7, R8, R9), anuncios-meta (R10, R11) e estrategia-de-conteudo (R12, R13, R14). Depois, nova reconferência só desses itens. Nota ao cmo: slide 4 da apresentação com a decisão 24 e a caixa da titulação (E6). E1 segue como pedido à Ufape (OA10).
+**Próximo passo:** os 7 arquivos seguem para a aprovação humana, com o R15 aplicado direto no podcast. As peças de depois de 07/11 seguem bloqueadas para publicação até a Ufape publicar a A13 na página da 68606 (OA10). A apresentação volta ao orquestrador com S1 a S7; depois, nova conferência só dos slides citados em 9.5. Nota ao cmo: slide 4 da apresentação dele com a decisão 24 e a caixa da titulação (E6).
