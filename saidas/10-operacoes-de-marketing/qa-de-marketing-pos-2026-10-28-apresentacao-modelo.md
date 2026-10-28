@@ -7,13 +7,13 @@
 - **Regra de referência:** decisão 22 do CEO (docs/execucao-2026-10-26.md): a apresentação é o MODELO para todos os cursos, a 68606 é o primeiro preenchimento, o deck da The Growth Hub e a proposta do podcast entram só como referência nas lacunas, sempre marcados, e cada slide indica o que é fixo da linha e o que troca por turma.
 - **Roteiros de origem:** saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-28-apresentacao-68606-estrategia.md (blocos A e B) e saidas/09-analytics-e-insights/relatorios-pos-2026-10-28-apresentacao-68606-materiais.md (blocos C e D).
 - **Fontes primárias conferidas:** contexto/catalogo-de-cursos.md (seções 2 e 3, linhas 68606 e 68650); contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (ficha inteira, inclusive os 38 participantes); saidas/10-operacoes-de-marketing/cursos/pos-68606.json (revisão 2, 28/10/2026); saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md (seções 0, 1, 6A e 7, v5); saidas/05-social-e-comunidade/criador-de-ganchos-pos-2026-10-26.md (cabeçalho e seção 6); saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (seção 6, AD-A6-1); saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md (seção 7).
-- **Status:** rascunho de QA. Nada foi publicado, enviado ou pago. Não editei slides nem roteiros.
+- **Status:** rascunho de QA. Nada foi publicado, enviado ou pago. Não editei slides nem roteiros. A reconferência da versão 14 está na seção 7, no fim deste arquivo, e substitui o veredito da seção 1.
 
 ---
 
-## 1. Veredito
+## 1. Veredito (primeira revisão)
 
-**CORRIGIR.**
+**CORRIGIR.** (Substituído na reconferência da seção 7.)
 
 Motivos que bloqueiam (detalhe na seção 2):
 
@@ -255,7 +255,7 @@ Preservadas em a1 a a6, b2, b3, b6, b11 a b16, meta, verba, publico, canais, reg
 
 ---
 
-## 4. auditorias/conformidade-educacional.md, item por item
+## 4. auditorias/conformidade-educacional.md, item por item (primeira revisão)
 
 Aplicada aos exemplos de peça da apresentação: e-mails T1 e E2 (c8, c9), WhatsApp T2, W2, W3 e W4 (c4 a c7), textos de anúncio Meta (c10 e mensagem), palavras-chave Google (c11), ganchos (c12, c13), Stories AD-A6-1 (c14), respostas do time (c17) e a apresentação como documento interno.
 
@@ -325,7 +325,7 @@ Data: 28/10/2026.
 
 ---
 
-## 6. Regra de aprovação e próximo passo
+## 6. Regra de aprovação e próximo passo (primeira revisão)
 
 - A apresentação **volta para os agentes que a produziram**: o orquestrador, que montou os slides, aplica G1 a G9 e G11 a G19 nos HTML; o agente autoridade-docente corrige a tela 3 do AD-A6-1 (G10) e o agente copy-de-mensagens corrige o nome na primeira linha A e na reserva da 6A.2 (G11), cada um no próprio arquivo, e o orquestrador copia o texto novo para c14 e c4. Os roteiros do cmo (B4, B9, B14) e do relatorios (D10, nota do C13) ficaram desatualizados em relação à fonte primária; vale registrar a atualização neles.
 - Depois, reconferência do qa só nos slides citados. Com APROVADO, segue para a aprovação humana (pessoa do marketing e, nas peças com regulação, o responsável indicado em contexto/ufape-geral.md).
@@ -346,14 +346,13 @@ Data: 28/10/2026.
 
 ## [SUPOSIÇÃO]
 
-- Estimativas de altura dos slides (G9, G12, G13), por contagem de caracteres; conferir no render.
+- Estimativas de altura dos slides (G9, G12, G13 e seção 7), por contagem de caracteres; conferir no render.
 - Ausência de travessão e meia-risca conferida por leitura, não por busca de caractere.
 - Risco de reprovação de anúncio com nome em caixa alta, se o A6-01 virar anúncio.
 
 ## [CONFIRMAR]
 
 - Endereço da política de privacidade (p04) e correção da página (OA10).
-- Registro da troca de 28/10/2026 no cabeçalho do criador-de-ganchos-pos.
 - Lançamento do pacote do podcast em kit.acrescimos do JSON (cmo).
 - Nome do responsável humano por cada tipo de peça (contexto/ufape-geral.md, regras de aprovação).
 
@@ -371,3 +370,58 @@ Data: 28/10/2026.
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/mensagens-pos-2026-10-26.md
 - /home/user/marketing-ufape/docs/execucao-2026-10-26.md
 - /home/user/marketing-ufape/auditorias/conformidade-educacional.md; /home/user/marketing-ufape/auditorias/02-estrategia-e-posicionamento.md
+
+---
+
+## 7. Reconferência (versão 14, 28/10/2026)
+
+### 7.1 Veredito
+
+**APROVADO**, com três ajustes de redação e um teste no render, listados em 7.3. Nenhum deles mexe em promessa, dado de curso, preço, marca [CONFIRMAR] ou [SUPOSIÇÃO], nem em conformidade. Por isso não pedem nova rodada do qa: o orquestrador aplica e confere no render.
+
+A apresentação **segue para a aprovação humana** (pessoa do marketing e, nas peças com regulação, o responsável indicado em contexto/ufape-geral.md). Os exemplos de peça (e-mails e WhatsApp da régua, anúncios e Stories) continuam **sem envio nem publicação** até a p04 (política de privacidade) e o OA10 (correção da página). Isso agora está escrito no texto visível de c8 e c9, e c4 a c7 dependem do OA9, que cita a página. Nada é publicado, enviado ou pago a partir deste arquivo.
+
+### 7.2 Item por item
+
+| Item | Slides e fontes reconferidos | Resultado |
+|---|---|---|
+| G1 | b4 (linha e aside), b14 (aside), b9 (aside), d10 (linha retirada, título "Quatro números e frases") | Resolvido. Bate com pos-68606.json revisão 2 e com o criador-de-ganchos, seção 6. |
+| G2 | kit (título e "Posts por docente: 1 de 38 (AD-A6-1 em rascunho)") | Resolvido. Coerente com c1. Encaixe estimado em cerca de 781 px. |
+| G3 | d10, linha "Dias até o início" | Resolvido, com o texto pedido. |
+| G4 | meta (selo e caixa), conclusao (selo e coluna "Onde") | Resolvido. Ver ajuste de encaixe do meta em 7.3. |
+| G5 | b0 (tarja), indice (aside) | Resolvido, com o texto pedido. |
+| G6 | b4 (tarja e linha "R$ 3.000,00") | Resolvido no texto visível. Sobra um "R$ 3.000" no aside (7.3, R1). |
+| G7 | canais, pracas, episodio-funil (selos e textos), publico (título trocado, só "fixo da linha") | Resolvido. Ver nota de encaixe do pracas em 7.3. |
+| G8 | meta, verba, regua, kit, decisoes, conclusao | Resolvido. Todas as linhas de decisoes levam "· linha" ou "· turma". |
+| G9 | d6, rodapé com [CONFIRMAR] e [DADO NÃO FORNECIDO] | Resolvido. |
+| G10 | c14 (tela 3) e autoridade-docente-pos, AD-A6-1 (linha 373) e registro datado (linha 778) | Resolvido. A tela 3 do slide é literal da fonte nova, com a frase completa da regra do 3º módulo. Novo título "Post de docente: a coordenação em 3 Stories." e grid de 3 colunas iguais cabem (cerca de 656 px). |
+| G11 | c4 (aside) e copy-de-mensagens-pos-onda1, 6A.2 (primeira linha A e reserva, linhas 749 e 752) | Resolvido. A reserva não aparece no c4 e não precisa aparecer. |
+| G12 | c4 e c5 (aviso do link completo), c17 (R2 com "A página diz", rodapé de encurtamento), c2 ("aguarda ok humano") | Resolvido. |
+| G13 | c1 (título em uma linha), curso (etiqueta "03 · Pós-graduação em Gastroenterologia Veterinária · 68606"), d9 (linha 1 encurtada) | Resolvido. |
+| G14 | conclusao, c2, c1, c4, c12, c19, b6, b7, c11, b2 | Resolvido, com uma sobra no aside do c15 (7.3, R2). A ausência em c5 confere: o aside de c5 nunca citou o C2. |
+| G15 | d2 ("· uso interno") | Resolvido. |
+| G16 | c1 (aside) | Resolvido. |
+| G17 | c13 (aside) e criador-de-ganchos-pos, linha 686 ("28/10/2026: correção do item F15 ... A6-02 e A6-08 ...") | Resolvido. A troca do [CONFIRMAR com o orquestrador] pela citação da linha datada é aceitável, porque a linha existe na fonte. |
+| G18 | c3 (aside, "Objeções [SUPOSIÇÃO]") | Resolvido. |
+| G19 | c17 (R8 "· vou confirmar"), c8 ("Pré-visualização:") | Resolvido. |
+| Conformidade | c8 e c9 ("Envio só depois da p04 (política de privacidade) e do OA10.") | Os dois itens externos ficam marcados nos exemplos de peça. A apresentação, como documento interno, passa; o envio das peças segue bloqueado até a p04 e o OA10. |
+
+Regras gerais nos slides reconferidos: nenhum travessão ou meia-risca na leitura, nenhum "agência", nenhum telefone, nenhuma afirmação de certificação, nome "Pós-graduação em Gastroenterologia Veterinária" correto e marcas preservadas.
+
+### 7.3 O que sobra (ajustes sem nova rodada do qa)
+
+- **R1. slides/b4.html, aside.** Atual: "Verba: o deck usa R$ 3.000 por curso; vale a decisão 15 (R$ 2.000,00)". Correção: "Verba: o deck usa R$ 3.000,00 por curso; vale a decisão 15 (R$ 2.000,00)".
+- **R2. slides/c15.html, aside.** Atual: "O hub de prova de bolsa de landing-page-pos-2026-10-26.md é das provas (suspensas; ver C18)." Correção: "O hub de prova de bolsa de landing-page-pos-2026-10-26.md é das provas (suspensas; ver slide Relacionado)."
+- **R3. slides/meta.html, encaixe.** Com o selo novo, o "(troca por turma: preço do catálogo)" e a frase do deck, a estimativa sobe para cerca de 836 px, acima de 824 [SUPOSIÇÃO de estimativa]. Correção, só se o render confirmar que passa:
+  - Na caixa, atual: "No cenário base, 200 leads consomem os R$ 2.000,00 inteiros. [...] Referência do deck da The Growth Hub para a lacuna "o que o CPA mede": CPA de R$ 210,51 na conta; se for custo por matrícula, já passa do teto. O que esse CPA mede: [CONFIRMAR com a The Growth Hub]."
+  - Correção: "No cenário base, 200 leads consomem os R$ 2.000,00. Com CPL acima de R$ 18,00 por 2 semanas fechadas, a meta não fecha só com mídia em nenhum dos três cenários. Referência do deck da The Growth Hub para a lacuna "o que o CPA mede" [CONFIRMAR com a The Growth Hub]: CPA de R$ 210,51 na conta; se for custo por matrícula, já passa do teto."
+  - A caixa cai de quatro para três linhas, cerca de 802 px, e a marca [CONFIRMAR] continua.
+- **Teste no render, slides/pracas.html.** O rodapé com "Fixo da linha [...]" passou a duas linhas. A estimativa é de cerca de 817 px, dentro de 824 e acima da caixa de 792 px. Conferir no render. Se passar, retirar do rodapé "a squad não tinha esse dado." (a informação já está no aside de a6).
+
+### 7.4 Fontes desta reconferência
+
+- Slides em /home/user/marketing-ufape/ferramentas/apresentacao-68606/project/slides/: b0, b2, b4, b6, b7, b9, b14, indice, meta, verba, pracas, publico, canais, regua, episodio-funil, curso, c1, c2, c3, c4, c5, c8, c9, c11, c12, c13, c14, c15, c17, c19, kit, decisoes, d2, d6, d9, d10, conclusao.
+- /home/user/marketing-ufape/saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (AD-A6-1 e registro datado no fim).
+- /home/user/marketing-ufape/saidas/07-email-whatsapp-relacionamento/copy-de-mensagens-pos-onda1-2026-10-26.md (6A.2).
+- /home/user/marketing-ufape/saidas/05-social-e-comunidade/criador-de-ganchos-pos-2026-10-26.md (seção 6 e linha datada no fim).
+- /home/user/marketing-ufape/saidas/10-operacoes-de-marketing/cursos/pos-68606.json (revisão 2).
