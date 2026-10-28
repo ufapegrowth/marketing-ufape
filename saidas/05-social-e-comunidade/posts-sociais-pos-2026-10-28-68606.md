@@ -49,7 +49,7 @@ Horários são [SUPOSIÇÃO]: o perfil @ufapevet não tem medida de melhor horá
 8. **UTM no padrão D11 e D12:** utm_source=instagram (Facebook: facebook), utm_medium=organic_social, utm_campaign=pos_68606_202610 (o mesmo em todos os toques da turma, mês do primeiro envio, regra 11 do cmo-pos), utm_content=ID da peça. Minúsculas, sem acento, sem dado pessoal. Ver [CONFIRMAR] sobre o mês da campanha.
 9. **Link base** (campo "Página oficial" da ficha): https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria
 10. Métricas: cliques no link com UTM por peça, respostas e mensagens recebidas, conversas com o time de vendas que citam o post (só contagem), salvamentos. Alcance e curtidas só como contexto.
-11. **Status de P3 a P6 (depois de 07/11, com link da turma):** só saem com a A13 publicada na página da 68606 e conferida pelo qa, mais a troca da frase ligada ao MEC (A7) e da turma mínima (A12) ou a decisão registrada da regulação (E1 do qa de 28/10/2026). P1 e P2 dependem só da decisão sobre A7 e A12.
+11. **Status de P3 a P6 (depois de 07/11, com link da turma):** só saem com a A13 publicada na página da 68606 e conferida pelo qa, mais a troca da frase ligada ao MEC (A7) e da turma mínima (A12) ou a decisão registrada da regulação (E1 do qa de 28/10/2026). P1 e P2 dependem só da decisão sobre A7 e A12. O P5 com preço depende também do termo inscrição e da linha da 1ª mensalidade na página (decisão 25).
 
 ---
 
@@ -396,7 +396,7 @@ Tela 1
 - Selo: Pós-graduação em Gastroenterologia Veterinária | São Paulo
 - Texto grande: Quanto custa? A conta inteira.
 
-**Status: versão com preço liberada pela decisão 25** (28/10/2026: quem entra depois do início paga igual). O P5 sai em 15/12, depois do início: só com a regra do 3º módulo na página e com a aprovação humana. A página ainda diz que a 1ª mensalidade vence 30 dias antes do início; o ajuste da página está combinado para depois.
+**Status: versão com preço liberada pela decisão 25** (28/10/2026: quem entra depois do início paga igual). O P5 sai em 15/12, depois do início: só com a aprovação humana e com a página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade (paga até 30 dias antes do início) ajustada para quem entra depois (decisão 25). Sem esse ajuste até 14/12, sai a versão sem valores.
 
 **Versão com preço (padrão, pela decisão 25):**
 
@@ -532,7 +532,7 @@ Em 07/11, editar a legenda do P2 no Instagram e no Facebook para o texto acima; 
 | Sem frase de certificação, sem "últimas vagas", sem promessa de emprego | Sim |
 | Sempre "Pós-graduação em Gastroenterologia Veterinária" | Sim em todas as peças (selo, capa ou legenda) |
 | Docentes só com nome e titulação da ficha, sem opinião clínica | Sim (terceira pessoa em P3) |
-| Preço só com condição completa | Sim, apenas em P5 |
+| Preço só com condição completa | Sim, em P5 e na resposta a comentários da seção 7, sempre com inscrição, parcelas e total |
 | Sem bolsa, prova de bolsa, desconto ou crédito | Sim |
 | Sem travessão nem meia-risca; sem dado pessoal | Sim |
 | Todos os dados de curso vêm do catálogo e da ficha | Sim; o que só está na ficha está marcado nas listas abaixo |
@@ -587,3 +587,4 @@ criador-de-ganchos, para revisar as primeiras linhas e as alternativas deste kit
 - 28/10/2026: correções E1, E13, E14, E15, E16 e E17 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R4 e R5 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
+- 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

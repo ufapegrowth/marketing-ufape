@@ -354,7 +354,7 @@ Parágrafo a acrescentar, depois da frase da regra e antes da linha final da leg
 Nomes: pos68606_calendario_est_presenciais_vp_v1 e pos68606_pratica_vid_entrada_vp_v1 (o sufixo vp marca a variante).
 
 Pontos de atenção:
-- A V-P deixa de estar bloqueada pela regra de pagamento: a decisão 25 (28/10/2026) diz que quem entra depois do início paga igual, e a frase "Quem entra depois do início paga igual." já está no parágrafo de condições. Continua valendo: sai só com a regra do 3º módulo na página e com a aprovação humana do preço.
+- A V-P deixa de estar bloqueada pela regra de pagamento: a decisão 25 (28/10/2026) diz que quem entra depois do início paga igual, e a frase "Quem entra depois do início paga igual." já está no parágrafo de condições. Continua valendo: sai só com a aprovação humana do preço e com a página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade ajustada para quem entra depois (decisão 25).
 - Termo: "inscrição de R$ 250,00" e "matrícula" como a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). O catálogo e a página ainda chamam os R$ 250,00 de "matrícula"; o ajuste da página está combinado para depois.
 - Quem entra depois do início paga igual (decisão 25): o preço de lista vale também para quem entra até o 3º módulo. A reposição dos módulos perdidos segue em OU3; a frase "Antes de pagar, o time explica" cobre a conversa.
 - A página oficial traz a condição de pagamento da 1ª mensalidade com 30 dias de antecedência do início. Depois do início, essa linha da página contradiz a decisão 25; o ajuste da página está combinado para depois.
@@ -372,8 +372,8 @@ Pontos de atenção:
 | F1-V | pos68606_pratica_vid_objecao_v1 | C3 | quer praticar, não só assistir | prova por demonstração | vídeo 9:16, 34 s | objeção direta: "Tem prática ou é tudo online?" | narrador e texto | 1 | pronto para revisão |
 | F2-A | pos68606_calendario_est_presenciais_v1 | C1 (adaptação, E10) | quem já viu a turma e pesa a entrada | tempo e rotina, com a regra da entrada | estático 4:5 e 9:16 | fato: "Os 3 módulos presenciais ainda não começaram." | só texto | 2 | pronto para revisão |
 | F2-B | pos68606_pratica_vid_entrada_v1 | C3 (adaptação, E10) | quem já viu a turma e pesa a entrada | prova por demonstração, com a regra da entrada | vídeo 9:16, 38 s | pergunta: "A turma já começou. Ainda dá para entrar?" | narrador e texto | 2 | pronto para revisão |
-| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | só com a regra na página e aprovação de preço |
-| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | só com a regra na página e aprovação de preço |
+| F2-A-vp | pos68606_calendario_est_presenciais_vp_v1 | variante de F2-A | idem | idem, com condições na legenda | idem | idem | só texto | 2 | só com a página ajustada (regra do 3º módulo, inscrição e 1ª mensalidade) e aprovação de preço |
+| F2-B-vp | pos68606_pratica_vid_entrada_vp_v1 | variante de F2-B | idem | idem, com condições na legenda | idem | idem | narrador e texto | 2 | só com a página ajustada (regra do 3º módulo, inscrição e 1ª mensalidade) e aprovação de preço |
 | C4-R | pos68606_docencia_car_numero_v1 (nome reservado) | C4 | valoriza quem ensina e a discussão de casos | autoridade docente | carrossel ou vídeo | número: "38 nomes na lista de docentes: quem ensina a Pós-graduação em Gastroenterologia Veterinária." | coordenação | 1 ou 2 | reserva, não produzido |
 
 Padrão do nome: pos<código da turma>_<conceito>_<formato>_<gancho>_v<n>. Formatos: est, car, vid. O anuncios-meta ajusta ao padrão D11 e D12 de campanha, conjunto e anúncio [CONFIRMAR], sem renomear o que já está no ar.
@@ -458,7 +458,7 @@ Quem aprova: a pessoa do marketing que aprovou o plano geral, até a tabela de u
 | # | Item | Onde aparece | O que aprovar | Status |
 |---|---|---|---|---|
 | 1 | Subir com a página de destino pendente | todas as peças | A página ainda traz "CERTIFICADO PELO MEC" (A7), turma mínima de 20 (A12) e não escreve a regra do 3º módulo (A13). Decidir se as peças sobem assim ou depois de OA10 [CONFIRMAR com a regulação]. F2-A, F2-B e V-P (depois de 07/11, com link da turma) só sobem com a A13 publicada na página e conferida pelo qa (E1 do qa de 28/10/2026); F1-E, F1-C e F1-V dependem só da decisão sobre A7 e A12 | pendente |
-| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão) e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual (decisão 25) | só com a regra na página e aprovação de preço; padrão é sem preço |
+| 2 | Preço e condição completa | só V-P (F2-A-vp e F2-B-vp) | inscrição de R$ 250,00 (à vista no Pix ou boleto, ou 1x de R$ 250,00 no cartão) e matrícula, que é a 1ª mensalidade, dentro de 30x de R$ 1.180,00 ou R$ 35.400,00 no cartão ou boleto; quem entra depois do início paga igual (decisão 25) | só com a página ajustada (regra do 3º módulo, inscrição e 1ª mensalidade) e aprovação de preço; padrão é sem preço |
 | 3 | Pagamento de quem entra depois do início | V-P | Paga igual (decisão 25, 28/10/2026) | respondida |
 | 4 | Frase da regra do 3º módulo | F2-A, F2-B | Texto exato da seção 4.1, que vem da decisão 18 e do plano do cmo; OU6 (véspera ou 1º dia do 3º módulo) e OU3 (reposição) seguem abertas, e a frase não promete nada sobre elas | texto pronto, aprovação humana pendente |
 | 5 | Depoimento | nenhuma peça | Nenhum depoimento é usado. Se algum entrar depois: só real, com autorização de uso de imagem e voz registrada | não se aplica |
@@ -573,7 +573,7 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 
 - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md (dados principais, cronograma, observações, diferenciais, docentes)
 - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seção 2)
-- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22 e 23)
+- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22, 23 e 25)
 - /home/user/marketing-ufape/contexto/pos-graduacao.md e /home/user/marketing-ufape/contexto/ufape-geral.md
 - /home/user/marketing-ufape/saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md (seções 2, 4.3, 8, 10 e 11)
 - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (seções 8, 12.3, 12.6, 12.8 e 13)
@@ -589,3 +589,4 @@ Sem travessão e sem meia-risca. Conferência por busca dos caracteres no arquiv
 - 28/10/2026: correções E1, E4, E7, E8 e E9 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R1 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
+- 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

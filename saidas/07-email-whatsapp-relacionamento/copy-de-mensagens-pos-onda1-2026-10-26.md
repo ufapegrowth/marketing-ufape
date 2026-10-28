@@ -28,7 +28,7 @@
 
 1. **Objetivo de cada mensagem.** Antes do início: concluir a matrícula na turma, pela página dela. Depois do início: falar com o time para entender como entrar na turma (a matrícula vale até o 3º módulo). Um objetivo e uma chamada para ação por mensagem.
 2. **Regra da decisão 18.** Depois do início, toda mensagem que fala de entrada diz a regra inteira: "A turma começou em [data]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data]. Antes de pagar, o time explica como ficam os módulos que já aconteceram." A data do 3º módulo nunca aparece sozinha nem com "corra", "só até", "últimas vagas" ou contador. Nenhuma mensagem promete reposição, gravação ou aula extra (OU3 em aberto). Antes do início, a mensagem usa a data de início e não cita o 3º módulo.
-3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e como fica o pagamento de quem entra depois dela está em aberto (OU8). A frase saiu de todas as mensagens.
+3. **Sem a frase da 1ª mensalidade.** A data de corte de 30 dias antes do início deixou de ser limite de captação, e como fica o pagamento de quem entra depois dela está em aberto (OU8). A frase saiu de todas as mensagens. A decisão 25 (28/10/2026) respondeu a OU8 em parte: na 68606, quem entra depois paga os mesmos valores; as mensagens seguem sem preço, que fica só nas respostas R5 e R10.
 4. **698 liberada (decisão 19 do CEO, 27/10/2026).** As mensagens de 698 saem com o início em 28 e 29/11/2026, mesmo com a página ainda mostrando "28 e 29 de Novembro de 2027". A correção da página continua pedida (OA10); o time de vendas usa a nota da seção 7 para quem perguntar.
 5. **Módulo 1 online (C1).** Em todas as turmas o módulo 1 é online. Toda mensagem diz "começa em DD/MM/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo" (ou "começou em", depois do início) e cita o 1º presencial. Nos e-mails depois do início, a mensagem diz quais módulos em curso são online e onde é o primeiro presencial (M2 do qa).
 6. **Sem preço, bolsa, prova, MEC ou certificação, "últimas vagas" ou número de vagas.** Turma mínima sem número. Nenhuma promessa de reposição.
@@ -164,7 +164,7 @@ Ficha: semipresencial, 370 h, 12 módulos, "aberto". Módulo 1 (28 e 29/11) onli
 > - teoria online nos demais módulos;
 > - coordenação da MSc Fernanda Fontalva Cordeiro, com mais 4 professores listados.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -199,7 +199,7 @@ Ficha: semipresencial, 370 h, 12 módulos, "aberto". Módulo 1 (28 e 29/11) onli
 >
 > A Pós-graduação em Ecocardiografia (turma III) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 2, em 19 e 20/12/2026. São 370 h e 5 módulos presenciais hands-on.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/698/pos-graduacao-em-ecocardiografia?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_698_202610&utm_content=t2-698
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -245,7 +245,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 > - aulas online ao vivo e gravadas, e plantões de dúvidas mensais;
 > - 18 professores listados, com nome e titulação.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -280,7 +280,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulos 1 (28 e 29/11) e 2
 >
 > A Pós-graduação em Dermatologia Veterinária (turma V) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 5, em 20 e 21/03/2027. São 500 h e 7 módulos presenciais, dois com atendimento de casos clínicos.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68610/pos-graduacao-dermatologia-veterinaria/v/sao-paulo?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68610_202610&utm_content=t2-68610
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -326,7 +326,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (28 e 29/11) e m�
 > - 3 módulos presenciais, entre eles coagulograma e coleta de mielograma;
 > - coordenação da ESP. Mariana Aldemundo Pereira di Vincenzo, com 14 professores listados.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -361,7 +361,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (28 e 29/11) e m�
 >
 > A Pós-graduação em Hematologia Veterinária (turma VIII) começa em 28/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em abril de 2027. São 500 h e 3 módulos presenciais, entre eles coagulograma e coleta de mielograma.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68608/pos-graduacao-hematologia-veterinaria/sao-paulo?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68608_202610&utm_content=t2-68608
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -407,7 +407,7 @@ Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início; 
 > - aulas teóricas online e ao vivo, com acesso a aulas gravadas na plataforma do curso;
 > - coordenação da Dra. Andrea Barbosa, da Dra. Angélica Safatle e de Juliana Jorge.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -442,7 +442,7 @@ Mensagens de 28 e 29/10 saem antes do início (30/10) e usam a data de início; 
 >
 > A turma VII da Pós-graduação em Oftalmologia Veterinária começa em 30/10/2026, sexta-feira, com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 4, em 29 a 31/01/2027. São 600 h e microscópio individual nas aulas práticas presenciais.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/707/pos-graduacao-em-oftalmologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_707_202610&utm_content=t2-707
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -478,7 +478,7 @@ Prazo de entrega: textos de 28 e 29/10 hoje; estes, até 30/10 (plano do cmo, E2
 > - 10 módulos presenciais, com microscópio individual por aluno e supervisão de professores e monitores;
 > - atendimentos clínicos reais em mutirões supervisionados.
 >
-> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Parcelas, total e demais condições você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -563,7 +563,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (31/10 e 01/11) o
 > - 7 módulos presenciais de prática (anatomia, radiografia e ultrassom por sistema, Doppler, ultrassom intervencionista e beira-leito);
 > - coordenação do M.V. Carlos Fotin, com 11 professores listados.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -598,7 +598,7 @@ Ficha: semipresencial, 500 h, 24 módulos, "aberto". Módulo 1 (31/10 e 01/11) o
 >
 > A turma VI da Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária começa em 31/10/2026, sábado, com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 4, em fevereiro de 2027. São 500 h e 7 módulos presenciais de prática.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68604/pos-graduacao-em-diagnostico-por-imagem-aplicado-a-clinica-medica-e-cirurgica-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68604_202610&utm_content=t2-68604
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -647,7 +647,7 @@ Mesmas condições da seção 5.3 (entrega até 30/10, OU9, regra inteira, sem p
 > - 7 módulos presenciais de prática, o primeiro em fevereiro de 2027;
 > - coordenação do M.V. Carlos Fotin, com 11 professores listados.
 >
-> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Parcelas, total e demais condições você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -723,7 +723,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 > - grupo para discussão de casos entre alunos e coordenadores;
 > - coordenação da Esp. Maria Carolina Pappalardo, com 38 nomes listados, coordenação incluída.
 >
-> Inscrição, parcelas e total estão na página da turma, junto com o cronograma completo.
+> Parcelas, total e demais condições estão na página da turma, junto com o cronograma completo.
 >
 > [Botão: Ver a turma e as condições]
 >
@@ -758,7 +758,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 >
 > A Pós-graduação em Gastroenterologia Veterinária (turma IX) começa em 07/11/2026 com o módulo 1 online; os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em 17 e 18/04/2027, com prática de cirurgia esofágica, gástrica e intestinal. São 500 h em 24 módulos.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68606_202610&utm_content=t2-68606
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -788,7 +788,7 @@ Toques do OA9 para a 68606 (plano do cmo, tabela do OA9 e seção 4.3): e-mails 
 >
 > A turma IX da Pós-graduação em Gastroenterologia Veterinária começa em 07/11/2026, sábado, com o módulo 1 online (semiologia e fisiologia gastrointestinal); os módulos presenciais são na sede da Ufape, em São Paulo. O primeiro é o módulo 6, em 17 e 18/04/2027.
 >
-> Inscrição, parcelas e total estão na página da turma:
+> Parcelas, total e demais condições estão na página da turma:
 > https://faculdade.ufape.com.br/produto/68606/pos-graduacao-em-gastroenterologia-veterinaria?utm_source=whatsapp&utm_medium=crm&utm_campaign=pos_68606_202610&utm_content=w2-68606
 >
 > Para não receber mais mensagens, responda SAIR.
@@ -824,7 +824,7 @@ Mesmas condições das seções 5.3 e 6.3: entrega com as reservas completas at�
 > - grupo para discussão de casos entre alunos e coordenadores;
 > - coordenação da Esp. Maria Carolina Pappalardo.
 >
-> Fale com o time para entender como entrar na turma. Inscrição, parcelas e total você vê na página da turma.
+> Fale com o time para entender como entrar na turma. Parcelas, total e demais condições você vê na página da turma.
 >
 > [Botão: Falar com o time de vendas]
 >
@@ -874,19 +874,21 @@ Uso: conversa 1 a 1 no WhatsApp de vendas (São Paulo, (11) 91366-9290), dentro 
 
 - **Regra (decisão 18):** a Ufape aceita matrícula até o 3º módulo do curso, em todas as turmas de Pós. A data de corte da 1ª mensalidade (30 dias antes do início, texto das fichas) não é mais limite de matrícula.
 - **Frase-base:** "A turma [começa em / começou em] [início]. A Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo, tabela 7.2]. Antes de pagar, o time explica como ficam os módulos que já aconteceram."
-- **Ainda sem resposta da Ufape (o time diz "vou confirmar" e não promete):** OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU6 (até a véspera ou inclusive o 1º dia do 3º módulo), OU7 (dia do módulo 2 de 68604), OU8 (como e quando paga a 1ª mensalidade quem entra depois dela; ajuste de parcelas), OU4 (vagas, turma confirmada, nova turma).
-- Nunca "últimas vagas", "só até", "corra", contador, nem a data do 3º módulo sozinha. Sem preço, parcela, matrícula ou valor de inscrição até a U11. Sem bolsa. Sem comentar certificação.
+- **Ainda sem resposta da Ufape (o time diz "vou confirmar" e não promete):** OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU6 (até a véspera ou inclusive o 1º dia do 3º módulo), OU7 (dia do módulo 2 de 68604), OU8, em parte (decisão 25: na 68606, quem entra depois paga os mesmos valores; falta a data da 1ª mensalidade de quem entra depois e se a regra vale para as outras turmas), OU4 (vagas, turma confirmada, nova turma).
+- Nunca "últimas vagas", "só até", "corra", contador, nem a data do 3º módulo sozinha. Preço só em R5 e R10, sempre com inscrição, parcelas e total da tabela 7.2. Sem bolsa. Sem comentar certificação.
 
 ### 7.2 Campos por turma
 
-| Código e curso | Início (planilha) | 2º módulo (ficha) | **3º módulo (ficha)** | 1º módulo presencial (ficha) | O que a ficha diz sobre gravação |
-|---|---|---|---|---|---|
-| 707 Pós-graduação em Oftalmologia Veterinária | 30/10/2026 | 27 a 29/11/2026, online | 18, 19 e 20/12/2026, online | módulo 4, 29 a 31/01/2027 | "Aulas teóricas online e ao vivo" e "Acesso a aulas gravadas, disponíveis na plataforma do curso" |
-| 68604 Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | 31/10/2026 | dezembro de 2026 (sem dia), online | 23 e 24/01/2027, online | módulo 4, fevereiro de 2027 | não consta |
-| 68606 Pós-graduação em Gastroenterologia Veterinária | 07/11/2026 | 19 e 20/12/2026, online | 23 e 24/01/2027, online | módulo 6, 17 e 18/04/2027 | não consta |
-| 698 Pós-graduação em Ecocardiografia | 28/11/2026 | 19 e 20/12/2026, **presencial (hands-on)** | 16 e 17/01/2027, online | módulo 2, 19 e 20/12/2026 | não consta |
-| 68610 Pós-graduação em Dermatologia Veterinária | 28/11/2026 | 19 e 20/12/2026, online | 30 e 31/01/2027, online | módulo 5, 20 e 21/03/2027 | "online ao vivo, gravada" |
-| 68608 Pós-graduação em Hematologia Veterinária | 28/11/2026 | 05 e 06/12/2026, online | 16 e 17/01/2027, online | módulo 6, abril de 2027 | não consta |
+| Código e curso | Início (planilha) | 2º módulo (ficha) | **3º módulo (ficha)** | 1º módulo presencial (ficha) | O que a ficha diz sobre gravação | Inscrição, parcelas e total (catálogo) |
+|---|---|---|---|---|---|---|
+| 707 Pós-graduação em Oftalmologia Veterinária | 30/10/2026 | 27 a 29/11/2026, online | 18, 19 e 20/12/2026, online | módulo 4, 29 a 31/01/2027 | "Aulas teóricas online e ao vivo" e "Acesso a aulas gravadas, disponíveis na plataforma do curso" | R$ 250,00; 30x de R$ 1.590,00; R$ 47.700,00 no cartão ou boleto |
+| 68604 Pós-graduação em Diagnóstico por Imagem Aplicado à Clínica Médica e Cirúrgica Veterinária | 31/10/2026 | dezembro de 2026 (sem dia), online | 23 e 24/01/2027, online | módulo 4, fevereiro de 2027 | não consta | R$ 250,00; 30x de R$ 1.000,00; R$ 30.000,00 no cartão ou boleto |
+| 68606 Pós-graduação em Gastroenterologia Veterinária | 07/11/2026 | 19 e 20/12/2026, online | 23 e 24/01/2027, online | módulo 6, 17 e 18/04/2027 | não consta | R$ 250,00; 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto |
+| 698 Pós-graduação em Ecocardiografia | 28/11/2026 | 19 e 20/12/2026, **presencial (hands-on)** | 16 e 17/01/2027, online | módulo 2, 19 e 20/12/2026 | não consta | R$ 250,00; 18x de R$ 1.498,33; R$ 26.970,00 no cartão ou boleto |
+| 68610 Pós-graduação em Dermatologia Veterinária | 28/11/2026 | 19 e 20/12/2026, online | 30 e 31/01/2027, online | módulo 5, 20 e 21/03/2027 | "online ao vivo, gravada" | R$ 250,00; 30x de R$ 1.000,00; R$ 30.000,00 no cartão ou boleto |
+| 68608 Pós-graduação em Hematologia Veterinária | 28/11/2026 | 05 e 06/12/2026, online | 16 e 17/01/2027, online | módulo 6, abril de 2027 | não consta | R$ 250,00; 30x de R$ 1.180,00; R$ 35.400,00 no cartão ou boleto |
+
+Nota da coluna de valores: o catálogo e as páginas chamam os R$ 250,00 de matrícula; nas peças, inscrição (decisão 25).
 
 Campus de todas: São Paulo, sede da Ufape (Av. 9 de Julho, 3939). O time diz o campus em todo texto. Fichas: "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas".
 
@@ -895,11 +897,11 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 ### 7.3 As 10 perguntas
 
 **R1. "Ainda dá tempo de me matricular?"**
-- "Sim. [Frase-base com início e 3º módulo da tabela 7.2.] Se quiser, te ajudo a finalizar: [link da turma]. Inscrição, parcelas e total estão lá."
+- "Sim. [Frase-base com início e 3º módulo da tabela 7.2.] Se quiser, te ajudo a finalizar: [link da turma]. Parcelas, total e demais condições estão lá."
 - Se perguntarem se vale no 1º dia do 3º módulo: "Vou confirmar com a secretaria e te respondo por aqui." [OU6]
 
 **R2. "A página diz que a 1ª mensalidade é paga 30 dias antes do início. Já passou, ainda consigo entrar?"**
-- "A página traz essa orientação, e a Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo]. Como fica o pagamento da 1ª mensalidade para quem entra agora, vou confirmar com o financeiro e te respondo por aqui." [OU8]
+- "A página traz essa orientação, e a Ufape aceita matrícula até o 3º módulo do curso; nesta turma, o 3º módulo começa em [data do 3º módulo]. Quem entra agora paga os mesmos valores; a data da 1ª mensalidade para quem entra depois do início eu confirmo com o financeiro e te respondo por aqui." (na 68606; nas outras turmas, só depois da confirmação do CEO pedida em R5, e até lá vale o texto anterior: "Como fica o pagamento da 1ª mensalidade para quem entra agora, vou confirmar com o financeiro e te respondo por aqui.")
 - Não dizer a data do corte nem "perdeu o prazo".
 
 **R3. "A turma já começou (ou começa em breve). Posso entrar depois do início?"**
@@ -914,7 +916,8 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 - 68604, 68606, 698 e 68608: não dizer que as aulas online ficam gravadas (a ficha não cita).
 
 **R5. "Se eu entrar agora, quando e como pago a 1ª mensalidade?"**
-- "Quem entra depois do início paga igual: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade, nas mesmas condições da página. Inscrição, parcelas e total estão na página da turma: [link da turma]."
+- "Quem entra depois do início paga os mesmos valores: inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. A data da 1ª mensalidade para quem entra agora eu confirmo com o financeiro e te respondo por aqui. Os valores estão na página da turma: [link da turma]."
+- Regra de uso: "Vale para a 68606 (decisão 25). Para 707, 68604, 698, 68610 e 68608, só depois de o CEO confirmar que a decisão 25 vale para todas as turmas de Pós [CONFIRMAR]; até lá: 'Os valores estão na página da turma: [link da turma]. Como fica o pagamento para quem entra depois do início, vou confirmar com o financeiro e te respondo por aqui.'"
 
 **R6. "Tem vaga? A turma está confirmada?"**
 - "Vou confirmar com a secretaria e te respondo por aqui." Depois da resposta da Ufape: "Segundo a secretaria em [data], a turma [nº] [está confirmada / ainda não foi confirmada]." [OU4]
@@ -925,13 +928,13 @@ Nota 698: enquanto a página mostrar "28 e 29 de Novembro de 2027", o time diz "
 
 **R8. "Tem bolsa ou desconto para entrar agora?"**
 - "Para esta turma, não tenho bolsa nem desconto confirmados para te oferecer. As condições estão na página da turma: [link da turma]." Nunca citar prova de bolsa como caminho para esta turma. Se citarem o bloco de prova de bolsa das páginas de 68610, 68608 e 68606: "Não consigo confirmar bolsa para esta turma [CONFIRMAR A-C2]; vou perguntar à Ufape e te respondo por aqui."
-- Entrar depois do início não muda condição de preço? Só responder se a Ufape disser (OU8); até lá, "vou confirmar".
+- Entrar depois do início não muda condição de preço? Na 68606, não muda: quem entra depois paga os mesmos valores (decisão 25). Nas outras turmas, "vou confirmar" até a confirmação do CEO.
 
 **R9. "Posso esperar a próxima turma?"**
 - "Hoje não tenho data de nova turma de [área] para te passar [CONFIRMAR OU4]. A Ufape aceita matrícula nesta turma até o 3º módulo, que começa em [data do 3º módulo]. Se quiser, te explico como ficam os módulos que já aconteceram." Oferecer registro de interesse só se existir esse registro.
 
 **R10. "Qual o valor?"**
-- "Inscrição, parcelas e total da turma [nº] estão na página da turma: [link da turma]. A inscrição é de R$ 250,00 e a matrícula é a 1ª mensalidade das parcelas da turma; se quiser, te explico como funciona o pagamento." (decisões 23 e 25)
+- "A inscrição é de R$ 250,00, e a matrícula é a 1ª mensalidade das [parcelas da turma, tabela 7.2], ou [total da turma, tabela 7.2] no cartão ou boleto. Na página, os R$ 250,00 ainda aparecem como "matrícula": é a inscrição. Tudo está na página da turma: [link da turma]. Se quiser, te explico como funciona o pagamento." (decisões 23 e 25; valores do catálogo)
 
 ### 7.4 Regras para o time
 
@@ -1000,7 +1003,7 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 - [x] Nenhuma bolsa, prova, frase de certificação ou referência ao MEC.
 - [x] Nenhum "últimas vagas", contador ou número de vagas; turma mínima sem número.
 - [x] A data do 3º módulo só aparece dentro da frase da regra completa; sem "corra" ou "só até".
-- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 e OU8 em aberto); o e-mail de 707 de 24/11 não cita aulas gravadas.
+- [x] Nenhuma promessa de reposição, gravação ou condição de pagamento nova (OU3 em aberto; OU8 respondida em parte pela decisão 25, usada só em R5 e R10); o e-mail de 707 de 24/11 não cita aulas gravadas.
 - [x] Campus dito em todas as mensagens.
 - [x] Nenhum dado pessoal, depoimento ou resultado inventado.
 - [x] 68606: sem os superlativos da página ("referências nacionais", "emergente e carente de profissionais") e sem estágio (regras não confirmadas).
@@ -1070,11 +1073,11 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 
 ## [CONFIRMAR]
 
-- OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU4 (vagas, turma confirmada, nova turma, registro de interesse), OU6 (3º módulo: até a véspera ou inclusive o 1º dia), OU7 (dia do módulo 2 de 68604), OU8 (pagamento da 1ª mensalidade de quem entra depois do início) e OU9 (status "aberto" no catálogo depois do início).
+- OU3 (reposição de módulos, gravação, e o módulo 2 presencial de 698), OU4 (vagas, turma confirmada, nova turma, registro de interesse), OU6 (3º módulo: até a véspera ou inclusive o 1º dia), OU7 (dia do módulo 2 de 68604), OU8 em parte (data da 1ª mensalidade de quem entra depois e alcance da decisão 25 nas outras turmas) e OU9 (status "aberto" no catálogo depois do início).
 - Titulação de Juliana Jorge (coordenação de 707) pela Ufape.
 - Regras do estágio de 68606 (a ficha cita "Estágios com a cooperação em suas clínicas/hospitais"); as mensagens não citam.
 - Correção da data de 698 no site, sem bloquear o envio (A6, decisão 19); frase do MEC e "CERTIFICAÇÃO DO MEC" (A7); turma mínima 15 nas páginas (A12); regra do 3º módulo nas páginas (A13); se as mensagens podem sair antes da troca da frase do MEC (regulação).
-- U11 (inscrição de R$ 260,00 contra matrícula de R$ 250,00) e U11a (API oficial do WhatsApp).
+- U11a (API oficial do WhatsApp). A U11 foi respondida pela decisão 23 (inscrição de R$ 250,00).
 - Pré-requisito de 698 [CONFIRMAR NO CATÁLOGO].
 - Datas de envio da Graduação no CRM e se a decisão 14 muda para provas e Livres (ativa as remarcações condicionais da seção 11 do plano do cmo).
 - Medição do clique em wa.me (P15) e nome dos campos de opt-in.
@@ -1086,3 +1089,4 @@ Em cada semana, o contato só de uma turma recebe no máximo 1 WhatsApp ou 1 e-m
 Próximo agente sugerido: otimizacao-de-mensagens (depois do qa-de-marketing e com números somados do envio real).
 - 28/10/2026: 6A.2 (68606), primeira linha A e reserva com o nome padrão "Pós-graduação em Gastroenterologia Veterinária". Correção G11 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-apresentacao-modelo.md). Nada mais foi alterado.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador: "Parcelas, total e matrícula" virou "Inscrição, parcelas e total" em todas as mensagens (a matrícula passa a ser a 1ª mensalidade); respostas sobre quem entra depois do início e sobre o valor atualizadas.
+- 28/10/2026: correções U2 a U5 da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

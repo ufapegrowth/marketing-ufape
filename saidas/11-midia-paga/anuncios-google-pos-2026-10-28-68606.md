@@ -10,7 +10,7 @@
   - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
   - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seção 2, linha 68606)
   - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md
-  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 14, 15, 16, 18 e 23)
+  - /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 14, 15, 16, 18, 23 e 25)
   - /home/user/marketing-ufape/saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md (seção 3, KT20, e seção A6, K6.1 a K6.12)
   - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (seções 8, 12.5, 12.6, 12.8, 12.9 e 13)
   - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (seções 3.6, 4.1, 4.2 e 4.3)
@@ -649,3 +649,4 @@ Internas, listadas no cabeçalho. Externas: nenhuma nesta etapa.
 - 28/10/2026: correções E1, E3, E4, E5, E10, E11, E12 e E36 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R2 e R3 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
+- 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.

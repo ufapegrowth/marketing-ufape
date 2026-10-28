@@ -35,7 +35,7 @@
 1. **Modelo:** lançamento por fases, sem campanha nova de público frio. Fase 1 (28/10 a 06/11, 23h59): a campanha atual segue como está, com uma única troca de criativo por fadiga em 03/11 (D20). Fase 2 (07/11 00:00 a 22/01/2027, 23h59): um único conjunto de remarketing, com F2-A e F2-B, e o frio sai de veiculação.
 2. **Criativos:** os 5 do pacote aprovado para produção: F1-E, F1-C e F1-V na fase 1; F2-A e F2-B na fase 2. Cada um traz 5 textos principais de ângulos diferentes (pelo menos 2 curtos e 1 longo), 5 títulos, 3 descrições, CTA com motivo e URL com UTM (seções 7 e 8).
 3. **Fase 2:** todo texto principal leva a frase completa da regra do 3º módulo (201 caracteres, sem cortar nem trocar palavra). Título, descrição e botão não falam de entrada.
-4. **Preço:** nenhum anúncio da fase 1 e nenhum texto base da fase 2 mostra preço. A variante com preço (V-P) existe só na fase 2, só com a condição completa, e sai só com a aprovação humana e com a regra do 3º módulo na página. Quem entra depois do início paga igual (decisão 25). Não se usa preço em público frio.
+4. **Preço:** nenhum anúncio da fase 1 e nenhum texto base da fase 2 mostra preço. A variante com preço (V-P) existe só na fase 2, só com a condição completa, e sai só com a aprovação humana e com a página ajustada (regra do 3º módulo, termo inscrição e linha da 1ª mensalidade). Quem entra depois do início paga igual (decisão 25). Não se usa preço em público frio.
 5. **Diária:** diária máxima da turma = (R$ 2.000,00 menos o gasto acumulado G [CONFIRMAR]) dividido pelos dias equivalentes restantes. Com G = 0, o teto é de R$ 25,00 por dia (Meta e Google somados) e R$ 12,50 de 21/12 a 03/01. Nunca aumenta (seção 9).
 6. **Pausa:** às 23h59 de 22/01/2027, véspera do 3º módulo, ou antes, se o gasto do ciclo chegar a R$ 2.000,00.
 7. **Leitura:** a fase 1 só tem até 4 dias de dados com os criativos novos (03/11 a 06/11). A leitura dela é direcional e serve de modelo para as outras turmas (decisão 22), não de veredito.
@@ -638,7 +638,7 @@ Nomes: 68606-r1-calendario_e45_presenciais-vp_v1 e 68606-r2-pratica_v916_entrada
 
 **Por que está bloqueada:**
 - A página oficial acrescenta que a 1ª mensalidade deve ser paga até 30 dias antes do início. Depois do início isso contradiz a decisão 25 (quem entra depois paga igual), que já está no parágrafo de condições; o ajuste da página está combinado para depois. Condição incompleta em anúncio com preço é item de conformidade.
-- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" nas decisões 23 e 25. Nesta estrutura vale "inscrição de R$ 250,00", e "matrícula" é a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). A V-P depende só do AM8 e da regra do 3º módulo na página.
+- O valor de R$ 250,00 aparece como "matrícula" no catálogo e na página, e como "inscrição" nas decisões 23 e 25. Nesta estrutura vale "inscrição de R$ 250,00", e "matrícula" é a 1ª mensalidade (decisão 25, que substitui o termo decidido pelo qa em 28/10). A V-P depende do AM8 e da página da turma ajustada e conferida pelo qa: regra do 3º módulo (A13), os R$ 250,00 chamados de inscrição e a linha da 1ª mensalidade ajustada para quem entra depois (decisão 25).
 - Precisa de aprovação humana (AM8) e do ok do qa-de-marketing.
 
 ---
@@ -758,7 +758,7 @@ Feriados e fins de semana conferidos: 02/11 (segunda), 15/11 (domingo, sem açã
 - **Os 2 últimos dias subcontam conversões:** nenhuma tendência com eles.
 - **Nunca desligar todos os antigos ao mesmo tempo** (skill, passo 5). Na troca de 03/11 só saem os n com fadiga.
 - **Fase 1:** sem teste de texto (4 dias). O que ela entrega é uma leitura direcional dos conceitos C1 e C3 e a prova de que a estrutura de 5 criativos funciona como modelo para as outras turmas (decisão 22).
-- **Fase 2:** F2-A e F2-B rodam juntos como as 2 peças do remarketing. Ordem das trocas de texto, uma por semana e só fora de 21/12 a 03/01: (1) T2 curto no lugar de T1 em F2-A; (2) T2 curto no lugar de T1 em F2-B; (3) T3 ou T5 em F2-A e em F2-B, um por vez; (4) V-P (com e sem preço), só depois de AM8 aprovado e com a regra do 3º módulo na página.
+- **Fase 2:** F2-A e F2-B rodam juntos como as 2 peças do remarketing. Ordem das trocas de texto, uma por semana e só fora de 21/12 a 03/01: (1) T2 curto no lugar de T1 em F2-A; (2) T2 curto no lugar de T1 em F2-B; (3) T3 ou T5 em F2-A e em F2-B, um por vez; (4) V-P (com e sem preço), só depois de AM8 aprovado e com a página ajustada (regra do 3º módulo, termo inscrição e linha da 1ª mensalidade).
 - **Fadiga na fase 2:** se a frequência subir e o CTR cair por 2 semanas seguidas, o gestor pede a próxima troca de texto da fila. Se o público for pequeno demais para a diária, a resposta é ampliar a janela (pedido separado), e não aumentar verba.
 - **Sem conceito novo depois do início** (E10 do cmo): todas as trocas são adaptações de texto de C1 e C3.
 - **Leitura por praça e por idade:** só como quebra no relatório (seções 4.4 e 4.5).
@@ -949,7 +949,7 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - /home/user/marketing-ufape/contexto/catalogo-de-cursos.md (seção 2)
 - /home/user/marketing-ufape/contexto/cursos/pos/68606-pos-graduacao-em-gastroenterologia-veterinaria.md
 - /home/user/marketing-ufape/contexto/ufape-geral.md e /home/user/marketing-ufape/contexto/pos-graduacao.md
-- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22, 23 e 24)
+- /home/user/marketing-ufape/docs/execucao-2026-10-26.md (decisões 8, 10, 11, 14, 15, 16, 18, 22, 23, 24 e 25)
 - /home/user/marketing-ufape/saidas/11-midia-paga/criativos-de-anuncio-pos-2026-10-28-68606.md (textos, artes, matriz e frase da regra)
 - /home/user/marketing-ufape/saidas/11-midia-paga/gestor-de-midia-pos-2026-10-26.md (seções 8, 12.2, 12.3, 12.5, 12.6, 12.9 e 13)
 - /home/user/marketing-ufape/saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-26.md (seções 3.2, 3.6, 3.7, 4.1 a 4.3)
@@ -968,3 +968,4 @@ Sem travessão e sem meia-risca. Conferido pela escrita; a conferência por busc
 - 28/10/2026: correções E1, E7, E27, E28, E29, E30 e E31 do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
 - 28/10/2026: ajustes R10 e R11 da reconferência do qa-de-marketing aplicados pelo orquestrador.
 - 28/10/2026: decisão 25 aplicada pelo orquestrador (pagamento de quem entra depois e termos inscrição e matrícula).
+- 28/10/2026: correções U da quarta conferência do qa-de-marketing (qa-de-marketing-pos-2026-10-28-enxoval-68606.md) aplicadas pelo orquestrador.
