@@ -26,8 +26,8 @@
 
 1. **Meta:** 30 matrículas ou mais na turma III (15 confirmam a turma). Em reais, pela regra da decisão 27: 30 x R$ 26.970,00 = R$ 809.100,00; para confirmar a turma, 15 x R$ 26.970,00 = R$ 404.550,00. É conta, não previsão.
 2. **O que é diferente da Gastro:** (a) o curso é menor e mais prático: 370 h, 12 módulos, 5 deles presenciais e todos hands-on; (b) só 5 docentes na ficha, e 4 deles também estão nas duas turmas de Cardiologia (68605 em São Paulo e 289 em Goiânia): a mesma voz serve a três Pós; (c) a própria Ufape tem uma escada inteira da área (ECG e eco online, grupo de estudos, hands-on básico ensinado pela coordenação da 698); (d) o concorrente mais próximo é interno: a Pós-graduação em Cardiologia Veterinária, com o mesmo público e docentes em comum; (e) o site ainda mostra 2027 como início (decisão 19 do CEO: as peças saem assim mesmo e o time confirma 2026); (f) o módulo 2 é presencial, então quem entra depois dele perde uma prática sem reposição conhecida.
-3. **Círculos mais promissores:** compradores dos produtos de ecocardiografia e cardiologia de Livres (C2) e ex-alunos de Cardiologia (C4, com dez turmas anteriores da 68605, pelo número da turma). C1 existe mas é pequeno (turmas I e II). Tamanhos [CONFIRMAR].
-4. **Três testes:** T1 indicação (com foco em ex-alunos de Cardiologia e de Ecocardiografia); T2 "eco comentado ao vivo" com a coordenação, aberto à base da área; T3 caso da semana em imagem, assinado por docente e publicado em parceria (substitui o "docente como mídia" do modelo, porque a imagem do exame é a prova mais forte deste curso).
+3. **Círculos mais promissores:** compradores dos produtos de ecocardiografia e cardiologia de Livres (C2) e ex-alunos de Cardiologia (C4; a 68605 está na turma XI, o que indica várias turmas anteriores, número e tamanho [CONFIRMAR]). C1 existe mas é pequeno (turmas I e II). Tamanhos [CONFIRMAR].
+4. **Três testes:** T1 indicação (com foco em ex-alunos de Cardiologia e de Ecocardiografia); T2 "eco comentado ao vivo" com a coordenação, aberto à base da área; T3 caso da semana em imagem, assinado por docente e publicado em parceria (substitui o "docente como mídia" do modelo como teste principal, porque a imagem do exame é a prova mais forte deste curso; o anúncio de parceria vira a parte paga do T3, só na turma IV).
 5. **Canais:** mesmo mapa de 24 canais (13 ativos, 8 em teste, 3 fora). Muda o preenchimento, não o status.
 6. **Paga:** R$ 2.000,00 na turma (decisão 15), teto de R$ 66,67 por matrícula para a meta e de R$ 133,33 para confirmar a turma (decisão 27). Meta e Google Busca. No H2 a paga é zero: a turma IV não está no catálogo.
 7. **O que trava:** tamanho e consentimento da base; reposição do módulo 2 presencial (OU3); data da turma IV; se a prova de Cardiologia serve à 698; correção da página (data, frase de certificação, regra do 3º módulo); regra de imagem de exame em conteúdo; quem aprova. Seção 8.
@@ -137,7 +137,7 @@
 | 18. Comunidades | o grupo de estudos 68665 já é comunidade paga da área, mas usa grupo de WhatsApp, que expõe o telefone dos membros (L7): formato [CONFIRMAR] antes de usar como canal de divulgação |
 | 19. Eventos e aulas abertas | a 698 não tem aula aberta no cronograma; o T2 propõe uma sessão nova (UD3). O hands-on 573 já funciona como porta presencial da área |
 | 21 a 23. Parceiros, imprensa e congressos | entidade e congresso da especialidade não confirmados (S19, S20); indústria de equipamento tem afinidade alta com o curso, com risco de conflito de interesse |
-| 16. Google Ads | cauda da área e da cidade ("pós-graduação em ecocardiografia veterinária", "pós em ecocardiografia veterinária São Paulo"); negativos de medicina humana e de curso online curto (seção de mídia) |
+| 16. Google Ads | cauda da área e da cidade ("pós-graduação em ecocardiografia veterinária", "pós em ecocardiografia veterinária São Paulo"); negativos de medicina humana e de curso online curto (parte de mídia) |
 
 ---
 
@@ -162,7 +162,7 @@
 
 | # | Formato | Por que serve à 698 | Leitura do cmo |
 |---|---|---|---|
-| F1 | Programa de indicação | C1 pequeno, mas C4 de Cardiologia é grande pelo número de turmas [CONFIRMAR tamanho] | entra como T1 |
+| F1 | Programa de indicação | C1 pequeno, mas C4 de Cardiologia tende a ser maior pelo número de turmas [CONFIRMAR tamanho] | entra como T1 |
 | F2 | Caso ao vivo | vira "eco comentado ao vivo": a coordenação lê e discute exames dos temas do cronograma (DMVM, cardiomiopatias, congênitas, hemodinâmica), sem paciente identificável | entra como T2 |
 | F3 | Comunidade de ex-alunos | duas turmas só; melhor juntar ex-alunos de Ecocardiografia e de Cardiologia numa comunidade da área [SUPOSIÇÃO] | depois dos testes |
 | F4 | Trilha da área | a Ufape tem todos os degraus: 395 e 411 (online), 68665 (grupo), 573 (hands-on com a coordenação), 698 | infraestrutura; depende da decisão 14 e da revisão do par da 573 (UD9) |
@@ -197,7 +197,7 @@ Diferenças contra o modelo: F12 sobe para "médio a alto" porque a imagem do ex
 | T2 | F2 eco comentado ao vivo | uma sessão online com a MSc Fernanda Fontalva Cordeiro, aberta à base da área, gera inscritos na lista de espera e conversas de venda, e a gravação alimenta podcast, cortes e busca | C1, C2, C4, C9 (via paga e parceiros) | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem na sessão, cortes produzidos | não repetir; gravação só publicada com aprovação |
 | T3 | F12 com F5: caso da semana em imagem, assinado por docente | uma imagem de exame com pergunta, publicada em parceria pelo perfil do docente e da Ufape, gera mais conversa e salvamento que o post de curso da marca; o melhor caso vira criativo (ligação 1) | C6, C9, C2 | salvamentos, respostas e conversas por post; cliques com UTM por docente; na turma IV, custo por conversa do anúncio de parceria contra o da marca | parar a série; remover a parceria; pausar o anúncio (nunca excluir) |
 
-Por que esses três: T1 é o mais barato e usa o maior círculo quente da área (ex-alunos de Cardiologia); T2 cria a matéria-prima que falta, porque a 698 não tem aula aberta; T3 usa o que o curso tem de mais visual e testa a ponte orgânica e paga sem verba nova. Na turma III, T1 e T2 só cabem se UD1 e UD3 saírem antes da véspera do módulo 2; senão, os três rodam para a turma IV. A parte paga do T3 fica para a turma IV, porque depois do início da turma III a paga é só remarketing e busca.
+Por que esses três: T1 é o mais barato e usa o círculo quente que tende a ser o maior da área (ex-alunos de Cardiologia); T2 cria a matéria-prima que falta, porque a 698 não tem aula aberta; T3 usa o que o curso tem de mais visual e testa a ponte orgânica e paga sem verba nova. Na turma III, T1 e T2 só cabem se UD1 e UD3 saírem antes da véspera do módulo 2; senão, os três rodam para a turma IV. A parte paga do T3 fica para a turma IV, porque depois do início da turma III a paga é só remarketing e busca.
 
 ---
 
@@ -430,7 +430,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 **8. consentimento**
 - Título: **Consentimento** antes de tudo
 - Tópicos: Igual à Gastroenterologia; Só números somados chegam à squad; Envio só com aceite por canal; Nunca comprar ou trocar lista; Grupo de WhatsApp expõe telefone
-- Nota: Na Ecocardiografia, o grupo de estudos da área usa grupo de WhatsApp. Formato precisa ser revisto antes de virar canal.
+- Nota: Na Ecocardiografia, o grupo de estudos da área usa grupo de WhatsApp. O formato precisa ser revisto antes de virar canal.
 
 **9. base**
 - Título: A **base própria** trabalha sempre
@@ -449,7 +449,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **12. papeis**
 - Título: Orgânica prova, **paga amplia**
-- Tópicos: Orgânica: autoridade, base e prova; Paga: busca de cauda e remarketing; Turma III: plano da onda 1 mantido; Entre turmas: paga parada; Sem exclusão entre Eco e Cardiologia
+- Tópicos: Orgânica: autoridade, base e prova; Paga: busca de cauda e remarketing; Turma III: plano já aprovado mantido; Entre turmas: paga parada; Sem exclusão entre Ecocardiografia e Cardiologia
 - Nota: As campanhas de Ecocardiografia e Cardiologia falam com o mesmo público e são lidas lado a lado.
 
 **13. ligacoes**
@@ -479,7 +479,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **18. testes**
 - Título: **Três testes** primeiro
-- Tópicos: Indicação de ex-alunos de Eco e Cardiologia; Eco comentado ao vivo com a coordenação; Caso da semana assinado por docente; Parte paga só na próxima turma; Cada teste tem como desfazer
+- Tópicos: Indicação de ex-alunos de Ecocardiografia e Cardiologia; Eco comentado ao vivo com a coordenação; Caso da semana assinado por docente; Parte paga só na próxima turma; Cada teste tem como desfazer
 - Nota: Se as decisões não saírem antes do módulo 2 presencial, os três ficam para a turma IV.
 
 **19. medir**
@@ -495,7 +495,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 **21. modelo**
 - Título: **O mesmo modelo** para todos os cursos
 - Tópicos: Igual à Gastroenterologia; Regras e canais não mudam; Muda o preenchimento do curso; Doze passos de perguntas
-- Nota: A Ecocardiografia é o segundo preenchimento da moldura. O que mudou foi o curso, não a regra.
+- Nota: A Ecocardiografia é um dos preenchimentos da moldura. O que mudou foi o curso, não a regra.
 
 **22. proximos**
 - Título: **Próximos passos**
@@ -527,7 +527,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 - [x] Docentes só com nome e titulação da ficha.
 - [x] Anúncios: idade mínima de 25 anos; sem segmentação por característica pessoal; sem lista de clientes.
 - [x] Nada publicado, enviado ou pago.
-- [x] Busca por travessão, meia-risca e pela palavra proibida da regra de nomenclatura feita no arquivo final (ver resposta ao orquestrador).
+- [x] Sem travessão nem meia-risca e sem o termo vetado pela regra de nomenclatura da organização: conferido na leitura do arquivo. Nesta rodada não tive ferramenta de busca por caractere; a busca automática fica recomendada ao qa e ao orquestrador.
 
 **Resultado:** pronto para o qa-de-marketing.
 
@@ -550,14 +550,14 @@ qa-de-marketing revisa este arquivo com as auditorias 02 e de conformidade, conf
 ## [SUPOSIÇÃO]
 
 - Persona P1 sem voz real; público de anestesia, UTI e imagem interessado na Pós.
-- Ex-aluno de Cardiologia como candidato natural; indicado fechar mais que lead frio (T1); caso em imagem gerar mais conversa que post de curso (T3).
+- Ex-aluno de Cardiologia como candidato natural e círculo quente maior que o C1; indicado fechar mais que lead frio (T1); caso em imagem gerar mais conversa que post de curso (T3).
 - Leitura de impacto e esforço dos formatos.
 - Estrutura de captação nas práticas (câmeras citadas na ficha do 573).
 - Tipos de parceiro de indústria e laboratório, sem nome.
 
 ## [CONFIRMAR]
 
-- Tamanho e consentimento dos círculos; origem das matrículas das turmas I e II (UN1, UN2).
+- Tamanho e consentimento dos círculos, inclusive quantas turmas anteriores de Cardiologia existem; origem das matrículas das turmas I e II (UN1, UN2).
 - Turma IV e destino das provas 68641 e 68642 (UN3).
 - Reposição do módulo 2 presencial (UN5, OU3); pré-requisito (UN9); vagas e números da turma III (UN10).
 - Parceiros, equipamento das práticas, encaminhamento de eco na Ufape Clínica (UN4); SBCV e CBCAV na fonte oficial (UN11).

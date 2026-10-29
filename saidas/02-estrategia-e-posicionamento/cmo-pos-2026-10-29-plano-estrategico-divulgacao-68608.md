@@ -117,7 +117,7 @@
 | C3 | alunos de 68606 (Gastroenterologia, a docente Pappalardo coordena), 68615 (Patologia Clínica, a coordenação da 68608 ensina), 68628 (Oncologia, a docente Cirillo coordena), 68635, 68617 e 333, **só quando cada turma começar** (pelo catálogo, nenhuma começou); alunos de turmas já iniciadas de áreas vizinhas, como 666 (Terapia Intensiva e Emergência), 663 (Clínica Médica e Emergência) e 650 (Medicina de Felinos), só conteúdo e indicação | conhecem docentes ou a área; nunca recebem oferta de compra de outra Pós | regra da Ufape para comunicar com aluno em curso [CONFIRMAR] |
 | C4 | ex-alunos de Patologia Clínica (módulo 1), Infectologia (4), Oncologia (8 e 9), Endocrinologia e Gastroenterologia (10), Nefrologia (11), Terapia Intensiva e Emergência (12, 13 e 18), Nutrologia (16), Medicina de Felinos (17), Anestesiologia e Clínica Cirúrgica (18) | a hematologia atravessa quase toda a clínica; segunda especialização [SUPOSIÇÃO] | interesse declarado por área no CRM [CONFIRMAR campo] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | só institucional, nunca venda da Pós | se há egressos (N11 do plano da Gastro) |
-| C6 | ESP. Mariana Aldemundo Pereira di Vincenzo e os 14 professores listados | a coordenação é a voz principal (post AD-A11-1 já existe); três docentes coordenam outras Pós (S12) e levam a hematologia a outros públicos | quais docentes têm perfil ativo e aceitam publicar; grafias e homonímias (S12) |
+| C6 | ESP. Mariana Aldemundo Pereira di Vincenzo e os 14 professores listados | a coordenação é a voz principal (post AD-A11-1 já existe); dois docentes da lista coordenam outras Pós e um terceiro talvez (S12): eles levam a hematologia a outros públicos | quais docentes têm perfil ativo e aceitam publicar; grafias e homonímias (S12) |
 | C7 | laboratórios veterinários de análises clínicas; bancos de sangue veterinários; Ufape Clínica (se tiver serviço de transfusão, N8); indústria de diagnóstico hematológico (analisadores, coagulação) e de hemocomponentes; a associação citada em S24 e o congresso de S23 (a confirmar); CRMV-SP só institucional | laboratório e banco de sangue falam todo dia com o clínico que pede hemograma e transfusão [SUPOSIÇÃO] | lista de parceiros (N6); serviço da Ufape Clínica (N8) |
 | C8 | ex-alunos e alunos de C1 a C4 indicando colegas que pedem e interpretam exames hematológicos ou fazem transfusão | custo baixo, confiança alta | regra e benefício (decisão da Ufape) |
 | C9 | clínicos de pequenos animais, sobretudo em São Paulo, que lidam com anemias, trombocitopenias, hemoparasitoses e transfusão; vizinhos: intensivistas e veterinários de laboratório [SUPOSIÇÃO, N10] | nicho lato sensu com pouca disputa visível (S20, S21), mas com ruído de medicina humana (S25) | volumes de busca [CONFIRMAR no Planejador do Google Ads e no Search Console] |
@@ -170,7 +170,7 @@
 | F2 | Caso clínico ao vivo | hemograma comentado ao vivo: a interpretação de exame é o tema de maior demanda da área (S22) | não há aula aberta no cronograma: a sessão precisa ser criada (N4) |
 | F3 | Comunidade de ex-alunos | é a única comunidade possível na área (S14) | formato sem expor telefone (L7) |
 | F4 | Trilha da área | 106 tem a mesma coordenação; 202 trata coagulopatias | trilha com degraus faltando (sem grupo de estudos e sem imersão); peças de Livres suspensas (decisão 14) |
-| F5 | Docentes em parceria | 3 docentes coordenam outras Pós (S12) | grafias e homonímias antes de nomear |
+| F5 | Docentes em parceria | dois docentes da lista coordenam outras Pós, um terceiro a confirmar (S12) | grafias e homonímias antes de nomear |
 | F6 | Anúncio de líder de opinião | o colega confia no colega [SUPOSIÇÃO] | igual à moldura |
 | F7 | Co-marketing | laboratórios e indústria de diagnóstico têm base de clínicos que pedem exame [SUPOSIÇÃO] | conflito de interesse com marca de analisador ou laboratório |
 | F8 | Eventos externos | há congresso comercial da área em São Paulo (S23) | próxima edição [CONFIRMAR] |
@@ -468,7 +468,7 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
   - 500 h, 24 módulos, 3 módulos presenciais
   - Prática: coagulograma, mielograma, hemocomponentes
   - Coordenação também coordena o curso de transfusão
-  - Três docentes coordenam outras pós
+  - Docentes que coordenam outras pós
   - Nenhum concorrente presencial achado na busca
   - Busca mistura muito com hematologia humana
 - Nota do apresentador: Tudo vem da ficha, do catálogo e das pesquisas da squad. Ausência de concorrente na busca é indício, não garantia.

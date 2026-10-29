@@ -397,15 +397,15 @@ Não existe hoje. Proposta para a Ufape decidir (341-UD4): um primeiro degrau de
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, carga horária, turma, local e início batem com o catálogo e a ficha; nome padrão "Pós-graduação em Medicina Interna Equina".
-- [x] Nenhuma frase de certificação ligada ao MEC; nenhum "título de especialista"; o que o aluno recebe ao concluir não é afirmado neste plano.
-- [x] Sem superlativo: não digo que a 341 é "a única" pós de equinos do país; 341-S17 registra que ausência na busca não prova ausência.
+- [x] Nenhuma frase de certificação ligada ao MEC; nenhuma menção a título concedido por entidade da profissão; o que o aluno recebe ao concluir não é afirmado neste plano.
+- [x] Sem superlativo e sem afirmação de exclusividade da 341 no país; 341-S17 registra que ausência na busca não prova ausência.
 - [x] Desconto e bolsa: a promoção não é usada; bolsa fora (decisão 14).
 - [x] Sem urgência falsa; nenhuma data de captação; a regra do 3º módulo só com a regra completa.
 - [x] LGPD: só números somados; L1 a L8; nenhuma lista comprada, trocada ou recebida; nenhum nome de pessoa das fontes externas copiado.
 - [x] Docentes só com nome e titulação da ficha.
 - [x] Anúncios: sem segmentação por característica pessoal; 25 anos ou mais; anúncio de parceria com identificação.
 - [x] Nada publicado, enviado ou pago.
-- [x] Sem travessão nem meia-risca; nenhuma menção que trate a The Growth Hub como agência de qualquer tipo (a empresa não é citada no plano).
+- [x] Sem travessão nem meia-risca; a The Growth Hub não é citada neste plano.
 
 **Resultado:** pronto para o qa-de-marketing.
 
@@ -563,8 +563,8 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 
 - [IBGE, Pesquisa da Pecuária Municipal 2024, informativo](https://biblioteca.ibge.gov.br/visualizacao/periodicos/84/ppm_2024_v52_br_informativo.pdf)
 - [Notícias Agrícolas: Brasil tem quase 6 milhões de cavalos](https://www.noticiasagricolas.com.br/noticias/agronegocio/408115-brasil-tem-quase-6-milhoes-de-cavalos-e-mais-de-200-mil-criadores-paixao-move-setor-que-desafia-custos-altos.html)
-- [Ciência Animal (PUCPR), anais citados no resultado de busca](https://periodicos.pucpr.br/cienciaanimal/article/download/32389/27081/78079) (a página abriu ilegível; vale só o resumo da busca)
-- [Ciência Animal (PUCPR), outro anal citado](https://periodicos.pucpr.br/cienciaanimal/article/download/31023/26408/72047)
+- [Ciência Animal (PUCPR), artigo dos anais citado no resultado de busca](https://periodicos.pucpr.br/cienciaanimal/article/download/32389/27081/78079) (a página abriu ilegível; vale só o resumo da busca)
+- [Ciência Animal (PUCPR), outro artigo dos anais citado](https://periodicos.pucpr.br/cienciaanimal/article/download/31023/26408/72047)
 - [UFPel, Clineq na conferência da ABRAVEQ](https://wp.ufpel.edu.br/clineq/2016/05/09/clineq-participa-da-conferencia-nacional-da-abraveq-e-recebe-premiacoes/) (acesso recusado; vale só o resumo da busca)
 - [Ministério da Agricultura, laboratório credenciado em Indaiatuba](https://www.gov.br/agricultura/pt-br/assuntos/lfda/laboratorios-credenciados/laboratorios-credenciados/diagnostico-animal/arquivos-diagnostico-animal/Indaiatuba01_12_20.pdf)
 - [Diretório de hospitais veterinários em Indaiatuba](https://comerciosaopaulo.com.br/animais-em-sao-paulo-2/hospital-veterinario-em-sao-paulo/hospitais-veterinarios-em-indaiatuba/)
