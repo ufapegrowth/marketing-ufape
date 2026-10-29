@@ -1,10 +1,10 @@
-# Plano estratégico de divulgação contínua: Pós-graduação em Cardiologia Veterinária em Goiânia (preenchimento do curso 289)
+# Plano estratégico de divulgação contínua: Pós-graduação em Cardiologia Veterinária em Goiânia (referência: turma 289, em captação)
 
 - **Agente:** cmo
 - **Linha:** pos
 - **Data:** 29/10/2026 (quinta-feira)
 - **Versão:** 2 (29/10/2026): aplica a decisão 28 do CEO (desconto de 20% para alunos e ex-alunos de Pós, base trabalhada por mídia paga, indicação sem desconto para o indicado, parceiros fora como canal, turmas recorrentes, foco no curso, grupos de estudo como comunidade).
-- **Pedido do CEO (29/10/2026):** aplicar a mais 10 cursos o plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (mídia paga e orgânica, sem datas de execução e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo é o curso 289.
+- **Pedido do CEO (29/10/2026):** aplicar a mais 10 cursos o plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (mídia paga e orgânica, sem datas de execução e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo é o curso de Goiânia; 289 é o código da turma II em captação, usado como referência do arquivo.
 - **Curso:** Pós-graduação em Cardiologia Veterinária em Goiânia. O plano é do curso, não de uma turma (decisão 28f). A turma em captação hoje é a turma II, código 289 (catálogo, seção 2; ficha contexto/cursos/pos/289-pos-graduacao-em-cardiologia-veterinaria.md); as próximas turmas do curso em Goiânia herdam o plano.
 - **Modelo:** saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md (aqui: "plano da Gastro"). As partes [MOLDURA] do plano da Gastro valem como estão e **não são reescritas aqui**: regras L1 a L8, os nove círculos, os 24 canais e seus critérios, as cinco ligações entre paga e orgânica, o catálogo de formatos F1 a F16, os indicadores e o formato dos pedidos de aprovação. Onde a decisão 28 muda a moldura, este arquivo registra o ajuste como **[AJUSTE DA DECISÃO 28]**, para o cmo levar à moldura; não reescreve a moldura. Os blocos do curso levam a etiqueta **[289]**.
 - **Apelido interno:** "Cardio Goiânia" e "289" só neste arquivo. Em texto visível ao público o curso é "Pós-graduação em Cardiologia Veterinária" (contexto/pos-graduacao.md, padrão de nome), sempre com a praça (Goiânia).
@@ -87,7 +87,7 @@
 | S22 | A onda 2 registra a campanha da turma II como ativa, com gasto limitado a R$ 500,00 até 06/12 (PP9) e estrutura nova a partir de 07/12 | cmo-pos-2026-10-27-onda2, seções 1 e 4.3 | alta para o registro; gasto real [CONFIRMAR] |
 | **Mercado** | | | |
 | S23 | Cardiologia é área disputada em São Paulo (Anclivepa-SP com Cardiologia de 652 h, início em fevereiro de 2027; Qualittas por registros); em Goiânia a Anclivepa não apareceu e as listagens da cidade são quase só EAD | inteligencia-concorrencia-pos, seções 1 e 4 (A2); persona, seção 5.1 | média; ausência na busca não prova ausência |
-| S24 | Uma notícia do setor diz que o CFMV deferiu a habilitação da Sociedade Brasileira de Cardiologia Veterinária (SBCV) para conceder título de especialista em Cardiologia Veterinária por cinco anos, pela Resolução CFMV nº 935/2009; a notícia não deixa claro o ano. A 935/2009 foi revogada pela Resolução CFMV nº 1572/2023 | [Panorama Pet Vet](https://panoramapetvet.com.br/?p=5937); [Resolução 935/2009 no manual do CFMV](https://manual.cfmv.gov.br/arquivos/resolucao/935.pdf); [Resolução 1572/2023 (Legisweb)](https://www.legisweb.com.br/legislacao/?id=462891) | média para a existência da entidade; vigência [CONFIRMAR no CFMV] |
+| S24 | Uma notícia do setor diz que o CFMV deferiu a habilitação da Sociedade Brasileira de Cardiologia Veterinária (SBCV) para conceder título de especialista em Cardiologia Veterinária por cinco anos, pela Resolução CFMV nº 935/2009; a notícia não deixa claro o ano. Pela página da Legisweb, a 935/2009 foi revogada pela Resolução CFMV nº 1572/2023 [CONFIRMAR no CFMV]. Título de especialista concedido por entidade é fato de terceiro e nunca aparece ligado à Pós, que dá certificado de especialização lato sensu (contexto/pos-graduacao.md) | [Panorama Pet Vet](https://panoramapetvet.com.br/?p=5937); [Resolução 935/2009 no manual do CFMV](https://manual.cfmv.gov.br/arquivos/resolucao/935.pdf); [Resolução 1572/2023 (Legisweb)](https://www.legisweb.com.br/legislacao/?id=462891) | média para a existência da entidade; vigência [CONFIRMAR no CFMV] |
 | S25 | Resultados de busca citam um V Congresso Brasileiro de Cardiologia Veterinária em 2024 ligado à SBCV, a partir de registro de currículo público (não copiado) | busca de 29/10/2026 | baixa; agenda futura [CONFIRMAR] |
 | S26 | Goiânia sediou o 37º Congresso Brasileiro da Anclivepa em 2016; nenhum congresso de Cardiologia em Goiânia apareceu para 2026 ou 2027 | [O Hoje, 2016](https://ohoje.com/2016/04/28/goiania-sera-a-capital-dos-pequenos-animais/); busca de 29/10/2026 | média para 2016; agenda atual sem fonte |
 | S27 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | plano da Gastro, S17 | alta para a lacuna |
@@ -122,9 +122,9 @@
 
 **Regras de convivência (decisão do cmo, valem para o curso):**
 
-1. **A praça decide o destino.** O contato declara a praça (Goiânia ou São Paulo) no formulário ou no atendimento; o destino segue a praça declarada, nunca o preço. Quem não declara recebe as duas opções com os dados do catálogo de cada uma, sem recomendação.
+1. **A praça decide o destino.** O contato declara a praça (Goiânia ou São Paulo) no formulário ou no atendimento; o destino segue a praça declarada, nunca o preço. Quem não declara recebe as duas opções com os dados do catálogo de cada uma, sem recomendação; a 68605 só é oferecida até a véspera do 3º módulo, com o texto de turma já iniciada e a regra completa (decisão 18; contexto/pos-graduacao.md).
 2. **Atendimento por praça.** Lead de Goiânia vai ao WhatsApp de vendas de Goiânia; lead de São Paulo, ao de São Paulo (contatos oficiais em contexto/ufape-geral.md). A resposta pronta explica praça, datas e condições pelo catálogo; a razão da diferença de preço é [CONFIRMAR N10] e, até a resposta, o time diz só os números do catálogo.
-3. **Mídia separada por região e por termo.** Nenhum anúncio mostra as duas praças. Na busca, termos com "Goiânia" e "Goiás" vão só para Goiânia e termos com "São Paulo" só para São Paulo, com negativos cruzados; termo sem cidade fica com a praça da região da pessoa. Na Meta, região do curso e exclusão cruzada de visitantes da página da outra praça. **Públicos da base (ex-alunos de Pós)** são divididos pela praça de origem quando o CRM tiver esse dado; sem ele, o anúncio para a base fala da área e leva à página de Cardiologia com as duas praças. Desenho: gestor-de-midia, sem verba nova.
+3. **Mídia separada por região e por termo.** Nenhum anúncio mostra as duas praças. Na busca, termos com "Goiânia" e "Goiás" vão só para Goiânia e termos com "São Paulo" só para São Paulo, com negativos cruzados; termo sem cidade fica com a praça da região da pessoa. Na Meta, região do curso e exclusão cruzada de visitantes da página da outra praça. **Públicos da base (ex-alunos de Pós)** são divididos pela praça de origem quando o CRM tiver esse dado; sem ele, o anúncio para a base fala da área e leva à página de Cardiologia com as duas praças quando ela existir (canal 2, em teste; UD5 da moldura); até lá, o destino do conjunto da base sem praça conhecida fica [CONFIRMAR com o gestor-de-midia], sempre sem anúncio que mostre as duas praças. Desenho: gestor-de-midia, sem verba nova.
 4. **Sem comparação pública.** Nenhuma peça compara preço, data ou "melhor praça". A diferença de R$ 1.650,00 no total é conta interna, não argumento.
 5. **Fora da janela de uma praça:** quem quer a praça sem turma aberta vai para o aviso da próxima turma daquela praça, não para a outra, salvo se pedir.
 6. **698 não é degrau do curso.** Quem quer só ecocardiograma é atendido pela 698 ou pelos Livres de eco; quem quer a cardiologia completa, pelo curso. Pergunta de nível tem resposta pronta pelos cronogramas, sem dizer qual é melhor.
@@ -136,7 +136,7 @@
 
 **[MOLDURA]:** seção 3 do plano da Gastro, sem mudança, com os ajustes abaixo.
 
-**[AJUSTE DA DECISÃO 28]:** (a) C1, C3 e C4 passam a ter oferta concreta: 20% no curso (28a); (b) a base tem consentimento para novas oportunidades e é alcançada por mídia paga (28b), o que muda a regra L6 e a coluna "anúncio" de C1, C3 e C4 [interpretação, CONFIRMAR]; (c) a moldura protegia o aluno em curso (C3) de oferta de outra Pós; a decisão 28a dá a ele o desconto, então a oferta passa a ser permitida pela mídia paga e pelo e-mail de campanha, nunca pelo canal de serviço da secretaria (L3 continua); (d) C7 deixa de ser canal de parceria (28d); (e) C8 sem desconto para o indicado (28c).
+**[AJUSTE DA DECISÃO 28]:** (a) C1, C3 e C4 passam a ter oferta concreta: 20% no curso (28a); (b) a base tem consentimento para novas oportunidades e é alcançada por mídia paga (28b), o que muda a regra L6 e a coluna "anúncio" de C1, C3 e C4 [interpretação, CONFIRMAR]; (c) a moldura protegia o aluno em curso (C3) de oferta de outra Pós; a decisão 28a dá a ele o desconto, então a oferta passa a ser permitida pela mídia paga da base (28b) e, no e-mail e no WhatsApp de campanha, só para quem tem opt-in registrado naquele canal (L2) [CONFIRMAR com o encarregado de dados]; nunca pelo canal de serviço da secretaria (L3 continua). O plano da 698 deixa essa mudança para a revisão da moldura; o cmo leva as duas leituras à moldura para fechar uma regra só; (d) C7 deixa de ser canal de parceria (28d); (e) C8 sem desconto para o indicado (28c).
 
 ### [289]
 
@@ -144,7 +144,7 @@
 |---|---|---|---|
 | C1 | ex-alunos da Pós-graduação em Cardiologia Veterinária que já concluíram (turma I de Goiânia, se concluiu; turmas anteriores de São Paulo) | já fizeram o curso: indicam colegas; recebem simpósios e workshops da área com 20% (28a). Uso de "turma XI" como prova de tradição é [CONFIRMAR] | tamanho por praça; conclusão da turma I (N1) |
 | C2 | compradores formados de 395 (ECG), 411 (eco online), 68665 (grupo de estudos), 573 (hands-on em São Paulo); 718 e 68622 quando saírem de "verificar" | candidatos com interesse provado; sem 20%, salvo se também forem alunos ou ex-alunos de Pós; 395 tem a coordenação como única professora | tamanho (N4); 395 e 411 aceitam graduandos: só formado recebe campanha da Pós; decisão 14 suspende peças novas de Livres |
-| C3 | alunos atuais de outras Pós, com prioridade para Goiânia (hoje 535, Clínica Cirúrgica) e, quando começarem, 68623, 68609 e 68632 de Goiânia; alunos da 68605 (mesmo curso, outra praça) só recebem conteúdo e convite | segunda especialização com 20% (28a), por mídia paga e e-mail de campanha; nunca pelo canal da secretaria | tamanho [CONFIRMAR] |
+| C3 | alunos atuais de outras Pós, com prioridade para Goiânia (hoje 535, Clínica Cirúrgica) e, quando começarem, 68623, 68609 e 68632 de Goiânia; alunos da 68605 (mesmo curso, outra praça) só recebem conteúdo e convite | segunda especialização com 20% (28a), por mídia paga e, só com opt-in registrado no canal (L2), por e-mail de campanha; nunca pelo canal da secretaria | tamanho [CONFIRMAR] |
 | C4 | ex-alunos de outras Pós, com prioridade para os de Goiânia (Anestesiologia, Clínica Cirúrgica, Terapia Intensiva, Internação) e para as áreas que o cronograma cruza: anestesia (módulo 20), imagem (3, 8 e 10), felinos (12), pneumologia (17), nefrologia (18), oncologia (21), emergência (23) | **primeiro círculo de compra**: mesma cidade, sem viagem [SUPOSIÇÃO], 20% (28a), consentimento e mídia paga já em uso (28b) | tamanho e praça de origem no CRM (N1) |
 | C5 | na prática, vazio: a Graduação em Medicina Veterinária é em São Paulo e a de Goiânia é Pedagogia (catálogo, seção 1) | nenhum | nada |
 | C6 | Msc. Flavia Mazzo e os demais professores da ficha | autoridade; a mesma equipe serve às duas praças | quem tem perfil ativo e aceita publicar; homonímia (N12) |
@@ -170,12 +170,12 @@
 | 5. Blog | testar | sem mudança |
 | 6 e 7. Instagram e Facebook | ativos | perfil nacional: conteúdo da área serve às duas praças; o que fala da turma diz Goiânia e leva à página com UTM própria |
 | 8. WhatsApp de vendas | ativo | atendimento de Goiânia (regra 2 da seção 2.3); resposta pronta sobre o desconto de 20% só depois da regra escrita (N2) |
-| 9 e 10. WhatsApp de campanha e e-mail | ativos | base com consentimento para novas oportunidades (28b): ex-alunos e alunos de Pós recebem a oferta com 20% dentro do teto D16; aviso de turma por praça; carta da área de Cardiologia com bloco por praça |
+| 9 e 10. WhatsApp de campanha e e-mail | ativos | a decisão 28b registra consentimento da base para novas oportunidades, com contato hoje por mídia paga; por e-mail e WhatsApp de campanha, ex-alunos e alunos de Pós recebem a oferta com 20% só se tiverem opt-in registrado naquele canal (L2) [CONFIRMAR com o encarregado de dados], dentro do teto D16; aviso de turma por praça; carta da área de Cardiologia com bloco por praça |
 | 11 e 12. Podcast e YouTube | ativos (YouTube condicionado) | episódio com a coordenação sobre a rotina do cardiopata [CONFIRMAR convite]; a onda 2 deixou o podcast fora até 24/01/2027 e a decisão 21 o colocou no plano: registrar na próxima revisão da onda 2 |
 | 13. LinkedIn | testar | perfil da coordenação e de docentes que aceitarem |
 | 14 e 15. TikTok e X | fora | motivos da moldura |
 | 16 e 17. Google Ads e Meta Ads | ativos | região do curso e termos de cidade com negativos cruzados; públicos da base (28b) por praça quando houver o dado |
-| 18. Comunidades | **ativo** | o grupo 68665 (Cardiologia e Ecocardiografia) já é a comunidade da área (28g): nada a criar. Uso de marketing só como convite de conteúdo e aviso de turma dentro da regra do grupo; o grupo usa WhatsApp, que expõe telefones (L7): nenhuma ação que dependa dos números dos membros [CONFIRMAR formato com o encarregado] |
+| 18. Comunidades | **ativo** | o grupo 68665 (Cardiologia e Ecocardiografia) já é a comunidade da área (28g): nada a criar. Divulgação do curso dentro do grupo só pela regra do grupo e com a coordenação, sem captação por lá (mesma regra do plano da 698, N14); o grupo usa WhatsApp, que expõe telefones (L7): nenhuma ação que dependa dos números dos membros [CONFIRMAR formato com o encarregado] |
 | 19. Eventos e aulas abertas | testar | a ficha não traz aula aberta: a sessão de ECG ao vivo (T2) depende de decisão da Ufape (UD3); simpósios e workshops da área têm 20% para a base (28a) |
 | 20. Time de vendas | ativo | campo de praça e de origem |
 | 21. Parceiros | **fora** | decisão 28d |
@@ -203,7 +203,7 @@
 
 **[MOLDURA]:** catálogo F1 a F16 da seção 6 do plano da Gastro.
 
-**[AJUSTE DA DECISÃO 28]:** F1 sem desconto para o indicado (28c); F3 não se cria: a comunidade é o grupo de estudos existente (28g); F7 (co-marketing) e F14 (rede de clínicas) saem (28d); F10 ganha prazo natural (próxima turma em 3 a 4 meses, 28e); entra um formato novo de baixo esforço, **F17 oferta à base com 20%** (ex-alunos e alunos de Pós, por mídia paga e e-mail, 28a e 28b).
+**[AJUSTE DA DECISÃO 28]:** F1 sem desconto para o indicado (28c); F3 não se cria: a comunidade é o grupo de estudos existente (28g); F7 (co-marketing) e F14 (rede de clínicas) saem (28d); F10 ganha prazo natural (próxima turma em 3 a 4 meses, 28e); entra um formato novo de baixo esforço, **F17 oferta à base com 20%** (no plano da 698 o mesmo formato se chama B1; o cmo define um código único ao levar o ajuste à moldura) (ex-alunos e alunos de Pós, por mídia paga e e-mail, 28a e 28b).
 
 ### [289] Por que cada formato serve ao curso
 
@@ -336,22 +336,22 @@ Também abertos em outros planos: homonímia de Dr. Alessandro Martins com o CEO
 | Turma I (sem C1) | não: a turma atual é a II | C1 de Goiânia é pequeno [SUPOSIÇÃO] e pode ainda não existir se a turma I não concluiu; o peso vai para C3 e C4 com 20% |
 | Goiânia | sim | busca e rede trocam para Goiânia e Goiás; atendimento de vendas de Goiânia; C5 vazio (a Graduação de Goiânia é Pedagogia); persona P2 invertida [SUPOSIÇÃO]; canibalização com São Paulo |
 | Público diferente | não | P1 e P4 da persona; P2 invertida |
-| Promoção no catálogo | não há promoção no catálogo | o desconto de 20% para alunos e ex-alunos de Pós (28a) é a condição do curso; a prova de bolsa 68642 segue sem peça (decisão 14) e não acumula, pela ficha da prova |
+| Promoção no catálogo | não há promoção no catálogo | o desconto de 20% para alunos e ex-alunos de Pós (28a) é a condição do curso; a prova de bolsa 68642 segue sem peça (decisão 14); a ficha da prova diz que a bolsa não é acumulativa, e se isso impede somar a bolsa com os 20% é UC6 |
 | Turma que já começou | a turma II ainda não; a 68605 sim | depois de 20/03/2027, toda peça de entrada da turma II diz a regra completa do 3º módulo (decisão 18). A 68605 só é divulgável até a véspera do 3º módulo, com o texto de turma iniciada |
 
 ---
 
 ## Bloco de relacionamento [289] (versão curta)
 
-Moldura: segmentos, consentimentos e programas da estratégia de relacionamento da Gastro, com o ajuste da decisão 28: a base tem consentimento para novas oportunidades (28b), então a oferta de 20% a ex-alunos e alunos de Pós sai por e-mail e WhatsApp de campanha dentro do teto D16, nunca pelo canal de serviço.
+Moldura: segmentos, consentimentos e programas da estratégia de relacionamento da Gastro, com o ajuste da decisão 28: a base tem consentimento para novas oportunidades, e esse contato acontece hoje por mídia paga (28b); por e-mail e WhatsApp de campanha, a oferta de 20% a ex-alunos e alunos de Pós sai só para quem tem opt-in registrado naquele canal (L2, forma [CONFIRMAR] com o encarregado de dados), dentro do teto D16, nunca pelo canal de serviço.
 
 | Programa | No curso em Goiânia |
 |---|---|
 | Segmentos | C3 e C4 com 20%, prioridade para Goiânia; C1 indicador e público de eventos da área com 20%; C2 sem desconto, salvo se também for de Pós; C5 vazio; C8 sem desconto ao indicado |
 | Oferta à base (T1) | régua curta de e-mail e WhatsApp para alunos e ex-alunos de Pós, com a regra escrita do desconto (UC6), junto com o conjunto de mídia paga da base; teto D16 somando a régua da turma da onda 2 |
 | Aviso de turma | por praça: aviso da próxima turma de Cardiologia em Goiânia separado do aviso em São Paulo [texto a aprovar pelo encarregado]. Com abertura em 3 a 4 meses depois de uma turma confirmada (28e), o aviso tem prazo natural |
-| Carta da área | uma carta de Cardiologia Veterinária com bloco por praça; temas dos módulos; revisor docente obrigatório |
-| Comunidade | o grupo 68665 é a comunidade (28g); convite a quem não está nele só como conteúdo, sem expor números (L7) |
+| Carta da área | uma carta de Cardiologia Veterinária com bloco por praça; temas dos módulos; revisor docente obrigatório. Depende da UD10 do plano da 698 (carta única da área para Cardiologia e Ecocardiografia, por causa do teto D16): se ela for aprovada, o bloco de Goiânia entra na carta única. Vale também a regra de fila da área do plano da 698 (seção 3): o mesmo contato não recebe na mesma semana a régua de Cardiologia e a de Ecocardiografia, e a data mais próxima vem primeiro |
+| Comunidade | o grupo 68665 é a comunidade (28g); convite a quem não está nele só como conteúdo e só depois da liberação de peças de Livres (decisão 14; o 68665 é produto pago de Livres, R$ 100,00 no catálogo), sem expor números (L7) |
 | Convite ao T2 | sessão de ECG ao vivo, online; inscrição nunca exige aceitar campanha |
 | Indicação | link ou código, campo de praça no formulário do indicado; sem desconto ao indicado (28c) |
 
@@ -392,7 +392,7 @@ MP10 (bastidor da prática) depende de decisão da Ufape (S13).
 | D1 | 395 Curso de Eletrocardiograma em Pequenos Animais | online, 9 h | aberto (contínuo) | a coordenação é a única professora; aceita graduandos: só formado recebe campanha da Pós |
 | D1 | 411 Curso de Ecocardiograma em Pequenos Animais | online, 12 h | aberto (contínuo) | aceita graduandos, mesma regra |
 | D2 | 68665 Grupo de Estudos em Cardiologia e Ecocardiografia Veterinária | online, encontros a cada 15 dias | aberto | é a comunidade da área (28g); L7 |
-| D3 | 573 Curso Hands-On de Ecocardiografia Veterinária Básica | presencial em São Paulo, 28 h | aberto | degrau mais próximo de São Paulo [SUPOSIÇÃO] |
+| D3 | 573 Curso Hands-On de Ecocardiografia Veterinária Básica | semipresencial em São Paulo, 28 h (catálogo; pela ficha, 16 h de prática presencial e 12 h de teoria online gravada) | aberto | degrau mais próximo de São Paulo [SUPOSIÇÃO] |
 | D4 | Pós-graduação em Cardiologia Veterinária em Goiânia (turma II, 289) | semipresencial, 500 h | aberto | destino para quem escolhe Goiânia |
 | Vizinhas | 68605 (SP, turma iniciada), 698 (Ecocardiografia, SP), 659 ("verificar") | semipresenciais | ver seção 2.3 | não são degrau |
 
@@ -469,7 +469,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 **4. sabemos**
 - Título: O que **já sabemos**
 - Tópicos: 500 h, 24 módulos, semipresencial; 6 módulos presenciais, 4 de ecocardiograma; Mesmo programa e equipe de São Paulo; 20% para alunos e ex-alunos de Pós; Base com consentimento, trabalhada por mídia paga; Grupo de estudos da área já existe
-- Nota: A força do curso é a casa: o mesmo programa chegou à turma XI em São Paulo. E a base de ex-alunos já tem condição e canal.
+- Nota: O mesmo programa e a mesma equipe também formam turmas em São Paulo; usar o número da turma como prova de tradição ainda depende da Ufape. A base de ex-alunos já tem desconto definido e canal em uso.
 
 **5. lacunas**
 - Título: O que **ainda falta saber**
@@ -484,7 +484,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 **7. circulos-curso**
 - Título: Os círculos da **Cardiologia em Goiânia**
 - Tópicos: Ex-alunos de Pós de Goiânia com 20%; Alunos atuais de Pós com 20%; Ex-alunos de Cardiologia indicam; ECG, eco online e grupo de estudos; Turma de São Paulo só recebe conteúdo; Clínicos da região
-- Nota: O primeiro círculo de compra é a base de Goiânia de outras especializações: mesma cidade, desconto e consentimento. Ex-aluno de Cardiologia não compra de novo, indica.
+- Nota: Nossa aposta, ainda sem dado, é que o primeiro círculo de compra seja a base de Goiânia de outras especializações: mesma cidade, desconto e consentimento. Ex-aluno de Cardiologia não compra de novo, indica.
 
 **8. consentimento**
 - Título: Consentimento **por canal e por praça**
@@ -494,7 +494,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 **9. base**
 - Título: A base **com 20%**
 - Tópicos: Oferta a alunos e ex-alunos de Pós; Mídia paga e e-mail juntos; Aviso de turma por praça; Carta de Cardiologia; Grupo de estudos como comunidade; Indicação sem desconto ao indicado
-- Nota: A base deixa de ser só nutrição: tem condição clara e canal já em uso. O grupo de estudos existente cumpre o papel de comunidade.
+- Nota: A base deixa de ser só nutrição: tem desconto definido e canal já em uso; falta a regra escrita do desconto. O grupo de estudos existente cumpre o papel de comunidade.
 
 **10. canais**
 - Título: Mesmos canais, **conteúdo por praça**
@@ -524,7 +524,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 **15. parceiros**
 - Título: Parceiros **saem como canal**
 - Tópicos: Decisão da Ufape; Empresas fora do plano; Fica presença em congresso da área; Pauta técnica na imprensa; Conselho só institucional; Nenhuma troca de lista
-- Nota: Uma notícia diz que a entidade da especialidade foi habilitada a conceder título próprio; se estivermos em evento dela, esse título nunca se mistura com a Pós.
+- Nota: A entidade da especialidade e a agenda dela ainda precisam de confirmação antes de qualquer presença.
 
 **16. trilha**
 - Título: Do ECG online **à Pós**
@@ -584,7 +584,7 @@ Próximo passo: pedido da regra escrita do desconto (UC6) e aprovação do PC1 (
 - 20% para alunos e ex-alunos de Pós; base com consentimento trabalhada por mídia paga; sem desconto ao indicado; parceiros fora como canal; turmas recorrentes; foco no curso; grupos de estudo como comunidade (decisão 28).
 - Trilha: 395, 411, 68665, 573 abertos; 718 e 68622 em "verificar"; 698 aberto; a coordenação é a única professora do 395 (catálogo; fichas).
 - Prova 68642 em Goiânia, 27/11/2026, com endereço de São Paulo, frase ligada ao MEC e bolsa não acumulativa (ficha 68642).
-- Habilitação da SBCV pelo CFMV noticiada; Resolução 935/2009 revogada pela 1572/2023 (busca de 29/10/2026).
+- Habilitação da SBCV pelo CFMV noticiada pelo Panorama Pet Vet, sem ano claro e com vigência [CONFIRMAR]; revogação da Resolução 935/2009 pela 1572/2023 segundo a Legisweb (busca de 29/10/2026), [CONFIRMAR no CFMV].
 
 ## [SUPOSIÇÃO]
 
