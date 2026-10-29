@@ -4,7 +4,8 @@
 - **Linha:** pos
 - **Data:** 29/10/2026 (quinta-feira)
 - **Encomenda:** do cmo, na tabela "Próximo passo e encomendas da cadeia" de saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md (linha estrategia-de-midia). Pedido de origem do CEO em 29/10/2026. O nome do arquivo segue o que a encomenda indicou.
-- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). Vale para as próximas turmas do curso.
+- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). A estratégia é do curso, não de uma turma (decisão 28).
+- **Decisão 28 do CEO (29/10/2026), aplicada nesta revisão:** a base tem consentimento para contato sobre novas oportunidades e é trabalhada normalmente por mídia paga [CONFIRMAR a interpretação]: listas de clientes da base com esse consentimento deixam de estar bloqueadas; 20% de desconto para alunos e ex-alunos de Pós em Pós, simpósios e workshops; sem desconto para o indicado; parceiros saem como canal; a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação].
 - **Sem datas, sem anúncios, sem peças.** O plano de mídia da 68606 com fases, diárias e anúncios já existe (enxoval da turma, em saidas/11-midia-paga/) e não muda aqui. Este arquivo é a regra contínua: o que a paga faz, quando sobe algo, quando escala e quando para.
 - **Como ler:** cada seção traz dois blocos.
   - **[MOLDURA]**: vale para qualquer curso de Pós (com ajuste, para Livres e Eventos).
@@ -29,7 +30,7 @@
 ## 0. Resumo para quem decide
 
 1. **A paga não começa nada, ela recolhe e amplia.** No H1 (turma em captação) a paga usa os R$ 2.000,00 da turma para recolher intenção (busca de cauda) e quem a orgânica e a base já aqueceram (remarketing de engajamento), e amplia só o que o orgânico provou. No H2 (entre turmas) a paga fica parada por padrão: a verba é por turma no ciclo (decisão 15). O H2 só prepara públicos de graça (pixel e tags vivos) para a próxima turma começar com remarketing pronto.
-2. **Círculos C1 a C8 não são alvo direto da paga.** Sem base legal registrada (UA4), nenhuma lista de clientes sobe para Meta ou Google, nem para exclusão. A paga só alcança esses círculos quando eles mesmos visitam o site ou engajam no perfil (público de engajamento, K4). O alvo direto é o C9 (frio), pela busca de cauda e, antes do início da turma, pelo criativo que o orgânico provou.
+2. **Círculos C1 a C4 passam a ser alcançados pela paga com a base com consentimento (decisão 28).** A Ufape já trabalha a base por mídia paga; a lista de clientes com consentimento para novas oportunidades pode subir para Meta e Google como público e como exclusão; o registro formal da base legal segue [CONFIRMAR] (UA4). Os demais círculos são alcançados por engajamento (K4). O alvo direto é o C9 (frio), pela busca de cauda e, antes do início da turma, pelo criativo que o orgânico provou.
 3. **As cinco ligações viram regras com gatilho, o que sobe e quando escalar ou parar.** Todo critério compara a conta com ela mesma e usa as regras já aprovadas da linha (volume mínimo de 1,5 vez o CPL máximo e 3 dias, 2 semanas fechadas, passos de até 20%, uma mudança por vez).
 4. **Canais:** Meta (Instagram e Facebook) e Google Busca ativos; YouTube pago, Performance Max, LinkedIn pago e TikTok fora nesta verba, cada um com o que o faria voltar.
 5. **T3 pago (docente como mídia):** anúncio de parceria pelo perfil do docente, rodando lado a lado com o mesmo conteúdo pelo perfil da Ufape. Fatia: até 10% da verba da turma, dentro do teto de 30% para testes que a linha já usa, e só se o saldo comprar ao menos 10 leads de cada lado ao CPL observado. Sem isso, o teste fica para a próxima turma, porque o resultado sairia inconclusivo.
@@ -52,17 +53,17 @@
 
 ### 1.2 [MOLDURA] Por círculo
 
-Regra de fundo: público de lista de clientes (K5) fica fechado até a base legal registrada pelo encarregado de dados (LGPD-L6, N12, UA4). Isso vale também para listas de exclusão e para públicos semelhantes a partir de lista. Público de engajamento (K4) depende do aviso e do aceite de cookies e pixel no site [CONFIRMAR banner]. Idade mínima de 25 anos, sem máxima, em toda mídia da Pós (decisão 24). Nenhuma segmentação por característica pessoal.
+Regra de fundo: público de lista de clientes (K5) fica liberado para a base com consentimento para novas oportunidades, que a Ufape já trabalha por mídia paga (decisão 28); o registro formal da base legal pelo encarregado de dados segue [CONFIRMAR] (LGPD-L6, N12, UA4). Público semelhante a partir de lista só com decisão do cmo. Público de engajamento (K4) depende do aviso e do aceite de cookies e pixel no site [CONFIRMAR banner]. Idade mínima de 25 anos, sem máxima, em toda mídia da Pós (decisão 24). Nenhuma segmentação por característica pessoal.
 
 | Círculo | O que a paga faz | O que a paga não faz | Como alcança (sem lista) |
 |---|---|---|---|
-| C1. Ex-alunos do curso | nada direcionado. Se engajam com conteúdo ou visitam a página, caem no remarketing como qualquer visitante | não sobe lista de ex-alunos (nem para excluir, nem para semelhante) até UA4; não anuncia benefício de indicação ou desconto de ex-aluno até UD1 e UD2 | indireto, por engajamento e visita |
+| C1. Ex-alunos do curso | nada direcionado. Se engajam com conteúdo ou visitam a página, caem no remarketing como qualquer visitante | lista de ex-alunos com consentimento pode subir como público (decisão 28); semelhante só com decisão do cmo; o desconto de 20% de ex-aluno de Pós (decisão 28) só aparece com o texto-padrão de condições; benefício de indicação só depois de UD1; sem desconto para o indicado | indireto, por engajamento e visita |
 | C2. Compradores da área em Livres e Eventos | remarketing de visitantes das páginas dos produtos da área, porque visitar a página é ação do próprio contato | não cita crédito, combo ou desconto da ponte Livres para Pós (D7); não aponta para página com correção pendente (decisão 13); não fala com graduando (idade mínima e público formado) | público de visitantes das páginas dos produtos da área (K4) |
 | C3. Alunos atuais | nada. Sempre que possível, exclusão de quem já se matriculou pelo evento de conversão do site (página de confirmação), que é público de engajamento e não lista | nunca oferta de compra de outra Pós a aluno em curso; nunca lista de alunos | exclusão por evento de conversão (K4) |
 | C4. Ex-alunos de outros cursos | nada direcionado | não usa visita a páginas de outras áreas como "interesse" na área do curso (a estratégia de relacionamento só aceita interesse declarado; a paga segue a mesma regra por coerência) [SUPOSIÇÃO de desenho] | indireto, por engajamento com conteúdo da área |
 | C5. Graduação | nada | nenhum anúncio de Pós; exclusão dos visitantes das páginas da Graduação nos públicos de remarketing da Pós [SUPOSIÇÃO de desenho; origem: aluno de Graduação pode ser menor e não é público da Pós] | exclusão por visita (K4) |
 | C6. Docentes | amplia o conteúdo do docente: anúncio de parceria pelo perfil dele (T3, seção 4) | não paga docente por post sem aprovação e sem contrato; não cria anúncio no nome do docente sem o aceite dele por peça | conteúdo do docente como criativo |
-| C7. Parceiros | lê e recolhe quem chegou pelo link com UTM do parceiro (vira visitante como qualquer outro) | não compra lista; não paga conteúdo patrocinado em portal com a verba da turma (é pedido separado de verba) | visitante com UTM `parceiro-<nome>` |
+| C7. Parceiros (fora como canal pela decisão 28: na prática, empresas) | nada direcionado; se alguém chegar por link com UTM de parceiro, vira visitante como qualquer outro | não compra lista; não paga conteúdo patrocinado em portal com a verba da turma (é pedido separado de verba) | visitante com UTM `parceiro-<nome>` |
 | C8. Indicação | nada direcionado | nenhum anúncio de programa de indicação antes da regra aprovada (UD1) | indicado vira visitante e entra no remarketing normal |
 | C9. Frio | alvo principal: busca de cauda da área e da cidade; antes do início da turma, Meta frio com o criativo provado no orgânico | não testa ângulo novo do zero; não usa termo curto caro; depois do início da turma, sem frio (regra da linha, gestor-de-midia-pos, 13.2) | busca e segmentação ampla da Meta com idade mínima de 25 anos |
 
@@ -113,7 +114,7 @@ Regra de fundo: público de lista de clientes (K5) fica fechado até a base lega
 
 Regra do método: canal que não gera volume para decidir em 2 ou 3 semanas fica fora ou concentra verba. Com R$ 2.000,00 por turma, a linha já concentra em Meta e Google Busca (gestor-de-midia-pos, 12.6).
 
-| Canal | Status | Papel | Por quê | Públicos permitidos (sem lista de clientes até UA4) | O que faria mudar |
+| Canal | Status | Papel | Por quê | Públicos permitidos (engajamento e, pela decisão 28, a base com consentimento) | O que faria mudar |
 |---|---|---|---|---|---|
 | Meta (Instagram e Facebook) | **ativo** | ampliar o que o orgânico provou (L1); recolher engajados e visitantes (L2); anúncio de parceria com docente (L5, T3) | perfil @ufapevet em uso; principal superfície da persona [SUPOSIÇÃO da estrategia-social]; concentra a verba com o Google | visitantes do site por página (turma, área, produtos da área); engajados do perfil do Instagram e da página do Facebook; quem viu vídeo; quem abriu formulário e não enviou; exclusões: quem converteu e visitantes da Graduação. Frio: ampla com idade mínima de 25 anos e região da turma, sem característica pessoal | nada; é a base da paga |
 | Google Busca | **ativo** | recolher intenção (busca de cauda da área e da cidade, marca); ensinar a busca orgânica (L4) | nicho com pouca disputa visível (S15 do plano) e intenção declarada; menor dependência de criativo | palavras-chave de maior intenção e de marca; remarketing para anúncios de pesquisa (RLSA) com visitantes do site, se a lista passar do mínimo da plataforma [CONFIRMAR mínimo]; idade mínima de 25 anos onde a plataforma permitir | nada; é a base da paga |
@@ -139,7 +140,7 @@ Regra do método: canal que não gera volume para decidir em 2 ou 3 semanas fica
 
 Retenção máxima de cada tipo de público e tamanho mínimo para entregar: [CONFIRMAR na política vigente de cada plataforma]. Todos dependem do aceite de cookies e pixel no site [CONFIRMAR banner, K4].
 
-**Listas de clientes (K5): fechadas.** Quando a UA4 for registrada, o primeiro uso proposto é **exclusão** (alunos e ex-alunos que o relacionamento já alcança), não público semelhante. Semelhante a partir de lista só depois, com decisão do cmo [SUPOSIÇÃO de desenho; origem: exclusão reduz desperdício sem ampliar o uso do dado].
+**Listas de clientes (K5): liberadas para a base com consentimento (decisão 28).** O primeiro uso proposto é **exclusão** (alunos e ex-alunos que o relacionamento já alcança), não público semelhante. Semelhante a partir de lista só depois, com decisão do cmo [SUPOSIÇÃO de desenho; origem: exclusão reduz desperdício sem ampliar o uso do dado].
 
 ### 3.3 [GASTRO]
 
@@ -252,7 +253,7 @@ Leitura honesta: as referências de CPL dos EUA ficam muito acima dos CPL máxim
 - **H1 da 68606:** sem redistribuição. A diária segue a seção 13.1 do gestor-de-midia-pos; o saldo depende de G [CONFIRMAR, PP15]. Leitura de leads antes e depois do início, separados (gestor-de-midia-pos, 12.8).
 - **Mmid da próxima turma de Gastro:** sai da origem somada das matrículas da 68606 (relatório de encerramento, tabela 13.6 do gestor-de-midia-pos, mais o campo "origem"). Se, por exemplo, parte da 68606 vier de C1, C2 e indicação, o Mmid da turma X cai e o CPL máximo sobe na proporção (conta de método, sem valor previsto).
 - **H2 de Gastro:** zero, salvo PM4.
-- **Primeira comparação útil:** turma IX contra turmas anteriores, se a Ufape tiver a origem somada (UN2).
+- **Primeira comparação útil:** a turma em captação contra turmas anteriores, se a Ufape tiver a origem somada (UN2).
 
 ---
 
@@ -262,7 +263,7 @@ Leitura honesta: as referências de CPL dos EUA ficam muito acima dos CPL máxim
 
 | # | Decisão | Trava |
 |---|---|---|
-| UA4 | Base legal registrada pelo encarregado de dados para listas de clientes em Meta e Google (inclusive para exclusão) | K5, exclusão de alunos e ex-alunos por lista |
+| UA4 | Registro formal da base legal pelo encarregado de dados para listas de clientes em Meta e Google; em parte respondido pela decisão 28 (a base tem consentimento e já é trabalhada por mídia paga) | K5, exclusão de alunos e ex-alunos por lista |
 | UD6 | Uso de anúncio de parceria pelo perfil do docente dentro da verba da turma; quais docentes aceitam (DP6) | T3 pago |
 | UD7 | Se haverá verba para paga entre turmas (H2), quanto e quem aprova | qualquer gasto no H2 |
 | UD5 | Página da área com "avise-me" | PE2, destino do H2 |
@@ -294,7 +295,7 @@ Leitura honesta: as referências de CPL dos EUA ficam muito acima dos CPL máxim
 | PM2 | públicos de remarketing sem exclusão de quem converteu e de visitantes da Graduação [CONFIRMAR na estrutura atual] | incluir PE7 e PE8 como exclusões nos conjuntos de remarketing das turmas da Pós, inclusive 68606, como uma mudança por conjunto | menos gasto com aluno e com público fora do perfil | remover as exclusões |
 | PM3 | T3 só no orgânico | aprovar o T3 pago com a fatia e a condição de volume da seção 4.3, dentro da verba da turma, depois de UD6 e J1 | primeira leitura de custo por lead pelo perfil do docente contra o da marca | pausar os dois anúncios e retirar a parceria |
 | PM4 | H2 sem verba (decisão 15) | **pedido de aprovação ao cmo, separado:** decidir se haverá verba para captar lista de espera ou sessão ao vivo entre turmas (UD7); valor a definir pela Ufape, nenhum valor proposto aqui | se aprovado, base da área crescendo entre turmas também pela paga | não gastar; a regra volta a zero no H2 |
-| PM5 | listas de clientes fechadas | quando a UA4 for registrada, primeiro uso como exclusão (seção 3.2), semelhante só com nova decisão | menos gasto em quem o relacionamento já alcança | retirar a lista da conta |
+| PM5 | listas de clientes da base com consentimento (decisão 28) | primeiro uso como exclusão (seção 3.2), semelhante só com nova decisão | menos gasto em quem o relacionamento já alcança | retirar a lista da conta |
 
 Recomendação do gestor-de-midia ao cmo: aprovar PM1 e PM2 agora (sem custo); PM3 depois de UD6 e J1; PM4 só quando houver próxima turma no catálogo ou página da área no ar, porque antes disso a verba não teria destino; PM5 depende da UA4.
 
@@ -318,7 +319,7 @@ Recomendação do gestor-de-midia ao cmo: aprovar PM1 e PM2 agora (sem custo); P
 - [x] Canais ativados e fora com motivo (seção 3.1).
 - [x] Metas escritas antes de subir: as da linha, sem reescrita (decisões 15 e 16; gestor-de-midia-pos, 12).
 - [x] Verba dentro do aprovado; verba H2 só como pedido separado (PM4).
-- [x] Sem lista de clientes sem base legal; só públicos de engajamento (seção 3.2).
+- [x] Lista de clientes só da base com consentimento para novas oportunidades (decisão 28); registro formal da base legal [CONFIRMAR]; demais públicos por engajamento (seção 3.2).
 - [x] Nenhum público com menores de 18 anos; idade mínima de 25 anos (decisão 24).
 - [x] Post de docente promovido só com aceite e identificação de parceria (seção 4.2).
 - [x] Nenhum número de mídia inventado; observados são [DADO NÃO FORNECIDO] ou [CONFIRMAR].

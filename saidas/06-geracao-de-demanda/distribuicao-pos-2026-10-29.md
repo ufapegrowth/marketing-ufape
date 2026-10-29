@@ -4,7 +4,8 @@
 - **Linha:** pos
 - **Data:** 29/10/2026
 - **Encomenda:** do cmo, na seção "Próximo passo e encomendas da cadeia" do plano saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md. Pedido de origem do CEO em 29/10/2026.
-- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). Vale também para as próximas turmas do curso.
+- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). A distribuição é do curso, não de uma turma (decisão 28).
+- **Decisão 28 do CEO (29/10/2026), aplicada nesta revisão:** parceiros são, na prática, empresas, e o canal 21 sai (fora); com ele saem os formatos F7 (co-marketing) e F14 (rede de clínicas parceiras), cujas seções ficam só como registro; grupos de estudo já existem e servem de comunidade (canal 18 ativo); 20% de desconto para alunos e ex-alunos de Pós em Pós, simpósios e workshops; a base tem consentimento para novas oportunidades e é trabalhada normalmente por mídia paga [CONFIRMAR a interpretação]; sem desconto para o indicado; a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação].
 - **Sem datas, sem peças, sem textos de anúncio, de convite ou de mensagem.** Este arquivo é estratégia de distribuição: quem faz, de onde vem a matéria-prima, por onde sai, como mede. Os convites nativos por espaço e o checklist por peça só existem depois que houver peça aprovada (rodada seguinte da cadeia).
 - **Como ler:** cada seção traz dois blocos.
   - **[MOLDURA]**: vale para qualquer curso de Pós (com ajuste, para Livres e Eventos).
@@ -25,12 +26,12 @@
 ## 0. Resumo para quem decide
 
 1. **A capilaridade vem da cadeia, não do número de canais.** Cada matéria-prima de valor (uma sessão ao vivo gravada, um episódio, um conteúdo de docente, um caso do cronograma) é produzida e revisada uma vez e alimenta de 5 a 17 canais diferentes do mapa. Seção 2 mostra 7 cadeias e quantos canais cada uma alcança.
-2. **21 canais entram** (13 ativos e 8 em teste, do mapa do plano). Para cada um, a seção 1 diz que matéria-prima recebe, em que formato sai, quem faz e como mede. Os 3 canais fora (TikTok, X, agregadores) continuam fora, com o motivo do plano.
-3. **Mapa de parceiros do C7 com 10 tipos.** Cada tipo tem oferta, pedido, risco e a regra de dados L4: a Ufape nunca recebe lista do parceiro, o parceiro divulga para a própria base com link e UTM da Ufape, e o lead entra pelo formulário da Ufape. Nada de parceria sem acordo registrado.
+2. **20 canais entram** (14 ativos e 6 em teste, do mapa do plano revisto pela decisão 28). Para cada um, a seção 1 diz que matéria-prima recebe, em que formato sai, quem faz e como mede. Os 4 canais fora (TikTok, X, agregadores e parceiros, este pela decisão 28) ficam fora, com o motivo do plano.
+3. **Mapa de parceiros do C7 com 10 tipos (fora pela decisão 28: parceiros são, na prática, empresas; o mapa fica como registro e não entra em execução).** Cada tipo tem oferta, pedido, risco e a regra de dados L4: a Ufape nunca recebe lista do parceiro, o parceiro divulga para a própria base com link e UTM da Ufape, e o lead entra pelo formulário da Ufape. Nada de parceria sem acordo registrado.
 4. **Nomes de entidades só com fonte.** Achados: a Associação Brasileira de Gastroenterologia Animal (ABRAGA), citada nos anais de um congresso internacional da área; um congresso comercial de Gastroenterologia Veterinária em São Paulo (4ª edição, 2026); a Anclivepa-SP (que também é concorrente da linha); três veículos da área. Todos com [CONFIRMAR].
 5. **Ponto que o cmo precisa saber:** a fonte do 2º Congresso Internacional de Gastroenterologia Animal (2025) cita como diretora científica uma pessoa com nome compatível, mas não idêntico, ao da coordenação da 68606. Se for a mesma pessoa, a ABRAGA deixa de ser um parceiro frio e vira a porta mais forte do C7, mas também exige cuidado com conflito de interesse. Não foi afirmado em nenhum lugar deste plano. Seção 3.4.
 6. **Trilha da área (F4) com 5 degraus** reais do catálogo (455, 669, 721, 291, 68637) até a Pós 68606, sem crédito, sem combo e sem desconto de ponte (D7). A página 623 fica fora até a correção (decisão 13). O risco de canibalização é medido, não ignorado.
-7. **F2, F5 e F14 têm operação desenhada** com papéis, fontes de matéria-prima, saídas, medidas, pré-requisitos e como desfazer. Todos dependem de decisões da Ufape listadas na seção 8.
+7. **F2 e F5 têm operação desenhada; F14 sai pela decisão 28 e fica só como registro.** Os três tiveram operação desenhada com papéis, fontes de matéria-prima, saídas, medidas, pré-requisitos e como desfazer. Todos dependem de decisões da Ufape listadas na seção 8.
 8. **O que trava:** horas e nomes (quem grava, quem revisa, quem aprova), lista de parceiros e clínicas de estágio, regras do estágio, abertura da sessão a não alunos, página da área, formato de comunidade que não exponha telefone. Seção 8.
 
 ---
@@ -55,7 +56,7 @@ Matéria-prima é qualquer ativo de conteúdo com valor próprio que pode virar 
 | MP10 | Bastidor da prática (aulas práticas dos módulos presenciais do curso; em Gastro, ver seção 1.3) | módulos presenciais; Ufape Clínica | 12 Vídeo e Áudio | sem paciente, tutor ou clínica identificável; imagem de aluno só com autorização [CONFIRMAR regra de imagem em aula prática]; se a ficha do curso disser que aulas presenciais e práticas não são transmitidas nem disponibilizadas (caso da 68606), gravar bastidor depende de decisão da Ufape (DP9) |
 | MP11 | Conteúdo co-assinado com parceiro (F7) | indústria, laboratório, clínica, entidade | 06 Demanda, 04 Conteúdo | acordo registrado; revisão docente; marca comercial em conteúdo clínico só com revisão (C7 do plano) |
 
-### 1.2 [MOLDURA] Mapa dos 21 canais ativos e em teste
+### 1.2 [MOLDURA] Mapa dos canais ativos e em teste (20 depois da decisão 28; o canal 21 ficou como registro, com status fora)
 
 Status e numeração do mapa de 24 canais do plano (seção 4). O formato descrito é o tipo de saída, nunca a peça. "Mede" repete só o que o plano já definiu na seção 7 e acrescenta o indicador de capilaridade.
 
@@ -76,10 +77,10 @@ Status e numeração do mapa de 24 canais do plano (seção 4). O formato descri
 | 13 | LinkedIn (perfil de docente) | testar | MP3, MP9, MP2 | texto cedido ao docente para o perfil dele, com link UTM do docente; página da Ufape fora até confirmar que existe | 05 Social | posts publicados pelo docente, cliques UTM por docente |
 | 16 | Google Ads (busca) | ativo | termos de MP5 que convertem; MP6 | anúncio de busca para cauda da área e da cidade; página de destino com a resposta | 11 Mídia (gestor-de-midia) | custo por lead, inscrição e matrícula; termos negativos |
 | 17 | Meta Ads | ativo | criativos que o orgânico provou (MP3, MP1 e MP2 em corte, MP10); remarketing de quem viu | anúncio de remarketing de engajamento; ampliação de conteúdo de docente (F6) | 11 Mídia | custo por conversa e por lead; leitura contra o anúncio da marca (T3) |
-| 18 | Comunidades (estudos da área, discussão de casos, ex-alunos) | testar | MP1, MP3, MP4, MP7 | espaço com curadoria de docente; formato que não exponha telefone (L7) | 05 Social e 07; dono da moderação é decisão da Ufape (UD4) | participantes ativos, indicações com origem comunidade |
+| 18 | Comunidades (grupos de estudo da Ufape, discussão de casos; os grupos de estudo já existem e servem de comunidade, decisão 28) | ativo | MP1, MP3, MP4, MP7 | espaço com curadoria de docente; formato que não exponha telefone (L7) | 05 Social e 07; dono da moderação é decisão da Ufape (UD4) | participantes ativos, indicações com origem comunidade |
 | 19 | Eventos e aulas abertas da Ufape | testar | MP1 (a própria sessão), MP3, MP4 | sessão ao vivo (F2) e, mais tarde, evento próprio da linha Eventos (F15) | 06 Demanda; linha Eventos | inscritos, presentes, novos consentimentos, conversas de venda |
 | 20 | Time de vendas | ativo | MP5, MP6, trechos de MP1 e MP2 | kit de respostas, links, campo "como conheceu" e círculo de origem | time de vendas, com 07 e 09 | rastreio completo, primeira resposta, origem por círculo |
-| 21 | Parceiros | testar | MP9, MP11, MP3, MP8 | conteúdo co-assinado, palestra, convite ao T2 para a base do parceiro | 06 Demanda | visitas e leads por UTM do parceiro |
+| 21 | Parceiros (fora pela decisão 28: na prática, empresas) | fora | MP9, MP11, MP3, MP8 | conteúdo co-assinado, palestra, convite ao T2 para a base do parceiro | 06 Demanda | visitas e leads por UTM do parceiro |
 | 22 | Imprensa e portais da área | testar | MP3, MP4, MP1 | pauta técnica com docente, artigo assinado, entrevista | 03 (links-e-autoridade) e 04 | citações, links, visitas UTM |
 | 23 | Congressos e eventos externos | testar | MP9, MP3, MP8 | palestra de docente, material de referência, captura por formulário próprio | 06 Demanda | leads por UTM do evento |
 
@@ -96,7 +97,7 @@ Fora do mapa de distribuição, com o motivo do plano mantido: **14 TikTok** (se
 | 13 | perfil da coordenação e de docentes de áreas cruzadas que aceitarem |
 | 18 | o grupo de estudos 721 já é comunidade paga da área; o "grupo para discussão de casos" dos alunos é prova da Pós (S8), mas as regras são [CONFIRMAR] (N5) |
 | 19 | as "aulas abertas" dos módulos 8, 15 e 19 do cronograma (S9) são a matéria-prima natural; abertura a não alunos é [CONFIRMAR] (UD3) |
-| 21 a 23 | ABRAGA e congresso (seção 3), clínicas de estágio (F14), indústria de nutrição clínica e de endoscopia, laboratórios de patologia |
+| 21 a 23 | Canal 21 fora pela decisão 28. ABRAGA e congresso (seção 3, só como presença em evento, canal 23), clínicas de estágio (F14, fora), indústria de nutrição clínica e de endoscopia, laboratórios de patologia |
 
 ---
 
@@ -217,6 +218,8 @@ Alcança 6 canais do mapa, mas só com acordo registrado e com a captura sempre 
 ---
 
 ## 3. Mapa de parceiros do círculo C7
+
+**Decisão 28 do CEO (29/10/2026):** parceiros, na prática, são empresas, e o canal não faz muito sentido. Esta seção fica como registro e não entra em execução; a presença em congressos da área (canal 23) segue como teste.
 
 ### 3.1 [MOLDURA] Regras que valem para qualquer parceiro
 
@@ -409,6 +412,8 @@ Dados do catálogo (seções 2, 4, 5 e 7), sem preço (D7 e regra de preço só 
 
 ## 7. Operação de F14: rede de clínicas parceiras
 
+**Fora pela decisão 28 do CEO (29/10/2026).** A seção fica como registro e não entra em execução.
+
 ### 7.1 [MOLDURA] Desenho operacional
 
 | Item | Definição |
@@ -492,7 +497,7 @@ Os indicadores por círculo, canal e matrícula são os da seção 7 do plano do
 | AD1 | Aprovar as sete cadeias e a ordem de uso do piloto (seção 2.3) | orientar a produção por capilaridade | sem custo direto; horas da equipe [CONFIRMAR] | cada matéria-prima rende em vários canais | voltar à produção por canal |
 | AD2 | Aprovar o mapa de parceiros do C7 e o fluxo da seção 3.5 como regra (nenhum contato antes) | padronizar L4 e o acordo | sem custo direto | parcerias com regra de dados clara | não contactar parceiros |
 | AD3 | Autorizar a Ufape a perguntar à coordenação sobre a ABRAGA | conferir a coincidência de nome (seção 3.4) | sem custo | abre P3 e P6 ou descarta | não perguntar |
-| AD4 | Aprovar a operação de F2, F5 e F14 como desenho (sem agenda) | liberar o próximo passo da cadeia | horas da coordenação e dos docentes [CONFIRMAR] | base nova e matéria-prima | não executar |
+| AD4 | Aprovar a operação de F2 e F5 como desenho (sem agenda); F14 saiu pela decisão 28 | liberar o próximo passo da cadeia | horas da coordenação e dos docentes [CONFIRMAR] | base nova e matéria-prima | não executar |
 | AD5 | Aprovar a trilha da área (seção 4) e a regra "sem crédito, sem combo" | alimentar C2 sem canibalizar | sem custo direto | passagens medidas | retirar blocos de trilha |
 
 ---
@@ -516,7 +521,7 @@ Depois, quando houver peça aprovada: distribuicao volta para escrever convites 
 **auditorias/conformidade-educacional.md**
 - [x] Dados de curso só do catálogo: nome, modalidade, carga horária, turma, status (seção 4.3). Nenhum preço citado. Nenhum ato regulatório citado.
 - [x] Nenhuma frase de certificação ligada ao MEC.
-- [x] Nenhum benefício, desconto ou bolsa afirmado; condições de parceiro e de trilha como opção a decidir.
+- [x] Nenhum benefício, desconto ou bolsa afirmado além do desconto de 20% de aluno e ex-aluno de Pós (decisão 28); condições de trilha como opção a decidir; sem desconto para o indicado.
 - [x] Sem urgência falsa; nenhuma data de campanha neste plano. Datas citadas são de fontes externas (eventos já ocorridos) e do catálogo.
 - [x] LGPD: só números somados; L4 aplicada por tipo de parceiro; consentimento separado por finalidade (via estratégia de relacionamento).
 - [x] Docentes só com nome e titulação da ficha; nomes de terceiros das fontes não copiados; a seção 3.4 descreve a coincidência de nome sem copiar o nome (marcado [CONFIRMAR]).

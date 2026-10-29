@@ -4,7 +4,8 @@
 - **Linha:** pos
 - **Data:** 29/10/2026 (quinta-feira)
 - **Pedido do CEO (29/10/2026):** plano estratégico de divulgação de cada curso, pensando em mídia paga e orgânica, sem datas e sem materiais, explorando novos formatos, a base de alunos e ex-alunos e toda a capilaridade de canais. Começa pela Pós-graduação em Gastroenterologia Veterinária para validar; depois vale para os outros cursos.
-- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). O plano vale para esta turma e para as próximas turmas do curso.
+- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). O plano é do curso, não de uma turma (decisão 28): vale para a turma em captação e para as próximas.
+- **Decisão 28 do CEO (29/10/2026), aplicada nesta revisão:** 20% de desconto para alunos e ex-alunos de Pós em Pós, simpósios e workshops; a base tem consentimento para contato sobre novas oportunidades e é trabalhada normalmente por mídia paga [CONFIRMAR a interpretação]; sem desconto para o indicado; parceiros (na prática, empresas) saem como canal; a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação]; grupos de estudo já existem e servem de comunidade.
 - **O que não entra aqui:** datas, calendário, peças, textos de anúncio e roteiros. Isso já existe no enxoval da 68606 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, cmo-pos-2026-10-28-apresentacao-68606.md e saídas da cadeia).
 - **Como ler:** cada seção traz dois blocos, separados por etiqueta.
   - **[MOLDURA]**: vale para qualquer curso de Pós (e, com ajuste, para Livres e Eventos). Não muda de curso para curso.
@@ -33,7 +34,7 @@
 1. **A mudança de lógica:** o enxoval da 68606 resolveu o lançamento. Este plano resolve o que acontece entre um lançamento e outro: a Pós-graduação em Gastroenterologia Veterinária passa a ter divulgação contínua, apoiada primeiro em quem já conhece a Ufape e só depois em quem nunca ouviu falar dela.
 2. **Métrica que o plano move:** matrículas pagas por turma do curso (1ª mensalidade paga, decisão 25), com meta de 30 ou mais por turma e mínimo de 15 para confirmar a turma (decisões 11 e 27). Métricas de antecipação: inscrições pagas, interessados na área com consentimento e participação de cada círculo nas matrículas. Nenhum valor-alvo novo foi inventado.
 3. **Nove círculos de alcance**, do mais quente ao mais frio. Para Gastro, os dois mais promissores são os ex-alunos das oito turmas anteriores (a 68606 é a turma IX) e quem comprou os produtos de Gastroenterologia da linha Livres (grupo de estudos 721, mini cursos 455 e 669, imersão 291, imersão presencial em endoscopia digestiva). O tamanho de cada círculo é [CONFIRMAR].
-4. **Capilaridade:** 24 canais mapeados: 13 ativos (o YouTube com condição), 8 em teste e 3 fora, cada um com motivo e departamento responsável.
+4. **Capilaridade:** 24 canais mapeados: 14 ativos (o YouTube com condição), 6 em teste e 4 fora (decisão 28: comunidades entram como ativo pelos grupos de estudo existentes; parceiros saem), cada um com motivo e departamento responsável.
 5. **Divisão de papéis:** a orgânica forma a base e a prova (docentes, casos, podcast, busca); a paga amplia o que a orgânica já provou e recolhe quem demonstrou interesse (busca de cauda e remarketing). A verba de R$ 2.000,00 por turma (decisão 15) não muda.
 6. **Três testes primeiro:** (T1) programa de indicação de ex-alunos e alunos; (T2) caso clínico ao vivo com a coordenação, aberto à base; (T3) docente como mídia, com post em parceria no orgânico e um teste pequeno de anúncio pelo perfil do docente.
 7. **O que trava:** tamanho e consentimento da base, origem das matrículas das turmas anteriores, regra de desconto de ex-aluno, decisão sobre recompensa de indicação e sobre abrir aula ao público, lista de parceiros. Tudo na seção 8.
@@ -98,18 +99,18 @@
 
 | # | Lacuna | Por que pesa | Quem responde |
 |---|---|---|---|
-| N1 | Quantos ex-alunos de Gastroenterologia (turmas I a VIII), quantos compradores dos produtos de Gastro de Livres e quantos têm consentimento de e-mail e WhatsApp | define se o círculo mais quente é grande ou pequeno | Ufape (CRM, só números somados) |
+| N1 | Quantos ex-alunos de Gastroenterologia (turmas I a VIII), quantos compradores dos produtos de Gastro de Livres e quantos têm consentimento de e-mail e WhatsApp | define se o círculo mais quente é grande ou pequeno; o consentimento para novas oportunidades existe (decisão 28), o tamanho segue [CONFIRMAR] | Ufape (CRM, só números somados) |
 | N2 | De onde vieram as matrículas das turmas anteriores (indicação, ex-aluno, mídia, busca, docente) | diz qual círculo já funciona | Ufape (CRM ou pesquisa com a secretaria, só somado) |
-| N3 | Regra de desconto para aluno e ex-aluno de pós | sem regra, o programa de ex-aluno não tem oferta | Ufape (proposta PR6 da estrategia-de-oferta) |
+| N3 | Regra de desconto para aluno e ex-aluno de pós | respondido pela decisão 28: 20% em Pós, simpósios e workshops | Ufape (respondido) |
 | N4 | O que são as "aulas abertas" do cronograma e se podem receber não alunos | define o formato T2 | coordenação e Ufape |
 | N5 | Regras do estágio em cooperação e do grupo de discussão de casos | são provas fortes que hoje não podem ir para peça | coordenação |
-| N6 | Parceiros e patrocinadores (o bloco da página está vazio) | define o círculo de parceiros | Ufape |
-| N7 | Data e número da próxima turma; destino da prova 68650 | sem isso, o H2 não tem chamada de compra | Ufape |
+| N6 | Parceiros e patrocinadores (o bloco da página está vazio) | respondido pela decisão 28: parceiros são, na prática, empresas, e o canal sai do plano | Ufape (respondido) |
+| N7 | Data e número da próxima turma; destino da prova 68650 | em parte respondido pela decisão 28: a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação]; a data exata e o destino da prova seguem [CONFIRMAR] | Ufape |
 | N8 | Se a Ufape Clínica atende casos de Gastroenterologia por encaminhamento de colegas | se sim, quem encaminha é um círculo quente que hoje não está mapeado | Ufape |
 | N9 | Horas do time, quem grava, quem aprova cada tipo de peça, revisor docente | define quantos canais cabem com qualidade | Ufape (U8 e tabela de aprovação vazia em ufape-geral.md) |
 | N10 | Se existem canal de YouTube, página de LinkedIn e perfil de TikTok da Ufape | define status de 3 canais | Ufape |
 | N11 | Se a Graduação em Medicina Veterinária (autorizada em 13/03/2025) já tem egressos | define se existe o círculo "ex-aluno da Graduação" | Ufape; pela data do ato, provavelmente ainda não [SUPOSIÇÃO] |
-| N12 | Base legal registrada para usar a base de ex-alunos em marketing e para subir listas na Meta e no Google | sem isso, nenhum envio e nenhum público personalizado | encarregado de dados da Ufape |
+| N12 | Base legal registrada para usar a base de ex-alunos em marketing e para subir listas na Meta e no Google | em parte respondido pela decisão 28: a base tem consentimento para contato sobre novas oportunidades e é trabalhada normalmente por mídia paga; o registro formal da base legal segue [CONFIRMAR] | encarregado de dados da Ufape |
 
 ---
 
@@ -126,7 +127,7 @@
 - L3. Mensagem de serviço (secretaria, aula, documento) não carrega campanha. O canal da secretaria não vira canal de venda.
 - L4. Nunca comprar, alugar, trocar ou raspar lista (inclusive registros públicos de conselhos). Parceiro divulga para a base dele, com link e UTM da Ufape; o lead entra pelo formulário da Ufape, com finalidade e política de privacidade.
 - L5. Indicação: quem indica manda o link ou o código; a Ufape não recebe telefone de terceiro sem o consentimento dele.
-- L6. Público personalizado e semelhante na Meta e no Google a partir de lista de clientes só com base legal registrada pelo encarregado de dados (N12).
+- L6. Público personalizado e semelhante na Meta e no Google a partir de lista de clientes: liberado para a base com consentimento para novas oportunidades (decisão 28), que a Ufape já trabalha por mídia paga; o registro formal da base legal pelo encarregado de dados segue [CONFIRMAR] (N12).
 - L7. Grupo de WhatsApp expõe o telefone de todos os membros: comunidade da Ufape usa formato que não expõe número (canal, lista de transmissão ou plataforma própria) ou exige aceite explícito dessa exposição [CONFIRMAR formato com o encarregado].
 - L8. Depoimento, voz e imagem de aluno ou ex-aluno só com autorização registrada e com a aprovação de "peças com depoimento" (hoje [CONFIRMAR] em ufape-geral.md). Docentes, palestrantes e convidados já têm autorização (decisões 8 e 10), mas publicar no perfil pessoal é escolha de cada um.
 
@@ -141,7 +142,7 @@
 | C5. Graduação em Medicina Veterinária | alunos atuais; egressos, se existirem | longo prazo: a Pós é a continuação natural depois de formado | eventos e aulas abertas institucionais; nada de venda de Pós | público da Pós é formado (contexto/pos-graduacao.md); aluno de Graduação pode ser menor de idade: só comunicação institucional |
 | C6. Docentes e coordenação, e as redes deles | os professores listados na ficha | autoridade e alcance: colegas confiam em colegas | coautoria visível (post em parceria, podcast, aula aberta), material pronto para o perfil deles, link com UTM próprio | autorização já registrada (decisões 8 e 10); cada docente aprova só o próprio texto (autoridade-docente, seção 0, C1 a C8); sem paciente, tutor ou clínica identificável |
 | C7. Parceiros | clínicas e hospitais (inclusive os de estágio), Ufape Clínica, associações da especialidade, conselhos, eventos da área, indústria (nutrição, diagnóstico, equipamentos), laboratórios | levar a Ufape a bases que ela não alcança | conteúdo técnico co-assinado, palestra de docente, condição para a equipe do parceiro [CONFIRMAR] | L4; contrato com regra de dados; marca comercial não entra em conteúdo clínico sem revisão |
-| C8. Indicação (transversal) | qualquer pessoa dos círculos C1 a C4 (e de C6 e C7, se a Ufape decidir) que indica um colega; C5 nunca recebe convite a indicar para a Pós | multiplicador de baixo custo | reconhecimento ou benefício [decisão da Ufape] para quem indica e para quem é indicado | L5; benefício com regra, público, prazo e validade escritos (conformidade, preço e condições) |
+| C8. Indicação (transversal) | qualquer pessoa dos círculos C1 a C4 (e de C6 e C7, se a Ufape decidir) que indica um colega; C5 nunca recebe convite a indicar para a Pós | multiplicador de baixo custo | reconhecimento ou benefício [decisão da Ufape] para quem indica; sem desconto para o indicado (decisão 28), que usa as condições normais, inclusive os 20% se for aluno ou ex-aluno de Pós | L5; benefício com regra, público, prazo e validade escritos (conformidade, preço e condições) |
 | C9. Veterinários que nunca ouviram falar da Ufape | o público frio | descobrir a Ufape pela área, não pela marca | resposta útil (busca, IA, conteúdo de docente), caso clínico, aula aberta | formulário com finalidade e política de privacidade; nada de segmentação por característica pessoal (conformidade, anúncios) |
 
 ### [GASTRO]
@@ -155,7 +156,7 @@
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; o site cita que professores da Graduação também dão aula nas pós (contexto/graduacao.md) | se há egressos (N11) |
 | C6 | Esp. Maria Carolina Pappalardo e os 38 professores listados | coordenação é a voz principal (post AD-A6-1 já existe, autoridade-docente); professores de áreas cruzadas (imagem, endocrinologia, nutrição, oncologia) ampliam para outros públicos | quais docentes têm perfil ativo e aceitam publicar (C6 do checklist da autoridade-docente) |
 | C7 | clínicas e hospitais dos estágios em cooperação (ficha); Ufape Clínica; ABRAGA e o Congresso Internacional de Gastroenterologia Animal (S16, a confirmar); CRMV-SP (só pauta técnica e institucional [SUPOSIÇÃO: conselho não costuma divulgar curso privado]); indústria de nutrição clínica e de endoscopia; laboratórios de patologia e histopatologia | ampliam para bases fora do alcance da Ufape; a especialidade tem entidade e congresso próprios | lista de parceiros e patrocinadores (N6); se a Ufape Clínica recebe encaminhamento de casos (N8) |
-| C8 | ex-alunos e alunos de C1 a C4 indicando colegas que atendem casos gastrointestinais | custo baixo, confiança alta | recompensa e regra (decisão da Ufape) |
+| C8 | ex-alunos e alunos de C1 a C4 indicando colegas que atendem casos gastrointestinais | custo baixo, confiança alta | recompensa para quem indica e regra (decisão da Ufape); sem desconto para o indicado (decisão 28) |
 | C9 | clínicos de pequenos animais, sobretudo em São Paulo (S2), que buscam resolver vômito, diarreia, hepatopatias e pancreatites na rotina | nicho com pouca disputa visível na busca (S15) | volumes de busca (Search Console, Planejador do Google Ads) [CONFIRMAR] |
 
 ---
@@ -185,10 +186,10 @@ Legenda de status: **ativo** (roda de forma contínua), **testar** (entra como t
 | 15 | X (8C) | orgânico | conversa da categoria | fora | sem perfil e sem evidência de uso pela persona (estrategia-social-pos, 1.2) | 12 Vídeo e Áudio |
 | 16 | Google Ads (busca) | pago | recolher intenção | ativo | termos de cauda da área; concentra a verba pequena (apresentação, slide B15) | 11 Mídia |
 | 17 | Meta Ads (Instagram e Facebook) | pago | ampliar o que provou no orgânico; remarketing | ativo | concentra a verba pequena com o Google | 11 Mídia |
-| 18 | Comunidades (grupo de estudos da área, grupo de discussão de casos dos alunos, comunidade de ex-alunos) | próprio | retenção, prova e indicação | testar | a comunidade é onde ex-aluno vira indicador; formato precisa respeitar L7 | 05 Social e 07 Relacionamento |
+| 18 | Comunidades (grupos de estudo da Ufape, grupo de discussão de casos dos alunos) | próprio | retenção, prova e indicação | ativo | os grupos de estudo já existem e servem de comunidade (decisão 28); a comunidade é onde ex-aluno vira indicador; formato precisa respeitar L7 | 05 Social e 07 Relacionamento |
 | 19 | Eventos e workshops da Ufape; aulas abertas | próprio | consideração e captura de base | testar | aula aberta já existe no cronograma de alguns cursos (S9); evento da linha Eventos gera base nova | 06 Demanda; linha Eventos |
 | 20 | Time de vendas | próprio | fechamento e coleta de origem | ativo | registra "como conheceu" e o círculo de origem; responde com as respostas prontas | time de vendas (Ufape), com 07 e 09 |
-| 21 | Parceiros (clínicas, associações, indústria, laboratórios) | rede | levar a Ufape a bases de terceiros | testar | depende de lista e de contrato (N6) | 06 Demanda (distribuicao) |
+| 21 | Parceiros (clínicas, associações, indústria, laboratórios) | rede | levar a Ufape a bases de terceiros | fora | parceiros são, na prática, empresas, e o canal não faz sentido agora (decisão 28) | 06 Demanda (distribuicao) |
 | 22 | Imprensa e portais da área | conquistado | autoridade e busca | testar | pauta técnica com docente; páginas com frase de certificação ligada ao MEC gastam a primeira impressão (links-e-autoridade, via apresentação, slide B7) | 03 SEO (links-e-autoridade) e 04 Conteúdo |
 | 23 | Congressos e eventos externos da área | rede e pago | autoridade e base nova | testar | presença de docente com material da Ufape; custo de estande [CONFIRMAR] | 06 Demanda |
 | 24 | Agregadores de cursos e bolsas | terceiros | comparação por preço | fora | o posicionamento não compete em preço; agregadores puxam para EAD barato (posicionamento-pos, seção 1) | 02 Estratégia |
@@ -223,7 +224,7 @@ Legenda de status: **ativo** (roda de forma contínua), **testar** (entra como t
 **Como uma alimenta a outra (cinco ligações):**
 
 1. **O orgânico escolhe o criativo.** O post ou corte que mais gera conversa e salvamento no orgânico vira o primeiro candidato a anúncio. A paga não testa ângulo do zero com verba pequena.
-2. **A paga recolhe quem o orgânico aqueceu.** Remarketing de quem viu o podcast, a aula aberta ou visitou a página da área (públicos de engajamento, sem lista de clientes enquanto L6 não estiver resolvido).
+2. **A paga recolhe quem o orgânico aqueceu.** Remarketing de quem viu o podcast, a aula aberta ou visitou a página da área (públicos de engajamento e, pela decisão 28, a base com consentimento para novas oportunidades).
 3. **A paga alimenta a base.** Todo lead pago que não fecha na turma vai para a base da área com consentimento e passa a ser trabalhado pelo relacionamento (07), não por mais anúncio.
 4. **A busca paga ensina a busca orgânica.** Os termos que convertem no Google Ads viram pauta de 03 SEO e de 04 Conteúdo; os termos que só geram clique sem lead viram termo negativo e saem da pauta.
 5. **O docente é a ponte.** O conteúdo do docente roda no orgânico (perfil dele e da Ufape); com autorização da peça e do formato de parceria da plataforma, o mesmo conteúdo pode rodar como anúncio pelo perfil dele (formato F6, seção 6).
@@ -233,7 +234,7 @@ Legenda de status: **ativo** (roda de forma contínua), **testar** (entra como t
 ### [GASTRO]
 
 - **H1 (68606 em captação):** a paga já está desenhada no enxoval (busca e remarketing depois do início, apresentação, slide B2, regra 3). Este plano não mexe nisso.
-- **H2 (entre turmas):** sem turma com data no catálogo, a paga fica parada ou só recolhe interesse para a base da área (lista de espera), e só se a Ufape aprovar verba para isso [CONFIRMAR]. A orgânica e a base carregam o curso.
+- **H2 (entre turmas):** a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada (decisão 28, [CONFIRMAR a interpretação]). Até ela ter data no catálogo, a paga fica parada ou só recolhe interesse para a base da área (lista de espera), e só se a Ufape aprovar verba para isso [CONFIRMAR]. A orgânica e a base carregam o curso.
 - **Fonte de criativo:** coordenação e docentes (autoridade), casos do cronograma (temas, nunca paciente identificável), cortes do UFAPE Cast.
 
 ---
@@ -246,20 +247,20 @@ Esforço: baixo (a squad faz quase tudo; a Ufape só decide), médio (precisa de
 
 | # | Formato | O que é | [GASTRO] Por que serve a Gastro | Esforço | Impacto | Risco | O que precisamos da Ufape |
 |---|---|---|---|---|---|---|---|
-| F1 | Programa de indicação | quem é ou foi aluno indica um colega por link ou código; se haverá reconhecimento ou benefício, para quem e qual, é decisão da Ufape (UD1), sempre com regra escrita | 8 turmas de ex-alunos (C1) e alunos de turmas onde a coordenação ensina (C3) | baixo | alto | benefício sem regra clara fere o CDC; indicação não pode virar coleta de telefone de terceiro (L5) | decidir benefício, regra, prazo e quem paga; ferramenta de código ou UTM no CRM |
+| F1 | Programa de indicação | quem é ou foi aluno indica um colega por link ou código; se haverá reconhecimento ou benefício para quem indica, e qual, é decisão da Ufape (UD1), sempre com regra escrita; não há desconto para o indicado (decisão 28), que usa as condições normais | 8 turmas de ex-alunos (C1) e alunos de turmas onde a coordenação ensina (C3) | baixo | alto | benefício sem regra clara fere o CDC; indicação não pode virar coleta de telefone de terceiro (L5) | decidir benefício, regra, prazo e quem paga; ferramenta de código ou UTM no CRM |
 | F2 | Caso clínico ao vivo com a coordenação | sessão online curta, um tema do cronograma discutido como caso (sem paciente identificável), aberta à base da área, gravada | o cronograma já tem aulas abertas (S9); o grupo 721 mostra que o formato de discussão de caso vende na área | médio | alto | conteúdo clínico exige revisão docente; baixa presença se a base for pequena | decidir se abre a não alunos; agenda da coordenação; plataforma de transmissão; regra de gravação |
-| F3 | Comunidade de ex-alunos da área | espaço permanente de troca de casos e atualização para quem fez a Pós, com curadoria de docente | o "grupo para discussão de casos" já existe para alunos (S8); estender ao ex-aluno cria indicador permanente | médio | médio a alto | moderação contínua; exposição de telefone em grupo (L7); queixa pública | formato e dono da moderação; regra de entrada; aceite de LGPD |
+| F3 | Comunidade de ex-alunos da área | usar o grupo de estudos 721, que já existe, como comunidade da área para quem fez a Pós (decisão 28), com curadoria de docente | o grupo 721 já trata dos temas da Pós; o "grupo para discussão de casos" já existe para alunos (S8) | baixo | médio a alto | moderação contínua; exposição de telefone em grupo (L7); queixa pública | formato e dono da moderação; regra de entrada; aceite de LGPD |
 | F4 | Trilha da área (escada de produtos) | caminho explícito do produto curto à Pós: mini curso, grupo de estudos, imersão prática, Pós | a Ufape já tem todos os degraus de Gastro (S11) | baixo | médio a alto | canibalização: o curso curto pode substituir a Pós (inteligencia-concorrencia, seção 2); D7 proíbe citar crédito | confirmar se há condição para quem sobe de degrau [CONFIRMAR]; corrigir a página 623; liberar peças de Livres (decisão 14: peças novas de Livres só com nova ordem) |
 | F5 | Conteúdo com docentes em parceria | posts em parceria (perfil da Ufape e do docente), série curta de perguntas do clínico respondidas por docentes de áreas diferentes | 38 professores, muitos de áreas cruzadas (imagem, endocrinologia, nutrição, oncologia) | médio | médio a alto | agenda e aprovação de cada docente; opinião clínica sem revisão | contato com docentes; revisor docente nomeado |
 | F6 | Anúncio de líder de opinião | o conteúdo do docente roda como anúncio pelo perfil dele, no formato de parceria da plataforma, com identificação de conteúdo pago | o colega confia mais no colega do que na marca [SUPOSIÇÃO] | médio | médio | reputação do docente; regras de conteúdo de marca da Meta; aprovação por peça | aceite do docente, acesso de parceria na conta de anúncios, aprovação humana de verba |
-| F7 | Co-marketing com parceiros | conteúdo técnico co-assinado com indústria, laboratório ou clínica (webinar, material de referência), cada um divulgando para a própria base | Gastro conversa com nutrição clínica, histopatologia e endoscopia (cronograma) | alto | médio | conflito de interesse; marca comercial em conteúdo clínico; troca de lista (proibida, L4) | lista de parceiros, contrato com regra de dados e de conteúdo |
+| F7 | Co-marketing com parceiros (fora pela decisão 28: parceiros são, na prática, empresas) | conteúdo técnico co-assinado com indústria, laboratório ou clínica (webinar, material de referência), cada um divulgando para a própria base | Gastro conversa com nutrição clínica, histopatologia e endoscopia (cronograma) | alto | médio | conflito de interesse; marca comercial em conteúdo clínico; troca de lista (proibida, L4) | lista de parceiros, contrato com regra de dados e de conteúdo |
 | F8 | Presença em eventos da área | docente palestra, Ufape com material e captura com consentimento em congresso ou evento da especialidade | existe entidade e congresso específicos (S16) | alto | médio | custo de inscrição e estande; evento concorrente (Anclivepa) | orçamento de evento; agenda do docente |
 | F9 | Conteúdo para busca por IA | página da área com perguntas e respostas diretas, cronograma, docentes e condições, nome padrão e dados estruturados | nicho com pouca disputa visível (S15) | médio | médio, crescente | demora; depende do site | página da área no site (canal 2) e acesso ao Search Console |
 | F10 | Lista de espera da próxima turma | "avise-me" com consentimento na página da área e destino de todo lead que não fechou | Gastro fica entre turmas sem data no catálogo (N7) | baixo | alto para a turma seguinte | lista sem uso perde valor; consentimento precisa dizer a finalidade | campo e etiqueta no CRM; texto de consentimento aprovado |
 | F11 | Material de referência para o clínico (isca da área) | guia curto e útil (por exemplo, quando pedir cada exame na rotina gastrointestinal), assinado por docente, em troca de e-mail com consentimento | a isca da A6 foi reservada na rodada anterior por falta de turma futura (apresentação, slide B10); a lógica contínua a reativa | médio | médio | erro clínico; revisão docente obrigatória | revisor docente |
 | F12 | Caso da semana (quiz) | um caso curto em Stories ou e-mail, resposta comentada por docente na semana seguinte | engajamento recorrente com baixo custo; tema rico em casos | baixo | médio | dose ou conduta em texto da squad (proibido); exige revisão | revisor docente |
 | F13 | Episódios temáticos do UFAPE Cast | episódios e cortes com temas da área e, quando autorizado, egresso | já ativo (decisão 21); a coordenação está no episódio 1 | médio | médio | audiência inicial pequena (S18) | nome aprovado do podcast; autorização de egresso |
-| F14 | Rede de clínicas parceiras | clínicas que recebem estagiários ou encaminham casos viram vitrine e indicadoras | estágio em cooperação já está na página (S8) | médio | médio | regra do estágio não confirmada (N5) | lista e regra das clínicas |
+| F14 | Rede de clínicas parceiras (fora pela decisão 28) | clínicas que recebem estagiários ou encaminham casos viram vitrine e indicadoras | estágio em cooperação já está na página (S8) | médio | médio | regra do estágio não confirmada (N5) | lista e regra das clínicas |
 | F15 | Evento próprio da área | workshop ou simpósio de Gastroenterologia da Ufape, presencial ou transmitido, da linha Eventos | gera base nova e prova a autoridade da coordenação | alto | médio a alto | turma mínima do evento; produção pesada | decisão da linha Eventos; orçamento; local |
 | F16 | Encaminhamento clínico | veterinário que encaminha caso de Gastroenterologia à Ufape Clínica recebe conteúdo da área com consentimento | quem encaminha é colega com problema real na área [SUPOSIÇÃO] | médio | médio | mistura de relação clínica com venda; exige consentimento separado | confirmar se o serviço existe (N8) |
 
@@ -268,8 +269,8 @@ Esforço: baixo (a squad faz quase tudo; a Ufape só decide), médio (precisa de
 | | Esforço baixo | Esforço médio | Esforço alto |
 |---|---|---|---|
 | **Impacto alto** | F1 indicação; F10 lista de espera | F2 caso clínico ao vivo | |
-| **Impacto médio a alto** | F4 trilha da área | F3 comunidade de ex-alunos; F5 docentes em parceria | F15 evento próprio |
-| **Impacto médio** | F12 caso da semana | F6 líder de opinião; F9 busca por IA; F11 isca; F13 podcast temático; F14 clínicas; F16 encaminhamento | F7 co-marketing; F8 eventos externos |
+| **Impacto médio a alto** | F4 trilha da área; F3 grupo de estudos como comunidade | F5 docentes em parceria | F15 evento próprio |
+| **Impacto médio** | F12 caso da semana | F6 líder de opinião; F9 busca por IA; F11 isca; F13 podcast temático; F16 encaminhamento | F8 eventos externos |
 
 Leitura: F10 e F4 são infraestrutura de baixo esforço e entram como base de todos os testes (sem lista de espera e sem trilha, o resultado dos testes se perde). Os testes de verdade são os três abaixo.
 
@@ -318,7 +319,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 ### [GASTRO]
 
 - Primeira leitura útil: participação de cada círculo nas matrículas da 68606 (pede o campo de origem preenchido desde já).
-- Comparação que interessa: turma IX contra as turmas anteriores, se a Ufape tiver a origem somada (N2).
+- Comparação que interessa: a turma em captação contra as turmas anteriores, se a Ufape tiver a origem somada (N2).
 - Leitura dos testes: T1 e T2 pelos indicadores de C1, C2 e C8; T3 por C6 e mídia paga.
 
 ---
@@ -331,10 +332,10 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 
 | # | Decisão | Por que | Bloqueia |
 |---|---|---|---|
-| UD1 | Benefício, regra, prazo e quem paga no programa de indicação | sem regra escrita, não há programa (CDC) | T1 |
-| UD2 | Regra de desconto para aluno e ex-aluno de pós (PR6 da estrategia-de-oferta) | oferta dos círculos C1 a C4 | C1 a C4 |
+| UD1 | Benefício para quem indica, regra, prazo e quem paga no programa de indicação (sem desconto para o indicado, decisão 28) | sem regra escrita, não há programa (CDC) | T1 |
+| UD2 | Regra de desconto para aluno e ex-aluno de pós | respondido pela decisão 28: 20% em Pós, simpósios e workshops | (respondido) |
 | UD3 | Abrir sessões de caso clínico ou aulas abertas a não alunos; regra de gravação | formato T2 | T2 |
-| UD4 | Formato da comunidade de ex-alunos e dono da moderação | L7 e F3 | F3 |
+| UD4 | Uso do grupo de estudos 721 como comunidade de ex-alunos e dono da moderação (os grupos já existem, decisão 28) | L7 e F3 | F3 |
 | UD5 | Criar a página da área que sobrevive entre turmas, com "avise-me" | canal 2, F9, F10 | H2 |
 | UD6 | Uso de anúncio pelo perfil do docente (parceria) dentro da verba da turma | F6 | T3 (parte paga) |
 | UD7 | Verba para a paga entre turmas (H2), se houver | hoje a verba é por turma no ciclo | paga no H2 |
@@ -342,9 +343,9 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 
 **Dados (só números somados)**
 
-- UN1. Tamanho de cada círculo (C1 a C5) e quantos têm consentimento de e-mail e de WhatsApp.
+- UN1. Tamanho de cada círculo (C1 a C5). O consentimento para novas oportunidades existe (decisão 28); falta saber o tamanho e se ele cobre e-mail e WhatsApp além da mídia paga [CONFIRMAR].
 - UN2. Origem das matrículas das turmas anteriores do curso, somada por canal ou círculo.
-- UN3. Data e número da próxima turma; destino da prova 68650.
+- UN3. Data e número da próxima turma (abre normalmente 3 a 4 meses depois de uma turma confirmada, decisão 28); destino da prova 68650.
 - UN4. Lista de parceiros, patrocinadores e clínicas de estágio; se a Ufape Clínica recebe encaminhamento de casos de Gastroenterologia.
 - UN5. Regras do estágio em cooperação e do grupo de discussão de casos.
 - UN6. Se a Graduação já tem egressos.
@@ -355,7 +356,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 - UA1. CRM (para o campo de origem e as etiquetas por círculo), ferramenta de e-mail e de WhatsApp.
 - UA2. Search Console e analytics do site; Meta Business e Google Ads (leitura para o gestor-de-midia).
 - UA3. YouTube, Spotify e, se existir, página de LinkedIn.
-- UA4. Base legal registrada pelo encarregado de dados para marketing à base de ex-alunos e para listas na Meta e no Google (N12).
+- UA4. Registro formal da base legal pelo encarregado de dados (N12). Em parte respondido pela decisão 28: a base tem consentimento e já é trabalhada por mídia paga.
 
 ### 8.2 A squad faz sozinha
 
@@ -421,7 +422,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 - [x] Nome, modalidade, carga horária, turma e local batem com o catálogo e a ficha.
 - [x] Nenhuma frase de certificação ligada ao MEC; a frase aparece só como pendência da página.
 - [x] Sem superlativo, sem "única" (S14 diz que ausência na busca não prova ausência), sem comparação pública com concorrente.
-- [x] Benefício e desconto só com regra, público e prazo (UD1, UD2); nada é afirmado antes da decisão.
+- [x] Benefício e desconto só com regra, público e prazo (UD1; o desconto de 20% de aluno e ex-aluno de Pós vem da decisão 28); sem desconto para o indicado; nada é afirmado antes da decisão.
 - [x] Sem urgência falsa; nenhuma data de captação neste plano.
 - [x] LGPD: só números somados; regras L1 a L8; nenhuma compra ou troca de lista; consentimento por canal e finalidade.
 - [x] Docentes só com nome e titulação da ficha; depoimento de ex-aluno só com autorização registrada.
@@ -472,8 +473,8 @@ Próximo passo: estrategia-de-relacionamento, com este arquivo como entrada. Em 
 - Data da próxima turma e destino da prova 68650 (UN3).
 - Parceiros, patrocinadores, clínicas de estágio, serviço de Gastroenterologia na Ufape Clínica (UN4); regras do estágio e do grupo de casos (UN5).
 - O que são as aulas abertas do cronograma e se podem receber não alunos (UD3).
-- Regra de desconto de aluno e ex-aluno; benefício da indicação (UD1, UD2).
-- Base legal para marketing à base de ex-alunos e para listas em plataformas (UA4).
+- Benefício para quem indica (UD1); o desconto de ex-aluno foi respondido pela decisão 28 (20%) e não há desconto para o indicado.
+- Registro formal da base legal (UA4); o consentimento para novas oportunidades existe (decisão 28).
 - Existência de canal de YouTube, página de LinkedIn e perfil de TikTok; horas do time; revisor docente; aprovadores (N9, N10, UD8).
 - Dados da ABRAGA e do congresso na fonte oficial da entidade.
 - Correções da página da 68606 (p02, p04, A13).

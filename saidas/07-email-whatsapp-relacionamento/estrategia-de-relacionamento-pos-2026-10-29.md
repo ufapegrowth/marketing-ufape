@@ -4,7 +4,8 @@
 - **Linha:** pos
 - **Data:** 29/10/2026
 - **Encomenda:** do cmo, na seção "Próximo passo e encomendas da cadeia" do plano saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md. Pedido de origem do CEO em 29/10/2026.
-- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). O que vale para as próximas turmas do curso está marcado.
+- **Curso piloto:** Pós-graduação em Gastroenterologia Veterinária, turma IX, São Paulo, código 68606 (catálogo, seção 2). A estratégia é do curso, não de uma turma (decisão 28).
+- **Decisão 28 do CEO (29/10/2026), aplicada nesta revisão:** 20% de desconto para alunos e ex-alunos de Pós em Pós, simpósios e workshops; a base tem consentimento para contato sobre novas oportunidades e é trabalhada normalmente por mídia paga [CONFIRMAR a interpretação]; sem desconto para o indicado; parceiros saem como canal; a próxima turma abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação]; grupos de estudo já existem e servem de comunidade.
 - **Sem datas, sem textos de mensagem, sem peças.** Este arquivo só traz estratégia. Frequências são limites e durações de regra, nunca calendário.
 - **Como ler:** cada seção traz dois blocos.
   - **[MOLDURA]**: vale para qualquer curso de Pós (com ajuste, para Livres e Eventos).
@@ -25,10 +26,10 @@
 
 1. **Seis segmentos de CRM** (C1 a C5 e C8) com critério de entrada, de saída, consentimento por canal (e-mail, WhatsApp, anúncio) e uma regra de prioridade em três camadas: saída e serviço vencem tudo; régua ativa de turma vence programa permanente; entre círculos vale o mais quente para a oferta, mas a regra que protege o contato vence a que vende (aluno em curso e Graduação nunca recebem oferta de compra da Pós).
 2. **Três programas permanentes da base da área** (lista de espera, carta da área, convite ao T2), cada um com objetivo, quem entra, frequência máxima, o que mede e como sai. Os três dividem o mesmo teto D16 do contato, então o programa permanente cede a vez a qualquer régua de turma ou de prova.
-3. **Proposta de regra de indicação (T1)** para a Ufape decidir: elegibilidade, gatilho (1ª mensalidade paga pelo indicado), atribuição, limites, privacidade do indicado e três opções de benefício sem valor. Nada é prometido antes da decisão (regra C8 do plano do cmo e CDC).
-4. **Consentimento separado por finalidade e por canal.** Participar de uma sessão ao vivo ou entrar na lista de espera nunca depende de aceitar campanha. Anúncio com lista de clientes continua fechado até a base legal registrada (L6, N12, UA4).
+3. **Proposta de regra de indicação (T1)** para a Ufape decidir: elegibilidade, gatilho (1ª mensalidade paga pelo indicado), atribuição, limites, privacidade do indicado e opções de benefício sem valor para quem indica; não há desconto para o indicado (decisão 28). Nada é prometido antes da decisão (regra C8 do plano do cmo e CDC).
+4. **Consentimento separado por finalidade e por canal.** Participar de uma sessão ao vivo ou entrar na lista de espera nunca depende de aceitar campanha. Anúncio com lista de clientes fica liberado para a base com consentimento para novas oportunidades, que a Ufape já trabalha por mídia paga (decisão 28); o registro formal da base legal segue [CONFIRMAR] (L6, N12, UA4).
 5. **Nenhum número de base, taxa ou meta existe.** Tudo que depende de tamanho de círculo, consentimento e linha de base é [CONFIRMAR]. As primeiras 4 semanas de leitura viram a linha de base.
-6. **Trava de Gastro:** a próxima turma do curso não está no catálogo. A lista de espera e a carta trabalham a base sem chamada de compra para turma que não existe.
+6. **Trava de Gastro:** a próxima turma do curso ainda não está no catálogo; pela decisão 28 ela abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR a interpretação]. A lista de espera e a carta trabalham a base sem chamada de compra até a turma ter data.
 
 ---
 
@@ -46,7 +47,7 @@
 | K2 | WhatsApp de campanha, por finalidade | convite curto, lembrete, aviso de turma | só com opt-in (E4); "responda SAIR" em toda mensagem; só em horário comercial e dia útil; contato que bloqueia ou denuncia sai (E2 e E3) |
 | K3 | Serviço | confirmação, gravação prometida na inscrição, documento, lembrete de algo que o contato comprou ou pediu | não carrega campanha (L3); não conta no teto, mas respeita o horário do WhatsApp |
 | K4 | Anúncio por engajamento | remarketing de quem visitou página ou viu conteúdo, sem lista de clientes | depende do aviso e do aceite de cookies e pixel no site [CONFIRMAR banner] |
-| K5 | Anúncio com lista de clientes | público personalizado e semelhante a partir de lista | **fechado por padrão**: só com base legal registrada pelo encarregado de dados (L6, N12, UA4) |
+| K5 | Anúncio com lista de clientes | público personalizado e semelhante a partir de lista | **liberado para a base com consentimento para novas oportunidades** (decisão 28), que a Ufape já trabalha por mídia paga; registro formal da base legal pelo encarregado de dados segue [CONFIRMAR] (L6, N12, UA4) |
 
 **Teto D16 que vale para todos os programas:** até 2 WhatsApp e 2 e-mails de campanha por contato por semana, somando linhas e newsletter; no máximo 1 mensagem de campanha por dia, em qualquer canal. Contato em duas bases fica com o teto menor. Nenhum programa deste arquivo cria teto próprio acima disso.
 
@@ -162,7 +163,7 @@ Regras de convivência:
 
 | Programa | Gastro |
 |---|---|
-| Lista de espera | A próxima turma de Gastroenterologia não está no catálogo [CONFIRMAR data e número da turma X] e o destino da prova de bolsa 68650 não está informado [CONFIRMAR]. Por isso a lista existe sem data e sem chamada de compra. Enquanto a 68606 aceitar matrícula (até o 3º módulo, decisão 18), quem não fechou fica no P2 da estratégia de 26/10 e **não** entra na lista. A página da área com "avise-me" é a porta principal e ainda não existe (UD5, canal 2 do plano). Até lá, a entrada é pelo atendimento de vendas e pelas sessões ao vivo |
+| Lista de espera | A próxima turma de Gastroenterologia não está no catálogo; pela decisão 28 ela abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR data, número da turma e a interpretação] e o destino da prova de bolsa 68650 não está informado [CONFIRMAR]. Por isso a lista existe sem data e sem chamada de compra. Enquanto a turma em captação aceitar matrícula (até o 3º módulo, decisão 18), quem não fechou fica no P2 da estratégia de 26/10 e **não** entra na lista. A página da área com "avise-me" é a porta principal e ainda não existe (UD5, canal 2 do plano). Até lá, a entrada é pelo atendimento de vendas e pelas sessões ao vivo |
 | Carta da área | Carta de Gastroenterologia Veterinária. Nome da carta a decidir [CONFIRMAR], sem inventar marca. Temas candidatos vêm do cronograma e do grupo de estudos 721 (vômito e diarreia crônica, hepatopatias, pancreatite, colangites felinas, enteropatias, conforme o plano). Revisor docente nomeado [CONFIRMAR, N9]. A coordenação é a voz principal; professores de áreas cruzadas (imagem, endocrinologia, nutrição, oncologia) ampliam a pauta |
 | Convite ao T2 | Sessão com a Esp. Maria Carolina Pappalardo (coordenação, ficha 68606), tema de um módulo do cronograma. Depende de UD3 (o que são as "aulas abertas" 8, 15 e 19 e se aceitam não alunos, N4). Horas da coordenação [CONFIRMAR, PA3] |
 
@@ -205,7 +206,7 @@ Regras de convivência:
 
 **5. Elegibilidade da turma e do curso.**
 - Só turmas com status "aberto" no catálogo, no curso e na praça definidos pela Ufape. Turma "verificar", "sem venda" ou "encerrado" não entra.
-- Interação com bolsa e com o desconto de aluno e ex-aluno: a ficha da prova diz que a bolsa não é acumulativa; a Ufape decide se o benefício de indicação acumula, não acumula ou substitui [CONFIRMAR, UD1 e UD2].
+- Interação com bolsa e com o desconto de aluno e ex-aluno (20% em Pós, simpósios e workshops, decisão 28): a ficha da prova diz que a bolsa não é acumulativa; a Ufape decide se o benefício de quem indica acumula, não acumula ou substitui [CONFIRMAR, UD1]. O indicado não tem desconto próprio (decisão 28) e usa as condições normais, inclusive os 20% se for aluno ou ex-aluno de Pós.
 
 **6. Benefício (opções a decidir; nenhum valor sugerido).**
 
@@ -213,10 +214,10 @@ Regras de convivência:
 |---|---|---|---|
 | A. Reconhecimento sem valor | agradecimento, acesso a conteúdo da área ou à sessão ao vivo, sem custo para a Ufape | baixo custo, simples, sem implicação de preço | pode não motivar; o conteúdo oferecido precisa existir de verdade |
 | B. Benefício ao indicador | condição ou item definido pela Ufape, com regra escrita | motiva quem tem rede | custo por matrícula; precisa caber no teto de custo por matrícula do cmo; risco de indicação por interesse financeiro |
-| C. Benefício ao indicado | condição ou item definido pela Ufape para quem chega por indicação | reduz a barreira do indicado | pode conflitar com a regra "preço do catálogo" e com a bolsa não acumulativa; precisa de regra de preço escrita |
+| C. Benefício ao indicado | fora: a Ufape não tem desconto para o indicado (decisão 28) | não se aplica | o indicado usa as condições normais, inclusive os 20% de aluno ou ex-aluno de Pós |
 | D. Benefício aos dois | combinação de B e C | maior estímulo | maior custo e maior risco de regra confusa |
 
-A Ufape decide: se há benefício, qual opção, quem paga, qual o valor e a forma [CONFIRMAR], e a regra de preço em caso de condição ao indicado. O benefício nunca é sorteio nem prêmio de resultado incerto, para não criar outra obrigação regulatória [CONFIRMAR com jurídico]. Qualquer benefício com valor vira regra com público, prazo, validade e condição escritos antes de ser anunciado.
+A Ufape decide: se há benefício, qual opção, quem paga, qual o valor e a forma [CONFIRMAR], (sem condição ao indicado, decisão 28). O benefício nunca é sorteio nem prêmio de resultado incerto, para não criar outra obrigação regulatória [CONFIRMAR com jurídico]. Qualquer benefício com valor vira regra com público, prazo, validade e condição escritos antes de ser anunciado.
 
 **7. Prazo, limites e encerramento.**
 - Vigência e limite de indicações por indicador, por turma e por ano: a Ufape define [CONFIRMAR]. A regra escrita traz prazo e validade do benefício.
@@ -245,7 +246,7 @@ A Ufape decide: se há benefício, qual opção, quem paga, qual o valor e a for
 
 - **Quem indica no piloto:** ex-alunos das turmas I a VIII (C1) e alunos de áreas onde a coordenação também ensina (C3, por exemplo 68608, quando a turma começar). Indicados: clínicos de pequenos animais que atendem casos gastrointestinais. Tamanho de cada grupo e consentimento: [CONFIRMAR, UN1].
 - **Turma elegível:** a 68606, enquanto a Ufape aceitar matrícula (até o 3º módulo, decisão 18), e as próximas turmas do curso quando existirem no catálogo.
-- **Benefício:** nenhuma opção está pré-escolhida. O benefício, se houver, precisa conviver com a regra "bolsa não acumulativa" das provas e com a regra de ex-aluno [CONFIRMAR, UD1 e UD2].
+- **Benefício:** nenhuma opção está pré-escolhida. O benefício, se houver, precisa conviver com a regra "bolsa não acumulativa" das provas e com o desconto de 20% de ex-aluno (decisão 28) [CONFIRMAR, UD1].
 - **Não aplicar** a indicação a produtos de Livres ou a provas de bolsa neste piloto, salvo decisão da Ufape.
 - **Hipótese a testar (SUPOSIÇÃO):** o indicado fecha mais do que o lead frio (T1 do plano). O teste só tem leitura se o campo "origem" e a UTM de indicação existirem antes do primeiro convite (M-A e M-B do plano).
 
@@ -286,7 +287,7 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 | # | Decisão | Trava |
 |---|---|---|
 | UD1 | Benefício da indicação: se há, qual opção, valor, quem paga, vigência, limite e acúmulo com bolsa e com ex-aluno | T1 inteiro |
-| UD2 | Regra de desconto de aluno e ex-aluno de Pós | C1 a C4 e T1 |
+| UD2 | Regra de desconto de aluno e ex-aluno de Pós: respondida pela decisão 28 (20% em Pós, simpósios e workshops) | (respondido) |
 | UD3 | Abrir sessão ao vivo a não alunos; regra de gravação | T2 |
 | UD5 | Página da área com "avise-me" | lista de espera |
 | UD8 | Quem aprova envio em massa e depoimentos (tabela vazia em ufape-geral.md) | tudo |
@@ -302,7 +303,7 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 
 - UN1. Tamanho de C1 a C5 e quantos têm K1 e K2, por finalidade.
 - UN2. Origem das matrículas das turmas anteriores do curso.
-- UN3. Data e número da próxima turma; destino da prova 68650.
+- UN3. Data e número da próxima turma (abre normalmente 3 a 4 meses depois de uma turma confirmada, decisão 28); destino da prova 68650.
 - UN6. Se a Graduação já tem egressos (N11).
 - UN8 (código novo desta estratégia; o UN5 do plano é regra do estágio e do grupo de casos). Quantos contatos hoje têm campo de interesse por área.
 
@@ -310,8 +311,8 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 
 - UA1. CRM, ferramenta de e-mail e ferramenta de WhatsApp (API ou aplicativo); campos de consentimento por canal e finalidade; campo "círculo", "origem" e "indicador"; geração de código de indicação com UTM.
 - UA6 (código novo desta estratégia; o UA2 do plano é leitura de Search Console, analytics, Meta Business e Google Ads). Templates aprovados pela Meta, se a Ufape usa a API (convite curto, lembrete, aviso de turma), com "responda SAIR".
-- UA4. Base legal registrada pelo encarregado de dados para marketing à base de ex-alunos e para listas em plataformas de anúncio (N12). Sem ela, K5 fica fechado.
-- UA5 (código novo desta estratégia, ligado à decisão UD4 do plano). Formato da comunidade de ex-alunos que não exponha telefone (L7), se a Ufape quiser abrir esse espaço mais adiante.
+- UA4. Base legal registrada pelo encarregado de dados para marketing à base de ex-alunos e para listas em plataformas de anúncio (N12). Em parte respondido pela decisão 28: a base tem consentimento e já é trabalhada por mídia paga, então K5 fica liberado para essa base; o registro formal segue [CONFIRMAR].
+- UA5 (código novo desta estratégia, ligado à decisão UD4 do plano). Uso dos grupos de estudo que já existem (decisão 28), como o 721, como comunidade de ex-alunos, sem expor telefone (L7).
 
 ### 5.4 Aprovação humana pedida (nada roda antes)
 
@@ -337,7 +338,7 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 **auditorias/conformidade-educacional.md**
 - [x] Dados de curso só do catálogo (68606: Pós-graduação em Gastroenterologia Veterinária, São Paulo, semipresencial, turma IX). Nenhum preço citado; quando citado, vai pelo texto-padrão.
 - [x] Nenhuma frase de certificação ligada ao MEC.
-- [x] Nenhum benefício, desconto ou bolsa afirmado; tudo como opção a decidir, com público, prazo e validade a escrever.
+- [x] Nenhum benefício, desconto ou bolsa afirmado além do desconto de 20% de aluno e ex-aluno de Pós (decisão 28); o resto como opção a decidir, com público, prazo e validade a escrever; sem desconto para o indicado.
 - [x] Sem urgência falsa; nenhuma data neste arquivo.
 - [x] LGPD: só números somados; consentimento por canal e finalidade; sem lista comprada ou importada; L5 e L6 respeitados.
 - [ ] Revisão jurídica do trecho de CDC (seção 3): pendente (D-N7).
@@ -375,9 +376,9 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 - Tamanho de cada círculo e consentimento por canal e finalidade (UN1); origem das matrículas anteriores (UN2).
 - Data e número da próxima turma de Gastroenterologia; destino da prova 68650 (UN3).
 - Campos do CRM para consentimento, círculo, origem, indicador e interesse por área; ferramentas de CRM, e-mail e WhatsApp; se há API da Meta (UA1, UA6).
-- Base legal para marketing à base de ex-alunos e para listas em anúncio (UA4).
+- Registro formal da base legal (UA4); o consentimento para novas oportunidades existe (decisão 28).
 - Textos de consentimento F-A e F-B; aprovadores; revisor docente; nome da carta.
-- Regra de desconto de aluno e ex-aluno; benefício, vigência, limite e acúmulo com bolsa na indicação (UD1, UD2).
+- Benefício de quem indica, vigência, limite e acúmulo com bolsa e com os 20% de ex-aluno (UD1); desconto de ex-aluno respondido pela decisão 28.
 - Abertura da sessão ao vivo a não alunos e regra de gravação (UD3); horas da coordenação.
 - Se colaboradores, vendedores e docentes podem indicar; se há comissão de venda.
 - Leitura jurídica do CDC (oferta, arrependimento, benefício) e se o benefício pode ser sorteio ou prêmio (a proposta o veta).
