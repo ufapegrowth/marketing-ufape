@@ -328,3 +328,7 @@ Apresentações publicadas (privadas, compartilhar pelo menu Compartilhar):
 Fontes das apresentações em ferramentas/plano-estrategico-<código>/project. Todas conferidas na renderização local, sem sobreposição.
 
 Em aberto para a Ufape: regra escrita dos 20%; confirmar as leituras da decisão 28 (b) e (e); regra única de canais da oferta de 20% na área de cardiologia (289 usa e-mail e WhatsApp com autorização por canal, 698 só mídia paga); correções de página (frases do MEC, turma mínima de 20); se o deck de cliente da 68606 passa a meta de 15 para 30.
+
+## 29/10/2026 · Meta de 30 aplicada no deck de cliente da 68606
+
+Decisão 29 registrada. Deck de cliente atualizado: https://claude.ai/artifact/4BiDFKgeAVhvzaorwo5eAD (versão 15). Rodada dos planos estratégicos encerrada; ficam em aberto só as respostas da Ufape listadas acima.
