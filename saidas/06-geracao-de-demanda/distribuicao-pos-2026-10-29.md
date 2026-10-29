@@ -27,7 +27,7 @@
 1. **A capilaridade vem da cadeia, não do número de canais.** Cada matéria-prima de valor (uma sessão ao vivo gravada, um episódio, um conteúdo de docente, um caso do cronograma) é produzida e revisada uma vez e alimenta de 5 a 17 canais diferentes do mapa. Seção 2 mostra 7 cadeias e quantos canais cada uma alcança.
 2. **21 canais entram** (13 ativos e 8 em teste, do mapa do plano). Para cada um, a seção 1 diz que matéria-prima recebe, em que formato sai, quem faz e como mede. Os 3 canais fora (TikTok, X, agregadores) continuam fora, com o motivo do plano.
 3. **Mapa de parceiros do C7 com 10 tipos.** Cada tipo tem oferta, pedido, risco e a regra de dados L4: a Ufape nunca recebe lista do parceiro, o parceiro divulga para a própria base com link e UTM da Ufape, e o lead entra pelo formulário da Ufape. Nada de parceria sem acordo registrado.
-4. **Nomes de entidades só com fonte.** Achados: a Associação Brasileira de Gastroenterologia Animal (ABRAGA) e seu congresso internacional; um congresso comercial de Gastroenterologia Veterinária em São Paulo (4ª edição, 2026); a Anclivepa-SP (que também é concorrente da linha); três veículos da área. Todos com [CONFIRMAR].
+4. **Nomes de entidades só com fonte.** Achados: a Associação Brasileira de Gastroenterologia Animal (ABRAGA), citada nos anais de um congresso internacional da área; um congresso comercial de Gastroenterologia Veterinária em São Paulo (4ª edição, 2026); a Anclivepa-SP (que também é concorrente da linha); três veículos da área. Todos com [CONFIRMAR].
 5. **Ponto que o cmo precisa saber:** a fonte do 2º Congresso Internacional de Gastroenterologia Animal (2025) cita como diretora científica uma pessoa com nome compatível, mas não idêntico, ao da coordenação da 68606. Se for a mesma pessoa, a ABRAGA deixa de ser um parceiro frio e vira a porta mais forte do C7, mas também exige cuidado com conflito de interesse. Não foi afirmado em nenhum lugar deste plano. Seção 3.4.
 6. **Trilha da área (F4) com 5 degraus** reais do catálogo (455, 669, 721, 291, 68637) até a Pós 68606, sem crédito, sem combo e sem desconto de ponte (D7). A página 623 fica fora até a correção (decisão 13). O risco de canibalização é medido, não ignorado.
 7. **F2, F5 e F14 têm operação desenhada** com papéis, fontes de matéria-prima, saídas, medidas, pré-requisitos e como desfazer. Todos dependem de decisões da Ufape listadas na seção 8.
@@ -519,7 +519,7 @@ Depois, quando houver peça aprovada: distribuicao volta para escrever convites 
 - [x] Nenhum benefício, desconto ou bolsa afirmado; condições de parceiro e de trilha como opção a decidir.
 - [x] Sem urgência falsa; nenhuma data de campanha neste plano. Datas citadas são de fontes externas (eventos já ocorridos) e do catálogo.
 - [x] LGPD: só números somados; L4 aplicada por tipo de parceiro; consentimento separado por finalidade (via estratégia de relacionamento).
-- [x] Docentes só com nome e titulação da ficha; nomes de terceiros das fontes não copiados, com a exceção justificada e marcada [CONFIRMAR].
+- [x] Docentes só com nome e titulação da ficha; nomes de terceiros das fontes não copiados; a seção 3.4 descreve a coincidência de nome sem copiar o nome (marcado [CONFIRMAR]).
 - [x] Nada publicado, enviado, contratado ou pago; nenhum parceiro contatado.
 - [x] Sem travessão nem meia-risca (conferido na escrita; a busca dos caracteres é do qa).
 - [x] The Growth Hub não é citada como "agência" (a empresa não é citada neste arquivo).

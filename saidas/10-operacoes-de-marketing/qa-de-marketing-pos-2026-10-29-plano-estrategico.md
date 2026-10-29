@@ -775,7 +775,7 @@ O tratamento é cuidadoso no essencial: condicional ("se for a mesma"), sem afir
 
 ### 6.7 Travessão e meia-risca
 
-Nenhuma ocorrência de "—" nem de "–" encontrada na leitura integral dos quatro arquivos. Nesta rodada eu tinha só leitura de arquivo, sem ferramenta de busca por caractere, então a conferência foi visual. [SUPOSIÇÃO: recomendo que o orquestrador rode uma busca pelos dois caracteres nos quatro arquivos antes da aprovação humana.] Este parecer não usa nenhum dos dois.
+Nenhuma ocorrência de travessão nem de meia-risca encontrada na leitura integral dos quatro arquivos. Nesta rodada eu tinha só leitura de arquivo, sem ferramenta de busca por caractere, então a conferência foi visual. [SUPOSIÇÃO: recomendo que o orquestrador rode uma busca pelos dois caracteres nos quatro arquivos antes da aprovação humana.] Este parecer não usa nenhum dos dois.
 
 ### 6.8 Nome da The Growth Hub
 
@@ -814,7 +814,7 @@ Regra de nomenclatura cumprida nos quatro arquivos (a empresa só aparece nos ch
 - Aprovador humano de cada tipo de saída (tabela de ufape-geral.md, UD8).
 - Texto de certificação aprovado pela regulação para a Pós.
 - Leitura jurídica do CDC na indicação (D-N7) e de CONAR e CFMV no anúncio de parceria (J1).
-- Busca automática de "—" e "–" nos quatro arquivos antes da aprovação humana.
+- Busca automática de travessão e de meia-risca nos quatro arquivos antes da aprovação humana.
 - Organização do congresso e existência oficial da ABRAGA; vínculo da coordenação (DP5).
 
 ## Fontes
@@ -825,3 +825,56 @@ Regra de nomenclatura cumprida nos quatro arquivos (a empresa só aparece nos ch
 - docs/execucao-2026-10-26.md (decisões 1 a 26).
 - saidas/01-inteligencia-de-mercado/pesquisa-de-mercado-pos-2026-10-28-benchmarks.md.
 - auditorias/conformidade-educacional.md, 02-estrategia-e-posicionamento.md, 06-geracao-de-demanda.md, 07-email-e-whatsapp.md, 11-midia-paga.md.
+
+---
+
+## Conferência das correções
+
+- **Data:** 29/10/2026 (segunda rodada do qa-de-marketing, só sobre as trocas).
+- **Escopo:** as 50 trocas da seção 3, aplicadas no commit c2478b4 [SUPOSIÇÃO: número do commit informado pelo orquestrador; não conferi o histórico do git, porque nesta rodada eu tinha só leitura de arquivo]. Para cada troca conferi: (a) o texto novo está no arquivo como pedido; (b) o trecho antigo não sobrou; (c) a troca não criou incoerência nova em códigos de círculos, ligações e pedidos à Ufape. O mérito do que não foi trocado não foi reaberto.
+- **Leitura:** os quatro arquivos lidos inteiros nesta rodada (plano, 483 linhas; relacionamento, 392; distribuição, 576; mídia, 382). A ausência do trecho antigo e de travessão ou meia-risca foi conferida na leitura, sem busca por caractere (vale a recomendação da seção 6.7).
+
+### Troca por troca
+
+| Arquivo | Troca e linha atual | Texto novo presente | Trecho antigo ausente |
+|---|---|---|---|
+| Plano | P01 (linha 90), P02 (143), P03 (152), P04 (153), P05 (246), P06 (248), P07 (251) | 7 de 7 | 7 de 7 |
+| Relacionamento | R01 (75), R02 (97), R03 (246), R04 (131), R05 (182), R06 (28), R07 (199), R08 (312), R09 (314), R10 (306), R11 (307), R12 (323), R13 (377) | 13 de 13 | 13 de 13 |
+| Distribuição | D01 (20), D02 (31), D03 (267), D04 (27), D05 (131), D06 (144), D07 (157), D08 (168), D09 (179), D10 (191), D11 (203), D12 (511), D13 (317), D14 (55), D15 (48), D16 (51), D17 (67), D18 (231), D19 (393), D20 (94), D21 (422), D22 (349), D23 (12), D24 (509), D25 (347) | 25 de 25 | 25 de 25 |
+| Mídia | M01 (23 e 24), M02 (55), M03 (138), M04 (48), M05 (62) | 5 de 5 | 5 de 5 |
+
+### Coerência depois das trocas
+
+- **Círculos e indicação:** o indicador é C1 a C4, com C6 e C7 só por decisão da Ufape e C5 nunca, igual no plano (linha 143 e [GASTRO] C8, linha 157) e no relacionamento (1.3, linha 75; 1.5, linha 100; 3.2, item 1). A 68608 aparece como "quando a turma começar" nos três pontos (plano 152; relacionamento 97 e 246). OK.
+- **Contagem das cadeias:** recontei os números de canal de cada diagrama: A 17, B 11, C 10, D 9, E 5, F 9, G 6. O mínimo 5 e o máximo 17 batem com o resumo (seção 0, item 1) e com o checklist das auditorias (linha 511). OK.
+- **Ligações e LGPD na mídia:** a nota de códigos (linha 23) está no cabeçalho; LGPD-L6 (linha 55) e LGPD-L4 (linha 138) aplicadas. Não sobrou "L4" nem "L6" solto no sentido de LGPD; L1 a L5 aparecem só como ligações (seções 2 e 5.2). OK.
+- **Pedidos à Ufape:** o relacionamento usa UN1, UN2, UN3 e UN6 no mesmo sentido do plano, UA1 e UA4 no mesmo sentido, e UN8, UA5 e UA6 como códigos novos, marcados como tais. UA2 aparece na distribuição (linha 486) e na mídia (linha 281) só no sentido do plano. A lista do AR4 (linha 323) bate com as seções 5.2 e 5.3. UD1 citado em P06 existe no plano (linha 333); DP9 citado em D14 existe na distribuição (linha 478) com o tema certo (regra de imagem em aula prática). OK.
+- **Decisão 14:** presente na trilha do plano (F4, linha 251) e da distribuição (4.3, linha 349). OK.
+- **Conformidade:** D13 aplicada; "título de especialista" não aparece mais. A FALHA da seção 4 está resolvida e a conformidade fica sem item pendente nos quatro arquivos.
+
+### O que falta
+
+**D26** (distribuição, "Auditorias aplicadas", bloco auditorias/conformidade-educacional.md, linha 522). Resíduo das trocas D01 a D03: o checklist ainda cita uma exceção de nome copiado que não existe mais no arquivo, o que contradiz o cabeçalho (linha 20) e a seção 3.4 (linha 267).
+- Atual:
+```
+nomes de terceiros das fontes não copiados, com a exceção justificada e marcada [CONFIRMAR].
+```
+- Substituir por:
+```
+nomes de terceiros das fontes não copiados; a seção 3.4 descreve a coincidência de nome sem copiar o nome (marcado [CONFIRMAR]).
+```
+
+**Recomendação que não bloqueia** (não estava no parecer original): distribuição, seção 0, item 4 (linha 30), o trecho `a Associação Brasileira de Gastroenterologia Animal (ABRAGA) e seu congresso internacional` ainda liga o congresso à entidade como se fosse dela, o que a própria linha 254 e a troca P01 do plano evitam. Sugestão de troca: `a Associação Brasileira de Gastroenterologia Animal (ABRAGA), citada nos anais de um congresso internacional da área`.
+
+### Veredito final por arquivo
+
+| Arquivo | Veredito final | O que falta |
+|---|---|---|
+| Plano (cmo) | **APROVADO** | nada |
+| Relacionamento | **APROVADO** | nada |
+| Distribuição | **CORRIGIR** | D26 (uma troca no checklist; nenhum item de conformidade em falha) |
+| Mídia | **APROVADO** | nada |
+
+**Veredito do conjunto: CORRIGIR, só por D26.** A conformidade educacional está sem FALHA nos quatro arquivos. Plano, relacionamento e mídia estão liberados. A distribuição volta ao agente distribuicao para aplicar D26 exatamente como escrita; depois disso basta conferir a linha 522, sem nova rodada completa, e o conjunto segue para a aprovação humana (aprovador ainda [CONFIRMAR], UD8). Nada é publicado, enviado ou pago a partir deste parecer.
+
+**Fontes desta conferência:** os quatro arquivos revisados, na versão atual (caminhos no cabeçalho); a seção 3 deste parecer.
