@@ -422,7 +422,7 @@ Os status não mudam para 657: 13 ativos (o YouTube com condição), 8 em teste 
 Pela decisão 28 (d), o canal 21 (parceiros) sai do plano: para 657 ficam 13 ativos (o YouTube com condição), 7 em teste e 4 fora.
 ```
 
-**D07** (seção 4, tabela, última linha)
+**D07** (seção 4, tabela, última linha; a troca vira duas linhas da tabela)
 - Atual:
 ```
 | 21 a 23. Parceiros, imprensa, congressos | CBAV, Abrativa e o congresso de TIVA, RECOVER (com regra de marca), equipes de anestesia de hospitais; seção de distribuição abaixo |
@@ -436,13 +436,13 @@ Pela decisão 28 (d), o canal 21 (parceiros) sai do plano: para 657 ficam 13 ati
 **D08** (seção 3, linha C7)
 - Atual:
 ```
-hospitais e clínicas com serviço de anestesia (equipes de anestesia volante [SUPOSIÇÃO]), Ufape Clínica (N11), indústria de equipamentos (monitores, ventiladores, bombas de infusão) e de fármacos anestésicos, CRMV-SP
+hospitais e clínicas com serviço de anestesia (equipes de anestesia volante [SUPOSIÇÃO]), Ufape Clínica (N11), indústria de equipamentos (monitores, ventiladores, bombas de infusão) e de fármacos anestésicos
 ```
 - Substituir por:
 ```
-Ufape Clínica (N11), CRMV-SP; hospitais, clínicas e indústria ficam fora como parceiros (decisão 28 (d)), e o CRMV-SP
+Ufape Clínica (N11) (hospitais, clínicas e indústria ficam fora como parceiros, decisão 28 (d))
 ```
-- Observação: a substituição termina em "e o CRMV-SP" porque o trecho seguinte do plano é " (só pauta técnica e institucional)". Se o cmo preferir, pode escrever só "Ufape Clínica (N11); hospitais, clínicas e indústria ficam fora como parceiros (decisão 28 (d)); CRMV-SP", com o mesmo efeito.
+- Resultado na linha: "... RECOVER (S19, só se a regra de marca permitir), Ufape Clínica (N11) (hospitais, clínicas e indústria ficam fora como parceiros, decisão 28 (d)), CRMV-SP (só pauta técnica e institucional)".
 
 **D11** (seção 6, F7)
 - Atual:
@@ -801,7 +801,7 @@ Leitura integral sem nenhuma ocorrência de travessão nem de meia-risca. Nesta 
 
 - A conferência de travessão e meia-risca foi visual, sem busca por caractere.
 - Convite de 657 ou anúncio a quem visitou ou comprou o 488 associa a Pós ao título (C12 a C14, D25), a mesma leitura do plano na seção 11.
-- Clínicas e hospitais parceiros entram na regra "parceiros são empresas" da decisão 28 (d) (D12, D22); entidades da especialidade não.
+- Clínicas e hospitais parceiros entram na regra "parceiros são empresas" da decisão 28 (d) (D08, D12, D22); entidades da especialidade não.
 - O identificador do slide 7 vem do modelo da Gastro.
 
 ## [CONFIRMAR]

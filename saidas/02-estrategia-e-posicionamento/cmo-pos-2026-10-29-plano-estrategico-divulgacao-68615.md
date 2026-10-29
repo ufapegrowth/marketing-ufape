@@ -4,7 +4,7 @@
 - **Linha:** pos
 - **Data:** 29/10/2026 (quinta-feira)
 - **Pedido do CEO (29/10/2026):** rodar, para mais 10 cursos, o mesmo plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (mídia paga e orgânica, sem datas e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo é um dos 10: Pós-graduação em Patologia Clínica.
-- **Curso:** Pós-graduação em Patologia Clínica, turma VII, São Paulo, código 68615, início 20/03/2027, status "aberto" (catálogo, seção 2; ficha contexto/cursos/pos/68615-pos-graduacao-em-patologia-clinica.md). O plano vale para esta turma e para as próximas turmas do curso.
+- **Curso:** Pós-graduação em Patologia Clínica, turma VII, São Paulo, código 68615, início 20/03/2027, status "aberto" (catálogo, seção 2; ficha contexto/cursos/pos/68615-pos-graduacao-em-patologia-clinica.md). O plano é do curso, não de uma turma (decisão 28 f): a turma VII é a turma em captação hoje, e o plano vale igual para as próximas.
 - **Como ler:** este arquivo traz só o bloco **[PATOLOGIA CLÍNICA]** de cada seção. As partes **[MOLDURA]** (regras L1 a L8, os nove círculos, os 24 canais e seus critérios, as cinco ligações entre paga e orgânica, o catálogo de formatos F1 a F16, os indicadores e o formato dos pedidos de aprovação) ficam como estão em saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md e não são reescritas aqui. Cada seção abaixo aponta a seção da moldura que completa. Os códigos C1 a C9, F1 a F16, L1 a L8, UD1 a UD8, UN1 a UN7 e UA1 a UA4 têm o mesmo sentido da moldura. Pedidos novos, só deste curso, usam o prefixo **UPC** (pedido à Ufape, Patologia Clínica), para não colidir com códigos existentes.
 - **O que não entra aqui:** datas de execução, calendário, peças, textos de anúncio, de mensagem e roteiros. O kit de lançamento da turma (página, mensagens, posts, criativos, mídia com subida e extensão) já está no plano da onda 2 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md, seção 4.4) e não muda aqui. As únicas datas citadas são do catálogo e da ficha (início, 3º módulo, prova de bolsa) ou de fontes externas.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
@@ -25,11 +25,11 @@
 ## 0. Resumo para quem decide
 
 1. **Mesma lógica da Gastro, outra fase.** A Gastro estava na reta final da turma. A Patologia Clínica está no começo do H1: faltam 142 dias para o início (20/03/2027) e a matrícula vai até o 3º módulo (22 e 23/05/2027, decisão 18). Por isso a divulgação contínua aqui trabalha a turma inteira, e a paga ainda tem a fase de frio antes do início.
-2. **Meta:** 30 matrículas ou mais na turma VII; 15 confirmam a turma (decisões 11 e 27). Meta em reais: 30 x R$ 35.400,00 = R$ 1.062.000,00. Teto de mídia por matrícula: R$ 66,67 (meta) e R$ 133,33 (confirmar a turma).
+2. **Meta:** 30 matrículas ou mais por turma do curso (hoje, a turma VII); 15 confirmam a turma (decisões 11 e 27). Meta em reais: 30 x R$ 35.400,00 = R$ 1.062.000,00. Teto de mídia por matrícula: R$ 66,67 (meta) e R$ 133,33 (confirmar a turma).
 3. **O que é diferente da Gastro:** (a) a área tem três Pós da Ufape no mesmo segmento (Patologia Clínica, Citopatologia turma I, que começa uma semana depois, e Hematologia), com docentes em comum: o plano trata a base da área como uma só e reparte por vocabulário, sem uma turma tirar aluno da outra; (b) o termo principal de busca tem volume alto e é disputado por agregadores e EAD, ao contrário do nicho da Gastro; (c) o público inclui quem trabalha ou quer trabalhar em laboratório (objetivo da ficha); (d) a ficha não traz "aulas abertas", estágio nem grupo de casos: o caso ao vivo depende de decisão nova da Ufape; (e) existe prova de bolsa da área (27/11/2026), sem turma de destino escrita na página.
 4. **Círculos mais promissores:** ex-alunos das turmas I a VI (C1) e a rede da coordenação, que também ensina na Citopatologia, em quatro outras Pós e é a única professora do mini curso de patologia da linha Livres (C6 e C2). Tamanho de cada círculo: [CONFIRMAR].
-5. **Canais:** o mapa de 24 canais não muda de status (13 ativos, 8 em teste, 3 fora). Muda o peso: busca paga e orgânica pesam mais (termo disputado), LinkedIn pelo perfil do docente ganha um motivo a mais (público de laboratório) e o parceiro principal passa a ser o laboratório veterinário.
-6. **Três testes:** (T1) indicação de ex-alunos; (T2) laudo comentado ao vivo com a coordenação, aberto à base da área de laboratório; (T3) docente como mídia, que nesta turma cabe no pago porque ainda há fase de frio antes do início.
+5. **Canais:** o mapa de 24 canais muda num ponto: o canal 21 (parceiros) sai do plano pela decisão 28 (d) e fica fora (13 ativos, 7 em teste, 4 fora). Muda o peso: busca paga e orgânica pesam mais (termo disputado), LinkedIn pelo perfil do docente ganha um motivo a mais (público de laboratório) e laboratórios veterinários entram só como público (equipe e clientes alcançados pelos canais próprios e pela paga), não como canal.
+6. **Três testes:** (T1) indicação de ex-alunos; (T2) laudo comentado ao vivo com a coordenação, aberto à base da área de laboratório; (T3) docente como mídia, que nesta turma pode ter parte paga, inclusive no frio antes do início, com até 10% da verba (R$ 200,00) tirados da parte Meta, se a condição de volume da moldura de mídia (seção 4.3) for cumprida.
 7. **O que trava:** página da turma com frases ligadas ao MEC e turma mínima de 20; tamanho e consentimento da base; destino da prova de bolsa; regra de roteamento entre Patologia Clínica e Citopatologia no time de vendas; se a Ufape Clínica tem laboratório próprio que possa ser cenário e parceiro. Tudo na seção 8.
 
 ---
@@ -44,7 +44,7 @@ Moldura: seção 1 do plano da Gastro (objetivo, métrica, meta, valor mínimo, 
 - **Meta em reais da turma VII:** 30 x R$ 35.400,00 = R$ 1.062.000,00 (regra das decisões 16 e 27 com o total do catálogo; é aritmética, não previsão). Para confirmar a turma: 15 x R$ 35.400,00 = R$ 531.000,00. A prova de bolsa da área prevê 11 bolsas (2 de 50%, 4 de 25% e 5 de 10%, ficha 68658); se a turma de destino for esta, a receita real fica abaixo da conta, e isso não muda a meta em matrículas [CONFIRMAR destino].
 - **Teto de mídia por matrícula:** R$ 66,67 para a meta de 30 e R$ 133,33 para confirmar com 15 (decisão 27, verba de R$ 2.000,00 da decisão 15).
 - **H1 (turma em captação):** do lançamento até a véspera do 3º módulo. Início em 20/03/2027 (planilha e ficha); módulos 1, 2 e 3 online (20 e 21/03, 24 e 25/04, 22 e 23/05/2027, ficha). O calendário do H1 está no plano da onda 2 e não entra aqui.
-- **H2 (entre turmas):** depois da data limite da turma VII. A turma VIII não está no catálogo [CONFIRMAR data e número]. No H2 a base da área é trabalhada sem chamada de compra para turma que não existe.
+- **H2 (entre turmas):** depois da data limite da turma VII. A turma VIII não está no catálogo [CONFIRMAR data e número]. Pela decisão 28 (e), a próxima turma abre normalmente de 3 a 4 meses depois de uma turma confirmada [CONFIRMAR]; o H2 é curto e a base precisa estar pronta para a abertura. No H2 a base da área é trabalhada sem chamada de compra para turma que ainda não está no catálogo.
 
 ---
 
@@ -75,8 +75,8 @@ Moldura: seção 1 do plano da Gastro (objetivo, métrica, meta, valor mínimo, 
 | **Mercado** | | | |
 | S17 | O termo principal "pós-graduação em patologia clínica veterinária" tem volume qualitativo "Alto" e facilidade baixa (agregadores na frente); a área aparece sobretudo em EAD nos agregadores | pesquisa-de-palavras-chave-pos-2026-10-27-onda2, seção 8 (68615-K0, K5) | [SUPOSIÇÃO] qualitativa, sem volume numérico |
 | S18 | Concorrência achada: UFRGS, Especialização em Patologia Clínica Veterinária, 390 h, 10 módulos, 24 meses, teórica a distância e prática presencial aos fins de semana, edição 2025, Porto Alegre; PUCPR, especialização semipresencial em Patologia Clínica Animal, 12 meses, Curitiba; UNIFAA, matriz de 2022 com citopatologia e mielograma. Nenhuma oferta semipresencial em São Paulo apareceu | página da UFRGS lida em 29/10/2026; resumo de busca de 29/10/2026 (PUCPR); palavras-chave onda 2, seção 8 (UNIFAA) | alta (UFRGS), média (PUCPR, UNIFAA); ausência em SP é indício, não prova |
-| S19 | Entidade da especialidade: um resumo de busca indica que os anais da IV Mostra Científica e do IV Encontro Nacional de Patologia Clínica Veterinária (2020) citam um grupo de trabalho da Associação Brasileira de Patologia Clínica Veterinária (ABPCV) na comissão organizadora. A busca não trouxe site oficial nem evento de 2025 ou 2026. Um Encontro Nacional de Patologia Clínica Veterinária (ENPCV) foi realizado em Jaboticabal (SP) em 2017 | resumos de busca de 29/10/2026 (fontes na seção 11; páginas não abertas) | baixa; [CONFIRMAR na fonte oficial] |
-| S20 | A Associação Brasileira de Patologia Veterinária (ABPV) é outra entidade, voltada à patologia veterinária (congresso e encontro nacional próprios). O público dela é de histopatologia e anatomia patológica, que o curso não cobre e que a busca paga já trata como termo a negar | resumo de busca de 29/10/2026; palavras-chave onda 2, seções 3 e 4 | média para a existência; leitura de público é [SUPOSIÇÃO] |
+| S19 | Entidade da especialidade: um resumo de busca indica que os anais da IV Mostra Científica e do IV Encontro Nacional de Patologia Clínica Veterinária (2020) citam um grupo de trabalho da Associação Brasileira de Patologia Clínica Veterinária (ABPCV) na comissão organizadora. A busca não trouxe site oficial nem evento de 2025 ou 2026. Um diretório de eventos lista uma edição do Encontro Nacional de Patologia Clínica Veterinária (ENPCV) em Jaboticabal (SP) em 2017 | resumos de busca de 29/10/2026 (fontes na seção 11; páginas não abertas) | baixa; [CONFIRMAR na fonte oficial] |
+| S20 | A Associação Brasileira de Patologia Veterinária (ABPV) é outra entidade, voltada à patologia veterinária (congresso e encontro nacional próprios). O público dela é de histopatologia e anatomia patológica, que o curso não cobre e que a pesquisa de palavras-chave sugere negar na busca paga (sugestão ainda aberta: a lista atual de negativas não tem esses termos) | resumo de busca de 29/10/2026; palavras-chave onda 2, seções 3 e 4 | média para a existência; leitura de público é [SUPOSIÇÃO] |
 | S21 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; podcast novo começa pequeno e vale pelos cortes | benchmarks, seções 2, 3 e 5.1, via plano da Gastro (S17, S18) | alta para a lacuna |
 
 ### 2.2 O que não sabemos
@@ -85,7 +85,7 @@ Moldura: seção 1 do plano da Gastro (objetivo, métrica, meta, valor mínimo, 
 |---|---|---|---|
 | N1 | Quantos ex-alunos das turmas I a VI, quantos compradores de 462, 106, 655, 107 e 202, e quantos têm consentimento de e-mail e WhatsApp | define o tamanho dos círculos mais quentes | Ufape (CRM, só números somados) |
 | N2 | De onde vieram as matrículas das turmas anteriores | diz qual círculo já funciona | Ufape |
-| N3 | Regra de desconto para aluno e ex-aluno de pós | sem regra, o programa de ex-aluno não tem oferta | Ufape (UD2) |
+| N3 | Regra completa do desconto de 20% de aluno e ex-aluno de Pós (decisão 28 a): validade, acúmulo com bolsa e com promoção, comprovação | o desconto já existe; sem a regra completa, nenhuma peça cita o valor (CDC) | Ufape (UD2) |
 | N4 | Se a Ufape aceita uma sessão aberta da área, já que a ficha não traz aulas abertas | define o T2 | coordenação e Ufape (UD3) |
 | N5 | Se a Ufape Clínica tem laboratório clínico próprio, onde acontecem as práticas e se recebe amostras de clínicas de fora | laboratório próprio é cenário, prova e círculo (quem envia amostra) | Ufape (UPC1) |
 | N6 | Parceiros e patrocinadores (bloco vazio na página) | define o C7 | Ufape (UN4) |
@@ -94,7 +94,7 @@ Moldura: seção 1 do plano da Gastro (objetivo, métrica, meta, valor mínimo, 
 | N9 | Horas do time, quem grava, quem aprova, revisor docente | define quantos canais cabem | Ufape (UD8, UN7) |
 | N10 | Se o docente de fora do país participa de conteúdo, em que idioma e com que autorização de agenda | define se ele entra em F5 e no podcast | coordenação (UPC3) |
 | N11 | Se "Dr. Alessandro Martins" da ficha é o CEO e se "Mv. Ricardo Lopes" (68615) e "MSC. Ricardo Duarte Lopes" (68608) são a mesma pessoa | nome e titulação em peça | Ufape (homonímias já abertas na autoridade-docente) |
-| N12 | Base legal para usar a base de ex-alunos em marketing e para listas em plataformas | sem isso, nenhum envio e nenhum público personalizado | encarregado de dados (UA4) |
+| N12 | Escopo do consentimento da base para novas oportunidades (decisão 28 b): canais cobertos e uso como público nas plataformas de anúncio [CONFIRMAR a interpretação da squad] | define até onde a base entra na paga e nos envios | encarregado de dados (UA4) |
 
 ---
 
@@ -114,15 +114,15 @@ Moldura: seção 3 do plano da Gastro (regra dos círculos, L1 a L8 e a tabela d
 | C4 | ex-alunos de Hematologia, Clínica Médica, Felinos, Dermatologia, Endocrinologia, Infectologia, Nefrologia e Oncologia (áreas que cruzam com os módulos 6, 9, 10, 13, 14, 15, 17 a 19, 21 e 22 da ficha) | segunda especialização com foco em exame complementar [SUPOSIÇÃO] | interesse declarado por área [CONFIRMAR campo] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; só institucional, nada de Pós | se há egressos (N11 da Gastro; pela data do ato, provavelmente ainda não [SUPOSIÇÃO]) |
 | C6 | DRA. Sabrina Caruso Chate e os professores listados (17 no campo da ficha, com a coordenação entre eles), inclusive a coordenação da Hematologia | a coordenação é a voz principal e liga três produtos da área (68615, 333, 462); o post AD-A11-2 já existe (onda 2, seção 3) | quais docentes têm perfil ativo e aceitam publicar; participação do docente de fora do país (N10) |
-| C7 | laboratórios veterinários de análises clínicas; laboratório da Ufape Clínica, se existir (N5); indústria de equipamentos, reagentes e testes rápidos (point of care, módulo 21); bancos de sangue veterinários (módulo 9) [SUPOSIÇÃO de tipo]; ABPCV e encontro nacional da área (S19, a confirmar); CRMV-SP só com pauta técnica e institucional [SUPOSIÇÃO] | o laboratório é empregador, cliente e parceiro ao mesmo tempo: a equipe dele é público e o cliente dele (clínicas) também | lista de parceiros (N6, UN4); nomes só com fonte |
-| C8 | ex-alunos e alunos de C1 a C4 indicando colegas que trabalham em laboratório ou que querem interpretar exames melhor | custo baixo, confiança alta | recompensa e regra (UD1); convivência com a bolsa não acumulativa da prova 68658 |
+| C7 | laboratórios veterinários de análises clínicas; laboratório da Ufape Clínica, se existir (N5); indústria de equipamentos, reagentes e testes rápidos (point of care, módulo 21); bancos de sangue veterinários (módulo 9) [SUPOSIÇÃO de tipo]; ABPCV e encontro nacional da área (S19, a confirmar); CRMV-SP só com pauta técnica e institucional [SUPOSIÇÃO] | pela decisão 28 (d), parceiro deixa de ser canal: o laboratório é empregador e cliente, e a equipe dele é público alcançado pelos canais próprios e pela paga, sem acordo de divulgação | lista de parceiros (N6, UN4); nomes só com fonte |
+| C8 | ex-alunos e alunos de C1 a C4 indicando colegas que trabalham em laboratório ou que querem interpretar exames melhor | custo baixo, confiança alta | regra da indicação, sem desconto para o indicado (decisão 28 c); reconhecimento ao indicador, se houver (UD1) |
 | C9 | médicos veterinários de laboratório e clínicos que pedem e leem exames, sobretudo em São Paulo (S1), que buscam o termo da área ou perguntas de rotina (pré-analítico, interpretação de hemograma e bioquímico, urinálise, efusões) | termo principal disputado (S17): a busca de cauda e as perguntas a assistentes de IA são a porta mais barata | volumes (Search Console, Planejador do Google Ads) [CONFIRMAR] |
 
 ---
 
 ## 4. Mapa de canais (capilaridade)
 
-Moldura: seção 4 do plano da Gastro (24 canais, status, papel e departamento). **Nenhum status muda neste curso:** 13 ativos (o YouTube com condição), 8 em teste e 3 fora, como na moldura.
+Moldura: seção 4 do plano da Gastro (24 canais, status, papel e departamento). **Um status muda, pela decisão 28 (d):** o canal 21 (parceiros) passa de teste para fora. Ficam 13 ativos (o YouTube com condição), 7 em teste e 4 fora.
 
 ### [PATOLOGIA CLÍNICA]
 
@@ -135,9 +135,10 @@ Moldura: seção 4 do plano da Gastro (24 canais, status, papel e departamento).
 | 11 e 12. Podcast e YouTube | temas de controle de qualidade, erro pré-analítico e "como montar um laboratório" servem a episódio; o docente de fora do país só com N10 |
 | 13. LinkedIn (perfil de docente) | segue em teste, com um motivo a mais: o público de laboratório (responsável técnico, gestor de laboratório) é profissional de serviço B2B [SUPOSIÇÃO]. LinkedIn pago segue fora |
 | 16. Google Ads | mais importante que na Gastro (termo com volume). Negativas próprias já existem: citopatologia, hematologia, Goiânia, Goiás; sugestão aberta de histopatologia, anatomopatologia e necropsia (S20) |
-| 18. Comunidades | a ficha não traz grupo de discussão de casos (S12); a comunidade de ex-alunos começaria do zero (UD4) |
+| 18. Comunidades | pela decisão 28 (g), a comunidade da Ufape são os grupos de estudo, que já existem e não precisam ser criados; o catálogo não tem grupo de estudos de patologia clínica ou de laboratório (seção 7), então qual grupo atende este curso é [CONFIRMAR com a Ufape]; a ficha não traz grupo de discussão de casos (S12) |
 | 19. Eventos e aulas abertas | sem aula aberta no cronograma (S12): o T2 é formato novo, com decisão da Ufape (UD3) |
-| 21 a 23. Parceiros, imprensa, congressos | laboratórios e indústria de diagnóstico no lugar da indústria de endoscopia da Gastro; entidade da área ainda sem fonte oficial (S19) |
+| 21. Parceiros | fora pela decisão 28 (d): parceiros, na prática, são empresas, e o canal sai do plano; laboratórios e indústria de diagnóstico ficam só como público |
+| 22 e 23. Imprensa e congressos | entidade e encontro da área ainda sem fonte oficial (S19); presença em congresso não é parceria comercial |
 | 24. Agregadores | continua fora, com mais motivo: é onde mora a oferta EAD barata da área (S17, S18) |
 
 ---
@@ -149,7 +150,7 @@ Moldura: seção 5 do plano da Gastro (função de cada uma, as cinco ligações
 ### [PATOLOGIA CLÍNICA]
 
 - **H1 (turma VII em captação):** a paga já está desenhada no kit da onda 2: R$ 2.000,00, com Meta R$ 1.250,75 e Google R$ 749,25; 85% (R$ 1.700,00) da subida ao corte da 1ª mensalidade e 15% (R$ 300,00) na extensão até a véspera do 3º módulo (gestor-de-midia-pos, 12.5 e 12.9, via plano da onda 2). Este plano não mexe na divisão. O que entra: (a) as cinco ligações como regra; (b) a ligação 1 tem tempo de funcionar no frio antes do início, coisa que a Gastro não tinha; (c) a regra extra da área (seção 3) também vale para a paga: remarketing de quem visitou a página da Citopatologia ou da Hematologia não recebe anúncio da Patologia Clínica [SUPOSIÇÃO de desenho, mesma lógica do "interesse declarado"].
-- **H2 (entre turmas):** sem turma VIII no catálogo, a paga fica parada ou só recolhe interesse para a lista de espera, e só com verba nova aprovada (UD7).
+- **H2 (entre turmas):** sem turma VIII no catálogo, a paga fica parada ou só recolhe interesse para a lista de espera, e só com verba nova aprovada (UD7). Como a próxima turma abre normalmente de 3 a 4 meses depois da confirmação (decisão 28 e), a paga volta com a verba da turma VIII assim que ela entrar no catálogo com status "aberto".
 - **Fonte de criativo:** coordenação e docentes (autoridade), temas do cronograma em formato de laudo ou lâmina comentada (nunca paciente identificável), cortes do UFAPE Cast quando houver episódio da área.
 
 ---
@@ -164,18 +165,18 @@ Moldura: seção 6 do plano da Gastro (catálogo F1 a F16, esforço, impacto, ri
 |---|---|---|---|
 | F1 | Programa de indicação | seis turmas de ex-alunos (C1); alunos da Hematologia e de outras Pós onde a coordenação ensina (C3) | entra (T1) |
 | F2 | Caso ao vivo com a coordenação | aqui vira "laudo comentado": um hemograma, um bioquímico ou uma efusão discutidos como caso, tema do cronograma (módulos 1, 2, 10, 11, 20) | entra (T2); depende de UD3, porque a ficha não tem aula aberta |
-| F3 | Comunidade de ex-alunos | não há grupo de casos na ficha; começaria do zero | depois, se T1 e T2 mostrarem base |
+| F3 | Comunidade de ex-alunos | a comunidade são os grupos de estudo que já existem (decisão 28 g); falta grupo de estudos da área de laboratório no catálogo [CONFIRMAR com a Ufape] | não cria comunidade nova; usa os grupos de estudo |
 | F4 | Trilha da área | a escada existe: 462, 106, 655, 107 e 202 em Livres, até a Pós | infraestrutura; peças de Livres seguem suspensas (decisão 14) |
 | F5 | Conteúdo com docentes em parceria | 17 professores listados, de hematologia, bioquímica, citologia, microbiologia e controle de qualidade | entra (T3) |
 | F6 | Anúncio de líder de opinião | o colega confia no colega [SUPOSIÇÃO]; com fase de frio antes do início, o teste tem onde rodar | entra (T3, parte paga) |
-| F7 | Co-marketing com parceiros | indústria de equipamentos e testes rápidos, laboratórios | depois; exige contrato |
+| F7 | Co-marketing com parceiros | indústria de equipamentos e testes rápidos, laboratórios | fora: o canal de parceiros sai do plano (decisão 28 d) |
 | F8 | Presença em eventos da área | entidade e encontro da área sem fonte oficial recente (S19) | depois de confirmar a entidade |
 | F9 | Conteúdo para busca por IA | termo disputado; as perguntas de rotina são a porta (S17) | infraestrutura com a página da área |
 | F10 | Lista de espera da próxima turma | turma VIII sem data | infraestrutura, só depois da data limite da VII |
 | F11 | Material de referência (isca) | o guia de decisão da área já existe (iscas-digitais-pos, A11); um guia de coleta e envio de amostras (módulo 1) é candidato natural [SUPOSIÇÃO] | já existe em parte |
 | F12 | Caso da semana (quiz) | "lâmina ou laudo da semana": formato visual, barato, com resposta comentada por docente | alternativa ao T3 se nenhum docente aceitar |
 | F13 | Episódios temáticos do UFAPE Cast | controle de qualidade, erro pré-analítico, laboratório próprio | médio prazo |
-| F14 | Rede de clínicas parceiras | aqui vira rede de laboratórios parceiros (equipe do laboratório como público) | depois de UN4 |
+| F14 | Rede de clínicas parceiras | aqui viraria rede de laboratórios parceiros | fora: o canal de parceiros sai do plano (decisão 28 d) |
 | F15 | Evento próprio da área | a linha Livres já tem o Simpósio de Coagulação gravado (202); um evento de laboratório seria novo | depois; decisão da linha Eventos |
 | F16 | Encaminhamento clínico | aqui vira "clínicas que enviam amostras ao laboratório da Ufape Clínica", só se esse serviço existir (N5) | depois de UPC1 |
 
@@ -185,7 +186,7 @@ Moldura: seção 6 do plano da Gastro (catálogo F1 a F16, esforço, impacto, ri
 |---|---|---|---|
 | **Impacto alto** | F1 indicação; F10 lista de espera | F2 laudo comentado ao vivo | |
 | **Impacto médio a alto** | F4 trilha da área | F5 docentes em parceria; F9 busca por IA | |
-| **Impacto médio** | F12 lâmina ou laudo da semana; F11 isca (parte já existe) | F6 líder de opinião; F13 podcast; F14 rede de laboratórios; F16 envio de amostras; F3 comunidade | F7 co-marketing; F8 eventos externos; F15 evento próprio |
+| **Impacto médio** | F12 lâmina ou laudo da semana; F11 isca (parte já existe) | F6 líder de opinião; F13 podcast; F16 envio de amostras; F3 comunidade (grupos de estudo, decisão 28 g) | F8 eventos externos; F15 evento próprio (F7 e F14 fora, decisão 28 d) |
 
 Diferenças contra a Gastro: F9 sobe para impacto médio a alto (termo com volume e disputado); F3 desce para impacto médio (não há grupo de casos para estender); F12 tem encaixe melhor (a área é visual).
 
@@ -226,8 +227,8 @@ Moldura: seção 8 do plano da Gastro. Os códigos UD1 a UD8, UN1 a UN7, UA1 a U
 
 | # | Decisão | Bloqueia |
 |---|---|---|
-| UD1 | Benefício e regra da indicação, inclusive como convive com a bolsa não acumulativa da prova 68658 | T1 |
-| UD2 | Regra de desconto de aluno e ex-aluno de pós | C1 a C4 |
+| UD1 | Regra da indicação: o indicado não tem desconto próprio (decisão 28 c); falta decidir se o indicador recebe algum reconhecimento e qual, e como isso convive com o desconto de 20% e com a bolsa não acumulativa da prova 68658 | T1 |
+| UD2 | Regra completa do desconto de 20% de aluno e ex-aluno de Pós, que já existe (decisão 28 a): validade, acúmulo com bolsa e com promoção, comprovação | peças com o desconto para C1 a C4 |
 | UD3 | Abrir uma sessão de laudo comentado a não alunos (a ficha não tem aula aberta) e regra de gravação | T2 |
 | UD5 | Página da área do curso, com ligação para Citopatologia, Hematologia e guia da área | H2, F9, F10 |
 | UD6 | Anúncio pelo perfil do docente dentro da verba da turma | T3 (parte paga) |
@@ -242,9 +243,9 @@ Moldura: seção 8 do plano da Gastro. Os códigos UD1 a UD8, UN1 a UN7, UA1 a U
 | UPC3 | Se o docente de fora do país e os demais professores aceitam participar de conteúdo, e em que formato | C6, F5, podcast |
 | UPC4 | Turma de destino da prova 68658 e se o resultado da prova chega antes de a 1ª mensalidade vencer | conta de receita e respostas do time; peças de prova seguem suspensas (decisão 14) |
 
-**Dados (só números somados):** UN1 com os círculos deste curso (C1 turmas I a VI; C2 compradores de 462, 106, 655, 107 e 202, só formados); UN2 origem das matrículas das turmas I a VI; UN3 data e número da turma VIII; UN4 lista de laboratórios, indústria e entidades com que a Ufape já tem relação; UN7 horas do time e revisor docente.
+**Dados (só números somados):** UN1 com os círculos deste curso (C1 turmas I a VI; C2 compradores de 462, 106, 655, 107 e 202, só formados); UN2 origem das matrículas das turmas I a VI; UN3 data e número da turma VIII; UN4 só entidades e eventos da área com que a Ufape já tem relação (laboratórios e indústria saem com o canal de parceiros, decisão 28 d); UN7 horas do time e revisor docente.
 
-**Acessos:** UA1 a UA4 da moldura, sem mudança, mais o campo "curso de interesse dentro da área de laboratório" (seção 7).
+**Acessos:** UA1 a UA3 da moldura, sem mudança; UA4 passa a ser só a confirmação do escopo do consentimento da decisão 28 (b) (canais e uso em plataformas de anúncio); mais o campo "curso de interesse dentro da área de laboratório" (seção 7).
 
 **Pendências do kit da onda 2 que também travam este plano:** OB1 (página corrigida), OU3 (reposição de módulos), OU4 (vagas e números da turma), OU13 (CEP).
 
@@ -253,7 +254,7 @@ Moldura: seção 8 do plano da Gastro. Os códigos UD1 a UD8, UN1 a UN7, UA1 a U
 - Regra de rota por vocabulário entre os três cursos da área, para o CRM e para a paga (07, 10 e 11).
 - Pauta do laudo comentado (T2) e dos conteúdos de docente, com revisão docente (04, 05, 12).
 - Proposta da página da área no formato do template, para a Ufape publicar (08 e 03).
-- Mapa de tipos de parceiro de laboratório e da trilha da área (06).
+- Mapa da trilha da área (06); mapa de parceiros fora pela decisão 28 (d).
 - Leitura semanal lado a lado dos três cursos e relatório da turma VII por círculo (09 e cmo).
 
 ### 8.3 Pedidos de aprovação humana (nada roda antes)
@@ -263,7 +264,7 @@ Moldura: seção 8 do plano da Gastro. Os códigos UD1 a UD8, UN1 a UN7, UA1 a U
 | PPC1 | Aplicar a moldura aprovada a este curso, com a regra extra da área de laboratório (seção 3) | evita oferta dupla na base da área | sem custo direto | uma oferta por contato, rota pela palavra dele | voltar ao plano por turma |
 | PPC2 | Aprovar o desenho do T1 para a squad escrever a regra deste curso | círculo mais quente com custo baixo | benefício [UD1] | indicações medidas na turma VII | encerrar por comunicado, honrando o concedido |
 | PPC3 | Aprovar o convite à coordenação para o T2 (laudo comentado) | formato próprio da área e rota na inscrição | horas da coordenação [CONFIRMAR] | base da área e matéria-prima | não repetir; gravação não publicada |
-| PPC4 | Aprovar o T3 no orgânico e, no pago, uma fatia de até 10% da verba da turma (até R$ 200,00), na fase de frio antes do início, se a condição de volume da estratégia de mídia for cumprida | testa a ponte orgânica e paga sem verba nova | até R$ 200,00 dos R$ 2.000,00 da turma, definidos pelo gestor-de-midia | comparação de custo por conversa e por lead entre perfil do docente e da marca | pausar o anúncio e retirar a parceria |
+| PPC4 | Aprovar o T3 no orgânico e, no pago, uma fatia de até 10% da verba da turma (até R$ 200,00), na fase de frio antes do início, se a condição de volume da estratégia de mídia for cumprida, depois de UD6 e da leitura jurídica J1 da estratégia de mídia (CONAR, CFMV e contrato docente) | testa a ponte orgânica e paga sem verba nova | até R$ 200,00 dos R$ 2.000,00 da turma (R$ 100,00 por lado), tirados da parte Meta e dentro do teto de 30% para testes, definidos pelo gestor-de-midia | comparação de custo por conversa e por lead entre perfil do docente e da marca | pausar o anúncio e retirar a parceria |
 | PPC5 | Autorizar os pedidos UPC1 a UPC4 e os dados UN1 a UN4 e UN7 | sem eles não há medição por círculo nem rota | sem custo direto | linha de base em 4 semanas | não se aplica |
 
 ---
@@ -275,7 +276,7 @@ Moldura: seção 8 do plano da Gastro. Os códigos UD1 a UD8, UN1 a UN7, UA1 a U
 | Turma I (sem C1) | não: é a turma VII | o passo 3 do roteiro vale; C1 tem seis turmas. Atenção à vizinha Citopatologia, que é turma I: ali C1 não existe e a base de laboratório é a mesma |
 | Goiânia | não: a turma é de São Paulo | a coordenação também ensina na 68623, de Goiânia: alunos dela são C3 quando a turma começar; nenhuma cauda de busca de Goiânia (a paga já nega Goiânia e Goiás) |
 | Público diferente | em parte: P1 e quem trabalha em laboratório (S2, S3) | não refaz a persona inteira; acrescenta o profissional de laboratório nos canais 13 (LinkedIn do docente) e 21 (laboratórios parceiros) e nas perguntas de busca de rotina do laboratório |
-| Promoção no catálogo | não há promoção | a prova de bolsa da área (S16) é o item de preço a cuidar: bolsa não acumulativa pesa no benefício de indicação (UD1); nenhuma peça de prova até nova ordem (decisão 14) |
+| Promoção no catálogo | não há promoção | a prova de bolsa da área (S16) e o desconto de 20% de aluno e ex-aluno de Pós (decisão 28 a) são os itens de preço a cuidar: a bolsa é não acumulativa, e como os dois convivem é [CONFIRMAR, UD2]; nenhuma peça de prova até nova ordem (decisão 14) |
 | Turma que já começou | ainda não: começa em 20/03/2027 | do início à véspera do 3º módulo, toda peça diz a regra completa (plano da onda 2, regra 7). Os módulos 1 a 3 são online, então quem entra depois perde só aula online (S7); reposição [CONFIRMAR OU3]. A vizinha Citopatologia tem o módulo 1 presencial e regra própria (onda 2, regra 8) |
 | Curso com irmão na mesma área e na mesma semana | sim (específico deste curso) | regra extra da seção 3; respostas prontas do time sobre a diferença entre os cursos, sem comparar valor (já encomendadas no plano da onda 2) |
 
@@ -296,7 +297,7 @@ Moldura: saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-po
 | Lista de espera (F10) | só depois da data limite da turma VII, para quem aceitar F-B; antes disso, quem não fechou fica na régua da turma |
 | Carta da área | carta de laboratório veterinário, compartilhada pelos três cursos, com um bloco "como funciona a Pós" que muda pelo interesse declarado do contato [SUPOSIÇÃO de desenho]; revisor docente nomeado [CONFIRMAR]; nome da carta [CONFIRMAR] |
 | Convite ao T2 | sessão de laudo comentado com a coordenação; a inscrição pergunta o curso de interesse, sem obrigar resposta e sem exigir F-A ou F-B |
-| Indicação (T1) | indicadores de C1 a C4 (C6 e C7 só se a Ufape decidir; C5 nunca); indicados são veterinários formados de laboratório ou clínicos; turma elegível é a VII enquanto aceitar matrícula, e as próximas quando existirem no catálogo; a indicação não se aplica a Livres nem a prova de bolsa |
+| Indicação (T1) | indicadores de C1 a C4 (C6 só se a Ufape decidir; C7 fora com o canal de parceiros, decisão 28 d; C5 nunca); o indicado não tem desconto próprio (decisão 28 c); indicados são veterinários formados de laboratório ou clínicos; turma elegível é a VII enquanto aceitar matrícula, e as próximas quando existirem no catálogo; a indicação não se aplica a Livres nem a prova de bolsa |
 
 ---
 
@@ -313,18 +314,18 @@ Moldura: saidas/06-geracao-de-demanda/distribuicao-pos-2026-10-29.md (matérias-
 | 3 | C (conteúdo de docente) | base do T3; 17 professores listados | aceite dos docentes (UPC3) |
 | 4 | E (caso da semana: lâmina ou laudo) | barato e visual; alimenta A e B | revisor docente |
 | 5 | B (podcast) | decisão 21; temas de controle de qualidade e laboratório | nome do podcast; episódio da área [CONFIRMAR] |
-| 6 | G (presença externa e parceiro) | depende de acordo e de entidade confirmada | UN4; fonte oficial da entidade |
+| 6 | G (presença externa, sem parceiro comercial) | o canal de parceiros sai (decisão 28 d); fica só presença em congresso e imprensa, com entidade confirmada | fonte oficial da entidade |
 | 7 | F (prova do egresso) | depende de autorização | UN1, L8 |
 
 A matéria-prima MP10 (bastidor da prática) depende de decisão da Ufape: a ficha diz que aulas presenciais e práticas não são transmitidas nem disponibilizadas (S11).
 
-### [PATOLOGIA CLÍNICA] Parceiros por tipo
+### [PATOLOGIA CLÍNICA] Parceiros por tipo (só referência: pela decisão 28 d, parceiro não é canal ativo nem de teste; P7 e P8 ficam fora; P3, P6 e P9 só como presença em evento e imprensa)
 
 | Tipo (moldura) | Em Patologia Clínica | Nome com fonte | Marcação |
 |---|---|---|---|
 | P1 Ufape Clínica | laboratório próprio, se existir; cenário das práticas | nenhum nome novo | [CONFIRMAR, UPC1] |
 | P3 Associação da especialidade | entidade de patologia clínica veterinária | ABPCV, citada como grupo de trabalho na comissão organizadora dos anais do IV ENPCV (2020), segundo resumo de busca | [CONFIRMAR existência atual, site, regras de divulgação]; pergunta à coordenação |
-| P6 Eventos e congressos | encontro nacional da área | ENPCV realizado em Jaboticabal (SP) em 2017, segundo diretório de eventos; nenhuma edição de 2025 ou 2026 achada | [CONFIRMAR próxima edição] |
+| P6 Eventos e congressos | encontro nacional da área | edição do ENPCV em Jaboticabal (SP) em 2017, listada em diretório de eventos; nenhuma edição de 2025 ou 2026 achada | [CONFIRMAR próxima edição] |
 | P6 (vizinho) | congresso de patologia veterinária (anatomia patológica) | Associação Brasileira de Patologia Veterinária (ABPV), com congresso e encontro nacional próprios | público diferente (S20): avaliar só presença, não co-marketing [SUPOSIÇÃO] |
 | P7 Indústria | equipamentos de hematologia e bioquímica, reagentes, testes rápidos | nenhum nome nesta rodada | [CONFIRMAR com a Ufape, UN4] |
 | P8 Laboratórios | laboratórios veterinários de análises clínicas: equipe como público, clientes como canal | nenhum nome nesta rodada | [CONFIRMAR com a Ufape, UN4]; nunca lista de clientes (L4) |
@@ -358,8 +359,8 @@ Moldura: saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-29.md (papel por h
 | Verba e teto | R$ 2.000,00 da turma no ciclo; Meta R$ 1.250,75 e Google R$ 749,25; R$ 1.700,00 até o corte e R$ 300,00 na extensão até a véspera do 3º módulo (plano da onda 2, seção 1). Teto por matrícula: R$ 66,67 (meta de 30) e R$ 133,33 (confirmar com 15). Nada sobe sem os pedidos já abertos na onda 2 (PP6, PP16, AMP13 a AMP25, AGP12 a AGP25) |
 | Frio | ainda existe: antes do início, Meta ampla com idade mínima de 25 anos (decisão 24) e o criativo que o orgânico provar (ligação 1) |
 | Busca | sementes da área (pós-graduação em patologia clínica veterinária e variações); negativas próprias citopatologia, hematologia, Goiânia, Goiás, mais as gerais da linha; sugestão aberta: histopatologia, anatomopatologia, necropsia |
-| Remarketing | visitantes da página da turma (só depois da correção), visitantes de 462, 106, 655, 107 e 202 (C2 sem lista), engajados com o perfil; exclusões: quem converteu, visitantes da Graduação e, pela regra extra da área, visitantes das páginas de Citopatologia e Hematologia [SUPOSIÇÃO de desenho] |
-| T3 pago | até 10% da verba (até R$ 200,00), metade para cada lado, só se a fatia comprar 10 leads de cada lado ao CPL observado; nesta turma pode rodar no frio antes do início. Candidata: a coordenação, se aceitar (UD6) |
+| Remarketing | visitantes da página da turma (só depois da correção), visitantes de 462, 106, 655, 107 e 202, engajados com o perfil e, pela decisão 28 (b), públicos da base de C1, C2 e C4 (só formados) nas plataformas, com C3 só como exclusão [CONFIRMAR interpretação e escopo do consentimento, UA4]; exclusões: quem converteu, visitantes da Graduação e, pela regra extra da área, visitantes das páginas de Citopatologia e Hematologia [SUPOSIÇÃO de desenho] |
+| T3 pago | até 10% da verba (até R$ 200,00, ou seja, R$ 100,00 por lado), tirados da parte Meta (R$ 1.250,75) e contados dentro do teto de 30% da verba para testes (R$ 600,00, somando o teste de conceitos), só se a fatia comprar 10 leads de cada lado ao CPL observado (CPL observado de até R$ 10,00); as peças A e B substituem peças do conjunto, sem somar; a fatia de 10% é [SUPOSIÇÃO de desenho] da estratégia de mídia (seção 4.3); nesta turma pode rodar no frio antes do início. Candidata: a coordenação, se aceitar (UD6) |
 | H2 | zero por padrão; qualquer gasto é verba nova (UD7) |
 
 ---
@@ -370,7 +371,7 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 
 **1. capa**
 - Título: Pós-graduação em Patologia Clínica: **divulgação contínua**
-- Tópicos: Turma VII, São Paulo; Início em 20/03/2027; Plano de mídia paga e orgânica; Sem datas e sem peças; Mesma moldura da Gastroenterologia
+- Tópicos: Curso em São Paulo, turmas recorrentes; Turma atual: VII, início em 20/03/2027; Plano de mídia paga e orgânica; Sem datas e sem peças; Mesma moldura da Gastroenterologia
 - Nota: Este é o mesmo plano que aprovamos para a Gastroenterologia, aplicado à Patologia Clínica. A estrutura não muda; muda o que é próprio deste curso.
 
 **2. mudanca**
@@ -400,7 +401,7 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 
 **7. circulos-gastro (círculos do curso)**
 - Título: Os círculos da **Patologia Clínica**
-- Tópicos: Seis turmas de ex-alunos; Mini curso de patologia e cursos de hemogasometria, transfusão e coagulação; Alunos da Hematologia; Coordenação ensina em seis turmas; Laboratórios como parceiros; Quem trabalha ou quer trabalhar em laboratório
+- Tópicos: Seis turmas de ex-alunos; Cursos curtos da área; Alunos da Hematologia; Coordenação ensina em seis turmas; Laboratórios como público; Quem trabalha ou quer trabalhar em laboratório
 - Nota: O ponto forte é a coordenação: ela ensina aqui, na Citopatologia, no mini curso de patologia e em outras quatro pós. A base da área é uma só para os três cursos de laboratório, e cada pessoa recebe a oferta do curso que ela mesma escolheu.
 
 **8. consentimento**
@@ -414,9 +415,9 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 - Nota: A carta é da área de laboratório e serve aos três cursos. O bloco sobre a pós muda conforme o interesse que a pessoa declarou.
 
 **10. canais**
-- Título: **24 canais**, os mesmos status
-- Tópicos: 13 ativos, 8 em teste, 3 fora; Busca pesa mais que na Gastroenterologia; LinkedIn do docente com motivo a mais; Laboratório como parceiro principal; Página da turma só depois da correção
-- Nota: Não mudou nenhum status. Mudou o peso: o termo de busca do curso é disputado, então busca paga e orgânica ganham importância.
+- Título: **24 canais**, um status muda
+- Tópicos: 13 ativos, 7 em teste, 4 fora; Parceiros saem como canal; Busca pesa mais que na Gastroenterologia; LinkedIn do docente com motivo a mais; Página da turma só depois da correção
+- Nota: Só um status mudou: o canal de parceiros saiu, porque na prática parceiros são empresas. Mudou também o peso: o termo de busca do curso é disputado, então busca paga e orgânica ganham importância.
 
 **11. cadeia**
 - Título: Produzir uma vez, **distribuir em vários canais**
@@ -439,9 +440,9 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 - Nota: A divisão já foi desenhada no lançamento e não muda. As negativas evitam pagar por quem procura citopatologia ou hematologia.
 
 **15. parceiros**
-- Título: Parceiros da **área de laboratório**
-- Tópicos: Laboratório da Ufape Clínica, se existir; Laboratórios veterinários; Indústria de diagnóstico; Entidade da especialidade, a confirmar; Imprensa da área; Nenhuma lista recebida
-- Nota: A entidade da especialidade aparece em fontes antigas e precisa de confirmação. A coordenação é o caminho mais rápido para saber. Parceiro divulga para a própria base, com link da Ufape.
+- Título: Presença externa da **área de laboratório**
+- Tópicos: Parceiros saem como canal; Laboratório da Ufape Clínica, se existir; Entidade da especialidade, a confirmar; Imprensa da área; Nenhuma lista recebida
+- Nota: Parceiros, na prática, são empresas, e saem do plano como canal. Fica a presença em eventos e na imprensa da área. A entidade da especialidade aparece em fontes antigas e precisa de confirmação; a coordenação é o caminho mais rápido para saber.
 
 **16. trilha**
 - Título: Do **curso curto** à pós
@@ -451,12 +452,12 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 **17. formatos**
 - Título: **Formatos** que servem a este curso
 - Tópicos: Indicação; Laudo comentado ao vivo; Docentes em parceria; Busca por IA; Lâmina ou laudo da semana; Lista de espera
-- Nota: Laboratório é visual e técnico: laudo e lâmina comentados por docente são o formato mais natural. A comunidade de ex-alunos fica para depois, porque o curso não tem grupo de casos hoje.
+- Nota: Laboratório é visual e técnico: laudo e lâmina comentados por docente são o formato mais natural. A comunidade são os grupos de estudo que a Ufape já tem; falta confirmar qual grupo atende a área de laboratório.
 
 **18. testes**
 - Título: **Três testes** primeiro
 - Tópicos: Indicação de ex-alunos; Laudo comentado com a coordenação; Docente como mídia, com teste pago; Plano B: lâmina da semana; Cada teste com como desfazer
-- Nota: O teste pago com o docente cabe nesta turma porque ainda há fase antes do início. Na Gastroenterologia ele ficou para depois.
+- Nota: O teste pago com o docente pode rodar nesta turma, inclusive antes do início, se a verba reservada comprar leads suficientes dos dois lados para comparar. Na Gastroenterologia ele dependia do saldo da turma.
 
 **19. medir**
 - Título: Medir por **círculo** e por curso
@@ -485,13 +486,13 @@ Ordem do deck da Gastro. Destaque do título entre asteriscos duplos.
 **auditorias/02-estrategia-e-posicionamento.md**
 - [x] Uma meta principal: matrículas pagas na turma, 30 ou mais, 15 para confirmar (decisões 11, 25 e 27).
 - [x] Persona e curso nomeados: P1 e profissional de laboratório [SUPOSIÇÃO]; Pós-graduação em Patologia Clínica (68615).
-- [x] Os 8 canais avaliados na moldura e no kit da onda 2; nenhum status muda; os de fora têm motivo.
+- [x] Os 8 canais avaliados na moldura e no kit da onda 2; o canal 21 (parceiros) sai pela decisão 28 (d); os de fora têm motivo.
 - [x] Alternativa real nomeada: EAD de agregador, especializações de universidade em outras cidades (S18), cursos curtos da própria Ufape (trilha), Citopatologia e Hematologia como irmãs.
 - [x] Todo formato escolhido tem prova da ficha ou do catálogo, ou está marcado [CONFIRMAR] ou [SUPOSIÇÃO].
 - [ ] Regras de voz com exemplos aprovados: pendente da linha; não bloqueia plano sem peças.
 - [x] Cabe na verba: nenhuma verba nova; T3 usa até 10% da verba da turma, sob aprovação.
 - [x] Nenhuma promessa de emprego, aprovação ou salário.
-- [x] Preço do catálogo (S13); bolsa só como fato da ficha da prova, sem peça; benefício e desconto em [CONFIRMAR].
+- [x] Preço do catálogo (S13); bolsa só como fato da ficha da prova, sem peça; desconto de 20% de aluno e ex-aluno de Pós decidido (decisão 28 a), com a regra completa em [CONFIRMAR]; indicado sem desconto (decisão 28 c).
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, carga horária, turma, local e início batem com o catálogo e a ficha.
@@ -541,7 +542,7 @@ qa-de-marketing sobre este arquivo (auditorias 02 e conformidade-educacional), c
 - Participação dos docentes, inclusive o de fora do país (UPC3); homonímias de Alessandro Martins e Ricardo Lopes.
 - Existência atual, site e eventos da ABPCV e do ENPCV, na fonte oficial.
 - Página corrigida (OB1), reposição de módulos (OU3), números da turma (OU4), CEP (OU13).
-- Benefício de indicação, desconto de ex-aluno, abertura de sessão a não alunos, verba de H2 (UD1, UD2, UD3, UD7); aprovadores (UD8); base legal (UA4).
+- Reconhecimento ao indicador, se houver (o indicado não tem desconto, decisão 28 c); regra completa do desconto de 20% de aluno e ex-aluno de Pós (decisão 28 a); abertura de sessão a não alunos; verba de H2 (UD1, UD2, UD3, UD7); aprovadores (UD8); escopo do consentimento da base para mídia paga (UA4, decisão 28 b).
 
 ## Fontes externas desta rodada
 
