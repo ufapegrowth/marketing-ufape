@@ -14,34 +14,34 @@
 
 ## 1. Veredito
 
-**APROVADO COM CORREÇÕES. Total: 57 correções** (32 vêm da decisão 28; 25 são de fato, fonte, contagem ou texto de slide).
+**APROVADO COM CORREÇÕES. Total: 57 correções** (42 vêm da decisão 28; 15 são de fato, fonte, contagem ou texto de slide).
 
 Nenhum item de auditorias/conformidade-educacional.md falha (seção 4). O plano não segue para a aprovação humana antes das trocas: volta ao cmo para aplicar as 57 trocas exatamente como escritas; depois, o qa confere só as trocas.
 
 Motivos principais:
-1. **Decisão 28 não aplicada** (o plano é anterior a ela): desconto de 20% para aluno e ex-aluno de Pós tratado como inexistente; base sem consentimento e sem uso na mídia paga; canal de parceiros (empresas) ainda em teste; turma VIII "sem data" quando a regra é 3 a 4 meses depois de uma turma confirmada; título e moldura presos à turma VII; grupo de estudos 720 tratado como comunidade a decidir.
-2. **Afirmação além da fonte:** slide 14 dá como fato uma [SUPOSIÇÃO] (busca de tutor); 627 "dois valores para a mesma versão teórica" (a ficha não mostra isso); posts AD-A9 "prontos" (são rascunhos à espera do docente); citação entre aspas que não é literal ("30 dias antes"); "a especialidade tem entidade e congresso próprios" sem confirmação; "quem fez o 482 já conhece quem coordena" (duas de três).
-3. **Contagens e slides:** slide 9 diz "Três programas" e lista cinco itens; slide 21 diz "segundo curso no modelo" sem fonte; slides 5 e 16 dizem "imersões sem data" quando 606 tem data (já iniciada).
+1. **Decisão 28 não aplicada** (o plano é anterior a ela): desconto de 20% para aluno e ex-aluno de Pós tratado como inexistente; base sem consentimento e sem uso na mídia paga; canal de parceiros (empresas) ainda em teste; turma VIII "sem data" quando a regra é 3 a 4 meses depois de uma turma confirmada; título e cabeçalho presos à turma VII; grupo de estudos 720 tratado como comunidade a decidir.
+2. **Afirmação além da fonte:** slide 14 dá como fato uma [SUPOSIÇÃO] (busca de tutor); 627 "dois valores para a mesma versão teórica" (a ficha não mostra isso); posts AD-A9 "prontos" (são rascunhos à espera do docente); citação entre aspas que não é literal ("30 dias antes"); "a especialidade tem entidade e congresso próprios" sem ressalva; "quem fez o 482 já conhece quem coordena" (são duas de três).
+3. **Contagens e slides:** slide 9 diz "Três programas" e lista cinco itens; slide 21 diz "segundo curso no modelo" sem fonte; slides 5 e 16 dizem "imersões sem data" quando a 606 tem data (já iniciada) e é teórica.
 
 ---
 
 ## 2. O que está certo (conferido)
 
 - **Titulação de docentes:** confere com a ficha 707. Coordenação "Dra. Andrea Barbosa, Dra. Angélica Safatle, Dra. Juliana Jorge"; na lista de participantes, "Dra. Andrea Barbosa", "Dra. Angélica Safatle" e "MSC. Juliana Jorge". O plano registra a divergência de Juliana Jorge e marca [CONFIRMAR] (S11, C6, 8.2, listas finais). "19 nomes, coordenação incluída" confere: 22 entradas na lista, com 3 repetidas (Andrea, Angélica e Juliana), dão 19 nomes, igual ao campo "Professores listados: 19". O 482 lista "Dra. Andrea Barbosa" e "Dra. Angélica Safatle", como o plano diz (S13). Nenhum outro docente é citado com nome.
-- **Dados de curso:** 707, São Paulo, semipresencial, turma VII, 600 h, 24 módulos, início 30/10/2026, aberto; 30x de R$ 1.590,00; R$ 47.700,00; inscrição de R$ 250,00 (catálogo, seção 2; decisões 23 e 25). Os 10 módulos presenciais (4, 6, 8, 11, 14, 17, 19, 21, 22 e 24), o 3º módulo em 18, 19 e 20/12/2026 online, os horários, "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas", "microscópio individual" e "mutirões supervisionados" conferem com a ficha. Livres: 482 (online, 8 h, aberto contínuo, aceita graduandos), 627 (online, 16 h, aberto contínuo, aceita estudantes), 720 (online, aberto contínuo); 576, 589, 606, 603, 604 e 590 em "verificar"; prova 68656 "encerrado (link fora do ar)". Citação do 720 (S15) é literal.
+- **Dados de curso:** 707, São Paulo, semipresencial, turma VII, 600 h, 24 módulos, início 30/10/2026, aberto; 30x de R$ 1.590,00; R$ 47.700,00; inscrição de R$ 250,00 (catálogo, seção 2; decisões 23 e 25). Os 10 módulos presenciais (4, 6, 8, 11, 14, 17, 19, 21, 22 e 24), o 3º módulo em 18, 19 e 20/12/2026 online, os horários, "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas", "microscópio individual" e "mutirões supervisionados" conferem com a ficha. Livres: 482 (online, 8 h, aberto contínuo, aceita graduandos), 627 (online, 16 h, aberto contínuo, aceita estudantes), 720 (online, aberto contínuo); 576, 589, 606, 603, 604 e 590 em "verificar"; prova 68656 "encerrado (link fora do ar)". A citação do 720 (S15) é literal.
 - **Decisões do CEO:** meta de 30, 15 confirma a turma; 30 x R$ 47.700,00 = R$ 1.431.000,00 e 15 x R$ 47.700,00 = R$ 715.500,00 (contas certas); R$ 66,67 e R$ 133,33 (decisão 27); idade mínima de 25 anos (decisão 24); inscrição e matrícula como 1ª mensalidade paga (decisões 25 e 26); matrícula até o 3º módulo com regra completa (decisão 18); 17/12/2026, 23h59 bate com o plano da onda 1 (cmo-pos-2026-10-26, seção 4.1).
-- **Certificação:** nenhuma frase ligada ao MEC; nenhum "título de especialista"; o "certificado de especialização lato sensu" aparece só no checklist, com fonte (contexto/pos-graduacao.md) e com o texto de peça em [CONFIRMAR].
+- **Certificação:** nenhuma frase ligada ao MEC; nenhum "título de especialista"; "certificado de especialização lato sensu" aparece só no checklist, com fonte (contexto/pos-graduacao.md) e com o texto de peça em [CONFIRMAR].
 - **Sem datas de execução, peças, textos de anúncio ou roteiros.** As datas citadas são do catálogo, da ficha ou do plano da onda 1.
-- **LGPD:** nenhuma lista comprada, alugada ou recebida de parceiro (B.2, "Nenhuma lista é recebida ou entregue (L4)"); nenhum nome de terceiro copiado das fontes externas.
+- **LGPD:** nenhuma lista comprada, alugada ou recebida de parceiro (B.2: "Nenhuma lista é recebida ou entregue (L4)"); nenhum nome de terceiro copiado das fontes externas.
 - **Fontes externas citadas (seção D)**, com a confiança marcada e o CBOV com [CONFIRMAR na fonte oficial] em S21 e em B.2.
 - **Canais da moldura:** 13 ativos, 8 em teste e 3 fora conferem com a tabela da Gastro (antes da decisão 28; ver O11).
-- **"Agência":** não aparece. **Travessão e meia-risca:** nenhum encontrado na leitura integral. Nesta rodada eu tinha só leitura de arquivo, sem busca por caractere [SUPOSIÇÃO: recomendo que o orquestrador busque "—" e "–" antes da aprovação humana].
+- **"Agência":** não aparece. **Travessão e meia-risca:** nenhum encontrado na leitura integral. Nesta rodada eu tinha só leitura de arquivo, sem busca por caractere [SUPOSIÇÃO: recomendo que o orquestrador busque os dois caracteres antes da aprovação humana].
 
 ---
 
 ## 3. Correções (busca e troca)
 
-Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-707.md. Cada trecho atual aparece uma única vez no arquivo. Aplicar na ordem; nenhum trecho atual se sobrepõe a outro.
+Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-707.md. Cada trecho atual aparece uma única vez no arquivo. Nenhum trecho atual se sobrepõe a outro.
 
 ### 3.1 Cabeçalho e resumo
 
@@ -80,7 +80,7 @@ Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrateg
 - Trocar por: `oferta de outra Pós só com a condição de 20% da decisão 28 (a) e regra escrita [CONFIRMAR se aluno em curso recebe oferta]`
 - Motivo: a decisão 28 (a) dá desconto a aluno de Pós em outra Pós, o que pressupõe oferta [SUPOSIÇÃO de leitura do qa].
 
-**O08 (d28, d)** seção 3, linha C6
+**O08** seção 3, linha C6
 - Atual: `posts AD-A9-1 a AD-A9-3 já existem (autoridade-docente)`
 - Trocar por: `posts AD-A9-1 a AD-A9-3 existem em rascunho, à espera do aceite de cada docente (autoridade-docente, seções 0.2 e 0.3)`
 - Motivo: a autoridade-docente diz que nenhum texto sai antes de o docente aprovar.
@@ -186,7 +186,7 @@ Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrateg
 **O30** B.3, degrau D1 do 627
 - Atual: `a página mostra dois valores para a mesma versão teórica [CONFIRMAR antes de qualquer peça de Livres]`
 - Trocar por: `a página mostra duas versões (só teórica, R$ 980,00 à vista, igual ao catálogo; completa, teórica e prática, R$ 1.480,00 à vista, fora do catálogo) [CONFIRMAR NO CATÁLOGO antes de qualquer peça de Livres]`
-- Motivo: a ficha 627 não mostra dois valores para a versão teórica (R$ 980,00 à vista; 6x de R$ 196,00 = R$ 1.176,00, como o próprio texto diz).
+- Motivo: a ficha 627 não mostra dois valores para a versão teórica (R$ 980,00 à vista; 6x de R$ 196,00 = R$ 1.176,00, como o próprio texto da página diz).
 
 **O31 (d28, b e e)** seção C, linha H2
 - Atual: `| H2 | zero por padrão; verba nova só com pedido próprio, para lista de espera ou sessão ao vivo, nunca chamada de compra da turma VIII antes de ela estar no catálogo |`
@@ -220,7 +220,7 @@ Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrateg
 **O37** slide 5, tópicos
 - Atual: `Data da turma VIII; Imersões práticas sem data`
 - Trocar por: `Data da turma VIII; Cursos práticos da área em verificar`
-- Motivo: 606 tem data (01/08/2026, já iniciada) e 606 é teórico; o status comum aos seis é "verificar".
+- Motivo: a 606 tem data (01/08/2026, já iniciada) e é teórica; o status comum aos seis é "verificar".
 
 **O38** slide 7, nota
 - Atual: `Quem fez esse curso já conhece quem coordena a Pós.`
@@ -312,7 +312,7 @@ Arquivo: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrateg
 - Prova do consentimento da base e forma de uso na mídia paga (decisão 28, b); data da turma VIII pela regra de 3 a 4 meses (decisão 28, e).
 ```
 
-Contagem: 57 trocas, das quais 32 marcadas (d28): O01 a O03, O05 a O07, O09, O11 a O27 (menos O10 e O08), O29, O31 a O35, O40 a O45, O47, O48, O51, O54, O55 e O57. As outras 25 corrigem fato, fonte, contagem ou texto de slide.
+Contagem: 57 trocas. Marcadas (d28), 42: O01 a O03, O05 a O07, O09, O11 a O27, O29, O31 a O35, O40 a O45, O47, O48, O51, O54, O55 e O57. As outras 15 (O04, O08, O10, O28, O30, O36 a O39, O46, O49, O50, O52, O53 e O56) corrigem fato, fonte, contagem ou texto de slide.
 
 ---
 
@@ -374,7 +374,7 @@ Legenda: OK; N.A. (estratégia sem peça); FALHA.
 - **Fontes e entidades:** CBOV e congresso com [CONFIRMAR] em S21, B.2 e P6; C7 afirmava a existência sem ressalva (O10).
 - **Nada além da fonte:** O04, O08, O10, O28, O30, O36, O37, O38, O46, O49, O50 e O53.
 - **Titulação de docentes:** conferida, sem correção (seção 2).
-- **Slides:** tópicos curtos; nenhum código interno nas notas (os códigos que aparecem no plano ficam fora das notas); vícios de escrita: só a repetição "Igual à Gastro." em quatro notas, aceitável.
+- **Slides:** tópicos curtos; nenhum código interno nas notas; vício de escrita só na repetição "Igual à Gastro." em quatro notas, aceitável.
 - **Travessão, meia-risca e "agência":** nenhum na leitura; busca por caractere recomendada ao orquestrador.
 
 ---

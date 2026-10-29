@@ -1,12 +1,12 @@
-# Plano estratégico de divulgação contínua: Pós-graduação em Dermatologia Veterinária (preenchimento do curso 68610)
+# Plano estratégico de divulgação contínua: Pós-graduação em Dermatologia Veterinária (plano do curso; turma em captação: 68610)
 
 - **Agente:** cmo
 - **Linha:** pos
 - **Data:** 29/10/2026 (quinta-feira)
 - **Pedido do CEO (29/10/2026):** rodar para mais 10 cursos o mesmo plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (mídia paga e orgânica, sem datas de execução e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo faz um curso.
-- **Curso:** Pós-graduação em Dermatologia Veterinária, turma V, São Paulo, código 68610 (catálogo, seção 2; ficha contexto/cursos/pos/68610-pos-graduacao-em-dermatologia-veterinaria.md). Vale para esta turma e para as próximas turmas do curso.
+- **Curso:** Pós-graduação em Dermatologia Veterinária, turma V, São Paulo, código 68610 (catálogo, seção 2; ficha contexto/cursos/pos/68610-pos-graduacao-em-dermatologia-veterinaria.md). O plano é do curso (decisão 28f): vale para a turma V e para as próximas turmas, que abrem normalmente de 3 a 4 meses depois de uma turma confirmada (decisão 28e, interpretação [CONFIRMAR]).
 - **Modelo:** saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md (aqui: "plano da Gastro"). As partes [MOLDURA] daquele plano valem aqui como estão e **não são reescritas**: este arquivo só referencia a seção e traz o bloco **[DERMATO]**, que é o que troca de curso para curso. A seção 9 do plano da Gastro (roteiro de 12 passos) foi seguida passo a passo; a seção 9 abaixo mostra a resposta de cada passo.
-- **O que não entra aqui:** datas de execução, calendário, peças, textos de anúncio, de mensagem e roteiros. O H1 da turma V já está no plano da onda 1 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, versão 4) e nas saídas da cadeia daquela onda. As datas citadas abaixo são as da ficha e do catálogo (início, módulos, prova), não datas de ação.
+- **O que não entra aqui:** datas de execução, calendário, peças, textos de anúncio, de mensagem e roteiros. O H1 da turma V já está no plano da onda 1 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, versão 4) e nas saídas da cadeia daquela onda. As datas citadas abaixo são as da ficha e do catálogo (início, módulos, prova) e a véspera do 3º módulo (29/01/2027), limite da regra de mídia já aprovada no plano da onda 1, citada como regra e não como calendário.
 - **Status:** rascunho para a cadeia, para o qa-de-marketing e para a aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
   - CLAUDE.md; docs/execucao-2026-10-26.md (decisões 1 a 27, inteiro); docs/andamento-planejamento.md (linhas 1 a 243)
@@ -18,7 +18,7 @@
   - saidas/03-seo-e-busca/pesquisa-de-palavras-chave-pos-2026-10-26.md (seções 1, 2 e A8)
   - saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (seções 0 a 0.3 e 8, A8)
 - **Não li nesta rodada:** pesquisa-de-mercado-pos-2026-10-28-benchmarks.md (os números de mercado entram como o plano da Gastro os cita, com a mesma fonte); mensagens-pos, criador-de-ganchos-pos e iscas-digitais-pos (seção A8); gestor-de-midia-pos (uso o que a estratégia de mídia de 29/10 e o plano da onda 1 citam); fichas 599 e 560. Não abri faculdade.ufape.com.br.
-- **Busca na web nesta rodada (29/10/2026):** 2 buscas e 2 tentativas de leitura de página (uma abriu, uma voltou 403), sobre entidade e congressos de dermatologia veterinária no Brasil. Resultados na seção 2.1 (S17 a S19) e na parte de distribuição, todos com [CONFIRMAR].
+- **Busca na web nesta rodada (29/10/2026):** 2 buscas e 2 tentativas de leitura de página (uma abriu, uma voltou 403), sobre entidade e congressos de dermatologia veterinária no Brasil. Resultados na seção 2.1 (S17 a S20) e na parte de distribuição, todos com [CONFIRMAR].
 - **Dados pessoais:** nenhum. Segmentos e números somados. Docentes só com nome e titulação como estão na ficha (decisões 8 e 10).
 - **Nome:** em qualquer texto visível ao público o curso é "Pós-graduação em Dermatologia Veterinária". "Dermato" é apelido de trabalho deste arquivo.
 
@@ -30,7 +30,7 @@
 2. **Meta em reais da turma V:** 30 x R$ 30.000,00 = R$ 900.000,00. Para confirmar a turma: 15 x R$ 30.000,00 = R$ 450.000,00. É conta pela regra da decisão 27, não previsão.
 3. **O que é diferente da Gastro (cinco pontos):** (a) a ficha não nomeia coordenação ("UFAPE"), então a voz da área depende de a Ufape escolher um docente; (b) a disputa é maior: há concorrente nomeado com Dermatologia e Alergologia em São Paulo e muita oferta EAD no termo principal de busca; (c) a família de produtos em Livres é pequena (mini curso 463 e, por tema, o Curso Livre em Videotoscopia 68614) e não há grupo de estudos de Dermatologia no catálogo; (d) o cronograma não tem "aulas abertas", mas tem plantões de dúvidas mensais, discussão de casos e artigos e 7 módulos presenciais; (e) a turma V indica 4 turmas anteriores, e a turma IV pode ainda estar em curso, então o círculo de ex-alunos tende a ser menor que o da Gastro (oito turmas) [CONFIRMAR].
 4. **Três testes primeiro:** T1 indicação de ex-alunos e alunos; T2 caso clínico ao vivo com um docente da turma escolhido pela Ufape; T3 guia de formato para busca e IA ("EAD, semipresencial ou presencial"), no lugar do teste de docente como mídia da Gastro, que fica para depois de a Ufape nomear quem representa a turma.
-5. **O que trava:** quem representa a turma, tamanho e consentimento da base, destino da prova de bolsa 68646, próxima turma (VI), regras dos plantões de dúvidas, autorização de imagem de lesão (tutor), correções da página, parceiros. Seção 8.
+5. **O que trava:** quem representa a turma, tamanho da base e alcance do consentimento por canal (decisão 28b), destino da prova de bolsa 68646, data da próxima turma (VI), regras dos plantões de dúvidas, autorização de imagem de lesão (tutor), correções da página, regra escrita do desconto de 20% (decisão 28a). Parceiros saem como canal (decisão 28d). Seção 8.
 
 ---
 
@@ -43,8 +43,8 @@
 - **Métrica principal:** matrículas pagas (1ª mensalidade paga, decisão 25) na turma V (68610) e, depois, em cada nova turma do curso. Meta de 30 ou mais; 15 confirma a turma (decisões 11 e 27).
 - **Meta em reais da 68610:** 30 x R$ 30.000,00 = R$ 900.000,00 (total do catálogo: 30x de R$ 1.000,00; R$ 30.000,00 no cartão ou boleto). Para confirmar a turma: 15 x R$ 30.000,00 = R$ 450.000,00.
 - **Teto de mídia por matrícula:** R$ 2.000,00 / 30 = R$ 66,67 na meta; R$ 2.000,00 / 15 = R$ 133,33 para confirmar a turma (decisão 27).
-- **H1 (turma V em captação):** início em 28/11/2026 (planilha e site). Pela ficha, a 1ª mensalidade vence 30 dias antes do início, ou seja, em 29/10/2026; pela decisão 18, a captação continua até o 3º módulo, que é em 30 e 31/01/2027, online (ficha; plano da onda 1, seção 1, pausa da mídia na véspera, 29/01/2027). O calendário do H1 já está no plano da onda 1 e não entra aqui.
-- **H2 (entre turmas):** a turma VI não está no catálogo [CONFIRMAR data e número]. A prova de bolsa 68646 (27/11/2026, presencial em São Paulo) não informa a turma de destino [CONFIRMAR destino]: se for a turma V, que começa no dia seguinte, a prova é peça do H1; se for a turma VI, é do H2. Sem essa resposta, o H2 trabalha a base da área, sem chamada de compra para turma que não está no catálogo.
+- **H1 (turma V em captação):** início em 28/11/2026 (planilha e site). Pela ficha, a 1ª mensalidade vence 30 dias antes do início, ou seja, em 29/10/2026; quem entra depois do início paga igual (inscrição de R$ 250,00 e matrícula, que é a 1ª mensalidade) e a 1ª mensalidade vence após a assinatura do contrato (decisões 25 e 26); para quem se matricula entre 29/10/2026 e o início, o vencimento é [CONFIRMAR]; pela decisão 18, a captação continua até o 3º módulo, que é em 30 e 31/01/2027, online (ficha; plano da onda 1, seção 1, pausa da mídia na véspera, 29/01/2027). O calendário do H1 já está no plano da onda 1 e não entra aqui.
+- **H2 (entre turmas):** pela decisão 28e, a próxima turma abre normalmente de 3 a 4 meses depois de uma turma confirmada [CONFIRMAR interpretação]; a turma VI ainda não está no catálogo [CONFIRMAR data e número], e nenhuma peça cita data ou condição dela antes de ela entrar no catálogo. A prova de bolsa 68646 (27/11/2026, presencial em São Paulo) não informa a turma de destino [CONFIRMAR destino]: se for a turma V, que começa no dia seguinte, a prova é peça do H1; se for a turma VI, é do H2. Sem essa resposta, o H2 trabalha a base da área, sem chamada de compra para turma que não está no catálogo.
 
 ---
 
@@ -74,7 +74,7 @@
 | S15 | Concorrente nomeado: Anclivepa-SP, Dermatologia e Alergologia de Cães e Gatos, 580 h, início em abril de 2027 | inteligencia-concorrencia-pos, C-1 e A8 (resumo de busca de 26/10/2026) | média; [CONFIRMAR na fonte oficial] |
 | S16 | O termo principal ("pós-graduação em dermatologia veterinária") é disputado por agregadores EAD e outras instituições; a busca por "presencial" devolveu quase só EAD, o que abre espaço para termos de formato (semipresencial, presencial em São Paulo) | pesquisa-de-palavras-chave-pos, seção 1, item 2, e K8.1, K8.2 | [SUPOSIÇÃO] por indício |
 | S17 | A Sociedade Brasileira de Dermatologia Veterinária (SBDV) aparece como fonte de informação no portal LIS da BVS, com site indicado (sbdv.com.br). A busca não trouxe congresso da entidade em 2026 | busca de 29/10/2026, resumo do resultado: https://bvsalud.org/portal-lis/en/lis-search/resource/?id=26964 (a página respondeu 403 na leitura direta) | baixa a média; [CONFIRMAR no site oficial] |
-| S18 | O 4º Congresso de Dermatologia Veterinária, Diagnóstico e Terapêutica Clínica Integrada com Farmacologia, Nutrição e Manejo foi apresentado pelo Animal Health Science Ecosystem em 12/03/2026, no Expo Center Norte, São Paulo | página lida em 29/10/2026: https://visitesaopaulo.com/evento/congresso-de-dermatologia-veterinaria-diagnostico-e-terapeutica-clinica-integrada-com-farmacologia-nutricao-e-manejo-2026/ | média; edição já passou; próxima [CONFIRMAR] |
+| S18 | O 4º Congresso de Dermatologia Veterinária, Diagnóstico e Terapêutica Clínica Integrada com Farmacologia, Nutrição e Manejo foi apresentado pelo Animal Health Science Ecosystem em 12/03/2026, no Expo Center Norte, São Paulo | página lida em 29/10/2026: https://visitesaopaulo.com/evento/congresso-de-dermatologia-veterinaria-diagnostico-e-terapeutica-clinica-integrada-com-farmacologia-nutricao-e-manejo-2026/ | média; nome, número da edição e organizador como a página traz [CONFIRMAR na fonte oficial]; edição já passou; próxima [CONFIRMAR] |
 | S19 | O Congresso Medvep de Especialidades (23 a 25/07/2026, Curitiba) inclui dermatologia entre as especialidades | resumo de busca de 29/10/2026: https://www.agrolink.com.br/eventos/medvep-2026 (página não aberta) | baixa; [CONFIRMAR] |
 | S20 | Na busca, "congresso de dermatologia" traz sobretudo a dermatologia humana (Sociedade Brasileira de Dermatologia) | busca de 29/10/2026 | média; pesa na lista de termos negativos da paga |
 | S21 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | plano da Gastro, S17 | alta para a lacuna |
@@ -83,7 +83,7 @@
 
 | # | Lacuna | Por que pesa | Quem responde |
 |---|---|---|---|
-| N1 | Quantos ex-alunos das turmas I a IV, quantos compradores de 463 e de 68614, e quantos têm consentimento de e-mail e WhatsApp | define o tamanho do círculo mais quente | Ufape (CRM, só números somados) |
+| N1 | Quantos ex-alunos das turmas I a IV, quantos compradores de 463 e de 68614, e o alcance do consentimento para novas oportunidades que a base já tem (decisão 28b): se cobre e-mail, WhatsApp e público de anúncio [CONFIRMAR] | define o tamanho do círculo mais quente | Ufape (CRM, só números somados) |
 | N2 | Se a turma IV ainda está em curso (o curso tem cerca de 2 anos) e quantas turmas já concluíram | separa ex-aluno (C1) de aluno atual (C3), que tem outra proteção | Ufape |
 | N3 | De onde vieram as matrículas das turmas anteriores | diz qual círculo já funciona | Ufape (somado) |
 | N4 | Quem representa a turma (a ficha diz "UFAPE") e se aceita ser a voz da área | sem nome, não há T2 nem conteúdo de autoridade com rosto | Ufape |
@@ -91,7 +91,7 @@
 | N6 | Destino da prova 68646 (turma V ou VI) e data da turma VI | sem isso o H2 não tem chamada de compra | Ufape |
 | N7 | Regra de imagem de lesão: foto ou vídeo de pele de paciente exige autorização do tutor e regra de anonimização | conteúdo de Dermatologia é visual; sem regra, não há caso da semana nem bastidor | Ufape e encarregado de dados |
 | N8 | Se a Ufape Clínica atende Dermatologia por encaminhamento de colegas | quem encaminha seria um círculo quente | Ufape |
-| N9 | Parceiros e patrocinadores (bloco da página vazio) | define o C7 | Ufape |
+| N9 | Parceiros e patrocinadores (bloco da página vazio) | deixou de ser pedido: o canal de parceiros sai do plano (decisão 28d) | não se aplica |
 | N10 | Como o aluno que entra depois do início recupera os módulos perdidos (a ficha cita aulas online gravadas) | resposta do time de vendas no H1 (OU3 do plano da onda 1) | Ufape |
 | N11 | Itens N9 a N12 do plano da Gastro (horas do time, perfis de YouTube, LinkedIn e TikTok, egressos da Graduação, base legal para marketing à base) | iguais para todos os cursos | Ufape |
 
@@ -110,18 +110,18 @@
 | C1 | ex-alunos das turmas anteriores da Pós-graduação em Dermatologia Veterinária que já concluíram (a 68610 é a turma V; pelo tamanho do curso, a turma IV pode ainda estar em curso [SUPOSIÇÃO]) | são os indicadores naturais; o uso de "tradição de turmas" como prova é [CONFIRMAR] (ufape-geral.md, provas) | quantas turmas concluíram e quantos ex-alunos, com consentimento (N1, N2) |
 | C2 | compradores do mini curso 463 e do Curso Livre em Videotoscopia 68614 (tema da área: otites e video-otoendoscopia, que a Pós trata nos módulos 17 e 18) | já pagaram para aprender a área | tamanho e consentimento (N1). 463 aceita graduandos e 68614 aceita estudantes de último ano: só formados recebem campanha da Pós. 68614 acontece no mesmo fim de semana do módulo 1 da turma V: nada de convite cruzado para a turma V a quem comprou 68614 |
 | C3 | alunos da turma IV, se ainda estiver em curso (proteção de aluno do próprio curso); alunos da 707 (Oftalmologia, coordenação Dra. Andrea Barbosa, listada também em 68610), a partir do início da 707; alunos de 68635, quando começar | conhecem docentes da área; indicam colegas | se Andrea Barbosa das duas fichas é a mesma pessoa [CONFIRMAR]; outros docentes da 68610 em outras turmas não estão mapeados [CONFIRMAR com a autoridade-docente]; regra de comunicação a aluno em curso [CONFIRMAR] |
-| C4 | ex-alunos de áreas que o cronograma cruza: Endocrinologia (módulo 15, dermatoses endócrinas), Nutrologia (16), Anestesiologia (16), Felinos (12), Infectologia (7, parasitárias e leishmanioses), Citopatologia e Patologia Clínica (4, 5 e 24), Oncologia (23), Medicina de Silvestres (22), Diagnóstico por Imagem e Endoscopia (17 e 18, videotoendoscopia) | segunda especialização [SUPOSIÇÃO] | interesse declarado por área no CRM [CONFIRMAR campo] |
+| C4 | ex-alunos de áreas que o cronograma cruza: Endocrinologia (módulo 15, dermatoses endócrinas), Nutrologia (16), Anestesiologia (16), Felinos (12), Infectologia (7, parasitárias e leishmanioses), Citopatologia e Patologia Clínica (4, 5 e 24), Oncologia (23), Medicina de Silvestres (22), Diagnóstico por Imagem e Endoscopia (17 e 18, videotoendoscopia). Citopatologia (333), Medicina de Silvestres (60) e Nutrologia (564) estão na turma I no catálogo: ex-alunos de Pós dessas áreas só existem se houver turma anterior fora do catálogo [CONFIRMAR] | segunda especialização [SUPOSIÇÃO] | interesse declarado por área no CRM [CONFIRMAR campo] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; só comunicação institucional, nunca venda de Pós | se há egressos (N11) |
 | C6 | os 18 professores listados na ficha; o representante da turma é decisão da Ufape (N4) | autoridade e alcance; Dermatologia cruza com imagem, citologia, endocrinologia e oncologia | quem aceita publicar e quem representa a turma |
-| C7 | Ufape Clínica; Sociedade Brasileira de Dermatologia Veterinária (S17, a confirmar); congressos de dermatologia veterinária em São Paulo e de especialidades (S18, S19); laboratórios de citologia, histopatologia e testes alérgicos; farmácias de manipulação (fórmulas magistrais no módulo 1); indústria de nutrição, de equipamentos de videotoscopia e de fotobiomodulação; CRMV-SP só com pauta técnica (saúde única e zoonoses de pele, tema da justificativa da página) [SUPOSIÇÃO: conselho não costuma divulgar curso privado] | levam a Ufape a bases que ela não alcança | lista de parceiros (N9); encaminhamento na Ufape Clínica (N8). A ficha da 68610 não cita estágio em cooperação: o tipo "clínicas de estágio" fica fora |
-| C8 | indicadores de C1 a C4 (C6 e C7 só se a Ufape decidir; C5 nunca) indicando colegas que atendem casos de pele e ouvido | custo baixo, confiança alta | regra e benefício (decisão da Ufape) |
+| C7 | Fora como canal pela decisão 28d (parceiros são empresas); o que segue é só referência: Ufape Clínica; Sociedade Brasileira de Dermatologia Veterinária (S17, a confirmar); congressos de dermatologia veterinária em São Paulo e de especialidades (S18, S19); laboratórios de citologia, histopatologia e testes alérgicos; farmácias de manipulação (fórmulas magistrais no módulo 1); indústria de nutrição, de equipamentos de videotoscopia e de fotobiomodulação; CRMV-SP só com pauta técnica (saúde única e zoonoses de pele, tema da justificativa da página) [SUPOSIÇÃO: conselho não costuma divulgar curso privado] | levam a Ufape a bases que ela não alcança | lista de parceiros (N9); encaminhamento na Ufape Clínica (N8). A ficha da 68610 não cita estágio em cooperação: o tipo "clínicas de estágio" fica fora |
+| C8 | indicadores de C1 a C4 (C6 só se a Ufape decidir; C7 fora pela decisão 28d; C5 nunca) indicando colegas que atendem casos de pele e ouvido | custo baixo, confiança alta | regra e benefício (decisão da Ufape) |
 | C9 | clínicos de pequenos animais, sobretudo em São Paulo, que buscam dermatite alérgica, otite, piodermite, dermatofitose e alopecias na rotina [SUPOSIÇÃO de temas, a partir do cronograma]; e quem compara EAD com semipresencial (S16) | termo principal disputado; espaço em termos de formato e cidade | volumes de busca (Search Console, Planejador do Google Ads) [CONFIRMAR] |
 
 ---
 
 ## 4. Mapa de canais (capilaridade)
 
-**[MOLDURA]:** a lista de 24 canais, papéis, critérios e departamentos é a do plano da Gastro, seção 4. **Status iguais aos da moldura** (13 ativos, o YouTube com condição; 8 em teste; 3 fora: TikTok, X e agregadores). Muda só o preenchimento abaixo.
+**[MOLDURA]:** a lista de 24 canais, papéis, critérios e departamentos é a do plano da Gastro, seção 4. **Status da moldura com uma mudança** (decisão 28d): 13 ativos, o YouTube com condição; 7 em teste; 4 fora: TikTok, X, agregadores e parceiros (canal 21). Congressos e eventos externos (canal 23) seguem em teste só se a Ufape confirmar [CONFIRMAR]. Muda só o preenchimento abaixo.
 
 ### [DERMATO]
 
@@ -130,12 +130,12 @@
 | Página da turma | a página da 68610 tem "CERTIFICADO PELO MEC", "é reconhecida pelo Ministério da Educação (MEC)" e turma mínima de 20 (S13). Não conta como entregue até a correção (A7, A12 e A13 do plano da onda 1) |
 | Página da área | candidata ao teste por outro motivo que na Gastro: aqui ela é a casa do guia de formato (T3), que disputa os termos de formato e cidade em vez da cabeça de termo cara |
 | Busca orgânica e IA | perguntas de formato ("EAD ou semipresencial", "presencial em São Paulo") e de rotina (otite crônica, dermatite atópica, dermatofitose) com 03 SEO; termos e perguntas da área em pesquisa-de-palavras-chave-pos, A8 (K8.1 a K8.13, Q8.1 a Q8.6). Termo de título (K8.12) segue bloqueado |
-| Instagram e Facebook | área visual: carrossel e Stories de caso funcionam, mas só com a regra de imagem de lesão (N7). O Stories do docente da área já está previsto na grade (autoridade-docente, A8, semana de 16 a 22/11) |
+| Instagram e Facebook | área visual: carrossel e Stories de caso funcionam, mas só com a regra de imagem de lesão (N7). A fila de Stories da autoridade-docente (A8) já prevê o Dr. Alan Poppl, só se a Ufape confirmar o candidato (DD1); a data fica no plano daquela onda |
 | Podcast | temas do cronograma com público amplo: psicodermatologia em cães e gatos (módulo 19), leishmanioses e saúde única (módulo 7), otites (módulos 17 e 18). Convidado depende de N4 |
 | LinkedIn | teste pelo perfil de docentes que aceitarem; sem coordenação nomeada, começa pelo representante que a Ufape escolher |
-| Comunidades | não há grupo de estudos de Dermatologia no catálogo; os "plantões de dúvidas" e a "discussão de casos e artigos" são internos da turma (S7). Comunidade de ex-alunos depende do tamanho de C1 |
+| Comunidades | não há grupo de estudos de Dermatologia no catálogo; os "plantões de dúvidas" e a "discussão de casos e artigos" são internos da turma (S7). A comunidade são os grupos de estudo que a Ufape já tem (decisão 28g), sem criar comunidade nova. Como não há grupo de Dermatologia no catálogo, qual grupo acolhe a área (por exemplo, o 68666, Clínica Médica e Emergência de Cães e Gatos) é [CONFIRMAR] |
 | Eventos e aulas abertas | o cronograma não tem aula aberta; a sessão aberta do T2 teria de ser criada (ou um plantão aberto, se a Ufape aceitar) |
-| Parceiros e congressos | SBDV e congressos da área (S17 a S19), laboratórios, farmácias de manipulação, indústria; sem clínicas de estágio |
+| Parceiros e congressos | parceiros (empresas) saem como canal (decisão 28d); SBDV e congressos da área (S17 a S19) ficam como referência de pauta e de presença de docente [CONFIRMAR se a presença em congresso segue em teste] |
 | Google Ads | cauda de formato e de cidade; nada de termo curto caro (K8.1 tem F = 10); negativos de dermatologia humana e estética (S20) |
 
 ---
@@ -147,7 +147,7 @@
 ### [DERMATO]
 
 - **H1 (turma V em captação):** a paga já está desenhada no plano da onda 1: até a véspera do início a campanha segue como está; a partir do início (28/11/2026), só remarketing e busca, com ritmo de gasto até a véspera do 3º módulo (29/01/2027) ou pausa antes se os R$ 2.000,00 do ciclo acabarem. Gasto acumulado [CONFIRMAR, PP15]. Este plano não mexe nisso.
-- **H2 (entre turmas):** sem turma VI no catálogo, a paga fica parada ou só recolhe interesse para a lista de espera, e só com verba nova aprovada [CONFIRMAR].
+- **H2 (entre turmas):** curto, porque a próxima turma abre normalmente de 3 a 4 meses depois de uma turma confirmada (decisão 28e) [CONFIRMAR]. Até a turma VI entrar no catálogo, a paga trabalha a base (decisão 28b) e recolhe interesse para a lista de espera, sem chamada de compra, com verba aprovada [CONFIRMAR].
 - **Fonte de criativo:** docente que a Ufape nomear (autoridade), temas do cronograma (sem paciente identificável e só com a regra de imagem), cortes do UFAPE Cast, guia de formato (T3).
 - **Diferença para a Gastro:** como o termo principal é caro e disputado por EAD, a busca paga trabalha formato e cidade, e a ligação 4 (busca paga ensina busca orgânica) pesa mais que a ligação 5 (docente como ponte), que espera o representante da turma.
 
@@ -159,14 +159,14 @@
 
 | # | Formato | [DERMATO] Por que serve a Dermato | Leitura de esforço e impacto para Dermato [SUPOSIÇÃO] |
 |---|---|---|---|
-| F1 | Programa de indicação | turmas anteriores (C1) e alunos onde docentes da área ensinam (C3) | baixo esforço; impacto alto se C1 tiver tamanho (N1) |
-| F2 | Caso clínico ao vivo | tema de rotina com docente da turma; o plantão de dúvidas mostra que o formato de discussão já existe dentro do curso | **médio a alto** esforço (sem aula aberta no cronograma e sem coordenação nomeada); impacto alto |
-| F3 | Comunidade de ex-alunos | depende do tamanho de C1 | médio esforço; impacto médio |
+| F1 | Programa de indicação | turmas anteriores (C1) e alunos onde docentes da área ensinam (C3); sem desconto para o indicado (decisão 28c) | baixo esforço; impacto alto se C1 tiver tamanho (N1) |
+| F2 | Caso clínico ao vivo | tema de rotina com docente da turma; o plantão de dúvidas mostra que o formato de discussão já existe dentro do curso | **alto** esforço (sem aula aberta no cronograma e sem coordenação nomeada); impacto alto |
+| F3 | Comunidade de ex-alunos | não se cria comunidade nova: os grupos de estudo existentes são a comunidade (decisão 28g); falta grupo de Dermatologia no catálogo [CONFIRMAR qual grupo acolhe a área] | baixo esforço; impacto médio |
 | F4 | Trilha da área | degraus reais: 463 (D1) e 68614 (D3); falta D2 (não há grupo de estudos de Dermatologia) | baixo esforço; impacto **médio** (trilha curta; decisão 14 suspende peças de Livres) |
 | F5 | Conteúdo com docentes em parceria | 18 professores, com áreas cruzadas (citologia, endocrinologia, oncologia, imagem) | médio; impacto médio a alto |
 | F6 | Anúncio de líder de opinião | depende de N4 | médio; impacto médio; fica depois do T3 |
-| F7 | Co-marketing com parceiros | laboratórios, farmácias de manipulação, nutrição, equipamentos | alto; impacto médio; risco de marca em conteúdo clínico |
-| F8 | Presença em eventos da área | congressos de dermatologia veterinária em São Paulo e de especialidades (S18, S19) | alto; impacto médio |
+| F7 | Co-marketing com parceiros | fora: parceiros são empresas e o canal sai do plano (decisão 28d) | não se aplica |
+| F8 | Presença em eventos da área | congressos de dermatologia veterinária em São Paulo e de especialidades (S18, S19); segue só se a Ufape não tratar a presença em congresso como canal de parceiros (decisão 28d) [CONFIRMAR] | alto; impacto médio |
 | F9 | Conteúdo para busca por IA | termo principal caro (K8.1) e espaço em formato (K8.2, K8.9, Q8.1, Q8.2) | médio; impacto **médio a alto** (sobe em relação à Gastro) |
 | F10 | Lista de espera | turma VI fora do catálogo | baixo; impacto alto para a turma seguinte |
 | F11 | Material de referência (isca) | tema de rotina de pele e ouvido, assinado por docente | médio; impacto médio |
@@ -182,8 +182,8 @@
 |---|---|---|---|
 | **Impacto alto** | F1 indicação; F10 lista de espera | | F2 caso clínico ao vivo (sem aula aberta e sem coordenação nomeada) |
 | **Impacto médio a alto** | | F5 docentes em parceria; F9 busca e IA | F15 evento próprio |
-| **Impacto médio** | F4 trilha; F12 caso da semana (depois da regra de imagem) | F3 comunidade; F6 líder de opinião; F11 isca; F13 podcast; F16 encaminhamento | F7 co-marketing; F8 eventos externos |
-| **Fora agora** | | | F14 clínicas parceiras (sem estágio na ficha) |
+| **Impacto médio** | F4 trilha; F12 caso da semana (depois da regra de imagem); F3 comunidade nos grupos de estudo existentes | F6 líder de opinião; F11 isca; F13 podcast; F16 encaminhamento | F8 eventos externos [CONFIRMAR, decisão 28d] |
+| **Fora agora** | | | F7 co-marketing e F14 clínicas parceiras (parceiros fora como canal, decisão 28d) |
 
 Leitura: F10 segue como infraestrutura de todos os testes. A diferença para a Gastro é que F2 ficou mais caro e F9 ficou mais valioso.
 
@@ -192,7 +192,7 @@ Leitura: F10 segue como infraestrutura de todos os testes. A diferença para a G
 | Teste | Formato | Hipótese | Círculos | O que medir (sem meta antes da linha de base) | Como desfazer |
 |---|---|---|---|---|---|
 | T1 | F1 Programa de indicação | ex-alunos das turmas anteriores e alunos que conhecem docentes da área indicam colegas que atendem casos de pele e ouvido, e o indicado fecha mais que o lead frio [SUPOSIÇÃO] | C1, C3, C8 | indicações recebidas; indicados que viram inscrição e matrícula; taxa de fechamento do indicado contra a do lead pago, por turma | encerrar por comunicado, honrando benefícios já concedidos dentro da regra |
-| T2 | F2 Caso clínico ao vivo com docente da turma | uma discussão de caso de rotina (por exemplo, otite crônica ou dermatite alérgica, temas dos módulos 10, 11, 17 e 18) com o docente que a Ufape nomear, aberta à base da área, gera inscritos na lista de espera e conversas de venda, e a gravação abastece podcast, cortes e busca | C1, C2, C4, C9 (via paga e parceiros) | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem no evento, cortes produzidos | não repetir; a gravação só é publicada com aprovação |
+| T2 | F2 Caso clínico ao vivo com docente da turma | uma discussão de caso de rotina (por exemplo, otite crônica ou dermatite alérgica, temas dos módulos 10, 11, 17 e 18) com o docente que a Ufape nomear, aberta à base da área, gera inscritos na lista de espera e conversas de venda, e a gravação abastece podcast, cortes e busca | C1, C2, C4, C9 (via paga) | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem no evento, cortes produzidos | não repetir; a gravação só é publicada com aprovação |
 | T3 | F9 Guia de formato para busca e IA | uma página que responde direto "Pós-graduação em Dermatologia Veterinária: EAD, semipresencial ou presencial" (o que se faz online, o que exige presença, os 7 módulos presenciais, cronograma, docentes, condições do catálogo) ganha impressões e cliques nos termos de formato e cidade e é citada por assistentes, enquanto a busca paga desses termos informa a pauta (ligação 4) | C9, com C2 e C4 por busca | impressões e cliques nos termos K8.2, K8.6 e K8.9; checagem manual das perguntas Q8.1 e Q8.2 em assistentes; leads com UTM da página; termos pagos que convertem e viram pauta | retirar a página ou o bloco; nenhum compromisso com o candidato |
 
 Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 cria a matéria-prima que falta (o cronograma não tem aula aberta); T3 responde à maior diferença da Dermato, a disputa com EAD no termo principal, sem verba nova. O docente como mídia (T3 da Gastro) volta à fila quando a Ufape nomear o representante da turma.
@@ -205,7 +205,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 cria
 
 ### [DERMATO]
 
-- UTM: utm_campaign=pos_68610_<AAAAMM> (padrão D12); utm_content por círculo, docente ou parceiro.
+- UTM: utm_campaign=pos_68610_<AAAAMM> (padrão D12); utm_content por círculo ou docente.
 - Primeira leitura útil: participação de cada círculo nas matrículas da turma V (pede o campo de origem preenchido desde já).
 - Comparação que interessa: turma V contra as turmas anteriores, se a Ufape tiver a origem somada (N3).
 - Busca: impressões e cliques por grupo de termo da A8, separando cabeça de termo (K8.1, K8.3) de formato e cidade (K8.2, K8.6, K8.9). Se só a cabeça gera clique sem lead, o T3 ganha prioridade sobre a paga nesse termo.
@@ -228,15 +228,15 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 cria
 | DD2 | Abrir uma sessão de caso clínico (ou um plantão de dúvidas) a não alunos; regra de gravação | formato T2 | T2 |
 | DD3 | Regra de imagem de lesão: autorização do tutor, anonimização, quem aprova | conteúdo visual da área | F12, MP10, cortes |
 | DD4 | Criar o guia de formato da Pós-graduação em Dermatologia Veterinária na página da área ou no blog | T3 | T3 |
-| DD5 | UD1 a UD8 da moldura (indicação, desconto de ex-aluno, comunidade, página da área, verba H2, aprovadores) | iguais para todos os cursos | conforme a moldura |
+| DD5 | UD1 a UD8 da moldura (indicação, página da área, verba H2, aprovadores); desconto de ex-aluno e comunidade já decididos (decisões 28a e 28g) | iguais para todos os cursos | conforme a moldura |
 
 **Dados (só números somados)**
 
-- DN1. Ex-alunos por turma anterior (I a IV), quantas turmas concluíram e quantos têm consentimento de e-mail e de WhatsApp; compradores de 463 e 68614 (N1, N2).
+- DN1. Ex-alunos por turma anterior (I a IV), quantas turmas concluíram; alcance do consentimento para novas oportunidades (decisão 28b) por canal, inclusive público de anúncio; compradores de 463 e 68614 (N1, N2).
 - DN2. Origem das matrículas das turmas anteriores, somada (N3).
 - DN3. Destino da prova 68646 e data e número da turma VI (N6).
 - DN4. Formato e frequência dos plantões de dúvidas e da discussão de casos e artigos (N5).
-- DN5. Se a Ufape Clínica atende Dermatologia por encaminhamento (N8); lista de parceiros e patrocinadores (N9).
+- DN5. Se a Ufape Clínica atende Dermatologia por encaminhamento (N8).
 - DN6. Reposição de módulos para quem entra depois do início (N10, OU3 do plano da onda 1).
 
 **Correções no site (pedido já aberto no plano da onda 1, OA10)**
@@ -251,8 +251,8 @@ Igual à moldura. Próprio de Dermato: rascunho do guia de formato (T3) no templ
 
 | # | O que | Por que | Quanto | Efeito esperado | Como desfazer |
 |---|---|---|---|---|---|
-| PD1 | Aprovar este preenchimento como plano do curso 68610 sobre a moldura | evita refazer a estratégia por turma | sem custo direto | próximas turmas do curso partem daqui | voltar ao plano por turma |
-| PD2 | Aprovar o desenho do T1 (indicação) para Dermato, junto com a regra que a Ufape decidir na moldura (UD1) | círculo mais quente com custo baixo | benefício [UD1] | indicações medidas por turma | encerrar por comunicado, honrando benefícios concedidos |
+| PD1 | Aprovar este preenchimento como plano do curso (Pós-graduação em Dermatologia Veterinária, todas as turmas; turma atual 68610) sobre a moldura | evita refazer a estratégia por turma | sem custo direto | próximas turmas do curso partem daqui | voltar ao plano por turma |
+| PD2 | Aprovar o desenho do T1 (indicação) para Dermato, sem desconto para o indicado (decisão 28c), junto com a regra que a Ufape decidir na moldura (UD1) | círculo mais quente com custo baixo | benefício [UD1] | indicações medidas por turma | encerrar por comunicado, honrando benefícios concedidos |
 | PD3 | Aprovar o convite ao docente representante (DD1) para o T2 | cria a matéria-prima que o cronograma não tem | horas do docente [CONFIRMAR] | base da área e conteúdo para os canais | não repetir; gravação não publicada |
 | PD4 | Aprovar o T3 (guia de formato) para a squad escrever o rascunho no template | disputa termos de formato e cidade sem verba nova | horas da squad e publicação pela Ufape | impressões, cliques e citações nos termos de formato | retirar a página ou o bloco |
 | PD5 | Autorizar o pedido formal de DN1 a DN6 e da regra de imagem (DD3) | sem eles não há medição por círculo nem conteúdo visual | sem custo direto | linha de base em 4 semanas | não se aplica |
@@ -270,9 +270,9 @@ Igual à moldura. Próprio de Dermato: rascunho do guia de formato (T3) no templ
 | 3 | Tem história (turma V); C1 menor que o da Gastro e a turma IV talvez ainda em curso [CONFIRMAR] |
 | 4 | Livres e Eventos da área: 463; por tema, 68614; 599 em "verificar"; nenhum grupo de estudos; prova 68646 |
 | 5 | Coordenação sem nome; 18 professores; áreas cruzadas pelos módulos 4, 5, 7, 12, 15, 16, 17, 18, 22, 23 e 24 |
-| 6 | Parceiros: SBDV, congressos da área, laboratórios, farmácias de manipulação, indústria, Ufape Clínica; sem clínicas de estágio |
-| 7 | 24 canais com os status da moldura; preenchimento na seção 4 |
-| 8 | Paga: H1 do plano da onda 1; H2 zero sem verba nova; busca de formato e cidade |
+| 6 | Parceiros fora como canal (decisão 28d); SBDV e congressos da área só como referência; Ufape Clínica depende de N8 |
+| 7 | 24 canais; status da moldura com parceiros fora (decisão 28d); preenchimento na seção 4 |
+| 8 | Paga: H1 do plano da onda 1; H2 curto, só base e lista de espera, verba [CONFIRMAR]; busca de formato e cidade |
 | 9 | Matriz da seção 6; testes T1, T2 e T3 (guia de formato) |
 | 10 | Campo de origem, UTM pos_68610, leitura de busca por grupo de termo |
 | 11 | DD1 a DD5, DN1 a DN6, PD1 a PD5 |
@@ -284,10 +284,10 @@ Igual à moldura. Próprio de Dermato: rascunho do guia de formato (T3) no templ
 
 | Tipo | Vale para a 68610? | Leitura |
 |---|---|---|
-| Turma I (sem C1) | não | turma V; mas C1 é menor que o da Gastro e pode incluir turma ainda em curso: reforçar C2, C6 e C7 como se fosse curso de história curta |
+| Turma I (sem C1) | não | turma V; mas C1 tende a ser menor que o da Gastro e pode incluir turma ainda em curso [CONFIRMAR, DN1]: reforçar C2 e C6 como se fosse curso de história curta |
 | Goiânia | não | São Paulo; parceiros e cauda de busca de São Paulo |
 | Público diferente | não | P1 (pesquisa-de-persona, 5.2); a mudança é de concorrência, não de público |
-| Promoção no catálogo | não há promoção na 68610 | a prova 68646 tem bolsas com regra na ficha (não acumulativa, intransferível); peça de prova segue suspensa pela decisão 14 |
+| Promoção no catálogo | não há promoção da 68610 no catálogo; alunos e ex-alunos de Pós têm 20% de desconto em Pós, simpósios e workshops (decisão 28a), que só entra em peça com regra escrita (base de cálculo, acúmulo com bolsa da 68646, prazo) [CONFIRMAR NO CATÁLOGO] | a prova 68646 tem bolsas com regra na ficha (não acumulativa, intransferível); peça de prova segue suspensa pela decisão 14 |
 | Turma que já começou | sim, a partir de 28/11/2026 | depois do início: só remarketing e busca; toda peça de entrada traz a regra completa do 3º módulo; nada de prometer reposição até N10; a ficha diz que as aulas online são gravadas, mas o que o aluno que entra depois recebe é [CONFIRMAR] |
 | Coordenação sem nome (novo tipo) | sim | a voz da área depende de decisão da Ufape (DD1); até lá, conteúdo de autoridade fica em tese, sem rosto |
 | Produto de Livres no mesmo fim de semana (novo tipo) | sim | 68614 em 28 e 29/11/2026, mesmo fim de semana do módulo 1: não oferecer um ao comprador do outro para a mesma data |
@@ -307,7 +307,7 @@ Base: saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2
 | Lista de espera (F10) | durante o H1 a régua da turma vence; quem não fechar entra na lista só depois do 3º módulo (30 e 31/01/2027) e só com F-B |
 | Carta da área | carta de Dermatologia com tema de rotina revisado por docente; sem foto de lesão até DD3 |
 | Convite ao T2 | só depois de DD1 e DD2 |
-| Indicação (T1) | mesma proposta de regra da moldura; indicados são clínicos que atendem casos de pele e ouvido |
+| Indicação (T1) | regra da moldura, sem desconto para o indicado (decisão 28c); reconhecimento ao indicador, se houver, é decisão da Ufape com regra escrita (UD1); indicados são clínicos que atendem casos de pele e ouvido |
 | Prova 68646 | régua da prova é da campanha das provas (decisão 3), suspensa para peças novas (decisão 14); aprovado na prova é tratado pela régua da prova, não pelos programas permanentes |
 
 ---
@@ -325,20 +325,20 @@ Base: saidas/06-geracao-de-demanda/distribuicao-pos-2026-10-29.md, [MOLDURA] das
 | 3 | E (caso do cronograma) | área visual e de casuística | DD3 (regra de imagem) e revisor docente |
 | 4 | B (podcast) | decisão 21; temas de público amplo | convidado (DD1) |
 | 5 | C (conteúdo de docente) | 18 professores com áreas cruzadas | quem aceita publicar |
-| 6 | G (presença externa) | congressos da área existem | acordos e verba de evento |
-| 7 | F (egresso) | C1 pequeno e sem autorização de depoimento | DN1 e aprovador de depoimento |
+| 6 | G (presença externa) | congressos da área existem; parceiros fora (decisão 28d) | decisão da Ufape sobre presença em congresso [CONFIRMAR]; verba de evento |
+| 7 | F (egresso) | C1 provavelmente pequeno [CONFIRMAR, DN1] e sem autorização de depoimento | DN1 e aprovador de depoimento |
 
-**Parceiros com nome e fonte (todos [CONFIRMAR]; nenhum foi contatado):**
+**Entidades e eventos com nome e fonte, só como referência de mercado e de pauta (o canal de parceiros sai pela decisão 28d; todos [CONFIRMAR]; nenhum foi contatado):**
 
 | Entidade | Tipo | O que a fonte diz | Fonte | Leitura |
 |---|---|---|---|---|
 | Sociedade Brasileira de Dermatologia Veterinária (SBDV) | P3 | registrada como fonte de informação no portal LIS da BVS, com site indicado | [BVS, LIS, SBDV](https://bvsalud.org/portal-lis/en/lis-search/resource/?id=26964) (resumo de busca; leitura direta deu 403) | candidata a pauta técnica e presença de docente; existência atual, regras e eventos [CONFIRMAR no site oficial] |
-| 4º Congresso de Dermatologia Veterinária, Diagnóstico e Terapêutica Clínica Integrada com Farmacologia, Nutrição e Manejo | P6 | apresentado pelo Animal Health Science Ecosystem, 12/03/2026, Expo Center Norte, São Paulo | [Visite São Paulo, evento](https://visitesaopaulo.com/evento/congresso-de-dermatologia-veterinaria-diagnostico-e-terapeutica-clinica-integrada-com-farmacologia-nutricao-e-manejo-2026/) | edição já passou; organizador comercial; próxima edição [CONFIRMAR] |
+| 4º Congresso de Dermatologia Veterinária, Diagnóstico e Terapêutica Clínica Integrada com Farmacologia, Nutrição e Manejo | P6 | apresentado pelo Animal Health Science Ecosystem, 12/03/2026, Expo Center Norte, São Paulo | [Visite São Paulo, evento](https://visitesaopaulo.com/evento/congresso-de-dermatologia-veterinaria-diagnostico-e-terapeutica-clinica-integrada-com-farmacologia-nutricao-e-manejo-2026/) | edição já passou; natureza do organizador [CONFIRMAR]; próxima edição [CONFIRMAR] |
 | Congresso Medvep de Especialidades | P6 | 23 a 25/07/2026, Curitiba, com dermatologia entre as especialidades | [Agrolink, Medvep 2026](https://www.agrolink.com.br/eventos/medvep-2026) (resumo de busca) | fora de São Paulo; presença de docente só se houver acordo e verba [CONFIRMAR] |
 | Anclivepa-SP | P4 | oferta Dermatologia e Alergologia de Cães e Gatos, 580 h, início em abril de 2027 | inteligencia-concorrencia-pos, C-1 e A8 | concorrente direto: monitorar, não propor co-marketing [SUPOSIÇÃO] |
 | Portais e revistas da área (Cães e Gatos e outros já mapeados) | P9 | ver distribuição de 29/10, seção 3.3 | distribuicao-pos-2026-10-29 | pauta técnica de dermatologia com docente [CONFIRMAR] |
 
-Tipos sem nome nesta rodada: laboratórios de citologia, histopatologia e testes alérgicos (P8); farmácias de manipulação, nutrição, equipamentos de videotoscopia e de fotobiomodulação (P7); Ufape Clínica (P1, depende de N8); residências com serviço de dermatologia (P10, levantamento pela 01). Clínicas de estágio (P2) ficam fora: a ficha não cita estágio.
+Fora como canal (decisão 28d). Tipos sem nome nesta rodada: laboratórios de citologia, histopatologia e testes alérgicos (P8); farmácias de manipulação, nutrição, equipamentos de videotoscopia e de fotobiomodulação (P7); Ufape Clínica (P1, depende de N8); residências com serviço de dermatologia (P10, levantamento pela 01). Clínicas de estágio (P2) ficam fora: a ficha não cita estágio.
 
 **Trilha da área (F4) com o catálogo:**
 
@@ -364,10 +364,11 @@ Base: saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-29.md, [MOLDURA] das 
 | Canais | Meta (Instagram e Facebook) e Google Busca ativos; YouTube pago, Performance Max, LinkedIn pago e TikTok fora nesta verba (moldura) |
 | Verba e teto | R$ 2.000,00 no ciclo da turma V (decisão 15); R$ 66,67 por matrícula na meta e R$ 133,33 para confirmar (decisão 27); gasto acumulado [CONFIRMAR, PP15] |
 | H1 | até a véspera do início, campanha como está; do início (28/11/2026) até a véspera do 3º módulo (29/01/2027), só remarketing e busca (plano da onda 1) |
-| H2 | zero sem verba nova aprovada; pixel e tags vivos para a turma VI |
+| H2 | curto (próxima turma em 3 a 4 meses, decisão 28e [CONFIRMAR]); base e lista de espera sem chamada de compra até a turma VI estar no catálogo; verba [CONFIRMAR]; pixel e tags vivos |
+| Base na paga | alunos e ex-alunos de Pós e compradores da área em públicos de lista nas plataformas, como a Ufape já faz (decisão 28b, interpretação [CONFIRMAR]); só formados; idade mínima de 25 anos; sem característica pessoal |
 | C2 na paga | visitantes das páginas de 463 e 68614 (público de engajamento); idade mínima de 25 anos (decisão 24) reduz o risco de alcançar graduando, sem eliminar |
 | Busca | cauda de formato e cidade (K8.2, K8.6) e marca; nada de termo curto caro (K8.1) |
-| Negativos iniciais [SUPOSIÇÃO de desenho, para o anuncios-google conferir] | dermatologia humana (dermatologista, Sociedade Brasileira de Dermatologia), estética, "gratuito", "EAD", residência, vaga de emprego |
+| Negativos iniciais [SUPOSIÇÃO de desenho, para o anuncios-google conferir] | dermatologia humana (dermatologista, Sociedade Brasileira de Dermatologia), estética, "gratuito", "EAD" só quando a busca não citar presencial nem semipresencial (o anuncios-google decide o tipo de correspondência), residência, vaga de emprego |
 | Ligações que pesam mais | L4 (busca paga ensina a orgânica, ligada ao T3) e L2 (remarketing de quem engajou com conteúdo da área). L5 (docente como ponte) espera DD1 |
 | Prova 68646 | anúncio de prova segue suspenso (seções 13 e 18 dos anúncios, decisão 14) |
 
@@ -384,13 +385,13 @@ Base: saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-29.md, [MOLDURA] das 
 - [ ] Regras de voz com exemplos aprovados: pendente da linha; não bloqueia um plano sem peças.
 - [x] Cabe na verba: nenhuma verba nova; T3 sem mídia nova. Tempo depende das horas do time, por isso 3 testes.
 - [x] Nenhuma promessa de emprego, aprovação ou salário.
-- [x] Preço do catálogo (S11); bolsas da prova só como regra da ficha; benefício e desconto em [CONFIRMAR].
+- [x] Preço do catálogo (S11); bolsas da prova só como regra da ficha; desconto de 20% para aluno e ex-aluno de Pós (decisão 28a) só com regra escrita [CONFIRMAR NO CATÁLOGO]; sem desconto para o indicado (decisão 28c).
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, carga horária, turma, local e preço batem com o catálogo e a ficha.
-- [x] Nenhuma frase de certificação ligada ao MEC; as frases da página aparecem só como pendência a corrigir. O que o aluno recebe está descrito como certificado de especialização lato sensu só por referência ao contexto da linha, sem texto para peça.
+- [x] Nenhuma frase de certificação ligada ao MEC; as frases da página aparecem só como pendência a corrigir. O plano não descreve o que o aluno recebe; o texto de certificação da Pós segue [CONFIRMAR] com a regulação (catálogo, "Certificação de pós-graduação").
 - [x] Sem superlativo, sem "única", sem comparação pública com concorrente (Anclivepa só em análise interna).
-- [x] Benefício e desconto só com regra, público e prazo; nada afirmado antes da decisão.
+- [x] Desconto de 20% para aluno e ex-aluno de Pós (decisão 28a) só com regra, público e prazo escritos [CONFIRMAR NO CATÁLOGO]; sem desconto para o indicado (decisão 28c).
 - [x] Sem urgência falsa; a data do 3º módulo aparece só como regra de captação, nunca sozinha em peça.
 - [x] LGPD: só números somados; regra de imagem de lesão acrescentada como pendência; nenhuma lista comprada ou trocada.
 - [x] Docentes só com nome e titulação da ficha; representante da turma pendente de decisão da Ufape.
@@ -409,23 +410,23 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **1. capa**
 - Título: Plano de divulgação contínua: **Pós-graduação em Dermatologia Veterinária**
-- Tópicos: Turma V, São Paulo; Semipresencial, 500 horas, 24 módulos; Paga e orgânica, sem calendário e sem peças; Mesma moldura da Gastroenterologia
-- Nota: Este é o segundo curso no mesmo modelo. A estrutura é a mesma; mudam os dados, os públicos e os testes.
+- Tópicos: São Paulo, turma V em captação; Semipresencial, 500 horas, 24 módulos; Paga e orgânica, sem calendário e sem peças; Mesma moldura da Gastroenterologia
+- Nota: Este curso usa o mesmo modelo da Gastroenterologia. A estrutura é a mesma; mudam os dados, os públicos e os testes.
 
 **2. mudanca**
 - Título: Do lançamento para a **divulgação contínua**
 - Tópicos: O lançamento da turma V já está planejado; Agora: o curso vivo entre uma turma e outra; Primeiro quem já conhece a Ufape; Depois quem nunca ouviu falar; A paga recolhe e amplia
-- Nota: A pergunta deixa de ser como vender esta turma e passa a ser como manter a Dermatologia viva o ano inteiro.
+- Nota: O foco passa a ser manter a Dermatologia presente o ano inteiro, além de vender esta turma.
 
 **3. objetivo**
 - Título: Meta de **30 matrículas** por turma
 - Tópicos: 15 matrículas confirmam a turma; Meta em reais: R$ 900.000,00; Para confirmar: R$ 450.000,00; Mídia: R$ 2.000,00 por turma; Teto de R$ 66,67 por matrícula na meta; Matrícula até o 3º módulo
-- Nota: Os valores em reais são conta, trinta vezes o valor do curso, não previsão de receita.
+- Nota: Os valores em reais são conta: 30 e 15 vezes o valor do curso. Não são previsão de receita.
 
 **4. sabemos**
 - Título: O que **já sabemos**
 - Tópicos: 7 módulos presenciais, 17 online; Atendimento de casos, testes alérgicos, otoscopia, crioterapia; Plantões de dúvidas e discussão de casos; 18 professores na ficha; Concorrente direto com início em abril de 2027; Busca principal disputada por EAD
-- Nota: Tudo aqui vem da ficha, do catálogo ou de pesquisa com fonte. A disputa é maior que na Gastroenterologia.
+- Nota: Tudo aqui vem da ficha, do catálogo ou de pesquisa com fonte. A busca principal tem muita oferta EAD.
 
 **5. lacunas**
 - Título: O que **ainda não sabemos**
@@ -439,8 +440,8 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **7. circulos-gastro (círculos da Dermatologia)**
 - Título: Os círculos da **Dermatologia**
-- Tópicos: Ex-alunos das turmas anteriores; Mini curso de Dermatologia e Videotoscopia; Alunos onde docentes da área ensinam; Ex-alunos de áreas vizinhas: endocrinologia, citologia, oncologia; 18 professores; Entidade e congressos da área; Clínicos que atendem pele e ouvido
-- Nota: O círculo de ex-alunos é menor que o da Gastroenterologia, então docentes, compradores da área e parceiros pesam mais.
+- Tópicos: Ex-alunos das turmas anteriores; Mini curso de Dermatologia e Videotoscopia; Alunos onde docentes da área ensinam; Ex-alunos de áreas vizinhas: endocrinologia, citologia, oncologia; 18 professores; Clínicos que atendem pele e ouvido
+- Nota: O círculo de ex-alunos tende a ser menor que o da Gastroenterologia (turma V contra turma IX), então docentes e compradores da área pesam mais.
 
 **8. consentimento**
 - Título: **Consentimento** antes de qualquer envio
@@ -453,9 +454,9 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 - Nota: Os programas da base nunca disputam com a régua da turma. Eles guardam o interesse para a turma seguinte.
 
 **10. canais**
-- Título: **24 canais**, mesmos status da moldura
-- Tópicos: 13 ativos, 8 em teste, 3 fora; Página da turma só depois das correções; Página da área com o guia de formato; Busca por formato e cidade; Instagram com caso, dentro da regra de imagem; TikTok, X e agregadores fora
-- Nota: Os canais não mudam; muda o que cada um recebe. Na Dermatologia, a busca de formato ganha peso.
+- Título: **24 canais**, parceiros fora
+- Tópicos: 13 ativos, 7 em teste, 4 fora; Página da turma só depois das correções; Página da área com o guia de formato; Busca por formato e cidade; Instagram com caso, dentro da regra de imagem; TikTok, X, agregadores e parceiros fora
+- Nota: A lista de canais é a da Gastroenterologia, com parceiros fora e outro conteúdo em cada canal. Na Dermatologia, a busca de formato ganha peso.
 
 **11. cadeia**
 - Título: Uma produção, **vários canais**
@@ -464,8 +465,8 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **12. papeis**
 - Título: Orgânica forma, **paga recolhe**
-- Tópicos: Orgânica: autoridade, base e prova; Paga: busca de cauda e remarketing; Antes do início: campanha como está; Depois do início: só remarketing e busca; Entre turmas: paga parada
-- Nota: A verba não muda. O que muda é o momento de usar cada real.
+- Tópicos: Orgânica: autoridade, base e prova; Paga: busca de cauda e remarketing; Antes do início: campanha como está; Depois do início: só remarketing e busca; Entre turmas: só base e lista de espera
+- Nota: A verba é a mesma; o plano define em que momento cada parte é usada.
 
 **13. ligacoes**
 - Título: **Cinco ligações** entre paga e orgânica
@@ -478,9 +479,9 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 - Nota: Com verba pequena, a busca fica longe do termo mais caro e vai para quem já pergunta por formato e cidade.
 
 **15. parceiros**
-- Título: **Parceiros** da Dermatologia
-- Tópicos: Sociedade da especialidade, a confirmar; Congresso de dermatologia veterinária em São Paulo; Congresso de especialidades; Laboratórios de citologia e histopatologia; Farmácias de manipulação e indústria; Ufape Clínica
-- Nota: Nenhum parceiro foi contatado. Todos os nomes têm fonte e precisam de confirmação. Concorrente direto não entra como parceiro.
+- Título: **Referências** externas da Dermatologia
+- Tópicos: Parceiros saem como canal; Sociedade da especialidade, só referência; Congressos da área, a decidir; Ufape Clínica, se atender a área
+- Nota: Por decisão da Ufape, parceiros não são canal. Os nomes ficam como referência de pauta, com fonte e a confirmar. Ninguém foi contatado.
 
 **16. trilha**
 - Título: Do **mini curso** à Pós
@@ -499,7 +500,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **19. medir**
 - Título: **Como medir**
-- Tópicos: Origem de cada matrícula no CRM; Link rastreado por círculo, docente e parceiro; Busca separada: termo principal e formato; Turma V contra as anteriores; Quatro semanas viram a linha de base
+- Tópicos: Origem de cada matrícula no CRM; Link rastreado por círculo e docente; Busca separada: termo principal e formato; Turma V contra as anteriores; Quatro semanas viram a linha de base
 - Nota: Sem o campo de origem preenchido, não dá para saber qual círculo funcionou.
 
 **20. precisamos**
@@ -509,8 +510,8 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **21. modelo**
 - Título: A moldura **vale para todos**
-- Tópicos: Igual à Gastroenterologia; Mesmas regras, círculos, canais e formatos; Troca: ficha, base, parceiros, busca e testes; Dermatologia foi o segundo preenchimento; Dois tipos novos: sem coordenação nomeada e Livre no mesmo fim de semana
-- Nota: A Dermatologia confirmou que a moldura funciona e acrescentou dois casos que os próximos cursos podem ter.
+- Tópicos: Igual à Gastroenterologia; Mesmas regras, círculos, canais e formatos; Troca: ficha, base, busca e testes; Dermatologia aplicada sobre a moldura; Dois tipos novos: sem coordenação nomeada e Livre no mesmo fim de semana
+- Nota: A Dermatologia coube na moldura e acrescentou dois casos que os próximos cursos podem ter.
 
 **22. proximos**
 - Título: **Próximos passos**
