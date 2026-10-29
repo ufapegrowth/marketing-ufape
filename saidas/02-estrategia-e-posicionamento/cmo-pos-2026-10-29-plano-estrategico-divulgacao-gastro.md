@@ -31,7 +31,7 @@
 ## 0. Resumo para quem decide
 
 1. **A mudança de lógica:** o enxoval da 68606 resolveu o lançamento. Este plano resolve o que acontece entre um lançamento e outro: a Pós-graduação em Gastroenterologia Veterinária passa a ter divulgação contínua, apoiada primeiro em quem já conhece a Ufape e só depois em quem nunca ouviu falar dela.
-2. **Métrica que o plano move:** matrículas pagas por turma do curso (1ª mensalidade paga, decisão 25), com mínimo de 15 por turma (decisões 11 e 16). Métricas de antecipação: inscrições pagas, interessados na área com consentimento e participação de cada círculo nas matrículas. Nenhum valor-alvo novo foi inventado.
+2. **Métrica que o plano move:** matrículas pagas por turma do curso (1ª mensalidade paga, decisão 25), com meta de 30 ou mais por turma e mínimo de 15 para confirmar a turma (decisões 11 e 27). Métricas de antecipação: inscrições pagas, interessados na área com consentimento e participação de cada círculo nas matrículas. Nenhum valor-alvo novo foi inventado.
 3. **Nove círculos de alcance**, do mais quente ao mais frio. Para Gastro, os dois mais promissores são os ex-alunos das oito turmas anteriores (a 68606 é a turma IX) e quem comprou os produtos de Gastroenterologia da linha Livres (grupo de estudos 721, mini cursos 455 e 669, imersão 291, imersão presencial em endoscopia digestiva). O tamanho de cada círculo é [CONFIRMAR].
 4. **Capilaridade:** 24 canais mapeados: 13 ativos (o YouTube com condição), 8 em teste e 3 fora, cada um com motivo e departamento responsável.
 5. **Divisão de papéis:** a orgânica forma a base e a prova (docentes, casos, podcast, busca); a paga amplia o que a orgânica já provou e recolhe quem demonstrou interesse (busca de cauda e remarketing). A verba de R$ 2.000,00 por turma (decisão 15) não muda.
@@ -48,16 +48,17 @@
 |---|---|---|
 | Objetivo | Cada turma do curso chega à turma mínima com divulgação contínua, que usa primeiro a base própria e a rede da Ufape e usa a mídia paga para ampliar e recolher, não para começar do zero | pedido do CEO, 29/10/2026 |
 | Métrica principal | Matrículas pagas por turma do curso. "Matrícula" é a 1ª mensalidade paga; "inscrição" é o valor de R$ 250,00 | decisões 23, 25 e 26 |
-| Valor mínimo | 15 matrículas por turma (turma mínima e meta) | decisões 11 e 16 |
-| Meta em reais | 15 vezes o valor do curso no catálogo | decisão 16 |
-| Métricas de antecipação | (a) inscrições pagas por turma; (b) interessados no curso com consentimento registrado (a "base da área"); (c) participação de cada círculo nas matrículas (origem); (d) custo por matrícula da mídia paga, com teto de R$ 133,33 quando a verba é de R$ 2.000,00 | decisões 15, 16 e 23; gestor-de-midia-pos, seção 12 (via apresentação, slide B15) |
+| Meta | 30 matrículas ou mais por turma | decisão 27 |
+| Valor mínimo | 15 matrículas por turma: confirma a turma (turma mínima), não é a meta | decisões 11 e 27 |
+| Meta em reais | 30 vezes o valor do curso no catálogo | decisões 16 e 27 |
+| Métricas de antecipação | (a) inscrições pagas por turma; (b) interessados no curso com consentimento registrado (a "base da área"); (c) participação de cada círculo nas matrículas (origem); (d) custo por matrícula da mídia paga, com teto de R$ 66,67 para a meta de 30 e de R$ 133,33 para confirmar a turma com 15, quando a verba é de R$ 2.000,00 | decisões 15, 16, 23 e 27; gestor-de-midia-pos, seção 12 (via apresentação, slide B15) |
 | Valor-alvo das métricas de antecipação | [CONFIRMAR]: nenhuma linha de base existe hoje. As primeiras 4 semanas de leitura viram a linha de base | estrategia-de-relacionamento-pos, seção 1.2; estrategia-social-pos, seção 0 |
 | Dois horizontes | H1: a turma em captação (até a data limite de matrícula da turma). H2: entre turmas, formar a base que alimenta a próxima turma | decisão 18 (matrícula até o 3º módulo) |
 
 ### [GASTRO]
 
-- **Métrica principal:** matrículas pagas na turma 68606 (mínimo de 15) e, depois, em cada nova turma do curso.
-- **Meta em reais da 68606:** 15 x R$ 35.400,00 = R$ 531.000,00 (conta pela regra da decisão 16 com o total do catálogo; é aritmética, não previsão).
+- **Métrica principal:** matrículas pagas na turma 68606 (meta de 30 ou mais; 15 confirma a turma) e, depois, em cada nova turma do curso.
+- **Meta em reais da 68606:** 30 x R$ 35.400,00 = R$ 1.062.000,00 (conta pela regra das decisões 16 e 27 com o total do catálogo; é aritmética, não previsão). Para confirmar a turma: 15 x R$ 35.400,00 = R$ 531.000,00.
 - **H1:** a 68606 começa em 07/11/2026 e aceita matrícula até o 3º módulo (ficha; decisão 18). O calendário do H1 já está no enxoval e não entra aqui.
 - **H2:** a próxima turma do curso não está no catálogo [CONFIRMAR data e número da turma X]. A prova de bolsa 68650 (27/11/2026) não tem turma de destino informada [CONFIRMAR destino]. Por isso o H2 trabalha a base da área, sem chamada de compra para uma turma que não existe no catálogo.
 
@@ -217,7 +218,7 @@ Legenda de status: **ativo** (roda de forma contínua), **testar** (entra como t
 | Onde atua mais | círculos C1 a C8 e a parte de C9 que chega por busca e IA | C9 (frio) por busca de cauda; remarketing de quem engajou; ampliação de conteúdo de docente |
 | O que gera | conversas, inscritos na base da área, indicações, pautas | visitas qualificadas, leads e inscrições na janela da turma |
 | Quando pesa mais | o tempo todo, e sozinha entre turmas | na janela de captação de cada turma (H1) |
-| Verba | horas do time e dos docentes [CONFIRMAR, N9] | R$ 2.000,00 por turma no ciclo (decisão 15); teto de R$ 133,33 por matrícula |
+| Verba | horas do time e dos docentes [CONFIRMAR, N9] | R$ 2.000,00 por turma no ciclo (decisão 15); teto de R$ 66,67 por matrícula para a meta de 30 e de R$ 133,33 para confirmar a turma com 15 (decisão 27) |
 
 **Como uma alimenta a outra (cinco ligações):**
 
@@ -308,7 +309,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 | Por canal | Busca orgânica e IA | impressões e cliques nos termos da área; páginas citadas por assistentes (checagem manual periódica) | Search Console; checagem da squad |
 | Por canal | Social | conversas no direct, salvamentos, compartilhamentos, cliques com UTM | Instagram, Facebook |
 | Por canal | Podcast | ouvintes até o fim, visitas com UTM do podcast, cortes publicados | YouTube, Spotify, analytics |
-| Por canal | Mídia paga | custo por lead, por inscrição e por matrícula da turma, contra o teto de R$ 133,33 por matrícula | Meta Ads, Google Ads, CRM |
+| Por canal | Mídia paga | custo por lead, por inscrição e por matrícula da turma, contra o teto de R$ 66,67 por matrícula (meta de 30) e de R$ 133,33 (confirmar a turma com 15) | Meta Ads, Google Ads, CRM |
 | Processo | Rastreio completo | leads com origem e UTM divididos pelo total de leads | CRM |
 | Processo | Tempo de primeira resposta | mediana entre a entrada do lead e a primeira resposta humana | ferramenta de WhatsApp |
 
@@ -406,7 +407,7 @@ Por que esses três: T1 é o mais barato e testa o círculo mais quente; T2 apro
 ## Auditorias aplicadas a este plano
 
 **auditorias/02-estrategia-e-posicionamento.md**
-- [x] Uma meta principal: matrículas pagas por turma do curso, mínimo de 15 (decisões 11, 16 e 25).
+- [x] Uma meta principal: matrículas pagas por turma do curso, meta de 30 ou mais e mínimo de 15 para confirmar a turma (decisões 11, 25 e 27).
 - [x] Persona e curso nomeados: P1 [SUPOSIÇÃO]; Pós-graduação em Gastroenterologia Veterinária (68606).
 - [x] Os 8 canais avaliados (seção 4, marcados 8C); os de fora têm motivo; os ativos já eram ativos no enxoval ou entram como teste.
 - [x] Alternativa real nomeada: residência, curso curto (inclusive os livres da própria Ufape, risco do F4), EAD, adiar (seções 2 e 6, com fonte nas saídas do 01 e do posicionamento).
@@ -449,7 +450,7 @@ Próximo passo: estrategia-de-relacionamento, com este arquivo como entrada. Em 
 ## Fatos (com fonte)
 
 - 68606: 500 h, 24 módulos, semipresencial, São Paulo, turma IX, 3 módulos presenciais (6, 13 e 21), 3 aulas abertas no cronograma (8, 15 e 19), coordenação Esp. Maria Carolina Pappalardo, 38 professores; 30x de R$ 1.180,00, R$ 35.400,00, inscrição de R$ 250,00 (ficha; catálogo; decisão 23).
-- Turma mínima e meta de 15; verba de R$ 2.000,00 por turma; matrícula até o 3º módulo; matrícula é a 1ª mensalidade paga (decisões 11, 15, 16, 18, 25 e 26).
+- Turma mínima de 15 e meta de 30 ou mais (decisão 27); verba de R$ 2.000,00 por turma; matrícula até o 3º módulo; matrícula é a 1ª mensalidade paga (decisões 11, 15, 16, 18, 25 e 26).
 - Produtos de Gastroenterologia em Livres: 721, 455, 669, 291, 68637 e 623 (catálogo); 623 sem campanha nova até a correção (decisão 13).
 - Coordenação também listada em 68608, 68635, 68623 e 68617 (autoridade-docente, 0.2).
 - Cerca de 224 mil veterinários atuantes; 63.128 em SP; predominância de 30 a 49 anos; cerca de 60% mulheres (benchmarks, seção 1).

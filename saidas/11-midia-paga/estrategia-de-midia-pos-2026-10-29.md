@@ -33,7 +33,7 @@
 3. **As cinco ligações viram regras com gatilho, o que sobe e quando escalar ou parar.** Todo critério compara a conta com ela mesma e usa as regras já aprovadas da linha (volume mínimo de 1,5 vez o CPL máximo e 3 dias, 2 semanas fechadas, passos de até 20%, uma mudança por vez).
 4. **Canais:** Meta (Instagram e Facebook) e Google Busca ativos; YouTube pago, Performance Max, LinkedIn pago e TikTok fora nesta verba, cada um com o que o faria voltar.
 5. **T3 pago (docente como mídia):** anúncio de parceria pelo perfil do docente, rodando lado a lado com o mesmo conteúdo pelo perfil da Ufape. Fatia: até 10% da verba da turma, dentro do teto de 30% para testes que a linha já usa, e só se o saldo comprar ao menos 10 leads de cada lado ao CPL observado. Sem isso, o teste fica para a próxima turma, porque o resultado sairia inconclusivo.
-6. **Medição:** custo por matrícula contra R$ 133,33, CPL contra o CPL máximo da turma, origem por círculo no CRM e duas leituras de atribuição (primeiro contato no CRM e último clique na plataforma), nunca somadas. Benchmark externo só como faixa: não existe referência brasileira confiável de CPL ou de custo por matrícula em pós (pesquisa-de-mercado, seção 2).
+6. **Medição:** custo por matrícula contra R$ 66,67 para a meta de 30 e R$ 133,33 para confirmar a turma com 15 (decisão 27), CPL contra o CPL máximo da turma, origem por círculo no CRM e duas leituras de atribuição (primeiro contato no CRM e último clique na plataforma), nunca somadas. Benchmark externo só como faixa: não existe referência brasileira confiável de CPL ou de custo por matrícula em pós (pesquisa-de-mercado, seção 2).
 7. **O ponto que liga tudo:** cada matrícula que vem da base e da orgânica reduz o Mmid (matrículas que dependem da mídia) e sobe o CPL máximo da paga (CPL máximo = R$ 2.000,00 x i x k / Mmid, gestor-de-midia-pos, 12.3). A estratégia contínua é a principal alavanca da paga, e o campo "origem" no CRM é o que permite fazer essa conta na próxima turma.
 
 ---
@@ -174,7 +174,8 @@ Retenção máxima de cada tipo de público e tamanho mínimo para entregar: [CO
 - **Teto conjunto de testes:** o T3 conta dentro do teto de 30% da verba da turma para testes que a linha já usa (origem do gatilho de rodízio, gestor-de-midia-pos, 12.6). Se o teste de conceitos do frio já estiver usando esse espaço, o T3 espera.
 - **Condição de volume:** o T3 só sobe se a fatia disponível for de pelo menos 2 x 10 x CPL observado da turma (10 leads de cada lado, o piso da regra de 10 a 20 conversões da skill diagnostico-de-midia). Se não for, o teste não sobe naquela turma, porque sairia inconclusivo, e fica para a próxima turma do curso ou de outro curso.
 - **Origem da fatia:** sai da parte Meta da fase em que o teste roda (no remarketing, depois do início; no frio ou no remarketing, antes), nunca da busca de maior intenção. A peça A e a peça B **substituem** peças do conjunto, não somam, para respeitar o limite de volume da tabela 3.6 da estrategia-de-midia-pos.
-- **Origem do 10%** [SUPOSIÇÃO de desenho]: com o CPL máximo do cenário base da linha (R$ 10,00, gestor-de-midia-pos, 12.3), 10 leads de cada lado custam R$ 200,00, que é 10% de R$ 2.000,00 (conta ilustrativa). Com o CPL do cenário conservador (R$ 4,00), o teste caberia em 4%; com o otimista (R$ 18,00), precisaria de 18% e não sobe. Por isso a condição de volume, e não o percentual, decide.
+- **Origem do 10%** [SUPOSIÇÃO de desenho]: com o CPL máximo do cenário base da linha (R$ 10,00, gestor-de-midia-pos, 12.3, calculado com Mmid = 15), 10 leads de cada lado custam R$ 200,00, que é 10% de R$ 2.000,00 (conta ilustrativa). Com o CPL do cenário conservador (R$ 4,00), o teste caberia em 4%; com o otimista (R$ 18,00), precisaria de 18% e não sobe.
+- **Com a meta de 30 (decisão 27)** [conta ilustrativa, mesma fórmula e mesmas taxas i e k da linha, CPL máximo = R$ 2.000,00 x i x k / Mmid com Mmid = 30]: o CPL máximo cai pela metade (conservador R$ 2,00, base R$ 5,00, otimista R$ 9,00) e os 20 leads do teste custam R$ 40,00, R$ 100,00 e R$ 180,00, ou 2%, 5% e 9% da verba. Os três cabem na fatia de 10%, mas com CPL máximo menor o teto fica mais difícil de cumprir. Por isso a condição de volume, com o CPL observado da turma, e não o percentual, decide.
 
 ### 4.4 [MOLDURA] Leitura, escala e parada
 
@@ -217,9 +218,9 @@ Retenção máxima de cada tipo de público e tamanho mínimo para entregar: [CO
 
 | Nível | Indicador | Régua | Fonte |
 |---|---|---|---|
-| Resultado | Custo por matrícula da mídia (gasto do ciclo dividido por matrículas com origem mídia paga) | até R$ 133,33 com R$ 2.000,00 e Mmid = 15 (decisões 15 e 16) | gerenciador e CRM |
-| Antecedente | Custo por inscrição paga | R$ 133,33 x k / (Mmid / 15) (gestor-de-midia-pos, 12.3) | gerenciador e CRM |
-| Antecedente | CPL | CPL máximo do cenário de corte da turma; ilustrativos da linha: R$ 4,00, R$ 10,00 e R$ 18,00, com i e k [SUPOSIÇÃO ilustrativa] até o CRM informar | gerenciador e CRM |
+| Resultado | Custo por matrícula da mídia (gasto do ciclo dividido por matrículas com origem mídia paga) | R$ 2.000,00 / Mmid: até R$ 66,67 com Mmid = 30 (meta, decisão 27) e até R$ 133,33 com Mmid = 15 (confirmar a turma, decisões 11 e 15) | gerenciador e CRM |
+| Antecedente | Custo por inscrição paga | R$ 2.000,00 x k / Mmid (gestor-de-midia-pos, 12.3): R$ 66,67 x k com Mmid = 30 e R$ 133,33 x k com Mmid = 15 | gerenciador e CRM |
+| Antecedente | CPL | CPL máximo do cenário de corte da turma; ilustrativos da linha: R$ 4,00, R$ 10,00 e R$ 18,00 com Mmid = 15, e R$ 2,00, R$ 5,00 e R$ 9,00 com Mmid = 30 (decisão 27), com i e k [SUPOSIÇÃO ilustrativa] até o CRM informar | gerenciador e CRM |
 | Diagnóstico | CPM, CPC, CTR, frequência | contra a própria média do conjunto | gerenciador |
 | Ligação L1 | Posts promovidos e seu CPL contra o das peças do enxoval | conta contra ela mesma | gerenciador e perfil |
 | Ligação L2 | Tamanho e crescimento dos públicos PE1 a PE6 | crescimento semana a semana | gerenciador |
@@ -340,8 +341,8 @@ Recomendação do gestor-de-midia ao cmo: aprovar PM1 e PM2 agora (sem custo); P
 
 ## Fatos (com fonte)
 
-- Verba de R$ 2.000,00 por turma no ciclo; meta de 15 matrículas; matrícula é a 1ª mensalidade paga; inscrição de R$ 250,00; matrícula até o 3º módulo; idade mínima de 25 anos na mídia da Pós (decisões 15, 16, 18, 23, 24 e 25).
-- Custo máximo por matrícula de R$ 133,33; divisão 85% e 15%; só Meta e Google Busca; YouTube e LinkedIn fora nesta verba; diária máxima da 68606 de R$ 25,00 com G = 0 (gestor-de-midia-pos, 12 e 13).
+- Verba de R$ 2.000,00 por turma no ciclo; meta de 30 matrículas ou mais e turma mínima de 15 (decisões 11 e 27); matrícula é a 1ª mensalidade paga; inscrição de R$ 250,00; matrícula até o 3º módulo; idade mínima de 25 anos na mídia da Pós (decisões 15, 16, 18, 23, 24 e 25).
+- Custo máximo por matrícula de R$ 66,67 para a meta de 30 e de R$ 133,33 para confirmar a turma com 15 (decisão 27; os CPL máximos ilustrativos da linha, R$ 4,00, R$ 10,00 e R$ 18,00, foram calculados com Mmid = 15 e caem pela metade com Mmid = 30); divisão 85% e 15%; só Meta e Google Busca; YouTube e LinkedIn fora nesta verba; diária máxima da 68606 de R$ 25,00 com G = 0 (gestor-de-midia-pos, 12 e 13).
 - Nenhuma campanha nova aponta para a página 623 (decisão 13).
 - Círculos C1 a C9, ligações 1 a 5, T3, UD1 a UD8, UA4 (plano do cmo de 29/10/2026); K4, K5, F-A, F-B (estratégia de relacionamento de 29/10/2026); DP6 e cadeias (distribuição de 29/10/2026).
 - Não há benchmark brasileiro confiável de CPL ou custo por matrícula em pós (pesquisa-de-mercado, 2.1).
