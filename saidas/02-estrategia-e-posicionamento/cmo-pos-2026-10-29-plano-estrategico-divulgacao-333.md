@@ -27,8 +27,8 @@
 2. **Métrica e meta:** matrículas pagas na turma 333 (1ª mensalidade paga). Meta de 30 ou mais; 15 confirmam a turma. Meta em reais: 30 x R$ 28.050,00 = R$ 841.500,00 (aritmética da regra, não previsão).
 3. **Janela curta para o marketing:** pela decisão do cmo de 27/10 sobre a 333, enquanto a Ufape não disser como se repõe o módulo 1 presencial (27 e 28/03/2027), não há peça depois do início e a mídia para na véspera do início. Na prática, o H1 do marketing termina antes da aula 1, embora a matrícula siga aceita até o 3º módulo (decisão 18).
 4. **Três riscos próprios:** (a) uma só professora listada e coordenação "UFAPE" na ficha, o que concentra toda a autoridade e toda a agenda numa pessoa que também coordena a 68615; (b) canibalização com a Pós-graduação em Patologia Clínica (68615), que começa uma semana antes, no mesmo segmento e com a mesma docente; (c) público parcialmente diferente: a ficha fala com quem atua na área laboratorial, não só com o clínico de pequenos animais.
-5. **Três testes primeiro:** (T1) sessão ao vivo de leitura de lâminas com a docente, aberta à base da área; (T2) "lâmina da semana" em parceria com a docente no orgânico, que escolhe o criativo da paga; (T3) rede de laboratórios parceiros. A indicação (F1) fica para depois, porque o círculo de quem indicaria é pequeno sem ex-alunos do curso.
-6. **O que trava:** corpo docente e coordenação (OU12), reposição do módulo 1 (OU3), datas do feriado de Páscoa (OU17), tamanho e consentimento dos círculos da área A11, agenda da docente, autorização de uso de imagens de lâminas, lista de laboratórios parceiros. Seção 8.
+5. **Três testes primeiro:** (T1) sessão ao vivo de leitura de lâminas com a docente, aberta à base da área; (T2) "lâmina da semana" em parceria com a docente no orgânico, que escolhe o criativo da paga; (T3) a base da área na mídia paga: ex-alunos de Pós da área e compradores formados do 462 como públicos de anúncio, com o desconto de 20% para quem é aluno ou ex-aluno de Pós (decisão 28, itens a e b) [proposta do qa; o cmo confirma ou troca]. Laboratórios e outras empresas saem como canal (decisão 28, item d). A indicação (F1) fica para depois, porque o círculo de quem indicaria é pequeno sem ex-alunos do curso, e nunca dá desconto ao indicado (decisão 28, item c).
+6. **O que trava:** corpo docente e coordenação (OU12), reposição do módulo 1 (OU3), datas do feriado de Páscoa (OU17), tamanho e consentimento dos círculos da área A11, agenda da docente, autorização de uso de imagens de lâminas, regra escrita do desconto de 20% e escopo do consentimento da base (decisão 28). Seção 8.
 
 ---
 
@@ -39,7 +39,7 @@
 - **Meta em reais:** 30 x R$ 28.050,00 = **R$ 841.500,00**. Para confirmar a turma: 15 x R$ 28.050,00 = R$ 420.750,00 (o mesmo valor da onda 2, que usava a meta antiga de 15). Preço do catálogo: 30x de R$ 935,00; R$ 28.050,00 no cartão ou boleto; inscrição de R$ 250,00.
 - **Teto de mídia por matrícula:** R$ 66,67 para a meta de 30 e R$ 133,33 para confirmar com 15, com a verba de R$ 2.000,00 da turma (decisões 15 e 27).
 - **H1 (turma em captação):** início em 27/03/2027 (planilha e site). A Ufape aceita matrícula até o 3º módulo, 29 e 30/05/2027 (decisão 18; ficha). Para o marketing, enquanto OU3 estiver aberta, o H1 ativo vai até a véspera do início: mídia pausa às 23h59 de 26/03/2027 e não há mensagem, post nem anúncio depois do início (regra 8 da onda 2, completada pela decisão do cmo de 27/10/2026). Com OU3 respondida, ciclo extra decide se o H1 se estende até a véspera do 3º módulo. O calendário do H1 já está no enxoval da onda 2 e não entra aqui.
-- **H2 (entre turmas):** a turma II não está no catálogo [CONFIRMAR]. Não há prova de bolsa de Citopatologia (catálogo, seção 3). O H2 trabalha a base da área (lista de espera e carta), sem chamada de compra. **Particularidade de turma I:** se a 333 não chegar a 15 e não for confirmada, a ficha prevê reembolso da inscrição; quem se inscreveu e quiser aviso da próxima turma passa à lista de espera só com o próprio consentimento F-B.
+- **H2 (entre turmas):** a turma II não está no catálogo [CONFIRMAR]. Pela decisão 28 (item e), quando uma turma é confirmada a próxima abre normalmente em 3 a 4 meses [CONFIRMAR]; data e número da turma II só valem quando entrarem no catálogo. Não há prova de bolsa de Citopatologia (catálogo, seção 3). O H2 trabalha a base da área (lista de espera e carta), sem chamada de compra até a turma II estar no catálogo. **Particularidade de turma I:** se a 333 não chegar a 15 e não for confirmada, a ficha prevê reembolso da inscrição; quem se inscreveu e quiser aviso da próxima turma passa à lista de espera só com o próprio consentimento F-B.
 
 ---
 
@@ -86,9 +86,9 @@
 | N7 | Origem das matrículas das turmas anteriores de Patologia Clínica e Hematologia | é a melhor pista de onde vem o aluno de uma área sem histórico próprio | Ufape (CRM, somado) |
 | N8 | Termos de busca e volumes de citopatologia | define a cauda do Google e a pauta de 03 SEO | pesquisa-de-palavras-chave (F1 da onda 2) e Planejador do Google Ads |
 | N9 | Horas da docente, quem grava, revisor docente, aprovadores | uma só docente: a capacidade é o limite do plano | Ufape (UD8, U8) |
-| N10 | Regra de desconto de aluno e ex-aluno de pós | oferta a C3 e C4, que aqui são o círculo mais quente | Ufape (UD2) |
+| N10 | Regra escrita do desconto de 20% para aluno e ex-aluno de Pós (decisão 28, item a): prazo, acúmulo com outras condições, como pedir e se vale para a turma I | sem regra escrita, nenhuma peça cita o desconto (CDC); é a oferta a C3 e C4, que aqui são o círculo mais quente | Ufape (UD2) |
 | N11 | Data e número da turma II | sem isso, o H2 não tem chamada de compra | Ufape |
-| N12 | Base legal para marketing à base de ex-alunos e para listas em plataformas | sem isso, nenhum envio a ex-aluno e nenhum público de lista | encarregado de dados (UA4) |
+| N12 | Escopo e registro do consentimento da base para novas oportunidades (decisão 28, item b) e se ele cobre listas nas plataformas de anúncio [CONFIRMAR a interpretação da squad] | a decisão 28 diz que a base tem consentimento e é trabalhada por mídia paga; falta o registro que o encarregado guarda | encarregado de dados (UA4) |
 | N13 | Se laboratórios veterinários contratam ou exigem especialização para quem lê lâminas | separa "quem trabalha em laboratório" de "clínico que faz citologia" na mensagem | 01 Inteligência (pesquisa) e coordenação |
 
 ---
@@ -101,12 +101,12 @@ Regras L1 a L8 e a tabela dos nove círculos: como no plano modelo, seção 3 [M
 |---|---|---|---|
 | C1 | **não existe:** a 333 é turma I. Pular o passo 3 do roteiro e reforçar C2, C6 e C7 (roteiro, "atenção por tipo de curso"). Na turma II, os alunos da turma I passam a ser C1 | a ausência muda a ordem: o mais quente agora é C4 da área e C2 | - |
 | C2 | compradores do 462 (mini curso em patologia, com "Noções de Citologia", dado pela mesma docente). Vizinhos, com interesse a confirmar: 106 e 202 (hematologia e coagulação) | já pagou para aprender com a mesma docente um tema que a Pós aprofunda | tamanho e consentimento (N1). O 462 aceita graduandos: só formado recebe campanha da Pós. Peças de Livres seguem suspensas (decisão 14) |
-| C3 | alunos de 68608 (Hematologia, turma VIII) a partir do início dela; alunos de 68615 (Patologia Clínica, turma VII) só depois de 20/03/2027; alunos de 68636, 68623, 68617 e 68635, onde a docente também ensina, só quando cada turma começar (pelo catálogo, as quatro começam depois da 333) | conhecem a área ou a docente; indicam colegas | regra da Ufape para comunicar com aluno em curso. **Regra de proteção:** quem se matricula na 68615 vira C3 e nunca recebe oferta da 333 (estratégia de relacionamento, 1.4, item 5) |
-| C4 | **o círculo mais quente desta turma:** ex-alunos de Patologia Clínica (turmas I a VI, pela turma VII da 68615) e de Hematologia Veterinária (turmas I a VII, pela turma VIII da 68608). Depois, ex-alunos de áreas que o cronograma toca (S11): Oncologia, Gastroenterologia, Nefrologia, Pneumologia, reprodução, Oftalmologia, Silvestres, só com interesse declarado | segunda especialização na mesma área ou passo de quem já trabalha com laboratório [SUPOSIÇÃO] | quantos e com que consentimento (N1); regra de ex-aluno (N10); campo de interesse por área [CONFIRMAR] |
+| C3 | alunos de 68608 (Hematologia, turma VIII) a partir do início dela; alunos de 68615 (Patologia Clínica, turma VII) só depois de 20/03/2027; alunos de 68636, 68623, 68617 e 68635, onde a docente também ensina, só quando cada turma começar (pelo catálogo, as quatro começam depois da 333) | conhecem a área ou a docente; indicam colegas | aluno de Pós tem 20% de desconto em outra Pós e a base tem consentimento para novas oportunidades (decisão 28, itens a e b): oferta da 333 a aluno de outra Pós da área é permitida, com a regra escrita do desconto (N10). **Regra de proteção:** quem se matricula na 68615 vira C3 e nunca recebe oferta da 333 (estratégia de relacionamento, 1.4, item 5) |
+| C4 | **o círculo mais quente desta turma:** ex-alunos de Patologia Clínica (turmas I a VI, pela turma VII da 68615) e de Hematologia Veterinária (turmas I a VII, pela turma VIII da 68608). Depois, ex-alunos de áreas que o cronograma toca (S11): Oncologia, Gastroenterologia, Nefrologia, Pneumologia, reprodução, Oftalmologia, Silvestres, só com interesse declarado | segunda especialização na mesma área ou passo de quem já trabalha com laboratório [SUPOSIÇÃO] | quantos e com que consentimento (N1); regra escrita do desconto de 20% de ex-aluno (decisão 28; N10); campo de interesse por área [CONFIRMAR] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; só comunicação institucional | se há egressos (UN6 do plano modelo) |
 | C6 | Dra. Sabrina Caruso Chate, única professora listada (grafia da ficha 333) | é toda a prova de autoridade da turma hoje; também é a voz da 68615 e do 462 | corpo docente real (OU12); horas e aceite; perfil ativo; se aceita representar a 333 (encomenda F6 da onda 2 já pede o ok dela) |
-| C7 | laboratórios veterinários de diagnóstico (clientes e empregadores do público), entidades de patologia (S18, S19), clínicas que enviam amostras, indústria de microscopia e de corantes, portais da área | o público de laboratório se reúne em entidades e empresas que a Ufape ainda não alcança | lista de parceiros (UN4); se a Ufape tem laboratório (N5) |
-| C8 | indicadores de C2, C3 e C4 (C6 e C7 se a Ufape decidir; C5 nunca) indicando colegas que fazem citologia na clínica ou trabalham em laboratório | custo baixo, mas o círculo de indicadores é menor sem ex-alunos do curso | regra e benefício (UD1) |
+| C7 | **fora como canal ativo ou de teste** (decisão 28, item d: parceiros, na prática, são empresas). Laboratórios, indústria e portais não recebem pedido de divulgação; entidades de patologia (S18, S19) ficam só como fonte de pauta e de agenda da área [CONFIRMAR com o cmo]. Laboratório próprio da Ufape, se existir, é casa, não parceiro (N5) | - | se a Ufape tem laboratório (N5) |
+| C8 | indicadores de C2, C3 e C4 (C6 se a Ufape decidir; C7 fora pela decisão 28; C5 nunca) indicando colegas que fazem citologia na clínica ou trabalham em laboratório | custo baixo, mas o círculo de indicadores é menor sem ex-alunos do curso | regra (UD1); sem desconto para o indicado (decisão 28, item c) |
 | C9 | (a) clínico de pequenos animais que coleta e quer interpretar citologia na rotina (P1); (b) veterinário que atua ou quer atuar em laboratório de análises (subpersona de laboratório) | dois públicos frios com mensagem diferente | volumes de busca (N8); persona de laboratório sem pesquisa própria (seção 9) |
 
 ---
@@ -125,9 +125,9 @@ Os 24 canais, papéis e critérios: plano modelo, seção 4 [MOLDURA]. Os 8 cana
 | 11 e 12. Podcast e YouTube | episódio com a docente sobre citologia na rotina da clínica e no laboratório [CONFIRMAR convite e agenda]; YouTube segue condicionado ao canal oficial |
 | 13. LinkedIn | pesa mais que na Gastro: o público de laboratório (responsável técnico, gestor de qualidade) tem perfil profissional mais próximo do LinkedIn [SUPOSIÇÃO, sem dado de uso]. Continua em teste, pelo perfil da docente, se ela aceitar; página da Ufape fora até confirmar que existe |
 | 14 e 15. TikTok e X | fora, pelos motivos do modelo |
-| 18. Comunidades | não há grupo de estudos de citologia nem ex-alunos do curso: a comunidade de ex-alunos (F3) fica fora nesta turma |
+| 18. Comunidades | a comunidade da Ufape são os grupos de estudo que já existem (decisão 28, item g); não há grupo de estudos de citologia ou de patologia no catálogo (seção 7), e a 333 não tem ex-alunos: nada a criar; F3 fora nesta turma |
 | 19. Eventos e aulas abertas | o cronograma não tem aula aberta (S12): a sessão ao vivo (T1) é formato novo, não aproveitamento de módulo; depende de UD3 |
-| 21 a 23. Parceiros, imprensa, congressos | laboratórios de diagnóstico como tipo principal; entidades de patologia veterinária (S18) e eventos da área; detalhe na seção 11 |
+| 21 a 23. Parceiros, imprensa, congressos | parceiros (empresas, inclusive laboratórios) saem como canal ativo ou de teste (decisão 28, item d); entidades e eventos de patologia veterinária (S18) só como fonte de pauta, sem pedido de divulgação [CONFIRMAR com o cmo]; detalhe na seção 11 |
 | 16. Google Ads | cauda de citopatologia e de citologia com cidade; negativos de citopatologia humana e de ginecologia (seção 12) |
 | 17. Meta Ads | criativo escolhido pela "lâmina da semana" (T2) e pelo post da docente; remarketing até a véspera do início |
 
@@ -139,7 +139,7 @@ Divisão de papéis e cinco ligações: plano modelo, seção 5 [MOLDURA].
 
 - **H1 (até a véspera do início, enquanto OU3 estiver aberta):** a paga já está desenhada no enxoval (subida da pré-campanha, cortes, extensão só com a peça -exta até 26/03/2027, 23h59, sem a frase do 3º módulo; decisão do cmo de 27/10). Este plano não mexe nisso. O que entra: as ligações como regra (o orgânico escolhe o criativo; a paga recolhe quem a sessão ao vivo e a lâmina da semana aqueceram; lead pago que não fecha vai para a base).
 - **Depois do início:** sem OU3, nenhuma paga e nenhuma peça. Com OU3, ciclo extra decide se a -extb sobe e com que diária (decisão de 27/10, seção 1).
-- **H2:** a turma II não está no catálogo; paga zero por padrão (UD7 do modelo). Os públicos de engajamento formados no H1 (visitantes da página, quem viu a sessão e as lâminas) ficam guardados para a turma II.
+- **H2:** a turma II não está no catálogo (pela decisão 28, item e, abre normalmente 3 a 4 meses depois de uma turma confirmada [CONFIRMAR]); paga zero por padrão (UD7 do modelo). Os públicos de engajamento formados no H1 (visitantes da página, quem viu a sessão e as lâminas) ficam guardados para a turma II.
 - **Fonte de criativo:** a docente (autoridade), imagens de lâmina com autorização (N6), cortes da sessão ao vivo e do podcast. Nada de paciente, tutor, clínica ou laboratório identificável.
 - **Cuidado de turma I:** sem histórico de custo por lead, a regra de volume mínimo (1,5 vez o CPL máximo e 3 dias) decide; a primeira turma é a linha de base da segunda.
 
@@ -151,20 +151,20 @@ Catálogo F1 a F16: plano modelo, seção 6 [MOLDURA]. Coluna "Por que serve (ou
 
 | # | Formato | Por que serve (ou não) à 333 | Esforço | Impacto [SUPOSIÇÃO] |
 |---|---|---|---|---|
-| F1 | Programa de indicação | sem C1, os indicadores seriam C4 e C3 da área; útil, mas menor que na Gastro. Fica para depois do T1 a T3 | baixo | médio |
+| F1 | Programa de indicação | sem C1, os indicadores seriam C4 e C3 da área; útil, mas menor que na Gastro; sem desconto para o indicado (decisão 28, item c). Fica para depois do T1 a T3 | baixo | médio |
 | F2 | Sessão ao vivo (aqui, leitura de lâminas comentada) | citologia se ensina olhando lâmina; formato curto e online mostra o que os módulos presenciais 5, 10 e 20 fazem, sem transmitir aula prática | médio | alto |
-| F3 | Comunidade de ex-alunos | fora nesta turma: não há ex-aluno do curso | - | - |
+| F3 | Comunidade de ex-alunos | não se cria: a comunidade são os grupos de estudo que já existem (decisão 28, item g), e não há grupo da área no catálogo; a 333 também não tem ex-aluno | - | - |
 | F4 | Trilha da área | degraus reais: 462 (D1) e a Pós; não há grupo de estudos nem imersão de citologia no catálogo (D2 e D3 vazios) | baixo | médio |
 | F5 | Conteúdo com docente em parceria | uma só docente listada: alto valor, mas teto de carga baixo | médio | alto |
 | F6 | Anúncio de líder de opinião | mesma docente; só se ela aceitar e se a fatia couber (seção 12) | médio | médio |
-| F7 | Co-marketing com parceiros | laboratórios e indústria de microscopia e corantes têm base de veterinários de laboratório | alto | médio a alto |
+| F7 | Co-marketing com parceiros | fora: parceiros saem como canal (decisão 28, item d) | - | - |
 | F8 | Presença em eventos da área | entidades e congresso de patologia veterinária existem (S18); próxima edição [CONFIRMAR] | alto | médio |
 | F9 | Conteúdo para busca por IA | nicho com oferta presencial pouco visível nas buscas (S17) [SUPOSIÇÃO por indício] | médio | médio, crescente |
 | F10 | Lista de espera | essencial em turma I: destino de quem chega depois da véspera do início e de quem perde a turma se ela não confirmar | baixo | alto para a turma II |
 | F11 | Material de referência (isca) | o guia de decisão da área A11 já existe (iscas-digitais-pos v2, seção A11); revisão: nenhum guia repete "6 módulos presenciais de leitura de lâminas" (F13 da onda 2) | baixo | médio |
 | F12 | Caso da semana (aqui, "lâmina da semana") | encaixe natural: imagem de lâmina, pergunta, resposta comentada pela docente | baixo | médio a alto |
 | F13 | Episódios temáticos do UFAPE Cast | episódio com a docente; temas do cronograma | médio | médio |
-| F14 | Rede de parceiros (aqui, laboratórios em vez de clínicas) | laboratório é cliente, empregador e vitrine do público de laboratório | médio | médio a alto |
+| F14 | Rede de parceiros | fora: parceiros saem como canal (decisão 28, item d) | - | - |
 | F15 | Evento próprio da área | workshop de citologia da linha Eventos; decisão da linha | alto | médio a alto |
 | F16 | Encaminhamento | só se a Ufape tiver laboratório que receba amostras de colegas (N5) | médio | médio |
 
@@ -173,7 +173,7 @@ Catálogo F1 a F16: plano modelo, seção 6 [MOLDURA]. Coluna "Por que serve (ou
 | | Esforço baixo | Esforço médio | Esforço alto |
 |---|---|---|---|
 | **Impacto alto** | F10 lista de espera | F2 sessão de leitura de lâminas; F5 docente em parceria | |
-| **Impacto médio a alto** | F12 lâmina da semana | F14 laboratórios parceiros | F7 co-marketing; F15 evento próprio |
+| **Impacto médio a alto** | F12 lâmina da semana | | F15 evento próprio (F7 e F14 fora, decisão 28) |
 | **Impacto médio** | F1 indicação; F4 trilha; F11 isca | F6 líder de opinião; F9 busca por IA; F13 podcast; F16 encaminhamento | F8 eventos externos |
 
 Leitura: F10 e F11 são infraestrutura (a isca já existe). F5 e F6 dependem da mesma pessoa que os testes T1 e T2, por isso entram dentro deles, não como testes à parte.
@@ -182,11 +182,11 @@ Leitura: F10 e F11 são infraestrutura (a isca já existe). F5 e F6 dependem da 
 
 | Teste | Formato | Hipótese [SUPOSIÇÃO] | Círculos | O que medir (sem meta antes da linha de base) | Como desfazer |
 |---|---|---|---|---|---|
-| T1 | F2 sessão ao vivo de leitura de lâminas com a Dra. Sabrina Caruso Chate, aberta à base da área | ver a docente lendo lâminas mostra o curso melhor que qualquer peça, gera inscritos na lista de espera e conversas de venda, e a gravação abastece podcast, cortes, busca e remarketing | C2, C4, C3 (sem oferta), C9 via paga e parceiros | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem "evento", cortes produzidos; matrículas com origem "evento" | não repetir; gravação só publicada com aprovação |
+| T1 | F2 sessão ao vivo de leitura de lâminas com a Dra. Sabrina Caruso Chate, aberta à base da área | ver a docente lendo lâminas mostra o curso melhor que qualquer peça, gera inscritos na lista de espera e conversas de venda, e a gravação abastece podcast, cortes, busca e remarketing | C2, C4, C3, C9 via paga | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem "evento", cortes produzidos; matrículas com origem "evento" | não repetir; gravação só publicada com aprovação |
 | T2 | F12 com F5: "lâmina da semana" em parceria com a docente no Instagram | uma imagem de lâmina com pergunta e resposta comentada gera mais salvamento e conversa que o post de oferta, e o melhor post vira o criativo da paga (ligação 1) | C6, C9, C2 | salvamentos, compartilhamentos e conversas por post; cliques com UTM da docente; quantos posts passam no gatilho da ligação 1 | parar a série; remover a parceria dos posts |
-| T3 | F14 com F7: rede de laboratórios parceiros | laboratórios de diagnóstico divulgam a sessão ao vivo e o curso à própria base com link da Ufape e trazem o público de laboratório que o Instagram não alcança | C7, C9 (subpersona de laboratório) | acordos registrados; visitas, inscrições na sessão e leads com UTM de cada laboratório; matrículas com origem "parceiro" | encerrar o acordo por comunicado; retirar o link |
+| T3 | Base da área na mídia paga (proposta do qa; o cmo confirma ou troca) | ex-alunos de Pós da área (Patologia Clínica e Hematologia) e compradores formados do 462, alcançados como públicos da base nas plataformas, fecham mais barato que o público frio; para ex-aluno de Pós, a condição de 20% (decisão 28) entra só com a regra escrita | C4, C2 (formados) | custo por lead e por matrícula do público da base contra o frio, dentro da verba da turma; matrículas com origem "base" | pausar o conjunto; tirar a lista da plataforma [CONFIRMAR N12] |
 
-Por que esses três: T1 substitui a aula aberta que o cronograma não tem e é a matéria-prima de quase todos os canais; T2 é barato e liga orgânica e paga sem verba nova; T3 testa o único caminho conhecido até o subpúblico de laboratório. A indicação (F1) e o anúncio pelo perfil da docente (F6) ficam para depois, porque dependem do mesmo círculo pequeno e da mesma agenda.
+Por que esses três: T1 substitui a aula aberta que o cronograma não tem e é a matéria-prima de quase todos os canais; T2 é barato e liga orgânica e paga sem verba nova; T3 usa o círculo mais quente da turma I pelo canal que a Ufape já usa com a base (decisão 28, item b). **Coerência com a 68615:** a mesma docente é chamada para o laudo comentado ao vivo da 68615 (T2 daquele plano), para o T3 da 68615 e para o T1 e o T2 daqui; o cmo decide se as duas sessões viram uma só sessão da área, com a pergunta de curso de interesse na inscrição (plano da 68615, seção 3), e soma as horas pedidas à docente nos dois planos antes do convite. A indicação (F1) e o anúncio pelo perfil da docente (F6) ficam para depois, porque dependem do mesmo círculo pequeno e da mesma agenda.
 
 ---
 
@@ -194,11 +194,11 @@ Por que esses três: T1 substitui a aula aberta que o cronograma não tem e é a
 
 Indicadores, campo "origem" e UTM: plano modelo, seção 7 [MOLDURA].
 
-- **UTM:** utm_campaign do CRM e do orgânico já definida na onda 2 (pos_333_202612); paga com a chave pos_333-<área curta> ratificada na onda 2. utm_content por círculo, docente e parceiro (docente-chate, parceiro-<nome>) [SUPOSIÇÃO de grafia; padrão M-B do modelo].
+- **UTM:** utm_campaign do CRM e do orgânico já definida na onda 2 (pos_333_202612); paga com a chave pos_333-<área curta> ratificada na onda 2. utm_content por círculo e docente (docente-chate) [SUPOSIÇÃO de grafia; padrão M-B do modelo].
 - **Primeira leitura útil:** participação de C4 (ex-alunos de Patologia Clínica e de Hematologia) e de C2 (compradores do 462) nas matrículas da 333.
 - **Leitura de canibalização com a 68615:** matrículas somadas da área A11 (68615 mais 333) e de cada turma, por semana; leads que perguntaram pelas duas; se a 333 só cresce quando a 68615 cai, a área está dividindo o mesmo público em vez de somar. Lado a lado já encomendado à analise-de-midia (F12 da onda 2).
 - **Leitura por subpersona:** no primeiro contato, o time de vendas registra se o lead atua em clínica ou em laboratório [CONFIRMAR campo com o arquiteto-de-fluxos]. É a única forma de saber se a mensagem de laboratório funciona.
-- **Testes:** T1 pelos indicadores de evento e de base; T2 pelos indicadores de social e pela ligação 1; T3 por C7.
+- **Testes:** T1 pelos indicadores de evento e de base; T2 pelos indicadores de social e pela ligação 1; T3 pela mídia paga, por público (base contra frio).
 - **Turma I como linha de base:** o relatório final da 333 vira a referência da turma II (não há turma anterior do curso para comparar).
 
 ---
@@ -215,7 +215,7 @@ Indicadores, campo "origem" e UTM: plano modelo, seção 7 [MOLDURA].
 | UD3 | Criar sessão ao vivo aberta a não alunos (não há aula aberta no cronograma) e regra de gravação | T1 | T1 |
 | UD-333-1 | Autorização para usar imagens de lâminas (de quem é a imagem, que termo cobre) | T1, T2, criativos | T1, T2 |
 | UD5 | Página da área A11 com "avise-me" | lista de espera; H2 | H2 |
-| UD1, UD2 | Benefício de indicação; desconto de aluno e ex-aluno de pós | ofertas a C3 e C4 | F1, C4 |
+| UD1, UD2 | Regra da indicação, sem desconto para o indicado (decisão 28, item c); regra escrita do desconto de 20% de aluno e ex-aluno de Pós (decisão 28, item a: prazo, acúmulo, como pedir) | ofertas a C3 e C4 | F1, C4, T3 |
 | UD8 | Quem aprova posts, envios, depoimentos e verba | nada sai sem aprovador | tudo |
 
 ### 8.2 Dados (só números somados)
@@ -223,17 +223,17 @@ Indicadores, campo "origem" e UTM: plano modelo, seção 7 [MOLDURA].
 - UN1 (do curso): tamanho de C2, C3, C4 e C5 da área A11 e quantos têm consentimento de e-mail e de WhatsApp.
 - UN2 (do curso): origem das matrículas das turmas anteriores de Patologia Clínica e de Hematologia.
 - UN3 (do curso): data e número da turma II.
-- UN4 (do curso): laboratórios parceiros, clientes ou contatos da docente que aceitariam conversar; patrocinadores (bloco vazio na ficha).
+- UN4 (do curso): não se aplica como canal (decisão 28, item d); patrocinadores (bloco vazio na ficha) só como informação.
 - UN9-333: se a Ufape tem laboratório próprio e se recebe amostras de colegas (N5).
 - UN7: horas da docente, quem grava e edita, revisor docente.
 
 ### 8.3 Acessos
 
-UA1 a UA4 como no modelo (CRM, Search Console e analytics, YouTube e Spotify, base legal do encarregado). Sem chave no chat.
+UA1 a UA4 como no modelo (CRM, Search Console e analytics, YouTube e Spotify); a UA4 passa a ser o registro do consentimento da base para novas oportunidades e do uso dela em mídia paga (decisão 28, item b) [CONFIRMAR]. Sem chave no chat.
 
 ### 8.4 A squad faz sozinha
 
-Segmentos A11 com a regra de proteção 68615 e 333; padrão de UTM da docente e dos laboratórios; pautas da lâmina da semana e da sessão ao vivo (com revisão da docente); proposta de página da área A11; mapa de laboratórios por tipo; leitura semanal com a canibalização.
+Segmentos A11 com a regra de proteção 68615 e 333; padrão de UTM da docente; pautas da lâmina da semana e da sessão ao vivo (com revisão da docente); proposta de página da área A11; desenho dos públicos da base para o T3; leitura semanal com a canibalização.
 
 ### 8.5 Pedidos de aprovação humana (nada roda antes)
 
@@ -241,7 +241,7 @@ Segmentos A11 com a regra de proteção 68615 e 333; padrão de UTM da docente e
 |---|---|---|---|---|---|
 | PA-333-1 | Aprovar este preenchimento como plano contínuo da 333 | aplica a moldura aprovada a uma turma I | sem custo direto | base e testes da área A11 | voltar só ao enxoval da onda 2 |
 | PA-333-2 | Convidar a docente para o T1 e o T2 | ela é a única voz listada | horas da docente [CONFIRMAR] | sessão e série com matéria-prima para os canais | não fazer; nada é publicado |
-| PA-333-3 | Autorizar a squad a desenhar o mapa de laboratórios (T3) para a Ufape escolher quem abordar | caminho até o público de laboratório | sem custo direto; acordos depois, um a um | parceiros com UTM própria | não abordar ninguém |
+| PA-333-3 | Aprovar o T3 (base da área na mídia paga), dentro da verba da turma | círculo mais quente da turma I pelo canal que a Ufape já usa (decisão 28, item b) | parte dos R$ 2.000,00 da turma, definida pelo gestor-de-midia [CONFIRMAR] | custo por matrícula da base contra o frio | pausar o conjunto e tirar a lista |
 | PA-333-4 | Pedir à Ufape os dados e as decisões de 8.1 e 8.2 | sem eles não há medição nem T1 | sem custo direto | linha de base em 4 semanas | não se aplica |
 
 ---
@@ -250,10 +250,10 @@ Segmentos A11 com a regra de proteção 68615 e 333; padrão de UTM da docente e
 
 | Tipo | Vale para a 333? | O que fazer |
 |---|---|---|
-| **Turma I** | sim | sem C1: pular o passo 3, reforçar C2 (462), C6 (docente) e C7 (laboratórios); tratar C4 da área (Patologia Clínica e Hematologia) como o círculo mais quente; sem relato de egresso (cadeia F fora); sem comunidade de ex-alunos (F3 fora); a primeira turma é a linha de base. Risco próprio de turma I: não chegar a 15. Se não confirmar, quem se inscreveu é informado como serviço e só entra na lista de espera com o próprio consentimento |
+| **Turma I** | sim | sem C1: pular o passo 3, reforçar C2 (462) e C6 (docente), com C7 fora pela decisão 28; tratar C4 da área (Patologia Clínica e Hematologia) como o círculo mais quente; sem relato de egresso (cadeia F fora); sem comunidade de ex-alunos (F3 fora); a primeira turma é a linha de base. Risco próprio de turma I: não chegar a 15. Se não confirmar, quem se inscreveu é informado como serviço e só entra na lista de espera com o próprio consentimento |
 | Goiânia | não | a 333 é de São Paulo. Nada muda de praça |
 | **Público diferente** | em parte | a ficha fala com quem atua na área laboratorial (S2); a persona da linha cobre só o clínico. Encomendar à pesquisa-de-persona um recorte "veterinário de laboratório" para a área A11 (a seção 5 da persona hoje só cita A11 como "P1 e quem trabalha em laboratório"). Até lá, mensagem em dois ramos (clínica e laboratório) só como hipótese |
-| Promoção no catálogo | não | a 333 não tem promoção na ficha nem no catálogo. Nenhuma peça cita desconto |
+| Promoção no catálogo | não, mas há desconto de aluno e ex-aluno de Pós | a 333 não tem promoção na ficha nem no catálogo. Pela decisão 28 (item a), aluno e ex-aluno de Pós têm 20% de desconto; nenhuma peça cita o desconto antes da regra escrita (prazo, acúmulo, como pedir) e de o catálogo trazer a condição [CONFIRMAR NO CATÁLOGO] |
 | **Turma que já começou** | ainda não; vale a partir de 27/03/2027 | com OU3 aberta, nenhuma peça, mensagem ou anúncio depois do início (decisão de 27/10). Com OU3 respondida, ciclo extra decide a peça pós-início com a regra completa |
 | **Mesma área com turma vizinha** (próprio da 333) | sim | 68615 começa uma semana antes, mesma área, mesma docente. Regra: nenhuma peça compara as duas por valor; o time de vendas explica a diferença (laboratório clínico do pré-analítico ao laudo, na 68615; leitura de lâminas, na 333, conforme a onda 2); matriculado em uma não recebe oferta da outra; leitura somada da área |
 
@@ -265,12 +265,12 @@ Segmentos, consentimentos K1 a K5, finalidades F-A e F-B, prioridade e teto D16:
 
 | Item | 333 |
 |---|---|
-| Segmentos | C2 = compradores formados do 462; C3 = alunos de 68608 e, depois de 20/03/2027, de 68615 (só conteúdo e indicação); C4 = ex-alunos de Patologia Clínica e de Hematologia, depois áreas de S11 com interesse declarado; C5 = só institucional; sem C1 |
-| Regra própria | contato que está nas listas da 68615 e da 333 segue a fila D2 (vence a data de início mais próxima, a 68615); matriculado na 68615 sai de toda oferta da 333. A régua da turma (toques da onda 2) vence os programas permanentes |
+| Segmentos | C2 = compradores formados do 462; C3 = alunos de 68608 (oferta com o desconto de 20% de aluno de Pós, decisão 28) e, depois de 20/03/2027, de 68615 (só conteúdo e indicação, pela regra de proteção); C4 = ex-alunos de Patologia Clínica e de Hematologia, depois áreas de S11 com interesse declarado; C5 = só institucional; sem C1 |
+| Regra própria | contato que está nas listas da 68615 e da 333 recebe a oferta do curso que declarou e, sem declaração, só conteúdo da área (regra extra da área, plano da 68615, seção 3, se aprovada no PPC1); até essa aprovação, vale a fila D2 da onda 2 (vence a data de início mais próxima, a 68615); matriculado na 68615 sai de toda oferta da 333. A régua da turma (toques da onda 2) vence os programas permanentes |
 | Lista de espera (F10) | porta para a turma II e para quem chega depois da véspera do início; enquanto a turma aceitar matrícula (até o 3º módulo), lead que não fechou fica na régua da turma e não entra na lista. Sem turma II no catálogo, no máximo um aviso de manutenção por trimestre [SUPOSIÇÃO do modelo] |
 | Carta da área | carta de laboratório e citologia da área A11 (serve a 68608, 68615 e 333), um tema por edição, revisado pela docente; nome a decidir [CONFIRMAR] |
 | Convite ao T1 | o programa "convite ao T2" do modelo, aplicado à sessão de leitura de lâminas: até 1 convite, 1 lembrete e 1 mensagem pós-sessão por contato, dentro do D16; inscrição na sessão nunca exige aceitar campanha |
-| Indicação | proposta de regra do modelo (seção 3) vale como está; nesta turma fica para depois dos três testes, com indicadores de C2, C3 e C4 |
+| Indicação | proposta de regra do modelo (seção 3) vale sem as opções de desconto ao indicado (decisão 28, item c); nesta turma fica para depois dos três testes, com indicadores de C2, C3 e C4 |
 | Medição | base da área A11 com consentimento; matrículas por círculo; SAIR e descadastro por envio |
 
 ---
@@ -288,12 +288,12 @@ Matérias-primas MP1 a MP11, regras e as sete cadeias: distribuicao-pos-2026-10-
 | 3 | C, conteúdo de docente | uma só docente: poucos posts, com teto de carga | aceite e perfil ativo |
 | 4 | D, pergunta do clínico | liga busca paga e orgânica | termos (F1 da onda 2), Search Console |
 | 5 | B, podcast | episódio com a docente | convite e nome do podcast |
-| 6 | G, presença externa e parceiro (T3) | laboratórios e eventos de patologia | acordos registrados |
+| fora | G, presença externa e parceiro | parceiros saem como canal (decisão 28, item d) | - |
 | fora | F, prova do egresso | turma I, sem egresso do curso | - |
 
 MP10 (bastidor de aula prática): a ficha diz que aulas presenciais e práticas não são transmitidas nem disponibilizadas; gravar bastidor depende de decisão da Ufape (DP9 do modelo).
 
-### 11.2 Parceiros por tipo, com fonte (regra L4 e acordo registrado antes de qualquer contato)
+### 11.2 Parceiros por tipo, com fonte (só registro: pela decisão 28, item d, parceiros saem do plano como canal ativo ou de teste; nada abaixo vira contato, acordo ou pedido de divulgação. Atenção: o plano da 68615 (S20) lê a ABPV como entidade de anatomia patológica, com público diferente)
 
 | Tipo (modelo, 3.2) | Na 333 | Fonte | Marcação |
 |---|---|---|---|
@@ -332,8 +332,8 @@ Regras da paga por horizonte e por círculo, ligações e T3 pago: estrategia-de
 | Teto por matrícula | R$ 66,67 para a meta de 30; R$ 133,33 para confirmar com 15 (decisão 27) |
 | Canais ativos | Meta (Instagram e Facebook) e Google Busca |
 | Canais fora | YouTube pago, LinkedIn pago, Performance Max e Demand Gen, TikTok, X: mesmos motivos do modelo. LinkedIn pago, mesmo com o público de laboratório, não cabe na verba [SUPOSIÇÃO de custo, sem número na base] |
-| Públicos (sem lista de clientes até UA4) | visitantes da página da 333; visitantes da página do 462 (C2); engajados com a lâmina da semana e a sessão; quem viu os cortes; exclusão de quem converteu e dos visitantes da Graduação. Decisão do cmo: visitantes da página da 68615 não viram público da 333, nem o contrário, para as duas turmas não disputarem a mesma pessoa no leilão e a leitura de canibalização ficar limpa |
-| Google | cauda de citopatologia e de citologia veterinária com cidade; termos exatos [CONFIRMAR com a F1 da onda 2]. Negativos propostos ao anuncios-google: citopatologia humana, ginecológica, papanicolau, concurso, vaga, gratuito [SUPOSIÇÃO de desenho] |
+| Públicos | visitantes da página da 333; visitantes da página do 462 (C2; o plano da 68615 usa o mesmo público, então o gestor-de-midia divide ou alterna para as duas turmas não disputarem a mesma pessoa [CONFIRMAR]); engajados com a lâmina da semana e a sessão; quem viu os cortes; públicos da base (ex-alunos de Pós da área, compradores formados do 462), pela decisão 28 (item b) [CONFIRMAR escopo do consentimento, N12]; exclusão de quem converteu, dos visitantes da Graduação e dos matriculados na 68615. Decisão do cmo: visitantes das páginas da 68615 e da 68608 não viram público da 333, nem o contrário (como no plano da 68615, seção 12), para as turmas não disputarem a mesma pessoa no leilão e a leitura de canibalização ficar limpa |
+| Google | cauda de citopatologia e de citologia veterinária com cidade; termos exatos [CONFIRMAR com a F1 da onda 2]. Negativos propostos ao anuncios-google: citopatologia humana, ginecológica, papanicolau, concurso, vaga, gratuito, e os termos das irmãs da área ("patologia clínica", "hematologia"), espelhando as negativas da 68615 (plano da 68615, seção 12) [SUPOSIÇÃO de desenho] |
 | Janela | só até 26/03/2027, 23h59, enquanto OU3 estiver aberta; pausa agendada antes do feriado (decisão de 27/10) |
 | T3 pago do modelo (docente como mídia) | não é teste prioritário aqui; se a docente aceitar e a fatia de até 10% couber pela condição de volume do modelo (10 leads de cada lado ao CPL observado), roda dentro do T2. Sem isso, fica para a turma II |
 | H2 | zero por padrão; qualquer gasto é verba nova (UD7) |
@@ -347,7 +347,7 @@ A parte em destaque de cada título está entre asteriscos duplos.
 **1. capa**
 - Título: Divulgação contínua da **Pós-graduação em Citopatologia Veterinária**
 - Tópicos: Turma I, São Paulo, semipresencial; Início em 27/03/2027; Plano de mídia paga e orgânica; Sem datas de execução e sem peças; Mesma moldura aprovada na Gastroenterologia
-- Nota: Este é o segundo uso da moldura aprovada no piloto. Mostra só o que muda num curso que ainda não tem nenhuma turma formada.
+- Nota: Este é mais um uso da moldura aprovada no piloto da Gastroenterologia. Mostra só o que muda num curso que ainda não tem nenhuma turma formada.
 
 **2. mudanca**
 - Título: De lançamento de turma a **curso sempre vivo**
@@ -355,18 +355,18 @@ A parte em destaque de cada título está entre asteriscos duplos.
 - Nota: A lógica é a mesma da Gastroenterologia. A diferença é que aqui ninguém fez o curso ainda, então a confiança vem da área e da docente.
 
 **3. objetivo**
-- Título: **30 matrículas** ou mais na turma I
+- Título: **30 matrículas** ou mais por turma
 - Tópicos: 15 matrículas confirmam a turma; Meta em reais: R$ 841.500,00; Matrícula é a 1ª mensalidade paga; Teto de mídia: R$ 66,67 por matrícula; Turma I vira a linha de base da turma II
 - Nota: Os valores são conta da regra, não previsão. Não temos histórico de custo nem de conversão deste curso.
 
 **4. sabemos**
 - Título: O que **as fichas mostram**
-- Tópicos: 500 h, 24 módulos, 6 presenciais; 3 módulos de leitura de lâminas e casos; Menor total entre as pós de 500 h; Uma professora listada na ficha; Mesma docente da Patologia Clínica e do mini curso de patologia; Entidade de patologia veterinária com congresso próprio
-- Nota: Tudo aqui vem das fichas e do catálogo. A entidade de patologia ainda precisa de conferência na fonte oficial.
+- Tópicos: 500 h, 24 módulos, 6 presenciais; 3 módulos de leitura de lâminas e casos; Menor total entre as pós abertas de 500 h; Uma professora listada na ficha; Mesma docente da Patologia Clínica e do mini curso de patologia; Entidade de patologia veterinária com congresso próprio
+- Nota: Os dados do curso vêm das fichas e do catálogo. A entidade de patologia vem de uma busca na web e ainda precisa de conferência na fonte oficial.
 
 **5. lacunas**
 - Título: O que **ainda falta saber**
-- Tópicos: Corpo docente e coordenação reais; Reposição do módulo 1 presencial; Datas do feriado de Páscoa; Tamanho da base da área com consentimento; Uso de imagens de lâminas; Laboratórios parceiros
+- Tópicos: Corpo docente e coordenação reais; Reposição do módulo 1 presencial; Datas do feriado de Páscoa; Tamanho da base da área com consentimento; Uso de imagens de lâminas; Regra escrita do desconto de 20%
 - Nota: Sem a reposição do módulo 1, a divulgação para na véspera do início. Sem o corpo docente, toda a autoridade depende de uma pessoa.
 
 **6. circulos**
@@ -376,7 +376,7 @@ A parte em destaque de cada título está entre asteriscos duplos.
 
 **7. circulos-curso**
 - Título: Os círculos da **Citopatologia**
-- Tópicos: Sem ex-alunos do curso (turma I); Mais quente: ex-alunos de Patologia Clínica e Hematologia; Compradores do mini curso de patologia; Alunos de Hematologia, sem oferta; A docente como voz principal; Laboratórios de diagnóstico como parceiros; Frio: clínico que faz citologia e quem trabalha em laboratório
+- Tópicos: Sem ex-alunos do curso (turma I); Mais quente: ex-alunos de Patologia Clínica e Hematologia; Compradores do mini curso de patologia; Alunos de Hematologia, com desconto de aluno de Pós; A docente como voz principal; Frio: clínico que faz citologia e quem trabalha em laboratório
 - Nota: Quem se matricular na Patologia Clínica não recebe oferta da Citopatologia. As duas turmas dividem área, docente e semana de início.
 
 **8. consentimento**
@@ -401,7 +401,7 @@ A parte em destaque de cada título está entre asteriscos duplos.
 
 **12. papeis**
 - Título: Orgânica prova, **paga amplia**
-- Tópicos: Orgânica: docente, lâminas, sessão, busca; Paga: busca de cauda e remarketing; Verba de R$ 2.000,00 da turma; Mídia até a véspera do início; Entre turmas: paga parada
+- Tópicos: Orgânica: docente, lâminas, sessão, busca; Paga: busca de cauda, remarketing e base; Verba de R$ 2.000,00 da turma; Mídia até a véspera do início; Entre turmas: paga parada
 - Nota: Sem saber como se repõe o módulo 1, não anunciamos depois do início. A paga não começa nada do zero.
 
 **13. ligacoes**
@@ -412,12 +412,12 @@ A parte em destaque de cada título está entre asteriscos duplos.
 **14. midia**
 - Título: Meta e Google, **com teto por matrícula**
 - Tópicos: Meta R$ 1.250,75 e Google R$ 749,25; Teto de R$ 66,67 para a meta; Teto de R$ 133,33 para confirmar; Pausa na véspera do início; Sem cruzar públicos com a Patologia Clínica; Negativos de citologia humana
-- Nota: A divisão da verba já foi aprovada pelo qa e espera a aprovação humana. Este plano só acrescenta regras de público.
+- Nota: A divisão da verba já passou pela revisão de qualidade e espera a aprovação humana. Este plano só acrescenta regras de público.
 
-**15. parceiros**
-- Título: **Laboratórios** como porta principal
-- Tópicos: Laboratórios veterinários de diagnóstico; Entidade de patologia veterinária; Congresso de patologia veterinária; Indústria de microscopia e corantes; Portais da área; Nenhum contato sem acordo escrito
-- Nota: Os nomes de entidades ainda precisam de conferência na fonte oficial. A Ufape escolhe quem abordar; a squad não faz contato.
+**15. base-paga**
+- Título: A base **na mídia paga**
+- Tópicos: Ex-alunos de Patologia Clínica e Hematologia; Compradores formados do mini curso; Consentimento para novas oportunidades; 20% para aluno e ex-aluno de Pós; Parceiros fora como canal
+- Nota: A Ufape já fala com a base pela mídia paga. Aqui ela vira o terceiro teste, e o desconto só aparece em peça com a regra escrita.
 
 **16. trilha**
 - Título: Do mini curso **à pós**
@@ -426,13 +426,13 @@ A parte em destaque de cada título está entre asteriscos duplos.
 
 **17. formatos**
 - Título: Formatos que **servem à citologia**
-- Tópicos: Sessão de leitura de lâminas; Lâmina da semana; Docente em parceria; Laboratórios parceiros; Lista de espera; Isca da área já pronta; Comunidade de ex-alunos fora
+- Tópicos: Sessão de leitura de lâminas; Lâmina da semana; Docente em parceria; Base na mídia paga; Lista de espera; Isca da área já pronta; Comunidade nos grupos de estudo que já existem
 - Nota: Uma só docente listada limita a carga. Por isso os formatos com docente entram dentro dos testes, não como frentes à parte.
 
 **18. testes**
 - Título: **Três testes** primeiro
-- Tópicos: Sessão ao vivo de leitura de lâminas; Lâmina da semana em parceria; Rede de laboratórios parceiros; Medir sem meta antes da linha de base; Indicação fica para depois
-- Nota: Os testes atacam o que falta numa turma I: prova visível do curso, criativo testado e acesso ao público de laboratório.
+- Tópicos: Sessão ao vivo de leitura de lâminas; Lâmina da semana em parceria; Base da área na mídia paga; Medir sem meta antes da linha de base; Indicação fica para depois
+- Nota: Os testes atacam o que falta numa turma I: prova visível do curso, criativo testado e uso do círculo mais quente.
 
 **19. medir**
 - Título: Medir por **círculo e por área**
@@ -441,17 +441,17 @@ A parte em destaque de cada título está entre asteriscos duplos.
 
 **20. precisamos**
 - Título: O que **precisamos da Ufape**
-- Tópicos: Corpo docente e coordenação; Reposição do módulo 1; Datas da Páscoa; Uso de imagens de lâminas; Base da área com consentimento; Laboratórios e laboratório próprio; Aprovadores
-- Nota: Os três primeiros itens decidem se a turma pode ser divulgada até o fim da janela de matrícula.
+- Tópicos: Corpo docente e coordenação; Reposição do módulo 1; Datas da Páscoa; Uso de imagens de lâminas; Regra escrita do desconto de 20%; Laboratório próprio; Aprovadores
+- Nota: A reposição do módulo 1 e as datas da Páscoa decidem até quando a turma pode ser divulgada; o corpo docente decide a página e os posts.
 
 **21. modelo**
 - Título: **Igual à Gastro**: a moldura se repete
 - Tópicos: Mesmo roteiro de 12 passos; Troca: círculos, parceiros, termos, testes; Fica: regras, canais, ligações, indicadores; Turma I pula ex-alunos; Público de laboratório pede persona própria
-- Nota: A moldura funcionou sem ajuste de regra. Só os preenchimentos mudam.
+- Nota: A moldura serviu sem mudar regra de dados. Na área de laboratório vale também a regra de rota pelo interesse declarado do plano da Patologia Clínica, e as decisões do CEO de 29/10 sobre base, desconto e parceiros valem para todos os cursos.
 
 **22. proximos**
 - Título: **Próximos passos**
-- Tópicos: Revisão do qa; Perguntas à Ufape; Convite à docente; Mapa de laboratórios; Página da turma no fluxo da onda 2
+- Tópicos: Revisão do qa; Perguntas à Ufape; Convite à docente; Públicos da base na mídia paga; Página da turma no fluxo da onda 2
 - Nota: Nada é publicado, enviado ou pago antes da aprovação. A página da turma continua sendo o primeiro passo.
 
 ---
@@ -467,7 +467,7 @@ A parte em destaque de cada título está entre asteriscos duplos.
 - [ ] Regras de voz com exemplos aprovados: pendente da linha; não bloqueia um plano sem peças.
 - [x] Cabe na verba: nenhuma verba nova. Cabe no tempo: depende das horas da docente (N9), por isso 3 testes.
 - [x] Nenhuma promessa de emprego, aprovação ou salário.
-- [x] Preço do catálogo (S13); benefício e desconto em [CONFIRMAR].
+- [x] Preço do catálogo (S13); desconto de 20% de aluno e ex-aluno de Pós pela decisão 28, sem uso em peça até a regra escrita; indicação sem desconto ao indicado.
 
 **auditorias/conformidade-educacional.md**
 - [x] Nome, modalidade, carga horária, turma, local e início batem com o catálogo e a ficha.
@@ -494,7 +494,7 @@ qa-de-marketing neste arquivo. Em paralelo, a pessoa do marketing leva à Ufape 
 
 - 333: Pós-graduação em Citopatologia Veterinária, São Paulo, semipresencial, turma I, 500 h, 24 módulos, início 27/03/2027, aberto; 30x de R$ 935,00, R$ 28.050,00, inscrição de R$ 250,00; módulos presenciais 1, 5, 10, 12, 13 e 20; coordenação "UFAPE"; uma professora listada, Dra. Sabrina Caruso Chate; "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas" (catálogo, seção 2; ficha 333; decisão 23).
 - 68615 (Patologia Clínica, turma VII, início 20/03/2027) coordenada por "DRA. Sabrina Caruso Chate"; 68608 (Hematologia, turma VIII, início 28/11/2026); 462 (online, 8 h, professora Dra. Sabrina Caruso Chate, aceita graduandos) (catálogo; fichas).
-- Meta de 30 e turma mínima de 15; teto de R$ 66,67 e de R$ 133,33; verba de R$ 2.000,00; matrícula até o 3º módulo; peças de Livres suspensas (decisões 11, 14, 15, 18 e 27).
+- Meta de 30 e turma mínima de 15; teto de R$ 66,67 e de R$ 133,33; verba de R$ 2.000,00; matrícula até o 3º módulo; peças de Livres suspensas (decisões 11, 14, 15, 18 e 27). 20% de desconto para aluno e ex-aluno de Pós; base com consentimento para novas oportunidades, trabalhada por mídia paga; indicação sem desconto ao indicado; parceiros fora como canal; próxima turma normalmente 3 a 4 meses depois de uma turma confirmada; grupos de estudo como comunidade; plano focado no curso (decisão 28).
 - 333 sem peça e sem mídia depois do início enquanto OU3 estiver aberta; pausa às 23h59 de 26/03/2027 (onda 2, regra 8; decisão do cmo de 27/10/2026).
 - ABPV e Congresso Brasileiro de Patologia Veterinária (busca de 29/10/2026, confiança média).
 
@@ -511,11 +511,11 @@ qa-de-marketing neste arquivo. Em paralelo, a pessoa do marketing leva à Ufape 
 
 - OU12 (coordenação e docentes), OU3 (reposição do módulo 1), OU17 (datas da Páscoa), OU4 (vagas).
 - Tamanho e consentimento de C2, C3, C4 e C5 da área; origem das matrículas de Patologia Clínica e Hematologia (UN1, UN2).
-- Data e número da turma II (UN3); laboratórios parceiros e laboratório próprio (UN4, UN9-333).
+- Data e número da turma II (UN3); laboratório próprio (UN9-333).
 - Autorização de uso de imagens de lâminas (UD-333-1); abertura de sessão ao vivo a não alunos (UD3).
-- Horas da docente, revisor docente, aprovadores (UN7, UD8); regra de ex-aluno e de indicação (UD1, UD2).
+- Horas da docente, revisor docente, aprovadores (UN7, UD8); regra escrita do desconto de 20% e da indicação sem desconto ao indicado (UD1, UD2; decisão 28).
 - Termos e volumes de busca de citopatologia (F1 da onda 2); existência e nome oficial das entidades de patologia; próximas edições de congresso.
-- Base legal para marketing à base de ex-alunos e para listas em plataformas (UA4).
+- Escopo do consentimento da base e uso em listas nas plataformas (decisão 28, item b; UA4).
 
 ## Fontes externas desta rodada
 
