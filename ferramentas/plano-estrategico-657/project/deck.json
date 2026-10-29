@@ -1,0 +1,17 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-29T17:27:05Z"},
+  "lists": "css",
+  "title": "Plano estratégico de divulgação · Anestesiologia Avançada",
+  "cover": "capa",
+  "order": ["capa", "mudanca", "objetivo", "sabemos", "lacunas", "circulos", "circulos-gastro", "consentimento", "base", "canais", "cadeia", "papeis", "ligacoes", "midia", "parceiros", "trilha", "formatos", "testes", "medir", "precisamos", "modelo", "proximos"],
+  "sections": {
+    "s1": {"description": "A mudança: do lançamento à divulgação contínua, com o objetivo e o que sabemos.", "start": "capa"},
+    "s2": {"description": "Para quem: os nove círculos de alcance e o uso da base com consentimento.", "start": "circulos"},
+    "s3": {"description": "Por onde: canais, reaproveitamento, paga e orgânica, parceiros e trilha da área.", "start": "canais"},
+    "s4": {"description": "O que testar e como medir.", "start": "formatos"},
+    "s5": {"description": "O que precisamos da Ufape e como o plano vira modelo.", "start": "precisamos"}
+  },
+  "faces": {"funnel-display": {"family": "Funnel Display", "href": "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500&display=swap"}},
+  "designSystems": [{"title": "Design System (migrated)", "namespace": "tgh", "artifact": "https://claude.ai/artifact/JjDE8v7Frtew54XtF8sAsG", "version": null, "copiedAt": "2026-10-29T15:00:00Z"}]
+}

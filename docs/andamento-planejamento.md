@@ -310,3 +310,21 @@ Segue as dependências da seção 4 do plano do cmo.
 - 29/10/2026: 68610 Dermatologia: 71 correções do qa aplicadas; apresentação publicada em https://claude.ai/artifact/E4yAdmVez4XQtXWrtgPdJ5 (cópia em ferramentas/plano-estrategico-68610).
 - 29/10/2026: correções do qa aplicadas e apresentações publicadas: 68604 Diagnóstico por Imagem https://claude.ai/artifact/WCgWqKgpWL4Zx7wRMHn9Mn; 68615 Patologia Clínica https://claude.ai/artifact/LmPy5DoBckcxvegECrErkG; 707 Oftalmologia https://claude.ai/artifact/VQQ7ubKsPCdooi6XZgacRD.
 - 29/10/2026: 333 Citopatologia: 58 correções do qa aplicadas (novo T3: base da área na mídia paga, aceito pelo orquestrador); apresentação publicada em https://claude.ai/artifact/Vzv5XFthznAxKKRo6YkXoV.
+
+## 29/10/2026 · Planos estratégicos de divulgação: rodada dos 10 cursos concluída
+
+Apresentações publicadas (privadas, compartilhar pelo menu Compartilhar):
+- 707: https://claude.ai/artifact/VQQ7ubKsPCdooi6XZgacRD
+- 68604: https://claude.ai/artifact/WCgWqKgpWL4Zx7wRMHn9Mn
+- 68610: https://claude.ai/artifact/E4yAdmVez4XQtXWrtgPdJ5
+- 68615: https://claude.ai/artifact/LmPy5DoBckcxvegECrErkG
+- 333: https://claude.ai/artifact/Vzv5XFthznAxKKRo6YkXoV
+- 657 Anestesiologia Avançada: https://claude.ai/artifact/G7hDCNpeUncDakDMJxzwiV
+- 341 Medicina Interna Equina: https://claude.ai/artifact/E4s13vwnnE3X1YEik4NTP4
+- 68608 Hematologia Veterinária: https://claude.ai/artifact/HbzT2s4eeGLcxhBEbPaqHw
+- 698 Ecocardiografia: https://claude.ai/artifact/2iA7EeVmJRjmpp93Ad6ahM
+- 289 Cardiologia Veterinária · Goiânia: https://claude.ai/artifact/8caywNBPZ7PVuZVuUY94gM (20 correções do qa aplicadas, C01 a C20)
+
+Fontes das apresentações em ferramentas/plano-estrategico-<código>/project. Todas conferidas na renderização local, sem sobreposição.
+
+Em aberto para a Ufape: regra escrita dos 20%; confirmar as leituras da decisão 28 (b) e (e); regra única de canais da oferta de 20% na área de cardiologia (289 usa e-mail e WhatsApp com autorização por canal, 698 só mídia paga); correções de página (frases do MEC, turma mínima de 20); se o deck de cliente da 68606 passa a meta de 15 para 30.
