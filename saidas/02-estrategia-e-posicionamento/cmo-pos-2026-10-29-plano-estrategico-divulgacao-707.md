@@ -29,7 +29,7 @@
 ## 0. Resumo para quem decide
 
 1. **A turma VII começa amanhã (30/10/2026).** A captação da turma em curso vai até o 3º módulo (18, 19 e 20/12/2026, online; decisão 18). Por isso, quase tudo que este plano propõe de novo (sessão ao vivo, página da área, programa de indicação) rende na turma VIII, que ainda não está no catálogo. No H1 o trabalho é base própria, time de vendas e mídia só de remarketing e busca.
-2. **Meta:** 30 matrículas ou mais por turma; 15 confirma a turma (decisão 27). Em reais: 30 x R$ 47.700,00 = R$ 1.431.000,00. É o maior ticket entre os cursos do pedido do CEO, perto do teto da linha (contexto/pos-graduacao.md).
+2. **Meta:** 30 matrículas ou mais por turma; 15 confirma a turma (decisão 27). Em reais: 30 x R$ 47.700,00 = R$ 1.431.000,00. É o segundo maior total entre os 10 cursos desta rodada (atrás da 657, com R$ 48.400,00) e fica perto do teto da linha (contexto/pos-graduacao.md).
 3. **O que muda em relação à Gastro:** (a) seis turmas de ex-alunos (I a VI), contra oito; (b) **10 módulos presenciais** de 24, contra 3: a viagem pesa mais para quem é de fora de São Paulo; (c) o cronograma **não tem aulas abertas**, então a sessão ao vivo depende de decisão nova da Ufape; (d) a família de Livres da área é grande, mas só três produtos estão vendáveis (mini curso 482, curso básico online 627, grupo de estudos 720); as imersões práticas de microcirurgia e de imagem estão em "verificar"; (e) duas das três coordenadoras já são as professoras do mini curso 482; (f) o grupo de estudos 720 já publica condição para ex-aluno e para aluno da Pós; (g) a busca da área tem termo de cabeça caro, muito EAD em agregador e, por suposição, muita busca de tutor, que a paga precisa filtrar.
 4. **Três testes primeiro:** indicação de ex-alunos; caso clínico ao vivo com a coordenação (sem aula aberta no cronograma, depende de decisão da Ufape); docente como mídia, começando pelas coordenadoras.
 5. **O que trava:** números da turma VII hoje, gasto acumulado da mídia, tamanho e consentimento da base, data da turma VIII, regras dos mutirões de atendimento, status das imersões de oftalmologia, pendências da página da turma, formato do grupo de WhatsApp do 720. Tudo na seção 8.
@@ -114,7 +114,7 @@
 |---|---|---|---|
 | C1 | ex-alunos das turmas I a VI da Pós-graduação em Oftalmologia Veterinária (a 707 é a turma VII) | seis turmas de história; uso de "tradição" como prova é [CONFIRMAR] (ufape-geral.md, provas) | quantos, com consentimento (N1); relato de egresso só com L8 |
 | C2 | compradores de 482, 627 e 720 (vendáveis) e, como histórico, de 576, 589, 606, 603, 604 e 590 | já pagaram para aprender a área; o 482 é dado pelas próprias coordenadoras (S13) | tamanho e consentimento (N1). 482 aceita graduandos e 627 aceita estudantes: só formado recebe campanha da Pós [CONFIRMAR campo "formado"] |
-| C3 | alunos da própria turma VII enquanto ela dura; alunos de 68610 (Dermatologia, Dra. Andrea Barbosa também ensina), 68635 e 699, só quando cada turma começar (pelo catálogo, nenhuma das três começou); alunos de áreas vizinhas: 68604 (Diagnóstico por Imagem, liga aos módulos 9 a 11) | conhecem a coordenação ou a área; indicam colegas | regra da Ufape para comunicação a aluno em curso [CONFIRMAR]; nunca oferta de compra de outra Pós |
+| C3 | alunos da própria turma VII enquanto ela dura; alunos de 68610 (Dermatologia, Dra. Andrea Barbosa também ensina), 68635 e 699, só quando cada turma começar (pelo catálogo, nenhuma das três começou); alunos de áreas vizinhas: 68604 (Diagnóstico por Imagem, liga aos módulos 9 a 11), a partir do início dela | conhecem a coordenação ou a área; indicam colegas | regra da Ufape para comunicação a aluno em curso [CONFIRMAR]; nunca oferta de compra de outra Pós |
 | C4 | ex-alunos de Clínica Médica, Diagnóstico por Imagem (módulos 9 a 11), Anestesiologia (módulo 23), Neurologia (módulos 16 a 18, neuroftalmologia) e Felinos; ex-alunos de Silvestres e Equinos só se a oftalmologia comparada (módulos 19 e 20) tratar dessas espécies [SUPOSIÇÃO: a ficha não diz quais espécies] | segunda especialização [SUPOSIÇÃO] | interesse declarado por área no CRM [CONFIRMAR campo] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; só comunicação institucional | se há egressos (N11) |
 | C6 | Dra. Andrea Barbosa, Dra. Angélica Safatle, Dra. Juliana Jorge e os demais nomes da ficha (19 no total) | três coordenadoras dividem a voz; posts AD-A9-1 a AD-A9-3 já existem (autoridade-docente); docentes de "diversas instituições" (página) ampliam para outras redes | quais docentes têm perfil ativo e aceitam publicar; titulação de Juliana Jorge (S11) |
@@ -202,7 +202,7 @@ Leitura: F10 e a página da área vêm antes de tudo, porque a turma VII começa
 | T2 | F2 Caso clínico ao vivo com a coordenação | uma discussão de caso com uma das coordenadoras, aberta à base da área, gera inscritos na lista de espera da turma VIII e conversas de venda, e a gravação abastece podcast, cortes e busca | C1, C2, C4, C9 (via parceiros e, só com verba aprovada, paga) | inscritos, presentes, novos consentimentos, conversas com origem no evento, cortes produzidos | não repetir; gravação só sai com aprovação |
 | T3 | F5 com F6: docente como mídia | o mesmo conteúdo rende mais em conversa e clique pelo perfil da coordenadora (parceria) do que só pelo perfil da Ufape | C6, C9 | alcance e conversas por perfil; cliques com UTM por docente; no pago, custo por conversa e por lead contra o anúncio da marca, dentro da verba da turma | pausar o anúncio (nunca excluir); retirar a parceria |
 
-Por que esses três e não outros: T1 é o mais barato e usa o círculo mais quente; T2 cria a matéria-prima que falta (sem aula aberta no cronograma e sem prática transmitida); T3 usa a força das coordenadoras, que já dão aula no 482. Diferença de tempo em relação à Gastro: T2 e a parte orgânica de T3 servem à turma VIII; na turma VII só cabe T1 (indicação até o 3º módulo) e a parte paga de T3 em remarketing, se a fatia couber no saldo.
+Por que esses três e não outros: T1 é o mais barato e usa o círculo mais quente; T2 cria a matéria-prima que falta (sem aula aberta no cronograma e sem prática transmitida); T3 usa a força das coordenadoras, que já dão aula no 482. Diferença de tempo em relação à Gastro: T2 e a parte orgânica de T3 servem à turma VIII; na turma VII só cabem T1 (indicação até o 3º módulo) e a parte paga de T3 em remarketing, se a fatia couber no saldo.
 
 ---
 
@@ -391,7 +391,7 @@ Moldura em saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-29.md (papel por
 - [x] Docentes só com nome e titulação da ficha; divergência de Juliana Jorge marcada.
 - [x] Anúncios: idade mínima de 25 anos; sem característica pessoal; parceria identificada.
 - [x] Nada publicado, enviado ou pago.
-- [x] Sem travessão nem meia-risca; nenhuma menção que trate a The Growth Hub como "agência" (a empresa não é citada no corpo).
+- [x] Sem travessão nem meia-risca; regra de nomenclatura da empresa parceira cumprida (ela não é citada neste plano).
 
 **Resultado:** pronto para o qa-de-marketing.
 
@@ -424,7 +424,7 @@ Destaque de cada título entre asteriscos duplos. Notas sem códigos internos.
 **3. objetivo**
 - Título: Meta de **30 matrículas** por turma
 - Tópicos: 15 confirmam a turma; Meta em reais: R$ 1.431.000,00; Confirmação: R$ 715.500,00; 30x de R$ 1.590,00 ou R$ 47.700,00; Inscrição de R$ 250,00
-- Nota: A conta em reais é 30 vezes o valor do catálogo. É aritmética, não previsão. É o maior ticket entre os cursos desta rodada.
+- Nota: A conta em reais é 30 vezes o valor do catálogo. É aritmética, não previsão. O curso tem um dos maiores valores da linha.
 
 **4. sabemos**
 - Título: O que **já sabemos**
@@ -443,7 +443,7 @@ Destaque de cada título entre asteriscos duplos. Notas sem códigos internos.
 
 **7. circulos-oftalmo**
 - Título: Os círculos na **Oftalmologia**
-- Tópicos: Seis turmas de ex-alunos; Compradores do mini curso, do curso básico e do grupo de estudos; Duas coordenadoras já ensinam no mini curso; Alunos de Imagem e de Dermatologia; Entidade e congresso da especialidade; Colegas de fora de São Paulo
+- Tópicos: Seis turmas de ex-alunos; Compradores do mini curso, do curso básico e do grupo de estudos; Duas coordenadoras já ensinam no mini curso; Alunos de Imagem e de Dermatologia, quando as turmas começarem; Entidade e congresso da especialidade; Colegas de fora de São Paulo
 - Nota: O mini curso online é dado por duas das coordenadoras. Quem fez esse curso já conhece quem coordena a Pós.
 
 **8. consentimento**
@@ -530,6 +530,7 @@ Destaque de cada título entre asteriscos duplos. Notas sem códigos internos.
 - Meta de 30, 15 confirma; verba de R$ 2.000,00; teto de R$ 66,67 e R$ 133,33; matrícula até o 3º módulo; idade mínima de 25 anos (decisões 11, 15, 18, 24 e 27).
 - 482, 627 e 720 abertos (contínuos); 576, 589, 606, 603, 604 e 590 em "verificar"; prova 68656 encerrada (catálogo). 482 dado por Dra. Andrea Barbosa e Dra. Angélica Safatle; 720 com condição para ex-aluno e aluno da Pós (fichas).
 - Coordenadoras também listadas em 68610, 68635 e 699 (autoridade-docente, 0.2), nenhuma iniciada (catálogo).
+- Entre os 10 cursos desta rodada, só a 657 (R$ 48.400,00) tem total maior que a 707 (catálogo).
 - Busca da área com cabeça cara e EAD em agregador (palavras-chave, seção 1; busca de 29/10/2026).
 
 ## [SUPOSIÇÃO]
