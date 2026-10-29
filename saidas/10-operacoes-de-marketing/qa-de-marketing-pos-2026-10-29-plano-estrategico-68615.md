@@ -13,14 +13,14 @@
 
 ## 1. Veredito
 
-**APROVADO COM CORREÇÕES. 40 correções**, todas de busca e troca, sem reescrita:
+**APROVADO COM CORREÇÕES. 49 correções**, todas de busca e troca, sem reescrita:
 
-- **C01 a C09 (revisão original):** coerência da parte paga do T3 com a moldura de mídia (C01, C04, C05, C06 e C09), afirmação além da fonte (C02, C03 e C07) e tópico longo no deck (C08).
-- **C10 a C40 (decisão 28 do CEO, de 29/10/2026):** o plano foi escrito antes dela e a contradiz em sete pontos: desconto de 20% de aluno e ex-aluno de Pós, consentimento da base e uso dela na mídia paga, indicado sem desconto, saída do canal de parceiros, abertura recorrente de turmas, foco no curso e grupos de estudo como comunidade.
+- **C01 a C09 (revisão original, 9 trocas):** coerência da parte paga do T3 com a moldura de mídia (C01, C04, C05, C06 e C09), afirmação além da fonte (C02, C03 e C07) e tópico longo no deck (C08).
+- **C10 a C49 (decisão 28 do CEO, de 29/10/2026, 40 trocas):** o plano foi escrito antes dela e a contradiz em sete pontos: desconto de 20% de aluno e ex-aluno de Pós, consentimento da base e uso dela na mídia paga, indicado sem desconto, saída do canal de parceiros, abertura recorrente de turmas, foco no curso e grupos de estudo como comunidade.
 
 Nenhum item de auditorias/conformidade-educacional.md falha.
 
-**Destino:** volta ao cmo para aplicar as 40 trocas exatamente como escritas. Depois, o qa confere só as trocas e o plano segue para a aprovação humana (aprovador ainda [CONFIRMAR], UD8).
+**Destino:** volta ao cmo para aplicar as 49 trocas exatamente como escritas. Depois, o qa confere só as trocas e o plano segue para a aprovação humana (aprovador ainda [CONFIRMAR], UD8).
 
 ---
 
@@ -44,7 +44,7 @@ Demais contas do plano conferidas e certas: 30 x R$ 35.400,00 = R$ 1.062.000,00;
 
 ## 3. Correções (busca e troca)
 
-Cada trecho atual aparece uma única vez no plano. As trocas não criam trecho duplicado entre si que atrapalhe outra troca (C01 usa redação diferente de C05 de propósito). Ordem de aplicação: qualquer uma.
+Cada trecho atual aparece uma única vez no plano. As trocas não criam trecho que atrapalhe outra troca (C01 usa redação diferente de C05 de propósito). Ordem de aplicação: qualquer uma.
 
 ### 3.1 Revisão original (C01 a C09)
 
@@ -149,7 +149,7 @@ O teste pago com o docente pode rodar nesta turma, inclusive antes do início, s
 
 ### 3.2 Decisão 28 (d): parceiros saem como canal (C10 a C30)
 
-Na moldura, o canal 21 (Parceiros: clínicas, associações, indústria, laboratórios) está "testar". A decisão 28 (d) tira o canal do plano como ativo ou de teste. Imprensa (22) e congressos (23) não são parceria com empresa e ficam como estão.
+Na moldura, o canal 21 (Parceiros: clínicas, associações, indústria, laboratórios) está "testar". A decisão 28 (d) tira o canal do plano como ativo ou de teste. Imprensa (22) e congressos (23) não são parceria com empresa e ficam como estão [SUPOSIÇÃO de leitura].
 
 **C10** (seção 0, item 5)
 - Atual:
@@ -562,8 +562,6 @@ A comunidade de ex-alunos fica para depois, porque o curso não tem grupo de cas
 A comunidade são os grupos de estudo que a Ufape já tem; falta confirmar qual grupo atende a área de laboratório.
 ```
 
-**Contagem:** a numeração vai de C01 a C49 porque C13 conta como uma troca com duas linhas, mas houve renumeração ao incluir a decisão 28. **Total de trocas: 49.** (Corrige o número do item 1 deste parecer: são 49 correções, 9 da revisão original e 40 da decisão 28.)
-
 ---
 
 ## 4. auditorias/conformidade-educacional.md, item por item
@@ -646,7 +644,7 @@ Data: 29/10/2026.
 
 ## 7. Observações que não bloqueiam
 
-1. **A moldura da Gastro também contradiz a decisão 28** (canal 21 "testar", F7 e F14, ligação 2 "sem lista de clientes", F3 e canal 18 como comunidade a criar). Este parecer corrige só o plano da 68615; os outros nove planos da rodada e a moldura precisam da mesma passada.
+1. **A moldura da Gastro também contradiz a decisão 28** (canal 21 "testar", F7 e F14, ligação 2 "sem lista de clientes", F3 e canal 18 como comunidade a criar). Este parecer corrige só o plano da 68615; a moldura e os outros planos da rodada precisam da mesma passada.
 2. **Identificador do slide 7:** "circulos-gastro (círculos do curso)" mantém a chave do deck da Gastro.
 3. **Linha C4 da seção 3:** a oncologia cruza também com o módulo 8 (leucemias e mieloma múltiplo).
 4. **CEP:** a ficha 68615 mostra 01428-001 e a ficha 68658 mostra 01407-100; o plano já trata como pendência (OU13).
