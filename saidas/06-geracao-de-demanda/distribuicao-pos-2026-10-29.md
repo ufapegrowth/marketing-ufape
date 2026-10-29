@@ -9,7 +9,7 @@
 - **Como ler:** cada seção traz dois blocos.
   - **[MOLDURA]**: vale para qualquer curso de Pós (com ajuste, para Livres e Eventos).
   - **[GASTRO]**: o preenchimento do piloto. É o que troca no próximo curso.
-- **Status:** rascunho para o crescimento-de-audiencia, para o qa-de-marketing (auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md, se existirem) e para a aprovação humana. Nada é publicado, enviado, contratado ou pago a partir deste arquivo. Nenhum parceiro foi contatado.
+- **Status:** rascunho para o crescimento-de-audiencia, para o qa-de-marketing (auditorias/06-geracao-de-demanda.md e auditorias/conformidade-educacional.md) e para a aprovação humana. Nada é publicado, enviado, contratado ou pago a partir deste arquivo. Nenhum parceiro foi contatado.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
   - CLAUDE.md; contexto/ufape-geral.md; contexto/pos-graduacao.md
   - contexto/catalogo-de-cursos.md (seções 1 a 9; usado para a trilha da área)
@@ -17,18 +17,18 @@
   - saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-pos-2026-10-29.md (inteiro)
 - **Não li nesta rodada:** a ficha 68606 e as fichas 721, 455, 669 e 291 (uso o que o plano do cmo e o catálogo trazem sobre elas); os arquivos de autoridade-docente, podcast e estrategia-social (uso o que o plano resume). Onde o detalhe importa, aponto [CONFIRMAR].
 - **Busca na web nesta rodada (29/10/2026):** 4 buscas e 2 leituras de página, sobre a entidade da especialidade, congressos, portais da área e a associação concorrente. Resultados na seção 3, cada um com fonte e [CONFIRMAR]. Não abri faculdade.ufape.com.br.
-- **Dados pessoais:** nenhum. Só segmentos, números somados e papéis. Docentes aparecem só pelo que o plano já registra (a coordenação, com nome e titulação como na ficha). Os nomes de pessoas que aparecem nas fontes externas não foram copiados para este arquivo, exceto o da diretora científica, citado na seção 3 porque coincide com o nome da coordenação e isso muda a leitura do parceiro (marcado [CONFIRMAR]).
+- **Dados pessoais:** nenhum. Só segmentos, números somados e papéis. Docentes aparecem só pelo que o plano já registra (a coordenação, com nome e titulação como na ficha). Os nomes de pessoas que aparecem nas fontes externas não foram copiados para este arquivo. A seção 3.4 descreve, sem copiar o nome, uma coincidência parcial entre o nome de uma diretora científica citada na fonte e o nome da coordenação, porque isso muda a leitura do parceiro (marcado [CONFIRMAR]).
 - **Nome do curso:** em qualquer texto visível ao público é "Pós-graduação em Gastroenterologia Veterinária". "Gastro" é apelido interno.
 
 ---
 
 ## 0. Resumo para quem decide
 
-1. **A capilaridade vem da cadeia, não do número de canais.** Cada matéria-prima de valor (uma sessão ao vivo gravada, um episódio, um conteúdo de docente, um caso do cronograma) é produzida e revisada uma vez e alimenta de 8 a 15 saídas em canais diferentes. Seção 2 mostra 7 cadeias e quantos canais cada uma alcança.
+1. **A capilaridade vem da cadeia, não do número de canais.** Cada matéria-prima de valor (uma sessão ao vivo gravada, um episódio, um conteúdo de docente, um caso do cronograma) é produzida e revisada uma vez e alimenta de 5 a 17 canais diferentes do mapa. Seção 2 mostra 7 cadeias e quantos canais cada uma alcança.
 2. **21 canais entram** (13 ativos e 8 em teste, do mapa do plano). Para cada um, a seção 1 diz que matéria-prima recebe, em que formato sai, quem faz e como mede. Os 3 canais fora (TikTok, X, agregadores) continuam fora, com o motivo do plano.
 3. **Mapa de parceiros do C7 com 10 tipos.** Cada tipo tem oferta, pedido, risco e a regra de dados L4: a Ufape nunca recebe lista do parceiro, o parceiro divulga para a própria base com link e UTM da Ufape, e o lead entra pelo formulário da Ufape. Nada de parceria sem acordo registrado.
 4. **Nomes de entidades só com fonte.** Achados: a Associação Brasileira de Gastroenterologia Animal (ABRAGA) e seu congresso internacional; um congresso comercial de Gastroenterologia Veterinária em São Paulo (4ª edição, 2026); a Anclivepa-SP (que também é concorrente da linha); três veículos da área. Todos com [CONFIRMAR].
-5. **Ponto que o cmo precisa saber:** a fonte do 2º Congresso Internacional de Gastroenterologia Animal (2025) nomeia como diretora científica uma pessoa com o mesmo nome da coordenação da 68606. Se for a mesma pessoa, a ABRAGA deixa de ser um parceiro frio e vira a porta mais forte do C7, mas também exige cuidado com conflito de interesse. Não foi afirmado em nenhum lugar deste plano. Seção 3.4.
+5. **Ponto que o cmo precisa saber:** a fonte do 2º Congresso Internacional de Gastroenterologia Animal (2025) cita como diretora científica uma pessoa com nome compatível, mas não idêntico, ao da coordenação da 68606. Se for a mesma pessoa, a ABRAGA deixa de ser um parceiro frio e vira a porta mais forte do C7, mas também exige cuidado com conflito de interesse. Não foi afirmado em nenhum lugar deste plano. Seção 3.4.
 6. **Trilha da área (F4) com 5 degraus** reais do catálogo (455, 669, 721, 291, 68637) até a Pós 68606, sem crédito, sem combo e sem desconto de ponte (D7). A página 623 fica fora até a correção (decisão 13). O risco de canibalização é medido, não ignorado.
 7. **F2, F5 e F14 têm operação desenhada** com papéis, fontes de matéria-prima, saídas, medidas, pré-requisitos e como desfazer. Todos dependem de decisões da Ufape listadas na seção 8.
 8. **O que trava:** horas e nomes (quem grava, quem revisa, quem aprova), lista de parceiros e clínicas de estágio, regras do estágio, abertura da sessão a não alunos, página da área, formato de comunidade que não exponha telefone. Seção 8.
@@ -45,14 +45,14 @@ Matéria-prima é qualquer ativo de conteúdo com valor próprio que pode virar 
 |---|---|---|---|---|
 | MP1 | Sessão ao vivo gravada (caso clínico ao vivo, F2; aula aberta, S9 do plano) | coordenação e docentes; tema de um módulo do cronograma | 05 Social, 12 Vídeo e Áudio, com a coordenação | revisor docente antes de publicar a gravação; regra de gravação da Ufape (UD3); L8 se aparecer aluno ou ex-aluno |
 | MP2 | Episódio do UFAPE Cast (F13) | docentes e convidados; temas da área | 12 Vídeo e Áudio | autorização de docentes e convidados já existe (decisões 8 e 10); egresso só com L8; nome do podcast é decisão da Ufape |
-| MP3 | Conteúdo de docente (resposta curta, explicação, série "pergunta do clínico", F5) | docentes da ficha, por área cruzada com Gastroenterologia | 05 Social, com 04 Conteúdo | cada docente aprova o próprio texto (plano, C6); sem paciente, tutor ou clínica identificável |
+| MP3 | Conteúdo de docente (resposta curta, explicação, série "pergunta do clínico", F5) | docentes da ficha, por área cruzada com a área do curso | 05 Social, com 04 Conteúdo | cada docente aprova o próprio texto (plano, C6); sem paciente, tutor ou clínica identificável |
 | MP4 | Caso do cronograma (tema de módulo, F12 caso da semana) | módulos da ficha; docentes | 04 Conteúdo | revisor docente obrigatório; a squad não escreve conduta nem dose |
 | MP5 | Pergunta do clínico (em formato de pergunta e resposta) | busca (Search Console, termos do Google Ads), perguntas agregadas do atendimento de vendas e do direct, tema do grupo de estudos | 03 SEO, 09 Analytics | só agregado por tema (L1); resposta com revisão docente |
-| MP6 | Fato do curso (cronograma, práticas, docentes, estrutura) | ficha 68606 e catálogo | 08 Conversão, 03 SEO | só dado do catálogo e da ficha; pendências da página resolvidas antes de tráfego (decisão do plano, regra 9 da onda) |
+| MP6 | Fato do curso (cronograma, práticas, docentes, estrutura) | ficha do curso e catálogo | 08 Conversão, 03 SEO | só dado do catálogo e da ficha; pendências da página resolvidas antes de tráfego (decisão do plano, regra 9 da onda) |
 | MP7 | Relato de egresso | ex-alunos, com autorização registrada | 05 Social, 07 Relacionamento | L8, aprovação "peças com depoimento" ([CONFIRMAR] quem aprova) |
 | MP8 | Material de referência da área (isca F11) | docente; temas de maior busca | 06 Iscas digitais, 04 Conteúdo | revisor docente; entrega em troca de e-mail com consentimento F-A |
 | MP9 | Presença externa (palestra de docente em congresso ou evento da área, F8) | agenda do docente; evento parceiro | 06 Demanda | acordo registrado com o organizador; captura só por formulário da Ufape (L4) |
-| MP10 | Bastidor da prática (aulas práticas de anatomia, cirurgia, endoscopia, videocirurgia, parasitologia ou transplante fecal, conforme S6 do plano) | módulos presenciais; Ufape Clínica | 12 Vídeo e Áudio | sem paciente, tutor ou clínica identificável; imagem de aluno só com autorização [CONFIRMAR regra de imagem em aula prática] |
+| MP10 | Bastidor da prática (aulas práticas dos módulos presenciais do curso; em Gastro, ver seção 1.3) | módulos presenciais; Ufape Clínica | 12 Vídeo e Áudio | sem paciente, tutor ou clínica identificável; imagem de aluno só com autorização [CONFIRMAR regra de imagem em aula prática]; se a ficha do curso disser que aulas presenciais e práticas não são transmitidas nem disponibilizadas (caso da 68606), gravar bastidor depende de decisão da Ufape (DP9) |
 | MP11 | Conteúdo co-assinado com parceiro (F7) | indústria, laboratório, clínica, entidade | 06 Demanda, 04 Conteúdo | acordo registrado; revisão docente; marca comercial em conteúdo clínico só com revisão (C7 do plano) |
 
 ### 1.2 [MOLDURA] Mapa dos 21 canais ativos e em teste
@@ -64,7 +64,7 @@ Status e numeração do mapa de 24 canais do plano (seção 4). O formato descri
 | 1 | Página da turma | ativo | MP6; embed ou link da gravação (MP1) e do episódio (MP2) quando aprovados | página com cronograma, docentes, prova de autoridade; bloco "assista a uma aula aberta" quando existir; destino de toda chamada | 08 Conversão, 03 SEO; Ufape publica | visitas por origem (UTM), leads, inscrições, matrículas |
 | 2 | Página da área (evergreen) | testar | MP6, MP5, MP8; trecho da gravação (MP1) | página fixa com perguntas e respostas diretas, docentes, cronograma-modelo e "avise-me" (F10) | 08 e 03; Ufape publica (UD5) | entradas na lista de espera, citações por IA, cliques de busca |
 | 3 | Busca orgânica | ativo | MP5, MP6, MP4 | respostas diretas em páginas e artigos; trecho transcrito de MP1 e MP2 como texto de apoio, depois de revisado | 03 SEO, com 04 | impressões e cliques por termo da área (Search Console) |
-| 4 | Busca por IA | ativo | MP5, MP6; texto de MP1 e MP2 | páginas que respondem direto, nome padrão "Pós-graduação em Gastroenterologia Veterinária", dados estruturados | 03 SEO e 04 | checagem manual periódica de citações |
+| 4 | Busca por IA | ativo | MP5, MP6; texto de MP1 e MP2 | páginas que respondem direto, nome padrão "Pós-graduação em <área>", dados estruturados | 03 SEO e 04 | checagem manual periódica de citações |
 | 5 | Blog | testar | MP4, MP3, MP1, MP2 (transcrição revisada) | artigo longo com assinatura ou revisão de docente, só com briefing aprovado | 04 Conteúdo | cliques com UTM do blog; visitas por termo |
 | 6 | Instagram @ufapevet | ativo | MP3, MP4, MP10, MP1 (cortes), MP2 (cortes), MP7 | Reels, carrossel, Stories (F12), post em parceria com docente (F5), transmissão ao vivo se a Ufape aprovar | 05 Social | conversas no direct, salvamentos, compartilhamentos, cliques UTM |
 | 7 | Facebook /Ufape | ativo (reaproveitamento) | os mesmos de 6, sem produção nova | repostagem adaptada do que já saiu no Instagram | 05 Social | cliques UTM; custo de hora |
@@ -91,7 +91,7 @@ Fora do mapa de distribuição, com o motivo do plano mantido: **14 TikTok** (se
 |---|---|
 | 1 e 2 | página da 68606 com pendências (p02, p04, A13): não recebe tráfego de campanha até a correção; a página da área é a candidata natural ao primeiro teste (UD5) |
 | 3, 4, 16 | MP5 com perguntas do clínico (vômito crônico em cão, pancreatite em gato, hepatopatias, enteropatias) e termos de cauda com cidade; termos exatos ficam com 03 SEO (pesquisa-de-palavras-chave-pos) |
-| 6, 17 | MP3 e MP4 com a coordenação (Esp. Maria Carolina Pappalardo) e docentes de áreas cruzadas (imagem, endocrinologia, nutrição, oncologia, conforme módulos 5, 10, 11, 17 e 18 da ficha, via plano); MP10 das práticas de endoscopia e videocirurgia (módulo 13 e 21 presenciais, conforme S6 do plano) |
+| 6, 17 | MP3 e MP4 com a coordenação (Esp. Maria Carolina Pappalardo) e docentes de áreas cruzadas (imagem, endocrinologia, nutrição, oncologia, conforme módulos 5, 10, 11, 17, 18 e 20 da ficha); MP10 das práticas de endoscopia e videocirurgia (módulo 13 e 21 presenciais, conforme S6 do plano) |
 | 11, 12 | a coordenação é convidada do episódio 1 (plano, canal 11); temas do módulo 24 (luto e burnout) entram como episódio temático (F13) |
 | 13 | perfil da coordenação e de docentes de áreas cruzadas que aceitarem |
 | 18 | o grupo de estudos 721 já é comunidade paga da área; o "grupo para discussão de casos" dos alunos é prova da Pós (S8), mas as regras são [CONFIRMAR] (N5) |
@@ -128,7 +128,7 @@ Sessão ao vivo (19) com a coordenação, aberta à base da área
     LinkedIn do docente (13), kit para parceiros (21)
     remarketing de quem assistiu (17), resposta pronta no WhatsApp de vendas (8, 20)
 ```
-Alcança até 15 canais com uma única produção. É a cadeia que mais rende.
+Alcança 17 canais do mapa com uma única produção. É a cadeia que mais rende.
 
 **Cadeia B: episódio do podcast (MP2, F13)**
 
@@ -141,7 +141,7 @@ Episódio completo (11, 12)
   Convite de convidado ao T2 (19)
   Anúncio de ampliação do corte vencedor (16 não, 17 sim)
 ```
-Alcança de 8 a 9 canais. Audiência inicial pequena (S18): o valor está nos cortes.
+Alcança 11 canais do mapa. Audiência inicial pequena (S18): o valor está nos cortes.
 
 **Cadeia C: conteúdo de docente (MP3, F5 e F6)**
 
@@ -154,7 +154,7 @@ Resposta curta de docente (perfil do docente, 13)
   Pergunta e resposta na página da área (2, 3, 4) e na carta (10)
   Pauta para imprensa e portais (22)
 ```
-Alcança de 8 a 10 canais. Base do teste T3.
+Alcança 10 canais do mapa. Base do teste T3.
 
 **Cadeia D: pergunta do clínico (MP5)**
 
@@ -165,7 +165,7 @@ Termo de busca de cauda que converte (16) ou pergunta frequente no atendimento (
   Tema da próxima sessão (19) e da carta (10)
   Termo negativo e saída da pauta se só gerou clique sem lead (16)
 ```
-Alcança de 7 a 8 canais. É a cadeia que liga paga e busca orgânica (ligação 4 do plano).
+Alcança 9 canais do mapa. É a cadeia que liga paga e busca orgânica (ligação 4 do plano).
 
 **Cadeia E: caso do cronograma (MP4, F12)**
 
@@ -176,7 +176,7 @@ Tema de módulo escolhido com o docente
   Tema de episódio (11) e de sessão (19)
   Isca de referência (MP8) em troca de e-mail com consentimento (2, 10)
 ```
-Alcança de 6 a 7 canais. Conduta e dose só do docente.
+Alcança 5 canais do mapa. Conduta e dose só do docente.
 
 **Cadeia F: prova do egresso (MP7)**
 
@@ -188,7 +188,7 @@ Relato autorizado (L8)
   Resposta pronta de vendas (8, 20)
   Convite à indicação (T1, 10 e 9, só com opt-in)
 ```
-Alcança de 6 a 8 canais. Depende da autorização e da aprovação "peças com depoimento" (hoje [CONFIRMAR]).
+Alcança 9 canais do mapa. Depende da autorização e da aprovação "peças com depoimento" (hoje [CONFIRMAR]).
 
 **Cadeia G: presença externa e parceiro (MP9 e MP11)**
 
@@ -200,7 +200,7 @@ Palestra de docente em evento da área ou conteúdo co-assinado (23, 21)
   Convite à sessão ao vivo para a base do parceiro (21)
   Pauta no portal do parceiro ou da área (22)
 ```
-Alcança de 6 a 8 canais, mas só com acordo registrado e com a captura sempre pelo formulário da Ufape (L4).
+Alcança 6 canais do mapa, mas só com acordo registrado e com a captura sempre pelo formulário da Ufape (L4).
 
 ### 2.3 [GASTRO] Ordem de uso no piloto
 
@@ -228,7 +228,7 @@ Alcança de 6 a 8 canais, mas só com acordo registrado e com a captura sempre p
 - **Parceiro não precisa ser grande.** A prioridade é a base do parceiro ser de médicos veterinários formados que atendem casos da área (público da Pós, contexto/pos-graduacao.md).
 - **Ordem de abordagem sem datas:** do que não precisa de terceiro (Ufape Clínica) para o que precisa de contrato complexo (indústria, evento externo), pela prontidão de cada um.
 
-### 3.2 [MOLDURA] Tipos de parceiro
+### 3.2 [MOLDURA] Tipos de parceiro (exemplos de área entre parênteses são do piloto de Gastro e trocam no próximo curso)
 
 | # | Tipo | O que a Ufape oferece | O que a Ufape pede | Regra de dados (L4 aplicada) | Principais riscos | Prontidão |
 |---|---|---|---|---|---|---|
@@ -264,7 +264,7 @@ Busca sem resultado: **não encontrei página oficial** de um "Colégio Brasilei
 
 ### 3.4 [GASTRO] Ponto de atenção: coincidência de nome na ABRAGA
 
-A página dos anais do 2º Congresso Internacional de Gastroenterologia Animal cita como "Diretora Científica" uma pessoa de nome Maria Carolina Farah Pappalardo, e como membro da comissão científica da ABRAGA no triênio 2023 a 2026. A ficha do curso 68606 lista a coordenação como Esp. Maria Carolina Pappalardo. **Os nomes são compatíveis, mas a squad não afirma que seja a mesma pessoa.**
+A página dos anais do 2º Congresso Internacional de Gastroenterologia Animal cita como "Diretora Científica", e como membro da comissão científica da ABRAGA no triênio 2023 a 2026, uma pessoa cujo nome tem o mesmo prenome e o mesmo último sobrenome da coordenação, com um sobrenome a mais (fonte na seção 3.3; o nome completo não é copiado para cá, por minimização de dado de terceiro). A ficha do curso 68606 lista a coordenação como Esp. Maria Carolina Pappalardo. **Os nomes são compatíveis, não idênticos, e a squad não afirma que seja a mesma pessoa.**
 
 Se for a mesma:
 
@@ -314,7 +314,7 @@ Trilha da área é o caminho explícito, dentro da Ufape, do primeiro contato co
 | D1 | Mini curso online (poucas horas, preço baixo) | primeiro compromisso, prova de interesse na área | conclusão e interação; pergunta sobre aprofundamento |
 | D2 | Grupo de estudos (contínuo) | discussão de caso, comunidade paga | participação em discussão; pedido de aviso da próxima turma da Pós |
 | D3 | Imersão online ou presencial prática | experiência prática, contato com docentes | contato com o time de vendas sobre a Pós |
-| D4 | Pós-graduação | profundidade e título de especialista lato sensu | matrícula |
+| D4 | Pós-graduação | profundidade e certificado de especialização lato sensu (contexto/pos-graduacao.md; o texto de certificação para peça segue [CONFIRMAR] com a regulação) | matrícula |
 
 ### 4.3 [GASTRO] A trilha de Gastroenterologia com os produtos do catálogo
 
@@ -344,9 +344,9 @@ Dados do catálogo (seções 2, 4, 5 e 7), sem preço (D7 e regra de preço só 
 |---|---|
 | Quem faz | 02 Estratégia (oferta e regra de ponte), 07 Relacionamento (segmentos C2 e regras de campanha), 08 Conversão (página da área e blocos de trilha), time de vendas (origem e conversa) |
 | De onde vem a matéria-prima | catálogo (produtos e status), fichas dos produtos, cadeias A, B e E, base de compradores (só somado) |
-| Por onde sai | página da área (blocos "se você quer começar", "se você quer praticar"), carta da área, resposta pronta de vendas, sessão ao vivo, tópico de podcast |
+| Por onde sai | página da área (blocos de trilha por degrau), carta da área, resposta pronta de vendas, sessão ao vivo, tópico de podcast |
 | Como mede | passagem entre degraus por coorte (de D1 para D2, de D2 para D4), tempo entre degraus, matrículas na Pós com origem "comprador da área", **sinal de canibalização**: vendas de D1 a D3 sobem e a Pós não sobe |
-| Pré-requisitos | campo de interesse por área no CRM (N1); campo "formado"; correção da página 623; página da área (UD5) |
+| Pré-requisitos | campo de interesse por área no CRM (N1); campo "formado"; correção da página 623; página da área (UD5); liberação de peças de Livres (decisão 14) |
 | Como desfazer | retirar blocos de trilha da página e da carta; nada é prometido ao contato |
 | O que a Ufape decide | se há condição para quem sobe de degrau ([CONFIRMAR]; a squad não propõe valor, D7); se o conteúdo D0 é gratuito |
 
@@ -390,7 +390,7 @@ Dados do catálogo (seções 2, 4, 5 e 7), sem preço (D7 e regra de preço só 
 | Papéis | **docente** (decide se participa, aprova o próprio texto e a imagem); **coordenação** (convida e apadrinha os colegas de áreas cruzadas); **05 Social** (autoridade-docente, posts-sociais; pauta e kit); **04 Conteúdo** (briefing); **revisor docente** (conferência clínica); **03 SEO** (perguntas vindas da busca); **aprovador humano** (publicação); **gestor-de-midia** (parte paga, F6) |
 | De onde vem a matéria-prima | MP3 (conteúdo de docente), MP5 (perguntas agregadas da busca, do atendimento e do direct), MP4 (casos do cronograma), MP2 (convidados do podcast que aceitam virar série) |
 | Banco de perguntas | tema agregado de busca (Search Console e Google Ads), perguntas frequentes do atendimento (só tema, L1), temas do grupo de estudos e dos módulos da ficha. Nenhuma pergunta de aluno ou lead identificada |
-| Mapa de docentes | a squad mantém um quadro por área cruzada com Gastroenterologia (imagem, endocrinologia, nutrição, oncologia, conforme módulos da ficha) com: docente (nome e titulação da ficha), perfil ativo, aceite, restrições de agenda. Quadro preenchido pela Ufape [CONFIRMAR, C6 do checklist da autoridade-docente] |
+| Mapa de docentes | a squad mantém um quadro por área cruzada com a área do curso (em Gastro: imagem, endocrinologia, nutrição, oncologia, conforme módulos da ficha) com: docente (nome e titulação da ficha), perfil ativo, aceite, restrições de agenda. Quadro preenchido pela Ufape [CONFIRMAR, C6 do checklist da autoridade-docente] |
 | Por onde sai | Instagram (6) com parceria; perfil do docente no Instagram e no LinkedIn (13); Reels e Shorts (6, 12); carta da área (10); podcast (11); página da área (2) com perguntas e respostas; pauta de imprensa (22); remarketing e ampliação paga (17, F6) |
 | Etapas operacionais | 1. Mapear docentes e interesse. 2. Docente aceita por escrito o formato, frequência máxima e quem aprova. 3. Escolher pergunta e briefing. 4. Docente escreve ou grava; revisão docente; aprovação humana. 5. Publicação em parceria (ou texto cedido ao docente, que decide publicar). 6. Ler por perfil de origem. 7. Reaproveitar na cadeia C. 8. Se o docente aceitar F6 e a Ufape aprovar verba, o gestor-de-midia monta o teste (estrategia-de-midia-pos) |
 | Regras | cada docente aprova só o próprio texto; nome e titulação como na ficha; sem paciente, tutor ou clínica identificável; sem conduta ou dose pela squad; sem endosso de marca; identificação de conteúdo pago quando houver F6; docente não é obrigado a publicar no perfil pessoal (plano, L8); compensação ao docente por post é [CONFIRMAR no contrato] |
@@ -419,7 +419,7 @@ Dados do catálogo (seções 2, 4, 5 e 7), sem preço (D7 e regra de preço só 
 | De onde vem a matéria-prima | MP10 (bastidor da prática), MP4 (casos em tema, sem paciente), MP11 (conteúdo co-assinado), MP2 (convidado do podcast com autorização), a história de estágio da clínica (só com autorização) |
 | Pré-requisito | acordo escrito com L4, uso de marca, regra de imagem, revisão de conteúdo e retirada. **Sem acordo, nada sai** |
 | O que a Ufape oferece | convite da equipe da clínica a sessões ao vivo, conteúdo técnico para a clínica divulgar, lugar de vitrine como casa de estágio, material de referência para o balcão, link com UTM da clínica. Condição para a equipe é [CONFIRMAR] |
-| O que a Ufape pede | divulgação do convite à equipe e a clientes colegas (veterinários), uso de imagem do espaço com autorização, indicação de colegas que atendem casos da área |
+| O que a Ufape pede | divulgação do convite à equipe e a clientes colegas (veterinários), uso de imagem do espaço com autorização, indicação de colegas que atendem casos da área, sempre pelo link ou código, sem repassar contato de terceiro (L5) |
 | Por onde sai | página de vitrine "casas de estágio" (na página da área, 2, depois de aprovadas), Instagram (6), carta (10), convite ao T2 (19), podcast com convidado (11), canal 21 |
 | Regra de dados | a clínica divulga o link para a equipe dela; a Ufape não recebe lista de funcionários nem de clientes; quem se interessa se cadastra no formulário da Ufape; resultados voltam só somados |
 | Separar de F16 | encaminhamento de caso à Ufape Clínica (F16) é outro formato, com consentimento separado, e só existe se o serviço existir (N8) |
@@ -506,9 +506,9 @@ Depois, quando houver peça aprovada: distribuicao volta para escrever convites 
 
 ## Auditorias aplicadas
 
-**auditorias/06-geracao-de-demanda.md (se existir) e método da função distribuição**
+**auditorias/06-geracao-de-demanda.md e método da função distribuição** (checklist do 06 rodado item por item no parecer do qa-de-marketing de 29/10/2026)
 - [x] Todos os lugares onde o público se reúne foram listados por tipo (seções 1, 3 e 3.6); nomes só com fonte.
-- [x] Cada matéria-prima tem de 6 a 15 espaços possíveis, acima do mínimo de 3 a 5 por peça (seção 2).
+- [x] Cada matéria-prima tem de 5 a 17 espaços possíveis, acima do mínimo de 3 a 5 por peça (seção 2).
 - [x] Regras de comunidade respeitadas: nada de spam, nem em grupo de WhatsApp (seção 3.6).
 - [x] Ações com parceiros só com acordo registrado (seções 3.1, 3.5 e 7).
 - [ ] Convites nativos por espaço e checklist por peça: adiados por pedido do cmo (sem peças).

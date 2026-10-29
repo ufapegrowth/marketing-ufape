@@ -25,7 +25,7 @@
 
 1. **Seis segmentos de CRM** (C1 a C5 e C8) com critério de entrada, de saída, consentimento por canal (e-mail, WhatsApp, anúncio) e uma regra de prioridade em três camadas: saída e serviço vencem tudo; régua ativa de turma vence programa permanente; entre círculos vale o mais quente para a oferta, mas a regra que protege o contato vence a que vende (aluno em curso e Graduação nunca recebem oferta de compra da Pós).
 2. **Três programas permanentes da base da área** (lista de espera, carta da área, convite ao T2), cada um com objetivo, quem entra, frequência máxima, o que mede e como sai. Os três dividem o mesmo teto D16 do contato, então o programa permanente cede a vez a qualquer régua de turma ou de prova.
-3. **Proposta de regra de indicação (T1)** para a Ufape decidir: elegibilidade, gatilho (1ª mensalidade paga pelo indicado), atribuição, limites, privacidade do indicado e três opções de benefício sem valor. Nada é prometido antes da decisão (D16, E1 a E4 e CDC).
+3. **Proposta de regra de indicação (T1)** para a Ufape decidir: elegibilidade, gatilho (1ª mensalidade paga pelo indicado), atribuição, limites, privacidade do indicado e três opções de benefício sem valor. Nada é prometido antes da decisão (regra C8 do plano do cmo e CDC).
 4. **Consentimento separado por finalidade e por canal.** Participar de uma sessão ao vivo ou entrar na lista de espera nunca depende de aceitar campanha. Anúncio com lista de clientes continua fechado até a base legal registrada (L6, N12, UA4).
 5. **Nenhum número de base, taxa ou meta existe.** Tudo que depende de tamanho de círculo, consentimento e linha de base é [CONFIRMAR]. As primeiras 4 semanas de leitura viram a linha de base.
 6. **Trava de Gastro:** a próxima turma do curso não está no catálogo. A lista de espera e a carta trabalham a base sem chamada de compra para turma que não existe.
@@ -72,7 +72,7 @@ Quem aceita uma não aceita a outra. O consentimento de F-A e F-B é sempre opci
 | **C3. Aluno atual de outra Pós ou Livre** | matrícula ativa em outro curso, com opt-in | conclui (vai para C1 se for o mesmo curso, ou C4); cancela ou fica inadimplente (sem campanha; só serviço da secretaria e do financeiro) [SUPOSIÇÃO]; pede SAIR | K1 só para conteúdo da área e indicação. **Nunca oferta de compra de outra Pós** | só convite a sessão e a indicação, com opt-in; canal de serviço da secretaria nunca vende (L3) | K4 sim, sem oferta de compra; K5 não |
 | **C4. Ex-aluno de outras Pós, Livres e Eventos** | concluiu outro curso e declarou interesse na área, ou clicou e consumiu conteúdo da área (interesse declarado, nunca suposto) | pede SAIR; sem interação pelo prazo de higiene | K1 de F-A; F-B só se pediu aviso | igual a C1 | K4 sim; K5 só com UA4 |
 | **C5. Graduação em Medicina Veterinária** | aluno atual com 18 anos ou mais e opt-in de comunicação institucional | forma-se (sai de C5; entra em C4 com origem "egresso da Graduação", só se aceitar de novo); pede SAIR | só comunicação institucional (eventos, aulas abertas institucionais). **Nenhuma venda de Pós** | nenhuma campanha de Pós | nenhum anúncio de Pós; menor de 18 anos nunca |
-| **C8. Indicação** | duas funções: **indicador** (contato de C1 a C7 com K1 ou K2 que recebeu e aceitou o convite a indicar) e **indicado** (pessoa nova que preenche o próprio formulário pelo link ou código) | indicador: pede SAIR, deixa o programa ou o programa encerra. Indicado: matricula, recusa, fica sem interação pelo prazo de higiene ou pede SAIR | indicador: K1 (convite a indicar é campanha). Indicado: só depois do próprio consentimento, nunca por dado passado pelo indicador | idem | indicado: K4 se aceitar cookies; K5 não |
+| **C8. Indicação** | duas funções: **indicador** (contato de C1 a C4 com K1 ou K2 que recebeu e aceitou o convite a indicar; C6 e C7 só se a Ufape decidir, seção 3; C5 nunca) e **indicado** (pessoa nova que preenche o próprio formulário pelo link ou código) | indicador: pede SAIR, deixa o programa ou o programa encerra. Indicado: matricula, recusa, fica sem interação pelo prazo de higiene ou pede SAIR | indicador: K1 (convite a indicar é campanha). Indicado: só depois do próprio consentimento, nunca por dado passado pelo indicador | idem | indicado: K4 se aceitar cookies; K5 não |
 
 **O indicado** é tratado como contato novo e frio (C9) até aceitar o próprio consentimento; a diferença é a origem "indicação", que fica registrada.
 
@@ -94,7 +94,7 @@ O CRM aplica as camadas nesta ordem. A primeira que se aplica decide.
 |---|---|---|
 | C1 | ex-alunos das turmas I a VIII da Pós-graduação em Gastroenterologia Veterinária (a 68606 é a turma IX, catálogo e ficha) | tamanho e consentimento [CONFIRMAR, UN1]. Quem cursou e não concluiu só entra se a Ufape decidir [CONFIRMAR]. Uso de "tradição de turmas" como prova é [CONFIRMAR] (ufape-geral.md, seção Provas) |
 | C2 | compradores de 721 (grupo de estudos), 455 e 669 (mini cursos), 291 (imersão online em gastroendoscopia), 68637 e 623 (imersões presenciais em endoscopia digestiva) | 455 aceita graduandos: sem campo "formado" confirmado, o contato entra em C2 sem oferta de Pós [CONFIRMAR campo]. Nenhuma peça ou link aponta para a página 623 até a correção do site (decisão 13); comprador de 623 pode estar em C2, mas o conteúdo não leva à página 623 |
-| C3 | alunos de 68608 (Hematologia, a coordenação também ensina) e, quando começarem, de 68635, 68623 e 68617; alunos das áreas vizinhas 653 (Endoscopia) e 564 (Nutrologia) | a turma atual do próprio curso (68606) é tratada como C3 enquanto dura, com as mesmas proteções. Regra da Ufape para comunicar com aluno em curso [CONFIRMAR] |
+| C3 | alunos de 68608 (Hematologia, a coordenação também ensina), 68635, 68623 e 68617, só quando cada turma começar (pelo catálogo, nenhuma das quatro começou); alunos das áreas vizinhas 653 (Endoscopia) e 564 (Nutrologia) | a turma atual do próprio curso (68606) é tratada como C3 enquanto dura, com as mesmas proteções. Regra da Ufape para comunicar com aluno em curso [CONFIRMAR] |
 | C4 | ex-alunos de Clínica Médica, Endocrinologia, Nefrologia, Diagnóstico por Imagem, Felinos, Endoscopia e Nutrologia (áreas cujos módulos tocam Gastroenterologia, conforme o plano) | campo de interesse declarado por área [CONFIRMAR]. "Interesse" só por ação do contato (clique em conteúdo da área, pedido de aviso), nunca por dedução da squad |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | se há egressos é [CONFIRMAR] (N11); pela data do ato, provavelmente ainda não [SUPOSIÇÃO] |
 | C8 | indicadores vindos de C1 a C4 (e de C6 e C7 se a Ufape decidir, ver seção 3); indicados são clínicos de pequenos animais que atendem casos gastrointestinais | regra de elegibilidade na seção 3 |
@@ -128,7 +128,7 @@ Regras de convivência:
 |---|---|
 | Objetivo | Guardar com consentimento quem quer ser avisado quando houver nova turma do curso, e evitar que o interesse se perca entre turmas. Medida de sucesso: base da área e, depois, matrículas com origem "lista de espera" |
 | Quem entra | (a) quem pediu "avise-me" na página da área ou da turma com K1 ou K2 de F-B; (b) lead que não fechou, **só depois** de encerrada a janela da turma em captação (a Ufape aceita matrícula até o 3º módulo, decisão 18) e só se aceitar F-B; (c) quem pediu aviso no atendimento de vendas, com o consentimento registrado na conversa; (d) quem se inscreveu numa sessão ao vivo e marcou F-B. Nunca entra por importação de lista, compra, raspagem ou grupo de WhatsApp (L4) |
-| O que recebe | Confirmação de entrada (serviço, uma vez). Aviso de abertura da próxima turma e do que ela exige. Quando não houver turma no catálogo, no máximo um aviso de manutenção ("continuamos com você na lista, quer permanecer?"), sem chamada de compra |
+| O que recebe | Confirmação de entrada (serviço, uma vez). Aviso de abertura da próxima turma e do que ela exige. Quando não houver turma no catálogo, no máximo um aviso de manutenção que pergunta se o contato quer continuar na lista, sem chamada de compra |
 | Frequência máxima | Sem turma: no máximo 1 mensagem de manutenção por trimestre [SUPOSIÇÃO], por e-mail. Com turma aberta no catálogo: o aviso de turma entra na régua de turma (P5 da estratégia de 26/10) e segue o teto D16. WhatsApp só com K2 e uma vez por turma, curto, com SAIR |
 | O que mede | Entradas por origem; consentimentos F-B ativos; SAIR, descadastros e bloqueios por envio; respostas; cliques no aviso; inscrições e matrículas com origem "lista de espera" na turma seguinte; taxa de fechamento da lista contra a do lead frio, mesma coorte. Sem meta antes da linha de base |
 | Como sai | Matricula (vira aluno e C3, depois C1); pede SAIR ou descadastro; não reconfirma na mensagem de manutenção (sai de F-B; pode seguir na carta se tiver F-A); curso muda de status para encerrado no catálogo (a Ufape avisa uma vez e fecha a lista) |
@@ -179,7 +179,7 @@ Regras de convivência:
 | D16 (teto) | O convite a indicar é campanha: entra no teto, sai só para quem tem K1 ou K2, no horário e na frequência permitidos |
 | E1 a E4 | Só base com opt-in recebe o convite (E4). Convite vai a quem está engajado, para não gerar rejeição nem o erro 131049 da Meta (E1 e E2; texto exato na seção 13 do cmo-geral). SAIR ou descadastro encerra o convite em até 48 h (E3) |
 | L5 (indicação) | Quem indica manda o link ou o código. A Ufape nunca recebe telefone, e-mail ou nome de terceiro por meio do indicador, nem importa lista de contatos dele |
-| Sem promessa não aprovada | Nenhuma peça, mensagem ou resposta do time cita benefício antes da aprovação formal da regra (E1 a E4 do plano, decisão do CEO de 29/10/2026) |
+| Sem promessa não aprovada | Nenhuma peça, mensagem ou resposta do time cita benefício antes da aprovação formal da regra (regra C8 do plano do cmo de 29/10/2026 e auditorias/conformidade-educacional.md, preço e condições) |
 | CDC | A oferta e a publicidade do programa são claras, completas e verdadeiras. O que for anunciado vincula a Ufape; não há "condição escondida". O direito de arrependimento do indicado continua valendo e a regra diz o que acontece com o benefício nesse caso [CONFIRMAR com jurídico] |
 
 ### 3.2 [MOLDURA] Regra proposta (texto-base para a Ufape editar)
@@ -196,7 +196,7 @@ Regras de convivência:
 
 **3. Como indicar.**
 - Link ou código pessoal por indicador, gerado pelo CRM com UTM no padrão do cmo (`utm_content=indicacao-<código>`).
-- É proibido: disparo em massa pelo indicador, lista de contatos enviada à Ufape, postagem em grupo aberto de WhatsApp com identificação de preço ou benefício que a Ufape não escreveu, uso de perfil falso ou de dado de terceiro. Descumprimento suspende o indicador e a Ufape pode negar o benefício [texto jurídico a revisar].
+- É proibido: disparo em massa pelo indicador, lista de contatos enviada à Ufape, postagem em grupo de WhatsApp ou comunidade contra a regra do grupo, divulgação de preço, condição ou benefício diferente do texto da regra publicada pela Ufape, uso de perfil falso ou de dado de terceiro. Descumprimento suspende o indicador e a Ufape pode negar o benefício [texto jurídico a revisar].
 
 **4. Gatilho e atribuição.**
 - O evento que conta é a **matrícula do indicado, isto é, a 1ª mensalidade paga** (decisões 25 e 26), na turma elegível. Inscrição paga não basta.
@@ -243,7 +243,7 @@ A Ufape decide: se há benefício, qual opção, quem paga, qual o valor e a for
 
 ### 3.4 [GASTRO] Preenchimento para o piloto
 
-- **Quem indica no piloto:** ex-alunos das turmas I a VIII (C1) e alunos de áreas onde a coordenação também ensina (C3, por exemplo 68608). Indicados: clínicos de pequenos animais que atendem casos gastrointestinais. Tamanho de cada grupo e consentimento: [CONFIRMAR, UN1].
+- **Quem indica no piloto:** ex-alunos das turmas I a VIII (C1) e alunos de áreas onde a coordenação também ensina (C3, por exemplo 68608, quando a turma começar). Indicados: clínicos de pequenos animais que atendem casos gastrointestinais. Tamanho de cada grupo e consentimento: [CONFIRMAR, UN1].
 - **Turma elegível:** a 68606, enquanto a Ufape aceitar matrícula (até o 3º módulo, decisão 18), e as próximas turmas do curso quando existirem no catálogo.
 - **Benefício:** nenhuma opção está pré-escolhida. O benefício, se houver, precisa conviver com a regra "bolsa não acumulativa" das provas e com a regra de ex-aluno [CONFIRMAR, UD1 e UD2].
 - **Não aplicar** a indicação a produtos de Livres ou a provas de bolsa neste piloto, salvo decisão da Ufape.
@@ -303,15 +303,15 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 - UN1. Tamanho de C1 a C5 e quantos têm K1 e K2, por finalidade.
 - UN2. Origem das matrículas das turmas anteriores do curso.
 - UN3. Data e número da próxima turma; destino da prova 68650.
-- UN4. Se a Graduação já tem egressos (N11).
-- UN5. Quantos contatos hoje têm campo de interesse por área.
+- UN6. Se a Graduação já tem egressos (N11).
+- UN8 (código novo desta estratégia; o UN5 do plano é regra do estágio e do grupo de casos). Quantos contatos hoje têm campo de interesse por área.
 
 ### 5.3 Acessos e configurações (pela própria Ufape, sem chave no chat)
 
 - UA1. CRM, ferramenta de e-mail e ferramenta de WhatsApp (API ou aplicativo); campos de consentimento por canal e finalidade; campo "círculo", "origem" e "indicador"; geração de código de indicação com UTM.
-- UA2. Templates aprovados pela Meta, se a Ufape usa a API (convite curto, lembrete, aviso de turma), com "responda SAIR".
+- UA6 (código novo desta estratégia; o UA2 do plano é leitura de Search Console, analytics, Meta Business e Google Ads). Templates aprovados pela Meta, se a Ufape usa a API (convite curto, lembrete, aviso de turma), com "responda SAIR".
 - UA4. Base legal registrada pelo encarregado de dados para marketing à base de ex-alunos e para listas em plataformas de anúncio (N12). Sem ela, K5 fica fechado.
-- UA5. Formato da comunidade de ex-alunos que não exponha telefone (L7), se a Ufape quiser abrir esse espaço mais adiante.
+- UA5 (código novo desta estratégia, ligado à decisão UD4 do plano). Formato da comunidade de ex-alunos que não exponha telefone (L7), se a Ufape quiser abrir esse espaço mais adiante.
 
 ### 5.4 Aprovação humana pedida (nada roda antes)
 
@@ -320,7 +320,7 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 | AR1 | Aprovar os segmentos C1 a C5 e C8 e a regra de prioridade (seção 1) | base para toda campanha da área | sem custo | cada contato recebe uma coisa por vez | voltar à segmentação anterior |
 | AR2 | Aprovar o desenho dos três programas (seção 2) | mantém a base viva entre turmas | horas do time [CONFIRMAR] | base da área com consentimento | pausar o programa no CRM |
 | AR3 | Decidir o benefício e a regra do T1 (seção 3) | sem regra aprovada, não há programa | benefício [UD1] | indicações medidas | encerrar por comunicado, honrando o já concedido |
-| AR4 | Autorizar os pedidos UN1 a UN5 e UA1 a UA5 | sem eles não há medição por círculo | sem custo direto | linha de base em 4 semanas | não se aplica |
+| AR4 | Autorizar os pedidos UN1, UN2, UN3, UN6 e UN8 e UA1, UA4, UA5 e UA6 | sem eles não há medição por círculo | sem custo direto | linha de base em 4 semanas | não se aplica |
 
 ---
 
@@ -374,7 +374,7 @@ Estes programas entram na **revisão mensal já existente** da estratégia de re
 
 - Tamanho de cada círculo e consentimento por canal e finalidade (UN1); origem das matrículas anteriores (UN2).
 - Data e número da próxima turma de Gastroenterologia; destino da prova 68650 (UN3).
-- Campos do CRM para consentimento, círculo, origem, indicador e interesse por área; ferramentas de CRM, e-mail e WhatsApp; se há API da Meta (UA1, UA2).
+- Campos do CRM para consentimento, círculo, origem, indicador e interesse por área; ferramentas de CRM, e-mail e WhatsApp; se há API da Meta (UA1, UA6).
 - Base legal para marketing à base de ex-alunos e para listas em anúncio (UA4).
 - Textos de consentimento F-A e F-B; aprovadores; revisor docente; nome da carta.
 - Regra de desconto de aluno e ex-aluno; benefício, vigência, limite e acúmulo com bolsa na indicação (UD1, UD2).
