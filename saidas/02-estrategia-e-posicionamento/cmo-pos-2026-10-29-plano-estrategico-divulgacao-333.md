@@ -16,7 +16,7 @@
   - Área do curso: saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-27-onda2.md (inteiro; 333 está na área A11 com 68615); cmo-pos-2026-10-27-decisao-333-359.md (inteiro); saidas/05-social-e-comunidade/autoridade-docente-pos-2026-10-26.md (seções 0 a 0.3); saidas/01-inteligencia-de-mercado/pesquisa-de-persona-pos-2026-10-26.md (resumo, seção 4 e seção 5)
 - **Não li nesta rodada:** contexto/ufape-geral.md (uso o que o plano modelo e o contexto da linha registram dele: voz, provas, tabela de aprovação vazia); mensagens-pos-2026-10-26.md, iscas-digitais-pos-2026-10-26.md e inteligencia-concorrencia-pos-2026-10-26.md da área A11 (uso o que a onda 2 cita deles); a pesquisa de palavras-chave com termos próprios de citopatologia (encomenda F1 da onda 2, prevista para 06/11, ainda não existe). Onde isso pesa, marco [CONFIRMAR].
 - **Busca na web nesta rodada (29/10/2026):** 3 buscas, sem abrir páginas; resultados na seção 2 e na seção 11, sempre com fonte e confiança. Não abri faculdade.ufape.com.br.
-- **Dados pessoais:** nenhum. Só segmentos e números somados. A docente aparece só com nome e titulação como estão na ficha (decisões 8 e 10). Nomes de pessoas das fontes externas não foram copiados.
+- **Dados pessoais:** nenhum. Só segmentos e números somados. A docente aparece só com nome e titulação como estão na ficha (decisões 8 e 10). Nomes de pessoas das fontes externas não foram copiados; um resultado que é currículo de pessoa física é citado sem o endereço, por minimização de dado de terceiro.
 - **Abreviação interna:** "333" e "Citopatologia" são apelidos de trabalho. Em texto visível ao público o curso é "Pós-graduação em Citopatologia Veterinária" (contexto/pos-graduacao.md, padrão de nome; o site grafa "Pós Graduação").
 
 ---
@@ -69,8 +69,8 @@
 | S16 | Decisão 14: peças novas de Livres só com nova ordem; isso vale para qualquer degrau da trilha | docs/execucao-2026-10-26.md | alta |
 | **Mercado** | | | |
 | S17 | Um agregador de bolsas lista várias especializações em citopatologia veterinária com oferta em São Paulo, quase todas 100% virtuais | busca de 29/10/2026, resumo do resultado: [Quero Bolsa, Citopatologia Veterinária em São Paulo](https://querobolsa.com.br/cursos-e-faculdades/citopatologia-veterinaria/todos) | baixa (resumo de busca; a própria fonte se contradiz sobre a cidade) |
-| S18 | Existe a Associação Brasileira de Patologia Veterinária (ABPV, site abpv.vet.br), que realiza o Congresso Brasileiro de Patologia Veterinária; a 8ª edição foi em 2025 em Cuiabá, com a Davis-Thompson Foundation; a 7ª, em 2023 em João Pessoa, com o Colégio Brasileiro de Patologia Animal (CBPA). A ABPV aparece como promotora de um curso curto de citopatologia em 2021 | busca de 29/10/2026, resumo do resultado: [FAO AGRIS, ABPV](https://www.fao.org/agris/data-provider/brazilian-association-veterinary-pathology) e currículos públicos | média; [CONFIRMAR na fonte oficial da entidade] |
-| S19 | Um currículo público cita um "1º Congresso Internacional Associação Brasileira de Patologia Clínica Veterinária" em 2023; não achei página oficial dessa entidade | busca de 29/10/2026, resumo do resultado ([Escavador](https://www.escavador.com/sobre/6553454/katiane-lohn-de-souza)) | baixa; [CONFIRMAR existência e nome exato] |
+| S18 | Existe a Associação Brasileira de Patologia Veterinária (ABPV, site abpv.vet.br), que realiza o Congresso Brasileiro de Patologia Veterinária; a 8ª edição foi em 2025 em Cuiabá, em parceria com a Davis-Thompson Foundation; os anais da 7ª, em 2023 em João Pessoa, saíram em colaboração com o Colégio Brasileiro de Patologia Animal (CBPA) | busca de 29/10/2026, resumo do resultado: [FAO AGRIS, ABPV](https://www.fao.org/agris/data-provider/brazilian-association-veterinary-pathology) | média; [CONFIRMAR na fonte oficial da entidade] |
+| S19 | Um currículo público (plataforma Escavador) cita um "1º Congresso Internacional Associação Brasileira de Patologia Clínica Veterinária" em 2023; não achei página oficial dessa entidade | busca de 29/10/2026, resumo do resultado; endereço não copiado por ser página de pessoa física | baixa; [CONFIRMAR existência e nome exato] |
 | S20 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | benchmarks, seções 2 e 3, via plano modelo | alta para a lacuna |
 
 ### 2.2 O que não sabemos
@@ -252,7 +252,7 @@ Segmentos A11 com a regra de proteção 68615 e 333; padrão de UTM da docente e
 |---|---|---|
 | **Turma I** | sim | sem C1: pular o passo 3, reforçar C2 (462), C6 (docente) e C7 (laboratórios); tratar C4 da área (Patologia Clínica e Hematologia) como o círculo mais quente; sem relato de egresso (cadeia F fora); sem comunidade de ex-alunos (F3 fora); a primeira turma é a linha de base. Risco próprio de turma I: não chegar a 15. Se não confirmar, quem se inscreveu é informado como serviço e só entra na lista de espera com o próprio consentimento |
 | Goiânia | não | a 333 é de São Paulo. Nada muda de praça |
-| **Público diferente** | em parte | a ficha fala com quem atua na área laboratorial (S2); a persona da linha cobre só o clínico. Encomendar à pesquisa-de-persona um recorte "veterinário de laboratório" para a área A11 (seção 5.1 da persona hoje só cita A11 como "P1 e quem trabalha em laboratório"). Até lá, mensagem em dois ramos (clínica e laboratório) só como hipótese |
+| **Público diferente** | em parte | a ficha fala com quem atua na área laboratorial (S2); a persona da linha cobre só o clínico. Encomendar à pesquisa-de-persona um recorte "veterinário de laboratório" para a área A11 (a seção 5 da persona hoje só cita A11 como "P1 e quem trabalha em laboratório"). Até lá, mensagem em dois ramos (clínica e laboratório) só como hipótese |
 | Promoção no catálogo | não | a 333 não tem promoção na ficha nem no catálogo. Nenhuma peça cita desconto |
 | **Turma que já começou** | ainda não; vale a partir de 27/03/2027 | com OU3 aberta, nenhuma peça, mensagem ou anúncio depois do início (decisão de 27/10). Com OU3 respondida, ciclo extra decide a peça pós-início com a regra completa |
 | **Mesma área com turma vizinha** (próprio da 333) | sim | 68615 começa uma semana antes, mesma área, mesma docente. Regra: nenhuma peça compara as duas por valor; o time de vendas explica a diferença (laboratório clínico do pré-analítico ao laudo, na 68615; leitura de lâminas, na 333, conforme a onda 2); matriculado em uma não recebe oferta da outra; leitura somada da área |
@@ -299,8 +299,8 @@ MP10 (bastidor de aula prática): a ficha diz que aulas presenciais e práticas 
 |---|---|---|---|
 | P1 Ufape Clínica | só se houver laboratório próprio (N5) | - | [CONFIRMAR] |
 | P8 Laboratórios (tipo principal aqui) | laboratórios veterinários de diagnóstico, em especial de São Paulo: divulgam a sessão ao vivo e o curso à própria base, com link da Ufape; podem ser empregadores do público. Risco: laboratório que também forma pessoal ou que concorre com a Ufape | nenhum nome levantado nesta rodada | [CONFIRMAR lista com a Ufape e a docente, UN4] |
-| P3 Entidade da especialidade | Associação Brasileira de Patologia Veterinária (ABPV), Congresso Brasileiro de Patologia Veterinária (8ª edição em 2025; com o CBPA na 7ª, em 2023) | [FAO AGRIS, ABPV](https://www.fao.org/agris/data-provider/brazilian-association-veterinary-pathology); resumo de busca de 29/10/2026 | [CONFIRMAR na fonte oficial: abpv.vet.br, próxima edição, regras de divulgação] |
-| P3 Entidade de patologia clínica | "Associação Brasileira de Patologia Clínica Veterinária": citada só num currículo, com congresso internacional em 2023 | [Escavador, currículo público](https://www.escavador.com/sobre/6553454/katiane-lohn-de-souza) | [CONFIRMAR existência e nome exato]; não usar o nome até lá |
+| P3 Entidade da especialidade | Associação Brasileira de Patologia Veterinária (ABPV) e o Congresso Brasileiro de Patologia Veterinária (8ª edição em 2025; anais da 7ª, em 2023, com o CBPA) | [FAO AGRIS, ABPV](https://www.fao.org/agris/data-provider/brazilian-association-veterinary-pathology); resumo de busca de 29/10/2026 | [CONFIRMAR na fonte oficial: abpv.vet.br, próxima edição, regras de divulgação] |
+| P3 Entidade de patologia clínica | "Associação Brasileira de Patologia Clínica Veterinária": citada só num currículo público, com congresso internacional em 2023 | resumo de busca de 29/10/2026 (S19); endereço não copiado | [CONFIRMAR existência e nome exato]; não usar o nome até lá |
 | P6 Eventos | congresso da ABPV; simpósio brasileiro da Davis-Thompson Foundation (resumo de busca, sem data futura) | [lista da Davis-Thompson Foundation](https://list.cldavis.org/hyperkitty/list/davis_members@list.cldavis.org/thread/GC6EZLSFXS7PQDHO3NF6FEJ3IBTKYUG7) | [CONFIRMAR edição e condições] |
 | P7 Indústria | microscopia, corantes, automação citológica (módulo 4) | nenhum nome levantado | [CONFIRMAR] |
 | P9 Portais | os veículos já mapeados na Gastro (distribuição, 3.3) servem à área se aceitarem pauta de citologia | distribuição da Gastro, 3.3 | [CONFIRMAR] |
@@ -474,7 +474,7 @@ A parte em destaque de cada título está entre asteriscos duplos.
 - [x] Nenhuma frase de certificação ligada ao MEC; nenhuma menção a título; a frase do site aparece só como pendência da página.
 - [x] Sem superlativo ("oportunidade única" da ficha aparece só como pendência); "menor total" é fato do catálogo, para uso interno, não para peça.
 - [x] Sem urgência; nenhuma data de captação nova; a regra do 3º módulo não é usada (decisão de 27/10 para a 333).
-- [x] LGPD: só números somados; nenhuma lista comprada, trocada ou de parceiro; imagem de lâmina só com autorização.
+- [x] LGPD: só números somados; nenhuma lista comprada, trocada ou de parceiro; imagem de lâmina só com autorização; nenhum nome de terceiro das fontes copiado.
 - [x] Docente só com nome e titulação da ficha; nenhum post em primeira pessoa sem o ok dela.
 - [x] Anúncios: sem segmentação por característica pessoal; idade mínima de 25 anos (decisão 24); dado de gênero de S4 não vai para segmentação.
 - [x] Nada publicado, enviado ou pago.
@@ -521,5 +521,5 @@ qa-de-marketing neste arquivo. Em paralelo, a pessoa do marketing leva à Ufape 
 
 - [Quero Bolsa, Citopatologia Veterinária em São Paulo](https://querobolsa.com.br/cursos-e-faculdades/citopatologia-veterinaria/todos)
 - [FAO AGRIS, Brazilian Association of Veterinary Pathology (ABPV)](https://www.fao.org/agris/data-provider/brazilian-association-veterinary-pathology)
-- [Escavador, currículo público que cita congresso de patologia clínica veterinária](https://www.escavador.com/sobre/6553454/katiane-lohn-de-souza)
 - [Davis-Thompson Foundation, lista de membros, simpósio brasileiro](https://list.cldavis.org/hyperkitty/list/davis_members@list.cldavis.org/thread/GC6EZLSFXS7PQDHO3NF6FEJ3IBTKYUG7)
+- Currículo público na plataforma Escavador que cita a entidade de patologia clínica (S19): endereço não copiado, por ser página de pessoa física.
