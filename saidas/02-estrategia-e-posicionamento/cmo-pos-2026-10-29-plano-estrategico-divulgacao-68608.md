@@ -6,7 +6,7 @@
 - **Versão:** 2. Aplica a decisão 28 do CEO (29/10/2026). O que mudou está em "Mudanças desta versão", antes das listas finais.
 - **Pedido do CEO (29/10/2026):** rodar, para mais 10 cursos, o mesmo plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (paga e orgânica, sem datas de execução e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo é o preenchimento de um curso.
 - **Curso:** Pós-graduação em Hematologia Veterinária, São Paulo, semipresencial (catálogo, seção 2; ficha contexto/cursos/pos/68608-pos-graduacao-em-hematologia-veterinaria.md). **O plano fala do curso, não de uma turma** (decisão 28f). A turma aberta hoje no catálogo é a VIII (código 68608) e aparece só como o exemplo do momento.
-- **Modelo:** saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md (aqui: "plano da Gastro"). As partes **[MOLDURA]** do plano da Gastro valem para este curso e **não são reescritas aqui**: este arquivo só referencia a moldura pela seção e traz os blocos **[HEMATO]**. Onde a decisão 28 muda a moldura, este arquivo aplica a decisão e marca o ponto como "ajuste da decisão 28", para o cmo levar à moldura na rodada de revisão dela.
+- **Modelo:** saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md (aqui: "plano da Gastro"). As partes **[MOLDURA]** do plano da Gastro valem para este curso e **não são reescritas aqui**: este arquivo só referencia a moldura pela seção e traz os blocos **[HEMATO]**. A moldura do plano da Gastro já aplica boa parte da decisão 28 (L6, C8, canais 18 e 21, F1, F3, F7 e F14). Os pontos marcados aqui como "ajuste da decisão 28" ou repetem o que a moldura já diz, ou trazem o que ela ainda não cobre (C7 como círculo, horizontes do ciclo recorrente, F17); só estes últimos vão para a moldura na rodada de revisão dela.
 - **O que não entra:** datas de execução, calendário, peças, textos de anúncio, de mensagem e roteiros. As únicas datas citadas são do catálogo, das fichas e de fontes externas.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
@@ -38,7 +38,7 @@
 
 ## 1. Objetivo do plano e a métrica que ele move
 
-**[MOLDURA]:** plano da Gastro, seção 1. **Ajuste da decisão 28:** os dois horizontes passam a ser um ciclo recorrente do curso (H1: turma em captação; H2: da confirmação de uma turma até a abertura da próxima, em geral 3 a 4 meses).
+**[MOLDURA]:** plano da Gastro, seção 1. **Ajuste da decisão 28:** os dois horizontes passam a ser um ciclo recorrente do curso (H1: turma em captação, até a véspera do 3º módulo; H2: do fim da captação até a abertura da próxima turma, que pela decisão 28e abre em geral 3 a 4 meses depois da confirmação da turma anterior).
 
 ### [HEMATO]
 
@@ -47,7 +47,7 @@
 - **Teto de mídia:** R$ 2.000,00 por turma no ciclo (decisão 15).
 - **Ciclo do curso:**
   - **H1, turma em captação:** da abertura da turma até a véspera do 3º módulo (decisão 18). Na turma aberta hoje (VIII): início em 28/11/2026, 3º módulo em 16 e 17/01/2027 (ficha). A prova de bolsa da área (hoje a 68651, presencial em São Paulo, 27/11/2026, véspera do início) faz parte do H1; turma de destino [CONFIRMAR]; peças novas de prova seguem suspensas (decisão 14).
-  - **H2, entre turmas:** da confirmação da turma até a abertura da próxima, em geral de 3 a 4 meses (decisão 28e). A turma IX ainda não está no catálogo [CONFIRMAR data e número]; o H2 já sabe que haverá turma e trabalha a base para ela.
+  - **H2, entre turmas:** do fim da captação da turma (véspera do 3º módulo) até a abertura da próxima, que abre em geral de 3 a 4 meses depois da confirmação (decisão 28e, [CONFIRMAR a interpretação]). Se a próxima turma abrir antes do fim do H1, os dois horizontes se sobrepõem [CONFIRMAR com a Ufape como fica a verba]. A turma IX ainda não está no catálogo [CONFIRMAR data e número]; o H2 trabalha a base para ela, sem chamada de compra até a turma estar no catálogo com status aberto.
 - **Pagamento de quem entra perto do início:** pela ficha a 1ª mensalidade vence 30 dias antes do início; as decisões 25 e 26 tratam de quem entra depois do início. O intervalo entre as duas datas: [CONFIRMAR com vendas].
 
 ---
@@ -106,7 +106,7 @@
 
 **[MOLDURA]:** plano da Gastro, seção 3 (regra dos círculos, L1 a L8, nove círculos). **Ajustes da decisão 28:**
 - L6 (lista de clientes nas plataformas só com base legal) passa a ser atendida pela decisão 28b: a base tem consentimento para novas oportunidades e é trabalhada por mídia paga. A squad continua lendo só números somados; quem sobe e mantém as listas é a Ufape [CONFIRMAR o registro formal com o encarregado].
-- C1 a C4 ganham uma oferta concreta: 20% para alunos e ex-alunos de Pós (decisão 28a), só depois da regra escrita (N3).
+- C1 e C4 ganham uma oferta concreta: 20% para alunos e ex-alunos de Pós (decisão 28a), só depois da regra escrita (N3). C2 só se também for da base de Pós. C3 (aluno em curso) segue a regra da moldura, sem campanha de uma segunda Pós, até a Ufape decidir a UD11.
 - C7 (parceiros) sai como canal (decisão 28d). Presença de docente em evento da área continua possível como formato (F8), sem acordo de parceria comercial.
 - C8 (indicação) sem desconto para o indicado (decisão 28c).
 - L3 continua: o canal da secretaria não vende, mesmo para quem tem o desconto.
@@ -117,10 +117,10 @@
 |---|---|---|---|
 | C1 | ex-alunos de turmas anteriores da Pós-graduação em Hematologia Veterinária | não vão refazer o curso: o papel é indicar e dar prova (com autorização); o desconto de 20% vale para eles em outra Pós e em simpósios e workshops | quantos (N1) |
 | C2 | compradores de 106 (mesma coordenação) e de 202; vizinhos 655, 107 e 462 só com interesse declarado | candidatos quentes; o desconto de 20% só vale se também forem alunos ou ex-alunos de Pós [CONFIRMAR, N3]; 106 e 202 aceitam estudantes: só formados recebem a oferta da Pós | tamanho e quantos são também da base de Pós |
-| C3 | alunos atuais de outras Pós, com destaque para turmas com docentes em comum (Gastroenterologia, Oncologia, Patologia Clínica, Clínica Médica e Emergência, Endocrinologia, Citopatologia) e áreas vizinhas (Terapia Intensiva e Emergência, Medicina de Felinos) | a decisão 28 dá o desconto também a aluno: a oferta pode chegar por mídia paga e campanha com consentimento, **nunca** pelo canal de serviço (L3). A regra da moldura "aluno em curso não recebe oferta de outra Pós" precisa ser revista com a decisão 28 [CONFIRMAR] | regra para aluno em curso (N3) |
+| C3 | alunos atuais de outras Pós, com destaque para turmas com docentes em comum (Gastroenterologia, Oncologia, Patologia Clínica, Clínica Médica e Emergência, Endocrinologia, Citopatologia) e áreas vizinhas (Terapia Intensiva e Emergência, Medicina de Felinos) | indicar colegas e receber conteúdo da área, como na moldura; vale a regra da moldura de não oferecer uma segunda Pós ao aluno em curso como campanha, e **nunca** pelo canal de serviço (L3). A decisão 28a dá o desconto também a aluno; se isso muda a regra da moldura é proposta à Ufape (UD11), não regra deste plano | regra para aluno em curso (N3) |
 | C4 | **círculo de maior peso:** ex-alunos de Pós das áreas que o cronograma cruza: Patologia Clínica, Infectologia, Oncologia, Endocrinologia, Gastroenterologia, Nefrologia, Terapia Intensiva e Emergência, Nutrologia, Medicina de Felinos, Anestesiologia, Clínica Cirúrgica, Clínica Médica | segunda especialização com 20%; a hematologia aparece na rotina de todas essas áreas [SUPOSIÇÃO]; alcance principal por mídia paga com a lista da base (decisão 28b) | tamanho por área (N1) |
 | C5 | alunos da Graduação em Medicina Veterinária | só institucional; nenhuma oferta de Pós | se há egressos |
-| C6 | coordenação e os 14 professores listados | autoridade; dois docentes coordenam outras Pós e um terceiro talvez (S12) | quem aceita publicar |
+| C6 | coordenação e os 14 professores listados | autoridade; uma docente coordena outra Pós (Gastroenterologia) e outros dois talvez, se a identidade se confirmar (S12) | quem aceita publicar |
 | C7 | fora como canal (decisão 28d) | congresso e associação da área (S21) ficam como referência e possível palco de docente | não se aplica |
 | C8 | indicadores de C1 a C4; indicados que pedem e interpretam exames hematológicos ou fazem transfusão | sem desconto ao indicado (decisão 28c); reconhecimento ou benefício ao indicador só por decisão da Ufape | regra (UD1) |
 | C9 | clínicos de pequenos animais, sobretudo em São Paulo; vizinhos: intensivistas e veterinários de laboratório [SUPOSIÇÃO] | busca de cauda; conteúdo de docente | volumes de busca [CONFIRMAR] |
@@ -129,7 +129,7 @@
 
 ## 4. Mapa de canais (capilaridade)
 
-**[MOLDURA]:** plano da Gastro, seção 4. **Ajuste da decisão 28:** o canal 21 (Parceiros) passa de "testar" para "fora" (parceiros são empresas e o canal não faz sentido). O canal 18 (Comunidades) passa a usar os grupos de estudo existentes, sem criar comunidade nova. Contagem para Hemato: 24 canais, 13 ativos (o YouTube com condição), 7 em teste e 4 fora (TikTok, X, agregadores e parceiros).
+**[MOLDURA]:** plano da Gastro, seção 4, que já aplica a decisão 28: o canal 21 (Parceiros) está "fora" (parceiros são empresas e o canal não faz sentido) e o canal 18 (Comunidades) está ativo pelos grupos de estudo existentes, sem criar comunidade nova. Hemato não muda nenhum status. Contagem para Hemato: 24 canais, 14 ativos (o YouTube com condição), 6 em teste e 4 fora (TikTok, X, parceiros e agregadores).
 
 ### [HEMATO]
 
@@ -142,11 +142,11 @@
 | Instagram | conteúdo visual (lâmina, esfregaço, hemograma comentado), só com a regra de imagem (N7) |
 | Podcast e YouTube | medicina transfusional, paciente crítico, paralelos com a medicina humana |
 | LinkedIn | teste pelo perfil da coordenação e dos docentes que coordenam outras Pós |
-| Comunidades | não há grupo de estudos de hematologia no catálogo. Até a Ufape decidir (N10), os grupos vizinhos que já existem (Internação e Terapia Intensiva; Clínica Médica e Emergência) recebem conteúdo de hematologia de docente, se o grupo aceitar [SUPOSIÇÃO] |
+| Comunidades | não há grupo de estudos de hematologia no catálogo. Até a Ufape decidir (N10), os grupos vizinhos que já existem (Internação e Terapia Intensiva; Clínica Médica e Emergência) recebem conteúdo de hematologia de docente, se a coordenação do grupo aceitar [SUPOSIÇÃO]; os grupos são produtos pagos (catálogo, seção 7), então o conteúdo entra como tema do grupo, nunca como oferta da Pós dentro dele (L3) |
 | Eventos | sem aula aberta no cronograma; o Simpósio Internacional de Coagulação (202) mostra que a Ufape já fez evento da área |
 | Parceiros | **fora** (decisão 28d) |
 | Congressos externos e imprensa | seguem em teste como presença de docente e pauta técnica, sem parceria comercial |
-| Meta Ads e Google Ads | a base entra como público (decisão 28b): listas de alunos e ex-alunos de Pós por área de interesse, exclusão de quem já se matriculou; busca de cauda com negativos de medicina humana |
+| Meta Ads e Google Ads | a base entra como público (decisão 28b): listas de ex-alunos de Pós por área de interesse (alunos em curso só depois da UD11), exclusão de quem já se matriculou; busca de cauda com negativos de medicina humana |
 
 ---
 
@@ -159,7 +159,7 @@
 | | Orgânica | Paga |
 |---|---|---|
 | Função | autoridade da área, prova, comunidade nos grupos de estudo, conteúdo para busca | levar a oferta à base de Pós (com a condição de 20% depois da regra escrita) e recolher intenção na busca |
-| Público principal | C6, C9 pela busca, grupos de estudo | C4 e C3 por lista; C1 por lista para indicação; C2 por visita às páginas de 106 e 202; C9 por busca de cauda |
+| Público principal | C6, C9 pela busca, grupos de estudo | C4 por lista (C3 só depois da UD11); C1 por lista para indicação; C2 por visita às páginas de 106 e 202; C9 por busca de cauda |
 | Turma em captação | conteúdo de docente e hemograma comentado | antes do início: base por lista e busca, frio só com criativo provado; depois do início: base, remarketing e busca até a véspera do 3º módulo |
 | Entre turmas | carta da área, grupos de estudo, lista de espera | parada por padrão (a verba é por turma); a nova turma abre em 3 a 4 meses, e os públicos da base ficam prontos para o primeiro dia de captação |
 | Verba | horas do time e dos docentes [CONFIRMAR] | R$ 2.000,00 por turma no ciclo; R$ 66,67 e R$ 133,33 por matrícula |
@@ -180,7 +180,7 @@
 | F2 | Caso clínico ao vivo | hemograma comentado: tema de maior demanda da área (S19) | a sessão precisa ser criada (N5) |
 | F3 | Comunidade | grupos de estudo existentes (decisão 28g) | não há grupo de hematologia (N10); grupos vizinhos só com aceite de quem modera |
 | F4 | Trilha da área | 106 tem a mesma coordenação; 202 trata coagulopatias | sem grupo de estudos nem imersão de hematologia; peças de Livres suspensas (decisão 14) |
-| F5 | Docentes em parceria | dois docentes coordenam outras Pós, um terceiro a confirmar | grafias antes de nomear |
+| F5 | Docentes em parceria | uma docente coordena outra Pós (Gastroenterologia), dois a confirmar (S12) | grafias antes de nomear |
 | F6 | Anúncio de líder de opinião | colega confia em colega [SUPOSIÇÃO] | igual à moldura |
 | F8 | Eventos externos | congresso da área em São Paulo (S21) | só presença de docente; próxima edição [CONFIRMAR] |
 | F9 | Busca por IA | nicho lato sensu com pouca disputa visível | negativos de medicina humana |
@@ -208,7 +208,7 @@ Saem: F7 e F14 (decisão 28d). Descartada também: campanha de doação de sangu
 |---|---|---|---|---|---|
 | T1 | F1 indicação, sem desconto ao indicado | ex-alunos e alunos indicam colegas que lidam com exames hematológicos e transfusão, e o indicado fecha mais que o lead frio [SUPOSIÇÃO] | C1, C3, C8 | indicações; indicados que viram inscrição e matrícula; fechamento do indicado contra o lead pago | encerrar por comunicado, honrando o que tiver sido concedido ao indicador |
 | T2 | F2 com F12: hemograma comentado ao vivo | uma sessão com a ESP. Mariana Aldemundo Pereira di Vincenzo, sobre um tema do cronograma (por exemplo, abordagem das anemias), gera inscritos na lista de espera e conversas de venda; a gravação abastece podcast, cortes e busca | C1, C2, C4, C9 | inscritos, presentes, novos consentimentos, conversas com origem no evento | não repetir; gravação só com aprovação |
-| T3 | F17: base de outras Pós por mídia paga | a lista de ex-alunos de Pós das áreas vizinhas, com a condição de 20%, converte com custo por matrícula menor que o público frio da mesma turma [SUPOSIÇÃO] | C4, C3 | custo por lead, por inscrição e por matrícula da lista contra o frio, dentro da verba da turma; área de origem das matrículas | pausar o conjunto da lista; o resto da campanha segue |
+| T3 | F17: base de outras Pós por mídia paga | a lista de ex-alunos de Pós das áreas vizinhas, com a condição de 20%, converte com custo por matrícula menor que o público frio da mesma turma [SUPOSIÇÃO] | C4 (C3 só depois da UD11) | custo por lead, por inscrição e por matrícula da lista contra o frio, dentro da verba da turma; área de origem das matrículas | pausar o conjunto da lista; o resto da campanha segue |
 
 Por que esses três: T1 é o mais barato; T2 responde ao tema mais buscado e gera matéria-prima; T3 mede o efeito direto da decisão 28 (base com desconto por mídia paga), que tende a ser a maior alavanca do curso. O teste "docente como mídia" do plano da Gastro fica como quarto, se sobrar verba.
 
@@ -246,7 +246,7 @@ Por que esses três: T1 é o mais barato; T2 responde ao tema mais buscado e ger
 | UD8 | Aprovadores | tudo |
 | UD9 (novo) | Regra de imagem de lâmina, esfregaço, mielograma e laudo (N7) | F12, T2 |
 | UD10 (novo) | Nova edição ao vivo do Simpósio Internacional de Coagulação | F15 |
-| UD11 (novo) | Rever a regra da moldura "aluno em curso não recebe oferta de outra Pós" à luz do desconto para alunos (28a) | C3 |
+| UD11 (novo, proposta à Ufape) | Rever a regra da moldura (linha C3: não oferecer uma segunda Pós ao aluno em curso como campanha) à luz do desconto para alunos (28a). Até a decisão, a regra da moldura vale | oferta a C3; C3 nas listas de mídia e no T3 |
 
 ### 8.2 Dados (só números somados)
 
@@ -291,9 +291,9 @@ Igual ao plano da Gastro, seção 8.2, menos o mapa de parceiros.
 | 2 | Tabelas S1 a S22 e N1 a N11 |
 | 3 | Curso com história (turma VIII aberta), número de turmas a confirmar |
 | 4 | 106 e 202; vizinhos 655, 107 e 462; sem grupo de estudos nem imersão de hematologia |
-| 5 | Coordenação em 106, 68615 e 68635; docentes que coordenam Gastroenterologia e Oncologia (e talvez Endocrinologia); C4 largo |
+| 5 | Coordenação em 106, 68615 e 68635; docente que coordena Gastroenterologia (Oncologia e Endocrinologia a confirmar, S12); C4 largo |
 | 6 | Parceiros fora (28d); congresso e associação só como referência e palco de docente |
-| 7 | 24 canais: 13 ativos, 7 em teste, 4 fora |
+| 7 | 24 canais: 14 ativos, 6 em teste, 4 fora (os status da moldura) |
 | 8 | Seção 5: a paga trabalha a base por lista |
 | 9 | Seção 6: T1, T2, T3 |
 | 10 | Seção 7, com desconto aplicado e origem "base de Pós" |
@@ -318,7 +318,7 @@ Igual ao plano da Gastro, seção 8.2, menos o mapa de parceiros.
 |---|---|
 | C1 | ex-alunos do curso: convite a indicar; oferta de 20% em outras Pós e em simpósios e workshops |
 | C2 | compradores de 106 e 202: conteúdo da área e convite à sessão; desconto só se forem também da base de Pós |
-| C3 | alunos de outras Pós: oferta só por campanha com consentimento e mídia paga, nunca pela secretaria (L3); regra final em UD11 |
+| C3 | alunos de outras Pós: conteúdo da área e convite a indicar; nenhuma campanha de uma segunda Pós até a Ufape decidir a UD11; nunca pela secretaria (L3) |
 | C4 | ex-alunos de Pós das áreas vizinhas: oferta da Pós com 20% depois da regra escrita |
 | C5 | só institucional |
 | C8 | indicadores de C1 a C4; indicado sem desconto |
@@ -351,7 +351,7 @@ Igual ao plano da Gastro, seção 8.2, menos o mapa de parceiros.
 |---|---|
 | Canais | Meta e Google Busca ativos; YouTube pago, LinkedIn pago, TikTok, X e Performance Max fora |
 | Teto | R$ 2.000,00 por turma; R$ 66,67 por matrícula na meta e R$ 133,33 para confirmar; gasto da turma VIII [CONFIRMAR, PP15] |
-| Base por lista | listas de alunos e ex-alunos de Pós por área de interesse, com prioridade para as áreas de C4; exclusão de matriculados e de alunos da Graduação; idade mínima de 25 anos; nenhuma característica pessoal no texto |
+| Base por lista | listas de ex-alunos de Pós por área de interesse, com prioridade para as áreas de C4 (alunos em curso só depois da UD11); exclusão de matriculados e de alunos da Graduação; idade mínima de 25 anos; nenhuma característica pessoal no texto |
 | Oferta | condição de 20% só depois da regra escrita, com texto completo de preço (parcelas, total, inscrição e regra do desconto) |
 | Busca | cauda da área e da cidade; prova de bolsa só com a página corrigida e a decisão 14 liberada |
 | Negativos | hematologia e hemoterapia humanas, biomedicina, farmácia, mestrado, stricto sensu, gratuito, residência, vaga de emprego [SUPOSIÇÃO de desenho] |
@@ -429,7 +429,7 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
   - 20% para alunos e ex-alunos de pós
   - Base com consentimento, trabalhada por mídia paga
   - Busca mistura com hematologia humana
-- Nota do apresentador: A decisão desta semana sobre a base muda o centro do plano: o maior público passa a ser quem já fez pós na Ufape.
+- Nota do apresentador: A decisão desta semana sobre a base muda o centro do plano: a aposta da squad é que o maior público seja quem já fez pós na Ufape, até os números da base confirmarem.
 
 **5. lacunas**
 - Título: O que **ainda falta** saber
@@ -445,7 +445,7 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
 - Título: Nove **círculos** de alcance
 - Tópicos:
   - Do mais quente ao mais frio
-  - Ex-alunos e alunos de pós com oferta própria
+  - Ex-alunos de pós com oferta própria
   - Compradores de cursos da área
   - Docentes e indicação
   - Parceiros saem como canal
@@ -454,15 +454,15 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
 **7. circulos-gastro (círculos do curso)**
 - Título: Os círculos na **Hematologia**
 - Tópicos:
-  - Ex-alunos de outras pós: maior círculo
+  - Ex-alunos de outras pós: aposta principal
   - Oncologia, terapia intensiva, clínica médica, felinos
   - Ex-alunos do curso indicam colegas
   - Compradores do curso de transfusão e do simpósio de coagulação
   - Clínicos que lidam com anemias e transfusão
-- Nota do apresentador: A hematologia aparece na rotina de quase toda especialidade. Por isso o ex-aluno de outra pós é o candidato mais forte, agora com desconto.
+- Nota do apresentador: A squad supõe que a hematologia apareça na rotina de quase toda especialidade. Por isso aposta no ex-aluno de outra pós como candidato mais forte, agora com desconto, até os números da base confirmarem.
 
 **8. consentimento**
-- Título: Consentimento **e** regra
+- Título: **Consentimento** e regra
 - Tópicos:
   - Base com consentimento para novas oportunidades
   - Listas operadas pela Ufape
@@ -484,12 +484,12 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
 **10. canais**
 - Título: **24 canais**, parceiros fora
 - Tópicos:
-  - 13 ativos, 7 em teste, 4 fora
+  - 14 ativos, 6 em teste, 4 fora
   - Instagram visual da área
   - Página da área para busca e IA
   - Anúncios com a base por lista
   - Páginas da turma e da prova precisam de correção
-- Nota do apresentador: A única mudança de status é o canal de parceiros, que sai porque na prática seriam empresas.
+- Nota do apresentador: Os status são os mesmos do modelo, que já tira o canal de parceiros porque na prática seriam empresas.
 
 **11. cadeia**
 - Título: Uma produção, **vários canais**
@@ -616,10 +616,10 @@ Na ordem do deck da Gastro. O trecho em negrito no título é o destaque.
 ## Mudanças desta versão (2, decisão 28)
 
 - Foco no curso: título, resumo e seção 1 reescritos para o ciclo recorrente (nova turma em 3 a 4 meses depois da confirmação).
-- Desconto de 20% para alunos e ex-alunos de Pós: oferta em C1, C3 e C4; C4 vira o maior círculo; pedido da regra escrita (UD2, N3); novo formato F17 e novo T3.
+- Desconto de 20% para alunos e ex-alunos de Pós: oferta em C1 e C4 (C3 depende da UD11); C4 vira o maior círculo; pedido da regra escrita (UD2, N3); novo formato F17 e novo T3.
 - Base por mídia paga: K5 e L6 tratados como atendidos em princípio, com registro [CONFIRMAR]; seções 5 e mídia reescritas.
 - Indicação sem desconto ao indicado: F1, T1 e relacionamento ajustados.
-- Parceiros fora: canal 21 fora (13 ativos, 7 em teste, 4 fora); F7 e F14 saem; mapa de parceiros removido; congresso e associação viram referência.
+- Parceiros fora: canal 21 fora, como já está na moldura (14 ativos, 6 em teste, 4 fora); F7 e F14 saem; mapa de parceiros removido; congresso e associação viram referência.
 - Grupos de estudo como comunidade: F3 e canal 18 ajustados; falta grupo de hematologia (N10).
 - O T3 da versão 1 (docente como mídia) vira quarto teste.
 

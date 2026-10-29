@@ -6,7 +6,7 @@
 - **Versão:** 2, com a decisão 28 do CEO aplicada (desconto de 20% para alunos e ex-alunos de Pós, base com consentimento trabalhada por mídia paga, indicação sem desconto para o indicado, parceiros fora como canal, turmas recorrentes, foco no curso, grupos de estudo como comunidade). O que mudou está em "Mudanças desta versão", antes das listas finais.
 - **Pedido do CEO (29/10/2026):** rodar, para mais 10 cursos, o mesmo plano estratégico de divulgação contínua feito para a Pós-graduação em Gastroenterologia Veterinária (mídia paga e orgânica, sem datas de execução e sem peças, com novos formatos, base de alunos e ex-alunos e capilaridade de canais). Este arquivo é o curso 698.
 - **Curso:** Pós-graduação em Ecocardiografia, São Paulo, semipresencial, 370 h (catálogo, seção 2). O plano é do curso e vale para todas as turmas. A turma aberta hoje é a III (código 698), citada só como situação atual.
-- **Como ler:** este arquivo traz só o bloco [CURSO] de cada uma das 9 seções do plano modelo. As partes [MOLDURA] (regras L1 a L8, os nove círculos, os 24 canais e seus critérios, as cinco ligações entre paga e orgânica, o catálogo de formatos F1 a F16, os indicadores e o formato dos pedidos) estão em saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md e não são reescritas aqui. Onde a decisão 28 muda a moldura, este arquivo diz o efeito no curso e deixa a reescrita da moldura para quem cuida dela.
+- **Como ler:** este arquivo traz só o bloco [CURSO] de cada uma das 9 seções do plano modelo. As partes [MOLDURA] (regras L1 a L8, os nove círculos, os 24 canais e seus critérios, as cinco ligações entre paga e orgânica, o catálogo de formatos F1 a F16, os indicadores e o formato dos pedidos) estão em saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-29-plano-estrategico-divulgacao-gastro.md e não são reescritas aqui. Onde a decisão 28 muda a moldura, este arquivo diz o efeito no curso e deixa a reescrita da moldura para quem cuida dela. A moldura da Gastro já traz a decisão 28 nos canais 18 e 21, em F3, F7, F14 e em L6; ficam para a revisão da moldura a regra de C3 (oferta a aluno em curso) e o K5 da estratégia de relacionamento.
 - **O que não entra:** calendário, peças, textos de anúncio, roteiros. O calendário da turma III já existe no plano da onda 1 (saidas/02-estrategia-e-posicionamento/cmo-pos-2026-10-26.md, seção 4.4). As datas abaixo são do catálogo e da ficha, para situar o curso.
 - **Status:** rascunho para o qa-de-marketing e para a aprovação humana. Nada é publicado, enviado ou pago a partir deste arquivo.
 - **Entradas lidas (todas em /home/user/marketing-ufape/):**
@@ -19,7 +19,7 @@
 - **Busca na web nesta rodada:** 4 consultas (29/10/2026) sobre entidade, congresso e eventos de cardiologia e ecocardiografia veterinária. Resultados na seção 2, com confiança marcada e [CONFIRMAR]. Não abri faculdade.ufape.com.br.
 - **Dados pessoais:** nenhum. Segmentos e números somados. Docentes só com nome e titulação como estão na ficha (decisões 8 e 10). Nomes de pessoas que aparecem em fontes externas não foram copiados.
 - **Nome do curso:** em texto visível ao público é sempre "Pós-graduação em Ecocardiografia" (nome do catálogo). "Eco" aparece aqui só como apelido de trabalho. Termos com "veterinária" são termos de busca, não nome do curso.
-- **Códigos:** UD1 a UD8, UN1 a UN7, UA1 a UA4 e PA1 a PA5 têm o mesmo sentido do modelo, preenchidos para este curso (UD2 e UD4 respondidos pela decisão 28). Códigos novos deste arquivo: UD9 e UD10, UN9 a UN13, PA6 e PA7 (UN8, UA5 e UA6 já existem na estratégia de relacionamento do modelo e não foram reaproveitados). Os testes T1, T2 e T3 são do curso 698.
+- **Códigos:** UD1 a UD8, UN1 a UN7, UA1 a UA4 e PA1 a PA5 têm o mesmo sentido do modelo, preenchidos para este curso (UD2 e UD4 respondidos pela decisão 28; UN4 sem a lista de parceiros, decisão 28 d; UN5 não se aplica, porque a ficha não traz estágio nem grupo de casos). Códigos novos deste arquivo: UD9 e UD10, UN9 a UN14, PA6 e PA7 (UN8, UA5 e UA6 já existem na estratégia de relacionamento do modelo e não foram reaproveitados). Os testes T1, T2 e T3 são do curso 698.
 
 ---
 
@@ -79,8 +79,8 @@
 | S17 | Ecocardiografia está entre as áreas em que a Ufape fica quase sozinha nas buscas feitas: nenhum concorrente nomeado em pós específica. Ausência na busca não prova ausência | inteligencia-concorrencia-pos, seção 0, item 3 | média |
 | S18 | "Pós-graduação em ecocardiografia veterinária" é a melhor aposta de busca da área (62 de 80): a busca não trouxe pós brasileira específica | pesquisa-de-palavras-chave-pos, A2, K2.1 | [SUPOSIÇÃO] por indício |
 | S19 | A Anclivepa-SP tem Pós de Cardiologia Veterinária (652 h, início em fevereiro de 2027) e é concorrente direta da linha | inteligencia-concorrencia-pos, C-1 | A e M |
-| S20 | Uma Sociedade Brasileira de Cardiologia Veterinária (SBCV) aparece citada em currículos públicos, inclusive com um congresso brasileiro em 2024; sem site oficial nem agenda de 2026 nos resultados. Um Colégio Brasileiro de Cardiologia Veterinária (CBCAV) aparece só em fonte pouco confiável | buscas na web de 29/10/2026 | baixa; [CONFIRMAR na fonte oficial] |
-| S21 | Um organizador comercial (Animal Health Science Ecosystem) faz congressos veterinários em São Paulo em 2026 em outras áreas; nenhuma edição de cardiologia apareceu | busca na web de 29/10/2026 (Visite São Paulo) | média para o organizador; baixa para cardiologia |
+| S20 | Uma Sociedade Brasileira de Cardiologia Veterinária (SBCV) aparece citada em currículos públicos, inclusive com um congresso brasileiro em 2024; sem site oficial nem agenda de 2026 nos resultados. Um Colégio Brasileiro de Cardiologia Veterinária (CBCAV) aparece só em fonte pouco confiável. O plano da 289 (S24 e S25) cita notícia do Panorama Pet Vet sobre a habilitação da SBCV no CFMV, com vigência a confirmar; nada disso se liga à Pós, que dá certificado de especialização lato sensu | buscas na web de 29/10/2026; plano da 289, S24 e S25 | baixa nesta busca; média para a existência da entidade pelo plano da 289; [CONFIRMAR na fonte oficial e no CFMV] |
+| S21 | Um organizador comercial (Animal Health Science Ecosystem) faz congressos veterinários em São Paulo em 2026 em outras áreas; nenhuma edição de cardiologia apareceu | busca na web de 29/10/2026 (Visite São Paulo) | média para o organizador; baixa para cardiologia; [CONFIRMAR na fonte do organizador] |
 | S22 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | benchmarks, seções 2 e 3 (via plano modelo) | alta para a lacuna |
 
 ### 2.2 O que não sabemos
@@ -112,13 +112,13 @@
 
 | Círculo | Quem é neste curso | Por que importa | Dado que falta |
 |---|---|---|---|
-| C1 | ex-alunos das turmas anteriores da Pós-graduação em Ecocardiografia (a atual é a III) | têm os 20%; indicam e dão prova; círculo pequeno (duas turmas até agora) | quantos (N1); relato só com autorização (L8) |
+| C1 | ex-alunos das turmas anteriores da Pós-graduação em Ecocardiografia (a atual é a III) | indicam e dão prova; os 20% valem para eles em outras Pós e em simpósios e workshops, não neste curso, que já fizeram; círculo pequeno (até duas turmas; se a turma II já concluiu é [CONFIRMAR]) | quantos (N1); relato só com autorização (L8) |
 | C2 | compradores de 395, 411, 68665 e 573 (o hands-on tem a coordenação como professora) | já pagaram para aprender a área; sem desconto de Pós, salvo se também forem alunos ou ex-alunos de Pós | tamanho (N1). 411 aceita graduandos: só formados recebem oferta de Pós. Sem crédito de ponte (D7). Peças novas de Livres suspensas (decisão 14) |
-| C3 | alunos em curso de 68605 (Cardiologia, quatro docentes em comum), 659, 706 e das outras Pós; a turma em andamento do próprio curso | têm os 20% (decisão 28 a). A regra da moldura que veta oferta de outra Pós a aluno em curso fica para revisão da moldura; até lá, neste curso, aluno em curso recebe a oportunidade só por mídia paga da base e no atendimento, nunca pelo canal de serviço (L3) | regra de comunicação a aluno em curso [CONFIRMAR] |
+| C3 | alunos em curso de 68605 (Cardiologia, quatro docentes em comum), 659, 706 e das outras Pós; alunos de turma do próprio curso ainda em andamento, se houver [CONFIRMAR], entram só como indicadores (C8), sem oferta do curso que já fazem | têm os 20% (decisão 28 a). A regra da moldura que veta oferta de outra Pós a aluno em curso fica para revisão da moldura; até lá, neste curso, aluno em curso recebe a oportunidade só por mídia paga da base e no atendimento, nunca pelo canal de serviço (L3) | regra de comunicação a aluno em curso [CONFIRMAR] |
 | C4 | ex-alunos de Cardiologia (68605 está na turma XI; 289 na II), de Diagnóstico por Imagem, Ultrassonografia, Anestesiologia e Terapia Intensiva | maior círculo quente da área [SUPOSIÇÃO]; têm os 20%; o ex-aluno de Cardiologia é o candidato natural a fazer o exame | tamanho (N1); uso de "turma XI" como prova de tradição [CONFIRMAR] |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | longo prazo; só institucional; não são alunos de Pós (sem os 20%) e podem ser menores | se há egressos (N11) |
 | C6 | MSc Fernanda Fontalva Cordeiro (coordenação; professora do 573) e os outros 4 docentes, que também ensinam Cardiologia | um conteúdo de docente serve a três Pós, com UTM por curso | quais docentes têm perfil ativo e aceitam publicar |
-| C7 | sem canal de parceiros (decisão 28 d). Fica só o que é da casa ou é evento: Ufape Clínica como cenário das práticas; congresso da especialidade, se existir (canal 23) | a Ufape Clínica não é parceiro externo; congresso é presença, não parceria | N8; S20 |
+| C7 | sem canal de parceiros (decisão 28 d). Fica só o que é da casa ou é evento: Ufape Clínica, se for o local das práticas do curso [CONFIRMAR: a ficha traz só o endereço da sede, Av 9 de Julho 3939; contexto/ufape-geral.md diz que a Ufape Clínica é usada em aulas práticas, sem citar este curso]; congresso da especialidade, se existir (canal 23) | a Ufape Clínica não é parceiro externo; congresso é presença, não parceria | N8; S20 |
 | C8 | ex-alunos e alunos de C1, C3 e C4 indicando colegas, sem desconto para o indicado (decisão 28 c); reconhecimento do indicador só se a Ufape decidir (UD1) | multiplicador de baixo custo, agora sem incentivo de preço | regra do indicador (UD1) |
 | C9 | clínicos de pequenos animais, sobretudo em São Paulo, que pedem ecocardiograma e querem fazer e interpretar o exame | nicho com pouca disputa visível na busca (S17, S18) | volumes de busca [CONFIRMAR] |
 
@@ -139,7 +139,7 @@
 | 11 e 12. Podcast e YouTube | coordenação como convidada; tema "fazer o exame e interpretar o exame são a mesma habilidade?" (gancho do post AD-A2-2) |
 | 13. LinkedIn | teste pelo perfil da coordenação e dos docentes que aceitarem; o mesmo texto serve a Ecocardiografia e Cardiologia, com UTM por curso |
 | 17. Meta Ads | passa a receber os públicos da base (alunos e ex-alunos de Pós) com a oportunidade e a regra do desconto (decisão 28 b), além do remarketing |
-| 18. Comunidades (ativo) | o grupo de estudos 68665 é a comunidade da área: discussão de casos, artigos e aulas demonstrativas. Divulgação do curso dentro dele só pela regra do grupo e com a coordenação (N14); o grupo usa WhatsApp, que expõe telefone, por isso nada de captação por lá |
+| 18. Comunidades (ativo) | o grupo de estudos 68665 é a comunidade da área: discussão de casos, artigos e aulas demonstrativas. Divulgação do curso dentro dele só pela regra do grupo e com o acordo de quem conduz o grupo (N14; a ficha 68665 não lista professores); o grupo usa WhatsApp, que expõe telefone, por isso nada de captação por lá |
 | 19. Eventos e aulas abertas | o curso não tem aula aberta no cronograma; o T2 propõe uma sessão nova (UD3). O hands-on 573 já é porta presencial da área; simpósios e workshops da Ufape têm os 20% para alunos e ex-alunos de Pós (decisão 28 a) |
 | 21. Parceiros | fora (decisão 28 d). Fabricantes de equipamento, laboratórios e clínicas não entram como canal de divulgação |
 | 22 e 23. Imprensa e congressos | só pauta técnica e presença de docente; entidade e congresso da especialidade não confirmados (S20, S21) |
@@ -153,7 +153,7 @@
 
 ### [CURSO 698]
 
-- **Janela de cada turma:** R$ 2.000,00 por turma (decisão 15). A paga faz três coisas, nesta ordem: (1) leva a oportunidade com a regra do desconto à base de alunos e ex-alunos de Pós, com prioridade aos de Cardiologia, Imagem, Ultrassonografia e ao próprio curso; (2) recolhe intenção na busca de cauda; (3) amplia para o público frio o criativo que o orgânico provou, só antes do início da turma. Depois do início, só base, remarketing e busca, até a véspera do 3º módulo (decisão 18), com atenção ao módulo 2 presencial (OU3).
+- **Janela de cada turma:** R$ 2.000,00 por turma (decisão 15). A paga faz três coisas, nesta ordem: (1) leva a oportunidade com a regra do desconto à base de alunos e ex-alunos de Pós, com prioridade aos de Cardiologia, Imagem e Ultrassonografia (ex-alunos da própria Ecocardiografia entram como indicadores, C8, não como compradores do mesmo curso); (2) recolhe intenção na busca de cauda; (3) amplia para o público frio o criativo que o orgânico provou, só antes do início da turma. Depois do início, só base, remarketing e busca, até a véspera do 3º módulo (decisão 18), com atenção ao módulo 2 presencial (OU3).
 - **Turma atual (III):** o plano da onda 1 (seção 4.4) segue valendo para calendário e verba; este plano acrescenta os públicos da base, quando a forma for confirmada, dentro da mesma verba.
 - **Entre turmas:** curto (3 a 4 meses depois da confirmação). A verba é da turma seguinte; nenhum gasto antes de ela entrar no catálogo, salvo verba nova aprovada (UD7). Os públicos de engajamento e da base ficam prontos.
 - **Fonte de criativo:** imagem de exame comentada por docente (T3), cortes do eco comentado (T2), coordenação e docentes, cortes do UFAPE Cast.
@@ -201,7 +201,7 @@ Fora da matriz: F7 e F14 (decisão 28 d). Impacto e esforço são leitura do cmo
 
 | Teste | Formato | Hipótese | Círculos | O que medir (sem meta antes da linha de base) | Como desfazer |
 |---|---|---|---|---|---|
-| T1 | B1 oferta à base com 20% | a oportunidade com a regra do desconto, mostrada por mídia paga a alunos e ex-alunos de Pós da área (Cardiologia, Imagem, Ultrassonografia, o próprio curso), fecha mais e mais barato que o público frio [SUPOSIÇÃO] | C1, C3, C4 | matrículas com desconto por turma; custo por lead e por matrícula do público da base contra o frio; participação da base nas matrículas | pausar o conjunto da base; o público fica guardado |
+| T1 | B1 oferta à base com 20% | a oportunidade com a regra do desconto, mostrada por mídia paga a alunos e ex-alunos de Pós da área (Cardiologia, Imagem, Ultrassonografia), fecha mais e mais barato que o público frio [SUPOSIÇÃO] | C3, C4 (C1 como indicador) | matrículas com desconto por turma; custo por lead e por matrícula do público da base contra o frio; participação da base nas matrículas | pausar o conjunto da base; o público fica guardado |
 | T2 | F2 eco comentado ao vivo | uma sessão online com a MSc Fernanda Fontalva Cordeiro, aberta à base da área, gera inscritos na lista de espera e conversas de venda, e a gravação alimenta podcast, cortes e busca | C1, C2, C4, C9 | inscritos, presentes, novos consentimentos, conversas no WhatsApp de vendas com origem na sessão, cortes produzidos | não repetir; gravação só publicada com aprovação |
 | T3 | F12 com F5, caso da semana em imagem assinado por docente | uma imagem de exame com pergunta, publicada em parceria pelo perfil do docente e da Ufape, gera mais conversa e salvamento que o post de curso da marca; o melhor caso vira criativo (ligação 1) | C6, C9, C2 | salvamentos, respostas e conversas por post; cliques com UTM por docente; numa turma futura, custo por conversa do anúncio de parceria contra o da marca | parar a série; remover a parceria; pausar o anúncio (nunca excluir) |
 
@@ -248,7 +248,8 @@ Por que esses três: T1 usa a decisão 28 inteira (desconto, consentimento, míd
 - UN2. Origem das matrículas das turmas anteriores do curso.
 - UN3. Data da turma IV e regra da recorrência (decisão 28 e); destino das provas 68641 e 68642.
 - UN4. Se a Ufape Clínica faz ecocardiograma por encaminhamento.
-- UN5. Reposição do módulo 2 presencial (OU3).
+- UN5. Não se aplica neste curso: no modelo é a regra do estágio e do grupo de discussão de casos, que a ficha deste curso não traz (S12).
+- UN14 (novo). Reposição do módulo 2 presencial (OU3).
 - UN6. Se a Graduação já tem egressos.
 - UN7. Horas do time, quem grava e edita, revisor docente nomeado.
 - UN9 (novo). Pré-requisito do curso (N12).
@@ -273,7 +274,7 @@ Igual ao modelo (seção 8.2), sem o mapa de parceiros, e com quatro itens próp
 | PA2 | T1: público da base com a oferta de 20% na mídia da turma | usa a decisão 28 no círculo que mais tende a fechar | dentro dos R$ 2.000,00 da turma, fatia definida pelo gestor-de-midia [CONFIRMAR] | matrículas da base com custo menor | pausar o conjunto |
 | PA3 | Convite à coordenação para o T2 | o curso não tem aula aberta | horas da coordenação [CONFIRMAR] | base e matéria-prima | não repetir; gravação não publicada |
 | PA4 | T3 no orgânico; parte paga numa turma futura | testa a ponte sem verba nova | sem custo no orgânico | prova de qual formato gera conversa | parar a série; pausar o anúncio |
-| PA5 | Pedido formal dos dados UN1 a UN13 e dos acessos UA1 a UA4 | sem eles não há medição | sem custo direto | linha de base em 4 semanas | não se aplica |
+| PA5 | Pedido formal dos dados UN1 a UN4 e UN6 a UN14 e dos acessos UA1 a UA4 | sem eles não há medição | sem custo direto | linha de base em 4 semanas | não se aplica |
 | PA6 (novo) | Decisão UD9 sobre o par 573 e Ecocardiografia | o comprador da 573 conheceu a coordenação | sem custo direto | ponte medida | voltar à tabela atual |
 | PA7 (novo) | Decisão UD10 sobre a carta única da área | três cartas para o mesmo público furam o teto | sem custo direto | menos envios, mesma cobertura | separar as cartas |
 
@@ -300,7 +301,7 @@ Igual ao modelo (seção 8.2), sem o mapa de parceiros, e com quatro itens próp
 
 | Círculo | Neste curso | Particularidade |
 |---|---|---|
-| C1 | ex-alunos das turmas anteriores do curso | 20% de desconto; quem cursou sem concluir: regra [CONFIRMAR] |
+| C1 | ex-alunos das turmas anteriores do curso | 20% em outras Pós, simpósios e workshops (não neste curso); quem cursou sem concluir: regra [CONFIRMAR] |
 | C2 | compradores de 395, 411, 68665 e 573 | sem desconto de Pós, salvo se também forem de Pós; 411 aceita graduandos; janela de silêncio do 573 (D8) |
 | C3 | alunos em curso de outras Pós, com prioridade a 68605 | 20% de desconto; oportunidade só por mídia paga e atendimento; nunca pelo canal de serviço |
 | C4 | ex-alunos de Cardiologia, Imagem, Ultrassonografia, Anestesiologia e Terapia Intensiva | 20% de desconto; prioridade nos públicos da base |
@@ -311,7 +312,7 @@ Igual ao modelo (seção 8.2), sem o mapa de parceiros, e com quatro itens próp
 |---|---|---|
 | Lista de espera | aviso da próxima turma, que abre 3 a 4 meses depois da confirmação da atual | nenhum aviso promete data, vaga ou condição fora do catálogo |
 | Carta da área | proposta de carta única da área cardiovascular (UD10) | teto D16; revisor docente |
-| Grupo de estudos 68665 | comunidade da área; a coordenação e os docentes podem citar o curso pela regra do grupo (N14) | sem captação dentro do grupo; nada de lista tirada do grupo (L4) |
+| Grupo de estudos 68665 | comunidade da área; palestrantes do grupo que também ensinam no curso podem citar o curso pela regra do grupo (N14) [CONFIRMAR quem são: a ficha 68665 não lista professores] | sem captação dentro do grupo; nada de lista tirada do grupo (L4) |
 | Convite ao T2 | sessão de eco comentado | inscrição nunca exige aceitar campanha |
 
 ---
@@ -388,7 +389,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 **2. mudanca**
 - Título: Do lançamento ao **curso sempre vivo**
 - Tópicos: Turmas abrem de forma recorrente; Próxima turma 3 a 4 meses após a confirmação; Primeiro a base da Ufape; Depois quem não conhece a Ufape; Paga amplia, não começa
-- Nota: Cada turma é uma janela de captação dentro de um trabalho contínuo do curso.
+- Nota: Cada turma é uma janela de captação dentro de um trabalho contínuo do curso. O prazo de 3 a 4 meses é a leitura do plano para a decisão do CEO e ainda precisa de confirmação.
 
 **3. objetivo**
 - Título: Meta de **30 matrículas** por turma
@@ -397,7 +398,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 **4. sabemos**
 - Título: O que **já sabemos**
-- Tópicos: 12 módulos, 5 presenciais, todos práticos; 5 docentes, 4 também na Cardiologia; Coordenação ensina no hands-on básico; Escada completa em cursos livres; Pouca disputa visível na busca; Base com 20% de desconto
+- Tópicos: 12 módulos, 5 presenciais com prática; 5 docentes, 4 também na Cardiologia; Coordenação ensina no hands-on básico; Escada completa em cursos livres; Pouca disputa visível na busca; Base com 20% de desconto
 - Nota: Tudo vem da ficha, do catálogo, das pesquisas da squad e das decisões do CEO. Busca sem concorrente não prova que ele não existe.
 
 **5. lacunas**
@@ -408,12 +409,12 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 **6. circulos**
 - Título: **Nove círculos**, do mais quente ao mais frio
 - Tópicos: Ex-alunos do curso; Compradores da área; Alunos atuais; Ex-alunos de outros cursos; Graduação, só institucional; Docentes; Ufape Clínica e eventos; Indicação; Público frio
-- Nota: Igual à Gastroenterologia, com uma mudança: parceiros externos deixam de ser canal.
+- Nota: Mesmos nove círculos da Gastroenterologia. Aqui, o círculo de parceiros fica só com a Ufape Clínica e com eventos.
 
 **7. circulos do curso**
 - Título: Os círculos na **Ecocardiografia**
 - Tópicos: Ex-alunos de Cardiologia, Imagem e Ultrassonografia; Ex-alunos do próprio curso; Quem fez ECG, eco online, grupo ou hands-on; Alunos atuais de Pós; Cinco docentes; Clínicos que pedem ecocardiograma
-- Nota: O maior potencial está nos ex-alunos de Pós da área, que têm desconto, e em quem já comprou produtos de ecocardiografia.
+- Nota: Leitura do plano, ainda sem números: o maior potencial tende a estar nos ex-alunos de Pós da área, que têm desconto, e em quem já comprou produtos de ecocardiografia.
 
 **8. consentimento**
 - Título: Base com **consentimento**
@@ -421,14 +422,14 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 - Nota: A forma técnica de levar a base às plataformas ainda precisa da confirmação da Ufape e do responsável por dados.
 
 **9. base**
-- Título: **20% de desconto** para quem já é da casa
+- Título: **20% de desconto** para a base de Pós
 - Tópicos: Alunos e ex-alunos de Pós; Vale em Pós, simpósios e workshops; Indicado não tem desconto; Lista de espera da próxima turma; Carta única da área cardiovascular
 - Nota: O desconto é o argumento mais forte para a base. Ele só vai para peça com a regra completa escrita.
 
 **10. canais**
 - Título: **24 canais** mapeados
 - Tópicos: 14 ativos; 6 em teste; 4 fora: TikTok, X, parceiros e agregadores; Grupos de estudo viram comunidade ativa; Imagem de exame é o conteúdo mais forte
-- Nota: Duas mudanças contra a Gastroenterologia: parceiros saem e os grupos de estudo entram como comunidade.
+- Nota: Mesma contagem da Gastroenterologia, já com a decisão mais recente: parceiros saem e os grupos de estudo entram como comunidade.
 
 **11. cadeia**
 - Título: Uma produção, **vários canais**
@@ -448,11 +449,11 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 **14. midia**
 - Título: R$ 2.000,00 **por turma**
 - Tópicos: Meta e Google Busca; Públicos da base com o desconto; Teto de R$ 66,67 por matrícula; R$ 133,33 para confirmar; Idade mínima de 25 anos; Curso online curto vira termo negativo
-- Nota: Quem busca curso de ecocardiograma online procura o curso livre, não a Pós.
+- Nota: Quem busca curso de ecocardiograma online tende a procurar o curso livre, não a Pós.
 
 **15. parceiros**
 - Título: Parceiros **saem do plano**
-- Tópicos: Parceiros são empresas; Canal de parceiros fora; Ufape Clínica é cenário das práticas; Congresso só como presença; Imprensa só com pauta técnica
+- Tópicos: Parceiros são empresas; Canal de parceiros fora; Ufape Clínica é da casa, não parceira; Congresso só como presença; Imprensa só com pauta técnica
 - Nota: A entidade de cardiologia veterinária aparece só em fontes indiretas e precisa de confirmação antes de qualquer presença.
 
 **16. trilha**
@@ -523,7 +524,7 @@ Ordem do deck da Gastro. Em cada título, a parte em destaque está em negrito.
 
 ## Próximo passo
 
-qa-de-marketing revisa este arquivo com as auditorias 02 e de conformidade, conferindo em especial as contas, a recontagem dos canais (14, 6 e 4), a lista de docentes compartilhados com a Cardiologia, os módulos presenciais, a aplicação da decisão 28 e a marcação de confiança das entidades. Depois, a apresentação de 22 slides no padrão da Gastroenterologia. Aviso ao orquestrador: a decisão 28 muda partes da moldura (K5 fechado por padrão, C3 sem oferta, canal 21, F3, F7, F14); este arquivo só registra o efeito no curso.
+qa-de-marketing revisa este arquivo com as auditorias 02 e de conformidade, conferindo em especial as contas, a recontagem dos canais (14, 6 e 4), a lista de docentes compartilhados com a Cardiologia, os módulos presenciais, a aplicação da decisão 28 e a marcação de confiança das entidades. Depois, a apresentação de 22 slides no padrão da Gastroenterologia. Aviso ao orquestrador: a moldura da Gastro já traz a decisão 28 no canal 21, em F3, F7 e F14; ainda falta levá-la à regra de C3 (sem oferta a aluno em curso) e ao K5 da estratégia de relacionamento; este arquivo só registra o efeito no curso.
 
 ---
 
@@ -553,7 +554,7 @@ qa-de-marketing revisa este arquivo com as auditorias 02 e de conformidade, conf
 - Forma técnica do uso da base nas plataformas e registro do encarregado (N6, UA4); interpretação da squad da decisão 28 (b) e (e).
 - Tamanho dos círculos e origem das matrículas anteriores (UN1, UN2).
 - Data da turma IV e regra da recorrência; destino das provas 68641 e 68642 (UN3).
-- Reposição do módulo 2 presencial (UN5, OU3); pré-requisito (UN9); números da turma III (UN10).
+- Reposição do módulo 2 presencial (UN14, OU3); pré-requisito (UN9); números da turma III (UN10).
 - Encaminhamento de eco na Ufape Clínica (UN4); SBCV e CBCAV na fonte oficial (UN11); regra de imagem de exame (UN12); regra de divulgação no grupo 68665 (N14).
 - Par 573 e Ecocardiografia (UD9); carta única da área (UD10).
 - Correções da página da turma III (OA10). Aprovadores (UD8); horas do time e revisor docente (UN7).

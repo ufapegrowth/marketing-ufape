@@ -36,7 +36,7 @@
 1. **O que muda em relação à Gastro:** a 341 está na turma I e fala com outro público. Não há ex-alunos do curso (C1 vazio), não há produto de equinos em Livres, Eventos ou grupos de estudo no catálogo (C2 vazio, sem trilha e sem comunidade da área) e nenhum docente da 341 aparece em outra turma de Pós no quadro da autoridade-docente. O curso começa sem base própria de equinos. O esforço vai para docentes (C6), para a base geral de alunos e ex-alunos de Pós que tenha interesse em equinos (C3 e C4, agora com oferta real pela decisão 28) e para o frio que busca (C9).
 2. **Métrica:** matrículas pagas por turma do curso (1ª mensalidade paga), meta de 30 ou mais e 15 para confirmar a turma (decisões 11, 25 e 27). Meta em reais da turma I pela regra: 30 x R$ 43.500,00 = R$ 1.305.000,00. A conta usa o preço cheio do catálogo; o desconto de 20% de aluno e ex-aluno (decisão 28) e a promoção da página reduzem a receita real, que só se calcula com a origem das matrículas.
 3. **Dois descontos de 20%, que não podem ser confundidos:** (a) o desconto de aluno e ex-aluno de Pós, decidido pelo CEO (decisão 28); (b) a promoção da página da 341, "20% de desconto em todo o curso", "válido para mensalidades durante todo o curso", sem público, prazo nem acúmulo, com o texto cortado no catálogo. A (b) segue só como está escrita e fora das peças até a OU10. Se a (b) é a mesma coisa que a (a), se acumula ou se sai da página: [CONFIRMAR].
-4. **Persona diferente:** veterinário de equinos, com mais chance de atender a campo e de viajar [SUPOSIÇÃO da pesquisa-de-persona, seção 5.1]. O @ufapevet fala com pequenos animais e deve alcançar menos esse público [SUPOSIÇÃO]. Busca, docentes e a base trabalhada por mídia paga carregam mais peso; o rebanho de equinos se concentra fora de São Paulo (seção 2.1), o que reforça a persona que viaja.
+4. **Persona diferente:** veterinário de equinos, com mais chance de atender a campo e de viajar [SUPOSIÇÃO da pesquisa-de-persona, seção 5.1]. O @ufapevet fala com pequenos animais e deve alcançar menos esse público [SUPOSIÇÃO]. Busca, docentes e a base trabalhada por mídia paga carregam mais peso; os quatro estados que lideram o rebanho de equinos na fonte consultada não incluem São Paulo (341-S3), o que é coerente com a persona que viaja [SUPOSIÇÃO].
 5. **Capilaridade:** dos 24 canais da moldura, 13 ativos (2 condicionados), 6 em teste e 5 fora. Mudanças pela decisão 28: o canal de parceiros sai (as empresas não entram como canal); comunidades ficam fora porque não há grupo de estudos de equinos para servir de comunidade.
 6. **Três testes primeiro:** 341-T1 docente como mídia; 341-T2 caso clínico ao vivo com a coordenação, para formar a base de equinos; 341-T3 ex-aluno de Pós em segunda especialização: a base de alunos e ex-alunos com interesse em equinos, alcançada pela mídia paga e pelo e-mail, com o desconto de 20% da decisão 28.
 7. **O que trava:** regra da promoção da página e a relação com o desconto de ex-aluno (OU10); local da prática e formato do módulo 3 (OU11); módulo 3 em 01/05/2027, feriado (OU17); texto da condição do desconto de ex-aluno para peça (validade, acúmulo); como a base sobe para a mídia paga (listas, base legal registrada); abrir sessão ao vivo a não alunos; decisão sobre um degrau de equinos (curso curto, evento ou grupo de estudos). Seção 8.
@@ -54,7 +54,7 @@
 - **Teto de mídia por matrícula:** R$ 2.000,00 / 30 = R$ 66,67 na meta; R$ 2.000,00 / 15 = R$ 133,33 para confirmar a turma (decisão 27).
 - **Inscrição e matrícula:** inscrição de R$ 250,00 (a ficha chama de "Matrícula R$ 250,00"; decisões 23 e 25); matrícula é a 1ª mensalidade, que a ficha manda pagar até 30 dias antes do início.
 - **H1 (turma em captação):** hoje, a turma I: começa em 20/03/2027 e aceita matrícula até o 3º módulo (decisão 18), que a ficha marca para 01 e 02/05/2027; 01/05 é feriado nacional [CONFIRMAR OU17]. O calendário do H1 da turma I está no kit da onda 2 e não entra aqui.
-- **H2 (entre turmas):** pela decisão 28 (e), quando uma turma é confirmada a próxima abre, em geral, de 3 a 4 meses depois [CONFIRMAR a interpretação da squad e se vale para um curso novo como a 341]. Na prática, o H2 da 341 é curto: se a turma I for confirmada, a turma II tende a entrar no catálogo logo depois do início da turma I, e a base de equinos formada no H1 é o primeiro público dela. Enquanto a turma II não estiver no catálogo, nenhuma chamada de compra para ela. Não há prova de bolsa de equinos no catálogo (seção 3).
+- **H2 (entre turmas):** pela decisão 28 (e), quando uma turma é confirmada a próxima abre, em geral, de 3 a 4 meses depois [CONFIRMAR a interpretação da squad e se vale para um curso novo como a 341]. Na prática, o H2 da 341 é curto: se a turma I for confirmada, a turma II tende a abrir de 3 a 4 meses depois da confirmação (data [CONFIRMAR 341-N13]; quando a turma I será confirmada ainda não se sabe), e a base de equinos formada no H1 é o primeiro público dela. Enquanto a turma II não estiver no catálogo, nenhuma chamada de compra para ela. Não há prova de bolsa de equinos no catálogo (seção 3).
 
 ---
 
@@ -80,7 +80,7 @@
 | 341-S11 | 500 h, 24 módulos, semipresencial, São Paulo; turma I com início em 20/03/2027; 30x de R$ 1.450,00; R$ 43.500,00 no cartão ou boleto; inscrição de R$ 250,00 | catálogo, seção 2; ficha; decisão 23 | alta |
 | 341-S12 | Cronograma: 10 módulos só "ONLINE" (1, 2, 9, 10, 11, 14, 15, 20, 21, 23), 13 marcados "ONLINE PRESENCIAL" (3, 4, 5, 6, 7, 8, 12, 13, 16, 17, 18, 19, 22) e o 24 "PRESENCIAL" (estágio obrigatório e atividades complementares) | ficha | alta para o texto; o que "ONLINE PRESENCIAL" quer dizer é [CONFIRMAR OU11] |
 | 341-S13 | Temas do cronograma: abordagem clínica do paciente equino, farmacologia, paciente crítico, preparação cirúrgica e feridas, cardiologia, respiratório, digestivo, locomotor e imagem, neonatologia, gestação, neonato a campo, UTI neonatal, reanimação, fluidoterapia, potros críticos, terapias complementares, podologia, neurologia, pele e olhos, urinário, reprodução, odontologia, medicina baseada em evidências | ficha | alta |
-| 341-S14 | Coordenação: Esp. Maria Augusta Berlingieri. 9 pessoas na lista de participantes (a coordenação aparece duas vezes): Dra. Patrícia Brossi, Esp. Paulo Leiria, Dr.Júlio Spagnolo, Dra. Roberta Basile, MSC. Tatiana Figueiredo, Dr. Marlos Gonçalves Sousa, M.V. Allan Pires Barbosa, M.V Túlio Carvalho | ficha (grafias como estão) | alta |
+| 341-S14 | Coordenação: Esp. Maria Augusta Berlingieri. 9 pessoas na lista de participantes (a coordenação aparece duas vezes); além dela, 8 professores: Dra. Patrícia Brossi, Esp. Paulo Leiria, Dr.Júlio Spagnolo, Dra. Roberta Basile, MSC. Tatiana Figueiredo, Dr. Marlos Gonçalves Sousa, M.V. Allan Pires Barbosa, M.V Túlio Carvalho | ficha (grafias como estão) | alta |
 | 341-S15 | Nenhum docente da 341 aparece no quadro de "mesmo docente em mais de uma turma" da autoridade-docente | autoridade-docente-pos, seção 0.2 | média (o quadro cobre os docentes prioritários) |
 | 341-S16 | A ficha lista dois locais: a sede (Av. 9 de Julho, São Paulo) e um endereço em Indaiatuba (Ermênio de Oliveira Penteado, s/n, Tombadouro), e diz que as aulas práticas serão no "EQUIPAMENTO HOSPITAL VETERINÁRIO" (texto como está) | ficha | alta para o texto; o que é o segundo local é [CONFIRMAR OU11] |
 | 341-S17 | A ficha diz que "Aulas Presenciais e Práticas não serão transmitidas ou disponibilizadas" | ficha | alta; pesa sobre gravação de bastidor (MP10 da distribuição) |
@@ -90,8 +90,8 @@
 | **Mercado** | | | |
 | 341-S21 | Na busca de 27/10 não apareceu pós brasileira com o nome "medicina interna equina"; surgiram residências e colégios europeus, uma especialização argentina, uma pós de clínica de equinos em Portugal e, no Brasil, só especializações em diagnóstico e cirurgia ou ortopedia equina. Ausência na busca não prova ausência | pesquisa-de-palavras-chave-pos-2026-10-27-onda2, seção 6 | média |
 | 341-S22 | "Medicina interna equina" é termo de nicho: pouca disputa visível e pouco volume provável; tratar como cauda | mesma pesquisa, seção 6 | [SUPOSIÇÃO] por indício |
-| 341-S23 | Existe uma associação nacional de veterinários de equídeos (ABRAVEQ) com conferência anual; resultados de busca citam a edição XXIV em Campinas (SP) em 2024, com 1.450 participantes, e a 25ª em Gramado (RS) em julho de 2025. O site oficial não apareceu, e a grafia do nome varia entre as fontes | busca de 29/10/2026, resumos de anais em periódico da PUCPR e de página da UFPel (seção "Fontes externas") | baixa a média; [CONFIRMAR na fonte oficial da entidade] |
-| 341-S24 | Pelas edições citadas, a conferência acontece em julho | dedução das fontes de 341-S23 | [SUPOSIÇÃO]; a data de 2027 é desconhecida |
+| 341-S23 | Existe uma associação nacional de veterinários de equídeos (ABRAVEQ) com conferência anual; resultados de busca citam a edição XXIV em Campinas (SP) em 2024, com 1.450 participantes, e a 25ª em Gramado (RS) em julho de 2025. O site oficial não apareceu, e a grafia do nome varia entre as fontes | busca de 29/10/2026, resumos de anais em periódico da PUCPR e de página da UFPel (seção "Fontes externas"); a página da UFPel é de 2016, pelo endereço, e não sustenta as edições de 2024 e 2025 | baixa a média; [CONFIRMAR na fonte oficial da entidade] |
+| 341-S24 | Só a 25ª edição (2025) tem mês citado, julho; não há base para dizer que a conferência acontece sempre em julho | dedução das fontes de 341-S23 | [SUPOSIÇÃO]; a data de 2027 é desconhecida |
 | 341-S25 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | benchmarks, seções 2 e 3 (via plano da Gastro, S17) | alta para a lacuna |
 
 ### 2.2 O que não sabemos
@@ -163,7 +163,7 @@
 | 20. Time de vendas | ativo | registra origem, condição de preço usada (desconto de ex-aluno, promoção da página) e, somado, estado de origem do lead, se o formulário perguntar [CONFIRMAR campos] |
 | 21. Parceiros | **fora** (decisão 28 d) | na Gastro estava em teste; sai do plano em todos os cursos |
 | 22. Imprensa e portais | testar | pauta técnica com docente; veículos de equinos [CONFIRMAR lista; sem busca nesta rodada]; sem conteúdo pago |
-| 23. Congressos e eventos externos | testar | presença de docente na conferência anual da associação de equídeos (341-S23), sem acordo comercial; pelas edições citadas, em julho (341-S24), o que pode cair perto da abertura de uma turma seguinte [SUPOSIÇÃO] |
+| 23. Congressos e eventos externos | testar | presença de docente na conferência anual da associação de equídeos (341-S23), sem acordo comercial; mês de 2027 desconhecido (a 25ª edição foi em julho, 341-S24); se cair perto da abertura de uma turma seguinte é [SUPOSIÇÃO] |
 | 24. Agregadores | fora | igual à Gastro |
 
 **Contagem:** 13 ativos (canais 1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 16, 17 e 20; 9 e 12 condicionados), 6 em teste (2, 5, 13, 19, 22 e 23) e 5 fora (14, 15, 18, 21 e 24). Os 8 canais da regra: Instagram ativo, Facebook ativo (reaproveitamento), WhatsApp ativo (campanha da turma I condicionada à OU10), podcast ativo, YouTube ativo condicionado, LinkedIn em teste pelo docente, TikTok e X fora.
@@ -199,7 +199,7 @@
 | F7 | Co-marketing com parceiros | **fora** (decisão 28 d) | | |
 | F8 | Presença em eventos da área | serve: docente na conferência da associação de equídeos (341-S23), sem acordo comercial | alto | médio |
 | F9 | Conteúdo para busca por IA | serve: nicho sem oferta brasileira visível com o nome do curso (341-S21); com turmas recorrentes, a página do curso acumula valor | médio | médio, crescente |
-| F10 | Lista de espera | destino de todo lead que não fechar; com turmas a cada 3 a 4 meses, a espera é curta | baixo | alto |
+| F10 | Lista de espera | destino de todo lead que não fechar; como a turma seguinte abre de 3 a 4 meses depois de uma turma confirmada (decisão 28 e), a espera tende a ser curta [SUPOSIÇÃO] | baixo | alto |
 | F11 | Material de referência (isca) | o guia de decisão da 341 já existe (iscas-digitais-pos v2, seção 341); falta arte e PDF pela Ufape | baixo | médio |
 | F12 | Caso da semana | serve, com revisor docente de equinos | baixo | médio |
 | F13 | Episódio temático do UFAPE Cast | serve: um episódio de equinos com a coordenação; audiência inicial pequena (S18 do plano da Gastro), valor nos cortes | médio | médio |
@@ -280,7 +280,7 @@ Igual à moldura (plano da Gastro, 8.2), sem o plano de parceiros (decisão 28 d
 | 341-PA1 | Aplicar a moldura à 341 com os blocos deste arquivo | evita refazer a estratégia | sem custo direto | plano contínuo do curso pronto para a cadeia | voltar ao plano da onda 2 |
 | 341-PA2 | Convite à coordenação e aos docentes para o 341-T1 e, na parte paga, uma fatia da verba da turma | testa a ponte docente e paga sem verba nova | fatia dos R$ 2.000,00 definida pelo gestor-de-midia [CONFIRMAR] | custo por conversa do perfil do docente contra o da marca | pausar o anúncio e retirar a parceria |
 | 341-PA3 | Convite à coordenação para o 341-T2, depois da 341-UD6 | forma a base de equinos | horas da coordenação [CONFIRMAR] | base com consentimento e matéria-prima | não repetir; gravação não publicada |
-| 341-PA4 | Rodar o 341-T3: frente da base de Pós dentro da verba da turma e envio de e-mail à base com interesse em equinos, depois da 341-UD2 e da 341-UD3 | base com oferta e consentimento | fatia dos R$ 2.000,00 definida pelo gestor-de-midia [CONFIRMAR]; contatos [CONFIRMAR] | matrículas de segunda especialização | pausar o conjunto e a régua no CRM |
+| 341-PA4 | Rodar o 341-T3: frente da base de Pós dentro da verba da turma e envio de e-mail à base com interesse em equinos que tenha consentimento de e-mail, depois da 341-UD2 e da 341-UD3 | base com oferta e consentimento | fatia dos R$ 2.000,00 definida pelo gestor-de-midia [CONFIRMAR]; contatos [CONFIRMAR] | matrículas de segunda especialização | pausar o conjunto e a régua no CRM |
 | 341-PA5 | Pedido formal à Ufape de 341-UD1 a 341-UD7 e dos dados 341-UN1 a 341-UN5 | sem eles a turma I não tem página, mídia nem mensagens no ar | sem custo direto | destrava o kit da onda 2 | não se aplica |
 
 ---
@@ -317,10 +317,10 @@ Igual à moldura (plano da Gastro, 8.2), sem o plano de parceiros (decisão 28 d
 
 | Programa | Equina |
 |---|---|
-| Lista de espera | com turmas a cada 3 a 4 meses depois de uma confirmação (decisão 28 e), a lista é curta: quem não fechou na turma em captação passa, com F-B, para a turma seguinte. Porta principal: página do curso (ainda não existe) e a sessão 341-T2 |
+| Lista de espera | como a turma seguinte abre de 3 a 4 meses depois de uma turma confirmada (decisão 28 e), a espera tende a ser curta [SUPOSIÇÃO]: quem não fechou na turma em captação passa, com F-B, para a turma seguinte. Porta principal: página do curso (ainda não existe) e a sessão 341-T2 |
 | Carta da área | carta de Medicina Interna Equina só com volume mínimo de contatos com F-A [CONFIRMAR]; até lá, bloco de equinos na newsletter geral; revisor docente de equinos obrigatório |
 | Convite à sessão ao vivo | o programa que mais pesa na 341, porque cria a base de equinos. Convite a C4 e C3 (conforme 341-UD4) e, fora da base, por docentes e mídia, com formulário próprio e consentimento opcional e desmarcado |
-| Base de Pós com desconto (novo, decisão 28) | e-mail e mídia paga para alunos e ex-alunos de Pós com interesse em equinos, com o texto da condição aprovado (341-UD2); dentro do teto D16 e cedendo a vez às réguas com data |
+| Base de Pós com desconto (novo, decisão 28) | mídia paga para alunos e ex-alunos de Pós com interesse em equinos e e-mail só para quem tem consentimento de e-mail para essa finalidade (consentimentos da moldura do relacionamento), com o texto da condição aprovado (341-UD2); dentro do teto D16 e cedendo a vez às réguas com data |
 
 **Comunidade:** os grupos de estudo existentes servem de comunidade (decisão 28 g), mas nenhum é de equinos; uma comunidade de equinos depende da 341-UD7.
 
@@ -355,7 +355,7 @@ Igual à moldura (plano da Gastro, 8.2), sem o plano de parceiros (decisão 28 d
 | Entidade ou evento | Uso | Fonte | Marcação |
 |---|---|---|---|
 | Associação nacional de veterinários de equídeos (ABRAVEQ) e sua conferência anual | presença de docente (palestra, pauta técnica) no canal 23; nenhuma troca de lista, nenhum acordo comercial | resumos de anais e de página universitária (341-S23) | [CONFIRMAR existência, site, regras e conferência de 2027 na fonte oficial] |
-| Local de prática da ficha (Indaiatuba) | dado do curso, não canal: a página e o time precisam dizer onde é a prática. Uma busca de 29/10/2026 mostra, em diretório comercial, uma empresa registrada como hospital veterinário de equinos em Indaiatuba e um laboratório credenciado pelo Ministério da Agricultura na mesma rodovia e bairro do endereço da ficha. **A squad não afirma que nenhum dos dois seja o local da prática** | ficha; fontes na seção "Fontes externas" | [CONFIRMAR OU11] |
+| Local de prática da ficha (Indaiatuba) | dado do curso, não canal: a página e o time precisam dizer onde é a prática. Uma busca de 29/10/2026 trouxe, só como resumo de resultado e sem abrir as páginas, um diretório comercial de hospitais veterinários em Indaiatuba e uma lista do Ministério da Agricultura de laboratórios credenciados (data não conferida). Nenhum desses resultados diz qual é o local da prática do curso, e a squad não os usa para deduzir nada sobre ele | ficha; fontes na seção "Fontes externas" | [CONFIRMAR OU11] |
 | Veículos e residências de equinos | pauta técnica com docente (canal 22), sem conteúdo pago | sem busca nesta rodada | [CONFIRMAR lista com 01] |
 
 Regra L4 sem exceção: a Ufape nunca recebe lista de entidade, de evento ou de empresa.
@@ -376,7 +376,7 @@ Não existe hoje. Proposta para a Ufape decidir (341-UD7): um primeiro degrau de
 | Verba e teto | R$ 2.000,00 por turma (decisão 15); turma I com a divisão aprovada pelo qa na onda 2: Meta R$ 1.250,75 e Google R$ 749,25, 85% até o corte e 15% na extensão. Teto de R$ 66,67 por matrícula na meta de 30 e R$ 133,33 para confirmar a turma com 15 (decisão 27) |
 | Trava | turma I sobe só com PP7, que depende da OU10; nenhum anúncio cita a promoção da página, bolsa ou local de prática; desconto de ex-aluno só com o texto aprovado (341-UD2) |
 | Frentes no H1 | (1) base de Pós com interesse em equinos e o desconto de 20% (341-T3), se 341-UD3 confirmar o meio; (2) Google: cauda de equinos e marca, com negativas de pequenos animais, cães, gatos, Goiânia e Goiás; (3) Meta frio amplo, 25 anos ou mais, antes do início, com o criativo que o orgânico (sobretudo o docente) provar; (4) remarketing de visitantes da página e de engajados com conteúdo de equinos. A divisão entre as frentes é do gestor-de-midia, dentro dos R$ 2.000,00 |
-| Região | a persona viaja e o rebanho se concentra fora de São Paulo (341-S3, 341-S4). Sugestão ao gestor-de-midia, sem mudar a verba: avaliar a região de entrega do frio e ler o custo por lead por região toda semana [SUPOSIÇÃO; a decisão é do gestor] |
+| Região | a persona viaja [SUPOSIÇÃO] e os estados que lideram o rebanho, pela fonte, não incluem São Paulo (341-S3, 341-S4). Sugestão ao gestor-de-midia, sem mudar a verba: avaliar a região de entrega do frio e ler o custo por lead por região toda semana [SUPOSIÇÃO; a decisão é do gestor] |
 | Públicos | base de Pós (decisão 28 b) por lista, se confirmada; visitantes e engajados; exclusão de quem já se matriculou e dos visitantes da Graduação; não há público de produtos de equinos (PE3), porque não há produto |
 | 341-T1 pago | anúncio de parceria pelo perfil do docente, até 10% da verba da turma e só se o saldo comprar ao menos 10 leads de cada lado ao CPL observado (estrategia-de-midia-pos-2026-10-29, seção 0, item 5) |
 | H2 | curto (decisão 28 e); zero por padrão; pixel e tags vivos; verba nova só com pedido próprio |
@@ -406,7 +406,7 @@ Não existe hoje. Proposta para a Ufape decidir (341-UD7): um primeiro degrau de
 - [x] Docentes só com nome e titulação da ficha.
 - [x] Anúncios: sem segmentação por característica pessoal; 25 anos ou mais; anúncio de parceria com identificação.
 - [x] Nada publicado, enviado ou pago.
-- [x] Sem travessão nem meia-risca; a The Growth Hub não é citada neste plano.
+- [x] Sem travessão nem meia-risca; nenhum fornecedor de marketing da Ufape é citado neste plano.
 
 **Resultado:** pronto para o qa-de-marketing.
 
@@ -429,7 +429,7 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 
 **2. mudanca**
 - Título: De lançamento a **divulgação contínua**
-- Tópicos: o kit da turma I já existe; turmas recorrentes, a cada 3 a 4 meses; o curso começa sem base de equinos; primeiro quem já confia na Ufape; a mídia amplia o que funcionar
+- Tópicos: o kit da turma I já existe; turmas recorrentes: a próxima abre 3 a 4 meses depois de uma turma confirmada; o curso começa sem base de equinos; primeiro quem já confia na Ufape; a mídia amplia o que funcionar
 - Nota: Na Gastro a base da área existia. Aqui ela precisa ser construída a partir da base geral de Pós e dos docentes.
 
 **3. objetivo**
@@ -440,12 +440,12 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 **4. sabemos**
 - Título: O que **já sabemos**
 - Tópicos: 30x de R$ 1.450,00 ou R$ 43.500,00; inscrição de R$ 250,00; 9 docentes, coordenação da Esp. Maria Augusta Berlingieri; 14 módulos com parte presencial; cerca de 5,7 milhões de equinos no país (IBGE); 20% para alunos e ex-alunos de Pós
-- Nota: Nenhuma pós brasileira com esse nome apareceu na busca, o que é indício, não prova. O rebanho se concentra em outros estados.
+- Nota: Nenhuma pós brasileira com esse nome apareceu na busca, o que é indício, não prova. Os estados que lideram o rebanho, pela fonte consultada, não incluem São Paulo. Os 20% de aluno e ex-aluno são decisão da Ufape e não se confundem com a promoção de 20% da página, cuja regra ainda falta.
 
 **5. lacunas**
 - Título: O que **falta saber**
 - Tópicos: regra da promoção da página; texto do desconto de ex-aluno; onde são as práticas com cavalos; data do 3º módulo em feriado; quantos ex-alunos têm interesse em equinos; quais docentes publicam
-- Nota: As respostas sobre promoção, desconto e local destravam página, mensagens e mídia da turma I.
+- Nota: As respostas sobre promoção e local destravam página, mensagens e mídia da turma I. O texto do desconto destrava a oferta à base de Pós.
 
 **6. circulos**
 - Título: Nove círculos, **do mais quente ao mais frio**
@@ -453,7 +453,7 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 - Nota: É a moldura de todos os cursos. Parceiros deixaram de ser canal por decisão da Ufape.
 
 **7. circulos do curso**
-- Título: Equina começa **pela base de Pós**
+- Título: O curso começa **pela base de Pós**
 - Tópicos: sem ex-alunos do curso na turma I; sem produto de equinos no catálogo; ex-alunos de Pós com 20% de desconto; força nos 9 docentes; o frio chega por busca e conteúdo
 - Nota: Esta é a principal diferença para a Gastro. Ex-alunos de outras Pós e docentes fazem o papel que lá era dos ex-alunos do curso.
 
@@ -465,12 +465,12 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 **9. base**
 - Título: Construir a **base de equinos**
 - Tópicos: sessão ao vivo como porta de entrada; base de Pós com desconto; lista de espera curta entre turmas; carta de equinos quando houver volume; inscrição sem obrigar a aceitar campanha
-- Nota: Com turmas a cada 3 a 4 meses, quem não fecha numa turma vai direto para a seguinte.
+- Nota: Como a turma seguinte abre 3 a 4 meses depois de uma turma confirmada, quem não fecha numa turma pode seguir para a próxima.
 
 **10. canais**
 - Título: 24 canais: **13 ativos**, 6 em teste, 5 fora
 - Tópicos: busca e IA ganham peso; Instagram com alcance menor; mídia paga também fala com a base; podcast com episódio de equinos; parceiros fora; comunidades fora até existir grupo de equinos
-- Nota: O perfil da Ufape fala com pequenos animais. Por isso docentes, base e busca carregam mais.
+- Nota: A squad supõe que o perfil da Ufape fale mais com pequenos animais. Por isso docentes, base e busca devem carregar mais.
 
 **11. cadeia**
 - Título: Uma produção, **muitos canais**
@@ -480,12 +480,12 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 **12. papeis**
 - Título: Orgânica **forma**, paga **amplia**
 - Tópicos: orgânica cria autoridade e base; paga leva a oferta à base de Pós; paga recolhe quem busca; paga amplia o que o docente provar; R$ 2.000,00 por turma, sem verba nova
-- Nota: Na Equina a paga pesa mais na descoberta e na base, porque não há base de equinos para recolher.
+- Nota: Neste curso a paga pesa mais na descoberta e na base, porque não há base de equinos para recolher.
 
 **13. ligacoes**
 - Título: Igual à Gastro: **cinco ligações**
 - Tópicos: orgânico escolhe o criativo; paga recolhe quem aqueceu; paga alimenta a base; busca paga ensina a orgânica; docente é a ponte
-- Nota: Ajuste da Equina: o primeiro criativo provado tende a vir do docente, não do perfil da Ufape.
+- Nota: Ajuste deste curso: o primeiro criativo provado tende a vir do docente, não do perfil da Ufape.
 
 **14. midia**
 - Título: Mídia: **Meta e Google Busca**
@@ -503,7 +503,7 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 - Nota: É uma decisão de produto da Ufape. Um grupo de estudos de equinos também resolveria a comunidade.
 
 **17. formatos**
-- Título: Formatos que **servem à Equina**
+- Título: Formatos que **servem ao curso**
 - Tópicos: alto impacto: sessão ao vivo, docentes em parceria, base de Pós com desconto; base: lista de espera e guia já escrito; médio: busca por IA, podcast, caso da semana; fora: co-marketing e rede de clínicas
 - Nota: Indicação e trilha, fortes na Gastro, ficam para quando houver alunos e um degrau de equinos.
 
@@ -520,7 +520,7 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 **20. precisamos**
 - Título: O que **precisamos da Ufape**
 - Tópicos: regra da promoção ou retirada; texto do desconto de ex-aluno; como a base sobe para a mídia; local das práticas e 3º módulo; abrir sessão ao vivo; decisão sobre um degrau de equinos
-- Nota: As quatro primeiras destravam o que já está pronto para a turma I.
+- Nota: A regra da promoção e o local das práticas destravam o que já está pronto para a turma I. O texto do desconto e o meio de levar a base à mídia destravam o teste com a base de Pós.
 
 **21. modelo**
 - Título: Igual à Gastro: **um modelo para todos**
@@ -570,5 +570,5 @@ Formato: título com a parte em destaque entre asteriscos duplos; tópicos curto
 - [Ciência Animal (PUCPR), artigo dos anais citado no resultado de busca](https://periodicos.pucpr.br/cienciaanimal/article/download/32389/27081/78079) (a página abriu ilegível; vale só o resumo da busca)
 - [Ciência Animal (PUCPR), outro artigo dos anais citado](https://periodicos.pucpr.br/cienciaanimal/article/download/31023/26408/72047)
 - [UFPel, Clineq na conferência da ABRAVEQ](https://wp.ufpel.edu.br/clineq/2016/05/09/clineq-participa-da-conferencia-nacional-da-abraveq-e-recebe-premiacoes/) (acesso recusado; vale só o resumo da busca)
-- [Ministério da Agricultura, laboratório credenciado em Indaiatuba](https://www.gov.br/agricultura/pt-br/assuntos/lfda/laboratorios-credenciados/laboratorios-credenciados/diagnostico-animal/arquivos-diagnostico-animal/Indaiatuba01_12_20.pdf)
-- [Diretório de hospitais veterinários em Indaiatuba](https://comerciosaopaulo.com.br/animais-em-sao-paulo-2/hospital-veterinario-em-sao-paulo/hospitais-veterinarios-em-indaiatuba/)
+- [Ministério da Agricultura, lista de laboratórios credenciados (resultado de busca sem relação confirmada com o curso)](https://www.gov.br/agricultura/pt-br/assuntos/lfda/laboratorios-credenciados/laboratorios-credenciados/diagnostico-animal/arquivos-diagnostico-animal/Indaiatuba01_12_20.pdf)
+- [Diretório comercial de hospitais veterinários em Indaiatuba (resultado de busca sem relação confirmada com o curso)](https://comerciosaopaulo.com.br/animais-em-sao-paulo-2/hospital-veterinario-em-sao-paulo/hospitais-veterinarios-em-indaiatuba/)
