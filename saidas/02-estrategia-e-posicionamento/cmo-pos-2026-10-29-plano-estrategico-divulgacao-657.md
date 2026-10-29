@@ -36,7 +36,7 @@
 3. **A conta que preocupa:** 30 matrículas num público restrito e no maior total do catálogo entre as turmas abertas. Com R$ 2.000,00 de mídia, o teto é de R$ 66,67 por matrícula na meta. A paga sozinha não fecha a meta [SUPOSIÇÃO do cmo]: a meta depende da base de egressos de Anestesiologia e da indicação entre anestesistas. Tamanho dessa base: [CONFIRMAR].
 4. **Diferente da Gastro, o H1 é longo:** a turma começa em 13/03/2027 e aceita matrícula até o 3º módulo (22 e 23/05/2027, ficha e decisão 18). A paga tem a janela inteira, inclusive o frio antes do início.
 5. **Três testes:** (T1) próximo degrau para quem já fez a Pós em Anestesiologia Veterinária na Ufape; (T2) discussão de crise anestésica ao vivo com a coordenação; (T3) indicação entre anestesistas.
-6. **O que trava:** pré-requisito de entrada (U10, pendente desde a onda 2), se a turma I já terminou e de que tamanho foi, se o Dr. Alessandro Martins da ficha é o CEO da Ufape, idioma das aulas dos 8 docentes de fora do Brasil, o convite da página para a "prova de Especialista em Anestesiologia", e os pedidos que já valiam na Gastro (consentimento da base, regra de ex-aluno, indicação). Tudo na seção 8.
+6. **O que trava:** pré-requisito de entrada (U10, pendente desde a onda 2), se a turma I já terminou e de que tamanho foi, se o Dr. Alessandro Martins da ficha é o CEO da Ufape, idioma das aulas dos 8 docentes de fora do Brasil, o convite da página para a "prova de Especialista em Anestesiologia", e os pedidos que já valiam na Gastro (condição completa do desconto de 20% de aluno e ex-aluno de Pós, registro do consentimento da base e regra da indicação sem desconto para o indicado, decisão 28). Tudo na seção 8.
 
 ---
 
@@ -48,7 +48,7 @@ Moldura: plano da Gastro, seção 1 [MOLDURA] (objetivo, métrica, meta, valor m
 
 | Item | 657 | Fonte |
 |---|---|---|
-| Métrica principal | matrículas pagas na turma II (657) e, depois, em cada nova turma do curso | decisões 25 e 27 |
+| Métrica principal | matrículas pagas em cada turma do curso (hoje em captação: turma II, 657); o plano é do curso, não de uma turma (decisão 28 (f)) | decisões 25, 27 e 28 |
 | Meta | 30 matrículas ou mais | decisão 27 |
 | Confirma a turma | 15 matrículas (a ficha ainda diz "Mínimo 20 alunos", texto a corrigir no site, pedido A12) | decisões 11 e 27; ficha |
 | Meta em reais | 30 x R$ 48.400,00 = R$ 1.452.000,00 | decisões 16 e 27; catálogo |
@@ -56,7 +56,7 @@ Moldura: plano da Gastro, seção 1 [MOLDURA] (objetivo, métrica, meta, valor m
 | Condições do catálogo | 30x de R$ 1.613,33; R$ 48.400,00 no cartão ou boleto; inscrição de R$ 250,00 | catálogo; decisão 23 |
 | Teto de mídia por matrícula | R$ 66,67 na meta de 30; R$ 133,33 para confirmar com 15 (verba de R$ 2.000,00) | decisões 15 e 27 |
 | H1 | turma II: início em 13/03/2027 (planilha); matrícula aceita até o 3º módulo, que na ficha é 22 e 23/05/2027; 1ª mensalidade até 30 dias antes do início (ficha) | catálogo; ficha; decisão 18 |
-| H2 | turma III não está no catálogo [CONFIRMAR data e número]. Entre turmas, o plano forma a base da área sem chamada de compra | catálogo |
+| H2 | pela decisão 28 (e), a próxima turma abre normalmente 3 a 4 meses depois de a turma anterior ser confirmada [CONFIRMAR]; enquanto a turma III não estiver no catálogo (data e número [CONFIRMAR]), o plano forma a base da área sem chamada de compra | decisão 28; catálogo |
 
 **Leitura do cmo sobre a conta.** Na Gastro, o público (clínico de pequenos animais) é amplo e a busca de cauda tem espaço. Aqui o público é quem já é anestesista. Ninguém tem o número de anestesistas veterinários atuantes no Brasil ou em São Paulo nas fontes da squad [CONFIRMAR]. Por isso a meta de 30 é tratada como meta de base e de indicação, com a paga como recolhimento, e não o contrário. Não peço verba nova.
 
@@ -77,7 +77,7 @@ Moldura: plano da Gastro, seção 1 [MOLDURA] (objetivo, métrica, meta, valor m
 | S5 | 360 h, 18 módulos, semipresencial, São Paulo, turma II; módulos 1 a 3 online (13 e 14/03, 10 e 11/04, 22 e 23/05/2027); 6 módulos presenciais (7, 8, 11, 13, 15 e 18) | ficha 657 | alta |
 | S6 | Temas do cronograma: TIVA e TCI, anestesia inalatória, locorregional com ultrassom e outras técnicas, hemodinâmica avançada, ventilação mecânica, dor em felinos, bloqueio neuromuscular e ventilação monopulmonar, coagulação e hemoderivados, reanimação cardiorrespiratória, anestesia neurológica, cardiotorácica, pets não convencionais e casos de alto risco (torção gástrica, feocromocitoma, shunt hepático) | ficha 657 | alta |
 | S7 | O módulo 10 traz "Aula dada por instrutor RECOVER" | ficha 657 | alta para o texto; quem é o instrutor e se a Ufape pode usar a marca RECOVER em peça é [CONFIRMAR] |
-| S8 | Coordenação: Dra. Mayara Travalini de Lima e Dr. Alessandro Martins; 17 professores listados, 8 deles com país de fora do Brasil na ficha (EUA 4, Argentina 2, Canadá 1, Itália 1) | ficha 657 | alta para a lista; idioma e formato das aulas desses docentes é [CONFIRMAR] |
+| S8 | Coordenação: Dra. Mayara Travalini de Lima e Dr. Alessandro Martins; 17 professores listados, 8 deles com país de fora do Brasil na ficha (EUA 4, Argentina 2, Canadá 1, Itália 1); a Dra. Mayara Travalini de Lima aparece também na lista de professores (como Profa. Mayara Travalini), então são 18 docentes sem repetição (mesma contagem da onda 2, seção 4.6) | ficha 657 | alta para a lista; idioma e formato das aulas desses docentes é [CONFIRMAR] |
 | S9 | "Aulas práticas e presenciais não serão transmitidas ou disponibilizadas posteriormente" | ficha 657 | alta |
 | S10 | A coordenação também coordena 68609 (Goiânia) e 359 (Locorregional) e aparece em 68607; o Dr. Alessandro Martins coordena também 352 e 68623 | autoridade-docente-pos, seção 0.2; fichas 68607 e 359 | alta (fichas) |
 | S11 | A Ufape tem a maior família de anestesia do catálogo: Pós em Anestesiologia Veterinária (68607 SP, turma X, iniciada; 68609 Goiânia, turma VIII, aberta; 664 Goiânia, sem venda), 586 EAD (iniciada), 554 Dor e Cuidados Paliativos (iniciada), 359 Locorregional (turma I, 22/05/2027), 352 Ventilação Mecânica (turma I, 24/05/2027); Livres 488, 131, 483, 507, 602, 616, 68618, 644 e outros; Workshop Brasileiro de Neuromonitorização (20 e 21/11/2026) | catálogo, seções 2, 4, 5, 7 e 9 | alta |
@@ -89,7 +89,7 @@ Moldura: plano da Gastro, seção 1 [MOLDURA] (objetivo, métrica, meta, valor m
 | S16 | Termo principal "pós-graduação em anestesiologia avançada veterinária": volume baixo, facilidade alta [SUPOSIÇÃO de volume, sem ferramenta] | pesquisa-de-palavras-chave-pos, K1.3 | [SUPOSIÇÃO] |
 | S17 | Um código de conduta do anestesiologista publicado pelo CRMV-SP em 2021, feito com o Colégio Brasileiro de Anestesiologia Veterinária (CBAV), diria que o CBAV é a entidade habilitada para conceder o título de especialista na área | resumo de busca de 29/10/2026; o documento não abriu (erro 503): [CRMV-SP, código de conduta](https://homologacao.crmvsp.gov.br/wp-content/uploads/2021/08/05.08_Codigo-de-conduta-do-anestesiologista-reduzido.pdf) | baixa a média; [CONFIRMAR na fonte] |
 | S18 | A habilitação de entidades para conceder título de especialista é tratada hoje pela Resolução CFMV 1572/2023, que revogou a 935/2009 | resumo de busca de 29/10/2026: [Resolução CFMV 1572/2023 (LegisWeb)](https://www.legisweb.com.br/legislacao/?id=462891) | média; [CONFIRMAR no texto da resolução] |
-| S19 | O RECOVER é um programa sem fins lucrativos ligado ao ACVECC e à VECCS, de educação e diretrizes de reanimação veterinária, com instrutores certificados | [RECOVER Initiative, sobre](https://recoverinitiative.org/about-us/) | média |
+| S19 | O RECOVER é um programa sem fins lucrativos ligado ao ACVECC e à VECCS, de educação e diretrizes de reanimação veterinária, com instrutores certificados | resumo de busca de 29/10/2026 (página não aberta nesta rodada): [RECOVER Initiative, sobre](https://recoverinitiative.org/about-us/) | média; [CONFIRMAR na fonte] |
 | S20 | Existe um congresso brasileiro de anestesia intravenosa total (II CBTIVA, junho de 2025, Curitiba), organizado pela Abrativa segundo o resumo de busca | resumo de busca de 29/10/2026; página de pagamento do evento: [CBTIVA 2025](https://www.asaas.com/c/83dqe68v9fe6xj0o) | baixa; [CONFIRMAR na fonte oficial] |
 | S21 | Não há benchmark brasileiro confiável de custo por lead ou por matrícula em pós; o benchmark é a própria conta | benchmarks, seções 2 e 3 (via plano da Gastro, S17) | alta para a lacuna |
 
@@ -104,12 +104,12 @@ Moldura: plano da Gastro, seção 1 [MOLDURA] (objetivo, métrica, meta, valor m
 | N5 | Idioma e formato das aulas dos 8 docentes de fora do Brasil (ao vivo, gravada, tradução) | é um diferencial forte que hoje não pode ir para peça | coordenação |
 | N6 | Quem é o instrutor RECOVER do módulo 10 e se a marca pode ser citada | prova de autoridade que depende de regra de uso de marca | coordenação e Ufape |
 | N7 | O que o convite "prova de Especialista em Anestesiologia" da página quer dizer e para onde leva | risco de ler a Pós como caminho de título; a squad não usa | Ufape e regulação |
-| N8 | Relação da Ufape com a APAV (o CEO é presidente da APAV, conforme o site) e com o Instituto PAV | define se há parceiro da casa no círculo C7 ou conflito | Ufape |
-| N9 | Regra de desconto de ex-aluno de pós (PR6) | é a oferta natural do próximo degrau (T1) | Ufape |
+| N8 | Relação da Ufape com a APAV (o CEO é presidente da APAV segundo contexto/ufape-geral.md, que cita o site; a squad não abriu o site nesta rodada) e com o Instituto PAV | define se há parceiro da casa no círculo C7 ou conflito | Ufape |
+| N9 | Condição completa do desconto de 20% de aluno e ex-aluno de Pós (decisão 28 (a)): sobre o que incide, acúmulo com bolsa, prazo e comprovação | é a oferta natural do próximo degrau (T1); sem a condição completa no catálogo, nenhuma peça cita o desconto | Ufape |
 | N10 | Data e número da turma III | sem isso, o H2 não tem chamada de compra | Ufape |
 | N11 | Se a Ufape Clínica tem serviço de anestesia e recebe anestesistas volantes | se sim, é rede própria de anestesistas | Ufape |
 | N12 | Horas do time, quem grava, revisor docente, aprovadores; canal de YouTube, página de LinkedIn | define quantos canais cabem | Ufape (U8, tabela de aprovação vazia) |
-| N13 | Base legal registrada para usar a base em marketing e em listas de anúncio | sem ela, nenhum envio e nenhum público por lista | encarregado de dados |
+| N13 | Registro escrito do consentimento da base para novas oportunidades e do uso em listas de anúncio (decisão 28 (b): o consentimento existe e a base já é trabalhada por mídia paga) [CONFIRMAR com o encarregado] | documenta o que já se faz; a base pode ser usada em envio e em público por lista | encarregado de dados |
 
 ---
 
@@ -122,12 +122,12 @@ Moldura: plano da Gastro, seção 3 [MOLDURA] (regra dos círculos, L1 a L8, tab
 | Círculo | Quem é, em 657 | Por que importa | Dado que falta |
 |---|---|---|---|
 | C1 | egressos da turma I da Pós-graduação em Anestesiologia Avançada | é a única turma anterior do próprio curso; prova e indicação | se a turma I já concluiu (com 18 módulos, pode ainda estar em curso; nesse caso o grupo é C3 e só indica, sem oferta) e quantos têm consentimento (N2) |
-| C2 | compradores dos produtos de anestesia em Livres e Eventos: 488 (preparatório para a prova de título, online), 131 (aprimoramento em anestesiologia aplicada, online), 483 (mini curso), 507 (ventilação mecânica básica, gravado), 602 (cálculo de bolus e infusão contínua), 616 (imersão em anestesia felina), 68618 (ventilação mecânica aplicada à anestesia), 644 (grupo de estudo em anestesiologia), compradores do Workshop Brasileiro de Neuromonitorização; e, por tema de módulo, 655 e 107 (hemogasometria), 106 (transfusão) e 202 (simpósio de coagulação, gravado) | quem comprou conteúdo avançado de anestesia já se declarou da área; vários temas batem com módulos da 657 (ventilação, TCI, felinos, coagulação, monitoração neurológica) | tamanho e consentimento (N1); quem é formado e atuante. 477, 617, 592, 593 e 605 estão em "verificar" ou "sem venda" e não recebem link de compra |
+| C2 | compradores dos produtos de anestesia em Livres e Eventos: 488 (preparatório para a prova de título, online), 131 (aprimoramento em anestesiologia aplicada, online), 483 (mini curso), 507 (ventilação mecânica básica, gravado), 602 (cálculo de bolus e infusão contínua), 616 (imersão em anestesia felina), 68618 (ventilação mecânica aplicada à anestesia), 644 (grupo de estudo em anestesiologia), compradores do Workshop Brasileiro de Neuromonitorização; e, por tema de módulo, 655 e 107 (hemogasometria), 106 (transfusão), 202 (simpósio de coagulação, gravado) e 102 (controle da dor, ligado ao módulo 5) | quem comprou conteúdo avançado de anestesia já se declarou da área; vários temas batem com módulos da 657 (ventilação, TCI, felinos, coagulação, monitoração neurológica) | tamanho e consentimento (N1); quem é formado e atuante. 477, 617, 592, 593 e 605 estão em "verificar" ou "sem venda" e não recebem link de compra |
 | C3 | alunos atuais de 68607 (turma X, iniciada em 24/10/2026), 586 (EAD, iniciada) e 554 (Dor e Cuidados Paliativos, iniciada); e, quando cada turma começar, 68609, 359 e 352 | conhecem a coordenação e a área; indicam colegas | regra da Ufape para comunicar com aluno em curso. Nunca oferta de segunda Pós durante o curso (relacionamento, 1.3) |
-| C4 | **egressos da Pós-graduação em Anestesiologia Veterinária** (turmas anteriores de São Paulo, que está na turma X, e de Goiânia, que está na VIII) e egressos de Terapia Intensiva e Emergência, Cirurgia Cardiorrespiratória e Ventilação, por interesse declarado | é o público mais próximo do "anestesista já atuante": o curso é o degrau seguinte da formação que eles já fizeram na Ufape [SUPOSIÇÃO] | quantos, com consentimento (N1); interesse declarado por área no CRM; regra de ex-aluno (N9) |
+| C4 | **egressos da Pós-graduação em Anestesiologia Veterinária** (turmas anteriores de São Paulo, que está na turma X, e de Goiânia, que está na VIII) e egressos de Terapia Intensiva e Emergência e de Cirurgia Cardiorrespiratória (se a turma I de 659 já tiver concluído), por interesse declarado; a Pós-graduação em Ventilação Mecânica (352) ainda não tem egressos (turma I, início em 24/05/2027) | é o público mais próximo do "anestesista já atuante": o curso é o degrau seguinte da formação que eles já fizeram na Ufape [SUPOSIÇÃO] | quantos, com consentimento (N1); interesse declarado por área no CRM; regra de ex-aluno (N9) |
 | C5 | alunos da Graduação em Medicina Veterinária em São Paulo | quase nulo para 657: o curso pede anestesista atuante. Só comunicação institucional, como na moldura | nada a pedir além do N11 da Gastro |
-| C6 | Dra. Mayara Travalini de Lima e Dr. Alessandro Martins (coordenação) e os 16 demais professores da ficha, 8 deles de fora do Brasil | a coordenação ensina em toda a família de anestesia da Ufape (S10); os docentes de fora ampliam alcance para quem acompanha a literatura internacional [SUPOSIÇÃO] | homonímia com o CEO (N4); idioma (N5); quais docentes têm perfil ativo e aceitam publicar |
-| C7 | entidades da especialidade (CBAV, S17 e S18; Abrativa e o congresso de TIVA, S20), RECOVER (S19, só se a regra de marca permitir), hospitais e clínicas com serviço de anestesia (equipes de anestesia volante [SUPOSIÇÃO]), Ufape Clínica (N11), indústria de equipamentos (monitores, ventiladores, bombas de infusão) e de fármacos anestésicos, CRMV-SP (só pauta técnica e institucional) | levam a Ufape a anestesistas fora da base | todas as entidades com [CONFIRMAR]; relação com a APAV e o Instituto PAV (N8) |
+| C6 | Dra. Mayara Travalini de Lima e Dr. Alessandro Martins (coordenação) e os 16 demais professores da ficha, 8 deles de fora do Brasil | a coordenação está em várias Pós de anestesia da Ufape (fichas 68607, 68609, 586 e 359; o Dr. Alessandro Martins também em 352), mas não na 554, que tem outra coordenação (S10; fichas); os docentes de fora ampliam alcance para quem acompanha a literatura internacional [SUPOSIÇÃO] | se o coordenador é o CEO (N4); idioma (N5); quais docentes têm perfil ativo e aceitam publicar |
+| C7 | entidades da especialidade (CBAV, S17 e S18; Abrativa e o congresso de TIVA, S20), RECOVER (S19, só se a regra de marca permitir), Ufape Clínica (N11) (hospitais, clínicas e indústria ficam fora como parceiros, decisão 28 (d)), CRMV-SP (só pauta técnica e institucional) | levam a Ufape a anestesistas fora da base | todas as entidades com [CONFIRMAR]; relação com a APAV e o Instituto PAV (N8) |
 | C8 | ex-alunos e alunos de C1 a C4 indicando colegas anestesistas | anestesista trabalha em equipe e em várias clínicas [SUPOSIÇÃO]: indicação circula entre pares | benefício e regra (UD1); quem pode indicar (D-N3 do relacionamento) |
 | C9 | anestesistas que nunca ouviram falar da Ufape, sobretudo em São Paulo e nos estados que viajam para os módulos presenciais | pequeno e difícil de segmentar sem lista; chega por busca de cauda técnica, por IA e por conteúdo de docente | volumes de busca [CONFIRMAR no Planejador do Google Ads] |
 
@@ -137,7 +137,7 @@ Moldura: plano da Gastro, seção 3 [MOLDURA] (regra dos círculos, L1 a L8, tab
 
 ## 4. Mapa de canais (capilaridade)
 
-Moldura: plano da Gastro, seção 4 [MOLDURA] (24 canais, status, critérios e departamentos). Os status não mudam para 657: 13 ativos (o YouTube com condição), 8 em teste e 3 fora. Abaixo, só o que muda.
+Moldura: plano da Gastro, seção 4 [MOLDURA] (24 canais, status, critérios e departamentos). Pela decisão 28 (d), o canal 21 (parceiros) sai do plano: para 657 ficam 13 ativos (o YouTube com condição), 7 em teste e 4 fora. Abaixo, só o que muda.
 
 ### [ANESTESIOLOGIA AVANÇADA]
 
@@ -152,7 +152,8 @@ Moldura: plano da Gastro, seção 4 [MOLDURA] (24 canais, status, critérios e d
 | 16. Google Ads | volume baixo (S16). Três cursos da família disputam termos parecidos (657, 359, 352): proposta de regra para o gestor-de-midia, em que cada termo tem um único curso de destino, e "ventilação mecânica" e "locorregional" puros vão para 352 e 359 [SUPOSIÇÃO de desenho] |
 | 18. Comunidades | o grupo de estudo 644 (anestesiologia, contínuo) é a comunidade paga da área que já existe; formato e regra de uso para divulgação da Pós [CONFIRMAR] |
 | 19. Eventos e aulas abertas | o cronograma de 657 não tem "aula aberta" (diferente da 68606). Sessão aberta seria formato novo (UD3). O Workshop Brasileiro de Neuromonitorização é evento da casa com público de anestesia |
-| 21 a 23. Parceiros, imprensa, congressos | CBAV, Abrativa e o congresso de TIVA, RECOVER (com regra de marca), equipes de anestesia de hospitais; seção de distribuição abaixo |
+| 21. Parceiros | fora (decisão 28 (d): parceiros, na prática, são empresas, e o canal sai do plano) |
+| 22 e 23. Imprensa e congressos | CBAV, Abrativa e o congresso de TIVA como pauta técnica e presença em eventos da especialidade, todos [CONFIRMAR]; RECOVER só como dado do módulo 10, com regra de marca; seção de distribuição abaixo |
 
 ---
 
@@ -163,8 +164,8 @@ Moldura: plano da Gastro, seção 5 [MOLDURA] (quadro de papéis, cinco ligaçõ
 ### [ANESTESIOLOGIA AVANÇADA]
 
 - **H1 (turma II em captação):** o plano de mídia da 657 já existe e espera aprovação humana (onda 2: R$ 2.000,00 divididos em Meta R$ 1.250,75 e Google R$ 749,25; 85% até o corte e 15% na extensão até a véspera do 3º módulo; subida só com PP7, que depende do U10). Este plano não mexe nisso. Acrescenta as regras das ligações: o criativo frio sai do orgânico que provou (ligação 1) e o remarketing recolhe quem engajou com conteúdo de anestesia (ligação 2).
-- **Diferença de papel em relação à Gastro:** com público restrito, o frio da Meta tem pouco a achar [SUPOSIÇÃO]. A paga pesa mais no remarketing de visitantes das páginas de anestesia da Ufape (Pós e Livres abertos) e na busca de cauda técnica do que no frio amplo. A leitura semanal decide se o frio continua.
-- **H2 (entre turmas):** sem turma III no catálogo, paga zero, salvo verba nova aprovada (UD7). A orgânica e a base carregam o curso.
+- **Diferença de papel em relação à Gastro:** com público restrito, o frio da Meta tem pouco a achar [SUPOSIÇÃO]. A paga pesa mais no remarketing de visitantes das páginas de anestesia da Ufape (Pós e Livres abertos, sem a página do 488, pela regra da seção 11) e na busca de cauda técnica do que no frio amplo. A leitura semanal decide se o frio continua.
+- **H2 (entre turmas):** a turma III abre normalmente 3 a 4 meses depois da confirmação da turma II (decisão 28 (e)) [CONFIRMAR]; até ela entrar no catálogo, paga zero, salvo verba nova aprovada (UD7). A orgânica e a base carregam o curso.
 - **Fonte de criativo:** coordenação e docentes, temas do cronograma (sem paciente identificável), cortes do UFAPE Cast. Docentes de fora do Brasil só depois de N5 (idioma) e do aceite de cada um.
 
 ---
@@ -177,20 +178,20 @@ Moldura: plano da Gastro, seção 6 [MOLDURA] (catálogo F1 a F16, escalas de es
 
 | # | Formato | Por que serve a 657 | Esforço | Impacto [SUPOSIÇÃO] |
 |---|---|---|---|---|
-| F1 | Programa de indicação | anestesista trabalha em rede de pares e em várias clínicas [SUPOSIÇÃO]; C3 e C4 grandes na família de anestesia | baixo | alto |
+| F1 | Programa de indicação | anestesista trabalha em rede de pares e em várias clínicas [SUPOSIÇÃO]; C3 e C4 potencialmente grandes na família de anestesia (tamanho [CONFIRMAR], N1) | baixo | alto |
 | F2 | Caso clínico ao vivo com a coordenação | discussão de crise anestésica (instabilidade hemodinâmica, ventilação difícil) é o centro do cronograma; não há aula aberta na ficha, então é formato novo | médio | alto |
-| F3 | Comunidade de ex-alunos | comunidade de anestesistas egressos de toda a família, não só de 657 | médio | médio |
+| F3 | Comunidade de ex-alunos | o grupo de estudo 644 (anestesiologia) já existe e serve de comunidade (decisão 28 (g)); não criar comunidade nova | baixo | médio |
 | F4 | Trilha da área | aqui a trilha é vertical: do curso livre ou da Pós em Anestesiologia Veterinária para a Avançada e para as Pós temáticas (Locorregional, Ventilação) | baixo | alto |
 | F5 | Conteúdo com docentes em parceria | 18 docentes, 8 de fora do Brasil; série "como o colega decide" com temas de módulo | médio | médio a alto |
-| F6 | Anúncio de líder de opinião | coordenação como mídia, se aceitar; mesmo cuidado da homonímia (N4) | médio | médio |
-| F7 | Co-marketing com parceiros | indústria de monitores, ventiladores e bombas de infusão conversa com TCI, hemodinâmica e ventilação | alto | médio |
+| F6 | Anúncio de líder de opinião | coordenação como mídia, se aceitar; mesmo cuidado enquanto não se sabe se o coordenador é o CEO (N4) | médio | médio |
+| F7 | Co-marketing com parceiros | fora: parceiros são empresas e o canal sai do plano (decisão 28 (d)) | - | - |
 | F8 | Presença em eventos da área | entidade e congressos da especialidade existem (S17, S20) | alto | médio |
 | F9 | Conteúdo para busca por IA | perguntas de nível e pré-requisito (Q1.4, Q1.5) na página da área | médio | médio |
 | F10 | Lista de espera | quem não fechar a turma II e quem ainda não tem o pré-requisito vão para a lista da turma III | baixo | alto para a turma seguinte |
 | F11 | Material de referência (isca) | guia de decisão da área A1 já existe (iscas-digitais-pos, seção A1); falta só a ponte para 657 sem dizer quem pode entrar | médio | médio |
 | F12 | Caso da semana | crises e decisões de monitoração rendem quiz técnico; conduta e dose só do docente | baixo | médio |
 | F13 | Episódios temáticos do UFAPE Cast | crise anestésica, ventilação, TCI; convidado docente | médio | médio |
-| F14 | Rede de clínicas parceiras | menos forte aqui: o estágio é "opcional" e pode ser substituído (ficha); o vínculo útil é com equipes de anestesia | médio | baixo a médio |
+| F14 | Rede de clínicas parceiras | fora: clínicas parceiras são empresas e o canal de parceiros sai do plano (decisão 28 (d)) | - | - |
 | F15 | Evento próprio da área | o Workshop Brasileiro de Neuromonitorização mostra que a Ufape já faz evento de anestesia; uma edição de anestesia avançada é decisão da linha Eventos | alto | médio a alto |
 | F16 | Encaminhamento clínico | depende de a Ufape Clínica ter serviço de anestesia que receba colegas (N11) | médio | baixo a médio |
 
@@ -200,8 +201,8 @@ Moldura: plano da Gastro, seção 6 [MOLDURA] (catálogo F1 a F16, escalas de es
 |---|---|---|---|
 | **Impacto alto** | F1 indicação; F4 trilha vertical; F10 lista de espera | F2 crise ao vivo | |
 | **Impacto médio a alto** | | F5 docentes em parceria | F15 evento próprio |
-| **Impacto médio** | F12 caso da semana | F3 comunidade; F6 líder de opinião; F9 busca por IA; F11 isca; F13 podcast temático | F7 co-marketing; F8 eventos externos |
-| **Impacto baixo a médio** | | F14 clínicas; F16 encaminhamento | |
+| **Impacto médio** | F12 caso da semana; F3 comunidade (grupo de estudo 644, já existe) | F6 líder de opinião; F9 busca por IA; F11 isca; F13 podcast temático | F8 eventos externos (F7 fora, decisão 28) |
+| **Impacto baixo a médio** | | F16 encaminhamento (F14 fora, decisão 28) | |
 
 Leitura: F10 é infraestrutura (sem lista, o que não fecha se perde). F4 sobe de "médio a alto" na Gastro para "alto" aqui, porque a família de anestesia da Ufape é a maior do catálogo e o curso é degrau de quem já fez a Pós de base.
 
@@ -209,7 +210,7 @@ Leitura: F10 é infraestrutura (sem lista, o que não fecha se perde). F4 sobe d
 
 | Teste | Formato | Hipótese | Círculos | O que medir (sem meta antes da linha de base) | Como desfazer |
 |---|---|---|---|---|---|
-| T1 | F4 com F10: próximo degrau para egressos de anestesia | egressos da Pós em Anestesiologia Veterinária (SP e Goiânia) e compradores de 488, 131 e 644 fecham mais que o lead frio quando recebem a carta da área e um convite específico de 657 [SUPOSIÇÃO] | C2, C4 | matrículas com origem "egresso de anestesia" e "comprador da área"; taxa de fechamento contra o lead pago, na mesma turma; SAIR e descadastros por envio | parar a carta e o convite no CRM; nada é prometido ao contato |
+| T1 | F4 com F10: próximo degrau para egressos de anestesia | egressos da Pós em Anestesiologia Veterinária (SP e Goiânia) e compradores de 131 e 644 (os de 488 recebem só conteúdo, sem convite de 657, pela regra da seção 11) fecham mais que o lead frio quando recebem a carta da área e um convite específico de 657 [SUPOSIÇÃO] | C2, C4 | matrículas com origem "egresso de anestesia" e "comprador da área"; taxa de fechamento contra o lead pago, na mesma turma; SAIR e descadastros por envio | parar a carta e o convite no CRM; nada é prometido ao contato |
 | T2 | F2: crise anestésica ao vivo com a coordenação | uma discussão de caso de alto risco, aberta à base de anestesia, gera conversas de venda e consentimentos novos, e a gravação abastece podcast, cortes e busca | C1 a C4, C9 (via paga e parceiros) | inscritos, presentes, consentimentos novos, conversas no WhatsApp de vendas com origem "evento", cortes produzidos | não repetir; gravação só com aprovação |
 | T3 | F1: indicação entre anestesistas | colegas indicados por quem já estudou anestesia na Ufape fecham mais que o lead pago [SUPOSIÇÃO] | C1, C3, C4, C8 | indicações, indicados que viram inscrição e matrícula, comparação com o lead pago por turma | encerrar por comunicado, honrando o que já foi concedido dentro da regra |
 
@@ -239,8 +240,8 @@ Moldura: plano da Gastro, seção 8 (UD1 a UD8, UN1 a UN7, UA1 a UA4, PA1 a PA5)
 
 | # | Decisão | Por que | Bloqueia |
 |---|---|---|---|
-| UD1 | Benefício, regra, prazo e quem paga na indicação | sem regra escrita, não há programa (CDC) | T3 |
-| UD2 | Regra de desconto de aluno e ex-aluno de pós (PR6) | oferta do próximo degrau | T1 |
+| UD1 | Se a indicação terá algum reconhecimento ao indicador, com que regra, prazo e quem paga; sem desconto para o indicado (decisão 28 (c)) | sem regra escrita, não há programa (CDC) | T3 |
+| UD2 | Condição completa do desconto de 20% de aluno e ex-aluno de Pós (decisão 28 (a)): incidência (mensalidades, inscrição), acúmulo com bolsa, prazo e comprovação | o desconto existe; a peça precisa da condição completa (CDC) | T1 em peça |
 | UD3 | Abrir sessão ao vivo a não alunos; regra de gravação | 657 não tem aula aberta no cronograma | T2 |
 | UD5 | Página da área de Anestesiologia com "avise-me" | canal 2, F9, F10 | H2 |
 | UD6 | Anúncio pelo perfil do docente, dentro da verba da turma | F6 | quarto teste |
@@ -255,11 +256,11 @@ Moldura: plano da Gastro, seção 8 (UD1 a UD8, UN1 a UN7, UA1 a UA4, PA1 a PA5)
 - UN1. Tamanho de cada círculo, com foco em C2 e C4 de anestesia, e quantos têm consentimento de e-mail e de WhatsApp.
 - UN2. Origem das matrículas da turma I de 657 e das turmas recentes da Pós em Anestesiologia Veterinária.
 - UN3. Data e número da turma III de 657.
-- UN4. Parceiros e patrocinadores; se a Ufape Clínica tem serviço de anestesia que receba colegas (N11); relação com APAV e Instituto PAV (N8).
+- UN4. Se a Ufape Clínica tem serviço de anestesia que receba colegas (N11); relação com APAV e Instituto PAV (N8).
 - UN7. Horas do time, quem grava e edita, revisor docente nomeado.
 - AV4. Situação da turma I (concluída ou em curso) (N2).
 - AV5. Idioma e formato das aulas dos docentes de fora do Brasil (N5); quem é o instrutor RECOVER e a regra de uso da marca (N6).
-- AV6. Homonímia do Dr. Alessandro Martins com o CEO (N4).
+- AV6. Se o Dr. Alessandro Martins da ficha é o CEO da Ufape (nomes compatíveis, não idênticos) (N4).
 
 ### 8.3 Acessos (pela própria Ufape, sem chave no chat)
 
@@ -271,7 +272,7 @@ UA1 a UA4 como na moldura (CRM e ferramentas de envio; Search Console, analytics
 - Pauta técnica do T2 e do podcast com a coordenação, com revisão docente (04, 05, 12).
 - Proposta da página da área de Anestesiologia no formato do template, para a Ufape publicar (08 e 03).
 - Lista de termos por curso da família, sem disputa interna no Google Ads (03 e 11).
-- Mapa de parceiros com fonte e proposta de regra da indicação (06 e 07).
+- Mapa de entidades da especialidade com fonte, só para pauta e eventos (decisão 28 (d)), e proposta de regra da indicação sem desconto para o indicado (06 e 07).
 
 ### 8.5 Pedidos de aprovação humana (nada roda antes)
 
@@ -281,7 +282,7 @@ UA1 a UA4 como na moldura (CRM e ferramentas de envio; Search Console, analytics
 | PA-AV2 | Aprovar o desenho do T1 (carta e convite para egressos de anestesia) | círculo mais próximo do público da ficha | sem custo de mídia; horas do time [CONFIRMAR] | matrículas com origem em egressos | pausar a carta e o convite no CRM |
 | PA-AV3 | Aprovar o convite à coordenação para o T2 | 657 não tem aula aberta; é a matéria-prima que falta | horas da coordenação [CONFIRMAR] | base nova e conversas de venda | não repetir; gravação não publicada |
 | PA-AV4 | Aprovar o T3 para a squad escrever a proposta de regra da indicação | rede de pares, custo baixo | benefício [UD1] | indicações medidas por turma | encerrar por comunicado, honrando o concedido |
-| PA-AV5 | Autorizar o pedido formal dos dados UN1 a UN7, AV4 a AV6 e dos acessos UA1 a UA4, e as decisões AV1 a AV3 | sem eles não há medição por círculo nem mídia (PP7) | sem custo direto | linha de base em 4 semanas | não se aplica |
+| PA-AV5 | Autorizar o pedido formal dos dados UN1 a UN4, UN7, AV4 a AV6 e dos acessos UA1 a UA4, e as decisões AV1 a AV3 | sem eles não há medição por círculo nem mídia (PP7) | sem custo direto | linha de base em 4 semanas | não se aplica |
 
 ---
 
@@ -292,7 +293,7 @@ UA1 a UA4 como na moldura (CRM e ferramentas de envio; Search Console, analytics
 | Turma I (sem C1) | não: é turma II. Mas o C1 é pequeno e pode ainda estar em curso (AV4) | se a turma I não concluiu, tratar como C3 (só indicação e conteúdo) e reforçar C2, C4 e C6, como a moldura manda para turma I |
 | Goiânia (outra praça) | não: turma em São Paulo | os egressos da Pós em Anestesiologia Veterinária de Goiânia entram em C4 com a objeção de viagem (persona P2): mostrar só o que a ficha prova (módulos 1 a 3 online, 6 presenciais em São Paulo); parceiros e cauda de busca seguem os de São Paulo |
 | Público diferente | **sim, é o ponto central** | persona refeita (anestesista atuante, S1 e S2); mapa de canais com LinkedIn de docente mais pesado; frio pequeno; meta apoiada em base e indicação; pré-requisito (AV1) antes de qualquer peça dizer quem entra |
-| Promoção no catálogo | não: 657 não tem promoção | nenhuma peça cita desconto; desconto de ex-aluno só com regra (UD2) |
+| Promoção no catálogo | não: 657 não tem promoção no catálogo; existe o desconto de 20% para aluno e ex-aluno de Pós (decisão 28 (a)) | nenhuma peça cita o desconto até a condição completa estar escrita e no catálogo [CONFIRMAR NO CATÁLOGO] (UD2) |
 | Turma que já começou | ainda não (início em 13/03/2027) | do início até a véspera do 3º módulo, toda peça que fala de entrada diz a regra completa (decisão 18; regra 7 da onda 2); depois disso, a turma sai das listas e o lead vai para a lista de espera (F10) com consentimento |
 
 ---
@@ -306,7 +307,7 @@ Moldura: saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-po
 | Círculo | 657 | Particularidade |
 |---|---|---|
 | C1 | egressos da turma I | só se a turma concluiu (AV4); se não, entram como C3 |
-| C2 | compradores de 488, 131, 483, 507, 602, 616, 68618, 644 e do Workshop Brasileiro de Neuromonitorização (e, por tema, 655, 107, 106, 202) | peças novas de Livres seguem suspensas (decisão 14): a ponte é de conteúdo, sem link de compra de Livres; sem crédito, combo ou desconto da ponte (D7) |
+| C2 | compradores de 488, 131, 483, 507, 602, 616, 68618, 644 e do Workshop Brasileiro de Neuromonitorização (e, por tema, 655, 107, 106, 202 e 102) | peças novas de Livres seguem suspensas (decisão 14): a ponte é de conteúdo, sem link de compra de Livres; sem crédito, combo ou desconto da ponte (D7) |
 | C3 | alunos de 68607, 586 e 554; 68609, 359 e 352 quando começarem | conteúdo e indicação; nunca oferta de 657 durante o curso deles |
 | C4 | egressos da Pós em Anestesiologia Veterinária (SP e Goiânia) e de áreas vizinhas com interesse declarado | é o segmento do T1 |
 | C5 | Graduação | só institucional; sem campanha de 657 |
@@ -319,7 +320,7 @@ Moldura: saidas/07-email-whatsapp-relacionamento/estrategia-de-relacionamento-po
 | Lista de espera | recebe quem não fechar a turma II depois da janela (até o 3º módulo) e quem ainda não cumpre o pré-requisito, quando a regra existir; sem data e sem chamada de compra até a turma III entrar no catálogo |
 | Carta da área | uma carta de Anestesiologia para toda a família (657, 359, 352, 68609 e a de São Paulo quando abrir), não uma carta por curso, para não estourar o teto D16 de quem está em vários segmentos [SUPOSIÇÃO de desenho]. Pauta: temas de módulo (crise hemodinâmica, ventilação, TCI, dor em felinos), revisada por docente |
 | Convite ao T2 | sessão com a coordenação sobre um tema de módulo; depende de UD3 |
-| Indicação (T3) | indicadores de C1, C3 e C4 de anestesia; indicado precisa ser anestesista atuante pela regra AV1; benefício só com UD1 |
+| Indicação (T3) | indicadores de C1, C3 e C4 de anestesia; indicado precisa ser anestesista atuante pela regra AV1; sem desconto para o indicado (decisão 28 (c)); reconhecimento ao indicador só com UD1 |
 
 **Cuidado que não existe na Gastro:** três cursos da família (657, 359, 352) disputam o mesmo contato em datas próximas. Vale a fila D2 (vence a data de início mais próxima; o suprimido não acumula) e a decisão AV3.
 
@@ -342,25 +343,25 @@ Moldura: saidas/06-geracao-de-demanda/distribuicao-pos-2026-10-29.md, seções 1
 | Ordem | Cadeia | Por quê |
 |---|---|---|
 | 1 | A (sessão ao vivo, T2) | é a matéria-prima que falta e a que mais rende |
-| 2 | C (conteúdo de docente) | coordenação forte em toda a família de anestesia |
+| 2 | C (conteúdo de docente) | coordenação presente em várias Pós de anestesia (seção 3, C6) |
 | 3 | B (podcast) | decisão 21; coordenação como convidada |
 | 4 | D (pergunta do clínico) | volume baixo, mas a pergunta de nível e pré-requisito é a dúvida central |
 | 5 | E (caso do cronograma) | baixo esforço |
-| 6 | G (parceiro e evento) | depende de acordo e de N8 |
+| 6 | G (evento externo; parceiros fora pela decisão 28 (d)) | depende de agenda e de N8 |
 | 7 | F (prova do egresso) | depende de AV4 e de autorização |
 
-**Parceiros com nome e fonte (todos [CONFIRMAR]; nenhum foi contatado)**
+**Entidades e organizações citadas, com fonte (todas [CONFIRMAR]; nenhuma foi contatada). O canal de parceiros sai do plano (decisão 28 (d)); entidades da especialidade ficam só como pauta técnica e presença em eventos**
 
 | Entidade | Tipo | O que a fonte diz | Fonte | Leitura da squad |
 |---|---|---|---|---|
-| Colégio Brasileiro de Anestesiologia Veterinária (CBAV) | P3 | entidade da especialidade; segundo resumo de busca, o código de conduta do CRMV-SP de 2021 a aponta como habilitada para o título de especialista | [CRMV-SP, código de conduta](https://homologacao.crmvsp.gov.br/wp-content/uploads/2021/08/05.08_Codigo-de-conduta-do-anestesiologista-reduzido.pdf) (não abriu, erro 503) e [Resolução CFMV 1572/2023](https://www.legisweb.com.br/legislacao/?id=462891) | parceiro de pauta técnica e presença; nenhuma peça liga a Pós ao título da entidade. [CONFIRMAR site oficial, regras de divulgação e agenda] |
+| Colégio Brasileiro de Anestesiologia Veterinária (CBAV) | P3 | entidade da especialidade; segundo resumo de busca, o código de conduta do CRMV-SP de 2021 a aponta como habilitada para o título de especialista | [CRMV-SP, código de conduta](https://homologacao.crmvsp.gov.br/wp-content/uploads/2021/08/05.08_Codigo-de-conduta-do-anestesiologista-reduzido.pdf) (não abriu, erro 503). A [Resolução CFMV 1572/2023](https://www.legisweb.com.br/legislacao/?id=462891) (S18, resumo de busca) é a norma geral de habilitação de entidades e não é fonte do nome do CBAV | parceiro de pauta técnica e presença; nenhuma peça liga a Pós ao título da entidade. [CONFIRMAR site oficial, regras de divulgação e agenda] |
 | Abrativa e o Congresso Brasileiro de Anestesia Intravenosa Total (CBTIVA) | P3 e P6 | II CBTIVA em junho de 2025, Curitiba, organizado pela Abrativa segundo o resumo de busca | [página de pagamento do CBTIVA 2025](https://www.asaas.com/c/83dqe68v9fe6xj0o) | liga com TIVA e TCI (módulos 1 e 13). Confiança baixa. [CONFIRMAR entidade, próxima edição e se é veterinária ou humana] |
-| RECOVER Initiative | P3 (marca de conteúdo) | programa ligado ao ACVECC e à VECCS, com instrutores certificados | [RECOVER, sobre](https://recoverinitiative.org/about-us/) | a ficha cita "instrutor RECOVER" no módulo 10; uso da marca em peça só com regra (N6) |
-| APAV e Instituto PAV | P1 ou conflito | o CEO da Ufape é presidente da APAV (ufape-geral.md); o PAV aparece com cursos de dor (concorrência, nota do C-1) | contexto/ufape-geral.md; inteligencia-concorrencia-pos | possível parceiro da casa ou conflito de interesse; nada antes de N8 |
+| RECOVER Initiative | P3 (marca de conteúdo) | segundo resumo de busca, programa ligado ao ACVECC e à VECCS, com instrutores certificados [CONFIRMAR na fonte] | [RECOVER, sobre](https://recoverinitiative.org/about-us/) (página não aberta nesta rodada) | a ficha cita "instrutor RECOVER" no módulo 10; uso da marca em peça só com regra (N6) |
+| APAV e Instituto PAV | P1 ou conflito | o CEO da Ufape é presidente da APAV (ufape-geral.md); o PAV aparece com cursos de dor (inteligencia-concorrencia-pos, nota sobre o Instituto PAV depois da tabela da seção 1, que trata o vínculo com a Ufape como [SUPOSIÇÃO] e [CONFIRMAR]) | contexto/ufape-geral.md; inteligencia-concorrencia-pos | possível parceiro da casa ou conflito de interesse; nada antes de N8 |
 | CRMV-SP | P5 | publicou material sobre a conduta do anestesiologista com o CBAV (resumo de busca) | idem CBAV | só pauta técnica e institucional |
 | Anclivepa-SP | P4 | tem anestesiologia geral no edital de 2027 | inteligencia-concorrencia-pos, A1 | concorrente da Pós de base; evento onde estar, não co-marketing [SUPOSIÇÃO] |
-| Equipes de anestesia de hospitais e clínicas | P2 | sem lista | [CONFIRMAR com a coordenação] | divulgam o convite do T2 aos anestesistas da equipe, com UTM, sem lista (L4) |
-| Indústria de monitores, ventiladores, bombas de infusão e fármacos | P7 | sem lista | [CONFIRMAR] | co-marketing só com contrato e revisão docente |
+| Equipes de anestesia de hospitais e clínicas | P2 | sem lista | [CONFIRMAR com a coordenação] | fora como canal (decisão 28 (d)); o convite do T2 chega a essas equipes só pela base e pelos canais próprios |
+| Indústria de monitores, ventiladores, bombas de infusão e fármacos | P7 | sem lista | [CONFIRMAR] | fora (decisão 28 (d)) |
 
 **Trilha da área em 657 (vertical)**
 
@@ -387,11 +388,11 @@ Moldura: saidas/11-midia-paga/estrategia-de-midia-pos-2026-10-29.md, seções 1 
 | Verba | R$ 2.000,00 na turma II (decisão 15), divisão da onda 2 sem mudança: Meta R$ 1.250,75 e Google R$ 749,25; 85% até o corte, 15% na extensão |
 | Teto | R$ 66,67 por matrícula na meta de 30; R$ 133,33 para confirmar com 15 (decisão 27). CPL máximo pela fórmula da linha, recalculada pelo gestor com a meta de 30 [CONFIRMAR] |
 | Trava | subida só com PP7 (pré-requisito AV1) e página sem pendência (OB1) |
-| Meta (Instagram e Facebook) | ativo; peso no remarketing (PE1, PE3 com as páginas abertas de anestesia, PE4, PE5) e frio só com criativo provado no orgânico; idade mínima de 25 anos (decisão 24), leitura por faixa, sem característica pessoal |
+| Meta (Instagram e Facebook) | ativo; peso no remarketing (PE1, PE3 com as páginas abertas de anestesia, sem a página do 488, PE4, PE5) e frio só com criativo provado no orgânico; idade mínima de 25 anos (decisão 24), leitura por faixa, sem característica pessoal |
 | Google Busca | ativo; cauda técnica e marca; um destino por termo entre 657, 359 e 352 (seção 4); negativos de medicina humana ("anestesiologia" humana domina os resultados [SUPOSIÇÃO]), "residência", "gratuito", vaga de emprego |
 | YouTube pago, LinkedIn pago, PMax, TikTok, X | fora nesta verba (PP13 e PP14 da onda 2). LinkedIn pago é o primeiro a reavaliar se houver verba nova, pelo público [SUPOSIÇÃO] |
 | T3 pago da moldura (docente como mídia) | fica para depois de N4 e N5; se entrar, até 10% da verba, com a condição de volume da moldura |
-| Listas de clientes | fechadas até UA4; a base de egressos não sobe para Meta nem Google |
+| Listas de clientes | abertas pela decisão 28 (b): a Ufape tem consentimento da base para novas oportunidades e a trabalha por mídia paga [interpretação da squad, CONFIRMAR]. Egressos (C1, C4) e compradores da área (C2, sem o 488) podem virar público de anúncio, com exclusão de quem já se matriculou (PE7) e de alunos em curso (C3); registro do consentimento com o encarregado (UA4) |
 
 ---
 
@@ -433,7 +434,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 **1. capa**
 - Título: Divulgação contínua da **Pós-graduação em Anestesiologia Avançada**
 - Tópicos:
-  - Turma II, São Paulo
+  - Curso em São Paulo, turmas recorrentes
   - Início em 13/03/2027
   - Mídia paga e orgânica
   - Base de alunos e ex-alunos
@@ -479,7 +480,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
   - Turma I: concluída ou em curso
   - Tamanho da base de anestesia
   - Idioma das aulas internacionais
-  - Coordenador homônimo do CEO
+  - Se o coordenador é o CEO
   - Convite à prova de título na página
 - Nota: Sem a regra de entrada, nenhuma peça diz quem pode se matricular e a mídia não sobe.
 
@@ -502,7 +503,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
   - Turma I, se já concluiu
   - Compradores de cursos de anestesia
   - Alunos atuais da família de anestesia
-  - Coordenação presente em toda a família
+  - Coordenação presente em várias Pós de anestesia
   - Entidades da especialidade
   - Frio pequeno e técnico
 - Nota: Aqui o ex-aluno de outra Pós vale quase tanto quanto o ex-aluno do próprio curso.
@@ -515,7 +516,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
   - Caixa sempre desmarcada
   - Saída simples em toda mensagem
   - Nenhuma lista comprada ou trocada
-  - Lista de clientes só com base legal
+  - Base com consentimento, também na mídia paga
 - Nota: Nada muda: a regra vale para todo curso da Pós.
 
 **9. base**
@@ -529,14 +530,14 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 - Nota: A carta é única para os cursos de anestesia, para o mesmo contato não receber três ofertas na mesma semana.
 
 **10. canais**
-- Título: **24 canais**, mesmos status
+- Título: **24 canais**, parceiros fora
 - Tópicos:
-  - 13 ativos, 8 em teste, 3 fora
+  - 13 ativos, 7 em teste, 4 fora
   - LinkedIn do docente pesa mais
   - Página da área de Anestesiologia
   - Podcast com a coordenação
   - Busca técnica de cauda
-  - TikTok, X e agregadores fora
+  - TikTok, X, agregadores e parceiros fora
 - Nota: O mapa é o da Gastro; o que muda é o peso de cada canal para este público.
 
 **11. cadeia**
@@ -583,15 +584,15 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
 - Nota: Nenhuma verba nova. Se houver verba extra, LinkedIn é o primeiro canal a reavaliar.
 
 **15. parceiros**
-- Título: Parceiros da **especialidade**
+- Título: Entidades da **especialidade**
 - Tópicos:
   - Colégio da especialidade em anestesia
   - Congresso de anestesia intravenosa
   - Programa internacional de reanimação
-  - Equipes de anestesia de hospitais
-  - Indústria de monitores e ventiladores
+  - Canal de parceiros fora
+  - Sem co-marketing com empresas
   - Todos a confirmar, nenhum contatado
-- Nota: Nenhum parceiro liga a Pós a título de especialista; cada um entra só com acordo registrado.
+- Nota: Entidades entram só como pauta técnica e presença em eventos; nenhuma liga a Pós a título de especialista.
 
 **16. trilha**
 - Título: Trilha **vertical** da anestesia
@@ -623,7 +624,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
   - Indicação entre anestesistas
   - Medir contra o lead pago
   - Cada um com como desfazer
-- Nota: Docente como mídia fica em quarto lugar até sabermos o idioma das aulas internacionais e a questão do coordenador homônimo.
+- Nota: Docente como mídia fica em quarto lugar até sabermos o idioma das aulas internacionais e se o coordenador é o CEO.
 
 **19. medir**
 - Título: Medir **por círculo**
@@ -644,7 +645,7 @@ Destaque do título entre asteriscos duplos. Notas sem códigos internos.
   - Tamanho da base de anestesia
   - Idioma das aulas internacionais
   - Revisão do convite à prova de título
-  - Regra de ex-aluno e de indicação
+  - Condição completa do desconto de ex-aluno
   - Convivência entre os três cursos de anestesia
 - Nota: A regra de entrada é o primeiro pedido, porque trava página, mensagens e mídia.
 
@@ -703,8 +704,8 @@ qa-de-marketing sobre este arquivo (auditorias 02 e conformidade-educacional). E
 - Turma I: concluída ou em curso, tamanho e origem das matrículas (AV4, UN2).
 - Tamanho e consentimento dos círculos de anestesia (UN1); base legal (UA4).
 - Idioma das aulas internacionais; instrutor RECOVER e regra de marca (AV5).
-- Homonímia do Dr. Alessandro Martins com o CEO (AV6); relação com APAV e Instituto PAV (UN4).
-- Turma III (UN3); regra de ex-aluno e de indicação (UD1, UD2); sessão ao vivo (UD3).
+- Se o Dr. Alessandro Martins da ficha é o CEO da Ufape (AV6); relação com APAV e Instituto PAV (UN4).
+- Turma III (UN3); condição completa do desconto de 20% de ex-aluno (UD2) e regra da indicação, sem desconto para o indicado (UD1); sessão ao vivo (UD3).
 - CBAV, Abrativa e CBTIVA nas fontes oficiais; número de anestesistas veterinários atuantes.
 - Correções da página da 657 (frase ligada ao MEC, turma mínima, regra do 3º módulo).
 - Horas do time, revisor docente, aprovadores, YouTube e LinkedIn da Ufape (UN7, UD8).
